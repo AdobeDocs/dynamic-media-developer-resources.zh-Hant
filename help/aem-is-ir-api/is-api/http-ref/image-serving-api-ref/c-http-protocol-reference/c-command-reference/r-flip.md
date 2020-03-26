@@ -1,0 +1,54 @@
+---
+description: 翻轉圖層。 在套用crop=後和rotate=和extend=前，水準、垂直或兩者翻轉圖層。
+seo-description: 翻轉圖層。 在套用crop=後和rotate=和extend=前，水準、垂直或兩者翻轉圖層。
+seo-title: 翻轉
+solution: Experience Manager
+title: 翻轉
+topic: Scene7 Image Serving - Image Rendering API
+uuid: d28631f3-2198-4ba3-ab4b-578832db926e
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# flip{#flip}
+
+翻轉圖層。 在套用crop=後和rotate=和extend=前，水準、垂直或兩者翻轉圖層。
+
+`flip=lr|ud|lrud`
+
+<table id="simpletable_072CA0E24B7146D48AEFD70E51E849C2"> 
+ <tr class="strow"> 
+  <td class="stentry"> <p> <span class="codeph"> lr </span> </p> </td> 
+  <td class="stentry"> <p>水準（從左到右）翻動圖層。 </p> </td> 
+ </tr> 
+ <tr class="strow"> 
+  <td class="stentry"> <p> <span class="codeph"> ud </span> </p> </td> 
+  <td class="stentry"> <p>垂直（向上）翻轉圖層。 </p> </td> 
+ </tr> 
+ <tr class="strow"> 
+  <td class="stentry"> <p> <span class="codeph"> lrud </span> </p> </td> 
+  <td class="stentry"> <p>水準和垂直翻轉。 </p> </td> 
+ </tr> 
+</table>
+
+也可套用至文字圖層。
+
+某些命令(包 `extend=`括)在選中時會隱式應用於層0而非複合 `layer=comp` 層。 在這種情況下，自動分配給第0層的所有命令都將在應用於的命令之前應用 `layer=comp`。 因此，在 `layer=comp`之前 `extend=` 應用此選項 `flip=`。
+
+>[!NOTE]
+>
+>翻轉的圖層基於圖層錨點進行定位；當錨點不位於圖層中心時，不同的flip=值會導致不同的圖層位置。
+
+## 屬性 {#section-294da2af7be746b5adfc35e29ee68217}
+
+圖層命令。 應用於當前圖層或複合影像（如果） `layer=comp`。 被效果圖層忽略。
+
+## 預設 {#section-502044f81a89492198d5f12a738459ea}
+
+無。
+
+## 另請參閱 {#section-47f6484deccd420983df15ec163b4a83}
+
+[rotate=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096) ，錨 [點=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-anchor.md#reference-6661e548ab284b82828d8d94c8ddeb7c)
