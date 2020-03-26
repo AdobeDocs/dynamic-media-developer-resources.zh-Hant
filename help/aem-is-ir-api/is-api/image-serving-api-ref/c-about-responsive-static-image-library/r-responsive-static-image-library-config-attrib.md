@@ -1,0 +1,102 @@
+---
+description: 配置屬性直接定義為「自適應影像庫」管理的IMG元素上的屬性。 每個影像都可以有其專屬的屬性集。
+seo-description: 配置屬性直接定義為「自適應影像庫」管理的IMG元素上的屬性。 每個影像都可以有其專屬的屬性集。
+seo-title: 命令參考——配置屬性
+solution: Experience Manager
+title: 命令參考——配置屬性
+topic: Scene7 Image Serving - Image Rendering API
+uuid: a3d52680-2a28-40c8-9b5f-b1c252c88e4d
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# 命令參考——配置屬性{#command-reference-configuration-attributes}
+
+配置屬性直接定義為「自適應影像庫」管理的IMG元素上的屬性。 每個影像都可以有其專屬的屬性集。
+
+## data-src {#section-f52ff0f139604447a870abe6e1c03444}
+
+選填。
+
+影像伺服所提供影像的URL。 如果URL不存在，程式庫會使用在屬性中設定的值 `src` 做為回落。 此屬性可支援互動式影像庫從不同位置管理的初始影像和動態影像。
+
+**範例**
+
+```
+<img data-src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360,720,940">
+```
+
+## src {#section-5dbc1f9a3c274705adb9702e4c7af0b1}
+
+如果 `data-src` 已設定， `src` 則為選用，且可包含您要新增的任何URL。 例如，它可包含資料庫所使用之相同影像伺服影像的URL。 或者，它可包含GIF預留位置，或甚至資料URI，以避免啟動時出現額外的伺服器往返。
+
+如果 `data-src` 未設定，則 `src` 為強制性，且必須包含影像伺服所提供影像的URL。
+
+**範例**
+
+使用屬性的資料URI `src` 和屬性的影像伺服URL `data-src` :
+
+```
+<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360,720,940">
+```
+
+## 資料斷點 {#section-3bf62a89ff3e40569848c1fe3ac7886c}
+
+以逗號分隔的中斷點清單，並可選地後面加上冒號( `:`)和影像伺服指令或影像預設集。 每個斷點都是以邏輯CSS像素定義的影像寬度值。 程式庫會從清單中載入最大值的影像，並在用戶端上縮放影像，以符合執行時期的CSS影像寬度。 （如果您在高密度螢幕上工作，從伺服器載入的影像轉譯代表斷點值乘以裝置的像素比例）。
+
+對於清單中的任何斷點，可以定義一個或多個影像服務命令或影像預設集名稱。 這些額外參數只會套用至影像，以防此特定的斷點目前處於作用中。
+
+除了那些影響響應影像大小的視圖命令（如、或）外，您可以使用任何支 `wid=`持的 `hei=`影像服務命 `scl=`令。 影像預設集的限制也相同：與自適應影像庫一起使用的影像預設集不得包含此類命令。
+
+多個影像伺服指令或影像預設集名稱會以&quot; `&`&quot;字元分隔。 如果「影像伺服」命令的值中有逗號，則會以逗號取代此類逗號 `%2C`。 「影像預設集」名稱會用貨幣符號( `$`)包住。
+
+**範例**
+
+**僅使用中斷點**
+
+`<img src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360,720">`
+
+**使用影像伺服命令**
+
+`<img src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360:op_sharpen=1,720:resMode=sharp2&op_usm=0.9%2C1.0%2C8%2C0">`
+
+**使用影像預設集**
+
+`<img src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360:$ResponsiveImage_Low$,940:$ResponsiveImage_High$">`
+
+**使用影像預設集和影像伺服命令**
+
+`<img src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360:qlt=50,940:$ResponsiveImage_High$">`
+
+## 資料模式 {#section-97caf43cf5ab4ca8b1b866d8f394a9a4}
+
+AEM 6.4和更新版本以及Scene7檢視器5.9和更新版本提供下列兩種智慧型裁切模式：
+
+* **Manual** —— 用戶定義的斷點和相應的Image Service命令在影像元素的屬性中定義。
+* **智慧型裁切** -計算的智慧型裁切轉譯會自動從傳送伺服器擷取。 使用影像元素的執行時期大小來選取最佳轉譯。
+
+要使用「智慧裁切」模式，請將屬 `data-mode` 性設定為 `smart crop`。
+
+**範例**
+
+```
+<img 
+src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" 
+data-src="https://imageserver.com/is/image/ExampleCo/SmartCropAsset" 
+data-mode="smartcrop">
+```
+
+當斷點改變時，關聯的映像元 `s7responsiveViewer` 素在運行時調度事件。
+
+```
+         responsiveImage.addEventListener("s7responsiveViewer", function (event) { 
+           var s7event = event.s7responsiveViewerEvent; 
+           if(s7event.type == "breakpointchanged") { 
+              console.log("New width: " + s7event.width); 
+              console.log("Old width: " + s7event.oldWidth); 
+           } 
+        });
+```
+
