@@ -1,0 +1,62 @@
+---
+description: 控制列是矩形區域，包含並位於影片檢視器可用的所有使用者介面控制項（例如播放／暫停按鈕、音量控制項等）後面。
+seo-description: 控制列是矩形區域，包含並位於影片檢視器可用的所有使用者介面控制項（例如播放／暫停按鈕、音量控制項等）後面。
+seo-title: 控制列
+solution: Experience Manager
+title: 控制列
+topic: Dynamic media
+uuid: 328e34f1-9e60-4056-9a8a-e9292fb65605
+translation-type: tm+mt
+source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+
+---
+
+
+# 控制列{#control-bar}
+
+控制列是矩形區域，包含並位於影片檢視器可用的所有使用者介面控制項（例如播放／暫停按鈕、音量控制項等）後面。
+
+<!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
+
+控制列一律會取用整個可用的檢視器寬度。 您可以透過CSS相對於視訊檢視器容器來變更其顏色、高度和垂直位置。
+
+下列CSS類別選擇器會控制控制列的外觀：
+
+```
+.s7video360viewer .s7controlbar
+```
+
+## 控制列的CSS屬性 {#css-properties-of-the-control-bar}
+
+<table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> 頂部 </span> </p> </td> 
+   <td colname="col2"> <p>從上邊框的位置，包括間距。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> 底部 </span> </p> </td> 
+   <td colname="col2"> <p> 從底部邊框的位置，包括間距。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col2"> <p>控制列的高度。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
+   <td colname="col2"> <p>控制列的背景顏色。 </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+**範例** -若要設定視訊檢視器，其灰色控制列高度為30像素，並位於視訊檢視器容器的頂端。
+
+```
+.s7video360viewer .s7controlbar {  
+position: absolute; 
+top: 0px; 
+height: 30px; 
+background-color: rgb(51, 51, 51); 
+}
+```
+
