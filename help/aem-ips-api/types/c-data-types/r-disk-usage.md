@@ -1,0 +1,30 @@
+---
+description: 資產或資料夾的磁碟空間統計資訊。
+seo-description: 資產或資料夾的磁碟空間統計資訊。
+seo-title: DiskUsage
+solution: Experience Manager
+title: DiskUsage
+topic: Scene7 Image Production System API
+uuid: a63f0ed0-c689-43b0-9c3e-9500715d15a5
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# DiskUsage{#diskusage}
+
+資產或資料夾的磁碟空間統計資訊。
+
+語法
+
+## 參數 {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
+
+| 名稱 | 類型 | 說明 |
+|---|---|---|
+| ` *`companyHandle`*` | `xsd:string` | 公司負責人。 |
+| ` *`companyName`*` | `xsd:string` | 公司名稱. |
+| ` *`imageCount`*` | `xsd:int` | 儲存的影像數。 |
+| ` *`diskSpaceUsage`*` | `xsd:long` | 檔案端總計（以KB為單位）。 |
+| ` *`lastModified`*` | `xsd:dateTime` | 上次修改類型的日期、時 `DiskUsage` 間和時區。 |
+
