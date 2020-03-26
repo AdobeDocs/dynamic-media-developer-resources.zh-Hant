@@ -1,0 +1,70 @@
+---
+description: 建立影像格式。
+seo-description: 建立影像格式。
+seo-title: saveImageFormat
+solution: Experience Manager
+title: saveImageFormat
+topic: Scene7 Image Production System API
+uuid: b11ea668-7a82-439c-b16b-909dc86c00a2
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# saveImageFormat{#saveimageformat}
+
+建立影像格式。
+
+>[!NOTE]
+>
+>欄位 `urlModifier` 值必須由有效的XML組成。 例如，變更 `&` 為 `&`。 從IPS `urlModfier` 用戶介面獲取值。
+
+## 授權使用者類型 {#section-12c9d8d5933f4692bafb194060b4f882}
+
+* `IpsUser`
+* `IpsAdmin`
+* `IpsCompanyAdmin`
+* `ImagePortalAdmin`
+
+## 參數 {#section-b1fc2fe8d606490ba3a2c979ab8bbd78}
+
+**輸入(saveImageFormatParam)**
+
+| 名稱 | 類型 | 必要 | 說明 |
+|---|---|---|---|
+| ` *`companyHandle`*` | `xsd:string` | 是 | 您要使用之影像格式的公司控制代碼。 |
+| ` *`imageFormatHandle`*` | `xsd:string` | 否 | 要保存的影像格式句柄。 |
+| ` *`名稱`*` | `xsd:string` | 是 | 影像格式名稱。 |
+| ` *`urlModifier`*` | `xsd:string` | 是 | 這可以是任何IPS協定查詢字串。 要產生URL修飾元，最簡單的方式是使用IPS使用者介面建立URL修飾元，然後剪下並貼上查詢字串。 |
+
+**輸出(saveImageFormatReturn)**
+
+| 名稱 | 類型 | 必要 | 說明 |
+|---|---|---|---|
+| ` *`imageFormatHandle`*` | `xsd:string` | 是 | 影像格式的控制代碼。 |
+
+## 範例 {#section-c7bd733212ef494297a97093f3af193f}
+
+此程式碼範例會建立影像格式。 在此示例中， `urlModifier` 由其在IPS用戶介面中的值確定，其格式為有效的HTML格式。
+
+**請求**
+
+```java
+<saveImageFormatParam xmlns="http://www.scene7.com/IpsApi/xsd"> 
+   <companyHandle>47</companyHandle> 
+   <name>My Image Format Name</name> 
+   <urlModifier>wid=400&amp;hei=400&amp;fmt=jpeg&amp;qlt=750&amp;op_sharpen=0&amp; 
+   resMode=bicub&amp;op_usm=0.0,0.0,0,0&amp;iccEmbed=0 
+   </urlModifier> 
+</saveImageFormatParam>
+```
+
+**回答**
+
+```java
+<saveImageFormatReturn xmlns="http://www.scene7.com/IpsApi/xsd"> 
+   <imageFormatHandle>47|301</imageFormatHandle> 
+</saveImageFormatReturn>
+```
+
