@@ -1,0 +1,21 @@
+---
+description: 影像演算支援ISO-8859-1和UTF-8編碼的材質型錄。
+seo-description: 影像演算支援ISO-8859-1和UTF-8編碼的材質型錄。
+seo-title: 字元編碼
+solution: Experience Manager
+title: 字元編碼
+topic: Scene7 Image Serving - Image Rendering API
+uuid: efc3971b-dca1-4b47-a197-c10270ce17c9
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# Character encoding{#character-encoding}
+
+影像演算支援ISO-8859-1和UTF-8編碼的材質型錄。
+
+位元組順序標籤(BOM)用於指定每個檔案的編碼。 對於UTF-8,BOM是位元組序列 `EF BB BF`。 在每個材質目錄檔案的開頭處偵測到此字元序列時，會假設使用UTF-8編碼。 任何其他位元組序列都會導致檔案被解譯為已編碼至ISO-8859-1標準。
+
+許多當代應用程式在設定為UTF-8時，會自動插入BOM。
