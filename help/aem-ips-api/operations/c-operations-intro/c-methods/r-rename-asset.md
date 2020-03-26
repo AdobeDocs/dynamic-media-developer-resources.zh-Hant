@@ -1,0 +1,69 @@
+---
+description: 重新命名資產。
+seo-description: 重新命名資產。
+seo-title: renameAsset
+solution: Experience Manager
+title: renameAsset
+topic: Scene7 Image Production System API
+uuid: f285d7e4-00df-4d90-a05a-71747a4c54cc
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# renameAsset{#renameasset}
+
+重新命名資產。
+
+>[!NOTE]
+>
+>此參 `renameFiles` 數在舊版中已過時，並已從中移除 `renameAsset`。 虛擬檔案路徑會變更為符合新資產名稱（保留副檔名），而物理檔案路徑則不受影響。 API用戶端在更新至新API版本時，必須移除此參數的參考。
+
+## 授權使用者類型 {#section-cc27ad713c6d498b8f056850b20976f4}
+
+* `IpsUser`
+* `IpsAdmin`
+* `IpsCompanyAdmin`
+* `ImagePortalAdmin`
+* `ImagePortalContrib`
+* `ImpagePortalContribUser`
+
+>[!NOTE]
+>
+>使用者必須擁有資產的讀取和寫入存取權。
+
+## 參數 {#section-ef95a994106841e0ab346dd4cf672258}
+
+**輸入(renameAssetParam)**
+
+| 名稱 | 類型 | 必要 | 說明 |
+|---|---|---|---|
+| ` *`companyHandle`*` | `xsd:string` | 是 | 資產所屬公司的控制代碼。 |
+| ` *`assetHandle`*` | `xsd:string` | 是 | 您要重新命名的資產的控制代碼。 |
+| ` *`newName`*` | `xsd:string` | 是 | 資產的新名稱。 |
+| ` *`validateName`*` | `xsd:boolean` | 是 | 如果為 `validateName` 且資 `true` 產類型需要唯一的IPS ID，則會檢查新名稱是否具有全域唯一性，並 `renameAsset` 在名稱不唯一時引發錯誤。 |
+
+**輸出(renameAssetReturn)**
+
+IPS API不會傳回此作業的回應。 如需此元素的注意事項， `<ns1:validateName>` 請參閱元素的說明。
+
+## 範例 {#section-a0ddffd62bec42e09069f22ceb486f8a}
+
+此程式碼範例會重新命名資產
+
+**請求**
+
+```java
+<ns1:renameAssetParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">
+   <ns1:companyHandle>47</ns1:companyHandle>
+   <ns1:assetHandle>24265|1|17061</ns1:assetHandle>
+   <ns1:newName>My Newly Renamed Image</ns1:newName>
+   <ns1:validateName>true</ns1:validateName>
+   <ns1:renameFiles>true</ns1:renameFiles>
+</ns1:renameAssetParam>
+```
+
+**回答**
+
+無。
