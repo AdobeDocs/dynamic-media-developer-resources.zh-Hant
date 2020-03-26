@@ -1,0 +1,40 @@
+---
+description: 靜態內容類型篩選。 指定透過/is/content傳送之靜態內容的篩選字串。
+seo-description: 靜態內容類型篩選。 指定透過/is/content傳送之靜態內容的篩選字串。
+seo-title: type
+solution: Experience Manager
+title: type
+topic: Scene7 Image Serving - Image Rendering API
+uuid: 44906190-516c-481c-9714-bb19d77af33c
+translation-type: tm+mt
+source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
+
+---
+
+
+# 類型{#type}
+
+靜態內容類型篩選。 指定透過/is/content傳送之靜態內容的篩選字串。
+
+`type= *`val`*`
+
+<table id="simpletable_B66354A826434A678F3DBC686A0F1436"> 
+ <tr class="strow"> 
+  <td class="stentry"> <p><span class="varname"> val</span> </p> </td> 
+  <td class="stentry"> <p>輸入篩選字串。 </p></td> 
+ </tr> 
+</table>
+
+伺服器會比較val與所請求之靜 `catalog::Type` 態內容項目的值。 如果值符合（區分大小寫），項目會傳回給用戶端，否則會傳回錯誤。
+
+## 屬性 {#section-529b088434a44a9f86a64ef548d2925b}
+
+僅支援透過提供的靜態內容（非影像）要求。 如果為空 `catalog::Type` 白或未定義，則忽略。
+
+## 預設 {#section-e9e8f51d0a01452183ccb510efd87d46}
+
+如果未指定或空白，則 `type=` 不應用任何類型匹配。
+
+## 另請參閱 {#section-da60777a46a74f1bbfa5b2f3b240eb0f}
+
+[伺服靜態（非影像）內容](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-serving-static-non-image-content.md#reference-cbe50e697fdf4c7bbb0084f98b7739da)，目 [錄：::UserType](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-usertype-cat.md)
