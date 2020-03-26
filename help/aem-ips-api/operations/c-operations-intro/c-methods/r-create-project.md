@@ -1,0 +1,63 @@
+---
+description: 建立新專案。
+seo-description: 建立新專案。
+seo-title: createProject
+solution: Experience Manager
+title: createProject
+topic: Scene7 Image Production System API
+uuid: e011b7ba-6c15-47ef-9ea1-6189c37e7719
+translation-type: tm+mt
+source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
+
+---
+
+
+# createProject{#createproject}
+
+建立新專案。
+
+語法
+
+## 授權使用者類型 {#section-17878e2e4c3a44988c9a1af82c2ac319}
+
+* `IpsUser`
+* `IpsAdmin`
+* `IpsCompanyAdmin`
+* `ImagePortalAdmin`
+* `ImagePortalContrib`
+* `ImagePortalContribUser`
+
+## 參數 {#section-8c741884eb54489bbaad0c444fee80b6}
+
+**輸入(createProjectParam)**
+
+| 名稱 | 類型 | 必要 | 說明 |
+|---|---|---|---|
+| ` *`companyHandle`*` | `xsd:string` | 是 | 與新項目關聯的公司的控制代碼。 |
+| ` *`projectName`*` | `xsd:string` | 是 | 新專案名稱。 |
+
+**輸出(createProjectParam)**
+
+| 名稱 | 類型 | 必要 | 說明 |
+|---|---|---|---|
+| ` *`projectHandle`*` | `xsd:string` | 是 | 新專案的控制代碼。 |
+
+## 範例 {#section-a0cd532b67e346d088fbec141231a0e5}
+
+此程式碼範例會建立由其控 `ApiTestProject` 制代碼指定之公司中呼叫的專案。 回應會將控制代碼傳回至專案。
+
+**請求**
+
+```java
+<createProjectParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">
+   <companyHandle>c|6</companyHandle>
+   <projectName>ApiTestProject</projectName>
+</createProjectParam>
+```
+
+```java
+<createProjectReturn xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">
+   <projectHandle>p|6|ApiTestProject</projectHandle>
+</createProjectReturn>
+```
+
