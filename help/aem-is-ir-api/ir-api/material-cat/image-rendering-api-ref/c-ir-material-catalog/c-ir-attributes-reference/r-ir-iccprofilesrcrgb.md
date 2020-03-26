@@ -1,0 +1,29 @@
+---
+description: RGB預設輸入色彩描述檔。 指定ICC色彩描述檔的名稱，此描述檔用於未嵌入色彩描述檔的RGB材質影像和暈映，以及使用各種「影像演算」指令（例如bgc=和color=）指定的RGB色彩值。
+seo-description: RGB預設輸入色彩描述檔。 指定ICC色彩描述檔的名稱，此描述檔用於未嵌入色彩描述檔的RGB材質影像和暈映，以及使用各種「影像演算」指令（例如bgc=和color=）指定的RGB色彩值。
+seo-title: IccProfileSrcRgb
+solution: Experience Manager
+title: IccProfileSrcRgb
+topic: Scene7 Image Serving - Image Rendering API
+uuid: 9657e296-0d2a-4b05-9be7-5a54d3277f90
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# IccProfileSrcRgb{#iccprofilesrcrgb}
+
+RGB預設輸入色彩描述檔。 指定ICC色彩描述檔的名稱，此描述檔用於未嵌入色彩描述檔的RGB材質影像和暈映，以及使用各種「影像演算」指令（例如bgc=和color=）指定的RGB色彩值。
+
+## 屬性 {#section-c22966bba03e43c08e9d3fb91bfdd465}
+
+文字字串。 如果指定，則必須是此映 `icc::Name` 像目錄或預設目錄的ICC配置檔案映射中的有效值，或相對於的檔案路徑 `attribute::RootPath`。 參考的ICC描述檔必須是RGB描述檔。
+
+## 預設 {#section-0171cd6680284bfa9844b9cc3644ca61}
+
+繼承自 `default::IccProfileSrcRgb` （如果未定義或為空）。 如果 `attribute::IccProfileSrcRgb` 未解析為有效的描述檔，則 `attribute::IccProfileRgb` 會改用。
+
+## 另請參閱 {#section-1ba91666830f4c209c39260ea29f938e}
+
+[icc::Name](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-icc-profile-map-reference/r-ir-name-icc.md#reference-7a293ede360e433782575f8f6a562ac2) , [attribute::IccRenderIntent](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccrenderintent.md#reference-3b80b7a4c25545a593c5076f318b5c40), [attribute::IccProfileRgb](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccprofilergb.md#reference-cdaad25b155646ffa382d722fd324b30), [attribute::RootPath](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rootpath.md#reference-a4d7c96b62e14fcbad1740c702f160f3)
