@@ -1,0 +1,50 @@
+---
+description: 文字路徑。 指定用作文字Ps=所提供之文字基線的路徑。
+seo-description: 文字路徑。 指定用作文字Ps=所提供之文字基線的路徑。
+seo-title: textPath
+solution: Experience Manager
+title: textPath
+topic: Scene7 Image Serving - Image Rendering API
+uuid: a2f0047b-ad62-4605-a723-b43d53fbea56
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# textPath{#textpath}
+
+文字路徑。 指定用作文字Ps=所提供之文字基線的路徑。
+
+textPath= *`pathDefinition`*
+
+<table id="simpletable_74F549E8625B483A9B334B24A7EB6D22"> 
+ <tr class="strow"> 
+  <td class="stentry"> <p><span class="varname"> pathDefinition</span> </p> </td> 
+  <td class="stentry"> <p>路徑資料。 </p></td> 
+ </tr> 
+</table>
+
+如需 [其他資訊](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d) ，包括的說明，請參閱clipPath= *`pathDefinition`*。
+
+>[!NOTE]
+>
+>與之不 `clipPath=`同的是，當子路徑結尾未指定&#39;z&#39;或&#39;Z&#39;時，不會自動關閉文字路徑。
+
+*`pathDefinition`* 可能包括多個子路徑。 文字會按照指定的順序呈現在子路徑上。
+
+RTF命令、 `\ql`、 `\qc`和可 `\qr``\li``\ri` 以用於沿路徑定位所渲染的文本。
+
+## 屬性 {#section-068137df436c46b9b55d271eb60e7285}
+
+文字圖層屬性( `textPs=` 僅限)。 被其他圖層忽略。 如果已 `layer=0` 指定，則套用至 `layer=comp`。 如果存在， `textPs=` 則忽略。
+
+如果圖層同時包含和，則會傳回 `textPath=` 錯誤 `textFlowPath=`。
+
+## 預設 {#section-697b1f2cfc43498080a31327e6eb173d}
+
+無，用於標準文本渲染。
+
+## 另請參閱 {#section-3050d8f47e1d4f5c9b474dece45ea93d}
+
+[textPs=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textps.md#reference-4209a2a6169f44278da2647cfb0cd767) , [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d), [textFlowPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textflowpath.md#reference-0b8d9493d71342f0b6a64a6d221584ef)，文字圖 [層](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/r-text-layers.md#reference-47e78cfb18134db5ab09e17af14a6a8f)
