@@ -1,0 +1,54 @@
+---
+description: 銳利化紋理。 指定渲染此材料時要應用的銳利化。
+seo-description: 銳利化紋理。 指定渲染此材料時要應用的銳利化。
+seo-title: 銳利
+solution: Experience Manager
+title: 銳利
+topic: Scene7 Image Serving - Image Rendering API
+uuid: 8265eebf-9cec-4ad3-8b22-0f46f33a89f1
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# sharp{#sharp}
+
+銳利化紋理。 指定渲染此材料時要應用的銳利化。
+
+`sharp=0|1|2|3`
+
+<table id="simpletable_04B4EAA7CE7D4ED48A61A50CD001388F"> 
+ <tr class="strow"> 
+  <td class="stentry"> <p>0 </p> </td> 
+  <td class="stentry"> <p>沒有銳利化。 </p> </td> 
+ </tr> 
+ <tr class="strow"> 
+  <td class="stentry"> <p>1 </p> </td> 
+  <td class="stentry"> <p>正常銳利化（延遲）。 </p> </td> 
+ </tr> 
+ <tr class="strow"> 
+  <td class="stentry"> <p>2 </p> </td> 
+  <td class="stentry"> <p>0個替代銳利化（早期）。 </p> </td> 
+ </tr> 
+ <tr class="strow"> 
+  <td class="stentry"> <p>3 </p> </td> 
+  <td class="stentry"> <p>更銳利（早晚）。 </p> </td> 
+ </tr> 
+</table>
+
+`sharp=1` 在材質轉譯後套用銳利化；在 `sharp=2` 初始縮放紋理之後，但在將其轉換為場景之前，應用銳利化；在變 `sharp=3` 形前後都套用銳利化。
+
+銳利化演算法和銳利化量以及其他USM（非銳利化遮色片）參數由暈映或隨附提供的預設材質範本控制 `rs=`。
+
+## 屬性 {#section-498ec9fcb8eb415fb99532d36c11d4c7}
+
+材料屬性。 被純色材料忽略。
+
+## 預設 {#section-febfa16e65864987b4d328e2ff1df64d}
+
+`catalog::Sharp`，則該材料基於目錄條目，否則 `attribute::Sharp`。
+
+## 另請參閱 {#section-0d5e2c94342c4ee586374ad9c917eeb9}
+
+[目錄：:Sharp](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-sharp-dataref.md#reference-f79a14bd52474dfd8495115d398a30d0) , [sharpen=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharpen.md#reference-13034d22d176483cb99ccafc2a4f6a6e), [rs=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rs.md#reference-d20cefaaa6cd4f449d1591c87959b4cf)
