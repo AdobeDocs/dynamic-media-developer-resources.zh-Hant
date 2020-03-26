@@ -1,0 +1,87 @@
+---
+description: 回應影像最適模式。 指定比例因子的計算方式，當指定響應大小wid=和hei=和scl=時，該比例因子用於將合成影像縮放到響應影像。
+seo-description: 回應影像最適模式。 指定比例因子的計算方式，當指定響應大小wid=和hei=和scl=時，該比例因子用於將合成影像縮放到響應影像。
+seo-title: 符合
+solution: Experience Manager
+title: 符合
+topic: Scene7 Image Serving - Image Rendering API
+uuid: 669fe757-f3a1-4cd4-b46c-6fbe5a039ce0
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# 符合{#fit}
+
+回應影像最適模式。 指定比例因子的計算方式，當指定響應大小wid=和hei=和scl=時，該比例因子用於將合成影像縮放到響應影像。
+
+` fit= *`Modesupcal`*, *`版`*`
+
+<table id="simpletable_50FBDC6B7CB2448891DD0F491DEB5ACF"> 
+ <tr class="strow"> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 模式 </span></span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> fit|constrain|crop|wrap|stretch|hfit|vfit </span> </p> </td> 
+ </tr> 
+ <tr class="strow"> 
+  <td class="stentry"> <p> <span class="codeph"> 高 <span class="varname"> 檔 </span> 版 </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
+ </tr> 
+</table>
+
+在下面的模式選項說明中，假定 *`xScale`* 是合成影像寬度與響應影像寬度的比值， *`yScale`* 是合成影像高度與響應影像高度的比值。
+
+<table id="table_33408ECA9D164AFAA249F8589060545E"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> 參數 </th> 
+   <th colname="col2" class="entry"> 定義 </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr valign="top"> 
+   <td colname="col1"> <p> <span class="codeph"> 符合 </span> </p> </td> 
+   <td colname="col2"> <p>縮放合成影像，使其適合使用wid=和hei= <span class="codeph"> 分配的空間 </span> , <span class="codeph"> 而且空間最小 </span>且不會裁切。 回應影像的大小與wid=和hei= <span class="codeph"> 所指定 </span> 的 <span class="codeph"> 大小完全相同 </span>。 會套用 <span class="varname"> xScale </span> 和 <span class="varname"> yScale </span> 中較小的。 </p> </td> 
+  </tr> 
+  <tr valign="top"> 
+   <td colname="col1"> <p> <span class="codeph"> 約束 </span> </p> </td> 
+   <td colname="col2"> <p>調整適合的 <span class="codeph"> 比例 </span> ，使其適合分配 <span class="codeph"> wid=和 </span><span class="codeph"> wid=和hei的空間，但實際響應可能比指定的wid=和hei=避免複合空間的 </span><span class="codeph"></span><span class="codeph"></span> wid=和hei=Hei=Hei=Hei=Hei=Hei=Hei=Hei=Hei的空間。 會套用 <span class="varname"> xScale </span> 和 <span class="varname"> yScale </span> 中較小的。 </p> </td> 
+  </tr> 
+  <tr valign="top"> 
+   <td colname="col1"> <p> <span class="codeph"> 裁切 </span> </p> </td> 
+   <td colname="col2"> <p>縮放合成影像，以填滿整個回應影像，而且裁切次數很少，沒有空格。 套用較大 <span class="varname"> 的xScale </span> 和 <span class="varname"> yScale </span> 值。 </p> </td> 
+  </tr> 
+  <tr valign="top"> 
+   <td colname="col1"> <p> <span class="codeph"> 換行 </span> </p> </td> 
+   <td colname="col2"> <p>縮放合成影像 <span class="codeph"> ( </span> 如裁切)，以覆蓋整個回應影像，但實際回應影像可能比指定的wid=和hei=大，以避 <span class="codeph"></span><span class="codeph"></span> 免裁切。 套用較大 <span class="varname"> 的xScale </span> 和 <span class="varname"> yScale </span>值。 </p> </td> 
+  </tr> 
+  <tr valign="top"> 
+   <td colname="col1"> <p> <span class="codeph"> 拉伸 </span> </p> </td> 
+   <td colname="col2"> <p>以x和y單獨縮放合成影像，以填滿整個回應影像，而不會裁切，也不會加上空格。 這通常會變更影像的外觀比例。 <span class="varname"> xScale </span> 用於水準縮放， <span class="varname"> yScale </span> 用於垂直縮放。 </p> </td> 
+  </tr> 
+  <tr valign="top"> 
+   <td colname="col1"> <p> <span class="codeph"> hfit </span> </p> </td> 
+   <td colname="col2"> <p>套用 <span class="varname"> xScale </span> 以水準方式緊密配合影像，其上方和／或下方可能有裁切或空格。 適用於特殊應用程式。 </p> </td> 
+  </tr> 
+  <tr valign="top"> 
+   <td colname="col1"> <p> <span class="codeph"> vfit </span> </p> </td> 
+   <td colname="col2"> <p>套用 <span class="varname"> Scale </span> 以垂直調整影像，其左側和／或右側可能會有裁切或空格。 適用於特殊應用程式。 </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+設 *`upscale`* 定為&#39;1&#39;可允許升級，或設為&#39;0&#39;可限制*`xScale`* *`yScale`* ，並限制為1:1。 如果停用升級，如果合成影像小於回應影像，則可能會有額外的空白字元。
+
+裁切和空格預設會置中；他們的位置可以用控制 `align=`。 空白填色的顏色和不透明度由決定 `bgc=`。
+
+## 屬性 {#section-6d7a5a7e18434bca9bc2fdb236af8909}
+
+檢視屬性。 不論目前的圖層設定為何，都適用。 至少必須指定 `wid=` 或 `hei=` 其中之一，否則返回錯誤；必 `wid=` 須指 `hei=` 定和，以使適合模式如說明般運作。 當也指定錯誤時 `req=tmb` 也會傳回錯誤。
+
+## 預設 {#section-3a553b4b29ef447a8331d6954f3f06da}
+
+`fit=fit,0`
+
+## 另請參閱 {#section-788f7e168da64fc5abf29d971a598b01}
+
+[wid=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-wid.md#reference-bfeadcb67bf4485f851eb21345527e47) , [hei=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-hei.md#reference-6d6f556ccc0e4b98a815e8a5c1944a96), [scl=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-scl.md#reference-b2a74e493d0d407e98fe350551ba3fcc), [align=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-align.md#reference-b7d6b87c75124d78884f916dd6544bc7)
