@@ -1,0 +1,31 @@
+---
+description: 平台伺服器會將所有回覆影像和特定文字資料快取至磁碟，除非請求標示為不可快取。
+seo-description: 平台伺服器會將所有回覆影像和特定文字資料快取至磁碟，除非請求標示為不可快取。
+seo-title: 回應資料快取
+solution: Experience Manager
+title: 回應資料快取
+topic: Scene7 Image Serving - Image Rendering API
+uuid: dbfda210-3b50-4e8c-8d77-7263ae4e80a2
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# 回應資料快取{#response-data-cache}
+
+平台伺服器會將所有回覆影像和特定文字資料快取至磁碟，除非請求標示為不可快取。
+
+平台伺服器的磁碟快取的位置已設定為 `PS::cache.rootPaths`。
+
+對於具有高快取命中率的應用程式，您可以通過在多個磁碟設備之間分發響應資料快取來提高伺服器效能和容量。 通過在每個磁碟上建立快取根資料夾並在中註冊它們，可以完成此操作 `PS::cache.rootPaths`。
+
+`PS::cache.maxSize` 指定所有快取條目的總大小，而不考慮任何檔案系統開銷。 實際需要的磁碟空間量取決於檔案系統屬性（如磁碟塊大小）和快取條目數。 建議為HTTP磁碟快取保留的磁碟空間，是指定數量的兩倍 `PS::cache.maxSize`。 使用最近最少使用的演算法，將快取的資料量保持在限制內。
+
+此外，還 `PS::cache.maxSize`通過限制具有的最大快取條目數來管理響應快取 `PS::cache.maxEntries`。 在Linux上，此設定必須指定一個不大於快取分區上可用indo的數目的值。
+
+>[!NOTE] {class=&quot;- topic/note &quot;}
+>
+>平台伺服器維護記憶體中快取索引。 此索引的大小是值的32個位元組 `PS::cache.maxEntries`。 您可能需要增加平台伺服器堆大小以容納較大的快取。
+
+當伺服器按順序關閉時，系統使用快取索引檔案保存到磁碟。 如果發生意外事件（如電源故障），則可能無法保存此檔案。 此外，平台伺服器可能需要幾分鐘的時間才能準備就緒。
