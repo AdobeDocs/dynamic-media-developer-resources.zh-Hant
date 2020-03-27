@@ -1,0 +1,33 @@
+---
+description: 啟用合成字型變化。 控制如果要求此種樣式，但在字型圖中找不到，則伺服器應產生錯誤回應或合成粗體、斜體或粗體／斜體字型樣式。
+seo-description: 啟用合成字型變化。 控制如果要求此種樣式，但在字型圖中找不到，則伺服器應產生錯誤回應或合成粗體、斜體或粗體／斜體字型樣式。
+seo-title: NesighateFontStyles
+solution: Experience Manager
+title: NesighateFontStyles
+topic: Scene7 Image Serving - Image Rendering API
+uuid: f1c67490-7f14-4a6c-a7ba-5a476231ef34
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# NesighateFontStyles{#synthesizefontstyles}
+
+啟用合成字型變化。 控制如果要求此種樣式，但在字型圖中找不到，則伺服器應產生錯誤回應或合成粗體、斜體或粗體／斜體字型樣式。
+
+>[!NOTE]
+>
+>合成字型樣式通常會產生低品質的轉譯效果，而不是使用實際的字型。
+
+## 屬性 {#section-3205560a74774ebf9c916b07bd15aca6}
+
+標幟. 設為0可停用，設為1可啟用合成字型樣式。
+
+## 預設 {#section-71f94aa65e404d14b441674c040b59e3}
+
+繼承自 `default::SynthesizeFontStyles` （如果未定義或為空）。
+
+## 另請參閱 {#section-47a79659cc844272b6d5f36c946e12ac}
+
+[字型圖參考](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/c-font-map-reference.md#concept-f81f319d03c646c5a8ef87b3277dd37d)
