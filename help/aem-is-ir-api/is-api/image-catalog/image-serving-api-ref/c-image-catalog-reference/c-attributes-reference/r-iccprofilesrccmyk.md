@@ -1,0 +1,29 @@
+---
+description: CMYK預設輸入色彩描述檔。 指定不嵌入色彩描述檔的CMYK來源影像，以及使用各種「影像伺服」指令（例如color=）指定的特定CMYK色彩值，所要使用的ICC色彩描述檔名稱。
+seo-description: CMYK預設輸入色彩描述檔。 指定不嵌入色彩描述檔的CMYK來源影像，以及使用各種「影像伺服」指令（例如color=）指定的特定CMYK色彩值，所要使用的ICC色彩描述檔名稱。
+seo-title: IccProfileSrcCmyk
+solution: Experience Manager
+title: IccProfileSrcCmyk
+topic: Scene7 Image Serving - Image Rendering API
+uuid: 5f1c2eb6-7f32-4603-9587-d8c1f6a72bb0
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# IccProfileSrcCmyk{#iccprofilesrccmyk}
+
+CMYK預設輸入色彩描述檔。 指定不嵌入色彩描述檔的CMYK來源影像，以及使用各種「影像伺服」指令（例如color=）指定的特定CMYK色彩值，所要使用的ICC色彩描述檔名稱。
+
+## 屬性 {#section-fc2ad12a3c6e4c7cab495f1878638e66}
+
+文字字串。 如果指定，則必須是此映 `icc::Name` 像目錄或預設目錄的ICC配置檔案映射中的有效值，或相對於的檔案路徑 `attribute::RootPath`。 參考的ICC描述檔必須是CMYK描述檔。
+
+## 預設 {#section-c1f63b4bd32a4f38bf5d68decb9e25da}
+
+繼承自 `default::IccProfileSrcCmyk` （如果未定義或為空）。 如果 `attribute::IccProfileSrcCmyk` 未解析為有效的描述檔，則 `attribute::IccProfileCmyk` 會改用。
+
+## 另請參閱 {#section-a6623bd4277e43b084ec0fb9e02069dc}
+
+[icc::Name](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/r-name-icc.md#reference-9e7d3c8e35434981a3dfac66b8946cbe) ，屬 [性：:IccRenderIntent](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccrenderintent.md#reference-012f207f28bd4406a5368d23ed95a51f)，屬 [性：:IccProfileCmyk](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilecmyk.md#reference-db89f9dac33e447cadb359ec1ba27ee0), [屬性：:RootPath](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md#reference-17d57e5967be403b8408fa7214017494)
