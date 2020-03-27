@@ -1,0 +1,33 @@
+---
+description: 錯誤回應影像。 當發生錯誤時，「影像演算」通常會傳回錯誤狀態並顯示文字訊息。 attribute ErrorImage允許在發生錯誤時配置要返回的映像。
+seo-description: 錯誤回應影像。 當發生錯誤時，「影像演算」通常會傳回錯誤狀態並顯示文字訊息。 attribute ErrorImage允許在發生錯誤時配置要返回的映像。
+seo-title: ErrorImage *
+solution: Experience Manager
+title: ErrorImage *
+topic: Scene7 Image Serving - Image Rendering API
+uuid: 6c8801d0-8cd0-4477-9a60-ccbb343a0747
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# ErrorImage *{#errorimage}
+
+錯誤回應影像。 當發生錯誤時，「影像演算」通常會傳回錯誤狀態並顯示文字訊息。 attribute::ErrorImage允許在發生錯誤時配置要返回的映像。
+
+發生錯誤時，伺服器會先嘗試將值解譯為 `ImageRendering::attribute::ErrorImage`簡單的影像檔案路徑。 如果無法開啟檔案，則會傳送屬性值和錯誤詳細資訊給影像伺服，影像伺服會依中所述處理 `ImageServing::attribute::ErrorImage`。 如果「影像伺服」未傳回有效的回應影像，則會傳送標準HTTP錯誤狀態和文字訊息給用戶端。
+
+以HTTP狀態200傳回錯誤影像。
+
+## 屬性 {#section-4a4a7e37ed11483db0b9922dc68ea7db}
+
+文字字串。 如果指定，則必須是值、 **`ImageServing::catalog::id`** 相對路徑(到或 **`ImageServing::attribute::RootPath`****`ImageRendering::attribute::RootPath`**)或影像伺服器可存取之影像檔案的絕對路徑。
+
+## 預設 {#section-4c463e369dfb4b43a7b2a3bce9619dd4}
+
+如果未 `default::ErrorImage` 定義，則繼承自。 如果已定義但為空，則會禁用錯誤影像行為，即使已定 `default::ErrorImage` 義，並返回HTTP錯誤狀態。
+
+## 另請參閱 {#section-3e0308eaf4124451909dacd570e27695}
+
+[attribute::DefaultImage](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-defaultpix.md#reference-102c98f9b5d24d2aaaeb756653fb0e6f), [attribute::ErrorDetail](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-errordetail.md#reference-123b56eed6cf49cea6e0490672b7c53b), [attribute::RootPath](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rootpath.md#reference-a4d7c96b62e14fcbad1740c702f160f3), [catalog::Id](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-id.md#reference-cba2a53a952e403fb57a4e8569f9cf85)
