@@ -1,0 +1,41 @@
+---
+description: 替代字串元素。 在<rule>元素中為可選項。
+seo-description: 替代字串元素。 在<rule>元素中為可選項。
+seo-title: 替代
+solution: Experience Manager
+title: 替代
+topic: Scene7 Image Serving - Image Rendering API
+uuid: f72902b1-0b0f-4401-9c3c-46573048cb25
+translation-type: tm+mt
+source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
+
+---
+
+
+# 替代{#substitution}
+
+替代字串元素。 在元素中為 `<rule>` 選用。
+
+## 屬性 {#section-d955eefc53eb4274861270669c01f9ca}
+
+無。
+
+## 資料 {#section-a2688866ed6d41279a8478886e511ae3}
+
+替代字串。
+
+## 說明 {#section-b6ab78ca5b0b4d508c71e553566cc9f3}
+
+為路徑或查詢中匹配的字串或子字串定義替換字串。
+
+如果模式表達式包括子表達式（用括弧分隔），則用替換字串替換第一個匹配的子字串。 如果模式運算式不包含子運算式，則會取代整個相符的字串。
+
+如果 `<expression>` 為空或缺少，則替代字串將附加到路徑或查詢。
+
+如 `<substitution>` 果為空，則會移除相符的字串或子字串。 如果未 `<substitution>` 指定，則不會修改路徑或查詢字串。
+
+## 注意 {#section-90fe89bb17a04804b7ff3c93df082892}
+
+替代字串不得包含常值&lt;和&amp;字元。 這些保留字元可分別 `&` 使用 `<`和編碼，或將整個字串封入XML區 `CDATA` 段：
+
+`<substitution><![CDATA[&text=<Hello, world!>]]></ substitution>`
