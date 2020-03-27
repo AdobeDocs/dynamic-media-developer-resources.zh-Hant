@@ -1,0 +1,39 @@
+---
+description: 與範例A類似的需求，但使用純色背景，並允許合成影像的高度不同，以容納具有不同外觀比例的影像。
+seo-description: 與範例A類似的需求，但使用純色背景，並允許合成影像的高度不同，以容納具有不同外觀比例的影像。
+seo-title: 範例B
+solution: Experience Manager
+title: 範例B
+topic: Scene7 Image Serving - Image Rendering API
+uuid: 13120562-9201-4733-bd9d-4a54eac913e9
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# 範例B{#example-b}
+
+與範例A類似的需求，但使用純色背景，並允許合成影像的高度不同，以容納具有不同外觀比例的影像。
+
+<table id="simpletable_37BA3B2A75A9468C9ADEBBC034BADAE7"> 
+ <tr class="strow"> 
+  <td class="stentry"> <p><span class="codeph"> 目錄：:Id</span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> 目錄：：修飾詞</span> </p></td> 
+ </tr> 
+ <tr class="strow"> 
+  <td class="stentry"> <p><span class="codeph"> myTemplate2</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> $text=layer+1+text+goes+here&amp;layer=0&amp;size=800,0&amp;extend=0,100,200,100&amp;src=$object$&amp;originN=.5,0&amp;圖層=1&amp;tf=...$text$...rtf-encoding&amp;rotate=-90&amp;originN=.5,rigigin0&amp;posN=0.5,0</span> </p></td> 
+ </tr> 
+</table>
+
+將影像置於圖層0中，並將高度值設為 `size=` 0，這會使實際高度在縮放為800像素寬後，由影像的高度決定。
+
+`extend=` 在頂端和底部加上100像素，在右側加上200像素。
+
+圖層0和圖層1的原點都位於合成區域的中右側，以達到所需的文字位置。
+
+下圖顯示了不同影像長寬比和不同文本字串的合成結果。
+
+![](assets/exampleb.png)
+
