@@ -1,11 +1,11 @@
 ---
-source-git-commit: 4570f1ca946a2ecff1969043ab64a164139ef03e
+source-git-commit: 70fe30f1fc89a52be8984832a4ba184fda8e7380
 translation-type: tm+mt
 
 ---
 # Adobe動態媒體開發人員資源檔案的貢獻准則
 
-## Adobe Dynamic Media開發人員資源檔案哲學
+## 檔案哲學
 
 我們知道Adobe Dynamic Media使用者在競爭激烈的環境中工作，致力於建立讓他們與眾不同的數位體驗。 因此，當Adobe提供進階的新工具時，必須以精確而清楚的檔案來補充這些工具，讓客戶能夠立即運用其動態媒體投資並將投資報酬率提升到最大。
 
@@ -35,13 +35,13 @@ translation-type: tm+mt
 
 歡迎您提出任何必須改善檔案的想法，做為貢獻。 但是，評論、問題和提取要求僅供稿 *件* 。 它們不是用來回答您有關如何使用Dynamic Media、實作專案或解決技術問題的問題。
 
-如有任何有關使用動態媒體或技術錯誤的問題，請透過一般的支援程式加以報告。
+如有任何有關使用Dynamic Media或技術錯誤的問題，您應透過 [Experience Cloud企業支援入口網站報告](https://helpx.adobe.com/contact/enterprise-support.ec.html) ，或在 [Experience Manager社群討論。](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager)
 
-***說明檔案稿件並非Adobe支援的替代品*** ，任何此類要求解答支援相關問題的稿件將遭拒絕。
+***Adobe客戶服務不會取代檔案稿件*** ，因此任何此類針對支援相關問題尋求解答的稿件將遭拒絕。
 
 ### 稿件必須清楚參考受影響的檔案頁面。
 
-如果您建立問題以建議對檔案進行改進，則必須包含受影響頁面的連結。如果您使用檔案頁面上的「編輯 **此頁面** 」連結來建立期刊，則會自動建立包含該頁面連結的期刊。
+如果您建立問題以建議對檔案進行改進，則必須包含受影響頁面的連結。 如果您使用檔案頁面上的「編輯 **此頁面** 」連結來建立期刊，則會自動建立包含該頁面連結的期刊。
 
 這不適用於提取請求，因為根據其性質引用受影響頁面的提取請求。
 
