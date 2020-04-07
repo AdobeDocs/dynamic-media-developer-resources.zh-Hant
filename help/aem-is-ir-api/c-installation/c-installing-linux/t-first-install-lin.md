@@ -7,7 +7,7 @@ title: 首次安裝
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 6a9a6dd2-2c69-447a-9628-eba08dc4f6c8
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: c5b68038fa5980c7051fae916520b40e17890a7f
 
 ---
 
@@ -22,6 +22,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
    如果「影像伺服」和／或「影像演算」授權金鑰檔案(含 [!DNL .sc8] 檔案尾碼)可用，請將它複製到此檔案夾。 否則，請繼續安裝，稍後再安裝授權金鑰。
 1. 解壓縮並解壓縮Image Serving散發tar檔案。
 1. 運 [!DNL ./install-is]行(位於資料夾 [!DNL Setup] 中)以啟動安裝嚮導。
+
    如果未找到許可證密鑰，將顯示說明如何獲取許可證檔案的說明。 此時請執行此操作，或繼續安裝映像服務，稍後安裝許可證密鑰。
 1. 當顯示使用者授權合約(EULA)時，請閱讀授權合約，然後輸 `y` 入繼續。
 
