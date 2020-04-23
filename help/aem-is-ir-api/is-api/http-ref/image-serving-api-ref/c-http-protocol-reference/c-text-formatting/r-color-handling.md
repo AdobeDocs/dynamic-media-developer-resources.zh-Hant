@@ -7,14 +7,14 @@ title: 色彩處理
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 6c51d204-27ca-4fbd-a297-bf1d04b63a3f
 translation-type: tm+mt
-source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+source-git-commit: 341693d69fc414dacf984d66e2eaeba2418e663b
 
 ---
 
 
 # 色彩處理{#color-handling}
 
-RTF規範允許使用\colortbl指定的RGB顏色值。 每個元件都分別提供\red 、 \green和\blue命令。
+RTF規範允許使用指定的RGB顏色值 `\colortbl`。 每個元件都分別提供 `\red`、 `\green`和命 `\blue` 令。
 
 專有的RTF擴展命 `\cmykcolortbl` 令允許指定CMYK顏色，每個顏色元件都 `\cyan`提供 `\magenta`、 `\yellow`和 `\black` 命令。
 
