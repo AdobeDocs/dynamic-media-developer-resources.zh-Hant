@@ -7,7 +7,7 @@ title: 限制與已知問題
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 9f9fad41-4828-4fba-8f5f-2c33e7811c71
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
 
 ---
 
@@ -80,7 +80,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 * 非吡唑化Tiff或暈映請求會產生類似的錯誤訊息，
 
-   *「影像C:\Program Files\Scene7\ImageRendering\resources\MyVignette.vnt沒有有效的DSF，而2.25MPixel的面積超過2MPixel的最大面積* 。」
+   *「影`C:\Program Files\Scene7\ImageRendering\resources\MyVignette.vnt`像沒有有效的DSF,2.25MPixel的面積超過2MPixel的最大面積* 。」
 
    最佳做法是使用吡唑並Tiff和暗角。 如果您需要使用非吡唑並獒犬，請依照下列指示增加大小限制。
 
