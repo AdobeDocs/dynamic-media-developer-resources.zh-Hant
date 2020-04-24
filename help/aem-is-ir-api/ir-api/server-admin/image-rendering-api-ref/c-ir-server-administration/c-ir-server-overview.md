@@ -7,7 +7,7 @@ title: 伺服器管理概觀
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 83aa83b7-bb7a-4bbd-923c-dd69763fe9c9
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
 
 ---
 
@@ -25,6 +25,6 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 「影像演算」與「影像伺服」共用許多伺服器功能，而所有選項都是透過編輯設定檔案來設定。 預設目錄( [!DNL default.ini])或特定材料目錄提供其他配置屬性。 如需詳細資訊，請參閱「材料目錄」。
 
-「影像渲染」安裝文 *[!DNL install_folder]*&#x200B;件夾()是[!DNL *[!DNL install_root]*/ImageRendering]。 在Windows上，預設值 *[!DNL install_root]* 為 [!DNL C:\Program Files\Scene7]。 安裝期間可以指定不同的資料夾。 在Linux上， *[!DNL install_root]* 必須永遠 [!DNL /usr/local/scene7]。 可以使用符號連結。
+「影像渲染」安裝文 *[!DNL install_folder]*&#x200B;件夾()是[!DNL *[!DNL install_root]*/ImageRendering]。 在Windows上，預設值 *[!DNL install_root]* 為 `C:\Program Files\Scene7`。 安裝期間可以指定不同的資料夾。 在Linux上， *[!DNL install_root]* 必須永遠 [!DNL /usr/local/scene7]。 可以使用符號連結。
 
 在UNIX上，所有檔案路徑都區分大小寫，在Windows上則不區分大小寫。
