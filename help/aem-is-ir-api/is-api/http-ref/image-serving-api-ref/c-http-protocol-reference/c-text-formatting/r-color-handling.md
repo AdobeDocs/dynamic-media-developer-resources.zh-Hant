@@ -1,13 +1,11 @@
 ---
-description: RTF規範允許使用\colortbl指定的RGB顏色值。 每個元件都分別提供\red 、 \green和\blue命令。
-seo-description: RTF規範允許使用\colortbl指定的RGB顏色值。 每個元件都分別提供\red 、 \green和\blue命令。
-seo-title: 色彩處理
+description: RTF規範允許使用&bsol;colortbl指定的RGB顏色值。 每個元件分別提供&bsol;red、&bsol;green和&bsol;blue命令。
 solution: Experience Manager
 title: 色彩處理
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 6c51d204-27ca-4fbd-a297-bf1d04b63a3f
 translation-type: tm+mt
-source-git-commit: 341693d69fc414dacf984d66e2eaeba2418e663b
+source-git-commit: 925fb4b0a9018d711ea9a1db248dc2ddc803c9fb
 
 ---
 
