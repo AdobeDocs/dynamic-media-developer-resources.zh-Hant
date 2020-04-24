@@ -7,7 +7,7 @@ title: 屬性
 topic: Scene7 Image Serving - Image Rendering API
 uuid: b4e1de52-db0a-43dc-aefe-26e8f5020e79
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ` *[!DNL propertyValue]*` 可以是空的。 在每行的開始和結束處以及&#39;=&#39;分隔符的前後，空格是可選的。 單引號或雙引號可用來圈住字串值，但不是必要的。
 
-字串值可能包含JAVA樣式的逸出字元，例如\n、\t、\:。 或 \\.
+字串值可能包含JAVA樣式的逸出字元， `\n`例如 `\t`、 `\:`。 或 `\\`.
 
 **另請參閱**
 
