@@ -5,9 +5,13 @@ seo-title: 系統需求
 solution: Experience Manager
 title: 系統需求
 topic: Dynamic media
+contentOwner: Rick Brough
 uuid: d282af6a-112e-48d6-b3ad-bec0648f4654
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: a0983053795cc119eb57386c005e1f8a7c2fa3e4
+workflow-type: tm+mt
+source-wordcount: '359'
+ht-degree: 1%
 
 ---
 
@@ -16,10 +20,12 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 
 HTML5檢視器的系統需求。
 
+<!-- Updated June 1, 2020 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
+
 ## 伺服器硬體與軟體 {#section-05099146f1f0418988c196635110bee6}
 
-* Dynamic Media Classic Image Serving 6.5.3或更新版本。
-* HTML5檢視器需要SDK JavaScript伺服器端程式庫3.7.1或更新版本。
+* Dynamic Media Classic Image Serving 6.7.1或更新版本。
+* HTML5檢視器需要SDK JavaScript伺服器端程式庫3.9.1或更新版本。
 * 「以電子郵件傳送朋友」社交功能需要s7ondemand 5.0.7或更新版本。
 * eCatalog檢視器——資訊面板支援需要資訊伺服器2.1.8或更新版本。
 * 搜尋功能元件需要s7search 2.3.0或更新版本。
@@ -28,18 +34,16 @@ HTML5檢視器的系統需求。
 
 **元件檢視器的用戶端瀏覽器最低需求**
 
-* 支援1024x768或更高解析度的16位元高色彩彩色螢幕和視訊卡。
-* Microsoft® Windows® 7或更新版本；Mac OS X 10.9或更新版本。
-* Firefox 61、Safari 10（僅限Mac OS）、Chrome 66(或最新版本；Chrome會自動更新至最新版本)、Internet Explorer 11、Microsoft Edge。
+* Microsoft® Windows® 7或更新版本； macOS X 10.12或更新版本。
+* Firefox 69、Safari 11（僅限macOS）、Chrome 75(或最新版本； Chrome會自動更新至最新版本)、Internet Explorer 11、Microsoft Edge。
 * iOS6或更新版本。
 * 已在iPhone 3GS或更新版本，以及iPad 2或更新版本上取得認證（僅限Safari和Chrome瀏覽器）。
 * Android OS 4.x或更新版本。
-* 黑莓10或更高版本；僅限原生瀏覽器。 目前僅支援視訊播放。
+* 黑莓10或更高版本； 僅限原生瀏覽器。 目前僅支援視訊播放。
 * 目前不支援行動裝置上的Internet Explorer。
-* 全景檢視器在iOS 10或更新版本、Firefox 61、Chrome 66、Safari 11或更新版本、Internet Explorer 11或更新版本、Microsoft Edge、Android 4.4或更新版本上都受支援（僅限手機裝置）。
-* 支援iOS12或更新版本、Firefox 61、Chrome 66、Safari 12或更新版本、Microsoft Edge、Android 5或更新版本（僅限手機裝置）的視訊360檢視器。
-* iOS 10或更新版本、Firefox 61、Chrome 66、Safari 11或更新版本、Internet Explorer 11、Microsoft Edge、Android 4.x或更新版本都支援縮放垂直檢視器。
-* 視訊檢視器不支援在Windows 7下執行的Internet Explorer 11中播放HLS（HTTP即時串流）。
+* 全景檢視器在iOS 10或更新版本、Firefox 69、Chrome 75、Safari 11或更新版本、Internet Explorer 11或更新版本、Microsoft Edge、Android 4.4或更新版本上都受支援（僅限手機裝置）。
+* 視訊360檢視器和Dimensional檢視器支援iOS12或更新版本、Firefox 69、Chrome 75、Safari 12或更新版本、Microsoft Edge、Android 5或更新版本（僅限手機裝置）。
+* iOS 10或更新版本、Firefox 69、Chrome 75、Safari 11或更新版本、Internet Explorer 11、Microsoft Edge、Android 4.x或更新版本都支援縮放垂直檢視器。
 
 <!--<a id="section_1486A48CD38F42E3956E022A48207727"></a>-->
 
