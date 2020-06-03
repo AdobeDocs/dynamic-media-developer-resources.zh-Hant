@@ -2,9 +2,12 @@
 cloud: experience-cloud
 product: adobe
 archtype: end-user
-user-guide-title: Dynamic Media Viewers Reference Guide
+user-guide-title: 動態媒體檢視器參考指南
 translation-type: tm+mt
-source-git-commit: 58ac8050c9fc11557b3081eab3e6cacf03813441
+source-git-commit: 636edb2fe860a75af66ab5143ab91020a2eb47ec
+workflow-type: tm+mt
+source-wordcount: '1898'
+ht-degree: 4%
 
 ---
 
@@ -13,13 +16,14 @@ source-git-commit: 58ac8050c9fc11557b3081eab3e6cacf03813441
 
 + [動態媒體開發人員資源首頁](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html)
 + [動態媒體檢視器參考指南](/help/aem-viewers-ref/home.md)
-+ [檢視器程式庫範例](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
++ [檢視器程式庫範例](https://landing.adobe.com/tw/na/dynamic-media/ctir-2755/live-demos.html)
 + [系統需求](c-system-requirements-and-prerequisites.md)
 + [在同一台伺服器上安裝多個查看器](t-installing-the-viewers.md)
 + 檢視器版本注意事項 {#viewers-release-notes}
-   + [檢視器版本注意事項(5.13.1)](c-release-notes/c-rn-07-08-19.md)
+   + [檢視器版本注意事項(5.14.1)](c-release-notes/c-rn-06-03-20.md)
    + 封存 {#archive}
       + [發行說明封存](c-release-notes/c-archive/c-archive.md)
+      + [檢視器版本注意事項(5.13.1)](c-release-notes/c-archive/c-rn-07-08-19.md)
       + [檢視器版本注意事項(5.12.1)](c-release-notes/c-archive/c-rn-04-01-19.md)
       + [檢視器版本注意事項(5.10.1)](c-release-notes/c-archive/c-rn-07-17-18.md)
       + [Scene7檢視器5.8.2發行說明](c-release-notes/c-archive/c-rn-09-18-17.md)
