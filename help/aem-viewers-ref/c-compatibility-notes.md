@@ -7,12 +7,17 @@ title: 相容性說明
 topic: Dynamic media
 uuid: cf732a03-bfaa-4838-862f-73343cefbd67
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: a0983053795cc119eb57386c005e1f8a7c2fa3e4
+workflow-type: tm+mt
+source-wordcount: '433'
+ht-degree: 1%
 
 ---
 
 
 # 相容性說明{#compatibility-notes}
+
+<!-- Updated June 1, 2020 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
 
 作業系統、瀏覽器和行動裝置的相容性注意事項。
 
@@ -68,7 +73,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## Safari {#section-f8de598293d349188aa02c82cd3af8b6}
 
-* Safari 6.1或更新版本：網際網路外掛程式設定可能會阻止Flash視訊播放。
+* Safari 6.1或更新版本： 網際網路外掛程式設定可能會阻止Flash視訊播放。
 * 在Safari上使用HLS串流的視訊搜尋可能不一致。
 * 無法在使用HLS串流的Safari 6上尋找視訊結束。
 
