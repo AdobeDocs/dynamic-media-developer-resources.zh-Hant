@@ -7,7 +7,10 @@ title: 限制與已知問題
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 9f9fad41-4828-4fba-8f5f-2c33e7811c71
 translation-type: tm+mt
-source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
+source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+workflow-type: tm+mt
+source-wordcount: '1264'
+ht-degree: 0%
 
 ---
 
@@ -53,7 +56,7 @@ source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
 
 ## 適用於協力廠商程式庫的限制 {#section-79768b96bf634e44ab672c5b893f343d}
 
-如果已檢測到Digimarc水印，Digimarc庫拒絕將Digimarc水印應用於影像。 如果對主影像進行了足夠的編輯，Digimarc程式庫仍可識別已套用水印。 但是，它可能無法讀取該資訊。 這會產生新影像，而無法取得套用至原始影像的原始Digimarc資訊。 「影像伺服」現在可以套用公司目錄中定義的Digimarc浮水印。
+如果已檢測到Digimarc水印，Digimarc庫拒絕將Digimarc水印應用於影像。 如果對主要影像進行了足夠的編輯，Digimarc程式庫仍可識別已套用水印。 但是，它可能無法讀取該資訊。 這會產生新影像，而無法取得套用至原始影像的原始Digimarc資訊。 「影像伺服」現在可以套用公司目錄中定義的Digimarc浮水印。
 
 ## 影像伺服和影像演算適用的限制 {#section-f836cb40ae2d4f32a9cf7ebda4d91bae}
 
@@ -76,7 +79,7 @@ source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
 
    `/is/image/MyCompany?src=/YourCompany/MyImage` .
 
-   而不是： `/is/image/MyCompany?src=YourCompany/MyImage` 。
+   而不是： `/is/image/MyCompany?src=YourCompany/MyImage` .
 
 * 非吡唑化Tiff或暈映請求會產生類似的錯誤訊息，
 
