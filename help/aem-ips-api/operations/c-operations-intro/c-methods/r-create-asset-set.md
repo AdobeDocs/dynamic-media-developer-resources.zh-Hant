@@ -7,7 +7,10 @@ title: createAssetSet
 topic: Scene7 Image Production System API
 uuid: 1e86bd37-511c-4c12-abfd-075053b86f78
 translation-type: tm+mt
-source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
+source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+workflow-type: tm+mt
+source-wordcount: '322'
+ht-degree: 9%
 
 ---
 
@@ -42,37 +45,37 @@ source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 公 <span class="varname"> 司代理 </span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 包含資產集之公司的控制代碼。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 檔案 <span class="varname"> 夾句柄 </span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 將在其中建立新資產集的資料夾的句柄。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 名 <span class="varname"> 稱 </span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 名稱 </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 資產名稱。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 子 <span class="varname"> 類型 </span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> subType </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 由用戶端為資產集類型建立的唯一識別碼。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> setDefinition </span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> setDefinition </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 設定定義字串中的參數。 <p>這些必須解析為目標檢視器指定的格式。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAssetHandle </span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAssetHandle </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 當做新影像集縮圖的資產控制代碼。 如果未指定，IPS會嘗試使用該集所引用的第一個映像資產。 </td> 
@@ -90,7 +93,7 @@ source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
 
 | **替代函式** | **退貨** |
 |---|---|
-| `getFilePath([asset_handle>])` | 資產的主檔案路徑。 |
+| `getFilePath([asset_handle>])` | 資產的主要來源檔案路徑。 |
 | `getCatalogId([<asset_handle>])` | 資產的目錄ID。 |
 | `getMetaData([<asset_handle>], [<metadata_field_handle>])` | 資產的中繼資料值。 |
 | `getThumbCatalogId([<asset_handle>])` | 資產的目錄ID（僅限影像型資產）。相關的拇指資產的目錄ID（適用於其他資產）。 如果關聯的縮圖資產不可用，函式會傳回空字串。 |
