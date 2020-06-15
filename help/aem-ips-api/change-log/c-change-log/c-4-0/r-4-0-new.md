@@ -7,7 +7,10 @@ title: 新增和變更
 topic: Scene7 Image Production System API
 uuid: ca4bbe36-c1b7-471f-90a8-6b695d56ac7a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+workflow-type: tm+mt
+source-wordcount: '1234'
+ht-degree: 2%
 
 ---
 
@@ -18,8 +21,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 使用個別的WSDL和架構名稱空間並排實作API版本。
 
-* 舊版API: `IpsApi.wsdl, http://www.scene7.com/IpsApi/xsd`。
-* SPS 4.0版： `IpsApi-2008-01-15.wsdl, http://www.scene7.com/IpsApi/xsd/2008-01-15`。
+* 舊版API: `IpsApi.wsdl, http://www.scene7.com/IpsApi/xsd`.
+* SPS 4.0版： `IpsApi-2008-01-15.wsdl, http://www.scene7.com/IpsApi/xsd/2008-01-15`.
 
 新增欄 `PostScriptOptions/alpha` 位。
 
@@ -87,10 +90,10 @@ IPS公司設定， `CompanySettings`已移植至網站服務API。
 
 已修改某些資產類型字串常數，以符合對應的「資產資訊」欄位。
 
-* WordDoc:Word
-* ExcelDoc:Excel
-* PowerPointDoc:PowerPoint
-* RTFDoc:Rtf
+* WordDoc: Word
+* ExcelDoc: Excel
+* PowerPointDoc: PowerPoint
+* RTFDoc: Rtf
 
 修改了批次操作的結果格式，以匯總成功、警告和錯誤。
 
@@ -115,7 +118,7 @@ IPS公司設定， `CompanySettings`已移植至網站服務API。
 
 已實施 `getAssociatedAssets` 操作。
 
-已新 `ReprocessAssets` 增工作類型，可重新處理先前上傳的主檔案，包括重新轉存PDF和重新最佳化影像。
+已新 `ReprocessAssets` 增工作類型，可重新處理先前上傳的主要來源檔案，包括重新轉存PDF和重新最佳化影像。
 
 將欄 `PropertySetType` 位類型重新命名為 `propertyType`。 這會影響參 `createPropertySetType` 數和 `getPropertySetType/getPropertySetTypes` 回應。
 
@@ -186,7 +189,7 @@ IPS公司設定， `CompanySettings`已移植至網站服務API。
 
 * `endDate` （如果工作完成）。
 * `fileDuplicateCount` (以前一直都 `0` 有 `getJobLogs`)
-* `fileUpdateCount` (以前一直 `0` 與 `getJobLogs` 併入 `fileSuccessCount`;現在會分割為個別欄位)。
+* `fileUpdateCount` (以前一直 `0` 與 `getJobLogs` 併入 `fileSuccessCount`; 現在會分割為個別欄位)。
 
 已新增assetHandle欄位至 `JobLogDetail` 類型。
 
