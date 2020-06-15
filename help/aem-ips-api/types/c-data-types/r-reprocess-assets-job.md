@@ -1,20 +1,23 @@
 ---
-description: 工作類型可允許重新處理先前上傳的主檔案，包括重新轉存PDF和重新最佳化影像。
-seo-description: 工作類型可允許重新處理先前上傳的主檔案，包括重新轉存PDF和重新最佳化影像。
+description: 工作類型可允許重新處理先前上傳的主要檔案，包括重新轉存PDF和重新最佳化影像。
+seo-description: 工作類型可允許重新處理先前上傳的主要檔案，包括重新轉存PDF和重新最佳化影像。
 seo-title: 重新處理AssetsJob
 solution: Experience Manager
 title: 重新處理AssetsJob
 topic: Scene7 Image Production System API
 uuid: 5b4aa838-0fb4-4ae8-be5a-8ce1e1487127
 translation-type: tm+mt
-source-git-commit: 26fb6212c3106deb7b088020d9f2993e40dec20b
+source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+workflow-type: tm+mt
+source-wordcount: '417'
+ht-degree: 5%
 
 ---
 
 
 # 重新處理AssetsJob{#reprocessassetsjob}
 
-工作類型可允許重新處理先前上傳的主檔案，包括重新轉存PDF和重新最佳化影像。
+工作類型可允許重新處理先前上傳的主要檔案，包括重新轉存PDF和重新最佳化影像。
 
 語法
 
@@ -30,127 +33,127 @@ source-git-commit: 26fb6212c3106deb7b088020d9f2993e40dec20b
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandleArray</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 類型：HandleArray</span> </p> </td> 
    <td colname="col3"> <p>資產控制代碼。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 就 <span class="varname"> 緒發佈</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> readyForPublish</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:boolean</span> </p> </td> 
    <td colname="col3"> <p>檔案是否已標示為可供發佈。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> preservePublishState</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> preservePublishState</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:boolean</span> </p> </td> 
    <td colname="col3"> <p>控制覆寫現有資產時是否保留其發佈狀態。 如果未設定，則會使用公司預設設定。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> createMask</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> createMask</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:boolean</span> </p> </td> 
    <td colname="col3"> <p>是否建立蒙版。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 保 <span class="varname"> 留裁切</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> preserveCrop</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:boolean</span> </p> </td> 
    <td colname="col3">控制任何現有裁切定義的保留。 預設為 <span class="codeph"> true</span>。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> manualCropOptions</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 類型：ManualCropOptions</span> </p> </td> 
    <td colname="col3"> <p>手動裁切選項。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> autoColorCropOptions</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> autoColorCropOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 類型：AutoColorCropOptions</span> </p> </td> 
    <td colname="col3"> <p>可根據顏色自動裁切影像的選項。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> autoTransparentCropOptions</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> autoTransparentCropOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 類型：AutoTransparentCropOptions</span> </p> </td> 
    <td colname="col3"> <p>根據透明度，從影像邊緣移除空白。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> photoshopOptions</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> photoshopOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 類型：PhotoshopOptions</span> </p> </td> 
    <td colname="col3"> <p>將Photoshop檔案上傳至影像伺服器的選項。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> postScriptOptions</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> postScriptOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 類型：PostScriptOptions</span> </p> </td> 
    <td colname="col3"> <p>上傳PostScript檔案至影像伺服器的選項。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> pdf選項</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> pdf選項</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 類型：PDFOptions</span> </p> </td> 
    <td colname="col3"> <p>將PDF檔案上傳至影像伺服器的選項。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> mediaOptions</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> mediaOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 類型：MediaOptions</span> </p> </td> 
    <td colname="col3"> <p>A/V介質檔案選項。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> illustrator選項</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> illustratorOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 類型：IllustratorOptions</span> </p> </td> 
    <td colname="col3"> <p>將Illustrator檔案上傳至影像伺服器的選項。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 色彩 <span class="varname"> 管理選項</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> colorManagementOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 類型：ColorManagementOptions</span> </p> </td> 
    <td colname="col3"> <p>可在上傳期間指定的選項。 此設定會影響上傳色彩的管理方式。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> autoSetCreationOptions</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> autoSetCreationOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 類型：AutoSetCreationOptions</span> </p> </td> 
    <td colname="col3"> <p>套用至上傳檔案的自動設定產生指令碼陣列。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> projectHandleArray <span class="varname"> (專案控制代碼陣列</span> ) </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> projectHandleArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 類型：HandleArray</span> </p> </td> 
    <td colname="col3"> <p>項目句柄的陣列。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 電子 <span class="varname"> 郵件設定</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> emailSetting</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>電子郵件設定選項。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> postJobOnlyIfFiles</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> postJobOnlyIfFiles</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:boolean</span> </p> </td> 
    <td colname="col3"> <p>是否只上傳檔案。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> postHttpUrl</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> postHttpUrl</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>檔案上傳位置的URL。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> postImageServingPublishJob</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> postImageServingPublishJob</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 類型：ImageServingPublishJob</span> </p> </td> 
    <td colname="col3"> <p>上傳完成後要執行之影像伺服發佈工作的工作詳細資料。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> postImageRenderingPublishJob</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> postImageRenderingPublishJob</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 類型：ImageRenderingPublishJob</span> </p> </td> 
    <td colname="col3"> <p>要在上載完成後運行的影像渲染發佈作業的作業詳細資訊。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> postVideoPublishJob</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> postVideoPublishJob</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 類型： VideoPublishJob</span> </p> </td> 
    <td colname="col3"> <p>視訊發佈工作的工作詳細資訊，將在上傳完成後執行。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> inDesignOptions</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> inDesignOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 類型：InDesignOptions</span> </p> </td> 
    <td colname="col3"> <p>將InDesign檔案上傳至影像伺服器的選項。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 挖 <span class="varname"> 空背景</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> knouckBackground</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 類型：ThrounkBackgroundOptions</span> </p> </td> 
    <td colname="col3"> <p>遮色所選影像的背景。 這可讓您在主題影像外以透明度覆蓋其他圖層。 </p> <p>選填。 </p> <p>請參閱<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> ThrounkdBackgroundOptions</a> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 不銳 <span class="varname"> 利化遮色片選項</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> unsharpMaskOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 類型：UnsharpMaskOptions</span> </p> </td> 
    <td colname="col3"> <p>可讓您在建立最佳金字塔TIF檔案時控制遮色片銳利化設定的選項。 使用這些設定可協助改善影像的銳利度。 </p> <p>請參閱 <a href="https://marketing.adobe.com/resources/help/en_US/s7/ips_api/types/r_unsharp_mask_options.html"> UnsharpMaskOptions</a>。 </p> </td> 
   </tr> 
