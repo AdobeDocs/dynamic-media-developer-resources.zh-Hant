@@ -10,7 +10,10 @@ tutorials-url: https://marketing.adobe.com/resources/help/en_US/s7/training-vide
 git-repo: https://github.com/AdobeDocs/dynamic-media-developer-resources.en
 index: true
 translation-type: tm+mt
-source-git-commit: 3c3386026eabee4fa9be3294a912d9d255ef622f
+source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+workflow-type: tm+mt
+source-wordcount: '135'
+ht-degree: 2%
 
 ---
 
@@ -27,4 +30,4 @@ metadata.md檔案包含回購層級中繼資料，這些中繼資料會傳遞至
 | getting-started-url | 幫助快速入門頁面的連結 |
 | 教學課程-url | 連結至教學課程影片——說明教學課程或KT教學課程 |
 | 迷你目錄層級 | 決定出現在右側欄中的標題層數。 預設值為2 |
-| git-repo | 指定主回購協定的內部使用位置 |
+| git-repo | 指定主要來源回購的內部使用位置 |
