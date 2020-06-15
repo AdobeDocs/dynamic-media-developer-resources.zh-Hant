@@ -1,20 +1,23 @@
 ---
-description: 建立衍生自現有主影像資產的新資產。
-seo-description: 建立衍生自現有主影像資產的新資產。
+description: 建立衍生自現有主要來源影像資產的新資產。
+seo-description: 建立衍生自現有主要來源影像資產的新資產。
 seo-title: createDerivedAsset
 solution: Experience Manager
 title: createDerivedAsset
 topic: Scene7 Image Production System API
 uuid: e1f9b690-af34-4da5-a534-c3a8c6b0a8fc
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+workflow-type: tm+mt
+source-wordcount: '276'
+ht-degree: 7%
 
 ---
 
 
 # createDerivedAsset{#createderivedasset}
 
-建立衍生自現有主影像資產的新資產。
+建立衍生自現有主要來源影像資產的新資產。
 
 語法
 
@@ -40,10 +43,10 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
 | ` *`companyHandle`*` | `xsd:string` | 是 | 包含您將從中衍生新資產之資產的公司控制代碼。 |
-| ` *`ownerHandle`*` | `xsd:string` | 是 | 新影像衍生自的主影像資產控制代碼。 |
+| ` *`ownerHandle`*` | `xsd:string` | 是 | 新影像將從中衍生的主要影像資產的控制代碼。 |
 | ` *`folderHandle`*` | `xsd:string` | 是 | 將在其中建立新派生資產的資料夾的句柄。 |
 | ` *`名稱`*` | `xsd:string` | 是 | 衍生資產的名稱。 |
-| ` *`類型`*` | `xsd:string` | 是 | 新衍生資產的資產類型：或 `AdjustedView` 者 `LayerView`。 |
+| ` *`類型`*` | `xsd:string` | 是 | 新衍生資產的資產類型： `AdjustedView` 或 `LayerView`者。 |
 | ` *`urlModifier`*` | `xsd:string` | 否 | 在請求或命令之前應用影像 *服務* 或影像渲染協 `urlPostApplyModifier` 議命令。 |
 | ` *`urlPostApplyModifier`*` | `xsd:string` | 否 | 在請求或命令之後套用影像 *伺服* 或影像轉換通 `urlPostApplyModifier` 訊協定命令。 |
 
