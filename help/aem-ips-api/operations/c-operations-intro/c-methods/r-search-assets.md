@@ -7,7 +7,10 @@ title: searchAssets
 topic: Scene7 Image Production System API
 uuid: 125e9e0d-1856-4e80-9778-ca93cd04b766
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+workflow-type: tm+mt
+source-wordcount: '637'
+ht-degree: 12%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 語法
 
-## searchAssets:關於 {#section-4ad74f12eb754768bf85bd235a7e25f0}
+## searchAssets: 關於 {#section-4ad74f12eb754768bf85bd235a7e25f0}
 
 `searchAssets` 是檢索IPS資產的主要方法。 此方法用於各種用途，例如瀏覽資料夾階層或依名稱尋找特定資產。
 
@@ -63,169 +66,169 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 公 <span class="varname"> 司控制</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 包含您要搜尋之資產之公司的控制代碼。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> accessUserHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> accessUserHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 可讓管理員以不同的使用者身分工作。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> accessGroupHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> accessGroupHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 可讓管理員以不同群組的一部分工作。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 資 <span class="varname"> 料夾</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 資料夾</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 用於搜尋資產的根路徑。 若省略，則會使用公司根資料夾。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> includeSubfolders <span class="varname"> (包含子檔案夾</span> ) </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> includeSubfolders</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4">設為 <span class="codeph"> true</span> ，可搜尋子檔案夾。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> publishState</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> publishState</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 發佈狀態選擇。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 垃圾 <span class="varname"> 州</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> trashState</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4">垃圾狀態選擇。 預設值 <span class="codeph"> 為NotInTrash</span>。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 條 <span class="varname"> 件MatchMode</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> conditionMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> <p>選擇搜尋比對模式以結合關鍵字陣列 <span class="codeph"> 結果</span>, </p> <p> <span class="codeph"> conditionMatchMode</span> </p> <p> <span class="codeph"> systemFieldConditionArray</span>, and <span class="codeph"> metadataConditionArray</span>。 預設值為「 <span class="codeph"> 全部符合</span>」。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 關鍵 <span class="varname"> 字Array</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> keywordArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：StringArray</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> <p> <p>注意： 不建議使用的參數。 建議您不要使用它。 </p> </p> <p>要比對的關鍵字字串陣列。 </p> </td> 
+   <td colname="col4"> <p> <p>注意：  不建議使用的參數。 建議您不要使用它。 </p> </p> <p>要比對的關鍵字字串陣列。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> systemFieldMatchMode</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> systemFieldMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> <p>選擇用於組合systemFieldCondition匹配的搜 <span class="codeph"> 尋匹配模</span> 式。 預設值為 <span class="codeph"> MatchAll</span> </p>. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> systemFieldConditionArray</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> systemFieldConditionArray</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> 類型：SystemFieldConditionArray</span> </p> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 系統欄位條件的陣列。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> tagMatchMode</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> tagMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4">搜尋符合模式字串常數。 預設值為「全 <span class="codeph"> 部符合</span>」。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> tagConditionArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> tagConditionArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：TagConditionArray</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> <p>標籤欄位搜索謂語的陣列。 </p> <p>謂語會根據 <span class="codeph"> tagMatchMode</span> setting，然後與 <span class="codeph"> Array</span>、systemFieldConditionArray和 <span class="codeph"></span><span class="codeph"></span><span class="codeph"></span> ConditionArray中的任何詞語組合，並根據與CommatchModeSetting ConditionArray中的條件來比對ConditionMatadata。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 中繼 <span class="varname"> 資料MatchMode</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> metadataMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4">搜尋符合模式以結合 <span class="codeph"> 中繼資料</span> Condition符合。 預設值為「 <span class="codeph"> 全部符合</span>」。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 中 <span class="varname"> 繼資料ConditionArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> metadataConditionArray</span> </span> </td> 
    <td colname="col2"> <p> <span class="codeph"> 類型：MetadataConditionArray</span> </p> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 中繼資料欄位搜尋條件的陣列。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> assetTypeArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：StringArray</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 要納入搜尋的資產類型陣列。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> excludeAssetTypeArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> excludeAssetTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：StringArray</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 要從搜尋中排除的資產類型陣列。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> assetSubTypeArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetSubTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：StringArray</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 要篩選的子類型名稱清單。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> strictSubTypeCheck</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> strictSubTypeCheck</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4">如果 <span class="codeph"> true</span><span class="codeph"> 和assetSubTypeArray不是空的，則只會傳回子類型位於</span><span class="codeph"></span> assetSubTypeArray中的資產。 如果 <span class="codeph"> 為false</span> （預設值），則會傳回沒有定義子類型的資產。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 排 <span class="varname"> 除副產品</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> excludeBilluss</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 如果為true，則擷取主資產（例如擷取的PDF頁面影像）期間產生的副產品資產會排除在搜尋結果之外。 預設為 false。 </td> 
+   <td colname="col4"> 如果為true，則擷取主要資產（例如擷取的PDF頁面影像）時產生的副產品資產會排除在搜尋結果之外。 預設為 false。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> excludInsublareArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> excludBinsubleArray</span> </span> </td> 
    <td colname="col2"> <p> <span class="codeph"> 類型：ExcludeBundlableArray</span> </p> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 要從搜尋結果中排除的副產品資產產生條件的陣列。 如果存在，此參數將覆蓋excludeBillussings設定。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> project <span class="varname"> Handle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> projectHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:sting</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 包含要搜尋之資產的專案處理。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> RecordsPerPage</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> recordsPerPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 要傳回的最大結果數。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 結 <span class="varname"> 果頁面</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4">根據recordsPerPage頁面大小指定要傳回的 <span class="codeph"> 結果頁</span> 。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 排 <span class="varname"> 序方式</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> sortBy</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 資產排序欄位的選項。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> sortDirection</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> sortDirection</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 排序方向的選擇。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> responseFieldArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：StringArray</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 包含要包含在回應中的欄位和子欄位清單。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> excludeFieldArray <span class="varname"> (排除欄位陣列</span> ) </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> excludeFieldArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：StringArray</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 包含要從回應中排除的欄位和子欄位清單。 </td> 
