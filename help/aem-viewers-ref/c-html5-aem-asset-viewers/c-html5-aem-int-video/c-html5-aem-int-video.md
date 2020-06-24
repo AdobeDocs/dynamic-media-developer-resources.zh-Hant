@@ -7,7 +7,10 @@ title: 互動式視訊
 topic: Dynamic media
 uuid: 116c6b40-2490-4f1a-9c76-e06082069cc8
 translation-type: tm+mt
-source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+workflow-type: tm+mt
+source-wordcount: '2243'
+ht-degree: 0%
 
 ---
 
@@ -62,7 +65,7 @@ source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
 
 互動式視訊檢視器可內嵌至代管頁面。 這種網頁可以具有靜態版面，或者可以是「自適應」的，並在不同裝置上或不同瀏覽器視窗大小顯示不同。
 
-為滿足這些需求，檢視器支援兩種主要作業模式：固定大小內嵌和回應式內嵌。
+為滿足這些需求，檢視器支援兩種主要作業模式： 固定大小內嵌和回應式內嵌。
 
 **關於固定大小嵌入模式和自適應設計嵌入模式**
 
@@ -278,7 +281,9 @@ var interactiveVideoViewer = new s7viewers.InteractiveVideoViewer({
 
 下列範例頁面說明在實際使用中，不受高度限制的互動式設計內嵌功能：
 
-[https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html](https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html)
+[即時展示](https://landing.adobe.com/tw/na/dynamic-media/ctir-2755/live-demos.html)
+
+<!-- OLD DEMO LOCATION-KEEP (https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html) -->
 
 **定義寬度和高度的自適應內嵌**
 
