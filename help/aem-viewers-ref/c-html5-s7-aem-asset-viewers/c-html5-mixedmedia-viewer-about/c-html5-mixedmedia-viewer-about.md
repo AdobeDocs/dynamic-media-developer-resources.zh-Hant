@@ -8,7 +8,10 @@ title: 混合媒體
 topic: Dynamic media
 uuid: b6028c54-7a3c-41eb-89f8-7b86bb0d0deb
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+workflow-type: tm+mt
+source-wordcount: '2681'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +20,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 混合媒體檢視器是媒體檢視器。 它支援包含影像、色票集、回轉集、視訊和最適化視訊集的媒體集。
 
-檢視器底部的縮圖代表每個媒體集元素及其資產類型指標。 選取色票集元素時，會出現次要色票列，以允許在色票集內選取顏色變化。 影像和色票組元素支援連續或內嵌模式縮放；回轉集支援縮放和旋轉。 視訊和最適化視訊集支援所有基本的播放控制，只要視訊內容上方顯示任何可選的隱藏字幕即可。 使用者可隨時按一下全螢幕按鈕，切換至全螢幕。 檢視器有選擇性的關閉按鈕。 它可在桌上型電腦和行動裝置上運作。
+檢視器底部的縮圖代表每個媒體集元素及其資產類型指標。 選取色票集元素時，會出現次要色票列，以允許在色票集內選取顏色變化。 影像和色票組元素支援連續或內嵌模式縮放； 回轉集支援縮放和旋轉。 視訊和最適化視訊集支援所有基本的播放控制，只要視訊內容上方顯示任何可選的隱藏字幕即可。 使用者可隨時按一下全螢幕按鈕，切換至全螢幕。 檢視器有選擇性的關閉按鈕。 它可在桌上型電腦和行動裝置上運作。
 
 Mixed Media Viewer在基礎系統支援時，會在預設組態中使用HLS格式的HTML5串流視訊播放。 在不支援HTML5串流的系統上，檢視器會退回HTML5漸進式視訊傳送。
 
@@ -90,7 +93,7 @@ Mixed Media Viewer在基礎系統支援時，會在預設組態中使用HLS格�
 
 ## 內嵌混合媒體檢視器 {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-不同的網頁對檢視器行為有不同的需求。 有時網頁會提供連結，當點按時，會在個別的瀏覽器視窗中開啟檢視器。 在其他情況下，必須直接將檢視器內嵌在代管頁面中。 在後一種情況下，網頁可能具有靜態頁面版面，或使用不同裝置或不同瀏覽器視窗大小顯示不同的互動式設計。 為滿足這些需求，檢視器支援三種主要作業模式：快顯功能、固定大小內嵌和回應式設計內嵌。
+不同的網頁對檢視器行為有不同的需求。 有時網頁會提供連結，當點按時，會在個別的瀏覽器視窗中開啟檢視器。 在其他情況下，必須直接將檢視器內嵌在代管頁面中。 在後一種情況下，網頁可能具有靜態頁面版面，或使用不同裝置或不同瀏覽器視窗大小顯示不同的互動式設計。 為滿足這些需求，檢視器支援三種主要作業模式： 快顯功能、固定大小內嵌和回應式設計內嵌。
 
 ## 關於彈出式模式 {#section-77d5aa03b8b94566958a179b1a2cd474}
 
@@ -220,7 +223,7 @@ Mixed Media Viewer在基礎系統支援時，會在預設組態中使用HLS格�
 
    同時，容器元素也不一定是網頁版面的一部分。 例如，它可能會使用指派給它 `display:none` 的樣式隱藏。 在此情況下，檢視器會延遲其初始化程式，直到網頁將容器元素帶回版面為止。 發生此情況時，檢視器載入會自動繼續。
 
-   以下是建立檢視器例項、將最小必要的設定選項傳遞至建構函式，以及呼叫方法的范 `init()` 例。 範例假設 `mixedMediaViewer` 是檢視器例項； `s7viewer` 是佔位符的名稱 `DIV`; [!DNL http://s7d1.scene7.com/is/image/] 是影像伺服URL; [!DNL http://s7d1.scene7.com/is/content/] 是視訊伺服器URL;是 [!DNL Scene7SharedAssets/Mixed_Media_Set_Sample] 資產：
+   以下是建立檢視器例項、將最小必要的設定選項傳遞至建構函式，以及呼叫方法的范 `init()` 例。 範例假設 `mixedMediaViewer` 是檢視器例項； `s7viewer` 是佔位符的名稱 `DIV`; [!DNL http://s7d1.scene7.com/is/image/] 是影像伺服URL; [!DNL http://s7d1.scene7.com/is/content/] 是視訊伺服器URL; 是 [!DNL Scene7SharedAssets/Mixed_Media_Set_Sample] 資產：
 
 ```
 <script type="text/javascript"> 
@@ -327,7 +330,9 @@ var mixedMediaViewer = new s7viewers.MixedMediaViewer({
 
 下列範例頁面說明在實際使用中，不受高度限制的互動式設計內嵌功能：
 
-[https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html](https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html)
+[即時展示](https://landing.adobe.com/tw/na/dynamic-media/ctir-2755/live-demos.html)
+
+<!-- KEEP (https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html) -->
 
 ## 定義寬高的彈性大小內嵌 {#section-0a329016f9414d199039776645c693de}
 
