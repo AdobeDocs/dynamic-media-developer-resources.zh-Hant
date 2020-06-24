@@ -8,7 +8,10 @@ title: 彈出
 topic: Dynamic media
 uuid: 588e1baa-4165-4aec-8fbe-1a916c0f409f
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+workflow-type: tm+mt
+source-wordcount: '2130'
+ht-degree: 0%
 
 ---
 
@@ -74,7 +77,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 內嵌彈出檢視器 {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-不同的網頁對檢視器行為有不同的需求。 網頁可能具有靜態頁面版面，或使用不同裝置上顯示不同的回應式設計，或針對不同的瀏覽器視窗大小。 為滿足這些需求，檢視器支援兩種主要作業模式：固定大小內嵌和回應式設計內嵌。
+不同的網頁對檢視器行為有不同的需求。 網頁可能具有靜態頁面版面，或使用不同裝置上顯示不同的回應式設計，或針對不同的瀏覽器視窗大小。 為滿足這些需求，檢視器支援兩種主要作業模式： 固定大小內嵌和回應式設計內嵌。
 
 當檢視器在初始載入後未變更其大小時，會使用固定大小內嵌模式。 此選項最適合具有靜態頁面版面的網頁。
 
@@ -180,7 +183,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
    同時，容器元素也不一定是網頁版面的一部分。 例如，它可能會使用指派給它 `display:none` 的樣式隱藏。 在此情況下，檢視器會延遲其初始化程式，直到網頁將容器元素帶回版面為止。 發生此情況時，檢視器載入會自動繼續。
 
-   以下是建立檢視器例項的範例，將最小必要的設定選項傳遞至建構函式並呼叫 `init()` 方法。 範例假設 `flyoutViewer` 是檢視器例項； `s7viewer` 是佔位符的名稱 `DIV`; `http://s7d1.scene7.com/is/image/` 是影像伺服URL;是 `Scene7SharedAssets/ImageSet-Views-Sample` 資產：
+   以下是建立檢視器例項的範例，將最小必要的設定選項傳遞至建構函式並呼叫 `init()` 方法。 範例假設 `flyoutViewer` 是檢視器例項； `s7viewer` 是佔位符的名稱 `DIV`; `http://s7d1.scene7.com/is/image/` 是影像伺服URL; 是 `Scene7SharedAssets/ImageSet-Views-Sample` 資產：
 
    ```
    <script type="text/javascript"> 
@@ -300,7 +303,9 @@ var flyoutViewer = new s7viewers.FlyoutViewer({
 
 下列範例頁面說明在實際使用中，不受高度限制的互動式設計內嵌功能：
 
-[https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html](https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html)
+[即時展示](https://landing.adobe.com/tw/na/dynamic-media/ctir-2755/live-demos.html)
+
+<!-- KEEP (https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html) -->
 
 ## 定義寬高的彈性大小內嵌 {#section-0a329016f9414d199039776645c693de}
 
