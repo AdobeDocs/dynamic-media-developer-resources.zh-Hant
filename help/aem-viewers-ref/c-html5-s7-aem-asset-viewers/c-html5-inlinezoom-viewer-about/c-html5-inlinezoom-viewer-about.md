@@ -8,7 +8,10 @@ title: 內嵌縮放
 topic: Dynamic media
 uuid: 2287aef0-79ba-4d63-911a-969fa1c63385
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+workflow-type: tm+mt
+source-wordcount: '2457'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +30,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 示範URL {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
-[http://s7d9.scene7.com/s7viewers/html5/FlyoutViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample&amp;config=Scene7SharedAssets/Universal_HTML5_Zoom_Inline&amp;stagesize=500,400](http://s7d9.scene7.com/s7viewers/html5/FlyoutViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample&config=Scene7SharedAssets/Universal_HTML5_Zoom_Inline&stagesize=500,400)
+[http://s7d9.scene7.com/s7viewers/html5/FlyoutViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample&amp;config=Scene7SharedAssets/Universal_HTML5_Zoom_Inline&amp;stagesize=500,400](http://s7d9.scene7.com/s7viewers/html5/FlyoutViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample&amp;config=Scene7SharedAssets/Universal_HTML5_Zoom_Inline&amp;stagesize=500,400)
 
 ## 使用內嵌縮放檢視器 {#section-f21ac23d3f6449ad9765588d69584772}
 
@@ -74,7 +77,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 內嵌內嵌內嵌縮放檢視器 {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-不同的網頁對檢視器行為有不同的需求。 有時網頁會提供可點按的連結，在個別的瀏覽器視窗中開啟檢視器。 在其他情況下，可能需要將檢視器直接內嵌在代管頁面中。 在後一種情況下，網頁可能具有靜態頁面版面，或使用不同裝置上顯示不同的互動式設計，或針對不同的瀏覽器視窗大小。 為滿足這些需求，檢視器支援三種主要作業模式：快顯、固定大小內嵌和回應式內嵌。
+不同的網頁對檢視器行為有不同的需求。 有時網頁會提供可點按的連結，在個別的瀏覽器視窗中開啟檢視器。 在其他情況下，可能需要將檢視器直接內嵌在代管頁面中。 在後一種情況下，網頁可能具有靜態頁面版面，或使用不同裝置上顯示不同的互動式設計，或針對不同的瀏覽器視窗大小。 為滿足這些需求，檢視器支援三種主要作業模式： 快顯、固定大小內嵌和回應式內嵌。
 
 **快顯視窗**
 
@@ -204,7 +207,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
    同時，容器元素也不一定是網頁版面的一部分。 例如，它可能會使用指派給它 `display:none` 的樣式隱藏。 在此情況下，檢視器會延遲其初始化程式，直到網頁將容器元素帶回版面為止。 發生此情況時，檢視器載入會自動繼續。
 
-   以下是建立檢視器例項的範例，將最小必要的設定選項傳遞至建構函式並呼叫 `init()` 方法。 範例假設 `inlineZoomViewer` 是檢視器例項； `s7viewer` 是佔位符的名稱 `DIV`; `http://s7d1.scene7.com/is/image/` 是影像伺服URL;是 `Scene7SharedAssets/ImageSet-Views-Sample` 資產：
+   以下是建立檢視器例項的範例，將最小必要的設定選項傳遞至建構函式並呼叫 `init()` 方法。 範例假設 `inlineZoomViewer` 是檢視器例項； `s7viewer` 是佔位符的名稱 `DIV`; `http://s7d1.scene7.com/is/image/` 是影像伺服URL; 是 `Scene7SharedAssets/ImageSet-Views-Sample` 資產：
 
    ```
    <script type="text/javascript"> 
@@ -329,7 +332,9 @@ var inlineZoomViewer = new s7viewers.FlyoutViewer({
 
 下列範例頁面說明在實際使用中，不受高度限制的互動式設計內嵌功能：
 
-[https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html](https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html)
+[即時展示](https://landing.adobe.com/tw/na/dynamic-media/ctir-2755/live-demos.html)
+
+<!-- KEEP (https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html) -->
 
 ## 定義寬高的彈性大小內嵌 {#section-0a329016f9414d199039776645c693de}
 
