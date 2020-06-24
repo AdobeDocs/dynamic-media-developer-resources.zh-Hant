@@ -7,7 +7,10 @@ title: Scene7 2016年秋季發行
 topic: Dynamic media
 uuid: 3fddda65-0c6e-48ec-bd60-7e0ca59421a8
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+workflow-type: tm+mt
+source-wordcount: '2263'
+ht-degree: 0%
 
 ---
 
@@ -58,7 +61,7 @@ Adobe很榮幸宣佈推出HTTP/2內容傳送，並提升效能。
 
 ## 檢視器(Image Serving 5.5.3) {#section-1d59bcd5825d487b80b59a6d1a08ed30}
 
-如需完整檔案，請參 [閱Scene7檢視器參考指南](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/)。
+如需完整檔案，請參 [閱檢視器參考指南](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)。
 
 **Image Serving 5.5.3的錯誤修正**
 
@@ -68,7 +71,7 @@ Adobe很榮幸宣佈推出HTTP/2內容傳送，並提升效能。
 
 ## 檢視器(Image Serving 5.5.2) {#section-9932c988cfee45749594af481dfc6476}
 
-如需完整檔案，請參 [閱Scene7檢視器參考指南](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/)。
+如需完整檔案，請參 [閱檢視器參考指南](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)。
 
 **Image Serving 5.5.2的錯誤修正**
 
@@ -77,7 +80,7 @@ Adobe很榮幸宣佈推出HTTP/2內容傳送，並提升效能。
 
 ## 檢視器(Image Serving 5.5.1) {#section-833ab92c91c941d2bfdc27f233f582ad}
 
-如需完整檔案，請參 [閱Scene7檢視器參考指南](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/)。
+如需完整檔案，請參 [閱檢視器參考指南](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)。
 
 **Image Serving 5.5.1的新功能、增強功能和錯誤修正**
 
@@ -126,7 +129,7 @@ Adobe很榮幸宣佈推出HTTP/2內容傳送，並提升效能。
 
 * HTML5視訊
 
-   * Internet Explorer 9:自訂海報影像不會顯示。
+   * Internet Explorer 9: 自訂海報影像不會顯示。
    * `IntialBitRate` 只有軟體HLS和Flash HDS播放才支援修飾元。 當播放使用原生播放器時，它無法運作。
    * 目前不支援OGG和WebM漸進式播放。
    * 瀏覽器縮放可導致視訊播放器以不正確的大小顯示（包括Windows OS控制面板顯示設定）
@@ -145,7 +148,7 @@ Adobe很榮幸宣佈推出HTTP/2內容傳送，並提升效能。
 
 * Safari
 
-   * Safari 6.1或更新版本：網際網路外掛程式設定可能會阻止Flash視訊播放。
+   * Safari 6.1或更新版本： 網際網路外掛程式設定可能會阻止Flash視訊播放。
    * 在Safari上使用HLS串流的視訊「搜尋」可能不一致。
    * 無法在使用HLS串流的Safari 6上尋找視訊結束。
 
@@ -157,7 +160,7 @@ Adobe很榮幸宣佈推出HTTP/2內容傳送，並提升效能。
 
 * [彈出式] IE9有時會在滑鼠關閉後仍保留在螢幕上。
 * 瀏覽器縮放會導致調整大小錯誤。
-* iPad 2:大型eCatalog資產會在iOS上造成Safari當機。
+* iPad 2: 大型eCatalog資產會在iOS上造成Safari當機。
 * 所有檢視器
 
    * 不支援浮水印、模糊化和鎖定。
