@@ -8,7 +8,10 @@ title: eCatalog搜尋
 topic: Dynamic media
 uuid: f5ec33bf-e827-4709-9780-6f17096bf306
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+workflow-type: tm+mt
+source-wordcount: '2228'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +34,7 @@ eCatalog Search Viewer是一種目錄檢視器，可依跨頁或逐頁顯示電�
 
 ## 示範URL {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
-[https://s7d9.scene7.com/s7viewers/html5/eCatalogSearchViewer.html?emailurl=https://s7d9.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d9.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_eCatalog_Search&amp;contenturl=https://s7d9.scene7.com/skins/&amp;asset=Viewers/Pluralist&amp;searchserverurl=https://s7search1.scene7.com/s7search/](https://s7d9.scene7.com/s7viewers/html5/eCatalogSearchViewer.html?emailurl=https://s7d9.scene7.com/s7/emailFriend&serverUrl=https://s7d9.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_eCatalog_Search&contenturl=https://s7d9.scene7.com/skins/&asset=Viewers/Pluralist&searchserverurl=https://s7search1.scene7.com/s7search/)
+[https://s7d9.scene7.com/s7viewers/html5/eCatalogSearchViewer.html?emailurl=https://s7d9.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d9.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_eCatalog_Search&amp;contenturl=https://s7d9.scene7.com/skins/&amp;asset=Viewers/Pluralist&amp;searchserverurl=https://s7search1.scene7.com/s7search/](https://s7d9.scene7.com/s7viewers/html5/eCatalogSearchViewer.html?emailurl=https://s7d9.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d9.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_eCatalog_Search&amp;contenturl=https://s7d9.scene7.com/skins/&amp;asset=Viewers/Pluralist&amp;searchserverurl=https://s7search1.scene7.com/s7search/)
 
 ## 使用eCatalog檢視器 {#section-e6c68406ecdc4de781df182bbd8088b4}
 
@@ -92,7 +95,7 @@ eCatalog Search Viewer支援社交共用工具。這些工具是主控制列中�
 
 ## 內嵌eCatalog Search檢視器 {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-不同的網頁對檢視器行為有不同的需求。 有時網頁會提供連結，當點按時，會在個別的瀏覽器視窗中開啟檢視器。 在其他情況下，必須直接將檢視器內嵌在代管頁面中。 在後一種情況下，網頁可能具有靜態頁面版面，或使用不同裝置或不同瀏覽器視窗大小顯示不同的互動式設計。 為滿足這些需求，檢視器支援三種主要作業模式：快顯功能、固定大小內嵌和回應式設計內嵌。
+不同的網頁對檢視器行為有不同的需求。 有時網頁會提供連結，當點按時，會在個別的瀏覽器視窗中開啟檢視器。 在其他情況下，必須直接將檢視器內嵌在代管頁面中。 在後一種情況下，網頁可能具有靜態頁面版面，或使用不同裝置或不同瀏覽器視窗大小顯示不同的互動式設計。 為滿足這些需求，檢視器支援三種主要作業模式： 快顯功能、固定大小內嵌和回應式設計內嵌。
 
 **關於彈出式模式**
 
@@ -193,7 +196,7 @@ eCatalog Search Viewer支援社交共用工具。這些工具是主控制列中�
 
    同時，容器元素也不一定是網頁版面的一部分。 例如，它可能會使用指派給它 `display:none` 的樣式隱藏。 在此情況下，檢視器會延遲其初始化程式，直到網頁將容器元素帶回版面為止。 發生此情況時，檢視器載入會自動繼續。
 
-   以下是建立檢視器例項、將最小必要的設定選項傳遞至建構函式，以及呼叫方法的范 `init()` 例。 範例假設 `eCatalogSearchViewer` 是檢視器例項； `s7viewer` 是佔位符的名稱 `DIV`;是 `http://s7d1.scene7.com/is/image/` 影像伺服URL, `Viewers/Pluralist` 且是資產：
+   以下是建立檢視器例項、將最小必要的設定選項傳遞至建構函式，以及呼叫方法的范 `init()` 例。 範例假設 `eCatalogSearchViewer` 是檢視器例項； `s7viewer` 是佔位符的名稱 `DIV`; `http://s7d1.scene7.com/is/image/` 是影像伺服URL, `Viewers/Pluralist` 且是資產：
 
    ```
    <script type="text/javascript"> 
@@ -297,7 +300,7 @@ var eCatalogSearchViewer = new s7viewers.eCatalogSearchViewer({
 
 下列範例頁面說明不受限制高度的互動式設計內嵌的實際使用案例：
 
-[https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html](https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html)
+[即時展示](https://landing.adobe.com/tw/na/dynamic-media/ctir-2755/live-demos.html)
 
 **定義寬高的彈性大小內嵌**
 
