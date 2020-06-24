@@ -7,7 +7,10 @@ title: ExportJob
 topic: Scene7 Image Production System API
 uuid: 439e3dd8-85b8-4f5b-abf8-8cc5a3f59fe6
 translation-type: tm+mt
-source-git-commit: 26fb6212c3106deb7b088020d9f2993e40dec20b
+source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+workflow-type: tm+mt
+source-wordcount: '219'
+ht-degree: 15%
 
 ---
 
@@ -37,31 +40,31 @@ ExportJob不支援下列資產類型：
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> assetHandleArray</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> 類型：HandleArray</span> </p> </td> 
    <td colname="col3" valign="top"> <p>需要 <span class="codeph"> 匯出的</span> assetHandle的清單。 請參 <a href="../../types/c-data-types/r-handle-array.md#reference-1b93fefb5477459faf9253b54349b5f9" type="reference" format="dita" scope="local"> 閱HandleArray</a>。 </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> fmt</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> fmt</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string </span> </p> </td> 
-   <td colname="col3"> <p>指定導出的類 <span class="codeph"> 型。可能的值</span>:[orig, convert] </p> <p> 
+   <td colname="col3"> <p>指定導出的類 <span class="codeph"> 型。可能的值</span>: [orig, convert] </p> <p> 
      <ul id="ul_16EF4B14100C4C7AA464CA9CF7F11D1C"> 
       <li id="li_DAB2844CC55145C88A18A1F8EC4527F9">如果 <span class="codeph"> fmt=orig</span>，則資產將導出為原始資產 </li> 
       <li id="li_07F2F8D159934D889FDC1022AB12B564">如果 <span class="codeph"> fmt=convert</span>，則資產將轉換為is_modifer或宏輸入參數中 <span class="codeph"> 指定的格式</span> , <span class="codeph"> 即</span> 可 </li> 
      </ul> </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> is_modifier</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> is_modifier</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string </span> </p> </td> 
-   <td colname="col3"> <p>指定 <span class="codeph"> ImageServer</span> 轉譯URL字串，此字串會附加至ExportJob轉 <span class="codeph"> 換請求</span> 。 </p> <p>如需傳送IS修飾 <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/" scope="external" format="html"> 詞的詳細資訊</a> ，請參閱IS檔案。 </p> </td> 
+   <td colname="col3"> <p>指定 <span class="codeph"> ImageServer</span> 轉譯URL字串，此字串會附加至ExportJob轉 <span class="codeph"> 換請求</span> 。 </p> <p>如需傳送IS修飾 <a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/home.html" scope="external" format="html"> 詞的詳細資訊</a> ，請參閱IS檔案。 </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 宏</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 宏</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string </span> </p> </td> 
    <td colname="col3"> <p></p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p> <span class="codeph"> 電子 <span class="varname"> 郵件設定</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> emailSetting</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string </span> </p> </td> 
    <td colname="col3"> <p>選擇電子郵件設定。 可能的值︰ </p> <p> 
      <ul id="ul_0EEDAE11B7CD4C53A6E4B2B8CB2CF730"> 
@@ -73,9 +76,9 @@ ExportJob不支援下列資產類型：
      </ul> </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p> <span class="codeph"> 用戶 <span class="varname"> 端ID</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> clientId</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string </span> </p> </td> 
-   <td colname="col3"> <p>指定啟動匯出請求之用戶端或客戶的IP位址。 </p> <p> <p>注意： 此參數目前未主動填入，且嚴格保留供日後使用。 </p> </p> </td> 
+   <td colname="col3"> <p>指定啟動匯出請求之用戶端或客戶的IP位址。 </p> <p> <p>注意：  此參數目前未主動填入，且嚴格保留供日後使用。 </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
