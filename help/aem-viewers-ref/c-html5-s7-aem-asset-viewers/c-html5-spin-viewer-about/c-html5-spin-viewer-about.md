@@ -8,7 +8,10 @@ title: Spin
 topic: Dynamic media
 uuid: 5d5cdf83-cfe8-48cd-af74-b270f7400b14
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+workflow-type: tm+mt
+source-wordcount: '2166'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +30,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 示範URL {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
-[https://s7d9.scene7.com/s7viewers/html5/SpinViewer.html?asset=Scene7SharedAssets/SpinSet_Sample&amp;stagesize=500,400](https://s7d9.scene7.com/s7viewers/html5/SpinViewer.html?asset=Scene7SharedAssets/SpinSet_Sample&stagesize=500,400)
+[https://s7d9.scene7.com/s7viewers/html5/SpinViewer.html?asset=Scene7SharedAssets/SpinSet_Sample&amp;stagesize=500,400](https://s7d9.scene7.com/s7viewers/html5/SpinViewer.html?asset=Scene7SharedAssets/SpinSet_Sample&amp;stagesize=500,400)
 
 ## 使用回轉檢視器 {#section-e6c68406ecdc4de781df182bbd8088b4}
 
@@ -80,7 +83,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 內嵌回轉檢視器 {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-不同的網頁對檢視器行為有不同的需求。 有時網頁會提供連結，當點按時，會在個別的瀏覽器視窗中開啟檢視器。 在其他情況下，必須直接將檢視器內嵌在代管頁面中。 在後一種情況下，網頁可能具有靜態頁面版面，或使用不同裝置或不同瀏覽器視窗大小顯示不同的互動式設計。 為滿足這些需求，檢視器支援三種主要作業模式：快顯功能、固定大小內嵌和回應式設計內嵌。
+不同的網頁對檢視器行為有不同的需求。 有時網頁會提供連結，當點按時，會在個別的瀏覽器視窗中開啟檢視器。 在其他情況下，必須直接將檢視器內嵌在代管頁面中。 在後一種情況下，網頁可能具有靜態頁面版面，或使用不同裝置或不同瀏覽器視窗大小顯示不同的互動式設計。 為滿足這些需求，檢視器支援三種主要作業模式： 快顯功能、固定大小內嵌和回應式設計內嵌。
 
 **關於彈出式模式**
 
@@ -127,7 +130,7 @@ target="_blank">Open popup viewer</a>
 
 1. 將檢視器JavaScript檔案新增至您的網頁。
 
-   建立檢視器時，您必須在HTML標題中新增指令碼標籤。 請務必加入檢視器API，才能使用檢視器API `SpinViewer.js`。 `SpinViewer.js` 位於標準IS- [!DNL html5/js/] Viewer部署的子資料夾下：
+   建立檢視器時，您必須在HTML標題中新增指令碼標籤。 在您使用檢視器API之前，請確定您已加入 `SpinViewer.js`。 `SpinViewer.js` 位於標準IS- [!DNL html5/js/] Viewer部署的子資料夾下：
 
    `<s7viewers_root>/html5/js/SpinViewer.js`
 
@@ -293,7 +296,9 @@ var spinViewer = new s7viewers.SpinViewer({
 
 下列範例頁面說明不受限制高度的互動式設計內嵌的實際使用案例：
 
-[https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html](https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html)
+[即時展示](https://landing.adobe.com/tw/na/dynamic-media/ctir-2755/live-demos.html)
+
+<!-- KEEP (https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html) -->
 
 **定義寬高的彈性大小內嵌**
 
