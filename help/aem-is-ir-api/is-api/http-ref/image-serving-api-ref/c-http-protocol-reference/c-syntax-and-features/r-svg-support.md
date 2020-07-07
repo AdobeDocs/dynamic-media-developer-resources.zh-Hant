@@ -7,7 +7,10 @@ title: SVG支援
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 30d7b37d-fdef-4518-a4b3-4baee56fa634
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '522'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 影像伺服支援可縮放向量圖形(SVG)檔案做為來源資料。 必須符合SVG 1.1。
 
-影像服務僅識別靜態SVG內容；動畫、指令碼和其他互動式內容不受支援。
+影像服務僅識別靜態SVG內容； 動畫、指令碼和其他互動式內容不受支援。
 
 SVG可以指定在允許影像檔的位置(URL路 `src=`徑和 `mask=`)。 點陣化SVG檔案的內容後，就像影像一樣處理。
 
@@ -36,11 +39,11 @@ SVG可以指定在允許影像檔的位置(URL路 `src=`徑和 `mask=`)。 點�
 
 指定完整的「影像伺服」請求(從開 `http://`頭開始)或相對URL(從開頭開始 `/is/image`)。 如果指定完整的HTTP路徑，則會從路徑中移除網域名稱，以轉換為相對格式。 使用完整的HTTP路徑可能有其優點，因為它可讓使用協力廠商SVG轉譯器預覽檔案。
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >本版「影像伺服」中對轉譯影像的支援有限。 只有在傳統「影像伺服」分層和範本化機制不足以達到所需結果的情況下，才應使用SVG中的參照影像。 在任何情況下，都不應使用SVG來產生多影像構圖。
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >目前，內嵌在SVG中的影像不會自動調整大小。 請確定所有影像參照都包含必要的「影像伺服」命令，以設定所要的影像大小(例如 `wid=`)。 如果未明確設定影像大小， `attribute::DefaultPix` 則會套用。
 
