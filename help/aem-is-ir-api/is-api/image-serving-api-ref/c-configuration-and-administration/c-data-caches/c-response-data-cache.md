@@ -7,7 +7,10 @@ title: 回應資料快取
 topic: Scene7 Image Serving - Image Rendering API
 uuid: dbfda210-3b50-4e8c-8d77-7263ae4e80a2
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '316'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +27,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 此外，還 `PS::cache.maxSize`通過限制具有的最大快取條目數來管理響應快取 `PS::cache.maxEntries`。 在Linux上，此設定必須指定一個不大於快取分區上可用indo的數目的值。
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >平台伺服器維護記憶體中快取索引。 此索引的大小是值的32個位元組 `PS::cache.maxEntries`。 您可能需要增加平台伺服器堆大小以容納較大的快取。
 
