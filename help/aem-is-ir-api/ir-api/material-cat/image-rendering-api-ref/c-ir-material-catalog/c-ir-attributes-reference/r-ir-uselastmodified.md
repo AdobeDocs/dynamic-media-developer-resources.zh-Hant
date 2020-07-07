@@ -7,7 +7,10 @@ title: UseLastModified
 topic: Scene7 Image Serving - Image Rendering API
 uuid: f2ce2e04-4133-40af-ac82-cae57b253fe9
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '246'
+ht-degree: 2%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 只有當使用不支援etag標題的分散式快取網路（例如Akamai）時，才應啟用。
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >在包含多部影像伺服／轉換主機的負載平衡環境中使用「上次修改」標題時，請務必小心。 如果由於某些原因，伺服器對同一目錄條目具有不同的時間戳記，則可能會打敗客戶端快取並增加伺服器負載。 這種情況可能發生如下：
 
