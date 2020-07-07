@@ -7,7 +7,10 @@ title: 影像地圖
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 2b7b620b-712b-4110-ba38-993a354c09d3
 translation-type: tm+mt
-source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '402'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ IS提供簡化HTML影像地圖使用的機制。 IS中以JAVA為基礎和以Flas
 
 影像地圖由一或多個HTML AREA元素組成，並以&#39;&lt;&#39;和&#39;>&#39;正確分隔。 如果透過目錄：:Map提供，則所有像素座標值都假設為原始影像解析度，且相對於（未修改）來源影像的左上角。 通過命令提 `map=` 供時，坐標值假定為相對於圖層左上角（在和之後）的圖層 `rotate=` 坐 `extend=`標。
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >目前不允許%座標，而且可能會處理錯誤。
 
