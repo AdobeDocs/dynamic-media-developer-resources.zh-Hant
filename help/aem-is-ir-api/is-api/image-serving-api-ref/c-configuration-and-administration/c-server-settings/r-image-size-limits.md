@@ -7,7 +7,10 @@ title: 影像大小限制
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 6736e652-c495-45a2-bdd2-9975f99af0a2
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '241'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +35,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 允許影像伺服器開啟的非PTIFF影像的最大大小（以Mpixels為單位）。 當嘗試存取大於此限制的非PTIFF影像時，「影像伺服」會傳回錯誤。
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >將此值設定得太高可能導致映像伺服器缺少記憶體，並導致故障（包括崩潰）。
 
