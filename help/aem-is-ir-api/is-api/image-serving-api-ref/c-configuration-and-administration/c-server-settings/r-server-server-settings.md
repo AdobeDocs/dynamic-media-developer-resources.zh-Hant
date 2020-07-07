@@ -7,7 +7,10 @@ title: 伺服器
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 50db98cc-8354-4884-9416-00808828061b
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '357'
+ht-degree: 0%
 
 ---
 
@@ -20,11 +23,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 32位和64位版本的映像伺服器都可用於Linux。 當安裝在64位元Linux伺服器上時，請指定ImageServer64；當安裝在32位元伺服器上時，請指定ImageServer32（預設）。
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >64位元版本的Image Server不支援FlashPix來源檔案。
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Windows不支援64位元模式。 只能 `ImageServer32` 指定。 否則，將不會啟動「影像伺服」。
 
@@ -36,7 +39,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 指定用於平台伺服器和映像伺服器之間通信的埠。 請務必指定主機系統上未使用的埠號。
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >若要讓「影像伺服」正常運作，必須為和設定相 `IS::TcpPort` 同值 `PS::isConnection.port`。
 
