@@ -7,7 +7,10 @@ title: TimeStamp
 topic: Scene7 Image Serving - Image Rendering API
 uuid: d2649e86-8a6f-4f63-ab6a-8b2d8c03f8c0
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '238'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 如果 `attribute::UseLastModified` 已設定，則會在HTTP回 `vignette::TimeStamp` 應中傳 `catalog::TimeStamp`回暈映的最新值和值，以及請求中涉及的所有材料，作為上次修改的標題。
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >暈映檔案的實際檔案時間絕不會用於此目的。
 
@@ -30,7 +33,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 *[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]* *[!DNL hh]*: *[!DNL mm]*: *[!DNL ss]* *[!DNL zzz]*
 
-*[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]**[!DNL hh]*: *[!DNL mm]*:*[!DNL ss]*GMT *[!DNL offset]*
+*[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]**[!DNL hh]*: *[!DNL mm]*: *[!DNL ss]*GMT *[!DNL offset]*
 
 * *[!DNL hh]* 在0到23的範圍內。
 * *[!DNL zzz]* 是3或4個字元的時區代碼，例如「GMT」或「PST」。 日光節約時間必須計入時區代碼（例如，太平洋標準時間為「PST」，太平洋日光節約時間為「PDT」）。
