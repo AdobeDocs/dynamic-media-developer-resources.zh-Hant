@@ -7,7 +7,10 @@ title: 錯誤時重新導向
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 894babe9-9c3c-4972-ae8f-387d65b4167d
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '327'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +36,7 @@ IS伺服器可配置為對涉及源映像的請求進行故障切換，這些請
 
 錯誤重新導向是通過 `PS::errorRedirect.rootUrl` 設定為從屬伺服器的HTTP域名和埠號來啟用的。 此外，連接超時配置為 `PS::errorRedirect.connectTimeout` ，並且主伺服器在將錯誤返回客戶端之前等待輔助伺服器響應的最長時間配置為 `PS::errorRedirect.socketTimeout`。
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >如果無法連絡從屬伺服器，則會傳回文字錯誤回應給用戶端，即使已設定預設影像或錯誤影像亦然。
 
