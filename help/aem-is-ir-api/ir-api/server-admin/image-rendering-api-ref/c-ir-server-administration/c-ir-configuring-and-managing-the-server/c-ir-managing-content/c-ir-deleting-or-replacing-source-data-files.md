@@ -7,7 +7,10 @@ title: 刪除或替換源資料檔案
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 13dc0489-7ab0-481e-b213-214affe9819e
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '239'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 在伺服器上線時，您可在檔案覆寫之前使用req=release命令來取代或刪除暈映檔案。
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >在Render Server訪問資料檔案時，不能替換或刪除資料檔案。
 
