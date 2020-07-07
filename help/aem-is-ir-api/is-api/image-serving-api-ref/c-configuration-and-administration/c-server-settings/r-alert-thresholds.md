@@ -7,7 +7,10 @@ title: 警報閾值
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 032cb396-1a03-4ba9-82d6-ed2cb06e8cf2
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '406'
+ht-degree: 0%
 
 ---
 
@@ -16,11 +19,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 使用這些伺服器設定來配置警報閾值。
 
-## AS:monitorAlertGenerator.maxAverageResponseTime -Response Time ThresholdAS:monitorAlertGenerator.maxAverageResponseTime —— 回應時間 {#section-35111039ac6c4a63ba23fc2c828ab726}
+## AS: monitorAlertGenerator.maxAverageResponseTime -Response Time ThresholdAS: monitorAlertGenerator.maxAverageResponseTime —— 回應時間 {#section-35111039ac6c4a63ba23fc2c828ab726}
 
-當在採樣間隔期間處理請求的平均時間超過此處設定的閾值時，發出響應時間警報。 以毫秒錶示；整數0或更大。 典型值介於100到1000毫秒之間，具體取決於操作的複雜性。
+當在採樣間隔期間處理請求的平均時間超過此處設定的閾值時，發出響應時間警報。 以毫秒錶示； 整數0或更大。 典型值介於100到1000毫秒之間，具體取決於操作的複雜性。
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >此警報不會考慮導致4xx或5xx回應狀態的請求。
 
@@ -28,7 +31,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 當採樣間隔期間HTTP錯誤響應與總響應的比例超過指定閾值時，發出錯誤警報。
 
-0.0到1.0之間的實際值。通常設定為0.005到0.1之間。設為1可停用錯誤警報。
+0.0到1.0之間的實際值。通常設定為0.005到0.1之間。 設為1可停用錯誤警報。
 
 ## AS::monitorAlertGenerator.minRequestRate —— 低流量閾值 {#section-8dfb89ed138640fd86f5ce1dae2a533e}
 
