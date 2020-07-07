@@ -7,7 +7,10 @@ title: SVG
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 9e69b150-46ac-480f-96db-afadccc40fe4
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '286'
+ht-degree: 1%
 
 ---
 
@@ -40,13 +43,13 @@ SVG源資料檔案的位置。 可以是一個或多個相對的絕對檔案路�
 
 ## PS::svgProvider.fontRoot - SVG字型檔案資料夾 {#section-a8d45b0d68504945b8780f5eac351b0d}
 
-指定SvgRender在何處可找到轉換SVG文本所需的字型檔案；通常是中指定的路徑之 `IS::RootPaths`一。 預設值為[!DNL *[!DNL install_folder]*/影像]。
+指定SvgRender在何處可找到轉換SVG文本所需的字型檔案； 通常是中指定的路徑之 `IS::RootPaths`一。 預設值為[!DNL *[!DNL install_folder]*/影像]。
 
 ## SVG::SVGRender.port,IS::SVGTcpPort - SVG通信埠 {#section-608687123aa644b7b58fe42385d71b79}
 
 配置Image Server和SVGRender元件通信的埠。
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >為使SVGRender元件正確運行，必須為和指定相同的端 `SVG::SVGRender.port` 口號 `IS::SVGTcpPort`。
 
