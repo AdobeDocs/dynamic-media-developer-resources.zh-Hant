@@ -7,7 +7,10 @@ title: 刪除或替換資料檔案
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 7b446144-48f6-4b50-93ec-0287425d932a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '393'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 雖然新增資料檔案既簡單又直接，但取代伺服器主動使用的現有資料檔案時，必須格外小心。 建議不要簡單地替換這些檔案，而是為替換檔案指定新名稱（例如，在檔案名中附加版本尾碼）。 新檔案上線後，舊版可以刪除。
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >在影像伺服作用中時，絕不應取代或刪除資料檔案。 否則可能會發生錯誤，甚至伺服器當機。
 
