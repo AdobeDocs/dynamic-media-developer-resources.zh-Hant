@@ -7,7 +7,10 @@ title: 回應快取驗證
 topic: Scene7 Image Serving - Image Rendering API
 uuid: d1aad5ae-f0fa-489b-a48b-b0ac8c8f43bb
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '330'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +27,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 快取項目會變為無效，且當請求中涉及的目錄項目變更時，可能會導致回覆影像變更，快取項目可能會重新產生。 例如，變更的內 `catalog::Modifier` 容。
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Scene7金字塔TIFF(PTIFF)影像會在檔案標題中內部維護檔案日期，以利驗證。 檔案系統維護的檔案修改時間用於檢查非PTIFF檔案是否已更改。
 
