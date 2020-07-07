@@ -7,7 +7,10 @@ title: 一般
 topic: Scene7 Image Serving - Image Rendering API
 uuid: d7ec3dba-64b8-431b-b446-84ab6139ba8a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '230'
+ht-degree: 2%
 
 ---
 
@@ -36,7 +39,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 設為false可禁止路徑中未包含有效目錄ID的請求。 預設為 `true`. 設為時， `false`會針對沒有目錄ID的請求傳回錯誤。
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >`req=catalogprops` 不受此設定的約束。
 
