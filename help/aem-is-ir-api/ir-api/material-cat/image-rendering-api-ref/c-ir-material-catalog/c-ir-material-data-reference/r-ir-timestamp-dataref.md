@@ -7,7 +7,10 @@ title: TimeStamp
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 77ce8bee-7b55-4ff8-8dfb-ebd3ce9c7a8a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '278'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 如果 `attribute::UseLastModified` 已設定，則在HTTP回應中，會傳回所有資料和請求中 `catalog::TimeStamp``vignette::TimeStamp` 涉及之暈映的最新值和值，作為上次修改的標題。
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >此目的絕不會使用附加至此目錄記錄的影像或資料檔案的實際檔案時間。
 
