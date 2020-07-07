@@ -7,7 +7,10 @@ title: 自訂變數
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 933fba00-759c-4bd3-bada-eec751426d9e
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '260'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +27,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 變數的定義類似於其他伺服器命令，使用上述語法。 變數必須先定義，才能被參考。 在中定義的變 `vignette::Modifier` 數可在URL請求中參考，反之亦然。
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >*[!DNL value]* 必須是單次URL編碼，才能安全傳輸HTTP。 如果透過HTTP重新傳輸，則 *[!DNL value]* 需要雙重編碼。 在將其取代為巢 *[!DNL value]* 狀外來請求時，即是如此。
 
@@ -32,4 +35,4 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 自訂變數不得巢狀化。 在中發生的任何 *[!DNL name]*$$都 *[!DNL string]* 不會被取代。 例如，請求片段 `$var2=apple&$var1=my$var2$tree&text=$var1$` 解析為 `text=my$var2$tree`。
 
-$不是保留字元；在請求中可能會發生其他情況。 例如， `src=my$texture$file.tif` 是有效命令（假設名為材料目錄條目或紋理檔案存在），而 [!DNL my$texture$file.tif] 不是，因為 `wid=$number$``wid=` 需要數值參數。
+$不是保留字元； 在請求中可能會發生其他情況。 例如， `src=my$texture$file.tif` 是有效命令（假設名為材料目錄條目或紋理檔案存在），而 [!DNL my$texture$file.tif] 不是，因為 `wid=$number$``wid=` 需要數值參數。
