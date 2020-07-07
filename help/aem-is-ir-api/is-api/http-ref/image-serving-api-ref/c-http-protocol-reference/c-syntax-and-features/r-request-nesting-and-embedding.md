@@ -7,7 +7,10 @@ title: 請求巢狀內嵌
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 59031329-e65f-4631-bc7d-83f2540cc836
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '1075'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 「影像伺服」支援無限制的「影像伺服」請求巢狀、內嵌「影像演算」請求，以及內嵌從外部伺服器擷取的影像。 只有圖層影像和圖層遮色片才支援這些機制。
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >某些電子郵件用戶端和代理伺服器可能會編碼用於巢狀和內嵌語法的大括弧。 對於此問題，應用程式應使用括弧而非大括弧。
 
@@ -30,7 +33,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 巢狀請求不得包含伺服器根路徑(通常 ` http:// *[!DNL server]*/is/image/'`)。
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >巢狀請求中的巢狀請求分隔字 `'(',')'`元()和命令分隔字元( `'?'`, `'&'`, `'='`)不得使用HTTP編碼。 有效地，巢狀請求的編碼必須與外部（巢狀）請求相同。
 
@@ -62,7 +65,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 *[!DNL renderRequest]* 是通常的「影像演算」請求，排除HTTP根路徑 ` http:// *[!DNL server]*/ir/render/`。
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >巢狀請求中的巢狀請求分隔字 `'(',')'`元()和命令分隔字元( `'?'`, `'&'`, `'='`)不得使用HTTP編碼。 有效地，內嵌請求的編碼必須與外部（內嵌）請求相同。
 
@@ -87,13 +90,13 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 代 `fxg` 號區分大小寫。
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >FXG圖形演算僅適用於Scene7代管環境，可能需要額外授權。 如需詳細資訊，請連絡Scene7支援。
 
 *[!DNL renderRequest]* 是通常的FXG演算請求，排除HTTP根路徑 ` http:// *[!DNL server]*/agm/render/`。
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >巢狀請求中的分隔字 `'(',')'`元()和命令分隔字元( `'?'`、 `'&'`、 `'='`)不得使用HTTP編碼。 有效地，內嵌請求的編碼必須與外部（內嵌）請求相同。
 
@@ -119,15 +122,15 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 重要：巢狀請求中 `'(',')'`的分隔字元()和命令分隔字元( `'?'`, `'&'`, `'='`)不得使用HTTP編碼。 有效地，內嵌請求的編碼必須與外部（內嵌）請求相同。
 
-完整絕對URL(如 `attribute::AllowDirectUrls` 果已設定)，且允許相對 `attribute::RootUrl` 於URL。 如果嵌入了絕對URL且屬性： `AllowDirectUrls` 為0，或指定相對URL且空 `attribute::RootUrl` 白。
+完整絕對URL(如 `attribute::AllowDirectUrls` 果已設定)，且允許相對 `attribute::RootUrl` 於URL。 如果嵌入了絕對URL且屬性： `AllowDirectUrls` 為0，或指定相對URL且空 `attribute::RootUrl` 白時。
 
 雖然無法直接在請求URL的路徑元件中指定外來URL，但是可以設定預處理規則，以允許將相對路徑轉換為絕對URL（請參閱以下範例）。
 
 伺服器會根據HTTP回應所包含的快取標題，快取外來影像。 如果既不存 `ETag` 在「上次修改的HTTP」回應標頭，則不會快取回應。 這可能會導致相同外來影像重複存取時效能不佳，因為「影像伺服」需要在每次存取時重新擷取並重新驗證影像。
 
-此機制支援與影像轉換(IC)實用程式支援的影像檔案格式相同，但每個元件16位的源影像除外。
+此機制支援影像轉換(IC)實用程式支援的影像檔案格式相同，但每個元件16位的源影像除外。
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >當首次使用外來映像時，映像服務將自動運行驗證實用程式，以確保映像有效且在傳輸過程中未損壞。 這可能會導致首次訪問的輕微延遲。 為獲得最佳效能，建議限制此類影像的大小和／或使用壓縮良好的影像檔案格式。
 
@@ -151,7 +154,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 **內嵌Scene7影像演算要求**
 
-使用儲存在中的模板 [!DNL myCatalog/myTemplate];使用Scene7影像演算為範本的layer2產生影像：
+使用儲存在中的模板 [!DNL myCatalog/myTemplate]; 使用Scene7影像演算為範本的layer2產生影像：
 
 `http://server/is/image/myCatalog/myTemplate?layer=2&src=ir(myRenderCatalog/myRenderObject?id=myIdValue&sel=group&src=is(myCatalog/myTexture1?res=30)&res=30)&wid=300`
 
