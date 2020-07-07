@@ -7,9 +7,9 @@ title: 暈映轉換器
 topic: Scene7 Image Serving - Image Rendering API
 uuid: b32a30d6-ae4a-406f-88a9-e8b0eec394c9
 translation-type: tm+mt
-source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 [!DNL vntc] 預設限制為最多3GB的記憶體。 當Vntc達到此限制時，它會停止處理並產生錯誤。 此限制可使用變更 `-maxmem`。
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >「影像製作」中的暈映更新工具也可用來準備暈映以供影像演算使用。 同樣地，「內容製作工具」也能產生檔案櫃樣式檔案，以便與「影像演算」搭配使用。 如果 [!DNL vntc] 要自動處理，請使用。 「影像製作」中的工具包含圖形使用者介面，因此通常更容易以互動方式使用。
 
