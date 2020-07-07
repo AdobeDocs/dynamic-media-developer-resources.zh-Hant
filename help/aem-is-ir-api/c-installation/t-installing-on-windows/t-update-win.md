@@ -7,7 +7,10 @@ title: 從IS 4.7.4或更新版本更新
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 3d23f13a-a9be-45ff-9765-c71bdeb77c5f
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '222'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 如果您是從舊版影像伺服升級，請聯絡支援以取得正確的程式。
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >升級 [!DNL webapps] 時可以刪除該資料夾。 在升級前 [!DNL webapps] 備份資料夾。
 
@@ -30,7 +33,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
    下一頁顯示先前的配置設定。
 1. 按一下 **[!UICONTROL 下一步]** ，開始安裝更新。
 
-   >[!NOTE] {class=&quot;- topic/note &quot;}
+   >[!NOTE]
    >
    >安裝程式會將舊伺服器組態檔備份至資料 [!DNL BACKUP/] 夾。
 
