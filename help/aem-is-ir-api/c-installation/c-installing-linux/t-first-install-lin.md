@@ -7,7 +7,10 @@ title: 首次安裝
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 6a9a6dd2-2c69-447a-9628-eba08dc4f6c8
 translation-type: tm+mt
-source-git-commit: c5b68038fa5980c7051fae916520b40e17890a7f
+source-git-commit: edb21832b3e36a6498c6aad27813cd4b3032b48f
+workflow-type: tm+mt
+source-wordcount: '401'
+ht-degree: 0%
 
 ---
 
@@ -61,13 +64,14 @@ source-git-commit: c5b68038fa5980c7051fae916520b40e17890a7f
 
    請確定指定的所有埠號都是唯一的，否則不會在此主機上使用。
 
-   **重要：**如果指定了root以外的帳戶，則必須確保在配置檔案中重新配置這些資料夾時，正確設定映像伺服器需要讀取和／或寫入的所有檔案和資料夾的訪問權限。
->映像服務現在已安裝到 [!DNL /usr/local/Scene7/ImageServing]。 特定的影像演算內容會安裝至 [!DNL /usr/local/Scene7/ImageRendering]。
->
->在安裝接近尾聲時，安裝嚮導將嘗試啟動映像伺服器。 如果未找到有效的許可證密鑰，則無法啟動映像伺服器。 如果存在有效的許可證，但映像伺服器仍未啟動，請查閱日誌檔案。
->[!NOTE]
-如果許可證是在安裝映像服務後安裝的，則必須在使用之前手動啟動映像伺服器。
->
->
->
+   >[!IMPORTANT]
+   >
+   >如果指定了root以外的帳戶，則必須確保在配置檔案中重新配置這些資料夾時，正確設定了映像伺服器需要讀取和／或寫入的所有檔案和資料夾的訪問權限。
+   >
+   >映像服務現在已安裝到 [!DNL /usr/local/Scene7/ImageServing]。 特定的影像演算內容會安裝至 [!DNL /usr/local/Scene7/ImageRendering]。
+   >
+   >在安裝接近尾聲時，安裝嚮導將嘗試啟動映像伺服器。 如果未找到有效的許可證密鑰，則無法啟動映像伺服器。 如果存在有效的許可證，但映像伺服器仍未啟動，請查閱日誌檔案。
 
+>[!NOTE]
+>
+>如果許可證是在安裝映像服務後安裝的，則必須在使用之前手動啟動映像伺服器。
