@@ -7,7 +7,7 @@ title: 從IS 4.7.4或更新版本更新
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 3d23f13a-a9be-45ff-9765-c71bdeb77c5f
 translation-type: tm+mt
-source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+source-git-commit: edb21832b3e36a6498c6aad27813cd4b3032b48f
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
 1. 安裝完成後，按一下「完成」退出安裝嚮導。
 
    在某些情況下，安裝嚮導可能會要求重新啟動系統。
->在更新期間，檔 [!DNL ImageServing/conf/server.xml] 案會更新為最新的設定。 如果您已變更或新增任何值，則應儲存現有值，並在 [!DNL server.xml] 升級後重新實作變更。
->
->在安裝更新後，請考慮在將伺服器上線之前先預熱HTTP回應快取。 有關詳細資訊，請參 `playlog` 閱實用程式說明。
 
+在更新期間，檔 [!DNL ImageServing/conf/server.xml] 案會更新為最新的設定。 如果您已變更或新增任何值，則應儲存現有值，並在 [!DNL server.xml] 升級後重新實作變更。
+
+在安裝更新後，請考慮在將伺服器上線之前先預熱HTTP回應快取。 有關詳細資訊，請參 `playlog` 閱實用程式說明。
