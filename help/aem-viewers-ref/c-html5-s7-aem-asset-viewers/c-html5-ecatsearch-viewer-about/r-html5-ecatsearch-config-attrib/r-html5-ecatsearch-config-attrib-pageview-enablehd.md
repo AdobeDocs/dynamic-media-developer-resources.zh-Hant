@@ -7,7 +7,10 @@ title: PageView.enableHD
 topic: Dynamic media
 uuid: 34c0e59f-4ed0-4b62-b661-aff20ff64ec4
 translation-type: tm+mt
-source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+workflow-type: tm+mt
+source-wordcount: '286'
+ht-degree: 3%
 
 ---
 
@@ -35,11 +38,11 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
 
 ## 預設 {#section-50b22de303c1432094530e6583132c02}
 
-[!DNL `limit,1500`
+`limit,1500`
 
 ## 範例 {#section-09433488774245d985acef6c0341ece0}
 
-以下是當您搭配檢視器使用此設定屬性時的預期結果，檢視器大小為1000 x 1000:
+以下是當您搭配檢視器使用此設定屬性，且檢視器大小為1000 x 1000時的預期結果：
 
 <table id="table_F97FEDA0EE1B4EF6AC9FF9060548ACA4"> 
  <thead> 
