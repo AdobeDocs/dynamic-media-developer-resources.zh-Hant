@@ -7,7 +7,10 @@ title: fmt
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 29151740-3bbc-4c5e-bbc7-4afe9064ff5f
 translation-type: tm+mt
-source-git-commit: f490c0b927679917d5fbf3553e60aa90952735c3
+source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+workflow-type: tm+mt
+source-wordcount: '856'
+ht-degree: 4%
 
 ---
 
@@ -16,9 +19,9 @@ source-git-commit: f490c0b927679917d5fbf3553e60aa90952735c3
 
 回應影像格式。
 
-`fmt=format[,` `[`*`pixelType`*`]`,`[`*`compression`*]]
+`fmt=format[,` `[`*`pixelType`*`]`,`[`*`compression`*`]]`
 
-*`format`* — jpeg| jpg| pjpeg| png| png8| png-alpha| png8-alpha| tif| tif-alpha| swf| swf-alpha| swf3| swf3-alpha| eps| gif| gif-alpha| m3u8| f4m|網頁| webp-alpha| jpeg2000| jpeg2000-alpha| jpegxr| jpegxr-alpha
+*`format`* — jpeg | jpg | pjpeg | png | png8 | png-alpha | png8-alpha | tif | tif-alpha | swf | swf-alpha | swf3 | swf3-alpha | eps | gif | gif-alpha | m3u8 | f4m |網頁 | webp-alpha | jpeg2000 | jpeg2000-alpha | jpegxr | jpegxr-alpha
 
 | *`format`* | 說明 |
 |---|---| 
@@ -71,7 +74,7 @@ source-git-commit: f490c0b927679917d5fbf3553e60aa90952735c3
 
    會套用對應的預設顏 *`pixelType`* 色描述檔。 如果停用色彩管理，則會套用天真的轉換。 *`pixelType`* 會在指定時 `icc=` 忽略，這會決定輸出像素類型。
 
-* *`compression`* 僅當指定為 `tif`, 、 `tif-alpha`, `pdf`, `webp`, `webp-alpha`, `jpeg2000``jpeg2000-alpha``jpegxr``jpegxr-alpha`*`format`*，或者指定為 有關這些影像格式支援的壓縮選項，請參閱下表。
+* *`compression`* 僅當指定為 `tif`、、、、、 `tif-alpha`、或 `pdf`指定為A `webp``webp-alpha``jpeg2000``jpeg2000-alpha``jpegxr``jpegxr-alpha`*`format`*、B、B、B、B、B、B、B、B、B、B、B、B、B、B、B、B、B、B、B、B、B、B、B、B、B、B、B、B、B、B、B、B、B、B、B、B、B、B、B、B、B、B、B、B、B、B、B、B、B、B、B、B、B、B、B、B、B、B、B、B、B、B、B、B、B、B、B、B、B、B、B、B、B、B、B、B、 有關這些影像格式支援的壓縮選項，請參閱下表。
 
 您可以使 `qlt=` 用以下格式設定JPEG編碼選項：JPEG、含JPEG壓縮的TIFF、含JPEG壓縮的PDF和SWF。 WebP、JPEG 2000和JPEG XR也會使用 `qlt=` ，但值會針對不同格式產生不同的品質。 若 `quantize=` 或 `fmt=gif` 使用 `fmt=gif-alpha`。 有關詳細資訊，請參閱命令說明。 其他格式沒有可設定的選項。
 
@@ -82,8 +85,8 @@ source-git-commit: f490c0b927679917d5fbf3553e60aa90952735c3
 <table id="table_12F897A34D1D47F3AA492D4F074F09D5"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b> <i> 格式</i></b> </th> 
-   <th class="entry"> <b> <i> pixelType</i></b> </th> 
+   <th class="entry"> <b> <i> 格式</i> </b> </th> 
+   <th class="entry"> <b> <i> pixelType</i> </b> </th> 
    <th class="entry"> <b> 回應MIME類型</b> </th> 
    <th class="entry"> <b>內嵌ICC設定檔</b> </th> 
    <th class="entry"> <b> 選項</b> </th> 
@@ -116,7 +119,7 @@ source-git-commit: f490c0b927679917d5fbf3553e60aa90952735c3
    <td colname="col2"> <p>rgb，灰色， cmyk </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;image/tiff&gt; </span> </p> </td> 
    <td colname="col4"> <p>是 </p> </td> 
-   <td colname="col5"> <span class="codeph"> <span class="varname"> 壓縮 </span></span> <p> ( <span class="codeph"> 無|lzw|zip|jpeg </span>) </p> <p>僅「tiff」;'tiff-alpha'不支援jpeg壓縮。 </p> <p> <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> 若未將壓 </span> 縮設為jpeg，則 <span class="varname"> 會忽略 </span> qlt= <span class="codeph"> 值 </span>。 </p> <p>, pathEmbed=, xmpEmbed= </p> </td> 
+   <td colname="col5"> <span class="codeph"> <span class="varname"> 壓縮 </span> </span> <p> ( <span class="codeph"> 無|lzw|zip|jpeg </span>) </p> <p>僅「tiff」;'tiff-alpha'不支援jpeg壓縮。 </p> <p> <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> 若未將壓 </span> 縮設為jpeg，則 <span class="varname"> 會忽略 </span> qlt= <span class="codeph"> 值 </span>。 </p> <p>, pathEmbed=, xmpEmbed= </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> swf,swf3,swf-alpha,swf-alpha3 </p> </td> 
@@ -130,7 +133,7 @@ source-git-commit: f490c0b927679917d5fbf3553e60aa90952735c3
    <td colname="col2"> <p>rgb，灰色， cmyk </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;application/pdf&gt; </span> </p> </td> 
    <td colname="col4"> <p>是 </p> </td> 
-   <td colname="col5"> <span class="codeph"> <span class="varname"> 壓縮 </span></span> <p> ( <span class="codeph"> 無|zip|jpeg </span>), <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> 若未將壓 </span> 縮設為 <span class="codeph"> jpeg，則 <span class="varname"> 會忽略qlt= </span></span><span class="codeph"></span>。 </p> </td> 
+   <td colname="col5"> <span class="codeph"> <span class="varname"> 壓縮 </span> </span> <p> ( <span class="codeph"> 無|zip|jpeg </span>), <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> 若未將壓 </span> 縮設為 <span class="codeph"> jpeg，則 <span class="varname"> 會忽略qlt= </span></span><span class="codeph"></span>。 </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> eps </p> </td> 
@@ -240,4 +243,4 @@ source-git-commit: f490c0b927679917d5fbf3553e60aa90952735c3
 
 ## 另請參閱 {#section-fce8d69c74234bf48cf814d799409541}
 
-[qlt=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-qlt.md#reference-f69ed0758c784b0385d979820546d352) , [quantize=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-quantize.md#reference-b8069670fa474e4799ac29f0d693ca38), req=req= [, icc Embed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76)[](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-icc.md#reference-182b5679e21e4df3b4d330535a5a7517)[](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e)[](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pathembed.md#reference-9ccf0771d6634cf68c1c9c33cd428301)[](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pscan.md#reference-b8101ed8e6c04dd28173f9597e52b135), iccEmbed=嵌入路徑Embed=嵌入， pscanChomid
+[qlt=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-qlt.md#reference-f69ed0758c784b0385d979820546d352) , [quantize=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-quantize.md#reference-b8069670fa474e4799ac29f0d693ca38), req=req= [, icc Embed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76)[](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-icc.md#reference-182b5679e21e4df3b4d330535a5a7517)[](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e)[](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pathembed.md#reference-9ccf0771d6634cf68c1c9c33cd428301)[](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pscan.md#reference-b8101ed8e6c04dd28173f9597e52b135), iccEmbed=嵌入路徑Embed=嵌入， pscanChomiz
