@@ -7,7 +7,10 @@ title: setContainerId
 topic: Dynamic media
 uuid: 19149e38-b9d2-4ecd-a555-92e2960f7ee3
 translation-type: tm+mt
-source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+workflow-type: tm+mt
+source-wordcount: '91'
+ht-degree: 2%
 
 ---
 
@@ -18,14 +21,14 @@ eCatalog檢視器的JavaScript API參考。
 
 [!DNL ` setContainerId( *`containerId`*)`]
 
-設定檢視器插入的[!DNL `DOM` 容器( [!DNL `DIV`]通常為a)的ID。 您不需要在呼叫此方法時建立容器元素。 但是，容器在執行時必 [!DNL `init()`] 須存在。 必須先呼叫 [!DNL `init()`]。
+設定檢視器 `DOM` 插入的容 `DIV`器ID（通常為a）。 您不需要在呼叫此方法時建立容器元素。 但是，容器在執行時必 `init()` 須存在。 必須先呼叫 `init()`。
 
-如果檢視器設定資訊與 [!DNL `config`] JSON物件一起傳遞至建構函式，此方法為選用。
+如果檢視器設定資訊與 `config` JSON物件一起傳遞至建構函式，此方法為選用。
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 容 <span class="varname"> 器ID </span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> containerId </span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> {string}容 </span> 器的ID。 </p> </td> 
   </tr> 
  </tbody> 
