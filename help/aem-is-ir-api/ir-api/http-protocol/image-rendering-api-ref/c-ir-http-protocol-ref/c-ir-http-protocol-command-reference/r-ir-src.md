@@ -7,7 +7,10 @@ title: src
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 52751bcc-a65d-4441-a3b5-802d27b54b54
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+workflow-type: tm+mt
+source-wordcount: '483'
+ht-degree: 1%
 
 ---
 
@@ -33,7 +36,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> embeddedReq</span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph">{'is{'<span class="varname"> isReq</span>'}'}|{'ir{'<span class="varname"> irReq</span>'}'|{'{'<span class="varname"> foreignReq</span>'}'}'</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">&amp;'is&amp;lbrace;'<span class="varname"> isReq</span>'&amp;rbrace;'<span class="varname"> isReq</span>'&amp;rbrace;'ir&amp;lbrace;'<span class="varname"> irReq</span>'&amp;rbrace;'|&amp;lbrace;'foreignReq'&amp;ramp;rbrap;rap;'&amp;rbracrap;'</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> catId</span> </p></td> 
