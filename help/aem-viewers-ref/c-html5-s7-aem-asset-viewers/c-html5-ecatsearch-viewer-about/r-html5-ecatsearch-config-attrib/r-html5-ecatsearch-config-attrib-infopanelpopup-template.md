@@ -7,14 +7,17 @@ title: InfoPanelPopup.template
 topic: Dynamic media
 uuid: a7b49f82-9a8b-45f8-b933-9880659770de
 translation-type: tm+mt
-source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+workflow-type: tm+mt
+source-wordcount: '205'
+ht-degree: 3%
 
 ---
 
 
 # InfoPanelPopup.template{#infopanelpopup-template}
 
-[!DNL `[InfoPanelPopup.|<containerId>_infoPanelPopup.]template= *`範本`*`]
+`[InfoPanelPopup.|<containerId>_infoPanelPopup.]template= *`範本`*`
 
 <table id="table_A6B1B446A7AE4A4A8B552C07EC88E518"> 
  <tbody> 
@@ -27,8 +30,8 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
       name&nbsp;CDATA&nbsp;#REQUIRED
       rollover&nbsp;CDATA&nbsp;#IMPLIED&nbsp;&gt;
       ]&gt;</code> </p> <p>內容範本的實際語法如下： </p> <p> <code>&lt;info&gt;
-      &lt;var&nbsp;name='VAR_NAME'&nbsp;rollover='ROLLOVER_KEY'&gt;&lt;!CDATA[&nbsp;VAR_VALUE&nbsp;]]&gt;
-      &lt;![CDATA[&nbsp;TEMPLATE_CONTENT&nbsp;]]&gt;
+      &lt;var&nbsp;name='VAR_NAME'&nbsp;rollover='ROLLOVER_KEY'&gt;&lt;!CDATA[&nbsp;VAR_VALUE&nbsp;]&gt;
+      &lt;![CDATA[&nbsp;TEMPLATE_CONTENT&nbsp;]&gt;
       &lt;/info&gt;</code> </p> <p>也就是說，範本必須以&lt;info&gt;元素開頭， <span class="codeph"> &lt;info&gt;元素中可能包含可選的</span> 預設&lt;var&gt;元素 <span class="codeph"></span> 。 範本內容本身 <span class="codeph"> TEMPLATE_CONTENT</span> 是HTML文字。 此外，內容範本可能包含$字元所括的變 <span class="codeph"> 數</span> 名稱。 這些字元會以資訊伺服器傳回的變數值或預設值取代。 </p> <p>範本中定義的預設變數可以是全域變數（如果未設定變換屬性）或特定變換索引鍵（如果存在變換屬性）。 </p> <p>在範本處理期間，滾過按鍵的特定變數優先於全域變數。 </p> </td> 
   </tr> 
  </tbody> 
