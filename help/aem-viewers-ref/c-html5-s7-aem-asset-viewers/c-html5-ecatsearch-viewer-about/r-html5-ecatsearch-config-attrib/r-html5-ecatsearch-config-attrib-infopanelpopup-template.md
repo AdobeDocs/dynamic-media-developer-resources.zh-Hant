@@ -7,9 +7,9 @@ title: InfoPanelPopup.template
 topic: Dynamic media
 uuid: a7b49f82-9a8b-45f8-b933-9880659770de
 translation-type: tm+mt
-source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+source-git-commit: d90c469201fba228fa838e3538f47d44500ea7f6
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '203'
 ht-degree: 3%
 
 ---
@@ -51,6 +51,6 @@ ht-degree: 3%
 
 ## 範例 {#section-16d184665c484964af9a22f79ff3f840}
 
-假設資訊伺服器回應會以變數[!DNL]傳回產品名稱， `$1$` 而產品影像URL會以變數[!DNL `$2$`。
+假設資訊伺服器回應會以變數傳回產品名稱， `$1$` 而產品影像URL會以變數傳回 `$2$`。
 
-[!DNL `template=<info><![CDATA[Product description:$1$<br>Product image:<img src="$2$">]]></info>`]
+`template=<info><![CDATA[Product description:$1$<br>Product image:<img src="$2$">]]></info>`
