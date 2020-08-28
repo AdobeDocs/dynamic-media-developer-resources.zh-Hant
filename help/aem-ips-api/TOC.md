@@ -2,9 +2,12 @@
 cloud: experience-cloud
 product: adobe
 archtype: end-user
-user-guide-title: Dynamic Media Image Production System API
+user-guide-title: 動態媒體影像製作系統API
 translation-type: tm+mt
-source-git-commit: e10e2b836bbfb394a7d0e1f16ae2ac44005401b4
+source-git-commit: 88d3a65852365d7fcd7631ff5b5f7215b7c48618
+workflow-type: tm+mt
+source-wordcount: '640'
+ht-degree: 3%
 
 ---
 
@@ -354,7 +357,6 @@ source-git-commit: e10e2b836bbfb394a7d0e1f16ae2ac44005401b4
    + [SystemFieldConditionArray](types/c-data-types/r-system-field-condition-array.md)
    + [TagCondition](types/c-data-types/r-tag-condition.md)
    + [TagConditionArray](types/c-data-types/r-tag-condition-array.md)
-   + [TagConditionArray](types/c-data-types/r-tag-condition-array.md)
    + [TagFieldValues](types/c-data-types/r-tag-field-values.md)
    + [TagFieldValuesArray](types/c-data-types/r-tag-field-values-array.md)
    + [TagValueUpdate](types/c-data-types/r-tag-value-update.md)
@@ -440,7 +442,7 @@ source-git-commit: e10e2b836bbfb394a7d0e1f16ae2ac44005401b4
    + [用戶排序欄位](string-constants/c-string-constants/r-user-sort-fields.md)
    + [檢視器類型](string-constants/c-string-constants/r-viewer-type.md)
 + 故障 {#faults}
-   + [故障概述](faults/c-faults/c-faults.md)
+   + [Faults overview](faults/c-faults/c-faults.md)
    + [authenticationFault](faults/c-faults/r-authentication-fault.md)
    + [authorizationFault](faults/c-faults/r-authorization-fault.md)
    + [ipsApiFault](faults/c-faults/r-ips-api-fault.md)
@@ -448,7 +450,7 @@ source-git-commit: e10e2b836bbfb394a7d0e1f16ae2ac44005401b4
    + [變更記錄](change-log/c-change-log.md)
    + Version 6.0 {#version-6-0}
       + [6.0版](change-log/c-change-log/c-6/c-6.md)
-      + [操作：新增和修改](change-log/c-change-log/c-6/r-6-operations.md)
+      + [手動：新增和修改](change-log/c-change-log/c-6/r-6-operations.md)
       + [資料類型：新增和修改](change-log/c-change-log/c-6/r-6-types.md)
    + Version 4.5 {#version-4-5}
       + [4.5版](change-log/c-change-log/c-4-5/c-4-5.md)
@@ -457,7 +459,7 @@ source-git-commit: e10e2b836bbfb394a7d0e1f16ae2ac44005401b4
       + [限制使用](change-log/c-change-log/c-4-5/r-restricted-use.md)
    + Version 4.4 {#version-4-4}
       + [4.4版](change-log/c-change-log/c-4-4/c-4-4.md)
-      + [操作：新增和修改](change-log/c-change-log/c-4-4/r-4-4-operations.md)
+      + [:新增和修改](change-log/c-change-log/c-4-4/r-4-4-operations.md)
       + [資料類型：新增和修改](change-log/c-change-log/c-4-4/r-4-4-types.md)
       + [字串常數：新增和修改](change-log/c-change-log/c-4-4/r-4-4-string-constants.md)
    + Version 4.2 {#version-4-2}
@@ -473,7 +475,7 @@ source-git-commit: e10e2b836bbfb394a7d0e1f16ae2ac44005401b4
       + [字串常數：新增和修改](change-log/c-change-log/c-3-8/r-3-8-string-constants.md)
    + Version 3.7 {#version-3-7}
       + [第3.7版](change-log/c-change-log/c-3-7/c-3-7.md)
-      + [操作：新增和修改](change-log/c-change-log/c-3-7/r-3-7-operations.md)
+      + [Operations:新增和修改](change-log/c-change-log/c-3-7/r-3-7-operations.md)
       + [資料類型：新增和修改](change-log/c-change-log/c-3-7/r-3-7-types.md)
       + [字串常數：新增和修改](change-log/c-change-log/c-3-7/r-3-7-string-constants.md)
 + [透過HTTP POST上傳資產至UploadFile...](c-http-post.md)
