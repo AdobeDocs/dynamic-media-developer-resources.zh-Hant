@@ -16,4 +16,4 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 路徑清單（以分號分隔）可做為具有相對檔案路徑之所有資料檔案的根目錄。
 
-可以是相對於[!DNL *[!DNL install_folder]*]的絕對路徑或路徑。 指定多個路徑時，伺服器將按指定順序嘗試每個根目錄，直到找到檔案。 對於[! [!DNL ./ resources]DNL *[!DNL install_folder]*/resources]的預設根路徑，預設為。
+可以是相對於[!DNL install_folder]的絕對路徑或路徑。 指定多個路徑時，伺服器將按指定順序嘗試每個根目錄，直到找到檔案。 對於[!DNL ./resources] [!DNL install_folder/resources]的預設根路徑，預設為。
