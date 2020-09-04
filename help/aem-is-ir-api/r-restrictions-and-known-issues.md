@@ -7,9 +7,9 @@ title: 限制與已知問題
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 9f9fad41-4828-4fba-8f5f-2c33e7811c71
 translation-type: tm+mt
-source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+source-git-commit: 0e9d6a0ccbb040b27cc89b933442d8530c60d5c8
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1248'
 ht-degree: 0%
 
 ---
@@ -89,11 +89,11 @@ ht-degree: 0%
 
    *周旋工作*:
 
-   對於影像渲染非吡唑化暈映，請在[!DNL *[!DNL install_root]*/ImageServing/bin/ ImageServerRegistry.xml]配置檔案中增加IrMaxNonPyrVignetteSize的屬性值。
+   對於影像渲染非吡唑化暈映，請在配置檔案中增加IrMaxNonPyrVignetteSize的 [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] 屬性值。
 
-   對於「影像伺服」非吡唑化TIFF，請增 `MaxNonDsfSize` 加[!DNL *[!DNL install_root]* /ImageServing/bin/ ImageServerRegistry.xml]組態檔中的屬性值。
+   對於「影像伺服」非吡唑化TIFF，請增加組態檔 `MaxNonDsfSize` 中的屬 [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] 性值。
 
-* Adobe Photoshop CS3預設不會儲存圖層PSD檔案為複合影像。
+* Adobe Photoshop CS3預設不會儲存圖層PSD檔案的合成影像。
 
    *症狀*:
 
@@ -135,7 +135,7 @@ ht-degree: 0%
 
    *解決方法*
 
-   在[!DNL `svgProvider.fontRoot=` /ImageServing/conf/PlatformServer.conf]中設定 *[!DNL install_root]* 屬性。
+   在中設定 `svgProvider.fontRoot=` 屬性 [!DNL install_root/ImageServing/conf/PlatformServer.conf] 。
 
 * 裁切目前正在使 `bgColor=` 用，而 `color=` 非填滿任何新延伸區域。
 
@@ -145,7 +145,7 @@ ht-degree: 0%
 ## 僅適用於影像演算的限制 {#section-4c6949e797174607a3d1ab4d3d4a725a}
 
 * 壁板和壁材不可拆卸。
-* 紋理的大小相對於暈映檢視的大小有限。 在少數情況下，視圖大小的預設限制為425%可能會干擾使用非常大型非重複紋理的應用程式。 如果無法將應用程式或內容變更為符合預先定義的限制，則可依下列方式增加百分比。 使用文本編輯器開啟[!DNL *[!DNL install_root]*/ImageServing/conf/ImageServerRegistry.xml]，找到並 `IrMaxTextureSizeFactor` 輸入新的百分比值。 此更改將立即生效，而不重新啟動映像伺服器。
+* 紋理的大小相對於暈映檢視的大小有限。 在少數情況下，視圖大小的預設限制為425%可能會干擾使用非常大型非重複紋理的應用程式。 如果無法將應用程式或內容變更為符合預先定義的限制，則可依下列方式增加百分比。 使用文字編輯器，開 [!DNL install_root/ImageServing/conf/ImageServerRegistry.xml]啟、尋找 `IrMaxTextureSizeFactor` 並輸入新的百分比值。 此更改將立即生效，而不重新啟動映像伺服器。
 
 * Netscape和Opera中的JavaScript引擎會快取回應資料，即使已設定nocache標題亦然。 這會干擾狀態要求的正常運作。
 
