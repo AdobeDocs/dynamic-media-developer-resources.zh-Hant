@@ -1,5 +1,7 @@
 ---
 cloud: experience-cloud
+solution: Dynamic Media Classic
+type: Documentation
 solution-title: 學習與支援
 solution-hub-url: https://helpx.adobe.com/support/experience-manager.html
 solution-image: null
@@ -7,13 +9,13 @@ getting-started-title: 開始使用
 getting-started-url: https://helpx.adobe.com/experience-manager/scene7/topics/getting-started.html
 tutorials-title: 教學課程
 tutorials-url: https://marketing.adobe.com/resources/help/en_US/s7/training-videos/
-git-repo: https://github.com/AdobeDocs/dynamic-media-developer-resources.en
+git-repo: https://git.corp.adobe.com/AdobeDocs/dynamic-media-developer-resources.zh-Hant
 index: true
 translation-type: tm+mt
-source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+source-git-commit: 2cf150382c04e5acf8e046e28eed26d684701458
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -30,4 +32,4 @@ metadata.md檔案包含回購層級中繼資料，這些中繼資料會傳遞至
 | getting-started-url | 幫助快速入門頁面的連結 |
 | 教學課程-url | 連結至教學課程影片——說明教學課程或KT教學課程 |
 | 迷你目錄層級 | 決定出現在右側欄中的標題層數。 預設值為2 |
-| git-repo | 指定主要來源回購的內部使用位置 |
+| git-repo | 指定主源回購的內部使用位置 |
