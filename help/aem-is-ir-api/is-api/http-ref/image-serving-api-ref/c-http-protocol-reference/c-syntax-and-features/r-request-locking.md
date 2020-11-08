@@ -7,7 +7,10 @@ title: 請求鎖定
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 03239376-1e40-48d2-a396-c276802854ed
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 80ae3a549340156bb74faa1793c43d3a8fa3853c
+workflow-type: tm+mt
+source-wordcount: '226'
+ht-degree: 0%
 
 ---
 
@@ -17,6 +20,10 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 為了減少篡改請求的機會，提供了簡單的鎖定設備。
 
 如果設定屬性：:RequestLock，則必須以xxxx為四位十六進位值的形式將鎖定值附加 `&xxxx`至請求。 此十六進位值是使用套用至請求修飾元 *部分* （在&#39;?&#39;之後）的簡單雜湊演算法產生 將URL路徑與修飾元分 *隔*)。 這必須在請求完全http編碼後，但在其被模糊化之前（可選）完成。 在取消對請求進行模糊處理後，伺服器會在修飾詞字串上使用相同的雜湊演算法（排除最後5個字元，其中包含鎖定值）。 如果產生的金鑰不符合鎖定，則會拒絕請求。
+
+>[!IMPORTANT]
+>
+>如果您啟用此功能，請注意其使用有某些限制，包括：<br>- 「動態媒體」使用者介面可能無法顯示「上次發佈」欄位的正 **** 確詳細資料。 不過，這種影響並不會影響發佈。<br>-目前，啟用「請求模糊化」和「請求鎖定」**[!UICONTROL 時，HLS]****** 視訊串流無法運作。
 
 C++范常式式碼，以產生請求鎖定值：
 
