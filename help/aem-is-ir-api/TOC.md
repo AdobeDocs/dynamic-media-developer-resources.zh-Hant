@@ -2,9 +2,13 @@
 cloud: experience-cloud
 product: adobe
 archtype: end-user
-user-guide-title: Dynamic Media Image Serving and Rendering API
+user-guide-title: 動態媒體影像伺服與轉換API
+breadcrumb-title: 動態媒體影像伺服與轉換API
 translation-type: tm+mt
-source-git-commit: 79874613934ca399358bb74d6b911700f8df530d
+source-git-commit: 901f0c3986715279e0c696db93be2048343d2bc5
+workflow-type: tm+mt
+source-wordcount: '1465'
+ht-degree: 10%
 
 ---
 
@@ -100,7 +104,7 @@ source-git-commit: 79874613934ca399358bb74d6b911700f8df530d
    + [疑難排解](is-api/image-serving-api-ref/r-troubleshooting.md)
    + HTTP協定參考 {#http-protocol-reference}
       + [HTTP協定參考概述](is-api/image-serving-api-ref/c-http-protocol-reference/c-http-protocol-reference.md)
-      + HTTP協定簡介 {#http-protocol-introduction}
+      + HTTP通訊協定簡介 {#http-protocol-introduction}
          + [簡介](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-introduction/c-introduction.md)
          + [目標讀者](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-introduction/c-intended-audience.md)
          + [檔案慣例](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-introduction/r-document-conventions.md)
