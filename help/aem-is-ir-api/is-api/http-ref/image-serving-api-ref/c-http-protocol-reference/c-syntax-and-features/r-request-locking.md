@@ -7,9 +7,9 @@ title: 請求鎖定
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 03239376-1e40-48d2-a396-c276802854ed
 translation-type: tm+mt
-source-git-commit: 6b51248cdc6a6b9d36893545640dbbeb11a0c414
+source-git-commit: 021c1d1f975083af3950775e230d4f73cbf9e0ec
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '242'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->如果您啟用此功能，請注意其使用有某些限制，包括：<br>- 「動態媒體」使用者介面可能無法顯示「上次發佈」欄位的正確 **** 詳細資訊。 不過，這種影響並不會影響發佈。<br>-目前，啟用「請求模糊化」和「請求鎖定」**[!UICONTROL 時，HLS]****** 視訊串流無法運作。
+>如果您啟用此功能，請注意其使用有某些限制，包括：<br>- 「動態媒體」使用者介面可能無法顯示「上次發佈」欄位的正確 **** 詳細資訊。 不過，這種影響並不會影響發佈。<br>-目前，啟用「請求模糊化」和「請求鎖定&#x200B;**[!UICONTROL 」時]**,HLS **[!UICONTROL 視訊串流無法運作]** 。<br>-目前，在啟用「請求模糊化」和「請求鎖定」時， **[!UICONTROL 有些動態媒體]****[!UICONTROL 檢視器無法運作]** 。
 
 C++范常式式碼，以產生請求鎖定值：
 
