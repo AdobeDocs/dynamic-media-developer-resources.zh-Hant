@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 2972405c-5c89-45d0-a542-19c7463901b4
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '78'
+ht-degree: 12%
 
 ---
 
@@ -22,7 +25,7 @@ Video360檢視器的設定屬性。
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|playPause</span> </p> </td> 
-   <td colname="col2"> <p> 設定單鍵／點選的對應，以切換播放／暫停。 設定為 <span class="codeph"> 無</span> ，會停用單鍵／點選以播放／暫停。 如果設定為 <span class="codeph"> playPause</span> ，則按一下視訊會在播放和暫停視訊之間切換。 在某些裝置上，您可以使用原生控制項。 在這種情況下，會停 <span class="codeph"> 用單點按</span> 行為。 </p> </td> 
+   <td colname="col2"> <p> 設定單鍵／點選的對應，以切換播放／暫停。 設為<span class="codeph"> none</span>會停用單鍵／點選以播放／暫停。 如果設為<span class="codeph"> playPause</span>，則按一下視訊會在播放和暫停視訊之間切換。 在某些裝置上，您可以使用原生控制項。 在這種情況下，<span class="codeph">單點按鍵行為將被禁用。</span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
