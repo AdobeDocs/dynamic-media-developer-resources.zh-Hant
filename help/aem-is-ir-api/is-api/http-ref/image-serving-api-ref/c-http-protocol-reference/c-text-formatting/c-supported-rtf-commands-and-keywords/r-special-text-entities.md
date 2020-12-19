@@ -15,7 +15,7 @@ ht-degree: 3%
 ---
 
 
-# 特殊文字實體{#special-text-entities}
+# 特殊文本實體{#special-text-entities}
 
 格式化文字時，請使用下列特殊實體。
 
@@ -44,12 +44,12 @@ ht-degree: 3%
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> &amp;lbraces; </span> </td> 
+   <td> <span class="codeph"> &amp;lbrace;  </span> </td> 
    <td> <p>大括弧。 </p> </td> 
    <td> <p>大括弧必須是HTTP編碼。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> &amp;rbraces; </span> </td> 
+   <td> <span class="codeph"> &amp;rbrace;  </span> </td> 
    <td> <p>大括弧。 </p> </td> 
    <td> <p>大括弧必須是HTTP編碼。 </p> </td> 
   </tr> 
