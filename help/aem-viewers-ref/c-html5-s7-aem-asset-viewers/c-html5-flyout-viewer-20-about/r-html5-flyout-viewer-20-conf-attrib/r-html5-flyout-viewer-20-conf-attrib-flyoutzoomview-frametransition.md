@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 39f74e9f-f04c-4c41-9669-029499388708
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '64'
+ht-degree: 10%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 無|淡化</span> </p> </td> 
-   <td colname="col2"> <p> 指定在資產變更時套用至主要檢視的效果類型。 無代 <span class="codeph"> 表</span> ，沒有轉場，主檢視變更會立即發生。 淡 <span class="codeph"> 入</span> (Fade)會啟動交叉淡入(Cross-fade)轉場，舊影像淡出，新影像淡入 </p> </td> 
+   <td colname="col2"> <p> 指定在資產變更時套用至主要檢視的效果類型。 <span class="codeph"> none</span>代表無轉場，主視圖會立即更改。 <span class="codeph">淡化</span>會啟動交叉淡化轉場，其中舊影像淡出，新影像淡入 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> 時段</span></span> </p> </td> 
