@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: f0c8e687-77cc-4ca7-b2c2-6ba8960e11e6
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '130'
+ht-degree: 3%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 SVG資料檔案路徑。 指定包含此目錄的SVG資料的檔案。
 
-SVG資料檔案會在所有影像資料檔案後，依指定的精確順序載入。 如果相同 `catalog::Id` 的值出現在多個記錄（位於相同或不同的影像或SVG目錄檔案）中，則最後一個例項優先。
+SVG資料檔案會在所有影像資料檔案後，依指定的精確順序載入。 如果相同的`catalog::Id`值出現在多個記錄中（位於相同或不同的影像或SVG目錄檔案中），則最後一個例項優先。
 
 ## 屬性 {#section-fc2d549f76474792837b2b92ec2087ea}
 
