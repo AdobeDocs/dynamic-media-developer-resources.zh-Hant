@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: f153f496-f2c5-43d0-a7f0-00045fd96af8
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '121'
+ht-degree: 11%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 銳利化. 銳利化屬性，可決定在演算期間銳利化材質的時間。
 
-銳利化的類型和數量由暈映透過預設材質範本或搭配控制 `catalog::RenderSettings`。
+銳利化的類型和數量由暈映透過預設材質範本或使用`catalog::RenderSettings`控制。
 
 ## 屬性 {#section-aac81b1a611b4bca90b8544eae7896df}
 
