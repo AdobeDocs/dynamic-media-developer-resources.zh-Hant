@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: c2d49cc2-3223-4f0f-8ba7-4f74a5f76789
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,14 +23,14 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 <table id="simpletable_D8AA325968AD4FAEA7B214F0CBBF3F08"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> jobid </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> jobid  </span> </p> </td> 
   <td class="stentry"> <p>提交時取得的工作ID。 </p> </td> 
  </tr> 
 </table>
 
 退貨：
 
-作品的PDF輸出會以串流方式回應；錯誤( `jobid` 如果無效或作業已刪除)。
+作品的PDF輸出會以串流方式回應；錯誤： `jobid`無效或作業已刪除。
 
 ## 範例 {#section-0319e615fa254132a9dab59351b4c252}
 
