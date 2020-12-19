@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: c4002670-c830-474e-bb84-343f76b6fb80
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 語法
 
-## 新操作 {#section-a3be679d8e9345aba2e97699c3a537b9}
+## 新操作{#section-a3be679d8e9345aba2e97699c3a537b9}
 
 * `addMediaPortalEvent`
 * `addTagFieldValues`
@@ -35,9 +38,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 * `updateTagFieldValues`
 * `updateXMPPacket`
 
-## 修改的操作 {#section-1c022cc62d274c349837013f1c02ca51}
+## 修改的操作{#section-1c022cc62d274c349837013f1c02ca51}
 
-* `Asset` 包 `animatedGifInfo`含、 `swcInfo`、 `cssInfo`和參 `javascriptInfo` 數。
+* `Asset` 包含 `animatedGifInfo`、 `swcInfo`、 `cssInfo`和參 `javascriptInfo` 數。
 
 * `createMetadataField` 包含可選 `isHidden` 參數。
 
@@ -45,5 +48,5 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 * `searchAssets`
 * 
-* 此參 `renameFiles` 數在舊版中已過時，並已從操作中 `renameAsset` 移除。 虛擬檔案路徑會變更為符合新資產名稱（保留副檔名），而物理檔案路徑則不受影響。 API用戶端在更新至新API版本時，必須移除此參數的參考。
+* `renameFiles`參數已在舊版中過時，並已從`renameAsset`操作中移除。 虛擬檔案路徑會變更為符合新資產名稱（保留副檔名），而物理檔案路徑則不受影響。 API用戶端在更新至新API版本時，必須移除此參數的參考。
 
