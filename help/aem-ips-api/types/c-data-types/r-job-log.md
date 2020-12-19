@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: d267009a-e4ad-4a21-ae0e-caf51d2f338b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '198'
+ht-degree: 3%
 
 ---
 
@@ -25,13 +28,13 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | ` *`companyHandle`*` | `xsd:string` | 公司負責人。 |
 | ` *`jobHandle`*` | `xsd:string` | 工作代理。 |
 | ` *`jobName`*` | `xsd:string` | 工作名稱. |
-| ` *`originalJobName`*` | `xsd:string` | 為具有的作業提交的原始名稱 `submitJob`。 |
+| ` *`originalJobName`*` | `xsd:string` | 為具有`submitJob`的作業提交的原始名稱。 |
 | ` *`submitUserEmail`*` | `xsd:string` | 提交工作之使用者的電子郵件地址。 |
 | ` *`logType`*` | `xsd:string` | 作業日誌類型選擇。 |
 | ` *`jobSubType`*` | `xsd:string` | 其他工作資訊。 |
 | ` *`startDate`*` | `xsd:dateTime` | 作業的開始日期、時間和時區。 |
 | ` *`endDate`*` | `xsd:dateTime` | 作業的結束日期、時間和時區。 |
-| ` *`描述`*` | `xsd:string` | 最初在中指定的作業說明 `submitJob`。 |
+| ` *`描述`*` | `xsd:string` | `submitJob`中最初指定的作業說明。 |
 | ` *`fileSuccessCount`*` | `xsd:int` | 成功處理的檔案數。 |
 | ` *`fileErrorCount`*` | `xsd:int` | 導致錯誤的檔案數。 |
 | ` *`fileWarningCount`*` | `xsd:int` | 產生警告的檔案數。 |
@@ -42,6 +45,6 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | ` *`transferErrorCount`*` | `xsd:int` | 傳輸錯誤數。 |
 | ` *`transferWarningCount`*` | `xsd:int` | 傳輸警告數。 |
 | ` *`fatalError`*` | `xsd:boolean` | 作業是否生成致命錯誤。 |
-| ` *`detailTotalRows`*` | `xsd:int` | 符合查詢的總行數，由於頁面大小限制，該總行數可 `detailArray` 能大於此大小。 |
+| ` *`detailTotalRows`*` | `xsd:int` | 符合查詢的總行數，由於頁面大小限制，該總行數可能大於`detailArray`的大小。 |
 | ` *`detailArray`*` | `types:JobLogDetailArray` | 記錄作業的詳細資訊陣列。 |
 
