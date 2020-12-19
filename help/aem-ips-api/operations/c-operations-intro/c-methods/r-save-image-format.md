@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: b11ea668-7a82-439c-b16b-909dc86c00a2
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '151'
+ht-degree: 11%
 
 ---
 
@@ -18,9 +21,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 >[!NOTE]
 >
->欄位 `urlModifier` 值必須由有效的XML組成。 例如，變更 `&` 為 `&`。 從IPS `urlModfier` 用戶介面獲取值。
+>`urlModifier`欄位值必須由有效的XML組成。 例如，將`&`變更為`&`。 從IPS用戶介面獲取`urlModfier`值。
 
-## 授權使用者類型 {#section-12c9d8d5933f4692bafb194060b4f882}
+## 授權用戶類型{#section-12c9d8d5933f4692bafb194060b4f882}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -46,7 +49,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 範例 {#section-c7bd733212ef494297a97093f3af193f}
 
-此程式碼範例會建立影像格式。 在此示例中， `urlModifier` 由其在IPS用戶介面中的值確定，其格式為有效的HTML格式。
+此程式碼範例會建立影像格式。 在此示例中，`urlModifier`由其在IPS用戶介面中的值確定，該介面具有有效的HTML格式。
 
 **請求**
 
