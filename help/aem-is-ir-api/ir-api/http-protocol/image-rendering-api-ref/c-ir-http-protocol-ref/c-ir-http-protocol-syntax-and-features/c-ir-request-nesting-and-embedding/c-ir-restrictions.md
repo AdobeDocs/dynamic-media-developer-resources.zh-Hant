@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 05e97255-db4d-4587-94d2-a7ea608ff7d4
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '80'
+ht-degree: 0%
 
 ---
 
 
-# Restrictions{#restrictions}
+# 限制{#restrictions}
 
 巢狀和內嵌會受到一些限制。
 
