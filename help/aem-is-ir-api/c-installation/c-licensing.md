@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 00877fc7-8e92-40a1-95d5-04f1d49182e5
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '123'
+ht-degree: 0%
 
 ---
 
 
-# Licensing{#licensing}
+# 授權{#licensing}
 
 若要使用影像伺服，需要Scene7 Image Serving授權金鑰，且必須安裝在要使用影像伺服的每個系統上。
 
