@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: de7f4dc7-1a55-49d5-a712-7f178cc49068
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '270'
+ht-degree: 1%
 
 ---
 
@@ -35,12 +38,12 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景影像 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景影像  </span> </p> </td> 
    <td colname="col2"> <p>熱點表徵圖圖稿。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
-   <td colname="col2"> <p>如果使用CSS精靈，請放在圖稿精靈內。 </p> <p>請參閱 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS精靈 </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
+   <td colname="col2"> <p>如果使用CSS精靈，請放在圖稿精靈內。 </p> <p>請參閱<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS精靈</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -83,16 +86,16 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景 </span> </p> </td> 
-   <td colname="col2"> <p>影像地圖區域填滿顏色。 </p> <p>以 <span class="codeph"> #RRGGBB </span>、 <span class="codeph"> RGB(R,G,B) </span>或 <span class="codeph"> RGBA(R,G,B,A)格式指定此顏色 </span> 。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景  </span> </p> </td> 
+   <td colname="col2"> <p>影像地圖區域填滿顏色。 </p> <p>以<span class="codeph"> #RRGGBB </span>、<span class="codeph"> RGB(R,G,B)</span>或<span class="codeph"> RGBA(R,G,B,A)</span>格式指定此顏色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
-   <td colname="col2"> <p>影像地圖區域填滿顏色。 </p> <p>以 <span class="codeph"> #RRGGBB </span>、 <span class="codeph"> RGB(R,G,B) </span>或 <span class="codeph"> RGBA(R,G,B,A)格式指定此顏色 </span> 。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景色  </span> </p> </td> 
+   <td colname="col2"> <p>影像地圖區域填滿顏色。 </p> <p>以<span class="codeph"> #RRGGBB </span>、<span class="codeph"> RGB(R,G,B)</span>或<span class="codeph"> RGBA(R,G,B,A)</span>格式指定此顏色。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
-   <td colname="col2"> <p> 影像地圖區域邊框樣式。 應指定為寬度 <span class="codeph"> 實色 </span> "，其中寬度以像素表示，其中 <span class="codeph"> "寬度以像素表示， </span>" <span class="codeph"> #RRBB,B,B,B,B,B, </span><span class="codeph"></span><span class="codeph"></span><span class="codeph"></span><span class="codeph"></span>G，或RGBA(R,G,D,D);B,B,A,D,D,B,D.D.D.D.D.D.D.D.D.D.B.B.D.D.B.D.B.B.D.B.B.D.D.D.D.D.D.D.D.D.D.D.D.D.D.R.R.B.D.D.D.B.D.D.D.D.D.B.D.D. </p> </td> 
+   <td colname="col2"> <p> 影像地圖區域邊框樣式。 應指定為" <span class="codeph"> width </span> <span class="codeph"> solid color </span>"，其中<span class="codeph"> width </span>以像素表示，<span class="codeph"> color </span>設為<span class="codeph"> #RRGBB </span>, <span class="codeph"> RGB(R,G,B))</span>或<span class="codeph"> RGBA(R,G,B,A)</span>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
