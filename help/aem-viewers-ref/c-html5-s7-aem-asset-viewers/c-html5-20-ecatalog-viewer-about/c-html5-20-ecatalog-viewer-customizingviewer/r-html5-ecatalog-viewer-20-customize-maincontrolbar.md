@@ -8,15 +8,18 @@ topic: Dynamic media
 uuid: 0900f678-d7ec-4653-bc8a-21b8da7d5044
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# 主控制列{#main-control-bar}
+# 主控制欄{#main-control-bar}
 
 主控制列是案頭系統和平板電腦上的矩形區域，其中包含eCatalog檢視器可用的所有使用者介面控制項（「大頁面」按鈕除外）。
 
-在行動電話上，它仍會保留縮圖、目錄、下載、列印、我的最愛、社交分享、全螢幕和關閉按鈕。 不過，「首頁」和「最後一頁」按鈕和「頁面指示器」會從主控制列中移除，並改為新增至次控制列。 依預設，主控制列會顯示在案頭系統和行動電話的檢視器區域頂端，並移至平板電腦的檢視器區域底部。 它一律會佔用整個可用檢視器寬度。 您可以相對於檢視器容器，變更其在CSS中的顏色、高度和垂直位置。
+在行動電話上，它仍會保留縮圖、目錄、下載、列印、我的最愛、社交分享、全螢幕和關閉按鈕。 但是，「首頁」和「最後一頁」按鈕和「頁面指示器」會從主控制列中移除，並改為新增至次控制列。 依預設，主控制列會顯示在案頭系統和行動電話的檢視器區域頂端，並移至平板電腦的檢視器區域底部。 它一律會佔用整個可用檢視器寬度。 您可以相對於檢視器容器，變更其在CSS中的顏色、高度和垂直位置。
 
 主控制列的外觀由下列CSS類別選擇器控制：
 
@@ -43,7 +46,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
    <td colname="col2"> <p>主控制條的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景色  </span> </p> </td> 
    <td colname="col2"> <p>主控制欄的背景顏色。 </p> </td> 
   </tr> 
  </tbody> 
@@ -75,7 +78,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 位置 </span> </p> </td> 
-   <td colname="col2"> <p>當設為靜 <span class="codeph"> 態時， </span> 會停用捲動功能。 </p> <p>將此屬性設定為 <span class="codeph"> 絕對 </span> 以啟用滾動功能。 </p> </td> 
+   <td colname="col2"> <p>設為<span class="codeph"> static </span>時，捲動功能會停用。 </p> <p>將此屬性設定為<span class="codeph">絕對</span>以啟用滾動功能。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -99,7 +102,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
    <td colname="col2"> <p>通常應等於或大於捲動按鈕本身的寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景色  </span> </p> </td> 
    <td colname="col2"> <p>容器背景顏色。 </p> </td> 
   </tr> 
  </tbody> 
@@ -120,29 +123,29 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 寬度  </span> </p> </td> 
    <td colname="col2"> <p>按鈕寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
    <td colname="col2"> <p>按鈕高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景影像 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景影像  </span> </p> </td> 
    <td colname="col2"> <p>為指定按鈕狀態顯示的影像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
-   <td colname="col2"> <p>如果使用CSS精靈，請放在圖稿精靈內。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS精靈 </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
+   <td colname="col2"> <p>如果使用CSS精靈，請放在圖稿精靈內。 </p> <p>另請參閱<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS精靈</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按鈕支援 `state` 和屬 `selected` 性選擇器，可用來將不同的外觀套用至不同的按鈕狀態。 尤其是， `state="selected"` 當可以將控制列內容向左捲動時，對應於初始捲動按鈕狀態；對 `state="default"` 應於內容向左捲動時的狀態，而捲動按鈕建議將其返回初始狀態。
+>此按鈕支援`state`和`selected`屬性選擇器，可用來將不同的面板套用至不同的按鈕狀態。 尤其是，當可以將控制列內容向左滾動時，`state="selected"`對應於初始滾動按鈕狀態；`state="default"`對應於內容向左捲動時的狀態，而捲動按鈕建議將其返回初始狀態。
 
-按鈕工具提示可以本地化。 如需詳 [細資訊，請參閱使用者介面元素](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 的本地化。
+按鈕工具提示可以本地化。 如需詳細資訊，請參閱[使用者介面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)。
 
 **範例** -啟用行動電話主控制列中的捲動功能，並設定64 x 64像素的捲動按鈕，當選取或未選取4種不同按鈕狀態時，會針對每個狀態顯示不同的影像：
 
