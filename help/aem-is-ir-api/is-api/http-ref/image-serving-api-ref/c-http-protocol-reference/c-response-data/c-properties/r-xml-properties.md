@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 9d169ad2-e466-4ab3-8900-ea9c6125edad
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '137'
+ht-degree: 0%
 
 ---
 
@@ -38,9 +41,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 </prop-group>
 ```
 
-元 `<prop-group>` 素用作最外層的容器，並用於分組屬性。 如果組被命名，則名稱與Java/JavaScript物件名稱相對應。
+`<prop-group>`元素用作最外層的容器，並用於分組屬性。 如果組被命名，則名稱與Java/JavaScript物件名稱相對應。
 
 >[!NOTE]
 >
->可針對某些類型指定字元 `req=` 編碼。 有關詳細資訊，請參閱特定命 `req=`令的說明。
+>某些`req=`類型可以指定字元編碼。 有關詳細資訊，請參閱特定`req=`命令的說明。
 
