@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: a96b6655-4a11-490c-8f66-3633f0ae0fee
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '208'
+ht-degree: 3%
 
 ---
 
@@ -16,15 +19,15 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 eCatalog檢視器支援Adobe Analytics立即追蹤。
 
-## 立即可用追蹤 {#section-ba994f079d0343c8ae48adffaa3195a3}
+## 立即可用的追蹤{#section-ba994f079d0343c8ae48adffaa3195a3}
 
-eCatalog檢視器支 [!DNL Adobe Analytics] 援立即追蹤。 若要啟用追蹤，請傳遞正確的公司預設集名稱作為 `config2` 參數。
+eCatalog檢視器支援[!DNL Adobe Analytics]立即追蹤。 若要啟用追蹤，請將正確的公司預設集名稱傳遞為`config2`參數。
 
 檢視器也會傳送單一追蹤HTTP要求給已設定的影像伺服器，並包含檢視器類型和版本資訊。
 
-## 自訂追蹤 {#section-cda48fc9730142d0bb3326bac7df3271}
+## 自訂追蹤{#section-cda48fc9730142d0bb3326bac7df3271}
 
-若要與協力廠商分析系統整合，必須聽取檢視器回呼 `trackEvent` ，並視需要 `eventInfo` 處理回呼函式的引數。 以下代碼是此類處理程式函式的示例：
+若要與協力廠商分析系統整合，必須監聽`trackEvent`檢視器回呼，並視需要處理回呼函式的`eventInfo`引數。 以下代碼是此類處理程式函式的示例：
 
 ```
 var eCatalogViewer = new s7viewers.eCatalogViewer({ 
@@ -64,7 +67,7 @@ var eCatalogViewer = new s7viewers.eCatalogViewer({
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>資產會使用setAsset() <span class="codeph"> API在檢視器中 </span> 交換。 </p> </td> 
+   <td colname="col2"> <p>資產會使用<span class="codeph"> setAsset()</span> API在檢視器中交換。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZOOM </span> </p> </td> 
