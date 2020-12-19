@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 2910cd6c-573b-405c-864d-a0136ac5472d
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '163'
+ht-degree: 11%
 
 ---
 
@@ -16,9 +19,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 判斷一批資產是否已準備好發佈。
 
-這是setAssetState的批 [次版本](../../../operations/c-operations-intro/c-methods/r-set-asset-publish-state.md#reference-9efc2eeea42348e0b1d5f3d1005c6563)。
+這是[setAssetState](../../../operations/c-operations-intro/c-methods/r-set-asset-publish-state.md#reference-9efc2eeea42348e0b1d5f3d1005c6563)的批版本。
 
-## 授權使用者類型 {#section-0804726f683944dbbe9acfc3d35ccf25}
+## 授權用戶類型{#section-0804726f683944dbbe9acfc3d35ccf25}
 
 * `IpsUser`
 * `IpsAdmin`
