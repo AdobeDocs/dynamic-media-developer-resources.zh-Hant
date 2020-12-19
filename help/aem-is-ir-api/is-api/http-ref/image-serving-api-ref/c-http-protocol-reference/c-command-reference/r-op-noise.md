@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 531f7a94-149b-4090-a163-a1895156250b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '111'
+ht-degree: 1%
 
 ---
 
@@ -43,7 +46,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 屬性 {#section-1f1a64c791f545a3bf1abd0b0e575d87}
 
-圖層命令。 應用於當前圖層或複合影像（如果） `layer=comp`。
+圖層命令。 如果`layer=comp`，則套用至目前圖層或複合影像。
 
 ## 預設 {#section-d548868fa4b64a60bcb481cad1f8113e}
 
