@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 8265eebf-9cec-4ad3-8b22-0f46f33a89f1
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '138'
+ht-degree: 5%
 
 ---
 
@@ -37,9 +40,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </tr> 
 </table>
 
-`sharp=1` 在材質轉譯後套用銳利化；在 `sharp=2` 初始縮放紋理之後，但在將其轉換為場景之前，應用銳利化；在變 `sharp=3` 形前後都套用銳利化。
+`sharp=1` 在材質轉譯後套用銳利化； `sharp=2` 在初始縮放紋理後，但在將其轉換為場景之前，應用銳利化； `sharp=3` 在變形前後都套用銳利化。
 
-銳利化演算法和銳利化量以及其他USM（非銳利化遮色片）參數由暈映或隨附提供的預設材質範本控制 `rs=`。
+銳利化演算法和銳利化量以及其他USM（非銳利化遮色片）參數是由暈映提供的預設材質範本或與`rs=`一起控制。
 
 ## 屬性 {#section-498ec9fcb8eb415fb99532d36c11d4c7}
 
