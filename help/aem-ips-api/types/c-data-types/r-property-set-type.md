@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 83220180-3272-4552-974d-a73e6aad3483
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '90'
+ht-degree: 15%
 
 ---
 
@@ -34,27 +37,27 @@ PropertySetType和createPropertySetTypeParam欄位的有效值。
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> typeHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> typeHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 鍵入handle。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 公 <span class="varname"> 司控制</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3">公司負責人。 <p>注意： 如果公司句柄不存在，則類型為全局。 </p></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 名稱</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 名稱</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 輸入名稱。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 屬 <span class="varname"> 性Type</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> propertyType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3">屬性集類型之一。 請參閱輸入(<span class="codeph"> createPropertySetTypeParam</span>)。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 允 <span class="varname"> 許多個</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> allowMultiple</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> 是否允許將多個屬性集實例附加到此類型的對象。 </td> 
   </tr> 
