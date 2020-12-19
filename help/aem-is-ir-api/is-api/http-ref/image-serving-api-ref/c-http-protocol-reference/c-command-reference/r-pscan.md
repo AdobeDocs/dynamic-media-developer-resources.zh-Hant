@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: c8e1d7a9-679c-437f-aa53-67aca3f40b30
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '270'
+ht-degree: 1%
 
 ---
 
@@ -20,9 +23,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 每個掃描的實際速度取決於用戶系統和接收和解壓縮資料的電腦的傳輸速度。
 
-`Auto` 使用由獨立JPEG庫計算的掃描設定，並取決於顏色模型。 當您將JPEG檔 `3`案儲存為 `4``5` pjpeg（漸進式JPEG）時，這些值會對應至Adobe Photoshop中的「掃描」設定。
+`Auto` 使用由獨立JPEG庫計算的掃描設定，並取決於顏色模型。當您將JPEG檔案儲存為pjpeg（漸進式JPEG）時，`3`、`4`、`5`的值會與Adobe Photoshop中的「掃描」設定相對應。
 
-如果 `pscan` 未設定，則預設為 `auto`。
+如果未設定`pscan`，則預設為`auto`。
 
 ## 屬性 {#section-e36aa3c63a974b969d9e4f43fe5a37ab}
 
