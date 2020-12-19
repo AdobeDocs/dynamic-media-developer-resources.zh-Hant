@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 7c63a7c5-ac75-485d-94ac-d1e133fbe44f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '119'
+ht-degree: 3%
 
 ---
 
@@ -19,8 +22,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_18D47E7C6A2D4D68B94225CB621D5F7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> xSensitivity</span>[, <span class="varname"> ySensitivity</span>]</span> </p> </td> 
-   <td colname="col2"> <p> 控制透過滑鼠拖曳或滑動所執行的水準和垂直回轉的敏感度。 </p> <p> <span class="codeph"> xSensitivity</span> （靈敏度）設定如果使用者將滑鼠從檢視的一側水準拖曳到另一側，會進行多少個水準產品旋轉。 例如，3表示使用者會看到一個完整拖曳手勢的3個完整旋轉。 </p> <p>同樣地， <span class="codeph"> ySensitivity</span> （靈敏度）控制垂直自旋的靈敏度。 值1表示一個完全垂直拖曳或滑動會將檢視角度從最上方回轉平面變更為最下方（反之亦然）。 </p> <p>為ySensitivity設定負值 <span class="codeph"></span> ，將反轉垂直回轉的方向。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> xSensitivity</span>[,  <span class="varname"> ySensitivity</span>]</span> </p> </td> 
+   <td colname="col2"> <p> 控制透過滑鼠拖曳或滑動所執行的水準和垂直回轉的敏感度。 </p> <p> <span class="codeph"> </span> xSensitivity設定當使用者將滑鼠從檢視的一側水準拖曳到另一側時，會進行多少個水準產品旋轉。例如，3表示使用者會看到一個完整拖曳手勢的3個完整旋轉。 </p> <p>同樣地，<span class="codeph"> ySensitivity</span>控制垂直自旋的靈敏度。 值1表示一個完全垂直拖曳或滑動會將檢視角度從最上方回轉平面變更為最下方（反之亦然）。 </p> <p>為<span class="codeph"> ySensitivity</span>設定負值會反轉垂直自旋的方向。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
