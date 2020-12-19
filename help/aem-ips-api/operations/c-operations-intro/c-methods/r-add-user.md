@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: b8c5ada6-470e-4795-a4f3-20750da709a9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,9 +19,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 建立使用者帳戶，並將該帳戶新增至一或多家公司。
 
-將使用者新增至多家公司時，請依公司的公司控制代碼指定這些公司 `companyHandleArray`。 此操作將句柄返回給剛添加的用戶。
+將使用者新增至多家公司時，請依公司控制代碼在`companyHandleArray`中指定這些公司。 此操作將句柄返回給剛添加的用戶。
 
-## 授權使用者類型 {#section-126ad42f844444fea11ecf8ad01fe1ec}
+## 授權用戶類型{#section-126ad42f844444fea11ecf8ad01fe1ec}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -34,7 +37,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | ` *`firstName`*` | `xsd:string` | 是 | 使用者的名字。 |
 | ` *`lastName`*` | `xsd:string` | 是 | 用戶的姓。 |
 | ` *`電子郵件`*` | `xsd:string` | 是 | 使用者的電子郵件地址。 |
-| ` *`defaultRole`*` | `xsd:string` | 是 | 為用戶所屬的每個公司設定角色。 但請注意，此角 `IpsAdmin` 色會覆寫其他每公司設定。 |
+| ` *`defaultRole`*` | `xsd:string` | 是 | 為用戶所屬的每個公司設定角色。 但請注意，`IpsAdmin`角色會覆寫其他每公司設定。 |
 | ` *`密碼`*` | `xsd:string` | 是 | 設定用戶密碼 |
 | ` *`passwordExpires`*` | `xsd:dateTime` | 否 | 設定密碼過期期。 傳入請求時提供時區。 時區會調整為中央時間。 |
 | ` *`isValid`*` | `xsd:boolean` | 是 | 判斷使用者是否有效。 |
