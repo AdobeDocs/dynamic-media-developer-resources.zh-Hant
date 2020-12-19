@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 38d6d0e7-55cf-43ea-85b7-8f4aade4208a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '69'
+ht-degree: 7%
 
 ---
 
@@ -25,4 +28,4 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </tr> 
 </table>
 
-HTTP回應無法快取。 以MIME類型傳回空回應 `text/plain`。
+HTTP回應無法快取。 傳回空回應，MIME類型為`text/plain`。
