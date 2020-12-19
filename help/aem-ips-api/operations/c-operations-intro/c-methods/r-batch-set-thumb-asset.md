@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 16c298a7-bb07-4643-824b-8f864d7f0290
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 語法
 
-## 縮圖資產類型 {#section-4edc2a6a8f824213b0aaddb1d437268c}
+## 縮圖資產類型{#section-4edc2a6a8f824213b0aaddb1d437268c}
 
 允許的縮圖資產類型包括：
 
@@ -28,7 +31,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 * 範本
 * PsdTemplate
 
-## 授權使用者類型 {#section-5fc988e3d6384968b86fd9fe363658c0}
+## 授權用戶類型{#section-5fc988e3d6384968b86fd9fe363658c0}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -57,7 +60,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | ` *`successCount`*` | `xsd:int` | 是 | 成功設定縮圖的數目。 |
 | ` *`warningCount`*` | `xsd:int` | 是 | 嘗試設定縮圖時產生的警告數。 |
 | ` *`errorCount`*` | `xsd:int` | 是 | 嘗試設定縮圖時產生的錯誤數。 |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 與資產相關的詳細資訊陣列，當操作嘗試套用更新時，這些資產會產生警告。 |
+| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 與資產相關的詳細資料陣列，當操作嘗試套用更新時，這些資產會產生警告。 |
 | ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 當操作嘗試套用更新時，與產生錯誤的資產相關的詳細資訊陣列。 |
 
 ## 範例 {#section-6de69a8680c24c1486c5f01488393381}
