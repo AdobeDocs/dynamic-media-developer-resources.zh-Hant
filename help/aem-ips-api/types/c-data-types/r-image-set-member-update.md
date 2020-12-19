@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: b0226d21-87ba-4e07-9819-79c9df3df13c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '118'
+ht-degree: 6%
 
 ---
 
@@ -16,9 +19,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 在此類型中，pageReset欄位對RenderSet和Catalog影像資產類型有意義：
 
-* 對於 `RenderSet`, `pageReset` 表示新渲染視圖／色板組的開始。
+* 對於`RenderSet`, `pageReset`表示新渲染視圖／色票組的開始。
 
-* 對於目錄， `pageReset` 表示新頁面檢視的開始。 通常每個頁面檢視有2個頁面影像，但您可以擁有更多或更少。
+* 對於目錄，`pageReset`表示新頁面視圖的開始。 通常每個頁面檢視有2個頁面影像，但您可以擁有更多或更少。
 
 ## 參數 {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -32,14 +35,14 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 資 <span class="varname"> 產控制代碼</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 映像整合員陣列中的資產句柄。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> pageReset</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> pageReset</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3">重設頁面。 <p>設定會被忽略，而影像集和回轉集的值 <span class="codeph"> 會強制</span><span class="codeph"> 為true</span>。 </p></td> 
+   <td colname="col3">重設頁面。 <p>設定被忽略，並且<span class="codeph"> ImageSet</span>和<span class="codeph"> SpinSet</span>的值強制為true。 </p></td> 
   </tr> 
  </tbody> 
 </table>
