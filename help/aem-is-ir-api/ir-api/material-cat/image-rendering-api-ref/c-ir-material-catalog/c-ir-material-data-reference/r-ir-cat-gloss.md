@@ -8,19 +8,22 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 7db83f99-15ab-4c43-adfb-07ad0b0c9707
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '127'
+ht-degree: 3%
 
 ---
 
 
-# 光澤{#gloss}
+# Gloss{#gloss}
 
 曲面光澤度指定材料曲面的相對光澤度。
 
 此值由渲染器用於以下用途：
 
-* 當為-1時，選 `catalog::Illum` 擇照明圖。
-* 控制光澤效果（鏡面反射）演算與 `catalog::Type`。
-* 控制3D反射演算效果，並搭配 `catalog::Type` 和使 `catalog::Roughness`用。
+* 當`catalog::Illum`為-1時，選擇照明映射。
+* 控制光澤效果（鏡面反射）演算與`catalog::Type`結合。
+* 控制3D反射演算效果，並搭配`catalog::Type`和`catalog::Roughness`。
 
 ## 屬性 {#section-ddc475c0556f4f67b4cf62bd1bcd4bf7}
 
