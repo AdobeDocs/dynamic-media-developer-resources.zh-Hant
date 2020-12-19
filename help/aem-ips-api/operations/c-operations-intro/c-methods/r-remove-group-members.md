@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: dd0ea335-bbd0-43b1-830b-77f32dc39b12
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +24,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 * `removeGroupMembers`:從群組移除多個使用者。
 * `removeGroupMembership`:從群組陣列中移除個別使用者。
 
-## 授權使用者類型 {#section-2c64cdac15184fbba6c7b2945b5d87f7}
+## 授權用戶類型{#section-2c64cdac15184fbba6c7b2945b5d87f7}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
