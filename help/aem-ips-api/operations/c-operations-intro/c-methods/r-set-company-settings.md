@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 5908082f-6743-4444-ba73-757ad4664890
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 語法
 
-## 授權使用者類型 {#section-41732fa7424b455cb458eec21a02259c}
+## 授權用戶類型{#section-41732fa7424b455cb458eec21a02259c}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -33,13 +36,13 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 |---|---|---|---|
 | ` *`companyHandle`*` | `xsd:string` | 是 | 公司負責人。 |
 | ` *`overwriteMode`*` | `xsd:string` | 否 | 資產覆寫模式。 |
-| ` *`retainPublishState`*` | `xsd:boolean` | 否 | 設定為 `true` 在資產重新上傳時保留發佈狀態。 |
+| ` *`retainPublishState`*` | `xsd:boolean` | 否 | 設為`true`，以在資產重新上傳時保留發佈狀態。 |
 | ` *`defaultSourceProfileHandle`*` | `xsd:string` | 否 | IccProfile資產，用作預設來源色彩描述檔。 |
 | ` *`defaultDisplayProfileHandle`*` | `xsd:string` | 否 | IccProfile資產，用作預設顯示色彩描述檔。 |
 | ` *`iptcExifMappingXsltHandle`*` | `xsd:string` | 否 | 用於將IPTC和EXIF中繼資料對應至IPS中繼資料欄位的XSL資產。 |
 | ` *`xmpMappingXsltHandle`*` | `xsd:string` | 否 | 用於將XMP中繼資料對應至IPS中繼資料欄位的XSL資產。 |
 | ` *`diskSpaceWarningMin`*` | `xsd:int` | 否 | 在發送警告消息之前，可用的最小可用磁碟空間(KB)。 |
-| ` *`emailTrashCleanupWarning`*` | `xsd:boolean` | 否 | 設定為在 `true` 資產從垃圾筒清空時，向公司管理員傳送通知。 |
+| ` *`emailTrashCleanupWarning`*` | `xsd:boolean` | 否 | 設為`true`，可在資產從垃圾筒清空時，向公司管理員傳送通知。 |
 
 **輸出(setCompanySettingsReturn)**
 
