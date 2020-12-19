@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: ab078f32-c523-4b6c-a0d6-45dd2af35b36
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '122'
+ht-degree: 2%
 
 ---
 
@@ -21,17 +24,17 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 資產 </span></span> </p> </td> 
-   <td colname="col2"> <p>{ <span class="codeph"> String </span>}新資產ID或明確影像集，並附加選用的影像伺服修飾元 <span class="codeph"> ? </span>。 </p> <p> 此檢視器不支援使用IR（影像演算）或UGC（使用者產生的內容）的影像。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 資產  </span> </span> </p> </td> 
+   <td colname="col2"> <p>{ <span class="codeph">字串</span>}新資產ID或明確影像集，並附加在<span class="codeph">之後的選用影像伺服修飾元？</span>。 </p> <p> 此檢視器不支援使用IR（影像演算）或UGC（使用者產生的內容）的影像。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-設定新資產。 您可以隨時呼叫此參數，不論是在之前或之後 [!DNL `init()`]。 如果在之後呼叫，檢 [!DNL `init()`]視器會在執行時期交換資產。
+設定新資產。 您可以隨時在[!DNL `init()`]之前或之後呼叫此參數。 如果在[!DNL `init()`]之後呼叫，檢視器會在執行時期交換資產。
 
-另請參見 [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/r-html5-ecatalog-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b)。
+另請參閱[init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/r-html5-ecatalog-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b)。
 
-## Returns {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## 傳回{#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 無。
 
