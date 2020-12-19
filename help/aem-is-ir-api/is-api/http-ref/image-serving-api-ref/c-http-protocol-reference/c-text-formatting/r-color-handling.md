@@ -6,31 +6,34 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 6c51d204-27ca-4fbd-a297-bf1d04b63a3f
 translation-type: tm+mt
 source-git-commit: 925fb4b0a9018d711ea9a1db248dc2ddc803c9fb
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # 色彩處理{#color-handling}
 
-RTF規範允許使用指定的RGB顏色值 `\colortbl`。 每個元件都分別提供 `\red`、 `\green`和命 `\blue` 令。
+RTF規範允許使用`\colortbl`指定的RGB顏色值。 每個元件分別提供`\red`、`\green`和`\blue`命令。
 
-專有的RTF擴展命 `\cmykcolortbl` 令允許指定CMYK顏色，每個顏色元件都 `\cyan`提供 `\magenta`、 `\yellow`和 `\black` 命令。
+專有的RTF擴展命令`\cmykcolortbl`允許指定CMYK顏色，每個顏色元件都提供`\cyan`、`\magenta`、`\yellow`和`\black`命令。
 
-顏色元件 `\colortbl` 值的範圍是0到255。 的組 `\cmykcolortbl` 件值在0到100之間。
+`\colortbl`的顏色元件值在0到255之間。 `\cmykcolortbl`的元件值在0到100之間。
 
-RTF擴展命令 `\*\iscolortbl`受支援， `textPs=`它提供了一種方法，可以指定具有標準「影像服務」顏色值的顏色表，並支援全RGB、灰色、CMYK和alpha。 其語法如下：
+RTF擴展命令`\*\iscolortbl`受`textPs=`支援，它提供了一種指定帶有標準「影像服務」顏色值的顏色表的方法，該顏色表支援全RGB、灰色、CMYK和alpha。 其語法如下：
 
 ` {\&#42;\iscolortbl; *[!DNL colors]*;}`
 
 *[!DNL colors]* 一或多個IS顏色值，以&#39;;&#39;分隔
 
-可以在同一或RTF字串中指定多種 `text=` 顏色 `textPs=` 表類型。 每個顏色表可以有不同的條目數。 影像伺服會嘗試依此順序尋找顏色：在 `\iscolortbl` 之 `\cmykcolortbl` 前（僅當文字圖層的像素類型為CMYK時） `\colortbl`。 只 `textPs=` 有在需要時，才能在CMYK和RGB之間精確轉換顏色（例如，指定RGB顏色但需要CMYK輸出時）。 如果找不到特定索引值的顏色，則使用預設顏色（黑色）。
+可以在相同的`text=`或`textPs=` RTF字串中指定多種顏色表類型。 每個顏色表可以有不同的條目數。 影像伺服會嘗試依此順序尋找顏色：`\cmykcolortbl`之前的`\iscolortbl`（僅當文字圖層的像素類型為CMYK時）在`\colortbl`之前。 僅適用於`textPs=`，如果需要，顏色會在CMYK和RGB之間精確轉換（例如，指定RGB顏色但需要CMYK輸出時）。 如果找不到特定索引值的顏色，則使用預設顏色（黑色）。
 
-有關IS [顏色值](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md) 語法的說明，請參閱color。
+有關IS顏色值語法的說明，請參閱[color](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md)。
 
-## Restrictions {#section-c5173e672d854e4aa9656844f7fc4d0e}
+## 限制{#section-c5173e672d854e4aa9656844f7fc4d0e}
 
-`text=` 不支援 `\*\iscolortbl`。 `textPs=` 不支援 `\cmykcolortbl`。
+`text=` 不支援 `\*\iscolortbl`。`textPs=` 不支援 `\cmykcolortbl`。
 
 在轉換Photofonts時，會忽略顏色選取。
 
