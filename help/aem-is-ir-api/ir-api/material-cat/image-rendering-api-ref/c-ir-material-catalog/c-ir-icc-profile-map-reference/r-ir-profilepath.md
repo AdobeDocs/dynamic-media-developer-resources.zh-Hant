@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 82fd2cee-ad15-4dd3-8864-9976470fc847
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '71'
+ht-degree: 8%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 屬性 {#section-5b75d459083f49f3bbd89ce8458559f7}
 
-文字字串。 必要. 必須是有效的映像伺服器檔案路徑（絕對或相對） `attribute::RootPath`。
+文字字串。 必要. 必須是有效的映像伺服器檔案路徑，絕對路徑或相對於`attribute::RootPath`。
 
 ## 預設 {#section-67b79d62b3e24c62aff6844cc5e04251}
 
