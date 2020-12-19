@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: e8c0401b-9161-4624-babb-6c7afb443e65
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '296'
+ht-degree: 1%
 
 ---
 
@@ -29,7 +32,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 目錄資料檔案通過目錄屬性檔案中的檔案引用與影像目錄相關聯。 同一個目錄資料檔案可由多個影像目錄共用。
 
-目錄屬性檔案必須 [!DNL .ini] 有檔案尾碼，並且必須位於平台伺服器的目錄資料夾( `PlatformServer::catalog.rootPath`)中。 目錄資料檔案可位於平台伺服器可存取的相同資料夾或任何其他資料夾中。
+目錄屬性檔案必須具有[!DNL .ini]檔案尾碼，並且必須位於平台伺服器的目錄資料夾(`PlatformServer::catalog.rootPath`)中。 目錄資料檔案可位於平台伺服器可存取的相同資料夾或任何其他資料夾中。
 
 本檔案說明Scene7 Image Serving系統的Image Catalog檔案格式。 目標受眾是經驗豐富的程式設計人員和網站開發人員，他們希望將Scene7 Image Serving運用於網頁或自訂應用程式。
 
