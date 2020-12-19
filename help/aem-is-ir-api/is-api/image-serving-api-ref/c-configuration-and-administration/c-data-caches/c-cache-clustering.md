@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 347165d6-a9e7-406e-81a8-8a91f745ce27
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '350'
+ht-degree: 0%
 
 ---
 
 
-# 快取叢集{#cache-clustering}
+# 快取群集{#cache-clustering}
 
 快取群集允許多個負載平衡伺服器在主響應快取和輔助資料快取中交換快取條目（對於嵌套／嵌入請求），通過消除在多個伺服器上生成相同快取條目的需要，有可能顯著提高伺服器響應性。
 
@@ -24,11 +27,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 快取群集可以在以下兩種基本配置之一中運行：
 
-* 啟 `PS::cacheCluster.updateLocalCache` 用（預設）時，在對等伺服器上找到的任何快取條目都會複製到本地快取。
+* 啟用`PS::cacheCluster.updateLocalCache`時（預設），在對等伺服器上找到的任何快取條目都會複製到本地快取。
 
    此配置會減少對等伺服器之間的通信量。 它還提供最快的響應時間，而代價是將所有快取條目複製到群集中的所有伺服器。 這是建議的設定。
 
-* 當停 `PS::cacheCluster.updateLocalCache` 用時，來自未複製到本機快取的其他伺服器的資料。
+* 當`PS::cacheCluster.updateLocalCache`被禁用時，來自未複製到本地快取中的其他伺服器的資料。
 
    這將快取資料的可用磁碟空間相乘。 但是，它會增加對等伺服器之間的流量，並減少整體回應時間。 只有在您看到低快取點擊率時，才使用此設定。
 
