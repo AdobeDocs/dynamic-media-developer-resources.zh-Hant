@@ -63,7 +63,7 @@ Job存在於3個狀態：
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> originalName</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">隨作業提交 <span class="codeph"> 的ActiveJob</span> 類型的原始名稱。 </td> 
+   <td colname="col3">隨作業提交的<span class="codeph"> ActiveJob</span>類型的原始名稱。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> type</span> </span> </td> 
@@ -83,12 +83,12 @@ Job存在於3個狀態：
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 地區設定</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">作業日誌詳細資訊和電子郵件本地化的區域設定。 <p>指定地區設 <span class="codeph"> 定為&lt;language_code&gt;[-&lt;country_code&gt;]</span>，其中語言代碼是由ISO-639指定的小寫、雙字母代碼，而選用的國家代碼是由ISO-3166指定的大寫、雙字母代碼。 例如，英文（美國）的地區設定字串為： <span class="codeph"> en-US</span>。 </p></td> 
+   <td colname="col3">作業日誌詳細資訊和電子郵件本地化的區域設定。 <p>將地區設定指定為<span class="codeph"> &lt;language_code&gt;[-&lt;country_code&gt;]</span>，其中語言代碼是ISO-639所指定的小寫雙字母代碼，而選用的國家代碼是ISO-3166所指定的大寫雙字母代碼。 例如，英文（美國）的地區設定字串為：<span class="codeph"> en-US</span>。 </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 描述</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">job description submitJob中最初指 <span class="codeph"> 定的作業</span>。 </td> 
+   <td colname="col3">作業說明最初在<span class="codeph"> submitJob</span>中指定。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> serverName</span> </span> </td> 
@@ -173,7 +173,7 @@ Job存在於3個狀態：
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> exportJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：ExportJob</span> </td> 
-   <td colname="col3">允許授權匯出先前上傳的檔案。 請參閱 <a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external"> 匯出工作</a>。 </td> 
+   <td colname="col3">允許授權匯出先前上傳的檔案。 請參閱<a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external">匯出工作</a>。 </td> 
   </tr> 
  </tbody> 
 </table>
