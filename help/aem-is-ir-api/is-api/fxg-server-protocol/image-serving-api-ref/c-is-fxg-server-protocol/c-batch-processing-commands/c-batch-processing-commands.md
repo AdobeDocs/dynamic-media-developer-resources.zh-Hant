@@ -8,17 +8,20 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: e82c8106-8ea5-42c6-8ca9-ee9b8d9deb57
 translation-type: tm+mt
 source-git-commit: 4169757880407b62addd0a70ef1807d8b195820b
+workflow-type: tm+mt
+source-wordcount: '80'
+ht-degree: 0%
 
 ---
 
 
-# 批次處理指令{#batch-processing-commands}
+# 批處理命令{#batch-processing-commands}
 
 下列命令包括PlatformServer公開的批次處理API。
 
-這些在特殊請求格式中指定為： `?req=<command>`
+這些在特殊請求格式中指定為：`?req=<command>`
 
-這些命令的示例使用虛構 `PlatformServer` URL &quot; [!DNL scene7.adobe.com:8080]&quot;和名為AcmeCorp的虛構公司。 工作ID也是虛構的。
+這些命令的示例使用虛構的`PlatformServer` URL &quot; [!DNL scene7.adobe.com:8080]&quot;和虛構的公司AcmeCorp。 工作ID也是虛構的。
 
 * [batchobbriefstatus](r-batchjobbriefstatus.md)
 * [batchjobdelete](r-batchjobdelete.md)
