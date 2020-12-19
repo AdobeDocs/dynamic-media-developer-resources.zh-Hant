@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 21a59c5a-7799-4af6-ab9f-b0311f5f7254
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '95'
+ht-degree: 13%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 語法
 
-## 授權使用者類型 {#section-116693bbfb5d44219e62bbb1ba19de96}
+## 授權用戶類型{#section-116693bbfb5d44219e62bbb1ba19de96}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -37,7 +40,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
 | ` *`setHandle`*` | `xsd:string` | 是 | 屬性集的句柄。 |
-| ` *`replaceProperties`*` | `xsd:string` | 否 | 設為取 `true` 代屬性。 |
+| ` *`replaceProperties`*` | `xsd:string` | 否 | 設為`true`以取代屬性。 |
 | ` *`propertyArray`*` | `types:PropertyArray` | 是 | 屬性集的更新屬性陣列。 |
 
 **Output(updatePropertySetReturn)**
