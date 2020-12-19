@@ -8,11 +8,14 @@ topic: Scene7 Image Production System API
 uuid: c3b7aada-a03a-418d-80b2-31a86a1af786
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '90'
+ht-degree: 5%
 
 ---
 
 
-# 電子郵件確認{#emailconfirmation}
+# EmailConfirmation{#emailconfirmation}
 
 響應於cdnCacheInvalidation操作，將電子郵件傳送給指定的收件者。
 
