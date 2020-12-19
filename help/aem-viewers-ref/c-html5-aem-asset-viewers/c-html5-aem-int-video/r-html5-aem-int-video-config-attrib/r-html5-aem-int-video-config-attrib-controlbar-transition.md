@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: cde4a5b9-4512-41a6-84ce-9f4fc2cc0399
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '122'
+ht-degree: 4%
 
 ---
 
@@ -22,11 +25,11 @@ source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 無|淡化</span> </p> </td> 
-   <td colname="col2"> <p> 指定將用來顯示／隱藏控制列及其內容的效果類型。 </p> <p>對於立即顯 <span class="codeph"> 示</span> /隱藏，設為無。 </p> <p>設為淡 <span class="codeph"> 入</span> /淡出，提供漸進淡入／淡出效果。 Internet Explorer 8不支援。 </p> </td> 
+   <td colname="col2"> <p> 指定將用來顯示／隱藏控制列及其內容的效果類型。 </p> <p>設為<span class="codeph"> none</span>以立即顯示／隱藏。 </p> <p>設為<span class="codeph">淡化</span>，提供漸進淡入／淡出效果。 Internet Explorer 8不支援。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> delaytohide</span></span> </p> </td> 
-   <td colname="col2"> <p> 指定由控制列註冊的上一個滑鼠／觸控事件與時間控制列隱藏之間的秒數時間。 如果設為 <span class="codeph"> -1</span> ，元件不會觸發其自動隱藏效果，因此一律會在畫面上顯示。 </p> </td> 
+   <td colname="col2"> <p> 指定由控制列註冊的上一個滑鼠／觸控事件與時間控制列隱藏之間的秒數時間。 如果設為<span class="codeph"> -1</span>，元件不會觸發其自動隱藏效果，因此一律會在畫面上顯示。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> 時段</span></span> </p> </td> 
