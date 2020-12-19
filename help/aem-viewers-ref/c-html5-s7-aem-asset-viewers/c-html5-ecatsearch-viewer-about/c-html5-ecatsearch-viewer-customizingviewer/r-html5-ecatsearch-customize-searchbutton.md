@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: a4d64d61-338e-4963-865e-c1afe1a4876f
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -39,31 +42,31 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
    <td colname="col2"> <p>按鈕的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 邊距頂端 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 邊距頂端  </span> </p> </td> 
    <td colname="col2"> <p> 從控制列頂部偏移。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 左邊距 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 左邊距  </span> </p> </td> 
    <td colname="col2"> <p> 到左側下一個按鈕的距離；如果這是一行中的第一個按鈕，則到控制列左側的距離。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景影像 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景影像  </span> </p> </td> 
    <td colname="col2"> <p>為指定按鈕狀態顯示的影像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS精靈，請放在圖稿精靈內。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS精靈 </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS精靈，請放在圖稿精靈內。 </p> <p>另請參閱<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS精靈</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按鈕支援 `state` 和屬 `selected` 性選擇器，可用來將不同的外觀套用至不同的按鈕狀態。
+>此按鈕支援`state`和`selected`屬性選擇器，可用來將不同的面板套用至不同的按鈕狀態。
 >
->特別地， `selected='false'` 對應於初始捲動按鈕狀態，並 `selected='true'` 且對應於當搜索面板處於活動狀態時的狀態。
+>尤其是，`selected='false'`對應於初始捲動按鈕狀態，而`selected='true'`對應於搜尋面板作用時的狀態。
 
-按鈕工具提示可以本地化。 如需詳 [細資訊，請參閱使用者介面元素](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 的本地化。
+按鈕工具提示可以本地化。 如需詳細資訊，請參閱[使用者介面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)。
 
 範例——設定28 x 28像素的「搜尋」按鈕，並在選取或未選取時，針對四個不同按鈕狀態中的每個狀態顯示不同的影像。
 
