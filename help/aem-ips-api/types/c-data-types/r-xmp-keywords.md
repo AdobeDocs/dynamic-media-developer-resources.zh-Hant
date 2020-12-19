@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 220d285c-2275-4ed4-b606-e832e89aa916
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '76'
+ht-degree: 18%
 
 ---
 
@@ -30,9 +33,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 項目</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 項目</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>以逗號分隔的關鍵字清單，可合併至 <span class="codeph"> dc:subject=</span> XMP屬性節點。 如果逗號出現在任何個別值中，則需要以反斜線(\)字元逸出逗號。 如果是常值反斜線，則使用一般的雙反斜線 (\\)。 </p> </td> 
+   <td colname="col3"> <p>以逗號分隔的關鍵字清單，可合併至<span class="codeph"> dc:subject=</span> XMP屬性節點。 如果逗號出現在任何個別值中，則需要以反斜線(\)字元逸出逗號。 如果是常值反斜線，則使用一般的雙反斜線 (\\)。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
