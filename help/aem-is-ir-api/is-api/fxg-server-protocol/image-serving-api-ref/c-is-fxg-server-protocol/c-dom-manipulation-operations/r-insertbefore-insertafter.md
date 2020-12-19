@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 5ac0f675-333b-4f85-abe0-642cf96de425
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 `insertBefore=<xml>, insertAfter=<xml>`
 
-如果FXG節點元素已定義， `s7:elementID` 我們可以使用此命令在該節點之前或之後添加XML片段。
+如果FXG節點元素已定義`s7:elementID`，我們可以使用此命令在該節點之前或之後添加XML片段。
 
 ## 範例 {#section-1fc8d4135ef94b60b838391e1568e70e}
 
