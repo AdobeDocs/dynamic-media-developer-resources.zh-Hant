@@ -1,6 +1,6 @@
 ---
-description: Digimarc影像資訊。 啟用Digimarc嵌入並指定水印類型和任何關聯的特定影像資料。
-seo-description: Digimarc影像資訊。 啟用Digimarc嵌入並指定水印類型和任何關聯的特定影像資料。
+description: Digimarc影像資訊。 啟用Digimarc嵌入並指定水印類型和任何相關的特定影像資料。
+seo-description: Digimarc影像資訊。 啟用Digimarc嵌入並指定水印類型和任何相關的特定影像資料。
 seo-title: DigimarcInfo
 solution: Experience Manager
 title: DigimarcInfo
@@ -8,13 +8,16 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 8371880e-47df-4333-b8a6-91feaf16c409
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # DigimarcInfo{#digimarcinfo}
 
-Digimarc影像資訊。 啟用Digimarc嵌入並指定水印類型和任何關聯的特定影像資料。
+Digimarc影像資訊。 啟用Digimarc嵌入並指定水印類型和任何相關的特定影像資料。
 
 ## 屬性 {#section-62af219e8bac422b8541841221c9ce4f}
 
@@ -22,12 +25,12 @@ Digimarc影像資訊。 啟用Digimarc嵌入並指定水印類型和任何關聯
 
 ` *``*, *``*, *`typeflagsval1`*, *`val2`*`
 
-` *`type`*` 啟用Digimarc嵌入並指定水印類型：
+` *``*` typeenables Digimarc embedding and specification the watermark type:
 
 <table id="table_3648951F14D94C5BAD097CFB783F1EE7"> 
  <thead> 
   <tr> 
-   <th class="entry"> <p><span class="codeph"> <span class="varname"> 類型</span></span> </p> </th> 
+   <th class="entry"> <p><span class="codeph"> <span class="varname"> type</span> </span> </p> </th> 
    <th class="entry"> <p><b>水印類型</b> </p> </th> 
   </tr> 
  </thead>
@@ -55,12 +58,12 @@ Digimarc影像資訊。 啟用Digimarc嵌入並指定水印類型和任何關聯
  </tbody> 
 </table>
 
-` *`標幟`*` 是具有三個值的位欄位。 設定位元0以表示受複製保護的內容，設定位元1以表示受限制的內容，設定位元2以表示成人內容：
+` *`標`*` 記具有三個值的位欄位。設定位元0以表示受複製保護的內容，設定位元1以表示受限制的內容，設定位元2以表示成人內容：
 
 <table id="table_00F218515FBE484F9D05CBAF14F9D045"> 
  <thead> 
   <tr> 
-   <th class="entry"> <p><span class="codeph"> 標 <span class="varname"> 幟</span></span> </p> </th> 
+   <th class="entry"> <p><span class="codeph"> <span class="varname"> 旗標</span> </span> </p> </th> 
    <th class="entry"> <p><b>說明</b> </p> </th> 
   </tr> 
  </thead>
@@ -100,14 +103,14 @@ Digimarc影像資訊。 啟用Digimarc嵌入並指定水印類型和任何關聯
  </tbody> 
 </table>
 
-val1和val2 ` *`的解釋`*` , ` *`取決於`*` 類型 ` *``*`:
+` *`val1`*`和` *`val2`*`的解釋取決於` *`type`*`:
 
 <table id="table_6B29F76BC1974C12AB7124BF84B29EC2"> 
  <thead> 
   <tr> 
-   <th class="entry"> <p><span class="codeph"> <span class="varname"> 類型</span></span> </p> </th> 
-   <th class="entry"> <p><span class="codeph"> <span class="varname"> val1 </span></span> </p> </th> 
-   <th class="entry"> <p><span class="codeph"> <span class="varname"> val2 </span></span> </p> </th> 
+   <th class="entry"> <p><span class="codeph"> <span class="varname"> type</span> </span> </p> </th> 
+   <th class="entry"> <p><span class="codeph"> <span class="varname"> val1  </span> </span> </p> </th> 
+   <th class="entry"> <p><span class="codeph"> <span class="varname"> val2  </span> </span> </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -127,7 +130,7 @@ val1和val2 ` *`的解釋`*` , ` *`取決於`*` 類型 ` *``*`:
    <td> <p>未使用。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>3</b> </p> </td> 
+   <td> <p><b>1</b> </p> </td> 
    <td> <p>交易 ID. </p> </td> 
    <td> <p>未使用。 </p> </td> 
   </tr> 
