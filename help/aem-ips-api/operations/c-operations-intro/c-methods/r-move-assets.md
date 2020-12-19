@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 178f9979-fff5-45ce-a001-1263d1770ea8
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '235'
+ht-degree: 11%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 語法
 
-## 授權使用者類型 {#section-4166515fd9d8487b8af37465ce61802b}
+## 授權用戶類型{#section-4166515fd9d8487b8af37465ce61802b}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,7 +36,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 將資產移至公司的控制代碼。 |
+| ` *`companyHandle`*` | `xsd:string` | 是 | 資產要移動的公司的控制代碼。 |
 | ` *`assetMoveArray`*` | `types:AssetMoveArray` | 是 | 資產移動陣列。 它包含資產和資產目標資料夾。 |
 
 **輸出(moveAssetsReturn)**
@@ -49,25 +52,25 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> successCount <span class="varname"></span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> successCount</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 已成功移動資產計數。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 警 <span class="varname"> 告計數</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> warningCount</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 當操作嘗試移動時產生警告的資產計數。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> errorCount</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> errorCount</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 當操作嘗試移動錯誤時產生錯誤的資產計數。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 警 <span class="varname"> 告DetailArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> warningDetailArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：AssetOperationFaultArray</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> <span class="codeph"> AssetOperationFaults，其中包含：</span> 
@@ -78,7 +81,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> errorDetailArray <span class="varname"> (錯誤詳細資訊陣列</span> ) </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> errorDetailArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：AssetOperationFaultArray</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> <span class="codeph"> AssetOperationFaults，其中包含：</span> 
@@ -93,7 +96,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 範例 {#section-c31ed4c004ab4b3fa42c96d26ceb5ce7}
 
-此程式碼範例會將資產移至由指定的特定位置 `assetMoveArray`。 陣列包括資產控制代碼及其資料夾控制代碼。 回應指出資產已成功移動。
+此程式碼範例會將資產移至`assetMoveArray`所指定的特定位置。 陣列包括資產控制代碼及其資料夾控制代碼。 回應指出資產已成功移動。
 
 **請求**
 
