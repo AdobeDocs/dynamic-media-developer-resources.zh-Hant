@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: de11a7b0-cd4b-4717-8596-d39afbcf7e9c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '251'
+ht-degree: 7%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 資產會存放在垃圾筒中，直到手動清空或清空垃圾筒為止。 如果手動清空，則會在垃圾筒中生存，直到最終從系統清除下一個清除作業（通常是每晚）。 如果資產超出垃圾桶，資產會作為同一清理活動的一部分被清理掉。 逾時是可設定的（預設值為7天）。
 
-## 授權使用者類型 {#section-24dee2bf5f9f4714a64955c80f2803b4}
+## 授權用戶類型{#section-24dee2bf5f9f4714a64955c80f2803b4}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -26,7 +29,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 * `ImagePortalAdmin`
 * `ImagePortalContrib`
 * `ImagePortalContribUser`
-* ``
+* &quot;
 
 ## 參數 {#section-8e1fb0ee3aae453581e99ef76e298569}
 
