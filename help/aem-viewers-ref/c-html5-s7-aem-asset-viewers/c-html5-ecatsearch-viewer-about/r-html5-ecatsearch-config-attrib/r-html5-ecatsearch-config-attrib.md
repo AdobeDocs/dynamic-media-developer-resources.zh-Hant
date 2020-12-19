@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: e1111ce2-67e8-449a-9cc2-bb53b61158a9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '155'
+ht-degree: 0%
 
 ---
 
@@ -16,9 +19,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 eCatalog檢視器的設定屬性檔案。
 
-任何組態命令都可在URL中設定，或 `setParam()`使用或 `setParams()`同時使用API方法。 您也可以指定伺服器端組態記錄中指定的任何組態屬性。
+任何組態命令都可在URL中設定，或使用`setParam()`或`setParams()`，或同時使用&lt;a1/>或兩者的API方法。 您也可以指定伺服器端組態記錄中指定的任何組態屬性。
 
-對於某些配置命令，您可在其前置詞上加上對應Viewer SDK元件的類別名稱或例項名稱。 元件的例項名稱是動態的，並視傳遞至 `setContainerId()` API方法的檢視器容器DOM元素ID而定。 說明檔案包含此類命令的可選首碼。 例如，命 `zoomstep` 令記錄如下：
+對於某些配置命令，您可在其前置詞上加上對應Viewer SDK元件的類別名稱或例項名稱。 元件的例項名稱是動態的，並視傳遞至`setContainerId()` API方法的檢視器容器DOM元素ID而定。 說明檔案包含此類命令的可選首碼。 例如，`zoomstep`命令的說明如下：
 
 `[PageView.|<containerId>_pageView].zoomstep`
 
@@ -28,4 +31,4 @@ eCatalog檢視器的設定屬性檔案。
 * `PageView.zoomstep` （限定元件類別名稱）
 * `cont_pageView.zoomstep` (以元件ID為限，假 `cont` 設是容器元素的ID)
 
-另請參 [閱所有檢視器通用的命令參考——設定屬性](../../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)
+另請參閱[所有查看器通用的命令參考——配置屬性](../../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)
