@@ -9,8 +9,8 @@ uuid: 172f47c7-685a-4014-9c30-dacd78733655
 translation-type: tm+mt
 source-git-commit: fa8be83171215f39cd2593a3bfe75ffe5fb7abcd
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 10%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 10%
 
 使用getActiveJobs來追蹤案頭上傳。
 
-另請參 [閱透過HTTP POST上傳資產至上傳……](../../c-http-post.md#concept-457855c0cdc943339ca1f1bed356991d).
+另請參閱[透過HTTP POST上傳資產至上傳……](../../c-http-post.md#concept-457855c0cdc943339ca1f1bed356991d)。
 
 >[!NOTE]
 >
@@ -101,11 +101,11 @@ ht-degree: 10%
    <td colname="col1"> <span class="codeph"> <span class="varname"> mediaOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：MediaOptions</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>可讓您從視訊設定縮圖影像的選項。 </p> <p>請參閱 <a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> 媒體選項</a>。 </p> </td> 
+   <td colname="col4"> <p>可讓您從視訊設定縮圖影像的選項。 </p> <p>請參閱<a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> MediaOptions</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 覆寫</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：布林值</span> </td> 
    <td colname="col3"> <p>是</p> </td> 
    <td colname="col4"> <p>上傳時是否要覆寫檔案。 </p> </td> 
   </tr> 
@@ -135,13 +135,13 @@ ht-degree: 10%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> preserveCrop</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：布林值</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>控制任何現有裁切定義的保留。 預設為 true。</p> <p>如果您提供manualCropOptions參數和對應值，則新值（不包括0,0,0,0）會套用至資產，而不論preserveCrop值為何。</p><p>如果您未 <i>提供</i> manualCropOptions參數，則會保留preserveCrop的值。 而且，若為true，則會保留現有的preserveCrop值； 若為false，則會移除preserveCrop值。</p><p>範例：</p><p><p>&lt;preserveCrop&gt;false&lt;/preserveCrop&gt;<br />&lt;manualCropOptions&gt;<br />&lt;left&gt;<br />&lt;left&gt;190&lt;/left&gt;<br />&lt;right&gt;<br />&lt;top&gt;<br />&lt;top&gt;&lt;bottom&gt;120&lt;/bottom&gt;&lt;/manualCropOptions&gt;</p></td> 
+   <td colname="col4"> <p>控制任何現有裁切定義的保留。 預設為 true。</p> <p>如果您提供manualCropOptions參數和對應值，則新值（不包括0,0,0,0）會套用至資產，而不論preserveCrop值為何。</p><p>如果您<i>not</i>提供manualCropOptions參數，則preserveCrop的值會維持不變。 而且，若為true，則會保留現有的preserveCrop值；若為false，則會移除preserveCrop值。</p><p>範例：</p><p><p>&lt;preservecrop&gt;false&lt;/preservecrop&gt;<br />&lt;manualcropoptions&gt;<br />    &lt;left&gt;190&lt;/left&gt;<br />    &lt;right&gt; &lt;/right&gt;<br />    &lt;top&gt;310&lt;/top&gt;<br />    &lt;bottom&gt;160120&lt;/bottom&gt;<br />&lt;/manualcropoptions&gt;</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> preservePublishState</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：布林值</span> </td> 
    <td colname="col3"> <p><b>是</b> </p> </td> 
    <td colname="col4"> <p>控制覆寫現有資產時是否保留其發佈狀態。 如果未設定，則會使用公司預設設定。 </p> </td> 
   </tr> 
@@ -153,7 +153,7 @@ ht-degree: 10%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> readyForPublish</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：布林值</span> </td> 
    <td colname="col3"> <p><b>是</b> </p> </td> 
    <td colname="col4"> <p>檔案是否已標示為可供發佈。 </p> </td> 
   </tr> 
@@ -161,13 +161,13 @@ ht-degree: 10%
    <td colname="col1"> <span class="codeph"> <span class="varname"> unCompressOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：UnCompressOptions</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>使用這些選用設定，擷取並處理已上傳的TAR/ZIP檔案內容。 </p> <p>請參 <a href="../../types/c-data-types/r-uncompress-options.md#reference-510ec7028b1540bc9b58745f242d49d5" format="dita" scope="local"> 閱UnCompressOptions</a>。 </p> </td> 
+   <td colname="col4"> <p>使用這些選用設定，擷取並處理已上傳的TAR/ZIP檔案內容。 </p> <p>請參閱<a href="../../types/c-data-types/r-uncompress-options.md#reference-510ec7028b1540bc9b58745f242d49d5" format="dita" scope="local"> UnCompressOptions</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> unsharpMaskOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：UnsharpMaskOptions</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>可讓您在建立最佳金字塔TIF檔案時控制遮色片銳利化設定的選項。 使用這些設定可協助改善影像的銳利度。 </p> <p>請參閱 <a href="../../types/c-data-types/r-unsharp-mask-options.md#reference-b9a96244d7ee4424bc4ac3c23be3be3d" format="dita" scope="local"> UnsharpMaskOptions</a>。 </p> </td> 
+   <td colname="col4"> <p>可讓您在建立最佳金字塔TIF檔案時控制遮色片銳利化設定的選項。 使用這些設定可協助改善影像的銳利度。 </p> <p>請參閱<a href="../../types/c-data-types/r-unsharp-mask-options.md#reference-b9a96244d7ee4424bc4ac3c23be3be3d" format="dita" scope="local"> UnsharpMaskOptions</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"><span class="varname"> xmpKeywords</span></span> </td> 
