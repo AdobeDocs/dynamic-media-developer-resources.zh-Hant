@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 16c7144f-7f16-47d1-8140-fd679e702660
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 如果指定的照明地圖在目標暈映中不可用，則改用最近的可用地圖。
 
-`illum=-1` 指定根據值自動選擇照明 `gloss=` 圖。
+`illum=-1` 指定照明映射是根據值自動選 `gloss=` 擇的。
 
 ## 屬性 {#section-aace8466566e4cf1a0c5a6c0167245c9}
 
