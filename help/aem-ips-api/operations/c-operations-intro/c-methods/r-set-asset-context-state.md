@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 4b94f9ea-3f7b-45ee-9381-6434f2bc4e31
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '183'
+ht-degree: 9%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 設定或更新一或多個資產的發佈狀態。 您可以為公司中的每個發佈上下文設定個別的發佈狀態。
 
-## 授權使用者類型 {#section-815eb031f85143278c1560c18c5e3431}
+## 授權用戶類型{#section-815eb031f85143278c1560c18c5e3431}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -52,7 +55,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 範例 {#section-283a073f3cb14bcda5abed863c538aa4}
 
-此程式碼範例會使用設定資產的發佈狀態 `NotMarkedForPublish`。
+此程式碼範例會使用`NotMarkedForPublish`設定資產的發佈狀態。
 
 **請求**
 
