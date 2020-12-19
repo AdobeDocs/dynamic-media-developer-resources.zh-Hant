@@ -8,15 +8,18 @@ topic: Scene7 Image Production System API
 uuid: 16cf53d4-4101-405c-b008-009b6ac62169
 translation-type: tm+mt
 source-git-commit: aa095022d43db4bf815aece9bc2b087c53a64e1b
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# cdnCacheInvaliting{#cdncacheinvalidation}
+# cdnCacheInvalidation{#cdncacheinvalidation}
 
 將提供的URL清單轉送至Scene7 CDN（內容散發網路）提供者，使其現有的HTTP回應快取失效。
 
-## cdnCacheInvalidation:關於 {#section-4f70d2bc79d64288b961836ab17e9690}
+## cdnCacheInvalidation:關於{#section-4f70d2bc79d64288b961836ab17e9690}
 
 一旦透過CDN網路處理此失效要求，CDN快取失效會強制這些URL的所有HTTP要求，針對Scene7網路上目前發佈的資料重新驗證。 任何未連線至Scene7服務URL結構且在建立公司時直接符合指派給Scene7公司根ID的URL，都會導致整個請求的API錯誤。 CDN不支援且認為無效的任何無效URL，也會導致整個請求的API錯誤。
 
@@ -26,20 +29,20 @@ source-git-commit: aa095022d43db4bf815aece9bc2b087c53a64e1b
 
 **確認電子郵件**
 
-來自Scene7 CDN合作夥伴的確認電子郵件可傳送至清單的建立者，或最多5個其他電子郵件地址。 當通知整個CDN網路已清除電子郵件中參考的URL時，API會傳送確認。 如果提供的URL `cdnCacheInvalidation` 數量超過Scene7在單一通知上可傳送給CDN合作夥伴的數量，則單一呼叫可傳送多封電子郵件。 目前，這是當要求超過100個URL時，但可能會根據CDN合作夥伴的要求而變更。
+來自Scene7 CDN合作夥伴的確認電子郵件可傳送至清單的建立者，或最多5個其他電子郵件地址。 當通知整個CDN網路已清除電子郵件中參考的URL時，API會傳送確認。 如果提供的URL數量超過Scene7在單一通知上可傳送給CDN合作夥伴的數量，則對`cdnCacheInvalidation`的單一呼叫可傳送多封電子郵件。 目前，這是當要求超過100個URL時，但可能會根據CDN合作夥伴的要求而變更。
 
 **支援自**
 
 6.0
 
-## 授權使用者類型 {#section-0d7895e733d54fb68beb8d231a04e4c9}
+## 授權用戶類型{#section-0d7895e733d54fb68beb8d231a04e4c9}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
 
 ## 參數 {#section-bd1ed2b7419945d19a2ebd5668499f72}
 
-**輸入** ( `cdnCacheInvalidationParam`)
+**Input** ( `cdnCacheInvalidationParam`)
 
 <table id="table_EDD1875264C846BE951869D528A90D73"> 
  <thead> 
@@ -52,13 +55,13 @@ source-git-commit: aa095022d43db4bf815aece9bc2b087c53a64e1b
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> 公 <span class="varname"> 司控制</span></span> </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td> <p> <span class="codeph"> xsd:string</span> </p> </td> 
    <td> <p> 是 </p> </td> 
    <td> <p> 與URL連接的公司的控制代碼無效。 </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> <span class="varname"> urlArray</span></span> </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> urlArray</span> </span> </p> </td> 
    <td> <p> <span class="codeph"> 類型：UrlArray</span> </p> </td> 
    <td> <p> 是 </p> </td> 
    <td> <p> 從CDN快取中失效的URL清單最多達1000個。 所有URL都必須包含要失效的Scene7公司根ID。 </p> </td> 
@@ -82,7 +85,7 @@ source-git-commit: aa095022d43db4bf815aece9bc2b087c53a64e1b
    <td colname="col1"> <p><span class="codeph"><span class="varname"> invalidationHandle</span></span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>引用清除請求的句柄。 </p> <p>cdnCacheInvaliting <span class="codeph"></span> API現在幾乎立即使快取失效（~5秒）。 因此，通常不再需要輪詢失效狀態。 </p> 
+   <td colname="col4"> <p>引用清除請求的句柄。 </p> <p><span class="codeph"> cdnCacheInvaliting</span> API現在幾乎立即使快取失效（~5秒）。 因此，通常不再需要輪詢失效狀態。 </p> 
     <!--<p>The next three paragraphs were added as per CQDOC-13840 With the migration from Akamai v2 API's to fast purge, purging time is now approximately 5 seconds. You are no longer required to poll on the purge URL to find out the status of the purge request.</p>--> 
     <!--<p>The cache invalidation handle used to contained the company ID, the user account type used (small or large), and the purge url. With the release of 2019R1, <codeph>invalidationHandle</codeph> now contains just the company ID and the purge ID. </p>--> 
     <!--<p>Prior to 2019R1, two different Akamai users were being used for each geography (for example, <codeph>cdninvalidatesmallemea</codeph> and <codeph>cdninvalidatelargeemea</codeph>) to invalidate requests, depending on the number of URLs in each request. This functionality was done so that a small request was not blocked because of a large request. Now, with fast purge in 2019R1, the purge is nearly instantaneous, two users are no longer needed, and only one account is used. </p>--> </td> 
