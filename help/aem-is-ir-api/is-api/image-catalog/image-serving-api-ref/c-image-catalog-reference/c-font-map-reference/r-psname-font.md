@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 8c7624c5-7f34-4128-abb7-94c007669b80
 translation-type: tm+mt
 source-git-commit: b4331c6f033903ec64f168da0b739927c6066710
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ Postscript字型名稱。 Postscript字型名稱。
 
 ## 屬性 {#section-a560f8bfc69a4d88aeb0b53c1625153b}
 
-文字字串。 選填。字型映射的次要索引鍵。 相同的 `font::PsName` 值只能出現在相同的字型對應檔案中一次。
+文字字串。 選填。字型映射的次要索引鍵。 相同的`font::PsName`值只能出現在相同的字型對應檔案中一次。
 
 ## 預設 {#section-c5903d5340e740b69ec0150d2303a893}
 
