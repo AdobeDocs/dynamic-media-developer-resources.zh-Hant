@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 7288cf29-850f-4121-8425-5f995daac22d
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# 作業選項{#joboption}
+# joboption{#joboption}
 
 套用PDF工作選項。 工作選項檔案或PDF預設集是Illustrator在InDesign的「另存為PDF選項」對話方塊或PDF預設集中產生的檔案。
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 <table id="simpletable_BA7B58BE0B0740298D45DDEBE7832D93"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> 值 <span class="varname"></span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> 值</span></span> </p> </td> 
   <td class="stentry"> <p>作業選項檔案的IPSID。 </p></td> 
  </tr> 
 </table>
