@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 6fe2aeb6-0dd7-4631-955f-ad74d11b613d
 translation-type: tm+mt
 source-git-commit: b4331c6f033903ec64f168da0b739927c6066710
+workflow-type: tm+mt
+source-wordcount: '117'
+ht-degree: 11%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: b4331c6f033903ec64f168da0b739927c6066710
 
 >[!NOTE]
 >
->如果 `catalog::Size`已提供且與實際的全解析度影像大小不同，則可能會產生未定義的行為。
+>如果提供`catalog::Size`且與實際的全解析度影像大小不相同，則可能會產生未定義的行為。
 
 ## 屬性 {#section-5c914ec8b1444a8e99d811b647cd42a3}
 
