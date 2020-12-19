@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 936607c1-20c3-4f76-b970-614b21c47dea
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,20 +23,20 @@ Jpeg品質。 指定JPEG編碼屬性以控制壓縮級別。 這進而會改變�
 
 <table id="simpletable_D080D15922CE4EF4B707282A4D45739A"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 品質 </span></span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 質量  </span> </span> </p> </td> 
   <td class="stentry"> <p>JPEG編碼品質(1...100 int)。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 色 </span> 度 </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 色度  </span> </span> </p> </td> 
   <td class="stentry"> <p>JPEG色度下採樣(0=normal, 1=disable);可選，預設為0。 </p> </td> 
  </tr> 
 </table>
 
-僅用於 `fmt=jpg`。 否則忽略
+僅在`fmt=jpg`時使用。 否則忽略
 
 較高的值會增加檔案大小並提高品質，較低的值則會減少檔案大小並降低肉眼能感知的影像品質。高於 90 的值所產生的影像通常與未壓縮的影像幾乎沒有差別。
 
-設定標 `chroma` 幟以停用典型JPEG編碼器採用的RGB色度下採樣。 當邊緣由色相而不是亮度的變化來定義時，這可以增加影像中邊緣的感知清晰度。 設定此標幟可能會使檔案大小稍微增加。 如果文字看起來有點模糊，請嘗試使用此設定。
+設定`chroma`標幟，以停用典型JPEG編碼器所採用的RGB色度下採樣。 當邊緣由色相而不是亮度的變化來定義時，這可以增加影像中邊緣的感知清晰度。 設定此標幟可能會使檔案大小稍微增加。 如果文字看起來有點模糊，請嘗試使用此設定。
 
 `chroma` 如果輸出像素類型是CMYK或灰色，則會忽略此值。
 
