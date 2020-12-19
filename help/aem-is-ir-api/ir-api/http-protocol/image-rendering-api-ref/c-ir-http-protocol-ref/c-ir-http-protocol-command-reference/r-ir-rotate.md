@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 497cd8ea-c6a4-45d2-b5e0-0898ac00913d
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '134'
+ht-degree: 7%
 
 ---
 
@@ -31,7 +34,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 以任意角度旋轉傾斜材料。
 
-正角度順時針旋轉。 紋理或壁片繞錨點旋轉( `anchor=`);錨點與目標對象的原點保持對齊。
+正角度順時針旋轉。 紋理或壁片繞錨點旋轉(`anchor=`);錨點與目標對象的原點保持對齊。
 
 ## 屬性 {#section-ad4d07897ca24f63af1a4062f8618e36}
 
