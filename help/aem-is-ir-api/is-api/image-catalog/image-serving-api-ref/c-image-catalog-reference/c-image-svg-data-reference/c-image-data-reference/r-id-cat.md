@@ -6,6 +6,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 9803d754-1f94-4e5d-9a40-3936676c0035
 translation-type: tm+mt
 source-git-commit: 7d3902803d42f5d479dd04ac9470a4088809f3d6
+workflow-type: tm+mt
+source-wordcount: '100'
+ht-degree: 8%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: 7d3902803d42f5d479dd04ac9470a4088809f3d6
 
 Platform Server根據索引鍵值查找映像資料檔案中的記錄。
 
-通常，如果SKU具有多個影像，則是短且唯一的影像識別碼，例如SKU編號，可能帶有某種影像尾碼。 也可能是更複雜的字串，看起來更像檔案路徑，以支援使用影像伺服輕鬆修復網站。
+通常，如果SKU具有多個影像，則會是短且唯一的影像識別碼，例如SKU編號，可能會有某種影像尾碼。 也可能是更複雜的字串，看起來更像檔案路徑，以支援使用影像伺服輕鬆修復網站。
 
 ## 屬性 {#id-properties}
 
