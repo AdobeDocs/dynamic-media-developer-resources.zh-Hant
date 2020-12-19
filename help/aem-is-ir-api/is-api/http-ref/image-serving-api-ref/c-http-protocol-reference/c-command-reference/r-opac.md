@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 268279bd-d777-4afe-b175-841af7e55406
 translation-type: tm+mt
 source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+workflow-type: tm+mt
+source-wordcount: '228'
+ht-degree: 2%
 
 ---
 
@@ -29,17 +32,17 @@ source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
  </tr> 
 </table>
 
-影像層的前景不透明度由圖層遮色片或影像的Alpha通道確定，或者，如果兩者都不存在，則為100%。 文字圖層的前景不透明度是100%，而純色圖層的前景不透明度是由設定的 `color=`。
+影像層的前景不透明度由圖層遮色片或影像的Alpha通道確定，或者，如果兩者都不存在，則為100%。 文字圖層的前景不透明度為100%，而純色圖層的前景不透明度則由`color=`設定。
 
-`opac=` 切勿修改填入或的區域 `color=` 的不 `bgColor=`透明度，除了前景區域的純色和效果圖層(設定 `color=`為)。
+`opac=` 切勿修改填入或的區 `color=` 域的不 `bgColor=`透明度，除了前景區域的純色和效果圖層(設為 `color=`)。
 
-當在影像、文字或純色圖層中指定時， *`opacity`* 會套用整個圖層，包括所有相關的效果圖層，而 *`fillOpacity`* 只套用至主要圖層內容。 在特效圖層中指定時， *`opacity`* 會套用至特效圖層，但 *`fillOpacity`* 會忽略。
+當在影像、文字或純色圖層中指定時，*`opacity`*&#x200B;會套用整個圖層，包括所有相關的效果圖層，而&#x200B;*`fillOpacity`*&#x200B;僅套用至主要圖層內容。 當在特效圖層中指定時，*`opacity`*&#x200B;會套用至特效圖層，而&#x200B;*`fillOpacity`*&#x200B;則會被忽略。
 
-主圖層內容的有效不透明度是( *`opacity`* * *`fillOpacity`* / 100)。 效果圖層的有效不透明度為(主 *`opacity`* *效果 *`opacity`* / 100)。
+主圖層內容的有效不透明度是(*`opacity`* * *`fillOpacity`* / 100)。 效果圖層的有效不透明度是（主&#x200B;*`opacity`* *效果&#x200B;*`opacity`* / 100）。
 
 ## 屬性 {#section-ac3f136ff1584a2eab87500b7164f7fa}
 
-層屬性。 應用於當前圖層或複合影像（如果） `layer=comp`。
+層屬性。 如果`layer=comp`，則套用至目前圖層或複合影像。
 
 ## 預設 {#section-abba67ed028049048ae43405ea69b164}
 
@@ -53,4 +56,4 @@ source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
 
 ## 另請參閱 {#section-dbdad35ccd544590b4b11d31a9ab062e}
 
-[color=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md) , [bgColor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgcolor.md#reference-441371ba4ef54fe781887c5ae448f6ab)
+[color=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md) ,  [bgColor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgcolor.md#reference-441371ba4ef54fe781887c5ae448f6ab)
