@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 21689469-a0dd-480b-82ba-ebd12956ff8f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 語法
 
-## 授權使用者類型 {#section-0372b742b1344979b0668faacb36fcc6}
+## 授權用戶類型{#section-0372b742b1344979b0668faacb36fcc6}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -39,19 +42,19 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 公 <span class="varname"> 司控制</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 公司負責人。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 字 <span class="varname"> 段句柄</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 標籤欄位控制代碼。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> updateArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> updateArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：TagValueUpdateArray</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4">您要更新的標籤欄位值陣列。 <p>注意： 僅更新標籤字串值。 不會影響資產關聯。 </p> </td> 
