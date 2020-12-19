@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 50ab61fa-df44-4305-ad9f-693c4aea1e69
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 語法
 
-## 授權使用者類型 {#section-2f61d79f8cac4692bfa53b95035ddd89}
+## 授權用戶類型{#section-2f61d79f8cac4692bfa53b95035ddd89}
 
 * `IpsAdmin`
 
@@ -37,49 +40,49 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 公 <span class="varname"> 司名稱</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyName</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 中繼資料欄位所屬公司的名稱。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 資產 <span class="varname"> 類型</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 資產類型. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 名稱</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 名稱</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 您正在建立的中繼資料欄位名稱。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldType</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4">中繼資料欄位類型。 <p>中繼資料欄位類型常數會定義可用類型。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> <p>要建立的中繼資料欄位的預設值(例如 <span class="codeph"> Scene 7</span>)。 </p> <p>標籤欄位類型不支援預設值，且必須省略。 如果為標籤欄位類型指定非空的預設值，則會傳回錯誤。 </p> </td> 
+   <td colname="col4"> <p>要建立的元資料欄位的預設值（例如<span class="codeph">場景7</span>）。 </p> <p>標籤欄位類型不支援預設值，且必須省略。 如果為標籤欄位類型指定非空的預設值，則會傳回錯誤。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 已隱藏</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 隱藏或公開IPS系統特定的元資料。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
-   <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col2"><span class="codeph"> xsd：布林值</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>一個布林標幟，指出設定值時是否強制（驗證）中繼資料欄位。 </p> <p>如果設為true，則如果在setAssetMetadata <span class="codeph"> /batchSetAssetMetadata中設定了非法值，則會</span> 擲回錯誤<span class="codeph"></span>。 </p> </td> 
+   <td colname="col4"> <p>一個布林標幟，指出設定值時是否強制（驗證）中繼資料欄位。 </p> <p>如果設為true，則如果在<span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>中設定了非法值，則會擲回錯誤。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 可讓您建立一組共用列舉值，供選取的標籤指向。 </td> 
@@ -95,7 +98,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 範例 {#section-ba66be30f36b4aeba1bc721b0b92fdfc}
 
-此程式碼範例會建立名為的字串類型中繼資料欄位 `createMetadataField`。 回應會將控制代碼傳回新的中繼資料欄位。
+此程式碼範例會建立名為`createMetadataField`的字串類型中繼資料欄位。 回應會將控制代碼傳回新的中繼資料欄位。
 
 **請求**
 
