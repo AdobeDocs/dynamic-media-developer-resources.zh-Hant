@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 632ae721-7b39-4cd1-a1c6-1a3554167a4e
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '56'
+ht-degree: 12%
 
 ---
 
@@ -30,12 +33,12 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 轉角</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 角</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 選擇「自動裁切角」。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 容差</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 容差</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
    <td colname="col3">色彩符合規格。 用途： 
     <ul id="ul_FE5423B857AE43FCBA7A9AEA76C754CC">
