@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 84a73ff4-e93f-4764-80e8-e15f1fec1aeb
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '135'
+ht-degree: 11%
 
 ---
 
@@ -16,9 +19,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 設定與影像集關聯的資產清單。
 
-此操作會忽略 `pageReset` 和的 `ImageSets` 參數 `SpinSets` ，並強制將值設定為true。
+此操作會忽略`ImageSets`和`SpinSets`的`pageReset`參數，並強制將值強制為true。
 
-## 授權使用者類型 {#section-8968d6a39a344cfc8521020d92ae8916}
+## 授權用戶類型{#section-8968d6a39a344cfc8521020d92ae8916}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -46,19 +49,19 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 公 <span class="varname"> 司控制</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
    <td colname="col4"> <p>公司負責人。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 資 <span class="varname"> 產控制代碼</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 影像集控點。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> memberArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> memberArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：ImageSetMemberUpdateArray</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 屬於映像集的資產成員陣列。 </td> 
