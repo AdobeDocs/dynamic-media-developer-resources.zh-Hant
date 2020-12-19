@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: ed97d20a-358d-4a00-93c7-4498bb2e9d35
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '36'
+ht-degree: 22%
 
 ---
 
@@ -30,12 +33,12 @@ Photoshop影像的選項。
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 圖層 <span class="varname"> 選項</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> layerOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：PhotoshopLayerOptions</span> </td> 
    <td colname="col3"> Photoshop圖層選項陣列。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 流程</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 過程</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3">Photoshop流程選項： 
     <ul id="ul_DD292274043F4A5ABBBB9DB5C2D46681"> 
