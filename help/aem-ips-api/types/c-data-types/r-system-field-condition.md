@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 811095df-732d-48a3-a6ff-55d6dc602b54
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '127'
+ht-degree: 5%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 searchAssets操作的系統欄位搜尋條件。
 
-對於一元比較，根據系統欄位 `boolVal`類型 `longVal`，只 `doubleVal`要傳遞一個值( `dateVal`、或)。 對於搜尋範圍，請 `min<Type>` 傳遞 `max<Type>` 和參數，並傳遞 `op` 或的 `Between` 值 `NotBetween`。
+對於一元比較，根據系統欄位類型，只傳遞一個值（`boolVal`、`longVal`、`doubleVal`或`dateVal`）。 對於搜索範圍，請傳遞`min<Type>`和`max<Type>`參數，並傳遞`Between`或`NotBetween`的`op`值。
 
 ## 參數 {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
