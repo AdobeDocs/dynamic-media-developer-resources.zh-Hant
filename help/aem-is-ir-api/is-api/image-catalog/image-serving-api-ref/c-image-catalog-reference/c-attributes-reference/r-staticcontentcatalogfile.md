@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 82d2a68a-255a-4e65-a29f-7022e7f0f5ec
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 靜態內容目錄資料檔案路徑。 指定包含此目錄靜態內容資料的檔案。
 
-靜態內容目錄資料檔案按指定順序載入。 如果相同 `static::Id` 的值出現在多個記錄（位於相同或不同的目錄檔案）中，則最後一個例項優先。
+靜態內容目錄資料檔案按指定順序載入。 如果相同的`static::Id`值出現在多個記錄中（位於相同或不同的目錄檔案中），則最後一個例項優先。
 
 ## 屬性 {#section-3f8dc8d21fa84fbeb71db6ca1ecbdd8c}
 
