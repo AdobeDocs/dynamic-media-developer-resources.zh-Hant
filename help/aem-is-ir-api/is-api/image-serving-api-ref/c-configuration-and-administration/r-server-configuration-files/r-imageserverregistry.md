@@ -9,7 +9,7 @@ uuid: cc401f75-1eb1-40fe-8308-eaaf9e14f906
 translation-type: tm+mt
 source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->請勿變更的結構 `<imageserverregistry>`，包括元素順序。 編輯此檔案時請小心，否則可能會無法啟動映像伺服器。
+>請勿變更`<imageserverregistry>`的結構，包括元素順序。 編輯此檔案時請小心，否則可能會無法啟動映像伺服器。
 
 以下說明哪些元素可以變更。 其他元素不得變更。 以下元素的順序並不反映檔案中元素必須出現的順序。
 
@@ -55,4 +55,4 @@ ht-degree: 0%
 
 ## 附註 {#section-7217f011f69f41e7af4f3983d7776d6f}
 
-可能 `<RootPath>` 存在多個元素（每個源資料檔案資料夾各一個元素）。 影像伺服器會依指定順序搜尋根路徑，以尋找特定來源檔案。
+可能存在多個`<RootPath>`元素（每個源資料檔案資料夾各一個）。 影像伺服器會依指定順序搜尋根路徑，以尋找特定來源檔案。
