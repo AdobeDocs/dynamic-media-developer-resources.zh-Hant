@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: e5da89b4-fd3f-41ab-bc55-d43c2999d4b7
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -31,11 +34,11 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 邊距頂端 </span> </p> </td> 
-   <td colname="col2"> <p> 與控制欄頂部的偏移。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 邊距頂端  </span> </p> </td> 
+   <td colname="col2"> <p> 與控制條頂部的偏移。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 左邊距 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 左邊距  </span> </p> </td> 
    <td colname="col2"> <p> 到左側下一個按鈕的距離；如果這是一行中的第一個按鈕，則到控制列左側的距離。 </p> </td> 
   </tr> 
   <tr> 
@@ -47,21 +50,21 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
    <td colname="col2"> <p> 目錄按鈕的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景影像 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景影像  </span> </p> </td> 
    <td colname="col2"> <p> 為指定按鈕狀態顯示的影像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS精靈，請放在圖稿精靈內。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS精靈 </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS精靈，請放在圖稿精靈內。 </p> <p>另請參閱<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS精靈</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按鈕支援屬 `state` 性選擇器，可用來將不同的外觀套用至不同的按鈕狀態。
+>此按鈕支援`state`屬性選擇器，可用來將不同的外觀套用至不同的按鈕狀態。
 
-按鈕工具提示可以本地化。 如需詳 [細資訊，請參閱使用者介面元素](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 的本地化。
+按鈕工具提示可以本地化。 如需詳細資訊，請參閱[使用者介面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)。
 
 範例——設定目錄按鈕，從下方4像素，從主控列左側43像素；大小為28 x 28像素，並會針對四種不同的按鈕狀態顯示不同的影像：
 
@@ -96,7 +99,7 @@ background-image:url(images/v2/TableOfContents_dark_disabled.png);
 <table id="table_A18B6978EC304C378F5FE92DD44D138D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景色  </span> </p> </td> 
    <td colname="col2"> <p> 下拉式面板的背景顏色。 </p> </td> 
   </tr> 
   <tr> 
@@ -104,7 +107,7 @@ background-image:url(images/v2/TableOfContents_dark_disabled.png);
    <td colname="col2"> <p> 面板邊界和內容之間的內部偏移。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 方塊陰影 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 方塊陰影  </span> </p> </td> 
    <td colname="col2"> <p> 面板四周的陰影。 </p> </td> 
   </tr> 
  </tbody> 
@@ -135,15 +138,15 @@ background-image:url(images/v2/TableOfContents_dark_disabled.png);
 <table id="table_86E777A5851F47D6A49D966E24A9A6CD"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>字型名稱。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型大小 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字型大小  </span> </p> </td> 
    <td colname="col2"> <p>字型大小. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
    <td colname="col2"> <p>項目的高度。 </p> </td> 
   </tr> 
   <tr> 
@@ -155,7 +158,7 @@ background-image:url(images/v2/TableOfContents_dark_disabled.png);
 
 >[!NOTE]
 >
->下拉式清單項目支援屬性選 `state` 取器，可用來套用不同的面板來暫留和選取的項目狀態。
+>下拉式清單項目支援`state`屬性選擇器，可用來套用不同的面板以暫留和選取的項目狀態。
 
 範例——設定下拉式項目，其字型為14像素，高19像素。 項目在暫留時具有深灰色背景，在選取時具有淺灰色背景：
 
@@ -184,15 +187,15 @@ background-color: rgb(178, 178, 178);
 <table id="table_FAA5072E4AAC48F4BE00B05D87FD9827"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 最小寬度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 最小寬度  </span> </p> </td> 
    <td colname="col2"> <p> 最小元素寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 最大寬度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 最大寬度  </span> </p> </td> 
    <td colname="col2"> <p> 元素寬度上限。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 右邊填充 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 右邊填充  </span> </p> </td> 
    <td colname="col2"> <p> 頁面索引和頁面標籤之間的距離。 </p> </td> 
   </tr> 
  </tbody> 
@@ -200,7 +203,7 @@ background-color: rgb(178, 178, 178);
 
 >[!NOTE]
 >
->您可以透過設定CSS類別，完全隱 `display:none` 藏頁面 `s7index` 索引。
+>您可以透過為`s7index` CSS類別設定`display:none`，完全隱藏頁面索引。
 
 範例1 —— 在右側設定最小寬度為40像素、最大寬度為70像素和5像素邊界的頁面索引：
 
@@ -231,11 +234,11 @@ display: none;
 <table id="table_A42E372D931D4F04855EE5AB5530CB12"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 最小寬度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 最小寬度  </span> </p> </td> 
    <td colname="col2"> <p> 最小元素寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 最大寬度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 最大寬度  </span> </p> </td> 
    <td colname="col2"> <p> 元素寬度上限。 </p> </td> 
   </tr> 
  </tbody> 
@@ -261,7 +264,7 @@ max-width: 240px;
 <table id="table_D34A63AAE6324699ABDCC08355D33035"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 寬度  </span> </p> </td> 
    <td colname="col2"> <p> 捲軸寬度。 </p> </td> 
   </tr> 
   <tr> 
@@ -301,11 +304,11 @@ max-width: 240px;
 <table id="table_E49EE04B3FF64AB2948E7C09DF3EA1B7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 寬度  </span> </p> </td> 
    <td colname="col2"> <p>音軌寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景色  </span> </p> </td> 
    <td colname="col2"> <p>音軌背景顏色。 </p> </td> 
   </tr> 
  </tbody> 
@@ -331,35 +334,35 @@ max-width: 240px;
 <table id="table_D8DFBC2419BD4AB3B4892AC7B599C70A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 寬度  </span> </p> </td> 
    <td colname="col2"> <p>拇指寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
    <td colname="col2"> <p>拇指高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 填充頂部 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 填充頂部  </span> </p> </td> 
    <td colname="col2"> <p> 軌道頂部之間的垂直間距。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 填充底部 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 填充底部  </span> </p> </td> 
    <td colname="col2"> <p>軌道底部之間的垂直間距。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景影像 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景影像  </span> </p> </td> 
    <td colname="col2"> <p> 顯示給定拇指狀態的影像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS精靈，請放在圖稿精靈內。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS精靈 </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS精靈，請放在圖稿精靈內。 </p> <p>另請參閱<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS精靈</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Thumb支援屬 `state` 性選擇器，可用來將不同的外觀套用至 `up`、 `down`、 `over`和 `disabled` Thumb狀態。
+>Thumb支援`state`屬性選擇器，該選擇器可用於將不同的外觀應用於`up`、`down`、`over`和`disabled`拇指狀態。
 
 範例——設定捲軸縮圖28 x 45像素、上下有10像素邊界，且每個狀態的圖稿都不同：
 
@@ -396,36 +399,36 @@ max-width: 240px;
 .s7ecatalogviewer .s7tableofcontents .s7scrollbar .s7scrolldownbutton
 ```
 
-無法使用CSS、 `top`、 `left`和屬 `bottom``right` 性；檢視器邏輯會自動定位。
+無法使用CSS `top`、`left`、`bottom`和`right`屬性來定位捲動按鈕；檢視器邏輯會自動定位。
 
 **向上和向下捲動按鈕的CSS屬性**
 
 <table id="table_89561098E43D44C2865267687BBF38F4"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 寬度  </span> </p> </td> 
    <td colname="col2"> <p>按鈕寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
    <td colname="col2"> <p>按鈕高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景影像 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景影像  </span> </p> </td> 
    <td colname="col2"> <p> 為指定按鈕狀態顯示的影像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS精靈，請放在圖稿精靈內。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS精靈 </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS精靈，請放在圖稿精靈內。 </p> <p>另請參閱<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS精靈</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Button支援 `state` 屬性選擇器，可用來將不同的外觀套用至 `up`、 `down`、 `over`和按鈕 `disabled` 狀態。
+>按鈕支援`state`屬性選擇器，可用來將不同的外觀套用至`up`、`down`、`over`和`disabled`按鈕狀態。
 
-按鈕工具提示可以本地化。 如需詳 [細資訊，請參閱使用者介面元素](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 的本地化。
+按鈕工具提示可以本地化。 如需詳細資訊，請參閱[使用者介面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)。
 
 範例——設定28 x 32像素且每種狀態有不同圖稿的捲動按鈕：
 
