@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 371dadbf-d58e-4214-8050-7e8907b436e3
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 伺服器快取驗證原則。 指定何時驗證伺服器端快取條目。
 
-透過基於過期的驗證，系統會定期檢查來源影像是否已變更。 透過型錄驗證，只有在值變更後，才會檢查來 `catalog::TimeStamp` 源影像。
+透過基於過期的驗證，系統會定期檢查來源影像是否已變更。 透過型錄式驗證，來源影像只會在`catalog::TimeStamp`值變更後進行檢查。
 
 當使用影像目錄時，建議使用目錄式驗證。 當直接參考影像時，應使用以有效期為基礎的驗證，而不需使用影像目錄。
 
@@ -26,7 +29,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 預設 {#section-0ce22732e0e9431d8a05d8b9158c0b5a}
 
-繼承自 `default::CacheValidationPolicy` （如果未定義或為空）。
+如果未定義或為空，則繼承自`default::CacheValidationPolicy`。
 
 ## 另請參閱 {#section-a0c922fa519641f2bce05e75e4eb51d0}
 
