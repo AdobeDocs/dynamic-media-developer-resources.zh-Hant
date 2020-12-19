@@ -19,7 +19,7 @@ ht-degree: 1%
 
 修改時間戳記。 指定此暈映上次修改的日期／時間。
 
-如果 `attribute::UseLastModified` 已設定，則會在HTTP回 `vignette::TimeStamp` 應中傳 `catalog::TimeStamp`回暈映的最新值和值，以及請求中涉及的所有材料，作為上次修改的標題。
+如果設定`attribute::UseLastModified`，則會在HTTP回應中傳回暈映的最近`vignette::TimeStamp`和`catalog::TimeStamp`值，以及請求中涉及的所有材料，作為上次修改的標題。
 
 >[!NOTE]
 >
@@ -31,13 +31,13 @@ ht-degree: 1%
 
 日期／時間值（Java格式）。 可以是自1970年1月1日午夜以來(UTC/GMT)的整數毫秒數，也可以是日期／時間字串值，其格式如下：
 
-*[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]* *[!DNL hh]*: *[!DNL mm]*: *[!DNL ss]* *[!DNL zzz]*
+*[!DNL mm]*/  *[!DNL dd]*/  *[!DNL yyyy]* *[!DNL hh]*: *[!DNL mm]*:  *[!DNL ss]* *[!DNL zzz]*
 
-*[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]**[!DNL hh]*: *[!DNL mm]*: *[!DNL ss]*GMT *[!DNL offset]*
+*[!DNL mm]*/  *[!DNL dd]*/  *[!DNL yyyy]* *[!DNL hh]*: *[!DNL mm]*:*[!DNL ss]*GMT  *[!DNL offset]*
 
 * *[!DNL hh]* 在0到23的範圍內。
-* *[!DNL zzz]* 是3或4個字元的時區代碼，例如「GMT」或「PST」。 日光節約時間必須計入時區代碼（例如，太平洋標準時間為「PST」，太平洋日光節約時間為「PDT」）。
-* *[!DNL offset]* 是以小時或小時：分鐘為單位的時區偏移，相對於GMT。 例如，&#39;PDT&#39;等同於&#39;GMT -7&#39;。
+* *[!DNL zzz]* 是3或4個字元的時區代碼，例如「GMT」或「PST」。日光節約時間必須計入時區代碼（例如，太平洋標準時間為「PST」，太平洋日光節約時間為「PDT」）。
+* *[!DNL offset]* 是以小時或小時：分鐘為單位的時區偏移，相對於GMT。例如，&#39;PDT&#39;等同於&#39;GMT -7&#39;。
 
 字串格式化日期／時間值的所有元素都必須存在。 如果日期／時間值格式不正確，則會忽略該值，並改用[!DNL *[!DNL catalog]*.ini]檔案的修改時間。
 
