@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 5f1c2eb6-7f32-4603-9587-d8c1f6a72bb0
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '198'
+ht-degree: 2%
 
 ---
 
@@ -18,11 +21,11 @@ CMYK預設輸入色彩描述檔。 指定不嵌入色彩描述檔的CMYK來源�
 
 ## 屬性 {#section-fc2ad12a3c6e4c7cab495f1878638e66}
 
-文字字串。 如果指定，則必須是此映 `icc::Name` 像目錄或預設目錄的ICC配置檔案映射中的有效值，或相對於的檔案路徑 `attribute::RootPath`。 參考的ICC描述檔必須是CMYK描述檔。
+文字字串。 如果指定，則必須是此映像目錄或預設目錄的ICC配置檔案映射中的有效`icc::Name`值，或是相對於`attribute::RootPath`的檔案路徑。 參考的ICC描述檔必須是CMYK描述檔。
 
 ## 預設 {#section-c1f63b4bd32a4f38bf5d68decb9e25da}
 
-繼承自 `default::IccProfileSrcCmyk` （如果未定義或為空）。 如果 `attribute::IccProfileSrcCmyk` 未解析為有效的描述檔，則 `attribute::IccProfileCmyk` 會改用。
+如果未定義或為空，則繼承自`default::IccProfileSrcCmyk`。 如果`attribute::IccProfileSrcCmyk`未解析為有效的配置式，則改用`attribute::IccProfileCmyk`。
 
 ## 另請參閱 {#section-a6623bd4277e43b084ec0fb9e02069dc}
 
