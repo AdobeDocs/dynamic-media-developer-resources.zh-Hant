@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 5622633e-ea05-4afc-a2e3-e34db73019b0
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +26,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 文 <span class="varname"> 件</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 檔案</span> </span> </p> </td> 
    <td colname="col2"> <p> 指定WebVTT導覽內容的URL或路徑。 影像伺服應代管WebVTT檔案。 </p> </td> 
   </tr> 
  </tbody> 
