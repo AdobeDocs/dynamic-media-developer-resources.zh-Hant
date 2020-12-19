@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 1ec6fc6a-ef53-46bf-9a14-7f7cf960a592
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '58'
+ht-degree: 6%
 
 ---
 
@@ -19,8 +22,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_8DA8AC17A6FB4EC09DC9384B812D841C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> auto|left|right </span> </p> </td> 
-   <td colname="col2"> <p> 指定在視圖中填色色色票的方式。 </p> <p> <span class="codeph"> 左 </span> 側設定由左到右填充順序；右 <span class="codeph"> 側 </span> 反轉順序，以便視圖以從右到左、從上到下的方向填充。 設 <span class="codeph"> 置自 </span> 動時，當區域設定為"ja"時，元件應用右模式，否則使用左模式 <span class="codeph"></span>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> auto|left|right  </span> </p> </td> 
+   <td colname="col2"> <p> 指定在視圖中填色色色票的方式。 </p> <p> <span class="codeph"> 左 </span> 側設定由左至右的填色順序； <span class="codeph"> 右 </span> 側反轉順序，以便視圖以從右到左、從上到下的方向填充。設定<span class="codeph"> auto </span>時，當locale設為<span class="codeph"> "ja" </span>時，元件會套用右模式，否則會使用left。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
