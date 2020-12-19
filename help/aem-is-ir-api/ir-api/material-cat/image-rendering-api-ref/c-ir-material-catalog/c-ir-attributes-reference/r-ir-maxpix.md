@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 8fc5e032-cfbb-40b5-9c3a-a2ec1bc4c3e2
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '119'
+ht-degree: 3%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 回覆影像大小限制。 可傳回給用戶端的回覆影像寬度和高度上限。
 
-如果請求會造成寬度和／或高度大於的回覆影像，伺服器會傳回錯誤 `attribute::MaxSize`。
+如果請求會導致寬度和／或高度大於`attribute::MaxSize`的回覆影像，則伺服器會傳回錯誤。
 
 ## 屬性 {#section-390c1066b7a748aca3c0b45ad8bdcfb1}
 
