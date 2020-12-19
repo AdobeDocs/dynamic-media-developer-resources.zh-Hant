@@ -85,7 +85,7 @@ ht-degree: 6%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> knouckBackground</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：ThrounkBackgroundOptions</span> </td> 
-   <td colname="col3"> <p>遮色所選影像的背景。 這可讓您在主題影像外以透明度覆蓋其他圖層。 </p> <p>選填。 </p> <p>請參 <a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> 閱ThunklopBackgroundOptions</a>。 </p> </td> 
+   <td colname="col3"> <p>遮色所選影像的背景。 這可讓您在主題影像外以透明度覆蓋其他圖層。 </p> <p>選填。 </p> <p>請參閱<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> ThunkloupBackgroundOptions</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </td> 
@@ -95,7 +95,7 @@ ht-degree: 6%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> mediaOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：MediaOptions</span> </td> 
-   <td colname="col3"> <p>可讓您從視訊設定縮圖影像的選項。 </p> <p>請參閱 <a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> 媒體選項</a>。 </p> </td> 
+   <td colname="col3"> <p>可讓您從視訊設定縮圖影像的選項。 </p> <p>請參閱<a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> MediaOptions</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 覆寫</span> </span> </td> 
@@ -118,7 +118,7 @@ ht-degree: 6%
    <td colname="col3"> <p>檔案上傳目的地的URL。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> postImageRenderingPublish</span> </span>Job </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> postImageRenderingPublishJob </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：ImageRendingPublishJob</span> </td> 
    <td colname="col3"> <p>上傳完成後執行的影像轉換發佈工作的詳細資訊。 </p> </td> 
   </tr> 
@@ -129,7 +129,7 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> postJobOnlyIfFiles</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：布林值</span> </td> 
    <td colname="col3"> <p>是否只上傳檔案。 </p> </td> 
   </tr> 
   <tr> 
@@ -144,12 +144,12 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> preserveCrop</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：布林值</span> </td> 
    <td colname="col3"> <p>控制任何現有裁切定義的保留。 預設為true。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> preservePublishState</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：布林值</span> </td> 
    <td colname="col3"> <p>控制覆寫現有資產時是否保留其發佈狀態。 如果未設定，則會使用公司預設設定。 </p> </td> 
   </tr> 
   <tr> 
@@ -164,7 +164,7 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> readyForPublish</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：布林值</span> </td> 
    <td colname="col3"> <p>判斷檔案是否已標示為可供發佈。 </p> </td> 
   </tr> 
   <tr> 
@@ -175,12 +175,12 @@ ht-degree: 6%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> unCompressOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：UnCompressOptions</span> </td> 
-   <td colname="col3"> <p>使用這些選用設定，擷取並處理已上傳的TAR/ZIP檔案內容。 </p> <p>請參 <a href="../../types/c-data-types/r-uncompress-options.md#reference-510ec7028b1540bc9b58745f242d49d5" format="dita" scope="local"> 閱UnCompressOptions</a>。 </p> </td> 
+   <td colname="col3"> <p>使用這些選用設定，擷取並處理已上傳的TAR/ZIP檔案內容。 </p> <p>請參閱<a href="../../types/c-data-types/r-uncompress-options.md#reference-510ec7028b1540bc9b58745f242d49d5" format="dita" scope="local"> UnCompressOptions</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> unsharpMaskOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：UnsharpMaskOptions</span> </td> 
-   <td colname="col3"> <p>可讓您在建立最佳金字塔TIF檔案時控制遮色片銳利化設定的選項。 使用這些設定可協助改善影像的銳利度。 </p> <p>請參閱 <a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> UnsharpMaskOptions</a>。 </p> </td> 
+   <td colname="col3"> <p>可讓您在建立最佳金字塔TIF檔案時控制遮色片銳利化設定的選項。 使用這些設定可協助改善影像的銳利度。 </p> <p>請參閱<a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> UnsharpMaskOptions</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> xmpKeywords</span> </span> </p> </td> 
@@ -192,13 +192,13 @@ ht-degree: 6%
 
 ## 附註 {#section-637405ff7e0b4a71b83fd359b92fa0c2}
 
-對 `CropOptions`於，您只能選擇下列其中一項：
+對於`CropOptions`，您只能選擇以下選項之一：
 
 * `manualCropOptions`
 * `autoColorCropOptions`
 * `autoTransparentCropOptions`
 
-對 `PublishJob`於，您只能選擇下列其中一項：
+對於`PublishJob`，您只能選擇以下選項之一：
 
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`
