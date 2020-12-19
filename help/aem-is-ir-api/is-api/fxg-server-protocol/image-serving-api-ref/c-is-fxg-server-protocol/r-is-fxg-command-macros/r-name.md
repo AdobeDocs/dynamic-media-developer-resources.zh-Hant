@@ -3,11 +3,14 @@ description: 命令宏的名稱。
 seo-description: 命令宏的名稱。
 seo-title: name
 solution: Experience Manager
-title: name
+title: 名稱
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 699c1d24-d10a-4daa-9ee1-506b3f664fa3
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,4 +28,4 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </tr> 
 </table>
 
-*`name`* 不區分大小寫，且可能由字母、數字、&#39;-&#39;、&#39;_&#39;和&#39;.&#39;的任意組合組成 字元.
+*`name`* 不區分大小寫，且可能由字母、數字、&#39;-&#39;、&#39;_&#39;和&#39;.&#39;的任意組合組成字元.
