@@ -21,7 +21,7 @@ ht-degree: 9%
 
 語法
 
-## 授權使用者類型 {#section-d670d3af552147199b65c7eb847544a3}
+## 授權用戶類型{#section-d670d3af552147199b65c7eb847544a3}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -45,38 +45,38 @@ ht-degree: 9%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle  </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 包含資產集之公司的控制代碼。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 將在其中建立新資產集的資料夾的句柄。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 名稱 </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 名稱  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 資產名稱。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> subType </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> subType  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 由用戶端為資產集類型建立的唯一識別碼。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> setDefinition </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> setDefinition  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 設定定義字串中的參數。 <p>這些必須解析為目標檢視器指定的格式。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAssetHandle </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAssetHandle  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 當做新影像集縮圖的資產控制代碼。 如果未指定，IPS會嘗試使用該集所引用的第一個映像資產。 </td> 
   </tr> 
@@ -85,11 +85,11 @@ ht-degree: 9%
 
 **setDefinition的替代函式**
 
-您可以在目錄查閱或發佈期間解析的行中指定替代函式。 替代字串的格式為 `${<substitution_func>}`。 下列列出可用的功能。
+您可以在目錄查閱或發佈期間解析的行中指定替代函式。 替代字串的格式為`${<substitution_func>}`。 下列列出可用的功能。
 
 >[!NOTE]
 >
->參數清單中的句柄文字必須用括弧括住 `([])`。 在解析度期間，替代字串以外的所有文字都會逐字複製至輸出字串。
+>參數清單中的句柄文字必須用括弧`([])`括住。 在解析度期間，替代字串以外的所有文字都會逐字複製至輸出字串。
 
 | **替代函式** | **退貨** |
 |---|---|
