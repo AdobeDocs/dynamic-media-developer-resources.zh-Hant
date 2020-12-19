@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: bb00d89a-5fc4-476f-aa47-3cf69ef99afe
 translation-type: tm+mt
 source-git-commit: 22b447e66c223126f4e6b91f9a0102e86731c4a4
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 22b447e66c223126f4e6b91f9a0102e86731c4a4
 
 語法
 
-## 授權使用者類型 {#section-32dfe7bb68764b93ae01e05ff7a7bdd0}
+## 授權用戶類型{#section-32dfe7bb68764b93ae01e05ff7a7bdd0}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -34,14 +37,14 @@ source-git-commit: 22b447e66c223126f4e6b91f9a0102e86731c4a4
 
 >[!NOTE]
 >
->呼叫此 ` *`方法時，請指`*` 定autoColorCropOptions ` *`或`*` autoTransparentCropOptions。
+>在呼叫此方法時，指定` *`autoColorCropOptions`*`或` *`autoTransparentCropOptions`*`。
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
 | ` *`companyHandle`*` | `xsd:string` | 是 | 包含您要使用之資產的公司控制代碼。 |
 | ` *`assetHandle`*` | `xsd:string` | 是 | 您要使用之資產的控制代碼。 |
-| ` *`autoColorCropOptions`*` | `types:AutoColorCropOptions` | 否 | 根據顏色計算裁切矩形。 請參 [閱AutoColorCropOptions](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6)。 |
-| ` *`autoTransparentCropOptions`*` | `types:AutoTransparentCropOptions` | 否 | 根據透明度計算裁切矩形。 請參 [閱AutoTransparentCropOptions](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b)。 |
+| ` *`autoColorCropOptions`*` | `types:AutoColorCropOptions` | 否 | 根據顏色計算裁切矩形。 請參閱[AutoColorCropOptions](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6)。 |
+| ` *`autoTransparentCropOptions`*` | `types:AutoTransparentCropOptions` | 否 | 根據透明度計算裁切矩形。 請參閱[AutoTransparentCropOptions](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b)。 |
 
 **輸出(getAutoCropRectReturn)**
 
