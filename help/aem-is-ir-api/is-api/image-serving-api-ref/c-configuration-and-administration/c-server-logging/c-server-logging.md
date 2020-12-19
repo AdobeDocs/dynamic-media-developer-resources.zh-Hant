@@ -8,15 +8,18 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: f6145737-e4c3-4533-9be5-5b5a0202fe33
 translation-type: tm+mt
 source-git-commit: 5717550d2dea8ec086875e770ff8f200aaa75ff3
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# 伺服器記錄{#server-logging}
+# 伺服器日誌{#server-logging}
 
 所有日誌檔案都寫入到與TC::directory指定的同一日誌資料夾中。
 
-記錄檔通常是每日建立和旋轉。 在指定的天數()後，會自動刪除日誌資料夾中較舊的日誌檔案。 `TC::maxDays`
+記錄檔通常是每日建立和旋轉。 在指定的天數(`TC::maxDays`)後，日誌資料夾中較舊的日誌檔案將自動刪除。
 
 重要資訊：必須為日誌檔案保留足夠的磁碟空間，以避免磁碟空間不足。 對於使用頻繁的伺服器和預設日誌設定，每天可能需要1-2 GB。
 
