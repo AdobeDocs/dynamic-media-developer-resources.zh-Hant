@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 06e9d745-b711-43e3-8dc6-93da66b981b1
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,12 +19,12 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 返回所有資料夾和子資料夾，從資料夾路徑開始。 getFolders回應最多會傳回100,000個資料夾。
 
-## 資料夾的用途 {#section-66e344d5333f42f1b060a0cba25935c3}
+## 資料夾{#section-66e344d5333f42f1b060a0cba25935c3}的用途
 
 檔案夾可讓您組織子檔案夾和資產。 所有資料夾和資產名稱都必須是唯一的。 共用相同名稱的資料夾和資產會造成命名空間衝突，即使它們位於不同的資料夾階層。
 語法
 
-## 授權使用者類型 {#section-0dc7e17cb60f4cf7bcdb76648e5d2f8e}
+## 授權用戶類型{#section-0dc7e17cb60f4cf7bcdb76648e5d2f8e}
 
 * `IpsUser`
 * `IpsAdmin`
