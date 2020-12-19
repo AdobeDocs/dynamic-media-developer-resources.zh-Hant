@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 47c1d3a3-9f33-4c36-828a-e858370997d1
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 語法
 
-## 授權使用者類型 {#section-f0f44fdcb318490582dd04de8eaf745d}
+## 授權用戶類型{#section-f0f44fdcb318490582dd04de8eaf745d}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -41,7 +44,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`valueArray`*` | `types:ValueArray` | 是 | 請求的元資料欄位的值。 |
+| ` *`valueArray`*` | `types:ValueArray` | 是 | 請求的中繼資料欄位的值。 |
 
 ## 範例 {#section-0189fa6fb31646cda5ce1b0bc4fcdf46}
 
