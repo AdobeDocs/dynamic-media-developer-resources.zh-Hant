@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 10a365dc-9fc1-4236-9528-4aca04a4ca19
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '141'
+ht-degree: 5%
 
 ---
 
@@ -25,13 +28,13 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </tr> 
 </table>
 
-No scaling is applied when `scl=1`. *`invFactor`* 大於1.0的縮放比和小於1.0的縮放比放大了複合影像。
+`scl=1`時不應用縮放。 *`invFactor`* 大於1.0的縮放比和小於1.0的縮放比放大了複合影像。
 
-如果 `scl=` 已指定， `wid=` 且和／或 `hei=` 也存在，則影像會裁切至縮放後 `wid=` 和／或 `hei=` 縮放。
+如果指定`scl=`，且`wid=`和／或`hei=`也存在，則縮放後影像會裁切至`wid=`和／或`hei=`。
 
 >[!NOTE]
 >
->如果計算或預設的回覆影像大小大於，則會傳回錯誤 `attribute::MaxPix`。
+>如果計算或預設回覆影像大小大於`attribute::MaxPix`，則會傳回錯誤。
 
 ## 屬性 {#section-60af012719db477db4a4703e9a6da5f5}
 
@@ -39,11 +42,11 @@ No scaling is applied when `scl=1`. *`invFactor`* 大於1.0的縮放比和小於
 
 ## 預設 {#section-32502fa218a24e1f9c65f41c0260b56a}
 
-如果未 `wid=`指 `hei=`定、 `scl=` 也未指定，則回覆影像將具有合成影像的大小，或 `attribute::DefaultPix`是較小的。
+如果未指定`wid=`、`hei=`和`scl=`，則回覆影像的大小為複合影像或`attribute::DefaultPix`，以較小者為準。
 
 ## 範例 {#section-a33f6239476a4b438d939656ad99aa76}
 
-有關的常見應 [用程式](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096) ，請參閱rotate=中的範例 `scl=`。
+請參閱[rotate=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096)中的範例，瞭解`scl=`的常見應用程式。
 
 ## 另請參閱 {#section-ccefd5de59924059903d66d4974ce317}
 
