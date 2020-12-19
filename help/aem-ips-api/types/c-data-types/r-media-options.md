@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 4de59678-1bef-484c-9a43-ded531537aeb
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '131'
+ht-degree: 6%
 
 ---
 
@@ -30,19 +33,19 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 視訊 <span class="varname"> 編碼預設集陣列</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> videoEncodingPresetsArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：HandleArray</span> </td> 
-   <td colname="col3">PropertySet控點的陣 <span class="codeph"> 列</span> ，可參照視訊編碼預設集來轉碼視訊。 </td> 
+   <td colname="col3"><span class="codeph"> PropertySet</span>的陣列可處理轉碼視訊的參考視訊編碼預設集。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> generateThumbnail</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> generateThumbnail</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> 若為true，則會擷取視訊的第一個影格，並用作縮圖影像。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 縮 <span class="varname"> 圖選項</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbnailOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：縮圖選項</span> </td> 
-   <td colname="col3">選填。可讓您選擇特定影格做為縮圖影像。 <p>若要指定縮圖影像，請傳入您要使用之影格的時間（以視訊開始時的毫秒為單位）。 值範圍從0到視訊結尾。 <p>注意：如果您指定的時間不正確，請 <span class="codeph"> 產生縮圖</span> ，預設為true。 </p></p><p>請參閱 <a href="../../types/c-data-types/r-thumbnail-options.md#reference-370088b0a4ce4096b9b3e5489a368b5c" format="dita" scope="local"> 縮圖選項</a>。 </p></td> 
+   <td colname="col3">選填。可讓您選擇特定影格做為縮圖影像。 <p>若要指定縮圖影像，請傳入您要使用之影格的時間（以視訊開始時的毫秒為單位）。 值範圍從0到視訊結尾。 <p>注意：如果您指定的時間不正確，<span class="codeph"> generateThumbnail</span>預設為true。 </p></p><p>請參閱<a href="../../types/c-data-types/r-thumbnail-options.md#reference-370088b0a4ce4096b9b3e5489a368b5c" format="dita" scope="local"> ThumbnailOptions</a>。 </p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -59,9 +62,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
     </complexType>
 ```
 
-## 使用者 {#section-87cb83407198432c95eaa2db9f12f9db}
+## {#section-87cb83407198432c95eaa2db9f12f9db}使用
 
-該 `mediaOptions` 類型由：
+`mediaOptions`類型的使用者：
 
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
 * [UploadPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)
