@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: ef579d3c-1899-4088-903e-e6ed5a414ca8
 translation-type: tm+mt
 source-git-commit: 22b447e66c223126f4e6b91f9a0102e86731c4a4
+workflow-type: tm+mt
+source-wordcount: '62'
+ht-degree: 14%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 22b447e66c223126f4e6b91f9a0102e86731c4a4
 
 ## 參數 {#section-9f747df071854c6896fdbb95684ad947}
 
-使用設定資產的發佈內容狀態 `setAssetsContextState`。
+使用`setAssetsContextState`設定資產的發佈內容狀態。
 
 <table id="table_FD172CEA4EFE44E08ADA22D090DC06CA">
  <thead>
