@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 7a5232cc-fa3a-4dac-bf88-8b954dd37c87
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '106'
+ht-degree: 10%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 語法
 
-## 授權使用者類型 {#section-16a17b4ebf9a4639bdb2784a2e9fe00d}
+## 授權用戶類型{#section-16a17b4ebf9a4639bdb2784a2e9fe00d}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -39,7 +42,7 @@ IPS API不會傳回此作業的回應。
 
 ## 範例 {#section-85faa2e3411a4e23aa6489037f7ce078}
 
-此程式碼範例會將類型的控制代碼當做傳送至IPS Web `deletePropertySetTypeParam` services伺服器的欄位，以刪除屬性集類型。
+此程式碼範例會將類型的控制代碼當做傳送至IPS Web services伺服器的`deletePropertySetTypeParam`欄位，以刪除屬性集類型。
 
 **請求**
 
