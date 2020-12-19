@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 6dbd7d43-727c-42fc-8953-dba112209a45
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '335'
+ht-degree: 2%
 
 ---
 
@@ -26,7 +29,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 屬性 {#section-e87e8f6b6d224c6ea2eeaad695c04be8}
 
-實數、-2、-1、0或更大。 自回應影像產生以來，到期前的小時數。 設為0，一律會立即使回應影像過期，這會有效停用用戶端快取。 設定為-1以標籤為 `never expire`。 在這種情況下，伺服器會回應條件性要求而一律傳回304狀態（未修改）, `GET` 而不檢查檔案是否實際變更。 設定為-2以使用由提供的預設值 `attribute::Expiration`。
+實數、-2、-1、0或更大。 自回應影像產生以來，到期前的小時數。 設為0，一律會立即使回應影像過期，這會有效停用用戶端快取。 設定為-1以標籤為`never expire`。 在這種情況下，伺服器會回應條件式`GET`要求而傳回304狀態（未修改），而不檢查檔案是否實際變更。 設定為-2以使用`attribute::Expiration`提供的預設設定。
 
 ## 預設 {#section-79d71706e12a4493a69d7febc3a1f271}
 
@@ -34,4 +37,4 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 另請參閱 {#section-9d46a9d346fe42f3911edb3bd79f4121}
 
-[屬性：:Expiration](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-expiration.md#reference-0f68ad8199c64bd4bc8d27dd78b7d996) , [Vignette::Expiration](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-expiration-vignette.md#reference-df80829da93e4c0ab3f97a1792d9c74c), [req=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-req.md#reference-792b1a663fb64261bd2de2a209b847fb)
+[屬性：:Expiration](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-expiration.md#reference-0f68ad8199c64bd4bc8d27dd78b7d996) ,  [Vignette::Expiration](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-expiration-vignette.md#reference-df80829da93e4c0ab3f97a1792d9c74c),  [req=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-req.md#reference-792b1a663fb64261bd2de2a209b847fb)
