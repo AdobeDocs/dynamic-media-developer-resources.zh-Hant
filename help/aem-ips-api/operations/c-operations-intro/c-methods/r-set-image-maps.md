@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 1dd7e032-34b4-464d-8ec6-7ad282d12891
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '141'
+ht-degree: 10%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 您必須已建立影像地圖。 影像地圖會依從陣列擷取的順序套用。 這表示第二個影像地圖會覆蓋第一個影像地圖，第三個影像地圖會覆蓋第二個影像地圖，依此類推。
 
-## 授權使用者類型 {#section-adb21c5b679249939dd83816e4a0ee97}
+## 授權用戶類型{#section-adb21c5b679249939dd83816e4a0ee97}
 
 * `IpsUser`
 * `IpsAdmin`
