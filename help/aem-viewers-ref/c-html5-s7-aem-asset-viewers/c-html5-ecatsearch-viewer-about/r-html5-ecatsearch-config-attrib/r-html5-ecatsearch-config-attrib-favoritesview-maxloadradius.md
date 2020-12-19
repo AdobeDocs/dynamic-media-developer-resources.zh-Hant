@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 0479c371-487a-4e05-b009-9036ea464abf
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '58'
+ht-degree: 6%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p> 指定元件預載行為。 </p> <p>當設為 <span class="codeph"> -1</span>時，初始化元件或變更資產時，會同時載入所有縮圖。 </p> <p>設為0時 <span class="codeph"></span>，只會載入可見的縮圖。 </p> <p> 設為preloadnbr時 <span class="codeph"><span class="varname"></span></span>，您可以指定預先載入可見區域周圍的不可見列數。 </p> </td> 
+   <td colname="col2"> <p> 指定元件預載行為。 </p> <p>當設為<span class="codeph"> -1</span>時，在初始化元件或變更資產時，會同時載入所有縮圖。 </p> <p>設為<span class="codeph"> 0</span>時，僅載入可見的縮圖。 </p> <p> 當設為<span class="codeph"><span class="varname"> preloadnbr</span></span>時，您可以指定預載可見區域周圍的不可見行數。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
