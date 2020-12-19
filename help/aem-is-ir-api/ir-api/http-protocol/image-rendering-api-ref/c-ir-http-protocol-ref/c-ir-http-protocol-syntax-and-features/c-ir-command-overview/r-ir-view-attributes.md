@@ -8,29 +8,32 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: eae8d998-a4ba-4871-9a8a-c15c22a20580
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# 檢視屬性{#view-attributes}
+# 查看屬性{#view-attributes}
 
 這些命令與位置無關，可能發生在請求中的任何位置。
 
 <table id="simpletable_D30C7420AECD44ADBD7B0728594FF5FA"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-fmt.md#reference-4c743f67d56b47c5b774fcc900ff758c" type="reference" format="dita" scope="local"> fmt</a></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-fmt.md#reference-4c743f67d56b47c5b774fcc900ff758c" type="reference" format="dita" scope="local"> fmt</a> </span> </p></td> 
   <td class="stentry"> <p>回覆影像格式。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-qlt.md#reference-27b91c226eb241d0a14a29af3b3afdbd" type="reference" format="dita" scope="local"> qlt</a></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-qlt.md#reference-27b91c226eb241d0a14a29af3b3afdbd" type="reference" format="dita" scope="local"> qlt</a> </span> </p></td> 
   <td class="stentry"> <p>JPEG品質。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> 列 <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-printres.md#reference-ff897ad013fb410b96edaa2c79edfddd" type="reference" format="dita" scope="local"> 印解析度</a></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-printres.md#reference-ff897ad013fb410b96edaa2c79edfddd" type="reference" format="dita" scope="local"> printRes</a> </span> </p></td> 
   <td class="stentry"> <p>列印回覆影像中內嵌的解析度值。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-hei.md#reference-1c08f60365a94417a39867c09cac5478" type="reference" format="dita" scope="local"> hei</a></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-hei.md#reference-1c08f60365a94417a39867c09cac5478" type="reference" format="dita" scope="local"> 黑</a></span> </p></td> 
   <td class="stentry"> <p>將渲染的影像縮放到指定的高度。 </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -46,7 +49,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
   <td class="stentry"> <p>重新取樣模式，以進行最終影像縮放。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> 銳利化 <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharpen.md#reference-13034d22d176483cb99ccafc2a4f6a6e" type="reference" format="dita" scope="local"></a></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharpen.md#reference-13034d22d176483cb99ccafc2a4f6a6e" type="reference" format="dita" scope="local"> 銳利化</a></span> </p></td> 
   <td class="stentry"> <p>回覆影像銳利化。 </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -58,15 +61,15 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
   <td class="stentry"> <p>在回覆影像中內嵌色彩描述檔。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> 路 <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-pathembed.md#reference-dfff01079fc74dbd896362cc740d7f5f" type="reference" format="dita" scope="local"> 徑內嵌</a></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-pathembed.md#reference-dfff01079fc74dbd896362cc740d7f5f" type="reference" format="dita" scope="local"> pathEmbed</a></span> </p></td> 
   <td class="stentry"> <p>在回覆影像中內嵌Photoshop路徑。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-vignette.md#reference-eb3f458733294f988483b024348bc778" type="reference" format="dita" scope="local"> 暈映</a></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-vignette.md#reference-eb3f458733294f988483b024348bc778" type="reference" format="dita" scope="local"> vignette</a></span> </p></td> 
   <td class="stentry"> <p>暈映. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> 快取 <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-cache.md#reference-a83329ce7c914ee4b518b0bda71f0438" type="reference" format="dita" scope="local"></a></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-cache.md#reference-a83329ce7c914ee4b518b0bda71f0438" type="reference" format="dita" scope="local"> 快取</a></span> </p> </td> 
   <td class="stentry"> <p>覆寫預設回應快取行為。 </p></td> 
  </tr> 
 </table>
