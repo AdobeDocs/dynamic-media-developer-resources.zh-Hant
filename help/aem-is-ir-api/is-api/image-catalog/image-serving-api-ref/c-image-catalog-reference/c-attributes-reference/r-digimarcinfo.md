@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: fc47645d-e3e9-433e-9194-2aa9ddc123ab
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '64'
+ht-degree: 10%
 
 ---
 
@@ -24,7 +27,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 預設 {#section-c77d2620f90148d5ad9041131180d611}
 
-未指 `default::DigimarcInfo` 定欄位或欄位空白時繼承自。
+如果未指定欄位或欄位為空，則繼承自`default::DigimarcInfo`。
 
 ## 另請參閱 {#section-543464e27f0a43249860a883b1ebfa15}
 
