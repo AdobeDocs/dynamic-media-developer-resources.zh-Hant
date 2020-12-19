@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: aa10f210-4765-4b0e-9ce1-812b00cd8cf5
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 預設 {#section-7a81569728474725a70f3a2cc4d48e85}
 
-繼承自( `default::RootUrl` 如果未定義)。 如果已定義但為空，則此材料目錄不支援相對URL。
+如果未定義，則繼承自`default::RootUrl`。 如果已定義但為空，則此材料目錄不支援相對URL。
 
 ## 另請參閱 {#section-e33bbe7034b24367b68f9142718a8be1}
 
