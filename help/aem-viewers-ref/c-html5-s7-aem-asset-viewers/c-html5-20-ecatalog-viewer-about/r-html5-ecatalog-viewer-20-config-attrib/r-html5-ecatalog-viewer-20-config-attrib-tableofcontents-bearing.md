@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 791aaaa5-3777-4f68-a445-caa3d975d883
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '159'
+ht-degree: 2%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> fit-lateral|fit-vertical</span> </p> </td> 
-   <td> <p> 控制下拉式面板外觀的方向。 </p> <p>當設為 <span class="codeph"> 垂直配合</span>，元件會先將底板位置移至按鈕底部，並嘗試從底部位置向右或向左展開面板。 每次嘗試時，元件都會檢查面板是否被外部容器剪裁。 如果所有嘗試都失敗，元件會嘗試將基板位置移至頂端，並在左右方向重複推出嘗試。 </p> <p>當設為 <span class="codeph"> fit-lateral</span>時，元件會使用類似的邏輯，但會先將底座向右移動，嘗試向下和向上展開方向。 然後，它把底座向左移動，向下和向上展開。 </p> </td> 
+   <td> <p> 控制下拉式面板外觀的方向。 </p> <p>當設為<span class="codeph"> fit-vertical</span>時，元件會先將底板位置移至按鈕底部，並嘗試從底部位置向右或向左捲動面板。 每次嘗試時，元件都會檢查面板是否被外部容器剪裁。 如果所有嘗試都失敗，元件會嘗試將基板位置移至頂端，並在左右方向重複推出嘗試。 </p> <p>當設為<span class="codeph"> fit-lateral</span>時，元件使用類似的邏輯，但會先將基座向右移動，嘗試向下和向上展開方向。 然後，它把底座向左移動，向下和向上展開。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> autoHideDelay</span></span> </p> </td> 
