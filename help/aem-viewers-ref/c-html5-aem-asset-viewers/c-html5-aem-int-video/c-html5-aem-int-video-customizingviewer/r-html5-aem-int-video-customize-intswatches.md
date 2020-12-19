@@ -1,6 +1,6 @@
 ---
 description: 如果互動資料是在設定中傳遞給檢視器，互動色票面板會出現在視訊內容旁。 它由頂端的橫幅組成，可轉譯文字，例如「按一下以檢視」、一欄或多欄互動式色票和兩個捲動按鈕（僅適用於案頭系統）。
-seo-description: 如果互動資料是在設定中傳遞給檢視器，互動色票面板就會出現在視訊內容旁。 它由頂端的橫幅組成，可轉譯文字，例如「按一下以檢視」、一欄或多欄互動式色票和兩個捲動按鈕（僅適用於案頭系統）。
+seo-description: 如果互動資料是在設定中傳遞給檢視器，互動色票面板會出現在視訊內容旁。 它由頂端的橫幅組成，可轉譯文字，例如「按一下以檢視」、一欄或多欄互動式色票和兩個捲動按鈕（僅適用於案頭系統）。
 seo-title: 互動式色票
 solution: Experience Manager
 title: 互動式色票
@@ -8,13 +8,16 @@ topic: Dynamic media
 uuid: 9f9df764-3dd0-414e-a0db-4287f0019313
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '939'
+ht-degree: 2%
 
 ---
 
 
-# 互動式色票{#interactive-swatches}
+# 互動色票{#interactive-swatches}
 
-如果互動資料是在設定中傳遞給檢視器，互動色票面板就會出現在視訊內容旁。 它由頂端的橫幅組成，可轉譯文字，例如「按一下以檢視」、一欄或多欄互動式色票和兩個捲動按鈕（僅適用於案頭系統）。
+如果互動資料是在設定中傳遞給檢視器，互動色票面板會出現在視訊內容旁。 它由頂端的橫幅組成，可轉譯文字，例如「按一下以檢視」、一欄或多欄互動式色票和兩個捲動按鈕（僅適用於案頭系統）。
 
 <!--<a id="section_235621A1533A49AAADB64A7C3191F735"></a>-->
 
@@ -26,7 +29,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 .s7interactivevideoviewer .s7interactiveswatches
 ```
 
-## 互動色票的CSS屬性 {#css-properties-of-the-interactive-swatches}
+## 互動色票{#css-properties-of-the-interactive-swatches}的CSS屬性
 
 <table id="table_352DAD495AE742E39B4F12629C43F712"> 
  <tbody> 
@@ -60,7 +63,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 互動式色票面板的執行時期位置和方向是由上述CSS屬性的組合所定義，如下所示：
 
 * 若要在檢視器底部以水準方式呈現互動式色票，請將高度設定為絕對像素值；左下至0px;寬度、右側和自動上下。
-* 若要在視訊內容的右側垂直呈現互動式色票，請將寬度設定為絕對像素；右上至0px;高度，從左到右，從左到右到自動。
+* 若要在視訊內容的右側垂直呈現互動式色票，請將寬度設定為絕對像素；右上至0px;高度，從左到右，自動。
 
 您可搭配使用CSS標籤和此樣式，以調整互動式色票面板的位置。
 
@@ -98,12 +101,12 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 .s7interactivevideoviewer .s7interactiveswatches .s7banner
 ```
 
-## 橫幅面板的CSS屬性 {#css-properties-of-the-banner-panel}
+## 橫幅面板{#css-properties-of-the-banner-panel}的CSS屬性
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景色  </span> </p> </td> 
    <td colname="col2"> <p>橫幅面板的背景顏色。 </p> </td> 
   </tr> 
   <tr> 
@@ -115,25 +118,25 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
    <td colname="col2"> <p>橫幅面板的邊框。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型粗細 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字型粗細  </span> </p> </td> 
    <td colname="col2"> <p>橫幅面板內文字的字型粗細。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型大小 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字型大小  </span> </p> </td> 
    <td colname="col2"> <p>橫幅面板內文字的字型大小。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>用於橫幅面板內文字的字型系列。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-align </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-align  </span> </p> </td> 
    <td colname="col2"> <p>橫幅面板內文字的字型對齊方式。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-橫幅工具提示可以本地化。 如需詳 [細資訊，請參閱使用者介面元素](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 的本地化。
+橫幅工具提示可以本地化。 如需詳細資訊，請參閱[使用者介面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)。
 
 ## 範例 {#section-e8caea0a303c425a8a637c2a47c06355}
 
@@ -154,12 +157,12 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 .s7interactivevideoviewer .s7interactiveswatches .s7swatches
 ```
 
-## 色票區域的CSS屬性 {#css-properties-of-the-swatches-area}
+## 色票區域{#css-properties-of-the-swatches-area}的CSS屬性
 
 <table id="table_45E98E96B07246CAA5D3076FAF62A0B3"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景色  </span> </p> </td> 
    <td colname="col2"> <p>色票區域的背景顏色。 </p> </td> 
   </tr> 
  </tbody> 
@@ -179,13 +182,13 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 
 `.s7interactivevideoviewer .s7interactiveswatches .s7swatches .s7thumbcell`
 
-## 色票縮圖間距的CSS屬性 {#css-properties-of-the-swatches-thumbnail-spacing}
+## 色票縮圖間距{#css-properties-of-the-swatches-thumbnail-spacing}的CSS屬性
 
 <table id="table_FE6A749EA3894956998D50EA4AB6497B"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> 每個縮圖周圍的水準和垂直邊界大小。 實際縮圖間距等於。s7縮圖儲存格左右邊界集 <span class="codeph"> 的總和 </span>。 </p> </td> 
+   <td colname="col2"> <p> 每個縮圖周圍的水準和垂直邊界大小。 實際縮圖間距等於<span class="codeph"> .s7thumbcell </span>左右邊界集的總和。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -204,20 +207,20 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 
 `.s7interactivevideoviewer .s7interactiveswatches .s7swatches .s7thumb`
 
-## 個別縮圖外觀的CSS屬性 {#css-properties-of-the-appearance-of-individual-thumbnails}
+## 個別縮圖外觀的CSS屬性{#css-properties-of-the-appearance-of-individual-thumbnails}
 
 <table id="table_FB760FE6BEA44E129C07DD912C86DE57"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 寬度  </span> </p> </td> 
    <td colname="col2"> <p>縮圖寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
    <td colname="col2"> <p>縮圖的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 邊界  </span> </p> </td> 
    <td colname="col2"> <p>縮圖邊框。 </p> </td> 
   </tr> 
  </tbody> 
@@ -225,7 +228,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 
 >[!NOTE]
 >
->縮圖支援 `state` 屬性選取器，您可使用它將不同的外觀套用至不同的縮圖狀態。 尤其是， `state="selected"` 對應於目前選取影像的縮圖；對 `state="default"` 應其餘縮圖；在滑 `state="over"` 鼠暫留時使用。
+>縮圖支援`state`屬性選擇器，您可使用它將不同的外觀套用至不同的縮圖狀態。 尤其`state="selected"`對應於目前選取之影像的縮圖；`state="default"`對應其餘縮圖；`state="over"`用於滑鼠暫留。
 
 ## 範例 {#section-69fec189ffaa440b97b6b846c320b75b}
 
@@ -242,24 +245,24 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 
 `.s7interactivevideoviewer .s7interactiveswatches .s7swatches .s7label`
 
-## 縮表徵圖簽外觀的CSS屬性 {#css-properties-of-the-appearance-of-the-thumbnail-label}
+## 縮表徵圖簽{#css-properties-of-the-appearance-of-the-thumbnail-label}外觀的CSS屬性
 
 <table id="table_81B3209FB8124FFA9DB81FD35717900D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 顏色  </span> </p> </td> 
    <td colname="col2"> <p>文字色彩. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 邊界  </span> </p> </td> 
    <td colname="col2"> <p>標籤邊框。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> text-align </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> text-align  </span> </p> </td> 
    <td colname="col2"> <p>水準文字對齊。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>字型名稱。 </p> </td> 
   </tr> 
  </tbody> 
@@ -285,36 +288,36 @@ font-size: 12px;
 
 `.s7interactivevideoviewer .s7interactiveswatches .s7scrolldownbutton`
 
-無法使用CSS、 `top`、 `left`和屬 `bottom``right` 性；檢視器邏輯會自動定位。
+無法使用CSS `top`、`left`、`bottom`和`right`屬性來定位捲動按鈕；檢視器邏輯會自動定位。
 
-## 上下捲動按鈕外觀的CSS屬性 {#css-properties-of-the-appearance-of-the-up-and-down-scroll-buttons}
+## 上下捲動按鈕外觀的CSS屬性{#css-properties-of-the-appearance-of-the-up-and-down-scroll-buttons}
 
 <table id="table_48AF27AFBB1543288D45449D6900675C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 寬度  </span> </p> </td> 
    <td colname="col2"> <p>捲動按鈕的寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
    <td colname="col2"> <p>捲動按鈕的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景影像 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景影像  </span> </p> </td> 
    <td colname="col2"> <p>為指定按鈕狀態顯示的影像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
-   <td colname="col2"> <p>如果使用CSS精靈，圖稿精靈內的位置。 </p> <p>另請參閱 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS精靈 </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
+   <td colname="col2"> <p>如果使用CSS精靈，圖稿精靈內的位置。 </p> <p>另請參閱<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS精靈</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按鈕支援屬 `state` 性選擇器，您可使用它將不同的外觀套用至按鈕狀態：&quot; `up`&quot;、&quot; `down`&quot;、&quot; `over`&quot;和&quot; `disabled`&quot;
+>此按鈕支援`state`屬性選擇器，您可使用它將不同的外觀套用至按鈕狀態：&quot; `up`&quot;、&quot; `down`&quot;、&quot; `over`&quot;和&quot; `disabled`&quot;。
 
-按鈕工具提示可以本地化。 如需詳 [細資訊，請參閱使用者介面元素](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 的本地化。
+按鈕工具提示可以本地化。 如需詳細資訊，請參閱[使用者介面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)。
 
 ## 範例 {#section-e6ce4fa084b84288bc7583342b2c510c}
 
