@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 0b4aa767-2d80-4df8-8189-9d095cb88e87
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '104'
+ht-degree: 3%
 
 ---
 
@@ -16,15 +19,15 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 預設縮圖類型。 提供縮圖類型的預設值，以防特定目錄記錄不包含有效的目錄：:ThumbType值。
 
-僅用於縮圖請求( `req=tmb`)。
+僅用於縮圖請求(`req=tmb`)。
 
 ## 屬性 {#section-ae0babfe3c8e4c8ebe0124bc55051265}
 
-列舉。 允許的值分別為1、2和3, *`crop`*&#x200B;對於 *`fit`*、 *`texture`* 和縮圖類型。
+列舉。 *`crop`*、*`fit`*&#x200B;和&#x200B;*`texture`*&#x200B;縮圖類型的許可值分別為1、2和3。
 
 ## 預設 {#section-0237fcae4f304c5b876fceaa839b6b05}
 
-如果未定義 `default::ThumbType`或為空，則繼承自。
+如果未定義或為空，則繼承自`default::ThumbType`。
 
 ## 另請參閱 {#section-986c97470c494bfd8f179cecf8cc3ccc}
 
