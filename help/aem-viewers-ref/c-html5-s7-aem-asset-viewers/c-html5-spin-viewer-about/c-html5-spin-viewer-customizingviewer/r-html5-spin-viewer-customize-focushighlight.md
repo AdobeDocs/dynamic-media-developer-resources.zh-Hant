@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 81bf9937-6a26-4f69-838e-5ba41608ac09
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -35,7 +38,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 大綱 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 大綱  </span> </p> </td> 
    <td colname="col2"> <p>焦點反白顯示樣式。 </p> </td> 
   </tr> 
  </tbody> 
