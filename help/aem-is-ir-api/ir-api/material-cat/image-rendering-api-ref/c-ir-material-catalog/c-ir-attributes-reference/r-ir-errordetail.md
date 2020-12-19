@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: aab11640-95d7-427d-b79f-c477b2c9047e
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -35,7 +38,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p></td> 
-  <td class="stentry"> <p>完整的除錯資訊。 添加Java堆棧跟蹤（如果適用）。 錯誤影像從不包含堆疊追蹤，而是傳回 <span class="codeph"> $error.message中的2級資訊</span>。 </p></td> 
+  <td class="stentry"> <p>完整的除錯資訊。 添加Java堆棧跟蹤（如果適用）。 錯誤影像從不包含堆疊追蹤，而是傳回<span class="codeph"> $error.message</span>中的2級資訊。 </p></td> 
  </tr> 
 </table>
 
@@ -49,7 +52,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 預設 {#section-5e78d550050840cc9a1de811c581b94f}
 
-如果未指 `default::ErrorDetail` 定或空白，則繼承自。
+如果未指定或為空，則繼承自`default::ErrorDetail`。
 
 ## 另請參閱 {#section-474e71922d194c7ca06f2aad3b30e025}
 
