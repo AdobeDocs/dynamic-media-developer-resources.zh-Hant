@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 78067f8d-4191-4580-a5a8-adb6edfcfab8
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '250'
+ht-degree: 7%
 
 ---
 
@@ -18,11 +21,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 密碼到期日為選擇性。 如果省略，密碼將不會過期。
 
-## 授權使用者類型 {#section-39ae61d78cab4492a6efc1fc0d2f06c4}
+## 授權使用者類型{#section-39ae61d78cab4492a6efc1fc0d2f06c4}
 
 >[!NOTE]
 >
->*僅授權*`IpsAdmin` 用戶類型對其他用戶運行setPassword調用。
+>*只有* 授權 `IpsAdmin` 用戶類型才能對其他用戶運行setPassword調用。
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -49,14 +52,14 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 使 <span class="varname"> 用者控制代碼 </span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> userHandle  </span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string </span> </p> </td> 
    <td colname="col3"> <p>否 </p> </td> 
    <td colname="col4"> <p>使用者控制代碼。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 密碼 </span></span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> xsd:string </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 密碼  </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> xsd:string  </span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
    <td colname="col4"> <p>密碼. </p> <p>下列要求會在所選密碼上強制執行： </p> <p> 
      <ul id="ul_E5BE3621127C476788412174584075B3"> 
@@ -64,16 +67,16 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
       <li id="li_71224B3A89C8461AB689BAD383EC8CEA">密碼長度下限為8個字元。 </li> 
       <li id="li_C21B6843EA734D1ABE0580185F775408">口令必須包含以下字元類中的一個或多個字元： 
        <ul id="ul_D5D3911AD6214035BBD2AB8350A459C7"> 
-        <li id="li_6E3F084100104F2CBCF130EF8852C7B7">小寫英文字元。 例如， <span class="codeph"> a b c d e </span> 等 </li> 
-        <li id="li_1FDED8D7348842BC857320D797D41217">大寫英文字元。 例如， <span class="codeph"> A B C D E </span> 等。 </li> 
-        <li id="li_C3C4D5412AA749F3B78F37B2B696CF80">數量. 例如， <span class="codeph"> 1 2 3 4 5 </span> 等。 </li> 
-        <li id="li_2730798F26E74B878BEDE510CD06D8DD">特殊符號字元。 例如，您可使用下列任一項： <span class="codeph"> ' ~ !@ # $ % ^ *(_ + - = { })| [ ] &amp; \ :";' &lt; &gt; ?的下界。/ </span> </li> 
+        <li id="li_6E3F084100104F2CBCF130EF8852C7B7">小寫英文字元。 例如，<span class="codeph"> a b c d e </span>等 </li> 
+        <li id="li_1FDED8D7348842BC857320D797D41217">大寫英文字元。 例如，<span class="codeph"> A B C D E </span>等。 </li> 
+        <li id="li_C3C4D5412AA749F3B78F37B2B696CF80">數量. 例如，<span class="codeph"> 1 2 3 4 5 </span>等。 </li> 
+        <li id="li_2730798F26E74B878BEDE510CD06D8DD">特殊符號字元。 例如，您可使用下列任一項：<span class="codeph"> ' ~ !@ # $ % ^ *(_ + - = { }) | [ ] &amp; \ :";' &lt; &gt; ?的下界。/ </span> </li> 
        </ul> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 密 <span class="varname"> 碼過期 </span></span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> xsd:dateTime </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> passwordExpires  </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> xsd:dateTime  </span> </p> </td> 
    <td colname="col3"> <p>否 </p> </td> 
    <td colname="col4"> <p>確定密碼到期日。 <p>注意： 為時區提供此欄位的請求。 時區會調整為中央時間。 </p> </p> </td> 
   </tr> 
@@ -86,7 +89,7 @@ IPS API不會傳回此作業的回應。
 
 ## 範例 {#section-23a6fbabdb3c4c3180076057e47ae567}
 
-此程式碼範例會建立使用者密碼。 密碼不會因為被省略而 `passwordExpires` 過期。
+此程式碼範例會建立使用者密碼。 密碼不會過期，因為`passwordExpires`已被省略。
 
 **請求**
 
