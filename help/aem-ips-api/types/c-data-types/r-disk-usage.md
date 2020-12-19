@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: a63f0ed0-c689-43b0-9c3e-9500715d15a5
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '60'
+ht-degree: 11%
 
 ---
 
@@ -26,5 +29,5 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | ` *`companyName`*` | `xsd:string` | 公司名稱. |
 | ` *`imageCount`*` | `xsd:int` | 儲存的影像數。 |
 | ` *`diskSpaceUsage`*` | `xsd:long` | 檔案端總計（以KB為單位）。 |
-| ` *`lastModified`*` | `xsd:dateTime` | 上次修改類型的日期、時 `DiskUsage` 間和時區。 |
+| ` *`lastModified`*` | `xsd:dateTime` | 上次修改`DiskUsage`類型的日期、時間和時區。 |
 
