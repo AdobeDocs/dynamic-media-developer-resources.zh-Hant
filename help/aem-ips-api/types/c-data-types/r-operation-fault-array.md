@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: dbf4ab5e-50fb-42f1-a97a-f8d07022b303
 translation-type: tm+mt
 source-git-commit: aa095022d43db4bf815aece9bc2b087c53a64e1b
+workflow-type: tm+mt
+source-wordcount: '68'
+ht-degree: 5%
 
 ---
 
@@ -32,7 +35,7 @@ source-git-commit: aa095022d43db4bf815aece9bc2b087c53a64e1b
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> <span class="varname"> 項目</span></span> </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> 項目</span> </span> </p> </td> 
    <td> <p> <span class="codeph"> 類型：OperationFault</span> </p> </td> 
    <td> <p> 由CDN產生的訊息清單使請求無效。 </p> </td> 
   </tr> 
