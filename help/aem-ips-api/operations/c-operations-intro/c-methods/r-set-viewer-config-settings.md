@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: d83d866e-9243-479f-9b33-727aad8158e5
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 語法
 
-## 授權使用者類型 {#section-81c429ba9f4c4359986a30ea7ebea8d2}
+## 授權用戶類型{#section-81c429ba9f4c4359986a30ea7ebea8d2}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -35,7 +38,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | ` *`assetHandle`*` | `xsd:string` | 是 | 資產控制代碼。 |
 | ` *`名稱`*` | `xsd:string` | 是 | 資產名稱。 |
 | ` *`類型`*` | `xsd:string` | 是 | 您要套用檢視器設定的資產類型。 |
-| ` *`configSettingArray`*` | `types:ConfigSettingArray` | 是 | 套用至資 `ConfigSettings` 產的陣列。 |
+| ` *`configSettingArray`*` | `types:ConfigSettingArray` | 是 | `ConfigSettings`的陣列應用於資產。 |
 
 **輸出(setViewerConfigSettingsParam)**
 
