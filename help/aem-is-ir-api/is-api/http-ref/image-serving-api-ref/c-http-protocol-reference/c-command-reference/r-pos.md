@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: e9872ce9-5c47-49c5-9c87-4fa8441c4770
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '160'
+ht-degree: 3%
 
 ---
 
@@ -31,15 +34,15 @@ posN= *`coordN`*
  </tr> 
 </table>
 
-對於影像、文本和純色圖層， `pos=` 指定圖層錨點相對於圖層0錨點的位置。 `posN=` 坐標值相對於實際的0層直接大小進行標準化。
+對於影像、文本和純色圖層，`pos=`指定圖層錨點相對於圖層0錨點的位置。 `posN=` 坐標值相對於實際的0層直接大小進行標準化。
 
-在特效圖層的情況下， `pos=` 將特效圖層相對於父層移動。
+在特效圖層的情況下，`pos=`會相對於父層移動特效圖層。
 
 正值會將圖層朝右／下方移動，向左／上方移動負值。 `posN=0.5,0.5` 將圖層0的寬度和高度向下和向右移動一半。
 
 ## 屬性 {#section-51a60cdc52d040538fef378ace7c2e7d}
 
-層屬性。 忽略(如 `layer=0` 果或 `layer=comp`)。
+層屬性。 如果`layer=0`或`layer=comp`，則忽略。
 
 ## 預設 {#section-70a6bc71ded5494e843194dfb6bf5a6c}
 
@@ -47,7 +50,7 @@ posN= *`coordN`*
 
 ## 範例 {#section-a89a02c22f6b4260bfcf7c842cd6069d}
 
-請參閱範本中的 [範例A](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e)。
+請參閱[Templates](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e)中的範例A。
 
 ## 另請參閱 {#section-812d95575ba542808e8387d0a8650606}
 
