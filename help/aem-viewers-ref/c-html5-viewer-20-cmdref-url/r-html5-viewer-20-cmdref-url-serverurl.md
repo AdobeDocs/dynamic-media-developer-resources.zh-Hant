@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: a079a223-7478-4b6a-bc99-284e3366fb30
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '106'
+ht-degree: 3%
 
 ---
 
@@ -21,8 +24,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isRootPath</span></span> </p> </td> 
-   <td colname="col2"> <p>相對或絕對影像伺服根路徑。 </p> <p> 指定影像伺服的相對或絕對路徑，檢視器會從中擷取影像。 如果路徑沒有前導/ <span class="filepath"></span>，則它是相對於檢視器HTML頁面的位置。 如果路徑具有前導 <span class="filepath"> /</span>，則它指定同一伺服器上的絕對路徑。 </p> <p> 僅使用絕對路徑，以備檢視器中啟用「電子郵件共用」模組時使用。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isRootPath</span> </span> </p> </td> 
+   <td colname="col2"> <p>相對或絕對影像伺服根路徑。 </p> <p> 指定影像伺服的相對或絕對路徑，檢視器會從中擷取影像。 如果路徑沒有前導<span class="filepath"> /</span>，則它相對於檢視器HTML頁面的位置。 如果路徑具有前導<span class="filepath"> /</span> ，則它指定同一伺服器上的絕對路徑。 </p> <p> 僅使用絕對路徑，以備檢視器中啟用「電子郵件共用」模組時使用。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
