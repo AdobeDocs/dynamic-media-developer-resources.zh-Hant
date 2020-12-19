@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: c4c94432-7b6f-40a8-ae5f-9423234f3656
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '280'
+ht-degree: 5%
 
 ---
 
@@ -35,7 +38,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景色  </span> </p> </td> 
    <td colname="col2"> <p> 主視圖的背景顏色。 </p> </td> 
   </tr> 
  </tbody> 
@@ -57,7 +60,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 .s7mixedmediaviewer .s7flyoutzoomview .s7tip
 ```
 
-您可以透過CSS來設定字型樣式、大小外觀和垂直偏移。 不過，水準對齊方式是由檢視器邏輯管理。 不支援使用或 `left` 屬 `right` 性透過CSS覆寫它。
+您可以透過CSS來設定字型樣式、大小外觀和垂直偏移。 不過，水準對齊方式是由檢視器邏輯管理。 不支援使用`left`或`right`屬性，透過CSS來覆寫它。
 
 **提示訊息的CSS屬性**
 
@@ -70,11 +73,11 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景色  </span> </p> </td> 
    <td colname="col2"> <p>訊息背景填色顏色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 邊框半徑 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 邊框半徑  </span> </p> </td> 
    <td colname="col2"> <p> 訊息背景邊框半徑。 </p> </td> 
   </tr> 
   <tr> 
@@ -86,15 +89,15 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
    <td colname="col2"> <p>提示文字顏色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型大小 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字型大小  </span> </p> </td> 
    <td colname="col2"> <p>字型大小. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>字型系列。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 不透明度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 不透明度  </span> </p> </td> 
    <td colname="col2"> <p> 訊息背景不透明度。 </p> </td> 
   </tr> 
   <tr> 
@@ -104,7 +107,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  </tbody> 
 </table>
 
-提示訊息可以本地化。 如需詳 [細資訊，請參閱使用者介面元素](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) 的本地化。
+提示訊息可以本地化。 如需詳細資訊，請參閱[使用者介面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)。
 
 示例——要設定半透明的尖端消息，其中顯示白色的Arial 12像素字型、距主視圖底部50像素的偏移、填充和圓角邊框：
 
