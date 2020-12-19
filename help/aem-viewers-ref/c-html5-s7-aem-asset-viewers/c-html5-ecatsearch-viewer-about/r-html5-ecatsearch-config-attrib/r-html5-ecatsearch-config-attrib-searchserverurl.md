@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 2fe19821-923a-4156-9c52-48769467179d
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '30'
+ht-degree: 13%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> searchServerUrl</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> searchServerUrl</span> </span> </p> </td> 
    <td colname="col2"> <p> 搜索服務根路徑。 如果未指定網域，則會使用檢視器所服務的網域。 </p> </td> 
   </tr> 
  </tbody> 
