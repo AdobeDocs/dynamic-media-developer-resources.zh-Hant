@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: a1adc3b7-2ea3-4f26-84f2-b5c2f4418038
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +30,7 @@ Video360檢視器的設定屬性。
       <li id="li_E7AE1BDAC17E49E0B7ACF89C5C0529F0"> <p> <span class="codeph"> ?</span> 作為 <span class="codeph"> %3F</span> </p> </li> 
       <li id="li_391CCF067F734480B2B4AFC9760C479A"> <p> <span class="codeph"> &amp;</span> as <span class="codeph"> %26</span> </p> </li> 
       <li id="li_6824B66A55554C5A8B12874DCF5BFAEE"> <p> <span class="codeph"> =</span> as <span class="codeph"> %3D</span> </p> </li> 
-     </ul> </p> <p> 此修飾元適用於Dynamic Media Classic或AEM Dynamic Media上代管的視訊內容。 </p> <p>若要防止顯示預設海報影像，請將 <span class="codeph"> none</span> 指定為海報影像值。 </p> </td> 
+     </ul> </p> <p> 此修飾元適用於Dynamic Media Classic或AEM Dynamic Media上代管的視訊內容。 </p> <p>若要防止顯示預設海報影像，請指定<span class="codeph"> none</span>為海報影像值。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
