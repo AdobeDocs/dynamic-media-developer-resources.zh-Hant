@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: 9e8c0c6f-2c45-4acb-9acb-5b8494bfc69b
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '192'
+ht-degree: 1%
 
 ---
 
 
-# Icon effect{#icon-effect}
+# 圖示效果{#icon-effect}
 
 縮放指示器覆蓋在主視圖區域上。 當影像處於重設狀態時，就會顯示它，而且它也取決於iconeffect參數。
 
@@ -33,12 +36,12 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景影像 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景影像  </span> </p> </td> 
    <td colname="col2"> <p> 縮放指示器圖稿。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS精靈，請放在圖稿精靈內。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS精靈 </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS精靈，請放在圖稿精靈內。 </p> <p>另請參閱<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS精靈</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -53,7 +56,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 
 >[!NOTE]
 >
->圖示效果支援屬 `media-type` 性選擇器，您可使用它對不同裝置套用不同的圖示效果。 特別地， `media-type='standard'` 對應於通常使用滑鼠輸入的案頭系統，並 `media-type='multitouch'` 對應於具有觸摸輸入的設備。
+>圖示效果支援`media-type`屬性選擇器，您可使用該選擇器對不同裝置套用不同的圖示效果。 尤其是，`media-type='standard'`對應於通常使用滑鼠輸入的台式機系統，`media-type='multitouch'`對應於具有觸摸輸入的設備。
 
 範例——針對桌上型電腦系統和觸控裝置設定100 x 100像素縮放指示器，並使用不同的圖稿。
 
