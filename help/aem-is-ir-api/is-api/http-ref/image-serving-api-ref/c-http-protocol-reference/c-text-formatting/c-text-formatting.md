@@ -8,19 +8,22 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: e67b6dd2-2a78-4014-9525-816d91c9e783
 translation-type: tm+mt
 source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
+workflow-type: tm+mt
+source-wordcount: '573'
+ht-degree: 6%
 
 ---
 
 
-# Text formatting{#text-formatting}
+# 文本格式{#text-formatting}
 
 「影像伺服」提供多種轉換文字的替代方式，可透過text=和textPs=指令存取。
 
-`textPs=` 提供與使用Adobe Photoshop和Illustrator轉譯的文字高度相似的效果。 `text=` 與使用Windows Wordpad轉換的文字相容。
+`textPs=` 提供與使用Adobe Photoshop和Illustrator轉譯的文字高度相似的效果。`text=` 與使用Windows Wordpad轉換的文字相容。
 
 >[!NOTE]
 >
->除了其他位置列出的差異外， `text=` 與之相比，轉換的文字也會產生細微的差異 `textPs=`。 例如，下划線的厚度和位置不相同，合成斜體以略微不同的角度顯示。 如果文字不符合可用空間，則可 `text=` 能會部分裁切最後一行，而 `textPs=` 只會演算完整行。
+>除了其他位置列出的差異外，與`textPs=`相比，`text=`在轉換的文本中會產生細微的差異。 例如，下划線的厚度和位置不相同，合成斜體以略微不同的角度顯示。 如果文字不符合可用空間，`text=`可能會部分裁切最後一行，而`textPs=`則只會產生完整的行。
 
 所有文本命令都接受基於RTF(Rich Text Format)規範子集的格式化文本。 每個文本圖層可以指定不同的文本命令。
 
@@ -58,13 +61,13 @@ source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
    <td> <p>複製調整 </p> </td> 
    <td> <p>無 </p> </td> 
    <td> <p>是 </p> </td> 
-   <td> 複製調整 <p>, <pre>\copyfit</pre>, <pre>\copyfitlines</pre>, <pre>\copyfitmaxlines</pre> </p> </td> 
+   <td> 複製調整 <p>的 <pre>\copyfit</pre>的 <pre>\copyfitlines</pre>的 <pre>\copyfitmaxlines</pre> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>文字方塊邊界 </p> </td> 
    <td> <p>無 </p> </td> 
    <td> <p>是 </p> </td> 
-   <td> <p><pre>\margl</pre>, <pre>\margr</pre>, <pre>\margt</pre>, <pre>\margb</pre> </p> </td> 
+   <td> <p><pre>\margl</pre>的 <pre>\margr</pre>的 <pre>\margt</pre>的 <pre>\margb</pre> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>完整段落論證 </p> </td> 
@@ -153,7 +156,7 @@ RTF相容字串可以手動組合，或在能夠保存RTF檔案的文本編輯�
 
 RTF字串支援以UTF-8和ISO標準為基礎的語言編碼，以取代標準RTF字元編碼機制。 這樣，應用程式就可以向伺服器發送非英文文本，而不需具備RTF編碼知識。
 
-如果要透過http傳輸字串，所有不符合HTTP的字元都必須正確逸出。 如果字串併入影像目錄記錄的欄位，則只需逸出&#39;=&#39;、&#39;&amp;&#39; `catalog::Modifiers` 和&#39;%&#39;。 控制字元， `<CR>`包括 `<LF>`、 `<TAB>` 和應一律移除。
+如果要透過http傳輸字串，所有不符合HTTP的字元都必須正確逸出。 如果字串併入影像目錄記錄的`catalog::Modifiers`欄位，則只需逸出&#39;=&#39;、&#39;&amp;&#39;和&#39;%&#39;。 應一律移除控制字元，包括`<CR>`、`<LF>`和`<TAB>`。
 
 「影像服務」文本引擎解譯由1.6版RTF格式(RTF)規範定義的子命令集。此子集主要針對字型／字元格式、簡單的段落格式，以及支援國際字型和字元集。 目前不支援更進階的格式結構，例如樣式表和表格。
 
