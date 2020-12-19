@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 76a423e5-ff7d-44a3-aba4-af258ea55256
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '255'
+ht-degree: 0%
 
 ---
 
@@ -52,58 +55,58 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 **修改的類型**
 
-* 變更 `ActiveJob` 為包含類 `createVideoSitemapJob` 型
+* 已將`ActiveJob`變更為包含`createVideoSitemapJob`類型
 
-* 變更 `ScheduledJob` 為包含類 `createVideoSitemapJob` 型
+* 已將`ScheduledJob`變更為包含`createVideoSitemapJob`類型
 
-* 已變 `ImageServingPublishJob` 更為包含選用 `contextHandle`
+* 已將`ImageServingPublishJob`變更為包含選用的`contextHandle`
 
-* 已變 `ImageRenderingPublishJob` 更為包含選用 `contextHandle`
+* 已將`ImageRenderingPublishJob`變更為包含選用的`contextHandle`
 
-* 已變 `MetadataField` 更為包含選用 `initialTagField`
+* 已將`MetadataField`變更為包含選用的`initialTagField`
 
-* 已變 `MetadataCondition` 更為包含和選用參 `caseSensitive` 數
+* 已將`MetadataCondition`變更為包含和選用`caseSensitive`參數
 
-* 已變 `PropertySet` 更為包含可選 `PermissionArray` 項 `permissions`
+* 已將`PropertySet`變更為包含選用`PermissionArray`為`permissions`
 
-* 已變 `UploadDirectoryJob` 更為包含 `xmpKeywords`可選 `xmpTemplateId` 和參 `xmpTemplateOverride` 數
+* 已將`UploadDirectoryJob`變更為包含可選`xmpKeywords`、`xmpTemplateId`和`xmpTemplateOverride`參數
 
-* 已變 `VideoPublishJob` 更為包含選用 `contextHandle`
+* 已將`VideoPublishJob`變更為包含選用的`contextHandle`
 
 **修改的操作**
 
-* 已變 `createAssetSet` 更為包含選用 `thumbAssetHandle`
+* 已將`createAssetSet`變更為包含選用的`thumbAssetHandle`
 
-* 已變 `createImageSet` 更為包含選用 `thumbAssetHandle`
+* 已將`createImageSet`變更為包含選用的`thumbAssetHandle`
 
-* 變更 `createMetadataField` 為包含可選參 `initialTagValue` 數
+* 已將`createMetadataField`變更為包含選用的`initialTagValue`參數
 
-* 已變 `createPropertySet` 更為包含可選 `PermissionUpdateArray` 項 `permissionArray`
+* 已將`createPropertySet`變更為包含選用`PermissionUpdateArray`為`permissionArray`
 
-* 變更 `getImageServingPublishSettings` 為包含可選參 `contextHandle` 數
+* 已將`getImageServingPublishSettings`變更為包含選用的`contextHandle`參數
 
-* 變更 `getImageRenderingPublishSettings` 為包含可選參 `contextHandle` 數
+* 已將`getImageRenderingPublishSettings`變更為包含選用的`contextHandle`參數
 
-* 已變 `searchAssetsByFullText` 更為包含一系列可選參數：
+* 已變更`searchAssetsByFullText`以包含一系列可選參數：
 
-   * `SearchFilter` as `filters` parameter
+   * `SearchFilter` as參 `filters` 數
 
    * `sortBy`
    * `sortDirection`
 
-* 已變 `searchAssetsByMetadata` 更為包含一系列可選參數：
+* 已變更`searchAssetsByMetadata`以包含一系列可選參數：
 
-   * `SearchFilter` as `filters` parameter
+   * `SearchFilter` as參 `filters` 數
 
    * `sortBy`
    * `sortDirection`
    * `haystackSearch` 7個參數序列
 
-* 已變 `setAssetPublishState` 更為包含可選 `HandleArray` 項 `contextHandleArray`
+* 已將`setAssetPublishState`變更為包含選用`HandleArray`為`contextHandleArray`
 
-* 變更 `setImageServingPublishSettings` 為包含可選參 `contextHandle` 數
+* 已將`setImageServingPublishSettings`變更為包含選用的`contextHandle`參數
 
-* 變更 `setImageRenderingPublishSettings` 為包含可選參 `contextHandle`數
+* 已將`setImageRenderingPublishSettings`變更為包含選用的`contextHandle`參數
 
-* 已變 `submitJob` 更為包含可選作 `createVideoSitemap` 業類型
+* 已將`submitJob`變更為包含可選`createVideoSitemap`作業類型
 
