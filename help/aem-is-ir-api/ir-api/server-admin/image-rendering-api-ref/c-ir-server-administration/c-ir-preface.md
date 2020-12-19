@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 182782f1-44a8-421d-bacc-f08dcf95f58b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '181'
+ht-degree: 1%
 
 ---
 
 
-# 伺服器管理序言{#server-administration-preface}
+# 伺服器管理序{#server-administration-preface}
 
 本檔案討論伺服器管理問題，並說明Scene7影像演算的組態設定。
 
