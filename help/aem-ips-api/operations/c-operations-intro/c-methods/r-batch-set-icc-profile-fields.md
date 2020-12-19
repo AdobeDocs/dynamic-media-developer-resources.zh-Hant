@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 163b9b36-85b6-4880-8029-8421b04f4a08
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '143'
+ht-degree: 13%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 語法
 
-## 授權使用者類型 {#section-f6f7caf9434b4f469518dab64b76c0f4}
+## 授權用戶類型{#section-f6f7caf9434b4f469518dab64b76c0f4}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -43,7 +46,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | ` *`successCount`*` | `xsd:int` | 是 | 成功設定ICC配置檔案欄位的數量。 |
 | ` *`warningCount`*` | `xsd:int` | 是 | 嘗試設定ICC配置檔案欄位時生成的警告數。 |
 | ` *`errorCount`*` | `xsd:int` | 是 | 嘗試設定ICC配置檔案欄位時生成的錯誤數。 |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 與資產相關的詳細資訊陣列，當操作嘗試套用更新時，這些資產會產生警告。 |
+| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 與資產相關的詳細資料陣列，當操作嘗試套用更新時，這些資產會產生警告。 |
 | ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 當操作嘗試套用更新時，與產生錯誤的資產相關的詳細資訊陣列。 |
 
 ## 範例 {#section-5dc90cfbd9b1411485b44859032f7cb9}
