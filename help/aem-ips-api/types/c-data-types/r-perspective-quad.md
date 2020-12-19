@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: e83b7b8c-995b-4ac0-ace5-491f7e98674d
 translation-type: tm+mt
 source-git-commit: 22b447e66c223126f4e6b91f9a0102e86731c4a4
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +36,7 @@ getPhotoshopPath操作返回的影像位置座標。
 
 ## 範例 {#section-19ed4409ff3a41c9b52a9c9424612927}
 
-類 `PerspectiveQuad` 型會依下列順序傳回資料：
+`PerspectiveQuad`類型會依下列順序傳回資料：
 
 ```
 <complexType name="PerspectiveQuad">
