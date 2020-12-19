@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 2f00a06d-40d1-4ba3-a317-6ea91e25beb3
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '177'
+ht-degree: 11%
 
 ---
 
@@ -18,9 +21,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 傳送要新增至系統的公司名稱，並選擇性地傳送公司是否過期。
 
-調用此操作時，系統將獲取包含 ` *`公司句柄和描述性欄位的companyInfo`*` 類型。 如果請求的公司名稱已存在於系統中，則會拋出 `ipsApiFault`。
+調用此操作時，系統將獲取` *`companyInfo`*`類型，該類型包含公司句柄和描述性欄位。 如果請求的公司名稱已存在於系統中，則會拋出`ipsApiFault`。
 
-## 授權使用者類型 {#section-ae926c7672984be79f6102748accab72}
+## 授權用戶類型{#section-ae926c7672984be79f6102748accab72}
 
 * `IpsAdmin`
 * `TrialSiteAdmin`
@@ -41,7 +44,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 公 <span class="varname"> 司名稱</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
    <td colname="col4"> <p>要添加的公司的名稱。 </p> </td> 
@@ -68,7 +71,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> companyInfo <span class="varname"> (公司資訊</span> ) </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyInfo</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
    <td colname="col4"> <p>新公司的控制代碼和名稱、根路徑、到期日和時間。 </p> </td> 
