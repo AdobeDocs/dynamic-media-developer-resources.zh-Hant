@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: b82f3429-3d84-4707-8126-d390239df9a2
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '221'
+ht-degree: 3%
 
 ---
 
@@ -20,30 +23,30 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 <table id="simpletable_00B1226F3B8B49D895D1269AB03D5043"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> 寬度、高度 </span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> 寬度、高度  </span> </p> </td> 
   <td class="stentry"> <p>以場景坐標單位（通常為英吋）（實數、實數）表示的貼花物件大小。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> 厚度 </span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> 厚度  </span> </p> </td> 
   <td class="stentry"> <p>以場景坐標單位（通常為英吋）（實數）表示的傾斜對象厚度。 </p> </td> 
  </tr> 
 </table>
 
 如果寬度和高度都不是0，則影像會縮放至精確指定的尺寸，而影像的外觀比例不會保留。 將任一值設為0會保留影像的寬高比。
 
-如果 *`thickness`* 已指定，則如果暈映對象定義了適當的光向量，則會呈現下垂式陰影。 設 *`thickness`* 為0可停用下垂式陰影演算。
+如果指定&#x200B;*`thickness`*，則如果暈映物件定義適當的光向量，則會產生下垂式陰影。 將&#x200B;*`thickness`*&#x200B;設為0可停用下垂式陰影演算。
 
 ## 屬性 {#section-818e01e91fed4015951189c818ef28d8}
 
-材料屬性。 僅供貼紙使用；被其他材料所忽略。 `res=` 寬度或高度大於0時會忽略。 值不得為負數。
+材料屬性。 僅供貼紙使用；被其他材料所忽略。 `res=` 寬度或高度大於0時會忽略。值不得為負數。
 
 ## 預設 {#section-f91f516c6af54f0eb4d8c964b923cae0}
 
-`catalog::Size` 以目錄為依據的貼牌材料；否 `size=0,0,0`則。 decal大小是從未指 `res=` 定 *`wid`* 或 *`hei`* 設為0的情況計算。 如果未指定或設 *`thickness`* 置為0，則不呈現陰影。
+`catalog::Size` 以目錄為依據的貼牌材料；否 `size=0,0,0`則。如果未指定&#x200B;*`wid`*&#x200B;和&#x200B;*`hei`*，則從`res=`計算貼文大小。 如果未指定&#x200B;*`thickness`*&#x200B;或將&lt;a0/>設為0，則不會呈現下垂式陰影。
 
 ## 範例 {#section-04fdc2b60b9e4071b672bf6a913738ad}
 
-一種貼花的MSS，其尺寸是根據解析度而定，順時針旋轉20度，厚度為2.5英吋，以獲得適當的下垂式陰影效果：
+一種貼花的MSS，其尺寸是根據解析度而定，順時針旋轉20度，厚度為2.5英吋，以獲得合適的下垂式陰影效果：
 
 `…&decal&src=myDecal.png&res=34&rotate=20&size=0,0,2.5&…`
 
