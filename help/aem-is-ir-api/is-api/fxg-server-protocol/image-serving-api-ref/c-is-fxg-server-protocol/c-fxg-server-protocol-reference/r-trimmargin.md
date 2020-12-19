@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: af94f9e8-a32e-439a-817a-a40aa8dc7dd4
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,4 +21,4 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ` trimMargin=[ *[!DNL top]*[, *[!DNL left]*= *[!DNL top]*[, *[!DNL bottom]*= *[!DNL top]*[, *[!DNL right]*= *[!DNL left]*]]]]` 點
 
-預設情況下， `trimMargin` 將設定為由和定義的文檔的完 `viewWidth` 整大小 `viewHeight`。 如 *[!DNL left]*&#x200B;果未指 *[!DNL bottom]*&#x200B;定，則 *[!DNL right]* 會將值、值和 *[!DNL top]* 值預設為值。
+預設情況下，`trimMargin`設定為由`viewWidth`和`viewHeight`定義的文檔的完整大小。 如果未指定，*[!DNL left]*、*[!DNL bottom]*&#x200B;和&#x200B;*[!DNL right]*&#x200B;值將預設為&#x200B;*[!DNL top]*&#x200B;值。
