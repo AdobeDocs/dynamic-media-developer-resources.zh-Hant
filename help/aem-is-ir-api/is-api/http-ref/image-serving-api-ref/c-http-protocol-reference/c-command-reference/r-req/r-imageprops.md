@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: e9bf2780-a520-4fb1-ab4c-40bb799e36a4
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,15 +28,15 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </tr> 
 </table>
 
-The HTTP response is cacheable with the TTL based on `attribute::NonImgExpiration`.
+HTTP響應基於`attribute::NonImgExpiration`可以與TTL進行快取。
 
 請求字串中的其他命令會被忽略。
 
-支援JSONP回應格式的請求可讓您使用參數的擴充語法來指定JS回呼處理常式 `req=` 的名稱：
+支援JSONP回應格式的請求可讓您使用`req=`參數的擴充語法來指定JS回呼處理常式的名稱：
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` 是JS回應中顯示的JS處理常式名稱。 僅允許a-z、A-Z和0-9字元。 選填。預設為 `s7jsonResponse`.
+`<reqHandler>` 是JS回應中顯示的JS處理常式名稱。僅允許a-z、A-Z和0-9字元。 選填。預設為 `s7jsonResponse`.
 
 傳回下列屬性：
 
@@ -47,12 +50,12 @@ The HTTP response is cacheable with the TTL based on `attribute::NonImgExpiratio
   <tr> 
    <td> <p> <span class="codeph"> image.anchor</span> </p> </td> 
    <td> <p> int,int </p> </td> 
-   <td> <p> <span class="codeph"> 目錄：：錨點</span> ，或預設錨點 </p> </td> 
+   <td> <p> <span class="codeph"> 目錄：:</span> 錨點 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.expiration</span> </p> </td> 
    <td> <p> 雙 </p> </td> 
-   <td> <p> <span class="codeph"> 目錄：：過期</span> ，或預設上線時間 </p> </td> 
+   <td> <p> <span class="codeph"> 目錄：:</span> 到期或預設存留時間 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.height</span> </p> </td> 
@@ -71,12 +74,12 @@ The HTTP response is cacheable with the TTL based on `attribute::NonImgExpiratio
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.embedded PhotoshopPaths</span> </p> </td> 
-   <td> <p> boolean </p> </td> 
+   <td> <p> 布林值 </p> </td> 
    <td> <p> 1如果影像包含Photoshop路徑資料 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> 影像. embeddedXmpData</span> </p> </td> 
-   <td> <p> boolean </p> </td> 
+   <td> <p> 布林值 </p> </td> 
    <td> <p> 1如果影像包含XMP資料 </p> </td> 
   </tr> 
   <tr> 
@@ -87,7 +90,7 @@ The HTTP response is cacheable with the TTL based on `attribute::NonImgExpiratio
   <tr> 
    <td> <p> <span class="codeph"> image.modifier</span> </p> </td> 
    <td> <p> 字串 </p> </td> 
-   <td> <p> <span class="codeph"> 目錄：:Modifier</span> 或空（如果不是目錄條目） </p> </td> 
+   <td> <p> <span class="codeph"> 目錄：:</span> 修改器或空（如果不是目錄條目） </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> 影像. photoshopPathNames</span> </p> </td> 
@@ -102,7 +105,7 @@ The HTTP response is cacheable with the TTL based on `attribute::NonImgExpiratio
   <tr> 
    <td> <p> <span class="codeph"> image.postModifier</span> </p> </td> 
    <td> <p> 字串 </p> </td> 
-   <td> <p> <span class="codeph"> attribute::PostModifier</span> ，若不是目錄項目則為空 </p> </td> 
+   <td> <p> <span class="codeph"> 屬性：:</span> PostModifieror空（如果不是目錄條目） </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.printRes</span> </p> </td> 
@@ -112,32 +115,32 @@ The HTTP response is cacheable with the TTL based on `attribute::NonImgExpiratio
   <tr> 
    <td> <p> <span class="codeph"> image.resolution</span> </p> </td> 
    <td> <p> 真實 </p> </td> 
-   <td> <p> <span class="codeph"> 目錄：：解析度</span> ，或預設物件解析度 </p> </td> 
+   <td> <p> <span class="codeph"> 目錄：:</span> Resolution或預設對象解析度 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.timeStamp</span> </p> </td> 
    <td> <p> 字串 </p> </td> 
-   <td> <p>修改日期／時間(來 <span class="codeph"> 自目錄：:TimeStamp</span> 或影像檔案) </p> </td> 
+   <td> <p>修改日期／時間（來自<span class="codeph">目錄：:TimeStamp</span>或影像檔） </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.thumbRes</span> </p> </td> 
    <td> <p> 真實 </p> </td> 
-   <td> <p> <span class="codeph"> catalog::ThumbRes</span> 或預設縮圖解析度 </p> </td> 
+   <td> <p> <span class="codeph"> catalog::</span> ThumbResor the default thumbnail resolution </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.thumbType</span> </p> </td> 
    <td> <p> 列舉 </p> </td> 
-   <td> <p> <span class="codeph"> catalog::ThumbType</span> 或預設縮圖類型 </p> </td> 
+   <td> <p> <span class="codeph"> catalog::</span> ThumbType或預設縮圖類型 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.width</span> </p> </td> 
-   <td> <p> integer </p> </td> 
+   <td> <p> 整數 </p> </td> 
    <td> <p> 完整解析度影像寬度（像素） </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.translatedId</span> </p> </td> 
    <td> <p> 字串 </p> </td> 
-   <td> <p> 解析路徑中指定 <span class="varname"> 的物件</span> (請參閱物件ID轉 <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md#reference-cf3e34e6cbb346d69ded9982bfdef414" type="reference" format="dita" scope="local"> 譯</a>)的目錄ID。 </p> </td> 
+   <td> <p> 路徑中指定的<span class="varname">對象</span>已解析到的目錄ID（請參見<a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md#reference-cf3e34e6cbb346d69ded9982bfdef414" type="reference" format="dita" scope="local">對象ID轉換</a>）。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
