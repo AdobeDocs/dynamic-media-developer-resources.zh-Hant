@@ -1,6 +1,6 @@
 ---
-description: 視訊時間是顯示目前播放視訊的目前時間與持續時間的數值顯示。
-seo-description: 視訊時間是顯示目前播放視訊的目前時間與持續時間的數值顯示。
+description: 視訊時間是顯示目前播放視訊的目前時間和持續時間的數值顯示。
+seo-description: 視訊時間是顯示目前播放視訊的目前時間和持續時間的數值顯示。
 seo-title: 視訊時間
 solution: Experience Manager
 title: 視訊時間
@@ -8,13 +8,16 @@ topic: Dynamic media
 uuid: f8ba615f-661a-4750-bdf7-559650d464af
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Video time{#video-time}
+# 視訊時間{#video-time}
 
-視訊時間是顯示目前播放視訊的目前時間與持續時間的數值顯示。
+視訊時間是顯示目前播放視訊的目前時間和持續時間的數值顯示。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -26,7 +29,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 .s7video360viewer .s7videotime
 ```
 
-## 視訊時間的CSS屬性 {#css-properties-of-video-time}
+## 視訊時間的CSS屬性{#css-properties-of-video-time}
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -43,11 +46,11 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
    <td colname="col2"> <p> 視訊時間控制的寬度。 Internet Explorer 8或更新版本需要此屬性才能正常運作。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>用於顯示時間文字的字型系列。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型大小 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字型大小  </span> </p> </td> 
    <td colname="col2"> <p>用於顯示時間文字的字型大小。 </p> </td> 
   </tr> 
   <tr> 
@@ -57,7 +60,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  </tbody> 
 </table>
 
-**範例** -將視訊時間設為淺灰色(十六進位 `#BBBBBB`)，大小為12像素，位於控制列頂端的15像素，位於控制列頂端和右側的80像素。
+**範例** -將視訊時間設為淺灰色(十六進位 `#BBBBBB`)，大小為12像素，位於控制列頂端的15像素，以及控制列頂端和右側的80像素。
 
 ```
 .s7video360viewer .s7videotime { 
