@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: bd1576a7-4802-4a87-b1c0-406f51382561
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '101'
+ht-degree: 2%
 
 ---
 
@@ -18,6 +21,6 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 `req=resolve`
 
-會傳回最終請求字串，而非結果影像，具有MIME類型 `text/plain`。
+會傳回最終請求字串，而非結果影像，MIME類型為`text/plain`。
 
 HTTP回應無法快取。
