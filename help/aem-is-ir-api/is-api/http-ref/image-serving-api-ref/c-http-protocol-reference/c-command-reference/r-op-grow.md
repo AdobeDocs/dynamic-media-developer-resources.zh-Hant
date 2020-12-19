@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: bc9bf889-f7e1-4a65-b6d6-7e1257ef8c11
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,13 +28,13 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </tr> 
 </table>
 
-` *`半徑`*` （以像素為單位）相對於複合影像。 如果影像是彩色，則會獨立處理每個元件。
+` *`相`*` 對於合成影像的半徑（像素）。如果影像是彩色，則會獨立處理每個元件。
 
 主要用於修改圖層效果的大小。 此外，使用遮色片在文字圖層或純色圖層上產生特殊效果也很實用。
 
 ## 屬性 {#section-b1c66d65168d4ea695e8662ea690bd4e}
 
-層屬性。 應用於當前圖層或複合影像（如果） `layer=comp`。
+層屬性。 如果`layer=comp`，則套用至目前圖層或複合影像。
 
 ## 預設 {#section-14c908bb87cb42acbea709effea2f964}
 
