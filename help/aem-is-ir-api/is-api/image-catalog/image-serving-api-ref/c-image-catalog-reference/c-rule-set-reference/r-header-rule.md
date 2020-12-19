@@ -3,24 +3,27 @@ description: HTTP回應標題元素。 在<rule>元素中為可選項。
 seo-description: HTTP回應標題元素。 在<rule>元素中為可選項。
 seo-title: header
 solution: Experience Manager
-title: header
+title: 標題
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 89ec0f27-fc12-47c2-b9dd-e0ee768587b5
 translation-type: tm+mt
 source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
+workflow-type: tm+mt
+source-wordcount: '146'
+ht-degree: 4%
 
 ---
 
 
 # header{#header}
 
-HTTP回應標題元素。 在元素中為 `<rule>` 選用。
+HTTP回應標題元素。 在`<rule>`元素中為可選項。
 
 ## 屬性 {#section-6e903ab4c64f4b1488b8ae74274f50a6}
 
-**`Name`= &quot;*text*&quot;**:必要。 指定HTTP標題的名稱。
+**`Name`= &quot;*text*&quot;** :必要。指定HTTP標題的名稱。
 
-**`Action`= &quot;set&quot;|`"add"`**:可選。 預設值`"set"`為，會取代任何目前的標題值。 指定`"add"`要附加標題值，以逗號分隔。
+**`Action`= &quot;set&quot; |`"add"`**:可選。預設值為`"set"`，會取代任何目前的標題值。 指定`"add"`以附加標題值，以逗號分隔。
 
 ## 資料 {#section-a387f541396c49d99c29692a38032914}
 
@@ -43,6 +46,6 @@ HTTP回應標題元素。 在元素中為 `<rule>` 選用。
 </rule>
 ```
 
-此規則由下列請求觸發，設定HTTP回應標題 `Edge-Control::no-store`:
+此規則由下列請求觸發，設定HTTP回應標題`Edge-Control::no-store`:
 
 `http://server/is/image/cat/id?$Edge-Control=no-store`
