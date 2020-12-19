@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 69c0f6cd-dfaf-47bf-bdd9-7abb4e6f7465
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '270'
+ht-degree: 0%
 
 ---
 
 
-# 作業目錄{#session-catalog}
+# 會話目錄{#session-catalog}
 
 會話目錄是提供請求會話屬性的材料目錄，以及所有src=、vignette=和icc=命令的預設catId值。
 
@@ -42,7 +45,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> 屬性：:RootUrl</span> </p> </td> 
-   <td> <p> src=命令中相對HTTP檔案路徑的 <span class="codeph"> 根URL</span> </p> </td> 
+   <td> <p> <span class="codeph"> src=</span>命令中相對HTTP檔案路徑的根URL </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> 屬性：:ShowOverlapObjs</span> </p> </td> 
@@ -58,15 +61,15 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> 屬性：:DefaultPix</span> </p> </td> 
-   <td> <p> wid=和 <span class="codeph"> hei=的</span><span class="codeph"> 預設值</span> </p> </td> 
+   <td> <p> <span class="codeph"> wid=</span>和<span class="codeph"> hei=</span>的預設值 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> 屬性：：格式</span> </p> </td> 
-   <td> <p> fmt=的 <span class="codeph"> 預設值</span> </p> </td> 
+   <td> <p> <span class="codeph"> fmt=</span>的預設值 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> 屬性：:JpegQuality</span> </p> </td> 
-   <td> <p> qlt=的預 <span class="codeph"> 設值</span> </p> </td> 
+   <td> <p> <span class="codeph"> qlt=</span>的預設值 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> 屬性：:TiffEncoding</span> </p> </td> 
@@ -74,15 +77,15 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> 屬性：：銳利化</span> </p> </td> 
-   <td> <p> 銳利化的預 <span class="codeph"> 設值=</span> </p> </td> 
+   <td> <p> <span class="codeph">銳利化的預設值=</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> 屬性：:OnFailSel</span> </p> </td> 
-   <td> <p> 指定sel=命令失 <span class="codeph"> 敗時的</span> 行為 </p> </td> 
+   <td> <p> 指定<span class="codeph"> sel=</span>命令失敗時的行為 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> 屬性：:OnFailObj</span> </p> </td> 
-   <td> <p> 指定obj=命令失 <span class="codeph"> 敗時的</span> 行為 </p> </td> 
+   <td> <p> 指定<span class="codeph"> obj=</span>命令失敗時的行為 </p> </td> 
   </tr> 
  </tbody> 
 </table>
