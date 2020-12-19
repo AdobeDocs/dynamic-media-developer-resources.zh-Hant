@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 1c8ff9c3-9f39-46a8-bd38-8e0c5ab0f548
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '249'
+ht-degree: 4%
 
 ---
 
@@ -32,11 +35,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 內容</span> </p> </td> 
-   <td colname="col2"> <p> 傳回所有元素的XML清單， <span class="codeph"> 其中包含s7:element</span> 屬性值和fxg檔案中所有頁面的清單。 </p> </td> 
+   <td colname="col2"> <p> 傳回具有<span class="codeph"> s7:element</span>屬性值的所有元素的xml清單，以及fxg檔案中所有頁面的清單。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> oversetstatus</span> </p> </td> 
-   <td colname="col2"> <p>傳回&lt;RichText/&gt;元 <span class="codeph"> 素溢排的</span> XML清單。 </p> <p>傳回在用戶端上 <span class="+ topic/ph pr-d/codeph codeph"> 進行溢排處理的&lt;RichText/</span> &gt;元素的xml清單。 只 <span class="+ topic/ph pr-d/codeph codeph"> 會傳回溢排</span> 的&lt;RichText/&gt;元素。 <span class="+ topic/ph pr-d/codeph codeph"> s7:elementid</span> 是使用req=oversetstatus時 <span class="+ topic/ph pr-d/codeph codeph"> 的必要&lt;RichText/</span> &gt; <span class="+ topic/ph pr-d/codeph codeph"> 屬性</span>。 不會列 <span class="+ topic/ph pr-d/codeph codeph"> 出任何不含</span><span class="+ topic/ph pr-d/codeph codeph"> s7:elementid的溢排</span> &lt;RichText/&gt;元素。 清單 <span class="+ topic/ph pr-d/codeph codeph"> 中的每個&lt;RichText/&gt;</span> "元素都有 <span class="+ topic/ph pr-d/codeph codeph"> s7:elementid</span>、 <span class="+ topic/ph pr-d/codeph codeph"> s7:endCharIndex</span>，以及溢排文字框的邊框。 s7: <span class="+ topic/ph pr-d/codeph codeph"> endCharIndex</span> 屬性會指出文字在文字框中可符合的文字索引。 <span class="+ topic/ph pr-d/codeph codeph"> Req=oversetstatus</span> 僅適用於所請 <span class="+ topic/ph pr-d/codeph codeph"> 求FXG中的&lt;RichText/&gt;</span> elements。 它不會列出任何 <span class="+ topic/ph pr-d/codeph codeph"> 內嵌FXG的&lt;RichText/</span> &gt;元素。 </p> </td> 
+   <td colname="col2"> <p>傳回<span class="codeph"> &lt;RichText/&gt;</span>元素溢排的XML清單。 </p> <p>傳回在用戶端進行溢排處理之<span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span>元素的xml清單。 只會傳回溢排的<span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span>元素。 <span class="+ topic/ph pr-d/codeph codeph"> s7:</span> elementidis a required  <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> attribute when using  <span class="+ topic/ph pr-d/codeph codeph"> req=oversetstatus</span>.未列出任何不含<span class="+ topic/ph pr-d/codeph codeph"> s7:elementid</span>的溢排<span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span>元素。 清單中的每個<span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span>元素都有<span class="+ topic/ph pr-d/codeph codeph"> s7:elementid</span>、<span class="+ topic/ph pr-d/codeph codeph"> s7:endCharIndex</span>，以及溢排文字框的邊框。 <span class="+ topic/ph pr-d/codeph codeph"> s7:endCharIndex</span>屬性會指出內文中的文字索引，最後文字可以符合影格。 <span class="+ topic/ph pr-d/codeph codeph"> Req=</span> oversetstatus僅適用於所 <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> 請求FXG中的元素。它不會列出任何內嵌FXG的<span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span>元素。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 存在</span> </p> </td> 
