@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: e333c24b-b48f-439f-aa86-d223b533b9b6
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '82'
+ht-degree: 6%
 
 ---
 
@@ -18,7 +21,7 @@ Apple串流伺服器URL首碼。 產生具有req=mbrSet的多位元速率m3u8回
 
 ## 屬性 {#properties}
 
-代表URL首碼的字串。 (eg. `http://my.server.com/apple/streaming`)
+代表URL首碼的字串。 (例如`http://my.server.com/apple/streaming`)
 
 ## 預設 {#section-bdd70081d50844c295f0de0154c1d738}
 
