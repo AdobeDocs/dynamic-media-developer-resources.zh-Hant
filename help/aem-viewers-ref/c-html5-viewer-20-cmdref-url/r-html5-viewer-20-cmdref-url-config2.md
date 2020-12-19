@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 9b001bb8-7bae-4858-97ea-f9714a370dc8
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '41'
+ht-degree: 19%
 
 ---
 
@@ -25,8 +28,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 公司預設</span></span> </p> </td> 
-   <td colname="col2"> <p> Adobe Analytics設定 <span class="keyword"> 預設集的名稱</span> 。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> company preset</span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Adobe Analytics</span>設定預設集的名稱。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
