@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 1b0c5b5d-2a25-4899-8831-40fd0f364f42
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,15 +22,15 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_4322E3ECE9354016B891F5E7A35D6A2A"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> 快照</span></span> </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> snapin</span> </span> </p> </td> 
    <td> <p>使按鈕與色票對齊。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> 快 <span class="varname"> 照</span></span> </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> snapout</span> </span> </p> </td> 
    <td> <p>使按鈕與元件邊框對齊。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> 覆蓋</span></span> </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> 覆蓋</span> </span> </p> </td> 
    <td> <p>使按鈕在色票上方演算。 </p> </td> 
   </tr> 
  </tbody> 
