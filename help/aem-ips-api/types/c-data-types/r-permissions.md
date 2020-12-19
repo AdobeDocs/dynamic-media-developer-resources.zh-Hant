@@ -8,11 +8,14 @@ topic: Scene7 Image Production System API
 uuid: 3b3580d3-e5bc-42bf-bfbe-ab0ec2dea574
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Permission{#permission}
+# 權限{#permission}
 
 管理依群組存取、修改、建立或刪除資產的權利。
 
