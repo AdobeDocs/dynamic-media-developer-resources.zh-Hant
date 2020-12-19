@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 69f9e5f6-50c2-403d-93b2-b84a01f512a9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 >
 >如果省略公司句柄，此方法會檢查預設使用者的登入。
 
-## 授權使用者類型 {#section-df8b26b550854f899948276adaca083a}
+## 授權用戶類型{#section-df8b26b550854f899948276adaca083a}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -50,7 +53,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 範例 {#section-23f90100a9d94bc7b4045634cccd1b98}
 
-此范常式式碼使用公司控制代碼參數、電子郵件地址和密碼來判斷使用者是否可登入IPS。 如果用戶 *可以登* 錄，此方法將返回字串 `ValidLogin`。 如果用戶 *無法登* 入，此方法會傳回字串 `InvalidLogin`。
+此范常式式碼使用公司控制代碼參數、電子郵件地址和密碼來判斷使用者是否可登入IPS。 如果用戶&#x200B;*可以*&#x200B;登錄，則此方法返回字串`ValidLogin`。 如果用戶&#x200B;*無法*&#x200B;登錄，則此方法返回字串`InvalidLogin`。
 
 **請求**
 
