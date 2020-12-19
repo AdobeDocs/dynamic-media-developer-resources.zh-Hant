@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 92bd8ced-1c41-4147-96fa-5f77bdd6a316
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '81'
+ht-degree: 6%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p>指定何時顯示資訊面板。 </p> <p>如果設為 <span class="codeph"> 1</span>，則當滑鼠進入影像地圖區域時，資訊面板會顯示(若影像地圖具有非空白的 <span class="codeph"></span> rollover_key屬性)。 </p> <p>如果設為 <span class="codeph"> 0</span> info面板，則會在點按影像地圖時觸發(如果影像地圖具有非空的 <span class="codeph"> rollover_key</span> 和空的 <span class="codeph"> href</span> 屬性)。 </p> <p> 在觸控裝置（包括可觸控的案頭系統）上忽略，並自動設為 <span class="codeph"> 0</span>。 </p> </td> 
+   <td colname="col2"> <p>指定何時顯示資訊面板。 </p> <p>如果設為<span class="codeph"> 1</span>，則當滑鼠進入影像地圖區域時會顯示資訊面板（若影像地圖具有非空白的<span class="codeph"> rolver_key</span>屬性）。 </p> <p>如果設為<span class="codeph"> 0</span>資訊面板會在點按影像地圖時觸發（如果影像地圖具有非空白的<span class="codeph"> rolver_key</span>和空白的<span class="codeph"> href</span>屬性）。 </p> <p> 在觸控裝置（包括可觸控的案頭系統）上忽略，並自動設為<span class="codeph"> 0</span>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
