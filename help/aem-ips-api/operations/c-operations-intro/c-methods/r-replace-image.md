@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 46824e33-265c-4425-9ab1-8ad6b7ac154d
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '111'
+ht-degree: 15%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 語法
 
-## 授權使用者類型 {#section-e2aad71fb2a54612badc7b16f82ed544}
+## 授權用戶類型{#section-e2aad71fb2a54612badc7b16f82ed544}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -45,7 +48,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 範例 {#section-cebb93576bde4cb98cb27356ca66783b}
 
-此程式碼範例會取代影像，並套用指 `urlModifier` 定影像伺服器在取代時不會採取任何動作的命令。
+此程式碼範例會取代影像，並套用`urlModifier`命令，指定影像伺服器在取代時不會採取任何動作。
 
 **請求**
 
