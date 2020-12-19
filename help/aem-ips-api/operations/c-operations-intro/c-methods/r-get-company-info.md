@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 9218cba8-2873-46b7-90e3-7ab9d5018690
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '202'
+ht-degree: 8%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 語法
 
-## 授權使用者類型 {#section-74f20fb8602e4f96810795bc4b6f7fdf}
+## 授權用戶類型{#section-74f20fb8602e4f96810795bc4b6f7fdf}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -44,15 +47,15 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 公 <span class="varname"> 司控制</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>需要 <span class="codeph"> 有 <span class="varname"> companyHandle</span> 或 </span> Name <span class="codeph"> 公 <span class="varname"> 司</span> 的 </span> 名稱。 </p> </td> 
+   <td colname="col3"> <p>需要<span class="codeph"> <span class="varname"> companyHandle</span> </span>或<span class="codeph"> <span class="varname"> companyName</span> </span>。 </p> </td> 
    <td colname="col4"> <p>您要取得其資訊之公司的控制代碼。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 公 <span class="varname"> 司名稱</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>需要 <span class="codeph"> 有 <span class="varname"> companyHandle</span> 或 </span> Name <span class="codeph"> 公 <span class="varname"> 司</span> 的 </span> 名稱。 </p> </td> 
+   <td colname="col3"> <p>需要<span class="codeph"> <span class="varname"> companyHandle</span> </span>或<span class="codeph"> <span class="varname"> companyName</span> </span>。 </p> </td> 
    <td colname="col4"> <p>您要取得其資訊的公司名稱。 </p> </td> 
   </tr> 
  </tbody> 
@@ -71,7 +74,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> companyInfo <span class="varname"> (公司資訊</span> ) </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyInfo</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 類型：公司</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
    <td colname="col4"> <p>處理和其他有關公司的描述性資訊。 </p> </td> 
