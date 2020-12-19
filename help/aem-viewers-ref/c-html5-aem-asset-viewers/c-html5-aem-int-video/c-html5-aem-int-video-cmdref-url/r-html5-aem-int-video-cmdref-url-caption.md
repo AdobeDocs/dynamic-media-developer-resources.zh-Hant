@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: 602c8f64-e018-4916-8141-09b36003a99d
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# caption{#caption}
+# 標題{#caption}
 
 互動式視訊檢視器的URL命令。
 
@@ -33,8 +36,8 @@ source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> A </span> </p> </td> 
    <td colname="col2"> <p>文本對齊 </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> left|right|middle|start|end </span> </p> </td> 
-   <td colname="col4"> <p> 控制文字對齊。 </p> <p>預設值 <span class="codeph"> 為中 </span>間。 </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> left|right|middle|start|end  </span> </p> </td> 
+   <td colname="col4"> <p> 控制文字對齊。 </p> <p>預設值為<span class="codeph">中間</span>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> T </span> </p> </td> 
@@ -43,7 +46,7 @@ source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
    <td colname="col4"> <p> 在VideoPlayer元件中插入標題文字開頭的百分比。 </p> <p>預設值為0%。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> S </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> S  </span> </p> </td> 
    <td colname="col2"> <p>行大小 </p> </td> 
    <td colname="col3"> <p> 0%-100% </p> </td> 
    <td colname="col4"> <p> 用於標題的視訊寬度百分比。 </p> <p>預設值為100%。 </p> </td> 
@@ -62,12 +65,12 @@ WebVTT檔案中的其他WebVTT功能不受支援，但不應中斷字幕功能�
 <table id="table_A5BB1C08DA4B425DBD0356C7D3693E75"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 檔案 </span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 檔案  </span> </span> </p> </td> 
    <td colname="col2"> <p> 指定WebVTT標題內容的URL或路徑。 依影像伺服提供WebVTT檔案。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 指定預設標題狀態(啟用為 <span class="codeph"> 1 </span>)。 </p> </td> 
+   <td colname="col2"> <p> 指定預設標題狀態（啟用為<span class="codeph"> 1 </span>）。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
