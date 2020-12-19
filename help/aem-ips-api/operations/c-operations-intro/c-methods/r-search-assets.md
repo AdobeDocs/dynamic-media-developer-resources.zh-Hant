@@ -9,8 +9,8 @@ uuid: 125e9e0d-1856-4e80-9778-ca93cd04b766
 translation-type: tm+mt
 source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 12%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,19 +21,19 @@ ht-degree: 12%
 
 語法
 
-## searchAssets: 關於 {#section-4ad74f12eb754768bf85bd235a7e25f0}
+## searchAssets:關於{#section-4ad74f12eb754768bf85bd235a7e25f0}
 
-`searchAssets` 是檢索IPS資產的主要方法。 此方法用於各種用途，例如瀏覽資料夾階層或依名稱尋找特定資產。
+`searchAssets` 是檢索IPS資產的主要方法。此方法用於各種用途，例如瀏覽資料夾階層或依名稱尋找特定資產。
 
 **回應大小**
 
-`searchAssets` 在單一呼叫中傳回最多1000個資產。 若要在每個呼叫中傳回最多10,000個資產，請將回應資料限制在 `totalRows`、、 `name`、 `handle`和 `type`欄位的 `subType` 子集。 若要傳回較大的集，請使用參數設定分 `resultPage` 頁。
+`searchAssets` 在單一呼叫中傳回最多1000個資產。若要每次呼叫傳回最多10,000個資產，請將回應資料限制在`totalRows`、`name`、`handle`、`type`和`subType`欄位的子集。 若要傳回較大的集，請使用`resultPage`參數設定分頁。
 
 **使用responseFieldArray或excludeFieldArray限制結果檔案大小**
 
-使用或參數限制資料集 `responseFieldArray` 的大 `excludFieldArray` 小。 這些參數有助於減少記憶體使用和頻寬，並可改善伺服器回應時間。
+使用`responseFieldArray`或`excludFieldArray`參數限制資料集的大小。 這些參數有助於減少記憶體使用和頻寬，並可改善伺服器回應時間。
 
-## 授權使用者類型 {#section-9c4bc41bb8b4493982197eb13c7cdc55}
+## 授權用戶類型{#section-9c4bc41bb8b4493982197eb13c7cdc55}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -93,7 +93,7 @@ ht-degree: 12%
    <td colname="col1"> <span class="codeph"> <span class="varname"> includeSubfolders</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4">設為 <span class="codeph"> true</span> ，可搜尋子檔案夾。 </td> 
+   <td colname="col4">設為<span class="codeph"> true</span>可搜尋子檔案夾。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> publishState</span> </span> </td> 
@@ -105,25 +105,25 @@ ht-degree: 12%
    <td colname="col1"> <span class="codeph"> <span class="varname"> trashState</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4">垃圾狀態選擇。 預設值 <span class="codeph"> 為NotInTrash</span>。 </td> 
+   <td colname="col4">垃圾狀態選擇。 預設值為<span class="codeph"> NotInTrash</span>。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> conditionMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> <p>選擇搜尋比對模式以結合關鍵字陣列 <span class="codeph"> 結果</span>, </p> <p> <span class="codeph"> conditionMatchMode</span> </p> <p> <span class="codeph"> systemFieldConditionArray</span>, and <span class="codeph"> metadataConditionArray</span>。 預設值為「 <span class="codeph"> 全部符合</span>」。 </p> </td> 
+   <td colname="col4"> <p>選擇搜尋符合模式，以結合<span class="codeph"> keywordArray</span>的結果， </p> <p> <span class="codeph"> conditionMatchMode</span> </p> <p> <span class="codeph"> systemFieldConditionArray</span>和metadataConditionArray <span class="codeph"> </span>。預設值為<span class="codeph"> MatchAll</span>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> keywordArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：StringArray</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> <p> <p>注意：  不建議使用的參數。 建議您不要使用它。 </p> </p> <p>要比對的關鍵字字串陣列。 </p> </td> 
+   <td colname="col4"> <p> <p>注意： 不建議使用的參數。 建議您不要使用它。 </p> </p> <p>要比對的關鍵字字串陣列。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> systemFieldMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> <p>選擇用於組合systemFieldCondition匹配的搜 <span class="codeph"> 尋匹配模</span> 式。 預設值為 <span class="codeph"> MatchAll</span> </p>. </td> 
+   <td colname="col4"> <p>組合<span class="codeph"> systemFieldCondition</span>的搜尋符合模式選擇。 預設值為<span class="codeph"> MatchAll</span> </p>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> systemFieldConditionArray</span> </span> </p> </td> 
@@ -135,19 +135,19 @@ ht-degree: 12%
    <td colname="col1"> <span class="codeph"> <span class="varname"> tagMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4">搜尋符合模式字串常數。 預設值為「全 <span class="codeph"> 部符合</span>」。 </td> 
+   <td colname="col4">搜尋符合模式字串常數。 預設值為<span class="codeph"> MatchAll</span>。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> tagConditionArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：TagConditionArray</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> <p>標籤欄位搜索謂語的陣列。 </p> <p>謂語會根據 <span class="codeph"> tagMatchMode</span> setting，然後與 <span class="codeph"> Array</span>、systemFieldConditionArray和 <span class="codeph"></span><span class="codeph"></span><span class="codeph"></span> ConditionArray中的任何詞語組合，並根據與CommatchModeSetting ConditionArray中的條件來比對ConditionMatadata。 </p> </td> 
+   <td colname="col4"> <p>標籤欄位搜索謂語的陣列。 </p> <p>謂語根據<span class="codeph"> tagMatchMode</span>設定組合，然後根據<span class="codeph">條件與<span class="codeph"> keywordArray</span>、<span class="codeph"> systemFieldConditionArray</span>和<span class="codeph"> metadataConditionArray</span>中的任何詞語組合模式</span>設定。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> metadataMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4">搜尋符合模式以結合 <span class="codeph"> 中繼資料</span> Condition符合。 預設值為「 <span class="codeph"> 全部符合</span>」。 </td> 
+   <td colname="col4">搜尋符合模式以組合<span class="codeph"> metadataCondition</span>符合。 預設值為<span class="codeph"> MatchAll</span>。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> metadataConditionArray</span> </span> </td> 
@@ -175,19 +175,19 @@ ht-degree: 12%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> strictSubTypeCheck</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：布林值</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4">如果 <span class="codeph"> true</span><span class="codeph"> 和assetSubTypeArray不是空的，則只會傳回子類型位於</span><span class="codeph"></span> assetSubTypeArray中的資產。 如果 <span class="codeph"> 為false</span> （預設值），則會傳回沒有定義子類型的資產。 </td> 
+   <td colname="col4">如果<span class="codeph"> true</span>和<span class="codeph"> assetSubTypeArray</span>並非空白，則只會傳回子類型位於<span class="codeph"> assetSubTypeArray</span>中的資產。 如果<span class="codeph"> false</span>（預設值），則會傳回未定義子類型的資產。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludeBilluss</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：布林值</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 如果為true，則擷取主要資產（例如擷取的PDF頁面影像）時產生的副產品資產會排除在搜尋結果之外。 預設為 false。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludBinsubleArray</span> </span> </td> 
-   <td colname="col2"> <p> <span class="codeph"> 類型：ExcludeBundlableArray</span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> 類型：ExcludeBinsulalArray</span> </p> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 要從搜尋結果中排除的副產品資產產生條件的陣列。 如果存在，此參數將覆蓋excludeBillussings設定。 </td> 
   </tr> 
@@ -207,7 +207,7 @@ ht-degree: 12%
    <td colname="col1"> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4">根據recordsPerPage頁面大小指定要傳回的 <span class="codeph"> 結果頁</span> 。 </td> 
+   <td colname="col4">根據<span class="codeph"> recordsPerPage</span>頁面大小，指定要傳回的結果頁面。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> sortBy</span> </span> </td> 
