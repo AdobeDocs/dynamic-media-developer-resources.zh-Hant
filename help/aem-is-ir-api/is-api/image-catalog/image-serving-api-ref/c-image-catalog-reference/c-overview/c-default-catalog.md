@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 9f0c967e-a2fa-4ef0-bacb-3dcfb06a8027
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '230'
+ht-degree: 0%
 
 ---
 
@@ -20,9 +23,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 此外，當操作中未涉及特定影像目錄時，預設目錄會提供所有屬性和資料記錄（宏、字型、ICC配置檔案、請求預處理規則）。
 
-為了使平台伺服器正常運行，預設目錄的目錄屬性檔案必須命名 [!DNL default.ini]`attribute::RootId` ，必須始終存在於目錄資料夾中，並且必須完全填充所有必需屬性（排除和對各種目錄資料檔案的引用），這些屬性都是可選的。
+要使平台伺服器正常運行，預設目錄的目錄屬性檔案必須命名為[!DNL default.ini]，必須始終存在於目錄資料夾中，並且必須完全填充所有必需屬性，不包括`attribute::RootId`和對各種目錄資料檔案的引用，這些屬性都是可選的。
 
 >[!NOTE]
 >
->除外的所有目錄屬性 [!DNL default.ini] 檔案都必須包含唯一 `attribute::RootId` 值。 `attribute::RootId` 中 [!DNL default.ini] 必須為空。
+>除[!DNL default.ini]之外的所有目錄屬性檔案都必須包含唯一的`attribute::RootId`值。 `attribute::RootId` in必 [!DNL default.ini] 須為空。
 
