@@ -3,11 +3,14 @@ description: 縮放影像。 相對於全解析度影像，按比例縮放圖層
 seo-description: 縮放影像。 相對於全解析度影像，按比例縮放圖層源影像。
 seo-title: scale
 solution: Experience Manager
-title: scale
+title: 規模
 topic: Scene7 Image Serving - Image Rendering API
 uuid: f5540df8-60d9-4efc-99fe-733cdc8268ea
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '121'
+ht-degree: 5%
 
 ---
 
@@ -25,15 +28,15 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </tr> 
 </table>
 
-No scaling is applied when `scale=1`. *`factor`* 小於1.0的下縮放和大於1.0的放大會放大源影像。
+`scale=1`時不應用縮放。 *`factor`* 小於1.0的下縮放和大於1.0的放大會放大源影像。
 
 ## 屬性 {#section-3c7eb45527394fe79b1ddba6c1fcca09}
 
-來源影像／遮色片屬性。 如果同 `size=` 時為當前層指定，則忽略。 Overrides `res=`. 如果為指定，則應用於層0 `layer=comp`。 如果圖層未與影像或遮色片相關聯，則忽略此點。
+來源影像／遮色片屬性。 如果同時為當前層指定`size=`，則忽略。 覆寫`res=`。 如果為`layer=comp`指定，則套用至層0。 如果圖層未與影像或遮色片相關聯，則忽略此點。
 
 ## 預設 {#section-26e64904362342a5a62c5f6598f330c4}
 
-如果未指定，則 `res=` 使用。 如果未 `res=` 指定，則不使用縮放來使用影像。
+如果未指定，則使用`res=`。 如果未指定`res=`，則不使用縮放來使用影像。
 
 ## 另請參閱 {#section-61a11f30d37341d58c10df759bfff951}
 
