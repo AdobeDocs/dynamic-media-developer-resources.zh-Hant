@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 07d41f71-e18d-4559-afc7-75dc1c45be93
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '224'
+ht-degree: 5%
 
 ---
 
@@ -20,13 +23,13 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 以逗號分隔的三個實數。 不得為負面。 將未使用的值設定為0。 可省略尾隨零。
 
-只有在影像應拉伸以符合指定大小（長寬比可能會變更）時，才指定寬度和高度。 設定寬度或高度，以按比例縮放影像。 將寬度和高度都設為0，以 `catalog::Resolution`用於確定對象大小。
+只有在影像應拉伸以符合指定大小（長寬比可能會變更）時，才指定寬度和高度。 設定寬度或高度，以按比例縮放影像。 將寬度和高度都設定為0，以使用`catalog::Resolution`確定對象大小。
 
 提供厚度值，以將陰影加入貼花物件。 對於傾斜材料是可選的，被所有其他材料忽略。
 
 ## 預設 {#section-8029fe4dcbd1427db94a4fef1ccbbfd0}
 
-0,0,0. 這表示要根據目錄：:Resolution來決定貼花大小，且物件沒有厚度（因此不會產生下垂式陰影）。
+萬，萬。 這表示要根據目錄：:Resolution來決定貼花大小，且物件沒有厚度（因此不會產生下垂式陰影）。
 
 ## 範例 {#section-7e7166ec9a1e4f4cb026de3342fcddc3}
 
