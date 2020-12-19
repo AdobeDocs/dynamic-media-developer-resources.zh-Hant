@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: c3f415ad-f976-464a-9067-a5d526908352
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '196'
+ht-degree: 2%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> up|down|left|right|fit-vertical|fit-lateral</span> </p> </td> 
-   <td colname="col2"> <p> 當設為 <span class="codeph"> 、向下、向左或向</span><span class="codeph"></span><span class="codeph"></span><span class="codeph"></span>右方向時，面板不會在指定方向上滾出，而不會進行額外的邊界檢查，這會導致面板被外部容器剪裁。 </p> <p>當設為 <span class="codeph"> fit-vertical</span>時，元件會先將底板位置移至「我的最愛」選單的底部，並嘗試從此底部位置沿下列其中一個方向展開面板：下，右，左。 每次嘗試時，元件都會檢查面板是否被外部容器剪裁。 如果所有嘗試都失敗，元件會嘗試將基板位置移至頂端，並從上、右和左方向重複滾出嘗試。 </p> <p>當設為fit- <span class="codeph"> lateral時</span>，元件會使用類似的邏輯。 基座先向右移動，向右、向下、向上展開。 然後，它把底座向左移動，向左、向下和向上展開。 </p> </td> 
+   <td colname="col2"> <p> 當設定為<span class="codeph"> up</span>、<span class="codeph"> down</span>、<span class="codeph"> left</span>或<span class="codeph"> right</span>時，面板在指定方向滾出而不需額外的邊界檢查，這會導致面板被外部容器夾住。 </p> <p>當設為<span class="codeph"> fit-vertical</span>時，元件會先將底板位置移至「我的最愛」選單的底部，並嘗試從此底部位置沿下列其中一個方向展開面板：下，右，左。 每次嘗試時，元件都會檢查面板是否被外部容器剪裁。 如果所有嘗試都失敗，元件會嘗試將基板位置移至頂端，並從上、右和左方向重複滾出嘗試。 </p> <p>當設為<span class="codeph"> fit-lateral</span>時，元件使用類似的邏輯。 基座先向右移動，向右、向下、向上展開。 然後，它把底座向左移動，向左、向下和向上展開。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
