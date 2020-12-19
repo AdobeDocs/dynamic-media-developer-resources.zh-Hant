@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 97a40261-8f85-4e8c-8aa5-ed4fec297f33
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '79'
+ht-degree: 22%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 語法
 
-## 授權使用者類型 {#section-ee88a759f4774482a4734201a971f610}
+## 授權用戶類型{#section-ee88a759f4774482a4734201a971f610}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -42,7 +45,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`成功`*` | `xsd:boolean` | 是 | 返回 `true` 包是否已更新。 |
+| ` *`成功`*` | `xsd:boolean` | 是 | 如果更新了資料包，則返回`true`。 |
 
 ## 範例 {#section-38b556b94e5044bf97a954519ff6c212}
 
