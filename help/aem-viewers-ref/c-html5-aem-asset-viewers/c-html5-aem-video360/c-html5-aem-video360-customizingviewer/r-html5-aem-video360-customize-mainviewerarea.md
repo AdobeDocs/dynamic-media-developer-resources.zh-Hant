@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: ec321901-f077-4f71-a48c-20cae11c41d1
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '145'
+ht-degree: 2%
 
 ---
 
@@ -43,7 +46,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
    <td colname="col2"> <p>檢視器的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景色  </span> </p> </td> 
    <td colname="col2"> <p> 十六進位格式的背景顏色。 </p> </td> 
   </tr> 
  </tbody> 
@@ -51,7 +54,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 
 ## 範例 {#section-ee18025b182a42dc98052de5f133ddfe}
 
-若要設定具有白色背景( `#FFFFFF`)的檢視器，並將其大小設為512 x 288像素。
+若要設定具有白色背景(`#FFFFFF`)的檢視器，並將其大小設為512 x 288像素。
 
 ```
 .s7video360viewer { 
