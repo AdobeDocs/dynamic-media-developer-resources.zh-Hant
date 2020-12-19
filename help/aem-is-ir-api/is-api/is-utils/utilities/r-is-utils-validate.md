@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 87a129ed-950a-4b1a-9240-bf567cd8e38f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '306'
+ht-degree: 1%
 
 ---
 
@@ -24,52 +27,52 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 <table id="simpletable_D2C6B20E1007433AB4184A73046A44F0"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> 文 <span class="varname"> 件類型 </span></span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> -jpeg| -ptif| -any </span> </p> <p>源檔案類型；至少必須指定一個（-any允許IC支援的相同影像檔案類型）。 </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> fileType  </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> -jpeg | -ptif | -any  </span> </p> <p>源檔案類型；至少必須指定一個（-any允許IC支援的相同影像檔案類型）。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 選項 </span></span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 選項  </span> </span> </p> </td> 
   <td class="stentry"> <p>其他命令選項（請參見下面）。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> 源 <span class="varname"> 檔案 </span></span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> sourceFile  </span> </span> </p> </td> 
   <td class="stentry"> <p> 影像檔。 無或更多，以空格分隔。 </p> </td> 
  </tr> 
 </table>
 
-## Returns {#section-67a7cf7c53144fbb8f24b818f4a10901}
+## 傳回{#section-67a7cf7c53144fbb8f24b818f4a10901}
 
-0（如果成功）。 如果發生錯誤，則會傳回非零值，並傳送錯誤詳細資訊給 `stderr`。
+0（如果成功）。 如果發生錯誤，則會傳回非零值，並將錯誤詳細資料傳送至`stderr`。
 
 ## 選項 {#section-9df8334b46cb4e90901505af59e4600e}
 
 <table id="simpletable_004B1A29BDFD40A9B89E4CBD23119B3F"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> -fileList <span class="varname"> listFile </span></span> </p> </td> 
-  <td class="stentry"> <p>指定包含影像檔案清單的單獨文本檔案。 每個檔案一條記錄。 如果 <span class="codeph"> 包含-fileList </span> ，則 <span class="varname"> 不 </span> 能指定sourceFile。 </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> -fileList  <span class="varname"> listFile  </span> </span> </p> </td> 
+  <td class="stentry"> <p>指定包含影像檔案清單的單獨文本檔案。 每個檔案一條記錄。 如果包含<span class="codeph"> -fileList </span>，則不能指定<span class="varname"> sourceFile </span>。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> -readPixels </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> -readPixels  </span> </p> </td> 
   <td class="stentry"> <p>啟用整個映像檔案的驗證。 依預設，只會驗證影像標題。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> -validatecolorprofile </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> -validatecolorprofile  </span> </p> </td> 
   <td class="stentry"> <p>驗證嵌入的色彩描述檔是否有效。 預設情況下，不選中截面梁主體。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> -reject16BitPerComponent </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> -reject16BitPerComponent  </span> </p> </td> 
   <td class="stentry"> <p> 拒絕每個影像元件16位元的影像。 驗證遠程源映像時，始終由映像伺服器指定。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> -verbose </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> -verbose  </span> </p> </td> 
   <td class="stentry"> <p> 如果影像無效，則列印更多資訊。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> -silent </span> </p> </td> 
-  <td class="stentry"> <p>禁用 <span class="codeph"> stdout </span>/ <span class="codeph"> stderr輸 </span> 出。 只會傳回狀態。 </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> -silent  </span> </p> </td> 
+  <td class="stentry"> <p>禁用<span class="codeph"> stdout </span>/ <span class="codeph"> stderr </span>輸出。 只會傳回狀態。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> -stopOnError </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> -stopOnError  </span> </p> </td> 
   <td class="stentry"> <p>在發生檔案驗證失敗時終止處理，即使其他檔案尚未驗證亦然。 依預設，當發生驗證錯誤時，處理會繼續進行 </p> </td> 
  </tr> 
  <tr class="strow"> 
