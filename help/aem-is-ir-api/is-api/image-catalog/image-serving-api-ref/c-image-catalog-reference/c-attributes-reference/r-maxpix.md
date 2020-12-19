@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 22c5fac8-1e64-4917-8bb8-69a95ab549cb
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '116'
+ht-degree: 3%
 
 ---
 
@@ -16,15 +19,15 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 回覆影像大小限制。 可傳回給用戶端的回覆影像寬度和高度上限。
 
-如果請求會導致寬度或高度大於的回覆影像，伺服器會傳回錯誤 `attribute::MaxPix`。
+如果請求會導致寬度或高度大於`attribute::MaxPix`的回覆影像，伺服器會傳回錯誤。
 
 ## 屬性 {#section-b175425b9e9f48e0b1a71640f6a9e936}
 
-兩個大於0的整數，以逗號分隔。 寬度和高度（以像素為單位）。 也可以設定為允 `0,0` 許任何回覆影像大小，不受限制。
+兩個大於0的整數，以逗號分隔。 寬度和高度（以像素為單位）。 也可設定為`0,0`以允許任何回覆影像大小，且無限制。
 
 ## 預設 {#section-1003537434da432fb2af100ecdbf9d72}
 
-繼承自 `default::MaxPix` （如果未定義或為空）。
+如果未定義或為空，則繼承自`default::MaxPix`。
 
 ## 另請參閱 {#section-7385697a1b86482bba19db894f7af95b}
 
