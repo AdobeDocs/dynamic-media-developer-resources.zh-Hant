@@ -9,7 +9,7 @@ uuid: bab5aab4-b5a3-4c8f-80bd-d9e3289b9bff
 translation-type: tm+mt
 source-git-commit: 420021e6c15bb7434379b90990ed4f6c7d695f4e
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,6 @@ ht-degree: 0%
 
 請使用下列資訊聯絡技術支援。
 
-* **電話** - 800-898-9743，美國太平洋時間，星期一至星期五，除節假日外。
-* **建立支援案例** - [https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
+* **電話** - 800-898-9743，美國太平洋時間，星期一至星期五，除節假日外，06:00至18:00。
+* **建立支援案例** -  [https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
 
