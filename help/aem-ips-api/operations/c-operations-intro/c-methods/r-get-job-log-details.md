@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: e4314348-2160-4775-a02f-b4892924f064
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '224'
+ht-degree: 17%
 
 ---
 
@@ -16,9 +19,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 取得公司工作記錄的詳細資訊。
 
-響 `logMessage` 應欄位是基於欄位本地 `authHeader``locale` 化的。
+`logMessage`回應欄位會根據`authHeader` `locale`欄位進行本地化。
 
-## 授權使用者類型 {#section-6f720a7baad64eb3805868c88af9a960}
+## 授權用戶類型{#section-6f720a7baad64eb3805868c88af9a960}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -44,49 +47,49 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 公 <span class="varname"> 司控制</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 作業日誌所屬的公司的句柄。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> jobHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> jobHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 作用中或已完成作業的句柄。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 原 <span class="varname"> 始名稱</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> originalName</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 作業日誌的原始名稱。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> logTypeArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> logTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：StringArray</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 一個或多個日誌類型常數。 如果存在，則只返回指定的日誌類型。 預設情況下，將返回所有日誌類型。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> RecordsPerPage</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> recordsPerPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4">要返回的 <span class="codeph"> detailArray</span> 項目數上限。 最大值和預設值為1000。 </td> 
+   <td colname="col4">要返回的<span class="codeph"> detailArray</span>項目的最大數量。 最大值和預設值為1000。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 結 <span class="varname"> 果頁面</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4">要傳回的 <span class="codeph"> recordsPerPage</span>-results的頁數。 預設值為 1。 </td> 
+   <td colname="col4">要返回的<span class="codeph"> recordsPerPage</span>-results的頁碼。 預設值為 1。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 排 <span class="varname"> 序方式</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> sortBy</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> <p>任務詳細資訊排序欄位常數值之一（日期或日誌類型）。 預設值為「日期」。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> sortDirection</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> sortDirection</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> <p>排序方向字串常數之一。 預設值為遞增。 </p> </td> 
