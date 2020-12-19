@@ -9,7 +9,7 @@ uuid: 33f1d093-007d-453b-965a-9d701a845954
 translation-type: tm+mt
 source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -21,29 +21,29 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->建議將所有日誌檔案配置為寫入到與相同的資料夾 `TC::directory`。 這可確保所有映像服務日誌檔案都參與配置為的自動日誌檔案旋轉 `TC::maxDays`，從而防止由於磁碟空間不足而導致的伺服器可能不穩定。
+>建議將所有日誌檔案配置為與`TC::directory`寫入到同一資料夾。 這可確保所有映像服務日誌檔案都參與配置有`TC::maxDays`的自動日誌檔案旋轉，從而防止由於磁碟空間不足而導致的伺服器不穩定。
 
-## SV::log —— 伺服器主管跟蹤日誌檔案路徑 {#section-3697bc480ff646e79cacc2812c55ef26}
+## SV::log —— 伺服器主管跟蹤日誌檔案路徑{#section-3697bc480ff646e79cacc2812c55ef26}
 
-伺服器主管日誌檔案的資料夾和基本檔案名。 路徑可以是絕對或相對 *[!DNL install_folder]*。 伺服器主管將在檔案名(如果有的話，在檔案尾碼之 *[!DNL -yyyy-mm-dd]*&#x200B;前)附加一個連字型大小和當前日期()。 建議將所有日誌檔案發送到與平台伺服器日誌檔案( `PS::LogFolder`)相同的資料夾，以利用平台伺服器( `PS::LogDays`)實施的日誌檔案管理。 預設為 [!DNL logs/Supervisor.log].
+伺服器主管日誌檔案的資料夾和基本檔案名。 路徑可以是絕對路徑，也可以是相對於&#x200B;*[!DNL install_folder]*。 伺服器主管將在檔案名（如果有的話，在檔案尾碼之前）附加一個連字元和當前日期(*[!DNL -yyyy-mm-dd]*)。 建議將所有日誌檔案發送到與平台伺服器日誌檔案(`PS::LogFolder`)相同的資料夾，以利用平台伺服器(`PS::LogDays`)實施的日誌檔案管理。 預設為 [!DNL logs/Supervisor.log].
 
 >[!NOTE]
 >
 >必須先建立新資料夾，才能變更此設定。 請確定已設定訪問權限，以便伺服器主管具有必要的建立、讀取和寫入權限。
 
-## SV::tracelevel —— 伺服器主管跟蹤日誌級別 {#section-36f8634741da4c618d67aa628b5fe474}
+## SV::tracelevel —— 伺服器主管跟蹤日誌級別{#section-36f8634741da4c618d67aa628b5fe474}
 
 日誌級別可以是1、2、3或4。 預設為 2。
 
-## IS:：日誌——映像伺服器調試日誌檔案路徑 {#section-73a3f09b77f2446c9f82207b7d8aec39}
+## IS::Log - Image Server調試日誌檔案路徑{#section-73a3f09b77f2446c9f82207b7d8aec39}
 
-Image Server跟蹤日誌檔案的資料夾和基本檔案名。 路徑可以是絕對或相對 *[!DNL install_folder]*。 ImageServer會在檔案名稱(若有的話，在檔 *[!DNL -yyyy-mm-dd]*&#x200B;案尾碼之前)附加連字型大小和目前日期()。 建議將映像伺服器日誌檔案與平台伺服器日誌檔案( `PS::LogFolder`)發送到相同的資料夾，以利用平台伺服器實施的日誌檔案管理(請參見 `PS::LogDays`)。
+Image Server跟蹤日誌檔案的資料夾和基本檔案名。 路徑可以是絕對路徑，也可以是相對於&#x200B;*[!DNL install_folder]*。 ImageServer將在檔案名（如果有的話，在檔案尾碼之前）附加一個連字型大小和當前日期(*[!DNL -yyyy-mm-dd]*)。 建議將映像伺服器日誌檔案發送到與平台伺服器日誌檔案(`PS::LogFolder`)相同的資料夾，以利用平台伺服器實施的日誌檔案管理（請參見`PS::LogDays`）。
 
 >[!NOTE]
 >
 >必須先建立新資料夾，才能變更此設定。 請確定已設定存取權限，讓「影像伺服」具有必要的建立、讀取和寫入權限。
 
-## IS:TraceClient —— 映像伺服器調試日誌級別 {#section-3851f1f68e404430985c629ac80534db}
+## IS:TraceClient —— 映像伺服器調試日誌級別{#section-3851f1f68e404430985c629ac80534db}
 
 記錄層級可以是1、2、3或4（預設為2）
 
@@ -57,6 +57,6 @@ Image Server跟蹤日誌檔案的資料夾和基本檔案名。 路徑可以是�
 
 級別3和級別4應僅用於調試，因為日誌檔案可能變得非常大。
 
-## IS::TraceStatsInterval —— 影像伺服器統計日誌間隔 {#section-1d8df96d61044e33a5b2b2b0309c2d59}
+## IS::TraceStatsInterval —— 鏡像伺服器統計日誌間隔{#section-1d8df96d61044e33a5b2b2b0309c2d59}
 
 映像伺服器按此設定指定的間隔將記憶體統計資訊寫入其跟蹤日誌檔案。 有效範圍為5到86,400秒。
