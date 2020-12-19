@@ -22,7 +22,7 @@ HTML5檢視器的系統需求。
 
 <!-- Updated June 1, 2020 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
 
-## 伺服器硬體與軟體 {#section-05099146f1f0418988c196635110bee6}
+## 伺服器硬體和軟體{#section-05099146f1f0418988c196635110bee6}
 
 * Dynamic Media Classic Image Serving 6.7.1或更新版本。
 * HTML5檢視器需要SDK JavaScript伺服器端程式庫3.9.1或更新版本。
@@ -30,16 +30,16 @@ HTML5檢視器的系統需求。
 * eCatalog檢視器——資訊面板支援需要資訊伺服器2.1.8或更新版本。
 * 搜尋功能元件需要s7search 2.3.0或更新版本。
 
-## 檢視器系統需求 {#section-cc72b1e209524d038b4d5b92b35e998e}
+## 檢視器系統需求{#section-cc72b1e209524d038b4d5b92b35e998e}
 
 **元件檢視器的用戶端瀏覽器最低需求**
 
-* Microsoft® Windows® 7或更新版本； macOS X 10.12或更新版本。
-* Firefox 69、Safari 11（僅限macOS）、Chrome 75(或最新版本； Chrome會自動更新至最新版本)、Internet Explorer 11、Microsoft Edge。
+* Microsoft® Windows® 7或更新版本；macOS X 10.12或更新版本。
+* Firefox 69、Safari 11（僅限macOS）、Chrome 75(或最新版本；Chrome會自動更新至最新版本)、Internet Explorer 11、Microsoft Edge。
 * iOS6或更新版本。
 * 已在iPhone 3GS或更新版本，以及iPad 2或更新版本上取得認證（僅限Safari和Chrome瀏覽器）。
 * Android OS 4.x或更新版本。
-* 黑莓10或更高版本； 僅限原生瀏覽器。 目前僅支援視訊播放。
+* 黑莓10或更高版本；僅限原生瀏覽器。 目前僅支援視訊播放。
 * 目前不支援行動裝置上的Internet Explorer。
 * 全景檢視器在iOS 10或更新版本、Firefox 69、Chrome 75、Safari 11或更新版本、Internet Explorer 11或更新版本、Microsoft Edge、Android 4.4或更新版本上都受支援（僅限手機裝置）。
 * 視訊360檢視器和Dimensional檢視器支援iOS12或更新版本、Firefox 69、Chrome 75、Safari 12或更新版本、Microsoft Edge、Android 5或更新版本（僅限手機裝置）。
