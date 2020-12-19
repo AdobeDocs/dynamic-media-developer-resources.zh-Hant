@@ -6,6 +6,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 0fca88bb-de00-4eff-83ad-c0f5e3b8ece0
 translation-type: tm+mt
 source-git-commit: 7b837020deef888a038a074d0aa826d43e60aeb6
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7b837020deef888a038a074d0aa826d43e60aeb6
 
 文字字串。 影像記錄需要，範本記錄可能是空的。 如果指定，則必須是有效的相對或絕對映像伺服器檔案路徑。 attribute::DefaultExt會在未顯示檔案尾碼時附加。
 
-## 支援的影像檔案格式 {#path-supported-image-file-formats}
+## 支援的影像檔案格式{#path-supported-image-file-formats}
 
 有關支援的檔案格式的完整清單，請參閱映像轉換器(IC)實用程式的說明。
 
