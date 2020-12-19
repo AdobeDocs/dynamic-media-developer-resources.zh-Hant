@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 59b37d60-1d0c-4d0b-a5a0-98d8bf9e9064
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,11 +30,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 *`template`* 必須是包含範本內文的影像目錄項目 `catalog::Modifier`。
 
-當存 `template=` 在時，在請求路徑中指定的對象將不作為層0的源應用，但可以作為模板中的或任意位置引用，方法是使用預定義的路徑變數 `src=` 作為 `mask=``$object$``src=` 值。 `catalog::Modifier` 在請求路徑中指定的對象，僅與模板內的替代相 `$object$` 關應用，同 `catalog::PostModifier` 時始終應用。
+當存在`template=`時，在請求路徑中指定的對象將不應用為層0的源，但可以使用預先定義的路徑變數`$object$`作為`src=`值作為模板中任何位置的`src=`或`mask=`引用。 `catalog::Modifier` 在請求路徑中指定的對象，僅與模板內的替代相 `$object$` 關應用，同 `catalog::PostModifier` 時始終應用。
 
 圖層0定義在範本內文中，可以是影像、純色、文字或巢狀或內嵌的請求圖層。
 
-`catalog:PostModifier` 的 *`object`* 值，則 *`object`* 會忽略 `template=`。
+`catalog:PostModifier` 的 *`object`* 值會在 *`object`* 搭配使用時忽略 `template=`。
 
 ## 預設 {#section-9de53ea27c4b4fd4811e40e345d8ba05}
 
@@ -43,7 +46,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 範例 {#section-9a4f260ed43342b186b0fe855f34bca6}
 
-請參閱範本中的 [範例](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e)。
+請參閱[Templates](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e)中的範例。
 
 ## 另請參閱 {#section-067587444f774469931ecafd5a39834c}
 
