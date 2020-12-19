@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: fd726466-6dca-4612-a342-50689ed1469f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '115'
+ht-degree: 4%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 預設 {#section-e0ed902557684345850b86672b5dbe5b}
 
-無. 每個目錄都必須有唯一 `catalog::RootId` 值。 default.ini通常為空 `catalog::RootId`。
+無. 每個目錄都必須有唯一的`catalog::RootId`值。 default.ini通常有空的`catalog::RootId`。
 
 ## 另請參閱 {#section-4670832574f54f9080bb485b047efd5b}
 
