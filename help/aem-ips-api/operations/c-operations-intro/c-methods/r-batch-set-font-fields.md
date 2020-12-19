@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 0209865e-32b3-4bea-a508-05771a0365e1
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '130'
+ht-degree: 14%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 設定字型中繼資料欄位。
 
-## 授權使用者類型 {#section-89eff13b5ed54cddb87b1304ba4eff0e}
+## 授權用戶類型{#section-89eff13b5ed54cddb87b1304ba4eff0e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -40,7 +43,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | ` *`successCount`*` | `xsd:int` | 是 | 成功設定字型欄位的數目。 |
 | ` *`warningCount`*` | `xsd:int` | 是 | 嘗試設定字型欄位時產生的警告數。 |
 | ` *`errorCount`*` | `xsd:int` | 是 | 嘗試設定字型欄位時產生的錯誤數。 |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 與資產相關的詳細資訊陣列，當操作嘗試套用更新時，這些資產會產生警告。 |
+| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 與資產相關的詳細資料陣列，當操作嘗試套用更新時，這些資產會產生警告。 |
 | ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 當操作嘗試套用更新時，與產生錯誤的資產相關的詳細資訊陣列。 |
 
 ## 範例 {#section-0449c2e4ec534f4b8ee849ec4fe12c4e}
