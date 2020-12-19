@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: cff2e7a4-ba88-4248-8e9f-ed1a3b628924
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '55'
+ht-degree: 7%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> -1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td> <p>指定元件預載行為。 當設為 <span class="codeph"> -1</span> 時，初始化元件或變更資產時，會同時載入所有色票。 </p> <p>設為0時 <span class="codeph"></span> ，僅載入可見色票。 </p> <p><span class="codeph"><span class="varname"> preloadnbr定義</span></span> 預載可見區域周圍的不可見行／列的數量。 </p> </td> 
+   <td> <p>指定元件預載行為。 當設為<span class="codeph"> -1</span>時，在初始化元件或更改資產時，將同時載入所有色票。 </p> <p>設為<span class="codeph"> 0</span>時，僅載入可見色票。 </p> <p><span class="codeph"><span class="varname"> preloadnbr</span></span> 定義預先載入可見區域周圍的不可見列／欄數。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
