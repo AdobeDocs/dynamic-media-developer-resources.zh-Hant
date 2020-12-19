@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 4ff7fcb4-a10a-4e82-80a1-edf79ae1f717
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '132'
+ht-degree: 3%
 
 ---
 
@@ -37,7 +40,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 範例 {#section-47e4811882574441a4d517e42a35f352}
 
-在「影像製作」中進行一些實驗後，確定非銳利化遮色片(USM)可為特定應用程式和材質提供正確銳利化量。 配置USM的渲染設定字串被複製到命令 `rs=` 中，以便與以下內容一起使用：
+在「影像製作」中進行一些實驗後，確定非銳利化遮色片(USM)可為特定應用程式和材質提供正確銳利化量。 配置USM的渲染設定字串被複製到`rs=`命令中，以便與以下內容一起使用：
 
 `…&rs=U2V20W50X2&…`
 
