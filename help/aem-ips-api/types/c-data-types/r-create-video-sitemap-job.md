@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 85db2e47-ee15-4fdd-a8e2-bb45078f814a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -30,9 +33,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> forceUpdate</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> forceUpdate</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3">當設為true時產生網站 <span class="codeph"> 地圖</span>。 <p><p>注意：如果「網站地圖開發設定」設為手動 <span class="codeph"> 設定</span> ，且未設定forceUpdate，則不會產生網站地圖。 </p></p></td> 
+   <td colname="col3">當設為<span class="codeph"> true</span>時，產生網站地圖。 <p><p>注意：如果Sitemap生成配置設定為手動且<span class="codeph"> forceUpdate</span>未設定，則不生成站點映射。 </p></p></td> 
   </tr> 
  </tbody> 
 </table>
