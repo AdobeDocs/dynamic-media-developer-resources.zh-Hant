@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: abee352a-5843-4e25-8fca-05b7dceca5b2
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '85'
+ht-degree: 3%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 屬性 {#section-a101e9658d304e9caf032a99ecb80386}
 
-文字字串。 如果空 `attribute::LocaleMap` 白 `attribute::LocaleStrMap` ，或指定但非空白 `locale=` 時忽略。
+文字字串。 如果`attribute::LocaleMap`和`attribute::LocaleStrMap`為空，或當`locale=`被指定為非空時，則忽略。
 
 ## 另請參閱 {#section-b9ffc98baf6c4f67a26466f90cee18b6}
 
