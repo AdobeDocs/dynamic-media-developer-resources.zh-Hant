@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: 791c47e9-daab-4500-9cd0-e56ee6fc830e
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '131'
+ht-degree: 3%
 
 ---
 
 
-# 處置{#dispose}
+# dispose{#dispose}
 
 eCatalog檢視器的JavaScript API參考。
 
@@ -22,15 +25,15 @@ eCatalog檢視器的JavaScript API參考。
 
 網頁程式碼也應刪除檢視器例項變數，以便從網頁瀏覽器記憶體中完全移除檢視器。
 
-如果網頁程式碼已直接在檢視器SDK元件上註冊事件偵聽器，檢視器會使用或儲存這些元件的外部參考，則這類監聽器必須由網頁程式碼明確註冊，且這些外部元件參考必須在呼叫前先刪除 [!DNL `dispose()`]。
+如果網頁程式碼已直接在檢視器SDK元件上註冊事件偵聽器，檢視器會使用或儲存這些元件的外部參考，則這類監聽器必須由網頁程式碼明確取消註冊，而且這些外部元件參考必須在呼叫[!DNL `dispose()`]之前先刪除。
 
-呼叫後，請勿再存取檢視器 [!DNL `dispose()`] API。
+呼叫[!DNL `dispose()`]後，請勿再存取檢視器API。
 
 ## 參數 {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 
 無。
 
-## Returns {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## 傳回{#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 無。
 
