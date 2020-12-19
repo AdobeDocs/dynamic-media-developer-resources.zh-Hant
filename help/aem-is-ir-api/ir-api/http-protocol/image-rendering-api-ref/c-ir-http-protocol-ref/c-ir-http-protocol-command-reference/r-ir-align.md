@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 0b24cd82-f9b2-48f4-9052-8c2026370ff7
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '197'
+ht-degree: 4%
 
 ---
 
@@ -37,9 +40,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </tr> 
 </table>
 
-渲染器將紋理應用於對象，使紋理錨點( `anchor=`)與指定的原點重合。
+渲染器將紋理應用於對象，使紋理錨點(`anchor=`)與指定的原點一致。
 
-每個物件最多可定義6個原點(0、1、3、4、5、6)。 如果指 `align` 定了值，但暈映對象未定義對應的原點，則使用預設（中心匹配）原點。
+每個物件最多可定義6個原點(0、1、3、4、5、6)。 如果指定了`align`值，但暈映對象未定義對應的原點，則使用預設（中心匹配）原點。
 
 `align=2` 指定隨機紋理對齊，在這種情況下 `anchor=` 會有效忽略。
 
