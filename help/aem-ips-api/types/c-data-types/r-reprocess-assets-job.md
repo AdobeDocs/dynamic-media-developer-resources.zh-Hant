@@ -9,13 +9,13 @@ uuid: 5b4aa838-0fb4-4ae8-be5a-8ce1e1487127
 translation-type: tm+mt
 source-git-commit: fa8be83171215f39cd2593a3bfe75ffe5fb7abcd
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# 重新處理AssetsJob{#reprocessassetsjob}
+# ReprocessAssetsJob{#reprocessassetsjob}
 
 工作類型可允許重新處理先前上傳的主要檔案，包括重新轉存PDF和重新最佳化影像。
 
@@ -44,18 +44,18 @@ ht-degree: 5%
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> preservePublishState</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:boolean</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd：布林值</span> </p> </td> 
    <td colname="col3"> <p>控制覆寫現有資產時是否保留其發佈狀態。 如果未設定，則會使用公司預設設定。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> createMask</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:boolean</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd：布林值</span> </p> </td> 
    <td colname="col3"> <p>是否建立蒙版。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> preserveCrop</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:boolean</span> </p> </td> 
-   <td colname="col3"> <p>控制任何現有裁切定義的保留。 預設為 true。</p> <p>如果您提供manualCropOptions參數和對應值，則新值（不包括0,0,0,0）會套用至資產，而不論preserveCrop值為何。</p><p>如果您未 <i>提供</i> manualCropOptions參數，則會保留preserveCrop的值。 而且，若為true，則會保留現有的preserveCrop值； 若為false，則會移除preserveCrop值。</p><p>範例：</p><p><p>&lt;preserveCrop&gt;false&lt;/preserveCrop&gt;<br />&lt;manualCropOptions&gt;<br />&lt;left&gt;<br />&lt;left&gt;190&lt;/left&gt;<br />&lt;right&gt;<br />&lt;top&gt;<br />&lt;top&gt;&lt;bottom&gt;120&lt;/bottom&gt;&lt;/manualCropOptions&gt;</p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd：布林值</span> </p> </td> 
+   <td colname="col3"> <p>控制任何現有裁切定義的保留。 預設為 true。</p> <p>如果您提供manualCropOptions參數和對應值，則新值（不包括0,0,0,0）會套用至資產，而不論preserveCrop值為何。</p><p>如果您<i>not</i>提供manualCropOptions參數，則preserveCrop的值會維持不變。 而且，若為true，則會保留現有的preserveCrop值；若為false，則會移除preserveCrop值。</p><p>範例：</p><p><p>&lt;preservecrop&gt;false&lt;/preservecrop&gt;<br />&lt;manualcropoptions&gt;<br />    &lt;left&gt;190&lt;/left&gt;<br />    &lt;right&gt; &lt;/right&gt;<br />    &lt;top&gt;310&lt;/top&gt;<br />    &lt;bottom&gt;160120&lt;/bottom&gt;<br />&lt;/manualcropoptions&gt;</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </p> </td> 
@@ -119,7 +119,7 @@ ht-degree: 5%
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postJobOnlyIfFiles</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:boolean</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd：布林值</span> </p> </td> 
    <td colname="col3"> <p>是否只上傳檔案。 </p> </td> 
   </tr> 
   <tr> 
@@ -150,25 +150,25 @@ ht-degree: 5%
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> knouckBackground</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 類型：ThrounkBackgroundOptions</span> </p> </td> 
-   <td colname="col3"> <p>遮色所選影像的背景。 這可讓您在主題影像外以透明度覆蓋其他圖層。 </p> <p>選填。 </p> <p>請參閱<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> ThrounkdBackgroundOptions</a> </p> </td> 
+   <td colname="col3"> <p>遮色所選影像的背景。 這可讓您在主題影像外以透明度覆蓋其他圖層。 </p> <p>選填。 </p> <p>請參閱<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> ThunkloupBackgroundOptions</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> unsharpMaskOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 類型：UnsharpMaskOptions</span> </p> </td> 
-   <td colname="col3"> <p>可讓您在建立最佳金字塔TIF檔案時控制遮色片銳利化設定的選項。 使用這些設定可協助改善影像的銳利度。 </p> <p>請參閱 <a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> UnsharpMaskOptions</a>。 </p> </td> 
+   <td colname="col3"> <p>可讓您在建立最佳金字塔TIF檔案時控制遮色片銳利化設定的選項。 使用這些設定可協助改善影像的銳利度。 </p> <p>請參閱<a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> UnsharpMaskOptions</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **附註**
 
-可供選擇 `*CropOptions` 的項目包括：
+`*CropOptions`的選項包括：
 
 * `manualCropOptions`
 * `autoColorCropOptions`
 * `autoTransparentCropOptions`
 
-可供選擇 `*PublishJob` 的項目包括：
+`*PublishJob`的選項包括：
 
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`
