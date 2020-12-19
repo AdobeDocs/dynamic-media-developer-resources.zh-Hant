@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 00d2643c-1a74-4542-bd72-e6dc22d402b0
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '105'
+ht-degree: 0%
 
 ---
 
 
-# 文字圖層指令{#text-layer-commands}
+# 文本層命令{#text-layer-commands}
 
 除了常用的圖層命令外，這些命令還適用於文本圖層。
 
