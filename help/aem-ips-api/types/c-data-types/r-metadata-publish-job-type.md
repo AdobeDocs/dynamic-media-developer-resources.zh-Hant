@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 14cbb67e-56dc-4a25-b871-740be7ea7858
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '72'
+ht-degree: 9%
 
 ---
 
@@ -30,9 +33,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> forcePublish</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> forcePublish</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3">設為 <span class="codeph"> True</span> ，以再次 <i>將所有資</i> 料發佈至中繼資料伺服器。 <p>注意： 視資料量而定，這可能需要幾分鐘到幾小時。 </p><p>如果您只想發佈新的或變更的中繼資料，請勿設定此參數。 </p></td> 
+   <td colname="col3">設為<span class="codeph"> True</span>，以再次將<i>所有</i>資料發佈至中繼資料伺服器。 <p>注意： 視資料量而定，這可能需要幾分鐘到幾小時。 </p><p>如果您只想發佈新的或變更的中繼資料，請勿設定此參數。 </p></td> 
   </tr> 
  </tbody> 
 </table>
