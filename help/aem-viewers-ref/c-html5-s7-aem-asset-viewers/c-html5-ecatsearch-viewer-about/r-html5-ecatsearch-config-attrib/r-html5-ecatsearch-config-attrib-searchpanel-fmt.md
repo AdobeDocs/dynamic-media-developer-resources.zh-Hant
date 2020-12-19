@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 58b88cc9-e07a-47aa-a0d2-c81428ca4d1e
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td colname="col2"> <p> 指定元件用於從Image Server載入映像的映像格式。 它可以是Image Server和用戶端瀏覽器支援的任何格式。 </p> <p>如果指定的格式以 <span class="codeph"> -alpha結尾</span>，則元件會將影像渲染為透明內容。 對於所有其他影像格式，元件會將影像視為不透明。 </p> </td> 
+   <td colname="col2"> <p> 指定元件用於從Image Server載入映像的映像格式。 它可以是Image Server和用戶端瀏覽器支援的任何格式。 </p> <p>如果指定的格式以<span class="codeph"> -alpha</span>結尾，則元件會將影像渲染為透明內容。 對於所有其他影像格式，元件會將影像視為不透明。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
