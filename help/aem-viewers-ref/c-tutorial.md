@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: ea331f05-0c58-4e6b-b5a1-d9b8372d8e94
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '999'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 雖然這些元件依賴HTML5功能，但其設計可在Android和Apple iOS裝置以及桌上型電腦上運作，包括Internet Explorer和更新版本。 這種體驗意味著您可以為所有支援的平台提供單一工作流程。
 
-SDK包含UI元件，可組成檢視器內容。 您可以透過CSS和具有某種支援角色的非UI元件來設定這些元件的樣式，例如設定定義擷取和剖析或追蹤。 所有元件行為都可透過修飾元自訂，您可以透過多種方式指定，例如，在URL `name=value` 中成對指定。
+SDK包含UI元件，可組成檢視器內容。 您可以透過CSS和具有某種支援角色的非UI元件來設定這些元件的樣式，例如設定定義擷取和剖析或追蹤。 所有元件行為都可透過修飾元自訂，您可以透過多種方式指定，例如，在URL中以`name=value`對的形式指定。
 
 本教學課程包含下列工作順序，以協助您建立基本的縮放檢視器：
 
@@ -32,9 +35,9 @@ SDK包含UI元件，可組成檢視器內容。 您可以透過CSS和具有某�
 * [新增按鈕至檢視器](c-tutorial.md#section-1fc334fa0d2b47eb9cdad461725c07be)
 * [垂直配置色票](c-tutorial.md#section-91a8829d5b5a4d45a35b7faeb097fcc9)
 
-## 從Adobe Developer Connection下載最新的Viewer SDK {#section-84dc74c9d8e24a2380b6cf8fc28d7127}
+## 從Adobe Developer Connection {#section-84dc74c9d8e24a2380b6cf8fc28d7127}下載最新的檢視器SDK
 
-1. 從Adobe Developer Connection下載最新的檢視器SDK [至這裡](https://marketing.adobe.com/developer/devcenter/scene7/show)。
+1. 從Adobe Developer Connection [這裡](https://marketing.adobe.com/developer/devcenter/scene7/show)下載最新的檢視器SDK。
 
    >[!NOTE]
    >
@@ -79,7 +82,7 @@ SDK包含UI元件，可組成檢視器內容。 您可以透過CSS和具有某�
    </html>
    ```
 
-   在標籤中新增下列JavaScript程 `script` 式碼以初始化 `ParameterManager`。 這可協助您準備在函式中建立和執行個體化SDK `initViewer` 元件：
+   在`script`標籤中新增下列JavaScript程式碼，以初始化`ParameterManager`。 這可協助您準備在`initViewer`函式中建立和執行個體化SDK元件：
 
    ```
    /* We create a self-running anonymous function to encapsulate variable scope. Placing code inside such 
@@ -119,11 +122,11 @@ SDK包含UI元件，可組成檢視器內容。 您可以透過CSS和具有某�
 
 您現在會將樣式新增至檢視器。
 
-## 新增樣式至檢視器 {#section-3783125360a1425eae5a5a334867cc32}
+## 將樣式新增至檢視器{#section-3783125360a1425eae5a5a334867cc32}
 
 1. 對於您正在建立的完整頁面檢視器，您可以新增一些基本樣式。
 
-   將下列 `style` 區塊新增至 `head`:
+   將以下`style`塊添加到`head`的底部：
 
    ```
    <style> 
@@ -142,13 +145,13 @@ SDK包含UI元件，可組成檢視器內容。 您可以透過CSS和具有某�
    </style>
    ```
 
-您現在會包含元件 `Container` 和 `ZoomView`。
+您現在將包含`Container`和`ZoomView`元件。
 
-## 包含容器和縮放檢視 {#section-1a01730663154a508b88cc40c6f35539}
+## 包含容器和縮放檢視{#section-1a01730663154a508b88cc40c6f35539}
 
-1. 加入元件和，以建立實際的檢 `Container` 視器 `ZoomView`。
+1. 加入元件`Container`和`ZoomView`以建立實際的檢視器。
 
-   在指令碼 `include` 載入後，將以下語 `<head>` 句插入元 [!DNL Utils.js] 素底部：
+   在[!DNL Utils.js]指令碼載入後，將以下`include`語句插入`<head>`元素的底部：
 
    ```
    <!-- 
@@ -163,13 +166,13 @@ SDK包含UI元件，可組成檢視器內容。 您可以透過CSS和具有某�
 
 1. 現在，請建立變數以參考各種SDK元件。
 
-   將下列變數新增至主要匿名函式的頂端，就在上方 `s7sdk.Util.init()`:
+   將下列變數新增至主要匿名函式的頂端，位於`s7sdk.Util.init()`的正上方：
 
    ```
    var container, zoomView;
    ```
 
-1. 在函式內插入下列 `initViewer` 項目，以定義某些修飾元並執行個體化個別元件：
+1. 在`initViewer`函式內插入下列項目，以定義某些修飾元並執行個體化個別元件：
 
    ```
    /* Modifiers can be added directly to ParameterManager instance */ 
@@ -190,7 +193,7 @@ SDK包含UI元件，可組成檢視器內容。 您可以透過CSS和具有某�
    resizeViewer(container.getWidth(), container.getHeight());
    ```
 
-1. 若要正確執行上述程式碼，請新增事 `containerResize` 件處理常式和協助程式函式：
+1. 若要正確執行上述程式碼，請新增`containerResize`事件處理常式和協助程式函式：
 
    ```
    /* Event handler for s7sdk.event.ResizeEvent.COMPONENT_RESIZE events dispatched by Container to resize 
@@ -209,11 +212,11 @@ SDK包含UI元件，可組成檢視器內容。 您可以透過CSS和具有某�
 
    ![](assets/viewer-1.jpg)
 
-您現在會新增元件 `MediaSet` 並 `Swatches` 至檢視器。
+您現在會將`MediaSet`和`Swatches`元件新增至檢視器。
 
-## 將MediaSet和色票元件新增至檢視器 {#section-02b8c21dd842400e83eae2a48ec265b7}
+## 將MediaSet和色票元件新增至檢視器{#section-02b8c21dd842400e83eae2a48ec265b7}
 
-1. 若要讓使用者能夠從影像集中選取影像，您可以新增元件 `MediaSet` 和 `Swatches`。
+1. 若要讓使用者能夠從一組影像中選取影像，您可以新增元件`MediaSet`和`Swatches`。
 
    新增下列SDK包括：
 
@@ -228,9 +231,9 @@ SDK包含UI元件，可組成檢視器內容。 您可以透過CSS和具有某�
    var mediaSet, container, zoomView, swatches;
    ```
 
-1. 執行個 `MediaSet` 體化 `Swatches` 函式內的 `initViewer` 元件。
+1. 在`initViewer`函式中實例化`MediaSet`和`Swatches`元件。
 
-   請務必在和元件 `Swatches` 後執行個體化 `ZoomView` 例項，否 `Container` 則堆疊順序會隱藏 `Swatches`:
+   請務必在`ZoomView`和`Container`元件後實例化`Swatches`實例，否則堆疊順序會隱藏`Swatches`:
 
    ```
    // Create MediaSet to manage assets and add event listener to the NOTF_SET_PARSED event 
@@ -266,7 +269,7 @@ SDK包含UI元件，可組成檢視器內容。 您可以透過CSS和具有某�
    }
    ```
 
-1. 將下列CSS新增至元素，將色票置於檢視器底部的 `style` 位置：
+1. 將下列CSS新增至`style`元素，將色票置於檢視器底部：
 
    ```
    /* Align swatches to bottom of viewer */ 
@@ -280,7 +283,7 @@ SDK包含UI元件，可組成檢視器內容。 您可以透過CSS和具有某�
 
 1. 預覽檢視器。
 
-   請注意，色票位於檢視器的左下方。 若要讓色票取得整個檢視器寬度，請新增呼叫，讓使用者在調整瀏覽器大小時手動調整色票大小。 將下列內容新增至函 `resizeViewer` 數：
+   請注意，色票位於檢視器的左下方。 若要讓色票取得整個檢視器寬度，請新增呼叫，讓使用者在調整瀏覽器大小時手動調整色票大小。 將下列內容新增至`resizeViewer`函式：
 
    ```
    swatches.resize(width, swatches.getHeight());
@@ -292,7 +295,7 @@ SDK包含UI元件，可組成檢視器內容。 您可以透過CSS和具有某�
 
 您現在會將放大、縮小和縮放重設按鈕新增至檢視器。
 
-## 新增按鈕至檢視器 {#section-1fc334fa0d2b47eb9cdad461725c07be}
+## 新增按鈕至檢視器{#section-1fc334fa0d2b47eb9cdad461725c07be}
 
 1. 目前，使用者只能使用點按或觸控手勢進行縮放。 因此，請新增一些基本的縮放控制按鈕至檢視器。
 
@@ -308,9 +311,9 @@ SDK包含UI元件，可組成檢視器內容。 您可以透過CSS和具有某�
    var mediaSet, container, zoomView, swatches, zoomInButton, zoomOutButton, zoomResetButton;
    ```
 
-1. 執行個體化函式底部的 `initViewer` 按鈕。
+1. 實例化`initViewer`函式底部的按鈕。
 
-   請記住，順序很重要，除非您在CSS中 `z-index` 指定：
+   請記住，順序很重要，除非您在CSS中指定`z-index`:
 
    ```
    /* Create Zoom In, Zoom Out and Zoom Reset buttons */ 
@@ -324,7 +327,7 @@ SDK包含UI元件，可組成檢視器內容。 您可以透過CSS和具有某�
    zoomResetButton.addEventListener("click", function() { zoomView.zoomReset(); });
    ```
 
-1. 現在，將下列項目新增至檔案上方的區塊，以定 `style` 義一些按鈕的基本樣式：
+1. 現在，將下列項目新增至檔案最上方的`style`區塊，以定義按鈕的一些基本樣式：
 
    ```
    /* define styles common to all button components and their sub-classes */ 
@@ -356,23 +359,23 @@ SDK包含UI元件，可組成檢視器內容。 您可以透過CSS和具有某�
 
    您現在會設定色票，讓色票在右側垂直對齊。
 
-## 垂直配置色票 {#section-91a8829d5b5a4d45a35b7faeb097fcc9}
+## 垂直配置色票{#section-91a8829d5b5a4d45a35b7faeb097fcc9}
 
-1. 您可以直接在例項上設定修飾 `ParameterManager` 元。
+1. 您可以直接在`ParameterManager`例項上設定修飾元。
 
-   將下列項目新增至函式頂 `initViewer` 端，以將縮圖 `Swatches` 配置設為單一列：
+   在`initViewer`函式頂端新增下列項目，將`Swatches`縮圖版面設為單一列：
 
    ```
    params.push("Swatches.tmblayout", "1,0");
    ```
 
-1. 在內部更新下列調整大小呼叫 `resizeViewer`:
+1. 在`resizeViewer`內更新下列調整大小呼叫：
 
    ```
    swatches.resize(swatches.getWidth(), height);
    ```
 
-1. 在中編輯 `s7swatches` 下列規 `ZoomViewer.css`則：
+1. 在`ZoomViewer.css`中編輯以下`s7swatches`規則：
 
    ```
    .s7swatches { 
