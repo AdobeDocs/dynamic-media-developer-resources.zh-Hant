@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 0b77d0c5-c4cc-4de7-b51d-6f2ca02316f5
 translation-type: tm+mt
 source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+workflow-type: tm+mt
+source-wordcount: '111'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
 
 以下是Scene 7 Image Serving文字引擎支援的關鍵字和命令清單。
 
-有關每個關鍵字或 [命令的詳細資訊](http://msdn.microsoft.com/en-us/library/aa140277%28v=office.10%29.aspx) ，請參閱發佈的RTF 1.6規範。
+有關每個關鍵字或命令的詳細資訊，請參閱發佈的[RTF 1.6規範](http://msdn.microsoft.com/en-us/library/aa140277%28v=office.10%29.aspx)。
 
 解析器將忽略下面未列出的RTF命令。
 
