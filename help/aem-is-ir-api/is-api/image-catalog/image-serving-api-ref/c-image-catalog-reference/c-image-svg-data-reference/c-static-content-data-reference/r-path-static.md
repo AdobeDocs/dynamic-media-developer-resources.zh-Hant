@@ -8,19 +8,22 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 455b6186-969a-49d9-a392-35660ec12213
 translation-type: tm+mt
 source-git-commit: 7721cccf3f779f258adcdcf886f7e01111e92be0
+workflow-type: tm+mt
+source-wordcount: '130'
+ht-degree: 6%
 
 ---
 
 
 # 路徑{#path}
 
-伺服器使用管理源資料中所述的路 [徑解析規則](../../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-configuration-and-administration.md#concept-1ec4d9f0e58a430cae045761f1ff9173) ，查找資料檔案。
+伺服器使用[管理源資料](../../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-configuration-and-administration.md#concept-1ec4d9f0e58a430cae045761f1ff9173)中所述的路徑解析規則查找資料檔案。
 
 ## 屬性 {#section-72d9edc532ad43349afcb4df22e1c692}
 
 文字字串。 影像和SVG記錄需要，範本記錄可能是空的。 如果指定，則必須是有效的相對或絕對映像伺服器檔案路徑。 attribute::DefaultExt會在未顯示檔案尾碼時附加。
 
-## 支援的影像檔案格式 {#section-8d6443c883aa48aaa00316fe9661aaa8}
+## 支援的影像檔案格式{#section-8d6443c883aa48aaa00316fe9661aaa8}
 
 有關支援的映像檔案格式的完整清單，請參閱映像轉換器(IC)實用程式的說明。
 
