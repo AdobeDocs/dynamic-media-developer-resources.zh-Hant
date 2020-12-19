@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 7fe6ee2a-986d-464d-bc15-1e6444bcf13b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 語法
 
-## 授權使用者類型 {#section-68ed5f5fcc5348308dfe074c590caeaa}
+## 授權用戶類型{#section-68ed5f5fcc5348308dfe074c590caeaa}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -40,13 +43,13 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> includeInvalid</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> includeInvalid</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4">設為： 
     <ul id="ul_FB9F59A8293B4CCA98E42EBF8412C77B"> 
-     <li id="li_3C2E6C4D3478411FA1A34D5CBFFC8108"><span class="codeph"> true</span> ，包含無效使用者。 </li> 
-     <li id="li_7FCA0DE4BE2248A690076FEC6854F5CE"><span class="codeph"> false</span> ，以省略無效的使用者。 </li> 
+     <li id="li_3C2E6C4D3478411FA1A34D5CBFFC8108"><span class="codeph"> trueto包</span> 含無效的使用者。 </li> 
+     <li id="li_7FCA0DE4BE2248A690076FEC6854F5CE"><span class="codeph"> Falles</span> 會省略無效使用者。 </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
