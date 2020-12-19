@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: e2a9388d-c753-4988-9aa0-73c4d0428d67
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '59'
+ht-degree: 8%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> iscommand</span></span> </p> </td> 
-   <td colname="col2"> <p> 套用至縮放影像的「影像伺服」命令字串。 如果在URL中指定，所有出現的 <span class="codeph"> &amp;</span> and <span class="codeph"> =</span> ，都必須分別以HTTP編碼為 <span class="codeph"> %26</span> 和 <span class="codeph"></span>%3D Allox。 </p> <p> <p>注意： 不支援影像大小調整指令。 </p> </p> </td> 
+   <td colname="col2"> <p> 套用至縮放影像的「影像伺服」命令字串。 如果在URL中指定，所有<span class="codeph"> &amp;</span>和<span class="codeph"> =</span>的出現次數都必須分別以HTTP編碼為<span class="codeph"> %26</span>和<span class="codeph"> %3D</span>。 </p> <p> <p>注意： 不支援影像大小調整指令。 </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
