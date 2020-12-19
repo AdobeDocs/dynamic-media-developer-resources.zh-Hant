@@ -8,37 +8,40 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: ea7d5d39-3f0a-45f0-bc28-6828a9c9da50
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# 存取記錄{#access-logging}
+# 訪問記錄{#access-logging}
 
 使用這些伺服器設定進行日誌訪問。
 
 語法
 
-## TC::directory —— 日誌檔案資料夾 {#section-5d9e2168d4504bbe9868b7d6051c9d67}
+## TC::directory —— 日誌檔案資料夾{#section-5d9e2168d4504bbe9868b7d6051c9d67}
 
-平台伺服器寫入日誌檔案的資料夾。 這可以是絕對路徑或相對於的路徑 *`install_folder`*。 預設值 [!DNL  *`install_folder`*為/logs]。
+平台伺服器寫入日誌檔案的資料夾。 此路徑可以是相對於&#x200B;*`install_folder`*&#x200B;的絕對路徑或路徑。 預設值為&#x200B;[!DNL  *`install_folder`*/logs]。
 
 >[!NOTE]
 >
 >必須先建立新資料夾，才能變更此設定。 如果安裝Image Serving以在root以外的用戶帳戶下運行，請確保資料夾具有正確的讀／寫訪問權限。
 
-## TC::maxDays —— 保留日誌檔案的天數 {#section-45cbecffc5694c87b7d5c176a44a4885}
+## TC::maxDays —— 保留日誌檔案的天數{#section-45cbecffc5694c87b7d5c176a44a4885}
 
 應保留的日誌檔案的天數。 每天午夜都會建立新的記錄檔。 此時，伺服器將刪除日誌檔案資料夾中早於指定天數的所有檔案，包括由映像伺服器或渲染伺服器編寫的檔案。 預設為 10。
 
-## TC::prefix —— 訪問日誌檔案名 {#section-1003856323b844049632710a5a056aa7}
+## TC::prefix —— 訪問日誌檔案名{#section-1003856323b844049632710a5a056aa7}
 
-訪問日誌資料寫入到的檔案的名稱前置詞。 日期和檔案尾碼( [!DNL  *`yyyy`*- *`mm`*- *`dd`*.log])會附加至指定的字串。 訪問日誌檔案的名稱必須與跟蹤日誌檔案的名稱不同。 預設為 &quot; `access-`&quot;.
+訪問日誌資料寫入到的檔案的名稱前置詞。 日期和檔案尾碼([!DNL  *`yyyy`*-*`mm`*-*`dd`*.log])附加到指定字串。 訪問日誌檔案的名稱必須與跟蹤日誌檔案的名稱不同。 預設為 &quot; `access-`&quot;.
 
-## TC::pattern —— 訪問日誌模式 {#section-22775ea85cee444d8a7d7336a3b1feef}
+## TC::pattern —— 訪問日誌模式{#section-22775ea85cee444d8a7d7336a3b1feef}
 
 指定平台伺服器訪問日誌記錄的資料模式。 模式字串指定用其對應值取代的變數。 模式字串中的所有其他字元將字面傳輸到日誌記錄。
 
-要使用快取預熱實用程式，必須使用空格作為欄位分隔符。 平台伺服器會分別以和取代欄位值中的所有空 `%20` 格和 `%25`&#39;%&#39;字元。
+要使用快取預熱實用程式，必須使用空格作為欄位分隔符。 平台伺服器將欄位值中的所有空格和&#39;%&#39;字元分別替換為`%20`和`%25`。
 
 支援下列模式變數：
 
@@ -76,11 +79,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %G </span> </p> </td> 
-   <td> <p>日期和時間，格式為 <span class="codeph"> yyyy <span class="varname"> - MM </span>- <span class="varname"> - </span><span class="varname"></span><span class="varname"></span>dd HH: <span class="varname"> mm </span>: <span class="varname"> ss </span>. <span class="varname"> SSS偏 </span> 移 </span> </p> <p> ( <span class="varname"> SSS是 </span> 毫秒，偏移 <span class="varname"> 量是格 </span> 林尼治時間偏移);將回應傳送至用戶端時，會擷取時間值。 </p> </td> 
+   <td> <p>日期和時間，格式為<span class="codeph"> <span class="varname"> yyyy </span>- <span class="varname"> MM </span>- <span class="varname"> dd </span> <span class="varname"> HH </span>:<span class="varname"> mm </span>:<span class="varname"> ss </span>。 <span class="varname"> SSS偏 </span> 移  </span> </p> <p> （<span class="varname"> SSS </span>為毫秒，<span class="varname">偏移</span>為GMT時間偏移）;將回應傳送至用戶端時，會擷取時間值。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %m </span> </p> </td> 
-   <td> <p>請求方 <span class="codeph"> 法(GET </span>、 <span class="codeph"> POST </span>等)。 </p> </td> 
+   <td> <p>請求方法（<span class="codeph"> GET </span>、<span class="codeph"> POST </span>等）。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %O </span> </p> </td> 
@@ -100,14 +103,14 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %R </span> </p> </td> 
-   <td> <p>與%r相 <span class="codeph"> 同，但 </span>對URI套用有限的HTTP編碼以避免記錄檔剖析問題。 </p> </td> 
+   <td> <p>與<span class="codeph"> %r </span>相同，但對URI應用有限的HTTP編碼以避免日誌解析問題。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %s </span> </p> </td> 
    <td> <p>HTTP回應狀態代碼。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %S </span> </p> </td> 
+   <td> <p> <span class="codeph"> %S  </span> </p> </td> 
    <td> <p>使用者工作階段ID。 </p> </td> 
   </tr> 
   <tr> 
@@ -123,7 +126,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
    <td> <p>URI路徑。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %v </span> </p> </td> 
+   <td> <p> <span class="codeph"> %v  </span> </p> </td> 
    <td> <p>本機伺服器名稱。 </p> </td> 
   </tr> 
   <tr> 
@@ -131,15 +134,15 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
    <td> <p>請求處理時間（以秒為單位）。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{CacheKey}r </span> </p> </td> 
+   <td> <p> <span class="codeph"> %{CacheKey}r  </span> </p> </td> 
    <td> <p>平台伺服器快取密鑰（快取檔案資料夾／名稱）。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{CacheUse}r </span> </p> </td> 
-   <td> <p>平台伺服器快取管理關鍵字： <span class="codeph"> {重複使用|已建立|已更新|遠程| REMOTE_CREATED| REMOTE_UPDATED| REMOTE_CACHE|已驗證|已忽略| UNDEFINED } </span>。 </p> </td> 
+   <td> <p> <span class="codeph"> %{CacheUse}r  </span> </p> </td> 
+   <td> <p>平台伺服器快取管理關鍵字：<span class="codeph"> { REUSED |已建立 |已更新 |遠程 | REMOTE_CREATED | REMOTE_UPDATED | REMOTE_CACHE |已驗證 |已忽略 | UNDEFINED } </span>。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{ContentType}r </span> </p> </td> 
+   <td> <p> <span class="codeph"> %{ContentType}r  </span> </p> </td> 
    <td> <p>回應MIME類型。 </p> </td> 
   </tr> 
   <tr> 
@@ -147,31 +150,31 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
    <td> <p>發生上下文轉發時的目標上下文。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{Digest}r </span> </p> </td> 
-   <td> <p>標 <span class="codeph"> 記 </span> 回應標題值（回應資料的MD5簽名）。 </p> </td> 
+   <td> <p> <span class="codeph"> %{Digest}r  </span> </p> </td> 
+   <td> <p><span class="codeph"> etag </span>回應標題值（回應資料的MD5簽名）。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{例外}r </span> </p> </td> 
+   <td> <p> <span class="codeph"> %{例外}r  </span> </p> </td> 
    <td> <p>錯誤訊息. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{FetchTime}r </span> </p> </td> 
+   <td> <p> <span class="codeph"> %{FetchTime}r  </span> </p> </td> 
    <td> <p>從Image Server擷取快取項目或資料所花的時間。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{ParseTime}r </span> </p> </td> 
+   <td> <p> <span class="codeph"> %{ParseTime}r  </span> </p> </td> 
    <td> <p>請求剖析和影像目錄查閱所花的時間。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{PathBasedAccess}r </span> </p> </td> 
+   <td> <p> <span class="codeph"> %{PathBasedAccess}r  </span> </p> </td> 
    <td> <p>指出此請求是否嘗試在目錄系統之外進行任何路徑型存取。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{PeerServer}r </span> </p> </td> 
-   <td> <p>快取集群中傳送快取條目的對等伺服器的IP地址；如果 <span class="codeph"> CacheUse既不是 </span> REMOTE_CREATED ，也不是 <span class="codeph"> REMOTE_UPDATED ，則傳送快取條目的「-」 </span><span class="codeph"></span>。 </p> </td> 
+   <td> <p> <span class="codeph"> %{PeerServer}r  </span> </p> </td> 
+   <td> <p>快取集群中傳送快取條目的對等伺服器的IP地址；如果<span class="codeph">快取使用</span>既不是<span class="codeph"> REMOTE_CREATED </span>也不是<span class="codeph"> REMOTE_UPDATED </span>，則為「-」。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{ProcessingStatus}r </span> </p> </td> 
+   <td> <p> <span class="codeph"> %{ProcessingStatus}r  </span> </p> </td> 
    <td> <p>錯誤類別： </p> <p> 
      <ul id="ul_BA2A18337D374939AC9BF2424247E40F"> 
       <li id="li_0A2410F03E1A41078F8E8FDF34531810"> <p>0=無錯誤。 </p> </li> 
@@ -182,31 +185,31 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{ReqType}r </span> </p> </td> 
-   <td> <p>req=的大寫 <span class="codeph"> 值 </span>。 </p> </td> 
+   <td> <p> <span class="codeph"> %{ReqType}r  </span> </p> </td> 
+   <td> <p>小寫值<span class="codeph"> req= </span>。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{RootId}r </span> </p> </td> 
+   <td> <p> <span class="codeph"> %{RootId}r  </span> </p> </td> 
    <td> <p>請求主目錄的根ID。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{SendTime}r </span> </p> </td> 
+   <td> <p> <span class="codeph"> %{SendTime}r  </span> </p> </td> 
    <td> <p>將資料寫入輸出串流後，Platform Server傳送回應所需的時間。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{大小}r </span> </p> </td> 
-   <td> <p>類似 <span class="codeph"> %B </span>，但包含304（未修改）回應的值。 </p> </td> 
+   <td> <p> <span class="codeph"> %{大小}r  </span> </p> </td> 
+   <td> <p>類似<span class="codeph"> %B </span>，但包含304（未修改）回應的值。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{TransformedUrl}r </span> </p> </td> 
+   <td> <p> <span class="codeph"> %{TransformedUrl}r  </span> </p> </td> 
    <td> <p>所有規則集轉換後的最終URL。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{ <span class="varname"> httpRequestHeader </span>}i </span> </p> </td> 
+   <td> <p> <span class="codeph"> %{  <span class="varname"> httpRequestHeader </span>}i  </span> </p> </td> 
    <td> <p>指定的HTTP請求標頭的值。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{ <span class="varname"> httpResponseHeader </span>} </span> </p> </td> 
+   <td> <p> <span class="codeph"> %{  <span class="varname"> httpResponseHeader  </span>}  </span> </p> </td> 
    <td> <p>指定HTTP回應標題的值。 </p> </td> 
   </tr> 
  </tbody> 
