@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 832a927e-ecaf-438c-8fbf-a702d58902d8
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '153'
+ht-degree: 0%
 
 ---
 
@@ -29,9 +32,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 ...
 ```
 
-*`propertyValue`* 可能是空的。 在每行的開始和結束處以及=分隔符號的前後，空格是可選的。 所有值都用單引號括住。 字串中的單引號以兩個連續的單引號逸出。
+*`propertyValue`* 可能是空的。在每行的開始和結束處以及=分隔符號的前後，空格是可選的。 所有值都用單引號括住。 字串中的單引號以兩個連續的單引號逸出。
 
-要解析JavaScript屬性響應，必須在載入屬性檔案之前建立響應中引用的任何對象。 以下是在JavaScript中用 `req=props` 來取得回應影像大小的範例：
+要解析JavaScript屬性響應，必須在載入屬性檔案之前建立響應中引用的任何對象。 以下是使用`req=props`在JavaScript中取得回應影像大小的範例：
 
 ```
 <script> image = new Object; </script> 
