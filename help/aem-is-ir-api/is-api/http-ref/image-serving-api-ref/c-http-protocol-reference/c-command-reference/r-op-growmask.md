@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 016501e8-33c5-4c9e-8d26-120b1e929c55
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +32,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 屬性 {#section-b1c66d65168d4ea695e8662ea690bd4e}
 
-應用於當前層，或應用於 `0` 層(如 `layer=comp`果)。
+應用於當前層，如果`layer=comp`則應用於`0`層。
 
 ## 預設 {#section-14c908bb87cb42acbea709effea2f964}
 
