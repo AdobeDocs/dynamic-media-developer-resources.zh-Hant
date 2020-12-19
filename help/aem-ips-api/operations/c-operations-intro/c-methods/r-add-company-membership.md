@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: be55041c-fc4e-46e8-bd2c-81b5931406f5
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 語法
 
-## 授權使用者類型 {#section-ae926c7672984be79f6102748accab72}
+## 授權用戶類型{#section-ae926c7672984be79f6102748accab72}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -40,7 +43,7 @@ IPS API不會傳回此作業的回應。
 
 ## 範例 {#section-5469f88bac7047cca131faa6b021e437}
 
-此範例使 ` *`用companyHandleArray`*` ，將使用者新增至單一公司。
+此範例使用` *`companyHandleArray`*`將使用者新增至單一公司。
 
 **請求**
 
