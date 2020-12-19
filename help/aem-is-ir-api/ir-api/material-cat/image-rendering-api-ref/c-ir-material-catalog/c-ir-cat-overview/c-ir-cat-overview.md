@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: f2128b64-8caf-4a59-b11f-604fe62bae69
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '438'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 資料目錄會將暈映、資料和支援資料（例如ICC描述檔）的相關資訊提供給伺服器。
 
-每個物料目錄都包含一個所需 *的目錄屬性檔案* ，以及一組可選 *的目錄資料檔案*:
+每個材料目錄都包含一個必需的&#x200B;*目錄屬性檔案*&#x200B;和一組可選的&#x200B;*目錄資料檔案*:
 
 * 暈映地圖檔案，列出暈映和範本及其相關中繼資料。
 * 材料資料檔案，它列出材料並指定相關的紋理影像檔案和元資料。
@@ -25,7 +28,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 目錄資料檔案與目錄屬性檔案中的檔案引用的材料目錄相關聯。 多個材質型錄可以共用相同的型錄資料檔案。
 
-目錄屬性檔案必須有 [!DNL .ini] 檔案字尾，且必須位於「影像轉換目錄」資 *料夾* ( [!DNL PlatformServer::ir.catalogRootPath])中。 目錄資料檔案可以位於同一資料夾或Render Server可訪問的任何其他資料夾中。
+目錄屬性檔案必須具有[!DNL .ini]檔案尾碼，並且必須位於「影像渲染&#x200B;*目錄」資料夾*([!DNL PlatformServer::ir.catalogRootPath])中。 目錄資料檔案可以位於同一資料夾或Render Server可訪問的任何其他資料夾中。
 
 **更新材料目錄**
 
@@ -37,7 +40,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 此外，當操作中未涉及特定物料目錄時，預設目錄會提供所有屬性和資料記錄（ICC配置檔案）。
 
-要使Render Server正確運作，預設目錄的目錄屬性檔案必須命名 [!DNL default.ini]`attribute::RootId` ，必須始終存在於目錄資料夾中，並且必須完全填充所有必需屬性（排除和對各種目錄資料檔案的引用），這些屬性都是可選的。
+要使Render Server正確運作，預設目錄的目錄屬性檔案必須命名為[!DNL default.ini]，必須始終存在於目錄資料夾中，並且必須完全填充所有必需屬性，不包括`attribute::RootId`和對各種目錄資料檔案的引用，這些都是可選的。
 
 **另請參閱**
 
