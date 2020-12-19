@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 1ed18115-9e29-434a-a48d-40bf6b48fe6f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td colname="col2"> <p> 指定元件從影像伺服器載入影像時使用的影像格式。 如果指定的格式以 <span class="codeph"> "-alpha"結尾</span>，元件會將影像轉譯為透明內容。 對於所有其他影像格式，元件會將影像視為不透明。 請注意，元件預設有白色背景。 因此，若要將它完全透明，請將背 <span class="codeph"> 景色彩</span> CSS屬性設 <span class="codeph"> 為透明</span>。 </p> </td> 
+   <td colname="col2"> <p> 指定元件從影像伺服器載入影像時使用的影像格式。 如果指定的格式以<span class="codeph"> "-alpha"</span>結尾，元件會將影像轉譯為透明內容。 對於所有其他影像格式，元件會將影像視為不透明。 請注意，元件預設有白色背景。 因此，要使其完全透明，請將<span class="codeph"> background-color</span> CSS屬性設為<span class="codeph"> transparent</span>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
