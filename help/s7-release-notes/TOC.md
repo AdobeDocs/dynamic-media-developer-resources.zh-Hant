@@ -10,11 +10,14 @@ archtype: end-user
 user-guide: null
 translation-type: tm+mt
 source-git-commit: e10e2b836bbfb394a7d0e1f16ae2ac44005401b4
+workflow-type: tm+mt
+source-wordcount: '99'
+ht-degree: 1%
 
 ---
 
 
-# 動態媒體發行說明 {#release-notes}
+# 動態媒體發行說明{#release-notes}
 
 + [動態媒體開發人員資源首頁](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html)
 + [最新發行說明](s7rn2017.md)
