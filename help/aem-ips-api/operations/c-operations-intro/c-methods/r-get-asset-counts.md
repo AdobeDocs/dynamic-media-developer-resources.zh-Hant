@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 92103806-59da-444f-b69c-d045d0ebf42e
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,10 +19,10 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 取得與特定公司相關的資產和資產數目。
 
-傳回 `countArray` 的資料包含一組 `assetTypes` (資料類型 `xsd:string`)，每組都有其自己的計數欄位(資料類型 `xsd:int`)，可讓每個資產類型代表陣列的每個元素。
+傳回的`countArray`由`assetTypes`（資料類型`xsd:string`）的陣列組成，每個陣列都有自己的計數欄位（資料類型`xsd:int`），允許每個陣列元素呈現多種資產類型。
 語法
 
-## 授權使用者類型 {#section-6234754722184e828352f10eb18fbce9}
+## 授權用戶類型{#section-6234754722184e828352f10eb18fbce9}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -37,7 +40,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 包含您要計算之資產之公司的控制代碼。 |
+| ` *`companyHandle`*` | `xsd:string` | 是 | 您要計算資產的公司控制代碼。 |
 
 **輸出(getAssetCountsReturn)**
 
@@ -47,7 +50,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 範例 {#section-6052a503eb3843f6adb99e200fdba280}
 
-此程式碼範例會將公司的控制代碼當做傳送至IPS `getAssetCountsParam` 網站服務伺服器的欄位，以取得資產計數。
+此程式碼範例會將公司的控制代碼當做傳送至IPS網站伺服器的`getAssetCountsParam`欄位，以取得資產計數。
 
 **請求**
 
