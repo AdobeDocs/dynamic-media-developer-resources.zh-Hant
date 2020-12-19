@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 44906190-516c-481c-9714-bb19d77af33c
 translation-type: tm+mt
 source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
+workflow-type: tm+mt
+source-wordcount: '123'
+ht-degree: 5%
 
 ---
 
@@ -25,15 +28,15 @@ source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
  </tr> 
 </table>
 
-伺服器會比較val與所請求之靜 `catalog::Type` 態內容項目的值。 如果值符合（區分大小寫），項目會傳回給用戶端，否則會傳回錯誤。
+伺服器將比較val與所請求靜態內容項的`catalog::Type`值。 如果值符合（區分大小寫），項目會傳回給用戶端，否則會傳回錯誤。
 
 ## 屬性 {#section-529b088434a44a9f86a64ef548d2925b}
 
-僅支援透過提供的靜態內容（非影像）要求。 如果為空 `catalog::Type` 白或未定義，則忽略。
+僅支援透過提供的靜態內容（非影像）要求。 如果`catalog::Type`為空或未定義，則忽略。
 
 ## 預設 {#section-e9e8f51d0a01452183ccb510efd87d46}
 
-如果未指定或空白，則 `type=` 不應用任何類型匹配。
+如果未指定`type=`或空白，則不應用任何類型匹配。
 
 ## 另請參閱 {#section-da60777a46a74f1bbfa5b2f3b240eb0f}
 
