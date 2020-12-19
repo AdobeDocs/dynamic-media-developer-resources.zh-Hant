@@ -9,13 +9,13 @@ uuid: 894babe9-9c3c-4972-ae8f-387d65b4167d
 translation-type: tm+mt
 source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 
-# 錯誤時重新導向{#redirect-on-error}
+# 重新導向錯誤{#redirect-on-error}
 
 IS伺服器可配置為對涉及源映像的請求進行故障切換，這些請求不能成功開啟或讀取。
 
@@ -32,13 +32,13 @@ IS伺服器可配置為對涉及源映像的請求進行故障切換，這些請
 
 在任何其他情況下都不會發生錯誤重新導向。
 
-啟用後，當請求處理期間發生此類錯誤時，主伺服器會將請求傳送至次伺服器進行處理。 然後，無論回應是否表示成功或失敗，都會直接轉送至用戶端。 主伺服器用快取來標籤此類轉發請求的日誌條目 `REMOTE`。 主伺服器不在本地快取響應資料。
+啟用後，當請求處理期間發生此類錯誤時，主伺服器會將請求傳送至次伺服器進行處理。 然後，無論回應是否表示成功或失敗，都會直接轉送至用戶端。 主伺服器使用快取標籤此類轉發請求的日誌條目。 `REMOTE`主伺服器不在本地快取響應資料。
 
-錯誤重新導向是通過 `PS::errorRedirect.rootUrl` 設定為從屬伺服器的HTTP域名和埠號來啟用的。 此外，連接超時配置為 `PS::errorRedirect.connectTimeout` ，並且主伺服器在將錯誤返回客戶端之前等待輔助伺服器響應的最長時間配置為 `PS::errorRedirect.socketTimeout`。
+將`PS::errorRedirect.rootUrl`設為次要伺服器的HTTP網域名稱和埠號，以啟用錯誤重新導向。 此外，連接超時配置為`PS::errorRedirect.connectTimeout` ，並且主伺服器在將錯誤返回到客戶端之前等待從屬伺服器響應的最大時間配置為`PS::errorRedirect.socketTimeout`。
 
 >[!NOTE]
 >
->如果無法連絡從屬伺服器，則會傳回文字錯誤回應給用戶端，即使已設定預設影像或錯誤影像亦然。
+>如果無法連接從屬伺服器，則即使配置了預設映像或錯誤映像，也會向客戶端返回文本錯誤響應。
 
 >[!NOTE]
 >
