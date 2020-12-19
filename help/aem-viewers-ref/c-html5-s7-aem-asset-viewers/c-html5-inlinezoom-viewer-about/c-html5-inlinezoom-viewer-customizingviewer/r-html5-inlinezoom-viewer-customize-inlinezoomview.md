@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: a918c775-a36a-44e8-9ca4-90cb8f5c3a5e
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '291'
+ht-degree: 3%
 
 ---
 
 
-# Flyout zoom view{#flyout-zoom-view}
+# 彈出縮放視圖{#flyout-zoom-view}
 
 主視圖由靜態影像、在靜態影像上方的彈出視圖中顯示的縮放影像、以及在靜態影像上方顯示的提示資訊組成。
 
@@ -35,7 +38,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景色  </span> </p> </td> 
    <td colname="col2"> <p> 主視圖的背景顏色。 </p> </td> 
   </tr> 
  </tbody> 
@@ -57,7 +60,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 .s7flyoutviewer .s7flyoutzoomview .s7tip
 ```
 
-您可以透過CSS來設定字型樣式、大小外觀和垂直偏移。 不過，水準對齊方式是由檢視器邏輯管理。 不支援使用或 `left` 屬 `right` 性透過CSS覆寫它。
+您可以透過CSS來設定字型樣式、大小外觀和垂直偏移。 不過，水準對齊方式是由檢視器邏輯管理。 不支援使用`left`或`right`屬性，透過CSS來覆寫它。
 
 <table id="table_DCF6B69A9D8C4DB7A10C4572F7484799"> 
  <thead> 
@@ -76,11 +79,11 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
    <td colname="col2"> <p>文字色彩. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>字型名稱。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型大小 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字型大小  </span> </p> </td> 
    <td colname="col2"> <p>字型大小. </p> </td> 
   </tr> 
   <tr> 
@@ -88,21 +91,21 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
    <td colname="col2"> <p>在消息文本週圍填充。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景色  </span> </p> </td> 
    <td colname="col2"> <p>訊息文字的背景填色顏色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 邊框半徑 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 邊框半徑  </span> </p> </td> 
    <td colname="col2"> <p>消息文本的背景邊框半徑。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 不透明度 </span> </p> </td> 
-   <td colname="col2"> <p>訊息文字的背景不透明度。 </p> <p>對於Internet Explorer 8，請 <span class="codeph"> 使用filter:alpha(opacity-...)) </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 不透明度  </span> </p> </td> 
+   <td colname="col2"> <p>訊息文字的背景不透明度。 </p> <p>對於Internet Explorer 8，請使用<span class="codeph"> filter:alpha(opacity-...))</span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-提示訊息可以本地化。 如需詳 [細資訊，請參閱使用者介面元素](../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) 的本地化。
+提示訊息可以本地化。 如需詳細資訊，請參閱[使用者介面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27)。
 
 .
 
