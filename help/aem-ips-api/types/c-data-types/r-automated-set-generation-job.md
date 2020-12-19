@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 9c664bde-a731-4d6b-ae6b-c862bda02d4c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '187'
+ht-degree: 6%
 
 ---
 
@@ -30,27 +33,27 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandleArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：HandleArray</span> </td> 
    <td colname="col3">用於建立集的資產句柄陣列。 <p>依預設，1000是您在陣列中可擁有的資產數目上限。 </p></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 目 <span class="varname"> 標資料夾</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> destFolder</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 要保存集的資料夾的路徑。 依預設，會儲存至公司根資料夾。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 就 <span class="varname"> 緒發佈</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> readyForPublish</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> 設定旗標以指出資產是否應發佈。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> autoSetCreationOptions</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> autoSetCreationOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：AutoSetCreationOptions</span> </td> 
-   <td colname="col3">可在上傳檔案上執行的一組集合層代指令碼。 請參 <a href="../../types/c-data-types/r-auto-set-creation-options.md#reference-58b42b39e53345aeb87cd1adc864e7ff" format="dita" scope="local"> 閱AutoSetCreationOptions</a></td> 
+   <td colname="col3">可在上傳檔案上執行的一組集合層代指令碼。 請參閱<a href="../../types/c-data-types/r-auto-set-creation-options.md#reference-58b42b39e53345aeb87cd1adc864e7ff" format="dita" scope="local"> AutoSetCreationOptions</a></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 電子 <span class="varname"> 郵件設定</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> emailSetting</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>為工作設定自動化電子郵件通知。 </p> </td> 
   </tr> 
@@ -59,7 +62,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 **emailSetting選項**
 
-此參 `emailSetting` 數包含下列選項：
+`emailSetting`參數包含下列選項：
 
 | 選項 | 退貨 |
 |---|---|
