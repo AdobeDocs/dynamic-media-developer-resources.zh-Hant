@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 81069578-8470-4ec0-b755-47b0a8124024
 translation-type: tm+mt
 source-git-commit: b4331c6f033903ec64f168da0b739927c6066710
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,11 +25,11 @@ source-git-commit: b4331c6f033903ec64f168da0b739927c6066710
 
 兩個整數，以逗號分隔。 全解析度影像的左上角像素偏移。
 
-覆寫 `anchor=`者(反過來可以用覆寫 `origin=`)。
+由`anchor=`覆寫（反過來可以由`origin=`覆寫）。
 
 ## 預設 {#section-ca3a4cc837d643519eff15951f2b47a1}
 
-如果此欄位不存在或為空白，且此為有效的影像記錄（即有效），則會使用影像的 `catalog::Path` 中心點。
+如果此欄位不存在或為空白，且此為有效的影像記錄（亦即，如果`catalog::Path`有效），則會使用影像的中心點。
 
 ## 另請參閱 {#section-f605d29c3f5d48ad8e2a374f11886f19}
 
