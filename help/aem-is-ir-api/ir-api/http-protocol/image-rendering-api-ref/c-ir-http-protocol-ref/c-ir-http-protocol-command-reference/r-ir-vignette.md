@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 8bba4ad4-bd55-4c55-8ebf-585371cf33f1
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# vignette{#vignette}
+# 暈映{#vignette}
 
 暈映檔案。 指定此請求要使用的暈映。
 
@@ -21,11 +24,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="simpletable_432EC5501CA3431B83A762C3EE4E8DD2"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> catId</span> </p> </td> 
-  <td class="stentry"> <p>物料目錄ID(與屬 <span class="codeph"> 性：:RootId</span>)。 </p></td> 
+  <td class="stentry"> <p>材料目錄ID（與<span class="codeph">屬性匹配：:RootId</span>）。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> recId</span> </p></td> 
-  <td class="stentry"> <p>暈映ID(與暈映 <span class="codeph"> 相符：:Id</span>)。 </p></td> 
+  <td class="stentry"> <p>暈映ID（與<span class="codeph">暈映相符：:Id</span>）。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> file</span> </p></td> 
@@ -35,9 +38,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 可以指定暈映對應項目或暈映檔案。 不允許遠端URL。
 
-`vignette=` 可用作在請求URL路徑中指定暈映的替代項目。 主要用於透過範本中的變數指定暈映。
+`vignette=` 可用作在請求URL路徑中指定暈映的替代項目。主要用於透過範本中的變數指定暈映。
 
-如果 *`catId`* 未指定，則使用會話目錄。
+如果未指定&#x200B;*`catId`*，則使用會話目錄。
 
 ## 屬性 {#section-f58661fc78d7496e8e3d0fb98b945c4b}
 
