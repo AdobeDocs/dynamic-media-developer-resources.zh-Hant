@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 67cee2f7-82c1-4c0a-b583-13f8be46b972
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '36'
+ht-degree: 13%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td> <p> 指定當任何色票部分可見時（未對齊捲動），元件是否允許停止捲動。 建議的值為 <span class="codeph"> false</span> 或 <span class="codeph"> 0</span>。 </p> </td> 
+   <td> <p> 指定當任何色票部分可見時（未對齊捲動），元件是否允許停止捲動。 建議的值為<span class="codeph"> false</span>或<span class="codeph"> 0</span>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
