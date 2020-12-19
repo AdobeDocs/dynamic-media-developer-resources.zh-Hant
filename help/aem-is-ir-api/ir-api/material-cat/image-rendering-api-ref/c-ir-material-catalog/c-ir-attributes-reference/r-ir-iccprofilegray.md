@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 064be242-d964-4fb8-99ea-78bb5599e70f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '145'
+ht-degree: 2%
 
 ---
 
@@ -18,11 +21,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 屬性 {#section-7af0a3e2c8cf4cdd98974bfa4a15f3ac}
 
-文字字串。 如果指定，則必須是此材 `icc::Name` 料目錄或預設目錄的ICC配置檔案映射中的有效值，或相對於的檔案路徑 `attribute::RootPath`。 參考的ICC配置檔案必須是灰度配置檔案。
+文字字串。 如果指定，則必須是此材料目錄或預設目錄的ICC配置檔案映射中的有效`icc::Name`值，或是相對於`attribute::RootPath`的檔案路徑。 參考的ICC配置檔案必須是灰度配置檔案。
 
 ## 預設 {#section-aaa1c71e5d0c4e0792099d77e37c05ee}
 
-繼承自 `default::IccProfileGray` （如果未定義或為空）。
+如果未定義或為空，則繼承自`default::IccProfileGray`。
 
 ## 另請參閱 {#section-cd43189611f4426aacddcc604eb02a10}
 
