@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: a8e25f27-c300-424d-83ac-e41bb4cb7964
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 語法
 
-## 授權使用者類型 {#section-fe950150718a474d8df30d0f4453c022}
+## 授權用戶類型{#section-fe950150718a474d8df30d0f4453c022}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -39,13 +42,13 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 使 <span class="varname"> 用者控制代碼</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> userHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
    <td colname="col4"> <p>處理您要新增其群組成員資格的使用者。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> groupHandleArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> groupHandleArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:HandleArray</span> </td> 
    <td colname="col3"> <p>是 </p> </td> 
    <td colname="col4"> <p>您希望公司所屬的群組的控制代碼陣列。 </p> </td> 
@@ -59,7 +62,7 @@ IPS API不會傳回此作業的回應。
 
 ## 範例 {#section-f7a1f40c3d7a40ea964b29056c734d81}
 
-此範例會將群組新增至具有groupHandleArray ` *`的公司`*`。 此範例僅使用一個群組。
+此示例向具有` *`groupHandleArray`*`的公司添加組。 此範例僅使用一個群組。
 
 **請求**
 
