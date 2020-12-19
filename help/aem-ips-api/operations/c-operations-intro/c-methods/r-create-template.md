@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: c54bd47c-13e1-4b0d-a24c-9829b0a6d5bf
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,9 +19,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 建立可包含多個文字和影像圖層的圖層影像。
 
-該參 `urlModifier` 數指定儲存在URL上用戶提供的任何命令之前應用的Image Server目錄中的Image Server協定命令。 該參 `urlPostApplyModifier` 數指定在任何URL命令之後應用的協定命令，這些命令將覆蓋用戶提供的任何衝突設定。
+`urlModifier`參數指定在URL上任何用戶提供的命令之前應用的映像伺服器目錄中儲存的映像伺服器協定命令。 `urlPostApplyModifier`參數指定在任何URL命令之後套用的協定命令，這些命令將覆蓋用戶提供的任何衝突設定。
 
-## 授權使用者類型 {#section-9fb615d8e75f452eab2893cc3decfbe6}
+## 授權用戶類型{#section-9fb615d8e75f452eab2893cc3decfbe6}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -47,7 +50,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 範例 {#section-09adb4d2f0c944af875c4463a461f55d}
 
-此代碼示例在由句柄指定的資料夾中建立一個模板，其名 `APIcreateTemplate`稱為 `urlModifier`、a和 `urlPostApplyModifier`。 回應會將控制代碼傳回新建立的範本。
+此代碼示例在由句柄指定的資料夾中建立一個模板，名稱為`APIcreateTemplate`、`urlModifier`和`urlPostApplyModifier`。 回應會將控制代碼傳回新建立的範本。
 
 **請求**
 
