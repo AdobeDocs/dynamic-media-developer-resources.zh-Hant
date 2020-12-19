@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: 868d938f-578a-4ecf-8a71-9569450492fb
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Color swatches{#color-swatches}
+# 色票{#color-swatches}
 
 色票由一列縮圖影像組成，左側和右側有選用的捲動按鈕。 如果所有縮圖都無法符合容器的寬度，顏色色票才會顯示在案頭上。 在行動裝置上，或如果縮圖可符合容器寬度，則不會顯示捲動按鈕。
 
@@ -65,7 +68,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> 每個縮圖周圍的水準和垂直邊界大小。 實際縮圖間距等於。s7縮圖儲存格左右邊距設 <span class="codeph"> 定的總和 </span>。 </p> </td> 
+   <td colname="col2"> <p> 每個縮圖周圍的水準和垂直邊界大小。 實際縮圖間距等於<span class="codeph"> .s7thumbcell </span>設定的左右邊界總和。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -93,11 +96,11 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 寬度  </span> </p> </td> 
    <td colname="col2"> <p>縮圖寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
    <td colname="col2"> <p>縮圖的高度。 </p> </td> 
   </tr> 
   <tr> 
@@ -109,7 +112,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 
 >[!NOTE]
 >
->縮圖支援 `state` 屬性選擇器，可用來將不同外觀套用至不同的縮圖狀態。 尤其是， `state="selected"` 與主視圖中當前顯示的影像的縮略圖相對應， `state="default"` 與其餘的縮略圖相對應， `state="over"` 並用於滑鼠懸停。
+>縮圖支援`state`屬性選擇器，可用來將不同的外觀套用至不同的縮圖狀態。 尤其是，`state="selected"`對應於主視圖中當前顯示的影像的縮略圖，`state="default"`對應於其餘的縮略圖，而`state="over"`用於滑鼠懸停。
 
 範例——若要設定56 x 56像素的縮圖，請使用淺灰色預設邊框和深灰色選取的邊框。
 
@@ -132,7 +135,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 
 `.s7mixedmediaviewer .s7colorswatches .s7swatches .s7scrollrightbutton`
 
-無法使用CSS、 `top`、 `left`和屬 `bottom``right` 性來定位捲動按鈕 檢視器邏輯會自動將它們定位。
+無法使用CSS `top`、`left`、`bottom`和`right`屬性來定位捲動按鈕。 檢視器邏輯會自動將它們定位。
 
 <table id="table_A5663C4AAC4446168CAD8DBA2894BB9C"> 
  <thead> 
@@ -143,27 +146,27 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 寬度  </span> </p> </td> 
    <td colname="col2"> <p>捲動按鈕的寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
    <td colname="col2"> <p>捲動按鈕的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景影像 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景影像  </span> </p> </td> 
    <td colname="col2"> <p>為指定按鈕狀態顯示的影像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS精靈，請放在圖稿精靈內。 </p> <p>請參 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> 閱CSS精靈 </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS精靈，請放在圖稿精靈內。 </p> <p>請參閱<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS精靈</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按鈕支援屬 `state` 性選擇器，可用來將不同的外觀套用至不同的按鈕狀態： `up`、 `down``over`和 `disabled`。
+>此按鈕支援`state`屬性選擇器，可用來將不同的外觀套用至不同的按鈕狀態：`up`、`down`、`over`和`disabled`。
 
 範例——設定56 x 56像素且每種狀態有不同圖稿的捲動按鈕。
 
