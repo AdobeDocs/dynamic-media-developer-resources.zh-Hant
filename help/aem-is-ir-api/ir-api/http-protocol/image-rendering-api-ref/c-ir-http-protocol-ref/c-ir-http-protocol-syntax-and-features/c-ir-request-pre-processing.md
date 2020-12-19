@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: ef69ea23-753c-40c8-9edd-eab9c8820c98
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '226'
+ht-degree: 0%
 
 ---
 
 
-# 要求預先處理*{#request-pre-processing}
+# 請求預處理*{#request-pre-processing}
 
 「影像轉換」提供以規則運算式比對和替代規則為基礎的簡單請求預處理器。
 
@@ -22,7 +25,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 請求前處理規則適用於多種應用程式，其中有些應用程式列於下列：
 
-* 實作虛 *擬路徑機制* ，允許將請求路徑重新對應至檔案、FTP和HTTP路徑。
+* 實作&#x200B;*虛擬路徑*&#x200B;機制，允許將請求路徑重新對應至檔案、FTP和HTTP路徑。
 * 不允許使用耗用大量CPU的指令來防止伺服器濫用。
 * 根據請求路徑或影像名稱，控制影像品質設定（例如JPEG品質或銳利化）。
 
