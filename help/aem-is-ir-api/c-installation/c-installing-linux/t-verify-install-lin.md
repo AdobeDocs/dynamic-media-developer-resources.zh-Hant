@@ -9,7 +9,7 @@ uuid: 4fdf61c7-3c9f-4f3e-9696-60eb7e3f2209
 translation-type: tm+mt
 source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,6 @@ ht-degree: 0%
 
 [!DNL http:// *[!DNL server:port]*/ir/render]
 
-在響應中，檢查是否存在以「 `imageServer.`」開頭的項，這表示平台伺服器可以成功與映像伺服器通信。
+在響應中，檢查是否存在以&quot; `imageServer.`&quot;開頭的項，這表示平台伺服器可以成功與映像伺服器通信。
 >如果已安裝，則可使用「說明檔案」和「示範」套件的範例頁面執行其他驗證。
 
