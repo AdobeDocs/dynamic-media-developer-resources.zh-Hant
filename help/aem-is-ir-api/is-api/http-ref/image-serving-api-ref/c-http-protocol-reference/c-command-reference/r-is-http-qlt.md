@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 9f69845d-3b25-41a7-b6c0-83cf1d2bc450
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '266'
+ht-degree: 6%
 
 ---
 
@@ -24,18 +27,18 @@ JPEG品質。 指定JPEG編碼屬性以控制壓縮級別。 這進而會改變�
   <td class="stentry"> <p>JPEG編碼品質(1...100 int)。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> 色度 </span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> 色度  </span> </p> </td> 
   <td class="stentry"> <p>JPEG色度下採樣(0=normal, 1=disable);可選，預設為0。 </p> </td> 
  </tr> 
 </table>
 
-Higher *`quality`* values increase file size and quality, lower values decrease file sizes and reduce perceived image quality. 高於 90 的值所產生的影像通常與未壓縮的影像幾乎沒有差別。
+*`quality`*&#x200B;值越高，檔案大小和品質就越高，值越低，檔案大小就越小，影像品質也越明顯。 高於 90 的值所產生的影像通常與未壓縮的影像幾乎沒有差別。
 
-設定標 *`chroma`* 幟以停用典型JPEG編碼器採用的RGB色度下採樣。 當邊緣由色相而不是亮度的變化來定義時，這可以增加影像中邊緣的感知清晰度。 設定此標幟可能會使檔案大小稍微增加。 如果文字看起來有點模糊，請嘗試使用此設定。
+設定&#x200B;*`chroma`*&#x200B;標幟，以停用典型JPEG編碼器所採用的RGB色度下採樣。 當邊緣由色相而不是亮度的變化來定義時，這可以增加影像中邊緣的感知清晰度。 設定此標幟可能會使檔案大小稍微增加。 如果文字看起來有點模糊，請嘗試使用此設定。
 
 ## 屬性 {#section-925a44cbdc9042db8d4eb149cd073d21}
 
-請求屬性。 不論目前的圖層設定如何，都適用。 如果輸出影像檔案格式不支援JPEG編碼，則忽略。 有關輸出影像格 `fmt=` 式支援的資訊，請參閱的說明 `qlt=`。
+請求屬性。 不論目前的圖層設定如何，都適用。 如果輸出影像檔案格式不支援JPEG編碼，則忽略。 有關輸出影像格式支援`qlt=`的資訊，請參閱`fmt=`的說明。
 
 *`chroma`* 如果輸出像素類型是CMYK或灰色，則會忽略此值。
 
