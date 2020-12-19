@@ -8,13 +8,16 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 8b8e5b06-a0b7-47e1-942d-0297d08c313b
 translation-type: tm+mt
 source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # 規則{#rule}
 
-請求規則元素。 元素中有一或多個規則是選用 `<ruleset>` 的。
+請求規則元素。 在`<ruleset>`元素中，一或多個規則是選用的。
 
 ## 屬性 {#section-d4a3b0496c0c4aa5bd7da87203b9379b}
 
@@ -22,7 +25,7 @@ source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
 
 `Replace = "first" | "all"`: 選擇性. 預設為「first」。
 
-`RequestType` = *&quot;`types`&quot;*:可選。 指定規則套用至的輸入內容。 *`types`* 是逗號分隔的清單，其中可能包含下表中所列的一或多個Token。 如果未 `RequestType` 指定，則該規則適用於所有受支援上下文上收到的請求。
+`RequestType` =  *&quot;`types`&quot;*:可選。指定規則套用至的輸入內容。 *`types`* 是逗號分隔的清單，其中可能包含下表中所列的一或多個Token。如果未指定`RequestType`，則規則適用於所有受支援上下文中收到的請求。
 
 <table id="table_4935E1ED03624DA6AF3F8DC9AAA10237"> 
  <thead> 
@@ -51,14 +54,14 @@ source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
  </tbody> 
 </table>
 
-**`Name = "text"`**: 選擇性. 用於識別除錯 `<rule>` 記錄檔和錯誤訊息中的元素。
+**`Name = "text"`**: 選擇性. 用於識別調試日誌和錯誤消息中的`<rule>`元素。
 
-`  *`屬性`* ="value"`:可選。 `<rule>` 元素可以在任意組合中定義以下任何屬性。 如果已指定，且規則已成功符合，則它們會覆寫此請求的對應目錄屬性。 預設為 `RequestType="is"`.
+`  *`屬性`* ="value"`:可選。`<rule>` 元素可以在任意組合中定義以下任何屬性。如果已指定，且規則已成功符合，則它們會覆寫此請求的對應目錄屬性。 預設為 `RequestType="is"`.
 
 <table id="table_67AED5BEADDF4DAC99B5EF46438C1ABC"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b> <span class="varname"> 屬 </span> 性 </b> </th> 
+   <th class="entry"> <b> <span class="varname"> 屬性  </span> </b> </th> 
    <th class="entry"> <p>對應的影像目錄屬性 </p> </th> 
   </tr> 
  </thead>
@@ -77,7 +80,7 @@ source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> MaxPix</span> </p> </td> 
-   <td> <p><a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-maxpix.md#reference-e167d396ac794079ba8b5e6eb16eeda5" type="reference" format="dita" scope="local"> 屬性：:MaxPix </a> </p> </td> 
+   <td> <p><a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-maxpix.md#reference-e167d396ac794079ba8b5e6eb16eeda5" type="reference" format="dita" scope="local"> 屬性：:MaxPix  </a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> RequestLock</span> </p> </td> 
@@ -104,7 +107,7 @@ source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
 
 如需詳細資訊，請參閱對應影像目錄屬性的說明。
 
-「到期」屬性只覆蓋預設屬性值。 如果特定值套用至請求， `catalog::Expiration` 則忽略覆寫。
+「到期」屬性只覆蓋預設屬性值。 如果特定`catalog::Expiration`值套用至請求，則忽略覆寫。
 
 ## 資料 {#section-8fce013a4c724da58af3fee4e7a90e72}
 
@@ -114,11 +117,11 @@ source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
   <td class="stentry"> <p>選擇性 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> &lt;substitition&gt;</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> &lt;substitution&gt;</span> </p></td> 
   <td class="stentry"> <p>選擇性 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> &lt;地址篩選器&gt;</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> &lt;addressfilter&gt;</span> </p></td> 
   <td class="stentry"> <p>選擇性 </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -129,10 +132,10 @@ source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
 
 ## 附註 {#section-0c5fbc363070419d8c9800b0c02dc9f9}
 
-如果同時 `<expression>` 指定 `<substitution>` 和，且未使用擷取的子字串，則第一個相符的子字串會取代為 `<substitution>`。
+如果同時指定`<expression>`和`<substitution>`，且未使用擷取的子字串，則第一個相符的子字串會取代為`<substitution>`。
 
-如果 `<expression>` 未指定，則任何路徑都會 `<substitution>` 匹配並附加到路徑的結尾。
+如果未指定`<expression>`，則任何路徑都匹配，並且`<substitution>`將附加到路徑的結尾。
 
-如果未 `<substitution>` 指定，則不會進行路徑或查詢轉換，但任何指定的目錄屬性都會被覆蓋。 如果 `<substitution>` 為空，則會移除相符的子字串。
+如果未指定`<substitution>`，則不會發生路徑或查詢轉換，但會覆寫任何指定的目錄屬性。 如果`<substitution>`為空，則會移除相符的子字串。
 
-只有在 `<addressfilter>` 發生符合時，以及套用查詢規則之前，才會套用。
+`<addressfilter>`僅在發生符合時套用，並在套用查詢規則之前套用。
