@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: e83db949-67ba-4d70-8f66-41f5415c35ee
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '78'
+ht-degree: 1%
 
 ---
 
 
-# Default request attributes{#default-request-attributes}
+# 預設請求屬性{#default-request-attributes}
 
 目錄屬性檔案可識別這些預設請求屬性。
 
