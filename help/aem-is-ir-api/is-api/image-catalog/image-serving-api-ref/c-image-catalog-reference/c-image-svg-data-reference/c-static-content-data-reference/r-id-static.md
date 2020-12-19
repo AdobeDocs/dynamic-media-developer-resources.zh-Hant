@@ -3,11 +3,14 @@ description: 'null'
 seo-description: 'null'
 seo-title: Id
 solution: Experience Manager
-title: Id
+title: ID
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 45a79636-3fa9-4f2a-98bb-a46c9b627dd4
 translation-type: tm+mt
 source-git-commit: 7721cccf3f779f258adcdcf886f7e01111e92be0
+workflow-type: tm+mt
+source-wordcount: '165'
+ht-degree: 5%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 7721cccf3f779f258adcdcf886f7e01111e92be0
 
 ## 屬性 {#section-874a6853f67b4b229341ca76682884ae}
 
-文字字串。 必要. 記錄影像/SVG或靜態內容資料表的標識符。 此影 `catalog::Id` 像目錄/SVG目錄或此靜態內容目錄內的每個值都必須是唯一的，且不得包含&#39;,&#39;字元。
+文字字串。 必要. 記錄影像/SVG或靜態內容資料表的標識符。 此影像目錄/SVG目錄或此靜態內容目錄內的每個`catalog::Id`值必須是唯一的，且不得包含&#39;,&#39;字元。
 
 ## 預設 {#section-a26e7d83a5ee44b5918baef82ee48e14}
 
