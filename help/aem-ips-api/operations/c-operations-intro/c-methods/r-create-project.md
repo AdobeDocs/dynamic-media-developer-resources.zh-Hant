@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: e011b7ba-6c15-47ef-9ea1-6189c37e7719
 translation-type: tm+mt
 source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
+workflow-type: tm+mt
+source-wordcount: '81'
+ht-degree: 18%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
 
 語法
 
-## 授權使用者類型 {#section-17878e2e4c3a44988c9a1af82c2ac319}
+## 授權用戶類型{#section-17878e2e4c3a44988c9a1af82c2ac319}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -44,7 +47,7 @@ source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
 
 ## 範例 {#section-a0cd532b67e346d088fbec141231a0e5}
 
-此程式碼範例會建立由其控 `ApiTestProject` 制代碼指定之公司中呼叫的專案。 回應會將控制代碼傳回至專案。
+此代碼示例在由其句柄指定的公司中建立名為`ApiTestProject`的項目。 回應會將控制代碼傳回至專案。
 
 **請求**
 
