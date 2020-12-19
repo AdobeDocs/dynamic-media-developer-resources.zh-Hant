@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 38f26482-bce9-4d2c-9714-e8c3ae40c2d1
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '138'
+ht-degree: 8%
 
 ---
 
@@ -16,9 +19,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 使用權限資產來設定單一資產的權限。
 
-資產預設會繼承其父資料夾的權限。 一旦您設定資產的權限，除非您呼叫，否則資產不會再繼承其父項的權限 `removeAssetPermissions`。
+資產預設會繼承其父資料夾的權限。 一旦您設定資產的權限，除非您呼叫`removeAssetPermissions`，否則資產不會再繼承其父項的權限。
 
-## 授權使用者類型 {#section-91fafc170c734ed2a77beafda9221768}
+## 授權用戶類型{#section-91fafc170c734ed2a77beafda9221768}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
