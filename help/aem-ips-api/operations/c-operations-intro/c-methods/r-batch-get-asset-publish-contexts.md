@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 7f442019-37a9-4473-be92-a952a7a67664
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '107'
+ht-degree: 14%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 語法
 
-## 授權使用者類型 {#section-d5362ca8a6ab42949cd648ba38dbf2f8}
+## 授權用戶類型{#section-d5362ca8a6ab42949cd648ba38dbf2f8}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,6 +37,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 >
 >* 使用者必須擁有讀取存取權才能傳回資產。
 >* 所有使用者皆可存取共用公司。
+
 >
 
 
