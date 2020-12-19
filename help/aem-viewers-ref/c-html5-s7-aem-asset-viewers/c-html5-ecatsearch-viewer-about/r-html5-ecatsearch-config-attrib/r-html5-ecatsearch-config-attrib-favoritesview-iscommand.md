@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: be3d49d1-d5d2-4ecd-bc8f-fe5f80204c76
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '71'
+ht-degree: 7%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> isCommand</span></span> </p> </td> 
-   <td colname="col2"> <p> 如果在URL中指定，所有出現的 <span class="codeph"> &amp;</span> and <span class="codeph"> =</span> ，都必須分別以HTTP編碼為 <span class="codeph"> %26</span> 和 <span class="codeph"></span>%3D Accontributed。 </p> </td> 
+   <td colname="col2"> <p> 如果在URL中指定，所有<span class="codeph"> &amp;</span>和<span class="codeph"> =</span>的出現次數都必須分別以HTTP編碼為<span class="codeph"> %26</span>和<span class="codeph"> %3D</span>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
