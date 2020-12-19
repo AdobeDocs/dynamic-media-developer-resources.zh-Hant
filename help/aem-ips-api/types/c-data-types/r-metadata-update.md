@@ -8,11 +8,14 @@ topic: Scene7 Image Production System API
 uuid: 09d3940b-117d-4d83-8b12-e86520c9da34
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '223'
+ht-degree: 4%
 
 ---
 
 
-# 中繼資料更新{#metadataupdate}
+# MetadataUpdate{#metadataupdate}
 
 為與setAssetMetadata一起使用的特定資產設定中繼資料值。 說明您要對中繼資料所做的變更。
 
@@ -32,37 +35,37 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 字 <span class="varname"> 段句柄</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 中繼資料欄位控制代碼。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 值</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 值</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 中繼資料更新值。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> boolVal</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> boolVal</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> 布林中繼資料值（僅適用於布林類型欄位）。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 隆 <span class="varname"> 瓦爾</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> longVal</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:long</span> </td> 
    <td colname="col3"> 長中繼資料值（僅適用於整型欄位）。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> doubleVal</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> doubleVal</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
    <td colname="col3"> 雙重中繼資料值（僅適用於浮動類型欄位）。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> dateVal</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> dateVal</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
    <td colname="col3"> 日期中繼資料值（僅限日期類型欄位）。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> addTagValueArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> addTagValueArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：StringArray</span> </td> 
    <td colname="col3"> <p>新增至資產的現有標籤值清單。 
      <ul id="ul_08DE6C490B614560A6118E7AC59720E3"> 
@@ -71,7 +74,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> setTagValueArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> setTagValueArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：StringArray</span> </td> 
    <td colname="col3">取代資產的現有標籤值清單。 
     <ul id="ul_941C915C69E84CF2AC5938378837EB92"> 
@@ -80,7 +83,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> deleteTagValueArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> deleteTagValueArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：StringArray</span> </td> 
    <td colname="col3"> 從資產的標籤值清單中刪除指定的值（如果有）。 </td> 
   </tr> 
