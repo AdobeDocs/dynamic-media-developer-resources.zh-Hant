@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 0f107d50-b363-4670-bb02-873677e7bbea
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '167'
+ht-degree: 22%
 
 ---
 
@@ -101,15 +104,15 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </tr> 
 </table>
 
-與控制反射和 `gloss=` 光澤效 `rough=` 果行為搭配使用。 不同的材料會產生不同的效果，即 `gloss=` 使 `rough=` 是相同的。
+與`gloss=`和`rough=`搭配使用，以控制反射和光澤效果行為。 即使`gloss=`和`rough=`相同，不同的材料也會產生不同的效果。
 
 ## 屬性 {#section-2345b2508273426295ce8ac46182ea64}
 
-材料屬性。 如果暈映不包含3-D反射資料或在暈映中停用光澤效果，則忽略。
+材料屬性。 如果暈映不包含3-D反射資料，或是暈映中停用光澤效果，則忽略此點。
 
 ## 預設 {#section-0989055fb74a41a3b2f2a47fe7d90a42}
 
-`catalog::Type` 如果材料基於目錄條目。 Otherwise `type=0`. 如果未指定，或者 `type=0`，伺服器將根據目標對象和其他材料屬性選擇合適的預設設定。
+`catalog::Type` 如果材料基於目錄條目。否則`type=0`。 如果未指定，或如果`type=0`，則伺服器將根據目標對象和其他材料屬性選擇合適的預設值。
 
 ## 另請參閱 {#section-7cf808b0bb3d4b4fbb7b9a850d5a038b}
 
