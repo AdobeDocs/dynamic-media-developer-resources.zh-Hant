@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 027ac3d6-3d64-4507-b17f-5ede48d55560
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '204'
+ht-degree: 11%
 
 ---
 
@@ -45,7 +48,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
   <td class="stentry"> <p>影像資料檔案路徑或URL。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-auxpath.md#reference-943ad5ee3c3b4b06bbcbb005db0dc969" type="reference" format="dita" scope="local"> AuxPath </a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-auxpath.md#reference-943ad5ee3c3b4b06bbcbb005db0dc969" type="reference" format="dita" scope="local"> AuxPath  </a> </p></td> 
   <td class="stentry"> <p>次要資料檔案路徑或URL。 </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -61,11 +64,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
   <td class="stentry"> <p>材質顏色。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-basecolor.md#reference-5f02371b1d8e444ab12d2614d9792de8" type="reference" format="dita" scope="local"> BaseColor </a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-basecolor.md#reference-5f02371b1d8e444ab12d2614d9792de8" type="reference" format="dita" scope="local"> BaseColor  </a> </p></td> 
   <td class="stentry"> <p>可著色材料的減色。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-illum.md#reference-faeb85b387544d04b8aa4ccc3ab12e0f" type="reference" format="dita" scope="local"> 伊盧姆 </a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-illum.md#reference-faeb85b387544d04b8aa4ccc3ab12e0f" type="reference" format="dita" scope="local"> 伊盧姆  </a> </p></td> 
   <td class="stentry"> <p>照明圖選擇器。 </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -73,7 +76,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
   <td class="stentry"> <p>表面光澤度。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-roughness.md#reference-79f748ac642745e3b81795a99f61fa99" type="reference" format="dita" scope="local"> 粗糙度 </a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-roughness.md#reference-79f748ac642745e3b81795a99f61fa99" type="reference" format="dita" scope="local"> 粗糙度  </a> </p></td> 
   <td class="stentry"> <p>表面粗糙度。 </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -97,7 +100,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
   <td class="stentry"> <p>貼花／覆蓋圖層大小。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-rendersettings-dataref.md#reference-9ce753ae4096455eadcc12ac064de711" type="reference" format="dita" scope="local"> RenderSettings </a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-rendersettings-dataref.md#reference-9ce753ae4096455eadcc12ac064de711" type="reference" format="dita" scope="local"> RenderSettings  </a> </p></td> 
   <td class="stentry"> <p>進階演算設定。 </p></td> 
  </tr> 
 </table>
@@ -108,7 +111,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
   <td class="stentry"> <p>說明 </p></td> 
  </thead> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-id-vignette.md#reference-2a7ba758924b4757b3234942304db7fd" type="reference" format="dita" scope="local"> Id</a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-id-vignette.md#reference-2a7ba758924b4757b3234942304db7fd" type="reference" format="dita" scope="local"> ID</a> </p></td> 
   <td class="stentry"> <p>暈映識別碼（索引鍵）。 </p></td> 
  </tr> 
  <tr class="strow"> 
