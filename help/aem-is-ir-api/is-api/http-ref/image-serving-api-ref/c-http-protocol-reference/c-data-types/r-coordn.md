@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: e182650b-aff6-4dd2-8edb-cd0d361865fd
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '170'
+ht-degree: 0%
 
 ---
 
@@ -18,11 +21,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 <table id="simpletable_EFA3111DC4B94BAF94715500DB4DD8FB"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> coordN</span></span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> nx</span></span>, <span class="codeph"><span class="varname"> ny</span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> coordN</span> </span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> nx</span> </span>,  <span class="codeph"><span class="varname"> ny</span></span> </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> nx</span></span>, <span class="codeph"><span class="varname"> ny</span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> nx</span> </span>,  <span class="codeph"><span class="varname"> ny</span></span> </p></td> 
   <td class="stentry"> <p>與影像大小（實數、實數）標準化的坐標偏移 </p></td> 
  </tr> 
 </table>
