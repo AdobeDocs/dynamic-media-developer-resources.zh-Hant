@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 7b310aab-6d38-45f3-a3e7-b074a8e7a795
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '124'
+ht-degree: 3%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 預設縮圖大小。 用於縮圖請求(req=tmb)，而非屬性：:DefaultPix。
 
-如果縮圖要求( `req=tmb`)未明確指定大小，而未明確使用、或指定檢視大小，伺服器會限制回覆影像不大於此寬度和高度 `wid=``hei=``scl=`。
+如果縮圖要求(`req=tmb`)未明確指定大小，而未明確使用`wid=`、`hei=`或`scl=`指定檢視大小，伺服器會限制回覆影像不大於此寬度和高度。
 
 ## 屬性 {#section-650d9b1194fb4c47a03c6809e6b4af0e}
 
@@ -26,7 +29,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 預設 {#section-2c4a4f14540449638822913513170ff1}
 
-繼承自 `default::DefaultThumbPix` （如果未定義或為空）。
+如果未定義或為空，則繼承自`default::DefaultThumbPix`。
 
 ## 另請參閱 {#section-4ad00963ffa049fcb17ad63e6bbe7ac4}
 
