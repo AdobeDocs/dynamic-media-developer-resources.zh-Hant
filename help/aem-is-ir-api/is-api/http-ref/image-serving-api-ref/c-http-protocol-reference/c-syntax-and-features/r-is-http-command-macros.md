@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: a6ff5642-6716-484f-b37e-066994362a9b
 translation-type: tm+mt
 source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,11 +28,11 @@ source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
  </tr> 
 </table>
 
-` *`name`*` 不區分大小寫，可能由ASCII字母、數字、&#39;-&#39;、&#39;_&#39;和&#39;.&#39;的任意組合組成。 字元.
+` *`名`*` 稱不區分大小寫，可能由ASCII字母、數字、&#39;-&#39;、&#39;_&#39;和&#39;.&#39;的任意組合組成。字元.
 
-巨集可在&#39;?&#39;之後的請求中的任何位置，以及或欄位中的任 `catalog::Modifier` 何位 `catalog::PostModifier` 置。 宏只能表示一個或多個完整的「影像服務」命令，並且必須與具有「&amp;」分隔符的其它命令分開。
+宏可在&#39;?&#39;後的請求中的任意位置以及`catalog::Modifier`或`catalog::PostModifier`欄位內的任意位置被調用。 宏只能表示一個或多個完整的「影像服務」命令，並且必須與具有「&amp;」分隔符的其它命令分開。
 
-宏調用在解析期間早被其替代字串替換。 如果宏中的命令在請求中調用宏之前發生，則它們將覆蓋請求中的相同命令。 這與請求字串 `catalog::Modifier`中的命令一律會覆寫字串中的命令不同，不 `catalog::Modifier` 論在請求中的位置。
+宏調用在解析期間早被其替代字串替換。 如果宏中的命令在請求中調用宏之前發生，則它們將覆蓋請求中的相同命令。 這與`catalog::Modifier`不同，在&lt;a0/>中，無論請求中的位置如何，請求字串中的命令一律會覆寫`catalog::Modifier`字串中的命令。
 
 命令宏不能有參數值，但可使用自定義變數將值從請求傳遞到宏。
 
@@ -49,8 +52,8 @@ source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
 
 `http://server/cat/1345?$view$ http://server/cat/1435?$view$ http://server/cat/8243?$view$&wid=480`
 
-由於 `wid=` 第三個請求不同，我們只會在呼叫巨集 *後* (指定 `wid=`*fore *`$view$`將不會產生任何效果)覆寫值。
+由於`wid=`與第三個請求不同，我們只要在呼叫宏&#x200B;*之後覆寫值*（在&#x200B;*`$view$`之前指定`wid=`*&#x200B;將不會有任何作用）。
 
 ## 另請參閱 {#section-8cdba0ed2480444ca61e719e54f8871c}
 
-[catalog:::MacroFile](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-macrofile.md#reference-f91d717b3847458ca0f1fe95387554a2) , [catalog::Modifier](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-modifier-cat.md)[, Macro Definition Reference](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-macro-definition-reference/c-macro-definition-reference.md#concept-5ec73f7636c1496fba1e94094e694e79)
+[catalog:::MacroFile](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-macrofile.md#reference-f91d717b3847458ca0f1fe95387554a2) , catalog [::Modifier](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-modifier-cat.md) [, Macro Definition Reference](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-macro-definition-reference/c-macro-definition-reference.md#concept-5ec73f7636c1496fba1e94094e694e79)
