@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: c4b40e76-a459-4036-ace2-8df202305bf9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '79'
+ht-degree: 20%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 語法
 
-## 授權使用者類型 {#section-7cb9c26045214f01b1d6b6948b6c6a18}
+## 授權用戶類型{#section-7cb9c26045214f01b1d6b6948b6c6a18}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,7 +37,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 公司處理您要傳回的封包(例如 `c|656`)。 |
+| ` *`companyHandle`*` | `xsd:string` | 是 | 公司處理您要傳回的封包（例如`c|656`）。 |
 | ` *`assetHandle`*` | `xsd:string` | 是 | 應擷取XMP封包的資產。 |
 
 **輸出(getXMPPacketReturn)**
