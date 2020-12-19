@@ -8,15 +8,18 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 3599c8d3-dc4b-434e-8b11-775ea6f155ee
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# 目錄檔案{#catalogfile}
+# CatalogFile{#catalogfile}
 
 影像資料檔案路徑。 指定包含此目錄映像資料的檔案。
 
-影像資料檔案會依指定順序載入。 如果相同 `catalog::Id` 的值出現在多個記錄（位於相同或不同的目錄檔案）中，則最後一個例項優先。
+影像資料檔案會依指定順序載入。 如果相同的`catalog::Id`值出現在多個記錄中（位於相同或不同的目錄檔案中），則最後一個例項優先。
 
 ## 屬性 {#section-6da55f145ecd4e31a5de52637a436983}
 
