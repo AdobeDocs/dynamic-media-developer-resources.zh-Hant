@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 00a660f1-fa00-4821-aaec-7d370376c347
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '63'
+ht-degree: 7%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 在初始載入時設定視訊播放的靜音模式。 如果設定為 <span class="codeph"> 1, </span> 則音量被靜音；否則，影片會播放音效。 在某些裝置上，載入時會拖曳視訊播放，也可讓視訊自動播放。 </p> </td> 
+   <td colname="col2"> <p> 在初始載入時設定視訊播放的靜音模式。 如果設定為<span class="codeph"> 1 </span> ，則音量將靜音；否則，影片會播放音效。 在某些裝置上，載入時會拖曳視訊播放，也可讓視訊自動播放。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
