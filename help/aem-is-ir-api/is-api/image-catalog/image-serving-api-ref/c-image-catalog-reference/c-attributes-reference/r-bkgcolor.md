@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 48f0c7d2-3a6c-4076-81f1-ad94f701c576
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '83'
+ht-degree: 6%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 預設 {#section-9c2c5794b82a4ef89a09551f08d03dbc}
 
-繼承自 `default::BkgColor` （如果未定義或為空）。
+如果未定義或為空，則繼承自`default::BkgColor`。
 
 ## 另請參閱 {#section-90967e515a0d46bd8a9361fd49fc43cf}
 
