@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 3592daf7-6222-4c42-b6bb-ab3ef5b8ae70
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '81'
+ht-degree: 4%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 底部|頂部|左|右|無|工具提示</span> </p> </td> 
-   <td colname="col2"> <p> 指定標籤相對於縮圖影像的繪製位置。也就是說，標籤會置於相對於縮圖的指定位置。 </p> <p>當指 <span class="codeph"> 定工具提示</span> ，標籤文字會在縮圖影像上顯示為浮動工具提示。 </p> <p>設為 <span class="codeph"> 無</span> ，關閉標籤。 </p> </td> 
+   <td colname="col2"> <p> 指定標籤相對於縮圖影像的繪製位置。也就是說，標籤會置於相對於縮圖的指定位置。 </p> <p>當指定<span class="codeph"> tooltip</span>時，標籤文字會顯示為縮圖影像上的浮動工具提示。 </p> <p>設為<span class="codeph"> none</span>以關閉標籤。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
