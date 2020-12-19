@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 9d0a23e2-97c2-441e-8e4c-ef528ff654d2
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '154'
+ht-degree: 1%
 
 ---
 
@@ -43,13 +46,13 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
    <td colname="col2"> <p>檢視器的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景色  </span> </p> </td> 
    <td colname="col2"> <p> 十六進位格式的背景顏色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-範例——設定具有白色背景( `#FFFFFF`)的檢視器，並使其大小為512 x 288像素。
+範例——設定具有白色背景(`#FFFFFF`)的檢視器，並使其大小為512 x 288像素。
 
 ```
 .s7mixedmediaviewer { 
