@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: d09b0a45-ea89-4c00-a6ac-065ffad51611
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '62'
+ht-degree: 11%
 
 ---
 
@@ -18,13 +21,13 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 屬性 {#section-3cbea775a174443aaf14e9e58a3c2300}
 
-文字字串。 必須是命令支援的格式Token之 `fmt=` 一：
+文字字串。 必須是`fmt=`命令支援的格式Token之一：
 
 `jpg | jpeg | png | png-alpha | tif | tif-alpha | swf | swf-alpha | pdf | eps | gif | gif-alpha`
 
 ## 預設 {#section-256b0f8afdd846eaac68ec2019258708}
 
-繼承自 `default::Format` （如果未定義或為空）。
+如果未定義或為空，則繼承自`default::Format`。
 
 ## 另請參閱 {#section-d6dc53ae28ab4133a9f8f9ec0bc159a6}
 
