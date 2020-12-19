@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 09252d39-8604-4785-bcdc-ad229a691035
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '229'
+ht-degree: 6%
 
 ---
 
 
-# 編目prop{#catalogprops}
+# catalogprops{#catalogprops}
 
 影像目錄屬性。 傳回在請求路徑中指定的影像目錄的通用屬性。
 
@@ -25,13 +28,13 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </tr> 
 </table>
 
-省略目錄ID以擷取預設目錄屬性( [!DNL default.ini])。 The HTTP response is cacheable with the TTL based on `attribute::NonImgExpiration`.
+省略目錄ID以擷取預設目錄屬性([!DNL default.ini])。 HTTP響應基於`attribute::NonImgExpiration`可以與TTL進行快取。
 
-支援JSONP回應格式的請求可讓您使用參數的擴充語法來指定JS回呼處理常式 `req=` 的名稱：
+支援JSONP回應格式的請求可讓您使用`req=`參數的擴充語法來指定JS回呼處理常式的名稱：
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` 是JS回應中顯示的JS處理常式名稱。 僅允許a-z、A-Z和0-9字元。 選填。預設為 `s7jsonResponse`.
+`<reqHandler>` 是JS回應中顯示的JS處理常式名稱。僅允許a-z、A-Z和0-9字元。 選填。預設為 `s7jsonResponse`.
 
 傳回下列屬性值：
 
@@ -80,7 +83,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
   <tr valign="top"> 
    <td> <p> <span class="codeph"> catalog.fileTime</span> </p> </td> 
    <td> <p> 字串 </p> </td> 
-   <td> <p> <span class="codeph"> 屬性：:LastModified</span>，或目錄。ini檔案的上次修改 <span class="varname"> 時間</span><span class="filepath"></span> 。 </p> </td> 
+   <td> <p> <span class="codeph"> 屬性：:LastModified</span>，或catalog <span class="varname"> </span><span class="filepath"> .</span> inifile的上次修改時間（如果不存在） </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.jpegQuality</span> </p> </td> 
