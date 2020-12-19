@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 84e04972-32ce-4aca-aae6-d5b8bbe761e6
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -38,7 +41,7 @@ Scene 7 Image Serving包含下列元件：
   </tr> 
   <tr> 
    <td colname="col1"> <p>平台伺服器 </p> </td> 
-   <td colname="col2"> <p>J2EE應用程式。 管理客戶端連接、日誌記錄和與其他元件的通信。 位於/is/image <span class="filepath"> 的HTTP存取</span>。 </p> </td> 
+   <td colname="col2"> <p>J2EE應用程式。 管理客戶端連接、日誌記錄和與其他元件的通信。 位於<span class="filepath"> /is/image</span>的HTTP存取。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>快取服務 </p> </td> 
@@ -50,7 +53,7 @@ Scene 7 Image Serving包含下列元件：
   </tr> 
   <tr> 
    <td colname="col1"> <p>ATE Text Render元件 </p> </td> 
-   <td colname="col2"> <p>當運行textPs=操作時，文本渲染服務的一個或多個實例 <span class="codeph"> 可能處於活動狀態</span> 。 </p> </td> 
+   <td colname="col2"> <p>當運行<span class="codeph"> textPs=</span>操作時，文本渲染服務的一個或多個實例可以處於活動狀態。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>SVG Render元件 </p> </td> 
@@ -58,9 +61,9 @@ Scene 7 Image Serving包含下列元件：
   </tr> 
   <tr> 
    <td colname="col1"> <p>Scene7影像演算(亦即： 演算伺服器) </p> </td> 
-   <td colname="col2"> <p>需要個別的授權才能啟動。 在/ir/render處 <span class="filepath"> 訪問HTTP</span>。 所有影像演算功能都整合在平台伺服器和影像伺服器中，而不需個別的可執行元件。 </p> </td> 
+   <td colname="col2"> <p>需要個別的授權才能啟動。 位於<span class="filepath"> /ir/render</span>的HTTP訪問。 所有影像演算功能都整合在平台伺服器和影像伺服器中，而不需個別的可執行元件。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-預設目錄( [!DNL default.ini])或特定影像目錄提供其他組態設定(如需詳細資 [訊，請參閱影像目錄](../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3) )。
+預設目錄([!DNL default.ini])或特定影像目錄（如需詳細資訊，請參閱[影像目錄](../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3)）提供其他組態設定。
