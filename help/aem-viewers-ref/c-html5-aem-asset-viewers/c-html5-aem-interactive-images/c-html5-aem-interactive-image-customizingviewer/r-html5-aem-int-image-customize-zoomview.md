@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: d8349f8c-134f-4e74-9d0c-ab56981965d7
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '68'
+ht-degree: 1%
 
 ---
 
 
-# Zoom view{#zoom-view}
+# 縮放視圖{#zoom-view}
 
 主視圖由靜態影像組成。
 
@@ -35,7 +38,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景色  </span> </p> </td> 
    <td colname="col2"> <p> 主視圖的十六進位格式背景顏色。 </p> </td> 
   </tr> 
  </tbody> 
