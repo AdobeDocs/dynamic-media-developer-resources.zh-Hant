@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: ec8a5f86-be10-494e-bc06-5c81520696f9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '71'
+ht-degree: 1%
 
 ---
 
@@ -23,6 +26,6 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </tr> 
 </table>
 
-使用URL命令 `convertTextToOutlines=1` 將PDF檔案中的所有文字變更為輪廓的路徑。
+使用URL命令`convertTextToOutlines=1`將PDF檔案中的所有文字變更為輪廓的路徑。
 
 當任何效果套用至PDF檔案中的文字（例如將文字轉換為外框）時，最終轉譯的影像會縮小或「平面化」大小。
