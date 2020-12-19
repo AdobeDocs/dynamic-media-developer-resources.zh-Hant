@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 6333c630-2df1-4eb1-b2fb-e67692f747eb
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '92'
+ht-degree: 4%
 
 ---
 
 
-# 列印解析度{#printresolution}
+# PrintResolution{#printresolution}
 
 預設列印解析度。 提供預設的列印解析度，以防特定目錄記錄未包含有效的目錄：:PrintResolution值。
 
@@ -22,7 +25,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 預設 {#section-b5d70865fe8d40229d8d91404fdf3244}
 
-繼承自 `default::Resolution` （如果未定義或為空）。
+如果未定義或為空，則繼承自`default::Resolution`。
 
 ## 另請參閱 {#section-54f8797a2b694d91a316f0d7414fac32}
 
