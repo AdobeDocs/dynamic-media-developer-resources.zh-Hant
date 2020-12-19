@@ -21,7 +21,7 @@ ht-degree: 2%
 
 影像集由排序的、以逗號分隔的項目清單組成，每個項目由一個或多個子項目（影像ID、色票ID、媒體檔案路徑、標籤等）組成，由分號和／或冒號分隔。
 
-大括弧 `{ }` 和圓 `( )` 括弧可用來分隔特定內容（例如顏色值）或指出巢狀集。 此方式使用的大括弧或括弧不得進行編碼，而且必須始終顯示為匹配的對，否則將發生目錄解析錯誤。
+大括弧`{ }`和括弧`( )`可用於分隔某些內容（如顏色值）或表示嵌套集。 此方式使用的大括弧或括弧不得進行編碼，而且必須始終顯示為匹配的對，否則將發生目錄解析錯誤。
 
 >[!NOTE]
 >
@@ -39,11 +39,11 @@ ht-degree: 2%
 
 請參閱影像伺服檢視器檔案，以取得有關影像集結構與使用的其他詳細資訊。
 
-伺服器會回應請求而傳回此欄位的內容，而不進行 `req=imageset` 修改。
+伺服器會回應`req=imageset`要求而傳回此欄位的內容，但不會進行修改。
 
-## 標準集 {#section-5ecc8ffee7224668b63f601383665564}
+## 標準集{#section-5ecc8ffee7224668b63f601383665564}
 
-「影像伺服」原本支援下列設定定義，而存取特定檢視器時需要伺服器端剖析、驗證和處理設定。 通過在中指定相應的值，可以標識每個集類型 `catalog::AssetType`。
+「影像伺服」原本支援下列設定定義，而存取特定檢視器時需要伺服器端剖析、驗證和處理設定。 每個設定類型都可通過在`catalog::AssetType`中指定相應值來標識。
 
 **基本色票集**
 
@@ -78,7 +78,7 @@ ht-degree: 2%
 
 二維回轉集中的每個項目都可由簡單影像、基本回轉集的參考，或由大括弧分隔的內嵌基本回轉集組成。 可以使用括弧來取代大括弧。
 
-| ` *`2dSpinItem`*` | ` *`2dSpinSet`* *`2dSpinItem`* &#42;[ ',' *`2dSpinItem`* ]` |
+| ` *`2dSpinItem`*` | ` *`2dSpinSet`* *` 2dSpinItem`* &#42;[ ',' *` 2dSpinItem`* ]` |
 |---|---|
 | ` *`2dSpinItem`*` | ` *``* | { '{' *``* '}' } | *`imageIdbasicSpinSetbasicSpinSetId`*` |
 | ` *`basicSpinSetId`*` | 定義基本回轉集的目錄記錄的IS參考（目錄/ID） |
@@ -119,9 +119,9 @@ ht-degree: 2%
 
 ## 屬性 {#section-17c731e5c46646aa90ac21f39bb693ca}
 
-文字字串。 值的逗號分隔列 `catalog::Id` 表、絕對影像伺服器檔案路徑或相對的檔案路徑 `attribute::RootPath`。 在集合中可以多次引用同一影像。 定義目錄記錄可以出現在集合中的任意位置。
+文字字串。 以逗號分隔的`catalog::Id`值、絕對影像伺服器檔案路徑或相對於`attribute::RootPath`的檔案路徑清單。 在集合中可以多次引用同一影像。 定義目錄記錄可以出現在集合中的任意位置。
 
-此欄位參與文字字串本地化。 除了字串( *`label`* 部分)外，如果字串 *`solidColorSpecifier`*&#x200B;中包含至少一個「 `^loc=…^`」本地化Token，則所有分隔欄位都會本地化。 如需詳細 [資訊，請參閱](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)*HTTP通訊協定參考中的文字字串本地化* 。
+此欄位參與文字字串本地化。 除了&#x200B;*`label`*&#x200B;字串（*`solidColorSpecifier`*&#x200B;的一部分）外，如果所有分隔欄位包含至少一個&#39; `^loc=…^`&#39;本地化Token，則這些欄位都會本地化。 如需詳細資訊，請參閱&#x200B;*HTTP通訊協定參考*&#x200B;中的[文字字串本地化](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)。
 
 ## 預設 {#section-c3a60e360393478284f0f2d2da5b963b}
 
