@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 98cece72-487f-4a0d-ad6f-018b656f0f03
 translation-type: tm+mt
 source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
+workflow-type: tm+mt
+source-wordcount: '92'
+ht-degree: 5%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
 
 ## 預設 {#section-c5296f4e52394984bf1c0d265ecde940}
 
-無. 每個目錄都必須有唯一 `attribute::RootId` 值。 [!DNL default.ini] 通常為空 `attribute::RootId`。
+無. 每個目錄都必須有唯一的`attribute::RootId`值。 [!DNL default.ini] 通常為空 `attribute::RootId`。
 
 ## 另請參閱 {#section-5297eaaf736b4db5901e0b37e7cb8bbe}
 
