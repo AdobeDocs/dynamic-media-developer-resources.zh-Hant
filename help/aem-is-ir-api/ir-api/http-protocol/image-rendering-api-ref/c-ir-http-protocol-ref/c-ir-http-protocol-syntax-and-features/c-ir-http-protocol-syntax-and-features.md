@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 5badae8e-0874-43b1-b019-bd7445e6c2ce
 translation-type: tm+mt
 source-git-commit: 7721cccf3f779f258adcdcf886f7e01111e92be0
+workflow-type: tm+mt
+source-wordcount: '95'
+ht-degree: 1%
 
 ---
 
 
-# HTTP通訊協定語法與功能{#http-protocol-syntax-and-features}
+# HTTP通訊協定語法和功能{#http-protocol-syntax-and-features}
 
 本節說明HTTP通訊協定語法，以及Scene7 Image Rendering的功能。
 
