@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: aa245d18-15cc-41cb-a49d-757d74fe6231
 translation-type: tm+mt
 source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
+workflow-type: tm+mt
+source-wordcount: '163'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +27,7 @@ source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
 
 ## 預設 {#section-1194c36ffe0748c5b9ff7d732a506588}
 
-繼承自( `default::DefaultExt` 如果未定義)。 如果已定義但空白，則使用此目錄時不會將預設字尾套用至影像名稱。
+如果未定義，則繼承自`default::DefaultExt`。 如果已定義但空白，則使用此目錄時不會將預設字尾套用至影像名稱。
 
 ## 另請參閱 {#section-d7c408b979844643adff8258f500eb7c}
 
