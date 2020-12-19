@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: e5a715c4-9b5b-48fc-8228-5e7416e2b71a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '269'
+ht-degree: 6%
 
 ---
 
 
-# caption{#caption}
+# 標題{#caption}
 
 所有檢視器通用的參數。
 
@@ -25,12 +28,12 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 檔案 </span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 檔案  </span> </span> </p> </td> 
    <td colname="col2"> <p> 指定WebVTT標題內容的URL或路徑。 影像伺服功能可支援WebVTT檔案。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 指定預設標題狀態。 啟用 <span class="codeph"> 為1 </span>。 </p> </td> 
+   <td colname="col2"> <p> 指定預設標題狀態。 已啟用<span class="codeph"> 1 </span>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -50,26 +53,26 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> A </span> </p> </td> 
    <td colname="col2"> <p>測試對齊 </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> left|right|middle|start|end </span> </p> </td> 
-   <td colname="col4"> <p> 控制文字的對齊方式。 </p> <p>預設值 <span class="codeph"> 為中 </span>間。 </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> left|right|middle|start|end  </span> </p> </td> 
+   <td colname="col4"> <p> 控制文字的對齊方式。 </p> <p>預設值為<span class="codeph">中間</span>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> T </span> </p> </td> 
    <td colname="col2"> <p>文字位置 </p> </td> 
    <td colname="col3"> <p> 0%-100% </p> </td> 
-   <td colname="col4"> <p> 在VideoPlayer元件中插入標題文字開頭的百分比。 </p> <p>Default is <span class="codeph"> 0% </span>. </p> </td> 
+   <td colname="col4"> <p> 在VideoPlayer元件中插入標題文字開頭的百分比。 </p> <p>預設值為<span class="codeph"> 0% </span>。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> S </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> S  </span> </p> </td> 
    <td colname="col2"> <p>行大小 </p> </td> 
    <td colname="col3"> <p> 0%-100% </p> </td> 
-   <td colname="col4"> <p> 用於標題的視訊寬度百分比。 </p> <p>Default is <span class="codeph"> 100% </span>. </p> </td> 
+   <td colname="col4"> <p> 用於標題的視訊寬度百分比。 </p> <p>預設值為<span class="codeph"> 100% </span>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> L </span> </p> </td> 
    <td colname="col2"> <p>行位置 </p> </td> 
    <td colname="col3"> <p> 0%-100%|整數 </p> </td> 
-   <td colname="col4"> <p> 確定頁面上的行位置。 </p> <p>如果它表示為無百分比符號的整數，則表示顯示文本的頂部的行數。 </p> <p>如果以百分比表示，百分比符號是最後一個字元，則標題文字會顯示在顯示區域的百分比下。 </p> <p>Default is <span class="codeph"> 100% </span>. </p> </td> 
+   <td colname="col4"> <p> 確定頁面上的行位置。 </p> <p>如果它表示為無百分比符號的整數，則表示顯示文本的頂部的行數。 </p> <p>如果以百分比表示，百分比符號是最後一個字元，則標題文字會顯示在顯示區域的百分比下。 </p> <p>預設值為<span class="codeph"> 100% </span>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -79,12 +82,12 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_CB7B4DFC6B654AECA1AF6594E3FD5C46"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 檔案 </span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 檔案  </span> </span> </p> </td> 
    <td colname="col2"> <p> 指定WebVTT標題內容的URL或路徑。 WebVTT檔案由影像伺服提供。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 指定預設標題狀態。 </p> <p>啟用 <span class="codeph"> 為1 </span>。 </p> </td> 
+   <td colname="col2"> <p> 指定預設標題狀態。 </p> <p>已啟用<span class="codeph"> 1 </span>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
