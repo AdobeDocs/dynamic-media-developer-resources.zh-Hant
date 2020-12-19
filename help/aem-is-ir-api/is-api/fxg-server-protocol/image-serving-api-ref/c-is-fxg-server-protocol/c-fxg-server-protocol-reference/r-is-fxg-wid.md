@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: b59b936c-abab-4f9d-95ca-0a09743ba0fb
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '188'
+ht-degree: 4%
 
 ---
 
@@ -27,11 +30,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 預設 {#section-830bae0b6bac440098444d7cdcb23e2e}
 
-如果未 `wid=`指定 `hei=`、 `scale=` 也未指定，則回覆影像是FXG檔案中指定的預設檢視大小。
+如果未指定`wid=`、`hei=`和`scale=`，則回覆影像是FXG檔案中指定的預設檢視大小。
 
-點陣格式是使用「預設視圖大小」(Default View Size)(或「預設影像」(DefaultPix)設定呈現的。 按一 **[!UICONTROL 下「應用程式設定]** >發佈設定 **[!UICONTROL >影像伺]** 服器」 ****，然後輸入您的「寬度」和「高度」值。 較小的尺寸可提供更好的效能。 您必須儲存設定並執行影像伺服發佈才能套用變更。
+點陣格式是使用「預設視圖大小」(Default View Size)(或「預設影像」(DefaultPix)設定呈現的。 按一下「**[!UICONTROL 應用程式設定」>「]** > **[!UICONTROL 發佈設定」>「**[!UICONTROL &#x200B;影像伺服器」，然後輸入「寬度」和「高度」值。 ]**]**&#x200B;較小的尺寸可提供更好的效能。 您必須儲存設定並執行影像伺服發佈才能套用變更。
 
-如果您套用 `scale=1` 命令，點陣格式要求會以FXG中指定的大小呈現。
+如果您套用`scale=1`命令，則會以FXG中指定的大小呈現點陣格式要求。
 
 ## 範例 {#section-2f72cb2653d54c6aaacf0d97521fb72c}
 
