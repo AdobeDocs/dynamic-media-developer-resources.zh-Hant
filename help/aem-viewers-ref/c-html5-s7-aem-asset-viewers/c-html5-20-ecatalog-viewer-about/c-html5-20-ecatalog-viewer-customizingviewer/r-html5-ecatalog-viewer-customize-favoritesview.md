@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 6b954bec-0678-4970-b83a-c2d8fea06a25
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '294'
+ht-degree: 2%
 
 ---
 
@@ -31,7 +34,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景色  </span> </p> </td> 
    <td colname="col2"> <p> 「我的最愛」檢視的背景顏色。 </p> </td> 
   </tr> 
   <tr> 
@@ -62,7 +65,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> 每個縮圖的垂直邊界大小。 實際縮圖間距等於為。s7thumbcell設定的上下邊界 <span class="codeph"> 之和 </span>。 </p> </td> 
+   <td colname="col2"> <p> 每個縮圖的垂直邊界大小。 實際縮圖間距等於為<span class="codeph"> .s7thumbcell </span>設定的上下邊界之和。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -86,7 +89,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 <table id="table_6F5B1438CAFA49E9B33400C6970ABDA1"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 寬度  </span> </p> </td> 
    <td colname="col2"> <p>縮圖寬度。 </p> </td> 
   </tr> 
   <tr> 
@@ -102,7 +105,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 
 >[!NOTE]
 >
->縮圖支援 `state` 屬性選取器，可用來將不同的外觀套用至不同的縮圖狀態。 尤其是， `state="selected"` 與使用者最近選取的縮圖相對應。 `state="default"` 對應其餘的縮圖。 而且 `state="over"` 可用於滑鼠暫留。
+>縮圖支援`state`屬性選擇器，可用來將不同的外觀套用至不同的縮圖狀態。 特別是，`state="selected"`對應於使用者最近選取的縮圖。 `state="default"` 對應其餘的縮圖。而`state="over"`則用於滑鼠暫留。
 
 範例——若要設定75 x 75像素的縮圖，請使用淺灰色預設邊框和深灰色選取的邊框。
 
@@ -130,11 +133,11 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 <table id="table_B41339A16ACB46CB87D3EB1FD05FA2CD"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型系列 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字型系列  </span> </p> </td> 
    <td colname="col2"> <p>字型名稱。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型大小 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字型大小  </span> </p> </td> 
    <td colname="col2"> <p>字型大小. </p> </td> 
   </tr> 
  </tbody> 
