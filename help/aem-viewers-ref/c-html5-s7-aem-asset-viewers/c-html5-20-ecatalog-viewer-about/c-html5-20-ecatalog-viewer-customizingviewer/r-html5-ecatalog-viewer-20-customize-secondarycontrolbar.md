@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: 9a91da6b-0d9b-4b4c-9659-86a64e624947
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# 次控制列{#secondary-control-bar}
+# 輔助控制條{#secondary-control-bar}
 
 次要控制列是矩形區域，當CSS中提供時，該區域會包含「第一頁」和「最後一頁」按鈕，以及「頁面指示器」。
 
@@ -43,7 +46,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
    <td colname="col2"> <p>主控制條的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景色  </span> </p> </td> 
    <td colname="col2"> <p>次控制欄的背景顏色。 </p> </td> 
   </tr> 
  </tbody> 
