@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 7a69e7ac-9a32-4e32-a7bc-cc90c5cbe49c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '79'
+ht-degree: 6%
 
 ---
 
@@ -18,7 +21,7 @@ Flash Streaming Server URL首碼。 產生具有req=mbrSet的多位元速率f4m�
 
 ## 屬性 {#section-e7ae7d96a7cb40829de7e784fcbbad33}
 
-代表URL首碼的字串。 (eg. `http://my.server.com/flash/streaming`)
+代表URL首碼的字串。 (例如`http://my.server.com/flash/streaming`)
 
 ## 預設 {#section-ee332f7842d24155a91ac18fbfb6fc0c}
 
