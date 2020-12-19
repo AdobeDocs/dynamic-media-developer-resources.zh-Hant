@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 1ad94058-4dca-40b9-a694-a6c1452880c1
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '50'
+ht-degree: 8%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 底部|頂部|左|右|無|工具提示</span> </p> </td> 
-   <td> <p> 指定相對於色票縮圖影像的標籤繪製位置。 也就是說，標籤會置於相對於色票縮圖的指定位置。 指定 <span class="codeph"> 工具提示</span> ，則不會繪製任何標籤。 </p> </td> 
+   <td> <p> 指定相對於色票縮圖影像的標籤繪製位置。 也就是說，標籤會置於相對於色票縮圖的指定位置。 指定<span class="codeph"> tooltip</span>時，不會繪製任何標籤。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
