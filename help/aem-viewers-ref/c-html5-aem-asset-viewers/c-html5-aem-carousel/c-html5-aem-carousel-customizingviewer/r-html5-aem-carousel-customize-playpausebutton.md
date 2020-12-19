@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 342def36-9dfb-487c-bed5-b0f301ce8430
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 
 <!--<a id="section_6C008EE11212461FA744F2540D38C295"></a>-->
 
-只有將參數設定為 `CarouselViewer.autoplay` 時，按鈕才可見 `1`;否則，它會隱藏。 您可以使用CSS，相對於包含此按鈕的控制列來調整此按鈕的大小、外觀和位置。
+僅當`CarouselViewer.autoplay`參數設定為`1`；時，該按鈕才可見否則，它會隱藏。 您可以使用CSS，相對於包含此按鈕的控制列來調整此按鈕的大小、外觀和位置。
 
 **主檢視器區域的CSS屬性**
 
@@ -59,15 +62,15 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
    <td colname="col2"> <p>按鈕的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景影像 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景影像  </span> </p> </td> 
    <td colname="col2"> <p>為指定按鈕狀態顯示的影像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS精靈，請放在圖稿精靈內。 </p> <p>另請參閱 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS精靈 </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS精靈，請放在圖稿精靈內。 </p> <p>另請參閱<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS精靈</a>。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 游標 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 游標  </span> </p> </td> 
    <td colname="col2"> <p>游標類型。 </p> </td> 
   </tr> 
  </tbody> 
@@ -75,9 +78,9 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 
 >[!NOTE]
 >
->此按鈕支援屬 `state` 性選擇器，可用來將不同的外觀套用至不同的按鈕狀態。
+>此按鈕支援`state`屬性選擇器，可用來將不同的外觀套用至不同的按鈕狀態。
 
-按鈕工具提示可以本地化。 如需詳 [細資訊，請參閱使用者介面元素](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md) 的本地化。
+按鈕工具提示可以本地化。 如需詳細資訊，請參閱[使用者介面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md)。
 
 範例——若要設定播放暫停按鈕，此按鈕為28 x 28像素，位於檢視器底部17像素和左側12像素，並在選取或未選取時，針對四個不同按鈕狀態中的每個狀態顯示不同的影像。
 
