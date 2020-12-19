@@ -8,13 +8,16 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 22c271f7-e9dc-4f3e-af7b-1efe89df983e
 translation-type: tm+mt
 source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+workflow-type: tm+mt
+source-wordcount: '59'
+ht-degree: 8%
 
 ---
 
 
 # 屬性{#properties}
 
-屬性資料會回應下列類 `req=` 型：
+屬性資料會回應下列`req=`類型：
 
 * `catalogprops`
 * `imageprops`
