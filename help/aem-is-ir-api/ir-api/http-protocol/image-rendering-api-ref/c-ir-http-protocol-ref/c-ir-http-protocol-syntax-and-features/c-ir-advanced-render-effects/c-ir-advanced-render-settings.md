@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 18e7f3cf-4d30-445c-813c-546a91987b99
 translation-type: tm+mt
 source-git-commit: e3b096b97419a86de244b97876439ad9c491b950
+workflow-type: tm+mt
+source-wordcount: '630'
+ht-degree: 24%
 
 ---
 
@@ -20,9 +23,9 @@ source-git-commit: e3b096b97419a86de244b97876439ad9c491b950
 >
 >「演算設定」是「影像演算」和「影像製作」的進階功能。 如需訓練、諮詢或兩者的相關資訊，請洽詢Adobe技術支援或Adobe諮詢代表，以取得使用「演算設定」的資訊。
 
-在「影像製作」中，這些設定會以互動方式加以控制。 使用命令（或與值一起使用）可以在「影像演算」中 `rs=` 套用相同的 `catalog::RenderSettings` 設定。 此機制用於為每個材質選取不同的銳利化選項，並修改照明演算法的行為，例如變更亮部的飽和度或陰影中的對比度。
+在「影像製作」中，這些設定會以互動方式加以控制。 在「影像演算」中，可使用`rs=`命令（或使用`catalog::RenderSettings`值）套用相同的設定。 此機制用於為每個材質選取不同的銳利化選項，並修改照明演算法的行為，例如變更亮部的飽和度或陰影中的對比度。
 
-## 進階演算設定(rs=)值 {#section-d9e7f341ebd44f07a4e90f1f5910726b}
+## 進階演算設定(rs=)值{#section-d9e7f341ebd44f07a4e90f1f5910726b}
 
 <table id="table_1517FC39C7344EBB9F17BE20415DB057"> 
  <thead> 
@@ -109,7 +112,7 @@ source-git-commit: e3b096b97419a86de244b97876439ad9c491b950
   <tr> 
    <td colname="col1"> <p>S </p> </td> 
    <td colname="col2"> <p>超取樣：隨機率。 </p> </td> 
-   <td colname="col3"> <p>1 </p> </td> 
+   <td colname="col3"> <p>3 </p> </td> 
    <td colname="col4"> <p>20 </p> </td> 
    <td colname="col5"> <p>預設為 5。 </p> </td> 
   </tr> 
@@ -298,7 +301,7 @@ source-git-commit: e3b096b97419a86de244b97876439ad9c491b950
  </tbody> 
 </table>
 
-## 進階演算設定範例 {#section-56528569eae44ecd997a289b211ff256}
+## 進階演算設定範例{#section-56528569eae44ecd997a289b211ff256}
 
 <table id="table_062DCF66ACCC4A6997E3CA951C0A12B8"> 
  <thead> 
