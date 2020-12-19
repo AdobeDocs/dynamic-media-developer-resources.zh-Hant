@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 2fede992-6759-45bd-b2f1-36e2c791d536
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '156'
+ht-degree: 2%
 
 ---
 
@@ -20,18 +23,18 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 <table id="simpletable_6E0DA6CBCDCF4CDDAFA5A4C38E0D5FC5"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> 名 <span class="varname"> 稱 </span></span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 名稱  </span> </span> </p> </td> 
   <td class="stentry"> <p>群組名稱或路徑／名稱。 </p> </td> 
  </tr> 
 </table>
 
 可以使用完全限定的組路徑(即，通過指定目標組或對象的名稱，前面有所有父組，以/（正斜線）分隔)來選擇子組或單個對象。
 
-如果未找到具有指定名稱的組／對象，則會執行中指定 `attribute::OnObjFail` 的操作。
+如果未找到具有指定名稱的組／對象，則會執行在`attribute::OnObjFail`中指定的操作。
 
 ## 屬性 {#section-9463b36e8ff74c81a70c7c2b58927430}
 
-選取命令；MSS分隔字元。 對象選擇是持續的，直到選擇了另一個對象（帶或） `obj=` 為止 `sel=`。
+選取命令；MSS分隔字元。 對象選擇是持續的，直到選擇了另一個對象（具有`obj=`或`sel=`）。
 
 群組／物件路徑和名稱不區分大小寫。
 
