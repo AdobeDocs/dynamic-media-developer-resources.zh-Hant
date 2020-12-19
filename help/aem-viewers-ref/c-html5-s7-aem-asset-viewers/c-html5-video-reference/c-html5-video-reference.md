@@ -20,7 +20,7 @@ ht-degree: 0%
 
 視訊檢視器是視訊播放器，可播放以H.264格式編碼的串流和漸進式視訊。 它是從Scene7 Publishing System或AEM Dynamic Media傳送。
 
-請參 [閱系統需求和先決條件](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842)。
+請參閱[系統需求和先決條件](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842)。
 
 同時支援單一視訊和最適化視訊集。 此外，檢視器還支援使用外部位置上裝載的漸進式視訊和HLS串流。 它可在支援HTML5視訊的案頭和行動網頁瀏覽器上運作。 此檢視器也支援視訊內容、視訊章節導覽和社交媒體分享工具之上顯示的選擇性隱藏字幕。
 
@@ -32,17 +32,17 @@ ht-degree: 0%
 
 [https://s7d9.scene7.com/s7viewers/html5/VideoViewer.html?asset=Scene7SharedAssets/Glacier_Climber_MP4](https://s7d9.scene7.com/s7viewers/html5/VideoViewer.html?asset=Scene7SharedAssets/Glacier_Climber_MP4)
 
-## 使用視訊檢視器 {#section-f21ac23d3f6449ad9765588d69584772}
+## 使用視訊檢視器{#section-f21ac23d3f6449ad9765588d69584772}
 
-視訊檢視器代表主要JavaScript檔案和一組輔助檔案——單一JavaScript包含在檢視器SDK元件中，檢視器在執行時期中會使用此特定檢視器、資產和由檢視器下載的CSS元件。
+視訊檢視器代表主要JavaScript檔案和一組輔助檔案——單一JavaScript包含在檢視器SDK元件中，此特定檢視器使用的所有檢視器SDK元件、資產，以及檢視器在執行時期下載的CSS。
 
 您可以使用隨IS檢視器提供的可立即生產使用的HTML頁面，在快顯模式中使用視訊檢視器。 或者，您可以在內嵌模式中使用檢視器，在此模式中，檢視器會使用檔案化的API整合至目標網頁。
 
 設定檢視器及設定其外觀的工作與其他檢視器類似。 所有外觀設定都是透過自訂CSS來完成。
 
-請參 [閱所有檢視器通用的命令參考——所有檢視器通用的組態屬性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)[和命令參考- URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
+請參閱所有檢視器通用的[命令參考——組態屬性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)和[所有檢視器通用的命令參考- URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
-## 與視訊檢視器互動 {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
+## 與視訊檢視器互動{#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
 視訊檢視器提供一組標準的視訊播放使用者介面控制項，例如播放／暫停按鈕、視訊畫布視訊時間泡泡、播放時間／總時間指示器、音量控制、全螢幕按鈕和隱藏字幕切換。 所有這些控制項都會分組在檢視器使用者介面底部的控制列中。
 
@@ -56,9 +56,9 @@ ht-degree: 0%
 
 此檢視器可完全透過鍵盤存取。
 
-請參閱 [鍵盤協助功能和導覽](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861)。
+請參閱[鍵盤協助功能和導覽](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861)。
 
-## 使用視訊檢視器的社交媒體分享工具 {#section-907d316fe1da4b87abb9775f02464704}
+## 使用視訊檢視器{#section-907d316fe1da4b87abb9775f02464704}的社交媒體分享工具
 
 視訊檢視器支援社交媒體分享工具。使用者介面中的單一按鈕可供使用，當使用者點選或點選時，會展開為分享工具列。
 
@@ -66,9 +66,9 @@ ht-degree: 0%
 
 由於網頁瀏覽器的安全性限制，共用工具無法在全螢幕模式下使用。
 
-## 內嵌視訊檢視器 {#section-6bb5d3c502544ad18a58eafe12a13435}
+## 內嵌視訊檢視器{#section-6bb5d3c502544ad18a58eafe12a13435}
 
-不同的網頁對檢視器行為有不同的需求。 有時網頁會提供連結，當點按時會在個別的瀏覽器視窗中開啟檢視器。 在其他情況下，必須將檢視器直接內嵌在代管頁面上。 在後一種情況下，網頁可能具有靜態頁面版面，或使用不同裝置或不同瀏覽器視窗大小顯示不同的互動式設計。 為滿足這些需求，檢視器支援三種主要作業模式： 彈出畫面、固定大小內嵌和回應式設計內嵌。
+不同的網頁對檢視器行為有不同的需求。 有時網頁會提供連結，當點按時會在個別的瀏覽器視窗中開啟檢視器。 在其他情況下，必須將檢視器直接內嵌在代管頁面上。 在後一種情況下，網頁可能具有靜態頁面版面，或使用不同裝置或不同瀏覽器視窗大小顯示不同的互動式設計。 為滿足這些需求，檢視器支援三種主要作業模式：彈出畫面、固定大小內嵌和回應式設計內嵌。
 
 平板電腦和行動裝置支援將多個影片內嵌在相同頁面上。 在大多數情況下，一次只能播放一個視訊。 當使用者開始播放一個視訊，然後嘗試播放另一個視訊時，會自動暫停第一個視訊。 自動暫停的視訊會記住其目前的播放時間，因此使用者可隨時回到視訊並繼續播放。 此規則的唯一例外是在Android 4.x裝置上的Chrome瀏覽器中，可以同時播放視訊。
 
@@ -76,9 +76,9 @@ ht-degree: 0%
 
 在快顯模式中，檢視器會在個別的網頁瀏覽器視窗或標籤中開啟。 它會佔用整個瀏覽器視窗區域，並在調整瀏覽器大小或變更裝置方向時進行調整。
 
-此模式是行動裝置最常見的模式。 網頁會使用 `window.open()` JavaScript呼叫、正確設定的 `A` HTML元素或任何其他適當的方法載入檢視器。
+此模式是行動裝置最常見的模式。 網頁會使用`window.open()` JavaScript呼叫、正確設定的`A` HTML元素或任何其他適當的方法載入檢視器。
 
-建議您使用現成可用的HTML頁面來建立快顯作業模式。 它被呼叫， [!DNL VideoViewer.html] 且位於標準IS- [!DNL html5/] Viewer部署的子資料夾下：
+建議您使用現成可用的HTML頁面來建立快顯作業模式。 它稱為[!DNL VideoViewer.html]，位於標準IS-Viewer部署的[!DNL html5/]子資料夾下：
 
 [!DNL <s7viewers_root>/html5/VideoViewer.html]
 
@@ -98,24 +98,24 @@ ht-degree: 0%
 
 當檢視器在初始載入後未變更其大小時，會使用固定大小內嵌。 此選項最適合具有靜態頁面版面的網頁。
 
-回應式設計內嵌假設檢視器可能需要在執行時期調整大小，以回應其容器的大小變更 `DIV`。 最常見的使用案例是將檢視器新增至使用彈性頁面版面的網頁。
+回應式設計內嵌假設檢視器可能需要在執行時期調整大小，以回應其容器`DIV`的大小變更。 最常見的使用案例是將檢視器新增至使用彈性頁面版面的網頁。
 
-在回應式設計內嵌模式中，檢視器的運作方式會因網頁大小容器而異 `DIV`。 如果網頁只設定容器的寬度，而不限制其高度 `DIV`，檢視器會根據所使用資產的外觀比例自動選擇其高度。 此方法可確保資產完美地貼合至檢視中，而不會在側邊產生任何間距。 這個使用案例最常用於使用自適應設計版面架構（例如Bootstrap、Foundation等）的網頁。
+在回應式設計內嵌模式中，檢視器的運作方式會因網頁大小（容器`DIV`）而異。 如果網頁僅設定容器的寬度`DIV`，而不限制其高度，檢視器會根據所使用資產的寬高比自動選擇其高度。 此方法可確保資產完美地貼合至檢視中，而不會在側邊產生任何間距。 這個使用案例最常用於使用自適應設計版面架構（例如Bootstrap、Foundation等）的網頁。
 
-否則，如果網頁同時設定檢視器容器的寬度和高度 `DIV`，檢視器會填滿該區域，並遵循網頁版面所提供的大小。 一個很好的例子是將檢視器內嵌至模態覆蓋，其中覆蓋會根據網頁瀏覽器視窗的大小來調整大小。
+否則，如果網頁同時設定檢視器容器`DIV`的寬度和高度，檢視器只會填滿該區域，並遵循網頁版面提供的大小。 一個很好的例子是將檢視器內嵌至模態覆蓋，其中覆蓋會根據網頁瀏覽器視窗的大小來調整大小。
 
 **固定大小內嵌**
 
 您可執行下列動作，將檢視器新增至網頁：
 
 1. 將檢視器JavaScript檔案新增至您的網頁。
-1. 定義容器 `DIV`。
+1. 定義容器`DIV`。
 1. 設定檢視器大小。
 1. 建立和初始化檢視器。
 
 1. 將檢視器JavaScript檔案新增至您的網頁。
 
-   建立檢視器時，您必須在HTML標題中新增指令碼標籤。 在您使用檢視器API之前，請確定您已加入 [!DNL FlyoutViewer.js]。 此檔 [!DNL FlyoutViewer.js] 案位於標準IS- [!DNL html5/js/] Viewer部署的子資料夾下：
+   建立檢視器時，您必須在HTML標題中新增指令碼標籤。 請務必加入[!DNL FlyoutViewer.js]，才能使用檢視器API。 [!DNL FlyoutViewer.js]檔案位於標準IS-Viewer部署的[!DNL html5/js/]子資料夾下：
 
 [!DNL <s7viewers_root>/html5/js/FlyoutViewer.js]
 
@@ -129,16 +129,16 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您只應參考頁面上的主要檢視 `include` 器JavaScript檔案。 您不應在網頁程式碼中參考檢視器邏輯在執行時期中可能下載的任何其他JavaScript檔案。 尤其是，請勿直接參考檢視器從內容路 `Utils.js` 徑載入的HTML5 SDK程 `/s7viewers` 式庫(稱為整合SDK `include`)。 原因是檢視器邏輯可完 `Utils.js` 全管理或類似執行時期檢視器程式庫的位置，而檢視器版本之間的位置也會改變。 Adobe不會在伺服器上保留舊版次 `includes` 要檢視器。
+>您只應在頁面上參考主要檢視器JavaScript `include`檔案。 您不應在網頁程式碼中參考檢視器邏輯在執行時期中可能下載的任何其他JavaScript檔案。 尤其是，請勿直接參考檢視器從`/s7viewers`內容路徑載入的HTML5 SDK `Utils.js`程式庫（稱為統一SDK `include`）。 原因是`Utils.js`或類似的執行時期檢視器程式庫的位置完全由檢視器的邏輯管理，而檢視器版本間的位置也會變更。 Adobe不會在伺服器上保留舊版次要檢視器`includes`。
 >
 >
->因此，將檢視器使用的任何次要JavaScript `include` 直接參考放在頁面上，將來部署新產品版本時，檢視器功能會中斷。
+>因此，將檢視器使用的任何次要JavaScript `include`直接參考放在頁面上，將來部署新產品版本時，檢視器功能會中斷。
 
 1. 定義容器DIV。
 
    將空的DIV元素新增至您要檢視器顯示的頁面。 DIV元素必須定義其ID，因為此ID稍後會傳遞至檢視器API。 DIV的大小是透過CSS指定的。
 
-   預留位置DIV是定位的元素，這表示 `position` CSS屬性已設為 `relative` 或 `absolute`。
+   預留位置DIV是定位的元素，這表示`position` CSS屬性設為`relative`或`absolute`。
 
    確保全螢幕功能在Internet Explorer中正常運作。 檢查以確定DOM中沒有其他元素的堆疊順序高於預留位置DIV。
 
@@ -150,11 +150,11 @@ ht-degree: 0%
 
 1. 設定檢視器大小
 
-   您可以設定檢視器的靜態大小，方法是以絕對單位 `.s7videoviewer` 來宣告頂層CSS類別的大小，或使用修飾元 `stagesize`。
+   您可以設定檢視器的靜態大小，方法是以絕對單位聲明`.s7videoviewer`頂層CSS類別，或使用修飾詞`stagesize`。
 
    CSS中的大小可直接放在HTML頁面上，或自訂檢視器CSS檔案中，此檔案稍後會指派給Scene7 Publishing System中的檢視器預設記錄，或使用樣式命令明確傳遞。
 
-   如需使 [用CSS設定檢視器樣式的詳細資訊](../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#concept-072a52b10b5f4c0789393dc6e2134c0e) ，請參閱自訂視訊檢視器。
+   如需使用CSS設定檢視器樣式的詳細資訊，請參閱[自訂視訊檢視器](../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#concept-072a52b10b5f4c0789393dc6e2134c0e)。
 
    以下是在HTML頁面中定義靜態檢視器大小的範例：
 
@@ -165,7 +165,7 @@ ht-degree: 0%
    }
    ```
 
-   您可以在 `stagesize``params` Scene7 Publishing System的檢視器預設記錄中設定修飾元，或以檢視器初始化程式碼與系列明確傳遞修飾元，或以API呼叫的方式傳遞，如「命令參考」區段中所述，如下所示：
+   您可以在Scene7 Publishing System的檢視器預設記錄中設定`stagesize`修飾元，或以`params`系列的檢視器初始化程式碼明確傳遞，或以「命令參考」區段中所述的API呼叫傳遞，如下所示：
 
    ```
    videoViewer.setParam("stagesize", "640,480");
@@ -175,13 +175,13 @@ ht-degree: 0%
 
 1. 建立和初始化檢視器。
 
-   完成上述步驟後，您將建立類的實例、將所有配置資訊傳遞給其建構子 `s7viewers.VideoViewer` ，並在查看器實例 `init()` 上調用方法。 設定資訊會以JSON物件的形式傳遞至建構函式。 至少，此物件應具有欄 `containerId` 位，其中包含檢視器容器ID名稱和內嵌 `params` JSON物件，以及檢視器支援的設定參數。 在這種情況下， `params` 物件至少必須將影像伺服URL傳遞為屬性、視訊伺服器URL傳遞為屬 `serverUrl` 性，以及初始資產傳遞為參 `videoserverurl``asset` 數。 以JSON為基礎的初始化API可讓您使用一行程式碼來建立和啟動檢視器。
+   完成上述步驟後，您將建立一個`s7viewers.VideoViewer`類的實例，將所有配置資訊傳遞給其建構子，並在查看器實例上調用`init()`方法。 設定資訊會以JSON物件的形式傳遞至建構函式。 至少，此物件應具有`containerId`欄位，此欄位包含檢視器容器ID的名稱，並巢狀內嵌`params` JSON物件，檢視器支援設定參數。 在這種情況下，`params`物件至少必須有以`serverUrl`屬性傳遞的影像伺服URL、以`videoserverurl`屬性傳遞的視訊伺服器URL，以及以`asset`參數傳遞的初始資產。 以JSON為基礎的初始化API可讓您使用一行程式碼來建立和啟動檢視器。
 
-   請務必將檢視器容器新增至DOM，如此檢視器程式碼就能依其ID找到容器元素。 有些瀏覽器會延遲建立DOM，直到網頁結束為止。 為獲得最大相容性，請 `init()` 在結束標籤之前或在 `BODY` body事件上呼叫方 `onload()` 法。
+   請務必將檢視器容器新增至DOM，如此檢視器程式碼就能依其ID找到容器元素。 有些瀏覽器會延遲建立DOM，直到網頁結束為止。 為獲得最大相容性，請在`BODY`結束標籤之前或在主體`onload()`事件上調用`init()`方法。
 
-   同時，容器元素也不一定是網頁版面的一部分。 例如，它可能會使用指派給它 `display:none` 的樣式隱藏。 在此情況下，檢視器會延遲其初始化程式，直到網頁將容器元素帶回版面為止。 發生此情況時，檢視器載入會自動繼續。
+   同時，容器元素也不一定是網頁版面的一部分。 例如，它可能會使用指派給它的`display:none`樣式進行隱藏。 在此情況下，檢視器會延遲其初始化程式，直到網頁將容器元素帶回版面為止。 發生此情況時，檢視器載入會自動繼續。
 
-   以下是建立檢視器例項、將最小必要設定選項傳遞至建構函式，以及呼叫方法的范 `init()` 例。 此範例假 `videoViewer` 設是檢視器例項、預留位置的名稱、 `s7viewer` 影像伺服URL、 `DIV`視訊伺服器URL, [!DNL http://s7d1.scene7.com/is/image/][!DNL http://s7d1.scene7.com/is/content/][!DNL Scene7SharedAssets/Glacier_Climber_MP4] 以及資產。
+   以下是建立檢視器例項、將最小必要組態選項傳遞至建構函式，以及呼叫`init()`方法的範例。 此範例假設`videoViewer`是檢視器例項，`s7viewer`是預留位置`DIV`的名稱，[!DNL http://s7d1.scene7.com/is/image/]是影像伺服URL,[!DNL http://s7d1.scene7.com/is/content/]是視訊伺服器URL，而[!DNL Scene7SharedAssets/Glacier_Climber_MP4]是資產。
 
    ```
    <script type="text/javascript"> 
@@ -228,7 +228,7 @@ ht-degree: 0%
 
 **不受高度限制的自適應設計內嵌**
 
-有了互動式設計內嵌功能，網頁通常就有某種靈活的版面配置，可決定檢視器容器的執行時間大小 `DIV`。 在此範例中，假設網頁可讓檢視者的容器取用40%的網頁瀏 `DIV` 覽器視窗大小，而不會限制其高度。 網頁HTML程式碼如下所示：
+有了互動式設計內嵌功能，網頁通常就有某種彈性的版面配置，指定檢視器容器`DIV`的執行時期大小。 在此範例中，假設網頁允許檢視器的容器`DIV`取用40%的網頁瀏覽器視窗大小，並保留其高度不受限制。 網頁HTML程式碼如下所示：
 
 ```
 <!DOCTYPE html> 
@@ -246,13 +246,13 @@ ht-degree: 0%
 </html> 
 ```
 
-將檢視器加入此類頁面，與固定大小的內嵌十分類似； 唯一的區別是您不需要明確定義檢視器大小。
+將檢視器加入此類頁面，與固定大小的內嵌十分類似；唯一的區別是您不需要明確定義檢視器大小。
 
 1. 將檢視器JavaScript檔案新增至您的網頁。
 1. 定義容器DIV。
 1. 建立和初始化檢視器。
 
-上述所有步驟都與固定大小內嵌相同。 新增容 `DIV` 器至現有的「持有者」 `DIV`。 以下程式碼為完整範例。 您可以看到在調整瀏覽器大小時，檢視器大小的變更，以及檢視器外觀比例與資產的相符程度。
+上述所有步驟都與固定大小內嵌相同。 將容器`DIV`新增至現有的&quot; holder&quot; `DIV`。 以下程式碼為完整範例。 您可以看到在調整瀏覽器大小時，檢視器大小的變更，以及檢視器外觀比例與資產的相符程度。
 
 ```
 <!DOCTYPE html> 
@@ -291,7 +291,7 @@ var videoViewer = new s7viewers.VideoViewer({
 
 **定義寬度和高度的自適應設計內嵌**
 
-在定義了寬度和高度的自適應設計嵌入時，網頁的樣式不同； 它為「持有人」提供兩種大小， `DIV` 並將其置於瀏覽器視窗中。 此外，網頁會將元素和元素的大 `HTML` 小設 `BODY` 為100%:
+在定義了寬度和高度的自適應設計嵌入時，網頁的樣式不同；它為&quot;holder&quot; `DIV`提供兩種大小，並將它們置於瀏覽器視窗中。 此外，網頁還將`HTML`和`BODY`元素的大小設為100%:
 
 ```
 <!DOCTYPE html> 
@@ -358,7 +358,7 @@ var videoViewer = new s7viewers.VideoViewer({
 
 **使用Setter型API進行內嵌**
 
-您可以使用setter-based API和no-args建構函式，而不是使用JSON型初始化。 使用該API時，建構函式不會採用任何參數，而設定參數是使用 `setContainerId()`、 `setParam()`和 `setAsset()` API方法，以及個別的JavaScript呼叫來指定。
+您可以使用setter-based API和no-args建構函式，而不是使用JSON型初始化。 使用該API時，建構函式不會採用任何參數，而設定參數是使用`setContainerId()`、`setParam()`和`setAsset()` API方法，並使用個別的JavaScript呼叫來指定。
 
 下列範例說明使用setter-based API進行固定大小內嵌：
 
