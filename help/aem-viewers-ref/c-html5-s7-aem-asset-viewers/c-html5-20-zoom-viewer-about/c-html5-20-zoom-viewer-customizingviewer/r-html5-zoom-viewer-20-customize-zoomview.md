@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: 34cb6c80-77eb-42b0-91dd-ae0369ea2881
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '179'
+ht-degree: 0%
 
 ---
 
 
-# Zoom view{#zoom-view}
+# 縮放視圖{#zoom-view}
 
 主檢視包含可縮放的影像。
 
@@ -35,11 +38,11 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景色  </span> </p> </td> 
    <td colname="col2"> <p> 主視圖的十六進位格式背景顏色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 游標 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 游標  </span> </p> </td> 
    <td colname="col2"> <p>顯示在主視圖上的游標。 </p> </td> 
   </tr> 
  </tbody> 
@@ -53,7 +56,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 }
 ```
 
-在案頭系統上，元件支 `cursortype` 持屬性選擇器，該選擇器可應用於 `.s7zoomview` 類。 它根據元件狀態和用戶操作控制游標的類型。 The following `cursortype` values are supported:
+在案頭系統上，元件支援`cursortype`屬性選擇器，該選擇器可應用於`.s7zoomview`類。 它根據元件狀態和用戶操作控制游標的類型。 支援下列`cursortype`值：
 
 * `default`
 
