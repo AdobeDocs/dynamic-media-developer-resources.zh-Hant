@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 572ad63b-e3b1-478a-b3b3-2cba0b3413d6
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '97'
+ht-degree: 5%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 主要影像色彩。 減色，用於紋理上色。 應該是紋理影像中的平均主色。
 
-如果沒有的紋 `BaseColor`理材料被應用到非可紋理的暈映對象，也 `catalog::Color` 可以用作填充顏色。
+如果沒有`catalog::Color`的紋理材料被應用到非可紋理的暈映對象，也可以使用`BaseColor`作為填充顏色。
 
 ## 屬性 {#section-d9aec235f28b402581cf2277f5fc6fbb}
 
