@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: e5e9649e-6a4a-4a62-bc01-2e74bd95ffc5
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td> <p> 設為1時 <span class="codeph"></span> ，元件會以所有頁面的元素填入下拉式面板，即使未定義標籤的元素亦然。 </p> <p>設為0 <span class="codeph"> 時</span> ，下拉式面板中只會顯示具有明確標籤的項目。 </p> </td> 
+   <td> <p> 當設為<span class="codeph"> 1</span>時，元件會在下拉式面板中填入所有頁面的元素，即使未定義標籤的元素亦然。 </p> <p>設為<span class="codeph"> 0</span>時，下拉式面板中只會顯示具有明確標籤的項目。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
