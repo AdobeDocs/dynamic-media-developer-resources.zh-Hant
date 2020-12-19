@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: 33445a3d-51dc-47a4-a8d1-87d25ea001e1
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '181'
+ht-degree: 1%
 
 ---
 
 
-# 回轉檢視圖示效果{#spin-view-icon-effect}
+# 回轉視圖表徵圖效果{#spin-view-icon-effect}
 
 自旋指示器覆蓋在自旋視圖區域上。 當影像處於重設狀態時，就會顯示它，而且它也會依循圖示效果參數。
 
@@ -35,12 +38,12 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景影像 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景影像  </span> </p> </td> 
    <td colname="col2"> <p> 回轉指示器圖稿。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS精靈，請放在圖稿精靈內。 </p> <p>請參 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> 閱CSS精靈 </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS精靈，請放在圖稿精靈內。 </p> <p>請參閱<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS精靈</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -53,7 +56,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  </tbody> 
 </table>
 
-回轉指示器支 `state` 持屬性選擇器，該屬性選擇器在單維回轉集 `spin_1D` 的情況下設定為，在多維回轉集 `spin_2D` 的情況下設定為。
+回轉指示器支援在單維回轉集中設定為`spin_1D`的`state`屬性選擇器，在多維回轉集中設定為`spin_2D`。
 
 範例——設定100 x 100像素縮放指標。
 
