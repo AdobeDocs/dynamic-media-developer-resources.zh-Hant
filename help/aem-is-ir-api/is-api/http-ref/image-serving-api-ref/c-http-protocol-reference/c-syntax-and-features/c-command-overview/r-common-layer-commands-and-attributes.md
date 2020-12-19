@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: f11da6ba-18f2-42d6-8257-cb8ebef8c7d8
 translation-type: tm+mt
 source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+workflow-type: tm+mt
+source-wordcount: '169'
+ht-degree: 2%
 
 ---
 
 
-# 常用圖層命令{#common-layer-commands}
+# 公共層命令{#common-layer-commands}
 
 這些命令適用於影像、文字和純色圖層。 大部分對合成影像和簡單、非圖層的要求都沒有意義。 它們不適用於效果圖層。
 
