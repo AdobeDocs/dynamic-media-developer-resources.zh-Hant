@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: b915df14-62cf-4ff2-8336-dac4b3dd605f
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '48'
+ht-degree: 8%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 分割|實體</span> </p> </td> 
-   <td colname="col2"> <p>設為「分 <span class="codeph"> 割」</span> ，可讓檢視者在縱向行動裝置上使用時，將雙頁跨頁顯示為獨立頁面。 設為 <span class="codeph"> solid</span> ，一律將雙頁跨頁顯示為實體影像，不受裝置方向影響。 </p> </td> 
+   <td colname="col2"> <p>設為<span class="codeph"> split</span>，當在行動裝置上以縱向使用時，可讓檢視者將雙頁跨頁顯示為個別頁面。 設為<span class="codeph"> solid</span>，以一律將雙頁跨頁顯示為立體影像，不論裝置方向為何。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
