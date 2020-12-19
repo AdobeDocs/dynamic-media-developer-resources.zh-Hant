@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 91d073a8-7648-429b-aa5c-c7d595550299
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '137'
+ht-degree: 10%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 語法
 
-## 授權使用者類型 {#section-8efcbb3f555f417a870219e4714374db}
+## 授權用戶類型{#section-8efcbb3f555f417a870219e4714374db}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,7 +32,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 * `TrialSiteAdmin`
 * `TrialSiteUser`
 
-## 參數 {#section-9c75b00f2072453abea0bdefc6ad7c99}
+## 參數{#section-9c75b00f2072453abea0bdefc6ad7c99}
 
 **輸入(checkAssetNamesParam)**
 
