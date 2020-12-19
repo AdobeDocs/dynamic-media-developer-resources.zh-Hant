@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: eb17d115-22ec-4b1b-9039-9bd2bc256f48
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '114'
+ht-degree: 7%
 
 ---
 
@@ -18,9 +21,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 用於永久修改影像並儲存範本主體。
 
-此欄位中的命令由引用此記錄的請求或模板中的相同命令以及 `catalog::PostModifier`
+此欄位中的命令由引用此記錄的請求或模板中的相同命令和`catalog::PostModifier`中的命令覆蓋
 
-只要巨集在 `catalog::Modifier`相同目錄或預設目錄中定義，即允許在中。 自訂變數也可以使用。
+只要宏在相同目錄或預設目錄中定義，`catalog::Modifier`中就允許使用宏。 自訂變數也可以使用。
 
 ## 屬性 {#section-6674388f77d644469371a17e8809c45f}
 
