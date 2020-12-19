@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 17df4a68-a251-427c-a3c4-1e0679e3f8f1
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '89'
+ht-degree: 6%
 
 ---
 
@@ -20,11 +23,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> always|never|limit</span> </p> </td> 
-   <td colname="col2"> <p> 針對裝置 <span class="codeph"> PixelRatio大於</span><span class="codeph"></span>1的裝置(即具有高密度顯示（例如iPhone4和類似裝置）啟用、限制或停用最佳化。 </p> <p>如果作用中，元件會限制IS影像要求的大小，好像裝置只有 <span class="codeph"> 1</span> ，如此可降低頻寬。 </p> <p>請參閱下列範例。 </p> </td> 
+   <td colname="col2"> <p> 對<span class="codeph"> devicePixelRatio</span>大於<span class="codeph"> 1</span>的裝置啟用、限制或停用最佳化，即具有高密度顯示（如iPhone4）和類似裝置的裝置。 </p> <p>如果處於活動狀態，則元件將限制IS影像請求的大小，好像設備只具有<span class="codeph"> 1</span>的像素比例，並通過這種方式減少頻寬。 </p> <p>請參閱下列範例。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 數字</span></span> </p> </td> 
-   <td colname="col2"> <p> 如果使用限 <span class="codeph"> 制設定</span> ，元件僅會啟用高像素密度（最高）至指定的限制。 </p> <p>請參閱下列範例。 </p> </td> 
+   <td colname="col2"> <p> 如果使用<span class="codeph"> limit</span>設定，元件僅會啟用高像素密度，而達到指定的限制。 </p> <p>請參閱下列範例。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
