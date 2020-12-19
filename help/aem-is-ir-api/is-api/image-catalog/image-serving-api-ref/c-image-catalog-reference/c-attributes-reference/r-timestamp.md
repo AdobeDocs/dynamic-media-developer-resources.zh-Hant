@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 0670e53a-ad7d-46cf-8e18-4c52a766df6f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,27 +19,27 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 預設影像修改時間戳記。 提供目錄的預設值：:TimeStamp。
 
-如果未指定，伺服器將使用此 [!DNL *`catalog`*.ini檔案的修改日期／時間] 。
+如果未指定，伺服器將使用此&#x200B;[!DNL *`catalog`*.ini]檔案的修改日期／時間。
 
 ## 屬性 {#section-647066e62ce44a84b627fdd0b2f7cfec}
 
 日期／時間值。 可以是自1970年1月1日午夜以來(UTC/GMT)的整數毫秒數，也可以是日期／時間字串值，其格式如下：
 
-*`mm`*/ *`dd`*/ *`yyyy`* *`hh`*: *`mm`*: *`ss zzz`*
+*`mm`*/  *`dd`*/  *`yyyy`* *`hh`*: *`mm`*:  *`ss zzz`*
 
-*`mm`*/ *`dd`*/ *`yyyy`**`hh`*: *`mm`*: *`ss`* GMT *`offset`*
+*`mm`*/  *`dd`*/  *`yyyy`* *`hh`*: *`mm`*: *`ss`* GMT  *`offset`*
 
 *`hh`* 在0到23的範圍內。
 
-*`zzz`* 是3或4個字元的時區代碼，例如 `GMT` 或 `PST`。 日光節約時間必須計入時區代碼(例如，太平洋標準 `PST` 時間與太平洋日光節約 `PDT` 時間)。
+*`zzz`* 是3或4個字元的時區代碼，例如 `GMT` 或 `PST`。日光節約時間必須計入時區代碼(例如`PST`表示太平洋標準時間，而`PDT`表示太平洋日光節約時間)。
 
-*`offset`* 是以小時或小時：分鐘為單位的時區偏移，相對於GMT。 例如， `PDT` 等同於 `GMT -7`。
+*`offset`* 是以小時或小時：分鐘為單位的時區偏移，相對於GMT。例如，`PDT`等效於`GMT -7`。
 
-字串格式化日期／時間值的所有元素都必須存在。 如果日期／時間值的格式不正確，則會忽略它，並改用 [!DNL *`catalog`*.ini] 檔案的修改時間。
+字串格式化日期／時間值的所有元素都必須存在。 如果日期／時間值格式不正確，則會忽略它，並改用&#x200B;[!DNL *`catalog`*.ini]檔案的修改時間。
 
 ## 預設 {#section-ac465313c97943ed97d41ea852329177}
 
-如果定義為空或未定義，伺服器將使用此目錄檔案的檔案修 ` *`改時`*.ini` 間。
+如果定義為空或未定義，則伺服器使用此` *`catalog`*.ini`檔案的檔案修改時間。
 
 ## 另請參閱 {#section-ea19bcefa4a04d7eb5d9480cf0e2ca26}
 
