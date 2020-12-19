@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 23f1952f-71b7-4b2a-917d-8161ea855ac9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,15 +25,15 @@ Digimarc使用者資訊。 指定Digimarc嵌入的用戶資訊。
 
 `creator-id, creator-pin, durability [ , chroma ]`
 
-購買 `creator-id` 服 `creator-pin` 務時，Digimarc提供此服務。 未使用的值應留空。
+`creator-id`和`creator-pin`由Digimarc在購買服務時提供。 未使用的值應留空。
 
-`durability` 指定Digimarc水印嵌入強度。 可能為1、2、3或4，其中1表示最弱，4表示最強的耐用性。
+`durability` 指定Digimarc水印嵌入強度。可能為1、2、3或4，其中1表示最弱，4表示最強的耐用性。
 
-設 `chroma` 定為1可將水印編碼為影像的色度資料，或設定為0（預設值）將其編碼為明度。 輸出灰階影像時，會忽略此設定。
+將`chroma`設為1，將浮水印編碼為影像的色度資料，或設為0（預設值），將它編碼為明度。 輸出灰階影像時會忽略此設定。
 
 ## 預設 {#section-d6ecb6e95a7b4232bd612834ea49e6bc}
 
-繼承自 `default::DigimarcId` （如果未定義或為空）。
+如果未定義或為空，則繼承自`default::DigimarcId`。
 
 ## 範例 {#section-8469ae1c27b4461da3d53fbabc32d3c5}
 
