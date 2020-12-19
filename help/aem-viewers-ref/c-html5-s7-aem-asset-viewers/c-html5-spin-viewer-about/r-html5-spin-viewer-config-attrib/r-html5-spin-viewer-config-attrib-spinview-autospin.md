@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 9d24ed39-e4b9-442b-bc64-c77707ff69d8
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '100'
+ht-degree: 7%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 啟用或停用自動回轉動畫。 為獲得最佳的自動回轉體驗，建議您將maxloadradius設定為 <span class="codeph"> -</span> 1以預先載入所有影格 <span class="codeph"></span>。 但請注意，這會增加負載時間並提高頻寬使用率。 </p> </td> 
+   <td colname="col2"> <p> 啟用或停用自動回轉動畫。 為獲得最佳的自動回轉體驗，建議您將<span class="codeph"> maxloadradius</span>設為<span class="codeph"> -1</span>，以預先載入所有影格。 但請注意，這會增加負載時間並提高頻寬使用率。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> 時段</span></span> </p> </td> 
@@ -28,11 +31,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 方向</span></span> </p> </td> 
-   <td colname="col2"> <p> 旋轉方向為 <span class="codeph"> 0</span> ，旋轉方向 <span class="codeph"> 為1</span> 。 </p> </td> 
+   <td colname="col2"> <p> 旋轉向東方向為<span class="codeph">0</span>，旋轉向西方向為<span class="codeph">1</span>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 回轉數</span></span> </p> </td> 
-   <td colname="col2"> <p> 自動回轉停止前完成的完全旋轉次數。 該數字是浮點數。 若為無 <span class="codeph"> 限自動回轉</span> ，請設定為-1。 </p> </td> 
+   <td colname="col2"> <p> 自動回轉停止前完成的完全旋轉次數。 該數字是浮點數。 對於無限自動旋轉，設定為<span class="codeph"> -1</span>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
