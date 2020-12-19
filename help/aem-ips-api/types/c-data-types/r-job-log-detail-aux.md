@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: df6f61f2-54f1-4996-938c-c3ea8c27551a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '88'
+ht-degree: 5%
 
 ---
 
@@ -23,6 +26,6 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | 名稱 | 類型 | 說明 |
 |---|---|---|
 | ` *`logMessage`*` | `xsd:string` | 輔助資訊。 |
-| ` *`logType`*` | `xsd:string` | 日誌類型：或 `IPSJobLog.gcUploadWarning` 者 `IPSJobLog.gcUploadError`。 |
+| ` *`logType`*` | `xsd:string` | 日誌類型：`IPSJobLog.gcUploadWarning`或`IPSJobLog.gcUploadError`。 |
 | ` *`dateCreated`*` | `xsd:dateTime` | 輔助作業日誌建立日期。 |
 
