@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: c4042ed9-e186-4f0f-a48b-1af3b67a2f04
 translation-type: tm+mt
 source-git-commit: 5717550d2dea8ec086875e770ff8f200aaa75ff3
+workflow-type: tm+mt
+source-wordcount: '103'
+ht-degree: 1%
 
 ---
 
 
-# 伺服器監控{#server-monitoring}
+# 伺服器監視{#server-monitoring}
 
 伺服器可配置為在超出某些效能或錯誤閾值時發送電子郵件警報。 系統會共同監控部署在伺服器上的所有Web應用程式。
 
