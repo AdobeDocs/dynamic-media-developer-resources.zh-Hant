@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: b81968e7-ebaf-426c-9230-1afcf4b5cf24
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +24,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="simpletable_3BAA4523D29E447FA7A4C9009B3E8344"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"><span class="varname"> radiusR</span></span> </p> </td> 
-  <td class="stentry"> <p>不論遮色片是否已縮減取樣(int -100..100)，以像素為單位， <span class="codeph"><span class="varname"> 以半徑R</span></span> 如原樣套用。 </p></td> 
+  <td class="stentry"> <p>不論遮色片是否縮減取樣(int -100..100)，以像素為單位，其中<span class="codeph"><span class="varname">radiusR</span></span>按原樣套用。 </p></td> 
  </tr> 
 </table>
 
@@ -29,7 +32,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 屬性 {#section-b1c66d65168d4ea695e8662ea690bd4e}
 
-應用於當前層，或應用於 `0` 層(如 `layer=comp`果)。
+應用於當前層，如果`layer=comp`則應用於`0`層。
 
 ## 預設 {#section-14c908bb87cb42acbea709effea2f964}
 
