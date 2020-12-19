@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 6f8b7047-6de6-4a56-96b7-58c481150e32
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '89'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 要使更改生效，必須在編輯此檔案後重新啟動平台伺服器。
 
-下圖說明在此檔案中可更改哪些設定。 請參閱本文稍早的相應章節，以取得這些設定的說明。 請注意，此圖表並非完整的表示 [!DNL server.xml]。
+下圖說明在此檔案中可更改哪些設定。 請參閱本文稍早的相應章節，以取得這些設定的說明。 請注意，此圖表不是[!DNL server.xml]的完整表示。
 
 ```
 <Server>
