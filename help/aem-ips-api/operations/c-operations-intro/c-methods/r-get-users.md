@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: f16ccd1b-0f00-4d9a-b6e1-6abc3bde1af9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '235'
+ht-degree: 9%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 獲取由公司、組和用戶角色句柄指定的一組用戶。 此操作可讓您依字元排序傳回的使用者及篩選。
 
-## 授權使用者類型 {#section-6a8f23cc6b22442d8776f701016971ed}
+## 授權用戶類型{#section-6a8f23cc6b22442d8776f701016971ed}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,7 +34,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | ` *`companyHandleArray`*` | `types:HandleArray` | 否 | 依公司篩選結果。 |
 | ` *`groupHandleArray`*` | `types:HandleArray` | 否 | 依群組篩選結果。 |
 | ` *`userRoleArray`*` | `types:StringArray` | 否 | 依使用者角色篩選結果。 |
-| ` *`charFilterField`*` | `xsd:string` | 否 | 依欄位字串首碼篩選結果(請參閱 [!DNL Trash State).] |
+| ` *`charFilterField`*` | `xsd:string` | 否 | 依欄位字串首碼篩選結果(請參閱[!DNL Trash State).] |
 | ` *`charFilter`*` | `xsd:string` | 否 | 依特定字元篩選結果。 |
 | ` *`sortBy`*` | `xsd:string` | 否 | 用戶排序欄位的選擇。 |
 | ` *`recordsPerPage`*` | `xsd:int` | 否 | 傳回每頁指定的記錄數。 |
