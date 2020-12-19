@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 832163ca-0554-481d-b87f-bf322f415274
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '172'
+ht-degree: 4%
 
 ---
 
@@ -20,7 +23,7 @@ Jpeg大小（以千位元組為單位）。 指定JPEG回應的最大大小（�
 
 <table id="simpletable_EC2A8D8B65854B45B9CB184DA1069355"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> 大小 <span class="varname"></span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> 大小</span></span> </p> </td> 
   <td class="stentry"> <p>大小（千位元組）。 </p></td> 
  </tr> 
 </table>
