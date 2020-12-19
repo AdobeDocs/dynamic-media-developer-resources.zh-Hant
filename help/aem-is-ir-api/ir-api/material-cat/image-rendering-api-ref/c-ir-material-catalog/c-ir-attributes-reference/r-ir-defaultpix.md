@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 27574811-a920-4e54-8635-5a643b8655ef
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '147'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +27,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 預設 {#section-1935781c561e4679aa87a5bcced8df90}
 
-繼承自 `default::DefaultPix` （如果未定義或為空）。
+如果未定義或為空，則繼承自`default::DefaultPix`。
 
 ## 另請參閱 {#section-d28f18d29ef14692b8706ca08e754f54}
 
