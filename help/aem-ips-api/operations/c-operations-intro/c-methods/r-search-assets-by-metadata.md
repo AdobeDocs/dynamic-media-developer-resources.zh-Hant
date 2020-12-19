@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: f4119ee9-f6d8-49fb-9d8c-bb200951d983
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '346'
+ht-degree: 10%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 在中繼資料索引儲存庫中搜尋指定的搜尋詞。 傳回資產資料，例如searchAssets方法。
 
-雖然 `searchAssetsByMetadata` 可讓您搜尋使用者定義的中繼資料欄位，但若在中指定這些欄位，則不會傳回這些欄位 `responseMetadataArray`。 為了說明此點，以下程式碼範例：
+雖然`searchAssetsByMetadata`可讓您搜尋使用者定義的中繼資料欄位，但如果在`responseMetadataArray`中指定這些欄位，則不會傳回這些欄位。 為了說明此點，以下程式碼範例：
 
 ```java
 <ns:responseMetadataArray>
@@ -33,7 +36,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 </items>
 ```
 
-若要解決此問題，您可以使 `fieldHandles` 用從搜尋傳回的資產來執行(另請參 `getAssets` 閱 [getAssets](../../../operations/c-operations-intro/c-methods/r-get-assets.md#reference-adad4f504f684d3dabc09e093b8511ca))。 此方法會取得相關資產的使用者定義欄位值。 使用下列語法範例來搜尋使用者定義的中繼資料欄位：
+若要解決此問題，您可以使用搜尋傳回之資產的`fieldHandles`來執行`getAssets`（另請參閱[getAssets](../../../operations/c-operations-intro/c-methods/r-get-assets.md#reference-adad4f504f684d3dabc09e093b8511ca)）。 此方法會取得相關資產的使用者定義欄位值。 使用下列語法範例來搜尋使用者定義的中繼資料欄位：
 
 ```java
 <ns:metadataConditionArray>
@@ -45,7 +48,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 </ns:metadataConditionArray>
 ```
 
-## 授權使用者類型 {#section-9f85dd55ab574104b5fdc0f95aa0a0e2}
+## 授權用戶類型{#section-9f85dd55ab574104b5fdc0f95aa0a0e2}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -70,49 +73,49 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 公 <span class="varname"> 司控制</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
    <td colname="col4"> <p>公司的把手。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> 篩選</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> 篩選</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> 類型：SearchFilter</span> </p> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>可協助您定義搜尋准則的篩選器。 </p> <p>請參閱 <a href="../../../types/c-data-types/r-search-filter.md#reference-0e2eb87bccae4b69be6717267bcb80aa" format="dita" scope="local"> 搜尋篩選</a>。 </p> </td> 
+   <td colname="col4"> <p>可協助您定義搜尋准則的篩選器。 </p> <p>請參閱<a href="../../../types/c-data-types/r-search-filter.md#reference-0e2eb87bccae4b69be6717267bcb80aa" format="dita" scope="local"> SearchFilter</a>。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 中 <span class="varname"> 繼資料ConditionArray</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> metadataConditionArray</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> type:MetadataConditionArray</span> </p> </td> 
    <td colname="col3"> <p>否 </p> </td> 
    <td colname="col4"> <p>定義搜尋准則的條件。 請參閱以下以取得詳細資訊。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> responseMetadataArray</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> responseMetadataArray</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> type:StringArray</span> </p> </td> 
    <td colname="col3"> <p>否 </p> </td> 
    <td colname="col4"> <p>您想在資產摘要的回應中填入其他欄位。 必須以標準化格式指定欄位。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> RecordsPerPage</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> recordsPerPage</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>否 </p> </td> 
    <td colname="col4"> <p>回應傳回的資產數。 預設值為 1000。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 結 <span class="varname"> 果頁面</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>根據recordsPerPage頁面大小指定要傳回的 <span class="codeph"> 結果頁</span> 。 </p> </td> 
+   <td colname="col4"> <p>根據<span class="codeph"> recordsPerPage</span>頁面大小，指定要傳回的結果頁面。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 排 <span class="varname"> 序方式</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> sortBy</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>否 </p> </td> 
    <td colname="col4"> <p>依選取的資產欄位排序。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> sortDirection</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> sortDirection</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>否 </p> </td> 
    <td colname="col4"> <p>排序方向的選擇。 預設為遞增。 </p> </td> 
@@ -127,7 +130,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | ` *`totalRows`*` | `xsd:int` | 否 | 相符項目數。 |
 | ` *`assetArray`*` | `types:AssetArray` | 否 | 搜尋傳回的資產陣列。 |
 
-## metadataConditionArray詳細資料 {#section-1af4a4a22f82451eabdf6dfe13d9f27d}
+## metadataConditionArray Details {#section-1af4a4a22f82451eabdf6dfe13d9f27d}
 
 **項目結構**
 
@@ -143,7 +146,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 **值**
 
-`field_handle` 是中繼資料搜尋金鑰。 它可以包含點符號。 可能的值包括：
+`field_handle` 是中繼資料搜尋金鑰。它可以包含點符號。 可能的值包括：
 
 * `asset_id` （不含首碼）
 * `name`
@@ -162,7 +165,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 **允許的運算子**
 
-定義 [!DNL operator] 如何比較值，並包括：
+[!DNL operator]定義如何比較值並包括：
 
 * `Equals`
 * `NotEquals`
@@ -171,7 +174,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 * `StartsWith`
 * `EndsWith`
 
-是 `comparison_value` 要搜尋的詞語。
+`comparison_value`是要搜索的詞語。
 
 ## 範例 {#section-53a12b9c023e4e629eddf5719c955ad4}
 
