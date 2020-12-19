@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 82dabdae-a1f3-484a-a520-ae765914d0f7
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '93'
+ht-degree: 4%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 預設 {#section-60900c0fb8c54444b2361513232514db}
 
-繼承自 `default::JpegQuality` （如果未定義或為空）。
+如果未定義或為空，則繼承自`default::JpegQuality`。
 
 ## 另請參閱 {#section-8928a28fcbfe401cad4d4021a7a1c268}
 
