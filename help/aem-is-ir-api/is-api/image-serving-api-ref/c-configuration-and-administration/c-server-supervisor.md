@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 6ac38d90-00ed-4d49-84f0-2e77e7a86d47
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,9 +21,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 除了啟動和停止其他映像服務元件外，伺服器主管還負責確保這些元件的運行狀況。 如果元件發生崩潰，則會自動重新啟動它，以最大限度地減少任何服務中斷。
 
-## 啟動和停止 {#section-061d28d74e034a30adc39ea3e2031cd0}
+## 啟動和停止{#section-061d28d74e034a30adc39ea3e2031cd0}
 
-使用Image Serving實用程式指令碼啟動、停止和重新啟動伺服器管理器。 See the [Utilities documentation](../../../is-api/is-utils/utilities/c-location-of-utilities.md#concept-bae61e53344449af978502cac6be8b5f) for more information.
+使用Image Serving實用程式指令碼啟動、停止和重新啟動伺服器管理器。 如需詳細資訊，請參閱[公用程式檔案](../../../is-api/is-utils/utilities/c-location-of-utilities.md#concept-bae61e53344449af978502cac6be8b5f)。
 
 啟動和停止Server Supervisor會自動啟動和停止所有其他Image Serving元件。
 
