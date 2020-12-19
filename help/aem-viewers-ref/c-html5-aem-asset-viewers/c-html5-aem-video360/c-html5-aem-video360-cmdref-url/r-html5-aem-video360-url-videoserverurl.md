@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: b6fa3fc3-9182-4d05-a735-e4cc0e58c3e4
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +24,7 @@ Video360檢視器的URL命令。
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> videoRootPath</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> videoRootPath</span> </span> </p> </td> 
    <td colname="col2"> <p> 視訊伺服器根路徑。 如果未指定網域，則會改為套用從中提供頁面的網域。 套用標準URI路徑解析度。 </p> </td> 
   </tr> 
  </tbody> 
