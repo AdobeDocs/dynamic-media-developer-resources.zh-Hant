@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: f395b22d-55b8-4422-9aa4-9dd4b7a24063
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +27,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 .s7videoviewer 
 ```
 
-## 主檢視器區域的CSS屬性 {#css-properties-of-the-main-viewer-area}
+## 主檢視器區域{#css-properties-of-the-main-viewer-area}的CSS屬性
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -37,7 +40,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
    <td colname="col2"> <p>檢視器高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景色  </span> </p> </td> 
    <td colname="col2"> <p> 十六進位格式的背景顏色。 </p> </td> 
   </tr> 
  </tbody> 
