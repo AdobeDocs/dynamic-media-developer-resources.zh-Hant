@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 48abea17-058e-4469-bb16-0abee8ef5214
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '187'
+ht-degree: 11%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 語法
 
-## 授權使用者類型 {#section-c67e7422921047f4ab4d4e9ba5a7aafe}
+## 授權用戶類型{#section-c67e7422921047f4ab4d4e9ba5a7aafe}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -41,7 +44,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | 是 | 已成功新增的資產數。 |
+| ` *`successCount`*` | `xsd:int` | 是 | 已成功新增資產的數目。 |
 | ` *`warningCount`*` | `xsd:int` | 是 | 操作嘗試將資產添加到項目時生成的警告數。 |
 | ` *`errorCount`*` | `xsd:int` | 是 | 嘗試將資產新增至專案時產生的錯誤數。 |
 | ` *`warningDetailHandle`*` | `xsd:AssetOperationFaultArray` | 否 | 當操作嘗試將資產添加到項目時，資產生成的警告陣列。 |
@@ -49,7 +52,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 範例 {#section-bee5be2402f54cb9a3a02cc07def4135}
 
-此範例會將資產控制代碼陣列中的單一資產（由其控制代碼引用）新增至請求中指定的專案。 當回應傳回時，操作已成 `successCount` 功完成 `1`。
+此範例會將資產控制代碼陣列中的單一資產（由其控制代碼引用）新增至請求中指定的專案。 當響應`successCount`返回`1`時，操作成功完成。
 
 **請求**
 
