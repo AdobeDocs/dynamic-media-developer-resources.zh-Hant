@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: e3ed4888-18db-40bc-a1db-f44a342d0293
 translation-type: tm+mt
 source-git-commit: 22b447e66c223126f4e6b91f9a0102e86731c4a4
+workflow-type: tm+mt
+source-wordcount: '97'
+ht-degree: 17%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 22b447e66c223126f4e6b91f9a0102e86731c4a4
 
 語法
 
-## 授權使用者類型 {#section-c417a287612847cb98dd0aa9c67fd78a}
+## 授權用戶類型{#section-c417a287612847cb98dd0aa9c67fd78a}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -27,7 +30,7 @@ source-git-commit: 22b447e66c223126f4e6b91f9a0102e86731c4a4
 * `ImagePortalUser`
 * `ImagePortalContrib`
 * `ImagePortalContribUser`
-* ``
+* &quot;
 
 ## 參數 {#section-ebffe496284c4ced9f329f78127be199}
 
@@ -43,7 +46,7 @@ source-git-commit: 22b447e66c223126f4e6b91f9a0102e86731c4a4
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`perspectiveQuad`*` | `types:PerspectiveQuad` | 是 | 根據路徑傳回影像座標。 請參 [閱PerspectiveQuad](../../../types/c-data-types/r-perspective-quad.md#reference-3c1f780f9c264e5b870b1ade24566204)。 |
+| ` *`perspectiveQuad`*` | `types:PerspectiveQuad` | 是 | 根據路徑傳回影像座標。 請參閱[PerspectiveQuad](../../../types/c-data-types/r-perspective-quad.md#reference-3c1f780f9c264e5b870b1ade24566204)。 |
 
 ## 範例 {#section-1f0461cbdc184c8d8925336d5279db47}
 
