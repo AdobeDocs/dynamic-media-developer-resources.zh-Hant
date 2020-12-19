@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 87f16ea9-0267-4114-9aeb-a68fdb616a88
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '88'
+ht-degree: 3%
 
 ---
 
@@ -18,28 +21,28 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ` setParam( *`名稱，值`*)`
 
-將檢視器參數設定為指定值。 此參數為檢視器專用的設定選項或軟體開發套件修飾元。 此參數在之前被調用 `init()`。
+將檢視器參數設定為指定值。 此參數為檢視器專用的設定選項或軟體開發套件修飾元。 此參數在`init()`之前被呼叫。
 
-如果檢視器設定資訊是與 `config` JSON物件一起傳遞至建構函式，此方法為選用。
+如果檢視器設定資訊與`config` JSON物件一起傳遞給建構函式，此方法是選用的。
 
-另請參閱 [xref](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-javascriptapiref/r-html5-aem-carousel-javascriptapiref-init.md)。
+另請參閱[xref](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-javascriptapiref/r-html5-aem-carousel-javascriptapiref-init.md)。
 
 ## 參數 {#section-c68a5a3688d342fd9d6a7fd59867cc7a}
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 名 <span class="varname"> 稱 </span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 名稱  </span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> {string}參 </span> 數的名稱。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 值 <span class="varname"></span></span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}參 </span> 數的值。 值不能以百分比編碼。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 值  </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}參 </span> 數值。值不能以百分比編碼。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Returns {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## 傳回{#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 無。
 
