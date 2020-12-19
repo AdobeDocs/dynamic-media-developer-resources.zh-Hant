@@ -3,11 +3,14 @@ description: 所有檢視器通用的參數。
 seo-description: 所有檢視器通用的參數。
 seo-title: asset
 solution: Experience Manager
-title: asset
+title: 資產
 topic: Dynamic media
 uuid: 6a72257f-d204-4258-b6f8-de6f7b00fd54
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '582'
+ht-degree: 2%
 
 ---
 
@@ -21,13 +24,13 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 資 <span class="varname"> 產ID </span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> assetId  </span> </span> </p> </td> 
    <td colname="col2"> <p> 單一視訊或最適化視訊集的資產ID。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-除非使用參數，否則此屬 `video` 性為必要屬性。 請參 [閱「Video](../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-external-video-support.md#concept-22c67fee43274a29b28ee16770b1b1f3) 」（視訊）或「Video360」(視訊 [)下的「External Video Support」（外部視訊支援）或「](../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-external-video-support.md#concept-66aa2784f2294794989bad2af74c3760) Video360」（視訊360）下的「External Video Support」（外部視訊支援）。
+除非使用`video`參數，否則此屬性為必需屬性。 請參閱「視訊」下方的「外部視訊支援」或「視訊360」下方的「外部視訊支援」。[](../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-external-video-support.md#concept-22c67fee43274a29b28ee16770b1b1f3)[](../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-external-video-support.md#concept-66aa2784f2294794989bad2af74c3760)
 
 或
 
@@ -36,7 +39,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_67E18F42E97C4AAAB0A2F67B7924765D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 影像 </span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 影像  </span> </span> </p> </td> 
    <td colname="col2"> <p> 指定單一影像或轉盤集。 將雙HTTP編碼套用至影像名稱或轉盤集名稱中任何不安全的字元。 </p> </td> 
   </tr> 
  </tbody> 
@@ -49,24 +52,24 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_A2A0ACD942E942BC99AF0DC80FB1C670"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 影像 </span></span> </p> </td> 
-   <td colname="col2"> <p> 指定單一影像。 將雙HTTP編碼套用至影像名稱中任何不安全的字元。 </p> <p>或者，指定對影像集的引用。 檢視器使用req=set IS請求，從伺服器 <span class="codeph"> 擷取影像 </span> 集。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 影像  </span> </span> </p> </td> 
+   <td colname="col2"> <p> 指定單一影像。 將雙HTTP編碼套用至影像名稱中任何不安全的字元。 </p> <p>或者，指定對影像集的引用。 檢視器使用<span class="codeph"> req=set IS </span>請求從伺服器擷取影像集。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 影 <span class="varname"> 像清單 </span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> imageList  </span> </span> </p> </td> 
    <td colname="col2"> <p> 指定顯式影像集，由以逗號分隔的排序項或框架序列組成。 </p> <p> <p>注意： Adobe Scene7 Publishing System支援此功能；Adobe Experience Manager Assets不支援它。 </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imageListWith <span class="varname"> 修飾元 </span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> imageListWithModifiers  </span> </span> </p> </td> 
    <td colname="col2"> <p> 指定每個影格都有其專屬的「影像伺服」修飾元的明確影像集。 在這種情況下，框架清單會用括弧括住。 請確定您已將雙重HTTP編碼套用至影格特定「影像伺服」修飾元中的任何逗號。 </p> <p> <p>注意： Adobe Scene7 Publishing System支援此功能；Adobe Experience Manager Assets不支援它。 </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 多 <span class="varname"> 維回轉集 </span></span> </p> </td> 
-   <td colname="col2"> <p>使用以下語法指定顯式多維回轉集： </p> <p> <span class="codeph"> (( <span class="varname"> horizontalSpinSet </span>)[,(horizontalSpinSet <span class="varname"></span>)]) </span> </p> <p> 其 <span class="codeph"> 中， <span class="varname"> horizontalSpinSet </span></span> 是指定水準軸的逗號分隔框架清單。 所有 <span class="codeph"> 水 <span class="varname"> 平回轉集 </span></span> 的影格數都應相同。 </p> <p> <p>注意： Adobe Scene7 Publishing System支援此功能；Adobe Experience Manager Assets不支援它。 </p> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> multiDimensionalSpinSet  </span> </span> </p> </td> 
+   <td colname="col2"> <p>使用以下語法指定顯式多維回轉集： </p> <p> <span class="codeph"> (( <span class="varname"> horizontalSpinSet </span>)[,(horizontalSpinSet <span class="varname">  </span>)])  </span> </p> <p> 其中<span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span>是指定水準軸以逗號分隔的影格清單。 所有<span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span>應具有相同的幀數。 </p> <p> <p>注意： Adobe Scene7 Publishing System支援此功能；Adobe Experience Manager Assets不支援它。 </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 修飾 </span> 元 </span> </p> </td> 
-   <td colname="col2"> <p> 影像伺服命令； <span class="codeph"> &amp; </span> 和 <span class="codeph"> =分隔符必須分別HTTP編碼為 </span> %26和 <span class="codeph"> %3D </span> 格式 <span class="codeph"></span>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 修飾語  </span> </span> </p> </td> 
+   <td colname="col2"> <p> 影像伺服命令；<span class="codeph"> &amp; </span>和<span class="codeph"> = </span>分隔符必須分別以<span class="codeph"> %26 </span>和<span class="codeph"> %3D </span>的HTTP編碼。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -78,39 +81,39 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_D31C8507C02A4452A79DEDDEC62EF2F5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 媒 <span class="varname"> 體集 </span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> mediaSet  </span> </span> </p> </td> 
    <td colname="col2"> <p> 指定對介質集的引用。 檢視器使用req=set IS請求，從伺服器擷取媒體集。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 影片 </span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 視訊  </span> </span> </p> </td> 
    <td colname="col2"> <p> 單一視訊或最適化視訊集。 </p> <p> <p>注意： Adobe Scene7 Publishing System支援此功能；Adobe Experience Manager Assets不支援它。 </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 影像 </span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 影像  </span> </span> </p> </td> 
    <td colname="col2"> <p> 單一影像。 </p> <p> <p>注意： Adobe Scene7 Publishing System支援此功能；Adobe Experience Manager Assets不支援它。 </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> setId </span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> setId  </span> </span> </p> </td> 
    <td colname="col2"> <p> 色票集。 </p> <p> <p>注意： Adobe Scene7 Publishing System支援此功能；Adobe Experience Manager Assets不支援它。 </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 色 <span class="varname"> 票ID </span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> swatchId  </span> </span> </p> </td> 
    <td colname="col2"> <p>色票影像。 </p> <p> <p>注意： Adobe Scene7 Publishing System支援此功能；Adobe Experience Manager Assets不支援它。 </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> ID </span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> ID  </span> </span> </p> </td> 
    <td colname="col2"> <p> 「媒體集」項目類型標識符可以是以下其中一種： </p> <p> 
      <ul id="ul_3100F9356628498DA820C07F6F69CC9B"> 
-      <li id="li_51B649A539F14510873CFDA85A6AA714"> <p> <span class="codeph"> advanced_image </span> </p> <p>適用於單一影像。 </p> </li> 
-      <li id="li_7E764D67294647C1A828F949E5ED1908"> <p> <span class="codeph"> advanced_swatchset </span> </p> <p>用於嵌套色票集。 </p> </li> 
-      <li id="li_C942CED779B54110BCDC74188995FD5B"> <p> <span class="codeph"> 自旋 </span> </p> <p>用於回轉集。 </p> </li> 
-      <li id="li_6EA5C54F078D4B24B44F1588BF083842"> <p> <span class="codeph"> 視訊 </span> </p> <p>適用於單一視訊。 </p> </li> 
-      <li id="li_8110FA7E0CAB4681A2D8C15F2A656E69"> <p> <span class="codeph"> video_set </span> </p> <p>適用於最適化視訊集。 </p> </li> 
+      <li id="li_51B649A539F14510873CFDA85A6AA714"> <p> <span class="codeph"> advanced_image  </span> </p> <p>適用於單一影像。 </p> </li> 
+      <li id="li_7E764D67294647C1A828F949E5ED1908"> <p> <span class="codeph"> advanced_swatchset  </span> </p> <p>用於嵌套色票集。 </p> </li> 
+      <li id="li_C942CED779B54110BCDC74188995FD5B"> <p> <span class="codeph"> 自旋  </span> </p> <p>用於回轉集。 </p> </li> 
+      <li id="li_6EA5C54F078D4B24B44F1588BF083842"> <p> <span class="codeph"> 視訊  </span> </p> <p>適用於單一視訊。 </p> </li> 
+      <li id="li_8110FA7E0CAB4681A2D8C15F2A656E69"> <p> <span class="codeph"> video_set  </span> </p> <p>適用於最適化視訊集。 </p> </li> 
      </ul> </p> <p> <p>注意： Adobe Scene7 Publishing System支援此功能；Adobe Experience Manager Assets不支援它。 </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 修飾 </span> 元 </span> </p> </td> 
-   <td colname="col2"> <p> 影像伺服命令； <span class="codeph"> &amp; </span> 和 <span class="codeph"> =分隔符必須分別HTTP編碼為 </span> %26和 <span class="codeph"> %3D </span> 格式 <span class="codeph"></span>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 修飾語  </span> </span> </p> </td> 
+   <td colname="col2"> <p> 影像伺服命令；<span class="codeph"> &amp; </span>和<span class="codeph"> = </span>分隔符必須分別以<span class="codeph"> %26 </span>和<span class="codeph"> %3D </span>的HTTP編碼。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
