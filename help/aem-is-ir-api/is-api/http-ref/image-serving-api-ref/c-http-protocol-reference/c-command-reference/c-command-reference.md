@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 72c4ed61-3436-4df5-b586-77808fb1903a
 translation-type: tm+mt
 source-git-commit: c5bac2c6e3f3a05bf69924072c4305dbd7ba1f4f
+workflow-type: tm+mt
+source-wordcount: '224'
+ht-degree: 10%
 
 ---
 
@@ -16,11 +19,11 @@ source-git-commit: c5bac2c6e3f3a05bf69924072c4305dbd7ba1f4f
 
 本節介紹HTTP協定命令。
 
-**僅適用於AEM中的動態媒體**:除了使用者介面中提供的基本影像設定外， [!DNL Dynamic Media] AEM( [!DNL Adobe Experience Manager])還支援許多進階的影像修改，您可以在「影像修飾元」欄位中 **指定** 。 這些參數定義如下。 但是，請注意，AEM中的Dynamic Media不支援下列功能。
+**僅適用於AEM中的動態媒體**:除了使用者介面中提供的基本影像設定外， [!DNL Dynamic Media] 在AEM( [!DNL Adobe Experience Manager])中還支援許多進階的影像修改，您可在 **Image** Modifiersfield中指定。這些參數定義如下。 但是，請注意，AEM中的Dynamic Media不支援下列功能。
 
-* 色彩校正指令： `icc=` 和 `iccEmbed=`。
-* 基本範本和文字轉換指令： `text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=` 和 `textPs=`。
-* 本地化命令： `locale=` 和 `req=xlate`。
+* 色彩校正指令：`icc=`和`iccEmbed=`。
+* 基本範本和文字轉換指令：`text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=`和`textPs=`。
+* 本地化命令：`locale=`和`req=xlate`。
 * `req=set` 無法用於一般用途。
 * `req=mbrset`
 * `req=saveToFile`
@@ -30,7 +33,7 @@ source-git-commit: c5bac2c6e3f3a05bf69924072c4305dbd7ba1f4f
 
 <!-- Adobe IS command examples website  http://sj1010010254235.corp.adobe.com/iscommands/ -->
 
-另請參閱AEM 6.5文 [件中的「動態媒體影像預設集](https://docs.adobe.com/content/help/en/experience-manager-65/assets/dynamic/managing-image-presets.html#image-preset-options) 」選項。
+另請參閱AEM 6.5檔案中的「動態媒體[影像預設集選項](https://docs.adobe.com/content/help/en/experience-manager-65/assets/dynamic/managing-image-presets.html#image-preset-options)」。
 
 * [對齊](r-align.md)
 * [錨記](r-anchor.md)
