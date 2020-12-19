@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: c4830fc5-d102-4789-8753-0a660d4a557e
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '398'
+ht-degree: 1%
 
 ---
 
@@ -21,11 +24,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="simpletable_69D112F85FA24EFCA727B398DC8ED699"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> 坐標</span> </p> </td> 
-  <td class="stentry"> <p>在套用縮放後，從檢視影像的左上角到檢視矩形的左上角的像素偏移(int, int)，以像素 <span class="varname"> 表示</span> 。 </p></td> 
+  <td class="stentry"> <p>在套用<span class="varname">縮放</span>後，從檢視影像的左上角到檢視矩形的左上角的像素偏移(int, int)，以像素表示。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> 大小</span> </p></td> 
-  <td class="stentry"> <p>ROI的大小（以像素為單位，int、int）。 指定回覆影像大小。 在視圖影像未覆蓋的區域中(如果 <span class="codeph"> fmt=*-alpha存在，則用</span> bgc= <span class="codeph"> ，或左透明，如果請求中存在fmt=*-alpha</span> )填充影像。 </p></td> 
+  <td class="stentry"> <p>ROI的大小（以像素為單位，int、int）。 指定回覆影像大小。 在視圖影像未覆蓋的區域(或者，如果請求中存在<span class="codeph"> fmt=*-alpha↑[a3/]，則用<span class="codeph"> bgc=</span>填充影像。</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> scale</span> </p></td> 
@@ -33,7 +36,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </tr> 
 </table>
 
-使用此命令，影像伺服可透過HTTP傳送大型影像，而HTTP會超過設定的大小限制 `attribute::MaxPix`。
+使用此命令，影像伺服可透過HTTP傳送大型影像，否則會超過使用`attribute::MaxPix`設定的大小限制。
 
 >[!NOTE]
 >
@@ -53,9 +56,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 `image.width=2000 image.height=2400 image.version=37JK6NTvpvC42F5gOuLEVY`
 
-根據這些資訊，我們決定要4個600x2000像素條。 此命 `rect=` 令用於描述條帶大小和位置。
+根據這些資訊，我們決定要4個600x2000像素條。 `rect=`命令用於描述條帶大小和位置。
 
-由於此影像經常變更，因此我們將加入命令，以盡量降低從舊版影像中快取至CDN或Proxy伺服器的一或多個片段的可能性。 `id=` 屬性的值 `image.version` 用於此目的。
+由於此影像經常變更，因此我們將加入`id=`命令，以盡量降低從舊版影像快取至CDN或Proxy伺服器中的一或多個片段時，發生錯誤的機率。 `image.version`屬性的值用於此用途。
 
 `http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&id=37JK6NTvpvC42F5gOuLEVY&rect=0,0,2000,600 http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&id=37JK6NTvpvC42F5gOuLEVY&rect=0,600,2000,600 http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&id=37JK6NTvpvC42F5gOuLEVY&rect=0,1200,2000,600 http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&id=37JK6NTvpvC42F5gOuLEVY&rect=0,1800,2000,600`
 
@@ -63,14 +66,14 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 檢視屬性。 不論目前的圖層設定為何，都適用。
 
-在檢視影像以外延伸的任何ROI區域都會填補 `bgc=`。
+ROI延伸至檢視影像以外的任何區域都會填入`bgc=`。
 
-重要 `rect=` 的是在最後的 *標定和配合* 後，應 `scl=`用、 `wid=`應用 `hei=`、配合 `fit=``rgn=``align=`。
+重要提示：`rect=`在&#x200B;*最終縮放和與`scl=`、`wid=`、`hei=`、`fit=`、`rgn=`和`align=`配合後套用*。
 
 ## 預設 {#section-b296d3bbfb19441f87137a452b70f19a}
 
-完整、未修改的檢視影像( `rect=0,0,width,height,1.0`)。
+完整、未修改的檢視影像(`rect=0,0,width,height,1.0`)。
 
 ## 請亦參閱 {#section-74015202c0c545ec82aec614d74b4bbd}
 
-[crop=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-crop.md#reference-6fd0f6399966446ab4425ce050572eab) , extend= [, extend=,](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md#reference-7e9156beb285459d830e2d56782a74ac)hei=, scl [=lign,](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-wid.md#reference-bfeadcb67bf4485f851eb21345527e47)lign=pix,gn fit pix [](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-hei.md#reference-6d6f556ccc0e4b98a815e8a5c1944a96)[](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-scl.md#reference-b2a74e493d0d407e98fe350551ba3fcc)[](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-align.md#reference-b7d6b87c75124d78884f916dd6544bc7)[](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md#reference-f11bff6d93d143d6b135de3a923bc989)[](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rgn.md#reference-daa9b80e0d8c4b1aa67d116b578d592f)[](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-maxpix.md#reference-e167d396ac794079ba8b5e6eb16eeda5)[lign=pix,Jontatribute:MaxMax:comproking=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-id.md#reference-60661184deb3420998779724244fcfa0)
+[crop=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-crop.md#reference-6fd0f6399966446ab4425ce050572eab) , extend= [, hei=, ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md#reference-7e9156beb285459d830e2d56782a74ac)li= [, scl=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-wid.md#reference-bfeadcb67bf4485f851eb21345527e47)align,gn pix=lign,  [](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-hei.md#reference-6d6f556ccc0e4b98a815e8a5c1944a96) [](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-scl.md#reference-b2a74e493d0d407e98fe350551ba3fcc) [](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-align.md#reference-b7d6b87c75124d78884f916dd6544bc7) [](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md#reference-f11bff6d93d143d6b135de3a923bc989) [](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rgn.md#reference-daa9b80e0d8c4b1aa67d116b578d592f) [](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-maxpix.md#reference-e167d396ac794079ba8b5e6eb16eeda5) [pix aglin=throb, Attribute:MaxMax:comprodi==](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-id.md#reference-60661184deb3420998779724244fcfa0)
