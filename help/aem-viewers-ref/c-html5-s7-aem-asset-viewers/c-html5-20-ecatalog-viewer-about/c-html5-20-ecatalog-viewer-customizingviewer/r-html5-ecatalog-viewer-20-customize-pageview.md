@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 5e247f56-f0da-487b-8e03-587b9d36aa39
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '401'
+ht-degree: 4%
 
 ---
 
@@ -35,11 +38,11 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景色  </span> </p> </td> 
    <td colname="col2"> <p> 以十六進位格式顯示主視圖的背景顏色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 游標 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 游標  </span> </p> </td> 
    <td colname="col2"> <p>顯示在主視圖上的游標。 </p> </td> 
   </tr> 
  </tbody> 
@@ -53,7 +56,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 }
 ```
 
-在案頭系統上，元件支 `cursortype` 持屬性選擇器，該選擇器可應用 `.s7pageview` 於類，並基於元件狀態和用戶操作控制游標的類型。 The following `cursortype` values are supported:
+在案頭系統上，元件支援`cursortype`屬性選擇器，該選擇器可應用於`.s7pageview`類，並基於元件狀態和用戶操作控制游標的類型。 支援下列`cursortype`值：
 
 <table id="table_45B83F6CCDE84C36B0E087CA9144BFE6"> 
  <thead> 
@@ -68,7 +71,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
    <td colname="col2"> <p>當影像因影像解析度小、元件設定或兩者皆無法縮放時顯示。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 牛 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 牛  </span> </p> </td> 
    <td colname="col2"> <p>可放大影像時顯示。 </p> </td> 
   </tr> 
   <tr> 
@@ -80,7 +83,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
    <td colname="col2"> <p>當使用者平移處於縮放狀態的影像時顯示。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 投影片 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 投影片  </span> </p> </td> 
    <td colname="col2"> <p>當使用者透過水準滑動或輕拂來執行影像切換時顯示。 </p> </td> 
   </tr> 
  </tbody> 
@@ -100,10 +103,10 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> 頁面分隔線的寬度。 設為 <span class="codeph"> 0 px </span> 可完全隱藏分隔線。 </p> </td> 
+   <td colname="col2"> <p> 頁面分隔線的寬度。 設為<span class="codeph"> 0 </span> px可完全隱藏分隔線。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景影像 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景影像  </span> </p> </td> 
    <td colname="col2"> <p>您要用作分頁符的影像。 </p> </td> 
   </tr> 
  </tbody> 
@@ -120,9 +123,9 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 
 >[!NOTE]
 >
->當修飾 `frametransition` 元設為或 `turn` (在案頭 `auto` 系統上)時，頁面分隔線的外觀會由修飾元控制， `pageturnstyle` 而 `.s7pagedivider` CSS類別則會被忽略。
+>當`frametransition`修飾元設為`turn`或`auto`（在案頭系統上）時，頁面分隔線的外觀會由`pageturnstyle`修飾元控制，並忽略`.s7pagedivider` CSS類別。
 
-您可以在主檢視器區域上設定自訂滑鼠游標的顯示。 這是由套用至 `.s7ecatalogviewer .s7pageview` CSS類別的其他屬性選擇器所控制：
+您可以在主檢視器區域上設定自訂滑鼠游標的顯示。 這是由套用至`.s7ecatalogviewer .s7pageview` CSS類別的其他屬性選擇器所控制：
 
 <table id="table_908164DECF9347A19A9696A23BBDB1A2"> 
  <thead> 
@@ -133,11 +136,11 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> default </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 預設  </span> </p> </td> 
    <td colname="col2"> <p> 通常是箭頭，針對不可縮放的影像顯示。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 牛 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 牛  </span> </p> </td> 
    <td colname="col2"> <p> 顯示影像何時可放大。 </p> </td> 
   </tr> 
   <tr> 
@@ -149,7 +152,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
    <td colname="col2"> <p>顯示使用者在影像中縮放時執行拖曳作業的時間 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 投影片 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 投影片  </span> </p> </td> 
    <td colname="col2"> <p>顯示使用者何時使用投影片手勢執行影像交換 </p> </td> 
   </tr> 
  </tbody> 
