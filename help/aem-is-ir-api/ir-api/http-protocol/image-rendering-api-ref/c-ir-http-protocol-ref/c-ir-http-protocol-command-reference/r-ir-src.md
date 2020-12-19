@@ -32,23 +32,23 @@ ht-degree: 1%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <span class="varname"> materialFile</span> </td> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> styleFile</span>|image<span class="varname"> File</span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> styleFile</span>|<span class="varname"> imageFile</span></span> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> embeddedReq</span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph">&amp;'is&amp;lbrace;'<span class="varname"> isReq</span>'&amp;rbrace;'<span class="varname"> isReq</span>'&amp;rbrace;'ir&amp;lbrace;'<span class="varname"> irReq</span>'&amp;rbrace;'|&amp;lbrace;'foreignReq'&amp;ramp;rbrap;rap;'&amp;rbracrap;'</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">&amp;lbrace;'is&amp;<span class="varname"> lbrace;'isReq</span>'&amp;rbraces;'ir&amp;rbrace;'ir&amp;lbrace<span class="varname"> '&amp;rbrace;'|&amp;lbrace;'&amp;</span>forienReq<span class="varname"> </span>'&amp;rbraces;'</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> catId</span> </p></td> 
-  <td class="stentry"> <p>材料目錄ID(<span class="codeph"> 屬性：:RootId</span>)。 </p></td> 
+  <td class="stentry"> <p>材料目錄ID（<span class="codeph">屬性：:RootId</span>）。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> recId</span> </p></td> 
-  <td class="stentry"> <p>物料目錄條目(<span class="codeph"> 目錄：:Id</span>)。 </p></td> 
+  <td class="stentry"> <p>物料目錄條目（<span class="codeph">目錄：:Id</span>）。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> styleFile</span> </p></td> 
-  <td class="stentry"> <p>材料樣式檔案<span class="filepath"> (.vnc</span> 或 <span class="filepath"> .vnw</span>)。 </p></td> 
+  <td class="stentry"> <p>材料樣式檔案（<span class="filepath"> .vnc</span>或<span class="filepath"> .vnw</span>）。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> imageFile</span> </p></td> 
@@ -78,21 +78,21 @@ ht-degree: 1%
 
 可重複的紋理、貼紙和壁紙材料需要單一影像，而此影像可指定為檔案或內嵌請求。
 
-檔案櫃材料需要檔案櫃樣式檔案( [!DNL .vnc])，不能將其指定為嵌套請求。 紋理影像檔案對於檔案櫃是可選的，如果指定，則可能是檔案或嵌入請求。
+檔案櫃材料需要檔案櫃樣式檔案([!DNL .vnc])，不能將其指定為嵌套請求。 紋理影像檔案對於檔案櫃是可選的，如果指定，則可能是檔案或嵌入請求。
 
-窗口覆蓋材料需要窗口覆蓋樣式檔案( [!DNL .vnw])，不能將其指定為嵌套請求。 紋理檔案是選用的，如果指定，則可能是檔案或內嵌請求。
+窗口覆蓋材料需要窗口覆蓋樣式檔案([!DNL .vnw])，該檔案不能指定為嵌套請求。 紋理檔案是選用的，如果指定，則可能是檔案或內嵌請求。
 
-「影像演算」使用與「影像伺服」相同的規則來尋找材質型錄、目錄項目和資料檔案。 如需詳細資訊，請參閱影 *`object`* 像服務檔案中的資料類型說明。
+「影像演算」使用與「影像伺服」相同的規則來尋找材質型錄、目錄項目和資料檔案。 如需詳細資訊，請參閱影像服務檔案中的&#x200B;*`object`*&#x200B;資料類型說明。
 
 *`materialFile`* 是相對於的路徑 `attribute::RootPath`。
 
-*`foreignReq`* 可以是相對於的URL, `attribute::RootUrl`或絕對URL(若已設定 `attribute::AllowDirectUrls` )。
+*`foreignReq`* 可以是相對於的URL, `attribute::RootUrl`或絕對URL(若已 `attribute::AllowDirectUrls` 設定)。
 
-如果 *`catId`* 未指定，則使用會話目錄。
+如果未指定&#x200B;*`catId`*，則使用會話目錄。
 
-`srcE=` 並 `srcN=` 且可存取暗角內嵌的材料。
+`srcE=` 並提 `srcN=` 供對暗角內嵌材料的存取。
 
-## 支援的檔案格式 {#section-f2186d3eef834fc8bbecb2bc68daacad}
+## 支援的檔案格式{#section-f2186d3eef834fc8bbecb2bc68daacad}
 
 「影像演算」支援與Scene7 Image Serving相同的來源影像格式。
 
@@ -114,7 +114,7 @@ ht-degree: 1%
 
 `…&obj=cabinets&src=cabs/maple02.vnc,cabs/maple.jpg&res=40&color=185,105,35&…`
 
-同一材料可以位於記錄「 」中 `'cat`的材料目錄 `12-3-2`中：
+同一材料可以位於記錄「 `12-3-2`」中的`'cat`材料目錄中：
 
 `…&obj=cabinets&src=cat/12-3-2&…`
 
