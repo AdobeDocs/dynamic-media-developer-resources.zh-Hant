@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: b3b67803-147a-48a3-acc3-d608e01e0800
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -30,47 +33,47 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> taskType <span class="varname"></span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> taskType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 任務類型說明。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 已 <span class="varname"> 處理數</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> numProcessed</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> 已處理的任務項數。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 處 <span class="varname"> 理數</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> numProcessing</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> 當前正在處理的任務項數。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 待 <span class="varname"> 定數</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> numPending</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> 待定任務項目數（尚未處理）。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 進 <span class="varname"> 度</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 進度</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
    <td colname="col3"> %進度（範圍0.0 - 1.0）。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 進 <span class="varname"> 度訊息</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> progressMessage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 進度訊息。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 上 <span class="varname"> 次進度更新</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> lastProgressUpdate</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
    <td colname="col3"> 上次更新進度資訊的時間。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> taskItemProgressArray <span class="varname"></span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> taskItemProgressArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：TaskItemProgressArray</span> </td> 
    <td colname="col3"> 任務項的陣列。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 任 <span class="varname"> 務狀態</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> taskState</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3">值包括： 
     <ul id="ul_BD00DC855B1D42748204E8BCA81FD4BF">
