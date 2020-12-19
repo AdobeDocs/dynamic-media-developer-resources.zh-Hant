@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: cfb549c2-e0cf-46c3-b5b7-219c8c1bee94
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '68'
+ht-degree: 5%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 數值|點數</span> </p> </td> 
-   <td colname="col2"> <p> 配置設定指示符的渲染樣式。 </p> <p>當設為點狀 <span class="codeph"> 時</span> ，元件會針對所有頁面呈現相同的指標。 </p> <p>設為數值 <span class="codeph"> 時</span> ，會在每個指標元素中放置1個頁碼。 </p> <p>能夠 <span class="codeph"> 觸摸輸入</span> 的設備不支援數字操作模式。 而是在這類裝置上 <span class="codeph"> 使用</span> 「點狀」元件。 </p> </td> 
+   <td colname="col2"> <p> 配置設定指示符的渲染樣式。 </p> <p>當設為<span class="codeph"> dotted</span>時，元件會為所有頁面呈現相同的指示符。 </p> <p>設為<span class="codeph"> numeric</span>時，會在每個指標元素中放置一個以1為基礎的頁碼。 </p> <p>能夠觸摸輸入的設備不支援<span class="codeph">數字</span>操作模式。 而是在此類裝置上使用<span class="codeph"> dotted</span>元件。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
