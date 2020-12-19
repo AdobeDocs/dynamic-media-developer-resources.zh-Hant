@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 10ce998e-e300-4d24-9d92-a8693dade327
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '164'
+ht-degree: 0%
 
 ---
 
@@ -18,4 +21,4 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 從外部HTTP伺服器獲得的影像也儲存在響應資料快取中。 在生成快取條目之前，使用驗證實用程式自動驗證這種影像。
 
-平台伺服器會編譯影像目錄資料，以有效存取。 此資料儲存於 `CS::CatalogCacheFolder`。
+平台伺服器會編譯影像目錄資料，以有效存取。 此資料儲存在`CS::CatalogCacheFolder`中。
