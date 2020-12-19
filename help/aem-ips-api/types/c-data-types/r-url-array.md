@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 59568d38-6e05-45ca-8054-cec2c5ea8c02
 translation-type: tm+mt
 source-git-commit: aa095022d43db4bf815aece9bc2b087c53a64e1b
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +35,7 @@ CDN快取失效的URL陣列。
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> <span class="varname"> 項目</span></span> </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> 項目</span> </span> </p> </td> 
    <td> <p> <span class="codeph"> xsd:string</span> </p> </td> 
    <td> <p> 要失效的URL清單。 WSDL定義最多可限制1000個URL。 </p> </td> 
   </tr> 
