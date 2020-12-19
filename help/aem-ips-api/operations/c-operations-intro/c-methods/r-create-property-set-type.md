@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: ecbaad48-d725-4f7a-a37d-5e4cde3295cb
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '172'
+ht-degree: 10%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 語法
 
-## 授權使用者類型 {#section-48e5f908276c4a549fd33a8828bad326}
+## 授權用戶類型{#section-48e5f908276c4a549fd33a8828bad326}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,7 +34,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 否 | 擁有屬性集類型的公司的句柄。 如果 `companyHandle` 未傳遞呼叫者為呼叫者 `IpsAdmin`，則將建立全局屬性集類型。 |
+| ` *`companyHandle`*` | `xsd:string` | 否 | 擁有屬性集類型的公司的句柄。 如果`companyHandle`未傳遞，而呼叫者是`IpsAdmin`，則會建立全局屬性集類型。 |
 | ` *`名稱`*` | `xsd:string` | 是 | 屬性集類型的名稱。 |
 | ` *`propertyType`*` | `xsd:string` | 是 | 屬性集類型的選擇。 |
 | ` *`allowMultiple`*` | `xsd:boolean` | 是 | 確定程式是否可以有多個屬性集。 |
@@ -44,7 +47,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 範例 {#section-13396c9639a6475190e622eae3cdb534}
 
-此代碼示例建立一個屬性集，其名稱和類型由常數指 `PropertySet Types` 定。 擁有屬性集類型的公司的句柄。 如果未傳遞companyHandle，而呼叫者是IpsAdmin，則會建立全局屬性集類型。
+此代碼示例建立一個屬性集，其名稱和類型由`PropertySet Types`常數指定。 擁有屬性集類型的公司的句柄。 如果未傳遞companyHandle，而呼叫者是IpsAdmin，則會建立全局屬性集類型。
 
 **請求**
 
