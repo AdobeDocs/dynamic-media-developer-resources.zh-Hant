@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 073b6651-970c-460c-b044-e3ef37cc677a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '151'
+ht-degree: 10%
 
 ---
 
@@ -23,7 +26,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="simpletable_1CFD2BC6F9BC4D2AB372EAF115B7F2FC"> 
  <tr class="strow"> 
   <td class="stentry"> <p>0 </p> </td> 
-  <td class="stentry"> <p>繼承自預 <span class="codeph"> 設值：:OnFailSel </span>。 </p> </td> 
+  <td class="stentry"> <p>繼承自<span class="codeph">預設值：:OnFailSel </span>。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p> </td> 
@@ -45,7 +48,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 預設 {#section-c25f458f9f8f4236963a95779529e664}
 
-繼承自( `default::OnFailSel` 如果未定義)。
+如果未定義，則繼承自`default::OnFailSel`。
 
 ## 另請參閱 {#section-f8b15dd64c674c5484d190dd9e3016af}
 
