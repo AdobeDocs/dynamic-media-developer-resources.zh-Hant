@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 622dc7ca-55b8-4a82-b9a7-65588aee87d0
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '196'
+ht-degree: 3%
 
 ---
 
@@ -25,13 +28,13 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </tr> 
 </table>
 
-新段內的所有命令都會應用到指定的效果層。 效果層段由下一個或命 `layer=` 令或 `effect=` 請求結束終止。
+新段內的所有命令都會應用到指定的效果層。 效果層段由下一個`layer=`或`effect=`命令終止，或由請求結束終止。
 
-*`n`* 對於外層效果（即父層後的效果）必須小於0，對於內層效果（即父層內的效果）則必須大於0。 效果圖層編號不必是連續的。
+*`n`* 對於外層效果（即父層後的效果）必須小於0，對於內層效果（即父層內的效果）則必須大於0。效果圖層編號不必是連續的。
 
 如果相同父層有多個效果圖層，效果圖層編號會指定z順序。 編號較高的圖層會置於編號較低的圖層之上。
 
-效果層可以附著到 `layer=comp`。
+效果層可以附著到`layer=comp`。
 
 ## 屬性 {#section-e11f795deff345779ce280a82cf221ca}
 
