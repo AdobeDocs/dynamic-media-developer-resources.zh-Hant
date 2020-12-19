@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 12730b17-110e-405b-97fe-e70fab89c703
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">[0|1][,duration][,direction]</span> </p> </td> 
-   <td colname="col2"> <p> 指定開／關、持續時間，以顯示浮動切換和自動循環方向中的每個橫幅。 </p> <p>設為 <span class="codeph"> 0</span> ，自動循環關閉。 </p> <p>將 <span class="codeph"> 1設為</span> 「自動循環開啟」，轉場持續時間（以秒為單位）由持續時間 <span class="codeph"> 控制</span>。 </p> <p>自動迴路的方向由方向控 <span class="codeph"> 制</span>。 方 <span class="codeph"> 向</span> ，範圍為 <span class="codeph"> 1</span> -右——左至 <span class="codeph"> 0</span> -左——右。 </p> </td> 
+   <td colname="col2"> <p> 指定開／關、持續時間，以顯示浮動切換和自動循環方向中的每個橫幅。 </p> <p>設為<span class="codeph"> 0</span>以自動循環關閉。 </p> <p>將<span class="codeph"> 1</span>設為自動循環開啟，轉換持續時間以秒為單位，由<span class="codeph">持續時間</span>控制。 </p> <p>自動迴路的方向以<span class="codeph">方向</span>控制。 <span class="codeph">方向</span>具有從右至左的<span class="codeph">1</span>和從左至右的<span class="codeph">0</span>範圍。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
