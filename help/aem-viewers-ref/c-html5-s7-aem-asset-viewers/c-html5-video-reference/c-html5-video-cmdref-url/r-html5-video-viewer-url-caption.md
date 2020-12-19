@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: 670d83c2-bfc5-411a-8581-5103a62aa8cf
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '202'
+ht-degree: 8%
 
 ---
 
 
-# caption{#caption}
+# 標題{#caption}
 
 視訊檢視器的URL命令。
 
@@ -34,7 +37,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
    <td colname="col1"> <p> A </p> </td> 
    <td colname="col2"> <p>文本對齊 </p> </td> 
    <td colname="col3"> <p><span class="codeph"> left|right|middle|start|end</span> </p> </td> 
-   <td colname="col4"> <p> 控制文字對齊。 </p> <p>預設為 <span class="codeph"> 中間</span>。 </p> </td> 
+   <td colname="col4"> <p> 控制文字對齊。 </p> <p>預設值為<span class="codeph"> middle</span>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>T </p> </td> 
@@ -67,7 +70,7 @@ WebVTT檔案中的其他WebVTT功能不受支援，但不應中斷字幕功能�
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 指定預設標題狀態(啟用為 <span class="codeph"> 1</span>)。 </p> </td> 
+   <td colname="col2"> <p> 指定預設標題狀態（啟用為<span class="codeph"> 1</span>）。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
