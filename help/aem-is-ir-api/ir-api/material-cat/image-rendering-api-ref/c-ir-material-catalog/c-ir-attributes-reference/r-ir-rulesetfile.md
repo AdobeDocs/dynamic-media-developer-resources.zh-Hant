@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 904fb549-053a-4f84-9cee-766df8d798e2
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '91'
+ht-degree: 4%
 
 ---
 
 
-# 規則集檔案{#rulesetfile}
+# RuleSetFile{#rulesetfile}
 
 規則集定義檔案路徑。 指定包含此材料目錄規則集定義的檔案。
 
