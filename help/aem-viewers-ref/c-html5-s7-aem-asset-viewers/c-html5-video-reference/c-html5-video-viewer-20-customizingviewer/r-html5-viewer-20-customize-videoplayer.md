@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: 2748c3d3-b974-4e54-8218-a2ec9e31a668
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '314'
+ht-degree: 1%
 
 ---
 
 
-# Video player{#video-player}
+# 視訊播放器{#video-player}
 
 視訊播放器是在檢視器中顯示視訊內容的矩形區域。
 
@@ -31,13 +34,13 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景色  </span> </p> </td> 
    <td colname="col2"> <p>主視圖的背景顏色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-如果系統無法播放視訊，會顯示的錯誤訊息可以本地化。 如需詳 [細資訊，請參閱使用者介面元素](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 的本地化。
+如果系統無法播放視訊，會顯示的錯誤訊息可以本地化。 如需詳細資訊，請參閱[使用者介面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad)。
 
 範例——若要設定視訊播放器大小設定為512 x 288像素的視訊檢視器。
 
@@ -56,7 +59,7 @@ background-color: transparent;
 <table id="table_960E0D4FB91748FF9FC73C925B81879C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景色  </span> </p> </td> 
    <td colname="col2"> <p>隱藏字幕文字背景。 </p> </td> 
   </tr> 
   <tr> 
@@ -64,15 +67,15 @@ background-color: transparent;
    <td colname="col2"> <p>關閉標題文字顏色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型粗細 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字型粗細  </span> </p> </td> 
    <td colname="col2"> <p> 隱藏字幕字型粗細。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型大小 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字型大小  </span> </p> </td> 
    <td colname="col2"> <p> 隱藏字幕字型大小。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>隱藏字幕字型。 </p> </td> 
   </tr> 
  </tbody> 
@@ -115,15 +118,15 @@ background-color: transparent;
    <td colname="col2"> <p> 動畫圖示高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 左邊距 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 左邊距  </span> </p> </td> 
    <td colname="col2"> <p> 動畫圖示的左邊距，通常為圖示寬度的一半。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 邊距頂端 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 邊距頂端  </span> </p> </td> 
    <td colname="col2"> <p> 動畫圖示的上邊界，通常為圖示高度的一半。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景影像 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景影像  </span> </p> </td> 
    <td colname="col2"> <p> 旋鈕圖稿。 </p> </td> 
   </tr> 
  </tbody> 
