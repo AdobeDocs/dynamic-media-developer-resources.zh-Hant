@@ -8,6 +8,9 @@ topic: Image Production System API
 uuid: 22f5a601-165a-4dc2-b545-2aa1d6f5a370
 translation-type: tm+mt
 source-git-commit: 22b447e66c223126f4e6b91f9a0102e86731c4a4
+workflow-type: tm+mt
+source-wordcount: '172'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +21,7 @@ IPS（影像製作系統）Web服務API可讓外部應用程式和協力廠商�
 
 本參考指南包含並定義IPS Web Service API使用的所有服務、方法和資料類型。 它已經過特別測試，可與Java（使用Apache Axis2程式庫）、Adobe Flex和Microsoft .NET相容。
 
-## 標準與通訊協定 {#section-d85e71e44b7f432b9c65ce6ca45b7157}
+## {#section-d85e71e44b7f432b9c65ce6ca45b7157}標準和通訊協定
 
 IPS API使用標準SOAP和HTTP通訊協定，並與任何符合這些標準的用戶端相容。 其他測試可協助確保API與Java（使用Apache Axis2程式庫）、Adobe Flex和Microsoft .NET相容。
 
