@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 3b28fbc7-6bc9-4619-8f92-c0ae610b8b30
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '393'
+ht-degree: 0%
 
 ---
 
@@ -21,17 +24,17 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
    如果您尚未取得授權，則可繼續安裝，稍後再安裝授權。
 1. 解壓縮「影像伺服」散發zip檔案的內容。
-1. 運 [!DNL setup]行/ [!DNL setup.exe] 以啟動安裝嚮導。
-1. 按一下「下一步」以進入「使用者授權合約」(EULA)，閱讀授權合約，然後按一下「是 **[!UICONTROL 」]**。
+1. 運行[!DNL setup]/ [!DNL setup.exe]以啟動安裝嚮導。
+1. 按一下「下一步」進入最終用戶許可協定(EULA)，閱讀許可協定，然後按一下&#x200B;**[!UICONTROL 是]**。
 
-   對話 [!DNL Authentication] 方塊隨即顯示。
-1. 如果已安裝許可證，且許可證資訊顯示在對話框中， [!DNL Authentication] 請按一下「下 **[!UICONTROL 一步]** 」繼續。
+   下面將顯示[!DNL Authentication]對話框。
+1. 如果已安裝許可證，且許可證資訊顯示在[!DNL Authentication]對話框中，請按一下&#x200B;**[!UICONTROL Next]**&#x200B;繼續。
 
-   如果您沒有授權，請按一下「請求授 **[!UICONTROL 權」]**。 下一個對話框顯示您電腦的一個網路介面卡MAC地址。 以電子郵件寄送此MAC位址、您的公司名稱，以及您要安裝的產品，並依照提示進行指示。
+   如果您沒有授權，請按一下「請求授權」**[!UICONTROL 。]**&#x200B;下一個對話框顯示您電腦的一個網路介面卡MAC地址。 以電子郵件寄送此MAC位址、您的公司名稱，以及您要安裝的產品，並依照提示進行指示。
 
-   **重要：** 此許可證基於此主機上安裝的其中一個網路介面卡的MAC地址。 如果您停用、移除或更換此卡片，將不會再將授權辨識為有效。 請務必為要用於IS的硬體配置獲取許可證。
+   **重要：** 此許可證基於安裝在此主機上的其中一個網路介面卡的MAC地址。如果您停用、移除或更換此卡片，將不會再將授權辨識為有效。 請務必為要用於IS的硬體配置獲取許可證。
 
-   您可以繼續安裝IS（沒有有效的授權），稍後再安裝該授權。 要繼續，請按一下「 **[!UICONTROL 上一步]** 」返回對 [!DNL Authentication] 話框，然後按一下「下 **[!UICONTROL 一步」]**。
+   您可以繼續安裝IS（沒有有效的授權），稍後再安裝該授權。 要繼續，按一下&#x200B;**[!UICONTROL Back]**&#x200B;返回[!DNL Authentication]對話框，然後按一下&#x200B;**[!UICONTROL Next]**。
 1. 繼續至「平台伺服器管理設定」頁面。 根據需要輸入新值或接受預設值。
 
    您可以設定下列項目：
@@ -60,5 +63,5 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 指定的埠號必須是唯一的，不能用於其他應用程式或服務。
 
 下一個畫面提供檢閱所選設定的機會。
-1. 單 **[!UICONTROL 擊「上]** 一步」進行更改，或按一下「下 **[!UICONTROL 一步]** 」開始安裝。
-1. 按一下 **[!UICONTROL 完成]** ，退出安裝嚮導。
+1. 按一下&#x200B;**[!UICONTROL Back]**&#x200B;進行更改，或按一下&#x200B;**[!UICONTROL Next]**&#x200B;開始安裝。
+1. 按一下&#x200B;**[!UICONTROL 完成]**&#x200B;退出安裝嚮導。
