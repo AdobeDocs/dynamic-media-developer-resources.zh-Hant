@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 2df0abbb-0d54-41b7-80c4-b914c18cd1b1
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# 伊盧姆{#illum}
+# Illum{#illum}
 
 照明圖選擇器。 允許在渲染此材料時使用明確的照明圖選擇。
 
