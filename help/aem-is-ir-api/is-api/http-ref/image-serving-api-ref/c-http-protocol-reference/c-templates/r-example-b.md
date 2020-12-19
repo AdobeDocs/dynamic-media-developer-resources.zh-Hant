@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 13120562-9201-4733-bd9d-4a54eac913e9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '197'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +30,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </tr> 
 </table>
 
-將影像置於圖層0中，並將高度值設為 `size=` 0，這會使實際高度在縮放為800像素寬後，由影像的高度決定。
+將影像放置在圖層0中，並將`size=`的高度值設定為0，這使得將影像縮放為800像素寬後，實際高度由影像的高度確定。
 
 `extend=` 在頂端和底部加上100像素，在右側加上200像素。
 
