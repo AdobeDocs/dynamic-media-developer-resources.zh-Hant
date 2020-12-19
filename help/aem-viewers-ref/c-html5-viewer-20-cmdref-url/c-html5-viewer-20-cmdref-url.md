@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 5fe3d1eb-28b6-41c9-9116-5b900664cd83
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '62'
+ht-degree: 0%
 
 ---
 
@@ -16,4 +19,4 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 所有檢視器通用的命令參考檔案。
 
-下列命令可透過URL或API或方法 `setParam()` 套 `setParams()` 用。
+下列命令可透過URL或使用API `setParam()`或`setParams()`方法套用。
