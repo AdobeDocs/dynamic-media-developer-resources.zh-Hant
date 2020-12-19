@@ -23,7 +23,7 @@ ht-degree: 1%
 
 安裝影像伺服檢視器前，請先安裝並測試影像伺服。
 
-將IS檢視器檔案複製到硬碟，然後將檔 `s7viewers.war` 案部署至目 `../ImageServing/webapps` 錄。 如需如何部署、啟動、停止和管理影像伺服器的指示，請參閱影像伺服檔案。
+將IS查看器檔案複製到硬碟，然後將`s7viewers.war`檔案部署到`../ImageServing/webapps`目錄。 如需如何部署、啟動、停止和管理影像伺服器的指示，請參閱影像伺服檔案。
 
 >[!NOTE]
 >
@@ -32,7 +32,7 @@ ht-degree: 1%
 **若要將檢視器安裝在同一伺服器上**
 
 1. 將檢視器。war重新命名為所要的內容，並將檔案部署至您想要的位置。
-1. 在中 `this.isViewerRoot` 設定參 `config.js`數。
-1. 開啟 `config.js` 位於新建檢視器資料夾根目錄中。
-1. 將參數 `this.isViewerRoot = "/s7viewers"` 設定為檔案的上 `s7viewers.war` 下文。 例如, `"/s7viewers-4.0"`. 儲存並關閉檔案。
+1. 在`config.js`中設定`this.isViewerRoot`參數。
+1. 開啟位於新建立之檢視器資料夾根目錄的`config.js`。
+1. 將參數`this.isViewerRoot = "/s7viewers"`設定為`s7viewers.war`檔案的上下文。 例如, `"/s7viewers-4.0"`. 儲存並關閉檔案。
 1. 儲存檔案並關閉。
