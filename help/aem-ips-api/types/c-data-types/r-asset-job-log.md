@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 0dd65da1-f358-4d9a-98a2-abfb036347e3
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '122'
+ht-degree: 13%
 
 ---
 
@@ -30,37 +33,37 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> jobHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> jobHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 工作代理。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> jobName</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> jobName</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 工作名稱. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> logMessage</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> logMessage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">作業日誌中的消息。 <p><span class="codeph"> logMessage</span> response欄位會根據authHeader地區 <span class="codeph"> 設定欄位進行本地化</span> 。 </p></td> 
+   <td colname="col3">作業日誌中的消息。 <p><span class="codeph"> logMessageresponse</span> 欄位會根據authHeaderlocale欄位 <span class="codeph"> </span> 進行本地化。 </p></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> logType</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> logType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 日誌條目中的作業類型。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> submitUserEmail</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> submitUserEmail</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 提交工作的使用者電子郵件。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> logDate</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> logDate</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
    <td colname="col3"> 工作日期。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> auxArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> auxArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：JobLogDetailArray</span> </td> 
    <td colname="col3"> 每個作業日誌的輔助作業日誌消息陣列。 </td> 
   </tr> 
