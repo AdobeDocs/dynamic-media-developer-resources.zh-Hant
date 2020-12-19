@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 23da539e-0192-4dc4-a19b-41aa94a82730
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +32,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 屬性 {#section-55779644700b4c808a624cdf5a04447e}
 
-圖層命令。 應用於當前圖層或複合影像（如果） `layer=comp`。 被效果圖層忽略。 在應用操作之前，CMYK影像或圖層將轉換為RGB。
+圖層命令。 如果`layer=comp`，則套用至目前圖層或複合影像。 被效果圖層忽略。 在應用操作之前，CMYK影像或圖層將轉換為RGB。
 
 ## 預設 {#section-7314580251f5456fa1f381ec9e99e0bb}
 
