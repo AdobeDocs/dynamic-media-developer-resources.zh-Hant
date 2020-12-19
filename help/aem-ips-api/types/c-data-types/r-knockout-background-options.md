@@ -8,11 +8,14 @@ topic: Scene7 Image Production System API
 uuid: 1486d646-f42a-4ed4-9450-313950969c39
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# KnowdleBackgroundOptions{#knockoutbackgroundoptions}
+# KnowgleBackgroundOptions{#knockoutbackgroundoptions}
 
 遮色（去除）選取影像的背景。 這可讓您在主題影像外以透明度覆蓋其他圖層。 預設為關閉的可選參數。
 
@@ -30,9 +33,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 轉角</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 角</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">選擇要處理的角。 <span class="codeph"> corner</span> 接受下列值： 
+   <td colname="col3">選擇要處理的角。 <span class="codeph"> </span> corner接受下列值： 
     <ul id="ul_36C2F07706764A7081010D5521BF3096">
      <li id="li_CBACE5C6AA8C48D3BEE033D3AE03AF3C"><span class="codeph"> 左上角</span></li>
      <li id="li_49AC53536B4B4D2CA3DD89E2A2B2E95D"><span class="codeph"> 左下角</span></li>
@@ -41,7 +44,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
     </ul></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 容差</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 容差</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
    <td colname="col3">可選的設定，會根據透明度從影像邊緣移除空白字元。 接受0.0到1.0之間的值範圍。指定： 
     <ul id="ul_FE5423B857AE43FCBA7A9AEA76C754CC">
@@ -50,9 +53,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
     </ul></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 填 <span class="varname"> 滿方法</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> fillMethod</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>在轉角變數所指定的位置控制像素透 <span class="codeph"><span class="varname"> 明度</span></span> 。 fillMethod <span class="codeph"> 接受</span> 下列值： </p> 
+   <td colname="col3"> <p>在<span class="codeph"><span class="varname"> corner</span></span>變數所指定的位置控制像素透明度。 <span class="codeph"> fillMethod</span>接受下列值： </p> 
     <ul id="ul_D95F3B613D344BB89487ED09D83F9217"> 
      <li id="li_3D7B7CA1B9094D16A98E0BA3D962E97F"> <span class="codeph"> FloodFill</span>:將指定角中的所有像素變透明。 </li> 
      <li id="li_F97343C3DA7644BCBD1748AD8F9DCE2E"> <span class="codeph"> MatchPixel</span>:不論位置為何，所有符合的像素都會透明。 </li> 
@@ -76,9 +79,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
     </complexType>
 ```
 
-## 使用者 {#section-28c43baafe85434a9ee9e303ed10569a}
+## 使用者{#section-28c43baafe85434a9ee9e303ed10569a}
 
-該 `KnockoutBackgroundOptions` 類型由：
+`KnockoutBackgroundOptions`類型的使用者：
 
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
 * [UploadPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)
