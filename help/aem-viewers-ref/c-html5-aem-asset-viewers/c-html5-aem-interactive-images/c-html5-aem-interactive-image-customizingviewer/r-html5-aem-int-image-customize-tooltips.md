@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: 4cf5ce32-136e-4612-b550-715d51cef982
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '160'
+ht-degree: 5%
 
 ---
 
 
-# Tooltips{#tooltips}
+# 工具提示{#tooltips}
 
 在案頭系統上，有些使用者介面元素（例如按鈕）會在滑鼠暫留時顯示工具提示。
 
@@ -35,15 +38,15 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 邊框半徑 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 邊框半徑  </span> </p> </td> 
    <td colname="col2"> <p> 背景邊框半徑。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 邊框顏色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 邊框色彩  </span> </p> </td> 
    <td colname="col2"> <p> 背景邊框顏色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景色  </span> </p> </td> 
    <td colname="col2"> <p> 背景顏色. </p> </td> 
   </tr> 
   <tr> 
@@ -51,11 +54,11 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
    <td colname="col2"> <p>文字色彩. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>文字字型名稱. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型大小 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字型大小  </span> </p> </td> 
    <td colname="col2"> <p>文字字型大小。 </p> </td> 
   </tr> 
  </tbody> 
@@ -63,7 +66,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 
 >[!NOTE]
 >
->如果工具提示樣式是從內嵌網頁自訂，所有屬性都必須包含 `!IMPORTANT` 規則。 如果在檢視器的CSS檔案中自訂工具提示，則不需要這個提示。
+>如果工具提示樣式是從內嵌網頁自訂，所有屬性都必須包含`!IMPORTANT`規則。 如果在檢視器的CSS檔案中自訂工具提示，則不需要這個提示。
 
 範例——若要設定工具提示，其中灰色邊框的圓角半徑為3像素、黑色背景和Arial中的白色文字，大小為11像素：
 
