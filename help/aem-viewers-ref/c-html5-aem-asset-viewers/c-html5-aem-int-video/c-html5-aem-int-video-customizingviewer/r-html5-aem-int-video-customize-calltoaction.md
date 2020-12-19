@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 04a042d8-7329-4f1d-b3b9-312d620b1f29
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '1298'
+ht-degree: 3%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-此面板由顯示視訊標題的標題區域、右上角的重播按鈕，以及以可捲動格點顯示的實際互動色票組成。 您可以使用callToActionRecap配置屬 [性來停用面板](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-calltoactionrecap.md#reference-3720b68800684ddabf523e9d81644ce6) 。
+此面板由顯示視訊標題的標題區域、右上角的重播按鈕，以及以可捲動格點顯示的實際互動色票組成。 您可以使用[callToActionRecap](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-calltoactionrecap.md#reference-3720b68800684ddabf523e9d81644ce6)組態屬性來停用面板。
 
 「動作呼叫」面板一律會佔用整個可用檢視器區域。
 
@@ -30,12 +33,12 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 .s7interactivevideoviewer .s7calltoaction
 ```
 
-## 動作面板的背景顏色CSS屬性 {#css-properties-of-the-background-color-of-the-call-to-action-panel}
+## 動作面板{#css-properties-of-the-background-color-of-the-call-to-action-panel}之呼叫背景顏色的CSS屬性
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景色  </span> </p> </td> 
    <td colname="col2"> <p> 動作面板的背景顏色。 </p> </td> 
   </tr> 
  </tbody> 
@@ -59,12 +62,12 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 .s7interactivevideoviewer .s7calltoaction .s7header
 ```
 
-## 動作面板標題的呼叫CSS屬性 {#css-properties-of-the-call-to-action-panel-header}
+## 動作面板標題{#css-properties-of-the-call-to-action-panel-header}的呼叫CSS屬性
 
 <table id="table_DAA1770AB3074845B5E1B700CD6FC18A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景色  </span> </p> </td> 
    <td colname="col2"> <p>標題的背景顏色。 </p> </td> 
   </tr> 
   <tr> 
@@ -72,7 +75,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
    <td colname="col2"> <p>頁首高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 邊框底部 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 邊框底部  </span> </p> </td> 
    <td colname="col2"> <p>頁首底部邊框。 </p> </td> 
   </tr> 
  </tbody> 
@@ -98,7 +101,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 .s7interactivevideoviewer .s7calltoaction .s7header .s7title
 ```
 
-## 動作面板中標題標題的CSS屬性：  {#css-properties-of-the-header-title-in-the-call-to-action-panel}
+## 動作面板中標題標題的CSS屬性： {#css-properties-of-the-header-title-in-the-call-to-action-panel}
 
 <table id="table_A5E36A5C4C664346B6DAE9A02B36C3D2"> 
  <tbody> 
@@ -107,27 +110,27 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
    <td colname="col2"> <p> 橫幅內的文字顏色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型大小 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字型大小  </span> </p> </td> 
    <td colname="col2"> <p>字型大小. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 線高 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 線高  </span> </p> </td> 
    <td colname="col2"> <p>行高。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p> 字型系列。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> text-align </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> text-align  </span> </p> </td> 
    <td colname="col2"> <p>橫幅中的文字對齊方式。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 左邊距 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 左邊距  </span> </p> </td> 
    <td colname="col2"> <p>左填補。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 右邊填充 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 右邊填充  </span> </p> </td> 
    <td colname="col2"> <p> 右邊距可允許重放按鈕的空間。 </p> </td> 
   </tr> 
  </tbody> 
@@ -154,7 +157,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 .s7interactivevideoviewer .s7calltoaction .s7closebutton
 ```
 
-## 「動作呼叫」面板中關閉按鈕的CSS屬性： {#css-properties-of-the-close-button-in-the-call-to-action-panel}
+## 「動作呼叫」面板中關閉按鈕的CSS屬性：{#css-properties-of-the-close-button-in-the-call-to-action-panel}
 
 <table id="table_CB0BCBE70DB447BC8D31034A96308924"> 
  <tbody> 
@@ -171,23 +174,23 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
    <td colname="col2"> <p>按鈕寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
    <td colname="col2"> <p> 按鈕高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景影像 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景影像  </span> </p> </td> 
    <td colname="col2"> <p>顯示給定按鈕狀態的影像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
-   <td colname="col2"> <p>如果使用CSS精靈，請放在圖稿精靈內。 </p> <p>請參 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> 閱CSS精靈 </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
+   <td colname="col2"> <p>如果使用CSS精靈，請放在圖稿精靈內。 </p> <p>請參閱<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS精靈</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按鈕支援屬 `state` 性選擇器，可用來將不同的外觀套用至不同的按鈕狀態。
+>此按鈕支援`state`屬性選擇器，可用來將不同的外觀套用至不同的按鈕狀態。
 
 ## 範例 {#example-3}
 
@@ -226,12 +229,12 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview
 ```
 
-## 動作面板中縮圖格點檢視的CSS屬性：  {#css-properties-of-the-thumbnail-grid-view-in-the-call-to-action-panel}
+## 動作面板中縮圖格點檢視的CSS屬性： {#css-properties-of-the-thumbnail-grid-view-in-the-call-to-action-panel}
 
 <table id="table_A0DDD21C84944D48A639F51FCC8DF065"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景色  </span> </p> </td> 
    <td colname="col2"> <p>縮圖區域的背景顏色。 </p> </td> 
   </tr> 
  </tbody> 
@@ -255,13 +258,13 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 .s7interactivevideoviewer .s7calltoaction .s7thumbcell
 ```
 
-## 動作面板中縮圖儲存格的CSS屬性： {#css-properties-of-the-thumbcell-in-the-call-to-action-panel}
+## 動作面板中縮圖儲存格的CSS屬性：{#css-properties-of-the-thumbcell-in-the-call-to-action-panel}
 
 <table id="table_9CEBEF6FC7024F02840A581AEEF612B4"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> 每個縮圖周圍的水準和垂直邊界大小。 </p> <p>實際水準縮圖間距等於。s7縮圖儲存格左右邊界集 <span class="codeph"> 的總和 </span>。 同樣的規則也適用，但適用於垂直間距。 </p> </td> 
+   <td colname="col2"> <p> 每個縮圖周圍的水準和垂直邊界大小。 </p> <p>實際水準縮圖間距等於<span class="codeph"> .s7thumbcell </span>左右邊界集的總和。 同樣的規則也適用，但適用於垂直間距。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -287,16 +290,16 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 .s7interactivevideoviewer .s7calltoaction .s7thumb
 ```
 
-## 動作面板中縮圖的CSS屬性： {#css-properties-of-the-thumbnail-in-the-call-to-action-panel}
+## 動作面板中縮圖的CSS屬性：{#css-properties-of-the-thumbnail-in-the-call-to-action-panel}
 
 <table id="table_ECD7477F4BE94BA8943210FA8B6B8D01"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 寬度  </span> </p> </td> 
    <td colname="col2"> <p>縮圖寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
    <td colname="col2"> <p>縮圖的高度。 </p> </td> 
   </tr> 
   <tr> 
@@ -308,7 +311,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 
 >[!NOTE]
 >
->縮圖支援 `state` 屬性選擇器，可用來將不同外觀套用至不同的縮圖狀態。 尤其是， `state="selected"` 對應於目前選取的影像縮圖；對 `state="default"` 應其餘縮圖；在滑 `state="over"` 鼠暫留時使用。
+>縮圖支援`state`屬性選擇器，可用來將不同的外觀套用至不同的縮圖狀態。 尤其是，`state="selected"`對應於目前選取之影像的縮圖；`state="default"`對應其餘縮圖；`state="over"`用於滑鼠暫留。
 
 ## 範例 {#example-6}
 
@@ -329,24 +332,24 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 .s7interactivevideoviewer .s7calltoaction .s7label
 ```
 
-## 動作面板中縮表徵圖簽的CSS屬性： {#css-properties-of-the-thumbnail-label-in-the-call-to-action-panel}
+## 動作面板中縮表徵圖簽的CSS屬性：{#css-properties-of-the-thumbnail-label-in-the-call-to-action-panel}
 
 <table id="table_E2C9F21EBD9140FD9D20A4BBAD117E2F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 顏色  </span> </p> </td> 
    <td colname="col2"> <p> 標籤的文字顏色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> text-align </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> text-align  </span> </p> </td> 
    <td colname="col2"> <p>標籤的水準對齊。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>字型名稱。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型大小 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字型大小  </span> </p> </td> 
    <td colname="col2"> <p>字型系列。 </p> </td> 
   </tr> 
  </tbody> 
@@ -375,12 +378,12 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview .s7scrollbar
 ```
 
-## 動作面板中捲軸區域的CSS屬性： {#css-properties-of-the-scroll-bar-area-in-the-call-to-action-panel}
+## 動作面板中捲軸區域的CSS屬性：{#css-properties-of-the-scroll-bar-area-in-the-call-to-action-panel}
 
 <table id="table_6D3A4A68BFDB44259A6E2E632B9195F3"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 寬度  </span> </p> </td> 
    <td colname="col2"> <p> 捲軸寬度。 </p> </td> 
   </tr> 
   <tr> 
@@ -421,16 +424,16 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview .s7scrollbar .s7scrolltrack
 ```
 
-## 捲動追蹤列的CSS屬性 {#css-properties-of-the-scroll-track-bar}
+## 捲動追蹤列{#css-properties-of-the-scroll-track-bar}的CSS屬性
 
 <table id="table_7A7D40C332F4461FAAC623196C00D5A8"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 寬度  </span> </p> </td> 
    <td colname="col2"> <p>捲動軌道欄的寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景色  </span> </p> </td> 
    <td colname="col2"> <p>軌道欄的背景顏色。 </p> </td> 
   </tr> 
  </tbody> 
@@ -457,48 +460,48 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview .s7scrollbar .s7scrollthumb
 ```
 
-## 動作面板中縮圖高度的CSS屬性： {#css-properties-of-the-thumb-height-in-the-call-to-action-panel}
+## 動作面板中縮圖高度的CSS屬性：{#css-properties-of-the-thumb-height-in-the-call-to-action-panel}
 
 <table id="table_1F39948FC3924FA4B7F851B65B2D860B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 寬度  </span> </p> </td> 
    <td colname="col2"> <p>拇指寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
    <td colname="col2"> <p>拇指高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 填充頂部 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 填充頂部  </span> </p> </td> 
    <td colname="col2"> <p>在軌道頂部之間垂直填充。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 填充底部 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 填充底部  </span> </p> </td> 
    <td colname="col2"> <p>在軌道底部之間垂直填充。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 邊框半徑 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 邊框半徑  </span> </p> </td> 
    <td colname="col2"> <p>邊框半徑。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景色  </span> </p> </td> 
    <td colname="col2"> <p>拇指顏色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景影像 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景影像  </span> </p> </td> 
    <td colname="col2"> <p> 顯示給定拇指狀態的影像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS精靈，請放在圖稿精靈內。 </p> <p>請參 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> 閱CSS精靈 </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS精靈，請放在圖稿精靈內。 </p> <p>請參閱<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS精靈</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Thumb支援屬 `state` 性選擇器，可用來將不同的外觀套用至下列不同的Thumb狀態： `"up"`、 `"down"``"over"`和 `"disabled"`。
+>Thumb支援`state`屬性選擇器，可用來將不同的外觀套用至下列不同的Thumb狀態：`"up"`、`"down"`、`"over"`和`"disabled"`。
 
 ## 範例 {#example-10}
 
@@ -526,34 +529,34 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 
 使用CSS的上、左、下或右屬性無法定位捲動按鈕；檢視器邏輯會自動定位。 互動式視訊檢視器中的「動作」面板不會使用捲軸中的這些按鈕，因此在預設CSS中，這些按鈕的大小會設為0像素。
 
-## 動作面板中頂端和底部捲動按鈕的CSS屬性：  {#css-properties-of-the-top-and-bottom-scroll-buttons-in-the-call-to-action-panel}
+## 動作面板中頂端和底部捲動按鈕的CSS屬性： {#css-properties-of-the-top-and-bottom-scroll-buttons-in-the-call-to-action-panel}
 
 <table id="table_FE17D19E0545424EADB0256524361359"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 寬度  </span> </p> </td> 
    <td colname="col2"> <p> 按鈕寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
    <td colname="col2"> <p>按鈕高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景影像 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景影像  </span> </p> </td> 
    <td colname="col2"> <p>顯示給定按鈕狀態的影像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS精靈，請放在圖稿精靈內。 </p> <p>請參 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> 閱CSS精靈 </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS精靈，請放在圖稿精靈內。 </p> <p>請參閱<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS精靈</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->這些按鈕支 `state` 援屬性選擇器，可用來將不同的外觀套用至下列不同的縮圖狀態： `"up"`、 `"down"``"over"`和 `"disabled"`。
+>這些按鈕支援`state`屬性選擇器，可用來將不同的外觀套用至下列不同的拇指狀態：`"up"`、`"down"`、`"over"`和`"disabled"`。
 
-按鈕工具提示可以本地化。 請參 [閱使用者介面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)。
+按鈕工具提示可以本地化。 請參閱[使用者介面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)。
 
 ## 範例 {#example-11}
 
