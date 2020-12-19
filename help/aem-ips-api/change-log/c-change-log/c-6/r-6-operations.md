@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: e36f0d5c-0170-4a65-9347-c7fd3538726b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 語法
 
-## 新操作 {#section-088502a0746945f28a5ea100cd655bc6}
+## 新操作{#section-088502a0746945f28a5ea100cd655bc6}
 
 * `batchGetAssetPublishContexts`
 * `getPublishContexts`
@@ -27,27 +30,29 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 * `updateAssetSet`
 * `updateImageSet`
 
-## 修改的操作 {#section-f4e8755527444266ae806e3f4c851ae6}
+## 修改的操作{#section-f4e8755527444266ae806e3f4c851ae6}
 
 **已新增**
 
-* 新增 `isHidden` 及 `initialTagValue` 至：
+* 將`isHidden`和`initialTagValue`新增至：
 
    * `saveMetadataField`
    * ` `updateMetadataField&quot;
    * `createMetadataField`
 
-* 已新 `thumbAssetHandle` 增至：
+* 將`thumbAssetHandle`新增至：
 
    * `createImageSet`
    * `createAssetSet`
-   已新 `companyHandle` 增至：
+
+   將`companyHandle`新增至：
 
    * `getViewerConfigSettings`
    * `setViewerConfigSettings`
    * `updateViewerConfigSettings`
    * `getSearchStrings`
-   已新 `contextHandle` 增至：
+
+   將`contextHandle`新增至：
 
    * `getImageServingPublishSettings`
    * `getImageRenderingPublishSettings`
@@ -61,28 +66,28 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
    * `getUsers`.
    * `getUserChars`.
 
-* 已新 `permissionArray` 增至 `createPropertySet`。
+* 已將`permissionArray`新增至`createPropertySet`。
 
-* 已新 `exportJob` 增至 `submitJob`。
+* 已將`exportJob`新增至`submitJob`。
 
 **將**
 
-* 在 `addUser` 和 `setUser`中， `role` 更改為 `defaultRole`。
+* 在`addUser`和`setUser`中，將`role`變更為`defaultRole`。
 
-* 在中 `getCompanyMembers`，已變 `userArray` 更為 `memberArray`。
+* 在`getCompanyMembers`中，將`userArray`變更為`memberArray`。
 
-* 在中 `getCompanyMembership`，已變 `companyArray` 更為 `membershipArray`。
+* 在`getCompanyMembership`中，將`companyArray`變更為`membershipArray`。
 
-* In `addUser`、 `setCompanyMembership`和 `addCompanyMembership`，已變 `membershipArray` 更為 `companyHandleArray`。
+* 在`addUser`、`setCompanyMembership`和`addCompanyMembership`中，將`membershipArray`變更為`companyHandleArray`。
 
-* 在中 `getCompanyMembership`，已變 `companyArray` 更為 `membershipArray`。
+* 在`getCompanyMembership`中，將`companyArray`變更為`membershipArray`。
 
-* 在中 `getUserChars`, `includeInvalid` 現在是可選的。
+* 在`getUserChars`中，`includeInvalid`現在是可選的。
 
 **已移除**
 
-* 已從 `renameFiles` 移除 `renameAsset`。
+* 已從`renameAsset`移除`renameFiles`。
 
 * 已移除 `getXMPPanelViewDefinition`.
-* 已移 `searchAssetsByFulltext` 除 `searchAssetsBySimilarity`。
+* 已移除`searchAssetsByFulltext`和`searchAssetsBySimilarity`。
 
