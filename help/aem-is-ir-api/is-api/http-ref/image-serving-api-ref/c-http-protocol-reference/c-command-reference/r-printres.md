@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 1a62611a-b3b9-4f20-834f-e34e75d33ddd
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +28,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </tr> 
 </table>
 
-打印解析度通常由在目錄條 `catalog::PrintResolution` 目的情況下定義，否則由嵌入在源影像中的打印解析度值定義。 對於模板或分層複合影像，響應檔案中嵌入的預設打印解析度是具有最低圖層編號的圖層影像的打印解析度。
+打印解析度通常由`catalog::PrintResolution`定義，如果是目錄條目，則由&lt;a0/>定義，否則由嵌入在源影像中的打印解析度值定義。 對於模板或分層複合影像，在響應檔案中嵌入的預設打印解析度是具有最低圖層編號的圖層影像的打印解析度。
 
 設定列印解析度並不會變更回覆影像的像素大小。
 
