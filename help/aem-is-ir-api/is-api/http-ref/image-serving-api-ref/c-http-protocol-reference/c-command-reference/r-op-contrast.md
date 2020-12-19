@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: d17b0b49-792b-41ce-a154-5e7635c9ab43
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '165'
+ht-degree: 1%
 
 ---
 
@@ -27,15 +30,15 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 屬性 {#section-d319ed55057344eab0a3c93f720acdbf}
 
-圖層命令。 應用於當前圖層或複合影像（如果） `layer=comp`。 被效果圖層忽略。
+圖層命令。 如果`layer=comp`，則套用至目前圖層或複合影像。 被效果圖層忽略。
 
 ## 預設 {#section-896d1b1f7f084e929355a4684f3e833b}
 
-`op_contrast=0`，而不會改變對比。 在應用操作之前，CMYK影像或圖層將轉換為RGB。
+`op_contrast=0`，而不會改變對比。在應用操作之前，CMYK影像或圖層將轉換為RGB。
 
 ## 範例 {#section-94bc4348b4bc4f0e9768ea1c45ca8340}
 
-降低高品質影像圖層的對比度和清晰度，以視覺化方式將它與低品質的背景像片比對：
+降低高品質影像圖層的對比度和清晰度，以視覺化方式將它與低品質背景像片比對：
 
 … `&op_blur=3&op_contrast=-12&`
 
