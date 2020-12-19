@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 0d15c07f-5545-42bb-a793-b6c77e7a1b7b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '136'
+ht-degree: 13%
 
 ---
 
@@ -32,8 +35,8 @@ MediaPortal事件。
 | ` *`string1`*` | `xsd:string` | 字串資訊的保持器（選用）。 |
 | ` *`string2`*` | `xsd:string` | 字串資訊的保持器（選用）。 |
 | ` *`string3`*` | `xsd:string` | 字串資訊的保持器（選用）。 |
-| ` *`string4`*` | `xsd:string` | 字串資訊的保持器（選用）。 |
-| ` *`string5`*` | `xsd:string` | 字串資訊的保持器（選用）。 |
+| ` *`字串4`*` | `xsd:string` | 字串資訊的保持器（選用）。 |
+| ` *`字串5`*` | `xsd:string` | 字串資訊的保持器（選用）。 |
 | ` *`int1`*` | `xsd:int` | 整數資訊的保持器（可選）。 |
 | ` *`int2`*` | `xsd:int` | 整數資訊的保持器（可選）。 |
 | ` *`int3`*` | `xsd:int` | 整數資訊的保持器（可選）。 |
