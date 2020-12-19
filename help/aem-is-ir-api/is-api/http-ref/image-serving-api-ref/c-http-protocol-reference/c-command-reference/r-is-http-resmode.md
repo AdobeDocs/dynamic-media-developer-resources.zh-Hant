@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 8e12aa06-072c-4e7a-84e6-01437c43c57b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,19 +24,19 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_FD658AC521E24EB9ADBB87F98549BC3B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bilin </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bilin  </span> </p> </td> 
    <td colname="col2"> <p>選擇標準雙線性插值。 最快速的重新取樣方法；可能會有某些明顯的鋸齒狀不自然感。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bicub </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bicub  </span> </p> </td> 
    <td colname="col2"> <p>選擇雙三次插值。 比雙線性插值耗用的CPU資源更多，但會產生更銳利的影像，而且鋸齒不自然現象也更少。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> sharp2 </span> </p> </td> 
-   <td colname="col2"> <p>選擇修改的Lanczos窗口函式作為插值算法。 產生的結果可能會比雙立方式稍微銳利一些，但是會耗用較高的 CPU 成本。<span class="codeph"> sharp已 </span> 由sharp2取代， <span class="codeph"> sharp2 </span>造成鋸齒偽影的可能性較小(Moiré)。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> sharp2  </span> </p> </td> 
+   <td colname="col2"> <p>選擇修改的Lanczos窗口函式作為插值算法。 產生的結果可能會比雙立方式稍微銳利一些，但是會耗用較高的 CPU 成本。<span class="codeph"> sharp已 </span> 由sharp2取代， <span class="codeph"> 其造成鋸齒偽影的可能性 </span>較低(Moiré)。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 比沙爾普 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 比沙爾普  </span> </p> </td> 
    <td colname="col2"> <p>選擇Photoshop預設重新取樣器，以減少Adobe Photoshop中稱為「雙立方體銳利化」的影像大小。 </p> </td> 
   </tr> 
  </tbody> 
