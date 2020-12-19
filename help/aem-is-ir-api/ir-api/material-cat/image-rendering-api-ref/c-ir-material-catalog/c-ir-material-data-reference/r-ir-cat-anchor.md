@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 0b1a0fea-b299-44dc-b9fd-5916130b2ef3
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '176'
+ht-degree: 3%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 屬性 {#section-bc4bc8b897c64535b88681e57d72942f}
 
-兩個整數，以逗號分隔。 相對於影像的左上角像素偏移。 如果和由 `catalog::Alignment=3` 純色和機櫃材料忽略。
+兩個整數，以逗號分隔。 相對於影像的左上角像素偏移。 如果`catalog::Alignment=3`和由純色和機櫃材料忽略。
 
 ## 預設 {#section-b7ccc419a356415294706cd295ae96c9}
 
