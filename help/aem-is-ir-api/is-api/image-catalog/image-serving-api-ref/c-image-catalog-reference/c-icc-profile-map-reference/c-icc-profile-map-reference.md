@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: eee1e8d5-cf16-4e73-9b44-4ec032cf3553
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# ICC描述檔地圖參考{#icc-profile-map-reference}
+# ICC配置式映射參考{#icc-profile-map-reference}
 
 如果映像目錄需要ICC配置檔案映射，則必須在屬性：:IccProfileMapFile中指定配置檔案映射檔案的相對或絕對路徑。
 
