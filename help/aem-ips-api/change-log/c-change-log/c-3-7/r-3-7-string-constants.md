@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 5172190d-514f-4197-b8df-abb530d85d7a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '56'
+ht-degree: 7%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 語法
 
-## 新常數 {#section-2aef3a41d8274756ad5af4b2349edaae}
+## 新常數{#section-2aef3a41d8274756ad5af4b2349edaae}
 
 * `Job Types`
 * `Active Job States`
@@ -34,7 +37,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 * `Job Log Sort Fields`
 * `Email settings`
 
-## 修改的常數 {#section-559927ae41e64ac285ac3d907ce3afb6}
+## 修改的常數{#section-559927ae41e64ac285ac3d907ce3afb6}
 
 **資產類型**
 
