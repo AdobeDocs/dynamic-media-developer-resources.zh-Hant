@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 90237128-8d29-45cc-90e8-7fe46c1dae38
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,6 +26,6 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </tr> 
 </table>
 
-透過URL `markOverflowingTextFrames=1` 呼叫設定修飾元，會標示文字溢排為加號的所有文字框。 此外，在SPS預覽器中，文字溢排指示器預設會 `TRUE`設為&quot;&quot;。
+透過URL呼叫設定修飾元`markOverflowingTextFrames=1`，會標示文字溢排為加號的所有文字框。 此外，在SPS預覽器中，文字溢排指示器預設會設為&quot; `TRUE`&quot;。
 
 預設為 0。
