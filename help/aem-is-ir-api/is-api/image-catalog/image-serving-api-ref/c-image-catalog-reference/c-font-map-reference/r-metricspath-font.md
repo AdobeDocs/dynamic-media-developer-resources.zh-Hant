@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: b59110bf-330f-4ca4-8b0a-219a61d383f7
 translation-type: tm+mt
 source-git-commit: b4331c6f033903ec64f168da0b739927c6066710
+workflow-type: tm+mt
+source-wordcount: '123'
+ht-degree: 4%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: b4331c6f033903ec64f168da0b739927c6066710
 
 ## 屬性 {#section-955268c581574875b05253d9e14544f3}
 
-文字字串。 Adobe Type 1檔案可選。 必須是空的或有效的映像伺服器檔案路徑（絕對或相對） `attribute::RootPath`。
+文字字串。 Adobe Type 1檔案可選。 必須為空或有效的映像伺服器檔案路徑，絕對或相對於`attribute::RootPath`。
 
 ## 預設 {#section-a6ffbd6879c642caa5a2fd4ed14a3a85}
 
