@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: d19ed1c8-e13b-4da4-90e3-6bb0dcce2a12
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '85'
+ht-degree: 1%
 
 ---
 
@@ -29,7 +32,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 退貨：
 
-在收到刪除請求時的作業狀態，如果無效或作業 `jobid` 已刪除，則出錯。
+在收到刪除請求時的作業狀態，如果`jobid`無效或作業已刪除，則出錯。
 
 ## 範例 {#section-e0df8fc8e6554ba58e1fa937b8241ecf}
 
