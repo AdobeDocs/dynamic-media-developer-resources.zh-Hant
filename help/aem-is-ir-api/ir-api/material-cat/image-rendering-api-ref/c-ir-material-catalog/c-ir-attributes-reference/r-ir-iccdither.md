@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 4ebd1bf8-eed0-4ff1-b8a0-1295d503fb4e
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 預設 {#section-c9066c361215404d847f4d2c8f1ea3a5}
 
-繼承自 `default::IccDither` （如果未定義或為空）。
+如果未定義或為空，則繼承自`default::IccDither`。
 
 ## 另請參閱 {#section-76a376a1bee74670867b4de81fea65aa}
 
