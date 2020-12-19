@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 748adb73-bfb6-4fce-aa6a-4216184edabb
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
 
 [!DNL `[PageView.|<containerId>_pageView.]pageturnstyle= *``*, *``*, *``*, *``*, *``*, *`biderWidthbiderColordiferOpacityborderOnOffborderColorfillColor`*`]
 
-在案頭系統上將元件 [!DNL `PageView.frametransition`] 設定為或 [!DNL `turn`] 設定為 [!DNL `auto`] 時控制元件外觀。
+在案頭系統上將[!DNL `PageView.frametransition`]設為[!DNL `turn`]或[!DNL `auto`]時，控制元件外觀。
 
 <table id="table_A8CDA1AE2680402A99BCD5DD371B225F"> 
  <tbody> 
@@ -30,11 +33,11 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> 除法器不透明度</span></span> </p> </td> 
-   <td colname="col2"> <p>0到1範圍內的陰影不 <span class="codeph"> 透明</span><span class="codeph"> 度</span>。 </p> </td> 
+   <td colname="col2"> <p>在<span class="codeph"> 0</span>至<span class="codeph"> 1</span>範圍內的陰影不透明度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> borderOnOff</span></span> </p> </td> 
-   <td colname="col2"> <p> 標誌( <span class="codeph"> 0</span> 或 <span class="codeph"> 1</span>)，可開啟和關閉翻頁周圍的邊框。 </p> </td> 
+   <td colname="col2"> <p> 標誌（<span class="codeph"> 0</span>或<span class="codeph"> 1</span>），其開啟和關閉翻頁周圍的邊界。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> borderColor</span></span> </p> </td> 
