@@ -6,8 +6,8 @@ user-guide-title: 動態媒體影像製作系統API
 translation-type: tm+mt
 source-git-commit: 88d3a65852365d7fcd7631ff5b5f7215b7c48618
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 3%
 + [關於動態媒體影像製作系統API](c-overview.md)
 + [不建議使用的呼叫](c-deprecated-calls.md)
 + [IPS Web服務WSDL版本](c-wsdl-versions.md)
-+ 操作方法 {#operation-methods}
++ 操作方法{#operation-methods}
    + [操作方法](operations/c-operations-intro/c-operations-intro.md)
-   + 操作參數 {#operation-parameters}
+   + 操作參數{#operation-parameters}
       + [操作參數概述](operations/c-operations-intro/c-methods/c-methods.md)
       + [addCompany](operations/c-operations-intro/c-methods/r-add-company.md)
       + [addCompanyMembership](operations/c-operations-intro/c-methods/r-add-company-membership.md)
@@ -178,7 +178,7 @@ ht-degree: 3%
       + [updateViewerConfigSettings](operations/c-operations-intro/c-methods/r-update-viewer-config-settings.md)
       + [updateVignettePublishFormat](operations/c-operations-intro/c-methods/r-update-vignette-publish-format.md)
       + [updateXMPPacket](operations/c-operations-intro/c-methods/r-update-xmp-packet.md)
-+ Data types {#data-types}
++ 資料類型{#data-types}
    + [資料類型](types/c-data-types/c-data-types.md)
    + [AcoInfo](types/c-data-types/r-aco-info.md)
    + [ActiveJob](types/c-data-types/r-active-job.md)
@@ -400,7 +400,7 @@ ht-degree: 3%
    + [ZoomTargetArray](types/c-data-types/r-zoom-target-array.md)
    + [ZoomTargetDefinition](types/c-data-types/r-zoom-target-definition.md)
    + [ZoomTargetDefinitionArray](types/c-data-types/r-zoom-target-definition-array.md)
-+ 字串常數 {#sting-constants}
++ 字串常數{#sting-constants}
    + [字串常數](string-constants/c-string-constants/c-string-constants.md)
    + [作業狀態](string-constants/c-string-constants/r-active-job-states.md)
    + [資產搜尋系統欄位](string-constants/c-string-constants/r-asset-search-system-fields.md)
@@ -441,41 +441,41 @@ ht-degree: 3%
    + [用戶角色](string-constants/c-string-constants/r-user-roles.md)
    + [用戶排序欄位](string-constants/c-string-constants/r-user-sort-fields.md)
    + [檢視器類型](string-constants/c-string-constants/r-viewer-type.md)
-+ 故障 {#faults}
-   + [Faults overview](faults/c-faults/c-faults.md)
++ 故障{#faults}
+   + [故障概述](faults/c-faults/c-faults.md)
    + [authenticationFault](faults/c-faults/r-authentication-fault.md)
    + [authorizationFault](faults/c-faults/r-authorization-fault.md)
    + [ipsApiFault](faults/c-faults/r-ips-api-fault.md)
-+ Change log {#change-log}
++ 更改日誌{#change-log}
    + [變更記錄](change-log/c-change-log.md)
-   + Version 6.0 {#version-6-0}
+   + 6.0版{#version-6-0}
       + [6.0版](change-log/c-change-log/c-6/c-6.md)
-      + [手動：新增和修改](change-log/c-change-log/c-6/r-6-operations.md)
+      + [操作：新增和修改](change-log/c-change-log/c-6/r-6-operations.md)
       + [資料類型：新增和修改](change-log/c-change-log/c-6/r-6-types.md)
-   + Version 4.5 {#version-4-5}
+   + 4.5版{#version-4-5}
       + [4.5版](change-log/c-change-log/c-4-5/c-4-5.md)
       + [操作：新增和修改](change-log/c-change-log/c-4-5/r-4-5-operations.md)
       + [資料類型：新增和修改](change-log/c-change-log/c-4-5/r-4-5-types.md)
       + [限制使用](change-log/c-change-log/c-4-5/r-restricted-use.md)
-   + Version 4.4 {#version-4-4}
+   + 4.4版{#version-4-4}
       + [4.4版](change-log/c-change-log/c-4-4/c-4-4.md)
-      + [:新增和修改](change-log/c-change-log/c-4-4/r-4-4-operations.md)
+      + [操作：新增和修改](change-log/c-change-log/c-4-4/r-4-4-operations.md)
       + [資料類型：新增和修改](change-log/c-change-log/c-4-4/r-4-4-types.md)
       + [字串常數：新增和修改](change-log/c-change-log/c-4-4/r-4-4-string-constants.md)
-   + Version 4.2 {#version-4-2}
+   + 版本4.2 {#version-4-2}
       + [4.2版](change-log/c-change-log/c-4-2/c-4-2.md)
       + [資料類型：新增和修改](change-log/c-change-log/c-4-2/r-4-2-types.md)
-   + Version 4.0 {#version-4-0}
+   + 4.0版{#version-4-0}
       + [4.0版](change-log/c-change-log/c-4-0/c-4-0.md)
       + [新增和變更](change-log/c-change-log/c-4-0/r-4-0-new.md)
-   + Version 3.8 {#version-3-8}
+   + 3.8版{#version-3-8}
       + [第3.8版](change-log/c-change-log/c-3-8/c-3-8.md)
       + [操作：新增和修改](change-log/c-change-log/c-3-8/r-3-8-operations.md)
       + [資料類型：新增和修改](change-log/c-change-log/c-3-8/r-3-8-types.md)
       + [字串常數：新增和修改](change-log/c-change-log/c-3-8/r-3-8-string-constants.md)
-   + Version 3.7 {#version-3-7}
+   + 3.7版{#version-3-7}
       + [第3.7版](change-log/c-change-log/c-3-7/c-3-7.md)
-      + [Operations:新增和修改](change-log/c-change-log/c-3-7/r-3-7-operations.md)
+      + [操作：新增和修改](change-log/c-change-log/c-3-7/r-3-7-operations.md)
       + [資料類型：新增和修改](change-log/c-change-log/c-3-7/r-3-7-types.md)
       + [字串常數：新增和修改](change-log/c-change-log/c-3-7/r-3-7-string-constants.md)
 + [透過HTTP POST上傳資產至UploadFile...](c-http-post.md)
