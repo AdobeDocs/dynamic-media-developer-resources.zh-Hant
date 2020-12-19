@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 56190b1e-c69a-4296-8e91-adbce0801401
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '59'
+ht-degree: 6%
 
 ---
 
@@ -19,8 +22,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_B4B930A32C0742F4932BF071B9EEA9F4"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> auto|left|right </span> </p> </td> 
-   <td> <p> 指定在視圖中填色色色票的方式。 </p> <p> <span class="codeph"> 左 </span> 側設定由左到右填充順序； </p> <p> <span class="codeph"> 右 </span> 側反轉順序，以從右到左和從上到下填入視圖。 </p> <p>設 <span class="codeph"> 置自 </span> 動時，當語言環境設定為ja時，元件應用正 <span class="codeph"> 確模式 </span><span class="codeph"></span>;否則，將使用left。 </p> </td> 
+   <td> <p> <span class="codeph"> auto|left|right  </span> </p> </td> 
+   <td> <p> 指定在視圖中填色色色票的方式。 </p> <p> <span class="codeph"> 左 </span> 側設定由左至右的填色順序； </p> <p> <span class="codeph"> 右 </span> 側反轉順序，以從右到左和從上到下填入視圖。 </p> <p>當設定<span class="codeph"> auto </span>時，當語言環境設定為<span class="codeph"> ja </span>時，元件將應用<span class="codeph"> right </span>模式；否則，將使用left。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
