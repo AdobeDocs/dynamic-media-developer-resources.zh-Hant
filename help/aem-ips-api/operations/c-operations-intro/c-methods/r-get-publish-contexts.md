@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 7eb90f2c-2bfc-4d61-8a24-831964ed9182
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '87'
+ht-degree: 24%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 語法
 
-## 授權使用者類型 {#section-1a3a50349b5640dd8e498ff9e9c37340}
+## 授權用戶類型{#section-1a3a50349b5640dd8e498ff9e9c37340}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -32,6 +35,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 >
 >* 使用者必須擁有讀取存取權才能傳回資產。
 >* 所有使用者皆可存取共用公司。
+
 >
 
 
@@ -51,13 +55,13 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 公 <span class="varname"> 司控制</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 為公司負責。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> contextType <span class="varname"></span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> contextType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4">您要傳回的發佈內容類型。 包括： 
