@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 859bebf2-5ee7-4daa-8970-a18bddcee684
 translation-type: tm+mt
 source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
+workflow-type: tm+mt
+source-wordcount: '131'
+ht-degree: 3%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
 
 源資料根路徑。 此映像目錄源資料的根資料夾的絕對或相對路徑。
 
-是 `RootPath` 一個文本字串值。 如需 [伺服器根路徑的詳細資訊](../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-managing-content/r-source-data.md#reference-4eebd51b2db2401c90be771d3382329e) ，請參閱管理來源資料。
+`RootPath`是文字字串值。 有關伺服器根路徑的其他資訊，請參見[管理源資料](../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-managing-content/r-source-data.md#reference-4eebd51b2db2401c90be771d3382329e)。
 
 ## 屬性 {#section-b41d7e0ea63143eb8034569706cad0c0}
 
@@ -24,8 +27,8 @@ source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
 
 ## 預設 {#section-7d66ff9a3d7a4e3b834769269cb01f4f}
 
-繼承自( `default::RootPath` 如果未定義)。 如果已定義但為空，則不會對源檔案根路徑貢獻。
+如果未定義，則繼承自`default::RootPath`。 如果已定義但為空，則不會對源檔案根路徑貢獻。
 
 ## 另請參閱 {#section-6bf4ffc4987843a9a2dbe81b43076437}
 
-[目錄：:Path](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-path-cat.md) , [目錄：:MaskPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-maskpath-cat.md)，規 [則集：PathRule](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/c-rule-set-reference.md#concept-3e5058cf3507470b82cac638df23ea8e)，管 [理源資料](../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-managing-content/r-source-data.md#reference-4eebd51b2db2401c90be771d3382329e)
+[目錄：:Path](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-path-cat.md) ，目 [錄：:MaskPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-maskpath-cat.md)，規  [則集：PathRule](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/c-rule-set-reference.md#concept-3e5058cf3507470b82cac638df23ea8e)，管 [理源資料](../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-managing-content/r-source-data.md#reference-4eebd51b2db2401c90be771d3382329e)
