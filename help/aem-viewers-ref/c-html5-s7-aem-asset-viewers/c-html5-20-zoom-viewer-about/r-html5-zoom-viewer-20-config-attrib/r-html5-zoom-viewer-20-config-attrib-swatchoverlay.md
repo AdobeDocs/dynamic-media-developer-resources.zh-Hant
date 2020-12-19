@@ -8,19 +8,22 @@ topic: Dynamic media
 uuid: 60419120-effc-4895-8bb1-7e4b70a67c5b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '62'
+ht-degree: 8%
 
 ---
 
 
-# 交換覆蓋{#swatchoverlay}
+# swatchoverlay{#swatchoverlay}
 
 `swatchoverlay=0|1`
 
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
-   <td colname="col2"> <p>指定可觸控裝置上的檢視器版面。 當參數設為 <span class="codeph"> 1時， </span>檢視器會在案頭主檢視下方顯示色票；在可觸控的裝置上，色票會在主檢視上方覆蓋。 </p> <p>當參數設為 <span class="codeph"> 0 </span>時，所有裝置類型的色票會呈現在主檢視下方。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0-1  </span> </p> </td> 
+   <td colname="col2"> <p>指定可觸控裝置上的檢視器版面。 當參數設為<span class="codeph"> 1 </span>時，檢視器會在案頭主檢視下方顯示色票；在可觸控的裝置上，色票會在主檢視上方覆蓋。 </p> <p>當參數設為<span class="codeph"> 0 </span>時，所有裝置類型的色票會呈現在主檢視下方。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
