@@ -15,13 +15,13 @@ ht-degree: 0%
 ---
 
 
-# Scene7 2016年秋季發行{#scene-fall-release}
+# Scene7 Fall 2016 Release{#scene-fall-release}
 
 Adobe Scene7 2016年秋季版本的最新發行說明，是Adobe Marketing Cloud中Adobe Experience Manager解決方案的一部分。
 
-## Scene7 2016年秋季發行 {#topic-791cdf80f91e457fbb63bfedf79f5a94}
+## Scene7 2016年秋季發行{#topic-791cdf80f91e457fbb63bfedf79f5a94}
 
-2016年秋季版本的最 [!DNL Adobe Scene7] 新發行說明，是解決方 [!DNL Adobe Experience Manager] 案的一部分 [!DNL Adobe Marketing Cloud]。
+[!DNL Adobe Scene7] 2016年秋季發行說明- [!DNL Adobe Marketing Cloud]中[!DNL Adobe Experience Manager]解決方案的一部分。
 
 * [一般](s7rnfall2016.md#section-52afeb72ecb34c1585ea67a5051825a2)
 * [Scene7 Publishing System](s7rnfall2016.md#section-24487cb493444d808fb7193f0a00cdd4)
@@ -35,18 +35,18 @@ Adobe Scene7 2016年秋季版本的最新發行說明，是Adobe Marketing Cloud
 
 Adobe很榮幸宣佈推出HTTP/2內容傳送，並提升效能。
 
-請參 [閱HTTP2內容傳送常見問答](https://docs.adobe.com/content/docs/en/aem/6-2/administer/integration/marketing-cloud/scene7/http2faq.html)。
+請參閱[HTTP2內容傳送常見問答](https://docs.adobe.com/content/docs/en/aem/6-2/administer/integration/marketing-cloud/scene7/http2faq.html)。
 
 ## Scene7 Publishing System {#section-24487cb493444d808fb7193f0a00cdd4}
 
-如需完整檔案，請參閱 [https://docs.adobe.com/content/help/en/dynamic-media-classic/using/home.html](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/home.html)
+如需完整檔案，請參閱[https://docs.adobe.com/content/help/en/dynamic-media-classic/using/home.html](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/home.html)
 
 **新功能、增強功能和錯誤修正**
 
-* 已從使用者介面移除視訊 [!DNL Adobe Scene7 Publishing System] 重新剪輯功能。
+* 已從[!DNL Adobe Scene7 Publishing System]使用者介面移除視訊重新剪輯功能。
 * 已視需要和可能新增所有Scene7 Servlet的驗證。
 * 關於垃圾桶中清單檢視的錯誤修正。
-* 由於安 **全考慮，已從「用戶管理** 」中移除「建立SPSAdmin用戶」功能。
+* 由於安全考慮，已從「用戶管理」中刪除「建立SPSAdmin **用戶」功能。**
 * FTP WebAdmin現在支援OKTA驗證。
 * 已移除為新Media Portal使用者建立的預設密碼功能。
 * 新增使用者時產生的暫時密碼相關的錯誤修正。 密碼不符合必要的密碼要求。
@@ -59,9 +59,9 @@ Adobe很榮幸宣佈推出HTTP/2內容傳送，並提升效能。
 * 新增對檢視器分析的Marketing Cloud組織ID支援。
 * 實作Scene7 SAML使用者。
 
-## 檢視器(Image Serving 5.5.3) {#section-1d59bcd5825d487b80b59a6d1a08ed30}
+## 檢視器（影像伺服5.5.3）{#section-1d59bcd5825d487b80b59a6d1a08ed30}
 
-如需完整檔案，請參 [閱檢視器參考指南](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)。
+如需完整檔案，請參閱[檢視器參考指南](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)。
 
 **Image Serving 5.5.3的錯誤修正**
 
@@ -69,18 +69,18 @@ Adobe很榮幸宣佈推出HTTP/2內容傳送，並提升效能。
 
    在檢視器部署期間，整合的SDK JS快取。
 
-## 檢視器(Image Serving 5.5.2) {#section-9932c988cfee45749594af481dfc6476}
+## 檢視器（影像伺服5.5.2）{#section-9932c988cfee45749594af481dfc6476}
 
-如需完整檔案，請參 [閱檢視器參考指南](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)。
+如需完整檔案，請參閱[檢視器參考指南](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)。
 
 **Image Serving 5.5.2的錯誤修正**
 
 * 在Windows 7的Internet Explorer 11中播放視訊失敗。
 * `initialframe` 未影響HTML5 eCatalog行動裝置上的縱向模式。
 
-## 檢視器(Image Serving 5.5.1) {#section-833ab92c91c941d2bfdc27f233f582ad}
+## 檢視器（影像伺服5.5.1）{#section-833ab92c91c941d2bfdc27f233f582ad}
 
-如需完整檔案，請參 [閱檢視器參考指南](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)。
+如需完整檔案，請參閱[檢視器參考指南](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)。
 
 **Image Serving 5.5.1的新功能、增強功能和錯誤修正**
 
@@ -90,7 +90,7 @@ Adobe很榮幸宣佈推出HTTP/2內容傳送，並提升效能。
 * 新增Marketing Cloud組織ID支援至Analytics整合。
 * 將AppMeasurement JavaScript程式庫更新至1.6.1版。
 * 新增在eCatalog檢視器中支援從右至左方向。
-* 修正造 `tip=0,-1,0` 成範圍外錯誤的問題。
+* 修正`tip=0,-1,0`造成範圍外錯誤的問題。
 
 **相容性說明**
 
@@ -129,8 +129,8 @@ Adobe很榮幸宣佈推出HTTP/2內容傳送，並提升效能。
 
 * HTML5視訊
 
-   * Internet Explorer 9: 自訂海報影像不會顯示。
-   * `IntialBitRate` 只有軟體HLS和Flash HDS播放才支援修飾元。 當播放使用原生播放器時，它無法運作。
+   * Internet Explorer 9:自訂海報影像不會顯示。
+   * `IntialBitRate` 只有軟體HLS和Flash HDS播放才支援修飾元。當播放使用原生播放器時，它無法運作。
    * 目前不支援OGG和WebM漸進式播放。
    * 瀏覽器縮放可導致視訊播放器以不正確的大小顯示（包括Windows OS控制面板顯示設定）
    * 在Safari上使用HLS串流的視訊搜尋可能不一致。
@@ -148,32 +148,32 @@ Adobe很榮幸宣佈推出HTTP/2內容傳送，並提升效能。
 
 * Safari
 
-   * Safari 6.1或更新版本： 網際網路外掛程式設定可能會阻止Flash視訊播放。
+   * Safari 6.1或更新版本：網際網路外掛程式設定可能會阻止Flash視訊播放。
    * 在Safari上使用HLS串流的視訊「搜尋」可能不一致。
    * 無法在使用HLS串流的Safari 6上尋找視訊結束。
 
 **已知問題與限制**
 
-* 「影像伺服」修飾 `iscommands` 元不會依設計新 `req=set` 增至請求。 僅影響影像顯示的修飾元可正常運作。 影響大小的修飾元必須用於複雜資產。 例如，
+* `iscommands`的影像伺服修飾元不會依設計新增至`req=set`請求。 僅影響影像顯示的修飾元可正常運作。 影響大小的修飾元必須用於複雜資產。 例如，
 
    `https://s7d9.scene7.com/s7viewers/html5/BasicZoomViewer.html?asset= {Scene7SharedAssets/Backpack_B?extendn=0.5%252C0.5%252C0.5%252C0.5}`
 
-* [彈出式] IE9有時會在滑鼠關閉後仍保留在螢幕上。
+* [滑] 鼠關閉後，FlyoutIE9有時仍會留在螢幕上。
 * 瀏覽器縮放會導致調整大小錯誤。
-* iPad 2: 大型eCatalog資產會在iOS上造成Safari當機。
+* iPad 2:大型eCatalog資產會在iOS上造成Safari當機。
 * 所有檢視器
 
    * 不支援浮水印、模糊化和鎖定。
    * 不支援影像預設集。
-   * 目前不支援使用 `display:none` CSS或從父節點動態分離檢視器，從DOM新增或移除檢視器。
+   * 目前不支援使用`display:none` CSS或從父節點動態分離檢視器，從DOM新增或移除檢視器。
 
 * HTML5所有檢視器
 
    * 表格中的內嵌檢視器可能會導致檢視器在非原生全螢幕模式中的大小或位置不正確。 建議改用DIV。
-   * 在程式碼中具有明確例項名稱的參數，需要在URL中覆寫例項名稱(例如 `zoomView.iconfeffect=0`)。
+   * 在程式碼中具有明確例項名稱的參數，需要在URL中設定例項名稱並加以覆寫（例如`zoomView.iconfeffect=0`）。
    * 目前不支援影像伺服指令裁切。
    * 「關閉」按鈕只有在檢視器在子視窗中開啟時才會運作。
-   * 該修 `iscommands` 飾詞不支援影響影像大小的影像伺服修飾詞。
+   * `iscommands`修飾元不支援影響影像大小的影像伺服修飾元。
 
 * HTML5 eCatalog
 
@@ -189,7 +189,7 @@ Adobe很榮幸宣佈推出HTTP/2內容傳送，並提升效能。
 
 * HTML5 Social
 
-   * 若要在傳出的電子郵件中正確呈現縮圖， `serverurl` 修飾元必須有絕對的URL。
+   * 若要在傳出的電子郵件中正確呈現縮圖，`serverurl`修飾元必須有絕對URL。
 
 * HTML5視訊
 
@@ -211,7 +211,7 @@ Adobe很榮幸宣佈推出HTTP/2內容傳送，並提升效能。
 **3.0.2的錯誤修正**
 
 * VideoPlayer —— 在Windows 7的Internet Explorer 11中播放視訊失敗
-* TableOfContents —— 不 `initialframe` 會影響HTML5 eCatalog檢視器行動裝置的縱向模式。
+* TableOfContents - `initialframe`不會影響HTML5 eCatalog檢視器的行動裝置縱向模式。
 
 **3.0.1的新功能、增強功能和錯誤修正**
 
@@ -229,7 +229,7 @@ Adobe很榮幸宣佈推出HTTP/2內容傳送，並提升效能。
 
 * FlyoutzoomView
 
-   * 已修正 `tip=0,-1,0` 導致範圍外錯誤的案例。
+   * 已修正`tip=0,-1,0`造成範圍外錯誤的案例。
 
 **相容性說明**
 
@@ -294,9 +294,9 @@ Adobe很榮幸宣佈推出HTTP/2內容傳送，並提升效能。
 
 * 所有元件
 
-   * 在2.7.2版及舊版中，有些元件是使用 `insertBefore()` API新增至DOM。 因此，無論何時建立元件實例相對於其他元件，這些元件都會將自身置於堆疊順序的底部。 在2.8.1版中，所有元件現在都使用 `appendChild()` API，這表示元件堆疊順序會符合執行個體建立順序。
+   * 在2.7.2版及舊版中，使用`insertBefore()` API將部分元件新增至DOM。 因此，無論何時建立元件實例相對於其他元件，這些元件都會將自身置於堆疊順序的底部。 在2.8.1版中，所有元件現在都使用`appendChild()` API，這表示元件堆疊順序會符合執行個體建立順序。
 
-   * 不支 `iscommand` 援使用修飾元來設定影像alpha色版格式。 請改用 `FMT` 元件參數。
+   * 不支援使用`iscommand`修飾詞來設定影像alpha色版格式。 請改用component `FMT`參數。
    * 目前不支援CSS轉換屬性。
 
 * 觸控裝置
@@ -314,7 +314,7 @@ Adobe很榮幸宣佈推出HTTP/2內容傳送，並提升效能。
 
 * IconEffect元件
 
-   * IconEffect會在Internet Explorer上產生指令碼錯誤( `autohide` 若停用(設為 `0`)。
+   * 如果`autohide`已停用（設為`0`）,IconEffect會在Internet Explorer上產生指令碼錯誤。
 
 * ImageMapEffect元件
 
@@ -330,7 +330,7 @@ Adobe很榮幸宣佈推出HTTP/2內容傳送，並提升效能。
 
 * PageScrubber元件
 
-   * 在iPhone 5中，當PageScrubber泡泡設定為文字時，它會在沿著磁軌滑動按鈕時顯示不自然狀態。 在樣 `-webkit-background-clip: content;` 式中使用可解決問題。
+   * 在iPhone 5中，當PageScrubber泡泡設定為文字時，它會在沿著磁軌滑動按鈕時顯示不自然狀態。 在樣式中使用`-webkit-background-clip: content;`可解決問題。
 
 * 回轉視圖元件
 
@@ -339,7 +339,7 @@ Adobe很榮幸宣佈推出HTTP/2內容傳送，並提升效能。
 * 色票元件
 
    * 選取超出範圍的色票時，會顯示2個反白顯示。
-   * 使用方法自動 `selectSwatch()` 捲動的運作不正確。
+   * 使用`selectSwatch()`方法的自動捲動運作不正確。
 
 * VideoPlayer
 
@@ -348,8 +348,8 @@ Adobe很榮幸宣佈推出HTTP/2內容傳送，並提升效能。
    * 海報影像可能無法在首次訪客的Microsoft Edge瀏覽器中顯示。
    * 當使用漸進式播放時，海報影像可能會在Internet Explorer 9中載入視訊後隱藏。
 
-## Scene7 Image Serving 6.3.2 and Image Rendering 6.3.2 {#section-19a3e96f52c74757bcdea0f8a11001f2}
+## Scene7 Image Serving 6.3.2和Image Rendering 6.3.2 {#section-19a3e96f52c74757bcdea0f8a11001f2}
 
-* IC實用程式- `downsample2x2` 不再支援標籤。 此標幟是品質不佳的2x2下採樣器，IPS不再使用。
-* CORS標題——目前，CORS標題已針對請求設 `/is/content/` 定。
+* IC實用程式——不再支援`downsample2x2`標誌。 此標幟是品質不佳的2x2下採樣器，IPS不再使用。
+* CORS標題——目前，CORS標題已針對`/is/content/`請求設定。
 
