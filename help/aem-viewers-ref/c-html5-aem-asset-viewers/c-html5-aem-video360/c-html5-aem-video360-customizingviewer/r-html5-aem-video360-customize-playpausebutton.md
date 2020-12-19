@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 25bc5185-e1cc-489f-bff5-996795e9b14f
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '284'
+ht-degree: 2%
 
 ---
 
@@ -26,7 +29,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 .s7video360viewer .s7playpausebutton
 ```
 
-## 播放／暫停按鈕的CSS屬性 {#css-properties-of-the-play-pause-button}
+## 播放／暫停按鈕{#css-properties-of-the-play-pause-button}的CSS屬性
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -55,23 +58,23 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
    <td colname="col2"> <p>按鈕的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景影像 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景影像  </span> </p> </td> 
    <td colname="col2"> <p>為指定按鈕狀態顯示的影像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS精靈，請放在圖稿精靈內。 </p> <p>請參 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> 閱CSS精靈 </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS精靈，請放在圖稿精靈內。 </p> <p>請參閱<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS精靈</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按鈕支援、 `state`和屬 `selected`性選 `replay` 擇器，可用來將不同的外觀套用至不同的按鈕狀態。 特別是 `selected='true'` 對應於「播放」狀態 `selected='false'` 和「暫停」狀態；
+>此按鈕同時支援`state`、`selected`和`replay`屬性選擇器，可用來將不同的外觀套用至不同的按鈕狀態。 尤其`selected='true'`對應「play」狀態，`selected='false'`對應「pause」狀態；
 >
 >`replay='true'` 在視訊到達結束時設定，並按一下按鈕會從開始開始重新播放。
 
-按鈕工具提示可以本地化。 如需詳 [細資訊，請參閱使用者介面元素](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) 的本地化。
+按鈕工具提示可以本地化。 如需詳細資訊，請參閱[使用者介面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)。
 
 **範例** -若要設定32 x 32像素的播放／暫停按鈕；它位於控制列的上邊緣和左邊緣的6個像素，並在選取或未選取時，針對四個不同按鈕狀態中的每個狀態顯示不同的影像。
 
