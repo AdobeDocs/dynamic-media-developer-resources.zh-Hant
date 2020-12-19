@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: eb93ad7a-6176-47ed-92c6-2eb1afcac0eb
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '80'
+ht-degree: 6%
 
 ---
 
@@ -19,12 +22,12 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_0BEA0B5FFDF64E5594B534B2A87A6D88"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph">0|1[,<span class="varname"> 限制</span>]</span> </p> </td> 
-   <td colname="col2"> <p> 根據頁數和執行時期元件大小設定自動隱藏行為。 </p> <p> <span class="codeph"> 0</span> 關閉自動隱藏。 </p> <p> <span class="codeph"> 1</span> 啟用自動隱藏。 如果下列至少一個條件變為true，元件會隱藏其點： </p> <p> 
+   <td colname="col1"> <p> <span class="codeph">0|1[,<span class="varname"> limit</span>]</span> </p> </td> 
+   <td colname="col2"> <p> 根據頁數和執行時期元件大小設定自動隱藏行為。 </p> <p> <span class="codeph"> 0</span> 關閉自動隱藏。 </p> <p> <span class="codeph"> 1</span> 啟用自動隱藏。如果下列至少一個條件變為true，元件會隱藏其點： </p> <p> 
      <ul id="ul_A7F9C1DDC6AE44BAA348B3AD440A4EDD"> 
       <li id="li_39332158806445DF874C5A52F1331B8B">含點的列會變寬，或 </li> 
-      <li id="li_E30BAC8B609147ADB8824000F5729B21">為此元件設定的頁數超出限制參數所配置的 <span class="codeph"><span class="varname"> 限制</span></span> 。 </li> 
-     </ul> </p> <p> 將 <span class="codeph"><span class="varname"> 限制設</span></span> 為 <span class="codeph"> -1</span> ，會停用第二個自動隱藏條件。 </p> </td> 
+      <li id="li_E30BAC8B609147ADB8824000F5729B21">為此元件設定的頁數超過<span class="codeph"><span class="varname"> limit</span></span>參數配置的限制。 </li> 
+     </ul> </p> <p> 將<span class="codeph"><span class="varname"> limit</span></span>設為<span class="codeph"> -1</span>會停用第二個自動隱藏條件。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
