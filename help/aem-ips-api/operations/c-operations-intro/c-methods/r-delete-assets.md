@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: ed446ebf-4a3d-4ee8-9ab3-596b1f05e5f4
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '179'
+ht-degree: 15%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 語法
 
-## 授權的使用者類型 {#section-a6bc555b8ac840c98835b73fbf838d70}
+## 授權使用者類型{#section-a6bc555b8ac840c98835b73fbf838d70}
 
 * `IpsUser`
 * `IspAdmin`
@@ -42,13 +45,13 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 公 <span class="varname"> 司控制</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
    <td colname="col4"> <p>資產所屬公司的控制代碼。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandleArray</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 類型：HandleArray</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
    <td colname="col4"> <p>要刪除的資產陣列。 </p> </td> 
@@ -69,31 +72,31 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> successCount <span class="varname"></span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> successCount</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
    <td colname="col4"> <p>成功刪除資產的數目。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 警 <span class="varname"> 告計數</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> warningCount</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
    <td colname="col4"> <p>當操作嘗試刪除時產生警告的資產。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> errorCount</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> errorCount</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
    <td colname="col4"> <p>當操作嘗試刪除時產生錯誤的資產。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 警 <span class="varname"> 告DetailArray</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> warningDetailArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 類型：AssetOperationFaultArray</span> </p> </td> 
    <td colname="col3"> <p>否 </p> </td> 
    <td colname="col4"> <p>與資產相關的詳細資訊陣列，當操作嘗試刪除資產時，這些資產會產生警告。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> errorDetailArray <span class="varname"> (錯誤詳細資訊陣列</span> ) </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> errorDetailArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 類型：AssetOperationFaultArray</span> </p> </td> 
    <td colname="col3"> <p>否 </p> </td> 
    <td colname="col4"> <p>與資產相關的詳細資訊陣列，當作業嘗試刪除資產時，這些資產會產生錯誤。 </p> </td> 
@@ -103,7 +106,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 範例 {#section-aaad1933bf86479eb6cb476cec7d4587}
 
-此程式碼範例會傳送一個控制代碼給公司，以及一組資產控制代碼，並 `deleteAssetsParam` 在要求中傳送至網站服務伺服器。 `deleteAssetsReturn` 傳回成功計數2，表示兩個資產都已刪除。
+此程式碼範例會傳送一個控制代碼給公司，以及`deleteAssetsParam`要求中的資產控制代碼陣列給網站服務伺服器。 `deleteAssetsReturn` 傳回成功計數2，表示兩個資產都已刪除。
 
 **請求**
 
