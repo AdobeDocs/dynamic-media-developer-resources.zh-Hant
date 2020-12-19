@@ -8,17 +8,20 @@ topic: Dynamic media
 uuid: a7de5549-2a9d-4153-be5e-72705ced85ac
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '107'
+ht-degree: 1%
 
 ---
 
 
 # 支援Adobe Analytics追蹤{#support-for-adobe-analytics-tracking}
 
-## 自訂追蹤 {#section-cda48fc9730142d0bb3326bac7df3271}
+## 自訂追蹤{#section-cda48fc9730142d0bb3326bac7df3271}
 
 依預設，檢視器會傳送單一追蹤HTTP要求至已設定的影像伺服器，並包含檢視器類型和版本資訊。
 
-若要與協力廠商分析系統整合，必須聽取檢視器回呼 `trackEvent` ，並視需要處 `eventInfo` 理回呼函式的引數。 以下代碼是此類處理程式函式的示例：
+若要與協力廠商分析系統整合，必須聽取`trackEvent`檢視器回呼，並視需要處理回呼函式的`eventInfo`引數。 以下代碼是此類處理程式函式的示例：
 
 ```
 var carouselViewer = new s7viewers.CarouselViewer({ 
@@ -57,7 +60,7 @@ var carouselViewer = new s7viewers.CarouselViewer({
    <td colname="col2"> <p>檢視器會先載入。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 橫幅 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 橫幅  </span> </p> </td> 
    <td colname="col2"> <p>轉盤橫幅影像會變更。 </p> </td> 
   </tr> 
   <tr> 
