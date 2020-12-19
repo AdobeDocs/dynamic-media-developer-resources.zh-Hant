@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 328e34f1-9e60-4056-9a8a-e9292fb65605
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '207'
+ht-degree: 1%
 
 ---
 
@@ -26,7 +29,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 .s7video360viewer .s7controlbar
 ```
 
-## 控制列的CSS屬性 {#css-properties-of-the-control-bar}
+## 控制列{#css-properties-of-the-control-bar}的CSS屬性
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -43,7 +46,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
    <td colname="col2"> <p>控制列的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景色  </span> </p> </td> 
    <td colname="col2"> <p>控制列的背景顏色。 </p> </td> 
   </tr> 
  </tbody> 
