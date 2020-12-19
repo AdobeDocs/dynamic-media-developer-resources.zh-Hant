@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: 72360679-7a39-46dd-ab10-7228d9c42a98
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# 互動式資料{#interactivedata}
+# interactivedata{#interactivedata}
 
 互動式視訊檢視器的URL命令。
 
@@ -23,7 +26,7 @@ source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 文 <span class="varname"> 件</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 檔案</span> </span> </p> </td> 
    <td colname="col2"> <p> 指定WebVTT互動資料內容的URL或路徑。 WebVTT檔案必須由影像伺服提供。 </p> </td> 
   </tr> 
  </tbody> 
