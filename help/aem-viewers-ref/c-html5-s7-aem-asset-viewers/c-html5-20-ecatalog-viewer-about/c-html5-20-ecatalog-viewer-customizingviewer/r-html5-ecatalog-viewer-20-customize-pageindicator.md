@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: 5e33c149-fdc7-419a-b5ff-b9be3f342d9f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '297'
+ht-degree: 4%
 
 ---
 
 
-# 頁面指標{#page-indicator}
+# 頁面指示器{#page-indicator}
 
 頁面指標會顯示目前的頁面索引和頁面總數。 它會顯示在桌上型電腦系統和平板電腦的主控制列，在行動電話上會新增至次要控制列。 頁面指示器可由CSS調整大小、改變外觀並定位。
 
@@ -57,11 +60,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
    <td colname="col2"> <p>字型色彩. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>字型名稱。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型大小 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字型大小  </span> </p> </td> 
    <td colname="col2"> <p>字型大小. </p> </td> 
   </tr> 
  </tbody> 
