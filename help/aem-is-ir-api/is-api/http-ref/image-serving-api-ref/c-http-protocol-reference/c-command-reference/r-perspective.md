@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: b22d7b49-db08-48df-80bc-5b7237aea475
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# 透視{#perspective}
+# perspective&lt;a0/{#perspective}
 
 透視變形。 對圖層來源影像套用透視變形，以填滿以四邊形指定的區域。 圖層的其他區域保持透明。
 
@@ -37,9 +40,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 *`perspQuad`* 由複合（或圖層0）坐標空間中的四個像素坐標值組成，這些值起源於複合影像的左上角。
 
-`perspQuadN` 由四個標準化坐標值組成， `0.0,0.0` 其中對應於複合／圖層0影像的左上角和右 `1.0,1.0` 下角的下角。
+`perspQuadN` 由四個標準化的坐標值組成， `0.0,0.0` 其中對應於複合／圖層0影像的左上 `1.0,1.0` 角和右下角。
 
-轉換輸入影像，使輸入影像的左上角映射到第一坐標值 `perspQuad[N]`，右上角到第二坐標，右下角到第三坐標，左下角到第四坐標。
+轉換輸入影像，使輸入影像的左上角映射到`perspQuad[N]`的第一坐標值，右上角到第二坐標，右下角到第三坐標，左下角到第四坐標。
 
 >[!NOTE]
 >
@@ -49,13 +52,13 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 如果四邊形不適合透視變換（例如，如果兩個或多個頂點重合，如果三個或所有頂點位於同一行上，或者四邊形是自相交或凹），則行為未定義。
 
-## 品質考量 {#section-7cc9056afa614300a9b8844d39739fc3}
+## 質量注意事項{#section-7cc9056afa614300a9b8844d39739fc3}
 
 雖然預設實作會在品質與效能之間產生合理的折中，但有時可能需要增加來源影像的解析度，以改善清晰度或減少鋸齒不自然現象。
 
-如果來源是影像，請使 `scale=` 用選擇不同的解析度（相對於影像的完整解析度）。 指定的 `scale=` 值會四捨五入到下一個較高的PTIF解析度級別。 在巢狀請求源的情況下，可調整由巢狀請求產生的影像的大小以獲得所需的清晰度。 對於文本圖層，通過選擇較大的大小=值並同時增加指定的解析度來調整輸入影像（渲染文本）的解析度 `textAttr=`。
+如果源是影像，請使用`scale=`選擇不同的解析度（相對於影像的完整解析度）。 指定的`scale=`值會四捨五入到下一個較高的PTIF解析度級別。 在巢狀請求源的情況下，可調整由巢狀請求產生的影像的大小以獲得所需的清晰度。 對於文本層，通過選擇較大的大小=值並同時增加以`textAttr=`指定的解析度來調整輸入影像（渲染文本）的解析度。
 
-*`resOptions`* 允許選取替代的重新取樣演算法。 支援下列值（區分大小寫）:
+*`resOptions`* 允許選取替代的重新取樣演算法。支援下列值（區分大小寫）:
 
 <table id="table_0F20007986324E228096888ED37219C0"> 
  <thead> 
@@ -78,17 +81,17 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
    <td> <p> 標準超級取樣（預設）。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph">R3T<span class="varname"> n</span></span> </p> </td> 
-   <td> <p> 具有可調抖動的超採樣(<span class="varname"> n</span> 必須是介於0和200之間的整數值)。 </p> </td> 
+   <td> <p> <span class="codeph">R3<span class="varname"> Tn</span></span> </p> </td> 
+   <td> <p> 具有可調抖動的超採樣（<span class="varname"> n</span>必須是0到200之間的整數值）。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 屬性 {#section-818e57df0a1b4449888543bc6af77751}
 
-圖層命令。 應用於當前層，或應用於層0（如果） `layer=comp`。 被效果圖層忽略。
+圖層命令。 應用於當前層，如果`layer=comp`則應用於層0。 被效果圖層忽略。
 
-`res=` 在相同圖層中顯示透視時，一律忽略。 `size=` 在為影像圖層指定時會忽略。 `size=` 而 `res=` 且圖層中 `perspective=` 保留供日後使用。
+`res=` 在相同圖層中顯示透視時，一律忽略。`size=` 在為影像圖層指定時會忽略。`size=` 和 `res=` 含有的圖層 `perspective=` 保留供日後使用。
 
 ## 預設 {#section-e35683395d514d4eb6b32924e1bf8f2f}
 
@@ -96,4 +99,4 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 另請參閱 {#section-e5b71ac4a0724df6bf678dd354cfa51a}
 
-[size=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-size.md#reference-04d383f32c7b4003bed9978cb854747b) , [scale=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-scale.md#reference-098c30cea1764f189e6f7c7e400cc065), [pos=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pos.md#reference-65de948f4b404f1182b22119ca332143), [textAttr=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textattr.md#reference-ff00484fa3244286abeff34911f7ec0d)
+[size=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-size.md#reference-04d383f32c7b4003bed9978cb854747b) ,  [scale=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-scale.md#reference-098c30cea1764f189e6f7c7e400cc065),  [pos=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pos.md#reference-65de948f4b404f1182b22119ca332143),  [textAttr=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textattr.md#reference-ff00484fa3244286abeff34911f7ec0d)
