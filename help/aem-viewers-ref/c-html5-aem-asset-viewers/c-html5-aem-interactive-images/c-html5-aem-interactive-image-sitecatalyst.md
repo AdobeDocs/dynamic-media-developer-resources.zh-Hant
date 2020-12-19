@@ -8,17 +8,20 @@ topic: Dynamic media
 uuid: ae870d2e-2a09-4551-935a-916d0e657653
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '94'
+ht-degree: 2%
 
 ---
 
 
 # 支援分析追蹤{#support-for-analytics-tracking}
 
-## 自訂追蹤 {#section-cda48fc9730142d0bb3326bac7df3271}
+## 自訂追蹤{#section-cda48fc9730142d0bb3326bac7df3271}
 
 依預設，檢視器會傳送單一追蹤HTTP要求至已設定的影像伺服器，並包含檢視器類型和版本資訊。
 
-若要與協力廠商分析系統整合，必須聽取檢視器回呼 `trackEvent` ，並視需要處 `eventInfo` 理回呼函式的引數。 以下代碼是此類處理程式函式的示例：
+若要與協力廠商分析系統整合，必須聽取`trackEvent`檢視器回呼，並視需要處理回呼函式的`eventInfo`引數。 以下代碼是此類處理程式函式的示例：
 
 ```
 var interactiveImage = new s7viewers.InteractiveImage({ 
