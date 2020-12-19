@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 0fc0b694-f332-4a16-9970-6b699528f165
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# sharpen{#sharpen}
+# 銳利化{#sharpen}
 
 銳利化回覆影像。 在根據wid=或hei=縮放演算影像後，可套用選擇性銳利化。
 
