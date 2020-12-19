@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 2c37d217-8d49-478e-88d1-7121d0f0419b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '98'
+ht-degree: 0%
 
 ---
 
@@ -18,4 +21,4 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 紋理解析度值以每英吋像素（或暈映為其場景坐標空間指定的單位）指定。
 
-材料解析度指定為 `res=`。
+材料解析度以`res=`指定。
