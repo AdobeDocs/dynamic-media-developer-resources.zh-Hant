@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: dbc4eddc-a518-4337-9e09-ba40c02de797
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '87'
+ht-degree: 0%
 
 ---
 
 
-# Licensing{#licensing}
+# 授權{#licensing}
 
 需要Scene7 Image Rendering授權金鑰，且必須安裝在安裝Image Rendering的每個系統上。
 
