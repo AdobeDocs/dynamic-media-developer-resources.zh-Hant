@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: d3294434-a44b-4742-9d77-a6945760d33c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '240'
+ht-degree: 1%
 
 ---
 
@@ -35,7 +38,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
   <tr> 
    <td> <p>高並行性 </p> </td> 
    <td> <p>Conc </p> </td> 
-   <td> 當同時處理的請求數（重疊）超過指定的 <i>臨界值</i>時，就會發出。 可表示伺服器過載狀況。 </td> 
+   <td> 當並行處理的請求數(<i>overlap</i>)超過指定的閾值時發出。 可表示伺服器過載狀況。 </td> 
   </tr> 
   <tr> 
    <td> <p>最低流量 </p> </td> 
