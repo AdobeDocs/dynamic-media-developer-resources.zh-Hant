@@ -1,18 +1,21 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Swatches.enabled拖曳
+seo-title: Swatches.enabledragging
 solution: Experience Manager
-title: Swatches.enabled拖曳
+title: Swatches.enabledragging
 topic: Dynamic media
 uuid: f676b0b1-2ce0-4409-8db6-ce162b03053b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '77'
+ht-degree: 6%
 
 ---
 
 
-# Swatches.enabled拖曳{#swatches-enabledragging}
+# Swatches.enabledragging{#swatches-enabledragging}
 
 ` [Swatches.|<containerId>_swatches.]enabledragging=0|1[, *`過度拖放`*]`
 
@@ -23,8 +26,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
    <td> <p> 啟用或停用使用者使用滑鼠或使用觸控手勢捲動色票的能力 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> 超差值 </span> </span> </p> </td> 
-   <td> <p> 函式在 <span class="codeph"> 0-1范 </span> 圍內。 它是在 <span class="codeph"> 實際 </span> 速度的錯誤方向上移動的%值。 如果設定為 <span class="codeph"> 1 </span>，則它隨滑鼠移動。 如果設定為 <span class="codeph"> 0 </span>，則完全不會讓您朝錯誤方向移動。 </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> 過度拖放  </span> </span> </p> </td> 
+   <td> <p> <span class="codeph"> 0-1 </span>範圍內的函式。 它是<span class="codeph"> % </span>值，用於在實際速度的錯誤方向上移動。 如果設定為<span class="codeph"> 1 </span> ，則它隨滑鼠移動。 如果設為<span class="codeph"> 0 </span>，則完全不會讓您朝錯誤的方向移動。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
