@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 52e3a21e-1dd5-4f9d-b460-506d280fff47
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '116'
+ht-degree: 16%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 語法
 
-## 授權使用者類型 {#section-6c28db5d15b3449492a73749e4f981ac}
+## 授權用戶類型{#section-6c28db5d15b3449492a73749e4f981ac}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -35,7 +38,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | ` *`firstName`*` | `xsd:string` | 是 | 名字。 |
 | ` *`lastName`*` | `xsd:string` | 是 | 姓氏。 |
 | ` *`電子郵件`*` | `xsd:string` | 是 | 使用者電子郵件。 |
-| ` *`defaultRole`*` | `xsd:string` | 是 | 為用戶所屬的每個公司設定角色。 但請注意，此角 `IpsAdmin` 色會覆寫其他每公司設定。 |
+| ` *`defaultRole`*` | `xsd:string` | 是 | 為用戶所屬的每個公司設定角色。 但請注意，`IpsAdmin`角色會覆寫其他每公司設定。 |
 | ` *`passwordExpires`*` | `xsd:dateTime` | 否 | 設定的密碼到期日。 |
 | ` *`isValid`*` | `xsd:boolean` | 是 | 確定用戶是否為有效的IPS用戶。 |
 | ` *`membershArray`*` | `types:CompanyMembershipUpdateArray` | 是 | 一系列公司控制代碼。 |
