@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: ad9404e4-a546-4db7-bb2d-d81a304dcb36
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,8 +26,8 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
 <table id="table_0070E5402099428DBEA2A900CADB2BAA"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 寬 <span class="varname"> 度</span>，高<span class="varname"> 度</span></span> </p> </td> 
-   <td colname="col2"> <p> 檢視器的整體寬度和高度。 值為 <span class="codeph"> 0,0表示</span> ，檢視器會根據CSS規則和網頁版面配置來調整大小。 </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> 寬度</span>，高<span class="varname"> 度</span></span> </p> </td> 
+   <td colname="col2"> <p> 檢視器的整體寬度和高度。 <span class="codeph"> 0,0</span>的值表示檢視器會根據CSS規則和網頁版面配置來調整大小。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
