@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: b0a6d252-4b9c-40c4-b321-eb71ebc3b276
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,17 +24,17 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 資產</span></span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> String</span>}新資產ID，單一或多維回轉集，並附加選用的影像伺服修飾元 <span class="codeph"> ?</span>。 </p> <p> 此檢視器不支援使用IR（影像演算）或UGC（使用者產生的內容）的影像。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 資產</span> </span> </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph">字串</span>}新資產ID、單一或多維回轉集，並附加在<span class="codeph"> ?</span>之後的選用影像伺服修飾元。 </p> <p> 此檢視器不支援使用IR（影像演算）或UGC（使用者產生的內容）的影像。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-設定新資產。 您可以隨時呼叫此參數，不論是在之前或之後 `init()`。 如果在之後呼叫，檢 `init()`視器會在執行時期交換資產。
+設定新資產。 您可以隨時在`init()`之前或之後呼叫此參數。 如果在`init()`之後呼叫，檢視器會在執行時期交換資產。
 
-另請參見 [init](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/r-html5-spin-viewer-javascriptapiref-init.md#reference-bb4428c155e541b79797f96e17c068ae)。
+另請參閱[init](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/r-html5-spin-viewer-javascriptapiref-init.md#reference-bb4428c155e541b79797f96e17c068ae)。
 
-## Returns {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## 傳回{#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 無。
 
