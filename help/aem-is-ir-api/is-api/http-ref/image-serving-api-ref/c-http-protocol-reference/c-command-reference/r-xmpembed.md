@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: c0dfd0e5-16d1-4a6e-957a-ecc276b9361a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,9 +27,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 屬性 {#section-27024c4272f44d9a8c264a0629193af2}
 
-請求屬性。 如果來源影像未包含XMP資料，則會忽略。 僅處理來自源影像的XMP `layer=0` 資料。 其他圖層影像的XMP資料會被忽略。
+請求屬性。 如果來源影像未包含XMP資料，則會忽略。 僅處理來自`layer=0`源映像的XMP資料。 其他圖層影像的XMP資料會被忽略。
 
-如果輸出影像格式不支援XMP內嵌，則忽略此點。 有關支援XMP內嵌 `fmt=` 的輸出影像格式清單，請參閱的說明。
+如果輸出影像格式不支援XMP內嵌，則忽略此點。 有關支援XMP嵌入的輸出影像格式的清單，請參閱`fmt=`的說明。
 
 ## 預設 {#section-aedbedd04d664ba184b2cfe35644b960}
 
