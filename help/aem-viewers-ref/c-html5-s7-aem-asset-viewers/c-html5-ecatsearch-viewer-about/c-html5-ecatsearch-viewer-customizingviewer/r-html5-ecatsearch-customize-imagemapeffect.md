@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: 8bafaec3-500c-4a1f-b511-bff125daab7f
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '358'
+ht-degree: 1%
 
 ---
 
 
-# Image map effect{#image-map-effect}
+# 影像地圖效果{#image-map-effect}
 
 視模式參數的值而定，檢視器會在主檢視上顯示影像地圖圖示，而主檢視的地圖原本是在Scene7 Publishing System中製作，或轉譯與原始影像地圖形狀相符的精確區域。
 
@@ -28,7 +31,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 
 >[!NOTE]
 >
->過去 `s7mapoverlay` 用來設定影像地圖圖示樣式的CSS類別現在已不再使用；請改 `s7icon` 用。
+>過去用來設定影像地圖圖示樣式的`s7mapoverlay` CSS類別現在已不再使用；請改用`s7icon`。
 
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
@@ -39,12 +42,12 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景影像 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景影像  </span> </p> </td> 
    <td colname="col2"> <p>影像地圖圖示圖稿。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS精靈，請放在圖稿精靈內。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS精靈 </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS精靈，請放在圖稿精靈內。 </p> <p>另請參閱<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS精靈</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -59,7 +62,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 
 >[!NOTE]
 >
->影像地圖圖示支援 `state` 屬性選擇器，您可使用它將不同的外觀套用至和的圖示 `default` 狀態 `active`。
+>影像地圖圖示支援`state`屬性選擇器，您可使用它將不同的外觀套用至`default`和`active`的圖示狀態。
 
 範例——設定28 x 28像素的影像地圖圖示，可針對兩個不同的圖示狀態顯示不同的影像。
 
@@ -77,7 +80,7 @@ opacity: 1;
 }
 ```
 
-另請參閱 [影像地圖支援](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-image-map-support.md#concept-28759efae5014a1fa8b0fb14dc26812a)。
+另請參閱[影像地圖支援](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-image-map-support.md#concept-28759efae5014a1fa8b0fb14dc26812a)。
 
 使用下列CSS類別選取器來控制影像地圖區域的外觀：
 
@@ -94,21 +97,21 @@ opacity: 1;
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景  </span> </p> </td> 
    <td colname="col2"> <p> 影像地圖區域填滿顏色。 </p> <p>在#RRGGBB、RGB(R,G,B)或RGBA(R,G,B,A)格式中指定。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景色  </span> </p> </td> 
    <td colname="col2"> <p> 影像地圖區域填滿顏色。 </p> <p>在#RRGGBB、RGB(R,G,B)或RGBA(R,G,B,A)格式中指定。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
-   <td colname="col2"> <p> 影像地圖區域邊框樣式。 </p> <p>指定為固體色寬的像素，其中 <span class="codeph"> ，寬的像素在 <span class="varname"> RGB(R,G,B)或RGBA(R,G,B,A)中表示為 </span><span class="varname"></span></span><span class="codeph"><span class="varname"></span></span><span class="codeph"><span class="varname"></span></span> #RRGGBB的色寬，並且RGB(R,G,B,A)。 </p> </td> 
+   <td colname="col2"> <p> 影像地圖區域邊框樣式。 </p> <p>指定為<span class="codeph"> <span class="varname">寬度</span>實色<span class="varname"></span>，其中<span class="codeph"> <span class="varname">寬度</span> </span>以像素表示，並將<span class="codeph">顏色</span> </span>設定為#RRGGBB、RGB(R,G,B)或RGBA(R,G,B,A)。<span class="varname"></span> </span></p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-範例——設定具有像素黑色邊框的透明影 `1` 像地圖區域：
+範例——使用`1`像素黑色邊框設定透明影像地圖區域：
 
 ```
 .s7ecatalogsearchviewer .s7imagemapeffect .s7region { 
