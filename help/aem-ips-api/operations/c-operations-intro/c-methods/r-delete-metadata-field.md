@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 06ec434a-2793-4227-ac93-ae3871c38ab9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '104'
+ht-degree: 10%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 語法
 
-## 授權使用者類型 {#section-63e7d17f4b434995a872838bfff7f9ff}
+## 授權用戶類型{#section-63e7d17f4b434995a872838bfff7f9ff}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -39,7 +42,7 @@ IPS API不會傳回此作業的回應。
 
 ## 範例 {#section-e1c474ea91a040609ecd7c2400f4fa3c}
 
-此程式碼範例會刪除公司的中繼資料欄位。 它使用公司句柄和元資料句柄作為傳遞到IPS Web `deleteMetadataFieldParam` services伺服器中的欄位來執行此操作。
+此程式碼範例會刪除公司的中繼資料欄位。 它使用公司句柄和元資料句柄作為`deleteMetadataFieldParam`中傳遞到IPS Web伺服器的欄位來執行此操作。
 
 **請求**
 
