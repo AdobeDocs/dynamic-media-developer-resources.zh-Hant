@@ -7,10 +7,10 @@ title: 透過HTTP POST上傳資產至UploadFile Servlet
 topic: Scene7 Image Production System API
 uuid: 8d562316-0849-4b95-a974-29732d453dc8
 translation-type: tm+mt
-source-git-commit: dac273f51703fd63f1d427fbb7713fcc79bfa2c4
+source-git-commit: 5d738b675975251dc3491ac7ae533eda082df134
 workflow-type: tm+mt
 source-wordcount: '766'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -66,22 +66,22 @@ https://<server>/scene7/UploadFile
 >
 >上傳作業的所有POST請求都必須源自相同的IP位址。
 
-| HTTP POST表單部分|說明|
-|-|-|
-| `auth` |  必要。 XML authHeader檔案，指定驗證和用戶端資訊。 請參閱[SOAP](/help/aem-ips-api/c-wsdl-versions.md)下的&#x200B;**請求驗證**。 |
-|`file params` |  選擇性. 您可以包含一或多個檔案，以便隨每個POST請求上傳。 如果未指定`uploadPostParams/fileName`參數，則每個檔案部分都可以在Content-Disposition標頭中包含檔案名參數，該參數將用作IPS中的目標檔案名。 |
+|  HTTP POST表單部分  |  說明  |
+|---|---|
+| `auth`  |   必要. XML authHeader檔案，指定驗證和用戶端資訊。 請參閱[SOAP](/help/aem-ips-api/c-wsdl-versions.md)下的&#x200B;**請求驗證**。 |
+| `file params`  |   選擇性. 您可以包含一或多個檔案，以便隨每個POST請求上傳。 如果未指定`uploadPostParams/fileName`參數，則每個檔案部分都可以在Content-Disposition標頭中包含檔案名參數，該參數將用作IPS中的目標檔案名。 |
 
-| HTTP POST表單部分  | uploadPostParams元素名稱  |文字  |說明  |
-|-|-|-|-|
-|`uploadParams`（必要）。 XML `uploadParams`檔案，指定上傳參數)  |  `companyHandle` | `xsd:string` |必要。 將檔案上傳至的公司的控制代碼。 |
-|`uploadParams` (必要. 需要XML `uploadParams`檔案，指定上傳參數)|`jobName` | `xsd:string` | `jobName`或`jobHandle`。 上載作業的名稱。 |
-|`uploadParams` (必要. 需要XML `uploadParams`檔案，指定上傳參數)|`jobHandle` | `xsd:string` | `jobName`或`jobHandle`。 處理在先前請求中開始的上載作業。 |
-|`uploadParams` (必要. XML `uploadParams`檔案，指定上傳參數)|`locale` | `xsd:string` |選用。 本地化的語言和國家代碼。 |
-|`uploadParams` (必要. XML `uploadParams`檔案，指定上傳參數)|`description` | `xsd:string` |選用。 工作說明。 |
-|`uploadParams` (必要. XML `uploadParams`檔案，指定上傳參數)|`destFolder` | `xsd:string` |選用。 檔案名屬性前置詞的目標資料夾路徑，尤其是對於瀏覽器和其他可能不支援檔案名中完整路徑的客戶端。 |
-|`uploadParams` (必要. XML `uploadParams`檔案，指定上傳參數)|`fileName` | `xsd:string` |選用。 目標檔案的名稱。 覆寫filename屬性。 |
-|`uploadParams` (必要. XML `uploadParams`檔案，指定上傳參數)|`endJob` | `xsd:boolean` |選用。 預設為 false。|
-|`uploadParams` (必要. XML `uploadParams`檔案，指定上傳參數)|`uploadParams` | `types:UploadPostJob` |如果這是現有活動作業的後續請求，則為可選。 如果存在現有作業，則會忽略`uploadParams`並使用現有作業上載參數。 請參閱[UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4) |
+|  HTTP POST表單部分   |  uploadPostParams元素名稱   |  類型   |  說明   |
+|---|---|---|---|
+| `uploadParams` (必要. XML `uploadParams`檔案，指定上傳參數)   |   `companyHandle`  |  `xsd:string`  | 必要. 將檔案上傳至的公司的控制代碼。  |
+| `uploadParams` (必要. XML `uploadParams`檔案，指定上傳參數) | `jobName`  |  `xsd:string`  | 需要`jobName`或`jobHandle`。 上載作業的名稱。  |
+| `uploadParams` (必要. XML `uploadParams`檔案，指定上傳參數) | `jobHandle`  |  `xsd:string`  | 需要`jobName`或`jobHandle`。 處理在先前請求中開始的上載作業。  |
+| `uploadParams` (必要. XML `uploadParams`檔案，指定上傳參數) | `locale`  |  `xsd:string`  | 選填。本地化的語言和國家代碼。  |
+| `uploadParams` (必要. XML `uploadParams`檔案，指定上傳參數) | `description`  |  `xsd:string`  | 選填。工作說明。  |
+| `uploadParams` (必要. XML `uploadParams`檔案，指定上傳參數) | `destFolder`  |  `xsd:string`  | 選填。檔案名屬性前置詞的目標資料夾路徑，尤其是對於瀏覽器和其他可能不支援檔案名中完整路徑的客戶端。  |
+| `uploadParams` (必要. XML `uploadParams`檔案，指定上傳參數) | `fileName`  |  `xsd:string`  | 選填。目標檔案的名稱。 覆寫filename屬性。 |
+| `uploadParams` (必要. XML `uploadParams`檔案，指定上傳參數) | `endJob`  |  `xsd:boolean`  | 選填。預設為 false。 |
+| `uploadParams` (必要. XML `uploadParams`檔案，指定上傳參數) | `uploadParams`  |  `types:UploadPostJob`  | 如果這是現有活動作業的後續請求，則為可選。 如果存在現有作業，則會忽略`uploadParams`並使用現有作業上載參數。 請參閱[UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4) |
 
 在`<uploadPostParams>`塊中是`<uploadParams>`塊，用於指定所包含檔案的處理。
 
