@@ -1,15 +1,12 @@
 ---
+title: 在同一伺服器上安裝多個動態媒體檢視器
 description: 安裝動態媒體檢視器API的指示。
-seo-description: 安裝動態媒體檢視器API的指示。
-seo-title: 在同一台伺服器上安裝多個查看器
 solution: Experience Manager
-title: 在同一台伺服器上安裝多個查看器
-topic: Dynamic media
-uuid: 91ae8eb5-1d23-4fa3-a0d6-a4a0ed0eb104
+topic: Dynamic Media
 translation-type: tm+mt
-source-git-commit: a0983053795cc119eb57386c005e1f8a7c2fa3e4
+source-git-commit: 07eb6cf84a46753b41307187d5c5b2a077fa9009
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '162'
 ht-degree: 1%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 1%
 
 # 在同一台伺服器上安裝多個查看器{#installing-multiple-viewers-on-the-same-server}
 
-<!-- Updated June 1, 2020 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
+<!-- Updated January 13, 2021 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
 
 安裝動態媒體檢視器API的指示。
 
@@ -27,12 +24,12 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Image Serving檢視器不需安裝升級版。 Adobe建議您先備份任何現有的動態媒體檢視器目錄，然後再繼續安裝。
+>Image Serving檢視器不需安裝升級版。 Adobe建議您先備份任何現有的動態媒體檢視器(s7viewers)目錄，再繼續安裝。
 
-**若要將檢視器安裝在同一伺服器上**
+**若要在同一伺服器上安裝多個檢視器**
 
 1. 將檢視器。war重新命名為所要的內容，並將檔案部署至您想要的位置。
 1. 在`config.js`中設定`this.isViewerRoot`參數。
 1. 開啟位於新建立之檢視器資料夾根目錄的`config.js`。
-1. 將參數`this.isViewerRoot = "/s7viewers"`設定為`s7viewers.war`檔案的上下文。 例如, `"/s7viewers-4.0"`. 儲存並關閉檔案。
+1. 將參數`this.isViewerRoot = "/s7viewers"`設定為`s7viewers.war`檔案的上下文。 例如，`"/s7viewers-4.0"`。
 1. 儲存檔案並關閉。
