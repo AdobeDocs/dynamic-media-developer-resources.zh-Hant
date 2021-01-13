@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: 影像的檢視變形
+description: 影像的檢視變形
 solution: Experience Manager
 title: 影像的檢視變形
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 8594f746-0e58-4a59-933c-a44dc0b06c25
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '271'
 ht-degree: 0%
 
 ---
