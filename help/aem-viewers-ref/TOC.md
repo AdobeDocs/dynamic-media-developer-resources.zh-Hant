@@ -4,9 +4,9 @@ product: adobe
 archtype: end-user
 user-guide-title: 動態媒體檢視器參考指南
 translation-type: tm+mt
-source-git-commit: 636edb2fe860a75af66ab5143ab91020a2eb47ec
+source-git-commit: 68497a2779c5a1fc6bd42d03f38c3ac104460709
 workflow-type: tm+mt
-source-wordcount: '1898'
+source-wordcount: '1901'
 ht-degree: 4%
 
 ---
@@ -20,9 +20,10 @@ ht-degree: 4%
 + [系統需求](c-system-requirements-and-prerequisites.md)
 + [在同一台伺服器上安裝多個查看器](t-installing-the-viewers.md)
 + 檢視器版本注意事項{#viewers-release-notes}
-   + [檢視器版本注意事項(5.14.1)](c-release-notes/c-rn-06-03-20.md)
+   + [檢視器版本注意事項(5.15.3)](c-release-notes/c-rn-01-13-21.md)
    + 封存 {#archive}
       + [發行說明封存](c-release-notes/c-archive/c-archive.md)
+      + [檢視器版本注意事項(5.14.1)](c-release-notes/c-archive/c-rn-06-03-20.md)
       + [檢視器版本注意事項(5.13.1)](c-release-notes/c-archive/c-rn-07-08-19.md)
       + [檢視器版本注意事項(5.12.1)](c-release-notes/c-archive/c-rn-04-01-19.md)
       + [檢視器版本注意事項(5.10.1)](c-release-notes/c-archive/c-rn-07-17-18.md)
@@ -35,6 +36,8 @@ ht-degree: 4%
       + [Scene7檢視器5.0.1發行說明](c-release-notes/c-archive/c-rn-04-29-14.md)
       + [Scene7檢視器4.9.2發行說明](c-release-notes/c-archive/c-rn-09-18-13.md)
 + [相容性說明](c-compatibility-notes.md)
++ [鍵盤協助功能與導覽](c-keyboard-accessibility.md)
++ [檢視器SDK教學課程](c-tutorial.md)
 + AEM Assets和Dynamic Media Classic {#viewers-aem-assets-dmc}的檢視器
    + [AEM Assets和Dynamic Media Classic的檢視器](c-html5-s7-aem-asset-viewers/c-html5-s7-aem-asset-viewers.md)
    + 基本縮放{#basic-zoom}
@@ -939,5 +942,4 @@ ht-degree: 4%
    + [initialFrame](c-html5-viewer-20-cmdref-url/r-html5-viewer-20-cmdref-url-initialframe.md)
    + [serverUrl](c-html5-viewer-20-cmdref-url/r-html5-viewer-20-cmdref-url-serverurl.md)
    + [videoServerUrl](c-html5-viewer-20-cmdref-url/r-html5-viewer-cmdref-url-videoserverurl.md)
-+ [鍵盤協助功能與導覽](c-keyboard-accessibility.md)
-+ [檢視器SDK教學課程](c-tutorial.md)
+
