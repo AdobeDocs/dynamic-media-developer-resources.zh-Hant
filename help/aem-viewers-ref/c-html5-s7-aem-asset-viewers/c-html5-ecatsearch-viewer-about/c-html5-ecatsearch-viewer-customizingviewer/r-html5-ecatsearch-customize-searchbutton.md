@@ -1,16 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: 搜尋按鈕
+description: 搜尋按鈕
 solution: Experience Manager
 title: 搜尋按鈕
 topic: Dynamic media
 uuid: a4d64d61-338e-4963-865e-c1afe1a4876f
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '185'
+ht-degree: 1%
 
 ---
 
