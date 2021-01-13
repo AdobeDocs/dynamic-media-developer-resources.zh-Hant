@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: 熱點和影像地圖支援
+description: 熱點和影像地圖支援
 solution: Experience Manager
 title: 熱點和影像地圖支援
 topic: Dynamic media
 uuid: 839b6a7f-4f6f-43ad-8eb8-254959c7fbac
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
