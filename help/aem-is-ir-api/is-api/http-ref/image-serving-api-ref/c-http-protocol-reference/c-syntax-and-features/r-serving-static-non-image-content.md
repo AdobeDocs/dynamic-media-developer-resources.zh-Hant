@@ -1,16 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: 提供靜態（非影像）內容
+description: 提供靜態（非影像）內容
 solution: Experience Manager
 title: 提供靜態（非影像）內容
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 4ec483fe-68a4-4ae2-b5ce-730229a9bc15
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '285'
+ht-degree: 1%
 
 ---
 
