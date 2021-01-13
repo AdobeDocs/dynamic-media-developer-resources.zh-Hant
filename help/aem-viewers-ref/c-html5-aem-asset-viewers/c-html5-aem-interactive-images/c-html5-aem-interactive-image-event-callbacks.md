@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: 事件回呼
+description: 事件回呼
 solution: Experience Manager
 title: 事件回呼
 topic: Dynamic media
 uuid: 4a3dc8d7-2eb3-4244-849b-01d1314e43f2
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '213'
 ht-degree: 1%
 
 ---
