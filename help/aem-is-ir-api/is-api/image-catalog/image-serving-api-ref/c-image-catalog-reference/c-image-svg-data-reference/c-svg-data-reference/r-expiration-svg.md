@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: 過期
+description: 過期
 solution: Experience Manager
 title: 過期
 topic: Scene7 Image Serving - Image Rendering API
 uuid: f51e45fc-fcea-4df6-8c47-e772a1b70a3a
 translation-type: tm+mt
-source-git-commit: 7721cccf3f779f258adcdcf886f7e01111e92be0
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '262'
 ht-degree: 2%
 
 ---
@@ -33,7 +31,7 @@ ht-degree: 2%
 
 ## 屬性 {#section-7f5173d090cf48df8fa1a2c72b8c8c60}
 
-實數、-2、-1或0或更高。 自回應影像產生以來，到期前的小時數。 設為0，一律會立即使回覆影像過期，這會有效停用用戶端快取。 設定為-1以標籤為&#x200B;*`never expire`*。 在這種情況下，伺服器會回應條件式GET要求，而一律傳回304狀態（未修改），而不檢查檔案是否實際變更。 設定為-2以使用`attribute::Expiration`提供的預設設定。
+實數、-2、-1或0或更高。 自回應影像產生後，到期前的小時數。 設為0，一律會立即使回覆影像過期，這會有效停用用戶端快取。 設定為-1以標籤為&#x200B;*`never expire`*。 在這種情況下，伺服器會回應條件式GET要求，而一律傳回304狀態（未修改），而不檢查檔案是否實際變更。 設定為-2以使用`attribute::Expiration`提供的預設設定。
 
 ## 預設 {#section-ec72cc1dfc5e4f278174d37da2e39462}
 
