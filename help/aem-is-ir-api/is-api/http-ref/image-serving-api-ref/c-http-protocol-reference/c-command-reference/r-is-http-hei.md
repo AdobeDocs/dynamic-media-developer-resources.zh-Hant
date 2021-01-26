@@ -4,13 +4,13 @@ seo-description: 檢視高度. 指定在請求中未顯示符合時的回應影�
 seo-title: hei
 solution: Experience Manager
 title: 黑
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 307952bb-604f-49b4-bce3-b7a7fc7ec63b
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '299'
+ht-degree: 4%
 
 ---
 
