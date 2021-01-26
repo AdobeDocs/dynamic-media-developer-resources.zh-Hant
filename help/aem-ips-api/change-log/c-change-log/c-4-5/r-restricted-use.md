@@ -1,15 +1,12 @@
 ---
-description: 測試版WSDL中提供的這些新或修改的作業和資料類型，在Scene7開發的應用程式外部不會使用。
-seo-description: 測試版WSDL中提供的這些新或修改的作業和資料類型，在Scene7開發的應用程式外部不會使用。
-seo-title: 限制使用
+description: 測試版WSDL中提供的這些新或修改的作業和資料類型，在Dynamic Media開發的應用程式之外，不會使用。
 solution: Experience Manager
 title: 限制使用
-topic: Scene7 Image Production System API
-uuid: 76a423e5-ff7d-44a3-aba4-af258ea55256
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 0%
 
 # 限制使用{#restricted-use}
 
-測試版WSDL中提供的這些新或修改的作業和資料類型，在Scene7開發的應用程式外部不會使用。
+測試版WSDL中提供的這些新或修改的作業和資料類型，在Dynamic Media開發的應用程式之外，不會使用。
 
 這些操作和類型可能會在後續系統更新中禁用、更改或取代。
 
