@@ -1,16 +1,13 @@
 ---
 description: 所有日誌檔案都寫入到與TC目錄指定的同一日誌資料夾中。
-seo-description: 所有日誌檔案都寫入到與TC目錄指定的同一日誌資料夾中。
-seo-title: 伺服器記錄
 solution: Experience Manager
 title: 伺服器記錄
-topic: Scene7 Image Serving - Image Rendering API
-uuid: f6145737-e4c3-4533-9be5-5b5a0202fe33
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 5717550d2dea8ec086875e770ff8f200aaa75ff3
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '169'
+ht-degree: 1%
 
 ---
 
@@ -25,7 +22,7 @@ ht-degree: 0%
 
 平台伺服器和映像伺服器建立以下描述的三種類型的日誌檔案。
 
-其他Image Serving元件和某些其他Scene7套件（例如Scene7檢視器）也可能會在相同的檔案夾中建立記錄檔。 這些記錄檔是供Scene7內部使用，Scene7支援可能會要求這些記錄檔以排除故障。
+其他影像伺服元件和某些其他動態媒體封裝（例如動態媒體檢視器）也可能會在相同資料夾中建立記錄檔。 這些記錄檔是供動態媒體內部使用，且可能由動態媒體技術支援提出要求，以排除故障。
 
 * [存取記錄](c-access-log.md)
 * [跟蹤日誌](c-trace-log.md)
