@@ -4,10 +4,10 @@ seo-description: 設定屬於特定公司之使用者的群組成員資格。
 seo-title: setGroupMembers
 solution: Experience Manager
 title: setGroupMembers
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: fe6585ef-a4b3-4b3c-95d0-624017650497
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 8%
@@ -33,9 +33,9 @@ ht-degree: 8%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 公司負責人。 |
-| ` *`groupHandle`*` | `xsd:string` | 是 | 群組控制代碼。 |
-| ` *`userHandleArray`*` | `types:HandleArray` | 是 | 您要設定其群組成員資格的使用者的控制代碼陣列。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 公司負責人。 |
+| `*`groupHandle`*` | `xsd:string` | 是 | 群組控制代碼。 |
+| `*`userHandleArray`*` | `types:HandleArray` | 是 | 您要設定其群組成員資格的使用者的控制代碼陣列。 |
 
 **輸出(setGroupMembersReturn)**
 
