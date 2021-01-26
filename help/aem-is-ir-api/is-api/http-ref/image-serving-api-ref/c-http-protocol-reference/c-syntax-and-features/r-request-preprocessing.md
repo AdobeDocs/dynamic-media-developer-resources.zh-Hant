@@ -4,10 +4,10 @@ seo-description: 「影像伺服」提供以規則運算式比對和替代規則
 seo-title: 要求預處理
 solution: Experience Manager
 title: 要求預處理
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 375bbca2-7a4a-49a9-9577-86e6b2f19990
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 0%
