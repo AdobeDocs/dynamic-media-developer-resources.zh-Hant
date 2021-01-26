@@ -4,10 +4,10 @@ seo-description: 某些應用可能需要對不同種類的材料使用不同的
 seo-title: 使用多個照明地圖
 solution: Experience Manager
 title: 使用多個照明地圖
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 24d86229-6e88-4fe2-80ef-30461aee3db5
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 0%
