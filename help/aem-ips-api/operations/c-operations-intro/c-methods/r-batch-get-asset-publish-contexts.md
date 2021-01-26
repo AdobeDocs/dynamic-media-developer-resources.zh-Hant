@@ -1,16 +1,13 @@
 ---
 description: 傳回標示為發佈之資產的發佈內容。
-seo-description: 傳回標示為發佈之資產的發佈內容。
-seo-title: batchGetAssetPublishContexts
 solution: Experience Manager
 title: batchGetAssetPublishContexts
-topic: Scene7 Image Production System API
-uuid: 7f442019-37a9-4473-be92-a952a7a67664
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 14%
+source-wordcount: '97'
+ht-degree: 16%
 
 ---
 
@@ -48,14 +45,14 @@ ht-degree: 14%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 為公司負責。 |
-| ` *`assetHandleArray`*` | ` `類型：HandleArray&quot; | 是 | 您要查詢作用中（標示為發佈）內容的資產清單。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 為公司負責。 |
+| `*`assetHandleArray`*` | ` `類型：HandleArray&quot; | 是 | 您要查詢作用中（標示為發佈）內容的資產清單。 |
 
 **輸出(batchGetAssetPublishContextsReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`assetPublishContextsArray`*` | `types:assetPublishContextsArray` | 是 | 一組發佈上下文，每個資產都標籤為要發佈。 |
+| `*`assetPublishContextsArray`*` | `types:assetPublishContextsArray` | 是 | 一組發佈上下文，每個資產都標籤為要發佈。 |
 
 ## 範例 {#section-457f6809ccfa425b9a0976313d613f4e}
 
