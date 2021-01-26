@@ -4,10 +4,10 @@ seo-description: 快取控制。 允許選擇性地停用內部平台伺服器�
 seo-title: 快取
 solution: Experience Manager
 title: 快取
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 08f4e4d0-0f7d-48fe-956c-284af97c902e
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 1%
@@ -38,7 +38,7 @@ ht-degree: 1%
  </tr> 
 </table>
 
-如果只指定一個` *`cacheControl`*`值，則該值將同時應用於客戶機和伺服器快取。
+如果只指定一個`*`cacheControl`*`值，則該值將同時應用於客戶機和伺服器快取。
 
 `validate`關鍵字允許在映像檔案更改後更新快取條目，而無需等待快取條目自動過期。 用戶端快取不受此命令的影響。
 
