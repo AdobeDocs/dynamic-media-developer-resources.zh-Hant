@@ -4,13 +4,13 @@ seo-description: 更新標籤欄位的標籤字典值。
 seo-title: updateTagFieldValues
 solution: Experience Manager
 title: updateTagFieldValues
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 21689469-a0dd-480b-82ba-ebd12956ff8f
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '166'
+ht-degree: 15%
 
 ---
 
@@ -66,11 +66,11 @@ ht-degree: 0%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | 是 | 成功更新標籤欄位的數目。 |
-| ` *`warningCount`*` | `xsd:int` | 是 | 嘗試更新標籤欄位時生成的警告數。 |
-| ` *`errorCount`*` | `xsd:int` | 是 | 嘗試更新標籤欄位時生成的錯誤數。 |
-| ` *`warningDetailArray`*` | `types:TagValueUpdateFaultArray` | 否 | 與資產相關的詳細資訊陣列，當操作嘗試更新標籤欄位時，這些資產會產生警告。 |
-| ` *`errorDetailArray`*` | `types:TagValueUpdateFaultArray` | 否 | 當操作嘗試更新標籤欄位時，與產生錯誤的資產相關的詳細資訊陣列。 |
+| `*`successCount`*` | `xsd:int` | 是 | 成功更新標籤欄位的數目。 |
+| `*`warningCount`*` | `xsd:int` | 是 | 嘗試更新標籤欄位時生成的警告數。 |
+| `*`errorCount`*` | `xsd:int` | 是 | 嘗試更新標籤欄位時生成的錯誤數。 |
+| `*`warningDetailArray`*` | `types:TagValueUpdateFaultArray` | 否 | 與資產相關的詳細資訊陣列，當操作嘗試更新標籤欄位時，這些資產會產生警告。 |
+| `*`errorDetailArray`*` | `types:TagValueUpdateFaultArray` | 否 | 當操作嘗試更新標籤欄位時，與產生錯誤的資產相關的詳細資訊陣列。 |
 
 ## 範例 {#section-bb4dcf97044c4675974c9b8d27674001}
 
