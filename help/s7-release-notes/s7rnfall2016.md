@@ -7,9 +7,9 @@ title: Scene7 2016年秋季發行
 topic: Dynamic media
 uuid: 3fddda65-0c6e-48ec-bd60-7e0ca59421a8
 translation-type: tm+mt
-source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '2263'
+source-wordcount: '2264'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,8 @@ Adobe Scene7 2016年秋季版本的最新發行說明，是Adobe Marketing Cloud
 * [檢視器(Image Serving 5.5.3)](s7rnfall2016.md#section-1d59bcd5825d487b80b59a6d1a08ed30)
 * [檢視器(Image Serving 5.5.2)](s7rnfall2016.md#section-9932c988cfee45749594af481dfc6476)
 * [檢視器(Image Serving 5.5.1)](s7rnfall2016.md#section-833ab92c91c941d2bfdc27f233f582ad)
-* [Scene7 HTML5 Viewer SDK 3.0.1](s7rnfall2016.md#section-30e2392859c442d1aab2766d0f1d1580)
-* [Scene7 Image Serving 6.3.2和Image Rendering 6.3.2](s7rnfall2016.md#section-19a3e96f52c74757bcdea0f8a11001f2)
+* [HTML5 Viewer SDK 3.0.1](s7rnfall2016.md#section-30e2392859c442d1aab2766d0f1d1580)
+* [動態媒體影像伺服6.3.2和影像演算6.3.2](s7rnfall2016.md#section-19a3e96f52c74757bcdea0f8a11001f2)
 
 ## 一般 {#section-52afeb72ecb34c1585ea67a5051825a2}
 
@@ -201,8 +201,8 @@ Adobe很榮幸宣佈推出HTTP/2內容傳送，並提升效能。
    * 當iPad裝置上的背景設為白色／透明時，VideoPlayer元件側會顯示黑色邊框。
    * 使用iOS 7的iPad上，視訊的最後一個影格可能會扭曲。
    * 在Chrome、Firefox和Internet Explorer瀏覽器的HLS串流模式中，視訊搜尋期間可能會偶爾發生Macrobocking。
-   * 海報影像可能無法在首次訪客的Microsoft Edge瀏覽器中顯示。
-   * 當使用漸進式播放時，海報影像可能會在Internet Explorer 9中載入視訊後隱藏。
+      * 海報影像可能無法在首次訪客的Microsoft Edge瀏覽器中顯示。
+      * 當使用漸進式播放時，海報影像可能會在Internet Explorer 9中載入視訊後隱藏。
 
 ## Scene7 HTML5 Viewer SDK 3.0.2 {#section-30e2392859c442d1aab2766d0f1d1580}
 
@@ -348,7 +348,7 @@ Adobe很榮幸宣佈推出HTTP/2內容傳送，並提升效能。
    * 海報影像可能無法在首次訪客的Microsoft Edge瀏覽器中顯示。
    * 當使用漸進式播放時，海報影像可能會在Internet Explorer 9中載入視訊後隱藏。
 
-## Scene7 Image Serving 6.3.2和Image Rendering 6.3.2 {#section-19a3e96f52c74757bcdea0f8a11001f2}
+## 動態媒體影像伺服6.3.2和影像演算6.3.2 {#section-19a3e96f52c74757bcdea0f8a11001f2}
 
 * IC實用程式——不再支援`downsample2x2`標誌。 此標幟是品質不佳的2x2下採樣器，IPS不再使用。
 * CORS標題——目前，CORS標題已針對`/is/content/`請求設定。
