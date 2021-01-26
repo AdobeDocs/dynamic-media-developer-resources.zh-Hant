@@ -4,13 +4,13 @@ seo-description: 設定一或多家公司的使用者會籍。
 seo-title: setCompanyMembership
 solution: Experience Manager
 title: setCompanyMembership
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 34c9d457-bc2e-4186-8a8f-50388410640a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '86'
+ht-degree: 13%
 
 ---
 
@@ -34,8 +34,8 @@ ht-degree: 0%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`userHandle`*` | `xsd:sting` | 否 | 使用者控制代碼。 |
-| ` *`membershArray`*` | `types:CompanyMembershipUpdateArray` | 是 | 眾多公司。 |
+| `*`userHandle`*` | `xsd:sting` | 否 | 使用者控制代碼。 |
+| `*`membershArray`*` | `types:CompanyMembershipUpdateArray` | 是 | 眾多公司。 |
 
 **輸出(setCompanyMembershipParam)**
 
