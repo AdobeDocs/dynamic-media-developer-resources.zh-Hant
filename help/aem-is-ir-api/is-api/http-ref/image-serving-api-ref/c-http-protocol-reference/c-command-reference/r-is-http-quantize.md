@@ -4,10 +4,10 @@ seo-description: 色彩量化。 指定GIF輸出轉換的顏色量化屬性。
 seo-title: 量化
 solution: Experience Manager
 title: 量化
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 4e9c4807-59bc-4eb9-bcab-0bf0cfdf56d4
 translation-type: tm+mt
-source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 3%
@@ -46,7 +46,7 @@ ht-degree: 3%
 
 請求屬性。 不論目前的圖層設定如何，都適用。 僅在`fmt=gif`、`fmt=gif-alpha`、`fmt=png8`或`fmt=png8-alpha`時使用。 否則將忽略。
 
-使用` *`colorList`*`指定的顏色必須由RGB值組成，其格式為hex6格式（請參閱` [color](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-color-commandref.md#reference-b044954ec6184253b8831579466b4423)`），不含「 `0x`」首碼。 不允許使用其他顏色說明符。 *`numColors`* 必須介於2-256之間。
+使用`*`colorList`*`指定的顏色必須由RGB值組成，其格式為hex6格式（請參閱` [color](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-color-commandref.md#reference-b044954ec6184253b8831579466b4423)`），不含「 `0x`」首碼。 不允許使用其他顏色說明符。 *`numColors`* 必須介於2-256之間。
 
 ## 預設 {#section-ca3e817617244e8798ccff67b2023a32}
 
