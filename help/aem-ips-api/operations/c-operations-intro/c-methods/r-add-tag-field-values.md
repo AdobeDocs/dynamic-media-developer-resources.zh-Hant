@@ -1,16 +1,13 @@
 ---
 description: 新增標籤值至現有標籤欄位的字典。
-seo-description: 新增標籤值至現有標籤欄位的字典。
-seo-title: addTagFieldValues
 solution: Experience Manager
 title: addTagFieldValues
-topic: Scene7 Image Production System API
-uuid: 9304f02c-a1df-4477-ab33-f2491c390c92
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 12%
+source-wordcount: '90'
+ht-degree: 14%
 
 ---
 
@@ -33,9 +30,9 @@ ht-degree: 12%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 包含標籤欄位之公司的控制代碼。 |
-| ` *`fieldHandle`*` | `xsd:string` | 是 | 要修改的標籤欄位的句柄。 |
-| ` *`valueArray`*` | `xsd:string` | 是 | 要新增至欄位現有字典的標籤值陣列。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 包含標籤欄位之公司的控制代碼。 |
+| `*`fieldHandle`*` | `xsd:string` | 是 | 要修改的標籤欄位的句柄。 |
+| `*`valueArray`*` | `xsd:string` | 是 | 要新增至欄位現有字典的標籤值陣列。 |
 
 **輸出(addTagFieldValuesParam)**
 
