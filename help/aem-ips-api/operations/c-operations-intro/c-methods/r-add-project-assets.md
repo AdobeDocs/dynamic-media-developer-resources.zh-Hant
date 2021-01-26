@@ -1,15 +1,12 @@
 ---
 description: 新增一或多個資產至專案。
-seo-description: 新增一或多個資產至專案。
-seo-title: addProjectAssets
 solution: Experience Manager
 title: addProjectAssets
-topic: Scene7 Image Production System API
-uuid: 48abea17-058e-4469-bb16-0abee8ef5214
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '178'
 ht-degree: 11%
 
 ---
@@ -36,19 +33,19 @@ ht-degree: 11%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 處理至與目前專案相關聯的公司。 |
-| ` *`projectHandle`*` | `xsd:string` | 是 | 處理您要新增資產至的專案。 |
-| ` *`projectHandleArray`*` | `xsd:HandleArray` | 是 | 您要新增至目前專案的資產陣列。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 處理至與目前專案相關聯的公司。 |
+| `*`projectHandle`*` | `xsd:string` | 是 | 處理您要新增資產至的專案。 |
+| `*`projectHandleArray`*` | `xsd:HandleArray` | 是 | 您要新增至目前專案的資產陣列。 |
 
 **輸出(addProjectAssetsParam)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | 是 | 已成功新增資產的數目。 |
-| ` *`warningCount`*` | `xsd:int` | 是 | 操作嘗試將資產添加到項目時生成的警告數。 |
-| ` *`errorCount`*` | `xsd:int` | 是 | 嘗試將資產新增至專案時產生的錯誤數。 |
-| ` *`warningDetailHandle`*` | `xsd:AssetOperationFaultArray` | 否 | 當操作嘗試將資產添加到項目時，資產生成的警告陣列。 |
-| ` *`companyHandle`*` | `xsd:AssetOperationFaultArray` | 否 | 當操作嘗試將資產添加到項目時，資產生成的錯誤陣列。 |
+| `*`successCount`*` | `xsd:int` | 是 | 已成功新增資產的數目。 |
+| `*`warningCount`*` | `xsd:int` | 是 | 操作嘗試將資產添加到項目時生成的警告數。 |
+| `*`errorCount`*` | `xsd:int` | 是 | 嘗試將資產新增至專案時產生的錯誤數。 |
+| `*`warningDetailHandle`*` | `xsd:AssetOperationFaultArray` | 否 | 當操作嘗試將資產添加到項目時，資產生成的警告陣列。 |
+| `*`companyHandle`*` | `xsd:AssetOperationFaultArray` | 否 | 當操作嘗試將資產添加到項目時，資產生成的錯誤陣列。 |
 
 ## 範例 {#section-bee5be2402f54cb9a3a02cc07def4135}
 
