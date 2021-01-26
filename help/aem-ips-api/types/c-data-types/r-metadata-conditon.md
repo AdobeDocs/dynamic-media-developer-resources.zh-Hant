@@ -4,10 +4,10 @@ seo-description: 新增搜尋詞以搭配searchAssets使用。
 seo-title: 中繼資料條件
 solution: Experience Manager
 title: 中繼資料條件
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 9d65b8ce-86a5-4730-af84-a87134fd7db6
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 7%
