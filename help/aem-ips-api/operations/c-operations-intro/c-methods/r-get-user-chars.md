@@ -4,13 +4,13 @@ seo-description: 取得特定欄位中使用的字元清單。
 seo-title: getUserChars
 solution: Experience Manager
 title: getUserChars
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: c9fa7826-5174-4298-99e6-a0627e432567
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '187'
+ht-degree: 11%
 
 ---
 
@@ -34,19 +34,19 @@ ht-degree: 0%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`charField`*` | `xsd:string` | 是 | 決定要搜尋的垃圾筒狀態。 |
-| ` *`includeInactive`*` | `xsd:boolean` | 是 | 包含或排除非作用中使用者。 非IPS管理員使用者必須是至少一家公司的有效成員，才能取得進行任何API呼叫的授權。 如果使用者沒有有效的公司會籍，則會傳回授權錯誤。 |
-| ` *`includeInvalid`*` | `xsd:boolean` | 否 | 包含或排除無效使用者。 |
-| ` *`companyHandleArray`*` | `types:HandleArray` | 否 | 根據公司篩選結果。 |
-| ` *`groupHandleArray`*` | `types:HandleArray` | 否 | 根據群組篩選結果。 |
-| ` *`userRoleArray`*` | `types:StringArray` | 否 | 根據使用者角色篩選結果。 |
-| ` *`numChars`*` | `xsd:int` | 否 | 啟用>1個字元。 |
+| `*`charField`*` | `xsd:string` | 是 | 決定要搜尋的垃圾筒狀態。 |
+| `*`includeInactive`*` | `xsd:boolean` | 是 | 包含或排除非作用中使用者。 非IPS管理員使用者必須是至少一家公司的有效成員，才能取得進行任何API呼叫的授權。 如果使用者沒有有效的公司會籍，則會傳回授權錯誤。 |
+| `*`includeInvalid`*` | `xsd:boolean` | 否 | 包含或排除無效使用者。 |
+| `*`companyHandleArray`*` | `types:HandleArray` | 否 | 根據公司篩選結果。 |
+| `*`groupHandleArray`*` | `types:HandleArray` | 否 | 根據群組篩選結果。 |
+| `*`userRoleArray`*` | `types:StringArray` | 否 | 根據使用者角色篩選結果。 |
+| `*`numChars`*` | `xsd:int` | 否 | 啟用>1個字元。 |
 
 **輸出(getUserCharsReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`userCharsArray`*` | `types:StringArray` | 是 | 字元前置詞的陣列。 |
+| `*`userCharsArray`*` | `types:StringArray` | 是 | 字元前置詞的陣列。 |
 
 ## 範例 {#section-3702f165e8b041139a6144f4a76ca25f}
 
