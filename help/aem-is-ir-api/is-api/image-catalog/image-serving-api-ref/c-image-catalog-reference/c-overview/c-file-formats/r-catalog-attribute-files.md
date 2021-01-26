@@ -4,10 +4,10 @@ seo-description: 目錄屬性檔案可以有任何名稱，但必須有。ini檔
 seo-title: 目錄屬性檔案
 solution: Experience Manager
 title: 目錄屬性檔案
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 63985780-f032-4542-8d84-b8b608ceea4b
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 目錄屬性檔案由一組文本記錄組成，由單個`<CR>`（ASCII代碼`0xD`）、單個`<LF>`（ASCII代碼`0xA`）或`<CR><LF>`對分隔。 每個記錄都由屬性名稱和一個或多個逗號分隔的屬性值組成：
 
-` *`名`*= *`稱值`*{<CR>|<LF>|<CR><LF }`
+`*`名`*= *`稱值`*{<CR>|<LF>|<CR><LF }`
 
 <table id="simpletable_0F879121670046AE9414298725961303"> 
  <tr class="strow"> 
