@@ -4,10 +4,10 @@ seo-description: 從IPS垃圾筒清空資產。
 seo-title: emptyAssetsFromTrash
 solution: Experience Manager
 title: emptyAssetsFromTrash
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: de11a7b0-cd4b-4717-8596-d39afbcf7e9c
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 7%
@@ -37,18 +37,18 @@ ht-degree: 7%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 擁有資產的公司的控制代碼。 |
-| ` *`assetHandleArray`*` | `types:HandleArray` | 是 | 表示要從垃圾桶清空的項目的控制點陣列。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 擁有資產的公司的控制代碼。 |
+| `*`assetHandleArray`*` | `types:HandleArray` | 是 | 表示要從垃圾桶清空的項目的控制點陣列。 |
 
 **輸出(emptyAssetsFromTrashParam)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:Int` | 是 | 成功從垃圾桶清空的資產數。 |
-| ` *`warningCount`*` | `xsd:Int` | 是 | 嘗試從垃圾筒清空資產時產生的警告數。 |
-| ` *`errorCount`*` | `xsd:Int` | 是 | 嘗試從垃圾筒清空資產時產生的錯誤數。 |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 當操作嘗試從垃圾筒中清空資產時，產生警告的資產相關詳細資料陣列。 |
-| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 當操作嘗試從垃圾筒中清空資產時，與產生錯誤的資產相關的詳細資訊陣列。 |
+| `*`successCount`*` | `xsd:Int` | 是 | 成功從垃圾桶清空的資產數。 |
+| `*`warningCount`*` | `xsd:Int` | 是 | 嘗試從垃圾筒清空資產時產生的警告數。 |
+| `*`errorCount`*` | `xsd:Int` | 是 | 嘗試從垃圾筒清空資產時產生的錯誤數。 |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 當操作嘗試從垃圾筒中清空資產時，產生警告的資產相關詳細資料陣列。 |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 當操作嘗試從垃圾筒中清空資產時，與產生錯誤的資產相關的詳細資訊陣列。 |
 
 ## 範例 {#section-6154a873b6c342bf92e2036280cafdcf}
 
