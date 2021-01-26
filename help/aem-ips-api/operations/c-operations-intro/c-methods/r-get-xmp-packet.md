@@ -4,10 +4,10 @@ seo-description: 擷取指定資產的XMP中繼資料封包。
 seo-title: getXMPPacket
 solution: Experience Manager
 title: getXMPPacket
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: c4b40e76-a459-4036-ace2-8df202305bf9
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 20%
@@ -37,14 +37,14 @@ ht-degree: 20%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 公司處理您要傳回的封包（例如`c|656`）。 |
-| ` *`assetHandle`*` | `xsd:string` | 是 | 應擷取XMP封包的資產。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 公司處理您要傳回的封包（例如`c|656`）。 |
+| `*`assetHandle`*` | `xsd:string` | 是 | 應擷取XMP封包的資產。 |
 
 **輸出(getXMPPacketReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`compressedPacket`*` | `xsd:Base 64 binary` | 是 | [!DNL zlib-compressed] XMP封包。 |
+| `*`compressedPacket`*` | `xsd:Base 64 binary` | 是 | [!DNL zlib-compressed] XMP封包。 |
 
 ## 範例 {#section-d681af49122e4ca9bcd04110a2e98e6f}
 
