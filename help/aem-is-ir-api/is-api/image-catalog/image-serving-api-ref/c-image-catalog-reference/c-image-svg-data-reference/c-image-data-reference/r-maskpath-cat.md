@@ -4,13 +4,13 @@ seo-description: 遮色片檔案路徑。 與此目錄記錄關聯的蒙版影�
 seo-title: 遮色片路徑
 solution: Experience Manager
 title: 遮色片路徑
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a2d1f08a-0a26-41a6-9be2-f5cc2afb15c4
 translation-type: tm+mt
-source-git-commit: b4331c6f033903ec64f168da0b739927c6066710
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '191'
+ht-degree: 3%
 
 ---
 
