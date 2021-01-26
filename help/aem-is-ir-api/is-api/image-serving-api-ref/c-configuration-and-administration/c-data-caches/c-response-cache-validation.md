@@ -4,12 +4,12 @@ seo-description: 使用基於目錄或基於過期的快取驗證自動刷新快
 seo-title: 回應快取驗證
 solution: Experience Manager
 title: 回應快取驗證
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d1aad5ae-f0fa-489b-a48b-b0ac8c8f43bb
 translation-type: tm+mt
-source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,6 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Scene7金字塔TIFF(PTIFF)影像會在檔案標題中內部維護檔案日期，以利驗證。 檔案系統維護的檔案修改時間用於檢查非PTIFF檔案是否已更改。
+>動態媒體金字塔TIFF(PTIFF)影像會在檔案標題中內部維護檔案日期，以利驗證。 檔案系統維護的檔案修改時間用於檢查非PTIFF檔案是否已更改。
 
 只有影像檔案會參與快取驗證程式。 字型檔或ICC描述檔的變更不會導致快取項目自動失效。
