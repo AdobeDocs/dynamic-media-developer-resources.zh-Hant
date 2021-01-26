@@ -4,12 +4,12 @@ seo-description: 在URL或目錄修飾詞命令序列中，圖層定義序列以
 seo-title: 指定圖層
 solution: Experience Manager
 title: 指定圖層
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 86ece2a6-5b91-4a24-baaa-542d9ae1e544
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
