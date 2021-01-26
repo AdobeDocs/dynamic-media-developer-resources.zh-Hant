@@ -1,29 +1,29 @@
 ---
-description: 本檔案說明Scene7影像演算的材質目錄。
-seo-description: 本檔案說明Scene7影像演算的材質目錄。
+description: 本檔案說明動態媒體影像演算的材質目錄。
+seo-description: 本檔案說明動態媒體影像演算的材質目錄。
 seo-title: 簡介
 solution: Experience Manager
 title: 簡介
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 38da0561-7730-4170-bf29-02de325b3ad9
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '340'
+ht-degree: 2%
 
 ---
 
 
 # 簡介{#introduction}
 
-本檔案說明Scene7影像演算的材質目錄。
+本檔案說明動態媒體影像演算的材質目錄。
 
 **目標讀者**
 
-本文說明的對象為想要將Scene7影像演算運用於網站或自訂應用程式的資深程式設計人員和網站開發人員。
+本檔案僅針對想要針對網站或自訂應用程式運用動態媒體影像演算的資深程式設計人員和網站開發人員。
 
-假設讀者熟悉Scene7 Image Authoring和Image Rendering、一般HTTP通訊協定標準和慣例，以及基本的影像術語。
+假設讀者熟悉動態媒體影像製作和影像演算、一般HTTP通訊協定標準和慣例，以及基本影像術語。
 
 **檔案慣例**
 
