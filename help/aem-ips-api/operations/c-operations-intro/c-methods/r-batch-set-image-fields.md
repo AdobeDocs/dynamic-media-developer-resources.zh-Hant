@@ -4,10 +4,10 @@ seo-description: 為一或多個影像資產設定影像特定欄位。
 seo-title: batchSetImageFields
 solution: Experience Manager
 title: batchSetImageFields
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: e0ad7da4-cb28-4402-8b47-a600916d23b3
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 9%
@@ -36,18 +36,18 @@ ht-degree: 9%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 包含影像資產之公司的控制代碼。 |
-| ` *`updateArray`*` | `types:ImageFieldUpdateArray` | 是 | 影像欄位陣列會更新。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 包含影像資產之公司的控制代碼。 |
+| `*`updateArray`*` | `types:ImageFieldUpdateArray` | 是 | 影像欄位陣列會更新。 |
 
 **輸出(batchSetImageFields)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | 是 | 成功設定影像欄位的數目。 |
-| ` *`warningCount`*` | `xsd:int` | 是 | 嘗試設定影像欄位時產生的警告數。 |
-| ` *`errorCount`*` | `xsd:int` | 是 | 嘗試設定影像欄位時產生的錯誤數。 |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 與資產相關的詳細資料陣列，當操作嘗試套用更新時，這些資產會產生警告。 |
-| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 當操作嘗試套用更新時，與產生錯誤的資產相關的詳細資訊陣列。 |
+| `*`successCount`*` | `xsd:int` | 是 | 成功設定影像欄位的數目。 |
+| `*`warningCount`*` | `xsd:int` | 是 | 嘗試設定影像欄位時產生的警告數。 |
+| `*`errorCount`*` | `xsd:int` | 是 | 嘗試設定影像欄位時產生的錯誤數。 |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 與資產相關的詳細資料陣列，當操作嘗試套用更新時，這些資產會產生警告。 |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 當操作嘗試套用更新時，與產生錯誤的資產相關的詳細資訊陣列。 |
 
 ## 範例 {#section-0476e3d6516a4f8bbaac9de983bc6d1e}
 
