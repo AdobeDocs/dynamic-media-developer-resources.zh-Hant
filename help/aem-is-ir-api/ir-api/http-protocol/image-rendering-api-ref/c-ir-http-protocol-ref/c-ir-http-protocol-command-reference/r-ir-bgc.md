@@ -4,12 +4,12 @@ seo-description: 背景顏色. 指定可上色紋理和底色的減色顏色。
 seo-title: bgc
 solution: Experience Manager
 title: bgc
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 551a0da8-dd1f-484a-bf7e-f4896370340a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '169'
 ht-degree: 7%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 7%
 
 影像渲染的紋理上色算法非常簡單——從紋理像素中減去`bgc=`的分量值，添加`color=`，最後將結果裁剪到`0,0,0`和`255,255,255`。
 
-對於紋理著色的典型用途，`bgc=`的值可能是紋理影像中最重要或最主要的顏色。 Scene7影像製作提供半自動工具，可從紋理影像擷取合理的`bgc=`色彩值。
+對於紋理著色的典型用途，`bgc=`的值可能是紋理影像中最重要或最主要的顏色。 「動態媒體影像製作」提供半自動工具，可從紋理影像擷取合理的`bgc=`色彩值。
 
 當紋理材料應用於非可紋理的暈映對象時，如果未指定`color=`,`bgc=`將作為前景顏色應用。
 
