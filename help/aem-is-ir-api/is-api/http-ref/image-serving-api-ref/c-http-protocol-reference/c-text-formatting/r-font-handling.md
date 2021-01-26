@@ -4,10 +4,10 @@ seo-description: RTF字串中引用的所有字型都必須在預設目錄或當
 seo-title: 字型處理
 solution: Experience Manager
 title: 字型處理
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 6a751973-5dae-472e-a908-bf24fa59d031
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 1%
