@@ -4,12 +4,12 @@ seo-description: 「影像伺服」提供多種轉換文字的替代方式，可
 seo-title: 文字格式
 solution: Experience Manager
 title: 文字格式
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e67b6dd2-2a78-4014-9525-816d91c9e783
 translation-type: tm+mt
-source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '574'
 ht-degree: 6%
 
 ---
@@ -152,7 +152,7 @@ ht-degree: 6%
 
 RTF相容字串可以手動組合，或在能夠保存RTF檔案的文本編輯器或文字處理器中格式化所需文本。 然後，RTF檔案可以在純文字檔案編輯器中開啟，並將檔案的相關原始RTF內容複製到請求URL。
 
-有些字處理器會產生較大的檔案，其中包含Scene7影像伺服不使用的大量前導碼。 建議在將字串傳遞到文本命令之前，先從字串中刪除未使用的RTF元素。
+某些字處理器產生較大的檔案，這些檔案包括動態媒體影像服務不使用的大量前導碼。 建議在將字串傳遞到文本命令之前，先從字串中刪除未使用的RTF元素。
 
 RTF字串支援以UTF-8和ISO標準為基礎的語言編碼，以取代標準RTF字元編碼機制。 這樣，應用程式就可以向伺服器發送非英文文本，而不需具備RTF編碼知識。
 
