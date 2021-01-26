@@ -4,10 +4,10 @@ seo-description: 顏色值。 您可以使用十六進位符號、以逗號分�
 seo-title: 色彩
 solution: Experience Manager
 title: 色彩
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 61308b8e-eaac-4b2e-8500-2f9efa8a6ce8
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 14%
