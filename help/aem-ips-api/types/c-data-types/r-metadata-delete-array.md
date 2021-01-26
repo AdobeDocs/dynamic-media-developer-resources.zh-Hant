@@ -4,13 +4,13 @@ seo-description: 要從資產刪除的中繼資料陣列。
 seo-title: 中繼資料DeleteArray
 solution: Experience Manager
 title: 中繼資料DeleteArray
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 02bf3cb4-1643-4b97-9353-abb5001b1aa2
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '43'
+ht-degree: 13%
 
 ---
 
@@ -25,5 +25,5 @@ ht-degree: 0%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| ` *`項目`*` | `type:Metadata` | 要刪除的中繼資料參數陣列。 |
+| `*`項目`*` | `type:Metadata` | 要刪除的中繼資料參數陣列。 |
 
