@@ -1,15 +1,12 @@
 ---
 description: 將資產上傳至Scene7 Production System涉及一或多個HTTP POST請求，這些請求會設定工作以協調與上傳檔案相關的所有記錄活動。
-seo-description: 將資產上傳至Scene7 Production System涉及一或多個HTTP POST請求，這些請求會設定工作以協調與上傳檔案相關的所有記錄活動。
-seo-title: 透過HTTP POST上傳資產至UploadFile Servlet
 solution: Experience Manager
 title: 透過HTTP POST上傳資產至UploadFile Servlet
-topic: Scene7 Image Production System API
-uuid: 8d562316-0849-4b95-a974-29732d453dc8
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 5d738b675975251dc3491ac7ae533eda082df134
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '727'
 ht-degree: 3%
 
 ---
@@ -29,7 +26,7 @@ https://<server>/scene7/UploadFile
 >
 >上傳作業的所有POST請求都必須源自相同的IP位址。
 
-**存取Scene7地區的URL**
+**動態媒體地區的存取URL**
 
 <table id="table_45BB314ABCDA49F38DF7BECF95CC984A"> 
  <thead> 
