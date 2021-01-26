@@ -4,13 +4,13 @@ seo-description: 建立預設檢視，以決定使用者可看見的內容。 �
 seo-title: createViewerPreset
 solution: Experience Manager
 title: createViewerPreset
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 4160d2b0-6147-459f-830a-43c99b8dc196
 translation-type: tm+mt
-source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '190'
+ht-degree: 11%
 
 ---
 
@@ -34,17 +34,17 @@ ht-degree: 0%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 包含檢視器預設集和資產的公司控制代碼。 |
-| ` *`folderHandle`*` | `xsd:string` | 是 | 包含資產的資料夾的控制代碼。 |
-| ` *`名稱`*` | `xsd:string` | 是 | 檢視器名稱。 |
-| ` *`類型`*` | `xsd:string` | 是 | 檢視器類型. |
-| ` *`configSettingArray`*` | `types:ConfigSettingArray` | 否 | 包含您要套用預設集之影像名稱、值和處理點的陣列。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 包含檢視器預設集和資產的公司控制代碼。 |
+| `*`folderHandle`*` | `xsd:string` | 是 | 包含資產的資料夾的控制代碼。 |
+| `*`名稱`*` | `xsd:string` | 是 | 檢視器名稱。 |
+| `*`類型`*` | `xsd:string` | 是 | 檢視器類型. |
+| `*`configSettingArray`*` | `types:ConfigSettingArray` | 否 | 包含您要套用預設集之影像名稱、值和處理點的陣列。 |
 
 **輸出(createViewerPresetReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`viewerPresetHandle`*` | `xsd:string` | 是 | 預設集的控制代碼給檢視器。 |
+| `*`viewerPresetHandle`*` | `xsd:string` | 是 | 預設集的控制代碼給檢視器。 |
 
 ## 範例 {#section-c88ea63536f3461cbe4677ba53f875dd}
 
