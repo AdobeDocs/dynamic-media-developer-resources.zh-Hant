@@ -4,10 +4,10 @@ seo-description: 本節將說明影像目錄的功能和語法。
 seo-title: 影像目錄
 solution: Experience Manager
 title: 影像目錄
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d329807a-22b0-42a3-9297-8dad7a1dce43
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 0%
@@ -23,13 +23,13 @@ ht-degree: 0%
 
 * 允許將影像與特定中繼資料和修飾元指令持續關聯。
 
-   使用捷徑符號` *`rootId/objId`*`參考影像目錄中的項目，其中` *`rootId`*`識別影像目錄，` *`objId`*`識別目錄中的資料記錄。
+   使用捷徑符號`*`rootId/objId`*`參考影像目錄中的項目，其中`*`rootId`*`識別影像目錄，`*`objId`*`識別目錄中的資料記錄。
 * 提供特定請求屬性的預設值，例如JPEG品質或是要套用浮水印。
 * 管理字型、ICC設定檔、巨集定義和要求範本
 
 即使未定義特定的影像目錄，影像目錄的所有功能都可透過預設目錄([!DNL default.ini])使用。
 
-如果請求的URL路徑中的` *`rootId`*`符合特定影像目錄的`attribute::RootId`，該目錄將成為此請求的主目錄。 主目錄提供整個請求的預設屬性和設定。 如果找不到相符項目，則會改用預設目錄。
+如果請求的URL路徑中的`*`rootId`*`符合特定影像目錄的`attribute::RootId`，該目錄將成為此請求的主目錄。 主目錄提供整個請求的預設屬性和設定。 如果找不到相符項目，則會改用預設目錄。
 
 `src=`或`mask=`命令中標識的目錄向當前層提供以下目錄屬性和資料：
 
@@ -104,7 +104,7 @@ ht-degree: 0%
 
 `icc=`命令中標識的目錄僅用於從目錄的ICC配置檔案表查找條目。 不涉及其他目錄屬性或資料。
 
-如果` *`rootId`*`解析為目錄，且` *`objId`*`與該目錄中的`catalog::Id`相符，則` *`rootId/objId`*`會被類似下列的目錄項目有效取代：
+如果`*`rootId`*`解析為目錄，且`*`objId`*`與該目錄中的`catalog::Id`相符，則`*`rootId/objId`*`會被類似下列的目錄項目有效取代：
 
 `src=attribute::RootPath/catalog::Path& mask=attribute::RootPath/catalog::MaskPath& anchor=catalog::Anchor& catalog::Modifier& catalog::PostModifier`
 
