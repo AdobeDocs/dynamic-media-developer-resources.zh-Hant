@@ -4,10 +4,10 @@ seo-description: 圖層背景顏色。 指定目前圖層的背景顏色和不�
 seo-title: bgColor
 solution: Experience Manager
 title: bgColor
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: bcbd368f-d200-4b1f-8e9f-bf4d88f14b72
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 4%
