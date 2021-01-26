@@ -4,13 +4,13 @@ seo-description: 取得與特定公司相關的資產和資產數目。
 seo-title: getAssetCounts
 solution: Experience Manager
 title: getAssetCounts
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 92103806-59da-444f-b69c-d045d0ebf42e
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '155'
+ht-degree: 9%
 
 ---
 
@@ -40,13 +40,13 @@ ht-degree: 0%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 您要計算資產的公司控制代碼。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 您要計算資產的公司控制代碼。 |
 
 **輸出(getAssetCountsReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`countArray`*` | `types:AssetCountArray` | 否 | 資產類型的陣列，每個資產類型都有自己的計數欄位，可讓每個陣列元素呈現多種資產類型。 |
+| `*`countArray`*` | `types:AssetCountArray` | 否 | 資產類型的陣列，每個資產類型都有自己的計數欄位，可讓每個陣列元素呈現多種資產類型。 |
 
 ## 範例 {#section-6052a503eb3843f6adb99e200fdba280}
 
