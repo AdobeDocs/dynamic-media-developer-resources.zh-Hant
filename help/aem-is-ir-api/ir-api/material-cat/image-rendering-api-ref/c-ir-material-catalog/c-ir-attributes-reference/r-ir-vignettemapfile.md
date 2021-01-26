@@ -4,13 +4,13 @@ seo-description: 暈映映射資料檔案路徑。 指定包含此映像目錄�
 seo-title: VignetteMapFile
 solution: Experience Manager
 title: VignetteMapFile
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d07dcfea-241e-4431-b09e-dbd1df38b8ca
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '87'
+ht-degree: 4%
 
 ---
 
