@@ -4,10 +4,10 @@ seo-description: 伺服器可配置為在超出某些效能或錯誤閾值時發
 seo-title: 伺服器監控
 solution: Experience Manager
 title: 伺服器監控
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: c4042ed9-e186-4f0f-a48b-1af3b67a2f04
 translation-type: tm+mt
-source-git-commit: 5717550d2dea8ec086875e770ff8f200aaa75ff3
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 1%
