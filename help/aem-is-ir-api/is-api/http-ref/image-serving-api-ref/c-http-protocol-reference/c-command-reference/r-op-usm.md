@@ -4,13 +4,13 @@ seo-description: 遮色片銳利化。 如果layer=comp，在進行所有縮放�
 seo-title: op_usm
 solution: Experience Manager
 title: op_usm
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: c647e063-2405-489b-b14d-a70638ac8af7
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '165'
+ht-degree: 7%
 
 ---
 
