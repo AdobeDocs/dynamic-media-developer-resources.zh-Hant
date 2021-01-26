@@ -4,13 +4,13 @@ seo-description: Digimarc使用者資訊。 指定Digimarc嵌入的用戶資訊�
 seo-title: DigimarcId
 solution: Experience Manager
 title: DigimarcId
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 23f1952f-71b7-4b2a-917d-8161ea855ac9
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '135'
+ht-degree: 3%
 
 ---
 
