@@ -4,13 +4,13 @@ seo-description: 可讓管理員建立新的中繼資料欄位，以與內容管
 seo-title: createMetadataField
 solution: Experience Manager
 title: createMetadataField
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 50ab61fa-df44-4305-ad9f-693c4aea1e69
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '317'
+ht-degree: 12%
 
 ---
 
@@ -94,7 +94,7 @@ ht-degree: 0%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`fieldHandle`*` | `xsd:string` | 是 | 新中繼資料欄位的控制代碼。 |
+| `*`fieldHandle`*` | `xsd:string` | 是 | 新中繼資料欄位的控制代碼。 |
 
 ## 範例 {#section-ba66be30f36b4aeba1bc721b0b92fdfc}
 
