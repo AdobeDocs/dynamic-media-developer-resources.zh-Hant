@@ -4,10 +4,10 @@ seo-description: 建立或編輯縮放目標。
 seo-title: saveZoomTarget
 solution: Experience Manager
 title: saveZoomTarget
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 197f7a2a-39ea-41cc-8e3a-76f9fe1b37d0
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 19%
@@ -36,21 +36,21 @@ ht-degree: 19%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 包含您要儲存之縮放目標之公司的控制代碼。 |
-| ` *`assetHandle`*` | `xsd:string` | 是 | 縮放目標的控點。 |
-| ` *`zoomTargetHandle`*` | `xsd:string` | 否 | 編輯或建立縮放目標。 |
-| ` *`名稱`*` | `xsd:string` | 是 | 縮放目標名稱。 |
-| ` *`xPosition`*` | `xsd:int` | 是 | 左側像素位置。 |
-| ` *`yPosition`*` | `xsd:int` | 是 | 最上方像素位置。 |
-| ` *`width`*` | `xsd:int` | 是 | 縮放目標寬度。 |
-| ` *`height`*` | `xsd:int` | 是 | 縮放目標高度。 |
-| ` *`使用者資料`*` | `xsd:string` | 是 | 針對特定客戶的資訊。 可以包含任何類型的資料。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 包含您要儲存之縮放目標之公司的控制代碼。 |
+| `*`assetHandle`*` | `xsd:string` | 是 | 縮放目標的控點。 |
+| `*`zoomTargetHandle`*` | `xsd:string` | 否 | 編輯或建立縮放目標。 |
+| `*`名稱`*` | `xsd:string` | 是 | 縮放目標名稱。 |
+| `*`xPosition`*` | `xsd:int` | 是 | 左側像素位置。 |
+| `*`yPosition`*` | `xsd:int` | 是 | 最上方像素位置。 |
+| `*`width`*` | `xsd:int` | 是 | 縮放目標寬度。 |
+| `*`height`*` | `xsd:int` | 是 | 縮放目標高度。 |
+| `*`使用者資料`*` | `xsd:string` | 是 | 針對特定客戶的資訊。 可以包含任何類型的資料。 |
 
 **輸出(saveZoomTargetReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`zoomTargetHandle`*` | `xsd:string` | 是 | 控制代碼至新建立的縮放目標。 |
+| `*`zoomTargetHandle`*` | `xsd:string` | 是 | 控制代碼至新建立的縮放目標。 |
 
 ## 範例 {#section-509c472c316549cdb228d7e1cfa8400a}
 
