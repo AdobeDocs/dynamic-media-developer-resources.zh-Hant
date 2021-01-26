@@ -4,12 +4,12 @@ seo-description: 本節列出為特定目的而保留的字元。
 seo-title: 保留字元
 solution: Experience Manager
 title: 保留字元
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 3b18da2e-5399-49d0-83c9-66dbf6e7807b
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '87'
 ht-degree: 0%
 
 ---
