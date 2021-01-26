@@ -4,13 +4,13 @@ seo-description: 列印解析度。 覆寫回應影像中內嵌的列印解析�
 seo-title: printRes
 solution: Experience Manager
 title: printRes
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 1a62611a-b3b9-4f20-834f-e34e75d33ddd
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '137'
+ht-degree: 2%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 0%
  </tr> 
 </table>
 
-打印解析度通常由`catalog::PrintResolution`定義，如果是目錄條目，則由&lt;a0/>定義，否則由嵌入在源影像中的打印解析度值定義。 對於模板或分層複合影像，在響應檔案中嵌入的預設打印解析度是具有最低圖層編號的圖層影像的打印解析度。
+打印解析度通常由`catalog::PrintResolution`定義，如果是目錄條目，則由定義，否則由嵌入在源影像中的打印解析度值定義。 對於模板或分層複合影像，在響應檔案中嵌入的預設打印解析度是具有最低圖層編號的圖層影像的打印解析度。
 
 設定列印解析度並不會變更回覆影像的像素大小。
 
