@@ -4,10 +4,10 @@ seo-description: SVG資料檔案路徑。 指定包含此目錄的SVG資料的�
 seo-title: SvgCatalogFile
 solution: Experience Manager
 title: SvgCatalogFile
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f0c8e687-77cc-4ca7-b2c2-6ba8960e11e6
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 3%
