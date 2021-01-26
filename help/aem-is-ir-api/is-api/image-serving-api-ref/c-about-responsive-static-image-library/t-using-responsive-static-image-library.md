@@ -1,15 +1,12 @@
 ---
 description: 若要將互動式影像庫新增至網頁並使用程式庫管理現有影像，請完成下列步驟。
-seo-description: 若要將互動式影像庫新增至網頁並使用程式庫管理現有影像，請完成下列步驟。
-seo-title: 使用互動式影像庫
 solution: Experience Manager
 title: 使用互動式影像庫
-topic: Scene7 Image Serving - Image Rendering API
-uuid: 325cdc8d-2bfa-4f9b-bf88-51d1dcc6c495
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '557'
 ht-degree: 0%
 
 ---
@@ -88,7 +85,7 @@ ht-degree: 0%
 
 **使用智慧型裁切**
 
-AEM 6.4和Scene7檢視器5.9提供兩種智慧型裁切模式：
+AEM 6.4和Dynamic Media Viewers 5.9提供兩種智慧型裁切模式：
 
 * **手動** -用戶定義的斷點和相應的「影像服務」命令在影像元素的屬性中定義。
 * **智慧型裁切** -計算的智慧型裁切轉譯會自動從傳送伺服器擷取。使用影像元素的執行時期大小來選取最佳轉譯。
