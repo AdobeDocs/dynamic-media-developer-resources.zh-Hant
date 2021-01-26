@@ -4,13 +4,13 @@ seo-description: 縮放以影像目錄中的資料為目標。 傳回URL路徑�
 seo-title: 目標
 solution: Experience Manager
 title: 目標
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e20dcd2c-913a-4153-97c7-dfb190763e39
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '202'
+ht-degree: 2%
 
 ---
 
