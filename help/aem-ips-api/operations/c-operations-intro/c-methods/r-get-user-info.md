@@ -4,10 +4,10 @@ seo-description: 取得使用者的相關資訊。 使用系統使用者的電�
 seo-title: getUserInfo
 solution: Experience Manager
 title: getUserInfo
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: b305c108-22e9-4268-a5b3-25fddd844c24
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 9%
@@ -39,14 +39,14 @@ ht-degree: 9%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`userHandle`*` | `xsd:string` | 否 | 處理您要傳回其資訊的使用者。 |
-| ` *`電子郵件`*` | `xsd:string` | 否 | 使用者電子郵件地址。 |
+| `*`userHandle`*` | `xsd:string` | 否 | 處理您要傳回其資訊的使用者。 |
+| `*`電子郵件`*` | `xsd:string` | 否 | 使用者電子郵件地址。 |
 
 **輸出(getUserInfoReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`userInfo`*` | `types:User` | 是 | 使用者的名字、姓氏、電子郵件地址和角色，以及使用者是否有效以及密碼過期。 |
+| `*`userInfo`*` | `types:User` | 是 | 使用者的名字、姓氏、電子郵件地址和角色，以及使用者是否有效以及密碼過期。 |
 
 ## 範例 {#section-98d77a2e360a438dbe240099bea26a65}
 
