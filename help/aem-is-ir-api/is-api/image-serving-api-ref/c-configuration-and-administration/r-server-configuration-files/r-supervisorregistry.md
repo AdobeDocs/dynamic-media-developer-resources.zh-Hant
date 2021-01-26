@@ -1,15 +1,12 @@
 ---
 description: 包含伺服器主管配置設定。
-seo-description: 包含伺服器主管配置設定。
-seo-title: SupervisorRegistry.xml
 solution: Experience Manager
 title: SupervisorRegistry.xml
-topic: Scene7 Image Serving - Image Rendering API
-uuid: 8442a3d6-5f45-48d1-8e6e-71f0ed384227
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '72'
 ht-degree: 0%
 
 ---
@@ -21,7 +18,7 @@ ht-degree: 0%
 
 編輯此XML檔案時，請務必維持有效的XML語法，否則影像伺服器可能會無法啟動。
 
-編輯完此檔案後重新啟動影像伺服，以確保您的變更生效。 僅支援以下突出顯示的元素／屬性值進行修改。 只有在Scene7技術支援建議時，才編輯此檔案的所有其他內容。
+編輯完此檔案後重新啟動影像伺服，以確保您的變更生效。 僅支援以下突出顯示的元素／屬性值進行修改。 只有在Dynamic Media技術支援提供建議時，才能編輯此檔案的所有其他內容。
 
 ```
 <supervisor>
@@ -34,14 +31,14 @@ ht-degree: 0%
     </config>
     <servers>
         <server id="is">
-            <description>Scene7 Image Server</description>
+            <description>Dynamic Media Image Server</description>
             <profile ref="SV::ImageServerMode"/>
             <startPriority>1</startPriority>
             <startDelay>5</startDelay>
             <stopTimeout>60</stopTimeout>
         </server>
         <server id="svg">
-            <description>Scene7 SVG server</description>
+            <description>Dynamic Media SVG server</description>
             <profile ref="Java32"/>
             <profile ref="SVG"/>
             <arguments>
@@ -54,7 +51,7 @@ ht-degree: 0%
             <stopTimeout>60</stopTimeout>
         </server>
         <server id="ps">
-            <description>Scene7 Platform Server</description>
+            <description>Dynamic Media Platform Server</description>
             <profile ref="Java32"/>
             <profile ref="PlatformServer"/>
             <profile ref="Tomcat"/>
