@@ -4,13 +4,13 @@ seo-description: 影像遮色片的使用。 指定如何使用影像的遮色�
 seo-title: maskUse
 solution: Experience Manager
 title: maskUse
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 2c70da87-f869-495a-be50-226a4516e002
 translation-type: tm+mt
-source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '316'
+ht-degree: 2%
 
 ---
 
