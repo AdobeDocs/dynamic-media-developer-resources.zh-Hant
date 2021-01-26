@@ -1,15 +1,12 @@
 ---
 description: 所有配置檔案都位於install_folder/conf中，大多數文本編輯器都可編輯。 伺服器可能需要重新啟動才能使更改生效。
-seo-description: 所有配置檔案都位於install_folder/conf中，大多數文本編輯器都可編輯。 伺服器可能需要重新啟動才能使更改生效。
-seo-title: 伺服器配置檔案
 solution: Experience Manager
 title: 伺服器配置檔案
-topic: Scene7 Image Serving - Image Rendering API
-uuid: 02905b23-bbf3-4ae7-828d-915b22d8f167
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
@@ -21,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->大多數伺服器配置檔案包含本文檔中未說明的其他屬性和值。 這些屬性僅供內部伺服器使用，除非Scene7技術支援特別指示，否則不得修改。
+>大多數伺服器配置檔案包含本文檔中未說明的其他屬性和值。 這些屬性僅供內部伺服器使用，除非Dynamic Media技術支援特別指示，否則不得修改。
 
 本文檔討論以下配置檔案的設定：
 
