@@ -4,13 +4,13 @@ seo-description: 任務進度陣列。 包含有關視訊轉碼工作的資訊�
 seo-title: TaskProgressArray
 solution: Experience Manager
 title: TaskProgressArray
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: e5d9b6ce-f133-47de-beea-b8b395827bb8
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '50'
+ht-degree: 12%
 
 ---
 
@@ -25,5 +25,5 @@ ht-degree: 0%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| ` *`項目`*` | `types:TaskProgress` | 任務進度項。 最小發生次數為零。 最大發生次數無界。 |
+| `*`項目`*` | `types:TaskProgress` | 任務進度項。 最小發生次數為零。 最大發生次數無界。 |
 
