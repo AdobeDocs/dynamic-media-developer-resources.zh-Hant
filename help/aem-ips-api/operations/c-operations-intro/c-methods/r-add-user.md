@@ -1,16 +1,13 @@
 ---
 description: 建立使用者帳戶，並將該帳戶新增至一或多家公司。
-seo-description: 建立使用者帳戶，並將該帳戶新增至一或多家公司。
-seo-title: addUser
 solution: Experience Manager
 title: addUser
-topic: Scene7 Image Production System API
-uuid: b8c5ada6-470e-4795-a4f3-20750da709a9
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '176'
+ht-degree: 13%
 
 ---
 
@@ -34,20 +31,20 @@ ht-degree: 0%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`firstName`*` | `xsd:string` | 是 | 使用者的名字。 |
-| ` *`lastName`*` | `xsd:string` | 是 | 用戶的姓。 |
-| ` *`電子郵件`*` | `xsd:string` | 是 | 使用者的電子郵件地址。 |
-| ` *`defaultRole`*` | `xsd:string` | 是 | 為用戶所屬的每個公司設定角色。 但請注意，`IpsAdmin`角色會覆寫其他每公司設定。 |
-| ` *`密碼`*` | `xsd:string` | 是 | 設定用戶密碼 |
-| ` *`passwordExpires`*` | `xsd:dateTime` | 否 | 設定密碼過期期。 傳入請求時提供時區。 時區會調整為中央時間。 |
-| ` *`isValid`*` | `xsd:boolean` | 是 | 判斷使用者是否有效。 |
-| ` *`membershArray`*` | `xsd:CompanyMembershipUpdateArray` | 是 | 一系列公司控制代碼。 |
+| `*`firstName`*` | `xsd:string` | 是 | 使用者的名字。 |
+| `*`lastName`*` | `xsd:string` | 是 | 用戶的姓。 |
+| `*`電子郵件`*` | `xsd:string` | 是 | 使用者的電子郵件地址。 |
+| `*`defaultRole`*` | `xsd:string` | 是 | 為用戶所屬的每個公司設定角色。 但請注意，`IpsAdmin`角色會覆寫其他每公司設定。 |
+| `*`密碼`*` | `xsd:string` | 是 | 設定用戶密碼 |
+| `*`passwordExpires`*` | `xsd:dateTime` | 否 | 設定密碼過期期。 傳入請求時提供時區。 時區會調整為中央時間。 |
+| `*`isValid`*` | `xsd:boolean` | 是 | 判斷使用者是否有效。 |
+| `*`membershArray`*` | `xsd:CompanyMembershipUpdateArray` | 是 | 一系列公司控制代碼。 |
 
 **輸出(addUserParam)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`userHandle`*` | `xsd:string` | 是 | 使用者的控點。 |
+| `*`userHandle`*` | `xsd:string` | 是 | 使用者的控點。 |
 
 ## 範例 {#section-2547cef622734b71919eef849960b5cb}
 
