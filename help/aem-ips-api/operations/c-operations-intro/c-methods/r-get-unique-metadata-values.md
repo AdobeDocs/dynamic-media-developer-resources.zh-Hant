@@ -4,10 +4,10 @@ seo-description: 取得唯一的中繼資料欄位值。
 seo-title: getUniqueMetadataValues
 solution: Experience Manager
 title: getUniqueMetadataValues
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 5b2f95a7-cc0b-4938-99b9-2aefa0ffe693
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '63'
 ht-degree: 25%
@@ -37,14 +37,14 @@ ht-degree: 25%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 為公司負責。 |
-| ` *`fieldHandle`*` | `xsd:string` | 否 | 處理中繼資料欄位。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 為公司負責。 |
+| `*`fieldHandle`*` | `xsd:string` | 否 | 處理中繼資料欄位。 |
 
 **輸出(getUniqueMetadataValuesReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`values`*` | `type:StringArray` |  |  |
+| `*`values`*` | `type:StringArray` |  |  |
 
 ## 範例 {#section-440f3bc3e5be436cb6ec26117d05f476}
 
