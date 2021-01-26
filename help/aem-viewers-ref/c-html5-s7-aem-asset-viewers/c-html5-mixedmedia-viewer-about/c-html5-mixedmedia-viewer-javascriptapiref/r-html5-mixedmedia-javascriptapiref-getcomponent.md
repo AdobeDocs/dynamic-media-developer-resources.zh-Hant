@@ -7,7 +7,7 @@ title: getComponent
 topic: Dynamic media
 uuid: 77531130-12e7-4001-a68f-c9a581ec5f0d
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 1%
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 ## 參數 {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-` *`componentID`*`  —— 檢 `{String}` 視器使用之檢視器SDK元件的ID。此檢視器支援下列元件ID:
+`*`componentID`*`  —— 檢 `{String}` 視器使用之檢視器SDK元件的ID。此檢視器支援下列元件ID:
 
 <table id="table_7B5DD9303EF44ADD847B13FFEAD135D9"> 
  <thead> 
