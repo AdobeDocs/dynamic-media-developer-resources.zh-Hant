@@ -4,13 +4,13 @@ seo-description: 'Scene 7 Image Serving包含下列元件 '
 seo-title: 影像伺服元件
 solution: Experience Manager
 title: 影像伺服元件
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 84e04972-32ce-4aca-aae6-d5b8bbe761e6
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '216'
+ht-degree: 2%
 
 ---
 
@@ -60,7 +60,7 @@ Scene 7 Image Serving包含下列元件：
    <td colname="col2"> <p>可獨立執行的Java應用程式（非由Tomcat托管）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Scene7影像演算(亦即： 演算伺服器) </p> </td> 
+   <td colname="col1"> <p>動態媒體影像演算(亦即： 演算伺服器) </p> </td> 
    <td colname="col2"> <p>需要個別的授權才能啟動。 位於<span class="filepath"> /ir/render</span>的HTTP訪問。 所有影像演算功能都整合在平台伺服器和影像伺服器中，而不需個別的可執行元件。 </p> </td> 
   </tr> 
  </tbody> 
