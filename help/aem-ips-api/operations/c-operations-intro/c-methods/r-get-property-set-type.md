@@ -4,10 +4,10 @@ seo-description: 使用公司句柄和屬性集類型的名稱獲取屬性集類
 seo-title: getPropertySetType
 solution: Experience Manager
 title: getPropertySetType
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 203fa949-a81e-455a-a83e-576b6f65e3af
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 8%
@@ -39,8 +39,8 @@ ht-degree: 8%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 否 | 公司的把手。 可選，因為屬性集類型可屬於多個公司。 |
-| ` *`名稱`*` | `xsd:string` | 是 | 屬性集類型名稱。 |
+| `*`companyHandle`*` | `xsd:string` | 否 | 公司的把手。 可選，因為屬性集類型可屬於多個公司。 |
+| `*`名稱`*` | `xsd:string` | 是 | 屬性集類型名稱。 |
 
 **輸出(getPropertySetTypeReturn)**
 
