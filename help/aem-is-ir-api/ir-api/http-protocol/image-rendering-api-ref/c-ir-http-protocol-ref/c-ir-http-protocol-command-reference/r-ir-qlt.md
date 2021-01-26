@@ -4,13 +4,13 @@ seo-description: Jpeg品質。 指定JPEG編碼屬性以控制壓縮級別。
 seo-title: qlt
 solution: Experience Manager
 title: qlt
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 46f5b0da-7fe7-4daf-947b-bb5f5f5f5e6d
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '205'
+ht-degree: 7%
 
 ---
 
