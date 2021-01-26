@@ -1,15 +1,12 @@
 ---
-description: 影像集資料。 提供一種機制，可定義已排序的影像集，並控制Scene7檢視器使用的屬性。
-seo-description: 影像集資料。 提供一種機制，可定義已排序的影像集，並控制Scene7檢視器使用的屬性。
-seo-title: ImageSet
+description: 影像集資料。 提供一種機制，可定義已排序的影像集，並控制動態媒體檢視器使用的屬性。
 solution: Experience Manager
 title: ImageSet
-topic: Scene7 Image Serving - Image Rendering API
-uuid: 1a34aaef-4053-4474-abb8-794331898d88
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '684'
 ht-degree: 2%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 2%
 
 # 影像集{#imageset}
 
-影像集資料。 提供一種機制，可定義已排序的影像集，並控制Scene7檢視器使用的屬性。
+影像集資料。 提供一種機制，可定義已排序的影像集，並控制動態媒體檢視器使用的屬性。
 
 影像集由排序的、以逗號分隔的項目清單組成，每個項目由一個或多個子項目（影像ID、色票ID、媒體檔案路徑、標籤等）組成，由分號和／或冒號分隔。
 
@@ -49,24 +46,24 @@ ht-degree: 2%
 
 基本色票集中的每個項目都包括對影像記錄的引用和對用作色票的影像記錄的可選單獨引用。
 
-| ` *`basicSwatchSet`*` | ` *`SwatchItemswatchItem`*&#42;[',' *``*]` |
+| `*`basicSwatchSet`*` | `*`SwatchItemswatchItem`*&#42;[',' *``*]` |
 |---|---|
-| ` *`swatchItem`*` | ` *`imageIdswatch`*[';' *``*]` |
-| ` *`色票`*` | ` *`swatchId`*|solidColorSpecifier` |
-| ` *`imageId`*` | IS影像參考（目錄/ID） |
-| ` *`swatchId`*` | IS影像參考（目錄/ID） |
-| ` *`solidColorSpecifier`*` | ` '{0x' *``* [ *`Rrggbblabel`*]'}'` |
-| ` *`rggbb`*` | 固色色票的6位數十六進位RGB色彩值 |
-| ` *`label`*` | 純色色票的可選文字標籤 |
+| `*`swatchItem`*` | `*`imageIdswatch`*[';' *``*]` |
+| `*`色票`*` | `*`swatchId`*|solidColorSpecifier` |
+| `*`imageId`*` | IS影像參考（目錄/ID） |
+| `*`swatchId`*` | IS影像參考（目錄/ID） |
+| `*`solidColorSpecifier`*` | ` '{0x' *``* [ *`Rrggbblabel`*]'}'` |
+| `*`rggbb`*` | 固色色票的6位數十六進位RGB色彩值 |
+| `*`label`*` | 純色色票的可選文字標籤 |
 
 **階層色票集**
 
 階層式色票集中的每個項目都可由基本色票項目或對色票集記錄的參考（此類項目需要色票）組成。
 
-| ` *`hierarchicalSwatchSet`*` | ` *`hierarchicalSwatchItemhieralSwatchItem`* &#42;[ ',' *``* ]` |
+| `*`hierarchicalSwatchSet`*` | `*`hierarchicalSwatchItemhieralSwatchItem`* &#42;[ ',' *``* ]` |
 |---|---|
-| ` *`hierarchicalSwatchItem`*` | ` *`SwatchIntembasicSwatchSetIdswatch`* | { *``* ';' *``* }` |
-| ` *`basicSwatchSetId`*` | 定義基本色票集的目錄記錄的IS參考（目錄/ID） |
+| `*`hierarchicalSwatchItem`*` | `*`SwatchIntembasicSwatchSetIdswatch`* | { *``* ';' *``* }` |
+| `*`basicSwatchSetId`*` | 定義基本色票集的目錄記錄的IS參考（目錄/ID） |
 
 **基本回轉集**
 
@@ -78,38 +75,38 @@ ht-degree: 2%
 
 二維回轉集中的每個項目都可由簡單影像、基本回轉集的參考，或由大括弧分隔的內嵌基本回轉集組成。 可以使用括弧來取代大括弧。
 
-| ` *`2dSpinItem`*` | ` *`2dSpinSet`* *` 2dSpinItem`* &#42;[ ',' *` 2dSpinItem`* ]` |
+| `*`2dSpinItem`*` | `*`2dSpinSet`* *` 2dSpinItem`* &#42;[ ',' *` 2dSpinItem`* ]` |
 |---|---|
-| ` *`2dSpinItem`*` | ` *``* | { '{' *``* '}' } | *`imageIdbasicSpinSetbasicSpinSetId`*` |
-| ` *`basicSpinSetId`*` | 定義基本回轉集的目錄記錄的IS參考（目錄/ID） |
+| `*`2dSpinItem`*` | `*``* | { '{' *``* '}' } | *`imageIdbasicSpinSetbasicSpinSetId`*` |
+| `*`basicSpinSetId`*` | 定義基本回轉集的目錄記錄的IS參考（目錄/ID） |
 
 **頁面集**
 
 頁面集中的每個項目最多可以由三個以冒號分隔的頁面影像組成。
 
-| ` *`pageSet`*` | ` *`pageItempageItem`* &#42;[ , *``* ]` |
+| `*`pageSet`*` | `*`pageItempageItem`* &#42;[ , *``* ]` |
 |---|---|
-| ` *`pageItem`*` | ` *`imageIdimageImageId`* [ : *``* [ : *``* ] ]` |
+| `*`pageItem`*` | `*`imageIdimageImageId`* [ : *``* [ : *``* ] ]` |
 
 **媒體集**
 
 媒體集中的每個項目都可由影像、基本色票集、階層式色票集、基本回轉集、二維回轉集、頁面集或視訊資產組成。 每個媒體集項目也可以包含選用的色票和文字識別碼。
 
-| ` *`mediaSet`*` | ` *`itemitem`* &#42;[ , *``* ]` |
+| `*`mediaSet`*` | `*`itemitem`* &#42;[ , *``* ]` |
 |---|---|
-| ` *`項目`*` | ` { *``* | *``* | *``*}} | *``* } [ ; [ *``* ] [ ; [ *`videoItemrecutItemimageItemsetItemIDreserved`* ] ] ]` |
-| ` *`videoItem`*` | ` *``* ; *`videoswatchId`*` |
-| ` *`recutItem`*` | ` *``* ; *`recutswatchId`*` |
-| ` *`imageItem`*` | ` *`imageIdswatchId`* ; [ *``* ]` |
-| ` *`setItem`*` | ` { *``* | { '{' *``* '}' } } ; *`setIdinlineSetswatchId`*` |
-| ` *`ID`*` | `media type identifier [ img | basic | advanced_image | img | img_set | advanced_imageset | advanced_swatchset | spin | video ]` |
-| ` *`swatchId`*` | IS影像ID |
-| ` *`視訊`*` | 視訊／動畫檔案路徑或靜態目錄ID |
-| ` *`recut`*` | 重新剪輯定義XML檔案路徑或靜態目錄ID |
-| ` *`imageId`*` | IS影像ID |
-| ` *`setId`*` | IS對影像、回轉或加對錄集的引用 |
-| ` *`inlineSet`*` | 內嵌影像、回轉或加對錄集 |
-| ` *`已保留`*` | 留待日後使用 |
+| `*`項目`*` | ` { *``* | *``* | *``*}} | *``* } [ ; [ *``* ] [ ; [ *`videoItemrecutItemimageItemsetItemIDreserved`* ] ] ]` |
+| `*`videoItem`*` | `*``* ; *`videoswatchId`*` |
+| `*`recutItem`*` | `*``* ; *`recutswatchId`*` |
+| `*`imageItem`*` | `*`imageIdswatchId`* ; [ *``* ]` |
+| `*`setItem`*` | ` { *``* | { '{' *``* '}' } } ; *`setIdinlineSetswatchId`*` |
+| `*`ID`*` | `media type identifier [ img | basic | advanced_image | img | img_set | advanced_imageset | advanced_swatchset | spin | video ]` |
+| `*`swatchId`*` | IS影像ID |
+| `*`視訊`*` | 視訊／動畫檔案路徑或靜態目錄ID |
+| `*`recut`*` | 重新剪輯定義XML檔案路徑或靜態目錄ID |
+| `*`imageId`*` | IS影像ID |
+| `*`setId`*` | IS對影像、回轉或加對錄集的引用 |
+| `*`inlineSet`*` | 內嵌影像、回轉或加對錄集 |
+| `*`已保留`*` | 留待日後使用 |
 
 **Video Sets**
 
