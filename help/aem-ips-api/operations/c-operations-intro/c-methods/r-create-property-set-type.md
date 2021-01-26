@@ -4,10 +4,10 @@ seo-description: 屬性集類型指定用於幫助管理屬性集的各種設定
 seo-title: createPropertySetType
 solution: Experience Manager
 title: createPropertySetType
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: ecbaad48-d725-4f7a-a37d-5e4cde3295cb
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 10%
@@ -34,16 +34,16 @@ ht-degree: 10%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 否 | 擁有屬性集類型的公司的句柄。 如果`companyHandle`未傳遞，而呼叫者是`IpsAdmin`，則會建立全局屬性集類型。 |
-| ` *`名稱`*` | `xsd:string` | 是 | 屬性集類型的名稱。 |
-| ` *`propertyType`*` | `xsd:string` | 是 | 屬性集類型的選擇。 |
-| ` *`allowMultiple`*` | `xsd:boolean` | 是 | 確定程式是否可以有多個屬性集。 |
+| `*`companyHandle`*` | `xsd:string` | 否 | 擁有屬性集類型的公司的句柄。 如果`companyHandle`未傳遞，而呼叫者是`IpsAdmin`，則會建立全局屬性集類型。 |
+| `*`名稱`*` | `xsd:string` | 是 | 屬性集類型的名稱。 |
+| `*`propertyType`*` | `xsd:string` | 是 | 屬性集類型的選擇。 |
+| `*`allowMultiple`*` | `xsd:boolean` | 是 | 確定程式是否可以有多個屬性集。 |
 
 **輸出(createPropertySetTypeReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`typeHandle`*` | `xsd:string` | 是 | 類型的控點。 |
+| `*`typeHandle`*` | `xsd:string` | 是 | 類型的控點。 |
 
 ## 範例 {#section-13396c9639a6475190e622eae3cdb534}
 
