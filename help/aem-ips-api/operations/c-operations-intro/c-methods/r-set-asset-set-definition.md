@@ -4,10 +4,10 @@ seo-description: 更新現有資產集的集定義。
 seo-title: setAssetSetDefinition
 solution: Experience Manager
 title: setAssetSetDefinition
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 2a2dce5d-7a01-49af-ac8b-33ae0b234ecc
 translation-type: tm+mt
-source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 6%
@@ -36,9 +36,9 @@ ht-degree: 6%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 具有資產集的公司的控制代碼。 |
-| ` *`assetHandle`*` | `xsd:string` | 是 | 資產集控制代碼 |
-| ` *`setDefinition`*` | `xsd:string` | 是 | 定義字串。 請參閱以下內容。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 具有資產集的公司的控制代碼。 |
+| `*`assetHandle`*` | `xsd:string` | 是 | 資產集控制代碼 |
+| `*`setDefinition`*` | `xsd:string` | 是 | 定義字串。 請參閱以下內容。 |
 
 **輸出(setAssetSetDefinitionReturn)**
 
