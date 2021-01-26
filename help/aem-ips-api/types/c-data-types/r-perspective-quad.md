@@ -4,13 +4,13 @@ seo-description: getPhotoshopPath操作返回的影像位置座標。
 seo-title: PerspectiveQuad
 solution: Experience Manager
 title: PerspectiveQuad
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: e83b7b8c-995b-4ac0-ace5-491f7e98674d
 translation-type: tm+mt
-source-git-commit: 22b447e66c223126f4e6b91f9a0102e86731c4a4
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '81'
+ht-degree: 17%
 
 ---
 
@@ -25,14 +25,14 @@ getPhotoshopPath操作返回的影像位置座標。
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| ` *`x0`*` | `xsd:double` | 左上x軸坐標。 |
-| ` *`y0`*` | `xsd:double` | 左上Y軸坐標。 |
-| ` *`x1`*` | `xsd:double` | 右上x軸坐標。 |
-| ` *`y1`*` | `xsd:double` | 右上Y軸坐標。 |
-| ` *`x2`*` | `xsd:double` | 右下x軸坐標。 |
-| ` *`y2`*` | `xsd:double` | 右下Y軸坐標。 |
-| ` *`x3`*` | `xsd:double` | 左下x軸共軸。 |
-| ` *`y3`*` | `xsd:double` | 左下Y軸坐標。 |
+| `*`x0`*` | `xsd:double` | 左上x軸坐標。 |
+| `*`y0`*` | `xsd:double` | 左上Y軸坐標。 |
+| `*`x1`*` | `xsd:double` | 右上x軸坐標。 |
+| `*`y1`*` | `xsd:double` | 右上Y軸坐標。 |
+| `*`x2`*` | `xsd:double` | 右下x軸坐標。 |
+| `*`y2`*` | `xsd:double` | 右下Y軸坐標。 |
+| `*`x3`*` | `xsd:double` | 左下x軸共軸。 |
+| `*`y3`*` | `xsd:double` | 左下Y軸坐標。 |
 
 ## 範例 {#section-19ed4409ff3a41c9b52a9c9424612927}
 
