@@ -4,10 +4,10 @@ seo-description: 刪除影像格式。 從saveImageFormat取得影像格式控�
 seo-title: deleteImageFormat
 solution: Experience Manager
 title: deleteImageFormat
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 70dddde9-830b-4267-8ef5-df5241f549e3
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 10%
@@ -34,8 +34,8 @@ ht-degree: 10%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 包含您要刪除之影像格式之公司的控制代碼。 |
-| ` *`imageFormatHandle`*` | `xsd:string` | 是 | 要刪除的影像格式的句柄。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 包含您要刪除之影像格式之公司的控制代碼。 |
+| `*`imageFormatHandle`*` | `xsd:string` | 是 | 要刪除的影像格式的句柄。 |
 
 **輸出(deleteImageFormatParam)**
 
