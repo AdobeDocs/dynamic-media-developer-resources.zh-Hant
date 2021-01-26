@@ -4,10 +4,10 @@ seo-description: 獲取與類型控制滑塊關聯的屬性集。
 seo-title: getPropertySets
 solution: Experience Manager
 title: getPropertySets
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: fa3cadb3-92b3-4ffb-ac1e-87a01b98bcb2
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 17%
@@ -39,15 +39,15 @@ ht-degree: 17%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`typeHandle`*` | `xsd:string` | 是 | 屬性集類型的句柄。 |
-| ` *`primaryOwnerHandle`*` | `xsd:string` | 是 | 綁定到資料庫對象的資料的主所有者。 |
-| ` *`secondaryOwnerHandle`*` | `xsd:string` | 否 | 資料的可選次要擁有者。 |
+| `*`typeHandle`*` | `xsd:string` | 是 | 屬性集類型的句柄。 |
+| `*`primaryOwnerHandle`*` | `xsd:string` | 是 | 綁定到資料庫對象的資料的主所有者。 |
+| `*`secondaryOwnerHandle`*` | `xsd:string` | 否 | 資料的可選次要擁有者。 |
 
 **輸出(getPropertySetsReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`setArray`*` | `types:PropertySetArray` | 是 | 屬性集的陣列。 |
+| `*`setArray`*` | `types:PropertySetArray` | 是 | 屬性集的陣列。 |
 
 ## 範例 {#section-1358af974eab4259864910337a6f0bd2}
 
