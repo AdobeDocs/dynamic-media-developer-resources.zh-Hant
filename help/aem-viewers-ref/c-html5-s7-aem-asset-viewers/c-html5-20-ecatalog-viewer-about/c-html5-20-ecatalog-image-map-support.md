@@ -7,7 +7,7 @@ title: 影像地圖支援
 topic: Dynamic media
 uuid: 69aeda21-909d-45da-bcf5-73ade8c5adda
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 0%
@@ -53,7 +53,7 @@ eCatalog檢視器支援在主檢視上方轉換影像地圖圖示。
 
 ` href=target: *`idx`*`
 
-其中` *`idx`*`是目錄跨頁的零基索引。
+其中`*`idx`*`是目錄跨頁的零基索引。
 
 以下是指向eCatalog中3D跨頁的影像地圖的`href`屬性範例：
 
