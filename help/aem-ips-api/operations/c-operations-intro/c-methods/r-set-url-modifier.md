@@ -4,13 +4,13 @@ seo-description: 設定指定資產的「影像伺服」或「影像演算」通
 seo-title: setUrlModifier
 solution: Experience Manager
 title: setUrlModifier
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: ec423e57-338b-4a32-be5a-a73fa96712ce
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '202'
+ht-degree: 6%
 
 ---
 
@@ -36,10 +36,10 @@ ht-degree: 0%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 公司負責人。 |
-| ` *`assetHandle`*` | `xsd:string` | 是 | 資產控制代碼。 |
-| ` *`urlModifier`*` | `xsd:string` | 否 | 在請求或`urlPostApplyModifier`命令之前應用影像服務或影像渲染協定命令。 |
-| ` *`urlPostApplyModifier`*` | `xsd:string` | 否 | 在`urlModifier`和請求命令後套用的「影像伺服」或「影像演算」通訊協定命令。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 公司負責人。 |
+| `*`assetHandle`*` | `xsd:string` | 是 | 資產控制代碼。 |
+| `*`urlModifier`*` | `xsd:string` | 否 | 在請求或`urlPostApplyModifier`命令之前應用影像服務或影像渲染協定命令。 |
+| `*`urlPostApplyModifier`*` | `xsd:string` | 否 | 在`urlModifier`和請求命令後套用的「影像伺服」或「影像演算」通訊協定命令。 |
 
 **輸出(setUrlModifierReturn)**
 
