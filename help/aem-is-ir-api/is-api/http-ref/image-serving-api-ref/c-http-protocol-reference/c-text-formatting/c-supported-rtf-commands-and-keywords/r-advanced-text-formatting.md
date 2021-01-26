@@ -4,12 +4,12 @@ seo-description: 使用下列命令進行進階文字格式設定。
 seo-title: 進階的文字格式
 solution: Experience Manager
 title: 進階的文字格式
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 340166a5-5aef-4081-9114-a715cde68891
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '248'
 ht-degree: 1%
 
 ---
@@ -71,7 +71,7 @@ ht-degree: 1%
   <tr> 
    <td> <span class="codeph"> \charscaley  <span class="varname"> n  </span> </span> </td> 
    <td> <p>垂直字元縮放。 </p> </td> 
-   <td> <p>正或負百分比；預設值為100;Scene7擴充功能。 </p> <p> <span class="codeph"> \charscaley </span> 也可在套用text=時縮 <span class="codeph"> 放行距 </span>。<span class="codeph"> textPs=不 </span> 論垂直字元縮放的大小，一律會保留行距。 </p> </td> 
+   <td> <p>正或負百分比；預設值為100;動態媒體擴充功能。 </p> <p> <span class="codeph"> \charscaley </span> 也可在套用text=時縮 <span class="codeph"> 放行距 </span>。<span class="codeph"> textPs=不 </span> 論垂直字元縮放的大小，一律會保留行距。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \ltrch  </span> </td> 
@@ -86,17 +86,17 @@ ht-degree: 1%
   <tr> 
    <td> <span class="codeph"> \copyfit  <span class="varname"> N  </span> </span> </td> 
    <td> <p>啟用複製調整並設定允許的最大字型大小。 </p> </td> 
-   <td> <p>字型大小為半點；<span class="codeph"> textPs= </span>;Scene7擴充功能。 </p> </td> 
+   <td> <p>字型大小為半點；<span class="codeph"> textPs= </span>;動態媒體擴充功能。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \copyfitlines  <span class="varname"> N  </span> </span> </td> 
    <td> <p>最大複製適合線（軟限制）。 </p> </td> 
-   <td> <p>0表示無行限；<span class="codeph"> textPs= </span>;Scene7擴充功能。 </p> </td> 
+   <td> <p>0表示無行限；<span class="codeph"> textPs= </span>;動態媒體擴充功能。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \copyfitmaxlines  <span class="varname"> N  </span> </span> </td> 
    <td> <p>最大副本適合線（截斷）。 </p> </td> 
-   <td> <p> <span class="codeph"> textPs=  </span> only;Scene7擴充功能。 </p> </td> 
+   <td> <p> <span class="codeph"> textPs=  </span> only;動態媒體擴充功能。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \baselinedir  <span class="varname"> n  </span> </span> </td> 
