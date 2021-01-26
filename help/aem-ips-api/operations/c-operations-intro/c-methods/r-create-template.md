@@ -4,13 +4,13 @@ seo-description: 建立可包含多個文字和影像圖層的圖層影像。
 seo-title: createTemplate
 solution: Experience Manager
 title: createTemplate
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: c54bd47c-13e1-4b0d-a24c-9829b0a6d5bf
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '205'
+ht-degree: 9%
 
 ---
 
@@ -35,18 +35,18 @@ ht-degree: 0%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 範本所屬的公司。 |
-| ` *`folderHandle`*` | `xsd:string` | 是 | 表示模板所在資料夾的資料夾句柄。 |
-| ` *`名稱`*` | `xsd:string` | 是 | 範本名稱。 |
-| ` *`類型`*` | `xsd:string` | 是 | 範本類型。 |
-| ` *`urlModifier`*` | `xsd:string` | 是 | 指定儲存在IS目錄中的映像伺服器命令，這些命令在URL上任何用戶提供的命令之前應用。 |
-| ` *`urlPostApplyModifier`*` | `xsd:string` | 否 | 指定在任何URL命令之後套用的通訊協定命令，這些命令將覆寫任何衝突的使用者提供的設定。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 範本所屬的公司。 |
+| `*`folderHandle`*` | `xsd:string` | 是 | 表示模板所在資料夾的資料夾句柄。 |
+| `*`名稱`*` | `xsd:string` | 是 | 範本名稱。 |
+| `*`類型`*` | `xsd:string` | 是 | 範本類型。 |
+| `*`urlModifier`*` | `xsd:string` | 是 | 指定儲存在IS目錄中的映像伺服器命令，這些命令在URL上任何用戶提供的命令之前應用。 |
+| `*`urlPostApplyModifier`*` | `xsd:string` | 否 | 指定在任何URL命令之後套用的通訊協定命令，這些命令將覆寫任何衝突的使用者提供的設定。 |
 
 **輸出(createTemplateParam)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`assetHandle`*` | `xsd:string` | 是 | 範本的控制代碼。 |
+| `*`assetHandle`*` | `xsd:string` | 是 | 範本的控制代碼。 |
 
 ## 範例 {#section-09adb4d2f0c944af875c4463a461f55d}
 
