@@ -4,10 +4,10 @@ seo-description: 替代變數可用來將值從請求URL傳輸至影像目錄中
 seo-title: 替代變數
 solution: Experience Manager
 title: 替代變數
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e369f2c3-8d89-4169-8869-f1d7ab89aab9
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 0%
@@ -82,7 +82,7 @@ ht-degree: 0%
 
 ## 預先定義的路徑變數{#section-930d0dd12e8f49499becc9fe8df24092}
 
-在請求路徑中指定的&#x200B;*`object`*&#x200B;被指派給預先定義的變數` *`$object`*`。 「 ` $ *`object`*$`」可放置在請求中的任意位置、請求引用的模板中或允許該對象的嵌套／嵌入請求中，包括`src=`和`mask=`的值，以及嵌套／嵌入請求的路徑。
+在請求路徑中指定的&#x200B;*`object`*&#x200B;被指派給預先定義的變數`*`$object`*`。 「 ` $ *`object`*$`」可放置在請求中的任意位置、請求引用的模板中或允許該對象的嵌套／嵌入請求中，包括`src=`和`mask=`的值，以及嵌套／嵌入請求的路徑。
 
 例如，下列請求會重複使用路徑中指定的影像，作為巢狀請求中圖層的來源：
 
@@ -92,13 +92,13 @@ ht-degree: 0%
 
 `/is/image/a/b?…&layer=3&src=is{…&src=a/b}&…`
 
-通過顯式指定具有所需值的` $ *`object`*=`，可以覆蓋` *`$object`*`的定義。
+通過顯式指定具有所需值的` $ *`object`*=`，可以覆蓋`*`$object`*`的定義。
 
 預先定義的路徑變數通常與`template=`搭配使用。
 
 ## 預設 {#section-b02483d15529444586a2e9504805b155}
 
-無. 只有已定義的變數才會被伺服器取代（預先定義的路徑變數$object除外，這些變數永遠會被取代）。 如果` *`var`*`無法與現有變數定義相符，則任何` $ *`var`*$`的出現次數都會維持常值。
+無. 只有已定義的變數才會被伺服器取代（預先定義的路徑變數$object除外，這些變數永遠會被取代）。 如果`*`var`*`無法與現有變數定義相符，則任何` $ *`var`*$`的出現次數都會維持常值。
 
 ## 範例 {#section-fba9393df6984247b7e30b3f93992e86}
 
