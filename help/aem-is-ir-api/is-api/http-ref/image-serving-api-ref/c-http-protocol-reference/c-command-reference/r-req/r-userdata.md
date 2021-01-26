@@ -4,13 +4,13 @@ seo-description: 影像目錄的使用者資料。 傳回URL路徑中指定之�
 seo-title: 用戶資料
 solution: Experience Manager
 title: 用戶資料
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 7a34adad-f1b6-45a7-94fe-1407845710e5
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '204'
+ht-degree: 2%
 
 ---
 
