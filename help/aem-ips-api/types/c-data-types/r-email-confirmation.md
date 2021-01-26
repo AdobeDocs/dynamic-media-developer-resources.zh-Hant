@@ -1,16 +1,13 @@
 ---
 description: 響應於cdnCacheInvalidation操作，將電子郵件傳送給指定的收件者。
-seo-description: 響應於cdnCacheInvalidation操作，將電子郵件傳送給指定的收件者。
-seo-title: 電子郵件確認
 solution: Experience Manager
 title: 電子郵件確認
-topic: Scene7 Image Production System API
-uuid: c3b7aada-a03a-418d-80b2-31a86a1af786
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 5%
+source-wordcount: '78'
+ht-degree: 6%
 
 ---
 
@@ -25,6 +22,6 @@ ht-degree: 5%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| ` *`ccOriginator`*` | `xsd:boolean` | 若為true，則包含使用者的web service使用者帳戶，此為指定接收Scene7 CDN電子郵件確認的電子郵件清單。 |
-| ` *`ccOthersArray`*` | `types:EmailArray` | 一組電子郵件地址（最多5個），指定用來接收來自Scene7 CDN的確認通知。 |
+| `*`ccOriginator`*` | `xsd:boolean` | 若為true，則包含使用者的web service使用者帳戶，此為指定接收來自Dynamic Media CDN之電子郵件確認的電子郵件清單。 |
+| `*`ccOthersArray`*` | `types:EmailArray` | 一組電子郵件地址（最多5個），指定用來從Dynamic Media CDN接收確認通知。 |
 
