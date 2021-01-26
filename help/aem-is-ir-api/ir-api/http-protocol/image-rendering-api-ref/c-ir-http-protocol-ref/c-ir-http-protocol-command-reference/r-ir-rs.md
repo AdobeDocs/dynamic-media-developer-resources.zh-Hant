@@ -4,12 +4,12 @@ seo-description: 進階演算設定。 指定在渲染當前選區時要應用�
 seo-title: rs
 solution: Experience Manager
 title: rs
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 4ff7fcb4-a10a-4e82-80a1-edf79ae1f717
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '133'
 ht-degree: 3%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 3%
  </tr> 
 </table>
 
-用於微調渲染外觀。 使用暈映製作工具（Scene7 Image Authoring套件的一部分）的演算功能來建立演算設定字串。
+用於微調渲染外觀。 使用暈映製作工具（動態媒體影像製作套件的一部分）的演算功能來建立演算設定字串。
 
 ## 屬性 {#section-9a2b2228789046658cb80eddf343af75}
 
