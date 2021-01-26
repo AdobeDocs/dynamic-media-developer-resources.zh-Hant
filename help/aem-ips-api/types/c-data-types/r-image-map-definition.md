@@ -4,13 +4,13 @@ seo-description: 瀏覽器中點按動作的目標定義。
 seo-title: ImageMapDefinition
 solution: Experience Manager
 title: ImageMapDefinition
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: e3b9a304-5c43-46ce-8e87-860b49006a37
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '82'
+ht-degree: 9%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 0%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| ` *`名稱`*` | `xsd:string` | 影像地圖定義的名稱。 |
-| ` *`shapeType`*` | `xsd:string` | 區域形狀值之一。 |
-| ` *`區域`*` | `xsd:string` | 影像地圖座標。 格式以HTML `<area>`標籤屬性為基礎。 |
-| ` *`操作`*` | `xsd:string` | 要包含在HTML `<area>`標籤中的其他屬性，包括`href` URL。 |
-| ` *`啟動`*` | `xsd:boolean` | 如果影像地圖已啟用，則返回true。 |
+| `*`名稱`*` | `xsd:string` | 影像地圖定義的名稱。 |
+| `*`shapeType`*` | `xsd:string` | 區域形狀值之一。 |
+| `*`區域`*` | `xsd:string` | 影像地圖座標。 格式以HTML `<area>`標籤屬性為基礎。 |
+| `*`操作`*` | `xsd:string` | 要包含在HTML `<area>`標籤中的其他屬性，包括`href` URL。 |
+| `*`啟動`*` | `xsd:boolean` | 如果影像地圖已啟用，則返回true。 |
 
