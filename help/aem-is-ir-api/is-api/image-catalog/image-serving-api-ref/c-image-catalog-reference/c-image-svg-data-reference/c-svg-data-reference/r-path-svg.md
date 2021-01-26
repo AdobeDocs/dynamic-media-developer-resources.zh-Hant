@@ -2,12 +2,12 @@
 description: 路徑
 solution: Experience Manager
 title: 路徑
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d1ed8a98-60eb-4bdb-884e-ea08c018d834
 translation-type: tm+mt
-source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '129'
 ht-degree: 6%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 6%
 
 有關支援的映像檔案格式的完整清單，請參閱映像轉換器(IC)實用程式的說明。
 
-使用Scene7金字塔TIFF(PTIFF)多解析度格式時，需要多種不同解析度影像資料的應用程式效能最佳。 IC公用程式可用來從任何支援的影像格式建立PTIFF影像。
+使用動態媒體金字塔TIFF(PTIFF)多解析度格式時，需要多種不同解析度影像資料的應用程式效能最佳。 IC公用程式可用來從任何支援的影像格式建立PTIFF影像。
 
 ## 預設 {#section-82dad83ec3f84ae8bf2f850b4139f63e}
 
