@@ -2,10 +2,10 @@
 description: getVignettePublishFormats
 solution: Experience Manager
 title: getVignettePublishFormats
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 2cf58002-5c4a-4391-85d4-4a67cb085afa
 translation-type: tm+mt
-source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '61'
 ht-degree: 24%
@@ -30,13 +30,13 @@ ht-degree: 24%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 公司的把手。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 公司的把手。 |
 
 **輸出(getVignettePublishFormatsReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`vignetteFormatArray`*` | `types:VignettePublishFormatArray` | 是 | 暈映發佈格式的陣列。 |
+| `*`vignetteFormatArray`*` | `types:VignettePublishFormatArray` | 是 | 暈映發佈格式的陣列。 |
 
 ## 範例 {#section-2cc32b27cc6243b7b3e273cc05996226}
 
