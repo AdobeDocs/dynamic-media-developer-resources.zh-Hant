@@ -4,10 +4,10 @@ seo-description: 戴卡尺寸。 指定傾斜材料的大小。
 seo-title: 大小
 solution: Experience Manager
 title: 大小
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b82f3429-3d84-4707-8126-d390239df9a2
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 3%
@@ -42,7 +42,7 @@ ht-degree: 3%
 
 ## 預設 {#section-f91f516c6af54f0eb4d8c964b923cae0}
 
-`catalog::Size` 以目錄為依據的貼牌材料；否 `size=0,0,0`則。如果未指定&#x200B;*`wid`*&#x200B;和&#x200B;*`hei`*，則從`res=`計算貼文大小。 如果未指定&#x200B;*`thickness`*&#x200B;或將&lt;a0/>設為0，則不會呈現下垂式陰影。
+`catalog::Size` 以目錄為依據的貼牌材料；否 `size=0,0,0`則。如果未指定&#x200B;*`wid`*&#x200B;和&#x200B;*`hei`*，則從`res=`計算貼文大小。 如果未指定&#x200B;*`thickness`*&#x200B;或將設為0，則不會呈現下垂式陰影。
 
 ## 範例 {#section-04fdc2b60b9e4071b672bf6a913738ad}
 
