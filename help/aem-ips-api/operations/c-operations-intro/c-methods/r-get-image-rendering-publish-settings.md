@@ -4,10 +4,10 @@ seo-description: 僅供內部使用。 請參閱影像渲染材料目錄參考�
 seo-title: getImageRenderingPublishSettings
 solution: Experience Manager
 title: getImageRenderingPublishSettings
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: b1c253b5-febe-4dc7-95a1-a5f4789030e7
 translation-type: tm+mt
-source-git-commit: aa095022d43db4bf815aece9bc2b087c53a64e1b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 14%
@@ -34,12 +34,12 @@ ht-degree: 14%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 您要取得其影像演算發佈設定的公司控制代碼。 |
-| ` *`contextHandle`*` | `xsd:string` | 是 | 處理發佈內容。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 您要取得其影像演算發佈設定的公司控制代碼。 |
+| `*`contextHandle`*` | `xsd:string` | 是 | 處理發佈內容。 |
 
 **輸出(getImageRenderingPublishSettingsReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`publishSettingsArray`*` | `type:ConfigSettingArray` | 是 | 影像演算發佈設定。 |
+| `*`publishSettingsArray`*` | `type:ConfigSettingArray` | 是 | 影像演算發佈設定。 |
 
