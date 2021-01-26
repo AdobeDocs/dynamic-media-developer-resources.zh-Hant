@@ -4,10 +4,10 @@ seo-description: 獲取所有當前活動的作業。
 seo-title: getActiveJobs
 solution: Experience Manager
 title: getActiveJobs
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 3231d349-b254-4dd0-804d-8beaab116b56
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 15%
@@ -38,15 +38,15 @@ ht-degree: 15%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 否 | 公司的把手。 |
-| ` *`jobHandle`*` | `xsd:string` | 否 | 工作的控制。 |
-| ` *`originalName`*` | `xsd:string` | 否 | 原始工作名稱。 |
+| `*`companyHandle`*` | `xsd:string` | 否 | 公司的把手。 |
+| `*`jobHandle`*` | `xsd:string` | 否 | 工作的控制。 |
+| `*`originalName`*` | `xsd:string` | 否 | 原始工作名稱。 |
 
 **輸出(getActiveJobsReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`jobArray`*` | `xsd:string` | 是 | 活動作業的陣列。 |
+| `*`jobArray`*` | `xsd:string` | 是 | 活動作業的陣列。 |
 
 ## 範例 {#section-4ac5dbbf9cd94fdeb013d055f8ee7add}
 
