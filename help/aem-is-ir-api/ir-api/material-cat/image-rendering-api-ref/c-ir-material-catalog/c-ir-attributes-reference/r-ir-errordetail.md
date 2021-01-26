@@ -4,13 +4,13 @@ seo-description: 錯誤消息詳細資訊。 指定透過HTTP傳回之錯誤訊�
 seo-title: ErrorDetail
 solution: Experience Manager
 title: ErrorDetail
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: aab11640-95d7-427d-b79f-c477b2c9047e
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '181'
+ht-degree: 4%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 * 建議對可公開存取的即時伺服器使用0級。
 * 建議使用2級來測試、品質保證和應用程式開發伺服器。
-* 在向Scene7技術支援報告問題時，第3級資訊可能很有用。
+* 第3級資訊在向動態媒體技術支援報告問題時可能很有用。
 
 ## 屬性 {#section-f03f9a8edd6a4d99aff38fbec41c4b80}
 
