@@ -4,13 +4,13 @@ seo-description: 根據您指定的條件搜尋資產。
 seo-title: searchAssets
 solution: Experience Manager
 title: searchAssets
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 125e9e0d-1856-4e80-9778-ca93cd04b766
 translation-type: tm+mt
-source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '637'
+ht-degree: 12%
 
 ---
 
@@ -240,8 +240,8 @@ ht-degree: 0%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`totalRows`*` | `xsd:int` | 否 | 當每頁記錄不受限制時，搜尋傳回的列數。 |
-| ` *`assetArray`*` | `types:AssetArray` | 否 | 搜尋傳回的資產。 |
+| `*`totalRows`*` | `xsd:int` | 否 | 當每頁記錄不受限制時，搜尋傳回的列數。 |
+| `*`assetArray`*` | `types:AssetArray` | 否 | 搜尋傳回的資產。 |
 
 ## 範例 {#section-725484cc09b54772a838ad2cc930b94b}
 
