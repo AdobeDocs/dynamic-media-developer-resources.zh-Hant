@@ -4,10 +4,10 @@ seo-description: 除了常用圖層指令外，這些指令也適用於影像圖
 seo-title: 影像圖層指令
 solution: Experience Manager
 title: 影像圖層指令
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: eb8d2af0-3ec1-4730-886b-7494fb22b3e4
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '53'
 ht-degree: 0%
