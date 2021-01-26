@@ -4,13 +4,13 @@ seo-description: 取得資產的工作記錄檔。 陣列中返回的項目包�
 seo-title: getAssetJobLogs
 solution: Experience Manager
 title: getAssetJobLogs
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 7ea81baf-769b-4c73-bbc6-f52c89c98d50
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '193'
+ht-degree: 8%
 
 ---
 
@@ -39,14 +39,14 @@ ht-degree: 0%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 資產所屬公司的控制代碼。 |
-| ` *`assetHandle`*` | `xsd:string` | 是 | 包含要檢索的作業日誌的資產的句柄。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 資產所屬公司的控制代碼。 |
+| `*`assetHandle`*` | `xsd:string` | 是 | 包含要檢索的作業日誌的資產的句柄。 |
 
 **輸出(getAssetJobLogsReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`jobLogArray`*` | `types:AssetJobLogArray` | 是 | 作業日誌陣列。 |
+| `*`jobLogArray`*` | `types:AssetJobLogArray` | 是 | 作業日誌陣列。 |
 
 ## 範例 {#section-f03d7f3ec5d043d38227f926fb7609f6}
 
