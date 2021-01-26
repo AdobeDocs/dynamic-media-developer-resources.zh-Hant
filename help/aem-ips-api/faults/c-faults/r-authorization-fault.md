@@ -1,16 +1,13 @@
 ---
 description: 當已驗證的使用者沒有足夠的權限來完成工作時拋出。
-seo-description: 當已驗證的使用者沒有足夠的權限來完成工作時拋出。
-seo-title: authorizationFault
 solution: Experience Manager
 title: authorizationFault
-topic: Scene7 Image Production System API
-uuid: 8b8df22a-aa76-4cbd-9c14-89969c5f9620
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 22%
+source-wordcount: '54'
+ht-degree: 27%
 
 ---
 
