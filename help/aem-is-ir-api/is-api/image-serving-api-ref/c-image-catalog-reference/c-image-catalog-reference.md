@@ -4,10 +4,10 @@ seo-description: 影像目錄會將影像和支援資料（例如字型和ICC描
 seo-title: 影像目錄參考
 solution: Experience Manager
 title: 影像目錄參考
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 39d39f42-cd1b-46f5-859c-f32b6b5a20b3
 translation-type: tm+mt
-source-git-commit: b4331c6f033903ec64f168da0b739927c6066710
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '71'
 ht-degree: 1%
