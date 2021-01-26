@@ -4,12 +4,12 @@ seo-description: 替代變數可用來將值從請求URL傳輸至儲存在伺服
 seo-title: 替代變數
 solution: Experience Manager
 title: 替代變數
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 87cd9594-ba3b-429d-aa57-399902ef3abe
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,6 @@ ht-degree: 0%
 
 * 變數定義和參考可能發生在請求URL的查詢部分。
 * 變數定義如下，類似於其他IS命令；前導&#39;$&#39;會將命令識別為變數定義。
-* 變數名稱` *`var`*`區分大小寫，且可由字母、數字、&#39;-&#39;和&#39;_&#39;的任意組合組成。
+* 變數名稱`*`var`*`區分大小寫，且可由字母、數字、&#39;-&#39;和&#39;_&#39;的任意組合組成。
 * 重要值必須是單一傳遞URL編碼，才能安全傳輸HTTP。
 
