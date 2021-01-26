@@ -4,10 +4,10 @@ seo-description: 設定字型中繼資料欄位。
 seo-title: batchSetFontFields
 solution: Experience Manager
 title: batchSetFontFields
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 0209865e-32b3-4bea-a508-05771a0365e1
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 14%
@@ -33,18 +33,18 @@ ht-degree: 14%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 控制代碼至包含字型的公司。 |
-| ` *`updateArray`*` | `types:FontFieldUpdateArray` | 是 | 字型欄位更新的陣列。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 控制代碼至包含字型的公司。 |
+| `*`updateArray`*` | `types:FontFieldUpdateArray` | 是 | 字型欄位更新的陣列。 |
 
 **輸出(batchSetFontFieldsParam)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | 是 | 成功設定字型欄位的數目。 |
-| ` *`warningCount`*` | `xsd:int` | 是 | 嘗試設定字型欄位時產生的警告數。 |
-| ` *`errorCount`*` | `xsd:int` | 是 | 嘗試設定字型欄位時產生的錯誤數。 |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 與資產相關的詳細資料陣列，當操作嘗試套用更新時，這些資產會產生警告。 |
-| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 當操作嘗試套用更新時，與產生錯誤的資產相關的詳細資訊陣列。 |
+| `*`successCount`*` | `xsd:int` | 是 | 成功設定字型欄位的數目。 |
+| `*`warningCount`*` | `xsd:int` | 是 | 嘗試設定字型欄位時產生的警告數。 |
+| `*`errorCount`*` | `xsd:int` | 是 | 嘗試設定字型欄位時產生的錯誤數。 |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 與資產相關的詳細資料陣列，當操作嘗試套用更新時，這些資產會產生警告。 |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 當操作嘗試套用更新時，與產生錯誤的資產相關的詳細資訊陣列。 |
 
 ## 範例 {#section-0449c2e4ec534f4b8ee849ec4fe12c4e}
 
