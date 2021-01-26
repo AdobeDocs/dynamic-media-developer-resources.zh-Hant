@@ -4,10 +4,10 @@ seo-description: 映像轉換實用程式。
 seo-title: ic
 solution: Experience Manager
 title: ic
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 08fabcc9-d0b5-4136-81fc-ac896c341e1d
 translation-type: tm+mt
-source-git-commit: e0f8153b038446180ddad313e591828223ed31e9
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '1208'
 ht-degree: 2%
@@ -27,11 +27,11 @@ ht-degree: 2%
 
 ## 使用 {#section-fb5293fa79894442aba831c1e14c5cc9}
 
-`ic -convert` `[`*`options`*`]` *`sourceFiledestFile`*
+`ic -convert` `[`*`options`*`]`*`sourceFiledestFile`*
 
-` ic -convert` `[`*`options`*`]` *`sourceFolderdestFolder`*
+` ic -convert` `[`*`options`*`]`*`sourceFolderdestFolder`*
 
-` -c -convert` `[`*`options`*`]` *`sourceFiledestFolder`*
+` -c -convert` `[`*`options`*`]`*`sourceFiledestFolder`*
 
 <table id="table_E368E220299D449D8311478AB5042987"> 
  <tbody> 
@@ -256,7 +256,7 @@ ht-degree: 2%
   <tr> 
    <td> <b> BMP</b> <p> （Windows點陣圖） </p> </td> 
    <td> <p> RGB |索引 </p> </td> 
-   <td> <p> 1 | 5/6 | 8 </p> </td> 
+   <td> <p> 3 | 5/6 | 8 </p> </td> 
    <td> <p> 解壓縮 | RLE </p> </td> 
    <td> <p> 5/6位／通道表示支援16位RGB（5-5-5和5-6-5位／通道）。 </p> </td> 
   </tr> 
@@ -305,7 +305,7 @@ ht-degree: 2%
   <tr> 
    <td> <b> PNG</b> </td> 
    <td> <p> RGB | RGBA |灰色 | grayA |索引 </p> </td> 
-   <td> <p> 1 | 2 | 4 | 8 | 16 </p> </td> 
+   <td> <p> 3 | 2 | 4 | 8 | 16 </p> </td> 
    <td> <p> 已壓縮 </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
