@@ -4,13 +4,13 @@ seo-description: 使用批次模式設定資產中繼資料。
 seo-title: batchSetAssetMetadata
 solution: Experience Manager
 title: batchSetAssetMetadata
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 88d8f279-988f-4956-b66f-60fa95cf511c
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '152'
+ht-degree: 13%
 
 ---
 
@@ -36,18 +36,18 @@ ht-degree: 0%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 要在批處理操作中設定其元資料的公司的句柄。 |
-| ` *`updateArray`*` | `types:BatchMetadataUpdateArray` | 是 | 套用至資產的中繼資料更新陣列。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 要在批處理操作中設定其元資料的公司的句柄。 |
+| `*`updateArray`*` | `types:BatchMetadataUpdateArray` | 是 | 套用至資產的中繼資料更新陣列。 |
 
 **輸出(batchSetAssetMetadataParam)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | 是 | 成功設定中繼資料的數目。 |
-| ` *`warningCount`*` | `xsd:int` | 是 | 嘗試設定中繼資料時產生的警告數。 |
-| ` *`errorCount`*` | `xsd:int` | 是 | 嘗試設定中繼資料時產生的錯誤數。 |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 當操作嘗試批次設定資產的中繼資料時，與資產相關的詳細資料陣列會產生警告。 |
-| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 當操作嘗試為資產批次設定中繼資料時，與產生錯誤的資產相關聯的詳細資料陣列。 |
+| `*`successCount`*` | `xsd:int` | 是 | 成功設定中繼資料的數目。 |
+| `*`warningCount`*` | `xsd:int` | 是 | 嘗試設定中繼資料時產生的警告數。 |
+| `*`errorCount`*` | `xsd:int` | 是 | 嘗試設定中繼資料時產生的錯誤數。 |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 當操作嘗試批次設定資產的中繼資料時，與資產相關的詳細資料陣列會產生警告。 |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 當操作嘗試為資產批次設定中繼資料時，與產生錯誤的資產相關聯的詳細資料陣列。 |
 
 ## 範例 {#section-2de798ac920e4b47b971b1729a64395b}
 
