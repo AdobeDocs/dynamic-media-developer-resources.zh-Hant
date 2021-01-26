@@ -4,10 +4,10 @@ seo-description: 「影像伺服」提供將外部物件ID轉譯為地區設定�
 seo-title: 物件ID轉譯
 solution: Experience Manager
 title: 物件ID轉譯
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8b4c2f44-033a-428a-b505-af389865c70a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '741'
 ht-degree: 9%
@@ -35,7 +35,7 @@ ht-degree: 9%
 
 `attribute::LocaleMap` 定義伺服器用來判斷本地化內容ID的規則，以輸入一般物件ID和 `locale=` 值。
 
-`attribute::LocaleMap` 包含輸入地區設定 *清單* (與指定的值相符 `locale=`)，每個地區都包含無或多個輸出地區設定字尾( ` *`locSuffix`*`)。
+`attribute::LocaleMap` 包含輸入地區設定 *清單* (與指定的值相符 `locale=`)，每個地區都包含無或多個輸出地區設定字尾( `*`locSuffix`*`)。
 
 例如，`attribute::LocaleMap`可能如下所示：
 
