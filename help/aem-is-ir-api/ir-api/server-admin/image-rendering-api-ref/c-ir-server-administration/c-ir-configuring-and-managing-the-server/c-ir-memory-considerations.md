@@ -4,12 +4,12 @@ seo-description: 「影像演算」使用的記憶體量可能會大不相同，
 seo-title: 記憶體注意事項
 solution: Experience Manager
 title: 記憶體注意事項
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 21247081-ff27-4237-93da-5fc996417dfd
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '164'
 ht-degree: 0%
 
 ---
