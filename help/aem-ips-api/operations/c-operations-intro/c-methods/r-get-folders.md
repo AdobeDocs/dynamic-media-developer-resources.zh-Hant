@@ -4,13 +4,13 @@ seo-description: 返回所有資料夾和子資料夾，從資料夾路徑開始
 seo-title: getFolders
 solution: Experience Manager
 title: getFolders
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 06e9d745-b711-43e3-8dc6-93da66b981b1
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '256'
+ht-degree: 8%
 
 ---
 
@@ -46,20 +46,20 @@ ht-degree: 0%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 公司的把手。 |
-| ` *`accessUserHandle`*` | `xsd:string` | 否 | 管理員用來模擬特定使用者。 |
-| ` *`accessGroupHandle`*` | `xsd:string` | 否 | 依特定群組篩選。 |
-| ` *`folderPath`*` | `xsd:string` | 否 | 根資料夾，用於將資料夾和所有子資料夾檢索到葉層。 如果排除，則會使用公司根目錄。 |
-| ` *`assetTypeArray`*` | `types:StringArray` | 否 | 傳回僅包含指定資產類型的檔案夾。 |
-| ` *`responseFieldArray`*` | `types:StringArray` | 否 | 包含要包含在回應中的欄位清單。 |
-| ` *`excludeFieldArray`*` | `types:StringArray` | 否 | 包含要從回應中排除的欄位清單。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 公司的把手。 |
+| `*`accessUserHandle`*` | `xsd:string` | 否 | 管理員用來模擬特定使用者。 |
+| `*`accessGroupHandle`*` | `xsd:string` | 否 | 依特定群組篩選。 |
+| `*`folderPath`*` | `xsd:string` | 否 | 根資料夾，用於將資料夾和所有子資料夾檢索到葉層。 如果排除，則會使用公司根目錄。 |
+| `*`assetTypeArray`*` | `types:StringArray` | 否 | 傳回僅包含指定資產類型的檔案夾。 |
+| `*`responseFieldArray`*` | `types:StringArray` | 否 | 包含要包含在回應中的欄位清單。 |
+| `*`excludeFieldArray`*` | `types:StringArray` | 否 | 包含要從回應中排除的欄位清單。 |
 
 **輸出(getFoldersReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`folderArray`*` | `types:FolderArray` | 否 | 符合篩選條件的資料夾陣列。 響應限制為最多100,000個資料夾。 |
-| ` *`permissionsSetArray`*` | `types:PermissionSetArray` |  |  |
+| `*`folderArray`*` | `types:FolderArray` | 否 | 符合篩選條件的資料夾陣列。 響應限制為最多100,000個資料夾。 |
+| `*`permissionsSetArray`*` | `types:PermissionSetArray` |  |  |
 
 ## 範例 {#section-b5cb06e9fb9945ad898dbdc3692b754e}
 
