@@ -4,13 +4,13 @@ seo-description: 預設影像修改時間戳記。 提供目錄TimeStamp的預�
 seo-title: TimeStamp
 solution: Experience Manager
 title: TimeStamp
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0670e53a-ad7d-46cf-8e18-4c52a766df6f
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '199'
+ht-degree: 2%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 ## 預設 {#section-ac465313c97943ed97d41ea852329177}
 
-如果定義為空或未定義，則伺服器使用此` *`catalog`*.ini`檔案的檔案修改時間。
+如果定義為空或未定義，則伺服器使用此`*`catalog`*.ini`檔案的檔案修改時間。
 
 ## 另請參閱 {#section-ea19bcefa4a04d7eb5d9480cf0e2ca26}
 
