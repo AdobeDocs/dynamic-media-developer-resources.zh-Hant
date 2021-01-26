@@ -4,13 +4,13 @@ seo-description: 根據傳入的參數傳回2種不同的資訊類型。 origina
 seo-title: getGenerationInfo
 solution: Experience Manager
 title: getGenerationInfo
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 4310a702-c08b-4479-9f57-9f2bc1d6b032
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '231'
+ht-degree: 8%
 
 ---
 
@@ -39,18 +39,18 @@ ht-degree: 0%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`程式碼片語`*` | `xsd:string` | 是 | 公司的把手。 |
-| ` *`程式碼片語`*` | `xsd:string` | 否 | 這代人使用的引擎。 請參閱字型樣式。 |
-| ` *`程式碼片語`*` | `xsd:string` | 否 | 要查詢已生成資產的資產的句柄。 |
-| ` *`程式碼片語`*` | `xsd:string` | 否 | 要查詢資產及其生成中使用的資產和引擎的資產句柄。 |
-| ` *`程式碼片語`*` | `xsd:StringArray` | 否 | 操作中包含的屬性。 |
-| ` *`程式碼片語`*` | `xsd:StringArray` | 否 | 從操作中排除的屬性。 |
+| `*`程式碼片語`*` | `xsd:string` | 是 | 公司的把手。 |
+| `*`程式碼片語`*` | `xsd:string` | 否 | 這代人使用的引擎。 請參閱字型樣式。 |
+| `*`程式碼片語`*` | `xsd:string` | 否 | 要查詢已生成資產的資產的句柄。 |
+| `*`程式碼片語`*` | `xsd:string` | 否 | 要查詢資產及其生成中使用的資產和引擎的資產句柄。 |
+| `*`程式碼片語`*` | `xsd:StringArray` | 否 | 操作中包含的屬性。 |
+| `*`程式碼片語`*` | `xsd:StringArray` | 否 | 從操作中排除的屬性。 |
 
 **輸出(getGenerationInfoReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`generationArray`*` | `types:GenerationInfoArray` | 是 | 層代資訊的陣列。 |
+| `*`generationArray`*` | `types:GenerationInfoArray` | 是 | 層代資訊的陣列。 |
 
 ## 範例 {#section-fdffe6ed82d94c7aa90e47f7ce889403}
 
