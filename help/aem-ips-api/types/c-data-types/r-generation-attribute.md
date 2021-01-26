@@ -4,13 +4,13 @@ seo-description: 名稱——值對，包含資產產生步驟的相關資訊。
 seo-title: GenerationAttribute
 solution: Experience Manager
 title: GenerationAttribute
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: fe387eba-a30d-49d5-9e53-2083f42a5dd0
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '53'
+ht-degree: 9%
 
 ---
 
@@ -25,6 +25,6 @@ ht-degree: 0%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| ` *`名稱`*` | `xsd:string` | 屬性名稱。 |
-| ` *`值`*` | `xsd:string` | 屬性值。 |
+| `*`名稱`*` | `xsd:string` | 屬性名稱。 |
+| `*`值`*` | `xsd:string` | 屬性值。 |
 
