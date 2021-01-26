@@ -4,10 +4,10 @@ seo-description: 傳回影像格式，例如PDF、EPS、SWF等。
 seo-title: getImageFormats
 solution: Experience Manager
 title: getImageFormats
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 0adf989d-9c72-4337-99c0-de6931943e78
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 17%
@@ -37,13 +37,13 @@ ht-degree: 17%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 包含您要取得之影像格式的公司控制代碼。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 包含您要取得之影像格式的公司控制代碼。 |
 
 **輸出(getImageFormatsParam)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`imageFormatArray`*` | `types:ImageFormatArray` | 是 | 影像格式陣列。 |
+| `*`imageFormatArray`*` | `types:ImageFormatArray` | 是 | 影像格式陣列。 |
 
 ## 範例 {#section-73881e12839b4904bf3299b0920bdd0c}
 
