@@ -4,13 +4,13 @@ seo-description: 刪除資料夾。
 seo-title: deleteFolder
 solution: Experience Manager
 title: deleteFolder
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 76af65fb-86ef-43e2-bfec-3682acf0afe6
 translation-type: tm+mt
-source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '100'
+ht-degree: 11%
 
 ---
 
@@ -40,8 +40,8 @@ ht-degree: 0%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 資料夾所屬公司的控制代碼。 |
-| ` *`folderHandle`*` | `xsd:string` | 是 | 要刪除的資料夾的句柄。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 資料夾所屬公司的控制代碼。 |
+| `*`folderHandle`*` | `xsd:string` | 是 | 要刪除的資料夾的句柄。 |
 
 **輸出(deleteFolderParam)**
 
