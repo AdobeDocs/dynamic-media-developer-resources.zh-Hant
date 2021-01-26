@@ -4,13 +4,13 @@ seo-description: 請求規則元素。 在<規則集>元素中，一或多個規
 seo-title: 規則
 solution: Experience Manager
 title: 規則
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8b8e5b06-a0b7-47e1-942d-0297d08c313b
 translation-type: tm+mt
-source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '311'
+ht-degree: 7%
 
 ---
 
