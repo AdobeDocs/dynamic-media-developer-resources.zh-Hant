@@ -4,10 +4,10 @@ seo-description: 取得公司資產的原始檔案路徑。
 seo-title: getOriginalFilePaths
 solution: Experience Manager
 title: getOriginalFilePaths
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: c4acf288-1a57-4295-806b-348f15a089cc
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 14%
@@ -41,14 +41,14 @@ ht-degree: 14%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 公司的把手。 |
-| ` *`assetHandleArray`*` | `types:HandleArray` | 是 | 要獲取其原始檔案路徑的資產的句柄陣列。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 公司的把手。 |
+| `*`assetHandleArray`*` | `types:HandleArray` | 是 | 要獲取其原始檔案路徑的資產的句柄陣列。 |
 
 **輸出(getOriginalFilePathsReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`originalFileArray`*` | `types:StringArray` | 是 | 代表原始檔案路徑的字串陣列。 |
+| `*`originalFileArray`*` | `types:StringArray` | 是 | 代表原始檔案路徑的字串陣列。 |
 
 ## 範例 {#section-a966e783a2ba49f5b6b0f961329ab2f8}
 
