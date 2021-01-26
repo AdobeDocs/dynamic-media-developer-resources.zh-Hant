@@ -4,10 +4,10 @@ seo-description: 建立檔案夾。
 seo-title: 建立資料夾
 solution: Experience Manager
 title: 建立資料夾
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: e3a4eed3-966d-4435-bfeb-3ead4bf523cd
 translation-type: tm+mt
-source-git-commit: d64337d3ed7bd78c681c3022cda20012726d7ccc
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 22%
@@ -44,14 +44,14 @@ ht-degree: 22%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 公司的把手 |
-| ` *`folderPath`*` | `xsd:string` | 是 | 用於將資料夾和所有子資料夾檢索到葉層的根資料夾。 如果排除，則會使用公司根目錄。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 公司的把手 |
+| `*`folderPath`*` | `xsd:string` | 是 | 用於將資料夾和所有子資料夾檢索到葉層的根資料夾。 如果排除，則會使用公司根目錄。 |
 
 **輸出(createFolderParam)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`folderHandle`*` | `xsd:string` | 是 | 新資料夾的句柄。 |
+| `*`folderHandle`*` | `xsd:string` | 是 | 新資料夾的句柄。 |
 
 ## 範例 {#section-e596fbdb44fd43c8b30005cb2a2fdf26}
 
