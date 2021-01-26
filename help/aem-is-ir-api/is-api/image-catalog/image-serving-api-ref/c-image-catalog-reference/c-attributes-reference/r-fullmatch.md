@@ -4,10 +4,10 @@ seo-description: 目錄比對選項。
 seo-title: FullMatch
 solution: Experience Manager
 title: FullMatch
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0c69ba92-1411-4cb7-ac28-d26fe035222f
 translation-type: tm+mt
-source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 3%
@@ -19,11 +19,11 @@ ht-degree: 3%
 
 目錄比對選項。
 
-在HTTP請求中，目錄項指定為` *`rootId`*/ *`imageId`*`對。 在解析時，如果` *`rootId`*`與目錄的`attribute::RootId`值匹配，則選擇目錄，並且通過將` *`imageId`*`與`catalog::Id`值匹配來標識目錄記錄。 如果找到目錄，但沒有與` *`imageId`*`匹配的目錄條目，則伺服器可以執行下列兩項操作之一：
+在HTTP請求中，目錄項指定為`*`rootId`*/ *`imageId`*`對。 在解析時，如果`*`rootId`*`與目錄的`attribute::RootId`值匹配，則選擇目錄，並且通過將`*`imageId`*`與`catalog::Id`值匹配來標識目錄記錄。 如果找到目錄，但沒有與`*`imageId`*`匹配的目錄條目，則伺服器可以執行下列兩項操作之一：
 
-如果未設定`attribute::FullMatch`，則伺服器使用匹配目錄的屬性。 在這種情況下，` *`rootId`*`會由`attribute::RootPath`（或`default::RootPath`，若未在此目錄中指定）取代。
+如果未設定`attribute::FullMatch`，則伺服器使用匹配目錄的屬性。 在這種情況下，`*`rootId`*`會由`attribute::RootPath`（或`default::RootPath`，若未在此目錄中指定）取代。
 
-如果設定`attribute::FullMatch`，則伺服器會完全忽略目錄（如果未匹配目錄），然後使用預設目錄屬性繼續。 在此情況下，` *`rootId`*`仍為路徑的一部分（由`default::RootPath`前置）。
+如果設定`attribute::FullMatch`，則伺服器會完全忽略目錄（如果未匹配目錄），然後使用預設目錄屬性繼續。 在此情況下，`*`rootId`*`仍為路徑的一部分（由`default::RootPath`前置）。
 
 ## 屬性 {#section-25e021dbe6574d00aadd08a7fa0b6e81}
 
