@@ -4,12 +4,12 @@ seo-description: 「影像演算」支援簡單的請求預處理機制，此機
 seo-title: 規則集參考
 solution: Experience Manager
 title: 規則集參考
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: aeec7597-4d23-4cf8-8bdc-3a133152eadb
 translation-type: tm+mt
-source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
