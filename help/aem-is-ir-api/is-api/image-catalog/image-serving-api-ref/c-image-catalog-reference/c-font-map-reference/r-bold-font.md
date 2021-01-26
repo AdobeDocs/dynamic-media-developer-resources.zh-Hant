@@ -4,10 +4,10 @@ seo-description: 黑臉旗。 指定當RTF粗體命令(\b)請求時，是否應�
 seo-title: 粗體
 solution: Experience Manager
 title: 粗體
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: c9bc05d6-07ff-4ad9-a5b2-3ddc81a746af
 translation-type: tm+mt
-source-git-commit: b58b25ff4b2f6258a010097eb0a254105b0d912e
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '92'
 ht-degree: 8%
