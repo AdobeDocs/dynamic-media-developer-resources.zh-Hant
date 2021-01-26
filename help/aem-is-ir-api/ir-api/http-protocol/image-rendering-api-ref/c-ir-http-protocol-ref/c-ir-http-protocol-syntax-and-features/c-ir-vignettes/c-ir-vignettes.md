@@ -1,15 +1,12 @@
 ---
-description: 暈映是使用Scene7 Image Authoring製作的影像，以便與影像演算搭配使用。
-seo-description: 暈映是使用Scene7 Image Authoring製作的影像，以便與影像演算搭配使用。
-seo-title: 暈映
+description: 暈映是使用「動態媒體影像製作」製作的影像，以搭配「影像演算」使用。
 solution: Experience Manager
 title: 暈映
-topic: Scene7 Image Serving - Image Rendering API
-uuid: 31d6b2b7-57c4-4fef-a498-c357c3724356
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7721cccf3f779f258adcdcf886f7e01111e92be0
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '627'
 ht-degree: 0%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 0%
 
 # 暈映{#vignettes}
 
-暈映是使用Scene7 Image Authoring製作的影像，以便與影像演算搭配使用。
+暈映是使用「動態媒體影像製作」製作的影像，以搭配「影像演算」使用。
 
 IR支援兩種基本的暈映類型：*2D*&#x200B;和&#x200B;*3D*。 房間場景通常是3D暈映，可以呈現反射效果，而大部分其他場景（例如服裝或室內裝飾）通常是2D暈映，而且沒有反射演算功能。
 
