@@ -4,10 +4,10 @@ seo-description: 取得與指定資產相關聯的所有檢視器組態設定。
 seo-title: getViewerConfigSettings
 solution: Experience Manager
 title: getViewerConfigSettings
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 61fe16de-ac72-472b-8945-f1ebe8b4d11c
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 18%
@@ -34,13 +34,13 @@ ht-degree: 18%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 為公司負責。 |
-| ` *`assetHandle`*` | `xsd:string` | 是 | 處理資產。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 為公司負責。 |
+| `*`assetHandle`*` | `xsd:string` | 是 | 處理資產。 |
 
 **輸出(getViewerCoinfigSettingsReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`類型`*` | `xsd:string` | 是 | 設定設定套用至的檢視器類型。 |
-| ` *`configSettingsArray`*` | `types:ConfigSettingsArray` | 是 | 檢視器組態設定的陣列。 |
+| `*`類型`*` | `xsd:string` | 是 | 設定設定套用至的檢視器類型。 |
+| `*`configSettingsArray`*` | `types:ConfigSettingsArray` | 是 | 檢視器組態設定的陣列。 |
 
