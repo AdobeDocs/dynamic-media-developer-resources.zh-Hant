@@ -4,10 +4,10 @@ seo-description: 獲取為一個或多個標籤欄位定義的所有標籤字典
 seo-title: getTagFieldValues
 solution: Experience Manager
 title: getTagFieldValues
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 92d84dfc-6a6c-4876-9670-1152adb6317c
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 16%
@@ -39,14 +39,14 @@ ht-degree: 16%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 包含標籤欄位之公司的控制代碼。 |
-| ` *`fieldHandleArray`*` | `types:HandleArray` | 是 | 用於標籤要返回值的欄位句柄陣列。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 包含標籤欄位之公司的控制代碼。 |
+| `*`fieldHandleArray`*` | `types:HandleArray` | 是 | 用於標籤要返回值的欄位句柄陣列。 |
 
 **輸出(getTagFieldValuesReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`fieldArray`*` | `types:TagFieldValuesArray` | 是 | 字典中每個請求欄位的標籤值陣列。 |
+| `*`fieldArray`*` | `types:TagFieldValuesArray` | 是 | 字典中每個請求欄位的標籤值陣列。 |
 
 ## 範例 {#section-4492742614e44bb191a7d397dc1a1407}
 
