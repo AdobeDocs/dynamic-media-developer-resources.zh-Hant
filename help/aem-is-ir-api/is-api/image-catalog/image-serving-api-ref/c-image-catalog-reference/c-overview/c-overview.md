@@ -4,12 +4,12 @@ seo-description: 影像目錄可用來提供影像和支援資料（例如字型
 seo-title: 概述
 solution: Experience Manager
 title: 概述
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e8c0401b-9161-4624-babb-6c7afb443e65
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '299'
 ht-degree: 1%
 
 ---
@@ -34,6 +34,6 @@ ht-degree: 1%
 
 目錄屬性檔案必須具有[!DNL .ini]檔案尾碼，並且必須位於平台伺服器的目錄資料夾(`PlatformServer::catalog.rootPath`)中。 目錄資料檔案可位於平台伺服器可存取的相同資料夾或任何其他資料夾中。
 
-本檔案說明Scene7 Image Serving系統的Image Catalog檔案格式。 目標受眾是經驗豐富的程式設計人員和網站開發人員，他們希望將Scene7 Image Serving運用於網頁或自訂應用程式。
+本檔案說明動態媒體影像伺服系統的影像目錄檔案格式。 目標受眾是經驗豐富的程式設計人員和網站開發人員，他們希望將Dynamic Media Image Serving運用於網頁或自訂應用程式。
 
-假設讀者通常熟悉Scene7 Image Serving系統、一般HTTP通訊協定標準和慣例，以及基本的影像術語。
+假設讀者通常熟悉動態媒體影像伺服系統、一般HTTP通訊協定標準和慣例，以及基本影像術語。
