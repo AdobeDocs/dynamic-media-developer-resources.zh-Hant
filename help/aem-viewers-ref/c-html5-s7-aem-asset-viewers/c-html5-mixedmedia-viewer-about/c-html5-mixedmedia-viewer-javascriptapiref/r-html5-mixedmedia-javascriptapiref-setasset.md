@@ -7,7 +7,7 @@ title: setAsset
 topic: Dynamic media
 uuid: 8c341a8a-25b5-4db9-ad1a-919ded79f2ed
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 1%
@@ -27,11 +27,11 @@ ht-degree: 1%
 
 ## 參數 {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-` *`asset`*` - {  `String`}新資產ID或明確混合媒體集，後面附加選用的「影像伺服」修飾元 `?`。
+`*`asset`*` - {  `String`}新資產ID或明確混合媒體集，後面附加選用的「影像伺服」修飾元 `?`。
 
 此檢視器不支援使用IR（影像演算）或UGC（使用者產生的內容）的影像。
 
-` *`data`*` - {  `JSON`}新標題檔案的位置。
+`*`data`*` - {  `JSON`}新標題檔案的位置。
 
 如果未指定，標題按鈕在使用者介面中不可見。 使用此參數指定的標題適用於混合媒體集中最先出現的視訊；後續視訊播放時不含標題。 此檢視器支援下列元件ID:
 
