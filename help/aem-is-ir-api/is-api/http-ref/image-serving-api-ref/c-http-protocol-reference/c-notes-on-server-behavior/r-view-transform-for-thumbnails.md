@@ -4,10 +4,10 @@ seo-description: 響應於req=tmb請求而返回給客戶端的映像是從複�
 seo-title: 縮圖檢視變形
 solution: Experience Manager
 title: 縮圖檢視變形
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 29924bc1-ada1-420f-aef7-bf9a7db7065b
 translation-type: tm+mt
-source-git-commit: aa095022d43db4bf815aece9bc2b087c53a64e1b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 0%
