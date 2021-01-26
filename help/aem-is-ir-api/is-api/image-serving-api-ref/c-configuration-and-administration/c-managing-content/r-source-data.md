@@ -4,10 +4,10 @@ seo-description: 「影像伺服」來源資料檔案包括影像和遮色片檔
 seo-title: 來源資料
 solution: Experience Manager
 title: 來源資料
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d654eee7-ef2d-4546-93bb-72f80c38e018
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 映像伺服器必須可以訪問所有源資料檔案。 「影像伺服」提供多種替代方式，以指定資料檔案的位置：
 
-` *`install_`*/ *``*/ *`folderrootPathfilePath`*`
+`*`install_`*/ *``*/ *`folderrootPathfilePath`*`
 
 <table id="simpletable_26686444C7EF46D6BC4C0490C8010BF9"> 
  <tr class="strow"> 
@@ -44,9 +44,9 @@ ht-degree: 0%
 
 伺服器會從右至左組合路徑區段，直到建立絕對檔案路徑為止。
 
-所有` *`rootPath`*`區段都可以是空的、相對的或絕對的路徑區段。
+所有`*`rootPath`*`區段都可以是空的、相對的或絕對的路徑區段。
 
-` *`目`*` 錄以絕對或相對檔案路徑／名稱填入。` *``*` requestPath必須是相對檔案路徑／名稱。
+`*`目`*` 錄以絕對或相對檔案路徑／名稱填入。`*``*` requestPath必須是相對檔案路徑／名稱。
 
 `Multiple IS::RootPath` 值可在ImageServerRegistry.xml中定義（或透過管理介面）。這允許源資料檔案跨多個檔案系統分發。 影像伺服器會依指定順序嘗試替代路徑，直到找到資料檔案為止。
 
