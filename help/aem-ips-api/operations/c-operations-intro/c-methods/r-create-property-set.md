@@ -4,10 +4,10 @@ seo-description: 屬性集是應用程式特定的名稱——值對集，可根
 seo-title: createPropertySet
 solution: Experience Manager
 title: createPropertySet
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: f0b5b951-143f-4a31-bb6b-cdeabdebbcbb
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 6%
@@ -34,17 +34,17 @@ ht-degree: 6%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`typeHandle`*` | `xsd:string` | 是 | 屬性集類型的句柄。 |
-| ` *`primaryOwnerHandle`*` | `xsd:string` | 是 | 屬性集的主要所有者的句柄。 |
-| ` *`secondaryOwnerHandle`*` | `xsd:string` | 否 | 屬性集的次要所有者的句柄。 |
-| ` *`propertyArray`*` | `types:PropertyArray` | 是 | 屬性陣列。 |
-| ` *`permissionArray`*` | `types:PermissionUpdateArray` |  |  |
+| `*`typeHandle`*` | `xsd:string` | 是 | 屬性集類型的句柄。 |
+| `*`primaryOwnerHandle`*` | `xsd:string` | 是 | 屬性集的主要所有者的句柄。 |
+| `*`secondaryOwnerHandle`*` | `xsd:string` | 否 | 屬性集的次要所有者的句柄。 |
+| `*`propertyArray`*` | `types:PropertyArray` | 是 | 屬性陣列。 |
+| `*`permissionArray`*` | `types:PermissionUpdateArray` |  |  |
 
 **輸出(createPropertySetParam)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`setHandle`*` | `xsd:string` | 是 | 新屬性集的句柄。 |
+| `*`setHandle`*` | `xsd:string` | 是 | 新屬性集的句柄。 |
 
 ## 範例 {#section-4e1f5b2883664bc88f590fcd253df22b}
 
