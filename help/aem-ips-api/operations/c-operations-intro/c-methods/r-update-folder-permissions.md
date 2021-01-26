@@ -4,10 +4,10 @@ seo-description: 更新資料夾權限。
 seo-title: updateFolderPermissions
 solution: Experience Manager
 title: updateFolderPermissions
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 940d7b63-80cf-4097-9cf9-8499b69181b7
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '76'
 ht-degree: 18%
@@ -33,10 +33,10 @@ ht-degree: 18%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 公司負責人。 |
-| ` *`folderHandle`*` | `xsd:string` | 是 | 資料夾句柄。 |
-| ` *`updateChildren`*` | `xsd:boolean` | 是 | 確定是否使用為頂層資料夾設定的權限來更新子項。 |
-| ` *`updateArray`*` | `types:PermissionUpdateArray` | 是 | 您要套用至資料夾的權限更新陣列。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 公司負責人。 |
+| `*`folderHandle`*` | `xsd:string` | 是 | 資料夾句柄。 |
+| `*`updateChildren`*` | `xsd:boolean` | 是 | 確定是否使用為頂層資料夾設定的權限來更新子項。 |
+| `*`updateArray`*` | `types:PermissionUpdateArray` | 是 | 您要套用至資料夾的權限更新陣列。 |
 
 **輸出(updateFolderPermissionsReturn)**
 
