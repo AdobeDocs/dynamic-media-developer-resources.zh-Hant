@@ -4,10 +4,10 @@ seo-description: 建立影像集。
 seo-title: createImageSet
 solution: Experience Manager
 title: createImageSet
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 688f3954-bc8f-4687-8d66-e064561cd4a0
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 14%
@@ -40,17 +40,17 @@ ht-degree: 14%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 影像集所屬公司的控制代碼。 |
-| ` *`folderHandle`*` | `xsd:string` | 是 | 資料夾的句柄。 |
-| ` *`名稱`*` | `xsd:string` | 是 | 影像集名稱。 |
-| ` *`類型`*` | `xsd:string` | 是 | 影像集類型。 |
-| ` *`thumbAssetHandle`*` | `xsd:string` | 否 | 當做新影像集縮圖的資產控制代碼。 如果未指定，IPS會嘗試使用該集所引用的第一個映像資產。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 影像集所屬公司的控制代碼。 |
+| `*`folderHandle`*` | `xsd:string` | 是 | 資料夾的句柄。 |
+| `*`名稱`*` | `xsd:string` | 是 | 影像集名稱。 |
+| `*`類型`*` | `xsd:string` | 是 | 影像集類型。 |
+| `*`thumbAssetHandle`*` | `xsd:string` | 否 | 當做新影像集縮圖的資產控制代碼。 如果未指定，IPS會嘗試使用該集所引用的第一個映像資產。 |
 
 **輸出**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`assetHandle`*` | `xsd:string` | 是 | 新影像集的控點。 |
+| `*`assetHandle`*` | `xsd:string` | 是 | 新影像集的控點。 |
 
 ## 範例 {#section-385fe3b0af8044b0a2451336ec137fc5}
 
