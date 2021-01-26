@@ -4,13 +4,13 @@ seo-description: 檢視器SWF檔案資產的屬性。
 seo-title: ViewerSwfInfo
 solution: Experience Manager
 title: ViewerSwfInfo
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 1432b0b0-7084-4eb0-a3cd-0e5bee2a5649
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '51'
+ht-degree: 13%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| ` *`originalPath`*` | `xsd:string` | 原始上傳檢視器SWF檔案的相對路徑。 |
-| ` *`originalFile`*` | `xsd:string` | 原始檢視器SWF檔案的檔案名稱。 |
-| ` *`fileSize`*` | `xsd:int` | 檔案大小. |
+| `*`originalPath`*` | `xsd:string` | 原始上傳檢視器SWF檔案的相對路徑。 |
+| `*`originalFile`*` | `xsd:string` | 原始檢視器SWF檔案的檔案名稱。 |
+| `*`fileSize`*` | `xsd:int` | 檔案大小. |
 
