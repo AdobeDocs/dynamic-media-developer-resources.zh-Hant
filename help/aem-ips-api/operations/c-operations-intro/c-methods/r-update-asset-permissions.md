@@ -4,10 +4,10 @@ seo-description: 更新資產權限。
 seo-title: updateAssetPermissons
 solution: Experience Manager
 title: updateAssetPermissons
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: feb2faf3-81de-436e-82de-1e41df03508f
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 22%
@@ -33,9 +33,9 @@ ht-degree: 22%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 公司負責人。 |
-| ` *`assetHandle`*` | `xsd:string` | 是 | 資產控制代碼。 |
-| ` *`updateArray`*` | `types:PermissionUpdateArray` | 是 | 您要套用至資產的權限。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 公司負責人。 |
+| `*`assetHandle`*` | `xsd:string` | 是 | 資產控制代碼。 |
+| `*`updateArray`*` | `types:PermissionUpdateArray` | 是 | 您要套用至資產的權限。 |
 
 **輸出(updateAssetPermissionsReturn)**
 
