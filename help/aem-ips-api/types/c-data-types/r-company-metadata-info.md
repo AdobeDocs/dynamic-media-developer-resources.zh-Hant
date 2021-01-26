@@ -4,10 +4,10 @@ seo-description: 包含公司中繼資料物件的相關資訊，例如ID、名�
 seo-title: CompanyMetadataInfo
 solution: Experience Manager
 title: CompanyMetadataInfo
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 5a69a995-979a-4919-a506-42b2cbfa4657
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '48'
 ht-degree: 10%
@@ -25,6 +25,6 @@ ht-degree: 10%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| ` *`程式碼片語`*` | `Code Phrase` |  |
-| ` *`程式碼片語`*` | `Code Phrase` |  |
+| `*`程式碼片語`*` | `Code Phrase` |  |
+| `*`程式碼片語`*` | `Code Phrase` |  |
 
