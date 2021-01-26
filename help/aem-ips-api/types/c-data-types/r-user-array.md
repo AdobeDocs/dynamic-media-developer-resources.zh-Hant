@@ -4,13 +4,13 @@ seo-description: 一組使用者。
 seo-title: UserArray
 solution: Experience Manager
 title: UserArray
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 5b78918b-4d6b-4d0d-90b8-6b8a7c97c5f0
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '25'
+ht-degree: 24%
 
 ---
 
@@ -25,5 +25,5 @@ ht-degree: 0%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| ` *`項目`*` | `types:User` | 一組使用者。 |
+| `*`項目`*` | `types:User` | 一組使用者。 |
 
