@@ -4,10 +4,10 @@ seo-description: 設定資產的影像地圖。
 seo-title: setImageMaps
 solution: Experience Manager
 title: setImageMaps
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 1dd7e032-34b4-464d-8ec6-7ad282d12891
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 10%
@@ -36,15 +36,15 @@ ht-degree: 10%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 公司負責人。 |
-| ` *`assetHandle`*` | `xsd:string` | 是 | 資產控制代碼。 |
-| ` *`imageMapArray`*` | `types:ImageMapDefinitionArray` | 是 | 預先定義的影像地圖陣列。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 公司負責人。 |
+| `*`assetHandle`*` | `xsd:string` | 是 | 資產控制代碼。 |
+| `*`imageMapArray`*` | `types:ImageMapDefinitionArray` | 是 | 預先定義的影像地圖陣列。 |
 
 **輸出(setImageMapsReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`imageMapHandleArray`*` | `types:HandleArray` | 是 | 具有映像映射句柄的陣列應用於資產。 |
+| `*`imageMapHandleArray`*` | `types:HandleArray` | 是 | 具有映像映射句柄的陣列應用於資產。 |
 
 ## 範例 {#section-fe2e35662a6a4ee29cf250c9fd180371}
 
