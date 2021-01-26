@@ -4,13 +4,13 @@ seo-description: 圖層大小。 指定圖層的大小或最大圖層大小，�
 seo-title: 大小
 solution: Experience Manager
 title: 大小
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: c9c13062-7974-4dd9-aff4-f9502bcf442e
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '445'
+ht-degree: 1%
 
 ---
 
