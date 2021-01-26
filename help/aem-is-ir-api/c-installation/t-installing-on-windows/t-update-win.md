@@ -1,15 +1,15 @@
 ---
-description: 升級Scene7 Image Serving時，請使用此程式。
-seo-description: 升級Scene7 Image Serving時，請使用此程式。
+description: 升級動態媒體影像服務時，請執行此程式。
+seo-description: 升級動態媒體影像服務時，請執行此程式。
 seo-title: 從IS 4.7.4或更新版本更新
 solution: Experience Manager
 title: 從IS 4.7.4或更新版本更新
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 3d23f13a-a9be-45ff-9765-c71bdeb77c5f
 translation-type: tm+mt
-source-git-commit: edb21832b3e36a6498c6aad27813cd4b3032b48f
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 從IS 4.7.4或更新版本{#updating-from-is-or-later}更新
 
-升級Scene7 Image Serving時，請使用此程式。
+升級動態媒體影像服務時，請執行此程式。
 
 如果您是從舊版影像伺服升級，請聯絡支援以取得正確的程式。
 
