@@ -4,13 +4,13 @@ seo-description: 膨脹／腐蝕影像。 對影像資料應用形態膨脹（�
 seo-title: op_grow
 solution: Experience Manager
 title: op_grow
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: bc9bf889-f7e1-4a65-b6d6-7e1257ef8c11
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '124'
+ht-degree: 3%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 0%
  </tr> 
 </table>
 
-` *`相`*` 對於合成影像的半徑（像素）。如果影像是彩色，則會獨立處理每個元件。
+`*`相`*` 對於合成影像的半徑（像素）。如果影像是彩色，則會獨立處理每個元件。
 
 主要用於修改圖層效果的大小。 此外，使用遮色片在文字圖層或純色圖層上產生特殊效果也很實用。
 
