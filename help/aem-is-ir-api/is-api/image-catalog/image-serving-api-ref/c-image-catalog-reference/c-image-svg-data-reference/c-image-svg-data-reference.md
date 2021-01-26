@@ -4,10 +4,10 @@ seo-description: 即使影像和SVG資料非常類似，它們仍會保留在影
 seo-title: 影像/SVG資料參考
 solution: Experience Manager
 title: 影像/SVG資料參考
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 80e41e58-f20e-45fb-b180-28b2c4b30808
 translation-type: tm+mt
-source-git-commit: 4169757880407b62addd0a70ef1807d8b195820b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 0%
