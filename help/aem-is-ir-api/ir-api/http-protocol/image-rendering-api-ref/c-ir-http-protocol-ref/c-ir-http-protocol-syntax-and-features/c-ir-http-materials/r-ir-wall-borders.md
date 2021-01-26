@@ -4,13 +4,13 @@ seo-description: 當在壁邊界MSS中指定材料時，該材料被視為壁邊
 seo-title: 牆邊界
 solution: Experience Manager
 title: 牆邊界
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 40acd667-5e8b-4425-b44a-0681e608d189
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '117'
+ht-degree: 4%
 
 ---
 
