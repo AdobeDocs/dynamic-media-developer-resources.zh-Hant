@@ -4,10 +4,10 @@ seo-description: 建立或編輯中繼資料欄位。 省略可選的欄位控�
 seo-title: saveMetadataField
 solution: Experience Manager
 title: saveMetadataField
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: ccd84366-732a-4caf-914d-3bc5fe499e7a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 15%
@@ -99,7 +99,7 @@ ht-degree: 15%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`fieldHandle`*` | `xsd:string` | 是 | 新中繼資料欄位的處理。 |
+| `*`fieldHandle`*` | `xsd:string` | 是 | 新中繼資料欄位的處理。 |
 
 ## 範例 {#section-4441c26d1f41466ba972b43dd5189e89}
 
