@@ -1,15 +1,12 @@
 ---
-description: 檢視器SDK提供一組以JavaScript為基礎的元件，以供自訂檢視器開發使用。 檢視器是網頁型應用程式，可讓Adobe Scene7提供的多媒體內容內嵌在網頁中。
-seo-description: 檢視器SDK提供一組以JavaScript為基礎的元件，以供自訂檢視器開發使用。 檢視器是網頁型應用程式，可讓Adobe Scene7提供的多媒體內容內嵌在網頁中。
-seo-title: 檢視器SDK教學課程
+description: 檢視器SDK提供一組以JavaScript為基礎的元件，以供自訂檢視器開發使用。 檢視器是網頁型應用程式，可讓Adobe Dynamic Media提供的多媒體內容內嵌在網頁中。
 solution: Experience Manager
 title: 檢視器SDK教學課程
 topic: Dynamic media
-uuid: ea331f05-0c58-4e6b-b5a1-d9b8372d8e94
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '966'
 ht-degree: 0%
 
 ---
@@ -17,9 +14,9 @@ ht-degree: 0%
 
 # 檢視器SDK教學課程{#viewer-sdk-tutorial}
 
-檢視器SDK提供一組以JavaScript為基礎的元件，以供自訂檢視器開發使用。 檢視器是網頁型應用程式，可讓Adobe Scene7提供的多媒體內容內嵌在網頁中。
+檢視器SDK提供一組以JavaScript為基礎的元件，以供自訂檢視器開發使用。 檢視器是網頁型應用程式，可讓Adobe Dynamic Media提供的多媒體內容內嵌在網頁中。
 
-例如，SDK提供互動式縮放和平移功能。 此外，它還提供360度檢視和視訊播放資產，這些資產已透過稱為SPS(Scene7 Publishing System)的後端應用程式上傳至Adobe Scene7。
+例如，SDK提供互動式縮放和平移功能。 此外，它還提供360度檢視和視訊播放，以透過稱為SPS(Scene7 Publishing System)的後端應用程式上傳至Adobe Dynamic Media的資產。
 
 雖然這些元件依賴HTML5功能，但其設計可在Android和Apple iOS裝置以及桌上型電腦上運作，包括Internet Explorer和更新版本。 這種體驗意味著您可以為所有支援的平台提供單一工作流程。
 
@@ -67,8 +64,8 @@ SDK包含UI元件，可組成檢視器內容。 您可以透過CSS和具有某�
                Include Utils.js before you use any of the SDK components. This file  
                contains SDK utilities and global functions that are used to initialize the viewer and load viewer  
                components. The path to the Utils.js determines which version of the SDK that the viewer uses. You  
-               can use a relative path if the viewer is deployed on one of the Adobe Scene7 servers and it is served  
-               from the same domain. Otherwise, specify a full path to one of Adobe Scene7 servers that have the SDK  
+               can use a relative path if the viewer is deployed on one of the Adobe Dynamic Media servers and it is served  
+               from the same domain. Otherwise, specify a full path to one of Adobe Dynamic Media servers that have the SDK  
                installed.  
            --> 
            <script language="javascript" type="text/javascript"      
@@ -392,5 +389,5 @@ SDK包含UI元件，可組成檢視器內容。 您可以透過CSS和具有某�
 
    您的基本縮放檢視器現在已完成。
 
-   本檢視器教學課程涉及Scene7檢視器SDK提供的基礎知識。 當您使用SDK時，您可以使用各種標準元件，為目標受眾輕鬆建立豐富的檢視體驗並設定其樣式。
+   本檢視器教學課程涉及Dynamic Media Viewer SDK提供的基礎知識。 當您使用SDK時，您可以使用各種標準元件，為目標受眾輕鬆建立豐富的檢視體驗並設定其樣式。
 
