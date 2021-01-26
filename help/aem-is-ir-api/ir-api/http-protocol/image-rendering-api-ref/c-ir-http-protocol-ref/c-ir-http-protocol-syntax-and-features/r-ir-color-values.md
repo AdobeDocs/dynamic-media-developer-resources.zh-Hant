@@ -4,13 +4,13 @@ seo-description: 可以使用十進位、逗號分隔的元件值清單或十六
 seo-title: 顏色值
 solution: Experience Manager
 title: 顏色值
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f8e3a8e7-3e0c-4ee6-8434-caba1f2bea1f
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '147'
+ht-degree: 10%
 
 ---
 
