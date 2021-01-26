@@ -4,12 +4,12 @@ seo-description: 縮放目標資料。 無或更多縮放目標屬性，可與�
 seo-title: 目標
 solution: Experience Manager
 title: 目標
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ca02483a-9aa0-4b54-b6f0-4fd10d8b2b4c
 translation-type: tm+mt
-source-git-commit: b4331c6f033903ec64f168da0b739927c6066710
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '347'
 ht-degree: 2%
 
 ---
@@ -64,7 +64,7 @@ Target. *`num`*&#x200B;每個縮放目標都需要。rect，而且必須在影�
 
 對於包含回轉和手冊檢視器用戶端的應用程式，縮放目標必須定義在定義影像集的相同目錄記錄中。 檢視器會忽略影像整合員目錄記錄中的任何縮放目標定義。
 
-Scene7檢視器預期縮放目標位於已透過`catalog::Modifier`命令調整的完整解析度影像的座標中。
+「動態媒體」檢視器預期縮放目標位於已透過`catalog::Modifier`指令調整的完整解析度影像的座標中。
 
 ## 屬性 {#section-b3f8eba4985f4b00bb935d592fe770f9}
 
