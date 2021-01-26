@@ -4,10 +4,10 @@ seo-description: 取代影像資產的影像資料。
 seo-title: replaceImage
 solution: Experience Manager
 title: replaceImage
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 46824e33-265c-4425-9ab1-8ad6b7ac154d
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 15%
@@ -36,15 +36,15 @@ ht-degree: 15%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`companyName`*` | `xsd:string` | 是 | 包含您要取代之影像的公司控制代碼。 |
-| ` *`assetHandle`*` | `xsd:string` | 是 | 您要取代之資產的控制代碼。 |
-| ` *`urlModifier`*` | `xsd:string` | 是 | 產生新影像資料的影像伺服器指令。 |
+| `*`companyName`*` | `xsd:string` | 是 | 包含您要取代之影像的公司控制代碼。 |
+| `*`assetHandle`*` | `xsd:string` | 是 | 您要取代之資產的控制代碼。 |
+| `*`urlModifier`*` | `xsd:string` | 是 | 產生新影像資料的影像伺服器指令。 |
 
 **輸出(replaceImageReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`assetHandle`*` | `xsd:string` | 是 | 處理新資產。 |
+| `*`assetHandle`*` | `xsd:string` | 是 | 處理新資產。 |
 
 ## 範例 {#section-cebb93576bde4cb98cb27356ca66783b}
 
