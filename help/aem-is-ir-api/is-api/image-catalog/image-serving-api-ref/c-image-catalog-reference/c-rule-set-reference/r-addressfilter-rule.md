@@ -4,10 +4,10 @@ seo-description: 地址篩選元素。 在<rule>和<pathrule>元素中為可選�
 seo-title: 地址篩選
 solution: Experience Manager
 title: 地址篩選
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 677eb19f-fd1a-4f74-8d55-6045baf01bf5
 translation-type: tm+mt
-source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 6%
