@@ -4,13 +4,13 @@ seo-description: 建立衍生自現有主要來源影像資產的新資產。
 seo-title: createDerivedAsset
 solution: Experience Manager
 title: createDerivedAsset
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: e1f9b690-af34-4da5-a534-c3a8c6b0a8fc
 translation-type: tm+mt
-source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '276'
+ht-degree: 7%
 
 ---
 
@@ -42,19 +42,19 @@ ht-degree: 0%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 包含您將從中衍生新資產之資產的公司控制代碼。 |
-| ` *`ownerHandle`*` | `xsd:string` | 是 | 新影像將從中衍生的主要影像資產的控制代碼。 |
-| ` *`folderHandle`*` | `xsd:string` | 是 | 將在其中建立新派生資產的資料夾的句柄。 |
-| ` *`名稱`*` | `xsd:string` | 是 | 衍生資產的名稱。 |
-| ` *`類型`*` | `xsd:string` | 是 | 新衍生資產的資產類型：`AdjustedView`或`LayerView`。 |
-| ` *`urlModifier`*` | `xsd:string` | 否 | 在&#x200B;*請求或`urlPostApplyModifier`命令之前應用*&#x200B;的影像服務或影像渲染協定命令。 |
-| ` *`urlPostApplyModifier`*` | `xsd:string` | 否 | 將&#x200B;*after*&#x200B;的影像伺服或影像轉換通訊協定指令套用至要求或`urlPostApplyModifier`指令。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 包含您將從中衍生新資產之資產的公司控制代碼。 |
+| `*`ownerHandle`*` | `xsd:string` | 是 | 新影像將從中衍生的主要影像資產的控制代碼。 |
+| `*`folderHandle`*` | `xsd:string` | 是 | 將在其中建立新派生資產的資料夾的句柄。 |
+| `*`名稱`*` | `xsd:string` | 是 | 衍生資產的名稱。 |
+| `*`類型`*` | `xsd:string` | 是 | 新衍生資產的資產類型：`AdjustedView`或`LayerView`。 |
+| `*`urlModifier`*` | `xsd:string` | 否 | 在&#x200B;*請求或`urlPostApplyModifier`命令之前應用*&#x200B;的影像服務或影像渲染協定命令。 |
+| `*`urlPostApplyModifier`*` | `xsd:string` | 否 | 將&#x200B;*after*&#x200B;的影像伺服或影像轉換通訊協定指令套用至要求或`urlPostApplyModifier`指令。 |
 
 **輸出(createDerivedAssetParam)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`assetHandle`*` | `xsd:string` | 是 | 衍生資產的控制代碼。 |
+| `*`assetHandle`*` | `xsd:string` | 是 | 衍生資產的控制代碼。 |
 
 ## 範例 {#section-5d5ea893a1ef4edc8b3a396f1936e8c9}
 
