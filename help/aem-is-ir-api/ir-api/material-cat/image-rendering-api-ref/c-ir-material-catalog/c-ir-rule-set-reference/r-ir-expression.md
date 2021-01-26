@@ -4,10 +4,10 @@ seo-description: 規則運算式模式元素。 在<rule>元素中為可選項�
 seo-title: 表達式
 solution: Experience Manager
 title: 表達式
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e7ef3769-0090-42d6-8021-1c213f1ee391
 translation-type: tm+mt
-source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 4%
