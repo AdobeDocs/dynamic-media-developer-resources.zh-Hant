@@ -4,12 +4,12 @@ seo-description: 支援四種一般的製作暈映類型。
 seo-title: 暈映縮放
 solution: Experience Manager
 title: 暈映縮放
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 08c8f826-7dce-4bcb-9323-4892262eb578
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
    建議在已知所有所需的演算影像大小時使用。 提供比單一解析度和金字塔暈映更高品質和更快速的演算，因為在演算後不需要縮放影像。
 * 金字塔
 
-   最佳用途，建議您在需要多種影像尺寸且未預先確定確切尺寸，以及使用其中一個Scene7 Flash縮放檢視器時使用。
+   最佳用途，建議您在需要多種影像尺寸且未預先決定確切尺寸，以及使用動態媒體縮放檢視器時使用。
 * 含一個或多個附加解析度的金字塔
 
    針對特定尺寸提供高品質，同時仍提供彈性和縮放檢視器支援。
