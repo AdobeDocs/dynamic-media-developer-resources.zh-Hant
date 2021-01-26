@@ -1,16 +1,13 @@
 ---
 description: 進階演算設定。 高級渲染設定用於控制渲染引擎的低級部分，例如材料銳化類型和參數或照明算法的某些參數。
-seo-description: 進階演算設定。 高級渲染設定用於控制渲染引擎的低級部分，例如材料銳化類型和參數或照明算法的某些參數。
-seo-title: RenderSettings
 solution: Experience Manager
 title: RenderSettings
-topic: Scene7 Image Serving - Image Rendering API
-uuid: 19823ca5-51a1-4885-b578-d7c9852acab6
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 2%
+source-wordcount: '110'
+ht-degree: 3%
 
 ---
 
@@ -21,7 +18,7 @@ ht-degree: 2%
 
 ## 屬性 {#section-b4c8fe595efc4838ac598659bc820607}
 
-文字字串。 所有材料皆可選。 如果指定，則必須是有效的演算設定字串，如Vignette Authoring Tool（Scene7 Image Authoring套件的一部分）所定義。
+文字字串。 所有材料皆可選。 如果指定，則必須是有效的演算設定字串，如Vignette Authoring Tool（動態媒體影像製作套件的一部分）所定義。
 
 ## 預設 {#section-6a4d2013c1d34284b4ff21bb07485d28}
 
