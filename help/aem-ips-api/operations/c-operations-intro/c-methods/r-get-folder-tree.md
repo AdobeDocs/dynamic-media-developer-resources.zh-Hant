@@ -4,13 +4,13 @@ seo-description: 傳回階層式樹狀結構中的檔案夾和子檔案夾。 ge
 seo-title: getFolderTree
 solution: Experience Manager
 title: getFolderTree
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 93fda0d6-c656-4254-b07b-7a448e164f28
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '278'
+ht-degree: 8%
 
 ---
 
@@ -41,21 +41,21 @@ ht-degree: 0%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 公司的把手。 |
-| ` *`accessUserHandle`*` | `xsd:string` | 否 | 僅供管理員用來模擬特定使用者。 |
-| ` *`accessGroupHandle`*` | `xsd:string` | 否 | 用於依特定群組篩選，包括公司所屬的任何群組。 |
-| ` *`folderPath`*` | `xsd:string` | 否 | 根資料夾，用於將資料夾和所有子資料夾檢索到葉層。 如果排除，則會使用公司根目錄。 |
-| ` *`深度`*` | `xsd:int` | 是 | 值零會取得頂層資料夾。 任何其它值都指定要下降到樹中的深度。 |
-| ` *`assetTypeArray`*` | `types:StringArray` | 否 | 傳回僅包含指定資產類型的檔案夾。 |
-| ` *`responseFieldArray`*` | `types:StringArray` | 否 | 包含要包含在回應中的欄位清單。 |
-| ` *`excludeFieldArray`*` | `types:StringArray` | 否 | 包含您要在回應中排除的欄位清單。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 公司的把手。 |
+| `*`accessUserHandle`*` | `xsd:string` | 否 | 僅供管理員用來模擬特定使用者。 |
+| `*`accessGroupHandle`*` | `xsd:string` | 否 | 用於依特定群組篩選，包括公司所屬的任何群組。 |
+| `*`folderPath`*` | `xsd:string` | 否 | 根資料夾，用於將資料夾和所有子資料夾檢索到葉層。 如果排除，則會使用公司根目錄。 |
+| `*`深度`*` | `xsd:int` | 是 | 值零會取得頂層資料夾。 任何其它值都指定要下降到樹中的深度。 |
+| `*`assetTypeArray`*` | `types:StringArray` | 否 | 傳回僅包含指定資產類型的檔案夾。 |
+| `*`responseFieldArray`*` | `types:StringArray` | 否 | 包含要包含在回應中的欄位清單。 |
+| `*`excludeFieldArray`*` | `types:StringArray` | 否 | 包含您要在回應中排除的欄位清單。 |
 
 **輸出(getFolderTreeReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`資料夾`*` | `types:folders` | 否 | 樹結構中資料夾的層次。 回應上限為100,000個資料夾。 |
-| ` *`permissionSetArray`*` | `types:PermissionSetArray` |  |  |
+| `*`資料夾`*` | `types:folders` | 否 | 樹結構中資料夾的層次。 回應上限為100,000個資料夾。 |
+| `*`permissionSetArray`*` | `types:PermissionSetArray` |  |  |
 
 ## 範例 {#section-a9fd2edb56574dd9bf8b0f2fd89367e4}
 
