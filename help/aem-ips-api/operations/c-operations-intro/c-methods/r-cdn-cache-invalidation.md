@@ -1,35 +1,32 @@
 ---
-description: 將提供的URL清單轉送至Scene7 CDN（內容散發網路）提供者，使其現有的HTTP回應快取失效。
-seo-description: 將提供的URL清單轉送至Scene7 CDN（內容散發網路）提供者，使其現有的HTTP回應快取失效。
-seo-title: cdnCacheInvaliting
+description: 將提供的URL清單轉送至動態媒體CDN（內容散發網路）提供者，使其現有的HTTP回應快取失效。
 solution: Experience Manager
 title: cdnCacheInvaliting
-topic: Scene7 Image Production System API
-uuid: 16cf53d4-4101-405c-b008-009b6ac62169
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: aa095022d43db4bf815aece9bc2b087c53a64e1b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '476'
+ht-degree: 5%
 
 ---
 
 
 # cdnCacheInvalidation{#cdncacheinvalidation}
 
-將提供的URL清單轉送至Scene7 CDN（內容散發網路）提供者，使其現有的HTTP回應快取失效。
+將提供的URL清單轉送至動態媒體CDN（內容散發網路）提供者，使其現有的HTTP回應快取失效。
 
 ## cdnCacheInvalidation:關於{#section-4f70d2bc79d64288b961836ab17e9690}
 
-一旦透過CDN網路處理此失效要求，CDN快取失效會強制這些URL的所有HTTP要求，針對Scene7網路上目前發佈的資料重新驗證。 任何未連線至Scene7服務URL結構且在建立公司時直接符合指派給Scene7公司根ID的URL，都會導致整個請求的API錯誤。 CDN不支援且認為無效的任何無效URL，也會導致整個請求的API錯誤。
+CDN快取失效會強制這些URL的所有HTTP要求在透過CDN網路處理此失效要求後，針對動態媒體網路上目前發佈的資料重新驗證。 任何未連線至Dynamic Media服務URL結構且直接符合建立公司時指派之Dynamic Media公司根ID的URL，都會導致整個請求發生API錯誤。 CDN不支援且認為無效的任何無效URL，也會導致整個請求的API錯誤。
 
 **使用頻率：規則**
 
-控制此功能使用頻率的規則由Scene7的CDN合作夥伴控制。 CDN保留降低這些無效回應的酌情權，以維持其服務對其使用者的最佳效能。 如果Scene7收到過度使用此功能的通知，我們必須針對每家公司或整個服務停用此功能。
+控制此功能使用頻率的規則由Dynamic Media的CDN合作夥伴控制。 CDN保留降低這些無效回應的酌情權，以維持其服務對其使用者的最佳效能。 如果Dynamic Media收到過度使用此功能的通知，我們必須依公司或整個服務停用此功能。
 
 **確認電子郵件**
 
-來自Scene7 CDN合作夥伴的確認電子郵件可傳送至清單的建立者，或最多5個其他電子郵件地址。 當通知整個CDN網路已清除電子郵件中參考的URL時，API會傳送確認。 如果提供的URL數量超過Scene7在單一通知上可傳送給CDN合作夥伴的數量，則對`cdnCacheInvalidation`的單一呼叫可傳送多封電子郵件。 目前，這是當要求超過100個URL時，但可能會根據CDN合作夥伴的要求而變更。
+來自動態媒體CDN合作夥伴的確認電子郵件可傳送至清單的建立者，或最多5個其他電子郵件地址。 當通知整個CDN網路已清除電子郵件中參考的URL時，API會傳送確認。 如果提供的URL數量超過動態媒體在單一通知上可傳送給CDN合作夥伴的數量，則對`cdnCacheInvalidation`的單一呼叫可傳送多封電子郵件。 目前，這是當要求超過100個URL時，但可能會根據CDN合作夥伴的要求而變更。
 
 **支援自**
 
@@ -64,7 +61,7 @@ ht-degree: 0%
    <td> <p> <span class="codeph"> <span class="varname"> urlArray</span> </span> </p> </td> 
    <td> <p> <span class="codeph"> 類型：UrlArray</span> </p> </td> 
    <td> <p> 是 </p> </td> 
-   <td> <p> 從CDN快取中失效的URL清單最多達1000個。 所有URL都必須包含要失效的Scene7公司根ID。 </p> </td> 
+   <td> <p> 從CDN快取中失效的URL清單最多達1000個。 所有URL都必須包含要失效的Dynamic Media公司根ID。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
