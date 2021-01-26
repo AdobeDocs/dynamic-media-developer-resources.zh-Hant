@@ -4,10 +4,10 @@ seo-description: 從標籤欄位的字典中移除標籤欄位值。
 seo-title: deleteTagFieldValues
 solution: Experience Manager
 title: deleteTagFieldValues
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 71cdec4e-c1d6-4518-87ed-5c47a5112b15
 translation-type: tm+mt
-source-git-commit: b5eaefb375fbd0d0786619fa6d84b4f6fc17a77f
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 12%
@@ -31,9 +31,9 @@ ht-degree: 12%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 包含標籤欄位之公司的控制代碼。 |
-| ` *`fieldHandle`*` | `xsd:string` | 是 | 要修改的標籤欄位的句柄。 |
-| ` *`valueArray`*` | `types:StringArray` | 是 | 要從欄位字典中刪除的標籤值陣列。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 包含標籤欄位之公司的控制代碼。 |
+| `*`fieldHandle`*` | `xsd:string` | 是 | 要修改的標籤欄位的句柄。 |
+| `*`valueArray`*` | `types:StringArray` | 是 | 要從欄位字典中刪除的標籤值陣列。 |
 
 **輸出(deleteTagFieldValuesParam)**
 
