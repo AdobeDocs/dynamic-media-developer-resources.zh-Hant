@@ -4,13 +4,13 @@ seo-description: 從特定群組移除公司使用者。
 seo-title: removeGroupMembers
 solution: Experience Manager
 title: removeGroupMembers
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: dd0ea335-bbd0-43b1-830b-77f32dc39b12
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '125'
+ht-degree: 9%
 
 ---
 
@@ -36,9 +36,9 @@ ht-degree: 0%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 與您要搭配使用之使用者的公司控制代碼。 |
-| ` *`groupHandle`*` | `xsd:string` | 是 | 群組控制代碼。 |
-| ` *`userHandleArray`*` | `types:HandleArray` | 是 | 您要移除其群組成員資格的使用者的控制代碼陣列。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 與您要搭配使用之使用者的公司控制代碼。 |
+| `*`groupHandle`*` | `xsd:string` | 是 | 群組控制代碼。 |
+| `*`userHandleArray`*` | `types:HandleArray` | 是 | 您要移除其群組成員資格的使用者的控制代碼陣列。 |
 
 **輸出(removeGroupMembersParam)**
 
