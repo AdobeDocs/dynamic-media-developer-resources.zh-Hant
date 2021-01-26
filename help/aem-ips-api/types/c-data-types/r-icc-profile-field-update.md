@@ -4,10 +4,10 @@ seo-description: 更新ICC配置檔案屬性的資訊。
 seo-title: IccProfileFieldUpdate
 solution: Experience Manager
 title: IccProfileFieldUpdate
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 0a37e7d9-7ed9-4db2-afc7-eaee69f97d9b
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '61'
 ht-degree: 9%
@@ -25,8 +25,8 @@ ht-degree: 9%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| ` *`assetHandle`*` | `xsd:string` | 要更新的ICC配置檔案資產的處理。 |
-| ` *`類別`*` | `xsd:string` | 配置檔案類（有關值，請參閱「配置檔案類」）。 |
-| ` *`colorSpace`*` | `xsd:string` | 描述檔色域（如需值，請參閱「色域」）。 |
-| ` *`pcsType`*` | `xsd:string` | 描述檔連線空間（如需值，請參閱「色域」）。 |
+| `*`assetHandle`*` | `xsd:string` | 要更新的ICC配置檔案資產的處理。 |
+| `*`類別`*` | `xsd:string` | 配置檔案類（有關值，請參閱「配置檔案類」）。 |
+| `*`colorSpace`*` | `xsd:string` | 描述檔色域（如需值，請參閱「色域」）。 |
+| `*`pcsType`*` | `xsd:string` | 描述檔連線空間（如需值，請參閱「色域」）。 |
 
