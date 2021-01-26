@@ -4,10 +4,10 @@ seo-description: 設定或更新一或多個資產的發佈狀態。 您可以�
 seo-title: setAssetsContextState
 solution: Experience Manager
 title: setAssetsContextState
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 4b94f9ea-3f7b-45ee-9381-6434f2bc4e31
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 9%
@@ -41,17 +41,17 @@ ht-degree: 9%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 為公司負責。 |
-| ` *`assetsContextHandle`*` | `types:AssetsContextStateUpdateArray` | 是 | 一系列資產及其新的發佈狀態。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 為公司負責。 |
+| `*`assetsContextHandle`*` | `types:AssetsContextStateUpdateArray` | 是 | 一系列資產及其新的發佈狀態。 |
 
 **輸出(setAssetsContexStateReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | 是 | 成功變更的資產數。 |
-| ` *`warningCount`*` | `xsd:int` | 是 | 嘗試修改資產時產生的警告數。 |
-| ` *`errorCount`*` | `xsd:int` | 是 | 嘗試修改資產時產生的錯誤數。 |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 資產嘗試修改資產時產生的錯誤陣列。 |
+| `*`successCount`*` | `xsd:int` | 是 | 成功變更的資產數。 |
+| `*`warningCount`*` | `xsd:int` | 是 | 嘗試修改資產時產生的警告數。 |
+| `*`errorCount`*` | `xsd:int` | 是 | 嘗試修改資產時產生的錯誤數。 |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 資產嘗試修改資產時產生的錯誤陣列。 |
 
 ## 範例 {#section-283a073f3cb14bcda5abed863c538aa4}
 
