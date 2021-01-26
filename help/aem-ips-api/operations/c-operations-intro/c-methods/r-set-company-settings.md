@@ -4,13 +4,13 @@ seo-description: 設定各種公司特定的組態值。
 seo-title: setCompanySettings
 solution: Experience Manager
 title: setCompanySettings
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 5908082f-6743-4444-ba73-757ad4664890
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '157'
+ht-degree: 12%
 
 ---
 
@@ -34,15 +34,15 @@ ht-degree: 0%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 公司負責人。 |
-| ` *`overwriteMode`*` | `xsd:string` | 否 | 資產覆寫模式。 |
-| ` *`retainPublishState`*` | `xsd:boolean` | 否 | 設為`true`，以在資產重新上傳時保留發佈狀態。 |
-| ` *`defaultSourceProfileHandle`*` | `xsd:string` | 否 | IccProfile資產，用作預設來源色彩描述檔。 |
-| ` *`defaultDisplayProfileHandle`*` | `xsd:string` | 否 | IccProfile資產，用作預設顯示色彩描述檔。 |
-| ` *`iptcExifMappingXsltHandle`*` | `xsd:string` | 否 | 用於將IPTC和EXIF中繼資料對應至IPS中繼資料欄位的XSL資產。 |
-| ` *`xmpMappingXsltHandle`*` | `xsd:string` | 否 | 用於將XMP中繼資料對應至IPS中繼資料欄位的XSL資產。 |
-| ` *`diskSpaceWarningMin`*` | `xsd:int` | 否 | 在發送警告消息之前，可用的最小可用磁碟空間(KB)。 |
-| ` *`emailTrashCleanupWarning`*` | `xsd:boolean` | 否 | 設為`true`，可在資產從垃圾筒清空時，向公司管理員傳送通知。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 公司負責人。 |
+| `*`overwriteMode`*` | `xsd:string` | 否 | 資產覆寫模式。 |
+| `*`retainPublishState`*` | `xsd:boolean` | 否 | 設為`true`，以在資產重新上傳時保留發佈狀態。 |
+| `*`defaultSourceProfileHandle`*` | `xsd:string` | 否 | IccProfile資產，用作預設來源色彩描述檔。 |
+| `*`defaultDisplayProfileHandle`*` | `xsd:string` | 否 | IccProfile資產，用作預設顯示色彩描述檔。 |
+| `*`iptcExifMappingXsltHandle`*` | `xsd:string` | 否 | 用於將IPTC和EXIF中繼資料對應至IPS中繼資料欄位的XSL資產。 |
+| `*`xmpMappingXsltHandle`*` | `xsd:string` | 否 | 用於將XMP中繼資料對應至IPS中繼資料欄位的XSL資產。 |
+| `*`diskSpaceWarningMin`*` | `xsd:int` | 否 | 在發送警告消息之前，可用的最小可用磁碟空間(KB)。 |
+| `*`emailTrashCleanupWarning`*` | `xsd:boolean` | 否 | 設為`true`，可在資產從垃圾筒清空時，向公司管理員傳送通知。 |
 
 **輸出(setCompanySettingsReturn)**
 
