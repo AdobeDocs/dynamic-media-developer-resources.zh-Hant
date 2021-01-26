@@ -4,13 +4,13 @@ seo-description: 工作類型可允許重新處理先前上傳的主要檔案，
 seo-title: 重新處理AssetsJob
 solution: Experience Manager
 title: 重新處理AssetsJob
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 5b4aa838-0fb4-4ae8-be5a-8ce1e1487127
 translation-type: tm+mt
-source-git-commit: fa8be83171215f39cd2593a3bfe75ffe5fb7abcd
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '484'
+ht-degree: 5%
 
 ---
 
