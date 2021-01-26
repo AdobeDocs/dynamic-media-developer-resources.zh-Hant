@@ -4,13 +4,13 @@ seo-description: Postscript字型名稱。 Postscript字型名稱。
 seo-title: PsName
 solution: Experience Manager
 title: PsName
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8c7624c5-7f34-4128-abb7-94c007669b80
 translation-type: tm+mt
-source-git-commit: b4331c6f033903ec64f168da0b739927c6066710
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '74'
+ht-degree: 8%
 
 ---
 
