@@ -4,10 +4,10 @@ seo-description: 屬性陣列。
 seo-title: PropertyArray
 solution: Experience Manager
 title: PropertyArray
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: a28dd70f-953c-472a-9c23-020db134e1af
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '24'
 ht-degree: 25%
@@ -25,5 +25,5 @@ ht-degree: 25%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| ` *`項目`*` | `types:Property` | 屬性陣列。 |
+| `*`項目`*` | `types:Property` | 屬性陣列。 |
 
