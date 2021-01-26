@@ -4,12 +4,12 @@ seo-description: 「影像伺服」支援無限制的「影像伺服」請求巢
 seo-title: 請求巢狀內嵌
 solution: Experience Manager
 title: 請求巢狀內嵌
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 59031329-e65f-4631-bc7d-83f2540cc836
 translation-type: tm+mt
-source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1081'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 ## 內嵌影像演算請求{#section-69c5548db930412b9b90d9b2951a6969}
 
-在伺服器上啟用Scene7影像演算時，演算請求可在src=（或mask=）命令中指定，以做為圖層來源。 使用下列語法：
+在伺服器上啟用「動態媒體影像演算」時，演算請求可在src=（或mask=）命令中指定，以做為圖層來源。 使用下列語法：
 
 ` …&src=ir( *[!DNL renderRequest]*)&…`
 
@@ -92,7 +92,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->FXG圖形演算僅適用於Scene7代管環境，可能需要額外授權。 如需詳細資訊，請連絡Scene7支援。
+>FXG圖形演算僅適用於動態媒體代管環境，而且可能需要額外的授權。 如需詳細資訊，請連絡動態媒體技術支援。
 
 *[!DNL renderRequest]* 是通常的FXG演算請求，排除HTTP根路徑 ` http:// *[!DNL server]*/agm/render/`。
 
@@ -152,9 +152,9 @@ ht-degree: 0%
 
 `layer=0&src=is(?src=$img$&size=300,300&cache=on)&layer=1&text=$txt$`
 
-**內嵌Scene7影像演算要求**
+**內嵌動態媒體影像演算要求**
 
-使用儲存在[!DNL myCatalog/myTemplate]中的模板；使用Scene7影像演算為範本的layer2產生影像：
+使用儲存在[!DNL myCatalog/myTemplate]中的模板；使用動態媒體影像演算為範本的第2層產生影像：
 
 `http://server/is/image/myCatalog/myTemplate?layer=2&src=ir(myRenderCatalog/myRenderObject?id=myIdValue&sel=group&src=is(myCatalog/myTexture1?res=30)&res=30)&wid=300`
 
