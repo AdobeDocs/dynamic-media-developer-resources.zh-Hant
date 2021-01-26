@@ -4,10 +4,10 @@ seo-description: 傳回指定影像的Photoshop路徑名稱陣列。
 seo-title: getPhotoshopPathNames
 solution: Experience Manager
 title: getPhotoshopPathNames
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: d3f1dea5-393b-498e-963d-37a4e38068a2
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 17%
@@ -37,14 +37,14 @@ ht-degree: 17%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 包含您要使用之影像的公司控制代碼。 |
-| ` *`assetHandle`*` | `xsd:string` | 是 | 處理影像資產。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 包含您要使用之影像的公司控制代碼。 |
+| `*`assetHandle`*` | `xsd:string` | 是 | 處理影像資產。 |
 
 **輸出(getPhotoshopPathNamesReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`pathNameArray`*` | `types:StringArray` | 是 | 影像中的Photoshop路徑名稱陣列。 |
+| `*`pathNameArray`*` | `types:StringArray` | 是 | 影像中的Photoshop路徑名稱陣列。 |
 
 ## 範例 {#section-6d316f14b4184d42af4ca3f717b042dd}
 
