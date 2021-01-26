@@ -4,10 +4,10 @@ seo-description: 遮色影像的一部分。 遮色片始終與影像相關聯�
 seo-title: 遮色片
 solution: Experience Manager
 title: 遮色片
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 06ac0f76-13ce-434b-ac60-6a2af9648f92
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 11%
@@ -25,9 +25,9 @@ ht-degree: 11%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| ` *`maskHandle`*` | `xsd:string` | 遮色片手柄。 |
-| ` *`名稱`*` | `xsd:string` | 遮色片名稱。 |
-| ` *`maskPath`*` | `xsd:string` | 遮色片的相對路徑。 |
-| ` *`maskFile`*` | `xsd:string` | 遮色片檔案. |
-| ` *`lastModified`*` | `types:dateTime` | 上次修改遮色片的日期、時間和時區。 |
+| `*`maskHandle`*` | `xsd:string` | 遮色片手柄。 |
+| `*`名稱`*` | `xsd:string` | 遮色片名稱。 |
+| `*`maskPath`*` | `xsd:string` | 遮色片的相對路徑。 |
+| `*`maskFile`*` | `xsd:string` | 遮色片檔案. |
+| `*`lastModified`*` | `types:dateTime` | 上次修改遮色片的日期、時間和時區。 |
 
