@@ -4,10 +4,10 @@ seo-description: 刪除影像地圖。
 seo-title: deleteImageMap
 solution: Experience Manager
 title: deleteImageMap
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 0abdf72c-f445-41d0-bd88-63b7ad1359d5
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 12%
@@ -40,8 +40,8 @@ ht-degree: 12%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 包含要刪除之影像地圖之公司的控制代碼。 |
-| ` *`imageMapHandle`*` | `xsd:string` | 是 | 要刪除的影像地圖的控點。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 包含要刪除之影像地圖之公司的控制代碼。 |
+| `*`imageMapHandle`*` | `xsd:string` | 是 | 要刪除的影像地圖的控點。 |
 
 **輸出(deleteImageMapParam)**
 
