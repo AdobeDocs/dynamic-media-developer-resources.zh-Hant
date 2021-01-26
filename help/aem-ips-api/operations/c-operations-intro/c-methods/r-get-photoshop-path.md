@@ -4,10 +4,10 @@ seo-description: 傳回包含命名Photoshop路徑的四邊形座標。
 seo-title: getPhotoshopPath
 solution: Experience Manager
 title: getPhotoshopPath
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: e3ed4888-18db-40bc-a1db-f44a342d0293
 translation-type: tm+mt
-source-git-commit: 22b447e66c223126f4e6b91f9a0102e86731c4a4
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 17%
@@ -38,15 +38,15 @@ ht-degree: 17%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 使用您要使用的影像處理公司。 |
-| ` *`assetHandle`*` | `xsd:string` | 是 | 處理影像資產。 |
-| ` *`pathName`*` | `xsd:string` | 是 | 您要傳回的Photoshop路徑名稱。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 使用您要使用的影像處理公司。 |
+| `*`assetHandle`*` | `xsd:string` | 是 | 處理影像資產。 |
+| `*`pathName`*` | `xsd:string` | 是 | 您要傳回的Photoshop路徑名稱。 |
 
 **輸出(getPhotoshopPathReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`perspectiveQuad`*` | `types:PerspectiveQuad` | 是 | 根據路徑傳回影像座標。 請參閱[PerspectiveQuad](../../../types/c-data-types/r-perspective-quad.md#reference-3c1f780f9c264e5b870b1ade24566204)。 |
+| `*`perspectiveQuad`*` | `types:PerspectiveQuad` | 是 | 根據路徑傳回影像座標。 請參閱[PerspectiveQuad](../../../types/c-data-types/r-perspective-quad.md#reference-3c1f780f9c264e5b870b1ade24566204)。 |
 
 ## 範例 {#section-1f0461cbdc184c8d8925336d5279db47}
 
