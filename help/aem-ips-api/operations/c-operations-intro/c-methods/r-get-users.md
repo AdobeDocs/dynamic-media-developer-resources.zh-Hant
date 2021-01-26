@@ -4,10 +4,10 @@ seo-description: 獲取由公司、組和用戶角色句柄指定的一組用戶
 seo-title: getUsers
 solution: Experience Manager
 title: getUsers
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: f16ccd1b-0f00-4d9a-b6e1-6abc3bde1af9
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 9%
@@ -29,22 +29,22 @@ ht-degree: 9%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`includeInactive`*` | `xsd:boolean` | 否 | 包含或排除非作用中使用者。 非IPS管理員使用者必須是至少一家公司的有效成員，才能取得進行任何API呼叫的授權。 如果使用者沒有有效的公司會籍，則會傳回授權錯誤。 |
-| ` *`includeInvalid`*` | `xsd:boolean` | 否 | 可讓您包含／排除無效使用者。 |
-| ` *`companyHandleArray`*` | `types:HandleArray` | 否 | 依公司篩選結果。 |
-| ` *`groupHandleArray`*` | `types:HandleArray` | 否 | 依群組篩選結果。 |
-| ` *`userRoleArray`*` | `types:StringArray` | 否 | 依使用者角色篩選結果。 |
-| ` *`charFilterField`*` | `xsd:string` | 否 | 依欄位字串首碼篩選結果(請參閱[!DNL Trash State).] |
-| ` *`charFilter`*` | `xsd:string` | 否 | 依特定字元篩選結果。 |
-| ` *`sortBy`*` | `xsd:string` | 否 | 用戶排序欄位的選擇。 |
-| ` *`recordsPerPage`*` | `xsd:int` | 否 | 傳回每頁指定的記錄數。 |
-| ` *`resultsPage`*` | `xsd:int` | 否 | 結果頁面。 |
+| `*`includeInactive`*` | `xsd:boolean` | 否 | 包含或排除非作用中使用者。 非IPS管理員使用者必須是至少一家公司的有效成員，才能取得進行任何API呼叫的授權。 如果使用者沒有有效的公司會籍，則會傳回授權錯誤。 |
+| `*`includeInvalid`*` | `xsd:boolean` | 否 | 可讓您包含／排除無效使用者。 |
+| `*`companyHandleArray`*` | `types:HandleArray` | 否 | 依公司篩選結果。 |
+| `*`groupHandleArray`*` | `types:HandleArray` | 否 | 依群組篩選結果。 |
+| `*`userRoleArray`*` | `types:StringArray` | 否 | 依使用者角色篩選結果。 |
+| `*`charFilterField`*` | `xsd:string` | 否 | 依欄位字串首碼篩選結果(請參閱[!DNL Trash State).] |
+| `*`charFilter`*` | `xsd:string` | 否 | 依特定字元篩選結果。 |
+| `*`sortBy`*` | `xsd:string` | 否 | 用戶排序欄位的選擇。 |
+| `*`recordsPerPage`*` | `xsd:int` | 否 | 傳回每頁指定的記錄數。 |
+| `*`resultsPage`*` | `xsd:int` | 否 | 結果頁面。 |
 
 **輸出(getUsersReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`userArray`*` | `types:UserArray` | 是 | 一組使用者。 |
+| `*`userArray`*` | `types:UserArray` | 是 | 一組使用者。 |
 
 ## 範例 {#section-bc43a5dd7b4c4f048d25fc881554dab2}
 
