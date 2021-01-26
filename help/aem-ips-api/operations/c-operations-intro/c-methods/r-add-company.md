@@ -1,15 +1,12 @@
 ---
 description: 將公司新增至系統。
-seo-description: 將公司新增至系統。
-seo-title: addCompany
 solution: Experience Manager
 title: addCompany
-topic: Scene7 Image Production System API
-uuid: 2f00a06d-40d1-4ba3-a317-6ea91e25beb3
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '170'
 ht-degree: 11%
 
 ---
@@ -21,7 +18,7 @@ ht-degree: 11%
 
 傳送要新增至系統的公司名稱，並選擇性地傳送公司是否過期。
 
-調用此操作時，系統將獲取` *`companyInfo`*`類型，該類型包含公司句柄和描述性欄位。 如果請求的公司名稱已存在於系統中，則會拋出`ipsApiFault`。
+調用此操作時，系統將獲取`*`companyInfo`*`類型，該類型包含公司句柄和描述性欄位。 如果請求的公司名稱已存在於系統中，則會拋出`ipsApiFault`。
 
 ## 授權用戶類型{#section-ae926c7672984be79f6102748accab72}
 
