@@ -4,12 +4,12 @@ seo-description: 圖層編號也決定z順序。
 seo-title: 圖層順序
 solution: Experience Manager
 title: 圖層順序
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 090f3873-8355-4b11-b05f-f34c74f02a5b
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '76'
 ht-degree: 0%
 
 ---
