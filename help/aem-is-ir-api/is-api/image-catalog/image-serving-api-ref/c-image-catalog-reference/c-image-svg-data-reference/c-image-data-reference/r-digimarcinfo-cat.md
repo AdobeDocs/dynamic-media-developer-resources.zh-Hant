@@ -4,13 +4,13 @@ seo-description: Digimarc影像資訊。 啟用Digimarc嵌入並指定水印類�
 seo-title: DigimarcInfo
 solution: Experience Manager
 title: DigimarcInfo
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8371880e-47df-4333-b8a6-91feaf16c409
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '248'
+ht-degree: 13%
 
 ---
 
@@ -23,9 +23,9 @@ Digimarc影像資訊。 啟用Digimarc嵌入並指定水印類型和任何相關
 
 四個整數值，以逗號分隔。
 
-` *``*, *``*, *`typeflagsval1`*, *`val2`*`
+`*``*, *``*, *`typeflagsval1`*, *`val2`*`
 
-` *``*` typeenables Digimarc embedding and specification the watermark type:
+`*``*` typeenables Digimarc embedding and specification the watermark type:
 
 <table id="table_3648951F14D94C5BAD097CFB783F1EE7"> 
  <thead> 
@@ -58,7 +58,7 @@ Digimarc影像資訊。 啟用Digimarc嵌入並指定水印類型和任何相關
  </tbody> 
 </table>
 
-` *`標`*` 記具有三個值的位欄位。設定位元0以表示受複製保護的內容，設定位元1以表示受限制的內容，設定位元2以表示成人內容：
+`*`標`*` 記具有三個值的位欄位。設定位元0以表示受複製保護的內容，設定位元1以表示受限制的內容，設定位元2以表示成人內容：
 
 <table id="table_00F218515FBE484F9D05CBAF14F9D045"> 
  <thead> 
@@ -103,7 +103,7 @@ Digimarc影像資訊。 啟用Digimarc嵌入並指定水印類型和任何相關
  </tbody> 
 </table>
 
-` *`val1`*`和` *`val2`*`的解釋取決於` *`type`*`:
+`*`val1`*`和`*`val2`*`的解釋取決於`*`type`*`:
 
 <table id="table_6B29F76BC1974C12AB7124BF84B29EC2"> 
  <thead> 
