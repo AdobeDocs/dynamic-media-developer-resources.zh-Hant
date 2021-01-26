@@ -4,13 +4,13 @@ seo-description: 設定現有標籤欄位的標籤字典值。
 seo-title: setTagFieldValues
 solution: Experience Manager
 title: setTagFieldValues
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 56666c00-3694-4a43-a0ff-97af45c8df9f
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '91'
+ht-degree: 15%
 
 ---
 
@@ -33,9 +33,9 @@ ht-degree: 0%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 公司負責人。 |
-| ` *`fieldHandle`*` | `xsd:string` | 是 | 標籤欄位控制代碼。 |
-| ` *`valueArray`*` | `types:StringArray` | 是 | 一組標籤值，用於替換欄位的現有字典。 當新值與現有值相符時，會維護資產關聯。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 公司負責人。 |
+| `*`fieldHandle`*` | `xsd:string` | 是 | 標籤欄位控制代碼。 |
+| `*`valueArray`*` | `types:StringArray` | 是 | 一組標籤值，用於替換欄位的現有字典。 當新值與現有值相符時，會維護資產關聯。 |
 
 **輸出(setTagFieldValuesReturn)**
 
