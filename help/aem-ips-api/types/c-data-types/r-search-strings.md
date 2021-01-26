@@ -4,10 +4,10 @@ seo-description: 從PDF檔案擷取的搜尋字串記錄。
 seo-title: SearchStrings
 solution: Experience Manager
 title: SearchStrings
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: aade2741-3e77-44c6-ab3c-0810ff034412
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '91'
 ht-degree: 13%
@@ -25,13 +25,13 @@ ht-degree: 13%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| ` *`searchString`*` | `xsd:string` | 搜尋字串文字。 |
-| ` *`keywordsArray`*` | `types:KeywordsArray` | 搜尋字串中的關鍵字陣列。 |
-| ` *`狀態`*` | `xsd:boolean` | 如果搜尋字串有效且已啟用，則返回true。 |
-| ` *`x`*` | `xsd:int` | 搜索字串的X軸位置。 |
-| ` *`y`*` | `xsd:int` | 搜索字串的Y軸位置。 |
-| ` *`width`*` | `xsd:int` | 搜尋字串寬度。 |
-| ` *`height`*` | `xsd:int` | 搜尋字串高度。 |
-| ` *`fontName`*` | `xsd:string` | 搜尋字串中使用的字型名稱。 |
-| ` *`pointSize`*` | `xsd:string` | 字型大小. |
+| `*`searchString`*` | `xsd:string` | 搜尋字串文字。 |
+| `*`keywordsArray`*` | `types:KeywordsArray` | 搜尋字串中的關鍵字陣列。 |
+| `*`狀態`*` | `xsd:boolean` | 如果搜尋字串有效且已啟用，則返回true。 |
+| `*`x`*` | `xsd:int` | 搜索字串的X軸位置。 |
+| `*`y`*` | `xsd:int` | 搜索字串的Y軸位置。 |
+| `*`width`*` | `xsd:int` | 搜尋字串寬度。 |
+| `*`height`*` | `xsd:int` | 搜尋字串高度。 |
+| `*`fontName`*` | `xsd:string` | 搜尋字串中使用的字型名稱。 |
+| `*`pointSize`*` | `xsd:string` | 字型大小. |
 
