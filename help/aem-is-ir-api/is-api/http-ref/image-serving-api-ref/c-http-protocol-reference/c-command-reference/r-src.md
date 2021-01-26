@@ -4,13 +4,13 @@ seo-description: 圖層影像。
 seo-title: src
 solution: Experience Manager
 title: src
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b4396848-b992-4371-a8ae-4ff1781ae1be
 translation-type: tm+mt
-source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '194'
+ht-degree: 3%
 
 ---
 
@@ -43,10 +43,6 @@ ht-degree: 0%
 巢狀或內嵌的請求會以大括弧括住。 將內嵌影像伺服請求前置詞為`is`、內嵌影像演算請求前置詞為`ir`，以及FXG圖形演算請求前置詞為`fxg`。 如果未指定前置詞，則假定對外部伺服器的請求。
 
 請參閱[請求巢狀內嵌](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-nesting-and-embedding.md#reference-38ec66d4062046589e16c39bf1c6049b)。
-
->[!NOTE]
->
->FXG圖形演算僅適用於Scene7代管環境，可能需要額外授權。 如需詳細資訊，請連絡Scene7支援。
 
 ## 屬性 {#section-2c22bb89a35d470f833df8ba898efd93}
 
