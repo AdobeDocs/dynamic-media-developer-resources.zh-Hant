@@ -4,13 +4,13 @@ seo-description: 獲取所選公司的指定作業日誌。 您可以依字元�
 seo-title: getJobLogs
 solution: Experience Manager
 title: getJobLogs
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 850ccfad-6cdb-4eda-a20a-762fadadf8b2
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '207'
+ht-degree: 10%
 
 ---
 
@@ -39,19 +39,19 @@ ht-degree: 0%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 否 | 公司負責人。 |
-| ` *`userHandle`*` | `xsd:string` | 否 | 獲取特定用戶提交的作業的日誌。 |
-| ` *`sortBy`*` | `xsd:string` | 否 | 可讓您選取排序欄位。 |
-| ` *`sortDirection`*` | `xsd:string` | 否 | 排序順序（遞增或遞減）。 |
-| ` *`startDate`*` | `xsd:dateTime` | 否 | 作業日誌開始的日期和時間。 為時區提供此欄位的請求。 |
-| ` *`endDate`*` | `xsd:dateTime` | 否 | 作業日誌結束的日期和時間。 為時區提供此欄位的請求。 |
-| ` *`numRows`*` | `xsd:int` | 否 | 要返回的最大行數。 |
+| `*`companyHandle`*` | `xsd:string` | 否 | 公司負責人。 |
+| `*`userHandle`*` | `xsd:string` | 否 | 獲取特定用戶提交的作業的日誌。 |
+| `*`sortBy`*` | `xsd:string` | 否 | 可讓您選取排序欄位。 |
+| `*`sortDirection`*` | `xsd:string` | 否 | 排序順序（遞增或遞減）。 |
+| `*`startDate`*` | `xsd:dateTime` | 否 | 作業日誌開始的日期和時間。 為時區提供此欄位的請求。 |
+| `*`endDate`*` | `xsd:dateTime` | 否 | 作業日誌結束的日期和時間。 為時區提供此欄位的請求。 |
+| `*`numRows`*` | `xsd:int` | 否 | 要返回的最大行數。 |
 
 **輸出(getJobLogsReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| ` *`jobLogArray`*` | `types: JobLogArray` | 是 | 作業日誌的陣列。 |
+| `*`jobLogArray`*` | `types: JobLogArray` | 是 | 作業日誌的陣列。 |
 
 ## 範例 {#section-35871c94b4a44559912577efddbc46a6}
 
