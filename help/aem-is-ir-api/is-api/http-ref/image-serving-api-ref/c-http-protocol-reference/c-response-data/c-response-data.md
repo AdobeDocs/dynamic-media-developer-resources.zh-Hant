@@ -4,13 +4,13 @@ seo-description: 影像伺服會產生HTTP/1.1回應標題。
 seo-title: 回應資料
 solution: Experience Manager
 title: 回應資料
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 63812101-1956-4dea-9ef9-38769c934243
 translation-type: tm+mt
-source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '27'
+ht-degree: 11%
 
 ---
 
