@@ -4,13 +4,13 @@ seo-description: 文字字串本地化可讓影像目錄包含相同字串值的
 seo-title: 文字字串本地化
 solution: Experience Manager
 title: 文字字串本地化
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: bdff2403-e3bb-4b3f-a8d7-bb108c1fbee8
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '685'
+ht-degree: 3%
 
 ---
 
@@ -124,7 +124,7 @@ ht-degree: 0%
 
 多個&#x200B;*`locId`*&#x200B;值可以與翻譯映射中的每個&#x200B;*`locale`*&#x200B;相關聯。 這可支援特定國家或地區的變化（例如，美國英文與英國英文），以選擇&#x200B;*`stringElements`*，同時處理大部分具有共同基本地區（例如國際英文）的內容。
 
-對於我們的範例，我們想新增對美國特定英文(` *`locId`* EUS`)和英國特定英文(` *`locId`* EUK`)的支援，以支援偶爾的替代拼字。 如果EUK或EUS不存在，我們將返回E。同樣地，在大部分時間返回通用德文&#x200B;*`localizedStrings`*（標有`D`）時，可視需要提供奧地利專用的德文變體(`DAT`)。
+對於我們的範例，我們想新增對美國特定英文(`*`locId`* EUS`)和英國特定英文(`*`locId`* EUK`)的支援，以支援偶爾的替代拼字。 如果EUK或EUS不存在，我們將返回E。同樣地，在大部分時間返回通用德文&#x200B;*`localizedStrings`*（標有`D`）時，可視需要提供奧地利專用的德文變體(`DAT`)。
 
 `attribute::LocaleStrMap` 會像這樣：
 
