@@ -1,15 +1,12 @@
 ---
-description: 回應式影像庫是JavaScript模組，可動態調整從Scene7提供並內嵌至回應式網頁的影像品質。 此外，它在具有高密度螢幕的裝置上，提供改善的影像品質。 程式庫也可以回應性地轉換智慧型裁切和智慧型色票的結果。
-seo-description: 回應式影像庫是JavaScript模組，可動態調整從Scene7提供並內嵌至回應式網頁的影像品質。 此外，它在具有高密度螢幕的裝置上，提供改善的影像品質。 程式庫也可以回應性地轉換智慧型裁切和智慧型色票的結果。
-seo-title: 關於自適應影像庫
+description: 回應式影像庫是JavaScript模組，可動態調整從動態媒體提供並內嵌至回應式網頁的影像品質。 此外，它在具有高密度螢幕的裝置上，提供改善的影像品質。 程式庫也可以回應性地轉換智慧型裁切和智慧型色票的結果。
 solution: Experience Manager
 title: 關於自適應影像庫
-topic: Scene7 Image Serving - Image Rendering API
-uuid: 0906a940-59ff-45b0-b509-57bd02f2da57
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '917'
 ht-degree: 0%
 
 ---
@@ -17,11 +14,11 @@ ht-degree: 0%
 
 # 關於自適應影像庫{#about-responsive-image-library}
 
-回應式影像庫是JavaScript模組，可動態調整從Scene7提供並內嵌至回應式網頁的影像品質。 此外，它在具有高密度螢幕的裝置上，提供改善的影像品質。 程式庫也可以回應性地轉換智慧型裁切和智慧型色票的結果。
+回應式影像庫是JavaScript模組，可動態調整從動態媒體提供並內嵌至回應式網頁的影像品質。 此外，它在具有高密度螢幕的裝置上，提供改善的影像品質。 程式庫也可以回應性地轉換智慧型裁切和智慧型色票的結果。
 
 ## 示範URL {#section-4f72c1dc38bf4e03acfa5205733a05a5}
 
-回應式影像庫最簡單的使用案例是定義影像寬度的斷點值清單。 此清單可確保在重新調整影像大小時，會載入和顯示適當的轉譯，因為網頁版面配置會隨著使用者調整瀏覽器視窗大小或變更裝置方向而改變。 程式庫會持續監視螢幕影像大小，每當達到新的斷點寬度時，就會從Scene7擷取新的影像轉譯。
+回應式影像庫最簡單的使用案例是定義影像寬度的斷點值清單。 此清單可確保在重新調整影像大小時，會載入和顯示適當的轉譯，因為網頁版面配置會隨著使用者調整瀏覽器視窗大小或變更裝置方向而改變。 程式庫會持續監視螢幕影像大小，每當達到新的斷點寬度時，就會從動態媒體擷取新的影像轉譯。
 
 <table id="table_3D3D3991B802461A888E1093C1217D26"> 
  <thead> 
@@ -42,7 +39,7 @@ ht-degree: 0%
    <td colname="col01"> <p>2 </p> </td> 
    <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/responsive-static-image-bootstrap.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/responsive-static-image-bootstrap.html  </a> </p> <p> 
      <!-- http://sasha.s7qa.com/jira-bugs/S7-7729/responsive-static-image-bootstrap.htm--> </p> </td> 
-   <td colname="col2"> <p>以下引導示例說明了網頁中的相同使用案例。 根據Bootstrap CSS，加入回應式影像的版面儲存格會採用下列其中一種寬度：360、720和940像素。 這些值會作為中斷點傳遞至「自適應影像庫」。 因此，Scene7可確保用戶端的網路頻寬得到有效運用。 此外，它還可確保影像以所需的大小顯示，而不會因縮放用戶端瀏覽器而產生任何視覺不自然現象。 </p> <p>按一下URL以開啟網頁、調整瀏覽器視窗大小以達到不同的版面中斷點，並監控網路流量。 </p> <p>更進階的使用案例包括將不同的「影像預設集」或「影像伺服」指令（或兩者）與不同的斷點值產生關聯。 </p> </td> 
+   <td colname="col2"> <p>以下引導示例說明了網頁中的相同使用案例。 根據Bootstrap CSS，加入回應式影像的版面儲存格會採用下列其中一種寬度：360、720和940像素。 這些值會作為中斷點傳遞至「自適應影像庫」。 因此，Dynamic Media可確保用戶端的網路頻寬得到有效運用。 此外，它還可確保影像以所需的大小顯示，而不會因縮放用戶端瀏覽器而產生任何視覺不自然現象。 </p> <p>按一下URL以開啟網頁、調整瀏覽器視窗大小以達到不同的版面中斷點，並監控網路流量。 </p> <p>更進階的使用案例包括將不同的「影像預設集」或「影像伺服」指令（或兩者）與不同的斷點值產生關聯。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>3 </p> </td> 
@@ -69,7 +66,7 @@ ht-degree: 0%
 
 **伺服器硬體與軟體**
 
-* Scene7 Image Serving 6.0.1或更新版本。
+* Dynamic Media Image Serving 6.0.1或更新版本。
 
 **用戶端瀏覽器最低需求**
 
