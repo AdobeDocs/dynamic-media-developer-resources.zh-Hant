@@ -4,13 +4,13 @@ seo-description: 遮色（去除）選取影像的背景。 這可讓您在主�
 seo-title: KnowdleBackgroundOptions
 solution: Experience Manager
 title: KnowdleBackgroundOptions
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 1486d646-f42a-4ed4-9450-313950969c39
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '198'
+ht-degree: 4%
 
 ---
 
