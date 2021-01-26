@@ -4,10 +4,10 @@ seo-description: textPs=建置專屬的複製調整演算法，自動調整字�
 seo-title: 複製調整
 solution: Experience Manager
 title: 複製調整
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: c3ddbf1f-c724-4436-96ff-2c616dfd355d
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 0%
@@ -55,7 +55,7 @@ textPs=建置專屬的複製調整演算法，自動調整字型大小，以最�
 
 `{\fs10\copyfit100 $A${\copyfit200 $B$}$C$}`
 
-所有文本都在範圍的小端上以\fs10繪製，而最大的文本則以&#x200B;*[!DNL $A$]*&#x200B;和&#x200B;*[!DNL $C$]*&#x200B;和`\fs100`顯示。*[!DNL $B$]*`\fs200`
+所有文本都在範圍的小端上以\fs10繪製，而最大的文本則以`\fs100`和&#x200B;*[!DNL $B$]*&#x200B;和`\fs200`顯示。*[!DNL $A$]**[!DNL $C$]*
 
 **禁用內部文本範圍的複製調整：**
 
