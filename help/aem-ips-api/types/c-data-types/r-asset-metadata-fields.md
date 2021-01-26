@@ -4,10 +4,10 @@ seo-description: 傳回指定資產類型的中繼資料欄位定義。
 seo-title: AssetMetadataFields
 solution: Experience Manager
 title: AssetMetadataFields
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: aefb734c-7609-4227-ae2c-48a1469740ec
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '57'
 ht-degree: 8%
@@ -25,6 +25,6 @@ ht-degree: 8%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| ` *`assetType`*` | `xsd:string` | 與欄位定義關聯的資產類型（如需值，請參閱「資產類型」）。 |
-| ` *`fieldArray`*` | `types:MetadataFieldArray` | 與`assetType`中指定的資產類型相關聯的中繼資料欄位定義陣列。 |
+| `*`assetType`*` | `xsd:string` | 與欄位定義關聯的資產類型（如需值，請參閱「資產類型」）。 |
+| `*`fieldArray`*` | `types:MetadataFieldArray` | 與`assetType`中指定的資產類型相關聯的中繼資料欄位定義陣列。 |
 
