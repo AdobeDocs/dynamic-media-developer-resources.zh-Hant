@@ -4,13 +4,13 @@ seo-description: ZIP檔案中的項目。
 seo-title: ZipEntry
 solution: Experience Manager
 title: ZipEntry
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 05aac11b-249c-4c44-943d-fa6bf35d3637
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '50'
+ht-degree: 10%
 
 ---
 
@@ -25,9 +25,9 @@ ZIP檔案中的項目。
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| ` *`名稱`*` | `xsd:string` | 參加項目名稱。 |
-| ` *`isDirectory`*` | `xsd:boolean` | 確定條目是否為目錄。 |
-| ` *`lastModified`*` | `xsd:dateTime` | 上次修改的日期和時間。 |
-| ` *`compressedSize`*` | `xsd:long` | 壓縮大小。 |
-| ` *`uncompressentSize`*` | `xsd:long` | 未壓縮大小。 |
+| `*`名稱`*` | `xsd:string` | 參加項目名稱。 |
+| `*`isDirectory`*` | `xsd:boolean` | 確定條目是否為目錄。 |
+| `*`lastModified`*` | `xsd:dateTime` | 上次修改的日期和時間。 |
+| `*`compressedSize`*` | `xsd:long` | 壓縮大小。 |
+| `*`uncompressentSize`*` | `xsd:long` | 未壓縮大小。 |
 
