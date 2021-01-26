@@ -4,10 +4,10 @@ seo-description: 命令宏為命令集提供命名快捷方式。
 seo-title: 命令宏*
 solution: Experience Manager
 title: 命令宏*
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0a131488-6296-4c7f-9bc7-3053df908899
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 1%
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 在&#39;?&#39;後，或在`vignette::Modifier`欄位中的任何位置，在請求中叫用巨集。 宏只能表示一個或多個完整的影像渲染命令，並且必須與具有「&amp;」分隔符的其它命令分開。
 
-宏調用在解析期間早被其替代字串替換。 如果宏中的命令在請求中調用宏之前發生，則會覆蓋請求中的相同命令。 這與`vignette::Modifier`不同，在&lt;a0/>中，請求字串中的命令一律會覆寫`vignette::Modifier`字串中的命令，而不論請求中的位置。
+宏調用在解析期間早被其替代字串替換。 如果宏中的命令在請求中調用宏之前發生，則會覆蓋請求中的相同命令。 這與`vignette::Modifier`不同，在中，請求字串中的命令一律會覆寫`vignette::Modifier`字串中的命令，而不論請求中的位置。
 
 命令宏不能有參數值，但可使用自定義變數將值從請求傳遞到宏。
 
