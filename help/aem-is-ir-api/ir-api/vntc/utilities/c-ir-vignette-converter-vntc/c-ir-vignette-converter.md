@@ -4,10 +4,10 @@ seo-description: 暈映轉換器(vntc)是命令列公用程式，用來準備使
 seo-title: 暈映轉換器
 solution: Experience Manager
 title: 暈映轉換器
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b32a30d6-ae4a-406f-88a9-e8b0eec394c9
 translation-type: tm+mt
-source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 * 從暈映（完整解析度或縮圖）中擷取檢視影像（請參閱`-thumbwidth`和`-image`）。
 * 從源檔案中提取相關屬性（請參見`-info`），並將其發送到`stdout`或可選日誌檔案（請參閱`-log`）。
 
-雖然使用[!DNL vntc]是可選的，但強烈建議使用&lt;a0/>以獲得最佳的伺服器效能。 [!DNL vntc] 此外，還可建置廣泛的錯誤檢查，並可防止在使用時出現嚴重的伺服器問題，包括當機。
+雖然使用[!DNL vntc]是可選的，但強烈建議使用以獲得最佳的伺服器效能。 [!DNL vntc] 此外，還可建置廣泛的錯誤檢查，並可防止在使用時出現嚴重的伺服器問題，包括當機。
 
 產生生產暈映時，輸出暈映的像素寬度（若是金字塔或多解析度暈映，則為0）會附加至產生的輸出暈映檔案名稱。 在處理檔案櫃樣式檔案時，輸出解析度將附加到輸出檔案名。 所有輸出檔案（包括可選縮圖、影像和日誌檔案以及生產暈映或檔案櫃樣式檔案）都放置在&#x200B;*[!DNL sourceFile]*&#x200B;所在的同一目錄中（除非指定了`-destPath`）。
 
