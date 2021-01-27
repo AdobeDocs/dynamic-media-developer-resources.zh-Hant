@@ -1,23 +1,20 @@
 ---
-description: 當使用者啟動影像地圖時，「資訊面板彈出畫面」會顯示在檢視器區域的中央，該影像地圖具有Scene7 Publishing System中定義的rollover_key屬性，且如果已為檢視器正確設定資訊面板功能。
-seo-description: 當使用者啟動影像地圖時，「資訊面板彈出畫面」會顯示在檢視器區域的中央，該影像地圖具有Scene7 Publishing System中定義的rollover_key屬性，且如果已為檢視器正確設定資訊面板功能。
-seo-title: 資訊面板快顯視窗
+description: 當使用者啟動影像地圖時，資訊面板彈出畫面會顯示在檢視器區域的中央，該影像地圖具有Dynamic Media Classic中定義的rollover_key屬性，且如果已針對檢視器正確設定資訊面板功能，則會顯示該畫面。
 solution: Experience Manager
 title: 資訊面板快顯視窗
 topic: Dynamic Media
-uuid: a5c50e54-1ea7-4908-a8a5-dbeea5c8eabb
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '501'
-ht-degree: 2%
+source-wordcount: '458'
+ht-degree: 3%
 
 ---
 
 
 # 資訊面板快顯視窗{#info-panel-popup}
 
-當使用者啟動影像地圖時，「資訊面板彈出畫面」會顯示在檢視器區域的中央，該影像地圖具有Scene7 Publishing System中定義的rollover_key屬性，且如果已為檢視器正確設定資訊面板功能。
+當使用者啟動影像地圖時，資訊面板彈出畫面會顯示在檢視器區域的中央，該影像地圖具有Dynamic Media Classic中定義的rollover_key屬性，且如果已針對檢視器正確設定資訊面板功能，則會顯示該畫面。
 
 資訊面板背景涵蓋整個檢視器區域，並由下列CSS類別選擇器控制：
 
