@@ -4,10 +4,10 @@ seo-description: 互動式影像檢視器的主要類別是InteractiveImage。 �
 seo-title: 互動式影像檢視器的JavaScript API參考
 solution: Experience Manager
 title: 互動式影像檢視器的JavaScript API參考
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 952c85b7-556c-4f58-aa65-003b0de70fd2
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 0%
