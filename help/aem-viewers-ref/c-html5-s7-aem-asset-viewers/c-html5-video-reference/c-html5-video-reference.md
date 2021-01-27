@@ -1,16 +1,13 @@
 ---
-description: 視訊檢視器是視訊播放器，可播放以H.264格式編碼的串流和漸進式視訊。 它是從Scene7 Publishing System或AEM Dynamic Media傳送。
+description: 視訊檢視器是視訊播放器，可播放以H.264格式編碼的串流和漸進式視訊。 它是從Dynamic Media Classic或AEM Dynamic Media傳送。
 keywords: responsive
-seo-description: 視訊檢視器是視訊播放器，可播放以H.264格式編碼的串流和漸進式視訊。 它是從Scene7 Publishing System或AEM Dynamic Media傳送。
-seo-title: 視訊
 solution: Experience Manager
 title: 視訊
 topic: Dynamic Media
-uuid: 961a9b99-5892-4ee3-a2df-13e299f5d086
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '2402'
+source-wordcount: '2372'
 ht-degree: 0%
 
 ---
@@ -18,7 +15,7 @@ ht-degree: 0%
 
 # 視訊{#video}
 
-視訊檢視器是視訊播放器，可播放以H.264格式編碼的串流和漸進式視訊。 它是從Scene7 Publishing System或AEM Dynamic Media傳送。
+視訊檢視器是視訊播放器，可播放以H.264格式編碼的串流和漸進式視訊。 它是從Dynamic Media Classic或AEM Dynamic Media傳送。
 
 請參閱[系統需求和先決條件](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842)。
 
@@ -152,7 +149,7 @@ ht-degree: 0%
 
    您可以設定檢視器的靜態大小，方法是以絕對單位聲明`.s7videoviewer`頂層CSS類別，或使用修飾詞`stagesize`。
 
-   CSS中的大小可直接放在HTML頁面上，或自訂檢視器CSS檔案中，此檔案稍後會指派給Scene7 Publishing System中的檢視器預設記錄，或使用樣式命令明確傳遞。
+   CSS中的大小可直接放在HTML頁面上，或自訂檢視器CSS檔案中，此檔案稍後會指派給Dynamic Media Classic中的檢視器預設記錄，或使用樣式命令明確傳遞。
 
    如需使用CSS設定檢視器樣式的詳細資訊，請參閱[自訂視訊檢視器](../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#concept-072a52b10b5f4c0789393dc6e2134c0e)。
 
@@ -165,7 +162,7 @@ ht-degree: 0%
    }
    ```
 
-   您可以在Scene7 Publishing System的檢視器預設記錄中設定`stagesize`修飾元，或以`params`系列的檢視器初始化程式碼明確傳遞，或以「命令參考」區段中所述的API呼叫傳遞，如下所示：
+   您可以在Dynamic Media Classic的檢視器預設記錄中設定`stagesize`修飾元，或以`params`系列的檢視器初始化程式碼明確傳遞，或以「命令參考」區段中所述的API呼叫傳遞，如下所示：
 
    ```
    videoViewer.setParam("stagesize", "640,480");
