@@ -1,16 +1,13 @@
 ---
 description: 混合媒體檢視器是媒體檢視器。 它支援包含影像、色票集、回轉集、視訊和最適化視訊集的媒體集。
 keywords: responsive
-seo-description: 混合媒體檢視器是媒體檢視器。 它支援包含影像、色票集、回轉集、視訊和最適化視訊集的媒體集。
-seo-title: 混合媒體
 solution: Experience Manager
 title: 混合媒體
 topic: Dynamic Media
-uuid: b6028c54-7a3c-41eb-89f8-7b86bb0d0deb
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '2681'
+source-wordcount: '2660'
 ht-degree: 0%
 
 ---
@@ -142,7 +139,7 @@ Mixed Media Viewer在基礎系統支援時，會在預設組態中使用HLS格�
 
 [!DNL <s7viewers_root>/html5/js/MixedMediaViewer.js]
 
-如果檢視器部署在其中一個Adobe Scene7伺服器上，且是從相同網域提供，則可使用相對路徑。 否則，您會指定一個安裝IS-Viewer之Adobe Scene7伺服器的完整路徑。
+如果檢視器部署在其中一個Adobe Dynamic Media Classic伺服器上，且是從相同網域提供，則可使用相對路徑。 否則，您會指定安裝IS-Viewer之一的Adobe Dynamic Media Classic伺服器的完整路徑。
 
 相對路徑如下所示：
 
@@ -175,7 +172,7 @@ Mixed Media Viewer在基礎系統支援時，會在預設組態中使用HLS格�
 
    使用多項目集時，此檢視器會顯示縮圖。 在案頭系統上，縮圖會放在主檢視的下方。 同時，檢視器允許在執行時期期間使用`setAsset()` API交換主要資產。 身為開發人員，您可以控制當新資產只有一個項目時，檢視器如何管理底部的縮圖區域。 您可以保持外部檢視器大小不變，讓主檢視器增加其高度並佔用縮圖區域。 或者，您可以將主檢視大小保持為靜態，並收合外部檢視器區域，讓網頁內容向上移動，然後使用縮圖中剩餘的免費頁面空間。
 
-   若要保持外部檢視器邊界不變，請以絕對單位定義`.s7mixedmediaviewer`頂層CSS類別的大小。 CSS中的大小可直接放在HTML頁面上，或自訂檢視器CSS檔案中，此檔案稍後會指派給Scene7 Publishing System中的檢視器預設記錄，或使用樣式命令明確傳遞。
+   若要保持外部檢視器邊界不變，請以絕對單位定義`.s7mixedmediaviewer`頂層CSS類別的大小。 CSS中的大小可直接放在HTML頁面上，或自訂檢視器CSS檔案中，此檔案稍後會指派給Dynamic Media Classic中的檢視器預設記錄，或使用樣式命令明確傳遞。
 
    如需使用CSS設定檢視器樣式的詳細資訊，請參閱[自訂混合媒體檢視器](../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#concept-61b3410f187c4bf3af09ec813c649bf4)。
 
@@ -207,7 +204,7 @@ Mixed Media Viewer在基礎系統支援時，會在預設組態中使用HLS格�
 
    [https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/MixedMediaViewer-fixed-main-view.html](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/MixedMediaViewer-fixed-main-view.html)
 
-   您可以在Scene7 Publishing System的檢視器預設記錄中設定`stagesize`修飾元，或以`params`系列的檢視器初始化程式碼明確傳遞，或以本說明「指令參考」區段中所述的API呼叫傳遞，如下所示：
+   您可以在Dynamic Media Classic的檢視器預設記錄中設定`stagesize`修飾元，或以`params`系列的檢視器初始化程式碼明確傳遞，或以本說明「指令參考」區段中所述的API呼叫傳遞，如下所示：
 
    ```
    mixedMediaViewer.setParam("stagesize", "640,480");
