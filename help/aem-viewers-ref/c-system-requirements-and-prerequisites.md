@@ -5,9 +5,9 @@ solution: Experience Manager
 topic: Dynamic Media
 contentOwner: Rick Brough
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## 伺服器硬體和軟體{#section-05099146f1f0418988c196635110bee6}
 
-* Dynamic Media Classic（之前稱為Scene7）Image Serving 6.7.1或更新版本。
+* Dynamic Media Classic Image Serving 6.7.1或更新版本。
 * HTML5檢視器需要SDK JavaScript伺服器端程式庫3.10.2或更新版本。
 * 「以電子郵件傳送朋友」社交功能需要s7ondemand 5.0.9或更新版本。
 * eCatalog檢視器——資訊面板支援需要資訊伺服器2.1.8或更新版本。
