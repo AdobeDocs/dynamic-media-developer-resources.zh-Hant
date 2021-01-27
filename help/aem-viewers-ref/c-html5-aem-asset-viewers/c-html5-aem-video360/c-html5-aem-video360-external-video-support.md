@@ -1,15 +1,12 @@
 ---
-description: 檢視器支援播放SPS或AEM Dynamic Media以外位置代管的視訊。
-seo-description: 檢視器支援播放SPS或AEM Dynamic Media以外位置代管的視訊。
-seo-title: 外部視訊支援
+description: 檢視器支援在Dynamic Media Classic或AEM Dynamic Media以外播放代管的視訊。
 solution: Experience Manager
 title: 外部視訊支援
 topic: Dynamic Media
-uuid: 2e9f1c54-627f-4462-ae85-8a5ca1d09762
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '173'
 ht-degree: 0%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 0%
 
 # 外部視訊支援{#external-video-support}
 
-檢視器支援播放SPS或AEM Dynamic Media以外位置代管的視訊。
+檢視器支援在Dynamic Media Classic或AEM Dynamic Media以外播放代管的視訊。
 
 外部視訊支援的格式為H.264格式的MP4或HLS串流的M3U8資訊清單。
 
