@@ -4,10 +4,10 @@ seo-description: 按一下或點選此按鈕會重設，以在主檢視和縮圖
 seo-title: 縮圖按鈕
 solution: Experience Manager
 title: 縮圖按鈕
-topic: Dynamic media
+topic: Dynamic Media
 uuid: a84fd01b-95a5-41bc-ac9f-f1de485f4da6
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 0%
