@@ -4,12 +4,12 @@ seo-description: 按鈕的位置完全由「我的最愛」功能表管理。
 seo-title: 「查看所有收藏夾」按鈕
 solution: Experience Manager
 title: 「查看所有收藏夾」按鈕
-topic: Dynamic media
+topic: Dynamic Media
 uuid: f9fd2110-d225-4eba-8e21-acc9c0e1dfd4
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
