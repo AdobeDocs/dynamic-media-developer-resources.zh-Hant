@@ -4,13 +4,13 @@ seo-description: 使用CSS類別選擇器控制顯示在焦點檢視器UI元素�
 seo-title: 焦點反白顯示
 solution: Experience Manager
 title: 焦點反白顯示
-topic: Dynamic media
+topic: Dynamic Media
 uuid: e7be5ad0-f27b-4e00-a3cc-e053d924b69d
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '96'
+ht-degree: 1%
 
 ---
 
