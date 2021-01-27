@@ -4,10 +4,10 @@ seo-description: 互動式視訊檢視器的指令參考檔案。
 seo-title: 命令參考- URL
 solution: Experience Manager
 title: 命令參考- URL
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 4f9e4a79-6865-4e41-b30b-84ff2c6f6045
 translation-type: tm+mt
-source-git-commit: 3266e8682711dac379a09a0e992d33b8ffc7b5a4
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 0%
