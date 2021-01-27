@@ -4,13 +4,13 @@ seo-description: 縮放指示器覆蓋在主視圖區域上。 當影像處於�
 seo-title: 圖示效果
 solution: Experience Manager
 title: 圖示效果
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 5daf15ec-fcc5-4e37-924e-9a2cd6c0d167
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '194'
+ht-degree: 1%
 
 ---
 
