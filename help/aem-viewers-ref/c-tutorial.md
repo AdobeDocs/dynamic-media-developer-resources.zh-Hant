@@ -2,9 +2,9 @@
 description: 檢視器SDK提供一組以JavaScript為基礎的元件，以供自訂檢視器開發使用。 檢視器是網頁型應用程式，可讓Adobe Dynamic Media提供的多媒體內容內嵌在網頁中。
 solution: Experience Manager
 title: 檢視器SDK教學課程
-topic: Dynamic media
+topic: Dynamic Media
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '966'
 ht-degree: 0%
