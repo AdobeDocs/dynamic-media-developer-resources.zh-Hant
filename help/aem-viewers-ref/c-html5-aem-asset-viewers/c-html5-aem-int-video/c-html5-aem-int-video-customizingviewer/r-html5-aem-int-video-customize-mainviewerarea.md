@@ -4,13 +4,13 @@ seo-description: 主要檢視區域是互動色票所佔用的區域。 當未�
 seo-title: 主檢視器區域
 solution: Experience Manager
 title: 主檢視器區域
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 3e04c578-dcb2-4034-8809-dc949be80097
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '148'
+ht-degree: 2%
 
 ---
 
