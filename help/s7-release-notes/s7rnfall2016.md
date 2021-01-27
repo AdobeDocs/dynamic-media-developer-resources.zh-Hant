@@ -4,10 +4,10 @@ seo-description: Adobe Scene7 2016年秋季版本的最新發行說明，是Adob
 seo-title: Scene7 2016年秋季發行
 solution: Experience Manager
 title: Scene7 2016年秋季發行
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 3fddda65-0c6e-48ec-bd60-7e0ca59421a8
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '2264'
 ht-degree: 0%
