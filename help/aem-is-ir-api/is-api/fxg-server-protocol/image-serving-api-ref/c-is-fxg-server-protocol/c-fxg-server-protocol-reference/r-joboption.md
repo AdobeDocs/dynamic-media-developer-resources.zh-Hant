@@ -7,9 +7,9 @@ title: 作業選項
 topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 7288cf29-850f-4121-8425-5f995daac22d
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '258'
 ht-degree: 42%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 42%
  </tr> 
 </table>
 
-作業選項檔案可由IPS/SPS上傳和發佈。 產生PDF時，會使用工作選項檔案中所包含的PDF選項。
+作業選項檔案可由IPS/Dynamic Media Classic上傳和發佈。 產生PDF時，會使用工作選項檔案中所包含的PDF選項。
 
 目前支援下列選項：
 
