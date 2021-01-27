@@ -1,15 +1,12 @@
 ---
 description: Adobe Scene7 2016年秋季版本的最新發行說明，是Adobe Marketing Cloud中Adobe Experience Manager解決方案的一部分。
-seo-description: Adobe Scene7 2016年秋季版本的最新發行說明，是Adobe Marketing Cloud中Adobe Experience Manager解決方案的一部分。
-seo-title: Scene7 2016年秋季發行
 solution: Experience Manager
 title: Scene7 2016年秋季發行
 topic: Dynamic Media
-uuid: 3fddda65-0c6e-48ec-bd60-7e0ca59421a8
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '2264'
+source-wordcount: '2244'
 ht-degree: 0%
 
 ---
@@ -24,12 +21,12 @@ Adobe Scene7 2016年秋季版本的最新發行說明，是Adobe Marketing Cloud
 [!DNL Adobe Scene7] 2016年秋季發行說明- [!DNL Adobe Marketing Cloud]中[!DNL Adobe Experience Manager]解決方案的一部分。
 
 * [一般](s7rnfall2016.md#section-52afeb72ecb34c1585ea67a5051825a2)
-* [Scene7 Publishing System](s7rnfall2016.md#section-24487cb493444d808fb7193f0a00cdd4)
+* [場景 7](s7rnfall2016.md#section-24487cb493444d808fb7193f0a00cdd4)
 * [檢視器(Image Serving 5.5.3)](s7rnfall2016.md#section-1d59bcd5825d487b80b59a6d1a08ed30)
 * [檢視器(Image Serving 5.5.2)](s7rnfall2016.md#section-9932c988cfee45749594af481dfc6476)
 * [檢視器(Image Serving 5.5.1)](s7rnfall2016.md#section-833ab92c91c941d2bfdc27f233f582ad)
 * [HTML5 Viewer SDK 3.0.1](s7rnfall2016.md#section-30e2392859c442d1aab2766d0f1d1580)
-* [動態媒體影像伺服6.3.2和影像演算6.3.2](s7rnfall2016.md#section-19a3e96f52c74757bcdea0f8a11001f2)
+* [Dynamic Media Classic Image Serving 6.3.2和Image Rendering 6.3.2](s7rnfall2016.md#section-19a3e96f52c74757bcdea0f8a11001f2)
 
 ## 一般 {#section-52afeb72ecb34c1585ea67a5051825a2}
 
@@ -46,7 +43,7 @@ Adobe很榮幸宣佈推出HTTP/2內容傳送，並提升效能。
 * 已從[!DNL Adobe Scene7 Publishing System]使用者介面移除視訊重新剪輯功能。
 * 已視需要和可能新增所有Scene7 Servlet的驗證。
 * 關於垃圾桶中清單檢視的錯誤修正。
-* 由於安全考慮，已從「用戶管理」中刪除「建立SPSAdmin **用戶」功能。**
+* 由於安全考量，已從「使用者管理」移除「建立動態媒體經典(Scene7)管理員&#x200B;**使用者」功能。**
 * FTP WebAdmin現在支援OKTA驗證。
 * 已移除為新Media Portal使用者建立的預設密碼功能。
 * 新增使用者時產生的暫時密碼相關的錯誤修正。 密碼不符合必要的密碼要求。
