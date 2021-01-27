@@ -4,13 +4,13 @@ seo-description: 互動式視訊檢視器的設定屬性。
 seo-title: VideoPlayer.ssl
 solution: Experience Manager
 title: VideoPlayer.ssl
-topic: Dynamic media
+topic: Dynamic Media
 uuid: b4929e14-8712-4923-b9b1-62aa6721fc99
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '183'
+ht-degree: 2%
 
 ---
 
