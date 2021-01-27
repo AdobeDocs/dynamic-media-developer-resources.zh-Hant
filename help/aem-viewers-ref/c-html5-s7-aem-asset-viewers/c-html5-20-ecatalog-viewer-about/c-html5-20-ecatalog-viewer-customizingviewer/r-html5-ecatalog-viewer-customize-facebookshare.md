@@ -4,12 +4,12 @@ seo-description: Facebook分享工具包含新增至Social分享面板的按鈕�
 seo-title: Facebook分享
 solution: Experience Manager
 title: Facebook分享
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 614e7a06-90b6-4fe0-9ecf-be97881ec6d1
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
