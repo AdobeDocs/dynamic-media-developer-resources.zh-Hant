@@ -4,13 +4,13 @@ seo-description: 轉盤檢視器的JavaScript API參考。
 seo-title: 處置
 solution: Experience Manager
 title: 處置
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 6b4e5bd0-5a32-4e4e-a9a1-c26e8e266aa6
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '131'
+ht-degree: 3%
 
 ---
 
