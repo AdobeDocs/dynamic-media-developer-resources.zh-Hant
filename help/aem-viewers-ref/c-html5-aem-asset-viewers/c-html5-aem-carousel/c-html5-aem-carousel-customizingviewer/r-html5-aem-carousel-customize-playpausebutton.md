@@ -4,13 +4,13 @@ seo-description: 「播放／暫停」按鈕可讓使用者暫停或繼續轉盤
 seo-title: 播放暫停按鈕
 solution: Experience Manager
 title: 播放暫停按鈕
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 342def36-9dfb-487c-bed5-b0f301ce8430
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '256'
+ht-degree: 2%
 
 ---
 
