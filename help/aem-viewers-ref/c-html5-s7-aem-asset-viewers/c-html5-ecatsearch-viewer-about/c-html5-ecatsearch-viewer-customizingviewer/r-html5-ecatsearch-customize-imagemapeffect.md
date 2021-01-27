@@ -4,10 +4,10 @@ seo-description: 視模式參數的值而定，檢視器會在主檢視上顯示
 seo-title: 影像地圖效果
 solution: Experience Manager
 title: 影像地圖效果
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 8bafaec3-500c-4a1f-b511-bff125daab7f
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 1%
@@ -106,7 +106,7 @@ opacity: 1;
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
-   <td colname="col2"> <p> 影像地圖區域邊框樣式。 </p> <p>指定為<span class="codeph"> <span class="varname">寬度</span>實色<span class="varname"></span>，其中<span class="codeph"> <span class="varname">寬度</span> </span>以像素表示，並將<span class="codeph">顏色</span> </span>設定為#RRGGBB、RGB(R,G,B)或RGBA(R,G,B,A)。<span class="varname"></span> </span></p> </td> 
+   <td colname="col2"> <p> 影像地圖區域邊框樣式。 </p> <p>指定為<span class="codeph"> <span class="varname">寬度</span>實色<span class="varname"></span>，其中<span class="codeph"> <span class="varname">寬度</span> </span>以像素表示，並將<span class="codeph">顏色</span> </span>設定為#RRGGBB、RGB(R,G,B)或RGBA(R,G,B,A)。</span><span class="varname"> </span></p> </td> 
   </tr> 
  </tbody> 
 </table>
