@@ -5,7 +5,7 @@ title: 搜尋功能
 topic: Dynamic Media
 uuid: eb8e79fa-893b-402c-a937-6d7121c95821
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 搜尋功能{#search-feature}
 
-檢視器支援在目錄內容上進行文字搜尋。 若要使用搜尋功能，必須將來源PDF檔案上傳至Scene7 Publishing System時，開啟目錄「擷取搜尋字詞」功能。
+檢視器支援在目錄內容上進行文字搜尋。 若要使搜尋功能運作，必須將來源PDF檔案上傳至Dynamic Media Classic時，開啟目錄「擷取搜尋字詞」功能。
 
 「搜尋」功能是透過在主工具列中啟動「搜尋」按鈕來觸發。 此動作會開啟包含文字輸入欄位的搜尋結果面板。 使用者可使用以空格分隔的關鍵字或使用以雙引號括住的片語來執行搜尋。
 
