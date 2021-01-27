@@ -4,13 +4,13 @@ seo-description: 指出檢視器是否在播放開始前開始載入視訊內容
 seo-title: VideoPlayer.preload
 solution: Experience Manager
 title: VideoPlayer.preload
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 2aaae96d-d42d-4984-aec9-86e06b3c711c
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '132'
+ht-degree: 3%
 
 ---
 
