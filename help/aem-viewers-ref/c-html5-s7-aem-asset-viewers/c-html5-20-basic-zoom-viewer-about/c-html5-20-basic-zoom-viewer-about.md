@@ -8,9 +8,9 @@ title: 基本縮放
 topic: Dynamic Media
 uuid: 5466d647-af70-4503-9898-bb712ba6a007
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '2072'
+source-wordcount: '2076'
 ht-degree: 0%
 
 ---
@@ -163,7 +163,7 @@ ht-degree: 0%
 
    您可以設定檢視器的靜態大小，方法是以絕對單位聲明`.s7basiczoomviewer`頂層CSS類別，或使用`stagesize`修飾元。
 
-   您可以直接在HTML頁面或自訂檢視器CSS檔案中放入CSS大小，然後再將檔案指派給SPS中的檢視器預設記錄，或使用樣式命令明確傳遞。
+   您可以直接在HTML頁面上或自訂檢視器CSS檔案中放入CSS大小，然後再將檔案指派給Dynamic Media Classic中的檢視器預設記錄，或使用樣式命令明確傳遞。
 
    如需使用CSS設定檢視器樣式的詳細資訊，請參閱[自訂基本縮放檢視器](../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-customizingviewer/c-html5-20-basic-zoom-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0)。
 
@@ -176,7 +176,7 @@ ht-degree: 0%
    }
    ```
 
-   您可以在SPS的檢視器預設記錄中設定`stagesize`修飾元，或以`params`系列的檢視器初始化程式碼明確傳遞它，或以「命令參考」區段中所述的API呼叫傳遞，如下所示：
+   您可以在Dynamic Media Classic的檢視器預設記錄中設定`stagesize`修飾元，或以`params`系列的檢視器初始化程式碼明確傳遞，或以「命令參考」區段中所述的API呼叫傳遞，如下所示：
 
    ```
    basicZoomViewer.setParam("stagesize", "640,480");
