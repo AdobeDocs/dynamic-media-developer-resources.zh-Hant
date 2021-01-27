@@ -4,10 +4,10 @@ seo-description: eCatalog檢視器顯示的某些內容會受當地語系化限�
 seo-title: 使用者介面元素的本地化
 solution: Experience Manager
 title: 使用者介面元素的本地化
-topic: Dynamic media
+topic: Dynamic Media
 uuid: bd95c7dc-3158-4cca-81d4-f5efd57c0124
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 0%
