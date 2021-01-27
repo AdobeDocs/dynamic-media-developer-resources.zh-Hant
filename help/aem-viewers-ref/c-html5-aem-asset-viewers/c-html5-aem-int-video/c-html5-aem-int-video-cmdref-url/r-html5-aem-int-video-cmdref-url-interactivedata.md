@@ -4,13 +4,13 @@ seo-description: 互動式視訊檢視器的URL命令。
 seo-title: 互動式資料
 solution: Experience Manager
 title: 互動式資料
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 72360679-7a39-46dd-ab10-7228d9c42a98
 translation-type: tm+mt
-source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '101'
+ht-degree: 5%
 
 ---
 
