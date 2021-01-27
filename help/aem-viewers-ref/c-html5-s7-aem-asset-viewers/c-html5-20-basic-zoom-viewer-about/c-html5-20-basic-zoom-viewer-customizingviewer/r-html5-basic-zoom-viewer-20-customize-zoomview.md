@@ -4,13 +4,13 @@ seo-description: 主檢視包含可縮放的影像。
 seo-title: 縮放檢視
 solution: Experience Manager
 title: 縮放檢視
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 06464e36-8c9c-4d3c-b4e5-5911f002568c
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '173'
+ht-degree: 3%
 
 ---
 
