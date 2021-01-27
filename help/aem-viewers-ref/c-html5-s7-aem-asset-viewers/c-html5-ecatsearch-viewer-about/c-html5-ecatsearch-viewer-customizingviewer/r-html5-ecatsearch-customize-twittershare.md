@@ -4,10 +4,10 @@ seo-description: Twitter分享工具包含新增至Social分享面板的按鈕�
 seo-title: Twitter分享
 solution: Experience Manager
 title: Twitter分享
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 609d3c3f-290d-4c21-b61e-70831bee74ea
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 0%
