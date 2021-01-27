@@ -8,7 +8,7 @@ title: 縮放
 topic: Dynamic Media
 uuid: ec2a91e2-ce2c-48b1-a2b2-8671524288c7
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
 source-wordcount: '2460'
 ht-degree: 0%
@@ -167,7 +167,7 @@ target="_blank">Open popup viewer</a>
 
    此檢視器在使用多項目集時，會在案頭系統上顯示縮圖，縮圖會放在主檢視下方。 同時，檢視器允許使用`setAsset()` API在執行時期中交換主要資產。 身為開發人員，當新資產只有一個項目時，您可以控制檢視器管理底部縮圖區域的方式。 您可以保持外部檢視器大小的完整性，並讓主檢視器增加其高度並佔用縮圖區域。 或者，您可以將主檢視大小保持為靜態，並收合外部檢視器區域，讓網頁內容向上移動，並使用縮圖中剩餘的免費螢幕空間。
 
-   若要保持外部檢視器邊界不變，請以絕對單位定義`.s7zoomviewer`頂層CSS類別的大小。 CSS中的大小可直接放在HTML頁面上，或自訂檢視器CSS檔案中，此檔案稍後會指派給Scene7 Publishing System中的檢視器預設記錄，或使用樣式命令明確傳遞。
+   若要保持外部檢視器邊界不變，請以絕對單位定義`.s7zoomviewer`頂層CSS類別的大小。 CSS中的大小可直接放在HTML頁面上，或自訂檢視器CSS檔案中，此檔案稍後會指派給Dynamic Media Classic中的檢視器預設記錄，或使用樣式命令明確傳遞。
 
    如需使用CSS設定檢視器樣式的詳細資訊，請參閱[自訂縮放檢視器](../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/c-html5-20-zoom-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0)。
 
@@ -199,7 +199,7 @@ target="_blank">Open popup viewer</a>
 
    [https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/ZoomViewer-fixed-main-view.html](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/ZoomViewer-fixed-main-view.html)
 
-   您可以在Scene7 Publishing System的檢視器預設記錄中設定`stagesize`修飾元，或以檢視器初始化程式碼與`params`系列明確傳遞，或以API呼叫的形式傳遞，如本說明的「命令參考」區段所述，如下所示：
+   您可以在Dynamic Media Classic的檢視器預設記錄中設定`stagesize`修飾元，或以`params`系列的檢視器初始化程式碼明確傳遞，或以本說明「指令參考」區段中所述的API呼叫傳遞，如下所示：
 
    ```
     zoomViewer.setParam("stagesize", 
