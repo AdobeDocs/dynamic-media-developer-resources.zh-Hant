@@ -5,7 +5,7 @@ title: 檢視器SDK命名空間
 topic: Dynamic Media
 uuid: 7a62df86-67d1-44df-a525-1bbd991c3235
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 不過，有些進階使用案例會要求網頁使用`getComponent()`檢視器API取得內部SDK元件的參考，然後使用SDK本身API的所有彈性。
 
-檢視器用來載入和初始化SDK元件的命名空間取決於檢視器所在的環境。 如果檢視器是在AEM(Adobe Experience Manager)中執行，檢視器會將SDK元件載入`s7viewers.s7sdk`命名空間。 同樣地，從Scene7 Publishing System提供的檢視器會將SDK載入`s7classic.s7sdk`。
+檢視器用來載入和初始化SDK元件的命名空間取決於檢視器所在的環境。 如果檢視器是在AEM(Adobe Experience Manager)中執行，檢視器會將SDK元件載入`s7viewers.s7sdk`命名空間。 同樣地，從Dynamic Media Classic提供的檢視器會將SDK載入`s7classic.s7sdk`。
 
 無論何種情況，檢視器內的SDK所使用的命名空間會以`s7viewers`或`s7classic`為首碼。 此外，它與「SDK使用指南」或SDK API檔案中使用的簡單`s7sdk`命名空間不同。 因此，當您編寫與內部檢視器元件通訊的自訂應用程式程式碼時，請務必使用完全限定的SDK命名空間。
 
@@ -34,7 +34,7 @@ ht-degree: 0%
   }, false); 
 } 
 }); 
-The same code for the viewer served from Scene7 Publishing System looks like the following: 
+The same code for the viewer served from Dynamic Media Classic looks like the following: 
 <instance>.setHandlers({ 
  "initComplete":function() { 
   var videoPlayer = <instance>.getComponent("videoPlayer"); 
