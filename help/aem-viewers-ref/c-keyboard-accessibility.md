@@ -4,10 +4,10 @@ seo-description: 基本縮放、eCatalog、eCatalog搜尋、彈出、內嵌縮�
 seo-title: 鍵盤協助功能與導覽
 solution: Experience Manager
 title: 鍵盤協助功能與導覽
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 9d7df3b0-2d77-4a2f-9ef1-210ccbd7a1a6
 translation-type: tm+mt
-source-git-commit: a0983053795cc119eb57386c005e1f8a7c2fa3e4
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 0%
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 根據作業系統和網頁瀏覽器設定，具有輸入焦點的用戶介面元素可接收視覺焦點指示。 例如，視覺指示器可以是圍繞用戶介面元素呈現的細邊框。
 
-您可以在檢視器CSS中停用或自訂此類焦點反白顯示。 在本說明系統的目錄中，在特定檢視器名稱（例如，基本縮放或互動式視訊）下，按一下「自訂檢視器&#x200B;**名稱> > *焦點反白顯示***」。****
+您可以在檢視器CSS中停用或自訂此類焦點反白顯示。 在本說明系統的目錄中，在特定檢視器名稱（例如，基本縮放或互動式視訊）下，按一下「自訂檢視器&#x200B;***名稱> >**焦點反白顯示**」。***
 
 個別檢視器使用者介面元素支援的按鍵動作，在大多數情況下都十分明顯，而且易於發現。
 
