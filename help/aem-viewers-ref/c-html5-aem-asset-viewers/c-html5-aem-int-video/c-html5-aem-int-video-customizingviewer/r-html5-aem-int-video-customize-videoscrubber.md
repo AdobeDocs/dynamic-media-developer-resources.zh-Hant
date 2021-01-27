@@ -4,13 +4,13 @@ seo-description: 視訊筆畫是水準滑桿控制項，可讓使用者動態尋
 seo-title: 視訊筆刷
 solution: Experience Manager
 title: 視訊筆刷
-topic: Dynamic media
+topic: Dynamic Media
 uuid: cfd1055b-c4d6-42e4-ad24-a897e923e8e9
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1042'
+ht-degree: 2%
 
 ---
 
