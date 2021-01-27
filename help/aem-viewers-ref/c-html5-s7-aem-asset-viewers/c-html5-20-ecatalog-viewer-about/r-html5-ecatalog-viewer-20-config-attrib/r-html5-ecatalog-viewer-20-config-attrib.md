@@ -4,10 +4,10 @@ seo-description: eCatalog檢視器的設定屬性檔案。
 seo-title: 命令參考——配置屬性
 solution: Experience Manager
 title: 命令參考——配置屬性
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 823ad411-653a-44de-97de-147e3b27a917
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 eCatalog檢視器的設定屬性檔案。
 
-任何組態命令都可在URL中設定，或使用`setParam()`或`setParams()`，或同時使用&lt;a1/>或兩者的API方法。 您也可以指定伺服器端組態記錄中指定的任何組態屬性。
+任何組態命令都可在URL中設定，或使用`setParam()`或`setParams()`，或同時使用或兩者的API方法。 您也可以指定伺服器端組態記錄中指定的任何組態屬性。
 
 對於某些配置命令，您可在其前置詞上加上對應Viewer SDK元件的類別名稱或例項名稱。 元件的例項名稱是動態的，並視傳遞至`setContainerId()` API方法的檢視器容器DOM元素ID而定。 說明檔案包含此類命令的可選首碼。 例如，`zoomstep`命令的說明如下：
 
