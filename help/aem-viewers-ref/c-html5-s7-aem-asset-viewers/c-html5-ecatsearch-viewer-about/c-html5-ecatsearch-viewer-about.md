@@ -6,7 +6,7 @@ title: eCatalog搜尋
 topic: Dynamic Media
 uuid: f5ec33bf-e827-4709-9780-6f17096bf306
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
 source-wordcount: '2179'
 ht-degree: 0%
@@ -166,7 +166,7 @@ eCatalog Search Viewer支援社交共用工具。這些工具是主控制列中�
 
    您可以設定檢視器的靜態大小，方法是以絕對單位聲明`.s7ecatalogsearchviewer`頂層CSS類別，或使用`stagesize`修飾元。
 
-   您可以直接在HTML頁面上或自訂檢視器CSS檔案中放入CSS大小，然後將檔案指派給Scene7 Publishing System中的檢視器預設記錄，或使用樣式命令明確傳遞。
+   您可以直接在HTML頁面上或自訂檢視器CSS檔案中放入CSS大小，然後再將檔案指派給Dynamic Media Classic中的檢視器預設記錄，或使用樣式命令明確傳遞。
 
    如需使用CSS設定檢視器樣式的詳細資訊，請參閱[自訂eCatalog檢視器](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0)。
 
@@ -179,7 +179,7 @@ eCatalog Search Viewer支援社交共用工具。這些工具是主控制列中�
    }
    ```
 
-   您可以在Scene7 Publishing System的檢視器預設記錄中設定`stagesize`修飾元，或以`params`系列的檢視器初始化程式碼明確傳遞，或以「命令參考」區段中所述的API呼叫傳遞，如下所示：
+   您可以在Dynamic Media Classic的檢視器預設記錄中設定`stagesize`修飾元，或以`params`系列的檢視器初始化程式碼明確傳遞，或以「命令參考」區段中所述的API呼叫傳遞，如下所示：
 
    ```
    eCatalogSearchViewer.setParam("stagesize", 
