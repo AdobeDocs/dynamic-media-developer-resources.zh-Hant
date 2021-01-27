@@ -1,16 +1,13 @@
 ---
 description: eCatalog檢視器是一種型錄檢視器，可依頁面或跨頁方式顯示電子手冊。eCatalog可讓使用者使用其他使用者介面元素或專用的縮圖模式，來瀏覽型錄。 使用者也可以放大每個頁面，以取得更詳細的資訊。
 keywords: responsive
-seo-description: eCatalog檢視器是一種型錄檢視器，可依頁面或跨頁方式顯示電子手冊。eCatalog可讓使用者使用其他使用者介面元素或專用的縮圖模式，來瀏覽型錄。 使用者也可以放大每個頁面，以取得更詳細的資訊。
-seo-title: eCatalog
 solution: Experience Manager
 title: eCatalog
 topic: Dynamic Media
-uuid: 6950306d-637e-4932-ae96-c5366e5477f3
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '2212'
+source-wordcount: '2163'
 ht-degree: 0%
 
 ---
@@ -173,7 +170,7 @@ eCatalog檢視器支援社交分享工具。這些工具可當成主控制列中
 
    您可以設定檢視器的靜態大小，方法是以絕對單位聲明`.s7ecatalogviewer`頂層CSS類別，或使用`stagesize`修飾元。
 
-   您可以直接在HTML頁面上或自訂檢視器CSS檔案中放入CSS大小，然後將檔案指派給Scene7 Publishing System中的檢視器預設記錄，或使用樣式命令明確傳遞。
+   您可以直接在HTML頁面上或自訂檢視器CSS檔案中放入CSS大小，然後再將檔案指派給Dynamic Media Classic中的檢視器預設記錄，或使用樣式命令明確傳遞。
 
    如需使用CSS設定檢視器樣式的詳細資訊，請參閱[自訂eCatalog檢視器](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0)。
 
@@ -186,7 +183,7 @@ eCatalog檢視器支援社交分享工具。這些工具可當成主控制列中
    }
    ```
 
-   您可以在Scene7 Publishing System的檢視器預設記錄中設定`stagesize`修飾元，或以`params`系列的檢視器初始化程式碼明確傳遞，或以「命令參考」區段中所述的API呼叫傳遞，如下所示：
+   您可以在Dynamic Media Classic的檢視器預設記錄中設定`stagesize`修飾元，或以`params`系列的檢視器初始化程式碼明確傳遞，或以「命令參考」區段中所述的API呼叫傳遞，如下所示：
 
    ```
    eCatalogViewer.setParam("stagesize", 
