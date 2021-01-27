@@ -4,13 +4,13 @@ seo-description: 按一下或點選此按鈕會放大主檢視中的影像。 �
 seo-title: 縮小按鈕
 solution: Experience Manager
 title: 縮小按鈕
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 5c373f5e-c25c-4a87-a78a-3b35e70de92f
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '308'
+ht-degree: 2%
 
 ---
 
