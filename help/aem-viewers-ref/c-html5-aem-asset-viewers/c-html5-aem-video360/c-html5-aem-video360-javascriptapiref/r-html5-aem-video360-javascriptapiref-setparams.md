@@ -4,13 +4,13 @@ seo-description: Video360檢視器的JavaScript API參考。
 seo-title: setParams
 solution: Experience Manager
 title: setParams
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 0a5b9798-0e3f-4310-9b6e-0214a420951b
 translation-type: tm+mt
-source-git-commit: 94b8dde58cda2670f3e2f22f217599c23601e450
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '104'
+ht-degree: 2%
 
 ---
 
