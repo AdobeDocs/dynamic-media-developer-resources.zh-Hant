@@ -7,7 +7,7 @@ title: 資產
 topic: Dynamic Media
 uuid: 6a72257f-d204-4258-b6f8-de6f7b00fd54
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
 source-wordcount: '582'
 ht-degree: 2%
@@ -57,15 +57,15 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> imageList  </span> </span> </p> </td> 
-   <td colname="col2"> <p> 指定顯式影像集，由以逗號分隔的排序項或框架序列組成。 </p> <p> <p>注意： Adobe Scene7 Publishing System支援此功能；Adobe Experience Manager Assets不支援它。 </p> </p> </td> 
+   <td colname="col2"> <p> 指定顯式影像集，由以逗號分隔的排序項或框架序列組成。 </p> <p> <p>注意： Adobe Dynamic Media Classic支援此功能；Adobe Experience Manager Assets不支援它。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> imageListWithModifiers  </span> </span> </p> </td> 
-   <td colname="col2"> <p> 指定每個影格都有其專屬的「影像伺服」修飾元的明確影像集。 在這種情況下，框架清單會用括弧括住。 請確定您已將雙重HTTP編碼套用至影格特定「影像伺服」修飾元中的任何逗號。 </p> <p> <p>注意： Adobe Scene7 Publishing System支援此功能；Adobe Experience Manager Assets不支援它。 </p> </p> </td> 
+   <td colname="col2"> <p> 指定每個影格都有其專屬的「影像伺服」修飾元的明確影像集。 在這種情況下，框架清單會用括弧括住。 請確定您已將雙重HTTP編碼套用至影格特定「影像伺服」修飾元中的任何逗號。 </p> <p> <p>注意： Adobe Dynamic Media Classic支援此功能；Adobe Experience Manager Assets不支援它。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> multiDimensionalSpinSet  </span> </span> </p> </td> 
-   <td colname="col2"> <p>使用以下語法指定顯式多維回轉集： </p> <p> <span class="codeph"> (( <span class="varname"> horizontalSpinSet </span>)[,(horizontalSpinSet <span class="varname">  </span>)])  </span> </p> <p> 其中<span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span>是指定水準軸以逗號分隔的影格清單。 所有<span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span>應具有相同的幀數。 </p> <p> <p>注意： Adobe Scene7 Publishing System支援此功能；Adobe Experience Manager Assets不支援它。 </p> </p> </td> 
+   <td colname="col2"> <p>使用以下語法指定顯式多維回轉集： </p> <p> <span class="codeph"> (( <span class="varname"> horizontalSpinSet </span>)[,(horizontalSpinSet <span class="varname">  </span>)])  </span> </p> <p> 其中<span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span>是指定水準軸以逗號分隔的影格清單。 所有<span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span>應具有相同的幀數。 </p> <p> <p>注意： Adobe Dynamic Media Classic支援此功能；Adobe Experience Manager Assets不支援它。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 修飾語  </span> </span> </p> </td> 
@@ -86,19 +86,19 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 視訊  </span> </span> </p> </td> 
-   <td colname="col2"> <p> 單一視訊或最適化視訊集。 </p> <p> <p>注意： Adobe Scene7 Publishing System支援此功能；Adobe Experience Manager Assets不支援它。 </p> </p> </td> 
+   <td colname="col2"> <p> 單一視訊或最適化視訊集。 </p> <p> <p>注意： Adobe Dynamic Media Classic支援此功能；Adobe Experience Manager Assets不支援它。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 影像  </span> </span> </p> </td> 
-   <td colname="col2"> <p> 單一影像。 </p> <p> <p>注意： Adobe Scene7 Publishing System支援此功能；Adobe Experience Manager Assets不支援它。 </p> </p> </td> 
+   <td colname="col2"> <p> 單一影像。 </p> <p> <p>注意： Adobe Dynamic Media Classic支援此功能；Adobe Experience Manager Assets不支援它。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> setId  </span> </span> </p> </td> 
-   <td colname="col2"> <p> 色票集。 </p> <p> <p>注意： Adobe Scene7 Publishing System支援此功能；Adobe Experience Manager Assets不支援它。 </p> </p> </td> 
+   <td colname="col2"> <p> 色票集。 </p> <p> <p>注意： Adobe Dynamic Media Classic支援此功能；Adobe Experience Manager Assets不支援它。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> swatchId  </span> </span> </p> </td> 
-   <td colname="col2"> <p>色票影像。 </p> <p> <p>注意： Adobe Scene7 Publishing System支援此功能；Adobe Experience Manager Assets不支援它。 </p> </p> </td> 
+   <td colname="col2"> <p>色票影像。 </p> <p> <p>注意： Adobe Dynamic Media Classic支援此功能；Adobe Experience Manager Assets不支援它。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> ID  </span> </span> </p> </td> 
@@ -109,7 +109,7 @@ ht-degree: 2%
       <li id="li_C942CED779B54110BCDC74188995FD5B"> <p> <span class="codeph"> 自旋  </span> </p> <p>用於回轉集。 </p> </li> 
       <li id="li_6EA5C54F078D4B24B44F1588BF083842"> <p> <span class="codeph"> 視訊  </span> </p> <p>適用於單一視訊。 </p> </li> 
       <li id="li_8110FA7E0CAB4681A2D8C15F2A656E69"> <p> <span class="codeph"> video_set  </span> </p> <p>適用於最適化視訊集。 </p> </li> 
-     </ul> </p> <p> <p>注意： Adobe Scene7 Publishing System支援此功能；Adobe Experience Manager Assets不支援它。 </p> </p> </td> 
+     </ul> </p> <p> <p>注意： Adobe Dynamic Media Classic支援此功能；Adobe Experience Manager Assets不支援它。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 修飾語  </span> </span> </p> </td> 
