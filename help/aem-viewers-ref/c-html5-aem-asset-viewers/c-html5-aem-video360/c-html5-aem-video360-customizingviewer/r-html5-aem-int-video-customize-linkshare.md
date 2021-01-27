@@ -4,10 +4,10 @@ seo-description: 連結分享工具由新增至Social分享面板的按鈕和在
 seo-title: 連結共用
 solution: Experience Manager
 title: 連結共用
-topic: Dynamic media
+topic: Dynamic Media
 uuid: c98cb3bd-0e94-46ef-8875-662925d3c067
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '1422'
 ht-degree: 2%
