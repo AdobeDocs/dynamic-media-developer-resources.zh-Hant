@@ -4,10 +4,10 @@ seo-description: 在案頭系統上，有些使用者介面元素（例如按鈕
 seo-title: 工具提示
 solution: Experience Manager
 title: 工具提示
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 763cdda7-4938-4884-8040-7e4017e6a0d8
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 6%
