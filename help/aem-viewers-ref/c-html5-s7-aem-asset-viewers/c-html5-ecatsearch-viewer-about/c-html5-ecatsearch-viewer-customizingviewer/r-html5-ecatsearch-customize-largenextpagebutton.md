@@ -4,13 +4,13 @@ seo-description: 按一下或點選此按鈕可讓使用者進入目錄的下一
 seo-title: 大型下一頁按鈕
 solution: Experience Manager
 title: 大型下一頁按鈕
-topic: Dynamic media
+topic: Dynamic Media
 uuid: b68332b1-7b6b-46d8-8a0a-aa5a78fca5fb
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '335'
+ht-degree: 2%
 
 ---
 
