@@ -5,9 +5,9 @@ title: 檢視器SDK命名空間
 topic: Dynamic Media
 uuid: 17e5d60e-e9e1-4925-ba30-605d9e2fae17
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---
@@ -19,13 +19,13 @@ ht-degree: 0%
 
 不過，有些進階使用案例會要求網頁使用`getComponent()`檢視器API取得內部SDK元件的參考，然後使用SDK本身API的所有彈性。
 
-檢視器用來載入和初始化SDK元件的命名空間取決於檢視器所在的環境。 如果檢視器是在AEM(Adobe Experience Manager)中執行，檢視器會將SDK元件載入`s7viewers.s7sdk`命名空間。 而SPS提供的檢視器會將SDK載入`s7classic.s7sdk`。
+檢視器用來載入和初始化SDK元件的命名空間取決於檢視器所在的環境。 如果檢視器是在AEM(Adobe Experience Manager)中執行，檢視器會將SDK元件載入`s7viewers.s7sdk`命名空間。 而Dynamic Media Classic提供的檢視器會將SDK載入`s7classic.s7sdk`。
 
 無論何種情況，檢視器內的SDK所使用的命名空間會以`s7viewers`或`s7classic`為首碼。 此外，它與「SDK使用指南」或SDK API檔案中使用的簡單`s7sdk`命名空間不同。
 
 因此，當您編寫與內部檢視器元件通訊的自訂應用程式程式碼時，請務必使用完全限定的SDK命名空間。
 
-例如，如果您打算監聽`StatusEvent.NOTF_VIEW_READY`事件，而檢視器是從SPS提供，則完全限定的事件類型為`s7classic.s7sdk.event.StatusEvent.NOTF_VIEW_READY`，而事件監聽器代碼看起來類似下列：
+例如，如果您打算監聽`StatusEvent.NOTF_VIEW_READY`事件，而檢視器是從Dynamic Media Classic提供，則完全限定的事件類型為`s7classic.s7sdk.event.StatusEvent.NOTF_VIEW_READY`，而事件監聽器程式碼看起來類似下列：
 
 ```
 <instance>.setHandlers({ 
