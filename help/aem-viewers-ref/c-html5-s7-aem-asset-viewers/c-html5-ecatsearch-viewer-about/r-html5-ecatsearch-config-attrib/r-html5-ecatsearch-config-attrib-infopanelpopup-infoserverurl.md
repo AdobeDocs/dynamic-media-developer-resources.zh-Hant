@@ -2,12 +2,11 @@
 description: InfoPanelPopup.infoServerUrl
 solution: Experience Manager
 title: InfoPanelPopup.infoServerUrl
-topic: Dynamic media
-uuid: 7af5e3d3-40c2-4f02-94e2-0314b698905d
+topic: Dynamic Media
 translation-type: tm+mt
-source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '193'
 ht-degree: 2%
 
 ---
@@ -21,7 +20,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> infoserverurl</span></span> </p> </td> 
-   <td> <p>資訊伺服器URL範本可用來擷取資訊面板內容範本中變數替代的索引鍵／值配對。指定的範本通常包含巨集放置器，在將請求傳送至伺服器之前，巨集放置器會以實際資料取代。 </p> <p><span class="codeph"> $1$</span> 會以觸發InfoPanelPopupactivation的變換值 <span class="codeph"> </span> 取代。 </p> <p><span class="codeph"> $2$</span> 會以影像集中目前影格的序號取代。 </p> <p><span class="codeph"> $3$</span> 將替換為在當前項目的父項集名稱中指定的第一個路徑元素。它通常對應於目錄ID。 </p> <p><span class="codeph"> $4$</span> 會取代為路徑中的下列元素，並對應至資產ID。實際的資訊伺服器要求語法與資訊伺服器相關，並不同於伺服器。 例如，以下是典型的Scene7資訊伺服器要求範本： </p> <p><span class="codeph"> http://server_domain/s7info/s7/$3$/$4$/$1$</span> </p> </td> 
+   <td> <p>資訊伺服器URL範本可用來擷取資訊面板內容範本中變數替代的索引鍵／值配對。指定的範本通常包含巨集放置器，在將請求傳送至伺服器之前，巨集放置器會以實際資料取代。 </p> <p><span class="codeph"> $1$</span> 會以觸發InfoPanelPopupactivation的變換值 <span class="codeph"> </span> 取代。 </p> <p><span class="codeph"> $2$</span> 會以影像集中目前影格的序號取代。 </p> <p><span class="codeph"> $3$</span> 將替換為在當前項目的父項集名稱中指定的第一個路徑元素。它通常對應於目錄ID。 </p> <p><span class="codeph"> $4$</span> 會取代為路徑中的下列元素，並對應至資產ID。實際的資訊伺服器要求語法與資訊伺服器相關，並不同於伺服器。 例如，以下是典型的動態媒體資訊伺服器要求範本： </p> <p><span class="codeph"> http://server_domain/s7info/s7/$3$/$4$/$1$</span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
