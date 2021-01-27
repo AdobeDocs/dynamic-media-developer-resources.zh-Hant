@@ -4,10 +4,10 @@ seo-description: 色票由一列縮圖影像組成，左側和右側有選用的
 seo-title: 調色板
 solution: Experience Manager
 title: 調色板
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 92360088-7199-49c3-80ee-e175d234a78e
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 3%
