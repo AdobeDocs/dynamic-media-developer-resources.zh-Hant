@@ -4,12 +4,12 @@ seo-description: 互動式視訊檢視器的設定屬性檔案。
 seo-title: 命令參考——配置屬性
 solution: Experience Manager
 title: 命令參考——配置屬性
-topic: Dynamic media
+topic: Dynamic Media
 uuid: eaf7a1a2-b0ec-4df2-926b-5e2c4cd0b3d1
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '154'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 互動式視訊檢視器的設定屬性檔案。
 
-任何組態命令都可在URL中設定，或使用`setParam()`或`setParams()`，或同時使用&lt;a1/>或兩者的API方法。 也可以在伺服器端組態記錄中指定任何組態屬性。
+任何組態命令都可在URL中設定，或使用`setParam()`或`setParams()`，或同時使用或兩者的API方法。 也可以在伺服器端組態記錄中指定任何組態屬性。
 
 某些配置命令可能會加上類名或對應Viewer SDK元件的例項名稱前置詞。 元件的例項名稱是動態的，並視傳遞至`setContainerId()` API方法的檢視器容器DOM元素ID而定。 說明檔案包含此類命令的可選首碼。 例如，`playback`命令的說明如下：
 
