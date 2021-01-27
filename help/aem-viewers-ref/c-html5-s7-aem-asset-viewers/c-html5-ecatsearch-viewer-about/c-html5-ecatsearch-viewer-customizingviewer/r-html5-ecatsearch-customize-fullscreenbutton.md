@@ -4,13 +4,13 @@ seo-description: 使檢視器在使用者按一下時進入或退出全螢幕模
 seo-title: 全螢幕按鈕
 solution: Experience Manager
 title: 全螢幕按鈕
-topic: Dynamic media
+topic: Dynamic Media
 uuid: f3b4d5b5-56ec-4169-ba7d-92bdd51a9e83
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '377'
+ht-degree: 1%
 
 ---
 
