@@ -5,7 +5,7 @@ solution: Experience Manager
 title: 彈出
 topic: Dynamic Media
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
 source-wordcount: '2084'
 ht-degree: 0%
@@ -134,7 +134,7 @@ ht-degree: 0%
 
    使用多項目集時，此檢視器會顯示縮圖。 在案頭系統上，縮圖會放在主檢視的下方。 同時，檢視器允許在執行時期期間使用`setAsset()` API交換主要資產。 身為開發人員，當新資產只有一個項目時，您可以控制檢視器管理底部區域縮圖區域的方式。 您可以保持外部檢視器大小不變，讓主檢視器增加其高度並佔用縮圖區域。 或者，您可以將主檢視大小保持為靜態，並收合外部檢視器區域，讓網頁內容向上移動，然後使用縮圖中剩餘的免費頁面空間。
 
-   若要保持外部檢視器邊界不變，請以絕對單位定義`.s7flyoutviewer`頂層CSS類別的大小。 CSS中的大小可直接放在HTML頁面上，或自訂檢視器CSS檔案中，此檔案稍後會指派給Scene7 Publishing System中的檢視器預設記錄，或使用樣式命令明確傳遞。
+   若要保持外部檢視器邊界不變，請以絕對單位定義`.s7flyoutviewer`頂層CSS類別的大小。 CSS中的大小可直接放在HTML頁面上，或自訂檢視器CSS檔案中，此檔案稍後會指派給Dynamic Media Classic中的檢視器預設記錄，或使用樣式命令明確傳遞。
 
    如需使用CSS設定檢視器樣式的詳細資訊，請參閱[自訂彈出檢視器](../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#concept-82f8c71adbe54680a0c2f83f81e5f451)。
 
