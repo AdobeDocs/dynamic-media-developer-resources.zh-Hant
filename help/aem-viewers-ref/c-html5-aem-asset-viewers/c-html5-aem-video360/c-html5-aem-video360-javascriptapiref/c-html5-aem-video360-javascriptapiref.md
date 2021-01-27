@@ -4,10 +4,10 @@ seo-description: Video360Viewer的主要類別為Video360Viewer。 會在s7viewe
 seo-title: Video360檢視器的JavaScript API參考
 solution: Experience Manager
 title: Video360檢視器的JavaScript API參考
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 3c700c45-c3a1-4ff2-899d-702bf2e4d230
 translation-type: tm+mt
-source-git-commit: 94b8dde58cda2670f3e2f22f217599c23601e450
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 0%
