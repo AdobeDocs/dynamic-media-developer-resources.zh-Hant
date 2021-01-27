@@ -4,13 +4,13 @@ seo-description: 目錄是位於主控制列中的按鈕。 啟動後，下拉�
 seo-title: 目錄
 solution: Experience Manager
 title: 目錄
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 3513dd02-6c51-42fc-a1a8-afca378aabc6
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1087'
+ht-degree: 2%
 
 ---
 
