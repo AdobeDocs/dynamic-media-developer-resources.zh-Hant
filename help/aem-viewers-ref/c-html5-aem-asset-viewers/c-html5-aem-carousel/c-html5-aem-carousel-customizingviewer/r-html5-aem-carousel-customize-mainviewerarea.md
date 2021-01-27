@@ -4,10 +4,10 @@ seo-description: 主檢視區域是轉盤橫幅影像所佔用的區域。 當�
 seo-title: 主檢視器區域
 solution: Experience Manager
 title: 主檢視器區域
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 0e796f75-36a6-4961-9980-b634ab50c7ff
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 1%
