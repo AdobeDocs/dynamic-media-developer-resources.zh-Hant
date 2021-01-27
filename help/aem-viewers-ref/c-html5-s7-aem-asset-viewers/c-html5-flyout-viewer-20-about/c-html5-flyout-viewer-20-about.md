@@ -1,16 +1,13 @@
 ---
 description: 彈出檢視器是影像檢視器。 它會顯示靜態影像，而縮放版本會顯示在使用者啟動的彈出檢視中。 此檢視器可處理影像集，並使用色票進行導覽。 它可在桌上型電腦和行動裝置上運作。
 keywords: responsive
-seo-description: 彈出檢視器是影像檢視器。 它會顯示靜態影像，而縮放版本會顯示在使用者啟動的彈出檢視中。 此檢視器可處理影像集，並使用色票進行導覽。 它可在桌上型電腦和行動裝置上運作。
-seo-title: 彈出
 solution: Experience Manager
 title: 彈出
-topic: Dynamic media
-uuid: 588e1baa-4165-4aec-8fbe-1a916c0f409f
+topic: Dynamic Media
 translation-type: tm+mt
-source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '2130'
+source-wordcount: '2084'
 ht-degree: 0%
 
 ---
@@ -104,7 +101,7 @@ ht-degree: 0%
 
 [!DNL <s7viewers_root>/html5/js/FlyoutViewer.js]
 
-如果檢視器部署在其中一個Adobe Scene7伺服器上，且是從相同網域提供，則可使用相對路徑。 否則，您會指定一個安裝IS-Viewer之Adobe Scene7伺服器的完整路徑。
+如果檢視器部署在其中一個Adobe Dynamic Media伺服器上，且是從相同網域提供，則可使用相對路徑。 否則，您會指定安裝IS-Viewer之一Adobe Dynamic Media伺服器的完整路徑。
 
 相對路徑如下所示：
 
