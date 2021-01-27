@@ -4,10 +4,10 @@ seo-description: eCatalog Viewer的主要類別為eCatalogViewer。 會在s7view
 seo-title: eCatalog檢視器的Javascript API參考
 solution: Experience Manager
 title: eCatalog檢視器的Javascript API參考
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 96ce27fa-0509-4b8c-a4ba-f405830970c3
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 0%
