@@ -1,15 +1,12 @@
 ---
-description: HTML5 Video360檢視器是360度視訊播放器，可播放以H.264格式編碼的串流和漸進式360視訊，從Scene7 Publishing System或AEM Dynamic Media傳送。
-seo-description: HTML5 Video360檢視器是360度視訊播放器，可播放以H.264格式編碼的串流和漸進式360視訊，從Scene7 Publishing System或AEM Dynamic Media傳送。
-seo-title: Video360
+description: HTML5 Video360檢視器是360度視訊播放器，可播放以H.264格式編碼的串流和漸進式360視訊，從Dynamic Media Classic或AEM Dynamic Media傳送。
 solution: Experience Manager
 title: Video360
-topic: Dynamic media
-uuid: b03e6289-e012-4c62-835f-814463a27774
+topic: Dynamic Media
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '2613'
+source-wordcount: '2582'
 ht-degree: 0%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 0%
 
 # Video360{#video}
 
-HTML5 Video360檢視器是360度視訊播放器，可播放以H.264格式編碼的串流和漸進式360視訊，從Scene7 Publishing System或AEM Dynamic Media傳送。
+HTML5 Video360檢視器是360度視訊播放器，可播放以H.264格式編碼的串流和漸進式360視訊，從Dynamic Media Classic或AEM Dynamic Media傳送。
 
 360度視訊，又稱為身歷其境的視訊或球形視訊，是視訊錄制，同時錄制各方向的視訊，使用全向攝影機或一組攝影機拍攝。 同時支援單一視訊和最適化視訊集。 檢視器還支援使用外部位置上裝載的漸進式視訊和HLS串流。
 
