@@ -1,10 +1,10 @@
 ---
-description: 將資產上傳至Scene7 Production System涉及一或多個HTTP POST請求，這些請求會設定工作以協調與上傳檔案相關的所有記錄活動。
+description: 將資產上傳至Dynamic Media Classic需要一或多個HTTP POST請求，這些請求會設定工作以協調與上傳檔案相關的所有記錄活動。
 solution: Experience Manager
 title: 透過HTTP POST上傳資產至UploadFile Servlet
 topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
 source-wordcount: '727'
 ht-degree: 3%
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # 透過HTTP POST上傳資產至UploadFile Servlet{#uploading-assets-by-way-of-http-posts-to-the-uploadfile-servlet}
 
-將資產上傳至Scene7 Production System涉及一或多個HTTP POST請求，這些請求會設定工作以協調與上傳檔案相關的所有記錄活動。
+將資產上傳至Dynamic Media Classic需要一或多個HTTP POST請求，這些請求會設定工作以協調與上傳檔案相關的所有記錄活動。
 
 使用下列URL存取UploadFile Servlet:
 
