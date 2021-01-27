@@ -4,10 +4,10 @@ seo-description: 內嵌縮放檢視器的主要類別為FlyoutViewer。 會在s7
 seo-title: 內嵌縮放檢視器的JavaScript API參考
 solution: Experience Manager
 title: 內嵌縮放檢視器的JavaScript API參考
-topic: Dynamic media
+topic: Dynamic Media
 uuid: ed0fb9e4-8a65-4791-a428-4e950c492198
 translation-type: tm+mt
-source-git-commit: 8d7fdab78c5d23d0e541effa9b9c470921bd144b
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 0%
