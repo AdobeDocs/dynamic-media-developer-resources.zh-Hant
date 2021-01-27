@@ -4,10 +4,10 @@ seo-description: 內嵌分享工具由新增至Social分享面板的按鈕和啟
 seo-title: 內嵌分享
 solution: Experience Manager
 title: 內嵌分享
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 04fec93c-68e5-442d-b3ce-2b4012ae4687
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '2620'
 ht-degree: 2%
