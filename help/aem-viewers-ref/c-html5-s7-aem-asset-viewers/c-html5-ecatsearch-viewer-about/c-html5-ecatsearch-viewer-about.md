@@ -1,16 +1,14 @@
 ---
 description: eCatalog Search Viewer是一種目錄檢視器，可依跨頁或逐頁顯示電子手冊。eCatalog可讓使用者使用其他使用者介面元素或專用的縮圖模式，來瀏覽目錄。 使用者也可以放大每個頁面，以取得更詳細的資訊。
 keywords: responsive
-seo-description: eCatalog Search Viewer是一種目錄檢視器，可依跨頁或逐頁顯示電子手冊。eCatalog可讓使用者使用其他使用者介面元素或專用的縮圖模式，來瀏覽目錄。 使用者也可以放大每個頁面，以取得更詳細的資訊。
-seo-title: eCatalog搜尋
 solution: Experience Manager
 title: eCatalog搜尋
-topic: Dynamic media
+topic: Dynamic Media
 uuid: f5ec33bf-e827-4709-9780-6f17096bf306
 translation-type: tm+mt
-source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '2228'
+source-wordcount: '2179'
 ht-degree: 0%
 
 ---
@@ -144,7 +142,7 @@ eCatalog Search Viewer支援社交共用工具。這些工具是主控制列中�
 
 [!DNL <s7viewers_root>/html5/js/eCatalogSearchViewer.js]
 
-如果檢視器部署在其中一個Adobe Scene7伺服器上，且是從相同網域提供，則可使用相對路徑。 否則，您會指定一個安裝IS-Viewer之Adobe Scene7伺服器的完整路徑。
+如果檢視器部署在其中一個Adobe Dynamic Media伺服器上，且是從相同網域提供，則可使用相對路徑。 否則，您會指定安裝IS-Viewer之一Adobe Dynamic Media伺服器的完整路徑。
 
 相對路徑如下所示：
 
