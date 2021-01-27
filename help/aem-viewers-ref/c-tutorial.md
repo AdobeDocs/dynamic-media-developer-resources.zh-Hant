@@ -4,9 +4,9 @@ solution: Experience Manager
 title: 檢視器SDK教學課程
 topic: Dynamic Media
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '965'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 檢視器SDK提供一組以JavaScript為基礎的元件，以供自訂檢視器開發使用。 檢視器是網頁型應用程式，可讓Adobe Dynamic Media提供的多媒體內容內嵌在網頁中。
 
-例如，SDK提供互動式縮放和平移功能。 此外，它還提供360度檢視和視訊播放，以透過稱為SPS(Scene7 Publishing System)的後端應用程式上傳至Adobe Dynamic Media的資產。
+例如，SDK提供互動式縮放和平移功能。 此外，它還提供360度檢視和視訊播放，以透過稱為Dynamic Media Classic的後端應用程式上傳至Adobe Dynamic Media。
 
 雖然這些元件依賴HTML5功能，但其設計可在Android和Apple iOS裝置以及桌上型電腦上運作，包括Internet Explorer和更新版本。 這種體驗意味著您可以為所有支援的平台提供單一工作流程。
 
