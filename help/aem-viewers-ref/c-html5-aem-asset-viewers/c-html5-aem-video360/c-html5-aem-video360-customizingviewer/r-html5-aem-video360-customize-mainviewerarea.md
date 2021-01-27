@@ -4,10 +4,10 @@ seo-description: 主要檢視區域是360視訊所佔用的區域。 當未指�
 seo-title: 主檢視器區域
 solution: Experience Manager
 title: 主檢視器區域
-topic: Dynamic media
+topic: Dynamic Media
 uuid: ec321901-f077-4f71-a48c-20cae11c41d1
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 2%
