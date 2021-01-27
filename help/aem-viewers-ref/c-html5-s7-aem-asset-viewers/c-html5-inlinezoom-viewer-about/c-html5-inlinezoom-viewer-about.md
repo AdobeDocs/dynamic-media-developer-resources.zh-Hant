@@ -1,16 +1,13 @@
 ---
 description: 內嵌縮放檢視器是影像檢視器。 當使用者滑過或觸碰主檢視時，會顯示靜態影像，並在靜態影像上顯示縮放版本。 此檢視器可處理影像集，並使用色票進行導覽。 它可在桌上型電腦和行動裝置上運作。
 keywords: responsive
-seo-description: 內嵌縮放檢視器是影像檢視器。 當使用者滑過或觸碰主檢視時，會顯示靜態影像，並在靜態影像上顯示縮放版本。 此檢視器可處理影像集，並使用色票進行導覽。 它可在桌上型電腦和行動裝置上運作。
-seo-title: 內嵌縮放
 solution: Experience Manager
 title: 內嵌縮放
-topic: Dynamic media
-uuid: 2287aef0-79ba-4d63-911a-969fa1c63385
+topic: Dynamic Media
 translation-type: tm+mt
-source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '2403'
 ht-degree: 0%
 
 ---
@@ -128,7 +125,7 @@ ht-degree: 0%
 
 [!DNL <s7viewers_root>/html5/js/FlyoutViewer.js]
 
-如果檢視器部署在其中一個Adobe Scene7伺服器上，且是從相同網域提供，則可使用相對路徑。 否則，您會指定一個安裝IS-Viewer之Adobe Scene7伺服器的完整路徑。
+如果檢視器部署在其中一個Adobe Dynamic Media伺服器上，且是從相同網域提供，則可使用相對路徑。 否則，您會指定安裝IS-Viewer之一Adobe Dynamic Media伺服器的完整路徑。
 
 相對路徑如下所示：
 
