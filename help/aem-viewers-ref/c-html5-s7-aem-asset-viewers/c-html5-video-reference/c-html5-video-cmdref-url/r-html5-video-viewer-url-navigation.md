@@ -4,13 +4,13 @@ seo-description: 視訊檢視器的URL命令。
 seo-title: 導覽
 solution: Experience Manager
 title: 導覽
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 5622633e-ea05-4afc-a2e3-e34db73019b0
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '59'
+ht-degree: 15%
 
 ---
 
