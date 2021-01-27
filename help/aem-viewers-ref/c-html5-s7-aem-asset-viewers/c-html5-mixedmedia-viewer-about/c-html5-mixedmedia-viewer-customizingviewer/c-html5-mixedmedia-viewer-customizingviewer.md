@@ -5,12 +5,12 @@ seo-description: 建立自訂CSS即可完成混合媒體檢視器的所有視覺
 seo-title: 自訂混合媒體檢視器
 solution: Experience Manager
 title: 自訂混合媒體檢視器
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 039462a7-2915-48f3-8d4b-0c527801b85a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1350'
 ht-degree: 0%
 
 ---
