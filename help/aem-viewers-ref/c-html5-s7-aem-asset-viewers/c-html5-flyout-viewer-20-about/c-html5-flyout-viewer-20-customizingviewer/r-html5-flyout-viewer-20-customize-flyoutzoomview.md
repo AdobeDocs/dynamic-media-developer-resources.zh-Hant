@@ -4,10 +4,10 @@ seo-description: 主視圖由靜態影像、放大影像、高亮導航區域和
 seo-title: 彈出式縮放檢視
 solution: Experience Manager
 title: 彈出式縮放檢視
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 35c60228-3044-442b-a8e2-e13d0bd306a5
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 3%
