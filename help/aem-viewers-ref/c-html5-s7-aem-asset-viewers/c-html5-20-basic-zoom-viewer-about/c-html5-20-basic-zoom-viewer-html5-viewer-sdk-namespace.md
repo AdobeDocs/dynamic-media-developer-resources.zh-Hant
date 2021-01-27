@@ -5,9 +5,9 @@ title: 檢視器SDK命名空間
 topic: Dynamic Media
 uuid: a236ecba-e4ae-4235-937f-cde7746c1261
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 不過，有些進階使用案例會要求網頁使用`getComponent()`檢視器API取得內部SDK元件的參考，然後使用SDK本身API的所有彈性。
 
-檢視器用來載入和初始化SDK元件的命名空間取決於檢視器所在的環境。 如果檢視器是在AEM(Adobe Experience Manager)中執行，檢視器會將SDK元件載入`s7viewers.s7sdk`命名空間。 而SPS提供的檢視器會將SDK載入`s7classic.s7sdk`。
+檢視器用來載入和初始化SDK元件的命名空間取決於檢視器所在的環境。 如果檢視器是在AEM(Adobe Experience Manager)中執行，檢視器會將SDK元件載入`s7viewers.s7sdk`命名空間。 而Dynamic Media Classic提供的檢視器會將SDK載入`s7classic.s7sdk`。
 
 無論何種情況，檢視器內的SDK所使用的命名空間會以`s7viewers`或`s7classic`為首碼。 此外，它與「SDK使用指南」或SDK API檔案中使用的簡單`s7sdk`命名空間不同。
 
@@ -36,7 +36,7 @@ ht-degree: 0%
   }, false); 
 } 
 }); 
-The same code for viewer served from SPS will look like this: 
+The same code for viewer served from Dynamic Media Classic will look like this: 
 <instance>.setHandlers({ 
  "initComplete":function() { 
   var zoomView = <instance>.getComponent("zoomView"); 
