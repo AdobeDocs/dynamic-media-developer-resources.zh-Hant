@@ -4,13 +4,13 @@ seo-description: 可變音量控制一開始會顯示為按鈕，讓使用者靜
 seo-title: 可變卷
 solution: Experience Manager
 title: 可變卷
-topic: Dynamic media
+topic: Dynamic Media
 uuid: d7eafff8-dd98-42e2-9d45-e291fe372d8c
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '548'
+ht-degree: 2%
 
 ---
 
