@@ -5,12 +5,12 @@ seo-description: eCatalog檢視器是一種型錄檢視器，可依頁面或跨�
 seo-title: eCatalog
 solution: Experience Manager
 title: eCatalog
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 6950306d-637e-4932-ae96-c5366e5477f3
 translation-type: tm+mt
-source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '2212'
 ht-degree: 0%
 
 ---
