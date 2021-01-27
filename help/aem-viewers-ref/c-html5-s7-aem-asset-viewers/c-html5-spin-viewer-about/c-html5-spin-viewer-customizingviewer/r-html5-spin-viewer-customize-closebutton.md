@@ -4,10 +4,10 @@ seo-description: 按一下或點選此按鈕會關閉包含的網頁。 此按�
 seo-title: 關閉按鈕
 solution: Experience Manager
 title: 關閉按鈕
-topic: Dynamic media
+topic: Dynamic Media
 uuid: adeaa96c-87d7-434c-8ae9-7bb0e10a21c3
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 2%
