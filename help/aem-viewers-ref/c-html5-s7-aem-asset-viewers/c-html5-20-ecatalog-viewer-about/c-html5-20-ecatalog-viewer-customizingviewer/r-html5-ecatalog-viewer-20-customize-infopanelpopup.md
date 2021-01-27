@@ -4,13 +4,13 @@ seo-description: 當使用者啟動影像地圖時，「資訊面板彈出畫面
 seo-title: 資訊面板快顯視窗
 solution: Experience Manager
 title: 資訊面板快顯視窗
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 4b44f48b-eabc-4a83-906a-dc7df13b2e74
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '501'
+ht-degree: 2%
 
 ---
 
