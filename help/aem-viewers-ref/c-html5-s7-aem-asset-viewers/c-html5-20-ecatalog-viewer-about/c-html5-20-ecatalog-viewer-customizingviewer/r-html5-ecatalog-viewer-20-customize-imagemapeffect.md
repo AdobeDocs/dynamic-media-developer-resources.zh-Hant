@@ -1,15 +1,12 @@
 ---
-description: 視模式參數的值而定，檢視器會在主檢視上顯示影像地圖圖示，而主檢視的地圖原本是在Scene7 Publishing System中製作，或轉譯與原始影像地圖形狀相符的精確區域。
-seo-description: 視模式參數的值而定，檢視器會在主檢視上顯示影像地圖圖示，而主檢視的地圖原本是在Scene7 Publishing System中製作，或轉譯與原始影像地圖形狀相符的精確區域。
-seo-title: 影像地圖效果
+description: 視模式參數的值而定，檢視器會在主檢視上顯示影像地圖圖示，而主檢視的地圖原本是在Dynamic Media Classic中製作，或轉譯與原始影像地圖形狀相符的精確區域。
 solution: Experience Manager
 title: 影像地圖效果
 topic: Dynamic Media
-uuid: 193d2f4e-77a2-4741-bf36-90ca31c600c6
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '314'
 ht-degree: 1%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 1%
 
 # 影像地圖效果{#image-map-effect}
 
-視模式參數的值而定，檢視器會在主檢視上顯示影像地圖圖示，而主檢視的地圖原本是在Scene7 Publishing System中製作，或轉譯與原始影像地圖形狀相符的精確區域。
+視模式參數的值而定，檢視器會在主檢視上顯示影像地圖圖示，而主檢視的地圖原本是在Dynamic Media Classic中製作，或轉譯與原始影像地圖形狀相符的精確區域。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
