@@ -4,9 +4,9 @@ solution: Experience Manager
 title: 影像伺服色彩管理
 topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: '1195'
 ht-degree: 0%
 
 ---
@@ -115,7 +115,7 @@ ht-degree: 0%
 |`WebCoatedGrade5`|Web Cobated SWOP 2006 5級紙|WebCobatedSWOP2006Grade5.icc|
 |`WebUncoated`|USWeb Uncovated v2|USWebUncoved.icc|
 
-下表適用於&#x200B;*Dynamic Media Classic(Scene7)Image Serving*&#x200B;和&#x200B;*Dynamic Media*（在`dynamicmedia_scene7`執行模式中執行）。
+下表適用於&#x200B;*Dynamic Media Classic Image Serving*&#x200B;和&#x200B;*Dynamic Media*（在`dynamicmedia_scene7`運行模式下運行）。
 
 |標識符|公用名稱|檔案名|
 |— |— |— |
