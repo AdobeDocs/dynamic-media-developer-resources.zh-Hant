@@ -5,9 +5,9 @@ archtype: end-user
 user-guide-title: 動態媒體影像伺服與轉換API
 breadcrumb-title: 動態媒體影像伺服與轉換API
 translation-type: tm+mt
-source-git-commit: 901f0c3986715279e0c696db93be2048343d2bc5
+source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1463'
 ht-degree: 10%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 10%
 
 # 動態媒體影像伺服與轉換API {#image-serving-api}
 
-+ [動態媒體開發人員資源首頁](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html)
++ [動態媒體開發人員資源首頁](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/landing/home.html)
 + [動態媒體影像服務與影像演算API首頁](home.md)
 + [關於此版本](r-about-this-release.md)
 + [系統需求和先決條件](r-requirements-and-prerequisites.md)
