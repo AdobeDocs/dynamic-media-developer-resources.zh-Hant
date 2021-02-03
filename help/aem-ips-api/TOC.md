@@ -4,17 +4,17 @@ product: adobe
 archtype: end-user
 user-guide-title: 動態媒體影像製作系統API
 translation-type: tm+mt
-source-git-commit: 88d3a65852365d7fcd7631ff5b5f7215b7c48618
+source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '638'
+ht-degree: 3%
 
 ---
 
 
 # 動態媒體影像製作系統API {#image-production-api}
 
-+ [動態媒體開發人員資源首頁](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html)
++ [動態媒體開發人員資源首頁](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/landing/home.html)
 + [關於動態媒體影像製作系統API](c-overview.md)
 + [不建議使用的呼叫](c-deprecated-calls.md)
 + [IPS Web服務WSDL版本](c-wsdl-versions.md)
