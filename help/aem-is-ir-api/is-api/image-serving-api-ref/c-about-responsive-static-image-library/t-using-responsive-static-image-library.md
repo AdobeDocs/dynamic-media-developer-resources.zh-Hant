@@ -4,9 +4,9 @@ solution: Experience Manager
 title: 使用互動式影像庫
 topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '553'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **使用互動式影像庫**
 
-1. 在Dynamic Media Classic中，[建立影像預設集](http://help.adobe.com/en_US/scene7/using/WS2F6A1049-B41F-447d-A520-91227F9CDABF.html)，以備您打算使用含預設集的互動式影像庫時使用。
+1. 在Dynamic Media Classic中，[建立影像預設集](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html#image-sizing)，以備您打算使用含預設集的互動式影像庫時使用。
 
    當您定義與自適應影像庫搭配使用的影像預設集時，請勿使用影響影像大小的任何設定，例如`wid=`、`hei=`或`scl=`。 請勿在「影像預設集」中指定任何大小欄位。 請改為將其保留為空白值。
 1. 將程式庫JavaScript檔案新增至您的網頁。
