@@ -7,9 +7,9 @@ title: ScheduledJob
 topic: Dynamic Media Image Production System API
 uuid: cf0db523-2138-48c6-abbd-460a961e7de1
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '264'
 ht-degree: 3%
 
 ---
@@ -39,14 +39,14 @@ ht-degree: 3%
 | `*`triggerState`*` | `xsd:int` | 作業觸發狀態的選擇。 |
 | `*`imageServingPublishJob`*` | `types:ImageServingPublishJob` | 影像伺服發佈工作的工作詳細資訊。 |
 | `*`imageServingRenderJob`*` | `types:ImageServingRenderJob` | 影像轉譯工作的工作詳細資訊。 |
-| `*`videoPublishJob`*` | `types:VideoPublishJob` | 視訊發佈工作的工作詳細資訊。 請參閱[VideoPublishJob](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html)。 |
+| `*`videoPublishJob`*` | `types:VideoPublishJob` | 視訊發佈工作的工作詳細資訊。 請參閱[VideoPublishJob](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html)。 |
 | `*`serverDirectoryPublishJob`*` | `types:ServerDirectoryPublishJob` | 伺服器目錄發佈作業的作業詳細資訊。 |
 | `*`uploadDirectoryJob`*` | `types:UploadDirectoryJob` | 上載目錄作業的作業詳細資訊。 |
 | `*`uploadUrlsJob`*` | `types:UploadUrlsJob` | 上傳URL工作的工作詳細資訊。 |
 | `*`optimizeImagesJob`*` | `types:OptimizeImagesJob` |  |
 | `*`ripPdfsJob`*` | `types:RipPdfsJob` |  |
 | `*`reprocessAssetsJob`*` | `types:ReprocessAssetsJob` |  |
-| `*`exportJob`*` | `types:ExportJob` | 允許授權匯出先前上傳的檔案。 請參閱[匯出工作](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html)。 |
+| `*`exportJob`*` | `types:ExportJob` | 允許授權匯出先前上傳的檔案。 請參閱[匯出工作](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html)。 |
 
 ## 附註 {#section-34ec157f281f412f9f0f6e861e6ed0cd}
 
