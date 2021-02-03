@@ -4,9 +4,9 @@ product: adobe
 archtype: end-user
 user-guide-title: 動態媒體檢視器參考指南
 translation-type: tm+mt
-source-git-commit: 31f2fdd45d950a8e0eae34d75abf956d305d3175
+source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
 workflow-type: tm+mt
-source-wordcount: '1927'
+source-wordcount: '1925'
 ht-degree: 4%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # 動態媒體檢視器參考指南{#library}
 
-+ [動態媒體開發人員資源首頁](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html)
++ [動態媒體開發人員資源首頁](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/landing/home.html)
 + [動態媒體檢視器參考指南](/help/aem-viewers-ref/home.md)
 + [檢視器程式庫範例](https://landing.adobe.com/tw/na/dynamic-media/ctir-2755/live-demos.html)
 + [系統需求](c-system-requirements-and-prerequisites.md)
