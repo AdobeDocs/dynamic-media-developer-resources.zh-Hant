@@ -1,17 +1,15 @@
 ---
 title: Adobe Dynamic Media Classic發行說明
-seo-title: Adobe Dynamic Media Classic發行說明
-description: Adobe Dynamic Media Classic的發行說明
-seo-description: Adobe Dynamic Media Classic的發行說明，此為Adobe Experience Cloud中Adobe Experience Manager解決方案的一部分。
+description: Adobe Dynamic Media Classic的發行說明，此為Adobe Experience Cloud中Adobe Experience Manager解決方案的一部分。
 author: Rick Brough
 cloud: experience-cloud
 product: Dynamic Media Classic
 archtype: end-user
 user-guide: null
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '84'
 ht-degree: 1%
 
 ---
@@ -19,7 +17,7 @@ ht-degree: 1%
 
 # 動態媒體發行說明{#release-notes}
 
-+ [動態媒體開發人員資源首頁](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html)
++ [動態媒體開發人員資源首頁](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/landing/home.html)
 + [最新發行說明](s7rn2017.md)
 + 封存 {#archive-release-notes}
    + [Scene7 2016年秋季版本](s7rnfall2016.md)
