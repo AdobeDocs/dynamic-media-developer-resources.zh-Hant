@@ -1,15 +1,12 @@
 ---
 description: 基本縮放、eCatalog、eCatalog搜尋、彈出、內嵌縮放、混合媒體、回轉、視訊、縮放、尺寸(3D)、轉盤、互動式影像、互動式視訊和Video360檢視器介面中公開的所有功能都可透過鍵盤存取。
-seo-description: 基本縮放、eCatalog、eCatalog搜尋、彈出、內嵌縮放、混合媒體、回轉、視訊、縮放、尺寸(3D)、轉盤、互動式影像、互動式視訊和Video360檢視器介面中公開的所有功能都可透過鍵盤存取。
-seo-title: 鍵盤協助功能與導覽
 solution: Experience Manager
 title: 鍵盤協助功能與導覽
 topic: Dynamic Media
-uuid: 9d7df3b0-2d77-4a2f-9ef1-210ccbd7a1a6
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: e85ff41d20e7b39e023cba9bff58236e8b49d4f2
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
