@@ -1,5 +1,5 @@
 ---
-source-git-commit: ef87bdd7a1346be76cef7e59ab70de41eba4f331
+source-git-commit: 8bb72078ad582e6a23e9048a9daa152b7cd5bb54
 workflow-type: tm+mt
 translation-type: tm+mt
 source-wordcount: '75'
@@ -12,6 +12,6 @@ ht-degree: 0%
 
 歡迎您對本檔案的貢獻。 請參閱下列資源：
 
-* [compiting.md](contributing.md) ，以取得如何對說明檔案貢獻的概觀。
-* [guidelines.md](guidelines.md) ，以取得對稿件的預期內容，以及如何編寫檔案稿件的概觀。
-* [行為准則](code-of-conduct.md) .md如需您對本檔案專案所做貢獻時，我們預期的行為標準概觀。
+* [compiting.](contributing.md) md有關如何對文檔進行貢獻的概述。
+* [guidelines.](guidelines.md) md有關稿件中預期內容以及如何編寫檔案稿件的概述。
+* [行為准則。](code-of-conduct.md) md有關我們在您參與本檔案專案時預期的行為標準的概述。
