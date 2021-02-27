@@ -2,20 +2,20 @@
 cloud: experience-cloud
 product: adobe
 archtype: end-user
-user-guide-title: 動態媒體檢視器參考指南
+user-guide-title: Dynamic Media觀眾參考指南
 translation-type: tm+mt
-source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
+source-git-commit: 69a21374f1128eb7ae1d03776b1b80647bdf9fea
 workflow-type: tm+mt
-source-wordcount: '1925'
+source-wordcount: '1905'
 ht-degree: 4%
 
 ---
 
 
-# 動態媒體檢視器參考指南{#library}
+# Dynamic Media觀眾參考指南{#library}
 
-+ [動態媒體開發人員資源首頁](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/landing/home.html)
-+ [動態媒體檢視器參考指南](/help/aem-viewers-ref/home.md)
++ [Dynamic Media開發人員資源首頁](/help/landing/home.md)
++ [Dynamic Media觀眾參考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html?lang=en)
 + [檢視器程式庫範例](https://landing.adobe.com/tw/na/dynamic-media/ctir-2755/live-demos.html)
 + [系統需求](c-system-requirements-and-prerequisites.md)
 + [在同一台伺服器上安裝多個查看器](t-installing-the-viewers.md)
@@ -38,8 +38,8 @@ ht-degree: 4%
 + [相容性說明](c-compatibility-notes.md)
 + [鍵盤協助功能與導覽](c-keyboard-accessibility.md)
 + [檢視器SDK教學課程](c-tutorial.md)
-+ AEM Assets和Dynamic Media Classic {#viewers-aem-assets-dmc}的檢視器
-   + [AEM Assets和Dynamic Media Classic的檢視器](c-html5-s7-aem-asset-viewers/c-html5-s7-aem-asset-viewers.md)
++ AEM Assets和Dynamic Media經典的觀眾{#viewers-aem-assets-dmc}
+   + [AEM Assets和Dynamic Media經典劇集的觀眾](c-html5-s7-aem-asset-viewers/c-html5-s7-aem-asset-viewers.md)
    + 基本縮放{#basic-zoom}
       + [基本縮放檢視器](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-about.md)
       + 命令參考——配置屬性{#command-reference-configuration-attributes-basic-zoom}
@@ -694,8 +694,8 @@ ht-degree: 4%
       + [使用者介面元素的本地化](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-localization.md)
       + [全螢幕支援](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-full-screen-support.md)
       + [檢視器SDK命名空間](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-namespace.md)
-+ 僅限AEM Assets的檢視器{#viewers-for-aem-assets-only}
-   + [僅限AEM Assets的檢視器](c-html5-aem-asset-viewers/c-html5-aem-asset-viewers.md)
++ 僅適用於AEM Assets的檢視器{#viewers-for-aem-assets-only}
+   + [僅限AEM Assets的觀眾](c-html5-aem-asset-viewers/c-html5-aem-asset-viewers.md)
    + 轉盤 {#carousel}
       + [轉盤](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel.md)
       + 命令參考——配置屬性{#command-reference-configuration-attributes-carousel}
@@ -897,8 +897,8 @@ ht-degree: 4%
          + [setContainerId](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-setcontainerid.md)
          + [setHandlers](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-sethandlers.md)
          + [setLocalizedTexts](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-setlocalizedtexts.md)
-         + [setParam](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/video360/jsapi-video360/r-html5-aem-int-video-javascriptapiref-setparam.html#viewers-for-aem-assets-only)
-         + [setParams](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/video360/jsapi-video360/r-html5-aem-int-video-javascriptapiref-setparams.html#viewers-for-aem-assets-only)
+         + [setParam](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-setparam.md)
+         + [setParams](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-setparams.md)
          + [setVideo](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-setvideo.md)
          + [Video360Viewer](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-video360viewer.md)
       + [事件回呼](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-event-callbacks.md)
