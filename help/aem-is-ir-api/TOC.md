@@ -2,21 +2,21 @@
 cloud: experience-cloud
 product: adobe
 archtype: end-user
-user-guide-title: 動態媒體影像伺服與轉換API
-breadcrumb-title: 動態媒體影像伺服與轉換API
+user-guide-title: Dynamic Media影像伺服與轉換API
+breadcrumb-title: Dynamic Media影像伺服與轉換API
 translation-type: tm+mt
-source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
+source-git-commit: 69a21374f1128eb7ae1d03776b1b80647bdf9fea
 workflow-type: tm+mt
-source-wordcount: '1463'
+source-wordcount: '1465'
 ht-degree: 10%
 
 ---
 
 
-# 動態媒體影像伺服與轉換API {#image-serving-api}
+# Dynamic Media影像伺服與轉換API {#image-serving-api}
 
-+ [動態媒體開發人員資源首頁](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/landing/home.html)
-+ [動態媒體影像服務與影像演算API首頁](home.md)
++ [Dynamic Media開發人員資源首頁](/help/landing/home.md)
++ [Dynamic Media影像伺服與影像轉換API首頁](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/home.html?lang=en)
 + [關於此版本](r-about-this-release.md)
 + [系統需求和先決條件](r-requirements-and-prerequisites.md)
 + [磁碟空間要求和建議](r-disk-space-reqs.md)
