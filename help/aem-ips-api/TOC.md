@@ -2,20 +2,20 @@
 cloud: experience-cloud
 product: adobe
 archtype: end-user
-user-guide-title: 動態媒體影像製作系統API
+user-guide-title: Dynamic Media影像製作系統API
 translation-type: tm+mt
-source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
+source-git-commit: 5112b4633b5e0fdf18e4d89d02af69c71978a110
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '632'
 ht-degree: 3%
 
 ---
 
 
-# 動態媒體影像製作系統API {#image-production-api}
+# Dynamic Media影像製作系統API {#image-production-api}
 
-+ [動態媒體開發人員資源首頁](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/landing/home.html)
-+ [關於動態媒體影像製作系統API](c-overview.md)
++ [Dynamic Media開發人員資源首頁](/help/landing/home.md)
++ [關於Dynamic Media影像製作系統API](c-overview.md)
 + [不建議使用的呼叫](c-deprecated-calls.md)
 + [IPS Web服務WSDL版本](c-wsdl-versions.md)
 + 操作方法{#operation-methods}
@@ -414,7 +414,7 @@ ht-degree: 3%
    + [字型樣式](string-constants/c-string-constants/r-font-styles.md)
    + [字型類型](string-constants/c-string-constants/r-font-types.md)
    + [世代資訊](string-constants/c-string-constants/r-generation-info.md)
-   + [Illustrator流程](string-constants/c-string-constants/r-illustrator-processes.md)
+   + [Illustrator進程](string-constants/c-string-constants/r-illustrator-processes.md)
    + [作業日誌檔案類型](string-constants/c-string-constants/r-job-log-file-types.md)
    + [作業日誌排序欄位](string-constants/c-string-constants/r-job-log-sort-fields.md)
    + [作業日誌類型](string-constants/c-string-constants/r-job-log-types.md)
@@ -424,7 +424,7 @@ ht-degree: 3%
    + [數值／日期比較運算子](string-constants/c-string-constants/r-numeric-date-comparison-operators.md)
    + [PDF流程](string-constants/c-string-constants/r-pdf-processes.md)
    + [權限類型](string-constants/c-string-constants/r-permission-types.md)
-   + [Photoshop錨點模式](string-constants/c-string-constants/r-photoshop-anchor-modes.md)
+   + [Photoshop錨模式](string-constants/c-string-constants/r-photoshop-anchor-modes.md)
    + [Photoshop圖層命名模式](string-constants/c-string-constants/r-photoshop-layer-naming-modes.md)
    + [PostScript色域模式](string-constants/c-string-constants/r-postscript-colorspace-modes.md)
    + [描述檔類別](string-constants/c-string-constants/r-profile-classes.md)
