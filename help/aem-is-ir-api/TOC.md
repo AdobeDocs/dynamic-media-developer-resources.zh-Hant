@@ -5,9 +5,9 @@ archtype: end-user
 user-guide-title: Dynamic Media影像伺服與轉換API
 breadcrumb-title: Dynamic Media影像伺服與轉換API
 translation-type: tm+mt
-source-git-commit: 69a21374f1128eb7ae1d03776b1b80647bdf9fea
+source-git-commit: 192b5624945b08e438a65e3e9fd25aca503857fc
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1457'
 ht-degree: 10%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 10%
 # Dynamic Media影像伺服與轉換API {#image-serving-api}
 
 + [Dynamic Media開發人員資源首頁](/help/landing/home.md)
-+ [Dynamic Media影像伺服與影像轉換API首頁](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/home.html?lang=en)
++ [Dynamic Media影像伺服與影像演算API首頁](homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/home.html?lang=en) -->
 + [關於此版本](r-about-this-release.md)
 + [系統需求和先決條件](r-requirements-and-prerequisites.md)
 + [磁碟空間要求和建議](r-disk-space-reqs.md)
