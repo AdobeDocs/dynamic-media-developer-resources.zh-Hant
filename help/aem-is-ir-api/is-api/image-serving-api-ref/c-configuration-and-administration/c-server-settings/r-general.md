@@ -4,12 +4,13 @@ seo-description: 一般伺服器設定
 seo-title: 一般
 solution: Experience Manager
 title: 一般
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d7ec3dba-64b8-431b-b446-84ab6139ba8a
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '240'
 ht-degree: 2%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 2%
 
 ## TC::PsPort —— 主監聽埠{#section-d31d3051aa994a76b60b70c3d9f7e89f}
 
-指定平台伺服器的主監聽埠。 此埠也用於存取影像伺服、影像演算和動態媒體檢視器（如果已安裝）的檔案和範例頁面。
+指定平台伺服器的主監聽埠。 此埠也用於存取影像伺服、影像演算和Dynamic Media檢視器（如果已安裝）的檔案和範例頁面。
 
 ## IS::CacheServerUrl - Caching Service根Url {#section-bcca227a1f91453b834db4ea050968e2}
 
