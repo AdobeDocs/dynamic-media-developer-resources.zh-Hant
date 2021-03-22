@@ -4,12 +4,13 @@ seo-description: 命令宏為命令集提供命名快捷方式。 宏在單獨�
 seo-title: 命令宏
 solution: Experience Manager
 title: 命令宏
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a6ff5642-6716-484f-b37e-066994362a9b
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '350'
 ht-degree: 1%
 
 ---
