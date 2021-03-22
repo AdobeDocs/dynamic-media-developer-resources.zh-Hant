@@ -1,13 +1,14 @@
 ---
 description: 內嵌縮放檢視器是影像檢視器。 當使用者滑過或觸碰主檢視時，會顯示靜態影像，並在靜態影像上顯示縮放版本。 此檢視器可處理影像集，並使用色票進行導覽。 它可在桌上型電腦和行動裝置上運作。
-keywords: responsive
+keywords: 回應
 solution: Experience Manager
 title: 內嵌縮放
-topic: Dynamic Media
+feature: Dynamic Media經典，檢視器，SDK/API，內嵌縮放
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '2403'
+source-wordcount: '2415'
 ht-degree: 0%
 
 ---
@@ -37,7 +38,7 @@ ht-degree: 0%
 
 設定和外觀設定與其他檢視器類似。 您可以使用自訂CSS來套用外觀設定。
 
-請參閱所有檢視器通用的[命令參考——組態屬性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)和[所有檢視器通用的命令參考- URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
+請參閱所有檢視器通用的[命令參考——設定屬性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)和[所有檢視器通用的命令參考- URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
 ## 與內嵌縮放檢視器互動{#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
@@ -106,7 +107,7 @@ ht-degree: 0%
 
 在內嵌縮放檢視器中使用互動式設計內嵌模式時，請務必使用`imagereload`參數為主檢視影像指定明確的中斷點。 最理想的情況是，將中斷點與檢視器寬度的中斷點比對，如網頁CSS所指定。
 
-在回應式設計內嵌模式中，檢視器的運作方式會因網頁大小容器`DIV`而異。 如果網頁僅設定容器的寬度`DIV`，而不限制其高度，則檢視器會根據所使用資產的外觀比例自動選擇其高度。 這表示資產完全符合檢視，不會在側邊填入任何間距。 此特殊使用案例最常用於使用自適應設計版面架構（例如Bootstrap、Foundation等）的網頁。
+在回應式設計內嵌模式中，檢視器的運作方式會因網頁大小容器`DIV`而異。 如果網頁僅設定容器的寬度`DIV`，而不限制其高度，則檢視器會根據所使用資產的外觀比例自動選擇其高度。 這表示資產完全符合檢視，不會在側邊填入任何間距。 此特殊使用案例最常用於使用互動式設計版面架構(例如Bootstrap、基礎等)的網頁。
 
 否則，如果網頁同時設定檢視器容器`DIV`的寬度和高度，檢視器只會填滿該區域，並遵循網頁版面所提供的大小。 一個好的使用案例範例是將檢視器內嵌至模型覆蓋，其中覆蓋會根據網頁瀏覽器視窗大小而調整大小。
 
@@ -125,7 +126,7 @@ ht-degree: 0%
 
 [!DNL <s7viewers_root>/html5/js/FlyoutViewer.js]
 
-如果檢視器部署在其中一個Adobe Dynamic Media伺服器上，且是從相同網域提供，則可使用相對路徑。 否則，您會指定安裝IS-Viewer之一Adobe Dynamic Media伺服器的完整路徑。
+如果檢視器部署在其中一個Adobe的Dynamic Media伺服器上，且是從相同網域提供，則可使用相對路徑。 否則，您將指定到安裝IS-Viewer的AdobeDynamic Media伺服器之一的完整路徑。
 
 相對路徑如下所示：
 
@@ -158,7 +159,7 @@ ht-degree: 0%
 
    使用多項目集時，此檢視器會顯示縮圖。 在案頭系統上，縮圖會放在主檢視的下方。 同時，檢視器允許在執行時期期間使用`setAsset()` API交換主要資產。 身為開發人員，當新資產只有一個項目時，您可以控制檢視器管理底部區域縮圖區域的方式。 您可以保持外部檢視器大小不變，讓主檢視器增加其高度並佔用縮圖區域。 或者，您可以將主檢視大小保持為靜態，並收合外部檢視器區域，讓網頁內容向上移動，然後使用縮圖中剩餘的免費頁面空間。
 
-   若要保持外部檢視器邊界不變，請以絕對單位定義`.s7flyoutviewer`頂層CSS類別的大小。 CSS中的大小可直接放在HTML頁面上，或自訂檢視器CSS檔案中，此檔案稍後會指派給Dynamic Media Classic中的檢視器預設記錄，或使用樣式命令明確傳遞。
+   若要保持外部檢視器邊界不變，請以絕對單位定義`.s7flyoutviewer`頂層CSS類別的大小。 CSS中的大小可直接放在HTML頁面上，或自訂檢視器CSS檔案中，此檔案稍後會指派給Dynamic Media·Classic中的檢視器預設記錄，或使用樣式命令明確傳遞。
 
    如需使用CSS設定檢視器樣式的詳細資訊，請參閱[自訂內嵌縮放檢視器](../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/c-html5-inlinezoom-viewer-customizingviewer.md#concept-82f8c71adbe54680a0c2f83f81e5f451)。
 
