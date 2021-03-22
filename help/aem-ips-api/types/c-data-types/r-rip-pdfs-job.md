@@ -4,12 +4,13 @@ seo-description: 重新整合現有PDF資產的程式。
 seo-title: RipPdfJob
 solution: Experience Manager
 title: RipPdfJob
-topic: Dynamic Media Image Production System API
 uuid: 95990d53-4baf-44a2-8d84-3cab2b5c9105
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '230'
 ht-degree: 5%
 
 ---
@@ -112,7 +113,7 @@ ht-degree: 5%
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> inDesignOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 類型：InDesignOptions</span> </p> </td> 
-   <td colname="col3"> <p>將Adobe InDesign檔案上傳至影像伺服器的選項。 </p> </td> 
+   <td colname="col3"> <p>將Adobe InDesign檔案上傳到映像伺服器的選項。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> knouckBackground</span> </span> </p> </td> 
