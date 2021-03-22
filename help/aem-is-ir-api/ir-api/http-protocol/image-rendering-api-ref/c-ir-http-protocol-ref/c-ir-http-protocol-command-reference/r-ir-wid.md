@@ -4,12 +4,13 @@ seo-description: 回覆影像寬度。 指定演算後影像的縮放比例，�
 seo-title: wid
 solution: Experience Manager
 title: wid
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9a58a5d2-43ac-44db-9959-ba166006b7df
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '271'
 ht-degree: 2%
 
 ---
