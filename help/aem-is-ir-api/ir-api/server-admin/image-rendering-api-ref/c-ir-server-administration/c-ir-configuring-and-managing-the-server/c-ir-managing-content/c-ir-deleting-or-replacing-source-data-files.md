@@ -4,12 +4,13 @@ seo-description: 在伺服器上線時，您可在檔案覆寫之前使用req=re
 seo-title: 刪除或替換源資料檔案
 solution: Experience Manager
 title: 刪除或替換源資料檔案
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 13dc0489-7ab0-481e-b213-214affe9819e
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '248'
 ht-degree: 0%
 
 ---
