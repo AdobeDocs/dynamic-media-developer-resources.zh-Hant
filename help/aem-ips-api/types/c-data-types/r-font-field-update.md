@@ -4,13 +4,14 @@ seo-description: 更新字型屬性的資訊。
 seo-title: FontFieldUpdate
 solution: Experience Manager
 title: FontFieldUpdate
-topic: Dynamic Media Image Production System API
 uuid: f7ac1830-3a69-4278-948c-3a9c265ad520
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 12%
+source-wordcount: '70'
+ht-degree: 11%
 
 ---
 
