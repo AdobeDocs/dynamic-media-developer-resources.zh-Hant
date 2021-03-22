@@ -1,15 +1,16 @@
 ---
-description: 安裝Dynamic Media Image Serving後，應驗證安裝。
-seo-description: 安裝Dynamic Media Image Serving後，應驗證安裝。
+description: 安裝Dynamic Media映像服務後，應驗證安裝。
+seo-description: 安裝Dynamic Media映像服務後，應驗證安裝。
 seo-title: 驗證安裝
 solution: Experience Manager
 title: 驗證安裝
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ccc7688d-3d7f-4066-a19e-8a36ca56d711
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '136'
 ht-degree: 0%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 0%
 
 # 驗證安裝{#verifying-the-installation}
 
-安裝Dynamic Media Image Serving後，應驗證安裝。
+安裝Dynamic Media映像服務後，應驗證安裝。
 
 映像伺服器作為Windows服務安裝。
 
-1. 開啟「服務控制面板」並檢查「動態媒體影像伺服」的狀態是否為「已開始」。
+1. 開啟「服務控制面板」並檢查「Dynamic Media影像服務」的狀態是否為「已啟動」。
 1. 在相同或不同主機上開啟網際網路瀏覽器，並檢查預設伺服器回應：
 
    `http:// server:port /is/image`
