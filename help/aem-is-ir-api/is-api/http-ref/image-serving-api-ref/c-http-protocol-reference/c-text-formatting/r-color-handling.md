@@ -2,12 +2,13 @@
 description: RTF規範允許使用&bsol;colortbl指定的RGB顏色值。 每個元件分別提供&bsol;red、&bsol;green和&bsol;blue命令。
 solution: Experience Manager
 title: 色彩處理
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 6c51d204-27ca-4fbd-a297-bf1d04b63a3f
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
