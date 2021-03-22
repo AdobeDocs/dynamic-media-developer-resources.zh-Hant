@@ -2,12 +2,13 @@
 description: ZoomView.enableHD
 solution: Experience Manager
 title: ZoomView.enableHD
-topic: Dynamic Media
 uuid: 1d64e161-761e-4f43-bb05-3a0edc5a3c60
+feature: Dynamic Media經典，檢視器，SDK/API，縮放
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '294'
 ht-degree: 3%
 
 ---
@@ -40,7 +41,7 @@ ht-degree: 3%
 
 ## 範例 {#section-bce98c31f08a4a0ab262fab7f95ba020}
 
-以下是當您搭配檢視器使用此設定屬性，且檢視器大小為1000 x 1000時的預期結果：
+以下是當您搭配檢視器使用此設定屬性時的預期結果，檢視器大小為1000 x 1000:
 
 <table id="table_F97FEDA0EE1B4EF6AC9FF9060548ACA4"> 
  <thead> 
