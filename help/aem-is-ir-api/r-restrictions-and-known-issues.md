@@ -1,15 +1,16 @@
 ---
-description: 使用動態媒體影像伺服時，應考量到一些限制和已知問題。
-seo-description: 使用動態媒體影像伺服時，應考量到一些限制和已知問題。
+description: 使用Dynamic Media影像伺服時，應考慮一些限制和已知問題。
+seo-description: 使用Dynamic Media影像伺服時，應考慮一些限制和已知問題。
 seo-title: 限制與已知問題
 solution: Experience Manager
 title: 限制與已知問題
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9f9fad41-4828-4fba-8f5f-2c33e7811c71
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1251'
+source-wordcount: '1259'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # 限制與已知問題{#restrictions-and-known-issues}
 
-使用動態媒體影像伺服時，應考量到一些限制和已知問題。
+使用Dynamic Media影像伺服時，應考慮一些限制和已知問題。
 
 ## 文檔勘誤表{#section-b1579410b11e41e488c7de9ecc7e8d5c}
 
@@ -37,9 +38,9 @@ ht-degree: 0%
 * 如果最後一行文字不符合，則會捨棄整行文字，而非顯示為截止。
 * `\slmult` 而且 `\sl` 其行為與MS Word不同 `text=`，而且只會對目前和後續段落生效。
 
-* `\sb` 同時套用至MS Word和Adobe InDesign `text=`和Photoshop的第一段。
+* `\sb` MS Word和Adobe InDesign和Photoshop的第 `text=`一段則不適用。
 
-* `\sa` 同時套用至MS Word和Adobe InDesign `text=`和Photoshop的最後一段。
+* `\sa` 適用於MS Word和Adobe InDesign和Photoshop `text=`的最後一段。
 
 ## 向後相容性{#section-a76842f751944f4fb664af296d064122}
 
@@ -93,15 +94,15 @@ ht-degree: 0%
 
    對於「影像伺服非吡唑化TIFF」，請增加[!DNL install_root/ImageServing/bin/ImageServerRegistry.xml]組態檔中`MaxNonDsfSize`的屬性值。
 
-* Adobe Photoshop CS3預設不會儲存圖層PSD檔案的合成影像。
+* Adobe PhotoshopCS3預設不會儲存圖層PSD檔案的合成影像。
 
    *症狀*:
 
-   Adobe Photoshop CS3圖層PSD檔案會以黑色顯示，並加上「此圖層Photoshop檔案未與合成影像一起儲存」的文字。 用於「影像伺服」回覆影像或IPS中。
+   Adobe PhotoshopCS3圖層PSD檔案會顯示為黑色，並加上文字，指出「此圖層Photoshop檔案未與合成影像一起儲存」。 用於「影像伺服」回覆影像或IPS中。
 
    *解決辦法*︰
 
-   在開啟最大化相容性的情況下儲存Adobe Photoshop CS3檔案。
+   開啟最大化的相容性，以儲存Adobe PhotoshopCS3檔案。
 
 * 將ICC描述檔指派給CMYK/JPEG回覆影像，會導致某些瀏覽器中的色彩反轉。*周旋工作*:
 
@@ -113,14 +114,14 @@ ht-degree: 0%
 
 ## 僅適用於影像伺服{#section-b08ad535e4454265b8157dec244c4faf}的限制
 
-* PhotoFont文本不支援RTF(`\cf`)命令中的前景顏色。
+* PhotoFont文字不支援RTF(`\cf`)命令中的前景色。
 * 合成粗體、斜體和粗體／斜體將作為PhotoFont文本的錯誤被拒絕。
 * PhotoFont文字不支援垂直文字排列。
 * 16bpc PNG影像不支援PhotoFont文字。
 * 使用硬式編碼選項，針對內嵌色彩描述檔的PNG影像進行色彩校正。 演算方式是相對比色，而PhotoFont文字則會開啟黑點補償。
 * 在公司[!DNL ini]檔案中啟用地區轉譯時，不支援檔案式查閱。
-* 「影像伺服」無法正確寫入非封閉的Photoshop路徑。
-* 影像伺服目前不支援處理使用Adobe Media Encoder 4.0.1或更舊版本匯出的TIFF檔案。 Adobe Media Encoder隨附於Premiere Pro CS4、After Effects CS4和Creative Suite 4 Production Premium。
+* 影像伺服無法正確寫入非封閉的Photoshop路徑。
+* 「影像伺服」目前不支援處理使用Adobe Media Encoder4.0.1或更舊版本匯出的TIFF檔案。 Adobe Media Encoder隨附於Premiere ProCS4、After EffectsCS4和Creative Suite4 Production Premium。
 * 使用具有自調整圖層的`text=`不支援使用多個設定進行行對齊的RTF字串。
 
    *範例*
