@@ -4,13 +4,14 @@ seo-description: 由getUsersParam和getUserCharsParam/charField使用。
 seo-title: 使用者字元篩選欄位
 solution: Experience Manager
 title: 使用者字元篩選欄位
-topic: Dynamic Media Image Production System API
 uuid: b8137f42-d7f6-4545-ac7a-7d94a59c40c3
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '32'
-ht-degree: 6%
+source-wordcount: '39'
+ht-degree: 5%
 
 ---
 
