@@ -4,13 +4,14 @@ seo-description: 上傳資產的URL陣列。
 seo-title: UploadUrlArray
 solution: Experience Manager
 title: UploadUrlArray
-topic: Dynamic Media Image Production System API
 uuid: cb7338cd-5873-4e84-bf6d-39abff3166cd
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '37'
-ht-degree: 16%
+source-wordcount: '44'
+ht-degree: 13%
 
 ---
 
