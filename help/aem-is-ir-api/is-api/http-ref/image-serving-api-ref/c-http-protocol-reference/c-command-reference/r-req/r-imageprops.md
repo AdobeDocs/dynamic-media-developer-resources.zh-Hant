@@ -4,12 +4,13 @@ seo-description: 來源影像屬性。 傳回URL路徑中指定之影像檔案�
 seo-title: imageprops
 solution: Experience Manager
 title: imageprops
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e9bf2780-a520-4fb1-ab4c-40bb799e36a4
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '353'
 ht-degree: 7%
 
 ---
@@ -80,7 +81,7 @@ HTTP響應基於`attribute::NonImgExpiration`可以與TTL進行快取。
   <tr> 
    <td> <p> <span class="codeph"> 影像. embeddedXmpData</span> </p> </td> 
    <td> <p> 布林值 </p> </td> 
-   <td> <p> 1如果影像包含XMP資料 </p> </td> 
+   <td> <p> 1如果影像包含資XMP料 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.mask</span> </p> </td> 
@@ -95,7 +96,7 @@ HTTP響應基於`attribute::NonImgExpiration`可以與TTL進行快取。
   <tr> 
    <td> <p> <span class="codeph"> 影像. photoshopPathNames</span> </p> </td> 
    <td> <p> 字串 </p> </td> 
-   <td> <p> 與此影像相關聯之所有Photoshop路徑名稱的逗號分隔清單 </p> </td> 
+   <td> <p> 與此映像關聯的所有Photoshop路徑名稱的逗號分隔清單 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.pixTyp</span> </p> </td> 
