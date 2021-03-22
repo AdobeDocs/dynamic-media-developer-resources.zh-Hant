@@ -4,12 +4,13 @@ seo-description: 影像／中繼資料版本。 當處理經常變更的內容�
 seo-title: id
 solution: Experience Manager
 title: id
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 3d526326-c8fa-4aef-95a9-93ccacf08f73
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '314'
 ht-degree: 4%
 
 ---
