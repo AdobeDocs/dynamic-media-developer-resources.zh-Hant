@@ -4,12 +4,13 @@ seo-description: 當伺服器檢測到主目錄屬性檔案已經更改時，該
 seo-title: 更新影像目錄
 solution: Experience Manager
 title: 更新影像目錄
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 7e2557c4-1155-429b-a630-a2aff6725a3b
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
@@ -23,7 +24,7 @@ ht-degree: 0%
 
 ## 增量更新{#section-2c0f2c1b8480486d86920b5f2cfe72d2}
 
-載入和處理大型影像目錄可能會大幅增加伺服器的負載，而且可能會對即時伺服作業造成負面影響。 為將此影響降至最低，建議實施增量型錄更新機制，其運作方式如下：
+載入和處理大型影像目錄可能會在伺服器上造成大量負載，而且可能會對即時伺服作業造成負面影響。 為將此影響降至最低，建議實施增量型錄更新機制，其運作方式如下：
 
 在低流量時段，每夜都會載入包含所有影像的主要目錄檔案。 如果在白天需要添加或更改映像目錄中的記錄，則會建立另一個僅包含新記錄或更改記錄的映像資料檔案。 此檔案在`attribute::CatalogFile`中註冊為次映像資料檔案。 伺服器會偵測到目錄屬性檔案已變更，然後檢查哪些目錄資料檔案已變更。 如果未接觸主映像資料檔案，則伺服器僅載入或重新載入增量資料檔案。 由於此檔案通常比主目錄檔案小得多，因此與重新載入主目錄相比，對伺服器的影響要小得多。
 
