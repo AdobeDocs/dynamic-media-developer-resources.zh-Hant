@@ -4,12 +4,13 @@ seo-description: 為影像上色。 為影像資料上色，同時保留陰影�
 seo-title: op_colorize
 solution: Experience Manager
 title: op_colorize
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e74a85ca-73bf-4c69-ac77-768a58b33d0b
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '329'
 ht-degree: 4%
 
 ---
