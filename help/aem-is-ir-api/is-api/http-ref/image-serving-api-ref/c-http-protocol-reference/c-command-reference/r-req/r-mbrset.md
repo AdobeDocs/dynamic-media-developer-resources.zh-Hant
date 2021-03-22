@@ -4,12 +4,13 @@ seo-description: 多位元速率資料。
 seo-title: mbrSet
 solution: Experience Manager
 title: mbrSet
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 829c44ce-c66a-49a9-ba69-9e8e94ef8921
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '271'
 ht-degree: 0%
 
 ---
@@ -36,7 +37,7 @@ ht-degree: 0%
 
 先前要求有效視訊項目包含`catalog::VideoBitRate`值的要求現已放寬。 該條目可包含&#x200B;`catalog::VideoBitRate`*或* `catalog::AudioBitRate`*或* `catalog::TotalStreamBitRate`的值。 只需定義其中一項，視訊項目才能有效。 請注意，`catalog::Path`和有效視訊副檔名的要求並未變更。
 
-回應的用途是供Apple和Flash串流伺服器使用，因此在結構上符合這些規格。 URL是使用前置詞`attribute::HttpAppleStreamingContext`和`attribute::HttpFlashStreamingContext`生成的。
+回應的目的是供Apple和Flash串流伺服器使用，因此在結構上符合這些規格。 URL是使用前置詞`attribute::HttpAppleStreamingContext`和`attribute::HttpFlashStreamingContext`生成的。
 
 m3u8回應僅包含mp4檔案（如果有）。 如果沒有mp4檔案，則這些回應僅包含f4v檔案。 如果沒有mp4檔案或f4v檔案，則響應為空。
 
