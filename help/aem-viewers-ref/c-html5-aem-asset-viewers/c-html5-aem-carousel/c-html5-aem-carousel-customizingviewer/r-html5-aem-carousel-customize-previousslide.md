@@ -4,12 +4,13 @@ seo-description: 按一下或點選此按鈕，會將使用者返回轉盤集中
 seo-title: 上一張投影片
 solution: Experience Manager
 title: 上一張投影片
-topic: Dynamic Media
 uuid: 733fa270-ce95-4493-9d31-f7f638d8368d
+feature: Dynamic Media經典，檢視器，SDK/API，轉盤橫幅
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '288'
 ht-degree: 2%
 
 ---
