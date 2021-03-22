@@ -4,13 +4,14 @@ seo-description: 公司特定組態設定。
 seo-title: 公司設定
 solution: Experience Manager
 title: 公司設定
-topic: Dynamic Media Image Production System API
 uuid: a807d5c1-058d-4313-b4f8-6ee203284003
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 2%
+source-wordcount: '253'
+ht-degree: 1%
 
 ---
 
@@ -30,7 +31,7 @@ ht-degree: 2%
 | `*`defaultSourceProfile`*` | `types:Asset` | 指定在新增CMYK影像檔時，自動套用預設來源色彩描述檔(Copated FOGRA27(ISO 126472:2004))，做為「使用預設色彩行為」的一部分。 |
 | `*`defaultDisplayProfile`*` | `types:Asset` | 指定在新增CMYK影像檔時，自動套用預設內部色彩描述檔(US Web Coptaded(SWOP)v2)作為「使用預設色彩行為」的一部分。 |
 | `*`iptcExifMappingXslt`*` | `types:Asset` | 將IPTC和EXIF影像標題資料擷取至IPS時，需要將公司的內部欄位名稱轉換為使用者定義的欄位名稱。 為上傳的影像決定XSL轉譯表（預設為「不擷取任何IPTC或EXIF欄位」）。 |
-| `*`xmpMappingXslt`*` | `types:Asset` | 將XMP影像標題資料擷取至IPS時，需要將公司的內部欄位名稱轉換為使用者定義的欄位名稱。 為上傳的影像決定XSL轉譯表格（預設為「不擷取任何XMP欄位」）。 |
+| `*`xmpMappingXslt`*` | `types:Asset` | 將影像標XMP頭資料擷取至IPS時，需要將公司的內部欄位名稱轉換為使用者定義的欄位名稱。 為上傳的影像決定XSL轉譯表(預設為「不擷取任XMP何欄位」)。 |
 | `*`diskSpaceWarningMin`*` | `xsd:int` | 發出警告前映像目錄可用磁碟空間的最小量。 |
 | `*`emailTrashCleanupWarning`*` | `xsd:boolean` | 決定是否在將項目放入垃圾筒中之前傳送電子郵件。 |
 | `*`javascriptUploadEnabled`*` | `types:Asset` | 判斷是否上傳JavaScript檔案。 這是潛在的安全風險，因此請謹慎使用此選項。 |
