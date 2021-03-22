@@ -4,13 +4,14 @@ seo-description: 檔案櫃資產的屬性。
 seo-title: CabinetInfo
 solution: Experience Manager
 title: CabinetInfo
-topic: Dynamic Media Image Production System API
 uuid: 5193f1e1-90d8-4c9a-b50d-a47a8b859992
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 7%
+source-wordcount: '72'
+ht-degree: 6%
 
 ---
 
