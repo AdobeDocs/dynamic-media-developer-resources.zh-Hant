@@ -1,20 +1,21 @@
 ---
-description: 當使用者啟動影像地圖時，資訊面板彈出畫面會顯示在檢視器區域的中央，該影像地圖具有Dynamic Media Classic中定義的rollover_key屬性，且如果已針對檢視器正確設定資訊面板功能，則會顯示該畫面。
+description: 當使用者啟動影像地圖時，「資訊面板彈出畫面」會顯示在檢視器區域的中央，該影像地圖具有Dynamic Media經典中定義的rollover_key屬性，且如果已為檢視器正確設定資訊面板功能。
 solution: Experience Manager
 title: 資訊面板快顯視窗
-topic: Dynamic Media
+feature: Dynamic Media經典，檢視器，SDK/API,eCatalog搜尋
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 3%
+source-wordcount: '469'
+ht-degree: 2%
 
 ---
 
 
 # 資訊面板快顯視窗{#info-panel-popup}
 
-當使用者啟動影像地圖時，資訊面板彈出畫面會顯示在檢視器區域的中央，該影像地圖具有Dynamic Media Classic中定義的rollover_key屬性，且如果已針對檢視器正確設定資訊面板功能，則會顯示該畫面。
+當使用者啟動影像地圖時，「資訊面板彈出畫面」會顯示在檢視器區域的中央，該影像地圖具有Dynamic Media經典中定義的rollover_key屬性，且如果已為檢視器正確設定資訊面板功能。
 
 資訊面板背景涵蓋整個檢視器區域，並由下列CSS類別選擇器控制：
 
