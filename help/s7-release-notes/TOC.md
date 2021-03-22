@@ -1,23 +1,25 @@
 ---
 title: AdobeDynamic Media經典版本注意事項
-description: 《Dynamic Media經典Adobe》(Adobe Experience CloudAdobe Experience Manager解決方案的一部分)的發行說明。
+description: 「Dynamic Media經典Adobe的發行說明，是Adobe Experience CloudAdobe Experience Manager解決方案的一部分。」
 author: Rick Brough
 cloud: experience-cloud
 product: Dynamic Media Classic
 archtype: end-user
-user-guide: null
+feature-set: Experience Manager Assets
+feature: Dynamic Media經典
+role: 開發人員，商業從業人員
+user-guide-description: Dynamic Media經典Adobe(Adobe Experience CloudAdobe Experience Manager解決方案的一部分)的最新發行說明。
 translation-type: tm+mt
-source-git-commit: 192b5624945b08e438a65e3e9fd25aca503857fc
+source-git-commit: 0f6386196be7cf0ad45371d6017e2e71b9048b14
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 1%
+source-wordcount: '101'
+ht-degree: 0%
 
 ---
 
 
 # Dynamic Media發行說明{#release-notes}
 
-+ [Dynamic Media開發人員資源首頁](/help/landing/home.md)
 + [最新發行說明](s7rn2017.md)
 + 封存 {#archive-release-notes}
    + [Scene72016年秋季發行版本](s7rnfall2016.md)
