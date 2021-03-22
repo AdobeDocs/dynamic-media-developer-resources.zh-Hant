@@ -4,12 +4,13 @@ seo-description: Video360檢視器的設定屬性。
 seo-title: Video360Player.iconeffect
 solution: Experience Manager
 title: Video360Player.iconeffect
-topic: Dynamic Media
 uuid: a0a2f840-e330-4636-8daf-1cd3f2eddf01
+feature: Dynamic Media經典，檢視器，SDK/API,360 VR視訊
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '145'
 ht-degree: 8%
 
 ---
