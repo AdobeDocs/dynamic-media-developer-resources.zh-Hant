@@ -2,12 +2,13 @@
 description: 當已驗證的使用者沒有足夠的權限來完成工作時拋出。
 solution: Experience Manager
 title: authorizationFault
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '54'
-ht-degree: 27%
+source-wordcount: '61'
+ht-degree: 24%
 
 ---
 
