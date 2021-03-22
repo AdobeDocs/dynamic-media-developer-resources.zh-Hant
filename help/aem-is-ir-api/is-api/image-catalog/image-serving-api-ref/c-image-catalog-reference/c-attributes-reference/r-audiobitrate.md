@@ -4,13 +4,14 @@ seo-description: 音訊位元速率. 代表視訊資產的音訊位元速率的�
 seo-title: AudioBitRate
 solution: Experience Manager
 title: AudioBitRate
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: cdcfd6b9-e0ce-4a00-b80b-4bfc4fad4b9c
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 17%
+source-wordcount: '87'
+ht-degree: 16%
 
 ---
 
