@@ -4,12 +4,13 @@ seo-description: 內嵌分享工具由新增至Social分享面板的按鈕和啟
 seo-title: 內嵌分享
 solution: Experience Manager
 title: 內嵌分享
-topic: Dynamic Media
 uuid: 59a21a90-5f34-4e1f-90e7-cce18aed5e6b
+feature: Dynamic Media經典，檢視器，SDK/API,eCatalog
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '2640'
+source-wordcount: '2650'
 ht-degree: 2%
 
 ---
@@ -553,7 +554,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-範例——若要將主對話方塊區域設定為300像素高度、有10像素邊界，並使用白色背景：
+範例——若要將主對話方塊區域設定為300像素高、有10像素邊界，並使用白色背景：
 
 ```
 .s7ecatalogviewer .s7embeddialog .s7dialogviewarea { 
