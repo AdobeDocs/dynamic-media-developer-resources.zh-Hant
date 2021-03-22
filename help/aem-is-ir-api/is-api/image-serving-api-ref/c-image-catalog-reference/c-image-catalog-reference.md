@@ -4,12 +4,13 @@ seo-description: 影像目錄會將影像和支援資料（例如字型和ICC描
 seo-title: 影像目錄參考
 solution: Experience Manager
 title: 影像目錄參考
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 39d39f42-cd1b-46f5-859c-f32b6b5a20b3
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: '79'
 ht-degree: 1%
 
 ---
