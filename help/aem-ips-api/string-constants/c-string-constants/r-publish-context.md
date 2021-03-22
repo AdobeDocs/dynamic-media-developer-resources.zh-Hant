@@ -4,13 +4,14 @@ seo-description: getActivePublishContextsReturn/publishContext使用。
 seo-title: 發佈內容
 solution: Experience Manager
 title: 發佈內容
-topic: Dynamic Media Image Production System API
 uuid: 50347cd3-ce36-46d7-9b88-9da02a571768
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '20'
-ht-degree: 40%
+source-wordcount: '27'
+ht-degree: 29%
 
 ---
 
