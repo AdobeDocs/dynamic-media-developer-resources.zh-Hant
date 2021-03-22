@@ -4,12 +4,13 @@ seo-description: 設定指示符是當檢視器用於觸控裝置時，在主色
 seo-title: 設定指標
 solution: Experience Manager
 title: 設定指標
-topic: Dynamic Media
 uuid: e62fac7c-28b6-40bf-83cc-8bcfbaa0dfa3
+feature: Dynamic Media經典，檢視器，SDK/API,Mix Media Sets
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '309'
 ht-degree: 1%
 
 ---
