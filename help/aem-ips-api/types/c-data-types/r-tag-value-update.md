@@ -4,13 +4,14 @@ seo-description: 定義舊標籤和新標籤欄位值。
 seo-title: TagValueUpdate
 solution: Experience Manager
 title: TagValueUpdate
-topic: Dynamic Media Image Production System API
 uuid: bcca6664-0406-4238-96cd-726a192c2d21
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 12%
+source-wordcount: '46'
+ht-degree: 10%
 
 ---
 
