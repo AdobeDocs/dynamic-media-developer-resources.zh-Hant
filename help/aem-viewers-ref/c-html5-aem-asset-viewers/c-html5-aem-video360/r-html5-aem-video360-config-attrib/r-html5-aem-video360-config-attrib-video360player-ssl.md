@@ -4,12 +4,13 @@ seo-description: Video360檢視器的設定屬性。
 seo-title: Video360Player.ssl
 solution: Experience Manager
 title: Video360Player.ssl
-topic: Dynamic Media
 uuid: 00c8295c-cc41-489c-a444-ba9189426a20
+feature: Dynamic Media經典，檢視器，SDK/API,360 VR視訊
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '194'
 ht-degree: 5%
 
 ---
@@ -21,7 +22,7 @@ Video360檢視器的設定屬性。
 
 >[!NOTE]
 >
->此設定屬性僅適用於安裝[Feature Pack NPR-13480](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/featurepack/cq-6.2.0-featurepack-13480)的AEM 6.2和安裝[Feature Pack NPR-15011](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq610/featurepack/cq-6.1.0-featurepack-15011)的AEM 6.1。
+>此配置屬性僅適用於安裝[功能包NPR-13480](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/featurepack/cq-6.2.0-featurepack-13480)的AEM6.2和安裝[功能包NPR-15011&lt;a3/AEM>的6.1。](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq610/featurepack/cq-6.1.0-featurepack-15011)
 
 `[Video360Player.|<containerId>_video360Player.]ssl=auto|on`
 
