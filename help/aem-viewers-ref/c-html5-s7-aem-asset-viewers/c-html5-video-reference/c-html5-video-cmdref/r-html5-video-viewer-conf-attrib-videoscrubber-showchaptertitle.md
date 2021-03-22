@@ -4,13 +4,14 @@ seo-description: 視訊檢視器的設定屬性。
 seo-title: VideoScrubber.showchaptertitle
 solution: Experience Manager
 title: VideoScrubber.showchaptertitle
-topic: Dynamic Media
 uuid: 935b35c3-edf2-4d05-ae21-7558f022ffbe
+feature: Dynamic Media經典，檢視器，SDK/API，視訊
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 10%
+source-wordcount: '57'
+ht-degree: 8%
 
 ---
 
