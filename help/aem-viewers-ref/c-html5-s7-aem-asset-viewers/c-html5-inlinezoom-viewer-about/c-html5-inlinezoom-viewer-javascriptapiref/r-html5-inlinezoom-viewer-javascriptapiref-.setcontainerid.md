@@ -4,13 +4,14 @@ seo-description: 內嵌縮放檢視器的JavaScript API參考。
 seo-title: setContainerId
 solution: Experience Manager
 title: setContainerId
-topic: Dynamic Media
 uuid: 52f81748-d007-4f42-9057-7947cc02b231
+feature: Dynamic Media經典，檢視器，SDK/API，內嵌縮放
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 2%
+source-wordcount: '105'
+ht-degree: 1%
 
 ---
 
