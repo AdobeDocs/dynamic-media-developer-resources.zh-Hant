@@ -4,13 +4,14 @@ seo-description: 旋轉影像。 將影像、文字或純色圖層旋轉指定�
 seo-title: 旋轉
 solution: Experience Manager
 title: 旋轉
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 160d3c4b-3871-43bd-a17d-96198c7ea839
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 4%
+source-wordcount: '281'
+ht-degree: 3%
 
 ---
 
