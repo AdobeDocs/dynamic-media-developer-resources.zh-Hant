@@ -4,12 +4,13 @@ seo-description: 與範例A類似的需求，但使用純色背景，並允許�
 seo-title: 範例B
 solution: Experience Manager
 title: 範例B
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 13120562-9201-4733-bd9d-4a54eac913e9
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---
