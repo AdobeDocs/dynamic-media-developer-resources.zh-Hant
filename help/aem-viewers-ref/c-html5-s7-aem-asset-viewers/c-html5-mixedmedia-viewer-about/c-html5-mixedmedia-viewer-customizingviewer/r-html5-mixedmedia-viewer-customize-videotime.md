@@ -1,15 +1,16 @@
 ---
-description: 視訊時間是顯示目前播放視訊的目前時間和持續時間的數值顯示。
-seo-description: 視訊時間是顯示目前播放視訊的目前時間和持續時間的數值顯示。
+description: 視訊時間是顯示目前播放視訊的目前時間與持續時間的數值顯示。
+seo-description: 視訊時間是顯示目前播放視訊的目前時間與持續時間的數值顯示。
 seo-title: 視訊時間
 solution: Experience Manager
 title: 視訊時間
-topic: Dynamic Media
 uuid: f93e495b-44a1-493c-9bc6-5c088478ddce
+feature: Dynamic Media經典，檢視器，SDK/API,Mix Media Sets
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '226'
 ht-degree: 2%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 2%
 
 # 視訊時間{#video-time}
 
-視訊時間是顯示目前播放視訊的目前時間和持續時間的數值顯示。
+視訊時間是顯示目前播放視訊的目前時間與持續時間的數值顯示。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
