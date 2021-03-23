@@ -4,12 +4,13 @@ seo-description: 對內容資料檔案夾使用這些伺服器設定。
 seo-title: 內容資料夾
 solution: Experience Manager
 title: 內容資料夾
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 7c4d60ca-8a8b-453c-887d-a6a16eacc883
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '244'
 ht-degree: 0%
 
 ---
