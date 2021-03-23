@@ -4,12 +4,13 @@ seo-description: 「添加收藏夾」按鈕的位置由「收藏夾」菜單完
 seo-title: 「添加收藏夾」按鈕
 solution: Experience Manager
 title: 「添加收藏夾」按鈕
-topic: Dynamic Media
 uuid: decde7d1-d7d1-4056-815c-2b6571110d9f
+feature: Dynamic Media經典，檢視器，SDK/API,eCatalog搜尋
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
@@ -56,7 +57,7 @@ ht-degree: 0%
 
 按鈕工具提示可以本地化。 如需詳細資訊，請參閱[使用者介面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)。
 
-範例——設定「新增我的最愛」按鈕（28 x 28像素），並在選取或未選取時，針對四個不同的按鈕狀態顯示不同的影像。
+範例——設定「新增我的最愛」按鈕，該按鈕為28 x 28像素，並在選取或未選取時，針對四個不同按鈕狀態的每個狀態顯示不同的影像。
 
 ```
 .s7ecatalogsearchviewer .s7addfavoritebutton { 
