@@ -4,12 +4,13 @@ seo-description: 本節將說明影像目錄的功能和語法。
 seo-title: 影像目錄
 solution: Experience Manager
 title: 影像目錄
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d329807a-22b0-42a3-9297-8dad7a1dce43
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---
