@@ -2,11 +2,12 @@
 description: 說明IPS API 4.4版的新操作方法和更改的操作方法。
 solution: Experience Manager
 title: 操作新增和修改
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '38'
+source-wordcount: '45'
 ht-degree: 2%
 
 ---
