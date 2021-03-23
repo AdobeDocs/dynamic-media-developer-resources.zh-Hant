@@ -2,12 +2,13 @@
 description: 事件回呼
 solution: Experience Manager
 title: 事件回呼
-topic: Dynamic Media
 uuid: 7280a391-3ead-470b-89e9-5faa082e0202
+feature: Dynamic Media經典，檢視器，SDK/API，轉盤橫幅
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '224'
 ht-degree: 1%
 
 ---
@@ -35,7 +36,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> trackEvent  </span> </p> </td> 
-   <td colname="col2"> <p> 每次在檢視器內發生事件時觸發，事件追蹤系統（例如Adobe Analytics）可處理該事件。 回呼處理常式接受下列引數： </p> <p> 
+   <td colname="col2"> <p> 每次在檢視器內發生事件時觸發，事件追蹤系統(例如Adobe Analytics)可處理該事件。 回呼處理常式接受下列引數： </p> <p> 
      <ul id="ul_8A5F409E32E94063AE8D3AB158A0E13D"> 
       <li id="li_1311D5DDD4454FBC9116BA8E2CB003B1"> <p> <span class="codeph"> objID {String}  </span> -目前未使用。 </p> </li> 
       <li id="li_C2ABD13097FA40A7B9801C0B7592FB59"> <p> <span class="codeph"> compClass {String}  </span> -目前未使用。 </p> </li> 
