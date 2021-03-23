@@ -1,16 +1,17 @@
 ---
 description: 縮放檢視器是可顯示縮放影像的影像檢視器。 此檢視器可處理影像集，並使用色票進行導覽。 它提供縮放工具、全螢幕支援、色票和選購的關閉按鈕。 它可在桌上型電腦和行動裝置上運作。
-keywords: responsive
+keywords: 回應
 seo-description: 縮放檢視器是可顯示縮放影像的影像檢視器。 此檢視器可處理影像集，並使用色票進行導覽。 它提供縮放工具、全螢幕支援、色票和選購的關閉按鈕。 它可在桌上型電腦和行動裝置上運作。
 seo-title: Zoom
 solution: Experience Manager
 title: 縮放
-topic: Dynamic Media
 uuid: ec2a91e2-ce2c-48b1-a2b2-8671524288c7
+feature: Dynamic Media經典，檢視器，SDK/API，縮放
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '2460'
+source-wordcount: '2471'
 ht-degree: 0%
 
 ---
@@ -40,7 +41,7 @@ ht-degree: 0%
 
 設定和外觀設定與其他檢視器類似。 所有外觀設定都是透過自訂CSS來完成。
 
-請參閱所有檢視器通用的[命令參考——組態屬性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)和[所有檢視器通用的命令參考- URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
+請參閱所有檢視器通用的[命令參考——設定屬性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)和[所有檢視器通用的命令參考- URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
 ## 與縮放檢視器互動{#section-642e66ca38cd4032992840ec6c0b0cd2}
 
@@ -117,7 +118,7 @@ target="_blank">Open popup viewer</a>
 
 回應式設計內嵌模式會假設檢視器在執行時期必須重新調整大小，因為其容器`DIV`的大小變更。 最常見的使用案例是將檢視器新增至使用彈性版面的網頁。
 
-在回應式設計內嵌模式中，檢視器的運作方式會因網頁大小的容器`DIV`而異。 如果網頁只設定容器的寬度`DIV`，而不限制其高度，檢視器會根據所使用資產的外觀比例自動選擇其高度。 此邏輯可確保資產完美整合至檢視中，而不會在側邊產生任何填補空間。 此使用案例最常用於使用自適應版面架構（例如引導、基礎等）的網頁。
+在回應式設計內嵌模式中，檢視器的運作方式會因網頁大小的容器`DIV`而異。 如果網頁只設定容器的寬度`DIV`，而不限制其高度，檢視器會根據所使用資產的外觀比例自動選擇其高度。 此邏輯可確保資產完美整合至檢視中，而不會在側邊產生任何填補空間。 此使用案例最常用於使用互動式版面架構(例如Bootstrap、基礎等)的網頁。
 
 如果網頁同時設定檢視器容器`DIV`的寬度和高度，檢視器會填滿該區域，並遵循網頁所提供的大小。 例如，將檢視器內嵌至模態覆蓋，其中覆蓋會根據網頁瀏覽器視窗大小調整大小。
 
@@ -136,7 +137,7 @@ target="_blank">Open popup viewer</a>
 
 [!DNL <s7viewers_root>/html5/js/ZoomViewer.js]
 
-如果檢視器部署在其中一個Adobe Dynamic Media Classic伺服器上，且是從相同網域提供，則可使用相對路徑。 否則，您會指定安裝IS-Viewer之一的Adobe Dynamic Media Classic伺服器的完整路徑。
+如果檢視器部署在其中一個Adobe的Dynamic Media經典伺服器上，且是從相同網域提供，則可使用相對路徑。 否則，您將指定到安裝IS-Viewer的AdobeDynamic Media經典伺服器之一的完整路徑。
 
 相對路徑如下所示：
 
@@ -167,7 +168,7 @@ target="_blank">Open popup viewer</a>
 
    此檢視器在使用多項目集時，會在案頭系統上顯示縮圖，縮圖會放在主檢視下方。 同時，檢視器允許使用`setAsset()` API在執行時期中交換主要資產。 身為開發人員，當新資產只有一個項目時，您可以控制檢視器管理底部縮圖區域的方式。 您可以保持外部檢視器大小的完整性，並讓主檢視器增加其高度並佔用縮圖區域。 或者，您可以將主檢視大小保持為靜態，並收合外部檢視器區域，讓網頁內容向上移動，並使用縮圖中剩餘的免費螢幕空間。
 
-   若要保持外部檢視器邊界不變，請以絕對單位定義`.s7zoomviewer`頂層CSS類別的大小。 CSS中的大小可直接放在HTML頁面上，或自訂檢視器CSS檔案中，此檔案稍後會指派給Dynamic Media Classic中的檢視器預設記錄，或使用樣式命令明確傳遞。
+   若要保持外部檢視器邊界不變，請以絕對單位定義`.s7zoomviewer`頂層CSS類別的大小。 CSS中的大小可直接放在HTML頁面上，或自訂檢視器CSS檔案中，此檔案稍後會指派給Dynamic Media·Classic中的檢視器預設記錄，或使用樣式命令明確傳遞。
 
    如需使用CSS設定檢視器樣式的詳細資訊，請參閱[自訂縮放檢視器](../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/c-html5-20-zoom-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0)。
 
@@ -199,7 +200,7 @@ target="_blank">Open popup viewer</a>
 
    [https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/ZoomViewer-fixed-main-view.html](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/ZoomViewer-fixed-main-view.html)
 
-   您可以在Dynamic Media Classic的檢視器預設記錄中設定`stagesize`修飾元，或以`params`系列的檢視器初始化程式碼明確傳遞，或以本說明「指令參考」區段中所述的API呼叫傳遞，如下所示：
+   您可以在Dynamic MediaClassic的檢視器預設記錄中設定`stagesize`修飾元，或以`params`系列的檢視器初始化程式碼明確傳遞，或以本說明「指令參考」區段中所述的API呼叫傳遞，如下所示：
 
    ```
     zoomViewer.setParam("stagesize", 
