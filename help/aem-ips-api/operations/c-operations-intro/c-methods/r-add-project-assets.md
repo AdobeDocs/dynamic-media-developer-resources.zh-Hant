@@ -2,11 +2,12 @@
 description: 新增一或多個資產至專案。
 solution: Experience Manager
 title: addProjectAssets
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media經典，SDK/API，資產管理
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '187'
 ht-degree: 11%
 
 ---
