@@ -4,13 +4,14 @@ seo-description: 非結構化的命名映像輸出設定集。
 seo-title: ImageFormat
 solution: Experience Manager
 title: ImageFormat
-topic: Dynamic Media Image Production System API
 uuid: d3ad7058-781e-4b5b-84b5-7da6bcc77cd8
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '49'
-ht-degree: 8%
+source-wordcount: '56'
+ht-degree: 7%
 
 ---
 
