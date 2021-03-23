@@ -4,12 +4,13 @@ seo-description: 材質型錄提供多種功能。
 seo-title: 材料型錄*
 solution: Experience Manager
 title: 材料型錄*
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 2a2f371e-0982-47c7-b3da-678a5ff6c7a7
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
@@ -27,7 +28,7 @@ ht-degree: 0%
 
 即使未定義特定的材料目錄，材料目錄的所有功能也可通過預設目錄([!DNL default.ini])使用。
 
-雖然可使用材質屬性在要求中明確指定演算材質，但在許多情況下，最好使用材質目錄隱藏網站上的材質詳細資訊。 src=命令接受目錄引用，而不是顯式檔案路徑。 目錄條目由` [ *[!DNL catId]*/] *[!DNL itemId]*`組成，其中` *[!DNL catId]*`標識物料目錄，` *[!DNL itemId]*`標識目錄中的記錄。 如果未指定` *[!DNL catId]*`，則會使用作業目錄（請參閱下面）。
+雖然可使用材質屬性在要求中明確指定演算材質，但在許多情況下，最好使用材質目錄來隱藏網站上的材質詳細資訊。 src=命令接受目錄引用，而不是顯式檔案路徑。 目錄條目由` [ *[!DNL catId]*/] *[!DNL itemId]*`組成，其中` *[!DNL catId]*`標識物料目錄，` *[!DNL itemId]*`標識目錄中的記錄。 如果未指定` *[!DNL catId]*`，則會使用作業目錄（請參閱下面）。
 
 如果(a)` *[!DNL catId]*`與材料目錄的`attribute::RootId`值匹配，並且(b)` *[!DNL recId]*`與同一目錄中的目錄：:Id值匹配，則目錄記錄將成功匹配。 如果匹配成功，則材料的屬性（包括`src=`）被設定為來自目錄記錄的資料。 如果MSS除了src=之外還包含此材料的其他屬性，則它們會覆蓋目錄記錄中的值。
 
