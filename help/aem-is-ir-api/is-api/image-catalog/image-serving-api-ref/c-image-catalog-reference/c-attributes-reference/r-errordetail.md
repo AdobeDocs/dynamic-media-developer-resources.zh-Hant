@@ -2,12 +2,13 @@
 description: 錯誤消息詳細資訊。 指定透過HTTP傳回之錯誤訊息的詳細程度，作為error.message值。
 solution: Experience Manager
 title: ErrorDetail
-topic: Dynamic Media Image Serving - Image Rendering API
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 5%
+source-wordcount: '165'
+ht-degree: 4%
 
 ---
 
@@ -33,7 +34,7 @@ ht-degree: 5%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p></td> 
-  <td class="stentry"> <p>完整的除錯資訊。 添加Java堆棧跟蹤（如果適用）。 錯誤影像從不包含堆疊追蹤，而是傳回<span class="codeph"> $error.message</span>中的2級資訊。 在向動態媒體技術支援報告問題時，這些資訊會很有用。 </p></td> 
+  <td class="stentry"> <p>完整的除錯資訊。 添加Java堆棧跟蹤（如果適用）。 錯誤影像從不包含堆疊追蹤，而是傳回<span class="codeph"> $error.message</span>中的2級資訊。 在向Dynamic Media技術支助部門報告問題時，這些資訊可以派上用場。 </p></td> 
  </tr> 
 </table>
 
