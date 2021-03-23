@@ -4,12 +4,13 @@ seo-description: 靜態內容來源資料檔案僅由平台伺服器存取。
 seo-title: 靜態內容來源資料
 solution: Experience Manager
 title: 靜態內容來源資料
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a3280ce7-20d7-4f4b-bf3e-e77cc7aca35f
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
