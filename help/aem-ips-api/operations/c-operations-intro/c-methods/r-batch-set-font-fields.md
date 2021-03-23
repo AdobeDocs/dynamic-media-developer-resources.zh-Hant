@@ -4,13 +4,14 @@ seo-description: 設定字型中繼資料欄位。
 seo-title: batchSetFontFields
 solution: Experience Manager
 title: batchSetFontFields
-topic: Dynamic Media Image Production System API
 uuid: 0209865e-32b3-4bea-a508-05771a0365e1
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 14%
+source-wordcount: '137'
+ht-degree: 13%
 
 ---
 
@@ -43,7 +44,7 @@ ht-degree: 14%
 | `*`successCount`*` | `xsd:int` | 是 | 成功設定字型欄位的數目。 |
 | `*`warningCount`*` | `xsd:int` | 是 | 嘗試設定字型欄位時產生的警告數。 |
 | `*`errorCount`*` | `xsd:int` | 是 | 嘗試設定字型欄位時產生的錯誤數。 |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 與資產相關的詳細資料陣列，當操作嘗試套用更新時，這些資產會產生警告。 |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 與資產相關的詳細資訊陣列，當操作嘗試套用更新時，這些資產會產生警告。 |
 | `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 當操作嘗試套用更新時，與產生錯誤的資產相關的詳細資訊陣列。 |
 
 ## 範例 {#section-0449c2e4ec534f4b8ee849ec4fe12c4e}
