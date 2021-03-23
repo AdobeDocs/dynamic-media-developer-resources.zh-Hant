@@ -4,13 +4,14 @@ seo-description: 傳回Zip檔案資料。
 seo-title: getZipEntries
 solution: Experience Manager
 title: getZipEntries
-topic: Dynamic Media Image Production System API
 uuid: cfc45f83-1cf9-4c50-9aac-5a731e62a839
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 21%
+source-wordcount: '82'
+ht-degree: 19%
 
 ---
 
