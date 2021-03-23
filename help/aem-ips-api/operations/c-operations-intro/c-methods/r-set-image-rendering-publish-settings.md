@@ -4,13 +4,14 @@ seo-description: 僅限Scene 7開發人員。 請參閱「影像渲染材料目�
 seo-title: setImageRenderingPublishSettings
 solution: Experience Manager
 title: setImageRenderingPublishSettings
-topic: Dynamic Media Image Production System API
 uuid: 0ea8325c-d56b-47da-a3d0-18876d5dd0ba
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 12%
+source-wordcount: '77'
+ht-degree: 11%
 
 ---
 
