@@ -4,12 +4,13 @@ seo-description: 以下選項控制檔案櫃樣式檔案的處理。 如果sourc
 seo-title: 檔案櫃樣式檔案的選項
 solution: Experience Manager
 title: 檔案櫃樣式檔案的選項
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: bca84724-d710-45da-86e9-7385f689fd4b
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
