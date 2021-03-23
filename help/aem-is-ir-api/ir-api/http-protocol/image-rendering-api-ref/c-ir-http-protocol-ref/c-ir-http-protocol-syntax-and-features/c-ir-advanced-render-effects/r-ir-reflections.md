@@ -4,12 +4,13 @@ seo-description: 您可編寫暈映，以包含近3D反射資料。
 seo-title: 反射
 solution: Experience Manager
 title: 反射
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 6d86f566-0f02-4304-8a6c-08b1a2e9c72e
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '156'
 ht-degree: 3%
 
 ---
