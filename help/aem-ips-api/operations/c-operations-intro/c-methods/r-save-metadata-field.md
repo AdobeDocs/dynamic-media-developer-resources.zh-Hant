@@ -4,13 +4,14 @@ seo-description: 建立或編輯中繼資料欄位。 省略可選的欄位控�
 seo-title: saveMetadataField
 solution: Experience Manager
 title: saveMetadataField
-topic: Dynamic Media Image Production System API
 uuid: ccd84366-732a-4caf-914d-3bc5fe499e7a
+feature: Dynamic Media經典，SDK/API，中繼資料
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 15%
+source-wordcount: '243'
+ht-degree: 14%
 
 ---
 
