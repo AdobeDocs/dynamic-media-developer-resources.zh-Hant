@@ -4,12 +4,13 @@ seo-description: 「基本縮放檢視器」的主要類別為BasicZoomViewer。
 seo-title: 基本縮放檢視器的Javascript API參考
 solution: Experience Manager
 title: 基本縮放檢視器的Javascript API參考
-topic: Dynamic Media
 uuid: 18cf3d32-329c-412b-97cf-c940ed25acff
+feature: Dynamic Media經典，檢視器，SDK/API，縮放
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
