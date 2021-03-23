@@ -1,15 +1,16 @@
 ---
-description: 「影像轉換API參考」包含有關設定和使用動態媒體影像轉換API的資訊。
-seo-description: 「影像轉換API參考」包含有關設定和使用動態媒體影像轉換API的資訊。
+description: 「影像演算API參考」包含有關設定和使用Dynamic Media影像演算API的資訊。
+seo-description: 「影像演算API參考」包含有關設定和使用Dynamic Media影像演算API的資訊。
 seo-title: 影像轉換API
 solution: Experience Manager
 title: 影像轉換API
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 14e283bb-451c-4b6e-bd73-32488dcd93b6
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '90'
 ht-degree: 1%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 1%
 
 # 影像演算API{#image-rendering-api}
 
-「影像轉換API參考」包含有關設定和使用動態媒體影像轉換API的資訊。
+「影像演算API參考」包含有關設定和使用Dynamic Media影像演算API的資訊。
 
 * [設定](c-ir-installation/c-ir-installation.md)
 * [授權](c-ir-installation/c-ir-licensing.md)
