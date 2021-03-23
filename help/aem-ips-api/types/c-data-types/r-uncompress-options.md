@@ -4,13 +4,14 @@ seo-description: 上傳設定，將ZIP和TAR檔案當做主要資產處理（無
 seo-title: UnCompressOptions
 solution: Experience Manager
 title: UnCompressOptions
-topic: Dynamic Media Image Production System API
 uuid: 1e6827db-8c5e-47db-b7ff-4e681e107e57
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 6%
+source-wordcount: '121'
+ht-degree: 5%
 
 ---
 
