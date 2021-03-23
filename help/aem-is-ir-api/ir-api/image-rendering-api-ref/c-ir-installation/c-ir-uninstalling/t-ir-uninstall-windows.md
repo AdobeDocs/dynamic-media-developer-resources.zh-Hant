@@ -4,12 +4,13 @@ seo-description: 請依照下列指示，在Windows系統上解除安裝「影�
 seo-title: 在Windows上卸載
 solution: Experience Manager
 title: 在Windows上卸載
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 7b20bf37-4147-4169-ac5e-42e7b330ca51
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '66'
 ht-degree: 0%
 
 ---
@@ -19,4 +20,4 @@ ht-degree: 0%
 
 請依照下列指示，在Windows系統上解除安裝「影像演算」。
 
-1. 執行` *[!DNL install_folder]*\_uninst\uninstaller.exe`以啟動解除安裝程式，或從「開始」選單中選取「程式&#x200B;**[!UICONTROL a2/> >**[!UICONTROL  Scene7 ]**>**[!UICONTROL &#x200B;影像轉換&#x200B;]**>**[!UICONTROL &#x200B;解除安裝&#x200B;]**」。]**
+1. 通過運行` *[!DNL install_folder]*\_uninst\uninstaller.exe`啟動卸載程式，或從「開始」菜單選擇「程式」>「Scene7」>「a4/」>「影像渲染」>「a6/」>「卸載」**[!UICONTROL 「卸載」&lt;a8/」。************]**
