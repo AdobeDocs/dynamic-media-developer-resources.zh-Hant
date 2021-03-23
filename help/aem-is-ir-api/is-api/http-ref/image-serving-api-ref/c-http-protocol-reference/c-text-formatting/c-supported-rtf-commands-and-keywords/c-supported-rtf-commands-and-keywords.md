@@ -4,12 +4,13 @@ seo-description: 以下是Scene 7 Image Serving文字引擎支援的關鍵字和
 seo-title: 支援的RTF命令和關鍵字
 solution: Experience Manager
 title: 支援的RTF命令和關鍵字
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0b77d0c5-c4cc-4de7-b51d-6f2ca02316f5
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
