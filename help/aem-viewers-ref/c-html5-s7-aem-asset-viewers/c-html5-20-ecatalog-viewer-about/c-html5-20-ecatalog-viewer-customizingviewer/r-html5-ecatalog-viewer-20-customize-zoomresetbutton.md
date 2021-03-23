@@ -4,12 +4,13 @@ seo-description: 按一下或點選此按鈕會重設主檢視中的影像。 �
 seo-title: 縮放重設按鈕
 solution: Experience Manager
 title: 縮放重設按鈕
-topic: Dynamic Media
 uuid: 27f6eacd-2922-4ddb-98e4-ee10d3b72b0c
+feature: Dynamic Media經典，檢視器，SDK/API,eCatalog
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '428'
 ht-degree: 1%
 
 ---
