@@ -4,12 +4,13 @@ seo-description: 從您要取得檔案的位置上傳URL。
 seo-title: UploadUrlsJob
 solution: Experience Manager
 title: UploadUrlsJob
-topic: Dynamic Media Image Production System API
 uuid: 6140e969-bf61-4b62-9a60-29609626b0b4
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '460'
 ht-degree: 5%
 
 ---
@@ -65,12 +66,12 @@ ht-degree: 5%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> IllustratorOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：IllustratorOptions</span> </td> 
-   <td colname="col3"> 將Illustrator檔案上傳至影像伺服器的選項。 </td> 
+   <td colname="col3"> 將Illustrator檔案上載到映像伺服器的選項。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> inDesignOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：InDesignOptions</span> </td> 
-   <td colname="col3"> 將InDesign檔案上傳至伺服器的選項。 </td> 
+   <td colname="col3"> 將InDesign檔案上載到伺服器的選項。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> knouckBackground</span> </span> </td> 
@@ -105,7 +106,7 @@ ht-degree: 5%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> photoshopOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：PhotoshopOptions</span> </td> 
-   <td colname="col3"> 將Photoshop檔案上傳至影像伺服器的選項。 </td> 
+   <td colname="col3"> 將Photoshop檔案上載到映像伺服器的選項。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> postHttpUrl</span> </span> </td> 
