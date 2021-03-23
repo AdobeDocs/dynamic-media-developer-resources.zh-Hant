@@ -4,13 +4,14 @@ seo-description: 縮放目標的陣列。
 seo-title: ZoomTargetArray
 solution: Experience Manager
 title: ZoomTargetArray
-topic: Dynamic Media Image Production System API
 uuid: 6dc21229-33b0-4e10-bcf2-1319016ffded
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '28'
-ht-degree: 21%
+source-wordcount: '35'
+ht-degree: 17%
 
 ---
 
