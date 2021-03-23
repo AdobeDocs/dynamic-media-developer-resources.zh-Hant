@@ -4,13 +4,14 @@ seo-description: 次要控制列是矩形區域，當CSS中提供時，該區域
 seo-title: 次控制列
 solution: Experience Manager
 title: 次控制列
-topic: Dynamic Media
 uuid: 38217d2a-8668-46e1-9df1-f29c1c7e0798
+feature: Dynamic Media經典，檢視器，SDK/API,eCatalog搜尋
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 2%
+source-wordcount: '210'
+ht-degree: 1%
 
 ---
 
