@@ -4,13 +4,14 @@ seo-description: 決定要從搜尋結果中排除的產生引擎和產生的資
 seo-title: 排除副產品條件
 solution: Experience Manager
 title: 排除副產品條件
-topic: Dynamic Media Image Production System API
 uuid: 70581512-7b26-4319-b12b-27fbb205d871
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 8%
+source-wordcount: '79'
+ht-degree: 7%
 
 ---
 
