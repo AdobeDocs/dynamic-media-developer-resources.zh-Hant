@@ -4,12 +4,13 @@ seo-description: 目錄屬性檔案可識別這些色彩管理屬性。
 seo-title: 色彩管理屬性
 solution: Experience Manager
 title: 色彩管理屬性
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e136b1bd-650e-4f3d-90e8-df1df814ec48
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '92'
 ht-degree: 0%
 
 ---
