@@ -4,12 +4,13 @@ seo-description: 根據您指定的條件搜尋資產。
 seo-title: searchAssets
 solution: Experience Manager
 title: searchAssets
-topic: Dynamic Media Image Production System API
 uuid: 125e9e0d-1856-4e80-9778-ca93cd04b766
+feature: Dynamic Media經典，SDK/API，資產管理
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '646'
 ht-degree: 12%
 
 ---
