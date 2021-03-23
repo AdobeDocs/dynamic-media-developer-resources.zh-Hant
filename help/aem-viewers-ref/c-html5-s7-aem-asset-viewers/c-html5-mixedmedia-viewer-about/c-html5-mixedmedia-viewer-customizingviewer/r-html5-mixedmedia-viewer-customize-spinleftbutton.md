@@ -4,12 +4,13 @@ seo-description: 按一下或點選此按鈕，會在主檢視中將影像旋轉
 seo-title: 左旋按鈕
 solution: Experience Manager
 title: 左旋按鈕
-topic: Dynamic Media
 uuid: 742a912b-7ca1-43d4-aae6-a809e01d34b9
+feature: Dynamic Media經典，檢視器，SDK/API,Mix Media Sets
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '396'
 ht-degree: 3%
 
 ---
