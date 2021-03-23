@@ -4,12 +4,13 @@ seo-description: 按一下或點選此按鈕可讓使用者進入目錄的上一
 seo-title: 「上一頁」按鈕
 solution: Experience Manager
 title: 「上一頁」按鈕
-topic: Dynamic Media
 uuid: 0e7dfa50-0af5-4af9-b57c-5a01e73c03a0
+feature: Dynamic Media經典，檢視器，SDK/API,eCatalog
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '348'
 ht-degree: 2%
 
 ---
