@@ -4,13 +4,14 @@ seo-description: 移除檔案夾權限。
 seo-title: removeFolderPermissions
 solution: Experience Manager
 title: removeFolderPermissions
-topic: Dynamic Media Image Production System API
 uuid: cd9f7a42-e314-4ec9-abe2-a27581c7cd23
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 16%
+source-wordcount: '121'
+ht-degree: 15%
 
 ---
 
