@@ -4,13 +4,14 @@ seo-description: 配置檔案路徑。 ICC顏色配置檔案的路徑和名稱�
 seo-title: ProfilePath
 solution: Experience Manager
 title: ProfilePath
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 59e78bfb-bc5c-45e4-aa70-d18cab2f9e39
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 8%
+source-wordcount: '79'
+ht-degree: 7%
 
 ---
 
