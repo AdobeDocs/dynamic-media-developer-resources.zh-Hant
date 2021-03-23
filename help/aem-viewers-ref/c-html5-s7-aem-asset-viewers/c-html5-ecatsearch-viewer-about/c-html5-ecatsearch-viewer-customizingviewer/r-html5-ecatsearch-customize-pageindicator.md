@@ -4,13 +4,14 @@ seo-description: 頁面指標會顯示目前的頁面索引和頁面總數。 �
 seo-title: 頁面指標
 solution: Experience Manager
 title: 頁面指標
-topic: Dynamic Media
 uuid: 1be6021b-3026-48ef-b121-eeb8270d2bae
+feature: Dynamic Media經典，檢視器，SDK/API,eCatalog搜尋
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 4%
+source-wordcount: '306'
+ht-degree: 3%
 
 ---
 
@@ -41,7 +42,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 左側 </span> </p> </td> 
-   <td colname="col2"> <p>從主控制列（在桌上型電腦系統和平板電腦上）或次控制列（在行動電話上）的左邊框放置，包括間距。 </p> </td> 
+   <td colname="col2"> <p>從主控制列（在桌上型電腦系統和平板電腦上）或次控制列（在行動電話上）的左邊框中的位置，包括間距。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 底部 </span> </p> </td> 
