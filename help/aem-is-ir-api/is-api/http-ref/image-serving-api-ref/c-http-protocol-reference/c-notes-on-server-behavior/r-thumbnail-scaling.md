@@ -4,12 +4,13 @@ seo-description: 對縮圖（即，如果req=tmb）的影像層變換的步驟2�
 seo-title: 縮圖縮放
 solution: Experience Manager
 title: 縮圖縮放
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: df935d40-84c6-4018-9e41-faef4653ff1f
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
