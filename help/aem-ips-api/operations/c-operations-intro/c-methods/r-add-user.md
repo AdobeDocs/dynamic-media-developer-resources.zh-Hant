@@ -2,12 +2,13 @@
 description: 建立使用者帳戶，並將該帳戶新增至一或多家公司。
 solution: Experience Manager
 title: addUser
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 13%
+source-wordcount: '183'
+ht-degree: 12%
 
 ---
 
