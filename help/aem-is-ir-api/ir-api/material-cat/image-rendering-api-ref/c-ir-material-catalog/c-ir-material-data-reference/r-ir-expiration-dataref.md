@@ -4,12 +4,13 @@ seo-description: 用戶端的快取存取時間。 到期前的小時數。 用�
 seo-title: 過期
 solution: Experience Manager
 title: 過期
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 6dbd7d43-727c-42fc-8953-dba112209a45
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '343'
 ht-degree: 2%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 2%
 
 伺服器通過將此值添加到傳輸的時間／日期來計算NTTP響應資料的到期時間／日期。
 
-瀏覽器使用檔案的過期時間來管理快取。 在將請求傳遞至伺服器之前，瀏覽器會檢查其快取，以查看檔案是否已下載。 如果是，且若檔案尚未過期，瀏覽器會傳送條件式GET要求（例如If-Modified-Since HTTP要求標題），而非一般的GET要求。 伺服器可選擇以&#39;304&#39;狀態回應，而不傳送影像。 然後，瀏覽器只會從其快取載入檔案。 這可大幅提高經常存取資料的整體效能。
+瀏覽器使用檔案的過期時間來管理快取。 在將請求傳遞至伺服器之前，瀏覽器會檢查其快取，以查看檔案是否已下載。 如果是，且若檔案尚未過期，瀏覽器會傳送條件式GET要求（例如具有If-Modified-Since HTTP要求標題），而非一般GET要求。 伺服器可選擇以&#39;304&#39;狀態回應，而不傳送影像。 然後，瀏覽器只會從其快取載入檔案。 這可大幅提高經常存取資料的整體效能。
 
 伺服器會將過期的HTTP回應標題設為目前的日期／時間加上最小的暈映：:Expiration and all catalog:::Expiration值（暈映和演算作業中涉及的所有材質）。
 
@@ -29,7 +30,7 @@ ht-degree: 2%
 
 ## 屬性 {#section-e87e8f6b6d224c6ea2eeaad695c04be8}
 
-實數、-2、-1、0或更大。 自回應影像產生以來，到期前的小時數。 設為0，一律會立即使回應影像過期，這會有效停用用戶端快取。 設定為-1以標籤為`never expire`。 在這種情況下，伺服器會回應條件式`GET`要求而傳回304狀態（未修改），而不檢查檔案是否實際變更。 設定為-2以使用`attribute::Expiration`提供的預設設定。
+實數、-2、-1、0或更大。 自回應影像產生後，到期前的小時數。 設為0，一律會立即使回應影像過期，這會有效停用用戶端快取。 設定為-1以標籤為`never expire`。 在這種情況下，伺服器會回應條件式`GET`要求而傳回304狀態（未修改），而不檢查檔案是否實際變更。 設定為-2以使用`attribute::Expiration`提供的預設設定。
 
 ## 預設 {#section-79d71706e12a4493a69d7febc3a1f271}
 
