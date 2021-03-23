@@ -1,12 +1,13 @@
 ---
-description: 「影像伺服」公用程式指南包含動態媒體影像伺服器和影像演算所使用公用程式的相關資訊。
+description: 「影像伺服」公用程式指南包含與「Dynamic Media影像伺服器」和「影像演算」搭配使用的公用程式相關資訊。
 solution: Experience Manager
 title: 影像伺服公用程式
-topic: Dynamic Media Image Serving - Image Rendering API
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '51'
+source-wordcount: '59'
 ht-degree: 1%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 1%
 
 # 映像服務實用程式{#image-serving-utilities}
 
-「影像伺服」公用程式指南包含動態媒體影像伺服器和影像演算所使用公用程式的相關資訊。
+「影像伺服」公用程式指南包含與「Dynamic Media影像伺服器」和「影像演算」搭配使用的公用程式相關資訊。
 
 * [公用程式的位置](c-location-of-utilities.md)
 * [ic](r-ic.md)
