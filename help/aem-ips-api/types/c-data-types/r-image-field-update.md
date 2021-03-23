@@ -4,13 +4,14 @@ seo-description: 更新與影像資產相關的影像欄位。
 seo-title: ImageFieldUpdate
 solution: Experience Manager
 title: ImageFieldUpdate
-topic: Dynamic Media Image Production System API
 uuid: 0262be3e-f840-41cd-bedc-cc37d9982235
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 8%
+source-wordcount: '78'
+ht-degree: 7%
 
 ---
 
