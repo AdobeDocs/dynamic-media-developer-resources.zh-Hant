@@ -2,12 +2,13 @@
 description: 影像的檢視變形
 solution: Experience Manager
 title: 影像的檢視變形
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8594f746-0e58-4a59-933c-a44dc0b06c25
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
@@ -23,7 +24,7 @@ ht-degree: 0%
 
 如果未指定`wid=`、`hei=`或`scl=`，且如果合成影像的寬度或高度超過`attribute::DefaultPix`，則合成影像會縮放為不超過`attribute::DefaultPix`。 否則，合成影像將不進行縮放。
 
-若要確保在不進一步縮放的情況下傳回檢視影像，請指定`scl=1`。
+為確保在不進行任何進一步縮放的情況下返回視圖影像，請指定`scl=1`。
 
 如果指定`rgn=`，則回覆影像會隨之裁切，以達到最終的回覆影像大小。 此大小會與`attribute::MaxPix`（如果已定義）比較，如果回覆影像在任一維度中較大，則會產生錯誤。
 
