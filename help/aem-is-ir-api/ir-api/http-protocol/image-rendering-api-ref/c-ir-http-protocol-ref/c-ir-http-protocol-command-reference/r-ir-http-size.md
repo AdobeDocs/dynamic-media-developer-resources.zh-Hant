@@ -4,12 +4,13 @@ seo-description: 戴卡尺寸。 指定傾斜材料的大小。
 seo-title: 大小
 solution: Experience Manager
 title: 大小
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b82f3429-3d84-4707-8126-d390239df9a2
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '229'
 ht-degree: 3%
 
 ---
@@ -46,7 +47,7 @@ ht-degree: 3%
 
 ## 範例 {#section-04fdc2b60b9e4071b672bf6a913738ad}
 
-一種貼花的MSS，其尺寸是根據解析度而定，順時針旋轉20度，厚度為2.5英吋，以獲得合適的下垂式陰影效果：
+一種貼花的MSS，其尺寸是根據解析度而定，順時針旋轉20度，厚度為2.5英吋，以獲得適當的下垂式陰影效果：
 
 `…&decal&src=myDecal.png&res=34&rotate=20&size=0,0,2.5&…`
 
