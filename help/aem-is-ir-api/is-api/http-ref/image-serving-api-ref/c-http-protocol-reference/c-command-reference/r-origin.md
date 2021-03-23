@@ -4,13 +4,14 @@ seo-description: 圖層原點。
 seo-title: 來源
 solution: Experience Manager
 title: 來源
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a36fc0b6-7744-4c1c-b9f8-4aa31a886bff
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 3%
+source-wordcount: '169'
+ht-degree: 2%
 
 ---
 
