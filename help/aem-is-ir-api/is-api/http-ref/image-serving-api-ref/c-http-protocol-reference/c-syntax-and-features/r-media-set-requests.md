@@ -4,12 +4,13 @@ seo-description: 「影像伺服」提供擷取階層文字回應（xml或json�
 seo-title: 媒體集請求
 solution: Experience Manager
 title: 媒體集請求
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: af9fabcd-531d-43fb-bd97-269923bea5e8
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '1003'
 ht-degree: 0%
 
 ---
@@ -135,7 +136,7 @@ set機制支援以下類型的響應：
 
 為了限制響應的大小並防止自引用問題，最大嵌套深度由伺服器屬性`PS::fvctx.nestingLimit`控制。 如果超過此限制，則會傳回錯誤。
 
-為了限制大型e-catalog集的xml響應的大小，會根據伺服器屬性`PS::fvctx.brochureLimit`來抑制手冊集項的專用元資料。 所有與手冊相關的私人中繼資料都會匯出，直到手冊限制達到為止。 一旦超出限制，私有映射和用戶資料將被隱藏，並且將設定相應的標誌，以指示隱藏哪種資料類型。
+為了限制大型e-catalog集的xml響應的大小，會根據伺服器屬性`PS::fvctx.brochureLimit`來抑制手冊集項的專用元資料。 所有與手冊相關的私人中繼資料都會匯出，直到手冊限制達到為止。 一旦超出限制，私有映射和用戶資料將被隱藏，並且將設定相應的標誌來指示隱藏的資料類型。
 
 不支援巢狀媒體集。 嵌套媒體集被定義為包含介質集類型的介質集。 如果偵測到此情況，則會傳回錯誤。
 
