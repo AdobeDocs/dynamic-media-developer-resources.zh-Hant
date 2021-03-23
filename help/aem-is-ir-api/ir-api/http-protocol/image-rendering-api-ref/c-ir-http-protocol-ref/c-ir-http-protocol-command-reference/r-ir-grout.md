@@ -4,12 +4,13 @@ seo-description: 瓷磚灌漿的顏色和厚度。 模擬陶瓷和天然石磚�
 seo-title: 灌漿
 solution: Experience Manager
 title: 灌漿
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 00069004-40f2-4ab6-85d8-ca197b7bef69
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '187'
 ht-degree: 2%
 
 ---
@@ -41,7 +42,7 @@ grout= *`color`*[,*`width`*]
 
 ## 屬性 {#section-de78b678245b4ffda48097c345949e77}
 
-材料屬性。 `*`顏`*` 色必須是RGB顏色值。`*``*` Width必須是實際值0或更大。
+材料屬性。 `*`顏`*` 色必須是RGB顏色值。`*`Width`*` 必須是實際值0或更大。
 
 如果重複= 4、5、7、8、9、14或更高，或指定用於可重複紋理以外的材質時，則忽略。
 
