@@ -4,12 +4,13 @@ seo-description: 互動式視訊檢視器所顯示的某些內容可能會受當
 seo-title: 使用者介面元素的本地化
 solution: Experience Manager
 title: 使用者介面元素的本地化
-topic: Dynamic Media
 uuid: 7c880e25-76dc-43d3-83fc-12de92afd35f
+feature: Dynamic Media經典，檢視器，SDK/API，互動式視訊
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
