@@ -4,12 +4,13 @@ seo-description: 縮放以影像目錄中的資料為目標。 傳回URL路徑�
 seo-title: 目標
 solution: Experience Manager
 title: 目標
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e20dcd2c-913a-4153-97c7-dfb190763e39
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '210'
 ht-degree: 2%
 
 ---
