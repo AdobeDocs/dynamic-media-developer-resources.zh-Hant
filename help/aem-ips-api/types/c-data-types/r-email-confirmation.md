@@ -2,12 +2,13 @@
 description: 響應於cdnCacheInvalidation操作，將電子郵件傳送給指定的收件者。
 solution: Experience Manager
 title: 電子郵件確認
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 6%
+source-wordcount: '85'
+ht-degree: 5%
 
 ---
 
@@ -22,6 +23,6 @@ ht-degree: 6%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| `*`ccOriginator`*` | `xsd:boolean` | 若為true，則包含使用者的web service使用者帳戶，此為指定接收來自Dynamic Media CDN之電子郵件確認的電子郵件清單。 |
-| `*`ccOthersArray`*` | `types:EmailArray` | 一組電子郵件地址（最多5個），指定用來從Dynamic Media CDN接收確認通知。 |
+| `*`ccOriginator`*` | `xsd:boolean` | 若為true，則包含使用者的web service使用者帳戶，此為指定接收Dynamic MediaCDN電子郵件確認的電子郵件清單。 |
+| `*`ccOthersArray`*` | `types:EmailArray` | 一組電子郵件地址（最多5個），指定用來接收來自Dynamic MediaCDN的確認通知。 |
 
