@@ -4,12 +4,13 @@ seo-description: 請求模糊化模式。 指定必須套用至有效請求的�
 seo-title: 請求模糊化
 solution: Experience Manager
 title: 請求模糊化
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 07154e06-c386-45a7-b5ac-60f0aef3c362
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '88'
 ht-degree: 2%
 
 ---
