@@ -4,13 +4,14 @@ seo-description: 指定按鈕容器的投影片動畫方向。
 seo-title: FavoritesMenu.bearing
 solution: Experience Manager
 title: FavoritesMenu.bearing
-topic: Dynamic Media
 uuid: badc02ef-2724-41bb-9b00-c65966be8577
+feature: Dynamic Media經典，檢視器，SDK/API,eCatalog
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 2%
+source-wordcount: '206'
+ht-degree: 1%
 
 ---
 
