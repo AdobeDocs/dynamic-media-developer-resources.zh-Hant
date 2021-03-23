@@ -4,12 +4,13 @@ seo-description: 可選類型，可讓您選擇特定視訊影格做為縮圖影
 seo-title: ThumbnailOptions
 solution: Experience Manager
 title: ThumbnailOptions
-topic: Dynamic Media Image Production System API
 uuid: 50b2ecee-8396-4323-83e1-1f5060bec6c4
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '120'
 ht-degree: 5%
 
 ---
