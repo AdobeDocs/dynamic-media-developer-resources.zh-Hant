@@ -4,12 +4,13 @@ seo-description: 表示當回轉視圖空閒時，要在每個方向上預載的
 seo-title: SpinView.maxloadradius
 solution: Experience Manager
 title: SpinView.maxloadradius
-topic: Dynamic Media
 uuid: e1b9fa84-837c-465e-8d37-0b6867404cae
+feature: Dynamic Media經典，檢視器，SDK/API,Mix Media Sets
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '181'
 ht-degree: 2%
 
 ---
