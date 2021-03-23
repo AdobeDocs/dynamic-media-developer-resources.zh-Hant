@@ -4,12 +4,13 @@ seo-description: eCatalog檢視器支援在主檢視上方轉換影像地圖圖�
 seo-title: 影像地圖支援
 solution: Experience Manager
 title: 影像地圖支援
-topic: Dynamic Media
 uuid: 69aeda21-909d-45da-bcf5-73ade8c5adda
+feature: Dynamic Media經典，檢視器，SDK/API,eCatalog
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
@@ -39,7 +40,7 @@ eCatalog檢視器支援在主檢視上方轉換影像地圖圖示。
 
 ## 資訊面板快顯啟動{#section-7aa036420af646d1ad8cdc388add0b57}
 
-若要使用「資訊」面板，影像地圖會設定`ROLLOVER_KEY`屬性。 此外，也可同時設定`href`屬性，否則外部URL處理會干擾「資訊」面板快顯啟動。
+若要使用「資訊」面板，影像地圖已設定`ROLLOVER_KEY`屬性。 此外，也可同時設定`href`屬性，否則外部URL處理會干擾「資訊」面板快顯啟動。
 
 最後，請確定檢視器組態包含`InfoPanelPopup.template`和`InfoPanelPopup.infoServerUrl`參數的適當值。
 
