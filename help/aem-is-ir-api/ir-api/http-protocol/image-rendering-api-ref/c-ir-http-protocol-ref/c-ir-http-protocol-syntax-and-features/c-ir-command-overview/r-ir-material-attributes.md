@@ -4,12 +4,13 @@ seo-description: 這些屬性定義要應用於選定對象的材料。
 seo-title: 材料屬性
 solution: Experience Manager
 title: 材料屬性
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: afdff304-f607-4820-bdb2-f428271efb87
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
