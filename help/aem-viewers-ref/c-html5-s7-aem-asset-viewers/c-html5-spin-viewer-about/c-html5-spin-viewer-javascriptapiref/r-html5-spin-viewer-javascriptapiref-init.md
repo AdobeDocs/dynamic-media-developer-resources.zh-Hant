@@ -4,12 +4,13 @@ seo-description: 回轉檢視器的JavaScript API參考。
 seo-title: init
 solution: Experience Manager
 title: init
-topic: Dynamic Media
 uuid: 1803028f-dcba-49da-9fb7-78bfd64fc47d
+feature: Dynamic Media經典，檢視器，SDK/API，回轉集
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '137'
 ht-degree: 2%
 
 ---
