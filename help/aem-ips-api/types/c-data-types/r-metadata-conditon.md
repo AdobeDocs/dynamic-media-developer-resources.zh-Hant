@@ -4,12 +4,13 @@ seo-description: 新增搜尋詞以搭配searchAssets使用。
 seo-title: 中繼資料條件
 solution: Experience Manager
 title: 中繼資料條件
-topic: Dynamic Media Image Production System API
 uuid: 9d65b8ce-86a5-4730-af84-a87134fd7db6
+feature: Dynamic Media經典，SDK/API，中繼資料
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '191'
 ht-degree: 7%
 
 ---
