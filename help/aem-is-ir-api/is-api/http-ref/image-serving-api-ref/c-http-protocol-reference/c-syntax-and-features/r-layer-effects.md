@@ -1,15 +1,16 @@
 ---
-description: Photoshop樣式的圖層陰影和發光效果是使用特殊的子圖層（效果圖層）來實作的，這些子圖層可附加至任何圖層（父圖層），包括layer=0和layer=comp。
-seo-description: Photoshop樣式的圖層陰影和發光效果是使用特殊的子圖層（效果圖層）來實作的，這些子圖層可附加至任何圖層（父圖層），包括layer=0和layer=comp。
+description: Photoshop風格的圖層陰影和發光效果是使用特殊的子圖層（效果圖層）來實現的，子圖層可附加到任何圖層（父圖層），包括layer=0和layer=comp。
+seo-description: Photoshop風格的圖層陰影和發光效果是使用特殊的子圖層（效果圖層）來實現的，子圖層可附加到任何圖層（父圖層），包括layer=0和layer=comp。
 seo-title: 圖層效果
 solution: Experience Manager
 title: 圖層效果
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 076e98de-cbbb-457b-984a-367a935b4356
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '520'
 ht-degree: 2%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 2%
 
 # 圖層效果{#layer-effects}
 
-Photoshop樣式的圖層陰影和發光效果是使用特殊的子圖層（效果圖層）來實作的，這些子圖層可附加至任何圖層（父圖層），包括layer=0和layer=comp。
+Photoshop風格的圖層陰影和發光效果是使用特殊的子圖層（效果圖層）來實現的，子圖層可附加到任何圖層（父圖層），包括layer=0和layer=comp。
 
 雖然效果圖層支援許多標準影像和圖層屬性和命令，但它們並非一般用途的圖層，也不支援獨立的影像或文字資料。
 
@@ -49,7 +50,7 @@ Photoshop樣式的圖層陰影和發光效果是使用特殊的子圖層（效�
 
 ## 預設效果宏{#section-a01e8dcc87c94495b54a6dfb21d2a718}
 
-為方便使用圖層效果，IS提供兩個具有預設影像目錄（`$shadow$`和`$glow$`）的巨集，這些目錄為效果圖層屬性（類似於Photoshop圖層效果）提供預設值。 下表列出了應使用哪些效果命令和宏來實現預設層效果。 自然地，宏中指定的任何屬性都可以在URL中修改，或者建立替代宏以實施自定義圖層效果。
+為方便使用圖層效果，IS提供兩個具有預設影像目錄（`$shadow$`和`$glow$`）的巨集，這些目錄為效果圖層屬性(類似於Photoshop圖層效果)提供預設值。 下表列出了應使用哪些效果命令和宏來實現預設層效果。 自然地，宏中指定的任何屬性都可以在URL中修改，或者建立替代宏以實施自定義圖層效果。
 
 <table id="table_8089C41AD1F24223A58C7DD8F4DDF73C"> 
  <thead> 
