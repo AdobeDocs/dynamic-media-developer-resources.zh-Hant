@@ -4,12 +4,13 @@ seo-description: 回轉檢視器的主要類別為回轉檢視器。 會在s7vie
 seo-title: 回轉檢視器的Javascript API參考
 solution: Experience Manager
 title: 回轉檢視器的Javascript API參考
-topic: Dynamic Media
 uuid: c38d3336-504b-4b14-9a6a-ba8eab9e2f3e
+feature: Dynamic Media經典，檢視器，SDK/API，回轉集
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '140'
 ht-degree: 0%
 
 ---
