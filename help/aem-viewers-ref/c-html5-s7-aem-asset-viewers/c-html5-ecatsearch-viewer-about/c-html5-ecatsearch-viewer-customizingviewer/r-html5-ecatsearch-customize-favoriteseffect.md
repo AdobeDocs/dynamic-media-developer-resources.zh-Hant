@@ -4,12 +4,13 @@ seo-description: 檢視器會在主檢視上顯示「我的最愛」圖示，位
 seo-title: 我的最愛效果
 solution: Experience Manager
 title: 我的最愛效果
-topic: Dynamic Media
 uuid: 5fbfe299-1fae-427f-8ade-e12cd168b8a7
+feature: Dynamic Media經典，檢視器，SDK/API,eCatalog搜尋
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
