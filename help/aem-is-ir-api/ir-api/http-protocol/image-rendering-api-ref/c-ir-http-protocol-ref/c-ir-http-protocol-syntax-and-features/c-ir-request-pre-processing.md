@@ -4,12 +4,13 @@ seo-description: 「影像轉換」提供以規則運算式比對和替代規則
 seo-title: 要求預先處理*
 solution: Experience Manager
 title: 要求預先處理*
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ef69ea23-753c-40c8-9edd-eab9c8820c98
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 0%
 
 「影像轉換」提供以規則運算式比對和替代規則為基礎的簡單請求預處理器。
 
-規則集合（規則集）可以附加到每個物料目錄，包括預設目錄。 規則是使用XML格式的檔案來指定。
+規則集合（規則集）可附加到每個物料目錄，包括預設目錄。 規則是使用XML格式的檔案來指定。
 
 請求預處理規則可修改請求的路徑和查詢部分，然後再由影像轉換解析器處理，包括控制路徑、新增命令、變更命令值，以及套用範本或巨集。 規則也可用來設定和覆寫通常僅以目錄屬性控制的特定功能，例如設定預設的回覆影像大小或將HTTP服務限制在特定用戶端IP位址。
 
