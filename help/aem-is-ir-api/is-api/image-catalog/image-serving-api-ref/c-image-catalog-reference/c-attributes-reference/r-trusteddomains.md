@@ -1,23 +1,24 @@
 ---
-description: Flash應用程式網域。 Adobe Flash應用程式可能需要存取使用fmt=swf或fmt=swf3傳送的影像屬性。
-seo-description: Flash應用程式網域。 Adobe Flash應用程式可能需要存取使用fmt=swf或fmt=swf3傳送的影像屬性。
+description: Flash應用程式網域。 AdobeFlash應用程式可能需要訪問使用fmt=swf或fmt=swf3傳送的影像的屬性。
+seo-description: Flash應用程式網域。 AdobeFlash應用程式可能需要訪問使用fmt=swf或fmt=swf3傳送的影像的屬性。
 seo-title: 受信任網域
 solution: Experience Manager
 title: 受信任網域
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 1d056d68-b699-413c-897c-8612444735c5
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 3%
+source-wordcount: '136'
+ht-degree: 2%
 
 ---
 
 
 # TrustedDomains{#trusteddomains}
 
-Flash應用程式網域。 Adobe Flash應用程式可能需要存取使用fmt=swf或fmt=swf3傳送的影像屬性。
+Flash應用程式網域。 AdobeFlash應用程式可能需要訪問使用fmt=swf或fmt=swf3傳送的影像的屬性。
 
 swf必須註冊其信任的應用程式網域名稱，以明確授與存取權。
 
