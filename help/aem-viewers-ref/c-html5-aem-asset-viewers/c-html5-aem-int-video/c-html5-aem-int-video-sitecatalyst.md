@@ -1,23 +1,24 @@
 ---
-description: HTML5 Video360檢視器支援Adobe Analytics立即可用追蹤。
-seo-description: HTML5 Video360檢視器支援Adobe Analytics立即可用追蹤。
+description: HTML5 Video360檢視器支援Adobe Analytics立即追蹤。
+seo-description: HTML5 Video360檢視器支援Adobe Analytics立即追蹤。
 seo-title: 支援Adobe Analytics追蹤
 solution: Experience Manager
 title: 支援Adobe Analytics追蹤
-topic: Dynamic Media
 uuid: b5ab903b-3365-45e3-9542-c290c6c42670
+feature: Dynamic Media經典，檢視器，SDK/API，互動式視訊
+role: 開發人員，商業從業人員，資料工程師，資料架構師
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 4%
+source-wordcount: '181'
+ht-degree: 3%
 
 ---
 
 
 # 支援Adobe Analytics追蹤{#support-for-adobe-analytics-tracking}
 
-HTML5 Video360檢視器支援Adobe Analytics立即可用追蹤。
+HTML5 Video360檢視器支援Adobe Analytics立即追蹤。
 
 若要啟用追蹤，請將正確的公司預設集名稱傳遞為`config2`參數。
 
