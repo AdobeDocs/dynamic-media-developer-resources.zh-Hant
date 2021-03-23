@@ -2,11 +2,12 @@
 description: 進階演算設定。 高級渲染設定用於控制渲染引擎的低級部分，例如材料銳化類型和參數或照明算法的某些參數。
 solution: Experience Manager
 title: RenderSettings
-topic: Dynamic Media Image Serving - Image Rendering API
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '118'
 ht-degree: 3%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 3%
 
 ## 屬性 {#section-b4c8fe595efc4838ac598659bc820607}
 
-文字字串。 所有材料皆可選。 如果指定，則必須是有效的演算設定字串，如Vignette Authoring Tool（動態媒體影像製作套件的一部分）所定義。
+文字字串。 所有材料皆可選。 如果指定，它必須是有效的演算設定字串，如Vignette Authoring Tool(Dynamic Media影像製作套件的一部分)所定義。
 
 ## 預設 {#section-6a4d2013c1d34284b4ff21bb07485d28}
 
