@@ -4,12 +4,13 @@ seo-description: 影像目錄的影像集資料。 傳回URL路徑中指定之�
 seo-title: 影像集
 solution: Experience Manager
 title: 影像集
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8854e903-a85f-403a-ae3d-b7281a236262
+feature: Dynamic Media經典，SDK/API，影像集
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '193'
 ht-degree: 2%
 
 ---
