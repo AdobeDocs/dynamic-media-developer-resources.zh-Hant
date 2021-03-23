@@ -4,12 +4,13 @@ seo-description: 如果影像目錄需要字型圖，則必須在屬性FontMapFi
 seo-title: 字型對應參考
 solution: Experience Manager
 title: 字型對應參考
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 7a6c5eda-3b47-4c23-8a33-7b7e39de29c9
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '138'
 ht-degree: 2%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 2%
 
 特定影像目錄的字型映射中的項目將覆蓋預設目錄的字型映射中的項目。
 
-Image Serving支援Adobe Type 1、OpenType和TrueType字型。
+「影像伺服」支援Adobe Type1、OpenType和TrueType字型。
 
 `textPs=` 也支援CID、ATC和點陣圖字型。
 
