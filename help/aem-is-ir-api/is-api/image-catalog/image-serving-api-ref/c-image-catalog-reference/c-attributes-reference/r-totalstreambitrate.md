@@ -4,13 +4,14 @@ seo-description: 總串流位元速率。 代表視訊資產的總串流位元�
 seo-title: TotalStreamBitRate
 solution: Experience Manager
 title: TotalStreamBitRate
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0fdb7189-cae6-4cf0-ae00-f46a7709fc46
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 6%
+source-wordcount: '90'
+ht-degree: 5%
 
 ---
 
