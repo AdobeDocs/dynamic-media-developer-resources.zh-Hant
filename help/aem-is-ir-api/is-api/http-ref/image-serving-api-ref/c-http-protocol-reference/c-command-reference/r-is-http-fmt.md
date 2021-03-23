@@ -4,12 +4,13 @@ seo-description: 回應影像格式。
 seo-title: fmt
 solution: Experience Manager
 title: fmt
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 29151740-3bbc-4c5e-bbc7-4afe9064ff5f
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '864'
 ht-degree: 4%
 
 ---
@@ -38,12 +39,12 @@ ht-degree: 4%
 | `eps` | 解壓縮的二進位封裝PostScript |
 | `gif` | 2到256色的GIF |
 | `gif-alpha` | 2到255色的GIF加上金鑰色透明度 |
-| `swf` | 內嵌在Adobe AS2 swf檔案中的有損JPEG |
-| `swf-alpha` | 有損JPEG和內嵌在Adobe AS2 swf檔案中的壓縮縮放遮色片 |
-| `swf3` | 內嵌在Adobe AS3 swf檔案中的有損JPEG |
-| `swf3-alpha` | 有損JPEG和內嵌在Adobe AS3 swf檔案中的壓縮縮放遮色片。 **注意**:swf和swf-alpha格式最適合用於ActionScript 2應用程式（Flash Player 8和更舊版本）。建議將swf3和swf3-alpha用於ActionScript3應用程式（Flash Player 9和更新版本） |
+| `swf` | 內嵌在AdobeAS2 swf檔案中的有損JPEG |
+| `swf-alpha` | 有損JPEG和嵌入AdobeAS2 swf檔案的壓縮偏斜遮色片 |
+| `swf3` | 內嵌在AdobeAS3 swf檔案中的有損JPEG |
+| `swf3-alpha` | 有損JPEG和嵌入AdobeAS3 swf檔案的壓縮縮放遮色片。 **注意**:swf和swf-alpha格式最適合用於ActionScript2應用程式(Flash Player8和舊版)。swf3和swf3-alpha版建議用於ActionScript3應用程式(Flash Player9和更新版本) |
 | `m3u8` | Apple Streaming Server資訊清單格式 |
-| `f4m` | Flash Streaming Server資訊清單格式 |
+| `f4m` | Flash串流伺服器資訊清單格式 |
 | `webp` | 有損和無損WebP |
 | `webp-alpha` | 具有Alpha色版的有損和無損WebP |
 | `jpeg2000` | 有損和無損JPEG 2000 |
@@ -125,7 +126,7 @@ ht-degree: 4%
    <td colname="col1"> <p> swf,swf3,swf-alpha,swf-alpha3 </p> </td> 
    <td colname="col2"> <p>rgb，灰色 </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;application&gt; </span> </p> </td> 
-   <td colname="col4"> <p>否 </p> <p> <p>注意： Adobe Flash Player會忽略內嵌的ICC設定檔。 </p> </p> </td> 
+   <td colname="col4"> <p>否 </p> <p> <p>注意： AdobeFlash Player忽略嵌入的ICC配置檔案。 </p> </p> </td> 
    <td colname="col5"> <p> <span class="codeph"> qlt=  </span>，屬 <span class="codeph"> 性：:TrustedDomains  </span> </p> </td> 
   </tr> 
   <tr valign="top"> 
