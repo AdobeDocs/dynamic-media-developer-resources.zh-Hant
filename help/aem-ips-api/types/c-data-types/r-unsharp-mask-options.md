@@ -4,12 +4,13 @@ seo-description: 有助於改善最佳化金字塔TIF檔案影像銳利度的設
 seo-title: UnsharpMaskOptions
 solution: Experience Manager
 title: UnsharpMaskOptions
-topic: Dynamic Media Image Production System API
 uuid: 73073de0-41b6-471c-8887-f6b94ed2af90
+feature: Dynamic Media經典，SDK/API，資產管理
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '208'
 ht-degree: 12%
 
 ---
