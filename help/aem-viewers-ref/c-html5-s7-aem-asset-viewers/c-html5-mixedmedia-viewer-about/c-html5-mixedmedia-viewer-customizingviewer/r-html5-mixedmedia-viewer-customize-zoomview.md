@@ -4,12 +4,13 @@ seo-description: 在連續縮放模式中，當目前資產是單一影像時，
 seo-title: 縮放檢視
 solution: Experience Manager
 title: 縮放檢視
-topic: Dynamic Media
 uuid: c9113275-eec6-4014-b7ad-3ae9f2cf01d9
+feature: Dynamic Media經典，檢視器，SDK/API,Mix Media Sets
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '227'
 ht-degree: 0%
 
 ---
