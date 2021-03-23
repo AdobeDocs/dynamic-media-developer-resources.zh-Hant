@@ -1,12 +1,13 @@
 ---
-description: 影像集資料。 提供一種機制，可定義已排序的影像集，並控制動態媒體檢視器使用的屬性。
+description: 影像集資料。 提供一種機制，可定義已排序的影像集並控制Dynamic Media檢視器使用的屬性。
 solution: Experience Manager
 title: ImageSet
-topic: Dynamic Media Image Serving - Image Rendering API
+feature: Dynamic Media經典，SDK/API，影像集
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '694'
 ht-degree: 2%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 2%
 
 # 影像集{#imageset}
 
-影像集資料。 提供一種機制，可定義已排序的影像集，並控制動態媒體檢視器使用的屬性。
+影像集資料。 提供一種機制，可定義已排序的影像集並控制Dynamic Media檢視器使用的屬性。
 
 影像集由排序的、以逗號分隔的項目清單組成，每個項目由一個或多個子項目（影像ID、色票ID、媒體檔案路徑、標籤等）組成，由分號和／或冒號分隔。
 
@@ -126,4 +127,4 @@ ht-degree: 2%
 
 ## 請亦參閱 {#section-4c99c44f99074aa0a4ed90ba183bbc25}
 
-[req=imageset](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md) ，屬 [性：:RootPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md)，物 [件ID轉換](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md) ，文字字串本地化 [](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) ，影像伺服檢視器檔案
+[req=imageset](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md) ，屬 [性：:RootPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md)，物 [件ID轉換](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md) ，文字字串本 [地化](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) ，影像伺服檢視器檔案
