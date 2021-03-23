@@ -4,13 +4,14 @@ seo-description: 將中繼資料發佈至中繼資料伺服器。
 seo-title: MetadataPublishJobType
 solution: Experience Manager
 title: MetadataPublishJobType
-topic: Dynamic Media Image Production System API
 uuid: 14cbb67e-56dc-4a25-b871-740be7ea7858
+feature: Dynamic Media經典，SDK/API，中繼資料
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 9%
+source-wordcount: '80'
+ht-degree: 8%
 
 ---
 
