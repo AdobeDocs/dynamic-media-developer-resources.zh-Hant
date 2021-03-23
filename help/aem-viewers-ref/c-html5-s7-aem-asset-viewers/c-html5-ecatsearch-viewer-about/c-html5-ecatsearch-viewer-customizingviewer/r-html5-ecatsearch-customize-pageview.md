@@ -4,12 +4,13 @@ seo-description: 主視圖由目錄影像組成。 您可以滑動它以移至�
 seo-title: 頁面檢視
 solution: Experience Manager
 title: 頁面檢視
-topic: Dynamic Media
 uuid: f585bf57-c66a-4213-a2af-d9625beb5bed
+feature: Dynamic Media經典，檢視器，SDK/API,eCatalog搜尋
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '412'
 ht-degree: 4%
 
 ---
