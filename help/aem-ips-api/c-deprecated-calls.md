@@ -1,12 +1,13 @@
 ---
 title: 不建議使用的呼叫
-description: 不再用於動態媒體的影像製作系統API呼叫及其相關參數。
+description: 不再用於Dynamic Media的影像製作系統API呼叫及其相關參數。
 solution: Experience Manager
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 ## 不建議使用的呼叫{#topic-654c0466e6434fe4a95953322255b08c}
 
-不再用於動態媒體的影像製作系統API呼叫及其相關參數。
+不再用於Dynamic Media的影像製作系統API呼叫及其相關參數。
 
 * `addMediaPortalEvent` -已從操作中淘汰。此呼叫可讓您將媒體入口事件新增至IPS。
 * `getMediaPortalEvent` -已從操作中淘汰。此呼叫可讓您取得符合指定條件的媒體入口網站事件。
