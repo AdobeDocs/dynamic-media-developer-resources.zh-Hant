@@ -4,12 +4,13 @@ seo-description: 視訊影像檢視器的JavaScript API參考。
 seo-title: InteractiveImage
 solution: Experience Manager
 title: InteractiveImage
-topic: Dynamic Media
 uuid: 19bd0603-3180-4913-b5a0-93699c5131bc
+feature: Dynamic Media經典，檢視器，SDK/API，互動式影像
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '189'
 ht-degree: 3%
 
 ---
