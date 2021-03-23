@@ -2,11 +2,12 @@
 description: 所有日誌檔案都寫入到與TC目錄指定的同一日誌資料夾中。
 solution: Experience Manager
 title: 伺服器記錄
-topic: Dynamic Media Image Serving - Image Rendering API
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '178'
 ht-degree: 1%
 
 ---
@@ -22,7 +23,7 @@ ht-degree: 1%
 
 平台伺服器和映像伺服器建立以下描述的三種類型的日誌檔案。
 
-其他影像伺服元件和某些其他動態媒體封裝（例如動態媒體檢視器）也可能會在相同資料夾中建立記錄檔。 這些記錄檔是供動態媒體內部使用，且可能由動態媒體技術支援提出要求，以排除故障。
+其他影像伺服元件和某些其他Dynamic Media封裝(例如Dynamic Media檢視器)也可能會在相同的資料夾中建立記錄檔。 這些日誌檔案供Dynamic Media內部使用，Dynamic Media技術支援可能會要求這些日誌檔案用於故障排除。
 
 * [存取記錄](c-access-log.md)
 * [跟蹤日誌](c-trace-log.md)
