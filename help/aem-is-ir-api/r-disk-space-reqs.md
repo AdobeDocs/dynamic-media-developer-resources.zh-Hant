@@ -2,11 +2,12 @@
 description: '除了安裝軟體所需的空間外，映像服務還有以下磁碟空間要求 '
 solution: Experience Manager
 title: 磁碟空間要求和建議
-topic: Dynamic Media Image Serving - Image Rendering API
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '512'
 ht-degree: 0%
 
 ---
@@ -55,7 +56,7 @@ ht-degree: 0%
 
 ## 源映像{#section-317da75099ad480d9a461c7e706d4f1c}的磁碟空間要求
 
-建議使用「影像轉換器」命令列工具(IC)，將所有來源影像轉換為金字塔TIFF檔案格式(PTIFF)。 此轉換可確保所有應用程式的影像伺服最佳執行時期效能。 雖然影像伺服器可處理IC所接受的所有來源檔案格式，但動態媒體不支援這類用途。
+建議使用「影像轉換器」命令列工具(IC)，將所有來源影像轉換為金字塔TIFF檔案格式(PTIFF)。 此轉換可確保所有應用程式的影像伺服最佳執行時期效能。 雖然影像伺服器可處理IC所接受的所有原始檔案格式，但Dynamic Media不提供此類用途的支援。
 
 使用PTIFF檔案時，下列經驗法則可協助您判斷空間需求。
 
