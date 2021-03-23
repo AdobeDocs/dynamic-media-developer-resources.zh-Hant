@@ -4,13 +4,14 @@ seo-description: 設定各種公司特定的組態值。
 seo-title: setCompanySettings
 solution: Experience Manager
 title: setCompanySettings
-topic: Dynamic Media Image Production System API
 uuid: 5908082f-6743-4444-ba73-757ad4664890
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 12%
+source-wordcount: '164'
+ht-degree: 11%
 
 ---
 
@@ -40,7 +41,7 @@ ht-degree: 12%
 | `*`defaultSourceProfileHandle`*` | `xsd:string` | 否 | IccProfile資產，用作預設來源色彩描述檔。 |
 | `*`defaultDisplayProfileHandle`*` | `xsd:string` | 否 | IccProfile資產，用作預設顯示色彩描述檔。 |
 | `*`iptcExifMappingXsltHandle`*` | `xsd:string` | 否 | 用於將IPTC和EXIF中繼資料對應至IPS中繼資料欄位的XSL資產。 |
-| `*`xmpMappingXsltHandle`*` | `xsd:string` | 否 | 用於將XMP中繼資料對應至IPS中繼資料欄位的XSL資產。 |
+| `*`xmpMappingXsltHandle`*` | `xsd:string` | 否 | XSL資產，用於將中繼資XMP料對應至IPS中繼資料欄位。 |
 | `*`diskSpaceWarningMin`*` | `xsd:int` | 否 | 在發送警告消息之前，可用的最小可用磁碟空間(KB)。 |
 | `*`emailTrashCleanupWarning`*` | `xsd:boolean` | 否 | 設為`true`，可在資產從垃圾筒清空時，向公司管理員傳送通知。 |
 
