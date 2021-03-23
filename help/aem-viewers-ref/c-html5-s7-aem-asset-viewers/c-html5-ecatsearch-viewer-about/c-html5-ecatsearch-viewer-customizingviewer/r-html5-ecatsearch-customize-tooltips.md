@@ -4,12 +4,13 @@ seo-description: 在案頭系統上，有些使用者介面元素（例如按鈕
 seo-title: 工具提示
 solution: Experience Manager
 title: 工具提示
-topic: Dynamic Media
 uuid: 2cbf8a22-5d0e-46e3-b6e3-29739439558b
+feature: Dynamic Media經典，檢視器，SDK/API,eCatalog搜尋
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '171'
 ht-degree: 5%
 
 ---
@@ -68,7 +69,7 @@ ht-degree: 5%
 >
 >如果工具提示樣式是從內嵌網頁自訂，所有屬性都必須包含`!IMPORTANT`規則。 如果在檢視器的CSS檔案中自訂工具提示，則不需要這個提示。
 
-範例——要設定工具提示，其中灰色邊框的圓角半徑為3px、黑色背景和白色文字以Arial書寫，大小為11像素：
+範例——要設定工具提示，其中灰色邊框的圓角半徑為3px，黑色背景和白色文字以Arial書寫，大小為11像素：
 
 ```
 .s7tooltip { 
