@@ -4,13 +4,14 @@ seo-description: 使用加號顯示溢排文字框。 當文字超出在文字�
 seo-title: markOpfrowingTextFrames
 solution: Experience Manager
 title: markOpfrowingTextFrames
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 90237128-8d29-45cc-90e8-7fe46c1dae38
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 68%
+source-wordcount: '193'
+ht-degree: 65%
 
 ---
 
@@ -26,6 +27,6 @@ ht-degree: 68%
  </tr> 
 </table>
 
-透過URL呼叫設定修飾元`markOverflowingTextFrames=1`，會標示文字溢排為加號的所有文字框。 此外，在Dynamic Media Classic預覽器中，預設會將文字溢排指標設為&quot; `TRUE`&quot;。
+透過URL呼叫設定修飾元`markOverflowingTextFrames=1`，會標示文字溢排為加號的所有文字框。 此外，在Dynamic Media經典預視器中，文字溢排指示器預設為&quot; `TRUE`&quot;。
 
 預設為 0。
