@@ -2,12 +2,13 @@
 description: 熱點和影像地圖支援
 solution: Experience Manager
 title: 熱點和影像地圖支援
-topic: Dynamic Media
 uuid: 839b6a7f-4f6f-43ad-8eb8-254959c7fbac
+feature: Dynamic Media經典，檢視器，SDK/API，轉盤橫幅
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
@@ -23,8 +24,8 @@ ht-degree: 0%
 
 ## 快速查看熱點{#section-cda48fc9730142d0bb3326bac7df3271}
 
-這些熱點或影像地圖類型應使用AEM動態媒體中的「快速檢視」動作類型來編寫。 當使用者啟動此類熱點或影像地圖時，檢視器會執行`quickViewActivate` JavaScript回呼，並傳遞熱點或影像地圖資料給它。 預期內嵌網頁會監聽此回呼。 當它觸發頁面時，會開啟其自己的快速檢視實作。
+這些類型的熱點或影像映射應使用Dynamic Media的「快速查看」操作類型(即AEM)。 當使用者啟動此類熱點或影像地圖時，檢視器會執行`quickViewActivate` JavaScript回呼，並傳遞熱點或影像地圖資料給它。 預期內嵌網頁會監聽此回呼。 當它觸發頁面時，會開啟其自己的快速檢視實作。
 
 ## 重定向至外部網頁{#section-ef820c71251e4215800bb99c0c9ebe16}
 
-為AEM的「動態媒體」中的動作類型「快速檢視」所製作的熱點或影像地圖會將使用者重新導向至外部URL。 URL會在新的瀏覽器索引標籤、相同視窗或指名的瀏覽器視窗中開啟，視編寫時所做的設定而定。
+為Dynamic Media的動作類型「快速檢視」製作的熱點或影像地圖AEM，會將使用者重新導向至外部URL。 URL會在新的瀏覽器索引標籤、相同視窗或指名的瀏覽器視窗中開啟，視編寫時所做的設定而定。
