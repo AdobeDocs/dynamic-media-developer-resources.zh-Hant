@@ -4,13 +4,14 @@ seo-description: 源資料根路徑。 此映像目錄源資料的根資料夾�
 seo-title: RootPath
 solution: Experience Manager
 title: RootPath
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 859bebf2-5ee7-4daa-8970-a18bddcee684
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 3%
+source-wordcount: '139'
+ht-degree: 2%
 
 ---
 
