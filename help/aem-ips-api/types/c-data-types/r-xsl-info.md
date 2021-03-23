@@ -4,13 +4,14 @@ seo-description: XML轉換檔案資產的屬性。
 seo-title: XslInfo
 solution: Experience Manager
 title: XslInfo
-topic: Dynamic Media Image Production System API
 uuid: de0f2449-fdf7-49f7-b199-dcc0bc3decf7
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 23%
+source-wordcount: '45'
+ht-degree: 20%
 
 ---
 
