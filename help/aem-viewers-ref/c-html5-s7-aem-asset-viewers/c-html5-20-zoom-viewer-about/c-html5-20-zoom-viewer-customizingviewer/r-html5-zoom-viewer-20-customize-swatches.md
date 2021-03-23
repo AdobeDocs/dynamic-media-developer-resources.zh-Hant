@@ -1,15 +1,16 @@
 ---
-description: 色票由一列縮圖影像組成，左側和右側有選用的捲動按鈕。 如果所有縮圖都無法符合容器寬度，捲動按鈕只會顯示在案頭上。 在行動裝置上，或如果縮圖可符合容器寬度，則不會顯示捲動按鈕。
-seo-description: 色票由一列縮圖影像組成，左側和右側有選用的捲動按鈕。 如果所有縮圖都無法符合容器寬度，捲動按鈕只會顯示在案頭上。 在行動裝置上，或如果縮圖可符合容器寬度，則不會顯示捲動按鈕。
+description: 色票由一列縮圖影像組成，左側和右側有選用的捲動按鈕。 如果所有縮圖都無法符合容器寬度，則捲動按鈕只會顯示在案頭上。 在行動裝置上，或如果縮圖可符合容器寬度，則不會顯示捲動按鈕。
+seo-description: 色票由一列縮圖影像組成，左側和右側有選用的捲動按鈕。 如果所有縮圖都無法符合容器寬度，則捲動按鈕只會顯示在案頭上。 在行動裝置上，或如果縮圖可符合容器寬度，則不會顯示捲動按鈕。
 seo-title: 調色板
 solution: Experience Manager
 title: 調色板
-topic: Dynamic Media
 uuid: d44e775d-5253-4990-98a4-84ff50db09b9
+feature: Dynamic Media經典，檢視器，SDK/API，縮放
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '513'
 ht-degree: 3%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 3%
 
 # 調色板{#swatches}
 
-色票由一列縮圖影像組成，左側和右側有選用的捲動按鈕。 如果所有縮圖都無法符合容器寬度，捲動按鈕只會顯示在案頭上。 在行動裝置上，或如果縮圖可符合容器寬度，則不會顯示捲動按鈕。
+色票由一列縮圖影像組成，左側和右側有選用的捲動按鈕。 如果所有縮圖都無法符合容器寬度，則捲動按鈕只會顯示在案頭上。 在行動裝置上，或如果縮圖可符合容器寬度，則不會顯示捲動按鈕。
 
 `.s7zoomviewer .s7swatches`
 
