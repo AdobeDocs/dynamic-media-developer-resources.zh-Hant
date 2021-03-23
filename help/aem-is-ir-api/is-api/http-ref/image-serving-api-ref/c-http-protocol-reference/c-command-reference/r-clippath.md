@@ -4,12 +4,13 @@ seo-description: 圖層剪輯路徑。 指定當前圖層的剪輯路徑。
 seo-title: clipPath
 solution: Experience Manager
 title: clipPath
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: fe84cf7a-63af-47d3-ae4f-2122f2f0a262
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '564'
 ht-degree: 1%
 
 ---
@@ -44,7 +45,7 @@ ht-degree: 1%
 
 `*`PathDefinition`*` 允許在圖層像素座標中指定顯式路徑資料。
 
-如果指定了`size=`而不是0,0，則會定位層。 在這種情況下，路徑坐標相對於圖層矩形的左上角，並且圖層根據`origin=`或其預設設定進行定位。 圖層矩形外的路徑的任何區域都保持透明。
+如果指定了`size=`而不是0,0，則會定位層。 在這種情況下，路徑坐標相對於圖層矩形的左上角，並且圖層基於`origin=`或其預設設定。 圖層矩形外的路徑的任何區域都保持透明。
 
 如果未為純色或文本圖層指定`size=`，則該圖層會根據路徑的大小決定其大小，視為自行調整大小。 如果未指定`origin=`，則預設為(0,0)路徑坐標空間。 這有效地允許相對於層0的原點指定路徑坐標。
 
@@ -102,7 +103,7 @@ ht-degree: 1%
 
 大寫命令表示坐標值位於絕對像素位置（相對於圖層矩形的左上角）。 像素偏移會跟隨小寫命令，相對於當前位置。
 
-&#39;m&#39;或&#39;M&#39;一律會開啟新子路徑。 如果末尾未指定&#39;Z&#39;或&#39;z&#39;，子路徑會自動關閉（使用直線）。
+&#39;m&#39;或&#39;M&#39;一律會開始新子路徑。 如果末尾未指定&#39;Z&#39;或&#39;z&#39;，子路徑會自動關閉（使用直線）。
 
 如果子路徑以相對移動(&#39;m&#39;)開頭，則它相對於以下任一路徑：
 
