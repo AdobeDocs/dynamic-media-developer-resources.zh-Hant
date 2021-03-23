@@ -4,12 +4,13 @@ seo-description: 伺服器可配置為在超出某些效能或錯誤閾值時發
 seo-title: 伺服器監控
 solution: Experience Manager
 title: 伺服器監控
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: c4042ed9-e186-4f0f-a48b-1af3b67a2f04
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '112'
 ht-degree: 1%
 
 ---
