@@ -1,16 +1,17 @@
 ---
 description: 回轉檢視器是影像檢視器，可提供360度的影像檢視，或在使用適當的回轉集時提供多維檢視。 它提供縮放和旋轉工具、全螢幕支援，以及選購的關閉按鈕。 它可在桌上型電腦和行動裝置上運作。
-keywords: responsive
+keywords: 回應
 seo-description: 回轉檢視器是影像檢視器，可提供360度的影像檢視，或在使用適當的回轉集時提供多維檢視。 它提供縮放和旋轉工具、全螢幕支援，以及選購的關閉按鈕。 它可在桌上型電腦和行動裝置上運作。
 seo-title: Spin
 solution: Experience Manager
 title: 回轉
-topic: Dynamic Media
 uuid: 5d5cdf83-cfe8-48cd-af74-b270f7400b14
+feature: Dynamic Media經典，檢視器，SDK/API，回轉集
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '2168'
+source-wordcount: '2180'
 ht-degree: 0%
 
 ---
@@ -40,7 +41,7 @@ ht-degree: 0%
 
 設定和外觀設定與其他檢視器類似。 所有外觀設定皆可透過自訂CSS完成。
 
-請參閱所有檢視器通用的[命令參考——組態屬性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)和[所有檢視器通用的命令參考- URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
+請參閱所有檢視器通用的[命令參考——設定屬性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)和[所有檢視器通用的命令參考- URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
 ## 與回轉檢視器互動{#section-642e66ca38cd4032992840ec6c0b0cd2}
 
@@ -115,7 +116,7 @@ target="_blank">Open popup viewer</a>
 
 回應式設計內嵌假設檢視器可能需要在執行時期調整大小，以回應其容器`DIV`的大小變更。 最常見的使用案例是將檢視器新增至使用彈性頁面版面的網頁。
 
-在回應式設計內嵌模式中，檢視器的運作方式會因網頁大小的容器`DIV`而異。 如果網頁僅設定容器的寬度`DIV`，而不限制其高度，檢視器會根據所使用資產的寬高比自動選擇其高度。 此功能可確保資產完美整合至檢視中，而不會在側邊產生任何填補空間。 此使用案例是使用自適應設計版面架構（例如Bootstrap、Foundation等）的網頁最常見的使用案例。
+在回應式設計內嵌模式中，檢視器的運作方式會因網頁大小的容器`DIV`而異。 如果網頁僅設定容器的寬度`DIV`，而不限制其高度，檢視器會根據所使用資產的寬高比自動選擇其高度。 此功能可確保資產完美整合至檢視中，而不會在側邊產生任何填補空間。 此使用案例是使用自適應設計版面架構(例如Bootstrap、基礎等)的網頁最常見的使用案例。
 
 否則，如果網頁同時設定檢視器容器`DIV`的寬度和高度，檢視器只會填滿該區域，並遵循網頁版面所提供的大小。 一個很好的例子是將檢視器內嵌至模態覆蓋，其中覆蓋會根據網頁瀏覽器視窗大小而調整大小。
 
@@ -134,7 +135,7 @@ target="_blank">Open popup viewer</a>
 
    `<s7viewers_root>/html5/js/SpinViewer.js`
 
-   如果檢視器部署在其中一個Adobe Dynamic Media伺服器上，且是從相同網域提供，則可使用相對路徑。 否則，您會指定安裝IS-Viewer之一Adobe Dynamic Media伺服器的完整路徑。
+   如果檢視器部署在其中一個Adobe的Dynamic Media伺服器上，且是從相同網域提供，則可使用相對路徑。 否則，您將指定到安裝IS-Viewer的AdobeDynamic Media伺服器之一的完整路徑。
 
    相對路徑如下所示：
 
@@ -165,7 +166,7 @@ target="_blank">Open popup viewer</a>
 
    您可以設定檢視器的靜態大小，方法是以絕對單位聲明`.s7spinviewer`頂層CSS類別，或使用`stagesize`修飾元。
 
-   您可以直接在HTML頁面上或自訂檢視器CSS檔案中放入CSS大小，然後再將檔案指派給Dynamic Media Classic中的檢視器預設記錄，或使用樣式命令明確傳遞。
+   您可以直接在HTML頁面上或自訂檢視器CSS檔案中放入CSS大小，然後再將檔案指派給Dynamic Media經典中的檢視器預設集記錄，或使用樣式命令明確傳遞。
 
    如需使用CSS設定檢視器樣式的詳細資訊，請參閱[自訂回轉檢視器](../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#concept-464f3bfa55764bc09c92d8c7480b0b55)。
 
@@ -178,7 +179,7 @@ target="_blank">Open popup viewer</a>
    }
    ```
 
-   您可以在Dynamic Media Classic的檢視器預設記錄中設定`stagesize`修飾元，或以`params`系列的檢視器初始化程式碼明確傳遞，或以「命令參考」區段中所述的API呼叫傳遞，如下所示：
+   您可以在Dynamic MediaClassic的檢視器預設記錄中設定`stagesize`修飾元，或以`params`系列的檢視器初始化程式碼明確傳遞它，或以「命令參考」區段中所述的API呼叫傳遞，如下所示：
 
    ```
     spinViewer.setParam("stagesize", 
