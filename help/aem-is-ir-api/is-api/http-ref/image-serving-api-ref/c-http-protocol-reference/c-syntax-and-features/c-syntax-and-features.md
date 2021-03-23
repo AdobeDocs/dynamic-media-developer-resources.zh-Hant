@@ -4,12 +4,13 @@ seo-description: 本節主題說明HTTP通訊協定的語法和功能。
 seo-title: 語法與功能
 solution: Experience Manager
 title: 語法與功能
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 5f8df6a2-a8f9-4582-9e1e-8f26acf61df4
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
