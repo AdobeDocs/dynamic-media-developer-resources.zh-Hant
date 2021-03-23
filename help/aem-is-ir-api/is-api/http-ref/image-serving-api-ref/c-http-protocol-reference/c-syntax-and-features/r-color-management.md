@@ -2,11 +2,12 @@
 description: 「影像伺服」支援根據符合ICC（國際色彩協會）規格的色域描述檔進行色域轉換。
 solution: Experience Manager
 title: 影像伺服色彩管理
-topic: Dynamic Media Image Serving - Image Rendering API
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1195'
+source-wordcount: '1203'
 ht-degree: 0%
 
 ---
@@ -48,7 +49,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->命令`op_brightness=`、`op_colorbalance=`、`op_colorize=`、`op_contrast=`、`op_hue=`和`op_saturation=`是RGB操作。 這些操作僅在圖層顏色空間具有RGB像素類型時才會保持顏色的完整性。 如果除了RGB以外，資料會使用天真的色彩轉換來轉換為RGB，結果的色彩保真度會有限。 此類圖層的圖層色彩空間應視為不確定。
+>命令`op_brightness=`、`op_colorbalance=`、`op_colorize=`、`op_contrast=`、`op_hue=`和`op_saturation=`是RGB操作。 這些操作僅在圖層顏色空間具有RGB像素類型時才會保持顏色的完整性。 如果RGB以外的其他顏色，則使用天真的色彩轉換將資料轉換為RGB，而結果的色彩保真度會有限。 此類圖層的圖層色彩空間應視為不確定。
 
 顏色轉換選項隨`icc=`提供，如果未指定`icc=`，則提供`attribute::IccRenderIntent`、`attribute::IccBlackPointCompensation`和`attribute::IccDither`。
 
@@ -70,13 +71,13 @@ ht-degree: 0%
 
 ## 包含的ICC色彩描述檔{#section-98b4a7d9f9814e8ba27d6dcf3dcf850c}
 
-「影像伺服」在預設影像目錄中包含大多數標準的Adobe ICC設定檔。 這些描述檔可透過其常用名稱（例如Photoshop中所示）或較短的識別碼來存取。 下表列出所有標準ICC配置檔案。 當使用`icc=`命令中的公用名稱引用配置檔案時，空格必須編碼為`%20`。
+「影像伺服」在預設影像目錄中包含最標準的AdobeICC描述檔。 這些描述檔可透過其共同名稱(例如，如Photoshop所示)或較短的識別碼來存取。 下表列出所有標準ICC配置檔案。 當使用`icc=`命令中的公用名稱引用配置檔案時，空格必須編碼為`%20`。
 
 其他描述檔可新增至標準描述檔，可新增至預設目錄或特定影像目錄。 有關詳細資訊，請參閱[ICC配置式映射參考](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/c-icc-profile-map-reference.md#concept-57b9148ce55249cd825cb7ee19ed057c)。
 
 >[!NOTE]
 >
->下表僅適用於&#x200B;*動態媒體混合*（在`dynamicmedia`運行模式下運行）。
+>下表僅適用於&#x200B;*Dynamic MediaHybrid*（在`dynamicmedia`運行模式下運行）。
 
 |標識符|公用名稱|檔案名|
 |— |— |— |
@@ -104,8 +105,8 @@ ht-degree: 0%
 |`JapanColorWebCoated`|Japan Color 2003 Web Corated|JapanColor2003WebCobated.icc|
 |`JapanWebCoated`|Japan Web Cobated(Ad)|JapanWebCobated.icc|
 |`NewsprintSNAP2007`|US Newsperint(SNAP 2007)|USNewsprintSNAP2007.icc|
-|`PS4Default`|Photoshop 4 Default CMYK|Photoshop4DefaultCMYK.icc|
-|`PS5Default`|Photoshop 5 Default CMYK|Photoshop5DefaultCMYK.icc|
+|`PS4Default`|Photoshop4預設CMYK|Photoshop4DefaultCMYK.icc|
+|`PS5Default`|Photoshop5預設CMYK|Photoshop5DefaultCMYK.icc|
 |`SheetfedCoated`|美國Sheetfed Covated v2|USSheetfedCovated.icc|
 |`SheetfedUncoated`|USSheetfed Uncoved v2|USSheetfedUncoved.icc|
 |`UncoatedFogra29`|未塗覆的FOGRA29(ISO 12647-2:2004)|UncopatedFOGRA29.icc|
@@ -115,7 +116,7 @@ ht-degree: 0%
 |`WebCoatedGrade5`|Web Cobated SWOP 2006 5級紙|WebCobatedSWOP2006Grade5.icc|
 |`WebUncoated`|USWeb Uncovated v2|USWebUncoved.icc|
 
-下表適用於&#x200B;*Dynamic Media Classic Image Serving*&#x200B;和&#x200B;*Dynamic Media*（在`dynamicmedia_scene7`運行模式下運行）。
+下表適用於&#x200B;*Dynamic Media經典映像服務*&#x200B;和&#x200B;*Dynamic Media*（在`dynamicmedia_scene7`運行模式下運行）。
 
 |標識符|公用名稱|檔案名|
 |— |— |— |
@@ -142,8 +143,8 @@ ht-degree: 0%
 |`JapanColorUncoated`|Japan Color 2001 Uncovated|JapanColor2001Uncovated.icc|
 |`Japan Color 2003 Web Coated`|Japan Color 2003 Web Corated|JapanColor2003WebCobated.icc|
 |`JapanWebCoated`|Japan Web Cobated(Ad)|JapanWebCobated.icc|
-|`PS4Default`|Photoshop 4 Default CMYK|Photoshop4DefaultCMYK.icc|
-|`PS5Default`|Photoshop 5 Default CMYK|Photoshop5DefaultCMYK.icc|
+|`PS4Default`|Photoshop4預設CMYK|Photoshop4DefaultCMYK.icc|
+|`PS5Default`|Photoshop5預設CMYK|Photoshop5DefaultCMYK.icc|
 |`SheetfedCoated`|美國Sheetfed Covated v2|USSheetfedCovated.icc|
 |`SheetfedUncoated`|美國Sheetfed Uncoved v2|USSheetfedUncoved.icc|
 |`UncoatedFogra29`|未塗覆的FOGRA29(ISO 12647-2:2004)|UncopatedFOGRA29.icc|
@@ -156,4 +157,4 @@ ht-degree: 0%
 
 ## 另請參閱 {#section-39159397e80b4efca5f631eab8b9aa06}
 
-[國際色彩協會](http://www.color.org/index.xalter), [](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-icc.md#reference-182b5679e21e4df3b4d330535a5a7517),  [Embed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e)，屬性：Icc Profile [](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilecmyk.md#reference-db89f9dac33e447cadb359ec1ba27ee0) [](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilesrcgray.md#reference-a717831da24d43f680d01393660f12f9) [](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccrenderintent.md#reference-012f207f28bd4406a5368d23ed95a51f) [](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccblackpointcompensation.md#reference-357626375ee140d1807f0c05171c733f) [](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccdither.md#reference-914d0d0567364246b4016d45c0ada85b) [](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/c-icc-profile-map-reference.md#concept-57b9148ce55249cd825cb7ee19ed057c) [](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md) [](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88), Icc屬性：ProfileIcc*ProfileIcc屬性：Icc屬性：IccIcc屬性RenderAttribute Attribute:BlackIccBlackIccBedPointCompant，屬性Ic Diter Dithter Attributer: Iter Diter Iter Iter:ICC,ICC,ICC,ICC,ICC,ICC,ICC,ICC,ICC,ICC,ICC,ICC,ICC,ICC,ICC,ICC,ICC,ICC,ICC,CCCCCC,C,C,CC,C,C,C,C,C,C,C,C,C,C,C,C,C,CR,C,C,CR,CR,CR,CR,CO,CO,CR,CR,CRA,CRA,CR,CR,CR,  [ *`color`*](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md)
+[國際色彩協會](http://www.color.org/index.xalter), [](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-icc.md#reference-182b5679e21e4df3b4d330535a5a7517),  [Embed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e)，屬性：Icc Profile [](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilecmyk.md#reference-db89f9dac33e447cadb359ec1ba27ee0) [](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilesrcgray.md#reference-a717831da24d43f680d01393660f12f9) [](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccrenderintent.md#reference-012f207f28bd4406a5368d23ed95a51f) [](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccblackpointcompensation.md#reference-357626375ee140d1807f0c05171c733f) [](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccdither.md#reference-914d0d0567364246b4016d45c0ada85b) [](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/c-icc-profile-map-reference.md#concept-57b9148ce55249cd825cb7ee19ed057c) [](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md) [](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88), Icc屬性：ProfileIcc*ProfileIcc屬性：Icc屬性：IccIcc屬性RenderAttribute Attribute:BlackIccBlackIccBedPointCompant，屬性Ic Diter Dithter Iter Ater Atter:ICC,ICC,ICC,ICC,ICC,ICC,ICC,ICC,ICC,ICC,ICC,ICC,ICC,ICC,ICC,ICC,ICC,ICC,ICC,CCCCCC,C,C,CC,C,C,C,C,C,C,C,C,C,C,C,C,C,CR,C,C,CR,CR,CR,CR,CO,CO,CR,CR,CRA,CRA,CR,CR,CR,  [ *`color`*](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md)
