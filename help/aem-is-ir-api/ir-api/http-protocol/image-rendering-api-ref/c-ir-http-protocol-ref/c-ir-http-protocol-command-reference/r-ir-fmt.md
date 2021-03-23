@@ -4,12 +4,13 @@ seo-description: 回覆影像格式。 指定傳送至用戶端的影像資料�
 seo-title: fmt
 solution: Experience Manager
 title: fmt
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 7c589119-d1b3-460f-acbd-5e8d10d0d976
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '611'
 ht-degree: 4%
 
 ---
@@ -55,12 +56,12 @@ ht-degree: 4%
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
   <td class="stentry"> <p>swf </p> </td> 
-  <td class="stentry"> <p>內嵌在Macromedia swf檔案中的有損JPEG。 </p> </td> 
+  <td class="stentry"> <p>內嵌在Macromediaswf檔案中的有損JPEG。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
   <td class="stentry"> <p>swf-alpha </p> </td> 
-  <td class="stentry"> <p>有損JPEG和內嵌在Macromedia swf檔案中的壓縮縮放遮色片。 </p> </td> 
+  <td class="stentry"> <p>有損JPEG和嵌入在Macromediaswf檔案中的壓縮縮放遮色片。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
@@ -172,7 +173,7 @@ ht-degree: 4%
    <td colname="col1"> <p>swf,swf-alpha </p> </td> 
    <td colname="col2"> <p>rgb，灰色 </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;application&gt; </span> </p> </td> 
-   <td colname="col4"> <p>否 </p> <p>（Flash Player會忽略內嵌的ICC設定檔。） </p> </td> 
+   <td colname="col4"> <p>否 </p> <p>(該Flash Player忽略嵌入的ICC配置檔案。) </p> </td> 
    <td colname="col5"> <p> <span class="codeph"> qlt=  </span>，屬 <span class="codeph"> 性：:TrustedDomains  </span> </p> </td> 
   </tr> 
   <tr> 
