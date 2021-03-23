@@ -4,12 +4,13 @@ seo-description: 使用這些伺服器設定來配置警報閾值。
 seo-title: 警報閾值
 solution: Experience Manager
 title: 警報閾值
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 032cb396-1a03-4ba9-82d6-ed2cb06e8cf2
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
