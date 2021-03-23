@@ -1,23 +1,24 @@
 ---
-description: 檢視器會在主檢視上顯示熱點圖示，這些熱點原本是在AEM Assets的Dynamic Media —— 隨選中製作的地方。
-seo-description: 檢視器會在主檢視上顯示熱點圖示，這些熱點原本是在AEM Assets的Dynamic Media —— 隨選中製作的地方。
+description: 檢視器會在主檢視上顯示熱點圖示，這些熱點原本是在AEM AssetsDynamic Media-隨選地區製作的。
+seo-description: 檢視器會在主檢視上顯示熱點圖示，這些熱點原本是在AEM AssetsDynamic Media-隨選地區製作的。
 seo-title: 熱點
 solution: Experience Manager
 title: 熱點
-topic: Dynamic Media
 uuid: 79c4d128-e24a-43b0-8e18-13b588eb396e
+feature: Dynamic Media經典，檢視器，SDK/API，互動式影像
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 2%
+source-wordcount: '154'
+ht-degree: 1%
 
 ---
 
 
 # 熱點{#hotspots}
 
-檢視器會在主檢視上顯示熱點圖示，這些熱點原本是在AEM Assets的Dynamic Media —— 隨選中製作的地方。
+檢視器會在主檢視上顯示熱點圖示，這些熱點原本是在AEM AssetsDynamic Media-隨選地區製作的。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
