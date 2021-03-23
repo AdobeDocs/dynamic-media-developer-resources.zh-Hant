@@ -4,12 +4,13 @@ seo-description: 連結分享工具由新增至Social分享面板的按鈕和在
 seo-title: 連結共用
 solution: Experience Manager
 title: 連結共用
-topic: Dynamic Media
 uuid: c98cb3bd-0e94-46ef-8875-662925d3c067
+feature: Dynamic Media經典，檢視器，SDK/API,360 VR視訊
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: '1433'
 ht-degree: 2%
 
 ---
