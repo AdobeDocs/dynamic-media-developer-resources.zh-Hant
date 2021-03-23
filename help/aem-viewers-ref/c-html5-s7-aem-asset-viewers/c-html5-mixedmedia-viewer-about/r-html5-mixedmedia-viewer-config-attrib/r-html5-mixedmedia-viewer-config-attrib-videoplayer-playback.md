@@ -4,12 +4,13 @@ seo-description: 混合媒體視訊檢視器的設定屬性。
 seo-title: VideoPlayer.playback
 solution: Experience Manager
 title: VideoPlayer.playback
-topic: Dynamic Media
 uuid: 7016d414-aa93-4854-8f95-24e94082b5ce
+feature: Dynamic Media經典，檢視器，SDK/API,Mix Media Sets
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '130'
 ht-degree: 3%
 
 ---
@@ -25,7 +26,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 自動——漸進</span> </p> </td> 
-   <td colname="col2"> <p> 設定檢視器使用的播放類型。 當設定<span class="codeph"> auto</span>時，檢視器會在大部分的案頭瀏覽器和所有iOS裝置上，使用HLS格式的HTML5串流視訊。 它可回溯至某些系統上的漸進式HTML5播放，例如舊版Internet Explorer和Android。 </p> <p>如果指定<span class="codeph">漸進式</span>，檢視器僅依賴HTML5播放（瀏覽器支援），並漸進式在所有系統上播放視訊。 </p> <p>如需自動和漸進式模式中播放選擇的詳細資訊，請參閱檢視器SDK使用指南。 </p> </td> 
+   <td colname="col2"> <p> 設定檢視器使用的播放類型。 當設定<span class="codeph"> auto</span>時，檢視器在大部分的案頭瀏覽器和所有iOS裝置上會使用HLS格式的HTML5串流視訊。 它可回溯至某些系統上的漸進式HTML5播放，例如舊版Internet Explorer和Android。 </p> <p>如果指定<span class="codeph">漸進式</span>，檢視器僅依賴HTML5播放（瀏覽器支援），並漸進式在所有系統上播放視訊。 </p> <p>如需自動和漸進式模式中播放選擇的詳細資訊，請參閱檢視器SDK使用指南。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
