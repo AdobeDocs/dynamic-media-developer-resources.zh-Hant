@@ -4,13 +4,14 @@ seo-description: 說明使用者所屬的不同公司。
 seo-title: 公司會員
 solution: Experience Manager
 title: 公司會員
-topic: Dynamic Media Image Production System API
 uuid: fc0ddcdd-ad1e-487c-8ef1-9c09e5dca33d
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 14%
+source-wordcount: '64'
+ht-degree: 12%
 
 ---
 
