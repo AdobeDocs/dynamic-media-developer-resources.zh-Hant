@@ -2,12 +2,13 @@
 description: 事件回呼
 solution: Experience Manager
 title: 事件回呼
-topic: Dynamic Media
 uuid: 0c4c4111-5ad7-458c-afa2-d551b5987322
+feature: Dynamic Media經典，檢視器，SDK/API,eCatalog搜尋
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
@@ -23,7 +24,7 @@ ht-degree: 0%
 
 * `initComplete` -在檢視器初始化完成並建立所有內部元件時觸發，以便使用 `getComponent()` API。回呼處理常式不會使用任何引數。
 
-* `trackEvent` -每次在檢視器內發生事件時觸發，事件追蹤系統（例如Adobe Analytics）可能會處理該事件。回呼處理常式會採用下列引數：
+* `trackEvent` -在檢視器內每次發生事件時觸發，事件追蹤系統(例如Adobe Analytics)可處理該事件。回呼處理常式會採用下列引數：
 
    * `objID {String}` 目前未使用。
    * `compClass {String}` 目前未使用。
