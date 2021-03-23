@@ -4,12 +4,13 @@ seo-description: 所有檢視器通用的參數。
 seo-title: serverUrl
 solution: Experience Manager
 title: serverUrl
-topic: Dynamic Media
 uuid: a079a223-7478-4b6a-bc99-284e3366fb30
+feature: Dynamic Media經典，檢視器，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '115'
 ht-degree: 3%
 
 ---
