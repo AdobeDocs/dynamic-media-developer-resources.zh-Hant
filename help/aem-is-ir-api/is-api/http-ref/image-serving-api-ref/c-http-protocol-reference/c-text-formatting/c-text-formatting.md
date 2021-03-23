@@ -4,12 +4,13 @@ seo-description: 「影像伺服」提供多種轉換文字的替代方式，可
 seo-title: 文字格式
 solution: Experience Manager
 title: 文字格式
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e67b6dd2-2a78-4014-9525-816d91c9e783
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '582'
 ht-degree: 6%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 6%
 
 「影像伺服」提供多種轉換文字的替代方式，可透過text=和textPs=指令存取。
 
-`textPs=` 提供與使用Adobe Photoshop和Illustrator轉譯的文字高度相似的效果。`text=` 與使用Windows Wordpad轉換的文字相容。
+`textPs=` 提供與Adobe Photoshop和Illustrator所轉譯的文字高度相似的內容。`text=` 與使用Windows Wordpad轉換的文字相容。
 
 >[!NOTE]
 >
@@ -152,7 +153,7 @@ ht-degree: 6%
 
 RTF相容字串可以手動組合，或在能夠保存RTF檔案的文本編輯器或文字處理器中格式化所需文本。 然後，RTF檔案可以在純文字檔案編輯器中開啟，並將檔案的相關原始RTF內容複製到請求URL。
 
-某些字處理器產生較大的檔案，這些檔案包括動態媒體影像服務不使用的大量前導碼。 建議在將字串傳遞到文本命令之前，先從字串中刪除未使用的RTF元素。
+某些字處理器生成較大的檔案，其中包括Dynamic Media影像服務不使用的大量前導碼。 建議在將字串傳遞到文本命令之前，先從字串中刪除未使用的RTF元素。
 
 RTF字串支援以UTF-8和ISO標準為基礎的語言編碼，以取代標準RTF字元編碼機制。 這樣，應用程式就可以向伺服器發送非英文文本，而不需具備RTF編碼知識。
 
