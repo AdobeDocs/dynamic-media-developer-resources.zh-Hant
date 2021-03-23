@@ -4,12 +4,13 @@ seo-description: 內嵌分享工具由新增至Social分享面板的按鈕和啟
 seo-title: 內嵌分享
 solution: Experience Manager
 title: 內嵌分享
-topic: Dynamic Media
 uuid: 04fec93c-68e5-442d-b3ce-2b4012ae4687
+feature: Dynamic Media經典，檢視器，SDK/API，視訊
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '2620'
+source-wordcount: '2630'
 ht-degree: 2%
 
 ---
@@ -553,7 +554,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-範例——若要將主對話方塊區域設定為300像素高度、有10像素邊界，並使用白色背景：
+範例——若要將主對話方塊區域設定為300像素高、有10像素邊界，並使用白色背景：
 
 ```
 .s7videoviewer .s7embeddialog .s7dialogviewarea { 
@@ -874,7 +875,7 @@ background-color: #ffffff;
 
 此按鈕支援`state`屬性選擇器，可用來將不同的外觀套用至不同的按鈕狀態。
 
-範例——若要將「下拉式」按鈕設為28 x 28像素，並且每個狀態都有個別的影像：
+範例——若要將「下拉式」按鈕設為28 x 28像素，並針對每個狀態提供個別影像：
 
 ```
 .s7videoviewer .s7embeddialog .s7combobox .s7comboboxbutton { 
