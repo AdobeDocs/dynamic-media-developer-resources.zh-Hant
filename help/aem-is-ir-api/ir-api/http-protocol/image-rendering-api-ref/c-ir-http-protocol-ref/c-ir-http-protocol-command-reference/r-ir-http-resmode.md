@@ -4,12 +4,13 @@ seo-description: 重新取樣模式。 選取重新取樣和／或內插演算�
 seo-title: resMode
 solution: Experience Manager
 title: resMode
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 106da74a-d7da-4998-a719-c4c69ae36f6b
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '211'
 ht-degree: 7%
 
 ---
@@ -29,7 +30,7 @@ ht-degree: 7%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="+ topic/ph pr-d/codeph codeph"> bicub  </span> </p> </td> 
-   <td colname="col2"> <p>選擇雙立方插值。 比雙線性插值耗用的CPU資源更多，但會產生更銳利的影像，而且鋸齒不自然現象也更少。 </p> </td> 
+   <td colname="col2"> <p>選擇雙立方插值。 比雙線性插值耗用的CPU資源更多，但會產生更銳利的影像，並產生較少明顯的鋸齒偽影。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="+ topic/ph pr-d/codeph codeph"> sharp2  </span> </p> </td> 
@@ -37,7 +38,7 @@ ht-degree: 7%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 比沙爾普  </span> </p> </td> 
-   <td colname="col2"> <p>選擇<span class="keyword"> Adobe Photoshop </span>預設重新取樣器，以減小在<span class="keyword"> Adobe Photoshop </span>中稱為「bicubic searre」的影像大小。 </p> </td> 
+   <td colname="col2"> <p>選擇<span class="keyword">Adobe Photoshop</span>預設重新取樣器，以減少<span class="keyword">Adobe Photoshop</span>中稱為"bicubic shear"的影像大小。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
