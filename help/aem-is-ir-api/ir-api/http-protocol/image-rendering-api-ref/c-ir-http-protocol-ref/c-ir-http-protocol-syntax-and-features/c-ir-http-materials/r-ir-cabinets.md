@@ -4,12 +4,13 @@ seo-description: 檔案櫃材料指定檔案櫃樣式檔案（.vnc檔案副檔�
 seo-title: 封包
 solution: Experience Manager
 title: 封包
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d515c613-07c5-49ef-ad6e-568a1f6c1335
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '196'
 ht-degree: 5%
 
 ---
