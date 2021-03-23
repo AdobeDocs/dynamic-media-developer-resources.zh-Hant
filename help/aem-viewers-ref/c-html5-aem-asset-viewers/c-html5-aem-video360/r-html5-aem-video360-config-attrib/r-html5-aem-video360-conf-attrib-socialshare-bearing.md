@@ -4,12 +4,13 @@ seo-description: Video360檢視器的設定屬性。
 seo-title: SocialShare.bearing
 solution: Experience Manager
 title: SocialShare.bearing
-topic: Dynamic Media
 uuid: 43217e2e-71c5-4c58-94e0-c6ed38e25a5b
+feature: Dynamic Media經典，檢視器，SDK/API,360 VR視訊
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '199'
 ht-degree: 2%
 
 ---
