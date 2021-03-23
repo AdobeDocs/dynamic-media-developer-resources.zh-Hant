@@ -4,12 +4,13 @@ seo-description: $var$參考可能發生在巢狀「影像伺服」或「影像�
 seo-title: 巢狀請求中的變數處理
 solution: Experience Manager
 title: 巢狀請求中的變數處理
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 2f3fefac-d45e-4c53-854f-1fe16d0cedd9
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
