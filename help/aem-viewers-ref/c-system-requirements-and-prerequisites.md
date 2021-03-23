@@ -1,27 +1,28 @@
 ---
-title: 動態媒體HTML5檢視器的系統需求
-description: 動態媒體HTML5檢視器的系統需求。
+title: Dynamic MediaHTML5檢視器的系統需求
+description: Dynamic MediaHTML5檢視器的系統需求。
 solution: Experience Manager
-topic: Dynamic Media
 contentOwner: Rick Brough
+feature: Dynamic Media經典，檢視器，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: da9f05a51ff8abd88f16024bccd1c7170a36d40f
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
 
 
-# 動態媒體HTML5檢視器系統需求{#system-requirements}
+# Dynamic MediaHTML5檢視器系統需求{#system-requirements}
 
-動態媒體HTML5檢視器的系統需求。
+Dynamic MediaHTML5檢視器的系統需求。
 
 <!-- Updated January 13, 2021 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
 
 ## 伺服器硬體和軟體{#section-05099146f1f0418988c196635110bee6}
 
-* Dynamic Media Classic Image Serving 6.7.1或更新版本。
+* Dynamic MediaClassic Image Serving 6.7.1或更新版本。
 * HTML5檢視器需要SDK JavaScript伺服器端程式庫3.10.2或更新版本。
 * 「以電子郵件傳送朋友」社交功能需要s7ondemand 5.0.9或更新版本。
 * eCatalog檢視器——資訊面板支援需要資訊伺服器2.1.8或更新版本。
@@ -44,7 +45,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->自2018年9月30日起，Adobe Dynamic Media Classic檢視器即將停止支援傳輸層安全性1.0(TLS 1.0)。 因此，Dynamic Media Classic不再支援下列支援TLS 1.0的瀏覽器和／或平台的檢視器。 （Adobe Systems建議使用TLS 1.2或更新版本。）
+>自2018年9月30日起，AdobeDynamic Media經典版檢視器即將停止支援傳輸層安全性1.0(TLS 1.0)。 因此，Dynamic Media經典版不再支援下列支援TLS 1.0的瀏覽器和／或平台的檢視器。 (Adobe Systems建議使用TLS 1.2或更新版本)。
 
 * Android 2.3.7
 * Android 4.0.4
@@ -64,4 +65,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->FLASH檢視器生命週期結束— 自2017年1月31日起，Adobe Scene7 Publishing System正式終止對Flash檢視器平台的支援。
+>Flash觀眾生命週期結束— 自2017年1月31日起，Adobe Scene7出版系統正式終止對Flash檢視器平台的支援。
