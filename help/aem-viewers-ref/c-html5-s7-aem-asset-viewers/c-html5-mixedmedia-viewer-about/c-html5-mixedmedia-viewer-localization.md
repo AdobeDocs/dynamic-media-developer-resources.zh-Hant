@@ -4,12 +4,13 @@ seo-description: 混合媒體檢視器顯示的某些內容可能會受本地化
 seo-title: 使用者介面元素的本地化
 solution: Experience Manager
 title: 使用者介面元素的本地化
-topic: Dynamic Media
 uuid: 4da776f4-e370-444b-b31c-6b032483861d
+feature: Dynamic Media經典，檢視器，SDK/API,Mix Media Sets
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '525'
 ht-degree: 0%
 
 ---
