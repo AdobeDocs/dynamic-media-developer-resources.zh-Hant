@@ -4,13 +4,14 @@ seo-description: 移除選取資產的權限。
 seo-title: removeAssetPermissions
 solution: Experience Manager
 title: removeAssetPermissions
-topic: Dynamic Media Image Production System API
 uuid: 5a351862-f412-4d89-90b7-9e70a26eacbc
+feature: Dynamic Media經典，SDK/API，資產管理
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 16%
+source-wordcount: '83'
+ht-degree: 14%
 
 ---
 
