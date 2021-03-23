@@ -4,12 +4,13 @@ seo-description: 控制列是矩形區域，包含並位於影片檢視器可用
 seo-title: 控制列
 solution: Experience Manager
 title: 控制列
-topic: Dynamic Media
 uuid: 5686b670-3c8c-4bef-b428-dc468f6ca05d
+feature: Dynamic Media經典，檢視器，SDK/API，視訊
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '214'
 ht-degree: 1%
 
 ---
