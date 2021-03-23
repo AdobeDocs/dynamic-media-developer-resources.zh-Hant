@@ -4,12 +4,13 @@ seo-description: 可變音量控制一開始會顯示為按鈕，讓使用者靜
 seo-title: 可變卷
 solution: Experience Manager
 title: 可變卷
-topic: Dynamic Media
 uuid: 3c3239ca-18fc-47ff-bc5d-2b50e1514e50
+feature: Dynamic Media經典，檢視器，SDK/API，互動式視訊
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '504'
 ht-degree: 2%
 
 ---
@@ -108,7 +109,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-垂直音量控制項內的音軌是由下列CSS類別選擇器控制：
+垂直音量控制項內的音軌由下列CSS類別選擇器控制：
 
 ```
 .s7interactivevideoviewer .s7mutablevolume .s7verticalvolume .s7track 
