@@ -2,11 +2,12 @@
 description: 影像服務實現了簡單的視覺水印功能。
 solution: Experience Manager
 title: 浮水印
-topic: Dynamic Media Image Serving - Image Rendering API
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '469'
 ht-degree: 1%
 
 ---
@@ -20,7 +21,7 @@ ht-degree: 1%
 
 通過將`attribute::Watermark`設定為包含水印影像或模板的有效目錄條目來啟用水印。 如果`attribute::Watermark`已在命名目錄中設定，伺服器會將浮水印新增至所有參照請求URL中目錄ID的影像請求。 如果已設定`default::Watermark`（在預設目錄中，[!DNL default.ini]），則無論水印是否參考目錄，都會套用至所有影像請求。
 
-水印不會套用至回應縮圖要求(`req=tmb`)和動態媒體檢視器的特定要求而傳回的影像。
+水印不會套用至回應縮圖要求(`req=tmb`)和Dynamic Media檢視器的特定要求而傳回的影像。
 
 ## 縮放和對齊{#section-89ef9e5926ae438abbd8e70332749b76}
 
