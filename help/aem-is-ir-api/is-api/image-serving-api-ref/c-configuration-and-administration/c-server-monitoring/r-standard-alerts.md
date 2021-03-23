@@ -4,12 +4,13 @@ seo-description: 標準警報在配置的平均間隔結束時與合併的電子
 seo-title: 標準警報
 solution: Experience Manager
 title: 標準警報
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d3294434-a44b-4742-9d77-a6945760d33c
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '249'
 ht-degree: 1%
 
 ---
@@ -48,7 +49,7 @@ ht-degree: 1%
   <tr> 
    <td> <p>錯誤率 </p> </td> 
    <td> <p>錯誤 </p> </td> 
-   <td> <p>當採樣間隔內HTTP錯誤響應的平均速率超過指定閾值時發出。 可指示配置問題、遺失影像、網站程式設計或資料庫錯誤。 </p> </td> 
+   <td> <p>當取樣間隔內HTTP錯誤回應的平均速率超過指定的臨界值時發出。 可指示配置問題、遺失影像、網站程式設計或資料庫錯誤。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p>回應時間 </p> </td> 
