@@ -4,12 +4,13 @@ seo-description: 無論sourceFile的類型如何，都可以應用以下選項�
 seo-title: 常用選項
 solution: Experience Manager
 title: 常用選項
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: fdf09873-4102-4ed6-a315-a87cba5c44c7
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '678'
 ht-degree: 0%
 
 ---
@@ -62,7 +63,7 @@ ht-degree: 0%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -usm <span class="varname"> 量半 </span> <span class="varname"> 徑閾 </span> <span class="varname"> 值  </span> </span> </p> </td> 
-  <td class="stentry"> <p>設定遮色片銳利化參數。 如果<span class="codeph"> -sharpen </span>設定為0或1，則忽略；<span class="codeph"> -sharpen </span>設為2或3時為必要項。 <span class="varname"> amount </span> 是0.0...500.0範圍內的實值， <span class="varname">  </span> radius是0.0...10.0範圍內的實值， <span class="varname"> 閾值 </span> 是0到255之間的整數。如需詳細資訊，請參閱影像伺服通訊協定參考中的<span class="codeph"> op_usm= </span>說明。 </p> </td> 
+  <td class="stentry"> <p>設定遮色片銳利化參數。 如果<span class="codeph"> -sharpen </span>設定為0或1，則忽略；<span class="codeph"> -sharpen </span>設為2或3時為必要項。 <span class="varname"> amount </span> 是0.0...500.0範圍內的實數值， <span class="varname">  </span> 半徑是0.0...10.0範圍內的實數值， <span class="varname"> 閾 </span> 值是0到255之間的整數。如需詳細資訊，請參閱影像伺服通訊協定參考中的<span class="codeph"> op_usm= </span>說明。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -validateproduction  <span class="varname"> ival  </span> </span> </p> </td> 
