@@ -2,12 +2,13 @@
 description: TimeStamp
 solution: Experience Manager
 title: TimeStamp
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 3148cc25-3b9a-499a-b0da-1ebe9ae99f69
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '198'
 ht-degree: 2%
 
 ---
@@ -29,7 +30,7 @@ ht-degree: 2%
 
 *`hh`* 在0 - 23範圍內。
 
-*`zzz`* 是3或4個字元的時區代碼，例如「GMT」或「PST」。在時區代碼中考慮夏令時。 例如，「太平洋標準時間」為「PST」，而「太平洋日光節約時間」為「PDT」)。
+*`zzz`* 是3或4個字元的時區代碼，例如「GMT」或「PST」。在時區代碼中說明日光節約時間。 例如，「太平洋標準時間」為「PST」，而「太平洋日光節約時間」為「PDT」)。
 
 *`offset`* 是時區相對於GMT的時區偏 `hours:minutes`移（以小時為單位）。例如，&#39;PDT&#39;等同於&#39;GMT -7&#39;。
 
