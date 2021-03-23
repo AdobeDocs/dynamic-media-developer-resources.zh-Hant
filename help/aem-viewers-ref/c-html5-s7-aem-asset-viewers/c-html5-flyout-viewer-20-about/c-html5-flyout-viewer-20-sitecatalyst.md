@@ -1,15 +1,16 @@
 ---
-description: Flyout檢視器支援Adobe Analytics立即追蹤。
-seo-description: Flyout檢視器支援Adobe Analytics立即追蹤。
+description: 彈出檢視器支援Adobe Analytics立即追蹤。
+seo-description: 彈出檢視器支援Adobe Analytics立即追蹤。
 seo-title: 支援Adobe Analytics追蹤
 solution: Experience Manager
 title: 支援Adobe Analytics追蹤
-topic: Dynamic Media
 uuid: 204857d3-744a-4c11-90db-1b18ff5ea5df
+feature: Dynamic Media經典，檢視器，SDK/API,Flyout
+role: 開發人員，商業從業人員，資料工程師，資料架構師
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '197'
 ht-degree: 2%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 2%
 
 # 支援Adobe Analytics追蹤{#support-for-adobe-analytics-tracking}
 
-Flyout檢視器支援Adobe Analytics立即追蹤。
+彈出檢視器支援Adobe Analytics立即追蹤。
 
 ## 立即可用的追蹤{#section-ba994f079d0343c8ae48adffaa3195a3}
 
@@ -67,7 +68,7 @@ var flyoutViewer = new s7viewers.FlyoutViewer({
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>資產會使用<span class="codeph"> setAsset()</span> API在檢視器中交換。 </p> </td> 
+   <td colname="col2"> <p>使用<span class="codeph"> setAsset()</span> API在檢視器中交換資產。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZOOM </span> </p> </td> 
