@@ -4,13 +4,14 @@ seo-description: 顯示打印機標籤。 指定如何顯示打印機標籤。
 seo-title: printerMark
 solution: Experience Manager
 title: printerMark
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 3e5699ce-3ccd-4f85-91dd-c40c252a758d
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 30%
+source-wordcount: '134'
+ht-degree: 28%
 
 ---
 
