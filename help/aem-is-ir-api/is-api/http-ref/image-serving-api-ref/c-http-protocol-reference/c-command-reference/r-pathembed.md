@@ -1,15 +1,16 @@
 ---
-description: 內嵌路徑資料。 指定是否應將圖層0來源影像檔案的Photoshop路徑包含在回應影像中。
-seo-description: 內嵌路徑資料。 指定是否應將圖層0來源影像檔案的Photoshop路徑包含在回應影像中。
+description: 內嵌路徑資料。 指定是否應將來自第0層源影像檔案的Photoshop路徑包括在響應影像中。
+seo-description: 內嵌路徑資料。 指定是否應將來自第0層源影像檔案的Photoshop路徑包括在響應影像中。
 seo-title: pathEmbed
 solution: Experience Manager
 title: pathEmbed
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 93e63c7c-c091-4bb1-baff-45706fd611ea
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '173'
 ht-degree: 2%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 2%
 
 # pathEmbed{#pathembed}
 
-內嵌路徑資料。 指定是否應將圖層0來源影像檔案的Photoshop路徑包含在回應影像中。
+內嵌路徑資料。 指定是否應將來自第0層源影像檔案的Photoshop路徑包括在響應影像中。
 
 `pathEmbed=0|1`
 
@@ -29,7 +30,7 @@ ht-degree: 2%
 
 ## 限制{#section-697cddb79a1542bc8457d2f4f59eec69}
 
-目前不支援將開放Photoshop路徑（不形成封閉回圈的路徑）內嵌至回應影像。
+目前不支援將開放Photoshop路徑（不形成封閉環的路徑）嵌入回應影像。
 
 ## 預設 {#section-62f113ad71c04517a2741d93319a2b5d}
 
