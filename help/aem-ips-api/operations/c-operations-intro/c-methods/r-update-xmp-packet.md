@@ -1,23 +1,24 @@
 ---
-description: 設定或更新資產的XMP中繼資料封包。
-seo-description: 設定或更新資產的XMP中繼資料封包。
+description: 設定或更新XMP資產的中繼資料封包。
+seo-description: 設定或更新XMP資產的中繼資料封包。
 seo-title: updateXMPPacket
 solution: Experience Manager
 title: updateXMPPacket
-topic: Dynamic Media Image Production System API
 uuid: 97a40261-8f85-4e8c-8aa5-ed4fec297f33
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 22%
+source-wordcount: '86'
+ht-degree: 20%
 
 ---
 
 
 # updateXMPPacket{#updatexmppacket}
 
-設定或更新資產的XMP中繼資料封包。
+設定或更新XMP資產的中繼資料封包。
 
 語法
 
@@ -39,7 +40,7 @@ ht-degree: 22%
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | 是 | 公司負責人。 |
 | `*`assetHandle`*` | `xsd:string` | 是 | 資產控制代碼。 |
-| `*`compressedPacket`*` | `xsd:Base 64 binary` | 是 | [!DNL zlib-compressed] 您要設定或更新的XMP封包。 |
+| `*`compressedPacket`*` | `xsd:Base 64 binary` | 是 | [!DNL zlib-compressed] 要XMP設定或更新的資料包。 |
 
 **輸出(updateXMPPacketReturn)**
 
