@@ -4,13 +4,14 @@ seo-description: 獲取為一個或多個標籤欄位定義的所有標籤字典
 seo-title: getTagFieldValues
 solution: Experience Manager
 title: getTagFieldValues
-topic: Dynamic Media Image Production System API
 uuid: 92d84dfc-6a6c-4876-9670-1152adb6317c
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 16%
+source-wordcount: '105'
+ht-degree: 15%
 
 ---
 
