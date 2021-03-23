@@ -4,12 +4,13 @@ seo-description: 互動式視訊檢視器的設定屬性。
 seo-title: InteractiveSwatches.textpos
 solution: Experience Manager
 title: InteractiveSwatches.textpos
-topic: Dynamic Media
 uuid: 1fd27847-f00f-431f-8f4b-85817c4c3ac6
+feature: Dynamic Media經典，檢視器，SDK/API，互動式視訊
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '92'
 ht-degree: 4%
 
 ---
