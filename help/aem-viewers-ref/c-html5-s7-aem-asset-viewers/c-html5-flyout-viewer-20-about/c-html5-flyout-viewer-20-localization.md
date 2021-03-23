@@ -4,12 +4,13 @@ seo-description: Flyout檢視器顯示的某些內容可能會受到本地化的
 seo-title: 使用者介面元素的本地化
 solution: Experience Manager
 title: 使用者介面元素的本地化
-topic: Dynamic Media
 uuid: efba09ad-200b-4540-8876-c9e462ec233a
+feature: Dynamic Media經典，檢視器，SDK/API,Flyout
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
