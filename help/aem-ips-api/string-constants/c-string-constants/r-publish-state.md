@@ -4,13 +4,14 @@ seo-description: searchAssetsParam/publishState、setAssetPublishStateParam/publ
 seo-title: 發佈狀態
 solution: Experience Manager
 title: 發佈狀態
-topic: Dynamic Media Image Production System API
 uuid: cebc16ed-ffee-47a5-a9c7-6d61da07e03f
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '35'
-ht-degree: 5%
+source-wordcount: '42'
+ht-degree: 4%
 
 ---
 
