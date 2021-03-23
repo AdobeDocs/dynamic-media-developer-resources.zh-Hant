@@ -4,12 +4,13 @@ seo-description: 調整飽和度。 變更圖層或複合影像中每個可見�
 seo-title: op_saturation
 solution: Experience Manager
 title: op_saturation
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 5e987841-0c3b-4f68-96b1-fad8757f3402
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '115'
 ht-degree: 2%
 
 ---
