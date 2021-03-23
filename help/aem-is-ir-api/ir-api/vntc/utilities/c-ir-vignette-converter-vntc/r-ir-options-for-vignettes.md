@@ -4,12 +4,13 @@ seo-description: 下列選項可控制暈映檔案的處理。 如果sourceFile�
 seo-title: 暈映選項
 solution: Experience Manager
 title: 暈映選項
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0cb40314-07ce-496b-a27b-560d7bb4fa8e
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
@@ -50,7 +51,7 @@ ht-degree: 0%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> -金字塔</span> </p></td> 
-  <td class="stentry"> <p>建立金字塔暈映。 當轉換的影像要與動態媒體縮放檢視器一起顯示時，此為必要項。 如需詳細資訊，請參閱<a href="../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md#concept-e373a29c2f954df98d704c7723804585" type="concept" format="dita" scope="local">暈映縮放</a>。 </p></td> 
+  <td class="stentry"> <p>建立金字塔暈映。 當要使用Dynamic Media縮放檢視器顯示演算後的影像時，此為必要項。 如需詳細資訊，請參閱<a href="../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md#concept-e373a29c2f954df98d704c7723804585" type="concept" format="dita" scope="local">暈映縮放</a>。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">-thumbwidth  <span class="varname"> ival</span></span> </p></td> 
