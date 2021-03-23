@@ -4,12 +4,13 @@ seo-description: 播放／暫停按鈕可讓視訊播放器在使用者點按視
 seo-title: 播放／暫停按鈕
 solution: Experience Manager
 title: 播放／暫停按鈕
-topic: Dynamic Media
 uuid: b910a837-07ba-4e06-aee8-c22619ed0a92
+feature: Dynamic Media經典，檢視器，SDK/API，視訊
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '294'
 ht-degree: 2%
 
 ---
@@ -70,7 +71,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->此按鈕同時支援`state`、`selected`和`replay`屬性選擇器，可用來將不同的外觀套用至不同的按鈕狀態。 尤其`selected='true'`對應「play」狀態，`selected='false'`對應「pause」狀態；
+>此按鈕同時支援`state`、`selected`和`replay`屬性選擇器，可用來將不同的外觀套用至不同的按鈕狀態。 尤其是`selected='true'`對應「play」狀態，`selected='false'`對應「pause」狀態；
 >
 >`replay='true'` 在視訊到達結束時設定，並按一下按鈕會從開始開始重新播放。
 
