@@ -4,12 +4,13 @@ seo-description: 規則集定義檔案路徑。 指定包含此材料目錄規�
 seo-title: 規則集檔案
 solution: Experience Manager
 title: 規則集檔案
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 904fb549-053a-4f84-9cee-766df8d798e2
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '99'
 ht-degree: 4%
 
 ---
