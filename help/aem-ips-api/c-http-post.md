@@ -1,12 +1,13 @@
 ---
-description: 將資產上傳至Dynamic Media Classic需要一或多個HTTP POST請求，這些請求會設定工作以協調與上傳檔案相關的所有記錄活動。
+description: 將資產上傳至Dynamic Media經典網站，涉及一或多個HTTPPOST請求，這些請求會設定工作，以協調與上傳檔案相關的所有記錄活動。
 solution: Experience Manager
 title: 透過HTTP POST上傳資產至UploadFile Servlet
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media經典，SDK/API，資產管理
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '736'
 ht-degree: 3%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 3%
 
 # 透過HTTP POST上傳資產至UploadFile Servlet{#uploading-assets-by-way-of-http-posts-to-the-uploadfile-servlet}
 
-將資產上傳至Dynamic Media Classic需要一或多個HTTP POST請求，這些請求會設定工作以協調與上傳檔案相關的所有記錄活動。
+將資產上傳至Dynamic Media經典網站，涉及一或多個HTTPPOST請求，這些請求會設定工作，以協調與上傳檔案相關的所有記錄活動。
 
 使用下列URL存取UploadFile Servlet:
 
@@ -26,7 +27,7 @@ https://<server>/scene7/UploadFile
 >
 >上傳作業的所有POST請求都必須源自相同的IP位址。
 
-**動態媒體地區的存取URL**
+**Dynamic Media地區的存取URL**
 
 <table id="table_45BB314ABCDA49F38DF7BECF95CC984A"> 
  <thead> 
@@ -63,12 +64,12 @@ https://<server>/scene7/UploadFile
 >
 >上傳作業的所有POST請求都必須源自相同的IP位址。
 
-|  HTTP POST表單部分  |  說明  |
+|  HTTPPOST表單部分  |  說明  |
 |---|---|
 | `auth`  |   必要. XML authHeader檔案，指定驗證和用戶端資訊。 請參閱[SOAP](/help/aem-ips-api/c-wsdl-versions.md)下的&#x200B;**請求驗證**。 |
 | `file params`  |   選擇性. 您可以包含一或多個檔案，以便隨每個POST請求上傳。 如果未指定`uploadPostParams/fileName`參數，則每個檔案部分都可以在Content-Disposition標頭中包含檔案名參數，該參數將用作IPS中的目標檔案名。 |
 
-|  HTTP POST表單部分   |  uploadPostParams元素名稱   |  類型   |  說明   |
+|  HTTPPOST表單部分   |  uploadPostParams元素名稱   |  類型   |  說明   |
 |---|---|---|---|
 | `uploadParams` (必要. XML `uploadParams`檔案，指定上傳參數)   |   `companyHandle`  |  `xsd:string`  | 必要. 將檔案上傳至的公司的控制代碼。  |
 | `uploadParams` (必要. XML `uploadParams`檔案，指定上傳參數) | `jobName`  |  `xsd:string`  | 需要`jobName`或`jobHandle`。 上載作業的名稱。  |
@@ -86,9 +87,9 @@ https://<server>/scene7/UploadFile
 
 雖然您可能假設`uploadParams`參數會隨著同一工作的一部分而改變個別檔案，但情況並非如此。 對整個作業使用相同的`uploadParams`參數。
 
-對新上載作業的初始POST請求應指定`jobName`參數，優選地使用唯一作業名稱來簡化後續作業狀態輪詢和作業日誌查詢。 對相同上載作業的其他POST請求應使用從初始請求返回的`jobHandle`值指定`jobHandle`參數，而不是`jobName`。
+對新上載作業的初始POST請求應指定`jobName`參數，優選地使用唯一作業名稱來簡化後續作業狀態輪詢和作業日誌查詢。 對相同上載作業的其他POST請求應使用從初始請求返回的`jobHandle`值指定`jobHandle`參數，而非`jobName`。
 
-上傳作業的最終POST請求應將`endJob`參數設為true，以便此作業不會對未來的檔案進行POST。 接著，這可讓工作在所有POSTed檔案都收錄後立即完成。 否則，如果在30分鐘內未收到其他POST請求，則作業超時。
+上傳作業的最終POST請求應將`endJob`參數設為true，以便此作業不會對未來的檔案進行開機自檢。 接著，這可讓工作在所有POSTed檔案都收錄後立即完成。 否則，如果在30分鐘內未收到其他POST請求，則作業逾時。
 
 ## UploadPOST響應{#section-421df5cc04d44e23a464059aad86d64e}
 
@@ -104,11 +105,11 @@ https://<server>/scene7/UploadFile
     </element>
 ```
 
-傳回的`jobHandle`會傳入`uploadPostParams`/ `jobHandle`參數中，以處理相同工作的任何後續POST請求。 您也可以使用它來輪詢具有`getActiveJobs`操作的作業狀態，或使用`getJobLogDetails`操作查詢作業日誌。
+傳回的`jobHandle`會傳入`uploadPostParams`/ `jobHandle`參數，以用於相同工作的任何後續POST請求。 您也可以使用它來輪詢具有`getActiveJobs`操作的作業狀態，或使用`getJobLogDetails`操作查詢作業日誌。
 
-如果處理POST請求時出錯，響應主體由[Faults](faults/c-faults/c-faults.md#concept-28c5e495f39443ecab05384d8cf8ab6b)中所述的其中一種API故障類型組成。
+如果處理POST請求時出錯，響應主體由[Faults](faults/c-faults/c-faults.md#concept-28c5e495f39443ecab05384d8cf8ab6b)中所述的API故障類型之一組成。
 
-## POST請求示例{#section-810fe32abdb9426ba0fea488dffadd1e}
+## 範例POST請求{#section-810fe32abdb9426ba0fea488dffadd1e}
 
 ```
 POST /scene7/UploadFile HTTP/1.1 
@@ -178,7 +179,7 @@ Content-Transfer-Encoding: binary
 --O9-ba7tieRtqA4QRSaVk-eDq6658SPrYfvUcJ--
 ```
 
-## 開機自檢響應示例——成功{#section-0d515ba14c454ed0b5196ac8d1bb156e}
+## 範例POST回應——成功{#section-0d515ba14c454ed0b5196ac8d1bb156e}
 
 ```
 HTTP/1.1 200 OK 
@@ -192,7 +193,7 @@ Server: Unknown
 </uploadPostReturn>
 ```
 
-## 開機自檢響應示例——錯誤{#section-efc32bb371554982858b8690b05090ec}
+## POST響應示例——錯誤{#section-efc32bb371554982858b8690b05090ec}
 
 ```
 HTTP/1.1 200 OK 
