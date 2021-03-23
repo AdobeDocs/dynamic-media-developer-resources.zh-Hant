@@ -4,12 +4,13 @@ seo-description: 窗簾材料包括柔軟的窗簾（窗簾、窗簾、咖啡窗
 seo-title: 窗口覆蓋
 solution: Experience Manager
 title: 窗口覆蓋
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 3d74466a-b7c3-43b0-9b0b-f8bb809e2773
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '186'
 ht-degree: 3%
 
 ---
