@@ -4,12 +4,13 @@ seo-description: 調整影像不透明度。 可降低影像、文字、純色�
 seo-title: opac
 solution: Experience Manager
 title: opac
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 268279bd-d777-4afe-b175-841af7e55406
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '236'
 ht-degree: 2%
 
 ---
