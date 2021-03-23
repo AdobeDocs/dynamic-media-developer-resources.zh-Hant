@@ -4,13 +4,14 @@ seo-description: 定位以在瀏覽器中執行點按動作。
 seo-title: 影像地圖
 solution: Experience Manager
 title: 影像地圖
-topic: Dynamic Media Image Production System API
 uuid: 1a09ab27-7ee1-4162-8047-575f3f5ca8fe
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 12%
+source-wordcount: '113'
+ht-degree: 11%
 
 ---
 
