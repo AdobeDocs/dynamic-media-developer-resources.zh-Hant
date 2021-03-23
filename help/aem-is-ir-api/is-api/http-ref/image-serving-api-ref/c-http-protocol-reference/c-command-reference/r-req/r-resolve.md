@@ -4,12 +4,13 @@ seo-description: 除錯請求。 此debug命令可解析並預先處理請求、
 seo-title: 解決
 solution: Experience Manager
 title: 解決
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: bd1576a7-4802-4a87-b1c0-406f51382561
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '109'
 ht-degree: 2%
 
 ---
