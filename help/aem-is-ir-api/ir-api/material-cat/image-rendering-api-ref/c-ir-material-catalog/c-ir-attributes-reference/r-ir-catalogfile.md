@@ -4,12 +4,13 @@ seo-description: 目錄資料檔案路徑。 指定包含此目錄材料資料�
 seo-title: 目錄檔案
 solution: Experience Manager
 title: 目錄檔案
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 6c34e24e-4602-4dd6-b202-793d621a8995
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '84'
 ht-degree: 2%
 
 ---
