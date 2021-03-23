@@ -2,11 +2,12 @@
 description: 在Windows上啟動／停止Image Server和Platform Server的幾種機制
 solution: Experience Manager
 title: 在Windows上啟動或停止
-topic: Dynamic Media Image Serving - Image Rendering API
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
@@ -18,6 +19,6 @@ ht-degree: 0%
 
 1. 選擇下列任一項以啟動或停止影像伺服：
 
-* Windows服務控制面板可用於啟動、停止、重新啟動和驗證「動態媒體映像服務」服務的狀態。
-* **[!UICONTROL 開始菜單]** **[!UICONTROL >所有程式]**>  **[!UICONTROL Dynamic Media(Scene7)]**>  **[!UICONTROL Image Service]** **** > Control Control Media Image Service提供命令，以啟動、停止和重新啟動動態媒體映像服務。
+* Windows服務控制面板可用於啟動、停止、重新啟動和驗證「Dynamic Media映像服務」服務的狀態。
+* **[!UICONTROL 開始菜單]** All **[!UICONTROL >]** Dynamic Media(Scene7) **[!UICONTROL >]** Serving Serving Image **** **** > Control Services提供啟動、停止和重新啟動Dynamic Media映像服務的命令。
 
