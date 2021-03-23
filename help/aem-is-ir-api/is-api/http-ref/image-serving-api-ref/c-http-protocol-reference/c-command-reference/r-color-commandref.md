@@ -4,12 +4,13 @@ seo-description: 圖層顏色。 指定純色和效果圖層的前景色和不�
 seo-title: 色彩
 solution: Experience Manager
 title: 色彩
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 46b93609-02c0-47bf-97c0-e7b2e416d292
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '224'
 ht-degree: 3%
 
 ---
