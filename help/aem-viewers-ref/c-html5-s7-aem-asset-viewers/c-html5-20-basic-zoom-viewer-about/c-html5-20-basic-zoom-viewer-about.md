@@ -1,16 +1,17 @@
 ---
 description: 基本縮放檢視器是可顯示單一縮放影像的影像檢視器。 它提供縮放工具、全螢幕支援和選購的關閉按鈕。 此檢視器是最輕量型的。 它可在桌上型電腦和行動裝置上運作。
-keywords: responsive
+keywords: 回應
 seo-description: 基本縮放檢視器是可顯示單一縮放影像的影像檢視器。 它提供縮放工具、全螢幕支援和選購的關閉按鈕。 此檢視器是最輕量型的。 它可在桌上型電腦和行動裝置上運作。
 seo-title: 基本縮放
 solution: Experience Manager
 title: 基本縮放
-topic: Dynamic Media
 uuid: 5466d647-af70-4503-9898-bb712ba6a007
+feature: Dynamic Media經典，檢視器，SDK/API，縮放
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '2076'
+source-wordcount: '2087'
 ht-degree: 0%
 
 ---
@@ -40,7 +41,7 @@ ht-degree: 0%
 
 設定和外觀設定與其他檢視器類似。 所有外觀設定都是透過自訂CSS來完成。
 
-請參閱所有檢視器通用的[命令參考——組態屬性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)和[所有檢視器通用的命令參考- URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
+請參閱所有檢視器通用的[命令參考——設定屬性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)和[所有檢視器通用的命令參考- URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
 ## 與基本縮放檢視器互動{#section-642e66ca38cd4032992840ec6c0b0cd2}
 
@@ -113,7 +114,7 @@ ht-degree: 0%
 
 回應式設計內嵌假設檢視器可能需要在執行時期調整大小，以回應其容器`DIV`的大小變更。 最常見的使用案例是將檢視器新增至使用彈性頁面版面的網頁。
 
-在回應式設計內嵌模式中，檢視器的運作方式會因網頁大小的容器`DIV`而異。 如果網頁僅設定容器的寬度`DIV`，而不限制其高度，檢視器會根據所使用資產的寬高比自動選擇其高度。 此功能可確保資產完美整合至檢視中，而不會在側邊產生任何填補空間。 此使用案例是使用自適應網頁設計版面架構（例如引導、基礎等）的網頁最常見的使用案例。
+在回應式設計內嵌模式中，檢視器的運作方式會因網頁大小的容器`DIV`而異。 如果網頁僅設定容器的寬度`DIV`，而不限制其高度，檢視器會根據所使用資產的寬高比自動選擇其高度。 此功能可確保資產完美整合至檢視中，而不會在側邊產生任何填補空間。 此使用案例是使用互動式網頁設計版面架構(例如Bootstrap、基礎等)的網頁最常見的使用案例。
 
 否則，如果網頁同時設定檢視器容器`DIV`的寬度和高度，檢視器只會填滿該區域，並遵循網頁版面所提供的大小。 一個很好的例子是將檢視器內嵌至模態覆蓋，其中覆蓋會根據網頁瀏覽器視窗大小而調整大小。
 
@@ -132,7 +133,7 @@ ht-degree: 0%
 
 [!DNL <s7viewers_root>/html5/js/BasicZoomViewer.js]
 
-如果檢視器部署在其中一個Adobe Dynamic Media Classic伺服器上，且是從相同網域提供，則可使用相對路徑。 否則，您會指定安裝IS-Viewer之一的Adobe Dynamic Media Classic伺服器的完整路徑。
+如果檢視器部署在其中一個Adobe的Dynamic Media經典伺服器上，且是從相同網域提供，則可使用相對路徑。 否則，您將指定到安裝IS-Viewer的AdobeDynamic Media經典伺服器之一的完整路徑。
 
 相對路徑如下所示：
 
@@ -163,7 +164,7 @@ ht-degree: 0%
 
    您可以設定檢視器的靜態大小，方法是以絕對單位聲明`.s7basiczoomviewer`頂層CSS類別，或使用`stagesize`修飾元。
 
-   您可以直接在HTML頁面上或自訂檢視器CSS檔案中放入CSS大小，然後再將檔案指派給Dynamic Media Classic中的檢視器預設記錄，或使用樣式命令明確傳遞。
+   您可以直接在HTML頁面上或自訂檢視器CSS檔案中放入CSS大小，然後再將檔案指派給Dynamic Media經典中的檢視器預設集記錄，或使用樣式命令明確傳遞。
 
    如需使用CSS設定檢視器樣式的詳細資訊，請參閱[自訂基本縮放檢視器](../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-customizingviewer/c-html5-20-basic-zoom-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0)。
 
@@ -176,7 +177,7 @@ ht-degree: 0%
    }
    ```
 
-   您可以在Dynamic Media Classic的檢視器預設記錄中設定`stagesize`修飾元，或以`params`系列的檢視器初始化程式碼明確傳遞，或以「命令參考」區段中所述的API呼叫傳遞，如下所示：
+   您可以在Dynamic MediaClassic的檢視器預設記錄中設定`stagesize`修飾元，或以`params`系列的檢視器初始化程式碼明確傳遞它，或以「命令參考」區段中所述的API呼叫傳遞，如下所示：
 
    ```
    basicZoomViewer.setParam("stagesize", "640,480");
@@ -186,7 +187,7 @@ ht-degree: 0%
 
 1. 建立和初始化檢視器。
 
-   完成上述步驟後，您將建立一個`s7viewers.BasicZoomViewer`類的實例，將所有配置資訊傳遞給其建構子，並在查看器實例上調用`init()`方法。 設定資訊會以JSON物件的形式傳遞至建構函式。 至少，此物件應具有containerId欄位，此欄位包含檢視器`container ID`的名稱，以及檢視器支援的設定參數巢狀化`params` JSON物件。 在這種情況下，`params`物件至少必須將影像伺服URL傳遞為`serverUrl`屬性，而初始資產則必須為`asset`參數。 以JSON為基礎的初始化API可讓您使用一行程式碼來建立和啟動檢視器。
+   完成上述步驟後，您將建立一個`s7viewers.BasicZoomViewer`類的實例，將所有配置資訊傳遞給其建構子，並在查看器實例上調用`init()`方法。 設定資訊會以JSON物件的形式傳遞至建構函式。 至少，此物件應具有containerId欄位，此欄位包含檢視器`container ID`的名稱，以及檢視器支援的設定參數巢狀化`params` JSON物件。 在這種情況下，`params`物件至少必須將「影像伺服URL」傳遞為`serverUrl`屬性，並將初始資產傳遞為`asset`參數。 以JSON為基礎的初始化API可讓您使用一行程式碼來建立和啟動檢視器。
 
    請務必將檢視器容器新增至DOM，如此檢視器程式碼就能依其ID找到容器元素。 有些瀏覽器會延遲建立DOM，直到網頁結束為止。 為獲得最大相容性，請在`BODY`結束標籤之前或在主體`onload()`事件上調用`init()`方法。
 
