@@ -4,13 +4,14 @@ seo-description: 建立預設檢視，以決定使用者可看見的內容。 �
 seo-title: createViewerPreset
 solution: Experience Manager
 title: createViewerPreset
-topic: Dynamic Media Image Production System API
 uuid: 4160d2b0-6147-459f-830a-43c99b8dc196
+feature: Dynamic Media經典，SDK/API，檢視器預設集
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 11%
+source-wordcount: '199'
+ht-degree: 10%
 
 ---
 
