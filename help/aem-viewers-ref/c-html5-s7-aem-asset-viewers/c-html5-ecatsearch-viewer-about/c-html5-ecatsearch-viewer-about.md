@@ -1,14 +1,15 @@
 ---
 description: eCatalog Search Viewer是一種目錄檢視器，可依跨頁或逐頁顯示電子手冊。eCatalog可讓使用者使用其他使用者介面元素或專用的縮圖模式，來瀏覽目錄。 使用者也可以放大每個頁面，以取得更詳細的資訊。
-keywords: responsive
+keywords: 回應
 solution: Experience Manager
 title: eCatalog搜尋
-topic: Dynamic Media
 uuid: f5ec33bf-e827-4709-9780-6f17096bf306
+feature: Dynamic Media經典，檢視器，SDK/API,eCatalog搜尋
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '2179'
+source-wordcount: '2191'
 ht-degree: 0%
 
 ---
@@ -38,11 +39,11 @@ eCatalog Search Viewer是一種目錄檢視器，可依跨頁或逐頁顯示電�
 
 eCatalog搜尋檢視器代表主要JavaScript檔案和一組輔助檔案（單一JavaScript包含此特定檢視器使用的所有檢視器SDK元件、資產、CSS），由檢視器在執行時期中下載
 
-您可以使用隨IS檢視器提供的可立即生產使用的HTML頁面，或內嵌模式，在快顯模式下使用eCatalog Search Viewer，在內嵌模式下，使用檔案化的API將其整合至目標網頁。
+您可以使用隨IS檢視器提供的可立即生產使用的HTML頁面，或在內嵌模式下，以快顯模式使用eCatalog Search Viewer，在內嵌模式下，使用檔案化的API將其整合至目標網頁。
 
 設定和外觀設定與其他檢視器類似。 所有外觀設定都是透過自訂CSS來完成。
 
-請參閱所有檢視器通用的[命令參考——組態屬性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)和[所有檢視器通用的命令參考- URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
+請參閱所有檢視器通用的[命令參考——設定屬性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)和[所有檢視器通用的命令參考- URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
 ## 與eCatalog Search Viewer互動{#section-642e66ca38cd4032992840ec6c0b0cd2}
 
@@ -123,7 +124,7 @@ eCatalog Search Viewer支援社交共用工具。這些工具是主控制列中�
 
 回應式設計內嵌假設檢視器可能需要在執行時期調整大小，以回應其容器`DIV`的大小變更。 最常見的使用案例是將檢視器新增至使用彈性頁面版面的網頁。
 
-在回應式設計內嵌模式中，檢視器的運作方式會因網頁大小的容器`DIV`而異。 如果網頁僅設定容器的寬度`DIV`，而不限制其高度，檢視器會根據所使用資產的寬高比自動選擇其高度。 此功能可確保資產完美整合至檢視中，而不會在側邊產生任何填補空間。 此使用案例是使用自適應版面架構（例如引導、基礎等）的網頁最常見的使用案例。
+在回應式設計內嵌模式中，檢視器的運作方式會因網頁大小的容器`DIV`而異。 如果網頁僅設定容器的寬度`DIV`，而不限制其高度，檢視器會根據所使用資產的寬高比自動選擇其高度。 此功能可確保資產完美整合至檢視中，而不會在側邊產生任何填補空間。 此使用案例是使用自適應版面架構(例如Bootstrap、基礎等)的網頁最常見的使用案例。
 
 否則，如果網頁同時設定檢視器容器`DIV`的寬度和高度，檢視器只會填滿該區域，並遵循網頁版面所提供的大小。 一個很好的例子是將檢視器內嵌至模態覆蓋，其中覆蓋會根據網頁瀏覽器視窗大小而調整大小。
 
@@ -142,7 +143,7 @@ eCatalog Search Viewer支援社交共用工具。這些工具是主控制列中�
 
 [!DNL <s7viewers_root>/html5/js/eCatalogSearchViewer.js]
 
-如果檢視器部署在其中一個Adobe Dynamic Media伺服器上，且是從相同網域提供，則可使用相對路徑。 否則，您會指定安裝IS-Viewer之一Adobe Dynamic Media伺服器的完整路徑。
+如果檢視器部署在其中一個Adobe的Dynamic Media伺服器上，且是從相同網域提供，則可使用相對路徑。 否則，您將指定到安裝IS-Viewer的AdobeDynamic Media伺服器之一的完整路徑。
 
 相對路徑如下所示：
 
@@ -166,7 +167,7 @@ eCatalog Search Viewer支援社交共用工具。這些工具是主控制列中�
 
    您可以設定檢視器的靜態大小，方法是以絕對單位聲明`.s7ecatalogsearchviewer`頂層CSS類別，或使用`stagesize`修飾元。
 
-   您可以直接在HTML頁面上或自訂檢視器CSS檔案中放入CSS大小，然後再將檔案指派給Dynamic Media Classic中的檢視器預設記錄，或使用樣式命令明確傳遞。
+   您可以直接在HTML頁面上或自訂檢視器CSS檔案中放入CSS大小，然後再將檔案指派給Dynamic Media經典中的檢視器預設集記錄，或使用樣式命令明確傳遞。
 
    如需使用CSS設定檢視器樣式的詳細資訊，請參閱[自訂eCatalog檢視器](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0)。
 
@@ -179,7 +180,7 @@ eCatalog Search Viewer支援社交共用工具。這些工具是主控制列中�
    }
    ```
 
-   您可以在Dynamic Media Classic的檢視器預設記錄中設定`stagesize`修飾元，或以`params`系列的檢視器初始化程式碼明確傳遞，或以「命令參考」區段中所述的API呼叫傳遞，如下所示：
+   您可以在Dynamic MediaClassic的檢視器預設記錄中設定`stagesize`修飾元，或以`params`系列的檢視器初始化程式碼明確傳遞它，或以「命令參考」區段中所述的API呼叫傳遞，如下所示：
 
    ```
    eCatalogSearchViewer.setParam("stagesize", 
@@ -188,7 +189,7 @@ eCatalog Search Viewer支援社交共用工具。這些工具是主控制列中�
 
 1. 初始化檢視器。
 
-   完成上述步驟後，您將建立一個`s7viewers.eCatalogSearchViewer`類的實例，將所有配置資訊傳遞給其建構子，並在查看器實例上調用`init()`方法。 設定資訊會以JSON物件的形式傳遞至建構函式。 此物件至少具有`containerId`欄位，此欄位包含檢視器容器ID的名稱，以及檢視器支援的設定參數巢狀化`params` JSON物件。 在這種情況下，`params`物件至少必須將影像伺服URL傳遞為`serverUrl`屬性，而初始資產則必須為`asset`參數。 以JSON為基礎的初始化API可讓您使用單行程式碼來建立和啟動檢視器。
+   完成上述步驟後，您將建立一個`s7viewers.eCatalogSearchViewer`類的實例，將所有配置資訊傳遞給其建構子，並在查看器實例上調用`init()`方法。 設定資訊會以JSON物件的形式傳遞至建構函式。 此物件至少具有`containerId`欄位，此欄位包含檢視器容器ID的名稱，以及檢視器支援的設定參數巢狀化`params` JSON物件。 在這種情況下，`params`物件至少必須將「影像伺服URL」傳遞為`serverUrl`屬性，並將初始資產傳遞為`asset`參數。 以JSON為基礎的初始化API可讓您使用單行程式碼來建立和啟動檢視器。
 
    請務必將檢視器容器新增至DOM，如此檢視器程式碼就能依其ID找到容器元素。 有些瀏覽器會延遲建立DOM，直到網頁結束為止。 但是，為了達到最大相容性，請在`BODY`標籤結束前或在主體`onload()`事件上調用`init()`方法。
 
