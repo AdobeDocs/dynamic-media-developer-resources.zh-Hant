@@ -2,13 +2,14 @@
 description: SpinView.iscommand
 solution: Experience Manager
 title: SpinView.iscommand
-topic: Dynamic Media
 uuid: 791164a1-93fa-411f-9fb8-f78efb96f16b
+feature: Dynamic Media經典，檢視器，SDK/API，回轉集
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 8%
+source-wordcount: '68'
+ht-degree: 7%
 
 ---
 
