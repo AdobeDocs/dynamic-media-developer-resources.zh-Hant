@@ -1,23 +1,24 @@
 ---
-description: 傳回包含命名Photoshop路徑的四邊形座標。
-seo-description: 傳回包含命名Photoshop路徑的四邊形座標。
+description: 傳回包含命名Photoshop路徑的四邊形坐標。
+seo-description: 傳回包含命名Photoshop路徑的四邊形坐標。
 seo-title: getPhotoshopPath
 solution: Experience Manager
 title: getPhotoshopPath
-topic: Dynamic Media Image Production System API
 uuid: e3ed4888-18db-40bc-a1db-f44a342d0293
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 17%
+source-wordcount: '104'
+ht-degree: 16%
 
 ---
 
 
 # getPhotoshopPath{#getphotoshoppath}
 
-傳回包含命名Photoshop路徑的四邊形座標。
+傳回包含命名Photoshop路徑的四邊形坐標。
 
 語法
 
