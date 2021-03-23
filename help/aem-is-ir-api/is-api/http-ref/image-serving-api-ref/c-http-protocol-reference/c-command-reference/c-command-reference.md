@@ -4,12 +4,13 @@ seo-description: 本節介紹HTTP協定命令。
 seo-title: 命令參考
 solution: Experience Manager
 title: 命令參考
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 72c4ed61-3436-4df5-b586-77808fb1903a
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '230'
 ht-degree: 10%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 10%
 
 本節介紹HTTP協定命令。
 
-**僅適用於AEM中的動態媒體**:除了使用者介面中提供的基本影像設定外， [!DNL Dynamic Media] 在AEM( [!DNL Adobe Experience Manager])中還支援許多進階的影像修改，您可在 **Image** Modifiersfield中指定。這些參數定義如下。 但是，請注意，AEM中的Dynamic Media不支援下列功能。
+**Dynamic MediaAEM**:除了使用者介面中提供的基本影像設定外，( [!DNL Dynamic Media] AEM)中還支援許多您可在「影像修改者 [!DNL Adobe Experience Manager]場」中指定的進階 **** 影像修改。這些參數定義如下。 但請注意，Dynamic Media不支援下列功能AEM。
 
 * 色彩校正指令：`icc=`和`iccEmbed=`。
 * 基本範本和文字轉換指令：`text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=`和`textPs=`。
@@ -29,11 +30,11 @@ ht-degree: 10%
 * `req=saveToFile`
 * `req=targets`
 * `template=`
-* 非核心動態媒體服務：SVG、影像轉換和網路印刷。
+* 非核心Dynamic Media服務：SVG、影像轉換和網路印刷。
 
 <!-- Adobe IS command examples website  http://sj1010010254235.corp.adobe.com/iscommands/ -->
 
-另請參閱AEM 6.5檔案中的「動態媒體[影像預設集選項](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic)」。
+另請參閱6.5文檔中的Dynamic Media[影像預設選項AEM](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic)。
 
 * [對齊](r-align.md)
 * [錨記](r-anchor.md)
