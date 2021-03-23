@@ -1,15 +1,16 @@
 ---
-description: Digimarc影像資訊。 啟用Digimarc嵌入並指定水印類型和任何相關的特定影像資料。
-seo-description: Digimarc影像資訊。 啟用Digimarc嵌入並指定水印類型和任何相關的特定影像資料。
+description: Digimarc影像資訊。 啟用Digimarc嵌入並指定水印類型和任何關聯的特定影像資料。
+seo-description: Digimarc影像資訊。 啟用Digimarc嵌入並指定水印類型和任何關聯的特定影像資料。
 seo-title: DigimarcInfo
 solution: Experience Manager
 title: DigimarcInfo
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8371880e-47df-4333-b8a6-91feaf16c409
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '256'
 ht-degree: 13%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 13%
 
 # DigimarcInfo{#digimarcinfo}
 
-Digimarc影像資訊。 啟用Digimarc嵌入並指定水印類型和任何相關的特定影像資料。
+Digimarc影像資訊。 啟用Digimarc嵌入並指定水印類型和任何關聯的特定影像資料。
 
 ## 屬性 {#section-62af219e8bac422b8541841221c9ce4f}
 
@@ -73,7 +74,7 @@ Digimarc影像資訊。 啟用Digimarc嵌入並指定水印類型和任何相關
    <td> <p>- </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>1</b> </p> </td> 
+   <td> <p><b>3</b> </p> </td> 
    <td> <p>受複製保護。 </p> </td> 
   </tr> 
   <tr> 
@@ -81,7 +82,7 @@ Digimarc影像資訊。 啟用Digimarc嵌入並指定水印類型和任何相關
    <td> <p>受限制。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>3</b> </p> </td> 
+   <td> <p><b>1</b> </p> </td> 
    <td> <p>受複製保護，受限制。 </p> </td> 
   </tr> 
   <tr> 
@@ -130,7 +131,7 @@ Digimarc影像資訊。 啟用Digimarc嵌入並指定水印類型和任何相關
    <td> <p>未使用。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>1</b> </p> </td> 
+   <td> <p><b>3</b> </p> </td> 
    <td> <p>交易 ID. </p> </td> 
    <td> <p>未使用。 </p> </td> 
   </tr> 
