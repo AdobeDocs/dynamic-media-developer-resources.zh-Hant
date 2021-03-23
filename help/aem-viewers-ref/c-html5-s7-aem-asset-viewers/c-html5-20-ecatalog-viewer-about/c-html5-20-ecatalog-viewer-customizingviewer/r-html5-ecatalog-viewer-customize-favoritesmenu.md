@@ -4,12 +4,13 @@ seo-description: 「我的最愛」功能表下拉式清單會出現在控制列
 seo-title: 我的最愛功能表
 solution: Experience Manager
 title: 我的最愛功能表
-topic: Dynamic Media
 uuid: 816e614d-8253-49a8-b57e-0b57b44db535
+feature: Dynamic Media經典，檢視器，SDK/API,eCatalog
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 0%
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-檢視器使用者介面中「我的最愛」功能表的位置和大小，由下列CSS類別選擇器控制：
+檢視器使用者介面中「我的最愛」功能表的位置和大小會由下列CSS類別選擇器控制：
 
 ```
 .s7ecatalogviewer .s7favoritesmenu
