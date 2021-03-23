@@ -2,12 +2,13 @@
 description: 搜尋功能
 solution: Experience Manager
 title: 搜尋功能
-topic: Dynamic Media
 uuid: eb8e79fa-893b-402c-a937-6d7121c95821
+feature: Dynamic Media經典，檢視器，SDK/API,eCatalog搜尋
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 # 搜尋功能{#search-feature}
 
-檢視器支援在目錄內容上進行文字搜尋。 若要使搜尋功能運作，必須將來源PDF檔案上傳至Dynamic Media Classic時，開啟目錄「擷取搜尋字詞」功能。
+檢視器支援在目錄內容上進行文字搜尋。 若要使搜尋功能運作，必須將來源PDF檔案上傳至Dynamic Media經典檔案時，開啟目錄「擷取搜尋字詞」功能。
 
 「搜尋」功能是透過在主工具列中啟動「搜尋」按鈕來觸發。 此動作會開啟包含文字輸入欄位的搜尋結果面板。 使用者可使用以空格分隔的關鍵字或使用以雙引號括住的片語來執行搜尋。
 
