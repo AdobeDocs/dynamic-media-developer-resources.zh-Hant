@@ -4,12 +4,13 @@ seo-description: 視訊播放器是在檢視器中顯示視訊內容的矩形區
 seo-title: Video360播放器
 solution: Experience Manager
 title: Video360播放器
-topic: Dynamic Media
 uuid: e78a9c22-4217-42cc-ba47-3acb4130a4fd
+feature: Dynamic Media經典，檢視器，SDK/API,360 VR視訊
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '233'
 ht-degree: 1%
 
 ---
