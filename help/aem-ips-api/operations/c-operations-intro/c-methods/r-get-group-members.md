@@ -4,13 +4,14 @@ seo-description: 取得屬於特定公司和群組的使用者。
 seo-title: getGroupMembers
 solution: Experience Manager
 title: getGroupMembers
-topic: Dynamic Media Image Production System API
 uuid: 02322b66-1c0c-4d84-a3eb-97a4fb605318
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 16%
+source-wordcount: '100'
+ht-degree: 15%
 
 ---
 
