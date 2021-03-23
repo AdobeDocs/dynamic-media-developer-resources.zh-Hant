@@ -4,13 +4,14 @@ seo-description: 資產的控點，以及將資產移至何處的控點。
 seo-title: 資產移動
 solution: Experience Manager
 title: 資產移動
-topic: Dynamic Media Image Production System API
 uuid: 71335886-efe7-4565-a088-769bcbe7abaf
+feature: Dynamic Media經典，SDK/API，資產管理
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 7%
+source-wordcount: '76'
+ht-degree: 6%
 
 ---
 
