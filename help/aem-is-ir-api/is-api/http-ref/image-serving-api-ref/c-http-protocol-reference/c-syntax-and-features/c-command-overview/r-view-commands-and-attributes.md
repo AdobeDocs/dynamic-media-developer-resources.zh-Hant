@@ -4,13 +4,14 @@ seo-description: 這些命令不論在請求中出現在何處都適用。
 seo-title: 視圖命令
 solution: Experience Manager
 title: 視圖命令
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f847a2ed-cd16-4342-9395-8f933ff2da6f
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 4%
+source-wordcount: '102'
+ht-degree: 3%
 
 ---
 
@@ -46,7 +47,7 @@ ht-degree: 4%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-scl.md#reference-b2a74e493d0d407e98fe350551ba3fcc" type="reference" format="dita" scope="local"> scl</a> </p></td> 
-  <td class="stentry"> <p>設定合成影像以查看比例因子。 </p></td> 
+  <td class="stentry"> <p>設定合成影像以檢視比例系數。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-wid.md#reference-bfeadcb67bf4485f851eb21345527e47" type="reference" format="dita" scope="local"> wid</a> </p></td> 
