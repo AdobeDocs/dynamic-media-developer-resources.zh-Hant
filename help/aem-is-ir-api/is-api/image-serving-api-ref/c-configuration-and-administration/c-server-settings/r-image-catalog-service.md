@@ -4,12 +4,13 @@ seo-description: 請為映像目錄服務使用這些伺服器設定。
 seo-title: 影像目錄服務
 solution: Experience Manager
 title: 影像目錄服務
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 601b1c30-7d51-448b-97b5-5ad9cb383975
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 0%
 
 ## CS::catalog.rootPath - Image Catalog資料夾{#section-02d107f157384b18835f884f24fea3aa}
 
-影像目錄資料夾的位置（所有[!DNL catalog.ini]檔案必須位於此位置）。 可以是絕對檔案路徑或相對於&#x200B;*[!DNL install_folder]*&#x200B;的路徑。 當檢測到新的主目錄檔案（具有[!DNL .ini]檔案尾碼）或當現有主目錄檔案的上次修改時間改變時，伺服器會持續監視該資料夾並載入或重新載入目錄。
+映像目錄資料夾的位置（所有[!DNL catalog.ini]檔案必須位於其中）。 可以是絕對檔案路徑或相對於&#x200B;*[!DNL install_folder]*&#x200B;的路徑。 當檢測到新的主目錄檔案（具有[!DNL .ini]檔案尾碼）或當現有主目錄檔案的上次修改時間改變時，伺服器會持續監視該資料夾並載入或重新載入目錄。
 
 ## CS::catalog.cacheRoot —— 目錄快取資料夾{#section-73e499c3a5974f1aa4251e70272ff503}
 
