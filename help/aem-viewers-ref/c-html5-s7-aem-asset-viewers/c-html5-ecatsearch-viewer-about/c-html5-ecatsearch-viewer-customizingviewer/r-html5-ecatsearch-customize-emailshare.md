@@ -4,12 +4,13 @@ seo-description: 電子郵件分享工具包含新增至Social分享面板的按
 seo-title: 電子郵件分享
 solution: Experience Manager
 title: 電子郵件分享
-topic: Dynamic Media
 uuid: fc60dd7b-651e-458c-9057-693ca1c0afdc
+feature: Dynamic Media經典，檢視器，SDK/API,eCatalog搜尋
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '3073'
+source-wordcount: '3084'
 ht-degree: 2%
 
 ---
@@ -287,7 +288,7 @@ background-color: #ffffff;
 
 「關閉」按鈕工具提示和對話框標題可以本地化。 如需詳細資訊，請參閱[使用者介面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)。
 
-範例——若要設定對話框標題，包含間距、24 x 17像素圖示、粗體16點標題和28 x 28像素的「關閉」按鈕，從對話框容器的頂端和右側放置兩個像素：
+範例——若要設定對話框標題，其中包含間距、24 x 17像素圖示、粗體16點標題和28 x 28像素的「關閉」按鈕，其中兩個像素位於對話框容器頂端，而兩個像素位於對話框容器右側：
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogheader { 
