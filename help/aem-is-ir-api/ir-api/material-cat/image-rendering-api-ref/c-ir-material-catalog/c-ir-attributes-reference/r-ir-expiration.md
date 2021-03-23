@@ -4,12 +4,13 @@ seo-description: 預設的用戶端快取上線時間。 提供預設的過期�
 seo-title: 過期
 solution: Experience Manager
 title: 過期
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 2b56f9ec-2b25-4e6a-aead-6dad3d2df975
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '200'
 ht-degree: 3%
 
 ---
@@ -29,4 +30,4 @@ ht-degree: 3%
 
 ## 另請參閱 {#section-ecfe21ff789c4b298344ebf7c647b7e7}
 
-[目錄：:Expiration](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-expiration-dataref.md#reference-5e93943abff54c93bf85aae3b911a3ce) ,  [Vignette::Expiration](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-expiration-vignette.md#reference-df80829da93e4c0ab3f97a1792d9c74c)
+[目錄：：過期](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-expiration-dataref.md#reference-5e93943abff54c93bf85aae3b911a3ce) ，暈 [映：：過期](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-expiration-vignette.md#reference-df80829da93e4c0ab3f97a1792d9c74c)
