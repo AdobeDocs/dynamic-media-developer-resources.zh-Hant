@@ -4,13 +4,14 @@ seo-description: 獲取所有當前活動的作業。
 seo-title: getActiveJobs
 solution: Experience Manager
 title: getActiveJobs
-topic: Dynamic Media Image Production System API
 uuid: 3231d349-b254-4dd0-804d-8beaab116b56
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 15%
+source-wordcount: '114'
+ht-degree: 14%
 
 ---
 
