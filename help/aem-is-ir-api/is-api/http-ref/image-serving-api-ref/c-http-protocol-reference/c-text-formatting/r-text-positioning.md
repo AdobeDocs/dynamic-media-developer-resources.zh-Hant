@@ -4,12 +4,13 @@ seo-description: 當套用至預先調整大小的圖層時（亦即指定size=�
 seo-title: 文字定位
 solution: Experience Manager
 title: 文字定位
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 77289c50-2f3a-4486-8274-eecfd6e5452f
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
