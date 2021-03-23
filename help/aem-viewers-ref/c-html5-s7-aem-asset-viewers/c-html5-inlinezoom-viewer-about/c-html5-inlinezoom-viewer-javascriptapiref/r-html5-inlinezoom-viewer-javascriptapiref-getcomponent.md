@@ -4,12 +4,13 @@ seo-description: 內嵌縮放檢視器的JavaScript API參考
 seo-title: getComponent
 solution: Experience Manager
 title: getComponent
-topic: Dynamic Media
 uuid: 75c01024-a734-415a-898a-f91b6bc6a580
+feature: Dynamic Media經典，檢視器，SDK/API，內嵌縮放
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '194'
 ht-degree: 1%
 
 ---
