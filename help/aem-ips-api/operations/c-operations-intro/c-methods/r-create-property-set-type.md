@@ -4,12 +4,13 @@ seo-description: 屬性集類型指定用於幫助管理屬性集的各種設定
 seo-title: createPropertySetType
 solution: Experience Manager
 title: createPropertySetType
-topic: Dynamic Media Image Production System API
 uuid: ecbaad48-d725-4f7a-a37d-5e4cde3295cb
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '179'
 ht-degree: 10%
 
 ---
