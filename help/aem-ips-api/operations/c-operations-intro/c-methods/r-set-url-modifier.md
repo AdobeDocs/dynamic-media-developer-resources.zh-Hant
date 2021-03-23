@@ -4,12 +4,13 @@ seo-description: 設定指定資產的「影像伺服」或「影像演算」通
 seo-title: setUrlModifier
 solution: Experience Manager
 title: setUrlModifier
-topic: Dynamic Media Image Production System API
 uuid: ec423e57-338b-4a32-be5a-a73fa96712ce
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '209'
 ht-degree: 6%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 6%
 
 設定指定資產的「影像伺服」或「影像演算」通訊協定命令。 這些命令可修改資產的表示法，而不會破壞資產。
 
-對於「影像伺服」,`urlModifier`參數中的命令會發佈在「修飾詞目錄」欄位中，並套用在請求URL上指定的任何命令之前。 `urlPostApplyModifier`中的命令將發佈到`PostModifier`目錄欄位，並將覆蓋請求URL或`urlModifier`中的任何命令。 對於「影像渲染」,`urlModifier`和`urlPostApplyModifier`中的命令將串連並發佈到「修飾詞目錄」欄位。
+對於「影像伺服」,`urlModifier`參數中的命令會發佈在「修飾詞目錄」欄位中，並在請求URL上指定的任何命令之前套用。 `urlPostApplyModifier`中的命令將發佈到`PostModifier`目錄欄位，並將覆蓋請求URL或`urlModifier`中的任何命令。 對於「影像渲染」,`urlModifier`和`urlPostApplyModifier`中的命令將串連並發佈到「修飾詞目錄」欄位。
 
 ## 授權用戶類型{#section-fefcd732ccf64c78956606538f96c73d}
 
