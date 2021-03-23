@@ -4,12 +4,13 @@ seo-description: 源對象指定符。 影像、SVG和ICC配置檔案對象可�
 seo-title: 物件
 solution: Experience Manager
 title: 物件
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8d25b47d-0f23-4d9a-a7e6-6e865ae4114e
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '522'
 ht-degree: 1%
 
 ---
@@ -62,7 +63,7 @@ ht-degree: 1%
 
 有關支援的檔案格式的完整清單，請參閱IC（影像轉換器）實用程式的說明。
 
-使用動態媒體金字塔TIFF(PTIF)多解析度格式時，需要多種不同解析度的影像資料的應用程式效能最佳。 IC實用程式用於從任何支援的影像格式建立PTIF影像。
+使用Dynamic Media金字塔TIFF(PTIF)多解析度格式時，需要多種不同解析度的影像資料的應用程式效能最好。 IC實用程式用於從任何支援的影像格式建立PTIF影像。
 
 ## 範例 {#section-728ca9b566b54ea1afdf8f5f0a031a57}
 
