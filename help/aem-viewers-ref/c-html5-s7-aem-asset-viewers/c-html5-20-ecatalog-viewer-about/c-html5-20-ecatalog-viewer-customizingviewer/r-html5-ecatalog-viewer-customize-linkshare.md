@@ -4,12 +4,13 @@ seo-description: 連結分享工具由新增至Social分享面板的按鈕和在
 seo-title: 連結共用
 solution: Experience Manager
 title: 連結共用
-topic: Dynamic Media
 uuid: 80ecbaca-9092-40b6-bb24-4b233356de3f
+feature: Dynamic Media經典，檢視器，SDK/API,eCatalog
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1424'
+source-wordcount: '1434'
 ht-degree: 2%
 
 ---
@@ -553,7 +554,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-範例——若要將主對話方塊區域設定為300像素高度、有10像素邊界，並使用白色背景：
+範例——若要將主對話方塊區域設定為300像素高、有10像素邊界，並使用白色背景：
 
 ```
 .s7ecatalogviewer .s7linkdialog .s7dialogviewarea { 
