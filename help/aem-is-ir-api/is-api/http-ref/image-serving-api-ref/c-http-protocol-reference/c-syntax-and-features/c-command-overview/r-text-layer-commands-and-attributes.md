@@ -4,12 +4,13 @@ seo-description: 除了常用的圖層命令外，這些命令還適用於文本
 seo-title: 文字圖層指令
 solution: Experience Manager
 title: 文字圖層指令
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 00d2643c-1a74-4542-bd72-e6dc22d402b0
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
@@ -22,7 +23,7 @@ ht-degree: 0%
 <table id="simpletable_DBCF90E140684FD19098EA810369337B"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textps.md#reference-4209a2a6169f44278da2647cfb0cd767" type="reference" format="dita" scope="local"> textPs</a> </p></td> 
-  <td class="stentry"> <p>為PhotoShop相容的文字轉譯器提供RTF格式。 </p></td> 
+  <td class="stentry"> <p>提供RTF給與Photoshop相容的文本渲染器。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textattr.md#reference-ff00484fa3244286abeff34911f7ec0d" type="reference" format="dita" scope="local"> textAttr</a> </p></td> 
