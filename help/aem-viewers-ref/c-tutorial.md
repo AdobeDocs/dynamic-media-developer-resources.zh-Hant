@@ -1,12 +1,13 @@
 ---
-description: 檢視器SDK提供一組以JavaScript為基礎的元件，以供自訂檢視器開發使用。 檢視器是網頁型應用程式，可讓Adobe Dynamic Media提供的多媒體內容內嵌在網頁中。
+description: 檢視器SDK提供一組以JavaScript為基礎的元件，以供自訂檢視器開發使用。 檢視器是網路應用程式，可讓Dynamic MediaAdobe所提供的多媒體內容內嵌在網頁中。
 solution: Experience Manager
 title: 檢視器SDK教學課程
-topic: Dynamic Media
+feature: Dynamic Media經典，檢視器，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '974'
 ht-degree: 0%
 
 ---
@@ -14,9 +15,9 @@ ht-degree: 0%
 
 # 檢視器SDK教學課程{#viewer-sdk-tutorial}
 
-檢視器SDK提供一組以JavaScript為基礎的元件，以供自訂檢視器開發使用。 檢視器是網頁型應用程式，可讓Adobe Dynamic Media提供的多媒體內容內嵌在網頁中。
+檢視器SDK提供一組以JavaScript為基礎的元件，以供自訂檢視器開發使用。 檢視器是網路應用程式，可讓Dynamic MediaAdobe所提供的多媒體內容內嵌在網頁中。
 
-例如，SDK提供互動式縮放和平移功能。 此外，它還提供360度檢視和視訊播放，以透過稱為Dynamic Media Classic的後端應用程式上傳至Adobe Dynamic Media。
+例如，SDK提供互動式縮放和平移功能。 它還提供360度檢視和視訊播放資產，這些資產已透過稱為「Dynamic Media經典」的後端應用程式上傳至AdobeDynamic Media。
 
 雖然這些元件依賴HTML5功能，但其設計可在Android和Apple iOS裝置以及桌上型電腦上運作，包括Internet Explorer和更新版本。 這種體驗意味著您可以為所有支援的平台提供單一工作流程。
 
@@ -24,7 +25,7 @@ SDK包含UI元件，可組成檢視器內容。 您可以透過CSS和具有某�
 
 本教學課程包含下列工作順序，以協助您建立基本的縮放檢視器：
 
-* [從Adobe Developer Connection下載最新的Viewer SDK](c-tutorial.md#section-84dc74c9d8e24a2380b6cf8fc28d7127)
+* [從Adobe Developer Connection下載最新的檢視器SDK](c-tutorial.md#section-84dc74c9d8e24a2380b6cf8fc28d7127)
 * [載入檢視器SDK](c-tutorial.md#section-98596c276faf4cf79ccf558a9f4432c6)
 * [新增樣式至檢視器](c-tutorial.md#section-3783125360a1425eae5a5a334867cc32)
 * [包含容器和縮放檢視](c-tutorial.md#section-1a01730663154a508b88cc40c6f35539)
@@ -32,9 +33,9 @@ SDK包含UI元件，可組成檢視器內容。 您可以透過CSS和具有某�
 * [新增按鈕至檢視器](c-tutorial.md#section-1fc334fa0d2b47eb9cdad461725c07be)
 * [垂直配置色票](c-tutorial.md#section-91a8829d5b5a4d45a35b7faeb097fcc9)
 
-## 從Adobe Developer Connection {#section-84dc74c9d8e24a2380b6cf8fc28d7127}下載最新的檢視器SDK
+## 從Adobe Developer Connection下載最新的檢視器SDK {#section-84dc74c9d8e24a2380b6cf8fc28d7127}
 
-1. 從Adobe Developer Connection [這裡](https://marketing.adobe.com/developer/devcenter/scene7/show)下載最新的檢視器SDK。
+1. 從Adobe Developer Connection[這裡](https://marketing.adobe.com/developer/devcenter/scene7/show)下載最新的檢視器SDK。
 
    >[!NOTE]
    >
@@ -389,5 +390,5 @@ SDK包含UI元件，可組成檢視器內容。 您可以透過CSS和具有某�
 
    您的基本縮放檢視器現在已完成。
 
-   本檢視器教學課程涉及Dynamic Media Viewer SDK提供的基礎知識。 當您使用SDK時，您可以使用各種標準元件，為目標受眾輕鬆建立豐富的檢視體驗並設定其樣式。
+   本檢視器教學課程涉及Dynamic Media檢視器SDK所提供的基礎。 當您使用SDK時，您可以使用各種標準元件，為目標受眾輕鬆建立豐富的檢視體驗並設定其樣式。
 
