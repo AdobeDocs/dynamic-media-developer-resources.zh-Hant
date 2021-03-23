@@ -4,12 +4,13 @@ seo-description: 以解析度為基礎的影像縮放。 將影像縮放至要�
 seo-title: res
 solution: Experience Manager
 title: res
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ab0c8329-5d40-4233-a122-8cb8ca01b500
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '342'
 ht-degree: 1%
 
 ---
@@ -36,7 +37,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->通常，合成映像在返回到客戶機之前會調整到目標視圖大小（由`wid=`、`hei=`或`attribute::DefaultPix`指定）。 為防止此調整大小並獲得具有`res=`所指定精確解析度的影像，可能需要通過顯式指定`scl=1`禁用視圖縮放。 這會指示伺服器將合成影像裁切為目標檢視大小，而非縮放影像。
+>通常，合成映像在返回到客戶機之前會調整到目標視圖大小（由`wid=`、`hei=`或`attribute::DefaultPix`指定）。 為防止調整大小並獲得具有`res=`所指定精確解析度的影像，可能需要通過顯式指定`scl=1`禁用視圖縮放。 這會指示伺服器將合成影像裁切為目標檢視大小，而非縮放影像。
 
 ## 屬性 {#section-fdbd16e59cff4952a3717146bc91412e}
 
