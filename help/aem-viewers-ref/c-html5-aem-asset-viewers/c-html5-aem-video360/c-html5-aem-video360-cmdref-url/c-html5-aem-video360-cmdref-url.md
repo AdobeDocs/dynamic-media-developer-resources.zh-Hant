@@ -4,12 +4,13 @@ seo-description: Video360檢視器的指令參考檔案。
 seo-title: 命令參考- URL
 solution: Experience Manager
 title: 命令參考- URL
-topic: Dynamic Media
 uuid: 70c212d7-35ee-408f-abe4-19ba1e4d773d
+feature: Dynamic Media經典，檢視器，SDK/API,360 VR視訊
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
@@ -33,4 +34,4 @@ Video360檢視器的指令參考檔案。
 * `Video360Player.playback` （限定元件類別名稱）
 * `cont_video360Player.playback` (以元件ID為限，假設 `cont` 是容器元素的ID)
 
-請參閱所有檢視器通用的[命令參考——組態屬性](../../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)和[所有檢視器通用的命令參考- URL](../../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
+請參閱所有檢視器通用的[命令參考——設定屬性](../../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)和[所有檢視器通用的命令參考- URL](../../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
