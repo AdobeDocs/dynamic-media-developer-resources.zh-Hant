@@ -4,12 +4,13 @@ seo-description: 為與setAssetMetadata一起使用的特定資產設定中繼�
 seo-title: 中繼資料更新
 solution: Experience Manager
 title: 中繼資料更新
-topic: Dynamic Media Image Production System API
 uuid: 09d3940b-117d-4d83-8b12-e86520c9da34
+feature: Dynamic Media經典，SDK/API，中繼資料
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '231'
 ht-degree: 4%
 
 ---
