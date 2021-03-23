@@ -4,12 +4,13 @@ seo-description: 構圖範本。 允許指定位於主目錄以外的目錄中�
 seo-title: 範本
 solution: Experience Manager
 title: 範本
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 59b37d60-1d0c-4d0b-a5a0-98d8bf9e9064
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '190'
 ht-degree: 6%
 
 ---
