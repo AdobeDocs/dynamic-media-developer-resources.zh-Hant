@@ -4,12 +4,13 @@ seo-description: RTF字串中引用的所有字型都必須在預設目錄或當
 seo-title: 字型處理
 solution: Experience Manager
 title: 字型處理
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 6a751973-5dae-472e-a908-bf24fa59d031
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '271'
 ht-degree: 1%
 
 ---
@@ -23,7 +24,7 @@ RTF字串中引用的所有字型都必須在預設目錄或當前影像目錄�
 
 在RTF字串中明確指定無時，使用`attribute::DefaultFont`指定的字型。
 
-「影像伺服」支援TrueType、OpenType、Adobe Type 1（僅限Windows）字型。
+「影像伺服」支援TrueType、OpenType、Adobe Type1（僅限Windows）字型。
 
 ## Photofont®字型支援{#section-74560ae898cf4708aba4c8b4093f5f00}
 
