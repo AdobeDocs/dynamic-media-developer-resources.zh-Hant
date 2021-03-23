@@ -4,13 +4,14 @@ seo-description: 視訊影像檢視器的JavaScript API參考。
 seo-title: setContainerId
 solution: Experience Manager
 title: setContainerId
-topic: Dynamic Media
 uuid: f1486f82-28dd-4321-a0e5-9e5696f6bbf7
+feature: Dynamic Media經典，檢視器，SDK/API，互動式影像
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 3%
+source-wordcount: '109'
+ht-degree: 2%
 
 ---
 
