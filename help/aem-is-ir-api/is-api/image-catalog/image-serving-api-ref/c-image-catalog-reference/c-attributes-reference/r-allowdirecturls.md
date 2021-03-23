@@ -4,13 +4,14 @@ seo-description: 允許絕對URL做為影像來源。
 seo-title: AllowDirectUrl
 solution: Experience Manager
 title: AllowDirectUrl
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 91d46cc5-8ada-4bd4-b7ff-3d021f4f32ea
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 8%
+source-wordcount: '65'
+ht-degree: 7%
 
 ---
 
