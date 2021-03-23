@@ -4,12 +4,13 @@ seo-description: Flyout檢視器的主要類別為FlyoutViewer。 會在s7viewer
 seo-title: 彈出檢視器的JavaScript API參考
 solution: Experience Manager
 title: 彈出檢視器的JavaScript API參考
-topic: Dynamic Media
 uuid: 45621805-8aa5-4ced-a36a-ebecb2a606a0
+feature: Dynamic Media經典，檢視器，SDK/API,Flyout
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '149'
 ht-degree: 0%
 
 ---
