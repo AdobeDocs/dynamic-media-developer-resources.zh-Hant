@@ -4,13 +4,14 @@ seo-description: 為與資產相關聯的發佈上下文設定一組新的發佈
 seo-title: AssetContextStateUpdate
 solution: Experience Manager
 title: AssetContextStateUpdate
-topic: Dynamic Media Image Production System API
 uuid: 74bc693f-1ce9-4dcf-92f5-1177668ea3ef
+feature: Dynamic Media經典，SDK/API，資產管理
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 5%
+source-wordcount: '87'
+ht-degree: 4%
 
 ---
 
