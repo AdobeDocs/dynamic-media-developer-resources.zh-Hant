@@ -1,15 +1,16 @@
 ---
-description: 使用動態媒體影像服務之前，請確定您的系統符合系統需求。
-seo-description: 使用動態媒體影像服務之前，請確定您的系統符合系統需求。
+description: 在使用Dynamic Media影像服務之前，請確保您的系統滿足系統要求。
+seo-description: 在使用Dynamic Media影像服務之前，請確保您的系統滿足系統要求。
 seo-title: 系統需求和先決條件
 solution: Experience Manager
 title: 系統需求和先決條件
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 80196574-f5a2-4298-880a-cc36f90b6e21
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '423'
 ht-degree: 1%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 1%
 
 # 系統要求和先決條件{#system-requirements-and-prerequisites}
 
-使用動態媒體影像服務之前，請確定您的系統符合系統需求。
+在使用Dynamic Media影像服務之前，請確保您的系統滿足系統要求。
 
 ## 伺服器硬體{#section-f3c14a7bc1b745118602659628df779f}
 
@@ -25,7 +26,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->配備AMD64和英特爾® EM64T處理器的系統通常配置為NUMA（非統一記憶體體系結構）平台。 這意味著內核在引導時構建多個記憶體節點，而不是構建單個記憶體節點。 該多節點結構可導致在其它節點耗盡之前在一個或多個節點上耗盡儲存器。 當記憶體耗盡時，內核可以決定中止進程（例如，映像伺服器或平台伺服器），即使有可用記憶體。 因此，Adobe Systems建議，如果您正在運行此類系統，請關閉NUMA。 使用`numa=off`啟動選項可避免內核停止這些進程。
+>配備AMD64和英特爾® EM64T處理器的系統通常配置為NUMA（非統一記憶體體系結構）平台。 這意味著內核在引導時構建多個記憶體節點，而不是構建單個記憶體節點。 該多節點結構可導致在其它節點耗盡之前在一個或多個節點上耗盡儲存器。 當記憶體耗盡時，內核可以決定中止進程（例如，映像伺服器或平台伺服器），即使有可用記憶體。 因此，Adobe Systems建議，如果運行這樣的系統，請關閉NUMA。 使用`numa=off`啟動選項可避免內核停止這些進程。
 
 **Windows**
 
@@ -57,7 +58,7 @@ ht-degree: 1%
 
 ## 伺服器軟體{#section-5c9aad2e6b8a4bca989e17a2c8476fc4}
 
-Dynamic Media Image Serving需要下列伺服器軟體。
+Dynamic Media映像服務需要以下伺服器軟體。
 
 **Windows**
 
