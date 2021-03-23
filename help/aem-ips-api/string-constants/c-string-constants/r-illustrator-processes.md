@@ -1,23 +1,24 @@
 ---
-description: Illustrator/流程使用。
-seo-description: Illustrator/流程使用。
-seo-title: Illustrator流程
+description: 由Illustrator/流程使用。
+seo-description: 由Illustrator/流程使用。
+seo-title: Illustrator進程
 solution: Experience Manager
-title: Illustrator流程
-topic: Dynamic Media Image Production System API
+title: Illustrator進程
 uuid: 77524dce-25f5-4b01-a729-605a93544fbb
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '20'
-ht-degree: 10%
+source-wordcount: '27'
+ht-degree: 7%
 
 ---
 
 
-# Illustrator Processes{#illustrator-processes}
+# Illustrator進程{#illustrator-processes}
 
-Illustrator/流程使用。
+由Illustrator/流程使用。
 
 語法
 
