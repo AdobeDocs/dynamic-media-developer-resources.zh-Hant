@@ -1,15 +1,16 @@
 ---
-description: 本檔案討論伺服器管理問題，並說明動態媒體影像演算的組態設定。
-seo-description: 本檔案討論伺服器管理問題，並說明動態媒體影像演算的組態設定。
+description: 本檔案討論伺服器管理問題，並說明Dynamic Media影像演算的組態設定。
+seo-description: 本檔案討論伺服器管理問題，並說明Dynamic Media影像演算的組態設定。
 seo-title: 伺服器管理序言
 solution: Experience Manager
 title: 伺服器管理序言
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 182782f1-44a8-421d-bacc-f08dcf95f58b
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '194'
 ht-degree: 1%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 1%
 
 # 伺服器管理序{#server-administration-preface}
 
-本檔案討論伺服器管理問題，並說明動態媒體影像演算的組態設定。
+本檔案討論伺服器管理問題，並說明Dynamic Media影像演算的組態設定。
 
 **目標讀者**
 
-本檔案適用於需要安裝、設定和管理動態媒體影像演算的系統管理員和網頁主管。
+本檔案適用於需要安裝、設定和管理Dynamic Media影像演算的系統管理員和網頁主管。
 
 **檔案慣例**
 
