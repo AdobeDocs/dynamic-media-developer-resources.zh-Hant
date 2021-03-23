@@ -1,15 +1,16 @@
 ---
-description: 映像服務元件由Server Supervisor管理，該伺服器Supervisor是Linux守護程式或Windows服務（S7Supervisor.exe，在「服務」控制面板中列為「動態媒體映像服務」）。
-seo-description: 映像服務元件由Server Supervisor管理，該伺服器Supervisor是Linux守護程式或Windows服務（S7Supervisor.exe，在「服務」控制面板中列為「動態媒體映像服務」）。
+description: 映像服務元件由伺服器監視程式管理，該伺服器監視程式是Linux守護程式或Windows服務(S7Supervisor.exe，在「服務」控制面板中列為「Dynamic Media映像服務」)。
+seo-description: 映像服務元件由伺服器監視程式管理，該伺服器監視程式是Linux守護程式或Windows服務(S7Supervisor.exe，在「服務」控制面板中列為「Dynamic Media映像服務」)。
 seo-title: 伺服器主管
 solution: Experience Manager
 title: 伺服器主管
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 6ac38d90-00ed-4d49-84f0-2e77e7a86d47
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # 伺服器主管{#server-supervisor}
 
-映像服務元件由Server Supervisor管理，該伺服器Supervisor是Linux守護程式或Windows服務（S7Supervisor.exe，在「服務」控制面板中列為「動態媒體映像服務」）。
+映像服務元件由伺服器監視程式管理，該伺服器監視程式是Linux守護程式或Windows服務(S7Supervisor.exe，在「服務」控制面板中列為「Dynamic Media映像服務」)。
 
 除了啟動和停止其他映像服務元件外，伺服器主管還負責確保這些元件的運行狀況。 如果元件發生崩潰，則會自動重新啟動它，以最大限度地減少任何服務中斷。
 
