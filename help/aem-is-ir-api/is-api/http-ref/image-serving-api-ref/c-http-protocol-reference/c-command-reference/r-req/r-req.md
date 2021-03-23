@@ -4,13 +4,14 @@ seo-description: 請求類型. 指定請求的類型。
 seo-title: requin
 solution: Experience Manager
 title: requin
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b888be10-89e5-4b41-a2bd-f83533ea2481
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 16%
+source-wordcount: '107'
+ht-degree: 14%
 
 ---
 
