@@ -4,12 +4,13 @@ seo-description: 通過將層原點（原點=）與背景層原點對準在pos=�
 seo-title: 圖層放置
 solution: Experience Manager
 title: 圖層放置
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d9d778f2-13dd-4ea1-a703-52eac70bb3d8
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
