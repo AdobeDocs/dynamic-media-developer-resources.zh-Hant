@@ -4,12 +4,13 @@ seo-description: SvgRender元件是獨立的Java應用程式。
 seo-title: 設定SVG
 solution: Experience Manager
 title: 設定SVG
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f6e131af-283e-4649-b349-123489c0838d
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '83'
 ht-degree: 2%
 
 ---
