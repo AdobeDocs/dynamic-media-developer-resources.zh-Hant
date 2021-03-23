@@ -4,12 +4,13 @@ seo-description: 遮色片銳利化。 如果layer=comp，在進行所有縮放�
 seo-title: op_usmR
 solution: Experience Manager
 title: op_usmR
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 98afd83c-097e-40b4-b0a6-647f70b95fae
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '166'
 ht-degree: 3%
 
 ---
