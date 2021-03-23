@@ -1,15 +1,16 @@
 ---
-description: 本節說明動態媒體影像轉換HTTP通訊協定的基本語法。
-seo-description: 本節說明動態媒體影像轉換HTTP通訊協定的基本語法。
+description: 本節介紹Dynamic Media影像渲染HTTP協定的基本語法。
+seo-description: 本節介紹Dynamic Media影像渲染HTTP協定的基本語法。
 seo-title: 影像轉換HTTP通訊協定基本語法
 solution: Experience Manager
 title: 影像轉換HTTP通訊協定基本語法
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e01314f0-6aaa-41ca-8c05-d5db3148a071
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '251'
 ht-degree: 3%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 3%
 
 # 影像轉換HTTP通訊協定基本語法{#image-rendering-http-protocol-basic-syntax}
 
-本節說明動態媒體影像轉換HTTP通訊協定的基本語法。
+本節介紹Dynamic Media影像渲染HTTP協定的基本語法。
 
 <table id="table_0A7D7207EE6D4B08B62BE8620EBE0B25"> 
  <thead> 
