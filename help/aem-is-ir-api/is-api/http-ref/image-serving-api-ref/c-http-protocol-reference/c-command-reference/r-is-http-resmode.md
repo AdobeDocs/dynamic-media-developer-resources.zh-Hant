@@ -4,13 +4,14 @@ seo-description: 重新取樣模式。 選擇重新取樣和／或插值算法�
 seo-title: resMode
 solution: Experience Manager
 title: resMode
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8e12aa06-072c-4e7a-84e6-01437c43c57b
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 12%
+source-wordcount: '258'
+ht-degree: 11%
 
 ---
 
@@ -37,7 +38,7 @@ ht-degree: 12%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 比沙爾普  </span> </p> </td> 
-   <td colname="col2"> <p>選擇Photoshop預設重新取樣器，以減少Adobe Photoshop中稱為「雙立方體銳利化」的影像大小。 </p> </td> 
+   <td colname="col2"> <p>選擇Photoshop預設的重採樣器以減小在Adobe Photoshop稱為「雙立方體銳利化」的影像大小。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
