@@ -4,13 +4,14 @@ seo-description: 要從資產刪除的中繼資料陣列。
 seo-title: 中繼資料DeleteArray
 solution: Experience Manager
 title: 中繼資料DeleteArray
-topic: Dynamic Media Image Production System API
 uuid: 02bf3cb4-1643-4b97-9353-abb5001b1aa2
+feature: Dynamic Media經典，SDK/API，中繼資料
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 13%
+source-wordcount: '51'
+ht-degree: 11%
 
 ---
 
