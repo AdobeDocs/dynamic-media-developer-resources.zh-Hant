@@ -2,11 +2,12 @@
 description: 所有配置檔案都位於install_folder/conf中，大多數文本編輯器都可編輯。 伺服器可能需要重新啟動才能使更改生效。
 solution: Experience Manager
 title: 伺服器配置檔案
-topic: Dynamic Media Image Serving - Image Rendering API
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '154'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->大多數伺服器配置檔案包含本文檔中未說明的其他屬性和值。 這些屬性僅供內部伺服器使用，除非Dynamic Media技術支援特別指示，否則不得修改。
+>大多數伺服器配置檔案包含本文檔中未說明的其他屬性和值。 這些屬性僅供內部伺服器使用，除非Dynamic Media技術支援部門特別指示，否則不得修改。
 
 本文檔討論以下配置檔案的設定：
 
