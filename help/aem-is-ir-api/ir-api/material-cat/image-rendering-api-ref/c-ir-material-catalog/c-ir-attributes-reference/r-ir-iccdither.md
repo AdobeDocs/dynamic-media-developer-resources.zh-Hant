@@ -4,12 +4,13 @@ seo-description: 色彩轉換混色。 指定當未使用icc=進行明確選取�
 seo-title: IccDither
 solution: Experience Manager
 title: IccDither
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 4ebd1bf8-eed0-4ff1-b8a0-1295d503fb4e
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '111'
 ht-degree: 4%
 
 ---
