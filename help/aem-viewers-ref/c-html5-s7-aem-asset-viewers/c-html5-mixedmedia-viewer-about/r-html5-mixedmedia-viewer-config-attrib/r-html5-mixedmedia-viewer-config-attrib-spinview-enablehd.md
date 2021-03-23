@@ -2,13 +2,14 @@
 description: SpinView.enableHD
 solution: Experience Manager
 title: SpinView.enableHD
-topic: Dynamic Media
 uuid: 3e7cdb44-4366-4e84-a6c7-c1cf1f5e6344
+feature: Dynamic Media經典，檢視器，SDK/API,Mix Media Sets
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 7%
+source-wordcount: '93'
+ht-degree: 6%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> always|never|limit</span> </p> </td> 
-   <td colname="col2"> <p> 對<span class="codeph"> devicePixelRatio</span>大於<span class="codeph"> 1</span>的裝置啟用、限制或停用最佳化，即具有高密度顯示（例如iPhone4和類似裝置）的裝置。 如果處於活動狀態，則元件將限制IS影像請求的大小，就好像設備只有<span class="codeph"> 1</span>的像素比，因此減少了頻寬。 </p> </td> 
+   <td colname="col2"> <p> 對<span class="codeph"> devicePixelRatio</span>大於<span class="codeph"> 1</span>的裝置啟用、限制或停用最佳化，即具有高密度顯示（如iPhone4和類似裝置）的裝置。 如果處於活動狀態，則元件將限制IS影像請求的大小，就好像設備只有<span class="codeph"> 1</span>的像素比，因此減少了頻寬。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 數字</span></span> </p> </td> 
