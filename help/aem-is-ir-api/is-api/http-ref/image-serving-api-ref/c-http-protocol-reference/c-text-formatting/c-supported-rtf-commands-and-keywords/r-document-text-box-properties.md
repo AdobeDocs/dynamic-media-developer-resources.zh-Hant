@@ -4,12 +4,13 @@ seo-description: 文本框支援以下文檔屬性。
 seo-title: 文檔（文本框）屬性
 solution: Experience Manager
 title: 文檔（文本框）屬性
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 743a773a-83b0-4667-9c67-4cefbfe77bbd
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '230'
 ht-degree: 1%
 
 ---
@@ -46,12 +47,12 @@ ht-degree: 1%
   <tr> 
    <td> <span class="codeph"> \cmykcolortbl  </span> </td> 
    <td> <p>CMYK色彩表。 </p> </td> 
-   <td> <p>動態媒體擴充功能。 </p> </td> 
+   <td> <p>Dynamic Media分機。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \*\iscolortbl  </span> </td> 
    <td> <p>影像伺服顏色的色彩表。 </p> </td> 
-   <td> <p>動態媒體擴充；<span class="codeph"> textPs= </span> </p> </td> 
+   <td> <p>Dynamic Media分公司；<span class="codeph"> textPs= </span> </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \red  <span class="varname"> N  </span> </span> </td> 
@@ -71,22 +72,22 @@ ht-degree: 1%
   <tr> 
    <td> <span class="codeph"> \cyan  <span class="varname"> N  </span> </span> </td> 
    <td> <p>青色顏色元件。 </p> </td> 
-   <td> <p>動態媒體擴充；可能只出現在<span class="codeph"> \cmykcolortbl </span>中；0...100 </p> </td> 
+   <td> <p>Dynamic Media分公司；可能只出現在<span class="codeph"> \cmykcolortbl </span>中；0...100 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \magenta  <span class="varname"> N  </span> </span> </td> 
    <td> <p>洋紅色元件。 </p> </td> 
-   <td> <p>動態媒體擴充；可能只出現在<span class="codeph"> \cmykcolortbl </span>中；0...100 </p> </td> 
+   <td> <p>Dynamic Media分公司；可能只出現在<span class="codeph"> \cmykcolortbl </span>中；0...100 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \yellow  <span class="varname"> N  </span> </span> </td> 
    <td> <p>黃色元件。 </p> </td> 
-   <td> <p>動態媒體擴充；可能只出現在<span class="codeph"> \cmykcolortbl </span>中；0...100 </p> </td> 
+   <td> <p>Dynamic Media分公司；可能只出現在<span class="codeph"> \cmykcolortbl </span>中；0...100 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \black  <span class="varname"> N  </span> </span> </td> 
    <td> <p>黑色元件。 </p> </td> 
-   <td> <p>動態媒體擴充；可能只出現在<span class="codeph"> \cmykcolortbl </span>中；0...100 </p> </td> 
+   <td> <p>Dynamic Media分公司；可能只出現在<span class="codeph"> \cmykcolortbl </span>中；0...100 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \margl  <span class="varname"> N  </span> </span> </td> 
