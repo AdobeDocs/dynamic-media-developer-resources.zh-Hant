@@ -4,12 +4,13 @@ seo-description: 裁切影像。 指定矩形裁切區域，以像素表示，�
 seo-title: 裁切
 solution: Experience Manager
 title: 裁切
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: c8eca467-7564-48a6-82d7-17f68a1399e1
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '238'
 ht-degree: 3%
 
 ---
