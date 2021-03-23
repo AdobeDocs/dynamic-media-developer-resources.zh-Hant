@@ -1,15 +1,16 @@
 ---
-description: 視訊檢視器支援Adobe Analytics立即可用追蹤。
-seo-description: 視訊檢視器支援Adobe Analytics立即可用追蹤。
+description: 視訊檢視器支援Adobe Analytics立即追蹤。
+seo-description: 視訊檢視器支援Adobe Analytics立即追蹤。
 seo-title: 支援Adobe Analytics追蹤
 solution: Experience Manager
 title: 支援Adobe Analytics追蹤
-topic: Dynamic Media
 uuid: c53b3d3b-42e5-4c87-8a1e-87c73eb32341
+feature: Dynamic Media經典，檢視器，SDK/API，視訊
+role: 開發人員，商業從業人員，資料工程師，資料架構師
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '180'
 ht-degree: 3%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 3%
 
 # 支援Adobe Analytics追蹤{#support-for-adobe-analytics-tracking}
 
-視訊檢視器支援Adobe Analytics立即可用追蹤。
+視訊檢視器支援Adobe Analytics立即追蹤。
 
 ## 立即可用的追蹤{#section-3b101fe30be943c1b679fd5c273569ca}
 
-視訊檢視器支援Adobe Analytics立即可用追蹤。
+視訊檢視器支援Adobe Analytics立即追蹤。
 
 若要啟用追蹤，請將正確的公司預設集名稱傳遞為`config2`參數。
 
@@ -70,7 +71,7 @@ var videoViewer = new s7viewers.VideoViewer({
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>資產會使用<span class="codeph"> setAsset()</span> API在檢視器中交換。 </p> </td> 
+   <td colname="col2"> <p>使用<span class="codeph"> setAsset()</span> API在檢視器中交換資產。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PLAY </span> </p> </td> 
