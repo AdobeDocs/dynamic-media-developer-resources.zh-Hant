@@ -4,13 +4,14 @@ seo-description: 傳回影像格式，例如PDF、EPS、SWF等。
 seo-title: getImageFormats
 solution: Experience Manager
 title: getImageFormats
-topic: Dynamic Media Image Production System API
 uuid: 0adf989d-9c72-4337-99c0-de6931943e78
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 17%
+source-wordcount: '92'
+ht-degree: 16%
 
 ---
 
