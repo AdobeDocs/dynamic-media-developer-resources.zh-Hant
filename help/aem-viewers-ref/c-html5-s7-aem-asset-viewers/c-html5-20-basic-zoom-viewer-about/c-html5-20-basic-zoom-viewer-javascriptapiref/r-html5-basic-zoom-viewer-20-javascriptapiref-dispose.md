@@ -4,12 +4,13 @@ seo-description: 基本縮放檢視器的JavaScript API參考。
 seo-title: 處置
 solution: Experience Manager
 title: 處置
-topic: Dynamic Media
 uuid: 6c1af089-37f0-4e1f-9e62-68a70df1a0f0
+feature: Dynamic Media經典，檢視器，SDK/API，縮放
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '144'
 ht-degree: 2%
 
 ---
