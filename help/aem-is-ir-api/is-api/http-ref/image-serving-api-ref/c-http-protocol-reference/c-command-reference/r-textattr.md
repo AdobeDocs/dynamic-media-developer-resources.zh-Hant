@@ -4,12 +4,13 @@ seo-description: 文字圖層屬性。 為無法作為rtf命令使用的文本�
 seo-title: textAttr
 solution: Experience Manager
 title: textAttr
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 07b3d263-2ed6-4363-83e1-3b841e9967c5
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '472'
 ht-degree: 1%
 
 ---
@@ -40,15 +41,15 @@ ht-degree: 1%
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> 清脆  </span> </p> </td> 
-      <td class="stentry"> <p>選擇「Photoshop消除鋸齒模式<span class="codeph">清晰</span>」（僅限<span class="codeph"> textPs= </span>）。 </p> </td> 
+      <td class="stentry"> <p>選擇「Photoshop消除鋸齒模式」 <span class="codeph">清晰</span>（僅<span class="codeph"> textPs= </span>）。 </p> </td> 
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> 銳利  </span> </p> </td> 
-      <td class="stentry"> <p>選擇「Photoshop消除鋸齒模式<span class="codeph">銳利</span>」（僅限<span class="codeph"> textPs= </span>）。 </p> </td> 
+      <td class="stentry"> <p>選擇「Photoshop消除鋸齒模式」 <span class="codeph"> sharp </span>（僅<span class="codeph"> textPs= </span>）。 </p> </td> 
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> 強 </span> </p> </td> 
-      <td class="stentry"> <p>選擇「Photoshop消除鋸齒模式<span class="codeph"> strong </span>」（僅限<span class="codeph"> textPs= </span>）。 </p> </td> 
+      <td class="stentry"> <p>選擇「Photoshop消除鋸齒模式」 <span class="codeph"> strong </span>(<span class="codeph"> textPs= </span>)。 </p> </td> 
      </tr> 
     </table> </p> </td> 
  </tr> 
