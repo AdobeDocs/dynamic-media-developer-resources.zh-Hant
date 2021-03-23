@@ -4,13 +4,14 @@ seo-description: 遮色影像的一部分。 遮色片始終與影像相關聯�
 seo-title: 遮色片
 solution: Experience Manager
 title: 遮色片
-topic: Dynamic Media Image Production System API
 uuid: 06ac0f76-13ce-434b-ac60-6a2af9648f92
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 11%
+source-wordcount: '96'
+ht-degree: 10%
 
 ---
 
