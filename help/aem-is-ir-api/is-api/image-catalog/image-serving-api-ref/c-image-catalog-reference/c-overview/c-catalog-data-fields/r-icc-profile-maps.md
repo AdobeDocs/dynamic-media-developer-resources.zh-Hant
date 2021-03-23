@@ -4,12 +4,13 @@ seo-description: 在ICC色彩描述檔對應檔案中可辨識下列欄位。
 seo-title: ICC描述檔地圖
 solution: Experience Manager
 title: ICC描述檔地圖
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b244c95a-3198-4d6c-836f-f199022348b4
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '54'
+source-wordcount: '62'
 ht-degree: 0%
 
 ---
