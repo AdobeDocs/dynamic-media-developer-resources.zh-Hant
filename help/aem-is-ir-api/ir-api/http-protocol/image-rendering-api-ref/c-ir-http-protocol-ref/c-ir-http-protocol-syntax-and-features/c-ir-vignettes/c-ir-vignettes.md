@@ -1,12 +1,13 @@
 ---
-description: 暈映是使用「動態媒體影像製作」製作的影像，以搭配「影像演算」使用。
+description: 暈映是使用Dynamic Media影像製作工具製作的影像，以搭配影像演算使用。
 solution: Experience Manager
 title: 暈映
-topic: Dynamic Media Image Serving - Image Rendering API
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '635'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 # 暈映{#vignettes}
 
-暈映是使用「動態媒體影像製作」製作的影像，以搭配「影像演算」使用。
+暈映是使用Dynamic Media影像製作工具製作的影像，以搭配影像演算使用。
 
 IR支援兩種基本的暈映類型：*2D*&#x200B;和&#x200B;*3D*。 房間場景通常是3D暈映，可以呈現反射效果，而大部分其他場景（例如服裝或室內裝飾）通常是2D暈映，而且沒有反射演算功能。
 
