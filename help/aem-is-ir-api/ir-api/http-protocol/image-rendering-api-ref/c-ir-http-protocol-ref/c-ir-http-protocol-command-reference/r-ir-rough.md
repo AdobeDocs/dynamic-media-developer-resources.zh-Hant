@@ -4,12 +4,13 @@ seo-description: 材料表面粗糙度。 指定材料曲面的相對粗糙度�
 seo-title: 粗糙
 solution: Experience Manager
 title: 粗糙
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d3b4ece1-cc2a-4012-ad81-2f313d3a370b
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '194'
 ht-degree: 2%
 
 ---
