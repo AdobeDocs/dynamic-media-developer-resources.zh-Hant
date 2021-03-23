@@ -4,12 +4,13 @@ seo-description: 支援四種類型的圖層。
 seo-title: 圖層類型
 solution: Experience Manager
 title: 圖層類型
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d88b2163-7c9f-4885-9722-be3339e7127a
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '293'
 ht-degree: 0%
 
 ---
@@ -33,4 +34,4 @@ ht-degree: 0%
 
 ## 效果圖層{#section-dd3b628bc6734077af4c0ddcebcee05f}
 
-IS會使用特殊的子圖層來建置Photoshop樣式的圖層效果，例如陰影和發光效果，這些子圖層可附加至影像、文字和純色圖層。 這些效果圖層繼承父圖層遮色片和父圖層的位置，而且功能有限。
+Photoshop風格的圖層特效，例如陰影和發光效果，由IS使用特殊的子圖層來實作，子圖層可附加在影像、文字和純色圖層上。 這些效果圖層繼承父圖層遮色片和父圖層的位置，而且功能有限。
