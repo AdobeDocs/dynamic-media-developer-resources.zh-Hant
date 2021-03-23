@@ -1,15 +1,16 @@
 ---
-description: 升級動態媒體影像服務時，請執行此程式。
-seo-description: 升級動態媒體影像服務時，請執行此程式。
+description: 升級Dynamic Media映像服務時，請使用此過程。
+seo-description: 升級Dynamic Media映像服務時，請使用此過程。
 seo-title: 從IS 4.7.4或更新版本更新
 solution: Experience Manager
 title: 從IS 4.7.4或更新版本更新
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 3d23f13a-a9be-45ff-9765-c71bdeb77c5f
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # 從IS 4.7.4或更新版本{#updating-from-is-or-later}更新
 
-升級動態媒體影像服務時，請執行此程式。
+升級Dynamic Media映像服務時，請使用此過程。
 
 如果您是從舊版影像伺服升級，請聯絡支援以取得正確的程式。
 
