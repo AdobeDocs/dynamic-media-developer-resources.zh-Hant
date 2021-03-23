@@ -4,13 +4,14 @@ seo-description: 物件解析度。 全尺寸影像的物件解析度。
 seo-title: 解析度
 solution: Experience Manager
 title: 解析度
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: caa199c8-d216-47b0-9eb6-fdff7124087c
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 9%
+source-wordcount: '90'
+ht-degree: 8%
 
 ---
 
