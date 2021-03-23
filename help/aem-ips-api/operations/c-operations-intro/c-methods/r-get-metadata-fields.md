@@ -4,13 +4,14 @@ seo-description: 取得與資產相關聯的使用者定義中繼資料欄位。
 seo-title: getMetadataFields
 solution: Experience Manager
 title: getMetadataFields
-topic: Dynamic Media Image Production System API
 uuid: bf891bae-53c8-4e3d-90df-caca9a7e022b
+feature: Dynamic Media經典，SDK/API，中繼資料
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 14%
+source-wordcount: '113'
+ht-degree: 13%
 
 ---
 
