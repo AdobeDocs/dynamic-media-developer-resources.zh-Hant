@@ -4,12 +4,13 @@ seo-description: 漸進式JPEG掃描。 漸進式JPEG顯示影像的方式，使
 seo-title: pscan
 solution: Experience Manager
 title: pscan
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: c8e1d7a9-679c-437f-aa53-67aca3f40b30
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '278'
 ht-degree: 1%
 
 ---
@@ -23,7 +24,7 @@ ht-degree: 1%
 
 每個掃描的實際速度取決於用戶系統和接收和解壓縮資料的電腦的傳輸速度。
 
-`Auto` 使用由獨立JPEG庫計算的掃描設定，並取決於顏色模型。當您將JPEG檔案儲存為pjpeg（漸進式JPEG）時，`3`、`4`、`5`的值會與Adobe Photoshop中的「掃描」設定相對應。
+`Auto` 使用由獨立JPEG庫計算的掃描設定，並取決於顏色模型。當您將JPEG檔案儲存為pjpeg（漸進式JPEG）時，`3`、`4`、`5`的值會對應於在Adobe Photoshop找到的「掃描」設定。
 
 如果未設定`pscan`，則預設為`auto`。
 
