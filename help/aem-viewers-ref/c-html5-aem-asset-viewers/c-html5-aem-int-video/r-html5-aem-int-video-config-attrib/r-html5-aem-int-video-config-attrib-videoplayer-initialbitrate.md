@@ -4,12 +4,13 @@ seo-description: 互動式視訊檢視器的設定屬性。
 seo-title: VideoPlayer.initialbitrate
 solution: Experience Manager
 title: VideoPlayer.initialbitrate
-topic: Dynamic Media
 uuid: 251ab7d2-a0b5-4658-a2b8-6b39dd93dd5b
+feature: Dynamic Media經典，檢視器，SDK/API，互動式視訊
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '128'
 ht-degree: 3%
 
 ---
@@ -25,7 +26,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 值</span> </p> </td> 
-   <td colname="col2"> <p> 設定用於在桌上型電腦上初始播放視訊的視訊位元速率（以每秒k位元或kbps為單位）。 </p> <p>如果此位元速率值不存在於最適化視訊集中，視訊播放器會從具有下一個較低位元速率的視訊開始。 </p> <p>如果設為<span class="codeph"> 0</span>，則視訊播放器會從最低位元速率開始。 </p> <p>僅適用於不支援HTML5 HLS視訊的系統（例如Windows 10上的Firefox、Chrome和Internet Explorer 11瀏覽器），以及當播放模式設為「自動」時。 </p> </td> 
+   <td colname="col2"> <p> 設定用於在桌上型電腦上初始播放視訊的視訊位元速率（以每秒k位元或kbps為單位）。 </p> <p>如果此位元速率值不存在於最適化視訊集中，視訊播放器會從下一個位元速率較低的視訊開始。 </p> <p>如果設為<span class="codeph"> 0</span>，則視訊播放器會從最低的位元速率開始。 </p> <p>僅適用於不支援HTML5 HLS視訊的系統（例如Windows 10上的Firefox、Chrome和Internet Explorer 11瀏覽器），以及當播放模式設為「自動」時。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
