@@ -4,12 +4,13 @@ seo-description: 目錄屬性檔案中可識別以下屬性。
 seo-title: 目錄屬性
 solution: Experience Manager
 title: 目錄屬性
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 91e1fbf8-cb0f-4509-814c-40f7bdbd74db
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '307'
 ht-degree: 3%
 
 ---
