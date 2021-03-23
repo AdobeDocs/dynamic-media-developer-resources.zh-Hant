@@ -1,23 +1,24 @@
 ---
-description: 本節說明HTTP通訊協定語法，以及動態媒體影像演算的功能。
-seo-description: 本節說明HTTP通訊協定語法，以及動態媒體影像演算的功能。
+description: 本節說明HTTP通訊協定語法，以及Dynamic Media影像演算的功能。
+seo-description: 本節說明HTTP通訊協定語法，以及Dynamic Media影像演算的功能。
 seo-title: HTTP通訊協定語法與功能
 solution: Experience Manager
 title: HTTP通訊協定語法與功能
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 5badae8e-0874-43b1-b019-bd7445e6c2ce
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 1%
+source-wordcount: '106'
+ht-degree: 0%
 
 ---
 
 
 # HTTP通訊協定語法和功能{#http-protocol-syntax-and-features}
 
-本節說明HTTP通訊協定語法，以及動態媒體影像演算的功能。
+本節說明HTTP通訊協定語法，以及Dynamic Media影像演算的功能。
 
 * [影像轉換HTTP通訊協定基本語法](r-ir-basic-syntax.md)
 * [影像轉換HTTP通訊協定命令概觀](c-ir-command-overview/c-ir-command-overview.md)
