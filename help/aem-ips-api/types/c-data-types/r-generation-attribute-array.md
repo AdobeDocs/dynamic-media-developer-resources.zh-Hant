@@ -4,13 +4,14 @@ seo-description: 層代屬性的陣列。
 seo-title: GenerationAttributeArray
 solution: Experience Manager
 title: GenerationAttributeArray
-topic: Dynamic Media Image Production System API
 uuid: a5d75560-4ca8-4f8a-bbb7-8ca1a8ce097b
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '26'
-ht-degree: 23%
+source-wordcount: '33'
+ht-degree: 18%
 
 ---
 
