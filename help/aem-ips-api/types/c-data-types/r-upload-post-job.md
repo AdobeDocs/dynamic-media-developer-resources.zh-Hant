@@ -4,12 +4,13 @@ seo-description: 使用getActiveJobs來追蹤案頭上傳。
 seo-title: UploadPostJob
 solution: Experience Manager
 title: UploadPostJob
-topic: Dynamic Media Image Production System API
 uuid: 172f47c7-685a-4014-9c30-dacd78733655
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '480'
 ht-degree: 10%
 
 ---
@@ -83,7 +84,7 @@ ht-degree: 10%
    <td colname="col1"> <span class="codeph"> <span class="varname"> IllustratorOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：IllustratorOptions</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>將Illustrator檔案上傳至影像伺服器的選項。 </p> </td> 
+   <td colname="col4"> <p>將Illustrator檔案上載到映像伺服器的選項。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> knouckBackground</span> </span> </td> 
@@ -119,7 +120,7 @@ ht-degree: 10%
    <td colname="col1"> <span class="codeph"> <span class="varname"> photoshopOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：PhotoshopOptions</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>將Photoshop檔案上傳至影像伺服器的選項。 </p> </td> 
+   <td colname="col4"> <p>將Photoshop檔案上載到映像伺服器的選項。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> postHttpUrl</span> </span> </td> 
