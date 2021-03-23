@@ -4,12 +4,13 @@ seo-description: 資料檔案路徑。 與此映像關聯的非映像資料檔�
 seo-title: AuxPath
 solution: Experience Manager
 title: AuxPath
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 95d28f8d-27ec-480a-a62a-7e5e8fbfb3fb
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '145'
 ht-degree: 3%
 
 ---
