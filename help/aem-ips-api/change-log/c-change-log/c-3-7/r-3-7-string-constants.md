@@ -2,12 +2,13 @@
 description: 說明IPS API 3.7版的新增和變更的字串常數。
 solution: Experience Manager
 title: 字串常數新增和修改
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '40'
-ht-degree: 10%
+source-wordcount: '47'
+ht-degree: 8%
 
 ---
 
