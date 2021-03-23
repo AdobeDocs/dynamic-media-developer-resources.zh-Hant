@@ -4,12 +4,13 @@ seo-description: 使用這些伺服器設定來設定影像大小限制。
 seo-title: 影像大小限制
 solution: Experience Manager
 title: 影像大小限制
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 6736e652-c495-45a2-bdd2-9975f99af0a2
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
