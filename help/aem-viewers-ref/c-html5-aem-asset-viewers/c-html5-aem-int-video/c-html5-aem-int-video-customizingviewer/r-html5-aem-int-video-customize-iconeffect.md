@@ -4,12 +4,13 @@ seo-description: 播放圖示覆蓋在主檢視區域上。 它會在暫停視�
 seo-title: 圖示效果
 solution: Experience Manager
 title: 圖示效果
-topic: Dynamic Media
 uuid: 81c9c344-5256-4015-8d02-abbf09dca541
+feature: Dynamic Media經典，檢視器，SDK/API，互動式視訊
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '213'
 ht-degree: 1%
 
 ---
