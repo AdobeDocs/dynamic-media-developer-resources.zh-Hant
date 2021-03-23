@@ -4,12 +4,13 @@ seo-description: 這些命令適用於影像、文字和純色圖層。 大部�
 seo-title: 常用圖層命令
 solution: Experience Manager
 title: 常用圖層命令
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f11da6ba-18f2-42d6-8257-cb8ebef8c7d8
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '177'
 ht-degree: 2%
 
 ---
