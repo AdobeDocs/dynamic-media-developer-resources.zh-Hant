@@ -4,12 +4,13 @@ seo-description: 建立「紙娃娃」分層應用程式。
 seo-title: 範例C
 solution: Experience Manager
 title: 範例C
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 25f228c2-dc03-461a-aee8-40fdb3d4cf5e
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -23,7 +24,7 @@ ht-degree: 0%
 
 每張服裝／附件像片都會被遮色片和裁切至遮色片邊界方框，以將影像大小減到最小。 小心控制影像定位點和解析度，以維持圖層與背景影像之間的對齊，並且所有影像都會新增至影像目錄，並將適當的值儲存在`catalog::Resolution`和`catalog::Anchor`中。
 
-除了分層外，我們還要更改所選項目的顏色。 對這些項目的記錄進行預處理以去除原始顏色並以適合於著色命令的方式調整亮度和對比度。 這項預處理作業可能會離線、使用影像編輯工具（例如Photoshop）進行，或者，在簡單的情況下，只要將`op_brightness=`和`op_contrast=`新增至`catalog::Modifier`欄位，就可輕鬆完成。
+除了分層外，我們還要更改所選項目的顏色。 對這些項目的記錄進行預處理以去除原始顏色並以適合於著色命令的方式調整亮度和對比度。 此預處理可能是離線、使用像是Photoshop的影像編輯工具，或者，在簡單的情況下，可將`op_brightness=`和`op_contrast=`新增至`catalog::Modifier`欄位，以輕鬆完成。
 
 此應用程式不保證個別範本，因為所有物件都已透過其影像定位點(`catalog::Anchor`)和縮放(`catalog::Resolution`)正確對齊。 我們將決定權交給用戶端，以確保適當的圖層順序。
 
