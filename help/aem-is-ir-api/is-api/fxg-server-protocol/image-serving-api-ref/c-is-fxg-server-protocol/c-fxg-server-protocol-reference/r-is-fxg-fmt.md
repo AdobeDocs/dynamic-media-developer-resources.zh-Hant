@@ -4,12 +4,13 @@ seo-description: 回應影像格式。
 seo-title: fmt
 solution: Experience Manager
 title: fmt
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 78ee7545-5ad9-4240-bbfc-20efe3e42ed3
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '296'
 ht-degree: 3%
 
 ---
@@ -28,7 +29,7 @@ ht-degree: 3%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"></td> 
-  <td class="stentry"> <p> 指定傳送至用戶端的影像資料的影像編碼格式，以及HTTP回覆標題的對應回應MIME類型。 </p> <p> <span class="codeph">  jpeg </span>:有損JPEG </p> <p> <span class="codeph"> png  </span>:無損PNG </p> <p> <span class="codeph"> png-alpha </span>:具有alpha色版的無損PNG </p> <p> <span class="codeph">  tif  </span>:TIFF </p> <p> <span class="codeph"> tif-alpha  </span>:含Alpha色版的TIFF </p> <p> <span class="codeph">  swf  </span>:有損JPEG內嵌在Adobe swf檔案中 </p> <p> <span class="codeph"> pdf  </span>:內嵌在PDF中的影像 </p> <p> <span class="codeph"> gif  </span>:2到256色的GIF </p> <p> <span class="codeph"> gif-alpha  </span>:2到255色的GIF加上金鑰色透明度 </p> <p> <span class="codeph"> fxg  </span>:FXG含變數並套用DOM控制 </p> <p> <span class="codeph">  fxgraw  </span>:原始FXG儲存在伺服器上 </p> </td> 
+  <td class="stentry"> <p> 指定傳送至用戶端的影像資料的影像編碼格式，以及HTTP回覆標題的對應回應MIME類型。 </p> <p> <span class="codeph">  jpeg </span>:有損JPEG </p> <p> <span class="codeph"> png  </span>:無損PNG </p> <p> <span class="codeph"> png-alpha </span>:具有alpha色版的無損PNG </p> <p> <span class="codeph">  tif  </span>:TIFF </p> <p> <span class="codeph"> tif-alpha  </span>:含Alpha色版的TIFF </p> <p> <span class="codeph">  swf  </span>:有損JPEG嵌入Adobeswf檔案 </p> <p> <span class="codeph"> pdf  </span>:內嵌在PDF中的影像 </p> <p> <span class="codeph"> gif  </span>:2到256色的GIF </p> <p> <span class="codeph"> gif-alpha  </span>:2到255色的GIF加上金鑰色透明度 </p> <p> <span class="codeph"> fxg  </span>:FXG含變數並套用DOM控制 </p> <p> <span class="codeph">  fxgraw  </span>:原始FXG儲存在伺服器上 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> pixelType</span> </span> </p></td> 
