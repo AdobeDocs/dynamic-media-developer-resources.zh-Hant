@@ -4,13 +4,14 @@ seo-description: 重設一或多個資產的發佈狀態，以強制在下一個
 seo-title: forceRepublishAssets
 solution: Experience Manager
 title: forceRepublishAssets
-topic: Dynamic Media Image Production System API
 uuid: fd1f4ece-075c-40e3-868a-f27b9a4c3374
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 11%
+source-wordcount: '191'
+ht-degree: 10%
 
 ---
 
