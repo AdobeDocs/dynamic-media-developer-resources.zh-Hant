@@ -2,11 +2,12 @@
 description: 說明IPS Web服務API處理的常見操作參數。
 solution: Experience Manager
 title: 操作方法
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '707'
 ht-degree: 0%
 
 ---
@@ -106,4 +107,4 @@ SearchAssetsReturn retVal = ipsApi.searchAssets(searchParam, authHeader);
 
 語言環境參數使用格式`<language_code>[-<country_code>]`
 
-其中，語言代碼是ISO-639指定的小寫雙字母代碼，而可選國家代碼是ISO-3266指定的大寫雙字母代碼。 例如，美國英文的地區設定字串是`en-US`。
+其中，語言代碼為ISO-639指定的小寫雙字母代碼，而可選國家代碼為ISO-3266指定的大寫雙字母代碼。 例如，美國英文的地區設定字串是`en-US`。
