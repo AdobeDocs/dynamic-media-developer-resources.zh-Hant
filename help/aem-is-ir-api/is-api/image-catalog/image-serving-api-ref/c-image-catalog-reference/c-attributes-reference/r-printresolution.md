@@ -4,12 +4,13 @@ seo-description: 預設列印解析度。 提供預設打印解析度，以防�
 seo-title: 列印解析度
 solution: Experience Manager
 title: 列印解析度
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 6333c630-2df1-4eb1-b2fb-e67692f747eb
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '100'
 ht-degree: 4%
 
 ---
