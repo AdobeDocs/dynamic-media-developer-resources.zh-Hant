@@ -2,12 +2,13 @@
 description: 方向
 solution: Experience Manager
 title: 方向
-topic: Dynamic Media
 uuid: 0a30f3b0-64c8-4799-b4f5-fc8996a8b5a4
+feature: Dynamic Media經典，檢視器，SDK/API,eCatalog搜尋
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '200'
 ht-degree: 3%
 
 ---
