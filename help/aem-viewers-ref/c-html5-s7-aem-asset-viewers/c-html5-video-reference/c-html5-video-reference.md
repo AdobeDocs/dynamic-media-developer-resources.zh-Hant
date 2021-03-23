@@ -1,13 +1,14 @@
 ---
-description: 視訊檢視器是視訊播放器，可播放以H.264格式編碼的串流和漸進式視訊。 它是從Dynamic Media Classic或AEM Dynamic Media傳送。
-keywords: responsive
+description: 視訊檢視器是視訊播放器，可播放以H.264格式編碼的串流和漸進式視訊。 它由Dynamic Media經典或AEMDynamic Media提供。
+keywords: 回應
 solution: Experience Manager
 title: 視訊
-topic: Dynamic Media
+feature: Dynamic Media經典，檢視器，SDK/API，視訊
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '2372'
+source-wordcount: '2383'
 ht-degree: 0%
 
 ---
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 # 視訊{#video}
 
-視訊檢視器是視訊播放器，可播放以H.264格式編碼的串流和漸進式視訊。 它是從Dynamic Media Classic或AEM Dynamic Media傳送。
+視訊檢視器是視訊播放器，可播放以H.264格式編碼的串流和漸進式視訊。 它由Dynamic Media經典或AEMDynamic Media提供。
 
 請參閱[系統需求和先決條件](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842)。
 
@@ -37,7 +38,7 @@ ht-degree: 0%
 
 設定檢視器及設定其外觀的工作與其他檢視器類似。 所有外觀設定都是透過自訂CSS來完成。
 
-請參閱所有檢視器通用的[命令參考——組態屬性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)和[所有檢視器通用的命令參考- URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
+請參閱所有檢視器通用的[命令參考——設定屬性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)和[所有檢視器通用的命令參考- URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
 ## 與視訊檢視器互動{#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
@@ -97,7 +98,7 @@ ht-degree: 0%
 
 回應式設計內嵌假設檢視器可能需要在執行時期調整大小，以回應其容器`DIV`的大小變更。 最常見的使用案例是將檢視器新增至使用彈性頁面版面的網頁。
 
-在回應式設計內嵌模式中，檢視器的運作方式會因網頁大小（容器`DIV`）而異。 如果網頁僅設定容器的寬度`DIV`，而不限制其高度，檢視器會根據所使用資產的寬高比自動選擇其高度。 此方法可確保資產完美地貼合至檢視中，而不會在側邊產生任何間距。 這個使用案例最常用於使用自適應設計版面架構（例如Bootstrap、Foundation等）的網頁。
+在回應式設計內嵌模式中，檢視器的運作方式會因網頁大小（容器`DIV`）而異。 如果網頁僅設定容器的寬度`DIV`，而不限制其高度，檢視器會根據所使用資產的寬高比自動選擇其高度。 此方法可確保資產完美地貼合至檢視中，而不會在側邊產生任何間距。 此使用案例最常用於使用互動式設計版面架構(例如Bootstrap、基礎等)的網頁。
 
 否則，如果網頁同時設定檢視器容器`DIV`的寬度和高度，檢視器只會填滿該區域，並遵循網頁版面提供的大小。 一個很好的例子是將檢視器內嵌至模態覆蓋，其中覆蓋會根據網頁瀏覽器視窗的大小來調整大小。
 
@@ -116,7 +117,7 @@ ht-degree: 0%
 
 [!DNL <s7viewers_root>/html5/js/FlyoutViewer.js]
 
-如果檢視器部署在其中一個Adobe Dynamic Media Classic伺服器上，且是從相同網域提供，則可使用相對路徑。 否則，您會指定安裝IS-Viewer之一的Adobe Dynamic Media Classic伺服器的完整路徑。
+如果檢視器部署在其中一個Adobe的Dynamic Media經典伺服器上，且是從相同網域提供，則可使用相對路徑。 否則，您將指定到安裝IS-Viewer的AdobeDynamic Media經典伺服器之一的完整路徑。
 
 相對路徑如下所示：
 
@@ -149,7 +150,7 @@ ht-degree: 0%
 
    您可以設定檢視器的靜態大小，方法是以絕對單位聲明`.s7videoviewer`頂層CSS類別，或使用修飾詞`stagesize`。
 
-   CSS中的大小可直接放在HTML頁面上，或自訂檢視器CSS檔案中，此檔案稍後會指派給Dynamic Media Classic中的檢視器預設記錄，或使用樣式命令明確傳遞。
+   CSS中的大小可直接放在HTML頁面上，或自訂檢視器CSS檔案中，此檔案稍後會指派給Dynamic Media·Classic中的檢視器預設記錄，或使用樣式命令明確傳遞。
 
    如需使用CSS設定檢視器樣式的詳細資訊，請參閱[自訂視訊檢視器](../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#concept-072a52b10b5f4c0789393dc6e2134c0e)。
 
@@ -162,7 +163,7 @@ ht-degree: 0%
    }
    ```
 
-   您可以在Dynamic Media Classic的檢視器預設記錄中設定`stagesize`修飾元，或以`params`系列的檢視器初始化程式碼明確傳遞，或以「命令參考」區段中所述的API呼叫傳遞，如下所示：
+   您可以在Dynamic MediaClassic的檢視器預設記錄中設定`stagesize`修飾元，或以`params`系列的檢視器初始化程式碼明確傳遞它，或以指令參考區段中所述的API呼叫傳遞，如下所述：
 
    ```
    videoViewer.setParam("stagesize", "640,480");
