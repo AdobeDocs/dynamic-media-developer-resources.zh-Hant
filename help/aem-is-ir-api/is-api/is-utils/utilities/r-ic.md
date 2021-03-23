@@ -4,12 +4,13 @@ seo-description: 映像轉換實用程式。
 seo-title: ic
 solution: Experience Manager
 title: ic
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 08fabcc9-d0b5-4136-81fc-ac896c341e1d
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1216'
 ht-degree: 2%
 
 ---
@@ -118,7 +119,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -embedXmpData  </span> </p> </td> 
-   <td colname="col2"> <p>將XMP中繼資料（如果有）從<span class="codeph"> <span class="varname"> sourceFile </span> </span>複製至<span class="codeph"> <span class="varname"> destFile </span> </span>而不需修改。 </p> </td> 
+   <td colname="col2"> <p>將XMP中繼資料從<span class="codeph"> <span class="varname"> sourceFile </span> </span>複製至<span class="codeph"> <span class="varname"> destFile </span> </span>，如果可用，則不需修改。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -embedColorProfile  </span> </p> </td> 
@@ -178,7 +179,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -downsample8x8BicubicSharp  </span> </p> </td> 
-   <td colname="col2"> <p>使用Photoshop樣式8x8雙立方體銳利濾鏡縮減取樣。 </p> </td> 
+   <td colname="col2"> <p>使用Photoshop式8x8雙立方體銳利濾鏡縮減取樣。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -年齡  </span> </p> </td> 
@@ -256,7 +257,7 @@ ht-degree: 2%
   <tr> 
    <td> <b> BMP</b> <p> （Windows點陣圖） </p> </td> 
    <td> <p> RGB |索引 </p> </td> 
-   <td> <p> 3 | 5/6 | 8 </p> </td> 
+   <td> <p> 1 | 5/6 | 8 </p> </td> 
    <td> <p> 解壓縮 | RLE </p> </td> 
    <td> <p> 5/6位／通道表示支援16位RGB（5-5-5和5-6-5位／通道）。 </p> </td> 
   </tr> 
@@ -265,7 +266,7 @@ ht-degree: 2%
    <td> <p> CMYK | RGB |灰色 </p> </td> 
    <td> <p> 8 </p> </td> 
    <td> <p> ASCII | ASCII85 |二進位 | JPEG </p> </td> 
-   <td> <p> 僅支援Photoshop產生的EPS檔案。 </p> </td> 
+   <td> <p> 僅支援Photoshop生成的EPS檔案。 </p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -291,7 +292,7 @@ ht-degree: 2%
   <tr> 
    <td> <p> Photoshop </p> <b>PSD</b> </td> 
    <td> <p> CMYK | CMYKA | RGB | RGBA |灰色 | grayA </p> </td> 
-   <td> <p> 3 | 8 | 16 </p> </td> 
+   <td> <p> 1 | 8 | 16 </p> </td> 
    <td> <p> 解壓縮 |壓縮 </p> </td> 
    <td> <p> 僅合併影像；圖層和額外的色版會被忽略。 </p> </td> 
   </tr> 
@@ -305,7 +306,7 @@ ht-degree: 2%
   <tr> 
    <td> <b> PNG</b> </td> 
    <td> <p> RGB | RGBA |灰色 | grayA |索引 </p> </td> 
-   <td> <p> 3 | 2 | 4 | 8 | 16 </p> </td> 
+   <td> <p> 1 | 2 | 4 | 8 | 16 </p> </td> 
    <td> <p> 已壓縮 </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
@@ -321,7 +322,7 @@ ht-degree: 2%
 
 內嵌的ICC描述檔可在EPS、JPG、PSD、PNG和TIFF檔案中辨識。
 
-內嵌路徑和XMP中繼資料可在EPS、JPG、PSD和TIFF檔案中辨識。
+內嵌的路XMP徑和中繼資料可在EPS、JPG、PSD和TIFF檔案中辨識。
 
 ## 範例 {#section-3c1986b30315431989bd76b1ee5bef6d}
 
@@ -333,6 +334,6 @@ ht-degree: 2%
 
 `ic -convert -jpegcompress -jpegquality 90 -overwrite -continueOnError srcFolder destFolder`
 
-轉換&#x200B;*`srcFolder`*&#x200B;中的所有影像。 JPG檔案的編碼影像資料用於這些影像金字塔的其餘影像以及所有非JPG輸入檔案的整個輸出影像的全解析度、無損的LZW壓縮。 像素類型、內嵌的色彩描述檔、XMP中繼資料等。 中。
+轉換&#x200B;*`srcFolder`*&#x200B;中的所有影像。 JPG檔案的編碼影像資料用於這些影像金字塔的其餘影像以及所有非JPG輸入檔案的整個輸出影像的全解析度、無損的LZW壓縮。 像素類型、內嵌的色彩描述檔XMP、中繼資料等。 中。
 
 `ic -convert -lzwcompress -embedXmpData -embedColorProfile -maintainpixeltype -overwrite -continueOnError srcFolder destFolder`
