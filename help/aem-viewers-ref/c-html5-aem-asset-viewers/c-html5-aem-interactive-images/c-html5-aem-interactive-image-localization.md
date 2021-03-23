@@ -4,10 +4,12 @@ seo-description: 互動式影像檢視器顯示的某些內容可能會受當地
 seo-title: 使用者介面元素的本地化
 title: 使用者介面元素的本地化
 uuid: 1a22570b-8435-4e57-a022-34428bddc7f7
+feature: Dynamic Media經典，檢視器，SDK/API，互動式影像
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
