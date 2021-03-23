@@ -1,12 +1,13 @@
 ---
-description: 測試版WSDL中提供的這些新或修改的作業和資料類型，在Dynamic Media開發的應用程式之外，不會使用。
+description: 測試版WSDL中提供的這些新操作或修改的操作和資料類型，在Dynamic Media開發的應用程式之外不可使用。
 solution: Experience Manager
 title: 限制使用
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 # 限制使用{#restricted-use}
 
-測試版WSDL中提供的這些新或修改的作業和資料類型，在Dynamic Media開發的應用程式之外，不會使用。
+測試版WSDL中提供的這些新操作或修改的操作和資料類型，在Dynamic Media開發的應用程式之外不可使用。
 
 這些操作和類型可能會在後續系統更新中禁用、更改或取代。
 
