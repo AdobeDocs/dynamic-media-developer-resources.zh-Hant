@@ -4,12 +4,13 @@ seo-description: 紋理對齊。 當應用於彼此相關的暈映物件（例�
 seo-title: 對齊
 solution: Experience Manager
 title: 對齊
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: c64d7986-9bb9-4566-8e2f-dca7f459049e
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '151'
 ht-degree: 4%
 
 ---
