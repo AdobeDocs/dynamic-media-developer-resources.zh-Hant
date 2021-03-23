@@ -4,13 +4,14 @@ seo-description: 設定現有標籤欄位的標籤字典值。
 seo-title: setTagFieldValues
 solution: Experience Manager
 title: setTagFieldValues
-topic: Dynamic Media Image Production System API
 uuid: 56666c00-3694-4a43-a0ff-97af45c8df9f
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 15%
+source-wordcount: '98'
+ht-degree: 14%
 
 ---
 
