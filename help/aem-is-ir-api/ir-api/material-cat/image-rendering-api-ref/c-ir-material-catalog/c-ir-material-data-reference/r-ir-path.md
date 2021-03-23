@@ -4,12 +4,13 @@ seo-description: 影像檔案路徑。 紋理或貼圖影像檔的相對路徑�
 seo-title: 路徑 *
 solution: Experience Manager
 title: 路徑 *
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9e85a358-3f2f-4b8b-a98f-03de2a1a8a4c
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '231'
 ht-degree: 3%
 
 ---
@@ -29,9 +30,9 @@ ht-degree: 3%
 
 ## 支援的檔案格式{#section-7ef6c9f7c72c4f03ae926d030b6c46d8}
 
-影像演算支援與動態媒體影像伺服相同的來源影像格式。
+「影像演算」支援與「Dynamic Media影像伺服」相同的來源影像格式。
 
-使用動態媒體金字塔TIFF(PTIFF)多解析度格式時，需要多種不同解析度影像資料的應用程式效能最佳。 「影像伺服」包含影像轉換器(IC)公用程式，可從任何支援的格式建立PTIFF影像。
+使用Dynamic Media金字塔TIFF(PTIFF)多解析度格式時，需要多種不同解析度的影像資料的應用程式效能最好。 「影像伺服」包含影像轉換器(IC)公用程式，可從任何支援的格式建立PTIFF影像。
 
 有關支援的檔案格式的完整清單，請參閱映像服務文檔中的IC實用程式說明。
 
