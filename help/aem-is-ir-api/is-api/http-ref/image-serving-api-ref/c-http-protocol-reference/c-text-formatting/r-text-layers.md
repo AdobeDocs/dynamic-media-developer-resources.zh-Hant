@@ -4,12 +4,13 @@ seo-description: textPs=支援本節所述的多種不同使用模式。
 seo-title: 文字圖層
 solution: Experience Manager
 title: 文字圖層
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9ccef969-7c54-49ce-b6ff-ae4eabfcf99b
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '908'
 ht-degree: 0%
 
 ---
@@ -36,7 +37,7 @@ textPs=支援本節所述的多種不同使用模式。
 
 ## 點文字（自動調整大小）{#section-db99ec98eb114458b2dbc9911a58f74a}
 
-當指定`textPs=`而未指定`size=`、`textPath=`或`textFlowPath=`時，會模擬Photoshop樣式的點文字。 圖層大小由渲染文本的寬度水準確定，並由行間距垂直確定。 文字永遠不會自動換行。
+當指定`size=`、`textPath=`或`textFlowPath=`的`textPs=`時，會模擬Photoshop式點文字。 圖層大小由渲染文本的寬度水準確定，並由行間距垂直確定。 文字永遠不會自動換行。
 
 如果未指定`anchor=`或`origin=`，則文本的第一行將緊接在圖層原點上方；標有`\ql`的段落位於圖層原點的右側，包含`\qr`的段落會呈現在原點的左側，而含有`\qc`的段落會以水準方向圍繞原點居中。 如果指定`anchor=`或`origin=`，則適用標準圖層定位規則。
 
