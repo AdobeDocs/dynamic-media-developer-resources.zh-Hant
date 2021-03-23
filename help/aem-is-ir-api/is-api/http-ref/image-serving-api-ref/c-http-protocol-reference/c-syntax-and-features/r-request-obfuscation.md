@@ -4,12 +4,13 @@ seo-description: 請求字串的整個修飾元部分的內容（包括選用的
 seo-title: 請求模糊化
 solution: Experience Manager
 title: 請求模糊化
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 59b12a78-c4ba-4b6d-97bc-63150298ed73
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '252'
 ht-degree: 1%
 
 ---
@@ -23,7 +24,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->如果您啟用此功能，請注意其使用有某些限制，其中包括：<br>-動態媒體使用者介面可能無法顯示&#x200B;**[!UICONTROL 上次發佈]**&#x200B;欄位的正確詳細資訊。 不過，這種影響並不會影響發佈。<br>-目前，啟用「請求模糊化」和「請求鎖定」時，**[!UICONTROL HLS]** 視訊 **[!UICONTROL 串流無]** 法運作。<br>-目前，啟用「請求模糊化」和「請求鎖定」時， **[!UICONTROL 有些]** 動態媒 **[!UICONTROL 體檢]** 視器無法運作。
+>如果您啟用此功能，請注意其使用有某些限制，其中包括：<br>-Dynamic Media用戶介面可能無法顯示&#x200B;**[!UICONTROL 上次發佈]**&#x200B;欄位的正確詳細資訊。 不過，這種影響並不會影響發佈。<br>-目前，啟用「請求模糊化」和「請求鎖定」時，**[!UICONTROL HLS]** 視訊 **[!UICONTROL 串流無]** 法運作。<br>-目前，在啟用「請求模糊化」和「請求 **[!UICONTROL 鎖定」]** 時，某些 **[!UICONTROL Dynamic Media]** 檢視器無法運作。
 
 ## 範例 {#section-dd4bfab19aa040f8ba3f6e397c6b0941}
 
