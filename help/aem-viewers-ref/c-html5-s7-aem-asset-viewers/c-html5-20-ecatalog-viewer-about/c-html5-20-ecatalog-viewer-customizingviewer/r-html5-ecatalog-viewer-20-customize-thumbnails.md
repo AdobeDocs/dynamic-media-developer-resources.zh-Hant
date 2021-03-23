@@ -4,12 +4,13 @@ seo-description: 縮圖由縮圖影像的格線組成，右側有可選的捲軸
 seo-title: 縮圖
 solution: Experience Manager
 title: 縮圖
-topic: Dynamic Media
 uuid: 340b81e0-77df-4b44-a462-b98bcc96d707
+feature: Dynamic Media經典，檢視器，SDK/API,eCatalog
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '923'
 ht-degree: 2%
 
 ---
