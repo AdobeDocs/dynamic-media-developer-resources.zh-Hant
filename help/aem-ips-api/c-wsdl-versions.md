@@ -2,11 +2,12 @@
 description: IPS Web服務受一組WSDL（Web服務描述語言）文檔的支援，這些文檔可從安裝IPS Web服務元件的任何IPS安裝中訪問。 每個IPS API版本都包含參考版本化目標XML命名空間的新WSDL檔案。 也支援舊版WSDL命名空間版本，以便向後相容於現有的應用程式。
 solution: Experience Manager
 title: IPS Web服務WSDL版本
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '961'
 ht-degree: 1%
 
 ---
@@ -18,7 +19,7 @@ IPS Web服務受一組WSDL（Web服務描述語言）文檔的支援，這些文
 
 ## WSDL訪問{#section-62e69fa2c87f4dc9bca72f10ba028f6c}
 
-存取Scene7 WSDL如下所示。
+存取Scene7WSDL，如下所示。
 
 ```
 https://<IPS_hostname:<IPS_port>/<IPS_webapp>/ 
@@ -36,7 +37,7 @@ https://<IPS_hostname>:<IPS_port>/<IPS_webapp>/
 services/IpsApiService 
 ```
 
-**動態媒體地區的存取URL**
+**Dynamic Media地區的存取URL**
 
 <table id="table_45BB314ABCDA49F38DF7BECF95CC984A"> 
  <thead> 
@@ -131,7 +132,7 @@ IPS API Web服務僅支援SOAP綁定。
 
 **支援的傳輸**
 
-IPS API SOAP綁定僅支援HTTP傳輸。 使用HTTPS POST方法發出所有SOAP請求。
+IPS API SOAP綁定僅支援HTTP傳輸。 使用HTTPSPOST方法發出所有SOAP請求。
 
 **SOAP操作標題**
 
@@ -197,7 +198,7 @@ IPS API SOAP綁定僅支援HTTP傳輸。 使用HTTPS POST方法發出所有SOAP�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> faultHttpStatusCode  </span> </p> </td> 
-   <td colname="col2"> <p> 可選參數，以覆寫錯誤回應的HTTP狀態程式碼。 預設情況下，故障響應返回HTTP狀態代碼500（內部伺服器錯誤）。 有些用戶端平台（包括Adobe Flash）無法讀取回應內文，除非傳回200（確定）的狀態碼。 </p> </td> 
+   <td colname="col2"> <p> 可選參數，以覆寫錯誤回應的HTTP狀態程式碼。 預設情況下，故障響應返回HTTP狀態代碼500（內部伺服器錯誤）。 有些用戶端平台(包括AdobeFlash)無法讀取回應內文，除非傳回200（確定）的狀態碼。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -221,7 +222,7 @@ IPS API SOAP綁定僅支援HTTP傳輸。 使用HTTPS POST方法發出所有SOAP�
 
 如果由於某些原因，您的客戶端應用程式無法傳遞`authHeader` SOAP標題，則API請求還可以使用HTTP Basic驗證（如RFC 2617中所指定）指定憑據。
 
-對於HTTP基本驗證，每個SOAP POST請求的HTTP標頭區段必須包含表單的標頭：
+對於HTTP基本驗證，每個SOAPPOST請求的HTTP標題區段必須包含表單標題：
 
 `Authorization: Basic base64(<IPS_user_email>:<password>)`
 
