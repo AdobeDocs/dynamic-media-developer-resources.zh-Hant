@@ -4,13 +4,14 @@ seo-description: 設定一或多個資產的縮圖影像。
 seo-title: batchSetThumbAsset
 solution: Experience Manager
 title: batchSetThumbAsset
-topic: Dynamic Media Image Production System API
 uuid: 16c298a7-bb07-4643-824b-8f864d7f0290
+feature: Dynamic Media經典，SDK/API，資產管理
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 13%
+source-wordcount: '190'
+ht-degree: 12%
 
 ---
 
@@ -60,7 +61,7 @@ ht-degree: 13%
 | `*`successCount`*` | `xsd:int` | 是 | 成功設定縮圖的數目。 |
 | `*`warningCount`*` | `xsd:int` | 是 | 嘗試設定縮圖時產生的警告數。 |
 | `*`errorCount`*` | `xsd:int` | 是 | 嘗試設定縮圖時產生的錯誤數。 |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 與資產相關的詳細資料陣列，當操作嘗試套用更新時，這些資產會產生警告。 |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 與資產相關的詳細資訊陣列，當操作嘗試套用更新時，這些資產會產生警告。 |
 | `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 當操作嘗試套用更新時，與產生錯誤的資產相關的詳細資訊陣列。 |
 
 ## 範例 {#section-6de69a8680c24c1486c5f01488393381}
