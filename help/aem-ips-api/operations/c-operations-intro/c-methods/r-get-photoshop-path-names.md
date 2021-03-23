@@ -4,13 +4,14 @@ seo-description: 傳回指定影像的Photoshop路徑名稱陣列。
 seo-title: getPhotoshopPathNames
 solution: Experience Manager
 title: getPhotoshopPathNames
-topic: Dynamic Media Image Production System API
 uuid: d3f1dea5-393b-498e-963d-37a4e38068a2
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 17%
+source-wordcount: '96'
+ht-degree: 16%
 
 ---
 
@@ -44,7 +45,7 @@ ht-degree: 17%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`pathNameArray`*` | `types:StringArray` | 是 | 影像中的Photoshop路徑名稱陣列。 |
+| `*`pathNameArray`*` | `types:StringArray` | 是 | 映像中的Photoshop路徑名陣列。 |
 
 ## 範例 {#section-6d316f14b4184d42af4ca3f717b042dd}
 
