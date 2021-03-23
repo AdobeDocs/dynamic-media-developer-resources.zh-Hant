@@ -4,12 +4,13 @@ seo-description: 材料表面光澤度。 指定材料曲面的相對光澤度�
 seo-title: 光澤
 solution: Experience Manager
 title: 光澤
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 3774e08b-d24e-4cf2-8719-32a21bb9bcb6
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '345'
 ht-degree: 1%
 
 ---
