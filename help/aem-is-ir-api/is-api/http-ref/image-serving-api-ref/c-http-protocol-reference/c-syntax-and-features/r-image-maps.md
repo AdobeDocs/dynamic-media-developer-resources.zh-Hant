@@ -4,12 +4,13 @@ seo-description: IS提供簡化HTML影像地圖使用的機制。 IS中以JAVA�
 seo-title: 影像地圖
 solution: Experience Manager
 title: 影像地圖
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 2b7b620b-712b-4110-ba38-993a354c09d3
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
