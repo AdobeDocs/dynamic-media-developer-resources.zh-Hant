@@ -4,12 +4,13 @@ seo-description: 如果將jsonp指定為回應格式，則回覆資料會使用J
 seo-title: JSONP屬性
 solution: Experience Manager
 title: JSONP屬性
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e53d75f2-9b43-4e8f-8191-66f69f344cdd
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '239'
 ht-degree: 1%
 
 ---
@@ -56,7 +57,7 @@ S7jsonResponse(data, reqId)
 
 `<reqHandler>` 是JS回應中顯示的JS處理常式名稱。僅允許a-z、A-Z和0-9字元。 選填。預設為 `s7jsonResponse`.
 
-動態媒體影像服務檢視器套件包含一個公用程式，可從影像服務中請求和剖析JSONP格式的資料。
+Dynamic Media映像服務查看器軟體包包含一個實用程式，用於從映像服務請求和解析JSONP格式的資料。
 
 有關JSONP格式的詳細資訊，請參見[http://en.wikipedia.org/wiki/JSONP](http://en.wikipedia.org/wiki/JSONP)。
 
