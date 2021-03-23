@@ -4,12 +4,13 @@ seo-description: 本節包含有助於設定和管理影像渲染伺服器的資
 seo-title: 配置和管理伺服器
 solution: Experience Manager
 title: 配置和管理伺服器
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: cd344495-cb41-440e-b3f8-5b5812e81a9c
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
