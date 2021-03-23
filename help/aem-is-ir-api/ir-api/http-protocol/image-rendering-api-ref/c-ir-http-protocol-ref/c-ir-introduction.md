@@ -1,12 +1,13 @@
 ---
-description: 本檔案說明動態媒體影像演算的HTTP通訊協定。
+description: 本檔案說明用於Dynamic Media影像渲染的HTTP協定。
 solution: Experience Manager
 title: 簡介
-topic: Dynamic Media Image Serving - Image Rendering API
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '392'
 ht-degree: 1%
 
 ---
@@ -14,15 +15,15 @@ ht-degree: 1%
 
 # 簡介{#introduction}
 
-本檔案說明動態媒體影像演算的HTTP通訊協定。
+本檔案說明用於Dynamic Media影像渲染的HTTP協定。
 
-只描述了該協定的公開可用方面。 伺服器可能支援保留供動態媒體客戶端軟體使用的其他命令。
+只描述了該協定的公開可用方面。 伺服器可支援保留供Dynamic Media客戶端軟體使用的其他命令。
 
 **目標讀者**
 
-本檔案僅針對想要針對網站或自訂應用程式運用動態媒體影像演算的資深程式設計人員和網站開發人員。
+本檔案僅針對想要將Dynamic Media影像演算運用於網站或自訂應用程式的資深程式設計人員和網站開發人員。
 
-假設讀者熟悉動態媒體影像製作和影像演算、一般HTTP通訊協定標準和慣例，以及基本影像術語。
+假設讀者熟悉Dynamic Media影像製作和影像演算、一般HTTP通訊協定標準和慣例，以及基本影像術語。
 
 **檔案慣例**
 
@@ -97,4 +98,4 @@ ht-degree: 1%
 
 ** *`MSS`* **材料規格部分：請求中兩個選擇命令之間的一組材料屬性。
 
-** *`vignette`* **在「動態媒體影像製作」中準備的影像，以便與影像演算搭配使用。
+** *`vignette`* **在「Dynamic Media影像製作」中準備的影像，可搭配影像演算使用。
