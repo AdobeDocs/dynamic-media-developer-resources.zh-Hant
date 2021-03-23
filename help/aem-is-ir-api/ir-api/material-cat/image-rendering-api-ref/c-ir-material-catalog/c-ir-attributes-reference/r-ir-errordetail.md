@@ -4,12 +4,13 @@ seo-description: 錯誤消息詳細資訊。 指定透過HTTP傳回之錯誤訊�
 seo-title: ErrorDetail
 solution: Experience Manager
 title: ErrorDetail
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: aab11640-95d7-427d-b79f-c477b2c9047e
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '189'
 ht-degree: 4%
 
 ---
@@ -44,7 +45,7 @@ ht-degree: 4%
 
 * 建議對可公開存取的即時伺服器使用0級。
 * 建議使用2級來測試、品質保證和應用程式開發伺服器。
-* 第3級資訊在向動態媒體技術支援報告問題時可能很有用。
+* 在向Dynamic Media技術支援報告問題時，第3級資訊可能很有用。
 
 ## 屬性 {#section-f03f9a8edd6a4d99aff38fbec41c4b80}
 
