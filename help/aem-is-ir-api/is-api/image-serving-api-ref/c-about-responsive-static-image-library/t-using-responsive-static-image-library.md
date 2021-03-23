@@ -2,11 +2,12 @@
 description: 若要將互動式影像庫新增至網頁並使用程式庫管理現有影像，請完成下列步驟。
 solution: Experience Manager
 title: 使用互動式影像庫
-topic: Dynamic Media Image Serving - Image Rendering API
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 **使用互動式影像庫**
 
-1. 在Dynamic Media Classic中，[建立影像預設集](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html#image-sizing)，以備您打算使用含預設集的互動式影像庫時使用。
+1. 在Dynamic Media經典影像中，[建立影像預設集](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html#image-sizing)，以備您打算使用含預設集的自適應影像庫時使用。
 
    當您定義與自適應影像庫搭配使用的影像預設集時，請勿使用影響影像大小的任何設定，例如`wid=`、`hei=`或`scl=`。 請勿在「影像預設集」中指定任何大小欄位。 請改為將其保留為空白值。
 1. 將程式庫JavaScript檔案新增至您的網頁。
@@ -85,7 +86,7 @@ ht-degree: 0%
 
 **使用智慧型裁切**
 
-AEM 6.4和Dynamic Media Viewers 5.9提供兩種智慧型裁切模式：
+6.4和Dynamic Media檢視器5.9提供AEM兩種智慧型裁切模式：
 
 * **手動** -用戶定義的斷點和相應的「影像服務」命令在影像元素的屬性中定義。
 * **智慧型裁切** -計算的智慧型裁切轉譯會自動從傳送伺服器擷取。使用影像元素的執行時期大小來選取最佳轉譯。
