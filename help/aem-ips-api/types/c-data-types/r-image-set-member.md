@@ -4,13 +4,14 @@ seo-description: 屬於影像集的資產。
 seo-title: ImageSetMember
 solution: Experience Manager
 title: ImageSetMember
-topic: Dynamic Media Image Production System API
 uuid: bd013609-aed7-4c85-80f9-16be7fce99a3
+feature: Dynamic Media經典，SDK/API，影像集
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 6%
+source-wordcount: '86'
+ht-degree: 5%
 
 ---
 
