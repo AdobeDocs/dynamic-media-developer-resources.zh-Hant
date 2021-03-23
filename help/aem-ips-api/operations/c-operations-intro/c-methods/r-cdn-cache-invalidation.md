@@ -1,32 +1,33 @@
 ---
-description: 將提供的URL清單轉送至動態媒體CDN（內容散發網路）提供者，使其現有的HTTP回應快取失效。
+description: 將提供的URL清單轉送至Dynamic MediaCDN（內容散發網路）提供者，使其現有的HTTP回應快取無效。
 solution: Experience Manager
 title: cdnCacheInvaliting
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 5%
+source-wordcount: '483'
+ht-degree: 4%
 
 ---
 
 
 # cdnCacheInvalidation{#cdncacheinvalidation}
 
-將提供的URL清單轉送至動態媒體CDN（內容散發網路）提供者，使其現有的HTTP回應快取失效。
+將提供的URL清單轉送至Dynamic MediaCDN（內容散發網路）提供者，使其現有的HTTP回應快取無效。
 
 ## cdnCacheInvalidation:關於{#section-4f70d2bc79d64288b961836ab17e9690}
 
-CDN快取失效會強制這些URL的所有HTTP要求在透過CDN網路處理此失效要求後，針對動態媒體網路上目前發佈的資料重新驗證。 任何未連線至Dynamic Media服務URL結構且直接符合建立公司時指派之Dynamic Media公司根ID的URL，都會導致整個請求發生API錯誤。 CDN不支援且認為無效的任何無效URL，也會導致整個請求的API錯誤。
+CDN快取失效會強制這些URL的所有HTTP要求，在此失效要求透過CDN網路處理後，針對Dynamic Media網路上目前發佈的資料重新驗證。 任何未連線至Dynamic Media服務URL結構且與建立公司時指派的Dynamic Media公司根ID直接相符的URL，都會導致整個請求發生API錯誤。 CDN不支援且認為無效的任何無效URL，也會導致整個請求的API錯誤。
 
 **使用頻率：規則**
 
-控制此功能使用頻率的規則由Dynamic Media的CDN合作夥伴控制。 CDN保留降低這些無效回應的酌情權，以維持其服務對其使用者的最佳效能。 如果Dynamic Media收到過度使用此功能的通知，我們必須依公司或整個服務停用此功能。
+控制此功能使用頻率的規則由Dynamic Media的CDN合作夥伴控制。 CDN保留降低這些無效回應的酌情權，以維持其服務對其使用者的最佳效能。 如果Dynamic Media收到過度使用此功能的通知，我們必須針對每個公司或整個服務禁用此功能。
 
 **確認電子郵件**
 
-來自動態媒體CDN合作夥伴的確認電子郵件可傳送至清單的建立者，或最多5個其他電子郵件地址。 當通知整個CDN網路已清除電子郵件中參考的URL時，API會傳送確認。 如果提供的URL數量超過動態媒體在單一通知上可傳送給CDN合作夥伴的數量，則對`cdnCacheInvalidation`的單一呼叫可傳送多封電子郵件。 目前，這是當要求超過100個URL時，但可能會根據CDN合作夥伴的要求而變更。
+來自Dynamic MediaCDN合作夥伴的確認電子郵件可傳送至清單的建立者，或最多5個其他電子郵件地址。 當通知整個CDN網路已清除電子郵件中參考的URL時，API會傳送確認。 如果提供的URL數量超過Dynamic Media在單一通知上可傳送給CDN合作夥伴的數量，則單一呼叫`cdnCacheInvalidation`可傳送多封電子郵件。 目前，這是當要求超過100個URL時，但可能會根據CDN合作夥伴的要求而變更。
 
 **支援自**
 
