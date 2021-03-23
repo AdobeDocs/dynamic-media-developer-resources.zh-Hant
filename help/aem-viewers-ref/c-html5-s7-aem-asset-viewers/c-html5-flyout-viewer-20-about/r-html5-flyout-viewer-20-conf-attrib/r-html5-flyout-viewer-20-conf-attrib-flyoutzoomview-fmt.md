@@ -2,13 +2,14 @@
 description: FlyoutZoomView.fmt
 solution: Experience Manager
 title: FlyoutZoomView.fmt
-topic: Dynamic Media
 uuid: 1ed18115-9e29-434a-a48d-40bf6b48fe6f
+feature: Dynamic Media經典，檢視器，SDK/API,Flyout
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 5%
+source-wordcount: '86'
+ht-degree: 4%
 
 ---
 
