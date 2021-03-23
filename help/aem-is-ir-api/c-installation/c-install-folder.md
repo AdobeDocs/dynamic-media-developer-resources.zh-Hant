@@ -4,12 +4,13 @@ seo-description: Image Serving install資料夾(install_folder)為install_root/I
 seo-title: 安裝資料夾
 solution: Experience Manager
 title: 安裝資料夾
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 3e3a5077-f165-42e0-806b-c2cc97aa4f9a
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '87'
 ht-degree: 0%
 
 ---
