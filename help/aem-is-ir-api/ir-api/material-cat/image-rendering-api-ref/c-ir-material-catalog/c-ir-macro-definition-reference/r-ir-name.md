@@ -4,13 +4,14 @@ seo-description: 宏名稱。 巨集名稱可能由字母、數字和安全字�
 seo-title: 名稱
 solution: Experience Manager
 title: 名稱
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 5b81b450-5c3d-4a9e-95dd-6f12b6a9a5ae
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 10%
+source-wordcount: '75'
+ht-degree: 9%
 
 ---
 
