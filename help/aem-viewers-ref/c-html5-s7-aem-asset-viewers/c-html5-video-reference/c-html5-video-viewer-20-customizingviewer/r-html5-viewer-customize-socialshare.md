@@ -4,12 +4,13 @@ seo-description: 社交分享工具預設會出現在右上角。 它包含按�
 seo-title: 社交分享
 solution: Experience Manager
 title: 社交分享
-topic: Dynamic Media
 uuid: 5c1ce7b4-54bf-486f-8b57-1d6d0cec119e
+feature: Dynamic Media經典，檢視器，SDK/API，視訊
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '363'
 ht-degree: 1%
 
 ---
