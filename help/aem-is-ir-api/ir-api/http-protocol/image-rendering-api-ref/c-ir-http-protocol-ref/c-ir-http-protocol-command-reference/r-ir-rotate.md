@@ -4,12 +4,13 @@ seo-description: 材料旋轉角度。 定義材料的旋轉角度。
 seo-title: 旋轉
 solution: Experience Manager
 title: 旋轉
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 497cd8ea-c6a4-45d2-b5e0-0898ac00913d
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '142'
 ht-degree: 7%
 
 ---
