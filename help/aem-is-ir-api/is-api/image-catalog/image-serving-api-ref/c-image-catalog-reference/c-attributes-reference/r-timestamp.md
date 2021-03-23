@@ -4,13 +4,14 @@ seo-description: 預設影像修改時間戳記。 提供目錄TimeStamp的預�
 seo-title: TimeStamp
 solution: Experience Manager
 title: TimeStamp
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0670e53a-ad7d-46cf-8e18-4c52a766df6f
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 2%
+source-wordcount: '207'
+ht-degree: 1%
 
 ---
 
