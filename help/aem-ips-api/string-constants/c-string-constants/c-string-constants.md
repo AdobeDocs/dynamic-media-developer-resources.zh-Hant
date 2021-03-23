@@ -2,13 +2,14 @@
 description: 字串常數
 solution: Experience Manager
 title: 字串常數
-topic: Dynamic Media Image Production System API
 uuid: 2cc2fb9f-ad32-4ac6-8e58-c8a11b786d65
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 7%
+source-wordcount: '116'
+ht-degree: 6%
 
 ---
 
@@ -27,7 +28,7 @@ ht-degree: 7%
 * [字型樣式](r-font-styles.md)
 * [字型類型](r-font-types.md)
 * [世代資訊](r-generation-info.md)
-* [Illustrator流程](r-illustrator-processes.md)
+* [Illustrator進程](r-illustrator-processes.md)
 * [作業日誌檔案類型](r-job-log-file-types.md)
 * [作業日誌排序欄位](r-job-log-sort-fields.md)
 * [作業日誌類型](r-job-log-types.md)
@@ -37,7 +38,7 @@ ht-degree: 7%
 * [數值／日期比較運算子](r-numeric-date-comparison-operators.md)
 * [PDF流程](r-pdf-processes.md)
 * [權限類型](r-permission-types.md)
-* [Photoshop錨點模式](r-photoshop-anchor-modes.md)
+* [Photoshop錨模式](r-photoshop-anchor-modes.md)
 * [Photoshop圖層命名模式](r-photoshop-layer-naming-modes.md)
 * [PostScript色域模式](r-postscript-colorspace-modes.md)
 * [描述檔類別](r-profile-classes.md)
