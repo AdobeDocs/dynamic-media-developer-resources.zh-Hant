@@ -4,12 +4,13 @@ seo-description: 檢索已提交作業的輸出。
 seo-title: batchjobgetoutput
 solution: Experience Manager
 title: batchjobgetoutput
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: c2d49cc2-3223-4f0f-8ba7-4f74a5f76789
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: '65'
 ht-degree: 1%
 
 ---
