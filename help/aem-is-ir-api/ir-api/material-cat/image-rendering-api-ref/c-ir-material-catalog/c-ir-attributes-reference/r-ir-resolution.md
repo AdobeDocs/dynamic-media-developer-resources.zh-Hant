@@ -4,13 +4,14 @@ seo-description: 預設解析度。 提供預設解析度，以防特定目錄�
 seo-title: 解析度
 solution: Experience Manager
 title: 解析度
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b04b3746-90e6-4545-9c57-7ee3b61d99bf
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 7%
+source-wordcount: '108'
+ht-degree: 6%
 
 ---
 
