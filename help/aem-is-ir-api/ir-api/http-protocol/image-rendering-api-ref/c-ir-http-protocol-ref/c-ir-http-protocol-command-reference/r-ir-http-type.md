@@ -4,13 +4,14 @@ seo-description: 材料曲面類型。 指定材料的曲面類型。
 seo-title: type
 solution: Experience Manager
 title: type
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0f107d50-b363-4670-bb02-873677e7bbea
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 22%
+source-wordcount: '175'
+ht-degree: 21%
 
 ---
 
@@ -108,7 +109,7 @@ ht-degree: 22%
 
 ## 屬性 {#section-2345b2508273426295ce8ac46182ea64}
 
-材料屬性。 如果暈映不包含3-D反射資料，或是暈映中停用光澤效果，則忽略此點。
+材料屬性。 如果暈映不包含3-D反射資料或在暈映中停用光澤效果，則忽略。
 
 ## 預設 {#section-0989055fb74a41a3b2f2a47fe7d90a42}
 
