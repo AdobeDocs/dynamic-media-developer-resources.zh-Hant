@@ -4,12 +4,13 @@ seo-description: 工作類型可允許重新處理先前上傳的主要檔案，
 seo-title: 重新處理AssetsJob
 solution: Experience Manager
 title: 重新處理AssetsJob
-topic: Dynamic Media Image Production System API
 uuid: 5b4aa838-0fb4-4ae8-be5a-8ce1e1487127
+feature: Dynamic Media經典，SDK/API，資產管理
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '491'
 ht-degree: 5%
 
 ---
@@ -75,7 +76,7 @@ ht-degree: 5%
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> photoshopOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 類型：PhotoshopOptions</span> </p> </td> 
-   <td colname="col3"> <p>將Photoshop檔案上傳至影像伺服器的選項。 </p> </td> 
+   <td colname="col3"> <p>將Photoshop檔案上載到映像伺服器的選項。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postScriptOptions</span> </span> </p> </td> 
@@ -95,7 +96,7 @@ ht-degree: 5%
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> illustratorOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 類型：IllustratorOptions</span> </p> </td> 
-   <td colname="col3"> <p>將Illustrator檔案上傳至影像伺服器的選項。 </p> </td> 
+   <td colname="col3"> <p>將Illustrator檔案上載到映像伺服器的選項。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> colorManagementOptions</span> </span> </p> </td> 
