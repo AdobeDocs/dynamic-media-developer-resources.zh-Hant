@@ -4,13 +4,14 @@ seo-description: Photoshop影像圖層選項。
 seo-title: PhotoshopLayerOptions
 solution: Experience Manager
 title: PhotoshopLayerOptions
-topic: Dynamic Media Image Production System API
 uuid: af4d5c28-f7c1-4f89-943e-386a5f83474f
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 10%
+source-wordcount: '67'
+ht-degree: 8%
 
 ---
 
@@ -26,7 +27,7 @@ Photoshop影像圖層選項。
 | 名稱 | 類型 | 說明 |
 |---|---|---|
 | `*`layerNaming`*` | `xsd:string` | 選擇Photoshop圖層命名模式。 |
-| `*`錨記`*` | `xsd:string` | 選擇Photoshop錨點模式。 |
+| `*`錨記`*` | `xsd:string` | Photoshop錨模式選擇。 |
 | `*`createTemplate`*` | `xsd:boolean` | 是否從Photoshop圖層建立範本。 |
 | `*`extractText`*` | `xsd:boolean` | 是否將文字擷取為文字圖層。 |
 | `*`extendLayers`*` | `xsd:boolean` | 是否將圖層延伸至背景的完整大小。 |
