@@ -4,13 +4,14 @@ seo-description: 映像整合員更新的陣列。
 seo-title: ImageSetMemberUpdateArray
 solution: Experience Manager
 title: ImageSetMemberUpdateArray
-topic: Dynamic Media Image Production System API
 uuid: 23d45181-1103-4e3a-89a4-984470c11728
+feature: Dynamic Media經典，SDK/API，影像集
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '37'
-ht-degree: 16%
+source-wordcount: '46'
+ht-degree: 13%
 
 ---
 
