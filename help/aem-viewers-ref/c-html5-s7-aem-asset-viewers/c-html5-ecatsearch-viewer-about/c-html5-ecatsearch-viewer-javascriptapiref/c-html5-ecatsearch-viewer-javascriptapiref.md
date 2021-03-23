@@ -4,12 +4,13 @@ seo-description: eCatalog搜尋檢視器的主要類別為eCatalogSearchViewer�
 seo-title: eCatalog搜尋檢視器的Javascript API參考
 solution: Experience Manager
 title: eCatalog搜尋檢視器的Javascript API參考
-topic: Dynamic Media
 uuid: b65dec1e-567a-450f-9e24-e7841dc6f701
+feature: Dynamic Media經典，檢視器，SDK/API,eCatalog搜尋
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
