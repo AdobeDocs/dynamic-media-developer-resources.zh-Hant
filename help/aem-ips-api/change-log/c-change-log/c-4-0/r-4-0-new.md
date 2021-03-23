@@ -4,12 +4,13 @@ seo-description: 說明IPS API v4.0的新變更和實作變更。
 seo-title: 新增和變更
 solution: Experience Manager
 title: 新增和變更
-topic: Dynamic Media Image Production System API
 uuid: ca4bbe36-c1b7-471f-90a8-6b695d56ac7a
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1234'
+source-wordcount: '1241'
 ht-degree: 2%
 
 ---
@@ -42,7 +43,7 @@ ht-degree: 2%
 
 已實施`getAssetPublishHistory`操作。
 
-新增可選的`faultHttpStatusCode` SOAP標題，以啟用Flex中的錯誤處理。 對於Flex，請使用`<faultHttpStatusCode>200</faultHttpStatusCode>`。 故障響應的預設狀態代碼為`500 (Internal Server Error)`。
+已新增選用的`faultHttpStatusCode` SOAP標題，以啟用Flex的錯誤處理。 對於Flex，請使用`<faultHttpStatusCode>200</faultHttpStatusCode>`。 故障響應的預設狀態代碼為`500 (Internal Server Error)`。
 
 已新增從垃圾筒還原資產和從垃圾筒清空資產的作業。
 
@@ -101,7 +102,7 @@ IPS公司設定`CompanySettings`已移植到Web服務API。
 
 已實作應用程式特定資料的支援。
 
-已實作`createTemplate`、`extendLayers`和`extractText`的布林旗標上傳工作支援，以控制Photoshop處理程式（類似於新增檔案上傳的變更）。
+已實作`createTemplate`、`extendLayers`和`extractText`的布林標幟支援，以上傳工作，以控制Photoshop處理程式（類似於新增檔案上傳的變更）。
 
 已實施`setImageMaps`和`setZoomTargets`操作。
 
@@ -238,7 +239,7 @@ IPS公司設定`CompanySettings`已移植到Web服務API。
  </tbody> 
 </table>
 
-已新增其他選項至`UploadDirectoryJob`和`UploadUrlsJob`，以獨立控制Postscript、Illustrator和PDF檔案的處理。 所有現有作業將為3條處理管道中的每一條提供必要的參數，使它們能夠像現在一樣正常工作。 原始的`PostScriptOptions`區塊可用來設定Illustrator和EPS/PS檔案的處理。 或者，可以提供特定的檔案選項塊來指定處理。 變更清單包括：
+新增其他選項至`UploadDirectoryJob`和`UploadUrlsJob`，以獨立控制Postscript、Illustrator和PDF檔案的處理。 所有現有作業將為3條處理管道中的每一條提供必要的參數，使它們能夠像現在一樣正常工作。 原始的`PostScriptOptions`區塊可用來設定Illustrator和EPS/PS檔案的處理。 或者，可以提供特定的檔案選項塊來指定處理。 變更清單包括：
 
 <table id="table_D4E5ACCB2D144D05A5FA0129AA5F9344"> 
  <thead> 
