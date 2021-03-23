@@ -4,12 +4,13 @@ seo-description: 除了相對於圖層0調整(size=)和定位(pos=)圖層，並�
 seo-title: 圖層操作
 solution: Experience Manager
 title: 圖層操作
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a9ef4199-cfa2-480e-a4de-8a0b9064a649
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '162'
 ht-degree: 0%
 
 ---
