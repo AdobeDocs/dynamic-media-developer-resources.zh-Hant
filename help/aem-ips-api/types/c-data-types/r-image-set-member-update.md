@@ -4,12 +4,13 @@ seo-description: '在此類型中，pageReset欄位對RenderSet和Catalog影像�
 seo-title: ImageSetMemberUpdate
 solution: Experience Manager
 title: ImageSetMemberUpdate
-topic: Dynamic Media Image Production System API
 uuid: b0226d21-87ba-4e07-9819-79c9df3df13c
+feature: Dynamic Media經典，SDK/API，影像集
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '127'
 ht-degree: 6%
 
 ---
