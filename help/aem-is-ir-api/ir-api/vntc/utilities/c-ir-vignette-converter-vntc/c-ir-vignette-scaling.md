@@ -4,12 +4,13 @@ seo-description: 支援四種一般的製作暈映類型。
 seo-title: 暈映縮放
 solution: Experience Manager
 title: 暈映縮放
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 08c8f826-7dce-4bcb-9323-4892262eb578
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
@@ -27,7 +28,7 @@ ht-degree: 0%
    建議在已知所有所需的演算影像大小時使用。 提供比單一解析度和金字塔暈映更高品質和更快速的演算，因為在演算後不需要縮放影像。
 * 金字塔
 
-   最佳用途，建議您在需要多種影像尺寸且未預先決定確切尺寸，以及使用動態媒體縮放檢視器時使用。
+   最佳用途，建議您在需要多種影像大小且未預先決定確切大小，以及使用Dynamic Media縮放檢視器時使用。
 * 含一個或多個附加解析度的金字塔
 
    針對特定尺寸提供高品質，同時仍提供彈性和縮放檢視器支援。
