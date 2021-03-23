@@ -4,12 +4,13 @@ seo-description: 彈出檢視器的JavaScript API參考。
 seo-title: setLocalizedTexts
 solution: Experience Manager
 title: setLocalizedTexts
-topic: Dynamic Media
 uuid: 69341735-5ebe-4e3b-acad-b6b916b11bb5
+feature: Dynamic Media經典，檢視器，SDK/API,Flyout
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '85'
 ht-degree: 2%
 
 ---
