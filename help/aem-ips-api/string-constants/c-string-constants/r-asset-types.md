@@ -4,13 +4,14 @@ seo-description: 說明各種輸入參數使用的值。 如需詳細資訊，�
 seo-title: 資產類型
 solution: Experience Manager
 title: 資產類型
-topic: Dynamic Media Image Production System API
 uuid: 932bae5a-1e5f-493a-a6fa-5c367c632f97
+feature: Dynamic Media經典，SDK/API，資產管理
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 14%
+source-wordcount: '64'
+ht-degree: 12%
 
 ---
 
