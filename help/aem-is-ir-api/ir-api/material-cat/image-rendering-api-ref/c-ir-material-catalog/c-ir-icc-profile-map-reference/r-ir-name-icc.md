@@ -4,13 +4,14 @@ seo-description: 描述檔捷徑名稱。 顏色描述檔的捷徑名稱。
 seo-title: 名稱
 solution: Experience Manager
 title: 名稱
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f293ceb0-65dc-414c-8ff7-21e70f0315a4
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 14%
+source-wordcount: '72'
+ht-degree: 12%
 
 ---
 
