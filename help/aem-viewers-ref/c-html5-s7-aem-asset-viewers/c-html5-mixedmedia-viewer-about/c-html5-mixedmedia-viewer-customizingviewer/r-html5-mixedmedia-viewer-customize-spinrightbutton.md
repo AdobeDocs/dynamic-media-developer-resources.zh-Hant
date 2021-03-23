@@ -4,12 +4,13 @@ seo-description: 在主視圖中按一下或點選此按鈕會將影像向右旋
 seo-title: 右轉按鈕
 solution: Experience Manager
 title: 右轉按鈕
-topic: Dynamic Media
 uuid: 3af363bd-3de3-42c7-80cc-4512ffc1f10d
+feature: Dynamic Media經典，檢視器，SDK/API,Mix Media Sets
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '396'
 ht-degree: 3%
 
 ---
