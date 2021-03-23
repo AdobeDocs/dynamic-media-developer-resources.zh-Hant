@@ -4,12 +4,13 @@ seo-description: 影像地圖資料。 提供此圖層的影像地圖資料。 �
 seo-title: 地圖
 solution: Experience Manager
 title: 地圖
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9c1c3323-21ab-4820-bf4e-761b82ada1ab
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '251'
 ht-degree: 3%
 
 ---
@@ -42,7 +43,7 @@ ht-degree: 3%
 
 ## 屬性 {#section-a18d9ea95c71414a905a68b8839c0843}
 
-層屬性。 當套用至`layer=comp`時，指定的地圖資料會分層在所有其他影像地圖後面。 忽略，除非`req=map`。 被效果圖層忽略。 `mapA=` 如果也指 `map=` 定，則會忽略。
+層屬性。 當套用至`layer=comp`時，指定的地圖資料會分層在所有其他影像地圖後面。 忽略，除非`req=map`。 被效果圖層忽略。 `mapA=` 如果也指 `map=` 定，則忽略。
 
 ## 預設 {#section-620c19b3f3b84ba49706062de3f12f05}
 
