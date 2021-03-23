@@ -4,12 +4,13 @@ seo-description: 檢視高度。 指定回覆影像的高度。
 seo-title: hei
 solution: Experience Manager
 title: 黑
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 6f7e580b-6399-4661-b5d9-8044574ba124
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '190'
 ht-degree: 4%
 
 ---
