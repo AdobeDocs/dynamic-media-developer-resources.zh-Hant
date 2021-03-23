@@ -4,13 +4,14 @@ seo-description: 預設的JPEG編碼品質。 指定JPEG編碼回覆影像的預
 seo-title: JpegQuality
 solution: Experience Manager
 title: JpegQuality
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 82dabdae-a1f3-484a-a520-ae765914d0f7
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 4%
+source-wordcount: '101'
+ht-degree: 3%
 
 ---
 
