@@ -1,15 +1,16 @@
 ---
-description: 暈映製作工具（動態媒體影像製作套件的一部分）提供控制暈映演算引擎低階層面的機制。
-seo-description: 暈映製作工具（動態媒體影像製作套件的一部分）提供控制暈映演算引擎低階層面的機制。
+description: 暈映製作工具(Dynamic Media影像製作套件的一部分)提供控制暈映演算引擎低階層面的機制。
+seo-description: 暈映製作工具(Dynamic Media影像製作套件的一部分)提供控制暈映演算引擎低階層面的機制。
 seo-title: 進階演算設定
 solution: Experience Manager
 title: 進階演算設定
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 18e7f3cf-4d30-445c-813c-546a91987b99
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '641'
 ht-degree: 24%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 24%
 
 # 進階演算設定{#advanced-render-settings}
 
-暈映製作工具（動態媒體影像製作套件的一部分）提供控制暈映演算引擎低階層面的機制。
+暈映製作工具(Dynamic Media影像製作套件的一部分)提供控制暈映演算引擎低階層面的機制。
 
 >[!NOTE]
 >
->「演算設定」是「影像演算」和「影像製作」的進階功能。 如需訓練、諮詢或兩者的相關資訊，請洽詢Adobe技術支援或Adobe諮詢代表，以取得使用「演算設定」的資訊。
+>「演算設定」是「影像演算」和「影像製作」的進階功能。 請聯絡Adobe技術支援或您的Adobe諮詢代表，以取得有關使用「演算設定」的訓練、諮詢或兩者。
 
 在「影像製作」中，這些設定會以互動方式加以控制。 在「影像演算」中，可使用`rs=`命令（或使用`catalog::RenderSettings`值）套用相同的設定。 此機制用於為每個材質選取不同的銳利化選項，並修改照明演算法的行為，例如變更亮部的飽和度或陰影中的對比度。
 
@@ -55,14 +56,14 @@ ht-degree: 24%
   <tr> 
    <td colname="col1"> <p>W </p> </td> 
    <td colname="col2"> <p>USM金額(%)。 </p> </td> 
-   <td colname="col3"> <p>3 </p> </td> 
+   <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>500 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>V </p> </td> 
    <td colname="col2"> <p>USM半徑（像素）。 </p> </td> 
-   <td colname="col3"> <p>3 </p> </td> 
+   <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>100 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
@@ -141,7 +142,7 @@ ht-degree: 24%
    <td colname="col1"> <p>Y </p> </td> 
    <td colname="col2"> <p>泊松：使用切換。 </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
-   <td colname="col4"> <p>3 </p> </td> 
+   <td colname="col4"> <p>1 </p> </td> 
    <td colname="col5"> <p>預設為 1。 </p> </td> 
   </tr> 
   <tr> 
