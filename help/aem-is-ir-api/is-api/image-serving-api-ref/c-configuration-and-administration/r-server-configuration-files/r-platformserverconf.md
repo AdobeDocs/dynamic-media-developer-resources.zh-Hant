@@ -4,12 +4,13 @@ seo-description: 包含平台伺服器設定。
 seo-title: PlatformServer.conf
 solution: Experience Manager
 title: PlatformServer.conf
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d798762b-c9ff-4e1b-b2ac-c5e40476b375
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '165'
 ht-degree: 1%
 
 ---
