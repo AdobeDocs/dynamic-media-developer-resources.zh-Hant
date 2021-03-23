@@ -2,12 +2,13 @@
 description: 下載
 solution: Experience Manager
 title: 下載
-topic: Dynamic Media
 uuid: 73f012dc-4fd0-4460-87d8-3079bcd7a9de
+feature: Dynamic Media經典，檢視器，SDK/API,eCatalog搜尋
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '164'
 ht-degree: 3%
 
 ---
