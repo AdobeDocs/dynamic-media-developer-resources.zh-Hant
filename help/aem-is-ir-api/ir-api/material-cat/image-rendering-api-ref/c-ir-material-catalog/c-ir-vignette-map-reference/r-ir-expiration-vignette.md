@@ -4,12 +4,13 @@ seo-description: 用戶端的快取存取時間。 到期前的小時數。 用�
 seo-title: 過期
 solution: Experience Manager
 title: 過期
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: fa267728-9a36-4705-97d6-d567148fc2d7
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '158'
 ht-degree: 6%
 
 ---
@@ -23,7 +24,7 @@ ht-degree: 6%
 
 ## 屬性 {#section-dcdd44cc3f0a4849b968dbd4f1e3768a}
 
-實數、-2、-1、0或更大。 自回應影像產生以來，到期前的小時數。 設為0，一律會立即使回應影像過期，這會有效停用用戶端快取。 設定為-1以標籤為`never expire`;在這種情況下，伺服器會隨時回覆403狀態，以回應條件式`GET`要求，而不檢查檔案是否實際變更。 設定為-2以使用`attribute::Expiration`提供的預設設定。
+實數、-2、-1、0或更大。 自回應影像產生後，到期前的小時數。 設為0，一律會立即使回應影像過期，這會有效停用用戶端快取。 設定為-1以標籤為`never expire`;在這種情況下，伺服器會隨時回覆403狀態，以回應條件式`GET`要求，而不檢查檔案是否實際變更。 設定為-2以使用`attribute::Expiration`提供的預設設定。
 
 ## 預設 {#section-fb8ea80975034b49af7510764758f123}
 
