@@ -4,13 +4,14 @@ seo-description: 運行特定作業。
 seo-title: executeJob
 solution: Experience Manager
 title: executeJob
-topic: Dynamic Media Image Production System API
 uuid: e73223c1-9032-4745-92b6-a5840949a824
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 19%
+source-wordcount: '88'
+ht-degree: 18%
 
 ---
 
