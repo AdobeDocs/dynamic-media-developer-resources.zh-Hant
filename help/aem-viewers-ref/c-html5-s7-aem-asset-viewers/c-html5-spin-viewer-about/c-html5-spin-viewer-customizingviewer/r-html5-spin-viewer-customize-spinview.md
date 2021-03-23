@@ -4,12 +4,13 @@ seo-description: 主視圖由回轉影像組成。
 seo-title: 回轉視圖
 solution: Experience Manager
 title: 回轉視圖
-topic: Dynamic Media
 uuid: 74f42373-b08c-43c8-8f08-e61a09655b61
+feature: Dynamic Media經典，檢視器，SDK/API，回轉集
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '79'
 ht-degree: 1%
 
 ---
