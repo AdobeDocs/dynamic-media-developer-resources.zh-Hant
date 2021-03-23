@@ -4,12 +4,13 @@ seo-description: 「影像演算」運用「影像伺服」快取功能來儲存
 seo-title: 資料快取
 solution: Experience Manager
 title: 資料快取
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 630ed3f4-3a0d-4de4-828f-45ffc14e6bb7
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
