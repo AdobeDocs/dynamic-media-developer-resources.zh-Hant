@@ -4,12 +4,13 @@ seo-description: 設定指標是檢視器底部呈現的一系列點。 它顯�
 seo-title: 設定指標
 solution: Experience Manager
 title: 設定指標
-topic: Dynamic Media
 uuid: 3f90a216-654f-44a9-947d-592bd5f342d4
+feature: Dynamic Media經典，檢視器，SDK/API，轉盤橫幅
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '349'
 ht-degree: 1%
 
 ---
