@@ -2,12 +2,13 @@
 description: FlyoutZoomView.highlightmode
 solution: Experience Manager
 title: FlyoutZoomView.highlightmode
-topic: Dynamic Media
 uuid: 397c1af0-f806-4555-83fa-ec7548b59a60
+feature: Dynamic Media經典，檢視器，SDK/API,Flyout
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '266'
 ht-degree: 1%
 
 ---
@@ -29,7 +30,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> onimage|free  </span> </p> </td> 
-   <td colname="col2"> <p> 控制導覽影格的位置。 </p> <p>如果設為<span class="codeph"> onimage </span>，則導覽影格只能位於主檢視的實際影像區域內。 </p> <p>如果設為<span class="codeph">免費</span>，則用戶可以將導航框架移動到邏輯主視圖區域中的任意位置，甚至是外部影像內容。 </p> </td> 
+   <td colname="col2"> <p> 控制導覽影格的位置。 </p> <p>如果設為<span class="codeph"> onimage </span>，則導覽影格只能位於主檢視的實際影像區域內。 </p> <p>如果設定為<span class="codeph">自由</span>，則用戶可以將導航幀移動到邏輯主視圖區域中的任意位置，即使是外部影像內容。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
