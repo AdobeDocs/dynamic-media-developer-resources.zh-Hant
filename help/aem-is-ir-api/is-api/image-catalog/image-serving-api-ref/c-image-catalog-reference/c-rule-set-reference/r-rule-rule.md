@@ -4,13 +4,14 @@ seo-description: 請求規則元素。 在<規則集>元素中，一或多個規
 seo-title: 規則
 solution: Experience Manager
 title: 規則
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8b8e5b06-a0b7-47e1-942d-0297d08c313b
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 7%
+source-wordcount: '319'
+ht-degree: 6%
 
 ---
 
