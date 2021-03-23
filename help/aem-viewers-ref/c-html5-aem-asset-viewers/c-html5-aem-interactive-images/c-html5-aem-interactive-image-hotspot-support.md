@@ -2,12 +2,13 @@
 description: 熱點支援
 solution: Experience Manager
 title: 熱點支援
-topic: Dynamic Media
 uuid: 62e0e55a-55a3-417d-ad51-ec77a7c16ac3
+feature: Dynamic Media經典，檢視器，SDK/API，互動式影像
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
@@ -23,8 +24,8 @@ ht-degree: 0%
 
 ## 快速查看熱點{#section-cda48fc9730142d0bb3326bac7df3271}
 
-這些熱點類型應使用Dynamic Media中的「快速檢視」動作類型(AEM Assets - on demand)編寫。 當使用者啟動此熱點時，檢視器會執行`quickViewActivate` JavaScript回呼，並將熱點資料傳遞給它。 預期內嵌網頁會監聽此回呼。 當它觸發頁面時，會開啟其自己的快速檢視實作。
+這些類型的熱點應使用AEM AssetsDynamic Media的「快速查看」操作類型按需編寫。 當使用者啟動此熱點時，檢視器會執行`quickViewActivate` JavaScript回呼，並將熱點資料傳遞給它。 預期內嵌網頁會監聽此回呼。 當它觸發頁面時，會開啟其自己的快速檢視實作。
 
 ## 重定向至外部網頁{#section-ef820c71251e4215800bb99c0c9ebe16}
 
-針對AEM Assets動態媒體中的動作類型「快速檢視」撰寫的熱點——隨選將使用者重新導向至外部URL。 URL會在新的瀏覽器索引標籤、相同視窗或指名的瀏覽器視窗中開啟，視編寫時所做的設定而定。
+為AEM AssetsDynamic Media的動作類型「快速檢視」撰寫的熱點——隨選會將使用者重新導向至外部URL。 URL會在新的瀏覽器索引標籤、相同視窗或指名的瀏覽器視窗中開啟，視編寫時所做的設定而定。
