@@ -4,13 +4,14 @@ seo-description: 設定與資產影像相關聯的縮放目標。 它會覆寫�
 seo-title: setZoomTargets
 solution: Experience Manager
 title: setZoomTargets
-topic: Dynamic Media Image Production System API
 uuid: 5d0aecec-ebd8-4c69-9514-c29fae347ee6
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 12%
+source-wordcount: '143'
+ht-degree: 11%
 
 ---
 
@@ -32,7 +33,7 @@ ht-degree: 12%
 
 ## 參數 {#section-161f8c733cc4439f94a06e12119d4226}
 
-**輸入(setZoomTargetsParam)**
+**Input(setZoomTargetsParam)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
