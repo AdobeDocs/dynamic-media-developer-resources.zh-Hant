@@ -4,12 +4,13 @@ seo-description: 安裝後，您將需要設定服務以在其他使用者帳戶
 seo-title: 使用管理員以外的其他使用者帳戶進行安裝
 solution: Experience Manager
 title: 使用管理員以外的其他使用者帳戶進行安裝
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: c5944515-c378-45c3-bc18-3261133ba009
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
