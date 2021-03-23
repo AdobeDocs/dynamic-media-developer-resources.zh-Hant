@@ -4,13 +4,14 @@ seo-description: 使用下列命令來編碼字元。
 seo-title: 字元編碼
 solution: Experience Manager
 title: 字元編碼
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 7b19b831-b40c-4f26-83a4-732c578dbbf0
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 2%
+source-wordcount: '103'
+ht-degree: 1%
 
 ---
 
@@ -36,7 +37,7 @@ ht-degree: 2%
   <tr> 
    <td> <span class="codeph">\<span class="varname"> uN</span></span> </td> 
    <td> <p>單一Unicode字元。 </p> </td> 
-   <td> <p><span class="varname"> </span> Nis a signed 2 byter and aso a Unicode value thas the 32767 must be expressed a negative number. </p> </td> 
+   <td> <p><span class="varname"> </span> Nis a signed 2 byter and a so a Unicode value thas the 32767 must be experated a number. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph">\<span class="varname"> ucN</span></span> </td> 
