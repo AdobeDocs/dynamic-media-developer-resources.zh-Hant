@@ -4,13 +4,14 @@ seo-description: 主視圖由靜態影像、在靜態影像上方的彈出視圖
 seo-title: 彈出式縮放檢視
 solution: Experience Manager
 title: 彈出式縮放檢視
-topic: Dynamic Media
 uuid: a918c775-a36a-44e8-9ca4-90cb8f5c3a5e
+feature: Dynamic Media經典，檢視器，SDK/API，內嵌縮放
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 3%
+source-wordcount: '302'
+ht-degree: 2%
 
 ---
 
