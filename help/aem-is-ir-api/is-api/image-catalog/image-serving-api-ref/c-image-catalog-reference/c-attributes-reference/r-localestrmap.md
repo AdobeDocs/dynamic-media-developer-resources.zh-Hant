@@ -4,12 +4,13 @@ seo-description: 字串轉譯映射。 指可映射至任何數目internalLocId�
 seo-title: LocaleStrMap
 solution: Experience Manager
 title: LocaleStrMap
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 44207916-80a6-42cb-8bf1-fcf0f5194c6d
+feature: Dynamic Media經典，SDK/API
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '260'
 ht-degree: 1%
 
 ---
