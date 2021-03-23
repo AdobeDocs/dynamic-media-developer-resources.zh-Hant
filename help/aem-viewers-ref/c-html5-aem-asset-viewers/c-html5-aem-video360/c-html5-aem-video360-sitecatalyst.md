@@ -2,13 +2,14 @@
 description: 支援Adobe Analytics追蹤
 solution: Experience Manager
 title: 支援Adobe Analytics追蹤
-topic: Dynamic Media
 uuid: 0d4dee7b-3ffb-4bf5-93b1-67972bfc9b2a
+feature: Dynamic Media經典，檢視器，SDK/API,360 VR視訊
+role: 開發人員，商業從業人員，資料工程師，資料架構師
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 5%
+source-wordcount: '153'
+ht-degree: 4%
 
 ---
 
