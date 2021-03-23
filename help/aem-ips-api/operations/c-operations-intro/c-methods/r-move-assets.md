@@ -4,13 +4,14 @@ seo-description: 獨立移動多個資產。 它使用assetMoveArray中包含的
 seo-title: moveAssets
 solution: Experience Manager
 title: moveAssets
-topic: Dynamic Media Image Production System API
 uuid: 178f9979-fff5-45ce-a001-1263d1770ea8
+feature: Dynamic Media經典，SDK/API，資產管理
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 11%
+source-wordcount: '244'
+ht-degree: 10%
 
 ---
 
