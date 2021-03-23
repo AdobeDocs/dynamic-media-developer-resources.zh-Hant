@@ -4,13 +4,14 @@ seo-description: Video360檢視器的設定屬性。
 seo-title: Video360Player.posterimage
 solution: Experience Manager
 title: Video360Player.posterimage
-topic: Dynamic Media
 uuid: a1adc3b7-2ea3-4f26-84f2-b5c2f4418038
+feature: Dynamic Media經典，檢視器，SDK/API,360 VR視訊
+role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 14%
+source-wordcount: '93'
+ht-degree: 12%
 
 ---
 
@@ -30,7 +31,7 @@ Video360檢視器的設定屬性。
       <li id="li_E7AE1BDAC17E49E0B7ACF89C5C0529F0"> <p> <span class="codeph"> ?</span> 作為 <span class="codeph"> %3F</span> </p> </li> 
       <li id="li_391CCF067F734480B2B4AFC9760C479A"> <p> <span class="codeph"> &amp;</span> as <span class="codeph"> %26</span> </p> </li> 
       <li id="li_6824B66A55554C5A8B12874DCF5BFAEE"> <p> <span class="codeph"> =</span> as <span class="codeph"> %3D</span> </p> </li> 
-     </ul> </p> <p> 此修飾元適用於Dynamic Media Classic或AEM Dynamic Media上代管的視訊內容。 </p> <p>若要防止顯示預設海報影像，請指定<span class="codeph"> none</span>為海報影像值。 </p> </td> 
+     </ul> </p> <p> 此修飾元適用於Dynamic Media經典或Dynamic Media代管的視訊AEM內容。 </p> <p>若要防止顯示預設海報影像，請指定<span class="codeph"> none</span>為海報影像值。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
