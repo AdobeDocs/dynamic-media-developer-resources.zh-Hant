@@ -4,12 +4,13 @@ seo-description: 響應CDN失效請求中提供的一個URL的消息陣列。
 seo-title: OperationFaultArray
 solution: Experience Manager
 title: OperationFaultArray
-topic: Dynamic Media Image Production System API
 uuid: dbf4ab5e-50fb-42f1-a97a-f8d07022b303
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '75'
 ht-degree: 5%
 
 ---
