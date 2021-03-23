@@ -4,12 +4,13 @@ seo-description: 請將這些伺服器設定用於伺服器快取。
 seo-title: 伺服器快取
 solution: Experience Manager
 title: 伺服器快取
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 73745363-2011-453f-b7a0-96de4b44186d
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
