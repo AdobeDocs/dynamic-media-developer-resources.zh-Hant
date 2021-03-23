@@ -4,13 +4,14 @@ seo-description: 建立或編輯群組。
 seo-title: saveGroup
 solution: Experience Manager
 title: saveGroup
-topic: Dynamic Media Image Production System API
 uuid: d1631a55-7f1d-48b4-8b35-fd5a05277219
+feature: Dynamic Media經典，SDK/API
+role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 20%
+source-wordcount: '105'
+ht-degree: 19%
 
 ---
 
