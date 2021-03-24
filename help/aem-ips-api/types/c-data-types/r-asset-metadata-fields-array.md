@@ -1,17 +1,14 @@
 ---
 description: AssetMetadataFields的陣列。 getAssetMetadataFields用來傳回單一呼叫中的所有資產中繼資料欄位，並依資產類型分組結果。
-seo-description: AssetMetadataFields的陣列。 getAssetMetadataFields用來傳回單一呼叫中的所有資產中繼資料欄位，並依資產類型分組結果。
-seo-title: AssetMetadataFieldsArray
 solution: Experience Manager
 title: AssetMetadataFieldsArray
-uuid: a131b234-83f3-4e3c-afa9-14314e78367f
 feature: Dynamic Media經典，SDK/API，元資料，資產管理
 role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 6%
+source-wordcount: '67'
+ht-degree: 8%
 
 ---
 
