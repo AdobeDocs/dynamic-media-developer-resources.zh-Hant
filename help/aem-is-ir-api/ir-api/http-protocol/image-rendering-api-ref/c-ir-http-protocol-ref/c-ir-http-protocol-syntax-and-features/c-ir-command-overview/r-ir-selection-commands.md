@@ -1,16 +1,13 @@
 ---
 description: 這些命令用於選擇暈映組、對象、組或對象的子區域。
-seo-description: 這些命令用於選擇暈映組、對象、組或對象的子區域。
-seo-title: 選取命令
 solution: Experience Manager
 title: 選取命令
-uuid: fac4080b-3b7e-46ac-a564-3a7eff80c9eb
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
