@@ -1,16 +1,13 @@
 ---
 description: 請求和暈映修飾詞字串的查詢部分可能包含使用者定義的變數。
-seo-description: 請求和暈映修飾詞字串的查詢部分可能包含使用者定義的變數。
-seo-title: 自訂變數
 solution: Experience Manager
 title: 自訂變數
-uuid: 933fba00-759c-4bd3-bada-eec751426d9e
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '253'
 ht-degree: 0%
 
 ---
