@@ -1,17 +1,14 @@
 ---
 description: 基本縮放檢視器是可顯示單一縮放影像的影像檢視器。 它提供縮放工具、全螢幕支援和選購的關閉按鈕。 此檢視器是最輕量型的。 它可在桌上型電腦和行動裝置上運作。
 keywords: 回應
-seo-description: 基本縮放檢視器是可顯示單一縮放影像的影像檢視器。 它提供縮放工具、全螢幕支援和選購的關閉按鈕。 此檢視器是最輕量型的。 它可在桌上型電腦和行動裝置上運作。
-seo-title: 基本縮放
 solution: Experience Manager
 title: 基本縮放
-uuid: 5466d647-af70-4503-9898-bb712ba6a007
 feature: Dynamic Media經典，檢視器，SDK/API，縮放
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '2087'
+source-wordcount: '2044'
 ht-degree: 0%
 
 ---
