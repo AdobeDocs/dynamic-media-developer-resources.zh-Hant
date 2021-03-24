@@ -1,16 +1,13 @@
 ---
 description: 列印解析度。 覆寫回應影像中內嵌的列印解析度值。
-seo-description: 列印解析度。 覆寫回應影像中內嵌的列印解析度值。
-seo-title: printRes
 solution: Experience Manager
 title: printRes
-uuid: 5bca705a-3a48-4e5e-83eb-c200b6318564
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '84'
 ht-degree: 2%
 
 ---
