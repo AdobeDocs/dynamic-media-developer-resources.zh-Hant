@@ -1,17 +1,14 @@
 ---
 description: 套用PDF工作選項。 作業選項檔案或PDF預設集是Illustrator在「另存為PDF選項」對話方塊或InDesign中的PDF預設集中產生的檔案。
-seo-description: 套用PDF工作選項。 作業選項檔案或PDF預設集是Illustrator在「另存為PDF選項」對話方塊或InDesign中的PDF預設集中產生的檔案。
-seo-title: 作業選項
 solution: Experience Manager
 title: 作業選項
-uuid: 7288cf29-850f-4121-8425-5f995daac22d
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 40%
+source-wordcount: '236'
+ht-degree: 46%
 
 ---
 
