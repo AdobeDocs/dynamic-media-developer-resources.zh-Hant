@@ -1,17 +1,14 @@
 ---
 description: 刪除影像格式。 從saveImageFormat取得影像格式控制代碼。
-seo-description: 刪除影像格式。 從saveImageFormat取得影像格式控制代碼。
-seo-title: deleteImageFormat
 solution: Experience Manager
 title: deleteImageFormat
-uuid: 70dddde9-830b-4267-8ef5-df5241f549e3
 feature: Dynamic Media經典，SDK/API
 role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 9%
+source-wordcount: '109'
+ht-degree: 11%
 
 ---
 
