@@ -1,17 +1,14 @@
 ---
 description: 您可以設定資料快取。
-seo-description: 您可以設定資料快取。
-seo-title: 資料快取
 solution: Experience Manager
 title: 資料快取
-uuid: e97fad8d-b3b6-4cc2-a96c-62c96824384c
 feature: Dynamic Media經典，SDK/API
 role: 開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 4%
+source-wordcount: '40'
+ht-degree: 5%
 
 ---
 
