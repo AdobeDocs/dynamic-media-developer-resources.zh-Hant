@@ -1,16 +1,13 @@
 ---
 description: 影像錨點。 在套用變形(crop=、scale=、rotate=、flip=)之前，定義影像、純色或文字邊界方框矩形的錨點。 也可做為旋轉=的旋轉中心。
-seo-description: 影像錨點。 在套用變形(crop=、scale=、rotate=、flip=)之前，定義影像、純色或文字邊界方框矩形的錨點。 也可做為旋轉=的旋轉中心。
-seo-title: 錨記
 solution: Experience Manager
 title: 錨記
-uuid: 3b174360-9bb7-4dc8-83be-6b8c4ea88cd4
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '216'
 ht-degree: 3%
 
 ---
