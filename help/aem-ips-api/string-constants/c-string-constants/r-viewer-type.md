@@ -1,17 +1,14 @@
 ---
 description: 由ViewerPresetInfo使用。
-seo-description: 由ViewerPresetInfo使用。
-seo-title: 檢視器類型
 solution: Experience Manager
 title: 檢視器類型
-uuid: 95b438db-35a8-45cf-8ec0-4a85e8b869c5
 feature: Dynamic Media經典，SDK/API，檢視器
 role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '25'
-ht-degree: 32%
+source-wordcount: '20'
+ht-degree: 30%
 
 ---
 
