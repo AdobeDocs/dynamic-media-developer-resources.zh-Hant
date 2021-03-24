@@ -1,16 +1,13 @@
 ---
 description: 請為映像目錄服務使用這些伺服器設定。
-seo-description: 請為映像目錄服務使用這些伺服器設定。
-seo-title: 影像目錄服務
 solution: Experience Manager
 title: 影像目錄服務
-uuid: 601b1c30-7d51-448b-97b5-5ad9cb383975
 feature: Dynamic Media經典，SDK/API
 role: 開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
