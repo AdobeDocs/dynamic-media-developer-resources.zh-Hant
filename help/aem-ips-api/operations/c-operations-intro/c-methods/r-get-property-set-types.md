@@ -1,17 +1,14 @@
 ---
 description: 獲取與指定公司關聯的屬性集類型，或者如果未指定公司，則獲取全局屬性集類型。
-seo-description: 獲取與指定公司關聯的屬性集類型，或者如果未指定公司，則獲取全局屬性集類型。
-seo-title: getPropertySetTypes
 solution: Experience Manager
 title: getPropertySetTypes
-uuid: b707344d-5571-45eb-9e37-cf0894ee81a0
 feature: Dynamic Media經典，SDK/API
 role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 12%
+source-wordcount: '120'
+ht-degree: 14%
 
 ---
 
