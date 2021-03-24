@@ -3,11 +3,10 @@ description: 自訂內嵌縮放檢視器
 keywords: 回應
 solution: Experience Manager
 title: 自訂內嵌縮放檢視器
-uuid: c9203ea7-47dc-40f6-add8-04e4258da7c9
 feature: Dynamic Media經典，檢視器，SDK/API，內嵌縮放
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '1293'
 ht-degree: 0%
