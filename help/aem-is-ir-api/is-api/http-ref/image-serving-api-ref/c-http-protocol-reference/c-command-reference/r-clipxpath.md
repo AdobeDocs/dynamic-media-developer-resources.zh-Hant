@@ -1,17 +1,14 @@
 ---
 description: 反轉圖層剪輯路徑。 指定目前圖層的排除剪輯路徑。 圖層中由clipXPath=定義的區域內的任何部分都呈現為透明。
-seo-description: 反轉圖層剪輯路徑。 指定目前圖層的排除剪輯路徑。 圖層中由clipXPath=定義的區域內的任何部分都呈現為透明。
-seo-title: clipXPath
 solution: Experience Manager
 title: clipXPath
-uuid: a4062f3f-5dba-4514-acde-e1b7d608a2e9
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 3%
+source-wordcount: '125'
+ht-degree: 4%
 
 ---
 
