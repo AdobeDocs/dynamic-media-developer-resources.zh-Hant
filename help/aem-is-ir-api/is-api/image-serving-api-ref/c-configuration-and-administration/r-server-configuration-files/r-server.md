@@ -1,16 +1,13 @@
 ---
 description: 包含平台伺服器設定。
-seo-description: 包含平台伺服器設定。
-seo-title: server.xml
 solution: Experience Manager
 title: server.xml
-uuid: 6f8b7047-6de6-4a56-96b7-58c481150e32
 feature: Dynamic Media經典，SDK/API
 role: 開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '93'
 ht-degree: 0%
 
 ---
