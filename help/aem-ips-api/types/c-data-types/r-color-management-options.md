@@ -1,17 +1,14 @@
 ---
 description: 上傳期間指定的選項。 影響上傳色彩的管理方式。
-seo-description: 上傳期間指定的選項。 影響上傳色彩的管理方式。
-seo-title: 色彩管理選項
 solution: Experience Manager
 title: 色彩管理選項
-uuid: ddf50d22-8d7b-4881-8023-bd7f58cbd882
 feature: Dynamic Media經典，SDK/API
 role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 7%
+source-wordcount: '51'
+ht-degree: 9%
 
 ---
 
