@@ -1,17 +1,14 @@
 ---
 description: 取得使用者的相關資訊。 使用系統使用者的電子郵件地址和密碼作為授權請求的憑證。 否則，操作將獲取有關預設用戶的資訊。
-seo-description: 取得使用者的相關資訊。 使用系統使用者的電子郵件地址和密碼作為授權請求的憑證。 否則，操作將獲取有關預設用戶的資訊。
-seo-title: getUserInfo
 solution: Experience Manager
 title: getUserInfo
-uuid: b305c108-22e9-4268-a5b3-25fddd844c24
 feature: Dynamic Media經典，SDK/API
 role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 9%
+source-wordcount: '146'
+ht-degree: 11%
 
 ---
 
