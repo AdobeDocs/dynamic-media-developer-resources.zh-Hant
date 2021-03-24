@@ -1,17 +1,14 @@
 ---
 description: 此材料類別包括牆壁、木工和修剪的油漆、汽車以及不需要紋理的任何其他應用程式。
-seo-description: 此材料類別包括牆壁、木工和修剪的油漆、汽車以及不需要紋理的任何其他應用程式。
-seo-title: 純色
 solution: Experience Manager
 title: 純色
-uuid: 75b60e44-1727-4f3e-a186-df66fabeec0d
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 2%
+source-wordcount: '127'
+ht-degree: 3%
 
 ---
 
