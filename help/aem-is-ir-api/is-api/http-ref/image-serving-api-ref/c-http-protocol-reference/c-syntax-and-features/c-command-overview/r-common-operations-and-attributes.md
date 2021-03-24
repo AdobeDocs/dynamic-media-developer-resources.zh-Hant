@@ -1,17 +1,14 @@
 ---
 description: 這些命令適用於影像、文字和純色圖層。 它們通常也適用於合成影像和簡單、非圖層的影像要求。
-seo-description: 這些命令適用於影像、文字和純色圖層。 它們通常也適用於合成影像和簡單、非圖層的影像要求。
-seo-title: 常見操作
 solution: Experience Manager
 title: 常見操作
-uuid: 2d1be69a-661e-494a-9748-3a6525b19b1b
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 2%
+source-wordcount: '154'
+ht-degree: 3%
 
 ---
 
