@@ -1,17 +1,14 @@
 ---
 description: 暈映製作工具(Dynamic Media影像製作套件的一部分)提供控制暈映演算引擎低階層面的機制。
-seo-description: 暈映製作工具(Dynamic Media影像製作套件的一部分)提供控制暈映演算引擎低階層面的機制。
-seo-title: 進階演算設定
 solution: Experience Manager
 title: 進階演算設定
-uuid: 18e7f3cf-4d30-445c-813c-546a91987b99
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 24%
+source-wordcount: '615'
+ht-degree: 25%
 
 ---
 
@@ -63,7 +60,7 @@ ht-degree: 24%
   <tr> 
    <td colname="col1"> <p>V </p> </td> 
    <td colname="col2"> <p>USM半徑（像素）。 </p> </td> 
-   <td colname="col3"> <p>1 </p> </td> 
+   <td colname="col3"> <p>3 </p> </td> 
    <td colname="col4"> <p>100 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
