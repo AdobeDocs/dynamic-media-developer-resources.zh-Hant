@@ -1,16 +1,13 @@
 ---
 description: 以下選項控制檔案櫃樣式檔案的處理。 如果sourceFile不是檔案櫃樣式檔案或指定了-info ，則忽略它們。
-seo-description: 以下選項控制檔案櫃樣式檔案的處理。 如果sourceFile不是檔案櫃樣式檔案或指定了-info ，則忽略它們。
-seo-title: 檔案櫃樣式檔案的選項
 solution: Experience Manager
 title: 檔案櫃樣式檔案的選項
-uuid: bca84724-d710-45da-86e9-7385f689fd4b
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
