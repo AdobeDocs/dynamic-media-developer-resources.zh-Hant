@@ -1,16 +1,13 @@
 ---
 description: 建立新的影像地圖或編輯現有的地圖。
-seo-description: 建立新的影像地圖或編輯現有的地圖。
-seo-title: saveImageMap
 solution: Experience Manager
 title: saveImageMap
-uuid: 9714fc99-2259-4766-96d7-fe2f9fd2f341
 feature: Dynamic Media經典，SDK/API
 role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '260'
 ht-degree: 15%
 
 ---
