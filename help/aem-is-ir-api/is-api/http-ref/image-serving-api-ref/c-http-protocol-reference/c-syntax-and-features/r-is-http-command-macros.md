@@ -1,16 +1,13 @@
 ---
 description: 命令宏為命令集提供命名快捷方式。 宏在單獨的宏定義檔案中定義，這些宏定義檔案可以附加到影像目錄或預設目錄。
-seo-description: 命令宏為命令集提供命名快捷方式。 宏在單獨的宏定義檔案中定義，這些宏定義檔案可以附加到影像目錄或預設目錄。
-seo-title: 命令宏
 solution: Experience Manager
 title: 命令宏
-uuid: a6ff5642-6716-484f-b37e-066994362a9b
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '320'
 ht-degree: 1%
 
 ---
