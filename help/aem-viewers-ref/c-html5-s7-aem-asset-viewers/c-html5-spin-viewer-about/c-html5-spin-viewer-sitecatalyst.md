@@ -1,16 +1,13 @@
 ---
 description: 回轉檢視器支援Adobe Analytics立即追蹤。
-seo-description: 回轉檢視器支援Adobe Analytics立即追蹤。
-seo-title: 支援Adobe Analytics追蹤
 solution: Experience Manager
 title: 支援Adobe Analytics追蹤
-uuid: 337671f0-22e8-4e3e-a0a9-ce49d271ea56
 feature: Dynamic Media經典，檢視器，SDK/API，回轉集
 role: 開發人員，商業從業人員，資料工程師，資料架構師
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '171'
 ht-degree: 2%
 
 ---
