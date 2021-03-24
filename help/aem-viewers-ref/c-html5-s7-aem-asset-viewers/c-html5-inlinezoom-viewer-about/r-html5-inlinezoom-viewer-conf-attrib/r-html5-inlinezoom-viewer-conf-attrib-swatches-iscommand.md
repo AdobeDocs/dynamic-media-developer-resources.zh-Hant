@@ -2,11 +2,10 @@
 description: Swatches.iscommand
 solution: Experience Manager
 title: Swatches.iscommand
-uuid: a7d3b93b-daa2-4d08-8e2f-52e3ea11efbd
 feature: Dynamic Media經典，檢視器，SDK/API，內嵌縮放
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '72'
 ht-degree: 6%
