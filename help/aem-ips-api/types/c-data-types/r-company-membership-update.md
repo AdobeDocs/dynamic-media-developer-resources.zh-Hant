@@ -2,11 +2,10 @@
 description: 公司會籍更新
 solution: Experience Manager
 title: 公司會籍更新
-uuid: dc396fd7-6ac1-4f52-9b30-e43808edefd0
 feature: Dynamic Media經典，SDK/API
 role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '43'
 ht-degree: 11%
