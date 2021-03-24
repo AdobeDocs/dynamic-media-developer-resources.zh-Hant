@@ -1,17 +1,14 @@
 ---
 description: 資產的控點，以及將資產移至何處的控點。
-seo-description: 資產的控點，以及將資產移至何處的控點。
-seo-title: 資產移動
 solution: Experience Manager
 title: 資產移動
-uuid: 71335886-efe7-4565-a088-769bcbe7abaf
 feature: Dynamic Media經典，SDK/API，資產管理
 role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 6%
+source-wordcount: '61'
+ht-degree: 8%
 
 ---
 
