@@ -1,16 +1,13 @@
 ---
 description: 客戶訊息。 為客戶端提供將短文本消息插入伺服器日誌的機制。
-seo-description: 客戶訊息。 為客戶端提供將短文本消息插入伺服器日誌的機制。
-seo-title: 訊息
 solution: Experience Manager
 title: 訊息
-uuid: 38d6d0e7-55cf-43ea-85b7-8f4aade4208a
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '60'
 ht-degree: 6%
 
 ---
