@@ -1,16 +1,13 @@
 ---
 description: 「影像伺服」提供擷取階層文字回應（xml或json）的機制，此回應代表與特定記錄的目錄ImageSet相關的所有資源和中繼資料。
-seo-description: 「影像伺服」提供擷取階層文字回應（xml或json）的機制，此回應代表與特定記錄的目錄ImageSet相關的所有資源和中繼資料。
-seo-title: 媒體集請求
 solution: Experience Manager
 title: 媒體集請求
-uuid: af9fabcd-531d-43fb-bd97-269923bea5e8
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '970'
 ht-degree: 0%
 
 ---
