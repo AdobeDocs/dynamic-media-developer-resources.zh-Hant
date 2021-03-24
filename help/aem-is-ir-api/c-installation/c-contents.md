@@ -1,16 +1,13 @@
 ---
 description: 安裝後，install_root中的資料夾分層結構將包括下面列出的檔案和資料夾。
-seo-description: 安裝後，install_root中的資料夾分層結構將包括下面列出的檔案和資料夾。
-seo-title: 目錄
 solution: Experience Manager
 title: 目錄
-uuid: 4c92c916-3b6a-4ac8-8d32-121f79da100a
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '349'
 ht-degree: 2%
 
 ---
