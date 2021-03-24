@@ -1,16 +1,13 @@
 ---
 description: 替代字串元素。 在<rule>元素中為可選項。
-seo-description: 替代字串元素。 在<rule>元素中為可選項。
-seo-title: 替代
 solution: Experience Manager
 title: 替代
-uuid: e5730559-0512-4416-927d-a7faf9180741
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '176'
 ht-degree: 2%
 
 ---
