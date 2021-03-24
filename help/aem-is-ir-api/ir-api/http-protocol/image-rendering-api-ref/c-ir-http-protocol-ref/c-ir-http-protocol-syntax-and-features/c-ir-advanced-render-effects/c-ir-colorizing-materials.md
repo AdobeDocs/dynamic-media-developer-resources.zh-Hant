@@ -1,16 +1,13 @@
 ---
 description: 大部分材料都可動態上色。
-seo-description: 大部分材料都可動態上色。
-seo-title: 著色材料
 solution: Experience Manager
 title: 著色材料
-uuid: 3f5a9089-6e35-446c-89f9-71b067e0d1df
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '83'
 ht-degree: 0%
 
 ---
