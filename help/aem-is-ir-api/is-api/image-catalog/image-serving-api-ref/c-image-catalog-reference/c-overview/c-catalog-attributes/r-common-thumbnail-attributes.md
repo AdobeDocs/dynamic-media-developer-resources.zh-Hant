@@ -1,16 +1,13 @@
 ---
 description: 目錄屬性檔案可識別這些常見的縮圖屬性。
-seo-description: 目錄屬性檔案可識別這些常見的縮圖屬性。
-seo-title: 常見縮圖屬性
 solution: Experience Manager
 title: 常見縮圖屬性
-uuid: 937988ba-43c3-4542-8e48-9f94cf3f61ad
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '56'
+source-wordcount: '45'
 ht-degree: 0%
 
 ---
