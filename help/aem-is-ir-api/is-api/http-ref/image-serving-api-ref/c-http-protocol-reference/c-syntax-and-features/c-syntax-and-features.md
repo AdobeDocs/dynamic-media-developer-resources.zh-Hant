@@ -1,17 +1,14 @@
 ---
 description: 本節主題說明HTTP通訊協定的語法和功能。
-seo-description: 本節主題說明HTTP通訊協定的語法和功能。
-seo-title: 語法與功能
 solution: Experience Manager
 title: 語法與功能
-uuid: 5f8df6a2-a8f9-4582-9e1e-8f26acf61df4
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 0%
+source-wordcount: '100'
+ht-degree: 1%
 
 ---
 
