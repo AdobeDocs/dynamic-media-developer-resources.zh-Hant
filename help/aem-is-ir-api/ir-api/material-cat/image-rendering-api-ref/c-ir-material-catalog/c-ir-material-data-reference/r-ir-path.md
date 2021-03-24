@@ -1,16 +1,13 @@
 ---
 description: 影像檔案路徑。 紋理或貼圖影像檔的相對路徑和名稱。
-seo-description: 影像檔案路徑。 紋理或貼圖影像檔的相對路徑和名稱。
-seo-title: 路徑 *
 solution: Experience Manager
 title: 路徑 *
-uuid: 9e85a358-3f2f-4b8b-a98f-03de2a1a8a4c
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '216'
 ht-degree: 3%
 
 ---
