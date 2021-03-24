@@ -1,17 +1,14 @@
 ---
 description: 「影像伺服」可將任意數目的影像、文字和純色圖層結合為複合影像。
-seo-description: 「影像伺服」可將任意數目的影像、文字和純色圖層結合為複合影像。
-seo-title: 分層概述
 solution: Experience Manager
 title: 分層概述
-uuid: 74c0855b-050a-4631-adea-9488bca67fd2
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '80'
-ht-degree: 2%
+source-wordcount: '61'
+ht-degree: 3%
 
 ---
 
