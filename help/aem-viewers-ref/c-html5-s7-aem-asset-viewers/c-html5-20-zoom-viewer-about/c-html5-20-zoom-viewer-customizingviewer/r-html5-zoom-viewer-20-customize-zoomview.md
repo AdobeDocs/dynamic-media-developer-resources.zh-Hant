@@ -1,16 +1,13 @@
 ---
 description: 主檢視包含可縮放的影像。
-seo-description: 主檢視包含可縮放的影像。
-seo-title: 縮放檢視
 solution: Experience Manager
 title: 縮放檢視
-uuid: 34cb6c80-77eb-42b0-91dd-ae0369ea2881
 feature: Dynamic Media經典，檢視器，SDK/API，縮放
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '180'
 ht-degree: 0%
 
 ---
