@@ -1,16 +1,13 @@
 ---
 description: 這些指令適用於簡單要求或影像圖層中使用的來源影像，以及附加至純色圖層的遮色片。
-seo-description: 這些指令適用於簡單要求或影像圖層中使用的來源影像，以及附加至純色圖層的遮色片。
-seo-title: 源映像操作
 solution: Experience Manager
 title: 源映像操作
-uuid: ad6dbcd8-f4a4-4439-b51a-2aca30d198e0
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '110'
 ht-degree: 2%
 
 ---
