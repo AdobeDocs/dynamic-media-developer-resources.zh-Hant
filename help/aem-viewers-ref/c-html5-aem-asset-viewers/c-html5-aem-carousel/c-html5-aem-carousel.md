@@ -1,16 +1,13 @@
 ---
 description: 轉盤檢視器是一種檢視器，可顯示非可縮放橫幅影像的轉盤，以及可點選的熱點或區域。 此檢視器的目的是建置「可購買的轉盤」體驗，讓使用者在橫幅影像上選擇熱點或地區，並重新導向至客戶網站上的Quickview或產品詳細資訊頁面。 它可在桌上型電腦和行動裝置上運作。
-seo-description: 轉盤檢視器是一種檢視器，可顯示非可縮放橫幅影像的轉盤，以及可點選的熱點或區域。 此檢視器的目的是建置「可購買的轉盤」體驗，讓使用者在橫幅影像上選擇熱點或地區，並重新導向至客戶網站上的Quickview或產品詳細資訊頁面。 它可在桌上型電腦和行動裝置上運作。
-seo-title: 轉盤
 solution: Experience Manager
 title: 轉盤
-uuid: 0ba4f40b-8dde-4479-b906-3115f09ab249
 feature: Dynamic Media經典，檢視器，SDK/API，轉盤橫幅
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1989'
+source-wordcount: '1921'
 ht-degree: 0%
 
 ---
