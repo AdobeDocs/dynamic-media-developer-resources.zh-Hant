@@ -1,16 +1,13 @@
 ---
 description: 影像演算對非金字塔暈映強制執行200萬像素大小限制。
-seo-description: 影像演算對非金字塔暈映強制執行200萬像素大小限制。
-seo-title: 暈映大小限制
 solution: Experience Manager
 title: 暈映大小限制
-uuid: 218e8c7e-f313-47cb-af42-30c585d4ec12
 feature: Dynamic Media經典，SDK/API
 role: 開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '87'
 ht-degree: 0%
 
 ---
