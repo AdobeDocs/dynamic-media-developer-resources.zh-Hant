@@ -3,11 +3,10 @@ description: eCatalog Search Viewer是一種目錄檢視器，可依跨頁或逐
 keywords: 回應
 solution: Experience Manager
 title: eCatalog搜尋
-uuid: f5ec33bf-e827-4709-9780-6f17096bf306
 feature: Dynamic Media經典，檢視器，SDK/API,eCatalog搜尋
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '2191'
 ht-degree: 0%
