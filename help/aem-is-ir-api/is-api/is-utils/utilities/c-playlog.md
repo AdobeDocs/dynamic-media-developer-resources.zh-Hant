@@ -1,16 +1,13 @@
 ---
 description: playlog實用程式可用於預生成HTTP響應快取的內容。
-seo-description: playlog實用程式可用於預生成HTTP響應快取的內容。
-seo-title: 「playlog」實用程式
 solution: Experience Manager
 title: 「playlog」實用程式
-uuid: 9044515e-7cfb-4e86-9ac4-e071b60f38d1
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '429'
 ht-degree: 1%
 
 ---
@@ -38,7 +35,7 @@ playlog實用程式可用於預生成HTTP響應快取的內容。
   <td class="stentry"> <p>根URL，附加至從記錄檔擷取的請求之前。 </p> <p>預設值：<span class="filepath"> http://localhost:8080/is </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> -n <span class="varname"> 列  </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> -n列 <span class="varname"> 表  </span> </span> </p> </td> 
   <td class="stentry"> <p>欄位（列）號，在日誌記錄中包含請求；基於1。 </p> <p>預設值：16 </p> </td> 
  </tr> 
  <tr class="strow"> 
