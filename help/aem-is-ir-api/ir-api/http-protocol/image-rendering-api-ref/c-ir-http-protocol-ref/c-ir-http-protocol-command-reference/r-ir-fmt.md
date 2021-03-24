@@ -5,9 +5,9 @@ title: fmt
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: 4f9ce78007cb6ad8def15397aa2224cd7675bb0e
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '585'
 ht-degree: 4%
 
 ---
@@ -199,11 +199,11 @@ ht-degree: 4%
 
 指定發送到客戶端的回覆影像資料的編碼格式和HTTP回覆標題的相應響應MIME類型。
 
-`png-alpha` 傳回未關聯的alpha（即，alpha不預先乘上像素值），而 `tif-alpha`且 `swf-alpha` 傳回關聯的alpha（即，alpha值與alpha值預先乘上）。α通道與暈映的`req=img`背景遮色片的反面對應，在`req=object`的情況下與群組或對象遮色片對應。 若要在使用巢狀IR請求時套用alpha，請將具有適當alpha檔案格式的`fmt=`新增至內嵌的IR請求和主要請求。 如果使用`icc=`指定CMYK或灰階ICC描述檔，則不會傳回Alpha資料。
+`png-alpha` 傳回未關聯的alpha（即，alpha不預先乘上像素值），而 `tif-alpha`且 `swf-alpha` 傳回關聯的alpha（即，alpha值與alpha值預先乘上）。Alpha通道與暈映的`req=img`背景遮色片的反面相對應，如果存在`req=object`，則與群組或物件遮色片相對應。 若要在使用巢狀IR請求時套用alpha，請將具有適當alpha檔案格式的`fmt=`新增至內嵌的IR請求和主要請求。 如果使用`icc=`指定CMYK或灰階ICC描述檔，則不會傳回Alpha資料。
 
 ## 屬性 {#section-eb12a82c69d84622bcea153dd84d95b3}
 
-可能發生在請求中的任何位置。
+可發生在請求中的任何位置。
 
 ## 預設 {#section-d2c2af11fa974e1a84e0c6cb7fb646fe}
 
