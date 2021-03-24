@@ -1,17 +1,14 @@
 ---
 description: 取得公司工作記錄的詳細資訊。
-seo-description: 取得公司工作記錄的詳細資訊。
-seo-title: getJobLogDetails
 solution: Experience Manager
 title: getJobLogDetails
-uuid: e4314348-2160-4775-a02f-b4892924f064
 feature: Dynamic Media經典，SDK/API
 role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 16%
+source-wordcount: '222'
+ht-degree: 17%
 
 ---
 
