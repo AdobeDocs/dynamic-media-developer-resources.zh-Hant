@@ -1,17 +1,14 @@
 ---
 description: 主視圖由靜態影像、在靜態影像上方的彈出視圖中顯示的縮放影像、以及在靜態影像上方顯示的提示資訊組成。
-seo-description: 主視圖由靜態影像、在靜態影像上方的彈出視圖中顯示的縮放影像、以及在靜態影像上方顯示的提示資訊組成。
-seo-title: 彈出式縮放檢視
 solution: Experience Manager
 title: 彈出式縮放檢視
-uuid: a918c775-a36a-44e8-9ca4-90cb8f5c3a5e
 feature: Dynamic Media經典，檢視器，SDK/API，內嵌縮放
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 2%
+source-wordcount: '267'
+ht-degree: 3%
 
 ---
 
