@@ -1,16 +1,13 @@
 ---
 description: 標準警報在配置的平均間隔結束時與合併的電子郵件消息一起發送。
-seo-description: 標準警報在配置的平均間隔結束時與合併的電子郵件消息一起發送。
-seo-title: 標準警報
 solution: Experience Manager
 title: 標準警報
-uuid: d3294434-a44b-4742-9d77-a6945760d33c
 feature: Dynamic Media經典，SDK/API
 role: 開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '230'
 ht-degree: 1%
 
 ---
