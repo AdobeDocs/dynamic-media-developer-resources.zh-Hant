@@ -1,16 +1,13 @@
 ---
 description: 設定出血邊界。 設定在PDF檔案中設定的出血邊界。
-seo-description: 設定出血邊界。 設定在PDF檔案中設定的出血邊界。
-seo-title: 出血邊界
 solution: Experience Manager
 title: 出血邊界
-uuid: 084d09dd-3f8e-4d2b-8a1c-21d87d925b14
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '65'
 ht-degree: 0%
 
 ---
