@@ -1,17 +1,14 @@
 ---
 description: 建立自訂CSS即可完成基本縮放檢視器的所有視覺化自訂和大部分行為自訂。
 keywords: 回應
-seo-description: 建立自訂CSS即可完成基本縮放檢視器的所有視覺化自訂和大部分行為自訂。
-seo-title: 自訂基本縮放檢視器
 solution: Experience Manager
 title: 自訂基本縮放檢視器
-uuid: 9f3c203e-ff6f-4bf1-a1dc-26495412af45
 feature: Dynamic Media經典，檢視器，SDK/API，縮放
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1364'
+source-wordcount: '1341'
 ht-degree: 0%
 
 ---
