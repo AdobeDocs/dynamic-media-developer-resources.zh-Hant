@@ -1,16 +1,13 @@
 ---
 description: 預設目錄為所有映像目錄的所有目錄屬性提供預設值。
-seo-description: 預設目錄為所有映像目錄的所有目錄屬性提供預設值。
-seo-title: 預設目錄
 solution: Experience Manager
 title: 預設目錄
-uuid: 9f0c967e-a2fa-4ef0-bacb-3dcfb06a8027
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
