@@ -1,16 +1,13 @@
 ---
 description: 標準化大小。 用於指定影像大小或矩形大小，並相對於圖層0或其他影像的大小進行標準化。
-seo-description: 標準化大小。 用於指定影像大小或矩形大小，並相對於圖層0或其他影像的大小進行標準化。
-seo-title: sizeN
 solution: Experience Manager
 title: sizeN
-uuid: 6fc05654-6f0d-499f-97bc-6b7134024e1f
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
