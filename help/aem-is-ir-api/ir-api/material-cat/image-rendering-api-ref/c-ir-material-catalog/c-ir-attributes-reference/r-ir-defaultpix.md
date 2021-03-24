@@ -1,17 +1,14 @@
 ---
 description: 預設演算影像大小。 如果請求未使用wid=或hei=明確指定檢視大小，伺服器會限制回覆影像不大於此寬度和高度。
-seo-description: 預設演算影像大小。 如果請求未使用wid=或hei=明確指定檢視大小，伺服器會限制回覆影像不大於此寬度和高度。
-seo-title: DefaultPix
 solution: Experience Manager
 title: DefaultPix
-uuid: 27574811-a920-4e54-8635-5a643b8655ef
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 2%
+source-wordcount: '122'
+ht-degree: 3%
 
 ---
 
