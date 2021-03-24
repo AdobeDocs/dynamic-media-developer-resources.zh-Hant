@@ -1,16 +1,13 @@
 ---
 description: 社交分享工具預設會出現在右上角。 它包含按鈕和面板，當使用者按一下或點選按鈕時，面板會展開，並包含個別的共用工具。
-seo-description: 社交分享工具預設會出現在右上角。 它包含按鈕和面板，當使用者按一下或點選按鈕時，面板會展開，並包含個別的共用工具。
-seo-title: 社交分享
 solution: Experience Manager
 title: 社交分享
-uuid: 5c1ce7b4-54bf-486f-8b57-1d6d0cec119e
 feature: Dynamic Media經典，檢視器，SDK/API，視訊
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '326'
 ht-degree: 1%
 
 ---
