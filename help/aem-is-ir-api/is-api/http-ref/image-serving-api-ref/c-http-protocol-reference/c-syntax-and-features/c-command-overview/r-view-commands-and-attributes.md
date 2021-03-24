@@ -1,17 +1,14 @@
 ---
 description: 這些命令不論在請求中出現在何處都適用。
-seo-description: 這些命令不論在請求中出現在何處都適用。
-seo-title: 視圖命令
 solution: Experience Manager
 title: 視圖命令
-uuid: f847a2ed-cd16-4342-9395-8f933ff2da6f
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 3%
+source-wordcount: '89'
+ht-degree: 4%
 
 ---
 
