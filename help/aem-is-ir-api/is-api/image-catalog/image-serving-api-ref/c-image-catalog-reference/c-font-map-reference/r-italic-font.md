@@ -1,17 +1,14 @@
 ---
 description: 斜體旗。
-seo-description: 斜體旗。
-seo-title: 斜體
 solution: Experience Manager
 title: 斜體
-uuid: 4a484a3f-18b9-4fa7-bcbb-2dee947e9c2a
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 14%
+source-wordcount: '52'
+ht-degree: 13%
 
 ---
 
