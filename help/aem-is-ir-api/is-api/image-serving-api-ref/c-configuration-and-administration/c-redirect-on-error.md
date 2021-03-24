@@ -1,16 +1,13 @@
 ---
 description: IS伺服器可配置為對涉及源映像的請求進行故障切換，這些請求不能成功開啟或讀取。
-seo-description: IS伺服器可配置為對涉及源映像的請求進行故障切換，這些請求不能成功開啟或讀取。
-seo-title: 錯誤時重新導向
 solution: Experience Manager
 title: 錯誤時重新導向
-uuid: 894babe9-9c3c-4972-ae8f-387d65b4167d
 feature: Dynamic Media經典，SDK/API
 role: 開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
