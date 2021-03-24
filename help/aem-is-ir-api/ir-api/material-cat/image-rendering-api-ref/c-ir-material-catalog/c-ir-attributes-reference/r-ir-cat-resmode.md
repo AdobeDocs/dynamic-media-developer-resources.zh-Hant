@@ -1,17 +1,14 @@
 ---
 description: 重新取樣模式。 resMode=的預設值。 指定重新取樣和插值屬性，用於將渲染的影像縮放到最終大小。
-seo-description: 重新取樣模式。 resMode=的預設值。 指定重新取樣和插值屬性，用於將渲染的影像縮放到最終大小。
-seo-title: ResMode
 solution: Experience Manager
 title: ResMode
-uuid: 91d83274-b3e1-4233-bd01-21936726e1db
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 5%
+source-wordcount: '75'
+ht-degree: 6%
 
 ---
 
