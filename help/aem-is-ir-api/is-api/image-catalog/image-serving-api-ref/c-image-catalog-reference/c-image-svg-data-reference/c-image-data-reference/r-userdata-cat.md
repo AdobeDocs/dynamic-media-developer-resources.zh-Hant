@@ -1,17 +1,14 @@
 ---
 description: 使用者資料. 伺服器響應req=userdata，將此欄位的內容返回給客戶端。
-seo-description: 使用者資料. 伺服器響應req=userdata，將此欄位的內容返回給客戶端。
-seo-title: 使用者資料
 solution: Experience Manager
 title: 使用者資料
-uuid: cadc9f3c-c0ca-4c88-bc8a-97c28b439b01
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 9%
+source-wordcount: '131'
+ht-degree: 8%
 
 ---
 
