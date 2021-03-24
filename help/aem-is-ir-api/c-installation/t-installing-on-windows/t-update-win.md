@@ -1,16 +1,13 @@
 ---
 description: 升級Dynamic Media映像服務時，請使用此過程。
-seo-description: 升級Dynamic Media映像服務時，請使用此過程。
-seo-title: 從IS 4.7.4或更新版本更新
 solution: Experience Manager
 title: 從IS 4.7.4或更新版本更新
-uuid: 3d23f13a-a9be-45ff-9765-c71bdeb77c5f
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
