@@ -1,16 +1,13 @@
 ---
 description: 規則運算式模式元素。 在<rule>元素中為可選項。
-seo-description: 規則運算式模式元素。 在<rule>元素中為可選項。
-seo-title: 表達式
 solution: Experience Manager
 title: 表達式
-uuid: e7ef3769-0090-42d6-8021-1c213f1ee391
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '154'
 ht-degree: 4%
 
 ---
