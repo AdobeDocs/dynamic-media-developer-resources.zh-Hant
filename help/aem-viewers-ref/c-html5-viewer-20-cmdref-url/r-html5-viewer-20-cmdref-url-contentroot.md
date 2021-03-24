@@ -1,16 +1,13 @@
 ---
 description: 所有檢視器通用的參數。
-seo-description: 所有檢視器通用的參數。
-seo-title: contentUrl
 solution: Experience Manager
 title: contentUrl
-uuid: 85b00c4e-b382-4970-b780-e4ef59108cb7
 feature: Dynamic Media經典，檢視器，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '94'
 ht-degree: 4%
 
 ---
