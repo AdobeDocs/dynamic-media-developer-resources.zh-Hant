@@ -1,16 +1,13 @@
 ---
 description: 主控制列是案頭系統和平板電腦上的矩形區域，其中包含eCatalog檢視器可用的所有使用者介面控制項（「大頁面」按鈕除外）。
-seo-description: 主控制列是案頭系統和平板電腦上的矩形區域，其中包含eCatalog檢視器可用的所有使用者介面控制項（「大頁面」按鈕除外）。
-seo-title: 主控制列
 solution: Experience Manager
 title: 主控制列
-uuid: 0900f678-d7ec-4653-bc8a-21b8da7d5044
 feature: Dynamic Media經典，檢視器，SDK/API,eCatalog
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '667'
 ht-degree: 1%
 
 ---
