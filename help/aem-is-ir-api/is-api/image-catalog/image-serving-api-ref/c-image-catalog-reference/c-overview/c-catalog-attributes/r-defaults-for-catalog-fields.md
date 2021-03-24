@@ -1,16 +1,13 @@
 ---
 description: 目錄欄位使用這些預設值。
-seo-description: 目錄欄位使用這些預設值。
-seo-title: 目錄欄位的預設值
 solution: Experience Manager
 title: 目錄欄位的預設值
-uuid: 8902766c-c2d9-433a-9c49-3182b063269f
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '58'
 ht-degree: 0%
 
 ---
