@@ -1,16 +1,13 @@
 ---
 description: 影像伺服器proxy可用來調整日文手機影像大小。
-seo-description: 影像伺服器proxy可用來調整日文手機影像大小。
-seo-title: 影像伺服器Proxy
 solution: Experience Manager
 title: 影像伺服器Proxy
-uuid: 49aa0861-9b03-4a62-8604-67e6cb7a621f
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
