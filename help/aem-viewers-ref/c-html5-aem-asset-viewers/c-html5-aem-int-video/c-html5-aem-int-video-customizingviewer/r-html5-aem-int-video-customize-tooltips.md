@@ -1,17 +1,14 @@
 ---
 description: 在案頭系統上，有些使用者介面元素（例如按鈕）會在滑鼠暫留時顯示工具提示。
-seo-description: 在案頭系統上，有些使用者介面元素（例如按鈕）會在滑鼠暫留時顯示工具提示。
-seo-title: 工具提示
 solution: Experience Manager
 title: 工具提示
-uuid: 763cdda7-4938-4884-8040-7e4017e6a0d8
 feature: Dynamic Media經典，檢視器，SDK/API，互動式視訊
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 5%
+source-wordcount: '148'
+ht-degree: 6%
 
 ---
 
