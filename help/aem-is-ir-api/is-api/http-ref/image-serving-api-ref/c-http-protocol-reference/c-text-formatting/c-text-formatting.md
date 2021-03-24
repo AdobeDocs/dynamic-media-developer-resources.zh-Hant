@@ -1,17 +1,14 @@
 ---
 description: 「影像伺服」提供多種轉換文字的替代方式，可透過text=和textPs=指令存取。
-seo-description: 「影像伺服」提供多種轉換文字的替代方式，可透過text=和textPs=指令存取。
-seo-title: 文字格式
 solution: Experience Manager
 title: 文字格式
-uuid: e67b6dd2-2a78-4014-9525-816d91c9e783
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 6%
+source-wordcount: '565'
+ht-degree: 7%
 
 ---
 
