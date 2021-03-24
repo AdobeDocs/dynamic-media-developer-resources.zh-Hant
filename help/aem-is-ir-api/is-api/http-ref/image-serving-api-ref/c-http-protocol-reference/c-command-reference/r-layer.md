@@ -1,16 +1,13 @@
 ---
 description: 選擇「圖層」。 在命令序列中選取一個層並啟動新的層定義段。
-seo-description: 選擇「圖層」。 在命令序列中選取一個層並啟動新的層定義段。
-seo-title: 圖層
 solution: Experience Manager
 title: 圖層
-uuid: 882309b3-51d7-477e-bd09-068ce9e55eb5
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '388'
 ht-degree: 1%
 
 ---
