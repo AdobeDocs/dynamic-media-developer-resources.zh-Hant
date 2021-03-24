@@ -1,16 +1,13 @@
 ---
 description: 映像渲染配置設定儲存在平台伺服器配置檔案中。
-seo-description: 映像渲染配置設定儲存在平台伺服器配置檔案中。
-seo-title: 配置檔案
 solution: Experience Manager
 title: 配置檔案
-uuid: ffd1c65b-e084-4a7e-9a15-600d6c5b173a
 feature: Dynamic Media經典，SDK/API
 role: 開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
