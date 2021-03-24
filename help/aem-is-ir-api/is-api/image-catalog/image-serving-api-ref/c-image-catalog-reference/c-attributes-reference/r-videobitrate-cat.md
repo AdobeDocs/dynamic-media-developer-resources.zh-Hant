@@ -1,17 +1,14 @@
 ---
 description: 視訊位元速率。 允許指定與每個視頻記錄相關聯的比特率。
-seo-description: 視訊位元速率。 允許指定與每個視頻記錄相關聯的比特率。
-seo-title: VideoBitRate
 solution: Experience Manager
 title: VideoBitRate
-uuid: dff00d03-5fea-42cf-9b81-cd3488e666e4
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 6%
+source-wordcount: '62'
+ht-degree: 8%
 
 ---
 
