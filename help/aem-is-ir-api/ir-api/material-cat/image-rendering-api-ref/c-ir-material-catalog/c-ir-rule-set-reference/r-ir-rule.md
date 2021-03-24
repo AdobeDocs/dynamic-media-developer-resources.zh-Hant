@@ -1,16 +1,13 @@
 ---
 description: 請求規則元素。 在<規則集>元素中有一或多個是可選的。
-seo-description: 請求規則元素。 在<規則集>元素中有一或多個是可選的。
-seo-title: 規則
 solution: Experience Manager
 title: 規則
-uuid: f7071681-e97e-4081-aeb1-093d2b23041c
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '200'
 ht-degree: 5%
 
 ---
