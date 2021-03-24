@@ -1,17 +1,14 @@
 ---
 description: 使用下列命令來編碼字元。
-seo-description: 使用下列命令來編碼字元。
-seo-title: 字元編碼
 solution: Experience Manager
 title: 字元編碼
-uuid: 7b19b831-b40c-4f26-83a4-732c578dbbf0
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 1%
+source-wordcount: '94'
+ht-degree: 2%
 
 ---
 
