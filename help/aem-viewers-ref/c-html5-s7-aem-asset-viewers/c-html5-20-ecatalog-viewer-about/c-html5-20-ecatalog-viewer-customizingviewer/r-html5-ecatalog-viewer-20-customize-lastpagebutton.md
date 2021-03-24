@@ -1,16 +1,13 @@
 ---
 description: 按一下或點選此按鈕會將使用者帶至目錄的最後一頁。 此按鈕會出現在案頭系統和平板電腦的主控制列中；在行動電話上，它會新增至次要控制列。 您可以使用CSS來調整此按鈕的大小、外觀和位置。
-seo-description: 按一下或點選此按鈕會將使用者帶至目錄的最後一頁。 此按鈕會出現在案頭系統和平板電腦的主控制列中；在行動電話上，它會新增至次要控制列。 您可以使用CSS來調整此按鈕的大小、外觀和位置。
-seo-title: 「最後一頁」按鈕
 solution: Experience Manager
 title: 「最後一頁」按鈕
-uuid: f77b9ac5-4f00-41d4-9495-c4805d4a41f9
 feature: Dynamic Media經典，檢視器，SDK/API,eCatalog
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '351'
 ht-degree: 1%
 
 ---
