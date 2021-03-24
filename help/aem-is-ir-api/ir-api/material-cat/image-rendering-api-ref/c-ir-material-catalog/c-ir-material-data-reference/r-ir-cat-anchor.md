@@ -1,16 +1,13 @@
 ---
 description: 影像錨點。 指定可重複紋理、壁邊框或貼圖影像的錨點（熱點）。
-seo-description: 影像錨點。 指定可重複紋理、壁邊框或貼圖影像的錨點（熱點）。
-seo-title: 錨點
 solution: Experience Manager
 title: 錨點
-uuid: 0b1a0fea-b299-44dc-b9fd-5916130b2ef3
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '167'
 ht-degree: 3%
 
 ---
