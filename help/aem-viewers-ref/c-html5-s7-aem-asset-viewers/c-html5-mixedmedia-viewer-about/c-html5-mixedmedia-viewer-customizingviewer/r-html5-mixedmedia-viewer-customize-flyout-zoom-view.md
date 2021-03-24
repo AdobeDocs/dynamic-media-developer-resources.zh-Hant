@@ -1,16 +1,13 @@
 ---
 description: 在內嵌縮放模式中，主視圖由靜態影像、在彈出視圖中顯示在靜態影像上的縮放影像以及顯示在靜態影像頂部的提示消息組成。
-seo-description: 在內嵌縮放模式中，主視圖由靜態影像、在彈出視圖中顯示在靜態影像上的縮放影像以及顯示在靜態影像頂部的提示消息組成。
-seo-title: 彈出縮放檢視
 solution: Experience Manager
 title: 彈出縮放檢視
-uuid: c4c94432-7b6f-40a8-ae5f-9423234f3656
 feature: Dynamic Media經典，檢視器，SDK/API,Mix Media Sets
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '257'
 ht-degree: 5%
 
 ---
