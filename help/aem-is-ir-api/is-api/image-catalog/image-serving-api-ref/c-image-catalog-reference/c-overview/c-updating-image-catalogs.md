@@ -1,16 +1,13 @@
 ---
 description: 當伺服器檢測到主目錄屬性檔案已經更改時，該伺服器持續監視目錄資料夾並自動重新載入影像目錄，包括相關聯的目錄資料檔案。
-seo-description: 當伺服器檢測到主目錄屬性檔案已經更改時，該伺服器持續監視目錄資料夾並自動重新載入影像目錄，包括相關聯的目錄資料檔案。
-seo-title: 更新影像目錄
 solution: Experience Manager
 title: 更新影像目錄
-uuid: 7e2557c4-1155-429b-a630-a2aff6725a3b
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---
