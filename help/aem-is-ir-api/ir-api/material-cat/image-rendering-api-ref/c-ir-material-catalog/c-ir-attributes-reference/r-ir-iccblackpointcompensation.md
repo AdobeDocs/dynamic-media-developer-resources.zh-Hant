@@ -1,17 +1,14 @@
 ---
 description: 黑點補償。 指定當未使用icc=進行明確選擇時，黑點補償是否應套用至色彩轉換。
-seo-description: 黑點補償。 指定當未使用icc=進行明確選擇時，黑點補償是否應套用至色彩轉換。
-seo-title: IccBlackPointCompensation
 solution: Experience Manager
 title: IccBlackPointCompensation
-uuid: 284339b1-e6fd-499a-a581-c87aa1765c0e
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 5%
+source-wordcount: '78'
+ht-degree: 6%
 
 ---
 
