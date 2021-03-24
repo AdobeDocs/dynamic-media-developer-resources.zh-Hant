@@ -1,16 +1,13 @@
 ---
 description: 伺服器快取驗證原則。 指定何時驗證伺服器端快取條目。
-seo-description: 伺服器快取驗證原則。 指定何時驗證伺服器端快取條目。
-seo-title: CacheValidationPolicy
 solution: Experience Manager
 title: CacheValidationPolicy
-uuid: 299dd5fe-9a0c-43df-a4c8-6b9e9c24003b
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '112'
 ht-degree: 3%
 
 ---
