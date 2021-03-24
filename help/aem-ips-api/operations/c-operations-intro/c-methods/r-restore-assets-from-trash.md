@@ -1,17 +1,14 @@
 ---
 description: 從垃圾筒還原資產。
-seo-description: 從垃圾筒還原資產。
-seo-title: restoreAssetsFromTrash
 solution: Experience Manager
 title: restoreAssetsFromTrash
-uuid: f7424d4c-7807-4de9-ad0c-f96364bf7b82
 feature: Dynamic Media經典，SDK/API，資產管理
 role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 11%
+source-wordcount: '166'
+ht-degree: 12%
 
 ---
 
