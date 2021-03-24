@@ -1,16 +1,13 @@
 ---
 description: 內嵌中XMP繼資料。 指定回XMP應影像中是否應包含中繼資料。
-seo-description: 內嵌中XMP繼資料。 指定回XMP應影像中是否應包含中繼資料。
-seo-title: xmpEmbed
 solution: Experience Manager
 title: xmpEmbed
-uuid: c0dfd0e5-16d1-4a6e-957a-ecc276b9361a
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '134'
 ht-degree: 2%
 
 ---
