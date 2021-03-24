@@ -1,16 +1,13 @@
 ---
 description: 本檔案使用下列慣例。
-seo-description: 本檔案使用下列慣例。
-seo-title: 檔案慣例
 solution: Experience Manager
 title: 檔案慣例
-uuid: c929774b-8560-4f8a-98fd-1b75d4419c4d
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
@@ -23,7 +20,7 @@ ht-degree: 0%
 <table id="simpletable_8C9DB0DA5F2B4C068794415602B768CB"> 
  <tr class="strow"> 
   <td class="stentry"> <p>常值 </p> </td> 
-  <td class="stentry"> <p>在語法部分中，非斜體文本是常值；這不適用於空白字元和符號[ ] { } | *. </p> </td> 
+  <td class="stentry"> <p>在語法區段中，非斜體文字為常值。 此規則不適用於空白字元和符號[ ] { } | *. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>'literal' </p> </td> 
@@ -75,7 +72,7 @@ ht-degree: 0%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> item1  </span>|  <span class="varname"> item2  </span> </span> </p> </td> 
-  <td class="stentry"> <p>垂直清單示可使用左側的單一語法項目，或右側的項目。 必須只選取一個項目。 </p> </td> 
+  <td class="stentry"> <p>垂直橫條表示可以使用左側的單一語法項目或右側的項目。 必須只選取一個項目。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> {  <span class="varname"> group  </span>}  </span> </p> </td> 
@@ -83,7 +80,7 @@ ht-degree: 0%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> *{  <span class="varname"> group  </span>}  </span> </p> </td> 
-  <td class="stentry"> <p>組內的語法元素可重複一或多次。 </p> </td> 
+  <td class="stentry"> <p>群組中的語法元素可重複一或多次。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>空白 </p> </td> 
