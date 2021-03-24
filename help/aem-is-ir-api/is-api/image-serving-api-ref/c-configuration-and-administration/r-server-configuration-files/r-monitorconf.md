@@ -1,16 +1,13 @@
 ---
 description: 包含監視／警報系統的設定。
-seo-description: 包含監視／警報系統的設定。
-seo-title: monitor.conf
 solution: Experience Manager
 title: monitor.conf
-uuid: 31949797-df2c-4b7c-841b-4c623299a228
 feature: Dynamic Media經典，SDK/API
 role: 開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '119'
 ht-degree: 2%
 
 ---
