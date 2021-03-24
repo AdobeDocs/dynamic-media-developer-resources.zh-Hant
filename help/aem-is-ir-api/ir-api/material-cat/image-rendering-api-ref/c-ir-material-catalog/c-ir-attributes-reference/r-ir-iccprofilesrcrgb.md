@@ -1,17 +1,14 @@
 ---
 description: RGB預設輸入色彩描述檔。 指定ICC色彩描述檔的名稱，此描述檔用於未嵌入色彩描述檔的RGB材質影像和暈映，以及使用各種「影像演算」指令（例如bgc=和color=）指定的RGB色彩值。
-seo-description: RGB預設輸入色彩描述檔。 指定ICC色彩描述檔的名稱，此描述檔用於未嵌入色彩描述檔的RGB材質影像和暈映，以及使用各種「影像演算」指令（例如bgc=和color=）指定的RGB色彩值。
-seo-title: IccProfileSrcRgb
 solution: Experience Manager
 title: IccProfileSrcRgb
-uuid: 9657e296-0d2a-4b05-9be7-5a54d3277f90
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 1%
+source-wordcount: '169'
+ht-degree: 2%
 
 ---
 
