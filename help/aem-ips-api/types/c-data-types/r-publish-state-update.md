@@ -1,17 +1,14 @@
 ---
 description: 用於更新資產發佈狀態的參數。
-seo-description: 用於更新資產發佈狀態的參數。
-seo-title: PublishStateUpdate
 solution: Experience Manager
 title: PublishStateUpdate
-uuid: b08acff6-2861-41aa-8e25-cecf7e36ad53
 feature: Dynamic Media經典，SDK/API
 role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 9%
+source-wordcount: '41'
+ht-degree: 12%
 
 ---
 
