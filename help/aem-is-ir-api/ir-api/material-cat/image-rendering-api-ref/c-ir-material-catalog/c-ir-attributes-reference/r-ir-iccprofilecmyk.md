@@ -1,17 +1,14 @@
 ---
 description: CMYK預設色域。 指定當未使用icc=指定輸出色域時，用於灰階回應影像的ICC色彩描述檔名稱。
-seo-description: CMYK預設色域。 指定當未使用icc=指定輸出色域時，用於灰階回應影像的ICC色彩描述檔名稱。
-seo-title: IccProfileCmyk
 solution: Experience Manager
 title: IccProfileCmyk
-uuid: d923d0fd-f00b-4fce-8ce9-8b177b4dba96
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 2%
+source-wordcount: '124'
+ht-degree: 3%
 
 ---
 
