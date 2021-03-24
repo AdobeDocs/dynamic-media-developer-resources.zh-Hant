@@ -1,17 +1,14 @@
 ---
 description: 回應資料屬性。 評估目前的請求，就像是影像請求(req=img)，但伺服器不會傳回影像，而是傳回回回覆影像的選取屬性。
-seo-description: 回應資料屬性。 評估目前的請求，就像是影像請求(req=img)，但伺服器不會傳回影像，而是傳回回回覆影像的選取屬性。
-seo-title: props
 solution: Experience Manager
-title: prop
-uuid: b9325654-81d6-4f00-bf0a-36650bea6b8d
+title: props
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 7%
+source-wordcount: '369'
+ht-degree: 8%
 
 ---
 
