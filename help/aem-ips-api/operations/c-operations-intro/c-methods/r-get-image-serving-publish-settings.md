@@ -1,17 +1,14 @@
 ---
 description: 僅供內部使用。 使用者應參考「影像伺服影像目錄參考——屬性參考」區段。
-seo-description: 僅供內部使用。 使用者應參考「影像伺服影像目錄參考——屬性參考」區段。
-seo-title: getImageServingPublishSettings
 solution: Experience Manager
 title: getImageServingPublishSettings
-uuid: 2f00198d-0262-430b-8ac5-80f52adcff67
 feature: Dynamic Media經典，SDK/API
 role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 12%
+source-wordcount: '87'
+ht-degree: 14%
 
 ---
 
