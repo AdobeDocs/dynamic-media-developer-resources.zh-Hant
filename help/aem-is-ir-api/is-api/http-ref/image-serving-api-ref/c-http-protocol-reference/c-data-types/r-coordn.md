@@ -1,16 +1,13 @@
 ---
 description: 標準化坐標。 用於指定影像內的相對位置，例如影像偏移或裁切參數，並標準化為影像大小。
-seo-description: 標準化坐標。 用於指定影像內的相對位置，例如影像偏移或裁切參數，並標準化為影像大小。
-seo-title: coordN
 solution: Experience Manager
 title: coordN
-uuid: e182650b-aff6-4dd2-8edb-cd0d361865fd
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
