@@ -1,16 +1,13 @@
 ---
 description: 影像目錄會將影像和支援資料（例如字型和ICC描述檔）的相關資訊提供給伺服器。
-seo-description: 影像目錄會將影像和支援資料（例如字型和ICC描述檔）的相關資訊提供給伺服器。
-seo-title: 影像目錄參考
 solution: Experience Manager
 title: 影像目錄參考
-uuid: 39d39f42-cd1b-46f5-859c-f32b6b5a20b3
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '58'
 ht-degree: 1%
 
 ---
