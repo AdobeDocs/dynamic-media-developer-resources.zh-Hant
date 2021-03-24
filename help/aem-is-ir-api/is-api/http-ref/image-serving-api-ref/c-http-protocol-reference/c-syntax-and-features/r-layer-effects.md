@@ -1,16 +1,13 @@
 ---
 description: Photoshop風格的圖層陰影和發光效果是使用特殊的子圖層（效果圖層）來實現的，子圖層可附加到任何圖層（父圖層），包括layer=0和layer=comp。
-seo-description: Photoshop風格的圖層陰影和發光效果是使用特殊的子圖層（效果圖層）來實現的，子圖層可附加到任何圖層（父圖層），包括layer=0和layer=comp。
-seo-title: 圖層效果
 solution: Experience Manager
 title: 圖層效果
-uuid: 076e98de-cbbb-457b-984a-367a935b4356
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '490'
 ht-degree: 2%
 
 ---
