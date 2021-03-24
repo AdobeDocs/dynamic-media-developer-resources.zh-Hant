@@ -1,16 +1,13 @@
 ---
 description: 從您要取得檔案的位置上傳URL。
-seo-description: 從您要取得檔案的位置上傳URL。
-seo-title: UploadUrlsJob
 solution: Experience Manager
 title: UploadUrlsJob
-uuid: 6140e969-bf61-4b62-9a60-29609626b0b4
 feature: Dynamic Media經典，SDK/API
 role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '448'
 ht-degree: 5%
 
 ---
