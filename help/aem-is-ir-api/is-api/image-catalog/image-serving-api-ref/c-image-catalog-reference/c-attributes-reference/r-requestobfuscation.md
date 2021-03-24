@@ -1,16 +1,13 @@
 ---
 description: 請求模糊化模式。 指定必須套用至有效請求的模糊化類型。
-seo-description: 請求模糊化模式。 指定必須套用至有效請求的模糊化類型。
-seo-title: 請求模糊化
 solution: Experience Manager
 title: 請求模糊化
-uuid: 07154e06-c386-45a7-b5ac-60f0aef3c362
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '72'
 ht-degree: 2%
 
 ---
