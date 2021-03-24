@@ -1,16 +1,13 @@
 ---
 description: 預先載入影像是靜態資產預覽影像，直接在呼叫init()方法後載入，並在下載檢視器SDK程式庫、資產和預設集資訊時顯示。 預先載入影像的目的是視覺化地改善檢視器載入時間，並快速地向使用者呈現內容。
-seo-description: 預先載入影像是靜態資產預覽影像，直接在呼叫init()方法後載入，並在下載檢視器SDK程式庫、資產和預設集資訊時顯示。 預先載入影像的目的是視覺化地改善檢視器載入時間，並快速地向使用者呈現內容。
-seo-title: 預先載入影像
 solution: Experience Manager
 title: 預先載入影像
-uuid: cb5db16d-b496-40e4-b8ef-5573c42d2850
 feature: Dynamic Media經典，檢視器，SDK/API，互動式影像
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
