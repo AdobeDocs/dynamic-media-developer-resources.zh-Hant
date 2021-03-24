@@ -1,17 +1,14 @@
 ---
 description: 設定現有標籤欄位的標籤字典值。
-seo-description: 設定現有標籤欄位的標籤字典值。
-seo-title: setTagFieldValues
 solution: Experience Manager
 title: setTagFieldValues
-uuid: 56666c00-3694-4a43-a0ff-97af45c8df9f
 feature: Dynamic Media經典，SDK/API
 role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 14%
+source-wordcount: '88'
+ht-degree: 15%
 
 ---
 
