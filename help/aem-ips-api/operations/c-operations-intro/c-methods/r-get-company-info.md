@@ -1,17 +1,14 @@
 ---
 description: 傳回指定公司的相關資訊，包括公司控制代碼、公司名稱、根路徑和到期日。 您必須指定要擷取其資訊的companyHandle或companyName。
-seo-description: 傳回指定公司的相關資訊，包括公司控制代碼、公司名稱、根路徑和到期日。 您必須指定要擷取其資訊的companyHandle或companyName。
-seo-title: getCompanyInfo
 solution: Experience Manager
 title: getCompanyInfo
-uuid: 9218cba8-2873-46b7-90e3-7ab9d5018690
 feature: Dynamic Media經典，SDK/API
 role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 8%
+source-wordcount: '175'
+ht-degree: 10%
 
 ---
 
