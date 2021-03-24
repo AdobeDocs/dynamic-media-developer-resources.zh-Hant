@@ -1,16 +1,13 @@
 ---
 description: 根據您指定的條件搜尋資產。
-seo-description: 根據您指定的條件搜尋資產。
-seo-title: searchAssets
 solution: Experience Manager
 title: searchAssets
-uuid: 125e9e0d-1856-4e80-9778-ca93cd04b766
 feature: Dynamic Media經典，SDK/API，資產管理
 role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '637'
 ht-degree: 12%
 
 ---
