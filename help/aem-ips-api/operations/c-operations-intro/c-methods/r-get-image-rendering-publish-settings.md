@@ -1,17 +1,14 @@
 ---
 description: 僅供內部使用。 請參閱影像渲染材料目錄參考目錄屬性部分。
-seo-description: 僅供內部使用。 請參閱影像渲染材料目錄參考目錄屬性部分。
-seo-title: getImageRenderingPublishSettings
 solution: Experience Manager
 title: getImageRenderingPublishSettings
-uuid: b1c253b5-febe-4dc7-95a1-a5f4789030e7
 feature: Dynamic Media經典，SDK/API
 role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 13%
+source-wordcount: '81'
+ht-degree: 16%
 
 ---
 
