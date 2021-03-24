@@ -1,17 +1,14 @@
 ---
 description: 材質類型. 材料的曲面類型。 與型錄光澤和型錄粗糙度搭配使用，以控制3D反射演算效果。
-seo-description: 材質類型. 材料的曲面類型。 與型錄光澤和型錄粗糙度搭配使用，以控制3D反射演算效果。
-seo-title: 類型
 solution: Experience Manager
 title: 類型
-uuid: 8e367013-ed4c-4504-baf7-26ea27d96469
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 26%
+source-wordcount: '141'
+ht-degree: 29%
 
 ---
 
