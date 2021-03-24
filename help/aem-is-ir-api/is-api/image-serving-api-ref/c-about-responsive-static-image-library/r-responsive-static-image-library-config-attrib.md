@@ -1,16 +1,13 @@
 ---
 description: 配置屬性直接定義為「自適應影像庫」管理的IMG元素上的屬性。 每個影像都可以有其專屬的屬性集。
-seo-description: 配置屬性直接定義為「自適應影像庫」管理的IMG元素上的屬性。 每個影像都可以有其專屬的屬性集。
-seo-title: 命令參考——配置屬性
 solution: Experience Manager
 title: 命令參考——配置屬性
-uuid: a3d52680-2a28-40c8-9b5f-b1c252c88e4d
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
