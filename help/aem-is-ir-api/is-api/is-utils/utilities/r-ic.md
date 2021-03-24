@@ -1,16 +1,13 @@
 ---
 description: 映像轉換實用程式。
-seo-description: 映像轉換實用程式。
-seo-title: ic
 solution: Experience Manager
 title: ic
-uuid: 08fabcc9-d0b5-4136-81fc-ac896c341e1d
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1212'
 ht-degree: 2%
 
 ---
@@ -292,7 +289,7 @@ ht-degree: 2%
   <tr> 
    <td> <p> Photoshop </p> <b>PSD</b> </td> 
    <td> <p> CMYK | CMYKA | RGB | RGBA |灰色 | grayA </p> </td> 
-   <td> <p> 1 | 8 | 16 </p> </td> 
+   <td> <p> 3 | 8 | 16 </p> </td> 
    <td> <p> 解壓縮 |壓縮 </p> </td> 
    <td> <p> 僅合併影像；圖層和額外的色版會被忽略。 </p> </td> 
   </tr> 
@@ -313,7 +310,7 @@ ht-degree: 2%
   <tr> 
    <td> <b> TIFF</b> </td> 
    <td> <p> CMYK | CMYKA | RGB | RGBA |灰色 | grayA |索引 </p> </td> 
-   <td> <p> 1 | 8 | 16 </p> </td> 
+   <td> <p> 3 | 8 | 16 </p> </td> 
    <td> <p> 解壓縮 | ZIP | LZW | JPEG | CCITT RLE | CCITT G3 | CCITT G4 |包位 </p> </td> 
    <td> <p> 除了第一個相關的alpha頻道外，會忽略額外的頻道。 </p> </td> 
   </tr> 
