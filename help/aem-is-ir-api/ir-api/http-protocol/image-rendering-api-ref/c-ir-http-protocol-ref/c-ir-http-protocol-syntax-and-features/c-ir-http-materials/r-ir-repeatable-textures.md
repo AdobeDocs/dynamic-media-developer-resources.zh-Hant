@@ -1,16 +1,13 @@
 ---
 description: 可重複的紋理包括內部和外部材料，例如織物（包括服裝和內飾）、牆對壁地板覆蓋物、牆紙、檯面材料、木紋紋理、屋面和壁板材料，以及任何其他普通紋理。
-seo-description: 可重複的紋理包括內部和外部材料，例如織物（包括服裝和內飾）、牆對壁地板覆蓋物、牆紙、檯面材料、木紋紋理、屋面和壁板材料，以及任何其他普通紋理。
-seo-title: 可重複的紋理
 solution: Experience Manager
 title: 可重複的紋理
-uuid: 11a55d9f-a1d7-490e-af0e-9bf2c3a35501
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '248'
 ht-degree: 3%
 
 ---
