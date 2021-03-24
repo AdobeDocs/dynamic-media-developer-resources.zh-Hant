@@ -1,17 +1,14 @@
 ---
 description: 按一下或點選此按鈕會重設主檢視中的影像。 您可以使用CSS來調整此按鈕的大小、外觀和位置。
-seo-description: 按一下或點選此按鈕會重設主檢視中的影像。 您可以使用CSS來調整此按鈕的大小、外觀和位置。
-seo-title: 縮放重設按鈕
 solution: Experience Manager
 title: 縮放重設按鈕
-uuid: 63331843-1d77-40f4-a87f-6ff73a8f0f32
 feature: Dynamic Media經典，檢視器，SDK/API，回轉集
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 2%
+source-wordcount: '223'
+ht-degree: 3%
 
 ---
 
