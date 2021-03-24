@@ -1,17 +1,14 @@
 ---
 description: 全螢幕按鈕可讓檢視器在使用者點按時進入或退出全螢幕模式。 當檢視器顯示視訊並位於控制列時，就會使用它。 如果檢視器在快顯模式下運作，且系統不支援原生全螢幕，則不會顯示此按鈕。
-seo-description: 全螢幕按鈕可讓檢視器在使用者點按時進入或退出全螢幕模式。 當檢視器顯示視訊並位於控制列時，就會使用它。 如果檢視器在快顯模式下運作，且系統不支援原生全螢幕，則不會顯示此按鈕。
-seo-title: 全螢幕影片按鈕
 solution: Experience Manager
 title: 全螢幕影片按鈕
-uuid: f264154b-eb4d-4dcb-b8c0-e06c383198ae
 feature: Dynamic Media經典，檢視器，SDK/API,Mix Media Sets
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 1%
+source-wordcount: '336'
+ht-degree: 2%
 
 ---
 
