@@ -1,17 +1,14 @@
 ---
 description: 源資料根路徑。 文字字串值。 此影像目錄所參照之所有暈映、紋理、影像和ICC資料檔案的根資料夾絕對路徑或相對路徑區段。
-seo-description: 源資料根路徑。 文字字串值。 此影像目錄所參照之所有暈映、紋理、影像和ICC資料檔案的根資料夾絕對路徑或相對路徑區段。
-seo-title: RootPath *
 solution: Experience Manager
 title: RootPath *
-uuid: a23ea524-8ca4-47c4-83a5-64a174d8767e
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 2%
+source-wordcount: '130'
+ht-degree: 3%
 
 ---
 
