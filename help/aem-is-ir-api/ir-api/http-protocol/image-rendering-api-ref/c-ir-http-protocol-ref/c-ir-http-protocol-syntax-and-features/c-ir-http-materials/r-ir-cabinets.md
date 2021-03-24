@@ -1,16 +1,13 @@
 ---
 description: 檔案櫃材料指定檔案櫃樣式檔案（.vnc檔案副檔名）、包含檔案櫃照片表示以及參數佈局定義以及渲染檔案櫃正面所需的其他資訊的特殊資料檔案。
-seo-description: 檔案櫃材料指定檔案櫃樣式檔案（.vnc檔案副檔名）、包含檔案櫃照片表示以及參數佈局定義以及渲染檔案櫃正面所需的其他資訊的特殊資料檔案。
-seo-title: 封包
 solution: Experience Manager
 title: 封包
-uuid: d515c613-07c5-49ef-ad6e-568a1f6c1335
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '163'
 ht-degree: 5%
 
 ---
