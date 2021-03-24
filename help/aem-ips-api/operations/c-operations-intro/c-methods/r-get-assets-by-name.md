@@ -1,17 +1,14 @@
 ---
 description: 根據資產名稱陣列傳回資產。
-seo-description: 根據資產名稱陣列傳回資產。
-seo-title: getAssetsByName
 solution: Experience Manager
 title: getAssetsByName
-uuid: e86b3b16-ad93-4f70-9f59-b72395513c4c
 feature: Dynamic Media經典，SDK/API，資產管理
 role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 13%
+source-wordcount: '221'
+ht-degree: 14%
 
 ---
 
