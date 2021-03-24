@@ -1,17 +1,14 @@
 ---
 description: Flash應用程式網域。 AdobeFlash應用程式可能需要存取以swf格式傳送的影像屬性。swf必須註冊其信任的應用程式網域名稱，以明確授與存取權。
-seo-description: Flash應用程式網域。 AdobeFlash應用程式可能需要存取以swf格式傳送的影像屬性。swf必須註冊其信任的應用程式網域名稱，以明確授與存取權。
-seo-title: TrustedDomains *
 solution: Experience Manager
 title: TrustedDomains *
-uuid: c50180b1-9af7-45f1-878f-59f41f9958ae
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 2%
+source-wordcount: '126'
+ht-degree: 3%
 
 ---
 
