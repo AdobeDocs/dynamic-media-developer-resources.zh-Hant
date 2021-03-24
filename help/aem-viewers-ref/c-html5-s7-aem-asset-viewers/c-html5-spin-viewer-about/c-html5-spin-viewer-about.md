@@ -1,17 +1,14 @@
 ---
 description: 回轉檢視器是影像檢視器，可提供360度的影像檢視，或在使用適當的回轉集時提供多維檢視。 它提供縮放和旋轉工具、全螢幕支援，以及選購的關閉按鈕。 它可在桌上型電腦和行動裝置上運作。
 keywords: 回應
-seo-description: 回轉檢視器是影像檢視器，可提供360度的影像檢視，或在使用適當的回轉集時提供多維檢視。 它提供縮放和旋轉工具、全螢幕支援，以及選購的關閉按鈕。 它可在桌上型電腦和行動裝置上運作。
-seo-title: Spin
 solution: Experience Manager
-title: 回轉
-uuid: 5d5cdf83-cfe8-48cd-af74-b270f7400b14
+title: Spin
 feature: Dynamic Media經典，檢視器，SDK/API，回轉集
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '2180'
+source-wordcount: '2130'
 ht-degree: 0%
 
 ---
