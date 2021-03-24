@@ -1,17 +1,14 @@
 ---
 description: Video360檢視器的所有視覺化自訂和大部分行為自訂都是透過建立自訂CSS來完成。
 keywords: 回應
-seo-description: Video360檢視器的所有視覺化自訂和大部分行為自訂都是透過建立自訂CSS來完成。
-seo-title: 自訂Video360檢視器
 solution: Experience Manager
 title: 自訂Video360檢視器
-uuid: 1f021a11-856e-4bbc-a2ee-454ab0a60adb
 feature: Dynamic Media經典，檢視器，SDK/API,360 VR視訊
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1325'
+source-wordcount: '1304'
 ht-degree: 0%
 
 ---
