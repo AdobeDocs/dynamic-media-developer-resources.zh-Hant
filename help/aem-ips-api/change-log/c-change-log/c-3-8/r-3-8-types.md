@@ -1,17 +1,14 @@
 ---
 description: 說明IPS API 3.8版的新資料類型和變更的資料類型。
-seo-description: 說明IPS API 3.8版的新資料類型和變更的資料類型。
-seo-title: 資料類型新增和修改
 solution: Experience Manager
 title: 資料類型新增和修改
-uuid: 099349dd-aaf9-4e25-9557-c3a196ef531f
 feature: Dynamic Media經典，SDK/API
 role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 3%
+source-wordcount: '47'
+ht-degree: 4%
 
 ---
 
