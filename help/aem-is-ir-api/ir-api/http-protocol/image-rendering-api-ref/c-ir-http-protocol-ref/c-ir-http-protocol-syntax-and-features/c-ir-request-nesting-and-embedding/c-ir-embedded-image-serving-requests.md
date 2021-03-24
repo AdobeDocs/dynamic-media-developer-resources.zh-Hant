@@ -1,16 +1,13 @@
 ---
 description: 影像伺服器(IS)要求可用作材質影像。
-seo-description: 影像伺服器(IS)要求可用作材質影像。
-seo-title: 內嵌影像伺服器要求
 solution: Experience Manager
 title: 內嵌影像伺服器要求
-uuid: dd72880d-8824-40b3-a5da-0f6ff4922939
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
