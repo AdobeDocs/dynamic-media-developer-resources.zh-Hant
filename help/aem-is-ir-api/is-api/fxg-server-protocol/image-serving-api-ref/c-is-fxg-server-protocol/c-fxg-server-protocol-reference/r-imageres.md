@@ -1,16 +1,13 @@
 ---
 description: 在「要列印的網頁」請求中設定內嵌點陣圖的解析度。
-seo-description: 在「要列印的網頁」請求中設定內嵌點陣圖的解析度。
-seo-title: imageRes
 solution: Experience Manager
 title: imageRes
-uuid: 9fd252b8-2956-4618-85dd-a47fc836639c
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '55'
 ht-degree: 1%
 
 ---
