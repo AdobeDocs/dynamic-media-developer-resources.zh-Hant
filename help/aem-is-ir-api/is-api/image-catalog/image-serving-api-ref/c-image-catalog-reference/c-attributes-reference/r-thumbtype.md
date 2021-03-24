@@ -1,17 +1,14 @@
 ---
 description: 預設縮圖類型。 提供縮圖類型的預設值，以防特定目錄記錄不包含有效的目錄ThumbType值。
-seo-description: 預設縮圖類型。 提供縮圖類型的預設值，以防特定目錄記錄不包含有效的目錄ThumbType值。
-seo-title: ThumbType
 solution: Experience Manager
 title: ThumbType
-uuid: 0b4aa767-2d80-4df8-8189-9d095cb88e87
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 3%
+source-wordcount: '87'
+ht-degree: 4%
 
 ---
 
