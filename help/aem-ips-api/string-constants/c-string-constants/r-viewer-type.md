@@ -5,7 +5,7 @@ title: 檢視器類型
 feature: Dynamic Media經典，SDK/API，檢視器
 role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt
 source-wordcount: '20'
 ht-degree: 30%
