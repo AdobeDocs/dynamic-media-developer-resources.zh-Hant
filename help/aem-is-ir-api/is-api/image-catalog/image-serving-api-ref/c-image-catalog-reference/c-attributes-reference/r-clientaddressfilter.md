@@ -1,16 +1,13 @@
 ---
 description: 用戶端IP位址篩選。 允許指定一個或多個IP地址或地址範圍。
-seo-description: 用戶端IP位址篩選。 允許指定一個或多個IP地址或地址範圍。
-seo-title: ClientAddressFilter
 solution: Experience Manager
 title: ClientAddressFilter
-uuid: 6a557795-0caf-4b5f-974e-fb4c1481a83c
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '136'
 ht-degree: 3%
 
 ---
