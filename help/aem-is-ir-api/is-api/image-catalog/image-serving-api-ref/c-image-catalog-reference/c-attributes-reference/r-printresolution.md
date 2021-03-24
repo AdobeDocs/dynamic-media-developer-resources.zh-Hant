@@ -1,17 +1,14 @@
 ---
 description: 預設列印解析度。 提供預設打印解析度，以防特定目錄記錄不包含有效的目錄PrintResolution值。
-seo-description: 預設列印解析度。 提供預設打印解析度，以防特定目錄記錄不包含有效的目錄PrintResolution值。
-seo-title: 列印解析度
 solution: Experience Manager
 title: 列印解析度
-uuid: 6333c630-2df1-4eb1-b2fb-e67692f747eb
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 4%
+source-wordcount: '77'
+ht-degree: 5%
 
 ---
 
