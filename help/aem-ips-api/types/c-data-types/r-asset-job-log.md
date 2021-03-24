@@ -1,17 +1,14 @@
 ---
 description: 與特定資產相關聯的作業日誌條目的詳細資訊。 getAssetJobLogs傳回的資料。
-seo-description: 與特定資產相關聯的作業日誌條目的詳細資訊。 getAssetJobLogs傳回的資料。
-seo-title: AssetJobLog
 solution: Experience Manager
 title: AssetJobLog
-uuid: 0dd65da1-f358-4d9a-98a2-abfb036347e3
 feature: Dynamic Media經典，SDK/API，資產管理
 role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 12%
+source-wordcount: '114'
+ht-degree: 14%
 
 ---
 
