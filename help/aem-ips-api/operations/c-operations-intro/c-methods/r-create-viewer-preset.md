@@ -1,17 +1,14 @@
 ---
 description: 建立預設檢視，以決定使用者可看見的內容。 檢視器可以是IPS中任何類型的。 預設檢視會在資產發佈時套用。
-seo-description: 建立預設檢視，以決定使用者可看見的內容。 檢視器可以是IPS中任何類型的。 預設檢視會在資產發佈時套用。
-seo-title: createViewerPreset
 solution: Experience Manager
 title: createViewerPreset
-uuid: 4160d2b0-6147-459f-830a-43c99b8dc196
 feature: Dynamic Media經典，SDK/API，檢視器預設集
 role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 10%
+source-wordcount: '167'
+ht-degree: 12%
 
 ---
 
