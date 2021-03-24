@@ -1,17 +1,14 @@
 ---
 description: 傳回指定影像的Photoshop路徑名稱陣列。
-seo-description: 傳回指定影像的Photoshop路徑名稱陣列。
-seo-title: getPhotoshopPathNames
 solution: Experience Manager
 title: getPhotoshopPathNames
-uuid: d3f1dea5-393b-498e-963d-37a4e38068a2
 feature: Dynamic Media經典，SDK/API
 role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 16%
+source-wordcount: '84'
+ht-degree: 19%
 
 ---
 
