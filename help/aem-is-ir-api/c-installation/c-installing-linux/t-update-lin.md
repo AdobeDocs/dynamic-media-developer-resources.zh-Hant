@@ -1,16 +1,13 @@
 ---
 description: 在Linux上升級Dynamic Media映像服務時，請使用此過程。
-seo-description: 在Linux上升級Dynamic Media映像服務時，請使用此過程。
-seo-title: 從IS 4.7.4或更新版本更新
 solution: Experience Manager
 title: 從IS 4.7.4或更新版本更新
-uuid: 70beb1a3-71b9-4bd0-b048-13d88446a9d3
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
