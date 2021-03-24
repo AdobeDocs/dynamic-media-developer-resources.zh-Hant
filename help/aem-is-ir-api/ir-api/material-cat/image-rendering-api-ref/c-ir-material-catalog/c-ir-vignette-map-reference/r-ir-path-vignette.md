@@ -1,17 +1,14 @@
 ---
 description: 暈映檔案路徑。 暈映檔案的相對路徑和名稱。
-seo-description: 暈映檔案路徑。 暈映檔案的相對路徑和名稱。
-seo-title: 路徑
 solution: Experience Manager
 title: 路徑
-uuid: 470cee37-9840-402a-bde5-ace8988996d2
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 9%
+source-wordcount: '80'
+ht-degree: 10%
 
 ---
 
