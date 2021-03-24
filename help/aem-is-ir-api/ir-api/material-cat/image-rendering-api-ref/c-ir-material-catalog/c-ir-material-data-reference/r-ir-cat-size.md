@@ -1,16 +1,13 @@
 ---
 description: 戴卡尺寸。 傾斜材質物件的寬度、高度和厚度。
-seo-description: 戴卡尺寸。 傾斜材質物件的寬度、高度和厚度。
-seo-title: 大小
 solution: Experience Manager
 title: 大小
-uuid: 07d41f71-e18d-4559-afc7-75dc1c45be93
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '220'
 ht-degree: 5%
 
 ---
