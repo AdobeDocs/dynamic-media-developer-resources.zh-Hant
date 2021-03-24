@@ -1,17 +1,14 @@
 ---
 description: 瀏覽器中點按動作的目標定義。
-seo-description: 瀏覽器中點按動作的目標定義。
-seo-title: ImageMapDefinition
 solution: Experience Manager
 title: ImageMapDefinition
-uuid: e3b9a304-5c43-46ce-8e87-860b49006a37
 feature: Dynamic Media經典，SDK/API
 role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 8%
+source-wordcount: '79'
+ht-degree: 10%
 
 ---
 
