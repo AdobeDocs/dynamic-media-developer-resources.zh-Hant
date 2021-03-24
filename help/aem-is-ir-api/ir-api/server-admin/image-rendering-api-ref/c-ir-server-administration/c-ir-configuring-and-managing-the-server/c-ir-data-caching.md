@@ -1,16 +1,13 @@
 ---
 description: 「影像演算」運用「影像伺服」快取功能來儲存回應影像資料、巢狀／內嵌請求的中介資料，以及從外部來源取得的來源影像資料（例如紋理）。
-seo-description: 「影像演算」運用「影像伺服」快取功能來儲存回應影像資料、巢狀／內嵌請求的中介資料，以及從外部來源取得的來源影像資料（例如紋理）。
-seo-title: 資料快取
 solution: Experience Manager
 title: 資料快取
-uuid: 630ed3f4-3a0d-4de4-828f-45ffc14e6bb7
 feature: Dynamic Media經典，SDK/API
 role: 開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '87'
 ht-degree: 0%
 
 ---
