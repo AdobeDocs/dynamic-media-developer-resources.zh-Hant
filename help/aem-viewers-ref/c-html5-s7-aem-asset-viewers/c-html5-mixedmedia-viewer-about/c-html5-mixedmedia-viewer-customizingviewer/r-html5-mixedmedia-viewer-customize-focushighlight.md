@@ -1,17 +1,14 @@
 ---
 description: 使用CSS類別選擇器控制顯示在焦點檢視器UI元素周圍的輸入焦點反白顯示。
-seo-description: 使用CSS類別選擇器控制顯示在焦點檢視器UI元素周圍的輸入焦點反白顯示。
-seo-title: 焦點反白顯示
 solution: Experience Manager
 title: 焦點反白顯示
-uuid: e7be5ad0-f27b-4e00-a3cc-e053d924b69d
 feature: Dynamic Media經典，檢視器，SDK/API,Mix Media Sets
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 0%
+source-wordcount: '90'
+ht-degree: 1%
 
 ---
 
