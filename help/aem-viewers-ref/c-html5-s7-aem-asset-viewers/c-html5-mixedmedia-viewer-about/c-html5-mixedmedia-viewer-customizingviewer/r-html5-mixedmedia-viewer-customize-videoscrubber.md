@@ -1,16 +1,13 @@
 ---
 description: 視訊筆畫是水準滑桿控制項，可讓使用者動態尋找目前播放視訊中的任何時間位置。
-seo-description: 視訊筆畫是水準滑桿控制項，可讓使用者動態尋找目前播放視訊中的任何時間位置。
-seo-title: 視訊筆刷
 solution: Experience Manager
 title: 視訊筆刷
-uuid: b5574de1-7fb1-4fda-bfe7-a58ea2a8389d
 feature: Dynamic Media經典，檢視器，SDK/API,Mix Media Sets
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '368'
 ht-degree: 3%
 
 ---
