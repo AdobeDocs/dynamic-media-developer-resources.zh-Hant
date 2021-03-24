@@ -1,16 +1,13 @@
 ---
 description: 預設縮圖解析度。 提供縮圖物件解析度的預設值，以防特定目錄記錄不包含有效的目錄ThumbRes值。
-seo-description: 預設縮圖解析度。 提供縮圖物件解析度的預設值，以防特定目錄記錄不包含有效的目錄ThumbRes值。
-seo-title: ThumbRes
 solution: Experience Manager
 title: ThumbRes
-uuid: 4a77d673-9d2e-4e62-a014-c99fa3df294a
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '103'
 ht-degree: 3%
 
 ---
