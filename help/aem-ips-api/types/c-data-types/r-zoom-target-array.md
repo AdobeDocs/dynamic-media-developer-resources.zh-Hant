@@ -1,17 +1,14 @@
 ---
 description: 縮放目標的陣列。
-seo-description: 縮放目標的陣列。
-seo-title: ZoomTargetArray
 solution: Experience Manager
 title: ZoomTargetArray
-uuid: 6dc21229-33b0-4e10-bcf2-1319016ffded
 feature: Dynamic Media經典，SDK/API
 role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '35'
-ht-degree: 17%
+source-wordcount: '29'
+ht-degree: 20%
 
 ---
 
