@@ -1,16 +1,13 @@
 ---
 description: textPs=支援本節所述的多種不同使用模式。
-seo-description: textPs=支援本節所述的多種不同使用模式。
-seo-title: 文字圖層
 solution: Experience Manager
 title: 文字圖層
-uuid: 9ccef969-7c54-49ce-b6ff-ae4eabfcf99b
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '908'
+source-wordcount: '894'
 ht-degree: 0%
 
 ---
