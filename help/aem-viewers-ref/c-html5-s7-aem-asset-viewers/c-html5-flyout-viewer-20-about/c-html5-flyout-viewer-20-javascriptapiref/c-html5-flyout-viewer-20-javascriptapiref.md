@@ -1,16 +1,13 @@
 ---
 description: Flyout檢視器的主要類別為FlyoutViewer。 會在s7viewers命名空間中宣告。 此JavaScript API涵蓋此特定類別的建構函式、方法和回呼。
-seo-description: Flyout檢視器的主要類別為FlyoutViewer。 會在s7viewers命名空間中宣告。 此JavaScript API涵蓋此特定類別的建構函式、方法和回呼。
-seo-title: 彈出檢視器的JavaScript API參考
 solution: Experience Manager
 title: 彈出檢視器的JavaScript API參考
-uuid: 45621805-8aa5-4ced-a36a-ebecb2a606a0
 feature: Dynamic Media經典，檢視器，SDK/API,Flyout
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
