@@ -1,17 +1,14 @@
 ---
 description: 表面粗糙度。 指定材料曲面的相對光澤度。 與型錄類型和型錄光澤搭配使用，以控制3D反射演算效果。
-seo-description: 表面粗糙度。 指定材料曲面的相對光澤度。 與型錄類型和型錄光澤搭配使用，以控制3D反射演算效果。
-seo-title: 粗糙度
 solution: Experience Manager
 title: 粗糙度
-uuid: d71e4411-dd59-4347-a7c2-132e130ff36b
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 2%
+source-wordcount: '110'
+ht-degree: 3%
 
 ---
 
