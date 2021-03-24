@@ -1,16 +1,13 @@
 ---
 description: 「影像伺服」支援無限制的「影像伺服」請求巢狀、內嵌「影像演算」請求，以及內嵌從外部伺服器擷取的影像。 只有圖層影像和圖層遮色片才支援這些機制。
-seo-description: 「影像伺服」支援無限制的「影像伺服」請求巢狀、內嵌「影像演算」請求，以及內嵌從外部伺服器擷取的影像。 只有圖層影像和圖層遮色片才支援這些機制。
-seo-title: 請求巢狀內嵌
 solution: Experience Manager
 title: 請求巢狀內嵌
-uuid: 59031329-e65f-4631-bc7d-83f2540cc836
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1089'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
