@@ -1,16 +1,13 @@
 ---
 description: 如果互動資料是在設定中傳遞給檢視器，互動色票面板會出現在視訊內容旁。 它由頂端的橫幅組成，可轉譯文字，例如「按一下以檢視」、一欄或多欄互動式色票和兩個捲動按鈕（僅適用於案頭系統）。
-seo-description: 如果互動資料是在設定中傳遞給檢視器，互動色票面板會出現在視訊內容旁。 它由頂端的橫幅組成，可轉譯文字，例如「按一下以檢視」、一欄或多欄互動式色票和兩個捲動按鈕（僅適用於案頭系統）。
-seo-title: 互動式色票
 solution: Experience Manager
 title: 互動式色票
-uuid: 9f9df764-3dd0-414e-a0db-4287f0019313
 feature: Dynamic Media經典，檢視器，SDK/API，互動式視訊
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '895'
 ht-degree: 2%
 
 ---
