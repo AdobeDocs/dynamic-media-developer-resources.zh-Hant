@@ -1,16 +1,13 @@
 ---
 description: RTF字串中引用的所有字型都必須在預設目錄或當前影像目錄的字型映射檔案中可用，否則將返回錯誤。
-seo-description: RTF字串中引用的所有字型都必須在預設目錄或當前影像目錄的字型映射檔案中可用，否則將返回錯誤。
-seo-title: 字型處理
 solution: Experience Manager
 title: 字型處理
-uuid: 6a751973-5dae-472e-a908-bf24fa59d031
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '240'
 ht-degree: 1%
 
 ---
