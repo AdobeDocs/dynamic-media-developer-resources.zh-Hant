@@ -1,16 +1,13 @@
 ---
 description: 文字字串本地化可讓影像目錄包含相同字串值的多個地區特定表示法。
-seo-description: 文字字串本地化可讓影像目錄包含相同字串值的多個地區特定表示法。
-seo-title: 文字字串本地化
 solution: Experience Manager
 title: 文字字串本地化
-uuid: bdff2403-e3bb-4b3f-a8d7-bb108c1fbee8
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '674'
 ht-degree: 3%
 
 ---
