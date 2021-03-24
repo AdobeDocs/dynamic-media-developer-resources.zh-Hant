@@ -1,17 +1,14 @@
 ---
 description: 管理依群組存取、修改、建立或刪除資產的權利。
-seo-description: 管理依群組存取、修改、建立或刪除資產的權利。
-seo-title: 權限
 solution: Experience Manager
 title: 權限
-uuid: 3b3580d3-e5bc-42bf-bfbe-ab0ec2dea574
 feature: Dynamic Media經典，SDK/API
 role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 9%
+source-wordcount: '61'
+ht-degree: 11%
 
 ---
 
