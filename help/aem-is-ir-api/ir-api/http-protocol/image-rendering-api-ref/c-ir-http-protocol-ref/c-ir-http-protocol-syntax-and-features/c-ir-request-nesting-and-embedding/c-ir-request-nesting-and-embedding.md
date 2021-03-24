@@ -1,16 +1,13 @@
 ---
 description: 影像演算可將影像伺服請求和HTTP請求內嵌至外來伺服器，以擷取用於可重複紋理和貼文的材質影像。
-seo-description: 影像演算可將影像伺服請求和HTTP請求內嵌至外來伺服器，以擷取用於可重複紋理和貼文的材質影像。
-seo-title: 要求巢狀內嵌*
 solution: Experience Manager
 title: 要求巢狀內嵌*
-uuid: 1884ae71-6ff5-4945-9411-a7183c32b772
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '82'
 ht-degree: 0%
 
 ---
