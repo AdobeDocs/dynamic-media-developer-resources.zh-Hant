@@ -1,17 +1,14 @@
 ---
 description: TIFF編碼格式。 指定TIFF影像的壓縮格式（實際上是fmt=命令的第三個值的預設值）。
-seo-description: TIFF編碼格式。 指定TIFF影像的壓縮格式（實際上是fmt=命令的第三個值的預設值）。
-seo-title: TiffEncoding
 solution: Experience Manager
 title: TiffEncoding
-uuid: b9f672f8-d759-4248-8588-9fe46db1645f
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 3%
+source-wordcount: '80'
+ht-degree: 5%
 
 ---
 
