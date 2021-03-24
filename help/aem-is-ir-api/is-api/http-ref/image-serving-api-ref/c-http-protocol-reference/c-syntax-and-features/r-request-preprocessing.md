@@ -1,16 +1,13 @@
 ---
 description: 「影像伺服」提供以規則運算式比對和替代規則為基礎的簡單請求預處理器。
-seo-description: 「影像伺服」提供以規則運算式比對和替代規則為基礎的簡單請求預處理器。
-seo-title: 要求預處理
 solution: Experience Manager
 title: 要求預處理
-uuid: 375bbca2-7a4a-49a9-9577-86e6b2f19990
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
