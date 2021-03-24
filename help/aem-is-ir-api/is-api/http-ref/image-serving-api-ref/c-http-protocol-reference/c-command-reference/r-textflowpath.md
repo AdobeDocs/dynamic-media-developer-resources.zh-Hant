@@ -1,16 +1,13 @@
 ---
 description: 文字流動區域。 指定應將文字與textPs=所指定的一或多個區域整合。
-seo-description: 文字流動區域。 指定應將文字與textPs=所指定的一或多個區域整合。
-seo-title: textFlowPath
 solution: Experience Manager
 title: textFlowPath
-uuid: 5449d78f-e56b-4afb-a05a-7cf8f1f37278
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '109'
 ht-degree: 3%
 
 ---
