@@ -1,16 +1,13 @@
 ---
 description: 您可編寫暈映，以包含近3D反射資料。
-seo-description: 您可編寫暈映，以包含近3D反射資料。
-seo-title: 反射
 solution: Experience Manager
 title: 反射
-uuid: 6d86f566-0f02-4304-8a6c-08b1a2e9c72e
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '145'
 ht-degree: 3%
 
 ---
