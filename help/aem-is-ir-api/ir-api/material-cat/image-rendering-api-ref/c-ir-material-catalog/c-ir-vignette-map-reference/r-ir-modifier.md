@@ -1,16 +1,13 @@
 ---
 description: 請求修飾詞字串。 無或多個由'&'字元分隔的影像演算指令。 用來儲存範本和修飾元，這些範本和修飾元會在每次對此暈映對應項目提出要求時套用。
-seo-description: 請求修飾詞字串。 無或多個由'&'字元分隔的影像演算指令。 用來儲存範本和修飾元，這些範本和修飾元會在每次對此暈映對應項目提出要求時套用。
-seo-title: 修飾元
 solution: Experience Manager
 title: 修飾元
-uuid: 725724dd-b664-4d43-8072-a79ea7e7fcce
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '105'
 ht-degree: 5%
 
 ---
