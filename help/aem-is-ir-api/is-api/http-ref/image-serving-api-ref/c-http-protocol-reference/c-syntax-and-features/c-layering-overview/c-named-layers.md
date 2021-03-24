@@ -1,16 +1,13 @@
 ---
 description: layer=命令允許為圖層指定名稱，以後可以按名稱來參照相同的圖層，而不是圖層編號。
-seo-description: layer=命令允許為圖層指定名稱，以後可以按名稱來參照相同的圖層，而不是圖層編號。
-seo-title: 命名圖層
 solution: Experience Manager
 title: 命名圖層
-uuid: dad30027-338b-4387-9a14-b26c1b925b18
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '79'
 ht-degree: 0%
 
 ---
