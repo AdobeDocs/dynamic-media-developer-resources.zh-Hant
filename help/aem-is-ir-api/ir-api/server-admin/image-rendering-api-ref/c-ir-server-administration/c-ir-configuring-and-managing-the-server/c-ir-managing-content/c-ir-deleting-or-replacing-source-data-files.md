@@ -1,16 +1,13 @@
 ---
 description: 在伺服器上線時，您可在檔案覆寫之前使用req=release命令來取代或刪除暈映檔案。
-seo-description: 在伺服器上線時，您可在檔案覆寫之前使用req=release命令來取代或刪除暈映檔案。
-seo-title: 刪除或替換源資料檔案
 solution: Experience Manager
 title: 刪除或替換源資料檔案
-uuid: 13dc0489-7ab0-481e-b213-214affe9819e
 feature: Dynamic Media經典，SDK/API
 role: 開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
