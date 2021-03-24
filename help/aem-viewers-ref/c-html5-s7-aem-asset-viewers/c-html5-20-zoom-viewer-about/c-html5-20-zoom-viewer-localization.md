@@ -1,16 +1,13 @@
 ---
 description: 「視訊檢視器」顯示的某些內容會受當地語系化的限制，包括縮放按鈕和全螢幕按鈕。
-seo-description: 「視訊檢視器」顯示的某些內容會受當地語系化的限制，包括縮放按鈕和全螢幕按鈕。
-seo-title: 使用者介面元素的本地化
 solution: Experience Manager
 title: 使用者介面元素的本地化
-uuid: 00df92c5-3a10-4973-904d-de5a6b3b9258
 feature: Dynamic Media經典，檢視器，SDK/API，縮放
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
