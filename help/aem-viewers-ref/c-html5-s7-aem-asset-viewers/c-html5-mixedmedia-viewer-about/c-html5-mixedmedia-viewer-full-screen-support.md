@@ -1,16 +1,13 @@
 ---
 description: 檢視器支援全螢幕作業模式。
-seo-description: 檢視器支援全螢幕作業模式。
-seo-title: 全螢幕支援
 solution: Experience Manager
 title: 全螢幕支援
-uuid: 5381f6ba-fcc4-44ad-9ade-782ece31c10f
 feature: Dynamic Media經典，檢視器，SDK/API,Mix Media Sets
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '155'
 ht-degree: 0%
 
 ---
