@@ -1,17 +1,14 @@
 ---
 description: 控制列是矩形區域，包含並位於影片檢視器可用的所有UI控制項後方，例如播放／暫停按鈕、音量控制項等。
-seo-description: 控制列是矩形區域，包含並位於影片檢視器可用的所有UI控制項後方，例如播放／暫停按鈕、音量控制項等。
-seo-title: 控制列
 solution: Experience Manager
 title: 控制列
-uuid: 5686b670-3c8c-4bef-b428-dc468f6ca05d
 feature: Dynamic Media經典，檢視器，SDK/API，視訊
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 1%
+source-wordcount: '180'
+ht-degree: 2%
 
 ---
 
