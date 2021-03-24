@@ -1,16 +1,13 @@
 ---
 description: 在宏定義檔案中可識別以下欄位。
-seo-description: 在宏定義檔案中可識別以下欄位。
-seo-title: 宏定義
 solution: Experience Manager
 title: 宏定義
-uuid: 806f6394-0af8-4f69-83ec-6fe3b41efa27
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '38'
 ht-degree: 0%
 
 ---
