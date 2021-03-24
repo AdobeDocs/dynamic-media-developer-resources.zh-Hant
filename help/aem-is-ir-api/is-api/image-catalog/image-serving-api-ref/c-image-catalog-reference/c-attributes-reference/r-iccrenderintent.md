@@ -1,17 +1,14 @@
 ---
 description: 色彩轉換演算方式。 在未使用icc=指定演算方式時，提供色彩轉換的預設演算方式。
-seo-description: 色彩轉換演算方式。 在未使用icc=指定演算方式時，提供色彩轉換的預設演算方式。
-seo-title: IccRenderIntent
 solution: Experience Manager
 title: IccRenderIntent
-uuid: c7edd8d8-c513-48d9-b3f6-1c3ad39a67e3
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 3%
+source-wordcount: '82'
+ht-degree: 4%
 
 ---
 
