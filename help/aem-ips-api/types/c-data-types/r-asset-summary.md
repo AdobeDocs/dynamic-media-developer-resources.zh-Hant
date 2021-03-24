@@ -1,17 +1,14 @@
 ---
 description: 包含資產摘要資訊的中繼資料搜尋結果。
-seo-description: 包含資產摘要資訊的中繼資料搜尋結果。
-seo-title: 資產摘要
 solution: Experience Manager
 title: 資產摘要
-uuid: 0ac8f900-c16c-409d-b83c-3bdf0ad28fac
 feature: Dynamic Media經典，SDK/API，資產管理
 role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 9%
+source-wordcount: '131'
+ht-degree: 10%
 
 ---
 
