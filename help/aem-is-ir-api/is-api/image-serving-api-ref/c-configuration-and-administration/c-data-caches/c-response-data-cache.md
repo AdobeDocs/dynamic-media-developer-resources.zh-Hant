@@ -1,16 +1,13 @@
 ---
 description: 平台伺服器會將所有回覆影像和特定文字資料快取至磁碟，除非請求標示為不可快取。
-seo-description: 平台伺服器會將所有回覆影像和特定文字資料快取至磁碟，除非請求標示為不可快取。
-seo-title: 回應資料快取
 solution: Experience Manager
 title: 回應資料快取
-uuid: dbfda210-3b50-4e8c-8d77-7263ae4e80a2
 feature: Dynamic Media經典，SDK/API
 role: 開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
