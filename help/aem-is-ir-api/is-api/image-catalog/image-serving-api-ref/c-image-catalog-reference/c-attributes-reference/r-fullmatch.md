@@ -1,17 +1,14 @@
 ---
 description: 目錄比對選項。
-seo-description: 目錄比對選項。
-seo-title: FullMatch
 solution: Experience Manager
 title: FullMatch
-uuid: 0c69ba92-1411-4cb7-ac28-d26fe035222f
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 2%
+source-wordcount: '166'
+ht-degree: 3%
 
 ---
 
