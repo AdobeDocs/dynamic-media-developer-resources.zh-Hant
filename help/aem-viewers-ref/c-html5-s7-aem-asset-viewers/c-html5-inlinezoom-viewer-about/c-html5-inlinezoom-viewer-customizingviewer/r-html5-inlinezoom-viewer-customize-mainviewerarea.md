@@ -1,16 +1,13 @@
 ---
 description: 主要檢視區域是彈出檢視和色票所佔的區域。
-seo-description: 主要檢視區域是彈出檢視和色票所佔的區域。
-seo-title: 主檢視器區域
 solution: Experience Manager
 title: 主檢視器區域
-uuid: 828ee8e5-8e5f-47cf-a566-2e997a5e3926
 feature: Dynamic Media經典，檢視器，SDK/API，內嵌縮放
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '103'
 ht-degree: 2%
 
 ---
