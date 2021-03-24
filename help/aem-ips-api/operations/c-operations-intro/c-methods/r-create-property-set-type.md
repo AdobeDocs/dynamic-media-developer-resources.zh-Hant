@@ -1,16 +1,13 @@
 ---
 description: 屬性集類型指定用於幫助管理屬性集的各種設定。
-seo-description: 屬性集類型指定用於幫助管理屬性集的各種設定。
-seo-title: createPropertySetType
 solution: Experience Manager
 title: createPropertySetType
-uuid: ecbaad48-d725-4f7a-a37d-5e4cde3295cb
 feature: Dynamic Media經典，SDK/API
 role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '165'
 ht-degree: 10%
 
 ---
