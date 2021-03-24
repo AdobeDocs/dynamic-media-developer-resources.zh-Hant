@@ -1,17 +1,14 @@
 ---
 description: 僅限Scene 7開發人員。 請參閱「影像渲染材料目錄參考目錄屬性」部分。
-seo-description: 僅限Scene 7開發人員。 請參閱「影像渲染材料目錄參考目錄屬性」部分。
-seo-title: setImageServingPublishSettings
 solution: Experience Manager
 title: setImageServingPublishSettings
-uuid: 16fc8600-8b04-4078-abb0-201d750b28aa
 feature: Dynamic Media經典，SDK/API
 role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 13%
+source-wordcount: '61'
+ht-degree: 16%
 
 ---
 
