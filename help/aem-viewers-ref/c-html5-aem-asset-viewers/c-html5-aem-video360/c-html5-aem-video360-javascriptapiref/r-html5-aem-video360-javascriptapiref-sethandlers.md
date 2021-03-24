@@ -1,17 +1,14 @@
 ---
 description: Video360檢視器的JavaScript API參考
-seo-description: Video360檢視器的JavaScript API參考
-seo-title: setHandlers
 solution: Experience Manager
 title: setHandlers
-uuid: e6c8afb3-576a-4536-a7a0-416a21de85dc
 feature: Dynamic Media經典，檢視器，SDK/API,360 VR視訊
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 2%
+source-wordcount: '98'
+ht-degree: 3%
 
 ---
 
