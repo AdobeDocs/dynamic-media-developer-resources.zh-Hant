@@ -1,16 +1,13 @@
 ---
 description: 目錄資料檔案可以有任何名稱和檔案尾碼（.ini除外）。 使用支援Tab分隔文字資料檔案（例如Microsoft Excel和Access）的應用程式，就可輕鬆維護這些檔案。
-seo-description: 目錄資料檔案可以有任何名稱和檔案尾碼（.ini除外）。 使用支援Tab分隔文字資料檔案（例如Microsoft Excel和Access）的應用程式，就可輕鬆維護這些檔案。
-seo-title: 目錄資料檔案
 solution: Experience Manager
 title: 目錄資料檔案
-uuid: 0f66e2fe-5b8a-43d3-bf2e-8dd79da6a581
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
