@@ -1,17 +1,14 @@
 ---
 description: 最佳化影像工作的詳細資訊。
-seo-description: 最佳化影像工作的詳細資訊。
-seo-title: 最佳化影像工作
 solution: Experience Manager
 title: 最佳化影像工作
-uuid: 8d1eceb7-fa50-4649-b5a6-6102449a4c72
 feature: Dynamic Media經典，SDK/API
 role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 13%
+source-wordcount: '31'
+ht-degree: 16%
 
 ---
 
