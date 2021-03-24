@@ -1,16 +1,13 @@
 ---
 description: 按一下或點選此按鈕會關閉包含的網頁。 此按鈕僅在關閉按鈕參數設定為1時顯示。 您可以使用CSS來調整此按鈕的大小、外觀和位置。
-seo-description: 按一下或點選此按鈕會關閉包含的網頁。 此按鈕僅在關閉按鈕參數設定為1時顯示。 您可以使用CSS來調整此按鈕的大小、外觀和位置。
-seo-title: 關閉按鈕
 solution: Experience Manager
 title: 關閉按鈕
-uuid: d30e1bdf-31a9-463f-99f7-a978acb50ebc
 feature: Dynamic Media經典，檢視器，SDK/API,Mix Media Sets
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '239'
 ht-degree: 2%
 
 ---
