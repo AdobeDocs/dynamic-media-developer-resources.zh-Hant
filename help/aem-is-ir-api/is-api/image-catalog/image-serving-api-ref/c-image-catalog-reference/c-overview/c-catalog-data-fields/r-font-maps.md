@@ -1,16 +1,13 @@
 ---
 description: 字型對應檔案會辨識下列欄位。
-seo-description: 字型對應檔案會辨識下列欄位。
-seo-title: 字型地圖
 solution: Experience Manager
 title: 字型地圖
-uuid: 836131e6-d899-4e36-a837-df46bf27a6b2
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '68'
 ht-degree: 0%
 
 ---
