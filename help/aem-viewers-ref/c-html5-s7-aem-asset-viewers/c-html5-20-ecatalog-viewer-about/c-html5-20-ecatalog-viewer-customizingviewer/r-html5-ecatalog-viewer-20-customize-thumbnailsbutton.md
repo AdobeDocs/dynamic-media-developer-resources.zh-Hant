@@ -1,17 +1,14 @@
 ---
 description: 按一下或點選此按鈕會重設，以在主檢視和縮圖之間切換檢視器。 此按鈕會出現在主控制列中。 您可以使用CSS來調整此按鈕的大小、外觀和位置。
-seo-description: 按一下或點選此按鈕會重設，以在主檢視和縮圖之間切換檢視器。 此按鈕會出現在主控制列中。 您可以使用CSS來調整此按鈕的大小、外觀和位置。
-seo-title: 縮圖按鈕
 solution: Experience Manager
 title: 縮圖按鈕
-uuid: a1a7f4b0-672e-4b83-9b21-0b8c6fc3f24a
 feature: Dynamic Media經典，檢視器，SDK/API,eCatalog
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 0%
+source-wordcount: '281'
+ht-degree: 1%
 
 ---
 
