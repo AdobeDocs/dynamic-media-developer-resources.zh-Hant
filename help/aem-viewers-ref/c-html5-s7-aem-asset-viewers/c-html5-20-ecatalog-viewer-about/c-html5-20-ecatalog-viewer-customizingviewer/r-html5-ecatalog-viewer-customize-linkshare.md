@@ -1,16 +1,13 @@
 ---
 description: 連結分享工具由新增至Social分享面板的按鈕和在工具啟動時顯示的模態對話方塊組成。 按鈕的位置由Social分享工具完全管理。
-seo-description: 連結分享工具由新增至Social分享面板的按鈕和在工具啟動時顯示的模態對話方塊組成。 按鈕的位置由Social分享工具完全管理。
-seo-title: 連結共用
 solution: Experience Manager
 title: 連結共用
-uuid: 80ecbaca-9092-40b6-bb24-4b233356de3f
 feature: Dynamic Media經典，檢視器，SDK/API,eCatalog
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1434'
+source-wordcount: '1394'
 ht-degree: 2%
 
 ---
