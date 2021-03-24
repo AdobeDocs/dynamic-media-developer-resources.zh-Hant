@@ -1,17 +1,14 @@
 ---
 description: 取代影像資產的影像資料。
-seo-description: 取代影像資產的影像資料。
-seo-title: replaceImage
 solution: Experience Manager
 title: replaceImage
-uuid: 46824e33-265c-4425-9ab1-8ad6b7ac154d
 feature: Dynamic Media經典，SDK/API，資產管理
 role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 14%
+source-wordcount: '112'
+ht-degree: 15%
 
 ---
 
