@@ -1,16 +1,13 @@
 ---
 description: 回覆影像高度。 指定演算後影像的縮放比例，使回覆影像的高度不大於指定值，同時維持影像的長寬比。
-seo-description: 回覆影像高度。 指定演算後影像的縮放比例，使回覆影像的高度不大於指定值，同時維持影像的長寬比。
-seo-title: hei
 solution: Experience Manager
-title: 黑
-uuid: 616d3306-ccbd-4400-8a94-1ff6f47b802e
+title: hei
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '252'
 ht-degree: 2%
 
 ---
