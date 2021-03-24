@@ -1,17 +1,14 @@
 ---
 description: 傳回資產的發佈歷史記錄。
-seo-description: 傳回資產的發佈歷史記錄。
-seo-title: getAssetPublishHistory
 solution: Experience Manager
 title: getAssetPublishHistory
-uuid: 15025c3d-eac3-4cb8-9a2a-fd80bd67478f
 feature: Dynamic Media經典，SDK/API，資產管理
 role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 15%
+source-wordcount: '98'
+ht-degree: 16%
 
 ---
 
