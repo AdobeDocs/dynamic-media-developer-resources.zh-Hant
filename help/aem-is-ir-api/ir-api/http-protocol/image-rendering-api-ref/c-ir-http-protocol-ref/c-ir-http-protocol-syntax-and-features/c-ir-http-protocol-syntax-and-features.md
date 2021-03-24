@@ -1,17 +1,14 @@
 ---
 description: 本節說明HTTP通訊協定語法，以及Dynamic Media影像演算的功能。
-seo-description: 本節說明HTTP通訊協定語法，以及Dynamic Media影像演算的功能。
-seo-title: HTTP通訊協定語法與功能
 solution: Experience Manager
 title: HTTP通訊協定語法與功能
-uuid: 5badae8e-0874-43b1-b019-bd7445e6c2ce
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 0%
+source-wordcount: '87'
+ht-degree: 1%
 
 ---
 
