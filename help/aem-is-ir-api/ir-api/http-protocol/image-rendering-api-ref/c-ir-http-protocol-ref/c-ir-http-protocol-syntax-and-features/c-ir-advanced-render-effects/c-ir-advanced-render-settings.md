@@ -5,7 +5,7 @@ title: 進階演算設定
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 25%
@@ -53,14 +53,14 @@ ht-degree: 25%
   <tr> 
    <td colname="col1"> <p>W </p> </td> 
    <td colname="col2"> <p>USM金額(%)。 </p> </td> 
-   <td colname="col3"> <p>1 </p> </td> 
+   <td colname="col3"> <p>3 </p> </td> 
    <td colname="col4"> <p>500 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>V </p> </td> 
    <td colname="col2"> <p>USM半徑（像素）。 </p> </td> 
-   <td colname="col3"> <p>3 </p> </td> 
+   <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>100 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
@@ -74,7 +74,7 @@ ht-degree: 25%
   <tr> 
    <td colname="col1"> <p>Q </p> </td> 
    <td colname="col2"> <p>調整大小模式。 </p> </td> 
-   <td colname="col3"> <p>1 </p> </td> 
+   <td colname="col3"> <p>3 </p> </td> 
    <td colname="col4"> <p>5 </p> </td> 
    <td colname="col5"> <p> 
      <ul id="ul_87184BB93E7F46D59BA1AAAFA8455512"> 
@@ -131,7 +131,7 @@ ht-degree: 25%
   <tr> 
    <td colname="col1"> <p>P </p> </td> 
    <td colname="col2"> <p>泊松：樣本／像素。 </p> </td> 
-   <td colname="col3"> <p>3 </p> </td> 
+   <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>4 </p> </td> 
    <td colname="col5"> <p>預設為 1。 </p> </td> 
   </tr> 
