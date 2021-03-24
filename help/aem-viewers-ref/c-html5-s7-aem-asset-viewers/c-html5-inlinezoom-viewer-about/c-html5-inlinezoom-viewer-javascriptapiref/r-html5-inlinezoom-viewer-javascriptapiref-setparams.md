@@ -1,16 +1,13 @@
 ---
 description: 內嵌縮放檢視器的JavaScript API參考。
-seo-description: 內嵌縮放檢視器的JavaScript API參考。
-seo-title: setParams
 solution: Experience Manager
 title: setParams
-uuid: 50fde4b0-2fd8-4341-bb2f-b1785f82ebc1
 feature: Dynamic Media經典，檢視器，SDK/API，內嵌縮放
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '109'
 ht-degree: 1%
 
 ---
