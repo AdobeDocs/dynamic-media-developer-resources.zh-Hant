@@ -1,17 +1,14 @@
 ---
 description: 檢視器會在主檢視上顯示熱點圖示，這些熱點原本是在AEM AssetsDynamic Media-隨選地區製作的。
-seo-description: 檢視器會在主檢視上顯示熱點圖示，這些熱點原本是在AEM AssetsDynamic Media-隨選地區製作的。
-seo-title: 熱點
 solution: Experience Manager
 title: 熱點
-uuid: 79c4d128-e24a-43b0-8e18-13b588eb396e
 feature: Dynamic Media經典，檢視器，SDK/API，互動式影像
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 1%
+source-wordcount: '130'
+ht-degree: 2%
 
 ---
 
