@@ -1,15 +1,12 @@
 ---
 description: 互動式影像檢視器顯示的某些內容可能會受當地語系限制。 這包括使用者介面元素工具提示和載入時彈出縮放檢視所顯示的資訊訊息。
-seo-description: 互動式影像檢視器顯示的某些內容可能會受當地語系限制。 這包括使用者介面元素工具提示和載入時彈出縮放檢視所顯示的資訊訊息。
-seo-title: 使用者介面元素的本地化
 title: 使用者介面元素的本地化
-uuid: 1a22570b-8435-4e57-a022-34428bddc7f7
 feature: Dynamic Media經典，檢視器，SDK/API，互動式影像
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
