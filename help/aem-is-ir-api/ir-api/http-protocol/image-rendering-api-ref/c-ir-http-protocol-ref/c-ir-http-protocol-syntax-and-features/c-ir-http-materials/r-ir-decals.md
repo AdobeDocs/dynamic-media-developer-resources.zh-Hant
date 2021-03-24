@@ -1,16 +1,13 @@
 ---
 description: 貼面材料包括裝飾構件，例如應用程式、T恤印花、刺繡或印刷標誌，以及用於內部或外部應用的非可重複的平面物件，例如地毯、掛壁藝術、標誌等。
-seo-description: 貼面材料包括裝飾構件，例如應用程式、T恤印花、刺繡或印刷標誌，以及用於內部或外部應用的非可重複的平面物件，例如地毯、掛壁藝術、標誌等。
-seo-title: Decals
 solution: Experience Manager
 title: Decals
-uuid: 6e64f382-f15f-4018-b00c-4fd21a4ebc8c
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '234'
 ht-degree: 2%
 
 ---
