@@ -1,17 +1,14 @@
 ---
 description: 映像整合員的陣列。
-seo-description: 映像整合員的陣列。
-seo-title: ImageSetMemberArray
 solution: Experience Manager
 title: ImageSetMemberArray
-uuid: 49dec4a7-cffb-4d15-bdac-bb3a60fca0ee
 feature: Dynamic Media經典，SDK/API，影像集
 role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '42'
-ht-degree: 14%
+source-wordcount: '35'
+ht-degree: 17%
 
 ---
 
