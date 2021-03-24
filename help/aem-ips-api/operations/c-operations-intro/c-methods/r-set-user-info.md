@@ -1,17 +1,14 @@
 ---
 description: 設定使用者屬性（例如名稱、電子郵件、角色等）
-seo-description: 設定使用者屬性（例如名稱、電子郵件、角色等）
-seo-title: setUserInfo
 solution: Experience Manager
 title: setUserInfo
-uuid: 52e3a21e-1dd5-4f9d-b460-506d280fff47
 feature: Dynamic Media經典，SDK/API
 role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 15%
+source-wordcount: '114'
+ht-degree: 16%
 
 ---
 
