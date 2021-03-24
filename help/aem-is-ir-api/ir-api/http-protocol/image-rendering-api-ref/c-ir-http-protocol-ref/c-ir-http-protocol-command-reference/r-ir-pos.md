@@ -1,16 +1,13 @@
 ---
 description: 傾斜位置。 定義距貼圖影像的錨點=點到由目標暈映對象定義的貼圖原點的偏移（英吋）。
-seo-description: 傾斜位置。 定義距貼圖影像的錨點=點到由目標暈映對象定義的貼圖原點的偏移（英吋）。
-seo-title: pos
 solution: Experience Manager
 title: pos
-uuid: f44c258d-84e9-465b-8495-ae9b96a106c3
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '101'
 ht-degree: 3%
 
 ---
