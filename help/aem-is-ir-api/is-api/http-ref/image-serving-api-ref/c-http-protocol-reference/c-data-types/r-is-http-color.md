@@ -1,16 +1,13 @@
 ---
 description: 顏色值。 您可以使用十六進位符號、以逗號分隔的元件值清單或小數來指定顏色值。
-seo-description: 顏色值。 您可以使用十六進位符號、以逗號分隔的元件值清單或小數來指定顏色值。
-seo-title: 色彩
 solution: Experience Manager
 title: 色彩
-uuid: 61308b8e-eaac-4b2e-8500-2f9efa8a6ce8
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: ddfccb4ca157764e39fc719d96b63e6ee95304bf
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '439'
 ht-degree: 14%
 
 ---
@@ -39,7 +36,7 @@ ht-degree: 14%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> 十六進位</span> </span> </p></td> 
-  <td class="stentry"> <p>壓縮兩位十六進位灰色值(GG) </p></td> 
+  <td class="stentry"> <p>封裝的兩位十六進位灰色值(GG) </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> 十六進位4</span> </span> </p> </td> 
@@ -51,11 +48,11 @@ ht-degree: 14%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> hex8</span> </span> </p> </td> 
-  <td class="stentry"> <p>包含8位十六進位RGBA(RRGGBBAA)或CMYK(CCMMYYKK)顏色值（如果以'k'尾碼指定） </p></td> 
+  <td class="stentry"> <p>封裝的八位十六進位RGBA(RRGGBBAA)或CMYK(CCMMYYKK)色彩值（如果以'k'字尾指定） </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> hex10</span> </span> </p></td> 
-  <td class="stentry"> <p>帶有字母值的10位數十六進位CMYK(CYYMMKKAA) </p> </td> 
+  <td class="stentry"> <p>帶有字母值的10位數十六進位CMYK(CCYMMKKAA) </p> </td> 
  </tr> 
 </table>
 
