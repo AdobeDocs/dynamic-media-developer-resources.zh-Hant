@@ -1,16 +1,13 @@
 ---
 description: 本檔案討論伺服器管理問題，並說明Dynamic Media影像演算的組態設定。
-seo-description: 本檔案討論伺服器管理問題，並說明Dynamic Media影像演算的組態設定。
-seo-title: 伺服器管理序言
 solution: Experience Manager
 title: 伺服器管理序言
-uuid: 182782f1-44a8-421d-bacc-f08dcf95f58b
 feature: Dynamic Media經典，SDK/API
 role: 開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '176'
 ht-degree: 1%
 
 ---
