@@ -1,17 +1,14 @@
 ---
 description: 獲取由公司、組和用戶角色句柄指定的一組用戶。 此操作可讓您依字元排序傳回的使用者及篩選。
-seo-description: 獲取由公司、組和用戶角色句柄指定的一組用戶。 此操作可讓您依字元排序傳回的使用者及篩選。
-seo-title: getUsers
 solution: Experience Manager
 title: getUsers
-uuid: f16ccd1b-0f00-4d9a-b6e1-6abc3bde1af9
 feature: Dynamic Media經典，SDK/API
 role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 9%
+source-wordcount: '216'
+ht-degree: 10%
 
 ---
 
