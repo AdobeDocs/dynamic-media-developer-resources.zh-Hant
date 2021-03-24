@@ -1,16 +1,13 @@
 ---
 description: 使用基於目錄或基於過期的快取驗證自動刷新快取條目，如同使用屬性CacheValidationPolicy（預設為。ini或特定映像目錄的。ini檔案）選擇的一樣。
-seo-description: 使用基於目錄或基於過期的快取驗證自動刷新快取條目，如同使用屬性CacheValidationPolicy（預設為。ini或特定映像目錄的。ini檔案）選擇的一樣。
-seo-title: 回應快取驗證
 solution: Experience Manager
 title: 回應快取驗證
-uuid: d1aad5ae-f0fa-489b-a48b-b0ac8c8f43bb
 feature: Dynamic Media經典，SDK/API
 role: 開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
