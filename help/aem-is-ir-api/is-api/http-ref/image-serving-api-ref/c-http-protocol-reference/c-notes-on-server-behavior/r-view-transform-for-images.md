@@ -2,11 +2,10 @@
 description: 影像的檢視變形
 solution: Experience Manager
 title: 影像的檢視變形
-uuid: 8594f746-0e58-4a59-933c-a44dc0b06c25
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 0%
