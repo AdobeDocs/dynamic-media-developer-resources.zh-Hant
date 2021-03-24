@@ -1,16 +1,13 @@
 ---
 description: 此按鈕可切換隱藏字幕的顯示和顯示。 如果未指定標題參數，則不會顯示。
-seo-description: 此按鈕可切換隱藏字幕的顯示和顯示。 如果未指定標題參數，則不會顯示。
-seo-title: 標題按鈕
 solution: Experience Manager
 title: 標題按鈕
-uuid: 97de8cdd-8410-4128-be5c-1fc4987a5f96
 feature: Dynamic Media經典，檢視器，SDK/API，視訊
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '261'
 ht-degree: 2%
 
 ---
