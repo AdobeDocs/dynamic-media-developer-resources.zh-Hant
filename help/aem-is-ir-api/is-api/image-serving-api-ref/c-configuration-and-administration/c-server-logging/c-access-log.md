@@ -1,16 +1,13 @@
 ---
 description: 這是主要記錄檔，可追蹤對平台伺服器發出的所有HTTP要求。 如果啟用，則將其訪問日誌資料寫入同一檔案。
-seo-description: 這是主要記錄檔，可追蹤對平台伺服器發出的所有HTTP要求。 如果啟用，則將其訪問日誌資料寫入同一檔案。
-seo-title: 存取記錄
 solution: Experience Manager
 title: 存取記錄
-uuid: 33cd4338-1fe7-46ac-83f5-200ea26f1e22
 feature: Dynamic Media經典，SDK/API
 role: 開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
