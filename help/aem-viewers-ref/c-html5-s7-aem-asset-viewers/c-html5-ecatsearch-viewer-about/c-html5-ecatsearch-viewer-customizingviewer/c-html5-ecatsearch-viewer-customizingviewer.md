@@ -1,17 +1,14 @@
 ---
 description: 建立自訂CSS即可完成eCatalog搜尋檢視器的所有視覺化自訂和大部分行為自訂。
 keywords: 回應
-seo-description: 建立自訂CSS即可完成eCatalog搜尋檢視器的所有視覺化自訂和大部分行為自訂。
-seo-title: 自訂eCatalog搜尋檢視器
 solution: Experience Manager
 title: 自訂eCatalog搜尋檢視器
-uuid: a715399b-7b02-4656-8257-4c390c6f629c
 feature: Dynamic Media經典，檢視器，SDK/API,eCatalog搜尋
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1409'
 ht-degree: 0%
 
 ---
