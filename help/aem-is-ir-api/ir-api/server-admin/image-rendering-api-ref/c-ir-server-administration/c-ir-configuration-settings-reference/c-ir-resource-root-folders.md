@@ -1,16 +1,13 @@
 ---
 description: 路徑清單（以分號分隔）可做為具有相對檔案路徑之所有資料檔案的根目錄。
-seo-description: 路徑清單（以分號分隔）可做為具有相對檔案路徑之所有資料檔案的根目錄。
-seo-title: 資源根資料夾(ir.resourceRootPaths)
 solution: Experience Manager
 title: 資源根資料夾(ir.resourceRootPaths)
-uuid: a2a8ecd1-ddfe-46c5-bb70-4640e0992de8
 feature: Dynamic Media經典，SDK/API
 role: 開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '88'
 ht-degree: 0%
 
 ---
