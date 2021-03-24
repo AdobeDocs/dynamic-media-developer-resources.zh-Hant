@@ -1,16 +1,13 @@
 ---
 description: 使用Dynamic Media影像伺服時，應考慮一些限制和已知問題。
-seo-description: 使用Dynamic Media影像伺服時，應考慮一些限制和已知問題。
-seo-title: 限制與已知問題
 solution: Experience Manager
 title: 限制與已知問題
-uuid: 9f9fad41-4828-4fba-8f5f-2c33e7811c71
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1259'
+source-wordcount: '1238'
 ht-degree: 0%
 
 ---
