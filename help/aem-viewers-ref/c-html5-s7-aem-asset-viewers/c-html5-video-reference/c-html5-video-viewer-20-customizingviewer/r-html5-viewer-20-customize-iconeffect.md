@@ -1,16 +1,13 @@
 ---
 description: 播放圖示覆蓋在主檢視區域上。 它會在暫停視訊或到達視訊結尾時顯示，並且會依據iconeffect參數而定。
-seo-description: 播放圖示覆蓋在主檢視區域上。 它會在暫停視訊或到達視訊結尾時顯示，並且會依據iconeffect參數而定。
-seo-title: 圖示效果
 solution: Experience Manager
 title: 圖示效果
-uuid: dcab487d-0bd6-4899-82e2-e29fa812a864
 feature: Dynamic Media經典，檢視器，SDK/API，視訊
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '176'
 ht-degree: 1%
 
 ---
