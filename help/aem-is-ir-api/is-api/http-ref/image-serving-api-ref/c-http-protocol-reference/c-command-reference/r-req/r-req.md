@@ -1,16 +1,13 @@
 ---
 description: 請求類型. 指定請求的類型。
-seo-description: 請求類型. 指定請求的類型。
-seo-title: requin
 solution: Experience Manager
 title: requin
-uuid: b888be10-89e5-4b41-a2bd-f83533ea2481
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: ddfccb4ca157764e39fc719d96b63e6ee95304bf
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '98'
 ht-degree: 14%
 
 ---
@@ -43,7 +40,7 @@ ht-degree: 14%
 * [xlate](r-xlate.md)
 * [xmp](r-xmp.md)
 
-除非詳細說明中另有說明，否則伺服器將傳回MIME類型為`text/plain`的`text`回應。 許多請求類型都可讓您指定回應類型，例如`text`，通常是預設類型、`javascript`、`xml`或`json`。 關聯的響應MIME類型分別為`text/plain`、`text/javascript`、`text/xml`和`text/javascript`。
+除非詳細說明另有說明，否則伺服器會傳回MIME類型為`text/plain`的`text`回應。 許多請求類型都可讓您指定回應類型，例如`text`，通常是預設類型、`javascript`、`xml`或`json`。 關聯的響應MIME類型分別為`text/plain`、`text/javascript`、`text/xml`和`text/javascript`。
 
 除非另行聲明，否則回應會將回應格式化為一組`name=value`對。
 
