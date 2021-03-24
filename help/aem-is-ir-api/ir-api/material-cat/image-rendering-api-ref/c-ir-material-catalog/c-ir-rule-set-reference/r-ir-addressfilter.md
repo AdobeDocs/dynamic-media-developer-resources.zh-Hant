@@ -1,16 +1,13 @@
 ---
 description: 地址篩選元素。 在<rule>元素中為可選項。 在套用規則時覆寫屬性ClientAddressFilter。
-seo-description: 地址篩選元素。 在<rule>元素中為可選項。 在套用規則時覆寫屬性ClientAddressFilter。
-seo-title: 地址篩選
 solution: Experience Manager
 title: 地址篩選
-uuid: e5702c6e-a49c-4da6-a29c-26e16bfdcad1
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '155'
 ht-degree: 4%
 
 ---
