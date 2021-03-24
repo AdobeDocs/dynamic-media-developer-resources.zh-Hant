@@ -1,16 +1,13 @@
 ---
 description: 遮色片檔案路徑。 與此目錄記錄關聯的蒙版影像檔案的相對或絕對路徑和名稱。
-seo-description: 遮色片檔案路徑。 與此目錄記錄關聯的蒙版影像檔案的相對或絕對路徑和名稱。
-seo-title: 遮色片路徑
 solution: Experience Manager
 title: 遮色片路徑
-uuid: a2d1f08a-0a26-41a6-9be2-f5cc2afb15c4
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '179'
 ht-degree: 3%
 
 ---
