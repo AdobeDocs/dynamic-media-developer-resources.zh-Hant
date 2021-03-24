@@ -1,16 +1,13 @@
 ---
 description: 預設解析度。 提供預設解析度，以防特定目錄記錄不包含有效的目錄解析度值。
-seo-description: 預設解析度。 提供預設解析度，以防特定目錄記錄不包含有效的目錄解析度值。
-seo-title: 解析度
 solution: Experience Manager
 title: 解析度
-uuid: b04b3746-90e6-4545-9c57-7ee3b61d99bf
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '87'
 ht-degree: 6%
 
 ---
