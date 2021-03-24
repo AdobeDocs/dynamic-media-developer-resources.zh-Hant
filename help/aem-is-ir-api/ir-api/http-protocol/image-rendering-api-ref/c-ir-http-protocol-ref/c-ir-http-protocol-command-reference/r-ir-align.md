@@ -1,17 +1,14 @@
 ---
 description: 紋理演算對齊方式。 指定將使用所選暈映對象定義的原點。
-seo-description: 紋理演算對齊方式。 指定將使用所選暈映對象定義的原點。
-seo-title: 對齊
 solution: Experience Manager
 title: 對齊
-uuid: 0b24cd82-f9b2-48f4-9052-8c2026370ff7
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 3%
+source-wordcount: '185'
+ht-degree: 4%
 
 ---
 
