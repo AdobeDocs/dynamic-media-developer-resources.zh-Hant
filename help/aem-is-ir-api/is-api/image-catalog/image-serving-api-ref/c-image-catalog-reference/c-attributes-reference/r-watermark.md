@@ -1,16 +1,13 @@
 ---
 description: 浮水印選擇器。 指定要用作水印影像或模板的目錄記錄的目錄ID。
-seo-description: 浮水印選擇器。 指定要用作水印影像或模板的目錄記錄的目錄ID。
-seo-title: 浮水印
 solution: Experience Manager
 title: 浮水印
-uuid: 18add7ab-0797-4ab3-a7e8-05c745abe605
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '112'
 ht-degree: 5%
 
 ---
