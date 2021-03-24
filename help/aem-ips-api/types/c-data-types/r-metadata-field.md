@@ -1,17 +1,14 @@
 ---
 description: 特定資產的使用者定義欄位定義。
-seo-description: 特定資產的使用者定義欄位定義。
-seo-title: 中繼資料欄位
 solution: Experience Manager
 title: 中繼資料欄位
-uuid: 6156be6e-efa5-4e90-928d-2ab936668154
 feature: Dynamic Media經典，SDK/API，中繼資料
 role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 13%
+source-wordcount: '153'
+ht-degree: 14%
 
 ---
 
