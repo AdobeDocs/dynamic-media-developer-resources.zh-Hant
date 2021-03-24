@@ -1,16 +1,13 @@
 ---
 description: HTTP回應標題元素。 在<rule>元素中為可選項。
-seo-description: HTTP回應標題元素。 在<rule>元素中為可選項。
-seo-title: header
 solution: Experience Manager
-title: 標題
-uuid: 89ec0f27-fc12-47c2-b9dd-e0ee768587b5
+title: header
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '145'
 ht-degree: 4%
 
 ---
