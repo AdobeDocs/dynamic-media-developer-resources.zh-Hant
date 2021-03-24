@@ -1,16 +1,13 @@
 ---
 description: 對於高級應用程式，可以將渲染操作的結果用作材料影像，就像從「影像服務」獲得的影像一樣。
-seo-description: 對於高級應用程式，可以將渲染操作的結果用作材料影像，就像從「影像服務」獲得的影像一樣。
-seo-title: 巢狀影像演算請求
 solution: Experience Manager
 title: 巢狀影像演算請求
-uuid: 12551bd5-ff5f-45d6-81e9-5ba0be47a425
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '198'
 ht-degree: 0%
 
 ---
