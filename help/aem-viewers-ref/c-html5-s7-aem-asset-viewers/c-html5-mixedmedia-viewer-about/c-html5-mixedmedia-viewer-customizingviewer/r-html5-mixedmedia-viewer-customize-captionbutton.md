@@ -1,16 +1,13 @@
 ---
 description: 開啟和關閉隱藏字幕顯示。 如果未指定標題參數，則不會顯示。 您可以使用CSS來調整按鈕的大小、外觀，並將其相對於控制列定位。
-seo-description: 開啟和關閉隱藏字幕顯示。 如果未指定標題參數，則不會顯示。 您可以使用CSS來調整按鈕的大小、外觀，並將其相對於控制列定位。
-seo-title: 標題按鈕
 solution: Experience Manager
 title: 標題按鈕
-uuid: a03170e4-aaa9-4822-99dd-b9cf13206bbc
 feature: Dynamic Media經典，檢視器，SDK/API,Mix Media Sets
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '282'
 ht-degree: 2%
 
 ---
