@@ -1,17 +1,14 @@
 ---
 description: 包含有關批資產操作期間生成的警告或錯誤條件的資訊。 代碼和原因欄位對應於為對等非批處理操作而拋出的故障消息欄位。
-seo-description: 包含有關批資產操作期間生成的警告或錯誤條件的資訊。 代碼和原因欄位對應於為對等非批處理操作而拋出的故障消息欄位。
-seo-title: AssetOperationFault
 solution: Experience Manager
 title: AssetOperationFault
-uuid: fb6c5482-6e16-4561-927b-e4daeb7bdd7b
 feature: Dynamic Media經典，SDK/API，資產管理
 role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 5%
+source-wordcount: '100'
+ht-degree: 7%
 
 ---
 
