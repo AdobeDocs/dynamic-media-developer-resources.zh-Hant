@@ -1,17 +1,14 @@
 ---
 description: 隱藏重疊物件。 隱藏當前選擇中應用於窗口覆蓋框架的所有重疊對象或窗口覆蓋。
-seo-description: 隱藏重疊物件。 隱藏當前選擇中應用於窗口覆蓋框架的所有重疊對象或窗口覆蓋。
-seo-title: 隱藏
 solution: Experience Manager
 title: 隱藏
-uuid: 15c01750-958a-497d-a999-cacf359bb985
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 6%
+source-wordcount: '99'
+ht-degree: 7%
 
 ---
 
