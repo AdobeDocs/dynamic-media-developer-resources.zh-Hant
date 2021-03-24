@@ -1,16 +1,13 @@
 ---
 description: Video360檢視器的設定屬性檔案。
-seo-description: Video360檢視器的設定屬性檔案。
-seo-title: 命令參考——配置屬性
 solution: Experience Manager
 title: 命令參考——配置屬性
-uuid: 645bba87-3d84-46e9-97fc-7019c5dd87ca
 feature: Dynamic Media經典，檢視器，SDK/API,360 VR視訊
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '152'
 ht-degree: 0%
 
 ---
