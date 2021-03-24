@@ -1,16 +1,13 @@
 ---
 description: 這些命令不論在請求中出現在何處都適用。
-seo-description: 這些命令不論在請求中出現在何處都適用。
-seo-title: 請求命令
 solution: Experience Manager
 title: 請求命令
-uuid: 5566bbcd-baf8-4003-b61d-df4e414df781
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '150'
 ht-degree: 2%
 
 ---
