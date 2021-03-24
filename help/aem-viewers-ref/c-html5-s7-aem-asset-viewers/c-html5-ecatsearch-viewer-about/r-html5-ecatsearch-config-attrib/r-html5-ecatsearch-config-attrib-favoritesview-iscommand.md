@@ -1,17 +1,14 @@
 ---
 description: 套用至所有縮圖的「影像伺服」命令字串。
-seo-description: 套用至所有縮圖的「影像伺服」命令字串。
-seo-title: FavoritesView.iscommand
 solution: Experience Manager
 title: FavoritesView.iscommand
-uuid: be3d49d1-d5d2-4ecd-bc8f-fe5f80204c76
 feature: Dynamic Media經典，檢視器，SDK/API,eCatalog搜尋
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 6%
+source-wordcount: '70'
+ht-degree: 7%
 
 ---
 
