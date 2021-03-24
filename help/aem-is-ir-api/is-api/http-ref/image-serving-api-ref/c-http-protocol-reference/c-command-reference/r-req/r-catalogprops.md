@@ -1,17 +1,14 @@
 ---
 description: 影像目錄屬性。 傳回在請求路徑中指定的影像目錄的通用屬性。
-seo-description: 影像目錄屬性。 傳回在請求路徑中指定的影像目錄的通用屬性。
-seo-title: 編目prop
 solution: Experience Manager
 title: 編目prop
-uuid: 09252d39-8604-4785-bcdc-ad229a691035
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 5%
+source-wordcount: '221'
+ht-degree: 6%
 
 ---
 
@@ -29,7 +26,7 @@ ht-degree: 5%
  </tr> 
 </table>
 
-省略目錄ID以擷取預設目錄屬性([!DNL default.ini])。 HTTP響應基於`attribute::NonImgExpiration`可以與TTL進行快取。
+要檢索預設目錄屬性([!DNL default.ini])，請忽略目錄ID。 HTTP響應基於`attribute::NonImgExpiration`可以與TTL進行快取。
 
 支援JSONP回應格式的請求可讓您使用`req=`參數的擴充語法來指定JS回呼處理常式的名稱：
 
