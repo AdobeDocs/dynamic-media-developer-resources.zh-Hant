@@ -1,16 +1,13 @@
 ---
 description: 主視圖由目錄影像組成。 您可以滑動它以移至其他頁面或縮放。
-seo-description: 主視圖由目錄影像組成。 您可以滑動它以移至其他頁面或縮放。
-seo-title: 頁面檢視
 solution: Experience Manager
 title: 頁面檢視
-uuid: 5e247f56-f0da-487b-8e03-587b9d36aa39
 feature: Dynamic Media經典，檢視器，SDK/API,eCatalog
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '391'
 ht-degree: 4%
 
 ---
