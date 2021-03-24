@@ -1,17 +1,14 @@
 ---
 description: 混合媒體視訊檢視器的設定屬性。
-seo-description: 混合媒體視訊檢視器的設定屬性。
-seo-title: VideoPlayer.loop
 solution: Experience Manager
 title: VideoPlayer.loop
-uuid: 2eb19ab7-fc9f-45c1-b7a3-d06a02f8b6aa
 feature: Dynamic Media經典，檢視器，SDK/API,Mix Media Sets
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 9%
+source-wordcount: '43'
+ht-degree: 11%
 
 ---
 
