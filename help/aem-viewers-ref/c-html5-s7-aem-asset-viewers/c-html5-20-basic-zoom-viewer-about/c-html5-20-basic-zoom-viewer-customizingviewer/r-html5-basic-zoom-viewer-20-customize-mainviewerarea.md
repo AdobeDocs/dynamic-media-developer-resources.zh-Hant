@@ -1,17 +1,14 @@
 ---
 description: 主視圖區域是縮放影像所佔用的區域。 當未指定大小時，通常會設定為符合可用的裝置畫面。
-seo-description: 主視圖區域是縮放影像所佔用的區域。 當未指定大小時，通常會設定為符合可用的裝置畫面。
-seo-title: 主檢視器區域
 solution: Experience Manager
 title: 主檢視器區域
-uuid: f37b8d25-4bd6-481e-88e7-98192186b177
 feature: Dynamic Media經典，檢視器，SDK/API，縮放
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 1%
+source-wordcount: '125'
+ht-degree: 2%
 
 ---
 
