@@ -1,16 +1,13 @@
 ---
 description: 建立具有靜態背景影像的固定大小範本、與左側中心背景對齊且縮放為不超過背景寬度和高度80%的可變影像，以及位於畫布右側邊緣的垂直文字圖層。
-seo-description: 建立具有靜態背景影像的固定大小範本、與左側中心背景對齊且縮放為不超過背景寬度和高度80%的可變影像，以及位於畫布右側邊緣的垂直文字圖層。
-seo-title: 範例A
 solution: Experience Manager
 title: 範例A
-uuid: c250dbc8-1e32-46b8-ba55-c1fb0ae62695
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
