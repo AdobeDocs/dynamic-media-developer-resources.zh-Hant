@@ -1,16 +1,13 @@
 ---
 description: 當視訊結束時，「呼叫動作」面板會出現，並顯示與特定視訊相關的所有互動色票。
-seo-description: 當視訊結束時，「呼叫動作」面板會出現，並顯示與特定視訊相關的所有互動色票。
-seo-title: 操作調用
 solution: Experience Manager
 title: 操作調用
-uuid: 04a042d8-7329-4f1d-b3b9-312d620b1f29
 feature: Dynamic Media經典，檢視器，SDK/API，互動式視訊
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1286'
 ht-degree: 3%
 
 ---
