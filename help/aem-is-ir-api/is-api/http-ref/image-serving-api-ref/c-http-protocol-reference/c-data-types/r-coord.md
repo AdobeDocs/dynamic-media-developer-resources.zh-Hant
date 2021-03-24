@@ -1,16 +1,13 @@
 ---
 description: 像素座標。 用於指定相對於影像或圖層矩形的左上角的像素偏移，例如影像偏移或裁切參數。
-seo-description: 像素座標。 用於指定相對於影像或圖層矩形的左上角的像素偏移，例如影像偏移或裁切參數。
-seo-title: 坐標
 solution: Experience Manager
 title: 坐標
-uuid: dd49f12b-5a87-4157-9e44-4beb66f83770
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
@@ -18,7 +15,7 @@ ht-degree: 0%
 
 # coord{#coord}
 
-像素座標。 用於指定相對於影像或圖層矩形的左上角的像素偏移，例如影像偏移或裁切參數。
+像素座標。 用於指定相對於影像或圖層矩形左上角的像素偏移形式的影像坐標，如影像偏移或裁切參數。
 
 <table id="simpletable_A686120953124ACB8803CB9C877252AB"> 
  <tr class="strow"> 
