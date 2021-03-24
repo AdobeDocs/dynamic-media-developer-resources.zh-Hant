@@ -1,17 +1,14 @@
 ---
 description: 內嵌ICC設定檔。 指定是否應將工作中的ICC色彩描述檔或以icc=指定的描述檔內嵌在回覆影像中。
-seo-description: 內嵌ICC設定檔。 指定是否應將工作中的ICC色彩描述檔或以icc=指定的描述檔內嵌在回覆影像中。
-seo-title: iccEmbed
 solution: Experience Manager
 title: iccEmbed
-uuid: a53580f4-86bc-4dbf-87ee-8829091b6381
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 3%
+source-wordcount: '78'
+ht-degree: 5%
 
 ---
 
