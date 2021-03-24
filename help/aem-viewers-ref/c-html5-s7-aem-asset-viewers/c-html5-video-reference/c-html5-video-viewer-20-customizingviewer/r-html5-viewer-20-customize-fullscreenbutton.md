@@ -1,16 +1,13 @@
 ---
 description: 全螢幕按鈕可讓視訊播放器在使用者按下全螢幕模式時進入或退出。
-seo-description: 全螢幕按鈕可讓視訊播放器在使用者按下全螢幕模式時進入或退出。
-seo-title: 全螢幕按鈕
 solution: Experience Manager
 title: 全螢幕按鈕
-uuid: c6b90158-8658-49f1-86c3-c3dd00fe9070
 feature: Dynamic Media經典，檢視器，SDK/API，視訊
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '260'
 ht-degree: 2%
 
 ---
