@@ -1,14 +1,12 @@
 ---
 title: AdobeDynamic Media開發人員資源
-seo-title: AdobeDynamic Media開發人員資源指南，適用於檢視器、影像服務、影像演算和影像製作
 description: AdobeDynamic Media開發人員資源
-seo-description: AdobeDynamic Media開發人員資源指南，適用於檢視器、影像服務、影像演算和影像製作
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: beed72f55377c5e3885cf69cf56cb0d7a83f788e
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '142'
 ht-degree: 2%
 
 ---
