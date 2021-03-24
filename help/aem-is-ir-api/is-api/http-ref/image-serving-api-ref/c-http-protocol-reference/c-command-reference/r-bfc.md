@@ -1,16 +1,13 @@
 ---
 description: 瀏覽器格式轉換。 指定瀏覽器格式轉換功能是開啟還是關閉。
-seo-description: 瀏覽器格式轉換。 指定瀏覽器格式轉換功能是開啟還是關閉。
-seo-title: bfc
 solution: Experience Manager
 title: bfc
-uuid: 2dd8b350-9006-4f0b-b710-0a331357daf3
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '85'
 ht-degree: 4%
 
 ---
