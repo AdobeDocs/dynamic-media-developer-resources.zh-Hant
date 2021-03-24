@@ -1,16 +1,13 @@
 ---
 description: Video360檢視器的指令參考檔案。
-seo-description: Video360檢視器的指令參考檔案。
-seo-title: 命令參考- URL
 solution: Experience Manager
 title: 命令參考- URL
-uuid: 70c212d7-35ee-408f-abe4-19ba1e4d773d
 feature: Dynamic Media經典，檢視器，SDK/API,360 VR視訊
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---
