@@ -1,17 +1,14 @@
 ---
 description: 包含公司中繼資料物件的相關資訊，例如ID、名稱和類型。
-seo-description: 包含公司中繼資料物件的相關資訊，例如ID、名稱和類型。
-seo-title: CompanyMetadataInfo
 solution: Experience Manager
 title: CompanyMetadataInfo
-uuid: 5a69a995-979a-4919-a506-42b2cbfa4657
 feature: Dynamic Media經典，SDK/API，中繼資料
 role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 8%
+source-wordcount: '43'
+ht-degree: 11%
 
 ---
 
