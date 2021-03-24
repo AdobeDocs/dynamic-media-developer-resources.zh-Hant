@@ -1,16 +1,13 @@
 ---
 description: 圖層按layer=命令指定的順序組合，其中編號較高的圖層會隱藏編號較低的圖層。
-seo-description: 圖層按layer=命令指定的順序組合，其中編號較高的圖層會隱藏編號較低的圖層。
-seo-title: 合成畫布
 solution: Experience Manager
 title: 合成畫布
-uuid: 057b11cb-36f3-40f8-b095-9ad05da858a9
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
