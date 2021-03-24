@@ -1,16 +1,13 @@
 ---
 description: 預先載入伺服器快取。 執行請求的方式與req=img類似，但伺服器不會傳回影像，而是傳回回回覆影像的長度(image.length)，格式化為MIME類型文字／純文字的文字資料。
-seo-description: 預先載入伺服器快取。 執行請求的方式與req=img類似，但伺服器不會傳回影像，而是傳回回回覆影像的長度(image.length)，格式化為MIME類型文字／純文字的文字資料。
-seo-title: loadcache
 solution: Experience Manager
 title: loadcache
-uuid: 44f0db05-2323-4aa2-853c-f78e656a4308
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: ddfccb4ca157764e39fc719d96b63e6ee95304bf
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '94'
 ht-degree: 0%
 
 ---
