@@ -1,16 +1,13 @@
 ---
 description: 替代變數可用來將值從請求URL傳輸至儲存在伺服器上的FXG範本。
-seo-description: 替代變數可用來將值從請求URL傳輸至儲存在伺服器上的FXG範本。
-seo-title: 替代變數
 solution: Experience Manager
 title: 替代變數
-uuid: 87cd9594-ba3b-429d-aa57-399902ef3abe
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
