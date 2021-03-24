@@ -1,17 +1,14 @@
 ---
 description: 所有目錄檔案都是純文字檔案檔案。
-seo-description: 所有目錄檔案都是純文字檔案檔案。
-seo-title: 檔案格式
 solution: Experience Manager
 title: 檔案格式
-uuid: d0d35682-e794-4571-87e6-f54ac57126c7
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '46'
-ht-degree: 13%
+source-wordcount: '37'
+ht-degree: 10%
 
 ---
 
