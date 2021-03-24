@@ -1,17 +1,14 @@
 ---
 description: RGB預設輸出色彩描述檔。 指定當未使用icc=指定輸出色域時，用於RGB響應影像的ICC顏色配置檔案的名稱，以及使用各種「影像服務」命令（如color=）指定的特定RGB顏色值。
-seo-description: RGB預設輸出色彩描述檔。 指定當未使用icc=指定輸出色域時，用於RGB響應影像的ICC顏色配置檔案的名稱，以及使用各種「影像服務」命令（如color=）指定的特定RGB顏色值。
-seo-title: IccProfileRgb
 solution: Experience Manager
 title: IccProfileRgb
-uuid: 40606151-d5fa-4ae5-b6f0-e811bfea4691
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 1%
+source-wordcount: '156'
+ht-degree: 2%
 
 ---
 
