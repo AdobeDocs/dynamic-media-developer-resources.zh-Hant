@@ -1,16 +1,13 @@
 ---
 description: 影像演算支援ISO-8859-1和UTF-8編碼的材質型錄。
-seo-description: 影像演算支援ISO-8859-1和UTF-8編碼的材質型錄。
-seo-title: 字元編碼
 solution: Experience Manager
 title: 字元編碼
-uuid: efc3971b-dca1-4b47-a197-c10270ce17c9
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
