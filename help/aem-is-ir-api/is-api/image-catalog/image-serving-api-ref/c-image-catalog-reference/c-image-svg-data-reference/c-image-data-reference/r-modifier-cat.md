@@ -1,16 +1,13 @@
 ---
 description: 前置詞請求修飾詞字串。 無或多個以'&'字元分隔的影像伺服指令。
-seo-description: 前置詞請求修飾詞字串。 無或多個以'&'字元分隔的影像伺服指令。
-seo-title: 修飾元
 solution: Experience Manager
 title: 修飾元
-uuid: eb17d115-22ec-4b1b-9039-9bd2bc256f48
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '108'
 ht-degree: 7%
 
 ---
