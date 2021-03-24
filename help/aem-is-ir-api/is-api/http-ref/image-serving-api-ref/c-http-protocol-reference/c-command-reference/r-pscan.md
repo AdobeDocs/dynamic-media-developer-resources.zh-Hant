@@ -1,17 +1,14 @@
 ---
 description: 漸進式JPEG掃描。 漸進式JPEG顯示影像的方式，使其最初顯示整張模糊／低質量照片。 隨著掃描通路的繼續，隨著影像資料的完整下載，影像會更清晰。 此參數可讓您設定整個影像所需的掃描次數（3、4或5）。
-seo-description: 漸進式JPEG掃描。 漸進式JPEG顯示影像的方式，使其最初顯示整張模糊／低質量照片。 隨著掃描通路的繼續，隨著影像資料的完整下載，影像會更清晰。 此參數可讓您設定整個影像所需的掃描次數（3、4或5）。
-seo-title: pscan
 solution: Experience Manager
 title: pscan
-uuid: c8e1d7a9-679c-437f-aa53-67aca3f40b30
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 1%
+source-wordcount: '220'
+ht-degree: 2%
 
 ---
 
