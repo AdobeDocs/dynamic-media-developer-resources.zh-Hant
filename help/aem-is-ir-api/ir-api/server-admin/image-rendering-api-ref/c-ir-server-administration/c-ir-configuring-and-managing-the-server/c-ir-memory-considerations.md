@@ -1,16 +1,13 @@
 ---
 description: 「影像演算」使用的記憶體量可能會大不相同，而且會高度依實際伺服器負載和使用量而異（例如，與許多不同的暈映、暈映的大小和複雜度等）。
-seo-description: 「影像演算」使用的記憶體量可能會大不相同，而且會高度依實際伺服器負載和使用量而異（例如，與許多不同的暈映、暈映的大小和複雜度等）。
-seo-title: 記憶體注意事項
 solution: Experience Manager
 title: 記憶體注意事項
-uuid: 21247081-ff27-4237-93da-5fc996417dfd
 feature: Dynamic Media經典，SDK/API
 role: 開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '136'
 ht-degree: 0%
 
 ---
