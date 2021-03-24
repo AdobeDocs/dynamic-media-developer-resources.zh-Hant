@@ -1,16 +1,13 @@
 ---
 description: eCatalog檢視器的設定屬性檔案。
-seo-description: eCatalog檢視器的設定屬性檔案。
-seo-title: 命令參考——配置屬性
 solution: Experience Manager
 title: 命令參考——配置屬性
-uuid: 823ad411-653a-44de-97de-147e3b27a917
 feature: Dynamic Media經典，檢視器，SDK/API,eCatalog
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '155'
 ht-degree: 0%
 
 ---
