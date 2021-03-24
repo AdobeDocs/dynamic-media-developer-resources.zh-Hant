@@ -1,16 +1,13 @@
 ---
 description: 刪除資料夾。
-seo-description: 刪除資料夾。
-seo-title: deleteFolder
 solution: Experience Manager
 title: deleteFolder
-uuid: 76af65fb-86ef-43e2-bfec-3682acf0afe6
 feature: Dynamic Media經典，SDK/API
 role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '103'
 ht-degree: 10%
 
 ---
