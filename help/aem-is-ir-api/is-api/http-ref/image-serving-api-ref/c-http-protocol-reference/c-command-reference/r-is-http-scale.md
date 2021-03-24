@@ -1,16 +1,13 @@
 ---
 description: 縮放影像。 相對於全解析度影像，按比例縮放圖層源影像。
-seo-description: 縮放影像。 相對於全解析度影像，按比例縮放圖層源影像。
-seo-title: scale
 solution: Experience Manager
-title: 規模
-uuid: f5540df8-60d9-4efc-99fe-733cdc8268ea
+title: scale
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '114'
 ht-degree: 5%
 
 ---
