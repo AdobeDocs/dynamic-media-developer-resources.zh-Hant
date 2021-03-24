@@ -1,16 +1,13 @@
 ---
 description: 影像目錄提供許多伺服器組態設定，以及字型、ICC描述檔、命令巨集。
-seo-description: 影像目錄提供許多伺服器組態設定，以及字型、ICC描述檔、命令巨集。
-seo-title: 影像目錄
 solution: Experience Manager
 title: 影像目錄
-uuid: 7d7285e2-ee9c-4e88-b270-b686d1984d82
 feature: Dynamic Media經典，SDK/API
 role: 開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '126'
 ht-degree: 0%
 
 ---
