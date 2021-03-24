@@ -1,16 +1,13 @@
 ---
 description: 預設的用戶端快取上線時間。 提供預設的過期間隔，以防特定目錄記錄不包含有效的目錄過期或暈映過期值，或是直接存取暈映檔案或材質檔案，而非透過目錄記錄。
-seo-description: 預設的用戶端快取上線時間。 提供預設的過期間隔，以防特定目錄記錄不包含有效的目錄過期或暈映過期值，或是直接存取暈映檔案或材質檔案，而非透過目錄記錄。
-seo-title: 過期
 solution: Experience Manager
 title: 過期
-uuid: 2b56f9ec-2b25-4e6a-aead-6dad3d2df975
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '154'
 ht-degree: 3%
 
 ---
