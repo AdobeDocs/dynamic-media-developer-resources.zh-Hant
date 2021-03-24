@@ -1,16 +1,13 @@
 ---
 description: 影像演算來源資料檔案包括暈映檔案、材質檔案（可重複紋理和貼文的影像，以及涵蓋樣式檔案的檔案櫃和視窗）和ICC描述檔。
-seo-description: 影像演算來源資料檔案包括暈映檔案、材質檔案（可重複紋理和貼文的影像，以及涵蓋樣式檔案的檔案櫃和視窗）和ICC描述檔。
-seo-title: 來源資料
 solution: Experience Manager
 title: 來源資料
-uuid: 76c6419c-613e-4eff-b30f-9fea2a7daf5b
 feature: Dynamic Media經典，SDK/API
 role: 開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
