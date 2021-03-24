@@ -1,17 +1,14 @@
 ---
 description: 文字演算方向。 指定以textPs=指定的文字排版並呈現到文字方塊（以size=或textFlowPath=定義）的角度。
-seo-description: 文字演算方向。 指定以textPs=指定的文字排版並呈現到文字方塊（以size=或textFlowPath=定義）的角度。
-seo-title: textAngle
 solution: Experience Manager
 title: textAngle
-uuid: ac54c186-1fc5-479a-89f2-ff2da5e7999a
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 4%
+source-wordcount: '109'
+ht-degree: 5%
 
 ---
 
