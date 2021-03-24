@@ -1,16 +1,13 @@
 ---
 description: 有助於改善最佳化金字塔TIF檔案影像銳利度的設定。
-seo-description: 有助於改善最佳化金字塔TIF檔案影像銳利度的設定。
-seo-title: UnsharpMaskOptions
 solution: Experience Manager
 title: UnsharpMaskOptions
-uuid: 73073de0-41b6-471c-8887-f6b94ed2af90
 feature: Dynamic Media經典，SDK/API，資產管理
 role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '196'
 ht-degree: 12%
 
 ---
