@@ -1,16 +1,13 @@
 ---
 description: 裁切影像。 指定矩形裁切區域，以像素表示，或相對於全解析度源影像或遮色片影像標準化。
-seo-description: 裁切影像。 指定矩形裁切區域，以像素表示，或相對於全解析度源影像或遮色片影像標準化。
-seo-title: 裁切
 solution: Experience Manager
 title: 裁切
-uuid: c8eca467-7564-48a6-82d7-17f68a1399e1
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '215'
 ht-degree: 3%
 
 ---
