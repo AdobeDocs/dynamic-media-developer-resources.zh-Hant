@@ -1,16 +1,13 @@
 ---
 description: 如果請求成功完成，且請求中未包含req=命令，或req=包含下列值之一，則會傳回影像資料img, debug
-seo-description: 如果請求成功完成，且請求中未包含req=命令，或req=包含下列值之一，則會傳回影像資料img, debug
-seo-title: 影像
 solution: Experience Manager
 title: 影像
-uuid: 8e8c5ec9-dc15-4894-b6a1-8e5241f03977
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '131'
 ht-degree: 1%
 
 ---
