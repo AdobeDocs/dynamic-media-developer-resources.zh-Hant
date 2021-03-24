@@ -1,16 +1,13 @@
 ---
 description: 按一下或點選「下一張」投影片按鈕，會將使用者移至轉盤集的下一張投影片。
-seo-description: 按一下或點選「下一張」投影片按鈕，會將使用者移至轉盤集的下一張投影片。
-seo-title: 下一張幻燈片
 solution: Experience Manager
 title: 下一張幻燈片
-uuid: 6cf7a16c-42bf-4576-bcb1-d504589b2748
 feature: Dynamic Media經典，檢視器，SDK/API，轉盤橫幅
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '234'
 ht-degree: 2%
 
 ---
