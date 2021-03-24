@@ -1,16 +1,13 @@
 ---
 description: 目錄是位於主控制列中的按鈕。 啟動後，下拉式面板會出現，並列出頁面索引和標籤。
-seo-description: 目錄是位於主控制列中的按鈕。 啟動後，下拉式面板會出現，並列出頁面索引和標籤。
-seo-title: 目錄
 solution: Experience Manager
 title: 目錄
-uuid: e5da89b4-fd3f-41ab-bc55-d43c2999d4b7
 feature: Dynamic Media經典，檢視器，SDK/API,eCatalog
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1068'
 ht-degree: 2%
 
 ---
