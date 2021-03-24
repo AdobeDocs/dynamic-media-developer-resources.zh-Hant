@@ -1,16 +1,13 @@
 ---
 description: 用戶端的快取存取時間。 到期前的小時數。 用於管理客戶端和代理伺服器快取。
-seo-description: 用戶端的快取存取時間。 到期前的小時數。 用於管理客戶端和代理伺服器快取。
-seo-title: 過期
 solution: Experience Manager
 title: 過期
-uuid: fa267728-9a36-4705-97d6-d567148fc2d7
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '139'
 ht-degree: 6%
 
 ---
