@@ -1,16 +1,13 @@
 ---
 description: 請求字串的整個修飾元部分的內容（包括選用的鎖定字尾）可能會因套用標準base64編碼而被遮住。
-seo-description: 請求字串的整個修飾元部分的內容（包括選用的鎖定字尾）可能會因套用標準base64編碼而被遮住。
-seo-title: 請求模糊化
 solution: Experience Manager
 title: 請求模糊化
-uuid: 59b12a78-c4ba-4b6d-97bc-63150298ed73
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '227'
 ht-degree: 1%
 
 ---
