@@ -1,16 +1,13 @@
 ---
 description: 自旋指示器覆蓋在自旋視圖區域上。 當影像處於重設狀態時，就會顯示它，而且它也會依循圖示效果參數。
-seo-description: 自旋指示器覆蓋在自旋視圖區域上。 當影像處於重設狀態時，就會顯示它，而且它也會依循圖示效果參數。
-seo-title: 回轉檢視圖示效果
 solution: Experience Manager
 title: 回轉檢視圖示效果
-uuid: 33445a3d-51dc-47a4-a8d1-87d25ea001e1
 feature: Dynamic Media經典，檢視器，SDK/API,Mix Media Sets
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '160'
 ht-degree: 1%
 
 ---
