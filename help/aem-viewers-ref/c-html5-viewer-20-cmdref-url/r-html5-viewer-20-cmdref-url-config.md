@@ -1,16 +1,13 @@
 ---
 description: 所有檢視器通用的參數。
-seo-description: 所有檢視器通用的參數。
-seo-title: config
 solution: Experience Manager
 title: config
-uuid: 9e9bb580-a33a-4405-b05c-56962d702145
 feature: Dynamic Media經典，檢視器，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '261'
 ht-degree: 2%
 
 ---
