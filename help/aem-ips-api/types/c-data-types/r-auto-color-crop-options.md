@@ -1,17 +1,14 @@
 ---
 description: 可根據顏色自動裁切影像的選項。
-seo-description: 可根據顏色自動裁切影像的選項。
-seo-title: AutoColorCropOptions
 solution: Experience Manager
 title: AutoColorCropOptions
-uuid: 632ae721-7b39-4cd1-a1c6-1a3554167a4e
 feature: Dynamic Media經典，SDK/API
 role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 11%
+source-wordcount: '54'
+ht-degree: 12%
 
 ---
 
