@@ -1,16 +1,13 @@
 ---
 description: 啟用合成字型變化。 控制如果要求此種樣式，但在字型圖中找不到，則伺服器應產生錯誤回應或合成粗體、斜體或粗體／斜體字型樣式。
-seo-description: 啟用合成字型變化。 控制如果要求此種樣式，但在字型圖中找不到，則伺服器應產生錯誤回應或合成粗體、斜體或粗體／斜體字型樣式。
-seo-title: NesighateFontStyles
 solution: Experience Manager
 title: NesighateFontStyles
-uuid: f1c67490-7f14-4a6c-a7ba-5a476231ef34
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '126'
 ht-degree: 3%
 
 ---
