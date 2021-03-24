@@ -1,16 +1,13 @@
 ---
 description: 影像地圖資料。 提供此圖層的影像地圖資料。 覆寫此圖層的目錄映射中的任何資料。
-seo-description: 影像地圖資料。 提供此圖層的影像地圖資料。 覆寫此圖層的目錄映射中的任何資料。
-seo-title: 地圖
 solution: Experience Manager
 title: 地圖
-uuid: 9c1c3323-21ab-4820-bf4e-761b82ada1ab
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '231'
 ht-degree: 3%
 
 ---
