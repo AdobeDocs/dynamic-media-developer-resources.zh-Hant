@@ -1,26 +1,23 @@
 ---
-description: 如果將javascript指定為回應格式，則回覆資料的格式會被解析為JavaScript包含檔案。
-seo-description: 如果將javascript指定為回應格式，則回覆資料的格式會被解析為JavaScript包含檔案。
-seo-title: JavaScript屬性
+description: 如果將JavaScript™指定為回應格式，則回覆資料的格式會被解析為JavaScript™包含檔案。
 solution: Experience Manager
-title: JavaScript屬性
-uuid: 832a927e-ecaf-438c-8fbf-a702d58902d8
+title: JavaScript™屬性
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '139'
 ht-degree: 0%
 
 ---
 
 
-# JavaScript屬性{#javascript-properties}
+# JavaScript™屬性{#javascript-properties}
 
-如果將javascript指定為回應格式，則回覆資料的格式會被解析為JavaScript包含檔案。
+如果將JavaScript™指定為回應格式，則回覆資料的格式會被解析為JavaScript™包含檔案。
 
-典型的JavaScript屬性回應具有以下一般結構：
+典型的JavaScript™屬性響應具有以下一般結構：
 
 ```
            
@@ -33,9 +30,9 @@ ht-degree: 0%
 ...
 ```
 
-*`propertyValue`* 可能是空的。在每行的開始和結束處以及=分隔符號的前後，空格是可選的。 所有值都用單引號括住。 字串中的單引號以兩個連續的單引號逸出。
+*`propertyValue`* 可以是空的。在每行的開始和結束處以及=分隔符號的前後，空格是可選的。 所有值都用單引號括住。 字串中的單引號以兩個連續的單引號逸出。
 
-要解析JavaScript屬性響應，必須在載入屬性檔案之前建立響應中引用的任何對象。 以下是使用`req=props`在JavaScript中取得回應影像大小的範例：
+要解析JavaScript™屬性響應，必須在載入屬性檔案之前建立響應中引用的任何對象或對象。 以下是使用`req=props`在JavaScript™中取得回應影像大小的範例：
 
 ```
 <script> image = new Object; </script> 
