@@ -1,17 +1,14 @@
 ---
 description: 命令值必須使用%xx逸出序列進行http編碼，因此值字串不包含保留字元'='、'&'和'%'。
-seo-description: 命令值必須使用%xx逸出序列進行http編碼，因此值字串不包含保留字元'='、'&'和'%'。
-seo-title: 影像伺服HTTP編碼
 solution: Experience Manager
 title: 影像伺服HTTP編碼
-uuid: e7fb368b-060a-439e-95a1-16b94d4796dc
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 20%
+source-wordcount: '235'
+ht-degree: 22%
 
 ---
 
@@ -158,7 +155,7 @@ ht-degree: 20%
   <tr> 
    <td colname="col1"> <p>= </p> </td> 
    <td colname="col2"> <p>3D </p> </td> 
-   <td colname="col3"> <p>81 </p> </td> 
+   <td colname="col3"> <p>61 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>? </p> </td> 
