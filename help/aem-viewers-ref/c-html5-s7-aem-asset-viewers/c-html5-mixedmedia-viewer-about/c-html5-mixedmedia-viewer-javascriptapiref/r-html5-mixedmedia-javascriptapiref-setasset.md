@@ -1,16 +1,13 @@
 ---
 description: 混合媒體檢視器的JavaScript API參考。
-seo-description: 混合媒體檢視器的JavaScript API參考。
-seo-title: setAsset
 solution: Experience Manager
 title: setAsset
-uuid: 8c341a8a-25b5-4db9-ad1a-919ded79f2ed
 feature: Dynamic Media經典，檢視器，SDK/API,Mix Media Sets
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '229'
 ht-degree: 1%
 
 ---
