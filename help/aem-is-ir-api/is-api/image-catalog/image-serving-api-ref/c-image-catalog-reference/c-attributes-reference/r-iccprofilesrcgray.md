@@ -1,17 +1,14 @@
 ---
 description: 灰階預設輸入色彩描述檔。 指定不嵌入色彩描述檔的灰階來源影像，以及使用各種「影像伺服」指令（例如color=）指定的特定灰階色彩值，所使用之ICC色彩描述檔的名稱。
-seo-description: 灰階預設輸入色彩描述檔。 指定不嵌入色彩描述檔的灰階來源影像，以及使用各種「影像伺服」指令（例如color=）指定的特定灰階色彩值，所使用之ICC色彩描述檔的名稱。
-seo-title: IccProfileSrcGray
 solution: Experience Manager
 title: IccProfileSrcGray
-uuid: 823c0e33-8bb7-4754-81cf-61a5ed6f45ce
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 1%
+source-wordcount: '163'
+ht-degree: 2%
 
 ---
 
