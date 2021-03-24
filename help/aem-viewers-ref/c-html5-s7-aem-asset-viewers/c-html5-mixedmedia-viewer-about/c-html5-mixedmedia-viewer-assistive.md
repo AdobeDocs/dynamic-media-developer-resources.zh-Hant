@@ -1,16 +1,13 @@
 ---
 description: 所有檢視器元件都支援ARIA（可存取的Rich Internet Applications）角色和屬性，以改善與輔助技術（例如螢幕閱讀器）的整合。
-seo-description: 所有檢視器元件都支援ARIA（可存取的Rich Internet Applications）角色和屬性，以改善與輔助技術（例如螢幕閱讀器）的整合。
-seo-title: 輔助技術支援
 solution: Experience Manager
 title: 輔助技術支援
-uuid: 4a84a3a6-e9ba-4511-8228-e1a611f871c0
 feature: Dynamic Media經典，檢視器，SDK/API，混合媒體集，協助功能
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---
