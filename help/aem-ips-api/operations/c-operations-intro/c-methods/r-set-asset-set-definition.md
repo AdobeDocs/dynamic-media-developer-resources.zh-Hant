@@ -1,17 +1,14 @@
 ---
 description: 更新現有資產集的集定義。
-seo-description: 更新現有資產集的集定義。
-seo-title: setAssetSetDefinition
 solution: Experience Manager
 title: setAssetSetDefinition
-uuid: 2a2dce5d-7a01-49af-ac8b-33ae0b234ecc
 feature: Dynamic Media經典，SDK/API，資產管理
 role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 5%
+source-wordcount: '213'
+ht-degree: 6%
 
 ---
 
