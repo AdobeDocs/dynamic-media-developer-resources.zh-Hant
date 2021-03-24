@@ -1,16 +1,13 @@
 ---
 description: 這些命令與位置無關，可能發生在請求中的任何位置。
-seo-description: 這些命令與位置無關，可能發生在請求中的任何位置。
-seo-title: 檢視屬性
 solution: Experience Manager
 title: 檢視屬性
-uuid: eae8d998-a4ba-4871-9a8a-c15c22a20580
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '120'
 ht-degree: 1%
 
 ---
