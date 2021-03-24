@@ -1,17 +1,14 @@
 ---
 description: 縮放檢視器是可顯示縮放影像的影像檢視器。 此檢視器可處理影像集，並使用色票進行導覽。 它提供縮放工具、全螢幕支援、色票和選購的關閉按鈕。 它可在桌上型電腦和行動裝置上運作。
 keywords: 回應
-seo-description: 縮放檢視器是可顯示縮放影像的影像檢視器。 此檢視器可處理影像集，並使用色票進行導覽。 它提供縮放工具、全螢幕支援、色票和選購的關閉按鈕。 它可在桌上型電腦和行動裝置上運作。
-seo-title: Zoom
 solution: Experience Manager
-title: 縮放
-uuid: ec2a91e2-ce2c-48b1-a2b2-8671524288c7
+title: Zoom
 feature: Dynamic Media經典，檢視器，SDK/API，縮放
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '2471'
+source-wordcount: '2423'
 ht-degree: 0%
 
 ---
