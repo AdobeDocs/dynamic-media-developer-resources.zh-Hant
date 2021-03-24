@@ -1,16 +1,13 @@
 ---
 description: 如果將xml指定為響應格式，則將回覆資料格式化為XML文檔，該文檔可由任何標準XML解析器解析。
-seo-description: 如果將xml指定為響應格式，則將回覆資料格式化為XML文檔，該文檔可由任何標準XML解析器解析。
-seo-title: XML屬性
 solution: Experience Manager
 title: XML屬性
-uuid: 9d169ad2-e466-4ab3-8900-ea9c6125edad
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
