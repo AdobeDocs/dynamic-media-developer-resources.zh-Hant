@@ -1,13 +1,10 @@
 ---
-description: 檢視動態媒體影像服務API參考說明。
-seo-description: 檢視動態媒體影像服務API參考說明。
-seo-title: 影像伺服API參考
+description: 檢視Dynamic Media影像伺服API參考說明。
 title: 影像伺服API參考
-uuid: 144e6012-fdc9-4840-8245-6d4a4a009d9c
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '39'
+source-wordcount: '26'
 ht-degree: 0%
 
 ---
@@ -15,5 +12,5 @@ ht-degree: 0%
 
 # 影像伺服API參考{#image-serving-api-reference}
 
-檢視動態媒體影像服務API參考說明。
+檢視Dynamic Media影像伺服API參考說明。
 
