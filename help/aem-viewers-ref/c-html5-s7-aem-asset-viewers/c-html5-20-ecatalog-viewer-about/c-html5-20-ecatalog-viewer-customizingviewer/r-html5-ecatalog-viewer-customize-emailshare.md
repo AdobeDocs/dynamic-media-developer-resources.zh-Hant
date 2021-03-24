@@ -1,16 +1,13 @@
 ---
 description: 電子郵件分享工具包含新增至Social分享面板的按鈕，以及啟動工具時顯示的模式對話方塊。 按鈕的位置由Social分享工具完全管理。
-seo-description: 電子郵件分享工具包含新增至Social分享面板的按鈕，以及啟動工具時顯示的模式對話方塊。 按鈕的位置由Social分享工具完全管理。
-seo-title: 電子郵件分享
 solution: Experience Manager
 title: 電子郵件分享
-uuid: e080ae49-c38f-43c3-a7b9-d5f8f41ba6d0
 feature: Dynamic Media經典，檢視器，SDK/API,eCatalog
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '3083'
+source-wordcount: '3043'
 ht-degree: 2%
 
 ---
