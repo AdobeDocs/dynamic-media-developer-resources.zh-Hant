@@ -1,16 +1,13 @@
 ---
 description: 在連續縮放模式中，當目前資產是單一影像時，主檢視會由可縮放的影像組成。
-seo-description: 在連續縮放模式中，當目前資產是單一影像時，主檢視會由可縮放的影像組成。
-seo-title: 縮放檢視
 solution: Experience Manager
 title: 縮放檢視
-uuid: c9113275-eec6-4014-b7ad-3ae9f2cf01d9
 feature: Dynamic Media經典，檢視器，SDK/API,Mix Media Sets
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '206'
 ht-degree: 0%
 
 ---
