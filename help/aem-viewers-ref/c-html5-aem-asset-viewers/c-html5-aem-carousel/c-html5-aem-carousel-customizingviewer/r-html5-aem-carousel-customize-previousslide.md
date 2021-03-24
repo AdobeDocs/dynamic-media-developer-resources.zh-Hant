@@ -1,16 +1,13 @@
 ---
 description: 按一下或點選此按鈕，會將使用者返回轉盤集中的上一張投影片。 此按鈕不會顯示在觸控裝置上。 您可以使用CSS來調整此按鈕的大小、外觀和位置。
-seo-description: 按一下或點選此按鈕，會將使用者返回轉盤集中的上一張投影片。 此按鈕不會顯示在觸控裝置上。 您可以使用CSS來調整此按鈕的大小、外觀和位置。
-seo-title: 上一張投影片
 solution: Experience Manager
 title: 上一張投影片
-uuid: 733fa270-ce95-4493-9d31-f7f638d8368d
 feature: Dynamic Media經典，檢視器，SDK/API，轉盤橫幅
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '251'
 ht-degree: 2%
 
 ---
