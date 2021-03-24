@@ -1,17 +1,14 @@
 ---
 description: 可用的地區設定特定版本。 傳回請求路徑中指定之目錄ID的可用地區設定特定版本清單。
-seo-description: 可用的地區設定特定版本。 傳回請求路徑中指定之目錄ID的可用地區設定特定版本清單。
-seo-title: xlate
 solution: Experience Manager
 title: xlate
-uuid: 4c2370e5-1d46-4242-89bb-a5ce416ef63c
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 3%
+source-wordcount: '115'
+ht-degree: 4%
 
 ---
 
