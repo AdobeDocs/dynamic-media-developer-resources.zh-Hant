@@ -1,16 +1,13 @@
 ---
 description: 定位以在瀏覽器中執行點按動作。
-seo-description: 定位以在瀏覽器中執行點按動作。
-seo-title: 影像地圖
 solution: Experience Manager
 title: 影像地圖
-uuid: 1a09ab27-7ee1-4162-8047-575f3f5ca8fe
 feature: Dynamic Media經典，SDK/API
 role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '104'
 ht-degree: 11%
 
 ---
