@@ -1,16 +1,13 @@
 ---
 description: 影像地圖資料。 無或更完整的HTML <AREA>元素，從頭到尾排序。
-seo-description: 影像地圖資料。 無或更完整的HTML <AREA>元素，從頭到尾排序。
-seo-title: 地圖
 solution: Experience Manager
 title: 地圖
-uuid: 674a7a74-91bf-41c4-ab74-a5cb4f8abe1d
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '139'
 ht-degree: 5%
 
 ---
