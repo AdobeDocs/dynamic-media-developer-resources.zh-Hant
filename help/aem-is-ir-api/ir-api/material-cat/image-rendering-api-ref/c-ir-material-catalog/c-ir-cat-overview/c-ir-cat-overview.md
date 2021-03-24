@@ -1,16 +1,13 @@
 ---
 description: 資料目錄會將暈映、資料和支援資料（例如ICC描述檔）的相關資訊提供給伺服器。
-seo-description: 資料目錄會將暈映、資料和支援資料（例如ICC描述檔）的相關資訊提供給伺服器。
-seo-title: 物料目錄概述*
 solution: Experience Manager
 title: 物料目錄概述*
-uuid: f2128b64-8caf-4a59-b11f-604fe62bae69
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
