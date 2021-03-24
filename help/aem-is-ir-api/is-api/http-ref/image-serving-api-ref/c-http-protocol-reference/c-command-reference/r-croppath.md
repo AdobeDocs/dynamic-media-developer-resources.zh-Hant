@@ -1,17 +1,14 @@
 ---
 description: 可讓您裁切至內嵌命名路徑的邊界方框。 此裁切會反過來變更影像的大小。
-seo-description: 可讓您裁切至內嵌命名路徑的邊界方框。 此裁切會反過來變更影像的大小。
-seo-title: cropPathE
 solution: Experience Manager
 title: cropPathE
-uuid: 4689fd20-dfa0-47eb-8184-cd233f1ac088
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 1%
+source-wordcount: '182'
+ht-degree: 2%
 
 ---
 
