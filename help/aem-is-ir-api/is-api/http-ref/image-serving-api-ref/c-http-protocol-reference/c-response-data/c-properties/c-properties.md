@@ -1,16 +1,13 @@
 ---
 description: 屬性資料會回應數種req=類型。
-seo-description: 屬性資料會回應數種req=類型。
-seo-title: 屬性
 solution: Experience Manager
 title: 屬性
-uuid: 22c271f7-e9dc-4f3e-af7b-1efe89df983e
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '56'
 ht-degree: 7%
 
 ---
