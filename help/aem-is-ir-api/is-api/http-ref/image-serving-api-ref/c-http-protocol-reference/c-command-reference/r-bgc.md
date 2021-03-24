@@ -1,16 +1,13 @@
 ---
 description: 檢視背景顏色。 指定複合影像（視圖影像）的背景顏色。
-seo-description: 檢視背景顏色。 指定複合影像（視圖影像）的背景顏色。
-seo-title: bgc
 solution: Experience Manager
 title: bgc
-uuid: 3ea8291e-3223-45ff-a2ad-43fc212eff90
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '181'
 ht-degree: 3%
 
 ---
