@@ -1,16 +1,13 @@
 ---
 description: IS提供簡化HTML影像地圖使用的機制。 IS中以JAVA為基礎和以Flash為基礎的檢視器也包含對影像地圖的有限支援。
-seo-description: IS提供簡化HTML影像地圖使用的機制。 IS中以JAVA為基礎和以Flash為基礎的檢視器也包含對影像地圖的有限支援。
-seo-title: 影像地圖
 solution: Experience Manager
 title: 影像地圖
-uuid: 2b7b620b-712b-4110-ba38-993a354c09d3
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
