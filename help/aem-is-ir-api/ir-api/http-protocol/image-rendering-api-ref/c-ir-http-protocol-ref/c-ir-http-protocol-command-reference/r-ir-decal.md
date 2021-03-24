@@ -1,17 +1,14 @@
 ---
 description: 傾斜材料選擇器。 為非可重複的分層材料啟動材料規範段(MSS)。
-seo-description: 傾斜材料選擇器。 為非可重複的分層材料啟動材料規範段(MSS)。
-seo-title: 傾倒
 solution: Experience Manager
 title: 傾倒
-uuid: 3a164f92-b0fc-4698-8aaa-934f029437c0
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 7%
+source-wordcount: '51'
+ht-degree: 9%
 
 ---
 
