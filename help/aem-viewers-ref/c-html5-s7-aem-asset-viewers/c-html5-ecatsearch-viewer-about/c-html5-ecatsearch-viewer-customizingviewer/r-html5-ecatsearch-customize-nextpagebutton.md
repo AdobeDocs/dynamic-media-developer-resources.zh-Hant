@@ -1,16 +1,13 @@
 ---
 description: 按一下或點選此按鈕可讓使用者進入目錄的下一頁。 此按鈕會出現在主控制列中。 行動電話上不會顯示此按鈕來儲存螢幕空間。 您可以使用CSS來調整此按鈕的大小、外觀和位置。
-seo-description: 按一下或點選此按鈕可讓使用者進入目錄的下一頁。 此按鈕會出現在主控制列中。 行動電話上不會顯示此按鈕來儲存螢幕空間。 您可以使用CSS來調整此按鈕的大小、外觀和位置。
-seo-title: 「下一頁」按鈕
 solution: Experience Manager
 title: 「下一頁」按鈕
-uuid: dce92ce7-94c0-4f94-9842-8621d1112bea
 feature: Dynamic Media經典，檢視器，SDK/API,eCatalog搜尋
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '298'
 ht-degree: 2%
 
 ---
