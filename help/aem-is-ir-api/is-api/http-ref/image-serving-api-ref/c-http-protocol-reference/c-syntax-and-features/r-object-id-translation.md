@@ -1,16 +1,13 @@
 ---
 description: 「影像伺服」提供將外部物件ID轉譯為地區設定特定物件（目錄）ID的機制。 主要應用程式是提供地區特定的內容和在多個地區之間共用的內容，而用戶端應用程式則不需要知道地區特定的物件ID。
-seo-description: 「影像伺服」提供將外部物件ID轉譯為地區設定特定物件（目錄）ID的機制。 主要應用程式是提供地區特定的內容和在多個地區之間共用的內容，而用戶端應用程式則不需要知道地區特定的物件ID。
-seo-title: 物件ID轉譯
 solution: Experience Manager
 title: 物件ID轉譯
-uuid: 8b4c2f44-033a-428a-b505-af389865c70a
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '749'
+source-wordcount: '706'
 ht-degree: 9%
 
 ---
