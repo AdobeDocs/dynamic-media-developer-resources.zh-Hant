@@ -1,16 +1,13 @@
 ---
 description: 構圖範本。 允許指定位於主目錄以外的目錄中的合成模板。
-seo-description: 構圖範本。 允許指定位於主目錄以外的目錄中的合成模板。
-seo-title: 範本
 solution: Experience Manager
 title: 範本
-uuid: 59b37d60-1d0c-4d0b-a5a0-98d8bf9e9064
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: ddfccb4ca157764e39fc719d96b63e6ee95304bf
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '172'
 ht-degree: 6%
 
 ---
@@ -18,7 +15,7 @@ ht-degree: 6%
 
 # 範本{#template}
 
-構圖範本。 允許指定位於主目錄以外的目錄中的合成模板。
+構圖範本。 可讓您在目錄中指定除主目錄以外的合成範本。
 
 `template= *`範本`*`
 
@@ -31,7 +28,7 @@ ht-degree: 6%
 
 *`template`* 必須是包含範本內文的影像目錄項目 `catalog::Modifier`。
 
-當存在`template=`時，在請求路徑中指定的對象將不應用為層0的源，但可以使用預先定義的路徑變數`$object$`作為`src=`值作為模板中任何位置的`src=`或`mask=`引用。 `catalog::Modifier` 在請求路徑中指定的對象，僅與模板內的替代相 `$object$` 關應用，同 `catalog::PostModifier` 時始終應用。
+當`template=`存在時，在請求路徑中指定的對象不會作為第0層的源應用。 但是，使用預先定義的路徑變數`$object$`作為`src=`值，可將其引用為範本中的任何位置。 `src=``mask=``catalog::Modifier` 在請求路徑中指定的對象，只會以範本中的替 `$object$` 代來套用，而 `catalog::PostModifier` 一律套用。
 
 圖層0定義在範本內文中，可以是影像、純色、文字或巢狀或內嵌的請求圖層。
 
