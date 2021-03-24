@@ -1,16 +1,13 @@
 ---
 description: 此過程說明如何在Linux上首次安裝Image Serving。
-seo-description: 此過程說明如何在Linux上首次安裝Image Serving。
-seo-title: 首次安裝
 solution: Experience Manager
 title: 首次安裝
-uuid: 6a9a6dd2-2c69-447a-9628-eba08dc4f6c8
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
