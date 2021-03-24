@@ -1,17 +1,14 @@
 ---
 description: 光澤地圖影像。 提供逐個像素的可重複紋理、壁紙／邊框或貼紙的光澤度控制。
-seo-description: 光澤地圖影像。 提供逐個像素的可重複紋理、壁紙／邊框或貼紙的光澤度控制。
-seo-title: glosmap
 solution: Experience Manager
 title: glosmap
-uuid: f137d362-74a1-45b3-9274-a3a2d6cf5db0
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 2%
+source-wordcount: '159'
+ht-degree: 3%
 
 ---
 
