@@ -1,17 +1,14 @@
 ---
 description: 獲取陣列中的所有用戶。
-seo-description: 獲取陣列中的所有用戶。
-seo-title: getAllUsers
 solution: Experience Manager
 title: getAllUsers
-uuid: 7fe6ee2a-986d-464d-bc15-1e6444bcf13b
 feature: Dynamic Media經典，SDK/API
 role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 20%
+source-wordcount: '77'
+ht-degree: 22%
 
 ---
 
