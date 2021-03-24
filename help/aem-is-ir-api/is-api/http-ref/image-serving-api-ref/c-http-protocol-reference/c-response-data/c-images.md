@@ -1,17 +1,14 @@
 ---
 description: 如果請求成功完成，且請求中未包含req=命令，或req=img或req=tmb，則會傳回影像資料。
-seo-description: 如果請求成功完成，且請求中未包含req=命令，或req=img或req=tmb，則會傳回影像資料。
-seo-title: 影像
 solution: Experience Manager
 title: 影像
-uuid: 715154b6-f9ac-459e-a566-f78a4ca4580d
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 2%
+source-wordcount: '119'
+ht-degree: 1%
 
 ---
 
