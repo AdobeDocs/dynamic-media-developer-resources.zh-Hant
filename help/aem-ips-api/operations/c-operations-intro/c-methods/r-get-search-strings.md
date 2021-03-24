@@ -1,17 +1,14 @@
 ---
 description: 取得搜尋字串、關鍵字和其他資產相關資訊。 回應包含資產的其他資訊。
-seo-description: 取得搜尋字串、關鍵字和其他資產相關資訊。 回應包含資產的其他資訊。
-seo-title: getSearchStrings
 solution: Experience Manager
 title: getSearchStrings
-uuid: 9d588d6b-c79c-4531-a2e8-8467254a7985
 feature: Dynamic Media經典，SDK/API
 role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 13%
+source-wordcount: '102'
+ht-degree: 16%
 
 ---
 
