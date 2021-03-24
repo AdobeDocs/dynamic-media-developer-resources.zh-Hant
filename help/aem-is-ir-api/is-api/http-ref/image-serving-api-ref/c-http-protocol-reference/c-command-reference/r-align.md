@@ -1,16 +1,13 @@
 ---
 description: 將影像與檢視對齊。 在wid=和hei=定義的視圖矩形內對齊合成影像（如果也指定了scl=，則可能在縮放後）。
-seo-description: 將影像與檢視對齊。 在wid=和hei=定義的視圖矩形內對齊合成影像（如果也指定了scl=，則可能在縮放後）。
-seo-title: 對齊
 solution: Experience Manager
 title: 對齊
-uuid: 91940bd4-8e2b-4949-a76d-31cd238783bc
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '276'
 ht-degree: 1%
 
 ---
