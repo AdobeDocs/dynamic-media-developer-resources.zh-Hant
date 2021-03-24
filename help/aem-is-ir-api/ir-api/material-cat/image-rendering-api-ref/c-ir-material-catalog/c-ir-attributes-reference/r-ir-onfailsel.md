@@ -1,17 +1,14 @@
 ---
 description: 選擇選擇錯誤處理。 指定sel=命令失敗時要採取的動作，因為指定的像素位置不在可選對象的遮色片區域內。
-seo-description: 選擇選擇錯誤處理。 指定sel=命令失敗時要採取的動作，因為指定的像素位置不在可選對象的遮色片區域內。
-seo-title: OnFailSel
 solution: Experience Manager
 title: OnFailSel
-uuid: 073b6651-970c-460c-b044-e3ef37cc677a
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 10%
+source-wordcount: '128'
+ht-degree: 12%
 
 ---
 
