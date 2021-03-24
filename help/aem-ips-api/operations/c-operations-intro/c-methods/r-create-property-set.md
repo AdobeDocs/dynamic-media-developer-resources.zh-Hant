@@ -1,17 +1,14 @@
 ---
 description: 屬性集是應用程式特定的名稱——值對集，可根據屬性集類型將其附加到各種IPS對象。 如果屬性集類型不允許將多個集附加到對象(PropertySetType/allowMultipleisfalse)，並且對象已具有相同類型的關聯集，則新集將替換現有集。
-seo-description: 屬性集是應用程式特定的名稱——值對集，可根據屬性集類型將其附加到各種IPS對象。 如果屬性集類型不允許將多個集附加到對象(PropertySetType/allowMultipleisfalse)，並且對象已具有相同類型的關聯集，則新集將替換現有集。
-seo-title: createPropertySet
 solution: Experience Manager
 title: createPropertySet
-uuid: f0b5b951-143f-4a31-bb6b-cdeabdebbcbb
 feature: Dynamic Media經典，SDK/API
 role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 6%
+source-wordcount: '222'
+ht-degree: 8%
 
 ---
 
