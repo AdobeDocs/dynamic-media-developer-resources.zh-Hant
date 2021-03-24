@@ -1,16 +1,13 @@
 ---
 description: 銳利化. 銳利化屬性，可決定在演算期間銳利化材質的時間。
-seo-description: 銳利化. 銳利化屬性，可決定在演算期間銳利化材質的時間。
-seo-title: Sharp
 solution: Experience Manager
 title: Sharp
-uuid: f153f496-f2c5-43d0-a7f0-00045fd96af8
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '117'
 ht-degree: 10%
 
 ---
