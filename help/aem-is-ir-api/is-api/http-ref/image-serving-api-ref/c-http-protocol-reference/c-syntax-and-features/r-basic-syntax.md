@@ -1,16 +1,13 @@
 ---
 description: HTTP協定基本語法如下。
-seo-description: HTTP協定基本語法如下。
-seo-title: 影像伺服HTTP通訊協定基本語法
 solution: Experience Manager
 title: 影像伺服HTTP通訊協定基本語法
-uuid: 3269c2f2-df0f-4b62-ae9c-a267acae8071
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '278'
 ht-degree: 1%
 
 ---
@@ -18,7 +15,7 @@ ht-degree: 1%
 
 # 影像伺服HTTP通訊協定基本語法{#image-serving-http-protocol-basic-syntax}
 
-HTTP協定基本語法如下。
+HTTP協定基本語法如下：
 
 <table id="simpletable_854C20D4C42247B99D9F123543C17E7C"> 
  <tr class="strow"> 
@@ -47,19 +44,19 @@ HTTP協定基本語法如下。
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> 宏</span> </span> </p> </td> 
-  <td class="stentry"> <p>命令宏的名稱。 </p></td> 
+  <td class="stentry"> <p>命令宏的名稱。</p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> 評論</span> </span> </p></td> 
-  <td class="stentry"> <p>注釋字串（伺服器忽略）。 </p></td> 
+  <td class="stentry"> <p>注釋字串（伺服器忽略）。</p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> cmdName</span> </span> </p></td> 
-  <td class="stentry"> <p>支援的命令或屬性名之一。 </p></td> 
+  <td class="stentry"> <p>支援的命令或屬性名之一。</p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> var</span> </span> </p> </td> 
-  <td class="stentry"> <p>自訂變數的名稱。 </p></td> 
+  <td class="stentry"> <p>自訂變數的名稱。</p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> 值</span> </span> </p></td> 
@@ -69,7 +66,7 @@ HTTP協定基本語法如下。
 
 *`server_address`*、 *`cmdName`*、 *`macro`*&#x200B;和 *`var`* 不區分大小寫。伺服器會保留所有其他字串值的大小寫。
 
-*`value`* 是命令專用的，可由一個或多個值組成，這些值用逗號分隔。有關詳細資訊，請參閱各個命令的說明。
+*`value`* 是命令專用的，可由一或多個值組成，並以逗號分隔。有關詳細資訊，請參閱各個命令的說明。
 
 ## 伺服器標識符{#section-926ae55ddba14b8d952147a5fd701e14}
 
@@ -85,7 +82,7 @@ HTTP協定基本語法如下。
 
 ## 備註 {#section-69ef0be0f17a418c87a0eba21c2ddb00}
 
-注釋可以嵌入到任意位置的請求字串中，並由句點(.)標識 緊接在命令分隔符(&amp;)後面。 注釋由下次出現（未編碼）命令分隔符終止。 此功能可用來新增非影像伺服使用之要求的資訊，例如時間戳記、資料庫ID等。
+注釋可以嵌入到任意位置的請求字串中，並由句點(.)識別 緊接在命令分隔符(&amp;)後面。 注釋由下次出現（未編碼）命令分隔符終止。 此功能可用來新增非影像伺服使用的要求資訊，例如時間戳記和資料庫ID。
 
 ## 另請參閱 {#section-d0b836568c31454b8dbeb136e6bbe0f0}
 
