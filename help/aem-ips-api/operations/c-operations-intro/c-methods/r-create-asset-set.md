@@ -1,17 +1,14 @@
 ---
 description: 建立一般資產集，其原始集定義字串會發佈至影像伺服器。
-seo-description: 建立一般資產集，其原始集定義字串會發佈至影像伺服器。
-seo-title: createAssetSet
 solution: Experience Manager
 title: createAssetSet
-uuid: 1e86bd37-511c-4c12-abfd-075053b86f78
 feature: Dynamic Media經典，SDK/API，資產管理
 role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 9%
+source-wordcount: '312'
+ht-degree: 10%
 
 ---
 
