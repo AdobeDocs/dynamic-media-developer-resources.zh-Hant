@@ -1,16 +1,13 @@
 ---
 description: 按一下或點選此按鈕會放大主檢視中的影像。 此按鈕不會顯示在行動電話上，以儲存螢幕空間。 您可以使用CSS來調整此按鈕的大小、外觀和位置。
-seo-description: 按一下或點選此按鈕會放大主檢視中的影像。 此按鈕不會顯示在行動電話上，以儲存螢幕空間。 您可以使用CSS來調整此按鈕的大小、外觀和位置。
-seo-title: 縮小按鈕
 solution: Experience Manager
 title: 縮小按鈕
-uuid: edc46e24-d3d9-4d1e-8676-ec441936458d
 feature: Dynamic Media經典，檢視器，SDK/API,Mix Media Sets
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '258'
 ht-degree: 2%
 
 ---
