@@ -3,9 +3,8 @@ description: AdobeDynamic Media影像伺服與影像演算API首頁
 solution: Experience Manager
 title: AdobeDynamic Media影像伺服與影像演算API首頁
 topic: Dynamic Media影像伺服——影像演算API
-uuid: 37d90173-2e56-47fa-b0ef-2b99b521502c
 translation-type: tm+mt
-source-git-commit: 192b5624945b08e438a65e3e9fd25aca503857fc
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '72'
 ht-degree: 0%
