@@ -1,16 +1,13 @@
 ---
 description: 源對象指定符。 影像、SVG和ICC配置檔案對象可以指定為影像目錄條目或相對檔案路徑
-seo-description: 源對象指定符。 影像、SVG和ICC配置檔案對象可以指定為影像目錄條目或相對檔案路徑
-seo-title: 物件
 solution: Experience Manager
 title: 物件
-uuid: 8d25b47d-0f23-4d9a-a7e6-6e865ae4114e
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '501'
 ht-degree: 1%
 
 ---
