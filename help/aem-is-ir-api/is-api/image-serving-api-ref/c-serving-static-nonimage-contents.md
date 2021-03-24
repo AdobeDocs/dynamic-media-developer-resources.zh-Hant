@@ -1,16 +1,13 @@
 ---
 description: 您可以使用影像伺服來管理目錄中的非影像內容，並透過個別的/is/content內容內容來提供。
-seo-description: 您可以使用影像伺服來管理目錄中的非影像內容，並透過個別的/is/content內容內容來提供。
-seo-title: 伺服靜態（非影像）內容
 solution: Experience Manager
 title: 伺服靜態（非影像）內容
-uuid: bdb1383a-e02d-499f-be79-4a6dc501705c
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
