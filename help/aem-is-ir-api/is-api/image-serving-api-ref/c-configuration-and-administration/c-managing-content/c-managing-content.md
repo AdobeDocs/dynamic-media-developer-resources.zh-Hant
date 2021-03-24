@@ -1,16 +1,13 @@
 ---
 description: 這些主題包含有關管理內容的資訊。
-seo-description: 這些主題包含有關管理內容的資訊。
-seo-title: 管理內容
 solution: Experience Manager
 title: 管理內容
-uuid: 759697c9-0391-4b93-baac-6d153aed04f8
 feature: Dynamic Media經典，SDK/API
 role: 開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '40'
 ht-degree: 0%
 
 ---
