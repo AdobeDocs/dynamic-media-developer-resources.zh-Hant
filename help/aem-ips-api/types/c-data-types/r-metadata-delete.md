@@ -1,17 +1,14 @@
 ---
 description: 要從資產刪除的中繼資料。
-seo-description: 要從資產刪除的中繼資料。
-seo-title: 中繼資料刪除
 solution: Experience Manager
 title: 中繼資料刪除
-uuid: 7bd80931-4b7a-4a70-a505-b351653549af
 feature: Dynamic Media經典，SDK/API，中繼資料
 role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 17%
+source-wordcount: '34'
+ht-degree: 20%
 
 ---
 
