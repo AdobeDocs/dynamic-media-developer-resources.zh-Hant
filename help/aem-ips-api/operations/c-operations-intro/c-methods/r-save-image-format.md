@@ -1,17 +1,14 @@
 ---
 description: 建立影像格式。
-seo-description: 建立影像格式。
-seo-title: saveImageFormat
 solution: Experience Manager
 title: saveImageFormat
-uuid: b11ea668-7a82-439c-b16b-909dc86c00a2
 feature: Dynamic Media經典，SDK/API
 role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 10%
+source-wordcount: '153'
+ht-degree: 11%
 
 ---
 
