@@ -2,11 +2,10 @@
 description: 事件回呼
 solution: Experience Manager
 title: 事件回呼
-uuid: c347f178-254e-45da-b06d-394098064693
 feature: Dynamic Media經典，檢視器，SDK/API,360 VR視訊
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 0%
