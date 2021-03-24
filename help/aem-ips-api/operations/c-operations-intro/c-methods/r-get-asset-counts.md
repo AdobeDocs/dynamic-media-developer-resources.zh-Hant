@@ -1,17 +1,14 @@
 ---
 description: 取得與特定公司相關的資產和資產數目。
-seo-description: 取得與特定公司相關的資產和資產數目。
-seo-title: getAssetCounts
 solution: Experience Manager
 title: getAssetCounts
-uuid: 92103806-59da-444f-b69c-d045d0ebf42e
 feature: Dynamic Media經典，SDK/API，資產管理
 role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 9%
+source-wordcount: '150'
+ht-degree: 10%
 
 ---
 
