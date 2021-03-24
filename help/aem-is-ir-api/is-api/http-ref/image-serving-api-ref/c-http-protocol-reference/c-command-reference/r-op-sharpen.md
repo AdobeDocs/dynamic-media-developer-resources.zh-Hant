@@ -1,16 +1,13 @@
 ---
 description: 銳利化影像。 在進行所有縮放後，如果layer=comp，請將基本銳利化濾鏡套用至圖層或最終檢視影像。
-seo-description: 銳利化影像。 在進行所有縮放後，如果layer=comp，請將基本銳利化濾鏡套用至圖層或最終檢視影像。
-seo-title: op_sharpen
 solution: Experience Manager
 title: op_sharpen
-uuid: 1a00c60a-0d5c-4a99-a649-f29ebd710cf3
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '123'
 ht-degree: 7%
 
 ---
