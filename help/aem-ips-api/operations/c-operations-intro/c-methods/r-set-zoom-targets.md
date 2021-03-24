@@ -1,17 +1,14 @@
 ---
 description: 設定與資產影像相關聯的縮放目標。 它會覆寫現有的縮放目標。
-seo-description: 設定與資產影像相關聯的縮放目標。 它會覆寫現有的縮放目標。
-seo-title: setZoomTargets
 solution: Experience Manager
 title: setZoomTargets
-uuid: 5d0aecec-ebd8-4c69-9514-c29fae347ee6
 feature: Dynamic Media經典，SDK/API
 role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 11%
+source-wordcount: '128'
+ht-degree: 13%
 
 ---
 
