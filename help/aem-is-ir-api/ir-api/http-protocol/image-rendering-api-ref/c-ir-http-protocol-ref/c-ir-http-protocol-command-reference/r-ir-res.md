@@ -1,16 +1,13 @@
 ---
 description: 物質解析度。 指定可重複紋理或貼圖影像的解析度。
-seo-description: 物質解析度。 指定可重複紋理或貼圖影像的解析度。
-seo-title: res
 solution: Experience Manager
 title: res
-uuid: ae755a92-ad06-4cf2-b627-0b8b14e385c3
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '112'
 ht-degree: 3%
 
 ---
