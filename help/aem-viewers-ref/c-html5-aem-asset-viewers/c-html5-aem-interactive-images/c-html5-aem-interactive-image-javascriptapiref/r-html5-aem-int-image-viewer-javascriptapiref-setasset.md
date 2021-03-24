@@ -1,16 +1,13 @@
 ---
 description: 視訊影像檢視器的JavaScript API參考。
-seo-description: 視訊影像檢視器的JavaScript API參考。
-seo-title: setAsset
 solution: Experience Manager
 title: setAsset
-uuid: 8cb10b2e-addb-4659-a93b-5a53d0f8a5bb
 feature: Dynamic Media經典，檢視器，SDK/API，互動式影像
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '86'
 ht-degree: 3%
 
 ---
