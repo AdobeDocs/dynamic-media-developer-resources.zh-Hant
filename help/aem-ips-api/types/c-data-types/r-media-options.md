@@ -1,16 +1,13 @@
 ---
 description: 產生視訊的縮圖影像。
-seo-description: 產生視訊的縮圖影像。
-seo-title: MediaOptions
 solution: Experience Manager
 title: MediaOptions
-uuid: 4de59678-1bef-484c-9a43-ded531537aeb
 feature: Dynamic Media經典，SDK/API
 role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '131'
 ht-degree: 6%
 
 ---
