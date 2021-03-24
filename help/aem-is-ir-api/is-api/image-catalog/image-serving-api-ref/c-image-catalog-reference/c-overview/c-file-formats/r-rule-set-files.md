@@ -1,16 +1,13 @@
 ---
 description: 規則集檔案是XML格式的文字檔，必須符合適當的標準和慣例。
-seo-description: 規則集檔案是XML格式的文字檔，必須符合適當的標準和慣例。
-seo-title: 規則集檔案
 solution: Experience Manager
 title: 規則集檔案
-uuid: c0c7ec7b-547b-4007-864b-bf551f041aff
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---
