@@ -1,16 +1,13 @@
 ---
 description: 使用這些伺服器設定來配置監視和警報系統。
-seo-description: 使用這些伺服器設定來配置監視和警報系統。
-seo-title: 監控和警報系統
 solution: Experience Manager
 title: 監控和警報系統
-uuid: 944c7d53-09ec-443e-ac8c-85684d8fda0f
 feature: Dynamic Media經典，SDK/API
 role: 開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
