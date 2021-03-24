@@ -1,17 +1,14 @@
 ---
 description: 刪除暈映發佈格式。
-seo-description: 刪除暈映發佈格式。
-seo-title: deleteVignettePublishFormat
 solution: Experience Manager
 title: deleteVignettePublishFormat
-uuid: 3c8148d5-dec6-4ffa-8ab8-2cd70811ada6
 feature: Dynamic Media經典，SDK/API
 role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 12%
+source-wordcount: '82'
+ht-degree: 13%
 
 ---
 
