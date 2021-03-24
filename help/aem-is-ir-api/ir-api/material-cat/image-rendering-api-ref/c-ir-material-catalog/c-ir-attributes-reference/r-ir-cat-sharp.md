@@ -1,17 +1,14 @@
 ---
 description: 預設材質銳利化。 設定預設材料銳利化模式，以防特定目錄記錄不包含有效的目錄銳利化值。
-seo-description: 預設材質銳利化。 設定預設材料銳利化模式，以防特定目錄記錄不包含有效的目錄銳利化值。
-seo-title: Sharp
 solution: Experience Manager
 title: Sharp
-uuid: f6a6101c-3d9e-4557-892b-be7943b4fdca
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 9%
+source-wordcount: '98'
+ht-degree: 10%
 
 ---
 
