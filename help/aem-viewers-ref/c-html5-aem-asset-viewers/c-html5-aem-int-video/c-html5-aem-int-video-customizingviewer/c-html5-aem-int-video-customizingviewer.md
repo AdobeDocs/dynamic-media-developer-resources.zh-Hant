@@ -1,17 +1,14 @@
 ---
 description: 建立自訂CSS即可完成互動式視訊檢視器的所有視覺化自訂和大部分行為自訂。
 keywords: 回應
-seo-description: 建立自訂CSS即可完成互動式視訊檢視器的所有視覺化自訂和大部分行為自訂。
-seo-title: 自訂互動式視訊檢視器
 solution: Experience Manager
 title: 自訂互動式視訊檢視器
-uuid: a24e7ada-c874-468b-ac44-a51d581d4479
 feature: Dynamic Media經典，檢視器，SDK/API，互動式視訊
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: '1399'
 ht-degree: 0%
 
 ---
