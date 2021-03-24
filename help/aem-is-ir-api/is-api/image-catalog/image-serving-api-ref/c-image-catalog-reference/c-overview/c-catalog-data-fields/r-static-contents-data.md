@@ -1,16 +1,13 @@
 ---
 description: 靜態（非影像）內容目錄支援下列欄位。
-seo-description: 靜態（非影像）內容目錄支援下列欄位。
-seo-title: 靜態內容資料
 solution: Experience Manager
 title: 靜態內容資料
-uuid: a890ffef-55b2-4880-afa5-ced8598642d1
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '65'
 ht-degree: 0%
 
 ---
