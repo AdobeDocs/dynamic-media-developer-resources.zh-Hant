@@ -1,17 +1,14 @@
 ---
 description: 按一下或點選此按鈕，會在主檢視中將影像旋轉至左側。 此按鈕不會顯示在行動電話上，以儲存螢幕空間。 此外，當使用多維度回轉集時，按鈕也會隱藏。 您可以使用CSS來調整按鈕的大小、外觀和位置。
-seo-description: 按一下或點選此按鈕，會在主檢視中將影像旋轉至左側。 此按鈕不會顯示在行動電話上，以儲存螢幕空間。 此外，當使用多維度回轉集時，按鈕也會隱藏。 您可以使用CSS來調整按鈕的大小、外觀和位置。
-seo-title: 左旋按鈕
 solution: Experience Manager
 title: 左旋按鈕
-uuid: 742a912b-7ca1-43d4-aae6-a809e01d34b9
 feature: Dynamic Media經典，檢視器，SDK/API,Mix Media Sets
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 3%
+source-wordcount: '342'
+ht-degree: 4%
 
 ---
 
