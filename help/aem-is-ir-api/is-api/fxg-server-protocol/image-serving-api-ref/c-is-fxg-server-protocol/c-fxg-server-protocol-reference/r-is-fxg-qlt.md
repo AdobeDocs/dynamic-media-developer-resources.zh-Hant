@@ -1,17 +1,14 @@
 ---
 description: Jpeg品質。 指定JPEG編碼屬性以控制壓縮級別。 這進而會改變檔案大小（回覆資料的量），並間接地改變所產生影像的視覺品質。
-seo-description: Jpeg品質。 指定JPEG編碼屬性以控制壓縮級別。 這進而會改變檔案大小（回覆資料的量），並間接地改變所產生影像的視覺品質。
-seo-title: qlt
 solution: Experience Manager
 title: qlt
-uuid: 936607c1-20c3-4f76-b970-614b21c47dea
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 12%
+source-wordcount: '193'
+ht-degree: 15%
 
 ---
 
