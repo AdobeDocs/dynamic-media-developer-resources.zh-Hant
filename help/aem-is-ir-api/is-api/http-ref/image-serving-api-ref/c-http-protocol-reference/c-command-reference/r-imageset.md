@@ -1,17 +1,14 @@
 ---
 description: 影像集. 指定在生成req=set響應時要使用的影像集值。
-seo-description: 影像集. 指定在生成req=set響應時要使用的影像集值。
-seo-title: imageSet
 solution: Experience Manager
 title: imageSet
-uuid: ecfb3905-e3ef-4ab8-a2c4-2c3f200e0f0f
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 9%
+source-wordcount: '128'
+ht-degree: 8%
 
 ---
 
