@@ -1,17 +1,14 @@
 ---
 description: 縮圖的垂直對齊。 指定由wid=和hei=或由屬性DefaultThumbPix指定的回覆影像矩形中縮圖影像的垂直對齊方式。
-seo-description: 縮圖的垂直對齊。 指定由wid=和hei=或由屬性DefaultThumbPix指定的回覆影像矩形中縮圖影像的垂直對齊方式。
-seo-title: ThumbVertAlign
 solution: Experience Manager
 title: ThumbVertAlign
-uuid: a90281eb-9681-4b4a-a94b-663f007fb32f
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 3%
+source-wordcount: '97'
+ht-degree: 4%
 
 ---
 
