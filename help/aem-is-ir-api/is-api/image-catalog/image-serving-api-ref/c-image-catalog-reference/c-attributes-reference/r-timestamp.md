@@ -1,17 +1,14 @@
 ---
 description: 預設影像修改時間戳記。 提供目錄TimeStamp的預設值。
-seo-description: 預設影像修改時間戳記。 提供目錄TimeStamp的預設值。
-seo-title: TimeStamp
 solution: Experience Manager
 title: TimeStamp
-uuid: 0670e53a-ad7d-46cf-8e18-4c52a766df6f
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 1%
+source-wordcount: '194'
+ht-degree: 2%
 
 ---
 
