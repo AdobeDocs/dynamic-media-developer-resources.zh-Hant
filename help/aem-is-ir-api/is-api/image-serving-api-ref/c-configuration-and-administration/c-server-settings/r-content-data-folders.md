@@ -1,16 +1,13 @@
 ---
 description: 對內容資料檔案夾使用這些伺服器設定。
-seo-description: 對內容資料檔案夾使用這些伺服器設定。
-seo-title: 內容資料夾
 solution: Experience Manager
 title: 內容資料夾
-uuid: 7c4d60ca-8a8b-453c-887d-a6a16eacc883
 feature: Dynamic Media經典，SDK/API
 role: 開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
