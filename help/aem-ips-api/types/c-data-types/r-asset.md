@@ -1,16 +1,13 @@
 ---
 description: 資料夾階層中的物件或容器。
-seo-description: 資料夾階層中的物件或容器。
-seo-title: 資產
 solution: Experience Manager
 title: 資產
-uuid: 758ac593-98d8-4366-a723-a06435c7fd3c
 feature: Dynamic Media經典，SDK/API，資產管理
 role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '445'
 ht-degree: 7%
 
 ---
