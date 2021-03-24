@@ -1,17 +1,14 @@
 ---
 description: 紋理重複模式。 指定可重複紋理材料的重複模式。
-seo-description: 紋理重複模式。 指定可重複紋理材料的重複模式。
-seo-title: 重複
 solution: Experience Manager
 title: 重複
-uuid: 6508fdff-27cd-4038-b506-39b927f3526a
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 15%
+source-wordcount: '162'
+ht-degree: 16%
 
 ---
 
