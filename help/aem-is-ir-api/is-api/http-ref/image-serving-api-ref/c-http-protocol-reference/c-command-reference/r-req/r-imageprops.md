@@ -1,16 +1,13 @@
 ---
 description: 來源影像屬性。 傳回URL路徑中指定之影像檔案或目錄項目的選取屬性。
-seo-description: 來源影像屬性。 傳回URL路徑中指定之影像檔案或目錄項目的選取屬性。
-seo-title: imageprops
 solution: Experience Manager
 title: imageprops
-uuid: e9bf2780-a520-4fb1-ab4c-40bb799e36a4
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '334'
 ht-degree: 7%
 
 ---
