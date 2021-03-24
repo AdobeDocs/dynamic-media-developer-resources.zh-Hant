@@ -1,16 +1,13 @@
 ---
 description: 窗簾材料包括柔軟的窗簾（窗簾、窗簾、咖啡窗簾）和硬的窗簾（窗簾和窗簾）。
-seo-description: 窗簾材料包括柔軟的窗簾（窗簾、窗簾、咖啡窗簾）和硬的窗簾（窗簾和窗簾）。
-seo-title: 窗口覆蓋
 solution: Experience Manager
 title: 窗口覆蓋
-uuid: 3d74466a-b7c3-43b0-9b0b-f8bb809e2773
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '163'
 ht-degree: 3%
 
 ---
