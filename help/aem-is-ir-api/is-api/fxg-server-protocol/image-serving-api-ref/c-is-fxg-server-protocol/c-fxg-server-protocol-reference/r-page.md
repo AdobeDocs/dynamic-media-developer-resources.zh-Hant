@@ -1,16 +1,13 @@
 ---
 description: 擷取頁面。 在多頁FXG中擷取特定頁面。
-seo-description: 擷取頁面。 在多頁FXG中擷取特定頁面。
-seo-title: 頁面
 solution: Experience Manager
 title: 頁面
-uuid: 3379c8d8-6e2e-4bd5-b683-a532330f1ddc
 feature: Dynamic Media經典，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '57'
 ht-degree: 5%
 
 ---
