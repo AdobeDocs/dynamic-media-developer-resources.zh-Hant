@@ -1,16 +1,13 @@
 ---
 description: 作業系統、瀏覽器和行動裝置的相容性注意事項。
-seo-description: 作業系統、瀏覽器和行動裝置的相容性注意事項。
-seo-title: 相容性說明
 solution: Experience Manager
 title: 相容性說明
-uuid: cf732a03-bfaa-4838-862f-73343cefbd67
 feature: Dynamic Media經典，檢視器，SDK/API
 role: 開發人員，商業從業人員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '431'
 ht-degree: 1%
 
 ---
