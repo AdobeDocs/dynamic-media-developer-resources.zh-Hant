@@ -1,6 +1,6 @@
 ---
 title: AdobeDynamic Media開發人員資源
-cloud: experience-cloud
+cloud: Experience Cloud
 product: Adobe Dynamic Media Developer Resources
 solution: Dynamic Media Classic
 audience: end-user
@@ -10,7 +10,7 @@ user-guide-description: 存取 Dynamic Media 開發人員資源，例如檢視�
 feature-set: Experience Manager Assets
 index: y
 translation-type: tm+mt
-source-git-commit: 5e8dba839c61104ecc680ea14bf2ac1100480306
+source-git-commit: 04e99bef471c5839ff6d28b1ae42f5ffed73c029
 workflow-type: tm+mt
 source-wordcount: '44'
 ht-degree: 88%
