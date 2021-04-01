@@ -1,19 +1,19 @@
 ---
-cloud: experience-cloud
-user-guide-title: Dynamic Media影像伺服與轉換API
+cloud: Experience Cloud
+user-guide-title: Dynamic Media Image Serving and Rendering API
 breadcrumb-title: Dynamic Media影像伺服與轉換API
 feature-set: Experience Manager Assets
 user-guide-description: 檢視有關IS（影像伺服）和IR（影像演算）API及相關技術的檔案。
 translation-type: tm+mt
-source-git-commit: 0f6386196be7cf0ad45371d6017e2e71b9048b14
+source-git-commit: 04e99bef471c5839ff6d28b1ae42f5ffed73c029
 workflow-type: tm+mt
 source-wordcount: '1466'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
 
-# Dynamic Media影像伺服與轉換API {#image-serving-api}
+# Dynamic Media Image Serving and Rendering API {#image-serving-api}
 
 + [Dynamic Media影像伺服與影像演算API首頁](homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/home.html?lang=en) -->
 + [關於此版本](r-about-this-release.md)
