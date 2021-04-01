@@ -1,18 +1,18 @@
 ---
-cloud: experience-cloud
-user-guide-title: Dynamic Media影像製作系統API
+cloud: Experience Cloud
+user-guide-title: Dynamic Media Image Production System API
 feature-set: Experience Manager Assets
 user-guide-description: IPS（影像製作系統）Web服務API可讓外部應用程式和協力廠商開發人員以程式設計方式存取IPS資產和功能。
 translation-type: tm+mt
-source-git-commit: 0f6386196be7cf0ad45371d6017e2e71b9048b14
+source-git-commit: 04e99bef471c5839ff6d28b1ae42f5ffed73c029
 workflow-type: tm+mt
 source-wordcount: '648'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
 
-# Dynamic Media影像製作系統API {#image-production-api}
+# Dynamic Media Image Production System API {#image-production-api}
 
 + [關於Dynamic Media影像製作系統API](c-overview.md)
 + [不建議使用的呼叫](c-deprecated-calls.md)
