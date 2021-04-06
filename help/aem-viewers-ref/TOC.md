@@ -4,9 +4,9 @@ user-guide-title: Dynamic Media 檢視器參考指南
 feature-set: Experience Manager Assets
 user-guide-description: 自訂Dynamic Media檢視器，以便在桌上型電腦和觸控螢幕裝置上使用。 加入互動式影像和視訊、輪盤、旋轉集等。
 translation-type: tm+mt
-source-git-commit: 8207cba7e75c6bff878ef7f11f74b19bb88f1d61
+source-git-commit: 5e310a76c215136da6bd2afe16d3d3c889fa3ab8
 workflow-type: tm+mt
-source-wordcount: '1916'
+source-wordcount: '1913'
 ht-degree: 5%
 
 ---
@@ -22,19 +22,18 @@ ht-degree: 5%
    + [檢視器版本注意事項(5.16.1)](c-release-notes/c-rn-04-06-21.md)
    + [檢視器版本注意事項(5.15.3)](c-release-notes/c-rn-01-13-21.md)
    + 封存 {#archive}
-      + [發行說明封存](c-release-notes/c-archive/c-archive.md)
-         + [檢視器版本注意事項(5.14.1)](c-release-notes/c-archive/c-rn-06-03-20.md)
-         + [檢視器版本注意事項(5.13.1)](c-release-notes/c-archive/c-rn-07-08-19.md)
-         + [檢視器版本注意事項(5.12.1)](c-release-notes/c-archive/c-rn-04-01-19.md)
-         + [檢視器版本注意事項(5.10.1)](c-release-notes/c-archive/c-rn-07-17-18.md)
-         + [檢視器版本注意事項(5.8.2)](c-release-notes/c-archive/c-rn-09-18-17.md)
-         + [檢視器版本注意事項(5.5.2)](c-release-notes/c-archive/c-rn-10-13-16.md)
-         + [檢視器版本注意事項(5.4.2)](c-release-notes/c-archive/c-rn-05-03-16.md)
-         + [檢視器版本注意事項(5.2.3)](c-release-notes/c-archive/c-rn-05-20-15.md)
-         + [檢視器版本注意事項(5.2.2)](c-release-notes/c-archive/c-rn-04-30-15.md)
-         + [檢視器版本注意事項(5.1.1)](c-release-notes/c-archive/c-rn-09-19-14.md)
-         + [檢視器版本注意事項(5.0.1)](c-release-notes/c-archive/c-rn-04-29-14.md)
-         + [檢視器版本注意事項(4.9.2)](c-release-notes/c-archive/c-rn-09-18-13.md)
+      + [檢視器版本注意事項(5.14.1)](c-release-notes/c-archive/c-rn-06-03-20.md)
+      + [檢視器版本注意事項(5.13.1)](c-release-notes/c-archive/c-rn-07-08-19.md)
+      + [檢視器版本注意事項(5.12.1)](c-release-notes/c-archive/c-rn-04-01-19.md)
+      + [檢視器版本注意事項(5.10.1)](c-release-notes/c-archive/c-rn-07-17-18.md)
+      + [檢視器版本注意事項(5.8.2)](c-release-notes/c-archive/c-rn-09-18-17.md)
+      + [檢視器版本注意事項(5.5.2)](c-release-notes/c-archive/c-rn-10-13-16.md)
+      + [檢視器版本注意事項(5.4.2)](c-release-notes/c-archive/c-rn-05-03-16.md)
+      + [檢視器版本注意事項(5.2.3)](c-release-notes/c-archive/c-rn-05-20-15.md)
+      + [檢視器版本注意事項(5.2.2)](c-release-notes/c-archive/c-rn-04-30-15.md)
+      + [檢視器版本注意事項(5.1.1)](c-release-notes/c-archive/c-rn-09-19-14.md)
+      + [檢視器版本注意事項(5.0.1)](c-release-notes/c-archive/c-rn-04-29-14.md)
+      + [檢視器版本注意事項(4.9.2)](c-release-notes/c-archive/c-rn-09-18-13.md)
 + [相容性說明](c-compatibility-notes.md)
 + [鍵盤協助功能與導覽](c-keyboard-accessibility.md)
 + [檢視器SDK教學課程](c-tutorial.md)
