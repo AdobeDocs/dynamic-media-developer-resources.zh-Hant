@@ -4,14 +4,14 @@ solution: Experience Manager
 title: 命令參考- URL
 feature: Dynamic Media經典，檢視器，SDK/API，互動式視訊
 role: 開發人員，商業從業人員
+exl-id: e0a9e269-4826-4518-9222-6a833d11746b
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 0%
 
 ---
-
 
 # 命令參考- URL{#command-reference-url}
 
