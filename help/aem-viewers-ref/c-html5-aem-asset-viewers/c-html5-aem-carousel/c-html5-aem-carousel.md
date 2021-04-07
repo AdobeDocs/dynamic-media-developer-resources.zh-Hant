@@ -4,14 +4,14 @@ solution: Experience Manager
 title: 轉盤
 feature: Dynamic Media經典，檢視器，SDK/API，轉盤橫幅
 role: 開發人員，商業從業人員
+exl-id: d506dc6e-8929-4f7f-a205-1683e77681f1
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '1921'
 ht-degree: 0%
 
 ---
-
 
 # 轉盤{#carousel}
 
@@ -361,4 +361,3 @@ carouselViewer.init();
 </body> 
 </html>
 ```
-
