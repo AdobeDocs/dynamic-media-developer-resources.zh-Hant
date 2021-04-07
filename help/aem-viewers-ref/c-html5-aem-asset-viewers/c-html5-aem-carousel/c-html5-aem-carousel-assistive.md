@@ -4,14 +4,14 @@ solution: Experience Manager
 title: 輔助技術支援
 feature: Dynamic Media經典，檢視器，SDK/API，轉盤橫幅，可存取性
 role: 開發人員，商業從業人員
+exl-id: 3ed943e8-4695-4561-9be0-1b6ed30294f8
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 0%
 
 ---
-
 
 # 輔助技術支援{#assistive-technology-support}
 
