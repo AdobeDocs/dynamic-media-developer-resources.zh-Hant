@@ -7,7 +7,7 @@ feature: Dynamic Media經典，檢視器，SDK/API
 role: 開發人員，商業從業人員
 exl-id: e4543358-92a6-4acc-a8a2-227e1daea722
 translation-type: tm+mt
-source-git-commit: 62234233bb1a5bcbd0eac5d281b42ed785c0c169
+source-git-commit: dc1bbbcd109ecbeae1f3a04e7ca5371581f0f743
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 1%
@@ -73,23 +73,24 @@ Dynamic MediaHTML5檢視器的系統需求。
 
 >[!NOTE]
 >
->自2018年9月30日起，AdobeDynamic Media經典版檢視器即將停止支援傳輸層安全性1.0(TLS 1.0)。 因此，Dynamic Media經典版不再支援下列支援TLS 1.0的瀏覽器／平台的檢視器。 (Adobe建議使用TLS 1.2或更新版本。)
+>自2018年9月30日起，AdobeDynamic Media經典版檢視器即將停止支援傳輸層安全性1.0(TLS 1.0)。 因此，Dynamic Media經典版不再支援下列支援TLS 1.0的瀏覽器／平台(Adobe建議使用TLS 1.2或更新版本)的檢視器：
+>
+> * Android™ 2.3.7
+> * Android™ 4.0.4
+> * Android™ 4.1.1
+> * Android™ 4.2.2
+> * Android™ 4.3
+> * Windows Vista®上的Internet Explorer 7
+> * Windows® XP版Internet Explorer 8
+> * Windows® 7上的Internet Explorer 8-10
+> * Windows® Phone 8.0版Internet Explorer 10
+> * Apple OS X 10.6.8上的Safari 5.1.9
+> * Apple OS X 10.8.4上的Safari 6.0.4
+> * Java™ 6u45
+> * Java™ 7u25
+> * OpenSSL 0.9.8y
+> * 百度二零一五年一月
 
-* Android™ 2.3.7
-* Android™ 4.0.4
-* Android™ 4.1.1
-* Android™ 4.2.2
-* Android™ 4.3
-* Windows Vista®上的Internet Explorer 7
-* Windows® XP版Internet Explorer 8
-* Windows® 7上的Internet Explorer 8-10
-* Windows® Phone 8.0版Internet Explorer 10
-* Apple OS X 10.6.8上的Safari 5.1.9
-* Apple OS X 10.8.4上的Safari 6.0.4
-* Java™ 6u45
-* Java™ 7u25
-* OpenSSL 0.9.8y
-* 百度二零一五年一月
 
 >[!NOTE]
 >
