@@ -4,14 +4,14 @@ solution: Experience Manager
 title: 視訊時間
 feature: Dynamic Media經典，檢視器，SDK/API，互動式視訊
 role: 開發人員，商業從業人員
+exl-id: 90ec189e-6de4-44b3-8760-1e8636b919ba
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 2%
 
 ---
-
 
 # 視訊時間{#video-time}
 
@@ -71,4 +71,3 @@ color:#BBBBBB;
 width:60px;  
 }
 ```
-
