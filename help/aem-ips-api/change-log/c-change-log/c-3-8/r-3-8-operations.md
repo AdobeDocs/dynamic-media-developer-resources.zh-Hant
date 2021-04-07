@@ -4,14 +4,14 @@ solution: Experience Manager
 title: 操作新增和修改
 feature: Dynamic Media經典，SDK/API
 role: 開發人員、管理員
+exl-id: 8f4fe698-afe8-4ce6-904d-42fa67dee4dd
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '67'
 ht-degree: 1%
 
 ---
-
 
 # 操作：新增和修改{#operations-new-and-modified}
 
@@ -38,4 +38,3 @@ ht-degree: 1%
 **getJobLogs**
 
 * 可選的`userHandle`參數可讓您擷取特定使用者提交的工作記錄檔。
-
