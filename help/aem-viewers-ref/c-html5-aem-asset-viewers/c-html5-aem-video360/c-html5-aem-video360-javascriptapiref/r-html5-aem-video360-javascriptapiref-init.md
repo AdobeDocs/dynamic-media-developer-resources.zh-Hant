@@ -4,14 +4,14 @@ solution: Experience Manager
 title: init
 feature: Dynamic Media經典，檢視器，SDK/API,360 VR視訊
 role: 開發人員，商業從業人員
+exl-id: cb543620-e774-407b-bf33-bfd2261511c4
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 2%
 
 ---
-
 
 # init{#init}
 
@@ -38,4 +38,3 @@ Video360檢視器的JavaScript API參考。
 ```
 <instance>.init()
 ```
-
