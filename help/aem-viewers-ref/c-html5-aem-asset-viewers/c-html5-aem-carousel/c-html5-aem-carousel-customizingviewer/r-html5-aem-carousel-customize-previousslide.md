@@ -4,14 +4,14 @@ solution: Experience Manager
 title: 上一張投影片
 feature: Dynamic Media經典，檢視器，SDK/API，轉盤橫幅
 role: 開發人員，商業從業人員
+exl-id: f780e62e-7238-4cc6-b382-3a21043e1079
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 2%
 
 ---
-
 
 # 上一張幻燈片{#previous-slide}
 
@@ -101,4 +101,3 @@ ht-degree: 2%
 .s7carouselviewer.s7mouseinput .s7panleftbutton[state='down'] { background-position: -0px -0px; } 
 .s7carouselviewer.s7mouseinput .s7panleftbutton[state='disabled'] { background-position: -0px -60px; }
 ```
-
