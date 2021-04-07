@@ -4,14 +4,14 @@ solution: Experience Manager
 title: InteractiveSwatches.autoscroll
 feature: Dynamic Media經典，檢視器，SDK/API，互動式視訊
 role: 開發人員，商業從業人員
+exl-id: 5a7272fe-e753-44cd-aaf0-0811a2662279
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '51'
 ht-degree: 9%
 
 ---
-
 
 # InteractiveSwatches.autoscroll{#interactiveswatches-autoscroll}
 
@@ -41,4 +41,3 @@ ht-degree: 9%
 ```
 autoscroll=0
 ```
-
