@@ -4,14 +4,14 @@ solution: Experience Manager
 title: 焦點反白顯示
 feature: Dynamic Media經典，檢視器，SDK/API,360 VR視訊
 role: 開發人員，商業從業人員
+exl-id: 05ac1a70-c20d-4ddf-942c-181f101cb1d8
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '91'
 ht-degree: 1%
 
 ---
-
 
 # 焦點反白顯示{#focus-highlight}
 
@@ -49,4 +49,3 @@ ht-degree: 1%
  outline: none; 
 }
 ```
-
