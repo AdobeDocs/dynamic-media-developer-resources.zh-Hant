@@ -5,14 +5,14 @@ solution: Experience Manager
 title: 自訂互動式影像檢視器
 feature: Dynamic Media經典，檢視器，SDK/API，互動式影像
 role: 開發人員，商業從業人員
+exl-id: bb3cfe4a-ec60-4c10-82fe-9e4f8f7c586f
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '1291'
 ht-degree: 0%
 
 ---
-
 
 # 自訂互動式影像檢視器{#customizing-interactive-image-viewer}
 
