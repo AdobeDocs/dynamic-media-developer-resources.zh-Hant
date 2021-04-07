@@ -4,14 +4,14 @@ solution: Experience Manager
 title: VideoScrubber.timepattern
 feature: Dynamic Media經典，檢視器，SDK/API,360 VR視訊
 role: 開發人員，商業從業人員
+exl-id: f438a06b-6cf4-4bcd-9c4a-ed56f6a9c639
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 3%
 
 ---
-
 
 # VideoScrubber.timepattern{#videoscrubber-timepattern}
 
@@ -41,4 +41,3 @@ Video360檢視器的設定屬性。
 ```
 timepattern=h:mm:ss
 ```
-
