@@ -4,8 +4,9 @@ solution: Experience Manager
 title: 透過HTTP POST上傳資產至UploadFile Servlet
 feature: Dynamic Media經典，SDK/API，資產管理
 role: 開發人員、管理員
+exl-id: e40293be-d00f-44c1-8ae7-521ce3312ca8
 translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: e7c747c44d27ed1769ab872d962a814d80c0b345
 workflow-type: tm+mt
 source-wordcount: '736'
 ht-degree: 3%
