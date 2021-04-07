@@ -4,14 +4,14 @@ solution: Experience Manager
 title: 新增和變更
 feature: Dynamic Media經典，SDK/API
 role: 開發人員、管理員
+exl-id: f07562a8-71e9-4d98-9d0c-5bb32a7e0ef1
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '1227'
 ht-degree: 2%
 
 ---
-
 
 # 新增和變更{#new-additions-and-changes}
 
@@ -363,4 +363,3 @@ IPS公司設定`CompanySettings`已移植到Web服務API。
   </tr> 
  </tbody> 
 </table>
-
