@@ -4,14 +4,14 @@ solution: Experience Manager
 title: 預先載入影像
 feature: Dynamic Media經典，檢視器，SDK/API，互動式影像
 role: 開發人員，商業從業人員
+exl-id: 54bea5fc-916c-4a58-bc06-b726884d488a
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 0%
 
 ---
-
 
 # 預先載入影像{#preload-image}
 
