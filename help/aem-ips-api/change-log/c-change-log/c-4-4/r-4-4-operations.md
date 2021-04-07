@@ -5,13 +5,12 @@ title: 操作新增和修改
 feature: Dynamic Media經典，SDK/API
 role: 開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '45'
 ht-degree: 2%
 
 ---
-
 
 # 操作：新增和修改{#operations-new-and-modified}
 
@@ -36,4 +35,3 @@ ht-degree: 2%
 * `assetSubtypeArray`
 * `excludeByproductArray`
 * `strictSubTypeCheck`
-
