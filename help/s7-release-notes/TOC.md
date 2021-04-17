@@ -3,17 +3,17 @@ title: AdobeDynamic Media經典版本注意事項
 description: 「Dynamic Media經典Adobe的發行說明，是Adobe Experience CloudAdobe Experience Manager解決方案的一部分。」
 author: Rick Brough
 cloud: Experience Cloud
-product: Dynamic Media Classic
+product: adobe dynamic media classic
 archtype: end-user
 feature-set: Experience Manager Assets
 feature: Dynamic Media經典
-role: 開發人員，商業從業人員
+role: Developer,Business Practitioner
 user-guide-description: Dynamic Media經典Adobe(Adobe Experience CloudAdobe Experience Manager解決方案的一部分)的最新發行說明。
 translation-type: tm+mt
-source-git-commit: 04e99bef471c5839ff6d28b1ae42f5ffed73c029
+source-git-commit: 3598b0247406d942b0f58b1c74aae4956590f5f8
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 0%
+source-wordcount: '98'
+ht-degree: 1%
 
 ---
 
