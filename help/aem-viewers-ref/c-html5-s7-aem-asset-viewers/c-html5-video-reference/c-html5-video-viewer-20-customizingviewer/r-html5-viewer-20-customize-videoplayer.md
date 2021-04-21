@@ -2,8 +2,8 @@
 description: 視訊播放器是在檢視器中顯示視訊內容的矩形區域。
 solution: Experience Manager
 title: 視訊播放器
-feature: Dynamic Media經典，檢視器，SDK/API，視訊
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

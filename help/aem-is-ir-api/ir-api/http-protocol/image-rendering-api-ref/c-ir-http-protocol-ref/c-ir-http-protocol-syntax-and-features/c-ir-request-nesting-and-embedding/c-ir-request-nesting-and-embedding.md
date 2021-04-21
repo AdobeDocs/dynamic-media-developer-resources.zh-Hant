@@ -2,8 +2,8 @@
 description: 影像演算可將影像伺服請求和HTTP請求內嵌至外來伺服器，以擷取用於可重複紋理和貼文的材質影像。
 solution: Experience Manager
 title: 要求巢狀內嵌*
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

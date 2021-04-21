@@ -2,8 +2,8 @@
 description: 檔案櫃材料指定檔案櫃樣式檔案（.vnc檔案副檔名）、包含檔案櫃照片表示以及參數佈局定義以及渲染檔案櫃正面所需的其他資訊的特殊資料檔案。
 solution: Experience Manager
 title: 封包
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

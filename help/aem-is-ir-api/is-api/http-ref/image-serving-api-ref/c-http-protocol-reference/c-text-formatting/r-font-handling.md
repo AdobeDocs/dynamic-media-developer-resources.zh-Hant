@@ -2,8 +2,8 @@
 description: RTF字串中引用的所有字型都必須在預設目錄或當前影像目錄的字型映射檔案中可用，否則將返回錯誤。
 solution: Experience Manager
 title: 字型處理
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

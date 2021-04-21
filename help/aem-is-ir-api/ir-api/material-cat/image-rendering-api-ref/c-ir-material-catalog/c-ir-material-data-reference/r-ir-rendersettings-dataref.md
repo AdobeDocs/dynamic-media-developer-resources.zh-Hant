@@ -2,8 +2,8 @@
 description: 進階演算設定。 高級渲染設定用於控制渲染引擎的低級部分，例如材料銳化類型和參數或照明算法的某些參數。
 solution: Experience Manager
 title: RenderSettings
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

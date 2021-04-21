@@ -2,8 +2,8 @@
 description: 指定元件用於從Image Server載入映像的映像格式。
 solution: Experience Manager
 title: ZoomView.fmt
-feature: Dynamic Media經典，檢視器，SDK/API，互動式影像
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+role: Developer,Business Practitioner
 exl-id: 6a023abb-71c7-4db5-8d05-bf0a4b1fc3a0
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

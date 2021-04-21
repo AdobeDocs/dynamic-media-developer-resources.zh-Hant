@@ -2,8 +2,8 @@
 description: 預設的用戶端快取上線時間。 提供預設的過期間隔，以防特定目錄記錄不包含有效的目錄過期或暈映過期值，或是直接存取暈映檔案或材質檔案，而非透過目錄記錄。
 solution: Experience Manager
 title: 過期
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

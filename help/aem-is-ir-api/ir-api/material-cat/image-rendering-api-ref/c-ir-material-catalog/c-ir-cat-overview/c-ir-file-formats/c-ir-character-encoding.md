@@ -2,8 +2,8 @@
 description: 影像演算支援ISO-8859-1和UTF-8編碼的材質型錄。
 solution: Experience Manager
 title: 字元編碼
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

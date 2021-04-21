@@ -2,8 +2,8 @@
 description: 此按鈕可切換隱藏字幕的顯示和顯示。 如果未指定標題參數，則不會顯示。
 solution: Experience Manager
 title: 標題按鈕
-feature: Dynamic Media經典，檢視器，SDK/API，視訊
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

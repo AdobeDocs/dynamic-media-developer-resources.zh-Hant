@@ -2,8 +2,8 @@
 description: 互動式影像檢視器的主要類別為InteractiveVideoViewer。 會在s7viewers命名空間中宣告。 此JavaScript API涵蓋此特定類別的建構函式、方法和回呼。
 solution: Experience Manager
 title: 互動式視訊檢視器的JavaScript API參考
-feature: Dynamic Media經典，檢視器，SDK/API，互動式視訊
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: 3b1f5150-c696-4989-9914-09549f838b4a
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

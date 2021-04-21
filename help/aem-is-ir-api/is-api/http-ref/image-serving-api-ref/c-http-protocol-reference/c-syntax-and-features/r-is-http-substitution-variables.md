@@ -2,8 +2,8 @@
 description: 替代變數可用來將值從請求URL傳輸至影像目錄中儲存的構圖範本。 變數也可用來將相同的值傳達至複雜請求的不同位置。
 solution: Experience Manager
 title: 替代變數
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 產生視訊的縮圖影像。
 solution: Experience Manager
 title: MediaOptions
-feature: Dynamic Media經典，SDK/API
-role: 開發人員、管理員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

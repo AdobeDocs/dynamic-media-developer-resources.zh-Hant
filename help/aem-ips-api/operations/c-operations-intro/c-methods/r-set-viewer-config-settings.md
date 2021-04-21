@@ -2,8 +2,8 @@
 description: 將檢視器組態設定附加至資產。 這些預設可以是檢視器預設集或檢視器的來源資產。
 solution: Experience Manager
 title: setViewerConfigSettings
-feature: Dynamic Media經典，SDK/API，檢視器預設集
-role: 開發人員、管理員
+feature: Dynamic Media Classic,SDK/API,Viewer Presets
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

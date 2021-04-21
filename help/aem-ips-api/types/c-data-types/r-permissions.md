@@ -2,8 +2,8 @@
 description: 管理依群組存取、修改、建立或刪除資產的權利。
 solution: Experience Manager
 title: 權限
-feature: Dynamic Media經典，SDK/API
-role: 開發人員、管理員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

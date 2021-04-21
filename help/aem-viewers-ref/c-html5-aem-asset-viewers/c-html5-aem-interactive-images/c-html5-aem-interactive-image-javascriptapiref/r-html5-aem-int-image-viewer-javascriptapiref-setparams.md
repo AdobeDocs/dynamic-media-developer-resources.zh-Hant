@@ -2,8 +2,8 @@
 description: 視訊影像檢視器的JavaScript API參考。
 solution: Experience Manager
 title: setParams
-feature: Dynamic Media經典，檢視器，SDK/API，互動式影像
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+role: Developer,Business Practitioner
 exl-id: 6a09e3bc-e79c-4206-be42-0c6ae3d91590
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

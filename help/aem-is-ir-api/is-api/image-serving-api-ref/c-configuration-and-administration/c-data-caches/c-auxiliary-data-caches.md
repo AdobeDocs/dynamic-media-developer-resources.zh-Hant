@@ -2,8 +2,8 @@
 description: 通過在嵌套／嵌入請求中指定cache=on，可快取由嵌套／嵌入的影像服務和影像渲染請求產生的中間影像資料。 該資料以專有格式儲存在響應資料快取中。
 solution: Experience Manager
 title: 輔助資料快取
-feature: Dynamic Media經典，SDK/API
-role: 開發人員、管理員、商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

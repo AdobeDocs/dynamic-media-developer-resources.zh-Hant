@@ -2,8 +2,8 @@
 description: 可以使用十進位、逗號分隔的元件值清單或十六進位表示法（類似於HTML）來指定color=和bgc=屬性的顏色值。
 solution: Experience Manager
 title: 顏色值
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

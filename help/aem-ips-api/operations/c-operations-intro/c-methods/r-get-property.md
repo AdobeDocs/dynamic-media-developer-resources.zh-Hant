@@ -2,8 +2,8 @@
 description: 獲取與Image Portal相關的系統屬性的字串值。
 solution: Experience Manager
 title: getProperty
-feature: Dynamic Media經典，SDK/API
-role: 開發人員、管理員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

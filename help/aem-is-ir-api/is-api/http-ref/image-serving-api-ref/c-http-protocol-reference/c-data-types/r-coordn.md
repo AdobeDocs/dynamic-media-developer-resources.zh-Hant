@@ -2,8 +2,8 @@
 description: 標準化坐標。 用於指定影像內的相對位置，例如影像偏移或裁切參數，並標準化為影像大小。
 solution: Experience Manager
 title: coordN
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

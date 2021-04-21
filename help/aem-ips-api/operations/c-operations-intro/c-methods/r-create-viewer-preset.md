@@ -2,8 +2,8 @@
 description: 建立預設檢視，以決定使用者可看見的內容。 檢視器可以是IPS中任何類型的。 預設檢視會在資產發佈時套用。
 solution: Experience Manager
 title: createViewerPreset
-feature: Dynamic Media經典，SDK/API，檢視器預設集
-role: 開發人員、管理員
+feature: Dynamic Media Classic,SDK/API,Viewer Presets
+role: Developer,Administrator
 exl-id: b24536d9-df66-4c94-8467-6f46e66a1b36
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

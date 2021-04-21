@@ -2,8 +2,8 @@
 description: 檔案修改時間戳記。 指定附加到此目錄記錄的映像和／或資料檔案上次修改的日期／時間。
 solution: Experience Manager
 title: TimeStamp
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 解析度. 「真實世界」影像解析度，通常以每英吋像素表示，但也可能以其他單位表示，例如每米像素。
 solution: Experience Manager
 title: 解析度
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

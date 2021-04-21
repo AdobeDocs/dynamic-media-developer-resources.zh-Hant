@@ -2,8 +2,8 @@
 description: FlyoutZoomView.preloadtiles
 solution: Experience Manager
 title: FlyoutZoomView.preloadtiles
-feature: Dynamic Media經典，檢視器，SDK/API，內嵌縮放
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

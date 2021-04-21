@@ -2,8 +2,8 @@
 description: 按一下或點選「下一張」投影片按鈕，會將使用者移至轉盤集的下一張投影片。
 solution: Experience Manager
 title: 下一張幻燈片
-feature: Dynamic Media經典，檢視器，SDK/API，轉盤橫幅
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: c64889bb-bcbe-49c6-a0be-b4013ead7b90
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

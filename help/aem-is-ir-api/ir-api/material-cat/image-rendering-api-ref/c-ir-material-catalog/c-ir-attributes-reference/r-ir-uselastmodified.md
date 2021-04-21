@@ -2,8 +2,8 @@
 description: 啟用上次修改的回應標題。 啟用或停用「影像演算」所發出可快取HTTP回應中包含「上次修改」標題。
 solution: Experience Manager
 title: UseLastModified
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

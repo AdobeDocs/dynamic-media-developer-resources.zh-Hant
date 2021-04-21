@@ -2,8 +2,8 @@
 description: 預設縮圖大小。 用於縮圖請求(req=tmb)，而非屬性DefaultPix。
 solution: Experience Manager
 title: DefaultThumbPix
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

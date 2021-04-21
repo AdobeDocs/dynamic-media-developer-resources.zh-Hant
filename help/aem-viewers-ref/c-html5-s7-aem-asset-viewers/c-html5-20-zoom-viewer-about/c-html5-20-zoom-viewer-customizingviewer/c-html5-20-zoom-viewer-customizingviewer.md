@@ -3,8 +3,8 @@ description: 縮放檢視器的所有視覺化自訂和大部分的行為自訂�
 keywords: 回應
 solution: Experience Manager
 title: 自訂縮放檢視器
-feature: Dynamic Media經典，檢視器，SDK/API，縮放
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

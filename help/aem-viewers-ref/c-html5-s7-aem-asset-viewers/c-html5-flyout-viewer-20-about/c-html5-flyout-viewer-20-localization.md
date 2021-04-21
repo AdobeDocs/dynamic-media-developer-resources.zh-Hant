@@ -2,8 +2,8 @@
 description: Flyout檢視器顯示的某些內容可能會受到本地化的規範。 此內容包含使用者介面元素工具提示和資訊訊息，這些訊息會由載入時的彈出縮放檢視顯示。
 solution: Experience Manager
 title: 使用者介面元素的本地化
-feature: Dynamic Media經典，檢視器，SDK/API,Flyout
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

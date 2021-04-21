@@ -2,8 +2,8 @@
 description: 圖層顏色。 指定純色和效果圖層的前景色和不透明度，並且文字方塊會填滿文字圖層的顏色。
 solution: Experience Manager
 title: 色彩
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

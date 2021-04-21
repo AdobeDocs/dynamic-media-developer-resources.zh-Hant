@@ -2,8 +2,8 @@
 description: 作業系統、瀏覽器和行動裝置的相容性注意事項。
 solution: Experience Manager
 title: 相容性說明
-feature: Dynamic Media經典，檢視器，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API
+role: Developer,Business Practitioner
 exl-id: 7ad499b1-7da6-483b-ab11-cff2eb9271da
 translation-type: tm+mt
 source-git-commit: 62234233bb1a5bcbd0eac5d281b42ed785c0c169

@@ -2,8 +2,8 @@
 description: 自旋指示器覆蓋在自旋視圖區域上。 當影像處於重設狀態時，就會顯示它，而且它也會依循圖示效果參數。
 solution: Experience Manager
 title: 回轉檢視圖示效果
-feature: Dynamic Media經典，檢視器，SDK/API,Mix Media Sets
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

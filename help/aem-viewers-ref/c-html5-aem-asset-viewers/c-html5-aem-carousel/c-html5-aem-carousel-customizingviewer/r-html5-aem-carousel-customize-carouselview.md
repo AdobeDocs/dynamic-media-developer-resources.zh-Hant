@@ -2,8 +2,8 @@
 description: 主檢視包含橫幅影像。
 solution: Experience Manager
 title: 轉盤檢視
-feature: Dynamic Media經典，檢視器，SDK/API，轉盤橫幅
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: aa41b209-11c7-4744-aaa5-dc0b503607c6
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

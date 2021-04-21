@@ -2,8 +2,8 @@
 description: 命令宏為命令集提供命名快捷方式。 宏在單獨的宏定義檔案中定義，這些宏定義檔案可以附加到影像目錄或預設目錄。
 solution: Experience Manager
 title: 命令宏
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

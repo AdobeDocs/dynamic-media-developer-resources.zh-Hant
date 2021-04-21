@@ -2,8 +2,8 @@
 description: 按一下或點選此按鈕可讓使用者進入目錄的下一頁。 此按鈕會出現在主控制列中。 行動電話上不會顯示此按鈕來儲存螢幕空間。 您可以使用CSS來調整此按鈕的大小、外觀和位置。
 solution: Experience Manager
 title: 大型下一頁按鈕
-feature: Dynamic Media經典，檢視器，SDK/API,eCatalog搜尋
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 根據影像的背景顏色或透明度傳回影像的裁切區域。
 solution: Experience Manager
 title: getAutoCropRect
-feature: Dynamic Media經典，SDK/API
-role: 開發人員、管理員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

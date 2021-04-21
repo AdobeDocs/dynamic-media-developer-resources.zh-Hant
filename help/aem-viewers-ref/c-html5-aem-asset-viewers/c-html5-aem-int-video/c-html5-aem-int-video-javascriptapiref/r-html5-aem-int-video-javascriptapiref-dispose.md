@@ -2,8 +2,8 @@
 description: 互動式視訊檢視器的JavaScript API參考。
 solution: Experience Manager
 title: 處置
-feature: Dynamic Media經典，檢視器，SDK/API，互動式視訊
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: 55418b97-3d18-4c1d-b0e3-aefd71f46616
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

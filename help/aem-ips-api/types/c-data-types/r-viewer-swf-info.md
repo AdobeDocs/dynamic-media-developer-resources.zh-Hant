@@ -2,8 +2,8 @@
 description: 檢視器SWF檔案資產的屬性。
 solution: Experience Manager
 title: ViewerSwfInfo
-feature: Dynamic Media經典，SDK/API，檢視器
-role: 開發人員、管理員
+feature: Dynamic Media Classic,SDK/API,Viewers
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

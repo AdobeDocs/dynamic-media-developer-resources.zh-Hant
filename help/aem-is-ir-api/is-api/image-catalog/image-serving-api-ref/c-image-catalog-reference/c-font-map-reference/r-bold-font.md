@@ -2,8 +2,8 @@
 description: 黑臉旗。 指定當RTF粗體命令(\b)請求時，是否應使用此字型映射記錄引用的字型檔案。
 solution: Experience Manager
 title: 粗體
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

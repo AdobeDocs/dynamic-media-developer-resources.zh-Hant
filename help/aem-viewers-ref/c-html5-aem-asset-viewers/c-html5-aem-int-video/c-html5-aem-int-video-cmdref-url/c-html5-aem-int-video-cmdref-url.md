@@ -2,8 +2,8 @@
 description: 互動式視訊檢視器的指令參考檔案。
 solution: Experience Manager
 title: 命令參考- URL
-feature: Dynamic Media經典，檢視器，SDK/API，互動式視訊
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: e0a9e269-4826-4518-9222-6a833d11746b
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

@@ -2,8 +2,8 @@
 description: 互動式視訊檢視器是播放以H.264格式編碼的串流和漸進式視訊的視訊播放器。
 solution: Experience Manager
 title: 互動式視訊
-feature: Dynamic Media經典，檢視器，SDK/API，互動式視訊
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: e54b0b1f-b015-4592-82e2-99f5080543e3
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

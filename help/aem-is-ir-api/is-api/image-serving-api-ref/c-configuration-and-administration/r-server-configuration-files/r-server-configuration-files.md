@@ -2,8 +2,8 @@
 description: 所有配置檔案都位於install_folder/conf中，大多數文本編輯器都可編輯。 伺服器可能需要重新啟動才能使更改生效。
 solution: Experience Manager
 title: 伺服器配置檔案
-feature: Dynamic Media經典，SDK/API
-role: 開發人員、管理員、商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

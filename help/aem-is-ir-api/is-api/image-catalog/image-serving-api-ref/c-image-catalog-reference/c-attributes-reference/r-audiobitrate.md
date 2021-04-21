@@ -2,8 +2,8 @@
 description: 音訊位元速率. 代表視訊資產的音訊位元速率的長值。
 solution: Experience Manager
 title: AudioBitRate
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

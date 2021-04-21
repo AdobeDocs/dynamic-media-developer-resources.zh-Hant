@@ -2,8 +2,8 @@
 description: 請求字串的整個修飾元部分的內容（包括選用的鎖定字尾）可能會因套用標準base64編碼而被遮住。
 solution: Experience Manager
 title: 請求模糊化
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

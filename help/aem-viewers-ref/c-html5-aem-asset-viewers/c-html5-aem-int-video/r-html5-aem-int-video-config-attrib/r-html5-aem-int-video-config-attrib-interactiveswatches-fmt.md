@@ -2,8 +2,8 @@
 description: 互動式視訊檢視器的設定屬性。
 solution: Experience Manager
 title: InteractiveSwatches.fmt
-feature: Dynamic Media經典，檢視器，SDK/API，互動式視訊
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: 9a751b91-aeff-4ee1-b2fe-9bec416884ab
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

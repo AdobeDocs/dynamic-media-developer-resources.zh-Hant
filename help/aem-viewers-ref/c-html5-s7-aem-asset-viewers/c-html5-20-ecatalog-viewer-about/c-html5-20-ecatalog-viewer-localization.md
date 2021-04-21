@@ -2,8 +2,8 @@
 description: eCatalog檢視器顯示的某些內容會受當地語系化限制，包括縮放按鈕、頁面變更按鈕、縮圖按鈕、全螢幕按鈕、關閉按鈕和捲軸按鈕。
 solution: Experience Manager
 title: 使用者介面元素的本地化
-feature: Dynamic Media經典，檢視器，SDK/API,eCatalog
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

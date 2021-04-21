@@ -2,8 +2,8 @@
 description: 說明各種輸入參數使用的值。 如需詳細資訊，請參閱本文中的清單。
 solution: Experience Manager
 title: 資產類型
-feature: Dynamic Media經典，SDK/API，資產管理
-role: 開發人員、管理員
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

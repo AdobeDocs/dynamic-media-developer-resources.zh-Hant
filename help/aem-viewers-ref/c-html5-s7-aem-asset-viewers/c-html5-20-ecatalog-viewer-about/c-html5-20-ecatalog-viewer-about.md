@@ -3,8 +3,8 @@ description: eCatalog檢視器是一種型錄檢視器，可依頁面或跨頁�
 keywords: 回應
 solution: Experience Manager
 title: eCatalog
-feature: Dynamic Media經典，檢視器，SDK/API,eCatalog
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

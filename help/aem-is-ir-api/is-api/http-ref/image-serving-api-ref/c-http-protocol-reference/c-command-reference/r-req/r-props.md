@@ -2,8 +2,8 @@
 description: 回應資料屬性。 評估目前的請求，就像是影像請求(req=img)，但伺服器不會傳回影像，而是傳回回回覆影像的選取屬性。
 solution: Experience Manager
 title: props
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

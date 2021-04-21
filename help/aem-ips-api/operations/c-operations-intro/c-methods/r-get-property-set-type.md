@@ -2,8 +2,8 @@
 description: 使用公司句柄和屬性集類型的名稱獲取屬性集類型。 它獲取一個類型結構，其中控點與類型以及屬性類型相同。
 solution: Experience Manager
 title: getPropertySetType
-feature: Dynamic Media經典，SDK/API
-role: 開發人員、管理員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

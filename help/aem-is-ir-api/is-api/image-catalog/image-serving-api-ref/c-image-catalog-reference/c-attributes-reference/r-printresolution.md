@@ -2,8 +2,8 @@
 description: 預設列印解析度。 提供預設打印解析度，以防特定目錄記錄不包含有效的目錄PrintResolution值。
 solution: Experience Manager
 title: 列印解析度
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 預設縮圖類型。 提供縮圖類型的預設值，以防特定目錄記錄不包含有效的目錄ThumbType值。
 solution: Experience Manager
 title: ThumbType
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

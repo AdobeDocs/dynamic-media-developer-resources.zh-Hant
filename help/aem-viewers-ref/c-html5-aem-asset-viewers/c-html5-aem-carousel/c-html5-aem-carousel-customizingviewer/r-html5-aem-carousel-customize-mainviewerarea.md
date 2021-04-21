@@ -2,8 +2,8 @@
 description: 主檢視區域是轉盤橫幅影像所佔用的區域。 當未指定大小時，通常會將它設為符合可用的裝置畫面。
 solution: Experience Manager
 title: 主檢視器區域
-feature: Dynamic Media經典，檢視器，SDK/API，轉盤橫幅
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: bdac54f5-79e3-4d3d-9c7e-d9a7cec61c73
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

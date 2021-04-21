@@ -2,8 +2,8 @@
 description: 「播放／暫停」按鈕可讓使用者暫停或繼續轉盤自動播放行為。
 solution: Experience Manager
 title: 播放暫停按鈕
-feature: Dynamic Media經典，檢視器，SDK/API，轉盤橫幅
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: 1b48aa7f-d1c8-4367-94c2-689991b90942
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

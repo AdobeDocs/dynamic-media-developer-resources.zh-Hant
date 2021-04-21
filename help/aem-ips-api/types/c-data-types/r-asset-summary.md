@@ -2,8 +2,8 @@
 description: 包含資產摘要資訊的中繼資料搜尋結果。
 solution: Experience Manager
 title: 資產摘要
-feature: Dynamic Media經典，SDK/API，資產管理
-role: 開發人員、管理員
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

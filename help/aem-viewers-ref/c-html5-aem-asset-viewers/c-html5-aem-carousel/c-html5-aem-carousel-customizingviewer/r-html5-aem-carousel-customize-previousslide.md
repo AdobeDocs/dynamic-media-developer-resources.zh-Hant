@@ -2,8 +2,8 @@
 description: 按一下或點選此按鈕，會將使用者返回轉盤集中的上一張投影片。 此按鈕不會顯示在觸控裝置上。 您可以使用CSS來調整此按鈕的大小、外觀和位置。
 solution: Experience Manager
 title: 上一張投影片
-feature: Dynamic Media經典，檢視器，SDK/API，轉盤橫幅
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: f780e62e-7238-4cc6-b382-3a21043e1079
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

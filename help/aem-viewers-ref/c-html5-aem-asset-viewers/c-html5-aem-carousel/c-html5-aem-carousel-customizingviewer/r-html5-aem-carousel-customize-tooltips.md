@@ -2,8 +2,8 @@
 description: 在案頭系統上，有些使用者介面元素（例如按鈕）的工具提示會顯示在滑鼠暫留狀態。
 solution: Experience Manager
 title: 工具提示
-feature: Dynamic Media經典，檢視器，SDK/API，轉盤橫幅
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: b4604528-93f6-440c-b676-7b4c89fff6c8
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

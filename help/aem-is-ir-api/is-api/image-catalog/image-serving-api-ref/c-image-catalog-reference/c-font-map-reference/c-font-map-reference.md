@@ -2,8 +2,8 @@
 description: 如果影像目錄需要字型圖，則必須在屬性FontMapFile中指定字型圖檔案的相對或絕對路徑。
 solution: Experience Manager
 title: 字型對應參考
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

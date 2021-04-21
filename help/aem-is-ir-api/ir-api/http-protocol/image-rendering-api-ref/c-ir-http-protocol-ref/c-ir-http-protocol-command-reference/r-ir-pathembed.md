@@ -2,8 +2,8 @@
 description: 內嵌路徑資料。 指定是否應將內嵌在暈映中的Photoshop路徑包含在回應影像中。
 solution: Experience Manager
 title: pathEmbed
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

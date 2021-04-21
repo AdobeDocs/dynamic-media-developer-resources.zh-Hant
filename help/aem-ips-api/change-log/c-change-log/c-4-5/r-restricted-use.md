@@ -2,8 +2,8 @@
 description: 測試版WSDL中提供的這些新操作或修改的操作和資料類型，在Dynamic Media開發的應用程式之外不可使用。
 solution: Experience Manager
 title: 限制使用
-feature: Dynamic Media經典，SDK/API
-role: 開發人員、管理員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

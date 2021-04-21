@@ -2,8 +2,8 @@
 description: 獲取指定公司的活動發佈上下文清單。 如果至少有一個為上下文定義的活動伺服器，則發佈上下文被視為活動。
 solution: Experience Manager
 title: getActivePublishContext
-feature: Dynamic Media經典，SDK/API
-role: 開發人員、管理員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

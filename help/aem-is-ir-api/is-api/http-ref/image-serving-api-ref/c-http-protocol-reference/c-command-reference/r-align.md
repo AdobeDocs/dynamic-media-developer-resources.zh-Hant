@@ -2,8 +2,8 @@
 description: 將影像與檢視對齊。 在wid=和hei=定義的視圖矩形內對齊合成影像（如果也指定了scl=，則可能在縮放後）。
 solution: Experience Manager
 title: 對齊
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 可讓管理員建立新的中繼資料欄位，以與內容管理系統或範本作業協調。 建立的中繼資料欄位範例包括關鍵字、影像作者的相關資訊或版權持有人資訊。
 solution: Experience Manager
 title: createMetadataField
-feature: Dynamic Media經典，SDK/API，中繼資料
-role: 開發人員、管理員
+feature: Dynamic Media Classic,SDK/API,Metadata
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

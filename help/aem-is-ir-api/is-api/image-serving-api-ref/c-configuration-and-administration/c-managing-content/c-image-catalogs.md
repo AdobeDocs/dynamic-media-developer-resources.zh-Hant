@@ -2,8 +2,8 @@
 description: 影像目錄提供許多伺服器組態設定，以及字型、ICC描述檔、命令巨集。
 solution: Experience Manager
 title: 影像目錄
-feature: Dynamic Media經典，SDK/API
-role: 開發人員、管理員、商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

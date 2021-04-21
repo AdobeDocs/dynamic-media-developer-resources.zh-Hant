@@ -2,8 +2,8 @@
 description: 使用基於目錄或基於過期的快取驗證自動刷新快取條目，如同使用屬性CacheValidationPolicy（預設為。ini或特定映像目錄的。ini檔案）選擇的一樣。
 solution: Experience Manager
 title: 回應快取驗證
-feature: Dynamic Media經典，SDK/API
-role: 開發人員、管理員、商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

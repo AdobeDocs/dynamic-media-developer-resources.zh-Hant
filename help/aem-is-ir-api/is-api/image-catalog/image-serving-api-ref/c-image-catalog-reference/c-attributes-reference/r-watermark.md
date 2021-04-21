@@ -2,8 +2,8 @@
 description: 浮水印選擇器。 指定要用作水印影像或模板的目錄記錄的目錄ID。
 solution: Experience Manager
 title: 浮水印
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 根據您是否指定用戶句柄，將特定用戶或預設用戶的口令設定為特定值。
 solution: Experience Manager
 title: setPassword
-feature: Dynamic Media經典，SDK/API
-role: 開發人員、管理員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 設定一或多個資產的縮圖影像。
 solution: Experience Manager
 title: batchSetThumbAsset
-feature: Dynamic Media經典，SDK/API，資產管理
-role: 開發人員、管理員
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

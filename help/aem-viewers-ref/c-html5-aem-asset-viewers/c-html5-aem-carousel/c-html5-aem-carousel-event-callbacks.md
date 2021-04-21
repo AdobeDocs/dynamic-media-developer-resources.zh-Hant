@@ -2,8 +2,8 @@
 description: 事件回呼
 solution: Experience Manager
 title: 事件回呼
-feature: Dynamic Media經典，檢視器，SDK/API，轉盤橫幅
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: e87b2a84-735c-4412-a4dd-97b18474a1d2
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

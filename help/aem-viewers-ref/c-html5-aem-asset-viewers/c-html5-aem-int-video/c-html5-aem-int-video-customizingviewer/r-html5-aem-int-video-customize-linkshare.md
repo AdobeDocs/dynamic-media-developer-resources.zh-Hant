@@ -2,8 +2,8 @@
 description: 連結分享工具由新增至Social分享面板的按鈕和在工具啟動時顯示的模態對話方塊組成。 按鈕的位置由Social分享工具完全管理。
 solution: Experience Manager
 title: 連結共用
-feature: Dynamic Media經典，檢視器，SDK/API，互動式視訊
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: 638ca6c2-375c-4162-b640-68aed6a8a9c6
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

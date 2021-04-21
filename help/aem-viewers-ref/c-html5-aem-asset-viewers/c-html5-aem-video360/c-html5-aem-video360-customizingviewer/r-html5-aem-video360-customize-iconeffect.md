@@ -2,8 +2,8 @@
 description: 播放圖示覆蓋在主檢視區域上。 它會在暫停視訊或到達視訊結尾時顯示，並且會依據iconeffect參數而定。
 solution: Experience Manager
 title: 圖示效果
-feature: Dynamic Media經典，檢視器，SDK/API,360 VR視訊
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: e25a3b9d-88ef-4214-9b6b-2527ebf0f145
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

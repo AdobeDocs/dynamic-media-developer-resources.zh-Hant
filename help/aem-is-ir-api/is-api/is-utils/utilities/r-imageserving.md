@@ -2,8 +2,8 @@
 description: 影像伺服控制指令碼。 此指令碼用於啟動、停止或重新啟動Image Serving Server Supervisor,Image Serving Server Supervisor又會啟動、停止或重新啟動所有其他Image Serving元件。
 solution: Experience Manager
 title: ImageServing
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

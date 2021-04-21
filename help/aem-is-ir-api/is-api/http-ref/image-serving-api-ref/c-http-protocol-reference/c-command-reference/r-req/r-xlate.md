@@ -2,8 +2,8 @@
 description: 可用的地區設定特定版本。 傳回請求路徑中指定之目錄ID的可用地區設定特定版本清單。
 solution: Experience Manager
 title: xlate
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

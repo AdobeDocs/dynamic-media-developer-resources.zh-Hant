@@ -2,8 +2,8 @@
 description: 在URL或目錄修飾詞命令序列中，圖層定義序列以layer=命令開頭，以另一個layer=命令、effect=命令或URL結尾終止。
 solution: Experience Manager
 title: 指定圖層
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 錯誤消息詳細資訊。 指定透過HTTP傳回之錯誤訊息的詳細程度，作為error.message值。
 solution: Experience Manager
 title: ErrorDetail
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

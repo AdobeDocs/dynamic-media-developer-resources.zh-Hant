@@ -2,8 +2,8 @@
 description: 膨脹／腐蝕影像。 對影像資料應用形態膨脹（半徑> 0）或腐蝕（半徑< 0）。
 solution: Experience Manager
 title: op_grow
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

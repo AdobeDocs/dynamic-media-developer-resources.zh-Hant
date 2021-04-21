@@ -3,8 +3,8 @@ description: 混合媒體檢視器是媒體檢視器。 它支援包含影像、
 keywords: 回應
 solution: Experience Manager
 title: 混合媒體
-feature: Dynamic Media經典，檢視器，SDK/API,Mix Media Sets
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 由searchAssetsParam/sortBy使用。
 solution: Experience Manager
 title: 資產排序欄位
-feature: Dynamic Media經典，SDK/API，資產管理
-role: 開發人員、管理員
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

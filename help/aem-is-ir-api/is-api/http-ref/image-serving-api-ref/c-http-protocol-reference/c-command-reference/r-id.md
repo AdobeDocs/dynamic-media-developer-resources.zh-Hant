@@ -2,8 +2,8 @@
 description: 影像／中繼資料版本。 當處理經常變更的內容時，快取網路（例如Akamai、瀏覽器快取和公司代理伺服器快取）中的伺服器可儲存影像伺服回應，其可能已過時一段時間。
 solution: Experience Manager
 title: id
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

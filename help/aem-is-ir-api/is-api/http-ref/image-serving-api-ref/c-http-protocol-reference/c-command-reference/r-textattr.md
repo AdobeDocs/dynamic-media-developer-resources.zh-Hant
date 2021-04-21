@@ -2,8 +2,8 @@
 description: 文字圖層屬性。 為無法作為rtf命令使用的文本圖層指定其他屬性。
 solution: Experience Manager
 title: textAttr
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

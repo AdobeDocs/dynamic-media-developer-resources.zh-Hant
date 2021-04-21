@@ -2,8 +2,8 @@
 description: 返回所有資料夾和子資料夾，從資料夾路徑開始。 getFolders回應最多會傳回100,000個資料夾。
 solution: Experience Manager
 title: getFolders
-feature: Dynamic Media經典，SDK/API
-role: 開發人員、管理員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

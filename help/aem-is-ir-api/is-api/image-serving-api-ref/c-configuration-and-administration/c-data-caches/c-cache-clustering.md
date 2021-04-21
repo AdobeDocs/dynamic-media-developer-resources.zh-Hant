@@ -2,8 +2,8 @@
 description: 快取群集允許多個負載平衡伺服器在主響應快取和輔助資料快取中交換快取條目（對於嵌套／嵌入請求），通過消除在多個伺服器上生成相同快取條目的需要，有可能顯著提高伺服器響應性。
 solution: Experience Manager
 title: 快取叢集
-feature: Dynamic Media經典，SDK/API
-role: 開發人員、管理員、商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

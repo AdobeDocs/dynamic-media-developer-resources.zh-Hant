@@ -2,8 +2,8 @@
 description: 雖然新增資料檔案既簡單又直接，但取代伺服器主動使用的現有資料檔案時，必須格外小心。 建議不要簡單地替換這些檔案，而是為替換檔案指定新名稱（例如，在檔案名中附加版本尾碼）。 新檔案上線後，舊版可以刪除。
 solution: Experience Manager
 title: 刪除或替換資料檔案
-feature: Dynamic Media經典，SDK/API
-role: 開發人員、管理員、商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

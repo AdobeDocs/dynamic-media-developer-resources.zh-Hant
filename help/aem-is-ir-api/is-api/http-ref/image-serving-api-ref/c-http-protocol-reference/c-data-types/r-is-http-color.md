@@ -2,8 +2,8 @@
 description: 顏色值。 您可以使用十六進位符號、以逗號分隔的元件值清單或小數來指定顏色值。
 solution: Experience Manager
 title: 色彩
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: ddfccb4ca157764e39fc719d96b63e6ee95304bf
 workflow-type: tm+mt

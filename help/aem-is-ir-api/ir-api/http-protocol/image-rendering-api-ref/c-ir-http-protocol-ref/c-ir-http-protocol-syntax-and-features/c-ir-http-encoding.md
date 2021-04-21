@@ -2,8 +2,8 @@
 description: 命令值必須使用%xx逸出序列進行http編碼，因此值字串不包含保留字元'='、'&'和'%'。
 solution: Experience Manager
 title: 影像轉換HTTP編碼
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

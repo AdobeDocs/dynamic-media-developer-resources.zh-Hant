@@ -2,8 +2,8 @@
 description: 傳回依資產類型分組的所有中繼資料欄位。
 solution: Experience Manager
 title: getAssetMetadataFields
-feature: Dynamic Media經典，SDK/API，元資料，資產管理
-role: 開發人員、管理員
+feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

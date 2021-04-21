@@ -2,8 +2,8 @@
 description: 「影像演算API參考」包含有關設定和使用Dynamic Media影像演算API的資訊。
 solution: Experience Manager
 title: 影像轉換API
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

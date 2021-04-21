@@ -2,8 +2,8 @@
 description: 支援Adobe Analytics追蹤
 solution: Experience Manager
 title: 支援Adobe Analytics追蹤
-feature: Dynamic Media經典，檢視器，SDK/API，轉盤橫幅
-role: 開發人員，商業從業人員，資料工程師，資料架構師
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner,Data Engineer,Data Architect
 exl-id: 9e321684-4861-4d81-b55c-66c77635930e
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

@@ -2,8 +2,8 @@
 description: 檢視器SDK命名空間
 solution: Experience Manager
 title: 檢視器SDK命名空間
-feature: Dynamic Media經典，檢視器，SDK/API，轉盤橫幅
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: 1712f08c-70e6-483e-a4e5-614448f35374
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

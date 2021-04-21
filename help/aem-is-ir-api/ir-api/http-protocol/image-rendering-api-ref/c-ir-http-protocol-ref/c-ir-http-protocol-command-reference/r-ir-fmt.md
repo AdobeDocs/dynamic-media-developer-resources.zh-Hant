@@ -2,8 +2,8 @@
 description: 回覆影像格式。 指定傳送至用戶端的影像資料的影像編碼格式，以及HTTP回應標題的對應回應MIME類型。
 solution: Experience Manager
 title: fmt
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 4f9ce78007cb6ad8def15397aa2224cd7675bb0e
 workflow-type: tm+mt

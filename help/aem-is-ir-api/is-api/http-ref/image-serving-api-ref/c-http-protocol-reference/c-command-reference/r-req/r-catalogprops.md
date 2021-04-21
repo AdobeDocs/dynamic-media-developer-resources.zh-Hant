@@ -2,8 +2,8 @@
 description: 影像目錄屬性。 傳回在請求路徑中指定的影像目錄的通用屬性。
 solution: Experience Manager
 title: 編目prop
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

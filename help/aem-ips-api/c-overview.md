@@ -2,8 +2,8 @@
 description: IPS（影像製作系統）Web服務API可讓外部應用程式和協力廠商開發人員以程式設計方式存取IPS資產和功能。
 solution: Experience Manager
 title: 關於Image Production System API
-feature: Dynamic Media經典，SDK/API
-role: 開發人員、管理員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 exl-id: c03e415f-57eb-4706-a17c-68d8469fba91
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

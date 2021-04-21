@@ -2,8 +2,8 @@
 description: 預設演算影像大小。 如果請求未使用wid=或hei=明確指定檢視大小，伺服器會限制回覆影像不大於此寬度和高度。
 solution: Experience Manager
 title: DefaultPix
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

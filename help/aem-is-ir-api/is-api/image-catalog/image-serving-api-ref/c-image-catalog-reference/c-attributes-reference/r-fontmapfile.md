@@ -2,8 +2,8 @@
 description: 字型對應檔案路徑。 指定包含此影像目錄的字型映射的檔案。
 solution: Experience Manager
 title: FontMapFile
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

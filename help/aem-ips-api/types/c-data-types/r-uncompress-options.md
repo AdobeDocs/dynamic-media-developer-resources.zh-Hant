@@ -2,8 +2,8 @@
 description: 上傳設定，將ZIP和TAR檔案當做主要資產處理（無），或擷取及上傳其內容(UnCompress)。
 solution: Experience Manager
 title: UnCompressOptions
-feature: Dynamic Media經典，SDK/API
-role: 開發人員、管理員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

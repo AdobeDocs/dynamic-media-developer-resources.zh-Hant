@@ -2,8 +2,8 @@
 description: 「影像伺服」支援ISO-8859-1和UTF-8編碼的影像目錄。
 solution: Experience Manager
 title: 字元編碼
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

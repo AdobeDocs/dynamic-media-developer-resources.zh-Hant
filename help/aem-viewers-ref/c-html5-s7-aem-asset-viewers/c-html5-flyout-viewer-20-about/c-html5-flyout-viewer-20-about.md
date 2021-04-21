@@ -3,8 +3,8 @@ description: 彈出檢視器是影像檢視器。 它會顯示靜態影像，而
 keywords: 回應
 solution: Experience Manager
 title: 彈出
-feature: Dynamic Media經典，檢視器，SDK/API,Flyout
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

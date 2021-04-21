@@ -2,8 +2,8 @@
 description: 檢查具有特定公司（由句柄識別）、電子郵件地址和密碼的用戶是否可以登入。
 solution: Experience Manager
 title: checkLogin
-feature: Dynamic Media經典，SDK/API
-role: 開發人員、管理員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 為與setAssetMetadata一起使用的特定資產設定中繼資料值。 說明您要對中繼資料所做的變更。
 solution: Experience Manager
 title: 中繼資料更新
-feature: Dynamic Media經典，SDK/API，中繼資料
-role: 開發人員、管理員
+feature: Dynamic Media Classic,SDK/API,Metadata
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

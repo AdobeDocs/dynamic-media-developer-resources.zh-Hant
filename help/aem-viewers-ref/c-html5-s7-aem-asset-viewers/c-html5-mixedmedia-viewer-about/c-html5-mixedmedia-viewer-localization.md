@@ -2,8 +2,8 @@
 description: 混合媒體檢視器顯示的某些內容可能會受本地化規範。 這包括縮放按鈕、旋轉按鈕、視訊控制項、關閉按鈕全螢幕按鈕和色票捲動按鈕。
 solution: Experience Manager
 title: 使用者介面元素的本地化
-feature: Dynamic Media經典，檢視器，SDK/API,Mix Media Sets
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

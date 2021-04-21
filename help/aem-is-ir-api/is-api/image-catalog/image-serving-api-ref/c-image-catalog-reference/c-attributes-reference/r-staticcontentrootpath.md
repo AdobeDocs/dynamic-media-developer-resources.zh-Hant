@@ -2,8 +2,8 @@
 description: 靜態內容資料根路徑。 此影像目錄靜態內容資料的根資料夾的絕對路徑或相對路徑段。
 solution: Experience Manager
 title: StaticContentRootPath
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

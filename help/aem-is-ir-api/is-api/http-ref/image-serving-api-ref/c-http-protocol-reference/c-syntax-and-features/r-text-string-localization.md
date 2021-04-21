@@ -2,8 +2,8 @@
 description: 文字字串本地化可讓影像目錄包含相同字串值的多個地區特定表示法。
 solution: Experience Manager
 title: 文字字串本地化
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

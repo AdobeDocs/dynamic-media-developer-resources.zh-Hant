@@ -2,8 +2,8 @@
 description: Video360檢視器的JavaScript API參考
 solution: Experience Manager
 title: setVideo
-feature: Dynamic Media經典，檢視器，SDK/API,360 VR視訊
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: e1894d96-6f37-4e34-a709-5b0121bd0696
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

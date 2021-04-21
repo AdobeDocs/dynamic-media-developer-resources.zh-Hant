@@ -2,8 +2,8 @@
 description: 內嵌ICC設定檔。 指定是否應將工作中的ICC色彩描述檔或以icc=指定的描述檔內嵌在回覆影像中。
 solution: Experience Manager
 title: iccEmbed
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

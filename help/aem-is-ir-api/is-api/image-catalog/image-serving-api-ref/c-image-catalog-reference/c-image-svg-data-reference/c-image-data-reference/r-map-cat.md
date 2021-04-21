@@ -2,8 +2,8 @@
 description: 影像地圖資料。 無或更完整的HTML <AREA>元素，從頭到尾排序。
 solution: Experience Manager
 title: 地圖
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

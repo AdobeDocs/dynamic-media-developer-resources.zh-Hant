@@ -2,8 +2,8 @@
 description: 會話目錄是提供請求會話屬性的材料目錄，以及所有src=、vignette=和icc=命令的預設catId值。
 solution: Experience Manager
 title: 作業目錄
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

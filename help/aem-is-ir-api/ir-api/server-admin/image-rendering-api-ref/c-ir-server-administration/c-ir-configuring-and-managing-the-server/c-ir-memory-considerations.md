@@ -2,8 +2,8 @@
 description: 「影像演算」使用的記憶體量可能會大不相同，而且會高度依實際伺服器負載和使用量而異（例如，與許多不同的暈映、暈映的大小和複雜度等）。
 solution: Experience Manager
 title: 記憶體注意事項
-feature: Dynamic Media經典，SDK/API
-role: 開發人員、管理員、商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

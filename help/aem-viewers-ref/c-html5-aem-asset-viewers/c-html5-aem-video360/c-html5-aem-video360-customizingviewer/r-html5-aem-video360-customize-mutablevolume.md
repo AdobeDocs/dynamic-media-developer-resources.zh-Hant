@@ -2,8 +2,8 @@
 description: 可變音量控制一開始會顯示為按鈕，讓使用者靜音或取消靜音視訊播放器音效。
 solution: Experience Manager
 title: 可變卷
-feature: Dynamic Media經典，檢視器，SDK/API,360 VR視訊
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: eb30ea49-e0ae-4ef4-a5b3-e245d96ce0db
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

@@ -2,8 +2,8 @@
 description: 如果在暈映中啟用此功能，則轉換器將改變照明算法以模擬材料光澤度的變化（主要通過控制對比度）。
 solution: Experience Manager
 title: 光澤效果
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

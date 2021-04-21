@@ -2,8 +2,8 @@
 description: 社交分享工具預設會出現在右上角。 它由按鈕和面板組成，當使用者點按或點選按鈕時，面板會展開，並包含個別的共用工具。
 solution: Experience Manager
 title: 社交分享
-feature: Dynamic Media經典，檢視器，SDK/API，互動式視訊
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: ad544a12-d2a4-45c9-9e76-e0bf96901725
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

@@ -2,8 +2,8 @@
 description: 如果req=img，則複合畫布的大小完全由圖層0的大小決定。
 solution: Experience Manager
 title: 合成畫布
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

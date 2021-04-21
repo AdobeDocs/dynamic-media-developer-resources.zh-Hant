@@ -2,8 +2,8 @@
 description: 預設回應影像。 指定在找不到影像檔案且未在請求中指定defaultImage=時要使用的影像或目錄項目。
 solution: Experience Manager
 title: DefaultImage
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

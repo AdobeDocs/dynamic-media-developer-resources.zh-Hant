@@ -2,8 +2,8 @@
 description: 目錄資料檔案可以有任何名稱和檔案尾碼（.ini除外）。 使用支援Tab分隔文字資料檔案（例如Microsoft Excel和Access）的應用程式，就可輕鬆維護這些檔案。
 solution: Experience Manager
 title: 目錄資料檔案
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

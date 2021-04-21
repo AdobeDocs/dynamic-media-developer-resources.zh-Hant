@@ -2,8 +2,8 @@
 description: 將資產對應至將資產標籤為發佈的PublishContexts。
 solution: Experience Manager
 title: AssetPublishContexts
-feature: Dynamic Media經典，SDK/API，資產管理
-role: 開發人員、管理員
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

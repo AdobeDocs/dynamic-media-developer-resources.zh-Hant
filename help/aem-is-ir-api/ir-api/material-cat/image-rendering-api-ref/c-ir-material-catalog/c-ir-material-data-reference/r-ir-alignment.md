@@ -2,8 +2,8 @@
 description: 紋理對齊。 當應用於彼此相關的暈映物件（例如家具物品的軟墊部件）時，紋理的對齊。 主要用於室內裝飾應用程式，可能用於進階服裝應用程式。
 solution: Experience Manager
 title: 對齊
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Video360檢視器的JavaScript API參考。
 solution: Experience Manager
 title: setLocalizedTexts
-feature: Dynamic Media經典，檢視器，SDK/API,360 VR視訊
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: b0434886-defa-47d4-9853-bfd73c64d036
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

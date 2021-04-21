@@ -2,8 +2,8 @@
 description: 目錄記錄識別碼。 Render Server查看材料記錄時所使用的關鍵值。 通常是簡短且唯一的材料識別碼，例如SKU編號。
 solution: Experience Manager
 title: Id
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

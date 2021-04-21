@@ -2,8 +2,8 @@
 description: 預設字型面板名稱。 指定如果text=要求未提供字型，應使用哪種字型。
 solution: Experience Manager
 title: DefaultFont
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

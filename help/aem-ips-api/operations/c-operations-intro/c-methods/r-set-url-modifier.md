@@ -2,8 +2,8 @@
 description: 設定指定資產的「影像伺服」或「影像演算」通訊協定命令。 這些命令可修改資產的表示法，而不會破壞資產。
 solution: Experience Manager
 title: setUrlModifier
-feature: Dynamic Media經典，SDK/API
-role: 開發人員、管理員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 「基本縮放檢視器」支援Adobe Analytics在包裝盒外追蹤。
 solution: Experience Manager
 title: 支援Adobe Analytics追蹤
-feature: Dynamic Media經典，檢視器，SDK/API，縮放
-role: 開發人員，商業從業人員，資料工程師，資料架構師
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+role: Developer,Business Practitioner,Data Engineer,Data Architect
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

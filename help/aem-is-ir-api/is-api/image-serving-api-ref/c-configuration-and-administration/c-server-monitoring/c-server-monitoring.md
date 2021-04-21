@@ -2,8 +2,8 @@
 description: 伺服器可配置為在超出某些效能或錯誤閾值時發送電子郵件警報。 系統會共同監控部署在伺服器上的所有Web應用程式。
 solution: Experience Manager
 title: 伺服器監控
-feature: Dynamic Media經典，SDK/API
-role: 開發人員、管理員、商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

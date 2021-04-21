@@ -2,8 +2,8 @@
 title: 在同一台伺服器上安裝多個Dynamic Media查看器
 description: 安裝Dynamic Media檢視器API的指示。
 solution: Experience Manager
-feature: Dynamic Media經典，檢視器，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API
+role: Developer,Business Practitioner
 exl-id: 7a8d7205-d3bf-4ca8-b80a-9072436a3df5
 translation-type: tm+mt
 source-git-commit: 8207cba7e75c6bff878ef7f11f74b19bb88f1d61

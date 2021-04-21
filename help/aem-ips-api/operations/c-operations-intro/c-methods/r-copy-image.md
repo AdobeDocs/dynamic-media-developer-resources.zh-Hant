@@ -2,8 +2,8 @@
 description: 建立現有影像資產的復本。 將應用指定的映像伺服器協定命令來生成新副本
 solution: Experience Manager
 title: copyImage
-feature: Dynamic Media經典，SDK/API
-role: 開發人員、管理員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

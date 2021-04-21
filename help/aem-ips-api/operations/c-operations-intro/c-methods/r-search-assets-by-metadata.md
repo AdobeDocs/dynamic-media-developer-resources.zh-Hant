@@ -2,8 +2,8 @@
 description: 在中繼資料索引儲存庫中搜尋指定的搜尋詞。 傳回資產資料，例如searchAssets方法。
 solution: Experience Manager
 title: searchAssetsByMetadata
-feature: Dynamic Media經典，SDK/API，元資料，資產管理
-role: 開發人員、管理員
+feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

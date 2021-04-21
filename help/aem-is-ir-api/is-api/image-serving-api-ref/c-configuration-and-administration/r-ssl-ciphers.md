@@ -2,8 +2,8 @@
 description: server.xml中的Connector標籤支援密碼屬性，以限制可針對SSL連線選擇的密碼。
 solution: Experience Manager
 title: 定義SSL密碼
-feature: Dynamic Media經典，SDK/API
-role: 開發人員、管理員、商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

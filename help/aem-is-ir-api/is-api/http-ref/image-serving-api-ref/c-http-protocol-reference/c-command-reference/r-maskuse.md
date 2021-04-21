@@ -2,8 +2,8 @@
 description: 影像遮色片的使用。 指定如何使用影像的遮色片或Alpha色版來執行影像上的作業（例如colorize=）。 當在效果圖層中指定時，它允許將效果套用至父圖層的背景區域或整個父圖層矩形。
 solution: Experience Manager
 title: maskUse
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

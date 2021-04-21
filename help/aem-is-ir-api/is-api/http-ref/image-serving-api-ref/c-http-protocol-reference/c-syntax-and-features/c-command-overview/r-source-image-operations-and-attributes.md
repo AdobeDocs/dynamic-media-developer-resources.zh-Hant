@@ -2,8 +2,8 @@
 description: 這些指令適用於簡單要求或影像圖層中使用的來源影像，以及附加至純色圖層的遮色片。
 solution: Experience Manager
 title: 源映像操作
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

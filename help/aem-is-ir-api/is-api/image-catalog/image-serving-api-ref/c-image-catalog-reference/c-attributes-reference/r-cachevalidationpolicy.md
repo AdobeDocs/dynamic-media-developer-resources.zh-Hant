@@ -2,8 +2,8 @@
 description: 伺服器快取驗證原則。 指定何時驗證伺服器端快取條目。
 solution: Experience Manager
 title: CacheValidationPolicy
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

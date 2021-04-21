@@ -2,8 +2,8 @@
 description: 傳回指定公司的相關資訊，包括公司控制代碼、公司名稱、根路徑和到期日。 您必須指定要擷取其資訊的companyHandle或companyName。
 solution: Experience Manager
 title: getCompanyInfo
-feature: Dynamic Media經典，SDK/API
-role: 開發人員、管理員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

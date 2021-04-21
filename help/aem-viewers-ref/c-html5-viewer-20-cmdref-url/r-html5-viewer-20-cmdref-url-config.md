@@ -2,8 +2,8 @@
 description: 所有檢視器通用的參數。
 solution: Experience Manager
 title: config
-feature: Dynamic Media經典，檢視器，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API
+role: Developer,Business Practitioner
 exl-id: 503a1fc6-7a6b-4f55-bad1-11f22435276f
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

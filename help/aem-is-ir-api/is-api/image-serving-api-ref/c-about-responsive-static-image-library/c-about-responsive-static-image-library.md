@@ -2,8 +2,8 @@
 description: 回應式影像庫是JavaScript模組，可動態調整從Dynamic Media提供並內嵌至回應式網頁的影像品質。 此外，它在具有高密度螢幕的裝置上，提供改善的影像品質。 程式庫也可以回應性地轉換智慧型裁切和智慧型色票的結果。
 solution: Experience Manager
 title: 關於自適應影像庫
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

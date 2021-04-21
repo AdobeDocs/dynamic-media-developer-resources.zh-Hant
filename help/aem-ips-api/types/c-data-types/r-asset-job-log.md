@@ -2,8 +2,8 @@
 description: 與特定資產相關聯的作業日誌條目的詳細資訊。 getAssetJobLogs傳回的資料。
 solution: Experience Manager
 title: AssetJobLog
-feature: Dynamic Media經典，SDK/API，資產管理
-role: 開發人員、管理員
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

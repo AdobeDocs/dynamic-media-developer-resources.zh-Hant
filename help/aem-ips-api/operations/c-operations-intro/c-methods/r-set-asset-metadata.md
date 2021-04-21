@@ -2,8 +2,8 @@
 description: 設定資產的中繼資料值。 可搭配一組中繼資料更新，以設定批次中的值。
 solution: Experience Manager
 title: setAssetMetadata
-feature: Dynamic Media經典，SDK/API，元資料，資產管理
-role: 開發人員、管理員
+feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

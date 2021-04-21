@@ -2,8 +2,8 @@
 description: 將資產上傳至Dynamic Media經典網站，涉及一或多個HTTPPOST請求，這些請求會設定工作，以協調與上傳檔案相關的所有記錄活動。
 solution: Experience Manager
 title: 透過HTTP POST上傳資產至UploadFile Servlet
-feature: Dynamic Media經典，SDK/API，資產管理
-role: 開發人員、管理員
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 exl-id: e40293be-d00f-44c1-8ae7-521ce3312ca8
 translation-type: tm+mt
 source-git-commit: e7c747c44d27ed1769ab872d962a814d80c0b345

@@ -2,8 +2,8 @@
 description: 影像錨點。 在套用變形(crop=、scale=、rotate=、flip=)之前，定義影像、純色或文字邊界方框矩形的錨點。 也可做為旋轉=的旋轉中心。
 solution: Experience Manager
 title: 錨記
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

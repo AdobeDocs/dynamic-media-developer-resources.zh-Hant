@@ -2,8 +2,8 @@
 description: 按一下或點選此按鈕會重設主檢視中的影像。 此按鈕會出現在案頭系統和平板電腦的主控制列中。 在行動電話上，此按鈕會顯示在影像的中下方。 但是，當影像處於重設狀態時，不會顯示它。 您可以使用CSS來調整此按鈕的大小、外觀和位置。
 solution: Experience Manager
 title: 縮放重設按鈕
-feature: Dynamic Media經典，檢視器，SDK/API,eCatalog搜尋
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

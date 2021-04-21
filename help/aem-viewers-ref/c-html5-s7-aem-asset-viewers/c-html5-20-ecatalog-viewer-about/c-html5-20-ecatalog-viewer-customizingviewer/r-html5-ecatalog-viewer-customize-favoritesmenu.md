@@ -2,8 +2,8 @@
 description: 「我的最愛」功能表下拉式清單會出現在控制列中。 它由按鈕和面板組成，當使用者按一下或點選按鈕時，面板會展開。 此面板包含個別的「我的最愛」工具。
 solution: Experience Manager
 title: 我的最愛功能表
-feature: Dynamic Media經典，檢視器，SDK/API,eCatalog
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

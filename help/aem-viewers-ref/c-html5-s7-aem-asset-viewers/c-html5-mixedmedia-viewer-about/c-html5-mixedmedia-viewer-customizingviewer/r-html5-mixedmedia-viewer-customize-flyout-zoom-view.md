@@ -2,8 +2,8 @@
 description: 在內嵌縮放模式中，主視圖由靜態影像、在彈出視圖中顯示在靜態影像上的縮放影像以及顯示在靜態影像頂部的提示消息組成。
 solution: Experience Manager
 title: 彈出縮放檢視
-feature: Dynamic Media經典，檢視器，SDK/API,Mix Media Sets
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 僅限AEM Assets的觀眾
 solution: Experience Manager
 title: 僅限AEM Assets的觀眾
-feature: Dynamic Media經典，檢視器，SDK/API，縮放
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+role: Developer,Business Practitioner
 exl-id: f0668991-8619-4670-bc69-85a7a96893dd
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

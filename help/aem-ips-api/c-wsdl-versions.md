@@ -2,8 +2,8 @@
 description: IPS Web服務受一組WSDL（Web服務描述語言）文檔的支援，這些文檔可從安裝IPS Web服務元件的任何IPS安裝中訪問。 每個IPS API版本都包含參考版本化目標XML命名空間的新WSDL檔案。 也支援舊版WSDL命名空間版本，以便向後相容於現有的應用程式。
 solution: Experience Manager
 title: IPS Web服務WSDL版本
-feature: Dynamic Media經典，SDK/API
-role: 開發人員、管理員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

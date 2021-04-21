@@ -2,8 +2,8 @@
 description: 「影像轉換」支援根據符合ICC（國際色彩協會）規格的色域描述檔進行色域轉換。
 solution: Experience Manager
 title: 影像演算色彩管理*
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

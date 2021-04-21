@@ -2,8 +2,8 @@
 description: 資產類型. 用於標識發佈到目錄ImageSet的集類型。
 solution: Experience Manager
 title: AssetType
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

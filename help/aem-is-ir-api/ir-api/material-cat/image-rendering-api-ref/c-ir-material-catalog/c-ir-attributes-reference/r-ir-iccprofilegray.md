@@ -2,8 +2,8 @@
 description: 灰階預設色域。 指定當未使用icc=指定輸出色域時，用於灰階響應影像的ICC顏色配置檔案的名稱。
 solution: Experience Manager
 title: IccProfileGray
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

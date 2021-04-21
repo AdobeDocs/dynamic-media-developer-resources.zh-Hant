@@ -2,8 +2,8 @@
 description: 互動式視訊檢視器的URL命令。
 solution: Experience Manager
 title: 標題
-feature: Dynamic Media經典，檢視器，SDK/API，互動式視訊
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: 8eb2aa50-52b9-4b63-9789-87e492f34a22
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

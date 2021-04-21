@@ -2,8 +2,8 @@
 description: 「Adobe Scene72016年秋季發行的最新發行說明，是Adobe Marketing CloudAdobe Experience Manager解決方案的一部分。」
 solution: Experience Manager
 title: Scene72016年秋季發行版本
-feature: Dynamic Media經典
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

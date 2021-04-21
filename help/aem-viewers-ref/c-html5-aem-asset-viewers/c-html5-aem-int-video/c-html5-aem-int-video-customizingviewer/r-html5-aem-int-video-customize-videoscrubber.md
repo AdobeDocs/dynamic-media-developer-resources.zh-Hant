@@ -2,8 +2,8 @@
 description: 視訊筆畫是水準滑桿控制項，可讓使用者動態尋找目前播放視訊中的任何時間位置。
 solution: Experience Manager
 title: 視訊筆刷
-feature: Dynamic Media經典，檢視器，SDK/API，互動式視訊
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: 9d11f2e9-315c-44d8-beb1-530d2b316604
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

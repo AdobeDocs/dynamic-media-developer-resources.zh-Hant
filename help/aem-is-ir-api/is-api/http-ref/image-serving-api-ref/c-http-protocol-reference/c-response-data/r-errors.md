@@ -2,8 +2,8 @@
 description: 如果請求無法成功完成，伺服器會傳回錯誤影像或200以外的HTTP回應狀態，並顯示錯誤訊息。
 solution: Experience Manager
 title: 錯誤
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

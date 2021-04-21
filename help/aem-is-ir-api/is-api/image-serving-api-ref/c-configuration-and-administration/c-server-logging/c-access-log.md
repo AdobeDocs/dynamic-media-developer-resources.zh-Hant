@@ -2,8 +2,8 @@
 description: 這是主要記錄檔，可追蹤對平台伺服器發出的所有HTTP要求。 如果啟用，則將其訪問日誌資料寫入同一檔案。
 solution: Experience Manager
 title: 存取記錄
-feature: Dynamic Media經典，SDK/API
-role: 開發人員、管理員、商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

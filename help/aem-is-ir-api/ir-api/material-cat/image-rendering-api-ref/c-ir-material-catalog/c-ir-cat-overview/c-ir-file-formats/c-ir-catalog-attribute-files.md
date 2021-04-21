@@ -2,8 +2,8 @@
 description: 目錄屬性檔案可以有任何名稱，但必須有。ini檔案尾碼。 使用任何文字編輯器都可輕鬆維護。
 solution: Experience Manager
 title: 目錄屬性檔案
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

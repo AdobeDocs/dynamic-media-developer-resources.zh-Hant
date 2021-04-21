@@ -2,8 +2,8 @@
 description: Video360Viewer的主要類別為Video360Viewer。 會在s7viewers命名空間中宣告。 此JavaScript API涵蓋此特定類別的建構函式、方法和回呼。
 solution: Experience Manager
 title: Video360檢視器的JavaScript API參考
-feature: Dynamic Media經典，檢視器，SDK/API,360 VR視訊
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: b4feada6-c12a-4c44-b560-286f87d88d2c
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

@@ -2,8 +2,8 @@
 description: RGB預設輸出色彩描述檔。 指定當未使用icc=指定輸出色域時，用於RGB響應影像的ICC顏色配置檔案的名稱，以及使用各種「影像服務」命令（如color=）指定的特定RGB顏色值。
 solution: Experience Manager
 title: IccProfileRgb
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

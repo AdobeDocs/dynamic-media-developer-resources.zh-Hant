@@ -2,8 +2,8 @@
 description: 材料表面光澤度。 指定材料曲面的相對光澤度。 用於選取照明地圖並控制光澤效果和3D反射的演算。
 solution: Experience Manager
 title: 光澤
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

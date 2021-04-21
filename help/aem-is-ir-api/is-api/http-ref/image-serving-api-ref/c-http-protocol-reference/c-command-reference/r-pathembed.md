@@ -2,8 +2,8 @@
 description: 內嵌路徑資料。 指定是否應將來自第0層源影像檔案的Photoshop路徑包括在響應影像中。
 solution: Experience Manager
 title: pathEmbed
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

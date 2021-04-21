@@ -2,8 +2,8 @@
 description: 若要處理圖形，您可以使用參照點 (類似於方位點)。
 solution: Experience Manager
 title: FXG伺服器協定
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

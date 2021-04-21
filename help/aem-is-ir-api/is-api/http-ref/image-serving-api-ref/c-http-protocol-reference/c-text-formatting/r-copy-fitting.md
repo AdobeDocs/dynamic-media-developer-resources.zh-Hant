@@ -2,8 +2,8 @@
 description: textPs=建置專屬的複製調整演算法，自動調整字型大小，以最佳化方式填入文字區域，將底部的額外空間減至最少，同時避免溢位。
 solution: Experience Manager
 title: 複製調整
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

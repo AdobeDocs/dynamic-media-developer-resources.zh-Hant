@@ -2,8 +2,8 @@
 description: 當使用者無法驗證時拋出。
 solution: Experience Manager
 title: authenticationFault
-feature: Dynamic Media經典，SDK/API
-role: 開發人員、管理員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

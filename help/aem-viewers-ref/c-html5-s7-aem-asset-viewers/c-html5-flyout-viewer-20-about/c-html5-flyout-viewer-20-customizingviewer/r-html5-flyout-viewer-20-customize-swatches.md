@@ -2,8 +2,8 @@
 description: 色票由一列縮圖影像組成，左側和右側有選用的捲動按鈕。
 solution: Experience Manager
 title: 調色板
-feature: Dynamic Media經典，檢視器，SDK/API,Flyout
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

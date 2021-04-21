@@ -2,8 +2,8 @@
 description: 映像驗證實用程式。 此命令行實用程式會驗證映像檔案，以確保它們有效，並且通過映像服務可以無困難地讀取。
 solution: Experience Manager
 title: 驗證
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

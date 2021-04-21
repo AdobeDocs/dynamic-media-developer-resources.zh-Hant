@@ -2,8 +2,8 @@
 description: 想要將Dynamic Media影像伺服運用於網站或自訂應用程式的資深程式設計人員和網站開發人員。
 solution: Experience Manager
 title: 目標讀者
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

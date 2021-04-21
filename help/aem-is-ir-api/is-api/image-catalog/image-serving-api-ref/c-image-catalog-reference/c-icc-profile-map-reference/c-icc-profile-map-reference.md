@@ -2,8 +2,8 @@
 description: 如果映像目錄需要ICC配置檔案映射，則必須在屬性IccProfileMapFile中指定配置檔案映射檔案的相對或絕對路徑。
 solution: Experience Manager
 title: ICC描述檔地圖參考
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

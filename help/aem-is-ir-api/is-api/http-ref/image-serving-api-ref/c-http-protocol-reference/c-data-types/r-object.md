@@ -2,8 +2,8 @@
 description: 源對象指定符。 影像、SVG和ICC配置檔案對象可以指定為影像目錄條目或相對檔案路徑
 solution: Experience Manager
 title: 物件
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

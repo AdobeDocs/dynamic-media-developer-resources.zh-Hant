@@ -2,8 +2,8 @@
 description: 當伺服器檢測到主目錄屬性檔案已經更改時，該伺服器持續監視目錄資料夾並自動重新載入影像目錄，包括相關聯的目錄資料檔案。
 solution: Experience Manager
 title: 更新影像目錄
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

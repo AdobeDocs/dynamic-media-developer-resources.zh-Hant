@@ -2,8 +2,8 @@
 description: 錯誤回應影像。 當發生錯誤時，影像伺服通常會傳回錯誤狀態及文字訊息。
 solution: Experience Manager
 title: ErrorImage
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

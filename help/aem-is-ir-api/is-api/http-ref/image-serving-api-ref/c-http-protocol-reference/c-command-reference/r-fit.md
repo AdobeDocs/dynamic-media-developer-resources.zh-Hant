@@ -2,8 +2,8 @@
 description: 回應影像最適模式。 指定比例因子的計算方式，當指定響應大小wid=和hei=和scl=時，該比例因子用於將合成影像縮放到響應影像。
 solution: Experience Manager
 title: 符合
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

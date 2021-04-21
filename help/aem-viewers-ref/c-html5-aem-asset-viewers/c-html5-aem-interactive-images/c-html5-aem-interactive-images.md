@@ -2,8 +2,8 @@
 description: 互動式影像檢視器是一種檢視器，可顯示單一、不可縮放的影像及可點選的熱點。 此檢視器的目的是建置「可購買的橫幅」體驗。 也就是說，使用者可以在橫幅影像上選取熱點，並重新導向至您網站上的「快速檢視」或產品詳細資訊頁面。 它可在桌上型電腦和行動裝置上運作。
 solution: Experience Manager
 title: 互動式影像
-feature: Dynamic Media經典，檢視器，SDK/API，互動式影像
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

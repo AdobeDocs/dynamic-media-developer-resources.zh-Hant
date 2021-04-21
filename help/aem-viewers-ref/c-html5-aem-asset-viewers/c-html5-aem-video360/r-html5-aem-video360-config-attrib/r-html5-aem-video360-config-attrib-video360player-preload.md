@@ -2,8 +2,8 @@
 description: 指出檢視器是否在播放開始前開始載入視訊內容。
 solution: Experience Manager
 title: Video360Player.preload
-feature: Dynamic Media經典，檢視器，SDK/API,360 VR視訊
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: 33c28ed3-cdb3-4b14-8cc7-90f77ec9a3bb
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

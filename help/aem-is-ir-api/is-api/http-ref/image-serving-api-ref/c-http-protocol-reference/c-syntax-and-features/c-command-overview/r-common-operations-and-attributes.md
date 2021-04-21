@@ -2,8 +2,8 @@
 description: 這些命令適用於影像、文字和純色圖層。 它們通常也適用於合成影像和簡單、非圖層的影像要求。
 solution: Experience Manager
 title: 常見操作
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 請求類型. 指定請求的類型。
 solution: Experience Manager
 title: requin
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: ddfccb4ca157764e39fc719d96b63e6ee95304bf
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 在案頭系統上，有些使用者介面元素（例如按鈕）會在滑鼠暫留時顯示工具提示。
 solution: Experience Manager
 title: 工具提示
-feature: Dynamic Media經典，檢視器，SDK/API,360 VR視訊
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: 051bfbed-103e-4fcf-9f01-93f03730397a
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

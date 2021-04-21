@@ -2,8 +2,8 @@
 description: 預設修改時間戳記。 提供目錄TimeStamp和暈映TimeStamp的預設值。 如果未指定，伺服器將使用此catalog.ini檔案的修改日期／時間。
 solution: Experience Manager
 title: TimeStamp
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

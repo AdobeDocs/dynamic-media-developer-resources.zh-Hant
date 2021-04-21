@@ -2,8 +2,8 @@
 description: 建立具有靜態背景影像的固定大小範本、與左側中心背景對齊且縮放為不超過背景寬度和高度80%的可變影像，以及位於畫布右側邊緣的垂直文字圖層。
 solution: Experience Manager
 title: 範例A
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: saveToFile=的根路徑。 以req=saveToFile生成的映像應寫入到的根資料夾的相對路徑。
 solution: Experience Manager
 title: SavePath
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

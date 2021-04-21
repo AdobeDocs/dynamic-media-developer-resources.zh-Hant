@@ -2,8 +2,8 @@
 description: 取得資產的工作記錄檔。 陣列中返回的項目包含該資產作業日誌中每個條目的詳細資訊。 logMessage響應欄位會根據authHeader欄位本地化。
 solution: Experience Manager
 title: getAssetJobLogs
-feature: Dynamic Media經典，SDK/API，資產管理
-role: 開發人員、管理員
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

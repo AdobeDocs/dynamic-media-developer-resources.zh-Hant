@@ -2,8 +2,8 @@
 description: 互動式視訊檢視器支援根據傳送至檢視器的互動資料來轉換互動式色票作為設定參數。
 solution: Experience Manager
 title: 互動式資料支援
-feature: Dynamic Media經典，檢視器，SDK/API，互動式視訊
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: 9118bf02-16ae-4dab-92e4-17347e866cc9
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

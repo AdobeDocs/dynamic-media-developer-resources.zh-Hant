@@ -2,8 +2,8 @@
 description: 「影像轉換」會耗用磁碟空間，以進行快取和記錄。
 solution: Experience Manager
 title: 動態磁碟空間考量
-feature: Dynamic Media經典，SDK/API
-role: 開發人員、管理員、商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 批次中繼資料更新的陣列。
 solution: Experience Manager
 title: BatchMetadataUpdateArray
-feature: Dynamic Media經典，SDK/API，中繼資料
-role: 開發人員、管理員
+feature: Dynamic Media Classic,SDK/API,Metadata
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

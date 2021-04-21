@@ -2,8 +2,8 @@
 description: 「影像演算」支援的指令列於下方，依類別分組。
 solution: Experience Manager
 title: 影像轉換HTTP通訊協定命令概觀
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

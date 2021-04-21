@@ -2,8 +2,8 @@
 description: 調整對比。 增加亮度超過50%的像素亮度，並降低亮度低於50%的像素亮度，以調整影像對比度。
 solution: Experience Manager
 title: op_contrast
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

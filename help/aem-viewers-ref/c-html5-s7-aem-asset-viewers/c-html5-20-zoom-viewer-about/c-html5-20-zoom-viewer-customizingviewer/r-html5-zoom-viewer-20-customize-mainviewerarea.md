@@ -2,8 +2,8 @@
 description: 主檢視區域是縮放影像和色票所佔用的區域。 當未指定大小時，通常會設定為符合可用的裝置畫面。
 solution: Experience Manager
 title: 主檢視器區域
-feature: Dynamic Media經典，檢視器，SDK/API，縮放
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

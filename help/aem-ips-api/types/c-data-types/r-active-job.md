@@ -2,8 +2,8 @@
 description: 在伺服器上運行的作業。 此外，它也是排程工作的例項。
 solution: Experience Manager
 title: ActiveJob
-feature: Dynamic Media經典，SDK/API
-role: 開發人員、管理員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

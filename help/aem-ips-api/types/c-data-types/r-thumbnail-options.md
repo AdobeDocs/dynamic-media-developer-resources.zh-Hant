@@ -2,8 +2,8 @@
 description: 可選類型，可讓您選擇特定視訊影格做為縮圖影像。
 solution: Experience Manager
 title: ThumbnailOptions
-feature: Dynamic Media經典，SDK/API
-role: 開發人員、管理員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

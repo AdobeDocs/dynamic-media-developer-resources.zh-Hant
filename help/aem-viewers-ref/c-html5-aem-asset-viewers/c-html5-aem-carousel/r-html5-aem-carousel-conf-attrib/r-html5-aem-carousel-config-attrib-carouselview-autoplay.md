@@ -2,8 +2,8 @@
 description: 轉盤檢視器的設定屬性。
 solution: Experience Manager
 title: CarouselView.autoplay
-feature: Dynamic Media經典，檢視器，SDK/API，轉盤橫幅
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: 43b5c169-0ef6-4a12-a777-d36c1a8d1771
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

@@ -2,8 +2,8 @@
 description: 使用加號顯示溢排文字框。 當文字超出在文字框內為其分配的空間 (或者，如果是串連的文字，則為在最後一個文字框中分配的空間) 時，會顯示文字溢出指示器。該指示器是一個內含加號的紅色方塊。
 solution: Experience Manager
 title: markOpfrowingTextFrames
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

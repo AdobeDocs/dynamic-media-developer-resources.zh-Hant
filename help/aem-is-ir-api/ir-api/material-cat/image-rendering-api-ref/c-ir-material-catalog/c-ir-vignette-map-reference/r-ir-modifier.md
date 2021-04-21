@@ -2,8 +2,8 @@
 description: 請求修飾詞字串。 無或多個由'&'字元分隔的影像演算指令。 用來儲存範本和修飾元，這些範本和修飾元會在每次對此暈映對應項目提出要求時套用。
 solution: Experience Manager
 title: 修飾元
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

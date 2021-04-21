@@ -1,8 +1,8 @@
 ---
 description: 檢視影像伺服公用程式和暈映轉換器的說明。
 title: 公用程式
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

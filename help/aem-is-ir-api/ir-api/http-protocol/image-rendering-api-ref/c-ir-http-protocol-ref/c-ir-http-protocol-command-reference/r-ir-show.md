@@ -2,8 +2,8 @@
 description: 顯示重疊對象。 使當前選擇中所有先前隱藏的重疊對象（包括窗口覆蓋框架對象）都可見。
 solution: Experience Manager
 title: 顯示
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

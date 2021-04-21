@@ -2,8 +2,8 @@
 description: 頁面指標會顯示目前的頁面索引和頁面總數。 它會顯示在桌上型電腦系統和平板電腦的主控制列，在行動電話上會新增至次要控制列。 頁面指示器可由CSS調整大小、改變外觀並定位。
 solution: Experience Manager
 title: 頁面指標
-feature: Dynamic Media經典，檢視器，SDK/API,eCatalog搜尋
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

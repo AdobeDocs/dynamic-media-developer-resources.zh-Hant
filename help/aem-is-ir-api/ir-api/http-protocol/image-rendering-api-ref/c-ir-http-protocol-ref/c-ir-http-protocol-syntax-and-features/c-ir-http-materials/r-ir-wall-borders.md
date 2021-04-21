@@ -2,8 +2,8 @@
 description: 當在壁邊界MSS中指定材料時，該材料被視為壁邊界（以sub=3..5引入）。
 solution: Experience Manager
 title: 牆邊界
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

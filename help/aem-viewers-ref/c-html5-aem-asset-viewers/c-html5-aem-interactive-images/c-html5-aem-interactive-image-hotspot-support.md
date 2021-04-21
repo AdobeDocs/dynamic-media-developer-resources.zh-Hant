@@ -2,8 +2,8 @@
 description: 熱點支援
 solution: Experience Manager
 title: 熱點支援
-feature: Dynamic Media經典，檢視器，SDK/API，互動式影像
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+role: Developer,Business Practitioner
 exl-id: 9b9ccdf4-4639-4ba8-988c-c68d81192619
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

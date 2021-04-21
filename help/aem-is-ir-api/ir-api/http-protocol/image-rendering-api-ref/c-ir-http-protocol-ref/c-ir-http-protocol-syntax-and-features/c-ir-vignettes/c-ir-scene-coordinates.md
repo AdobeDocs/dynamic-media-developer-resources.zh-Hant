@@ -2,8 +2,8 @@
 description: 場景坐標空間用於指定可紋理對象曲面上的尺寸和距離。
 solution: Experience Manager
 title: 場景坐標
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

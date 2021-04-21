@@ -2,8 +2,8 @@
 description: 使用CSS類別選擇器控制顯示在焦點檢視器使用者介面元素周圍的輸入焦點反白顯示。
 solution: Experience Manager
 title: 焦點反白顯示
-feature: Dynamic Media經典，檢視器，SDK/API，轉盤橫幅
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: f9343055-9fd9-4b19-bba3-1f742acb6193
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

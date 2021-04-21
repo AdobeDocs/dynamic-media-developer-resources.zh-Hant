@@ -2,8 +2,8 @@
 description: 您可以使用影像伺服來管理目錄中的非影像內容，並透過個別的/is/content內容內容來提供。
 solution: Experience Manager
 title: 伺服靜態（非影像）內容
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

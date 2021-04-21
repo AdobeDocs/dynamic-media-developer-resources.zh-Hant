@@ -2,8 +2,8 @@
 description: 階層式檔案或資產儲存物件。 檔案夾可以包含一（或多個）子檔案夾。
 solution: Experience Manager
 title: 檔案夾
-feature: Dynamic Media經典，SDK/API
-role: 開發人員、管理員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

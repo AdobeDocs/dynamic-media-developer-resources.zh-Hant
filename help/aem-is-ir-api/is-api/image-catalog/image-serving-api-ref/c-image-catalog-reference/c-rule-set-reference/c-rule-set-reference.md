@@ -2,8 +2,8 @@
 description: 「影像伺服」支援基於規則運算式比對和替代規則的簡單請求預處理機制。
 solution: Experience Manager
 title: 規則集參考
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

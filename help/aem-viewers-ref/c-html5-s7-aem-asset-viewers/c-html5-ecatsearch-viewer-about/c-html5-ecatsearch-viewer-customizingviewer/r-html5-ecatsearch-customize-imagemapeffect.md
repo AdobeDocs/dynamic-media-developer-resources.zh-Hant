@@ -2,8 +2,8 @@
 description: 視模式參數的值而定，檢視器會在主檢視上顯示影像地圖圖示，而主檢視的地圖原本是在Dynamic Media經典中製作，或轉譯與原始影像地圖形狀相符的精確區域。
 solution: Experience Manager
 title: 影像地圖效果
-feature: Dynamic Media經典，檢視器，SDK/API,eCatalog搜尋
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

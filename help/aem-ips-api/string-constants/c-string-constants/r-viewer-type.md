@@ -2,7 +2,7 @@
 description: 由ViewerPresetInfo使用。
 solution: Experience Manager
 title: 檢視器類型
-feature: Dynamic Media經典，SDK/API，檢視器
+feature: Dynamic Media Classic,SDK/API,Viewers
 role: Developer,Administrator
 exl-id: 35a11828-d188-4025-8133-154437ba2466
 translation-type: tm+mt

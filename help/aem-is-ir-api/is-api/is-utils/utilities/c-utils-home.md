@@ -2,8 +2,8 @@
 description: 「影像伺服」公用程式指南包含與「Dynamic Media影像伺服器」和「影像演算」搭配使用的公用程式相關資訊。
 solution: Experience Manager
 title: 影像伺服公用程式
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

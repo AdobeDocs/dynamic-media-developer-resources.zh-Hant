@@ -2,8 +2,8 @@
 description: 說明IPS API 4.4版的新資料類型和變更的資料類型。
 solution: Experience Manager
 title: 資料類型新增和修改
-feature: Dynamic Media經典，SDK/API
-role: 開發人員、管理員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 exl-id: d8800b15-b9a3-4497-8b6b-fd318458ab5a
 translation-type: tm+mt
 source-git-commit: e7c747c44d27ed1769ab872d962a814d80c0b345

@@ -2,8 +2,8 @@
 description: 播放／暫停按鈕可讓視訊播放器在使用者點按視訊內容時播放或暫停。
 solution: Experience Manager
 title: 播放／暫停按鈕
-feature: Dynamic Media經典，檢視器，SDK/API,360 VR視訊
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: 5f8741a4-d286-4b2d-8a11-23bce119209a
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

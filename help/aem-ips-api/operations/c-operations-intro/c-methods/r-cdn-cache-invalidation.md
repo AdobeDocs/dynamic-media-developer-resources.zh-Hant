@@ -2,8 +2,8 @@
 description: 將提供的URL清單轉送至Dynamic MediaCDN（內容散發網路）提供者，使其現有的HTTP回應快取無效。
 solution: Experience Manager
 title: cdnCacheInvaliting
-feature: Dynamic Media經典，SDK/API
-role: 開發人員、管理員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

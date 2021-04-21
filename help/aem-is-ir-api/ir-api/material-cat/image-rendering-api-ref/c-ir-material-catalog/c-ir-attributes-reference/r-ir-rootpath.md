@@ -2,8 +2,8 @@
 description: 源資料根路徑。 文字字串值。 此影像目錄所參照之所有暈映、紋理、影像和ICC資料檔案的根資料夾絕對路徑或相對路徑區段。
 solution: Experience Manager
 title: RootPath *
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

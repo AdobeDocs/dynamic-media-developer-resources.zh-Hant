@@ -2,8 +2,8 @@
 description: 名稱——值對，包含資產產生步驟的相關資訊。 請參閱getGenerationInfo。
 solution: Experience Manager
 title: GenerationAttribute
-feature: Dynamic Media經典，SDK/API
-role: 開發人員、管理員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

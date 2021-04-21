@@ -2,8 +2,8 @@
 description: 重設一或多個資產的發佈狀態，以強制在下一個發佈工作中重新發佈資產。
 solution: Experience Manager
 title: forceRepublishAssets
-feature: Dynamic Media經典，SDK/API
-role: 開發人員、管理員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

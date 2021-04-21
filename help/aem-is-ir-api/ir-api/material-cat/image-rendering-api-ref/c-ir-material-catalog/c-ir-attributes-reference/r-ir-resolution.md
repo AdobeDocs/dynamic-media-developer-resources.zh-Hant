@@ -2,8 +2,8 @@
 description: 預設解析度。 提供預設解析度，以防特定目錄記錄不包含有效的目錄解析度值。
 solution: Experience Manager
 title: 解析度
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

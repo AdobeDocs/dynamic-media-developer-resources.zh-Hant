@@ -2,8 +2,8 @@
 description: 設定指示符是當檢視器用於觸控裝置時，在主色票上方呈現的一系列點。 當捲動按鈕無法使用時，這些點可協助使用者瀏覽縮圖頁面。
 solution: Experience Manager
 title: 設定指標
-feature: Dynamic Media經典，檢視器，SDK/API,Mix Media Sets
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

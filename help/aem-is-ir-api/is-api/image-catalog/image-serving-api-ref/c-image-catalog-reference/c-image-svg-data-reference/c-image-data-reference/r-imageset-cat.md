@@ -2,8 +2,8 @@
 description: 影像集資料。 提供一種機制，可定義已排序的影像集並控制Dynamic Media檢視器使用的屬性。
 solution: Experience Manager
 title: ImageSet
-feature: Dynamic Media經典，SDK/API，影像集
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API,Image Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

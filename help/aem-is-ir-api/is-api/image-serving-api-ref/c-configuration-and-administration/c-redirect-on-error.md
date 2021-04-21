@@ -2,8 +2,8 @@
 description: IS伺服器可配置為對涉及源映像的請求進行故障切換，這些請求不能成功開啟或讀取。
 solution: Experience Manager
 title: 錯誤時重新導向
-feature: Dynamic Media經典，SDK/API
-role: 開發人員、管理員、商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

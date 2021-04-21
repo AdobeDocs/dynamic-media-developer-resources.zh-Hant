@@ -2,8 +2,8 @@
 description: 本節包含有助於設定和管理影像渲染伺服器的資訊。
 solution: Experience Manager
 title: 配置和管理伺服器
-feature: Dynamic Media經典，SDK/API
-role: 開發人員、管理員、商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

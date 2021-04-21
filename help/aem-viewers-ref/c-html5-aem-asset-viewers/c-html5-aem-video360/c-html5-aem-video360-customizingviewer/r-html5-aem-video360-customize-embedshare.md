@@ -2,8 +2,8 @@
 description: 內嵌分享工具由新增至Social分享面板的按鈕和啟動工具時顯示的模式對話方塊組成。 按鈕的位置由Social分享工具完全管理。
 solution: Experience Manager
 title: 內嵌分享
-feature: Dynamic Media經典，檢視器，SDK/API,360 VR視訊
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: 08ba7a29-8b17-4167-a9f3-82aa4cf65556
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

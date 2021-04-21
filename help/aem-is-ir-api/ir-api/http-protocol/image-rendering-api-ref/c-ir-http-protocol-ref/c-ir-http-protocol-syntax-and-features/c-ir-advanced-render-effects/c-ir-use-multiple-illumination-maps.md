@@ -2,8 +2,8 @@
 description: 某些應用可能需要對不同種類的材料使用不同的照明圖。
 solution: Experience Manager
 title: 使用多個照明地圖
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

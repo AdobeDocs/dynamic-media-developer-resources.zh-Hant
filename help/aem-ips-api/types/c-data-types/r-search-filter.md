@@ -2,8 +2,8 @@
 description: 可協助您定義搜尋准則的篩選器，讓搜尋更有效率。
 solution: Experience Manager
 title: SearchFilter
-feature: Dynamic Media經典，SDK/API
-role: 開發人員、管理員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

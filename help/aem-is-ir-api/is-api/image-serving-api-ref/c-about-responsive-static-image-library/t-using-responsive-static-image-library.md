@@ -2,8 +2,8 @@
 description: 若要將互動式影像庫新增至網頁並使用程式庫管理現有影像，請完成下列步驟。
 solution: Experience Manager
 title: 使用互動式影像庫
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

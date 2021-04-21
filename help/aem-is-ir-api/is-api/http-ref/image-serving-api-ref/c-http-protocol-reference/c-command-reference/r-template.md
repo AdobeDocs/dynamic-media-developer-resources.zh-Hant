@@ -2,8 +2,8 @@
 description: 構圖範本。 允許指定位於主目錄以外的目錄中的合成模板。
 solution: Experience Manager
 title: 範本
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: ddfccb4ca157764e39fc719d96b63e6ee95304bf
 workflow-type: tm+mt

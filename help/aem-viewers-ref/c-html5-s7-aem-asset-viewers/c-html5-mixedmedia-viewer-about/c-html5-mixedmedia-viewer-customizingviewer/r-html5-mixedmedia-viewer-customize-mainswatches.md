@@ -2,8 +2,8 @@
 description: 主色票由一列縮圖影像組成，左側和右側有選用的捲動按鈕。 如果所有縮圖都無法符合容器的寬度，捲動按鈕只會顯示在案頭上。 在行動裝置上，或如果縮圖可符合容器寬度，則不會顯示捲動按鈕。
 solution: Experience Manager
 title: 主色票
-feature: Dynamic Media經典，檢視器，SDK/API,Mix Media Sets
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

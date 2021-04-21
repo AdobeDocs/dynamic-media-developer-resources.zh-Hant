@@ -2,8 +2,8 @@
 description: 影像演算來源資料檔案包括暈映檔案、材質檔案（可重複紋理和貼文的影像，以及涵蓋樣式檔案的檔案櫃和視窗）和ICC描述檔。
 solution: Experience Manager
 title: 來源資料
-feature: Dynamic Media經典，SDK/API
-role: 開發人員、管理員、商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

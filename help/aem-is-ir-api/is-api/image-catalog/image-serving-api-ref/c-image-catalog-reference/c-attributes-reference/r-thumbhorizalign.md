@@ -2,8 +2,8 @@
 description: 縮圖的水準對齊。 指定由wid=和hei=或由屬性DefaultThumbPix指定的回覆影像矩形中縮圖影像的水準對齊方式。
 solution: Experience Manager
 title: ThumbHorizAlign
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

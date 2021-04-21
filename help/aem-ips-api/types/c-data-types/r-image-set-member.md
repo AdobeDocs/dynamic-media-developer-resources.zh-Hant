@@ -2,8 +2,8 @@
 description: 屬於影像集的資產。
 solution: Experience Manager
 title: ImageSetMember
-feature: Dynamic Media經典，SDK/API，影像集
-role: 開發人員、管理員
+feature: Dynamic Media Classic,SDK/API,Image Sets
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

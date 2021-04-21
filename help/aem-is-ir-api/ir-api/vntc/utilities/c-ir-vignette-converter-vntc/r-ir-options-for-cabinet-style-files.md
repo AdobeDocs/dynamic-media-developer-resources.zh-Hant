@@ -2,8 +2,8 @@
 description: 以下選項控制檔案櫃樣式檔案的處理。 如果sourceFile不是檔案櫃樣式檔案或指定了-info ，則忽略它們。
 solution: Experience Manager
 title: 檔案櫃樣式檔案的選項
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

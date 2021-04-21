@@ -2,8 +2,8 @@
 description: 使檢視器在使用者按一下時進入或退出全螢幕模式。 如果檢視器在快顯模式中運作，且系統不支援原生全螢幕，則不會顯示此按鈕。 您可以使用CSS來調整此按鈕的大小、外觀和位置。
 solution: Experience Manager
 title: 全螢幕按鈕
-feature: Dynamic Media經典，檢視器，SDK/API，縮放
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

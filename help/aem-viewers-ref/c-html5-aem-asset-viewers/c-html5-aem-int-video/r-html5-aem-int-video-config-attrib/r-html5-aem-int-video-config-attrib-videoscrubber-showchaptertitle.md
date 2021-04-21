@@ -2,8 +2,8 @@
 description: 互動式視訊檢視器的設定屬性。
 solution: Experience Manager
 title: VideoScrubber.showchaptertitle
-feature: Dynamic Media經典，檢視器，SDK/API，互動式視訊
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: a687a025-37cc-42cf-8cf7-893179d399ac
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

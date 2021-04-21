@@ -2,8 +2,8 @@
 description: 影像遮色片。 指定單獨的遮色片影像，用作未關聯的遮色片。
 solution: Experience Manager
 title: 遮罩
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

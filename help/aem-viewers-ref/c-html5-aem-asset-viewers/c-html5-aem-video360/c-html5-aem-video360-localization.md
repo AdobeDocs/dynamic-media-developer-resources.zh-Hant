@@ -2,8 +2,8 @@
 description: 檢視器顯示的某些內容可能會受到本地化的規範。 這包括使用者介面元素工具提示，以及當視訊無法播放時顯示的錯誤訊息。
 solution: Experience Manager
 title: 使用者介面元素的本地化
-feature: Dynamic Media經典，檢視器，SDK/API,360 VR視訊
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: d54fd841-2246-4d2e-8bf9-7da56f2487f3
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

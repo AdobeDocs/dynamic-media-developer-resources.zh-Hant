@@ -2,8 +2,8 @@
 description: Video360檢視器的設定屬性。
 solution: Experience Manager
 title: VideoTime.timepattern
-feature: Dynamic Media經典，檢視器，SDK/API,360 VR視訊
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: a3a4f3f9-b6ef-4ee2-b006-578b743698ad
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

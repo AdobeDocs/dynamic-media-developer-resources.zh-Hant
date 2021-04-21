@@ -2,8 +2,8 @@
 description: 檢視器會在主檢視上顯示熱點圖示，這些熱點原本是在AEM AssetsDynamic Media-隨選地區製作的。
 solution: Experience Manager
 title: 熱點和影像映射
-feature: Dynamic Media經典，檢視器，SDK/API，轉盤橫幅
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: 70517201-9d59-4d9c-986d-a6e9655b7956
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

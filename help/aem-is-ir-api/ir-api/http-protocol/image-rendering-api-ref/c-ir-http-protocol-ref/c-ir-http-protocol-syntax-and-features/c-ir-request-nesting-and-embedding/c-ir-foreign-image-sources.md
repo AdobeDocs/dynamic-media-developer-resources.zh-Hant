@@ -2,8 +2,8 @@
 description: 「影像伺服」支援存取外來HTTP和FTP伺服器上的來源影像。
 solution: Experience Manager
 title: 外來影像來源
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

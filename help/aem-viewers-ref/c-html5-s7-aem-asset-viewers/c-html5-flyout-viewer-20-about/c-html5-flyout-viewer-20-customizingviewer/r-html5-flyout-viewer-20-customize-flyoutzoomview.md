@@ -2,8 +2,8 @@
 description: 主視圖由靜態影像、放大影像、高亮導航區域和提示資訊組成。
 solution: Experience Manager
 title: 彈出式縮放檢視
-feature: Dynamic Media經典，檢視器，SDK/API,Flyout
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

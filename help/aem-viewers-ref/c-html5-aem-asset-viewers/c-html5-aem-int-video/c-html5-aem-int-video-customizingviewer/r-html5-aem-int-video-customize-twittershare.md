@@ -2,8 +2,8 @@
 description: Twitter分享工具包含新增至Social分享面板的按鈕。 按一下按鈕時，使用者會重新導向至社交服務所提供的分享對話方塊。 按鈕的位置由Social分享工具完全管理。
 solution: Experience Manager
 title: Twitter分享
-feature: Dynamic Media經典，檢視器，SDK/API，互動式視訊
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: 045ca718-b971-4437-a0bf-580eee83ff2d
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

@@ -2,8 +2,8 @@
 description: 傳回標示為發佈之資產的發佈內容。
 solution: Experience Manager
 title: batchGetAssetPublishContexts
-feature: Dynamic Media經典，SDK/API，資產管理
-role: 開發人員、管理員
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

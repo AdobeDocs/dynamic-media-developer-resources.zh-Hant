@@ -2,8 +2,8 @@
 description: eCatalog檢視器支援在主檢視上方轉換影像地圖圖示。
 solution: Experience Manager
 title: 影像地圖支援
-feature: Dynamic Media經典，檢視器，SDK/API,eCatalog
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

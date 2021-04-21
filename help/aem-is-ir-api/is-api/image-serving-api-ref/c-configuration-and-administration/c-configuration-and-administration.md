@@ -2,8 +2,8 @@
 description: 使用本節中的資訊來配置和管理映像伺服器。
 solution: Experience Manager
 title: 配置和管理
-feature: Dynamic Media經典，SDK/API
-role: 開發人員、管理員、商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 獲取由公司、組和用戶角色句柄指定的一組用戶。 此操作可讓您依字元排序傳回的使用者及篩選。
 solution: Experience Manager
 title: getUsers
-feature: Dynamic Media經典，SDK/API
-role: 開發人員、管理員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

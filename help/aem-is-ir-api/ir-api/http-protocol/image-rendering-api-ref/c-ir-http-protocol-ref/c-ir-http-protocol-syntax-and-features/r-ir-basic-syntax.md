@@ -2,8 +2,8 @@
 description: 本節介紹Dynamic Media影像渲染HTTP協定的基本語法。
 solution: Experience Manager
 title: 影像轉換HTTP通訊協定基本語法
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

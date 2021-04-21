@@ -2,8 +2,8 @@
 description: 影像目錄的影像集資料。 傳回URL路徑中指定之影像目錄項目的影像集資料。
 solution: Experience Manager
 title: 影像集
-feature: Dynamic Media經典，SDK/API，影像集
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API,Image Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

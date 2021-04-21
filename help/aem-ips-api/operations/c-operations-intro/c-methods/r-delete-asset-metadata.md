@@ -2,8 +2,8 @@
 description: 刪除資產的中繼資料值。 可搭配刪除中繼資料的陣列，在批次中設定值。
 solution: Experience Manager
 title: deleteAssetMetadata
-feature: Dynamic Media經典，SDK/API，元資料，資產管理
-role: 開發人員、管理員
+feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

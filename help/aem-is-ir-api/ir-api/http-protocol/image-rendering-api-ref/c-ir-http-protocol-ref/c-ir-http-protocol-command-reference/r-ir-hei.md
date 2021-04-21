@@ -2,8 +2,8 @@
 description: 回覆影像高度。 指定演算後影像的縮放比例，使回覆影像的高度不大於指定值，同時維持影像的長寬比。
 solution: Experience Manager
 title: hei
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 要使用映像服務，必須在要使用映像服務的每個系統上安裝Dynamic Media映像服務許可證密鑰。
 solution: Experience Manager
 title: 授權
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

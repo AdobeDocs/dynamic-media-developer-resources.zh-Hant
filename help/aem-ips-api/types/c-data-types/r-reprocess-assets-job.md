@@ -2,8 +2,8 @@
 description: 工作類型可允許重新處理先前上傳的主要檔案，包括重新轉存PDF和重新最佳化影像。
 solution: Experience Manager
 title: 重新處理AssetsJob
-feature: Dynamic Media經典，SDK/API，資產管理
-role: 開發人員、管理員
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

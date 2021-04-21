@@ -2,8 +2,8 @@
 description: 設定或更新一或多個資產的發佈狀態。 您可以為公司中的每個發佈上下文設定個別的發佈狀態。
 solution: Experience Manager
 title: setAssetsContextState
-feature: Dynamic Media經典，SDK/API，資產管理
-role: 開發人員、管理員
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 這些指令可用來定義圖層效果，例如下垂式陰影或發光效果。 效果圖層會忽略所有其他命令。
 solution: Experience Manager
 title: 圖層效果命令
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

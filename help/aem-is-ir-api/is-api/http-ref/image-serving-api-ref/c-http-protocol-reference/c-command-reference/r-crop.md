@@ -2,8 +2,8 @@
 description: 裁切影像。 指定矩形裁切區域，以像素表示，或相對於全解析度源影像或遮色片影像標準化。
 solution: Experience Manager
 title: 裁切
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

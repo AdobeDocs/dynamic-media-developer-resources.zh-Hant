@@ -2,8 +2,8 @@
 description: 基本縮放、eCatalog、eCatalog搜尋、彈出、內嵌縮放、混合媒體、回轉、視訊、縮放、尺寸(3D)、轉盤、互動式影像、互動式視訊和Video360檢視器介面中公開的所有功能都可透過鍵盤存取。
 solution: Experience Manager
 title: 鍵盤協助功能與導覽
-feature: Dynamic Media經典，檢視器，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API
+role: Developer,Business Practitioner
 exl-id: 0bdf172a-0bde-42d2-900f-f207538fe588
 translation-type: tm+mt
 source-git-commit: 62234233bb1a5bcbd0eac5d281b42ed785c0c169

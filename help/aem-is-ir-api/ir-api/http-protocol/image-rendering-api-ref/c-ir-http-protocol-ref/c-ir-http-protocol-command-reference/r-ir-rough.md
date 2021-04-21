@@ -2,8 +2,8 @@
 description: 材料表面粗糙度。 指定材料曲面的相對粗糙度。
 solution: Experience Manager
 title: 粗糙
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

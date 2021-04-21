@@ -2,8 +2,8 @@
 description: 對於高級應用程式，可以將渲染操作的結果用作材料影像，就像從「影像服務」獲得的影像一樣。
 solution: Experience Manager
 title: 巢狀影像演算請求
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

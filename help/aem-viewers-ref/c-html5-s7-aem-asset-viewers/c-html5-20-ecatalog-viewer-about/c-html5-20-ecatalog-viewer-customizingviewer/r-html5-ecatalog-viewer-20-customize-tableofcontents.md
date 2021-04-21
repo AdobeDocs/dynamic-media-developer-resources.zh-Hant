@@ -2,8 +2,8 @@
 description: 目錄是位於主控制列中的按鈕。 啟動後，下拉式面板會出現，並列出頁面索引和標籤。
 solution: Experience Manager
 title: 目錄
-feature: Dynamic Media經典，檢視器，SDK/API,eCatalog
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

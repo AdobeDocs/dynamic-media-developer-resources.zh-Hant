@@ -3,8 +3,8 @@ description: 建立自訂CSS即可完成轉盤檢視器的所有視覺化自訂�
 keywords: 回應
 solution: Experience Manager
 title: 自訂轉盤檢視器
-feature: Dynamic Media經典，檢視器，SDK/API，轉盤橫幅
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: f392d830-5c75-45dd-bab8-29a38218790d
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

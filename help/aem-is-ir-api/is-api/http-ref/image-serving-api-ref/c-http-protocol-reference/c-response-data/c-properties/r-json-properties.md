@@ -2,8 +2,8 @@
 description: 如果將jsonp指定為回應格式，則回覆資料會使用JSONP（含填充的JavaScript物件記號）格式化，並封裝在JavaScript函式呼叫中。
 solution: Experience Manager
 title: JSONP屬性
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

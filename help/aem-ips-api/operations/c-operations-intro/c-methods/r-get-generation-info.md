@@ -2,8 +2,8 @@
 description: 根據傳入的參數傳回2種不同的資訊類型。 originatorHandle返回有關從指定資產生成的資產的資訊。 generateHandle返回有關用於生成指定資產或檔案的步驟的資訊。
 solution: Experience Manager
 title: getGenerationInfo
-feature: Dynamic Media經典，SDK/API
-role: 開發人員、管理員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

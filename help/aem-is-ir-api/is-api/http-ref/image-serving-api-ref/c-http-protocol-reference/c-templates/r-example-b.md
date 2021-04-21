@@ -2,8 +2,8 @@
 description: 與範例A類似的需求，但使用純色背景，並允許合成影像的高度不同，以容納具有不同外觀比例的影像。
 solution: Experience Manager
 title: 範例B
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 映像服務元件由伺服器監視程式管理，該伺服器監視程式是Linux守護程式或Windows服務(S7Supervisor.exe，在「服務」控制面板中列為「Dynamic Media映像服務」)。
 solution: Experience Manager
 title: 伺服器主管
-feature: Dynamic Media經典，SDK/API
-role: 開發人員、管理員、商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

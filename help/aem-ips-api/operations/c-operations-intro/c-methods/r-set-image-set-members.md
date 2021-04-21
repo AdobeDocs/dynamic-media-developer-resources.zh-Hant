@@ -2,8 +2,8 @@
 description: 設定與影像集關聯的資產清單。
 solution: Experience Manager
 title: setImageSetMembers
-feature: Dynamic Media經典，SDK/API，影像集
-role: 開發人員、管理員
+feature: Dynamic Media Classic,SDK/API,Image Sets
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

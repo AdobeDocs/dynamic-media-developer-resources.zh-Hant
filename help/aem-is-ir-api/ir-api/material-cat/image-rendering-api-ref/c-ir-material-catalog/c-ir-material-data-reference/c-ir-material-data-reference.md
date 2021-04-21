@@ -2,8 +2,8 @@
 description: 如果物料目錄需要物料資料，則必須在屬性CatalogFile中指定物料資料檔案的相對或絕對路徑。
 solution: Experience Manager
 title: 材料資料參考
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

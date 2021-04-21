@@ -2,8 +2,8 @@
 description: Apple串流伺服器URL首碼。 產生具有req=mbrSet的多位元速率m3u8回應時，使用的Apple Streaming Server URL首碼。
 solution: Experience Manager
 title: HttpAppleStreamingContext
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

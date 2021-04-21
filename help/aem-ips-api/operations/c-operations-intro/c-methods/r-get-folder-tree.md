@@ -2,8 +2,8 @@
 description: 傳回階層式樹狀結構中的檔案夾和子檔案夾。 getFolderTree回應的限制為最多100,000個資料夾
 solution: Experience Manager
 title: getFolderTree
-feature: Dynamic Media經典，SDK/API
-role: 開發人員、管理員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

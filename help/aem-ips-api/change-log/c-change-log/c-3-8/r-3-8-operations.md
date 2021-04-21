@@ -2,8 +2,8 @@
 description: 說明IPS API 3.8版的新操作方法和更改的操作方法。
 solution: Experience Manager
 title: 操作新增和修改
-feature: Dynamic Media經典，SDK/API
-role: 開發人員、管理員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 exl-id: 8f4fe698-afe8-4ce6-904d-42fa67dee4dd
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

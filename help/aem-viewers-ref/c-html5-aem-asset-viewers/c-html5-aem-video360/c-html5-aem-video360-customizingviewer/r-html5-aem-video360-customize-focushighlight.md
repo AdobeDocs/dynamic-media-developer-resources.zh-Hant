@@ -2,8 +2,8 @@
 description: 使用CSS類別選擇器控制顯示在焦點檢視器使用者介面元素周圍的輸入焦點反白顯示。
 solution: Experience Manager
 title: 焦點反白顯示
-feature: Dynamic Media經典，檢視器，SDK/API,360 VR視訊
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: 05ac1a70-c20d-4ddf-942c-181f101cb1d8
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

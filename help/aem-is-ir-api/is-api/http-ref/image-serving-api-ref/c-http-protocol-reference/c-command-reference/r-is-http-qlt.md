@@ -2,8 +2,8 @@
 description: JPEG品質。 指定JPEG編碼屬性以控制壓縮級別。 這進而會改變檔案大小（回覆資料的量），並間接地改變所產生影像的視覺品質。
 solution: Experience Manager
 title: qlt
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

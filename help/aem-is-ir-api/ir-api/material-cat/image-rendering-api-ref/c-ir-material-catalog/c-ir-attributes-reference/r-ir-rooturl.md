@@ -2,8 +2,8 @@
 description: 相對影像URL的根URL。 指定相對影像URL的根URL。 當src=值由{大括弧}括住時，會使用attribute RootUrl而非屬性RootPath。
 solution: Experience Manager
 title: RootUrl *
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

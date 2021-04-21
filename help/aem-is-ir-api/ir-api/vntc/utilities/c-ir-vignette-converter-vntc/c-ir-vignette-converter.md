@@ -2,8 +2,8 @@
 description: 暈映轉換器(vntc)是命令列公用程式，用來準備使用影像製作功能建立的內容，以便透過影像演算進行部署。
 solution: Experience Manager
 title: 暈映轉換器
-feature: Dynamic Media經典，SDK/API
-role: 開發人員，商業從業人員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 為一或多個影像資產設定影像特定欄位。
 solution: Experience Manager
 title: batchSetImageFields
-feature: Dynamic Media經典，SDK/API
-role: 開發人員、管理員
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 exl-id: 8ea6dbb8-4d32-43e5-961f-31110f983663
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
