@@ -29,7 +29,7 @@ ht-degree: 0%
 
 [http://s7d9.scene7.com/s7viewers/html5/FlyoutViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample&amp;config=Scene7SharedAssets/Universal_HTML5_Zoom_Inline&amp;stagesize=500,400](http://s7d9.scene7.com/s7viewers/html5/FlyoutViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample&amp;config=Scene7SharedAssets/Universal_HTML5_Zoom_Inline&amp;stagesize=500,400)
 
-## 使用內聯縮放查看器{#section-f21ac23d3f6449ad9765588d69584772}
+## 使用內嵌縮放檢視器 {#section-f21ac23d3f6449ad9765588d69584772}
 
 內嵌縮放檢視器代表主要JavaScript檔案和一組協助檔案（單一JavaScript包含此特定檢視器、資產、CSS所使用的所有檢視器SDK元件），由檢視器在執行階段下載。
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 請參閱所有檢視器通用的[命令參考 — 設定屬性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)和所有檢視器通用的[命令參考 — URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
-## 與內嵌縮放檢視器{#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}互動
+## 與內嵌縮放檢視器互動 {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
 內嵌縮放檢視器支援其他行動應用程式中常見的單點觸控和多點觸控手勢。
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 請參閱[鍵盤輔助功能和導航](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861)。
 
-## 內嵌內嵌內嵌縮放檢視器{#section-6bb5d3c502544ad18a58eafe12a13435}
+## 內嵌內嵌內嵌縮放檢視器 {#section-6bb5d3c502544ad18a58eafe12a13435}
 
 不同的網頁對檢視者行為有不同的需求。 有時網頁會提供可點按的連結，在個別瀏覽器視窗中開啟檢視器。 在其他情況下，可能需要直接將檢視器內嵌在托管頁面中。 在後一種情況下，網頁可能具有靜態頁面版面，或使用在不同裝置上顯示不同的回應式設計，或針對不同的瀏覽器視窗大小。 為了滿足這些需求，檢視器支援三種主要操作模式：快顯視窗、固定大小內嵌和回應式內嵌。
 
@@ -108,7 +108,7 @@ ht-degree: 0%
 
 在回應式設計內嵌模式中，檢視器的運作方式會因網頁大小其容器`DIV`而有所不同。 如果網頁僅設定容器的寬度`DIV`，保持高度不受限制，則檢視器會根據所使用資產的外觀比例自動選擇其高度。 這表示資產可完美地貼入檢視中，側邊不需任何邊框間距。 此特定使用案例最常用於使用回應式設計配置架構(例如Bootstrap、Foundation等)的網頁。
 
-否則，如果網頁同時設定了查看器容器`DIV`的寬度和高度，則查看器只填入該區域，並遵循網頁佈局提供的大小。 一個很好的使用案例範例是將檢視器內嵌至強制回應覆蓋中，其中覆蓋會根據網頁瀏覽器視窗大小來調整大小。
+否則，如果網頁同時設定了查看器容器`DIV`的寬度和高度，則查看器僅填充該區域，並遵循網頁佈局提供的大小。 一個很好的使用案例範例是將檢視器內嵌至強制回應覆蓋中，其中覆蓋會根據網頁瀏覽器視窗大小來調整大小。
 
 **固定大小嵌入**
 
@@ -250,7 +250,7 @@ ht-degree: 0%
    </html>
    ```
 
-## 無限制高度{#section-056cb574713c4d07be6d07cf3c598839}的回應式設計內嵌
+## 無限制高度的回應式設計內嵌 {#section-056cb574713c4d07be6d07cf3c598839}
 
 透過回應式設計內嵌，網頁通常會有某種彈性的版面配置，指定檢視器容器`DIV`的執行階段大小。 在下列範例中，假設網頁允許檢視器的容器`DIV`取用40%的網頁瀏覽器視窗大小，使其高度不受限制。 網頁HTML程式碼如下所示：
 
@@ -333,7 +333,7 @@ var inlineZoomViewer = new s7viewers.FlyoutViewer({
 
 [替代演示位置](https://experienceleague.adobe.com/tools/vlist/vlist.html)
 
-## 具有定義{#section-0a329016f9414d199039776645c693de}的寬度和高度的靈活大小嵌入
+## 定義寬度和高度的靈活大小嵌入 {#section-0a329016f9414d199039776645c693de}
 
 若是定義寬度和高度的彈性內嵌，網頁樣式會有所不同。 它會為`"holder"` DIV提供兩種大小，並將其置於瀏覽器視窗中。 此外，網頁還將`HTML`和`BODY`元素的大小設定為100%。
 
@@ -406,7 +406,7 @@ var inlineZoomViewer = new s7viewers.FlyoutViewer({
 </html>
 ```
 
-## 使用基於Setter的API {#section-af26f0cc2e5140e8a9bfd0c6a841a6d1}嵌入
+## 使用基於Setter的API嵌入 {#section-af26f0cc2e5140e8a9bfd0c6a841a6d1}
 
 您可以使用setter型API和無目標建構函式，而不使用JSON型初始化。 使用此API建構函式時不會採用任何參數，且會使用`setContainerId()`、`setParam()`及`setAsset()` API方法（搭配個別的JavaScript呼叫）指定設定參數。
 
