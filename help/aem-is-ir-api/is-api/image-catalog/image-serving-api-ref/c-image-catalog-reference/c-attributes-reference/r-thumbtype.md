@@ -1,27 +1,26 @@
 ---
-description: 預設縮圖類型。 提供縮圖類型的預設值，以防特定目錄記錄不包含有效的目錄ThumbType值。
+description: 預設縮圖類型。 提供縮圖類型的預設值，以備特定目錄記錄不包含有效的目錄ThumbType值時使用。
 solution: Experience Manager
 title: ThumbType
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: ac29ac3a-8c6b-4c87-954f-37d1ddec76f5
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '84'
 ht-degree: 4%
 
 ---
 
-
 # ThumbType{#thumbtype}
 
-預設縮圖類型。 提供縮圖類型的預設值，以防特定目錄記錄不包含有效的目錄：:ThumbType值。
+預設縮圖類型。 提供縮圖類型的預設值，以備特定目錄記錄不包含有效目錄：:ThumbType值時使用。
 
 僅用於縮圖請求(`req=tmb`)。
 
 ## 屬性 {#section-ae0babfe3c8e4c8ebe0124bc55051265}
 
-列舉。 *`crop`*、*`fit`*&#x200B;和&#x200B;*`texture`*&#x200B;縮圖類型的許可值分別為1、2和3。
+列舉。 *`crop`*、*`fit`*&#x200B;和&#x200B;*`texture`*&#x200B;縮圖類型的允許值分別為1、2和3。
 
 ## 預設 {#section-0237fcae4f304c5b876fceaa839b6b05}
 
