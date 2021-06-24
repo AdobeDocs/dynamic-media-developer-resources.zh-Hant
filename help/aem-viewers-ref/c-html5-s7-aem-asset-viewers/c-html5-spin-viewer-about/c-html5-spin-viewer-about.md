@@ -29,7 +29,7 @@ ht-degree: 0%
 
 [https://s7d9.scene7.com/s7viewers/html5/SpinViewer.html?asset=Scene7SharedAssets/SpinSet_Sample&amp;stagesize=500,400](https://s7d9.scene7.com/s7viewers/html5/SpinViewer.html?asset=Scene7SharedAssets/SpinSet_Sample&amp;stagesize=500,400)
 
-## 使用回轉檢視器{#section-e6c68406ecdc4de781df182bbd8088b4}
+## 使用回轉檢視器 {#section-e6c68406ecdc4de781df182bbd8088b4}
 
 回轉檢視器代表主要JavaScript檔案和一組協助檔案（單一JavaScript包含此特定檢視器、資產、CSS所使用的所有檢視器SDK元件），由檢視器在執行階段下載。
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 請參閱所有檢視器通用的[命令參考 — 設定屬性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)和所有檢視器通用的[命令參考 — URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
-## 與回轉檢視器互動{#section-642e66ca38cd4032992840ec6c0b0cd2}
+## 與回轉檢視器互動 {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
 回轉檢視器支援下列其他行動應用程式中常見的觸控手勢。 當檢視器無法處理使用者的滑動手勢時，會將事件轉送至網頁瀏覽器，以執行原生頁面捲動。 這可讓使用者導覽頁面，即使檢視器佔據大部分裝置螢幕區域亦然。
 
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 請參閱[鍵盤輔助功能和導航](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861)。
 
-## 內嵌回轉檢視器{#section-6bb5d3c502544ad18a58eafe12a13435}
+## 內嵌回轉檢視器 {#section-6bb5d3c502544ad18a58eafe12a13435}
 
 不同的網頁對檢視者行為有不同的需求。 有時，網頁會提供連結，當按一下連結時，就會在個別瀏覽器視窗中開啟檢視器。 在其他情況下，必須將檢視器直接內嵌在托管頁面中。 在後一種情況下，網頁可能具有靜態頁面版面，或使用在不同裝置上或針對不同瀏覽器視窗大小顯示不同的回應式設計。 為了滿足這些需求，檢視器支援三種主要操作模式：快顯視窗、固定大小內嵌和回應式設計內嵌。
 
