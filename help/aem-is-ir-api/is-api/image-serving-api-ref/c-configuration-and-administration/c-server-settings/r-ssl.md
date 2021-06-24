@@ -1,34 +1,33 @@
 ---
-description: 請對SSL使用這些伺服器設定。
+description: 對SSL使用這些伺服器設定。
 solution: Experience Manager
 title: SSL
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 4a5c52cc-de47-48e0-ac92-6ee66a58a7ea
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '94'
 ht-degree: 6%
 
 ---
 
-
 # SSL{#ssl}
 
-請對SSL使用這些伺服器設定。
+對SSL使用這些伺服器設定。
 
-## TC::SslPort —— 偵聽埠{#section-c80eb582bf684b3fa7313a77cc606769}
+## TC::SslPort — 偵聽埠 {#section-c80eb582bf684b3fa7313a77cc606769}
 
-為SSL連接的平台伺服器指定監聽埠。 預設為 8443。
+為SSL連接指定Platform Server的偵聽埠。 預設為 8443。
 
-## TC::keystoreFile —— 密鑰庫檔案路徑{#section-0cdf9b3cfcf249818b22221d01bafebe}
+## TC::keystoreFile — 密鑰庫檔案路徑 {#section-0cdf9b3cfcf249818b22221d01bafebe}
 
-指定SSL密鑰庫檔案的路徑／名稱。 可以是相對於[!DNL *[!DNL install_folder]*/conf]的絕對路徑或路徑。 預設值為&#x200B;*install_folder*/conf/scene7keystore。
+指定SSL金鑰存放區檔案的路徑/名稱。 可以是相對於[!DNL *[!DNL install_folder]*/conf]的絕對路徑或路徑。 預設值為&#x200B;*install_folder*/conf/scene7keystore。
 
-## TC::keystorePass —— 密鑰庫密碼{#section-e7e9bfb7df584a248c0e3ee46803c3b1}
+## TC::keystorePass — 金鑰存放區密碼 {#section-e7e9bfb7df584a248c0e3ee46803c3b1}
 
-密鑰庫檔案的密碼。 預設為 `scene7`.
+金鑰存放區檔案的密碼。 預設為 `scene7`.
 
-## TC::keystoreType - Keystore Type {#section-8f263e1ba67740728cd39181960d7c7d}
+## TC::keystoreType — 金鑰存放類型 {#section-8f263e1ba67740728cd39181960d7c7d}
 
-選擇密鑰庫的類型。 「 `Java'`（預設值）和「 `PKCS12`」受支援。
+選擇密鑰庫的類型。 支援「 `Java'`（預設值）和「 `PKCS12`」。
