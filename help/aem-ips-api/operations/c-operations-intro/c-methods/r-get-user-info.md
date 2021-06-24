@@ -1,25 +1,24 @@
 ---
-description: 取得使用者的相關資訊。 使用系統使用者的電子郵件地址和密碼作為授權請求的憑證。 否則，操作將獲取有關預設用戶的資訊。
+description: 取得使用者的相關資訊。 使用系統用戶的電子郵件地址和密碼作為授權請求的憑據。 否則，操作將獲取有關預設用戶的資訊。
 solution: Experience Manager
 title: getUserInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 1981f25f-779e-4434-ab6b-0debb40521fe
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '144'
 ht-degree: 11%
 
 ---
 
-
 # getUserInfo{#getuserinfo}
 
-取得使用者的相關資訊。 使用系統使用者的電子郵件地址和密碼作為授權請求的憑證。 否則，操作將獲取有關預設用戶的資訊。
+取得使用者的相關資訊。 使用系統用戶的電子郵件地址和密碼作為授權請求的憑據。 否則，操作將獲取有關預設用戶的資訊。
 
 語法
 
-## 授權用戶類型{#section-1c42d78e914a4b84a946b3480f29b36a}
+## 授權的使用者類型 {#section-1c42d78e914a4b84a946b3480f29b36a}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -44,7 +43,7 @@ ht-degree: 11%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`userInfo`*` | `types:User` | 是 | 使用者的名字、姓氏、電子郵件地址和角色，以及使用者是否有效以及密碼過期。 |
+| `*`userInfo`*` | `types:User` | 是 | 使用者的名字、姓氏、電子郵件地址和角色，以及使用者是否有效以及使用者密碼過期的時間。 |
 
 ## 範例 {#section-98d77a2e360a438dbe240099bea26a65}
 
@@ -71,4 +70,3 @@ ht-degree: 11%
    </ns1:userInfo> 
 </ns1:getUserInfoReturn>
 ```
-
