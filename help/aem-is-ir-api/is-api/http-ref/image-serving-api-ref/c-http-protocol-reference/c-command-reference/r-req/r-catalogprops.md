@@ -1,40 +1,39 @@
 ---
-description: 影像目錄屬性。 傳回在請求路徑中指定的影像目錄的通用屬性。
+description: 影像目錄屬性。 傳回請求路徑中指定之影像目錄的通用屬性。
 solution: Experience Manager
-title: 編目prop
+title: 目錄prop
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 28bf68e8-d424-418e-99a7-5298a1d83341
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '218'
 ht-degree: 6%
 
 ---
 
+# 目錄prop{#catalogprops}
 
-# catalogprops{#catalogprops}
-
-影像目錄屬性。 傳回在請求路徑中指定的影像目錄的通用屬性。
+影像目錄屬性。 傳回請求路徑中指定之影像目錄的通用屬性。
 
 `req=catalogprops[,text|javascript|xml|{json[&id= *`reqId`*]}]`
 
 <table id="simpletable_D1D9183C08834005B482B103CEF2EDA9"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"><span class="varname"> reqId</span></span> </p> </td> 
-  <td class="stentry"> <p>唯一的請求識別碼。 </p></td> 
+  <td class="stentry"> <p>唯一請求識別碼。 </p></td> 
  </tr> 
 </table>
 
-要檢索預設目錄屬性([!DNL default.ini])，請忽略目錄ID。 HTTP響應基於`attribute::NonImgExpiration`可以與TTL進行快取。
+要檢索預設目錄屬性([!DNL default.ini])，請忽略目錄ID。 HTTP回應可根據`attribute::NonImgExpiration`與TTL快取。
 
-支援JSONP回應格式的請求可讓您使用`req=`參數的擴充語法來指定JS回呼處理常式的名稱：
+支援JSONP回應格式的要求可讓您使用`req=`參數的延伸語法來指定JS回呼處理常式的名稱：
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` 是JS回應中顯示的JS處理常式名稱。僅允許a-z、A-Z和0-9字元。 選填。預設為 `s7jsonResponse`.
+`<reqHandler>` 是JSONP回應中出現的JS處理常式的名稱。僅允許a-z、A-Z和0-9個字元。 選填。預設為 `s7jsonResponse`.
 
-傳回下列屬性值：
+會傳回下列屬性值：
 
 <table id="table_DEC26CBF274945298BA81B5E2E2F331D"> 
  <tbody> 
@@ -66,7 +65,7 @@ ht-degree: 6%
   <tr> 
    <td> <p> <span class="codeph"> catalog.expiration</span> </p> </td> 
    <td> <p> 真實 </p> </td> 
-   <td> <p> <span class="codeph"> 屬性：：到期</span> </p> </td> 
+   <td> <p> <span class="codeph"> 屬性：：過期</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.defaultExpiration</span> </p> </td> 
@@ -81,7 +80,7 @@ ht-degree: 6%
   <tr valign="top"> 
    <td> <p> <span class="codeph"> catalog.fileTime</span> </p> </td> 
    <td> <p> 字串 </p> </td> 
-   <td> <p> <span class="codeph"> 屬性：:LastModified</span>，或catalog <span class="varname"> </span><span class="filepath"> .</span> inifile的上次修改時間（如果不存在） </p> </td> 
+   <td> <p> <span class="codeph"> attribute::LastModified</span>，或目錄的上次修改時間（若不存在） <span class="varname"> </span><span class="filepath"> </span> 。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.jpegQuality</span> </p> </td> 
@@ -141,8 +140,7 @@ ht-degree: 6%
   <tr> 
    <td> <p> <span class="codeph"> 目錄：浮水印</span> </p> </td> 
    <td> <p> 字串 </p> </td> 
-   <td> <p> <span class="codeph"> 屬性：:Watermark</span> </p> </td> 
+   <td> <p> <span class="codeph"> 屬性：：浮水印</span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
