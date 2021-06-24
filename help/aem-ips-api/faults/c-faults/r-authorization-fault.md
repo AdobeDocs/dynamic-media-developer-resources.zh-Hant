@@ -1,25 +1,24 @@
 ---
-description: 當已驗證的使用者沒有足夠的權限來完成工作時拋出。
+description: 當已驗證的使用者沒有足夠的權限來完成任務時，拋出。
 solution: Experience Manager
 title: authorizationFault
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 76965735-92d8-46be-b589-67cad3b987dc
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 24%
+source-wordcount: '59'
+ht-degree: 25%
 
 ---
 
-
 # authorizationFault{#authorizationfault}
 
-當已驗證的使用者沒有足夠的權限來完成工作時拋出。
+當已驗證的使用者沒有足夠的權限來完成任務時，拋出。
 
 語法
 
-## 故障類型{#section-1f04dec489714ee6bb7256fae6ab7730}
+## 故障類型 {#section-1f04dec489714ee6bb7256fae6ab7730}
 
 | ID | 故障 |
 |---|---|
@@ -31,13 +30,12 @@ ht-degree: 24%
 | 20005 | `AUTHORIZATION_FAULT_CODE_ILLEGAL_PARAMETER_VALUE` |
 | 20006 | `AUTHORIZATION_FAULT_CODE_ILLEGAL_COMPANY` |
 | 20007 | `AUTHORIZATION_FAULT_CODE_ILLEGAL_REQUEST_USER` |
-| 2008年 | `AUTHORIZATION_FAULT_CODE_ILLEGAL_ACCESS_GROUP` |
-| 20009年 | `AUTHORIZATION_FAULT_CODE_MISSING_PERMISSION` |
+| 20008 | `AUTHORIZATION_FAULT_CODE_ILLEGAL_ACCESS_GROUP` |
+| 20009 | `AUTHORIZATION_FAULT_CODE_MISSING_PERMISSION` |
 
-## 故障欄位{#section-4e3e41f41fea402a9ae314bfd05f663e}
+## 故障欄位 {#section-4e3e41f41fea402a9ae314bfd05f663e}
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| `code` | `xsd:int` | 故障ID |
+| `code` | `xsd:int` | 錯誤ID |
 | `reason` | `xsd:string` | 描述故障的資訊性消息。 |
-
