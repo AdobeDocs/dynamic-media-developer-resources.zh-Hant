@@ -1,21 +1,20 @@
 ---
-description: 定期從指定的伺服器目錄上傳檔案。
+description: 定期從指定的伺服器目錄上載檔案。
 solution: Experience Manager
 title: UploadDirectoryJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: a23f1bc2-aa6a-4c1d-aab5-7f6dbd08682c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '473'
 ht-degree: 6%
 
 ---
 
-
 # UploadDirectoryJob{#uploaddirectoryjob}
 
-定期從指定的伺服器目錄上傳檔案。
+定期從指定的伺服器目錄上載檔案。
 
 語法
 
@@ -38,12 +37,12 @@ ht-degree: 6%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> autoSetCreationOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：AutoSetCreateOptions</span> </td> 
-   <td colname="col3"> <p>套用至上傳檔案的自動設定產生指令碼陣列。 </p> </td> 
+   <td colname="col3"> <p>要套用至上傳檔案的自動設定產生指令碼陣列。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> autoTransparentCropOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：AutoTransparentCropOptions</span> </td> 
-   <td colname="col3"> <p>根據透明度，從影像邊緣移除空白。 </p> </td> 
+   <td colname="col3"> <p>根據透明度從影像邊緣移除空白。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> colorManagementOptions</span> </span> </td> 
@@ -53,7 +52,7 @@ ht-degree: 6%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> createMask</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> <p>是否在上傳時建立遮色片。 </p> </td> 
+   <td colname="col3"> <p>上傳時是否要建立遮罩。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> destFolder</span> </span> </td> 
@@ -68,22 +67,22 @@ ht-degree: 6%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> illustratorOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：IllustratorOptions</span> </td> 
-   <td colname="col3"> <p>將Illustrator檔案上傳到映像伺服器的選項。 </p> </td> 
+   <td colname="col3"> <p>將Illustrator檔案上傳至影像伺服器的選項。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> includeSubfolders</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>上傳時是否包含子檔案夾。 </p> </td> 
+   <td colname="col3"> <p>上傳時是否要包含子檔案夾。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> inDesignOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：InDesignOptions</span> </td> 
-   <td colname="col3"> <p>將InDesign檔案上載到伺服器的選項。 </p> </td> 
+   <td colname="col3"> <p>用於將InDesign檔案上載到伺服器的選項。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> knouckBackground</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 類型：ThrounkBackgroundOptions</span> </td> 
-   <td colname="col3"> <p>遮色所選影像的背景。 這可讓您在主題影像外以透明度覆蓋其他圖層。 </p> <p>選填。 </p> <p>請參閱<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> ThunkloupBackgroundOptions</a>。 </p> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> knoupBackground</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> 類型：ThrunkedBackgroundOptions</span> </td> 
+   <td colname="col3"> <p>遮罩所選影像的背景。 這可讓您以主體影像外部的透明度，在其他圖層中覆蓋它們。 </p> <p>選填。 </p> <p>請參閱<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> TrunkupBackgroundOptions</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </td> 
@@ -93,7 +92,7 @@ ht-degree: 6%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> mediaOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：MediaOptions</span> </td> 
-   <td colname="col3"> <p>可讓您從視訊設定縮圖影像的選項。 </p> <p>請參閱<a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> MediaOptions</a>。 </p> </td> 
+   <td colname="col3"> <p>可讓您從影片設定縮圖影像的選項。 </p> <p>請參閱<a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> MediaOptions</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 覆寫</span> </span> </td> 
@@ -101,14 +100,14 @@ ht-degree: 6%
    <td colname="col3"> <p>檔案上傳覆寫選項。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> pdf選項</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> pdfOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：PDFOptions</span> </td> 
-   <td colname="col3"> <p>將PDF檔案上傳至影像伺服器的選項。 </p> </td> 
+   <td colname="col3"> <p>上傳PDF檔案至影像伺服器的選項。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> photoshopOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：PhotoshopOptions</span> </td> 
-   <td colname="col3"> <p>將Photoshop檔案上傳到映像伺服器的選項。 </p> </td> 
+   <td colname="col3"> <p>將Photoshop檔案上傳至影像伺服器的選項。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> postHttpUrl</span> </span> </td> 
@@ -116,9 +115,9 @@ ht-degree: 6%
    <td colname="col3"> <p>檔案上傳目的地的URL。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> postImageRenderingPublishJob </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> </span> </span>postImageRenderingPublishJob </td> 
    <td colname="col2"> <span class="codeph"> 類型：ImageRendingPublishJob</span> </td> 
-   <td colname="col3"> <p>上傳完成後執行的影像轉換發佈工作的詳細資訊。 </p> </td> 
+   <td colname="col3"> <p>上傳完成後執行之影像呈現發佈工作的詳細資訊。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> postImageServingPublishJob</span> </span> </td> 
@@ -127,13 +126,13 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> postJobOnlyIfFiles</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd：布林值</span> </td> 
-   <td colname="col3"> <p>是否只上傳檔案。 </p> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col3"> <p>是否僅上傳檔案。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> postScriptOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：PostScriptOptions</span> </td> 
-   <td colname="col3"> <p>將Post Script檔案上傳至影像伺服器的選項。 </p> </td> 
+   <td colname="col3"> <p>用於將Post Script檔案上傳至影像伺服器的選項。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> postVideoPublishJob</span> </span> </td> 
@@ -142,13 +141,13 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> preserveCrop</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd：布林值</span> </td> 
-   <td colname="col3"> <p>控制任何現有裁切定義的保留。 預設為true。 </p> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col3"> <p>控制任何現有作物定義的保留。 預設為true。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> preservePublishState</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd：布林值</span> </td> 
-   <td colname="col3"> <p>控制覆寫現有資產時是否保留其發佈狀態。 如果未設定，則會使用公司預設設定。 </p> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col3"> <p>控制覆寫時是否會保留現有資產的發佈狀態。 如果未設定，則使用公司預設設定。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> processMetadataFiles</span> </span> </td> 
@@ -158,12 +157,12 @@ ht-degree: 6%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> projectHandleArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：HandleArray</span> </td> 
-   <td colname="col3"> <p>專案控制點陣列。 </p> </td> 
+   <td colname="col3"> <p>項目句柄的陣列。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> readyForPublish</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd：布林值</span> </td> 
-   <td colname="col3"> <p>判斷檔案是否已標示為可供發佈。 </p> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col3"> <p>確定檔案是否已標籤為可發佈。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> serverDir</span> </span> </td> 
@@ -173,17 +172,17 @@ ht-degree: 6%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> unCompressOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：UnCompressOptions</span> </td> 
-   <td colname="col3"> <p>使用這些選用設定，擷取並處理已上傳的TAR/ZIP檔案內容。 </p> <p>請參閱<a href="../../types/c-data-types/r-uncompress-options.md#reference-510ec7028b1540bc9b58745f242d49d5" format="dita" scope="local"> UnCompressOptions</a>。 </p> </td> 
+   <td colname="col3"> <p>使用這些選用設定來解壓縮及處理上傳之TAR/ZIP檔案的內容。 </p> <p>請參閱<a href="../../types/c-data-types/r-uncompress-options.md#reference-510ec7028b1540bc9b58745f242d49d5" format="dita" scope="local"> UnCompressOptions</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> unsharpMaskOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 類型：UnsharpMaskOptions</span> </td> 
-   <td colname="col3"> <p>可讓您在建立最佳金字塔TIF檔案時控制遮色片銳利化設定的選項。 使用這些設定可協助改善影像的銳利度。 </p> <p>請參閱<a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> UnsharpMaskOptions</a>。 </p> </td> 
+   <td colname="col2"> <span class="codeph"> 類型：銳利化遮色片選項</span> </td> 
+   <td colname="col3"> <p>用於在建立優化金字塔TIF檔案時控制遮色片設定的選項。 使用這些設定可幫助提高影像的清晰度。 </p> <p>請參閱<a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> UnsharpMaskOptions</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> xmpKeywords</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>上傳工作中所有項目的額外中繼資料選項 </p> </td> 
+   <td colname="col3"> <p>上傳工作中所有項目的其他中繼資料選項 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -201,4 +200,3 @@ ht-degree: 6%
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`
 * `postvideoPublishJob`
-
