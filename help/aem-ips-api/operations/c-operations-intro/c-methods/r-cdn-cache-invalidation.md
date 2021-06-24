@@ -1,46 +1,45 @@
 ---
-description: 將提供的URL清單轉送至Dynamic MediaCDN（內容散發網路）提供者，使其現有的HTTP回應快取無效。
+description: 將提供的URL清單轉送至Dynamic Media CDN（內容分送網路）提供者，使其現有的HTTP回應快取失效。
 solution: Experience Manager
-title: cdnCacheInvaliting
+title: cdnCacheInvalidation
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 65b758f2-b49a-4616-b657-a64808c9202a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '481'
 ht-degree: 4%
 
 ---
 
-
 # cdnCacheInvalidation{#cdncacheinvalidation}
 
-將提供的URL清單轉送至Dynamic MediaCDN（內容散發網路）提供者，使其現有的HTTP回應快取無效。
+將提供的URL清單轉送至Dynamic Media CDN（內容分送網路）提供者，使其現有的HTTP回應快取失效。
 
-## cdnCacheInvalidation:關於{#section-4f70d2bc79d64288b961836ab17e9690}
+## cdnCacheInvalidation:關於 {#section-4f70d2bc79d64288b961836ab17e9690}
 
-CDN快取失效會強制這些URL的所有HTTP要求，在此失效要求透過CDN網路處理後，針對Dynamic Media網路上目前發佈的資料重新驗證。 任何未連線至Dynamic Media服務URL結構且與建立公司時指派的Dynamic Media公司根ID直接相符的URL，都會導致整個請求發生API錯誤。 CDN不支援且認為無效的任何無效URL，也會導致整個請求的API錯誤。
+CDN快取失效會強制這些URL的所有HTTP請求，在透過CDN網路處理此無效請求後，就會根據Dynamic Media網路上目前發佈的資料重新驗證。 任何未連線至Dynamic Media服務URL結構且在建立公司時直接符合指派給Dynamic Media公司的根ID的URL，都會導致整個請求的API錯誤。 任何CDN不支援且認為無效的URL，也會導致整個請求的API錯誤。
 
 **使用頻率：規則**
 
-控制此功能使用頻率的規則由Dynamic Media的CDN合作夥伴控制。 CDN保留降低這些無效回應的酌情權，以維持其服務對其使用者的最佳效能。 如果Dynamic Media收到過度使用此功能的通知，我們必須針對每個公司或整個服務禁用此功能。
+Dynamic Media的CDN合作夥伴可控制使用此功能頻率的規則。 CDN仍可自行決定降低這些無效判定的回應速度，以維持其服務對使用者的最佳效能。 如果Dynamic Media收到過度使用此功能的通知，我們需要針對每個公司或整個服務使用停用此功能。
 
 **確認電子郵件**
 
-來自Dynamic MediaCDN合作夥伴的確認電子郵件可傳送至清單的建立者，或最多5個其他電子郵件地址。 當通知整個CDN網路已清除電子郵件中參考的URL時，API會傳送確認。 如果提供的URL數量超過Dynamic Media在單一通知上可傳送給CDN合作夥伴的數量，則單一呼叫`cdnCacheInvalidation`可傳送多封電子郵件。 目前，這是當要求超過100個URL時，但可能會根據CDN合作夥伴的要求而變更。
+Dynamic Media CDN合作夥伴的確認電子郵件可傳送給清單的建立者，或最多5個其他電子郵件地址。 當通知整個CDN網路已清除電子郵件中參考的URL時，API會傳送確認。 如果提供的URL數量超過Dynamic Media可在單一通知上傳送給CDN合作夥伴的數量，則對`cdnCacheInvalidation`的單一呼叫可傳送多封電子郵件。 目前則是當請求超過100個URL時，但可能會根據CDN合作夥伴的請求而有所變更。
 
-**支援自**
+**支援時間**
 
 6.0
 
-## 授權用戶類型{#section-0d7895e733d54fb68beb8d231a04e4c9}
+## 授權的使用者類型 {#section-0d7895e733d54fb68beb8d231a04e4c9}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
 
 ## 參數 {#section-bd1ed2b7419945d19a2ebd5668499f72}
 
-**Input** ( `cdnCacheInvalidationParam`)
+**輸入** ( `cdnCacheInvalidationParam`)
 
 <table id="table_EDD1875264C846BE951869D528A90D73"> 
  <thead> 
@@ -56,13 +55,13 @@ CDN快取失效會強制這些URL的所有HTTP要求，在此失效要求透過C
    <td> <p> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td> <p> <span class="codeph"> xsd:string</span> </p> </td> 
    <td> <p> 是 </p> </td> 
-   <td> <p> 與URL連接的公司的控制代碼無效。 </p> </td> 
+   <td> <p> 與URL連結之公司的控制代碼，要使其失效。 </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> <span class="varname"> urlArray</span> </span> </p> </td> 
    <td> <p> <span class="codeph"> 類型：UrlArray</span> </p> </td> 
    <td> <p> 是 </p> </td> 
-   <td> <p> 從CDN快取中失效的URL清單最多達1000個。 所有URL都必須包含要失效的Dynamic Media公司根ID。 </p> </td> 
+   <td> <p> 從CDN快取失效的最多1000個URL清單。 所有URL都必須包含要失效的Dynamic Media公司根ID。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -83,23 +82,23 @@ CDN快取失效會強制這些URL的所有HTTP要求，在此失效要求透過C
    <td colname="col1"> <p><span class="codeph"><span class="varname"> invalidationHandle</span></span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>引用清除請求的句柄。 </p> <p><span class="codeph"> cdnCacheInvaliting</span> API現在幾乎立即使快取失效（~5秒）。 因此，通常不再需要輪詢失效狀態。 </p> 
+   <td colname="col4"> <p>引用清除請求的句柄。 </p> <p><span class="codeph"> cdnCacheInvalidation</span> API現在幾乎立即讓快取失效（~5秒）。 因此，無效狀態的輪詢通常不再需要。 </p> 
     <!--<p>The next three paragraphs were added as per CQDOC-13840 With the migration from Akamai v2 API's to fast purge, purging time is now approximately 5 seconds. You are no longer required to poll on the purge URL to find out the status of the purge request.</p>--> 
     <!--<p>The cache invalidation handle used to contained the company ID, the user account type used (small or large), and the purge url. With the release of 2019R1, <codeph>invalidationHandle</codeph> now contains just the company ID and the purge ID. </p>--> 
     <!--<p>Prior to 2019R1, two different Akamai users were being used for each geography (for example, <codeph>cdninvalidatesmallemea</codeph> and <codeph>cdninvalidatelargeemea</codeph>) to invalidate requests, depending on the number of URLs in each request. This functionality was done so that a small request was not blocked because of a large request. Now, with fast purge in 2019R1, the purge is nearly instantaneous, two users are no longer needed, and only one account is used. </p>--> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> 估計秒數</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> estimatedSeconds</span></span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>完成清除請求的預計秒數。 客戶端應等待此時間，才能輪詢狀態。 </p> </td> 
+   <td colname="col4"> <p>完成清除請求的估計秒數。 用戶端應等待此時間再進行輪詢狀態。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 範例 {#section-f414361a58e84dfcbbac30a358d02125}
 
-此範例要求在CDN快取中使四個URL無效。 回應包含操作成功的摘要計數和直接從CDN提供的錯誤詳細資料清單，以協助用戶端使用此功能。
+此範例會要求CDN快取中的四個URL失效。 回應包含作業成功的摘要計數，以及直接從CDN提供的錯誤詳細資訊清單，以協助用戶端使用此功能。
 
 `getCdnCacheInvalidationStatus` 作業.
 
@@ -126,4 +125,3 @@ CDN快取失效會強制這些URL的所有HTTP要求，在此失效要求透過C
    <errorCount>0</errorCount>
 </cdnCacheInvalidationReturn>
 ```
-
