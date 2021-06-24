@@ -4,34 +4,33 @@ solution: Experience Manager
 title: 命令參考
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 959cb193-d0b7-4aa9-a747-fa17484f80c7
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '218'
 ht-degree: 10%
 
 ---
-
 
 # 命令參考{#command-reference}
 
 本節介紹HTTP協定命令。
 
-**Dynamic MediaAEM**:除了使用者介面中提供的基本影像設定外，( [!DNL Dynamic Media] AEM)中還支援許多您可在「影像修改者 [!DNL Adobe Experience Manager]場」中指定的進階 **** 影像修改。這些參數定義如下。 但請注意，Dynamic Media不支援下列功能AEM。
+**僅限AEM中的Dynamic Media**:除了使用者介面中可用的基本影像設定，  [!DNL Dynamic Media] AEM( [!DNL Adobe Experience Manager])中支援許多進階影像修改，您可以在「影像修改者」 **欄位中** 指定。這些參數定義如下。 但請注意，AEM中的Dynamic Media不支援下列功能。
 
-* 色彩校正指令：`icc=`和`iccEmbed=`。
-* 基本範本和文字轉換指令：`text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=`和`textPs=`。
+* 顏色校正命令：`icc=`和`iccEmbed=`。
+* 基本模板和文本呈現命令：`text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=`和`textPs=`。
 * 本地化命令：`locale=`和`req=xlate`。
 * `req=set` 無法用於一般用途。
 * `req=mbrset`
 * `req=saveToFile`
 * `req=targets`
 * `template=`
-* 非核心Dynamic Media服務：SVG、影像轉換和網路印刷。
+* 非核心Dynamic Media服務：SVG、影像轉譯和網路至列印。
 
 <!-- Adobe IS command examples website  http://sj1010010254235.corp.adobe.com/iscommands/ -->
 
-另請參閱6.5文檔中的Dynamic Media[影像預設選項AEM](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic)。
+另請參閱AEM 6.5檔案中的Dynamic Media [影像預設集選項](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic)。
 
 * [對齊](r-align.md)
 * [錨記](r-anchor.md)
@@ -42,7 +41,7 @@ ht-degree: 10%
 * [快取](r-is-http-cache.md)
 * [clipPath](r-clippath.md)
 * [clipXPath](r-clipxpath.md)
-* [color](r-color-commandref.md)
+* [色彩](r-color-commandref.md)
 * [裁切](r-crop.md)
 * [cropPathE](r-croppath.md)
 * [defaultImage](r-is-http-defaultimage.md)
@@ -59,7 +58,7 @@ ht-degree: 10%
 * [id](r-id.md)
 * [imageSet](r-imageset.md)
 * [jpegSize](r-jpegsize.md)
-* [圖層](r-layer.md)
+* [層](r-layer.md)
 * [地區設定](r-locale.md)
 * [地圖](r-map.md)
 * [遮罩](r-mask.md)
@@ -68,7 +67,7 @@ ht-degree: 10%
 * [op_brightness](r-op-brightness.md)
 * [op_colorbalance](r-op-colorbalance.md)
 * [op_colorize](r-op-colorize.md)
-* [op_contrast](r-op-contrast.md)
+* [op_contript](r-op-contrast.md)
 * [op_grow](r-op-grow.md)
 * [op_growMask](r-op-growmask.md)
 * [op_growMaskR](r-op-growmaskr.md)
@@ -88,13 +87,13 @@ ht-degree: 10%
 * [printRes](r-printres.md)
 * [pscan](r-pscan.md)
 * [qlt](r-is-http-qlt.md)
-* [量化](r-is-http-quantize.md)
-* [rect](r-rect.md)
-* [requin](r-req/r-req.md)
+* [數量](r-is-http-quantize.md)
+* [正確](r-rect.md)
+* [請求](r-req/r-req.md)
 * [res](r-res.md)
 * [resMode](r-is-http-resmode.md)
 * [rgn](r-rgn.md)
-* [rotate](r-rotate.md)
+* [旋轉](r-rotate.md)
 * [scale](r-is-http-scale.md)
 * [scl](r-scl.md)
 * [大小](r-size-reference.md)
@@ -107,6 +106,6 @@ ht-degree: 10%
 * [textFlowXPath](r-textflowxpath.md)
 * [textPath](r-textpath.md)
 * [textPs](r-textps.md)
-* [類型](r-type.md)
+* [type](r-type.md)
 * [wid](r-is-http-wid.md)
 * [xmpEmbed](r-xmpembed.md)
