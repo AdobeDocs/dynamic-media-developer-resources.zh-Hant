@@ -2,16 +2,15 @@
 description: ThumbnailGridView.align
 solution: Experience Manager
 title: ThumbnailGridView.align
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic，檢視器，SDK/API,eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: e26ee733-263d-4a6b-a37b-65b9fa1376c8
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 4%
+source-wordcount: '79'
+ht-degree: 5%
 
 ---
-
 
 # ThumbnailGridView.align{#thumbnailgridview-align}
 
@@ -20,8 +19,8 @@ ht-degree: 4%
 <table id="table_95890560230C48BBB03A8082F56382CA"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> left|center|right</span> </p> </td> 
-   <td> <p> 指定縮圖容器在元件區域內的內部水準對齊（錨點）。 在ThumbnailGridView中，內部縮圖容器的大小會調整，因此只會顯示整數個縮圖。 因此，內部容器和外部元件邊界之間會有一些間距。 此修飾元可指定內部縮圖容器在元件內的水準放置方式。 </p> </td> 
+   <td> <p> <span class="codeph"> 左|中|右</span> </p> </td> 
+   <td> <p> 指定元件區域內縮圖容器的內部水準對齊（錨定）。 在ThumbnailGridView中，內部縮圖容器的大小為，因此只顯示整數縮圖。 因此，內部容器和外部元件界限之間會有一些邊框間距。 此修飾符指定內部縮圖容器在元件內水準放置的方式。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
