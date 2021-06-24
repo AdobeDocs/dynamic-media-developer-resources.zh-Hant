@@ -4,14 +4,13 @@ solution: Experience Manager
 title: updateFolderPermissions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 4e4f382e-4339-4b9d-a721-d33a4fa8be6b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 17%
+source-wordcount: '77'
+ht-degree: 18%
 
 ---
-
 
 # updateFolderPermissions{#updatefolderpermissions}
 
@@ -19,7 +18,7 @@ ht-degree: 17%
 
 語法
 
-## 授權用戶類型{#section-e5c2217231bf4b3386e0ab3f2e9aca0b}
+## 授權的使用者類型 {#section-e5c2217231bf4b3386e0ab3f2e9aca0b}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -33,12 +32,12 @@ ht-degree: 17%
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | 是 | 公司負責人。 |
 | `*`folderHandle`*` | `xsd:string` | 是 | 資料夾句柄。 |
-| `*`updateChildren`*` | `xsd:boolean` | 是 | 確定是否使用為頂層資料夾設定的權限來更新子項。 |
+| `*`updateChildren`*` | `xsd:boolean` | 是 | 確定是否使用為頂層資料夾設定的權限更新子項。 |
 | `*`updateArray`*` | `types:PermissionUpdateArray` | 是 | 您要套用至資料夾的權限更新陣列。 |
 
 **輸出(updateFolderPermissionsReturn)**
 
-IPS API不會傳回此作業的回應。
+IPS API不會針對此操作傳回回應。
 
 ## 範例 {#section-c3fe4d4388674870a3856c35ef66b631}
 
