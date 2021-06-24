@@ -4,14 +4,13 @@ solution: Experience Manager
 title: IccProfileFieldUpdate
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: b988a430-8ed6-456b-b37b-b4185c5d3b32
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 9%
+source-wordcount: '59'
+ht-degree: 10%
 
 ---
-
 
 # IccProfileFieldUpdate{#iccprofilefieldupdate}
 
@@ -25,6 +24,5 @@ ht-degree: 9%
 |---|---|---|
 | `*`assetHandle`*` | `xsd:string` | 要更新的ICC配置檔案資產的處理。 |
 | `*`類別`*` | `xsd:string` | 配置檔案類（有關值，請參閱「配置檔案類」）。 |
-| `*`colorSpace`*` | `xsd:string` | 描述檔色域（如需值，請參閱「色域」）。 |
-| `*`pcsType`*` | `xsd:string` | 描述檔連線空間（如需值，請參閱「色域」）。 |
-
+| `*`colorSpace`*` | `xsd:string` | 描述檔色彩空間（如需值，請參閱「色彩空間」）。 |
+| `*`pcsType`*` | `xsd:string` | 設定檔連線空間（如需值，請參閱「顏色空間」）。 |
