@@ -1,33 +1,32 @@
 ---
-description: 伺服器快取驗證原則。 指定何時驗證伺服器端快取條目。
+description: 伺服器快取驗證策略。 指定何時驗證伺服器端快取項目。
 solution: Experience Manager
 title: CacheValidationPolicy
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: e52577ba-d085-41f5-ad15-48e5a319e344
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '109'
 ht-degree: 3%
 
 ---
 
-
 # CacheValidationPolicy{#cachevalidationpolicy}
 
-伺服器快取驗證原則。 指定何時驗證伺服器端快取條目。
+伺服器快取驗證策略。 指定何時驗證伺服器端快取項目。
 
-透過基於有效期的驗證，會定期檢查來源資料和暈映，以查看它們是否已變更。 透過型錄式驗證，來源影像只會在`catalog::TimeStamp`值變更後進行檢查。
+透過基於過期的驗證，會定期檢查來源材料和暈映，以查看它們是否已變更。 在基於目錄的驗證中，僅當`catalog::TimeStamp`值更改後才檢查源影像。
 
-同時使用材質和暈映型錄時，建議使用型錄式驗證。 當透過路徑直接參照影像演算請求中的暈映時，應使用期限型驗證。
+同時使用物料和暈映目錄時，建議使用基於目錄的驗證。 當影像轉譯請求中直接依路徑參考暈映時，應使用過期式驗證。
 
 ## 屬性 {#section-46e13cb341eb442c86e0d8292de23ea0}
 
-列舉。 0，以選取過期驗證。 1：選擇基於目錄的快取驗證。
+列舉。 0以選取過期驗證。 1選擇基於目錄的快取驗證。
 
 ## 預設 {#section-e09f3af8b6b3497d963199988dc5345d}
 
-如果未定義或為空，則繼承自`default::CacheValidationPolicy`。
+如果未定義或為空，則從`default::CacheValidationPolicy`繼承。
 
 ## 另請參閱 {#section-b374e4d908e24af8995b2b376ca1be8b}
 
