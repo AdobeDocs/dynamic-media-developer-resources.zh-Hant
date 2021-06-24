@@ -2,14 +2,13 @@
 description: 互動式視訊檢視器的設定屬性。
 solution: Experience Manager
 title: callToActionRecap
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic，檢視器， SDK/API，互動式影片
 role: Developer,Business Practitioner
 exl-id: a91c957f-5ad2-4022-afde-de129b060576
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 11%
+source-wordcount: '41'
+ht-degree: 12%
 
 ---
 
@@ -23,7 +22,7 @@ ht-degree: 11%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 指出檢視器在視訊播放結束時是否顯示「行動要求」面板。 </p> </td> 
+   <td colname="col2"> <p> 指出檢視器在視訊播放結束時是否顯示「動作呼叫」面板。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
