@@ -4,14 +4,13 @@ solution: Experience Manager
 title: 使用者資料
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 4994c91c-52d7-473d-88ee-f136c4193c40
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '128'
 ht-degree: 8%
 
 ---
-
 
 # 使用者資料{#userdata}
 
@@ -19,9 +18,9 @@ ht-degree: 8%
 
 ## 屬性 {#section-06f2002b77d54a64be07f12fff54ad13}
 
-文字字串值。 建議使用[屬性data](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-common-data-types/r-property-data.md)格式。 如果未使用屬性資料格式，文字字串不得包含&#39;=&#39;字元。
+文字字串值。 建議使用[屬性資料](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-common-data-types/r-property-data.md)格式。 如果未使用屬性資料格式，則文本字串不得包含「=」字元。
 
-縮放、回轉和手冊檢視器用戶端會假設此欄位使用屬性資料格式。 這些用戶端使用此欄位進行檢視器設定和自訂。 如需詳細資訊，請參閱檢視器檔案。
+縮放、回轉和手冊檢視器用戶端會假設此欄位使用屬性資料格式。 這些用戶端會使用此欄位進行檢視器設定和自訂。 如需詳細資訊，請參閱檢視器檔案。
 
 此欄位參與文字字串本地化。 如需詳細資訊，請參閱&#x200B;*HTTP通訊協定參考*&#x200B;中的[文字字串本地化](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)。
 
@@ -31,4 +30,4 @@ ht-degree: 8%
 
 ## 另請參閱 {#section-e07a022933b2461d9c37b1f188aa8fb5}
 
-[req=userdata](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md) ，文字字 [串本地化](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)
+[req=userdata](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md) ，文字 [字串本地化](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)
