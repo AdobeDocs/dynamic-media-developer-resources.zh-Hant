@@ -2,16 +2,15 @@
 description: stageSize
 solution: Experience Manager
 title: stageSize
-feature: Dynamic Media Classic,Viewers,SDK/API
+feature: Dynamic Media Classic，檢視器，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 3f93b479-f5da-47a0-b80c-c23c1460e8e1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '64'
 ht-degree: 7%
 
 ---
-
 
 # stageSize{#stagesize}
 
@@ -19,13 +18,13 @@ ht-degree: 7%
 >
 >此屬性適用於縮放檢視器、視訊檢視器、回轉檢視器、互動式影像檢視器、互動式視訊檢視器和轉盤檢視器。
 
-`stageSize= *`寬`*, *`高`*`
+`stageSize= *``*, *`widthheight`*`
 
 <table id="table_0070E5402099428DBEA2A900CADB2BAA"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> 寬度</span>，高<span class="varname"> 度</span></span> </p> </td> 
-   <td colname="col2"> <p> 檢視器的整體寬度和高度。 <span class="codeph"> 0,0</span>的值表示檢視器會根據CSS規則和網頁版面配置來調整大小。 </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> 寬度</span>,<span class="varname"> 高度</span></span> </p> </td> 
+   <td colname="col2"> <p> 檢視器的整體寬度和高度。 <span class="codeph"> 0,0</span>值表示檢視器的大小是根據CSS規則和網頁版面配置。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
