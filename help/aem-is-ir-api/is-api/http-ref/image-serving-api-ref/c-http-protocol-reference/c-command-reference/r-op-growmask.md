@@ -1,32 +1,31 @@
 ---
-description: 膨脹／腐蝕影像。 對遮色片資料套用形態膨脹（半徑> 0）或腐蝕（半徑< 0）。
+description: 膨脹/腐蝕影像。 將形態膨脹（半徑> 0）或腐蝕（半徑< 0）套用至遮色片資料。
 solution: Experience Manager
 title: op_growMask
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 322d97af-bb1b-44bb-90f1-cda9984b78b5
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '106'
 ht-degree: 3%
 
 ---
 
-
 # op_growMask{#op-growmask}
 
-膨脹／腐蝕影像。 對遮色片資料套用形態膨脹（半徑> 0）或腐蝕（半徑&lt; 0）。
+膨脹/腐蝕影像。 將形態膨脹（半徑> 0）或腐蝕（半徑&lt; 0）套用至遮色片資料。
 
 `op_growMask= *`半徑`*`
 
 <table id="simpletable_3BAA4523D29E447FA7A4C9009B3E8344"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> 半徑</span> </p> </td> 
-  <td class="stentry"> <p>放大／腐蝕半徑（以像素為單位），其中半徑假設套用至完整解析度遮色片，因此會針對縮減取樣遮色片縮小(int -100..100)。 </p></td> 
+  <td class="stentry"> <p>以像素表示的擴展/腐蝕半徑，其中半徑假定應用於全解析度遮色片，因此縮小取樣遮色片的半徑(int -100..100)。 </p></td> 
  </tr> 
 </table>
 
-主要用於微幅生長或收縮遮色片，以避免遮色片邊緣周圍出現偽影。
+主要用於稍微生長或縮小遮罩以避免遮罩邊緣周圍出現偽影。
 
 ## 屬性 {#section-b1c66d65168d4ea695e8662ea690bd4e}
 
@@ -34,7 +33,7 @@ ht-degree: 3%
 
 ## 預設 {#section-14c908bb87cb42acbea709effea2f964}
 
-`op_growMask=0`，而無變更。
+`op_growMask=0`，無變更。
 
 ## 另請參閱 {#section-ad3e5cecfc3448a38ea06093e015c88a}
 
