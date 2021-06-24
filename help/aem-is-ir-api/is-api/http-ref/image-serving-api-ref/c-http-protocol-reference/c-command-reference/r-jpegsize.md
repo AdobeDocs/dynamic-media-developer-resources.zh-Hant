@@ -1,21 +1,20 @@
 ---
-description: Jpeg大小（以千位元組為單位）。 指定JPEG回應的最大大小（以千位元組為單位）。
+description: Jpeg大小（以千位元組為單位）。 指定JPEG響應的最大大小（千位元組）。
 solution: Experience Manager
 title: jpegSize
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 08cecb09-100f-4671-b335-d59c88b0e1ef
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '162'
 ht-degree: 4%
 
 ---
 
-
 # jpegSize{#jpegsize}
 
-Jpeg大小（以千位元組為單位）。 指定JPEG回應的最大大小（以千位元組為單位）。
+Jpeg大小（以千位元組為單位）。 指定JPEG響應的最大大小（千位元組）。
 
 `jpegSize= *`大小`*`
 
@@ -26,15 +25,15 @@ Jpeg大小（以千位元組為單位）。 指定JPEG回應的最大大小（�
  </tr> 
 </table>
 
-如果此值設為正值，且具有指定JPEG品質的JPEG回應未超過此值，則會傳回該影像作為回應。 否則，JPEG品質會降低，直到產生符合指定大小的影像，或直到它判斷不符合為止。 在後一種情況下，請求失敗並出現錯誤。
+如果此設定為正值，並且具有指定JPEG質量的JPEG響應未超過此值，則該影像作為響應返回。 否則，JPEG質量會降低，直到它產生適合指定大小的影像，或直到它確定它不能適合為止。 在後一種情況下，請求會因錯誤而失敗。
 
 值0表示響應不受大小限制。
 
-不允許負值。
+不允許使用負值。
 
 ## 屬性 {#section-19e544e77d35478b98fe8666f27d6968}
 
-請求屬性。 不論目前的圖層設定如何，都適用。 如果輸出影像格式不是JPEG，則忽略。
+要求屬性。 無論目前的層設定為何皆適用。 如果輸出影像格式不是JPEG，則忽略。
 
 ## 預設 {#section-198b798ed187453197e0969c641d6fb5}
 
@@ -42,7 +41,7 @@ Jpeg大小（以千位元組為單位）。 指定JPEG回應的最大大小（�
 
 ## 範例 {#section-46bf806fd3ef4875b7726df32b6f834d}
 
-保證大小不會太大，無法傳送至記憶體有限的裝置：
+保證大小不會太大，無法傳遞到記憶體有限的設備：
 
 `http://server/myRoodId/myImageId?qlt=60&wid=300&jpegSize=10`
 
