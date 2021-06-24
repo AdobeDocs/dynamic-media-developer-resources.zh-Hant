@@ -1,25 +1,24 @@
 ---
-description: 根據傳入的參數傳回2種不同的資訊類型。 originatorHandle返回有關從指定資產生成的資產的資訊。 generateHandle返回有關用於生成指定資產或檔案的步驟的資訊。
+description: 根據傳入的參數傳回2種不同的資訊。 originator處理返回有關從指定資產生成的資產的資訊。 generateHandle返回有關用於生成指定資產或檔案的步驟的資訊。
 solution: Experience Manager
 title: getGenerationInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: fa098e3c-8145-4238-a84c-c545f1c53341
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '201'
 ht-degree: 9%
 
 ---
 
-
 # getGenerationInfo{#getgenerationinfo}
 
-根據傳入的參數傳回2種不同的資訊類型。 originatorHandle返回有關從指定資產生成的資產的資訊。 generateHandle返回有關用於生成指定資產或檔案的步驟的資訊。
+根據傳入的參數傳回2種不同的資訊。 originator處理返回有關從指定資產生成的資產的資訊。 generateHandle返回有關用於生成指定資產或檔案的步驟的資訊。
 
 語法
 
-## 授權用戶類型{#section-9cc2216b32c74107be07aeacecc11401}
+## 授權的使用者類型 {#section-9cc2216b32c74107be07aeacecc11401}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -37,22 +36,22 @@ ht-degree: 9%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`程式碼片語`*` | `xsd:string` | 是 | 公司的把手。 |
-| `*`程式碼片語`*` | `xsd:string` | 否 | 這代人使用的引擎。 請參閱字型樣式。 |
-| `*`程式碼片語`*` | `xsd:string` | 否 | 要查詢已生成資產的資產的句柄。 |
-| `*`程式碼片語`*` | `xsd:string` | 否 | 要查詢資產及其生成中使用的資產和引擎的資產句柄。 |
-| `*`程式碼片語`*` | `xsd:StringArray` | 否 | 操作中包含的屬性。 |
-| `*`程式碼片語`*` | `xsd:StringArray` | 否 | 從操作中排除的屬性。 |
+| `*`代碼片語`*` | `xsd:string` | 是 | 公司的把手。 |
+| `*`代碼片語`*` | `xsd:string` | 否 | 那代人用的引擎。 請參閱字型樣式。 |
+| `*`代碼片語`*` | `xsd:string` | 否 | 要查詢所產生資產的資產處理。 |
+| `*`代碼片語`*` | `xsd:string` | 否 | 要查詢用於產生資產和引擎的資產處理。 |
+| `*`代碼片語`*` | `xsd:StringArray` | 否 | 操作中包含的屬性。 |
+| `*`代碼片語`*` | `xsd:StringArray` | 否 | 從操作中排除的屬性。 |
 
 **輸出(getGenerationInfoReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`generationArray`*` | `types:GenerationInfoArray` | 是 | 層代資訊的陣列。 |
+| `*`generationArray`*` | `types:GenerationInfoArray` | 是 | 生成資訊的陣列。 |
 
 ## 範例 {#section-fdffe6ed82d94c7aa90e47f7ce889403}
 
-此程式碼範例會傳回特定資產所產生的資產資訊。 它不會擷取有關用來產生指定資產之步驟的資訊。 回應會因簡短而截斷。
+此程式碼範例會傳回從特定資產產生的資產相關資訊。 它不會擷取用於產生指定資產之步驟的相關資訊。 回應會為簡潔而截斷。
 
 **請求**
 
@@ -78,4 +77,3 @@ ht-degree: 9%
    </generationArray>
 </getGenerationInfoReturn>
 ```
-
