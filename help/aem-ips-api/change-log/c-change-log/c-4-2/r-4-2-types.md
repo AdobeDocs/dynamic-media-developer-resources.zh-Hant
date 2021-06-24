@@ -1,50 +1,49 @@
 ---
-description: 說明IPS API 4.2版的新資料類型和變更的資料類型。
+description: 說明IPS API 4.2版的新資料類型和已變更的資料類型。
 solution: Experience Manager
 title: 資料類型新增和修改
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 3917e778-bd28-4047-b9f8-3063f136e492
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '56'
 ht-degree: 3%
 
 ---
 
-
 # 資料類型：新增和修改{#data-types-new-and-modified}
 
-說明IPS API 4.2版的新資料類型和變更的資料類型。
+說明IPS API 4.2版的新資料類型和已變更的資料類型。
 
 語法
 
-## 新類型{#section-770a814386a44478881feeff2b6f65f5}
+## 新類型 {#section-770a814386a44478881feeff2b6f65f5}
 
 * `AudioInfo`
 * `CuePointInfo`
 * `PdfSettings`
 * `PremeierExpressRemixInfo`
 
-## 修改的類型{#section-6c42b62dd91c4e9bb3a067b9abe3adee}
+## 修改的類型 {#section-6c42b62dd91c4e9bb3a067b9abe3adee}
 
 **資產**
 
-已新增參數：
+新增參數：
 
 * `readyForPublish`
 * `trashState`
 * `MaskInfo`
 * `RTFInfo`
 
-已移除參數：
+移除的參數：
 
 * `ImageSetInfo`
 * `RenderSetInfo`
 
-**重新處理AssetsJob**
+**ReprocessAssetsJob**
 
-已新增參數：
+新增參數：
 
 * `preservePublishState`
 * `preserveCrop`
@@ -52,7 +51,7 @@ ht-degree: 3%
 
 **UploadDirectoryJob**
 
-已新增參數：
+新增參數：
 
 * `preservePublishState`
 * `preserveCrop`
@@ -60,8 +59,7 @@ ht-degree: 3%
 
 **UploadUrlsJob**
 
-已新增參數：
+新增參數：
 
 * `preservePublishState`
 * `preserveCrop`
-
