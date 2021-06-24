@@ -4,14 +4,13 @@ solution: Experience Manager
 title: generatePassword
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 80e7642f-4aec-4ff0-a090-e59b7a065c39
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '64'
 ht-degree: 18%
 
 ---
-
 
 # generatePassword{#generatepassword}
 
@@ -19,7 +18,7 @@ ht-degree: 18%
 
 語法
 
-## 授權用戶類型{#section-88f7dc11e5c74be281399d8f2e3c9555}
+## 授權的使用者類型 {#section-88f7dc11e5c74be281399d8f2e3c9555}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -45,7 +44,7 @@ ht-degree: 18%
 
 ## 範例 {#section-f580fefdccec46fe95359e3aef0ed17f}
 
-此程式碼範例會產生密碼。 這很不尋常，因為請求只是不含任何封閉元素或值的參數。 IPS返回強口令。
+此程式碼範例會產生密碼。 這很不尋常，因為要求只是沒有任何封閉元素或值的參數。 IPS返回強密碼。
 
 **請求**
 
@@ -61,4 +60,3 @@ ht-degree: 18%
    <password>1\7aQRn]</password>
 </generatePasswordReturn>
 ```
-
