@@ -1,39 +1,38 @@
 ---
-description: 使用這些步驟，在Windows上首次安裝Image Serving。
+description: 使用這些步驟在Windows上首次安裝映像服務。
 solution: Experience Manager
 title: 首次安裝
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 4e34d78c-1b5b-45cf-acc5-ff12cbc6ed01
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---
 
-
 # 首次安裝{#installing-for-the-first-time}
 
-使用這些步驟，在Windows上首次安裝Image Serving。
+使用這些步驟在Windows上首次安裝映像服務。
 
-1. 使用管理權限登錄到伺服器主機。
-1. 如果您已收到授權，請將它複製至您的伺服器，然後連按兩下檔案以執行授權安裝。
+1. 以管理權限登入您的伺服器主機。
+1. 如果您已收到許可證，請將其複製到伺服器，然後按兩下該檔案運行許可證安裝。
 
-   如果您尚未取得授權，則可繼續安裝，稍後再安裝授權。
-1. 解壓縮「影像伺服」散發zip檔案的內容。
+   如果您尚未獲得許可證，則可以繼續安裝，並稍後安裝該許可證。
+1. 解壓縮Image Serving分送Zip檔案的內容。
 1. 運行[!DNL setup]/ [!DNL setup.exe]以啟動安裝嚮導。
-1. 按一下「下一步」進入最終用戶許可協定(EULA)，閱讀許可協定，然後按一下&#x200B;**[!UICONTROL 是]**。
+1. 按一下「下一步」以前往「最終用戶許可協定」(EULA)，閱讀許可協定，然後按一下「**[!UICONTROL Yes]**」。
 
-   下面將顯示[!DNL Authentication]對話框。
-1. 如果已安裝許可證，且許可證資訊顯示在[!DNL Authentication]對話框中，請按一下&#x200B;**[!UICONTROL Next]**&#x200B;繼續。
+   「[!DNL Authentication]」對話框隨即顯示。
+1. 如果已安裝許可證，並且許可證資訊顯示在[!DNL Authentication]對話框中，按一下&#x200B;**[!UICONTROL Next]**&#x200B;繼續。
 
-   如果您沒有授權，請按一下「請求授權」**[!UICONTROL 。]**&#x200B;下一個對話框顯示您電腦的一個網路介面卡MAC地址。 以電子郵件寄送此MAC位址、您的公司名稱，以及您要安裝的產品，並依照提示進行指示。
+   如果您沒有許可證，請按一下「請求許可證」****。 下一個對話框顯示您電腦的網路介面卡MAC地址之一。 以電子郵件傳送此MAC地址、您的公司名稱，以及您要安裝的產品，如提示所指示。
 
-   **重要：** 此許可證基於安裝在此主機上的其中一個網路介面卡的MAC地址。如果您停用、移除或更換此卡片，將不會再將授權辨識為有效。 請務必為要用於IS的硬體配置獲取許可證。
+   **重要：** 此許可證基於此主機上安裝的其中一個網路介面卡的MAC地址。如果禁用、刪除或更換此卡，則不再將許可證識別為有效。 請務必取得要用於IS的硬體配置的許可證。
 
-   您可以繼續安裝IS（沒有有效的授權），稍後再安裝該授權。 要繼續，按一下&#x200B;**[!UICONTROL Back]**&#x200B;返回[!DNL Authentication]對話框，然後按一下&#x200B;**[!UICONTROL Next]**。
-1. 繼續至「平台伺服器管理設定」頁面。 根據需要輸入新值或接受預設值。
+   您可以繼續安裝IS（沒有有效的許可證），然後安裝該許可證。 若要繼續，請按一下&#x200B;**[!UICONTROL Back]**&#x200B;返回[!DNL Authentication]對話框，然後按一下&#x200B;**[!UICONTROL Next]**。
+1. 繼續前往「Platform Server管理設定」頁面。 視需要輸入新值或接受預設值。
 
    您可以設定下列項目：
 
@@ -41,7 +40,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td> <p> 平台伺服器HTTP連接埠 </p> </td> 
-   <td> <p>影像服務與影像轉換的主HTTP監聽埠 </p> </td> 
+   <td> <p>影像提供與影像轉譯的主要HTTP監聽埠 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> 管理員監聽埠 </p> </td> 
@@ -58,8 +57,8 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-指定的埠號必須是唯一的，不能用於其他應用程式或服務。
+指定的埠號必須是唯一的，並且不被其他應用程式或服務使用。
 
-下一個畫面提供檢閱所選設定的機會。
+下一個螢幕提供了查看所選設定的機會。
 1. 按一下&#x200B;**[!UICONTROL Back]**&#x200B;進行更改，或按一下&#x200B;**[!UICONTROL Next]**&#x200B;開始安裝。
 1. 按一下&#x200B;**[!UICONTROL 完成]**&#x200B;退出安裝嚮導。
