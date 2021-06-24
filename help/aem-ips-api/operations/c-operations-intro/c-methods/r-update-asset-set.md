@@ -2,16 +2,15 @@
 description: 更新資產集。
 solution: Experience Manager
 title: updateAssetSet
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API，資產管理
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: af7899c4-a95f-42c8-858e-ed1592c6f5b6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 19%
+source-wordcount: '84'
+ht-degree: 20%
 
 ---
-
 
 # updateAssetSet{#updateassetset}
 
@@ -25,10 +24,10 @@ ht-degree: 19%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 包含您要修改之影像集之公司的控制代碼。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 包含要修改的影像集的公司的句柄。 |
 | `*`assetHandle`*` | `xsd:string` | 是 | 要修改的影像集的控點。 |
-| `*`setDefinition`*` | `xsd:string` | 否 | 重設影像整合員。 |
-| `*`thumbAssetHandle`*` | `xsd:string` | 否 | 當做影像集縮圖的資產控點。 |
+| `*`setDefinition`*` | `xsd:string` | 否 | 重置映像整合員。 |
+| `*`thumbAssetHandle`*` | `xsd:string` | 否 | 作為影像集縮圖的資產控點。 |
 
 **輸出(updateAssetSetReturn)**
 
@@ -54,4 +53,3 @@ ht-degree: 19%
 ```java
 <updateAssetSetReturn xmlns="http://www.scene7.com/IpsApi/xsd/2014-04-03"/>
 ```
-
