@@ -30,7 +30,7 @@ ht-degree: 0%
 
 請參閱[系統要求](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842)。
 
-## 使用轉盤檢視器{#section-e6c68406ecdc4de781df182bbd8088b4}
+## 使用轉盤檢視器 {#section-e6c68406ecdc4de781df182bbd8088b4}
 
 轉盤檢視器代表主要JavaScript檔案和一組協助檔案（單一JavaScript包含此特定檢視器、資產、CSS所使用的所有檢視器SDK元件），由檢視器在執行階段下載。
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 請參閱所有檢視器通用的[命令參考 — 設定屬性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)和所有檢視器通用的[命令參考 — URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
-## 與轉盤檢視器互動{#section-642e66ca38cd4032992840ec6c0b0cd2}
+## 與轉盤檢視器互動 {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
 在轉盤集中導覽是使用在主檢視上水準滑動，或在案頭裝置上提供兩個箭頭按鈕來完成。 設定指示點顯示設定內的當前位置。
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 請參閱[鍵盤輔助功能和導航](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861)。
 
-## 內嵌轉盤檢視器{#section-6bb5d3c502544ad18a58eafe12a13435}
+## 內嵌轉盤檢視器 {#section-6bb5d3c502544ad18a58eafe12a13435}
 
 **關於快顯模式**
 
