@@ -2,16 +2,15 @@
 description: ThumbnailGridView.fmt
 solution: Experience Manager
 title: ThumbnailGridView.fmt
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic，檢視器，SDK/API,eCatalog搜尋
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: ff57762e-05f5-41c1-956f-39280941eeb1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '73'
 ht-degree: 5%
 
 ---
-
 
 # ThumbnailGridView.fmt{#thumbnailgridview-fmt}
 
@@ -20,8 +19,8 @@ ht-degree: 5%
 <table id="table_4620F51BD77149FDB68F1FBECC443801"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td> <p>指定元件用於從Image Server載入映像的映像格式。 它可以是Image Server和客戶端瀏覽器支援的任何值。 如果指定的格式以<span class="codeph"> -alpha</span>結尾，則元件會將影像渲染為透明內容。 對於所有其他影像格式，元件會將影像視為不透明。 </p> </td> 
+   <td> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif|alpha</span> </p> </td> 
+   <td> <p>指定元件用於從影像伺服器載入影像的影像格式。 它可以是影像伺服器和用戶端瀏覽器支援的任何值。 如果指定的格式結尾為<span class="codeph"> -alpha</span>，則元件會將影像呈現為透明內容。 對於所有其他影像格式，元件將影像視為不透明。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
