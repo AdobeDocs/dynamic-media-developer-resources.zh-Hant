@@ -4,14 +4,13 @@ solution: Experience Manager
 title: ImageInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 058c74b2-634c-49b9-88ab-ab72a030983c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 22%
+source-wordcount: '195'
+ht-degree: 23%
 
 ---
-
 
 # ImageInfo{#imageinfo}
 
@@ -48,7 +47,7 @@ ht-degree: 22%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> optimizedFile</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>IPS最佳化影像檔案。 </p> </td> 
+   <td colname="col3"> <p>IPS優化的映像檔案。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> maskPath</span> </span> </td> 
@@ -58,7 +57,7 @@ ht-degree: 22%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> maskFile</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>遮色片的檔案名稱。 </p> </td> 
+   <td colname="col3"> <p>遮色片的檔案名。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> width</span> </span> </td> 
@@ -78,7 +77,7 @@ ht-degree: 22%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 解析度</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
-   <td colname="col3"> <p>每英吋像素數。 </p> </td> 
+   <td colname="col3"> <p>每英吋像素。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> sku</span> </span> </td> 
@@ -86,29 +85,29 @@ ht-degree: 22%
    <td colname="col3"> <p>產品 ID. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 描述</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 說明</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>影像描述。 </p> </td> 
+   <td colname="col3"> <p>影像說明。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 留言</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 評論</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>留言（已過時）。 </p> </td> 
+   <td colname="col3"> <p>留言（已廢止）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> userData</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>與影像相關的使用者資訊（已過時）。 </p> </td> 
+   <td colname="col3"> <p>與影像相關聯的使用者資訊（已淘汰）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> anchorX</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
-   <td colname="col3"> <p>水準錨點（以像素為單位）。 </p> </td> 
+   <td colname="col3"> <p>水準錨點（像素）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> anchorY</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
-   <td colname="col3"> <p>垂直錨點（以皮克斯為單位）。 </p> </td> 
+   <td colname="col3"> <p>垂直錨點。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> urlModifier</span> </span> </td> 
@@ -118,23 +117,22 @@ ht-degree: 22%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> urlPostApplyModifier</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>串連至<span class="codeph"> urlModifier</span>結尾的參數。 對映像伺服器的命令的參數的查詢字串格式清單。 值位於映像伺服器協定指南中。 </p> </td> 
+   <td colname="col3"> <p>串連至<span class="codeph"> urlModifier</span>結尾的參數。 對影像伺服器的命令的參數的查詢字串格式清單。 值在映像伺服器協定指南中。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> zoomTargets</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：ZoomTargetArray</span> </td> 
-   <td colname="col3"> <p>縮放目標陣列（最多5個）。 </p> </td> 
+   <td colname="col3"> <p>縮放目標的陣列（最多5個）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 遮色片</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 遮罩</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：MaskArray</span> </td> 
-   <td colname="col3"> <p>遮色片陣列。 </p> </td> 
+   <td colname="col3"> <p>掩碼陣列。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> imageMaps</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：ImageMapsArray</span> </td> 
-   <td colname="col3"> <p>影像地圖陣列。 </p> </td> 
+   <td colname="col3"> <p>影像映射陣列。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
