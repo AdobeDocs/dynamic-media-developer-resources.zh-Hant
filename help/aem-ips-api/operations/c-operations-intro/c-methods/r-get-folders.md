@@ -1,28 +1,27 @@
 ---
-description: 返回所有資料夾和子資料夾，從資料夾路徑開始。 getFolders回應最多會傳回100,000個資料夾。
+description: 從資料夾路徑開始，返回所有資料夾和子資料夾。 getFolders回應最多會傳回100,000個資料夾。
 solution: Experience Manager
 title: getFolders
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 71fe3343-2560-4d74-8ec3-1229d83a62e1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '242'
 ht-degree: 8%
 
 ---
 
-
 # getFolders{#getfolders}
 
-返回所有資料夾和子資料夾，從資料夾路徑開始。 getFolders回應最多會傳回100,000個資料夾。
+從資料夾路徑開始，返回所有資料夾和子資料夾。 getFolders回應最多會傳回100,000個資料夾。
 
-## 資料夾{#section-66e344d5333f42f1b060a0cba25935c3}的用途
+## 資料夾的用途 {#section-66e344d5333f42f1b060a0cba25935c3}
 
-檔案夾可讓您組織子檔案夾和資產。 所有資料夾和資產名稱都必須是唯一的。 共用相同名稱的資料夾和資產會造成命名空間衝突，即使它們位於不同的資料夾階層。
+資料夾可讓您組織子資料夾和資產。 所有資料夾和資產名稱必須是唯一的。 共用相同名稱的資料夾和資產會造成命名空間衝突，即使它們位於不同的資料夾階層亦然。
 語法
 
-## 授權用戶類型{#section-0dc7e17cb60f4cf7bcdb76648e5d2f8e}
+## 授權的使用者類型 {#section-0dc7e17cb60f4cf7bcdb76648e5d2f8e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -45,18 +44,18 @@ ht-degree: 8%
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | 是 | 公司的把手。 |
-| `*`accessUserHandle`*` | `xsd:string` | 否 | 管理員用來模擬特定使用者。 |
+| `*`accessUserHandle`*` | `xsd:string` | 否 | 由管理員用來模擬特定使用者。 |
 | `*`accessGroupHandle`*` | `xsd:string` | 否 | 依特定群組篩選。 |
-| `*`folderPath`*` | `xsd:string` | 否 | 根資料夾，用於將資料夾和所有子資料夾檢索到葉層。 如果排除，則會使用公司根目錄。 |
-| `*`assetTypeArray`*` | `types:StringArray` | 否 | 傳回僅包含指定資產類型的檔案夾。 |
-| `*`responseFieldArray`*` | `types:StringArray` | 否 | 包含要包含在回應中的欄位清單。 |
+| `*`folderPath`*` | `xsd:string` | 否 | 用於檢索資料夾和葉級所有子資料夾的根資料夾。 如果排除，則會使用公司根。 |
+| `*`assetTypeArray`*` | `types:StringArray` | 否 | 傳回僅包含指定資產類型的資料夾。 |
+| `*`responseFieldArray`*` | `types:StringArray` | 否 | 包含您要納入回應的欄位清單。 |
 | `*`excludeFieldArray`*` | `types:StringArray` | 否 | 包含要從回應中排除的欄位清單。 |
 
 **輸出(getFoldersReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`folderArray`*` | `types:FolderArray` | 否 | 符合篩選條件的資料夾陣列。 響應限制為最多100,000個資料夾。 |
+| `*`folderArray`*` | `types:FolderArray` | 否 | 符合篩選條件的資料夾陣列。 回應最多限制為100,000個資料夾。 |
 | `*`permissionsSetArray`*` | `types:PermissionSetArray` |  |  |
 
 ## 範例 {#section-b5cb06e9fb9945ad898dbdc3692b754e}
@@ -94,4 +93,3 @@ ht-degree: 8%
    </folderArray>
 </getFoldersReturn>
 ```
-
