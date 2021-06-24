@@ -1,29 +1,28 @@
 ---
-description: 在伺服器上運行的作業。 此外，它也是排程工作的例項。
+description: 在伺服器上運行的作業。 此外，它也是已排程作業的例項。
 solution: Experience Manager
 title: ActiveJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 3d878207-99e4-4c75-ab12-b38a37c82fb7
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '380'
 ht-degree: 8%
 
 ---
 
-
 # ActiveJob{#activejob}
 
-在伺服器上運行的作業。 此外，它也是排程工作的例項。
+在伺服器上運行的作業。 此外，它也是已排程作業的例項。
 
-Job存在於3個狀態：
+工作有3種狀態：
 
 * 已排程執行。
-* 目前正在執行。
+* 當前正在運行。
 * 已完成運行（並已將資訊寫入作業日誌）。
 
-指定作業類型值以返回作業類型。 您可以傳回下列工作：
+指定要返回作業類型的作業類型值。 您可以傳回下列作業：
 
 * `imageServingPublishJob`
 * `imageRenderingPublishJob`
@@ -46,7 +45,7 @@ Job存在於3個狀態：
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> 為公司負責。 </td> 
+   <td colname="col3"> 為公司處理。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> jobHandle</span> </span> </td> 
@@ -66,12 +65,12 @@ Job存在於3個狀態：
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> type</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> 系統返回的作業類型選擇。 </td> 
+   <td colname="col3"> 系統返回的作業類型的選擇。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> state</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> 系統返回的活動作業狀態選擇。 </td> 
+   <td colname="col3"> 選擇系統返回的活動作業狀態。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> submitUserEmail</span> </span> </td> 
@@ -81,12 +80,12 @@ Job存在於3個狀態：
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 地區設定</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">作業日誌詳細資訊和電子郵件本地化的區域設定。 <p>將地區設定指定為<span class="codeph"> &lt;language_code&gt;[-&lt;country_code&gt;]</span>，其中語言代碼是ISO-639所指定的小寫雙字母代碼，而選用的國家代碼是ISO-3166所指定的大寫雙字母代碼。 例如，英文（美國）的地區設定字串為：<span class="codeph"> en-US</span>。 </p></td> 
+   <td colname="col3">作業日誌詳細資訊和電子郵件本地化的區域設定。 <p>指定區域設定為<span class="codeph"> &lt;languagecode&gt;[-&lt;countrycode&gt;]</span>，其中語言代碼是ISO-639所指定的小寫雙字母代碼，可選國家代碼是ISO-3166所指定的大寫雙字母代碼。 例如，英文（美國）的地區字串為：<span class="codeph"> en-US</span>。 </p></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 描述</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 說明</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">作業說明最初在<span class="codeph"> submitJob</span>中指定。 </td> 
+   <td colname="col3">最初在<span class="codeph"> submitJob</span>中指定的作業說明。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> serverName</span> </span> </td> 
@@ -96,22 +95,22 @@ Job存在於3個狀態：
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> startDate</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
-   <td colname="col3"> 作用中工作的日期、時間和時區。 </td> 
+   <td colname="col3"> 作用中作業的日期、時間和時區。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> totalSize</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> 作用中工作的總大小。 </td> 
+   <td colname="col3"> 活動作業的總大小。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 進度</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 進展</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
-   <td colname="col3"> 任務進度（即任務完成的距離）。 </td> 
+   <td colname="col3"> 作業進度（即作業完成的距離）。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> progressMessage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
-   <td colname="col3"> 描述作業進度的文字訊息。 </td> 
+   <td colname="col3"> 描述作業進度的文本消息。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> lastProgressUpdate</span> </span> </td> 
@@ -126,12 +125,12 @@ Job存在於3個狀態：
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> imageServingPublishJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：ImageServingPublishJob</span> </td> 
-   <td colname="col3"> 影像伺服發佈工作的工作詳細資訊。 </td> 
+   <td colname="col3"> 提供發佈作業的影像的作業詳細資訊。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> imageServingRenderJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：ImageServingRenderJob</span> </td> 
-   <td colname="col3"> 影像轉譯發佈工作的工作詳細資訊。 </td> 
+   <td colname="col3"> 影像呈現發佈作業的作業詳細資訊。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> videoPublishJob</span> </span> </td> 
@@ -146,7 +145,7 @@ Job存在於3個狀態：
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> uploadUrlsJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：UploadUrlsJob</span> </td> 
-   <td colname="col3"> 上傳URL工作的工作詳細資訊。 </td> 
+   <td colname="col3"> 上傳URL作業的作業詳細資訊。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> ripPdfsJob</span> </span> </td> 
@@ -166,7 +165,7 @@ Job存在於3個狀態：
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> uploadPostJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：UploadPostJob</span> </td> 
-   <td colname="col3"> 工作詳細資料追蹤案頭上傳。 </td> 
+   <td colname="col3"> 工作詳細資訊追蹤案頭上傳。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> exportJob</span> </span> </td> 
@@ -175,4 +174,3 @@ Job存在於3個狀態：
   </tr> 
  </tbody> 
 </table>
-
