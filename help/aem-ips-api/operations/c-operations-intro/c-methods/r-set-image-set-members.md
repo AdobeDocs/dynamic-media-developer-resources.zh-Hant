@@ -1,25 +1,24 @@
 ---
-description: 設定與影像集關聯的資產清單。
+description: 設定與影像集相關聯的資產清單。
 solution: Experience Manager
 title: setImageSetMembers
-feature: Dynamic Media Classic,SDK/API,Image Sets
+feature: Dynamic Media Classic, SDK/API，影像集
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: c30df5fe-e355-45d4-8c06-e396caca0d58
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '131'
 ht-degree: 12%
 
 ---
 
-
 # setImageSetMembers{#setimagesetmembers}
 
-設定與影像集關聯的資產清單。
+設定與影像集相關聯的資產清單。
 
-此操作會忽略`ImageSets`和`SpinSets`的`pageReset`參數，並強制將值強制為true。
+此操作忽略`ImageSets`和`SpinSets`的`pageReset`參數，並強制將值設為true。
 
-## 授權用戶類型{#section-8968d6a39a344cfc8521020d92ae8916}
+## 授權的使用者類型 {#section-8968d6a39a344cfc8521020d92ae8916}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -30,11 +29,11 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->用戶必須擁有映像集資產的讀和寫訪問權限，並且必須擁有對每個成員資產的讀訪問權限。
+>用戶必須具有對映像集資產的讀寫訪問權，並具有對每個成員資產的讀訪問權。
 
 ## 參數 {#section-2f46efcd24c648aeacba738509426e46}
 
-**輸入(setImageSetMembersParam)**
+**Input(setImageSetMembersParam)**
 
 <table id="table_0CBBB65BCEFD4125A4069A080DFC873A"> 
  <thead> 
@@ -56,24 +55,24 @@ ht-degree: 12%
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 影像集控點。 </td> 
+   <td colname="col4"> 影像集句柄。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> memberArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：ImageSetMemberUpdateArray</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 屬於映像集的資產成員陣列。 </td> 
+   <td colname="col4"> 屬於影像集的資產成員陣列。 </td> 
   </tr> 
  </tbody> 
 </table>
 
 **輸出(setImageSetMembersReturn)**
 
-IPS API不會傳回此作業的回應。
+IPS API不會針對此操作傳回回應。
 
 ## 範例 {#section-7b87219034464aa98524178ccee27738}
 
-此代碼示例使用成員陣列來設定映像集的成員。
+此代碼示例使用成員陣列來設定影像集的成員。
 
 **請求**
 
