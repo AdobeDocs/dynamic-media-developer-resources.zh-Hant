@@ -1,21 +1,20 @@
 ---
-description: 'Scene 7 Image Serving包含下列元件 '
+description: '「場景7影像伺服」由下列元件組成 '
 solution: Experience Manager
-title: 影像伺服元件
+title: 影像提供元件
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 67dd37f3-b11e-42d6-b308-7c1e76a8f2a9
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '210'
 ht-degree: 2%
 
 ---
 
+# 影像提供元件{#image-serving-components}
 
-# 影像伺服元件{#image-serving-components}
-
-Scene 7 Image Serving包含下列元件：
+「場景7影像伺服」由下列元件組成：
 
 <table id="table_534AF33FE5C4453EACAE0DF35E8E3B63"> 
  <thead> 
@@ -27,41 +26,41 @@ Scene 7 Image Serving包含下列元件：
  <tbody> 
   <tr> 
    <td colname="col1"> <p>伺服器主管 </p> </td> 
-   <td colname="col2"> <p>負責啟動、停止和確保其他元件運行正常的獨立執行檔。 </p> </td> 
+   <td colname="col2"> <p>獨立執行檔，負責啟動、停止和確保其他元件的健全性。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Apache Tomcat </p> </td> 
-   <td colname="col2"> <p>為大多數基於Java的元件提供環境。 </p> </td> 
+   <td colname="col2"> <p>為大部分的Java元件提供環境。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>監控／警報服務 </p> </td> 
+   <td colname="col1"> <p>監控/警報服務 </p> </td> 
    <td colname="col2"> <p>J2EE應用程式。 提供伺服器監控和電子郵件警報。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>平台伺服器 </p> </td> 
-   <td colname="col2"> <p>J2EE應用程式。 管理客戶端連接、日誌記錄和與其他元件的通信。 位於<span class="filepath"> /is/image</span>的HTTP存取。 </p> </td> 
+   <td colname="col2"> <p>J2EE應用程式。 管理客戶端連接、日誌記錄、與其他元件的通信。 在<span class="filepath"> /is/image</span>處進行HTTP存取。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>快取服務 </p> </td> 
-   <td colname="col2"> <p>J2EE應用程式。 管理平台伺服器的資料快取。 位於/is/cache的HTTP訪問。 </p> </td> 
+   <td colname="col2"> <p>J2EE應用程式。 管理Platform Server的資料快取。 在/is/cache處進行HTTP存取。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>影像伺服器 </p> </td> 
-   <td colname="col2"> <p>執行所有影像處理和影像檔案I/O操作。 32位元和64位元可執行檔都適用於Linux（僅適用於Windows的32位元）。 </p> </td> 
+   <td colname="col2"> <p>執行所有影像處理和影像檔案I/O操作。 32位和64位執行檔都適用於Linux（32位僅適用於Windows）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>ATE Text Render元件 </p> </td> 
-   <td colname="col2"> <p>當運行<span class="codeph"> textPs=</span>操作時，文本渲染服務的一個或多個實例可以處於活動狀態。 </p> </td> 
+   <td colname="col1"> <p>ATE文本渲染元件 </p> </td> 
+   <td colname="col2"> <p>運行<span class="codeph"> textPs=</span>操作時，文本呈現服務的一個或多個實例可能處於活動狀態。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>SVG Render元件 </p> </td> 
-   <td colname="col2"> <p>可獨立執行的Java應用程式（非由Tomcat托管）。 </p> </td> 
+   <td colname="col1"> <p>SVG呈現元件 </p> </td> 
+   <td colname="col2"> <p>獨立Java應用程式（不由Tomcat托管）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Dynamic Media影像演算(亦即。 演算伺服器) </p> </td> 
-   <td colname="col2"> <p>需要個別的授權才能啟動。 位於<span class="filepath"> /ir/render</span>的HTTP訪問。 所有影像演算功能都整合在平台伺服器和影像伺服器中，而不需個別的可執行元件。 </p> </td> 
+   <td colname="col1"> <p>Dynamic Media影像轉譯(亦稱為。 演算伺服器) </p> </td> 
+   <td colname="col2"> <p>需要個別的授權才能啟動。 在<span class="filepath"> /ir/render</span>處訪問HTTP。 所有影像呈現功能都整合到平台伺服器和影像伺服器中，沒有單獨的可執行元件。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-預設目錄([!DNL default.ini])或特定影像目錄（如需詳細資訊，請參閱[影像目錄](../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3)）提供其他組態設定。
+預設目錄([!DNL default.ini])或特定影像目錄（有關詳細資訊，請參閱[影像目錄](../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3)）提供了其他配置設定。
