@@ -1,27 +1,26 @@
 ---
-description: 使用CSS類別選擇器控制顯示在焦點檢視器使用者介面元素周圍的輸入焦點反白顯示。
+description: 焦點檢視器使用者介面元素周圍顯示的輸入焦點醒目提示，是由CSS類別選取器控制。
 solution: Experience Manager
-title: 焦點反白顯示
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+title: 焦點醒目提示
+feature: Dynamic Media Classic，檢視器，SDK/API,360 VR影片
 role: Developer,Business Practitioner
 exl-id: 05ac1a70-c20d-4ddf-942c-181f101cb1d8
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '88'
 ht-degree: 1%
 
 ---
 
-# 焦點反白顯示{#focus-highlight}
+# 焦點醒目提示{#focus-highlight}
 
-使用CSS類別選擇器控制顯示在焦點檢視器使用者介面元素周圍的輸入焦點反白顯示。
+焦點檢視器使用者介面元素周圍顯示的輸入焦點醒目提示，是由CSS類別選取器控制。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **CSS屬性**
 
-外觀是使用下列CSS類別選取器來控制：
+使用以下CSS類選擇器控制外觀：
 
 ```
 .s7video360viewer *:focus
@@ -37,12 +36,12 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 大綱  </span> </p> </td> 
-   <td colname="col2"> <p>焦點反白顯示樣式。 </p> </td> 
+   <td colname="col2"> <p>焦點突出顯示樣式。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-範例——若要停用所有檢視器使用者介面元素的預設瀏覽器焦點反白顯示，請將下列CSS選取器新增至檢視器的樣式表：
+範例：若要停用所有檢視器使用者介面元素的預設瀏覽器焦點醒目提示，請將下列CSS選取器新增至檢視器的樣式表：
 
 ```
 .s7video360viewer *:focus { 
