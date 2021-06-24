@@ -2,13 +2,12 @@
 description: 互動式視訊檢視器的JavaScript API參考。
 solution: Experience Manager
 title: setAsset
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic，檢視器， SDK/API，互動式影片
 role: Developer,Business Practitioner
 exl-id: 24d8d11d-4688-4ca0-92ae-824a5e984a10
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '149'
 ht-degree: 2%
 
 ---
@@ -19,7 +18,7 @@ ht-degree: 2%
 
 `setAsset(asset[, data])`
 
-設定新資產和可選的其他資產資料。 您可以隨時在`init()`之前或之後呼叫此參數。 如果在`init()`之後呼叫，檢視器會在執行時期交換資產。
+設定新資產和選用的其他資產資料。 您可以在`init()`之前或之後隨時呼叫此參數。 如果在`init()`之後呼叫，檢視器會在執行階段交換資產。
 
 另請參閱[init](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b)。
 
@@ -31,18 +30,18 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 資料 </span> </p> </td> 
-   <td colname="col2"> <p> { <span class="codeph"> JSON </span>} JSON物件，包含下列選填欄位（區分大小寫）: </p> <p> 
+   <td colname="col2"> <p> { <span class="codeph"> JSON </span>} JSON物件，包含下列選用欄位（區分大小寫）: </p> <p> 
      <ul id="ul_924FB99ACF0F43699CD229593F1C1384"> 
-      <li id="li_F3CFEF28BCB7450991EFE0BD4EB28E36"> <span class="codeph"> 後驗 </span> 影像——在視訊開始播放之前，要在第一個影格上顯示的影像。請參閱<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoplayer-posterimage.md#reference-8e8e2b3e7e9c4ee8b6dadf90cef494f7" format="dita" scope="local"> VideoPlayer.pheormage </a>。 </li> 
-      <li id="li_D6C3E543C70942C582020780E2DF74C8"> <span class="codeph"> 標題 </span> -新標題檔案的位置。如果未指定，標題按鈕在使用者介面中不可見。 </li> 
-      <li id="li_BF866BD7275E450EA08A0E72FAA9D3AE"> <span class="codeph"> navigation  </span> - WebVTT導覽內容的URL或路徑。WebVTT檔案應由影像伺服提供。 </li> 
-      <li id="li_0C0EC5AB00554EC6AA01F60684A40213"> <span class="codeph"> interactiveData  </span> - WebVTT互動資料內容的URL或路徑。WebVTT檔案必須由影像伺服提供。 </li> 
+      <li id="li_F3CFEF28BCB7450991EFE0BD4EB28E36"> <span class="codeph"> 後驗 </span> 影像 — 在視訊開始播放之前，要在第一個影格上顯示的影像。請參閱<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoplayer-posterimage.md#reference-8e8e2b3e7e9c4ee8b6dadf90cef494f7" format="dita" scope="local"> VideoPlayer.pheinmage </a>。 </li> 
+      <li id="li_D6C3E543C70942C582020780E2DF74C8"> <span class="codeph"> 注 </span> 解 — 新註解檔案的位置。如果未指定，則註解按鈕在用戶介面中不可見。 </li> 
+      <li id="li_BF866BD7275E450EA08A0E72FAA9D3AE"> <span class="codeph"> 導 </span> 航 — WebVTT導航內容的URL或路徑。WebVTT檔案應由影像伺服器提供。 </li> 
+      <li id="li_0C0EC5AB00554EC6AA01F60684A40213"> <span class="codeph"> interactiveData - </span>  WebVTT互動式資料內容的URL或路徑。WebVTT檔案必須由影像伺服器提供。 </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 傳回{#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## 傳回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 無。
 
