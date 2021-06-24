@@ -1,19 +1,18 @@
 ---
 description: 浮水印資產的屬性。
 solution: Experience Manager
-title: WatermarkInfo
+title: 浮水印資訊
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 38821d96-d0d2-4f3b-9c31-15d6a8d66e9e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '34'
-ht-degree: 17%
+source-wordcount: '32'
+ht-degree: 18%
 
 ---
 
-
-# WatermarkInfo{#watermarkinfo}
+# 浮水印資訊{#watermarkinfo}
 
 浮水印資產的屬性。
 
@@ -26,4 +25,3 @@ ht-degree: 17%
 | `*`url`*` | `xsd:string` | 代表範本的影像伺服器URL。 |
 | `*`urlModifier`*` | `xsd:string` |  |
 | `*`urlPostApplyModifier`*` | `xsd:string` |  |
-
