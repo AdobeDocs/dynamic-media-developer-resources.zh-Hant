@@ -4,14 +4,13 @@ solution: Experience Manager
 title: getScheduledJobs
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 7920637e-b289-410c-ae5c-e67cd7b21aba
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 20%
+source-wordcount: '80'
+ht-degree: 21%
 
 ---
-
 
 # getScheduledJobs{#getscheduledjobs}
 
@@ -19,7 +18,7 @@ ht-degree: 20%
 
 語法
 
-## 授權用戶類型{#section-bd1835ab508a429f8143b3bdb811d6a4}
+## 授權的使用者類型 {#section-bd1835ab508a429f8143b3bdb811d6a4}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -37,8 +36,8 @@ ht-degree: 20%
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | 是 | 公司的把手。 |
-| `*`jobHandle`*` | `xsd:string` | 否 | 工作代理。 |
-| `*`originalName`*` | `xsd:string` | 否 | `submitJob`指定的名稱。 |
+| `*`jobHandle`*` | `xsd:string` | 否 | 工作處理。 |
+| `*`originalName`*` | `xsd:string` | 否 | 由`submitJob`指定的名稱。 |
 
 **輸出(getScheduledJobsReturn)**
 
@@ -48,7 +47,7 @@ ht-degree: 20%
 
 ## 範例 {#section-e79e7da86ba848fd9996aa36de462e6c}
 
-此代碼示例返回作業陣列中的所有已調度作業。 陣列本身包含有關作業的詳細資訊。
+此程式碼範例會傳回作業陣列中所有已排程的作業。 陣列本身包含有關作業的詳細資訊。
 
 **請求**
 
@@ -78,4 +77,3 @@ ht-degree: 20%
    </jobArray>
 </getScheduledJobsReturn>
 ```
-
