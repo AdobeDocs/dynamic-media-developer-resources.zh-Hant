@@ -1,27 +1,26 @@
 ---
-description: 窗簾材料包括柔軟的窗簾（窗簾、窗簾、咖啡窗簾）和硬的窗簾（窗簾和窗簾）。
+description: 窗蓋材料包括軟窗蓋（窗簾、窗閥、咖啡窗簾）和硬窗蓋（窗簾和百葉窗）。
 solution: Experience Manager
 title: 窗口覆蓋
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: ce6543a1-2438-4661-95bf-ff3d956013bc
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '160'
 ht-degree: 3%
 
 ---
 
-
 # 窗口覆蓋{#window-coverings}
 
-窗簾材料包括柔軟的窗簾（窗簾、窗簾、咖啡窗簾）和硬的窗簾（窗簾和窗簾）。
+窗蓋材料包括軟窗蓋（窗簾、窗閥、咖啡窗簾）和硬窗蓋（窗簾和百葉窗）。
 
-窗口覆蓋材料指定了一個&#x200B;*窗口覆蓋樣式檔案*（[!DNL .vnw]檔案副檔名），一個與暈映類似的特殊資料檔案，其中包含定義窗口覆蓋的蒙版、照明、佈局和紋理資料。
+覆蓋材料的窗口指定了覆蓋樣式檔案&#x200B;*（[!DNL .vnw]檔案副檔名）的*&#x200B;窗口，與暈映類似的特殊資料檔案，包含掩模、照明、佈局以及定義窗口覆蓋的紋理資料。
 
-[!DNL vnw] 檔案不包含窗口覆蓋的色彩和紋理（結構）。這些資訊會個別指定，類似於可重複的紋理。
+[!DNL vnw] 檔案不包括窗口覆蓋的顏色和紋理（結構）。此資訊會個別指定，類似於可重複的紋理。
 
-窗口覆蓋材料只能應用於窗口覆蓋框架對象，這些對象是重疊對象。
+窗口覆蓋材料只能應用於窗口覆蓋框架對象，這些對象是重疊的對象。
 
 <table id="table_545865B054E84592BDAEDA57DBFAE9B3"> 
  <thead> 
@@ -53,8 +52,8 @@ ht-degree: 3%
    <td colname="col3"> <p>0（直重複） </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-color.md#reference-ea3cba9edfe94dbab86d8f123a9ed0aa" type="reference" format="dita" scope="local"> <span class="codeph"> 顏色=  </span> </a> </p> </td> 
-   <td colname="col2"> <p>純色（或為紋理上色）。 </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-color.md#reference-ea3cba9edfe94dbab86d8f123a9ed0aa" type="reference" format="dita" scope="local"> <span class="codeph"> color=  </span> </a> </p> </td> 
+   <td colname="col2"> <p>實色（或著色紋理）。 </p> </td> 
    <td colname="col3"> <p>128（中性灰色） </p> </td> 
   </tr> 
   <tr> 
@@ -64,4 +63,3 @@ ht-degree: 3%
   </tr> 
  </tbody> 
 </table>
-
