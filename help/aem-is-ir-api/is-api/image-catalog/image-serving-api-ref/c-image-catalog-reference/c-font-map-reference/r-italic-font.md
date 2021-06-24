@@ -1,27 +1,26 @@
 ---
-description: 斜體旗。
+description: 斜體旗標。
 solution: Experience Manager
 title: 斜體
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 46575243-4472-44fe-89ce-30d9c875c7d2
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 13%
+source-wordcount: '49'
+ht-degree: 14%
 
 ---
 
-
 # 斜體{#italic}
 
-斜體旗。
+斜體旗標。
 
-指定當RTF斜體(`\i`)命令請求時，是否應使用此字型映射記錄引用的字型檔案。
+指定當RTF斜體(`\i`)命令請求時是否應使用此字型映射記錄引用的字型檔案。
 
 ## 屬性 {#section-607e76490e87418496d1c6763018a14f}
 
-標幟. 字型映射的可選三級索引鍵。
+標幟. 字型映射的可選第三級索引鍵。
 
 ## 預設 {#section-0b88057d00ce4160929c23fbf138b309}
 
