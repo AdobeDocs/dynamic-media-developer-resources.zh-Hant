@@ -4,20 +4,19 @@ solution: Experience Manager
 title: batchjobdelete
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 9aca6693-32ac-4abd-9595-95bce60050ec
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '83'
 ht-degree: 1%
 
 ---
-
 
 # batchjobdelete{#batchjobdelete}
 
 刪除作業的輸出。
 
-如果作業當前正在運行，則會立即停止該作業，並刪除其所有處理資訊。 如果作業成功完成，則其輸出檔案將被刪除。
+如果作業當前正在運行，則會立即停止該作業，並刪除其所有處理資訊。 如果作業成功完成，則會刪除其輸出檔案。
 
 此參數：
 
@@ -28,9 +27,9 @@ ht-degree: 1%
  </tr> 
 </table>
 
-退貨：
+傳回：
 
-在收到刪除請求時的作業狀態，如果`jobid`無效或作業已刪除，則出錯。
+收到刪除請求時的作業狀態，如果`jobid`無效或作業已刪除，則出錯。
 
 ## 範例 {#section-e0df8fc8e6554ba58e1fa937b8241ecf}
 
