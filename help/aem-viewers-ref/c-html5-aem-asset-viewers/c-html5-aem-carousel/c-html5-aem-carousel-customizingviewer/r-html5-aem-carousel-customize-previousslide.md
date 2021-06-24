@@ -1,27 +1,26 @@
 ---
-description: 按一下或點選此按鈕，會將使用者返回轉盤集中的上一張投影片。 此按鈕不會顯示在觸控裝置上。 您可以使用CSS來調整此按鈕的大小、外觀和位置。
+description: 按一下或點選此按鈕，可讓使用者回到轉盤集中的上一張投影片。 觸控裝置上不會顯示此按鈕。 您可以使用CSS來調整此按鈕的大小、外觀和位置。
 solution: Experience Manager
-title: 上一張投影片
-feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+title: 上一張幻燈片
+feature: Dynamic Media Classic，檢視器，SDK/API，輪播橫幅
 role: Developer,Business Practitioner
 exl-id: f780e62e-7238-4cc6-b382-3a21043e1079
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '248'
 ht-degree: 2%
 
 ---
 
 # 上一張幻燈片{#previous-slide}
 
-按一下或點選此按鈕，會將使用者返回轉盤集中的上一張投影片。 此按鈕不會顯示在觸控裝置上。 您可以使用CSS來調整此按鈕的大小、外觀和位置。
+按一下或點選此按鈕，可讓使用者回到轉盤集中的上一張投影片。 觸控裝置上不會顯示此按鈕。 您可以使用CSS來調整此按鈕的大小、外觀和位置。
 
 <!--<a id="section_6C008EE11212461FA744F2540D38C295"></a>-->
 
-**主檢視器區域的CSS屬性**
+**主查看器區域的CSS屬性**
 
-按鈕的外觀由下列CSS類別選擇器控制：
+按鈕的外觀由下列CSS類選擇器控制：
 
 `.s7carouselviewer .s7panleftbutton`
 
@@ -35,11 +34,11 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 頂部 </span> </p> </td> 
-   <td colname="col2"> <p>從檢視器邊框頂端的位置。 </p> </td> 
+   <td colname="col2"> <p>從檢視器邊框的頂端位置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 右側 </span> </p> </td> 
-   <td colname="col2"> <p>從檢視器邊框的右側定位。 </p> </td> 
+   <td colname="col2"> <p>從檢視器邊框的右側放置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 左側 </span> </p> </td> 
@@ -47,7 +46,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 底部 </span> </p> </td> 
-   <td colname="col2"> <p>從檢視器邊框底部的位置。 </p> </td> 
+   <td colname="col2"> <p>從檢視器邊框的底部位置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -58,12 +57,12 @@ ht-degree: 2%
    <td colname="col2"> <p>按鈕的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景影像  </span> </p> </td> 
-   <td colname="col2"> <p>為指定按鈕狀態顯示的影像。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景 — 影像  </span> </p> </td> 
+   <td colname="col2"> <p>針對指定按鈕狀態顯示的影像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS精靈，請放在圖稿精靈內。 </p> <p>另請參閱<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS精靈</a>。 </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS精靈，則位於圖稿精靈內。 </p> <p>另請參閱<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS空格</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 游標  </span> </p> </td> 
@@ -74,11 +73,11 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->此按鈕支援`state`屬性選擇器，可用來將不同的外觀套用至不同的按鈕狀態。
+>此按鈕支援`state`屬性選擇器，可用於將不同的外觀應用於不同的按鈕狀態。
 
-按鈕工具提示可以本地化。 如需詳細資訊，請參閱[使用者介面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md)。
+按鈕工具提示可以本地化。 如需詳細資訊，請參閱[使用者介面元素本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md) 。
 
-範例——若要設定上一個60 x 60像素的投影片按鈕，從左側檢視器邊框放置10像素並垂直置中，並針對四個不同按鈕狀態中的每個狀態顯示不同的影像。
+範例：若要設定上一個60 x 60像素的投影片按鈕，從左側檢視器邊框放置10像素並垂直居中，並針對四個不同按鈕狀態中的每個狀態顯示不同的影像。
 
 ```
 .s7carouselviewer .s7panleftbutton { 
