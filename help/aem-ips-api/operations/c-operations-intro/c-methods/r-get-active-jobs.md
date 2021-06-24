@@ -1,25 +1,24 @@
 ---
-description: 獲取所有當前活動的作業。
+description: 獲取所有當前活動作業。
 solution: Experience Manager
 title: getActiveJobs
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 55e92ebc-d153-49b5-bf2e-c69d042e15b6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 15%
+source-wordcount: '106'
+ht-degree: 16%
 
 ---
 
-
 # getActiveJobs{#getactivejobs}
 
-獲取所有當前活動的作業。
+獲取所有當前活動作業。
 
 語法
 
-## 授權用戶類型{#section-125557a6ea7b4fc894d4bb468cd02118}
+## 授權的使用者類型 {#section-125557a6ea7b4fc894d4bb468cd02118}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -38,7 +37,7 @@ ht-degree: 15%
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | 否 | 公司的把手。 |
 | `*`jobHandle`*` | `xsd:string` | 否 | 工作的控制。 |
-| `*`originalName`*` | `xsd:string` | 否 | 原始工作名稱。 |
+| `*`originalName`*` | `xsd:string` | 否 | 原始作業名稱。 |
 
 **輸出(getActiveJobsReturn)**
 
@@ -48,7 +47,7 @@ ht-degree: 15%
 
 ## 範例 {#section-4ac5dbbf9cd94fdeb013d055f8ee7add}
 
-此代碼示例返回在IPS中運行的公司的所有活動作業。 在這種情況下，響應異常，因為IPS調度協調器處於禁用狀態，且沒有運行活動作業。 在正常情況下，回應會傳回許多作用中的工作。
+此代碼示例返回在IPS中運行的公司的所有活動作業。 在這種情況下，響應異常，因為IPS調度協調器被禁用，且沒有運行活動作業。 在正常情況下，回應會傳回數個作用中工作。
 
 **請求**
 
@@ -65,4 +64,3 @@ ht-degree: 15%
    <jobArray></jobArray>
 </getActiveJobsReturn>
 ```
-
