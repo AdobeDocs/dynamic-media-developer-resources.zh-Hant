@@ -4,14 +4,13 @@ solution: Experience Manager
 title: forceRepublishAssets
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 4c75af38-4791-4f21-8d1b-4855fcdfd4b1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '167'
 ht-degree: 12%
 
 ---
-
 
 # forceRepublishAssets{#forcerepublishassets}
 
@@ -19,7 +18,7 @@ ht-degree: 12%
 
 語法
 
-## 授權用戶類型{#section-3d5a3e3afea748d69845de5c8c376448}
+## 授權的使用者類型 {#section-3d5a3e3afea748d69845de5c8c376448}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -46,7 +45,7 @@ ht-degree: 12%
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>對包含要重設資產的公司進行處理。 </p> </td> 
+   <td colname="col4"> <p>處理包含要重設資產的公司。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"> <span class="varname"> republishFiles</span> </span> </td> 
@@ -56,15 +55,15 @@ ht-degree: 12%
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"> <span class="varname"> resyncCatalog</span> </span> </td> 
-   <td colname="col2"><span class="codeph"> xsd：布林值</span> </td> 
+   <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>指定用於提供資產的目錄中繼資料會同步，以確保是最新的。 此參數用於解決同一記錄的近乎並行更新時可能發生的競爭條件。 預設為<span class="codeph"> false</span>。 </p> </td> 
+   <td colname="col4"> <p>指定用來提供資產的目錄中繼資料會同步，以保證為最新。 此參數可用來解決同一記錄的同時更新附近可能發生的競爭條件。 預設為<span class="codeph"> false</span>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：HandleArray</span> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>要重設發佈狀態的資產的控制代碼陣列。 </p> </td> 
+   <td colname="col4"> <p>要重設發佈狀態的資產的控點陣列。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -89,4 +88,3 @@ ht-degree: 12%
   </tr> 
  </tbody> 
 </table>
-
