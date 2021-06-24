@@ -1,21 +1,20 @@
 ---
-description: 預設的回覆影像銳利化。 指定如果回覆影像在編碼前已縮放，是否要銳利化。
+description: 預設回覆影像銳利化。 指定如果回覆影像在編碼前已縮放，則是否要銳利化。
 solution: Experience Manager
 title: 銳利化
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 9a540b86-4d00-47db-8a1d-1d2b186ce87b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 12%
+source-wordcount: '53'
+ht-degree: 13%
 
 ---
 
+# 銳利化{#sharpen}
 
-# Sharpen{#sharpen}
-
-預設的回覆影像銳利化。 指定如果回覆影像在編碼前已縮放，是否要銳利化。
+預設回覆影像銳利化。 指定如果回覆影像在編碼前已縮放，則是否要銳利化。
 
 ## 屬性 {#section-faf57183efa0456fb37a7803a9486248}
 
@@ -23,7 +22,7 @@ ht-degree: 12%
 
 ## 預設 {#section-e6f1f81ef5c949a488b2002581bda0d0}
 
-如果未定義或為空，則繼承自`default::Sharpen`。
+如果未定義或為空，則從`default::Sharpen`繼承。
 
 ## 另請參閱 {#section-85393c62428f49739a2510f9427d3607}
 
