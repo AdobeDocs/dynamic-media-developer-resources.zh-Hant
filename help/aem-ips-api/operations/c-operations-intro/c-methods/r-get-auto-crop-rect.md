@@ -1,25 +1,24 @@
 ---
-description: 根據影像的背景顏色或透明度傳回影像的裁切區域。
+description: 根據影像的背景顏色或透明度，傳回影像的已裁切區域。
 solution: Experience Manager
 title: getAutoCropRect
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: e291597a-b863-42dd-88dc-13398b734410
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '157'
 ht-degree: 14%
 
 ---
 
-
 # getAutoCropRect{#getautocroprect}
 
-根據影像的背景顏色或透明度傳回影像的裁切區域。
+根據影像的背景顏色或透明度，傳回影像的已裁切區域。
 
 語法
 
-## 授權用戶類型{#section-32dfe7bb68764b93ae01e05ff7a7bdd0}
+## 授權的使用者類型 {#section-32dfe7bb68764b93ae01e05ff7a7bdd0}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -39,7 +38,7 @@ ht-degree: 14%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 包含您要使用之資產的公司控制代碼。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 含有您要使用之資產之公司的控制代碼。 |
 | `*`assetHandle`*` | `xsd:string` | 是 | 您要使用之資產的控制代碼。 |
 | `*`autoColorCropOptions`*` | `types:AutoColorCropOptions` | 否 | 根據顏色計算裁切矩形。 請參閱[AutoColorCropOptions](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6)。 |
 | `*`autoTransparentCropOptions`*` | `types:AutoTransparentCropOptions` | 否 | 根據透明度計算裁切矩形。 請參閱[AutoTransparentCropOptions](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b)。 |
@@ -48,8 +47,8 @@ ht-degree: 14%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`xOffset`*` | `xsd:int` | 是 | 計算的裁切區域的左起像素坐標。 |
-| `*`yOffset`*` | `xsd:int` | 是 | 計算的裁切區域的起始頂像素坐標。 |
+| `*`xOffset`*` | `xsd:int` | 是 | 計算的裁切區域的起始左像素坐標。 |
+| `*`yOffset`*` | `xsd:int` | 是 | 計算的裁切區域的起始頂部像素坐標。 |
 | `*`width`*` | `xsd:int` | 是 | 計算的裁切區域的寬度（以像素為單位）。 |
 | `*`height`*` | `xsd:int` | 是 | 計算的裁切區域的高度（以像素為單位）。 |
 
@@ -82,5 +81,5 @@ ht-degree: 14%
 >[!MORELIKETHIS]
 >
 >* [AutoColorCropOptions](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6)
->* [AutoTransparentCropOptions](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b)
+* [AutoTransparentCropOptions](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b)
 
