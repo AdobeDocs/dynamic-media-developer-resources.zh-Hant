@@ -2,18 +2,17 @@
 description: Video360檢視器的URL命令。
 solution: Experience Manager
 title: 視訊
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+feature: Dynamic Media Classic，檢視器，SDK/API,360 VR影片
 role: Developer,Business Practitioner
 exl-id: 704097af-f108-42f7-92e7-5dd75916a045
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '45'
-ht-degree: 13%
+source-wordcount: '42'
+ht-degree: 16%
 
 ---
 
-# video{#video}
+# 視訊{#video}
 
 Video360檢視器的URL命令。
 
@@ -30,7 +29,7 @@ Video360檢視器的URL命令。
 
 ## 屬性 {#section-f42369774e2740dcb399626a0e4e930e}
 
-必要. (除非使用`asset`參數。 請參閱[外部視頻支援](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-external-video-support.md#concept-66aa2784f2294794989bad2af74c3760)。)
+必要. (除非使用`asset`參數。 請參閱[外部視訊支援](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-external-video-support.md#concept-66aa2784f2294794989bad2af74c3760)。)
 
 ## 預設 {#section-d016470e92a74f98a18c4ab3489410a5}
 
