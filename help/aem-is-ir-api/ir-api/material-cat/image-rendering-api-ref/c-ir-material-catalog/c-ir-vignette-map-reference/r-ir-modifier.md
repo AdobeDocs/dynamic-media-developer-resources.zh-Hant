@@ -1,23 +1,22 @@
 ---
-description: 請求修飾詞字串。 無或多個由'&'字元分隔的影像演算指令。 用來儲存範本和修飾元，這些範本和修飾元會在每次對此暈映對應項目提出要求時套用。
+description: 要求修飾詞字串。 無或多個以「&」字元分隔的影像呈現命令。 用於儲存每次對此暈映映射條目提出請求時要應用的模板和修改量。
 solution: Experience Manager
 title: 修飾元
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 19b6dd5d-847d-46a2-8138-2b35d2e9b930
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '102'
 ht-degree: 5%
 
 ---
 
-
 # 修飾元{#modifier}
 
-請求修飾詞字串。 無或多個由&#39;&amp;&#39;字元分隔的影像演算指令。 用來儲存範本和修飾元，這些範本和修飾元會在每次對此暈映對應項目提出要求時套用。
+要求修飾詞字串。 無或多個以「&amp;」字元分隔的影像呈現命令。 用於儲存每次對此暈映映射條目提出請求時要應用的模板和修改量。
 
-此欄位中的命令由引用此記錄的請求或模板中的相同命令覆蓋。
+在引用此記錄的請求或模板中，該欄位中的命令被相同的命令覆蓋。
 
 ## 屬性 {#section-b7b01c307ebc41d48c34db77307dbfd1}
 
