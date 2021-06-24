@@ -1,21 +1,20 @@
 ---
-description: batchSetAssetMetadata操作中的新增更新的警告或錯誤詳細資料。
+description: batchSetAssetMetadata操作中單一更新的警告或錯誤詳細資訊。
 solution: Experience Manager
 title: SetMetadataFault
-feature: Dynamic Media Classic,SDK/API,Metadata
+feature: Dynamic Media Classic,SDK/API，中繼資料
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 49c6f355-4b5f-4b98-9a58-5732d56fdccb
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '64'
 ht-degree: 10%
 
 ---
 
-
 # SetMetadataFault{#setmetadatafault}
 
-batchSetAssetMetadata操作中的新增更新的警告或錯誤詳細資料。
+batchSetAssetMetadata操作中單一更新的警告或錯誤詳細資訊。
 
 語法
 
@@ -24,7 +23,6 @@ batchSetAssetMetadata操作中的新增更新的警告或錯誤詳細資料。
 | 名稱 | 類型 | 說明 |
 |---|---|---|
 | `*`assetHandle`*` | `xsd:string` | 未成功設定中繼資料的資產。 |
-| `*`fieldHandle`*` | `xsd:string` | 設定其值未成功的中繼資料欄位的控制代碼。 |
+| `*`fieldHandle`*` | `xsd:string` | 元資料欄位的句柄，其值未成功設定。 |
 | `*`代碼`*` | `xsd:int` | 錯誤代碼。 |
-| `*`原因`*` | `xsd:string` | 故障描述（純文字檔案）。 |
-
+| `*`原因`*` | `xsd:string` | 錯誤描述（純文字檔案）。 |
