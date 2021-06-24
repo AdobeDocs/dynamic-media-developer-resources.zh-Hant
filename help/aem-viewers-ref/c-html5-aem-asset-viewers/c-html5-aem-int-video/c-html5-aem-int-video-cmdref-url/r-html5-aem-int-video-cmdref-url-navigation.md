@@ -2,13 +2,12 @@
 description: 互動式視訊檢視器的URL命令。
 solution: Experience Manager
 title: 導覽
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic，檢視器， SDK/API，互動式影片
 role: Developer,Business Practitioner
 exl-id: 9852e723-fd1f-4ade-921b-cfb92bf9f2ad
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '63'
 ht-degree: 12%
 
 ---
@@ -19,13 +18,13 @@ ht-degree: 12%
 
 ` navigation= *`file`*`
 
-檢視器支援透過代管WebVTT檔案進行視訊章節導覽。 不支援提示定位運算子。
+檢視器支援透過托管WebVTT檔案進行視訊章節導覽。 不支援提示定位操作器。
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 檔案</span> </span> </p> </td> 
-   <td colname="col2"> <p> 指定WebVTT導覽內容的URL或路徑。 影像伺服應代管WebVTT檔案。 </p> </td> 
+   <td colname="col2"> <p> 指定WebVTT導航內容的URL或路徑。 影像伺服器應托管WebVTT檔案。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
