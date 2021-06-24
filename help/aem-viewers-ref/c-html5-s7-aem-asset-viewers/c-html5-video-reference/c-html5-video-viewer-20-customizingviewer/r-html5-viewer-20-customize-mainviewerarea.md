@@ -1,31 +1,30 @@
 ---
-description: 主要檢視區域被視訊佔據。 當未指定大小時，通常會設定為符合可用的裝置畫面。
+description: 主要觀看區域被視頻佔據。 通常在未指定大小時設定為適合可用的裝置畫面。
 solution: Experience Manager
-title: 主檢視器區域
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+title: 主觀看者區域
+feature: Dynamic Media Classic，檢視器， SDK/API，影片
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 7d1379c1-7746-4f61-92df-e8ac4ab7d506
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '108'
 ht-degree: 2%
 
 ---
 
+# 主觀看者區域{#main-viewer-area}
 
-# 主檢視器區域{#main-viewer-area}
-
-主要檢視區域被視訊佔據。 當未指定大小時，通常會設定為符合可用的裝置畫面。
+主要觀看區域被視頻佔據。 通常在未指定大小時設定為適合可用的裝置畫面。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-下列CSS類別選取器會控制檢視區域的外觀：
+以下CSS類選擇器控制查看區域的外觀：
 
 ```
 .s7videoviewer 
 ```
 
-## 主檢視器區域{#css-properties-of-the-main-viewer-area}的CSS屬性
+## 主查看器區域的CSS屬性 {#css-properties-of-the-main-viewer-area}
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -38,15 +37,15 @@ ht-degree: 2%
    <td colname="col2"> <p>檢視器高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景色  </span> </p> </td> 
-   <td colname="col2"> <p> 十六進位格式的背景顏色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景顏色  </span> </p> </td> 
+   <td colname="col2"> <p> 以十六進位格式表示的背景顏色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 範例 {#section-e8caea0a303c425a8a637c2a47c06355}
 
-若要設定具有白色背景(#FFFFFF)的視訊檢視器，並使其大小為512 x 288像素：
+若要設定具有白色背景的視訊檢視器(#FFFFFF)，並將其大小設為512 x 288像素：
 
 ```
 .s7videoviewer { 
@@ -55,4 +54,3 @@ ht-degree: 2%
  height: 288px;  
 }
 ```
-
