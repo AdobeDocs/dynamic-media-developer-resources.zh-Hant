@@ -2,16 +2,15 @@
 description: 方向
 solution: Experience Manager
 title: 方向
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic，檢視器，SDK/API,eCatalog搜尋
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 0f78a835-9057-4c79-843a-52b33a1bdd3f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '197'
 ht-degree: 3%
 
 ---
-
 
 # 方向{#direction}
 
@@ -21,7 +20,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|left|right  </span> </p> </td> 
-   <td colname="col2"> <p>指定頁面在主檢視和縮圖中的顯示方式。 它還指定用戶與查看器用戶介面交互的方式，以便在目錄框架之間進行更改。 </p> <p>當使用<span class="codeph"> left </span>時，它會為初始頁面設定右對齊，並為最後一頁設定左對齊。 它可針對個別頁面子影像，依從左至右的轉譯順序進行接合。 它還將主視圖設定為使用由右到左幻燈片動畫來推進目錄（在<span class="codeph"> PageView.frametransition </span>設定為slide的情況下）。 最後，縮圖會依從左至右的填色順序設定。 </p> <p>同樣地，當使用<span class="codeph"> right </span>時，它會為初始頁面設定左對齊，並為最後一頁設定右對齊。 它可針對個別頁面子影像，依從右至左的轉譯順序進行接合。 它還將主視圖設定為使用從左到右幻燈片動畫來推進目錄（在<span class="codeph"> PageView.frametransition </span>設定為slide的情況下）。 最後，它會反轉縮圖順序，讓縮圖檢視以從右到左、從上到下的方向填入。 </p> <p>設定<span class="codeph"> auto </span>時，當地區設定設為<span class="codeph"> ja；時，檢視器會套用<span class="codeph"> right </span>模式；</span>否則，它使用<span class="codeph">左</span>模式。 </p> </td> 
+   <td colname="col2"> <p>指定主視圖和縮圖中頁面的顯示方式。 它也會指定使用者與檢視器使用者介面互動的方式，以便在目錄框架之間變更。 </p> <p>使用<span class="codeph">左</span>時，會為初始頁面設定右對齊方式，為最後一頁設定左對齊方式。 它可拼接個別頁面子影像，以依照從左到右的轉譯順序。 它還設定主視圖以使用從右到左幻燈片動畫來推進目錄（在<span class="codeph"> PageView.frametransition </span>設定為幻燈片時）。 最後，設定左至右填充順序的縮圖。 </p> <p>同樣地，使用<span class="codeph">右</span>時，會為初始頁面設定左對齊方式，為最後一頁設定右對齊方式。 它可拼接個別頁面子影像，以依從右至左轉譯順序。 它還設定主視圖以使用左到右幻燈片動畫來推進目錄（在<span class="codeph"> PageView.frametransition </span>設定為幻燈片時）。 最後，它會反轉縮圖順序，使縮圖檢視以由右至左、由上至下的方向填入。 </p> <p>設定<span class="codeph"> auto </span>時，當區域設定為<span class="codeph"> ja時，查看器將<span class="codeph">向</span>模式應用;</span>否則，會使用左</span>模式的<span class="codeph">。 </span></p> </td> 
   </tr> 
  </tbody> 
 </table>
