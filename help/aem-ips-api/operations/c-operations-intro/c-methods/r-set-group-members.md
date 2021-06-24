@@ -4,22 +4,21 @@ solution: Experience Manager
 title: setGroupMembers
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 81348da7-6733-4da9-8a0a-376fccf791ea
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '131'
 ht-degree: 9%
 
 ---
-
 
 # setGroupMembers{#setgroupmembers}
 
 設定屬於特定公司之使用者的群組成員資格。
 
-如果您沒有完成此操作的權限，則操作會引發驗證錯誤。 如果用戶句柄陣列中的任何用戶不屬於公司句柄中指定的公司，則此情況也是正確的。
+如果您沒有完成此操作的權限，則操作會擲回驗證錯誤。 如果使用者控制代碼陣列中的任何使用者不屬於公司控制代碼中指定的公司，則也會採用此方法。
 
-## 授權用戶類型{#section-4523594039c24aa29c8d0d5c9c415391}
+## 授權的使用者類型 {#section-4523594039c24aa29c8d0d5c9c415391}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -32,16 +31,16 @@ ht-degree: 9%
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | 是 | 公司負責人。 |
-| `*`groupHandle`*` | `xsd:string` | 是 | 群組控制代碼。 |
-| `*`userHandleArray`*` | `types:HandleArray` | 是 | 您要設定其群組成員資格的使用者的控制代碼陣列。 |
+| `*`groupHandle`*` | `xsd:string` | 是 | 組句柄。 |
+| `*`userHandleArray`*` | `types:HandleArray` | 是 | 要設定其組成員資格的用戶的句柄陣列。 |
 
 **輸出(setGroupMembersReturn)**
 
-IPS API不會傳回此作業的回應。
+IPS API不會針對此操作傳回回應。
 
 ## 範例 {#section-9c528c3f44a141ce9eaddf634f26c487}
 
-此程式碼範例會為單一使用者設定群組成員資格。
+此程式碼範例會設定單一使用者的群組成員資格。
 
 **請求**
 
