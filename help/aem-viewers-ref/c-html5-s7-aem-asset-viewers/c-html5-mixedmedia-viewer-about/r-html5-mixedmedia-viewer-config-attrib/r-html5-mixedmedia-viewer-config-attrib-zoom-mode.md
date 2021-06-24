@@ -1,21 +1,20 @@
 ---
-description: 設定縮放互動的類型。
+description: 設定縮放交互的類型。
 solution: Experience Manager
 title: zoomMode
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic，檢視器，SDK/API，混合媒體集
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: a399ed5e-acc3-4c45-9c84-9fa572667489
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '141'
 ht-degree: 2%
 
 ---
 
-
 # zoomMode{#zoommode}
 
-設定縮放互動的類型。
+設定縮放交互的類型。
 
 `zoomMode=continuous|inline|auto`
 
@@ -23,7 +22,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> continuous|inline|auto  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> continuous可 </span> 讓您在主檢視中按一下、點選兩下或夾捏影像時，在影像逐漸放大的位置進行傳統縮放。您必須明確縮小或重設縮放狀態，才能返回初始檢視。 </p> <p> <span class="codeph"> 內嵌 </span> 功能可讓您立即縮放，當您將主檢視暫留在桌上型電腦或觸控式裝置上時，縮放的影像會立即出現；當您從檢視中移動滑鼠或鬆開手指時，影像會自動回復為初始狀態。請注意，在<span class="codeph">內嵌</span>模式中，巢狀影像集會平面化並顯示為個別縮圖。 <span class="codeph"> 自動 </span> 在桌上型電腦上啟動內嵌模式，在觸控裝置上啟動連續模式。 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> continuous可 </span> 啟用傳統縮放，在您按一下、點選兩下或在主檢視中縮小影像時，影像會逐漸放大。您需要明確縮小或重設縮放狀態，才能返回初始檢視。 </p> <p> <span class="codeph"> 內嵌 </span> 可讓您立即縮放，當您將滑鼠游標暫留在桌上型電腦的主檢視畫面上，或在觸控裝置上觸控並按住時，縮放的影像會立即顯示；當您將滑鼠從視圖中移動或鬆開手指時，影像會自動回復為初始狀態。請注意，在<span class="codeph">內嵌</span>模式中，巢狀影像集會平面化，並顯示為個別縮圖。 <span class="codeph"> 自動 </span> 啟用案頭上的內嵌模式和觸控裝置上的連續模式。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
