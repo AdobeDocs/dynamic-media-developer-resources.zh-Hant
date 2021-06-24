@@ -1,37 +1,36 @@
 ---
-description: 銳利化影像。 在進行所有縮放後，如果layer=comp，請將基本銳利化濾鏡套用至圖層或最終檢視影像。
+description: 銳化影像。 如果layer=comp，則在所有縮放後，將基本銳利化濾鏡應用於圖層或最終視圖影像。
 solution: Experience Manager
 title: op_sharpen
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 62e7d91c-935f-410f-a971-ffb3cfff31d6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '120'
 ht-degree: 7%
 
 ---
 
-
 # op_sharpen{#op-sharpen}
 
-銳利化影像。 在進行所有縮放後，如果layer=comp，請將基本銳利化濾鏡套用至圖層或最終檢視影像。
+銳化影像。 如果layer=comp，則在所有縮放後，將基本銳利化濾鏡應用於圖層或最終視圖影像。
 
 `op_sharpen=0|1`
 
-圖層遮色片或複合遮色片也會銳利化。
+圖層蒙版或複合蒙版也被銳化。
 
 ## 屬性 {#section-b27f3f6a27c34233b3f76805e18b2aa7}
 
-層屬性或視圖屬性。 如果`layer=comp`，則套用至目前圖層或最終檢視影像。 被效果圖層忽略。
+層屬性或視圖屬性。 若`layer=comp`，則套用至目前層或最終檢視影像。 被效果層忽略。
 
 ## 預設 {#section-665709700fff458e9dbbf8a78e8ecf71}
 
-`op_sharpen=0`，以避免銳利化效果。
+`op_sharpen=0`，不會銳利化。
 
 ## 範例 {#section-3202122df5db4e14b358ecabfb6d8b85}
 
-補償因影像重新取樣而造成的輕微模糊性。 我們也會提高JPEG品質，以避免沿著銳利邊緣產生額外的JPEG偽影。
+補償因影像重採樣而導致的輕微模糊性。 我們還提高了JPEG質量，以避免沿著銳化邊緣出現其他JPEG偽影。
 
 `http://server/myRootId/myImageId?qlt=90,1&op_sharpen=1&wid=500`
 
