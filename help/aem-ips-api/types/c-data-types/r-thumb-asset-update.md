@@ -2,16 +2,15 @@
 description: 縮圖影像更新。
 solution: Experience Manager
 title: ThumbAssetUpdate
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API，資產管理
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: ef51d01c-1434-40ac-a383-b07ef49c3bab
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '29'
-ht-degree: 17%
+source-wordcount: '27'
+ht-degree: 18%
 
 ---
-
 
 # ThumbAssetUpdate{#thumbassetupdate}
 
@@ -25,4 +24,3 @@ ht-degree: 17%
 |---|---|---|
 | `*`assetHandle`*` | `xsd:string` | 資產控制代碼。 |
 | `*`thumbAssetHandle`*` | `xsd:string` | 縮圖資產控點。 |
-
