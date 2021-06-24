@@ -1,25 +1,24 @@
 ---
-description: 移除檔案夾權限。
+description: 移除資料夾權限。
 solution: Experience Manager
 title: removeFolderPermissions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 10830980-d504-4610-96c9-730937453256
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '115'
 ht-degree: 16%
 
 ---
 
-
 # removeFolderPermissions{#removefolderpermissions}
 
-移除檔案夾權限。
+移除資料夾權限。
 
 語法
 
-## 授權用戶類型{#section-bfa745624f9b43aaba6c226ac6700fe7}
+## 授權的使用者類型 {#section-bfa745624f9b43aaba6c226ac6700fe7}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -49,7 +48,7 @@ ht-degree: 16%
    <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 資料夾的句柄。 </td> 
+   <td colname="col4"> 處理資料夾。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> updateChildren</span> </span> </td> 
@@ -60,7 +59,7 @@ ht-degree: 16%
       <li id="li_AB8705F3CEAD4B8A8F1C28291A6F7EC8">權限刪除會通過所有資料夾權限操作傳播。 </li> 
      </ul> </p> <p>當<span class="codeph"> false</span>: 
      <ul id="ul_19AEE80F1FC84B64AD623E050C12A0CD"> 
-      <li id="li_B8B78851004C43DB8CB7958E380AF510">此操作僅影響指定的資料夾。 </li> 
+      <li id="li_B8B78851004C43DB8CB7958E380AF510">操作只影響指定的資料夾。 </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -68,11 +67,11 @@ ht-degree: 16%
 
 **輸出(removeFolderPermissionsReturn)**
 
-IPS API不會傳回此作業的回應。
+IPS API不會針對此操作傳回回應。
 
 ## 範例 {#section-04390f0ec7cc460cb5d34d518e33e7a5}
 
-此程式碼範例會移除資料夾及其子資料夾的權限。 如果只需要從父資料夾中刪除權限，請將`updateChildren`設定為`false`。
+此程式碼範例會從資料夾及其子資料夾中移除權限。 如果您只需從父資料夾移除權限，請將`updateChildren`設為`false`。
 
 **請求**
 
