@@ -2,18 +2,17 @@
 description: 視訊檢視器的URL命令。
 solution: Experience Manager
 title: 視訊
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+feature: Dynamic Media Classic，檢視器， SDK/API，影片
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 03347280-64f8-47da-b33b-0fa1ba2bc59a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 13%
+source-wordcount: '41'
+ht-degree: 17%
 
 ---
 
-
-# video{#video}
+# 視訊{#video}
 
 視訊檢視器的URL命令。
 
@@ -30,7 +29,7 @@ ht-degree: 13%
 
 ## 屬性 {#section-f42369774e2740dcb399626a0e4e930e}
 
-必要. (除非使用`asset`參數。 請參閱[外部視頻支援](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-external-video-support.md#concept-22c67fee43274a29b28ee16770b1b1f3)。)
+必要. (除非使用`asset`參數。 請參閱[外部視訊支援](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-external-video-support.md#concept-22c67fee43274a29b28ee16770b1b1f3)。)
 
 ## 預設 {#section-d016470e92a74f98a18c4ab3489410a5}
 
@@ -41,4 +40,3 @@ ht-degree: 13%
 ```
 video=https://s7d9.scene7.com/is/content/Scene7SharedAssets/Glacier_Climber_MP4
 ```
-
