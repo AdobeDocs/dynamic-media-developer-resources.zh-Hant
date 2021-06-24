@@ -1,32 +1,31 @@
 ---
-description: 所有配置檔案都位於install_folder/conf中，大多數文本編輯器都可編輯。 伺服器可能需要重新啟動才能使更改生效。
+description: 所有組態檔都位於install_folder/conf中，且可用大部分的文字編輯器編輯。 可能需要重新啟動伺服器才能使更改生效。
 solution: Experience Manager
 title: 伺服器配置檔案
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 6261844c-b63d-477b-8a48-963be868aa22
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
 
-
 # 伺服器配置檔案{#server-configuration-files}
 
-所有配置檔案都位於install_folder/conf中，大多數文本編輯器都可編輯。 伺服器可能需要重新啟動才能使更改生效。
+所有組態檔都位於install_folder/conf中，且可用大部分的文字編輯器編輯。 可能需要重新啟動伺服器才能使更改生效。
 
 >[!NOTE]
 >
->大多數伺服器配置檔案包含本文檔中未說明的其他屬性和值。 這些屬性僅供內部伺服器使用，除非Dynamic Media技術支援部門特別指示，否則不得修改。
+>大多數伺服器配置檔案都包含本文檔中未說明的其他屬性和值。 這些屬性供內部伺服器使用，除非Dynamic Media技術支援特別指示，否則不得修改。
 
-本文檔討論以下配置檔案的設定：
+本檔案探討下列組態檔的設定：
 
 <table id="table_D307B20E65B742A7AC3DEBF1E650719E"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b>配置檔案</b> </th> 
+   <th class="entry"> <b>組態檔</b> </th> 
    <th class="entry"> <b>說明</b> </th> 
   </tr> 
  </thead>
@@ -41,7 +40,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <p> <span class="filepath"> PlatformServer.conf</span> </p> </td> 
-   <td> <p>平台伺服器組態。 </p> </td> 
+   <td> <p>平台伺服器配置。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="filepath"> catalog-service.conf</span> </p> </td> 
@@ -53,9 +52,9 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <p> <span class="filepath"> ImageServerRegistry.xml</span> </p> </td> 
-   <td> <p>影像伺服器組態。 </p> </td> 
+   <td> <p>映像伺服器配置。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-本文稍後將更詳細地討論配置檔案。
+本檔案稍後會更詳細地討論組態檔。
