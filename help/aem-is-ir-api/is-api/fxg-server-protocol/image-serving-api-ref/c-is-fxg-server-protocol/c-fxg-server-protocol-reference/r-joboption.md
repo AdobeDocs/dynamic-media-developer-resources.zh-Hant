@@ -1,32 +1,31 @@
 ---
-description: 套用PDF工作選項。 作業選項檔案或PDF預設集是Illustrator在「另存為PDF選項」對話方塊或InDesign中的PDF預設集中產生的檔案。
+description: 應用PDF作業選項。 作業選項檔案或PDF預設集是Illustrator在「另存為PDF選項」對話方塊中產生的檔案，或InDesign中的PDF預設集。
 solution: Experience Manager
 title: 作業選項
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 8e7224e7-d801-4550-b95e-24d15734043a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '233'
 ht-degree: 46%
 
 ---
 
+# 作業選項{#joboption}
 
-# joboption{#joboption}
+應用PDF作業選項。 作業選項檔案或PDF預設集是Illustrator在「另存為PDF選項」對話方塊中產生的檔案，或InDesign中的PDF預設集。
 
-套用PDF工作選項。 作業選項檔案或PDF預設集是Illustrator在「另存為PDF選項」對話方塊或InDesign中的PDF預設集中產生的檔案。
-
-` joboption= *`值`*`
+` joboption= *`value`*`
 
 <table id="simpletable_BA7B58BE0B0740298D45DDEBE7832D93"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> 值</span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> value</span></span> </p> </td> 
   <td class="stentry"> <p>作業選項檔案的IPSID。 </p></td> 
  </tr> 
 </table>
 
-作業選項檔案可由IPS/Dynamic Media經典上傳和發佈。 產生PDF時，會使用工作選項檔案中所包含的PDF選項。
+作業選項檔案可由IPS/Dynamic Media Classic上傳和發佈。 生成PDF時，將使用作業選項檔案中包含的PDF選項。
 
 目前支援下列選項：
 
@@ -37,11 +36,11 @@ ht-degree: 46%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>影像 </p></td> 
-  <td class="stentry"> <p> 縮減取樣顏色、灰階和單色的解析度、臨界值和壓縮 </p> </td> 
+  <td class="stentry"> <p> 縮減取樣顏色、灰色和單色的、解析度、閾值和壓縮 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>字型 </p></td> 
-  <td class="stentry"> <p> 內嵌所有字型 </p> <p> 內嵌 OpenType 字型 </p> <p> 子集內嵌的字型，若使用的字元百分比低於: </p> <p> 永遠內嵌清單 </p> <p> 永不內嵌清單 </p> </td> 
+  <td class="stentry"> <p> 嵌入所有字型 </p> <p> 內嵌 OpenType 字型 </p> <p> 子集內嵌的字型，若使用的字元百分比低於: </p> <p> 永遠內嵌清單 </p> <p> 永不內嵌清單 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>色彩 </p></td> 
@@ -78,7 +77,6 @@ ht-degree: 46%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>標準 </p></td> 
-  <td class="stentry"> <p>符合標準。 </p></td> 
+  <td class="stentry"> <p>合規標準。 </p></td> 
  </tr> 
 </table>
-
