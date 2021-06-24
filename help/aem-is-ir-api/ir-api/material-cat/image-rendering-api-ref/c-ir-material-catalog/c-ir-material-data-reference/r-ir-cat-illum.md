@@ -1,27 +1,26 @@
 ---
-description: 照明圖選擇器。 允許在渲染此材料時使用明確的照明圖選擇。
+description: 照明圖選擇器。 允許在呈現此材料時顯式選擇照明圖。
 solution: Experience Manager
 title: 伊盧姆
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 5e74b3e8-6289-4114-aa11-a6f91671363e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '89'
 ht-degree: 4%
 
 ---
 
+# 伊盧姆{#illum}
 
-# Illum{#illum}
-
-照明圖選擇器。 允許在渲染此材料時使用明確的照明圖選擇。
+照明圖選擇器。 允許在呈現此材料時顯式選擇照明圖。
 
 ## 屬性 {#section-162bcf562ca844ccba9e81e267508cca}
 
-列舉。 設為-1，以根據目錄：:Gloss的值自動選取照明地圖。
+列舉。 設為–1，以根據catalog::Gloss的值自動選取照明地圖。
 
-設為0、1或2以選擇照明映射A、B或C。渲染器將選擇暈映中最靠近的照明映射。
+設定為0、1或2以選擇照度映射A、B或C。渲染器將選擇在暈映中可用的最接近的照度映射。
 
 ## 預設 {#section-ac386d31ef90423b8a367010a60bddc7}
 
