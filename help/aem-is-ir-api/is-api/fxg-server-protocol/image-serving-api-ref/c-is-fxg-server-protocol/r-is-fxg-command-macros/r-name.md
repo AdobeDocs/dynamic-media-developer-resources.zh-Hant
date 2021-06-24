@@ -4,16 +4,15 @@ solution: Experience Manager
 title: name
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: b5aa907b-aa95-4573-bc05-65d84c173f25
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '36'
-ht-degree: 5%
+source-wordcount: '33'
+ht-degree: 9%
 
 ---
 
-
-# name{#name}
+# 名稱{#name}
 
 命令宏的名稱。
 
@@ -26,4 +25,4 @@ ht-degree: 5%
  </tr> 
 </table>
 
-*`name`* 不區分大小寫，且可能由字母、數字、&#39;-&#39;、&#39;_&#39;和&#39;.&#39;的任意組合組成字元.
+*`name`* 不區分大小寫，並且可能包含字母、數字、「 — 」、「_」和「」的任何組合。字元.
