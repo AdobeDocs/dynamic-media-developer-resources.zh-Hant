@@ -1,21 +1,20 @@
 ---
-description: 名稱和值對。
+description: 名稱和值組。
 solution: Experience Manager
 title: 屬性
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 7c7675e5-d85c-4320-8b7a-a49af24ac4ff
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '30'
-ht-degree: 30%
+source-wordcount: '28'
+ht-degree: 32%
 
 ---
 
-
 # 屬性{#property}
 
-名稱和值對。
+名稱和值組。
 
 語法
 
@@ -24,5 +23,4 @@ ht-degree: 30%
 | 名稱 | 類型 | 說明 |
 |---|---|---|
 | `*`名稱`*` | `xsd:string` | 屬性 名稱. |
-| `*`值`*` | `xsd:string` | 屬性值。 |
-
+| `*`value`*` | `xsd:string` | 屬性值。 |
