@@ -4,16 +4,15 @@ solution: Experience Manager
 title: 頁面
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 7c72ceff-30d9-4e0b-8b4f-6cb0039d389e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: '54'
 ht-degree: 5%
 
 ---
 
-
-# page{#page}
+# 頁面{#page}
 
 擷取頁面。 在多頁FXG中擷取特定頁面。
 
@@ -28,4 +27,4 @@ ht-degree: 5%
 
 ## 預設 {#section-3fd7fcc525b947c7a95457e50414ac9e}
 
-如果未指定`page`，則會傳回第一頁以用於點陣輸出，以及所有頁面以用於PDF輸出。
+如果未指定`page`，則返回光柵輸出的第一頁和PDF輸出的所有頁。
