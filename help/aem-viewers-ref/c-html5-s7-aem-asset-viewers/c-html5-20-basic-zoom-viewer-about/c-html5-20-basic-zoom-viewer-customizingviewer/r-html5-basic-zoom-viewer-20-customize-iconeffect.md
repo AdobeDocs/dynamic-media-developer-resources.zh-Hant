@@ -1,27 +1,26 @@
 ---
-description: 縮放指示器覆蓋在主視圖區域上。 當影像處於重設狀態時，就會顯示它，而且它也取決於iconeffect參數。
+description: 縮放指示器覆蓋在主視圖區域上。 當影像處於重置狀態時，就會顯示它，而且它還取決於iconeffect參數。
 solution: Experience Manager
-title: 圖示效果
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+title: 表徵圖效果
+feature: Dynamic Media Classic，檢視器，SDK/API，縮放
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 45ab21e0-1f9e-48c9-8a8f-7a54e273db30
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '170'
 ht-degree: 1%
 
 ---
 
+# 表徵圖效果{#icon-effect}
 
-# 圖示效果{#icon-effect}
-
-縮放指示器覆蓋在主視圖區域上。 當影像處於重設狀態時，就會顯示它，而且它也取決於iconeffect參數。
+縮放指示器覆蓋在主視圖區域上。 當影像處於重置狀態時，就會顯示它，而且它還取決於iconeffect參數。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**主檢視器區域的CSS屬性**
+**主查看器區域的CSS屬性**
 
-檢視區域的外觀會使用下列CSS類別選擇器加以控制：
+查看區域的外觀由以下CSS類選擇器控制：
 
 ```
 .s7basiczoomviewer .s7zoomview .s7iconeffect
@@ -36,12 +35,12 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景影像  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景 — 影像  </span> </p> </td> 
    <td colname="col2"> <p> 縮放指示器圖稿。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS精靈，請放在圖稿精靈內。 </p> <p>請參閱<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-customizingviewer/c-html5-20-basic-zoom-viewer-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS精靈</a>。 </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS精靈，則位於圖稿精靈內。 </p> <p>請參閱<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-customizingviewer/c-html5-20-basic-zoom-viewer-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprites </a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -56,9 +55,9 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->圖示效果支援`media-type`屬性選擇器，您可使用它對不同裝置套用不同的圖示效果。 尤其是，`media-type='standard'`對應於通常使用滑鼠輸入的台式機系統，`media-type='multitouch'`對應於具有觸摸輸入的設備。
+>表徵圖效果支援`media-type`屬性選擇器，您可以用它在不同的設備上應用不同的表徵圖效果。 具體而言，`media-type='standard'`對應於通常使用滑鼠輸入的案頭系統，而`media-type='multitouch'`對應於具有觸摸輸入的設備。
 
-範例——針對桌上型電腦系統和觸控裝置設定100 x 100像素縮放指示器，並使用不同的圖稿。
+範例：針對案頭系統和觸控裝置，使用不同藝術設定100 x 100像素縮放指示器。
 
 ```
 .s7basiczoomviewer .s7zoomview .s7iconeffect { 
@@ -72,4 +71,3 @@ ht-degree: 1%
  background-image:url(images/v2/IconEffect_pinch.png); 
 }
 ```
-
