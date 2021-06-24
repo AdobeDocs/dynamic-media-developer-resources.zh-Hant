@@ -1,21 +1,20 @@
 ---
-description: 支援searchAssets作業中的副產品篩選。
+description: 支援searchAssets操作中的副產品篩選。
 solution: Experience Manager
-title: ExcludeBinsubleArray
+title: ExcludeBiscullArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 0d238e6a-175d-4efc-b8a9-6b8bc3b65c34
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 18%
+source-wordcount: '31'
+ht-degree: 19%
 
 ---
 
+# ExcludeBiscullArray{#excludebyproductarray}
 
-# ExcludeBinsubleArray{#excludebyproductarray}
-
-支援searchAssets作業中的副產品篩選。
+支援searchAssets操作中的副產品篩選。
 
 語法
 
@@ -24,4 +23,3 @@ ht-degree: 18%
 | 名稱 | 類型 | 說明 |
 |---|---|---|
 | `*`項目`*` | `types:ExcludeByproductCondition` | 陣列中的項目。 |
-
