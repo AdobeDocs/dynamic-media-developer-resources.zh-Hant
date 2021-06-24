@@ -4,14 +4,13 @@ solution: Experience Manager
 title: deleteImageMap
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: f9942a4a-d258-4e2a-8910-44fa502d97bd
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '98'
 ht-degree: 12%
 
 ---
-
 
 # deleteImageMap{#deleteimagemap}
 
@@ -19,7 +18,7 @@ ht-degree: 12%
 
 語法
 
-## 授權用戶類型{#section-41fd188af16a40d4b07923165bcf15d8}
+## 授權的使用者類型 {#section-41fd188af16a40d4b07923165bcf15d8}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -38,16 +37,16 @@ ht-degree: 12%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 包含要刪除之影像地圖之公司的控制代碼。 |
-| `*`imageMapHandle`*` | `xsd:string` | 是 | 要刪除的影像地圖的控點。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 包含要刪除之影像對映的公司控制代碼。 |
+| `*`imageMapHandle`*` | `xsd:string` | 是 | 要刪除的影像映射的句柄。 |
 
 **輸出(deleteImageMapParam)**
 
-IPS API不會傳回此作業的回應。
+IPS API不會針對此操作傳回回應。
 
 ## 範例 {#section-b238da3332fb4e3eb3f8bda0bd6a2035}
 
-此程式碼範例會從公司刪除影像地圖。 您必須從其他操作獲取影像映射句柄。
+此程式碼範例會從公司刪除影像對應。 您必須從其他操作獲取影像映射句柄。
 
 **請求**
 
