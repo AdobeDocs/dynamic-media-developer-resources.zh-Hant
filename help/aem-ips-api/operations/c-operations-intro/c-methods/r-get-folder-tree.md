@@ -1,25 +1,24 @@
 ---
-description: 傳回階層式樹狀結構中的檔案夾和子檔案夾。 getFolderTree回應的限制為最多100,000個資料夾
+description: 返回分層樹結構中的資料夾和子資料夾。 getFolderTree響應最多限制為100,000個資料夾
 solution: Experience Manager
 title: getFolderTree
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 1afe63ca-d11a-4fa5-a26b-90a23bee1b68
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '263'
 ht-degree: 9%
 
 ---
 
-
 # getFolderTree{#getfoldertree}
 
-傳回階層式樹狀結構中的檔案夾和子檔案夾。 getFolderTree回應的限制為最多100,000個資料夾
+返回分層樹結構中的資料夾和子資料夾。 getFolderTree響應最多限制為100,000個資料夾
 
 語法
 
-## 授權用戶類型{#section-66ef19149f4d4123a3a99004b5a2743e}
+## 授權的使用者類型 {#section-66ef19149f4d4123a3a99004b5a2743e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -41,23 +40,23 @@ ht-degree: 9%
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | 是 | 公司的把手。 |
 | `*`accessUserHandle`*` | `xsd:string` | 否 | 僅供管理員用來模擬特定使用者。 |
-| `*`accessGroupHandle`*` | `xsd:string` | 否 | 用於依特定群組篩選，包括公司所屬的任何群組。 |
-| `*`folderPath`*` | `xsd:string` | 否 | 根資料夾，用於將資料夾和所有子資料夾檢索到葉層。 如果排除，則會使用公司根目錄。 |
-| `*`深度`*` | `xsd:int` | 是 | 值零會取得頂層資料夾。 任何其它值都指定要下降到樹中的深度。 |
-| `*`assetTypeArray`*` | `types:StringArray` | 否 | 傳回僅包含指定資產類型的檔案夾。 |
-| `*`responseFieldArray`*` | `types:StringArray` | 否 | 包含要包含在回應中的欄位清單。 |
+| `*`accessGroupHandle`*` | `xsd:string` | 否 | 用來依特定群組篩選，包括公司所屬的任何群組。 |
+| `*`folderPath`*` | `xsd:string` | 否 | 用於檢索資料夾和葉級所有子資料夾的根資料夾。 如果排除，則會使用公司根。 |
+| `*`深度`*` | `xsd:int` | 是 | 值零會取得頂層資料夾。 任何其他值都指定要向下到樹中的深度。 |
+| `*`assetTypeArray`*` | `types:StringArray` | 否 | 傳回僅包含指定資產類型的資料夾。 |
+| `*`responseFieldArray`*` | `types:StringArray` | 否 | 包含您要納入回應的欄位清單。 |
 | `*`excludeFieldArray`*` | `types:StringArray` | 否 | 包含您要在回應中排除的欄位清單。 |
 
 **輸出(getFolderTreeReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`資料夾`*` | `types:folders` | 否 | 樹結構中資料夾的層次。 回應上限為100,000個資料夾。 |
+| `*`資料夾`*` | `types:folders` | 否 | 樹結構中的資料夾層次結構。 回應上限為100,000個資料夾。 |
 | `*`permissionSetArray`*` | `types:PermissionSetArray` |  |  |
 
 ## 範例 {#section-a9fd2edb56574dd9bf8b0f2fd89367e4}
 
-此程式碼範例使用公司控制代碼和深度參數來判斷回應應傳回的深度等級。 響應包含具有相關的資料夾和子資料夾陣列。 將深度值設定為較小的數字，以便在資料夾樹中進行更深入的搜索。
+此程式碼範例使用公司控制代碼和深度參數，來判斷回應應傳回的深度等級。 回應包含有相關的資料夾和子資料夾陣列。 將深度值設定為較小的數字，以便在資料夾樹中進行更深入的搜索。
 
 **請求**
 
@@ -132,4 +131,3 @@ ht-degree: 9%
   <permissionSetArray>
 </getFolderTreeReturn>
 ```
-
