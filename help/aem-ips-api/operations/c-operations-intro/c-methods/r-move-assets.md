@@ -1,25 +1,24 @@
 ---
-description: 獨立移動多個資產。 它使用assetMoveArray中包含的AssetMove類型來實現此目的。 每個AssetMove欄位都包含一個目標資料夾。
+description: 獨立移動多個資產。 它使用assetMoveArray中包含的AssetMove類型來完成此操作。 每個AssetMove欄位都包含一個目標資料夾。
 solution: Experience Manager
 title: moveAssets
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API，資產管理
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: e5bb2188-d262-4324-9f71-68634b6af654
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 11%
+source-wordcount: '216'
+ht-degree: 12%
 
 ---
 
-
 # moveAssets{#moveassets}
 
-獨立移動多個資產。 它使用assetMoveArray中包含的AssetMove類型來實現此目的。 每個AssetMove欄位都包含一個目標資料夾。
+獨立移動多個資產。 它使用assetMoveArray中包含的AssetMove類型來完成此操作。 每個AssetMove欄位都包含一個目標資料夾。
 
 語法
 
-## 授權用戶類型{#section-4166515fd9d8487b8af37465ce61802b}
+## 授權的使用者類型 {#section-4166515fd9d8487b8af37465ce61802b}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,8 +33,8 @@ ht-degree: 11%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 資產要移動的公司的控制代碼。 |
-| `*`assetMoveArray`*` | `types:AssetMoveArray` | 是 | 資產移動陣列。 它包含資產和資產目標資料夾。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 具有要移動資產的公司的控制代碼。 |
+| `*`assetMoveArray`*` | `types:AssetMoveArray` | 是 | 資產移動陣列。 其中包含資產和資產目的地資料夾。 |
 
 **輸出(moveAssetsReturn)**
 
@@ -59,21 +58,21 @@ ht-degree: 11%
    <td colname="col1"> <span class="codeph"> <span class="varname"> warningCount</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 當操作嘗試移動時產生警告的資產計數。 </td> 
+   <td colname="col4"> 操作嘗試移動時產生警告的資產計數。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> errorCount</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 當操作嘗試移動錯誤時產生錯誤的資產計數。 </td> 
+   <td colname="col4"> 操作嘗試移動時產生錯誤的資產計數。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> warningDetailArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：AssetOperationFaultArray</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> <span class="codeph"> AssetOperationFaults，其中包含：</span> 
+   <td colname="col4"> <span class="codeph"> </span>AssetOperationFaults，包含： 
     <ul id="ul_689F4A87A68140F18DFB43868226A409"> 
-     <li id="li_274C8BF5932F4AF584AA92F25E0F33C6">拋出警告的資產。 </li> 
+     <li id="li_274C8BF5932F4AF584AA92F25E0F33C6">發出警告的資產。 </li> 
      <li id="li_5CC4A9120CA94F968CAF0D0135C49E0A">警告代碼。 </li> 
      <li id="li_AEC91FA68B2E43BC8BAA108C743F5667">警告的原因。 </li> 
     </ul> </td> 
@@ -82,9 +81,9 @@ ht-degree: 11%
    <td colname="col1"> <span class="codeph"> <span class="varname"> errorDetailArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：AssetOperationFaultArray</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> <span class="codeph"> AssetOperationFaults，其中包含：</span> 
+   <td colname="col4"> <span class="codeph"> </span>AssetOperationFaults，包含： 
     <ul id="ul_C397BC384A134F429D01ADA28DF2E097"> 
-     <li id="li_EAEBB5F539164480BA9EAA7C8FFBF69A">擲回錯誤的資產。 </li> 
+     <li id="li_EAEBB5F539164480BA9EAA7C8FFBF69A">導致錯誤的資產。 </li> 
      <li id="li_F96D5FBB2F7A402AA36D8DFA3971391D">錯誤代碼。 </li> 
      <li id="li_F610415E416F43DDA4B1DBF1897E2F61">錯誤的原因。 </li> 
     </ul> </td> 
@@ -123,4 +122,3 @@ ht-degree: 11%
    <errorCount>0</errorCount>
 </moveAssetsReturn>
 ```
-
