@@ -4,14 +4,13 @@ solution: Experience Manager
 title: saveImageFormat
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: cafbd715-237b-4454-920e-643f0c84e208
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '151'
 ht-degree: 11%
 
 ---
-
 
 # saveImageFormat{#saveimageformat}
 
@@ -19,9 +18,9 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->`urlModifier`欄位值必須由有效的XML組成。 例如，將`&`變更為`&`。 從IPS用戶介面獲取`urlModfier`值。
+>`urlModifier`欄位值必須包含有效的XML。 例如，將`&`變更為`&`。 從IPS用戶介面獲取`urlModfier`值。
 
-## 授權用戶類型{#section-12c9d8d5933f4692bafb194060b4f882}
+## 授權的使用者類型 {#section-12c9d8d5933f4692bafb194060b4f882}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,16 +33,16 @@ ht-degree: 11%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 您要使用之影像格式的公司控制代碼。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 使用您要使用的影像格式的公司控制代碼。 |
 | `*`imageFormatHandle`*` | `xsd:string` | 否 | 要保存的影像格式句柄。 |
 | `*`名稱`*` | `xsd:string` | 是 | 影像格式名稱。 |
-| `*`urlModifier`*` | `xsd:string` | 是 | 這可以是任何IPS協定查詢字串。 要產生URL修飾元，最簡單的方式是使用IPS使用者介面建立URL修飾元，然後剪下並貼上查詢字串。 |
+| `*`urlModifier`*` | `xsd:string` | 是 | 這可以是任何IPS協定查詢字串。 要產生URL修飾詞，最簡單的方式是使用IPS使用者介面建立修飾詞，然後剪下並貼上查詢字串。 |
 
 **輸出(saveImageFormatReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`imageFormatHandle`*` | `xsd:string` | 是 | 影像格式的控制代碼。 |
+| `*`imageFormatHandle`*` | `xsd:string` | 是 | 處理影像格式。 |
 
 ## 範例 {#section-c7bd733212ef494297a97093f3af193f}
 
@@ -68,4 +67,3 @@ ht-degree: 11%
    <imageFormatHandle>47|301</imageFormatHandle> 
 </saveImageFormatReturn>
 ```
-
