@@ -1,25 +1,24 @@
 ---
-description: 移除選取資產的權限。
+description: 從選取的資產移除權限。
 solution: Experience Manager
 title: removeAssetPermissions
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API，資產管理
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: c47d9853-91b1-45fe-b8ff-aaa1239ca0d1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 15%
+source-wordcount: '75'
+ht-degree: 16%
 
 ---
 
-
 # removeAssetPermissions{#removeassetpermissions}
 
-移除選取資產的權限。
+從選取的資產移除權限。
 
 語法
 
-## 授權用戶類型{#section-239058fdb4454e519ac327e621cb3abc}
+## 授權的使用者類型 {#section-239058fdb4454e519ac327e621cb3abc}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -32,11 +31,11 @@ ht-degree: 15%
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | 是 | 公司的把手。 |
-| `*`assetHandle`*` | `xsd:string` | 是 | 具有您要移除之權限的資產的控制代碼。 |
+| `*`assetHandle`*` | `xsd:string` | 是 | 具有您要移除之權限的資產控制代碼。 |
 
 **輸出(removeAssetPermissionsReturn)**
 
-IPS API不會傳回此作業的回應。
+IPS API不會針對此操作傳回回應。
 
 ## 範例 {#section-238fa7bb091548f5ba72ced11fc92d4f}
 
