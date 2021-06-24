@@ -4,14 +4,13 @@ solution: Experience Manager
 title: deleteFolder
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: c042b87b-3f60-4608-8ed5-0fc031a66c03
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '101'
 ht-degree: 10%
 
 ---
-
 
 # deleteFolder{#deletefolder}
 
@@ -19,7 +18,7 @@ ht-degree: 10%
 
 語法
 
-## 授權用戶類型{#section-1c15a74c41194744a81f5ca86fe26585}
+## 授權的使用者類型 {#section-1c15a74c41194744a81f5ca86fe26585}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -38,16 +37,16 @@ ht-degree: 10%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 資料夾所屬公司的控制代碼。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 資料夾所屬公司的句柄。 |
 | `*`folderHandle`*` | `xsd:string` | 是 | 要刪除的資料夾的句柄。 |
 
 **輸出(deleteFolderParam)**
 
-IPS API不會傳回此作業的回應。
+IPS API不會針對此操作傳回回應。
 
 ## 範例 {#section-9d4617b322e8442d80e59be0f8714841}
 
-此范常式式碼會從公司根目錄中刪除資料夾。 它需要一個資料夾句柄，您必須從其他操作中獲取該句柄。
+此范常式式碼會從公司的根目錄中刪除資料夾。 它需要資料夾句柄，您必須從其他操作中獲取該句柄。
 
 **請求**
 
