@@ -1,25 +1,24 @@
 ---
-description: 建立一般資產集，其原始集定義字串會發佈至影像伺服器。
+description: 建立一般資產集，其中包含要發佈至影像伺服器的原始集定義字串。
 solution: Experience Manager
 title: createAssetSet
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API，資產管理
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 4565eb4f-eeb7-4b98-bfef-1a59e9a931af
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '310'
 ht-degree: 10%
 
 ---
 
-
 # createAssetSet{#createassetset}
 
-建立一般資產集，其原始集定義字串會發佈至影像伺服器。
+建立一般資產集，其中包含要發佈至影像伺服器的原始集定義字串。
 
 語法
 
-## 授權用戶類型{#section-d670d3af552147199b65c7eb847544a3}
+## 授權的使用者類型 {#section-d670d3af552147199b65c7eb847544a3}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -46,13 +45,13 @@ ht-degree: 10%
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle  </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 包含資產集之公司的控制代碼。 </td> 
+   <td colname="col4"> 將包含資產集之公司的控制代碼。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle  </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 將在其中建立新資產集的資料夾的句柄。 </td> 
+   <td colname="col4"> 將在其中建立新資產集的資料夾的控制代碼。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 名稱  </span> </span> </td> 
@@ -70,31 +69,31 @@ ht-degree: 10%
    <td colname="col1"> <span class="codeph"> <span class="varname"> setDefinition  </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 設定定義字串中的參數。 <p>這些必須解析為目標檢視器指定的格式。 </p> </td> 
+   <td colname="col4"> 設定定義字串中的參數。 <p>這些參數必須解析為目標檢視器指定的格式。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAssetHandle  </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 當做新影像集縮圖的資產控制代碼。 如果未指定，IPS會嘗試使用該集所引用的第一個映像資產。 </td> 
+   <td colname="col4"> 作為新影像集縮圖的資產處理。 如果未指定，IPS會嘗試使用由集引用的第一個影像資產。 </td> 
   </tr> 
  </tbody> 
 </table>
 
 **setDefinition的替代函式**
 
-您可以在目錄查閱或發佈期間解析的行中指定替代函式。 替代字串的格式為`${<substitution_func>}`。 下列列出可用的功能。
+您可以在目錄查找或發佈期間解析的行中指定替代函式。 替代字串的格式為`${<substitution_func>}`。 下面列舉了可用的功能。
 
 >[!NOTE]
 >
->參數清單中的句柄文字必須用括弧`([])`括住。 在解析度期間，替代字串以外的所有文字都會逐字複製至輸出字串。
+>參數清單中的句柄文字必須由括弧`([])`包圍。 在解析期間，替代字串之外的所有文本將逐字複製到輸出字串。
 
-| **替代函式** | **退貨** |
+| **替代函式** | **傳回** |
 |---|---|
 | `getFilePath([asset_handle>])` | 資產的主要來源檔案路徑。 |
 | `getCatalogId([<asset_handle>])` | 資產的目錄ID。 |
 | `getMetaData([<asset_handle>], [<metadata_field_handle>])` | 資產的中繼資料值。 |
-| `getThumbCatalogId([<asset_handle>])` | 資產的目錄ID（僅限影像型資產）。相關的拇指資產的目錄ID（適用於其他資產）。 如果關聯的縮圖資產不可用，函式會傳回空字串。 |
+| `getThumbCatalogId([<asset_handle>])` | 資產的目錄ID（僅適用於影像型資產）。關聯的縮圖資產的目錄ID（適用於其他資產）。 如果相關聯的縮圖資產無法使用，函式會傳回空白字串。 |
 
 **範例媒體setDefinition字串**
 
@@ -135,4 +134,3 @@ jcompany/myRenderSet;jcompany/myRenderSet;1,jcompany/Videos/Somebodys_N08275_flv
    <assetHandle>a|1801|44|1801</assetHandle> 
 </createAssetSetReturn>
 ```
-
