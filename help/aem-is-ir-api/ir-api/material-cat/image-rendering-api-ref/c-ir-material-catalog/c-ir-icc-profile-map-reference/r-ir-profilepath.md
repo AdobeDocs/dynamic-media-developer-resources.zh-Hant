@@ -1,25 +1,24 @@
 ---
-description: 配置檔案路徑。 ICC顏色配置檔案的路徑和名稱，包括檔案尾碼。
+description: 設定檔檔案路徑。 ICC顏色配置檔案的路徑和名稱，包括檔案尾碼。
 solution: Experience Manager
 title: ProfilePath
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: f3ab11a6-d14d-426b-aaa8-af14f062532c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 9%
+source-wordcount: '60'
+ht-degree: 10%
 
 ---
 
-
 # ProfilePath{#profilepath}
 
-配置檔案路徑。 ICC顏色配置檔案的路徑和名稱，包括檔案尾碼。
+設定檔檔案路徑。 ICC顏色配置檔案的路徑和名稱，包括檔案尾碼。
 
 ## 屬性 {#section-5b75d459083f49f3bbd89ce8458559f7}
 
-文字字串。 必要. 必須是有效的映像伺服器檔案路徑，絕對路徑或相對於`attribute::RootPath`。
+文字字串。 必要. 必須是有效的影像伺服器檔案路徑，絕對路徑或相對於`attribute::RootPath`。
 
 ## 預設 {#section-67b79d62b3e24c62aff6844cc5e04251}
 
