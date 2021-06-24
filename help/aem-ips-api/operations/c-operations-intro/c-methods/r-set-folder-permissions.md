@@ -4,14 +4,13 @@ solution: Experience Manager
 title: setFolderPermissions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 0da05679-207e-4dc8-9bfe-2cf09a8c3f17
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '96'
 ht-degree: 14%
 
 ---
-
 
 # setFolderPermissions{#setfolderpermissions}
 
@@ -19,7 +18,7 @@ ht-degree: 14%
 
 語法
 
-## 授權用戶類型{#section-d3eb923fcf5741b99967634db809e09e}
+## 授權的使用者類型 {#section-d3eb923fcf5741b99967634db809e09e}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -38,11 +37,11 @@ ht-degree: 14%
 
 **輸出(setFolderPermissionsReturn)**
 
-IPS API不會傳回此作業的回應。
+IPS API不會針對此操作傳回回應。
 
 ## 範例 {#section-01730da4be874553ab44e3241cdf6357}
 
-此程式碼範例會指定公司控制代碼、資料夾控制代碼和權限陣列，其中包含資料夾的詳細資訊。 它對父資料夾的子資料夾應用相同的權限。
+此程式碼範例會指定公司控制代碼、資料夾控制代碼，以及包含資料夾詳細資訊的權限陣列。 它會對父資料夾的子資料夾套用相同的權限。
 
 **請求**
 
