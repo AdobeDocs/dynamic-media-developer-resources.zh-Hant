@@ -1,30 +1,29 @@
 ---
-description: 互動式視訊檢視器支援根據傳送至檢視器的互動資料來轉換互動式色票作為設定參數。
+description: 互動式視訊檢視器支援根據傳遞至檢視器的互動式資料（作為設定參數）轉譯互動式色票。
 solution: Experience Manager
 title: 互動式資料支援
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic，檢視器， SDK/API，互動式影片
 role: Developer,Business Practitioner
 exl-id: 9118bf02-16ae-4dab-92e4-17347e866cc9
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '229'
 ht-degree: 0%
 
 ---
 
 # 互動式資料支援{#interactive-data-support}
 
-互動式視訊檢視器支援根據傳送至檢視器的互動資料來轉換互動式色票作為設定參數。
+互動式視訊檢視器支援根據傳遞至檢視器的互動式資料（作為設定參數）轉譯互動式色票。
 
-目前可見的色票對應於與其相關聯的視訊時間區域。 按一下或點選互動色票會觸發作者時指派給它的動作。
+當前可見的色板對應於與其關聯的視頻時間區域。 按一下或點選互動式色票，就會觸發在製作時指派給它的動作。
 
-互動式色票可透過觸發JavaScript回呼，在代管網頁上啟用「快速檢視」，或將使用者重新導向至外部網頁。
+互動式色票可透過觸發JavaScript回呼來啟動托管網頁上的快速檢視，或將使用者重新導向至外部網頁。
 
-## 關於快速查看{#section-7990e44f641042d2a38ba20c9413b3f8}
+## 關於快速檢視 {#section-7990e44f641042d2a38ba20c9413b3f8}
 
-這些類型的互動式色票應使用AEM Assets（隨選）中的動作類型「quickview」來製作。 當使用者啟動此樣本時，檢視器會執行`quickViewActivate` JavaScript回呼，並將樣本資料傳遞給它。 預期內嵌網頁會監聽此回呼，當它觸發時，頁面會開啟其自己的「快速檢視」實作。
+這些類型的互動式色票應使用AEM Assets中的「快速檢視」動作類型依需製作。 當使用者啟用此類色票時，檢視器會執行`quickViewActivate` JavaScript回呼，並將色票資料傳遞至該色票。 內嵌網頁應會監聽此回呼，當其觸發時，頁面會開啟其自己的快速檢視實作。
 
-## 重定向至外部網頁{#section-32ebe3c3a7f74892a428c5d48801de4d}
+## 重新導向至外部網頁 {#section-32ebe3c3a7f74892a428c5d48801de4d}
 
-為AEM Assets的動作類型「quickview」製作的色票——隨選將使用者重新導向至外部URL。 URL可以在新的瀏覽器標籤中、在相同的視窗中或在命名的瀏覽器視窗中開啟，視編寫時的設定而定。
+在AEM Assets中為動作類型「quickview」製作的色票 — 隨選將使用者重新導向至外部URL。 視編寫時的設定而定，URL可在新的瀏覽器索引標籤、相同視窗或命名的瀏覽器視窗中開啟。
