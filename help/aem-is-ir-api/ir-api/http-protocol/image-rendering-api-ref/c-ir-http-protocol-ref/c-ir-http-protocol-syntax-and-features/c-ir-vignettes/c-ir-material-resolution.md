@@ -1,22 +1,21 @@
 ---
-description: 可重複紋理或其他材料的解析度值定義了場景坐標空間中材料影像的大小。
+description: 可重複紋理或其它材料的解析度值定義場景坐標空間中材料影像的大小。
 solution: Experience Manager
-title: 物質解析度
+title: 材料解析度
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 8a02e555-87cf-47a8-823d-d6833c0fd9c7
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '79'
 ht-degree: 0%
 
 ---
 
+# 材料解析度{#material-resolution}
 
-# 物質解析度{#material-resolution}
+可重複紋理或其它材料的解析度值定義場景坐標空間中材料影像的大小。
 
-可重複紋理或其他材料的解析度值定義了場景坐標空間中材料影像的大小。
+紋理解析度值以每英吋的像素為單位指定（或視頻為其場景坐標空間指定的單位）。
 
-紋理解析度值以每英吋像素（或暈映為其場景坐標空間指定的單位）指定。
-
-材料解析度以`res=`指定。
+材料解析度是使用`res=`指定的。
