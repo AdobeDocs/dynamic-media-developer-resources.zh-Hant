@@ -1,22 +1,21 @@
 ---
-description: 在內嵌外來請求的大括弧內發生的$var$參考會以相符的變數定義值取代。
+description: 若$var$參考出現在內嵌外掛請求的大括弧內，則會取代為相符的變數定義值。
 solution: Experience Manager
-title: 內嵌外來請求中的變數處理
+title: 內嵌外掛程式請求中的變數處理
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: a87bb2a0-0554-4978-982d-b6617925cd53
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
 
+# 內嵌外掛程式請求中的變數處理{#variable-processing-in-embedded-foreign-requests}
 
-# 內嵌外來請求中的變數處理{#variable-processing-in-embedded-foreign-requests}
+若$var$參考出現在內嵌外掛請求的大括弧內，則會取代為相符的變數定義值。
 
-在內嵌外來請求的大括弧內發生的$var$參考會以相符的變數定義值取代。
+這可讓內嵌的外來請求放置在影像目錄的範本中。
 
-這允許將嵌入的外來請求放置在映像目錄的模板中。
-
-要取代為外來請求的變數值通常必須進行雙重編碼，因為伺服器在嘗試傳輸最終外來URL之前不會套用重新編碼。
+要替換為外部請求的變數值通常必須經過雙重編碼，因為在伺服器嘗試傳輸最終的外部URL之前，不會應用重新編碼。
