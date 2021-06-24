@@ -4,20 +4,19 @@ solution: Experience Manager
 title: deleteZoomTarget
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: fa1f7cf8-038a-4fa8-b869-12ce4b2ad41f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '86'
 ht-degree: 12%
 
 ---
-
 
 # deleteZoomTarget{#deletezoomtarget}
 
 刪除縮放目標。
 
-## 授權用戶類型{#section-09ca82bc817e49048271c5cba545702e}
+## 授權的使用者類型 {#section-09ca82bc817e49048271c5cba545702e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -41,11 +40,11 @@ ht-degree: 12%
 
 **輸出(deleteZoomTargetParam)**
 
-IPS API不會傳回此作業的回應。
+IPS API不會針對此操作傳回回應。
 
 ## 範例 {#section-a35857a5ca884357a879f7ba6cf985fe}
 
-此程式碼範例會從公司中刪除縮放目標。
+此程式碼範例會刪除公司中的縮放目標。
 
 **請求**
 
