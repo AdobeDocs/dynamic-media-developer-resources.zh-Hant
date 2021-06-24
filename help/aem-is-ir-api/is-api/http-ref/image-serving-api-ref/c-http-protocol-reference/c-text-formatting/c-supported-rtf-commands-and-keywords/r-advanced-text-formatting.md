@@ -1,21 +1,20 @@
 ---
-description: 使用下列命令進行進階文字格式設定。
+description: 對高級文本格式使用以下命令。
 solution: Experience Manager
-title: 進階的文字格式
+title: 進階文字格式
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: fd0e94dc-34ce-4fc1-8d52-f8647c8312b8
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '242'
 ht-degree: 1%
 
 ---
 
-
 # 進階文字格式{#advanced-text-formatting}
 
-使用下列命令進行進階文字格式設定。
+對高級文本格式使用以下命令。
 
 <table id="table_43B2EB887C0F471BB60C23B570E7D3D2"> 
  <thead> 
@@ -28,79 +27,78 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <span class="codeph"> \dn  <span class="varname"> N  </span> </span> </td> 
-   <td> <p>訂閱，字型大小不會變更。 </p> </td> 
-   <td> <p>以半分位置；預設值為6。 </p> </td> 
+   <td> <p>下標而不更改字型大小。 </p> </td> 
+   <td> <p>以半點位置；預設為6。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \up  <span class="varname"> n  </span> </span> </td> 
-   <td> <p>上標，字型大小不變。 </p> </td> 
-   <td> <p>以半分位置；預設值為6。 </p> </td> 
+   <td> <span class="codeph"> \up  <span class="varname"> N  </span> </span> </td> 
+   <td> <p>不更改字型大小的上標。 </p> </td> 
+   <td> <p>以半點位置；預設為6。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \kerning  <span class="varname"> N  </span> </span> </td> 
-   <td> <p>在指定的字型大小停用／啟用。 </p> </td> 
-   <td> <p>字型大小（半點），以套用字距微調；0：禁用字距微調；對於半點以上所有字型大小的字距微調，預設值為1。 </p> </td> 
+   <td> <span class="codeph"> \字距 <span class="varname"> N  </span> </span> </td> 
+   <td> <p>按指定的字型大小禁用/啟用。 </p> </td> 
+   <td> <p>半點字型大小，以上應用字距微調；0禁用字科修飾；對於在1/2點上對所有字型大小進行字距調整，預設值為1。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \kernotical  </span> </td> 
+   <td> <span class="codeph"> \kerningoptical  </span> </td> 
    <td> <p>選擇光學字距微調。 </p> </td> 
-   <td> <p> <span class="codeph"> textPs= </span> 僅限。 </p> </td> 
+   <td> <p> <span class="codeph"> textPs= </span> 僅。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \kernetmic  </span> </td> 
-   <td> <p>選取量度字距微調。 </p> </td> 
+   <td> <span class="codeph"> \kernmetic  </span> </td> 
+   <td> <p>選擇度量字距調整。 </p> </td> 
    <td> <p>預設. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \expnd  <span class="varname"> n  </span> </span> </td> 
+   <td> <span class="codeph"> \expnd  <span class="varname"> N  </span> </span> </td> 
    <td> <p>修改字元間距。 </p> </td> 
-   <td> <p>正或負四分；預設為0。 </p> </td> 
+   <td> <p>正或負四分點；預設為0。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \expndtw  <span class="varname"> n  </span> </span> </td> 
+   <td> <span class="codeph"> \expndtw  <span class="varname"> N  </span> </span> </td> 
    <td> <p>修改字元間距。 </p> </td> 
-   <td> <p>正或負扭轉。 </p> </td> 
+   <td> <p>正或負扭。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \charscalex  <span class="varname"> n  </span> </span> </td> 
+   <td> <span class="codeph"> \charscalex  <span class="varname"> N  </span> </span> </td> 
    <td> <p>水準字元縮放。 </p> </td> 
-   <td> <p>正或負百分比；預設值為100。 </p> </td> 
+   <td> <p>正或負百分比；預設為100。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \charscaley  <span class="varname"> n  </span> </span> </td> 
+   <td> <span class="codeph"> \charscaley  <span class="varname"> N  </span> </span> </td> 
    <td> <p>垂直字元縮放。 </p> </td> 
-   <td> <p>正或負百分比；預設值為100;Dynamic Media分機。 </p> <p> <span class="codeph"> \charscaley </span> 也可在套用text=時縮 <span class="codeph"> 放行距 </span>。<span class="codeph"> textPs=不 </span> 論垂直字元縮放的大小，一律會保留行距。 </p> </td> 
+   <td> <p>正或負百分比；預設為100;Dynamic Media擴充功能。 </p> <p> <span class="codeph"> \charscaley在 </span> 套用text=時也會縮 <span class="codeph"> 放行距 </span>。<span class="codeph"> textPs= </span> 無論垂直字元縮放的量多寡，都會保留行距。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \ltrch  </span> </td> 
-   <td> <p>選擇從左到右的字元流。 </p> </td> 
+   <td> <p>選取由左至右的字元流。 </p> </td> 
    <td> <p>預設. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \rtlch  </span> </td> 
-   <td> <p>選擇由右至左的字元流。 </p> </td> 
+   <td> <p>選取由右至左的字元流。 </p> </td> 
    <td> <p> <span class="codeph"> text= </span> 僅。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \copyfit  <span class="varname"> N  </span> </span> </td> 
-   <td> <p>啟用複製調整並設定允許的最大字型大小。 </p> </td> 
-   <td> <p>字型大小為半點；<span class="codeph"> textPs= </span>;Dynamic Media分機。 </p> </td> 
+   <td> <p>啟用複製管接頭並設定允許的最大字型大小。 </p> </td> 
+   <td> <p>字型大小（以半點表示）;<span class="codeph"> textPs= </span>;Dynamic Media擴充功能。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \copyfitlines  <span class="varname"> N  </span> </span> </td> 
-   <td> <p>最大複製適合線（軟限制）。 </p> </td> 
-   <td> <p>0表示無行限；<span class="codeph"> textPs= </span>;Dynamic Media分機。 </p> </td> 
+   <td> <p>最大副檔線（軟限制）。 </p> </td> 
+   <td> <p>0，不限行；<span class="codeph"> textPs= </span>;Dynamic Media擴充功能。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \copyfitmaxlines  <span class="varname"> N  </span> </span> </td> 
-   <td> <p>最大副本適合線（截斷）。 </p> </td> 
-   <td> <p> <span class="codeph"> textPs=  </span> only;Dynamic Media分機。 </p> </td> 
+   <td> <p>最大副本調整線（截斷）。 </p> </td> 
+   <td> <p> <span class="codeph"> textPs= </span> 僅；Dynamic Media擴充功能。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \baselinedir  <span class="varname"> n  </span> </span> </td> 
+   <td> <span class="codeph"> \baselinedir  <span class="varname"> N  </span> </span> </td> 
    <td> <p>字元方向。 </p> </td> 
-   <td> <p> <span class="codeph"> textPs=  </span> only;忽略非羅馬字型；當 <span class="codeph"> \stextflow1 </span> 無效時忽略。 </p> <p>0垂直（預設值）。 </p> <p>1順時針旋轉90度。 </p> </td> 
+   <td> <p> <span class="codeph"> textPs= </span> 僅；忽略非羅馬字型；當\stextflow <span class="codeph"> 1未 </span> 生效時忽略。 </p> <p>0垂直（預設）。 </p> <p>1順時針旋轉90度。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
