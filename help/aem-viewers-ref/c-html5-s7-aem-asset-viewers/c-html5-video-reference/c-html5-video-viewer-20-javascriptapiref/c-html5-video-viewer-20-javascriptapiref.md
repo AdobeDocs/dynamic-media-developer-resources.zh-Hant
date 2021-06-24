@@ -1,20 +1,19 @@
 ---
-description: 視訊檢視器的主要類別為VideoViewer。 會在s7viewers命名空間中宣告。 此JavaScript API涵蓋此特定類別的建構函式、方法和回呼。
+description: 視訊檢視器的主要類別為VideoViewer。 會在s7viewers命名空間中宣告。 此JavaScript API涵蓋建構函式、方法及此特定類別的回呼。
 solution: Experience Manager
 title: 視訊檢視器的JavaScript API參考
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+feature: Dynamic Media Classic，檢視器， SDK/API，影片
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 9e61b962-cfbe-4c8e-9938-77a197c5f127
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '97'
 ht-degree: 0%
 
 ---
 
-
 # 視訊檢視器的JavaScript API參考{#javascript-api-reference-for-video-viewer}
 
-視訊檢視器的主要類別為VideoViewer。 會在s7viewers命名空間中宣告。 此JavaScript API涵蓋此特定類別的建構函式、方法和回呼。
+視訊檢視器的主要類別為VideoViewer。 會在s7viewers命名空間中宣告。 此JavaScript API涵蓋建構函式、方法及此特定類別的回呼。
 
-在下列所有範例中，`<instance>`是從`s7viewers.VideoViewer`類別實例化的JavaScript檢視器物件的實際名稱。
+在以下所有示例中，`<instance>`是從`s7viewers.VideoViewer`類實例化的JavaScript查看器對象的實際名稱。
