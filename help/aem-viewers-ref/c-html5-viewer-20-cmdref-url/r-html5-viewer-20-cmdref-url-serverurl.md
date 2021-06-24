@@ -2,13 +2,12 @@
 description: 所有檢視器通用的參數。
 solution: Experience Manager
 title: serverUrl
-feature: Dynamic Media Classic,Viewers,SDK/API
+feature: Dynamic Media Classic，檢視器，SDK/API
 role: Developer,Business Practitioner
 exl-id: c9da3d5b-492d-4e1f-8fdc-3255b2b40fc6
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '106'
 ht-degree: 3%
 
 ---
@@ -23,7 +22,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isRootPath</span> </span> </p> </td> 
-   <td colname="col2"> <p>相對或絕對影像伺服根路徑。 </p> <p> 指定影像伺服的相對或絕對路徑，檢視器會從中擷取影像。 如果路徑沒有前導<span class="filepath"> /</span>，則它相對於檢視器HTML頁面的位置。 如果路徑具有前導<span class="filepath"> /</span> ，則它指定同一伺服器上的絕對路徑。 </p> <p> 僅使用絕對路徑，以備檢視器中啟用「電子郵件共用」模組時使用。 </p> </td> 
+   <td colname="col2"> <p>相對或絕對影像伺服根路徑。 </p> <p> 指定「影像伺服」的相對或絕對路徑，檢視器會從該處擷取影像。 如果路徑的前導字元為<span class="filepath"> /</span>，則會相對於檢視器HTML頁面的位置。 如果路徑的前導<span class="filepath"> /</span> ，則它指定同一伺服器上的絕對路徑。 </p> <p> 若檢視器中已啟用電子郵件共用模組，請僅使用絕對路徑。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
