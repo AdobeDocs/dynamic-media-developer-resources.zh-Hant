@@ -1,21 +1,20 @@
 ---
-description: 文字排除區域。 指定要從文字流中排除的一或多個區域。
+description: 文字流排除區域。 指定要從文本流中排除的一個或多個區域。
 solution: Experience Manager
 title: textFlowXPath
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 2430ab43-c032-4c2f-93c3-225e8116f100
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 5%
+source-wordcount: '81'
+ht-degree: 6%
 
 ---
 
-
 # textFlowXPath{#textflowxpath}
 
-文字排除區域。 指定要從文字流中排除的一或多個區域。
+文字流排除區域。 指定要從文本流中排除的一個或多個區域。
 
 `textFlowXPath= *`pathDefinition`*`
 
@@ -26,11 +25,11 @@ ht-degree: 5%
  </tr> 
 </table>
 
-如需詳細資訊，包括&#x200B;*`pathDefinition`*&#x200B;的說明，請參閱[clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)。 如果未指定路徑定義，則會忽略`textFlowXPath=`。
+有關其他資訊，包括&#x200B;*`pathDefinition`*&#x200B;的說明，請參閱[clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)。 如果未指定路徑定義，則忽略`textFlowXPath=`。
 
 ## 屬性 {#section-cd1ebb151d4a405fbfc508d46522d686}
 
-文字圖層屬性（僅限`textPs=`）。 被其他層忽略，或在未指定`textFlowPath=`時忽略。 如果為`layer=comp`指定，則套用至`layer=0`。
+文本層屬性（僅`textPs=`）。 被其他層忽略，或在沒有`textFlowPath=`指定時忽略。 如果為`layer=comp`指定，則應用於`layer=0`。
 
 ## 預設 {#section-9405cda904684d829ed12a9e40a4dc46}
 
