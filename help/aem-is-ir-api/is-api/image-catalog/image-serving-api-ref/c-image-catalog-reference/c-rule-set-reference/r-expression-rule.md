@@ -1,21 +1,20 @@
 ---
-description: 規則運算式圖樣元素。 在<rule>元素中為可選項。
+description: 規則運算式模式元素。 在<rule>元素中為選用。
 solution: Experience Manager
-title: 表達式
+title: 運算式
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 84b0bb22-7462-4038-9d14-2707999b5548
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '161'
 ht-degree: 4%
 
 ---
 
+# 運算式{#expression}
 
-# expression{#expression}
-
-規則運算式圖樣元素。 在`<rule>`元素中為可選項。
+規則運算式模式元素。 `<rule>`元素中為可選。
 
 ## 屬性 {#section-2d438c889ae84b6da7e0ed84b5d021a0}
 
@@ -27,19 +26,19 @@ ht-degree: 4%
 
 ## 說明 {#section-759bfb738ddb45dba1f0807aba8c1113}
 
-`<expression>`元素可以是空的，或包含簡單搜尋字串或規則運算式模式。 模式會套用至整個請求字串。
+`<expression>`元素可以為空或包含簡單的搜尋字串或規則運算式模式。 模式會套用至整個請求字串。
 
-當`<expression>`為空或未指定時，一律會出現相符項目；這等同於指定`<expression>.*</expression>`。
+當`<expression>`為空或未指定時，始終出現匹配；這等同於指定`<expression>.*</expression>`。
 
-實施基於Java軟體包[java.util.regex](https://www2.cs.duke.edu/csed/java/jdk1.4.2/docs/api/) ，它提供與Perl類似的規則運算式語法。
+實作以Java套件[java.util.regex](https://www2.cs.duke.edu/csed/java/jdk1.4.2/docs/api/)為基礎，提供與Perl類似的規則運算式語法。
 
 ## 附註 {#section-10b472a902674893b49ca49a7052c366}
 
-運算式字串不得包含常值&lt;和&amp;字元。 這些保留字元可分別編碼為`&`和`<`，或整個字串可封裝為XML `CDATA`區段：
+運算式字串不得包含常值&lt;和&amp;字元。 這些保留字元可分別以`&`和`<`編碼，或整個字串可以圍在XML `CDATA`部分中：
 
 `<expression><![CDATA[&fmt=custom]]></expression>`
 
-`<expression>`和`</expression>`標籤之間的所有字元都會傳遞至規則運算式剖析器，包括選用`CDATA`區段外的字元。 應當小心避免額外的空白。
+`<expression>`和`</expression>`標籤之間的所有字元都會傳遞至規則運算式剖析器，包括選用`CDATA`區段以外的字元。 請謹慎避免出現額外的空白。
 
 ## 另請參閱 {#section-ca98548917d945f4b71f18208f0e6840}
 
