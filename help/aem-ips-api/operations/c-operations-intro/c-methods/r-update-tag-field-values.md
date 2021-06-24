@@ -4,14 +4,13 @@ solution: Experience Manager
 title: updateTagFieldValues
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 6de49217-2d15-49d9-9357-b058b2564686
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '162'
 ht-degree: 15%
 
 ---
-
 
 # updateTagFieldValues{#updatetagfieldvalues}
 
@@ -19,7 +18,7 @@ ht-degree: 15%
 
 語法
 
-## 授權用戶類型{#section-0372b742b1344979b0668faacb36fcc6}
+## 授權的使用者類型 {#section-0372b742b1344979b0668faacb36fcc6}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -49,7 +48,7 @@ ht-degree: 15%
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 標籤欄位控制代碼。 </td> 
+   <td colname="col4"> 標籤欄位句柄。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> updateArray</span> </span> </td> 
@@ -60,15 +59,15 @@ ht-degree: 15%
  </tbody> 
 </table>
 
-**Output(updateTagFieldValuesReturn)**
+**輸出(updateTagFieldValuesReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | 是 | 成功更新標籤欄位的數目。 |
-| `*`warningCount`*` | `xsd:int` | 是 | 嘗試更新標籤欄位時生成的警告數。 |
-| `*`errorCount`*` | `xsd:int` | 是 | 嘗試更新標籤欄位時生成的錯誤數。 |
-| `*`warningDetailArray`*` | `types:TagValueUpdateFaultArray` | 否 | 與資產相關的詳細資訊陣列，當操作嘗試更新標籤欄位時，這些資產會產生警告。 |
-| `*`errorDetailArray`*` | `types:TagValueUpdateFaultArray` | 否 | 當操作嘗試更新標籤欄位時，與產生錯誤的資產相關的詳細資訊陣列。 |
+| `*`successCount`*` | `xsd:int` | 是 | 已成功更新的標籤欄位數。 |
+| `*`warningCount`*` | `xsd:int` | 是 | 操作嘗試更新標籤欄位時生成的警告數。 |
+| `*`errorCount`*` | `xsd:int` | 是 | 操作嘗試更新標籤欄位時生成的錯誤數。 |
+| `*`warningDetailArray`*` | `types:TagValueUpdateFaultArray` | 否 | 與資產相關聯的詳細資訊陣列，當操作嘗試更新標籤欄位時，資產會產生警告。 |
+| `*`errorDetailArray`*` | `types:TagValueUpdateFaultArray` | 否 | 與嘗試更新標籤欄位時產生錯誤之資產相關聯的詳細資訊陣列。 |
 
 ## 範例 {#section-bb4dcf97044c4675974c9b8d27674001}
 
@@ -120,4 +119,3 @@ ht-degree: 15%
    </errorDetailArray>
 </updateTagFieldValuesReturn>
 ```
-
