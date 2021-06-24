@@ -4,14 +4,13 @@ solution: Experience Manager
 title: GenerationInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 9aac2973-bbcb-4914-9bf9-203f0357527c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '56'
+source-wordcount: '54'
 ht-degree: 12%
 
 ---
-
 
 # GenerationInfo{#generationinfo}
 
@@ -23,8 +22,7 @@ PostScript檔案屬性。
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| `*`引擎`*` | `xsd:string` | 使用的產生引擎（如需值，請參閱「產生資訊」）。 |
-| `*`oribator`*` | `types:Asset` | 在生成中使用的主要資產的資產記錄。 |
-| `*`已產生`*` | `types:Asset` | 產生的資產的資產記錄。 |
-| `*`attributeArray`*` | `types:GenerationAttributeArray` | 與生成過程關聯的屬性陣列。 |
-
+| `*`引擎`*` | `xsd:string` | 使用的產生引擎（有關值，請參閱「產生資訊」）。 |
+| `*`發件人`*` | `types:Asset` | 產生時使用的主要資產的資產記錄。 |
+| `*`已產生`*` | `types:Asset` | 所產生資產的資產記錄。 |
+| `*`attributeArray`*` | `types:GenerationAttributeArray` | 與生成過程相關聯的屬性陣列。 |
