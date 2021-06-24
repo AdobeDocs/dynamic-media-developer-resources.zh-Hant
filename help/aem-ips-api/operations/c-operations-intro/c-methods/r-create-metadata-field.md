@@ -1,25 +1,24 @@
 ---
-description: 可讓管理員建立新的中繼資料欄位，以與內容管理系統或範本作業協調。 建立的中繼資料欄位範例包括關鍵字、影像作者的相關資訊或版權持有人資訊。
+description: 可讓管理員建立新的元資料欄位，以便與內容管理系統或模板操作協調。 建立的元資料欄位的範例包括關鍵字、關於影像作者的資訊或版權持有人資訊。
 solution: Experience Manager
 title: createMetadataField
-feature: Dynamic Media Classic,SDK/API,Metadata
+feature: Dynamic Media Classic,SDK/API，中繼資料
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: eac7fa54-ebe2-4f42-a478-d9a6fb54d1b6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '288'
 ht-degree: 13%
 
 ---
 
-
 # createMetadataField{#createmetadatafield}
 
-可讓管理員建立新的中繼資料欄位，以與內容管理系統或範本作業協調。 建立的中繼資料欄位範例包括關鍵字、影像作者的相關資訊或版權持有人資訊。
+可讓管理員建立新的元資料欄位，以便與內容管理系統或模板操作協調。 建立的元資料欄位的範例包括關鍵字、關於影像作者的資訊或版權持有人資訊。
 
 語法
 
-## 授權用戶類型{#section-2f61d79f8cac4692bfa53b95035ddd89}
+## 授權的使用者類型 {#section-2f61d79f8cac4692bfa53b95035ddd89}
 
 * `IpsAdmin`
 
@@ -41,7 +40,7 @@ ht-degree: 13%
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyName</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 中繼資料欄位所屬公司的名稱。 </td> 
+   <td colname="col4"> 中繼資料欄位所屬的公司名稱。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetType</span> </span> </td> 
@@ -53,7 +52,7 @@ ht-degree: 13%
    <td colname="col1"> <span class="codeph"> <span class="varname"> 名稱</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 您正在建立的中繼資料欄位名稱。 </td> 
+   <td colname="col4"> 您要建立的中繼資料欄位名稱。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldType</span> </span> </td> 
@@ -65,25 +64,25 @@ ht-degree: 13%
    <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> <p>要建立的元資料欄位的預設值（例如<span class="codeph">場景7</span>）。 </p> <p>標籤欄位類型不支援預設值，且必須省略。 如果為標籤欄位類型指定非空的預設值，則會傳回錯誤。 </p> </td> 
+   <td colname="col4"> <p>要建立的元資料欄位的預設值（例如<span class="codeph"> Scene 7</span>）。 </p> <p>標籤欄位類型不支援預設值，且必須省略。 如果為標籤欄位類型指定非空的預設值，則會傳回錯誤。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 隱藏或公開IPS系統特定的元資料。 </td> 
+   <td colname="col4"> 隱藏或公開IPS系統特定元資料。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
-   <td colname="col2"><span class="codeph"> xsd：布林值</span> </td> 
+   <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>一個布林標幟，指出設定值時是否強制（驗證）中繼資料欄位。 </p> <p>如果設為true，則如果在<span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>中設定了非法值，則會擲回錯誤。 </p> </td> 
+   <td colname="col4"> <p>布林值標幟，指出設定值時是否強制（驗證）中繼資料欄位。 </p> <p>如果設為true，則如果在<span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>中設定了非法值，則會擲回錯誤。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 可讓您建立一組共用列舉值，供選取的標籤指向。 </td> 
+   <td colname="col4"> 可讓您建立一組所選標籤可指向的共用枚舉值。 </td> 
   </tr> 
  </tbody> 
 </table>
@@ -92,11 +91,11 @@ ht-degree: 13%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`fieldHandle`*` | `xsd:string` | 是 | 新中繼資料欄位的控制代碼。 |
+| `*`fieldHandle`*` | `xsd:string` | 是 | 新中繼資料欄位的控點。 |
 
 ## 範例 {#section-ba66be30f36b4aeba1bc721b0b92fdfc}
 
-此程式碼範例會建立名為`createMetadataField`的字串類型中繼資料欄位。 回應會將控制代碼傳回新的中繼資料欄位。
+此代碼示例建立名為`createMetadataField`的字串類型元資料欄位。 回應會將控點傳回新中繼資料欄位。
 
 **請求**
 
@@ -118,4 +117,3 @@ ht-degree: 13%
    <fieldHandle>m|21|IMAGE|createMetadataField</fieldHandle>
 </createMetadataFieldReturn>
 ```
-
