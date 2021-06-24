@@ -4,14 +4,13 @@ solution: Experience Manager
 title: removeGroupMembership
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 892ee01c-e07b-4321-b0b7-5bb606036340
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '107'
 ht-degree: 10%
 
 ---
-
 
 # removeGroupMembership{#removegroupmembership}
 
@@ -19,10 +18,10 @@ ht-degree: 10%
 
 **刪除命令之間的差異**
 
-* `removeGroupMembers`:從群組移除多個使用者。
+* `removeGroupMembers`:從群組中移除多個使用者。
 * `removeGroupMembership`:從群組陣列中移除個別使用者。
 
-## 授權用戶類型{#section-83f3048bbe5a4f62b7b14dc9efdd951a}
+## 授權的使用者類型 {#section-83f3048bbe5a4f62b7b14dc9efdd951a}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -34,12 +33,12 @@ ht-degree: 10%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | 否 | 您要移除其群組成員資格的公司的控制代碼。 |
-| `*`groupHandleArray`*` | `types:HandleArray` | 是 | 您希望公司從中移除的群組控制代碼陣列。 |
+| `*`userHandle`*` | `xsd:string` | 否 | 您要移除其群組成員資格之公司的控制代碼。 |
+| `*`groupHandleArray`*` | `types:HandleArray` | 是 | 要從中刪除公司的組的句柄陣列。 |
 
 **輸出(removeGroupMembershipReturn)**
 
-IPS API不會傳回此作業的回應。
+IPS API不會針對此操作傳回回應。
 
 ## 範例 {#section-f8d4181170a243efb9faf5824ae96197}
 
