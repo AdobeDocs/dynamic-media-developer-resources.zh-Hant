@@ -1,20 +1,19 @@
 ---
-description: 「影像轉換」會耗用磁碟空間，以進行快取和記錄。
+description: 影像呈現會耗用磁碟空間來快取和記錄。
 solution: Experience Manager
-title: 動態磁碟空間考量
+title: 動態磁碟空間考量事項
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 7d335c1e-416e-4790-9a33-cd31ed112f82
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '44'
+source-wordcount: '40'
 ht-degree: 0%
 
 ---
 
+# 動態磁碟空間考量事項{#dynamic-disk-space-considerations}
 
-# 動態磁碟空間注意事項{#dynamic-disk-space-considerations}
-
-「影像轉換」會耗用磁碟空間，以進行快取和記錄。
+影像呈現會耗用磁碟空間來快取和記錄。
 
 如需詳細資訊，請參閱記錄和快取。
