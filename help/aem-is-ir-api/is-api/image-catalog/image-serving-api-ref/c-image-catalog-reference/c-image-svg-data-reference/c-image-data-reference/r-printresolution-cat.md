@@ -1,31 +1,30 @@
 ---
-description: 列印解析度。 完整影像的列印解析度。
+description: 打印解析度。 打印全尺寸影像的解析度。
 solution: Experience Manager
-title: 列印解析度
+title: 打印解析度
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 2168d72a-1f2b-4833-9e6e-ba3d2ddb6d2b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 6%
+source-wordcount: '71'
+ht-degree: 7%
 
 ---
 
+# 打印解析度{#printresolution}
 
-# PrintResolution{#printresolution}
+打印解析度。 打印全尺寸影像的解析度。
 
-列印解析度。 完整影像的列印解析度。
-
-此值會內嵌在回覆影像標題中，除非以`printRes=`覆寫。
+此值嵌入在回復影像標題中，除非以`printRes=`覆蓋。
 
 ## 屬性 {#section-de3c1f73da7b43208beeec841c1778c1}
 
-整數，大於0。 以每英吋點表示。 選填。
+大於0的整數。 以每英吋點表示。 選填。
 
 ## 預設 {#section-0cac992554ec4247ab05f70d9840a045}
 
-`attribute::PrintResolution` 如果欄位不存在、值為0或欄位空白，則會使用。
+`attribute::PrintResolution` 如果欄位不存在，則值為0或欄位為空，則會使用。
 
 ## 另請參閱 {#section-0593faefffe341c5ab8a4aa5da589a04}
 
