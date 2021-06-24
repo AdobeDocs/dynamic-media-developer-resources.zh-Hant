@@ -1,21 +1,20 @@
 ---
-description: 上傳期間指定的選項。 影響上傳色彩的管理方式。
+description: 上傳期間指定的選項。 影響上傳的色彩管理方式。
 solution: Experience Manager
 title: 色彩管理選項
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 55535bb0-544d-4a93-9ff4-235f22b8d45a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 9%
+source-wordcount: '49'
+ht-degree: 10%
 
 ---
 
+# 色彩管理選項{#colormanagementoptions}
 
-# ColorManagementOptions{#colormanagementoptions}
-
-上傳期間指定的選項。 影響上傳色彩的管理方式。
+上傳期間指定的選項。 影響上傳的色彩管理方式。
 
 語法
 
@@ -23,7 +22,6 @@ ht-degree: 9%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| `*`colorManagement`*` | `xsd:string` | 色彩管理模式選擇。 |
-| `*`sourceProfileHandle`*` | `xsd:string` | 來源描述檔控制代碼。 |
-| `*`outputProfileHandle`*` | `xsd:string` | 輸出描述檔控點。 |
-
+| `*`colorManagement`*` | `xsd:string` | 顏色管理模式選擇。 |
+| `*`sourceProfileHandle`*` | `xsd:string` | 源配置檔案句柄。 |
+| `*`outputProfileHandle`*` | `xsd:string` | 輸出配置檔案句柄。 |
