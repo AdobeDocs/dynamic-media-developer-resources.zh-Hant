@@ -4,14 +4,13 @@ solution: Experience Manager
 title: ZipEntryArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 243449ab-423d-45e8-9011-8165300bc619
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '30'
-ht-degree: 20%
+source-wordcount: '28'
+ht-degree: 21%
 
 ---
-
 
 # ZipEntryArray{#zipentryarray}
 
@@ -24,4 +23,3 @@ ZIP項目的陣列。
 | 名稱 | 類型 | 說明 |
 |---|---|---|
 | `*`項目`*` | `types:ZipEntry` | ZIP項目的陣列。 |
-
