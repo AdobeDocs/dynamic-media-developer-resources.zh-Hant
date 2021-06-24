@@ -1,25 +1,24 @@
 ---
-description: 設定現有標籤欄位的標籤字典值。
+description: 為現有標籤欄位設定標籤字典值。
 solution: Experience Manager
 title: setTagFieldValues
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 50f437d6-fec5-4961-884e-fdb75d201ab7
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 15%
+source-wordcount: '86'
+ht-degree: 16%
 
 ---
 
-
 # setTagFieldValues{#settagfieldvalues}
 
-設定現有標籤欄位的標籤字典值。
+為現有標籤欄位設定標籤字典值。
 
 語法
 
-## 授權用戶類型{#section-8b1413654bab44cfb2b1fffbb88aa385}
+## 授權的使用者類型 {#section-8b1413654bab44cfb2b1fffbb88aa385}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -32,12 +31,12 @@ ht-degree: 15%
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | 是 | 公司負責人。 |
-| `*`fieldHandle`*` | `xsd:string` | 是 | 標籤欄位控制代碼。 |
-| `*`valueArray`*` | `types:StringArray` | 是 | 一組標籤值，用於替換欄位的現有字典。 當新值與現有值相符時，會維護資產關聯。 |
+| `*`fieldHandle`*` | `xsd:string` | 是 | 標籤欄位句柄。 |
+| `*`valueArray`*` | `types:StringArray` | 是 | 取代欄位現有字典的標籤值陣列。 當新值符合現有值時，會維護資產關聯。 |
 
 **輸出(setTagFieldValuesReturn)**
 
-IPS API不會傳回此作業的回應。
+IPS API不會針對此操作傳回回應。
 
 ## 範例 {#section-b11cafd9bed54ab5836c737cc075c918}
 
