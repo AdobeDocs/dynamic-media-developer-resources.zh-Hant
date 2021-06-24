@@ -4,14 +4,13 @@ solution: Experience Manager
 title: getAllUsers
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: db1fd5c9-80f5-463a-870f-be3e38c21bab
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '75'
 ht-degree: 22%
 
 ---
-
 
 # getAllUsers{#getallusers}
 
@@ -19,7 +18,7 @@ ht-degree: 22%
 
 語法
 
-## 授權用戶類型{#section-68ed5f5fcc5348308dfe074c590caeaa}
+## 授權的使用者類型 {#section-68ed5f5fcc5348308dfe074c590caeaa}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -46,8 +45,8 @@ ht-degree: 22%
    <td colname="col3"> 是 </td> 
    <td colname="col4">設為： 
     <ul id="ul_FB9F59A8293B4CCA98E42EBF8412C77B"> 
-     <li id="li_3C2E6C4D3478411FA1A34D5CBFFC8108"><span class="codeph"> trueto包</span> 含無效的使用者。 </li> 
-     <li id="li_7FCA0DE4BE2248A690076FEC6854F5CE"><span class="codeph"> Falles</span> 會省略無效使用者。 </li> 
+     <li id="li_3C2E6C4D3478411FA1A34D5CBFFC8108"><span class="codeph"> </span> trueto包含無效的使用者。 </li> 
+     <li id="li_7FCA0DE4BE2248A690076FEC6854F5CE"><span class="codeph"> </span> false會忽略無效使用者。 </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -58,11 +57,11 @@ ht-degree: 22%
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
 | `*`userArray`*` | `types:UserArray` | 是 | 所有使用者的陣列。 |
-| `*`程式碼片語`*` | `Code Phrase` |  |  |
+| `*`代碼片語`*` | `Code Phrase` |  |  |
 
 ## 範例 {#section-9c9a2d335513478da20652c1b1443731}
 
-此程式碼範例會傳回所有使用者。 回應會因簡短而截斷。
+此程式碼範例會傳回所有使用者。 回應會為簡潔而截斷。
 
 **請求**
 
@@ -90,4 +89,3 @@ ht-degree: 22%
    </ns1:userArray>
 <ns1:getAllUsersReturn>
 ```
-
