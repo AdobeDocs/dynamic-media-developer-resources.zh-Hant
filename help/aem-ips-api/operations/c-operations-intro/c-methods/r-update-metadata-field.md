@@ -2,16 +2,15 @@
 description: 更新欄位中繼資料。
 solution: Experience Manager
 title: updateMetadataField
-feature: Dynamic Media Classic,SDK/API,Metadata
+feature: Dynamic Media Classic,SDK/API，中繼資料
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 67506e76-aa23-46a7-a900-03d89b4266fd
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '159'
 ht-degree: 21%
 
 ---
-
 
 # updateMetadataField{#updatemetadatafield}
 
@@ -19,7 +18,7 @@ ht-degree: 21%
 
 語法
 
-## 授權用戶類型{#section-540e91823fee49a4920ca738f7bfeb99}
+## 授權的使用者類型 {#section-540e91823fee49a4920ca738f7bfeb99}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -49,7 +48,7 @@ ht-degree: 21%
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 中繼資料欄位控制代碼。 </td> 
+   <td colname="col4"> 元資料欄位句柄。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 名稱</span> </span> </td> 
@@ -67,19 +66,19 @@ ht-degree: 21%
    <td colname="col1"> <span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 隱藏或公開IPS系統特定的元資料。 </td> 
+   <td colname="col4"> 隱藏或公開IPS系統特定元資料。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
-   <td colname="col2"><span class="codeph"> xsd：布林值</span> </td> 
+   <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>一個布林標幟，指出設定值時是否強制（驗證）中繼資料欄位。 </p> <p>如果設為true，則如果在<span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>中設定了非法值，則會擲回錯誤。 </p> </td> 
+   <td colname="col4"> <p>布林值標幟，指出設定值時是否強制（驗證）中繼資料欄位。 </p> <p>如果設為true，則如果在<span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>中設定了非法值，則會擲回錯誤。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 可讓您建立一組共用列舉值，供選取的標籤指向。 </td> 
+   <td colname="col4"> 可讓您建立選定標籤可指向的一組共用枚舉值。 </td> 
   </tr> 
  </tbody> 
 </table>
@@ -88,11 +87,11 @@ ht-degree: 21%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`fieldHandle`*` | `xsd:string` | 是 | 中繼資料欄位控制代碼。 |
+| `*`fieldHandle`*` | `xsd:string` | 是 | 元資料欄位句柄。 |
 
 ## 範例 {#section-bb7d93ab6d914ddfa294e08983e589ee}
 
-此程式碼範例更新會指派新名稱和預設值給中繼資料欄位。 回應會傳回控制代碼至更新的欄位。
+此程式碼範例更新會將新名稱和預設值指派給中繼資料欄位。 回應會傳回處理常式至更新的欄位。
 
 **請求**
 
@@ -112,4 +111,3 @@ ht-degree: 21%
    <fieldHandle>m|21|IMAGE|updateMetadataField</fieldHandle>
 </updateMetadataFieldReturn>
 ```
-
