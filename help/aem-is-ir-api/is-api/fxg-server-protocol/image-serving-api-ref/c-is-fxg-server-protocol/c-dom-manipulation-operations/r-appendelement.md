@@ -4,14 +4,13 @@ solution: Experience Manager
 title: appendElement
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: f93bc31e-c0ae-4375-bb6a-eba6f11945b2
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '62'
 ht-degree: 1%
 
 ---
-
 
 # appendElement{#appendelement}
 
@@ -19,11 +18,11 @@ ht-degree: 1%
 
 `appendElement.elementID=<XML>`
 
-如果FXG節點元素已定義`s7:elementID`，則`<XML>`值會附加為子元素。 `<XML>`必須進行編碼。
+如果FXG節點元素已定義`s7:elementID`，則`<XML>`值會附加為子元素。 必須對`<XML>`進行編碼。
 
 ## 範例 {#section-4368570aa198485d91b73b4d0741478f}
 
-假設已為組節點定義了`s7:elementID="group1"`屬性，則以下屬性有效：
+假設已為組節點定義了`s7:elementID="group1"`屬性，則以下內容有效：
 
 `&appendElement.group1=<TextGraphic+fontFamily%3D"DefaultFont"+fontSize%3D"50"+x%3D"20"+y%3D"500" ><content><p><span>New+Text+Graphic+Tag+For+Demo<%2Fspan><%2Fp><%2Fcontent><%2FTextGraphic>`
 
