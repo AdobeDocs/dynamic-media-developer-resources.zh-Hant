@@ -2,16 +2,15 @@
 description: SearchPanel.maxloadradius
 solution: Experience Manager
 title: SearchPanel.maxloadradius
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic，檢視器，SDK/API,eCatalog搜尋
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: c2bbcb99-eeef-4793-a132-d0bd1fefb534
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '61'
 ht-degree: 6%
 
 ---
-
 
 # SearchPanel.maxloadradius{#searchpanel-maxloadradius}
 
@@ -21,7 +20,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph">-1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p>指定元件預載行為。 </p> <p>當設為<span class="codeph"> -1</span>時，在初始化元件或變更資產時，會同時載入所有縮圖。 </p> <p> 設為<span class="codeph"> 0</span>時，僅載入可見的縮圖。 </p> <p>設定<span class="codeph"><span class="varname"> preloadnbr</span></span>以定義預先載入可見區域周圍的不可見列數。 </p> </td> 
+   <td colname="col2"> <p>指定元件預載行為。 </p> <p>當設為<span class="codeph"> -1</span>時，當元件初始化或資產變更時，所有縮圖會同時載入。 </p> <p> 設為<span class="codeph"> 0</span>時，只會載入可見的縮圖。 </p> <p>設定<span class="codeph"><span class="varname"> preloadnbr</span></span>以定義預載入的可見區域周圍的不可見行數。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
