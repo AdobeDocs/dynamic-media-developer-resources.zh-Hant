@@ -4,14 +4,13 @@ solution: Experience Manager
 title: 重複
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 6cc82742-4ba0-4524-a87b-586539d7fe38
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '159'
 ht-degree: 16%
 
 ---
-
 
 # 重複{#repeat}
 
@@ -42,31 +41,31 @@ ht-degree: 16%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>5 </p> </td> 
-  <td class="stentry"> <p>三落壁紙掛著。 </p> </td> 
+  <td class="stentry"> <p>三投壁紙掛了。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>6 </p> </td> 
-  <td class="stentry"> <p>半垂壁紙掛著。 </p> </td> 
+  <td class="stentry"> <p>半落壁紙掛著。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>7 </p> </td> 
-  <td class="stentry"> <p>五落壁紙掛著。 </p> </td> 
+  <td class="stentry"> <p>五下壁紙掛著。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>8 </p> </td> 
-  <td class="stentry"> <p>反向壁紙掛起。 </p> </td> 
+  <td class="stentry"> <p>反牆紙掛了。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>9 </p> </td> 
-  <td class="stentry"> <p>隨機壁紙掛著。 </p> </td> 
+  <td class="stentry"> <p>隨機貼壁紙。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>10 </p> </td> 
-  <td class="stentry"> <p>隨機投放。 </p> </td> 
+  <td class="stentry"> <p>隨機掉落。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>11 </p> </td> 
-  <td class="stentry"> <p>隨機跨越。 </p> </td> 
+  <td class="stentry"> <p>隨機的。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>12 </p> </td> 
@@ -78,7 +77,7 @@ ht-degree: 16%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>14 </p> </td> 
-  <td class="stentry"> <p>標準隨機選擇器。 </p> </td> 
+  <td class="stentry"> <p>標準隨機器。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>15 </p> </td> 
@@ -90,7 +89,7 @@ ht-degree: 16%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>17 </p> </td> 
-  <td class="stentry"> <p>水準隨機選擇器。 </p> </td> 
+  <td class="stentry"> <p>水準隨機器。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>18 </p> </td> 
@@ -98,19 +97,19 @@ ht-degree: 16%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>19 </p> </td> 
-  <td class="stentry"> <p>邊緣隨機選擇器。 </p> </td> 
+  <td class="stentry"> <p>邊緣隨機器。 </p> </td> 
  </tr> 
 </table>
 
-隨機絎縫模式(14...18)可用於從不易重複的影像合成紋理；算法將根據原始影像建立完全隨機或部分隨機的紋理。
+隨機鑲邊模式(14...18)可用於從不容易重複的影像合成紋理；演算法會根據原始影像建立完全隨機或部分隨機的紋理。
 
 ## 屬性 {#section-262bf540930d4890b678ea00cefe1909}
 
-材料屬性。 被純色、傾斜和機櫃材料忽略。
+材料屬性。 被實色、傾斜和機櫃材料忽略。
 
 ## 預設 {#section-e5bbd7d9fbb74852849e605d20f550bb}
 
-`catalog::Repeat`，則該材料基於目錄條目，否則( `0` 直重複)。
+`catalog::Repeat`，如果資料是以目錄項目為基礎，則 `0` 否（直重複）。
 
 ## 另請參閱 {#section-ac99113b64654d75a3a86e41db546269}
 
