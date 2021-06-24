@@ -2,16 +2,15 @@
 description: EmailShare.emailurl
 solution: Experience Manager
 title: EmailShare.emailurl
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic，檢視器，SDK/API,eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 074b8a74-9df9-4f0b-9196-a61783dda14b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '30'
-ht-degree: 13%
+source-wordcount: '27'
+ht-degree: 14%
 
 ---
-
 
 # EmailShare.emailurl{#emailshare-emailurl}
 
@@ -21,7 +20,7 @@ ht-degree: 13%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> emailurl</span></span> </p> </td> 
-   <td colname="col2"> <p> 指定Dynamic Media經典OnDemand電子郵件服務的基本URL。 </p> </td> 
+   <td colname="col2"> <p> 指定Dynamic Media Classic OnDemand電子郵件服務的基礎URL。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
