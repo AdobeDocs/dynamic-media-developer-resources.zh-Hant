@@ -4,24 +4,23 @@ solution: Experience Manager
 title: catalog-server.conf
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 55e55381-3828-4937-8746-a74e82d6ca38
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
-
 
 # catalog-server.conf{#catalog-server-conf}
 
 包含與管理影像目錄相關的設定。
 
-此檔案是JAVA屬性檔案。 必須注意遵守適當的公約；否則平台伺服器可能無法啟動。 在Windows檔案路徑中，請使用雙反斜線&#39;\\&#39;或單正斜線&#39;/&#39;，而非反斜線&#39;\&#39;。 反斜線用作此類型檔案的轉義字元。
+此檔案是JAVA屬性檔案。 必須注意遵循適當的公約；否則，Platform伺服器可能無法啟動。 在Windows檔案路徑中，使用雙反斜線「\\」或單正斜線「/」，而非反斜線「\」。 反斜線在此類型的檔案中用作逸出字元。
 
-此檔案的變更會在儲存檔案後不久生效。
+此檔案的變更會在檔案儲存後不久生效。
 
-[!DNL catalog-service.conf]中只能更改下面列出的設定。 如果某個特定設定不存在，則可以在檔案中的任意位置添加該設定。 每個設定只能有一個例項。
+[!DNL catalog-service.conf]中只能更改下列設定。 如果特定設定不存在，則可在檔案中的任何位置新增該設定。 每個設定只能有一個例項。
 
 `catalog.rootPath=./catalog`
 
