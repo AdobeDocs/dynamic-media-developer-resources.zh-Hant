@@ -1,25 +1,24 @@
 ---
-description: 說明IPS API第6版的新類型和已變更類型。
+description: 說明IPS API 6版的新類型和已變更的類型。
 solution: Experience Manager
 title: 資料類型新增和修改
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: d3bcd718-cf27-4d31-850f-a3205564be60
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 3%
+source-wordcount: '74'
+ht-degree: 4%
 
 ---
 
-
 # 資料類型：新增和修改{#data-types-new-and-modified}
 
-說明IPS API第6版的新類型和已變更類型。
+說明IPS API 6版的新類型和已變更的類型。
 
 語法
 
-## 新類型{#section-71ba6954339e4ba899acdf8a3212d6f3}
+## 新類型 {#section-71ba6954339e4ba899acdf8a3212d6f3}
 
 * `AssetContextStateUpdate`
 * `AssetContextStateUpdateArray`
@@ -37,17 +36,17 @@ ht-degree: 3%
 * `PublishContext`
 * `PublishContextArray`
 
-## 修改的類型{#section-56b834b1a3b843279d8715b4a4f3890b}
+## 修改的類型 {#section-56b834b1a3b843279d8715b4a4f3890b}
 
 **已新增**
 
-* 已將`numUrls`新增至`UploadUrlsJob`。
+* 將`numUrls`新增至`UploadUrlsJob`。
 
 * 將`fileName`新增至`Asset.`
 
-* 已將`isHidden`新增至`MetadataField`。
+* 將`isHidden`新增至`MetadataField`。
 
-* 已將`taskState`新增至`TaskProgress`。
+* 將`taskState`新增至`TaskProgress`。
 
 * 將`exportJob`新增至`ActiveJob`和`ScheduledJob`。
 
@@ -58,7 +57,7 @@ ht-degree: 3%
    * `ImageRenderingPublishJob`
    * `VideoPublishJob`
 
-* 已將下列參數新增至`Asset`:
+* 將下列參數新增至`Asset`:
 
    * `animatedGifInfo`
    * `swcInfo`
@@ -71,5 +70,4 @@ ht-degree: 3%
 
 * 在`Folder`中，將`permissions`變更為`permissionsSetHandle`。
 
-* 在`AssetSummary`中，`type`和`name`現在是可選的。
-
+* 在`AssetSummary`中，`type`和`name`現在為選用。
