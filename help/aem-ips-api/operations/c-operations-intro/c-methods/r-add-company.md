@@ -4,14 +4,13 @@ solution: Experience Manager
 title: addCompany
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 2f834fe8-a621-4a41-9473-8ef53294b348
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '175'
 ht-degree: 11%
 
 ---
-
 
 # addCompany{#addcompany}
 
@@ -19,9 +18,9 @@ ht-degree: 11%
 
 傳送要新增至系統的公司名稱，並選擇性地傳送公司是否過期。
 
-調用此操作時，系統將獲取`*`companyInfo`*`類型，該類型包含公司句柄和描述性欄位。 如果請求的公司名稱已存在於系統中，則會拋出`ipsApiFault`。
+叫用此操作時，系統將獲取`*`companyInfo`*`類型，該類型包含公司句柄和描述性欄位。 如果請求的公司名稱已存在於系統中，則會擲回`ipsApiFault`。
 
-## 授權用戶類型{#section-ae926c7672984be79f6102748accab72}
+## 授權的使用者類型 {#section-ae926c7672984be79f6102748accab72}
 
 * `IpsAdmin`
 * `TrialSiteAdmin`
@@ -45,13 +44,13 @@ ht-degree: 11%
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>要添加的公司的名稱。 </p> </td> 
+   <td colname="col4"> <p>要新增的公司名稱。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> expires</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:dateTime</span> </p> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>公司的到期日。 為時區提供此欄位的請求。 時區會調整為中央時間。 </p> </td> 
+   <td colname="col4"> <p>公司的到期日。 為時區提供此欄位的要求。 時區會調整為中央時間。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -72,14 +71,14 @@ ht-degree: 11%
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyInfo</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>新公司的控制代碼和名稱、根路徑、到期日和時間。 </p> </td> 
+   <td colname="col4"> <p>處理新公司的名稱、根路徑、到期日和時間。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 範例 {#section-4c8f1bb40d154c77a7b410468206e52b}
 
-此示例演示向IPS系統添加公司的請求以及詳細說明執行其他操作所需添加公司資訊的響應。
+此示例演示了向IPS系統添加公司的請求以及詳細說明執行其他操作所需添加的公司資訊的響應。
 
 **請求**
 
@@ -101,4 +100,3 @@ ht-degree: 11%
    </ns1:companyInfo>
 </ns1:addCompanyReturn>
 ```
-
