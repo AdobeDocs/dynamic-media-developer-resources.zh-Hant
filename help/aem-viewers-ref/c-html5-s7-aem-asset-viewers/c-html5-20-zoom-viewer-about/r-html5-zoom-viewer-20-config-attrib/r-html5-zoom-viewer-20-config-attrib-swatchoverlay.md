@@ -2,18 +2,17 @@
 description: 交換覆蓋
 solution: Experience Manager
 title: 交換覆蓋
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+feature: Dynamic Media Classic，檢視器，SDK/API，縮放
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: a4e187d9-b920-4d0d-adaa-ea369c5694fe
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '67'
 ht-degree: 7%
 
 ---
 
-
-# swatchoverlay{#swatchoverlay}
+# 交換覆蓋{#swatchoverlay}
 
 `swatchoverlay=0|1`
 
@@ -21,7 +20,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0-1  </span> </p> </td> 
-   <td colname="col2"> <p>指定可觸控裝置上的檢視器版面。 當參數設為<span class="codeph"> 1 </span>時，檢視器會在案頭主檢視下方顯示色票；在可觸控的裝置上，色票會在主檢視上方覆蓋。 </p> <p>當參數設為<span class="codeph"> 0 </span>時，所有裝置類型的色票會呈現在主檢視下方。 </p> </td> 
+   <td colname="col2"> <p>指定啟用觸控的裝置上的檢視器版面。 當參數設為<span class="codeph"> 1 </span>時，檢視器會在案頭主檢視下方顯示色票；在啟用觸控的裝置上，色票會在主檢視上方覆蓋。 </p> <p>當參數設定為<span class="codeph"> 0 </span>時，所有設備類型的主視圖下都會呈現色票。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
