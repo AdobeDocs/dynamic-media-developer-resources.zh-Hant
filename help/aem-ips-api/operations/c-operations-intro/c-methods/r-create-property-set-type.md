@@ -1,25 +1,24 @@
 ---
-description: 屬性集類型指定用於幫助管理屬性集的各種設定。
+description: 屬性集類型指定了用於幫助管理屬性集的各種設定。
 solution: Experience Manager
 title: createPropertySetType
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
 exl-id: 1730ccbf-e8b0-4f92-9daf-da2fa047cbbd
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 10%
+source-wordcount: '163'
+ht-degree: 11%
 
 ---
 
 # createPropertySetType{#createpropertysettype}
 
-屬性集類型指定用於幫助管理屬性集的各種設定。
+屬性集類型指定了用於幫助管理屬性集的各種設定。
 
 語法
 
-## 授權用戶類型{#section-48e5f908276c4a549fd33a8828bad326}
+## 授權的使用者類型 {#section-48e5f908276c4a549fd33a8828bad326}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -32,7 +31,7 @@ ht-degree: 10%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 否 | 擁有屬性集類型的公司的句柄。 如果`companyHandle`未傳遞，而呼叫者是`IpsAdmin`，則會建立全局屬性集類型。 |
+| `*`companyHandle`*` | `xsd:string` | 否 | 擁有屬性集類型的公司的句柄。 如果未傳遞`companyHandle`且呼叫者為`IpsAdmin`，則會建立全域屬性集類型。 |
 | `*`名稱`*` | `xsd:string` | 是 | 屬性集類型的名稱。 |
 | `*`propertyType`*` | `xsd:string` | 是 | 屬性集類型的選擇。 |
 | `*`allowMultiple`*` | `xsd:boolean` | 是 | 確定程式是否可以有多個屬性集。 |
@@ -45,7 +44,7 @@ ht-degree: 10%
 
 ## 範例 {#section-13396c9639a6475190e622eae3cdb534}
 
-此代碼示例建立一個屬性集，其名稱和類型由`PropertySet Types`常數指定。 擁有屬性集類型的公司的句柄。 如果未傳遞companyHandle，而呼叫者是IpsAdmin，則會建立全局屬性集類型。
+此代碼示例建立了一個屬性集，該屬性集的名稱和類型由`PropertySet Types`常數指定。 擁有屬性集類型的公司的句柄。 如果未傳遞companyHandle且呼叫者為IpsAdmin，則將建立全局屬性集類型。
 
 **請求**
 
