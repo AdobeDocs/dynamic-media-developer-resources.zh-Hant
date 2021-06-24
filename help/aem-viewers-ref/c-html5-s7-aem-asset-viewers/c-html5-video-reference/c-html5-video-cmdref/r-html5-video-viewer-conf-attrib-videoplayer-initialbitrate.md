@@ -2,28 +2,27 @@
 description: 視訊檢視器的設定屬性。
 solution: Experience Manager
 title: VideoPlayer.initialbitrate
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+feature: Dynamic Media Classic，檢視器， SDK/API，影片
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 83f2af31-e2dc-430c-b9ae-563cdcd20954
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '112'
 ht-degree: 3%
 
 ---
-
 
 # VideoPlayer.initialbitrate{#videoplayer-initialbitrate}
 
 視訊檢視器的設定屬性。
 
-` [VideoPlayer.|<containerId>_videoPlayer.]initialbitrate= *`值`*`
+` [VideoPlayer.|<containerId>_videoPlayer.]initialbitrate= *`value`*`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 值  </span> </p> </td> 
-   <td colname="col2"> <p>設定用於在桌上型電腦上播放視訊的視訊位元速率（以千位／秒為單位）或kbps。 </p> <p>如果此位元速率值不存在於最適化視訊集中，則視訊播放器會啟動位元速率下一個最低的視訊。 </p> <p>如果設為<span class="codeph"> 0 </span>，則視訊播放器會從最低位元速率開始。 僅適用於不支援HTML5 HLS視訊的系統（Windows 10上的Firefox、Chrome和Internet Explorer 11瀏覽器），以及當播放模式設為<span class="codeph">自動</span>時。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> value  </span> </p> </td> 
+   <td colname="col2"> <p>設定用於在案頭上初始播放視頻的視頻的視頻位元速率（以千位/秒為單位）或每秒位元組數。 </p> <p>如果此位元速率值在適用性視訊集中不存在，則視訊播放器會啟動位元速率下一個最低的視訊。 </p> <p>如果設為<span class="codeph"> 0 </span>，視訊播放器會從最低的位元速率開始。 僅適用於不支援HTML5 HLS視訊（在Windows 10上為Firefox、Chrome和Internet Explorer 11瀏覽器）的系統，以及當播放模式設為<span class="codeph">自動</span>時。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -41,4 +40,3 @@ ht-degree: 3%
 ```
 initialbitrate=600
 ```
-
