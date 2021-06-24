@@ -1,19 +1,18 @@
 ---
 description: server.xml中的Connector標籤支援密碼屬性，以限制可針對SSL連線選擇的密碼。
 solution: Experience Manager
-title: 定義SSL密碼
+title: 定義SSL加密
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 7734ba02-4442-4a3d-acbf-e14d8ad66279
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
 
-
-# 定義SSL密碼{#defining-ssl-ciphers}
+# 定義SSL加密{#defining-ssl-ciphers}
 
 server.xml中的Connector標籤支援密碼屬性，以限制可針對SSL連線選擇的密碼。
 
@@ -49,8 +48,8 @@ server.xml中的Connector標籤支援密碼屬性，以限制可針對SSL連線�
 
 `TLS_RSA_WITH_AES_128_CBC_SHA`
 
-如果值中有任何值錯誤，Tomcat將啟用每個密碼。 因此，在設定後使用外部工具檢查哪些密碼已實際啟用是十分必要的。
+如果值中有任何值錯誤，Tomcat將啟用每個單一密碼。 因此，在設定後必須使用外部工具來檢查哪些密碼實際已啟用。
 
-例如，下列組態將僅啟用「128位元」密碼套裝及以上版本：
+例如，下列配置將僅啟用「128位」密碼套裝和以上版本：
 
 `ciphers="SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA,SSL_DHE_DSS_WITH_DES_CBC_SHA,SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA,SSL_RSA_WITH_3DES_EDE_CBC_SHA,TLS_DHE_DSS_WITH_AES_128_CBC_SHA,TLS_DHE_RSA_WITH_AES_128_CBC_SHA,TLS_RSA_WITH_AES_128_CBC_SHA"`
