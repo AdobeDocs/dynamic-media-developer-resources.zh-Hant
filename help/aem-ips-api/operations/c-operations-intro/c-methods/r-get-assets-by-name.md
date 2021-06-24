@@ -1,25 +1,24 @@
 ---
-description: 根據資產名稱陣列傳回資產。
+description: 根據資產名稱的陣列傳回資產。
 solution: Experience Manager
 title: getAssetsByName
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API，資產管理
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: e48574e3-9d16-45fb-b4c8-98b5e092e611
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '219'
 ht-degree: 14%
 
 ---
 
-
 # getAssetsByName{#getassetsbyname}
 
-根據資產名稱陣列傳回資產。
+根據資產名稱的陣列傳回資產。
 
 語法
 
-## 授權用戶類型{#section-754790841ea242d5ae8bedd587d7730e}
+## 授權的使用者類型 {#section-754790841ea242d5ae8bedd587d7730e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -58,7 +57,7 @@ ht-degree: 14%
    <td colname="col1"> <span class="codeph"> <span class="varname"> accessUserHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 以其他使用者身分提供存取權。 僅供管理員使用。 </td> 
+   <td colname="col4"> 以其他使用者的身分提供存取權。 僅供管理員使用。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> accessGroupHandle</span> </span> </td> 
@@ -82,19 +81,19 @@ ht-degree: 14%
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludeAssetTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：StringArray</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 已檢索資產排除的資產類型陣列。 </td> 
+   <td colname="col4"> 已擷取資產的已排除資產類型陣列。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetSubTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：StringArray</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 已擷取資產允許的資產子類型陣列。 </td> 
+   <td colname="col4"> 為擷取的資產允許的資產子類型陣列。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> strictSubTypeCheck</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> <p>如果<span class="codeph"> true</span>和<span class="codeph"> assetSubTypeArray</span>並非空白，則只會傳回子類型位於<span class="codeph"> assetSubTypeArray</span>中的資產。 </p> <p>如果<span class="codeph"> false</span>，則會包含未定義子類型的資產。 </p> <p>預設值為<span class="codeph"> false</span>。 </p> </td> 
+   <td colname="col4"> <p>如果<span class="codeph"> true</span>和<span class="codeph"> assetSubTypeArray</span>不為空，則只返回子類型位於<span class="codeph"> assetSubTypeArray</span>中的資產。 </p> <p>如果<span class="codeph"> false</span>，則會包含未定義子類型的資產。 </p> <p>預設值為<span class="codeph"> false</span>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </td> 
@@ -155,4 +154,3 @@ ht-degree: 14%
    </assetArray>
 </getAssetsByNameReturn>
 ```
-
