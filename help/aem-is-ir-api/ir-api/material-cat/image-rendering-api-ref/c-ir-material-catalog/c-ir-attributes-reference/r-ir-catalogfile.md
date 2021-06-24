@@ -1,21 +1,20 @@
 ---
-description: 目錄資料檔案路徑。 指定包含此目錄材料資料的檔案。
+description: 目錄資料檔案路徑。 指定包含此目錄的材料資料的檔案。
 solution: Experience Manager
 title: 目錄檔案
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: ab6879cf-c32e-4e88-a269-2ddcffa61b8f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 2%
+source-wordcount: '65'
+ht-degree: 3%
 
 ---
 
+# 目錄檔案{#catalogfile}
 
-# CatalogFile{#catalogfile}
-
-目錄資料檔案路徑。 指定包含此目錄材料資料的檔案。
+目錄資料檔案路徑。 指定包含此目錄的材料資料的檔案。
 
 ## 屬性 {#section-81eaf83ed4d3405f8ba95671bd303584}
 
@@ -23,4 +22,4 @@ ht-degree: 2%
 
 ## 預設 {#section-7a1f82b4188e41a3915a78744cada9fb}
 
-空，表示此物料目錄不包含任何物料資料。
+空，表示此材料目錄不包含任何材料資料。
