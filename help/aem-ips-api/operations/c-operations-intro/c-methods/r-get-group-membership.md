@@ -1,25 +1,24 @@
 ---
-description: 傳回群組的成員。
+description: 返回組的成員。
 solution: Experience Manager
 title: getGroupMembership
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 847e4982-219d-47fd-b94c-f7d520ba1367
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '85'
 ht-degree: 18%
 
 ---
 
-
 # getGroupMembership{#getgroupmembership}
 
-傳回群組的成員。
+返回組的成員。
 
 語法
 
-## 授權用戶類型{#section-35d070e5c4d74ca69df508368953cfb8}
+## 授權的使用者類型 {#section-35d070e5c4d74ca69df508368953cfb8}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -35,7 +34,7 @@ ht-degree: 18%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | 否 | 使用者的控點。 |
+| `*`userHandle`*` | `xsd:string` | 否 | 使用者的控制代碼。 |
 | `*`companyHandle`*` | `xsd:string` | 否 | 公司的把手。 |
 
 **輸出(getGroupMembershipReturn)**
@@ -64,4 +63,3 @@ ht-degree: 18%
       <items>
          <groupHandle>225</groupHandle><companyHandle>47</companyHandle><name>MyGroup</name><isSystemDefined>false</isSystemDefined></items></groupArray></getGroupMembershipReturn>
 ```
-
