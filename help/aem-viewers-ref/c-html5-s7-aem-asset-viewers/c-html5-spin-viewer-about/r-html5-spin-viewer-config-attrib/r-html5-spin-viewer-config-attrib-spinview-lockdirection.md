@@ -2,16 +2,15 @@
 description: SpinView.lockdirection
 solution: Experience Manager
 title: SpinView.lockdirection
-feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
+feature: Dynamic Media Classic，檢視器，SDK/API，回轉集
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: e29ba926-9e0e-4ddd-9f76-408f8ab3b4ca
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '132'
 ht-degree: 3%
 
 ---
-
 
 # SpinView.lockdirection{#spinview-lockdirection}
 
@@ -21,7 +20,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 指定在2D回轉集的情況下是否允許回轉方向改變。 </p> <p>當設為<span class="codeph"> 1 </span>時，元件會在手勢開始時識別主要拖曳或滑動方向（水準與垂直）。 之後，它會維持該方向，直到手勢結束。 例如，如果使用者啟動水準旋轉，然後決定繼續在垂直方向拖曳手勢，則元件不會執行垂直旋轉；而是只考慮滑鼠或滑動的水準移動。 </p> <p>值<span class="codeph"> 0 </span>可讓使用者在手勢進行期間隨時變更回轉方向。 如果回轉集為1D，則設定不會影響。 </p> </td> 
+   <td colname="col2"> <p> 指定在2D回轉集的情況下是否允許回轉方向改變。 </p> <p>當設為<span class="codeph"> 1 </span>時，元件會在手勢開始時識別主要的拖曳或滑動方向（水準與垂直）。 之後，它會維持該方向，直到手勢結束為止。 例如，如果用戶啟動水準回轉，然後決定沿垂直方向繼續拖曳手勢，則元件不會執行垂直回轉；相反，它只考慮滑鼠或滑動的水準移動。 </p> <p>值<span class="codeph"> 0 </span>可讓使用者在手勢進行期間隨時變更回轉方向。 如果回轉集為1D，則設定不會影響。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
