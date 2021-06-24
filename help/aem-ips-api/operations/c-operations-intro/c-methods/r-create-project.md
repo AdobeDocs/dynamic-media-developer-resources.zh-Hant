@@ -4,14 +4,13 @@ solution: Experience Manager
 title: createProject
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: dd9c07df-9a8f-4b67-9838-31dd96fd127b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '81'
 ht-degree: 18%
 
 ---
-
 
 # createProject{#createproject}
 
@@ -19,7 +18,7 @@ ht-degree: 18%
 
 語法
 
-## 授權用戶類型{#section-17878e2e4c3a44988c9a1af82c2ac319}
+## 授權的使用者類型 {#section-17878e2e4c3a44988c9a1af82c2ac319}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,7 +33,7 @@ ht-degree: 18%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 與新項目關聯的公司的控制代碼。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 與新項目關聯的公司的句柄。 |
 | `*`projectName`*` | `xsd:string` | 是 | 新專案名稱。 |
 
 **輸出(createProjectParam)**
@@ -61,4 +60,3 @@ ht-degree: 18%
    <projectHandle>p|6|ApiTestProject</projectHandle>
 </createProjectReturn>
 ```
-
