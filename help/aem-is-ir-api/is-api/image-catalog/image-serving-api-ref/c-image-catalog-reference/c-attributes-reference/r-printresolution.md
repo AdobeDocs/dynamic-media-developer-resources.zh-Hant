@@ -1,29 +1,28 @@
 ---
-description: 預設列印解析度。 提供預設打印解析度，以防特定目錄記錄不包含有效的目錄PrintResolution值。
+description: 預設打印解析度。 提供預設打印解析度，以備特定目錄記錄不包含有效的目錄PrintResolution值時使用。
 solution: Experience Manager
-title: 列印解析度
+title: 打印解析度
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: b61c63c4-09ca-43fe-b711-8b06d766aefb
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '74'
 ht-degree: 5%
 
 ---
 
+# 打印解析度{#printresolution}
 
-# PrintResolution{#printresolution}
-
-預設列印解析度。 提供預設的列印解析度，以防特定目錄記錄未包含有效的目錄：:PrintResolution值。
+預設打印解析度。 提供預設打印解析度，以備特定目錄記錄不包含有效目錄：:PrintResolution值時使用。
 
 ## 屬性 {#section-8f3cffb0f3f3406b81bc967366b241d6}
 
-整數，大於0。 以每英吋點表示。
+大於0的整數。 以每英吋點表示。
 
 ## 預設 {#section-b5d70865fe8d40229d8d91404fdf3244}
 
-如果未定義或為空，則繼承自`default::Resolution`。
+如果未定義或為空，則從`default::Resolution`繼承。
 
 ## 另請參閱 {#section-54f8797a2b694d91a316f0d7414fac32}
 
