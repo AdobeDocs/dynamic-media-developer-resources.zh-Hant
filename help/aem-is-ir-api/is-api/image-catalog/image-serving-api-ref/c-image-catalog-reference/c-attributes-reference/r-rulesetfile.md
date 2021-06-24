@@ -1,21 +1,20 @@
 ---
-description: 規則集定義檔案路徑。 指定包含此映像目錄規則集定義的檔案。
+description: 規則集定義檔案路徑。 指定包含此映像目錄的規則集定義的檔案。
 solution: Experience Manager
-title: 規則集檔案
+title: RuleSetFile
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: a9c0d748-c236-4a37-a181-729a27135a71
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '77'
 ht-degree: 5%
 
 ---
 
-
 # RuleSetFile{#rulesetfile}
 
-規則集定義檔案路徑。 指定包含此映像目錄規則集定義的檔案。
+規則集定義檔案路徑。 指定包含此映像目錄的規則集定義的檔案。
 
 ## 屬性 {#section-e8449b2225294518a5f9ddb698f68360}
 
