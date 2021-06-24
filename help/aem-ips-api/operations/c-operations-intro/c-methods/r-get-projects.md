@@ -4,14 +4,13 @@ solution: Experience Manager
 title: getProjects
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: d7262ed7-7419-4d6b-86ed-f3ad4657d654
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 20%
+source-wordcount: '71'
+ht-degree: 21%
 
 ---
-
 
 # getProjects{#getprojects}
 
@@ -19,7 +18,7 @@ ht-degree: 20%
 
 語法
 
-## 授權用戶類型{#section-337649866b1f4098844d1974ed7ab5d0}
+## 授權的使用者類型 {#section-337649866b1f4098844d1974ed7ab5d0}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -40,7 +39,7 @@ ht-degree: 20%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`projectArray`*` | `types:ProjectArray` | 是 | 與公司關聯的專案陣列。 |
+| `*`projectArray`*` | `types:ProjectArray` | 是 | 與公司相關聯的專案陣列。 |
 
 ## 範例 {#section-8b12d0b948f644f68bf9a16060d3849a}
 
@@ -70,4 +69,3 @@ ht-degree: 20%
    </projectArray>
 </getProjectsReturn>
 ```
-
