@@ -2,14 +2,13 @@
 description: 所有檢視器通用的參數。
 solution: Experience Manager
 title: config2
-feature: Dynamic Media Classic,Viewers,SDK/API
+feature: Dynamic Media Classic，檢視器，SDK/API
 role: Developer,Business Practitioner
 exl-id: dbbec03a-077d-46b0-bfc6-e09436fa850a
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 15%
+source-wordcount: '41'
+ht-degree: 17%
 
 ---
 
@@ -21,13 +20,13 @@ ht-degree: 15%
 >
 >此命令不適用於視頻影像查看器。
 
-` config2= *`company preset`*`
+` config2= *`companypreset`*`
 
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> company preset</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword">Adobe Analytics</span>配置預設集的名稱。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> companypreset</span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Adobe Analytics</span>配置預設集的名稱。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
