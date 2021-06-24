@@ -2,13 +2,12 @@
 description: 所有檢視器通用的參數。
 solution: Experience Manager
 title: contentUrl
-feature: Dynamic Media Classic,Viewers,SDK/API
+feature: Dynamic Media Classic，檢視器，SDK/API
 role: Developer,Business Practitioner
 exl-id: cab3c3fe-1a64-4a50-8559-57cadb31f689
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '91'
 ht-degree: 4%
 
 ---
@@ -23,7 +22,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> contentUrlPath</span> </span> </p> </td> 
-   <td colname="col2"> <p>指定自訂CSS檔案、任何隱藏字幕內容或導覽內容的基本路徑。 </p> <p>如果路徑沒有前導<span class="filepath"> /</span>，則它相對於檢視器HTML頁面的位置。 如果路徑具有前導<span class="filepath"> /</span> ，則它指定同一伺服器上的絕對路徑。 </p> <p> 不指定樣式命令時，不會影響預設CSS檔案的載入。 </p> </td> 
+   <td colname="col2"> <p>指定自訂CSS檔案、任何隱藏式字幕內容或導覽內容的基本路徑。 </p> <p>如果路徑的前導字元為<span class="filepath"> /</span>，則會相對於檢視器HTML頁面的位置。 如果路徑的前導<span class="filepath"> /</span> ，則它指定同一伺服器上的絕對路徑。 </p> <p> 不指定style命令時，不會影響預設CSS檔案的載入。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
