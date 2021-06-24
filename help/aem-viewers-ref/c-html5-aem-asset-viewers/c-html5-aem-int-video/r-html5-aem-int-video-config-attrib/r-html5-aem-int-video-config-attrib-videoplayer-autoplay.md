@@ -2,14 +2,13 @@
 description: 互動式視訊檢視器的設定屬性。
 solution: Experience Manager
 title: VideoPlayer.autoplay
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic，檢視器， SDK/API，互動式影片
 role: Developer,Business Practitioner
 exl-id: 0b4fb87f-f8c6-4da8-b12a-0cde5f62fa60
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 9%
+source-wordcount: '48'
+ht-degree: 10%
 
 ---
 
@@ -23,7 +22,7 @@ ht-degree: 9%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 指出檢視器是否會在載入時開始播放視訊。 請注意，某些系統（例如某些行動裝置）可能不支援自動播放。 </p> </td> 
+   <td colname="col2"> <p> 指出檢視器是否在載入時開始播放視訊。 請注意，某些系統（例如某些行動裝置）可能不支援自動播放。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
