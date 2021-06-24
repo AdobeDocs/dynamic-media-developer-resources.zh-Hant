@@ -1,31 +1,30 @@
 ---
-description: title命令
+description: 標題命令
 solution: Experience Manager
 title: 標題
-feature: Dynamic Media Classic,Viewers,SDK/API
+feature: Dynamic Media Classic，檢視器，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 2aea6b2b-052d-4360-9284-68b8563da6a1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 14%
+source-wordcount: '45'
+ht-degree: 15%
 
 ---
 
-
-# title{#title}
+# 標題{#title}
 
 ` title= *`windowTitle`*`
 
 >[!NOTE]
 >
->此命令不適用於彈出檢視器、基本縮放檢視器、回轉檢視器或互動式影像檢視器。
+>此命令不適用於彈出查看器、基本縮放查看器、回轉查看器或互動式影像查看器。
 
 <table id="table_406072054CBA4A7BAC8E7AD45E361D37"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> windowTitleimage</span> </span> </p> </td> 
-   <td colname="col2"> <p>指定包含檢視器的瀏覽器視窗標題。 </p> </td> 
+   <td colname="col2"> <p>指定包含檢視器的瀏覽器視窗的標題。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
