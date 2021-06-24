@@ -2,13 +2,12 @@
 description: SetIndicator.mode
 solution: Experience Manager
 title: SetIndicator.mode
-feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+feature: Dynamic Media Classic，檢視器，SDK/API，輪播橫幅
 role: Developer,Business Practitioner
 exl-id: f228cf05-8b74-4f85-a02e-3bc084581529
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '74'
 ht-degree: 5%
 
 ---
@@ -20,8 +19,8 @@ ht-degree: 5%
 <table id="table_0BEA0B5FFDF64E5594B534B2A87A6D88"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 數值|點數</span> </p> </td> 
-   <td colname="col2"> <p> 配置設定指示符的渲染樣式。 </p> <p>當設為<span class="codeph"> dotted</span>時，元件會為所有頁面呈現相同的指示符。 </p> <p>設為<span class="codeph"> numeric</span>時，會在每個指標元素中放置一個以1為基礎的頁碼。 </p> <p>能夠觸摸輸入的設備不支援<span class="codeph">數字</span>操作模式。 而是在此類裝置上使用<span class="codeph"> dotted</span>元件。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 數值|虛點</span> </p> </td> 
+   <td colname="col2"> <p> 配置設定指示符的呈現樣式。 </p> <p>設為<span class="codeph">虛線</span>時，元件會針對所有頁面呈現相同的指標。 </p> <p>設為<span class="codeph"> numeric</span>時，會在每個指標元素內放入以1為基礎的頁碼。 </p> <p>能夠觸摸輸入的設備不支援<span class="codeph">數值</span>操作模式。 元件會改為在這類裝置上使用<span class="codeph">虛線</span>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
