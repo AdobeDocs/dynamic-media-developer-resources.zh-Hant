@@ -1,21 +1,20 @@
 ---
-description: 有助於改善最佳化金字塔TIF檔案影像銳利度的設定。
+description: 有助於改進優化金字塔TIF檔案的影像清晰度的設定。
 solution: Experience Manager
-title: UnsharpMaskOptions
-feature: Dynamic Media Classic,SDK/API,Asset Management
+title: 不銳利化遮色片選項
+feature: Dynamic Media Classic,SDK/API，資產管理
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 7150b4a8-a44d-4858-96f2-6004d5f48e77
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '194'
 ht-degree: 12%
 
 ---
 
+# 不銳利化遮色片選項{#unsharpmaskoptions}
 
-# UnsharpMaskOptions{#unsharpmaskoptions}
-
-有助於改善最佳化金字塔TIF檔案影像銳利度的設定。
+有助於改進優化金字塔TIF檔案的影像清晰度的設定。
 
 `unsharpMaskOptions=[ *`數量、半徑、臨界值、單色`*]`
 
@@ -44,17 +43,17 @@ ht-degree: 12%
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> 半徑</span></span></td>
    <td colname="col2"><span class="codeph"> xsd:double</span></td>
-   <td colname="col3"><p>設定影像邊緣的像素數目，以控制清晰度。 正確的值取決於影像大小。 
+   <td colname="col3"><p>通過設定影像邊緣周圍的像素數來控制銳度。 正確的值取決於影像大小。 
      <ul id="ul_D4391CD407DE4B48AF4523EBD85D0D40">
       <li id="li_8AEF11A489484EFD91416F8A03C4DB25">範圍：0.0 - 250.0 </li>
-      <li id="li_9F1D1B52AFBA46B8BDCDF99A21140002">低值僅銳利化邊緣像素。 </li>
-      <li id="li_7D9FD8AA4899404283D7AB596364A4AF">高值會銳利化更寬的像素範圍。 </li>
+      <li id="li_9F1D1B52AFBA46B8BDCDF99A21140002">低值僅銳化邊緣像素。 </li>
+      <li id="li_7D9FD8AA4899404283D7AB596364A4AF">高值會銳利化較寬的像素帶。 </li>
      </ul></p></td>
   </tr>
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> 臨界值</span></span></td>
    <td colname="col2"><span class="codeph"> xsd:int</span></td>
-   <td colname="col3"><p>決定不同像素在被視為邊緣像素並可銳利化之前，必須與周圍區域的像素。 
+   <td colname="col3"><p>決定不同像素在被視為邊緣像素且可銳化之前必須與周圍區域的差異。 
      <ul id="ul_117E556E3ECF42CC878DD80D338D19CA">
       <li id="li_CFEE76DB78BF437E8463C9089486F8A6">範圍：0 - 255（僅限整數）。 </li>
       <li id="li_77113DC2698A4D48B11288718766E6A2">預設值：6 </li>
@@ -63,7 +62,7 @@ ht-degree: 12%
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> 單色</span></span></td>
    <td colname="col2"><span class="codeph"> xsd:int</span></td>
-   <td colname="col3"><p>值僅包括<span class="codeph"> 0</span>或<span class="codeph"> 1</span>。 </p><p>設為<span class="codeph"> 0</span>以個別套用至每個色彩元件，或設為<span class="codeph"> 1</span>以僅套用至影像亮度（強度）。 圖層遮色片或複合遮色片也會銳利化。 </p><p><span class="codeph"><span class="varname"> 灰</span></span> 度影像忽略單色。 </p></td>
+   <td colname="col3"><p>值僅包含<span class="codeph"> 0</span>或<span class="codeph"> 1</span>。 </p><p>設為<span class="codeph"> 0</span>以分別應用於每個顏色分量，或設為<span class="codeph"> 1</span>以僅應用於影像亮度（強度）。 圖層遮色片或複合遮色片也會銳化。 </p><p><span class="codeph"><span class="varname"> </span></span> 灰階影像會忽略單色。 </p></td>
   </tr>
  </tbody>
 </table>
@@ -82,16 +81,16 @@ ht-degree: 12%
     </complexType>
 ```
 
-## {#section-db8124a5468b498694a780f8a56a4560}使用
+## 使用者 {#section-db8124a5468b498694a780f8a56a4560}
 
-`unsharpMaskOptions`類型的使用者：
+`unsharpMaskOptions`類型由：
 
-* [重新處理AssetsJob](../../types/c-data-types/r-reprocess-assets-job.md#reference-a303f7832ae44fdab1dca7cc8bef3fa3)
+* [ReprocessAssetsJob](../../types/c-data-types/r-reprocess-assets-job.md#reference-a303f7832ae44fdab1dca7cc8bef3fa3)
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
 * [UploadPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)
 * [UploadUrlsJob](../../types/c-data-types/r-upload-urls-job.md#reference-8e9bc895268c4321b233dbeadc990398)
 
 >[!MORELIKETHIS]
 >
->* [影像伺服API參考：op_usm](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-op-usm.html)
+>* [影像提供API參考：op_usm](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-op-usm.html)
 
