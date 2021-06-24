@@ -1,25 +1,24 @@
 ---
-description: 「我的最愛」檢視包含一欄縮圖影像。
+description: 收藏夾視圖包含一列縮略圖。
 solution: Experience Manager
-title: 我的最愛檢視
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+title: 收藏夾視圖
+feature: Dynamic Media Classic，檢視器，SDK/API,eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 10536242-1015-49ff-ae27-59671f30d886
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '290'
 ht-degree: 2%
 
 ---
 
+# 收藏夾視圖{#favorites-view}
 
-# 我的最愛檢視{#favorites-view}
-
-「我的最愛」檢視包含一欄縮圖影像。
+收藏夾視圖包含一列縮略圖。
 
 <!--<a id="section_B6EFCCADB5A5495DAE6BBE42F7F405CB"></a>-->
 
-「我的最愛」檢視容器的外觀會由下列CSS類別選擇器控制：
+「收藏夾」視圖容器的外觀由以下CSS類選擇器控制：
 
 ```
 .s7ecatalogviewer .s7favoritesview
@@ -27,22 +26,22 @@ ht-degree: 2%
 
 「收藏夾」視圖的位置和高度由視圖管理；在CSS中，只能定義寬度。
 
-**「我的最愛」檢視的CSS屬性**
+**收藏夾視圖的CSS屬性**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景色  </span> </p> </td> 
-   <td colname="col2"> <p> 「我的最愛」檢視的背景顏色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景顏色  </span> </p> </td> 
+   <td colname="col2"> <p> 「收藏夾」視圖的背景顏色。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>視圖寬度。 </p> </td> 
+   <td colname="col2"> <p>檢視的寬度。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-範例——設定寬度為100像素且半透明灰色背景的「我的最愛」檢視。
+示例 — 設定半透明灰色背景為100像素寬的收藏夾視圖。
 
 ```
 .s7ecatalogviewer .s7favoritesview { 
@@ -51,24 +50,24 @@ ht-degree: 2%
 }
 ```
 
-「我的最愛」縮圖之間的間距會由下列CSS類別選擇器控制：
+「收藏夾」縮圖之間的間距由以下CSS類選擇器控制：
 
 ```
 .s7ecatalogviewer .s7favoritesview .s7thumbcell
 ```
 
-**我的最愛縮圖的CSS屬性**
+**CSS屬性收藏夾縮略圖**
 
 <table id="table_EED8CE63D805458196DE0E87C7E9945F"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> 每個縮圖的垂直邊界大小。 實際縮圖間距等於為<span class="codeph"> .s7thumbcell </span>設定的上下邊界之和。 </p> </td> 
+   <td colname="col2"> <p> 每個縮圖周圍的垂直邊界大小。 實際縮圖間距等於為<span class="codeph"> .s7thumbcell </span>設定的上下邊界之和。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-範例——設定10像素間距。
+範例 — 設定10像素間距。
 
 ```
 .s7ecatalogviewer .s7favoritesview .s7thumbcell { 
@@ -76,13 +75,13 @@ ht-degree: 2%
 }
 ```
 
-個別縮圖的外觀由下列CSS類別選擇器控制：
+個別縮圖的外觀由下列CSS類別選取器控制：
 
 ```
 .s7ecatalogviewer .s7favoritesview .s7thumb
 ```
 
-**我的最愛縮圖的CSS屬性**
+**CSS屬性收藏夾縮略圖**
 
 <table id="table_6F5B1438CAFA49E9B33400C6970ABDA1"> 
  <tbody> 
@@ -96,16 +95,16 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
-   <td colname="col2"> <p>縮圖邊框。 </p> </td> 
+   <td colname="col2"> <p>縮圖的邊框。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->縮圖支援`state`屬性選擇器，可用來將不同的外觀套用至不同的縮圖狀態。 特別是，`state="selected"`對應於使用者最近選取的縮圖。 `state="default"` 對應其餘的縮圖。而`state="over"`則用於滑鼠暫留。
+>縮圖支援`state`屬性選取器，可用來將不同外觀套用至不同的縮圖狀態。 尤其`state="selected"`對應於使用者最近選取的縮圖。 `state="default"` 對應至縮圖的其餘部分。而`state="over"`用於滑鼠暫留。
 
-範例——若要設定75 x 75像素的縮圖，請使用淺灰色預設邊框和深灰色選取的邊框。
+範例 — 若要設定縮圖，縮圖為75 x 75像素、有淺灰色預設邊框和深灰色選取的邊框。
 
 ```
 .s7ecatalogviewer .s7favoritesview .s7thumb { 
@@ -120,13 +119,13 @@ ht-degree: 2%
 }
 ```
 
-縮表徵圖簽的外觀由下列CSS類別選擇器控制：
+縮表徵圖簽的外觀由下列CSS類選擇器控制：
 
 ```
 .s7ecatalogviewer .s7favoritesview .s7label
 ```
 
-**「我的最愛」標籤的CSS屬性**
+**收藏夾標籤的CSS屬性**
 
 <table id="table_B41339A16ACB46CB87D3EB1FD05FA2CD"> 
  <tbody> 
@@ -141,7 +140,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-示例——使用14像素Helvetica字型設定標籤。
+示例 — 用14像素Helvetica字型設定標籤。
 
 ```
 .s7ecatalogviewer .s7favoritesview .s7label { 
@@ -149,4 +148,3 @@ ht-degree: 2%
  font-size: 14px; 
 }
 ```
-
