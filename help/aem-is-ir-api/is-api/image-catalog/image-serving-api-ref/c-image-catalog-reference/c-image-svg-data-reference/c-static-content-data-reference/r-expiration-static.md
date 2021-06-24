@@ -4,22 +4,21 @@ solution: Experience Manager
 title: 過期
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 064dab12-5f58-4e19-a6b1-fbd20182e3aa
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '267'
 ht-degree: 2%
 
 ---
 
-
 # 過期{#expiration}
 
-用於管理客戶端和代理伺服器快取。 伺服器通過將此值添加到傳輸的時間／日期來計算HTTP響應資料的到期時間／日期。
+用於管理用戶端和代理伺服器快取。 伺服器將此值加到傳輸的時間/日期，以計算HTTP回應資料的到期時間/日期。
 
-瀏覽器使用檔案的過期時間來管理快取。 在將請求傳遞至伺服器之前，瀏覽器會檢查其快取，以查看檔案是否已下載。 如果是，且檔案尚未過期，瀏覽器會傳送條件式GET要求（例如在請求標題中設定If-Modified-Since欄位），而非一般GET要求。 伺服器可選擇以&#39;304&#39;狀態回應，而不傳送影像。 然後瀏覽器會從其快取載入檔案。 這可大幅提高經常存取資料的整體效能。
+瀏覽器使用檔案的過期時間來管理快取。 在將請求傳遞至伺服器之前，瀏覽器會檢查其快取，查看檔案是否已下載。 若是，且檔案尚未過期，瀏覽器會傳送條件式GET要求（例如在要求標題中設定If-Modified-Since欄位），而非一般GET要求。 伺服器可以選擇以「304」狀態響應，而不傳輸影像。 接著，瀏覽器會從其快取中載入檔案。 這可大幅提升經常存取資料的整體效能。
 
-過期時間用於以下響應類型：
+這些回應類型會使用過期時間：
 
 * `req=img`
 * `req=mask`
@@ -27,15 +26,15 @@ ht-degree: 2%
 * `req=userdata`
 * `req=map`
 
-某些類型的回應（例如錯誤回應）一律會標籤為立即到期（或標籤為不可快取），而其他回應（例如屬性或預設影像回應）則會使用特殊的過期設定（`attribute::NonImgExpiration`和`attribute::DefaultExpiration`）。
+某些類型的回應（例如錯誤回應）一律會標示為立即過期（或標示為不可快取），而其他類型（例如屬性或預設影像回應）則使用特殊的過期設定（`attribute::NonImgExpiration`和`attribute::DefaultExpiration`）。
 
 ## 屬性 {#section-7f5173d090cf48df8fa1a2c72b8c8c60}
 
-實數、-2、-1或0或更高。 自回應影像產生後，到期前的小時數。 設為0，一律會立即使回覆影像過期，這會有效停用用戶端快取。 設定為-1以標籤為&#x200B;*`never expire`*。 在這種情況下，伺服器會回應條件式GET要求，而一律傳回304狀態（未修改），而不檢查檔案是否實際變更。 設定為-2以使用`attribute::Expiration`提供的預設設定。
+實數、-2、-1或0或更高。 自產生回應影像後直到過期的小時數。 設為0一律會立即讓回覆影像過期，這會有效停用用戶端快取。 設為–1以標示為&#x200B;*`never expire`*。 在這種情況下，伺服器一律會傳回304狀態（未修改）以回應條件式GET請求，而不檢查檔案是否實際變更。 設為–2以使用`attribute::Expiration`提供的預設值。
 
 ## 預設 {#section-ec72cc1dfc5e4f278174d37da2e39462}
 
-`attribute::Expiration` 如果欄位不存在、值為-2或欄位為空，則使用。
+`attribute::Expiration` 如果欄位不存在、值為–2，或欄位為空，則會使用。
 
 ## 另請參閱 {#section-0e5e8595aad641c689726828712a8902}
 
