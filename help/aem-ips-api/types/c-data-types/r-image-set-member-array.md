@@ -1,21 +1,20 @@
 ---
-description: 映像整合員的陣列。
+description: 影像整合員的陣列。
 solution: Experience Manager
 title: ImageSetMemberArray
-feature: Dynamic Media Classic,SDK/API,Image Sets
+feature: Dynamic Media Classic, SDK/API，影像集
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 364f9a58-2128-4d1c-bdad-1ae2677e8e48
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '35'
-ht-degree: 17%
+source-wordcount: '33'
+ht-degree: 18%
 
 ---
 
-
 # ImageSetMemberArray{#imagesetmemberarray}
 
-映像整合員的陣列。
+影像整合員的陣列。
 
 語法
 
@@ -23,5 +22,4 @@ ht-degree: 17%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| `*`項目`*` | `types:ImageSetMember` | 映像整合員的陣列。 |
-
+| `*`項目`*` | `types:ImageSetMember` | 影像整合員的陣列。 |
