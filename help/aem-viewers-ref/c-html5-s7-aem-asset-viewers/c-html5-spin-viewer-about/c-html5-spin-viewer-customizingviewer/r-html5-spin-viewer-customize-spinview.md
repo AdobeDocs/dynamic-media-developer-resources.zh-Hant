@@ -1,27 +1,26 @@
 ---
-description: 主視圖由回轉影像組成。
+description: 主檢視包含回轉影像。
 solution: Experience Manager
-title: 回轉視圖
-feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
+title: 回轉檢視
+feature: Dynamic Media Classic，檢視器，SDK/API，回轉集
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: d3274fe3-1a47-448e-acc6-6df77c6a4211
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '67'
 ht-degree: 1%
 
 ---
 
+# 回轉檢視{#spin-view}
 
-# 回轉視圖{#spin-view}
-
-主視圖由回轉影像組成。
+主檢視包含回轉影像。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**主檢視器區域的CSS屬性**
+**主查看器區域的CSS屬性**
 
-檢視區域的外觀會使用下列CSS類別選擇器加以控制：
+查看區域的外觀由以下CSS類選擇器控制：
 
 ```
 .s7spinviewer .s7spinview
@@ -36,17 +35,16 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景顏色  </span> </p> </td> 
    <td colname="col2"> <p> 主視圖的十六進位格式背景顏色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例——使主視圖透明。
+示例 — 使主視圖透明。
 
 ```
 .s7spinviewer .s7spinview { 
  background-color: transparent; 
 }
 ```
-
