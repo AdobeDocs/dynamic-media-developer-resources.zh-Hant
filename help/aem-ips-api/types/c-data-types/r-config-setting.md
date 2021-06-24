@@ -4,16 +4,15 @@ solution: Experience Manager
 title: 設定設定
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 6d6421ce-1933-4310-b691-817392631969
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 15%
+source-wordcount: '36'
+ht-degree: 16%
 
 ---
 
-
-# ConfigSetting{#configsetting}
+# 設定設定{#configsetting}
 
 僅供Dynamic Media開發人員使用。
 
@@ -24,6 +23,5 @@ ht-degree: 15%
 | 名稱 | 類型 | 說明 |
 |---|---|---|
 | `*`名稱`*` | `xsd:string` | 配置名稱。 |
-| `*`值`*` | `xsd:string` | 配置值。 |
-| `*`處理`*` | `xsd:string` | 儲存配置的句柄。 |
-
+| `*`value`*` | `xsd:string` | 設定值。 |
+| `*`處理`*` | `xsd:string` | 對儲存的配置進行處理。 |
