@@ -2,16 +2,15 @@
 description: portraitFrames
 solution: Experience Manager
 title: portraitFrames
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic，檢視器，SDK/API,eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 050388f8-45a9-4f09-a957-f94bead17eca
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '56'
+source-wordcount: '53'
 ht-degree: 7%
 
 ---
-
 
 # portraitFrames{#portraitframes}
 
@@ -20,8 +19,8 @@ ht-degree: 7%
 <table id="table_1D425B7685D448459CD3FE8D683C813C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 分割|實體</span> </p> </td> 
-   <td colname="col2"> <p>設為<span class="codeph"> split</span>，當在行動裝置上以縱向使用時，可讓檢視者將雙頁跨頁顯示為個別頁面。 設為<span class="codeph"> solid</span>，以一律將雙頁跨頁顯示為立體影像，不論裝置方向為何。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 拆分|實體</span> </p> </td> 
+   <td colname="col2"> <p>設為<span class="codeph"> split</span> ，當以縱向方向在行動裝置上使用時，可讓檢視器將雙頁跨頁顯示為個別頁面。 設為<span class="codeph"> solid</span> ，一律將雙頁跨頁顯示為實體影像，而不考慮裝置方向。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
