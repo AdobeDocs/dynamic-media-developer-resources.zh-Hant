@@ -1,21 +1,20 @@
 ---
-description: 物件選取錯誤處理。 指定當obj=命令因指定的路徑無法在暈映物件階層中相符而失敗時要採取的動作。
+description: 對象選擇錯誤處理。 指定當obj=命令失敗時要採取的操作，因為指定的路徑在暈映對象層次結構中不匹配。
 solution: Experience Manager
 title: OnFailObj
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 0ed04daf-1797-4c12-ae6d-a9a008de9d1d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '119'
 ht-degree: 13%
 
 ---
 
-
 # OnFailObj{#onfailobj}
 
-物件選取錯誤處理。 指定當obj=命令因指定的路徑無法在暈映物件階層中相符而失敗時要採取的動作。
+對象選擇錯誤處理。 指定當obj=命令失敗時要採取的操作，因為指定的路徑在暈映對象層次結構中不匹配。
 
 ## 屬性 {#section-2c779d9c133a443d9f0aed9fde7b703c}
 
@@ -32,7 +31,7 @@ ht-degree: 13%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p> </td> 
-  <td class="stentry"> <p>取消選擇；將忽略任何嘗試應用材料或顯示／隱藏對象的嘗試。 </p> </td> 
+  <td class="stentry"> <p>取消選擇；將忽略應用材料或顯示/隱藏對象的任何嘗試。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p> </td> 
@@ -46,7 +45,7 @@ ht-degree: 13%
 
 ## 預設 {#section-a5a95a2b4a204a4eae350e5b544d1513}
 
-如果未定義，則繼承自`default::OnFailObj`。
+若未定義，則繼承自`default::OnFailObj`。
 
 ## 另請參閱 {#section-806dc2c5973c41f683af085b3315043c}
 
