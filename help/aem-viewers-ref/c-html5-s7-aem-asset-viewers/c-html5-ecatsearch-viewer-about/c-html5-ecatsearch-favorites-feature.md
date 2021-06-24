@@ -2,23 +2,22 @@
 description: 搜尋功能
 solution: Experience Manager
 title: 搜尋功能
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic，檢視器，SDK/API,eCatalog搜尋
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: d9bee7a6-332f-481b-b0aa-9caa0b6d982c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
 
-
 # 搜尋功能{#search-feature}
 
-檢視器支援在目錄內容上進行文字搜尋。 若要使搜尋功能運作，必須將來源PDF檔案上傳至Dynamic Media經典檔案時，開啟目錄「擷取搜尋字詞」功能。
+檢視器支援對目錄內容進行文字搜尋。 將來源PDF檔案上傳至Dynamic Media Classic時，必須開啟「擷取搜尋字詞」目錄功能，搜尋功能才能運作。
 
-「搜尋」功能是透過在主工具列中啟動「搜尋」按鈕來觸發。 此動作會開啟包含文字輸入欄位的搜尋結果面板。 使用者可使用以空格分隔的關鍵字或使用以雙引號括住的片語來執行搜尋。
+搜尋功能是透過啟動主工具列中的搜尋按鈕來觸發。 此動作會顯示包含文字輸入欄位的搜尋結果面板。 使用者可以使用以空格分隔的關鍵字，或使用由雙引號包住的片語來執行搜尋。
 
-搜尋結果會顯示為找到搜尋文字之頁面的縮圖。 此外，檢視器會顯示搜尋期間找到的頁面和點擊總數。 用戶可以按一下或點選搜索結果縮略圖以導航到目錄的相應頁面。
+搜索結果顯示為找到搜索文本的頁面的縮略圖。 此外，檢視器會顯示在搜尋期間找到的頁面和點擊總數。 使用者可以按一下或點選搜尋結果縮圖，以導覽至目錄的對應頁面。
 
-最後，檢視器使用半透明黃色區域，在主檢視中反白標示搜尋點擊。
+最後，檢視器會使用半透明黃色區域，反白標示主檢視中的搜尋點擊。
