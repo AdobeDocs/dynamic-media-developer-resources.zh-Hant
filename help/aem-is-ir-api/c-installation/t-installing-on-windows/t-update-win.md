@@ -1,35 +1,34 @@
 ---
-description: 升級Dynamic Media映像服務時，請使用此過程。
+description: 升級Dynamic Media Image Serving時，請使用此程式。
 solution: Experience Manager
 title: 從IS 4.7.4或更新版本更新
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: e0781f19-4aa8-46f7-a586-4724ff8a2e68
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
 
+# 從IS 4.7.4或更新版本更新{#updating-from-is-or-later}
 
-# 從IS 4.7.4或更新版本{#updating-from-is-or-later}更新
+升級Dynamic Media Image Serving時，請使用此程式。
 
-升級Dynamic Media映像服務時，請使用此過程。
-
-如果您是從舊版影像伺服升級，請聯絡支援以取得正確的程式。
+如果您從舊版影像伺服升級，請聯絡支援人員以了解正確的流程。
 
 >[!NOTE]
 >
->升級時，[!DNL webapps]資料夾可能會被刪除。 升級前備份[!DNL webapps]資料夾。
+>升級時可刪除[!DNL webapps]資料夾。 升級前備份[!DNL webapps]資料夾。
 
-1. 使用管理權限登錄到伺服器主機。
-1. 解壓縮「影像伺服」散發zip檔案的內容。
+1. 以管理權限登入您的伺服器主機。
+1. 解壓縮Image Serving分送Zip檔案的內容。
 1. 運行setup/setup.exe以啟動安裝嚮導。
-1. 按一下&#x200B;**[!UICONTROL Next]**&#x200B;進入最終用戶許可協定(EULA)，閱讀許可協定，然後按一下&#x200B;**[!UICONTROL 是]**。
+1. 按一下&#x200B;**[!UICONTROL Next]**&#x200B;前進至最終用戶許可協定(EULA)，閱讀許可協定，然後按一下&#x200B;**[!UICONTROL Yes]**。
 
    下一頁顯示先前的配置設定。
-1. 按一下&#x200B;**[!UICONTROL Next]**&#x200B;啟動更新安裝。
+1. 按一下&#x200B;**[!UICONTROL Next]**&#x200B;以開始安裝更新。
 
    >[!NOTE]
    >
@@ -39,6 +38,6 @@ ht-degree: 0%
 
    在某些情況下，安裝嚮導可能會要求重新啟動系統。
 
-在更新期間，[!DNL ImageServing/conf/server.xml]檔案會更新為最新的設定。 如果您已變更或新增任何值，則應儲存現有的[!DNL server.xml]，並在升級後重新實作變更。
+更新期間， [!DNL ImageServing/conf/server.xml]檔案會更新為最新設定。 如果您已變更或新增任何值，則應儲存現有的[!DNL server.xml]，並在升級後重新實作變更。
 
-在安裝更新後，請考慮在將伺服器上線之前先預熱HTTP回應快取。 有關詳細資訊，請參閱`playlog`實用程式的說明。
+安裝更新後，請考慮在伺服器上線前先預熱HTTP回應快取。 有關詳細資訊，請參閱`playlog`實用程式的說明。
