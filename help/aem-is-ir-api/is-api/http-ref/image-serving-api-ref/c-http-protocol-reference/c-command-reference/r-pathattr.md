@@ -1,21 +1,20 @@
 ---
-description: 路徑上的文字屬性。
+description: 路徑文字屬性。
 solution: Experience Manager
 title: pathAttr
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: fdf9274a-70d0-4692-a7a9-c108abb9ab84
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '148'
 ht-degree: 3%
 
 ---
 
-
 # pathAttr{#pathattr}
 
-路徑上的文字屬性。
+路徑文字屬性。
 
 ` pathAttr= *``*[, *``*[, *`directionstartPosendPos`*]]`
 
@@ -30,19 +29,19 @@ ht-degree: 3%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> endPos  </span> </p> </td> 
-  <td class="stentry"> <p>路徑上的文字結束位置（實數0.0...&lt;2.0）。 </p> </td> 
+  <td class="stentry"> <p>路徑上的文本結束位置（實數0.0...&lt;2.0）。 </p> </td> 
  </tr> 
 </table>
 
-指定`norm`以從第一個路徑頂點附近開始繪製文本，並指定`reverse`以從最後一個頂點附近開始以相反方向繪製文本。
+指定`norm`以從第一個路徑頂點附近開始繪製文本，指定`reverse`以從最後一個頂點附近開始沿相反方向繪製文本。
 
-*`startPos`* 並 *`endPos`* 且允許調整將繪製文本的路徑上的位置。0.0對應於路徑中的第一個頂點，1.0對應於最後一個頂點；中間值表示沿第一頂點和最後一個頂點之間的路徑的距離。
+*`startPos`* 並 *`endPos`* 允許調整路徑上將繪製文本的位置。0.0對應於路徑中的第一個頂點，1.0對應於最後一個頂點；中間值表示沿著第一頂點和最後一個頂點之間的路徑的距離。
 
 ## 屬性 {#section-80f266da4e2549d89f022a3f9ff4584d}
 
-層屬性。 如果層不包含`textPs=`和`textPath=`命令，則忽略。
+層屬性。 如果層未包含`textPs=`和`textPath=`命令，則忽略。
 
-*`startPos`* 必須大於或等於0且小於1.0。 *`endPos`* 應用於開 *`startPos`* 放路徑時必須大於或等於1.0，或應用於封閉路徑時必須小於或等於( *`startPos`* + 1.0)。
+*`startPos`* 必須大於或等於0且小於1.0。 *`endPos`* 應用於 *`startPos`* 開放路徑時必須大於或等於1.0，或應用於封閉路徑時必須小於或等於( *`startPos`* + 1.0)。
 
 ## 預設 {#section-3e757970885c45e7b6100e78dc08626f}
 
