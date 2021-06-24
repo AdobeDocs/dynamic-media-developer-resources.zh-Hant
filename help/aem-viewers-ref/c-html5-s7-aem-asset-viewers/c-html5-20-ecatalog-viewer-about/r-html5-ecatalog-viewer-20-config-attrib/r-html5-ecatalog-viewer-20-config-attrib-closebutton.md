@@ -2,16 +2,15 @@
 description: 關閉按鈕
 solution: Experience Manager
 title: 關閉按鈕
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic，檢視器，SDK/API,eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 253dad70-c46c-4d37-8d0c-2a97a5f53f13
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 9%
+source-wordcount: '48'
+ht-degree: 10%
 
 ---
-
 
 # 關閉按鈕{#closebutton}
 
@@ -21,7 +20,7 @@ ht-degree: 9%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0-1  </span> </p> </td> 
-   <td colname="col2"> <p>設為<span class="codeph"> 1 </span>以啟用關閉按鈕的顯示。 或者，設為<span class="codeph"> 0 </span>可隱藏關閉按鈕。 </p> <p>關閉按鈕僅在觸控裝置上受支援；它無法顯示在案頭系統上。 </p> </td> 
+   <td colname="col2"> <p>設為<span class="codeph"> 1 </span>以啟用關閉按鈕的顯示。 或者，設定為<span class="codeph"> 0 </span>以隱藏關閉按鈕。 </p> <p>只有觸控式裝置才支援關閉按鈕；無法在案頭系統上顯示。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -39,4 +38,3 @@ ht-degree: 9%
 ```
 closebutton=1
 ```
-
