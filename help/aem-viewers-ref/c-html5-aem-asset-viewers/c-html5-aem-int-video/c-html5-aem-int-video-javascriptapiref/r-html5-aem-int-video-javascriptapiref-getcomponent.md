@@ -2,13 +2,12 @@
 description: 互動式視訊檢視器的JavaScript API參考。
 solution: Experience Manager
 title: getComponent
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic，檢視器， SDK/API，互動式影片
 role: Developer,Business Practitioner
 exl-id: a760bc86-b700-4ffe-9983-ef55d88677d6
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '220'
 ht-degree: 1%
 
 ---
@@ -19,11 +18,11 @@ ht-degree: 1%
 
 `getComponent(componentId)`
 
-傳回檢視器使用之檢視器SDK元件的參考。 網頁可使用此方法來擴充或自訂現成檢視器的行為。 只有在`initComplete`檢視器回呼執行後才呼叫此方法，否則檢視器邏輯尚未建立元件。
+傳回檢視器所使用之檢視器SDK元件的參考。 網頁可使用此方法來擴充或自訂現成檢視器的行為。 只有在`initComplete`檢視器回呼執行後才呼叫此方法，否則檢視器邏輯可能尚未建立元件。
 
 ## 參數 {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-`*`componentID`*`  —— 檢 `{String}` 視器使用之檢視器SDK元件的ID。此檢視器支援下列元件ID:
+`*`componentID`*`  — 檢 `{String}` 視器使用之檢視器SDK元件的ID。此檢視器支援下列元件ID:
 
 <table id="table_7B5DD9303EF44ADD847B13FFEAD135D9"> 
  <thead> 
@@ -39,7 +38,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 容器 </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.Container  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.container  </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> mediaSet  </span> </p> </td> 
@@ -50,7 +49,7 @@ ht-degree: 1%
    <td colname="col2"> <p> <span class="codeph"> s7sdk.video.VideoPlayer  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> interactiveSwatches  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> interactiveStackes  </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.set.InteractiveSwatches  </span> </p> </td> 
   </tr> 
   <tr> 
@@ -108,9 +107,9 @@ ht-degree: 1%
 
 如需特定元件的詳細資訊，請參閱&#x200B;*檢視器SDK API*&#x200B;檔案。
 
-## 傳回{#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## 傳回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` 檢視器SDK元件的參考。如果`componentId`不是支援的檢視器元件，或檢視器邏輯尚未建立元件，則此方法會傳回`null`。
+`{Object}` 檢視器SDK元件的參考。如果`componentId`不是支援的檢視器元件，或檢視器邏輯尚未建立元件，則方法會傳回`null`。
 
 ## 範例 {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 
