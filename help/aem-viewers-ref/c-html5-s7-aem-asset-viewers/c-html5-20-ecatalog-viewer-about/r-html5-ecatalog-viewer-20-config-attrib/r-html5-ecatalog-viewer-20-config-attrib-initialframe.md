@@ -2,16 +2,15 @@
 description: InitialFrame
 solution: Experience Manager
 title: InitialFrame
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic，檢視器，SDK/API,eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 28b6b981-94f6-4136-b322-992e18d154db
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 8%
+source-wordcount: '65'
+ht-degree: 9%
 
 ---
-
 
 # InitialFrame{#initialframe}
 
@@ -21,7 +20,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> frame</span></span> </p> </td> 
-   <td colname="col2"> <p> 指定零基礎的跨頁索引，以在檢視器載入時顯示。 索引與橫向模式下跨頁的索引匹配。 如果檢視器旋轉為縱向，檢視器會從<span class="codeph"> frameIdx</span>所指的跨頁顯示最左側的頁面。 </p> </td> 
+   <td colname="col2"> <p> 指定要在檢視器載入時顯示的零基跨頁索引。 索引與橫向模式下跨頁的索引匹配。 如果檢視器旋轉為縱向，則檢視器會從<span class="codeph"> frameIdx</span>指向的跨頁顯示最左側的頁面。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -41,4 +40,3 @@ ht-degree: 8%
 ```
 initialFrame=2
 ```
-
