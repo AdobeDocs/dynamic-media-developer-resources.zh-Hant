@@ -4,14 +4,13 @@ solution: Experience Manager
 title: getSystemProperties
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: b0ef16fd-1645-4e22-99bb-8c9269623168
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 17%
+source-wordcount: '60'
+ht-degree: 18%
 
 ---
-
 
 # getSystemProperties{#getsystemproperties}
 
@@ -19,7 +18,7 @@ ht-degree: 17%
 
 語法
 
-## 授權用戶類型{#section-fc311ce90a54400fa95b9dd36b756e23}
+## 授權的使用者類型 {#section-fc311ce90a54400fa95b9dd36b756e23}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -45,7 +44,7 @@ ht-degree: 17%
 
 ## 範例 {#section-728cc16fe9954b2daa035b4d4d4b4ce6}
 
-此代碼示例返回系統屬性的陣列。 回應因簡短而截斷。
+此程式碼範例會傳回系統屬性的陣列。 回應因簡單性而遭截斷。
 
 **請求**
 
@@ -70,4 +69,3 @@ ht-degree: 17%
    </propertyArray> 
 </getSystemPropertiesReturn>
 ```
-
