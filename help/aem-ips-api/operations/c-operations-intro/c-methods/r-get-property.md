@@ -4,14 +4,13 @@ solution: Experience Manager
 title: getProperty
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 2297b785-28c7-49c6-8891-00986f35ea88
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '137'
 ht-degree: 10%
 
 ---
-
 
 # getProperty{#getproperty}
 
@@ -20,15 +19,15 @@ ht-degree: 10%
 支援的系統屬性包括：
 
 * `IpsVersion`:IPS版本號。
-* `IpsImageServerUrl`:IPS Image Server的完整外部URL前置詞。
+* `IpsImageServerUrl`:IPS影像伺服器的完整外部URL前置詞。
 * `VideoRootUrl`
 * `swfRootUrl`
-* `SvgRenderRootUrl`:用於轉譯SVG資產的URL首碼。
-* `SvgRenderEnabled`:如果SVG資產可由轉譯，則為 `SvgRenderRootUrl`true。
+* `SvgRenderRootUrl`:轉譯SVG資產的URL首碼。
+* `SvgRenderEnabled`:如果SVG資產可由呈現，則為 `SvgRenderRootUrl`true。
 
-* `UploadPostMaxFileSize`:上傳中允許的檔案資料大小上限（以位元組為單位） [!DNL POST]。系統拒絕大於最大限制的檔案。
+* `UploadPostMaxFileSize`:上傳中允許的檔案資料大小上限(以位元組為單 [!DNL POST]位)。系統拒絕大於最大限制的檔案。
 
-## 授權用戶類型{#section-2cd36bbd46ed414b8753569d5895530e}
+## 授權的使用者類型 {#section-2cd36bbd46ed414b8753569d5895530e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -46,13 +45,13 @@ ht-degree: 10%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`名稱`*` | `xsd:string` | 是 | 要獲取的屬性的名稱。 |
+| `*`名稱`*` | `xsd:string` | 是 | 要取得的屬性名稱。 |
 
 **輸出(getPropertyReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`值`*` | `xsd:string` | 是 | 屬性值。 |
+| `*`value`*` | `xsd:string` | 是 | 屬性值。 |
 
 ## 範例 {#section-3f80a78dd60c404181b34d3a912d7a36}
 
@@ -73,4 +72,3 @@ ht-degree: 10%
    <value>3.8.0</value>
 </getPropertyReturn>
 ```
-
