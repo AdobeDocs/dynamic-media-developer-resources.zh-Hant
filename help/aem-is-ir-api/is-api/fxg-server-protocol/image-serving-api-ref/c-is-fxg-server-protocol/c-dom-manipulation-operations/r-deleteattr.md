@@ -4,14 +4,13 @@ solution: Experience Manager
 title: deleteAttr
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 7cecd0aa-c928-4652-a92f-f21ebcf83304
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: '54'
 ht-degree: 1%
 
 ---
-
 
 # deleteAttr{#deleteattr}
 
@@ -19,7 +18,7 @@ ht-degree: 1%
 
 `deleteAttr.elementID={attributeName%26attributeName}`
 
-如果FXG節點元素已定義`s7:elementID`，則可使用此命令刪除該節點的屬性。
+如果FXG節點元素已定義`s7:elementID`，則可以使用此命令刪除該節點的屬性。
 
 ## 範例 {#section-dece7192384a412c9afdfbda6f08bc97}
 
@@ -29,4 +28,4 @@ ht-degree: 1%
 
 `<Group d:id="4" d:type="layer" d:userLabel="WhiteFrame" s7:elementID="middle_area">`
 
-此示例從原始FXG節點中刪除&#x200B;*[!DNL x]*、*[!DNL y]*&#x200B;和&#x200B;*[!DNL visible]*&#x200B;屬性。
+此示例從原始FXG節點中刪除屬性&#x200B;*[!DNL x]*、*[!DNL y]*&#x200B;和&#x200B;*[!DNL visible]*。
