@@ -4,14 +4,13 @@ solution: Experience Manager
 title: executeJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 4b2a2a14-d785-43bd-b1fc-2812d9f21964
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '81'
 ht-degree: 19%
 
 ---
-
 
 # executeJob{#executejob}
 
@@ -19,7 +18,7 @@ ht-degree: 19%
 
 語法
 
-## 授權用戶類型{#section-8199e8599ea64e7097a2acb633417b15}
+## 授權的使用者類型 {#section-8199e8599ea64e7097a2acb633417b15}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -61,11 +60,11 @@ ht-degree: 19%
 
 **輸出(executeJobReturn)**
 
-IPS API不會傳回此作業的回應。
+IPS API不會針對此操作傳回回應。
 
 ## 範例 {#section-96f71aa58a954293b9a98ff96d86f232}
 
-此程式碼範例會執行排程在IPS中執行的工作。
+此程式碼範例會執行排程在IPS中執行的作業。
 
 **請求**
 
