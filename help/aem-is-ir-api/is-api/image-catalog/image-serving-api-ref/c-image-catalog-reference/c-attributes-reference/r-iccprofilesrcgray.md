@@ -1,29 +1,28 @@
 ---
-description: 灰階預設輸入色彩描述檔。 指定不嵌入色彩描述檔的灰階來源影像，以及使用各種「影像伺服」指令（例如color=）指定的特定灰階色彩值，所使用之ICC色彩描述檔的名稱。
+description: 灰度預設輸入顏色配置檔案。 指定用於未嵌入顏色配置檔案的灰度源影像以及使用各種「影像服務」命令（如color=）指定的某些灰度顏色值的ICC顏色配置檔案的名稱。
 solution: Experience Manager
 title: IccProfileSrcGray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 54290f71-36b2-4b37-ac04-4fe85c1f34ab
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '160'
 ht-degree: 2%
 
 ---
 
-
 # IccProfileSrcGray{#iccprofilesrcgray}
 
-灰階預設輸入色彩描述檔。 指定不嵌入色彩描述檔的灰階來源影像，以及使用各種「影像伺服」指令（例如color=）指定的特定灰階色彩值，所使用之ICC色彩描述檔的名稱。
+灰度預設輸入顏色配置檔案。 指定用於未嵌入顏色配置檔案的灰度源影像以及使用各種「影像服務」命令（如color=）指定的某些灰度顏色值的ICC顏色配置檔案的名稱。
 
 ## 屬性 {#section-8cbb316df6eb463aaca7b308d3568086}
 
-文字字串。 如果指定，則必須是此映像目錄或預設目錄的ICC配置檔案映射中的有效`icc::Name`值，或是相對於`attribute::RootPath`的檔案路徑。 參考的ICC配置檔案必須是灰度配置檔案。
+文字字串。 如果指定，則必須是此影像目錄或預設目錄的ICC配置檔案映射中的有效`icc::Name`值，或相對於`attribute::RootPath`的檔案路徑。 引用的ICC配置檔案必須是灰度配置檔案。
 
 ## 預設 {#section-bcc7250715884412bd0780f60d1cce7b}
 
-如果未定義或為空，則繼承自`default::IccProfileSrcGray`。 如果`attribute::IccProfileSrcGray`未解析為有效的配置式，則改用`attribute::IccProfileGray`。
+如果未定義或為空，則從`default::IccProfileSrcGray`繼承。 如果`attribute::IccProfileSrcGray`未解析為有效的設定檔，則會改用`attribute::IccProfileGray`。
 
 ## 另請參閱 {#section-e429b76daf2e4b92b326db2b0bcbd0c5}
 
