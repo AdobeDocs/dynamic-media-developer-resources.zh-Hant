@@ -1,25 +1,24 @@
 ---
-description: 設定一或多家公司的使用者會籍。
+description: 在一或多個公司中設定使用者的會籍。
 solution: Experience Manager
-title: setCompanyMembership
+title: setCompanyMembersip
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 43144c75-1d83-4e1d-8319-c3275d349a2f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '81'
 ht-degree: 14%
 
 ---
 
+# setCompanyMembersip{#setcompanymembership}
 
-# setCompanyMembership{#setcompanymembership}
-
-設定一或多家公司的使用者會籍。
+在一或多個公司中設定使用者的會籍。
 
 語法
 
-## 授權用戶類型{#section-0cbcc78cfee64c2baf66f29cce6d0a65}
+## 授權的使用者類型 {#section-0cbcc78cfee64c2baf66f29cce6d0a65}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -32,16 +31,16 @@ ht-degree: 14%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:sting` | 否 | 使用者控制代碼。 |
-| `*`membershArray`*` | `types:CompanyMembershipUpdateArray` | 是 | 眾多公司。 |
+| `*`userHandle`*` | `xsd:sting` | 否 | 用戶句柄。 |
+| `*`membershipArray`*` | `types:CompanyMembershipUpdateArray` | 是 | 公司的陣列。 |
 
 **輸出(setCompanyMembershipParam)**
 
-IPS API不會傳回此作業的回應。
+IPS API不會針對此操作傳回回應。
 
 ## 範例 {#section-862c0cc32ce0407ab248028e690a8386}
 
-此程式碼範例會將使用者新增至公司。 如果需要，在公司處理陣列中指定多家公司。
+此程式碼範例會新增使用者至公司。 如果需要，請在公司中指定多家公司處理陣列。
 
 **請求**
 
