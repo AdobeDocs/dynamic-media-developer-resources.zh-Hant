@@ -1,21 +1,20 @@
 ---
-description: ICC描述檔資產的屬性。
+description: ICC配置檔案資產的屬性。
 solution: Experience Manager
 title: IccProfileInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 10e04ec2-14af-4d15-9970-f47a2407d077
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '41'
+source-wordcount: '39'
 ht-degree: 12%
 
 ---
 
-
 # IccProfileInfo{#iccprofileinfo}
 
-ICC描述檔資產的屬性。
+ICC配置檔案資產的屬性。
 
 語法
 
@@ -25,5 +24,4 @@ ICC描述檔資產的屬性。
 |---|---|---|
 | `*`originalPath`*` | `xsd:string` | ICC配置檔案路徑。 |
 | `*`originalFile`*` | `xsd:string` | 原始ICC配置檔案的名稱。 |
-| `*`fileSize`*` | `xsd:int` | ICC描述檔大小。 |
-
+| `*`fileSize`*` | `xsd:int` | ICC配置檔案大小。 |
