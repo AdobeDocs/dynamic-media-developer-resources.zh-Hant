@@ -1,19 +1,18 @@
 ---
 description: 要從資產刪除的中繼資料。
 solution: Experience Manager
-title: 中繼資料刪除
-feature: Dynamic Media Classic,SDK/API,Metadata
+title: MetadataDelete
+feature: Dynamic Media Classic,SDK/API，中繼資料
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: bc53bf99-bc57-4329-a213-0f8e365abe97
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '34'
-ht-degree: 20%
+source-wordcount: '32'
+ht-degree: 21%
 
 ---
 
-
-# 中繼資料Delete{#metadatadelete}
+# MetadataDelete{#metadatadelete}
 
 要從資產刪除的中繼資料。
 
@@ -37,4 +36,3 @@ ht-degree: 20%
   </tr> 
  </tbody> 
 </table>
-
