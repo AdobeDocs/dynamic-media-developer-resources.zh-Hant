@@ -5,9 +5,9 @@ title: setPassword
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
 exl-id: e8d95b55-0a97-4887-b711-7be99833c389
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: a05fb31b7c7515492723af63914d3e9999e65e9b
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '233'
 ht-degree: 7%
 
 ---
@@ -67,7 +67,7 @@ ht-degree: 7%
         <li id="li_6E3F084100104F2CBCF130EF8852C7B7">小寫英文字元。 例如<span class="codeph"> a b c d e </span>等 </li> 
         <li id="li_1FDED8D7348842BC857320D797D41217">大寫英文字元。 例如， <span class="codeph"> A B C D E </span>等。 </li> 
         <li id="li_C3C4D5412AA749F3B78F37B2B696CF80">數量. 例如， <span class="codeph"> 1 2 3 4 5 </span>等。 </li> 
-        <li id="li_2730798F26E74B878BEDE510CD06D8DD">特殊符號字元。 例如，您可以使用下列任一項：<span class="codeph"> ' ~ !@ # $ % ^ *(_ + - = { }) | [ ] &amp; \ :" ;「 &lt; &gt; ?, / </span> </li> 
+        <li id="li_2730798F26E74B878BEDE510CD06D8DD">特殊符號字元。 例如，您可以使用下列任一項：<span class="codeph"> &amp;grave;~ !@ # $ % ^ *(_ + - = { }) | [ ] &amp; \ :" ;「 &lt; &gt; ?, / </span> </li> 
        </ul> </li> 
      </ul> </p> </td> 
   </tr> 
