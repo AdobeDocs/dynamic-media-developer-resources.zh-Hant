@@ -1,21 +1,20 @@
 ---
-description: Video360檢視器的設定屬性。
+description: Video360查看器的配置屬性。
 solution: Experience Manager
 title: Video360Player.waiticon
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+feature: Dynamic Media Classic，檢視器，SDK/API,360 VR影片
 role: Developer,Business Practitioner
 exl-id: 203dc041-c399-4668-b9f4-44241feb5a82
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 23%
+source-wordcount: '35'
+ht-degree: 25%
 
 ---
 
 # Video360Player.waiticon{#video-player-waiticon}
 
-Video360檢視器的設定屬性。
+Video360查看器的配置屬性。
 
 `[Video360Player.|<containerId>_video360Player.]waiticon=0|1`
 
