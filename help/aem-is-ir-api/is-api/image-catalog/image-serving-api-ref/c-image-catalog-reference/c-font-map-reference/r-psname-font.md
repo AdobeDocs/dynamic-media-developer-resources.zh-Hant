@@ -1,27 +1,26 @@
 ---
-description: Postscript字型名稱。 Postscript字型名稱。
+description: Postscript字型面名。 Postscript字型面名。
 solution: Experience Manager
 title: PsName
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 8d48dead-e544-4fd1-8e8a-70933389b668
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '69'
 ht-degree: 8%
 
 ---
 
-
 # PsName{#psname}
 
-Postscript字型名稱。 Postscript字型名稱。
+Postscript字型面名。 Postscript字型面名。
 
-目前，只有FXG轉譯器可依字型的Postscript名稱來參考字型。
+目前，只有FXG轉譯器可以通過其Postscript名稱引用字型。
 
 ## 屬性 {#section-a560f8bfc69a4d88aeb0b53c1625153b}
 
-文字字串。 選填。字型映射的次要索引鍵。 相同的`font::PsName`值只能出現在相同的字型對應檔案中一次。
+文字字串。 選填。字型映射的次索引鍵。 相同的`font::PsName`值只能在同一字型映射檔案中出現一次。
 
 ## 預設 {#section-c5903d5340e740b69ec0150d2303a893}
 
