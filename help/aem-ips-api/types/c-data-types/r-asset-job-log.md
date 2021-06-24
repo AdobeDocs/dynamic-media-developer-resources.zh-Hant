@@ -1,21 +1,20 @@
 ---
-description: 與特定資產相關聯的作業日誌條目的詳細資訊。 getAssetJobLogs傳回的資料。
+description: 與特定資產相關聯的作業記錄項目詳細資訊。 getAssetJobLogs傳回的資料。
 solution: Experience Manager
 title: AssetJobLog
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API，資產管理
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 2c8ebec2-a664-46cd-b843-9893bfa0a9d1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 14%
+source-wordcount: '112'
+ht-degree: 15%
 
 ---
 
-
 # AssetJobLog{#assetjoblog}
 
-與特定資產相關聯的作業日誌條目的詳細資訊。 getAssetJobLogs傳回的資料。
+與特定資產相關聯的作業記錄項目詳細資訊。 getAssetJobLogs傳回的資料。
 
 語法
 
@@ -33,7 +32,7 @@ ht-degree: 14%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> jobHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> 工作代理。 </td> 
+   <td colname="col3"> 工作處理。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> jobName</span> </span> </td> 
@@ -43,17 +42,17 @@ ht-degree: 14%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> logMessage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">作業日誌中的消息。 <p><span class="codeph"> logMessageresponse</span> 欄位會根據authHeaderlocale欄位 <span class="codeph"> </span> 進行本地化。 </p></td> 
+   <td colname="col3">作業日誌中的消息。 <p><span class="codeph"> </span> logMessageresponse欄位是根據authHeaderlocale欄 <span class="codeph"> </span> 位本地化。 </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> logType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> 日誌條目中的作業類型。 </td> 
+   <td colname="col3"> 記錄項目中的作業類型。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> submitUserEmail</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> 提交工作的使用者電子郵件。 </td> 
+   <td colname="col3"> 提交作業的使用者電子郵件。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> logDate</span> </span> </td> 
@@ -63,8 +62,7 @@ ht-degree: 14%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> auxArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：JobLogDetailArray</span> </td> 
-   <td colname="col3"> 每個作業日誌的輔助作業日誌消息陣列。 </td> 
+   <td colname="col3"> 每個作業日誌的輔助作業日誌消息的陣列。 </td> 
   </tr> 
  </tbody> 
 </table>
-
