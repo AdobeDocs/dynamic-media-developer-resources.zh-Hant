@@ -2,16 +2,15 @@
 description: Swatches.iscommand
 solution: Experience Manager
 title: Swatches.iscommand
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic，檢視器，SDK/API，混合媒體集
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 3336c4d2-0d1d-4c6f-8163-8a84a8be8c20
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 6%
+source-wordcount: '70'
+ht-degree: 7%
 
 ---
-
 
 # Swatches.iscommand{#swatches-iscommand}
 
@@ -21,7 +20,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isCommand</span> </span> </p> </td> 
-   <td colname="col2"> <p> 套用至所有色票的「影像伺服」命令字串。 如果在URL中指定，請確定您將所有<span class="codeph"> &amp;</span>和<span class="codeph"> =</span>的項目分別HTTP編碼為<span class="codeph"> %26</span>和<span class="codeph"> %3D</span>。 </p> <p> <p>注意： 不支援影像大小調整指令。 </p> </p> </td> 
+   <td colname="col2"> <p> 應用於所有色板的「影像伺服」命令字串。 如果已在URL中指定，請務必將<span class="codeph"> &amp;</span>和<span class="codeph"> =</span>的所有出現次數分別以<span class="codeph"> %26</span>和<span class="codeph"> %3D</span>編碼。 </p> <p> <p>注意： 不支援影像大小調整操作命令。 </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
