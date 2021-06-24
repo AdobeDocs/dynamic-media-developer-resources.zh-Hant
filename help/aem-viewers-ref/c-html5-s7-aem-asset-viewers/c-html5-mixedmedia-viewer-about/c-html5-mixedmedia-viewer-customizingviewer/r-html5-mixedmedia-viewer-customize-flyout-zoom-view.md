@@ -1,27 +1,26 @@
 ---
-description: 在內嵌縮放模式中，主視圖由靜態影像、在彈出視圖中顯示在靜態影像上的縮放影像以及顯示在靜態影像頂部的提示消息組成。
+description: 在內聯縮放模式中，主視圖由靜態影像、彈出視圖中顯示的縮放影像和顯示在靜態影像頂部的提示消息組成。
 solution: Experience Manager
 title: 彈出縮放檢視
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic，檢視器，SDK/API，混合媒體集
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 46c91d1f-5809-4270-a06d-5068d20a6341
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '254'
 ht-degree: 5%
 
 ---
 
-
 # 彈出縮放檢視{#flyout-zoom-view}
 
-在內嵌縮放模式中，主視圖由靜態影像、在彈出視圖中顯示在靜態影像上的縮放影像以及顯示在靜態影像頂部的提示消息組成。
+在內聯縮放模式中，主視圖由靜態影像、彈出視圖中顯示的縮放影像和顯示在靜態影像頂部的提示消息組成。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**主檢視器區域的CSS屬性**
+**主查看器區域的CSS屬性**
 
-主檢視的外觀是使用下列CSS類別選擇器來控制：
+主要檢視的外觀由下列CSS類別選取器控制：
 
 ```
 .s7mixedmediaviewer .s7flyoutzoomview
@@ -36,13 +35,13 @@ ht-degree: 5%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景顏色  </span> </p> </td> 
    <td colname="col2"> <p> 主視圖的背景顏色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例——使主視圖透明：
+範例 — 若要讓主檢視透明：
 
 ```
 .s7mixedmediaviewer .s7flyoutzoomview { 
@@ -52,13 +51,13 @@ ht-degree: 5%
 
 <!--<a id="section_FD07AB77593748F99DC6C42ED20A61EC"></a>-->
 
-提示訊息的外觀是使用下列CSS類別選擇器來控制：
+提示訊息的外觀由下列CSS類別選取器控制：
 
 ```
 .s7mixedmediaviewer .s7flyoutzoomview .s7tip
 ```
 
-您可以透過CSS來設定字型樣式、大小外觀和垂直偏移。 不過，水準對齊方式是由檢視器邏輯管理。 不支援使用`left`或`right`屬性，透過CSS來覆寫它。
+您可以透過CSS來設定字型樣式、大小外觀和垂直偏移。 不過，水準對齊方式是由檢視器邏輯管理。 不支援使用`left`或`right`屬性透過CSS覆寫它。
 
 **提示訊息的CSS屬性**
 
@@ -71,7 +70,7 @@ ht-degree: 5%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景顏色  </span> </p> </td> 
    <td colname="col2"> <p>訊息背景填色顏色。 </p> </td> 
   </tr> 
   <tr> 
@@ -91,23 +90,23 @@ ht-degree: 5%
    <td colname="col2"> <p>字型大小. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字型系列  </span> </p> </td> 
    <td colname="col2"> <p>字型系列。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 不透明度  </span> </p> </td> 
-   <td colname="col2"> <p> 訊息背景不透明度。 </p> </td> 
+   <td colname="col2"> <p> 消息背景不透明度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 填補 </span> </p> </td> 
-   <td colname="col2"> <p> 在消息文本週圍填充。 </p> </td> 
+   <td colname="col2"> <p> 在訊息文字周圍填補。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-提示訊息可以本地化。 如需詳細資訊，請參閱[使用者介面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)。
+提示訊息可本地化。 如需詳細資訊，請參閱[使用者介面元素本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) 。
 
-示例——要設定半透明的尖端消息，其中顯示白色的Arial 12像素字型、距主視圖底部50像素的偏移、填充和圓角邊框：
+示例 — 要設定半透明的尖端消息，其字型為白色Arial 12px，距主視圖底部50像素偏移，邊框間距和圓角：
 
 ```
 .s7mixedmediaviewer .s7flyoutzoomview .s7tip { 
@@ -125,4 +124,3 @@ opacity: 0.5;
 filter: alpha(opacity = 50); 
 }
 ```
-
