@@ -4,14 +4,13 @@ solution: Experience Manager
 title: batchSetIccProfileFields
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: d10a30ca-afa7-4ef0-8cef-0329b0068bf3
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 13%
+source-wordcount: '142'
+ht-degree: 14%
 
 ---
-
 
 # batchSetIccProfileFields{#batchseticcprofilefields}
 
@@ -19,7 +18,7 @@ ht-degree: 13%
 
 語法
 
-## 授權用戶類型{#section-f6f7caf9434b4f469518dab64b76c0f4}
+## 授權的使用者類型 {#section-f6f7caf9434b4f469518dab64b76c0f4}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,18 +33,18 @@ ht-degree: 13%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 包含ICC設定檔的公司控制代碼。 |
-| `*`更新陣列`*` | `xsd:string` | 是 | ICC設定檔更新陣列。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 處理包含ICC配置檔案的公司。 |
+| `*`更新陣列`*` | `xsd:string` | 是 | ICC配置檔案更新的陣列。 |
 
 **輸出(batchSetIccProfileFields)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | 是 | 成功設定ICC配置檔案欄位的數量。 |
-| `*`warningCount`*` | `xsd:int` | 是 | 嘗試設定ICC配置檔案欄位時生成的警告數。 |
+| `*`successCount`*` | `xsd:int` | 是 | 已成功設定ICC配置檔案欄位的數量。 |
+| `*`warningCount`*` | `xsd:int` | 是 | 操作嘗試設定ICC配置檔案欄位時生成的警告數。 |
 | `*`errorCount`*` | `xsd:int` | 是 | 嘗試設定ICC配置檔案欄位時生成的錯誤數。 |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 與資產相關的詳細資訊陣列，當操作嘗試套用更新時，這些資產會產生警告。 |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 當操作嘗試套用更新時，與產生錯誤的資產相關的詳細資訊陣列。 |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 與資產相關聯的詳細資訊陣列，當操作嘗試套用更新時，資產會產生警告。 |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 與嘗試套用更新時產生錯誤之資產相關聯的詳細資訊陣列。 |
 
 ## 範例 {#section-5dc90cfbd9b1411485b44859032f7cb9}
 
@@ -74,4 +73,3 @@ ht-degree: 13%
    <errorCount>0</errorCount>
 </batchSetIccProfileFieldsReturn>
 ```
-
