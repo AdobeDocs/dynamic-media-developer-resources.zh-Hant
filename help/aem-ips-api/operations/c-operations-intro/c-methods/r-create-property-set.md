@@ -1,25 +1,24 @@
 ---
-description: 屬性集是應用程式特定的名稱——值對集，可根據屬性集類型將其附加到各種IPS對象。 如果屬性集類型不允許將多個集附加到對象(PropertySetType/allowMultipleisfalse)，並且對象已具有相同類型的關聯集，則新集將替換現有集。
+description: 屬性集是特定於應用程式的名稱值對集，可以根據屬性集類型附加到各種IPS對象。 如果屬性集類型不允許將多個集附加到對象(PropertySetType/allowMultipleisfalse)，並且該對象已具有相同類型的關聯集，則新集將替換現有集。
 solution: Experience Manager
 title: createPropertySet
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
 exl-id: e9f85e65-4a2f-4b82-b7b8-d0d60b8345cd
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '220'
 ht-degree: 8%
 
 ---
 
 # createPropertySet{#createpropertyset}
 
-屬性集是應用程式特定的名稱——值對集，可根據屬性集類型將其附加到各種IPS對象。 如果屬性集類型不允許將多個集附加到對象(PropertySetType/allowMultipleisfalse)，並且對象已具有相同類型的關聯集，則新集將替換現有集。
+屬性集是特定於應用程式的名稱值對集，可以根據屬性集類型附加到各種IPS對象。 如果屬性集類型不允許將多個集附加到對象(PropertySetType/allowMultipleisfalse)，並且該對象已具有相同類型的關聯集，則新集將替換現有集。
 
 語法
 
-## 授權用戶類型{#section-f9b6187ba636475787c997fc27bb192a}
+## 授權的使用者類型 {#section-f9b6187ba636475787c997fc27bb192a}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -46,7 +45,7 @@ ht-degree: 8%
 
 ## 範例 {#section-4e1f5b2883664bc88f590fcd253df22b}
 
-此代碼示例建立包含屬性名稱和值的屬性集。 響應將返回新屬性集的句柄。
+此代碼示例建立包含屬性名稱和值的屬性集。 回應會傳回新屬性集的控制代碼。
 
 **請求**
 
