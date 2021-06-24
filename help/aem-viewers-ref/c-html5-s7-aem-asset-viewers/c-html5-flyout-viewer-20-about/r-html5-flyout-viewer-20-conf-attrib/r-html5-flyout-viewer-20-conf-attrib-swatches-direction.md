@@ -2,16 +2,15 @@
 description: Swatches.direction
 solution: Experience Manager
 title: Swatches.direction
-feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
+feature: Dynamic Media Classic，檢視器，SDK/API,Flyout
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: bdc3e5a8-e7cc-4e7b-98e7-30c0d4496abe
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '63'
 ht-degree: 6%
 
 ---
-
 
 # Swatches.direction{#swatches-direction}
 
@@ -21,7 +20,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|left|right  </span> </p> </td> 
-   <td colname="col2"> <p> 指定在視圖中填色色色票的方式。 </p> <p> <span class="codeph"> 左 </span> 側設定由左至右的填色順序； <span class="codeph"> 右 </span> 側反轉順序，以便視圖以從右到左、從上到下的方向填充。設定<span class="codeph"> auto </span>時，當locale設為<span class="codeph"> "ja" </span>時，元件會套用右模式，否則會使用left。 </p> </td> 
+   <td colname="col2"> <p> 指定色票在檢視中的填入方式。 </p> <p> <span class="codeph"> 左 </span> 右設定填充順序； <span class="codeph"> 右 </span> 側反轉順序，使視圖以從右到左、從上到下的方向填充。設定<span class="codeph"> auto </span>時，當區域設定設定為<span class="codeph"> "ja" </span>時，元件將應用右模式，否則將使用左模式。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
