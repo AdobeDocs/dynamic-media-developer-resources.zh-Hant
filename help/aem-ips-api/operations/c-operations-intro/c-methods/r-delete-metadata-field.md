@@ -4,14 +4,13 @@ solution: Experience Manager
 title: deleteMetadataField
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 1922fc1b-2abc-4d31-985a-65c788af4d46
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '103'
 ht-degree: 10%
 
 ---
-
 
 # deleteMetadataField{#deletemetadatafield}
 
@@ -19,7 +18,7 @@ ht-degree: 10%
 
 語法
 
-## 授權用戶類型{#section-63e7d17f4b434995a872838bfff7f9ff}
+## 授權的使用者類型 {#section-63e7d17f4b434995a872838bfff7f9ff}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,16 +30,16 @@ ht-degree: 10%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 包含要刪除之中繼資料欄位之公司的控制代碼。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 包含要刪除的中繼資料欄位之公司的控制代碼。 |
 | `*`fieldHandle`*` | `xsd:string` | 是 | 要刪除的元資料欄位的句柄。 |
 
 **輸出(deleteMetadataFieldParam)**
 
-IPS API不會傳回此作業的回應。
+IPS API不會針對此操作傳回回應。
 
 ## 範例 {#section-e1c474ea91a040609ecd7c2400f4fa3c}
 
-此程式碼範例會刪除公司的中繼資料欄位。 它使用公司句柄和元資料句柄作為`deleteMetadataFieldParam`中傳遞到IPS Web伺服器的欄位來執行此操作。
+此程式碼範例會刪除公司的中繼資料欄位。 它使用公司句柄和元資料句柄作為`deleteMetadataFieldParam`中傳遞到IPS Web服務伺服器的欄位來執行此操作。
 
 **請求**
 
