@@ -1,28 +1,27 @@
 ---
-description: 某些應用可能需要對不同種類的材料使用不同的照明圖。
+description: 某些應用可能要求對不同種類的材料進行不同的照明圖。
 solution: Experience Manager
-title: 使用多個照明地圖
+title: 使用多個照明圖
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: a6e0be23-8b8a-4b60-aac1-c692319a0bce
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '177'
 ht-degree: 0%
 
 ---
 
+# 使用多個照明圖{#using-multiple-illumination-maps}
 
-# 使用多個照明映射{#using-multiple-illumination-maps}
+某些應用可能要求對不同種類的材料進行不同的照明圖。
 
-某些應用可能需要對不同種類的材料使用不同的照明圖。
+每個暈映最多可製作三張照明圖。 使用`illum=`和`gloss=`命令選擇渲染操作的照明映射。
 
-每個暈映最多可編寫三張照明地圖。 使用`illum=`和`gloss=`命令選擇用於渲染操作的照明映射。
+**預** 設選 `illum=` 擇如 `gloss=` 果未指定或，則渲染器將使用第一個創作的照明圖（通常映射A，稱為「平整」照明圖）。
 
-**預設** 選擇如 `illum=` 果未 `gloss=` 指定或未指定，轉譯器將使用第一個編寫的照明圖（通常為映射A，也稱為「平面」照明圖）。
+**自動選`gloss=`** 擇如 `illum=` 果未指定或設定為–1，則渲染器將指定值與與暈 `gloss=` 鏡中每個照明映射關聯的光澤值進行比較，並選擇其光澤值最接近指定的照明映 `gloss=`射。
 
-**自動選`gloss=`** 擇：如 `illum=` 果未指定或設為-1，渲染器會將指定值與暈映中每個照明映射相關聯的光澤值進行比較，並選擇其光澤值最接近指定的照明映射 `gloss=`  `gloss=`。
+**顯式選`illum=`** 擇如 `illum=` 果指定並設定為0、1或2，則渲染器將使用相應的照明圖； `gloss=` 會忽略，以便選取照明圖。
 
-**明確選`illum=`** 擇如 `illum=` 果指定為0、1或2，則渲染器將使用對應的照明圖； `gloss=` 會忽略，以便選取照明地圖。
-
-如果暈映只包含一個照明映射，則渲染器將使用該映射並忽略`illum=`和`gloss=`命令。
+如果暈映僅包含一個照明映射，則渲染器將使用該映射並忽略`illum=`和`gloss=`命令。
