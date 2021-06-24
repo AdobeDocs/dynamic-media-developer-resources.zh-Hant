@@ -4,24 +4,23 @@ solution: Experience Manager
 title: server.xml
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 72b343ba-0d4b-405a-ace3-d44c4d4c44b0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '89'
 ht-degree: 0%
 
 ---
-
 
 # server.xml{#server-xml}
 
 包含平台伺服器設定。
 
-修改此XML檔案時，請務必保留有效的XML語法，否則平台伺服器可能無法啟動。
+修改此XML檔案時，必須小心維護有效的XML語法，否則平台伺服器可能無法啟動。
 
-要使更改生效，必須在編輯此檔案後重新啟動平台伺服器。
+要使更改生效，必須在編輯此檔案後重新啟動Platform Server。
 
-下圖說明在此檔案中可更改哪些設定。 請參閱本文稍早的相應章節，以取得這些設定的說明。 請注意，此圖表不是[!DNL server.xml]的完整表示。
+下圖說明了可以在此檔案中更改的設定。 請參閱本檔案前面的對應章節，以了解這些設定的說明。 請注意，此圖表不是[!DNL server.xml]的完整表示。
 
 ```
 <Server>
@@ -41,4 +40,3 @@ ht-degree: 0%
    </Service>
 </Server>
 ```
-
