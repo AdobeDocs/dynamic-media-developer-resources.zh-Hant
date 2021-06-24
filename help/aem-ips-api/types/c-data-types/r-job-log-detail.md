@@ -1,19 +1,18 @@
 ---
 description: 作業日誌資訊。
 solution: Experience Manager
-title: JobLogDetail
+title: 作業日誌詳細資訊
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: fe41a48a-4671-4179-a128-aadc7bc0683b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '66'
 ht-degree: 7%
 
 ---
 
-
-# JobLogDetail{#joblogdetail}
+# 作業日誌詳細資訊{#joblogdetail}
 
 作業日誌資訊。
 
@@ -25,8 +24,7 @@ ht-degree: 7%
 |---|---|---|
 | `*`logMessage`*` | `xsd:string` | 作業日誌中的消息。 |
 | `*`logType`*` | `xsd:string` | 作業日誌檔案類型。 |
-| `*`assetName`*` | `xsd:string` | 作業記錄檔中的資產名稱（選用）。 |
-| `*`assetType`*` | `xsd:string` | 資產類型選擇。 |
-| `*`assetHandle`*` | `xsd:string` | 作業日誌中引用的資產句柄。 |
+| `*`assetName`*` | `xsd:string` | 作業記錄中的資產名稱（選用）。 |
+| `*`assetType`*` | `xsd:string` | 選擇資產類型。 |
+| `*`assetHandle`*` | `xsd:string` | 作業記錄中參考的資產處理代碼。 |
 | `*`auxArray`*` | `types:JobLogDetailAuxArray` | 提供上述五種作業日誌類型以外的其他詳細作業日誌資訊。 |
-
