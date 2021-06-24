@@ -4,14 +4,13 @@ solution: Experience Manager
 title: 替代變數
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 539d8863-e94d-45dc-bb8c-3db7bead0051
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
-
 
 # 替代變數{#substitution-variables}
 
@@ -25,13 +24,12 @@ ht-degree: 0%
   <td class="stentry"> <p>變數名稱。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 值  </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> value  </span> </span> </p> </td> 
   <td class="stentry"> <p>變數要設定的值（字串）。 </p> </td> 
  </tr> 
 </table>
 
 * 變數定義和參考可能發生在請求URL的查詢部分。
-* 變數定義如下，類似於其他IS命令；前導&#39;$&#39;會將命令識別為變數定義。
-* 變數名稱`*`var`*`區分大小寫，且可由字母、數字、&#39;-&#39;和&#39;_&#39;的任意組合組成。
-* 重要值必須是單一傳遞URL編碼，才能安全傳輸HTTP。
-
+* 變數定義如上，與其他IS命令類似；前導「$」將命令標識為變數定義。
+* 變數名稱`*`var`*`區分大小寫，可能包含字母、數字、「 — 」和「_」的任意組合。
+* 重要值必須是單通URL編碼，才能安全HTTP傳輸。
