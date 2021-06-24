@@ -4,14 +4,13 @@ solution: Experience Manager
 title: XmpKeywords
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: f1ad16c8-cba2-4ef0-9558-6a4086c71393
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 18%
+source-wordcount: '72'
+ht-degree: 19%
 
 ---
-
 
 # XmpKeywords{#xmpkeywords}
 
@@ -33,8 +32,7 @@ ht-degree: 18%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 項目</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>以逗號分隔的關鍵字清單，可合併至<span class="codeph"> dc:subject=</span>屬性節XMP點。 如果逗號出現在任何個別值中，則需要以反斜線(\)字元逸出逗號。 如果是常值反斜線，則使用一般的雙反斜線 (\\)。 </p> </td> 
+   <td colname="col3"> <p>合併至<span class="codeph"> dc:subject=</span> XMP屬性節點的逗號分隔關鍵字清單。 如果逗號出現在任何個別值中，則需以反斜線(\)字元逸出。 如果是常值反斜線，則使用一般的雙反斜線 (\\)。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
