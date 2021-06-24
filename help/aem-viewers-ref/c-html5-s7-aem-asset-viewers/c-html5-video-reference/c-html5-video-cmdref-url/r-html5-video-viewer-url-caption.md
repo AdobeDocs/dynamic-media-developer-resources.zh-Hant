@@ -1,25 +1,24 @@
 ---
 description: 視訊檢視器的URL命令。
 solution: Experience Manager
-title: 標題
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+title: 字幕
+feature: Dynamic Media Classic，檢視器， SDK/API，影片
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: a9af3335-ae18-4399-9014-47ec0306a087
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '203'
 ht-degree: 8%
 
 ---
 
-
-# 標題{#caption}
+# 字幕{#caption}
 
 視訊檢視器的URL命令。
 
 ` caption= *`file`*[,0|1]`
 
-檢視器支援透過代管WebVTT檔案的隱藏字幕。 不支援重疊的提示和區域。 支援的提示定位運算子包括：
+檢視器透過托管WebVTT檔案支援隱藏式字幕。 不支援重疊的提示和區域。 支援的提示定位操作器包括：
 
 <table id="table_62D89A06EC9E4E7983D1F26A2C85A621"> 
  <thead> 
@@ -33,32 +32,32 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> A </p> </td> 
-   <td colname="col2"> <p>文本對齊 </p> </td> 
+   <td colname="col2"> <p>文字對齊 </p> </td> 
    <td colname="col3"> <p><span class="codeph"> left|right|middle|start|end</span> </p> </td> 
-   <td colname="col4"> <p> 控制文字對齊。 </p> <p>預設值為<span class="codeph"> middle</span>。 </p> </td> 
+   <td colname="col4"> <p> 控制文本對齊方式。 </p> <p>預設值為<span class="codeph"> middle</span>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>T </p> </td> 
    <td colname="col2"> <p>文字位置 </p> </td> 
    <td colname="col3"> <p> 0%-100% </p> </td> 
-   <td colname="col4"> <p> 在VideoPlayer元件中插入標題文字開頭的百分比。 </p> <p>預設值為0%。 </p> </td> 
+   <td colname="col4"> <p> VideoPlayer元件中字幕文字開頭的插入百分比。 </p> <p>預設為0%。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>S </p> </td> 
    <td colname="col2"> <p>行大小 </p> </td> 
    <td colname="col3"> <p> 0%-100% </p> </td> 
-   <td colname="col4"> <p> 用於標題的視訊寬度百分比。 </p> <p>預設值為100%。 </p> </td> 
+   <td colname="col4"> <p> 用於字幕的視頻寬度百分比。 </p> <p>預設為100%。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>L </p> </td> 
    <td colname="col2"> <p>行位置 </p> </td> 
    <td colname="col3"> <p> 0%-100%|整數 </p> </td> 
-   <td colname="col4"> <p> 確定頁面上的行位置。 </p> <p>如果它表示為整數（無百分比符號），則表示顯示文本的頂部的行數。 </p> <p>如果是百分比（百分比符號是最後一個字元），則標題文字會顯示在顯示區域的百分比下。 </p> <p>預設值為100%。 </p> </td> 
+   <td colname="col4"> <p> 決定頁面上的行位置。 </p> <p>如果以整數（無百分比符號）表示，則為顯示文字的上方的行數。 </p> <p>如果是百分比（百分比符號是最後一個字元），則字幕文本將在顯示區域下顯示該百分比。 </p> <p>預設為100%。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-WebVTT檔案中的其他WebVTT功能不受支援，但不應中斷字幕功能。
+WebVTT檔案中存在的其他WebVTT功能不受支援，但不應中斷字幕。
 
 <table id="table_A5BB1C08DA4B425DBD0356C7D3693E75"> 
  <tbody> 
@@ -68,7 +67,7 @@ WebVTT檔案中的其他WebVTT功能不受支援，但不應中斷字幕功能�
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 指定預設標題狀態（啟用為<span class="codeph"> 1</span>）。 </p> </td> 
+   <td colname="col2"> <p> 指定預設字幕狀態（啟用為<span class="codeph"> 1</span>）。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -86,4 +85,3 @@ WebVTT檔案中的其他WebVTT功能不受支援，但不應中斷字幕功能�
 ```
 caption=Scene7SharedAssets/adobe_qbc_final_cc,1
 ```
-
