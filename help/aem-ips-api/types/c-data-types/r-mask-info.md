@@ -1,21 +1,20 @@
 ---
-description: 遮色片檔案屬性。
+description: 遮罩檔案屬性。
 solution: Experience Manager
-title: 遮色片資訊
+title: 掩碼資訊
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 91e760c5-2c6e-47e6-9429-d37ba9d84cdb
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '28'
-ht-degree: 17%
+source-wordcount: '26'
+ht-degree: 19%
 
 ---
 
+# 掩碼資訊{#maskinfo}
 
-# MaskInfo{#maskinfo}
-
-遮色片檔案屬性。
+遮罩檔案屬性。
 
 語法
 
@@ -23,6 +22,5 @@ ht-degree: 17%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| `*`maskPath`*` | `xsd:string` | 遮色片檔案路徑。 |
-| `*`maskFile`*` | `xsd:string` | 遮色片檔案名稱。 |
-
+| `*`maskPath`*` | `xsd:string` | 遮罩檔案路徑。 |
+| `*`maskFile`*` | `xsd:string` | 掩碼檔案名。 |
