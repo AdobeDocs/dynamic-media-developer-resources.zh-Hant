@@ -1,22 +1,21 @@
 ---
-description: 映像渲染配置設定儲存在平台伺服器配置檔案中。
+description: 影像呈現配置設定儲存在Platform Server配置檔案中。
 solution: Experience Manager
-title: 配置檔案
+title: 組態檔
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 44ffebae-4933-455b-a902-4f6e7bb69184
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
 
+# 組態檔{#configuration-files}
 
-# 配置檔案{#configuration-files}
+影像呈現配置設定儲存在Platform Server配置檔案中。
 
-映像渲染配置設定儲存在平台伺服器配置檔案中。
+平台伺服器配置檔案位於[!DNL *[!DNL install_root]*/ImageServing/conf/PlatformServer.conf]。 此檔案是JAVA屬性檔案。 請務必遵循適當的慣例，否則Platform伺服器可能無法啟動。 在Windows檔案路徑中，必須使用雙反斜線(`\\`)或單正斜線(/)，而不是使用簡單反斜線(\)，因為反斜線在此類型檔案中被用作逸出字元。 該檔案包含未記錄的屬性，這些屬性供內部伺服器使用，不得修改。
 
-平台伺服器配置檔案位於[!DNL *[!DNL install_root]*/ImageServing/conf/PlatformServer.conf]。 此檔案是JAVA屬性檔案。 必須小心，以遵循適當的慣例，否則平台伺服器可能無法啟動。 在Windows檔案路徑中，必須使用雙反斜線(`\\`)或單正斜線(/)，而非簡單反斜線(\)，因為反斜線是此類檔案中的轉義字元。 該檔案包含未記錄的屬性，這些屬性供內部伺服器使用，不得修改。
-
-請參閱[組態設定參考](../../../../../ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuration-settings-reference/c-ir-configuration-settings-reference.md#concept-6947a512d4c94e9fb8a71b80243fee81)，以取得所有影像演算組態設定的清單。
+如需所有影像呈現組態設定的清單，請參閱[組態設定參考](../../../../../ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuration-settings-reference/c-ir-configuration-settings-reference.md#concept-6947a512d4c94e9fb8a71b80243fee81) 。
