@@ -2,28 +2,27 @@
 description: 視訊影像檢視器的JavaScript API參考。
 solution: Experience Manager
 title: 處置
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+feature: Dynamic Media Classic，檢視器， SDK/API，互動式影像
 role: Developer,Business Practitioner
 exl-id: 8af8506e-6b29-45ea-a70b-3eb3b2995047
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '134'
 ht-degree: 2%
 
 ---
 
-# dispose{#dispose}
+# 處置{#dispose}
 
 視訊影像檢視器的JavaScript API參考。
 
 `dispose()`
 
-借由釋放檢視器邏輯使用的所有資源，並刪除檢視器在執行時期中建立的所有內部物件和元件，來設定此檢視器例項。
+釋出檢視器邏輯使用的所有資源，並刪除檢視器在執行階段建立的所有內部物件和元件，以處理此檢視器例項。
 
-網頁程式碼也應刪除檢視器例項變數，以便從網頁瀏覽器記憶體中完全移除檢視器。
+網頁程式碼也應刪除檢視器例項變數，才能從網頁瀏覽器記憶體中完全移除檢視器。
 
-如果網頁程式碼已直接在檢視器SDK元件上註冊事件偵聽器，檢視器會使用或儲存這些元件的外部參考，則這類監聽器必須由網頁程式碼明確取消註冊，而且這些外部元件參考必須在呼叫`dispose()`之前先刪除。
+如果網頁代碼已直接在檢視器SDK元件上註冊事件監聽器（檢視器使用）或儲存的此類元件的外部引用（此類監聽器必須由網頁代碼顯式註冊），且在呼叫`dispose()`之前，必須刪除此類外部元件引用。
 
 呼叫`dispose()`後，請勿再存取檢視器API。
 
@@ -31,7 +30,7 @@ ht-degree: 2%
 
 無。
 
-## 傳回{#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## 傳回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 無。
 
