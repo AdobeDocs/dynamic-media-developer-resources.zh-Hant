@@ -4,14 +4,13 @@ solution: Experience Manager
 title: getZipEntries
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: eb052685-b750-4a12-b00e-28e676340e98
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 20%
+source-wordcount: '75'
+ht-degree: 21%
 
 ---
-
 
 # getZipEntries{#getzipentries}
 
@@ -19,7 +18,7 @@ ht-degree: 20%
 
 語法
 
-## 授權用戶類型{#section-33a3f03ba8a14086922397619ce12ab8}
+## 授權的使用者類型 {#section-33a3f03ba8a14086922397619ce12ab8}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -38,7 +37,7 @@ ht-degree: 20%
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | 是 | 包含Zip檔案之公司的控制代碼。 |
-| `*`assetHandle`*` | `xsd:string` | 是 | Zip檔案的控制代碼。 |
+| `*`assetHandle`*` | `xsd:string` | 是 | 處理Zip檔案。 |
 
 **輸出(getZipEntriesReturn)**
 
@@ -48,7 +47,7 @@ ht-degree: 20%
 
 ## 範例 {#section-1fc0ad8fa448492cb5a135d3e3d161ac}
 
-此程式碼範例會傳回Zip檔案資訊，包括壓縮和解壓縮大小。
+此程式碼範例會傳回郵遞區號檔案資訊，包括壓縮和解壓縮大小。
 
 **請求**
 
@@ -75,4 +74,3 @@ ht-degree: 20%
    </zipArray>
 </getZipEntriesReturn>
 ```
-
