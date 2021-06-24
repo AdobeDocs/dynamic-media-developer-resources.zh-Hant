@@ -2,16 +2,15 @@
 description: FavoritesEffect.expiration
 solution: Experience Manager
 title: FavoritesEffect.expiration
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic，檢視器，SDK/API,eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: ef4880c5-045c-487c-a73a-e87e54717029
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '59'
+source-wordcount: '56'
 ht-degree: 10%
 
 ---
-
 
 # FavoritesEffect.expiration{#favoriteseffect-expiration}
 
@@ -21,7 +20,7 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> 天</span></span> </p> </td> 
-   <td colname="col2"> <p> 收藏夾在客戶端系統上過期前保留的天數。 每當使用者造訪目錄並變更我的最愛（例如新增或移除）時，就會重設過期計時器。 </p> </td> 
+   <td colname="col2"> <p> 收藏夾在客戶端系統上的過期前保留的天數。 每次使用者造訪目錄並變更我的最愛（例如新增或移除）時，過期計時器就會重設。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
