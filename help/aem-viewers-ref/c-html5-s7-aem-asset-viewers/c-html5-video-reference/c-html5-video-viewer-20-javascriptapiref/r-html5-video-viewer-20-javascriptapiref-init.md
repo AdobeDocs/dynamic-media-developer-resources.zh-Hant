@@ -2,16 +2,15 @@
 description: 視訊檢視器的JavaScript API參考。
 solution: Experience Manager
 title: init
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+feature: Dynamic Media Classic，檢視器， SDK/API，影片
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: d46a9c8b-064a-4928-b30e-885b12d287ab
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '126'
 ht-degree: 2%
 
 ---
-
 
 # init{#init}
 
@@ -19,17 +18,17 @@ ht-degree: 2%
 
 `init()`
 
-啟動視頻查看器的初始化。 目前，必須建立容器DOM元素，讓檢視器程式碼可依其ID找到它。
+啟動視頻查看器的初始化。 此時必須建立容器DOM元素，檢視器程式碼才能透過其ID找到它。
 
-如果容器元素尚未屬於網頁版面的一部分——例如，它可能會使用指派給它的`display:none`樣式進行隱藏——檢視器會暫停其初始化程式，直到網頁將容器元素帶回版面為止。 發生此情況時，檢視器載入會自動繼續。
+如果容器元素尚未屬於網頁版面的一部分（例如，它可能會使用指派給它的`display:none`樣式來隱藏），則檢視器會暫停其初始化程式，直到網頁將容器元素帶回版面的那一刻為止。 發生此情況時，檢視器載入會自動繼續。
 
-在檢視器生命週期中，只需呼叫此方法一次；會忽略後續呼叫。
+在檢視器生命週期期間，只需呼叫此方法一次；會忽略後續呼叫。
 
 ## 參數 {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 
 無。
 
-## 傳回{#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## 傳回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 `{Object}` 檢視器例項的參考。
 
@@ -38,4 +37,3 @@ ht-degree: 2%
 ```
 <instance>.init()
 ```
-
