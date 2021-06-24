@@ -4,14 +4,13 @@ solution: Experience Manager
 title: 解析度
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 45b12324-3148-4530-82cd-0ee32e9f98f8
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '105'
 ht-degree: 7%
 
 ---
-
 
 # 解析度{#resolution}
 
@@ -19,12 +18,12 @@ ht-degree: 7%
 
 ## 屬性 {#section-985ca2ad858c4e9c9cbb303f55447553}
 
-實數，大於0。 紋理和貼花材質需要，除非影像解析度與屬性：:Resolution相同。 被純色和機櫃材料忽略。
+實數，大於0。 紋理和傾斜材料需要，除非影像解析度與屬性：:Resolution相同。 被實色和機櫃材料忽略。
 
 ## 預設 {#section-b1d044e211194242a900aaef4a8c8e6f}
 
-`attribute::Resolution` 如果欄位不存在、值為0或負值，或欄位為空，則會使用。
+`attribute::Resolution` 如果欄位不存在、值為0或負數，或欄位為空，則會使用。
 
 ## 另請參閱 {#section-2d04df523d7345f6929178cbc637da78}
 
-[attribute::Resolution](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-resolution-dataref.md#reference-09fe14e6bfbf4db6b7f4369fffecc806) ,  [res=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-res.md#reference-0ad9de8887144c83a6db97b4994f7c04)
+[屬性：：解析度](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-resolution-dataref.md#reference-09fe14e6bfbf4db6b7f4369fffecc806) ,  [res=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-res.md#reference-0ad9de8887144c83a6db97b4994f7c04)
