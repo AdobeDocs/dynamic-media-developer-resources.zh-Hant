@@ -4,14 +4,13 @@ solution: Experience Manager
 title: setZoomTargets
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 1b4ac729-00cf-4ea2-9098-60b4af3c7e6d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '126'
 ht-degree: 13%
 
 ---
-
 
 # setZoomTargets{#setzoomtargets}
 
@@ -19,7 +18,7 @@ ht-degree: 13%
 
 語法
 
-## 已授權的使用者類型{#section-c5e1863e9cb1426591bfea513620b6ab}
+## 已授權的使用者類型 {#section-c5e1863e9cb1426591bfea513620b6ab}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -42,7 +41,7 @@ ht-degree: 13%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`zoomTargetHandleArray`*` | `types:HandleArray` | 是 | 此操作建立的縮放目標的控點集。 |
+| `*`zoomTargetHandleArray`*` | `types:HandleArray` | 是 | 由此操作建立的縮放目標的控點集。 |
 
 ## 範例 {#section-a2f14c7a1499443e96d099ea8a76c182}
 
@@ -83,4 +82,3 @@ ht-degree: 13%
    </zoomTargetHandleArray>
 </setZoomTargetsReturn>
 ```
-
