@@ -4,14 +4,13 @@ solution: Experience Manager
 title: deletePropertySetType
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 97ec0f41-794f-4340-b86d-ab07a742d447
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '98'
 ht-degree: 11%
 
 ---
-
 
 # deletePropertySetType{#deletepropertysettype}
 
@@ -19,7 +18,7 @@ ht-degree: 11%
 
 語法
 
-## 授權用戶類型{#section-16a17b4ebf9a4639bdb2784a2e9fe00d}
+## 授權的使用者類型 {#section-16a17b4ebf9a4639bdb2784a2e9fe00d}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -36,11 +35,11 @@ ht-degree: 11%
 
 **輸出(deletePropertySetTypeParam)**
 
-IPS API不會傳回此作業的回應。
+IPS API不會針對此操作傳回回應。
 
 ## 範例 {#section-85faa2e3411a4e23aa6489037f7ce078}
 
-此程式碼範例會將類型的控制代碼當做傳送至IPS Web services伺服器的`deletePropertySetTypeParam`欄位，以刪除屬性集類型。
+此代碼示例將類型的句柄用作發送到IPS Web服務伺服器的`deletePropertySetTypeParam`中的欄位，以刪除屬性集類型。
 
 **請求**
 
