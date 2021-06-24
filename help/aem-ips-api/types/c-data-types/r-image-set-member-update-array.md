@@ -2,16 +2,15 @@
 description: 映像整合員更新的陣列。
 solution: Experience Manager
 title: ImageSetMemberUpdateArray
-feature: Dynamic Media Classic,SDK/API,Image Sets
+feature: Dynamic Media Classic, SDK/API，影像集
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: a0b0f94a-7b45-4780-9b28-1eb449c3b831
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 15%
+source-wordcount: '36'
+ht-degree: 16%
 
 ---
-
 
 # ImageSetMemberUpdateArray{#imagesetmemberupdatearray}
 
@@ -23,5 +22,4 @@ ht-degree: 15%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| `*`項目`*` | `types:ImageSetMemberUpdate` | 映像整合員更新的陣列。 |
-
+| `*`項目`*` | `types:ImageSetMemberUpdate` | 映像整合員陣列更新。 |
