@@ -1,21 +1,20 @@
 ---
-description: 銳利化紋理。 指定渲染此材料時要應用的銳利化。
+description: 銳化紋理。 指定渲染此材料時要應用的銳利化。
 solution: Experience Manager
 title: 銳利
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 7921ceba-e249-4aab-823e-c54705c4a7c3
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '130'
 ht-degree: 6%
 
 ---
 
+# 銳利{#sharp}
 
-# sharp{#sharp}
-
-銳利化紋理。 指定渲染此材料時要應用的銳利化。
+銳化紋理。 指定渲染此材料時要應用的銳利化。
 
 `sharp=0|1|2|3`
 
@@ -30,26 +29,26 @@ ht-degree: 6%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p> </td> 
-  <td class="stentry"> <p>0個替代銳利化（早期）。 </p> </td> 
+  <td class="stentry"> <p>0個替代銳利化（較早）。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p> </td> 
-  <td class="stentry"> <p>更銳利（早晚）。 </p> </td> 
+  <td class="stentry"> <p>更銳利化（早期和後期）。 </p> </td> 
  </tr> 
 </table>
 
-`sharp=1` 在材質轉譯後套用銳利化； `sharp=2` 在初始縮放紋理後，但在將其轉換為場景之前，應用銳利化； `sharp=3` 在變形前後都套用銳利化。
+`sharp=1` 會在材料呈現後套用銳利化； `sharp=2` 在初始縮放紋理後應用銳利化，但在將其轉換為場景之前； `sharp=3` 會在轉換前後套用銳利化。
 
-銳利化演算法和銳利化量以及其他USM（非銳利化遮色片）參數是由暈映提供的預設材質範本或與`rs=`一起控制。
+銳利化演算法和銳利化量以及其他USM（非銳利化遮色片）參數由暈映提供的預設材料模板或`rs=`控制。
 
 ## 屬性 {#section-498ec9fcb8eb415fb99532d36c11d4c7}
 
-材料屬性。 被純色材料忽略。
+材料屬性。 被實色材料忽略。
 
 ## 預設 {#section-febfa16e65864987b4d328e2ff1df64d}
 
-`catalog::Sharp`，則該材料基於目錄條目，否則 `attribute::Sharp`。
+`catalog::Sharp`，除非材料是根據目錄項目，否則 `attribute::Sharp`。
 
 ## 另請參閱 {#section-0d5e2c94342c4ee586374ad9c917eeb9}
 
-[目錄：:Sharp](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-sharp-dataref.md#reference-f79a14bd52474dfd8495115d398a30d0) , [sharpen=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharpen.md#reference-13034d22d176483cb99ccafc2a4f6a6e), [rs=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rs.md#reference-d20cefaaa6cd4f449d1591c87959b4cf)
+[目錄：:Sharp](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-sharp-dataref.md#reference-f79a14bd52474dfd8495115d398a30d0) ,  [sharpen=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharpen.md#reference-13034d22d176483cb99ccafc2a4f6a6e),  [rs=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rs.md#reference-d20cefaaa6cd4f449d1591c87959b4cf)
