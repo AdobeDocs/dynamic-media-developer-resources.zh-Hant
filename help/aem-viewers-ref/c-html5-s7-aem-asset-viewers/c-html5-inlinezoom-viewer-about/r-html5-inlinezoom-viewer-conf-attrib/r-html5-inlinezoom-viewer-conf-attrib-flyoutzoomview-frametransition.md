@@ -2,16 +2,15 @@
 description: FlyoutZoomView.frametransition
 solution: Experience Manager
 title: FlyoutZoomView.frametransition
-feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
+feature: Dynamic Media Classic，檢視器，SDK/API，內嵌縮放
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 39cb629a-3940-4206-91cd-fe9a9f4d9f75
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 9%
+source-wordcount: '68'
+ht-degree: 10%
 
 ---
-
 
 # FlyoutZoomView.frametransition{#flyoutzoomview-frametransition}
 
@@ -20,8 +19,8 @@ ht-degree: 9%
 <table id="table_FC34B37AACFB4E92A37E1D2D93D5F0D2"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 無|淡化</span> </p> </td> 
-   <td colname="col2"> <p> </p> <p> 指定在資產變更時套用至主要檢視的效果類型。 </p> <p><span class="codeph"> 不代</span> 表沒有轉場，主檢視變更會立即發生。 </p> <p><span class="codeph"> 淡</span> 化會啟動交叉淡化轉場，舊影像淡出，新影像淡入 </p> <p> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 無|淡出</span> </p> </td> 
+   <td colname="col2"> <p> </p> <p> 指定對資產變更時的主視圖應用的效果類型。 </p> <p><span class="codeph"> </span> 不代表沒有轉變，主檢視會立即變更。 </p> <p><span class="codeph"> </span> 會停用交叉淡出轉變，舊影像會淡出，新影像會淡化 </p> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> 時段</span></span> </p> </td> 
