@@ -1,21 +1,20 @@
 ---
-description: 縮放影像。 相對於全解析度影像，按比例縮放圖層源影像。
+description: 縮放影像。 相對於全解析度影像按因子縮放圖層源影像。
 solution: Experience Manager
 title: scale
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: c2cd37de-f81e-4b08-9a3e-ff05a72c363c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '111'
 ht-degree: 5%
 
 ---
 
+# 比例{#scale}
 
-# scale{#scale}
-
-縮放影像。 相對於全解析度影像，按比例縮放圖層源影像。
+縮放影像。 相對於全解析度影像按因子縮放圖層源影像。
 
 `scale= *`因子`*`
 
@@ -26,15 +25,15 @@ ht-degree: 5%
  </tr> 
 </table>
 
-`scale=1`時不應用縮放。 *`factor`* 小於1.0的下縮放和大於1.0的放大會放大源影像。
+`scale=1`時不應用縮放。 *`factor`* 小於1.0的下尺度和大於1.0會放大源影像。
 
 ## 屬性 {#section-3c7eb45527394fe79b1ddba6c1fcca09}
 
-來源影像／遮色片屬性。 如果同時為當前層指定`size=`，則忽略。 覆寫`res=`。 如果為`layer=comp`指定，則套用至層0。 如果圖層未與影像或遮色片相關聯，則忽略此點。
+源影像/掩碼屬性。 如果為當前層指定`size=`，則忽略。 覆蓋`res=`。 如果為`layer=comp`指定，則應用於層0。 如果圖層未與影像或遮色片關聯，則忽略此值。
 
 ## 預設 {#section-26e64904362342a5a62c5f6598f330c4}
 
-如果未指定，則使用`res=`。 如果未指定`res=`，則不使用縮放來使用影像。
+如果未指定，則使用`res=`。 如果未指定`res=`，則使用影像時不進行縮放。
 
 ## 另請參閱 {#section-61a11f30d37341d58c10df759bfff951}
 
