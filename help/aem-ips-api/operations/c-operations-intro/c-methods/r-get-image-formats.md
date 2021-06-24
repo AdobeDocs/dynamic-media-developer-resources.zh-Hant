@@ -4,14 +4,13 @@ solution: Experience Manager
 title: getImageFormats
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: c2fa4cdd-fb4f-4e6a-8197-8f64c986c3a0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '79'
 ht-degree: 18%
 
 ---
-
 
 # getImageFormats{#getimageformats}
 
@@ -19,7 +18,7 @@ ht-degree: 18%
 
 語法
 
-## 授權用戶類型{#section-6a386ad8641b4aa1a281600fc94fd3f6}
+## 授權的使用者類型 {#section-6a386ad8641b4aa1a281600fc94fd3f6}
 
 * `IpsUser`
 * `IspAdmin`
@@ -35,7 +34,7 @@ ht-degree: 18%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 包含您要取得之影像格式的公司控制代碼。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 使用您要取得的影像格式的公司控制代碼。 |
 
 **輸出(getImageFormatsParam)**
 
@@ -62,4 +61,3 @@ ht-degree: 18%
    <imageFormatArray></imageFormatArray>
 </getImageFormatsReturn>
 ```
-
