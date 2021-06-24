@@ -2,16 +2,15 @@
 description: 從IPS傳回資產。
 solution: Experience Manager
 title: getAssets
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API，資產管理
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 3b63da9c-f10a-40bf-8e3c-4f0bfc53d74c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 19%
+source-wordcount: '125'
+ht-degree: 20%
 
 ---
-
 
 # getAssets{#getassets}
 
@@ -19,7 +18,7 @@ ht-degree: 19%
 
 語法
 
-## 授權用戶類型{#section-4673c1c9f4314160af8b165eb2dd20cc}
+## 授權的使用者類型 {#section-4673c1c9f4314160af8b165eb2dd20cc}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,7 +32,7 @@ ht-degree: 19%
 
 >[!NOTE]
 >
->僅傳回使用者可存取的資產。
+>僅傳回使用者有權存取的資產。
 
 ## 參數 {#section-bb9cf1ab19ea47acbd9ae58646dbe273}
 
@@ -71,7 +70,7 @@ ht-degree: 19%
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:HandleArray</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>根資料夾，用於將資料夾和所有子資料夾檢索到葉層。 如果排除，則會使用公司根目錄。 </p> </td> 
+   <td colname="col4"> <p>用於檢索資料夾和葉級所有子資料夾的根資料夾。 如果排除，則會使用公司根。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </p> </td> 
@@ -108,5 +107,3 @@ ht-degree: 19%
   </tr> 
  </tbody> 
 </table>
-
-
