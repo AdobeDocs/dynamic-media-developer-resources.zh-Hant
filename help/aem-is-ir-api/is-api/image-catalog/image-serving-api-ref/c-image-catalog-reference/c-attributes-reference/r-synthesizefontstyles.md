@@ -1,25 +1,24 @@
 ---
-description: 啟用合成字型變化。 控制如果要求此種樣式，但在字型圖中找不到，則伺服器應產生錯誤回應或合成粗體、斜體或粗體／斜體字型樣式。
+description: 啟用合成的字型變化。 控制如果請求了粗體、斜體或粗體/斜體字型樣式但在字型映射中找不到時，伺服器應生成錯誤響應還是合成粗體、斜體或粗體/斜體字型樣式。
 solution: Experience Manager
-title: NesighateFontStyles
+title: SynethrotingFontStyles
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 08f20748-71c7-4b9f-9b45-70352f9abf35
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 3%
+source-wordcount: '123'
+ht-degree: 4%
 
 ---
 
+# SynethrotingFontStyles{#synthesizefontstyles}
 
-# NethirateFontStyles{#synthesizefontstyles}
-
-啟用合成字型變化。 控制如果要求此種樣式，但在字型圖中找不到，則伺服器應產生錯誤回應或合成粗體、斜體或粗體／斜體字型樣式。
+啟用合成的字型變化。 控制如果請求了粗體、斜體或粗體/斜體字型樣式但在字型映射中找不到時，伺服器應生成錯誤響應還是合成粗體、斜體或粗體/斜體字型樣式。
 
 >[!NOTE]
 >
->合成字型樣式通常會產生低品質的轉譯效果，而不是使用實際的字型。
+>合成字型樣式通常會導致畫質較低，而不是使用實際字型來呈現這些樣式。
 
 ## 屬性 {#section-3205560a74774ebf9c916b07bd15aca6}
 
@@ -27,7 +26,7 @@ ht-degree: 3%
 
 ## 預設 {#section-71f94aa65e404d14b441674c040b59e3}
 
-如果未定義或為空，則繼承自`default::SynthesizeFontStyles`。
+如果未定義或為空，則從`default::SynthesizeFontStyles`繼承。
 
 ## 另請參閱 {#section-47a79659cc844272b6d5f36c946e12ac}
 
