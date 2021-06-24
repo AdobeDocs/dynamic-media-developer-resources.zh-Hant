@@ -4,20 +4,19 @@ solution: Experience Manager
 title: getVignettePublishFormats
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 6e56d68e-b5cf-4044-9c58-f8221fa4490f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '66'
 ht-degree: 22%
 
 ---
-
 
 # getVignettePublishFormats{#getvignettepublishformats}
 
 語法
 
-## 已授權的使用者類型{#section-1f5e2f74aef8408e89ed9ccac8b5b9bc}
+## 已授權的使用者類型 {#section-1f5e2f74aef8408e89ed9ccac8b5b9bc}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -36,11 +35,11 @@ ht-degree: 22%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`vignetteFormatArray`*` | `types:VignettePublishFormatArray` | 是 | 暈映發佈格式的陣列。 |
+| `*`vignetteFormatArray`*` | `types:VignettePublishFormatArray` | 是 | 暈映發佈格式陣列。 |
 
 ## 範例 {#section-2cc32b27cc6243b7b3e273cc05996226}
 
-此程式碼範例會傳回與特定公司相關聯的兩種暈映發佈格式。 在陣列中傳回資訊，會因簡短而截斷。
+此程式碼範例會傳回與特定公司相關聯的兩個暈映發佈格式。 資訊會在陣列中傳回，但會為簡潔而截斷。
 
 **請求**
 
@@ -64,4 +63,3 @@ ht-degree: 22%
    </vignetteFormatArray>
 </getVignettePublishFormatsReturn>
 ```
-
