@@ -1,23 +1,22 @@
 ---
-description: 頁面指標會顯示目前的頁面索引和頁面總數。 它會顯示在桌上型電腦系統和平板電腦的主控制列，在行動電話上會新增至次要控制列。 頁面指示器可由CSS調整大小、改變外觀並定位。
+description: 頁面指示器顯示當前頁面索引和總頁數。 它顯示在案頭系統和平板電腦的主控制欄中，在行動電話上，它被添加到輔助控制欄中。 頁面指標可由CSS調整大小、加上外觀和定位。
 solution: Experience Manager
 title: 頁面指標
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic，檢視器，SDK/API,eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: c63af583-274c-4052-8186-604119a368af
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '261'
 ht-degree: 4%
 
 ---
 
+# 頁面指標{#page-indicator}
 
-# 頁面指示器{#page-indicator}
+頁面指示器顯示當前頁面索引和總頁數。 它顯示在案頭系統和平板電腦的主控制欄中，在行動電話上，它被添加到輔助控制欄中。 頁面指標可由CSS調整大小、加上外觀和定位。
 
-頁面指標會顯示目前的頁面索引和頁面總數。 它會顯示在桌上型電腦系統和平板電腦的主控制列，在行動電話上會新增至次要控制列。 頁面指示器可由CSS調整大小、改變外觀並定位。
-
-頁面指示器的外觀由下列CSS類別選擇器控制：
+頁面指示器的外觀由以下CSS類選擇器控制：
 
 `.s7ecatalogviewer .s7pageindicator`
 
@@ -31,19 +30,19 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 頂部 </span> </p> </td> 
-   <td colname="col2"> <p>從主控制列（在桌上型電腦系統和平板電腦上）或次控制列（在行動電話上）的上邊框定位，包括間距。 </p> </td> 
+   <td colname="col2"> <p>從主控制欄（在案頭系統和平板電腦上）或次控制欄（在行動電話上）的上邊框位置，包括邊框間距。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 右側 </span> </p> </td> 
-   <td colname="col2"> <p>從主控制列（在桌上型電腦系統和平板電腦上）或次控制列（在行動電話上）的右邊框定位，包括填補空白。 </p> </td> 
+   <td colname="col2"> <p>從主控制欄（在案頭系統和平板電腦上）或次控制欄（在行動電話上）的右邊框定位，包括邊框間距。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 左側 </span> </p> </td> 
-   <td colname="col2"> <p>從主控制列（在桌上型電腦系統和平板電腦上）或次控制列（在行動電話上）的左邊框中的位置，包括間距。 </p> </td> 
+   <td colname="col2"> <p>從主控制欄（在案頭系統和平板電腦上）或次控制欄（在行動電話上）的左邊框位置，包括邊框間距。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 底部 </span> </p> </td> 
-   <td colname="col2"> <p>從主控制列（在桌上型電腦系統和平板電腦上）或次控制列（在行動電話上）的底邊框中定位，包括間距。 </p> </td> 
+   <td colname="col2"> <p>從主控制欄（在案頭系統和平板電腦上）或次控制欄（在行動電話上）的底邊框位置，包括邊框間距。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -58,7 +57,7 @@ ht-degree: 4%
    <td colname="col2"> <p>字型色彩. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字型系列  </span> </p> </td> 
    <td colname="col2"> <p>字型名稱。 </p> </td> 
   </tr> 
   <tr> 
@@ -68,7 +67,7 @@ ht-degree: 4%
  </tbody> 
 </table>
 
-範例——若要設定56 x 28像素、水準置中且位於主控制列底部4像素的頁面指標，並使用14像素的Helvetica字型。
+示例 — 要設定一個56 x 28像素、水準居中並從主控制欄底部定位4像素的頁面指示器，並使用14像素Helvetica字型。
 
 ```
 .s7ecatalogviewer  .s7pageindicator { 
@@ -82,4 +81,3 @@ ht-degree: 4%
  font-size:14px; 
 }
 ```
-
