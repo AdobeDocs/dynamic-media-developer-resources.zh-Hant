@@ -1,25 +1,24 @@
 ---
-description: 刪除當前作業或已排程作業。
+description: 刪除當前或計畫的作業。
 solution: Experience Manager
 title: deleteJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: d38dd1e2-668e-4956-b854-54bf466d6d45
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '95'
 ht-degree: 12%
 
 ---
 
-
 # deleteJob{#deletejob}
 
-刪除當前作業或已排程作業。
+刪除當前或計畫的作業。
 
 語法
 
-## 授權用戶類型{#section-1b959679dc8147c291126ddf7e061742}
+## 授權的使用者類型 {#section-1b959679dc8147c291126ddf7e061742}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -41,11 +40,11 @@ ht-degree: 12%
 
 **輸出**
 
-IPS API不會傳回此作業的回應。
+IPS API不會針對此操作傳回回應。
 
 ## 範例 {#section-732d21d4dad04337b7a5ae1a0cc00eba}
 
-此代碼示例刪除了正在運行或已計畫在IPS中運行的作業。 它需要一個作業句柄，您必須從另一個操作中獲得該句柄。
+此程式碼範例會刪除正在執行或排程在IPS中執行的作業。 它需要作業句柄，您必須從其他操作中獲取該句柄。
 
 **請求**
 
