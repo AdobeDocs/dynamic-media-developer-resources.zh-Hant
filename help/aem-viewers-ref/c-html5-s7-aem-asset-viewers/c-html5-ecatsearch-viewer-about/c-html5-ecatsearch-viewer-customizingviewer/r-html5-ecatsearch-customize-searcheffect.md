@@ -1,27 +1,26 @@
 ---
-description: 檢視器會在主檢視上方顯示搜尋結果區域，以反白標示在目錄中找到的字詞或片語。
+description: 檢視器會在主檢視上顯示搜尋結果區域，以反白標示在目錄中找到的字詞或片語。
 solution: Experience Manager
 title: 搜尋效果
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic，檢視器，SDK/API,eCatalog搜尋
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 3591edb0-4b0a-4761-af87-c372132c5138
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '92'
 ht-degree: 1%
 
 ---
 
-
 # 搜尋效果{#search-effect}
 
-檢視器會在主檢視上方顯示搜尋結果區域，以反白標示在目錄中找到的字詞或片語。
+檢視器會在主檢視上顯示搜尋結果區域，以反白標示在目錄中找到的字詞或片語。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**主檢視器區域的CSS屬性**
+**主查看器區域的CSS屬性**
 
-使用下列CSS類別選擇器來控制搜尋結果區域的外觀：
+搜索結果區域的外觀由以下CSS類選擇器控制：
 
 `.s7ecatalogsearchviewer .s7searcheffect .s7region`
 
@@ -35,16 +34,15 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 背景  </span> </p> </td> 
-   <td colname="col2"> <p>搜尋結果區域的背景。 </p> </td> 
+   <td colname="col2"> <p>搜索結果區域的背景。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例——要使用半透明的黃色填充設定搜索結果區域：
+示例 — 要使用半透明的黃色填充設定搜索結果區域：
 
 ```
 .s7ecatalogsearchviewer .s7searcheffect .s7region { 
  background: rgba(255,255,0, 0.5); 
 }
 ```
-
