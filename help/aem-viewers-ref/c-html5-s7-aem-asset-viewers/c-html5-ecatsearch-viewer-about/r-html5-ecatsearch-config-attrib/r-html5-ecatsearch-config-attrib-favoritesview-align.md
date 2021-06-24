@@ -2,16 +2,15 @@
 description: FavoritesView.align
 solution: Experience Manager
 title: FavoritesView.align
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic，檢視器，SDK/API,eCatalog搜尋
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 1cc46e3d-c9c7-4946-b957-ba4eff20dee0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '82'
 ht-degree: 4%
 
 ---
-
 
 # FavoritesView.align{#favoritesview-align}
 
@@ -20,8 +19,8 @@ ht-degree: 4%
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> left|center|right,top|center|bottom</span> </p> </td> 
-   <td colname="col2"> <p> 指定元件區域內縮圖容器的內部水準對齊（或錨點）。 </p> <p>在「我的最愛」檢視中，內部縮圖容器的大小會調整，因此只會顯示整數個縮圖。 因此，內部容器和外部元件邊界之間會有一些間距。 </p> <p>此修飾元可指定內部縮圖容器在元件內的水準放置方式。 </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> 左|中|右|頂|中|下</span> </p> </td> 
+   <td colname="col2"> <p> 指定元件區域內縮圖容器的內部水準對齊方式（或錨定）。 </p> <p>在「收藏夾」(Favorites)「視圖」(View)中，內部縮圖容器的大小為，因此只顯示整數縮圖。 因此，內部容器和外部元件界限之間會有一些邊框間距。 </p> <p>此修飾符指定內部縮圖容器在元件內水準放置的方式。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
