@@ -1,14 +1,13 @@
 ---
 description: 互動式視訊檢視器的URL命令。
 solution: Experience Manager
-title: 互動式資料
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+title: interactivedata
+feature: Dynamic Media Classic，檢視器， SDK/API，互動式影片
 role: Developer,Business Practitioner
 exl-id: f9f5aa7a-3e0a-434a-8623-b439c9b6f18b
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '102'
 ht-degree: 5%
 
 ---
@@ -19,13 +18,13 @@ ht-degree: 5%
 
 `interactivedata= *`file`*`
 
-互動式資料會將視訊內容中的特定時間區域與產品資料建立關聯，產品資料稍後會顯示在視訊旁的互動式色票中。 在視訊播放結束時顯示的「行動要求」面板中也會與它關聯。 此外，它還為顯示在動作要求面板中的互動式視訊提供標題。
+互動式資料會將視訊內容中的特定時間區域與產品資料建立關聯，產品資料稍後會顯示在視訊旁的互動式色票中。 它也會與視訊播放結束時顯示的動作呼叫面板相關聯。 它也提供動作呼叫面板中顯示之互動式視訊的標題。
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 檔案</span> </span> </p> </td> 
-   <td colname="col2"> <p> 指定WebVTT互動資料內容的URL或路徑。 WebVTT檔案必須由影像伺服提供。 </p> </td> 
+   <td colname="col2"> <p> 指定WebVTT互動式資料內容的URL或路徑。 WebVTT檔案必須由影像伺服器提供。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
