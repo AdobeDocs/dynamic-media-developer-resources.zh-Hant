@@ -2,16 +2,15 @@
 description: 公司的資產類型和計數。
 solution: Experience Manager
 title: AssetCount
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API，資產管理
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: a5d750a3-1b76-4e91-9a2b-c91b41d0de7e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '47'
+source-wordcount: '45'
 ht-degree: 8%
 
 ---
-
 
 # AssetCount{#assetcount}
 
@@ -21,6 +20,5 @@ ht-degree: 8%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| `*`assetType`*` | `xsd:string` | 與計數關聯的資產類型。 |
-| `*`計數`*` | `xsd:int` | 公司中`assetType`資產的數量。 |
-
+| `*`assetType`*` | `xsd:string` | 與計數相關聯的資產類型。 |
+| `*`計數`*` | `xsd:int` | 公司中的`assetType`資產數。 |
