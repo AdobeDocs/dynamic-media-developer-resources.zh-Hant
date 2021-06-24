@@ -1,21 +1,20 @@
 ---
-description: GIF動畫檔案資產的屬性。
+description: 動畫GIF檔案資產的屬性。
 solution: Experience Manager
 title: AnimatedGifInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: b50b39b4-3055-43e3-a8bb-50f8b2f0d1fc
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 30%
+source-wordcount: '60'
+ht-degree: 31%
 
 ---
 
-
 # AnimatedGifInfo{#animatedgifinfo}
 
-GIF動畫檔案資產的屬性。
+動畫GIF檔案資產的屬性。
 
 語法
 
@@ -48,7 +47,7 @@ GIF動畫檔案資產的屬性。
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> optimizedFile</span></span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>IPS最佳化影像檔案。 </p> </td> 
+   <td colname="col3"> <p>IPS優化的映像檔案。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> fileSize</span> </span> </p> </td> 
@@ -57,4 +56,3 @@ GIF動畫檔案資產的屬性。
   </tr> 
  </tbody> 
 </table>
-
