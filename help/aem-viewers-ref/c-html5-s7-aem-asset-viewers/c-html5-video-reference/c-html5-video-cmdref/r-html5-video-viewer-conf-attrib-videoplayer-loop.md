@@ -2,16 +2,15 @@
 description: 視訊檢視器的設定屬性。
 solution: Experience Manager
 title: VideoPlayer.loop
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+feature: Dynamic Media Classic，檢視器， SDK/API，影片
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 92d22f5d-0ba8-4ea2-bba6-2275efdd1fe0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 13%
+source-wordcount: '35'
+ht-degree: 14%
 
 ---
-
 
 # VideoPlayer.loop{#videoplayer-loop}
 
@@ -23,7 +22,7 @@ ht-degree: 13%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 指出視訊在播放完成後是否應重新播放。 </p> </td> 
+   <td colname="col2"> <p> 指出播放完成後視訊是否應再次播放。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -41,4 +40,3 @@ ht-degree: 13%
 ```
 loop=1
 ```
-
