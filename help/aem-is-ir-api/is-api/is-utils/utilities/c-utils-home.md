@@ -1,24 +1,23 @@
 ---
-description: 「影像伺服」公用程式指南包含與「Dynamic Media影像伺服器」和「影像演算」搭配使用的公用程式相關資訊。
+description: 「影像伺服」公用程式指南包含與Dynamic Media影像伺服器和影像轉譯搭配使用之公用程式的相關資訊。
 solution: Experience Manager
-title: 影像伺服公用程式
+title: 映像服務實用程式
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: afca4d90-546f-4725-85b4-25bd487d50f6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '59'
+source-wordcount: '56'
 ht-degree: 1%
 
 ---
 
-
 # 映像服務實用程式{#image-serving-utilities}
 
-「影像伺服」公用程式指南包含與「Dynamic Media影像伺服器」和「影像演算」搭配使用的公用程式相關資訊。
+「影像伺服」公用程式指南包含與Dynamic Media影像伺服器和影像轉譯搭配使用之公用程式的相關資訊。
 
 * [公用程式的位置](c-location-of-utilities.md)
 * [ic](r-ic.md)
 * [ImageServing](r-imageserving.md)
 * [驗證](r-is-utils-validate.md)
-* [「playlog」實用程式](c-playlog.md)
+* [「playlog」公用程式](c-playlog.md)
