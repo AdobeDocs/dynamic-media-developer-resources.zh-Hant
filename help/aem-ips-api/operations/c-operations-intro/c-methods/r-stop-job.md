@@ -1,25 +1,24 @@
 ---
-description: 停止正在處理的作業。
+description: 停止正在執行的作業。
 solution: Experience Manager
 title: stopJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 90e61cf1-11f1-4504-8007-126ba4fe436a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 19%
+source-wordcount: '59'
+ht-degree: 20%
 
 ---
 
-
 # stopJob{#stopjob}
 
-停止正在處理的作業。
+停止正在執行的作業。
 
 語法
 
-## 授權用戶類型{#section-b222f561143747f6ad089aadc0b274d8}
+## 授權的使用者類型 {#section-b222f561143747f6ad089aadc0b274d8}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -41,7 +40,7 @@ ht-degree: 19%
 
 **輸出(stopJobReturn0)**
 
-IPS API不會傳回此作業的回應。
+IPS API不會針對此操作傳回回應。
 
 ## 範例 {#section-f7e07fa09ae24dc89685533f20ab3b81}
 
