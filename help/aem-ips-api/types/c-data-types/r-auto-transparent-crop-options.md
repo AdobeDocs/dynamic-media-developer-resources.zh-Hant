@@ -4,14 +4,13 @@ solution: Experience Manager
 title: AutoTransparentCropOptions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 351f63a4-cc1b-4db9-93df-c21acd02e12a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 10%
+source-wordcount: '53'
+ht-degree: 11%
 
 ---
-
 
 # AutoTransparentCropOptions{#autotransparentcropoptions}
 
@@ -33,12 +32,11 @@ ht-degree: 10%
   <tr> 
    <td colname="col1"> <span class="codeph"> 容限</span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
-   <td colname="col3">根據透明度從影像邊緣移除空白區域。 用途： 
+   <td colname="col3">根據透明度從影像邊緣移除空白字元。 使用： 
     <ul id="ul_FE5423B857AE43FCBA7A9AEA76C754CC">
      <li id="li_01E3BD0AB8DA4C408B47CB02B269404A">0以完全匹配顏色。 </li>
-     <li id="li_FCE21384265D4ECE9C0D785F1BB32C3A">1以啟用最大的色彩差異。 </li>
+     <li id="li_FCE21384265D4ECE9C0D785F1BB32C3A">1以啟用最多的顏色差異。 </li>
     </ul></td> 
   </tr> 
  </tbody> 
 </table>
-
