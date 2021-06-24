@@ -1,25 +1,24 @@
 ---
-description: 獲取映像集中的成員陣列。
+description: 獲取影像集中的成員陣列。
 solution: Experience Manager
 title: getImageSetMembers
-feature: Dynamic Media Classic,SDK/API,Image Sets
+feature: Dynamic Media Classic, SDK/API，影像集
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 29ceef8b-127f-4460-8623-c3e26c959327
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '101'
 ht-degree: 15%
 
 ---
 
-
 # getImageSetMembers{#getimagesetmembers}
 
-獲取映像集中的成員陣列。
+獲取影像集中的成員陣列。
 
 語法
 
-## 授權用戶類型{#section-eaa3a167fa77403ea1b374b05fff4ded}
+## 授權的使用者類型 {#section-eaa3a167fa77403ea1b374b05fff4ded}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -32,7 +31,7 @@ ht-degree: 15%
 
 >[!NOTE]
 >
->需要對映像和成員集資產的讀取訪問權。
+>需要對映像和成員集資產的讀取訪問。
 
 ## 參數 {#section-a67ba98095574533980997c83ceaa316}
 
@@ -40,18 +39,18 @@ ht-degree: 15%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 包含影像集之公司的控點。 |
-| `*`assetHandle`*` | `xsd:string` | 是 | 影像設定資產控制代碼。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 包含影像集之公司的控制代碼。 |
+| `*`assetHandle`*` | `xsd:string` | 是 | 影像集資產控制代碼。 |
 
 **輸出(getImageSetMembersReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`memberArray`*` | `types:ImageSetMemberArray` | 否 | 映像整合員的陣列。 |
+| `*`memberArray`*` | `types:ImageSetMemberArray` | 否 | 影像整合員陣列。 |
 
 ## 範例 {#section-888a9a78033346f39b171229de93dfa0}
 
-此程式碼範例會傳回特定的影像整合員。 響應返回空陣列。
+此程式碼範例會傳回特定影像整合員。 回應會傳回空白陣列。
 
 **請求**
 
@@ -69,4 +68,3 @@ ht-degree: 15%
    <memberArray></memberArray>
 </getImageSetMembersReturn>
 ```
-
