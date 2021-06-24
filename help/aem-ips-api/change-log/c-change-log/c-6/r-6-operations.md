@@ -1,25 +1,24 @@
 ---
-description: 說明IPS API第6版的新操作方法和更改的操作方法。
+description: 說明IPS API 6版的新操作方法和更改的操作方法。
 solution: Experience Manager
-title: 操作新增和修改
+title: 操作新建和修改
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: fc7af77e-17fc-453a-8949-78c9c5c33b34
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '86'
 ht-degree: 5%
 
 ---
 
-
 # 操作：新增和修改{#operations-new-and-modified}
 
-說明IPS API第6版的新操作方法和更改的操作方法。
+說明IPS API 6版的新操作方法和更改的操作方法。
 
 語法
 
-## 新操作{#section-088502a0746945f28a5ea100cd655bc6}
+## 新操作 {#section-088502a0746945f28a5ea100cd655bc6}
 
 * `batchGetAssetPublishContexts`
 * `getPublishContexts`
@@ -28,7 +27,7 @@ ht-degree: 5%
 * `updateAssetSet`
 * `updateImageSet`
 
-## 修改的操作{#section-f4e8755527444266ae806e3f4c851ae6}
+## 修改的操作 {#section-f4e8755527444266ae806e3f4c851ae6}
 
 **已新增**
 
@@ -64,9 +63,9 @@ ht-degree: 5%
    * `getUsers`.
    * `getUserChars`.
 
-* 已將`permissionArray`新增至`createPropertySet`。
+* 將`permissionArray`新增至`createPropertySet`。
 
-* 已將`exportJob`新增至`submitJob`。
+* 將`exportJob`新增至`submitJob`。
 
 **將**
 
@@ -80,12 +79,11 @@ ht-degree: 5%
 
 * 在`getCompanyMembership`中，將`companyArray`變更為`membershipArray`。
 
-* 在`getUserChars`中，`includeInvalid`現在是可選的。
+* 在`getUserChars`中，`includeInvalid`現在為選用。
 
 **已移除**
 
-* 已從`renameAsset`移除`renameFiles`。
+* 從`renameAsset`移除`renameFiles`。
 
 * 已移除 `getXMPPanelViewDefinition`.
-* 已移除`searchAssetsByFulltext`和`searchAssetsBySimilarity`。
-
+* 移除`searchAssetsByFulltext`和`searchAssetsBySimilarity`。
