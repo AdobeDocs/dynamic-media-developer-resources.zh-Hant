@@ -29,7 +29,7 @@ ht-degree: 0%
 
 [https://s7d9.scene7.com/s7viewers/html5/ZoomViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample](https://s7d9.scene7.com/s7viewers/html5/ZoomViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample)
 
-## 使用縮放查看器{#section-e6c68406ecdc4de781df182bbd8088b4}
+## 使用縮放檢視器 {#section-e6c68406ecdc4de781df182bbd8088b4}
 
 縮放檢視器代表主要JavaScript檔案和一組協助檔案（單一JavaScript包含此特定檢視器、資產、CSS所使用的所有檢視器SDK元件），由檢視器在執行階段下載。
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 請參閱所有檢視器通用的[命令參考 — 設定屬性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)和所有檢視器通用的[命令參考 — URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
-## 與縮放查看器{#section-642e66ca38cd4032992840ec6c0b0cd2}交互
+## 與縮放檢視器互動 {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
 縮放檢視器支援下列其他行動應用程式中常見的觸控手勢。 當檢視器無法處理使用者的滑動手勢時，會將事件轉送至網頁瀏覽器，以執行原生頁面捲動。 即使檢視器佔據大部分裝置螢幕區域，這類功能仍可讓使用者導覽頁面。
 
@@ -80,7 +80,7 @@ ht-degree: 0%
 
 請參閱[鍵盤輔助功能和導航](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861)。
 
-## 嵌入縮放查看器{#section-6bb5d3c502544ad18a58eafe12a13435}
+## 內嵌縮放檢視器 {#section-6bb5d3c502544ad18a58eafe12a13435}
 
 不同的網頁對檢視者行為有不同的需求。 有時，網頁會提供連結，當按一下連結時，就會在個別瀏覽器視窗中開啟檢視器。 在其他情況下，則需直接將檢視器內嵌在托管頁面中。 在後一種情況下，網頁可能具有靜態版面，或使用在不同裝置上或針對不同瀏覽器視窗大小顯示不同的回應式設計。 為了滿足這些需求，檢視器支援三種主要操作模式：快顯視窗、固定大小內嵌和回應式設計內嵌。
 
@@ -118,7 +118,7 @@ target="_blank">Open popup viewer</a>
 
 如果網頁同時設定了查看器容器`DIV`的寬度和高度，則查看器會填入該區域，並遵循網頁提供的大小。 例如，將檢視器內嵌至強制回應覆蓋中，其中覆蓋會根據網頁瀏覽器視窗大小來調整大小。
 
-## 固定大小嵌入{#section-44f365e6c0dd40709467a459afa82a7f}
+## 固定大小嵌入 {#section-44f365e6c0dd40709467a459afa82a7f}
 
 您可以執行下列操作，將檢視器新增至網頁：
 
@@ -258,7 +258,7 @@ target="_blank">Open popup viewer</a>
    </html>
    ```
 
-## 無限制高度{#section-b9ca11a7e7aa4f74ab43244cbca37ae0}的回應式設計內嵌
+## 無限制高度的回應式設計內嵌 {#section-b9ca11a7e7aa4f74ab43244cbca37ae0}
 
 透過回應式設計內嵌，網頁通常會有某種彈性的版面配置，指定檢視器容器`DIV`的執行階段大小。 在下列範例中，假設網頁允許檢視器的容器`DIV`取用40%的網頁瀏覽器視窗大小，使其高度不受限制。 網頁HTML程式碼如下所示：
 
@@ -318,7 +318,7 @@ var zoomViewer = new s7viewers.ZoomViewer({
 
 [即時演示](https://landing.adobe.com/tw/na/dynamic-media/ctir-2755/live-demos.html)
 
-## 具有定義{#section-3674e6c032594441a6576b7fb1de6e64}寬度和高度的靈活大小嵌入
+## 定義寬度和高度的靈活大小嵌入 {#section-3674e6c032594441a6576b7fb1de6e64}
 
 若是定義寬度和高度的彈性內嵌，網頁樣式會有所不同。 它會為`"holder"` DIV提供兩種大小，並在瀏覽器視窗中將其置中。 此外，網頁還將`HTML`和`BODY`元素的大小設定為100%。
 
@@ -384,7 +384,7 @@ var zoomViewer = new s7viewers.ZoomViewer({
 </html> 
 ```
 
-## 使用基於setter的API {#section-44e014925f24418b900696003855c0a9}嵌入
+## 使用基於setter的API嵌入 {#section-44e014925f24418b900696003855c0a9}
 
 您可以使用setter型API和無目標建構函式，而不使用JSON型初始化。 使用此API建構函式時不會採用任何參數，且會使用具有個別JavaScript呼叫的`setContainerId()`、`setParam()`及`setAsset()` API方法指定設定參數。
 
