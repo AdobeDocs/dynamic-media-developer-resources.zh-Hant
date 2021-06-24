@@ -1,20 +1,19 @@
 ---
-description: 請依照下列指示，在Windows系統上解除安裝「影像演算」。
+description: 請按照以下說明卸載Windows系統上的映像呈現。
 solution: Experience Manager
 title: 在Windows上卸載
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 50a3d0d4-acfe-4ed2-af9f-01f8c98d0c12
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '52'
+source-wordcount: '49'
 ht-degree: 0%
 
 ---
 
-
 # 在Windows上卸載{#uninstalling-on-windows}
 
-請依照下列指示，在Windows系統上解除安裝「影像演算」。
+請按照以下說明卸載Windows系統上的映像呈現。
 
-1. 通過運行` *[!DNL install_folder]*\_uninst\uninstaller.exe`啟動卸載程式，或從「開始」菜單選擇「程式」>「Scene7」>「a4/」>「影像渲染」>「a6/」>「卸載」**[!UICONTROL 「卸載」&lt;a8/」。************]**
+1. 運行` *[!DNL install_folder]*\_uninst\uninstaller.exe`啟動卸載程式，或從「開始」菜單選擇&#x200B;**[!UICONTROL 程式]** > **[!UICONTROL Scene7]** > **[!UICONTROL 影像呈現]** > **[!UICONTROL 卸載]**。
