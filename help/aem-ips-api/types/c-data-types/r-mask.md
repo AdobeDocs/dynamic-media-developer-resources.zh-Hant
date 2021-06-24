@@ -1,21 +1,20 @@
 ---
-description: 遮色影像的一部分。 遮色片始終與影像相關聯。 從ImageInfo取得遮色片。
+description: 遮罩影像的一部分。 遮罩始終與影像相關聯。 從ImageInfo獲取蒙版。
 solution: Experience Manager
 title: 遮色片
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 0e18096c-0666-400b-a562-b6d183bd3334
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 11%
+source-wordcount: '75'
+ht-degree: 12%
 
 ---
 
-
 # 遮色片{#mask}
 
-遮色影像的一部分。 遮色片始終與影像相關聯。 從ImageInfo取得遮色片。
+遮罩影像的一部分。 遮罩始終與影像相關聯。 從ImageInfo獲取蒙版。
 
 語法
 
@@ -23,9 +22,8 @@ ht-degree: 11%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| `*`maskHandle`*` | `xsd:string` | 遮色片手柄。 |
-| `*`名稱`*` | `xsd:string` | 遮色片名稱。 |
+| `*`maskHandle`*` | `xsd:string` | 口罩手柄。 |
+| `*`名稱`*` | `xsd:string` | 遮罩名稱。 |
 | `*`maskPath`*` | `xsd:string` | 遮色片的相對路徑。 |
 | `*`maskFile`*` | `xsd:string` | 遮色片檔案. |
-| `*`lastModified`*` | `types:dateTime` | 上次修改遮色片的日期、時間和時區。 |
-
+| `*`lastModified`*` | `types:dateTime` | 上次修改掩碼的日期、時間和時區。 |
