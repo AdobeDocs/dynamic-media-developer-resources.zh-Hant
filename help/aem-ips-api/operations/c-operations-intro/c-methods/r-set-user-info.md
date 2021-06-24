@@ -4,14 +4,13 @@ solution: Experience Manager
 title: setUserInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: d8f8fe53-a874-4b77-9084-9a369862a672
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '112'
 ht-degree: 16%
 
 ---
-
 
 # setUserInfo{#setuserinfo}
 
@@ -19,7 +18,7 @@ ht-degree: 16%
 
 語法
 
-## 授權用戶類型{#section-6c28db5d15b3449492a73749e4f981ac}
+## 授權的使用者類型 {#section-6c28db5d15b3449492a73749e4f981ac}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -32,18 +31,18 @@ ht-degree: 16%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | 否 | 使用者控制代碼。 |
+| `*`userHandle`*` | `xsd:string` | 否 | 用戶句柄。 |
 | `*`firstName`*` | `xsd:string` | 是 | 名字。 |
 | `*`lastName`*` | `xsd:string` | 是 | 姓氏。 |
 | `*`電子郵件`*` | `xsd:string` | 是 | 使用者電子郵件。 |
-| `*`defaultRole`*` | `xsd:string` | 是 | 為用戶所屬的每個公司設定角色。 但請注意，`IpsAdmin`角色會覆寫其他每公司設定。 |
-| `*`passwordExpires`*` | `xsd:dateTime` | 否 | 設定的密碼到期日。 |
+| `*`defaultRole`*` | `xsd:string` | 是 | 設定使用者所屬每個公司中的角色。 但請注意，`IpsAdmin`角色會覆寫其他每公司設定。 |
+| `*`passwordExpires`*` | `xsd:dateTime` | 否 | 設定密碼的到期日期。 |
 | `*`isValid`*` | `xsd:boolean` | 是 | 確定用戶是否為有效的IPS用戶。 |
-| `*`membershArray`*` | `types:CompanyMembershipUpdateArray` | 是 | 一系列公司控制代碼。 |
+| `*`membershipArray`*` | `types:CompanyMembershipUpdateArray` | 是 | 公司控制代碼的陣列。 |
 
 **輸出(setUserInfoReturn)**
 
-IPS API不會傳回此作業的回應。
+IPS API不會針對此操作傳回回應。
 
 ## 範例 {#section-272c103076fb4de0a53729e2f6bfb895}
 
