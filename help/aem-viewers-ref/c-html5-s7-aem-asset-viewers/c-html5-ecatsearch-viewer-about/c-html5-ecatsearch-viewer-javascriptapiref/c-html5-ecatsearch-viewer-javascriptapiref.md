@@ -1,23 +1,22 @@
 ---
-description: eCatalog搜尋檢視器的主要類別為eCatalogSearchViewer。 會在s7viewers命名空間中宣告。 此JavaScript API涵蓋此特定類別的建構函式、方法和回呼。
+description: eCatalog Search Viewer的主類是eCatalogSearchViewer。 會在s7viewers命名空間中宣告。 此JavaScript API涵蓋建構函式、方法及此特定類別的回呼。
 solution: Experience Manager
-title: eCatalog搜尋檢視器的Javascript API參考
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+title: eCatalog搜尋檢視器的Javascript API參考資料
+feature: Dynamic Media Classic，檢視器，SDK/API,eCatalog搜尋
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 11436c4f-acd4-4328-a3de-cc00a80cae2b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
 
+# eCatalog搜尋檢視器的Javascript API參考資料{#javascript-api-reference-for-ecatalog-search-viewer}
 
-# eCatalog搜尋檢視器的Javascript API參考{#javascript-api-reference-for-ecatalog-search-viewer}
+eCatalog Search Viewer的主類是eCatalogSearchViewer。 會在s7viewers命名空間中宣告。 此JavaScript API涵蓋建構函式、方法及此特定類別的回呼。
 
-eCatalog搜尋檢視器的主要類別為eCatalogSearchViewer。 會在s7viewers命名空間中宣告。 此JavaScript API涵蓋此特定類別的建構函式、方法和回呼。
-
-在下列所有範例中，`<instance>`代表從`s7viewers.eCatalogSearchViewer`類別實例化的JavaScript檢視器物件的實際名稱。
+在以下所有範例中， `<instance>`代表從`s7viewers.eCatalogSearchViewer`類別實例化的JavaScript檢視器物件的實際名稱。
 
 * [處置](r-html5-ecatsearch-javascriptapiref-dispose.md)
 * [eCatalogSearchViewer](r-html5-ecatsearch-javascriptapiref-ecatalogsearchviewer.md)
