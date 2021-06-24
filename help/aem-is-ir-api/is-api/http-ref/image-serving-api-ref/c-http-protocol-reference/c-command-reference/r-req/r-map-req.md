@@ -4,20 +4,19 @@ solution: Experience Manager
 title: 地圖
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 3330f49a-934e-492a-804c-ace4d147c65a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '213'
 ht-degree: 4%
 
 ---
-
 
 # 地圖{#map}
 
 影像地圖資料。
 
-`req=map[,text|{xml[, *`EncodingreqId`*]}|{json[&id= *``*]}]`
+`req=map[,text|{xml[, *``*]}|{json[&id= *`encodingreqId`*]}]`
 
 <table id="simpletable_10F2152FDF33411491FBBAFD173CA5ED"> 
  <tr class="strow"> 
@@ -26,26 +25,26 @@ ht-degree: 4%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"><span class="varname"> reqId</span></span> </p></td> 
-  <td class="stentry"> <p>唯一的請求識別碼。 </p></td> 
+  <td class="stentry"> <p>唯一請求識別碼。 </p></td> 
  </tr> 
 </table>
 
-在查詢沒有指定其他命令的簡單目錄條目時返回`catalog::Map`（不會縮放為`catalog::maxPix`），但不進行修改。
+在查詢沒有指定其他命令的簡單目錄條目時（將不縮放為`catalog::maxPix`），返回`catalog::Map`，而不進行修改。
 
-如果請求中指定了任何其他命令，則會傳回合成影像地圖，其衍生方式是縮放、裁切、旋轉和分層請求中包含的所有`catalog::Map`和／或`map=`命令，就像影像資料與`req=img`一樣。
+如果請求中指定了任何其他命令，則會傳回複合影像映射，該映射是透過縮放、裁切、旋轉和分層請求中包含的所有`catalog::Map`和/或`map=`命令而衍生，就像影像資料會包含`req=img`一樣。
 
-指定`text`或省略第二個參數，以`HTML <AREA>`元素字串形式傳回影像地圖資料，回應MIME類型`text/plain`。
+指定`text`或忽略第二個參數，以`HTML <AREA>`元素字串的形式傳回影像映射資料，回應MIME類型`text/plain`。
 
-指定`xml`將回應格式設為XML，而非HTML。 可選擇指定文字編碼。 預設值為 `UTF-8`.
+指定`xml`以將回應格式化為XML而非HTML。 可選擇指定文字編碼。 預設值為 `UTF-8`.
 
-如果找不到指定目錄物件的對應資料，且／或在裁切影像後沒有保留`<AREA>`元素，則傳回空字串（或空的`<AREA>`元素）。
+如果沒有找到指定目錄對象的映射資料，和/或在裁切影像後沒有保留任何`<AREA>`元素，則返回空字串（或空`<AREA>`元素）。
 
-HTTP響應基於`catalog::Expiration`可以與TTL進行快取。
+HTTP回應可根據`catalog::Expiration`與TTL快取。
 
-支援JSONP回應格式的請求可讓您使用`req=`參數的擴充語法來指定JS回呼處理常式的名稱：
+支援JSONP回應格式的要求可讓您使用`req=`參數的延伸語法來指定JS回呼處理常式的名稱：
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` 是JS回應中顯示的JS處理常式名稱。僅允許a-z、A-Z和0-9字元。 選填。預設為 `s7jsonResponse`.
+`<reqHandler>` 是JSONP回應中出現的JS處理常式的名稱。僅允許a-z、A-Z和0-9個字元。 選填。預設為 `s7jsonResponse`.
 
 請參閱[影像地圖](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-image-maps.md#reference-ff7d1bac2a064104b0c508a81316fdab)。
