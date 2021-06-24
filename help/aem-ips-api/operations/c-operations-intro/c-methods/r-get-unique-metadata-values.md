@@ -1,25 +1,24 @@
 ---
-description: 取得唯一的中繼資料欄位值。
+description: 獲取唯一元資料欄位值。
 solution: Experience Manager
 title: getUniqueMetadataValues
-feature: Dynamic Media Classic,SDK/API,Metadata
+feature: Dynamic Media Classic,SDK/API，中繼資料
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: ac5f5667-6c94-425c-bc01-f9df48d16e00
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 24%
+source-wordcount: '63'
+ht-degree: 25%
 
 ---
 
-
 # getUniqueMetadataValues{#getuniquemetadatavalues}
 
-取得唯一的中繼資料欄位值。
+獲取唯一元資料欄位值。
 
 語法
 
-## 授權用戶類型{#section-6a6b67e10a4c4e7bb18306115713380e}
+## 授權的使用者類型 {#section-6a6b67e10a4c4e7bb18306115713380e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -35,7 +34,7 @@ ht-degree: 24%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 為公司負責。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 為公司處理。 |
 | `*`fieldHandle`*` | `xsd:string` | 否 | 處理中繼資料欄位。 |
 
 **輸出(getUniqueMetadataValuesReturn)**
@@ -66,4 +65,3 @@ ht-degree: 24%
    </values>
 </getUniqueMetadataValuesReturn>
 ```
-
