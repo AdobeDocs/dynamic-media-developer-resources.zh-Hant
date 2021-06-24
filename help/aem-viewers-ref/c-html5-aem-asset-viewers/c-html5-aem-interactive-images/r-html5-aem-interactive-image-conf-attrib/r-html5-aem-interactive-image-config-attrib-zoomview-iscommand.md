@@ -1,21 +1,20 @@
 ---
-description: 套用至縮放影像的「影像伺服」命令字串。
+description: 應用於縮放影像的「影像伺服」命令字串。
 solution: Experience Manager
 title: ZoomView.iscommand
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+feature: Dynamic Media Classic，檢視器， SDK/API，互動式影像
 role: Developer,Business Practitioner
 exl-id: 1c24973e-1daf-4d9d-b97c-fb6a18f506ed
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '67'
 ht-degree: 7%
 
 ---
 
 # ZoomView.iscommand{#zoomview-iscommand}
 
-套用至縮放影像的「影像伺服」命令字串。
+應用於縮放影像的「影像伺服」命令字串。
 
 ` [ZoomView.|<containerId>_zoomView.]iscommand= *`isCommand`*`
 
@@ -23,7 +22,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> iscommand</span></span> </p> </td> 
-   <td colname="col2"> <p> 如果在URL中指定，所有<span class="codeph"> &amp;</span>和<span class="codeph"> =</span>的出現次數都必須分別以HTTP編碼為<span class="codeph"> %26</span>和<span class="codeph"> %3D</span>。 </p> </td> 
+   <td colname="col2"> <p> 如果在URL中指定，則所有<span class="codeph"> &amp;</span>和<span class="codeph"> =</span>的出現次數必須分別以<span class="codeph"> %26</span>和<span class="codeph"> %3D</span>進行HTTP編碼。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -42,6 +41,6 @@ ht-degree: 7%
 
 `iscommand=op_sharpen%3d1%26op_colorize%3d0xff0000`
 
-在配置資料中指定時：
+在設定資料中指定時：
 
 `iscommand=op_sharpen=1&op_colorize=0xff0000`
