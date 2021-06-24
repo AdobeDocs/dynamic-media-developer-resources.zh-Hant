@@ -1,31 +1,30 @@
 ---
-description: 影像錨點。 指定可重複紋理、壁邊框或貼圖影像的錨點（熱點）。
+description: 影像錨點。 指定可重複紋理、壁邊框或傾斜影像的錨點（熱點）。
 solution: Experience Manager
 title: 錨點
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 1336330e-86e5-418d-bea3-0c09368e3528
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '164'
 ht-degree: 3%
 
 ---
 
-
 # 錨點{#anchor}
 
-影像錨點。 指定可重複紋理、壁邊框或貼圖影像的錨點（熱點）。
+影像錨點。 指定可重複紋理、壁邊框或傾斜影像的錨點（熱點）。
 
-可重複紋理被應用到暈映對象，以使紋理錨點位於對象的紋理原點。 貼花影像被應用到暈映對象，使得貼花錨點位於對象的貼花原點。 對於牆邊界，只使用x值；將忽略y值。
+可重複的紋理被應用到暈映對象，以便紋理錨點位於對象的紋理原點。 將傾斜影像應用於暈映對象，以便傾斜錨點位於對象的傾斜原點。 對於壁邊框，僅使用x值；會忽略y值。
 
 ## 屬性 {#section-bc4bc8b897c64535b88681e57d72942f}
 
-兩個整數，以逗號分隔。 相對於影像的左上角像素偏移。 如果`catalog::Alignment=3`和由純色和機櫃材料忽略。
+兩個整數，以逗號分隔。 像素相對於影像的左上角偏移。 如果`catalog::Alignment=3`和由實色和機櫃材料忽略。
 
 ## 預設 {#section-b7ccc419a356415294706cd295ae96c9}
 
-如果場為空或不存在，則使用用於可重複紋理材料的影像的左上角(0,0)，或在傾斜材料的情況下使用影像的中心。
+如果場為空或不存在，則使用用於可重複紋理材料的影像的左上角(0,0)，或者在呈傾斜材料的情況下使用影像的中心。
 
 ## 另請參閱 {#section-3fb2ce2f6b7240a4b6f4858022a0a01d}
 
