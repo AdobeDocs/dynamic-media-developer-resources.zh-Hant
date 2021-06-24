@@ -4,14 +4,13 @@ solution: Experience Manager
 title: getPhotoshopPathNames
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 11d4c0d0-a3a3-4324-a4a6-1dd7b7e673da
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '82'
 ht-degree: 19%
 
 ---
-
 
 # getPhotoshopPathNames{#getphotoshoppathnames}
 
@@ -19,7 +18,7 @@ ht-degree: 19%
 
 語法
 
-## 授權用戶類型{#section-baa0fd4b92bc4ad89809efd659b3a629}
+## 授權的使用者類型 {#section-baa0fd4b92bc4ad89809efd659b3a629}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -35,14 +34,14 @@ ht-degree: 19%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 包含您要使用之影像的公司控制代碼。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 處理包含您要使用之影像的公司。 |
 | `*`assetHandle`*` | `xsd:string` | 是 | 處理影像資產。 |
 
 **輸出(getPhotoshopPathNamesReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`pathNameArray`*` | `types:StringArray` | 是 | 映像中的Photoshop路徑名陣列。 |
+| `*`pathNameArray`*` | `types:StringArray` | 是 | 影像中Photoshop路徑名稱的陣列。 |
 
 ## 範例 {#section-6d316f14b4184d42af4ca3f717b042dd}
 
@@ -65,4 +64,3 @@ ht-degree: 19%
   </pathNameArray>
 </getPhotoshopPathNamesReturn>
 ```
-
