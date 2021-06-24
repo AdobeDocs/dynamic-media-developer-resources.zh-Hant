@@ -1,19 +1,18 @@
 ---
 description: 決定要從搜尋結果中排除的產生引擎和產生的資產類型。
 solution: Experience Manager
-title: 排除副產品條件
+title: ExcludeBiscullCondition
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 5b37e01b-9e9c-4d34-9d39-1f9bfe356e53
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '63'
 ht-degree: 9%
 
 ---
 
-
-# ExcludeBinsubleCondition{#excludebyproductcondition}
+# ExcludeBiscullCondition{#excludebyproductcondition}
 
 決定要從搜尋結果中排除的產生引擎和產生的資產類型。
 
@@ -24,5 +23,4 @@ ht-degree: 9%
 | 名稱 | 類型 | 說明 |
 |---|---|---|
 | `*`引擎`*` | `xsd:string` | 建立您要排除之資產的產生引擎。 有關值，請參閱層代資訊。 |
-| `*`generatedAssetType`*` | `xsd:string` | 已排除資產類型。 有關值，請參閱資產類型。 |
-
+| `*`generatedAssetType`*` | `xsd:string` | 排除的資產類型。 如需值，請參閱資產類型。 |
