@@ -2,16 +2,15 @@
 description: 更新資產權限。
 solution: Experience Manager
 title: updateAssetPermissons
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API，資產管理
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 12972a52-7b70-405c-9c73-e5ce6ab7dd9b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 20%
+source-wordcount: '61'
+ht-degree: 21%
 
 ---
-
 
 # updateAssetPermissons{#updateassetpermissons}
 
@@ -19,7 +18,7 @@ ht-degree: 20%
 
 語法
 
-## 授權用戶類型{#section-3928e9badc3842e1859af4ed362df719}
+## 授權的使用者類型 {#section-3928e9badc3842e1859af4ed362df719}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -37,7 +36,7 @@ ht-degree: 20%
 
 **輸出(updateAssetPermissionsReturn)**
 
-IPS API不會傳回此作業的回應。
+IPS API不會針對此操作傳回回應。
 
 ## 範例 {#section-1b7b7dbfdab34c819a53f3d33004e1f9}
 
