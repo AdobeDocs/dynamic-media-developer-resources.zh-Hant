@@ -1,25 +1,24 @@
 ---
-description: Video360檢視器的設定屬性。
+description: Video360查看器的配置屬性。
 solution: Experience Manager
 title: EmbedShare.embedsizes
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+feature: Dynamic Media Classic，檢視器，SDK/API,360 VR影片
 role: Developer,Business Practitioner
 exl-id: 3a6c23dd-5e2c-4149-aa24-37d445128125
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '65'
 ht-degree: 10%
 
 ---
 
 # EmbedShare.embedsizes{#embedshare-embedsizes}
 
-Video360檢視器的設定屬性。
+Video360查看器的配置屬性。
 
-` [EmbedShare.|<containerId>_embedShare.]embedsizes= *`寬高`*, *``*[,0|1][; *``*, *`寬高`*[,0|1]]`
+` [EmbedShare.|<containerId>_embedShare.]embedsizes= *``*, *``*[,0|1][; *``*, *`widthheightwidthheight`*[,0|1]]`
 
-在內嵌共用模式對話方塊中，指定大小組合方塊的內嵌大小清單。
+在內嵌共用強制回應對話方塊中，指定大小下拉式方塊的內嵌大小清單。
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
@@ -33,7 +32,7 @@ Video360檢視器的設定屬性。
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 指定是否應在組合框中初始預選此清單項。 </p> </td> 
+   <td colname="col2"> <p> 指定是否應在組合框中最初預選此清單項。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
