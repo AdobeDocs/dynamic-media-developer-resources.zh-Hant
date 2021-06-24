@@ -1,25 +1,24 @@
 ---
-description: 使用介面元素時，會使用CSS類別選擇器來控制顯示在焦點檢視器周圍的輸入焦點反白顯示。
+description: 焦點檢視器使用介面元素周圍顯示的輸入焦點醒目提示，是由CSS類別選取器控制。
 solution: Experience Manager
-title: 焦點反白顯示
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+title: 焦點醒目提示
+feature: Dynamic Media Classic，檢視器，SDK/API，縮放
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 74ff9669-d56b-4731-9d4a-dda7c831e162
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '85'
 ht-degree: 1%
 
 ---
 
+# 焦點醒目提示{#focus-highlight}
 
-# 焦點反白顯示{#focus-highlight}
-
-使用介面元素時，會使用CSS類別選擇器來控制顯示在焦點檢視器周圍的輸入焦點反白顯示。
+焦點檢視器使用介面元素周圍顯示的輸入焦點醒目提示，是由CSS類別選取器控制。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-外觀是使用下列CSS類別選取器來控制：
+使用以下CSS類選擇器控制外觀：
 
 ```
 .s7basiczoomviewer *:focus
@@ -35,16 +34,15 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 大綱  </span> </p> </td> 
-   <td colname="col2"> <p>焦點反白顯示樣式。 </p> </td> 
+   <td colname="col2"> <p>焦點突出顯示樣式。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-範例——若要停用所有檢視器使用者介面元素的預設瀏覽器焦點反白顯示，請將下列CSS選取器新增至檢視器的樣式表：
+範例：若要停用所有檢視器使用者介面元素的預設瀏覽器焦點醒目提示，請將下列CSS選取器新增至檢視器的樣式表：
 
 ```
 .s7basiczoomviewer *:focus { 
  outline: none; 
 }
 ```
-
