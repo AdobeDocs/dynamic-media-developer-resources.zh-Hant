@@ -1,17 +1,16 @@
 ---
 description: 視訊資產屬性。
 solution: Experience Manager
-title: 視訊資訊
-feature: Dynamic Media Classic,SDK/API,Video
+title: VideoInfo
+feature: Dynamic Media Classic, SDK/API，影片
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 4f01d54b-1799-40f8-8c46-f170ceffdd25
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '69'
+source-wordcount: '67'
 ht-degree: 10%
 
 ---
-
 
 # VideoInfo{#videoinfo}
 
@@ -27,7 +26,6 @@ ht-degree: 10%
 | `*`originalFile`*` | `xsd:string` | 原始視訊檔案的名稱。 |
 | `*`fileSize`*` | `xsd:int` | 檔案大小. |
 | `*`imagePath`*` | `xsd:string` | 視訊檔案的相對路徑。 |
-| `*`imageFile`*` | `xsd:string` | 視訊檔案的檔案名稱。 |
-| `*`optimizedPath`*` | `xsd:string` | IPS最佳化視訊檔案的路徑。 |
+| `*`imageFile`*` | `xsd:string` | 視訊檔案的檔案名。 |
+| `*`optimizedPath`*` | `xsd:string` | IPS優化視頻檔案的路徑。 |
 | `*`optimizedFile`*` | `xsd:string` | IPS優化視頻檔案的檔案名。 |
-
