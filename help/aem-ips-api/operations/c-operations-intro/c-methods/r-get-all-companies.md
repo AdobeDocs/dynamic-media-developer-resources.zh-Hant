@@ -4,14 +4,13 @@ solution: Experience Manager
 title: getAllCompanies
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 0e339ecf-83b5-410c-8683-f3d73bd92339
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 19%
+source-wordcount: '75'
+ht-degree: 20%
 
 ---
-
 
 # getAllCompanies{#getallcompanies}
 
@@ -19,7 +18,7 @@ ht-degree: 19%
 
 語法
 
-## 授權用戶類型{#section-773db3753b4842e5a4623ad810176508}
+## 授權的使用者類型 {#section-773db3753b4842e5a4623ad810176508}
 
 * `IpsAdmin`
 
@@ -29,17 +28,17 @@ ht-degree: 19%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`includeExpired`*` | `xsd:boolean` | 是 | 設為true可退還過期和未過期的公司。 |
+| `*`includeExpired`*` | `xsd:boolean` | 是 | 設為true ，可傳回過期和未過期的公司。 |
 
 **輸出(getAllCompaniesReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyArray`*` | `types:CompanyArray` | 是 | 眾多公司。 |
+| `*`companyArray`*` | `types:CompanyArray` | 是 | 公司的陣列。 |
 
 ## 範例 {#section-3eecf4e6900b41fb92a0e3214791c6b9}
 
-此代碼示例返回陣列中IPS中的所有公司。 請注意，範例回應會因簡短而截斷。
+此程式碼範例會傳回陣列中IPS中的所有公司。 請注意，為了簡單起見，範例回應會遭截斷。
 
 **請求**
 
@@ -70,4 +69,3 @@ ht-degree: 19%
    </ns1:companyArray>
 </ns1:getAllCompaniesReturn>
 ```
-
