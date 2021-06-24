@@ -1,17 +1,16 @@
 ---
 description: 特定資產的使用者定義欄位定義。
 solution: Experience Manager
-title: 中繼資料欄位
-feature: Dynamic Media Classic,SDK/API,Metadata
+title: MetadataField
+feature: Dynamic Media Classic,SDK/API，中繼資料
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 97175076-9078-4bc4-b3ea-73c3ea772f6a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '151'
 ht-degree: 14%
 
 ---
-
 
 # MetadataField{#metadatafield}
 
@@ -33,7 +32,7 @@ ht-degree: 14%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> 中繼資料欄位控制代碼。 </td> 
+   <td colname="col3"> 元資料欄位句柄。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 名稱</span> </span> </td> 
@@ -53,28 +52,27 @@ ht-degree: 14%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> isRequired</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> 設定必要狀態。 </td> 
+   <td colname="col3"> 設定所需狀態。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> isUserDefined</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd：布林值</span> </td> 
-   <td colname="col3"> 確定是否由用戶定義元資料欄位。 </td> 
+   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col3"> 判斷中繼資料欄位是否由使用者定義。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
-   <td colname="col2"><span class="codeph"> xsd：布林值</span> </td> 
-   <td colname="col3">隱藏或公開IPS系統特定的元資料。 從<a href="../../operations/c-operations-intro/c-methods/r-get-metadata-fields.md#reference-170337127801401d9ea54bd4ccf28efe" format="dita" scope="local"> getMetadataFields</a>和<a href="../../operations/c-operations-intro/c-methods/r-get-asset-metadata-fields.md#reference-ea57f8e98d3e443da66114550b0d0a28" format="dita" scope="local"> getAssetMetadataFields</a>傳回。 </td> 
+   <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col3">隱藏或公開IPS系統特定元資料。 從<a href="../../operations/c-operations-intro/c-methods/r-get-metadata-fields.md#reference-170337127801401d9ea54bd4ccf28efe" format="dita" scope="local"> getMetadataFields</a>和<a href="../../operations/c-operations-intro/c-methods/r-get-asset-metadata-fields.md#reference-ea57f8e98d3e443da66114550b0d0a28" format="dita" scope="local"> getAssetMetadataFields</a>傳回。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
-   <td colname="col2"><span class="codeph"> xsd：布林值</span> </td> 
-   <td colname="col3"> <p>一個布林標幟，指出設定值時是否強制（驗證）中繼資料欄位類型。 </p> <p>如果設為true，則如果在<span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>中設定了非法值，則會擲回錯誤。 </p> </td> 
+   <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col3"> <p>此布林值標幟可指出設定值時是否強制（驗證）中繼資料欄位類型。 </p> <p>如果設為true，則如果在<span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>中設定了非法值，則會擲回錯誤。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> 可讓您建立一組共用列舉值，供選取的標籤指向。 </td> 
+   <td colname="col3"> 可讓您建立一組所選標籤可指向的共用枚舉值。 </td> 
   </tr> 
  </tbody> 
 </table>
-
