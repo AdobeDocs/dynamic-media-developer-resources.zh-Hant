@@ -1,25 +1,24 @@
 ---
-description: 建立現有影像資產的復本。 將應用指定的映像伺服器協定命令來生成新副本
+description: 建立現有影像資產的復本。 將應用指定的映像伺服器協定命令以生成新副本
 solution: Experience Manager
 title: copyImage
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 059ebbca-2341-444b-850a-1ec9582692ec
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '144'
 ht-degree: 21%
 
 ---
 
-
 # copyImage{#copyimage}
 
-建立現有影像資產的復本。 將應用指定的映像伺服器協定命令來生成新副本
+建立現有影像資產的復本。 將應用指定的映像伺服器協定命令以生成新副本
 
 語法
 
-## 授權用戶類型{#section-c9fe7abb550e495f832234f845db7d6e}
+## 授權的使用者類型 {#section-c9fe7abb550e495f832234f845db7d6e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -46,13 +45,13 @@ ht-degree: 21%
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>包含影像之公司的控點。 </p> </td> 
+   <td colname="col4"> <p>包含影像之公司的控制代碼。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>影像資產的控點。 </p> </td> 
+   <td colname="col4"> <p>影像資產的控制代碼。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> folderHandle</span> </span> </p> </td> 
@@ -98,7 +97,7 @@ ht-degree: 21%
 
 ## 範例 {#section-c30a4017001146e7befbbfc5ffcb7593}
 
-范常式式碼會複製公司、資產、資料夾控制代碼和名稱所指定的影像。
+范常式式碼會複製由公司、資產、資料夾控制代碼和名稱指定的影像。
 
 **請求**
 
@@ -119,4 +118,3 @@ ht-degree: 21%
    <assetHandle>a|943|1|580</assetHandle>
 </copyImageReturn>
 ```
-
