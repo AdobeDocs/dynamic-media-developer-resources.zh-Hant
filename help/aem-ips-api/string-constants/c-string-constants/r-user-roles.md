@@ -1,25 +1,24 @@
 ---
-description: 說明各種參數使用的值。 如需詳細資訊，請參閱本文中的清單
+description: 說明各種參數所使用的值。 如需詳細資訊，請參閱本文的清單
 solution: Experience Manager
-title: 用戶角色
+title: 使用者角色
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: f94443ba-7715-4790-bd2a-120e0cb8848e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '43'
+source-wordcount: '41'
 ht-degree: 4%
 
 ---
 
+# 使用者角色{#user-roles}
 
-# 用戶角色{#user-roles}
-
-說明各種參數使用的值。 如需詳細資訊，請參閱本文中的清單
+說明各種參數所使用的值。 如需詳細資訊，請參閱本文的清單
 
 語法
 
-## 使用者{#section-b76ffce62661481abe2bb02adfd3f36f}
+## 使用者 {#section-b76ffce62661481abe2bb02adfd3f36f}
 
 * [!DNL `User/role`]
 * [!DNL `addUserParam/role`]
@@ -39,4 +38,3 @@ ht-degree: 4%
 * [!DNL `ImagePortalUser`]
 * [!DNL `ImagePortalContrib`]
 * [!DNL `ImagePortalContribUser`]
-
