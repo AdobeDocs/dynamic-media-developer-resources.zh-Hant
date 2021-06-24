@@ -4,14 +4,13 @@ solution: Experience Manager
 title: getJobLogs
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 6239c3c4-bdbc-4e69-82d4-48a76f080eff
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 10%
+source-wordcount: '189'
+ht-degree: 11%
 
 ---
-
 
 # getJobLogs{#getjoblogs}
 
@@ -19,7 +18,7 @@ ht-degree: 10%
 
 語法
 
-## 授權用戶類型{#section-9df82972265d44c9ad91504a17c3ffa6}
+## 授權的使用者類型 {#section-9df82972265d44c9ad91504a17c3ffa6}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -41,8 +40,8 @@ ht-degree: 10%
 | `*`userHandle`*` | `xsd:string` | 否 | 獲取特定用戶提交的作業的日誌。 |
 | `*`sortBy`*` | `xsd:string` | 否 | 可讓您選取排序欄位。 |
 | `*`sortDirection`*` | `xsd:string` | 否 | 排序順序（遞增或遞減）。 |
-| `*`startDate`*` | `xsd:dateTime` | 否 | 作業日誌開始的日期和時間。 為時區提供此欄位的請求。 |
-| `*`endDate`*` | `xsd:dateTime` | 否 | 作業日誌結束的日期和時間。 為時區提供此欄位的請求。 |
+| `*`startDate`*` | `xsd:dateTime` | 否 | 作業日誌的開始日期和時間。 為時區提供此欄位的要求。 |
+| `*`endDate`*` | `xsd:dateTime` | 否 | 作業日誌結束的日期和時間。 為時區提供此欄位的要求。 |
 | `*`numRows`*` | `xsd:int` | 否 | 要返回的最大行數。 |
 
 **輸出(getJobLogsReturn)**
@@ -53,7 +52,7 @@ ht-degree: 10%
 
 ## 範例 {#section-35871c94b4a44559912577efddbc46a6}
 
-此程式碼範例會傳回特定公司的IPS工作記錄檔。 您也可以使用它來傳回特定使用者、公司及使用者的工作記錄檔。
+此程式碼範例會傳回特定公司的IPS作業記錄。 您也可以使用它來傳回特定使用者、公司和使用者的工作記錄。
 
 **請求**
 
@@ -86,4 +85,3 @@ ht-degree: 10%
    </jobLogArray>
 </getJobLogsReturn>
 ```
-
