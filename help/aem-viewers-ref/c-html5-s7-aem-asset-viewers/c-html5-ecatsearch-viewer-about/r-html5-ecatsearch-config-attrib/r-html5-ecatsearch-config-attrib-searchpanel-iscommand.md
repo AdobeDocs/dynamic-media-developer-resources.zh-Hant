@@ -2,16 +2,15 @@
 description: SearchPanel.iscommand
 solution: Experience Manager
 title: SearchPanel.iscommand
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic，檢視器，SDK/API,eCatalog搜尋
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 4e843866-75a5-4543-a275-e134b3aee75a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '60'
+source-wordcount: '57'
 ht-degree: 8%
 
 ---
-
 
 # SearchPanel.iscommand{#searchpanel-iscommand}
 
@@ -21,7 +20,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> isCommand</span></span> </p> </td> 
-   <td colname="col2"> <p> 套用至所有縮圖的「影像伺服」命令字串。 如果在URL中指定，所有<span class="codeph"> &amp;</span>和<span class="codeph"> =</span>的出現次數都必須分別以HTTP編碼為<span class="codeph"> %26</span>和<span class="codeph"> %3D</span>。 </p> </td> 
+   <td colname="col2"> <p> 套用至所有縮圖的「影像伺服」命令字串。 如果在URL中指定，則所有<span class="codeph"> &amp;</span>和<span class="codeph"> =</span>的出現次數必須分別以<span class="codeph"> %26</span>和<span class="codeph"> %3D</span>進行HTTP編碼。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -40,6 +39,6 @@ ht-degree: 8%
 
 [!DNL `iscommand=op_sharpen%3d1%26op_colorize%3d0xff0000`]
 
-在配置資料中指定時。
+在設定資料中指定時。
 
 [!DNL `iscommand=op_sharpen=1&op_colorize=0xff0000`]
