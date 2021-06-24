@@ -4,14 +4,13 @@ solution: Experience Manager
 title: PdfSettingsInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 5bf316ec-7f92-4384-8a4e-b80610e5839b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 23%
+source-wordcount: '37'
+ht-degree: 24%
 
 ---
-
 
 # PdfSettingsInfo{#pdfsettingsinfo}
 
@@ -26,4 +25,3 @@ PDF設定檔案資產的屬性。
 | `*`originalPath`*` | `xsd:string` | 檔案路徑。 |
 | `*`originalFile`*` | `xsd:string` | 檔案名稱. |
 | `*`fileSize`*` | `xsd:int` | 檔案大小. |
-
