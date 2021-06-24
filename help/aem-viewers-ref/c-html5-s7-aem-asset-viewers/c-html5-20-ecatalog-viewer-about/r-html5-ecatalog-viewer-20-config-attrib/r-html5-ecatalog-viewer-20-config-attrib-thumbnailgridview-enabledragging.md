@@ -2,20 +2,19 @@
 description: ThumbnailGridView.enabledragging
 solution: Experience Manager
 title: ThumbnailGridView.enabledragging
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic，檢視器，SDK/API,eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: e3615e82-d8f0-427e-ab32-f7d0f2b6cbf3
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 5%
+source-wordcount: '82'
+ht-degree: 6%
 
 ---
 
-
 # ThumbnailGridView.enabledragging{#thumbnailgridview-enabledragging}
 
-` [ThumbnailGridView.|<containerId>_gridView.]enabledragging=0|1[, *`過度拖放`*]`
+` [ThumbnailGridView.|<containerId>_gridView.]enabledragging=0|1[, *`過度拖放值`*]`
 
 <table id="table_B1363BFD20204093AAB326A1AB503B93"> 
  <tbody> 
@@ -24,8 +23,8 @@ ht-degree: 5%
    <td> <p> 啟用或停用使用者使用滑鼠或使用觸控手勢捲動色票的能力 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> 過度拖放  </span> </span> </p> </td> 
-   <td> <p> <span class="codeph"> 0-1 </span>範圍內的函式。 它是<span class="codeph"> % </span>值，用於在實際速度的錯誤方向上移動。 如果設定為<span class="codeph"> 1 </span> ，則它隨滑鼠移動。 如果設為<span class="codeph"> 0 </span>，則完全不會讓您朝錯誤的方向移動。 </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> 過度拖放值  </span> </span> </p> </td> 
+   <td> <p> <span class="codeph"> 0-1 </span>範圍內的函式。 它是<span class="codeph"> % </span>值，用於在實際速度的錯誤方向上移動。 如果設定為<span class="codeph"> 1 </span>，則會隨滑鼠移動。 如果設為<span class="codeph"> 0 </span>，則完全不會讓您朝錯誤的方向移動。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
