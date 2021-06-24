@@ -4,14 +4,13 @@ solution: Experience Manager
 title: getGroupMembers
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 81af79ee-be82-439f-9f42-a1ec09cd8ea0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '86'
 ht-degree: 17%
 
 ---
-
 
 # getGroupMembers{#getgroupmembers}
 
@@ -19,7 +18,7 @@ ht-degree: 17%
 
 語法
 
-## 授權用戶類型{#section-08a73460d122480292205bb8f2df9220}
+## 授權的使用者類型 {#section-08a73460d122480292205bb8f2df9220}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -32,13 +31,13 @@ ht-degree: 17%
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | 是 | 公司的把手。 |
-| `*`groupHandle`*` | `xsd:string` |  | 群組的控點。 |
+| `*`groupHandle`*` | `xsd:string` |  | 組的句柄。 |
 
 **輸出(getGroupMembersReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`userHandleArray`*` | `type:HandleArray` | 是 | 一組用戶句柄。 |
+| `*`userHandleArray`*` | `type:HandleArray` | 是 | 用戶句柄的陣列。 |
 
 ## 範例 {#section-aaa340dba6b64cce9bcd8303cf999166}
 
@@ -62,4 +61,3 @@ ht-degree: 17%
    </userHandleArray>
 </getGroupMembersReturn>
 ```
-
