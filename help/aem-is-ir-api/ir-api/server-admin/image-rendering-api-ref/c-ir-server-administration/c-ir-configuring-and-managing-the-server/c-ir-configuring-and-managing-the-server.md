@@ -1,24 +1,23 @@
 ---
-description: 本節包含有助於設定和管理影像渲染伺服器的資訊。
+description: 本節包含的資訊可幫助您設定和管理影像呈現伺服器。
 solution: Experience Manager
 title: 配置和管理伺服器
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 357e5660-1e62-4aa0-91c2-696cacac8f86
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '74'
 ht-degree: 0%
 
 ---
 
-
 # 配置和管理伺服器{#configuring-and-managing-the-server}
 
-本節包含有助於設定和管理影像渲染伺服器的資訊。
+本節包含的資訊可幫助您設定和管理影像呈現伺服器。
 
 >[!NOTE]
 >
->影像伺服必須正確設定並正常運作，才能正確運作影像演算。
+>影像提供必須正確設定並正常運作，才能正確運作影像轉譯。
 
-如需詳細資訊，請參閱「材料目錄參考」、「HTTP通訊協定參考」、「發行說明」、「影像伺服檔案」
+如需詳細資訊，請參閱材料目錄參考、 HTTP通訊協定參考、發行說明、影像伺服檔案
