@@ -1,21 +1,20 @@
 ---
-description: 縮圖的預設背景顏色。 用於填充輸出縮圖影像的區域的RGB值，該影像不包含實際影像資料。
+description: 縮圖的預設背景顏色。 RGB值，用於填充輸出縮略圖影像的區域，該影像不包含實際影像資料。
 solution: Experience Manager
 title: ThumbBkgColor
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 88acf5ad-2973-42f9-9aaa-901e66b07f53
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 5%
+source-wordcount: '83'
+ht-degree: 6%
 
 ---
 
-
 # ThumbBkgColor{#thumbbkgcolor}
 
-縮圖的預設背景顏色。 用於填充輸出縮圖影像的區域的RGB值，該影像不包含實際影像資料。
+縮圖的預設背景顏色。 RGB值，用於填充輸出縮略圖影像的區域，該影像不包含實際影像資料。
 
 僅用於縮圖請求(`req=tmb`)，以及當`catalog::ThumbType`設為2或3時。
 
@@ -25,7 +24,7 @@ ht-degree: 5%
 
 ## 預設 {#section-b02bb56dda684ff9969806ce82ba00c2}
 
-如果未定義或為空，則繼承自`default::ThumbBkgColor`。
+如果未定義或為空，則從`default::ThumbBkgColor`繼承。
 
 ## 另請參閱 {#section-27983dc885424dfbba8c8e4192f3f88d}
 
