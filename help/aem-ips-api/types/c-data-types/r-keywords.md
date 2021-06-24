@@ -4,14 +4,13 @@ solution: Experience Manager
 title: 關鍵字
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 5eb9ca70-5971-412d-92d1-4e9898d556fd
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 31%
+source-wordcount: '46'
+ht-degree: 32%
 
 ---
-
 
 # 關鍵字{#keywords}
 
@@ -23,8 +22,7 @@ ht-degree: 31%
 |---|---|---|
 | `*`關鍵字`*` | `xsd:string` | 關鍵字. |
 | `*`狀態`*` | `xsd:boolean` | 關鍵字有效性。 |
-| `*`x`*` | `xsd:int` | 關鍵字在x軸上的位置（以像素為單位）。 |
-| `*`y`*` | `xsd:int` | 關鍵字在y軸上的位置（以像素為單位）。 |
+| `*`x`*` | `xsd:int` | x軸上的關鍵字位置（像素）。 |
+| `*`y`*` | `xsd:int` | Y軸上的關鍵字位置（像素）。 |
 | `*`width`*` | `xsd:int` | 關鍵字寬度（像素）。 |
-| `*`height`*` | `xsd:int` | 關鍵字高度（以像素為單位）。 |
-
+| `*`height`*` | `xsd:int` | 關鍵字高度（像素）。 |
