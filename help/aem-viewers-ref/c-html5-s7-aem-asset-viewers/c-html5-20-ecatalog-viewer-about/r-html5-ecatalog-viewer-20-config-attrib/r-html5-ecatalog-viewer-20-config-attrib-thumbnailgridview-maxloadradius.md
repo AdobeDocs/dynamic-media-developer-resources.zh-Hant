@@ -2,16 +2,15 @@
 description: ThumbnailGridView.maxloadradius
 solution: Experience Manager
 title: ThumbnailGridView.maxloadradius
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic，檢視器，SDK/API,eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: e93de3b5-b42d-4db8-90b9-9e2aa53af775
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '61'
 ht-degree: 6%
 
 ---
-
 
 # ThumbnailGridView.maxloadradius{#thumbnailgridview-maxloadradius}
 
@@ -21,7 +20,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph">-1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p>指定元件預載行為。 </p> <p>當設為<span class="codeph"> -1</span>時，當初始化元件或更改資產時，將同時載入縮略圖。 </p> <p>設為<span class="codeph"> 0</span>時，僅載入可見的縮圖。 </p> <p>設定<span class="codeph"><span class="varname"> preloadnbr</span></span>定義預先載入可見區域周圍的不可見列／欄數。 </p> </td> 
+   <td colname="col2"> <p>指定元件預載行為。 </p> <p>設為<span class="codeph"> -1</span>時，當元件初始化或資產變更時，會同時載入縮圖。 </p> <p>設為<span class="codeph"> 0</span>時，只會載入可見的縮圖。 </p> <p>設定<span class="codeph"><span class="varname"> preloadnbr</span></span>定義預載可見區域周圍的不可見行/列的數量。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
