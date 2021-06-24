@@ -1,27 +1,26 @@
 ---
-description: 混合模式. 指定合成圖層時使用的混合類型。 模擬Photoshop市常用的混合模式。 請參閱Photoshop檔案以取得詳細資訊。
+description: 混合模式. 指定合成圖層時使用的混合類型。 模擬Photoshop中可用的常用混合模式。 如需詳細資訊，請參閱Photoshop檔案。
 solution: Experience Manager
 title: blendMode
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 8f0b8b0a-a8ac-4932-986c-5d14d3311f1b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 14%
+source-wordcount: '72'
+ht-degree: 15%
 
 ---
 
-
 # blendMode{#blendmode}
 
-混合模式. 指定合成圖層時使用的混合類型。 模擬Photoshop市常用的混合模式。 請參閱Photoshop檔案以取得詳細資訊。
+混合模式. 指定合成圖層時使用的混合類型。 模擬Photoshop中可用的常用混合模式。 如需詳細資訊，請參閱Photoshop檔案。
 
 `blendMode=norm|dissolve|lighten|darken|mult|screen`
 
 ## 屬性 {#section-418aad5a417f49929d1953e226e5c8dd}
 
-圖層屬性。 被`layer=0`和`layer=comp`忽略。
+層屬性。 由`layer=0`和`layer=comp`忽略。
 
 ## 預設 {#section-69829acc6532448d8612a4a54e86f00e}
 
