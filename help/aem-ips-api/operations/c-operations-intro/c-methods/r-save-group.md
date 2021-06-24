@@ -4,14 +4,13 @@ solution: Experience Manager
 title: saveGroup
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 1dd980e7-eb38-4c90-b4fc-83327d4a95f5
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '97'
 ht-degree: 20%
 
 ---
-
 
 # saveGroup{#savegroup}
 
@@ -19,7 +18,7 @@ ht-degree: 20%
 
 語法
 
-## 授權用戶類型{#section-a6c1ce4c69f44ad0bcd41bbf3893bc45}
+## 授權的使用者類型 {#section-a6c1ce4c69f44ad0bcd41bbf3893bc45}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,8 +30,8 @@ ht-degree: 20%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 包含您要儲存之群組的公司控制代碼。 |
-| `*`groupHandle`*` | `xsd:string` | 否 | 群組的控點。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 含有您要儲存之群組的公司控制代碼。 |
+| `*`groupHandle`*` | `xsd:string` | 否 | 組的句柄。 |
 | `*`名稱`*` | `xsd:string` | 是 | 群組名稱. |
 | `*`isSystemDefined`*` | `xsd:boolean` | 是 | `false` 為預設值。 |
 
@@ -40,7 +39,7 @@ ht-degree: 20%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`groupHandle`*` | `xsd:string` | 是 | 群組控制代碼。 |
+| `*`groupHandle`*` | `xsd:string` | 是 | 組句柄。 |
 
 ## 範例 {#section-26eee227ff1f4edabb7fa1240b4d9999}
 
@@ -63,4 +62,3 @@ ht-degree: 20%
    <groupHandle>281</groupHandle>
 </saveGroupReturn>
 ```
-
