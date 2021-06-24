@@ -4,14 +4,13 @@ solution: Experience Manager
 title: saveZoomTarget
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 595fd5c8-4e98-4c1a-b396-c8e170aaf454
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 19%
+source-wordcount: '129'
+ht-degree: 20%
 
 ---
-
 
 # saveZoomTarget{#savezoomtarget}
 
@@ -19,7 +18,7 @@ ht-degree: 19%
 
 語法
 
-## 授權用戶類型{#section-823cd9f0557045bca51da66768b5ba74}
+## 授權用戶類型 {#section-823cd9f0557045bca51da66768b5ba74}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,21 +33,21 @@ ht-degree: 19%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 包含您要儲存之縮放目標之公司的控制代碼。 |
-| `*`assetHandle`*` | `xsd:string` | 是 | 縮放目標的控點。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 含有您要儲存之縮放目標的公司控制代碼。 |
+| `*`assetHandle`*` | `xsd:string` | 是 | 縮放目標的控制滑塊。 |
 | `*`zoomTargetHandle`*` | `xsd:string` | 否 | 編輯或建立縮放目標。 |
 | `*`名稱`*` | `xsd:string` | 是 | 縮放目標名稱。 |
-| `*`xPosition`*` | `xsd:int` | 是 | 左側像素位置。 |
-| `*`yPosition`*` | `xsd:int` | 是 | 最上方像素位置。 |
+| `*`xPosition`*` | `xsd:int` | 是 | 左像素位置。 |
+| `*`yPosition`*` | `xsd:int` | 是 | 頂部像素位置。 |
 | `*`width`*` | `xsd:int` | 是 | 縮放目標寬度。 |
 | `*`height`*` | `xsd:int` | 是 | 縮放目標高度。 |
-| `*`使用者資料`*` | `xsd:string` | 是 | 針對特定客戶的資訊。 可以包含任何類型的資料。 |
+| `*`使用者資料`*` | `xsd:string` | 是 | 以取得客戶專屬資訊。 可包含任何類型的資料。 |
 
 **輸出(saveZoomTargetReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`zoomTargetHandle`*` | `xsd:string` | 是 | 控制代碼至新建立的縮放目標。 |
+| `*`zoomTargetHandle`*` | `xsd:string` | 是 | 處理新建立的縮放目標。 |
 
 ## 範例 {#section-509c472c316549cdb228d7e1cfa8400a}
 
@@ -76,4 +75,3 @@ ht-degree: 19%
    <zoomTargetHandle>34194|9|301</zoomTargetHandle>
 </saveZoomTargetReturn>
 ```
-
