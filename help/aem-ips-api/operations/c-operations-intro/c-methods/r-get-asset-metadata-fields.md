@@ -2,16 +2,15 @@
 description: 傳回依資產類型分組的所有中繼資料欄位。
 solution: Experience Manager
 title: getAssetMetadataFields
-feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
+feature: Dynamic Media Classic, SDK/API，中繼資料，資產管理
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 5234d3ea-c333-4e35-91ae-ce3412919fda
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 20%
+source-wordcount: '71'
+ht-degree: 21%
 
 ---
-
 
 # getAssetMetadataFields{#getassetmetadatafields}
 
@@ -19,7 +18,7 @@ ht-degree: 20%
 
 語法
 
-## 授權用戶類型{#section-e19a9d21cc2b45469c233d4ae55ebfc2}
+## 授權的使用者類型 {#section-e19a9d21cc2b45469c233d4ae55ebfc2}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -41,7 +40,7 @@ ht-degree: 20%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`assetFieldArray`*` | `types:AssetMetadataFieldsArray` | 是 | 中繼資料欄位的陣列，依資產類型區分。 |
+| `*`assetFieldArray`*` | `types:AssetMetadataFieldsArray` | 是 | 中繼資料欄位陣列，依資產類型。 |
 
 ## 範例 {#section-d79ab85f29144635b0b61416e52f4f3f}
 
@@ -57,7 +56,7 @@ ht-degree: 20%
 
 >[!NOTE]
 >
->因簡短性而截斷。
+>為簡潔而截斷。
 
 ```java
 <getAssetMetadataFieldsReturn xmlns="http://www.scene7.com/IpsApi/xsd/2009-07-31">
@@ -68,4 +67,3 @@ ht-degree: 20%
    </assetFieldsArray>
 <getAssetMetadataFieldsReturn>
 ```
-
