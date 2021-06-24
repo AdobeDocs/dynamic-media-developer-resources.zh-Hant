@@ -1,21 +1,20 @@
 ---
-description: Video360檢視器的設定屬性。
+description: Video360查看器的配置屬性。
 solution: Experience Manager
 title: VideoScrubber.timepattern
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+feature: Dynamic Media Classic，檢視器，SDK/API,360 VR影片
 role: Developer,Business Practitioner
 exl-id: f438a06b-6cf4-4bcd-9c4a-ed56f6a9c639
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '122'
 ht-degree: 3%
 
 ---
 
 # VideoScrubber.timepattern{#videoscrubber-timepattern}
 
-Video360檢視器的設定屬性。
+Video360查看器的配置屬性。
 
 `[VideoScrubber.|<containerId>_videoScrubber.]timepattern=[h:]m|mm:s|ss`
 
@@ -23,7 +22,7 @@ Video360檢視器的設定屬性。
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> [h:]m|mm:s|ss</span> </p> </td> 
-   <td colname="col2"> <p> 設定在時間泡泡中顯示的時間模式，其中<span class="codeph"> h</span>是小時，<span class="codeph"> m</span>是分鐘，<span class="codeph"> s</span>是秒。 </p> <p>每個時間單位使用的字母數決定單位要顯示的位數。 如果數字不能與給定數字匹配，則等效值將顯示在後續單位中。 </p> <p>例如，如果目前的影片時間是67分5秒，則時間模式<span class="codeph"> m:ss</span>會顯示為67:05。 如果給定時間模式為<span class="codeph"> h:mm:s</span>，則顯示相同時間。 </p> </td> 
+   <td colname="col2"> <p> 設定時間泡泡中顯示的時間模式，其中<span class="codeph"> h</span>為小時，<span class="codeph"> m</span>為分鐘，而<span class="codeph"> s</span>為秒。 </p> <p>每個時間單位使用的字母數決定單位要顯示的位數。 如果數字不能滿足給定位數，則等效值將以後續單位顯示。 </p> <p>例如，如果目前的影片時間是67分鐘5秒，則時間模式<span class="codeph"> m:ss</span>顯示為67:05。 如果給定的時間模式為<span class="codeph"> h:mm:s</span>，則將該時間顯示為1:07:5。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
