@@ -1,29 +1,28 @@
 ---
-description: 主視圖由靜態影像、放大影像、高亮導航區域和提示資訊組成。
+description: 主視圖由靜態影像、彈出視圖中顯示的縮放影像、靜態影像上顯示的突出顯示導航區域以及靜態影像上顯示的提示消息組成。
 solution: Experience Manager
-title: 彈出式縮放檢視
-feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
+title: 彈出縮放視圖
+feature: Dynamic Media Classic，檢視器，SDK/API,Flyout
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: c04c4b8f-4e63-4e84-98c0-aa0781608130
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '628'
 ht-degree: 3%
 
 ---
 
-
 # 彈出縮放視圖{#flyout-zoom-view}
 
-主視圖由靜態影像、放大影像、高亮導航區域和提示資訊組成。
+主視圖由靜態影像、彈出視圖中顯示的縮放影像、靜態影像上顯示的突出顯示導航區域以及靜態影像上顯示的提示消息組成。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-如果所檢視的影像尺寸不符合彈出縮放檢視的尺寸，影像內容會置於彈出縮放檢視的矩形顯示區域中。
+如果所查看影像的尺寸與彈出縮放視圖的尺寸不匹配，則影像內容會置於彈出縮放視圖的矩形顯示區域中。
 
-**主視圖的CSS屬性**
+**主檢視的CSS屬性**
 
-主檢視的外觀是使用下列CSS類別選擇器來控制：
+主要檢視的外觀由下列CSS類別選取器控制：
 
 ```
 .s7flyoutviewer .s7flyoutzoomview
@@ -38,13 +37,13 @@ ht-degree: 3%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景顏色  </span> </p> </td> 
    <td colname="col2"> <p> 主視圖的背景顏色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例——使主視圖透明：
+範例 — 若要讓主檢視透明：
 
 ```
 .s7flyoutviewer .s7flyoutzoomview { 
@@ -52,9 +51,9 @@ ht-degree: 3%
 }
 ```
 
-**彈出檢視的CSS屬性**
+**飛出檢視的CSS屬性**
 
-彈出檢視的外觀是使用下列CSS類別選取器來控制：
+飛出檢視的外觀由下列CSS類別選取器控制：
 
 ```
 .s7flyoutviewer .s7flyoutzoomview .s7flyoutzoom
@@ -82,16 +81,16 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>彈出式視圖的高度。 </p> </td> 
+   <td colname="col2"> <p>彈出視圖的高度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
-   <td colname="col2"> <p>飛出視圖的邊界。 </p> </td> 
+   <td colname="col2"> <p>彈出視圖的邊框。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-範例——若要將彈出式檢視設為600 x 400像素，在上例中顯示的512 x 288主檢視右側偏移100像素：
+範例 — 若要將彈出檢視設為600 x 400像素，以100像素的位移顯示，而512 x 288主檢視的右側有上一個範例所示：
 
 ```
 .s7flyoutviewer .s7flyoutzoomview .s7flyoutzoom { 
@@ -102,15 +101,15 @@ ht-degree: 3%
 }
 ```
 
-**主檢視中反白顯示的CSS屬性**
+**主視圖中突出顯示的CSS屬性**
 
-主檢視中反白顯示的外觀會使用下列CSS類別選擇器加以控制：
+主視圖中突出顯示的外觀由以下CSS類選擇器控制：
 
 ```
 .s7flyoutviewer .s7flyoutzoomview .s7highlight
 ```
 
-您可使用CSS來控制背景、邊框、透明度和類似屬性。 不過，反白顯示DOM元素的大小和位置由檢視器邏輯管理。 不支援透過CSS覆寫它。
+您可以使用CSS控制背景、邊框、透明度和類似屬性。 不過，反白顯示DOM元素的大小和位置由檢視器邏輯管理。 不支援透過CSS覆寫它。
 
 <table id="table_F957367566C542829E2F6D296F9DAAC5"> 
  <thead> 
@@ -121,21 +120,21 @@ ht-degree: 3%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景色  </span> </p> </td> 
-   <td colname="col2"> <p> 反白顯示的顏色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景顏色  </span> </p> </td> 
+   <td colname="col2"> <p> 突出顯示的顏色。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 不透明度  </span> </p> </td> 
-   <td colname="col2"> <p> 反白顯示不透明度。 </p> <p>對於Internet Explorer 8，請使用<span class="codeph"> filter:alpha(opacity-...);</span> </p> </td> 
+   <td colname="col2"> <p> 突出顯示不透明度。 </p> <p>對於Internet Explorer 8，請使用<span class="codeph"> filter:alpha(opacity-...));</span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 邊界  </span> </p> </td> 
-   <td colname="col2"> <p>邊框反白顯示。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 邊框  </span> </p> </td> 
+   <td colname="col2"> <p>邊框醒目提示。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-範例——若要設定具有40%透明度的綠色反白顯示，以及一個像素紅色邊框：
+範例：若要設定透明度為40%的綠色高亮和一個像素紅色邊框：
 
 ```
 .s7flyoutviewer .s7flyoutzoomview .s7highlight { 
@@ -148,14 +147,14 @@ ht-degree: 3%
 
 **游標的CSS屬性**
 
-當`highlightmode`參數設為`cursor`時，主視圖中的反白顯示將替換為固定大小的游標圖稿，該圖稿由CSS類選擇器控制：
+當`highlightmode`參數設定為`cursor`時，主視圖中的突出顯示將替換為固定大小的游標圖稿，該圖稿由CSS類選擇器控制：
 
 ```
  .s7flyoutviewer .s7flyoutzoomview 
 .s7cursor
 ```
 
-您可以使用CSS來控制背景影像和大小。
+您可以使用CSS控制背景影像和大小。
 
 適用的CSS屬性包括：
 
@@ -168,8 +167,8 @@ ht-degree: 3%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景影像  </span> </p> </td> 
-   <td colname="col2"> <p>游標圖稿。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景 — 影像  </span> </p> </td> 
+   <td colname="col2"> <p>游標插圖。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 寬度  </span> </p> </td> 
@@ -184,11 +183,11 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->游標支援`input`屬性選擇器，它可用於為不同設備應用不同的游標圖稿和大小。 尤其是，`input="mouse"`對應於案頭系統，`input="touch"`對應於觸摸設備。
+>游標支援`input`屬性選擇器，它可用於為不同設備應用不同的游標圖稿和大小。 具體來說，`input="mouse"`對應於案頭系統，`input="touch"`對應於觸摸設備。
 
 **覆蓋的CSS屬性**
 
-當`overlay`參數設為`1`時，會使用CSS類別選擇器控制反白顯示影格或游標影像的周圍區域：
+當`overlay`參數設定為`1`時，高亮幀或游標影像周圍的區域由CSS類選擇器控制：
 
 ```
  .s7flyoutviewer .s7flyoutzoomview 
@@ -204,7 +203,7 @@ ht-degree: 3%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景顏色  </span> </p> </td> 
    <td colname="col2"> <p>覆蓋顏色。 </p> </td> 
   </tr> 
   <tr> 
@@ -216,13 +215,13 @@ ht-degree: 3%
 
 **提示訊息的CSS屬性**
 
-提示訊息的外觀是使用下列CSS類別選擇器來控制：
+提示訊息的外觀由下列CSS類別選取器控制：
 
 ```
 .s7flyoutviewer .s7flyoutzoomview .s7tip
 ```
 
-您可以透過CSS來設定字型樣式、大小外觀和垂直偏移。 不過，水準對齊方式是由檢視器邏輯管理。 不支援使用`left`或`right`屬性，透過CSS來覆寫它。
+您可以透過CSS來設定字型樣式、大小外觀和垂直偏移。 不過，水準對齊方式是由檢視器邏輯管理。 不支援使用`left`或`right`屬性透過CSS覆寫它。
 
 <table id="table_DCF6B69A9D8C4DB7A10C4572F7484799"> 
  <thead> 
@@ -241,7 +240,7 @@ ht-degree: 3%
    <td colname="col2"> <p>文字色彩. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字型系列  </span> </p> </td> 
    <td colname="col2"> <p>字型名稱。 </p> </td> 
   </tr> 
   <tr> 
@@ -250,26 +249,26 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 填補 </span> </p> </td> 
-   <td colname="col2"> <p>在消息文本週圍填充。 </p> </td> 
+   <td colname="col2"> <p>在訊息文字周圍填補。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景色  </span> </p> </td> 
-   <td colname="col2"> <p>訊息文字的背景填色顏色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景顏色  </span> </p> </td> 
+   <td colname="col2"> <p>消息文本的背景填充顏色。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 邊框半徑  </span> </p> </td> 
-   <td colname="col2"> <p>消息文本的背景邊框半徑。 </p> </td> 
+   <td colname="col2"> <p>訊息文字的背景邊框半徑。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 不透明度  </span> </p> </td> 
-   <td colname="col2"> <p>訊息文字的背景不透明度。 </p> <p>對於Internet Explorer 8，請使用<span class="codeph"> filter:alpha(opacity-...))</span> </p> </td> 
+   <td colname="col2"> <p>消息文本的背景不透明度。 </p> <p>對於Internet Explorer 8，請使用<span class="codeph"> filter:alpha(opacity-...))</span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-提示訊息可以本地化。 如需詳細資訊，請參閱[使用者介面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27)。
+提示訊息可本地化。 如需詳細資訊，請參閱[使用者介面元素本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) 。
 
-示例——要設定半透明的尖端消息，其中顯示白色的Arial 12像素字型、距主視圖底部50像素的偏移、填充和圓角邊框：
+示例 — 要設定半透明的尖端消息，其字型為白色Arial 12px，從主視圖底部偏移50像素，邊框間距和圓角：
 
 ```
 .s7flyoutviewer .s7flyoutzoomview .s7tip { 
@@ -287,4 +286,3 @@ opacity: 0.5;
 filter: alpha(opacity = 50); 
 }
 ```
-
