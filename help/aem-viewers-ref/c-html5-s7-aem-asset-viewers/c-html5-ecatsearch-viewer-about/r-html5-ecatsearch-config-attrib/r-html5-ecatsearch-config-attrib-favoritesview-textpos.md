@@ -2,16 +2,15 @@
 description: FavoritesView.textpos
 solution: Experience Manager
 title: FavoritesView.textpos
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic，檢視器，SDK/API,eCatalog搜尋
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: c76c0386-0ccf-4551-8573-dad165359cba
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '72'
 ht-degree: 5%
 
 ---
-
 
 # FavoritesView.textpos{#favoritesview-textpos}
 
@@ -20,8 +19,8 @@ ht-degree: 5%
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 底部|頂部|左|右|無|工具提示</span> </p> </td> 
-   <td colname="col2"> <p> 指定標籤相對於縮圖影像的繪製位置。也就是說，標籤會置於相對於縮圖的指定位置。 </p> <p>當指定<span class="codeph"> tooltip</span>時，標籤文字會顯示為縮圖影像上的浮動工具提示。 </p> <p>設為<span class="codeph"> none</span>時，標籤顯示關閉。 </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> 下|上|左|右|無|工具提示</span> </p> </td> 
+   <td colname="col2"> <p> 指定標籤相對於縮圖影像的繪製位置。也就是說，標籤會置於相對於縮圖的指定位置。 </p> <p>指定<span class="codeph">工具提示</span>時，標籤文本將顯示為縮略圖影像上的浮動工具提示。 </p> <p>設為<span class="codeph"> none</span>時，標籤顯示會關閉。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
