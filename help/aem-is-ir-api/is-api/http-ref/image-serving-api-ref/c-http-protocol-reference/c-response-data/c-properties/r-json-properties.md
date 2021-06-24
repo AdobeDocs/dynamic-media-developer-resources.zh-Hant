@@ -1,23 +1,22 @@
 ---
-description: 如果將jsonp指定為回應格式，則回覆資料會使用JSONP（含填充的JavaScript物件記號）格式化，並封裝在JavaScript函式呼叫中。
+description: 如果將jsonp指定為回應格式，則回覆資料會使用JSONP（含邊框間距的JavaScript物件標籤法）格式化，並包裝在JavaScript函式呼叫中。
 solution: Experience Manager
 title: JSONP屬性
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 2294eb37-b362-438f-94bc-eb24ca641752
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '208'
 ht-degree: 1%
 
 ---
 
-
 # JSONP屬性{#jsonp-properties}
 
-如果將jsonp指定為回應格式，則回覆資料會使用JSONP（含填充的JavaScript物件記號）格式化，並封裝在JavaScript函式呼叫中。
+如果將jsonp指定為回應格式，則回覆資料會使用JSONP（含邊框間距的JavaScript物件標籤法）格式化，並包裝在JavaScript函式呼叫中。
 
-客戶機可以指定可選的唯一請求標識符(*`reqId`*)，該標識符在響應中返回並允許客戶機區分非同步接收的多個響應。 典型響應具有以下一般結構：
+客戶端可指定可選的唯一請求標識符(*`reqId`*)，該標識符在響應中返回，並允許客戶端區分非同步接收的多個響應。 典型回應的一般結構如下：
 
 ```
 /*jsonp*/s7jsonResponse({ 
@@ -48,15 +47,15 @@ S7jsonResponse(data, reqId)
 }
 ```
 
-支援JSONP回應格式的請求可讓您使用`req=`參數的擴充語法來指定JS回呼處理常式的名稱：
+支援JSONP回應格式的要求可讓您使用`req=`參數的延伸語法來指定JS回呼處理常式的名稱：
 
 `req=...,json [&handler = reqHandler]`
 
-`<reqHandler>` 是JS回應中顯示的JS處理常式名稱。僅允許a-z、A-Z和0-9字元。 選填。預設為 `s7jsonResponse`.
+`<reqHandler>` 是JSONP回應中出現的JS處理常式的名稱。僅允許a-z、A-Z和0-9個字元。 選填。預設為 `s7jsonResponse`.
 
-Dynamic Media映像服務查看器軟體包包含一個實用程式，用於從映像服務請求和解析JSONP格式的資料。
+Dynamic Media影像伺服檢視器套件包含公用程式，可從影像伺服中要求和剖析JSONP格式化資料。
 
-有關JSONP格式的詳細資訊，請參見[http://en.wikipedia.org/wiki/JSONP](http://en.wikipedia.org/wiki/JSONP)。
+如需JSONP格式的詳細資訊，請參閱[http://en.wikipedia.org/wiki/JSONP](http://en.wikipedia.org/wiki/JSONP)。
 
 如需JSON格式的詳細資訊，請參閱[www.json.org](http://www.json.org)。
 
