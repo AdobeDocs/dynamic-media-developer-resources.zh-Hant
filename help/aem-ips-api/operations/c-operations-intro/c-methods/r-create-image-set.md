@@ -2,16 +2,15 @@
 description: 建立影像集。
 solution: Experience Manager
 title: createImageSet
-feature: Dynamic Media Classic,SDK/API,Image Sets
+feature: Dynamic Media Classic, SDK/API，影像集
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 01ccc705-97e4-4e75-a322-e24bb78cb496
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '143'
 ht-degree: 13%
 
 ---
-
 
 # createImageSet{#createimageset}
 
@@ -19,7 +18,7 @@ ht-degree: 13%
 
 語法
 
-## 授權用戶類型{#section-58bf5027e6d24ab5a9fcba59776d15dc}
+## 授權的使用者類型 {#section-58bf5027e6d24ab5a9fcba59776d15dc}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -30,7 +29,7 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->用戶必須具有對目標資料夾的讀／寫訪問權限。
+>用戶必須具有對目標資料夾的讀/寫訪問權限。
 
 ## 參數 {#section-03d22ba7d290477e91c25ca1d4439200}
 
@@ -39,10 +38,10 @@ ht-degree: 13%
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | 是 | 影像集所屬公司的控制代碼。 |
-| `*`folderHandle`*` | `xsd:string` | 是 | 資料夾的句柄。 |
+| `*`folderHandle`*` | `xsd:string` | 是 | 資料夾的控點。 |
 | `*`名稱`*` | `xsd:string` | 是 | 影像集名稱。 |
 | `*`類型`*` | `xsd:string` | 是 | 影像集類型。 |
-| `*`thumbAssetHandle`*` | `xsd:string` | 否 | 當做新影像集縮圖的資產控制代碼。 如果未指定，IPS會嘗試使用該集所引用的第一個映像資產。 |
+| `*`thumbAssetHandle`*` | `xsd:string` | 否 | 作為新影像集縮圖的資產處理。 如果未指定，IPS會嘗試使用由集引用的第一個影像資產。 |
 
 **輸出**
 
@@ -52,7 +51,7 @@ ht-degree: 13%
 
 ## 範例 {#section-385fe3b0af8044b0a2451336ec137fc5}
 
-此程式碼範例會建立由公司、資料夾、名稱和類型指定的影像集。 回應是新建影像集的資產控制代碼。
+此程式碼範例會建立由公司、資料夾、名稱和類型指定的影像集。 回應是新建立之影像集的資產控制代碼。
 
 **請求**
 
@@ -72,4 +71,3 @@ ht-degree: 13%
    <assetHandle>25741|22|841</assetHandle>
 </createImageSetReturn>
 ```
-
