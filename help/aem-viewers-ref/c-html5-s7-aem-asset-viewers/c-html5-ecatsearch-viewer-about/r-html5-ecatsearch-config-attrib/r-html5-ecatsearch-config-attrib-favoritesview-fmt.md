@@ -2,16 +2,15 @@
 description: FavoritesView.fmt
 solution: Experience Manager
 title: FavoritesView.fmt
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic，檢視器，SDK/API,eCatalog搜尋
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 9ec5ed03-1d8f-4e67-a9a3-bdf160b105c5
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 4%
+source-wordcount: '78'
+ht-degree: 5%
 
 ---
-
 
 # FavoritesView.fmt{#favoritesview-fmt}
 
@@ -20,8 +19,8 @@ ht-degree: 4%
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td colname="col2"> <p> 指定元件用於從Image Server載入映像的映像格式。 格式是影像伺服器和用戶端瀏覽器支援的任何值。 </p> <p>如果影像格式以<span class="codeph"> -alpha</span>結尾，元件會將影像轉譯為透明內容。 對於所有其他影像格式值，元件會將影像視為不透明。 </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif|alpha</span> </p> </td> 
+   <td colname="col2"> <p> 指定元件用於從影像伺服器載入影像的影像格式。 格式是影像伺服器和用戶端瀏覽器支援的任何值。 </p> <p>如果影像格式的結尾是<span class="codeph"> -alpha</span>，則元件會將影像呈現為透明內容。 對於所有其他影像格式值，元件會將影像視為不透明。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
