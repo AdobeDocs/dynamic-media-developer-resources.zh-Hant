@@ -4,20 +4,19 @@ solution: Experience Manager
 title: updateVignettePublishFormat
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 7f199ed4-375f-4451-b66a-e50bcd55bf23
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '439'
 ht-degree: 20%
 
 ---
-
 
 # updateVignettePublishFormat{#updatevignettepublishformat}
 
 更新暈映發佈格式設定。
 
-## 授權用戶類型{#section-2f2ad136d2884dc9bfef6da008196ed0}
+## 授權的使用者類型 {#section-2f2ad136d2884dc9bfef6da008196ed0}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,24 +30,24 @@ ht-degree: 20%
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | 是 | 公司負責人。 |
-| `*`vignetteFormatHandle`*` | `xsd:string` | 是 | 發佈格式控制代碼。 |
+| `*`vignetteFormatHandle`*` | `xsd:string` | 是 | 發佈格式句柄。 |
 | `*`名稱`*` | `xsd:string` | 否 | 發佈格式名稱。 |
-| `*`targetWidth`*` | `xsd:int` | 是 | 指定產生暈映檢視的目標寬度（以像素為單位）。 使用零，使輸出暈映的大小與主暈映大小相同。 |
-| `*`targetHeight`*` | `xsd:int` | 是 | 指定產生暈映檢視的目標高度（以像素為單位）。 使用零，使輸出暈映的大小與主暈映大小相同。 |
+| `*`targetWidth`*` | `xsd:int` | 是 | 指定所產生暈映檢視的目標寬度（像素）。 使用零，使輸出暈映的大小與主暈映的大小相同。 |
+| `*`targetHeight`*` | `xsd:int` | 是 | 指定所產生暈映檢視的目標高度（像素）。 使用零，使輸出暈映的大小與主暈映的大小相同。 |
 | `*`createPyramid`*` | `xsd:boolean` | 是 | 建立在影像演算伺服器進行縮放的最佳化的金字塔暈映。以目標暈映大小欄位設定的大小上限開始，這會在單一暈映輸出檔案中建立多個尺寸的檢視。每個後續的檢視大小都會減半，直到寬度與高度都在 128x128 像素以內。 |
-| `*`thumbWidth`*` | `xsd:int` | 是 | 指定每個產生的縮圖寬度（以像素為單位）。此設定為選用。 若沒有縮圖檔案，請保留為零。 |
-| `*`saveAsVersion`*` | `xsd:int` | 是 | 指定已發佈暈映的檔案格式。 如果有新版的「影像製作」和舊版的「影像演算伺服器」，您必須指定您的ImageRendering伺服器可讀取的暈映版本。 如果您指定較高的版本，「影像演算」伺服器將無法讀取已發佈的暈映。 設為零，以在最新版本發佈暈映。 |
+| `*`thumbWidth`*` | `xsd:int` | 是 | 指定每個產生縮圖的寬度（像素）。此設定為選用。 保留為零，不保留縮圖檔案。 |
+| `*`saveAsVersion`*` | `xsd:int` | 是 | 指定已發佈暈映的檔案格式。 給定新版本的影像創作和舊版的影像呈現伺服器，必須指定ImageRendering伺服器可讀取的暈映版本。 如果您指定較高的版本，影像呈現伺服器將無法讀取已發佈的暈映。 設為零，在最新版本發佈暈映。 |
 | `*`sizeSuffixSeparator`*` | `xsd:string` | 是 | 指定可將暈映名稱與代表其寬度之字尾分隔的字元。 |
-| `*`銳利化`*` | `xsd:int` | 否 | 針對每個發佈暈映大小，套用銳利化至主檢視影像。當縮放暈映時，銳利化可補償模糊。 |
-| `*`usmAmount`*` | `xsd:double` | 是 | 數位銳利化遮色片是提高銳利度（尤其是在掃描的影像中）的有彈性且強大的方式。 這可控制每個超調量的大小（邊界變深和變亮的程度）。 |
-| `*`usmRadius`*` | `xsd:double` | 是 | 影響要增強的邊的大小或邊邊緣的寬度，因此半徑越小，細節越小。 半徑值越大，邊處的光暈就會出現。 細部細節需要較小的半徑，因為大小相同或小於半徑的細部細節會丟失。 |
-| `*`usmThreshold`*` | `xsd:int` | 是 | 控制要銳化的最小亮度變化，或相鄰色調值在濾鏡工作之前必須相距多遠。 此設定可銳利化更銳利的邊緣，同時保留更細微的邊緣不變。 允許的閾值範圍是0到255。 |
+| `*`銳利化`*` | `xsd:int` | 否 | 對每個發佈暈映大小將銳利化套用至主檢視影像。縮放暈映時，銳利化可補償模糊。 |
+| `*`usmAmount`*` | `xsd:double` | 是 | 數字銳利化遮色片是一種靈活且功能強大的方法，可提高銳利度，特別是在掃描的影像中。 這會控制每個超調量的大小（邊界變深和變亮的程度）。 |
+| `*`usmRadius`*` | `xsd:double` | 是 | 影響要增強的邊的大小或邊緣邊緣的寬度，因此，半徑較小可增強較小的細節。 半徑值越大，邊緣處就會出現半徑。 精細細節需要較小的半徑，因為相同大小或小於半徑的細小細節丟失。 |
+| `*`usmThreshold`*` | `xsd:int` | 是 | 控制最小亮度變化為銳化，或在濾鏡工作之前相鄰色調值的距離。 此設定可銳化更銳利的邊緣，同時保持更細微的邊緣未變。 允許的閾值範圍是0到255。 |
 
 **輸出(updateVignettePublishFormatReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`vignetteFormatHandle`*` | `xsd:string` | 是 | 控制代碼至更新的暈映發佈格式。 |
+| `*`vignetteFormatHandle`*` | `xsd:string` | 是 | 處理更新的暈映發佈格式。 |
 
 ## 範例 {#section-fcba4bf2b7264786a676e315a35dbe43}
 
@@ -81,4 +80,3 @@ ht-degree: 20%
    <vignetteFormatHandle>v|21|283</vignetteFormatHandle>
 </updateVignettePublishFormatReturn>
 ```
-
