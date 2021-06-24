@@ -1,23 +1,22 @@
 ---
-description: 地址篩選元素。 在<rule>和<pathrule>元素中為可選項。
+description: 地址篩選元素。 在<rule>和<pathrule>元素中為可選。
 solution: Experience Manager
-title: 地址篩選
+title: 地址篩選器
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: fe5df3a8-c9b2-4fad-ab9f-ca0b06016faf
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '125'
 ht-degree: 7%
 
 ---
 
-
 # 地址篩選器{#addressfilter}
 
-地址篩選元素。 在`<rule>`和`<pathrule>`元素中為可選項。
+地址篩選元素。 在`<rule>`和`<pathrule>`元素中為可選。
 
-在套用規則時覆寫`attribute::ClientAddressFilter`。
+套用規則時覆寫`attribute::ClientAddressFilter`。
 
 ## 屬性 {#section-31e9ad29e9934933ac154bccbc729172}
 
@@ -25,15 +24,15 @@ ht-degree: 7%
 
 ## 資料 {#section-c762bdfe425140d689ea5abf25e9a48a}
 
-IP位址的逗號分隔清單。 每個單獨地址可包括可選網路掩碼尾碼以允許指定IP地址範圍。 如需詳細資訊，請參閱`attribute::ClientAddressFilter`。
+IP位址清單（以逗號分隔）。 每個單個地址可以包括可選的網路掩碼尾碼，以允許指定IP地址範圍。 如需詳細資訊，請參閱`attribute::ClientAddressFilter`。
 
 ## 說明 {#section-d561b2485e004ef8a2085997d0f4bca6}
 
-在`<addressfilter>`元素中指定此映像目錄的訪問權限可以限制為一個或多個特定客戶機IP地址。 如果客戶端IP位址不相符，則會傳回「請求拒絕」錯誤給客戶端。
+通過在`<addressfilter>`元素中指定此映像目錄，可以限制對一個或多個特定客戶端IP地址的訪問。 如果客戶端IP地址不匹配，則返回「拒絕請求」錯誤。
 
 如果`<addressfilter>`為空或未指定，則不限制訪問。
 
-如果`<rule>`元素中的`<expression>`不存在或為空，則`<addressfilter>`將應用於所有請求。
+如果`<rule>`元素中的`<expression>`不存在或為空，則`<addressfilter>`會套用至所有請求。
 
 ## 另請參閱 {#section-6f51ec2218d9450bb7642f9fdad1988a}
 
