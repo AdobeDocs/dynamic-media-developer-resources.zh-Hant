@@ -4,14 +4,13 @@ solution: Experience Manager
 title: ZoomTargetDefinition
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 57916dec-8676-41aa-834b-37775a0f6d02
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 19%
+source-wordcount: '49'
+ht-degree: 20%
 
 ---
-
 
 # ZoomTargetDefinition{#zoomtargetdefinition}
 
@@ -28,5 +27,4 @@ ht-degree: 19%
 | `*`yPosition`*` | `xsd:int` | 縮放目標的Y位置。 |
 | `*`width`*` | `xsd:int` | 縮放目標寬度。 |
 | `*`height`*` | `xsd:int` | 縮放目標高度。 |
-| `*`使用者資料`*` | `xsd:string` | 關聯的使用者資料。 |
-
+| `*`使用者資料`*` | `xsd:string` | 關聯的用戶資料。 |
