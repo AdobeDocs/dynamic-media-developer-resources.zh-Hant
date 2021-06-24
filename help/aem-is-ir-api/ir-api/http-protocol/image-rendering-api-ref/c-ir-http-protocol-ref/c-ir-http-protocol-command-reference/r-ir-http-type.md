@@ -1,21 +1,20 @@
 ---
-description: 材料曲面類型。 指定材料的曲面類型。
+description: 材料表面類型。 指定材料的曲面類型。
 solution: Experience Manager
 title: type
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 333b8954-e256-4ba1-8055-c4d625470673
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '161'
 ht-degree: 22%
 
 ---
 
+# type{#type}
 
-# 類型{#type}
-
-材料曲面類型。 指定材料的曲面類型。
+材料表面類型。 指定材料的曲面類型。
 
 `type=0...19`
 
@@ -50,7 +49,7 @@ ht-degree: 22%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>7 </p></td> 
-  <td class="stentry"> <p>漆／漆 </p></td> 
+  <td class="stentry"> <p>搪瓷/漆 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>8 </p></td> 
@@ -102,15 +101,15 @@ ht-degree: 22%
  </tr> 
 </table>
 
-與`gloss=`和`rough=`搭配使用，以控制反射和光澤效果行為。 即使`gloss=`和`rough=`相同，不同的材料也會產生不同的效果。
+與`gloss=`和`rough=`一起使用以控制反射和光澤效應行為。 即使`gloss=`和`rough=`相同，不同的材料也會產生不同的效果。
 
 ## 屬性 {#section-2345b2508273426295ce8ac46182ea64}
 
-材料屬性。 如果暈映不包含3-D反射資料或在暈映中停用光澤效果，則忽略。
+材料屬性。 如果暈映不包含3-D反射資料，或在暈映中禁用光澤效果，則忽略此值。
 
 ## 預設 {#section-0989055fb74a41a3b2f2a47fe7d90a42}
 
-`catalog::Type` 如果材料基於目錄條目。否則`type=0`。 如果未指定，或如果`type=0`，則伺服器將根據目標對象和其他材料屬性選擇合適的預設值。
+`catalog::Type` 如果材料基於目錄條目。否則`type=0`。 如果未指定，或者如果`type=0`，則伺服器將根據目標對象和其他材料屬性選擇合適的預設值。
 
 ## 另請參閱 {#section-7cf808b0bb3d4b4fbb7b9a850d5a038b}
 
