@@ -4,14 +4,13 @@ solution: Experience Manager
 title: img
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 5338358e-755b-41d6-a941-8754d0deb9aa
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '63'
+source-wordcount: '60'
 ht-degree: 3%
 
 ---
-
 
 # img{#img}
 
@@ -19,6 +18,6 @@ ht-degree: 3%
 
 `req=img`
 
-回覆資料格式和回應MIME類型由`fmt=`決定。 `req=img` 是預設請求類型，不需要明確指定。HTTP響應基於`catalog::Expiration`可以與TTL進行快取。
+回覆資料格式和回應MIME類型由`fmt=`決定。 `req=img` 為預設請求類型，不需要明確指定。HTTP回應可根據`catalog::Expiration`與TTL快取。
 
-其他請求命令會如檔案所述應用。
+其他請求命令按文檔形式應用。
