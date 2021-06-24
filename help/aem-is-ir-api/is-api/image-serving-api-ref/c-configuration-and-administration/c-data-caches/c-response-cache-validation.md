@@ -1,32 +1,31 @@
 ---
-description: 使用基於目錄或基於過期的快取驗證自動刷新快取條目，如同使用屬性CacheValidationPolicy（預設為。ini或特定映像目錄的。ini檔案）選擇的一樣。
+description: 使用屬性CacheValidationPolicy（在預設.ini中，或特定影像目錄的.ini檔案中）選擇的基於目錄或基於過期的快取驗證自動刷新快取條目。
 solution: Experience Manager
-title: 回應快取驗證
+title: 響應快取驗證
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: d2baa6e6-2700-450f-af1e-88b6d33d0e0c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
 
-
 # 響應快取驗證{#response-cache-validation}
 
-使用基於目錄或基於過期的快取驗證自動刷新快取條目，如與屬性：:CacheValidationPolicy（預設。ini或特定映像目錄的。ini檔案中）一起選擇。
+使用屬性：:CacheValidationPolicy（在預設.ini中，或特定影像目錄的.ini檔案中）選擇的基於目錄或基於過期的快取驗證自動刷新快取條目。
 
-使用基於目錄的驗證，如果`catalog::LastModified`（或`attribute::LastModified`，或[!DNL catalog.ini]檔案的檔案修改時間）比建立快取項目時間更近，則現有的快取項目會被視為過時。
+使用基於目錄的驗證時，如果`catalog::LastModified`（或`attribute::LastModified`，或[!DNL catalog.ini]檔案的檔案修改時間）比建立快取項的時間更近，則現有快取項將被視為過時。
 
-使用基於過期的驗證，快取項目自最近的驗證後5分鐘後即會過期。 在這兩種情況下，伺服器都會檢查與建立請求相關的所有影像檔案的檔案日期，以驗證過時的快取項目。 如果檔案日期未變更，則會更新快取項目的時間戳記，且快取日期視為有效。
+透過過期驗證，自最新驗證以來的5分鐘後，快取項目會過時。 在這兩種情況下，伺服器都會檢查與建立請求相關的所有影像檔案的檔案日期，以驗證過時的快取項目。 如果檔案日期未更改，則更新快取條目的時間戳，並且快取日期被視為有效。
 
-對於通常涉及在影像目錄中註冊的影像的應用程式，型錄式驗證可提供效能優勢。 不涉及影像型錄的應用程式應使用過期快取驗證。 要做到這一點，一個方法是在[!DNL default.ini]中設定`attribute::cacheValidationPolicy=0`，在所有特定映像目錄檔案中設定`1`。
+對於通常的應用程式（大多涉及在映像目錄中註冊的映像），基於目錄的驗證提供了效能優勢。 不涉及影像目錄的應用程式應使用基於過期的快取驗證。 實現此目標的一個方法是在[!DNL default.ini]中設定`attribute::cacheValidationPolicy=0`，並在所有特定影像目錄檔案中設定`1`。
 
-快取項目會變為無效，且當請求中涉及的目錄項目變更時，可能會導致回覆影像變更，快取項目可能會重新產生。 例如，`catalog::Modifier`的內容會變更。
+當請求中涉及的目錄項目以可能導致答復影像更改的方式發生更改時，快取項將變為無效，並且可能會重新生成。 例如，`catalog::Modifier`的內容會變更。
 
 >[!NOTE]
 >
->Dynamic Media金字塔TIFF(PTIFF)影像會在檔案標題中內部維護檔案日期，以利驗證。 檔案系統維護的檔案修改時間用於檢查非PTIFF檔案是否已更改。
+>Dynamic Media金字塔TIFF(PTIFF)影像會在檔案標題中內部維護檔案日期，以供驗證之用。 檔案系統維護的檔案修改時間用於檢查非PTIFF檔案是否已更改。
 
-只有影像檔案會參與快取驗證程式。 字型檔或ICC描述檔的變更不會導致快取項目自動失效。
+只有影像檔案參與快取驗證過程。 對字型檔案或ICC配置檔案的更改不會導致快取項的自動失效。
