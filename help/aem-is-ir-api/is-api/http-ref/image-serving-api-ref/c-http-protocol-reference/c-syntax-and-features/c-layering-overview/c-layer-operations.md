@@ -1,24 +1,23 @@
 ---
-description: 除了相對於圖層0調整(size=)和定位(pos=)圖層，並使用layer=命令指定複合順序（z階）外，圖層還可以旋轉(rotate=)和翻轉(flip=)。
+description: 除了相對於層0調整(size=)和定位(pos=)層以及使用layer=命令指定複合順序（z階）外，層還可以旋轉(rotate=)和翻轉(flip=)。
 solution: Experience Manager
-title: 圖層操作
+title: 層操作
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 0b167c74-cb1f-45f1-8b15-cb1fcbc8f734
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '126'
 ht-degree: 0%
 
 ---
 
-
 # 層操作{#layer-operations}
 
-除了相對於圖層0調整(size=)和定位(pos=)圖層，並使用layer=命令指定複合順序（z階）外，圖層還可以旋轉(rotate=)和翻轉(flip=)。
+除了相對於層0調整(size=)和定位(pos=)層以及使用layer=命令指定複合順序（z階）外，層還可以旋轉(rotate=)和翻轉(flip=)。
 
-當在範本中動態變更影像或文字時，`origin=`和`anchor=`屬性可用來維持圖層之間的所需對齊方式。
+當在模板中動態地更改影像或文本時，`origin=`和`anchor=`屬性可用於保持圖層之間的所需對齊方式。
 
-`maskUse=`命令可用於影像圖層訪問具有獨立遮色片的影像的背景區域。
+`maskUse=`命令可用於影像層訪問具有獨立遮罩的影像的背景區域。
 
-`opac=` 可用來變更圖層的不透明度，以 `hide=` 及顯示或隱藏圖層。
+`opac=` 可用於更改圖層不透明度，以 `hide=` 及顯示或隱藏圖層。
