@@ -1,19 +1,18 @@
 ---
 description: 檢索已提交作業的詳細狀態。
 solution: Experience Manager
-title: batchjobdetailstatus
+title: batchjobdetailedstatus
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: fd385327-29af-448c-9a25-75098b578272
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '55'
+source-wordcount: '52'
 ht-degree: 1%
 
 ---
 
-
-# batchjobdetailsstatus{#batchjobdetailedstatus}
+# batchjobdetailedstatus{#batchjobdetailedstatus}
 
 檢索已提交作業的詳細狀態。
 
@@ -26,9 +25,9 @@ ht-degree: 1%
  </tr> 
 </table>
 
-退貨：
+傳回：
 
-XML格式作業的詳細狀態；錯誤： `jobid`無效或作業已刪除。
+XML格式的作業詳細狀態；如果`jobid`無效或作業已刪除，則出錯。
 
 ## 範例 {#section-55f463750afe4814b5fdbaa2f1aafab4}
 
