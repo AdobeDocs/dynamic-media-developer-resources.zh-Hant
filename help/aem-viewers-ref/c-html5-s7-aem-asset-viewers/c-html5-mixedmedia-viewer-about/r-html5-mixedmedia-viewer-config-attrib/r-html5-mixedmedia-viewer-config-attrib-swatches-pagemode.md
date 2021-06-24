@@ -2,16 +2,15 @@
 description: Swatches.pagemode
 solution: Experience Manager
 title: Swatches.pagemode
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic，檢視器，SDK/API，混合媒體集
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: feef9531-043c-44b6-a768-9f7f5b4aed71
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '72'
 ht-degree: 6%
 
 ---
-
 
 # Swatches.pagemode{#swatches-pagemode}
 
@@ -21,7 +20,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 切換時，捲動按鈕會自動讓色票跳過整頁長度。 </p> <p>如果色票不適合，最後一頁會顯示額外的空白字元。 此外，最後一頁的儲存格數與上一頁相同。 </p> <p>捲動步驟會被忽略，而滑鼠捲動僅適用於完整頁面。 </p> </td> 
+   <td colname="col2"> <p> 切換時，捲動按鈕會自動使色票跳轉整個頁面長度。 </p> <p>如果色票不符合，最後一頁會顯示額外的空白字元。 此外，最後一頁的儲存格數量與前一頁相同。 </p> <p>會忽略捲動步驟，且滑鼠捲動僅在完整頁面上結算。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
