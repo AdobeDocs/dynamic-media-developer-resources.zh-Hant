@@ -4,14 +4,13 @@ solution: Experience Manager
 title: submitJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: b1dc7a0e-da9a-4086-822b-5274bd62eadf
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '412'
 ht-degree: 11%
 
 ---
-
 
 # submitJob{#submitjob}
 
@@ -19,7 +18,7 @@ ht-degree: 11%
 
 語法
 
-## 授權用戶類型{#section-eb7024277bec43c79e03f396205be16f}
+## 授權的使用者類型 {#section-eb7024277bec43c79e03f396205be16f}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -53,7 +52,7 @@ ht-degree: 11%
    <td colname="col1"> <span class="codeph"> <span class="varname"> userHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> <p>處理提交作業的使用者。 </p> <p> <p>注意：系統會傳送電子郵件給<span class="codeph"> userHandle</span>所指定的使用者。 如果未提供<span class="codeph"> userHandle</span>，則提交工作的人員會收到電子郵件。 </p> </p> </td> 
+   <td colname="col4"> <p>處理提交作業的使用者。 </p> <p> <p>注意：系統會傳送電子郵件給<span class="codeph"> userHandle</span>所指定的使用者。 如果未提供<span class="codeph"> userHandle</span>，則提交該作業的人員會收到電子郵件。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> jobName</span> </span> </td> 
@@ -65,22 +64,22 @@ ht-degree: 11%
    <td colname="col1"> <span class="codeph"> <span class="varname"> 地區設定</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> <p>用於作業日誌詳細資訊和電子郵件本地化的地區設定。 </p> <p>地區設定指定為<span class="codeph"> &lt;language_code&gt;</span>和<span class="codeph"> [&lt;country_code&gt;]</span>，其中語言代碼是ISO-639所指定的小寫、雙字母代碼，而選用的國家代碼是ISO-3166所指定的大寫、雙字母代碼。 例如，英文（美國）的地區設定字串為：en-US。 </p> </td> 
+   <td colname="col4"> <p>用於作業日誌詳細資訊和電子郵件本地化的區域設定。 </p> <p>地區設定指定為<span class="codeph"> &lt;languagecode&gt;</span>和<span class="codeph"> [&lt;countrycode&gt;]</span>，其中語言代碼是ISO-639所指定的小寫、雙字母代碼，可選國家代碼是ISO-3166所指定的大寫、雙字母代碼。 例如，英文（美國）的地區字串為：美國。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> execTime</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> <p>運行作業的日期和時間。 </p> <p>注意： 提供請求時區。 時區會調整為目標IPS伺服器的時區。 </p> </td> 
+   <td colname="col4"> <p>運行作業的日期和時間。 </p> <p>注意： 將請求提供給時區。 時區將調整為目標IPS伺服器的時區。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> execSchedule</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> <p>確定何時運行作業。 </p> <p> 可以是循環運行作業的<span class="codeph"> cron</span>字串。 </p> <p>排程一律與伺服器的本機時區相關。 有關自定義計畫格式，請參見IPS文檔。 </p> </td> 
+   <td colname="col4"> <p>確定何時運行作業。 </p> <p> 可以是循環執行作業的<span class="codeph"> cron</span>字串。 </p> <p>計畫始終與伺服器的本地時區相關。 請參閱IPS文檔，了解自定義計畫格式。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 描述</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 說明</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> <p>工作說明。 </p> </td> 
@@ -95,13 +94,13 @@ ht-degree: 11%
    <td colname="col1"> <span class="codeph"> <span class="varname"> imageServingPublishJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：ImageServingPublishJob</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> <p>影像伺服發佈工作的詳細資訊。 </p> </td> 
+   <td colname="col4"> <p>提供發佈作業的影像的詳細資訊。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> imageRenderingPublishJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：ImageRenderingPublishJob</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> <p>影像演算發佈工作的詳細資訊。 </p> </td> 
+   <td colname="col4"> <p>影像呈現發佈作業的詳細資訊。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> videoPublishJob</span> </span> </td> 
@@ -113,19 +112,19 @@ ht-degree: 11%
    <td colname="col1"> <span class="codeph"> <span class="varname"> serverDirectoryPublishJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：ServerDirectoryPublishJob</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> <p>伺服器目錄發佈工作的詳細資訊。 </p> </td> 
+   <td colname="col4"> <p>伺服器目錄發佈作業的詳細資訊。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> uploadDirectoryJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：UploadDirectoryJob</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> <p>上載目錄作業的詳細資訊。 </p> </td> 
+   <td colname="col4"> <p>上傳目錄作業的詳細資訊。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> uploadUrlsJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：UploadUrlsJob</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> <p>上傳URL工作的詳細資訊。 </p> </td> 
+   <td colname="col4"> <p>上傳URL作業的詳細資訊。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> optimizeImagesJob</span> </span> </td> 
@@ -149,7 +148,7 @@ ht-degree: 11%
    <td colname="col1"> <span class="codeph"> <span class="varname"> automatedSetGenerationJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：AutomatedSetGenerationJob</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> <p>使用自動化集指令碼將資產清單處理為集。 </p> <p>請參閱<a href="../../../types/c-data-types/r-automated-set-generation-job.md#reference-ab0b3c5408eb41b98c49898b2197cf5a" format="dita" scope="local"> AutomatedSetGenerationJob</a>。 </p> </td> 
+   <td colname="col4"> <p>使用自動集指令碼將資產清單處理為集。 </p> <p>請參閱<a href="../../../types/c-data-types/r-automated-set-generation-job.md#reference-ab0b3c5408eb41b98c49898b2197cf5a" format="dita" scope="local"> AutomatedSetGenerationJob</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -158,11 +157,11 @@ ht-degree: 11%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`jobHandle`*` | `xsd:string` | 是 | 工作代理。 |
+| `*`jobHandle`*` | `xsd:string` | 是 | 工作處理。 |
 
 ## 範例 {#section-40ac77d14adf4588ba2575be6879b2d2}
 
-此程式碼範例會將影像伺服發佈工作提交給IPS，並傳回工作控制代碼。 請求中只選擇一種作業類型。 由於`userHandle`已省略，因此會傳送電子郵件通知給提交工作的使用者。 此範例工作會立即執行，因為`execTime`和`execSchedule`已省略。
+此代碼示例將提供發佈作業的映像提交到IPS並返回作業句柄。 請求中只選擇一種作業類型。 因為省略了`userHandle`，所以會向提交作業的用戶發送電子郵件通知。 此示例作業會立即運行，因為省略了`execTime`和`execSchedule`。
 
 **請求**
 
@@ -187,7 +186,7 @@ ht-degree: 11%
 
 ## 附註 {#section-0f3078e503a249aeb6f3d662a51f036a}
 
-您最多可以指定`execTime`和`execSchedule`中的一個。 如果兩者都未傳遞，則作業會立即執行。 您只能使用下列其中一項：
+您最多可以指定`execTime`和`execSchedule`之一。 若兩者皆未傳遞，作業會立即執行。 您只能使用下列其中一項：
 
 * `imageServingPublishJob`
 * `imageRenderingPublishJob`
@@ -195,4 +194,3 @@ ht-degree: 11%
 * `serverDirectoryPublishJob`
 * `uploadDirectoryJob`
 * `uploadUrlsJob`
-
