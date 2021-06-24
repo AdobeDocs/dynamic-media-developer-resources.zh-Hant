@@ -1,21 +1,20 @@
 ---
-description: 一組使用者。
+description: 使用者陣列。
 solution: Experience Manager
 title: UserArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 0b06cc8e-5bc7-4d0f-bfdc-24d53cb5deea
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '27'
-ht-degree: 22%
+source-wordcount: '25'
+ht-degree: 24%
 
 ---
 
-
 # UserArray{#userarray}
 
-一組使用者。
+使用者陣列。
 
 語法
 
@@ -23,5 +22,4 @@ ht-degree: 22%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| `*`項目`*` | `types:User` | 一組使用者。 |
-
+| `*`項目`*` | `types:User` | 使用者陣列。 |
