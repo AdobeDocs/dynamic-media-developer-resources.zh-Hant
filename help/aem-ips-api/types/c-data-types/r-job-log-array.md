@@ -1,21 +1,20 @@
 ---
-description: 一系列作業日誌。
+description: 作業日誌的陣列。
 solution: Experience Manager
 title: JobLogArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: e61f26c0-7a5d-4217-b940-0cfbb2ad96e9
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '30'
-ht-degree: 20%
+source-wordcount: '28'
+ht-degree: 21%
 
 ---
 
-
 # JobLogArray{#joblogarray}
 
-一系列作業日誌。
+作業日誌的陣列。
 
 語法
 
@@ -24,4 +23,3 @@ ht-degree: 20%
 | 名稱 | 類型 | 說明 |
 |---|---|---|
 | `*`項目`*` | `types:JobLog` | 作業日誌的陣列。 |
-
