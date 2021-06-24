@@ -2,34 +2,33 @@
 description: FlyoutZoomView.tip
 solution: Experience Manager
 title: FlyoutZoomView.tip
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic，檢視器，SDK/API，混合媒體集
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 03a04bba-85ae-4c30-91fa-dfc6b732a9ac
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '105'
 ht-degree: 5%
 
 ---
 
-
 # FlyoutZoomView.tip{#flyoutzoomview-tip}
 
-` [FlyoutZoomView.|<containerId>_flyout.]tip= *`持續時間`*[, *``*][, *`計數`*]`
+` [FlyoutZoomView.|<containerId>_flyout.]tip= *``*[, *``*][, *`durationcountfade`*]`
 
 <table id="table_E314540D347D47699C04EB80D20C0721"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 時段</span></span> </p> </td> 
-   <td colname="col2"> <p> 指定提示文本在隱藏之前顯示的秒數。 當設為<span class="codeph"> -1</span>時，即使使用者啟動彈出，訊息仍一律顯示。 </p> </td> 
+   <td colname="col2"> <p> 指定提示文本在隱藏之前顯示的秒數。 當設定為<span class="codeph"> -1</span>時，即使用戶激活彈出，仍始終顯示消息。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 計數</span></span> </p> </td> 
-   <td colname="col2"> <p> 指定在檢視集合中的新影像時顯示文字的次數。 值<span class="codeph"> -1</span>表示在檢視集合中的任何影像時，一律會顯示文字。 </p> </td> 
+   <td colname="col2"> <p> 指定檢視集合中的新影像時顯示文字的次數。 值<span class="codeph"> -1</span>表示在檢視集合中的任何影像時，一律會顯示文字。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> 淡化</span></span> </p> </td> 
-   <td colname="col2"> 指定當文字出現或消失時發生的淡化動畫持續時間。 值<span class="codeph"> 0</span>表示沒有淡入淡出過渡。 </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> 淡出</span></span> </p> </td> 
+   <td colname="col2"> 指定文本出現或消失時出現的淡化動畫的持續時間。 值<span class="codeph"> 0</span>表示沒有淡出轉變。 </td> 
   </tr> 
  </tbody> 
 </table>
