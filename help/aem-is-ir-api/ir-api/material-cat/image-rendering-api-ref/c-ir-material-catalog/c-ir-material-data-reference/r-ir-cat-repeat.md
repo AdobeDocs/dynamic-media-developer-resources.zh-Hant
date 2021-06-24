@@ -4,14 +4,13 @@ solution: Experience Manager
 title: 重複
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 6d6946b0-a827-4ee6-963b-84529ad35ee9
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '132'
 ht-degree: 20%
 
 ---
-
 
 # 重複{#repeat}
 
@@ -19,9 +18,9 @@ ht-degree: 20%
 
 ## 屬性 {#section-cef4109cddf54ce095c3293d85bc412d}
 
-列舉。 僅用於可重複的紋理。 忽略其他所有材料。
+列舉。 僅用於可重複的紋理。 忽略所有其他材料。
 
-可重複的紋理材料允許使用下列值：
+可重複的紋理材料允許以下值：
 
 <table id="simpletable_C24FDA80A8AC431DA3FC86188E3774E1" class="- topic/simpletable "> 
  <tr class="- topic/strow strow"> 
@@ -46,31 +45,31 @@ ht-degree: 20%
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>5 </p></td> 
-  <td class="- topic/stentry stentry"> <p>三落壁紙掛著。 </p></td> 
+  <td class="- topic/stentry stentry"> <p>三投壁紙掛了。 </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>6 </p></td> 
-  <td class="- topic/stentry stentry"> <p>半垂壁紙掛著。 </p></td> 
+  <td class="- topic/stentry stentry"> <p>半落壁紙掛著。 </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>7 </p></td> 
-  <td class="- topic/stentry stentry"> <p>五落壁紙掛著。 </p></td> 
+  <td class="- topic/stentry stentry"> <p>五下壁紙掛著。 </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>8 </p></td> 
-  <td class="- topic/stentry stentry"> <p>翻轉壁紙掛著。 </p></td> 
+  <td class="- topic/stentry stentry"> <p>牆紙掛了。 </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>9 </p></td> 
-  <td class="- topic/stentry stentry"> <p>隨機壁紙掛著。 </p></td> 
+  <td class="- topic/stentry stentry"> <p>隨機貼壁紙。 </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>10 </p></td> 
-  <td class="- topic/stentry stentry"> <p>隨機投放。 </p></td> 
+  <td class="- topic/stentry stentry"> <p>隨機掉落。 </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>11 </p></td> 
-  <td class="- topic/stentry stentry"> <p>隨機跨越。 </p></td> 
+  <td class="- topic/stentry stentry"> <p>隨機的。 </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>12 </p></td> 
@@ -82,7 +81,7 @@ ht-degree: 20%
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>14 </p></td> 
-  <td class="- topic/stentry stentry"> <p>標準隨機選擇器。 </p></td> 
+  <td class="- topic/stentry stentry"> <p>標準隨機器。 </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>15 </p></td> 
@@ -94,7 +93,7 @@ ht-degree: 20%
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>17 </p></td> 
-  <td class="- topic/stentry stentry"> <p>水準隨機選擇器。 </p></td> 
+  <td class="- topic/stentry stentry"> <p>水準隨機器。 </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>18 </p></td> 
@@ -102,13 +101,13 @@ ht-degree: 20%
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>19 </p></td> 
-  <td class="- topic/stentry stentry"> <p>邊緣隨機選擇器。 </p></td> 
+  <td class="- topic/stentry stentry"> <p>邊緣隨機器。 </p></td> 
  </tr> 
 </table>
 
 ## 預設 {#section-23fba3bd1f3544c7913d12f2ca148517}
 
-0（直重複）。
+0（直重）。
 
 ## 另請參閱 {#section-a08887a91db34ed3b183899c69c9f74f}
 
