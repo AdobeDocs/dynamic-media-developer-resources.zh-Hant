@@ -1,21 +1,20 @@
 ---
-description: 除目錄RootId外，所有目錄屬性都是可選的。
+description: 除目錄RootId外，所有目錄屬性均為選用。
 solution: Experience Manager
 title: 屬性參考
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: d0c8e808-d887-4bad-bbb5-f36a19ab4df2
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '104'
 ht-degree: 3%
 
 ---
 
-
 # 屬性參考{#attributes-reference}
 
-所有目錄屬性都是選用的，但catalog::RootId除外。
+所有目錄屬性均為選用，但目錄：:RootId除外。
 
 預設目錄屬性檔案([!DNL default.ini])中需要所有屬性。
 
@@ -31,7 +30,7 @@ ht-degree: 3%
 * [DefaultExpiration](r-defaultexpiration.md)
 * [DefaultExt](r-defaultext.md)
 * [DefaultFont](r-defaultfont.md)
-* [DefaultImage](r-is-cat-defaultimage.md)
+* [預設影像](r-is-cat-defaultimage.md)
 * [DefaultImageMode](r-defaultimagemode.md)
 * [DefaultLocale](r-defaultlocale.md)
 * [DefaultPix](r-defaultpix.md)
@@ -62,20 +61,20 @@ ht-degree: 3%
 * [MaxPix](r-maxpix.md)
 * [NonImgExpiration](r-nonimgexpiration.md)
 * [PublishInfo](r-publishinfo.md)
-* [列印解析度](r-printresolution.md)
+* [打印解析度](r-printresolution.md)
 * [RequestLock](r-requestlock.md)
-* [請求模糊化](r-requestobfuscation.md)
+* [RequestObfuscation](r-requestobfuscation.md)
 * [ResMode](r-is-cat-resmode.md)
 * [解析度](r-resolution.md)
 * [RootId](r-rootid.md)
 * [RootPath](r-rootpath.md)
 * [RootUrl](r-rooturl.md)
-* [規則集檔案](r-rulesetfile.md)
+* [RuleSetFile](r-rulesetfile.md)
 * [SavePath](r-savepath.md)
 * [StaticContentCatalogFile](r-staticcontentcatalogfile.md)
 * [StaticContentRootPath](r-staticcontentrootpath.md)
 * [SvgCatalogFile](r-svgcatalogfile.md)
-* [NesighateFontStyles](r-synthesizefontstyles.md)
+* [SynethrotingFontStyles](r-synthesizefontstyles.md)
 * [ThumbBkgColor](r-thumbbkgcolor.md)
 * [ThumbHorizAlign](r-thumbhorizalign.md)
 * [ThumbRes](r-thumbres.md)
@@ -83,8 +82,8 @@ ht-degree: 3%
 * [ThumbVertAlign](r-thumbvertalign.md)
 * [TimeStamp](r-timestamp.md)
 * [TotalStreamBitRate](r-totalstreambitrate.md)
-* [受信任網域](r-trusteddomains.md)
+* [受信任的域](r-trusteddomains.md)
 * [UseLastModified](r-uselastmodified.md)
 * [VideoBitRate](r-videobitrate-cat.md)
-* [視訊大小](r-videosize-cat.md)
+* [VideoSize](r-videosize-cat.md)
 * [浮水印](r-watermark.md)
