@@ -2,16 +2,15 @@
 description: 刪除多個資產。
 solution: Experience Manager
 title: deleteAssets
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API，資產管理
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 487f83e6-f713-40e9-a442-e1179b30012c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '182'
 ht-degree: 15%
 
 ---
-
 
 # deleteAssets{#deleteassets}
 
@@ -19,7 +18,7 @@ ht-degree: 15%
 
 語法
 
-## 授權使用者類型{#section-a6bc555b8ac840c98835b73fbf838d70}
+## 授權用戶類型 {#section-a6bc555b8ac840c98835b73fbf838d70}
 
 * `IpsUser`
 * `IspAdmin`
@@ -73,38 +72,38 @@ ht-degree: 15%
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> successCount</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>成功刪除資產的數目。 </p> </td> 
+   <td colname="col4"> <p>成功刪除的資產數。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> warningCount</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>當操作嘗試刪除時產生警告的資產。 </p> </td> 
+   <td colname="col4"> <p>操作嘗試刪除時產生警告的資產。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> errorCount</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>當操作嘗試刪除時產生錯誤的資產。 </p> </td> 
+   <td colname="col4"> <p>操作嘗試刪除時產生錯誤的資產。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> warningDetailArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 類型：AssetOperationFaultArray</span> </p> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>與資產相關的詳細資訊陣列，當操作嘗試刪除資產時，這些資產會產生警告。 </p> </td> 
+   <td colname="col4"> <p>與資產相關聯的詳細資訊陣列，當操作嘗試刪除資產時產生警告。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> errorDetailArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 類型：AssetOperationFaultArray</span> </p> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>與資產相關的詳細資訊陣列，當作業嘗試刪除資產時，這些資產會產生錯誤。 </p> </td> 
+   <td colname="col4"> <p>與資產相關聯的詳細資訊陣列，當操作嘗試刪除資產時產生錯誤。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 範例 {#section-aaad1933bf86479eb6cb476cec7d4587}
 
-此程式碼範例會傳送一個控制代碼給公司，以及`deleteAssetsParam`要求中的資產控制代碼陣列給網站服務伺服器。 `deleteAssetsReturn` 傳回成功計數2，表示兩個資產都已刪除。
+此程式碼範例會將控制代碼傳送至公司，並將`deleteAssetsParam`請求中的資產控制代碼陣列傳送至網站服務伺服器。 `deleteAssetsReturn` 傳回成功計數2，表示兩個資產皆已刪除。
 
 **請求**
 
@@ -127,4 +126,3 @@ ht-degree: 15%
    <errorCount>0</errorCount>
 </deleteAssetsReturn>
 ```
-
