@@ -2,16 +2,15 @@
 description: Swatches.buttonsnapmode
 solution: Experience Manager
 title: Swatches.buttonsnapmode
-feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
+feature: Dynamic Media Classic，檢視器，SDK/API,Flyout
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 06ff32fb-71a8-4e10-b82b-494cca05068d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '46'
 ht-degree: 8%
 
 ---
-
 
 # Swatches.buttonsnapmode{#swatches-buttonsnapmode}
 
@@ -24,12 +23,12 @@ ht-degree: 8%
    <td> <p>使按鈕與色票對齊。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> snapout</span> </span> </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> 快照</span> </span> </p> </td> 
    <td> <p>使按鈕與元件邊框對齊。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> <span class="varname"> 覆蓋</span> </span> </p> </td> 
-   <td> <p>使按鈕在色票上方演算。 </p> </td> 
+   <td> <p>使按鈕在色票的頂端呈現。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
