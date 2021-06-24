@@ -2,16 +2,15 @@
 description: 判斷一批資產是否已準備好發佈。
 solution: Experience Manager
 title: setAssetsPublishState
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API，資產管理
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: dce324e4-cf86-4a65-ab00-8cd2bba20f8f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 11%
+source-wordcount: '158'
+ht-degree: 12%
 
 ---
-
 
 # setAssetsPublishState{#setassetspublishstate}
 
@@ -19,7 +18,7 @@ ht-degree: 11%
 
 這是[setAssetState](../../../operations/c-operations-intro/c-methods/r-set-asset-publish-state.md#reference-9efc2eeea42348e0b1d5f3d1005c6563)的批版本。
 
-## 授權用戶類型{#section-0804726f683944dbbe9acfc3d35ccf25}
+## 授權的使用者類型 {#section-0804726f683944dbbe9acfc3d35ccf25}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -45,9 +44,9 @@ ht-degree: 11%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | 是 | 成功更新資產的數目。 |
-| `*`warningCount`*` | `xsd:int` | 是 | 當操作嘗試更新時產生警告的資產數。 |
-| `*`errorCount`*` | `xsd:int` | 是 | 當操作嘗試刪除時產生錯誤的資產數。 |
+| `*`successCount`*` | `xsd:int` | 是 | 已成功更新資產的數量。 |
+| `*`warningCount`*` | `xsd:int` | 是 | 操作嘗試更新時產生警告的資產數。 |
+| `*`errorCount`*` | `xsd:int` | 是 | 操作嘗試刪除時產生錯誤的資產數。 |
 | `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 與產生警告的資產更新相關的詳細資料。 |
 | `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 與產生錯誤的資產更新相關的詳細資料。 |
 
@@ -83,4 +82,3 @@ ht-degree: 11%
    </complexType>
 </element>
 ```
-
