@@ -1,27 +1,26 @@
 ---
-description: 貼面材料包括裝飾構件，例如應用程式、T恤印花、刺繡或印刷標誌，以及用於內部或外部應用的非可重複的平面物件，例如地毯、掛壁藝術、標誌等。
+description: 裝飾材料包括服裝構造體，如貼花、T恤印花、繡花或印刷標識，以及在內部或外部應用中使用的非可重複的扁平物品，如地毯、掛壁藝術、標誌等。
 solution: Experience Manager
-title: Decals
+title: 德卡爾
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 07190abd-9f6f-46b5-bf77-cd97c48fc9be
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 2%
+source-wordcount: '231'
+ht-degree: 3%
 
 ---
 
+# 德卡爾{#decals}
 
-# Decals{#decals}
+裝飾材料包括服裝構造體，如貼花、T恤印花、繡花或印刷標識，以及在內部或外部應用中使用的非可重複的扁平物品，如地毯、掛壁藝術、標誌等。
 
-貼面材料包括裝飾構件，例如應用程式、T恤印花、刺繡或印刷標誌，以及用於內部或外部應用的非可重複的平面物件，例如地毯、掛壁藝術、標誌等。
+如果材料在十個MSS中指定，則該材料被視為十個。 貼牌通常是RGBA影像，而Alpha通道定義貼牌的形狀。
 
-如果材料是在十級MSS中指定的，則該材料被視為十級。 貼牌通常是RGBA影像，其中α通道定義貼牌的形狀。
+每個平面、流線、草繪、平面或壁對象都可以應用一個標籤(除非設定了「無紋理」(No Texture)標誌)。 標籤通過將標籤的`anchor=`與暈映對象的標籤原點對齊來應用到對象。 此位置可進一步以`pos=`調整。
 
-一個貼文可套用至每個平面、流線、素描、平面或壁物件（除非已設定「無紋理」標幟）。 通過將貼圖的`anchor=`與暈映對象的貼圖原點對齊，貼圖會應用到對象。 該位置可以用`pos=`進一步調整。
-
-如果貼花材料定義厚度，而暈映對象定義光向量，則呈現下垂陰影。
+如果該傾斜材料定義厚度，並且暈暈對象定義光向量，則呈現下陰影。
 
 <table id="table_3F119BC9B7654FD092826A34F5827268"> 
  <thead> 
@@ -34,17 +33,17 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272" type="reference" format="dita" scope="local"> <span class="codeph"> src=  </span> </a> </p> </td> 
-   <td colname="col2"> <p>影像（通常為alpha）;必填。 </p> </td> 
+   <td colname="col2"> <p>影像（通常含Alpha）;必填。 </p> </td> 
    <td colname="col3"> <p>無。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-size.md#reference-1220d6fbcde4479aba91de7adacdc988" type="reference" format="dita" scope="local"> <span class="codeph"> 大小=  </span> </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-size.md#reference-1220d6fbcde4479aba91de7adacdc988" type="reference" format="dita" scope="local"> <span class="codeph"> size=  </span> </a> </p> </td> 
    <td colname="col2"> <p>傾斜寬度、高度和厚度（用於陰影）。 </p> </td> 
-   <td colname="col3"> <p> <span class="varname"> imageWidth  </span> x  <span class="codeph"> res </span>、imageHeight  <span class="varname"> x  </span>  <span class="codeph"> res、0  </span> </p> </td> 
+   <td colname="col3"> <p> <span class="varname"> imageWidth  </span> x  <span class="codeph"> res </span>,  <span class="varname"> imageHeight  </span> x  <span class="codeph"> res, 0  </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-res.md#reference-0ad9de8887144c83a6db97b4994f7c04" type="reference" format="dita" scope="local"> <span class="codeph"> res=  </span> </a> </p> </td> 
-   <td colname="col2"> <p>紋理解析度（如果指定size=，則忽略）。 </p> </td> 
+   <td colname="col2"> <p>紋理解析度（如果指定了size=，則忽略）。 </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> 屬性：：解析度  </span> </p> </td> 
   </tr> 
   <tr> 
@@ -59,7 +58,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-opac.md#reference-136b8563da714313a9e103f4ce179c5b" type="reference" format="dita" scope="local"> <span class="codeph"> opac=  </span> </a> </p> </td> 
-   <td colname="col2"> <p>十字不透明。 </p> </td> 
+   <td colname="col2"> <p>十度不透明。 </p> </td> 
    <td colname="col3"> <p>100% </p> </td> 
   </tr> 
   <tr> 
@@ -69,4 +68,3 @@ ht-degree: 2%
   </tr> 
  </tbody> 
 </table>
-
