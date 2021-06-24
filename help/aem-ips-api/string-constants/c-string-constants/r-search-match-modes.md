@@ -1,21 +1,20 @@
 ---
-description: searchAssetsParam/conditionMatchMode、searchAssetsParam/systemFieldMatchMode和searchAssetsParam/metadataMatchMode使用。
+description: 由searchAssetsParam/conditionMatchMode、searchAssetsParam/systemFieldMatchMode和searchAssetsParam/metadataMatchMode使用。
 solution: Experience Manager
-title: 搜尋符合模式
+title: 搜尋匹配模式
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 67f3b0a9-2e4b-428d-bceb-28a0599da5ce
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '33'
+source-wordcount: '31'
 ht-degree: 6%
 
 ---
 
+# 搜尋匹配模式{#search-match-modes}
 
-# 搜索匹配模式{#search-match-modes}
-
-searchAssetsParam/conditionMatchMode、searchAssetsParam/systemFieldMatchMode和searchAssetsParam/metadataMatchMode使用。
+由searchAssetsParam/conditionMatchMode、searchAssetsParam/systemFieldMatchMode和searchAssetsParam/metadataMatchMode使用。
 
 語法
 
@@ -23,4 +22,3 @@ searchAssetsParam/conditionMatchMode、searchAssetsParam/systemFieldMatchMode和
 
 * [!DNL `MatchAll`]
 * [!DNL `MatchAny`]
-
