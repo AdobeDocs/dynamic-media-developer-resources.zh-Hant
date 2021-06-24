@@ -2,16 +2,15 @@
 description: 內嵌縮放檢視器的JavaScript API參考
 solution: Experience Manager
 title: getComponent
-feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
+feature: Dynamic Media Classic，檢視器，SDK/API，內嵌縮放
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 72ae83e4-b879-4b3b-a5d9-38ed0fc2969d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '183'
 ht-degree: 1%
 
 ---
-
 
 # getComponent{#getcomponent}
 
@@ -19,11 +18,11 @@ ht-degree: 1%
 
 `getComponent(componentId)`
 
-傳回檢視器使用之檢視器SDK元件的參考。 網頁可使用此方法來擴充或自訂現成檢視器的行為。 只有在`initComplete`檢視器回呼執行後才呼叫此方法；否則，檢視器邏輯尚未建立元件。
+傳回檢視器所使用之檢視器SDK元件的參考。 網頁可使用此方法來擴充或自訂現成檢視器的行為。 只有在`initComplete`檢視器回呼執行後，才呼叫此方法；否則，檢視器邏輯尚未建立元件。
 
 ## 參數 {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-`*`componentID`*`  —— 檢 `{String}` 視器使用之檢視器SDK元件的ID。此檢視器支援下列元件ID:
+`*`componentID`*`  — 檢 `{String}` 視器使用之檢視器SDK元件的ID。此檢視器支援下列元件ID:
 
 <table id="table_7B5DD9303EF44ADD847B13FFEAD135D9"> 
  <thead> 
@@ -39,7 +38,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 容器 </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.Container  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.container  </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> mediaSet  </span> </p> </td> 
@@ -51,7 +50,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 色票  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.set.色票  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.set.Swatches  </span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -60,9 +59,9 @@ ht-degree: 1%
 
 如需特定元件的詳細資訊，請參閱檢視器SDK檔案。
 
-## 傳回{#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## 傳回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` 檢視器SDK元件的參考。如果`componentId`不是支援的檢視器元件，或檢視器邏輯尚未建立元件，則此方法會傳回`null`。
+`{Object}` 檢視器SDK元件的參考。如果`componentId`不是支援的檢視器元件，或檢視器邏輯尚未建立元件，則方法會傳回`null`。
 
 ## 範例 {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 
@@ -73,4 +72,3 @@ ht-degree: 1%
 } 
 })
 ```
-
