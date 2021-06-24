@@ -1,25 +1,24 @@
 ---
-description: 設定各種公司特定的組態值。
+description: 設定各種公司專屬的設定值。
 solution: Experience Manager
 title: setCompanySettings
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: c6b72ceb-3c86-4b13-89e9-5f1bb9846b2c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '156'
 ht-degree: 12%
 
 ---
 
-
 # setCompanySettings{#setcompanysettings}
 
-設定各種公司特定的組態值。
+設定各種公司專屬的設定值。
 
 語法
 
-## 授權用戶類型{#section-41732fa7424b455cb458eec21a02259c}
+## 授權的使用者類型 {#section-41732fa7424b455cb458eec21a02259c}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -34,21 +33,21 @@ ht-degree: 12%
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | 是 | 公司負責人。 |
 | `*`overwriteMode`*` | `xsd:string` | 否 | 資產覆寫模式。 |
-| `*`retainPublishState`*` | `xsd:boolean` | 否 | 設為`true`，以在資產重新上傳時保留發佈狀態。 |
-| `*`defaultSourceProfileHandle`*` | `xsd:string` | 否 | IccProfile資產，用作預設來源色彩描述檔。 |
-| `*`defaultDisplayProfileHandle`*` | `xsd:string` | 否 | IccProfile資產，用作預設顯示色彩描述檔。 |
-| `*`iptcExifMappingXsltHandle`*` | `xsd:string` | 否 | 用於將IPTC和EXIF中繼資料對應至IPS中繼資料欄位的XSL資產。 |
-| `*`xmpMappingXsltHandle`*` | `xsd:string` | 否 | XSL資產，用於將中繼資XMP料對應至IPS中繼資料欄位。 |
-| `*`diskSpaceWarningMin`*` | `xsd:int` | 否 | 在發送警告消息之前，可用的最小可用磁碟空間(KB)。 |
-| `*`emailTrashCleanupWarning`*` | `xsd:boolean` | 否 | 設為`true`，可在資產從垃圾筒清空時，向公司管理員傳送通知。 |
+| `*`retainPublishState`*` | `xsd:boolean` | 否 | 設為`true`以在重新上傳資產時保留發佈狀態。 |
+| `*`defaultSourceProfileHandle`*` | `xsd:string` | 否 | IccProfile資產，用作預設源顏色配置檔案。 |
+| `*`defaultDisplayProfileHandle`*` | `xsd:string` | 否 | IccProfile資產，用作預設顯示顏色配置檔案。 |
+| `*`iptcExifMappingXsltHandle`*` | `xsd:string` | 否 | 用於將IPTC和EXIF元資料映射到IPS元資料欄位的XSL資產。 |
+| `*`xmpMappingXsltHandle`*` | `xsd:string` | 否 | 用於將XMP中繼資料對應至IPS中繼資料欄位的XSL資產。 |
+| `*`diskSpaceWarningMin`*` | `xsd:int` | 否 | 發送警告消息之前可用的最小可用磁碟空間(KB)。 |
+| `*`emailPrashCleanupWarning`*` | `xsd:boolean` | 否 | 設為`true` ，以便在資產從垃圾桶清空時，向公司管理員傳送通知。 |
 
 **輸出(setCompanySettingsReturn)**
 
-IPS API不會傳回此作業的回應。
+IPS API不會針對此操作傳回回應。
 
 ## 範例 {#section-d10bf1d3d86f46f7bcf78dc1a2c363c5}
 
-此程式碼範例會設定公司的組態。
+此程式碼範例會設定公司的設定。
 
 **請求**
 
