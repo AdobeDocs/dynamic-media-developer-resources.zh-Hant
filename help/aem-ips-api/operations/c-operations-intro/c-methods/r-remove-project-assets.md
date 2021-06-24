@@ -1,25 +1,24 @@
 ---
-description: 從專案移除資產。 不銷毀資產。
+description: 從專案移除資產。 不會銷毀資產。
 solution: Experience Manager
 title: removeProjectAssets
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API，資產管理
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 6bf169ec-c724-4ac0-a2bf-67af2ebba21a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '185'
 ht-degree: 10%
 
 ---
 
-
 # removeProjectAssets{#removeprojectassets}
 
-從專案移除資產。 不銷毀資產。
+從專案移除資產。 不會銷毀資產。
 
 語法
 
-## 授權用戶類型{#section-b0b333a1f3b648ac8cd6bb3d135d2c6f}
+## 授權的使用者類型 {#section-b0b333a1f3b648ac8cd6bb3d135d2c6f}
 
 * `IpsUser`
 * `IpsCompanyAdmin`
@@ -33,9 +32,9 @@ ht-degree: 10%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 您要移動資產的公司控制代碼。 |
-| `*`projectHandle`*` | `xsd:string` | 是 | 您要移動的專案資產的控制代碼。 |
-| `*`assetHandleArray`*` | `types:HandleArray` | 是 | 要移動的資產的控制代碼陣列。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 含有您要移動資產的公司控制代碼。 |
+| `*`projectHandle`*` | `xsd:string` | 是 | 您要移動之專案資產的控制代碼。 |
+| `*`assetHandleArray`*` | `types:HandleArray` | 是 | 要移動的資產的控點陣列。 |
 
 **輸出(removeProjectAssetsReturn)**
 
@@ -44,8 +43,8 @@ ht-degree: 10%
 | `*`successCount`*` | `xsd:int` | 是 | 已成功移除資產計數。 |
 | `*`warningCount`*` | `xsd:int` | 是 | 操作嘗試從項目中刪除資產時生成的警告數。 |
 | `*`errorCount`*` | `xsd:int` | 是 | 嘗試從專案移除資產時產生的錯誤數。 |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 與資產相關的詳細資訊陣列，當操作嘗試從專案中移除資產時，這些資產會產生警告。 |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 當操作嘗試從項目中刪除錯誤時，與產生錯誤的資產相關的詳細資訊陣列。 |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 與資產相關聯的詳細資訊陣列，當操作嘗試從專案中移除資產時，資產會產生警告。 |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 與操作嘗試從專案移除時產生錯誤之資產相關聯的詳細資訊陣列。 |
 
 ## 範例 {#section-13546cf0a98e4e1b91b8b7cd5724ced8}
 
@@ -63,4 +62,3 @@ ht-degree: 10%
    </assetHandleArray>
 </removeProjectAssetsParam>
 ```
-
