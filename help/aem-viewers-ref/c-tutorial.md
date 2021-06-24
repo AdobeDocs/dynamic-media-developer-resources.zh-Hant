@@ -32,7 +32,7 @@ SDK包含組成檢視器內容的UI元件。 您可以透過CSS和非UI元件來
 * [將按鈕新增至檢視器](c-tutorial.md#section-1fc334fa0d2b47eb9cdad461725c07be)
 * [垂直配置色票](c-tutorial.md#section-91a8829d5b5a4d45a35b7faeb097fcc9)
 
-## 從Adobe Developer Connection {#section-84dc74c9d8e24a2380b6cf8fc28d7127}下載最新的Viewer SDK
+## 從Adobe Developer Connection下載最新的Viewer SDK {#section-84dc74c9d8e24a2380b6cf8fc28d7127}
 
 1. 從Adobe Developer Connection <!-- SDK NO LONGER AVAILABLE TO DOWNLOAD;DOUBLE CHECK WITH AMIT. THIS ENTIRE TOPIC IS LIKELY OBSOLETE. [here](https://marketing.adobe.com/developer/devcenter/scene7/show) -->下載最新的Viewer SDK。
 
@@ -119,7 +119,7 @@ SDK包含組成檢視器內容的UI元件。 您可以透過CSS和非UI元件來
 
 您現在會將樣式新增至檢視器。
 
-## 將樣式添加到查看器{#section-3783125360a1425eae5a5a334867cc32}
+## 將樣式新增至檢視器 {#section-3783125360a1425eae5a5a334867cc32}
 
 1. 對於您要建立的完整頁面檢視器，您可以新增一些基本樣式。
 
@@ -144,7 +144,7 @@ SDK包含組成檢視器內容的UI元件。 您可以透過CSS和非UI元件來
 
 您現在將包含`Container`和`ZoomView`元件。
 
-## 包括容器和ZoomView {#section-1a01730663154a508b88cc40c6f35539}
+## 包括容器和縮放視圖 {#section-1a01730663154a508b88cc40c6f35539}
 
 1. 通過包括元件`Container`和`ZoomView`建立實際查看器。
 
@@ -211,7 +211,7 @@ SDK包含組成檢視器內容的UI元件。 您可以透過CSS和非UI元件來
 
 您現在會將元件`MediaSet`和`Swatches`新增至檢視器。
 
-## 將MediaSet和色票元件新增至檢視器{#section-02b8c21dd842400e83eae2a48ec265b7}
+## 將MediaSet和色票元件新增至檢視器 {#section-02b8c21dd842400e83eae2a48ec265b7}
 
 1. 若要讓使用者能夠從集合中選取影像，您可以新增元件`MediaSet`和`Swatches`。
 
@@ -292,7 +292,7 @@ SDK包含組成檢視器內容的UI元件。 您可以透過CSS和非UI元件來
 
 您現在會將放大、縮小和縮放重設按鈕新增至檢視器。
 
-## 將按鈕添加到查看器{#section-1fc334fa0d2b47eb9cdad461725c07be}
+## 將按鈕新增至檢視器 {#section-1fc334fa0d2b47eb9cdad461725c07be}
 
 1. 目前，使用者只能使用點擊或觸控手勢來縮放。 因此，請將一些基本的縮放控制按鈕新增至檢視器。
 
@@ -356,7 +356,7 @@ SDK包含組成檢視器內容的UI元件。 您可以透過CSS和非UI元件來
 
    您現在將配置色票，使其在右側垂直對齊。
 
-## 垂直配置色票{#section-91a8829d5b5a4d45a35b7faeb097fcc9}
+## 垂直配置色票 {#section-91a8829d5b5a4d45a35b7faeb097fcc9}
 
 1. 您可以直接在`ParameterManager`例項上配置修飾元。
 
