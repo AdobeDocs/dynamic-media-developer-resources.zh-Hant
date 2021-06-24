@@ -1,24 +1,23 @@
 ---
-description: 檢視器支援全螢幕作業模式。
+description: 檢視器支援全螢幕操作模式。
 solution: Experience Manager
 title: 全螢幕支援
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+feature: Dynamic Media Classic，檢視器，SDK/API,360 VR影片
 role: Developer,Business Practitioner
 exl-id: 56951eb7-1e65-4c9d-8978-6c1fc22bb066
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
 
 # 全螢幕支援{#full-screen-support}
 
-檢視器支援全螢幕作業模式。
+檢視器支援全螢幕操作模式。
 
-除了Internet Explorer 10及更舊版本以外，在現代案頭瀏覽器上，檢視器在某些觸控裝置上會使用「原生」全螢幕模式。 此模式表示檢視器內容佔據整個裝置畫面。
+在現代案頭瀏覽器上（Internet Explorer 10及更舊版本除外），在某些觸控裝置上，檢視器會使用「原生」全螢幕模式。 此模式表示檢視器內容會佔用整個裝置畫面。
 
-在iOS裝置和舊版Internet Explorer瀏覽器上，檢視器會改用「模擬」全螢幕模式。 在此模式中，檢視器會調整大小，以取得網頁瀏覽器視窗的完整區域。 此外，網頁瀏覽器使用者介面和其他視窗仍會顯示在螢幕上。
+在iOS裝置和舊版Internet Explorer瀏覽器上，檢視器會改用「模擬」全螢幕模式。 在此模式中，查看器會調整大小，以取得Web瀏覽器窗口的完整區域。 此外，Web瀏覽器用戶介面和其他窗口仍顯示在螢幕上。
 
-使用者按下檢視器使用者介面中的「全螢幕」按鈕，即可進入並離開全螢幕模式。 當桌上型電腦使用「原生」全螢幕模式時，也可以按&#x200B;**Esc**&#x200B;退出。
+使用者在檢視器使用者介面中按全螢幕按鈕，進入並離開全螢幕模式。 在案頭上使用「原生」全螢幕模式時，也可以按&#x200B;**Esc**&#x200B;退出。
