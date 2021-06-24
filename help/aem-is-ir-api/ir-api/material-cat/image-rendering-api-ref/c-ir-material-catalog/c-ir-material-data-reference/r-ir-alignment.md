@@ -1,25 +1,24 @@
 ---
-description: 紋理對齊。 當應用於彼此相關的暈映物件（例如家具物品的軟墊部件）時，紋理的對齊。 主要用於室內裝飾應用程式，可能用於進階服裝應用程式。
+description: 紋理對齊。 當應用於彼此相關的暈暈物體時，如家具物品的軟墊部分時，紋理的對齊。 主要用於軟墊渲染應用程式，可能用於高級服裝應用程式。
 solution: Experience Manager
 title: 對齊
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 19f94b45-5412-46d5-9a01-d7536bc92e00
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '112'
 ht-degree: 5%
 
 ---
 
-
 # 對齊{#alignment}
 
-紋理對齊。 當應用於彼此相關的暈映物件（例如家具物品的軟墊部件）時，紋理的對齊。 主要用於室內裝飾應用程式，可能用於進階服裝應用程式。
+紋理對齊。 當應用於彼此相關的暈暈物體時，如家具物品的軟墊部分時，紋理的對齊。 主要用於軟墊渲染應用程式，可能用於高級服裝應用程式。
 
 ## 屬性 {#section-008158477f53457e9d812d313696cfb6}
 
-列舉。 設為0代表預設或中心比對，1代表連續對齊，2代表零件間的隨機對齊，或設為3、4、5或6以使用自訂紋理原點。 僅用於織物材料。
+列舉。 對於預設對齊或中心匹配對齊，設定為0，對於連續對齊，設定為1，對於零件之間的隨機對齊，設定為2，或者為3、4、5或6以使用自定義紋理原點。 僅用於織物材料。
 
 ## 預設 {#section-1aae2c85042846539caa089f3fa8fe2d}
 
