@@ -4,14 +4,13 @@ solution: Experience Manager
 title: FXG伺服器協定
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 57d9ba37-819e-455f-9b22-bd7aabffe007
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 84%
+source-wordcount: '274'
+ht-degree: 85%
 
 ---
-
 
 # FXG伺服器協定{#fxg-server-protocol}
 
@@ -21,10 +20,10 @@ ht-degree: 84%
 
 ![](assets/wp_ref_points.png)
 
-* 答：參考點位置
-* B.圖形
-* C.圖形從`northWest`參考點旋轉20度
-* D.圖形從其`east`參考點旋轉20度
+* A.參考點位置
+* B.圖
+* C.圖形從其`northWest`參考點旋轉了20度
+* D.圖形從其`east`參考點旋轉了20度
 
 語法如下：
 
@@ -37,4 +36,3 @@ ht-degree: 84%
 >若要使用參照點，並且該物件在處理之後不包含任何置換，請在處理該物件之後更新它的 x 和 y 值。
 
 當`s7:referencePoint` 的值與群組 (或路徑、線條元素或任何沒有明確定義寬度和高度的元素) 一起使用時，該值將套用於該群組的累積邊界方框。例如，該群組中所有物件的邊界框左上方的點作為該群組的 `northWest` 參照點；右下方的點作為 `southEast` 參照點。
-
