@@ -4,16 +4,15 @@ solution: Experience Manager
 title: 屬性集
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 8515d07b-354f-46c9-b528-fa1c380e66af
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '46'
-ht-degree: 10%
+source-wordcount: '44'
+ht-degree: 11%
 
 ---
 
-
-# PropertySet{#propertyset}
+# 屬性集{#propertyset}
 
 屬性集的類型和值。
 
@@ -24,6 +23,5 @@ ht-degree: 10%
 | 名稱 | 類型 | 說明 |
 |---|---|---|
 | `*`setHandle`*` | `xsd:string` | 屬性集句柄。 |
-| `*`typeHandle`*` | `xsd:string` | 屬性集類型的句柄。 |
-| `*`propertyArray`*` | `types:PropertyArray` | 名稱值對。 可以包含零個項目。 |
-
+| `*`typeHandle`*` | `xsd:string` | 處理屬性集類型。 |
+| `*`propertyArray`*` | `types:PropertyArray` | 名稱值組。 可以包含零個項目。 |
