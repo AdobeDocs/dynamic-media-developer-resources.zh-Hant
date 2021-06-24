@@ -2,13 +2,12 @@
 description: 互動式視訊檢視器的設定屬性。
 solution: Experience Manager
 title: CallToAction.align
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic，檢視器， SDK/API，互動式影片
 role: Developer,Business Practitioner
 exl-id: e0a92c4a-3757-4811-87b8-68fb367ea94d
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '92'
 ht-degree: 4%
 
 ---
@@ -22,8 +21,8 @@ ht-degree: 4%
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left|center|right</span> </p> </td> 
-   <td colname="col2"> <p> 指定縮圖容器在元件區域內的內部水準對齊（或錨定）。 </p> <p>在行動要求中，內部縮圖容器的大小會調整，因此只會顯示整數個縮圖。 因此，內部容器和外部元件邊界之間會有一些間距。 </p> <p>此修飾元可指定內部縮圖容器在元件內的水準放置方式。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 左|中|右</span> </p> </td> 
+   <td colname="col2"> <p> 指定元件區域內縮圖容器的內部水準對齊（或錨定）。 </p> <p>在動作呼叫中，內部縮圖容器的大小會調整，因此只會顯示整數縮圖。 因此，內部容器和外部元件界限之間會有一些邊框間距。 </p> <p>此修飾符指定內部縮圖容器在元件內水準放置的方式。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
