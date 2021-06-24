@@ -2,14 +2,13 @@
 description: 互動式視訊檢視器的設定屬性。
 solution: Experience Manager
 title: VideoScrubber.showchaptertitle
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic，檢視器， SDK/API，互動式影片
 role: Developer,Business Practitioner
 exl-id: a687a025-37cc-42cf-8cf7-893179d399ac
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 9%
+source-wordcount: '49'
+ht-degree: 10%
 
 ---
 
@@ -23,7 +22,7 @@ ht-degree: 9%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 啟用／停用章節標籤的標題列。 禁用標題欄時，不顯示章節開始時間。 </p> </td> 
+   <td colname="col2"> <p> 啟用/停用章節標籤的標題列。 標題列停用時，不會顯示章節開始時間。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
