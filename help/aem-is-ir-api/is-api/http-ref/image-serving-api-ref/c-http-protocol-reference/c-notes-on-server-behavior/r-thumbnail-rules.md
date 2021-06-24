@@ -4,20 +4,18 @@ solution: Experience Manager
 title: 縮圖規則
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: d81dc4ad-dd59-4235-996e-58996f009d88
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '91'
 ht-degree: 0%
 
 ---
-
 
 # 縮圖規則{#thumbnail-rules}
 
 請注意這些縮圖規則。
 
-1. 如果`catalog::ThumbType=Crop`，則（裁切的）影像會縮放至最小的大小，同時仍覆蓋整個目標。 如果`catalog::ThumbType=Fit`，則（裁切的）影像會縮放至最大尺寸，同時仍能將整個影像調整為目標方向。 如果`catalog::ThumbType=Texture`,（裁切）影像會縮放為`catalog::ThumbRes`與`catalog::Resolution`的比例。
-1. 根據`attribute::ThumbHorizAlign`和`attribute::ThumbVertAlign`，將縮放的影像與目標對齊。
-1. 將結果直接裁切至目標。
-
+1. 如果`catalog::ThumbType=Crop`，則（已裁切的）影像會縮放至盡可能小的大小，同時仍覆蓋整個目標。 如果`catalog::ThumbType=Fit`，則（已裁切的）影像會縮放至最大的大小，同時仍將整個影像擬合到目標正中。 如果`catalog::ThumbType=Texture`，（已裁切的）影像會縮放至`catalog::ThumbRes`與`catalog::Resolution`的比例。
+1. 根據`attribute::ThumbHorizAlign`和`attribute::ThumbVertAlign`將縮放影像與目標直接對齊。
+1. 將結果裁切至目標。
