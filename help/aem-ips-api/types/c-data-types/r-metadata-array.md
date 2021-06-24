@@ -1,17 +1,16 @@
 ---
 description: 中繼資料的陣列。
 solution: Experience Manager
-title: 中繼資料陣列
-feature: Dynamic Media Classic,SDK/API,Metadata
+title: MetadataArray
+feature: Dynamic Media Classic,SDK/API，中繼資料
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 1833237d-4ef9-4899-8d14-317db350b223
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '30'
-ht-degree: 16%
+source-wordcount: '28'
+ht-degree: 17%
 
 ---
-
 
 # MetadataArray{#metadataarray}
 
@@ -32,9 +31,8 @@ ht-degree: 16%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> 項目</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> 類型：元資料</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 類型：中繼資料</span> </p> </td> 
    <td colname="col3"> <p>中繼資料的陣列。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
