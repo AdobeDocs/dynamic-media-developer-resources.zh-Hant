@@ -2,16 +2,15 @@
 description: 以批次模式更新中繼資料。
 solution: Experience Manager
 title: BatchMetadataUpdate
-feature: Dynamic Media Classic,SDK/API,Metadata
+feature: Dynamic Media Classic,SDK/API，中繼資料
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 07998708-f7c2-42bc-b128-c81f86fd1760
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '36'
-ht-degree: 13%
+source-wordcount: '34'
+ht-degree: 14%
 
 ---
-
 
 # BatchMetadataUpdate{#batchmetadataupdate}
 
@@ -24,5 +23,4 @@ ht-degree: 13%
 | 名稱 | 類型 | 說明 |
 |---|---|---|
 | `*`assetHandleArray`*` | `types:HandleArray` | 資產控點陣列。 |
-| `*`updateArray`*` | `types:MetadataUpdateArray` | 中繼資料更新控點的陣列。 |
-
+| `*`updateArray`*` | `types:MetadataUpdateArray` | 元資料更新句柄的陣列。 |
