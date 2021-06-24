@@ -1,21 +1,20 @@
 ---
-description: 調整色彩平衡。 分別調整每個RGB顏色分量的值。
+description: 調整顏色平衡。 分別調整每個RGB顏色分量的值。
 solution: Experience Manager
 title: op_colorbalance
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 93476778-97b0-4ad5-b22a-093239e845f0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '117'
 ht-degree: 2%
 
 ---
 
-
 # op_colorbalance{#op-colorbalance}
 
-調整色彩平衡。 分別調整每個RGB顏色分量的值。
+調整顏色平衡。 分別調整每個RGB顏色分量的值。
 
 `op_colorbalance= *``*, *``*, *`redAdjgreenAdjblueAdj`*`
 
@@ -34,18 +33,18 @@ ht-degree: 2%
  </tr> 
 </table>
 
-灰階和CMYK輸入影像資料會使用幼稚轉換來轉換為RGB，當啟用色彩管理時，這種轉換不準確。
+灰度和CMYK輸入影像資料使用天基轉換轉換為RGB，當啟用顏色管理時，這種轉換不準確。
 
 ## 屬性 {#section-dff9c934f7c1442bbd02379b688d82e2}
 
-圖層命令。 如果`layer=comp`，則套用至目前圖層或複合影像。 被效果圖層忽略。 在應用操作之前，CMYK影像和圖層將轉換為RGB。
+圖層命令。 若`layer=comp`，則套用至目前層或複合影像。 被效果層忽略。 在應用操作之前， CMYK影像和圖層會轉換為RGB。
 
 ## 預設 {#section-08d84ef715964f7daea86f5ef237d199}
 
-`op_colorbalance=0,0,0` 不能改變顏色。
+`op_colorbalance=0,0,0` 不換顏色。
 
 ## 範例 {#section-7e97fa36e01d4af8ab03fc9d493da1a1}
 
-將色彩平衡推向紅色：
+將顏色平衡推向紅色：
 
 … `&op_colorBalance=100,0,0&`…
