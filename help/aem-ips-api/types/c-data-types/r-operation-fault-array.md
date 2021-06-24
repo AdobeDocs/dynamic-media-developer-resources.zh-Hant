@@ -1,23 +1,22 @@
 ---
-description: 響應CDN失效請求中提供的一個URL的消息陣列。
+description: 回應CDN失效請求中提供之一URL的訊息陣列。
 solution: Experience Manager
 title: OperationFaultArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: b9b92686-a378-4ba0-814b-3354344aa6d2
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 6%
+source-wordcount: '57'
+ht-degree: 7%
 
 ---
 
-
 # OperationFaultArray{#operationfaultarray}
 
-響應CDN失效請求中提供的一個URL的消息陣列。
+回應CDN失效請求中提供之一URL的訊息陣列。
 
-**支援自**
+**支援時間**
 
 4.5.0，修補程式2011-02
 
@@ -35,8 +34,7 @@ ht-degree: 6%
   <tr valign="top"> 
    <td> <p> <span class="codeph"> <span class="varname"> 項目</span> </span> </p> </td> 
    <td> <p> <span class="codeph"> 類型：OperationFault</span> </p> </td> 
-   <td> <p> 由CDN產生的訊息清單使請求無效。 </p> </td> 
+   <td> <p> 由CDN無效請求產生的訊息清單。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
