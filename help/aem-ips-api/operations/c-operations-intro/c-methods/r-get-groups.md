@@ -4,14 +4,13 @@ solution: Experience Manager
 title: getGroups
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: d98c08a6-4c20-4538-9598-c905078ab7de
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 20%
+source-wordcount: '66'
+ht-degree: 21%
 
 ---
-
 
 # getGroups{#getgroups}
 
@@ -19,7 +18,7 @@ ht-degree: 20%
 
 語法
 
-## 授權用戶類型{#section-27c77680a2f34e2f9ecd0af4ebb6847e}
+## 授權的使用者類型 {#section-27c77680a2f34e2f9ecd0af4ebb6847e}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -41,7 +40,7 @@ ht-degree: 20%
 
 ## 範例 {#section-ed0708f611574354bf0c6ea83912b531}
 
-此程式碼會傳回一個陣列，其中包含屬於特定公司的所有群組以及每個群組的特定資訊。
+此程式碼會傳回陣列，其中包含屬於特定公司的所有群組以及每個群組的特定資訊。
 
 **請求**
 
@@ -63,4 +62,3 @@ ht-degree: 20%
    </groupArray>
 </getGroupsReturn>
 ```
-
