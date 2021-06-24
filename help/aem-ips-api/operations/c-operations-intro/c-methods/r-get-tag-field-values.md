@@ -4,14 +4,13 @@ solution: Experience Manager
 title: getTagFieldValues
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 12836783-4f9d-41d3-9b42-6e25238d7ed5
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '90'
 ht-degree: 17%
 
 ---
-
 
 # getTagFieldValues{#gettagfieldvalues}
 
@@ -19,7 +18,7 @@ ht-degree: 17%
 
 語法
 
-## 授權用戶類型{#section-cc36a437394c491594e704a08a161c87}
+## 授權的使用者類型 {#section-cc36a437394c491594e704a08a161c87}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -37,8 +36,8 @@ ht-degree: 17%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 包含標籤欄位之公司的控制代碼。 |
-| `*`fieldHandleArray`*` | `types:HandleArray` | 是 | 用於標籤要返回值的欄位句柄陣列。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 包含標籤欄位的公司的控制代碼。 |
+| `*`fieldHandleArray`*` | `types:HandleArray` | 是 | 要返回的標籤值的欄位句柄陣列。 |
 
 **輸出(getTagFieldValuesReturn)**
 
@@ -83,4 +82,3 @@ ht-degree: 17%
    </fieldArray>
 </getTagFieldValuesReturn>
 ```
-
