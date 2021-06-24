@@ -4,14 +4,13 @@ solution: Experience Manager
 title: TagConditionArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 9f5a1d4a-aa23-4761-b21f-0cf16fd2c584
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '30'
-ht-degree: 20%
+source-wordcount: '28'
+ht-degree: 21%
 
 ---
-
 
 # TagConditionArray{#tagconditionarray}
 
@@ -24,4 +23,3 @@ ht-degree: 20%
 | 名稱 | 類型 | 說明 |
 |---|---|---|
 | `*`項目`*` | `types:TagCondition` | 標籤條件的陣列。 |
-
