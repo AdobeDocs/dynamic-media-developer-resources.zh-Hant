@@ -1,21 +1,20 @@
 ---
-description: 用於透過URL上傳資產。
+description: 透過URL上傳資產。
 solution: Experience Manager
 title: UploadUrl
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: f13fc27c-a91f-4823-8d65-664854af98ae
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '48'
+source-wordcount: '46'
 ht-degree: 10%
 
 ---
 
-
 # UploadUrl{#uploadurl}
 
-用於透過URL上傳資產。
+透過URL上傳資產。
 
 語法
 
@@ -23,6 +22,5 @@ ht-degree: 10%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| `*`sourceUrl`*` | `xsd:string` | 資產從上傳的來源URL。 |
+| `*`sourceUrl`*` | `xsd:string` | 資產上傳來源URL。 |
 | `*`destPath`*` | `xsd:string` | 要上載到的IPS檔案路徑和檔案名。 |
-
