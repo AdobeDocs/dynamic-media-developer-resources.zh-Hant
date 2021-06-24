@@ -1,19 +1,17 @@
 ---
-description: 提供數種進階演算效果。
+description: 提供數種高級渲染效果。
 solution: Experience Manager
-title: 進階演算效果
+title: 高級渲染效果
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 5beec3e4-3923-4192-9b3b-6ba55314ea3c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '26'
+source-wordcount: '23'
 ht-degree: 0%
 
 ---
 
+# 高級渲染效果{#advanced-render-effects}
 
-# 進階演算效果{#advanced-render-effects}
-
-提供數種進階演算效果。
-
+提供數種高級渲染效果。
