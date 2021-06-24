@@ -1,21 +1,20 @@
 ---
-description: Video360檢視器的設定屬性。
+description: Video360查看器的配置屬性。
 solution: Experience Manager
 title: Video360Player.mutevolume
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+feature: Dynamic Media Classic，檢視器，SDK/API,360 VR影片
 role: Developer,Business Practitioner
 exl-id: 8f95c01f-e634-4d6c-a22f-c2285ee969c8
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 13%
+source-wordcount: '64'
+ht-degree: 14%
 
 ---
 
 # Video360Player.mutevolume{#video-player-mutevolume}
 
-Video360檢視器的設定屬性。
+Video360查看器的配置屬性。
 
 `[Video360Player.|<containerId>_video360Player.]mutevolume=0|1`
 
@@ -23,7 +22,7 @@ Video360檢視器的設定屬性。
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 在初始載入時設定視訊播放的靜音模式。 如果設定為<span class="codeph"> 1 </span> ，則音量將靜音；否則，影片會播放音效。 在某些裝置上，載入時會拖曳視訊播放，也可讓視訊自動播放。 </p> </td> 
+   <td colname="col2"> <p> 在初始載入時為視訊播放設定靜音模式。 如果設定為<span class="codeph"> 1 </span> ，則卷將靜音；否則，影片會以音效播放。 在某些裝置上，將視訊播放停止於載入時，也允許視訊自動播放。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
