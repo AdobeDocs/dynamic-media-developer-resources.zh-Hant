@@ -2,16 +2,15 @@
 description: 取得與資產相關聯的使用者定義中繼資料欄位。
 solution: Experience Manager
 title: getMetadataFields
-feature: Dynamic Media Classic,SDK/API,Metadata
+feature: Dynamic Media Classic,SDK/API，中繼資料
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 4d01e2e7-9b68-4dfa-9fe8-08a22cb4bfd5
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '101'
 ht-degree: 14%
 
 ---
-
 
 # getMetadataFields{#getmetadatafields}
 
@@ -19,7 +18,7 @@ ht-degree: 14%
 
 語法
 
-## 授權用戶類型{#section-e32e481a02674b729bfc5454a6c9ff65}
+## 授權的使用者類型 {#section-e32e481a02674b729bfc5454a6c9ff65}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -42,7 +41,7 @@ ht-degree: 14%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`程式碼片語`*` | `Code Phrase` |  |  |
+| `*`代碼片語`*` | `Code Phrase` |  |  |
 
 ## 範例 {#section-dbfde1483d614b5aac2b491cb32115d7}
 
@@ -73,4 +72,3 @@ ht-degree: 14%
    </fieldArray>
 </getMetadataFieldsReturn>
 ```
-
