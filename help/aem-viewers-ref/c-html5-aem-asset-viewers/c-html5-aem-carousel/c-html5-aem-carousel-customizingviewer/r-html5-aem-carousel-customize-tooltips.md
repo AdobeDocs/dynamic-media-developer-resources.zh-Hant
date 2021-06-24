@@ -1,27 +1,26 @@
 ---
-description: 在案頭系統上，有些使用者介面元素（例如按鈕）的工具提示會顯示在滑鼠暫留狀態。
+description: 在案頭系統上，有些使用者介面元素（如按鈕）具有滑鼠暫留時顯示的工具提示。
 solution: Experience Manager
 title: 工具提示
-feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+feature: Dynamic Media Classic，檢視器，SDK/API，輪播橫幅
 role: Developer,Business Practitioner
 exl-id: b4604528-93f6-440c-b676-7b4c89fff6c8
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '147'
 ht-degree: 6%
 
 ---
 
 # 工具提示{#tooltips}
 
-在案頭系統上，有些使用者介面元素（例如按鈕）的工具提示會顯示在滑鼠暫留狀態。
+在案頭系統上，有些使用者介面元素（如按鈕）具有滑鼠暫留時顯示的工具提示。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**主檢視器區域的CSS屬性**
+**主查看器區域的CSS屬性**
 
-工具提示的外觀由下列CSS類別選擇器控制：
+工具提示的外觀由下列CSS類別選取器控制：
 
 ```
 .s7tooltip
@@ -40,11 +39,11 @@ ht-degree: 6%
    <td colname="col2"> <p> 背景邊框半徑。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 邊框色彩  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 邊框顏色  </span> </p> </td> 
    <td colname="col2"> <p> 背景邊框顏色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景顏色  </span> </p> </td> 
    <td colname="col2"> <p> 背景顏色. </p> </td> 
   </tr> 
   <tr> 
@@ -52,21 +51,21 @@ ht-degree: 6%
    <td colname="col2"> <p>文字色彩. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字型系列  </span> </p> </td> 
    <td colname="col2"> <p>文字字型名稱. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 字型大小  </span> </p> </td> 
-   <td colname="col2"> <p>文字字型大小。 </p> </td> 
+   <td colname="col2"> <p>文本字型大小。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->如果工具提示樣式是從內嵌網頁自訂，所有屬性都必須包含`!IMPORTANT`規則。 如果在檢視器的CSS檔案中自訂工具提示，則不需要這個提示。
+>如果從內嵌網頁內自訂工具提示樣式，所有屬性都必須包含`!IMPORTANT`規則。 如果檢視器的CSS檔案中已自訂工具提示，則不需要此功能。
 
-範例——若要設定工具提示，其中灰色邊框的圓角半徑為3像素、黑色背景和Arial中的白色文字，大小為11像素：
+示例 — 要設定具有灰色邊框的工具提示，該邊框的角半徑為3像素，黑色背景和白色文本為Arial，大小為11像素：
 
 ```
 .s7tooltip { 
