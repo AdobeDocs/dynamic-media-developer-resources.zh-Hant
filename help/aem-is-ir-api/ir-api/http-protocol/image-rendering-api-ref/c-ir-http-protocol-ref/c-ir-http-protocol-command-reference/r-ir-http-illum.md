@@ -1,27 +1,26 @@
 ---
-description: 照明圖選擇器。 指定此材料希望用來渲染的照明映射。
+description: 照明圖選擇器。 指定此材料要用來渲染的照明映射。
 solution: Experience Manager
-title: illum
+title: 伊拉姆
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: e1af2397-8eae-4b77-abb1-61ba8cb866f3
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '83'
 ht-degree: 4%
 
 ---
 
+# 伊拉姆{#illum}
 
-# illum{#illum}
-
-照明圖選擇器。 指定此材料希望用來渲染的照明映射。
+照明圖選擇器。 指定此材料要用來渲染的照明映射。
 
 `illum=-1|0|1|2`
 
-如果指定的照明地圖在目標暈映中不可用，則改用最近的可用地圖。
+如果指定的照明映射在目標暈映中不可用，則會改用最接近的可用映射。
 
-`illum=-1` 指定照明映射是根據值自動選 `gloss=` 擇的。
+`illum=-1` 指定根據值自動選擇照明 `gloss=` 圖。
 
 ## 屬性 {#section-aace8466566e4cf1a0c5a6c0167245c9}
 
