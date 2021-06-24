@@ -1,30 +1,29 @@
 ---
-description: 影像的檢視變形
+description: 檢視影像轉換
 solution: Experience Manager
-title: 影像的檢視變形
+title: 檢視影像轉換
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: fc20cbc2-9d66-4c52-80c2-9ba7c3b54744
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
 
+# 檢視影像轉換{#view-transform-for-images}
 
-# 檢視影像變形{#view-transform-for-images}
+回應`req=img`要求而傳回給用戶端的影像，會考量下列值，從複合影像衍生而來：`wid=`、`hei=`、`fit=`、`scl=`、`rgn=`、`attribute::DefaultPix`、`attribute::MaxPix`和複合影像的大小。
 
-響應`req=img`請求而返回給客戶端的映像是從複合映像派生的，方法是考慮以下值：`wid=`、`hei=`、`fit=`、`scl=`、`rgn=`、`attribute::DefaultPix`、`attribute::MaxPix`以及複合影像的大小。
+如果指定了`wid=`和`hei=`，但未指定`scl=`，則會縮放複合影像，使其完全適合於`wid=`和`hei=`所定義的視圖直接內。 如果視圖直角的長寬比與複合影像的長寬比不同，則使用`align=`值（如果指定）在視圖直角內對齊縮放的複合影像，否則會將其置中。 影像資料未覆蓋的任何空間都會填入`bgc=`，若未指定，則會填入`attribute::BkgColor`。
 
-如果指定了`wid=`和`hei=`，而未指定`scl=`，則複合影像會進行縮放，以便完全適合`wid=`和`hei=`定義的視圖。 如果視圖直角的長寬比與合成影像的長寬比不同，則使用`align=`值（如果已指定）在視圖直角內對齊縮放的合成影像，否則會置中。 影像資料未涵蓋的任何空間都會填入`bgc=`，或者，如果未指定，則填入`attribute::BkgColor`。
+如果指定`scl=`，則複合影像將按該縮放因子縮放。 如果也指定了`wid=`和/或`hei=`，則縮放影像隨後被裁切到`wid=`和/或`hei=`，或根據需要添加額外空間。 `align=` 指定影像被裁切或新增額外空間的位置，且任何額外空間都會填 `bgc=` 入或 `attribute::BkgColor`。
 
-如果指定`scl=`，則複合影像將按該比例因子縮放。 如果也指定了`wid=`和／或`hei=`，則縮放後的影像會被裁切為`wid=`和／或`hei=`，或視需要加入額外空間。 `align=` 指定影像被裁切或新增額外空間的位置，並以或填入任何額外 `bgc=` 空間 `attribute::BkgColor`。
+如果未指定`wid=`、`hei=`或`scl=`，並且如果複合影像的寬度或高度超過`attribute::DefaultPix`，則複合影像會縮放至不超過`attribute::DefaultPix`。 否則，將使用複合影像而不縮放。
 
-如果未指定`wid=`、`hei=`或`scl=`，且如果合成影像的寬度或高度超過`attribute::DefaultPix`，則合成影像會縮放為不超過`attribute::DefaultPix`。 否則，合成影像將不進行縮放。
+要保證返回視圖影像而不進行任何進一步縮放，請指定`scl=1`。
 
-為確保在不進行任何進一步縮放的情況下返回視圖影像，請指定`scl=1`。
+如果指定`rgn=`，則回覆影像隨後相應地被裁切，以達到最終的回覆影像大小。 此大小會與`attribute::MaxPix`（如果已定義）比較，如果回覆影像在任一維度中較大，則會產生錯誤。
 
-如果指定`rgn=`，則回覆影像會隨之裁切，以達到最終的回覆影像大小。 此大小會與`attribute::MaxPix`（如果已定義）比較，如果回覆影像在任一維度中較大，則會產生錯誤。
-
-如果`fmt=`指定沒有alpha的資料，則回覆影像中的任何透明區域都會填入`bgc=`或`attribute::BkgColor`。
+如果`fmt=`指定了不含Alpha的資料，則回復影像中的任何透明區域都將填充`bgc=`或`attribute::BkgColor`。
