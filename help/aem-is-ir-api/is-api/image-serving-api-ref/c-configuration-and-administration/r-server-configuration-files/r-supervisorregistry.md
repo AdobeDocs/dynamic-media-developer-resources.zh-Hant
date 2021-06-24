@@ -4,22 +4,21 @@ solution: Experience Manager
 title: SupervisorRegistry.xml
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: cc6a16fb-fd70-431f-aad6-adb99d4da062
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '77'
 ht-degree: 0%
 
 ---
-
 
 # SupervisorRegistry.xml{#supervisorregistry-xml}
 
 包含伺服器主管配置設定。
 
-編輯此XML檔案時，請務必維持有效的XML語法，否則影像伺服器可能會無法啟動。
+編輯此XML檔案時，請務必保持有效的XML語法，否則影像伺服器可能無法啟動。
 
-編輯完此檔案後重新啟動影像伺服，以確保您的變更生效。 僅支援以下突出顯示的元素／屬性值進行修改。 僅在Dynamic Media技術支援人員告知時編輯此檔案的所有其他內容。
+編輯此檔案後重新啟動「影像伺服」，以確保您的更改生效。 修改僅支援以下醒目提示的元素/屬性值。 只有在Dynamic Media技術支援提供建議時，才編輯此檔案的所有其他內容。
 
 ```
 <supervisor>
@@ -68,4 +67,3 @@ ht-degree: 0%
     </servers>
 </supervisor>
 ```
-
