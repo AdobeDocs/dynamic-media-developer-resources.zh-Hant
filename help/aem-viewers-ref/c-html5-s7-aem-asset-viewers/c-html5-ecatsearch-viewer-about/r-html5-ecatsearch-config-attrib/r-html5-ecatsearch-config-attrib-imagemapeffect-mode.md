@@ -2,16 +2,15 @@
 description: ImageMapEffect.mode
 solution: Experience Manager
 title: ImageMapEffect.mode
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic，檢視器，SDK/API,eCatalog搜尋
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 3772ff80-3a51-4dd9-85a7-12242518080c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '84'
 ht-degree: 4%
 
 ---
-
 
 # ImageMapEffect.mode{#imagemapeffect-mode}
 
@@ -20,13 +19,13 @@ ht-degree: 4%
 <table id="table_4A3D7D66D76A403199303155318D0DE1"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 表徵圖|區域|auto|none  </span> </p> </td> 
-   <td colname="col2"> <p>指定影像地圖的外觀。 </p> <p> 
+   <td colname="col1"> <p> <span class="codeph"> 表徵圖|區域|自動|無  </span> </p> </td> 
+   <td colname="col2"> <p>指定影像映射的外觀。 </p> <p> 
      <ul id="ul_DDA49C152718486E853213E6FC2182B2"> 
-      <li id="li_18F86AB4D2F544319CCDF7BE376ABA53"> <p> <span class="codeph"> 圖示 </span> 地圖圖示會靜態顯示在案頭和觸控裝置上。 </p> </li> 
-      <li id="li_F8832681CDD6456E9147A37C99BAFFED"> <p> <span class="codeph"> 區域 </span> 渲染影像地圖區域；在桌上型電腦上，它們會在滑鼠指向上顯示，而在觸控裝置上則會一律顯示。 </p> </li> 
-      <li id="li_9F7DD686E8104AEB944505363F433C0F"> <p> <span class="codeph"> 在桌 </span> 上型電腦系統上，影像地圖區域會顯示在滑鼠指向上，而在觸控裝置上，地圖圖示則一律顯示。 </p> </li> 
-      <li id="li_7CB644F3A029480293B46F44FF8D03B6"> <p> <span class="codeph"> 無 </span> 會停用影像地圖。 </p> </li> 
+      <li id="li_18F86AB4D2F544319CCDF7BE376ABA53"> <p> <span class="codeph"> 表徵 </span> 圖映射表徵圖在案頭和觸摸設備上靜態顯示。 </p> </li> 
+      <li id="li_F8832681CDD6456E9147A37C99BAFFED"> <p> <span class="codeph"> 區域 </span> 呈現影像地圖區域；在案頭上，它們會顯示在滾動的裝置上，以及始終可見的觸控裝置上。 </p> </li> 
+      <li id="li_9F7DD686E8104AEB944505363F433C0F"> <p> <span class="codeph"> 在案 </span> 頭系統上自動顯示影像映射區域，在滾動時顯示，在觸控式裝置上顯示圖示時一律可見。 </p> </li> 
+      <li id="li_7CB644F3A029480293B46F44FF8D03B6"> <p> <span class="codeph"> 無 </span> 禁用影像映射。 </p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
