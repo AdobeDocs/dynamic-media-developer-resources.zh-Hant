@@ -4,14 +4,13 @@ solution: Experience Manager
 title: ImageMapArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: da823ee9-198f-4d52-b77f-ac7d21162fb5
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '29'
-ht-degree: 20%
+source-wordcount: '27'
+ht-degree: 22%
 
 ---
-
 
 # ImageMapArray{#imagemaparray}
 
@@ -23,5 +22,4 @@ ht-degree: 20%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| `*`項目`*` | `types:ImageMap` | 影像地圖陣列。 |
-
+| `*`項目`*` | `types:ImageMap` | 影像映射陣列。 |
