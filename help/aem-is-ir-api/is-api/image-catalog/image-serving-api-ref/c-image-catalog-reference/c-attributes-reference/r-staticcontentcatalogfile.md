@@ -4,24 +4,23 @@ solution: Experience Manager
 title: StaticContentCatalogFile
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: ff6f0ad8-189f-4172-89cb-f138d2df8fe4
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '121'
 ht-degree: 4%
 
 ---
-
 
 # StaticContentCatalogFile{#staticcontentcatalogfile}
 
 靜態內容目錄資料檔案路徑。 指定包含此目錄靜態內容資料的檔案。
 
-靜態內容目錄資料檔案按指定順序載入。 如果相同的`static::Id`值出現在多個記錄中（位於相同或不同的目錄檔案中），則最後一個例項優先。
+靜態內容目錄資料檔案會以指定的順序載入。 如果同一個`static::Id`值出現在多個記錄中（在相同或不同目錄檔案中），則最後一個實例優先。
 
 ## 屬性 {#section-3f8dc8d21fa84fbeb71db6ca1ecbdd8c}
 
-一或多個文字字串值，以逗號分隔。 選填。每個值都必須是相對於目錄資料夾的絕對檔案路徑或路徑。
+一或多個文字字串值，以逗號分隔。 選填。每個值必須是相對於目錄資料夾的絕對檔案路徑或路徑。
 
 ## 預設 {#section-702edfbc00c54fc29e412a3ff99fef2b}
 
