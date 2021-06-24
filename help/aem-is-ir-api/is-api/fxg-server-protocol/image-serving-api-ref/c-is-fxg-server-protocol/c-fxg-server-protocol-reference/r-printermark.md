@@ -4,24 +4,23 @@ solution: Experience Manager
 title: printerMark
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: f61c7311-a2e9-4eb7-ae05-276a4eec980b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 30%
+source-wordcount: '120'
+ht-degree: 31%
 
 ---
-
 
 # printerMark{#printermark}
 
 顯示打印機標籤。 指定如何顯示打印機標籤。
 
-` printerMark= *`修剪標`*, *`記出`*, *`血標籤注`*, *`冊標籤顏`*, *`色標籤信`*, *``*, *`息樣式線`*, *`加權圖嵌入`*`
+` printerMark= *`修剪`*, *`標籤注`*, *`冊標籤顏`*, *`色標`*, *`簽資訊`*, *``*, *`樣`*, *`式線加權層內嵌`*`
 
 可以關閉或開啟不同的標籤。 還可以控制打印機標籤的樣式。
 
-以下是有效值：
+有效值如下：
 
 <table id="simpletable_C84560940CAC46D8BE9D0EFEE5EBF323"> 
  <tr class="strow"> 
@@ -52,11 +51,11 @@ ht-degree: 30%
  <tr class="strow"> 
   <td class="stentry"> <p>style= </p></td> 
   <td class="stentry"> <p>預設 </p> <p>InDesignJ1 </p> <p>InDesignJ2 </p> <p>Illustrator </p> <p>IllustratorJ </p> <p>QuarkXPress </p> </td> 
-  <td class="stentry"> <p>預設為預設 </p></td> 
+  <td class="stentry"> <p>預設為 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>線重= </p></td> 
-  <td class="stentry"> <p>0.125 - 2.0範圍內的任何值，包括兩個值。 </p></td> 
+  <td class="stentry"> <p>0.125 - 2.0範圍內的任何值（含）。 </p></td> 
   <td class="stentry"> <p>預設為 0.25。 </p></td> 
  </tr> 
  <tr class="strow"> 
