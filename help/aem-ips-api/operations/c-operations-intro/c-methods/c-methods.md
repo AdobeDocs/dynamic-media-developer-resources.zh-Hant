@@ -4,14 +4,13 @@ solution: Experience Manager
 title: 操作參數
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 70ea84ce-10ec-4a89-bd0a-ab81b4e88f5c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '167'
 ht-degree: 0%
 
 ---
-
 
 # 操作參數{#operation-parameters}
 
@@ -28,7 +27,7 @@ ht-degree: 0%
 * [batchSetIccProfileFields](r-batch-set-icc-profile-fields.md)
 * [batchSetImageFields](r-batch-set-image-fields.md)
 * [batchSetThumbAsset](r-batch-set-thumb-asset.md)
-* [cdnCacheInvaliting](r-cdn-cache-invalidation.md)
+* [cdnCacheInvalidation](r-cdn-cache-invalidation.md)
 * [checkAssetNames](r-check-asset-names.md)
 * [checkLogin](r-check-login.md)
 * [copyImage](r-copy-image.md)
@@ -76,7 +75,7 @@ ht-degree: 0%
 * [getAutoCropRect](r-get-auto-crop-rect.md)
 * [getCompanyInfo](r-get-company-info.md)
 * [getCompanyMembers](r-get-company-members.md)
-* [getCompanyMembership](r-get-company-membership.md)
+* [getCompanyMembersing](r-get-company-membership.md)
 * [getCompanySettings](r-get-company-settings.md)
 * [getDiskUsage](r-get-disk-usage.md)
 * [getDistinctMetadataValues](r-get-distinct-metadata-values.md)
@@ -143,7 +142,7 @@ ht-degree: 0%
 * [setAssetPublishState](r-set-asset-publish-state.md)
 * [setAssetsPublishState](r-set-assets-publish-state.md)
 * [setAssetSetDefinition](r-set-asset-set-definition.md)
-* [setCompanyMembership](r-set-company-membership.md)
+* [setCompanyMembersip](r-set-company-membership.md)
 * [setCompanySettings](r-set-company-settings.md)
 * [setFolderPermissions](r-set-folder-permissions.md)
 * [setGroupMembers](r-set-group-members.md)
