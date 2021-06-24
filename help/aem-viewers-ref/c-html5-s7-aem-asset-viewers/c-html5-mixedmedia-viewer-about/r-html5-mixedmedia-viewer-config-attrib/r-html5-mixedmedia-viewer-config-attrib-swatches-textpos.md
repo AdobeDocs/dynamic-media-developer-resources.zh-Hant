@@ -2,16 +2,15 @@
 description: Swatches.textpos
 solution: Experience Manager
 title: Swatches.textpos
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic，檢視器，SDK/API，混合媒體集
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 4b3b91f9-e564-462a-a4f3-494dd5511c26
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 6%
+source-wordcount: '57'
+ht-degree: 7%
 
 ---
-
 
 # Swatches.textpos{#swatches-textpos}
 
@@ -22,8 +21,8 @@ ht-degree: 6%
 <table id="table_B3B03B00DCF0466DB332E851F4DDF610"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> 底部|頂部|左|右|無|工具提示</span> </p> </td> 
-   <td> <p> 指定相對於色票縮圖影像的標籤繪製位置。 也就是說，標籤會置於相對於色票縮圖的指定位置。 指定<span class="codeph"> tooltip</span>時，不會繪製任何標籤。 </p> </td> 
+   <td> <p> <span class="codeph"> 下|上|左|右|無|工具提示</span> </p> </td> 
+   <td> <p> 指定相對於色票縮圖影像繪製標籤的位置。 也就是說，標籤位於相對於色票縮圖的指定位置中。 指定<span class="codeph">工具提示</span>時，不繪製標籤。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
