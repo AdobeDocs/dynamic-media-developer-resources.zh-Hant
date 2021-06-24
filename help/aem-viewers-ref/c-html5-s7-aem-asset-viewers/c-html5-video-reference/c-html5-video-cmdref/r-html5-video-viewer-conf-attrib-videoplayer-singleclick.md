@@ -2,16 +2,15 @@
 description: 視訊檢視器的設定屬性。
 solution: Experience Manager
 title: VideoPlayer.singleclick
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+feature: Dynamic Media Classic，檢視器， SDK/API，影片
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 2fd83645-16d4-45ce-8fa8-d97dc254691f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '75'
 ht-degree: 5%
 
 ---
-
 
 # VideoPlayer.singleclick{#videoplayer-singleclick}
 
@@ -23,7 +22,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> none|playPause</span> </span> </p> </td> 
-   <td colname="col2"> <p> 設定單鍵／點選的對應，以切換播放／暫停。 設為<span class="codeph"> none</span>會停用單鍵／點選以播放／暫停。 如果設為<span class="codeph"> playPause</span>，按一下視訊會在播放和暫停視訊之間切換。 在某些裝置上，您可以使用原生控制項。 在這種情況下，<span class="codeph"> syncolick</span>行為會停用。 </p> </td> 
+   <td colname="col2"> <p> 設定單按/點選的對應以切換播放/暫停。 設為<span class="codeph"> none</span>會停用單鍵/點選以播放/暫停。 如果設為<span class="codeph"> playPause</span>，按一下視訊會在播放和暫停視訊之間切換。 在某些裝置上，您可以使用原生控制項。 在這種情況下，<span class="codeph"> synclick</span>行為被禁用。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -41,4 +40,3 @@ ht-degree: 5%
 ```
 singleclick=none
 ```
-
