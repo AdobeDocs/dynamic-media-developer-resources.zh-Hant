@@ -1,24 +1,23 @@
 ---
-description: 除錯請求。 此debug命令可解析並預先處理請求、執行影像目錄查閱、目錄修飾詞包含、巨集和變數替代等，就像req=img。
+description: 除錯請求。 此調試命令解析並預處理請求、執行映像目錄查找、目錄修改符包含、宏和變數替代等，如req=img。
 solution: Experience Manager
 title: 解決
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: ef357c19-e725-4904-b635-102e75ff7518
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '79'
 ht-degree: 2%
 
 ---
 
-
 # 解決{#resolve}
 
-除錯請求。 此debug命令可解析並預先處理請求、執行影像目錄查閱、目錄：：修飾詞包含、巨集和變數替代等，就像req=img。
+除錯請求。 此調試命令解析並預處理請求、執行映像目錄查找、目錄：：修改項包含、宏和變數替代等，如req=img。
 
 `req=resolve`
 
-會傳回最終請求字串，而非結果影像，MIME類型為`text/plain`。
+系統會傳回最終要求字串（而非結果影像），其MIME類型為`text/plain`。
 
 HTTP回應無法快取。
