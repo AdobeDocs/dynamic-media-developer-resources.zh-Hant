@@ -4,14 +4,13 @@ solution: Experience Manager
 title: getPropertySetTypes
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 7686d30b-e071-4950-8af1-4dd25312ce4b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '118'
 ht-degree: 14%
 
 ---
-
 
 # getPropertySetTypes{#getpropertysettypes}
 
@@ -19,7 +18,7 @@ ht-degree: 14%
 
 語法
 
-## 授權用戶類型{#section-9c7c0d2cd2c94dfca3f96774b3a9a2c6}
+## 授權的使用者類型 {#section-9c7c0d2cd2c94dfca3f96774b3a9a2c6}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -49,16 +48,16 @@ ht-degree: 14%
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4">屬性集類型與關聯的公司的句柄。 <p>如果要返回全局屬性集類型，則省略。 </p> </td> 
+   <td colname="col4">與屬性集類型關聯的公司的句柄。 <p>如果要返回全局屬性集類型，請忽略。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**輸出(getPropertySetTypesReturn)**
+**Output(getPropertySetTypesReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`typeArray`*` | `types:PropertySetTypeArray` | 是 | 與指定公司關聯的屬性集類型陣列，或者全域屬性集類型（如果未指定公司）。 |
+| `*`typeArray`*` | `types:PropertySetTypeArray` | 是 | 與指定的公司關聯的屬性集類型的陣列，或者如果未指定公司，則全局屬性集類型。 |
 
 ## 範例 {#section-280c406a90864409856aee44d4069a52}
 
@@ -92,4 +91,3 @@ ht-degree: 14%
   </typeArray>
 </getPropertySetTypesReturn>
 ```
-
