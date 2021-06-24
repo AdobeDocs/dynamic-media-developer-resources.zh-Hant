@@ -4,20 +4,19 @@ solution: Experience Manager
 title: 路徑
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 5562b0e0-0476-4dd0-acce-058601b9af0a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '77'
 ht-degree: 10%
 
 ---
-
 
 # 路徑{#path}
 
 暈映檔案路徑。 暈映檔案的相對路徑和名稱。
 
-伺服器會將此值與`attribute::RootPath`結合，以建立實際暈映檔案路徑。 也可以是絕對路徑。
+伺服器將此值與`attribute::RootPath`結合，以建立實際暈映檔案路徑。 也可能是絕對路徑。
 
 ## 屬性 {#section-b3b295feac084b56bd8a153c04987153}
 
