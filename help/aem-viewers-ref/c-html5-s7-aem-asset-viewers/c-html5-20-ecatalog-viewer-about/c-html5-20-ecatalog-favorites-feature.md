@@ -2,21 +2,20 @@
 description: 我的最愛功能
 solution: Experience Manager
 title: 我的最愛功能
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic，檢視器，SDK/API,eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 7caf1111-9643-494c-8c9e-684edd1c27f8
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '92'
 ht-degree: 0%
 
 ---
 
-
 # 我的最愛功能{#favorites-feature}
 
-使用者可使用「我的最愛」功能，將「心臟」圖示新增至e-catalog影像，以直接在e-catalog中標示感興趣的產品。 檢視器會將所有我的最愛儲存在用戶端的系統上，當相同的使用者再次造訪e-catalog時，就會再次顯示。
+一般使用者可以使用我的最愛功能，在電子目錄影像中新增「心」圖示，以直接標示電子目錄中感興趣的產品。 檢視器會儲存用戶端系統上的所有我的最愛，並在相同使用者再次造訪電子目錄時再次顯示。
 
-此外，檢視器可讓您檢視新增至e-catalog的所有我的最愛，並視為縮圖影像的格線。
+此外，檢視器可讓您檢閱新增至電子目錄的所有最愛，以作為縮圖影像的格線。
 
-所有「我的最愛」工具都會分組在控制列的一個下拉式清單下。
+所有收藏夾工具都歸類到控制欄的一個下拉清單下。
