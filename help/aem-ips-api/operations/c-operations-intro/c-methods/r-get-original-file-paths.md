@@ -4,14 +4,13 @@ solution: Experience Manager
 title: getOriginalFilePaths
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 81d06a8c-55c1-47d5-adc9-928ab30199c6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '104'
 ht-degree: 15%
 
 ---
-
 
 # getOriginalFilePaths{#getoriginalfilepaths}
 
@@ -19,7 +18,7 @@ ht-degree: 15%
 
 語法
 
-## 授權用戶類型{#section-da8d8561e9174e938f3595a5d6e50089}
+## 授權的使用者類型 {#section-da8d8561e9174e938f3595a5d6e50089}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -40,7 +39,7 @@ ht-degree: 15%
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | 是 | 公司的把手。 |
-| `*`assetHandleArray`*` | `types:HandleArray` | 是 | 要獲取其原始檔案路徑的資產的句柄陣列。 |
+| `*`assetHandleArray`*` | `types:HandleArray` | 是 | 要取得原始檔案路徑的資產的控點陣列。 |
 
 **輸出(getOriginalFilePathsReturn)**
 
@@ -74,4 +73,3 @@ ht-degree: 15%
    </originalFileArray>
 </getOriginalFilePathsReturn>
 ```
-
