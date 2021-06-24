@@ -2,27 +2,26 @@
 description: Swatches.align
 solution: Experience Manager
 title: Swatches.align
-feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
+feature: Dynamic Media Classic，檢視器，SDK/API,Flyout
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 300bbee8-29f1-444d-bf98-42aeb9c5017b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '87'
 ht-degree: 4%
 
 ---
-
 
 # Swatches.align{#swatches-align}
 
 `[Swatches.|<containerId>_swatches.]align=left|center|right,top|center|bottom`
 
-指定元件區域內色票容器的內部對齊（錨定）。 在「色票」中，內部縮圖容器的大小會調整，因此只會顯示整數個色票。 因此，內部容器和外部元件邊界之間會有一些間距。 此命令指定內部色票容器在元件內的放置方式。
+指定元件區域內色板容器的內部對齊（錨定）。 在「色票」中，內部縮圖容器的大小是這樣的，只顯示整個數量的色票。 因此，內部容器和外部元件界限之間會有一些邊框間距。 此命令指定內部色板容器在元件內的放置方式。
 
 <table id="table_33CC037517964DA89EE0C005BB6B32BB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> left|center|right</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> 左|中|右</span> </p> </td> 
    <td colname="col2"> <p> 設定水準色板對齊方式。 </p> </td> 
   </tr> 
   <tr> 
