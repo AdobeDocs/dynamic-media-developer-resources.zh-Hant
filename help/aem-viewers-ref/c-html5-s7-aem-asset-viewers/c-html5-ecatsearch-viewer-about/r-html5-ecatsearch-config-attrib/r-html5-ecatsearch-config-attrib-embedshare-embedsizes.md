@@ -2,20 +2,19 @@
 description: EmbedShare.embedsizes
 solution: Experience Manager
 title: EmbedShare.embedsizes
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic，檢視器，SDK/API,eCatalog搜尋
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 68103754-1cbb-4e8d-b2b5-2770a7658140
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '42'
-ht-degree: 16%
+source-wordcount: '39'
+ht-degree: 17%
 
 ---
 
-
 # EmbedShare.embedsizes{#embedshare-embedsizes}
 
-[!DNL ` [EmbedShare.|<containerId>_embedShare.]embedsizes= *`寬高`*, *``*[,0|1][; *``*, *`寬高`*[,0|1]]`]
+[!DNL ` [EmbedShare.|<containerId>_embedShare.]embedsizes= *``*, *``*[,0|1][; *``*, *`widthheightwidthheight`*[,0|1]]`]
 
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
@@ -29,7 +28,7 @@ ht-degree: 16%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 指定是否應在組合框中初始預選此清單項。 </p> </td> 
+   <td colname="col2"> <p> 指定是否應在組合框中最初預選此清單項。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
