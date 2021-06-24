@@ -1,30 +1,29 @@
 ---
-description: Flash應用程式網域。 AdobeFlash應用程式可能需要存取以swf格式傳送的影像屬性。swf必須註冊其信任的應用程式網域名稱，以明確授與存取權。
+description: Flash應用程式Web域。 AdobeFlash應用程式可能需要訪問以swf格式傳送的影像的屬性。swf必須通過註冊其信任的應用程式域的名稱來顯式授予訪問權。
 solution: Experience Manager
 title: TrustedDomains *
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 41794f62-6140-4e54-9de2-908b20c51b37
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '123'
 ht-degree: 3%
 
 ---
 
-
 # TrustedDomains *{#trusteddomains}
 
-Flash應用程式網域。 AdobeFlash應用程式可能需要存取以swf格式傳送的影像屬性。swf必須註冊其信任的應用程式網域名稱，以明確授與存取權。
+Flash應用程式Web域。 AdobeFlash應用程式可能需要訪問以swf格式傳送的影像的屬性。swf必須通過註冊其信任的應用程式域的名稱來顯式授予訪問權。
 
 ## 屬性 {#section-5d6ecfa431a04abd8628a28e0ab3be83}
 
-包含以逗號分隔的Web域名清單的字串。 如果為空，則必須從與「影像演算」相同的網域提供應用程式，才能存取[!DNL swf]格式化回應中的影像屬性。
+包含以逗號分隔的Web域名清單的字串。 如果為空，則必須從與影像呈現相同的域為應用程式提供服務，才能訪問[!DNL swf]格式化響應中的影像屬性。
 
 ## 預設 {#section-8fae0c896f7d46e7a61b0fd7e2b34dc3}
 
-繼承自`default::TrustedDomains`（如果不存在）。
+從`default::TrustedDomains`繼承（如果不存在）。
 
 ## 另請參閱 {#section-2f829671c385411d8e1a7525def5529f}
 
-[src=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272) ,  `mask=`，屬 [性：:RootUrl](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rooturl.md#reference-b8d706a573814802bd6794223cc78402)
+[src=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272) ,  `mask=`, [屬性：:RootUrl](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rooturl.md#reference-b8d706a573814802bd6794223cc78402)
