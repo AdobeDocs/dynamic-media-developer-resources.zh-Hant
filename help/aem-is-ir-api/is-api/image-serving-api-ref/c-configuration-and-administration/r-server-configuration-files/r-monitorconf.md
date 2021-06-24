@@ -1,25 +1,24 @@
 ---
-description: 包含監視／警報系統的設定。
+description: 包含監視/警報系統的設定。
 solution: Experience Manager
 title: monitor.conf
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 09c30680-dd9f-4744-b5ec-105721058883
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '115'
 ht-degree: 2%
 
 ---
 
-
 # monitor.conf{#monitor-conf}
 
-包含監視／警報系統的設定。
+包含監視/警報系統的設定。
 
-此檔案是JAVA屬性檔案。 必須注意遵守適當的公約；否則平台伺服器可能無法啟動。 請注意，在Windows檔案路徑中，必須使用雙反斜線&#39;\\&#39;或單正斜線&#39;/&#39;，而非反斜線&#39;\&#39;，因為反斜線是此類檔案中的轉義字元。
+此檔案是JAVA屬性檔案。 必須注意遵循適當的公約；否則，Platform伺服器可能無法啟動。 請特別注意，在Windows檔案路徑中，必須使用雙反斜線「\\」或單正斜線「/」，而不是反斜線「\」，因為反斜線在此類型的檔案中被用作逸出字元。
 
-此檔案的變更會在儲存檔案後不久生效。
+此檔案的變更會在檔案儲存後不久生效。
 
 <table id="simpletable_91557E1162FF4FEC8BE1722D6656CFEE"> 
  <tr class="strow"> 
@@ -31,4 +30,3 @@ ht-degree: 2%
   <td class="stentry"> <p> monitorAlertGenerator.maxAverageResponseTime=200 </p> <p> monitorAlertGenerator.maxErrorRate=0.05 </p> <p> monitorAlertGenerator.minRequestRate=0.0 </p> <p> monitorAlertGenerator.minFreeHeapSpace=52428800 </p> <p> monitorAlertGenerator.maxOverlap=20 </p> <p> monitorAlertGenerator.lockedThreshold=60000 </p> </td> 
  </tr> 
 </table>
-
