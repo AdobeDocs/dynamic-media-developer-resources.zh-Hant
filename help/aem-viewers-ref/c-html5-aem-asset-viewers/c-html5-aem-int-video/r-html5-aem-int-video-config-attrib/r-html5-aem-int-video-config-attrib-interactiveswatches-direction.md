@@ -2,13 +2,12 @@
 description: 互動式視訊檢視器的設定屬性。
 solution: Experience Manager
 title: InteractiveSwatches.direction
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic，檢視器， SDK/API，互動式影片
 role: Developer,Business Practitioner
 exl-id: 6f5ec9e3-9912-4f6a-b848-de0076c4b86f
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '82'
 ht-degree: 4%
 
 ---
@@ -23,7 +22,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|left|right  </span> </p> </td> 
-   <td colname="col2"> <p> 指定在視圖中填色色色票的方式。 </p> <p>設為<span class="codeph"> left </span>以設定從左到右的填色順序。 </p> <p>設為<span class="codeph">右</span>會反轉順序，使檢視以從右到左、從上到下的方向填滿。 </p> <p>當設定<span class="codeph"> auto </span>時，當locale設定為" <span class="codeph"> ja </span>"時，元件將應用右模式；否則，會使用<span class="codeph">左側的</span>。 </p> </td> 
+   <td colname="col2"> <p> 指定色票在檢視中的填入方式。 </p> <p>設為<span class="codeph"> left </span>以設定從左到右的填充順序。 </p> <p>設為<span class="codeph">右</span>可反轉順序，使視圖以從右到左、從上到下的方向填充。 </p> <p>設定<span class="codeph"> auto </span>時，當區域設定為" <span class="codeph"> ja </span>"時，元件將應用正確模式；否則，會使用左</span>的<span class="codeph">。 </span></p> </td> 
   </tr> 
  </tbody> 
 </table>
