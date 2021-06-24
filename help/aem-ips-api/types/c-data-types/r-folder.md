@@ -1,21 +1,20 @@
 ---
-description: 階層式檔案或資產儲存物件。 檔案夾可以包含一（或多個）子檔案夾。
+description: 階層式檔案或資產儲存物件。 資料夾可以包含一（或多個）子資料夾。
 solution: Experience Manager
 title: 檔案夾
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 74b44b1a-a92e-4c97-a93b-0cd4552f78ec
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '77'
 ht-degree: 10%
 
 ---
 
-
 # 檔案夾{#folder}
 
-階層式檔案或資產儲存物件。 檔案夾可以包含一（或多個）子檔案夾。
+階層式檔案或資產儲存物件。 資料夾可以包含一（或多個）子資料夾。
 
 語法
 
@@ -27,7 +26,6 @@ ht-degree: 10%
 | `*`路徑`*` | `xsd:string` | 資料夾路徑。 |
 | `*`lastModified`*` | `xsd:dateTime` | 上次修改日期。 |
 | `*`childLastModified`*` | `xsd:dateTime` | 子資料夾和資料夾子資產的上次修改日期。 |
-| `*`permissionsSetHandle`*` | `xsd:string` | 資料夾權限控制代碼。 |
+| `*`permissionsSetHandle`*` | `xsd:string` | 資料夾權限處理。 |
 | `*`hasSubfolder`*` | `types:Boolean` | 確定資料夾是否包含子資料夾。 |
 | `*`subfolderArray`*` | `types:FolderArray` | 資料夾中的子資料夾陣列。 |
-
