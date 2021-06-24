@@ -1,17 +1,16 @@
 ---
-description: 屬性資料會回應數種req=類型。
+description: 屬性資料被返回以響應多個請求類型。
 solution: Experience Manager
 title: 屬性
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 748f68a1-f3ec-4249-a257-1115bcb3ee4c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '56'
+source-wordcount: '53'
 ht-degree: 7%
 
 ---
-
 
 # 屬性{#properties}
 
@@ -22,9 +21,9 @@ ht-degree: 7%
 * `props`
 * `userdata`
 
-`userdata` 僅當內容遵循屬性格式時，才將響 `catalog::UserData` 應格式化為屬性。
+`userdata` 只有當的內容遵循屬性格式時，響 `catalog::UserData` 應才會格式化為屬性。
 
-* [文字(Java)屬性](r-text-java-properties.md)
+* [文本(Java)屬性](r-text-java-properties.md)
 * [JavaScript屬性](r-javascript-properties.md)
 * [XML屬性](r-xml-properties.md)
 * [JSONP屬性](r-json-properties.md)
