@@ -4,14 +4,13 @@ solution: Experience Manager
 title: CreateVideoSitemapJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 2af7c949-46cf-4570-9043-1b6296a2e467
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: '55'
 ht-degree: 12%
 
 ---
-
 
 # CreateVideoSitemapJob{#createvideositemapjob}
 
@@ -33,8 +32,7 @@ ht-degree: 12%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> forceUpdate</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3">當設為<span class="codeph"> true</span>時，產生網站地圖。 <p><p>注意：如果Sitemap生成配置設定為手動且<span class="codeph"> forceUpdate</span>未設定，則不生成站點映射。 </p></p></td> 
+   <td colname="col3">設為<span class="codeph"> true</span>時產生網站地圖。 <p><p>注意：如果「Sitemap開發設定」設為手動，且<span class="codeph"> forceUpdate</span>未設定，則不會產生網站地圖。 </p></p></td> 
   </tr> 
  </tbody> 
 </table>
-
