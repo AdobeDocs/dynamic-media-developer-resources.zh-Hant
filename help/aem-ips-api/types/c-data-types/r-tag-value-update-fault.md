@@ -1,21 +1,20 @@
 ---
-description: 標籤值更新失敗時拋出的錯誤。
+description: 標籤值更新失敗時擲回錯誤。
 solution: Experience Manager
 title: TagValueUpdateFault
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 8225b3c7-626d-41b0-acd8-a20170427292
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 14%
+source-wordcount: '46'
+ht-degree: 15%
 
 ---
 
-
 # TagValueUpdateFault{#tagvalueupdatefault}
 
-標籤值更新失敗時拋出的錯誤。
+標籤值更新失敗時擲回錯誤。
 
 語法
 
@@ -23,7 +22,6 @@ ht-degree: 14%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| `*`值`*` | `xsd:string` | 更新失敗的標籤值。 |
+| `*`value`*` | `xsd:string` | 更新失敗的標籤值。 |
 | `*`代碼`*` | `xsd:int` | 錯誤代碼號。 |
 | `*`原因`*` | `xsd:string` | 錯誤訊息（純文字）。 |
-
