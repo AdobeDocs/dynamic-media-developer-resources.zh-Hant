@@ -2,20 +2,19 @@
 description: 樣式
 solution: Experience Manager
 title: 樣式
-feature: Dynamic Media Classic,Viewers,SDK/API
+feature: Dynamic Media Classic，檢視器，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: a0547ada-3d8f-4ec2-a7e4-424fd1a78a28
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '103'
 ht-degree: 7%
 
 ---
 
+# 樣式{#style}
 
-# style{#style}
-
-您可從URL查詢字串和設定套用下列命令。 套用在URL查詢字串中的命令一律優先於設定中出現的相同命令。
+您可以同時從URL查詢字串和設定套用下列命令。 套用至URL查詢字串的命令一律優先於設定中出現的相同命令。
 
 `style= *`cssPath`*`
 
@@ -23,12 +22,12 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> cssPath</span> </span> </p> </td> 
-   <td colname="col2"> <p> 相對或絕對CSS位置。 </p> <p>指定自訂CSS檔案的位置。 如果<span class="codeph"><span class="varname"> cssPath</span></span>是相對的，則會針對檢視器HTML頁面位置和<span class="codeph"> contentUrl=</span>參數的值來解析它。 </p> </td> 
+   <td colname="col2"> <p> 相對或絕對CSS位置。 </p> <p>指定自訂CSS檔案的位置。 如果<span class="codeph"><span class="varname"> cssPath</span></span>是相對的，則會針對檢視器HTML頁面位置和<span class="codeph"> contentUrl=</span>參數的值進行解析。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-CSS檔案中的所有資產參考都會根據CSS檔案位置而解析，而非呼叫HTML頁面的位置。
+CSS檔案內的所有資產參考都會根據CSS檔案位置而非呼叫HTML頁面的位置來解析。
 
 ## 屬性 {#section-8ce2a4493d454d97a9975fc7f9f4eb2c}
 
