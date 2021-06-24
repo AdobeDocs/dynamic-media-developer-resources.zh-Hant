@@ -1,23 +1,22 @@
 ---
-description: 當在壁邊界MSS中指定材料時，該材料被視為壁邊界（以sub=3..5引入）。
+description: 當在壁邊框MSS中指定材料時（以子=3..5引入），該材料被視為壁邊框。
 solution: Experience Manager
 title: 牆邊界
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: e11c38d0-8255-4363-ae60-f47be37a1495
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '101'
 ht-degree: 4%
 
 ---
 
+# 牆邊界{#wall-borders}
 
-# 壁邊框{#wall-borders}
+當在壁邊框MSS中指定材料時（以子=3..5引入），該材料被視為壁邊框。
 
-當在壁邊界MSS中指定材料時，該材料被視為壁邊界（以sub=3..5引入）。
-
-壁邊框紋理影像可以包括α通道以定義邊框的形狀。 壁邊框只能應用於壁對象。
+壁邊框紋理影像可以包括用於定義邊框形狀的α通道。 壁邊界只能應用於壁對象。
 
 <table id="table_906C5CC4CADF4024AA0E29544AF48080"> 
  <thead> 
@@ -30,7 +29,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272" type="reference" format="dita" scope="local"> <span class="codeph"> src=  </span> </a> </p> </td> 
-   <td colname="col2"> <p>可重複的紋理影像；必要 </p> </td> 
+   <td colname="col2"> <p>可重複的紋理影像；必填 </p> </td> 
    <td colname="col3"> <p>無 </p> </td> 
   </tr> 
   <tr> 
@@ -50,4 +49,3 @@ ht-degree: 4%
   </tr> 
  </tbody> 
 </table>
-
