@@ -1,19 +1,17 @@
 ---
-description: 所有Render Server Settings位於install_root/ImageServing/conf/PlatformServer.conf。 配置變數的名稱以括弧顯示。
+description: 所有「Render Server Settings（渲染伺服器設定）」位於install_root/ImageServing/conf/PlatformServer.conf中。 設定變數的名稱會以括弧顯示。
 solution: Experience Manager
-title: 配置設定參考
+title: 組態設定參考
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 72bbe296-8098-4d2c-9bff-3569dbad1217
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '59'
+source-wordcount: '55'
 ht-degree: 0%
 
 ---
 
+# 組態設定參考{#configuration-settings-reference}
 
-# 配置設定參考{#configuration-settings-reference}
-
-所有Render Server Settings位於install_root/ImageServing/conf/PlatformServer.conf。 配置變數的名稱以括弧顯示。
-
+所有「Render Server Settings（渲染伺服器設定）」位於install_root/ImageServing/conf/PlatformServer.conf中。 設定變數的名稱會以括弧顯示。
