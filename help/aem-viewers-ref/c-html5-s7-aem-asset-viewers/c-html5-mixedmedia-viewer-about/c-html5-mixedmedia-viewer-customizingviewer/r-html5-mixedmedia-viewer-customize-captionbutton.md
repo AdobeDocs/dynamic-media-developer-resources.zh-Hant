@@ -1,27 +1,26 @@
 ---
-description: 開啟和關閉隱藏字幕顯示。 如果未指定標題參數，則不會顯示。 您可以使用CSS來調整按鈕的大小、外觀，並將其相對於控制列定位。
+description: 開啟或關閉隱藏式字幕顯示。 如果未指定註解參數，則不會顯示。 您可以使用CSS來調整按鈕的大小、外觀，並將其相對於包含該按鈕的控制欄進行定位。
 solution: Experience Manager
-title: 標題按鈕
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+title: 註解按鈕
+feature: Dynamic Media Classic，檢視器，SDK/API，混合媒體集
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 62809036-f158-402d-a8b2-2b9335e8c079
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '279'
 ht-degree: 2%
 
 ---
 
+# 註解按鈕{#caption-button}
 
-# 標題按鈕{#caption-button}
-
-開啟和關閉隱藏字幕顯示。 如果未指定標題參數，則不會顯示。 您可以使用CSS來調整按鈕的大小、外觀，並將其相對於控制列定位。
+開啟或關閉隱藏式字幕顯示。 如果未指定註解參數，則不會顯示。 您可以使用CSS來調整按鈕的大小、外觀，並將其相對於包含該按鈕的控制欄進行定位。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**主檢視器區域的CSS屬性**
+**主查看器區域的CSS屬性**
 
-按鈕的外觀由下列CSS類別選擇器控制：
+按鈕的外觀由下列CSS類選擇器控制：
 
 ```
 .s7mixedmediaviewer .s7closedcaptionbutton
@@ -37,19 +36,19 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 頂部 </span> </p> </td> 
-   <td colname="col2"> <p>從上邊框的位置，包括間距。 </p> </td> 
+   <td colname="col2"> <p>從上邊框的位置，包括邊框間距。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 右側 </span> </p> </td> 
-   <td colname="col2"> <p>從右邊框定位，包括間距。 </p> </td> 
+   <td colname="col2"> <p>從右邊框定位，包括邊框間距。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 左側 </span> </p> </td> 
-   <td colname="col2"> <p>從左邊框中的位置，包括間距。 </p> </td> 
+   <td colname="col2"> <p>從左邊框的位置，包括邊框間距。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 底部 </span> </p> </td> 
-   <td colname="col2"> <p>從底部邊框的位置，包括間距。 </p> </td> 
+   <td colname="col2"> <p>從底部邊框的位置，包括邊框間距。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -60,23 +59,23 @@ ht-degree: 2%
    <td colname="col2"> <p>按鈕的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景影像  </span> </p> </td> 
-   <td colname="col2"> <p>為指定按鈕狀態顯示的影像。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景 — 影像  </span> </p> </td> 
+   <td colname="col2"> <p>針對指定按鈕狀態顯示的影像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS精靈，請放在圖稿精靈內。 </p> <p>請參閱<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS精靈</a>。 </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS精靈，則位於圖稿精靈內。 </p> <p>請參閱<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS Sprites </a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按鈕支援`state`屬性選擇器和選取的屬性選擇器，可用來將不同的外觀套用至不同的按鈕狀態。 尤其是，`selected='true'`對應標題可見時的狀態，而標題隱藏時則使用`selected='false'`。
+>此按鈕支援`state`屬性選擇器和選定的屬性選擇器，它們可用於將不同的外觀應用於不同的按鈕狀態。 具體來說，`selected='true'`對應於字幕可見時的狀態，而隱藏字幕時使用`selected='false'`。
 
-按鈕工具提示可以本地化。 如需詳細資訊，請參閱[使用者介面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)。
+按鈕工具提示可以本地化。 如需詳細資訊，請參閱[使用者介面元素本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) 。
 
-範例——若要設定28 x 28像素的隱藏字幕按鈕，從控制列頂端放置4個像素，從控制列右側邊緣放置68像素，並在選取或未選取時，針對四個不同按鈕狀態中的每個狀態顯示不同的影像。
+示例 — 設定一個28 x 28像素的隱藏式字幕按鈕，從頂部放置四個像素，從控制條的右邊放置68像素，並在選中或未選中時針對四個不同的按鈕狀態中的每一個顯示不同的影像。
 
 ```
 .s7mixedmediaviewer .s7closedcaptionbutton { 
@@ -111,4 +110,3 @@ background-image:url(images/v2/ClosedCaptionButton_down.png);
 background-image:url(images/v2/ClosedCaptionButton_disabled.png);  
 }
 ```
-
