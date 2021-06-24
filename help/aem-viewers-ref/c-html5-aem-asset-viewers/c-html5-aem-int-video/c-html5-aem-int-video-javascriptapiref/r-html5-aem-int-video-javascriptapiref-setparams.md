@@ -2,13 +2,12 @@
 description: 互動式視訊檢視器的JavaScript API參考。
 solution: Experience Manager
 title: setParams
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic，檢視器， SDK/API，互動式影片
 role: Developer,Business Practitioner
 exl-id: 32d26999-7815-4c71-ad4c-b7db99ec3d3b
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '107'
 ht-degree: 2%
 
 ---
@@ -19,9 +18,9 @@ ht-degree: 2%
 
 ` setParams( *`params`*)`
 
-將一個或多個參數設定為給定值。 方法引數語法與URL查詢字串相同。 即，它表示與`&`分隔的name=value對。 與查詢字串一樣，名稱和值使用UTF8進行百分比編碼。 在呼叫`init()`之前，必須呼叫此參數。
+將一或多個參數設為指定值。 方法引數語法與URL查詢字串相同。 也就是說，它表示以`&`分隔的名稱=值配對。 就像在查詢字串中一樣，名稱和值是使用UTF8進行百分比編碼。 呼叫`init()`之前，必須呼叫此參數。
 
-如果檢視器設定資訊與`config` JSON物件一起傳遞給建構函式，此方法是選用的。
+如果檢視器設定資訊是以`config` JSON物件傳遞至建構函式，則此方法為選用。
 
 另請參閱[init](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b)。
 
@@ -32,12 +31,12 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> params</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}</span> name=value參數對與&amp;分 <span class="codeph"> 隔</span>。 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}</span> name=value參數對(以&amp; <span class="codeph"> 分隔)</span>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 傳回{#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## 傳回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 無。
 
