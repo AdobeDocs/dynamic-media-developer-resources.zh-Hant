@@ -1,23 +1,22 @@
 ---
-description: 材料檔案。 指定材料資料，以單一材料目錄參考的形式，或以逗號分隔為一或兩個影像或材料資料檔案。
+description: 材料檔案。 指定材料資料，以單個材料目錄引用的形式，或以一個或兩個影像或材料資料檔案的形式，以逗號分隔。
 solution: Experience Manager
 title: src
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: aff45f0f-e672-40da-9cc8-db83cf3922ff
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '460'
 ht-degree: 1%
 
 ---
 
-
 # src{#src}
 
-材料檔案。 指定材料資料，以單一材料目錄參考的形式，或以逗號分隔為一或兩個影像或材料資料檔案。
+材料檔案。 指定材料資料，以單個材料目錄引用的形式，或以一個或兩個影像或材料資料檔案的形式，以逗號分隔。
 
-`src = *`catalogEntrymaterialFileembeddedReqmaterialFile`*|{{ *``*| *``*}[, *``*]`
+`src = *``*|{{ *``*| *``*}[, *`catalogEntrymaterialFileembeddedReqmaterialFile`*]`
 
 `srcE= *`名稱`*`
 
@@ -34,7 +33,7 @@ ht-degree: 1%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> embeddedReq</span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph">&amp;lbrace;'is&amp;<span class="varname"> lbrace;'isReq</span>'&amp;rbraces;'ir&amp;rbrace;'ir&amp;lbrace<span class="varname"> '&amp;rbrace;'|&amp;lbrace;'&amp;</span>forienReq<span class="varname"> </span>'&amp;rbraces;'</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">&amp;lbrace;'is&amp;lbrace;'<span class="varname"> isReq</span>'&amp;rbrace;'&amp;rbrace;|&amp;lbrace;'ir&amp;lbrace;'<span class="varname"> irReq</span>'&amp;rbrace;'|&amp;lbrace;'&amp;lbrace;'&amp;lbrace;'<span class="varname"> forigReq</span>'&amp;rbrace;'</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> catId</span> </p></td> 
@@ -54,15 +53,15 @@ ht-degree: 1%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> isReq</span> </p></td> 
-  <td class="stentry"> <p>要求影像伺服。 </p></td> 
+  <td class="stentry"> <p>請求影像伺服。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> irReq</span> </p></td> 
-  <td class="stentry"> <p>要求影像演算。 </p></td> 
+  <td class="stentry"> <p>影像呈現請求。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> foreignReq</span> </p></td> 
-  <td class="stentry"> <p>向外部伺服器請求。 </p></td> 
+  <td class="stentry"> <p>向外部伺服器發出請求。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> 名稱</span> </p></td> 
@@ -70,37 +69,37 @@ ht-degree: 1%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> 索引</span> </p></td> 
-  <td class="stentry"> <p>嵌入材料的索引號。 </p></td> 
+  <td class="stentry"> <p>嵌入材料的索引號為0。 </p></td> 
  </tr> 
 </table>
 
-可重複的紋理、貼紙和壁紙材料需要單一影像，而此影像可指定為檔案或內嵌請求。
+可重複的紋理、貼牌和壁紙材料需要單個影像，可以指定為檔案或嵌入請求。
 
-檔案櫃材料需要檔案櫃樣式檔案([!DNL .vnc])，不能將其指定為嵌套請求。 紋理影像檔案對於檔案櫃是可選的，如果指定，則可能是檔案或嵌入請求。
+檔案櫃材料需要檔案櫃樣式檔案([!DNL .vnc])，不能將其指定為嵌套請求。 紋理影像檔案對於檔案櫃是可選的，如果指定，它可以是檔案或嵌入請求。
 
-窗口覆蓋材料需要窗口覆蓋樣式檔案([!DNL .vnw])，該檔案不能指定為嵌套請求。 紋理檔案是選用的，如果指定，則可能是檔案或內嵌請求。
+窗口覆蓋材料需要窗口覆蓋樣式檔案([!DNL .vnw])，不能將其指定為嵌套請求。 紋理檔案是可選的，如果指定，它可以是檔案或嵌入請求。
 
-「影像演算」使用與「影像伺服」相同的規則來尋找材質型錄、目錄項目和資料檔案。 如需詳細資訊，請參閱影像服務檔案中的&#x200B;*`object`*&#x200B;資料類型說明。
+「影像呈現」使用與「影像伺服」相同的規則來尋找材料目錄、目錄項目和資料檔案。 如需詳細資訊，請參閱影像伺服檔案中&#x200B;*`object`*&#x200B;資料類型的說明。
 
-*`materialFile`* 是相對於的路徑 `attribute::RootPath`。
+*`materialFile`* 是相對於的路 `attribute::RootPath`徑。
 
-*`foreignReq`* 可以是相對於的URL, `attribute::RootUrl`或絕對URL(若已 `attribute::AllowDirectUrls` 設定)。
+*`foreignReq`* 可以是相對於的URL, `attribute::RootUrl`或是絕對URL(若 `attribute::AllowDirectUrls` 已設定)。
 
 如果未指定&#x200B;*`catId`*，則使用會話目錄。
 
-`srcE=` 並提 `srcN=` 供對暗角內嵌材料的存取。
+`srcE=` 提供 `srcN=` 對嵌入在暈船中的材料的訪問。
 
-## 支援的檔案格式{#section-f2186d3eef834fc8bbecb2bc68daacad}
+## 支援的檔案格式 {#section-f2186d3eef834fc8bbecb2bc68daacad}
 
-「影像演算」支援與「Dynamic Media影像伺服」相同的來源影像格式。
+「影像轉譯」支援與Dynamic Media Image Serving相同的來源影像格式。
 
-使用Scene7金字塔TIFF(PTIFF)多解析度格式時，需要多種不同解析度的影像資料的應用程式效能最好。 「影像伺服」包含影像轉換器(IC)公用程式，可從任何支援的格式建立PTIFF影像。
+使用Scene7金字塔TIFF(PTIFF)多解析度格式時，需要多個不同解析度的影像資料的應用程式效能最佳。 「影像服務」包括「影像轉換器(IC)」實用程式，該實用程式從任何受支援的格式建立PTIFF影像。
 
-有關支援的檔案格式的完整清單，請參閱映像服務文檔中的IC實用程式說明。
+如需完整的支援檔案格式清單，請參閱影像伺服檔案中IC公用程式的說明。
 
 ## 屬性 {#section-e68d03788d534e2184147987d51dfd0f}
 
-材料屬性。 除純色外的所有材料都需要（不允許純色材料）。 所有字串都區分大小寫。 *`index`* 必須為0或更大。
+材料屬性。 除實色外的所有材料都需要（實色材料不允許）。 所有字串均區分大小寫。 *`index`* 必須為0或更大。
 
 ## 預設 {#section-dde549c1917540dc8f9555962202da3c}
 
@@ -108,18 +107,18 @@ ht-degree: 1%
 
 ## 範例 {#section-675865444f8a4d35b9fc6e58b36e3438}
 
-具有單獨可重複紋理的彩色機櫃的MSS:
+具有獨立可重複紋理的彩色機櫃的MSS:
 
 `…&obj=cabinets&src=cabs/maple02.vnc,cabs/maple.jpg&res=40&color=185,105,35&…`
 
-同一材料可以位於記錄「 `12-3-2`」中的`'cat`材料目錄中：
+同一材料可以位於記錄「`12-3-2`」中的材料目錄`'cat`中：
 
 `…&obj=cabinets&src=cat/12-3-2&…`
 
-巢狀請求「影像伺服」以取得紋理影像：
+對「影像伺服」的巢狀請求，以獲得紋理影像：
 
 `…&obj=main&src=is{texCatalog/texture123?res=30}&res=30&…`
 
 ## 另請參閱 {#section-d01d25b8903e4f5ca6aef4a084fca6b7}
 
-[Material Catalogs](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-material-catalogs/c-ir-http-material-catalogs.md#concept-772742c1688f420a88a56f5136ad1db2)，屬 [性：:RootUrl](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rooturl.md#reference-b8d706a573814802bd6794223cc78402)，屬 [性：:AllowDirectUrls](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-allowdirecturls.md#reference-02000c0f3c494292bad8425d06268882)
+[材料目錄](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-material-catalogs/c-ir-http-material-catalogs.md#concept-772742c1688f420a88a56f5136ad1db2), [屬性：:RootUrl](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rooturl.md#reference-b8d706a573814802bd6794223cc78402), [屬性：:AllowDirectUrls](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-allowdirecturls.md#reference-02000c0f3c494292bad8425d06268882)
