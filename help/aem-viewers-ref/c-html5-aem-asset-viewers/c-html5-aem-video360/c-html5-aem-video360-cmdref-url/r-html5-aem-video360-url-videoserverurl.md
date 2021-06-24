@@ -2,13 +2,12 @@
 description: Video360檢視器的URL命令。
 solution: Experience Manager
 title: videoServerUrl
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+feature: Dynamic Media Classic，檢視器，SDK/API,360 VR影片
 role: Developer,Business Practitioner
 exl-id: 76204d0a-449b-4fe5-a2aa-36739fab482f
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '59'
 ht-degree: 6%
 
 ---
@@ -23,7 +22,7 @@ Video360檢視器的URL命令。
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> videoRootPath</span> </span> </p> </td> 
-   <td colname="col2"> <p> 視訊伺服器根路徑。 如果未指定網域，則會改為套用從中提供頁面的網域。 套用標準URI路徑解析度。 </p> </td> 
+   <td colname="col2"> <p> 視訊伺服器根路徑。 若未指定網域，則會改為套用提供頁面的網域。 標準URI路徑解析度適用。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
