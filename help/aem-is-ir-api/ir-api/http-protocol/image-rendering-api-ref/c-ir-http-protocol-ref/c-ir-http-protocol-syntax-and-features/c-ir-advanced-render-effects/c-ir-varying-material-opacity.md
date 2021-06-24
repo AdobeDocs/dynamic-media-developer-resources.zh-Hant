@@ -1,24 +1,23 @@
 ---
-description: 可變的不透明度支援套用至重疊物件的純色和可重複的紋理，以及貼花和視窗覆蓋材質。
+description: 對於應用於重疊對象的實色和可重複的紋理，以及覆蓋材料的標籤和窗口，支援可變的不透明度。
 solution: Experience Manager
-title: 變化材質不透明度
+title: 變化材料不透明度
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 65f4b578-0c64-4515-8184-2908b317a983
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
 
+# 變化材料不透明度{#varying-material-opacity}
 
-# 變化的材料不透明度{#varying-material-opacity}
+對於應用於重疊對象的實色和可重複的紋理，以及覆蓋材料的標籤和窗口，支援可變的不透明度。
 
-可變的不透明度支援套用至重疊物件的純色和可重複的紋理，以及貼花和視窗覆蓋材質。
+通過使用帶有Alpha通道的RGB影像，可以簡單地提供不透明度資訊。 此外，整體不透明度可以使用`opacity=`命令進行改變（RGB和RGBA影像均適用）。
 
-只需使用具有Alpha色版的RGB影像，就可提供不透明度資訊。 此外，您還可以使用`opacity=`命令（針對RGB和RGBA影像）來改變整體的不透明度。
+牆邊還支援RGBA影像，主要用於支援模切邊界。
 
-牆邊界也支援RGBA影像，主要支援模切邊界。
-
-定義窗口覆蓋的[!DNL vnw]檔案可以包括不透明通道，該不透明通道由渲染器與可重複紋理的alpha通道和`opacity=`值組合，以提供用於透明和半透明窗口處理的完整不透明效果範圍。
+定義窗口覆蓋的[!DNL vnw]檔案可以包括不透明度通道，該不透明度通道由渲染器與可重複紋理的Alpha通道和`opacity=`值組合，以提供用於透明和半透明窗口處理的全方位的不透明度效果。
