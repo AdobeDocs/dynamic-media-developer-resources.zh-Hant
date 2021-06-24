@@ -1,21 +1,20 @@
 ---
-description: 前景色. 指定單色材料的顏色或可著色材料的添加顏色。
+description: 前景色. 指定固色材料的顏色或可著色材料的添加顏色。
 solution: Experience Manager
 title: 色彩
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 6086a7ca-d3cf-4cec-967b-83347293ea0a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 13%
+source-wordcount: '78'
+ht-degree: 15%
 
 ---
 
+# 色彩{#color}
 
-# color{#color}
-
-前景色. 指定單色材料的顏色或可著色材料的添加顏色。
+前景色. 指定固色材料的顏色或可著色材料的添加顏色。
 
 `color= *`color`*`
 
@@ -28,11 +27,11 @@ ht-degree: 13%
 
 ## 屬性 {#section-629c3c91221c48c4b7f7b31a13fd1766}
 
-材料屬性。 純色材料需要，其他所有材料都可選。
+材料屬性。 固色材料需要，其它所有材料均可選。
 
 ## 預設 {#section-ea8e1967674d426bb8f46abe365b6aca}
 
-`catalog::Color` 如果材料基於目錄條目。否則，`none`表示沒有上色。
+`catalog::Color` 如果材料基於目錄條目。否則，`none`表示沒有著色。
 
 ## 另請參閱 {#section-5eb8f1c36634474bbfaa63d84e4c3c71}
 
