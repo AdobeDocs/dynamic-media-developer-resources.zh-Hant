@@ -1,31 +1,30 @@
 ---
-description: 浮水印選擇器。 指定要用作水印影像或模板的目錄記錄的目錄ID。
+description: 浮水印選擇器。 指定用作水印影像或模板的目錄記錄的目錄ID。
 solution: Experience Manager
 title: 浮水印
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 54c27ea0-e87f-41ce-ae8d-71c9fabe412e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '109'
 ht-degree: 5%
 
 ---
 
-
 # 浮水印{#watermark}
 
-浮水印選擇器。 指定目錄：：用作水印影像或模板的目錄記錄的ID。
+浮水印選擇器。 指定要用作水印影像或模板的目錄記錄的catalog::Id。
 
-如果指定，則伺服器會將水印應用於所有影像請求(`req=img`)的所請求影像資料。
+如果指定，則伺服器將水印應用於所有影像請求(`req=img`)的所請求影像資料。
 
 ## 屬性 {#section-fad6ffff4c5f4b5c8010281bc1377055}
 
-文字字串。 如果指定，則必須是此映像目錄（或預設目錄中，如果在[!DNL default.ini]中指定）中的有效`Catalog::Id`值。
+文字字串。 如果指定，則此映像目錄（或預設目錄中，如果在[!DNL default.ini]中指定）中的`Catalog::Id`值必須有效。
 
 ## 預設 {#section-f8a2029b5b8740b2af149bdbfa28fbae}
 
-如果未定義，則繼承自`default::Watermark`。 如果已定義但為空，則即使已定義`default::Watermark`，也不會對此影像目錄應用水印。
+若未定義，則繼承自`default::Watermark`。 如果已定義但為空，則不會為此影像目錄應用水印，即使已定義`default::Watermark`。
 
 ## 另請參閱 {#section-f15dbe31013849828d78588742dde58e}
 
