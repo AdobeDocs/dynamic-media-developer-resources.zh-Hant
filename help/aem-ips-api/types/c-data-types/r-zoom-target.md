@@ -4,14 +4,13 @@ solution: Experience Manager
 title: 縮放目標
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 08125f45-38cb-45bb-bc29-c767f4d0aed9
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '81'
 ht-degree: 13%
 
 ---
-
 
 # 縮放目標{#zoomtarget}
 
@@ -29,7 +28,6 @@ ht-degree: 13%
 | `*`yPosition`*` | `xsd:int` | 縮放目標的Y位置。 |
 | `*`width`*` | `xsd:int` | 縮放目標寬度。 |
 | `*`height`*` | `xsd:int` | 縮放目標高度。 |
-| `*`使用者資料`*` | `xsd:string` | 與縮放目標關聯的使用者資料。 |
-| `*`位置`*` | `xsd:int` | 允許根據位置對與資產關聯的縮放目標進行排序 |
+| `*`使用者資料`*` | `xsd:string` | 與縮放目標相關聯的使用者資料。 |
+| `*`位置`*` | `xsd:int` | 允許根據位置排序與資產相關聯的縮放目標 |
 | `*`lastModified`*` | `xsd:dateTime` | 上次修改的日期。 |
-
