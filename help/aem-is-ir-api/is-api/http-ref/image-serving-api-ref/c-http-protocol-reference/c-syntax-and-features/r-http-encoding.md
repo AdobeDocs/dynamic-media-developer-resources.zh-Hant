@@ -1,23 +1,22 @@
 ---
-description: 命令值必須使用%xx逸出序列進行http編碼，因此值字串不包含保留字元'='、'&'和'%'。
+description: 命令值必須使用%xx轉義序列進行http編碼，這樣值字串就不包括保留字元「=」、「&」和「%」。
 solution: Experience Manager
 title: 影像伺服HTTP編碼
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: aec8463f-f72a-4203-89ab-8a4f0ad9d6f9
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '232'
 ht-degree: 22%
 
 ---
 
-
 # 影像伺服HTTP編碼{#image-serving-http-encoding}
 
-命令值必須使用%xx逸出序列進行http編碼，因此值字串不包含保留字元&#39;=&#39;、&#39;&amp;&#39;和&#39;%&#39;。
+命令值必須使用%xx轉義序列進行http編碼，這樣值字串就不包括保留字元「=」、「&amp;」和「%」。
 
-否則，會套用標準HTTP編碼規則。 HTTP規範要求對不安全字元以及任何控制字元（如`<return>`和`<tab>`）進行編碼。 字元的URL編碼由&quot;%&quot;符號組成，後面接著該字元的ISO-Latin代碼點的兩位十六進位表示法（不區分大小寫）。 不安全的字元和代碼點為：
+否則，會套用標準HTTP編碼規則。 HTTP規範要求對不安全字元以及任何控制字元（如`<return>`和`<tab>`）進行編碼。 字元的URL編碼由&quot;%&quot;符號組成，後面接著該字元的ISO-Latin代碼點的兩位十六進位表示（不區分大小寫）。 不安全的字元和代碼點為：
 
 <table id="table_D2C01CADB35E477D82D4C27586424625"> 
  <thead> 
@@ -59,12 +58,12 @@ ht-degree: 22%
    <td colname="col3"> <p>37 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&amp;lbraces; </p> </td> 
+   <td colname="col1"> <p>&amp;lbrace; </p> </td> 
    <td colname="col2"> <p>7B </p> </td> 
    <td colname="col3"> <p>123 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&amp;rbraces; </p> </td> 
+   <td colname="col1"> <p>&amp;rbrace; </p> </td> 
    <td colname="col2"> <p>7D </p> </td> 
    <td colname="col3"> <p>125 </p> </td> 
   </tr> 
@@ -99,14 +98,14 @@ ht-degree: 22%
    <td colname="col3"> <p>93 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>「 </p> </td> 
+   <td colname="col1"> <p>' </p> </td> 
    <td colname="col2"> <p>60 </p> </td> 
    <td colname="col3"> <p>96 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-保留字元也必須進行編碼。
+保留的字元也必須經過編碼。
 
 <table id="table_A6C808A05EA6420F8125186D3D5C9E33"> 
  <thead> 
@@ -133,7 +132,7 @@ ht-degree: 22%
    <td colname="col3"> <p>43 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>的 </p> </td> 
+   <td colname="col1"> <p>, </p> </td> 
    <td colname="col2"> <p>2C </p> </td> 
    <td colname="col3"> <p>44 </p> </td> 
   </tr> 
@@ -145,7 +144,7 @@ ht-degree: 22%
   <tr> 
    <td colname="col1"> <p>: </p> </td> 
    <td colname="col2"> <p>3A </p> </td> 
-   <td colname="col3"> <p>78 </p> </td> 
+   <td colname="col3"> <p>58 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>; </p> </td> 
@@ -174,14 +173,14 @@ ht-degree: 22%
 
 `…&$text=rate&weight=85% 27#&…`
 
-如果未套用模糊化，上述請求片段必須編碼如下：
+如果未套用模糊化，則上述要求片段必須依下列方式編碼：
 
 `…&$text=rate%26weight%3D85%25%2027%23&…`
 
-如果套用模糊化，編碼可限制為移除&#39;=&#39;、&#39;&amp;&#39;和&#39;%&#39;字元：
+如果套用了模糊化，則編碼可以限制為移除「=」、「&amp;」和「%」字元：
 
 `…&$text=rate%26weight%3D85%25 27#&…`
 
 ## 另請參閱 {#section-295476ec34c74973962d07dfa9eb2180}
 
-[請求模糊](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-obfuscation.md#reference-895f65d6796c43bb9bad21a676ed714d)化， [HTTP/1.1規範(RFC 2616)](http://www.w3.org/Protocols/rfc2616/rfc2616.html)
+[請求模糊化](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-obfuscation.md#reference-895f65d6796c43bb9bad21a676ed714d), [HTTP/1.1規範(RFC 2616)](http://www.w3.org/Protocols/rfc2616/rfc2616.html)
