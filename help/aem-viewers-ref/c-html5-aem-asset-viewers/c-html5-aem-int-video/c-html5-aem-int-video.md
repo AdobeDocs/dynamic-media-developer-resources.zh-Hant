@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# 互動式視訊{#interactive-video}
+# 互動式影片{#interactive-video}
 
 互動式視訊檢視器是視訊播放器，會播放以H.264格式編碼的串流和漸進式視訊。
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 請參閱[系統要求](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842)。
 
-## 使用互動式視訊檢視器{#section-e6c68406ecdc4de781df182bbd8088b4}
+## 使用互動式視訊檢視器 {#section-e6c68406ecdc4de781df182bbd8088b4}
 
 互動式視訊檢視器代表主要JavaScript檔案，以及檢視器在執行階段下載的一組協助檔案。 此特定檢視器、資產和CSS使用的所有檢視器SDK元件皆包含單一JavaScript。
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 請參閱所有檢視器通用的[命令參考 — 設定屬性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)和所有檢視器通用的[命令參考 — URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
-## 與互動式視訊檢視器互動{#section-642e66ca38cd4032992840ec6c0b0cd2}
+## 與互動式視訊檢視器互動 {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
 互動式視訊檢視器提供一組用於視訊播放的標準使用者介面控制項，例如播放/暫停按鈕、視訊清除器、視訊時間泡泡、播放時間/總時間指標、音量控制、全螢幕按鈕和隱藏式字幕切換。 所有這些控制項都會直接歸類到主檢視下的控制列中。
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 檢視器可完全鍵盤存取。 請參閱[鍵盤輔助功能和導航](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861)。
 
-## 嵌入互動式視頻查看器{#section-6bb5d3c502544ad18a58eafe12a13435}
+## 內嵌互動式視訊檢視器 {#section-6bb5d3c502544ad18a58eafe12a13435}
 
 互動式視訊檢視器已內嵌至托管頁面。 這樣的網頁可以具有靜態版面，或者它可以「響應」，並且在不同設備上或針對不同的瀏覽器窗口大小顯示不同。
 
