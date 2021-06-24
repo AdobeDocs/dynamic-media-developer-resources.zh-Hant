@@ -1,21 +1,20 @@
 ---
-description: 選擇選擇錯誤處理。 指定sel=命令失敗時要採取的動作，因為指定的像素位置不在可選對象的遮色片區域內。
+description: 選擇選擇錯誤處理。 指定如果sel=命令失敗，則要採取的操作，因為指定的像素位置不在可選對象的掩碼區域內。
 solution: Experience Manager
 title: OnFailSel
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: d5485569-def8-4e16-9f0e-7dd30d38439d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '125'
 ht-degree: 12%
 
 ---
 
-
 # OnFailSel{#onfailsel}
 
-選擇選擇錯誤處理。 指定sel=命令失敗時要採取的動作，因為指定的像素位置不在可選對象的遮色片區域內。
+選擇選擇錯誤處理。 指定如果sel=命令失敗，則要採取的操作，因為指定的像素位置不在可選對象的掩碼區域內。
 
 ## 屬性 {#section-cec491e6c5c744f9bfafaaa9d8774f83}
 
@@ -32,7 +31,7 @@ ht-degree: 12%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p> </td> 
-  <td class="stentry"> <p>取消選擇；將忽略任何嘗試應用材料或顯示／隱藏對象的嘗試。 </p> </td> 
+  <td class="stentry"> <p>取消選擇；將忽略應用材料或顯示/隱藏對象的任何嘗試。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p> </td> 
@@ -46,7 +45,7 @@ ht-degree: 12%
 
 ## 預設 {#section-c25f458f9f8f4236963a95779529e664}
 
-如果未定義，則繼承自`default::OnFailSel`。
+若未定義，則繼承自`default::OnFailSel`。
 
 ## 另請參閱 {#section-f8b15dd64c674c5484d190dd9e3016af}
 
