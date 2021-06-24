@@ -4,14 +4,13 @@ solution: Experience Manager
 title: pauseJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 010e969a-911e-49fc-8577-66c18cd4329c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 17%
+source-wordcount: '66'
+ht-degree: 18%
 
 ---
-
 
 # pauseJob{#pausejob}
 
@@ -19,7 +18,7 @@ ht-degree: 17%
 
 語法
 
-## 授權用戶類型{#section-f2bf306ab4574871bd21f9f7dd681033}
+## 授權的使用者類型 {#section-f2bf306ab4574871bd21f9f7dd681033}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -36,16 +35,16 @@ ht-degree: 17%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 為公司負責。 |
-| `*`jobHandle`*` | `xsd:string` | 是 | 處理您要暫停的工作。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 為公司處理。 |
+| `*`jobHandle`*` | `xsd:string` | 是 | 處理要暫停的作業。 |
 
 **輸出(PauseJobReturn)**
 
-IPS API不會傳回此作業的回應。
+IPS API不會針對此操作傳回回應。
 
 ## 範例 {#section-ee4914f9496f4bd88556728a48fb22c1}
 
-此程式碼範例會暫停作用中的工作。
+此代碼示例暫停活動作業。
 
 **請求**
 
