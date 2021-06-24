@@ -1,25 +1,24 @@
 ---
-description: 獲取指定公司的活動發佈上下文清單。 如果至少有一個為上下文定義的活動伺服器，則發佈上下文被視為活動。
+description: 獲取指定公司的活動發佈上下文的清單。 如果至少為上下文定義了一個活動伺服器，則將發佈上下文視為活動。
 solution: Experience Manager
 title: getActivePublishContext
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 9f450263-6877-4b32-a71a-8f67b0537a69
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '113'
 ht-degree: 10%
 
 ---
 
-
 # getActivePublishContext{#getactivepublishcontext}
 
-獲取指定公司的活動發佈上下文清單。 如果至少有一個為上下文定義的活動伺服器，則發佈上下文被視為活動。
+獲取指定公司的活動發佈上下文的清單。 如果至少為上下文定義了一個活動伺服器，則將發佈上下文視為活動。
 
 語法
 
-## 授權用戶類型{#section-eb22397744434dfe92a59ffa2883c2e7}
+## 授權的使用者類型 {#section-eb22397744434dfe92a59ffa2883c2e7}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -43,5 +42,4 @@ ht-degree: 10%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`contextArray`*` | `types:StringArray` | 是 | 作用中發佈上下文的陣列，其中可能包含來自「發佈上下文」的零個或多個值。 |
-
+| `*`contextArray`*` | `types:StringArray` | 是 | 作用中發佈內容的陣列，其中可能包含來自發佈內容的零個或多個值。 |
