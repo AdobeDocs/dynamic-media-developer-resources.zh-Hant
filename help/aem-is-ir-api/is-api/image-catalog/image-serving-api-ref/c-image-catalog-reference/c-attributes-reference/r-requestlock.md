@@ -1,29 +1,28 @@
 ---
-description: 請求鎖定模式。 指定請求中必須包含的請求鎖定類型。
+description: 請求鎖定模式。 指定必須包含在請求中的請求鎖的類型。
 solution: Experience Manager
 title: RequestLock
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 7a2b2529-4e8f-44aa-800e-87bdd6fe2519
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '69'
+source-wordcount: '66'
 ht-degree: 7%
 
 ---
 
-
 # RequestLock{#requestlock}
 
-請求鎖定模式。 指定請求中必須包含的請求鎖定類型。
+請求鎖定模式。 指定必須包含在請求中的請求鎖的類型。
 
 ## 屬性 {#section-ae89274d3b7940d0bf3d816f7c2f51fd}
 
-標幟. 設為0可停用請求鎖定，設為1可選取簡單雜湊鎖定。
+標幟. 設為0可停用請求鎖定，而設為1可選取簡單雜湊鎖定。
 
 ## 預設 {#section-fd5b5f0417bd444189b20494d179193e}
 
-如果未定義或為空，則繼承自`default::RequestLock`。
+如果未定義或為空，則從`default::RequestLock`繼承。
 
 ## 另請參閱 {#section-851a0b6c15ce4ea8b88dedfb579e9736}
 
