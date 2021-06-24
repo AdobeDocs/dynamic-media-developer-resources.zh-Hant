@@ -1,27 +1,26 @@
 ---
-description: 按一下或點選此按鈕會重設，以在主檢視和縮圖之間切換檢視器。 此按鈕會出現在主控制列中。 您可以使用CSS來調整此按鈕的大小、外觀和位置。
+description: 按一下或點選此按鈕會重設檢視器在主檢視和縮圖之間的切換。 此按鈕出現在主控制欄中。 您可以使用CSS來調整此按鈕的大小、外觀和位置。
 solution: Experience Manager
 title: 縮圖按鈕
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic，檢視器，SDK/API,eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: ddd976ca-6043-4930-8ce6-f58fad226ff3
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '278'
 ht-degree: 1%
 
 ---
 
-
 # 縮圖按鈕{#thumbnails-button}
 
-按一下或點選此按鈕會重設，以在主檢視和縮圖之間切換檢視器。 此按鈕會出現在主控制列中。 您可以使用CSS來調整此按鈕的大小、外觀和位置。
+按一下或點選此按鈕會重設檢視器在主檢視和縮圖之間的切換。 此按鈕出現在主控制欄中。 您可以使用CSS來調整此按鈕的大小、外觀和位置。
 
 <!--<a id="section_6C008EE11212461FA744F2540D38C295"></a>-->
 
-**主檢視器區域的CSS屬性**
+**主查看器區域的CSS屬性**
 
-按鈕的外觀由下列CSS類別選擇器控制：
+按鈕的外觀由下列CSS類選擇器控制：
 
 `.s7ecatalogviewer .s7thumbnailpagebutton`
 
@@ -34,12 +33,12 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 邊距頂端  </span> </p> </td> 
-   <td colname="col2"> <p> 與控制條頂部的偏移。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 邊距上  </span> </p> </td> 
+   <td colname="col2"> <p> 從控制欄頂端的偏移。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 左邊距  </span> </p> </td> 
-   <td colname="col2"> <p> 到左側下一個按鈕的距離；如果這是一行中的第一個按鈕，則到控制列左側的距離。 </p> </td> 
+   <td colname="col2"> <p> 左側的下一個按鈕的距離；如果這是行中的第一個按鈕，則控制欄的左側。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -50,23 +49,23 @@ ht-degree: 1%
    <td colname="col2"> <p>按鈕的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景影像  </span> </p> </td> 
-   <td colname="col2"> <p>為指定按鈕狀態顯示的影像。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景 — 影像  </span> </p> </td> 
+   <td colname="col2"> <p>針對指定按鈕狀態顯示的影像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS精靈，請放在圖稿精靈內。 </p> <p>另請參閱<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS精靈</a>。 </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS精靈，則位於圖稿精靈內。 </p> <p>另請參閱<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按鈕同時支援`state`和`selected`屬性選擇器，可用來將不同的外觀套用至不同的按鈕狀態。 尤其是，當縮圖模式為活動狀態時，`selected='true'`對應於檢視器狀態，而`selected='false'`對應於主檢視的預設狀態。
+>此按鈕同時支援`state`和`selected`屬性選擇器，它們可用於將不同的外觀應用於不同的按鈕狀態。 尤其是，當縮圖模式為活動狀態時， `selected='true'`對應於檢視器狀態，而`selected='false'`對應於主檢視的預設狀態。
 
-按鈕工具提示可以本地化。 如需詳細資訊，請參閱[使用者介面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)。
+按鈕工具提示可以本地化。 如需詳細資訊，請參閱[使用者介面元素本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 。
 
-範例——設定縮圖按鈕（28 x 28像素），從主控制列底部放置4像素，從左邊放置5像素，並在選取或未選取時，針對四個不同按鈕狀態的每個狀態顯示不同的影像。
+範例：設定縮圖按鈕（28 x 28像素），從底部放置4像素，從主控制欄的左邊放置5像素，並在選取或未選取時，針對四個不同按鈕狀態中的每個狀態顯示不同的影像。
 
 ```
 .s7ecatalogviewer .s7thumbnailpagebutton{ 
@@ -99,4 +98,3 @@ background-image:url(images/v2/ThumbnailPageButton_dark_over.png);
 background-image:url(images/v2/ThumbnailPageButton_dark_disabled.png); 
 }
 ```
-
