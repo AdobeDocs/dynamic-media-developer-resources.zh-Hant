@@ -1,25 +1,24 @@
 ---
-description: 取得公司陣列中的使用者會籍。
+description: 在公司陣列中取得使用者的會籍。
 solution: Experience Manager
-title: getCompanyMembership
+title: getCompanyMembersing
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 53af8a97-208c-4c44-93d6-aa36a459af51
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '86'
 ht-degree: 17%
 
 ---
 
+# getCompanyMembersing{#getcompanymembership}
 
-# getCompanyMembership{#getcompanymembership}
-
-取得公司陣列中的使用者會籍。
+在公司陣列中取得使用者的會籍。
 
 語法
 
-## 授權用戶類型{#section-f8bba547e1f648648be99dc48fd72b5d}
+## 授權的使用者類型 {#section-f8bba547e1f648648be99dc48fd72b5d}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -44,11 +43,11 @@ ht-degree: 17%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`membershArray`*` | `types:CompanyMembershipArray` | 是 | 公司會籍的陣列。 |
+| `*`membershipArray`*` | `types:CompanyMembershipArray` | 是 | 公司會籍陣列。 |
 
 ## 範例 {#section-e4958d104ea344a4a79f57d07b46eba7}
 
-此程式碼範例會取用使用者控制代碼，並取得陣列中所有使用者的公司會籍。 回應已因簡短而截斷。
+此程式碼範例取用使用者控制代碼，並取得陣列中所有使用者的公司會籍。 回應已為簡潔而截斷。
 
 **請求**
 
@@ -73,4 +72,3 @@ ht-degree: 17%
     </membershipArray>
 </getCompanyMembershipReturn>
 ```
-
