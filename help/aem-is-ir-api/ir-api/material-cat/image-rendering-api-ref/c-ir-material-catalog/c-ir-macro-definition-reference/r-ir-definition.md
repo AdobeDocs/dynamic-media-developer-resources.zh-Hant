@@ -1,23 +1,22 @@
 ---
-description: 宏定義。 Render Serving協定片段，由一個或多個由'&'字元分隔的完整命令組成。
+description: 宏定義。 由一個或多個完整命令組成的「呈現服務」協定片段，由「&」字元分隔。
 solution: Experience Manager
 title: 定義
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 717b2348-b14b-42e0-a991-40c7397b6619
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '61'
 ht-degree: 9%
 
 ---
 
-
 # 定義{#definition}
 
-宏定義。 Render Serving協定片段，由一個或多個由&#39;&amp;&#39;字元分隔的完整命令組成。
+宏定義。 由一個或多個完整命令組成的「呈現服務」協定片段，由「&amp;」字元分隔。
 
-宏定義不能引用其他宏。 巨集可以定義和使用自訂變數。
+宏定義不能引用其他宏。 巨集可定義並使用自訂變數。
 
 ## 屬性 {#section-2584a79bd2a04ddeaa2c04fdac4835ae}
 
