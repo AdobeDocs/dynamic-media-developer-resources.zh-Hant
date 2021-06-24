@@ -1,27 +1,26 @@
 ---
-description: 主檢視區域是轉盤橫幅影像所佔用的區域。 當未指定大小時，通常會將它設為符合可用的裝置畫面。
+description: 主要檢視區域是轉盤橫幅影像所佔用的區域。 當未指定大小時，通常會設定為適合可用的裝置畫面。
 solution: Experience Manager
-title: 主檢視器區域
-feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+title: 主觀看者區域
+feature: Dynamic Media Classic，檢視器，SDK/API，輪播橫幅
 role: Developer,Business Practitioner
 exl-id: bdac54f5-79e3-4d3d-9c7e-d9a7cec61c73
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '128'
 ht-degree: 2%
 
 ---
 
-# 主檢視器區域{#main-viewer-area}
+# 主觀看者區域{#main-viewer-area}
 
-主檢視區域是轉盤橫幅影像所佔用的區域。 當未指定大小時，通常會將它設為符合可用的裝置畫面。
+主要檢視區域是轉盤橫幅影像所佔用的區域。 當未指定大小時，通常會設定為適合可用的裝置畫面。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**主檢視器區域的CSS屬性**
+**主查看器區域的CSS屬性**
 
-檢視區域的外觀會使用下列CSS類別選擇器加以控制：
+查看區域的外觀由以下CSS類選擇器控制：
 
 ```
 .s7carouselviewer
@@ -44,13 +43,13 @@ ht-degree: 2%
    <td colname="col2"> <p>檢視器的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景色  </span> </p> </td> 
-   <td colname="col2"> <p> 十六進位格式的背景顏色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景顏色  </span> </p> </td> 
+   <td colname="col2"> <p> 以十六進位格式表示的背景顏色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-範例——設定具有白色背景(`#FFFFFF`)的檢視器，並使其大小為1174 x 500像素。
+範例：若要設定具有白色背景的檢視器(`#FFFFFF`)，並將其大小設為1174 x 500像素。
 
 ```
 .s7carouselviewer { 
