@@ -2,40 +2,39 @@
 description: PageView.pageturnstyle
 solution: Experience Manager
 title: PageView.pageturnstyle
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic，檢視器，SDK/API,eCatalog搜尋
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 2669c8e2-c942-420f-8262-9d76d5c499a2
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '128'
 ht-degree: 3%
 
 ---
 
-
 # PageView.pageturnstyle{#pageview-pageturnstyle}
 
-[!DNL `[PageView.|<containerId>_pageView.]pageturnstyle= *``*, *``*, *``*, *``*, *``*, *`biderWidthbiderColordiferOpacityborderOnOffborderColorfillColor`*`]
+[!DNL `[PageView.|<containerId>_pageView.]pageturnstyle= *``*, *``*, *``*, *``*, *``*, *`difiderWidthdiferColordiferOpacityborderOnOffborderColorfillColor`*`]
 
-在案頭系統上將[!DNL `PageView.frametransition`]設為[!DNL `turn`]或[!DNL `auto`]時，控制元件外觀。
+在案頭系統上將[!DNL `PageView.frametransition`]設定為[!DNL `turn`]或[!DNL `auto`]時控制元件外觀。
 
 <table id="table_A8CDA1AE2680402A99BCD5DD371B225F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> 除法器寬度</span></span> </p> </td> 
-   <td colname="col2"> <p> 分隔頁面分隔線陰影的寬度（以像素為單位），可分隔跨頁中的左頁和右頁。 它還控制車削頁面旁邊顯示的運行陰影的寬度。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> diferWidth</span></span> </p> </td> 
+   <td colname="col2"> <p> 分頁線陰影的寬度（像素），它分隔跨頁中的左頁和右頁。 它還控制車削頁面旁邊顯示的正在運行的陰影的寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> 除法器不透明度</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> diferOpacity</span></span> </p> </td> 
    <td colname="col2"> <p> RRGGBB格式的陰影顏色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> 除法器不透明度</span></span> </p> </td> 
-   <td colname="col2"> <p>在<span class="codeph"> 0</span>至<span class="codeph"> 1</span>範圍內的陰影不透明度。 </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> diferOpacity</span></span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 0</span>到<span class="codeph"> 1</span>範圍內的陰影不透明度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> borderOnOff</span></span> </p> </td> 
-   <td colname="col2"> <p> 標誌（<span class="codeph"> 0</span>或<span class="codeph"> 1</span>），其開啟和關閉翻頁周圍的邊界。 </p> </td> 
+   <td colname="col2"> <p> 標幟（<span class="codeph"> 0</span>或<span class="codeph"> 1</span>）可開啟或關閉開啟的頁面周圍的邊框。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> borderColor</span></span> </p> </td> 
@@ -43,7 +42,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> fillColor</span></span> </p> </td> 
-   <td colname="col2"> <p> 在翻頁動畫期間使用的元件區域的實線填充顏色，為RRGGBB格式。 </p> </td> 
+   <td colname="col2"> <p> 在翻頁動畫期間使用的元件區域的實體填充的顏色，為RRGGBB格式。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
