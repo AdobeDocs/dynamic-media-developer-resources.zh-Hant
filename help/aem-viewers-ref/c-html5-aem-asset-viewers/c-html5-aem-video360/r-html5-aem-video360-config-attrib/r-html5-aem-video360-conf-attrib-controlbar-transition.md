@@ -1,37 +1,36 @@
 ---
-description: Video360檢視器的設定屬性。
+description: Video360查看器的配置屬性。
 solution: Experience Manager
 title: ControlBar.transition
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+feature: Dynamic Media Classic，檢視器，SDK/API,360 VR影片
 role: Developer,Business Practitioner
 exl-id: 950b1230-5c4b-4222-87e2-d069287fc3ff
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '125'
 ht-degree: 3%
 
 ---
 
 # ControlBar.transition{#controlbar-transition}
 
-Video360檢視器的設定屬性。
+Video360查看器的配置屬性。
 
-` [ControlBar.|<containerId>_controls.]transition=none|fade[, *`Delaytohideduration(`*[, *`延遲隱藏持續時間)`*]`
+` [ControlBar.|<containerId>_controls.]transition=none|fade[, *``*[, *`delaytohideduration`*]`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 無|淡化</span> </p> </td> 
-   <td colname="col2"> <p> 指定用於顯示或隱藏控制欄及其內容的效果類型。 </p> <p>使用<span class="codeph"> none</span>來立即顯示和隱藏。 使用<span class="codeph">淡化</span>提供漸進淡入和淡出效果。 </p> <p>Internet Explorer 8不支援淡化。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 無|淡出</span> </p> </td> 
+   <td colname="col2"> <p> 指定用於顯示或隱藏控制欄及其內容的效果類型。 </p> <p>使用<span class="codeph"> none</span>進行即時顯示和隱藏。 使用<span class="codeph">淡出</span>提供漸進淡入和淡出效果。 </p> <p>Internet Explorer 8不支援淡出。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> delaytohide</span> </span> </p> </td> 
-   <td colname="col2"> <p>指定控制列在上次滑鼠／觸控事件與時間控制列隱藏之間的時間（以秒為單位）。 </p> <p> 如果設為<span class="codeph"> -1</span>，元件不會觸發其自動隱藏效果，而且一律會在畫面上顯示。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> delayhide</span> </span> </p> </td> 
+   <td colname="col2"> <p>指定控制欄所登錄的上次滑鼠/觸控事件與時間控制欄隱藏之間的秒數。 </p> <p> 如果設為<span class="codeph"> -1</span>，元件永遠不會觸發其自動隱藏效果，且一律會顯示在畫面上。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 持續時間</span> </span> </p> </td> 
-   <td colname="col2"> <p>設定淡入和淡出動畫的持續時間，以秒為單位。 </p> </td> 
+   <td colname="col2"> <p>設定淡入和淡出動畫的持續時間（以秒為單位）。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
