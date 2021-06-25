@@ -4,14 +4,13 @@ solution: Experience Manager
 title: setVal
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 03ec2ffb-ad9a-4135-bc31-2d71284955f6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '64'
 ht-degree: 1%
 
 ---
-
 
 # setVal{#setval}
 
@@ -23,8 +22,8 @@ ht-degree: 1%
 
 ## 範例 {#section-f574fd66dedd4a219aa537d7bdabea23}
 
-假設為`TextGraphic`節點定義了`s7:elementID="paragraph1"`屬性，則以下屬性有效：
+假設已為`TextGraphic`節點定義`s7:elementID="paragraph1"`屬性，則下列內容有效：
 
 `&setVal.paragraph=Hello`
 
-此示例將段落節點的文本值設定為&quot;Hello&quot;。
+此示例將段落節點的文本值設定為「Hello」。
