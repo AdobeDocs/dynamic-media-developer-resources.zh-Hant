@@ -5,7 +5,7 @@ title: 視訊時間
 feature: Dynamic Media Classic，檢視器，SDK/API，混合媒體集
 role: Developer,Business Practitioner
 exl-id: 5efae314-5f37-4afc-9b9e-3108a8529e50
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 2%
