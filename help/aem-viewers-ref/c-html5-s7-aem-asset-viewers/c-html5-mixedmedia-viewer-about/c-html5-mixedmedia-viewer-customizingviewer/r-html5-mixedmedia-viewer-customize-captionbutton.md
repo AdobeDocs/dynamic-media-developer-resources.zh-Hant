@@ -5,7 +5,7 @@ title: 註解按鈕
 feature: Dynamic Media Classic，檢視器，SDK/API，混合媒體集
 role: Developer,Business Practitioner
 exl-id: 62809036-f158-402d-a8b2-2b9335e8c079
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 2%
