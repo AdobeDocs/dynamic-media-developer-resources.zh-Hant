@@ -5,7 +5,7 @@ title: 焦點醒目提示
 feature: Dynamic Media Classic，檢視器，SDK/API，混合媒體集
 role: Developer,Business Practitioner
 exl-id: 7d29dab2-6f01-4328-9e92-0c370acaa2d6
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
 source-wordcount: '87'
 ht-degree: 1%
