@@ -3,9 +3,9 @@ description: 按一下或點選此按鈕會重設主檢視中的影像。 此按
 solution: Experience Manager
 title: 縮放重設按鈕
 feature: Dynamic Media Classic，檢視器，SDK/API,eCatalog
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 6f0e22cd-12bd-4997-b874-539962504d3e
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 1%
