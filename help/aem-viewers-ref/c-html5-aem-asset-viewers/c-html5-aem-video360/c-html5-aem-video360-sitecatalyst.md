@@ -3,9 +3,9 @@ description: 支援Adobe Analytics追蹤
 solution: Experience Manager
 title: 支援Adobe Analytics追蹤
 feature: Dynamic Media Classic，檢視器，SDK/API,360 VR影片
-role: Developer,Business Practitioner,Data Engineer,Data Architect
+role: Developer,User,Data Engineer,Data Architect
 exl-id: fb58a388-e4da-475d-b726-d5a32e99cce0
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 4%
