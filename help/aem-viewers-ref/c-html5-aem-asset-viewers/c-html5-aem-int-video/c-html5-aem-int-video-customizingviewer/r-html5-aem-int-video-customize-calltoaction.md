@@ -3,9 +3,9 @@ description: 視訊結束時，「動作呼叫」面板會顯示，並顯示與�
 solution: Experience Manager
 title: 操作調用
 feature: Dynamic Media Classic，檢視器， SDK/API，互動式影片
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 43e0ffb3-d650-4b79-ab48-2f32b313b832
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '1283'
 ht-degree: 3%
@@ -135,7 +135,7 @@ ht-degree: 3%
 
 ## 範例 {#example-2}
 
-要設定視頻標題，其行高為70像素，字型大小為25像素，白色和左對齊：
+若要設定視訊標題，其線高為70像素、字型大小為25像素、白色和左對齊：
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7header .s7title { 
