@@ -3,9 +3,9 @@ description: 基本縮放檢視器支援Adobe Analytics立即可用的追蹤功�
 solution: Experience Manager
 title: 支援Adobe Analytics追蹤
 feature: Dynamic Media Classic，檢視器，SDK/API，縮放
-role: Developer,Business Practitioner,Data Engineer,Data Architect
+role: Developer,User,Data Engineer,Data Architect
 exl-id: 5b9d871d-9f37-4908-900e-3f0ecc98bc0c
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 2%
