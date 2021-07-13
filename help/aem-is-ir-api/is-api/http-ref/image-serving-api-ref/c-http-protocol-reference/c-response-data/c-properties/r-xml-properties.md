@@ -3,9 +3,9 @@ description: 如果將xml指定為響應格式，則回復資料將格式化為X
 solution: Experience Manager
 title: XML屬性
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 84cae0cd-d13b-409e-bd65-71c7e973d4b8
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 0%
