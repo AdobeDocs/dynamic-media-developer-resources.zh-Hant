@@ -3,9 +3,9 @@ description: 替代變數可用來將值從請求URL傳輸至儲存在伺服器�
 solution: Experience Manager
 title: 替代變數
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 539d8863-e94d-45dc-bb8c-3db7bead0051
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 0%
