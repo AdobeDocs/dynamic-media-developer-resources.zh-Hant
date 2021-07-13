@@ -3,9 +3,9 @@ description: 按一下或點選「下一張」(Next)幻燈片按鈕，可將用�
 solution: Experience Manager
 title: 下一張幻燈片
 feature: Dynamic Media Classic，檢視器，SDK/API，輪播橫幅
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: c64889bb-bcbe-49c6-a0be-b4013ead7b90
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 3%
