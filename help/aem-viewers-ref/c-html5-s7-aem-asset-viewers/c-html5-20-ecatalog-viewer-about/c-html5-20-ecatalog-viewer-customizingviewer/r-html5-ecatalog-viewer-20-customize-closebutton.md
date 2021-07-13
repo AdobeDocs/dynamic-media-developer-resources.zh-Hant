@@ -3,9 +3,9 @@ description: 按一下或點選此按鈕會關閉容納網頁。 此按鈕僅在
 solution: Experience Manager
 title: 關閉按鈕
 feature: Dynamic Media Classic，檢視器，SDK/API,eCatalog
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 07dc3a95-1f3e-44c4-8126-621f10aec212
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 2%
