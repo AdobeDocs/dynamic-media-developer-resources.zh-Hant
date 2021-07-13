@@ -3,9 +3,9 @@ description: 開啟或關閉隱藏式字幕顯示。 如果未指定註解參數
 solution: Experience Manager
 title: 註解按鈕
 feature: Dynamic Media Classic，檢視器，SDK/API，混合媒體集
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 62809036-f158-402d-a8b2-2b9335e8c079
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 2%
