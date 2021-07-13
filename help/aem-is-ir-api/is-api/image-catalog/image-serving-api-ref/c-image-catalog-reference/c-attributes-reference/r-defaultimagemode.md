@@ -3,9 +3,9 @@ description: 預設影像模式。 在找不到請求中指定的影像時，選
 solution: Experience Manager
 title: DefaultImageMode
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: b30ce72f-7c74-407c-bd4a-042b84c469e9
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 3%
