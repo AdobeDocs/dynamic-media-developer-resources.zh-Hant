@@ -3,9 +3,9 @@ description: 按一下或點選此按鈕，可在主檢視中將影像旋轉到�
 solution: Experience Manager
 title: 回轉右鍵
 feature: Dynamic Media Classic，檢視器，SDK/API，回轉集
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 312260ae-8604-49a1-9874-3650919d91ab
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 4%
