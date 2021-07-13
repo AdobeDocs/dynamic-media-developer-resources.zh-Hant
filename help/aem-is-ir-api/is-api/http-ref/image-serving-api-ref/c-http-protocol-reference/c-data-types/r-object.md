@@ -3,9 +3,9 @@ description: 源對象說明符。 可以將影像、SVG和ICC配置檔案對象
 solution: Experience Manager
 title: 物件
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 64846f8f-ebc6-446c-8277-04c45111dc24
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 1%
