@@ -3,9 +3,9 @@ description: 「互動式視訊檢視器」所顯示的某些內容可能會受�
 solution: Experience Manager
 title: 用戶介面元素本地化
 feature: Dynamic Media Classic，檢視器， SDK/API，互動式影片
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: d293c385-d355-4d9e-9fe9-8ef35fef60bf
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 0%
