@@ -3,9 +3,9 @@ description: 「影像伺服」公用程式指南包含與Dynamic Media影像伺
 solution: Experience Manager
 title: 映像服務實用程式
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: afca4d90-546f-4725-85b4-25bd487d50f6
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 1%
