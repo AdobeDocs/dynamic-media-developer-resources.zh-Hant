@@ -3,9 +3,9 @@ description: eCatalog查看器的主類是eCatalogViewer。 會在s7viewers命�
 solution: Experience Manager
 title: eCatalog檢視器的Javascript API參考資料
 feature: Dynamic Media Classic，檢視器，SDK/API,eCatalog
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: e7c1575f-a3f0-478d-8cc2-9bace5eb6106
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 0%
