@@ -3,9 +3,9 @@ description: 這些命令用於選擇暈映組、對象、組或對象的子區�
 solution: Experience Manager
 title: 選擇命令
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 43f6ec6e-e4eb-468d-9c66-841af5e0a8a5
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 0%
