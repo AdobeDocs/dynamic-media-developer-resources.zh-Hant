@@ -3,9 +3,9 @@ description: 主要觀看區域被視頻佔據。 通常在未指定大小時設
 solution: Experience Manager
 title: 主觀看者區域
 feature: Dynamic Media Classic，檢視器， SDK/API，影片
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 7d1379c1-7746-4f61-92df-e8ac4ab7d506
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 2%
