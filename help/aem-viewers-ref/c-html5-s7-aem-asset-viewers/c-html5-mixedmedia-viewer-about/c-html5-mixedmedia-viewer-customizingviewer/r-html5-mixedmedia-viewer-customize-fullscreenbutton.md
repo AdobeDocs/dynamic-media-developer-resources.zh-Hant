@@ -3,9 +3,9 @@ description: 當使用者按一下，此按鈕會使檢視器進入或退出全�
 solution: Experience Manager
 title: 全螢幕按鈕
 feature: Dynamic Media Classic，檢視器，SDK/API，混合媒體集
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 1df99614-9493-4c8a-bc51-4426b8c5467a
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 2%
