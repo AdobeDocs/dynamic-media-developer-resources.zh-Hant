@@ -3,9 +3,9 @@ description: 主視圖區域是縮放影像和色票所佔的區域。 通常在
 solution: Experience Manager
 title: 主觀看者區域
 feature: Dynamic Media Classic，檢視器，SDK/API，縮放
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 62cbb3e6-e766-40a3-9c01-d22ade82b604
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 1%
