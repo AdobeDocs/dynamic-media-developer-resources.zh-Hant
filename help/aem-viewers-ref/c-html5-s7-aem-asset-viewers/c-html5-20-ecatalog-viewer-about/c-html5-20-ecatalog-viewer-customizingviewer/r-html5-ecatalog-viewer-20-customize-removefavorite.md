@@ -3,9 +3,9 @@ description: 「刪除收藏夾」按鈕的位置由「收藏夾」菜單完全�
 solution: Experience Manager
 title: 刪除收藏夾按鈕
 feature: Dynamic Media Classic，檢視器，SDK/API,eCatalog
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 9654ee6c-3b47-4a96-b6f0-87a0facf4523
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 1%
