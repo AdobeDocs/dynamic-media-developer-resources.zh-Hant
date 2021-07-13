@@ -3,9 +3,9 @@ description: 將影像與視圖對齊。 在由wid=和hei=定義的視圖矩形�
 solution: Experience Manager
 title: 對齊
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 01001cc6-1a60-4d6b-a27f-ea5822be6d11
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 1%
