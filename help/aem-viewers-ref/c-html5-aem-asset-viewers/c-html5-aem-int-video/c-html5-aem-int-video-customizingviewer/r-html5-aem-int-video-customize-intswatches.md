@@ -3,9 +3,9 @@ description: 如果在設定中將互動式資料傳遞至檢視器，則互動�
 solution: Experience Manager
 title: 互動色票
 feature: Dynamic Media Classic，檢視器， SDK/API，互動式影片
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: c9ef02eb-f5db-474b-b234-c49508e2af35
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '892'
 ht-degree: 2%
