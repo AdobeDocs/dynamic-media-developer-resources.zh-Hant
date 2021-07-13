@@ -3,9 +3,9 @@ description: 此按鈕可切換隱藏式字幕的開啟和關閉。 如果未指
 solution: Experience Manager
 title: 註解按鈕
 feature: Dynamic Media Classic，檢視器， SDK/API，影片
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 47d4a33b-e2bc-4a32-be45-5320d3de1955
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 2%
