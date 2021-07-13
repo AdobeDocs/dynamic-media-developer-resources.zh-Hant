@@ -3,9 +3,9 @@ description: 暈映檔案路徑。 暈映檔案的相對路徑和名稱。
 solution: Experience Manager
 title: 路徑
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 5562b0e0-0476-4dd0-acce-058601b9af0a
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '77'
 ht-degree: 10%
