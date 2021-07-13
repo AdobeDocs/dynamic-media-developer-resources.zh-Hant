@@ -3,9 +3,9 @@ description: HTML5 Video360檢視器支援Adobe Analytics立即可用的追蹤�
 solution: Experience Manager
 title: 支援Adobe Analytics追蹤
 feature: Dynamic Media Classic，檢視器， SDK/API，互動式影片
-role: Developer,Business Practitioner,Data Engineer,Data Architect
+role: Developer,User,Data Engineer,Data Architect
 exl-id: 74a69d01-fa58-4d36-8598-992baf6ae11d
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 4%
