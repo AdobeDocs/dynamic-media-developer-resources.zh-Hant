@@ -3,9 +3,9 @@ description: 旋轉指示器覆蓋在旋轉視圖區域上。 它會在影像處
 solution: Experience Manager
 title: 回轉視圖表徵圖效果
 feature: Dynamic Media Classic，檢視器，SDK/API，混合媒體集
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 1c5c73f9-c32a-4bca-93f0-c5a95756355b
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 1%
