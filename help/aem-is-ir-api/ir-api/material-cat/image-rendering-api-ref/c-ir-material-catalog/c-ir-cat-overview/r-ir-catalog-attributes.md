@@ -3,9 +3,9 @@ description: 在目錄屬性檔案中可識別以下屬性。
 solution: Experience Manager
 title: 目錄屬性
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 8d344cb7-26b6-413e-9c8d-b1d1f9c94dfc
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 3%
