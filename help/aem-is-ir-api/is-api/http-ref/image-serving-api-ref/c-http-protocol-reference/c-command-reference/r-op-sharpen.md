@@ -3,9 +3,9 @@ description: 銳化影像。 如果layer=comp，則在所有縮放後，將基�
 solution: Experience Manager
 title: op_sharpen
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 62e7d91c-935f-410f-a971-ffb3cfff31d6
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 7%
