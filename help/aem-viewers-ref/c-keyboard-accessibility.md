@@ -3,9 +3,9 @@ description: 基本縮放、eCatalog、eCatalog搜尋、彈出、內嵌縮放、
 solution: Experience Manager
 title: 鍵盤協助工具和導覽
 feature: Dynamic Media Classic，檢視器，SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 0bdf172a-0bde-42d2-900f-f207538fe588
-source-git-commit: 62234233bb1a5bcbd0eac5d281b42ed785c0c169
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 0%
