@@ -3,9 +3,9 @@ description: 「混合媒體檢視器」所顯示的特定內容可能會受本�
 solution: Experience Manager
 title: 用戶介面元素本地化
 feature: Dynamic Media Classic，檢視器，SDK/API，混合媒體集
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 119d8dde-145b-4762-a1ab-882a29e0f6a6
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 0%
