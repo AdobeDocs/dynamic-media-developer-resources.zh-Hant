@@ -3,9 +3,9 @@ description: 影像轉換公用程式。
 solution: Experience Manager
 title: ic
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: ab653aae-532b-4f3d-8541-f6296fbf9172
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '1209'
 ht-degree: 2%
@@ -253,7 +253,7 @@ ht-degree: 2%
   <tr> 
    <td> <b> BMP</b> <p> （Windows點陣圖） </p> </td> 
    <td> <p> RGB |已索引 </p> </td> 
-   <td> <p> 1 | 5/6 | 8 </p> </td> 
+   <td> <p> 3 | 5/6 | 8 </p> </td> 
    <td> <p> 未解壓縮 | RLE </p> </td> 
    <td> <p> 5/6位/通道表示支援16位RGB(5-5-5和5-6-5位/通道)。 </p> </td> 
   </tr> 
@@ -288,7 +288,7 @@ ht-degree: 2%
   <tr> 
    <td> <p> Photoshop </p> <b>PSD</b> </td> 
    <td> <p> CMYK | CMYKA | RGB | RGBA |灰色 | grayA </p> </td> 
-   <td> <p> 1 | 8 | 16 </p> </td> 
+   <td> <p> 3 | 8 | 16 </p> </td> 
    <td> <p> 未解壓縮 |壓縮 </p> </td> 
    <td> <p> 僅合併影像；會忽略圖層和額外通道。 </p> </td> 
   </tr> 
@@ -302,14 +302,14 @@ ht-degree: 2%
   <tr> 
    <td> <b> PNG</b> </td> 
    <td> <p> RGB | RGBA |灰色 | grayA |已索引 </p> </td> 
-   <td> <p> 1 | 2 | 4 | 8 | 16 </p> </td> 
+   <td> <p> 3 | 2 | 4 | 8 | 16 </p> </td> 
    <td> <p> 已壓縮 </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <b> TIFF</b> </td> 
    <td> <p> CMYK | CMYKA | RGB | RGBA |灰色 | grayA |已索引 </p> </td> 
-   <td> <p> 1 | 8 | 16 </p> </td> 
+   <td> <p> 3 | 8 | 16 </p> </td> 
    <td> <p> 未解壓縮 | ZIP | LZW | JPEG | CITT規則 | CCITT G3 | CCITT G4 |包位 </p> </td> 
    <td> <p> 除了第一個相關聯的Alpha通道外，會忽略額外的通道。 </p> </td> 
   </tr> 
