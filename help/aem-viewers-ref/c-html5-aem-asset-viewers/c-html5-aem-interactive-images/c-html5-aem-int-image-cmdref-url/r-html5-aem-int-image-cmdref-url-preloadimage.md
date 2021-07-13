@@ -3,9 +3,9 @@ description: 視訊影像檢視器的URL命令。
 solution: Experience Manager
 title: preloadimage
 feature: Dynamic Media Classic，檢視器， SDK/API，互動式影像
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 5bb61804-8c61-473f-a8a7-aa30a410e22b
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '37'
 ht-degree: 13%
