@@ -3,9 +3,9 @@ description: 焦點檢視器使用者介面元素周圍顯示的輸入焦點醒�
 solution: Experience Manager
 title: 焦點醒目提示
 feature: Dynamic Media Classic，檢視器， SDK/API，互動式影片
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: cb5231ed-106a-444f-aac7-06dd1a84a665
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 1%
