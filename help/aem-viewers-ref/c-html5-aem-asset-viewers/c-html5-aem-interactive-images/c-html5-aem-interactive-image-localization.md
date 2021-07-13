@@ -2,9 +2,9 @@
 description: 「互動式影像檢視器」所顯示的某些內容可能會受到本地化的規範。 這包括使用者介面元素工具提示，以及由載入時彈出縮放檢視顯示的資訊訊息。
 title: 用戶介面元素本地化
 feature: Dynamic Media Classic，檢視器， SDK/API，互動式影像
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 19749c74-5c31-4dcf-ab07-0e7f10176a86
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 0%
