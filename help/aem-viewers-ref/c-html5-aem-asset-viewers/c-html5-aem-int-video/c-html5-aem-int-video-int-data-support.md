@@ -3,9 +3,9 @@ description: 互動式視訊檢視器支援根據傳遞至檢視器的互動式�
 solution: Experience Manager
 title: 互動式資料支援
 feature: Dynamic Media Classic，檢視器， SDK/API，互動式影片
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 9118bf02-16ae-4dab-92e4-17347e866cc9
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 0%
