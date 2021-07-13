@@ -3,9 +3,9 @@ description: 「影像伺服」提供多種轉譯文字的替代方式，可透�
 solution: Experience Manager
 title: 文字格式
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 2c120ed1-b556-4caf-a30e-63ae48cc2104
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '562'
 ht-degree: 7%
