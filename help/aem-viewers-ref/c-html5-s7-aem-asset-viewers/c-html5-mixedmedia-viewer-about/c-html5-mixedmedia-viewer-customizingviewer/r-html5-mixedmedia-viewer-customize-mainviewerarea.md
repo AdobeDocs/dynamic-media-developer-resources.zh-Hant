@@ -3,9 +3,9 @@ description: 主視圖區域是主視圖和色板所佔的區域。 當未指定
 solution: Experience Manager
 title: 主觀看者區域
 feature: Dynamic Media Classic，檢視器，SDK/API，混合媒體集
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: fe8b748c-5318-4fcd-9f3a-d50523bb3f8f
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 2%
