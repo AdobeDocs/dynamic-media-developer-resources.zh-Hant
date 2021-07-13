@@ -3,9 +3,9 @@ description: IS伺服器可配置為針對涉及源映像的請求故障切換�
 solution: Experience Manager
 title: 出現錯誤時重新導向
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
+role: Developer,Administrator,User
 exl-id: c5541bf3-3296-4ce3-a2ff-9f6336f78ea9
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 0%
