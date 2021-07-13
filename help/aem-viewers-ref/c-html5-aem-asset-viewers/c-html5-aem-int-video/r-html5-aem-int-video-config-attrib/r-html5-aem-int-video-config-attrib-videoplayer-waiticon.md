@@ -3,9 +3,9 @@ description: 互動式視訊檢視器的設定屬性。
 solution: Experience Manager
 title: VideoPlayer.waiticon
 feature: Dynamic Media Classic，檢視器， SDK/API，互動式影片
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 0495aaa5-7c5e-4f56-a96c-80ebc5de3aec
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '35'
 ht-degree: 14%
