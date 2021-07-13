@@ -3,8 +3,8 @@ description: 列印工具包含新增至控制列的按鈕，以及啟動工具�
 solution: Experience Manager
 title: 列印
 feature: Dynamic Media Classic，檢視器，SDK/API,eCatalog搜尋
-role: Developer,Business Practitioner
-source-git-commit: 8b9b87328c26e0d316c9ee09c8f4407d40efab69
+role: Developer,User
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '1477'
 ht-degree: 2%
