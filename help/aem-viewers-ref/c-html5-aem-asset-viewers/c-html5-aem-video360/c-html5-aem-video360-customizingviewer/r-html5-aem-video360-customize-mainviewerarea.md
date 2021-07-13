@@ -3,9 +3,9 @@ description: 主要的觀看區域是360視頻所佔用的區域。 當未指定
 solution: Experience Manager
 title: 主觀看者區域
 feature: Dynamic Media Classic，檢視器，SDK/API,360 VR影片
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 912cb4b3-6409-48ed-9b9c-968b63718a1b
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 3%
