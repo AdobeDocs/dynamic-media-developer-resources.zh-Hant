@@ -3,9 +3,9 @@ description: 此材料類別包括牆、木工和修剪的油漆、汽車，以�
 solution: Experience Manager
 title: 純色
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 0f4f2d25-dd99-488b-89d9-88367d5a715d
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 3%
