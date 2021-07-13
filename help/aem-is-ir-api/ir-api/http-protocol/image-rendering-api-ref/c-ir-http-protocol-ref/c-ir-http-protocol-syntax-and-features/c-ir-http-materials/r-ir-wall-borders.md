@@ -3,9 +3,9 @@ description: 當在壁邊框MSS中指定材料時（以子=3..5引入），該�
 solution: Experience Manager
 title: 牆邊界
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: e11c38d0-8255-4363-ae60-f47be37a1495
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 4%
