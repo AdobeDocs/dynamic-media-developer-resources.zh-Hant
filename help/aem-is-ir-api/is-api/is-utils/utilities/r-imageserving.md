@@ -3,9 +3,9 @@ description: 影像伺服控制指令碼。 此指令碼用於啟動、停止或
 solution: Experience Manager
 title: ImageServing
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 252e12d9-703e-4fbb-a156-8dcdc3bc4f2e
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 2%
