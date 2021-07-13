@@ -3,9 +3,9 @@ description: 「播放/暫停」按鈕可讓使用者暫停或繼續輪播自動
 solution: Experience Manager
 title: PlayPause按鈕
 feature: Dynamic Media Classic，檢視器，SDK/API，輪播橫幅
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 1b48aa7f-d1c8-4367-94c2-689991b90942
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 2%
