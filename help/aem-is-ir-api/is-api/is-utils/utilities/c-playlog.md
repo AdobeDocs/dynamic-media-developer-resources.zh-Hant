@@ -3,9 +3,9 @@ description: playlog公用程式可用來預先產生HTTP回應快取的內容�
 solution: Experience Manager
 title: 「playlog」公用程式
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: e0213978-3a1d-44b4-82bf-4527b980b29e
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 1%
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 playlog公用程式可用來預先產生HTTP回應快取的內容。
 
-主要版本升級（當版本號碼的第一或第二位數變更時）後，無法保證現有的影像伺服HTTP回應快取可用。 如果要在升級後使伺服器上線進入滿載狀態，則伺服器可能會在處理快取未命中請求的前幾個小時超載，直到合理填充快取並且快取命中率增加。
+主要版本升級（當版本號碼的第一或第二位數變更時）後，無法保證現有的影像伺服HTTP回應快取可用。 如果要在升級後使伺服器上線進入滿載狀態，則伺服器可能會在處理快取未命中請求的前幾個小時超載，直到合理填入快取並提高快取命中率為止。
 
 為避免此初始載入尖峰，`playlog`公用程式可用來預先產生HTTP回應快取的內容。 `playlog` 從現有訪問日誌檔案中提取HTTP請求，並將其發送到伺服器以生成快取項。對於一般使用情況，只要播放包含一整天流量的單一存取記錄檔即可。
 
