@@ -3,9 +3,9 @@ description: 在URL或目錄修飾符命令序列中，層定義序列以layer=�
 solution: Experience Manager
 title: 指定圖層
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: bedd5dac-7577-4c8a-9dc3-43aa4438e53a
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 0%
