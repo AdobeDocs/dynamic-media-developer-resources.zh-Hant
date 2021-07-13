@@ -3,9 +3,9 @@ description: 目錄屬性檔案可識別這些預設請求屬性。
 solution: Experience Manager
 title: 預設請求屬性
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: b706595d-8c3a-438a-8806-e3d85b1bdadb
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '72'
 ht-degree: 1%
