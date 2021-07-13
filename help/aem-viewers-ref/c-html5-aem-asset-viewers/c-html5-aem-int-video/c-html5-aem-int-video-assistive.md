@@ -3,9 +3,9 @@ description: 所有檢視器元件都支援ARIA（可存取的豐富網際網路
 solution: Experience Manager
 title: 輔助技術支援
 feature: Dynamic Media Classic，檢視器， SDK/API，互動式影片，協助工具
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 3d9f6389-e73c-4d31-a7c1-b321f065ce8c
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 0%
