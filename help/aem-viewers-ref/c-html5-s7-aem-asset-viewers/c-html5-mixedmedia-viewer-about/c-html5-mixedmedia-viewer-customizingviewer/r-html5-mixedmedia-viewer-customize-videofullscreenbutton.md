@@ -3,9 +3,9 @@ description: 當使用者按一下時，全螢幕按鈕會使檢視器進入或�
 solution: Experience Manager
 title: 全螢幕視頻按鈕
 feature: Dynamic Media Classic，檢視器，SDK/API，混合媒體集
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 45811efa-95f6-4b6d-96f8-9e5437a55f0e
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 2%
