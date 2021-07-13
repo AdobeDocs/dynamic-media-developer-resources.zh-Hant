@@ -3,9 +3,9 @@ description: 按一下或點選此按鈕會放大至主檢視中的影像。 為
 solution: Experience Manager
 title: 縮小按鈕
 feature: Dynamic Media Classic，檢視器，SDK/API，縮放
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 1502aab5-1839-48c5-a4d2-439605bbeb6e
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 2%
