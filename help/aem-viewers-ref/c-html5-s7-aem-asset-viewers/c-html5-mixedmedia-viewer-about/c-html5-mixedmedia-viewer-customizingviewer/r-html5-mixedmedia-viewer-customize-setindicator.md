@@ -3,9 +3,9 @@ description: 設定指示器是當查看器用於觸摸設備時在主色板上�
 solution: Experience Manager
 title: 設定指示器
 feature: Dynamic Media Classic，檢視器，SDK/API，混合媒體集
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 53ee058a-cb8c-4b1f-bb9b-caaecc12c947
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 1%
