@@ -3,9 +3,9 @@ description: 透視變換。 將透視變換應用於層源影像，以填充用
 solution: Experience Manager
 title: 透視
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 2e0297b0-c9a4-4bbd-9f06-368f722288d4
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 2%
