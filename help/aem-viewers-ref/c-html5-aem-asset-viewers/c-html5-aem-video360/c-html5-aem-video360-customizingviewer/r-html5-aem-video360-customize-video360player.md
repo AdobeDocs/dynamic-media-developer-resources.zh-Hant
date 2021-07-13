@@ -3,9 +3,9 @@ description: 視訊播放器是觀看者中顯示視訊內容的矩形區域。
 solution: Experience Manager
 title: Video360播放器
 feature: Dynamic Media Classic，檢視器，SDK/API,360 VR影片
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 54ccf872-2d24-4d3f-9808-6d0e2558f5a5
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 1%
