@@ -3,9 +3,9 @@ description: 社交分享工具預設會顯示在右上角。 它包含按鈕和
 solution: Experience Manager
 title: 社交分享
 feature: Dynamic Media Classic，檢視器， SDK/API，影片
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 82b482f9-b117-4529-a422-cdb0eead0031
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 1%
