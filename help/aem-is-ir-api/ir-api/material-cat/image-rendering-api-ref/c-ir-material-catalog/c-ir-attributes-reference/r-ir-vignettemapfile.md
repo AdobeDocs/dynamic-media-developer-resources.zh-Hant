@@ -3,9 +3,9 @@ description: 暈映映射資料檔案路徑。 指定包含此影像目錄暈映
 solution: Experience Manager
 title: VignetteMapFile
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: f9b7c7b1-cc49-419f-8eea-0091ef8b3011
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '74'
 ht-degree: 5%
