@@ -3,9 +3,9 @@ description: 本檔案提供FXG伺服器通訊協定及其語法的相關資訊�
 solution: Experience Manager
 title: FXG伺服器協定參考
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: a3b3d5d9-d7c9-44a6-97a5-8e3e2c4abef0
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '53'
 ht-degree: 7%
