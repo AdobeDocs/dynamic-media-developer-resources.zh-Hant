@@ -3,9 +3,9 @@ description: 隱藏圖層。 允許隱藏圖層，而不需從請求字串中移
 solution: Experience Manager
 title: 隱藏
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: bf70af48-53d6-4c4a-9d16-3696bbfe86ff
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '47'
 ht-degree: 8%
