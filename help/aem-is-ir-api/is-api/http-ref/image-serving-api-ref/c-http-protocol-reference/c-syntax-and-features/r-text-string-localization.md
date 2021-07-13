@@ -3,9 +3,9 @@ description: 文本字串本地化允許影像目錄包含同一字串值的多�
 solution: Experience Manager
 title: 文字字串本地化
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: f105c7f2-b544-4c08-bb91-4916e485572d
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '671'
 ht-degree: 3%
@@ -127,7 +127,7 @@ ht-degree: 3%
 
 `en,E|en_us,EUS,E|en_uk,EUK,E|de,D|de_at,DAT,D|de_de,D`
 
-下表說明了某些代表性組合&#x200B;*`stringElement`*&#x200B;和&#x200B;*`locale`*&#x200B;的輸出：
+下表介紹了某些代表性組合&#x200B;*`stringElement`*&#x200B;和&#x200B;*`locale`*&#x200B;的輸出：
 
 <table id="table_A6B67587C5F44B5E9CD0E7ED29A81198"> 
  <thead> 
