@@ -3,9 +3,9 @@ description: 套用至所有縮圖的「影像伺服」命令字串。
 solution: Experience Manager
 title: FavoritesView.iscommand
 feature: Dynamic Media Classic，檢視器，SDK/API,eCatalog
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 1b6198f4-367d-437a-b8b1-206519567af0
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '66'
 ht-degree: 7%
