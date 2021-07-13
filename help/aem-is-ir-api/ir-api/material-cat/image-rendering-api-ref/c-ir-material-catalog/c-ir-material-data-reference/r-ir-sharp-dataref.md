@@ -3,9 +3,9 @@ description: 銳利化. 銳利化屬性，可決定渲染期間材料銳利化�
 solution: Experience Manager
 title: Sharp
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: ce08ed97-33b7-4d28-8f7f-3f3ef8598ad6
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 10%
