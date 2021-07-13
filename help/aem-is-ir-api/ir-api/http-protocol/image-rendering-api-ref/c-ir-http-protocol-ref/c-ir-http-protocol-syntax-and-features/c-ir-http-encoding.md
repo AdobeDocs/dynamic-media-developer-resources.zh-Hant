@@ -3,9 +3,9 @@ description: 命令值必須使用%xx轉義序列進行http編碼，這樣值字
 solution: Experience Manager
 title: 影像呈現HTTP編碼
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: a1efc4ce-a170-4bdb-8584-407e07113272
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 2%
