@@ -3,9 +3,9 @@ description: 影像集資料。 提供定義已排序影像集和Dynamic Media�
 solution: Experience Manager
 title: ImageSet
 feature: Dynamic Media Classic, SDK/API，影像集
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: eacf0553-8cec-4a1d-80a5-6fe37b92b5bf
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 2%
