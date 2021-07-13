@@ -3,9 +3,9 @@ description: 互動式影像檢視器的主要類別為InteractiveImage。 會�
 solution: Experience Manager
 title: 互動式影像檢視器的JavaScript API參考
 feature: Dynamic Media Classic，檢視器， SDK/API，互動式影像
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 40a3554c-633f-418e-b365-2cae4eebe878
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 0%
