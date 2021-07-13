@@ -3,9 +3,9 @@ description: 混合媒體檢視器的JavaScript API參考。
 solution: Experience Manager
 title: 處置
 feature: Dynamic Media Classic，檢視器，SDK/API，混合媒體集
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: e09f73a9-a961-4188-b092-f7bbcae4946d
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 2%
