@@ -3,9 +3,9 @@ description: 目錄屬性檔案可以有任何名稱，但必須有.ini檔案尾
 solution: Experience Manager
 title: 目錄屬性檔案
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 79d9439d-7749-4ae1-aa73-e88e01cf7555
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 0%
