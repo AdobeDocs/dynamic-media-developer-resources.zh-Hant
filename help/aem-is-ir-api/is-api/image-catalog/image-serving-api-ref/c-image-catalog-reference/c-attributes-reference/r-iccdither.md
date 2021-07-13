@@ -3,9 +3,9 @@ description: 顏色轉換抖動。 指定當未使用icc=進行明確選擇時�
 solution: Experience Manager
 title: IccDither
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 4b444f0f-2313-4477-8a22-7840b4783c88
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '82'
 ht-degree: 6%
