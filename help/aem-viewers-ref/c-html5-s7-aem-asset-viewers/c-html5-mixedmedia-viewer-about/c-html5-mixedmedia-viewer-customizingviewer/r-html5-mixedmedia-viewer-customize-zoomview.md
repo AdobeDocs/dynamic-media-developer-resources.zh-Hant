@@ -3,9 +3,9 @@ description: 在連續縮放模式中，當目前資產是單一影像時，主�
 solution: Experience Manager
 title: 縮放檢視
 feature: Dynamic Media Classic，檢視器，SDK/API，混合媒體集
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 0252436b-ba96-4273-b796-d1772fc093b0
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 0%
