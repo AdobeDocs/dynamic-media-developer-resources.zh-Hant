@@ -3,9 +3,9 @@ description: 縮放指示器覆蓋在縮放視圖區域上。 當影像處於重
 solution: Experience Manager
 title: 縮放視圖表徵圖效果
 feature: Dynamic Media Classic，檢視器，SDK/API，混合媒體集
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: f2db0259-f1cf-41bc-86fd-97a40d01db16
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 1%
