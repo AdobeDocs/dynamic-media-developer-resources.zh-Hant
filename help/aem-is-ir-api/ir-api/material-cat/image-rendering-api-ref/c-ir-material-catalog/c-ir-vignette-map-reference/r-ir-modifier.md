@@ -3,9 +3,9 @@ description: 要求修飾詞字串。 無或多個以「&」字元分隔的影�
 solution: Experience Manager
 title: 修飾元
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 19b6dd5d-847d-46a2-8138-2b35d2e9b930
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 5%
