@@ -3,9 +3,9 @@ description: 可變音量控制項最初顯示為按鈕，允許用戶將視頻�
 solution: Experience Manager
 title: 可變音量
 feature: Dynamic Media Classic，檢視器，SDK/API，混合媒體集
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 9afa56f9-443c-4307-843c-d7ddba6ec604
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 2%
