@@ -3,9 +3,9 @@ description: 按一下或點選此按鈕，即可將使用者帶至目錄的下�
 solution: Experience Manager
 title: 下一頁按鈕
 feature: Dynamic Media Classic，檢視器，SDK/API,eCatalog搜尋
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 6b94e583-fb2a-4010-bfc6-4fa901252e4e
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 2%
