@@ -3,9 +3,9 @@ description: 指出檢視器是否在播放開始前開始載入視訊內容。
 solution: Experience Manager
 title: VideoPlayer.preload
 feature: Dynamic Media Classic，檢視器，SDK/API，混合媒體集
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 90fb988a-255c-46fe-b05a-39c95ae8b95d
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 3%
