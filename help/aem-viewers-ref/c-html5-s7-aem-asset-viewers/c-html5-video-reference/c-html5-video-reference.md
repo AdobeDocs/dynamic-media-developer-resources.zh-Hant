@@ -4,9 +4,9 @@ keywords: 回應式
 solution: Experience Manager
 title: 視訊
 feature: Dynamic Media Classic，檢視器， SDK/API，影片
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: fa9727dc-f9e2-4d91-b500-445693dfb6aa
-source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '2388'
 ht-degree: 0%
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 ## 與視訊檢視器互動 {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
-視訊檢視器提供一組用於視訊播放的標準使用者介面控制項，例如播放/暫停按鈕、視訊清除程式視訊時間泡泡、播放時間/總時間指標、音量控制、全螢幕按鈕和隱藏式字幕切換。 所有這些控制項都會分組到檢視器使用者介面底部的控制列中。
+視訊檢視器提供一組用於視訊播放的標準使用者介面控制項，例如播放/暫停按鈕、視訊清除程式視訊時間泡泡、播放時間/總時間指標、音量控制項、全螢幕按鈕和隱藏式字幕切換。 所有這些控制項都會分組到檢視器使用者介面底部的控制列中。
 
 在觸摸設備上，音量控制在用戶介面中隱藏，因為只能使用硬體按鈕控制音量。
 
