@@ -3,9 +3,9 @@ description: 輪播檢視器的JavaScript API參考。
 solution: Experience Manager
 title: setParams
 feature: Dynamic Media Classic，檢視器，SDK/API，輪播橫幅
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 4bf3f8f8-73fe-4ab1-8005-aa49e4ffaba6
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 2%
