@@ -3,9 +3,9 @@ description: 圖層顏色。 指定實色和效果圖層的前景顏色和不透
 solution: Experience Manager
 title: 色彩
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: b937e699-8e1e-4211-86a6-fdc155a0e3ed
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 4%
