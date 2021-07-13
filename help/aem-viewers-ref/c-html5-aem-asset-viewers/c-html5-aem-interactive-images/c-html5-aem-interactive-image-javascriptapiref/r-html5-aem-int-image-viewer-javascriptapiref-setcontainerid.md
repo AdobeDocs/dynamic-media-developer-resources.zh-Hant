@@ -3,9 +3,9 @@ description: 視訊影像檢視器的JavaScript API參考。
 solution: Experience Manager
 title: setContainerId
 feature: Dynamic Media Classic，檢視器， SDK/API，互動式影像
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 2b9b89e6-50ea-458f-9da2-6fda1884935c
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 3%
