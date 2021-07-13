@@ -3,9 +3,9 @@ description: 此版本 — 影像提供6.6.1和影像呈現6.6.1 — 取代影�
 solution: Experience Manager
 title: 關於此版本
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: f837191b-1151-4c29-8059-b4d3e09e304e
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 1%
