@@ -3,9 +3,9 @@ description: 暈映製作工具(Dynamic Media影像製作套件的一部分)提�
 solution: Experience Manager
 title: 進階轉譯設定
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 0ad8f4b4-dd9c-43f5-aacc-67a564e34d92
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 25%
@@ -52,14 +52,14 @@ ht-degree: 25%
   <tr> 
    <td colname="col1"> <p>W </p> </td> 
    <td colname="col2"> <p>USM金額(%)。 </p> </td> 
-   <td colname="col3"> <p>1 </p> </td> 
+   <td colname="col3"> <p>3 </p> </td> 
    <td colname="col4"> <p>500 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>V </p> </td> 
    <td colname="col2"> <p>USM半徑（像素）。 </p> </td> 
-   <td colname="col3"> <p>1 </p> </td> 
+   <td colname="col3"> <p>3 </p> </td> 
    <td colname="col4"> <p>100 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
@@ -73,7 +73,7 @@ ht-degree: 25%
   <tr> 
    <td colname="col1"> <p>Q </p> </td> 
    <td colname="col2"> <p>調整大小模式。 </p> </td> 
-   <td colname="col3"> <p>1 </p> </td> 
+   <td colname="col3"> <p>3 </p> </td> 
    <td colname="col4"> <p>5 </p> </td> 
    <td colname="col5"> <p> 
      <ul id="ul_87184BB93E7F46D59BA1AAAFA8455512"> 
@@ -109,7 +109,7 @@ ht-degree: 25%
   <tr> 
    <td colname="col1"> <p>S </p> </td> 
    <td colname="col2"> <p>超採樣：隨機率。 </p> </td> 
-   <td colname="col3"> <p>1 </p> </td> 
+   <td colname="col3"> <p>3 </p> </td> 
    <td colname="col4"> <p>20 </p> </td> 
    <td colname="col5"> <p>預設為 5。 </p> </td> 
   </tr> 
@@ -130,7 +130,7 @@ ht-degree: 25%
   <tr> 
    <td colname="col1"> <p>P </p> </td> 
    <td colname="col2"> <p>泊松：樣本/像素。 </p> </td> 
-   <td colname="col3"> <p>1 </p> </td> 
+   <td colname="col3"> <p>3 </p> </td> 
    <td colname="col4"> <p>4 </p> </td> 
    <td colname="col5"> <p>預設為 1。 </p> </td> 
   </tr> 
@@ -138,7 +138,7 @@ ht-degree: 25%
    <td colname="col1"> <p>Y </p> </td> 
    <td colname="col2"> <p>泊松：使用切換。 </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
-   <td colname="col4"> <p>1 </p> </td> 
+   <td colname="col4"> <p>3 </p> </td> 
    <td colname="col5"> <p>預設為 1。 </p> </td> 
   </tr> 
   <tr> 
