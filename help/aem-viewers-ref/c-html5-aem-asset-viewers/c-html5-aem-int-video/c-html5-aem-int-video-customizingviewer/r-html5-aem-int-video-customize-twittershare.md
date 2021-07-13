@@ -3,9 +3,9 @@ description: Twitter共用工具包含新增至「社交分享」面板的按鈕
 solution: Experience Manager
 title: Twitter共用
 feature: Dynamic Media Classic，檢視器， SDK/API，互動式影片
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 045ca718-b971-4437-a0bf-580eee83ff2d
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 1%
