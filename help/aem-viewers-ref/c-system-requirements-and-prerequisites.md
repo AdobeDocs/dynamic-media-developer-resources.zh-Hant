@@ -4,9 +4,9 @@ description: Dynamic Media HTML5檢視器的系統需求。
 solution: Experience Manager
 contentOwner: Rick Brough
 feature: Dynamic Media Classic，檢視器，SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: e4543358-92a6-4acc-a8a2-227e1daea722
-source-git-commit: dc1bbbcd109ecbeae1f3a04e7ca5371581f0f743
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '311'
 ht-degree: 1%
