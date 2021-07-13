@@ -3,9 +3,9 @@ description: 當目前資產為回轉集時，主檢視由回轉影像組成。
 solution: Experience Manager
 title: 回轉檢視
 feature: Dynamic Media Classic，檢視器，SDK/API，混合媒體集
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: aafc1299-b09a-4379-bd8f-b564066175bd
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '84'
 ht-degree: 1%
