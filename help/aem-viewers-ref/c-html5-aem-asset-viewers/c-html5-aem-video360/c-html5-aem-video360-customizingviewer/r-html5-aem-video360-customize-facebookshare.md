@@ -3,9 +3,9 @@ description: Facebook共用工具包含新增至「社交分享」面板的按�
 solution: Experience Manager
 title: Facebook共用
 feature: Dynamic Media Classic，檢視器，SDK/API,360 VR影片
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 343cde8b-796a-420f-abb7-268b3791a684
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 0%
