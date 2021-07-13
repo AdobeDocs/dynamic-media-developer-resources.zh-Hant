@@ -3,9 +3,9 @@ description: 若$var$參考出現在內嵌外掛請求的大括弧內，則會�
 solution: Experience Manager
 title: 內嵌外掛程式請求中的變數處理
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: a87bb2a0-0554-4978-982d-b6617925cd53
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 0%
