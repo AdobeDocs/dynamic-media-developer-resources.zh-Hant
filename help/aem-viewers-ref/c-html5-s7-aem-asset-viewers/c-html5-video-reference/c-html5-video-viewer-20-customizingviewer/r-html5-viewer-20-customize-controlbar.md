@@ -3,9 +3,9 @@ description: 控制欄是矩形區域，其中包含並位於視訊檢視器可�
 solution: Experience Manager
 title: 控制欄
 feature: Dynamic Media Classic，檢視器， SDK/API，影片
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 2239307a-4a05-4392-b35c-a64ea6c938ad
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 2%
