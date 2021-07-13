@@ -3,9 +3,9 @@ description: 檢視器支援全螢幕操作模式。
 solution: Experience Manager
 title: 全螢幕支援
 feature: Dynamic Media Classic，檢視器，SDK/API，回轉集
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 8f2b6c66-4074-40b6-b8ab-cbced744440e
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 0%
