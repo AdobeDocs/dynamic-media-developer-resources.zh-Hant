@@ -3,9 +3,9 @@ description: 顏色量化。 指定GIF輸出轉換的顏色量化屬性。
 solution: Experience Manager
 title: 數量
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 67247016-a038-4ed4-90ed-751eaf9c4881
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 1%
