@@ -3,9 +3,9 @@ description: 視訊時間是數值顯示，可顯示目前播放視訊的目前�
 solution: Experience Manager
 title: 視訊時間
 feature: Dynamic Media Classic，檢視器，SDK/API，混合媒體集
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 5efae314-5f37-4afc-9b9e-3108a8529e50
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 2%
