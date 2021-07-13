@@ -3,9 +3,9 @@ description: 「影像提供」支援無限巢狀的影像提供請求、內嵌�
 solution: Experience Manager
 title: 請求巢狀和內嵌
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: b9c9d241-5a3d-4637-a90a-d8cdf29cc968
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '1050'
 ht-degree: 0%
