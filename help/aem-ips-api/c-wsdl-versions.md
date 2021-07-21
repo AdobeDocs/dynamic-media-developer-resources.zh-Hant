@@ -3,9 +3,9 @@ description: IPS Web服務受一組WSDL（Web服務描述語言）文檔的支�
 solution: Experience Manager
 title: IPS Web服務WSDL版本
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: d7a6079e-286e-4e62-b2ff-551ef4a5815c
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '959'
 ht-degree: 1%
