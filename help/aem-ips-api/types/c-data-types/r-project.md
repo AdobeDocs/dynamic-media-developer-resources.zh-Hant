@@ -3,9 +3,9 @@ description: 已命名的資產集。
 solution: Experience Manager
 title: 專案
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: be85f9b7-07a0-42e9-8391-45371a1ecaa6
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '27'
 ht-degree: 25%
