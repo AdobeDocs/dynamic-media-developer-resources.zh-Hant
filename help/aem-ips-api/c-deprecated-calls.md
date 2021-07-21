@@ -3,9 +3,9 @@ title: 已棄用的呼叫
 description: 不再用於Dynamic Media的影像生產系統API呼叫及其相關參數。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: f6711780-9a96-4a61-9066-8d83316758c3
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 0%
