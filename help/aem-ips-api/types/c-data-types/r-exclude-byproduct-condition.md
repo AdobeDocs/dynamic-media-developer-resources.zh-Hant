@@ -3,9 +3,9 @@ description: 決定要從搜尋結果中排除的產生引擎和產生的資產�
 solution: Experience Manager
 title: ExcludeBiscullCondition
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 5b37e01b-9e9c-4d34-9d39-1f9bfe356e53
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '63'
 ht-degree: 9%
