@@ -3,9 +3,9 @@ description: 上傳期間指定的選項。 影響上傳的色彩管理方式。
 solution: Experience Manager
 title: 色彩管理選項
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 55535bb0-544d-4a93-9ff4-235f22b8d45a
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '49'
 ht-degree: 10%
