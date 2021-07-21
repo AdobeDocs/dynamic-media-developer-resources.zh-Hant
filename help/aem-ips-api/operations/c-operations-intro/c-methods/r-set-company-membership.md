@@ -3,9 +3,9 @@ description: 在一或多個公司中設定使用者的會籍。
 solution: Experience Manager
 title: setCompanyMembersip
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 43144c75-1d83-4e1d-8319-c3275d349a2f
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '81'
 ht-degree: 14%
