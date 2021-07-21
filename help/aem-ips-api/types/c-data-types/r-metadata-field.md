@@ -3,9 +3,9 @@ description: 特定資產的使用者定義欄位定義。
 solution: Experience Manager
 title: MetadataField
 feature: Dynamic Media Classic,SDK/API，中繼資料
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 97175076-9078-4bc4-b3ea-73c3ea772f6a
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 14%
