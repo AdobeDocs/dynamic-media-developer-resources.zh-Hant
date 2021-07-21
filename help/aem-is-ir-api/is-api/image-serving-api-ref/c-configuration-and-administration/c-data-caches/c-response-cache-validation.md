@@ -3,9 +3,9 @@ description: 使用屬性CacheValidationPolicy（在預設.ini中，或特定影
 solution: Experience Manager
 title: 響應快取驗證
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,User
+role: Developer,Admin,User
 exl-id: d2baa6e6-2700-450f-af1e-88b6d33d0e0c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 0%
