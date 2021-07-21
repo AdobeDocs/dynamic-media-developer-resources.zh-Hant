@@ -3,9 +3,9 @@ description: 映像伺服器元件由伺服器主管管理，伺服器主管是L
 solution: Experience Manager
 title: 伺服器主管
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,User
+role: Developer,Admin,User
 exl-id: 83b6a63f-6bb8-4a14-b8d5-389d23fae57c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 0%
