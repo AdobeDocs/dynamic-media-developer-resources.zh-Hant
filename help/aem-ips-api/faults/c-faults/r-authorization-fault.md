@@ -3,9 +3,9 @@ description: 當已驗證的使用者沒有足夠的權限來完成任務時，�
 solution: Experience Manager
 title: authorizationFault
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 76965735-92d8-46be-b589-67cad3b987dc
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '59'
 ht-degree: 25%
