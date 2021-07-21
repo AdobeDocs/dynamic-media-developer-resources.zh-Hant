@@ -3,9 +3,9 @@ description: 傳回指定公司的相關資訊，包括公司控制代碼、公�
 solution: Experience Manager
 title: getCompanyInfo
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 72bd223b-c99a-48a3-9c0a-d1af392d904c
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 10%
