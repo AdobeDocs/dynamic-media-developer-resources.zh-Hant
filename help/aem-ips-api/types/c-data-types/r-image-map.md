@@ -3,9 +3,9 @@ description: 在瀏覽器中鎖定點擊動作。
 solution: Experience Manager
 title: 影像地圖
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 123eba56-2a59-44c5-93f0-205c362d071d
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 11%
