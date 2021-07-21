@@ -3,9 +3,9 @@ description: 說明IPS API v4.0的新變更和實作變更。
 solution: Experience Manager
 title: 新增和變更
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: f07562a8-71e9-4d98-9d0c-5bb32a7e0ef1
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '1225'
 ht-degree: 2%
