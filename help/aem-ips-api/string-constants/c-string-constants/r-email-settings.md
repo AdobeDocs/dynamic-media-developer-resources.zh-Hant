@@ -3,9 +3,9 @@ description: 描述各種輸入參數使用的值。 如需詳細資訊，請參
 solution: Experience Manager
 title: 電子郵件設定
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: f6fb7d58-968a-41c8-b0a8-ccab37e98801
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '43'
 ht-degree: 13%
