@@ -3,9 +3,9 @@ description: 按照公司、組和用戶角色句柄的指定獲取用戶陣列�
 solution: Experience Manager
 title: getUsers
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: dfdcbcdd-232f-4c73-9520-c7c958eedf54
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 10%
