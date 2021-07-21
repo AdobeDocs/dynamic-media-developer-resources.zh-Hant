@@ -3,9 +3,9 @@ description: AssetMetadataFields的陣列。 供getAssetMetadataFields用來傳�
 solution: Experience Manager
 title: AssetMetadataFieldsArray
 feature: Dynamic Media Classic, SDK/API，中繼資料，資產管理
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 6353afd0-c564-4866-84ee-d29a5e2d8a86
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '65'
 ht-degree: 9%
