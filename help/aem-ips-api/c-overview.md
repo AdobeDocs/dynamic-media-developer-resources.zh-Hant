@@ -3,9 +3,9 @@ description: IPS (影像生產系統) Web 服務 API 可讓外部應用程式和
 solution: Experience Manager
 title: 關於影像製作系統API
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: c03e415f-57eb-4706-a17c-68d8469fba91
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 29%
