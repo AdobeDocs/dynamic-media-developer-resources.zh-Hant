@@ -3,9 +3,9 @@ description: 使用批次模式設定資產中繼資料。
 solution: Experience Manager
 title: batchSetAssetMetadata
 feature: Dynamic Media Classic, SDK/API，中繼資料，資產管理
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 7393fa4f-71fb-48a5-a7f3-91eec82c88c1
-source-git-commit: f464a7adcb8035a5bdebf1a6c9b647ba04535431
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 13%
