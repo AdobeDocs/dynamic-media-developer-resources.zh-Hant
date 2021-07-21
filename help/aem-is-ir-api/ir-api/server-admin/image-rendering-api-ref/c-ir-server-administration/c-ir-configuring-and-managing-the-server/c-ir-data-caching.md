@@ -3,9 +3,9 @@ description: 影像呈現會運用影像伺服快取功能來儲存回應影像�
 solution: Experience Manager
 title: 資料快取
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,User
+role: Developer,Admin,User
 exl-id: c7be9254-0dd4-4ec3-8448-86a18b9bea0d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
 workflow-type: tm+mt
 source-wordcount: '83'
 ht-degree: 0%
