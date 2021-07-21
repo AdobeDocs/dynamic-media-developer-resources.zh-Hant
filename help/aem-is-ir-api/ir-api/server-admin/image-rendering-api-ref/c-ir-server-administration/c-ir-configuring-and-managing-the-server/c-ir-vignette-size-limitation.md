@@ -3,9 +3,9 @@ description: 影像呈現可強制對非金字塔暈映設定兩百萬像素大�
 solution: Experience Manager
 title: 暈映大小限制
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,User
+role: Developer,Admin,User
 exl-id: 69116b7f-45c0-42ed-9114-d01db3ce16be
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
 workflow-type: tm+mt
 source-wordcount: '83'
 ht-degree: 0%
