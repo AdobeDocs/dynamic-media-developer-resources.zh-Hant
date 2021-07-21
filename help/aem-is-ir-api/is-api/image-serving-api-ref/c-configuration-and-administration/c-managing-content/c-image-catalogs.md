@@ -3,9 +3,9 @@ description: 影像目錄提供許多伺服器配置設定，以及字型、ICC�
 solution: Experience Manager
 title: 影像目錄
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,User
+role: Developer,Admin,User
 exl-id: 70ec4566-a937-464e-8219-b7eda3ab66c1
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 0%
