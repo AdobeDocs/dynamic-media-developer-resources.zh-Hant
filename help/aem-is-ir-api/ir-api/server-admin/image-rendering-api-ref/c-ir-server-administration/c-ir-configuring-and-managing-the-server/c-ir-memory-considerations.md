@@ -3,9 +3,9 @@ description: 影像呈現所使用的記憶體量可能會大不相同，而且�
 solution: Experience Manager
 title: 記憶體考量
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,User
+role: Developer,Admin,User
 exl-id: 62eaa41c-a61c-4bcd-8dd9-9c3423bf82ef
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 0%
