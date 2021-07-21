@@ -3,9 +3,9 @@ description: 本節中的設定適用於由req=set修飾符獲得的媒體集響
 solution: Experience Manager
 title: 媒體集回應
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,User
+role: Developer,Admin,User
 exl-id: e3833726-d345-4741-8096-d74f299ac9fc
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 0%
