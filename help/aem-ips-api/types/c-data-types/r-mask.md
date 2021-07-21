@@ -3,9 +3,9 @@ description: 遮罩影像的一部分。 遮罩始終與影像相關聯。 從Im
 solution: Experience Manager
 title: 遮色片
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 0e18096c-0666-400b-a562-b6d183bd3334
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 12%
