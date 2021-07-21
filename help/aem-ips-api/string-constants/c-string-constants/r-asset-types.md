@@ -3,9 +3,9 @@ description: 描述各種輸入參數使用的值。 如需詳細資訊，請參
 solution: Experience Manager
 title: 資產類型
 feature: Dynamic Media Classic,SDK/API，資產管理
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: efbdf214-403e-4dc8-90c1-97e6fd113265
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '45'
 ht-degree: 13%
