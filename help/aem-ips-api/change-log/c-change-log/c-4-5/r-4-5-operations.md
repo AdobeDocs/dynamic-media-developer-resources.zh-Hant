@@ -5,7 +5,7 @@ title: 操作新建和修改
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9033328a-d0ce-4ef2-b6ec-c6a81fbedf9d
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: d2e73ae5f92d9ba3471dc7207842753ccff94c28
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 0%
@@ -38,11 +38,7 @@ ht-degree: 0%
 ## 修改的操作 {#section-1c022cc62d274c349837013f1c02ca51}
 
 * `Asset` 包括 `animatedGifInfo`、  `swcInfo`、 `cssInfo`和參 `javascriptInfo` 數。
-
 * `createMetadataField` 包含選用 `isHidden` 參數。
-
 * `saveMetadataField` 包含選用 `isHidden` 參數。
-
 * `searchAssets`
-* 
 * 先前版本已棄用`renameFiles`參數，並從`renameAsset`操作中移除。 虛擬檔案路徑會變更，以符合新資產名稱（保留副檔名），而物理檔案路徑則不受影響。 更新至新API版本時，API用戶端需要移除此參數的參考。
