@@ -5,9 +5,9 @@ title: fmt
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 67f8a58d-88f5-4993-9749-41a3c530adba
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 9d86f2acad638cbbcb80b48ead73443c76c895a9
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '882'
 ht-degree: 4%
 
 ---
@@ -22,33 +22,33 @@ ht-degree: 4%
 
 | *`format`* | 說明 |
 |---|---|
-| `avif-alpha` | 具有Alpha通道&#x200B;<br><br>*的有損和無損AVIF，此格式的發行時間表：* <br><b>北美</b> — 現已提供<br><b>歐洲、中東、非洲</b> - 2021年8月13日<br><b>亞太</b> — 現已提供 |
-| `avif` | 有損和無損的AVIF <br><br>*此格式的發行時間表：*<br><b>&#x200B;北美</b> — 現已提供<br><b>歐洲、中東、非洲</b> - 2021年8月13日<br><b>亞太</b> — 現已提供 |
-| `eps` | 未壓縮的二進位封裝PostScript |
-| `f4m` | Flash串流伺服器資訊清單格式 |
-| `gif-alpha` | 2到255色的GIF加上索引鍵色透明度 |
-| `gif` | 2到256色的GIF |
-| `jpeg` | 有損JPEG |
-| `jpeg2000-alpha` | 帶Alpha通道的有損和無損JPEG 2000 |
-| `jpeg2000` | 有損和無損JPEG 2000 |
-| `jpegxr-alpha` | 具有Alpha通道的有損和無損JPEG XR |
-| `jpegxr` | 有損和無損JPEG XR |
-| `jpg` | 有損JPG |
-| `m3u8` | Apple串流伺服器資訊清單格式 |
-| `pdf` | 內嵌於PDF中的影像 |
-| `pjpeg` | 漸進式 JPEG 圖像 |
-| `png-alpha` | 帶Alpha通道的24位無損PNG |
-| `png` | 24位無損PNG |
-| `png8-alpha` | 帶Alpha通道的8位無損PNG |
-| `png8` | 8位無損PNG |
-| `swf-alpha` | 有損JPEG和嵌入到AdobeAS2swf檔案的減縮壓縮掩碼 |
-| `swf` | 嵌入到AdobeAS2swf檔案中的有損JPEG |
-| `swf3-alpha` | 有損JPEG和嵌入到AdobeAS3swf檔案中的減縮壓縮掩碼。 **注意：** 最適合ActionScript2應用程式(Flash Player8及更舊版本)的swf和swf-alpha格式。建議將swf3和swf3-alpha格式用於ActionScript3應用程式(Flash Player9和更新版本) |
-| `swf3` | 有損JPEG嵌入到AdobeAS3swf檔案中 |
-| `tif-alpha` | 含Alpha通道的TIFF |
-| `tif` | TIFF |
-| `webp-alpha` | 帶Alpha通道的有損和無損WebP |
-| `webp` | 有損和無損WebP |
+| `avif-alpha` | 有損和無損AVIF，帶Alpha通道。 |
+| `avif` | 有損和無損AVIF。 |
+| `eps` | 未壓縮的二進位封裝PostScript。 |
+| `f4m` | Flash串流伺服器資訊清單格式。 |
+| `gif-alpha` | 2到255色的GIF加上索引鍵色透明度。 |
+| `gif` | 2到256色的GIF。 |
+| `jpeg` | 有損JPEG。 |
+| `jpeg2000-alpha` | 具有Alpha通道的有損和無損JPEG 2000。 |
+| `jpeg2000` | 有損和無損JPEG 2000。 |
+| `jpegxr-alpha` | 具有Alpha通道的有損和無損JPEG XR。 |
+| `jpegxr` | 有損和無損JPEG XR。 |
+| `jpg` | 有損JPG。 |
+| `m3u8` | Apple串流伺服器資訊清單格式。 |
+| `pdf` | 內嵌於PDF中的影像。 |
+| `pjpeg` | 漸進式 JPEG 圖像. |
+| `png-alpha` | 帶Alpha通道的24位無損PNG。 |
+| `png` | 24位無損PNG。 |
+| `png8-alpha` | 8位帶alpha通道的無損PNG。 |
+| `png8` | 8位無損PNG。 |
+| `swf-alpha` | 有損JPEG和嵌入到AdobeAS2swf檔案中的減縮壓縮掩碼。 |
+| `swf` | 有損JPEG嵌入到AdobeAS2swf檔案中。 |
+| `swf3-alpha` | 有損JPEG和嵌入到AdobeAS3swf檔案中的減縮壓縮掩碼。 **注意：** 最適合ActionScript2應用程式(Flash Player8及更舊版本)的swf和swf-alpha格式。建議將swf3和swf3-alpha格式用於ActionScript3應用程式(Flash Player9和更新版本)。 |
+| `swf3` | 有損JPEG嵌入到AdobeAS3swf檔案中。 |
+| `tif-alpha` | 含Alpha通道的TIFF。 |
+| `tif` | TIFF. |
+| `webp-alpha` | 帶Alpha通道的有損和無損WebP。 |
+| `webp` | 有損和無損WebP。 |
 
 | *`pixelType`* – rgb | 灰色 | cmy |
 | *`pixelType`* | 說明 |
@@ -60,12 +60,12 @@ ht-degree: 4%
 | *`compression`* – none | lzw | 郵遞區號 | jpeg | 有損 | 無損 |
 | *`compression`* | 說明 |
 |---|---|
-| `jpeg` | JPEG壓縮（有損） |
-| `lossy` | WebP、JPEG 2000和JPEG XR壓縮（有損） |
-| `lossless` | WebP、JPEG 2000和JPEG XR壓縮（無損） |
-| `lzw` | LZW(Lempel-Ziv-Welch)壓縮（無損） |
-| `none` | 未壓縮 |
-| `zip` | &quot;Deflate&quot;壓縮（無損） |
+| `jpeg` | JPEG壓縮（有損）。 |
+| `lossy` | WebP、JPEG 2000和JPEG XR壓縮（有損）。 |
+| `lossless` | WebP、JPEG 2000和JPEG XR壓縮（無損）。 |
+| `lzw` | LZW(Lempel-Ziv-Welch)壓縮（無損）。 |
+| `none` | 未壓縮. |
+| `zip` | &quot;Deflate&quot;壓縮（無損）。 |
 
 * *`format`* 指定發送到客戶端的影像資料的影像編碼格式以及HTTP響應標頭的相應響應MIME類型。
 * *`pixelType`* 可用於在未指定時實現輸出色 `icc=` 域轉換。
