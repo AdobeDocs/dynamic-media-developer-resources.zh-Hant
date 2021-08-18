@@ -6,9 +6,9 @@ title: Spin
 feature: Dynamic Media Classic，檢視器，SDK/API，回轉集
 role: Developer,User
 exl-id: 4c802d42-ea5b-4f28-b6ef-2689aa16839d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: f77dc0c1ac8305037bbb561451317c8e62209cec
 workflow-type: tm+mt
-source-wordcount: '2135'
+source-wordcount: '2138'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 ## 與回轉檢視器互動 {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
-回轉檢視器支援下列其他行動應用程式中常見的觸控手勢。 當檢視器無法處理使用者的滑動手勢時，會將事件轉送至網頁瀏覽器，以執行原生頁面捲動。 這可讓使用者導覽頁面，即使檢視器佔據大部分裝置螢幕區域亦然。
+回轉檢視器支援下列其他行動應用程式中常見的觸控手勢。 當檢視器無法處理使用者的滑動手勢時，會將事件轉送至網頁瀏覽器，以執行原生頁面捲動。 即使檢視器佔據大部分的裝置螢幕區域，此功能仍可讓使用者導覽頁面。
 
 <table id="table_ED747CC7178448919C34A4FCD18922D0"> 
  <thead> 
@@ -61,11 +61,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p>水準滑動或輕觸 </p> </td> 
-   <td colname="col2"> <p> 如果影像處於重置狀態，則會水準旋轉設定。 </p> <p> 如果放大影像，則會水準移動影像。 如果影像被移動到視圖邊緣，並且在該方向上仍然進行滑動，則手勢執行原生頁面捲動。 </p> </td> 
+   <td colname="col2"> <p> 如果影像處於重置狀態，則會水準旋轉該設定。 </p> <p> 如果放大影像，則會水準移動影像。 如果影像被移動到視圖邊緣，並且在該方向上仍然進行滑動，則手勢執行原生頁面捲動。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>垂直滑動或輕觸 </p> </td> 
-   <td colname="col2"> <p> 如果影像處於重置狀態，則會在使用多維度回轉集時變更垂直檢視角度。 在一維回轉集中，或當多維度回轉集位於最後或第一軸上時，使得垂直滑動不會導致垂直檢視角度改變時，該手勢會執行原生頁面捲動。 </p> <p> 如果放大影像，則會垂直移動影像。 如果影像被移動到視圖邊緣，並且在該方向上仍然進行滑動，則手勢執行原生頁面捲動。 </p> </td> 
+   <td colname="col2"> <p> 如果影像處於重置狀態，則會在使用多維度回轉集時變更垂直視角。 在一維回轉集中，該手勢執行原生頁面捲動。 或者，當多維度回轉集位於最後或第一軸上，使得垂直滑動不會導致垂直檢視角度改變時，該手勢也會執行原生頁面捲動。 </p> <p> 如果放大影像，則會垂直移動影像。 如果影像被移動到視圖邊緣，並且在該方向上仍然進行滑動，則手勢執行原生頁面捲動。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -108,11 +108,11 @@ target="_blank">Open popup viewer</a>
 
 主要使用案例是以桌上型電腦或平板電腦裝置為導向的網頁，以及可根據裝置類型自動調整版面的回應式設計頁面。
 
-當檢視器在初始載入後未變更大小時，會使用固定大小內嵌。 這是靜態版面的網頁最佳選擇。
+當檢視器在初始載入後未變更大小時，會使用固定大小內嵌。 此動作是靜態版面的網頁最佳選擇。
 
-回應式設計內嵌假設檢視器可能需要在執行階段調整大小，以回應其容器`DIV`的大小變更。 最常見的使用案例是在使用彈性頁面版面的網頁中新增檢視器。
+回應式設計內嵌假設檢視器必須在執行階段調整大小，以回應其容器`DIV`的大小變更。 最常見的使用案例是在使用彈性頁面版面的網頁中新增檢視器。
 
-在回應式設計內嵌模式中，檢視器的運作方式會因網頁大小其容器`DIV`而有所不同。 如果網頁僅設定容器的寬度`DIV`，保持高度不受限制，則檢視器會根據所使用資產的外觀比例自動選擇其高度。 此功能可確保資產完全符合檢視，而無需邊框上的邊框間距。 此使用案例是使用回應式設計配置架構(例如Bootstrap、Foundation等)的網頁中最常見的使用案例。
+在回應式設計內嵌模式中，檢視器的運作方式會因網頁大小其容器`DIV`而有所不同。 如果網頁僅設定容器的寬度`DIV`，保持高度不受限制，則檢視器會根據所使用資產的外觀比例自動選擇其高度。 此功能可確保資產完全符合檢視，而無需邊框上的邊框間距。 此使用案例是使用回應式設計配置架構(例如Bootstrap或Foundation)的網頁中最常見的使用案例。
 
 否則，如果網頁同時設定了查看器容器`DIV`的寬度和高度，則查看器只會填入該區域，並遵循網頁佈局提供的大小。 一個很好的例子是將檢視器嵌入強制回應覆蓋中，其中覆蓋會根據網頁瀏覽器視窗大小來調整大小。
 
@@ -141,7 +141,7 @@ target="_blank">Open popup viewer</a>
 
    >[!NOTE]
    >
-   >您只應在頁面上參考主要檢視器JavaScript `include`檔案。 您不應在網頁程式碼中參考任何其他JavaScript檔案，而檢視器邏輯可能會在執行階段下載這些檔案。 尤其是，請勿直接參考檢視器從`/s7viewers`內容路徑（稱為統一SDK `include`）載入的HTML5 SDK `Utils.js`程式庫。 原因在於，`Utils.js`或類似的執行階段檢視器程式庫的位置，是由檢視器的邏輯完全管理，且檢視器版本之間的位置變更。 Adobe不會在伺服器上保留舊版次要檢視器`includes`。
+   >僅參考頁面上的主檢視器JavaScript `include`檔案。 請勿在網頁程式碼中參考任何其他JavaScript檔案，這些檔案可能會由檢視器的邏輯在執行階段下載。 尤其是，請勿直接參考檢視器從`/s7viewers`內容路徑（稱為統一SDK `include`）載入的HTML5 SDK `Utils.js`程式庫。 原因在於，`Utils.js`或類似的執行階段檢視器程式庫的位置，是由檢視器的邏輯完全管理，且檢視器版本之間的位置變更。 Adobe不會在伺服器上保留舊版次要檢視器`includes`。
    >
    >
    >因此，將檢視器使用的任何次要JavaScript `include`的直接參考放在頁面上，會在未來部署新產品版本時中斷檢視器的功能。
@@ -162,7 +162,7 @@ target="_blank">Open popup viewer</a>
 
    您可以為檢視器設定靜態大小，方法是以絕對單位為`.s7spinviewer`頂層CSS類別聲明，或使用`stagesize`修飾詞。
 
-   您可以直接將CSS中的大小調整放在HTML頁面上，或放在自訂檢視器CSS檔案中，該檔案稍後會指派給Dynamic Media Classic中的檢視器預設集記錄，或使用style命令明確傳遞。
+   您可以直接將CSS中的大小調整放在HTML頁面上，或放在自訂檢視器CSS檔案中。 它稍後會指派給Dynamic Media Classic中的檢視器預設集記錄，或使用style命令明確傳遞。
 
    如需使用CSS來設定檢視器樣式的詳細資訊，請參閱[自訂回轉檢視器](../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#concept-464f3bfa55764bc09c92d8c7480b0b55)。
 
@@ -175,7 +175,7 @@ target="_blank">Open popup viewer</a>
    }
    ```
 
-   您可以在Dynamic Media Classic的檢視器預設集記錄中設定`stagesize`修飾元，或以`params`集合的檢視器初始化程式碼明確傳遞，或以「命令參考」區段所述之API呼叫的形式傳遞，如下所示：
+   您可以在Dynamic Media Classic的檢視器預設集記錄中設定`stagesize`修飾元。 或者，您也可以使用`params`集合的檢視器初始化程式碼，或如「命令參考」區段所述以API呼叫的形式明確傳遞，如下所示：
 
    ```
     spinViewer.setParam("stagesize", 
@@ -295,11 +295,11 @@ var spinViewer = new s7viewers.SpinViewer({
 
 [即時演示](https://landing.adobe.com/tw/na/dynamic-media/ctir-2755/live-demos.html)
 
-[替代演示位置](https://experienceleague.adobe.com/tools/vlist/vlist.html)
+[替代演示位置](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 **定義寬度和高度的靈活大小嵌入**
 
-若是定義寬度和高度的彈性內嵌，網頁樣式會有所不同。 也就是說，它會提供「holder」 `DIV`的兩種大小，並將其置於瀏覽器視窗中。 此外，網頁還將`HTML`和`BODY`元素的大小設定為100%:
+如果定義了寬度和高度的彈性內嵌大小，則網頁樣式會有所不同。 也就是說，它會提供「holder」 `DIV`的兩種大小，並將其置於瀏覽器視窗中。 此外，網頁還將`HTML`和`BODY`元素的大小設定為100%:
 
 ```
 <!DOCTYPE html> 
