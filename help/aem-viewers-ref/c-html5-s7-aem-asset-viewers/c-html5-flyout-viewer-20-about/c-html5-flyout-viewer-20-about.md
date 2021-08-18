@@ -6,9 +6,9 @@ title: 彈出
 feature: Dynamic Media Classic，檢視器，SDK/API,Flyout
 role: Developer,User
 exl-id: 9b60330f-5348-431d-9682-cf97aace3679
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: f77dc0c1ac8305037bbb561451317c8e62209cec
 workflow-type: tm+mt
-source-wordcount: '2084'
+source-wordcount: '2072'
 ht-degree: 0%
 
 ---
@@ -78,11 +78,11 @@ ht-degree: 0%
 
 當檢視器在初始載入後未變更其大小時，會使用固定大小內嵌模式。 此選項最適用於具有靜態頁面配置的網頁。
 
-回應式設計內嵌模式假設檢視器在執行階段可能需要調整大小，以回應其容器`DIV`的大小變更。 最常見的使用案例是在使用彈性頁面版面的網頁中新增檢視器。
+回應式設計內嵌模式會假設檢視器必須在執行階段中調整大小，以回應其容器`DIV`的大小變更。 最常見的使用案例是在使用彈性頁面版面的網頁中新增檢視器。
 
 搭配彈出檢視器使用回應式設計內嵌模式時，請務必使用`imagereload`參數為主檢視影像指定明確的中斷點。 理想情況下，請將斷點與網頁CSS指定的查看器寬度斷點相匹配。
 
-在回應式設計內嵌模式中，檢視器的運作方式會因網頁大小其容器`DIV`而有所不同。 如果網頁僅設定容器的寬度`DIV`，保持高度不受限制，則檢視器會根據所使用資產的外觀比例自動選擇其高度。 這表示資產可完美地貼入檢視中，側邊不需任何邊框間距。 此特定使用案例最常用於使用回應式設計配置架構(例如Bootstrap、Foundation等)的網頁。
+在回應式設計內嵌模式中，檢視器的運作方式會因網頁容器`DIV`的大小而有所不同。 如果網頁僅設定容器的寬度`DIV`，保持高度不受限制，則檢視器會根據所使用資產的外觀比例自動選擇其高度。 此功能表示資產可完美符合檢視，無需邊框上的邊框間距。 此特定使用案例最常用於使用回應式設計配置架構(例如Bootstrap和Foundation)的網頁。
 
 否則，如果網頁同時設定了查看器容器`DIV`的寬度和高度，則查看器僅填充該區域，並遵循網頁佈局提供的大小。 一個很好的使用案例範例是將檢視器內嵌至強制回應覆蓋中，其中覆蓋會根據網頁瀏覽器視窗大小來調整大小。
 
@@ -97,7 +97,7 @@ ht-degree: 0%
 
 1. 將檢視器JavaScript檔案新增至您的網頁。
 
-   建立檢視器需要在HTML標題中新增指令碼標籤。 使用檢視器API之前，請務必加入`FlyoutViewer.js`。 `FlyoutViewer.js` 位於標準IS- [!DNL html5/js/] 檢視器部署的下列子資料夾中：
+   建立檢視器需要在HTML標題中新增指令碼標籤。 使用檢視器API之前，請務必加入`FlyoutViewer.js`。 `FlyoutViewer.js` 位於標準IS [!DNL html5/js/] 檢視器部署的下列子資料夾中：
 
 [!DNL <s7viewers_root>/html5/js/FlyoutViewer.js]
 
@@ -111,7 +111,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您只應在頁面上參考主要檢視器JavaScript `include`檔案。 您不應在網頁程式碼中參考任何其他JavaScript檔案，而檢視器邏輯可能會在執行階段下載這些檔案。 尤其是，請勿直接參考檢視器從`/s7viewers`內容路徑（稱為統一SDK `include`）載入的HTML5 SDK `Utils.js`程式庫。 原因在於，`Utils.js`或類似的執行階段檢視器程式庫的位置，是由檢視器的邏輯完全管理，且檢視器版本之間的位置變更。 Adobe不會在伺服器上保留舊版次要檢視器`includes`。
+>僅參考頁面上的主檢視器JavaScript `include`檔案。 請勿在網頁程式碼中參考任何其他JavaScript檔案，這些檔案可能會由檢視器的邏輯在執行階段下載。 尤其是，請勿直接參考檢視器從`/s7viewers`內容路徑（稱為統一SDK `include`）載入的HTML5 SDK `Utils.js`程式庫。 原因在於，`Utils.js`或類似的執行階段檢視器程式庫的位置，是由檢視器的邏輯完全管理，且檢視器版本之間的位置變更。 Adobe不會在伺服器上保留舊版次要檢視器`includes`。
 >
 >
 >因此，將檢視器使用的任何次要JavaScript `include`的直接參考放在頁面上，會在未來部署新產品版本時中斷檢視器的功能。
@@ -132,9 +132,9 @@ ht-degree: 0%
 
 1. 設定檢視器大小。
 
-   使用多項目集時，此檢視器會顯示縮圖。 在案頭系統上，縮圖會放在主檢視下方。 同時，檢視器允許使用`setAsset()` API在執行階段交換主要資產。 身為開發人員，當新資產只有一個項目時，您可以控制檢視器如何管理底部區域的縮圖區域。 可以保持外部查看器大小不變，並允許主視圖增加其高度並佔用縮圖區域。 或者，您可以將主檢視大小保持為靜態，並折疊外部檢視器區域，從而讓網頁內容向上移動，然後使用縮圖中剩餘的免費頁面空間。
+   使用多項目集時，此檢視器會顯示縮圖。 在案頭系統上，縮圖會放在主檢視下方。 同時，檢視器允許使用`setAsset()` API在執行階段交換主要資產。 身為開發人員，當新資產只有一個項目時，您可以控制檢視器如何管理底部區域的縮圖區域。 可以保持外部查看器大小不變，並允許主視圖增加其高度並佔用縮圖區域。 或者，您可以將主檢視大小保持為靜態，並折疊外部檢視器區域，讓網頁內容向上移動，然後使用縮圖中剩餘的免費頁面空間。
 
-   要保持外部查看器邊界不變，請以絕對單位定義`.s7flyoutviewer`頂級CSS類的大小。 CSS中的大小可以直接放在HTML頁面上，或放在自訂檢視器CSS檔案中，該檔案稍後會指派給Dynamic Media Classic中的檢視器預設集記錄，或使用style命令明確傳遞。
+   要保持外部查看器界限不變，請以絕對單位定義`.s7flyoutviewer`頂級CSS類的大小。 CSS中的大小可以直接放在HTML頁面上，或放在自訂檢視器CSS檔案中，稍後在Dynamic Media Classic中指派給檢視器預設集記錄，或使用style命令明確傳遞。
 
    如需使用CSS來設定檢視器樣式的詳細資訊，請參閱[自訂彈出檢視器](../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#concept-82f8c71adbe54680a0c2f83f81e5f451)。
 
@@ -170,7 +170,7 @@ ht-degree: 0%
 
    [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-main-view.html)
 
-   另請注意，預設檢視器CSS會為其外部區域提供固定大小。
+   此外，預設檢視器CSS會為其外部區域提供固定大小。
 
 1. 建立和初始化檢視器。
 
@@ -178,7 +178,7 @@ ht-degree: 0%
 
    請務必將檢視器容器新增至DOM，讓檢視器程式碼可以透過其ID來尋找容器元素。 有些瀏覽器會延遲建立DOM，直到網頁結尾為止。 如需最大相容性，請在結尾的`BODY`標籤前，或在內文`onload()`事件上呼叫`init()`方法。
 
-   同時，容器元素還不一定是網頁版面的一部分。 例如，可使用指派給它的`display:none`樣式來隱藏它。 在此情況下，檢視器會延遲其初始化程式，直到網頁將容器元素帶回版面的那一刻為止。 發生此情況時，檢視器載入會自動繼續。
+   同時，容器元素還不一定是網頁版面的一部分。 例如，可使用指派給它的`display:none`樣式來隱藏它。 在此情況下，檢視器會延遲其初始化程式，直到網頁將容器元素帶回版面的那一刻為止。 發生此動作時，檢視器載入會自動繼續。
 
    以下是建立查看器實例的示例，將最小必要配置選項傳遞給建構子並調用`init()`方法。 此範例假設`flyoutViewer`為檢視器例項；`s7viewer`是佔位符`DIV`的名稱；`http://s7d1.scene7.com/is/image/`是影像伺服URL;且`Scene7SharedAssets/ImageSet-Views-Sample`為資產：
 
@@ -243,7 +243,7 @@ ht-degree: 0%
 </html>
 ```
 
-將檢視器新增至此類頁麵類似於固定大小內嵌的步驟。 唯一的差異是，您需要以相對單位設定大小，來覆寫預設檢視器CSS的固定大小。
+將檢視器新增至此類頁麵類似於固定大小內嵌的步驟。 唯一的差異是，您必須以相對單位設定大小，來覆寫預設檢視器CSS的固定大小。
 
 1. 將檢視器JavaScript檔案新增至您的網頁。
 1. 定義容器`DIV`。
@@ -302,11 +302,11 @@ var flyoutViewer = new s7viewers.FlyoutViewer({
 
 [即時演示](https://landing.adobe.com/tw/na/dynamic-media/ctir-2755/live-demos.html)
 
-[替代演示位置](https://experienceleague.adobe.com/tools/vlist/vlist.html)
+[替代演示位置](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 ## 定義寬度和高度的靈活大小嵌入 {#section-0a329016f9414d199039776645c693de}
 
-若是定義寬度和高度的彈性內嵌，網頁樣式會有所不同。 它會為`"holder"` DIV提供兩種大小，並將其置於瀏覽器視窗中。 此外，網頁還將`HTML`和`BODY`元素的大小設定為100%。
+如果定義了寬度和高度的彈性內嵌大小，則網頁樣式會有所不同。 它會為`"holder"` DIV提供兩種大小，並將其置於瀏覽器視窗中。 此外，網頁還將`HTML`和`BODY`元素的大小設定為100%。
 
 ```
 <!DOCTYPE html> 
