@@ -5,9 +5,9 @@ title: 系統需求和先決條件
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ea2dfec9-0a42-4ccb-8442-6f7c4a39eda1
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c58199c5884c368e92e50fe0ef9d6ad523e36266
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '377'
 ht-degree: 1%
 
 ---
@@ -66,6 +66,4 @@ Dynamic Media Image Serving需要下列伺服器軟體。
 * Red Hat® Enterprise 5或CentOS 5.5及更新版本，以及最新的修正修補程式。
 * 64位作業系統。
 
-**注意：** 若要在Windows上使用影像伺服，您必須安裝Microsoft Visual Studio 2010可重新分發。可再分派之地點如下：
-
-[http://www.microsoft.com/en-us/download/details.aspx?id=13523](http://www.microsoft.com/en-us/download/details.aspx?id=13523)
+**注意：** 若要在Windows上使用影像伺服，您必須安裝Microsoft Visual Studio 2010可重新分發。
