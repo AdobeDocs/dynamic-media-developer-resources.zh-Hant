@@ -3,12 +3,12 @@ description: eCatalog搜尋檢視器是一種目錄檢視器，可依分頁或�
 keywords: 回應式
 solution: Experience Manager
 title: eCatalog搜尋
-feature: Dynamic Media Classic，檢視器，SDK/API,eCatalog搜尋
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 915e628e-65e7-44c6-a2aa-d4ae7ed03b8e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '2188'
+source-wordcount: '2180'
 ht-degree: 0%
 
 ---
@@ -193,7 +193,7 @@ eCatalog搜尋檢視器支援社交分享工具。這些工具可作為主控制
 
    同時，容器元素還不一定是網頁版面的一部分。 例如，可使用指派給它的`display:none`樣式來隱藏它。 在此情況下，檢視器會延遲其初始化程式，直到網頁將容器元素帶回版面的那一刻為止。 發生此情況時，檢視器載入會自動繼續。
 
-   以下是建立查看器實例、將最小必要配置選項傳遞給建構子並調用`init()`方法的示例。 此範例假設`eCatalogSearchViewer`為檢視器例項；`s7viewer`是佔位符`DIV`的名稱；`http://s7d1.scene7.com/is/image/`是影像伺服URL，而`Viewers/Pluralist`是資產：
+   以下是建立查看器實例、將最小必要配置選項傳遞給建構子並調用`init()`方法的示例。 此範例假設`eCatalogSearchViewer`為檢視器例項；`s7viewer`是佔位符`DIV`的名稱；`https://s7d1.scene7.com/is/image/`是影像伺服URL，而`Viewers/Pluralist`是資產：
 
    ```
    <script type="text/javascript"> 
@@ -201,8 +201,8 @@ eCatalog搜尋檢視器支援社交分享工具。這些工具可作為主控制
     "containerId":"s7viewer", 
    "params":{ 
     "asset":"Viewers/Pluralist", 
-    "serverurl":"http://s7d1.scene7.com/is/image/", 
-    "searchserverurl":"http://s7search1.scene7.com/s7search/" 
+    "serverurl":"https://s7d1.scene7.com/is/image/", 
+    "searchserverurl":"https://s7search1.scene7.com/s7search/" 
    } 
    }).init(); 
    </script>
@@ -214,7 +214,7 @@ eCatalog搜尋檢視器支援社交分享工具。這些工具可作為主控制
    <!DOCTYPE html> 
    <html> 
    <head> 
-   <script type="text/javascript" src="http://s7d1.scene7.com/s7viewers/html5/js/eCatalogSearchViewer.js"></script> 
+   <script type="text/javascript" src="https://s7d1.scene7.com/s7viewers/html5/js/eCatalogSearchViewer.js"></script> 
    <style type="text/css"> 
    #s7viewer.s7ecatalogsearchviewer { 
     width: 640px; 
@@ -229,8 +229,8 @@ eCatalog搜尋檢視器支援社交分享工具。這些工具可作為主控制
     "containerId":"s7viewer", 
    "params":{ 
     "asset":"Viewers/Pluralist", 
-    "serverurl":"http://s7d1.scene7.com/is/image/", 
-    "searchserverurl":"http://s7search1.scene7.com/s7search/" 
+    "serverurl":"https://s7d1.scene7.com/is/image/", 
+    "searchserverurl":"https://s7search1.scene7.com/s7search/" 
    } 
    }).init(); 
    </script> 
@@ -270,7 +270,7 @@ eCatalog搜尋檢視器支援社交分享工具。這些工具可作為主控制
 <!DOCTYPE html> 
 <html> 
 <head> 
-<script type="text/javascript" src="http://s7d1.scene7.com/s7viewers/html5/js/eCatalogSearchViewer.js"></script> 
+<script type="text/javascript" src="https://s7d1.scene7.com/s7viewers/html5/js/eCatalogSearchViewer.js"></script> 
 <style type="text/css"> 
 .holder { 
  width: 40%; 
@@ -286,8 +286,8 @@ var eCatalogSearchViewer = new s7viewers.eCatalogSearchViewer({
  "containerId":"s7viewer", 
 "params":{ 
  "asset":"Viewers/Pluralist", 
- "serverurl":"http://s7d1.scene7.com/is/image/", 
- "searchserverurl":"http://s7search1.scene7.com/s7search/" 
+ "serverurl":"https://s7d1.scene7.com/is/image/", 
+ "searchserverurl":"https://s7search1.scene7.com/s7search/" 
 } 
 }).init(); 
 </script> 
@@ -333,7 +333,7 @@ height: 60%;
 <!DOCTYPE html> 
 <html> 
 <head> 
-<script type="text/javascript" src="http://s7d1.scene7.com/s7viewers/html5/js/eCatalogSearchViewer.js"></script> 
+<script type="text/javascript" src="https://s7d1.scene7.com/s7viewers/html5/js/eCatalogSearchViewer.js"></script> 
 <style type="text/css"> 
 html, body { 
  width: 100%; 
@@ -357,8 +357,8 @@ var eCatalogSearchViewer = new s7viewers.eCatalogSearchViewer({
  "containerId":"s7viewer", 
 "params":{ 
  "asset":"Viewers/Pluralist", 
- "serverurl":"http://s7d1.scene7.com/is/image/", 
- "searchserverurl":"http://s7search1.scene7.com/s7search/" 
+ "serverurl":"https://s7d1.scene7.com/is/image/", 
+ "searchserverurl":"https://s7search1.scene7.com/s7search/" 
 } 
 }).init(); 
 </script> 
@@ -376,7 +376,7 @@ var eCatalogSearchViewer = new s7viewers.eCatalogSearchViewer({
 <!DOCTYPE html> 
 <html> 
 <head> 
-<script type="text/javascript" src="http://s7d1.scene7.com/s7viewers/html5/js/eCatalogSearchViewer.js"></script> 
+<script type="text/javascript" src="https://s7d1.scene7.com/s7viewers/html5/js/eCatalogSearchViewer.js"></script> 
 <style type="text/css"> 
 #s7viewer.s7ecatalogsearchviewer { 
  width: 640px; 
@@ -389,8 +389,8 @@ var eCatalogSearchViewer = new s7viewers.eCatalogSearchViewer({
 <script type="text/javascript"> 
 var eCatalogSearchViewer = new s7viewers.eCatalogSearchViewer(); 
 eCatalogSearchViewer.setContainerId("s7viewer"); 
-eCatalogSearchViewer.setParam("serverurl", "http://s7d1.scene7.com/is/image/"); 
-eCatalogSearchViewer.setParam("searchserverurl", "http://s7search1.scene7.com/s7search/"); 
+eCatalogSearchViewer.setParam("serverurl", "https://s7d1.scene7.com/is/image/"); 
+eCatalogSearchViewer.setParam("searchserverurl", "https://s7search1.scene7.com/s7search/"); 
 eCatalogSearchViewer.setAsset("Viewers/Pluralist"); 
 eCatalogSearchViewer.init(); 
 </script> 

@@ -5,9 +5,9 @@ title: 為靜態（非影像）內容提供服務
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: adc3d972-b02d-40db-992e-acaa06b848ff
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
@@ -125,9 +125,9 @@ ht-degree: 0%
 
 您也可以對其他類型的計時中繼資料使用追蹤。 每個追蹤元素的來源資料是由計時提示清單所組成的文字檔案。 提示可包含JSON或CSV等格式的資料。
 
-如需JSONP格式的詳細資訊，請參閱[http://en.wikipedia.org/wiki/JSONP](http://en.wikipedia.org/wiki/JSONP)。
+如需JSONP格式的詳細資訊，請參閱[https://en.wikipedia.org/wiki/JSONP](https://en.wikipedia.org/wiki/JSONP)。
 
-如需JSON格式的詳細資訊，請參閱[www.json.org](http://www.json.org)。
+如需JSON格式的詳細資訊，請參閱[www.json.org](https://www.json.org)。
 
 ## 另請參閱 {#section-7b28631016044a22a3a6762fd64771e9}
 

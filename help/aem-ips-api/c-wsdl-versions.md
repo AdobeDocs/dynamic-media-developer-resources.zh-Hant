@@ -5,9 +5,9 @@ title: IPS Web服務WSDL版本
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d7a6079e-286e-4e62-b2ff-551ef4a5815c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '954'
 ht-degree: 1%
 
 ---
@@ -139,7 +139,7 @@ IPS API SOAP綁定僅支援HTTP傳輸。 使用HTTPSPOST方法提出所有SOAP�
 
 **訊息格式**
 
-文檔/常值樣式用於所有基於XML架構定義語言([http://www.w3.org/TR/xmlschema-0/](http://www.w3.org/TR/xmlschema-0/))且在WSDL檔案中指定的類型的輸入和輸出消息。 所有類型都需要使用WSDL檔案中指定的目標命名空間值來限定名稱。
+文檔/常值樣式用於所有基於XML架構定義語言([https://www.w3.org/TR/xmlschema-0/](https://www.w3.org/TR/xmlschema-0/))且在WSDL檔案中指定的類型的輸入和輸出消息。 所有類型都需要使用WSDL檔案中指定的目標命名空間值來限定名稱。
 
 **要求驗證**
 

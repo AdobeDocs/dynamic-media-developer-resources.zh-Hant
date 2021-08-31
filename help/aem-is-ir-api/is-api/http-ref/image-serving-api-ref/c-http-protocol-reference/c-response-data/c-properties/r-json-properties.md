@@ -5,9 +5,9 @@ title: JSONP屬性
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2294eb37-b362-438f-94bc-eb24ca641752
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '203'
 ht-degree: 1%
 
 ---
@@ -55,8 +55,8 @@ S7jsonResponse(data, reqId)
 
 Dynamic Media影像伺服檢視器套件包含公用程式，可從影像伺服中要求和剖析JSONP格式化資料。
 
-如需JSONP格式的詳細資訊，請參閱[http://en.wikipedia.org/wiki/JSONP](http://en.wikipedia.org/wiki/JSONP)。
+如需JSONP格式的詳細資訊，請參閱[https://en.wikipedia.org/wiki/JSONP](https://en.wikipedia.org/wiki/JSONP)。
 
-如需JSON格式的詳細資訊，請參閱[www.json.org](http://www.json.org)。
+如需JSON格式的詳細資訊，請參閱[www.json.org](https://www.json.org)。
 
 另請參閱[req](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76)。

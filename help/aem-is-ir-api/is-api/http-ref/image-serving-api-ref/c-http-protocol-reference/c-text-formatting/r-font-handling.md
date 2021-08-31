@@ -5,9 +5,9 @@ title: 字型處理
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f24edd53-4b21-4147-9b50-95e616279aa8
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '235'
 ht-degree: 1%
 
 ---
@@ -34,8 +34,8 @@ RTF字串中引用的所有字型都必須在預設目錄或當前影像目錄�
 * 不支援每個影像具有多個字形的PhotoFont字型
 * 除非Photofont字形影像嵌入顏色輪廓，否則將應用天真顏色轉換；在這種情況下，始終應用相對比色渲染目的和黑點補償
 
-有關詳細資訊，請參閱` [www.photofont.com](http://www.photofont.com)`。
+如需詳細資訊，請參閱[www.photofont.com](https://www.photofont.com) 。
 
 ## 另請參閱 {#section-6cb8a802aa044836bbe449d559093f3a}
 
-[字型圖參考](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/c-font-map-reference.md#concept-f81f319d03c646c5a8ef87b3277dd37d), [屬性：:SynhetialFontStyles](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-synthesizefontstyles.md#reference-1b12ba881b9146c793bcb07407cacb15)，屬性：:DefaultFont [](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultfont.md#reference-48b763ac254545e89a25c76ff7581107),  [ [!DNL www.photofont.com] ](http://www.photofont.com)
+[字型圖參考](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/c-font-map-reference.md#concept-f81f319d03c646c5a8ef87b3277dd37d), [屬性：:SynhetialFontStyles](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-synthesizefontstyles.md#reference-1b12ba881b9146c793bcb07407cacb15)，屬性：:DefaultFont [](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultfont.md#reference-48b763ac254545e89a25c76ff7581107),  [ [!DNL www.photofont.com] ](https://www.photofont.com)
