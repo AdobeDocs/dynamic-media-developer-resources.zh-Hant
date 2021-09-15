@@ -1,13 +1,13 @@
 ---
+title: 設定指示器
 description: 設定指標是在檢視器底部轉譯的一系列點。 它顯示集內的當前位置。
 solution: Experience Manager
-title: 設定指示器
-feature: Dynamic Media Classic，檢視器，SDK/API，輪播橫幅
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 7d0827c5-f420-4804-983c-5298ee92b276
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '336'
 ht-degree: 1%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 1%
 >
 >設定指示器支援模式屬性選擇器，可用於為虛線和數字操作模式應用不同的樣式。 具體來說，`mode="numeric"`對應於數字操作模式；`mode="dotted"`對應於預設點狀態。
 
-示例 — 要設定帶有白色背景的設定指示符：
+例如，假設您要設定具有白色背景的設定指標：
 
 ```
 .s7carouselviewer .s7setindicator { 
@@ -124,7 +124,7 @@ ht-degree: 1%
 >
 >設定指標項目支援`state`屬性選擇器，可用於將不同的外觀應用於不同的縮略圖狀態。 具體而言，`state="selected"`對應於集合中的當前元素；`state="unselected"`對應至預設項目狀態。
 
-示例 — 以虛線模式設定指示器，以便案頭系統從查看器底部放置20像素。 未選取的點為黑色，具有50%的透明度，15 x 15像素，具有7個像素的圓角。 所選點為黑色，透明度為90%,18 x 18像素，圓角為9像素。 點之間的間距為5像素。
+例如，假設您想要在案頭系統的虛線模式中設定指示器。 您希望它距檢視器底部20像素。 而且，您希望未選取的點是黑色的，透明度為50%,15 x 15像素，圓角為7像素。 選取的點為黑色，具有90%的透明度，18 x 18像素，9個像素為圓角。 點之間的間距為5個像素。
 
 ```
 .s7carouselviewer.s7mouseinput .s7setindicator { 

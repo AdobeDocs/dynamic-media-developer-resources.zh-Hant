@@ -3,12 +3,12 @@ title: Dynamic Media HTML5檢視器的系統需求
 description: Dynamic Media HTML5檢視器的系統需求。
 solution: Experience Manager
 contentOwner: Rick Brough
-feature: Dynamic Media Classic，檢視器，SDK/API
+feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: e4543358-92a6-4acc-a8a2-227e1daea722
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '305'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ Dynamic Media HTML5檢視器的系統需求。
 ## 伺服器硬體和軟體 {#section-05099146f1f0418988c196635110bee6}
 
 * Dynamic Media Classic Image Serving 6.7.1或更新版本。
-* HTML5檢視器需要SDK JavaScript™伺服器端程式庫3.11.1或更新版本。
+* HTML5檢視器需要SDK JavaScript伺服器端程式庫3.11.1或更新版本。
 * 「傳送電子郵件給朋友」社交功能需要s7ondemand 5.0.9或更新版本。
 * eCatalog檢視器 — 資訊面板支援需要資訊伺服器2.1.8或更新版本。
 * 搜尋功能元件需要s7search 2.3.0或更新版本。

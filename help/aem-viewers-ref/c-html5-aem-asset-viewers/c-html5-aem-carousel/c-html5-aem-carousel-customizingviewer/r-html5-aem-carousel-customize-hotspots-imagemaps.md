@@ -1,14 +1,14 @@
 ---
+title: 熱點和影像映射
 description: 檢視器會在主檢視上顯示熱點圖示，這些地方的熱點原本是在AEM Assets的Dynamic Media（隨選）中撰寫。
 solution: Experience Manager
-title: 熱點和影像映射
-feature: Dynamic Media Classic，檢視器，SDK/API，輪播橫幅
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 70517201-9d59-4d9c-986d-a6e9655b7956
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 1%
+source-wordcount: '243'
+ht-degree: 2%
 
 ---
 

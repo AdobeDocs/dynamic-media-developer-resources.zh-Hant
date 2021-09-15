@@ -1,20 +1,20 @@
 ---
+title: 上一張幻燈片
 description: 按一下或點選此按鈕，可讓使用者回到轉盤集中的上一張投影片。 觸控裝置上不會顯示此按鈕。 您可以使用CSS來調整此按鈕的大小、外觀和位置。
 solution: Experience Manager
-title: 上一張幻燈片
-feature: Dynamic Media Classic，檢視器，SDK/API，輪播橫幅
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: f780e62e-7238-4cc6-b382-3a21043e1079
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '250'
 ht-degree: 2%
 
 ---
 
 # 上一張幻燈片{#previous-slide}
 
-按一下或點選此按鈕，可讓使用者回到轉盤集中的上一張投影片。 觸控裝置上不會顯示此按鈕。 您可以使用CSS來調整此按鈕的大小、外觀和位置。
+選取此按鈕會將使用者傳回轉盤集中的上一張投影片。 觸控裝置上不會顯示此按鈕。 您可以使用CSS來調整此按鈕的大小、外觀和位置。
 
 <!--<a id="section_6C008EE11212461FA744F2540D38C295"></a>-->
 
@@ -77,7 +77,7 @@ ht-degree: 2%
 
 按鈕工具提示可以本地化。 如需詳細資訊，請參閱[使用者介面元素本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md) 。
 
-範例：若要設定上一個60 x 60像素的投影片按鈕，從左側檢視器邊框放置10像素並垂直居中，並針對四個不同按鈕狀態中的每個狀態顯示不同的影像。
+例如，假設您要設定一個上一個幻燈片按鈕，即60 x 60像素。 您希望它從左檢視器邊框放置10個像素，並垂直居中。 而且，您希望它針對四個不同的按鈕狀態顯示不同的影像。
 
 ```
 .s7carouselviewer .s7panleftbutton { 

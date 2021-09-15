@@ -1,13 +1,13 @@
 ---
+title: 輪播檢視
 description: 主檢視包含橫幅影像。
 solution: Experience Manager
-title: 輪播檢視
-feature: Dynamic Media Classic，檢視器，SDK/API，輪播橫幅
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: aa41b209-11c7-4744-aaa5-dc0b503607c6
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '59'
 ht-degree: 1%
 
 ---

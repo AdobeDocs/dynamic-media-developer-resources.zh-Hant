@@ -1,20 +1,20 @@
 ---
-description: 主要檢視區域是轉盤橫幅影像所佔用的區域。 當未指定大小時，通常會設定為適合可用的裝置畫面。
-solution: Experience Manager
 title: 主觀看者區域
-feature: Dynamic Media Classic，檢視器，SDK/API，輪播橫幅
+description: 主要檢視區域是轉盤橫幅影像所佔用的區域。 若未指定大小，則此量度會設定為適合可用裝置畫面。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: bdac54f5-79e3-4d3d-9c7e-d9a7cec61c73
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '118'
 ht-degree: 2%
 
 ---
 
 # 主觀看者區域{#main-viewer-area}
 
-主要檢視區域是轉盤橫幅影像所佔用的區域。 當未指定大小時，通常會設定為適合可用的裝置畫面。
+主要檢視區域是轉盤橫幅影像所佔用的區域。 若未指定大小，則此量度會設定為適合可用裝置畫面。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 

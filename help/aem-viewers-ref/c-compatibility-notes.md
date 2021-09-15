@@ -2,12 +2,12 @@
 description: 作業系統、瀏覽器和行動裝置的相容性說明。
 solution: Experience Manager
 title: 相容性說明
-feature: Dynamic Media Classic，檢視器，SDK/API
+feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 7ad499b1-7da6-483b-ab11-cff2eb9271da
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '407'
 ht-degree: 1%
 
 ---

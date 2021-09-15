@@ -1,14 +1,14 @@
 ---
+title: 自訂轉盤檢視器
 description: 輪播檢視器的所有視覺化自訂和大部分的行為自訂，都是透過建立自訂CSS來完成。
 keywords: 回應式
 solution: Experience Manager
-title: 自訂轉盤檢視器
-feature: Dynamic Media Classic，檢視器，SDK/API，輪播橫幅
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: f392d830-5c75-45dd-bab8-29a38218790d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1337'
 ht-degree: 0%
 
 ---
@@ -35,23 +35,23 @@ ht-degree: 0%
 
 提供自訂CSS規則的替代方式，是直接在網頁或其中一個連結的外部CSS規則中使用內嵌樣式。
 
-建立自訂CSS時，請記得檢視器會將`.s7carouselviewer`類別指派給其容器DOM元素。 如果使用與`style=`命令一起傳遞的外部CSS檔案，請在CSS規則的子體選擇器中使用`.s7carouselviewer`類作為父類。 如果您要在網頁上新增內嵌樣式，請額外以容器DOM元素的ID限定此選取器，如下所示：
+建立自訂CSS時，請記得檢視器會將`.s7carouselviewer`類別指派給其容器DOM元素。 如果使用與`style=`命令一起傳遞的外部CSS檔案，請在CSS規則的子體選擇器中使用`.s7carouselviewer`類作為父類。 如果您要在網頁上新增內嵌樣式，也請以容器DOM元素的ID來限定此選取器，如下所示：
 
 `#<containerId>.s7carouselviewer`
 
 ## 建立回應式設計的CSS {#section-0bb49aca42d242d9b01879d5ba59d33b}
 
-您可以鎖定不同的裝置和CSS的內嵌大小，讓內容的顯示方式因使用者的裝置或特定網頁版面而異。 這包括但不限於不同佈局、用戶介面元素大小和圖稿解析度。
+您可以鎖定不同的裝置和CSS的內嵌大小，讓內容的顯示方式因使用者的裝置或特定網頁版面而異。 此技術包括但不限於不同佈局、用戶介面元素大小和圖稿解析度。
 
-檢視器支援兩種建立回應式設計CSS的機制：CSS標籤和標準CSS媒體查詢。 您可以單獨使用或一起使用。
+檢視器支援兩種建立回應式設計CSS的機制：CSS標籤和標準CSS媒體查詢。 您可以單獨或一起使用這兩個機制。
 
 **CSS標籤**
 
-為協助建立回應式設計的CSS，檢視器支援CSS標籤。 這些是動態指派給頂層檢視器容器元素的特殊CSS類別。 它們以執行階段檢視器大小和目前裝置上使用的輸入類型為基礎。
+為協助您建立回應式設計的CSS，檢視器支援CSS標籤。 這些標籤是動態指派給頂層檢視器容器元素的特殊CSS類別。 它們以執行階段檢視器大小和目前裝置上使用的輸入類型為基礎。
 
 第一組CSS標籤包含`.s7size_large`、`.s7size_medium`和`.s7size_small`類。 它們會根據檢視器容器的執行階段區域套用。 例如，如果查看器區域等於或大於公共案頭監視器的大小，請使用`.s7size_large`。 如果區域靠近通用平板電腦設備，請分配`.s7size_medium`。 對於類似行動電話螢幕的區域，請使用`.s7size_small`。 這些CSS標籤的主要用途是針對不同的畫面和檢視器大小建立不同的使用者介面配置。
 
-第二組CSS標籤包含`.s7mouseinput`和`.s7touchinput`。 如果當前設備能夠進行觸摸輸入，則會設定CSS標籤`.s7touchinput`。 否則，將使用`.s7mouseinput`。 這些標籤主要用於針對不同的輸入類型建立具有不同螢幕大小的使用者介面輸入元素，因為通常觸控輸入需要較大的元素。
+第二組CSS標籤包含`.s7mouseinput`和`.s7touchinput`。 如果目前裝置為觸控輸入，則會設定CSS標籤`.s7touchinput`。 否則，將使用`.s7mouseinput`。 這些標籤主要用於針對不同的輸入類型建立具有不同螢幕大小的使用者介面輸入元素，因為通常觸控輸入需要較大的元素。
 
 下列範例CSS會將滑鼠輸入系統上的按鈕放大大小設為28 x 28像素，並將觸控輸入裝置上的按鈕放大為56 x 56像素。 如果檢視器的大小更小，則會設為20 x 20像素。
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 }
 ```
 
-若要定位像素密度不同的裝置，您需要使用CSS媒體查詢。 下列媒體查詢區塊將包含高密度畫面專用的CSS:
+若要定位像素密度不同的裝置，您必須使用CSS媒體查詢。 下列媒體查詢區塊將包含高密度畫面專用的CSS:
 
 ```
 @media screen and (-webkit-min-device-pixel-ratio: 1.5) 
@@ -150,7 +150,7 @@ background-image: url(images/v2/imagemap/ImageMapEffect_icon1_light_over_touch.p
 
 此方法的缺點是，當元素第一次互動時，一般使用者會遇到忽隱忽現或延遲的使用者介面回應。 由於新元素狀態的影像圖稿尚未下載，因此會發生此操作。 此外，此方法可能會對效能造成輕微負面影響，因為對伺服器的HTTP呼叫數量增加。
 
-CSS精靈是不同的方法，可將所有元素狀態的影像圖稿合併為稱為「sprite」的單一PNG檔案。 這種「sprite」具有指定元素的所有視覺狀態，且這些狀態彼此定位。 當使用精靈來設計使用者介面元素的樣式時，CSS中所有不同狀態都會參照相同的Sprite影像。 此外，每個狀態都使用`background-position`屬性來指定使用「sprite」影像的哪一部分。 您可以以任何適當的方式來建構「Sprite」影像。 檢視器通常會垂直堆疊檢視器。
+CSS精靈是不同的方法，可將所有元素狀態的影像圖稿合併為稱為「sprite」的單一PNG檔案。 這種「sprite」具有指定元素的所有視覺狀態，且這些狀態彼此定位。 使用sprite來設計使用者介面元素的樣式時，CSS中所有不同狀態都會參照相同的sprite影像。 此外，每個狀態都使用`background-position`屬性來指定使用「sprite」影像的哪一部分。 您可以以任何適當的方式來建構「Sprite」影像。 檢視器通常會垂直堆疊檢視器。
 
 以下是以「sprite」為基礎的範例，用來設計相同熱點圖示的樣式：
 

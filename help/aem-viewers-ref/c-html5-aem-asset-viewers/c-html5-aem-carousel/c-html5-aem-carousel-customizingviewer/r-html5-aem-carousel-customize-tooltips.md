@@ -1,20 +1,20 @@
 ---
-description: 在案頭系統上，有些使用者介面元素（如按鈕）具有滑鼠暫留時顯示的工具提示。
-solution: Experience Manager
 title: 工具提示
-feature: Dynamic Media Classic，檢視器，SDK/API，輪播橫幅
+description: 在案頭系統上，有些使用者介面元素（如按鈕）會顯示滑鼠暫留時顯示的工具提示。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: b4604528-93f6-440c-b676-7b4c89fff6c8
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '140'
 ht-degree: 6%
 
 ---
 
 # 工具提示{#tooltips}
 
-在案頭系統上，有些使用者介面元素（如按鈕）具有滑鼠暫留時顯示的工具提示。
+在案頭系統上，有些使用者介面元素（如按鈕）會顯示滑鼠暫留時顯示的工具提示。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -63,9 +63,9 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->如果從內嵌網頁內自訂工具提示樣式，所有屬性都必須包含`!IMPORTANT`規則。 如果檢視器的CSS檔案中已自訂工具提示，則不需要此功能。
+>如果從內嵌網頁內自訂工具提示樣式，所有屬性都必須包含`!IMPORTANT`規則。 如果檢視器的CSS檔案中已自訂工具提示，則不需要執行此步驟。
 
-示例 — 要設定具有灰色邊框的工具提示，該邊框的角半徑為3像素，黑色背景和白色文本為Arial，大小為11像素：
+示例 — 要設定具有灰色邊框的工具提示，該邊框的角半徑為3像素，黑色背景和白色文本為Arial®，大小為11像素：
 
 ```
 .s7tooltip { 

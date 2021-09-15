@@ -1,13 +1,13 @@
 ---
+title: config
 description: 所有檢視器通用的參數。
 solution: Experience Manager
-title: config
-feature: Dynamic Media Classic，檢視器，SDK/API
+feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 503a1fc6-7a6b-4f55-bad1-11f22435276f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '257'
 ht-degree: 2%
 
 ---
@@ -51,7 +51,7 @@ style=customStyle.css
 config=2020/preset-oct
 ```
 
-這等同於URL中明確指定的下列命令：
+此範例等同於URL中明確指定的下列命令：
 
 ```
 style=customStyle.css
@@ -72,7 +72,7 @@ maxZoom=200
 config=2019/spin-oct
 ```
 
-這等同於URL中明確指定的下列命令：
+此範例等同於URL中明確指定的下列命令：
 
 ```
 zoomStep=3&maxZoom=200
@@ -92,7 +92,7 @@ style=etc/dam/presets/css/html5_interactiveimage.css
 config=/etc/dam/presets/viewer/Shoppable_Banner
 ```
 
-這等同於URL中明確指定的下列命令：
+此範例等同於URL中明確指定的下列命令：
 
 `style=etc/dam/presets/css/html5_interactiveimage.css`
 
@@ -110,7 +110,7 @@ style=etc/dam/presets/css/html5_interactivevideo_dark.css
 config=/etc/dam/presets/viewer/Shoppable_Video_Dark
 ```
 
-這等同於URL中明確指定的下列命令：
+此範例等同於URL中明確指定的下列命令：
 
 ```
 style=etc/dam/presets/css/html5_interactivevideo_dark.css
@@ -130,7 +130,7 @@ style= etc/dam/presets/css/html5_carouselviewer_dotted_light.css
 config=/etc/dam/presets/viewer/Carousel_Dotted_light
 ```
 
-這等同於URL中明確指定的下列命令：
+此範例等同於URL中明確指定的下列命令：
 
 ```
 style= etc/dam/presets/css/html5_carouselviewer_dotted_light.css
