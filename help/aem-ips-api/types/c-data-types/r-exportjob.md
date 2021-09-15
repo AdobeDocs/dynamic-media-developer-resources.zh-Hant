@@ -5,9 +5,9 @@ title: ExportJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f0266b9f-c6e0-4843-b002-0bc068d43424
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f64229a72bef887f356b118a1da4ba5177c28bbc
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '206'
 ht-degree: 16%
 
 ---
@@ -53,7 +53,7 @@ ExportJob不支援下列資產類型：
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> is_modifier</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string  </span> </p> </td> 
-   <td colname="col3"> <p>指定<span class="codeph"> ImageServer</span>呈現URL字串，該字串附加到ExportJob <span class="codeph"> convert</span>請求中。 </p> <p>如需傳送IS修飾元的詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/home.html" scope="external" format="html"> IS檔案</a>。 </p> </td> 
+   <td colname="col3"> <p>指定<span class="codeph"> ImageServer</span>呈現URL字串，該字串附加到ExportJob <span class="codeph"> convert</span>請求中。 </p> <p>如需傳送IS修飾元的詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html" scope="external" format="html"> IS檔案</a>。 </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 宏</span> </span> </p> </td> 

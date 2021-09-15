@@ -3,7 +3,7 @@ cloud: Experience Cloud
 user-guide-title: Dynamic Media 檢視器參考指南
 feature-set: Experience Manager Assets
 user-guide-description: 自訂 Dynamic Media 檢視器以用於桌上型電腦和觸控螢幕裝置。包括互動式影像和影片、浮動切換、迴轉集等。
-source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
+source-git-commit: 06ea55bebbb16de643fec96147ec2b648bb5783b
 workflow-type: tm+mt
 source-wordcount: '1901'
 ht-degree: 6%
@@ -13,7 +13,7 @@ ht-degree: 6%
 
 # Dynamic Media 檢視器參考指南 {#library}
 
-+ [Dynamic Media 檢視器參考指南](homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html?lang=en) -->
++ [Dynamic Media 檢視器參考指南](homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en) -->
 + [檢視器程式庫範例](https://landing.adobe.com/tw/na/dynamic-media/ctir-2755/live-demos.html)
 + [系統需求](c-system-requirements-and-prerequisites.md)
 + [在同一伺服器上安裝多個檢視器](t-installing-the-viewers.md)

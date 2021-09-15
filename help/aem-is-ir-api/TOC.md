@@ -4,7 +4,7 @@ user-guide-title: Dynamic Media Image Serving and Rendering API
 breadcrumb-title: Dynamic Media影像提供與轉譯API
 feature-set: Experience Manager Assets
 user-guide-description: 檢視關於 IS (影像提供) 和 IR (影像轉譯) API 以及相關技術的文件。
-source-git-commit: 04e99bef471c5839ff6d28b1ae42f5ffed73c029
+source-git-commit: f64229a72bef887f356b118a1da4ba5177c28bbc
 workflow-type: tm+mt
 source-wordcount: '1466'
 ht-degree: 12%
@@ -14,7 +14,7 @@ ht-degree: 12%
 
 # Dynamic Media影像提供與轉譯API {#image-serving-api}
 
-+ [Dynamic Media影像提供與影像轉譯API首頁](homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/home.html?lang=en) -->
++ [Dynamic Media影像提供與影像轉譯API首頁](homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html) -->
 + [關於此版本](r-about-this-release.md)
 + [系統需求和先決條件](r-requirements-and-prerequisites.md)
 + [磁碟空間要求和建議](r-disk-space-reqs.md)
