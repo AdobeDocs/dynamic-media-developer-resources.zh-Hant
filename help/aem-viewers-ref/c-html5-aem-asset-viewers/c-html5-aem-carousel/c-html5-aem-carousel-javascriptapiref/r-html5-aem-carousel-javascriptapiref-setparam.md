@@ -1,13 +1,13 @@
 ---
+title: setParam
 description: 輪播檢視器的JavaScript API參考。
 solution: Experience Manager
-title: setParam
-feature: Dynamic Media Classic，檢視器，SDK/API，輪播橫幅
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 0829933f-a90b-4066-9904-748f2a727169
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 96ac67e5645c2c55920cc971806ba2f14ae57044
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '81'
 ht-degree: 3%
 
 ---
@@ -29,14 +29,14 @@ ht-degree: 3%
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 名稱  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string} </span> 參數名稱。 </p> </td> 
-  </tr> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 名稱  </span> </span> </p> </td>
+   <td colname="col2"> <p> <span class="codeph"> {string} </span> 參數名稱。 </p> </td>
+  </tr>
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> value  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> 參數的 </span> {string}值。值無法以百分比編碼。 </p> </td> 
-  </tr> 
- </tbody> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> value  </span> </span> </p> </td>
+   <td colname="col2"> <p> <span class="codeph"> 參數的 </span> {string}值。值無法以百分比編碼。 </p> </td>
+  </tr>
+ </tbody>
 </table>
 
 ## 傳回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}

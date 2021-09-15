@@ -1,18 +1,18 @@
 ---
+title: getComponent
 description: 輪播檢視器的JavaScript API參考。
 solution: Experience Manager
-title: getComponent**
-feature: Dynamic Media Classic，檢視器，SDK/API，輪播橫幅
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 088d99d0-600d-4e47-85ea-a9769938b88b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 96ac67e5645c2c55920cc971806ba2f14ae57044
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '188'
 ht-degree: 1%
 
 ---
 
-# getComponent**{#getcomponent}
+# getComponent {#getcomponent}
 
 輪播檢視器的JavaScript API參考。
 

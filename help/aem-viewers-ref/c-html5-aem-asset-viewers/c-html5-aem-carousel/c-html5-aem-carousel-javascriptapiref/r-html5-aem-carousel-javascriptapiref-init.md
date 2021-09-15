@@ -1,13 +1,13 @@
 ---
+title: init
 description: 輪播檢視器的JavaScript API參考。
 solution: Experience Manager
-title: init
-feature: Dynamic Media Classic，檢視器，SDK/API，輪播橫幅
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 00e09e26-1380-487c-9512-34d805f1330d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 96ac67e5645c2c55920cc971806ba2f14ae57044
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '119'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 啟動輪播檢視器的初始化。 此時必須建立容器DOM元素，檢視器程式碼才能透過其ID找到它。
 
-如果容器元素尚未屬於網頁版面的一部分（例如，可能會使用指派給它的`display:none`樣式來隱藏），則檢視器會暫停其初始化程式，直到網頁將容器元素帶回版面的那一刻為止。 發生此情況時，檢視器載入會自動繼續。
+如果容器元素尚未成為網頁版面的一部分 — 例如，它可能會使用`display:none`樣式來隱藏 — 檢視器會暫停其初始化程式。 它會暫停，直到網頁將容器元素帶回版面為止，屆時檢視器載入會自動恢復。
 
 在檢視器生命週期期間，只需呼叫此方法一次；會忽略後續呼叫。
 
