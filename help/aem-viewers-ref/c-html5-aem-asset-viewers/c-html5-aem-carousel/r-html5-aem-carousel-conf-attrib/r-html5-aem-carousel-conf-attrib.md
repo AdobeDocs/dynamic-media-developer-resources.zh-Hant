@@ -1,13 +1,13 @@
 ---
+title: 命令參考 — 配置屬性
 description: 輪播檢視器的設定屬性檔案。
 solution: Experience Manager
-title: 命令參考 — 配置屬性
-feature: Dynamic Media Classic，檢視器，SDK/API，輪播橫幅
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 71c2c973-d711-4d37-b778-381a7ec71527
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 5a7af31d6788ded908a5e1630a3b1b0723e6fb4b
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '140'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 `[ZoomView.|<containerId>_carouselView].fmt`
 
-這表示您可以將此命令用作：
+在這種情況下，您可以使用以下命令：
 
 * `fmt` （簡短語法）
 * `CarouselView.fmt` （以元件類名稱限定）
