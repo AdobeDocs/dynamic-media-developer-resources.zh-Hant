@@ -1,13 +1,13 @@
 ---
+title: 事件回呼
 description: 事件回呼
 solution: Experience Manager
-title: 事件回呼
-feature: Dynamic Media Classic，檢視器，SDK/API，輪播橫幅
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: e87b2a84-735c-4412-a4dd-97b18474a1d2
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4aaa77b1fb58b30b02ee15f6080169fa354d5907
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '212'
 ht-degree: 1%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> quickViewActivate  </span> </p> </td> 
-   <td colname="col2"> <p> 當使用者啟動熱點並附上與其相關聯的快速檢視資料時觸發。 回呼處理常式會採用下列引數： </p> <p> 
+   <td colname="col2"> <p> 當使用者啟用熱點並與其相關聯的Quickview資料時觸發。 回呼處理常式會採用下列引數： </p> <p> 
      <ul id="ul_171110934BD54839B371FAD8D2AD467B"> 
       <li id="li_7B14C3BA432B43E392AC103926807E88"> <p> <span class="codeph"> 資料{Object}  </span>  — 包含熱點定義中資料的JSON物件。欄位<span class="codeph"> sku </span>是必填欄位，而其他欄位是選用欄位，且取決於來源熱點定義。 </p> </li> 
      </ul> </p> </td> 

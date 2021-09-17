@@ -1,22 +1,22 @@
 ---
-description: 輪播檢視器顯示的某些內容會受本地化規範。 這包括幻燈片導航按鈕。
-solution: Experience Manager
 title: 用戶介面元素本地化
-feature: Dynamic Media Classic，檢視器，SDK/API，輪播橫幅
+description: 輪播檢視器顯示的某些內容會受本地化規範。 此內容包括幻燈片導航按鈕。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 05f5abe0-1124-4114-864d-440699bcdc39
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4aaa77b1fb58b30b02ee15f6080169fa354d5907
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---
 
 # 用戶介面元素本地化{#localization-of-user-interface-elements}
 
-輪播檢視器顯示的某些內容會受本地化規範。 這包括幻燈片導航按鈕。
+輪播檢視器顯示的某些內容會受本地化規範。 此內容包括幻燈片導航按鈕。
 
-檢視器中可本地化的每個文字內容，都會以稱為SYMBOL的特殊檢視器SDK識別碼表示。 任何SYMBOL都具有隨現成查看器提供的英語語言環境(`"en"`)的預設關聯文本值，並且還可以根據需要設定任意數量的語言環境的用戶定義值。
+檢視器中可本地化的每個文字內容，都會以稱為SYMBOL的特殊檢視器SDK識別碼表示。 任何SYMBOL都具有隨現成可用查看器提供的英語語言環境(`"en"`)的預設關聯文本值，並且還可以根據需要設定任意數量的語言環境的用戶定義值。
 
 當查看器啟動時，它將檢查當前區域設定，以查看此區域設定的每個支援的SYMBOL是否有用戶定義的值。 若有，則使用使用者定義的值；否則，會回復為現成預設文字。
 
