@@ -1,14 +1,14 @@
 ---
+title: 視頻清除器
 description: 視訊清除程式是水準滑桿控制項，可讓使用者動態尋找目前播放的視訊內的任何時間位置。
 solution: Experience Manager
-title: 視頻清除器
-feature: Dynamic Media Classic，檢視器， SDK/API，互動式影片
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 9d11f2e9-315c-44d8-beb1-530d2b316604
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14ca8cd5e1ce60d59806765e573e50417d0ccc50
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-清除器「旋鈕」也會隨著視訊播放而移動，以指出播放期間視訊的目前時間位置。 視頻清除器始終佔據控制欄的整個寬度。 可將視頻清洗器皮膚化。 通過CSS更改其高度和垂直位置。
+清除器「旋鈕」也會隨著視訊播放而移動，以指出播放期間視訊的目前時間位置。 視頻清除器始終佔據控制欄的整個寬度。 您可以使視訊清除程式蒙皮，並透過CSS變更其高度和垂直位置。
 
 視訊清除程式的一般外觀由下列CSS類別選取器控制：
 
@@ -158,7 +158,7 @@ ht-degree: 2%
 
 視頻清除器工具尖端可以定位。 如需詳細資訊，請參閱[使用者介面元素本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 。
 
-**範例**  — 使用自訂追蹤顏色（高度為10像素）設定視訊檢視器，並從控制列的上邊緣和左邊緣放置10像素和35像素。
+**範例**  — 使用視訊清除程式和高度為10像素的自訂追蹤顏色來設定視訊檢視器。從控制條的上邊緣和左邊緣放置10個像素和35個像素。
 
 ```
 .s7interactivevideoviewer .s7videoscrubber  { 
@@ -181,7 +181,7 @@ background-color:#888888;
 }
 ```
 
-使用`navigation`參數啟用視訊章節時，章節位置會顯示為視訊清除程式追蹤頂端的標籤。
+使用`navigation`參數啟用視訊章節標籤時，章節位置會顯示為視訊清除程式追蹤頂端的標籤。
 
 視訊章節標籤由下列CSS類別選取器控制：
 
@@ -430,7 +430,7 @@ font-weight: bold;
  </tbody> 
 </table>
 
-**範例**  — 使用深灰色、11像素Verdana字型和淺灰色背景來設定視訊章節說明；5像素行高、12像素水準邊框間距、12像素頂部邊框間距和9像素底部邊框間距。
+**範例**  — 若要使用深灰色、11像素Verdana字型和淺灰色背景來設定視訊章節說明。五像素行高、12像素水準邊框間距、12像素頂部邊框間距和9像素底部邊框間距。
 
 ```
 .s7interactivevideoviewer .s7videoscrubber .s7chapter .s7description { 
@@ -455,7 +455,7 @@ padding: 12px 12px 9px;
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 邊框顏色  </span> </p> </td> 
-   <td colname="col2"> <p>楔形連接器顏色。 </p> <p>定義為<span class="codeph"> &lt;color&gt;透明</span>，以便僅定義上邊框顏色，並使其餘邊框保持透明。 </p> </td> 
+   <td colname="col2"> <p>楔形連接器顏色。 </p> <p>定義為<span class="codeph"> &lt;color&gt;透明</span>，以便僅定義上邊框顏色，而其餘邊框保持透明。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 邊框寬度  </span> </p> </td> 
@@ -463,7 +463,7 @@ padding: 12px 12px 9px;
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> 僅定義負底邊。 其值應與<span class="codeph"> border-width </span>的值相同。 </p> </td> 
+   <td colname="col2"> <p> 僅定義負底邊。 其值應與<span class="codeph"> border-width </span>相同。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

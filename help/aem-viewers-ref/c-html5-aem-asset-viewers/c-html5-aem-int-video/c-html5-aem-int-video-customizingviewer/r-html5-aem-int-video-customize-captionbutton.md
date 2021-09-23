@@ -1,14 +1,14 @@
 ---
+title: 註解按鈕
 description: 此按鈕可切換隱藏式字幕的開啟和關閉。 如果未指定註解參數，則不會顯示。
 solution: Experience Manager
-title: 註解按鈕
-feature: Dynamic Media Classic，檢視器， SDK/API，互動式影片
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 322062a5-1741-45ce-96d7-8710a8246cd6
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -73,7 +73,7 @@ ht-degree: 2%
 
 ## 範例 {#section-e8caea0a303c425a8a637c2a47c06355}
 
-要設定一個28 x 28像素的隱藏式字幕按鈕，從頂部放置四個像素，從控制條的右邊放置68像素，並在選中或未選中時顯示四個不同按鈕狀態中的每個狀態的不同影像。
+設定28 x 28像素的隱藏式字幕按鈕。 按鈕必須從上方放置四個像素，從控制欄的右邊放置68個像素。 此外，選取或未選取時，它必須針對四個不同按鈕狀態中的每個狀態顯示不同的影像。
 
 ```
 .s7interactivevideoviewer .s7closedcaptionbutton { 

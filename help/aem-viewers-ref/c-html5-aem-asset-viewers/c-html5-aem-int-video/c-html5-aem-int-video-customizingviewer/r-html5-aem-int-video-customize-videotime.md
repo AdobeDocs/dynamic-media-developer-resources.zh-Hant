@@ -1,14 +1,14 @@
 ---
+title: 視訊時間
 description: 視訊時間是數值顯示，可顯示目前播放視訊的目前時間和持續時間。
 solution: Experience Manager
-title: 視訊時間
-feature: Dynamic Media Classic，檢視器， SDK/API，互動式影片
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 90ec189e-6de4-44b3-8760-1e8636b919ba
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

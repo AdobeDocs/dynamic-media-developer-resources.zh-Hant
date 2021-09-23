@@ -1,14 +1,14 @@
 ---
+title: 自訂互動式視訊檢視器
 description: 互動式視訊檢視器的所有視覺化自訂和大部分行為自訂，都是透過建立自訂CSS來完成。
 keywords: 回應式
 solution: Experience Manager
-title: 自訂互動式視訊檢視器
-feature: Dynamic Media Classic，檢視器， SDK/API，互動式影片
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: c428c3e6-81be-4708-b064-f9d794183209
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '1396'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -31,25 +31,25 @@ ht-degree: 0%
 
 提供自訂CSS規則的替代方式，是直接在網頁或其中一個連結的外部CSS規則中使用內嵌樣式。
 
-建立自訂CSS時，請記得檢視器會將`.s7interactivevideoviewer`類別指派給其容器DOM元素。 如果您使用使用`style=`命令傳遞的外部CSS檔案，請在CSS規則的子體選取器中使用`.s7interactivevideoviewer`類作為父類。 如果您要在網頁上執行內嵌樣式，請額外以容器DOM元素的ID限定此選取器，如下所示：
+建立自訂CSS時，請記得檢視器會將`.s7interactivevideoviewer`類別指派給其容器DOM元素。 如果您使用使用`style=`命令傳遞的外部CSS檔案，請在CSS規則的子體選取器中使用`.s7interactivevideoviewer`類作為父類。 如果您要在網頁上執行內嵌樣式，請以容器DOM元素的ID來限定此選取器，如下所示：
 
 `#<containerId>.s7interactivevideoviewer`
 
 ## 建立回應式設計的CSS {#section-0bb49aca42d242d9b01879d5ba59d33b}
 
-您可以鎖定不同的裝置和CSS的內嵌大小，讓內容的顯示方式根據使用者的裝置或特定網頁版面而有所不同。 這包括但不限於不同佈局、用戶介面元素大小和圖稿解析度。
+您可以鎖定不同的裝置和CSS的內嵌大小，讓內容的顯示方式根據使用者的裝置或特定網頁版面而有所不同。 此方法包括但不限於不同版面、用戶介面元素大小和圖稿解析度。
 
-檢視器支援兩種建立回應式設計CSS的機制：CSS標籤和標準CSS媒體查詢。 您可以單獨使用或一起使用。
+檢視器支援兩種建立回應式設計CSS的機制：CSS標籤和標準CSS媒體查詢。 您可以單獨或一起使用這些機制。
 
 **CSS標籤**
 
-為協助建立回應式設計的CSS，檢視器支援CSS標籤。 這些是特殊的CSS類別，會根據執行階段檢視器大小和目前裝置上使用的輸入類型，以動態方式指派給頂層檢視器容器元素。
+為協助您建立回應式設計的CSS，檢視器支援CSS標籤。 這些標籤是特殊的CSS類別。 系統會根據執行時檢視器大小和目前裝置上使用的輸入類型，以動態方式將它們指派給頂層檢視器容器元素。
 
 第一組CSS標籤包括`.s7size_large`、`.s7size_medium`和`.s7size_small`類。 它們會根據檢視器容器的執行階段區域套用。 如果查看器區域等於或大於公共案頭顯示器的大小，則使用`.s7size_large`;如果區域靠近普通平板電腦設備，則分配`.s7size_medium`。 對於類似行動電話螢幕的區域，會設定`.s7size_small`。 這些CSS標籤的主要用途是針對不同的畫面和檢視器大小建立不同的使用者介面配置。
 
-第二組CSS標籤包含`.s7mouseinput`和`.s7touchinput`。 `.s7touchinput` 若目前裝置具有觸控輸入功能，則設為；否則， `.s7mouseinput` 會使用。這些標籤主要用於針對不同的輸入類型建立具有不同螢幕大小的使用者介面輸入元素，因為通常觸控輸入需要較大的元素。
+第二組CSS標籤包含`.s7mouseinput`和`.s7touchinput`。 如果當前設備具有觸摸輸入功能，則設定標籤`.s7touchinput`;否則，會使用`.s7mouseinput`。 這些標籤主要用於針對不同的輸入類型建立具有不同螢幕大小的使用者介面輸入元素，因為通常觸控輸入需要較大的元素。
 
-第三組CSS標籤包含`.s7device_landscape`和`.s7device_portrait`。 `.s7device_landscape` 若觸控裝置為橫向，則設為； `.s7device_portrait` 當觸控裝置旋轉為縱向時，會使用。這些CSS標籤僅用於案頭系統。
+第三組CSS標籤包含`.s7device_landscape`和`.s7device_portrait`。 如果觸控裝置處於橫向方向，則會設定標籤`.s7device_landscape`;將觸控裝置旋轉為縱向時，會使用`.s7device_portrait`。 這些CSS標籤僅用於案頭系統。
 
 下列範例CSS會將使用滑鼠輸入的系統上的播放/暫停按鈕大小設為28x28像素，觸控裝置上則設為56x56像素。 此外，如果檢視器大小大幅縮小，按鈕會完全隱藏：
 
@@ -67,7 +67,7 @@ ht-degree: 0%
 }
 ```
 
-在下一個範例中，如果觸控裝置為縱向方向，則視訊控制列會在檢視器底部上方放置138像素，在所有其他情況下，請將它移至檢視器的最底部：
+在下一個範例中，如果觸控裝置為縱向，視訊控制列會位於檢視器底部上方138像素的位置。 在所有其他情況下，都會移至檢視器底部：
 
 ```
 .s7interactivevideoviewer.s7touchinput.s7device_landscape .s7controlbar, 
@@ -79,7 +79,7 @@ ht-degree: 0%
 }
 ```
 
-若要定位像素密度不同的裝置，您需要使用CSS媒體查詢。 下列媒體查詢區塊將包含高密度畫面專用的CSS:
+若要定位像素密度不同的裝置，您必須使用CSS媒體查詢。 下列媒體查詢區塊將包含高密度畫面專用的CSS:
 
 ```
 @media screen and (-webkit-min-device-pixel-ratio: 1.5) 
@@ -125,7 +125,7 @@ ht-degree: 0%
    }
    ```
 
-1. 僅包含具有高解析度螢幕的行動電話的特定規則。
+1. 僅包含具有高解析度螢幕之行動電話的特定規則。
 
    ```
    @media only screen and (max-device-width:9in) and (max-device-height:9in) and (-webkit-min-device-pixel-ratio: 1.5), 
@@ -144,7 +144,7 @@ ht-degree: 0%
 
 ## CSS Sprite {#section-9b6d8d601cb441d08214dada7bb4eddc}
 
-許多查看器用戶介面元素使用點陣圖插圖進行樣式化，並且具有多個不同的視覺狀態。 一個按鈕通常至少有3種不同的狀態：「up」、「over」和「down」。 每個狀態都需要為其指定自己的點陣圖圖稿。
+許多查看器用戶介面元素使用點陣圖插圖進行樣式化，並且具有多個不同的視覺狀態。 一個按鈕通常至少有三種不同的狀態，這是很好的例子：「up」、「over」和「down」。 每個狀態都需要為其指定自己的點陣圖圖稿。
 
 透過傳統的樣式方法，CSS會針對使用者介面元素的每個狀態，在伺服器上有個別影像檔案的個別參考。 以下是全螢幕按鈕的樣式CSS範例：
 
@@ -189,7 +189,7 @@ background-image:url(images/v2/ReplayButton_disabled.png);
 
 此方法的缺點是，當元素第一次互動時，一般使用者會遇到忽隱忽現或延遲的使用者介面回應。 由於新元素狀態的影像圖稿尚未下載，因此會發生此操作。 此外，此方法可能會對效能造成輕微負面影響，因為對伺服器的HTTP呼叫數量增加。
 
-CSS精靈是不同的方法，可將所有元素狀態的影像圖稿合併為稱為「sprite」的單一PNG檔案。 這種「sprite」具有指定元素的所有視覺狀態，且這些狀態彼此定位。 當使用精靈來設計使用者介面元素的樣式時，CSS中所有不同狀態都會參照相同的Sprite影像。 此外，每個狀態都使用`background-position`屬性來指定使用「sprite」影像的哪一部分。 您可以以任何適當的方式來建構「Sprite」影像。 檢視器通常會垂直堆疊檢視器。 以下是先前設計相同全螢幕按鈕的「sprite」型範例：
+CSS精靈是不同的方法，可將所有元素狀態的影像圖稿合併為稱為「sprite」的單一PNG檔案。 這種「sprite」具有指定元素的所有視覺狀態，且這些狀態彼此定位。 使用sprite來設計使用者介面元素的樣式時，CSS中所有不同狀態都會參照相同的sprite影像。 此外，每個狀態都使用`background-position`屬性來指定使用「sprite」影像的哪一部分。 您可以以任何適當的方式來建構「Sprite」影像。 檢視器通常會垂直堆疊檢視器。 以下是先前設計相同全螢幕按鈕的「sprite」型範例：
 
 ```
 .s7interactivevideoviewer .s7fullscreenbutton[state][selected]{ 

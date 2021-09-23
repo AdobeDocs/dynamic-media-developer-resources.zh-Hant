@@ -1,14 +1,14 @@
 ---
+title: 操作調用
 description: 視訊結束時，「動作呼叫」面板會顯示，並顯示與特定視訊相關聯的所有互動色票。
 solution: Experience Manager
-title: 操作調用
-feature: Dynamic Media Classic，檢視器， SDK/API，互動式影片
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 43e0ffb3-d650-4b79-ab48-2f32b313b832
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '1283'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -191,7 +191,7 @@ ht-degree: 3%
 
 ## 範例 {#example-3}
 
-設定28 x 28像素的重播按鈕；從頭部和右側邊緣定位20個像素；會針對四種不同的按鈕狀態顯示不同的影像；從元件的sprite影像中獲取圖稿：
+設定28 x 28像素的重播按鈕。 按鈕必須從標頭的頂部和右邊緣放置20個像素。 而且，它必須針對四個不同的按鈕狀態中的每一個顯示不同的影像；從元件的sprite影像中獲取圖稿：
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7closebutton { 
@@ -354,7 +354,7 @@ ht-degree: 3%
 
 ## 範例 {#example-7}
 
-要設定使用白色的標籤，請對齊15個像素，然後使用Arial字型：
+要設定使用白色的標籤，請對齊15個像素，然後使用Arial®字型：
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7label { 

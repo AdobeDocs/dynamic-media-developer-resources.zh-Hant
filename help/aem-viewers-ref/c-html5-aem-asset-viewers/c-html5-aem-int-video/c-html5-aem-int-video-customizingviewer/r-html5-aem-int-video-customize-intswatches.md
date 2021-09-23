@@ -1,14 +1,14 @@
 ---
+title: 互動色票
 description: 如果在設定中將互動式資料傳遞至檢視器，則互動式色票面板會出現在視訊內容旁。 它由頂端的橫幅組成，可呈現「按一下即可檢視」等文字、一欄或多個互動色票和兩個捲動按鈕（僅適用於案頭系統）。
 solution: Experience Manager
-title: 互動色票
-feature: Dynamic Media Classic，檢視器， SDK/API，互動式影片
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: c9ef02eb-f5db-474b-b234-c49508e2af35
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -62,11 +62,11 @@ ht-degree: 2%
 * 要在查看器底部水準渲染交互色板，請將高度設定為絕對像素值；從左到下到0px;寬度、右和上到自動。
 * 若要垂直地向視頻內容的右側呈現互動色板，請將寬度設定為絕對像素；右上至0px;高度，左下角自動。
 
-您可以結合此樣式使用CSS標籤，以實現互動式色票面板的最適化放置。
+您可以透過此樣式使用CSS標籤，以達到互動式色票面板的最適化放置。
 
 ## 範例 {#example}
 
-若要設定互動式色票面板，以便在觸控裝置上以橫向方向在檢視器底部水準轉譯，並在所有其他情況下以垂直向右顯示視訊內容：
+設定互動式色票面板，以橫向方向在觸控裝置上的檢視器底部水準轉譯。 此外，若要在所有其他情況下將其垂直顯示於視訊內容的右側：
 
 ```
 .s7interactivevideoviewer.s7touchinput.s7device_landscape .s7interactiveswatches, 
@@ -192,7 +192,7 @@ ht-degree: 2%
 
 ## 範例 {#section-39fb270b7e494a9d99e6e8f6890ec53c}
 
-若要將垂直間距設定為10像素：
+要設定垂直間距為10個像素：
 
 ```
 .s7interactivevideoviewer .s7interactiveswatches .s7swatches .s7thumbcell { 
@@ -267,7 +267,7 @@ ht-degree: 2%
 
 ## 範例 {#section-eb141eb6c1154183baa69796edb90536}
 
-要設定標籤，使用左對齊、白色、12像素、Helvetica字型和底邊框：
+要設定標籤，使用左對齊、白色、12像素、Helvetica®字型和底邊框：
 
 ```
 .s7interactivevideoviewer .s7interactiveswatches .s7swatches .s7label { 

@@ -1,20 +1,20 @@
 ---
-description: 控制欄是矩形區域，其中包含並位於視訊檢視器可用的所有UI控制項，例如播放/暫停按鈕、音量控制項等。
-solution: Experience Manager
 title: 控制欄
-feature: Dynamic Media Classic，檢視器， SDK/API，互動式影片
+description: 控制欄是矩形區域，其中包含並位於視訊檢視器可用的所有使用者介面控制項（例如播放/暫停按鈕和音量控制項）後面。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 685fad5a-a75a-4c0c-9038-de99d814f4be
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 控制欄{#control-bar}
 
-控制欄是矩形區域，其中包含並位於視訊檢視器可用的所有UI控制項，例如播放/暫停按鈕、音量控制項等。
+控制欄是矩形區域，其中包含並位於視訊檢視器可用的所有使用者介面控制項（例如播放/暫停按鈕和音量控制項）後面。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 

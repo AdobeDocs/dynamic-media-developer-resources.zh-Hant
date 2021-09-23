@@ -1,14 +1,14 @@
 ---
+title: 焦點醒目提示
 description: 焦點檢視器使用者介面元素周圍顯示的輸入焦點醒目提示，是由CSS類別選取器控制。
 solution: Experience Manager
-title: 焦點醒目提示
-feature: Dynamic Media Classic，檢視器， SDK/API，互動式影片
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: cb5231ed-106a-444f-aac7-06dd1a84a665
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

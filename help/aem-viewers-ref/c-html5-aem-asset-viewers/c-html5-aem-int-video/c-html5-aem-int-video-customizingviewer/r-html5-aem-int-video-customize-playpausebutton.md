@@ -1,14 +1,14 @@
 ---
+title: 播放/暫停按鈕
 description: 播放/暫停按鈕可讓視訊播放器在使用者點按時播放或暫停視訊內容。
 solution: Experience Manager
-title: 播放/暫停按鈕
-feature: Dynamic Media Classic，檢視器， SDK/API，互動式影片
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: bbf34037-b571-4dc9-be52-070aef014c31
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -69,13 +69,13 @@ ht-degree: 2%
 >
 >此按鈕支援`state`、`selected`和`replay`屬性選擇器，它們可用於將不同的外觀應用於不同的按鈕狀態。 尤其`selected='true'`對應於「play」狀態，`selected='false'`對應於「pause」狀態；
 >
->`replay='true'` 是當視訊達到結尾，然後按一下按鈕會從開頭重新啟動播放時設定。
+>當視訊到達結尾時，會設定屬性`replay='true'` ，並選取按鈕會從開頭重新啟動播放。
 
 按鈕工具提示可以本地化。 如需詳細資訊，請參閱[使用者介面元素本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 。
 
 ## 範例 {#section-e8caea0a303c425a8a637c2a47c06355}
 
-設定32 x 32像素的播放/暫停按鈕；它從控制條的上邊緣和左邊緣定位6個像素，當選中或未選中時，它為四個不同的按鈕狀態中的每個狀態顯示不同的影像。
+設定32 x 32像素的播放/暫停按鈕，並從控制列的上邊緣和左邊緣放置6個像素。 最後，當選取或未選取時，它會針對四個不同按鈕狀態中的每一個顯示不同的影像。
 
 ```
 .s7interactivevideoviewer .s7playpausebutton { 

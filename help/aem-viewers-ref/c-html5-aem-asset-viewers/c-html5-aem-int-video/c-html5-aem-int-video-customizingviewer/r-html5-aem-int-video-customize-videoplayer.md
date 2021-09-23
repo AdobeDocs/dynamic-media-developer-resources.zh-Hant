@@ -1,14 +1,14 @@
 ---
+title: 視訊播放器
 description: 視訊播放器是觀看者中顯示視訊內容的矩形區域。
 solution: Experience Manager
-title: 視訊播放器
-feature: Dynamic Media Classic，檢視器， SDK/API，互動式影片
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 9cfeceff-f6bd-42d9-9b85-456bbaa278fd
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -82,7 +82,7 @@ background-color: transparent;
 
 ## 範例 {#section-5b82913ff3c44b7b8187969cb15e9560}
 
-要將隱藏式字幕文本設定為半透明黑色背景上的14像素、淺灰色、Arial:
+要將隱藏式字幕文本設定為14像素、淺灰色、Arial®，在半透明黑色背景上：
 
 ```
 .s7interactivevideoviewer .s7videoplayer .s7caption { 
