@@ -1,13 +1,13 @@
 ---
+title: HTTPS視訊傳送
 description: HTTPS視訊傳送
 solution: Experience Manager
-title: HTTPS視訊傳送
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 68d37b5d-5015-4a98-84b8-8911ace327ed
-source-git-commit: c58199c5884c368e92e50fe0ef9d6ad523e36266
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 >
 >Secure Video Delivery only applies to AEM 6.2 with the installation of [Feature Pack-13480](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/featurepack/cq-6.2.0-featurepack-13480) and to AEM 6.1 with installation of [Feature Pack NPR-15011](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq610/featurepack/cq-6.1.0-featurepack-15011). -->
 
-如果檢視器依本節開頭所述的設定運作，則發佈的視訊傳送可能會以HTTPS（安全）和HTTP（不安全）模式進行。 在預設配置中，視頻傳送協定嚴格遵守嵌入網頁的傳送協定。 不過，無論使用[VideoPlayer.ssl](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoplayer-ssl.md#reference-c28e1b700977493eadab5489458d7771)組態屬性內嵌網頁所使用的通訊協定為何，都可強制執行HTTPS視訊傳送。 （請注意，以製作模式預覽視訊的方式一律是透過HTTPS安全地傳送。）
+如果檢視器的設定如本節開頭所述，則發佈的視訊傳送可能會以HTTPS（安全）和HTTP（不安全）模式進行。 在預設配置中，視頻傳送協定嚴格遵守嵌入網頁的傳送協定。 不過，無論使用[VideoPlayer.ssl](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoplayer-ssl.md#reference-c28e1b700977493eadab5489458d7771)組態屬性內嵌網頁所使用的通訊協定為何，都可強制執行HTTPS視訊傳送。 （在製作模式中的視訊預覽一律會透過HTTPS安全地傳送。）
 
-根據您在AEM中使用的發佈Dynamic Media視訊的方法，`VideoPlayer.ssl`設定屬性的套用方式不同，如下所示：
+根據您在Adobe Experience Manager中使用的發佈Dynamic Media視訊的方法，`VideoPlayer.ssl`設定屬性的套用方式不同，如下所示：
 
 * 如果您發佈含有URL的Dynamic Media影片，會將`VideoPlayer.ssl`附加至URL。 例如，為了強制安全視訊傳送，您將`&VideoPlayer.ssl=on`附加至下列檢視器URL範例的結尾：
 

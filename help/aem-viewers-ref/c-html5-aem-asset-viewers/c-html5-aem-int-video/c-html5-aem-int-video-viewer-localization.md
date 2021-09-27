@@ -1,22 +1,22 @@
 ---
-description: 「互動式視訊檢視器」所顯示的某些內容可能會受本地化規範。 這包括使用者介面元素工具提示，以及當視訊無法播放時顯示的錯誤訊息。
-solution: Experience Manager
 title: 用戶介面元素本地化
-feature: Dynamic Media Classic，檢視器， SDK/API，互動式影片
+description: 「互動式視訊檢視器」所顯示的某些內容可能會受本地化規範。 這些內容包括用戶介面元素工具提示和當視頻無法播放時顯示的錯誤消息。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: d293c385-d355-4d9e-9fe9-8ef35fef60bf
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
 
 # 用戶介面元素本地化{#localization-of-user-interface-elements}
 
-「互動式視訊檢視器」所顯示的某些內容可能會受本地化規範。 這包括使用者介面元素工具提示，以及當視訊無法播放時顯示的錯誤訊息。
+「互動式視訊檢視器」所顯示的某些內容可能會受本地化規範。 這些內容包括用戶介面元素工具提示和當視頻無法播放時顯示的錯誤消息。
 
-檢視器中可本地化的每個文字內容，都會以稱為SYMBOL的特殊檢視器SDK識別碼表示。 任何SYMBOL都具有隨現成查看器提供的英語語言環境(`"en"`)的預設關聯文本值，並且還可以根據需要設定任意數量的語言環境的用戶定義值。
+檢視器中可本地化的每個文字內容，都會以稱為SYMBOL的特殊檢視器SDK識別碼表示。 任何SYMBOL都具有由現成查看器提供的英語語言環境(`"en"`)的預設關聯文本值。 也可以根據需要設定用戶定義的值。
 
 當查看器啟動時，它將檢查當前區域設定，以查看此區域設定的每個支援的SYMBOL是否有用戶定義的值。 若有，則使用使用者定義的值；否則，會回復為現成預設文字。
 

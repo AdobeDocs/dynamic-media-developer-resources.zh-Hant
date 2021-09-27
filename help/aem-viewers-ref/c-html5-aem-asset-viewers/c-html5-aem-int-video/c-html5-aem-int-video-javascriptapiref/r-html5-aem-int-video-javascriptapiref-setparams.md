@@ -1,14 +1,14 @@
 ---
+title: setParams
 description: 互動式視訊檢視器的JavaScript API參考。
 solution: Experience Manager
-title: setParams
-feature: Dynamic Media Classic，檢視器， SDK/API，互動式影片
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 32d26999-7815-4c71-ad4c-b7db99ec3d3b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 2%
+source-wordcount: '98'
+ht-degree: 3%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 ` setParams( *`params`*)`
 
-將一或多個參數設為指定值。 方法引數語法與URL查詢字串相同。 也就是說，它表示以`&`分隔的名稱=值配對。 就像在查詢字串中一樣，名稱和值是使用UTF8進行百分比編碼。 呼叫`init()`之前，必須呼叫此參數。
+將一或多個參數設為指定值。 方法引數語法與URL查詢字串相同。 也就是說，它表示以`&`分隔的名稱=值配對。 如同在查詢字串中，名稱和值是使用UTF8以百分比編碼。 呼叫`init()`之前，必須呼叫此參數。
 
 如果檢視器設定資訊是以`config` JSON物件傳遞至建構函式，則此方法為選用。
 

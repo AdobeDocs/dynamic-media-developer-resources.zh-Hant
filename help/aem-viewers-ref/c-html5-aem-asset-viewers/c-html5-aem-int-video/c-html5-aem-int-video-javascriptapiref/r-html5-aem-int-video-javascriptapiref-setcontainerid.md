@@ -1,13 +1,13 @@
 ---
+title: setContainerId
 description: 互動式視訊檢視器的JavaScript API參考。
 solution: Experience Manager
-title: setContainerId
-feature: Dynamic Media Classic，檢視器， SDK/API，互動式影片
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 47fbfd39-a1f4-4deb-b064-306ca9fd3ae7
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '90'
 ht-degree: 3%
 
 ---

@@ -1,13 +1,13 @@
 ---
+title: VideoPlayer.iconeffect
 description: 互動式視訊檢視器的設定屬性。
 solution: Experience Manager
-title: VideoPlayer.iconeffect
-feature: Dynamic Media Classic，檢視器， SDK/API，互動式影片
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 690dc488-2db0-4166-a308-f1f3438c480a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '127'
 ht-degree: 4%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 當視訊處於暫停狀態時，可讓IconEffect顯示在視訊頂端。 在某些裝置上會使用原生控制項。 在這種情況下，會忽略<span class="codeph"> iconeffect</span>修飾元。 </p> </td> 
+   <td colname="col2"> <p> 當視訊處於暫停狀態時，可讓IconEffect顯示在視訊頂端。 某些裝置上會使用原生控制項。 在這種情況下，會忽略<span class="codeph"> iconeffect</span>修飾元。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 計數</span></span> </p> </td> 

@@ -1,13 +1,13 @@
 ---
+title: getComponent
 description: 互動式視訊檢視器的JavaScript API參考。
 solution: Experience Manager
-title: getComponent
-feature: Dynamic Media Classic，檢視器， SDK/API，互動式影片
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: a760bc86-b700-4ffe-9983-ef55d88677d6
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '214'
 ht-degree: 1%
 
 ---
@@ -103,7 +103,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-使用SDK API時，請務必依照[檢視器SDK命名空間](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-html5-viewer-sdk-namespace.md#concept-4ee8657c7d67421f8e7880130a246621)中所述，使用正確的完全限定SDK命名空間。
+使用SDK API時，請務必依照[檢視器SDK命名空間](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-html5-viewer-sdk-namespace.md#concept-4ee8657c7d67421f8e7880130a246621)中所述，使用正確且完全限定的SDK命名空間。
 
 如需特定元件的詳細資訊，請參閱&#x200B;*檢視器SDK API*&#x200B;檔案。
 

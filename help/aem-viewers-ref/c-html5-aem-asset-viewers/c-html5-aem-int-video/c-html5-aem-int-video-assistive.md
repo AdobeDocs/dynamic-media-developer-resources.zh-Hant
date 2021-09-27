@@ -1,13 +1,13 @@
 ---
+title: 輔助技術支援
 description: 所有檢視器元件都支援ARIA（可存取的豐富網際網路應用程式）角色和屬性，以改善與輔助技術（例如螢幕閱讀器）的整合。
 solution: Experience Manager
-title: 輔助技術支援
-feature: Dynamic Media Classic，檢視器， SDK/API，互動式影片，協助工具
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos,Accessibility
 role: Developer,User
 exl-id: 3d9f6389-e73c-4d31-a7c1-b321f065ce8c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,6 @@ ht-degree: 0%
 
 顯示色票的元件具有角色`listbox`，其`aria-label`屬性設定為該元件的`LABEL`本地化符號的值。 個別色票具有`aria-setsize`和`aria-posinset`屬性的角色`option`，以說明集合中的色票位置。 如果選取了色票，則會將`aria-selected`屬性設為`true`。
 
-下拉清單由參考實際下拉式面板元素的附加`aria-haspopup`屬性設為`true`和`aria-controls`屬性的按鈕來啟動。 下拉式面板本身具有角色`menu`，其子元素具有角色`menuitem`。 每個菜單項都指定了`aria-label`屬性。
+下拉清單由參考實際下拉式面板元素的附加`aria-haspopup`屬性設為`true`和`aria-controls`屬性的按鈕來啟動。 下拉式面板本身具有角色`menu`，子元素具有角色`menuitem`。 每個菜單項都指定了`aria-label`屬性。
 
 強制回應對話方塊的角色為`dialog`。 `aria-labelledby`屬性引用了對話框的標題元素。

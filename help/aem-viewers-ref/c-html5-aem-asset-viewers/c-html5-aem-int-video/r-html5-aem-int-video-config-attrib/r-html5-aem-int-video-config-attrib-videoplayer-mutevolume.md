@@ -1,14 +1,14 @@
 ---
+title: VideoPlayer.mutevolume
 description: 互動式視訊檢視器的設定屬性。
 solution: Experience Manager
-title: VideoPlayer.mutevolume
-feature: Dynamic Media Classic，檢視器， SDK/API，互動式影片
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 84deb0d4-ac7e-4ba0-884f-675a0dcc827b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 7%
+source-wordcount: '56'
+ht-degree: 8%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 在初始載入時為視訊播放設定靜音模式。 如果設定為<span class="codeph"> 1 </span> ，則卷將靜音；否則，影片會以音效播放。 在某些裝置上，將視訊播放停止於載入時，也允許視訊自動播放。 </p> </td> 
+   <td colname="col2"> <p> 在初始載入時為視訊播放設定靜音模式。 如果設定為<span class="codeph"> 1 </span> ，則卷將靜音；否則，影片會以音效播放。 在某些裝置上，載入時將視訊播放靜音也可讓視訊自動播放。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,13 +1,13 @@
 ---
+title: 互動式影片
 description: 互動式視訊檢視器是視訊播放器，會播放以H.264格式編碼的串流和漸進式視訊。
 solution: Experience Manager
-title: 互動式影片
-feature: Dynamic Media Classic，檢視器， SDK/API，互動式影片
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: e54b0b1f-b015-4592-82e2-99f5080543e3
-source-git-commit: f77dc0c1ac8305037bbb561451317c8e62209cec
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '2216'
+source-wordcount: '2211'
 ht-degree: 0%
 
 ---
@@ -126,7 +126,7 @@ ht-degree: 0%
 
    您可以為檢視器設定靜態大小，方法是以絕對單位為`.s7interactivevideoviewer`頂層CSS類別聲明，或使用`stagesize`修飾詞。
 
-   您可以直接在HTML頁面上將大小調整為CSS。 或者，您可以將其放入自訂檢視器CSS檔案中，該檔案稍後會依需求指派給AEM Assets中的檢視器預設集記錄，或使用`style`命令明確傳遞。
+   您可以直接在HTML頁面上將大小調整為CSS。 或者，您可以將其放入自訂檢視器CSS檔案中，該檔案稍後會指派給Adobe Experience Manager Assets - On-demand中的檢視器預設集記錄，或使用`style`命令明確傳遞。
 
    如需使用CSS來設定檢視器樣式的詳細資訊，請參閱[自訂互動式視訊檢視器](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0)。
 
@@ -139,7 +139,7 @@ ht-degree: 0%
    }
    ```
 
-   您可以在AEM Assets的檢視器預設集記錄中設定`stagesize`修飾詞 — 隨選。 或者，您也可以使用`params`集合的檢視器初始化程式碼，或如「命令參考」區段所述以API呼叫的形式明確傳遞，如下所示：
+   您可以在「Experience Manager資產 — 隨選」的檢視器預設集記錄中設定`stagesize`修飾詞。 或者，您也可以使用`params`集合的檢視器初始化程式碼，或如「命令參考」區段所述以API呼叫的形式明確傳遞，如下所示：
 
    ```
    interactivevideoviewer.setParam("stagesize", "640,640");
