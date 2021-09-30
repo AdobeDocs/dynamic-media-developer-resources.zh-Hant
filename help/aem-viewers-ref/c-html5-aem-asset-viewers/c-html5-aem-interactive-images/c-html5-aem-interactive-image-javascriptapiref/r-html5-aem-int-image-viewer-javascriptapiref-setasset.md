@@ -1,14 +1,14 @@
 ---
+title: setAsset
 description: 視訊影像檢視器的JavaScript API參考。
 solution: Experience Manager
-title: setAsset
-feature: Dynamic Media Classic，檢視器， SDK/API，互動式影像
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: e5f88bc9-a880-45eb-9554-57e185937d29
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 3%
+source-wordcount: '75'
+ht-degree: 4%
 
 ---
 

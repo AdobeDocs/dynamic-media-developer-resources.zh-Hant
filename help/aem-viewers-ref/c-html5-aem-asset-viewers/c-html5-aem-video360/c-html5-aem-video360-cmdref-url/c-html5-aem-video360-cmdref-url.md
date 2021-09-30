@@ -1,13 +1,13 @@
 ---
+title: 命令參考 — URL
 description: Video360查看器的命令參考文檔。
 solution: Experience Manager
-title: 命令參考 — URL
-feature: Dynamic Media Classic，檢視器，SDK/API,360 VR影片
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: eb7026cf-f28b-4426-ba64-b3472946d5d4
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---

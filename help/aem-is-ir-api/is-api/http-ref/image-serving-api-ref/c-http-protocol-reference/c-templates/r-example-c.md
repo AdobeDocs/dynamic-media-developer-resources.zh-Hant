@@ -1,13 +1,13 @@
 ---
+title: 範例C
 description: 建立「紙娃娃」分層應用程式。
 solution: Experience Manager
-title: 範例C
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 70232055-2a4c-4e56-8076-3cd56a9004c5
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 每個服裝/配飾像片都被遮罩並裁切至遮罩邊界方框，以將影像大小減至最小。 小心地控制影像錨點和解析度以保持圖層和背景影像之間的對齊，並且所有影像都被添加到影像目錄中，並將適當的值儲存在`catalog::Resolution`和`catalog::Anchor`中。
 
-除了分層，我們還要更改所選項目的顏色。 對這些項的記錄進行預處理，以去除原始顏色並以適合著色命令的方式調整亮度和對比度。 此預處理作業可以離線完成，使用影像編輯工具(例如Photoshop)，或在簡單情況下，可透過將`op_brightness=`和`op_contrast=`新增至`catalog::Modifier`欄位來逐步完成。
+除了分層，您還要更改所選項目的顏色。 對這些項的記錄進行預處理，以去除原始顏色並以適合著色命令的方式調整亮度和對比度。 此預處理作業可以離線完成，使用影像編輯工具(例如Adobe Photoshop)，或在簡單情況下，可透過將`op_brightness=`和`op_contrast=`新增至`catalog::Modifier`欄位來逐步完成。
 
 此應用程式不需要單獨的模板，因為所有對象已通過其影像錨點(`catalog::Anchor`)和縮放(`catalog::Resolution`)正確對齊。 由用戶端自行決定，以確保適當的層順序。
 
@@ -36,7 +36,7 @@ layer=4&res=999&src=rootId/hat2generic&colorize=12,15,34&
 layer=6&res=999&src=rootId/shoes21
 ```
 
-僅指定高度。 這允許返回的影像根據人體模型影像的長寬比而在寬度上變化，而不會得到用背景顏色填充的邊距。
+僅指定高度。 這樣，返回的影像可以根據人體模型影像的長寬比而在寬度上變化，而不會得到用背景顏色填充的邊距。
 
 只要每個層都相同，為每個層指定的解析度都不重要。 此版本不允許檢視大於複合影像。 指定大解析度值可避免與此限制相關的問題。 所有處理和合成都以所請求的影像大小的最佳解析度完成，以幫助實現最佳效能和輸出質量。
 

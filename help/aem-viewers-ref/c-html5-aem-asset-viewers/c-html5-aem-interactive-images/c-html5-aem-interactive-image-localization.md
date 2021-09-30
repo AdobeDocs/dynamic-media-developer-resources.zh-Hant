@@ -1,21 +1,21 @@
 ---
-description: 「互動式影像檢視器」所顯示的某些內容可能會受到本地化的規範。 這包括使用者介面元素工具提示，以及由載入時彈出縮放檢視顯示的資訊訊息。
 title: 用戶介面元素本地化
-feature: Dynamic Media Classic，檢視器， SDK/API，互動式影像
+description: 「互動式影像檢視器」所顯示的某些內容可能會受到本地化的規範。 此內容包括用戶介面元素工具提示和資訊消息，該資訊消息由載入時彈出縮放視圖顯示。
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: 19749c74-5c31-4dcf-ab07-0e7f10176a86
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # 用戶介面元素本地化{#localization-of-user-interface-elements}
 
-「互動式影像檢視器」所顯示的某些內容可能會受到本地化的規範。 這包括使用者介面元素工具提示，以及由載入時彈出縮放檢視顯示的資訊訊息。
+「互動式影像檢視器」所顯示的某些內容可能會受到本地化的規範。 此內容包括用戶介面元素工具提示和資訊消息，該資訊消息由載入時彈出縮放視圖顯示。
 
-檢視器中可本地化的每個文字內容，都會以稱為SYMBOL的特殊檢視器SDK識別碼表示。 任何SYMBOL都具有隨現成查看器提供的英語語言環境(`"en"`)的預設關聯文本值，並且還可以根據需要設定任意數量的語言環境的用戶定義值。
+檢視器中可本地化的每個文字內容，都會以稱為SYMBOL的特殊檢視器SDK識別碼表示。 任何SYMBOL都具有隨現成查看器提供的英語區域設定(`"en"`)的預設關聯文本值，並且可以根據需要設定任意數量的區域設定的用戶定義值。
 
 當查看器啟動時，它將檢查當前區域設定，以查看此區域設定的每個支援的SYMBOL是否有用戶定義的值。 若有，則使用使用者定義的值；否則，會回復為現成預設文字。
 

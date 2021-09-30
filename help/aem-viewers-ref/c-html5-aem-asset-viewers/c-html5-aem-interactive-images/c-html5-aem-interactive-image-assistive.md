@@ -1,13 +1,13 @@
 ---
+title: 輔助技術支援
 description: 所有檢視器元件都支援ARIA（可存取的豐富網際網路應用程式）角色和屬性，以改善與輔助技術（例如螢幕閱讀器）的整合。
 solution: Experience Manager
-title: 輔助技術支援
-feature: Dynamic Media Classic，檢視器， SDK/API，互動式影像，協助工具
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images,Accessibility
 role: Developer,User
 exl-id: 39e64f35-543f-4977-a97a-0daa93786ff3
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

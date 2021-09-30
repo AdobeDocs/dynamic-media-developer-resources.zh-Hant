@@ -1,13 +1,13 @@
 ---
+title: 檢視器SDK教學課程
 description: 檢視器SDK提供一組以JavaScript為基礎的元件，供自訂檢視器開發使用。 檢視器是網頁型應用程式，可讓AdobeDynamic Media提供的多媒體內容內嵌在網頁中。
 solution: Experience Manager
-title: 檢視器SDK教學課程
-feature: Dynamic Media Classic，檢視器，SDK/API
+feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 3a798595-6c65-4a12-983d-3cdc53830d28
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 例如，SDK提供互動式縮放和平移功能。 此外，還提供360°的資產檢視和視訊播放，這些資產已透過名為Dynamic Media Classic的後端應用程式上傳至AdobeDynamic Media。
 
-雖然元件需仰賴HTML5功能，但設計上可用於Android和Apple iOS裝置以及桌上型電腦，包括Internet Explorer和更新版本。 這種體驗表示您可以為所有支援的平台提供單一工作流程。
+雖然元件需仰賴HTML5功能，但設計上可用於Android™和Apple iOS裝置以及桌上型電腦，包括Internet Explorer和更新版本。 這種體驗表示您可以為所有支援的平台提供單一工作流程。
 
-SDK包含組成檢視器內容的UI元件。 您可以透過CSS和非UI元件來設定這些元件的樣式，這些元件具有某種支援角色，例如設定定義擷取、剖析或追蹤。 所有元件行為都可透過修飾元進行自訂，您可透過多種方式指定，例如，在URL中指定為`name=value`配對。
+SDK包含組成檢視器內容的UI元件。 您可以透過CSS和非UI元件來設定這些元件的樣式，這些元件具有某種支援角色，例如設定定義擷取、剖析或追蹤。 所有元件行為都可透過修飾元加以自訂，您可透過各種方式指定，例如在URL中指定為`name=value`配對。
 
 本教學課程包含下列工作順序，可協助您建立基本的縮放檢視器：
 
@@ -38,13 +38,13 @@ SDK包含組成檢視器內容的UI元件。 您可以透過CSS和非UI元件來
 
    >[!NOTE]
    >
-   >由於SDK實際上是從遠端載入，您不需要下載檢視器SDK套件即可完成本教學課程。 不過，檢視器套件包含其他範例，以及API參考指南，當您建立自己的檢視器時，這些範例和指南將有所幫助。
+   >由於SDK已遠程載入，您無需下載檢視器SDK套件即可完成本教學課程。 不過，檢視器套件包含其他範例，以及可協助您建立自己檢視器的API參考指南。
 
 ## 載入檢視器SDK {#section-98596c276faf4cf79ccf558a9f4432c6}
 
 1. 首先，請設定新的頁面，以開發您要建立的基本縮放檢視器。
 
-   將此視為引導程式（或載入器）程式碼，用來設定空的SDK應用程式。 開啟您最喜愛的文字編輯器，並將下列HTML標籤貼入其中：
+   請將這個新頁面視為您用來設定空SDK應用程式的Bootstrap（或載入器）程式碼。 開啟您最喜愛的文字編輯器，並將下列HTML標籤貼入其中：
 
    ```
    <!DOCTYPE html> 
@@ -79,7 +79,7 @@ SDK包含組成檢視器內容的UI元件。 您可以透過CSS和非UI元件來
    </html>
    ```
 
-   在`script`標籤內新增下列JavaScript程式碼，以初始化`ParameterManager`。 這可協助您準備在`initViewer`函式內建立和實例化SDK元件：
+   在`script`標籤內新增下列JavaScript程式碼，以便初始化`ParameterManager`。 這麼做可協助您準備在`initViewer`函式內建立和實例化SDK元件：
 
    ```
    /* We create a self-running anonymous function to encapsulate variable scope. Placing code inside such 
@@ -115,9 +115,9 @@ SDK包含組成檢視器內容的UI元件。 您可以透過CSS和非UI元件來
 
 1. 將檔案儲存為空範本。 您可以使用任何想要的檔案名稱。
 
-   將來建立任何新檢視器時，您將使用此空白範本檔案作為參考。 此範本可在本機，且從Web伺服器提供時運作。
+   將來建立任何檢視器時，您將使用此空白範本檔案作為參考。 此範本可在本機，且從Web伺服器提供時運作。
 
-您現在會將樣式新增至檢視器。
+現在，將樣式新增至檢視器。
 
 ## 將樣式新增至檢視器 {#section-3783125360a1425eae5a5a334867cc32}
 
@@ -142,7 +142,7 @@ SDK包含組成檢視器內容的UI元件。 您可以透過CSS和非UI元件來
    </style>
    ```
 
-您現在將包含`Container`和`ZoomView`元件。
+現在包含元件`Container`和`ZoomView`。
 
 ## 包括容器和縮放視圖 {#section-1a01730663154a508b88cc40c6f35539}
 
@@ -169,7 +169,7 @@ SDK包含組成檢視器內容的UI元件。 您可以透過CSS和非UI元件來
    var container, zoomView;
    ```
 
-1. 在`initViewer`函式內插入下列項目，以定義某些修飾元並實例化個別元件：
+1. 在`initViewer`函式內插入下列項目，以便定義一些修飾元並將個別元件實例化：
 
    ```
    /* Modifiers can be added directly to ParameterManager instance */ 
@@ -205,11 +205,11 @@ SDK包含組成檢視器內容的UI元件。 您可以透過CSS和非UI元件來
    }
    ```
 
-1. 預覽頁面，以便查看已建立的內容。 您的頁面將如下所示：
+1. 預覽頁面，以便查看已建立的內容。 您的頁面應如下所示：
 
-   ![](assets/viewer-1.jpg)
+   ![檢視器範例一個影像](assets/viewer-1.jpg)
 
-您現在會將元件`MediaSet`和`Swatches`新增至檢視器。
+現在，將元件`MediaSet`和`Swatches`新增至檢視器。
 
 ## 將MediaSet和色票元件新增至檢視器 {#section-02b8c21dd842400e83eae2a48ec265b7}
 
@@ -288,9 +288,9 @@ SDK包含組成檢視器內容的UI元件。 您可以透過CSS和非UI元件來
 
    您的檢視器現在看起來類似下列影像。 嘗試調整檢視器的瀏覽器視窗大小，並注意產生的行為。
 
-   ![](assets/viewer-2.jpg)
+   ![檢視器範例2影像](assets/viewer-2.jpg)
 
-您現在會將放大、縮小和縮放重設按鈕新增至檢視器。
+現在，將放大、縮小和縮放重設按鈕新增至檢視器。
 
 ## 將按鈕新增至檢視器 {#section-1fc334fa0d2b47eb9cdad461725c07be}
 
@@ -350,17 +350,17 @@ SDK包含組成檢視器內容的UI元件。 您可以透過CSS和非UI元件來
     }
    ```
 
-1. 預覽檢視器。 如下所示：
+1. 預覽檢視器。 看起來應如下所示：
 
-   ![](assets/viewer-3.jpg)
+   ![檢視器範例三個影像](assets/viewer-3.jpg)
 
-   您現在將配置色票，使其在右側垂直對齊。
+   現在設定色票，使其在右側垂直對齊。
 
 ## 垂直配置色票 {#section-91a8829d5b5a4d45a35b7faeb097fcc9}
 
 1. 您可以直接在`ParameterManager`例項上配置修飾元。
 
-   在`initViewer`函式頂端新增下列項目，將`Swatches`縮圖配置設為單一列：
+   將下列內容新增至`initViewer`函式頂端，以便將`Swatches`縮圖配置設為單一列：
 
    ```
    params.push("Swatches.tmblayout", "1,0");
@@ -385,7 +385,7 @@ SDK包含組成檢視器內容的UI元件。 您可以透過CSS和非UI元件來
 
 1. 預覽檢視器。 如下所示：
 
-   ![](assets/viewer-4.jpg)
+   ![檢視器範例4影像](assets/viewer-4.jpg)
 
    您的基本縮放檢視器現在已完成。
 

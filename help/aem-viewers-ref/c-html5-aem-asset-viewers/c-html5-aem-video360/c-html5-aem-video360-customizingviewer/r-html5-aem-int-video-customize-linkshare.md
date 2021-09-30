@@ -1,13 +1,13 @@
 ---
+title: 連結共用
 description: 連結分享工具包含新增至Social分享面板的按鈕，以及啟動工具時顯示的強制回應對話方塊。 按鈕的位置由Social分享工具完全管理。
 solution: Experience Manager
-title: 連結共用
-feature: Dynamic Media Classic，檢視器，SDK/API,360 VR影片
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 9eb2ef38-9b86-4c60-90a2-6609cb3fcc39
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '1390'
+source-wordcount: '1385'
 ht-degree: 2%
 
 ---
@@ -76,7 +76,7 @@ background-image:url(images/v2/LinkShare_dark_disabled.png);
 }
 ```
 
-當對話方塊處於作用中狀態時，會使用下列CSS類別選取器來控制覆蓋網頁的背景覆蓋：
+當對話方塊作用中時，會覆蓋網頁的背景覆蓋圖會由下列CSS類別選取器控制：
 
 ```
 .s7video360viewer .s7linkdialog .s7backoverlay
@@ -162,7 +162,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-圖示和標題文字會包裝在另一個由下列CSS類別選取器控制的容器中：
+圖示和標題文字會包裝在由下列CSS類別選取器控制的額外容器中：
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogheader .s7dialogline
@@ -284,7 +284,7 @@ background-color: #ffffff;
 
 「關閉」按鈕工具提示和對話框標題可以本地化。 請參閱[使用者介面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)。
 
-**範例**  — 若要設定對話方塊標題，並加上邊框間距、22 x 12像素圖示、粗體16點標題和28 x 28像素關閉按鈕，此按鈕的位置為從上方兩個像素，以及從對話方塊容器右側兩個像素：
+**範例**  — 若要設定對話方塊標題，使用邊框間距、22 x 12像素圖示和粗體16點標題。最後，28 x 28像素的「關閉」按鈕，從頂部放置兩個像素，從對話框容器的右側放置兩個像素：
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogheader { 
@@ -426,7 +426,7 @@ background-color: #ffffff;
 >
 >此按鈕支援`state`屬性選擇器，可用於將不同的外觀應用於不同的按鈕狀態。
 
-此外，這兩個按鈕共用相同的通用CSS類，這些類可以包含其他對話框按鈕相同的CSS設定：
+此外，這兩個按鈕都共用通用的CSS類，這些類可以包含其他對話框按鈕相同的CSS設定：
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogfooter .s7button
@@ -560,7 +560,7 @@ background-color: #ffffff;
 }
 ```
 
-所有表單內容（例如標籤和輸入欄位）都駐留在由以下CSS類選擇器控制的容器內：
+所有表單內容（例如標籤和輸入欄位）都位於由下列CSS類別選取器控制的容器內：
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogbody
@@ -577,7 +577,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-**範例**  — 若要設定表單內容，應有10個像素邊框間距：
+**範例**  — 若要設定表單內容，使其有10個像素填補：
 
 ```
 .s7interactivevideoviewer .s7linkdialog .s7dialogbody { 
@@ -634,7 +634,7 @@ background-color: #ffffff;
 .s7video360viewer .s7linkdialog .s7dialoginputwide
 ```
 
-**對話框輸入寬欄位的CSS屬性**
+**對話框輸入範圍欄位的CSS屬性**
 
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 

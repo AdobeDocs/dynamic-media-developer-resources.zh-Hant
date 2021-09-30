@@ -1,14 +1,14 @@
 ---
+title: init
 description: 互動式影像檢視器的JavaScript API參考。
 solution: Experience Manager
-title: init
-feature: Dynamic Media Classic，檢視器， SDK/API，互動式影像
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: 675031ab-21bb-49a5-abbc-eca8d2619e49
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 2%
 
 `init()`
 
-啟動交互影像查看器的初始化。 此時必須建立容器DOM元素，檢視器程式碼才能透過其ID找到它。
+啟動互動式影像查看器的初始化。 此時必須建立容器DOM元素，檢視器程式碼才能透過其ID找到它。
 
-如果容器元素尚未屬於網頁版面的一部分（例如，可能會使用指派給它的`display:none`樣式來隱藏），則檢視器會暫停其初始化程式，直到網頁將容器元素帶回版面的那一刻為止。 發生此情況時，檢視器載入會自動繼續。
+如果容器元素尚未成為網頁版面的一部分 — 例如，它可能會使用指派給它的`display:none`樣式來隱藏 — 檢視器會暫停其初始化程式。 直到網頁將容器元素帶回版面為止。 發生此動作時，檢視器載入會自動繼續。
 
 在檢視器生命週期期間，只需呼叫此方法一次；會忽略後續呼叫。
 

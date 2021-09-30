@@ -5,9 +5,9 @@ title: 範例B
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 90ef96fc-c12f-4fc8-b465-6520b71f4e7b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -27,12 +27,12 @@ ht-degree: 0%
  </tr> 
 </table>
 
-影像被放置在層0中，並且`size=`的高度值被設定為0，這導致在將影像縮放到800像素寬後，實際高度由影像的高度確定。
+影像被放置在第0層中，並且`size=`的高度值設定為0。 此設定會使實際高度在縮放至800像素寬後，由影像的高度決定。
 
-`extend=` 在上方和下方新增100像素，在右側新增200像素。
+變數`extend=`在上方和底部新增100像素，在右側新增200像素。
 
 第0層和第1層的原點都放置在複合區域的中右側，以達到所需的文本位置。
 
 下圖顯示影像的不同外觀比例和不同文字字串的複合結果。
 
-![](assets/exampleb.png)
+![範例B影像](assets/exampleb.png)

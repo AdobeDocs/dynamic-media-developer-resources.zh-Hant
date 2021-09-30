@@ -1,14 +1,14 @@
 ---
+title: 內嵌共用
 description: 內嵌共用工具包含新增至Social共用面板的按鈕，以及啟動工具時顯示的強制回應對話方塊。 按鈕的位置由Social分享工具完全管理。
 solution: Experience Manager
-title: 內嵌共用
-feature: Dynamic Media Classic，檢視器，SDK/API,360 VR影片
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 08ba7a29-8b17-4167-a9f3-82aa4cf65556
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '2603'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -76,7 +76,7 @@ background-image:url(images/v2/EmbedShare_dark_disabled.png);
 }
 ```
 
-當對話方塊處於作用中狀態時，會使用下列CSS類別選取器來控制覆蓋網頁的背景覆蓋：
+當對話方塊作用中時，會覆蓋網頁的背景覆蓋圖會由下列CSS類別選取器控制：
 
 ```
 .s7video360viewer .s7embeddialog .s7backoverlay
@@ -162,7 +162,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-圖示和標題文字會包裝在另一個容器中，由下列項目控制：
+圖示和標題文字會包裝在以下項目控制的額外容器中：
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogheader .s7dialogline
@@ -284,7 +284,7 @@ background-color: #ffffff;
 
 按鈕工具提示可以本地化。 如需詳細資訊，請參閱[使用者介面元素本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) 。
 
-**範例**  — 若要使用邊框間距、24 x 14像素圖示、粗體16點標題和28 x 28像素關閉按鈕來設定對話方塊標題，請從頂端放置兩個像素，從對話方塊容器右側放置兩個像素：
+**範例**  — 若要使用邊框間距、24 x 14像素圖示和粗體16點標題來設定對話方塊標題。最後，28 x 28像素的「關閉」按鈕，從頂部放置兩個像素，從對話框容器的右側放置兩個像素：
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogheader { 
@@ -426,7 +426,7 @@ background-color: #ffffff;
 >
 >此按鈕支援`state`屬性選擇器，可用於將不同的外觀應用於不同的按鈕狀態。
 
-此外，這兩個按鈕共用相同的通用CSS類，這些類可以包含其他對話框按鈕相同的CSS設定：
+此外，這兩個按鈕都共用通用的CSS類，這些類可以包含其他對話框按鈕相同的CSS設定：
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogfooter .s7button
@@ -636,7 +636,7 @@ background-color: #ffffff;
 .s7video360viewer .s7embeddialog .s7dialoginputwide
 ```
 
-**對話框輸入寬欄位的CSS屬性**
+**對話框輸入範圍欄位的CSS屬性**
 
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 
@@ -712,7 +712,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-**範例**  — 若要設定內嵌程式碼以使用 `break-word` 包字：
+**範例**  — 若要設定內嵌程式碼以使用 `break-word` 包裝文字：
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogmessage { 
@@ -794,7 +794,7 @@ background-color: #ffffff;
 
 >[!NOTE]
 >
->組合框支援`expanded`屬性選擇器，其可能值為`true`和`false`。 `true` 下拉式方塊顯示其中一個預先定義的內嵌大小時，就會使用，因此應會取用所有可用寬度。`false` 在下拉式方塊中選取「自訂大小」選項時使用，因此應縮小以允許自訂寬度和高度輸入欄位的空間。
+>組合框支援`expanded`屬性選擇器，其可能值為`true`和`false`。 組合方塊顯示其中一個預先定義的內嵌大小時，會使用`true`值，因此應取用所有可用寬度。 在下拉式方塊中選取自訂大小選項時，會使用`false`值，因此應縮小以允許自訂寬度和高度輸入欄位的空間。
 
 **範例**  — 若要在顯示預先定義的項目時將內嵌大小下拉式方塊設定為300像素寬，而在顯示自訂大小時將設定為110像素寬：
 
@@ -894,7 +894,7 @@ background-color: #ffffff;
 }
 ```
 
-下列CSS類別選取器可控制開啟組合方塊時顯示內嵌大小清單的面板：
+下列CSS類別選取器可控制下列面板，其中包含開啟下拉式方塊時顯示的內嵌大小清單：
 
 ```
 .s7video360viewer .s7embeddialog .s7comboboxdropdown
@@ -1039,7 +1039,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-**範例**  — 若要將自訂大小輸入欄位設定為一個像素灰色邊框、邊界、邊框間距，以及寬70像素：
+**範例**  — 若要將自訂大小輸入欄位設定為一個像素灰色邊框、邊距、邊框間距，以及寬70像素：
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogcustomsize { 

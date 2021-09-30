@@ -1,13 +1,13 @@
 ---
+title: 命令參考 — 配置屬性
 description: 互動式影像檢視器的設定屬性檔案。
 solution: Experience Manager
-title: 命令參考 — 配置屬性
-feature: Dynamic Media Classic，檢視器， SDK/API，互動式影像
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: 53c4b304-3b45-4ff0-91aa-a14f39ab1e94
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

@@ -1,17 +1,17 @@
 ---
-description: 視頻視頻查看器的命令參考文檔。
-solution: Experience Manager
 title: 命令參考 — URL
-feature: Dynamic Media Classic，檢視器， SDK/API，互動式影像
+description: 視訊檢視器的命令參考檔案。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: 85258a7f-83f4-4cbc-9acc-4245f20cf24c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '28'
+source-wordcount: '18'
 ht-degree: 0%
 
 ---
 
 # 命令參考 — URL{#command-reference-url}
 
-視頻視頻查看器的命令參考文檔。
+視訊檢視器的命令參考檔案。
