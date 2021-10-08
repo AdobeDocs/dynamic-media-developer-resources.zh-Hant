@@ -1,13 +1,13 @@
 ---
+title: 工具提示
 description: 在案頭系統上，某些用戶介面元素（如按鈕）具有滑鼠懸停時顯示的工具提示。
 solution: Experience Manager
-title: 工具提示
-feature: Dynamic Media Classic，檢視器，SDK/API,360 VR影片
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 051bfbed-103e-4fcf-9f01-93f03730397a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '138'
 ht-degree: 6%
 
 ---
@@ -63,9 +63,9 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->如果從嵌入網頁中自定義工具提示樣式，則所有屬性必須包含`!IMPORTANT`規則。 如果在檢視器的CSS檔案中自訂了工具提示，則不需要這個操作。
+>如果從嵌入網頁中自定義工具提示樣式，則所有屬性必須包含`!IMPORTANT`規則。 如果在檢視器的CSS檔案中自訂了工具提示，則不需要此規則。
 
-示例 — 要設定具有灰色邊框的工具提示，該邊框具有三個像素角半徑、黑色背景和白字（以Arial為11像素）:
+示例 — 要設定工具提示，這些工具提示的灰邊框具有三個像素角半徑、黑色背景和白字(以Arial®、11像素表示):
 
 ```
 .s7tooltip { 

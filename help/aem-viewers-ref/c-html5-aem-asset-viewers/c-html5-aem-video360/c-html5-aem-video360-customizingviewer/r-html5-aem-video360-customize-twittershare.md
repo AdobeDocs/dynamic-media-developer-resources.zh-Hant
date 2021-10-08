@@ -1,20 +1,20 @@
 ---
-description: Twitter共用工具包含新增至「社交分享」面板的按鈕。 按一下按鈕時，系統會將使用者重新導向至社交服務提供的共用對話方塊。 按鈕的位置由Social分享工具完全管理。
-solution: Experience Manager
 title: Twitter共用
-feature: Dynamic Media Classic，檢視器，SDK/API,360 VR影片
+description: Twitter共用工具包含新增至「社交分享」面板的按鈕。 當選取按鈕時，會將使用者重新導向至社交服務提供的共用對話方塊。 按鈕的位置由Social分享工具完全管理。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: a90a4c82-b51a-4fb0-9196-44ae4ba8e0cd
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---
 
 # Twitter共用{#twitter-share}
 
-Twitter共用工具包含新增至「社交分享」面板的按鈕。 按一下按鈕時，系統會將使用者重新導向至社交服務提供的共用對話方塊。 按鈕的位置由Social分享工具完全管理。
+Twitter共用工具包含新增至「社交分享」面板的按鈕。 當選取按鈕時，會將使用者重新導向至社交服務提供的共用對話方塊。 按鈕的位置由Social分享工具完全管理。
 
 <!--<a id="section_ADDF98E91AF24F618289D1682A5FB13A"></a>-->
 

@@ -1,14 +1,14 @@
 ---
+title: Video360Player.progressivebitrate
 description: Video360查看器的配置屬性。
 solution: Experience Manager
-title: Video360Player.progressivebitrate
-feature: Dynamic Media Classic，檢視器，SDK/API,360 VR影片
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: a253ef01-19ae-4de4-a4fc-b10b28e72c00
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 7%
+source-wordcount: '96'
+ht-degree: 8%
 
 ---
 
@@ -22,7 +22,7 @@ Video360查看器的配置屬性。
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> value</span> </p> </td> 
-   <td colname="col2"> <p> 指定以每秒kbits（或kbps）為單位的所需視訊位元速率，以在目前系統不支援最適化視訊播放時從最適化視訊集播放。 </p> <p>元件會以最接近（但不超過）指定值的位元速率擷取視訊資料流。 如果適用性視訊集中的所有視訊資料流的品質高於指定值，則邏輯會選擇品質最低的位元速率。 </p> </td> 
+   <td colname="col2"> <p> 指定以千位/秒（或千位/秒）為單位，以在目前系統不支援自適應視訊播放的情況下，從最適化視訊集播放所需的視訊位元速率。 </p> <p>元件會以最接近（但不超過）指定值的位元速率擷取視訊資料流。 如果適用性視訊集中的所有視訊資料流的品質高於指定值，則邏輯會選擇品質最低的位元速率。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

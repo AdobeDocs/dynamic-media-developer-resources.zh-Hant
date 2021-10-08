@@ -1,13 +1,13 @@
 ---
+title: 視頻清除器
 description: 視訊清除程式是水準滑桿控制項，可讓使用者動態尋找目前播放的視訊內的任何時間位置。
 solution: Experience Manager
-title: 視頻清除器
-feature: Dynamic Media Classic，檢視器，SDK/API,360 VR影片
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: a0b89b4b-5f66-41d5-88b9-a01fddec437e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '358'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-清除器「旋鈕」也會隨著視訊播放而移動，以指出播放期間視訊的目前時間位置。 視頻清除器始終佔據控制欄的整個寬度。 可將視頻清洗器皮膚化。 通過CSS更改其高度和垂直位置。
+清除器「旋鈕」也會隨著視訊播放而移動，以指出播放期間視訊的目前時間位置。 視頻清除器始終佔據控制欄的整個寬度。 可將視頻清洗器皮膚化。 依CSS變更其高度和垂直位置。
 
 視訊清除程式的一般外觀由下列CSS類別選取器控制：
 
@@ -158,7 +158,7 @@ ht-degree: 3%
 
 視頻清除器工具尖端可以定位。 如需詳細資訊，請參閱[使用者介面元素本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) 。
 
-**範例**  — 使用自訂追蹤顏色（高度為10像素）設定視訊檢視器，並從控制列的上邊緣和左邊緣放置10像素和35像素。
+**範例**  — 使用高度為十像素的自訂追蹤顏色，以視訊清除程式設定視訊檢視器。並且，從控制條的上邊緣和左邊緣定位它10個像素和35個像素。
 
 ```
 .s7video360viewer .s7videoscrubber  { 

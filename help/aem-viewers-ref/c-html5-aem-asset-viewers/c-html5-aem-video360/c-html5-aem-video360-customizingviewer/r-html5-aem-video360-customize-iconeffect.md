@@ -1,13 +1,13 @@
 ---
+title: 表徵圖效果
 description: 播放圖示重疊在主檢視區域上。 它會在視訊暫停或到達視訊結尾時顯示，且也取決於iconeffect參數。
 solution: Experience Manager
-title: 表徵圖效果
-feature: Dynamic Media Classic，檢視器，SDK/API,360 VR影片
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: e25a3b9d-88ef-4214-9b6b-2527ebf0f145
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '169'
 ht-degree: 1%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-表徵圖效果支援`state`屬性選擇器。 `state="play"` 當視訊在播放中間暫停時使用， `state="replay"` 當播放點在資料流結尾時使用。
+表徵圖效果支援`state`屬性選擇器。 當播放中間暫停視訊時，使用屬性選取器`state="play"`，當播放點位於資料流結尾時，則使用`state="replay"`。
 
 **範例**  — 設定100 x 100像素播放圖示。
 

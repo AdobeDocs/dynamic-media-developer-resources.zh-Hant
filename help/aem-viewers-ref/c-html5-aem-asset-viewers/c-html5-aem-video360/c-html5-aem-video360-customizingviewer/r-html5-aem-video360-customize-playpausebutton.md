@@ -1,13 +1,13 @@
 ---
+title: 播放/暫停按鈕
 description: 播放/暫停按鈕可讓視訊播放器在使用者點按時播放或暫停視訊內容。
 solution: Experience Manager
-title: 播放/暫停按鈕
-feature: Dynamic Media Classic，檢視器，SDK/API,360 VR影片
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 5f8741a4-d286-4b2d-8a11-23bce119209a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '264'
 ht-degree: 2%
 
 ---
@@ -69,11 +69,11 @@ ht-degree: 2%
 >
 >此按鈕支援`state`、`selected`和`replay`屬性選擇器，它們可用於將不同的外觀應用於不同的按鈕狀態。 尤其`selected='true'`對應於「play」狀態，`selected='false'`對應於「pause」狀態；
 >
->`replay='true'` 是當視訊達到結尾，然後按一下按鈕會從開頭重新啟動播放時設定。
+>當視訊到達結尾時，會設定屬性選取器`replay='true'`，並選取按鈕會從開頭重新啟動播放。
 
 按鈕工具提示可以本地化。 如需詳細資訊，請參閱[使用者介面元素本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) 。
 
-**範例**  — 若要設定32 x 32像素的播放/暫停按鈕；它從控制條的上邊緣和左邊緣定位6個像素，當選中或未選中時，它為四個不同的按鈕狀態中的每個狀態顯示不同的影像。
+**範例**  — 設定32 x 32像素的播放/暫停按鈕。讓它從控制條的上邊緣和左邊緣定位六個像素。 最後，當選取或未選取時，會針對四個不同按鈕狀態中的每一個顯示不同的影像。
 
 ```
 .s7video360viewer .s7playpausebutton { 

@@ -1,13 +1,13 @@
 ---
+title: 命令參考 — 配置屬性
 description: Video360檢視器的設定屬性檔案。
 solution: Experience Manager
-title: 命令參考 — 配置屬性
-feature: Dynamic Media Classic，檢視器，SDK/API,360 VR影片
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 75a9e83a-2f6e-4bfa-8881-52f8fe06f2fd
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Video360檢視器的設定屬性檔案。
 
 `[VideoPlayer.|<containerId>_videoPlayer].playback`
 
-這表示您可以將此命令用作：
+這表示您可以在下列項目中使用此命令：
 
 * `playback` （簡短語法）
 * `VideoPlayer.playback` （以元件類名稱限定）

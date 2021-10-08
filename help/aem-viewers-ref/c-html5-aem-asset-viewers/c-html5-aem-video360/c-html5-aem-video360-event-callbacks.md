@@ -1,13 +1,13 @@
 ---
+title: 事件回呼
 description: 事件回呼
 solution: Experience Manager
-title: 事件回呼
-feature: Dynamic Media Classic，檢視器，SDK/API,360 VR影片
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 24ea35c0-a0b1-4768-9336-94eb5e2d4fb2
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '149'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 
    * `objID {String}` 目前未使用。
    * `compClass {String}` 目前未使用。
-   * `instName {String}` 觸發事件的HTML5檢視器SDK元件例項名稱。
+   * `instName {String}` 觸發事件的HTML5檢視器SDK元件的例項名稱。
    * `timeStamp {Number}` 事件時間戳記。
    * `eventInfo {String}` 事件裝載。
 

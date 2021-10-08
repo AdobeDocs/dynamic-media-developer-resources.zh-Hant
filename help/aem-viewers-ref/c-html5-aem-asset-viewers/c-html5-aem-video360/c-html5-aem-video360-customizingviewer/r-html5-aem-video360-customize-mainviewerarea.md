@@ -1,20 +1,20 @@
 ---
-description: 主要的觀看區域是360視頻所佔用的區域。 當未指定大小時，通常會設定為適合可用的裝置畫面。
-solution: Experience Manager
 title: 主觀看者區域
-feature: Dynamic Media Classic，檢視器，SDK/API,360 VR影片
+description: 主要的觀看區域是360視頻所佔用的區域。 若未指定大小，則此量度會設定為適合可用裝置畫面。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 912cb4b3-6409-48ed-9b9c-968b63718a1b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '114'
 ht-degree: 3%
 
 ---
 
 # 主觀看者區域{#main-viewer-area}
 
-主要的觀看區域是360視頻所佔用的區域。 當未指定大小時，通常會設定為適合可用的裝置畫面。
+主要的觀看區域是360視頻所佔用的區域。 若未指定大小，則此量度會設定為適合可用裝置畫面。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 

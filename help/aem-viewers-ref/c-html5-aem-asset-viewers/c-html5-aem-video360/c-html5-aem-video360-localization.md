@@ -1,20 +1,20 @@
 ---
-description: 檢視器顯示的特定內容會受本地化規範。 這包括使用者介面元素工具提示，以及視訊無法播放時顯示的錯誤訊息。
-solution: Experience Manager
 title: 用戶介面元素本地化
-feature: Dynamic Media Classic，檢視器，SDK/API,360 VR影片
+description: 檢視器顯示的特定內容會受本地化規範。 這些內容包括用戶介面元素工具提示和當視頻無法播放時顯示的錯誤消息。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: d54fd841-2246-4d2e-8bf9-7da56f2487f3
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
 
 # 用戶介面元素本地化{#localization-of-user-interface-elements}
 
-檢視器顯示的特定內容會受本地化規範。 這包括使用者介面元素工具提示，以及視訊無法播放時顯示的錯誤訊息。
+檢視器顯示的特定內容會受本地化規範。 這些內容包括用戶介面元素工具提示和當視頻無法播放時顯示的錯誤消息。
 
 檢視器中可本地化的每個文字內容，都會以稱為SYMBOL的特殊檢視器SDK識別碼表示。 任何SYMBOL都具有由現成查看器提供的英語區域設定(`"en"`)的預設關聯文本值。 也可以根據需要設定用戶定義的值。
 

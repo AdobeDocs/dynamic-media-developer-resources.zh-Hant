@@ -1,13 +1,13 @@
 ---
+title: 輔助技術支援
 description: 所有檢視器元件都支援ARIA（可存取的豐富網際網路應用程式）角色和屬性，以改善與輔助技術（例如螢幕閱讀器）的整合。
 solution: Experience Manager
-title: 輔助技術支援
-feature: Dynamic Media Classic，檢視器，SDK/API,360 VR視訊，協助工具
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video,Accessibility
 role: Developer,User
 exl-id: 0d6bc444-a4c2-47e4-b408-a6df85ebff72
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '177'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,6 @@ ht-degree: 0%
 
 滑桿元件具有`slider`角色，具有`aria-valuenow`、`aria-valuemin`和`aria-valuemax`屬性，以描述當前滑桿位置。
 
-下拉清單由參考實際下拉式面板元素的附加`aria-haspopup`屬性設為`true`和`aria-controls`屬性的按鈕來啟動。 下拉式面板本身具有角色`menu`，其子元素具有角色`menuitem`。 每個菜單項都指定了`aria-label`屬性。
+下拉清單由參考實際下拉式面板元素的附加`aria-haspopup`屬性設為`true`和`aria-controls`屬性的按鈕來啟動。 下拉式面板本身具有角色`menu`，子元素具有角色`menuitem`。 每個菜單項都指定了`aria-label`屬性。
 
 強制回應對話方塊的角色為`dialog`。 `aria-labelledby`屬性引用了對話框的標題元素。

@@ -1,13 +1,13 @@
 ---
+title: setContainerId
 description: Video360檢視器的JavaScript API參考。
 solution: Experience Manager
-title: setContainerId
-feature: Dynamic Media Classic，檢視器，SDK/API,360 VR影片
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: b0145fb0-2b0d-40ce-ac18-029f54bc4050
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '88'
 ht-degree: 3%
 
 ---
