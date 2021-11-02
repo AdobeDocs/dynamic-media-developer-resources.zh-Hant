@@ -3,9 +3,9 @@ cloud: Experience Cloud
 user-guide-title: Dynamic Media 檢視器參考指南
 feature-set: Experience Manager Assets
 user-guide-description: 自訂 Dynamic Media 檢視器以用於桌上型電腦和觸控螢幕裝置。包括互動式影像和影片、浮動切換、迴轉集等。
-source-git-commit: 06ea55bebbb16de643fec96147ec2b648bb5783b
+source-git-commit: b061c9f742b32ba48e6970a029e228afd7e36554
 workflow-type: tm+mt
-source-wordcount: '1901'
+source-wordcount: '1928'
 ht-degree: 6%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 6%
 + [檢視器程式庫範例](https://landing.adobe.com/tw/na/dynamic-media/ctir-2755/live-demos.html)
 + [系統需求](c-system-requirements-and-prerequisites.md)
 + [在同一伺服器上安裝多個檢視器](t-installing-the-viewers.md)
-+ 檢視器發行說明{#viewers-release-notes}
++ 檢視器發行說明 {#viewers-release-notes}
    + [檢視器發行說明(5.16.1)](c-release-notes/c-rn-04-06-21.md)
    + [檢視器發行說明(5.15.3)](c-release-notes/c-rn-01-13-21.md)
    + 封存 {#archive}
@@ -36,11 +36,11 @@ ht-degree: 6%
 + [相容性說明](c-compatibility-notes.md)
 + [鍵盤協助工具和導覽](c-keyboard-accessibility.md)
 + [檢視器SDK教學課程](c-tutorial.md)
-+ AEM Assets和Dynamic Media Classic的檢視器{#viewers-aem-assets-dmc}
++ AEM Assets和Dynamic Media Classic的檢視器 {#viewers-aem-assets-dmc}
    + [AEM Assets和Dynamic Media Classic的檢視器](c-html5-s7-aem-asset-viewers/c-html5-s7-aem-asset-viewers.md)
-   + 基本縮放{#basic-zoom}
+   + 基本縮放 {#basic-zoom}
       + [基本縮放檢視器](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-about.md)
-      + 命令引用 — 配置屬性{#command-reference-configuration-attributes-basic-zoom}
+      + 命令參考 — 配置屬性 {#command-reference-configuration-attributes-basic-zoom}
          + [命令參考 — 配置屬性](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/r-html5-basic-zoom-viewer-20-config-attrib/r-html5-basic-zoom-viewer-20-config-attrib.md)
          + [關閉按鈕](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/r-html5-basic-zoom-viewer-20-config-attrib/r-html5-basic-zoom-viewer-20-config-attrib-closebutton.md)
          + [ZoomView.doubleclick](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/r-html5-basic-zoom-viewer-20-config-attrib/r-html5-basic-zoom-viewer-20-config-attrib-zoomview-doubleclick.md)
@@ -54,7 +54,7 @@ ht-degree: 6%
          + [ZoomView.singleclick](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/r-html5-basic-zoom-viewer-20-config-attrib/r-html5-basic-zoom-viewer-20-config-attrib-zoomview-singleclick.md)
          + [ZoomView.transition](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/r-html5-basic-zoom-viewer-20-config-attrib/r-html5-basic-zoom-viewer-20-config-attrib-zoomview-transition.md)
          + [ZoomView.zoomstep](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/r-html5-basic-zoom-viewer-20-config-attrib/r-html5-basic-zoom-viewer-20-config-attrib-zoomview-zoomstep.md)
-      + 基本縮放檢視器{#jsapi-basic-zoom}的JavaScript API參考
+      + 基本縮放檢視器的JavaScript API參考 {#jsapi-basic-zoom}
          + [基本縮放檢視器的JavaScript API參考](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-javascriptapiref/c-html5-20-basic-zoom-viewer-javascriptapiref.md)
          + [BasicZoomViewer](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-javascriptapiref/r-html5-basic-zoom-viewer-20-javascriptapiref-basiczoomviewer.md)
          + [處置](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-javascriptapiref/r-html5-basic-zoom-viewer-20-javascriptapiref-dispose.md)
@@ -67,7 +67,7 @@ ht-degree: 6%
          + [setParam](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-javascriptapiref/r-html5-basic-zoom-viewer-20-javascriptapiref-setaram.md)
          + [setParams](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-javascriptapiref/r-html5-basic-zoom-viewer-20-javascriptapiref-setparams.md)
       + [事件回呼](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-event-callbacks.md)
-      + 自定義基本縮放查看器{#customizing-basic-zoom}
+      + 自訂基本縮放檢視器 {#customizing-basic-zoom}
          + [自訂基本縮放檢視器](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-customizingviewer/c-html5-20-basic-zoom-viewer-customizingviewer.md)
          + [關閉按鈕](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-customizingviewer/r-html5-basic-zoom-viewer-20-customize-closebutton.md)
          + [焦點醒目提示](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-customizingviewer/r-html5-basic-zoom-viewer-20-customize-focushighlight.md)
@@ -86,7 +86,7 @@ ht-degree: 6%
       + [檢視器SDK命名空間](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-html5-viewer-sdk-namespace.md)
    + eCatalog {#ecatalog}
       + [eCatalog](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-about.md)
-      + 命令引用 — Configuration-attributes {#command-reference-configuration-attributes-ecatalog}
+      + 命令引用 — 配置屬性 {#command-reference-configuration-attributes-ecatalog}
          + [命令參考 — 配置屬性](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/r-html5-ecatalog-viewer-20-config-attrib/r-html5-ecatalog-viewer-20-config-attrib.md)
          + [關閉按鈕](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/r-html5-ecatalog-viewer-20-config-attrib/r-html5-ecatalog-viewer-20-config-attrib-closebutton.md)
          + [ControlBar.transition](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/r-html5-ecatalog-viewer-20-config-attrib/r-html5-ecatalog-viewer-20-config-attrib-controlbar-transition.md)
@@ -131,7 +131,7 @@ ht-degree: 6%
          + [ThumbnailGridView.maxloadradius](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/r-html5-ecatalog-viewer-20-config-attrib/r-html5-ecatalog-viewer-20-config-attrib-thumbnailgridview-maxloadradius.md)
          + [ThumbnailGridView.scrollbar](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/r-html5-ecatalog-viewer-20-config-attrib/r-html5-ecatalog-viewer-20-config-attrib-thumbnailgridview-scrollbar.md)
          + [ThumbnailGridView.textpos](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/r-html5-ecatalog-viewer-20-config-attrib/r-html5-ecatalog-viewer-20-config-attrib-thumbnailgridview-textpos.md)
-      + eCatalog檢視器{#jsapi-ecatalog}的JavaScript API參考
+      + eCatalog檢視器的JavaScript API參考 {#jsapi-ecatalog}
          + [eCatalog檢視器的JavaScript API參考](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/c-html5-20-ecatalog-viewer-javascriptapiref.md)
          + [處置](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/r-html5-ecatalog-viewer-20-javascriptapiref-dispose.md)
          + [eCatalogViewer](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/r-html5-ecatalog-viewer-20-javascriptapiref-ecatalogviewer.md)
@@ -144,7 +144,7 @@ ht-degree: 6%
          + [setParam](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/r-html5-ecatalog-viewer-20-javascriptapiref-setparam.md)
          + [setParams](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/r-html5-ecatalog-viewer-20-javascriptapiref-setparams.md)
       + [事件回呼](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-event-callbacks.md)
-      + 自定義eCatalog查看器{#customizing-ecatalog}
+      + 自訂eCatalog檢視器 {#customizing-ecatalog}
          + [自訂eCatalog檢視器](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md)
          + [添加收藏夾按鈕](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-addfavorite.md)
          + [關閉按鈕](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-closebutton.md)
@@ -194,9 +194,9 @@ ht-degree: 6%
       + [下載](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-download.md)
       + [我的最愛功能](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-favorites-feature.md)
       + [檢視器SDK命名空間](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-html5-viewer-sdk-namespace.md)
-   + eCatalog搜索{#ecatalog-search}
+   + eCatalog搜尋 {#ecatalog-search}
       + [eCatalog搜尋](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-about.md)
-      + 命令引用 — 配置屬性{#command-reference-configuration-attributes-ecatalog-search}
+      + 命令參考 — 配置屬性 {#command-reference-configuration-attributes-ecatalog-search}
          + [命令參考 — 配置屬性](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/r-html5-ecatsearch-config-attrib/r-html5-ecatsearch-config-attrib.md)
          + [關閉按鈕](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/r-html5-ecatsearch-config-attrib/r-html5-ecatsearch-config-attrib-closebutton.md)
          + [ControlBar.transition](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/r-html5-ecatsearch-config-attrib/r-html5-ecatsearch-config-attrib-controlbar-transition.md)
@@ -247,7 +247,7 @@ ht-degree: 6%
          + [ThumbnailGridView.maxloadradius](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/r-html5-ecatsearch-config-attrib/r-html5-ecatsearch-config-attrib-thumbnailgridview-maxloadradius.md)
          + [ThumbnailGridView.scrollbar](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/r-html5-ecatsearch-config-attrib/r-html5-ecatsearch-config-attrib-thumbnailgridview-scrollbar.md)
          + [ThumbnailGridView.textpos](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/r-html5-ecatsearch-config-attrib/r-html5-ecatsearch-config-attrib-thumbnailgridview-textpos.md)
-      + eCatalog搜尋檢視器{#jsapi-ecatalog-search}的JavaScript API參考
+      + eCatalog搜尋檢視器的JavaScript API參考 {#jsapi-ecatalog-search}
          + [eCatalog搜尋檢視器的JavaScript API參考](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-javascriptapiref/c-html5-ecatsearch-viewer-javascriptapiref.md)
          + [處置](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-javascriptapiref/r-html5-ecatsearch-javascriptapiref-dispose.md)
          + [eCatalogSearchViewer](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-javascriptapiref/r-html5-ecatsearch-javascriptapiref-ecatalogsearchviewer.md)
@@ -260,7 +260,7 @@ ht-degree: 6%
          + [setParam](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-javascriptapiref/r-html5-ecatsearch-javascriptapiref-setparam.md)
          + [setParams](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-javascriptapiref/r-html5-ecatsearch-javascriptapiref-setparams.md)
       + [事件回呼](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-event-callbacks.md)
-      + 自定義eCatalog搜索查看器{#customize-ecatalog-search}
+      + 自訂eCatalog搜尋檢視器 {#customize-ecatalog-search}
          + [自訂eCatalog搜尋檢視器](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md)
          + [添加收藏夾按鈕](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-addfavorite.md)
          + [關閉按鈕](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-closebutton.md)
@@ -315,7 +315,7 @@ ht-degree: 6%
       + [檢視器SDK命名空間](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-html5-viewer-sdk-namespace.md)
    + 彈出 {#flyout}
       + [彈出](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-about.md)
-      + 命令引用 — 配置屬性{#command-reference-configuration-attributes-flyout}
+      + 命令參考 — 配置屬性 {#command-reference-configuration-attributes-flyout}
          + [命令參考 — 配置屬性](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/r-html5-flyout-viewer-20-conf-attrib/r-html5-flyout-viewer-20-conf-attrib.md)
          + [FlyoutZoomView.flyouttransition](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/r-html5-flyout-viewer-20-conf-attrib/r-html5-flyout-viewer-20-conf-attrib-flyoutzoomview-flyouttransition.md)
          + [FlyoutZoomView.fmt](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/r-html5-flyout-viewer-20-conf-attrib/r-html5-flyout-viewer-20-conf-attrib-flyoutzoomview-fmt.md)
@@ -336,7 +336,7 @@ ht-degree: 6%
          + [Swatches.pagemode](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/r-html5-flyout-viewer-20-conf-attrib/r-html5-flyout-viewer-20-conf-attrib-swatches-pagemode.md)
          + [Swatches.partialswatches](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/r-html5-flyout-viewer-20-conf-attrib/r-html5-flyout-viewer-20-conf-attrib-swatches-partialswatches.md)
          + [Swatches.scrollstep](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/r-html5-flyout-viewer-20-conf-attrib/r-html5-flyout-viewer-20-conf-attrib-swatches-scrollstep.md)
-      + 飛出檢視器{#jsapi-flyout}的JavaScript API參考
+      + 飛出檢視器的JavaScript API參考 {#jsapi-flyout}
          + [飛出檢視器的JavaScript API參考](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/c-html5-flyout-viewer-20-javascriptapiref.md)
          + [處置](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-dispose.md)
          + [FlyoutViewer](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-.flyoutviewer.md)
@@ -349,7 +349,7 @@ ht-degree: 6%
          + [setParam](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-setparam.md)
          + [setParams](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-setparams.md)
       + [事件回呼](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-event-callbacks.md)
-      + 自定義彈出查看器{#customize-flyout}
+      + 自訂彈出檢視器 {#customize-flyout}
          + [自訂彈出檢視器](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md)
          + [彈出縮放視圖](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/r-html5-flyout-viewer-20-customize-flyoutzoomview.md)
          + [焦點醒目提示](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/r-html5-flyout-viewer-20-customize-focushighlight.md)
@@ -360,9 +360,9 @@ ht-degree: 6%
       + [輔助技術支援](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-assistive.md)
       + [用戶介面元素本地化](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md)
       + [檢視器SDK命名空間](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-namespace.md)
-   + 內嵌縮放{#inline-zoom}
+   + 內嵌縮放 {#inline-zoom}
       + [內嵌縮放](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-about.md)
-      + 命令引用 — 配置屬性{#command-reference-configuration-attributes-inline-zoom}
+      + 命令參考 — 配置屬性 {#command-reference-configuration-attributes-inline-zoom}
          + [命令參考 — 配置屬性](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/r-html5-inlinezoom-viewer-conf-attrib/r-html5-inlinezoom-viewer-conf-attrib.md)
          + [FlyoutZoomView.flyouttransition](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/r-html5-inlinezoom-viewer-conf-attrib/r-html5-inlinezoom-viewer-conf-attrib-flyoutzoomview-flyouttransition.md)
          + [FlyoutZoomView.fmt](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/r-html5-inlinezoom-viewer-conf-attrib/r-html5-inlinezoom-viewer-conf-attrib-flyoutzoomview-fmt.md)
@@ -381,7 +381,7 @@ ht-degree: 6%
          + [Swatches.pagemode](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/r-html5-inlinezoom-viewer-conf-attrib/r-html5-inlinezoom-viewer-conf-attrib-swatches-pagemode.md)
          + [Swatches.partialswatches](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/r-html5-inlinezoom-viewer-conf-attrib/r-html5-inlinezoom-viewer-conf-attrib-swatches-partialswatches.md)
          + [Swatches.scrollstep](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/r-html5-inlinezoom-viewer-conf-attrib/r-html5-inlinezoom-viewer-conf-attrib-swatches-scrollstep.md)
-      + 內嵌縮放檢視器{#jsapi-inline-zoom}的JavaScript API參考
+      + 內嵌縮放檢視器的JavaScript API參考 {#jsapi-inline-zoom}
          + [內嵌縮放檢視器的JavaScript API參考](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-javascriptapiref/c-html5-inlinezoom-viewer-javascriptapiref.md)
          + [處置](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-javascriptapiref/r-html5-inlinezoom-viewer-javascriptapiref-dispose.md)
          + [FlyoutViewer](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-javascriptapiref/r-html5-inlinezoom-viewer-javascriptapiref-inlinezoomviewer.md)
@@ -394,7 +394,7 @@ ht-degree: 6%
          + [setParam](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-javascriptapiref/r-html5-inlinezoom-viewer-javascriptapiref-setparam.md)
          + [setParams](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-javascriptapiref/r-html5-inlinezoom-viewer-javascriptapiref-setparams.md)
       + [事件回呼](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-event-callbacks.md)
-      + 自訂內嵌縮放檢視器{#customing-inline-zoom}
+      + 自訂內嵌縮放檢視器 {#customing-inline-zoom}
          + [自訂內嵌縮放檢視器](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/c-html5-inlinezoom-viewer-customizingviewer.md)
          + [主觀看者區域](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/r-html5-inlinezoom-viewer-customize-mainviewerarea.md)
          + [彈出縮放視圖](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/r-html5-inlinezoom-viewer-customize-inlinezoomview.md)
@@ -407,7 +407,7 @@ ht-degree: 6%
       + [檢視器SDK命名空間](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-namespace.md)
    + 混合媒體 {#mixed-media}
       + [混合媒體](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-about.md)
-      + 命令引用 — 配置屬性{#command-reference-configuration-attributes-mixed-media}
+      + 命令參考 — 配置屬性 {#command-reference-configuration-attributes-mixed-media}
          + [命令參考 — 配置屬性](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib.md)
          + [關閉按鈕](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-closebutton.md)
          + [ControlBar.transition](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-controlbar-transition.md)
@@ -465,7 +465,7 @@ ht-degree: 6%
          + [ZoomView.singleclick](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-zoomview-singleclick.md)
          + [ZoomView.transition](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-zoomview-transition.md)
          + [ZoomView.zoomstep](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-zoomview-zoomstep.md)
-      + 混合媒體檢視器{#jsapi-mixed-media}的JavaScript API參考
+      + 混合媒體檢視器的JavaScript API參考 {#jsapi-mixed-media}
          + [混合媒體檢視器的JavaScript API參考](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/c-html5-mixedmedia-viewer-javascriptapiref.md)
          + [處置](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-dispose.md)
          + [getComponent](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-getcomponent.md)
@@ -478,7 +478,7 @@ ht-degree: 6%
          + [setParam](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-setparam.md)
          + [setParams](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-setparams.md)
       + [事件回呼](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-event-callbacks.md)
-      + 自訂混合媒體檢視器{#customing-mixed-media}
+      + 自訂混合媒體檢視器 {#customing-mixed-media}
          + [自訂混合媒體檢視器](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md)
          + [註解按鈕](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-captionbutton.md)
          + [關閉按鈕](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-closebutton.md)
@@ -515,7 +515,7 @@ ht-degree: 6%
       + [檢視器SDK命名空間](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-namespace.md)
    + 迴轉 {#spin}
       + [回轉檢視器](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-about.md)
-      + 命令引用 — 配置屬性{#command-reference-configuration-attributes-spin}
+      + 命令參考 — 配置屬性 {#command-reference-configuration-attributes-spin}
          + [命令參考 — 配置屬性](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/r-html5-spin-viewer-config-attrib/r-html5-spin-viewer-config-attrib.md)
          + [關閉按鈕](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/r-html5-spin-viewer-config-attrib/r-html5-spin-viewer-config-attrib-closebutton.md)
          + [SpinView.doubleclick](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/r-html5-spin-viewer-config-attrib/r-html5-spin-viewer-config-attrib-spinview-doubleclick.md)
@@ -530,7 +530,7 @@ ht-degree: 6%
          + [SpinView.transition](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/r-html5-spin-viewer-config-attrib/r-html5-spin-viewer-config-attrib-spinview-transition.md)
          + [SpinView.zoomstep](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/r-html5-spin-viewer-config-attrib/r-html5-spin-viewer-config-attrib-spinview-zoomstep.md)
          + [ZoomView.enableHD](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/r-html5-spin-viewer-config-attrib/r-html5-spin-viewer-config-attrib-zoomview-enablehd.md)
-      + 回轉檢視器{#jsapi-spin}的JavaScript API參考
+      + 回轉檢視器的JavaScript API參考 {#jsapi-spin}
          + [回轉檢視器的JavaScript API參考](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/c-html5-spin-viewer-javascriptapiref.md)
          + [處置](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/r-html5-spin-viewer-javascriptapiref-dispose.md)
          + [getComponent](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/r-html5-spin-viewer-javascriptapiref-getcomponent.md)
@@ -543,7 +543,7 @@ ht-degree: 6%
          + [setParams](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/r-html5-spin-viewer-javascriptapiref-setparams.md)
          + [回轉檢視器](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/r-html5-spin-viewer-javascriptapiref-spinviewer.md)
       + [事件回呼](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-event-callbacks.md)
-      + 自訂回轉檢視器{#customizing-spin}
+      + 自訂回轉檢視器 {#customizing-spin}
          + [自訂回轉檢視器](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md)
          + [關閉按鈕](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/r-html5-spin-viewer-customize-closebutton.md)
          + [焦點醒目提示](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/r-html5-spin-viewer-customize-focushighlight.md)
@@ -564,7 +564,7 @@ ht-degree: 6%
       + [檢視器SDK命名空間](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-namespace.md)
    + 視訊 {#video}
       + [視訊](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-reference.md)
-      + 命令引用 — 配置屬性{#command-reference-configuration-attributes-video}
+      + 命令參考 — 配置屬性 {#command-reference-configuration-attributes-video}
          + [命令參考 — 配置屬性](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref/c-html5-video-cmdref.md)
          + [ControlBar.transition](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref/r-html5-video-viewer-conf-attrib-controlbar-transition.md)
          + [EmailShare.emailurl](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref/r-html5-video-viewer-conf-attrib-emailshare-emailurl.md)
@@ -587,13 +587,13 @@ ht-degree: 6%
          + [VideoScrubber.showchaptertitle](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref/r-html5-video-viewer-conf-attrib-videoscrubber-showchaptertitle.md)
          + [VideoScrubber.timepattern](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref/r-html5-video-viewer-conf-attrib-videoscrubber-timepattern.md)
          + [VideoTime.timepattern](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref/r-html5-video-viewer-conf-attrib-videotime-timepattern.md)
-      + 命令引用 — URL {#command-reference-url-video}
+      + 命令參考 — URL {#command-reference-url-video}
          + [命令參考 — URL](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref-url/c-html5-video-cmdref-url.md)
          + [字幕](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref-url/r-html5-video-viewer-url-caption.md)
          + [導覽](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref-url/r-html5-video-viewer-url-navigation.md)
          + [視訊](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref-url/r-html5-video-viewer-url-video.md)
          + [videoServerUrl](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref-url/r-html5-video-viewer-url-videoserverurl.md)
-      + 視訊檢視器{#jsapi-video}的JavaScript API參考
+      + 視訊檢視器的JavaScript API參考 {#jsapi-video}
          + [視訊檢視器的JavaScript API參考](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/c-html5-video-viewer-20-javascriptapiref.md)
          + [處置](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-dispose.md)
          + [getComponent](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-getcomponent.md)
@@ -607,7 +607,7 @@ ht-degree: 6%
          + [setVideo](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-setvideo.md)
          + [VideoViewer](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-videoviewer.md)
       + [事件回呼](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-event-callbacks.md)
-      + 自訂視訊檢視器{#customizing-video-viewer}
+      + 自訂視訊檢視器 {#customizing-video-viewer}
          + [自訂視訊檢視器](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md)
          + [註解按鈕](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-customize-captionbutton.md)
          + [控制欄](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-20-customize-controlbar.md)
@@ -636,7 +636,7 @@ ht-degree: 6%
       + [檢視器SDK命名空間](c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-namespace.md)
    + 縮放 {#zoom}
       + [Zoom](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-about.md)
-      + 命令引用 — 配置屬性{#command-reference-configuration-attributes-zoom}
+      + 命令參考 — 配置屬性 {#command-reference-configuration-attributes-zoom}
          + [命令參考 — 配置屬性](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/r-html5-zoom-viewer-20-config-attrib/r-html5-zoom-viewer-20-config-attrib.md)
          + [關閉按鈕](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/r-html5-zoom-viewer-20-config-attrib/r-html5-zoom-viewer-20-config-attrib-closebutton.md)
          + [Swatches.align](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/r-html5-zoom-viewer-20-config-attrib/r-html5-zoom-viewer-20-config-attrib-swatches-align.md)
@@ -660,7 +660,7 @@ ht-degree: 6%
          + [ZoomView.singleclick](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/r-html5-zoom-viewer-20-config-attrib/r-html5-zoom-viewer-20-config-attrib-zoomview-singleclick.md)
          + [ZoomView.transition](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/r-html5-zoom-viewer-20-config-attrib/r-html5-zoom-viewer-20-config-attrib-zoomview-transition.md)
          + [ZoomView.zoomstep](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/r-html5-zoom-viewer-20-config-attrib/r-html5-zoom-viewer-20-config-attrib-zoomview-zoomstep.md)
-      + 縮放檢視器{#jsapi-zoom}的Javascript API參考
+      + 縮放檢視器的Javascript API參考資料 {#jsapi-zoom}
          + [縮放檢視器的Javascript API參考資料](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/c-html5-20-zoom-viewer-javascriptapiref.md)
          + [處置](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/r-html5-zoom-viewer-20-javascriptapiref-dispose.md)
          + [getComponent](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/r-html5-zoom-viewer-20-javascriptapiref-getcomponent.md)
@@ -673,7 +673,7 @@ ht-degree: 6%
          + [setParams](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/r-html5-zoom-viewer-20-javascriptapiref-setparams.md)
          + [ZoomViewer](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/r-html5-zoom-viewer-20-javascriptapiref-zoomviewer.md)
       + [事件回呼](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-event-callbacks.md)
-      + 自定義縮放查看器{#customizing-zoom}
+      + 自訂縮放檢視器 {#customizing-zoom}
          + [自訂縮放檢視器](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/c-html5-20-zoom-viewer-customizingviewer.md)
          + [關閉按鈕](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/r-html5-zoom-viewer-20-customize-closebutton.md)
          + [焦點醒目提示](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/r-html5-zoom-viewer-20-customize-focushighlight.md)
@@ -692,11 +692,11 @@ ht-degree: 6%
       + [用戶介面元素本地化](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-localization.md)
       + [全螢幕支援](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-full-screen-support.md)
       + [檢視器SDK命名空間](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-namespace.md)
-+ 僅適用於AEM Assets的檢視器{#viewers-for-aem-assets-only}
++ 僅限AEM Assets的檢視器 {#viewers-for-aem-assets-only}
    + [僅限AEM Assets的檢視器](c-html5-aem-asset-viewers/c-html5-aem-asset-viewers.md)
    + 轉盤 {#carousel}
       + [轉盤](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel.md)
-      + 命令引用 — 配置屬性{#command-reference-configuration-attributes-carousel}
+      + 命令參考 — 配置屬性 {#command-reference-configuration-attributes-carousel}
          + [命令參考 — 配置屬性](c-html5-aem-asset-viewers/c-html5-aem-carousel/r-html5-aem-carousel-conf-attrib/r-html5-aem-carousel-conf-attrib.md)
          + [CarouselView.autoplay](c-html5-aem-asset-viewers/c-html5-aem-carousel/r-html5-aem-carousel-conf-attrib/r-html5-aem-carousel-config-attrib-carouselview-autoplay.md)
          + [CarouselView.frametransition](c-html5-aem-asset-viewers/c-html5-aem-carousel/r-html5-aem-carousel-conf-attrib/r-html5-aem-carousel-config-attrib-carouselview-frametransition.md)
@@ -707,10 +707,10 @@ ht-degree: 6%
          + [SetIndicator.autohide](c-html5-aem-asset-viewers/c-html5-aem-carousel/r-html5-aem-carousel-conf-attrib/r-html5-aem-carousel-config-attrib-setindicator-autohide.md)
          + [SetIndicator.mode](c-html5-aem-asset-viewers/c-html5-aem-carousel/r-html5-aem-carousel-conf-attrib/r-html5-aem-carousel-config-attrib-setindicator-mode.md)
          + [ControlBar.transition](c-html5-aem-asset-viewers/c-html5-aem-carousel/r-html5-aem-carousel-conf-attrib/r-html5-aem-carousel-config-attrib-controlbar-transition.md)
-      + 命令引用 — URL {#command-reference-url-carousel}
+      + 命令參考 — URL {#command-reference-url-carousel}
          + [命令參考 — URL](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-cmdref-url/c-html5-aem-carousel-cmdref-url.md)
          + [preloadimage**](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-cmdref-url/r-html5-aem-carousel-cmdref-url-preloadimage.md)
-      + 輪播檢視器{#jsapi-carousel}的JavaScript API參考
+      + 輪播檢視器的JavaScript API參考 {#jsapi-carousel}
          + [輪播檢視器的JavaScript API參考](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-javascriptapiref/c-html5-aem-carousel-javascriptapiref.md)
          + [轉盤檢視器](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-javascriptapiref/r-html5-aem-carousel-javascriptapiref-carouselviewer.md)
          + [處置](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-javascriptapiref/r-html5-aem-carousel-javascriptapiref-dispose.md)
@@ -723,7 +723,7 @@ ht-degree: 6%
          + [setParam](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-javascriptapiref/r-html5-aem-carousel-javascriptapiref-setparam.md)
          + [setParams](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-javascriptapiref/r-html5-aem-carousel-javascriptapiref-setparams.md)
       + [事件回呼](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-event-callbacks.md)
-      + 自訂轉盤檢視器{#customizing-carousel}
+      + 自訂轉盤檢視器 {#customizing-carousel}
          + [自訂轉盤檢視器](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md)
          + [輪播檢視](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/r-html5-aem-carousel-customize-carouselview.md)
          + [焦點醒目提示](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/r-html5-aem-carousel-customize-focushighlight.md)
@@ -740,17 +740,17 @@ ht-degree: 6%
       + [熱點和影像地圖支援](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-hotspot--image-support.md)
       + [預載影像](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-preload-image.md)
       + [檢視器SDK命名空間](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-namespace.md)
-   + 互動式影像{#interactive-images}
+   + 互動式影像 {#interactive-images}
       + [互動式影像](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-images.md)
-      + 命令引用 — 配置屬性{#command-reference-configuration-attributes-interactive-images}
+      + 命令參考 — 配置屬性 {#command-reference-configuration-attributes-interactive-images}
          + [命令參考 — 配置屬性](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/r-html5-aem-interactive-image-conf-attrib/r-html5-aem-interactive-image-conf-attrib.md)
          + [ZoomView.enableHD](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/r-html5-aem-interactive-image-conf-attrib/r-html5-aem-interactive-image-config-attrib-zoomview-enablehd.md)
          + [ZoomView.fmt](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/r-html5-aem-interactive-image-conf-attrib/r-html5-aem-interactive-image-config-attrib-zoomview-fmt.md)
          + [ZoomView.iscommand](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/r-html5-aem-interactive-image-conf-attrib/r-html5-aem-interactive-image-config-attrib-zoomview-iscommand.md)
-      + 命令引用 — URL {#command-reference-interactive-images}
+      + 命令參考 — URL {#command-reference-interactive-images}
          + [命令參考 — URL](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-int-image-cmdref-url/c-html5-aem-int-image-cmdref-url.md)
          + [preloadimage](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-int-image-cmdref-url/r-html5-aem-int-image-cmdref-url-preloadimage.md)
-      + 互動式影像檢視器{#jsapi-interactive-image}的JavaScript API參考
+      + 互動式影像檢視器的JavaScript API參考 {#jsapi-interactive-image}
          + [互動式影像檢視器的JavaScript API參考](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-javascriptapiref/c-html5-aem-interactive-image-javascriptapiref.md)
          + [處置](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-javascriptapiref/r-html5-aem-int-image-viewer-javascriptapiref-dispose.md)
          + [getComponent](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-javascriptapiref/r-html5-aem-int-image-viewer-javascriptapiref-getcomponent.md)
@@ -762,7 +762,7 @@ ht-degree: 6%
          + [setParam](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-javascriptapiref/r-html5-aem-int-image-viewer-javascriptapiref-setparam.md)
          + [setParams](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-javascriptapiref/r-html5-aem-int-image-viewer-javascriptapiref-setparams.md)
       + [事件回呼](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-event-callbacks.md)
-      + 自訂互動式影像檢視器{#customizing-interactive-image}
+      + 自訂互動式影像檢視器 {#customizing-interactive-image}
          + [自訂互動式影像檢視器](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md)
          + [焦點醒目提示](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/r-html5-aem-int-image-customize-focushighlight.md)
          + [熱點](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/r-html5-aem-int-image-customize-hotspots.md)
@@ -775,9 +775,9 @@ ht-degree: 6%
       + [熱點支援](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-hotspot-support.md)
       + [預載影像](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-preload-image.md)
       + [檢視器SDK命名空間](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-namespace.md)
-   + 互動式視訊{#interactive-video}
+   + 互動式影片 {#interactive-video}
       + [互動式影片](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video.md)
-      + 命令引用 — 配置屬性{#command-reference-configuration-attributes-interactive-video}
+      + 命令參考 — 配置屬性 {#command-reference-configuration-attributes-interactive-video}
          + [命令參考 — 配置屬性](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib.md)
          + [CallToAction.align](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-calltoaction-align.md)
          + [CallToAction.direction](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-calltoaction-direction.md)
@@ -814,13 +814,13 @@ ht-degree: 6%
          + [VideoScrubber.showchaptertitle](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoscrubber-showchaptertitle.md)
          + [VideoScrubber.timepattern](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoscrubber-timepattern.md)
          + [VideoTime.timepattern](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videotime-timepattern.md)
-      + 命令引用 — URL {#command-reference-url-interactive-video}
+      + 命令參考 — URL {#command-reference-url-interactive-video}
          + [命令參考 — URL](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-cmdref-url/c-html5-aem-int-video-cmdref-url.md)
          + [字幕](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-cmdref-url/r-html5-aem-int-video-cmdref-url-caption.md)
          + [interactivedata](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-cmdref-url/r-html5-aem-int-video-cmdref-url-interactivedata.md)
          + [導覽](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-cmdref-url/r-html5-aem-int-video-cmdref-url-navigation.md)
          + [videoServerUrl](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-cmdref-url/r-html5-aem-int-video-cmdref-url-videoserverurl.md)
-      + 互動式視訊{#jsapi-interactive-video}的JavaScript API參考
+      + 互動式視訊檢視器的JavaScript API參考 {#jsapi-interactive-video}
          + [互動式視訊檢視器的JavaScript API參考](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/c-html5-aem-int-video-javascriptapiref.md)
          + [處置](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-dispose.md)
          + [getComponent](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-getcomponent.md)
@@ -833,7 +833,7 @@ ht-degree: 6%
          + [setParam](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-setparam.md)
          + [setParams](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-setparams.md)
       + [事件回呼](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-event-callbacks.md)
-      + 自訂互動式視訊檢視器{#customizing-interactive-video}
+      + 自訂互動式視訊檢視器 {#customizing-interactive-video}
          + [自訂互動式視訊檢視器](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md)
          + [操作調用](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-calltoaction.md)
          + [註解按鈕](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-captionbutton.md)
@@ -862,7 +862,7 @@ ht-degree: 6%
       + [檢視器SDK命名空間](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-html5-viewer-sdk-namespace.md)
    + Video360 {#video360}
       + [Video360](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360.md)
-      + 命令引用 — 配置屬性{#command-reference-configuration-attributes-video360}
+      + 命令參考 — 配置屬性 {#command-reference-configuration-attributes-video360}
          + [命令參考 — 配置屬性](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib.md)
          + [ControlBar.transition](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-conf-attrib-controlbar-transition.md)
          + [EmbedShare.embedsizes](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-conf-attrib-embedshare-embedsizes.md)
@@ -882,11 +882,11 @@ ht-degree: 6%
          + [Video360Player.waiticon](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib-video360player-waiticon.md)
          + [VideoScrubber.timepattern](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-conf-attrib-videoscrubber-timepattern.md)
          + [VideoTime.timepattern](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-conf-attrib-videotime-timepattern.md)
-      + 命令引用 — URL {#command-reference-url-video360}
+      + 命令參考 — URL {#command-reference-url-video360}
          + [命令參考 — URL](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-cmdref-url/c-html5-aem-video360-cmdref-url.md)
          + [視訊](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-cmdref-url/r-html5-aem-video360-url-video.md)
          + [videoServerUrl](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-cmdref-url/r-html5-aem-video360-url-videoserverurl.md)
-      + Video360檢視器{#jsapi-video360}的JavaScript API參考
+      + Video360檢視器的JavaScript API參考 {#jsapi-video360}
          + [Video360檢視器的JavaScript API參考](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/c-html5-aem-video360-javascriptapiref.md)
          + [處置](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-dispose.md)
          + [getComponent](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-getcomponent.md)
@@ -900,8 +900,8 @@ ht-degree: 6%
          + [setVideo](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-setvideo.md)
          + [Video360Viewer](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-video360viewer.md)
       + [事件回呼](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-event-callbacks.md)
-      + 自定義Video360查看器{#customizing-video360}
-         + [自定義Video360查看器](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md)
+      + 自訂Video360檢視器 {#customizing-video360}
+         + [自訂Video360檢視器](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md)
          + [控制欄](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-controlbar.md)
          + [內嵌共用](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-embedshare.md)
          + [Facebook共用](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-facebookshare.md)
@@ -925,7 +925,7 @@ ht-degree: 6%
       + [全螢幕支援](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-full-screen-support.md)
       + [外部視訊支援](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-external-video-support.md)
       + [檢視器SDK命名空間](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-viewer-sdk-namespace.md)
-+ 所有檢視器通用的命令參考 — 組態屬性{#command-reference-common-to-all-viewers-config-attrib}
++ 所有檢視器通用的命令參考 — 設定屬性 {#command-reference-common-to-all-viewers-config-attrib}
    + [所有檢視器通用的命令參考 — 設定屬性](r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md)
    + [stageSize](r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib-stagesize.md)
    + [樣式](r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib-style.md)
