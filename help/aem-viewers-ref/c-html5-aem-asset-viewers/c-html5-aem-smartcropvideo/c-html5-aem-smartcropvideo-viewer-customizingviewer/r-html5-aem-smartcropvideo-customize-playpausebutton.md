@@ -1,13 +1,13 @@
 ---
+title: 播放/暫停按鈕
 description: 播放/暫停按鈕可讓智慧型裁切視訊播放器在使用者點按時播放或暫停視訊內容。
 solution: Experience Manager
-title: 播放/暫停按鈕
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 174ddf15-e6be-4a65-8c82-5c9edf061a6c
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '267'
 ht-degree: 2%
 
 ---
@@ -69,13 +69,13 @@ ht-degree: 2%
 >
 >此按鈕支援 `state`, `selected`，和 `replay` 屬性選取器，可用來將不同外觀套用至不同按鈕狀態。 特別是， `selected='true'` 與「play」狀態和 `selected='false'` 對應「暫停」狀態；
 >
->`replay='true'` 是當視訊達到結尾，然後按一下按鈕會從開頭重新啟動播放時設定。
+>屬性選取器 `replay='true'` 當視訊到達結尾時設定，然後選取按鈕會從開頭重新啟動播放。
 
 按鈕工具提示可以本地化。 請參閱 [用戶介面元素本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 以取得更多資訊。
 
 ## 範例 {#section-e8caea0a303c425a8a637c2a47c06355}
 
-設定32 x 32像素的播放/暫停按鈕；它從控制條的上邊緣和左邊緣定位6個像素，當選中或未選中時，它為四個不同的按鈕狀態中的每個狀態顯示不同的影像。
+設定32 x 32像素的「播放/暫停」按鈕。 讓它從控制條的上邊緣和左邊緣定位六個像素。 最後，當選取或未選取時，針對四個不同的按鈕狀態中的每一個顯示不同的影像。
 
 ```
 .s7smartcropvideoviewer .s7playpausebutton { 

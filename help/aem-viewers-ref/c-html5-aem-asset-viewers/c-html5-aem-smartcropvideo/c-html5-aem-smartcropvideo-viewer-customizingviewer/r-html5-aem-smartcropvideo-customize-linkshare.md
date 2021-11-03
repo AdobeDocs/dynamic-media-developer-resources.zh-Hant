@@ -1,13 +1,13 @@
 ---
+title: 連結共用
 description: 連結分享工具包含新增至Social分享面板的按鈕，以及啟動工具時顯示的強制回應對話方塊。 按鈕的位置由Social分享工具完全管理。
 solution: Experience Manager
-title: 連結共用
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: a80b47fd-0399-4d0a-8c11-cfa4acc5a713
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1374'
 ht-degree: 2%
 
 ---
@@ -76,7 +76,7 @@ background-image:url(images/v2/LinkShare_dark_disabled.png);
 }
 ```
 
-當對話方塊處於作用中狀態時，會使用下列CSS類別選取器來控制覆蓋網頁的背景覆蓋：
+當對話方塊作用中時，會覆蓋網頁的背景覆蓋圖會由下列CSS類別選取器控制：
 
 ```
 .s7smartcropvideoviewer .s7linkdialog .s7backoverlay
@@ -162,7 +162,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-圖示和標題文字會包裝在另一個由
+圖示和標題文字會包裝在由
 
 ```
 .s7smartcropvideoviewer .s7linkdialog .s7dialogheader .s7dialogline
@@ -284,7 +284,7 @@ background-color: #ffffff;
 
 「關閉」按鈕工具提示和對話框標題可以本地化。 請參閱 [用戶介面元素本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 以取得更多資訊。
 
-範例 — 若要設定對話方塊標題，並加上邊框間距、22 x 12像素圖示、粗體16點標題和28 x 28像素關閉按鈕，該按鈕從上方放置兩個像素，從對話框容器的右側放置兩個像素：
+範例 — 若要設定對話方塊標題，使用邊框間距、22 x 12像素圖示和粗體16點標題。 最後，28 x 28像素的「關閉」按鈕，從頂部放置兩個像素，從對話框容器的右側放置兩個像素：
 
 ```
 .s7smartcropvideoviewer .s7linkdialog .s7dialogheader { 
@@ -426,7 +426,7 @@ background-color: #ffffff;
 >
 >此按鈕支援 `state` 屬性選取器，可用來將不同的外觀套用至不同的按鈕狀態。
 
-此外，這兩個按鈕共用相同的通用CSS類，這些類可以包含其他對話框按鈕相同的CSS設定：
+此外，這兩個按鈕都共用通用的CSS類，這些類可以包含其他對話框按鈕相同的CSS設定：
 
 ```
 .s7smartcropvideoviewer .s7linkdialog .s7dialogfooter .s7button
@@ -634,7 +634,7 @@ background-color: #ffffff;
 .s7smartcropvideoviewer .s7linkdialog .s7dialoginputwide
 ```
 
-**對話框輸入寬欄位的CSS屬性**
+**對話框輸入範圍欄位的CSS屬性**
 
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 

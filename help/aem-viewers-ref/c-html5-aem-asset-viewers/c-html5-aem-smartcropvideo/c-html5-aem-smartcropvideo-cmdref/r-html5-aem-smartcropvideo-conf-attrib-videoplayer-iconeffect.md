@@ -1,11 +1,11 @@
 ---
+title: SmartCropVideoPlayer.iconeffect
 description: 智慧型裁切視訊檢視器的設定屬性。
 solution: Experience Manager
-title: SmartCropVideoPlayer.iconeffect
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: b283b495-ee28-4f9d-ad4d-b14ac2f9a1a2
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 4%
@@ -22,7 +22,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 0|1</span> </span> </p> </td> 
-   <td colname="col2"> <p> 當視訊暫停時，讓IconEffect顯示在視訊的頂端。 在某些裝置上會使用原生控制項。 在此情況下， <span class="codeph"> 像效</span> 修飾詞會被忽略。 </p> </td> 
+   <td colname="col2"> <p> 當視訊暫停時，讓IconEffect顯示在視訊的頂端。 某些裝置上會使用原生控制項。 在此情況下， <span class="codeph"> 像效</span> 修飾詞會被忽略。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 計數</span> </span> </p> </td> 

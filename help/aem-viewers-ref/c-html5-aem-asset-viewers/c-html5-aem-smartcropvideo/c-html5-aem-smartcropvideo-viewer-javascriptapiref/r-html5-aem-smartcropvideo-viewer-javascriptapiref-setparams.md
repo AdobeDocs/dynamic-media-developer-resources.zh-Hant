@@ -1,11 +1,11 @@
 ---
+title: setParams
 description: 智慧型裁切視訊檢視器的JavaScript API參考。
 solution: Experience Manager
-title: setParams
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 76bad894-bfb8-4d79-b3ff-c2497c68e5e8
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 1%
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 ` setParams( *`params`*)`
 
-將一或多個參數設為指定值。 方法引數語法與URL查詢字串相同。 也就是說，它代表以 `&`. 與查詢字串中相同，名稱和值是使用UTF8進行百分比編碼。 呼叫前 `init()`，則必須呼叫此參數。
+將一或多個參數設為指定值。 方法引數語法與URL查詢字串相同。 也就是說，它代表以 `&`. 與查詢字串、名稱和值相同，是使用UTF8以百分比編碼。 呼叫前 `init()`，則必須呼叫此參數。
 
 如果檢視器設定資訊是以 `config` JSON物件至建構函式。
 

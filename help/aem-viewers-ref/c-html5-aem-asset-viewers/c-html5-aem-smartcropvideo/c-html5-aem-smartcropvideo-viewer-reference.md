@@ -1,12 +1,12 @@
 ---
+title: 智慧型裁切視訊
 description: 智慧型裁切視訊檢視器是視訊播放器，除了新增智慧型裁切支援外，還會播放以H.264格式編碼的串流和漸進式視訊。 由Dynamic Media Classic或Adobe Experience Manager與Dynamic Media一起提供。
 keywords: 回應式
 solution: Experience Manager
-title: 智慧型裁切視訊
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: fa9727dc-f9e2-4d91-b500-445693dfb6aa
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '2410'
 ht-degree: 0%
@@ -41,7 +41,16 @@ ht-degree: 0%
 
 ## 與智慧型裁切視訊檢視器互動 {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
-智慧型裁切視訊檢視器提供一組用於視訊播放的標準使用者介面控制項，例如播放/暫停按鈕、視訊清除程式視訊時間泡泡、播放時間/總時間指標、音量控制、全螢幕按鈕和隱藏式字幕切換。 所有這些控制項都會分組到檢視器使用者介面底部的控制列中。
+智慧型裁切視訊檢視器提供一組用於視訊播放的標準使用者介面控制項，例如：
+
+* 播放/暫停按鈕。
+* 視頻清除器視頻時間泡泡。
+* 播放時間/總時間指標。
+* 音量控制。
+* 全螢幕按鈕。
+* 隱藏式字幕切換。
+
+所有這些控制項都會分組到檢視器使用者介面底部的控制列中。
 
 在觸摸設備上，音量控制在用戶介面中隱藏，因為只能使用硬體按鈕控制音量。
 

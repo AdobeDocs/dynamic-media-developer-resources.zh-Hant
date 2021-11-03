@@ -1,11 +1,11 @@
 ---
+title: SmartCropVideoPlayer.progressivebitrate
 description: 智慧型裁切視訊檢視器的設定屬性。
 solution: Experience Manager
-title: SmartCropVideoPlayer.progressivebitrate
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 7f9f1bfe-c68f-4ad4-a4a3-e0a8952e07af
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 4%
@@ -22,7 +22,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> value</span> </p> </td> 
-   <td colname="col2"> <p> 指定（以每秒kbits或每秒kbps為單位）在當前系統不支援自適應視頻播放的情況下要從自適應視頻集播放的所需視頻比特率。 </p> <p>元件會以最接近（但不超過）指定值的位元速率擷取視訊資料流。 如果適用性視訊集中的所有視訊資料流的品質高於指定值，邏輯會選擇品質最低的位元速率。 </p> </td> 
+   <td colname="col2"> <p> 指定在當前系統不支援自適應視訊播放時，從最適化視訊集播放所需的視訊位元速率（以千位/秒或千位/秒為單位）。 </p> <p>元件會以最接近（但不超過）指定值的位元速率擷取視訊資料流。 如果適用性視訊集中的所有視訊資料流的品質高於指定值，邏輯會選擇品質最低的位元速率。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

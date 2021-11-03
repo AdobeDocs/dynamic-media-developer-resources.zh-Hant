@@ -1,20 +1,20 @@
 ---
-description: 控制欄是矩形區域，其中包含並位於智慧型裁切視訊檢視器可用的所有UI控制項，例如播放/暫停按鈕、音量控制項等。
-solution: Experience Manager
 title: 控制欄
+description: 控制欄是矩形區域，包含並位於智慧型裁切視訊檢視器可用的所有UI控制項（例如播放/暫停按鈕和音量控制項）後面。
+solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 2239307a-4a05-4392-b35c-a64ea6c938ad
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '176'
 ht-degree: 2%
 
 ---
 
 # 控制欄{#control-bar}
 
-控制欄是矩形區域，其中包含並位於智慧型裁切視訊檢視器可用的所有UI控制項，例如播放/暫停按鈕、音量控制項等。
+控制欄是矩形區域，包含並位於智慧型裁切視訊檢視器可用的所有UI控制項（例如播放/暫停按鈕和音量控制項）後面。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 

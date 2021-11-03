@@ -1,11 +1,11 @@
 ---
+title: getComponent
 description: 智慧型裁切視訊檢視器的JavaScript API參考
 solution: Experience Manager
-title: getComponent
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 2f02371c-39c7-46fd-95a6-909efacac72c
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # getComponent{#getcomponent}
 
-智慧型裁切視訊檢視器的JavaScript API參考
+智慧型裁切視訊檢視器的JavaScript API參考。
 
 `getComponent(componentId)`
 

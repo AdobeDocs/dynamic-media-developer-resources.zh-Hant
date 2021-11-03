@@ -1,13 +1,13 @@
 ---
+title: 用戶介面元素本地化
 description: 智慧型裁切視訊檢視器所顯示的特定內容可能會受本地化規範。 此內容包括使用者介面元素工具提示，以及無法播放視訊時顯示的錯誤訊息。
 solution: Experience Manager
-title: 用戶介面元素本地化
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 4748d04e-7f9d-413f-9e9a-a0fad129c5fc
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '777'
 ht-degree: 0%
 
 ---

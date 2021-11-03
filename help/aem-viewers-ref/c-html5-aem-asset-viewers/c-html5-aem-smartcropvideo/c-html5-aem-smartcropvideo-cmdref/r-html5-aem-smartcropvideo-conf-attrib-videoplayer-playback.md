@@ -1,13 +1,13 @@
 ---
+title: SmartCropVideoPlayer.playback
 description: 智慧型裁切視訊檢視器的設定屬性。
 solution: Experience Manager
-title: SmartCropVideoPlayer.playback
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 54a10b30-ebf5-4f1e-aa4a-b09055453c4e
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '135'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 自動 — 漸進</span> </p> </td> 
-   <td colname="col2"> <p> 設定檢視器使用的播放類型。 當 <span class="codeph"> 自動</span> 在大部分的案頭瀏覽器和所有iOS裝置上，檢視器都會使用HLS格式的HTML5串流視訊。 這會回復為某些系統（例如舊版Internet Explorer和Android）上的漸進式HTML5播放。 </p> <p>若 <span class="codeph"> 漸進式</span> 已指定，檢視器僅依賴瀏覽器原本支援的HTML5播放，並在所有系統上逐步播放視訊。 </p> <p>如需自動和漸進模式中播放選擇的詳細資訊，請參閱檢視器SDK使用指南。 </p> </td> 
+   <td colname="col2"> <p> 設定檢視器使用的播放類型。 當 <span class="codeph"> 自動</span> 在大部分的案頭瀏覽器和所有iOS裝置上，檢視器都會使用HLS格式的HTML5串流視訊。 這可回復至某些系統上的漸進式HTML5播放，例如舊版Internet Explorer和Android™。 </p> <p>若 <span class="codeph"> 漸進式</span> 已指定，檢視器僅依賴瀏覽器原本支援的HTML5播放，並在所有系統上逐步播放視訊。 </p> <p>如需自動和漸進模式中播放選擇的詳細資訊，請參閱檢視器SDK使用指南。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

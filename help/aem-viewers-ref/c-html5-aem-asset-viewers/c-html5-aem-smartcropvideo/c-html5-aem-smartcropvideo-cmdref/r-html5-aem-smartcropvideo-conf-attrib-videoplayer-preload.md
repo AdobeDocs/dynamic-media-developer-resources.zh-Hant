@@ -1,13 +1,13 @@
 ---
+title: SmartCropVideoPlayer.preload
 description: 指出檢視器是否在播放開始前開始載入視訊內容。
 solution: Experience Manager
-title: SmartCropVideoPlayer.preload
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: cee887f6-bbd9-46dd-aa41-03493596fcf4
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '117'
 ht-degree: 4%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 若設為 <span class="codeph"> 1 </span> 資產設定後，影片即會開始下載；否則，預先載入只會在使用者或API呼叫起始播放後開始。 </p> <p>若設為 <span class="codeph"> 0 </span> 播放開始前，某些功能可能無法運作；具體而言，搜尋操作不會更新視訊幀。 如果海報影像已停用，檢視器會顯示為空白區域，而非第一個視訊影格。 </p> <p>請注意，某些版本的Internet Explorer 11和Edge瀏覽器可能會忽略停用視訊預先載入。 </p> </td> 
+   <td colname="col2"> <p> 若設為 <span class="codeph"> 1 </span> 資產設定後，影片即會開始下載；否則，預先載入只會在使用者或API呼叫起始播放後開始。 </p> <p>若設為 <span class="codeph"> 0 </span> 某些功能要等到重新開始播放才能運作；具體而言，搜尋操作不會更新視訊幀。 如果海報影像已停用，檢視器會顯示為空白區域，而非第一個視訊影格。 </p> <p>某些版本的Internet Explorer 11和Edge瀏覽器可能會忽略停用視訊預先載入。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

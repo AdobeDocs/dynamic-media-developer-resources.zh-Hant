@@ -1,11 +1,11 @@
 ---
+title: 命令參考 — 配置屬性
 description: 智慧型裁切視訊檢視器的設定屬性檔案。
 solution: Experience Manager
-title: 命令參考 — 配置屬性
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 5992e5cd-7783-408e-a23f-fdcc3a3d6b69
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 0%

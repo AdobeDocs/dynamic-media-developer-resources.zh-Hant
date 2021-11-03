@@ -1,11 +1,11 @@
 ---
+title: 支援Adobe Analytics追蹤
 description: 智慧型裁切視訊檢視器支援Adobe Analytics立即可用追蹤。
 solution: Experience Manager
-title: 支援Adobe Analytics追蹤
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 2cc7087d-ed02-4560-b9ce-533af2b11a24
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 3%

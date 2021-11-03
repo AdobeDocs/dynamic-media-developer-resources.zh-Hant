@@ -1,11 +1,11 @@
 ---
+title: 視訊播放器
 description: 智慧型裁切視訊播放器是觀看者中顯示視訊內容的矩形區域。
 solution: Experience Manager
-title: 視訊播放器
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 2741821f-78fe-44d4-8604-fee10086e0a0
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 1%
@@ -78,7 +78,7 @@ background-color: transparent;
  </tbody> 
 </table>
 
-示例 — 要將隱藏式字幕文本設定為半透明黑色背景上的14像素、淺灰色、Arial:
+示例 — 要將隱藏式字幕文本設定為14個像素，淺灰色，Arial®，位於半透明黑色背景上：
 
 ```
 .s7smartcropvideoviewer .s7smartcropvideoplayer .s7caption { 

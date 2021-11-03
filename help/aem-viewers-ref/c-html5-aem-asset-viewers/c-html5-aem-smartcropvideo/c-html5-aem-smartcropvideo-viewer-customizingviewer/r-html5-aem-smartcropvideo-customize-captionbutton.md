@@ -1,13 +1,13 @@
 ---
+title: 註解按鈕
 description: 此按鈕可切換隱藏式字幕的開啟和關閉。 如果未指定註解參數，則不會顯示。
 solution: Experience Manager
-title: 註解按鈕
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 47d4a33b-e2bc-4a32-be45-5320d3de1955
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '254'
 ht-degree: 2%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 2%
 
 ## 範例 {#section-e8caea0a303c425a8a637c2a47c06355}
 
-要設定一個28 x 28像素的隱藏式字幕按鈕，從頂部放置四個像素，從控制條的右邊放置68像素，並在選中或未選中時顯示四個不同按鈕狀態中的每個狀態的不同影像。
+設定28 x 28像素的隱藏式字幕按鈕。 它位於上方4個像素和控制條右邊68個像素。 最後，當選取或未選取時，會針對四個不同按鈕狀態中的每一個顯示不同的影像。
 
 ```
 .s7smartcropvideoviewer .s7closedcaptionbutton { 

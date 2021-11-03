@@ -1,13 +1,13 @@
 ---
+title: 電子郵件共用
 description: 電子郵件共用工具包含新增至Social共用面板的按鈕，以及啟動工具時顯示的強制回應對話方塊。 按鈕的位置由Social分享工具完全管理。
 solution: Experience Manager
-title: 電子郵件共用
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 1788e069-68dd-4960-bc49-34ffdf29991a
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '2980'
+source-wordcount: '2994'
 ht-degree: 2%
 
 ---
@@ -74,7 +74,7 @@ background-image:url(images/v2/EmailShare_dark_disabled.png);
 }
 ```
 
-使用下列CSS類別選取器來控制對話方塊作用中時涵蓋網頁的背景覆蓋：
+當對話方塊作用中時，會覆蓋網頁的背景覆蓋圖會由下列CSS類別選取器控制：
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7backoverlay
@@ -143,7 +143,7 @@ background-color: #ffffff;
 }
 ```
 
-對話框標題由表徵圖、標題文本和關閉按鈕組成。 標題容器可透過下列CSS類別選取器控制
+對話框標題由表徵圖、標題文本和「關閉」按鈕組成。 標題容器可透過下列CSS類別選取器控制
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogheader
@@ -160,7 +160,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-圖示和標題文字會包裝在另一個由
+圖示和標題文字會包裝在由
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogheader .s7dialogline
@@ -282,7 +282,7 @@ background-color: #ffffff;
 
 「關閉」按鈕工具提示和對話框標題可以本地化。 請參閱 [用戶介面元素本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 以取得更多資訊。
 
-範例 — 若要設定對話方塊標題，使用邊框間距、24 x 17像素圖示、粗體16 pt標題和28 x 28像素關閉按鈕，從上方放置2像素，從對話方塊容器右側放置2像素：
+範例 — 若要使用邊框間距、24 x 17像素圖示和粗體16點標題來設定對話方塊標題。 最後，28 x 28像素的「關閉」按鈕，從頂部放置兩個像素，從對話框容器的右側放置兩個像素：
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogheader { 
@@ -422,7 +422,7 @@ background-color: #ffffff;
 >
 >此按鈕支援 `state` 屬性選取器，可用來將不同的外觀套用至不同的按鈕狀態。
 
-此外，這兩個按鈕共用相同的通用CSS類，這些類可以包含其他對話框按鈕相同的CSS設定：
+此外，這兩個按鈕都共用通用的CSS類，這些類可以包含其他對話框按鈕相同的CSS設定：
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogfooter .s7button
@@ -461,7 +461,7 @@ background-color: #ffffff;
 
 按鈕工具提示可翻譯。 請參閱 [用戶介面元素本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 以取得更多資訊。
 
-範例 — 若要設定對話方塊頁尾，其中包含64 x 34取消按鈕和82 x 34傳送電子郵件按鈕，且每個按鈕狀態的文字顏色和背景顏色會有所不同：
+範例 — 若要設定對話方塊頁尾，其中包含64 x 34取消按鈕和82 x 34傳送電子郵件按鈕。 最後，文本顏色和背景顏色因每個按鈕狀態而不同：
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogfooter { 
@@ -729,7 +729,7 @@ background-color: #ffffff;
 .s7smartcropvideoviewer .s7emaildialog .s7dialoginputwide
 ```
 
-**對話框輸入寬欄位的CSS屬性**
+**對話框輸入範圍欄位的CSS屬性**
 
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 
@@ -757,7 +757,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-範例：設定表單，使表單有一個像素灰色邊框，在所有輸入欄位周圍有九個像素的邊框間距；若要對驗證失敗的欄位使用相同的紅色邊框，請為250像素寬的「To」輸入欄位，其餘的輸入欄位為300像素寬：
+範例：若要設定表單，使其具有一個像素灰色邊框，在所有輸入欄位周圍填充九個像素。 若要為無法驗證的欄位使用相同的紅色邊框，請為250像素寬的「To」輸入欄位，其餘的輸入欄位為300像素寬：
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialoginputcontainer { 
@@ -775,7 +775,7 @@ background-color: #ffffff;
 }
 ```
 
-電子郵件輸入欄位另外受以下項目控制：
+電子郵件訊息輸入欄位也可透過：
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogmessage
@@ -1163,7 +1163,7 @@ background-color: #ffffff;
 }
 ```
 
-當使用者輸入錯誤的輸入資料且內嵌驗證失敗，或當提交表單時對話方塊需要呈現錯誤或確認訊息時，對話方塊內文頂端會顯示訊息。 它由下列CSS類別選取器控制：
+當使用者輸入錯誤的輸入資料且內嵌驗證失敗，或當提交表單時對話方塊必須呈現錯誤或確認訊息時，對話方塊內文頂端會顯示訊息。 它由下列CSS類別選取器控制：
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogerrormessage
@@ -1210,11 +1210,11 @@ background-color: #ffffff;
 
 >[!NOTE]
 >
->此訊息支援 `state` 屬性選取器，可能值如下： `verifyerror`, `senderror`，和 `sendsuccess`. `verifyerror` 在因內嵌輸入驗證失敗而顯示訊息時設定； `senderror` 是在後端電子郵件服務回報錯誤時設定； `sendsuccess` 在成功傳送電子郵件時設定。 這樣，根據對話框狀態，可以以不同方式設定消息的樣式。
+>此訊息支援 `state` 屬性選取器，可能值如下： `verifyerror`, `senderror`，和 `sendsuccess`. 值 `verifyerror` 會在因內嵌輸入驗證失敗而顯示訊息時設定。 值 `senderror` 是在後端電子郵件服務回報錯誤時設定。 此 `sendsuccess` 成功傳送電子郵件時，會設定值。 這樣，根據對話框狀態，可以以不同方式設定消息的樣式。
 
 錯誤訊息可本地化。 請參閱 [用戶介面元素本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 以取得更多資訊。
 
-範例：若要設定訊息，使用十點粗體字型、25像素行高、左側邊框20像素邊框間距、使用驚嘆號圖示、發生錯誤時使用紅色文字、成功時沒有圖示和綠色文字：
+範例 — 若要設定訊息，使用十點粗體字型、有25像素的線條高度，以及左側的20像素邊框間距。 另外，使用驚嘆號表徵圖，如果出現錯誤則使用紅色文本，如果成功，則不使用表徵圖和綠色文本：
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogerrormessage[state="verifyerror"] { 

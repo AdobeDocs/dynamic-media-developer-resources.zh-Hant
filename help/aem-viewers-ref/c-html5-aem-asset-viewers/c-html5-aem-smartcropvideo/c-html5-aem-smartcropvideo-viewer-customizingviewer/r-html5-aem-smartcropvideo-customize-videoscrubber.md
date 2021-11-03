@@ -1,13 +1,13 @@
 ---
+title: 視頻清除器
 description: 視訊清除程式是水準滑桿控制項，可讓使用者動態尋找目前播放的視訊內的任何時間位置。
 solution: Experience Manager
-title: 視頻清除器
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 404e39d4-565e-4dde-b2bd-fa83a895d001
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '360'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-清除器「旋鈕」也會隨著視訊播放而移動，以指出播放期間視訊的目前時間位置。 視頻清除器始終佔據控制欄的整個寬度。 可將視頻清洗器皮膚化。 通過CSS更改其高度和垂直位置。
+清除器「旋鈕」也會隨著視訊播放而移動，以指出播放期間視訊的目前時間位置。 視頻清除器始終佔據控制欄的整個寬度。 您可以使視訊清除程式蒙皮、透過CSS變更其高度和垂直位置。
 
 視訊清除程式的一般外觀由下列CSS類別選取器控制：
 
@@ -158,7 +158,7 @@ ht-degree: 3%
 
 視頻清除器工具尖端可以定位。 請參閱 [用戶介面元素本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 以取得更多資訊。
 
-**範例**  — 使用自訂追蹤顏色（高度為10像素）設定視訊檢視器，並從控制列的上邊緣和左邊緣放置10像素和35像素。
+**範例**  — 使用高度為10像素的自訂追蹤顏色設定視訊檢視器，使用視訊清除程式。 最後，讓它位於10個像素和35個像素，從控制條的上邊緣和左邊緣。
 
 ```
 .s7smartcropvideoviewer .s7videoscrubber  { 

@@ -1,13 +1,13 @@
 ---
+title: 社交分享
 description: 社交分享工具預設會顯示在右上角。 它包含按鈕和面板，當使用者點按或點選按鈕時會展開，並包含個別的共用工具。
 solution: Experience Manager
-title: 社交分享
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 82b482f9-b117-4529-a422-cdb0eead0031
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '314'
 ht-degree: 1%
 
 ---

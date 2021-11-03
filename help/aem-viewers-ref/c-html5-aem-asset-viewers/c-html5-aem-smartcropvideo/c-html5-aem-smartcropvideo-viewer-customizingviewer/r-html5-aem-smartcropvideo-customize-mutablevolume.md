@@ -1,11 +1,11 @@
 ---
+title: 可變音量
 description: 可變音量控制項最初顯示為按鈕，允許用戶靜音或取消靜音智慧裁切視頻播放器聲音。
 solution: Experience Manager
-title: 可變音量
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: bd86af60-a9a0-4f2e-9d36-f7ee22bd8c8e
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 2%

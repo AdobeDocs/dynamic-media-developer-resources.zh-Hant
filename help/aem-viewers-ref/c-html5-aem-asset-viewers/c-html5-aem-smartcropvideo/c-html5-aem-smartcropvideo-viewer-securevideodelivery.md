@@ -1,13 +1,13 @@
 ---
+title: HTTP視訊傳送
 description: HTTP視訊傳送
 solution: Experience Manager
-title: HTTP視訊傳送
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 33907e22-107b-4345-82bb-cad47cb7a839
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 >
 >Secure Video Delivery only applies to AEM 6.2 with the installation of [Feature Pack-13480](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/featurepack/cq-6.2.0-featurepack-13480) and to AEM 6.1 with installation of [Feature Pack NPR-15011](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq610/featurepack/cq-6.1.0-featurepack-15011). -->
 
-如果檢視器依本節開頭所述的設定運作，則發佈的視訊傳送可能會以HTTPS（安全）和HTTP（不安全）模式進行。 在預設配置中，視頻傳送協定嚴格遵守嵌入網頁的傳送協定。 不過，強制HTTPS視訊傳送是可能的，而不考慮透過內嵌網頁所使用的通訊協定 [SmartCropVideoPlayer.ssl](../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-videoplayer-ssl.md#reference-df0a29aa8a584cebaaa1c7bb6fab362e) 配置屬性。 （請注意，以製作模式預覽視訊的方式一律是透過HTTPS安全地傳送。）
+如果檢視器的設定如本節開頭所述，則發佈的視訊傳送可能會以HTTPS（安全）和HTTP（不安全）模式進行。 在預設配置中，視頻傳送協定嚴格遵守嵌入網頁的傳送協定。 不過，強制HTTPS視訊傳送是可能的，而不考慮透過內嵌網頁所使用的通訊協定 [SmartCropVideoPlayer.ssl](../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-videoplayer-ssl.md#reference-df0a29aa8a584cebaaa1c7bb6fab362e) 配置屬性。 （在製作模式中的視訊預覽一律會透過HTTPS安全地傳送。）
 
-根據您在AEM中使用的發佈Dynamic Media視訊的方法， `SmartCropVideoPlayer.ssl` 設定屬性的套用方式不同，如下所示：
+根據您在Adobe Experience Manager中使用的Dynamic Media視訊發佈方法， `SmartCropVideoPlayer.ssl` 設定屬性的套用方式不同，如下所示：
 
 * 若您發佈含有URL的Dynamic Media影片，會附加 `SmartCropVideoPlayer.ssl` 至URL。 例如，為了強制傳送安全視訊，您會附加 `&SmartCropVideoPlayer.ssl=on` 到下列檢視器URL範例的結尾：
 
