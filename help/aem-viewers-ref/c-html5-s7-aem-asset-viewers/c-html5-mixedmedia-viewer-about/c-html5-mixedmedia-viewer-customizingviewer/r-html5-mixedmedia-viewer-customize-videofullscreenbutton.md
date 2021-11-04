@@ -1,20 +1,20 @@
 ---
-description: 當使用者按一下時，全螢幕按鈕會使檢視器進入或退出全螢幕模式。 當檢視器顯示視訊且位於控制列時，就會使用它。 如果檢視器在快顯模式中運作，且系統不支援原生全螢幕，則不會顯示此按鈕。
+description: 當使用者選取時，全螢幕按鈕會使檢視器進入或退出全螢幕模式。 當檢視器顯示視訊且位於控制列時，就會使用它。 如果檢視器在快顯模式中運作，且系統不支援原生全螢幕，則不會顯示此按鈕。
 solution: Experience Manager
 title: 全螢幕視頻按鈕
-feature: Dynamic Media Classic，檢視器，SDK/API，混合媒體集
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 45811efa-95f6-4b6d-96f8-9e5437a55f0e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '324'
 ht-degree: 2%
 
 ---
 
 # 全螢幕視頻按鈕{#video-full-screen-button}
 
-當使用者按一下時，全螢幕按鈕會使檢視器進入或退出全螢幕模式。 當檢視器顯示視訊且位於控制列時，就會使用它。 如果檢視器在快顯模式中運作，且系統不支援原生全螢幕，則不會顯示此按鈕。
+當使用者選取時，全螢幕按鈕會使檢視器進入或退出全螢幕模式。 當檢視器顯示視訊且位於控制列時，就會使用它。 如果檢視器在快顯模式中運作，且系統不支援原生全螢幕，則不會顯示此按鈕。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -55,21 +55,21 @@ ht-degree: 2%
    <td colname="col2"> <p>全螢幕按鈕的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景 — 影像  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景 — 影像 </span> </p> </td> 
    <td colname="col2"> <p> 指定按鈕狀態的顯示影像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS精靈，則位於圖稿精靈內。 </p> <p>請參閱<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS Sprites </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS精靈，則位於圖稿精靈內。 </p> <p>請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按鈕同時支援`state`和`selected`屬性選擇器，它們可用於將不同的外觀應用於不同的按鈕狀態。 具體而言，`selected='true'`對應於「全螢幕」狀態，`selected='false'`對應於「正常」狀態。
+>此按鈕支援 `state` 和 `selected` 屬性選取器，可用來將不同外觀套用至不同按鈕狀態。 特別是， `selected='true'` 與「全螢幕」狀態和 `selected='false'` 對應至「正常」狀態。
 
-按鈕工具提示可以本地化。 如需詳細資訊，請參閱[使用者介面元素本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) 。
+按鈕工具提示可以本地化。 請參閱 [用戶介面元素本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) 以取得更多資訊。
 
 ## 範例 {#section-e8caea0a303c425a8a637c2a47c06355}
 

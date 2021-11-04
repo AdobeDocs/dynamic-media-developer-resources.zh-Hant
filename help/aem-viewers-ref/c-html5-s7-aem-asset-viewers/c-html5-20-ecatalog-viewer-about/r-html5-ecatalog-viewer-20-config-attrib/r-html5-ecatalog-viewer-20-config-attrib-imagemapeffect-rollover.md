@@ -2,13 +2,13 @@
 description: ImageMapEffect.rollover
 solution: Experience Manager
 title: ImageMapEffect.rollover
-feature: Dynamic Media Classic，檢視器，SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 3d5eb17d-668a-4ad8-9f84-5684941d450d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 5%
+source-wordcount: '79'
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p>指定何時顯示資訊面板。 </p> <p>如果設為<span class="codeph"> 1</span>，則當滑鼠進入影像映射區域時，將顯示資訊面板（如果影像映射具有非空的<span class="codeph"> rovelp_key</span>屬性）。 </p> <p>如果設為<span class="codeph"> 0</span>資訊面板是在點按影像映射時觸發的（如果影像映射具有非空<span class="codeph">變換鍵</span>和空<span class="codeph"> href</span>屬性）。 </p> <p> 在觸控式裝置上忽略，包括觸控式案頭系統，且會自動設為<span class="codeph"> 0</span>。 </p> </td> 
+   <td colname="col2"> <p>指定何時顯示資訊面板。 </p> <p>若設為 <span class="codeph"> 1</span>，則當滑鼠進入影像映射區域時，會顯示資訊面板(如果影像映射為非空白，則 <span class="codeph"> rovell_key</span> 屬性)。 </p> <p>若設為 <span class="codeph"> 0</span> 選取影像對應時(如果影像對應具有非空白的 <span class="codeph"> rovell_key</span> 空白 <span class="codeph"> href</span> 屬性)。 </p> <p> 在觸控式裝置上忽略，包括可觸控的案頭系統，且會自動設為 <span class="codeph"> 0</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

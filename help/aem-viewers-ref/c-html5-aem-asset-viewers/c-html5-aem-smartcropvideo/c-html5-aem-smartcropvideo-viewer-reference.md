@@ -3,10 +3,10 @@ title: 智慧型裁切視訊
 description: 智慧型裁切視訊檢視器是視訊播放器，除了新增智慧型裁切支援外，還會播放以H.264格式編碼的串流和漸進式視訊。 由Dynamic Media Classic或Adobe Experience Manager與Dynamic Media一起提供。
 keywords: 回應式
 solution: Experience Manager
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: fa9727dc-f9e2-4d91-b500-445693dfb6aa
-source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '2410'
 ht-degree: 0%
@@ -74,7 +74,7 @@ ht-degree: 0%
 
 ## 內嵌智慧型裁切視訊檢視器 {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-不同的網頁對檢視者行為有不同的需求。 有時網頁會提供連結，當按一下連結時，就會在個別瀏覽器視窗中開啟檢視器。 在其他情況下，則需直接將檢視器內嵌在托管頁面上。 在後一種情況下，網頁可能具有靜態頁面版面，或使用在不同裝置上或針對不同瀏覽器視窗大小顯示不同的回應式設計。 為了滿足這些需求，檢視器支援三種主要操作模式：快顯視窗、固定大小內嵌和回應式設計內嵌。
+不同的網頁對檢視者行為有不同的需求。 有時，網頁會提供連結，當選取時，連結會在個別瀏覽器視窗中開啟檢視器。 在其他情況下，則需直接將檢視器內嵌在托管頁面上。 在後一種情況下，網頁可能具有靜態頁面版面，或使用在不同裝置上或針對不同瀏覽器視窗大小顯示不同的回應式設計。 為了滿足這些需求，檢視器支援三種主要操作模式：快顯視窗、固定大小內嵌和回應式設計內嵌。
 
 平板電腦和行動裝置支援在同一頁內嵌多個影片。 通常一次只能播放一個視訊。 當使用者開始播放一個視訊，然後嘗試播放另一個視訊時，第一個視訊會自動暫停。 自動暫停的視訊會記住目前的播放時間，因此使用者可以隨時回到該視訊並繼續播放。 此規則的唯一例外是Android™ 4.x裝置上的Chrome瀏覽器，可同時播放視訊。
 
