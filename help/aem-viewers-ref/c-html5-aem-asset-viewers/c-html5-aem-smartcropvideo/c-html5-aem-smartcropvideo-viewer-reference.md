@@ -1,19 +1,19 @@
 ---
-title: 智慧型裁切視訊
+title: 智慧型裁切視訊檢視器
 description: 智慧型裁切視訊檢視器是視訊播放器，除了新增智慧型裁切支援外，還會播放以H.264格式編碼的串流和漸進式視訊。 由Dynamic Media Classic或Adobe Experience Manager與Dynamic Media一起提供。
 keywords: 回應式
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: null
-source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
+source-git-commit: bcd7f90ea2dbb77b300407adeb7725990d9c9a12
 workflow-type: tm+mt
-source-wordcount: '2410'
+source-wordcount: '2413'
 ht-degree: 0%
 
 ---
 
-# 視訊{#video}
+# 智慧型裁切視訊{#smart-crop-video}
 
 智慧型裁切視訊檢視器是視訊播放器，除了新增智慧型裁切支援外，還會播放以H.264格式編碼的串流和漸進式視訊。 它是從Dynamic Media Classic或透過Dynamic MediaExperience Manager提供。
 
