@@ -4,8 +4,7 @@ description: 事件回呼
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: null
-source-git-commit: f4db71f503749f086c86353578afe9dc368d04ae
+source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 0%
@@ -16,7 +15,7 @@ ht-degree: 0%
 
 檢視器支援JavaScript事件回呼，網頁會用來追蹤檢視器初始化程式或執行階段行為。
 
-回呼處理常式是透過傳遞事件名稱，以及與 `handlers` 屬性 `config` 檢視器的建構函式中的JSON物件。 或者，可以使用 `setHandlers()` API方法。
+回呼處理常式是透過傳遞事件名稱和對應的處理常式函式(與 `handlers` 屬性 `config` 檢視器的建構函式中的JSON物件。 或者，可以使用 `setHandlers()` API方法。
 
 支援的檢視器事件包括：
 

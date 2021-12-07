@@ -4,8 +4,7 @@ description: 主視區被智慧型裁切視頻佔據。 通常在未指定大小
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: null
-source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
+source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 2%
@@ -14,7 +13,7 @@ ht-degree: 2%
 
 # 主觀看者區域{#main-viewer-area}
 
-主要觀看區域被視頻佔據。 通常在未指定大小時設定為適合可用的裝置畫面。
+主觀區域被視頻佔據。 通常在未指定大小時設定為適合可用的裝置畫面。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 

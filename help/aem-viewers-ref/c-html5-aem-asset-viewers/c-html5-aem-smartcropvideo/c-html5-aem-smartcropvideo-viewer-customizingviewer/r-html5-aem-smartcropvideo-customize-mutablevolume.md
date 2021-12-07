@@ -4,8 +4,7 @@ description: 可變音量控制項最初顯示為按鈕，允許用戶靜音或�
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: null
-source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
+source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 2%
@@ -203,7 +202,7 @@ background-image:url(images/unmute_disabled.png);
 }
 ```
 
-下面是如何在可變音量控制項中設定音量滑塊樣式的示例。
+下面是如何在可變體積塊控制項中設定體積塊滑塊樣式的示例。
 
 ```
 .s7smartcropvideoviewer .s7mutablevolume .s7verticalvolume { 

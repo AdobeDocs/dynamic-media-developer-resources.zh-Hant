@@ -4,8 +4,7 @@ description: 連結分享工具包含新增至Social分享面板的按鈕，以�
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: null
-source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
+source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
 workflow-type: tm+mt
 source-wordcount: '1374'
 ht-degree: 2%
@@ -324,7 +323,7 @@ background-color: #ffffff;
 }
 ```
 
-對話方塊頁尾包含「取消」按鈕。 頁尾容器可透過下列CSS類別選取器控制：
+對話方塊頁尾由「取消」按鈕組成。 頁尾容器可透過下列CSS類別選取器控制：
 
 ```
 .s7smartcropvideoviewer .s7linkdialog .s7dialogfooter

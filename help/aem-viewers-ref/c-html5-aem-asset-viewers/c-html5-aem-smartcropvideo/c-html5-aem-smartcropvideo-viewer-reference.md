@@ -5,8 +5,7 @@ keywords: 回應式
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: null
-source-git-commit: bcd7f90ea2dbb77b300407adeb7725990d9c9a12
+source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
 workflow-type: tm+mt
 source-wordcount: '2413'
 ht-degree: 0%
@@ -31,7 +30,7 @@ ht-degree: 0%
 
 ## 使用智慧型裁切視訊檢視器 {#section-f21ac23d3f6449ad9765588d69584772}
 
-智慧型裁切視訊檢視器代表主要JavaScript檔案和一組協助檔案 — 單一JavaScript包含所有檢視器SDK元件，供檢視器在執行階段下載的特定檢視器、資產和CSS使用。
+智慧型裁切視訊檢視器代表主要JavaScript檔案和一組協助檔案 — 單一JavaScript包含所有檢視器SDK元件（由檢視器在執行階段下載的特定檢視器、資產和CSS元件）。
 
 您可以使用IS-Viewers隨附的生產就緒HTML頁面，以快顯模式使用智慧型裁切視訊檢視器。 或者，您可以在內嵌模式中使用檢視器，透過記錄的API將其整合至目標網頁。
 
@@ -52,7 +51,7 @@ ht-degree: 0%
 
 所有這些控制項都會分組到檢視器使用者介面底部的控制列中。
 
-在觸摸設備上，音量控制在用戶介面中隱藏，因為只能使用硬體按鈕控制音量。
+在觸摸設備上，音量控制從用戶介面中隱藏，因為只能使用硬體按鈕控制音量。
 
 檢視器在快顯模式中運作時，使用者介面中無法使用全螢幕按鈕。
 

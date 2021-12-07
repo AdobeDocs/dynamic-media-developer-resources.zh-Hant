@@ -4,8 +4,7 @@ description: 智慧型裁切視訊檢視器的JavaScript API參考。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: null
-source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
+source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 3%
@@ -18,7 +17,7 @@ ht-degree: 3%
 
 `setAsset(asset[, data])`
 
-設定新資產和選用的其他資產資料。 您可以在任何時間（在之前或之後）呼叫此參數 `init()`. 若在 `init()`，檢視器會在執行階段交換資產。
+設定新資產和選用的其他資產資料。 您可以在任何時間（在之前或之後）呼叫此參數 `init()`. 如果在 `init()`，檢視器會在執行階段交換資產。
 
 另請參閱 [init]
 (../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptpiref\r-html5-aem-smartcropvideo-viewer-javascriptpiref-init.md#reference-3b570ba8b35045d6b30fb178c21a6c6)。

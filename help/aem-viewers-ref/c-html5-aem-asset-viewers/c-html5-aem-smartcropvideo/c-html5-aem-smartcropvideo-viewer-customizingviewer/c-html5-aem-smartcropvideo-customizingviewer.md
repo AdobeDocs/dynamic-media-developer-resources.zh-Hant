@@ -5,8 +5,7 @@ keywords: 回應式
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: null
-source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
+source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
 workflow-type: tm+mt
 source-wordcount: '1264'
 ht-degree: 0%
@@ -23,7 +22,7 @@ ht-degree: 0%
 
 `<s7_viewers_root>/html5/SmartCropVideoViewer.css`
 
-自訂CSS檔案必須包含與預設檔案相同的類別宣告。 如果省略類聲明，則查看器無法正常工作，因為它不提供用戶介面元素的內置預設樣式。
+自訂CSS檔案必須包含與預設檔案相同的類聲明。 如果省略類聲明，則查看器無法正常工作，因為它不提供用戶介面元素的內置預設樣式。
 
 提供自訂CSS規則的替代方式，是直接在網頁或其中一個連結的外部CSS規則中使用內嵌樣式。
 
@@ -117,7 +116,7 @@ ht-degree: 0%
 
 使用CSS媒體查詢方法時，您應使用裝置偵測來組織CSS，如下所示：
 
-* 首先，案頭專屬區段會定義所有螢幕專用或通用的屬性。
+* 首先，案頭專屬區段會定義所有螢幕專屬或通用的屬性。
 * 其次，四個媒體查詢應依上述定義的順序進行，並提供對應裝置類型專屬的CSS規則。
 
 不需要在每個媒體查詢中複製整個檢視器CSS。 只有指定裝置專屬的屬性會在媒體查詢中重新定義。
