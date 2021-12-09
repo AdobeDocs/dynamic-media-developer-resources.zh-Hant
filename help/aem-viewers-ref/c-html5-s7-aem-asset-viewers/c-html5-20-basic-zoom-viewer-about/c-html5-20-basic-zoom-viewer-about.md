@@ -1,14 +1,14 @@
 ---
+title: 基本縮放
 description: 基本縮放檢視器是顯示單一可縮放影像的影像檢視器。 它提供縮放工具、全螢幕支援和可選的關閉按鈕。 此檢視器是最輕量的。 專為在桌上型電腦和行動裝置上運作而設計。
 keywords: 回應式
 solution: Experience Manager
-title: 基本縮放
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: ee15ce21-20c4-428b-9512-050115e4c322
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: d5f1f05c36c1cb8a57b5a4bb8a9d066c20e32e75
 workflow-type: tm+mt
-source-wordcount: '2034'
+source-wordcount: '2028'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 ## 使用基本縮放檢視器 {#section-e6c68406ecdc4de781df182bbd8088b4}
 
-基本縮放檢視器代表主要JavaScript檔案和一組協助檔案（單一JavaScript包含檢視器在執行階段下載的特定檢視器、資產、CSS所使用的所有檢視器SDK元件）。
+基本縮放檢視器代表一個JavaScript檔案和一組協助檔案，檢視器會在執行階段下載這些檔案。 基本上，它是單一JavaScript包含，搭配此特定檢視器、資產和CSS使用的所有檢視器SDK元件。
 
 您可以使用隨IS檢視器提供的生產就緒HTML頁面，或在內嵌模式中使用基本縮放檢視器，透過記錄的API將其整合至目標網頁。
 
@@ -72,7 +72,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-檢視器也支援Windows裝置上的觸控式輸入和滑鼠輸入，且具有觸控式螢幕和滑鼠。 不過，此支援僅限Chrome、Internet Explorer 11和Edge網頁瀏覽器。
+檢視器也支援Windows裝置上的觸控輸入和滑鼠輸入，且具有觸控式螢幕和滑鼠。 不過，此支援僅限Chrome、Internet Explorer 11和Edge網頁瀏覽器。
 
 此查看器可完全通過鍵盤訪問。
 
@@ -106,11 +106,11 @@ ht-degree: 0%
 
 主要使用案例是以桌上型電腦或平板電腦裝置為導向的網頁，以及可回應的設計頁面，這些頁面會根據裝置類型自動調整版面。
 
-當檢視器在初始載入後未變更大小時，會使用固定大小內嵌。 這是靜態版面的網頁最佳選擇。
+當檢視器在初始載入後未變更大小時，會使用固定大小內嵌。 此方法是靜態版面的網頁最佳選擇。
 
-回應式設計內嵌假設檢視器可能需要在執行階段調整大小以回應其容器的大小變更 `DIV`. 最常見的使用案例是在使用彈性頁面版面的網頁中新增檢視器。
+回應式設計內嵌假設檢視器必須在執行階段調整大小，以回應其容器的大小變更 `DIV`. 最常見的使用案例是在使用彈性頁面版面的網頁中新增檢視器。
 
-在回應式設計內嵌模式中，檢視器的運作方式會因網頁大小其容器的方式而異 `DIV`. 如果網頁僅設定容器的寬度 `DIV`，而不限制其高度，則檢視器會根據所使用資產的外觀比例自動選取高度。 此功能可確保資產完全符合檢視，而無需邊框上的邊框間距。 此使用案例是使用回應式網頁設計配置架構(例如Bootstrap、Foundation等)的網頁中最常見的使用案例。
+在回應式設計內嵌模式中，檢視器的運作方式會因網頁大小其容器的方式而異 `DIV`. 如果網頁僅設定容器的寬度 `DIV`，而不限制其高度，則檢視器會根據所使用資產的外觀比例自動選取高度。 此功能可確保資產完全符合檢視，而無需邊框上的邊框間距。 此使用案例是使用回應式網頁設計配置架構(例如Bootstrap和Foundation)的網頁中最常見的使用案例。
 
 否則，如果網頁同時設定檢視器容器的寬度和高度 `DIV`，則檢視器會填入該區域，並遵循網頁版面提供的大小。 一個很好的範例是將檢視器嵌入強制回應覆蓋中，其中覆蓋會根據網頁瀏覽器視窗大小來調整大小。
 
@@ -139,7 +139,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您只應參考主要檢視器JavaScript `include` 檔案。 您不應在網頁程式碼中參考任何其他JavaScript檔案，而檢視器邏輯可能會在執行階段下載這些檔案。 尤其是，請勿直接參考HTML5 SDK `Utils.js` 檢視器從 `/s7viewers` 內容路徑（所謂的整合SDK） `include`)。 原因是 `Utils.js` 或者，檢視器的邏輯和檢視器版本之間的位置變更，可完全管理類似的執行階段檢視器程式庫。 Adobe不會保留舊版次要檢視器 `includes` 在伺服器上。
+>僅參考主要檢視器JavaScript `include` 檔案。 請勿在網頁程式碼中參考任何其他JavaScript檔案，這些檔案可能會由檢視器的邏輯在執行階段下載。 尤其是，請勿直接參考HTML5 SDK `Utils.js` 檢視器從 `/s7viewers` 內容路徑（所謂的整合SDK） `include`)。 原因是 `Utils.js` 或者，檢視器的邏輯和檢視器版本之間的位置變更，可完全管理類似的執行階段檢視器程式庫。 Adobe不會保留舊版次要檢視器 `includes` 在伺服器上。
 >
 >
 >因此，請直接參考任何次要JavaScript `include` 若將來部署新產品版本，則檢視器在頁面上使用時會中斷檢視器功能。
@@ -160,7 +160,7 @@ ht-degree: 0%
 
    您可以為聲明來設定檢視器的靜態大小 `.s7basiczoomviewer` 頂層CSS類（以絕對單位表示），或使用 `stagesize` 修飾詞。
 
-   您可以直接將CSS中的大小調整放在HTML頁面上，或放在自訂檢視器CSS檔案中，該檔案稍後會指派給Dynamic Media Classic中的檢視器預設集記錄，或使用style命令明確傳遞。
+   將CSS中的大小調整直接放在HTML頁面或自訂檢視器CSS檔案中。 之後，系統會將它指派給Dynamic Media Classic中的檢視器預設集記錄，或使用style命令明確傳遞。
 
    請參閱 [自訂基本縮放檢視器](../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-customizingviewer/c-html5-20-basic-zoom-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) 以取得有關使用CSS來設定檢視器樣式的詳細資訊。
 
@@ -173,7 +173,7 @@ ht-degree: 0%
    }
    ```
 
-   您可以設定 `stagesize` 修飾元(在Dynamic Media Classic的檢視器預設集記錄中)，或以檢視器初始化程式碼明確傳遞 `params` 集合，或以API呼叫的形式（如命令參考區段所述），如下所示：
+   您可以設定 `stagesize` 修飾元(在Dynamic Media Classic中的檢視器預設集記錄中)。 或者，您也可以使用檢視器初始化程式碼，以明確的方式傳遞 `params` 集合，或以API呼叫的形式（如命令參考區段所述），如下所示：
 
    ```
    basicZoomViewer.setParam("stagesize", "640,480");
@@ -187,7 +187,7 @@ ht-degree: 0%
 
    請務必將檢視器容器新增至DOM，讓檢視器程式碼可以透過其ID來尋找容器元素。 有些瀏覽器會延遲建立DOM，直到網頁結尾為止。 如需最大相容性，請呼叫 `init()` 方法 `BODY` 標籤，或在內文上 `onload()` 事件。
 
-   同時，容器元素還不一定是網頁版面的一部分。 例如，您可能會使用 `display:none` 樣式。 在此情況下，檢視器會延遲其初始化程式，直到網頁將容器元素帶回版面的那一刻為止。 發生此情況時，檢視器載入會自動恢復。
+   同時，容器元素還不一定是網頁版面的一部分。 例如，您可能會使用 `display:none` 樣式。 在此情況下，檢視器會延遲其初始化程式，直到網頁將容器元素帶回版面的那一刻為止。 發生此事件時，檢視器載入會自動恢復。
 
    以下是建立檢視器例項的範例，將最低必要的設定選項傳遞至建構函式，並呼叫 `init()` 方法。 此範例假設 `basicZoomViewer` 是檢視器例項； `s7viewer` 是佔位符的名稱 `DIV`; `http://s7d1.scene7.com/is/image/` 是影像伺服URL，且 `Scene7SharedAssets/Backpack_B` 是資產：
 
@@ -294,7 +294,7 @@ var basicZoomViewer = new s7viewers.BasicZoomViewer({
 
 **定義寬度和高度的靈活大小嵌入**
 
-若是定義寬度和高度的彈性內嵌，網頁樣式會有所不同。 它為 `"holder"` DIV並在瀏覽器視窗中將其置中。 此外，網頁會設定 `HTML` 和 `BODY` 100%。
+如果定義了寬度和高度的彈性內嵌大小，則網頁樣式會有所不同。 它為 `"holder"` DIV並在瀏覽器視窗中將其置中。 此外，網頁會設定 `HTML` 和 `BODY` 100%。
 
 ```
 <!DOCTYPE html> 
