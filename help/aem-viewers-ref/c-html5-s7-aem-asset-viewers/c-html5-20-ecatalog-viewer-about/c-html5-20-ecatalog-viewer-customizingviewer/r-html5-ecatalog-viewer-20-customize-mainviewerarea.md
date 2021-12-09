@@ -1,13 +1,13 @@
 ---
+title: 主觀看者區域
 description: 主視圖區域是目錄影像所佔據的區域。 通常在未指定大小時設定為適合可用的裝置畫面。
 solution: Experience Manager
-title: 主觀看者區域
-feature: Dynamic Media Classic，檢視器，SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 9a37936b-ee3d-4ea0-9a86-ea14d0ef8be9
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '116'
 ht-degree: 2%
 
 ---
@@ -43,13 +43,13 @@ ht-degree: 2%
    <td colname="col2"> <p>檢視器的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景顏色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景顏色 </span> </p> </td> 
    <td colname="col2"> <p> 以十六進位格式表示的背景顏色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-範例：若要設定具有白色背景的檢視器(`#FFFFFF`)，並將其大小設為512 x 288像素。
+範例：設定具有白色背景的檢視器( `#FFFFFF`)，並使其大小為512 x 288像素。
 
 ```
 .s7ecatalogviewer { 

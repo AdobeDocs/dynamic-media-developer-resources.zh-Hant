@@ -1,13 +1,13 @@
 ---
+title: 收藏夾效果
 description: 檢視器會在主檢視上顯示「我的最愛」圖示，位於使用者最初新增的位置。
 solution: Experience Manager
-title: 收藏夾效果
-feature: Dynamic Media Classic，檢視器，SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: e87226cf-56bf-4d54-8df5-91295eae90a8
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '182'
 ht-degree: 1%
 
 ---
@@ -29,12 +29,12 @@ ht-degree: 1%
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景 — 影像  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景 — 影像 </span> </p> </td> 
    <td colname="col2"> <p> 為表徵圖顯示的影像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS精靈，則位於圖稿精靈內。 </p> <p>另請參閱<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS精靈，則位於圖稿精靈內。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -57,26 +57,26 @@ ht-degree: 1%
 }
 ```
 
-在案頭系統上，該元件支援`cursortype`屬性選擇器，可將其應用於`.s7favoriteseffect`類，並根據所選用戶操作控制游標的類型。 支援下列`cursortype`值：
+在案頭系統上，此元件支援 `cursortype` 屬性選取器，您可以套用至 `.s7favoriteseffect` 類和根據所選用戶操作控制游標的類型。 以下 `cursortype` 值受支援：
 
 <table id="table_71F8F333909247E4ACFEBDE3A1370EAB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mode_add  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> mode_add </span> </p> </td> 
    <td colname="col2"> <p>顯示的用戶正在添加新的收藏夾表徵圖。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mode_remove  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> mode_remove </span> </p> </td> 
    <td colname="col2"> <p>顯示的用戶正在刪除現有的收藏夾表徵圖。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mode_view  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> mode_view </span> </p> </td> 
    <td colname="col2"> <p>當「收藏夾」編輯不活動時，以正常操作模式顯示。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例 — 每種類型的元件狀態有不同的滑鼠游標。
+示例 — 為每種類型的元件狀態使用不同的滑鼠游標。
 
 ```
 .s7ecatalogviewer .s7favoriteseffect[cursortype="mode_add"] { 

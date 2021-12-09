@@ -1,13 +1,13 @@
 ---
+title: 縮圖
 description: 縮圖由縮圖影像的格線組成，右側可選用捲軸，以允許垂直捲動。
 solution: Experience Manager
-title: 縮圖
-feature: Dynamic Media Classic，檢視器，SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: e3d3d33b-f6bb-4c5b-820c-028bfb6b2594
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '890'
 ht-degree: 2%
 
 ---
@@ -35,29 +35,29 @@ ht-degree: 2%
    <td colname="col2"> <p> 縮圖容器從檢視器頂端的垂直偏移。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 邊距上  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 邊距上 </span> </p> </td> 
    <td colname="col2"> <p>最大利潤。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 左邊距  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 左邊距 </span> </p> </td> 
    <td colname="col2"> <p>左邊距。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 邊距 — 右  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 邊距 — 右 </span> </p> </td> 
    <td colname="col2"> <p>右邊。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 邊距 — 底部  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 邊距 — 底部 </span> </p> </td> 
    <td colname="col2"> <p>底邊。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景顏色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景顏色 </span> </p> </td> 
    <td colname="col2"> <p>縮圖區域的背景顏色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-範例 — 設定縮圖，使其從上方偏移32像素，左右邊距為5像素，底部邊距為8像素，背景為`0xDDDDDD`。
+範例 — 設定縮圖，使其從上方偏移32像素，左右邊距為5像素，底部邊距為8像素，其中 `0xDDDDDD` 背景。
 
 ```
 .s7ecatalogviewer .s7thumbnailgridview { 
@@ -83,7 +83,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> 每個縮圖周圍的水準和垂直邊界的大小。 實際水準縮圖間距等於為<span class="codeph"> .s7thumbcell </span>設定的左邊距和右邊距之和。 垂直縮圖間距等於上邊界和下邊界的總和。 </p> </td> 
+   <td colname="col2"> <p> 每個縮圖周圍的水準和垂直邊界的大小。 實際水準縮圖間距等於為設定的左右邊界之和 <span class="codeph"> .s7thumbcell </span>. 垂直縮圖間距等於上邊界和下邊界的總和。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -121,7 +121,7 @@ ht-degree: 2%
    <td colname="col2"> <p>縮圖的邊框。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景顏色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景顏色 </span> </p> </td> 
    <td colname="col2"> <p>縮圖的背景顏色。 </p> </td> 
   </tr> 
  </tbody> 
@@ -131,7 +131,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->縮圖支援`state`屬性選取器，可用來將不同外觀套用至不同的縮圖狀態。 尤其是， `state="selected"`對應於當前顯示在主視圖中的影像的縮略圖， `state="default"`對應於其餘的縮略圖，並且`state="over"`用於滑鼠懸停。
+>縮圖支援 `state` 屬性選取器，可用來將不同外觀套用至不同的縮圖狀態。 特別是， `state="selected"` 對應於當前顯示在主視圖中的影像的縮略圖， `state="default"` 與其餘的縮圖對應，和 `state="over"` 用於滑鼠暫留。
 
 範例 — 若要設定縮圖，縮圖為120 x 85像素、有白色背景、淺灰色標準邊框和深灰色選取的邊框。
 
@@ -160,17 +160,17 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型系列  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字型系列 </span> </p> </td> 
    <td colname="col2"> <p>字型名稱。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型大小  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字型大小 </span> </p> </td> 
    <td colname="col2"> <p>字型大小. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例 — 將標籤設定為使用14像素Helvetica字型。
+示例 — 將標籤設定為使用14像素Helvetica®字型。
 
 ```
 .s7ecatalogviewer .s7thumbnailgridview .s7label { 
@@ -192,7 +192,7 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
    <td colname="col2"> <p>捲動條的寬度。 </p> </td> 
   </tr> 
   <tr> 
@@ -234,11 +234,11 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
    <td colname="col2"> <p>捲動條軌道的寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景顏色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景顏色 </span> </p> </td> 
    <td colname="col2"> <p> 捲動條軌道的背景顏色。 </p> </td> 
   </tr> 
  </tbody> 
@@ -266,35 +266,35 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
    <td colname="col2"> <p>捲動條拇指的寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
    <td colname="col2"> <p>捲動條縮圖的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 邊框間距 — 頂端  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 邊框間距 — 頂端 </span> </p> </td> 
    <td colname="col2"> <p>捲動條軌道頂部之間的垂直邊框間距。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 邊框間距  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 邊框間距 </span> </p> </td> 
    <td colname="col2"> <p>捲動條軌道底部之間的垂直邊框間距。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景 — 影像  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景 — 影像 </span> </p> </td> 
    <td colname="col2"> <p>為給定拇指狀態顯示的影像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS精靈，則位於圖稿精靈內。 </p> <p>另請參閱<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS精靈，則位於圖稿精靈內。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Thumb支援`state`屬性選擇器，該選擇器可用於將不同的外觀應用於Thumb狀態`up`、`down`、`over`和`disabled`。
+>拇指支援 `state` 屬性選取器，可用來將不同外觀套用至縮圖狀態 `up`, `down`, `over`，和 `disabled`.
 
 示例 — 要設定一個捲動條縮圖，該縮圖為28 x 45像素，頂部和底部有10個像素邊距，並且每個狀態的圖稿都不同。
 
@@ -327,7 +327,7 @@ ht-degree: 2%
 
 `.s7ecatalogviewer .s7thumbnailgridview .s7scrollbar .s7scrolldownbutton`
 
-無法使用CSS `top`、`left`、`bottom`和`right`屬性來定位捲動按鈕。 檢視器邏輯會自動定位。
+無法使用CSS來定位捲動按鈕 `top`, `left`, `bottom`，和 `right` 屬性。 檢視器邏輯會自動定位。
 
 <table id="table_89E64A138ABF463F9650BB454F22D530"> 
  <thead> 
@@ -338,29 +338,29 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
    <td colname="col2"> <p>按鈕的寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
    <td colname="col2"> <p>按鈕的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景 — 影像  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景 — 影像 </span> </p> </td> 
    <td colname="col2"> <p>為給定拇指狀態顯示的影像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS精靈，則位於圖稿精靈內。 </p> <p>另請參閱<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS精靈，則位於圖稿精靈內。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->這些按鈕支援`state`屬性選擇器，可用於將不同外觀應用於不同的按鈕狀態`up`、`down`、`over`和`disabled`。
+>這些按鈕支援 `state` 屬性選取器，可用來將不同外觀套用至不同按鈕狀態 `up`, `down`, `over`，和 `disabled`.
 
-按鈕工具提示可以本地化。 如需詳細資訊，請參閱[使用者介面元素本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 。
+按鈕工具提示可以本地化。 請參閱 [用戶介面元素本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以取得更多資訊。
 
 示例 — 設定捲動按鈕，這些按鈕為28 x 32像素，並且每個狀態的圖稿都不同。
 

@@ -1,14 +1,14 @@
 ---
+title: 關閉按鈕
 description: 關閉按鈕
 solution: Experience Manager
-title: 關閉按鈕
-feature: Dynamic Media Classic，檢視器，SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 253dad70-c46c-4d37-8d0c-2a97a5f53f13
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 10%
+source-wordcount: '43'
+ht-degree: 11%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 10%
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0-1  </span> </p> </td> 
-   <td colname="col2"> <p>設為<span class="codeph"> 1 </span>以啟用關閉按鈕的顯示。 或者，設定為<span class="codeph"> 0 </span>以隱藏關閉按鈕。 </p> <p>只有觸控式裝置才支援關閉按鈕；無法在案頭系統上顯示。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
+   <td colname="col2"> <p>設為 <span class="codeph"> 1 </span> 以啟用「關閉」按鈕的顯示。 或，設為 <span class="codeph"> 0 </span> 來隱藏「關閉」按鈕。 </p> <p>「關閉」按鈕僅在觸控裝置上受支援；無法在案頭系統上顯示。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

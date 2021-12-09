@@ -1,20 +1,20 @@
 ---
-description: Twitter共用工具包含新增至「社交分享」面板的按鈕。 當選取按鈕時，系統會將使用者重新導向至社交服務提供的共用對話方塊。 按鈕的位置由Social分享工具完全管理。
-solution: Experience Manager
 title: Twitter共用
+description: Twitter共用工具包含新增至「社交分享」面板的按鈕。 當選取按鈕時，會將使用者重新導向至社交服務提供的共用對話方塊。 按鈕的位置由Social分享工具完全管理。
+solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 31b6f36d-e4bc-44e9-88a1-6aff6f2254ef
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Twitter共用{#twitter-share}
 
-Twitter共用工具包含新增至「社交分享」面板的按鈕。 當選取按鈕時，系統會將使用者重新導向至社交服務提供的共用對話方塊。 按鈕的位置由Social分享工具完全管理。
+Twitter共用工具包含新增至「社交分享」面板的按鈕。 當選取按鈕時，會將使用者重新導向至社交服務提供的共用對話方塊。 按鈕的位置由Social分享工具完全管理。
 
 <!--<a id="section_ADDF98E91AF24F618289D1682A5FB13A"></a>-->
 
@@ -55,7 +55,7 @@ twitter共用按鈕的外觀由下列CSS類別選取器控制：
 
 按鈕工具提示可以本地化。 請參閱 [用戶介面元素本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以取得更多資訊。
 
-範例：若要設定28 x 28像素的Twitter共用按鈕，並針對四個不同按鈕狀態中的每一個顯示不同的影像：
+範例 — 若要設定28 x 28像素的Twitter共用按鈕，並針對四個不同按鈕狀態中的每一個顯示不同的影像：
 
 ```
 .s7ecatalogviewer .s7twittershare { 

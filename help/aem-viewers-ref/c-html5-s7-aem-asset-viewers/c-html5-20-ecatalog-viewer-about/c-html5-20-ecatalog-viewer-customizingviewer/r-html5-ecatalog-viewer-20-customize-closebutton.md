@@ -1,20 +1,20 @@
 ---
-description: 按一下或點選此按鈕會關閉容納網頁。 此按鈕僅在關閉按鈕參數設定為1時顯示。 此按鈕在案頭系統上不可用。 您可以使用CSS來調整此按鈕的大小、外觀和位置。
-solution: Experience Manager
 title: 關閉按鈕
-feature: Dynamic Media Classic，檢視器，SDK/API,eCatalog
+description: 選擇或點選此按鈕將關閉容納網頁。 此按鈕僅在關閉按鈕參數設定為1時顯示。 此按鈕在案頭系統上不可用。 您可以使用CSS來調整此按鈕的大小、外觀和位置。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 07dc3a95-1f3e-44c4-8126-621f10aec212
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '268'
 ht-degree: 2%
 
 ---
 
 # 關閉按鈕{#close-button}
 
-按一下或點選此按鈕會關閉容納網頁。 此按鈕僅在關閉按鈕參數設定為1時顯示。 此按鈕在案頭系統上不可用。 您可以使用CSS來調整此按鈕的大小、外觀和位置。
+選擇或點選此按鈕將關閉容納網頁。 此按鈕僅在關閉按鈕參數設定為1時顯示。 此按鈕在案頭系統上不可用。 您可以使用CSS來調整此按鈕的大小、外觀和位置。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -57,23 +57,23 @@ ht-degree: 2%
    <td colname="col2"> <p>按鈕的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景 — 影像  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景 — 影像 </span> </p> </td> 
    <td colname="col2"> <p>針對指定按鈕狀態顯示的影像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS精靈，則位於圖稿精靈內。 </p> <p>另請參閱<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS精靈，則位於圖稿精靈內。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按鈕支援`state`屬性選擇器，您可以使用它將不同的外觀應用於不同的按鈕狀態。
+>此按鈕支援 `state` 屬性選取器，您可使用該屬性選取器將不同外觀套用至不同按鈕狀態。
 
-按鈕工具提示可以本地化。 如需詳細資訊，請參閱[使用者介面元素本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 。
+按鈕工具提示可以本地化。 請參閱 [用戶介面元素本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以取得更多資訊。
 
-範例：若要設定56 x 56像素的關閉按鈕，從主控制列的上邊緣和右邊緣放置4像素，並針對四個不同按鈕狀態中的每個狀態顯示不同的影像。
+示例 — 設定一個「關閉」按鈕，該按鈕為56 x 56像素，並從主控制欄的上邊緣和右邊緣定位4像素。 最後，針對四個不同的按鈕狀態顯示不同的影像。
 
 ```
 .s7ecatalogviewer .s7closebutton { 

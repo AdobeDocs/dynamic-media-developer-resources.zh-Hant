@@ -1,13 +1,13 @@
 ---
+title: 下載
 description: 下載
 solution: Experience Manager
-title: 下載
-feature: Dynamic Media Classic，檢視器，SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 4cfdfc28-20db-41bc-a423-01d696ea6eed
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '76'
 ht-degree: 3%
 
 ---
@@ -18,6 +18,6 @@ ht-degree: 3%
 
 發生下列情況時，檢視器使用者介面中會自動提供「下載」按鈕：
 
-* 客戶公司中有實際的PDF檔案。
-* 此名稱與傳遞至檢視器的e-catalog資產名稱相符，並包含`.pdf`擴充功能。
+* 客戶公司中存在實際的PDF檔案。
+* 此名稱與傳遞至檢視器的電子目錄資產名稱相符，並包含 `.pdf` 擴充功能。
 * PDF檔案會在Dynamic Media Classic中發佈。
