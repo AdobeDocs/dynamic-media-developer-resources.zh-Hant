@@ -1,14 +1,14 @@
 ---
+title: setParams
 description: 視訊檢視器的JavaScript API參考。
 solution: Experience Manager
-title: setParams
-feature: Dynamic Media Classic，檢視器，SDK/API，縮放
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: af31b5eb-2051-4f4c-861d-67ada3248fd6
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 1%
+source-wordcount: '95'
+ht-degree: 2%
 
 ---
 
@@ -22,16 +22,16 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> params</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}</span> name=value參數對(以&amp; <span class="codeph"> 分隔)</span>。 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}</span> name=value參數對，以 <span class="codeph"> &amp;</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-將一或多個參數設為指定值。 方法引數語法與URL查詢字串相同。 也就是說，它表示以`&`分隔的名稱=值配對。 就像在查詢字串中一樣，名稱和值是使用UTF8進行百分比編碼。 呼叫`init()`之前，必須呼叫此參數。
+將一或多個參數設為指定值。 方法引數語法與URL查詢字串相同。 也就是說，它代表以 `&`. 如同在查詢字串中，名稱和值是使用UTF8以百分比編碼。 呼叫前 `init()`，則必須呼叫此參數。
 
-如果檢視器設定資訊是以`config` JSON物件傳遞至建構函式，則此方法為選用。
+如果檢視器設定資訊是以 `config` JSON物件轉換為建構函式。
 
-另請參閱[init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/r-html5-zoom-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b)。
+另請參閱 [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/r-html5-zoom-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 
 ## 傳回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 

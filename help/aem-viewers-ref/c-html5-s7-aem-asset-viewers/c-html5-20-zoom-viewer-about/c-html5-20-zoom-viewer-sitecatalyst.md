@@ -1,13 +1,13 @@
 ---
+title: 支援Adobe Analytics追蹤
 description: 支援Adobe Analytics追蹤
 solution: Experience Manager
-title: 支援Adobe Analytics追蹤
-feature: Dynamic Media Classic，檢視器，SDK/API，縮放
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 5f927a4b-b9c8-4750-9d1c-c252d87fd236
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '144'
 ht-degree: 3%
 
 ---
@@ -16,13 +16,13 @@ ht-degree: 3%
 
 ## 現成可用追蹤 {#section-ba994f079d0343c8ae48adffaa3195a3}
 
-視訊檢視器支援[!DNL Adobe Analytics]立即追蹤。 若要啟用追蹤，請將正確的公司預設集名稱傳遞為`config2`參數。
+視訊檢視器支援 [!DNL Adobe Analytics] 立即追蹤。 若要啟用追蹤，請將正確的公司預設集名稱傳遞為 `config2` 參數。
 
 檢視器也會傳送單一追蹤HTTP要求至已設定的影像伺服器，並附上檢視器類型和版本資訊。
 
 ## 自訂追蹤 {#section-cda48fc9730142d0bb3326bac7df3271}
 
-若要與協力廠商分析系統整合，必須監聽`trackEvent`檢視器回呼，並視需要處理回呼函式的`eventInfo`引數。 以下代碼是此類處理程式函式的示例：
+若要與協力廠商分析系統整合，必須監聽 `trackEvent` 檢視器回呼及處理 `eventInfo` 回呼函式的引數。 以下代碼是此類處理程式函式的示例：
 
 ```
 var zoomViewer = new s7viewers.ZoomViewer({ 
@@ -62,7 +62,7 @@ var zoomViewer = new s7viewers.ZoomViewer({
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>使用<span class="codeph"> setAsset()</span> API在檢視器中交換資產。 </p> </td> 
+   <td colname="col2"> <p>檢視器中會使用 <span class="codeph"> setAsset() </span> API。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZOOM </span> </p> </td> 

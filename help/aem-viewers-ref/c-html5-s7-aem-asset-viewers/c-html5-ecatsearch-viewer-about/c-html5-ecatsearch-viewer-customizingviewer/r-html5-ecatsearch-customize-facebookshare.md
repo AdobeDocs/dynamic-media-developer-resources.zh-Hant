@@ -1,11 +1,11 @@
 ---
-description: Facebook共用工具包含新增至「社交分享」面板的按鈕。 當選取按鈕時，系統會將使用者重新導向至社交服務提供的共用對話方塊。 按鈕的位置由Social分享工具完全管理。
-solution: Experience Manager
 title: Facebook共用
+description: Facebook共用工具包含新增至「社交分享」面板的按鈕。 當選取按鈕時，會將使用者重新導向至社交服務提供的共用對話方塊。 按鈕的位置由Social分享工具完全管理。
+solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 792d53de-5561-48bb-85d7-fbf3b6377673
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Facebook共用{#facebook-share}
 
-Facebook共用工具包含新增至「社交分享」面板的按鈕。 當選取按鈕時，系統會將使用者重新導向至社交服務提供的共用對話方塊。 按鈕的位置由Social分享工具完全管理。
+Facebook共用工具包含新增至「社交分享」面板的按鈕。 當選取按鈕時，會將使用者重新導向至社交服務提供的共用對話方塊。 按鈕的位置由Social分享工具完全管理。
 
 <!--<a id="section_ADDF98E91AF24F618289D1682A5FB13A"></a>-->
 

@@ -1,14 +1,14 @@
 ---
+title: Swatches.partialswatches
 description: Swatches.partialswatches
 solution: Experience Manager
-title: Swatches.partialswatches
-feature: Dynamic Media Classic，檢視器，SDK/API，縮放
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: b2a65077-c322-446a-8d71-bded292215bf
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 12%
+source-wordcount: '34'
+ht-degree: 14%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 12%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td> <p> 指定當任何色票部分可見時（未對齊捲動），元件是否允許停止捲動。 建議的值為<span class="codeph"> false</span>或<span class="codeph"> 0</span>。 </p> </td> 
+   <td> <p> 指定當任何色票部分可見時（未對齊捲動），元件是否允許停止捲動。 建議的值為 <span class="codeph"> false</span> 或 <span class="codeph"> 0</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

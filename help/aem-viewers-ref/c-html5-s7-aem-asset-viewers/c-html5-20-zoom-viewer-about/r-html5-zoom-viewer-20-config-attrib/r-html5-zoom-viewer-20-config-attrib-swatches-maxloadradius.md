@@ -1,14 +1,14 @@
 ---
+title: Swatches.maxloadradius
 description: Swatches.maxloadradius
 solution: Experience Manager
-title: Swatches.maxloadradius
-feature: Dynamic Media Classic，檢視器，SDK/API，縮放
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: df9d5be4-d1e1-4b72-a7e7-0f3611278d2a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 6%
+source-wordcount: '53'
+ht-degree: 7%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> -1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td> <p>指定元件預載行為。 當設為<span class="codeph"> -1</span>時，初始化元件或變更資產時，會同時載入所有色票。 </p> <p>設為<span class="codeph"> 0</span>時，只會載入可見色票。 </p> <p><span class="codeph"><span class="varname"> </span></span> preloadnbr定義了預載入可見區域周圍的不可見行/列的數量。 </p> </td> 
+   <td> <p>指定元件預載行為。 設為時 <span class="codeph"> -1</span> 初始化元件或變更資產時，會同時載入所有色票。 </p> <p>設為時 <span class="codeph"> 0</span> 只載入可見色票。 </p> <p><span class="codeph"><span class="varname"> preloadnbr</span></span> 定義預載入可見區域周圍的不可見行/列的數量。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

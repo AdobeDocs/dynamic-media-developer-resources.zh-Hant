@@ -1,13 +1,13 @@
 ---
+title: 搜尋結果面板
 description: 搜索結果面板由頂部的搜索輸入框和顯示資訊消息或搜索結果的主要區域組成。
 solution: Experience Manager
-title: 搜尋結果面板
-feature: Dynamic Media Classic，檢視器，SDK/API,eCatalog搜尋
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: ffbbc2ae-60da-4c3d-a350-6dbcb64e189d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '925'
 ht-degree: 2%
 
 ---
@@ -35,17 +35,17 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景顏色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景顏色 </span> </p> </td> 
    <td colname="col2"> <p>覆蓋圖的顏色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 不透明度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 不透明度 </span> </p> </td> 
    <td colname="col2"> <p>顏色的不透明度。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-搜尋結果面板一律佔據所有可用的檢視器高度。 不過，您可以設定寬度。 您可以將寬度設定為絕對像素值，這是中大尺寸斷點的預設設定。 或者，您可以將寬度設為100%，讓搜尋結果面板佔據整個檢視器區域。 面板寬度由下列CSS類別選取器控制：
+搜尋結果面板一律佔據所有可用的檢視器高度。 不過，您可以設定寬度。 您可以將寬度設定為絕對像素值，這是中大型斷點的預設設定。 或者，您可以將寬度設為100%，讓搜尋結果面板佔據整個檢視器區域。 面板寬度由下列CSS類別選取器控制：
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7searchresultspace
@@ -62,7 +62,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-示例 — 在大中小斷點上設定250像素寬的搜索結果面板，並在小斷點上使用全尺寸面板：
+示例 — 在大中小斷點上設定250像素範圍的搜索結果面板，並在小斷點上使用全尺寸面板：
 
 ```
 .s7ecatalogsearchviewer.s7size_large .s7searchpanel .s7searchresultspanel, .s7ecatalogsearchviewer.s7size_medium .s7searchpanel .s7searchresultspanel { 
@@ -105,7 +105,7 @@ ht-degree: 2%
    <td colname="col2"> <p>搜索輸入欄位的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 向左邊框間距  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 向左邊框間距 </span> </p> </td> 
    <td colname="col2"> <p> 輸入欄位界限和輸入文本之間的內填充。 </p> </td> 
   </tr> 
   <tr> 
@@ -117,7 +117,7 @@ ht-degree: 2%
    <td colname="col2"> <p>搜索輸入欄位的邊距 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型大小  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字型大小 </span> </p> </td> 
    <td colname="col2"> <p>文本字型的大小。 </p> </td> 
   </tr> 
  </tbody> 
@@ -144,33 +144,33 @@ ht-degree: 2%
 <table id="table_CDD818B40BB1416CB47B7C52F799DE0C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
    <td colname="col2"> <p>搜索輸入按鈕的寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
    <td colname="col2"> <p>搜索輸入按鈕的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景 — 影像  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景 — 影像 </span> </p> </td> 
    <td colname="col2"> <p>「外觀玻璃」圖示影像的URL。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景大小  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景大小 </span> </p> </td> 
    <td colname="col2"> <p>「看似玻璃」表徵圖的大小。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 邊框  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 邊框 </span> </p> </td> 
    <td colname="col2"> <p>搜索輸入按鈕的邊框。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 邊際  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 邊際 </span> </p> </td> 
    <td colname="col2"> <p>搜尋輸入按鈕的邊界。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-範例 — 以26 x 26像素的「外觀玻璃」圖示設定搜尋按鈕；大小為30像素，邊框為1像素：
+範例 — 若要設定以26 x 26像素為「外觀玻璃」圖示的搜尋按鈕；大小為30像素，邊框為1像素：
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7searchinputbutton { 
@@ -183,7 +183,7 @@ ht-degree: 2%
 }
 ```
 
-首次調用該功能時，搜索結果面板可能會顯示文本提示。 它也會在使用者的搜尋未傳回任何結果時，向使用者顯示訊息。 在所有情況下，文本都會顯示在搜索結果面板的主要部分，並由以下CSS類選擇器控制：
+首次調用該功能時，搜索結果面板可能會顯示文本提示。 此外，當使用者的搜尋未傳回任何結果時，也會顯示訊息。 在所有情況下，文本都會顯示在搜索結果面板的主要部分，並由以下CSS類選擇器控制：
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7searchinfo
@@ -198,15 +198,15 @@ ht-degree: 2%
    <td colname="col2"> <p> 文字的顏色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型系列  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字型系列 </span> </p> </td> 
    <td colname="col2"> <p>文本字型的名稱。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-align  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-align </span> </p> </td> 
    <td colname="col2"> <p>水準文字對齊。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型大小  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字型大小 </span> </p> </td> 
    <td colname="col2"> <p>字型文本的大小。 </p> </td> 
   </tr> 
  </tbody> 
@@ -214,11 +214,11 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->此文本面板支援`state`屬性選擇器，它可用於將不同的樣式應用於不同的文本消息。 尤其是， `state='prompt'`對應於第一次呼叫面板時顯示的文字提示；`state='results'`對應至包含搜尋點擊資訊的文字；和`state='no_results'`對應於搜尋查詢未傳回任何結果時顯示的文字。
+>此文字面板支援 `state` 屬性選取器，可用來將不同樣式套用至不同的文字訊息。 特別是， `state='prompt'` 會與第一次呼叫面板時顯示的文字提示相對應。 此 `state='results'` 與包含搜尋點擊資訊的文字對應。 最後， `state='no_results'` 對應至搜尋查詢未傳回任何結果時顯示的文字。
 
-訊息文字可翻譯。 如需詳細資訊，請參閱[使用者介面元素本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 。
+訊息文字可翻譯。 請參閱 [用戶介面元素本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以取得更多資訊。
 
-範例：若要設定使用18像素灰色字型的文字面板：
+範例 — 若要設定使用18像素灰色字型的文字面板：
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7searchinfo { 
@@ -238,13 +238,13 @@ ht-degree: 2%
 <table id="table_26974E509F6943BB98CBC1E4BAE62D68"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 邊際  </span> </p> </td> 
-   <td colname="col2"> <p> 每個縮圖周圍的垂直邊界大小。 實際縮圖間距等於為<span class="codeph"> .s7thumbcell </span>設定的上下邊距之和。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 邊際 </span> </p> </td> 
+   <td colname="col2"> <p> 每個縮圖周圍的垂直邊界大小。 實際縮圖間距等於為設定的上邊界和下邊界的總和 <span class="codeph"> .s7thumbcell </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-範例 — 若要設定10像素間距：
+範例 — 若要設定十個像素間距：
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7swatches .s7thumbcell { 
@@ -263,15 +263,15 @@ ht-degree: 2%
 <table id="table_00829E44F75040A4B2AE19ACD550DA1E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
    <td colname="col2"> <p>縮圖寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
    <td colname="col2"> <p>縮圖的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 邊框  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 邊框 </span> </p> </td> 
    <td colname="col2"> <p>縮圖的邊框。 </p> </td> 
   </tr> 
  </tbody> 
@@ -298,21 +298,21 @@ ht-degree: 2%
 <table id="table_CA669F6AE7574FF389BF725B3F768E5E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 色彩  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 色彩 </span> </p> </td> 
    <td colname="col2"> <p> 文字色彩. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型系列  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字型系列 </span> </p> </td> 
    <td colname="col2"> <p>文本字型的名稱。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型大小  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字型大小 </span> </p> </td> 
    <td colname="col2"> <p>文本字型大小。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例 — 要設定使用12像素、灰色、Helvetica字型的標籤：
+示例 — 要設定使用12像素、灰色、Helvetica®字型的標籤：
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7swatches .s7label { 
@@ -336,31 +336,31 @@ ht-degree: 2%
 <table id="table_11063C7F428D4707A8138F17650F8F5F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
    <td colname="col2"> <p>捲動按鈕的寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
    <td colname="col2"> <p>捲動按鈕的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景 — 影像  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景 — 影像 </span> </p> </td> 
    <td colname="col2"> <p> 針對指定按鈕狀態顯示的影像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS精靈，則位於圖稿精靈內。 </p> <p>另請參閱<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS精靈，則位於圖稿精靈內。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按鈕支援`state`屬性選擇器，可用於將不同的外觀應用於`"up"`、`"down"`、`"over"`和`"disabled"`按鈕狀態。
+>此按鈕支援 `state` 屬性選取器，可用來套用不同外觀 `"up"`, `"down"`, `"over"`，和 `"disabled"` 按鈕狀態。
 
-按鈕工具提示可翻譯。 如需詳細資訊，請參閱[使用者介面元素本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 。
+按鈕工具提示可翻譯。 請參閱 [用戶介面元素本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以取得更多資訊。
 
-示例 — 要設定一個125 x 35像素的向上滾動按鈕，並且每個狀態的圖稿都不同：
+示例 — 要設定一個捲動按鈕，該按鈕為125 x 35像素，並且每個狀態的圖稿都不同：
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7scrollupbutton { 

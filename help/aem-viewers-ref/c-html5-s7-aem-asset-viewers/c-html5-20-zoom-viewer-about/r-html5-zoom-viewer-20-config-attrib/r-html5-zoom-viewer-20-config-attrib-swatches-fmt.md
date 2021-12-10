@@ -1,14 +1,14 @@
 ---
+title: Swatches.fmt
 description: Swatches.fmt
 solution: Experience Manager
-title: Swatches.fmt
-feature: Dynamic Media Classic，檢視器，SDK/API，縮放
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 8b47839a-ef3b-45ae-8e8d-5c9391d71d44
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 4%
+source-wordcount: '73'
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif|alpha</span> </p> </td> 
-   <td> <p>指定元件用於從影像伺服器載入影像的影像格式。 如果指定的格式結尾為<span class="codeph"> -alpha</span>，則元件會將影像呈現為透明內容。 對於所有其他影像格式，元件將影像視為不透明。 請注意，元件預設為白色背景。 因此，要使背景透明化，請將<span class="codeph"> background-color</span> CSS屬性設定為<span class="codeph">透明</span>。 </p> </td> 
+   <td> <p>指定元件用於從影像伺服器載入影像的影像格式。 如果指定的格式結尾為 <span class="codeph"> -α</span>，元件會將影像轉譯為透明內容。 對於所有其他影像格式，元件將影像視為不透明。 依預設，元件有白色背景。 因此，要使背景透明化設定 <span class="codeph"> 背景顏色</span> CSS屬性 <span class="codeph"> 透明</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,13 +1,13 @@
 ---
+title: 頁面檢視
 description: 主視圖包含目錄映像。 可以滑動它來前往其他頁面或放大。
 solution: Experience Manager
-title: 頁面檢視
-feature: Dynamic Media Classic，檢視器，SDK/API,eCatalog搜尋
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: d98babad-96c7-419a-abf2-3b6657d550eb
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '382'
 ht-degree: 4%
 
 ---
@@ -35,11 +35,11 @@ ht-degree: 4%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景顏色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景顏色 </span> </p> </td> 
    <td colname="col2"> <p> 以十六進位格式顯示主視圖的背景顏色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 游標  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 游標 </span> </p> </td> 
    <td colname="col2"> <p>顯示在主視圖上的游標。 </p> </td> 
   </tr> 
  </tbody> 
@@ -53,7 +53,7 @@ ht-degree: 4%
 }
 ```
 
-在案頭系統上，元件支援`cursortype`屬性選擇器，該選擇器可應用於`.s7pageview`類，並根據元件狀態和用戶操作控制游標的類型。 支援下列`cursortype`值：
+在案頭系統上，此元件支援 `cursortype` 屬性選取器，可套用至 `.s7pageview` 類和根據元件狀態和用戶操作控制游標的類型。 以下 `cursortype` 值受支援：
 
 <table id="table_45B83F6CCDE84C36B0E087CA9144BFE6"> 
  <thead> 
@@ -68,19 +68,19 @@ ht-degree: 4%
    <td colname="col2"> <p>當影像因影像解析度小、元件設定或兩者皆無法縮放時顯示。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 左敏  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 左敏 </span> </p> </td> 
    <td colname="col2"> <p>可放大影像時顯示。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 重設 </span> </p> </td> 
-   <td colname="col2"> <p>當影像處於最大縮放級別時顯示，可重置為初始狀態。 </p> </td> 
+   <td colname="col2"> <p>當影像處於最大縮放級別時顯示，並可重置為初始狀態。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 拖曳 </span> </p> </td> 
    <td colname="col2"> <p>當使用者平移處於縮放狀態的影像時顯示。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幻燈片  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 幻燈片 </span> </p> </td> 
    <td colname="col2"> <p>當用戶通過水準滑動或輕觸執行影像交換時顯示。 </p> </td> 
   </tr> 
  </tbody> 
@@ -100,16 +100,16 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> 頁面分隔線的寬度。 設為<span class="codeph"> 0 </span> px ，以完全隱藏分隔線。 </p> </td> 
+   <td colname="col2"> <p> 頁面分隔線的寬度。 設為 <span class="codeph"> 0 </span> px以完全隱藏分隔線。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景 — 影像  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景 — 影像 </span> </p> </td> 
    <td colname="col2"> <p>您要用作分頁器的影像。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-範例：若要有40像素寬的頁面分隔線，且具有半透明影像。
+範例：若要有40像素寬的頁面分隔線以及半透明影像。
 
 ```
 .s7ecatalogsearchviewer .s7pageview .s7pagedivider { 
@@ -120,9 +120,9 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->當`frametransition`修飾符設定為`turn`或`auto`（在案頭系統上）時，使用`pageturnstyle`修飾符控制頁面分隔符的外觀，並忽略`.s7pagedivider` CSS類。
+>當 `frametransition` 修飾詞設定為 `turn` 或 `auto` （在案頭系統上），頁面分隔符的外觀會由 `pageturnstyle` 修飾詞和 `.s7pagedivider` CSS類被忽略。
 
-可以在主查看器區域上配置自定義滑鼠游標的顯示。 可透過套用至`.s7ecatalogsearchviewer .s7pageview` CSS類別的其他屬性選取器來控制：
+可以在主查看器區域上配置自定義滑鼠游標的顯示。 此功能可透過套用至的其他屬性選取器來控制 `.s7ecatalogsearchviewer .s7pageview` CSS類：
 
 <table id="table_908164DECF9347A19A9696A23BBDB1A2"> 
  <thead> 
@@ -133,11 +133,11 @@ ht-degree: 4%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 預設  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 預設 </span> </p> </td> 
    <td colname="col2"> <p> 通常為非可縮放影像的箭頭。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 左敏  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 左敏 </span> </p> </td> 
    <td colname="col2"> <p> 顯示影像何時可放大。 </p> </td> 
   </tr> 
   <tr> 
@@ -149,7 +149,7 @@ ht-degree: 4%
    <td colname="col2"> <p>顯示用戶何時對影像中的縮放執行拖動操作 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幻燈片  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 幻燈片 </span> </p> </td> 
    <td colname="col2"> <p>顯示使用者何時使用投影片手勢執行影像交換 </p> </td> 
   </tr> 
  </tbody> 

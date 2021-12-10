@@ -1,13 +1,13 @@
 ---
+title: 電子郵件共用
 description: 電子郵件共用工具包含新增至Social共用面板的按鈕，以及啟動工具時顯示的強制回應對話方塊。 按鈕的位置由Social分享工具完全管理。
 solution: Experience Manager
-title: 電子郵件共用
-feature: Dynamic Media Classic，檢視器，SDK/API,eCatalog搜尋
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: a879994d-2f26-4fdd-9a51-73644fc033cd
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '3041'
+source-wordcount: '3046'
 ht-degree: 2%
 
 ---
@@ -37,25 +37,25 @@ ht-degree: 2%
    <td colname="col2"> <p>按鈕的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景 — 影像  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景 — 影像 </span> </p> </td> 
    <td colname="col2"> <p> 針對指定按鈕狀態顯示的影像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS精靈，則位於圖稿精靈內。 </p> <p>另請參閱<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS精靈，則位於圖稿精靈內。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按鈕支援`state`屬性選擇器，可用於將不同的外觀應用於不同的按鈕狀態。
+>此按鈕支援 `state` 屬性選取器，可用來將不同的外觀套用至不同的按鈕狀態。
 
-您可以在其CSS類別上設定`display:none` CSS屬性，從Social共用面板中移除按鈕。
+您可以透過設定 `display:none` 其CSS類上的CSS屬性。
 
-按鈕工具提示可以本地化。 如需詳細資訊，請參閱[使用者介面元素本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 。
+按鈕工具提示可以本地化。 請參閱 [用戶介面元素本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以取得更多資訊。
 
-範例：若要設定28 x 28像素的電子郵件共用按鈕，並針對四個不同按鈕狀態中的每一個顯示不同的影像。
+範例 — 若要設定28 x 28像素的電子郵件共用按鈕，並針對四個不同按鈕狀態中的每一個顯示不同的影像。
 
 ```
 .s7ecatalogsearchviewer .s7emailshare { 
@@ -76,7 +76,7 @@ background-image:url(images/v2/EmailShare_dark_disabled.png);
 }
 ```
 
-使用下列CSS類別選取器來控制對話方塊作用中時涵蓋網頁的背景覆蓋：
+當對話方塊作用中時，會覆蓋網頁的背景覆蓋會由下列CSS類別選取器控制：
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7backoverlay
@@ -87,17 +87,17 @@ background-image:url(images/v2/EmailShare_dark_disabled.png);
 <table id="table_1A0C28D8C81D413C83D73DEAC53057C5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 不透明度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 不透明度 </span> </p> </td> 
    <td colname="col2"> <p> 背景覆蓋圖不透明度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景顏色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景顏色 </span> </p> </td> 
    <td colname="col2"> <p>背景覆蓋圖顏色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-範例：若要將背景覆蓋圖設定為灰色且不透明度為70%:
+範例：若要將背景覆蓋設定為灰色且不透明度為70%:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7backoverlay { 
@@ -117,19 +117,19 @@ background-image:url(images/v2/EmailShare_dark_disabled.png);
 <table id="table_5272BC8EF9124018B4290356B95B5559"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 邊框半徑  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 邊框半徑 </span> </p> </td> 
    <td colname="col2"> <p> 對話框邊框半徑（如果對話框未佔據整個瀏覽器窗口）; </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景顏色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景顏色 </span> </p> </td> 
    <td colname="col2"> <p> 對話框背景顏色； </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
    <td colname="col2"> <p> 應未設定或設為100%，在此情況下，對話方塊會進入整個瀏覽器視窗（觸控裝置最好使用此模式）; </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
    <td colname="col2"> <p> 應未設定或設為100%，在此情況下，對話方塊會進入整個瀏覽器視窗（觸控裝置最好使用此模式）。 </p> </td> 
   </tr> 
  </tbody> 
@@ -145,7 +145,7 @@ background-color: #ffffff;
 }
 ```
 
-對話框標題由表徵圖、標題文本和關閉按鈕組成。 標題容器可透過下列CSS類別選取器控制
+對話框標題由表徵圖、標題文本和「關閉」按鈕組成。 標題容器可透過下列CSS類別選取器控制
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogheader
@@ -162,7 +162,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-圖示和標題文字會包裝在另一個由
+圖示和標題文字會包裝在由
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogheader .s7dialogline
@@ -190,20 +190,20 @@ background-color: #ffffff;
 <table id="table_DD4B0413721B49CE8E21B4A55BDE8F7D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
    <td colname="col2"> <p>圖示寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
    <td colname="col2"> <p>圖示高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景 — 影像  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景 — 影像 </span> </p> </td> 
    <td colname="col2"> <p>圖示影像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS精靈，則位於圖稿精靈內。 </p> <p>另請參閱<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS精靈，則位於圖稿精靈內。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -219,15 +219,15 @@ background-color: #ffffff;
 <table id="table_207B4B13153E425EAB38FC61F382A05F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型粗細  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字型粗細 </span> </p> </td> 
    <td colname="col2"> <p>字型寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型大小  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字型大小 </span> </p> </td> 
    <td colname="col2"> <p>字型高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型系列  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字型系列 </span> </p> </td> 
    <td colname="col2"> <p>字型系列。 </p> </td> 
   </tr> 
   <tr> 
@@ -256,11 +256,11 @@ background-color: #ffffff;
    <td colname="col2"> <p> 相對於標題容器的水準按鈕位置。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
    <td colname="col2"> <p>按鈕寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
    <td colname="col2"> <p>按鈕高度。 </p> </td> 
   </tr> 
   <tr> 
@@ -268,23 +268,23 @@ background-color: #ffffff;
    <td colname="col2"> <p>按鈕的內邊框間距。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景 — 影像  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景 — 影像 </span> </p> </td> 
    <td colname="col2"> <p>每個狀態的按鈕影像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS精靈，則位於圖稿精靈內。 </p> <p>另請參閱<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS精靈，則位於圖稿精靈內。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按鈕支援`state`屬性選擇器，可用於將不同的外觀應用於不同的按鈕狀態。
+>此按鈕支援 `state` 屬性選取器，可用來將不同的外觀套用至不同的按鈕狀態。
 
-「關閉」按鈕工具提示和對話框標題可以本地化。 如需詳細資訊，請參閱[使用者介面元素本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 。
+「關閉」按鈕工具提示和對話框標題可以本地化。 請參閱 [用戶介面元素本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以取得更多資訊。
 
-範例 — 若要設定對話方塊標題，使用邊框間距、24 x 17像素圖示、粗體16點標題和28 x 28像素「關閉」按鈕，該按鈕從上方放置兩個像素，從對話方塊容器的右側放置兩個像素：
+範例 — 若要使用邊框間距、24 x 17像素圖示和粗體16點標題來設定對話方塊標題。 最後，28 x 28像素的「關閉」按鈕從頂部放置兩個像素，從對話框容器的右側放置兩個像素：
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogheader { 
@@ -369,11 +369,11 @@ background-color: #ffffff;
 <table id="table_3DFA90B012F345A3A2A123D6856BE08A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
    <td colname="col2"> <p>按鈕寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
    <td colname="col2"> <p>按鈕高度。 </p> </td> 
   </tr> 
   <tr> 
@@ -381,7 +381,7 @@ background-color: #ffffff;
    <td colname="col2"> <p> 每個狀態的按鈕文字顏色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景顏色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景顏色 </span> </p> </td> 
    <td colname="col2"> <p> 每個狀態的按鈕背景顏色。 </p> </td> 
   </tr> 
  </tbody> 
@@ -389,7 +389,7 @@ background-color: #ffffff;
 
 >[!NOTE]
 >
->此按鈕支援`state`屬性選擇器，可用於將不同的外觀應用於不同的按鈕狀態。
+>此按鈕支援 `state` 屬性選取器，可用來將不同的外觀套用至不同的按鈕狀態。
 
 使用下列CSS類選擇器控制「發送電子郵件」按鈕：
 
@@ -402,19 +402,19 @@ background-color: #ffffff;
 <table id="table_91C75B2470A24DC2AD3973A91FA8B325"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
    <td colname="col2"> <p>按鈕寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
    <td colname="col2"> <p>按鈕高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 色彩  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 色彩 </span> </p> </td> 
    <td colname="col2"> <p> 每個狀態的按鈕文字顏色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景顏色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景顏色 </span> </p> </td> 
    <td colname="col2"> <p> 每個狀態的按鈕背景顏色。 </p> </td> 
   </tr> 
  </tbody> 
@@ -422,9 +422,9 @@ background-color: #ffffff;
 
 >[!NOTE]
 >
->此按鈕支援`state`屬性選擇器，可用於將不同的外觀應用於不同的按鈕狀態。
+>此按鈕支援 `state` 屬性選取器，可用來將不同的外觀套用至不同的按鈕狀態。
 
-此外，這兩個按鈕共用相同的通用CSS類，這些類可以包含其他對話框按鈕相同的CSS設定：
+此外，這兩個按鈕都共用通用的CSS類，這些類可以包含其他對話框按鈕相同的CSS設定：
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogfooter .s7button
@@ -435,33 +435,33 @@ background-color: #ffffff;
 <table id="table_E735E5EDFC1E4F8A962CEA533A88DD4E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型粗細  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字型粗細 </span> </p> </td> 
    <td colname="col2"> <p>按鈕字型寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型大小  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字型大小 </span> </p> </td> 
    <td colname="col2"> <p>按鈕字型大小。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型系列  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字型系列 </span> </p> </td> 
    <td colname="col2"> <p>按鈕字型系列。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 線高  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 線高 </span> </p> </td> 
    <td colname="col2"> <p> 按鈕內的文字高度。 影響垂直對齊。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 框陰影  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 框陰影 </span> </p> </td> 
    <td colname="col2"> <p>陰影。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 邊距 — 右  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 邊距 — 右 </span> </p> </td> 
    <td colname="col2"> <p>右鍵邊距。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-此按鈕工具提示可本地化。 如需詳細資訊，請參閱[使用者介面元素本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 。
+此按鈕的工具提示可翻譯。 請參閱 [用戶介面元素本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以取得更多資訊。
 
 範例 — 若要設定對話方塊頁尾，其中包含64 x 34取消按鈕和82 x 34傳送電子郵件按鈕，且每個按鈕狀態的文字顏色和背景顏色會有所不同：
 
@@ -534,11 +534,11 @@ background-color: #ffffff;
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
    <td colname="col2"> <p> 主對話框區域的高度。 只有在對話方塊以案頭模式運作時，才應指定它。 當對話方塊的大小為佔用整個瀏覽器視窗時，則不適用。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景顏色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景顏色 </span> </p> </td> 
    <td colname="col2"> <p>主對話框區域的背景顏色。 </p> </td> 
   </tr> 
   <tr> 
@@ -550,7 +550,7 @@ background-color: #ffffff;
 
 >[!NOTE]
 >
->主對話框區域支援可選的`state`屬性選擇器。 提交電子郵件表單時，此欄位會設為`sendsuccess`，對話方塊會顯示確認訊息。 只要確認訊息很小，此屬性選取器就可用來在顯示此類確認訊息時降低對話方塊高度。
+>主對話框區域支援可選 `state` 屬性選取器。 已設為 `sendsuccess` 提交電子郵件表單時，對話方塊會顯示確認訊息。 只要確認訊息很小，在顯示此類確認訊息時，此屬性選取器就可用來降低對話方塊高度。
 
 範例 — 若要在顯示確認訊息時將主對話方塊區域設定為300像素高度和100像素高度，請有10個像素邊界，然後使用白色背景：
 
@@ -630,25 +630,25 @@ background-color: #ffffff;
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型粗細  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字型粗細 </span> </p> </td> 
    <td colname="col2"> <p>標籤字型寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型大小  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字型大小 </span> </p> </td> 
    <td colname="col2"> <p>標籤字型大小。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型系列  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字型系列 </span> </p> </td> 
    <td colname="col2"> <p>標籤字型系列。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 色彩  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 色彩 </span> </p> </td> 
    <td colname="col2"> <p>標籤文本顏色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-對話方塊標籤可以翻譯。 如需詳細資訊，請參閱[使用者介面元素本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 。
+對話方塊標籤可以翻譯。 請參閱 [用戶介面元素本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以取得更多資訊。
 
 範例：若要將所有標籤設為灰色、粗體、九像素字型：
 
@@ -671,15 +671,15 @@ background-color: #ffffff;
 <table id="table_B5CF02837BAA42C7B79B6D9DA20792DF"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
    <td colname="col2"> <p>靜態標籤的寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 文本對齊  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 文本對齊 </span> </p> </td> 
    <td colname="col2"> <p>水準文本對齊方式。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 邊際  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 邊際 </span> </p> </td> 
    <td colname="col2"> <p>靜態標籤邊界。 </p> </td> 
   </tr> 
   <tr> 
@@ -711,7 +711,7 @@ background-color: #ffffff;
 <table id="table_7BC1C5919A54483F8121D928DC63233A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 邊框  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 邊框 </span> </p> </td> 
    <td colname="col2"> <p>輸入欄位容器周圍的邊框。 </p> </td> 
   </tr> 
   <tr> 
@@ -723,7 +723,7 @@ background-color: #ffffff;
 
 >[!NOTE]
 >
->輸入欄位容器支援選用的`state`屬性選擇器。 當使用者在輸入資料格式中發生錯誤，且內嵌驗證失敗時，此值會設為`verifyerror`。 此屬性選擇器可用來反白標示表單中錯誤的使用者輸入。
+>輸入欄位容器支援可選 `state` 屬性選取器。 已設為 `verifyerror` 當使用者輸入資料格式發生錯誤，而內嵌驗證失敗時。 此屬性選擇器可用來反白標示表單中錯誤的使用者輸入。
 
 從對話框主體的左至右邊緣（包括「從」欄位和「消息」欄位）的標籤擴散的大多數輸入欄位都通過以下CSS類選擇器進行控制：
 
@@ -731,12 +731,12 @@ background-color: #ffffff;
 .s7ecatalogsearchviewer .s7emaildialog .s7dialoginputwide
 ```
 
-**對話框輸入寬欄位的CSS屬性**
+**對話框輸入範圍欄位的CSS屬性**
 
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
    <td colname="col2"> <p>輸入欄位寬度。 </p> </td> 
   </tr> 
  </tbody> 
@@ -753,13 +753,13 @@ background-color: #ffffff;
 <table id="table_DFA9059209FF4184BD483A529424E97F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
    <td colname="col2"> <p>輸入欄位寬度。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-範例：設定表單，使表單有一個像素灰色邊框，在所有輸入欄位周圍有九個像素的邊框間距；若要對驗證失敗的欄位使用相同的紅色邊框，請為250像素寬的「收件人」欄位，其餘的輸入欄位為300像素寬：
+範例：若要設定表單，使其具有一個像素灰色邊框，在所有輸入欄位周圍填充九個像素。 對於驗證失敗的欄位，以紅色顯示相同的邊框。 最後，要使250像素寬的To欄位，其餘的輸入欄位300像素寬：
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialoginputcontainer { 
@@ -777,30 +777,30 @@ background-color: #ffffff;
 }
 ```
 
-電子郵件輸入欄位另外受以下項目控制：
+電子郵件訊息輸入欄位也可透過：
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogmessage
 ```
 
-此類允許您為基礎`TEXTAREA`元素設定特定屬性。
+此類別可讓您為基礎 `TEXTAREA` 元素。
 
 **對話框消息的CSS屬性**
 
 <table id="table_9E9D5A0C3CDB45739615C4C07F8DC046"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
    <td colname="col2"> <p>訊息高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 繞字  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 繞字 </span> </p> </td> 
    <td colname="col2"> <p>文字繞排樣式。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-範例：若要將電子郵件訊息設定為50像素高，並使用`break-word`文字繞排：
+範例：若要將電子郵件訊息設定為50像素高，請使用 `break-word` 文字繞排：
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogmessage { 
@@ -820,39 +820,39 @@ background-color: #ffffff;
 <table id="table_8829DC0694684E8BA427DFB821F7433D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
    <td colname="col2"> <p>按鈕高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 色彩  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 色彩 </span> </p> </td> 
    <td colname="col2"> <p>每個狀態的按鈕文字顏色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景 — 影像  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景 — 影像 </span> </p> </td> 
    <td colname="col2"> <p>每個狀態的按鈕影像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
    <td colname="col2"> <p>按鈕區域內的按鈕影像位置。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型粗細  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字型粗細 </span> </p> </td> 
    <td colname="col2"> <p>按鈕字型寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型大小  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字型大小 </span> </p> </td> 
    <td colname="col2"> <p>按鈕字型大小。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型系列  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字型系列 </span> </p> </td> 
    <td colname="col2"> <p>按鈕字型系列。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 線高  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 線高 </span> </p> </td> 
    <td colname="col2"> <p>按鈕內的文字高度。 影響垂直對齊。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 文本對齊  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 文本對齊 </span> </p> </td> 
    <td colname="col2"> <p>水準文字對齊。 </p> </td> 
   </tr> 
   <tr> 
@@ -864,9 +864,9 @@ background-color: #ffffff;
 
 >[!NOTE]
 >
->此按鈕支援`state`屬性選擇器，可用於將不同的外觀應用於不同的按鈕狀態。
+>此按鈕支援 `state` 屬性選取器，可用來將不同的外觀套用至不同的按鈕狀態。
 
-按鈕工具提示可以本地化。 如需詳細資訊，請參閱[使用者介面元素本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 。
+按鈕工具提示可以本地化。 請參閱 [用戶介面元素本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以取得更多資訊。
 
 範例：若要將「新增其他電子郵件地址」按鈕設定為高25像素，請使用12點粗體字型並以右對齊，並針對每個狀態使用不同的文字顏色和影像：
 
@@ -910,29 +910,29 @@ background-color: #ffffff;
 <table id="table_79E4C65741E64859B9C9E9DCCB3D050B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
    <td colname="col2"> <p>按鈕寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
    <td colname="col2"> <p>按鈕高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景 — 影像  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景 — 影像 </span> </p> </td> 
    <td colname="col2"> <p>每個狀態的按鈕影像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS精靈，則位於圖稿精靈內。 </p> <p>另請參閱<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS精靈，則位於圖稿精靈內。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按鈕支援`state`屬性選擇器，可用於將不同的外觀應用於不同的按鈕狀態。
+>此按鈕支援 `state` 屬性選取器，可用來將不同的外觀套用至不同的按鈕狀態。
 
-按鈕工具提示可以本地化。 如需詳細資訊，請參閱[使用者介面元素本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 。
+按鈕工具提示可以本地化。 請參閱 [用戶介面元素本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以取得更多資訊。
 
 範例：若要將「移除」按鈕設定為25 x 25像素，並對每個狀態使用不同的影像：
 
@@ -966,7 +966,7 @@ background-color: #ffffff;
 <table id="table_9C5CBFC2482E4A46BE837573B0B02FE4"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 邊框  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 邊框 </span> </p> </td> 
    <td colname="col2"> <p>容器邊框。 </p> </td> 
   </tr> 
   <tr> 
@@ -991,22 +991,22 @@ background-color: #ffffff;
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogthumbnail
 ```
 
-`background-image`屬性由元件邏輯設定。
+此 `background-image` 屬性由元件邏輯設定。
 
 **對話框縮略圖影像的CSS屬性**
 
 <table id="table_4C614FF2CEB149DAB5B7D7BC38CD3CAE"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
    <td colname="col2"> <p>縮圖寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
    <td colname="col2"> <p>縮圖高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 垂直對齊  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 垂直對齊 </span> </p> </td> 
    <td colname="col2"> <p>垂直對齊縮圖。 </p> </td> 
   </tr> 
   <tr> 
@@ -1038,7 +1038,7 @@ background-color: #ffffff;
 <table id="table_EDFA6229D8C3468E989E7EC05F23EF3B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
    <td colname="col2"> <p>面板寬度。 </p> </td> 
   </tr> 
  </tbody> 
@@ -1063,19 +1063,19 @@ background-color: #ffffff;
 <table id="table_E83C149E66EC474092DF8A180DA9A550"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 邊際  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 邊際 </span> </p> </td> 
    <td colname="col2"> <p>外邊距。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型粗細  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字型粗細 </span> </p> </td> 
    <td colname="col2"> <p>字型寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型大小  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字型大小 </span> </p> </td> 
    <td colname="col2"> <p>字型大小. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型系列  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字型系列 </span> </p> </td> 
    <td colname="col2"> <p>字型系列。 </p> </td> 
   </tr> 
  </tbody> 
@@ -1101,19 +1101,19 @@ background-color: #ffffff;
 <table id="table_51763B532A9C4AE8AE54B69933A8C0B5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 邊際  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 邊際 </span> </p> </td> 
    <td colname="col2"> <p>外邊距。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型粗細  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字型粗細 </span> </p> </td> 
    <td colname="col2"> <p>字型寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型大小  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字型大小 </span> </p> </td> 
    <td colname="col2"> <p>字型大小. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型系列  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字型系列 </span> </p> </td> 
    <td colname="col2"> <p>字型系列。 </p> </td> 
   </tr> 
  </tbody> 
@@ -1138,19 +1138,19 @@ background-color: #ffffff;
 <table id="table_F0F917ED3D1D4FCE974F48214D287E14"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 邊際  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 邊際 </span> </p> </td> 
    <td colname="col2"> <p>外邊距。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型粗細  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字型粗細 </span> </p> </td> 
    <td colname="col2"> <p>字型寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型大小  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字型大小 </span> </p> </td> 
    <td colname="col2"> <p>字型大小. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型系列  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字型系列 </span> </p> </td> 
    <td colname="col2"> <p>字型系列。 </p> </td> 
   </tr> 
  </tbody> 
@@ -1165,7 +1165,7 @@ background-color: #ffffff;
 }
 ```
 
-當使用者輸入錯誤的輸入資料且內嵌驗證失敗，或當提交表單時對話方塊需要呈現錯誤或確認訊息時，對話方塊內文頂端會顯示訊息。 它由下列CSS類別選取器控制：
+當使用者輸入錯誤的輸入資料且內嵌驗證失敗時，對話方塊內文頂端會顯示訊息。 提交表單時，對話方塊必須呈現錯誤或確認訊息時，也會顯示此訊息。 它由下列CSS類別選取器控制：
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogerrormessage
@@ -1176,31 +1176,31 @@ background-color: #ffffff;
 <table id="table_C114E1004C334D339C25A3438E8E6614"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景 — 影像  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景 — 影像 </span> </p> </td> 
    <td colname="col2"> <p> 錯誤圖示。 預設為驚嘆號。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
    <td colname="col2"> <p> 訊息區域內的錯誤圖示位置。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 色彩  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 色彩 </span> </p> </td> 
    <td colname="col2"> <p>消息文本顏色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型粗細  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字型粗細 </span> </p> </td> 
    <td colname="col2"> <p>字型寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型大小  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字型大小 </span> </p> </td> 
    <td colname="col2"> <p>字型大小. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型系列  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字型系列 </span> </p> </td> 
    <td colname="col2"> <p>字型系列。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 線高  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 線高 </span> </p> </td> 
    <td colname="col2"> <p> 訊息內的文字高度。 影響垂直對齊。 </p> </td> 
   </tr> 
   <tr> 
@@ -1212,11 +1212,13 @@ background-color: #ffffff;
 
 >[!NOTE]
 >
->此消息支援`state`屬性選擇器，其可能值如下：`verifyerror`、`senderror`和`sendsuccess`。 `verifyerror` 在因內嵌輸入驗證失敗而顯示訊息時設定； `senderror` 是在後端電子郵件服務回報錯誤時設定； `sendsuccess` 在成功傳送電子郵件時設定。這樣，根據對話框狀態，可以以不同方式設定消息的樣式。
+>此訊息支援 `state` 屬性選取器，可能值如下： `verifyerror`, `senderror`，和 `sendsuccess`. 值 `verifyerror` 會在因內嵌輸入驗證失敗而顯示訊息時設定。 值 `senderror` 是在後端電子郵件服務回報錯誤時設定。 值 `sendsuccess` 在成功傳送電子郵件時設定。 這樣，根據對話框狀態，可以以不同方式設定消息的樣式。
 
-按鈕工具提示可以本地化。 如需詳細資訊，請參閱[使用者介面元素本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 。
+按鈕工具提示可以本地化。
 
-範例：若要設定訊息，使用十點粗體字型、25像素行高、左側邊框20像素邊框間距、使用驚嘆號圖示、發生錯誤時使用紅色文字、成功時沒有圖示和綠色文字：
+請參閱 [用戶介面元素本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以取得更多資訊。
+
+範例 — 若要設定訊息，使用十點粗體字型、有25像素的線條高度，以及左側的20像素邊框間距。 最後，使用驚嘆號表徵圖，如果出現錯誤則使用紅色文本，如果成功，則使用沒有表徵圖和綠色文本：
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogerrormessage[state="verifyerror"] { 
@@ -1251,7 +1253,7 @@ background-color: #ffffff;
 <table id="table_A0C3AC7E00544FFBB8E1364F4CDDB371"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
    <td colname="col2"> <p>捲動面板寬度。 </p> </td> 
   </tr> 
  </tbody> 
@@ -1276,7 +1278,7 @@ background-color: #ffffff;
 <table id="table_2BF74CF43E9B42D79F99A3F5208D7051"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
    <td colname="col2"> <p> 捲軸寬度。 </p> </td> 
   </tr> 
   <tr> 
@@ -1316,11 +1318,11 @@ background-color: #ffffff;
 <table id="table_EE990E7A342843619EDD84BAD29C6F2A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
    <td colname="col2"> <p>軌道寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景顏色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景顏色 </span> </p> </td> 
    <td colname="col2"> <p>追蹤背景顏色。 </p> </td> 
   </tr> 
  </tbody> 
@@ -1346,35 +1348,35 @@ background-color: #B2B2B2;
 <table id="table_5A4A283A50044A51881D997885674BDF"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
    <td colname="col2"> <p>拇指寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
    <td colname="col2"> <p>拇指高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 邊框間距 — 頂端  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 邊框間距 — 頂端 </span> </p> </td> 
    <td colname="col2"> <p> 軌道頂端之間的垂直邊框間距。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 邊框間距  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 邊框間距 </span> </p> </td> 
    <td colname="col2"> <p> 軌道底部之間的垂直邊框間距。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景 — 影像  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景 — 影像 </span> </p> </td> 
    <td colname="col2"> <p>為給定拇指狀態顯示的影像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS精靈，則位於圖稿精靈內。 </p> <p>另請參閱<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS精靈，則位於圖稿精靈內。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Thumb支援`state`屬性選擇器，可用於將不同外觀應用於不同的Thumb狀態：`up`、`down`、`over`和`disabled`。
+>拇指支援 `state` 屬性選取器，可用來將不同外觀套用至不同的縮圖狀態： `up`, `down`, `over`，和 `disabled`.
 
 示例 — 要設定捲動條縮圖，該縮圖為28 x 45像素，在頂部和底部有10個像素邊距，並且每個狀態的圖稿都不同：
 
@@ -1409,36 +1411,36 @@ background-color: #B2B2B2;
 .s7ecatalogsearchviewer .s7emaildialog .s7scrollbar .s7scrolldownbutton
 ```
 
-無法使用CSS `top`、`left`、`bottom`和`right`屬性來定位捲動按鈕。 反之，檢視器邏輯會自動定位。
+無法使用CSS定位捲動按鈕 `top`, `left`, `bottom`，和 `right` 屬性。 反之，檢視器邏輯會自動定位。
 
 **頂部和底部捲動按鈕的CSS屬性**
 
 <table id="table_EB853317E08941979B0E141C3C9B2C49"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
    <td colname="col2"> <p>按鈕寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
    <td colname="col2"> <p>按鈕高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景 — 影像  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景 — 影像 </span> </p> </td> 
    <td colname="col2"> <p>針對指定按鈕狀態顯示的影像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS精靈，則位於圖稿精靈內。 </p> <p>另請參閱<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS精靈，則位於圖稿精靈內。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->這些按鈕支援`state`屬性選擇器，可用於將不同的外觀應用於不同的按鈕狀態：`up`、`down`、`over`和`disabled`。
+>這些按鈕支援 `state` 屬性選取器，可用來將不同外觀套用至不同按鈕狀態： `up`, `down`, `over`，和 `disabled`.
 
-按鈕工具提示可以本地化。 如需詳細資訊，請參閱[使用者介面元素本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 。
+按鈕工具提示可以本地化。 請參閱 [用戶介面元素本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以取得更多資訊。
 
 示例 — 要設定28 x 32像素的捲動按鈕，並且每個狀態的圖稿不同：
 

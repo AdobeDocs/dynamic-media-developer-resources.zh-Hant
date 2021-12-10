@@ -1,13 +1,13 @@
 ---
+title: 全螢幕按鈕
 description: 當使用者選取時，會使檢視器進入或退出全螢幕模式。 此按鈕出現在主控制欄中。 如果檢視器在快顯模式中運作，且系統不支援原生全螢幕，則不會顯示此按鈕。 您可以依CSS來調整按鈕的大小、外觀和位置。
 solution: Experience Manager
-title: 全螢幕按鈕
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: a4b6fdc0-1047-46c6-bf77-4536819b7fcd
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '322'
 ht-degree: 2%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 2%
 
 按鈕工具提示可以本地化。 請參閱 [用戶介面元素本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以取得更多資訊。
 
-範例：設定28 x 28像素的全螢幕按鈕，從底部放置4像素，從主控制欄的右邊放置5像素，並在選取或未選取時，針對四個不同按鈕狀態中的每個狀態顯示不同的影像。
+範例 — 設定28 x 28像素的全螢幕按鈕，並從底部放置4像素，從主控制條的右邊放置5像素。 最後，當選取或未選取時，會針對四個不同按鈕狀態中的每一個顯示不同的影像。
 
 ```
 .s7ecatalogsearchviewer .s7fullscreenbutton { 

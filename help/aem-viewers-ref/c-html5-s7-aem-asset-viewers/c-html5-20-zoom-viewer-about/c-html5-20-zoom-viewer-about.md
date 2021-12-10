@@ -1,14 +1,14 @@
 ---
+title: Zoom
 description: 縮放檢視器是顯示可縮放影像的影像檢視器。 此檢視器可與影像集搭配使用，且導覽是使用色票完成。 它提供縮放工具、全螢幕支援、色票和可選的關閉按鈕。 專為在桌上型電腦和行動裝置上運作而設計。
 keywords: 回應式
 solution: Experience Manager
-title: Zoom
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 81a74026-fb15-4f57-a4c7-1ab005950245
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '2397'
+source-wordcount: '2395'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p>水準滑動或輕觸 </p> </td> 
-   <td colname="col2"> <p> 在色板條中的色板清單中滾動。 </p> <p> 如果影像處於重設狀態，且 <span class="codeph"> 框架 </span> 參數設定為slide，則資產將隨幻燈片動畫更改。 其他 <span class="codeph"> 框架 </span> 模式該手勢執行本機頁面捲動。 </p> <p> 如果放大影像，則會水準移動影像。 如果影像被移動到視圖邊緣，並且按相同方向執行滑動，則該手勢執行本機頁面滾動。 </p> </td> 
+   <td colname="col2"> <p> 在色板條中的色板清單中滾動。 </p> <p> 如果影像處於重設狀態，且 <span class="codeph"> 框架 </span> 參數設定為slide，則資產將隨幻燈片動畫更改。 其他 <span class="codeph"> 框架 </span> 模式，該手勢執行本機頁面捲動。 </p> <p> 如果放大影像，則會水準移動影像。 如果影像被移動到視圖邊緣，並且按相同方向執行滑動，則該手勢執行本機頁面滾動。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>垂直滑動 </p> </td> 
@@ -114,7 +114,7 @@ target="_blank">Open popup viewer</a>
 
 回應式設計內嵌模式會假設檢視器的大小變更在執行階段中需要重新調整大小 `DIV`. 最常見的使用案例是在使用彈性版面的網頁中新增檢視器。
 
-在回應式設計內嵌模式中，檢視器的運作方式會因網頁大小其容器的方式而異 `DIV`. 如果網頁僅設定容器的寬度 `DIV`，而不限制其高度，則檢視器會根據所使用資產的外觀比例自動選取高度。 此邏輯可確保資產完全符合檢視，而無須在側邊填補。 此使用案例最常用於使用回應式版面架構(例如Bootstrap、Foundation等)的網頁。
+在回應式設計內嵌模式中，檢視器的運作方式會因網頁大小其容器的方式而異 `DIV`. 如果網頁僅設定容器的寬度 `DIV`，而不限制其高度，則檢視器會根據所使用資產的外觀比例自動選取高度。 此邏輯可確保資產完全符合檢視，而無須在側邊填補。 此使用案例最常用於使用回應式版面架構(例如Bootstrap和Foundation)的網頁。
 
 如果網頁同時設定檢視器容器的寬度和高度 `DIV`，檢視器會填入該區域，並遵循網頁提供的大小。 例如，將檢視器內嵌至強制回應覆蓋中，其中覆蓋會根據網頁瀏覽器視窗大小來調整大小。
 
@@ -143,7 +143,7 @@ target="_blank">Open popup viewer</a>
 
 >[!NOTE]
 >
->您只應參考主要檢視器JavaScript `include` 檔案。 您不應在網頁程式碼中參考任何其他JavaScript檔案，而檢視器邏輯可能會在執行階段下載這些檔案。 尤其是，請勿直接參考HTML5 SDK `Utils.js` 檢視器從 `/s7viewers` 內容路徑（所謂的整合SDK） `include`)。 原因是 `Utils.js` 或者，檢視器的邏輯和檢視器版本之間的位置變更，可完全管理類似的執行階段檢視器程式庫。 Adobe不會保留舊版次要檢視器 `includes` 在伺服器上。
+>僅參考主要檢視器JavaScript `include` 檔案。 請勿在網頁程式碼中參考任何其他JavaScript檔案，這些檔案可能會由檢視器的邏輯在執行階段下載。 尤其是，請勿直接參考HTML5 SDK `Utils.js` 檢視器從 `/s7viewers` 內容路徑（所謂的整合SDK） `include`)。 原因是 `Utils.js` 或者，檢視器的邏輯和檢視器版本之間的位置變更，可完全管理類似的執行階段檢視器程式庫。 Adobe不會保留舊版次要檢視器 `includes` 在伺服器上。
 >
 >
 >因此，請直接參考任何次要JavaScript `include` 若將來部署新產品版本，則檢視器在頁面上使用時會中斷檢視器功能。
@@ -162,9 +162,9 @@ target="_blank">Open popup viewer</a>
 
 1. 設定檢視器大小。
 
-   使用多項目集時，此查看器將顯示縮略圖，在案頭系統上，縮略圖將放在主視圖下。 同時，檢視器允許在執行階段使用交換主要資產 `setAsset()` API。 身為開發人員，當新資產只有一個項目時，您可以控制檢視器如何管理底部的縮圖區域。 可以保持外部查看器大小不變，並允許主視圖增加其高度並佔用縮圖區域。 或者，您可以將主檢視大小保持為靜態，並折疊外部檢視器區域，讓網頁內容向上移動，並使用縮圖中剩餘的免費螢幕房產。
+   使用多項目集時，此查看器將顯示縮略圖，在案頭系統上，縮略圖將放在主視圖下。 同時，檢視器允許在執行階段使用交換主要資產 `setAsset()` API。 身為開發人員，當新資產只有一個項目時，您可以控制檢視器如何管理底部的縮圖區域。 可以保持外部查看器大小不變，並允許主視圖增加其高度並佔用縮圖區域。 或者，您可以將主檢視大小保持為靜態，並折疊外部檢視器區域，讓網頁內容向上移動，並使用縮圖中剩餘的免費螢幕房地產。
 
-   要保持外部查看器邊界不變，請定義 `.s7zoomviewer` 以絕對單位表示的頂層CSS類。 CSS中的大小調整可以放在HTML頁面上，或放在自訂檢視器CSS檔案中，該檔案稍後會指派給Dynamic Media Classic中的檢視器預設集記錄，或使用style命令明確傳遞。
+   要保持外部查看器邊界不變，請定義 `.s7zoomviewer` 以絕對單位表示的頂層CSS類。 CSS中的大小可以直接放在HTML頁面上。 或者，它可以放入自訂檢視器CSS檔案中，該檔案稍後會指派給Dynamic Media Classic中的檢視器預設集記錄，或使用style命令明確傳遞。
 
    請參閱 [自訂縮放檢視器](../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/c-html5-20-zoom-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) 以取得有關使用CSS來設定檢視器樣式的詳細資訊。
 
@@ -196,7 +196,7 @@ target="_blank">Open popup viewer</a>
 
    [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html)
 
-   您可以設定 `stagesize` 修飾元(在Dynamic Media Classic的檢視器預設集記錄中)，或者您可以使用 `params` 集合或作為API呼叫，如本說明的命令參考區段所述，如下列所示：
+   您可以設定 `stagesize` 修飾元(在Dynamic Media Classic中的檢視器預設集記錄中)。 或者，您也可以使用檢視器初始化程式碼，以 `params` 集合或作為API呼叫，如本說明的命令參考區段所述，如下列所示：
 
    ```
     zoomViewer.setParam("stagesize", 
@@ -213,7 +213,7 @@ target="_blank">Open popup viewer</a>
 
    請務必將檢視器容器新增至DOM，讓檢視器程式碼可以透過其ID來尋找容器元素。 有些瀏覽器會延遲建立DOM，直到網頁結尾為止。 如需最大相容性，請呼叫 `init()` 方法 `BODY` 標籤，或在內文上 `onload()` 事件。
 
-   同時，容器元素還不一定是網頁版面的一部分。 例如，您可能會使用 `display:none` 樣式。 在此情況下，檢視器會延遲其初始化程式，直到網頁將容器元素帶回版面的那一刻為止。 發生此情況時，檢視器載入會自動恢復。
+   同時，容器元素還不一定是網頁版面的一部分。 例如，您可能會使用 `display:none` 樣式。 在此情況下，檢視器會延遲其初始化程式，直到網頁將容器元素帶回版面的那一刻為止。 發生此動作時，檢視器載入會自動恢復。
 
    以下是建立檢視器例項、將最低必要的設定選項傳遞至建構函式，並呼叫 `init()` 方法。 此範例假設 `zoomViewer` 是檢視器例項， `s7viewer` 是佔位符DIV的名稱， `http://s7d1.scene7.com/is/image/` 是影像伺服URL，且 `Scene7SharedAssets/ImageSet-Views-Sample` 是資產。
 
@@ -320,7 +320,7 @@ var zoomViewer = new s7viewers.ZoomViewer({
 
 ## 定義寬度和高度的靈活大小嵌入 {#section-3674e6c032594441a6576b7fb1de6e64}
 
-若是定義寬度和高度的彈性內嵌，網頁樣式會有所不同。 它為 `"holder"` DIV並在瀏覽器視窗中將其置中。 此外，網頁會設定 `HTML` 和 `BODY` 100%。
+如果定義了寬度和高度的彈性內嵌大小，則網頁樣式會有所不同。 它為 `"holder"` DIV並在瀏覽器視窗中將其置中。 此外，網頁會設定 `HTML` 和 `BODY` 100%。
 
 ```
 <!DOCTYPE html> 

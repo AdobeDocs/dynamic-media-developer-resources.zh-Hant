@@ -1,20 +1,20 @@
 ---
-description: 當使用者啟動影像對映時，且該對映具有Dynamic Media Classic中定義的rovel_key屬性，以及如果已為檢視器正確設定資訊面板功能， 「資訊面板彈出畫面」會顯示在檢視器區域的中央。
-solution: Experience Manager
 title: 資訊面板彈出式視窗
-feature: Dynamic Media Classic，檢視器，SDK/API,eCatalog搜尋
+description: 當使用者啟動影像地圖時，「資訊面板彈出畫面」會顯示在檢視器區域的中央，該影像地圖具有Dynamic Media Classic中定義的rovel_key屬性，而且如果已為檢視器正確設定資訊面板功能，則會顯示該彈出畫面。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 907b7bd5-3f87-4918-ad62-8a28249ea023
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '458'
 ht-degree: 3%
 
 ---
 
 # 資訊面板彈出式視窗{#info-panel-popup}
 
-當使用者啟動影像對映時，且該對映具有Dynamic Media Classic中定義的rovel_key屬性，以及如果已為檢視器正確設定資訊面板功能， 「資訊面板彈出畫面」會顯示在檢視器區域的中央。
+當使用者啟動影像地圖時，「資訊面板彈出畫面」會顯示在檢視器區域的中央，該影像地圖具有Dynamic Media Classic中定義的rovel_key屬性，而且如果已為檢視器正確設定資訊面板功能，則會顯示該彈出畫面。
 
 資訊面板背景涵蓋整個檢視器區域，並由下列CSS類別選取器控制：
 
@@ -29,12 +29,12 @@ ht-degree: 3%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景 — 影像  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景 — 影像 </span> </p> </td> 
    <td colname="col2"> <p>資訊面板背景填充。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS精靈，則位於圖稿精靈內。 </p> <p>另請參閱<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS精靈，則位於圖稿精靈內。</p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -76,11 +76,11 @@ ht-degree: 3%
    <td colname="col2"> <p>對話框高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 左邊距  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 左邊距 </span> </p> </td> 
    <td colname="col2"> <p>資訊面板對話方塊的左邊界可用於居中。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 邊距上  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 邊距上 </span> </p> </td> 
    <td colname="col2"> <p>資訊面板對話方塊的頂端邊界可用於居中。 </p> </td> 
   </tr> 
   <tr> 
@@ -88,15 +88,15 @@ ht-degree: 3%
    <td colname="col2"> <p>內部對話框邊框間距。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景顏色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景顏色 </span> </p> </td> 
    <td colname="col2"> <p>對話框背景顏色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 邊框半徑  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 邊框半徑 </span> </p> </td> 
    <td colname="col2"> <p>對話框邊框半徑。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 框陰影  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 框陰影 </span> </p> </td> 
    <td colname="col2"> <p>對話陰影。 </p> </td> 
   </tr> 
  </tbody> 
@@ -153,29 +153,29 @@ box-shadow: 0 0 5px rgba(0,0,0,0.25);
    <td colname="col2"> <p>從對話框的底邊定位。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
    <td colname="col2"> <p>按鈕寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
    <td colname="col2"> <p>按鈕高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景 — 影像  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景 — 影像 </span> </p> </td> 
    <td colname="col2"> <p>針對指定按鈕狀態顯示的影像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS精靈，則位於圖稿精靈內。 </p> <p>另請參閱<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS精靈，則位於圖稿精靈內。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按鈕支援`state`屬性選擇器，您可以使用它將不同的外觀應用於不同的按鈕狀態。
+>此按鈕支援 `state` 屬性選取器，您可使用該屬性選取器將不同外觀套用至不同按鈕狀態。
 
-按鈕工具提示可以本地化。 如需詳細資訊，請參閱[使用者介面元素本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 。
+按鈕工具提示可以本地化。 請參閱 [用戶介面元素本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以取得更多資訊。
 
 範例：若要設定一個28 x 28像素的對話框關閉按鈕，從資訊面板對話框的上邊緣和右邊緣放置5個像素，並針對四個不同按鈕狀態中的每個狀態顯示不同的影像。
 

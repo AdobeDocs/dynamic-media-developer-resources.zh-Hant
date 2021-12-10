@@ -1,13 +1,13 @@
 ---
+title: 搜尋效果
 description: 檢視器會在主檢視上顯示搜尋結果區域，以反白標示在目錄中找到的字詞或片語。
 solution: Experience Manager
-title: 搜尋效果
-feature: Dynamic Media Classic，檢視器，SDK/API,eCatalog搜尋
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 3591edb0-4b0a-4761-af87-c372132c5138
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '84'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景 </span> </p> </td> 
    <td colname="col2"> <p>搜索結果區域的背景。 </p> </td> 
   </tr> 
  </tbody> 

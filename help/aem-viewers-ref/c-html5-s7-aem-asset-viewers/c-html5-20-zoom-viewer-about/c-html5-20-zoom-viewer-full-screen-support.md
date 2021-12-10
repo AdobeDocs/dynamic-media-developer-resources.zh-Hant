@@ -1,13 +1,13 @@
 ---
+title: 全螢幕支援
 description: 檢視器支援全螢幕操作模式。
 solution: Experience Manager
-title: 全螢幕支援
-feature: Dynamic Media Classic，檢視器，SDK/API，縮放
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 12e0eae8-0c88-4262-b1ee-1144eb38ee92
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
@@ -20,4 +20,4 @@ ht-degree: 0%
 
 在iOS裝置和舊版Internet Explorer瀏覽器上，檢視器會改用「模擬」全螢幕模式。 在此模式中，檢視器會調整大小，以取得網頁瀏覽器視窗的完整區域。 此外，Web瀏覽器用戶介面和其他窗口仍顯示在螢幕上。
 
-一般使用者在檢視器使用者介面中按下全螢幕按鈕，即可進入並離開全螢幕模式。 在案頭上使用「原生」全螢幕模式時，也可以按&#x200B;**Esc**&#x200B;退出。
+一般使用者在檢視器使用者介面中按下全螢幕按鈕，即可進入並離開全螢幕模式。 當案頭使用「原生」全螢幕模式時，也可以按以退出 **Esc**.

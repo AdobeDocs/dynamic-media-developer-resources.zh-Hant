@@ -1,13 +1,13 @@
 ---
+title: setHandlers
 description: 視訊檢視器的JavaScript API參考
 solution: Experience Manager
-title: setHandlers
-feature: Dynamic Media Classic，檢視器，SDK/API，縮放
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: cff331a9-bca1-4360-88fa-96812aa8ba62
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '87'
 ht-degree: 3%
 
 ---
@@ -18,15 +18,15 @@ ht-degree: 3%
 
 `setHandlers(handlers)`
 
-指定零個或多個回調處理程式。 對此方法的呼叫會完全覆寫先前為該檢視器例項指派的事件處理常式。 必須在`init()`之前呼叫。
+指定零個或多個回調處理程式。 對此方法的呼叫會完全覆寫先前為該檢視器例項指派的事件處理常式。 必須在之前呼叫 `init()`.
 
 ## 參數 {#section-b60f082cca1542748b605689b1d43f8a}
 
 <table id="table_98A620DAE2C340FA97BF7204AE023CC8"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 處理器  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> 具有查看 </span> 器事件回呼的{Object} JSON物件，其中屬性名稱是受支援的查看器事件的名稱，屬性值是適當回呼的JavaScript函式參考。 </p> <p>如需檢視器事件的詳細資訊，請參閱<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-event-callbacks.md#concept-66d5996f2b1b44cab3d5264cda5c50cd" format="dita" scope="local">事件回呼</a> 。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 處理器 </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {對象} </span> 具有檢視器事件回呼的JSON物件，其中屬性名稱為支援之檢視器事件的名稱，屬性值為適當回呼的JavaScript函式參考。 </p> <p>請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-event-callbacks.md#concept-66d5996f2b1b44cab3d5264cda5c50cd" format="dita" scope="local"> 事件回呼 </a> 以取得檢視器事件的詳細資訊。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
