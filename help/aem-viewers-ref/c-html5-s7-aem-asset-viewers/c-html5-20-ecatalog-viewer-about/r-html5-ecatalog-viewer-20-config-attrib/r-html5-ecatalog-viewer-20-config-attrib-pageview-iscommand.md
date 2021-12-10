@@ -1,14 +1,14 @@
 ---
+title: PageView.iscommand
 description: PageView.iscommand
 solution: Experience Manager
-title: PageView.iscommand
-feature: Dynamic Media Classic，檢視器，SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: d1b05fe7-901b-4030-9b71-e4e0e5191abf
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 7%
+source-wordcount: '57'
+ht-degree: 8%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> isCommand</span></span> </p> </td> 
-   <td colname="col2"> <p> 套用至頁面影像的「影像伺服」命令字串。 如果在URL中指定，則所有<span class="codeph"> &amp;</span>和<span class="codeph"> =</span>的出現次數必須分別以<span class="codeph"> %26</span>和<span class="codeph"> %3D</span>進行HTTP編碼。 </p> <p> <p>注意： 不支援影像大小調整操作命令。 </p> </p> </td> 
+   <td colname="col2"> <p> 套用至頁面影像的「影像伺服」命令字串。 若在URL中指定，則 <span class="codeph"> &amp;</span> 和 <span class="codeph"> =</span> 必須經HTTP編碼為 <span class="codeph"> %26</span> 和 <span class="codeph"> %3D</span>，分別為。 </p> <p> <p>注意：不支援影像大小調整操作命令。 </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

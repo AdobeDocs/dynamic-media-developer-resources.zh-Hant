@@ -1,14 +1,14 @@
 ---
+title: TableOfContents.showdefault
 description: TableOfContents.showdefault
 solution: Experience Manager
-title: TableOfContents.showdefault
-feature: Dynamic Media Classic，檢視器，SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 1c700d12-4bea-4b87-91c1-f615c3dceb79
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 9%
+source-wordcount: '44'
+ht-degree: 11%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 9%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td> <p> 設為<span class="codeph"> 1</span>時，元件會為所有頁面填入元素，即使未定義標籤的頁面亦然。 </p> <p>設為<span class="codeph"> 0</span>時，下拉式面板中只會顯示具有明確標籤的項目。 </p> </td> 
+   <td> <p> 設為時 <span class="codeph"> 1</span>，元件會為所有頁面填入元素（即使未定義標籤的頁面亦然）。 </p> <p>設為時 <span class="codeph"> 0</span> 下拉式面板中只會顯示具有明確標籤的項目。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

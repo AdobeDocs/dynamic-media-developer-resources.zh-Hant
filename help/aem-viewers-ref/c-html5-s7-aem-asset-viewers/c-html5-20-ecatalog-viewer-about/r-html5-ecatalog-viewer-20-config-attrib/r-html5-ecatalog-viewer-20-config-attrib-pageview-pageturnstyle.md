@@ -1,22 +1,22 @@
 ---
+title: PageView.pageturnstyle
 description: PageView.pageturnstyle
 solution: Experience Manager
-title: PageView.pageturnstyle
-feature: Dynamic Media Classic，檢視器，SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 00706c64-c051-4b62-8194-61d0a1c565e9
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '120'
 ht-degree: 3%
 
 ---
 
 # PageView.pageturnstyle{#pageview-pageturnstyle}
 
-` [PageView.|<containerId>_pageView.]pageturnstyle= *``*, *``*, *``*, *``*, *``*, *`difiderWidthdiferColordiferOpacityborderOnOffborderColorfillColor`*`
+` [PageView.|<containerId>_pageView.]pageturnstyle= *`diferWidth`*, *`diferColor`*, *`diferOpacity`*, *`borderOnOff`*, *`borderColor`*, *`fillColor`*`
 
-在案頭系統上將`PageView.frametransition`設定為`turn`或`auto`時控制元件外觀。
+當 `PageView.frametransition` 設為 `turn` 或 `auto` 在案頭系統上。
 
 <table id="table_A8CDA1AE2680402A99BCD5DD371B225F"> 
  <tbody> 
@@ -30,11 +30,11 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> diferOpacity</span></span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> 0</span>到<span class="codeph"> 1</span>範圍內的陰影不透明度。 </p> </td> 
+   <td colname="col2"> <p>在 <span class="codeph"> 0</span> to <span class="codeph"> 1</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> borderOnOff</span></span> </p> </td> 
-   <td colname="col2"> <p> 標幟（<span class="codeph"> 0</span>或<span class="codeph"> 1</span>）可開啟或關閉開啟的頁面周圍的邊框。 </p> </td> 
+   <td colname="col2"> <p> 標幟( <span class="codeph"> 0</span> 或 <span class="codeph"> 1</span>)，可開啟或關閉開啟的頁面周圍的邊框。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> borderColor</span></span> </p> </td> 

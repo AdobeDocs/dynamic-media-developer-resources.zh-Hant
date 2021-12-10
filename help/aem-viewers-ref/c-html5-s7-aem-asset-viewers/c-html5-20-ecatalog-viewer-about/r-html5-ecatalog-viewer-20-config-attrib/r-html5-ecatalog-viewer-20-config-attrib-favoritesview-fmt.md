@@ -1,13 +1,13 @@
 ---
+title: FavoritesView.fmt
 description: FavoritesView.fmt
 solution: Experience Manager
-title: FavoritesView.fmt
-feature: Dynamic Media Classic，檢視器，SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: d14f8a0c-5fb5-4315-ba8b-79add6d389b0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '70'
 ht-degree: 5%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif|alpha</span> </p> </td> 
-   <td colname="col2"> <p> 指定元件用於從影像伺服器載入影像的影像格式。 格式是影像伺服器和用戶端瀏覽器支援的任何值。 </p> <p>如果影像格式的結尾是<span class="codeph"> -alpha</span>，則元件會將影像呈現為透明內容。 對於所有其他影像格式值，元件會將影像視為不透明。 </p> </td> 
+   <td colname="col2"> <p> 指定元件用於從影像伺服器載入影像的影像格式。 格式是影像伺服器和用戶端瀏覽器支援的任何值。 </p> <p>如果影像格式結尾為 <span class="codeph"> -α</span>，元件會將影像轉譯為透明內容。 對於所有其他影像格式值，元件會將影像視為不透明。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

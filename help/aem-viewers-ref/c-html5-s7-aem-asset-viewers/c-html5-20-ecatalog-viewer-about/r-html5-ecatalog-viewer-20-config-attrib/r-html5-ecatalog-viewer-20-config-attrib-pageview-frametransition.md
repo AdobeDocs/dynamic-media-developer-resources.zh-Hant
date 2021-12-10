@@ -1,13 +1,13 @@
 ---
+title: PageView.frametransition
 description: PageView.frametransition
 solution: Experience Manager
-title: PageView.frametransition
-feature: Dynamic Media Classic，檢視器，SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 026c2fc5-0460-481c-aca9-ddd25371779c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '126'
 ht-degree: 5%
 
 ---
@@ -22,14 +22,14 @@ ht-degree: 5%
    <td colname="col1"> <p> <span class="codeph"> 幻燈片|turn|auto</span> </p> </td> 
    <td colname="col2"> <p> 指定對幀更改應用的效果類型。 </p> <p> 
      <ul id="ul_4224B7C2722A4185A8BD48703D019AA1"> 
-      <li id="li_8482037F8E1C4F11A84DF51790A073FE"> <p><span class="codeph"> </span> 投影片會啟動一個轉變，舊框架滑出視圖，新框架滑入到視圖中。 </p> </li> 
-      <li id="li_CE9A99564DF348D0A76AB2A5945155A5"> <p><span class="codeph"> </span> 當使用者可拖曳四個跨頁角之一併執行互動式頁面翻轉時，就會啟用頁面翻轉效果。 </p> <p>使用<span class="codeph"> turn</span>時，使用<span class="codeph"> pageturnstyle</span>修飾符控制元件的外觀，並忽略<span class="codeph"> .s7pagedifer</span> CSS類。 </p> <p>注意：  <p><span class="codeph"> </span> Motorola Xoom不支援轉換。 </p> </p> </li> 
-      <li id="li_79F85B0429CD4B389399FB3823FE767F"> <p> <span class="codeph"> </span> 會在案頭系統上自動設定轉彎框架過渡，並在觸控裝置上自動設定滑動過渡。 </p> </li> 
+      <li id="li_8482037F8E1C4F11A84DF51790A073FE"> <p><span class="codeph"> 幻燈片</span> 激活一個轉變，其中舊框架滑出視圖，而新框架滑入到視圖中。 </p> </li> 
+      <li id="li_CE9A99564DF348D0A76AB2A5945155A5"> <p><span class="codeph"> 轉彎</span> 當使用者可拖曳四個跨頁角之一併執行互動式頁面翻轉時，即會啟用頁面翻轉效果。 </p> <p>當 <span class="codeph"> 轉彎</span> 是用來控制元件外觀的 <span class="codeph"> pageturnstyle</span> 修飾詞和 <span class="codeph"> .s7pagedifter</span> CSS類被忽略。 </p> <p>注意：  <p><span class="codeph"> 轉彎</span> Motorola Xoom不支援動畫。 </p> </p> </li> 
+      <li id="li_79F85B0429CD4B389399FB3823FE767F"> <p> <span class="codeph"> 自動</span> 在案頭系統上設定轉彎幀過渡和在觸摸設備上設定滑動過渡。 </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> 時段</span></span> </p> </td> 
-   <td colname="col2"> <p>指定<span class="codeph">幻燈片</span>或<span class="codeph">轉</span>轉變效果的持續時間（秒）。 </p> </td> 
+   <td colname="col2"> <p>指定持續時間（秒） <span class="codeph"> 幻燈片</span> 或 <span class="codeph"> 轉彎</span> 過渡效果。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

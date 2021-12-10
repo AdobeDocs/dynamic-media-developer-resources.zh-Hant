@@ -1,13 +1,13 @@
 ---
+title: TableOfContents.bearing
 description: TableOfContents.bearing
 solution: Experience Manager
-title: TableOfContents.bearing
-feature: Dynamic Media Classic，檢視器，SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: b140c9ba-353d-49ef-9e6b-f5bc45e0dbfd
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '150'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> fit-lateral|fit-vertical</span> </p> </td> 
-   <td> <p> 控制下拉面板外觀的方向。 </p> <p>當設定為<span class="codeph"> fit-vertical</span>時，元件首先將基板位置移動到按鈕的底部，並嘗試從基部位置向右或向左滾動面板。 每次嘗試時，元件都會檢查面板是否被外部容器修剪。 如果所有嘗試均失敗，則元件會嘗試將基板位置移至頂部，並在左右方向重複展開嘗試。 </p> <p>當設為<span class="codeph"> fit-lateral</span>時，元件使用類似的邏輯，但會先將底座向右移動，然後向下和向上滾動方向。 然後，它把基座向左移動，向下和向上展開。 </p> </td> 
+   <td> <p> 控制下拉面板外觀的方向。 </p> <p>設為時 <span class="codeph"> 垂直擬合</span>，元件會先將基板位置移至按鈕底部，並嘗試從基底位置向右或向左卷出面板。 每次嘗試時，元件都會檢查面板是否被外部容器修剪。 如果所有嘗試失敗，元件會嘗試將基板位置移至頂端，然後在左右方向重複轉出嘗試。 </p> <p>設為時 <span class="codeph"> 側向擬合</span>，元件會使用類似的邏輯，但會先將底部向右移動，然後嘗試向下和向上移動方向。 然後，它把底座向左移動，向下和向上移動。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> autoHideDelay</span></span> </p> </td> 

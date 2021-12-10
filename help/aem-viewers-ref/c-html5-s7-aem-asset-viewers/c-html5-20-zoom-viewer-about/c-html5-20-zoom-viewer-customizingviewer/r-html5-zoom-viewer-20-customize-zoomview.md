@@ -1,13 +1,13 @@
 ---
+title: 縮放檢視
 description: 主檢視包含可縮放的影像。
 solution: Experience Manager
-title: 縮放檢視
-feature: Dynamic Media Classic，檢視器，SDK/API，縮放
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: ae6c7f6f-5d71-49b5-adbb-782520961acf
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -35,11 +35,11 @@ ht-degree: 0%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景顏色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景顏色 </span> </p> </td> 
    <td colname="col2"> <p> 主視圖的十六進位格式背景顏色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 游標  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 游標 </span> </p> </td> 
    <td colname="col2"> <p>游標顯示在主視圖上。 </p> </td> 
   </tr> 
  </tbody> 
@@ -53,7 +53,7 @@ ht-degree: 0%
 }
 ```
 
-在案頭系統上，元件支援`cursortype`屬性選擇器，可應用於`.s7zoomview`類。 它根據元件狀態和用戶操作控制游標的類型。 支援下列`cursortype`值：
+在台式機系統上，元件支援 `cursortype` 可套用至的屬性選取器 `.s7zoomview` 類別。 它根據元件狀態和用戶操作控制游標的類型。 以下 `cursortype` 值受支援：
 
 * `default`
 

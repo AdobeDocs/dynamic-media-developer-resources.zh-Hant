@@ -1,13 +1,13 @@
 ---
+title: PageView.enableHD
 description: PageView.enableHD
 solution: Experience Manager
-title: PageView.enableHD
-feature: Dynamic Media Classic，檢視器，SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: f03762f2-87db-4284-ba59-9ece8caa0d09
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '280'
 ht-degree: 3%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 一律|從不|限制</span> </p> </td> 
-   <td colname="col2"> <p> 對<span class="codeph"> devicePixelRatio</span>大於<span class="codeph"> 1</span>的設備啟用、限制或禁用優化，即具有高密度顯示的設備，如iPhone4和類似設備。 如果活動，則元件將限制IS影像請求的大小，就像設備只有<span class="codeph"> 1</span>的像素比，這樣可以減少頻寬。 </p> <p>請參閱下列範例 </p> </td> 
+   <td colname="col2"> <p> 啟用、限制或停用裝置最佳化，其中 <span class="codeph"> devicePixelRatio</span> 大於 <span class="codeph"> 1</span>，即具有高密度顯示(例如iPhone4和類似裝置)的裝置。 如果作用中，元件會將IS影像要求的大小限制為，好像裝置只有像素比例 <span class="codeph"> 1</span> 這樣可以減少頻寬。 </p> <p>請參閱下列範例 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 數字</span></span> </p> </td> 
@@ -68,7 +68,7 @@ ht-degree: 3%
      <ul id="ul_CEC06B2280164951BA1A0ADED99E8050"> 
       <li id="li_CA7A0980ACC54690A4F212DF53E2DC8A"> <p>如果限制數為1600，像素密度為1.5，則提供1500 x 1500影像。 </p> </li> 
       <li id="li_A4AAD7FBFA0347B082789511CA6768A5"> <p>如果限制數為1600，而像素密度為2，則1000 x 1000影像將被提供，因為2000 x 2000影像超過了限制。 </p> </li> 
-     </ul> </p> <p><b>最佳實務</b>:限制編號必須與公司設定搭配使用，以設定最大大小影像。因此，請將限制數量設定為等於公司最大影像大小設定。 </p> </td> 
+     </ul> </p> <p><b>最佳實務</b>:限制編號必須與公司設定搭配使用，以設定最大大小影像。 因此，請將限制數量設定為等於公司最大影像大小設定。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

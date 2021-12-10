@@ -1,20 +1,20 @@
 ---
+title: 縮放重設按鈕
 description: 按一下或點選此按鈕會重設主檢視中的影像。 您可以使用CSS來調整此按鈕的大小、外觀和位置。
 solution: Experience Manager
-title: 縮放重設按鈕
-feature: Dynamic Media Classic，檢視器，SDK/API，縮放
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 18663c1f-5645-41c7-bf26-241ad7c2c3b5
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 縮放重設按鈕{#zoom-reset-button}
 
-按一下或點選此按鈕會重設主檢視中的影像。 您可以使用CSS來調整此按鈕的大小、外觀和位置。
+選取或點選此按鈕會重設主檢視中的影像。 您可以使用CSS來調整此按鈕的大小、外觀和位置。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -59,23 +59,23 @@ ht-degree: 3%
    <td colname="col2"> <p>按鈕的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景 — 影像  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景 — 影像 </span> </p> </td> 
    <td colname="col2"> <p>針對指定按鈕狀態顯示的影像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS精靈，則位於圖稿精靈內。 </p> <p>請參閱<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#section-0711ece44a4740168cfd7624c9010bd1" format="dita" scope="local"> CSS Sprites </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS精靈，則位於圖稿精靈內。 </p> <p>請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#section-0711ece44a4740168cfd7624c9010bd1" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按鈕支援`state`屬性選擇器，可用於將不同的外觀應用於不同的按鈕狀態。
+>此按鈕支援 `state` 屬性選取器，可用來將不同的外觀套用至不同的按鈕狀態。
 
-按鈕工具提示可以本地化。 請參閱[使用者介面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)。
+按鈕工具提示可以本地化。 請參閱 [用戶介面元素本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
-範例：若要設定32 x 32像素的縮放重設按鈕，從檢視器的右上角和右側放置6個像素，並針對四個不同按鈕狀態中的每一個顯示不同的影像。
+範例 — 設定32 x 32像素的縮放重設按鈕，並從檢視器的右上角放置6個像素。 最後，針對四個不同的按鈕狀態顯示不同的影像。
 
 ```
 .s7zoomviewer .s7zoomresetbutton { 

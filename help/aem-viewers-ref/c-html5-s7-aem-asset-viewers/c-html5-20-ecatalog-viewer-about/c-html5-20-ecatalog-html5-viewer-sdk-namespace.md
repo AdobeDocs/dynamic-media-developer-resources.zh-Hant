@@ -1,30 +1,30 @@
 ---
+title: 檢視器SDK命名空間
 description: 檢視器SDK命名空間
 solution: Experience Manager
-title: 檢視器SDK命名空間
-feature: Dynamic Media Classic，檢視器，SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: c5286e1f-1f43-4cb8-b876-dc843f8112f5
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '220'
 ht-degree: 0%
 
 ---
 
 # 檢視器SDK命名空間{#viewer-sdk-namespace}
 
-檢視器是由許多檢視器SDK元件所建置。 在大多數情況下，網頁不需要直接與SDK元件API互動；檢視器API本身會涵蓋所有常見需求。
+檢視器是由許多檢視器SDK元件所建置。 網頁通常不需要直接與SDK元件API互動；檢視器API本身會涵蓋所有常見需求。
 
-不過，有些進階使用案例會要求網頁使用`getComponent()`檢視器API來取得內部SDK元件的參考，然後使用SDK本身API的所有彈性。
+不過，部分進階使用案例會要求網頁參考內部SDK元件，使用 `getComponent()` 檢視器API，然後使用SDK本身API的所有彈性。
 
-檢視器用來載入和初始化SDK元件的命名空間取決於檢視器運作的環境。 如果檢視器在AEM(Adobe Experience Manager)中執行，檢視器會將SDK元件載入至`s7viewers.s7sdk`命名空間。 而Dynamic Media Classic提供的檢視器會將SDK載入`s7classic.s7sdk`中。
+檢視器用來載入和初始化SDK元件的命名空間取決於檢視器運作的環境。 如果檢視器在Adobe Experience Manager中執行，檢視器會將SDK元件載入至 `s7viewers.s7sdk` 命名空間。 而Dynamic Media Classic提供的檢視器會將SDK載入至 `s7classic.s7sdk`.
 
-無論是哪種情況，檢視器內的SDK所使用的命名空間會以`s7viewers`或`s7classic`作為首碼。 此外，它與SDK使用指南或SDK API檔案中使用的純`s7sdk`命名空間不同。
+無論是哪種情況，檢視器內的SDK所使用的命名空間皆具有 `s7viewers` 或 `s7classic` 作為首碼。 這和平原不同 `s7sdk` SDK使用手冊或SDK API檔案中使用的命名空間。
 
 因此，撰寫與內部檢視器元件通訊的自訂應用程式程式碼時，請務必使用完全限定的SDK命名空間。
 
-例如，如果您打算監聽`StatusEvent.NOTF_VIEW_READY`事件，而檢視器是從Dynamic Media Classic提供，則完全限定的事件類型為`s7classic.s7sdk.event.StatusEvent.NOTF_VIEW_READY`，而事件接聽程式程式碼看起來類似下列：
+例如，如果您打算 `StatusEvent.NOTF_VIEW_READY` 事件和檢視器由Dynamic Media Classic提供，則完全限定的事件類型為 `s7classic.s7sdk.event.StatusEvent.NOTF_VIEW_READY`，而事件接聽程式程式碼看起來類似下列：
 
 ```
 <instance>.setHandlers({ 

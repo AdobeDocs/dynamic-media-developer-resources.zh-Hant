@@ -1,14 +1,14 @@
 ---
+title: FavoritesEffect.expiration
 description: FavoritesEffect.expiration
 solution: Experience Manager
-title: FavoritesEffect.expiration
-feature: Dynamic Media Classic，檢視器，SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: ef4880c5-045c-487c-a73a-e87e54717029
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 10%
+source-wordcount: '46'
+ht-degree: 13%
 
 ---
 

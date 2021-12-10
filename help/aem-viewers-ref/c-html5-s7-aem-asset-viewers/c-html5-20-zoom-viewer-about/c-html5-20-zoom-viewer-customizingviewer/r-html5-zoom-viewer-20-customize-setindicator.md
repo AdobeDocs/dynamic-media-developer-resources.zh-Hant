@@ -1,13 +1,13 @@
 ---
+title: 設定指示器
 description: 設定指示器是在觸摸設備上使用查看器時在色板上呈現的一系列點。 當捲動按鈕無法使用時，點可協助使用者瀏覽縮圖的頁面。
 solution: Experience Manager
-title: 設定指示器
-feature: Dynamic Media Classic，檢視器，SDK/API，縮放
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: b1e6734e-a341-45d7-b771-daeb0527cd00
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '251'
 ht-degree: 1%
 
 ---
@@ -35,13 +35,13 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景顏色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景顏色 </span> </p> </td> 
    <td colname="col2"> <p>設定指示器的十六進位格式的背景顏色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例 — 要設定帶有白色背景的設定指示符：
+範例 — 若要建立具有白色背景的設定指標：
 
 ```
 .s7zoomviewer .s7setindicator { 
@@ -70,27 +70,27 @@ ht-degree: 1%
    <td colname="col2"> <p>設定指示器點的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 左邊距  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 左邊距 </span> </p> </td> 
    <td colname="col2"> <p>左邊距（像素）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 邊距上  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 邊距上 </span> </p> </td> 
    <td colname="col2"> <p>上邊界（像素）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 邊距 — 右  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 邊距 — 右 </span> </p> </td> 
    <td colname="col2"> <p>右邊距（像素）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 邊距 — 底部  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 邊距 — 底部 </span> </p> </td> 
    <td colname="col2"> <p>底邊界（像素）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 邊框半徑  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 邊框半徑 </span> </p> </td> 
    <td colname="col2"> <p>邊框半徑（像素）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景顏色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景顏色 </span> </p> </td> 
    <td colname="col2"> <p>以十六進位格式表示的背景顏色。 </p> </td> 
   </tr> 
  </tbody> 
@@ -98,9 +98,9 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->設定指示符點支援`state`屬性選擇器，它可用於將不同的外觀應用於不同的縮略圖狀態。 特別是， `state="selected"`對應於縮略圖的當前頁， `state="unselected"`對應於預設點狀態。
+>設定指示器點支援 `state` 屬性選取器，可用來將不同外觀套用至不同的縮圖狀態。 特別是， `state="selected"` 與縮圖的目前頁面相對應， `state="unselected"` 與預設點狀態對應。
 
-範例：若要將指示器點設定為15 x 15像素，其中有兩個像素水準邊界、五個像素頂邊界、一個像素底邊界、十二個像素半徑、#D5D3D3預設顏色和#939393用顏色：
+示例 — 要建立一個設定指示點，使其為15 x 15像素，具有2個像素水準邊距、5個像素頂邊距、1個像素底邊距、12個像素半徑、#D5D3D3預設顏色和#939393用顏色：
 
 ```
 .s7zoomviewer .s7setindicator .s7dot { 

@@ -1,14 +1,14 @@
 ---
+title: PageView.maxloadradius
 description: PageView.maxloadradius
 solution: Experience Manager
-title: PageView.maxloadradius
-feature: Dynamic Media Classic，檢視器，SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 02925e09-f1ab-4afb-a900-d216efd323fe
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 5%
+source-wordcount: '65'
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph">-1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p>指定元件預載行為。 </p> <p>當設定為<span class="codeph"> -1</span>時，元件將在空閒狀態中預載入所有目錄幀。 </p> <p> 當設定為<span class="codeph"> 0</span>時，元件僅載入當前可見的幀、前一幀和下一幀。 </p> <p>設定<span class="codeph"><span class="varname"> preloadnbr</span></span>以定義當前顯示幀周圍的不可見幀在空閒狀態中被預載的數量。 </p> </td> 
+   <td colname="col2"> <p>指定元件預載行為。 </p> <p>設為時 <span class="codeph"> -1</span> 當處於空閒狀態時，元件將預載入所有目錄幀。 </p> <p> 設為時 <span class="codeph"> 0</span> 元件僅載入當前可見、前一幀和下一幀的幀。 </p> <p>設定 <span class="codeph"><span class="varname"> preloadnbr</span></span> 定義當前顯示的幀周圍的不可見幀數，這些幀預載入為空閒狀態。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

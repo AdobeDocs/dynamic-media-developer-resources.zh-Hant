@@ -1,14 +1,14 @@
 ---
+title: FavoritesView.favoritesThumbView
 description: FavoritesView.favoritesThumbView
 solution: Experience Manager
-title: FavoritesView.favoritesThumbView
-feature: Dynamic Media Classic，檢視器，SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 5c57fcc8-be67-408a-9c4c-4e15d5fe6410
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 9%
+source-wordcount: '56'
+ht-degree: 10%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 9%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> 區域</span></span> </p> </td> 
-   <td colname="col2"> <p> 指定「收藏夾」縮圖的裁切區域。 以與總幀大小的相對值表示，範圍從<span class="codeph"> 0</span>到<span class="codeph"> 1.0</span>。 </p> <p>值<span class="codeph"> 1</span>表示整個幀影像用於縮略圖。 </p> <p>值<span class="codeph"> 0.1</span>表示僅使用幀大小的10%。 </p> </td> 
+   <td colname="col2"> <p> 指定「收藏夾」縮圖的裁切區域。 以相對於總幀大小的相對值表示，範圍為 <span class="codeph"> 0</span> to <span class="codeph"> 1.0</span>. </p> <p>值 <span class="codeph"> 1</span> 表示整個影格影像用於縮圖。 </p> <p>值 <span class="codeph"> 0.1</span> 表示只使用幀大小的10%。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

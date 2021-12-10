@@ -1,13 +1,13 @@
 ---
+title: 主觀看者區域
 description: 主視圖區域是縮放影像和色票所佔的區域。 通常在未指定大小時設定為適合可用的裝置畫面。
 solution: Experience Manager
-title: 主觀看者區域
-feature: Dynamic Media Classic，檢視器，SDK/API，縮放
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 62cbb3e6-e766-40a3-9c01-d22ade82b604
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '167'
 ht-degree: 1%
 
 ---
@@ -45,13 +45,13 @@ ht-degree: 1%
    <td colname="col2"> <p>檢視器的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景顏色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景顏色 </span> </p> </td> 
    <td colname="col2"> <p> 以十六進位格式表示的背景顏色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-範例：若要設定具有白色背景的檢視器(`#FFFFFF`)，並將其大小設為512 x 288像素。
+範例：設定具有白色背景的檢視器( `#FFFFFF`)，並使其大小為512 x 288像素。
 
 ```
 .s7zoomviewer { 

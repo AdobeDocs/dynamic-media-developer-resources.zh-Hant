@@ -1,13 +1,13 @@
 ---
+title: TableOfContents.maxitems
 description: TableOfContents.maxitems
 solution: Experience Manager
-title: TableOfContents.maxitems
-feature: Dynamic Media Classic，檢視器，SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: d3196158-5eab-46de-8a29-8f08f4797185
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '59'
 ht-degree: 6%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> maxitems</span></span> </p> </td> 
-   <td> <p>下拉式目錄中的項目數上限。 </p> <p>此外，您也可以減少下拉式清單中的可見項目數，以防被外部容器裁切。 </p> <p>設為<span class="codeph"> 0</span>時，如果元件已新增至容器，該元件會顯示盡可能多的項目。 </p> </td> 
+   <td> <p>下拉式目錄中的項目數上限。 </p> <p>此外，您也可以減少下拉式清單中的可見項目數，以防被外部容器裁切。 </p> <p>設為時 <span class="codeph"> 0</span> 考慮到元件新增至的容器，該元件會顯示盡可能多的項目。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

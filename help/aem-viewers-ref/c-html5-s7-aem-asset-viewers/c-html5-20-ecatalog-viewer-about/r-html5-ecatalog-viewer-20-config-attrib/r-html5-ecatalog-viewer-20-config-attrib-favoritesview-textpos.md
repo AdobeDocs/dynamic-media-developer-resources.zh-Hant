@@ -1,14 +1,14 @@
 ---
+title: FavoritesView.textpos
 description: FavoritesView.textpos
 solution: Experience Manager
-title: FavoritesView.textpos
-feature: Dynamic Media Classic，檢視器，SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 3bfd7f84-6136-4db7-80a5-56f84179f3ce
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 5%
+source-wordcount: '64'
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 下|上|左|右|無|工具提示</span> </p> </td> 
-   <td colname="col2"> <p> 指定標籤相對於縮圖影像的繪製位置。也就是說，標籤會置於相對於縮圖的指定位置。 </p> <p>指定<span class="codeph">工具提示</span>時，標籤文本將顯示為縮略圖影像上的浮動工具提示。 </p> <p>設為<span class="codeph"> none</span>時，標籤顯示會關閉。 </p> </td> 
+   <td colname="col2"> <p> 指定標籤相對於縮圖影像的繪製位置。也就是說，標籤會置於相對於縮圖的指定位置。 </p> <p>當 <span class="codeph"> 工具提示</span> 指定時，標籤文本將顯示為縮略圖上的浮動工具提示。 </p> <p>設為時 <span class="codeph"> 無</span>，則會關閉標籤顯示。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,14 +1,14 @@
 ---
+title: FavoritesView.maxloadradius
 description: FavoritesView.maxloadradius
 solution: Experience Manager
-title: FavoritesView.maxloadradius
-feature: Dynamic Media Classic，檢視器，SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 6bbf75f1-96e7-496d-9f5c-6f449f76bfdd
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 6%
+source-wordcount: '56'
+ht-degree: 7%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p> 指定元件預載行為。 </p> <p>設為<span class="codeph"> -1</span>時，初始化元件或變更資產時，會同時載入所有縮圖。 </p> <p>設為<span class="codeph"> 0</span>時，只會載入可見的縮圖。 </p> <p> 當設定為<span class="codeph"><span class="varname"> preloadnbr</span></span>時，可以指定預載可見區域周圍的不可見行數。 </p> </td> 
+   <td colname="col2"> <p> 指定元件預載行為。 </p> <p>設為時 <span class="codeph"> -1</span>，所有縮圖會在元件初始化或資產變更時同時載入。 </p> <p>設為時 <span class="codeph"> 0</span>，只會載入可見的縮圖。 </p> <p> 設為時 <span class="codeph"><span class="varname"> preloadnbr</span></span>，您可以指定預先載入可見區域周圍的不可見列數。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

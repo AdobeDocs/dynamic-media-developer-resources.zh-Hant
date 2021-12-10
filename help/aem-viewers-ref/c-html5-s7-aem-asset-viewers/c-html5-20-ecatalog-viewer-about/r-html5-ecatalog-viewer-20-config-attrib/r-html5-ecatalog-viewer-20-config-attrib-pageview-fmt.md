@@ -1,13 +1,13 @@
 ---
+title: PageView.fmt
 description: PageView.fmt
 solution: Experience Manager
-title: PageView.fmt
-feature: Dynamic Media Classic，檢視器，SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 07aec907-fb9d-41c8-9f32-a4886605db35
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 5432393e265fba888579d700cf2f414dc4f680af
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '72'
 ht-degree: 5%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif|alpha</span> </p> </td> 
-   <td colname="col2"> <p> 指定元件用於從影像伺服器載入影像的影像格式。 如果指定的格式結尾為<span class="codeph"> -alpha</span>，則元件會將影像呈現為透明內容。 對於所有其他影像格式，元件將影像視為不透明。 依預設，元件有白色背景。 因此，若要使其透明，請將<span class="codeph"> background-color</span> CSS屬性設定為<span class="codeph"> transparent</span>。 </p> </td> 
+   <td colname="col2"> <p> 指定元件用於從影像伺服器載入影像的影像格式。 如果指定的格式結尾為 <span class="codeph"> -α</span>，元件會將影像轉譯為透明內容。 對於所有其他影像格式，元件將影像視為不透明。 依預設，元件有白色背景。 因此，若要使其透明，請將 <span class="codeph"> 背景顏色</span> CSS屬性 <span class="codeph"> 透明</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

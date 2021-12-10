@@ -1,13 +1,13 @@
 ---
+title: 全螢幕按鈕
 description: 當使用者選取時，會使檢視器進入或退出全螢幕模式。 如果檢視器以快顯模式運作，且系統不支援原生全螢幕，則不會顯示此按鈕。 您可以使用CSS來調整此按鈕的大小、外觀和位置。
 solution: Experience Manager
-title: 全螢幕按鈕
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: bbbf32db-15ce-4273-acc0-b6725b5405fb
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '280'
 ht-degree: 2%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 2%
 
 按鈕工具提示可以本地化。 請參閱 [用戶介面元素本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
-範例：若要設定32 x 32像素的全螢幕按鈕，從檢視器的右上角和右側放置6個像素，並在選取或未選取時，針對四個不同按鈕狀態中的每個狀態顯示不同的影像：
+範例 — 設定全螢幕按鈕（32 x 32像素），並從檢視器的右上角放置六個像素。 最後，選取或未選取時，會針對四個不同按鈕狀態中的每個狀態顯示不同的影像：
 
 ```
 .s7zoomviewer .s7fullscreenbutton { 

@@ -1,13 +1,13 @@
 ---
+title: InfoPanelPopup.template
 description: InfoPanelPopup.template
 solution: Experience Manager
-title: InfoPanelPopup.template
-feature: Dynamic Media Classic，檢視器，SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 20618017-2f73-4951-baa9-2063a0f4efcb
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '197'
 ht-degree: 3%
 
 ---
@@ -29,14 +29,14 @@ ht-degree: 3%
       ]&gt;</code> </p> <p>內容範本的實際語法如下： </p> <p> <code>&lt;info&gt;
       &lt;var&nbsp;name='VAR_NAME'&nbsp;rollover='ROLLOVER_KEY'&gt;&lt;!CDATA[&nbsp;VAR_VALUE&nbsp;]]&gt;
       &lt;![CDATA[&nbsp;TEMPLATE_CONTENT&nbsp;]]&gt;
-      &lt;/info&gt;</code> </p> <p>也就是說，範本必須以<span class="codeph"> &lt;info&gt;</span>元素開頭，該元素可能包含可選的預設<span class="codeph"> &lt;var&gt;</span>元素。 範本內容本身<span class="codeph"> TEMPLATE_CONTENT</span>為HTML文字。 此外，內容模板可能包含括在<span class="codeph"> $</span>字元中的變數名稱，這些名稱會被資訊伺服器返回的變數值或預設值替換。 </p> <p>在範本中定義的預設變數可以是全域變數（如果未設定變換屬性），或是特定於某個變換索引鍵（如果存在變換屬性）。 </p> <p>在範本處理期間，滾動索引鍵的特定變數優先於全域變數。 </p> </td> 
+      &lt;/info&gt;</code> </p> <p>也就是說，範本必須以 <span class="codeph"> &lt;info&gt;</span> 可包含可選預設的元素 <span class="codeph"> &lt;var&gt;</span> 元素。 範本內容本身， <span class="codeph"> TEMPLATE_CONTENT</span> 是HTML文字。 此外，內容範本可包含括在 <span class="codeph"> $</span> 以資訊伺服器傳回的變數值或預設值取代的字元。 </p> <p>在範本中定義的預設變數可以是全域變數（如果未設定變換屬性），或是特定於某個變換索引鍵（如果存在變換屬性）。 </p> <p>在範本處理期間，滾動索引鍵的特定變數優先於全域變數。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->請注意，當您設定「資訊面板彈出畫面」時，傳遞至「資訊面板」的HTML程式碼和JavaScript程式碼會在用戶端的電腦上執行。 因此，請確定這類HTML程式碼和JavaScript程式碼是安全的。
+>當您設定「資訊面板彈出畫面」時，傳遞至「資訊面板」的HTML代碼和JavaScript代碼會在用戶端的電腦上執行。 因此，請確定這類HTML程式碼和JavaScript程式碼是安全的。
 
 ## 屬性 {#section-6dd7785357d740d095fa9f7fd0f67da4}
 
@@ -48,6 +48,6 @@ ht-degree: 3%
 
 ## 範例 {#section-16d184665c484964af9a22f79ff3f840}
 
-假設資訊伺服器回應以變數`$1$`傳回產品名稱，而產品影像URL以變數`$2$`傳回。
+假設資訊伺服器回應將產品名稱傳回為變數 `$1$` 和產品影像URL會傳回為變數 `$2$`.
 
 `template=<info><![CDATA[Product description:$1$<br>Product image:<img src="$2$">]]></info>`
