@@ -4,9 +4,9 @@ description: 全景檢視器的設定屬性檔案。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
-source-git-commit: dfd80e5727a128f272855f1f28e1bc89cb2436bf
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '149'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 任何設定命令皆可在URL中設定，或使用 `setParam()` 和/或 `setParams()` API方法。 也可在伺服器端設定記錄中指定任何設定屬性。
 
-某些設定命令的前置詞可能是對應HTML5 SDK元件的類別名稱或執行個體名稱。 元件的例項名稱為動態，且取決於傳遞至的檢視器容器DOM元素的ID `setContainerId()` API方法。 文檔將包含此類命令的可選前置詞。 例如， `vrrender` 命令將記錄如下：
+某些設定命令的前置詞可能是對應HTML5 SDK元件的類別名稱或執行個體名稱。 元件的例項名稱為動態，且取決於傳遞至的檢視器容器DOM元素的ID `setContainerId()` API方法。 文檔將包含此類命令的可選前置詞。 例如， `vrrender` 命令記錄如下：
 
 ```
 [PanoramicView.|<containerId>_panoramicView].vrrender

@@ -1,14 +1,14 @@
 ---
+title: setParams
 description: 內嵌縮放檢視器的JavaScript API參考。
 solution: Experience Manager
-title: setParams
-feature: Dynamic Media Classic，檢視器，SDK/API，內嵌縮放
+feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: eb3298da-f19d-4013-8192-c51144d8b866
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 1%
+source-wordcount: '98'
+ht-degree: 2%
 
 ---
 
@@ -22,14 +22,14 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> params</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}</span> name=value參數對(以&amp; <span class="codeph"> 分隔)</span>。 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}</span> name=value參數對，以 <span class="codeph"> &amp;</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-將一或多個參數設為指定值。 方法引數語法與URL查詢字串相同。 也就是說，它表示以`&`分隔的名稱=值配對。 與查詢字串中相同，名稱和值是使用UTF8進行百分比編碼。 呼叫`init()`之前，必須呼叫此參數。 如果將檢視器配置資訊與`config` JSON物件傳遞至建構函式，則此方法為選用。
+將一或多個參數設為指定值。 方法引數語法與URL查詢字串相同。 也就是說，它代表以 `&`. 與查詢字串、名稱和值相同，是使用UTF8以百分比編碼。 呼叫前 `init()`，則必須呼叫此參數。 如果檢視器設定資訊是以 `config` JSON物件至建構函式。
 
-另請參閱[init](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-init.md#reference-8651640683fc4a538bfb660709d1a463)。
+另請參閱 [init](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-init.md#reference-8651640683fc4a538bfb660709d1a463).
 
 ## 傳回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 

@@ -1,14 +1,14 @@
 ---
+title: FlyoutZoomView.iscommand
 description: FlyoutZoomView.iscommand
 solution: Experience Manager
-title: FlyoutZoomView.iscommand
-feature: Dynamic Media Classic，檢視器，SDK/API，內嵌縮放
+feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: 2ae17dc8-2728-4ee5-ba88-45d78a0f4d9a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 6%
+source-wordcount: '68'
+ht-degree: 7%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isCommand</span> </span> </p> </td> 
-   <td colname="col2"> <p> </p> <p>應用於FlyoutZoomView主影像和在視圖中縮放的「影像伺服」命令字串。 如果已在URL中指定，請務必將<span class="codeph"> &amp;</span>和<span class="codeph"> =</span>的所有出現次數分別以<span class="codeph"> %26</span>和<span class="codeph"> %3D</span>編碼。 </p> <p> <p>注意： 不支援影像大小調整操作命令。 </p> </p> </td> 
+   <td colname="col2"> <p> </p> <p>應用於FlyoutZoomView主影像和在視圖中縮放的「影像伺服」命令字串。 若已在URL中指定，請務必將 <span class="codeph"> &amp;</span> 和 <span class="codeph"> =</span> as <span class="codeph"> %26</span> 和 <span class="codeph"> %3D</span>，分別為。 </p> <p> <p>注意：不支援影像大小調整操作命令。 </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

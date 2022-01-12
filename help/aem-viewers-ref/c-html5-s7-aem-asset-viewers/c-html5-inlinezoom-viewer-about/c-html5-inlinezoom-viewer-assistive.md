@@ -1,13 +1,13 @@
 ---
+title: 輔助技術支援
 description: 所有檢視器元件都支援ARIA（可存取的豐富網際網路應用程式）角色和屬性，以改善與輔助技術（例如螢幕閱讀器）的整合。
 solution: Experience Manager
-title: 輔助技術支援
-feature: Dynamic Media Classic，檢視器， SDK/API，內嵌縮放，協助工具
+feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom,Accessibility
 role: Developer,User
 exl-id: 8aa88456-b78b-434b-a98f-effce83ccd21
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '192'
 ht-degree: 0%
 
 ---
@@ -16,8 +16,8 @@ ht-degree: 0%
 
 所有檢視器元件都支援ARIA（可存取的豐富網際網路應用程式）角色和屬性，以改善與輔助技術（例如螢幕閱讀器）的整合。
 
-頂層檢視器元素的角色`region`和`aria-label`屬性預設會設為檢視器的名稱。 可以使用`Container.LABEL`本地化符號控制標籤。
+頂層檢視器元素具有角色 `region` 和 `aria-label` 屬性，預設為檢視器的名稱。 您可以使用 `Container.LABEL` 本地化符號。
 
-主視圖的角色為`application`。 `aria-roledescription`中提供了主視圖的簡要描述，該值由相應主視圖元件的`ROLE_DESCRIPTION`本地化符號定義。 使用`aria-describedby`提供鍵盤用戶的導航提示，使用提示的文本來自`USAGE_HINT`本地化符號。 如果資產在UserData欄位中定義了標籤，則會以該標籤的值設定`aria-label`屬性。
+主視圖具有角色 `application`. 主要檢視的簡短說明位於 `aria-roledescription`，而值由 `ROLE_DESCRIPTION` 相應主視圖元件的本地化符號。 為鍵盤用戶提供導航提示，使用 `aria-describedby`，則使用提示的文字來自 `USAGE_HINT` 本地化符號。 如果資產在UserData欄位中定義了標籤，則 `aria-label` 屬性是以此類標籤的值設定。
 
-顯示色票的元件具有角色`listbox`，其`aria-label`屬性設定為該元件的`LABEL`本地化符號的值。 個別色票具有`aria-setsize`和`aria-posinset`屬性的角色`option`，以說明集合中的色票位置。 如果選取了色票，則會將`aria-selected`屬性設為`true`。
+顯示色票的元件具有角色 `listbox` with `aria-label` 屬性設為的值 `LABEL` 該元件的本地化符號。 個別色票具有角色 `option` with `aria-setsize` 和 `aria-posinset` 屬性，以說明集合中的色票位置。 如果選取了色票，則會取得 `aria-selected` 屬性設定為 `true`.

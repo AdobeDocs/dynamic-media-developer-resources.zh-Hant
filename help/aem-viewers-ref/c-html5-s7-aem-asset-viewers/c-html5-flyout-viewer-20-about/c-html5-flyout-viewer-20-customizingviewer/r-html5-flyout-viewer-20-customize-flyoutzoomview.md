@@ -1,20 +1,20 @@
 ---
-description: 主視圖由靜態影像、彈出視圖中顯示的縮放影像、靜態影像上顯示的突出顯示導航區域以及靜態影像上顯示的提示消息組成。
-solution: Experience Manager
 title: 彈出縮放視圖
-feature: Dynamic Media Classic，檢視器，SDK/API,Flyout
+description: 主視圖由靜態影像和彈出視圖中顯示的縮放影像組成。 它還包含顯示在靜態影像上的突出顯示導航區域，以及顯示在靜態影像上的提示消息。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: c04c4b8f-4e63-4e84-98c0-aa0781608130
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '635'
 ht-degree: 3%
 
 ---
 
 # 彈出縮放視圖{#flyout-zoom-view}
 
-主視圖由靜態影像、彈出視圖中顯示的縮放影像、靜態影像上顯示的突出顯示導航區域以及靜態影像上顯示的提示消息組成。
+主視圖由靜態影像和彈出視圖中顯示的縮放影像組成。 它還包含顯示在靜態影像上的突出顯示導航區域，以及顯示在靜態影像上的提示消息。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -37,7 +37,7 @@ ht-degree: 3%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景顏色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景顏色 </span> </p> </td> 
    <td colname="col2"> <p> 主視圖的背景顏色。 </p> </td> 
   </tr> 
  </tbody> 
@@ -73,7 +73,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 頂部 </span> </p> </td> 
-   <td colname="col2"> <p> 彈出視圖相對於主視圖左上角的垂直位置。 </p> </td> 
+   <td colname="col2"> <p> 彈出視圖的垂直位置，相對於主視圖的左上角。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -120,15 +120,15 @@ ht-degree: 3%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景顏色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景顏色 </span> </p> </td> 
    <td colname="col2"> <p> 突出顯示的顏色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 不透明度  </span> </p> </td> 
-   <td colname="col2"> <p> 突出顯示不透明度。 </p> <p>對於Internet Explorer 8，請使用<span class="codeph"> filter:alpha(opacity-...));</span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 不透明度 </span> </p> </td> 
+   <td colname="col2"> <p> 突出顯示不透明度。 </p> <p>對於Internet Explorer 8，請使用 <span class="codeph"> filter:alpha(opacity-..)); </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 邊框  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 邊框 </span> </p> </td> 
    <td colname="col2"> <p>邊框醒目提示。 </p> </td> 
   </tr> 
  </tbody> 
@@ -147,7 +147,7 @@ ht-degree: 3%
 
 **游標的CSS屬性**
 
-當`highlightmode`參數設定為`cursor`時，主視圖中的突出顯示將替換為固定大小的游標圖稿，該圖稿由CSS類選擇器控制：
+當 `highlightmode` 參數設為 `cursor`，主視圖中的突出顯示將替換為固定大小的游標圖稿，該圖稿由CSS類選擇器控制：
 
 ```
  .s7flyoutviewer .s7flyoutzoomview 
@@ -167,15 +167,15 @@ ht-degree: 3%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景 — 影像  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景 — 影像 </span> </p> </td> 
    <td colname="col2"> <p>游標插圖。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
    <td colname="col2"> <p>游標寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
    <td colname="col2"> <p>游標高度。 </p> </td> 
   </tr> 
  </tbody> 
@@ -183,11 +183,11 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->游標支援`input`屬性選擇器，它可用於為不同設備應用不同的游標圖稿和大小。 具體來說，`input="mouse"`對應於案頭系統，`input="touch"`對應於觸摸設備。
+>游標支援 `input` 屬性選擇器，可用於為不同設備應用不同的游標圖稿和大小。 特別是， `input="mouse"` 與案頭系統和 `input="touch"` 對應至觸控裝置。
 
 **覆蓋的CSS屬性**
 
-當`overlay`參數設定為`1`時，高亮幀或游標影像周圍的區域由CSS類選擇器控制：
+當 `overlay` 參數設為 `1`，則高亮框或游標影像周圍的區域由CSS類選擇器控制：
 
 ```
  .s7flyoutviewer .s7flyoutzoomview 
@@ -203,11 +203,11 @@ ht-degree: 3%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景顏色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景顏色 </span> </p> </td> 
    <td colname="col2"> <p>覆蓋顏色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 不透明度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 不透明度 </span> </p> </td> 
    <td colname="col2"> <p>覆蓋不透明度。 </p> </td> 
   </tr> 
  </tbody> 
@@ -221,7 +221,7 @@ ht-degree: 3%
 .s7flyoutviewer .s7flyoutzoomview .s7tip
 ```
 
-您可以透過CSS來設定字型樣式、大小外觀和垂直偏移。 不過，水準對齊方式是由檢視器邏輯管理。 不支援使用`left`或`right`屬性透過CSS覆寫它。
+您可以透過CSS來設定字型樣式、大小、外觀和垂直偏移。 不過，水準對齊方式是由檢視器邏輯管理。 透過CSS覆寫它，使用 `left` 或 `right` 不支援屬性。
 
 <table id="table_DCF6B69A9D8C4DB7A10C4572F7484799"> 
  <thead> 
@@ -240,11 +240,11 @@ ht-degree: 3%
    <td colname="col2"> <p>文字色彩. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型系列  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字型系列 </span> </p> </td> 
    <td colname="col2"> <p>字型名稱。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型大小  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字型大小 </span> </p> </td> 
    <td colname="col2"> <p>字型大小. </p> </td> 
   </tr> 
   <tr> 
@@ -252,23 +252,23 @@ ht-degree: 3%
    <td colname="col2"> <p>在訊息文字周圍填補。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景顏色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景顏色 </span> </p> </td> 
    <td colname="col2"> <p>消息文本的背景填充顏色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 邊框半徑  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 邊框半徑 </span> </p> </td> 
    <td colname="col2"> <p>訊息文字的背景邊框半徑。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 不透明度  </span> </p> </td> 
-   <td colname="col2"> <p>消息文本的背景不透明度。 </p> <p>對於Internet Explorer 8，請使用<span class="codeph"> filter:alpha(opacity-...))</span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 不透明度 </span> </p> </td> 
+   <td colname="col2"> <p>消息文本的背景不透明度。 </p> <p>對於Internet Explorer 8，請使用 <span class="codeph"> filter:alpha(opacity-..)) </span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-提示訊息可本地化。 如需詳細資訊，請參閱[使用者介面元素本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) 。
+提示訊息可本地化。 請參閱 [用戶介面元素本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) 以取得更多資訊。
 
-示例 — 要設定半透明的尖端消息，其字型為白色Arial 12px，從主視圖底部偏移50像素，邊框間距和圓角：
+示例 — 要設定半透明的提示消息，其字型為白色Arial® 12像素，距主視圖底部50像素偏移，邊框間距和圓角：
 
 ```
 .s7flyoutviewer .s7flyoutzoomview .s7tip { 

@@ -1,13 +1,13 @@
 ---
+title: 飛出檢視器的JavaScript API參考
 description: Flyout查看器的主類是FlyoutViewer。 會在s7viewers命名空間中宣告。 此JavaScript API涵蓋建構函式、方法，以及此特定類別的呼叫回呼。
 solution: Experience Manager
-title: 飛出檢視器的JavaScript API參考
-feature: Dynamic Media Classic，檢視器，SDK/API,Flyout
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: 7f85f6d0-bcc8-4d9b-ae0b-6fb9e1e7f0da
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Flyout查看器的主類是FlyoutViewer。 會在s7viewers命名空間中宣告。 此JavaScript API涵蓋建構函式、方法，以及此特定類別的呼叫回呼。
 
-在以下所有範例中， `<instance>`代表從`s7viewers.FlyoutViewer`類別實例化的JavaScript檢視器物件的實際名稱。
+在下列所有範例中， `<instance>` 代表從實例化的JavaScript檢視器物件的實際名稱 `s7viewers.FlyoutViewer` 類別。
 
 * [處置](r-html5-flyout-viewer-20-javascriptapiref-dispose.md)
 * [FlyoutViewer](r-html5-flyout-viewer-20-javascriptapiref-.flyoutviewer.md)

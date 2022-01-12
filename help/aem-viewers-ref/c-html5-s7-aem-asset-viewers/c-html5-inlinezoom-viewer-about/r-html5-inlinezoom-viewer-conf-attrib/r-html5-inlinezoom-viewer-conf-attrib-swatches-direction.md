@@ -1,14 +1,14 @@
 ---
+title: Swatches.direction
 description: Swatches.direction
 solution: Experience Manager
-title: Swatches.direction
-feature: Dynamic Media Classic，檢視器，SDK/API，內嵌縮放
+feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: 8294c9f0-4c4e-4095-beeb-94d8dcfc2cd7
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 6%
+source-wordcount: '56'
+ht-degree: 7%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 6%
 <table id="table_8DA8AC17A6FB4EC09DC9384B812D841C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> auto|left|right  </span> </p> </td> 
-   <td colname="col2"> <p> 指定色票在檢視中的填入方式。 </p> <p> <span class="codeph"> 左 </span> 右設定填充順序； <span class="codeph"> 右 </span> 側反轉順序，使視圖以從右到左、從上到下的方向填充。設定<span class="codeph"> auto </span>時，當區域設定設定為<span class="codeph"> "ja" </span>時，元件將應用右模式，否則將使用左模式。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> auto|left|right </span> </p> </td> 
+   <td colname="col2"> <p> 指定色票在檢視中的填入方式。 </p> <p> <span class="codeph"> lef </span> 設定由左到右的填充順序； <span class="codeph"> 右 </span> 反轉順序，使視圖以從右到左、從上到下的方向填充。 當 <span class="codeph"> 自動 </span> 設定後，當語言環境設定為時，元件將應用正確模式 <span class="codeph"> "ja" </span>，否則會使用left。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

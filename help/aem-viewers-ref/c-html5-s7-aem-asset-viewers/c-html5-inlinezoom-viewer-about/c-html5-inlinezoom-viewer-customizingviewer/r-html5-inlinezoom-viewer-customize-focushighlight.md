@@ -1,13 +1,13 @@
 ---
+title: 焦點醒目提示
 description: 焦點檢視器UI元素周圍顯示的輸入焦點醒目提示，是由CSS類別選取器控制。
 solution: Experience Manager
-title: 焦點醒目提示
-feature: Dynamic Media Classic，檢視器，SDK/API，內嵌縮放
+feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: 5849dc2f-d4df-40a2-82c9-454284308a04
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '78'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 大綱  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 大綱 </span> </p> </td> 
    <td colname="col2"> <p>焦點突出顯示樣式。 </p> </td> 
   </tr> 
  </tbody> 
