@@ -1,26 +1,26 @@
 ---
-description: 當使用者選取時，此按鈕會使檢視器進入或退出全螢幕模式。 檢視器顯示影像或回轉集時，會使用它。 如果檢視器在快顯模式中運作，且系統不支援原生全螢幕，則不會顯示此按鈕。 您可以使用CSS來調整此按鈕的大小、外觀和位置。
+title: 全屏按鈕
+description: 當用戶選擇時，此按鈕將使查看器進入或退出全屏模式。 當查看器顯示影像或旋轉集時使用。 如果查看器在彈出模式下工作且系統不支援本機全屏，則不顯示此按鈕。 可以使用CSS調整此按鈕的大小、外觀和位置。
 solution: Experience Manager
-title: 全螢幕按鈕
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 1df99614-9493-4c8a-bc51-4426b8c5467a
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# 全螢幕按鈕{#full-screen-button}
+# 全屏按鈕{#full-screen-button}
 
-當使用者選取時，此按鈕會使檢視器進入或退出全螢幕模式。 檢視器顯示影像或回轉集時，會使用它。 如果檢視器在快顯模式中運作，且系統不支援原生全螢幕，則不會顯示此按鈕。 您可以使用CSS來調整此按鈕的大小、外觀和位置。
+當用戶選擇時，此按鈕將使查看器進入或退出全屏模式。 當查看器顯示影像或旋轉集時使用。 如果查看器在彈出模式下工作且系統不支援本機全屏，則不顯示此按鈕。 可以使用CSS調整此按鈕的大小、外觀和位置。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **主查看器區域的CSS屬性**
 
-按鈕的外觀由下列CSS類選擇器控制：
+按鈕的外觀由以下CSS類選擇器控制：
 
 ```
 .s7mixedmediaviewer .s7fullscreenbutton
@@ -36,19 +36,19 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 頂部 </span> </p> </td> 
-   <td colname="col2"> <p>從上邊框的位置，包括邊框間距。 </p> </td> 
+   <td colname="col2"> <p>從上邊框定位，包括填充。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 右側 </span> </p> </td> 
-   <td colname="col2"> <p>從右邊框定位，包括邊框間距。 </p> </td> 
+   <td colname="col2"> <p>從右邊框定位，包括填充。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 左側 </span> </p> </td> 
-   <td colname="col2"> <p>從左邊框的位置，包括邊框間距。 </p> </td> 
+   <td colname="col2"> <p>從左邊框定位，包括填充。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 底部 </span> </p> </td> 
-   <td colname="col2"> <p>從底部邊框的位置，包括邊框間距。 </p> </td> 
+   <td colname="col2"> <p>從底邊框定位，包括填充。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -59,23 +59,23 @@ ht-degree: 2%
    <td colname="col2"> <p>按鈕的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景 — 影像 </span> </p> </td> 
-   <td colname="col2"> <p>針對指定按鈕狀態顯示的影像。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景影像 </span> </p> </td> 
+   <td colname="col2"> <p>為給定按鈕狀態顯示的影像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS精靈，則位於圖稿精靈內。 </p> <p>請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS浮雕，則在圖稿浮雕內定位。 </p> <p>請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS繁體 </a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按鈕支援 `state` 和 `selected` 屬性選取器，可用來將不同外觀套用至不同按鈕狀態。 特別是， `selected='true'` 與「全螢幕」狀態和 `selected='false'` 對應至「正常」狀態。
+>此按鈕支援 `state` 和 `selected` 屬性選擇器，可用於將不同的外觀應用於不同的按鈕狀態。 特別是， `selected='true'` 對應於「全屏」狀態 `selected='false'` 對應於「正常」狀態。
 
-按鈕工具提示可以本地化。 請參閱 [用戶介面元素本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) 以取得更多資訊。
+按鈕工具提示可以本地化。 請參閱 [用戶介面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) 的子菜單。
 
-範例：若要設定32 x 32像素的全螢幕按鈕，從檢視器的右上角和右側放置6個像素，並在選取或未選取時，針對四個不同按鈕狀態中的每個狀態顯示不同的影像：
+示例 — 設定一個32 x 32像素的全屏按鈕，並從查看器的上邊緣和右邊緣放置六個像素。 最後，當選擇或未選擇以下四種不同按鈕狀態時，將顯示不同的影像：
 
 ```
 .s7mixedmediaviewer .s7fullscreenbutton { 

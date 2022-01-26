@@ -1,24 +1,24 @@
 ---
-description: 控制欄是矩形區域，其中包含並位於視訊檢視器可用的所有使用者介面控制項，例如播放/暫停按鈕、音量控制項等。
-solution: Experience Manager
 title: 控制欄
-feature: Dynamic Media Classic，檢視器，SDK/API，混合媒體集
+description: 控制欄是矩形區域，包含並位於視頻查看器可用的所有用戶介面控制項（如「播放/暫停」按鈕、音量控制項等）的後面。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: f0de655c-36f0-4ed4-806c-d486eed2201b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '147'
 ht-degree: 1%
 
 ---
 
 # 控制欄{#control-bar}
 
-控制欄是矩形區域，其中包含並位於視訊檢視器可用的所有使用者介面控制項，例如播放/暫停按鈕、音量控制項等。
+控制欄是矩形區域，包含並位於視頻查看器可用的所有用戶介面控制項（如「播放/暫停」按鈕、音量控制項等）的後面。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-控制列一律會取用整個可用的檢視器寬度。 您可以透過CSS，相對於視訊檢視器容器來變更其顏色、高度和垂直位置。
+控制欄始終取整個可用查看器寬度。 可以通過CSS相對於視頻查看器容器更改其顏色、高度和垂直位置。
 
 以下CSS類選擇器控制控制欄的外觀：
 
@@ -35,7 +35,7 @@ ht-degree: 1%
    <td colname="col2"> <p>控制欄的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景顏色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
    <td colname="col2"> <p>控制欄的背景顏色。 </p> </td> 
   </tr> 
  </tbody> 
@@ -43,7 +43,7 @@ ht-degree: 1%
 
 ## 範例 {#section-e8caea0a303c425a8a637c2a47c06355}
 
-設定混合媒體檢視器，並搭配高度為30像素的灰色控制列。
+設定帶有30像素高的灰色控制欄的混合媒體查看器。
 
 ```
 .s7mixedmediaviewer .s7controlbar {  

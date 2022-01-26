@@ -1,37 +1,37 @@
 ---
-description: 混合媒體檢視器的JavaScript API參考。
-solution: Experience Manager
 title: setParams
-feature: Dynamic Media Classic，檢視器，SDK/API，混合媒體集
+description: 用於混合媒體查看器的JavaScript API參考。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 200805ca-20e5-4d3a-90ba-2511e71705ab
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 1%
+source-wordcount: '98'
+ht-degree: 2%
 
 ---
 
 # setParams{#setparams}
 
-混合媒體檢視器的JavaScript API參考。
+用於混合媒體查看器的JavaScript API參考。
 
-` setParams( *`params`*)`
+` setParams( *`帕拉`*)`
 
-將一或多個參數設為指定值。 方法引數語法與URL查詢字串相同。 也就是說，它表示以`&`分隔的名稱=值配對。 就像在查詢字串中一樣，名稱和值是使用UTF8進行百分比編碼。 呼叫`init()`之前，必須呼叫此參數。 如果將檢視器配置資訊與`config` JSON物件傳遞至建構函式，則此方法為選用。
+將一個或多個參數設定為給定值。 方法參數語法與URL查詢字串相同。 即，它表示與 `&`。 與查詢字串一樣，名稱和值使用UTF8進行百分比編碼。 在你打電話之前 `init()`，必須調用此參數。 如果與一起傳遞查看器配置資訊，則此方法是可選的 `config` 建構子的JSON對象。
 
-另請參閱[init](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-init.md#reference-bb4428c155e541b79797f96e17c068ae)。
+另請參閱 [初始化](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-init.md#reference-bb4428c155e541b79797f96e17c068ae)。
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> params</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}</span> name=value參數對(以&amp; <span class="codeph"> 分隔)</span>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 帕拉</span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}</span> name=value參數對，分隔為 <span class="codeph"> &amp;</span>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 傳回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## 返回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 無。
 

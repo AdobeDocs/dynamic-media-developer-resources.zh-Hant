@@ -1,20 +1,20 @@
 ---
-description: 當目前資產為回轉集時，主檢視由回轉影像組成。
+title: 旋轉視圖
+description: 當當前資產為旋轉集時，主視圖由旋轉影像組成。
 solution: Experience Manager
-title: 回轉檢視
-feature: Dynamic Media Classic，檢視器，SDK/API，混合媒體集
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: aafc1299-b09a-4379-bd8f-b564066175bd
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# 回轉檢視{#spin-view}
+# 旋轉視圖{#spin-view}
 
-當目前資產為回轉集時，主檢視由回轉影像組成。
+當當前資產為旋轉集時，主視圖由旋轉影像組成。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -35,13 +35,13 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景顏色  </span> </p> </td> 
-   <td colname="col2"> <p> 以十六進位格式表示的回轉視圖背景顏色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
+   <td colname="col2"> <p> 旋轉視圖十六進位格式的背景色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-範例：讓回轉檢視透明。
+示例 — 使旋轉視圖透明。
 
 ```
 .s7mixedmediaviewer .s7spinview { 
