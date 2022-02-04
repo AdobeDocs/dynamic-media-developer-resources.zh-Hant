@@ -1,37 +1,37 @@
 ---
-description: 回轉檢視器的JavaScript API參考。
-solution: Experience Manager
 title: setContainerId
-feature: Dynamic Media Classic，檢視器，SDK/API，回轉集
+description: 用於Spin Viewer的JavaScript API參考。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: 5859800f-7d01-4c32-a67f-211578d5c50b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '86'
 ht-degree: 2%
 
 ---
 
 # setContainerId{#setcontainerid}
 
-回轉檢視器的JavaScript API參考。
+用於Spin Viewer的JavaScript API參考。
 
-` setContainerId( *`containerId`*)`
+` setContainerId( *`容器ID`*)`
 
-設定檢視器所插入的DOM容器ID（通常為DIV）。 呼叫此方法時，不需要建立容器元素。 但是，當`init()`運行時，容器必須存在。 必須在`init()`之前呼叫。
+設定DOM容器（通常為DIV）的ID，查看器將插入其中。 不必在調用此方法時建立容器元素。 但是，當 `init()` 。 必須在之前調用 `init()`。
 
-如果將檢視器配置資訊與`config` JSON物件傳遞至建構函式，則此方法為選用。
+如果與一起傳遞查看器配置資訊，則此方法是可選的 `config` 建構子的JSON對象。
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> containerId  </span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 容器ID </span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> {string} </span> 容器ID。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 傳回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## 返回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 無。
 

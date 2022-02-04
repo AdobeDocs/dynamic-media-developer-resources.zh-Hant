@@ -1,31 +1,31 @@
 ---
+title: VideoPlayer.posterimage
 description: VideoPlayer.posterimage
 solution: Experience Manager
-title: VideoPlayer.posterimage
-feature: Dynamic Media Classic，檢視器，SDK/API，混合媒體集
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: bcbba4c5-b758-4049-b4c2-f1c48cc2de7e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 2%
+source-wordcount: '166'
+ht-degree: 3%
 
 ---
 
 # VideoPlayer.posterimage{#videoplayer-posterimage}
 
-` [VideoPlayer.|<containerId>_videoPlayer.]posterimage=none|[ *`image_`*][? *`idisCommands`*]`
+` [VideoPlayer.|<containerId>_videoPlayer.]posterimage=none|[ *`影像ID`*][? *`是命令`*]`
 
 <table id="table_AE7AAFA9B4374E31B51D06511EB96401"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 無|[<span class="varname"> image_id</span>][?<span class="varname"> isCommands</span>]</span> </p> </td> 
-   <td colname="col2"> <p> 要在視訊開始播放前顯示在第一個畫面上的影像，針對<span class="codeph">伺服器url</span>解析。 若在URL中指定，請以HTTP編碼： </p> <p> 
+   <td colname="col1"> <p> <span class="codeph"> 無|[<span class="varname"> 影像ID</span>][?<span class="varname"> 是命令</span>]</span> </p> </td> 
+   <td colname="col2"> <p> 在視頻開始播放之前要在第一幀上顯示的影像，針對 <span class="codeph"> 伺服器url</span>。 如果在URL中指定，則HTTP-encode如下： </p> <p> 
      <ul id="ul_B38A687CEFE64C68A0B2C227A68A458F"> 
-      <li id="li_E7AE1BDAC17E49E0B7ACF89C5C0529F0"> <p> <span class="codeph"> ?</span> 作為 <span class="codeph"> %3F</span> </p> </li> 
-      <li id="li_391CCF067F734480B2B4AFC9760C479A"> <p> <span class="codeph"> </span> as  <span class="codeph"> %26</span> </p> </li> 
-      <li id="li_6824B66A55554C5A8B12874DCF5BFAEE"> <p> <span class="codeph"> =</span> as  <span class="codeph"> %3D</span> </p> </li> 
-     </ul> </p> <p>如果省略<span class="codeph"><span class="varname"> image_id</span></span>值，元件會嘗試為該資產使用預設海報影像。 </p> <p>將視訊指定為路徑時，預設海報影像目錄id從視訊路徑衍生為<span class="codeph"> catalogid/imageid</span>對，其中<span class="codeph"> catalogid</span>對應於路徑中的第一個代號，而<span class="codeph"> imageid</span>是已移除副檔名的視訊名稱。 如果具有該ID的影像不存在，則不會顯示海報影像。 </p> <p>若要防止顯示預設海報影像，請指定<span class="codeph"> none</span>作為海報影像值。 如果只指定了<span class="codeph"><span class="varname"> isCommands</span></span> ，則在顯示影像之前，命令將應用於預設海報影像。 </p> </td> 
+      <li id="li_E7AE1BDAC17E49E0B7ACF89C5C0529F0"> <p> <span class="codeph"> ?</span> 如 <span class="codeph"> %3F</span> </p> </li> 
+      <li id="li_391CCF067F734480B2B4AFC9760C479A"> <p> <span class="codeph"> &amp;</span> 如 <span class="codeph"> %26</span> </p> </li> 
+      <li id="li_6824B66A55554C5A8B12874DCF5BFAEE"> <p> <span class="codeph"> =</span> 如 <span class="codeph"> %3D</span> </p> </li> 
+     </ul> </p> <p>如果 <span class="codeph"><span class="varname"> 影像ID</span></span> 值被省略，元件將嘗試使用該資產的預設海報影像。 </p> <p>當視頻被指定為路徑時，預設海報影像目錄ID將從視頻路徑派生為 <span class="codeph"> catalog_id/image_id</span> 配對 <span class="codeph"> 目錄ID</span> 與路徑中的第一個標籤對應。 還有， <span class="codeph"> 影像ID</span> 是刪除副檔名的視頻名稱。 如果該ID的影像不存在，則不顯示海報影像。 </p> <p>要防止顯示預設海報影像，請指定 <span class="codeph"> 無</span> 作為海報影像值。 如果 <span class="codeph"><span class="varname"> 是命令</span></span> 指定，在顯示影像之前，這些命令將應用於預設海報影像。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

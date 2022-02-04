@@ -1,32 +1,32 @@
 ---
-description: 回轉檢視器支援Adobe Analytics立即可用的追蹤功能。
+title: Support for Adobe Analytics tracking
+description: The Spin Viewer supports Adobe Analytics tracking out of the box.
 solution: Experience Manager
-title: 支援Adobe Analytics追蹤
-feature: Dynamic Media Classic，檢視器，SDK/API，回轉集
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 30762700-6d69-4299-9492-57893232abe1
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '156'
 ht-degree: 3%
 
 ---
 
-# 支援Adobe Analytics追蹤{#support-for-adobe-analytics-tracking}
+# 支援Adobe Analytics跟蹤{#support-for-adobe-analytics-tracking}
 
-回轉檢視器支援Adobe Analytics立即可用的追蹤功能。
+The Spin Viewer supports Adobe Analytics tracking out of the box.
 
-## 現成可用追蹤 {#section-d06145cfa2b9491bb485b599368d466e}
+## 現成跟蹤 {#section-d06145cfa2b9491bb485b599368d466e}
 
-回轉檢視器支援Adobe Analytics立即可用的追蹤功能。
+Spin Viewer支援Adobe Analytics開箱跟蹤。
 
-若要啟用追蹤，請將正確的公司預設集名稱傳遞為`config2`參數。
+要啟用跟蹤，請將正確的公司預設名稱作為 `config2` 的下界。
 
-檢視器也會傳送單一追蹤HTTP要求至已設定的影像伺服器，並附上檢視器類型和版本資訊。
+查看器還向配置的Image Server發送單個跟蹤HTTP請求，其中包含查看器類型和版本資訊。
 
-## 自訂追蹤 {#section-47512156a1d64b338b50cfa39c84f4aa}
+## 自定義跟蹤 {#section-47512156a1d64b338b50cfa39c84f4aa}
 
-若要與協力廠商分析系統整合，必須監聽`trackEvent`檢視器回呼，並視需要處理回呼函式的`eventInfo`引數。 以下代碼是此類處理程式函式的示例：
+To integrate with third-party analytics systems, it is necessary to listen to the `trackEvent` viewer callback and process the `eventInfo` argument of the callback function, as necessary. 以下代碼是此類處理程式函式的示例：
 
 ```
 var spinViewer = new s7viewers.SpinViewer({ 
@@ -50,35 +50,35 @@ var spinViewer = new s7viewers.SpinViewer({
 });
 ```
 
-檢視器會追蹤下列SDK使用者事件：
+查看器跟蹤以下SDK用戶事件：
 
 <table id="table_5D090E6614974D968E1A93B5727D859C"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>SDK使用者事件 </p> </th> 
-   <th colname="col2" class="entry"> <p>傳送時間…… </p> </th> 
+   <th colname="col1" class="entry"> <p>SDK user event </p> </th> 
+   <th colname="col2" class="entry"> <p>Sent when... </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LOAD </span> </p> </td> 
-   <td colname="col2"> <p>檢視器會先載入。 </p> </td> 
+   <td colname="col2"> <p>viewer is loaded first. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>使用<span class="codeph"> setAsset()</span> API在檢視器中交換資產。 </p> </td> 
+   <td colname="col2"> <p>在查看器中使用 <span class="codeph"> setAsset() </span> API。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZOOM </span> </p> </td> 
-   <td colname="col2"> <p> 放大影像。 </p> </td> 
+   <td colname="col2"> <p> 縮放影像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PAN </span> </p> </td> 
-   <td colname="col2"> <p>影像被鑲嵌。 </p> </td> 
+   <td colname="col2"> <p>一幅圖畫被繪製。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SPIN </span> </p> </td> 
-   <td colname="col2"> <p> 執行回轉。 </p> </td> 
+   <td colname="col2"> <p> 執行旋轉。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

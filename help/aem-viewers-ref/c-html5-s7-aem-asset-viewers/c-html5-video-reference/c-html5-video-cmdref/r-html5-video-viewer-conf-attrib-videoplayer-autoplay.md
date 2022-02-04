@@ -1,20 +1,20 @@
 ---
-description: 視訊檢視器的設定屬性。
-solution: Experience Manager
 title: VideoPlayer.autoplay
-feature: Dynamic Media Classic，檢視器， SDK/API，影片
+description: 視頻查看器的配置屬性。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: ec0bb98a-7c0b-4ed7-b47d-7c103b6a5943
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '45'
-ht-degree: 13%
+source-wordcount: '38'
+ht-degree: 15%
 
 ---
 
 # VideoPlayer.autoplay{#videoplayer-autoplay}
 
-視訊檢視器的設定屬性。
+視頻查看器的配置屬性。
 
 ` [VideoPlayer.|<containerId>_videoPlayer.]autoplay= *`0 | 1`*`
 
@@ -22,7 +22,7 @@ ht-degree: 13%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 0|1</span> </span> </p> </td> 
-   <td colname="col2"> <p> 指出檢視器是否在載入時開始播放視訊。 某些系統（例如某些行動裝置）不支援AutoPlay。 </p> </td> 
+   <td colname="col2"> <p> 指示查看器是否在載入時開始播放視頻。 某些系統（如某些移動設備）不支援AutoPlay。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

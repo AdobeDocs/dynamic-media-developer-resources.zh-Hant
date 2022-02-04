@@ -1,26 +1,26 @@
 ---
+title: VideoPlayer.progressivebitrate
 description: VideoPlayer.progressivebitrate
 solution: Experience Manager
-title: VideoPlayer.progressivebitrate
-feature: Dynamic Media Classic，檢視器，SDK/API，混合媒體集
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: b156d3f4-c4d3-45fe-b3d3-b7ed38f6eb4d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '83'
 ht-degree: 4%
 
 ---
 
 # VideoPlayer.progressivebitrate{#videoplayer-progressivebitrate}
 
-` [VideoPlayer.|<containerId>_videoPlayer.]progressivebitrate= *`value`*`
+` [VideoPlayer.|<containerId>_videoPlayer.]progressivebitrate= *`值`*`
 
 <table id="table_678AFC7BC06F41188F820502D2014C1F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> value</span></span> </p> </td> 
-   <td colname="col2"> <p> 指定（以每秒kbits或每秒kbps為單位）在當前系統不支援自適應視頻播放的情況下要從自適應視頻集播放的所需視頻比特率。 </p> <p>元件會以最接近（但不超過）指定值的位元速率擷取視訊資料流。 如果適用性視訊集中的所有視訊資料流的品質高於指定值，邏輯會選擇品質最低的位元速率。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> 值</span></span> </p> </td> 
+   <td colname="col2"> <p> 指定（千比特/秒或kbps）在當前系統不支援自適應視頻回放時從自適應視頻集播放的所需視頻比特率。 </p> <p>該元件以最接近（但不超過）指定值的比特率提取視頻流。 如果自適應視頻集中的所有視頻流的質量都高於指定值，則邏輯選擇質量最低的比特率。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,28 +1,28 @@
 ---
-description: 視訊檢視器的URL命令。
+title: 視頻伺服器URL
+description: 視頻查看器的URL命令。
 solution: Experience Manager
-title: videoServerUrl
-feature: Dynamic Media Classic，檢視器， SDK/API，影片
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 945c32e0-a67b-4c27-b661-26510615d757
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 6%
+source-wordcount: '51'
+ht-degree: 7%
 
 ---
 
-# videoServerUrl{#videoserverurl}
+# 視頻伺服器URL{#videoserverurl}
 
-視訊檢視器的URL命令。
+視頻查看器的URL命令。
 
-` videoServerUrl= *`videoRootPath`*`
+` videoServerUrl= *`視頻根路徑`*`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> videoRootPath</span> </span> </p> </td> 
-   <td colname="col2"> <p> 視訊伺服器根路徑。 若未指定網域，則會改為套用提供頁面的網域。 標準URI路徑解析度適用。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 視頻根路徑</span> </span> </p> </td> 
+   <td colname="col2"> <p> 視頻伺服器根路徑。 如果未指定域，則將應用從中提供頁面的域。 應用標準URI路徑解析。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,14 +1,14 @@
 ---
+title: VideoScrubber.showtime
 description: VideoScrubber.showtime
 solution: Experience Manager
-title: VideoScrubber.showtime
-feature: Dynamic Media Classic，檢視器，SDK/API，混合媒體集
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: cd141d46-9d73-417e-b789-4d2f0bc6a9eb
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '28'
-ht-degree: 17%
+source-wordcount: '19'
+ht-degree: 26%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 17%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 在調整旋鈕位置時啟用或禁用播放時間氣泡。 </p> </td> 
+   <td colname="col2"> <p> 在調整旋鈕位置時啟用或禁用播放氣泡的時間。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

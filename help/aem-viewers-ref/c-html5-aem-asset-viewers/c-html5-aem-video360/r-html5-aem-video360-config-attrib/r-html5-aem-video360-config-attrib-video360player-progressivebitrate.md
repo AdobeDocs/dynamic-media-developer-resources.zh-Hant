@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: a253ef01-19ae-4de4-a4fc-b10b28e72c00
-source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 8%
@@ -16,13 +16,13 @@ ht-degree: 8%
 
 Video360查看器的配置屬性。
 
-` [Video360Player.|<containerId>_video360Player.]progressivebitrate= *`value`*`
+` [Video360Player.|<containerId>_video360Player.]progressivebitrate= *`值`*`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> value</span> </p> </td> 
-   <td colname="col2"> <p> 指定以千位/秒（或千位/秒）為單位，以在目前系統不支援自適應視訊播放的情況下，從最適化視訊集播放所需的視訊位元速率。 </p> <p>元件會以最接近（但不超過）指定值的位元速率擷取視訊資料流。 如果適用性視訊集中的所有視訊資料流的品質高於指定值，則邏輯會選擇品質最低的位元速率。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 值</span> </p> </td> 
+   <td colname="col2"> <p> 指定在當前系統不支援自適應視頻回放時從自適應視頻集播放的所需視頻比特率（千比特/秒或千比特）。 </p> <p>該元件以最接近（但不超過）的比特率提取視頻流到指定值。 如果自適應視頻集中的所有視頻流的質量都高於指定值，則邏輯選擇質量最低的比特率。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

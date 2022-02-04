@@ -1,20 +1,20 @@
 ---
+title: Swatches.scrollstep
 description: Swatches.scrollstep
 solution: Experience Manager
-title: Swatches.scrollstep
-feature: Dynamic Media Classic，檢視器，SDK/API，混合媒體集
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 8f6a1655-022f-4d49-b02f-7354da34553a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 9%
+source-wordcount: '32'
+ht-degree: 12%
 
 ---
 
 # Swatches.scrollstep{#swatches-scrollstep}
 
-` [Swatches.|<containerId>_swatches.]scrollstep= *``*, *`StepvStep`*`
+` [Swatches.|<containerId>_swatches.]scrollstep= *`步驟`*, *`vStep`*`
 
 <table id="table_DC890B3CAB6847318081AC74424147B9"> 
  <tbody> 
@@ -29,7 +29,7 @@ ht-degree: 9%
  </tbody> 
 </table>
 
-指定每次點按或點選對應捲動按鈕時要捲動的色票數。
+指定每次按一下或點擊相應滾動按鈕時要滾動的色板數。
 
 ## 屬性 {#section-65be9301796240e38f31818229da7acc}
 

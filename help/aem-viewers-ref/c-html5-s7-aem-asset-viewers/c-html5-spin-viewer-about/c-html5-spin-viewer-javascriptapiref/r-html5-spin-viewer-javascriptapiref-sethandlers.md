@@ -1,37 +1,37 @@
 ---
-description: 回轉檢視器的JavaScript API參考
-solution: Experience Manager
 title: setHandlers
-feature: Dynamic Media Classic，檢視器，SDK/API，回轉集
+description: 用於Spin Viewer的JavaScript API參考
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: f9e0b93e-fb27-4530-93cf-8246948423d9
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '87'
 ht-degree: 3%
 
 ---
 
 # setHandlers{#sethandlers}
 
-回轉檢視器的JavaScript API參考
+用於Spin Viewer的JavaScript API參考
 
 `setHandlers(handlers)`
 
-指定零個或多個回調處理程式。 對此方法的呼叫會完全覆寫先前為該檢視器例項指派的事件處理常式。 必須在`init()`之前呼叫。
+指定零個或多個回調處理程式。 對此方法的調用將完全覆蓋以前為該查看器實例分配的事件處理程式。 必須在之前調用 `init()`。
 
 ## 參數 {#section-51f820ded5e842bebd123e37a35176c7}
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 處理器  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> 具有查看 </span> 器事件回呼的{Object} JSON物件，其中屬性名稱是受支援的查看器事件的名稱，屬性值是適當回呼的JavaScript函式參考。 </p> <p>如需檢視器事件的詳細資訊，請參閱<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-event-callbacks.md#concept-9c553c80eefd422faacf6522c69804bf" format="dita" scope="local">事件回呼</a> 。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 處理程式 </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {對象} </span> 具有查看器事件回調的JSON對象，其中屬性名稱是支援的查看器事件的名稱，屬性值是對相應回調的JavaScript函式引用。 </p> <p>請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-event-callbacks.md#concept-9c553c80eefd422faacf6522c69804bf" format="dita" scope="local"> 事件回調 </a> 的子菜單。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 傳回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## 返回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 無。
 

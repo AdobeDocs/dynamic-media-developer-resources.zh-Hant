@@ -1,14 +1,14 @@
 ---
+title: Swatches.textpos
 description: Swatches.textpos
 solution: Experience Manager
-title: Swatches.textpos
-feature: Dynamic Media Classic，檢視器，SDK/API，混合媒體集
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 4b3b91f9-e564-462a-a4f3-494dd5511c26
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 7%
+source-wordcount: '48'
+ht-degree: 8%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 7%
 <table id="table_B3B03B00DCF0466DB332E851F4DDF610"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> 下|上|左|右|無|工具提示</span> </p> </td> 
-   <td> <p> 指定相對於色票縮圖影像繪製標籤的位置。 也就是說，標籤位於相對於色票縮圖的指定位置中。 指定<span class="codeph">工具提示</span>時，不繪製標籤。 </p> </td> 
+   <td> <p> <span class="codeph"> 下|上|左|右|無</span> </p> </td> 
+   <td> <p> 指定標籤相對於色板縮略圖影像的繪製位置。 即，標籤在相對於色板縮略圖的指定位置居中。 當 <span class="codeph"> 提示</span> 指定，未繪製標籤。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

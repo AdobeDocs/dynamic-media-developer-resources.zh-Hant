@@ -1,38 +1,38 @@
 ---
+title: SpinView.transition
 description: SpinView.transition
 solution: Experience Manager
-title: SpinView.transition
-feature: Dynamic Media Classic，檢視器，SDK/API，混合媒體集
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: fcffe282-65a5-4093-8838-71a64085b387
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '102'
 ht-degree: 4%
 
 ---
 
 # SpinView.transition{#spinview-transition}
 
-` [SpinView.|<containerId>_spinView.]transition= *``*[, *`調整`*]`
+` [SpinView.|<containerId>_spinView.]transition= *`時間`*[, *`寬`*]`
 
 <table id="table_5B8094216AE94DC59671E06DB941A366"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 時間</span></span> </p> </td> 
-   <td colname="col2"> <p> 指定單縮放步驟操作的動畫所花費的秒數。 </p> </td> 
+   <td colname="col2"> <p> 指定單個縮放步驟操作的動畫所花費的時間（秒）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> 寬鬆</span></span> </p> </td> 
-   <td colname="col2"> <p> 建立加速或減速的假象，使轉變更自然。 您可以將緩動設為下列其中一個項目： </p> <p> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> 寬</span></span> </p> </td> 
+   <td colname="col2"> <p> 建立加速或減速的假象，使過渡更自然。 可以將緩動設定為以下選項之一： </p> <p> 
      <ul id="ul_7B9694978D96449AB986AED1CF7F649D"> 
       <li id="li_904CEC8AD5834139A5585EE70ACE9C80">0（自動） </li> 
       <li id="li_471D4CD39C10415497B1714B0AD961B9"> 1（線性） </li> 
       <li id="li_7A0F9F1186604E75BAA19626A844236A"> 2（二次） </li> 
       <li id="li_B8D4C40D795642AB835925582B707158"> 3（立方） </li> 
-      <li id="li_2B9F7324BB89455C89C1CAE1BD5BBB65"> 4（四分位） </li> 
+      <li id="li_2B9F7324BB89455C89C1CAE1BD5BBB65"> 4（四分） </li> 
       <li id="li_B94A553B6E844247BE88ECA0A8CEB811"> 5（五次） </li> 
-     </ul> </p> <p>停用彈性縮放時（預設值），「自動」模式一律使用線性轉變。 否則，它適合基於轉變時間的其他緩動功能之一。 即，過渡時間越短，加速或減速效果的加緩函式就越大。 </p> </td> 
+     </ul> </p> <p>禁用彈性縮放時，自動模式始終使用線性過渡（預設）。 否則，它適合基於過渡時間的其它緩動功能之一。 即過渡時間越短，緩動函式用於加速加速或減速效果越大。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

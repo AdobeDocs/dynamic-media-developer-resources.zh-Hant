@@ -1,34 +1,34 @@
 ---
+title: ControlBar.transition
 description: ControlBar.transition
 solution: Experience Manager
-title: ControlBar.transition
-feature: Dynamic Media Classic，檢視器，SDK/API，混合媒體集
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: c8792f02-ae15-4b47-8727-089691d5316a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '109'
 ht-degree: 3%
 
 ---
 
 # ControlBar.transition{#controlbar-transition}
 
-` [ControlBar.|<containerId>_controls.]transition=none|fade[, *``*[, *`delaytohideduration`*]`
+` [ControlBar.|<containerId>_controls.]transition=none|fade[, *`延遲隱藏`*[, *`持續時間`*]`
 
 <table id="table_76B7F064B9CD46BA86931A9C841F777B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 無|淡出</span> </p> </td> 
-   <td colname="col2"> <p> 指定用於顯示或隱藏控制欄及其內容的效果類型。 </p> <p>使用<span class="codeph"> none</span>進行即時顯示和隱藏。 使用<span class="codeph">淡出</span>提供漸進淡入和淡出效果。 </p> <p>Internet Explorer 8不支援淡出。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 無|淡入</span> </p> </td> 
+   <td colname="col2"> <p> 指定用於顯示或隱藏控制欄及其內容的效果類型。 </p> <p>使用 <span class="codeph"> 無</span> 即時展示和隱藏。 使用 <span class="codeph"> 淡</span> 提供漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸。 </p> <p>Internet Explorer 8不支援淡出。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> delayhide</span> </span> </p> </td> 
-   <td colname="col2"> <p>指定控制欄所登錄的上次滑鼠/觸控事件與時間控制欄隱藏之間的秒數。 </p> <p> 如果設為<span class="codeph"> -1</span>，元件永遠不會觸發其自動隱藏效果，且一律會顯示在畫面上。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 延遲隱藏</span> </span> </p> </td> 
+   <td colname="col2"> <p>指定控制欄註冊的上次滑鼠/觸摸事件與控制欄隱藏的時間之間的時間（以秒為單位）。 </p> <p> 如果設定為 <span class="codeph"> -1</span>，元件從不觸發其自動隱藏效果，並始終在螢幕上保持可見。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 持續時間</span> </span> </p> </td> 
-   <td colname="col2"> <p>設定淡入和淡出動畫的持續時間（以秒為單位）。 </p> </td> 
+   <td colname="col2"> <p>設定淡入淡出動畫的持續時間（秒）。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

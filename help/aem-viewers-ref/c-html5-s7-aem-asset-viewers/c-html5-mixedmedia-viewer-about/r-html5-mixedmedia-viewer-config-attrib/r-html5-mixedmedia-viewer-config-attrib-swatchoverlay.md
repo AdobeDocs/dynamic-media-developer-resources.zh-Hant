@@ -1,26 +1,26 @@
 ---
-description: 交換覆蓋
+title: 交疊
+description: 交疊
 solution: Experience Manager
-title: 交換覆蓋
-feature: Dynamic Media Classic，檢視器，SDK/API，混合媒體集
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: cf9ad105-8851-49f5-ba6c-96d588f4fd58
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 7%
+source-wordcount: '59'
+ht-degree: 8%
 
 ---
 
-# 交換覆蓋{#swatchoverlay}
+# 交疊{#swatchoverlay}
 
 `swatchoverlay=0|1`
 
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0-1  </span> </p> </td> 
-   <td colname="col2"> <p>指定啟用觸控的裝置上的檢視器版面。 當參數設為<span class="codeph"> 1 </span>時，檢視器會在案頭主檢視下方顯示色票；在啟用觸控的裝置上，色票會在主檢視上方覆蓋。 </p> <p>當參數設定為<span class="codeph"> 0 </span>時，所有設備類型的主視圖下都會呈現色票。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
+   <td colname="col2"> <p>指定啟用觸摸的設備上的查看器佈局。 當參數設定為 <span class="codeph"> 1 </span>，查看器在案頭主視圖下顯示色板；在啟用觸摸的設備上，色板覆蓋在主視圖上。 </p> <p>當參數設定為 <span class="codeph"> 0 </span>，所有設備類型的主視圖下顯示色板。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

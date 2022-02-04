@@ -1,20 +1,20 @@
 ---
-description: 混合媒體視訊檢視器的設定屬性。
-solution: Experience Manager
 title: VideoPlayer.mutevolume
-feature: Dynamic Media Classic，檢視器，SDK/API，混合媒體集
+description: 混合媒體視頻查看器的配置屬性。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 13398ac5-7137-4345-88b8-5e4df09edb7b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 7%
+source-wordcount: '58'
+ht-degree: 8%
 
 ---
 
 # VideoPlayer.mutevolume{#videoplayer-mutevolume}
 
-混合媒體視訊檢視器的設定屬性。
+混合媒體視頻查看器的配置屬性。
 
 `[VideoPlayer.|<containerId>_videoPlayer.]mutevolume=0|1`
 
@@ -22,7 +22,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 在初始載入時為視訊播放設定靜音模式。 如果設定為<span class="codeph"> 1 </span> ，則卷將靜音；否則，影片會以音效播放。 在某些裝置上，將視訊播放停止於載入時，也允許視訊自動播放。 </p> </td> 
+   <td colname="col2"> <p> 設定初始載入時視頻播放的靜音模式。 如果設定為 <span class="codeph"> 1 </span> 卷被靜音；否則，視頻會播放聲音。 在某些設備上，在載入時停止視頻播放還允許視頻自動播放。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

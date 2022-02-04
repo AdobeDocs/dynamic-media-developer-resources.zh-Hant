@@ -1,10 +1,11 @@
 ---
 title: SmartCropVideoPlayer.initialbitrate
-description: 智慧型裁切視訊檢視器的設定屬性。
+description: Smart Crop Video Viewer的配置屬性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: dfd80e5727a128f272855f1f28e1bc89cb2436bf
+exl-id: 4fc4fefa-b094-4e2e-b8ec-a439f8a1a56c
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 3%
@@ -13,15 +14,15 @@ ht-degree: 3%
 
 # SmartCropVideoPlayer.initialbitrate{#smartcropvideoplayer-initialbitrate}
 
-視訊檢視器的設定屬性。
+視頻查看器的配置屬性。
 
-` [SmartCropVideoPlayer.|<containerId>_videoPlayer.]initialbitrate= *`value`*`
+` [SmartCropVideoPlayer.|<containerId>_videoPlayer.]initialbitrate= *`值`*`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> value </span> </p> </td> 
-   <td colname="col2"> <p>設定用於案頭上視頻初始播放的視頻位元速率（以千比特/秒為單位）或每秒每秒位元速率（以千比特為單位）。 </p> <p>如果此位元速率值在適用性視訊集中不存在，則視訊播放器會啟動位元速率下一個最低的視訊。 </p> <p>若設為 <span class="codeph"> 0 </span>，視訊播放器會從最低的位元速率開始。 僅適用於不支援HTML5 HLS視訊（在Windows 10上為Firefox、Chrome和Internet Explorer 11瀏覽器）的系統，以及當播放模式設為 <span class="codeph"> 自動 </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 值 </span> </p> </td> 
+   <td colname="col2"> <p>設定用於案頭上視頻初始回放的視頻比特率（千位/秒或kbps）。 </p> <p>如果此比特率值在自適應視頻集中不存在，則視頻播放器將啟動具有下一個最低比特率的視頻。 </p> <p>如果設定為 <span class="codeph"> 0 </span>，視頻播放器從最低可能比特率開始。 僅適用於不支援HTML5 HLS視頻（Windows 10上的Firefox、Chrome和Internet Explorer 11瀏覽器）的系統，並且當播放模式設定為 <span class="codeph"> 自動 </span>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

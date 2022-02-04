@@ -1,20 +1,20 @@
 ---
-description: 混合媒體視訊檢視器的設定屬性。
-solution: Experience Manager
 title: VideoPlayer.loop
-feature: Dynamic Media Classic，檢視器，SDK/API，混合媒體集
+description: 混合媒體視頻查看器的配置屬性。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 4945291d-0906-4f2d-b8d9-0bf542dc6804
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '40'
-ht-degree: 12%
+source-wordcount: '31'
+ht-degree: 16%
 
 ---
 
 # VideoPlayer.loop{#videoplayer-loop}
 
-混合媒體視訊檢視器的設定屬性。
+混合媒體視頻查看器的配置屬性。
 
 `[VideoPlayer.|<containerId>_videoPlayer.]loop=0|1`
 
@@ -22,7 +22,7 @@ ht-degree: 12%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p>指出播放完成後媒體是否會再次播放。 </p> </td> 
+   <td colname="col2"> <p>指示在播放完成後媒體是否再次播放。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

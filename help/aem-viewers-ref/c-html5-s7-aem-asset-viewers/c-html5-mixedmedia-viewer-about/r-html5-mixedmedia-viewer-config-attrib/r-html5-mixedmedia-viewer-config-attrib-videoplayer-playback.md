@@ -1,28 +1,28 @@
 ---
-description: 混合媒體視訊檢視器的設定屬性。
-solution: Experience Manager
 title: VideoPlayer.playback
-feature: Dynamic Media Classic，檢視器，SDK/API，混合媒體集
+description: 混合媒體視頻查看器的配置屬性。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: accf2b56-d7bd-483d-9759-fa38246a0a8f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '109'
 ht-degree: 3%
 
 ---
 
 # VideoPlayer.playback{#videoplayer-playback}
 
-混合媒體視訊檢視器的設定屬性。
+混合媒體視頻查看器的配置屬性。
 
 `[VideoPlayer.|<containerId>_videoPlayer.]playback=auto|progressive`
 
 <table id="table_27B4B2DDD44D4D1CB46DD1906A92B2FD"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 自動 — 漸進</span> </p> </td> 
-   <td colname="col2"> <p> 設定檢視器使用的播放類型。 當設定<span class="codeph"> auto</span>時，在大部分的案頭瀏覽器和所有iOS裝置上，檢視器會使用HLS格式的HTML5串流視訊。 這會回復至某些系統（例如舊版Internet Explorer和Android）上的漸進式HTML5播放。 </p> <p>如果指定<span class="codeph">漸進式</span>，則檢視器僅依賴HTML5播放，如同瀏覽器原本支援的一樣，並在所有系統上逐步播放視訊。 </p> <p>如需自動和漸進模式中播放選擇的詳細資訊，請參閱檢視器SDK使用指南。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 自動累進</span> </p> </td> 
+   <td colname="col2"> <p> 設定查看器使用的回放類型。 當 <span class="codeph"> 自動</span> 在大多數案頭瀏覽器和所有iOS設備上，查看器使用HLS格式的HTML5流視頻。 它回歸到某些系統上的漸進式HTML5回放，如舊版Internet Explorer和Android™。 </p> <p>如果 <span class="codeph"> 進步</span> 指定後，查看器僅依賴瀏覽器本機支援的HTML5播放，並在所有系統上逐步播放視頻。 </p> <p>有關自動和漸進模式下播放選擇的詳細資訊，請參閱《Viewer SDK使用手冊》。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

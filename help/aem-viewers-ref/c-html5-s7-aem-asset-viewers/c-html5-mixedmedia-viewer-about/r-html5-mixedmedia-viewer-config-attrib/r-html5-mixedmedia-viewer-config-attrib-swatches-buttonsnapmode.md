@@ -1,14 +1,14 @@
 ---
+title: Swatches.buttonsnapmode
 description: Swatches.buttonsnapmode
 solution: Experience Manager
-title: Swatches.buttonsnapmode
-feature: Dynamic Media Classic，檢視器，SDK/API，混合媒體集
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 3be4a886-cc33-42f8-8f0a-e41d8dd5da33
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 8%
+source-wordcount: '39'
+ht-degree: 10%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 8%
 <table id="table_4322E3ECE9354016B891F5E7A35D6A2A"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> snapin</span> </span> </p> </td> 
-   <td> <p>使按鈕與色票對齊。 </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> 快照</span> </span> </p> </td> 
+   <td> <p>使按鈕與色板對齊。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> <span class="varname"> 快照</span> </span> </p> </td> 
@@ -28,7 +28,7 @@ ht-degree: 8%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> <span class="varname"> 覆蓋</span> </span> </p> </td> 
-   <td> <p>使按鈕在色票的頂端呈現。 </p> </td> 
+   <td> <p>使按鈕在色板的頂部呈現。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

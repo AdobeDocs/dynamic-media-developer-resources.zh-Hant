@@ -1,20 +1,20 @@
 ---
-description: 主視圖區域是自旋影像所佔用的區域。 通常在未指定大小時設定為適合可用的裝置畫面。
+title: 主查看器區域
+description: 主視圖區域是自旋影像所佔據的區域。 它通常設定為在未指定大小時適合可用設備螢幕。
 solution: Experience Manager
-title: 主觀看者區域
-feature: Dynamic Media Classic，檢視器，SDK/API，回轉集
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: 6cd9c375-8890-4033-b187-b95b26dd6009
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '116'
 ht-degree: 2%
 
 ---
 
-# 主觀看者區域{#main-viewer-area}
+# 主查看器區域{#main-viewer-area}
 
-主視圖區域是自旋影像所佔用的區域。 通常在未指定大小時設定為適合可用的裝置畫面。
+主視圖區域是自旋影像所佔據的區域。 它通常設定為在未指定大小時適合可用設備螢幕。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -36,20 +36,20 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>檢視器的寬度。 </p> </td> 
+   <td colname="col2"> <p>查看器的寬度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>檢視器的高度。 </p> </td> 
+   <td colname="col2"> <p>查看器的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景顏色  </span> </p> </td> 
-   <td colname="col2"> <p> 以十六進位格式表示的背景顏色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
+   <td colname="col2"> <p> 十六進位格式的背景色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-範例：若要設定具有白色背景的檢視器(`#FFFFFF`)，並將其大小設為512 x 288像素。
+示例 — 設定具有白色背景的查看器( `#FFFFFF`)，使其尺寸為512 x 288像素。
 
 ```
 .s7spinviewer { 

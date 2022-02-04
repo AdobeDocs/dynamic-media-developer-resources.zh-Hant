@@ -1,20 +1,20 @@
 ---
-description: 視訊檢視器的設定屬性。
-solution: Experience Manager
 title: VideoPlayer.loop
-feature: Dynamic Media Classic，檢視器， SDK/API，影片
+description: 視頻查看器的配置屬性。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 92d22f5d-0ba8-4ea2-bba6-2275efdd1fe0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '35'
-ht-degree: 14%
+source-wordcount: '28'
+ht-degree: 17%
 
 ---
 
 # VideoPlayer.loop{#videoplayer-loop}
 
-視訊檢視器的設定屬性。
+視頻查看器的配置屬性。
 
 `[VideoPlayer.|<containerId>_videoPlayer.]loop=0|1`
 
@@ -22,7 +22,7 @@ ht-degree: 14%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 指出播放完成後視訊是否應再次播放。 </p> </td> 
+   <td colname="col2"> <p> 指示在播放完成後視頻是否應再次播放。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,20 +1,20 @@
 ---
-description: 視訊檢視器的設定屬性。
-solution: Experience Manager
 title: VideoPlayer.ssl
+description: 視頻查看器的配置屬性。
+solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: f7d832f3-e9b1-4161-a572-851e538bb245
-source-git-commit: c58199c5884c368e92e50fe0ef9d6ad523e36266
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '121'
 ht-degree: 3%
 
 ---
 
 # VideoPlayer.ssl{#videoplayer-ssl}
 
-視訊檢視器的設定屬性。
+視頻查看器的配置屬性。
 
 <!-- >[!NOTE]
 >
@@ -25,8 +25,8 @@ ht-degree: 3%
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 自動開啟</span> </p> </td> 
-   <td colname="col2"> <p> 控制視訊是透過安全SSL連線(HTTPS)或不安全連線(HTTP)傳送。 </p> <p>設為<span class="codeph"> auto</span>時，視訊傳送通訊協定繼承自內嵌網頁的通訊協定。 如果網頁透過HTTPS載入，視訊也會透過HTTPS傳送，反之亦然。 如果網頁位於HTTP，則會透過HTTP傳送視訊。 </p> <p>當在</span>上設為<span class="codeph">時，視訊傳送一律會透過安全連線進行，而不考慮網頁通訊協定。 </span></p> <p>僅影響已發佈的視訊傳送，且會在「製作」模式中忽略視訊預覽。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 自動|開啟</span> </p> </td> 
+   <td colname="col2"> <p> 控制視頻是通過安全SSL連接(HTTPS)還是不安全連接(HTTP)傳送的。 </p> <p>設定為時 <span class="codeph"> 自動</span> 視頻傳送協定從嵌入網頁的協定中繼承。 如果網頁是通過HTTPS載入的，則視頻也是通過HTTPS傳送的，反之也是通過HTTPS傳送的。 如果網頁在HTTP上，則通過HTTP傳送視頻。 </p> <p>設定為時 <span class="codeph"> 上</span>，視頻傳輸始終通過安全連接進行，而不考慮網頁協定。 </p> <p>僅影響已發佈的視頻傳送，在「作者」模式下，將忽略視頻預覽。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -47,4 +47,4 @@ ssl=on
 
 <!--<a id="section_5943AC73316749C68761FF7F74DA7547"></a>-->
 
-另請參閱[安全視訊傳送](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-securevideodelivery.md#concept-cf9d1346a07d4429b0c6c32c9cac50ff)。
+另請參閱 [安全視頻傳送](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-securevideodelivery.md#concept-cf9d1346a07d4429b0c6c32c9cac50ff)。

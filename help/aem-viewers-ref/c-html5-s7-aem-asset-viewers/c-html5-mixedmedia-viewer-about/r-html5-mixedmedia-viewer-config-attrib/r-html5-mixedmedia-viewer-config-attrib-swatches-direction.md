@@ -1,14 +1,14 @@
 ---
+title: Swatches.direction
 description: Swatches.direction
 solution: Experience Manager
-title: Swatches.direction
-feature: Dynamic Media Classic，檢視器，SDK/API，混合媒體集
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: bd01ff03-fea7-42ad-aa99-72273f55bda0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 6%
+source-wordcount: '57'
+ht-degree: 7%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 6%
 <table id="table_B4B930A32C0742F4932BF071B9EEA9F4"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> auto|left|right  </span> </p> </td> 
-   <td> <p> 指定色票在檢視中的填入方式。 </p> <p> <span class="codeph"> 左 </span> 右設定填充順序； </p> <p> <span class="codeph"> 右 </span> 側反轉順序，使視圖從右到左和從上到下填充。 </p> <p>設定<span class="codeph"> auto </span>時，當區域設定為<span class="codeph"> ja </span>時，元件將在</span>右側應用<span class="codeph">模式；否則，會使用left。 </span></p> </td> 
+   <td> <p> <span class="codeph"> 自動|左|右 </span> </p> </td> 
+   <td> <p> 指定視圖中色板的填充方式。 </p> <p> <span class="codeph"> 左 </span> 設定從左到右填充順序； </p> <p> <span class="codeph"> 右 </span> 反轉順序，以便視圖從右到左和從上到下填充。 </p> <p>當 <span class="codeph"> 自動 </span> 已設定，元件應用 <span class="codeph"> 右 </span> 模式區域設定為 <span class="codeph"> 子 </span>;否則，使用left。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

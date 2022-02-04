@@ -1,28 +1,28 @@
 ---
-description: 指定元件用於從影像伺服器載入影像的影像格式。
-solution: Experience Manager
 title: FlyoutZoomView.fmt
-feature: Dynamic Media Classic，檢視器，SDK/API，混合媒體集
+description: 指定元件用於從Image Server載入影像的影像格式。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 6e3bf609-eae7-4db9-b922-cba3a9f7634b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '85'
 ht-degree: 4%
 
 ---
 
 # FlyoutZoomView.fmt{#flyoutzoomview-fmt}
 
-指定元件用於從影像伺服器載入影像的影像格式。
+指定元件用於從Image Server載入影像的影像格式。
 
 `[FlyoutZoomView.|<containerId>_flyout.]fmt=jpg|jpeg|png|png-alpha|gif|gif-alpha`
 
 <table id="table_E314540D347D47699C04EB80D20C0721"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif|alpha</span> </p> </td> 
-   <td colname="col2"> <p> 如果指定的格式結尾為<span class="codeph"> -alpha</span>，則元件會將影像呈現為透明內容。 對於所有其他影像格式，元件將影像視為不透明。 </p> <p>請注意，元件預設為白色背景。 因此，要使其完全透明，請將<span class="codeph"> background-color</span> CSS屬性設定為<span class="codeph"> transparent</span>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
+   <td colname="col2"> <p> 如果指定的格式以 <span class="codeph"> -α</span>，元件將影像渲染為透明內容。 對於所有其它影像格式，該元件將影像視為不透明。 </p> <p>預設情況下，該元件具有白色背景。 因此，要使其透明，請設定 <span class="codeph"> 背景色</span> CSS屬性到 <span class="codeph"> 透明</span>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

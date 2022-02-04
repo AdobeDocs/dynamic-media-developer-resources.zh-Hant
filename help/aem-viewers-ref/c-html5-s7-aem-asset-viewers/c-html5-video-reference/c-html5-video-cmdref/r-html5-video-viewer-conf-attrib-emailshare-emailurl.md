@@ -1,28 +1,28 @@
 ---
-description: 視訊檢視器的設定屬性。
-solution: Experience Manager
 title: EmailShare.emailurl
-feature: Dynamic Media Classic，檢視器， SDK/API，影片
+description: 視頻查看器的配置屬性。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 6126d7de-5d5f-4a8a-898e-8a9bb5b37627
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '36'
-ht-degree: 11%
+source-wordcount: '29'
+ht-degree: 13%
 
 ---
 
 # EmailShare.emailurl{#emailshare-emailurl}
 
-視訊檢視器的設定屬性。
+視頻查看器的配置屬性。
 
-` [EmailShare.|<containerId>_emailShare.]emailurl= *`emailurl`*`
+` [EmailShare.|<containerId>_emailShare.]emailurl= *`郵件url`*`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> emailurl</span></span> </p> </td> 
-   <td colname="col2"> <p> 指定Dynamic Media Classic OnDemand電子郵件服務的基礎URL。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> 郵件url</span></span> </p> </td> 
+   <td colname="col2"> <p> 指定Dynamic Media ClassicOnDemand電子郵件服務的基本URL。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

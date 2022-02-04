@@ -1,14 +1,14 @@
 ---
+title: SpinView.singleclick
 description: SpinView.singleclick
 solution: Experience Manager
-title: SpinView.singleclick
-feature: Dynamic Media Classic，檢視器，SDK/API，混合媒體集
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 18c5c21d-af31-4b1c-ab8b-c04d08650123
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 3%
+source-wordcount: '92'
+ht-degree: 4%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 3%
 <table id="table_0824E332DF1340A2ABC40A3EB428F2D0"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 無|縮放|重設|縮放重設  </span> </p> </td> 
-   <td colname="col2"> <p> 設定單按/點選的對應以縮放動作。設為<span class="codeph"> none </span>會停用單按/點選縮放。 如果設為<span class="codeph">縮放</span>按一下影像會縮放一個縮放步驟；按住CTRL鍵並按一下可縮小一個縮放步驟。 將設定為<span class="codeph">重設</span>會使影像上只需按一下，即可將縮放重設為初始自轉層級。 對於<span class="codeph"> zoomReset </span>，如果當前縮放系數達到或超過指定限制，則應用重置，否則應用縮放。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 無|縮放|重置|縮放重置 </span> </p> </td> 
+   <td colname="col2"> <p> 配置按一下/點擊的映射以縮放操作。設定為 <span class="codeph"> 無 </span> 禁用按一下/點擊縮放。 如果設定為 <span class="codeph"> 縮放 </span> 按一下影像可縮放一個縮放步驟；CTRL+按一下可縮小一個縮放步驟。 設定為 <span class="codeph"> 重置 </span> 使按一下影像將縮放重置為初始旋轉級別。 對於 <span class="codeph"> 縮放重置 </span>，如果當前縮放因子達到或超過指定限制，則應用重置，否則應用縮放。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -31,7 +31,7 @@ ht-degree: 3%
 
 ## 預設 {#section-bd374ffc5182484faa77a7a3c8fa70f2}
 
-`zoomReset` 在台式電腦上； `none` 在觸控裝置上。
+`zoomReset` 在台式電腦上； `none` 觸摸設備。
 
 ## 範例 {#section-bd6c4249bccf44aab13fee8552f5a8b3}
 
