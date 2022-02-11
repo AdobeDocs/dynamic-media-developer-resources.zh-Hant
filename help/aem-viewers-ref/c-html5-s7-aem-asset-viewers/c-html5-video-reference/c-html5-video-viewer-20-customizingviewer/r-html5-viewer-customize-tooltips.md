@@ -1,26 +1,26 @@
 ---
-description: 在案頭系統上，某些用戶介面元素（如按鈕）具有滑鼠懸停時顯示的工具提示。
-solution: Experience Manager
 title: 工具提示
-feature: Dynamic Media Classic，檢視器， SDK/API，影片
+description: 在案頭系統上，一些用戶介面元素（如按鈕）具有滑鼠懸停時顯示的工具提示。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 706b27a1-99e8-4596-8bd1-af4455501e29
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '137'
 ht-degree: 6%
 
 ---
 
 # 工具提示{#tooltips}
 
-在案頭系統上，某些用戶介面元素（如按鈕）具有滑鼠懸停時顯示的工具提示。
+在案頭系統上，一些用戶介面元素（如按鈕）具有滑鼠懸停時顯示的工具提示。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **主查看器區域的CSS屬性**
 
-工具提示的外觀由下列CSS類選擇器控制：
+工具提示的外觀由以下CSS類選擇器控制：
 
 ```
 .s7tooltip
@@ -35,15 +35,15 @@ ht-degree: 6%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 邊框半徑  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 邊界半徑 </span> </p> </td> 
    <td colname="col2"> <p> 背景邊框半徑。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 邊框顏色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 邊框顏色 </span> </p> </td> 
    <td colname="col2"> <p> 背景邊框顏色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景顏色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
    <td colname="col2"> <p> 背景顏色. </p> </td> 
   </tr> 
   <tr> 
@@ -51,11 +51,11 @@ ht-degree: 6%
    <td colname="col2"> <p>文字色彩. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型系列  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字型系列 </span> </p> </td> 
    <td colname="col2"> <p>文字字型名稱. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型大小  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字型大小 </span> </p> </td> 
    <td colname="col2"> <p>文本字型大小。 </p> </td> 
   </tr> 
  </tbody> 
@@ -63,9 +63,9 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->如果從內嵌網頁中自訂工具提示樣式，所有屬性都必須包含`!IMPORTANT`規則。 如果檢視器的CSS檔案中已自訂工具提示，則不需要此功能。
+>如果工具提示樣式是從嵌入網頁中自定義的，則所有屬性必須包含 `!IMPORTANT` 規則。 如果在查看器的CSS檔案中自定義了工具提示，則不需要此規則。
 
-示例 — 要設定工具提示，其灰邊框的角半徑為3px，黑色背景和白文字以Arial寫，大小為11像素：
+示例 — 要設定具有三像素角半徑、黑色背景和用Arial®（11像素大小）編寫的白文本的灰色邊框的工具提示：
 
 ```
 .s7tooltip { 

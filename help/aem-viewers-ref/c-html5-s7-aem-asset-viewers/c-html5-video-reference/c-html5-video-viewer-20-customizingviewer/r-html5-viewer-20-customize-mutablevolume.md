@@ -1,26 +1,26 @@
 ---
-description: 可變音量控制項最初顯示為按鈕，允許用戶將視頻播放器聲音靜音或取消靜音。
+title: 可變卷
+description: 可變音量控制最初顯示為一個按鈕，允許用戶將視頻播放器聲音靜音或取消靜音。
 solution: Experience Manager
-title: 可變音量
-feature: Dynamic Media Classic，檢視器， SDK/API，影片
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: bd86af60-a9a0-4f2e-9d36-f7ee22bd8c8e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '526'
 ht-degree: 2%
 
 ---
 
-# 可變音量{#mutable-volume}
+# 可變卷{#mutable-volume}
 
-可變音量控制項最初顯示為按鈕，允許用戶將視頻播放器聲音靜音或取消靜音。
+可變音量控制最初顯示為一個按鈕，允許用戶將視頻播放器聲音靜音或取消靜音。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-當用戶翻過按鈕時，會出現一個滑桿，允許用戶設定音量。 可變體積塊控制項可由CSS相對於包含它的控制欄進行大小、外觀和定位。
+當用戶滾過按鈕時，會出現一個滑塊，允許用戶設定音量。 可變音量控制項可以通過CSS相對於包含它的控制欄的大小、外觀和位置。
 
-可變卷區域的外觀由以下CSS類選擇器控制：
+可變體積塊區域的外觀由以下CSS類選擇器控制：
 
 ```
 .s7videoviewer .s7mutablevolume
@@ -32,28 +32,28 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 頂部 </span> </p> </td> 
-   <td colname="col2"> <p> 從上邊框的位置，包括邊框間距。 </p> </td> 
+   <td colname="col2"> <p> 從上邊框定位，包括填充。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 右側 </span> </p> </td> 
-   <td colname="col2"> <p> 從右邊框定位，包括邊框間距。 </p> </td> 
+   <td colname="col2"> <p> 從右邊框定位，包括填充。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> 可變音量控制的寬度。 </p> </td> 
+   <td colname="col2"> <p> 可變音量控制項的寬度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>可變體積控制項的高度。 </p> </td> 
+   <td colname="col2"> <p>可變音量控制項的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景顏色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
    <td colname="col2"> <p> 可變音量控制項的顏色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-靜音/取消靜音按鈕外觀由下列CSS類別選取器控制：
+靜音/取消靜音按鈕外觀由以下CSS類選擇器控制：
 
 ```
 .s7videoviewer .s7mutablevolume .s7mutebutton
@@ -66,46 +66,46 @@ ht-degree: 2%
 <table id="table_46903DCACF314426B67783167ADF7715"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景 — 影像  </span> </p> </td> 
-   <td colname="col2"> <p> 針對指定按鈕狀態顯示的影像。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景影像 </span> </p> </td> 
+   <td colname="col2"> <p> 為給定按鈕狀態顯示的影像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS精靈，則位於圖稿精靈內。 </p> <p>請參閱<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprites </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS浮雕，則在圖稿浮雕內定位。 </p> <p>請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS繁體 </a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按鈕同時支援`state`和`selected`屬性選擇器，它們可用於將不同的外觀應用於不同的按鈕狀態。 具體來說，`selected='true'`對應於「靜音」狀態，而`selected='false'`對應於「未靜音」狀態。
+>此按鈕支援 `state` 和 `selected` 屬性選擇器，可用於將不同的外觀應用於不同的按鈕狀態。 特別是， `selected='true'` 對應於「靜音」狀態 `selected='false'` 對應於「未靜音」狀態。
 
-垂直卷條區域由以下CSS類選擇器控制：
+垂直卷欄區域由以下CSS類選擇器控制：
 
 ```
 .s7videoviewer .s7mutablevolume .s7verticalvolume
 ```
 
-**垂直卷條區域的CSS屬性**
+**垂直體積塊區域的CSS屬性**
 
 <table id="table_966826FB81114362A8D81D1EED38D512"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景顏色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
    <td colname="col2"> <p> 垂直體積塊的背景顏色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
    <td colname="col2"> <p> 垂直體積塊的寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
-   <td colname="col2"> <p> 垂直體積的高度。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
+   <td colname="col2"> <p> 垂直體積塊的高度。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-垂直卷控制項內的軌道由以下CSS類選擇器控制：
+垂直卷控制項內的磁軌由以下CSS類選擇器控制：
 
 ```
 .s7videoviewer .s7mutablevolume .s7verticalvolume .s7track 
@@ -117,21 +117,21 @@ ht-degree: 2%
 <table id="table_21E9AD3FBC8C4437BA02E5CD1BF7E831"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景顏色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
    <td colname="col2"> <p> 垂直音量控制項的背景顏色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度  </span> </p> </td> 
-   <td colname="col2"> <p>垂直音量控制的寬度。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
+   <td colname="col2"> <p>垂直音量控制項的寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
-   <td colname="col2"> <p>垂直音量控制的高度。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
+   <td colname="col2"> <p>垂直體積塊控制項的高度。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-垂直音量旋鈕由以下CSS類選擇器控制：
+垂直卷旋鈕由以下CSS類選擇器控制：
 
 ```
 .s7videoviewer .s7mutablevolume .s7verticalvolume .s7knob
@@ -142,19 +142,19 @@ ht-degree: 2%
 <table id="table_709D64AF815341A5B50ED72CCB350F2E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景 — 影像  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景影像 </span> </p> </td> 
    <td colname="col2"> <p> 垂直音量控制旋鈕圖稿。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS精靈，則位於圖稿精靈內。 </p> <p>請參閱<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprites </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS浮雕，則在圖稿浮雕內定位。 </p> <p>請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS繁體 </a>。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
    <td colname="col2"> <p>垂直音量控制旋鈕的寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
    <td colname="col2"> <p>垂直音量控制旋鈕的高度。 </p> </td> 
   </tr> 
   <tr> 
@@ -164,11 +164,11 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-按鈕工具提示可以本地化。 如需詳細資訊，請參閱[使用者介面元素本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 。
+按鈕工具提示可以本地化。 請參閱 [用戶介面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 的子菜單。
 
 ## 範例 {#section-e8caea0a303c425a8a637c2a47c06355}
 
-設定32 x 32像素的靜音按鈕，從頂部放置6像素，從控制條的右邊設定38像素。 選取或未選取時，針對四個不同按鈕狀態中的每一個顯示不同的影像。
+設定一個靜音按鈕，該按鈕為32 x 32像素，從頂部放置6像素，從控制欄的右邊緣設定38像素。 選擇或不選擇時，為四個不同按鈕狀態中的每個狀態顯示不同的影像。
 
 ```
 .s7videoviewer .s7mutablevolume { 
@@ -231,7 +231,7 @@ background-image:url(images/volumeKnob.png);
 }
 ```
 
-以下範例說明如何自訂視訊播放器，以便在播放期間停用音效。 將下列程式碼新增至檢視器的內嵌程式碼：
+以下是如何自定義視頻播放器的示例，以便在播放過程中禁用聲音。 將以下代碼添加到查看器的嵌入代碼：
 
 ```
                 "handlers":{ 
@@ -242,4 +242,4 @@ background-image:url(images/volumeKnob.png);
                 }
 ```
 
-在上面的代碼示例中，在`mutableVolume`元件上將卷級別設定為`0`。 然後，會停用相同的元件，使一般使用者無法使用。
+在上面的代碼示例中，卷級別設定為 `0` 的 `mutableVolume` 元件。 然後，同一元件被停用，因此最終用戶不能使用它。

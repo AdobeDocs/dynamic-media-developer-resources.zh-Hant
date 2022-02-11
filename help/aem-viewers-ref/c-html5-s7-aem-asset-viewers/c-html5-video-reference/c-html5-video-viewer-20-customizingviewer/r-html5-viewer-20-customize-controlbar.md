@@ -1,24 +1,24 @@
 ---
-description: 控制欄是矩形區域，其中包含並位於視訊檢視器可用的所有UI控制項，例如播放/暫停按鈕、音量控制項等。
-solution: Experience Manager
 title: 控制欄
-feature: Dynamic Media Classic，檢視器， SDK/API，影片
+description: 控制欄是矩形區域，包含並位於視頻查看器可用的所有UI控制項（如播放/暫停按鈕和音量控制項）的後面。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 2239307a-4a05-4392-b35c-a64ea6c938ad
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '166'
 ht-degree: 2%
 
 ---
 
 # 控制欄{#control-bar}
 
-控制欄是矩形區域，其中包含並位於視訊檢視器可用的所有UI控制項，例如播放/暫停按鈕、音量控制項等。
+控制欄是矩形區域，包含並位於視頻查看器可用的所有UI控制項（如播放/暫停按鈕和音量控制項）的後面。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-控制列一律會取用整個可用的檢視器寬度。 您可以透過CSS，相對於視訊檢視器容器來變更其顏色、高度和垂直位置。
+控制欄始終取整個可用查看器寬度。 可以通過CSS相對於視頻查看器容器更改其顏色、高度和垂直位置。
 
 以下CSS類選擇器控制控制欄的外觀：
 
@@ -32,18 +32,18 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 頂部 </span> </p> </td> 
-   <td colname="col2"> <p>從上邊框的位置，包括邊框間距。 </p> </td> 
+   <td colname="col2"> <p>從上邊框定位，包括填充。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 底部 </span> </p> </td> 
-   <td colname="col2"> <p> 從底部邊框的位置，包括邊框間距。 </p> </td> 
+   <td colname="col2"> <p> 從底邊框定位，包括填充。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>控制欄的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景顏色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
    <td colname="col2"> <p>控制欄的背景顏色。 </p> </td> 
   </tr> 
  </tbody> 
@@ -51,7 +51,7 @@ ht-degree: 2%
 
 ## 範例 {#section-e8caea0a303c425a8a637c2a47c06355}
 
-設定視訊檢視器，其灰色控制列高度為30像素，並位於視訊檢視器容器的頂端。
+設定一個帶有30像素高且位於視頻查看器容器頂部的灰色控制欄的視頻查看器。
 
 ```
 .s7videoviewer .s7controlbar {  
