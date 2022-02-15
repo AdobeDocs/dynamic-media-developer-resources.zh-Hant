@@ -1,34 +1,34 @@
 ---
-description: 基本縮放、eCatalog、eCatalog搜尋、彈出、內嵌縮放、混合媒體、回轉、視訊、縮放、維度(3D)、轉盤、互動式影像、互動式視訊和Video360檢視器介面中公開的所有功能都可透過鍵盤存取。
+title: 鍵盤輔助功能和導航
+description: 基本縮放、eCatalog、eCatalog Search、Flyout、Inline Zoom、混合媒體、旋轉、視頻、縮放、維(3D)、旋轉軸、互動式影像、互動式視頻和Video360查看器介面中顯示的所有功能均可使用鍵盤。
 solution: Experience Manager
-title: 鍵盤協助工具和導覽
-feature: Dynamic Media Classic，檢視器，SDK/API
+feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 0bdf172a-0bde-42d2-900f-f207538fe588
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '578'
 ht-degree: 0%
 
 ---
 
-# 鍵盤協助工具和導覽{#keyboard-accessibility-and-navigation}
+# 鍵盤輔助功能和導航{#keyboard-accessibility-and-navigation}
 
-基本縮放、eCatalog、eCatalog搜尋、彈出、內嵌縮放、混合媒體、回轉、視訊、縮放、輪播、維度(3D)、互動式影像、互動式視訊和Video360檢視器介面中公開的所有功能都可透過鍵盤存取。
+基本縮放、eCatalog、eCatalog Search、Flyout、Inline Zoom、混合媒體、旋轉、視頻、縮放、旋轉、尺寸(3D)、互動式影像、互動式視頻和Video360查看器介面中顯示的所有功能均可使用鍵盤。
 
 <!-- Updated June 1, 2020 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
 
-## 鍵盤協助工具和導覽 {#topic-f5650e9493404e55a3627c8d1366b861}
+## 鍵盤輔助功能和導航 {#topic-f5650e9493404e55a3627c8d1366b861}
 
-基本縮放、eCatalog、eCatalog搜尋、彈出、內嵌縮放、混合媒體、回轉、視訊、縮放、輪播、維度(3D)、互動式影像、互動式視訊和Video360檢視器介面中公開的所有功能都可透過鍵盤存取。
+基本縮放、eCatalog、eCatalog Search、Flyout、Inline Zoom、混合媒體、旋轉、視頻、縮放、旋轉、尺寸(3D)、互動式影像、互動式視頻和Video360查看器介面中顯示的所有功能均可使用鍵盤。
 
-最終用戶可使用&#x200B;**[!UICONTROL Tab]**&#x200B;和&#x200B;**[!UICONTROL Shift+Tab]**&#x200B;鍵擊在查看器用戶介面元素之間導航。 使用&#x200B;**[!UICONTROL Tab]**&#x200B;將輸入焦點按Tab鍵順序提前到下一個用戶介面元素；使用&#x200B;**[!UICONTROL Shift+Tab]**&#x200B;將輸入焦點調回上一個使用者介面元素。 焦點周遊會遵循畫面上的自然使用者介面元素位置，並依從左至右、由上至下的順序移動。
+最終用戶可以使用 **[!UICONTROL 頁籤]** 和 **[!UICONTROL Shift+Tab鍵]** 擊鍵。 使用 **[!UICONTROL 頁籤]** 將輸入焦點提前到下一個用戶介面元素的Tabbing順序；使用 **[!UICONTROL Shift+Tab鍵]** 將輸入焦點返回到上一個用戶介面元素。 焦點遍歷遵循螢幕上的自然用戶介面元素位置，然後按從左到右、從上到下的順序移動。
 
-根據作業系統和Web瀏覽器設定，具有輸入焦點的用戶介面元素接收視覺焦點指示。 例如，視覺指示器可以是圍繞用戶介面元素呈現的細邊框。
+根據作業系統和web瀏覽器設定，具有輸入焦點的用戶介面元素接收可視焦點指示。 例如，可視指示器可以是圍繞用戶介面元素呈現的細邊框。
 
-您可以在檢視器CSS中停用或自訂此類焦點醒目提示。 在此幫助系統的目錄中，在特定的查看器名稱（例如，基本縮放或交互視頻）下，按一下「自定義&#x200B;*查看器***&#x200B;名稱> **焦點突出顯示**」。**
+可以在查看器CSS中禁用或自定義此類焦點突出顯示。 在此幫助系統的目錄中，在特定查看器名稱下（例如，「基本縮放」或「互動式視頻」），按一下 **自定義 *查看器名稱*** >**&#x200B;聚焦突出顯示&#x200B;**。
 
-多數情況下，由單個查看器用戶介面元素支援的擊鍵是顯而易見的，並且易於發現。
+單個查看器用戶介面元素支援的擊鍵在大多數情況下是顯而易見的，並且易於發現。
 
 <table id="table_8C49100412224324BF1DBF7FDFDCCBF8"> 
  <thead> 
@@ -39,96 +39,96 @@ ht-degree: 0%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>啟動按鈕元件 </p> </td> 
-   <td colname="col2"> <p>空格或Enter鍵。 </p> </td> 
+   <td colname="col1"> <p>激活按鈕元件 </p> </td> 
+   <td colname="col2"> <p>空格鍵或Enter鍵。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>放大或縮小 </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> + </span> 或 <span class="uicontrol"> -  </span>。 </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol"> + </span> 或 <span class="uicontrol"> - </span>的下界。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>縮放重設 </p> </td> 
+   <td colname="col1"> <p>縮放重置 </p> </td> 
    <td colname="col2"> <p>Esc鍵。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>平移 </p> </td> 
-   <td colname="col2"> <p>向上、向下、向左或向右鍵。 </p> </td> 
+   <td colname="col2"> <p>上、下、左或右箭頭鍵。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>旋轉360度的影像 </p> </td> 
-   <td colname="col2"> <p>影像處於重設狀態時，請使用方向鍵。 </p> <p>使用多維回轉集時，請使用向上或向下鍵。 </p> </td> 
+   <td colname="col1"> <p>旋轉360度影像 </p> </td> 
+   <td colname="col2"> <p>當影像處於重置狀態時使用箭頭鍵。 </p> <p>使用多維旋轉集時使用上箭頭或下箭頭鍵。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>產品色票選擇 </p> </td> 
-   <td colname="col2"> <p>上、下、左、右箭頭鍵；首頁或結束金鑰。 </p> </td> 
+   <td colname="col1"> <p>產品色板選擇 </p> </td> 
+   <td colname="col2"> <p>上、下、左或右箭頭鍵；Home或End鍵。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>產品色票啟動 </p> </td> 
-   <td colname="col2"> <p>空格或Enter鍵。 </p> </td> 
+   <td colname="col1"> <p>產品色板激活 </p> </td> 
+   <td colname="col2"> <p>空格鍵或Enter鍵。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>視訊和互動式視訊，逐步倒帶 </p> </td> 
-   <td colname="col2"> <p>向左或向上鍵。 </p> </td> 
+   <td colname="col1"> <p>視頻和互動式視頻，漸進倒帶 </p> </td> 
+   <td colname="col2"> <p>左箭頭鍵或上箭頭鍵。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>視訊和互動式視訊，快進 </p> </td> 
+   <td colname="col1"> <p>視頻和互動式視頻，快進 </p> </td> 
    <td colname="col2"> <p>向右或向下箭頭鍵。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>視訊和互動式視訊，前往開始或結束 </p> </td> 
-   <td colname="col2"> <p>Home或End金鑰。 </p> </td> 
+   <td colname="col1"> <p>視頻和互動式視頻，轉到開頭或結尾 </p> </td> 
+   <td colname="col2"> <p>Home或End鍵。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>視訊和互動式視訊，當焦點在滑桿上時可控制音量等級 </p> </td> 
-   <td colname="col2"> <p>上、下、左、右箭頭鍵；首頁或結束金鑰。 </p> </td> 
+   <td colname="col1"> <p>視頻和互動式視頻，當焦點位於滑塊上時控制音量 </p> </td> 
+   <td colname="col2"> <p>上、下、左或右箭頭鍵；Home或End鍵。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>視訊和互動式視訊，可變音量 </p> </td> 
-   <td colname="col2"> <p>當焦點位於其滑塊部分時，用於控制音量級別的箭頭、首頁和結束鍵。 </p> </td> 
+   <td colname="col1"> <p>視頻和互動式視頻，可變卷 </p> </td> 
+   <td colname="col2"> <p>箭頭、主鍵和結束鍵，以在焦點位於滑塊部分時控制音量。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>視訊，當顯示強制回應對話方塊時，焦點周遊會限制為僅限對話方塊控制項。 </p> </td> 
-   <td colname="col2"> <p>按Esc鍵關閉對話框。 </p> </td> 
+   <td colname="col1"> <p>視頻，當顯示模式對話框時，焦點遍歷將僅限於對話框控制項。 </p> </td> 
+   <td colname="col2"> <p>Esc鍵關閉對話框。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>輪播，在主檢視中變更橫幅影像 </p> </td> 
-   <td colname="col2"> <p>向左或向右鍵。 </p> </td> 
+   <td colname="col1"> <p>旋轉傳送，在主視圖中更改標題影像 </p> </td> 
+   <td colname="col2"> <p>左或右箭頭鍵。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>輪播、熱點選取和熱點啟動 </p> </td> 
-   <td colname="col2"> <p>熱點選擇：上、下、左或右箭頭鍵 </p> <p>熱點激活：空格或Enter鍵。 </p> </td> 
+   <td colname="col1"> <p>旋轉木馬、熱點選擇和熱點激活 </p> </td> 
+   <td colname="col2"> <p>熱點選擇：上、下、左或右箭頭鍵 </p> <p>熱點激活：空格鍵或Enter鍵。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>eCatalog，在主檢視中變更頁面影像 </p> </td> 
-   <td colname="col2"> <p> 向左或向右方向鍵。 </p> </td> 
+   <td colname="col1"> <p>編錄，更改主視圖中的頁面影像 </p> </td> 
+   <td colname="col2"> <p> 左箭頭鍵或右箭頭鍵。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>eCatalog，縮圖選取 </p> </td> 
-   <td colname="col2"> <p>方向鍵；Home和End密鑰。 </p> </td> 
+   <td colname="col1"> <p>eCatalog，縮略圖選擇 </p> </td> 
+   <td colname="col2"> <p>箭頭鍵；Home和End鍵。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>eCatalog，色票啟動 </p> </td> 
-   <td colname="col2"> <p>空格或Enter鍵。 </p> </td> 
+   <td colname="col1"> <p>eCatalog，色板激活 </p> </td> 
+   <td colname="col2"> <p>空格鍵或Enter鍵。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>eCatalog，熱點選擇 </p> </td> 
-   <td colname="col2"> <p>方向鍵。 </p> </td> 
+   <td colname="col2"> <p>箭頭鍵。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>eCatalog，啟動 </p> </td> 
-   <td colname="col2"> <p>空格或輸入鍵。 </p> </td> 
+   <td colname="col1"> <p>eCatalog，激活 </p> </td> 
+   <td colname="col2"> <p>空格鍵或Enter鍵。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>eCatalog，啟用下拉式元件 </p> </td> 
-   <td colname="col2"> <p> 向下鍵；空格或Enter鍵。 </p> </td> 
+   <td colname="col1"> <p>eCatalog，激活下拉元件 </p> </td> 
+   <td colname="col2"> <p> 向下箭頭鍵；空格鍵或Enter鍵。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>eCatalog，何時焦點置於下拉式清單中 </p> </td> 
-   <td colname="col2"> <p>在啟動面板之前，使用方向鍵選取面板中的特定項目。 </p> </td> 
+   <td colname="col1"> <p>eCatalog，當焦點在「拖放」面板中時 </p> </td> 
+   <td colname="col2"> <p>在激活面板之前，使用箭頭鍵在面板中選擇特定項目。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>eCatalog中，當顯示強制回應對話方塊時，焦點周遊會限制為僅限對話方塊控制項。 </p> </td> 
-   <td colname="col2"> <p>按Esc鍵關閉對話框。 </p> </td> 
+   <td colname="col1"> <p>「目錄」(Catalog)，當顯示模式對話框時，焦點遍歷將僅限於對話框控制項。 </p> </td> 
+   <td colname="col2"> <p>Esc鍵關閉對話框。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
