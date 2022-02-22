@@ -1,28 +1,31 @@
 ---
-description: 您必須先安裝影像伺服器，才能使用它。
-solution: Experience Manager
 title: 安裝
+description: 正在安裝映像服務。
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f5242806-788f-4d91-823f-4eab8fd2666f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 2%
+source-wordcount: '97'
+ht-degree: 4%
 
 ---
 
-# 安裝{#installation}
+# 安裝映像服務 {#installation}
 
-您必須先安裝影像伺服器，才能使用它。
+安裝映像服務包括兩個主要伺服器元件：
 
-「影像伺服」包含兩個主要元件：映像伺服器是獨立的本機代碼執行檔，而平台伺服器是獨立的Java Web應用程式和應用程式伺服器。 影像呈現是這些伺服器元件的一部分。
+* 影像伺服器. 獨立的本機代碼執行檔。
+* 平台伺服器。 獨立的Java™ Web應用程式和應用程式伺服器。
 
-在後續說明中，`install_root`指的是安裝了Image Serving和Image Rendering的根資料夾，而`server:port`指的是配置為Platform Server主偵聽埠的主機名或IP地址和埠號。
+影像呈現是這兩個伺服器元件的一部分。
 
-* [授權](c-licensing.md)
+在隨後的指示中， `install_root` 指安裝了「影像服務」和「影像呈現」的根資料夾。 和 `server:port` 指配置為平台伺服器的主監聽埠的主機名或IP地址和埠號。
+
+* [許可](c-licensing.md)
 * [目錄](c-contents.md)
 * [安裝資料夾](c-install-folder.md)
 * [在Windows上安裝](t-installing-on-windows/t-installing-on-windows.md)
-* [在Linux上安裝](c-installing-linux/c-installing-linux.md)
-* [啟動和停止影像提供](t-starting-and-stopping/t-starting-and-stopping.md)
+* [在Linux®上安裝](c-installing-linux/c-installing-linux.md)
+* [啟動和停止映像服務](t-starting-and-stopping/t-starting-and-stopping.md)

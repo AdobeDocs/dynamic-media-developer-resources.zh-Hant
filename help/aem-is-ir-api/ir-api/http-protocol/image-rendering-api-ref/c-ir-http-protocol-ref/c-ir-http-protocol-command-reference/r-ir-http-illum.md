@@ -1,30 +1,30 @@
 ---
-description: 照明圖選擇器。 指定此材料要用來渲染的照明映射。
+title: 伊爾
+description: 照明映射選擇器。 指定此材料希望用來渲染的照明映射。
 solution: Experience Manager
-title: 伊拉姆
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e1af2397-8eae-4b77-abb1-61ba8cb866f3
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 4%
+source-wordcount: '78'
+ht-degree: 5%
 
 ---
 
-# 伊拉姆{#illum}
+# 伊爾{#illum}
 
-照明圖選擇器。 指定此材料要用來渲染的照明映射。
+照明映射選擇器。 指定此材料希望用來渲染的照明映射。
 
 `illum=-1|0|1|2`
 
-如果指定的照明映射在目標暈映中不可用，則會改用最接近的可用映射。
+如果指定的照明映射在目標視圖中不可用，則使用最近的可用映射。
 
-`illum=-1` 指定根據值自動選擇照明 `gloss=` 圖。
+`illum=-1` 指定根據 `gloss=` 值。
 
 ## 屬性 {#section-aace8466566e4cf1a0c5a6c0167245c9}
 
-材料屬性。 如果暈映未定義多個照明映射，則忽略。
+物料屬性。 如果視頻未定義多個照明映射，則忽略。
 
 ## 預設 {#section-c96ecfb232074e80b6a29076f5199403}
 

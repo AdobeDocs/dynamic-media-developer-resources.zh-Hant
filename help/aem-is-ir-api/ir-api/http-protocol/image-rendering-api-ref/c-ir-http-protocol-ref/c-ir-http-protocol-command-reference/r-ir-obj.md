@@ -1,44 +1,44 @@
 ---
-description: 按名稱選擇對象。 按名稱選擇指定的暈映組並啟動新的MSS。
+title: 對齊
+description: 按名稱選擇對象。 按名稱選擇指定的視頻組並啟動新MSS。
 solution: Experience Manager
-title: obj
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 17387203-f7a7-4876-a15b-2084894f981d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 2%
+source-wordcount: '139'
+ht-degree: 3%
 
 ---
 
-# obj{#obj}
+# 對齊{#obj}
 
-按名稱選擇對象。 按名稱選擇指定的暈映組並啟動新的MSS。
+按名稱選擇對象。 按名稱選擇指定的視頻組並啟動新MSS。
 
 ` obj= *`名稱`*`
 
 <table id="simpletable_6E0DA6CBCDCF4CDDAFA5A4C38E0D5FC5"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 名稱  </span> </span> </p> </td> 
-  <td class="stentry"> <p>組名或路徑/名稱。 </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 名稱 </span> </span> </p> </td> 
+  <td class="stentry"> <p>組名稱或路徑/名稱。 </p> </td> 
  </tr> 
 </table>
 
-可以使用完全限定的組路徑(即通過指定目標組或對象的名稱，前面加上所有父組，以/（正斜線）分隔)來選擇子組或單個對象。
+可以使用完全限定的組路徑(即，通過指定目標組或對象的名稱，前面帶有所有父組，以/（正斜槓）分隔)來選擇子組或單個對象。
 
-如果未找到具有指定名稱的組/對象，則執行`attribute::OnObjFail`中指定的操作。
+如果找不到具有指定名稱的組/對象，則在 `attribute::OnObjFail` 的下界。
 
 ## 屬性 {#section-9463b36e8ff74c81a70c7c2b58927430}
 
-選擇命令；MSS分隔字元。 對象選擇是持續的，直到選擇了另一個對象（具有`obj=`或`sel=`）。
+選擇命令；MSS分隔符。 對象選擇是永久的，直到選擇了另一個對象， `obj=` 或 `sel=`。
 
-群組/物件路徑和名稱不區分大小寫。
+組/對象路徑和名稱不區分大小寫。
 
 ## 預設 {#section-0c322850512c4896bb551856a549440e}
 
-開啟新暈映時，會自動選取暈映中包含可轉譯物件的第一組。
+當開啟新視頻時，自動選擇包含可呈現對象的視頻中的第一組。
 
 ## 另請參閱 {#section-d9d2c92ef48548f48b9781e2a8a5fb5a}
 
-[sel=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-sel.md#reference-01322c58d414481385c29fcdd27a090b)，屬 [性：:OnFailObj](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-onfailobj.md#reference-4c6ba90418e84da5831f8573bbbf2c8d)
+[sel=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-sel.md#reference-01322c58d414481385c29fcdd27a090b)。 [屬性：:OnFailObj](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-onfailobj.md#reference-4c6ba90418e84da5831f8573bbbf2c8d)
