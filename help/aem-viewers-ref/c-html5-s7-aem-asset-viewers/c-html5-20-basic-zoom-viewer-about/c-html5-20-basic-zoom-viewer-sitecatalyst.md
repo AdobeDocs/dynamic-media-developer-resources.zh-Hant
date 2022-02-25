@@ -1,30 +1,30 @@
 ---
-description: 基本縮放檢視器支援Adobe Analytics立即可用的追蹤功能。
+title: 支援Adobe Analytics跟蹤
+description: 「基本縮放查看器」支援Adobe Analytics從框中跟蹤。
 solution: Experience Manager
-title: 支援Adobe Analytics追蹤
-feature: Dynamic Media Classic，檢視器，SDK/API，縮放
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 5b9d871d-9f37-4908-900e-3f0ecc98bc0c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '152'
 ht-degree: 2%
 
 ---
 
-# 支援Adobe Analytics追蹤{#support-for-adobe-analytics-tracking}
+# 支援Adobe Analytics跟蹤{#support-for-adobe-analytics-tracking}
 
-基本縮放檢視器支援Adobe Analytics立即可用的追蹤功能。
+「基本縮放查看器」支援Adobe Analytics從框中跟蹤。
 
-## 現成可用追蹤 {#section-ba994f079d0343c8ae48adffaa3195a3}
+## 現成跟蹤 {#section-ba994f079d0343c8ae48adffaa3195a3}
 
-基本縮放檢視器支援[!DNL Adobe Analytics]立即追蹤。 若要啟用追蹤，請將正確的公司預設集名稱傳遞為`config2`參數。
+基本縮放查看器支援 [!DNL Adobe Analytics] 追蹤現場。 要啟用跟蹤，請將正確的公司預設名稱作為 `config2` 的下界。
 
-檢視器也會傳送單一追蹤HTTP要求至已設定的影像伺服器，並附上檢視器類型和版本資訊。
+查看器還向配置的Image Server發送單個跟蹤HTTP請求，其中包含查看器類型和版本資訊。
 
-## 自訂追蹤 {#section-cda48fc9730142d0bb3326bac7df3271}
+## 自定義跟蹤 {#section-cda48fc9730142d0bb3326bac7df3271}
 
-若要與協力廠商分析系統整合，必須監聽`trackEvent`檢視器回呼，並視需要處理回呼函式的`eventInfo`引數。 以下代碼是此類處理程式函式的示例：
+要與第三方分析系統整合，必須傾聽 `trackEvent` 查看器回調並處理 `eventInfo` 回調函式的參數。 以下代碼是此類處理程式函式的示例：
 
 ```
 var basicZoomViewer = new s7viewers.BasicZoomViewer({ 
@@ -48,31 +48,31 @@ var basicZoomViewer = new s7viewers.BasicZoomViewer({
 });
 ```
 
-檢視器會追蹤下列SDK使用者事件：
+查看器跟蹤以下SDK用戶事件：
 
 <table id="table_5D090E6614974D968E1A93B5727D859C"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>SDK使用者事件 </p> </th> 
-   <th colname="col2" class="entry"> <p>傳送時間…… </p> </th> 
+   <th colname="col1" class="entry"> <p>SDK用戶事件 </p> </th> 
+   <th colname="col2" class="entry"> <p>發送時間…… </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LOAD </span> </p> </td> 
-   <td colname="col2"> <p>檢視器會先載入。 </p> </td> 
+   <td colname="col2"> <p>首先載入查看器。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>使用<span class="codeph"> setAsset()</span> API在檢視器中交換資產。 </p> </td> 
+   <td colname="col2"> <p>在查看器中使用 <span class="codeph"> setAsset() </span> API。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZOOM </span> </p> </td> 
-   <td colname="col2"> <p> 放大影像。 </p> </td> 
+   <td colname="col2"> <p> 縮放影像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PAN </span> </p> </td> 
-   <td colname="col2"> <p>影像被鑲嵌。 </p> </td> 
+   <td colname="col2"> <p>一幅圖畫被繪製。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

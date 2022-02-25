@@ -1,20 +1,20 @@
 ---
-description: 主檢視包含可縮放的影像。
+title: 縮放視圖
+description: 主視圖由可縮放影像組成。
 solution: Experience Manager
-title: 縮放檢視
-feature: Dynamic Media Classic，檢視器，SDK/API，縮放
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 286b9df4-88db-4e5d-aab4-9cbe01195e57
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '164'
 ht-degree: 3%
 
 ---
 
-# 縮放檢視{#zoom-view}
+# 縮放視圖{#zoom-view}
 
-主檢視包含可縮放的影像。
+主視圖由可縮放影像組成。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -35,11 +35,11 @@ ht-degree: 3%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景顏色  </span> </p> </td> 
-   <td colname="col2"> <p> 主視圖的十六進位格式背景顏色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
+   <td colname="col2"> <p> 主視圖的十六進位格式背景色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 游標  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 游標 </span> </p> </td> 
    <td colname="col2"> <p>游標顯示在主視圖上。 </p> </td> 
   </tr> 
  </tbody> 
@@ -53,7 +53,7 @@ ht-degree: 3%
 }
 ```
 
-在案頭系統上，元件支援`cursortype`屬性選擇器，該選擇器可應用於`.s7zoomview`類，並根據元件狀態和用戶操作控制游標類型。 支援下列`cursortype`值：
+在台式機系統上，該元件支援 `cursortype` 屬性選擇器，可應用於 `.s7zoomview` 類，並根據元件狀態和用戶操作控制游標類型。 以下 `cursortype` 值受支援：
 
 <table id="table_BC9FC40DA27B4A85995F4E9431AABF33"> 
  <thead> 
@@ -65,19 +65,19 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> default </span> </p> </td> 
-   <td colname="col2"> <p>當因影像解析度小或元件設定或兩者而無法縮放影像時顯示。 </p> </td> 
+   <td colname="col2"> <p>當由於影像解析度較低或元件設定或兩者都導致無法縮放影像時顯示。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 左敏  </span> </p> </td> 
-   <td colname="col2"> <p>可放大影像時顯示。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 牛 </span> </p> </td> 
+   <td colname="col2"> <p>當可以放大影像時顯示。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 重設 </span> </p> </td> 
-   <td colname="col2"> <p>當影像處於最大縮放級別時顯示，並可重置為其初始狀態。 </p> </td> 
+   <td colname="col2"> <p>當影像處於最大縮放級別時顯示，並且可以將其重置為初始狀態。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 拖曳 </span> </p> </td> 
-   <td colname="col2"> <p>當使用者平移處於縮放狀態的影像時顯示。 </p> </td> 
+   <td colname="col2"> <p>當用戶平移處於縮放狀態的影像時顯示。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

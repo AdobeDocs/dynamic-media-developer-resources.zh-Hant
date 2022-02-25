@@ -1,24 +1,24 @@
 ---
-description: 焦點檢視器使用介面元素周圍顯示的輸入焦點醒目提示，是由CSS類別選取器控制。
+title: 聚焦突出顯示
+description: 在聚焦查看器使用介面元素周圍顯示的輸入焦點高亮由CSS類選擇器控制。
 solution: Experience Manager
-title: 焦點醒目提示
-feature: Dynamic Media Classic，檢視器，SDK/API，縮放
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 74ff9669-d56b-4731-9d4a-dda7c831e162
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '78'
 ht-degree: 1%
 
 ---
 
-# 焦點醒目提示{#focus-highlight}
+# 聚焦突出顯示{#focus-highlight}
 
-焦點檢視器使用介面元素周圍顯示的輸入焦點醒目提示，是由CSS類別選取器控制。
+在聚焦查看器使用介面元素周圍顯示的輸入焦點高亮由CSS類選擇器控制。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-使用以下CSS類選擇器控制外觀：
+外觀由以下CSS類選擇器控制：
 
 ```
 .s7basiczoomviewer *:focus
@@ -33,13 +33,13 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 大綱  </span> </p> </td> 
-   <td colname="col2"> <p>焦點突出顯示樣式。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 大綱 </span> </p> </td> 
+   <td colname="col2"> <p>聚焦突出顯示樣式。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-範例：若要停用所有檢視器使用者介面元素的預設瀏覽器焦點醒目提示，請將下列CSS選取器新增至檢視器的樣式表：
+示例 — 要禁用所有查看器用戶介面元素的預設瀏覽器焦點突出顯示，請將以下CSS選擇器添加到查看器的樣式表：
 
 ```
 .s7basiczoomviewer *:focus { 

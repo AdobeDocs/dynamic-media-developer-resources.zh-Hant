@@ -1,20 +1,20 @@
 ---
-description: 基本縮放檢視器的JavaScript API參考。
+title: 設定資產
+description: 用於基本縮放查看器的JavaScript API參考。
 solution: Experience Manager
-title: setAsset
-feature: Dynamic Media Classic，檢視器，SDK/API，縮放
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 71525aac-b8ca-4f5a-a770-268857ddae4f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '90'
 ht-degree: 3%
 
 ---
 
-# setAsset{#setasset}
+# 設定資產{#setasset}
 
-基本縮放檢視器的JavaScript API參考。
+用於基本縮放查看器的JavaScript API參考。
 
 ` setAsset( *`asset`*)`
 
@@ -22,28 +22,28 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 資產</span> </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph">字串</span>}新資產id，並在「？」後面附加可選的IS修飾元 </p> <p> 此檢視器不支援使用IR（影像呈現）或UGC（使用者產生的內容）的影像。 </p> </td> 
+   <td colname="col2"> <p>{ 0}<span class="codeph"> 字串</span>}新資產id，在「？」後附加可選IS修飾符 </p> <p> 此查看器不支援使用IR（影像呈現）或UGC（用戶生成的內容）的影像。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-設定新資產。 您可以在`init()`之前或之後隨時呼叫此參數。 如果在`init()`之後呼叫，檢視器會在執行階段交換資產。
+設定新資產。 可以在任何時間（在之前或之後）調用此參數 `init()`。 如果在 `init()`，查看器在運行時交換資產。
 
-另請參閱[init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-javascriptapiref/r-html5-basic-zoom-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b)。
+另請參閱 [初始化](../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-javascriptapiref/r-html5-basic-zoom-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b)。
 
-## 傳回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## 返回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 無。
 
 ## 範例 {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 
-單一影像參考：
+單個影像引用：
 
 ```
 <instance>.setAsset("Scene7SharedAssets/Backpack_B")
 ```
 
-集合中的所有影像都新增銳利化修飾元：
+銳化修飾符添加到集中的所有影像：
 
 ```
 <instance>.setAsset("Scene7SharedAssets/Backpack_B?op_sharpen=1")
