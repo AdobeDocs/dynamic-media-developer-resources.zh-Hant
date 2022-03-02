@@ -3,9 +3,9 @@ cloud: Experience Cloud
 user-guide-title: Dynamic Media 檢視器參考指南
 feature-set: Experience Manager Assets
 user-guide-description: 自訂 Dynamic Media 檢視器以用於桌上型電腦和觸控螢幕裝置。包括互動式影像和影片、浮動切換、迴轉集等。
-source-git-commit: a106c13770fcb342d7b12ca1593728072141e289
+source-git-commit: 6087b48b898e93e605c3873cbd5132b74d04225f
 workflow-type: tm+mt
-source-wordcount: '2074'
+source-wordcount: '2077'
 ht-degree: 6%
 
 ---
@@ -18,8 +18,9 @@ ht-degree: 6%
 + [系統需求](c-system-requirements-and-prerequisites.md)
 + [在同一伺服器上安裝多個查看器](t-installing-the-viewers.md)
 + 查看者發佈說明 {#viewers-release-notes}
-   + [查看者發行說明(5.16.1)](c-release-notes/c-rn-04-06-21.md)
+   + [查看者發行說明(5.16.5)](c-release-notes/c-rn-03-02-22.md)
    + 封存 {#archive}
+      + [查看者發行說明(5.16.1)](c-release-notes/c-archive/c-rn-04-06-21.md)
       + [查看者發行說明(5.15.3)](c-release-notes/c-archive/c-rn-01-13-21.md)
       + [查看者發行說明(5.14.1)](c-release-notes/c-archive/c-rn-06-03-20.md)
       + [查看者發行說明(5.13.1)](c-release-notes/c-archive/c-rn-07-08-19.md)
@@ -363,7 +364,7 @@ ht-degree: 6%
    + 內聯縮放 {#inline-zoom}
       + [內聯縮放](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-about.md)
       + 命令引用 — 配置屬性 {#command-reference-configuration-attributes-inline-zoom}
-         + [Command reference – Configuration attributes](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/r-html5-inlinezoom-viewer-conf-attrib/r-html5-inlinezoom-viewer-conf-attrib.md)
+         + [命令引用 — 配置屬性](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/r-html5-inlinezoom-viewer-conf-attrib/r-html5-inlinezoom-viewer-conf-attrib.md)
          + [FlyoutZoomView.flyouttransition](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/r-html5-inlinezoom-viewer-conf-attrib/r-html5-inlinezoom-viewer-conf-attrib-flyoutzoomview-flyouttransition.md)
          + [FlyoutZoomView.fmt](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/r-html5-inlinezoom-viewer-conf-attrib/r-html5-inlinezoom-viewer-conf-attrib-flyoutzoomview-fmt.md)
          + [FlyoutZoomView.frametransition](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/r-html5-inlinezoom-viewer-conf-attrib/r-html5-inlinezoom-viewer-conf-attrib-flyoutzoomview-frametransition.md)
@@ -479,7 +480,7 @@ ht-degree: 6%
          + [setParams](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-setparams.md)
       + [事件回調](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-event-callbacks.md)
       + 自定義混合媒體查看器 {#customing-mixed-media}
-         + [Customize the Mixed Media Viewer](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md)
+         + [自定義混合媒體查看器](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md)
          + [標題按鈕](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-captionbutton.md)
          + [關閉按鈕](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-closebutton.md)
          + [顏色色板](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-colorswatches.md)
@@ -487,7 +488,7 @@ ht-degree: 6%
          + [彈出縮放檢視](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-flyout-zoom-view.md)
          + [聚焦突出顯示](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-focushighlight.md)
          + [全屏按鈕](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-fullscreenbutton.md)
-         + [Main swatches](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-mainswatches.md)
+         + [主色板](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-mainswatches.md)
          + [主查看器區域](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-mainviewerarea.md)
          + [可變卷](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-mutablevolume.md)
          + [播放/暫停按鈕](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-playpausebutton.md)
@@ -911,7 +912,7 @@ ht-degree: 6%
          + [電子郵件共用](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-emailshare.md)
          + [嵌入共用](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-embedshare.md)
          + [Facebook](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-facebookshare.md)
-         + [Focus highlight](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-focushighlight.md)
+         + [聚焦突出顯示](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-focushighlight.md)
          + [全屏按鈕](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-fullscreenbutton.md)
          + [表徵圖效果](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-iconeffect.md)
          + [連結共用](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-linkshare.md)
@@ -972,7 +973,7 @@ ht-degree: 6%
       + [事件回調](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-event-callbacks.md)
       + 自定義Video360查看器 {#customizing-video360}
          + [自定義Video360查看器](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md)
-         + [Control bar](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-controlbar.md)
+         + [控制欄](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-controlbar.md)
          + [嵌入共用](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-embedshare.md)
          + [Facebook](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-facebookshare.md)
          + [聚焦突出顯示](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-focushighlight.md)
