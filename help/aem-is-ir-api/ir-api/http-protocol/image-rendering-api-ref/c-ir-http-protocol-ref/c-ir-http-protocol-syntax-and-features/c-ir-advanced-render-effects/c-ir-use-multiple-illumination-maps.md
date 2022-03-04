@@ -1,27 +1,27 @@
 ---
-description: 某些應用可能要求對不同種類的材料進行不同的照明圖。
+title: 使用多個照明地圖
+description: 某些應用可能需要對不同種類的材料製作不同的照明圖。
 solution: Experience Manager
-title: 使用多個照明圖
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: a6e0be23-8b8a-4b60-aac1-c692319a0bce
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
 
-# 使用多個照明圖{#using-multiple-illumination-maps}
+# 使用多個照明地圖{#using-multiple-illumination-maps}
 
-某些應用可能要求對不同種類的材料進行不同的照明圖。
+某些應用可能需要對不同種類的材料製作不同的照明圖。
 
-每個暈映最多可製作三張照明圖。 使用`illum=`和`gloss=`命令選擇渲染操作的照明映射。
+可為每個視頻創作多達三個照明圖。 使用 `illum=` 和 `gloss=` 的雙曲餘切值。
 
-**預** 設選 `illum=` 擇如 `gloss=` 果未指定或，則渲染器將使用第一個創作的照明圖（通常映射A，稱為「平整」照明圖）。
+**預設選擇**  — 如果 `illum=` 或 `gloss=` 未指定，呈現器使用第一創作的照明圖（通常映射A，又稱「平面」照明圖）。
 
-**自動選`gloss=`** 擇如 `illum=` 果未指定或設定為–1，則渲染器將指定值與與暈 `gloss=` 鏡中每個照明映射關聯的光澤值進行比較，並選擇其光澤值最接近指定的照明映 `gloss=`射。
+**自動選擇`gloss=`**  — 如果 `illum=` 未指定或設定為 `-1`，呈現器比較指定的 `gloss=` 值與與視頻中的每個照明映射關聯的光澤值。 它選擇光澤值最接近指定值的照明圖 `gloss=`。
 
-**顯式選`illum=`** 擇如 `illum=` 果指定並設定為0、1或2，則渲染器將使用相應的照明圖； `gloss=` 會忽略，以便選取照明圖。
+**顯式選擇`illum=`**  — 如果 `illum=` 已指定並設定為 `0`。 `1`或 `2`，渲染器使用相應的光照圖； `gloss=` 將忽略，以選擇照明映射。
 
-如果暈映僅包含一個照明映射，則渲染器將使用該映射並忽略`illum=`和`gloss=`命令。
+如果視頻僅包含一個照明映射，則呈現器使用該映射並忽略 `illum=` 和 `gloss=` 的雙曲餘切值。

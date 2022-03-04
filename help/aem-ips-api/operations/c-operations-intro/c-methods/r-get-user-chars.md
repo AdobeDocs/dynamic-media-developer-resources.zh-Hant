@@ -5,10 +5,10 @@ title: getUserChars
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d6b79c06-0e90-406f-bac8-3b8c2bae5480
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 11%
+source-wordcount: '174'
+ht-degree: 12%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 11%
 
 語法
 
-## 授權的使用者類型 {#section-7023871be4d2442daf51ff060ca06d9a}
+## 授權用戶類型 {#section-7023871be4d2442daf51ff060ca06d9a}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,13 +31,13 @@ ht-degree: 11%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`charField`*` | `xsd:string` | 是 | 決定要搜尋的垃圾桶狀態。 |
-| `*`includeInactive`*` | `xsd:boolean` | 是 | 包含或排除非作用中使用者。 非IPS管理員使用者必須是至少一間公司的有效成員，才能獲得授權以進行任何API呼叫。 如果用戶沒有有效的公司成員資格，則將返回授權錯誤。 |
-| `*`includeInvalid`*` | `xsd:boolean` | 否 | 包括或排除無效用戶。 |
+| `*`char欄位`*` | `xsd:string` | 是 | 確定要搜索的垃圾狀態。 |
+| `*`包括非活動`*` | `xsd:boolean` | 是 | 包括或排除非活動用戶。 非IPS管理員用戶必須是至少一家公司的活動成員，才能被授權進行任何API調用。 如果用戶沒有有效的公司成員資格，則返回授權錯誤。 |
+| `*`包含無效`*` | `xsd:boolean` | 否 | 包括或排除無效用戶。 |
 | `*`companyHandleArray`*` | `types:HandleArray` | 否 | 根據公司篩選結果。 |
-| `*`groupHandleArray`*` | `types:HandleArray` | 否 | 根據群組篩選結果。 |
-| `*`userRoleArray`*` | `types:StringArray` | 否 | 根據使用者角色篩選結果。 |
-| `*`numChars`*` | `xsd:int` | 否 | 啟用>1個字元。 |
+| `*`groupHandleArray`*` | `types:HandleArray` | 否 | 根據組篩選結果。 |
+| `*`userRoleArray`*` | `types:StringArray` | 否 | 根據用戶角色篩選結果。 |
+| `*`數字字元`*` | `xsd:int` | 否 | 啟用>1個字元。 |
 
 **輸出(getUserCharsReturn)**
 
@@ -47,13 +47,13 @@ ht-degree: 11%
 
 ## 範例 {#section-3702f165e8b041139a6144f4a76ca25f}
 
-此程式碼範例會傳回：
+此代碼示例返回：
 
-* 特定公司使用者姓氏的首字元。
-* 一組群組。
-* 一組使用者角色。
+* 特定公司用戶姓氏的首個字元。
+* 一組組。
+* 一組用戶角色。
 
-使用者字元篩選欄位字串常數決定傳回的使用者字元類型。
+用戶字元篩選器欄位字串常數確定返回的用戶字元的類型。
 
 **請求**
 

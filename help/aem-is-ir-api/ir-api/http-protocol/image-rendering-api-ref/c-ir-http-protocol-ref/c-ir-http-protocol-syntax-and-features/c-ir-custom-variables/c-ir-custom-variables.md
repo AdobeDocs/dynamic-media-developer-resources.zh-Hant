@@ -1,35 +1,35 @@
 ---
-description: 請求和暈映修飾詞字串的查詢部分可能包括用戶定義的變數。
+title: 自定義變數
+description: 請求和可視修改量字串的查詢部分可以包括用戶定義的變數。
 solution: Experience Manager
-title: 自訂變數
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8d26b797-5099-49fb-b7e0-46747f35ab84
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '247'
 ht-degree: 0%
 
 ---
 
-# 自訂變數{#custom-variables}
+# 自定義變數{#custom-variables}
 
-要求和變數的查詢部分：：修飾詞字串可能包含使用者定義的變數。
+請求和vignette:：修改量字串的查詢部分可能包括用戶定義的變數。
 
-` $ *[!DNL name]*= *[!DNL value]*`
+`$ [!DNL name] = [!DNL value]`
 
-** *[!DNL name]* **變數名稱。 可由字母、數字和安全字元的任何組合組成，但「$」除外。
+`[!DNL name]`  — 變數名稱。 可能包含字母、數字和安全字元的任意組合，不包括 `$`。
 
-** *[!DNL value]* **要設定變數的值（字串）。
+`[!DNL value]`  — 要設定變數的值（字串）。
 
-變數的定義類似於其他伺服器命令，使用上述語法。 必須先定義變數，才可供參考。 在`vignette::Modifier`中定義的變數可在URL要求中參照，反之亦然。
+使用上述語法定義的變數與其他伺服器命令類似。 必須先定義變數，然後才能引用它們。 在中定義的變數 `vignette::Modifier` 可以在URL請求中引用，反之則可以。
 
 >[!NOTE]
 >
->*[!DNL value]* 必須採用單通URL編碼，才能安全HTTP傳輸。如果透過HTTP重新傳輸&#x200B;*[!DNL value]*，則需要雙重編碼。 *[!DNL value]*&#x200B;取代為巢狀外部請求時即是如此。
+>`[!DNL value]` 必須是單通URL編碼，才能進行安全的HTTP傳輸。 如果需要雙重編碼， `[!DNL value]` 通過HTTP重傳。 這種情況下 `[!DNL value]` 替換為嵌套的外部請求。
 
-在命令值中嵌入變數名稱（由前導和尾隨$括住）即可引用變數。 例如，在命令名稱后面的「=」與後續的「&amp;」或請求的結尾之間。 伺服器將$ *[!DNL name]*$的每次此類事件替換為&#x200B;*[!DNL string]*。 命令名稱中$ *[!DNL name]*$的任何出現次數（在命令的等號之前）以及請求的路徑部分中不會發生替代。
+通過嵌入變數名稱（由前導和尾隨圍成）來引用變數 `$`)命令值中的任意位置。 例如，在 `=`  按命令名和後續 `&` 或是請求的結束。 伺服器將每次此類事件 `$ [!DNL name]$` 與 `[!DNL string]`。 在任何 `$ [!DNL name]$` 在命令名稱（命令的等號之前）和請求的路徑部分中。
 
-自訂變數不可巢狀。 *[!DNL string]*&#x200B;內$ *[!DNL name]*$的任何出現次數均未取代。 例如，要求片段`$var2=apple&$var1=my$var2$tree&text=$var1$`解析為`text=my$var2$tree`。
+自定義變數可能不嵌套。 任何出現的 `$ [!DNL name]$` 內 `[!DNL string]` 的下界。 例如，請求片段 `$var2=apple&$var1=my$var2$tree&text=$var1$` 解析 `text=my$var2$tree`。
 
-$不是保留字元；若非如此，則可能發生在要求中。 例如，`src=my$texture$file.tif`是有效命令（假設存在名為[!DNL my$texture$file.tif]的材料目錄條目或紋理檔案），而`wid=$number$`則否，因為`wid=`需要數字參數。
+`$` 不是保留字元；在請求中可能會出現其它情況。 比如說， `src=my$texture$file.tif` 是有效命令(假定名為 `[!DNL my$texture$file.tif]` 存在)，而 `wid=$number$` 不是，因為 `wid=` 需要一個數字參數。

@@ -1,18 +1,18 @@
 ---
 description: 由MetadataField/type、saveMetadataFieldParam/fieldType和createMetadataField/fieldType使用。
 solution: Experience Manager
-title: 中繼資料欄位類型
-feature: Dynamic Media Classic,SDK/API，中繼資料
+title: 元資料欄位類型
+feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: cbbe55f2-bd22-44f5-9440-f58fb45b8d9a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 1%
+source-wordcount: '94'
+ht-degree: 2%
 
 ---
 
-# 中繼資料欄位類型{#metadata-field-types}
+# 元資料欄位類型{#metadata-field-types}
 
 由MetadataField/type、saveMetadataFieldParam/fieldType和createMetadataField/fieldType使用。
 
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 * [!DNL `Untyped`]
 * [!DNL `Boolean`]
-* [!DNL `BooleanTag`]:具有初始化為 [!DNL `SingleFixedTag`] 值和的不可修改字典的特 [!DNL `True`] 殊 [!DNL `False`]情況。
+* [!DNL `BooleanTag`]:一個特殊案例 [!DNL `SingleFixedTag`] 不可修改的字典初始化為 [!DNL `True`] 和 [!DNL `False`]。
 
 * [!DNL `Color`]
 * [!DNL `Date`]
@@ -30,9 +30,9 @@ ht-degree: 1%
 * [!DNL `FileName`]
 * [!DNL `Float`]
 * [!DNL `Int`]
-* [!DNL `MultiFixedTag`]:來自封閉字典的零個或多個字串值。只有管理員使用者可以修改字典。
+* [!DNL `MultiFixedTag`]:關閉字典中的零個或多個字串值。 只有管理員用戶才能修改字典。
 * [!DNL `MultiTag`]:零個或多個字串值。
-* [!DNL `SingleFixedTag`]:封閉字典的單一字串值。如果以字典中不包含的值呼叫`setAssetMetadata`或`batchSetAssetMetadata`，則會傳回錯誤。 只有管理員使用者可以修改字典。
+* [!DNL `SingleFixedTag`]:關閉字典中的單個字串值。 如果 `setAssetMetadata` 或 `batchSetAssetMetadata` 調用的值不在字典中，將返回錯誤。 只有管理員用戶才能修改字典。
 
-* [!DNL `SingleTag`]:任何單一字串值。
+* [!DNL `SingleTag`]:任何單字串值。
 * [!DNL `String`]

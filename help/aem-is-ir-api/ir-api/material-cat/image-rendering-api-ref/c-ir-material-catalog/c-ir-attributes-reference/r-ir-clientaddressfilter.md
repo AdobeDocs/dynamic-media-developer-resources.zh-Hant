@@ -1,46 +1,46 @@
 ---
-description: 客戶端IP地址篩選器。 允許規範一個或多個IP地址或地址範圍。
+description: 客戶端IP地址篩選器。 允許指定一個或多個IP地址或地址範圍。
 solution: Experience Manager
-title: ClientAddressFilter
+title: 客戶端地址篩選器
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 24046950-1dba-4352-a549-43994e799748
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '153'
 ht-degree: 3%
 
 ---
 
-# ClientAddressFilter{#clientaddressfilter}
+# 客戶端地址篩選器{#clientaddressfilter}
 
-客戶端IP地址篩選器。 允許規範一個或多個IP地址或地址範圍。
+客戶端IP地址篩選器。 允許指定一個或多個IP地址或地址範圍。
 
-指定後，對此映像目錄的請求將被拒絕，這些請求源自於位於未列出IP地址的客戶端。 `localhost` 一律會隱含在定義中，即 `ClientAddressFilter` 使未明確指定亦然。無論`ClientAddressFilter`規格為何，源自`localhost`的請求從不被拒絕。
+如果指定，則拒絕從未列出IP地址的客戶端發出的對此映像目錄的請求。 `localhost` 總是隱式的 `ClientAddressFilter` 定義，即使未明確指定。 源自 `localhost` 不會被拒絕，不管 `ClientAddressFilter` 規範。
 
 ## 屬性 {#section-21a2992f108d42fb8660c0d65aa61e13}
 
-以逗號分隔的IP位址清單，並搭配選用的網路掩碼（使用[CIDR標籤法](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing#CIDR_notation)）:
+IP地址的逗號分隔清單（帶可選網路掩碼）([CIDR表示法](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing#CIDR_notation) ):
 
 ` *[!DNL ipAddress]*[/ *[!DNL netmask]*]&#42;[, *[!DNL ipAddress]*[/ *[!DNL netmask]*]]`
 
-* *[!DNL ipAddress]* 格式的IP位 *[!DNL ddd.ddd.ddd.ddd]* 址
+* *[!DNL ipAddress]* IP地址 *[!DNL ddd.ddd.ddd.ddd]* 格式
 
-* *[!DNL netmask]* 淨掩碼(0...32)
+* *[!DNL netmask]* 網路掩碼(0...32)
 
-套用具有`<addressfilter>`元素的預先處理規則時，會忽略此屬性。
+當具有 `<addressfilter>` 元素。
 
 ## 預設 {#section-beddaa18ed6c4f3ba1eb2d4471267712}
 
-如果未定義或為空，則從`default::AddressFilter`繼承。
+繼承自 `default::AddressFilter` 或為空。
 
 ## 範例 {#section-72b4a3615bff4a5f8b03d83c6489aaba}
 
-* 無訪問限制：`0.0.0.0/0`
-* 授予對以`192: 192.0.0.0/8`開頭的所有地址的訪問權
-* 授予對地址介於`192.168.12.0`和`192.168.13.255: 192.168.12.0/23`之間的512台主機的訪問權
+* 無訪問限制： `0.0.0.0/0`
+* 授予對所有地址的訪問權限，以 `192: 192.0.0.0/8`
+* 授予對512台主機的訪問權限，其地址介於 `192.168.12.0` 和 `192.168.13.255: 192.168.12.0/23`
 
-* 授予對單一IP位址的存取權：`192.168.2.117`或`192.168.2.117/32`
+* 授予對單個IP地址的訪問權限： `192.168.2.117` 或 `192.168.2.117/32`
 
 ## 另請參閱 {#section-6198780c7b3045aabd211eefb38bc565}
 

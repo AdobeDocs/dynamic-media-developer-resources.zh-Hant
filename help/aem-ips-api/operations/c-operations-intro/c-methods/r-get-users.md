@@ -1,22 +1,22 @@
 ---
-description: 按照公司、組和用戶角色句柄的指定獲取用戶陣列。 此操作可讓您依字元排序傳回的使用者並篩選。
+description: 獲取由公司、組和用戶角色句柄指定的用戶陣列。 此操作允許您按字元對返回的用戶進行排序和篩選。
 solution: Experience Manager
 title: getUsers
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: dfdcbcdd-232f-4c73-9520-c7c958eedf54
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '208'
 ht-degree: 10%
 
 ---
 
 # getUsers{#getusers}
 
-按照公司、組和用戶角色句柄的指定獲取用戶陣列。 此操作可讓您依字元排序傳回的使用者並篩選。
+獲取由公司、組和用戶角色句柄指定的用戶陣列。 此操作允許您按字元對返回的用戶進行排序和篩選。
 
-## 授權的使用者類型 {#section-6a8f23cc6b22442d8776f701016971ed}
+## 授權用戶類型 {#section-6a8f23cc6b22442d8776f701016971ed}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -26,26 +26,26 @@ ht-degree: 10%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`includeInactive`*` | `xsd:boolean` | 否 | 包含或排除非作用中使用者。 非IPS管理員使用者必須是至少一間公司的有效成員，才能獲得授權以進行任何API呼叫。 如果用戶沒有有效的公司成員資格，則將返回授權錯誤。 |
-| `*`includeInvalid`*` | `xsd:boolean` | 否 | 可讓您包含/排除無效的使用者。 |
-| `*`companyHandleArray`*` | `types:HandleArray` | 否 | 依公司篩選結果。 |
+| `*`包括非活動`*` | `xsd:boolean` | 否 | 包括或排除非活動用戶。 非IPS管理員用戶必須是至少一家公司的活動成員，才能被授權進行任何API調用。 如果用戶沒有有效的公司成員資格，則返回授權錯誤。 |
+| `*`includeInvalid`*` | `xsd:boolean` | 否 | 允許您包括/排除無效用戶。 |
+| `*`companyHandleArray`*` | `types:HandleArray` | 否 | 按公司篩選結果。 |
 | `*`groupHandleArray`*` | `types:HandleArray` | 否 | 按組篩選結果。 |
 | `*`userRoleArray`*` | `types:StringArray` | 否 | 按用戶角色篩選結果。 |
-| `*`charFilterField`*` | `xsd:string` | 否 | 按欄位的字串首碼篩選結果(請參閱[!DNL Trash State).] |
-| `*`charFilter`*` | `xsd:string` | 否 | 按特定字元篩選結果。 |
-| `*`sortBy`*` | `xsd:string` | 否 | 用戶排序欄位的選擇。 |
-| `*`recordsPerPage`*` | `xsd:int` | 否 | 傳回每頁指定的記錄數。 |
-| `*`resultsPage`*` | `xsd:int` | 否 | 結果頁面。 |
+| `*`charFilterField`*` | `xsd:string` | 否 | 按欄位的字串前置詞篩選結果(請參見 [!DNL Trash State).] |
+| `*`char篩選器`*` | `xsd:string` | 否 | 按特定字元篩選結果。 |
+| `*`排序依據`*` | `xsd:string` | 否 | 用戶排序欄位的選擇。 |
+| `*`記錄每頁`*` | `xsd:int` | 否 | 返回每頁指定的記錄數。 |
+| `*`結果頁`*` | `xsd:int` | 否 | 結果頁面。 |
 
 **輸出(getUsersReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`userArray`*` | `types:UserArray` | 是 | 使用者陣列。 |
+| `*`用戶陣列`*` | `types:UserArray` | 是 | 一組用戶。 |
 
 ## 範例 {#section-bc43a5dd7b4c4f048d25fc881554dab2}
 
-此程式碼範例會針對數個選用參數傳回使用者陣列。 使用者角色、使用者字元篩選欄位和使用者排序欄位是由使用特定字串常數決定。
+此代碼示例返回多個可選參數的用戶陣列。 用戶角色、用戶字元篩選器欄位和用戶排序欄位是使用特定字串常數確定的。
 
 **請求**
 

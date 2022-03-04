@@ -1,51 +1,51 @@
 ---
-description: 錯誤響應影像。 影像伺服通常會在發生錯誤時，傳回帶有文字訊息的錯誤狀態。
+description: 錯誤響應影像。 當出現錯誤時，Image Serving通常返回帶有文本消息的錯誤狀態。
 solution: Experience Manager
-title: ErrorImage
+title: 錯誤影像
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f412a379-525e-42fc-97bf-b10e00da6a20
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '274'
 ht-degree: 1%
 
 ---
 
-# ErrorImage{#errorimage}
+# 錯誤影像{#errorimage}
 
-錯誤響應影像。 影像伺服通常會在發生錯誤時，傳回帶有文字訊息的錯誤狀態。
+錯誤響應影像。 當出現錯誤時，Image Serving通常返回帶有文本消息的錯誤狀態。
 
-`attribute::ErrorImage` 允許配置在發生錯誤時要返回的影像、目錄條目或模板。
+`attribute::ErrorImage` 允許在出錯時配置要返回的映像、目錄條目或模板。
 
 >[!NOTE]
 >
->`attribute::DefaultImage`也可處理遺失的影像。
+>也可以使用 `attribute::DefaultImage`。
 
-可以設定「影像伺服」範本，將錯誤訊息文字轉譯至回應影像中。 `$error.title`範本中可包含下列預先定義的變數，這些變數會以短錯誤說明取代； `$error.message`則以更詳細的錯誤說明取代（詳細程度會以`attribute::ErrorDetail`設定）。
+可以配置「影像服務」模板，該模板可能會將錯誤消息文本呈現到響應影像中。 以下預定義變數可包含在 `$error.title` 模板，用簡短的錯誤說明替換，和 `$error.message`，用更詳細的錯誤說明替換(詳細級別配置為 `attribute::ErrorDetail`)。
 
-如果錯誤影像/範本可成功處理，則會傳回HTTP狀態200。 如果此處理期間發生錯誤，則會傳回HTTP錯誤狀態和文字訊息。
+如果錯誤映像/模板可以成功處理，則返回HTTP狀態200。 如果在此處理過程中出現錯誤，則返回HTTP錯誤狀態和文本消息。
 
 ## 屬性 {#section-f460c6c2dd1f46b29f9a79b093575f45}
 
-文字字串。 如果指定，則必須是影像目錄中的有效目錄：:Id值，或是影像伺服器可訪問的影像檔案的相對路徑(`attribute::RootPath`)或絕對路徑。
+文本字串。 如果指定，則必須是影像目錄中的有效目錄：:Id值或相對(至 `attribute::RootPath`)或映像伺服器可訪問的映像檔案的絕對路徑。
 
 ## 預設 {#section-2885f289e5714ddca665a6aee401967f}
 
-若未定義，則繼承自`default::ErrorImage`。 如果已定義但為空，則即使已定義`default::ErrorImage`，並返回HTTP錯誤狀態和文本消息，錯誤影像行為也會被禁用。
+繼承自 `default::ErrorImage` 的子菜單。 如果已定義但為空，則會禁用錯誤影像行為，即使 `default::ErrorImage` 定義，並返回HTTP錯誤狀態和文本消息。
 
 ## 範例 {#section-c92090abe1d247529542a8dd4960c2e6}
 
-要獲取包含已呈現到影像中的錯誤消息的響應影像，必須首先在影像目錄中定義模板。 在此情況下，我們會在影像目錄中建立名為`onError`的項目，並在`catalog::Modifier`中包含下列項目：
+要獲取包含錯誤資訊的響應影像，必須先在影像目錄中定義模板。 在這種情況下，我們會在映像目錄中建立一個名為 `onError`，包含以下內容 `catalog::Modifier`:
 
 `size=300,300&bgc=ffffff&text=$error.message$`
 
-模板已用`attribute::ErrorImage`註冊：
+模板已註冊 `attribute::ErrorImage`:
 
 `ErrorImage=myCatalog/onError`
 
-在此示例中，將使用預設字型、字型顏色和字型大小來呈現文本。
+在此示例中，使用預設字型、字型顏色和字型大小來呈現文本。
 
 ## 另請參閱 {#section-bbf1f85fc0a34033bdda1dd3e4e0bbb6}
 
-[attribute::RootPath](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md#reference-17d57e5967be403b8408fa7214017494) ,  [catalog::Id](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-id-cat.md),  [attribute::DefaultImage](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-is-cat-defaultimage.md#reference-8e9900e129f54ed68462a3c2fc3bc433),  [attribute::ErrorDetail](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-errordetail.md#reference-4987c8cddcba4c88960170e49cafc561)
+[屬性：:RootPath](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md#reference-17d57e5967be403b8408fa7214017494) 。 [目錄：:ID](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-id-cat.md)。 [屬性：:DefaultImage](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-is-cat-defaultimage.md#reference-8e9900e129f54ed68462a3c2fc3bc433)。 [屬性：:ErrorDetail](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-errordetail.md#reference-4987c8cddcba4c88960170e49cafc561)

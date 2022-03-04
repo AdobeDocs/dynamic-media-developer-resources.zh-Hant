@@ -1,30 +1,30 @@
 ---
-description: 影像伺服器(IS)請求可用作材料影像。
+title: 嵌入式映像伺服器請求
+description: 影像伺服器(IS)請求可以用作材料影像。
 solution: Experience Manager
-title: 內嵌影像伺服器請求
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 4ece9738-45e0-43c0-ba1c-2a05ef1f39be
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '180'
 ht-degree: 0%
 
 ---
 
-# 內嵌影像伺服器請求{#embedded-image-server-requests}
+# 嵌入式映像伺服器請求{#embedded-image-server-requests}
 
-影像伺服器(IS)請求可用作材料影像。
+影像伺服器(IS)請求可以用作材料影像。
 
-在`src=`命令中指定請求，如下所示：
+在 `src=` 命令，如下所示：
 
 ` …&src=is( *[!DNL imageServingRequest]*)&…`
 
-`is`代號區分大小寫。
+的 `is` 令牌區分大小寫。
 
-巢狀請求不得包含「影像伺服」根路徑(通常為[!DNL http:// *[!DNL server]*/is/image/&quot;])，但可能包含預先處理規則Token。
+嵌套請求不得包括Image Service根路徑(通常 [!DNL http:// *[!DNL server]*/is/image/"])，但可能包括預處理規則令牌。
 
-在巢狀請求中指定時（在請求URL中或`catalog::Modifier`或`catalog::PostModifier`中），會忽略下列IS命令：
+當在嵌套請求中指定（在請求URL中或在中）時，將忽略以下IS命令 `catalog::Modifier` 或 `catalog::PostModifier`):
 
 * `bgc=`
 * `fmt=`
@@ -35,8 +35,8 @@ ht-degree: 0%
 * `quantize=`
 * `req=`
 
-套用至內嵌IS請求的影像目錄的`attribute::MaxPix`和`attribute::DefaultPix`也會遭到忽略。
+也忽略 `attribute::MaxPix` 和 `attribute::DefaultPix` 應用於嵌入式IS請求的影像目錄。
 
-如果巢狀請求的結果影像包含遮色片(Alpha)資料，則一律會傳遞至材料。 使用純色背景影像層來避免不想要的Alpha。
+如果嵌套請求的結果影像包括掩碼(α)資料，則始終將其傳遞給材料。 使用純色背景影像圖層以避免不希望的Alpha。
 
-可選擇包含`cache=on`來快取內嵌IS要求的影像結果。 預設會停用中繼資料的快取。 只有當中間映像預期在合理的時間段內在不同請求中重複使用時，才應啟用快取。 標準伺服器端快取管理適用。 資料以無損格式快取。
+可選地通過包括嵌入式IS請求的影像結果來快取 `cache=on`。 預設情況下，中間資料的快取被禁用。 僅當中間映像在合理的時間段內以不同請求重新使用時，才應啟用快取。 應用標準伺服器端快取管理。 資料以無損格式快取。

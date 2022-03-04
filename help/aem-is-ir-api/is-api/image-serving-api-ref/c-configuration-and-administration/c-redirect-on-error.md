@@ -1,46 +1,46 @@
 ---
-description: IS伺服器可配置為針對涉及源映像的請求故障切換到備用伺服器，這些源映像無法成功開啟或讀取。
+description: IS伺服器可配置為對涉及源映像的請求進行故障轉移，這些請求無法成功開啟或讀取。
 solution: Experience Manager
-title: 出現錯誤時重新導向
+title: 錯誤時重定向
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: c5541bf3-3296-4ce3-a2ff-9f6336f78ea9
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
 
-# 出現錯誤時重新導向{#redirect-on-error}
+# 錯誤時重定向{#redirect-on-error}
 
-IS伺服器可配置為針對涉及源映像的請求故障切換到備用伺服器，這些源映像無法成功開啟或讀取。
+IS伺服器可配置為對涉及源映像的請求進行故障轉移，這些請求無法成功開啟或讀取。
 
-系統會重新導向下列類型的請求：
+將重定向以下類型的請求：
 
-* 是目錄中的映像，但不是磁碟上的映像。
+* IS映像位於目錄中，但不在磁碟上。
 
-   如果影像不在目錄中，當找不到影像時，不應發生錯誤重新導向。
+   如果影像不在目錄中，則在找不到影像時不應發生錯誤重定向。
 
 * 損壞的影像、顏色配置檔案或字型。
 * 在磁碟上找不到靜態內容。
 
-   在磁碟上找不到靜態內容請求時，即使引用的靜態內容沒有目錄記錄，靜態內容請求也會被重新導向。
+   在磁碟上找不到靜態內容請求時，即使引用的靜態內容沒有目錄記錄，也會重定向靜態內容請求。
 
-在任何其他情況下都不會發生錯誤重新導向。
+在任何其他情況下都不會發生錯誤重定向。
 
-當啟用時，當請求處理期間發生此類錯誤時，主要伺服器會將請求傳送至次要伺服器進行處理。 無論回應是否指出成功或失敗，都會直接轉送至用戶端。 主伺服器使用`REMOTE`快取來標籤此類轉發請求的日誌條目。 主伺服器不會在本機快取回應資料。
+當啟用時，當在處理請求期間發生此類錯誤時，主伺服器將將請求發送到輔助伺服器以進行處理。 然後將響應直接轉發給客戶機，而不管該響應是指成功還是失敗。 主伺服器標籤此類已轉發請求的日誌條目，並使用快取 `REMOTE`。 主伺服器不在本地快取響應資料。
 
-將`PS::errorRedirect.rootUrl`設定為次伺服器的HTTP域名和埠號，以啟用錯誤重定向。 此外，連接超時配置為`PS::errorRedirect.connectTimeout`，主伺服器在將錯誤返回給客戶端之前等待從次伺服器響應的最大時間配置為`PS::errorRedirect.socketTimeout`。
-
->[!NOTE]
->
->如果無法聯繫次伺服器，則將向客戶端返回文本錯誤響應，即使配置了預設影像或錯誤影像亦然。
+通過設定啟用錯誤重定向 `PS::errorRedirect.rootUrl` 到輔助伺服器的HTTP域名和埠號。 此外，連接超時配置為 `PS::errorRedirect.connectTimeout` 以及主伺服器在將錯誤返回給配置了的客戶端之前等待從伺服器響應的最長時間 `PS::errorRedirect.socketTimeout`。
 
 >[!NOTE]
 >
->錯誤重定向不支援網路路徑中的垂直號字元(|)。
+>如果無法與從屬伺服器聯繫，則即使配置了預設映像或錯誤映像，也會向客戶端返回文本錯誤響應。
+
+>[!NOTE]
+>
+>網路路徑中的管道字元(|)不支援錯誤重定向。
 
 ## 另請參閱 {#section-2e8bfc128b944baf8108279d16492f3f}
 
-[錯誤重定向](../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-error-redirection.md#reference-268b1bf6ce1b44bb979727c6f5daf1ac)
+[重定向錯誤](../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-error-redirection.md#reference-268b1bf6ce1b44bb979727c6f5daf1ac)

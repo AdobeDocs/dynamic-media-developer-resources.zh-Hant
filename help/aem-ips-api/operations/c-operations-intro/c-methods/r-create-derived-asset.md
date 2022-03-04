@@ -1,30 +1,30 @@
 ---
-description: 建立衍生自現有主要來源影像資產的新資產。
+description: 建立從現有主源映像資產派生的新資產。
 solution: Experience Manager
 title: createDerivedAsset
-feature: Dynamic Media Classic,SDK/API，資產管理
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: a3b20a8a-ed0d-40be-9a8c-41ba09b1d724
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '261'
 ht-degree: 8%
 
 ---
 
 # createDerivedAsset{#createderivedasset}
 
-建立衍生自現有主要來源影像資產的新資產。
+建立從現有主源映像資產派生的新資產。
 
 語法
 
 <!--<a id="section_FE43FF204ED644C2AC901AF45982E942"></a>-->
 
-派生資產指定用於修改所有者映像的表示的映像伺服器協定命令。 `AdjustedView`衍生類型有助於對單一影像應用簡單修改（例如，通過指定裁切矩形），而`LayerView`有助於建立可包含文本或其他影像的多層視圖。
+派生的資產指定修改所有者映像表示的映像伺服器協定命令。 的 `AdjustedView` 派生類型有助於對單個影像應用簡單修改（例如，通過指定裁剪矩形），而 `LayerView` 幫助建立可能包含文本或附加影像的多層視圖。
 
-與影像副本（請參閱[copyImage](../../../operations/c-operations-intro/c-methods/r-copy-image.md#reference-0785131e690b4ad08be69172023f35d0)）不同，衍生影像連結至其擁有者影像。 對擁有者影像的變更會修改相關的衍生資產。 刪除擁有者影像將刪除任何相關的衍生影像。
+與影像副本不同(請參見 [複製映像](../../../operations/c-operations-intro/c-methods/r-copy-image.md#reference-0785131e690b4ad08be69172023f35d0))，派生映像連結到其所有者映像。 對所有者映像的更改將修改關聯的派生資產。 刪除所有者映像將刪除任何關聯的派生映像。
 
-## 授權的使用者類型 {#authorized-user-types}
+## 授權用戶類型 {#authorized-user-types}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -39,23 +39,23 @@ ht-degree: 8%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 包含您將從中衍生新資產之資產的公司控制代碼。 |
-| `*`ownerHandle`*` | `xsd:string` | 是 | 衍生新影像的主要影像資產的控制代碼。 |
-| `*`folderHandle`*` | `xsd:string` | 是 | 將在其中建立新派生資產的資料夾的句柄。 |
-| `*`名稱`*` | `xsd:string` | 是 | 衍生資產的名稱。 |
-| `*`類型`*` | `xsd:string` | 是 | 新衍生資產的資產類型：`AdjustedView`或`LayerView`。 |
-| `*`urlModifier`*` | `xsd:string` | 否 | 在&#x200B;*請求或`urlPostApplyModifier`命令之前應用*&#x200B;的影像服務或影像呈現協定命令。 |
-| `*`urlPostApplyModifier`*` | `xsd:string` | 否 | 在&#x200B;*之後*&#x200B;應用到請求或`urlPostApplyModifier`命令的影像伺服或影像呈現協定命令。 |
+| `*`公司句柄`*` | `xsd:string` | 是 | 包含要從中獲取新資產的資產的公司的句柄。 |
+| `*`所有者句柄`*` | `xsd:string` | 是 | 導出新映像的主映像資產的句柄。 |
+| `*`folderHandle`*` | `xsd:string` | 是 | 建立新派生資產的資料夾的句柄。 |
+| `*`名稱`*` | `xsd:string` | 是 | 派生資產的名稱。 |
+| `*`類型`*` | `xsd:string` | 是 | 新衍生資產的資產類型： `AdjustedView` 或 `LayerView`。 |
+| `*`url修飾符`*` | `xsd:string` | 否 | 應用了影像服務或影像呈現協定命令 *先* 請求或 `urlPostApplyModifier` 的雙曲餘切值。 |
+| `*`urlPostApplyModifier`*` | `xsd:string` | 否 | 應用了影像服務或影像呈現協定命令 *後* 請求或 `urlPostApplyModifier` 的雙曲餘切值。 |
 
 **輸出(createDerivedAssetParam)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`assetHandle`*` | `xsd:string` | 是 | 衍生資產的控制代碼。 |
+| `*`資產句柄`*` | `xsd:string` | 是 | 派生資產的句柄。 |
 
 ## 範例 {#section-5d5ea893a1ef4edc8b3a396f1936e8c9}
 
-范常式式碼會建立衍生資產，其中包含調整後的檢視，以及具有任意值的`urlModifier`和`urlPostApplyModifier`。 回應會將控制代碼傳回至新衍生的資產。
+示例代碼建立具有調整視圖和 `urlModifier` 和 `urlPostApplyModifier` 具有任意值。 響應將句柄返回到新派生的資產。
 
 **請求**
 

@@ -1,17 +1,17 @@
 ---
-description: 提供數種高級渲染效果。
+title: 屬性
+description: 有幾種高級渲染效果可用。
 solution: Experience Manager
-title: 高級渲染效果
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 5beec3e4-3923-4192-9b3b-6ba55314ea3c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '23'
-ht-degree: 0%
+source-wordcount: '16'
+ht-degree: 6%
 
 ---
 
 # 高級渲染效果{#advanced-render-effects}
 
-提供數種高級渲染效果。
+有幾種高級渲染效果可用。
