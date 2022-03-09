@@ -1,32 +1,32 @@
 ---
-description: eCatalog搜尋檢視器支援Adobe Analytics立即可用的追蹤功能。
+description: eCatalog Search Viewer支援開箱後的Adobe Analytics跟蹤。
 solution: Experience Manager
-title: 支援Adobe Analytics追蹤
+title: 支援Adobe Analytics跟蹤
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User,Data Engineer,Data Architect
 exl-id: b35e52f5-fa08-4945-aa52-9fdf41a6081a
-source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 4%
 
 ---
 
-# 支援Adobe Analytics追蹤{#support-for-adobe-analytics-tracking}
+# 支援Adobe Analytics跟蹤{#support-for-adobe-analytics-tracking}
 
-eCatalog搜尋檢視器支援Adobe Analytics立即可用的追蹤功能。
+eCatalog Search Viewer支援開箱後的Adobe Analytics跟蹤。
 
-## 現成可用追蹤 {#section-ba994f079d0343c8ae48adffaa3195a3}
+## 現成跟蹤 {#section-ba994f079d0343c8ae48adffaa3195a3}
 
-eCatalog搜尋檢視器支援[!DNL Adobe Analytics]立即追蹤。 若要啟用追蹤，請將正確的公司預設集名稱傳遞為`config2`參數。
+eCatalog Search Viewer支援 [!DNL Adobe Analytics] 追蹤現場。 要啟用跟蹤，請將正確的公司預設名稱作為 `config2` 的下界。
 
-檢視器也會傳送單一追蹤HTTP要求至已設定的影像伺服器，並附上檢視器類型和版本資訊。
+查看器還向配置的Image Server發送單個跟蹤HTTP請求，其中包含查看器類型和版本資訊。
 
-## 自訂追蹤 {#section-cda48fc9730142d0bb3326bac7df3271}
+## 自定義跟蹤 {#section-cda48fc9730142d0bb3326bac7df3271}
 
-若要與協力廠商分析系統整合，必須監聽`trackEvent`檢視器回呼，並視需要處理回呼函式的`eventInfo`引數。 以下代碼是此類處理程式函式的示例：
+要與第三方分析系統整合，必須傾聽 `trackEvent` 查看器回調並處理 `eventInfo` 回調函式的參數。 以下代碼是此類處理程式函式的示例：
 
-```
+```javascript {.line-numbers}
 var eCatalogSearchViewer = new s7viewers.eCatalogSearchViewer({ 
  "containerId":"s7viewer", 
 "params":{ 
@@ -48,47 +48,47 @@ var eCatalogSearchViewer = new s7viewers.eCatalogSearchViewer({
 });
 ```
 
-檢視器會追蹤下列SDK使用者事件：
+查看器跟蹤以下SDK用戶事件：
 
 <table id="table_5D090E6614974D968E1A93B5727D859C"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>SDK使用者事件 </p> </th> 
-   <th colname="col2" class="entry"> <p>傳送時間…… </p> </th> 
+   <th colname="col1" class="entry"> <p>SDK用戶事件 </p> </th> 
+   <th colname="col2" class="entry"> <p>發送時間…… </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LOAD </span> </p> </td> 
-   <td colname="col2"> <p>檢視器會先載入。 </p> </td> 
+   <td colname="col2"> <p>首先載入查看器。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>使用<span class="codeph"> setAsset()</span> API在檢視器中交換資產。 </p> </td> 
+   <td colname="col2"> <p>在查看器中使用 <span class="codeph"> setAsset() </span> API。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZOOM </span> </p> </td> 
-   <td colname="col2"> <p> 放大影像。 </p> </td> 
+   <td colname="col2"> <p> 縮放影像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PAN </span> </p> </td> 
-   <td colname="col2"> <p>影像被鑲嵌。 </p> </td> 
+   <td colname="col2"> <p>一幅圖畫被繪製。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWATCH </span> </p> </td> 
-   <td colname="col2"> <p> 按一下或點選色票即可變更影像。 </p> </td> 
+   <td colname="col2"> <p> 通過按一下或點擊色板，影像將發生更改。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PAGE </span> </p> </td> 
-   <td colname="col2"> <p> 在主視圖中更改當前幀。 </p> </td> 
+   <td colname="col2"> <p> 當前框架在主視圖中發生更改。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ITEM </span> </p> </td> 
-   <td colname="col2"> <p>「資訊面板」彈出窗口已激活。 </p> </td> 
+   <td colname="col2"> <p>將激活資訊面板彈出窗口。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> HREF </span> </p> </td> 
-   <td colname="col2"> <p>因為按一下影像地圖，使用者會導覽至不同頁面。 </p> </td> 
+   <td colname="col2"> <p>用戶通過按一下影像映射導航到其他頁面。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

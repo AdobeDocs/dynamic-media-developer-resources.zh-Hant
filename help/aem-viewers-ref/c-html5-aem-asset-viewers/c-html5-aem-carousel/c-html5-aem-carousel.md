@@ -1,11 +1,11 @@
 ---
 title: 轉盤
-description: 轉盤檢視器是一種檢視器，可顯示不可縮放橫幅影像的轉盤，其中包含可點按的熱點或區域。 此檢視器可協助您實作「可購買的轉盤」體驗，讓使用者可在橫幅影像上選取熱點或區域。 他們可以重新導向至客戶網站上的快速檢視或產品詳細資料頁面。 專為在桌上型電腦和行動裝置上運作而設計。
+description: Carousel Viewer是一個查看器，它顯示帶有可按一下熱點或區域的非可縮放橫幅影像的Carousel。 此查看器可幫助您實現「可購物的旋轉傳送」體驗，用戶可以在橫幅影像上選擇熱點或區域。 他們可以重定向到客戶網站上的Quickview或產品詳細資訊頁面。 它設計用於台式機和移動設備。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: d506dc6e-8929-4f7f-a205-1683e77681f1
-source-git-commit: 4aaa77b1fb58b30b02ee15f6080169fa354d5907
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '1888'
 ht-degree: 0%
@@ -14,156 +14,156 @@ ht-degree: 0%
 
 # 轉盤{#carousel}
 
-轉盤檢視器是一種檢視器，可顯示不可縮放橫幅影像的轉盤，其中包含可點按的熱點或區域。 此檢視器可協助您實作「可購買的轉盤」體驗，讓使用者可在橫幅影像上選取熱點或區域。 他們可以重新導向至客戶網站上的快速檢視或產品詳細資料頁面。 專為在桌上型電腦和行動裝置上運作而設計。
+Carousel Viewer是一個查看器，它顯示帶有可按一下熱點或區域的非可縮放橫幅影像的Carousel。 此查看器可幫助您實現「可購物的旋轉傳送」體驗，用戶可以在橫幅影像上選擇熱點或區域。 他們可以重定向到客戶網站上的Quickview或產品詳細資訊頁面。 它設計用於台式機和移動設備。
 
 >[!NOTE]
 >
->此檢視器不支援使用影像轉譯或使用者產生的內容(UGC)的影像。
+>此查看器不支援使用影像呈現或用戶生成內容(UGC)的影像。
 
-檢視器類型為511。
+查看器類型為511。
 
-## 示範URL {#section-c0ad383db6a444979dc7eeb1ec4cf54d}
+## 演示URL {#section-c0ad383db6a444979dc7eeb1ec4cf54d}
 
 [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html)
 
 ## 系統要求 {#section-b7270cc4290043399681dc504f043609}
 
-請參閱[系統要求](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842)。
+請參閱 [系統要求](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842)。
 
-## 使用轉盤檢視器 {#section-e6c68406ecdc4de781df182bbd8088b4}
+## 使用旋轉軸查看器 {#section-e6c68406ecdc4de781df182bbd8088b4}
 
-轉盤檢視器代表主要JavaScript檔案和一組協助檔案（單一JavaScript包含此特定檢視器、資產、CSS所使用的所有檢視器SDK元件），由檢視器在執行階段下載。
+Carousel查看器表示主JavaScript檔案和一組幫助程式檔案（單個JavaScript包含該查看器在運行時下載的所有Viewer SDK元件，該查看器由該特定查看器、資產和CSS使用）。
 
-轉盤檢視器可以使用隨IS檢視器提供的生產就緒HTML頁面，或以內嵌模式使用，在此模式中，使用記錄的API將其整合至目標網頁。
+Carousel查看器既可以使用隨IS查看器提供的生產就緒HTML頁在彈出模式下使用，也可以使用使用文檔化API將其整合到目標網頁的嵌入式模式。
 
-設定和外觀與本說明中所述其他檢視器的設定和外觀類似。 所有外觀設定都是透過自訂CSS來達成。
+配置和外觀與本幫助中描述的其他查看器的配置和外觀相似。 所有蒙皮都是通過自定義CSS實現的。
 
-請參閱所有檢視器通用的[命令參考 — 設定屬性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)和所有檢視器通用的[命令參考 — URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
+請參閱 [所有查看器通用的命令引用 — 配置屬性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) 和 [所有查看器通用的命令引用 — URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
-## 與轉盤檢視器互動 {#section-642e66ca38cd4032992840ec6c0b0cd2}
+## 與旋轉木馬查看器交互 {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
-在轉盤集中導覽是使用在主檢視上水準滑動，或在案頭裝置上提供兩個箭頭按鈕來完成。 設定指示點顯示設定內的當前位置。
+在旋轉軸集中導航是通過在主視圖上水準滑動或在案頭設備上使用兩個箭頭按鈕來完成的。 設定指示器點顯示設定內的當前位置。
 
-檢視器可呈現橫幅影像頂端的熱點或區域，以指出產品上的互動區域。
+查看器可以呈現橫幅影像頂部的熱點或區域，以指示產品上的交互區域。
 
-按一下或點選熱點或區域，會在製作期間觸發與其相關聯的動作。 動作可重新導向至網站上的不同頁面，或者可將產品資訊傳回網頁邏輯，而邏輯又可觸發包含相關產品內容的快速檢視。
+按一下或點擊某個熱點或某個區域會在創作期間觸發與其關聯的操作。 該動作可以被重定向到網站上的不同頁面，或者它可以將產品資訊傳回網頁邏輯，而網頁邏輯又可以觸發具有相關產品內容的Quickview。
 
-檢視器可完全鍵盤存取。
+可以完全使用鍵盤訪問查看器。
 
-請參閱[鍵盤輔助功能和導航](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861)。
+請參閱 [鍵盤輔助功能和導航](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861)。
 
-## 內嵌轉盤檢視器 {#section-6bb5d3c502544ad18a58eafe12a13435}
+## 嵌入旋轉軸查看器 {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-**關於快顯模式**
+**關於彈出模式**
 
-在快顯模式中，檢視器會在個別的網頁瀏覽器視窗或標籤中開啟。 它會取用整個瀏覽器視窗區域，並在瀏覽器調整大小或行動裝置的方向變更時進行調整。
+在彈出模式下，在單獨的Web瀏覽器窗口或頁籤中開啟查看器。 它會佔用整個瀏覽器窗口區域，並在瀏覽器調整大小或移動設備的方向發生變化時進行調整。
 
-快顯模式是行動裝置最常見的模式。 網頁會使用`window.open()` JavaScript呼叫、正確設定的`A` HTML元素或任何其他適當的方法載入檢視器。
+彈出模式是移動設備中最常見的模式。 網頁使用 `window.open()` JavaScript調用，正確配置 `A` HTML元件或任何其它合適的方法。
 
-建議您對快顯作業模式使用現成可用的HTML頁面。 在此情況下，稱為`CarouselViewer.html`，位於標準IS-Viewers部署的`html5/`子資料夾中：
+建議您使用現成HTML頁面進行彈出操作模式。 在這種情況下，它叫 `CarouselViewer.html` 位於 `html5/` 標準IS查看器部署的子資料夾：
 
 `<s7viewers_root>/html5/CarouselViewer.html`
 
-您可以套用自訂CSS來達到視覺化自訂。
+通過應用自定義CSS，可以實現可視化定製。
 
-以下是在新視窗中開啟檢視器的HTML程式碼範例：
+以下是在新窗口中開啟查看器的HTML代碼示例：
 
-```
+```html {.line-numbers}
 <a href="https://demos-pub.assetsadobe.com/etc/dam/viewers/s7viewers/html5/CarouselViewer.html?asset=/content/dam/dm-public-facing-live-demo-page/04_shoppable_carousel/05_shoppable_banner&serverurl=https://adobedemo62-h.assetsadobe.com/is/image" target="_blank">Open popup viewer</a>
 ```
 
-**關於固定大小嵌入模式和響應式設計嵌入模式**
+**關於固定尺寸嵌入模式和響應設計嵌入模式**
 
-在內嵌模式中，檢視器會新增至現有網頁。 此網頁可能已有一些與檢視器無關的客戶內容。 觀看者通常只佔有網頁的一部分房地產。
+在嵌入模式中，查看器被添加到現有網頁。 此網頁可能已包含一些與查看器無關的客戶內容。 瀏覽者通常只佔用網頁的一部分房地產。
 
-主要使用案例為以桌上型電腦或平板電腦裝置為導向的網頁，以及回應式設計的頁面，這些頁面會根據裝置類型自動調整版面。
+主要使用案例是面向台式機或平板電腦設備的網頁，以及響應性設計的頁面，這些頁面根據設備類型自動調整佈局。
 
-當檢視器在初始載入後未變更大小時，會使用固定大小內嵌。 此方法是靜態版面的網頁最佳選擇。
+當查看器在初始載入後不更改其大小時，使用固定大小嵌入。 此方法是具有靜態佈局的網頁的最佳選擇。
 
-回應式設計內嵌假設檢視器必須在執行階段調整大小，以回應其容器`DIV`的大小變更。 最常見的使用案例是在使用彈性頁面版面的網頁中新增檢視器。
+響應性設計嵌入假定查看器必須在運行時根據其容器的大小變化調整大小 `DIV`。 最常見的用例是向使用靈活頁面佈局的網頁添加查看器。
 
-在回應式設計內嵌模式中，檢視器的運作方式會因網頁大小其容器`DIV`而有所不同。 如果網頁僅設定容器的寬度`DIV`，保持高度不受限制，則檢視器會根據所使用資產的外觀比例自動選擇其高度。 此功能可確保資產完全符合檢視，而無需邊框上的邊框間距。 此使用案例是使用回應式網頁設計配置架構(例如Bootstrap和Foundation)的網頁中最常見的使用案例。
+在響應性設計嵌入模式中，查看器根據網頁大小其容器的方式而具有不同的行為 `DIV`。 如果網頁僅設定容器的寬度 `DIV`在保持高度不受限制的情況下，觀看者根據所使用資產的縱橫比自動選擇其高度。 此功能可確保資產完美地貼入視圖中，而不會在側面出現任何填充。 此使用案例是使用響應性Web設計佈局框架(如Bootstrap和Foundation)的Web頁面中最常見的使用案例。
 
-否則，如果網頁同時設定了查看器容器`DIV`的寬度和高度，則查看器只會填充該區域。 它也會遵循網頁版面提供的大小。 一個很好的範例是將檢視器嵌入強制回應覆蓋中，其中覆蓋會根據網頁瀏覽器視窗大小來調整大小。
+否則，如果網頁為查看者的容器設定寬度和高度 `DIV`，查看器將填充該區域。 它還遵循網頁佈局提供的大小。 一個很好的例子是將查看器嵌入到模式覆蓋中，其中覆蓋根據Web瀏覽器窗口大小進行大小調整。
 
 **固定大小嵌入**
 
-您可以執行下列操作，將檢視器新增至網頁：
+通過執行以下操作，可將查看器添加到網頁：
 
-1. 將檢視器JavaScript檔案新增至您的網頁。
-1. 定義容器`DIV`。
-1. 設定檢視器大小。
-1. 建立和初始化檢視器。
+1. 將查看器JavaScript檔案添加到網頁。
+1. 定義容器 `DIV`。
+1. 設定查看器大小。
+1. 建立和初始化查看器。
 
-1. 將檢視器JavaScript檔案新增至您的網頁。
+1. 將查看器JavaScript檔案添加到網頁。
 
-   建立檢視器需要在HTML標題中新增指令碼標籤。 使用檢視器API之前，請務必加入[!DNL CarouselViewer.js]。 [!DNL CarouselViewer.js]檔案位於標準IS-Viewers部署的[!DNL html5/js/]子資料夾下：
+   建立查看器要求在HTML頭中添加指令碼標籤。 在使用查看器API之前，請確保包括 [!DNL CarouselViewer.js]。 的 [!DNL CarouselViewer.js] 檔案位於 [!DNL html5/js/] 標準IS查看器部署的子資料夾：
 
 [!DNL <s7viewers_root>/etc/dam/viewers/s7viewers/html5/js/CarouselViewer.js]
 
-如果檢視器部署在其中一個AdobeDynamic Media Classic伺服器上，且是從相同網域提供，則可使用相對路徑。 否則，您需指定安裝IS-Viewers之其中一個AdobeDynamic Media Classic伺服器的完整路徑。
+如果查看器部署在其中一個Adobe Dynamic Media Classic伺服器上，並且從同一域提供服務，則可以使用相對路徑。 否則，您將指定到安裝了IS-Viewers的Adobe Dynamic Media Classic伺服器之一的完整路徑。
 
 相對路徑如下所示：
 
-```
+```html {.line-numbers}
 <script language="javascript" type="text/javascript" src="/etc/dam/viewers/s7viewers/html5/js/CarouselViewer.js"></script>
 ```
 
 >[!NOTE]
 >
->僅參考頁面上的主檢視器JavaScript `include`檔案。 請勿在網頁程式碼中參考任何其他JavaScript檔案，這些檔案可能會由檢視器的邏輯在執行階段下載。 尤其是，請勿直接參考檢視器從`/s7viewers`內容路徑（稱為統一SDK `include`）載入的HTML5 SDK `Utils.js`程式庫。 原因在於，`Utils.js`或類似的執行階段檢視器程式庫的位置，是由檢視器的邏輯完全管理，且檢視器版本之間的位置變更。 Adobe不會在伺服器上保留舊版次要檢視器`includes`。
+>僅引用主查看器JavaScript `include` 檔案。 不要引用網頁代碼中任何可能在運行時由查看器邏輯下載的附加JavaScript檔案。 特別是，不直接引用HTML5 SDK `Utils.js` 由查看器從 `/s7viewers` 上下文路徑（所謂統一SDK） `include`)。 原因是 `Utils.js` 或類似的運行時查看器庫由查看器的邏輯和查看器版本之間的位置更改進行完全管理。 Adobe不保留舊版次查看器 `includes` 在伺服器上。
 >
 >
->因此，將檢視器使用的任何次要JavaScript `include`的直接參考放在頁面上，會在未來部署新產品版本時中斷檢視器的功能。
+>因此，直接引用任何輔助JavaScript `include` 該頁面上的查看器使用的瀏覽器功能將在部署新產品版本時中斷查看器功能。
 
-1. 定義容器`DIV`。
+1. 定義容器 `DIV`。
 
-   將空白的`DIV`元素新增至您希望檢視器顯示的頁面。 `DIV`元素必須已定義其ID，因為此ID稍後會傳遞至檢視器API。 DIV的大小是透過CSS指定。
+   添加空 `DIV` 元素。 的 `DIV` 元素必須定義其ID，因為此ID稍後會傳遞給查看器API。 DIV的大小通過CSS指定。
 
-   佔位符`DIV`是定位的元素，這意味著`position` CSS屬性設定為`relative`或`absolute`。
+   佔位符 `DIV` 是定位元素，表示 `position` CSS屬性設定為 `relative` 或 `absolute`。
 
-   以下是定義的佔位符`DIV`元素的示例：
+   以下是定義佔位符的示例 `DIV` 元素：
 
-   ```
+   ```CSS {.line-numbers}
    <div id="s7viewer" style="position:relative"></div>
    ```
 
-1. 設定檢視器大小
+1. 設定查看器大小
 
-   您可以為檢視器設定靜態大小，方法是以絕對單位為`.s7carouselviewer`頂層CSS類別聲明，或使用`stagesize`修飾詞。
+   可以通過為聲明查看器來設定其靜態大小 `.s7carouselviewer` 頂級CSS類（以絕對單位表示），或使用 `stagesize` 修改量。
 
-   您可以直接在HTML頁面上將大小調整為CSS。 或者，您可以將大小調整放在自訂檢視器CSS檔案中，該檔案稍後會指派給AEM Assets — 隨選的檢視器預設集記錄，或使用`style`命令明確傳遞。
+   您可以將大小調整直接放在CSS中的HTML頁。 或者，您可以將大小調整放在自定義查看器CSS檔案中，該檔案稍後會分配給AEM Assets的查看器預設記錄 — 按需分配，或使用 `style` 的子菜單。
 
-   如需使用CSS來設定檢視器樣式的詳細資訊，請參閱[自訂轉盤檢視器](../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0)。
+   請參閱 [自定義旋轉軸查看器](../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) 的子菜單。
 
-   以下是在HTML頁面中定義靜態檢視器大小的範例：
+   下面是在HTML頁中定義靜態查看器大小的示例：
 
-   ```
+   ```CSS {.line-numbers}
    #s7viewer.s7carouselviewer { 
     width: 1174px; 
     height: 500px; 
    }
    ```
 
-   您可以使用包含`params`集合的檢視器初始化程式碼，或如「命令參考」區段所述，以API呼叫的形式明確傳遞`stagesize`修飾元，如下所示：
+   您可以顯式 `stagesize` 具有查看器初始化代碼的修改符 `params` 或作為API調用（如「命令參考」部分中所述），如下所示：
 
-   ```
+   ```CSS {.line-numbers}
    carouselViewer.setParam("stagesize", "1174,500");
    ```
 
-   建議使用CSS型方法，此範例中會使用。
+   建議使用基於CSS的方法，並在本示例中使用。
 
-1. 建立和初始化檢視器。
+1. 建立和初始化查看器。
 
-   完成上述步驟後，可以建立一個`s7viewers.CarouselViewer`類的實例，將所有配置資訊傳遞到其建構子，並在查看器實例上調用`init()`方法。 設定資訊會以JSON物件的形式傳遞至建構函式。 此物件至少應有`containerId`欄位，該欄位包含檢視器容器ID的名稱，並巢狀`params` JSON物件，以及檢視器支援的設定參數。 在此情況下，`params`物件至少必須以`serverUrl`屬性傳遞影像伺服URL，並以`asset`參數傳遞初始資產。 JSON型初始化API可讓您使用一行程式碼來建立和啟動檢視器。
+   完成上述步驟後，將建立 `s7viewers.CarouselViewer` 類，將所有配置資訊傳遞給其建構子，並調用 `init()` 的子常式。 配置資訊作為JSON對象傳遞給建構子。 至少，此對象應 `containerId` 包含查看器容器ID和嵌套名稱的欄位 `params` 具有查看器支援的配置參數的JSON對象。 在這個例子中， `params` 對象必須至少將Image Serving URL傳遞為 `serverUrl` 及初始資產 `asset` 的下界。 基於JSON的初始化API允許您使用單行代碼建立和啟動查看器。
 
-   請務必將檢視器容器新增至DOM，讓檢視器程式碼可以透過其ID來尋找容器元素。 有些瀏覽器會延遲建立DOM，直到網頁結尾為止。 如需最大相容性，請在結尾的`BODY`標籤前，或在內文`onload()`事件上呼叫`init()`方法。
+   必須將查看器容器添加到DOM中，以便查看器代碼可以通過其ID查找容器元素。 某些瀏覽器將生成DOM延遲到網頁結束。 要獲得最大相容性，請調用 `init()` 方法 `BODY` 標籤，或者身上 `onload()` 的子菜單。
 
-   同時，容器元素還不一定是網頁版面的一部分。 例如，可使用指派給它的`display:none`樣式來隱藏它。 在此情況下，檢視器會延遲其初始化程式，直到網頁將容器元素帶回版面的那一刻為止。 當此功能發生時，檢視器載入會自動恢復。
+   同時，容器元素還不一定是網頁佈局的一部分。 例如，它可能隱藏在 `display:none` 指定的樣式。 在這種情況下，查看器將其初始化過程延遲到網頁將容器元素帶回佈局的那一刻。 當此功能出現時，查看器載入將自動恢復。
 
-   以下是建立查看器實例、將最小必要配置選項傳遞給建構子並調用`init()`方法的示例。 此範例假設`carouselViewer`為檢視器例項；`s7viewer`是佔位符`DIV`的名稱；`https://adobedemo62-h.assetsadobe.com/is/image`是影像伺服URL，而`/content/dam/dm-public-facing-live-demo-page/04_shoppable_carousel/05_shoppable_banner`是資產：
+   以下是建立查看器實例、將最小必要配置選項傳遞給建構子並調用 `init()` 的雙曲餘切值。 該示例假定 `carouselViewer` 是查看器實例； `s7viewer` 是佔位符的名稱 `DIV`; `https://adobedemo62-h.assetsadobe.com/is/image` 是影像服務URL, `/content/dam/dm-public-facing-live-demo-page/04_shoppable_carousel/05_shoppable_banner` 是資產：
 
-   ```
+   ```javascript {.line-numbers}
    <script type="text/javascript"> 
    var carouselViewer = new s7viewers.CarouselViewer ({ 
     "containerId":"s7viewer", 
@@ -175,9 +175,9 @@ ht-degree: 0%
    </script>
    ```
 
-   下列程式碼是內嵌固定大小轉盤檢視器的簡單網頁的完整範例：
+   以下代碼是嵌入固定大小的Carousel查看器的普通網頁的完整示例：
 
-   ```
+   ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
    <head> 
@@ -204,11 +204,11 @@ ht-degree: 0%
    </html>
    ```
 
-**無限制高度的回應式設計內嵌**
+**具有無限制高度的響應設計嵌入**
 
-透過回應式設計內嵌，網頁通常會有某種彈性的版面配置，指定檢視器容器`DIV`的執行階段大小。 在下列範例中，假設網頁允許檢視器的容器`DIV`取用40%的網頁瀏覽器視窗大小。 而且，它的高度不受限制。 網頁HTML程式碼如下所示：
+通過響應性設計嵌入，網頁通常具有某種靈活的佈局，其指示查看者容器的運行時大小 `DIV`。 對於以下示例，假定該網頁允許查看者的容器 `DIV` 以獲取40%的Web瀏覽器窗口大小。 而且它的高度沒有限制。 網頁HTML代碼如下所示：
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -224,15 +224,15 @@ ht-degree: 0%
 </html>
 ```
 
-將檢視器新增至此類頁麵類似於固定大小內嵌的步驟。 唯一的差異是您不需要明確定義檢視器大小。
+將查看器添加到此頁麵類似於固定大小嵌入的步驟。 唯一的區別是您不需要顯式定義查看器大小。
 
-1. 將檢視器JavaScript檔案新增至您的網頁。
-1. 定義容器`DIV`。
-1. 建立和初始化檢視器。
+1. 將查看器JavaScript檔案添加到網頁。
+1. 定義容器 `DIV`。
+1. 建立和初始化查看器。
 
-上述所有步驟與固定大小嵌入相同。 將容器`DIV`新增至現有的`"holder"` `DIV`。 下列程式碼為完整的範例。 注意當瀏覽器調整大小時，檢視器大小會如何變更，以及檢視器外觀比例與資產如何相符。
+上述步驟與固定尺寸嵌入步驟相同。 添加容器 `DIV` 到現有 `"holder"` `DIV`。 以下代碼是一個完整的示例。 注意在調整瀏覽器大小時查看器大小如何變化，以及查看器縱橫比如何與資產匹配。
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -260,15 +260,15 @@ var carouselViewer = new s7viewers.CarouselViewer({
 </html>
 ```
 
-下列範例頁面說明在實際使用中，不受限制高度的回應式設計內嵌：
+以下示例頁說明了具有無限制高度的響應設計嵌入在現實生活中的更多用途：
 
 [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html)
 
-**定義寬度和高度的靈活大小嵌入**
+**定義寬高的柔性尺寸嵌入**
 
-在已定義寬度和高度的彈性大小內嵌中，網頁樣式不同。 它會為`"holder"` DIV提供兩種大小，並在瀏覽器視窗中將其置中。 此外，網頁還將`HTML`和`BODY`元素的大小設定為100%。
+在定義了寬度和高度的柔性大小嵌入中，網頁樣式是不同的。 它為 `"holder"` DIV並將其置於瀏覽器窗口中。 此外，網頁還設定 `HTML` 和 `BODY` 元素到100%。
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -292,9 +292,9 @@ height: 60%;
 </html>
 ```
 
-其餘的嵌入步驟與用於具有不受限制高度的響應嵌入的步驟相同。 產生的範例如下：
+其餘的嵌入步驟與用於具有無限制高度的響應嵌入的步驟相同。 結果示例如下：
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -332,11 +332,11 @@ var carouselViewer = new s7viewers.CarouselViewer({
 
 **使用基於Setter的API嵌入**
 
-您可以使用setter型API和無目標建構函式，而不使用JSON型初始化。 使用此API建構函式時不會採用任何參數，且會使用具有個別JavaScript呼叫的`setContainerId()`、`setParam()`及`setAsset()` API方法指定設定參數。
+可以不使用基於JSON的初始化，而是使用基於setter的API和no-args建構子。 使用此API建構子不採用任何參數，配置參數是使用 `setContainerId()`。 `setParam()`, `setAsset()` API方法，具有單獨的JavaScript調用。
 
-以下範例說明如何使用固定大小內嵌搭配setter型API:
+以下示例說明了將固定大小嵌入與基於setter的API一起使用：
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 

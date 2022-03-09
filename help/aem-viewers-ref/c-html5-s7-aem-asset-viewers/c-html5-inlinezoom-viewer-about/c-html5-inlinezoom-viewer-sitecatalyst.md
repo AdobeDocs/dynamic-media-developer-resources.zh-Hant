@@ -1,32 +1,32 @@
 ---
-title: 支援Adobe Analytics追蹤
-description: 彈出檢視器支援Adobe Analytics立即可用的追蹤。
+title: 支援Adobe Analytics跟蹤
+description: Flyout查看器支援Adobe Analytics從機箱中跟蹤。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User,Data Engineer,Data Architect
 exl-id: e5ffe8a8-6c25-4fc2-8c25-90bc7e0b416c
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 2%
 
 ---
 
-# 支援Adobe Analytics追蹤{#support-for-adobe-analytics-tracking}
+# 支援Adobe Analytics跟蹤{#support-for-adobe-analytics-tracking}
 
-彈出檢視器支援Adobe Analytics立即可用的追蹤。
+Flyout查看器支援Adobe Analytics從機箱中跟蹤。
 
-## 現成可用追蹤 {#section-ba994f079d0343c8ae48adffaa3195a3}
+## 現成跟蹤 {#section-ba994f079d0343c8ae48adffaa3195a3}
 
-內嵌縮放檢視器支援 [!DNL Adobe Analytics] 立即追蹤。 若要啟用追蹤，請將正確的公司預設集名稱傳遞為 `config2` 參數。
+內聯縮放查看器支援 [!DNL Adobe Analytics] 追蹤現場。 要啟用跟蹤，請將正確的公司預設名稱作為 `config2` 的下界。
 
-檢視器也會傳送單一追蹤HTTP要求至已設定的影像伺服器，並附上檢視器類型和版本資訊。
+查看器還向配置的Image Server發送單個跟蹤HTTP請求，其中包含查看器類型和版本資訊。
 
-## 自訂追蹤 {#section-cda48fc9730142d0bb3326bac7df3271}
+## 自定義跟蹤 {#section-cda48fc9730142d0bb3326bac7df3271}
 
-若要與協力廠商分析系統整合，必須監聽 `trackEvent` 檢視器回呼及處理 `eventInfo` 回呼函式的引數。 以下代碼是此類處理程式函式的示例：
+要與第三方分析系統整合，必須傾聽 `trackEvent` 查看器回調並處理 `eventInfo` 回調函式的參數。 以下代碼是此類處理程式函式的示例：
 
-```
+```javascript {.line-numbers}
 var inlineZoomViewer = new s7viewers.FlyoutViewer({ 
  "containerId":"s7viewer", 
 "params":{ 
@@ -50,35 +50,35 @@ var inlineZoomViewer = new s7viewers.FlyoutViewer({
 });
 ```
 
-檢視器會追蹤下列SDK使用者事件：
+查看器跟蹤以下SDK用戶事件：
 
 <table id="table_5D090E6614974D968E1A93B5727D859C"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>SDK使用者事件 </p> </th> 
-   <th colname="col2" class="entry"> <p>傳送時間…… </p> </th> 
+   <th colname="col1" class="entry"> <p>SDK用戶事件 </p> </th> 
+   <th colname="col2" class="entry"> <p>發送時間…… </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LOAD </span> </p> </td> 
-   <td colname="col2"> <p>檢視器會先載入。 </p> </td> 
+   <td colname="col2"> <p>首先載入查看器。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>在檢視器中，會使用 <span class="codeph"> setAsset() </span> API。 </p> </td> 
+   <td colname="col2"> <p>在查看器中使用 <span class="codeph"> setAsset() </span> API。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZOOM </span> </p> </td> 
-   <td colname="col2"> <p>彈出窗口被激活或縮放級別被更改。 </p> </td> 
+   <td colname="col2"> <p>激活浮動或更改縮放級別。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PAN </span> </p> </td> 
-   <td colname="col2"> <p> 影像被鑲嵌。 </p> </td> 
+   <td colname="col2"> <p> 一幅圖畫被繪製。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWATCH </span> </p> </td> 
-   <td colname="col2"> <p> 按一下或點選色票即可變更影像。 </p> </td> 
+   <td colname="col2"> <p> 通過按一下或點擊色板來更改影像。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

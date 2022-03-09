@@ -1,11 +1,11 @@
 ---
-title: Support for Adobe Analytics tracking
-description: The Spin Viewer supports Adobe Analytics tracking out of the box.
+title: 支援Adobe Analytics跟蹤
+description: Spin Viewer支援Adobe Analytics從機箱中跟蹤。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 30762700-6d69-4299-9492-57893232abe1
-source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 3%
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # 支援Adobe Analytics跟蹤{#support-for-adobe-analytics-tracking}
 
-The Spin Viewer supports Adobe Analytics tracking out of the box.
+Spin Viewer支援Adobe Analytics從機箱中跟蹤。
 
 ## 現成跟蹤 {#section-d06145cfa2b9491bb485b599368d466e}
 
@@ -26,9 +26,9 @@ Spin Viewer支援Adobe Analytics開箱跟蹤。
 
 ## 自定義跟蹤 {#section-47512156a1d64b338b50cfa39c84f4aa}
 
-To integrate with third-party analytics systems, it is necessary to listen to the `trackEvent` viewer callback and process the `eventInfo` argument of the callback function, as necessary. 以下代碼是此類處理程式函式的示例：
+要與第三方分析系統整合，必須傾聽 `trackEvent` 查看器回調並處理 `eventInfo` 回調函式的參數（如需要）。 以下代碼是此類處理程式函式的示例：
 
-```
+```javascript {.line-numbers}
 var spinViewer = new s7viewers.SpinViewer({ 
  "containerId":"s7viewer", 
 "params":{ 
@@ -55,14 +55,14 @@ var spinViewer = new s7viewers.SpinViewer({
 <table id="table_5D090E6614974D968E1A93B5727D859C"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>SDK user event </p> </th> 
-   <th colname="col2" class="entry"> <p>Sent when... </p> </th> 
+   <th colname="col1" class="entry"> <p>SDK用戶事件 </p> </th> 
+   <th colname="col2" class="entry"> <p>發送時間…… </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LOAD </span> </p> </td> 
-   <td colname="col2"> <p>viewer is loaded first. </p> </td> 
+   <td colname="col2"> <p>首先載入查看器。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 

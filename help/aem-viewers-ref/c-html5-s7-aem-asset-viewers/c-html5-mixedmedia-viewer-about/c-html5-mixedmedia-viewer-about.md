@@ -6,7 +6,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 65a54308-f9db-4458-a9c3-ccb1433af43c
-source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '2645'
 ht-degree: 0%
@@ -106,7 +106,7 @@ ht-degree: 0%
 
 以下是在新窗口中開啟查看器的HTML代碼示例：
 
-```
+```html {.line-numbers}
 <a href="http://s7d1.scene7.com/s7viewers/html5/MixedMediaViewer.html?asset=Scene7SharedAssets/Mixed_Media_Set_Sample" target="_blank">Open popup viewer</a>
 ```
 
@@ -143,7 +143,7 @@ ht-degree: 0%
 
 相對路徑如下所示：
 
-```
+```html {.line-numbers}
 <script language="javascript" type="text/javascript" src="/s7viewers/html5/js/MixedMediaViewer.js"></script>
 ```
 
@@ -164,7 +164,7 @@ ht-degree: 0%
 
    以下是定義的佔位符DIV元素的示例：
 
-   ```
+   ```html {.line-numbers}
    <div id="s7viewer" style="position:relative"></div> 
    ```
 
@@ -178,7 +178,7 @@ ht-degree: 0%
 
    以下是在HTML頁中定義靜態外部查看器大小的示例：
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7mixedmediaviewer { 
     width: 640px; 
     height: 480px; 
@@ -193,7 +193,7 @@ ht-degree: 0%
 
    以下是定義內部查看器大小的示例 `Container` SDK元件，以便在切換資產時主視圖區域不更改其大小：
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7mixedmediaviewer .s7container { 
     width: 640px; 
     height: 480px; 
@@ -206,7 +206,7 @@ ht-degree: 0%
 
    可以設定 `stagesize` 修飾符，在Dynamic Media Classic的查看器預設記錄中，或用查看器初始化代碼將其顯式傳遞 `params` 的下界。 或者，如本幫助的「命令參考」部分所述，作為API調用，如下所述：
 
-   ```
+   ```html {.line-numbers}
    mixedMediaViewer.setParam("stagesize", "640,480");
    ```
 
@@ -222,7 +222,7 @@ ht-degree: 0%
 
    以下是建立查看器實例、將最小必要配置選項傳遞給建構子並調用 `init()` 的雙曲餘切值。 該示例假定 `mixedMediaViewer` 是查看器實例； `s7viewer` 是佔位符的名稱 `DIV`; [!DNL http://s7d1.scene7.com/is/image/] 是影像服務URL; [!DNL http://s7d1.scene7.com/is/content/] 是視頻伺服器URL;和 [!DNL Scene7SharedAssets/Mixed_Media_Set_Sample] 是資產：
 
-```
+```html {.line-numbers}
 <script type="text/javascript"> 
 var mixedMediaViewer = new s7viewers.MixedMediaViewer({ 
  "containerId":"s7viewer", 
@@ -240,7 +240,7 @@ mixedMediaViewer.init();
 
 以下代碼是嵌入固定大小的混合媒體查看器的普通網頁的完整示例：
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -272,7 +272,7 @@ var mixedMediaViewer = new s7viewers.MixedMediaViewer({
 
 通過響應性設計嵌入，網頁通常具有某種靈活的佈局，其指示查看者容器的運行時大小 `DIV`。 對於以下示例，假定該網頁允許查看者的容器 `DIV` 以取Web瀏覽器窗口大小的40%，使其高度不受限制。 網頁HTML代碼如下所示：
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -296,7 +296,7 @@ var mixedMediaViewer = new s7viewers.MixedMediaViewer({
 
 上述步驟與固定尺寸嵌入步驟相同。 將容器DIV添加到現有 `"holder"` DIV 以下代碼是一個完整的示例。 注意當瀏覽器調整大小時查看器大小如何變化，以及查看器縱橫比如何匹配資產。
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -335,7 +335,7 @@ var mixedMediaViewer = new s7viewers.MixedMediaViewer({
 
 如果定義了寬度和高度的靈活大小嵌入，則網頁樣式會有所不同。 它為 `"holder"` DIV並將其居中到瀏覽器窗口中。 此外，網頁還設定 `HTML` 和 `BODY` 元素到100%。
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -361,7 +361,7 @@ height: 60%;
 
 其餘嵌入步驟與用於具有無限制高度的響應設計嵌入的步驟相同。 結果示例如下：
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -404,7 +404,7 @@ var mixedMediaViewer = new s7viewers.MixedMediaViewer({
 
 以下示例說明了將固定大小嵌入與基於setter的API一起使用：
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 

@@ -1,48 +1,48 @@
 ---
-description: 若要將回應式影像程式庫新增至網頁，並使用程式庫管理現有影像，請完成下列步驟。
+title: 使用響應映像庫
+description: 要將響應映像庫添加到網頁並使用該庫管理現有映像，請完成以下步驟。
 solution: Experience Manager
-title: 使用回應式影像庫
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2542b9f3-c398-4dbf-afa3-1671fc4fe72a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '553'
 ht-degree: 0%
 
 ---
 
-# 使用回應式影像庫{#using-responsive-image-library}
+# 使用響應映像庫{#using-responsive-image-library}
 
-若要將回應式影像程式庫新增至網頁，並使用程式庫管理現有影像，請完成下列步驟。
+要將響應映像庫添加到網頁並使用該庫管理現有映像，請完成以下步驟。
 
-**使用回應式影像庫的方式**
+**使用響應映像庫**
 
-1. 在Dynamic Media Classic中，[建立影像預設集](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html#image-sizing)，以備您打算搭配預設使用回應式影像資料庫時使用。
+1. 在Dynamic Media Classic, [建立影像預設](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html#image-sizing) 以防您計畫使用帶預設的響應影像庫。
 
-   定義與回應式影像資料庫搭配使用的影像預設集時，請勿使用任何影響影像大小的設定，例如`wid=`、`hei=`或`scl=`。 請勿在「影像預設集」中指定任何大小欄位。 請改為保留為空白值。
-1. 將程式庫JavaScript檔案新增至您的網頁。
+   在定義與響應影像庫一起使用的影像預設時，不要使用任何影響影像大小的設定，如 `wid=`。 `hei=`或 `scl=`。 不要在「影像預設」中指定任何大小欄位。 相反，將其保留為空值。
+1. 將庫JavaScript檔案添加到網頁。
 
-   請務必加入`responsive_image.js`，才能使用程式庫API。 此JavaScript檔案位於標準IS-Viewers部署的`libs/`子資料夾中：
+   在使用庫API之前，請確保包括 `responsive_image.js`。 此JavaScript檔案位於 `libs/` 標準IS查看器部署的子資料夾：
 
    `<s7viewers_root>/libs/responsive_image.js`
-1. 設定現有影像。
+1. 設定現有映像。
 
-   程式庫會從其使用的影像例項中讀取特定設定屬性。 在為此影像呼叫`s7responsiveImage` API函式之前定義屬性。
+   庫從它正在使用的映像實例中讀取某些配置屬性。 在 `s7responsiveImage` 調用API函式來獲取此映像。
 
-   建議您將現有影像URL放入`data-src`屬性中。 然後，設定現有的`src`屬性，使其具有編碼為資料URI的1x1 GIF影像。 這麼做可減少網頁在載入時傳送的HTTP要求數量。 不過請注意，如果需要SEO（搜尋引擎最佳化），最好在影像例項上設定`title`屬性。
+   還建議將現有影像URL放入 `data-src` 屬性。 然後，設定現有 `src` 屬性，將1x1GIF影像編碼為資料URI。 這樣，可減少網頁在載入時發送的HTTP請求數。 但請注意，如果需要SEO（搜索引擎優化），最好設定 `title` 屬性。
 
-   以下是定義影像的`data-breakpoints`屬性並使用1x1 GIF編碼為資料URI的示例：
+   以下是定義 `data-breakpoints` 影像的屬性，並使用編碼為資料URI的1x1GIF:
 
    ```
    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360,720,940">
    ```
 
-1. 呼叫程式庫所管理之每個影像例項的`s7responsiveImage` API函式。
+1. 呼叫 `s7responsiveImage` 庫管理的每個映像實例的API函式。
 
-   呼叫程式庫所管理之每個影像例項的`s7responsiveImage` API函式。 在這類呼叫後，程式庫會根據網頁版面中`IMG`元素的執行階段大小和裝置畫面密度，以從「影像伺服」下載的影像取代原始影像。
+   呼叫 `s7responsiveImage` 庫管理的每個映像實例的API函式。 在這樣的調用之後，庫根據映像服務的運行時大小，用從映像服務下載的映像替換原始映像 `IMG` 網頁佈局中的元素和設備螢幕的密度。
 
-   以下程式碼是在影像上呼叫`s7responsiveImage` API函式的範例，假設`responsiveImage`為該影像的ID:
+   以下代碼是調用的示例 `s7responsiveImage` API函式，假設 `responsiveImage` 是該影像的ID:
 
    ```
    <script type="text/javascript"> 
@@ -52,13 +52,13 @@ ht-degree: 0%
 
 ## 範例 {#example-0509a0dd2a8e4fd58b5d39a0df47bd87}
 
-程式庫支援同時處理網頁上的許多影像例項。 因此，請針對您希望程式庫管理的每個影像，重複上述步驟1和2。
+該庫支援同時處理網頁上的許多影像實例。 因此，對希望庫管理的每個映像重複上述步驟1和2。
 
-網頁有責任為影像元素設定樣式，以使其在大小上有彈性。 回應式影像庫本身不會區分固定大小和「流暢」的影像。 如果套用至固定大小的影像，則只會載入新影像一次。
+對影像元素進行造型是網頁的責任，使其尺寸靈活。 響應影像庫本身不區分固定大小和「流體」影像。 如果應用於固定大小的影像，則只載入一次新影像。
 
-下列程式碼是簡單網頁的完整範例，該網頁具有由回應式影像程式庫管理的單一流體影像。 此範例包含額外的CSS樣式，讓影像對網頁瀏覽器視窗大小「回應」：
+以下代碼是普通網頁的完整示例，該網頁具有由響應影像庫管理的單個流體影像。 該示例包含額外的CSS樣式，使影像「響應」Web瀏覽器窗口大小：
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
  <head> 
@@ -83,25 +83,25 @@ ht-degree: 0%
 </html>
 ```
 
-**使用智慧型裁切**
+**使用智慧裁剪**
 
-AEM 6.4和Dynamic Media Viewers 5.9提供兩種智慧型裁切模式：
+6.4和Dynamic Media觀眾5.9中AEM提供兩種智慧裁剪模式：
 
-* **手動**  — 在影像元素的屬性內定義用戶定義的斷點和相應的影像服務命令。
-* **智慧型裁切**  — 計算的智慧型裁切轉譯會自動從傳送伺服器擷取。使用影像元素的運行時大小選擇最佳格式副本。
+* **手動**  — 用戶定義的斷點和相應的映像服務命令在映像元素的屬性中定義。
+* **智慧裁剪**  — 計算的智慧裁剪格式副本自動從交付伺服器中檢索。 使用影像元素的運行時大小選擇最佳格式副本。
 
-要使用智慧裁切模式，請將`data-mode`屬性設定為`smart crop`。 例如：
+要使用智慧裁剪模式，請設定 `data-mode` 屬性 `smart crop`。 例如：
 
-```
+```html {.line-numbers}
 <img 
 src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" 
 data-src="https://imageserver.com/is/image/ExampleCo/SmartCropAsset" 
 data-mode="smartcrop">
 ```
 
-當斷點更改時，關聯的映像元素在運行時分派`s7responsiveViewer`事件。
+相關影像元素分配 `s7responsiveViewer` 斷點更改時的運行時事件。
 
-```
+```javascript {.line-numbers}
          responsiveImage.addEventListener("s7responsiveViewer", function (event) { 
            var s7event = event.s7responsiveViewerEvent; 
            if(s7event.type == "breakpointchanged") { 
