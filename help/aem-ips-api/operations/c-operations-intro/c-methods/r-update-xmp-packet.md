@@ -1,24 +1,24 @@
 ---
-description: 設定或更新資產的XMP中繼資料封包。
+description: 設定或更新XMP資產的元資料包。
 solution: Experience Manager
-title: updateXMPPacket
+title: 更新XMPPacket
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 04d85dba-cc86-4069-ab5d-9a5b3fe542c9
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 24%
+source-wordcount: '68'
+ht-degree: 26%
 
 ---
 
-# updateXMPPacket{#updatexmppacket}
+# 更新XMPPacket{#updatexmppacket}
 
-設定或更新資產的XMP中繼資料封包。
+設定或更新XMP資產的元資料包。
 
 語法
 
-## 授權的使用者類型 {#section-ee88a759f4774482a4734201a971f610}
+## 授權用戶類型 {#section-ee88a759f4774482a4734201a971f610}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,15 +34,15 @@ ht-degree: 24%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 公司負責人。 |
-| `*`assetHandle`*` | `xsd:string` | 是 | 資產控制代碼。 |
-| `*`compressedPacket`*` | `xsd:Base 64 binary` | 是 | [!DNL zlib-compressed] 要設定或更新的XMP資料包。 |
+| 公司句柄 | `xsd:string` | 是 | 公司負責。 |
+| 資產句柄 | `xsd:string` | 是 | 資產句柄。 |
+| 壓縮資料包 | `xsd:Base 64 binary` | 是 | [!DNL zlib-compressed] 要設XMP置或更新的資料包。 |
 
 **輸出(updateXMPPacketReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`成功`*` | `xsd:boolean` | 是 | 如果資料包已更新，則返回`true`。 |
+| 成功 | `xsd:boolean` | 是 | 返回 `true` 。 |
 
 ## 範例 {#section-38b556b94e5044bf97a954519ff6c212}
 

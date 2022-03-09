@@ -5,10 +5,10 @@ title: getPropertySets
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: da6923c3-9b86-4595-8205-645fb10e03b0
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 17%
+source-wordcount: '90'
+ht-degree: 18%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 17%
 
 語法
 
-## 授權的使用者類型 {#section-da858360b72941bfa8d9558b4da7d4da}
+## 授權用戶類型 {#section-da858360b72941bfa8d9558b4da7d4da}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -32,23 +32,23 @@ ht-degree: 17%
 
 ## 參數 {#section-d8da2847e77e4a95a4441d9848cac775}
 
-**輸入(getPropertySetsParam)**
+**Input(getPropertySetsParam)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`typeHandle`*` | `xsd:string` | 是 | 屬性集類型的句柄。 |
-| `*`primaryOwnerHandle`*` | `xsd:string` | 是 | 綁定到資料庫對象的資料的主要所有者。 |
-| `*`secondaryOwnerHandle`*` | `xsd:string` | 否 | 資料的可選次要擁有者。 |
+| 類型句柄 | `xsd:string` | 是 | 屬性集類型的句柄。 |
+| primaryOwnerHandle | `xsd:string` | 是 | 綁定到資料庫對象的資料的主所有者。 |
+| secondaryOwnerHandle | `xsd:string` | 否 | 資料的可選輔助所有者。 |
 
-**Output(getPropertySetsReturn)**
+**輸出(getPropertySetsReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`setArray`*` | `types:PropertySetArray` | 是 | 屬性集的陣列。 |
+| setArray | `types:PropertySetArray` | 是 | 屬性集的陣列。 |
 
 ## 範例 {#section-1358af974eab4259864910337a6f0bd2}
 
-此代碼示例返回其主要所有者的屬性集，由類型句柄指定。
+此代碼示例返回由類型句柄指定的其主要所有者的屬性集。
 
 **請求**
 

@@ -1,24 +1,24 @@
 ---
-description: 傳回公司控制代碼所指定之公司的使用者。
+description: 返回由公司句柄指定的公司的用戶。
 solution: Experience Manager
 title: getCompanyMembers
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: da5e5a48-2e0b-4ccc-a71e-b5b746484d4a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '89'
 ht-degree: 17%
 
 ---
 
 # getCompanyMembers{#getcompanymembers}
 
-傳回公司控制代碼所指定之公司的使用者。
+返回由公司句柄指定的公司的用戶。
 
 語法
 
-## 授權的使用者類型 {#section-b2bc2fa0cc944cea8be82524838307cc}
+## 授權用戶類型 {#section-b2bc2fa0cc944cea8be82524838307cc}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,18 +31,18 @@ ht-degree: 17%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 要獲取其成員的公司的句柄。 |
-| `*`includeInvalid`*` | `xsd:boolean` | 是 | 包括無效公司。 |
+| 公司句柄 | `xsd:string` | 是 | 要獲取其成員的公司的句柄。 |
+| includeInvalid | `xsd:boolean` | 是 | 包括無效公司。 |
 
 **輸出(getCompanyMembersReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`memberArray`*` | `types:CompanyMemberArray` | 是 | 用戶成員資格陣列。 |
+| 成員陣列 | `types:CompanyMemberArray` | 是 | 用戶成員身份陣列。 |
 
 ## 範例 {#section-39d8cf3653fd4fe8b842caabac9dedfc}
 
-此程式碼範例會傳回使用者陣列中公司的所有成員。 回應已為簡潔而截斷。
+此代碼示例返回用戶陣列中公司的所有成員。 響應被截斷為簡單。
 
 **請求**
 

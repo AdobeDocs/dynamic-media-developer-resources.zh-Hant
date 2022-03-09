@@ -5,10 +5,10 @@ title: getTagFieldValues
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 12836783-4f9d-41d3-9b42-6e25238d7ed5
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 17%
+source-wordcount: '85'
+ht-degree: 18%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 17%
 
 語法
 
-## 授權的使用者類型 {#section-cc36a437394c491594e704a08a161c87}
+## 授權用戶類型 {#section-cc36a437394c491594e704a08a161c87}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -36,14 +36,14 @@ ht-degree: 17%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 包含標籤欄位的公司的控制代碼。 |
-| `*`fieldHandleArray`*` | `types:HandleArray` | 是 | 要返回的標籤值的欄位句柄陣列。 |
+| 公司句柄 | `xsd:string` | 是 | 包含標籤欄位的公司句柄。 |
+| 欄位HandleArray | `types:HandleArray` | 是 | 要返回的標籤值的欄位句柄陣列。 |
 
 **輸出(getTagFieldValuesReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`fieldArray`*` | `types:TagFieldValuesArray` | 是 | 字典中每個請求欄位的標籤值陣列。 |
+| 欄位陣列 | `types:TagFieldValuesArray` | 是 | 字典中每個請求欄位的標籤值的陣列。 |
 
 ## 範例 {#section-4492742614e44bb191a7d397dc1a1407}
 

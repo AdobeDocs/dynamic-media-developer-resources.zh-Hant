@@ -1,24 +1,24 @@
 ---
-description: 僅供內部使用。 請參閱「影像呈現材料目錄參考目錄屬性」部分。
+description: 僅供內部使用。 請參閱「影像渲染材料目錄參考 — 目錄屬性」部分。
 solution: Experience Manager
 title: getImageRenderingPublishSettings
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 152dfd61-2fba-47b4-8e69-fbbc8fb57f87
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 16%
+source-wordcount: '74'
+ht-degree: 17%
 
 ---
 
 # getImageRenderingPublishSettings{#getimagerenderingpublishsettings}
 
-僅供內部使用。 請參閱「影像呈現材料目錄參考目錄屬性」部分。
+僅供內部使用。 請參閱「影像渲染材料目錄參考 — 目錄屬性」部分。
 
 語法
 
-## 授權的使用者類型 {#section-1097e0563c61480a8e97822dc3527070}
+## 授權用戶類型 {#section-1097e0563c61480a8e97822dc3527070}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,11 +31,11 @@ ht-degree: 16%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 您要取得其影像轉譯發佈設定之公司的控制代碼。 |
-| `*`contextHandle`*` | `xsd:string` | 是 | 處理發佈內容。 |
+| 公司句柄 | `xsd:string` | 是 | 要獲取其影像呈現發佈設定的公司的句柄。 |
+| 上下文句柄 | `xsd:string` | 是 | 處理發佈上下文。 |
 
 **輸出(getImageRenderingPublishSettingsReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`publishSettingsArray`*` | `type:ConfigSettingArray` | 是 | 影像呈現發佈設定。 |
+| publishSettingsArray | `type:ConfigSettingArray` | 是 | 影像呈現發佈設定。 |

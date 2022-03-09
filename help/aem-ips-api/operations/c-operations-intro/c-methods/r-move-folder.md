@@ -1,24 +1,24 @@
 ---
-description: 將資料夾移至新位置。
+description: 將資料夾移動到新位置。
 solution: Experience Manager
-title: moveFolder
+title: 移動資料夾
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: fa31c2d8-912c-4965-8535-cae42f4fcfd9
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 26%
+source-wordcount: '60'
+ht-degree: 28%
 
 ---
 
-# moveFolder{#movefolder}
+# 移動資料夾{#movefolder}
 
-將資料夾移至新位置。
+將資料夾移動到新位置。
 
 語法
 
-## 授權的使用者類型 {#section-7f1979fb5e504bdea3a8df01101b50c3}
+## 授權用戶類型 {#section-7f1979fb5e504bdea3a8df01101b50c3}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,15 +33,15 @@ ht-degree: 26%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 為公司處理。 |
-| `*`folderHandle`*` | `xsd:string` | 是 | 資料夾句柄。 |
-| `*`destFolderHandle`*` | `xsd:string` | 是 | 處理目標資料夾。 |
+| 公司句柄 | `xsd:string` | 是 | 把手交給公司。 |
+| folderHandle | `xsd:string` | 是 | 資料夾句柄。 |
+| destFolderHandle | `xsd:string` | 是 | 目標資料夾的句柄。 |
 
 **輸出(moveFolderReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`folderHandle`*` | `xsd:string` | 是 | 處理已移動的資料夾。 |
+| folderHandle | `xsd:string` | 是 | 已移動資料夾的句柄。 |
 
 ## 範例 {#section-6571c6ab89ce4cb9a139abdb29c6b279}
 

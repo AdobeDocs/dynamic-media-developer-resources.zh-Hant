@@ -1,24 +1,24 @@
 ---
-description: 在單一請求中擷取所有系統屬性。
+description: 檢索單個請求中的所有系統屬性。
 solution: Experience Manager
 title: getSystemProperties
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b0ef16fd-1645-4e22-99bb-8c9269623168
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 18%
+source-wordcount: '55'
+ht-degree: 20%
 
 ---
 
 # getSystemProperties{#getsystemproperties}
 
-在單一請求中擷取所有系統屬性。
+檢索單個請求中的所有系統屬性。
 
 語法
 
-## 授權的使用者類型 {#section-fc311ce90a54400fa95b9dd36b756e23}
+## 授權用戶類型 {#section-fc311ce90a54400fa95b9dd36b756e23}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -40,11 +40,11 @@ ht-degree: 18%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`propertyArray`*` | `types:PropertyArray` | 是 | 系統屬性的陣列。 |
+| 屬性Array | `types:PropertyArray` | 是 | 系統屬性的陣列。 |
 
 ## 範例 {#section-728cc16fe9954b2daa035b4d4d4b4ce6}
 
-此程式碼範例會傳回系統屬性的陣列。 回應因簡單性而遭截斷。
+此代碼示例返回系統屬性的陣列。 響應被截斷以便簡化。
 
 **請求**
 

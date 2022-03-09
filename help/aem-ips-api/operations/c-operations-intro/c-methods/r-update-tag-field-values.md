@@ -5,9 +5,9 @@ title: updateTagFieldValues
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 6de49217-2d15-49d9-9357-b058b2564686
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '157'
 ht-degree: 15%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 15%
 
 語法
 
-## 授權的使用者類型 {#section-0372b742b1344979b0668faacb36fcc6}
+## 授權用戶類型 {#section-0372b742b1344979b0668faacb36fcc6}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -39,22 +39,22 @@ ht-degree: 15%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 公司句柄</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 公司負責人。 </td> 
+   <td colname="col4"> 公司負責。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 欄位句柄</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：字串</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 標籤欄位句柄。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> updateArray</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 更新陣列</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：TagValueUpdateArray</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4">您要更新的標籤欄位值陣列。 <p>注意： 僅更新標籤字串值。 不會影響資產關聯。 </p> </td> 
+   <td colname="col4">要更新的標籤欄位值的陣列。 <p>注：僅更新標籤字串值。 不影響資產關聯。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,11 +63,11 @@ ht-degree: 15%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | 是 | 已成功更新的標籤欄位數。 |
-| `*`warningCount`*` | `xsd:int` | 是 | 操作嘗試更新標籤欄位時生成的警告數。 |
-| `*`errorCount`*` | `xsd:int` | 是 | 操作嘗試更新標籤欄位時生成的錯誤數。 |
-| `*`warningDetailArray`*` | `types:TagValueUpdateFaultArray` | 否 | 與資產相關聯的詳細資訊陣列，當操作嘗試更新標籤欄位時，資產會產生警告。 |
-| `*`errorDetailArray`*` | `types:TagValueUpdateFaultArray` | 否 | 與嘗試更新標籤欄位時產生錯誤之資產相關聯的詳細資訊陣列。 |
+| 成功計數 | `xsd:int` | 是 | 已成功更新的標籤欄位數。 |
+| 警告計數 | `xsd:int` | 是 | 嘗試更新標籤欄位時生成的警告數。 |
+| 錯誤計數 | `xsd:int` | 是 | 操作嘗試更新標籤欄位時生成的錯誤數。 |
+| 警告DetailArray | `types:TagValueUpdateFaultArray` | 否 | 與在操作嘗試更新標籤欄位時生成警告的資產關聯的詳細資訊陣列。 |
+| 錯誤DetailArray | `types:TagValueUpdateFaultArray` | 否 | 與在操作嘗試更新標籤欄位時生成錯誤的資產關聯的詳細資訊陣列。 |
 
 ## 範例 {#section-bb4dcf97044c4675974c9b8d27674001}
 

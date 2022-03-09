@@ -1,24 +1,24 @@
 ---
-description: 刪除群組。
+description: 刪除組。
 solution: Experience Manager
-title: deleteGroup
+title: 刪除組
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0de188de-b4b6-4f48-9918-bcf962fa9482
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '86'
 ht-degree: 13%
 
 ---
 
-# deleteGroup{#deletegroup}
+# 刪除組{#deletegroup}
 
-刪除群組。
+刪除組。
 
 語法
 
-## 授權的使用者類型 {#section-ebcc67723663494db0562275b1873460}
+## 授權用戶類型 {#section-ebcc67723663494db0562275b1873460}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -30,16 +30,16 @@ ht-degree: 13%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 屬於您要刪除之群組的公司的控制代碼。 |
-| `*`groupHandle`*` | `xsd:string` | 是 | 要刪除的組的句柄。 |
+| 公司句柄 | `xsd:string` | 是 | 屬於要刪除的組的公司的句柄。 |
+| 組句柄 | `xsd:string` | 是 | 要刪除的組的句柄。 |
 
 **輸出(deleteGroupParam)**
 
-IPS API不會針對此操作傳回回應。
+IPS API不會為此操作返迴響應。
 
 ## 範例 {#section-8f8501af3b3348a1b5701cf9622bf6e4}
 
-此范常式式碼會從公司中刪除群組。 它需要組句柄，您必須從其他操作中獲取該句柄。
+此示例代碼從公司中刪除組。 它需要一個組句柄，您必須從另一個操作中獲取該句柄。
 
 **請求**
 

@@ -5,10 +5,10 @@ title: getGroupMembership
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 847e4982-219d-47fd-b94c-f7d520ba1367
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 18%
+source-wordcount: '80'
+ht-degree: 20%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 18%
 
 語法
 
-## 授權的使用者類型 {#section-35d070e5c4d74ca69df508368953cfb8}
+## 授權用戶類型 {#section-35d070e5c4d74ca69df508368953cfb8}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,18 +34,18 @@ ht-degree: 18%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | 否 | 使用者的控制代碼。 |
-| `*`companyHandle`*` | `xsd:string` | 否 | 公司的把手。 |
+| userHandle | `xsd:string` | 否 | 用戶的句柄。 |
+| 公司句柄 | `xsd:string` | 否 | 公司的把手。 |
 
 **輸出(getGroupMembershipReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`groupArray`*` | `types:GroupArray` | 是 | 群組陣列。 |
+| 組陣列 | `types:GroupArray` | 是 | 組陣列。 |
 
 ## 範例 {#section-ebb437369f4f4487b3eb2ef0c078b8ae}
 
-此程式碼範例會傳回群組的所有成員。 由於公司和用戶句柄是可選的，因此操作可以返回所有組的所有成員。
+此代碼示例返回組的所有成員。 由於公司和用戶句柄是可選的，因此該操作可以返回所有組的所有成員。
 
 **請求**
 

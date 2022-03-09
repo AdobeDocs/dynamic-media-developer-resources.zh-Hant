@@ -5,10 +5,10 @@ title: getPublishContexts
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 7b26e659-71b9-40c4-9df4-94e78c3e4baf
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 23%
+source-wordcount: '85'
+ht-degree: 24%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 23%
 
 語法
 
-## 授權的使用者類型 {#section-1a3a50349b5640dd8e498ff9e9c37340}
+## 授權用戶類型 {#section-1a3a50349b5640dd8e498ff9e9c37340}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -30,11 +30,9 @@ ht-degree: 23%
 
 >[!NOTE]
 >
->* 使用者必須具有讀取存取權，才能傳回資產。
->* 所有使用者都可存取共用公司。
-
+>* 用戶必須具有讀權限才能返回資產。
+>* 所有用戶都有權訪問共用公司。
 >
-
 
 
 ## 參數 {#section-d08e2175d3f84774b55b91bc590b8b3f}
@@ -52,21 +50,21 @@ ht-degree: 23%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 公司句柄</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 為公司處理。 </td> 
+   <td colname="col4"> 把手交給公司。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> contextType</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 上下文類型</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：字串</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4">您要傳回的發佈內容類型。 包括： 
+   <td colname="col4">要返回的發佈上下文的類型。 包括： 
     <ul id="ul_21EDF8F0026E402EAE8226A0CADEE652">
-     <li id="li_06DB502952D943198F16C06C59816268"><span class="codeph"> ImageServing</span></li>
+     <li id="li_06DB502952D943198F16C06C59816268"><span class="codeph"> 影像服務</span></li>
      <li id="li_E67A42934E8F4689A148CE125F7372AE"><span class="codeph"> 影像呈現</span></li>
      <li id="li_3CB3A9C4E7AB4A71819567A9566E396C"><span class="codeph"> 視訊</span></li>
-     <li id="li_27E3DB89B53B4B50B2231622A157A228"><span class="codeph"> ServerDirectory</span></li>
+     <li id="li_27E3DB89B53B4B50B2231622A157A228"><span class="codeph"> 伺服器目錄</span></li>
     </ul></td> 
   </tr> 
  </tbody> 
@@ -76,7 +74,7 @@ ht-degree: 23%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`publishContextArray`*` | 類型：PublishContextArray | 是 | 公司的發佈內容陣列，視需要依內容類型篩選。 |
+| publishContextArray | 類型：PublishContextArray | 是 | 公司的發佈上下文陣列，如果需要，按上下文類型篩選。 |
 
 ## 範例 {#section-23fb7d6a15004b7eb4c3d3bcb37ceb04}
 

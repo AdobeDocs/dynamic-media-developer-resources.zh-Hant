@@ -1,24 +1,24 @@
 ---
-description: 取得與指定資產相關聯的所有檢視器組態設定。
+description: 獲取與指定資產關聯的所有查看器配置設定。
 solution: Experience Manager
 title: getViewerConfigSettings
-feature: Dynamic Media Classic, SDK/API，檢視器預設集
+feature: Dynamic Media Classic,SDK/API,Viewer Presets
 role: Developer,Admin
 exl-id: c0438238-8aab-4478-926a-fc0e11732fc1
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 20%
+source-wordcount: '68'
+ht-degree: 22%
 
 ---
 
 # getViewerConfigSettings{#getviewerconfigsettings}
 
-取得與指定資產相關聯的所有檢視器組態設定。
+獲取與指定資產關聯的所有查看器配置設定。
 
 語法
 
-## 授權的使用者類型 {#section-05c3ea8f7d2d42c6bf7af63e03f457a9}
+## 授權用戶類型 {#section-05c3ea8f7d2d42c6bf7af63e03f457a9}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,12 +31,12 @@ ht-degree: 20%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 為公司處理。 |
-| `*`assetHandle`*` | `xsd:string` | 是 | 處理資產。 |
+| 公司句柄 | `xsd:string` | 是 | 把手交給公司。 |
+| 資產句柄 | `xsd:string` | 是 | 處理資產。 |
 
 **輸出(getViewerCoinfigSettingsReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`類型`*` | `xsd:string` | 是 | 配置設定要套用的查看器類型。 |
-| `*`configSettingsArray`*` | `types:ConfigSettingsArray` | 是 | 檢視器組態設定陣列。 |
+| type | `xsd:string` | 是 | 應用配置設定的查看器類型。 |
+| configSettingsArray | `types:ConfigSettingsArray` | 是 | 查看器配置設定的陣列。 |

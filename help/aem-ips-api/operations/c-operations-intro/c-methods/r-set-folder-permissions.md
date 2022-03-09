@@ -5,10 +5,10 @@ title: setFolderPermissions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0da05679-207e-4dc8-9bfe-2cf09a8c3f17
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 14%
+source-wordcount: '91'
+ht-degree: 15%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 14%
 
 語法
 
-## 授權的使用者類型 {#section-d3eb923fcf5741b99967634db809e09e}
+## 授權用戶類型 {#section-d3eb923fcf5741b99967634db809e09e}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -30,18 +30,18 @@ ht-degree: 14%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 公司負責人。 |
-| `*`folderHandle`*` | `xsd:string` | 是 | 資料夾句柄。 |
-| `*`setChildren`*` | `xsd:boolean` | 是 | 設定屬於資料夾的子項的權限。 |
-| `*`permissionArray`*` | `types:PermissionUpdateArray` | 是 | 權限陣列。 |
+| 公司句柄 | `xsd:string` | 是 | 公司負責。 |
+| folderHandle | `xsd:string` | 是 | 資料夾句柄。 |
+| setChildren | `xsd:boolean` | 是 | 設定屬於該資料夾的子項的權限。 |
+| 權限陣列 | `types:PermissionUpdateArray` | 是 | 權限陣列。 |
 
 **輸出(setFolderPermissionsReturn)**
 
-IPS API不會針對此操作傳回回應。
+IPS API不會為此操作返迴響應。
 
 ## 範例 {#section-01730da4be874553ab44e3241cdf6357}
 
-此程式碼範例會指定公司控制代碼、資料夾控制代碼，以及包含資料夾詳細資訊的權限陣列。 它會對父資料夾的子資料夾套用相同的權限。
+此代碼示例指定了公司句柄、資料夾句柄和包含資料夾詳細資訊的權限陣列。 它對父資料夾的子資料夾應用相同的權限。
 
 **請求**
 

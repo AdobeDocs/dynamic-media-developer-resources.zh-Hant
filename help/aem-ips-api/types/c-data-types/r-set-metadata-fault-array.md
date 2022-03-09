@@ -1,20 +1,20 @@
 ---
-description: 元資料錯誤的陣列。
+description: 元資料故障的陣列。
 solution: Experience Manager
 title: SetMetadataFaultArray
-feature: Dynamic Media Classic,SDK/API，中繼資料
+feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 76f453d0-27c5-4971-b854-25fc3cefd92c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '29'
-ht-degree: 20%
+source-wordcount: '23'
+ht-degree: 26%
 
 ---
 
 # SetMetadataFaultArray{#setmetadatafaultarray}
 
-元資料錯誤的陣列。
+元資料故障的陣列。
 
 語法
 
@@ -22,4 +22,4 @@ ht-degree: 20%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| `*`項目`*` | `types:SetMetadataFault` | 元資料錯誤的陣列。 |
+| 項目 | `types:SetMetadataFault` | 元資料故障的陣列。 |

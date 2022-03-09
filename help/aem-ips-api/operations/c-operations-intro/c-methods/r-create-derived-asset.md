@@ -5,7 +5,7 @@ title: createDerivedAsset
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: a3b20a8a-ed0d-40be-9a8c-41ba09b1d724
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 8%
@@ -39,19 +39,19 @@ ht-degree: 8%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`公司句柄`*` | `xsd:string` | 是 | 包含要從中獲取新資產的資產的公司的句柄。 |
-| `*`所有者句柄`*` | `xsd:string` | 是 | 導出新映像的主映像資產的句柄。 |
-| `*`folderHandle`*` | `xsd:string` | 是 | 建立新派生資產的資料夾的句柄。 |
-| `*`名稱`*` | `xsd:string` | 是 | 派生資產的名稱。 |
-| `*`類型`*` | `xsd:string` | 是 | 新衍生資產的資產類型： `AdjustedView` 或 `LayerView`。 |
-| `*`url修飾符`*` | `xsd:string` | 否 | 應用了影像服務或影像呈現協定命令 *先* 請求或 `urlPostApplyModifier` 的雙曲餘切值。 |
-| `*`urlPostApplyModifier`*` | `xsd:string` | 否 | 應用了影像服務或影像呈現協定命令 *後* 請求或 `urlPostApplyModifier` 的雙曲餘切值。 |
+| 公司句柄 | `xsd:string` | 是 | 包含要從中獲取新資產的資產的公司的句柄。 |
+| 所有者句柄 | `xsd:string` | 是 | 導出新映像的主映像資產的句柄。 |
+| folderHandle | `xsd:string` | 是 | 建立新派生資產的資料夾的句柄。 |
+| 名稱 | `xsd:string` | 是 | 派生資產的名稱。 |
+| type | `xsd:string` | 是 | 新衍生資產的資產類型： `AdjustedView` 或 `LayerView`。 |
+| url修飾符 | `xsd:string` | 否 | 應用了影像服務或影像呈現協定命令 *先* 請求或 `urlPostApplyModifier` 的雙曲餘切值。 |
+| urlPostApplyModifier | `xsd:string` | 否 | 應用了影像服務或影像呈現協定命令 *後* 請求或 `urlPostApplyModifier` 的雙曲餘切值。 |
 
 **輸出(createDerivedAssetParam)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`資產句柄`*` | `xsd:string` | 是 | 派生資產的句柄。 |
+| 資產句柄 | `xsd:string` | 是 | 派生資產的句柄。 |
 
 ## 範例 {#section-5d5ea893a1ef4edc8b3a396f1936e8c9}
 

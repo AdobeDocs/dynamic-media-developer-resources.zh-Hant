@@ -5,7 +5,7 @@ title: getUserChars
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d6b79c06-0e90-406f-bac8-3b8c2bae5480
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 12%
@@ -31,19 +31,19 @@ ht-degree: 12%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`char欄位`*` | `xsd:string` | 是 | 確定要搜索的垃圾狀態。 |
-| `*`包括非活動`*` | `xsd:boolean` | 是 | 包括或排除非活動用戶。 非IPS管理員用戶必須是至少一家公司的活動成員，才能被授權進行任何API調用。 如果用戶沒有有效的公司成員資格，則返回授權錯誤。 |
-| `*`包含無效`*` | `xsd:boolean` | 否 | 包括或排除無效用戶。 |
-| `*`companyHandleArray`*` | `types:HandleArray` | 否 | 根據公司篩選結果。 |
-| `*`groupHandleArray`*` | `types:HandleArray` | 否 | 根據組篩選結果。 |
-| `*`userRoleArray`*` | `types:StringArray` | 否 | 根據用戶角色篩選結果。 |
-| `*`數字字元`*` | `xsd:int` | 否 | 啟用>1個字元。 |
+| char欄位 | `xsd:string` | 是 | 確定要搜索的垃圾狀態。 |
+| 包括非活動 | `xsd:boolean` | 是 | 包括或排除非活動用戶。 非IPS管理員用戶必須是至少一家公司的活動成員，才能被授權進行任何API調用。 如果用戶沒有有效的公司成員資格，則返回授權錯誤。 |
+| 包含無效 | `xsd:boolean` | 否 | 包括或排除無效用戶。 |
+| companyHandleArray | `types:HandleArray` | 否 | 根據公司篩選結果。 |
+| groupHandleArray | `types:HandleArray` | 否 | 根據組篩選結果。 |
+| userRoleArray | `types:StringArray` | 否 | 根據用戶角色篩選結果。 |
+| 數字字元 | `xsd:int` | 否 | 啟用>1個字元。 |
 
 **輸出(getUserCharsReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`userCharsArray`*` | `types:StringArray` | 是 | 字元前置詞的陣列。 |
+| userCharsArray | `types:StringArray` | 是 | 字元前置詞的陣列。 |
 
 ## 範例 {#section-3702f165e8b041139a6144f4a76ca25f}
 

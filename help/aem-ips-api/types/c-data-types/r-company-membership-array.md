@@ -1,18 +1,18 @@
 ---
-description: CompanyMembershipArray
+description: 公司成員資格陣列
 solution: Experience Manager
-title: CompanyMembershipArray
+title: 公司成員資格陣列
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 3c272b30-c433-4350-a17c-6f49f48ec0fd
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '14'
-ht-degree: 42%
+source-wordcount: '9'
+ht-degree: 66%
 
 ---
 
-# CompanyMembershipArray{#companymembershiparray}
+# 公司成員資格陣列{#companymembershiparray}
 
 語法
 
@@ -20,4 +20,4 @@ ht-degree: 42%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| `*`項目`*` | `types:CompanyMembership` |  |
+| 項目 | `types:CompanyMembership` |  |

@@ -1,24 +1,24 @@
 ---
-description: 從專案移除資產。 不會銷毀資產。
+description: 從項目中刪除資產。 不會毀掉資產。
 solution: Experience Manager
-title: removeProjectAssets
-feature: Dynamic Media Classic,SDK/API，資產管理
+title: 刪除ProjectAssets
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 6bf169ec-c724-4ac0-a2bf-67af2ebba21a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 10%
+source-wordcount: '178'
+ht-degree: 11%
 
 ---
 
-# removeProjectAssets{#removeprojectassets}
+# 刪除ProjectAssets{#removeprojectassets}
 
-從專案移除資產。 不會銷毀資產。
+從項目中刪除資產。 不會毀掉資產。
 
 語法
 
-## 授權的使用者類型 {#section-b0b333a1f3b648ac8cd6bb3d135d2c6f}
+## 授權用戶類型 {#section-b0b333a1f3b648ac8cd6bb3d135d2c6f}
 
 * `IpsUser`
 * `IpsCompanyAdmin`
@@ -32,23 +32,23 @@ ht-degree: 10%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 含有您要移動資產的公司控制代碼。 |
-| `*`projectHandle`*` | `xsd:string` | 是 | 您要移動之專案資產的控制代碼。 |
-| `*`assetHandleArray`*` | `types:HandleArray` | 是 | 要移動的資產的控點陣列。 |
+| 公司句柄 | `xsd:string` | 是 | 要移動的資產的公司的句柄。 |
+| 項目句柄 | `xsd:string` | 是 | 要移動的項目資產的句柄。 |
+| assetHandleArray | `types:HandleArray` | 是 | 要移動的資產的句柄陣列。 |
 
 **輸出(removeProjectAssetsReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | 是 | 已成功移除資產計數。 |
-| `*`warningCount`*` | `xsd:int` | 是 | 操作嘗試從項目中刪除資產時生成的警告數。 |
-| `*`errorCount`*` | `xsd:int` | 是 | 嘗試從專案移除資產時產生的錯誤數。 |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 與資產相關聯的詳細資訊陣列，當操作嘗試從專案中移除資產時，資產會產生警告。 |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 與操作嘗試從專案移除時產生錯誤之資產相關聯的詳細資訊陣列。 |
+| 成功計數 | `xsd:int` | 是 | 已成功刪除資產計數。 |
+| 警告計數 | `xsd:int` | 是 | 操作嘗試從項目中刪除資產時生成的警告數。 |
+| 錯誤計數 | `xsd:int` | 是 | 操作嘗試從項目中刪除資產時生成的錯誤數。 |
+| 警告DetailArray | `types:AssetOperationFaultArray` | 否 | 與在操作嘗試從項目中刪除時生成警告的資產關聯的詳細資訊陣列。 |
+| 錯誤DetailArray | `types:AssetOperationFaultArray` | 否 | 與在操作嘗試從項目中刪除錯誤時生成錯誤的資產關聯的詳細資訊陣列。 |
 
 ## 範例 {#section-13546cf0a98e4e1b91b8b7cd5724ced8}
 
-此程式碼範例會從專案中移除2個資產（由專案控制代碼指定）。
+此代碼示例從項目中刪除2個資產（由項目句柄指定）。
 
 **請求**
 

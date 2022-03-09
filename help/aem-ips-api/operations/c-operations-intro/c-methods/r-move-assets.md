@@ -2,12 +2,12 @@
 description: 獨立移動多個資產。 它使用assetMoveArray中包含的AssetMove類型來完成此操作。 每個AssetMove欄位都包含一個目標資料夾。
 solution: Experience Manager
 title: moveAssets
-feature: Dynamic Media Classic,SDK/API，資產管理
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: e5bb2188-d262-4324-9f71-68634b6af654
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '209'
 ht-degree: 12%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 12%
 
 語法
 
-## 授權的使用者類型 {#section-4166515fd9d8487b8af37465ce61802b}
+## 授權用戶類型 {#section-4166515fd9d8487b8af37465ce61802b}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,8 +33,8 @@ ht-degree: 12%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 具有要移動資產的公司的控制代碼。 |
-| `*`assetMoveArray`*` | `types:AssetMoveArray` | 是 | 資產移動陣列。 其中包含資產和資產目的地資料夾。 |
+| 公司句柄 | `xsd:string` | 是 | 要移動資產的公司的句柄。 |
+| assetMoveArray | `types:AssetMoveArray` | 是 | 資產移動陣列。 它包含資產和資產目標資料夾。 |
 
 **輸出(moveAssetsReturn)**
 
@@ -49,43 +49,43 @@ ht-degree: 12%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> successCount</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 成功計數</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 已成功移動資產計數。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> warningCount</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 警告計數</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 操作嘗試移動時產生警告的資產計數。 </td> 
+   <td colname="col4"> 操作嘗試移動時生成警告的資產計數。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> errorCount</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 錯誤計數</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 操作嘗試移動時產生錯誤的資產計數。 </td> 
+   <td colname="col4"> 在操作嘗試移動錯誤時生成錯誤的資產計數。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> warningDetailArray</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 警告DetailArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：AssetOperationFaultArray</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> <span class="codeph"> </span>AssetOperationFaults，包含： 
+   <td colname="col4"> <span class="codeph"> 資產操作錯誤</span>包含： 
     <ul id="ul_689F4A87A68140F18DFB43868226A409"> 
-     <li id="li_274C8BF5932F4AF584AA92F25E0F33C6">發出警告的資產。 </li> 
+     <li id="li_274C8BF5932F4AF584AA92F25E0F33C6">引發警告的資產。 </li> 
      <li id="li_5CC4A9120CA94F968CAF0D0135C49E0A">警告代碼。 </li> 
      <li id="li_AEC91FA68B2E43BC8BAA108C743F5667">警告的原因。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> errorDetailArray</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 錯誤DetailArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：AssetOperationFaultArray</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> <span class="codeph"> </span>AssetOperationFaults，包含： 
+   <td colname="col4"> <span class="codeph"> 資產操作錯誤</span>包含： 
     <ul id="ul_C397BC384A134F429D01ADA28DF2E097"> 
      <li id="li_EAEBB5F539164480BA9EAA7C8FFBF69A">導致錯誤的資產。 </li> 
      <li id="li_F96D5FBB2F7A402AA36D8DFA3971391D">錯誤代碼。 </li> 
-     <li id="li_F610415E416F43DDA4B1DBF1897E2F61">錯誤的原因。 </li> 
+     <li id="li_F610415E416F43DDA4B1DBF1897E2F61">錯誤原因。 </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -93,7 +93,7 @@ ht-degree: 12%
 
 ## 範例 {#section-c31ed4c004ab4b3fa42c96d26ceb5ce7}
 
-此程式碼範例會將資產移至`assetMoveArray`所指定的特定位置。 陣列包括資產控制代碼及其資料夾控制代碼。 回應指出資產已成功移動。
+此代碼示例將資產移動到由 `assetMoveArray`。 陣列包括資產句柄及其資料夾句柄。 響應指示已成功移動資產。
 
 **請求**
 

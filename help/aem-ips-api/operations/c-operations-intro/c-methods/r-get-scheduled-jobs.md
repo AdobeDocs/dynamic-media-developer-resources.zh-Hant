@@ -5,10 +5,10 @@ title: getScheduledJobs
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 7920637e-b289-410c-ae5c-e67cd7b21aba
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '80'
-ht-degree: 21%
+source-wordcount: '75'
+ht-degree: 22%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 21%
 
 語法
 
-## 授權的使用者類型 {#section-bd1835ab508a429f8143b3bdb811d6a4}
+## 授權用戶類型 {#section-bd1835ab508a429f8143b3bdb811d6a4}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -35,19 +35,19 @@ ht-degree: 21%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 公司的把手。 |
-| `*`jobHandle`*` | `xsd:string` | 否 | 工作處理。 |
-| `*`originalName`*` | `xsd:string` | 否 | 由`submitJob`指定的名稱。 |
+| 公司句柄 | `xsd:string` | 是 | 公司的把手。 |
+| 作業句柄 | `xsd:string` | 否 | 作業處理。 |
+| 原始名稱 | `xsd:string` | 否 | 指定的名稱 `submitJob`。 |
 
 **輸出(getScheduledJobsReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`jobArray`*` | `types:ScheduledJobArray` | 是 | 排程作業的陣列。 |
+| jobArray | `types:ScheduledJobArray` | 是 | 計畫的作業陣列。 |
 
 ## 範例 {#section-e79e7da86ba848fd9996aa36de462e6c}
 
-此程式碼範例會傳回作業陣列中所有已排程的作業。 陣列本身包含有關作業的詳細資訊。
+此代碼示例返回作業陣列中的所有計畫作業。 陣列本身包含有關作業的詳細資訊。
 
 **請求**
 

@@ -5,7 +5,7 @@ title: setUrlModifier
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9e96ffc8-5a38-46b8-9ba8-956c86b32c7a
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 7%
@@ -33,10 +33,10 @@ ht-degree: 7%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`公司句柄`*` | `xsd:string` | 是 | 公司負責。 |
-| `*`資產句柄`*` | `xsd:string` | 是 | 資產句柄。 |
-| `*`url修飾符`*` | `xsd:string` | 否 | 在請求或 `urlPostApplyModifier` 的雙曲餘切值。 |
-| `*`urlPostApplyModifier`*` | `xsd:string` | 否 | 在以下時間後應用的影像服務或影像呈現協定命令 `urlModifier` 命令。 |
+| 公司句柄 | `xsd:string` | 是 | 公司負責。 |
+| 資產句柄 | `xsd:string` | 是 | 資產句柄。 |
+| url修飾符 | `xsd:string` | 否 | 在請求或 `urlPostApplyModifier` 的雙曲餘切值。 |
+| urlPostApplyModifier | `xsd:string` | 否 | 在以下時間後應用的影像服務或影像呈現協定命令 `urlModifier` 命令。 |
 
 **輸出(setUrlModifierReturn)**
 

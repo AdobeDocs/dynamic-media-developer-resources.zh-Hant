@@ -1,24 +1,24 @@
 ---
-description: 設定用戶的組成員資格。
+description: 為用戶設定組成員身份。
 solution: Experience Manager
 title: setGroupMembership
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0a355a34-1c2d-48c1-ba12-7d07d1673d09
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 12%
+source-wordcount: '96'
+ht-degree: 13%
 
 ---
 
 # setGroupMembership{#setgroupmembership}
 
-設定用戶的組成員資格。
+為用戶設定組成員身份。
 
 語法
 
-## 授權的使用者類型 {#section-3d6308a8a5694ed085e04d1c37982b9e}
+## 授權用戶類型 {#section-3d6308a8a5694ed085e04d1c37982b9e}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -26,21 +26,21 @@ ht-degree: 12%
 
 ## 參數 {#section-6aeda13b26af4796aad1306ac7a9ad17}
 
-**輸入(setGroupMembershipParam)**
+**Input(setGroupMembershipParam)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | 否 | 要設定其組成員資格的用戶的句柄。 |
-| `*`companyHandle`*` | `xsd:string` | 否 | 公司負責人。 |
-| `*`groupHandleArray`*` | `types:HandleArray` | 是 | 用戶所屬組的句柄陣列。 |
+| userHandle | `xsd:string` | 否 | 要設定其組成員資格的用戶的句柄。 |
+| 公司句柄 | `xsd:string` | 否 | 公司負責。 |
+| groupHandleArray | `types:HandleArray` | 是 | 用戶所屬組的句柄陣列。 |
 
 **輸出(setGroupMembershipReturn)**
 
-IPS API不會針對此操作傳回回應。
+IPS API不會為此操作返迴響應。
 
 ## 範例 {#section-67b86d259df24938896fe19061845811}
 
-此程式碼範例將使用者成為群組的成員。 使用組句柄陣列向多個組添加用戶。
+此代碼示例使用戶成為組的成員。 使用組句柄陣列將用戶添加到多個組。
 
 **請求**
 

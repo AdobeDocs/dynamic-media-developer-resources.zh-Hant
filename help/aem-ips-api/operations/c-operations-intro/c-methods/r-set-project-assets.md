@@ -1,24 +1,24 @@
 ---
-description: 指派或更新專案中的資產。
+description: 分配或更新項目中的資產。
 solution: Experience Manager
 title: setProjectAssets
-feature: Dynamic Media Classic,SDK/API，資產管理
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: b6e6e9bd-5ee2-4750-9182-49e7a3e3486c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 18%
+source-wordcount: '83'
+ht-degree: 20%
 
 ---
 
 # setProjectAssets{#setprojectassets}
 
-指派或更新專案中的資產。
+分配或更新項目中的資產。
 
 語法
 
-## 授權的使用者類型 {#section-8d87939db6d547b48ca6d71771bbefa8}
+## 授權用戶類型 {#section-8d87939db6d547b48ca6d71771bbefa8}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,19 +33,19 @@ ht-degree: 18%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyName`*` | `xsd:string` | 是 | 公司負責人。 |
-| `*`projectHandle`*` | `xsd:string` | 是 | 專案控制代碼。 |
-| `*`assetHandleArray`*` | `types:HandleArray` | 是 | 您要與專案相關聯的資產控點陣列。 |
+| 公司名稱 | `xsd:string` | 是 | 公司負責。 |
+| 項目句柄 | `xsd:string` | 是 | 項目句柄。 |
+| assetHandleArray | `types:HandleArray` | 是 | 要與項目關聯的資產句柄陣列。 |
 
 **輸出(setProjectAssetsReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | 是 | 已成功新增資產的數量。 |
+| 成功計數 | `xsd:int` | 是 | 成功添加的資產數。 |
 
 ## 範例 {#section-33c1a909c3dc4aa98da474c23a036596}
 
-此程式碼範例會將資產指派給專案。 請求會傳回成功計數1。
+此代碼示例將資產分配給項目。 請求返回成功計數1。
 
 **請求**
 

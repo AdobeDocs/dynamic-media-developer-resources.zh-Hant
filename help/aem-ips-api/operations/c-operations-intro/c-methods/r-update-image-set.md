@@ -1,20 +1,20 @@
 ---
-description: 更新影像集。
+description: 更新映像集。
 solution: Experience Manager
-title: updateImageSet
-feature: Dynamic Media Classic, SDK/API，影像集
+title: 更新映像集
+feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,Admin
 exl-id: d8d5fb80-17f1-424f-8a61-27189f87d603
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 18%
+source-wordcount: '78'
+ht-degree: 20%
 
 ---
 
-# updateImageSet{#updateimageset}
+# 更新映像集{#updateimageset}
 
-更新影像集。
+更新映像集。
 
 語法
 
@@ -24,16 +24,16 @@ ht-degree: 18%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 包含要修改的影像集的公司的句柄。 |
-| `*`assetHandle`*` | `xsd:string` | Ys | 要修改的影像集的控點。 |
-| `*`memberArray`*` | `types:ImageSetMemberUpdateArray` | 否 | 重置映像整合員。 |
-| `*`thumbAssetHandle`*` | `xsd:string` | 否 | 作為影像集縮圖的資產控點。 |
+| 公司句柄 | `xsd:string` | 是 | 包含要修改的映像集的公司的句柄。 |
+| 資產句柄 | `xsd:string` | 伊斯 | 要修改的影像集的句柄。 |
+| 成員陣列 | `types:ImageSetMemberUpdateArray` | 否 | 重置影像整合員。 |
+| 拇指資產句柄 | `xsd:string` | 否 | 用作影像集縮略圖的資產句柄。 |
 
 **輸出(updateImageSetReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`序列`*` |  |  |  |
+| 序列 |  |  |  |
 
 ## 範例 {#section-ce47a4b6e062423fa55ed3a0fd26d7ff}
 

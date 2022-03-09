@@ -1,19 +1,23 @@
 ---
-description: 從最適化視訊集中排除主要視訊。
 title: ExcludeMasterVideoFromAVS
+description: 從自適應視頻集中排除主視頻。
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e73eab03-fbda-435c-be3c-98781f8630a5
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '47'
+source-wordcount: '50'
 ht-degree: 14%
 
 ---
 
 # ExcludeMasterVideoFromAVS{#excludemastervideofromavs}
 
-從最適化視訊集中排除主要視訊。
+>[!IMPORTANT]
+>
+>Adobe將終止對 `ExcludeMasterVideoFromAVS` 參數。
+
+從自適應視頻集中排除主視頻。
 
 語法
 
@@ -29,9 +33,9 @@ ht-degree: 14%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> true|false</span> </td> 
+   <td colname="col1"> <span class="codeph"> 真假</span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> <p>從最適化視訊集排除主視訊檔案。 </p> <p>預設為true。 </p> </td> 
+   <td colname="col3"> <p>從自適應視頻集中排除主視頻檔案。 </p> <p>預設為true。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

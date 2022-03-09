@@ -5,10 +5,10 @@ title: ImageServingPublishJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: dad6ca6b-6bfe-4788-8ba7-f6cb2a734800
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 11%
+source-wordcount: '38'
+ht-degree: 13%
 
 ---
 
@@ -22,6 +22,6 @@ ht-degree: 11%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| `*`publishType`*` | `xsd:string` | 其中一種可用的發佈類型。 |
-| `*`emailSetting`*` | `xsd:string` | 選擇電子郵件設定。 |
-| `*`httpCompletionUrl`*` | `xsd:string` | 傳送完成通知的URL。 |
+| 發佈類型 | `xsd:string` | 可用發佈類型之一。 |
+| 電子郵件設定 | `xsd:string` | 選擇電子郵件設定。 |
+| httpCompletionUrl | `xsd:string` | 發送完成通知的URL。 |

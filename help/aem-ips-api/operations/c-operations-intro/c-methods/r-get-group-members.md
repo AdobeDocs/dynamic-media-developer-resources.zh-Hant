@@ -1,24 +1,24 @@
 ---
-description: 取得屬於特定公司和群組的使用者。
+description: 獲取屬於特定公司和組的用戶。
 solution: Experience Manager
 title: getGroupMembers
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 81af79ee-be82-439f-9f42-a1ec09cd8ea0
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 17%
+source-wordcount: '81'
+ht-degree: 18%
 
 ---
 
 # getGroupMembers{#getgroupmembers}
 
-取得屬於特定公司和群組的使用者。
+獲取屬於特定公司和組的用戶。
 
 語法
 
-## 授權的使用者類型 {#section-08a73460d122480292205bb8f2df9220}
+## 授權用戶類型 {#section-08a73460d122480292205bb8f2df9220}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -30,18 +30,18 @@ ht-degree: 17%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 公司的把手。 |
-| `*`groupHandle`*` | `xsd:string` |  | 組的句柄。 |
+| 公司句柄 | `xsd:string` | 是 | 公司的把手。 |
+| 組句柄 | `xsd:string` |  | 組的句柄。 |
 
 **輸出(getGroupMembersReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`userHandleArray`*` | `type:HandleArray` | 是 | 用戶句柄的陣列。 |
+| userHandleArray | `type:HandleArray` | 是 | 用戶句柄陣列。 |
 
 ## 範例 {#section-aaa340dba6b64cce9bcd8303cf999166}
 
-此程式碼範例會傳回包含屬於特定群組之所有使用者的使用者控制代碼陣列。
+此代碼示例返回包含屬於特定組的所有用戶的用戶句柄陣列。
 
 **請求**
 

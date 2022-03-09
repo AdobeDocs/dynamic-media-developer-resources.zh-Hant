@@ -1,24 +1,24 @@
 ---
-description: 建立或編輯群組。
+description: 建立或編輯組。
 solution: Experience Manager
-title: saveGroup
+title: 保存組
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1dd980e7-eb38-4c90-b4fc-83327d4a95f5
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 20%
+source-wordcount: '92'
+ht-degree: 22%
 
 ---
 
-# saveGroup{#savegroup}
+# 保存組{#savegroup}
 
-建立或編輯群組。
+建立或編輯組。
 
 語法
 
-## 授權的使用者類型 {#section-a6c1ce4c69f44ad0bcd41bbf3893bc45}
+## 授權用戶類型 {#section-a6c1ce4c69f44ad0bcd41bbf3893bc45}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -30,20 +30,20 @@ ht-degree: 20%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 含有您要儲存之群組的公司控制代碼。 |
-| `*`groupHandle`*` | `xsd:string` | 否 | 組的句柄。 |
-| `*`名稱`*` | `xsd:string` | 是 | 群組名稱. |
-| `*`isSystemDefined`*` | `xsd:boolean` | 是 | `false` 為預設值。 |
+| 公司句柄 | `xsd:string` | 是 | 要保存的組所在公司的句柄。 |
+| 組句柄 | `xsd:string` | 否 | 組的句柄。 |
+| 名稱 | `xsd:string` | 是 | 群組名稱. |
+| isSystemDefined | `xsd:boolean` | 是 | `false` 為預設值。 |
 
 **輸出(saveGroupReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`groupHandle`*` | `xsd:string` | 是 | 組句柄。 |
+| 組句柄 | `xsd:string` | 是 | 組句柄。 |
 
 ## 範例 {#section-26eee227ff1f4edabb7fa1240b4d9999}
 
-此程式碼範例會建立屬於特定公司的群組。 如果組已存在，則會使用您指定的參數值保存該組。
+此代碼示例建立屬於特定公司的組。 如果組已存在，則會使用您指定的參數值保存該組。
 
 **請求**
 

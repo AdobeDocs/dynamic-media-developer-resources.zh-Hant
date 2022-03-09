@@ -1,20 +1,20 @@
 ---
-description: 暈映資產的屬性。
+description: 虛擬資產的屬性。
 solution: Experience Manager
-title: VignetteInfo
+title: 維涅特資訊
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f9142082-5f49-4133-aab4-c07a14f8a16b
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '49'
-ht-degree: 18%
+source-wordcount: '44'
+ht-degree: 20%
 
 ---
 
-# VignetteInfo{#vignetteinfo}
+# 維涅特資訊{#vignetteinfo}
 
-暈映資產的屬性。
+虛擬資產的屬性。
 
 語法
 
@@ -22,10 +22,10 @@ ht-degree: 18%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| `*`originalPath`*` | `xsd:string` | 檔案路徑。 |
-| `*`originalFile`*` | `xsd:string` | 檔案名稱. |
-| `*`fileSize`*` | `xsd:int` | 檔案大小. |
-| `*`imagePath`*` | `xsd:string` | 影像路徑。 |
-| `*`imageFile`*` | `xsd:string` |  |
-| `*`optimizedPath`*` | `xsd:string` | 最佳化檔案路徑。 |
-| `*`optimizedFile`*` | `xsd:string` | 優化的檔案名。 |
+| 原始路徑 | `xsd:string` | 檔案的路徑。 |
+| 原始檔案 | `xsd:string` | 檔案名稱. |
+| 檔案大小 | `xsd:int` | 檔案大小. |
+| imagePath | `xsd:string` | 影像的路徑。 |
+| imageFile | `xsd:string` |  |
+| 優化路徑 | `xsd:string` | 檔案的優化路徑。 |
+| 優化檔案 | `xsd:string` | 優化的檔案名。 |

@@ -1,18 +1,18 @@
 ---
+title: 阿科資訊
 description: ACO資產的屬性。
 solution: Experience Manager
-title: AcoInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: dfec2e24-05a2-4a9c-bd78-9ee35dd8b1b6
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '31'
-ht-degree: 16%
+source-wordcount: '29'
+ht-degree: 17%
 
 ---
 
-# AcoInfo{#acoinfo}
+# 阿科資訊{#acoinfo}
 
 ACO資產的屬性。
 
@@ -22,6 +22,6 @@ ACO資產的屬性。
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| `originalPath` | `xsd:string` | ACO檔案路徑。 |
-| `originalFile` | `xsd:string` | ACO檔案名。 |
-| `fileSize` | `xsd:int` | ACO檔案大小。 |
+| 原始路徑 | `xsd:string` | ACO檔案路徑。 |
+| 原始檔案 | `xsd:string` | ACO檔案名。 |
+| 檔案大小 | `xsd:int` | ACO檔案大小。 |

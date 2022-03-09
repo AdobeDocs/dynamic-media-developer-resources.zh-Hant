@@ -1,24 +1,24 @@
 ---
-description: 重新命名專案。
+description: 更名項目。
 solution: Experience Manager
-title: renameProject
-feature: Dynamic Media Classic,SDK/API，資產管理
+title: 更名項目
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 1bf74ebf-1fce-408b-9953-7fdf2ae9d10b
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 21%
+source-wordcount: '71'
+ht-degree: 23%
 
 ---
 
-# renameProject{#renameproject}
+# 更名項目{#renameproject}
 
-重新命名專案。
+更名項目。
 
 語法
 
-## 授權的使用者類型 {#section-093d1f611a1647568e885ddd842b8f78}
+## 授權用戶類型 {#section-093d1f611a1647568e885ddd842b8f78}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,19 +33,19 @@ ht-degree: 21%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyName`*` | `xsd:string` | 是 | 使用您要重新命名的專案處理公司。 |
-| `*`projectHandle`*` | `xsd:string` | 是 | 處理專案。 |
-| `*`projectName`*` | `xsd:string` | 是 | 新專案名稱。 |
+| 公司名稱 | `xsd:string` | 是 | 處理要更名的項目的公司。 |
+| 項目句柄 | `xsd:string` | 是 | 處理項目。 |
+| 項目名稱 | `xsd:string` | 是 | 新建項目名稱。 |
 
 **輸出(renameProjectParam)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`projectHandle`*` | `xsd:string` | 是 | 已重新命名專案的控制代碼。 |
+| 項目句柄 | `xsd:string` | 是 | 更名項目的句柄。 |
 
 ## 範例 {#section-a0a06d9244774795b695a10b92b2a5e7}
 
-此程式碼範例會重新命名專案並傳回專案控制代碼。
+此代碼示例更名項目並返回項目句柄。
 
 **請求**
 

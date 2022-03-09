@@ -1,18 +1,18 @@
 ---
 description: Flash檔案的屬性。
 solution: Experience Manager
-title: FlashInfo
+title: 快閃記憶體資訊
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: df49d1b9-aedd-4c72-b727-682cea74317e
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '31'
-ht-degree: 29%
+source-wordcount: '26'
+ht-degree: 34%
 
 ---
 
-# FlashInfo{#flashinfo}
+# 快閃記憶體資訊{#flashinfo}
 
 Flash檔案的屬性。
 
@@ -22,6 +22,6 @@ Flash檔案的屬性。
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| `*`originalPath`*` | `xsd:string` | 檔案路徑。 |
-| `*`originalFile`*` | `xsd:string` | 檔案名稱. |
-| `*`fileSize`*` | `xsd:int` | 檔案大小. |
+| 原始路徑 | `xsd:string` | 檔案路徑。 |
+| 原始檔案 | `xsd:string` | 檔案名稱. |
+| 檔案大小 | `xsd:int` | 檔案大小. |

@@ -1,24 +1,24 @@
 ---
-description: 擷取指定資產的XMP中繼資料封包。
+description: 檢索指XMP定資產的元資料包。
 solution: Experience Manager
 title: getXMPPacket
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 76e595bd-e598-40e8-aba3-b270fcf4d800
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 21%
+source-wordcount: '69'
+ht-degree: 23%
 
 ---
 
 # getXMPPacket{#getxmppacket}
 
-擷取指定資產的XMP中繼資料封包。
+檢索指XMP定資產的元資料包。
 
 語法
 
-## 授權的使用者類型 {#section-7cb9c26045214f01b1d6b6948b6c6a18}
+## 授權用戶類型 {#section-7cb9c26045214f01b1d6b6948b6c6a18}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,14 +34,14 @@ ht-degree: 21%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 公司使用您要傳回的資料包處理（例如`c|656`）。 |
-| `*`assetHandle`*` | `xsd:string` | 是 | 應擷取XMP封包的資產。 |
+| 公司句柄 | `xsd:string` | 是 | 公司處理要返回的資料包(例如， `c|656`)。 |
+| 資產句柄 | `xsd:string` | 是 | 應檢索包XMP的資產。 |
 
 **輸出(getXMPPacketReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`compressedPacket`*` | `xsd:Base 64 binary` | 是 | [!DNL zlib-compressed] XMP封包。 |
+| 壓縮資料包 | `xsd:Base 64 binary` | 是 | [!DNL zlib-compressed] 包XMP。 |
 
 ## 範例 {#section-d681af49122e4ca9bcd04110a2e98e6f}
 

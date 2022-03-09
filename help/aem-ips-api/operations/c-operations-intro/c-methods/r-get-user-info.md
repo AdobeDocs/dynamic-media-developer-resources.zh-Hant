@@ -1,24 +1,24 @@
 ---
-description: 取得使用者的相關資訊。 使用系統用戶的電子郵件地址和密碼作為授權請求的憑據。 否則，操作將獲取有關預設用戶的資訊。
+description: 獲取有關用戶的資訊。 使用系統用戶的電子郵件地址和密碼作為授權請求的憑據。 否則，該操作將獲取有關預設用戶的資訊。
 solution: Experience Manager
 title: getUserInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1981f25f-779e-4434-ab6b-0debb40521fe
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 11%
+source-wordcount: '139'
+ht-degree: 12%
 
 ---
 
 # getUserInfo{#getuserinfo}
 
-取得使用者的相關資訊。 使用系統用戶的電子郵件地址和密碼作為授權請求的憑據。 否則，操作將獲取有關預設用戶的資訊。
+獲取有關用戶的資訊。 使用系統用戶的電子郵件地址和密碼作為授權請求的憑據。 否則，該操作將獲取有關預設用戶的資訊。
 
 語法
 
-## 授權的使用者類型 {#section-1c42d78e914a4b84a946b3480f29b36a}
+## 授權用戶類型 {#section-1c42d78e914a4b84a946b3480f29b36a}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -36,14 +36,14 @@ ht-degree: 11%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | 否 | 處理您要傳回其資訊的使用者。 |
-| `*`電子郵件`*` | `xsd:string` | 否 | 使用者電子郵件地址。 |
+| userHandle | `xsd:string` | 否 | 處理要返回其資訊的用戶。 |
+| 電子郵件 | `xsd:string` | 否 | 用戶電子郵件地址。 |
 
 **輸出(getUserInfoReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`userInfo`*` | `types:User` | 是 | 使用者的名字、姓氏、電子郵件地址和角色，以及使用者是否有效以及使用者密碼過期的時間。 |
+| 用戶資訊 | `types:User` | 是 | 用戶的名、姓、電子郵件地址和角色，以及用戶是否有效以及用戶密碼何時過期。 |
 
 ## 範例 {#section-98d77a2e360a438dbe240099bea26a65}
 

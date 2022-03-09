@@ -1,18 +1,18 @@
 ---
-description: 公司會籍
+description: 公司成員
 solution: Experience Manager
-title: 公司會籍
+title: 公司成員
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 10a1cd09-5cd8-48e6-93cf-da8d04d9941a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '26'
-ht-degree: 23%
+source-wordcount: '21'
+ht-degree: 28%
 
 ---
 
-# 公司會籍{#companymembership}
+# 公司成員{#companymembership}
 
 語法
 
@@ -20,6 +20,6 @@ ht-degree: 23%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| `*`公司`*` | `types:Company` |  |
-| `*`角色`*` | `xsd:string` |  |
-| `*`isActive`*` | `xsd:boolean` | 設定使用者所屬各公司的狀態。 |
+| 公司 | `types:Company` |  |
+| 角色 | `xsd:string` |  |
+| 活動 | `xsd:boolean` | 設定用戶所屬每個公司的狀態。 |

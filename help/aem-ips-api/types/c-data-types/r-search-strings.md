@@ -1,20 +1,20 @@
 ---
-description: 從PDF檔案中擷取的搜尋字串記錄。
+description: 從PDF檔案中提取的搜索字串記錄。
 solution: Experience Manager
-title: SearchStrings
+title: 搜索字串
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 3f67ba8a-12dd-4698-9502-7cbdec9cb25d
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 13%
+source-wordcount: '82'
+ht-degree: 14%
 
 ---
 
-# SearchStrings{#searchstrings}
+# 搜索字串{#searchstrings}
 
-從PDF檔案中擷取的搜尋字串記錄。
+從PDF檔案中提取的搜索字串記錄。
 
 語法
 
@@ -22,12 +22,12 @@ ht-degree: 13%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| `*`searchString`*` | `xsd:string` | 搜尋字串文字。 |
-| `*`keywordsArray`*` | `types:KeywordsArray` | 搜尋字串中的關鍵字陣列。 |
-| `*`狀態`*` | `xsd:boolean` | 如果搜索字串有效且已啟用，則返回true。 |
-| `*`x`*` | `xsd:int` | 搜尋字串的X軸位置。 |
-| `*`y`*` | `xsd:int` | 搜索字串的Y軸位置。 |
-| `*`width`*` | `xsd:int` | 搜尋字串寬度。 |
-| `*`height`*` | `xsd:int` | 搜尋字串高度。 |
-| `*`fontName`*` | `xsd:string` | 搜索字串中使用的字型名稱。 |
-| `*`pointSize`*` | `xsd:string` | 字型大小. |
+| 搜索字串 | `xsd:string` | 搜索字串文本。 |
+| 關鍵字陣列 | `types:KeywordsArray` | 搜索字串中的關鍵字陣列。 |
+| 狀態 | `xsd:boolean` | 如果搜索字串有效且已啟用，則為True。 |
+| x | `xsd:int` | 搜索字串的X軸位置。 |
+| y | `xsd:int` | 搜索字串的Y軸位置。 |
+| 寬度 | `xsd:int` | 搜索字串寬度。 |
+| 高度 | `xsd:int` | 搜索字串高度。 |
+| 字型名稱 | `xsd:string` | 搜索字串中使用的字型的名稱。 |
+| 點大小 | `xsd:string` | 字型大小. |

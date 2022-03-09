@@ -1,18 +1,18 @@
 ---
 description: AssetSet類型資產的屬性。
 solution: Experience Manager
-title: AssetSetInfo
-feature: Dynamic Media Classic,SDK/API，資產管理
+title: 資產集資訊
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: ca5e4d7d-24b3-4b4b-b350-ded83f94528b
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 11%
+source-wordcount: '37'
+ht-degree: 13%
 
 ---
 
-# AssetSetInfo{#assetsetinfo}
+# 資產集資訊{#assetsetinfo}
 
 AssetSet類型資產的屬性。
 
@@ -22,4 +22,4 @@ AssetSet類型資產的屬性。
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| `*`setDefinition`*` | `xsd:string` | 根據目標IS檢視器要求格式化的資產集定義。 可包含可選的IPS替代參數。 |
+| setDefinition | `xsd:string` | 根據目標IS查看器的要求格式化的資產集定義。 可以包含可選的IPS替代參數。 |

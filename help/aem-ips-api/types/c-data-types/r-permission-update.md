@@ -1,20 +1,20 @@
 ---
-description: 說明權限變更。
+description: 描述權限更改。
 solution: Experience Manager
 title: 權限更新
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: a21b9d66-14bd-4983-9eb9-54ab1be1261e
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 12%
+source-wordcount: '34'
+ht-degree: 14%
 
 ---
 
 # 權限更新{#permissionupdate}
 
-說明權限變更。
+描述權限更改。
 
 語法
 
@@ -22,7 +22,7 @@ ht-degree: 12%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| `*`groupHandle`*` | `xsd:string` | 組句柄。 |
-| `*`permissionType`*` | `xsd:string` | 權限類型。 |
-| `*`isAllowed`*` | `xsd:boolean` | 確定是否允許權限更新。 |
-| `*`isOverride`*` | `xsd:boolean` | 確定權限是否覆蓋另一個權限。 |
+| 組句柄 | `xsd:string` | 組句柄。 |
+| 權限類型 | `xsd:string` | 權限類型。 |
+| 允許 | `xsd:boolean` | 確定是否允許權限更新。 |
+| 是覆蓋 | `xsd:boolean` | 確定權限是否覆蓋其他權限。 |

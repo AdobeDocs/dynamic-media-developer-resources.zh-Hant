@@ -5,10 +5,10 @@ title: saveZoomTarget
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 595fd5c8-4e98-4c1a-b396-c8e170aaf454
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '129'
-ht-degree: 20%
+source-wordcount: '124'
+ht-degree: 21%
 
 ---
 
@@ -33,25 +33,25 @@ ht-degree: 20%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 含有您要儲存之縮放目標的公司控制代碼。 |
-| `*`assetHandle`*` | `xsd:string` | 是 | 縮放目標的控制滑塊。 |
-| `*`zoomTargetHandle`*` | `xsd:string` | 否 | 編輯或建立縮放目標。 |
-| `*`名稱`*` | `xsd:string` | 是 | 縮放目標名稱。 |
-| `*`xPosition`*` | `xsd:int` | 是 | 左像素位置。 |
-| `*`yPosition`*` | `xsd:int` | 是 | 頂部像素位置。 |
-| `*`width`*` | `xsd:int` | 是 | 縮放目標寬度。 |
-| `*`height`*` | `xsd:int` | 是 | 縮放目標高度。 |
-| `*`使用者資料`*` | `xsd:string` | 是 | 以取得客戶專屬資訊。 可包含任何類型的資料。 |
+| 公司句柄 | `xsd:string` | 是 | 包含要保存的縮放目標的公司的句柄。 |
+| 資產句柄 | `xsd:string` | 是 | 縮放目標的句柄。 |
+| zoomTargetHandle | `xsd:string` | 否 | 編輯或建立縮放目標。 |
+| 名稱 | `xsd:string` | 是 | 縮放目標名稱。 |
+| x位置 | `xsd:int` | 是 | 左像素位置。 |
+| 位置 | `xsd:int` | 是 | 頂像素位置。 |
+| 寬度 | `xsd:int` | 是 | 縮放目標寬度。 |
+| 高度 | `xsd:int` | 是 | 縮放目標高度。 |
+| 使用者資料 | `xsd:string` | 是 | 有關特定於客戶的資訊。 可以包含任何類型的資料。 |
 
 **輸出(saveZoomTargetReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`zoomTargetHandle`*` | `xsd:string` | 是 | 處理新建立的縮放目標。 |
+| zoomTargetHandle | `xsd:string` | 是 | 對新建立的縮放目標的句柄。 |
 
 ## 範例 {#section-509c472c316549cdb228d7e1cfa8400a}
 
-此程式碼範例會儲存縮放目標。 回應會傳回縮放目標控制代碼。
+此代碼示例保存縮放目標。 響應返回縮放目標句柄。
 
 **請求**
 

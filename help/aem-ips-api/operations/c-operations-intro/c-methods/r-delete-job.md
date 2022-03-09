@@ -1,24 +1,24 @@
 ---
-description: 刪除當前或計畫的作業。
+description: 刪除當前作業或計畫作業。
 solution: Experience Manager
-title: deleteJob
+title: 刪除作業
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d38dd1e2-668e-4956-b854-54bf466d6d45
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 12%
+source-wordcount: '90'
+ht-degree: 13%
 
 ---
 
-# deleteJob{#deletejob}
+# 刪除作業{#deletejob}
 
-刪除當前或計畫的作業。
+刪除當前作業或計畫作業。
 
 語法
 
-## 授權的使用者類型 {#section-1b959679dc8147c291126ddf7e061742}
+## 授權用戶類型 {#section-1b959679dc8147c291126ddf7e061742}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -35,16 +35,16 @@ ht-degree: 12%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 工作所屬公司的控制代碼。 |
-| `*`jobHandle`*` | `xsd:string` | 是 | 要刪除的作業的句柄。 |
+| 公司句柄 | `xsd:string` | 是 | 作業所屬公司的句柄。 |
+| 作業句柄 | `xsd:string` | 是 | 要刪除的作業的句柄。 |
 
 **輸出**
 
-IPS API不會針對此操作傳回回應。
+IPS API不會為此操作返迴響應。
 
 ## 範例 {#section-732d21d4dad04337b7a5ae1a0cc00eba}
 
-此程式碼範例會刪除正在執行或排程在IPS中執行的作業。 它需要作業句柄，您必須從其他操作中獲取該句柄。
+此代碼示例刪除正在運行或計畫在IPS中運行的作業。 它需要一個任務句柄，您必須從另一個工序中獲得該句柄。
 
 **請求**
 

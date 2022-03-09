@@ -5,10 +5,10 @@ title: ImageRenderingPublishJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 09d97e1f-8266-44b3-a50d-6088489712a5
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 11%
+source-wordcount: '39'
+ht-degree: 12%
 
 ---
 
@@ -22,6 +22,6 @@ ht-degree: 11%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| `*`emailSetting`*` | `xsd:string` | 選擇電子郵件設定。 |
-| `*`httpCompletionUrl`*` | `xsd:string` | 傳送完成通知的URL。 |
-| `*`contextHandle`*` | `xsd:string` | 處理發佈內容。 |
+| 電子郵件設定 | `xsd:string` | 選擇電子郵件設定。 |
+| httpCompletionUrl | `xsd:string` | 發送完成通知的URL。 |
+| 上下文句柄 | `xsd:string` | 處理發佈上下文。 |

@@ -1,24 +1,24 @@
 ---
-description: 設定與資產影像相關聯的縮放目標。 它會覆寫現有的縮放目標。
+description: 設定與資產影像關聯的縮放目標。 它覆蓋現有縮放目標。
 solution: Experience Manager
 title: setZoomTargets
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1b4ac729-00cf-4ea2-9098-60b4af3c7e6d
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 13%
+source-wordcount: '121'
+ht-degree: 14%
 
 ---
 
 # setZoomTargets{#setzoomtargets}
 
-設定與資產影像相關聯的縮放目標。 它會覆寫現有的縮放目標。
+設定與資產影像關聯的縮放目標。 它覆蓋現有縮放目標。
 
 語法
 
-## 已授權的使用者類型 {#section-c5e1863e9cb1426591bfea513620b6ab}
+## 授權用戶類型 {#section-c5e1863e9cb1426591bfea513620b6ab}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,19 +33,19 @@ ht-degree: 13%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 公司負責人。 |
-| `*`assetHandle`*` | `xsd:string` | 是 | 包含您要設定之縮放目標的資產。 |
-| `*`zoomTargetArray`*` | `types:ZoomTargetDefinitionArray` | 是 | 縮放目標定義的陣列。 |
+| 公司句柄 | `xsd:string` | 是 | 公司負責。 |
+| 資產句柄 | `xsd:string` | 是 | 具有要設定的縮放目標的資產。 |
+| zoomTargetArray | `types:ZoomTargetDefinitionArray` | 是 | 縮放目標定義的陣列。 |
 
 **輸出(setZoomTargetsReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`zoomTargetHandleArray`*` | `types:HandleArray` | 是 | 由此操作建立的縮放目標的控點集。 |
+| zoomTargetHandleArray | `types:HandleArray` | 是 | 此操作建立的縮放目標的控制滑塊集。 |
 
 ## 範例 {#section-a2f14c7a1499443e96d099ea8a76c182}
 
-此程式碼範例依名稱、位置（x和y軸）、寬度、高度定義縮放目標的陣列，並將陣列指派給資產。 回應包含新建立之縮放目標的控點。
+此代碼示例按名稱、位置（x和y軸）、寬度、高度定義縮放目標的陣列，並將該陣列分配給資產。 響應包含對新建立的縮放目標的句柄。
 
 **請求**
 

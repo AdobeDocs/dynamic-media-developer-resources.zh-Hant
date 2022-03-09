@@ -1,24 +1,24 @@
 ---
-description: 建立預設集檢視，決定使用者可看見的內容。 檢視器可以是IPS中可用的任何類型。 資產發佈時，會套用預設集檢視。
+description: 建立一個預設視圖，確定用戶可以看到的內容。 查看器可以是IPS中可用的任何類型。 發佈資產時應用預設視圖。
 solution: Experience Manager
 title: createViewerPreset
-feature: Dynamic Media Classic, SDK/API，檢視器預設集
+feature: Dynamic Media Classic,SDK/API,Viewer Presets
 role: Developer,Admin
 exl-id: b24536d9-df66-4c94-8467-6f46e66a1b36
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 12%
+source-wordcount: '158'
+ht-degree: 13%
 
 ---
 
 # createViewerPreset{#createviewerpreset}
 
-建立預設集檢視，決定使用者可看見的內容。 檢視器可以是IPS中可用的任何類型。 資產發佈時，會套用預設集檢視。
+建立一個預設視圖，確定用戶可以看到的內容。 查看器可以是IPS中可用的任何類型。 發佈資產時應用預設視圖。
 
 語法
 
-## 授權的使用者類型 {#section-0b8b1322ebea4a7ea24d516e080b7367}
+## 授權用戶類型 {#section-0b8b1322ebea4a7ea24d516e080b7367}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,21 +31,21 @@ ht-degree: 12%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 包含檢視器預設集和資產的公司控點。 |
-| `*`folderHandle`*` | `xsd:string` | 是 | 包含資產之資料夾的控點。 |
-| `*`名稱`*` | `xsd:string` | 是 | 檢視器名稱。 |
-| `*`類型`*` | `xsd:string` | 是 | 檢視器類型. |
-| `*`configSettingArray`*` | `types:ConfigSettingArray` | 否 | 陣列，包含要應用預設集的影像的名稱、值和句柄。 |
+| 公司句柄 | `xsd:string` | 是 | 包含查看器預設和資產的公司句柄。 |
+| folderHandle | `xsd:string` | 是 | 包含資產的資料夾的句柄。 |
+| 名稱 | `xsd:string` | 是 | 查看器名稱。 |
+| type | `xsd:string` | 是 | 檢視器類型. |
+| configSettingArray | `types:ConfigSettingArray` | 否 | 包含要應用預設的影像的名稱、值和句柄的陣列。 |
 
 **輸出(createViewerPresetReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`viewerPresetHandle`*` | `xsd:string` | 是 | 對檢視器處理預設集。 |
+| 查看器PresetHandle | `xsd:string` | 是 | 將預設的句柄提供給查看器。 |
 
 ## 範例 {#section-c88ea63536f3461cbe4677ba53f875dd}
 
-此程式碼範例會建立視訊播放器預設集。 回應會傳回控制代碼至預設集。
+此代碼示例建立視頻播放器預設。 響應將句柄返回到預設。
 
 ```java
 <createViewerPresetParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

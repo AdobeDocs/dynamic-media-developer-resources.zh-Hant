@@ -1,18 +1,18 @@
 ---
-description: ZoomTargetDefinitionArray
+description: 縮放目標定義陣列
 solution: Experience Manager
-title: ZoomTargetDefinitionArray
+title: 縮放目標定義陣列
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c5e89967-8800-4323-9cd8-d3e4a4ccaae3
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '20'
-ht-degree: 30%
+source-wordcount: '15'
+ht-degree: 40%
 
 ---
 
-# ZoomTargetDefinitionArray{#zoomtargetdefinitionarray}
+# 縮放目標定義陣列{#zoomtargetdefinitionarray}
 
 語法
 
@@ -20,4 +20,4 @@ ht-degree: 30%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| `*`項目`*` | `types:ZoomTargetDefinition` | 縮放目標定義的陣列。 |
+| 項目 | `types:ZoomTargetDefinition` | 縮放目標定義的陣列。 |

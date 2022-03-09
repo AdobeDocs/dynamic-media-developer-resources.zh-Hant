@@ -1,26 +1,26 @@
 ---
-description: 重新命名資產。
+description: 更名資產。
 solution: Experience Manager
-title: renameAsset
-feature: Dynamic Media Classic,SDK/API，資產管理
+title: 更名資產
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: f3fff3c1-1b48-4d86-8a81-f75be00fc329
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '173'
 ht-degree: 7%
 
 ---
 
-# renameAsset{#renameasset}
+# 更名資產{#renameasset}
 
-重新命名資產。
+更名資產。
 
 >[!NOTE]
 >
->先前版本已棄用`renameFiles`參數，並從`renameAsset`中移除。 虛擬檔案路徑會變更，以符合新資產名稱（保留副檔名），而物理檔案路徑則不受影響。 更新至新API版本時，API用戶端需要移除此參數的參考。
+>的 `renameFiles` 參數已棄用於以前的版本，並已從中刪除 `renameAsset`。 虛擬檔案路徑被更改以與新資產名稱匹配（保留檔案副檔名），而物理檔案路徑不受影響。 API客戶端在更新到新API版本時需要刪除對此參數的引用。
 
-## 授權的使用者類型 {#section-cc27ad713c6d498b8f056850b20976f4}
+## 授權用戶類型 {#section-cc27ad713c6d498b8f056850b20976f4}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -31,7 +31,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->使用者必須擁有資產的讀取和寫入存取權。
+>用戶必須具有對資產的讀寫權限。
 
 ## 參數 {#section-ef95a994106841e0ab346dd4cf672258}
 
@@ -39,18 +39,18 @@ ht-degree: 7%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 資產所屬公司的控制代碼。 |
-| `*`assetHandle`*` | `xsd:string` | 是 | 您要重新命名的資產的控制代碼。 |
-| `*`newName`*` | `xsd:string` | 是 | 資產的新名稱。 |
-| `*`validateName`*` | `xsd:boolean` | 是 | 如果`validateName`為`true`，且資產類型需要唯一IPS ID，則會檢查新名稱是否具有全域唯一性，而如果`renameAsset`並非唯一，則會擲回錯誤。 |
+| 公司句柄 | `xsd:string` | 是 | 資產所屬公司的句柄。 |
+| 資產句柄 | `xsd:string` | 是 | 要更名的資產的句柄。 |
+| 新名稱 | `xsd:string` | 是 | 資產的新名稱。 |
+| validateName | `xsd:boolean` | 是 | 如果 `validateName` 是 `true` 並且資產類型需要唯一的IPS ID，然後檢查新名稱是否具有全局唯一性， `renameAsset` 如果它不是唯一的，則拋出錯誤。 |
 
 **輸出(renameAssetReturn)**
 
-IPS API不會針對此操作傳回回應。 請參閱`<ns1:validateName>`元素的說明，了解此元素的警告。
+IPS API不會為此操作返迴響應。 請參閱 `<ns1:validateName>` 元素。
 
 ## 範例 {#section-a0ddffd62bec42e09069f22ceb486f8a}
 
-此程式碼範例會重新命名資產
+此代碼示例更名資產
 
 **請求**
 

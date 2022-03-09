@@ -1,20 +1,20 @@
 ---
-description: searchAssets傳回的中繼資料欄位。
+description: searchAssets返回的元資料欄位。
 solution: Experience Manager
 title: 中繼資料
-feature: Dynamic Media Classic,SDK/API，中繼資料
+feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 62e3e215-31ea-49fd-937e-d136fdf84aff
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 11%
+source-wordcount: '57'
+ht-degree: 15%
 
 ---
 
 # 中繼資料{#metadata}
 
-searchAssets傳回的中繼資料欄位。
+searchAssets返回的元資料欄位。
 
 語法
 
@@ -22,9 +22,9 @@ searchAssets傳回的中繼資料欄位。
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| `*`名稱`*` | `xsd:string` | 中繼資料名稱。 |
-| `*`value`*` | `xsd:string` | 中繼資料值。 |
-| `*`boolVal`*` | `xsd:boolean` | 布林元資料值（僅適用於布林類型欄位）。 |
-| `*`longVal`*` | `xsd:long` | 長中繼資料值（僅適用於整型欄位）。 |
-| `*`doubleVal`*` | `xsd:double` | 雙重中繼資料值（僅適用於浮點類型欄位）。 |
-| `*`dateVal`*` | `xsd:dateTime` | 日期中繼資料值（僅適用於日期類型欄位）。 |
+| 名稱 | `xsd:string` | 元資料名稱。 |
+| 價值 | `xsd:string` | 元資料值。 |
+| 布爾瓦爾 | `xsd:boolean` | 布爾元資料值（僅適用於布爾類型欄位）。 |
+| 朗瓦爾 | `xsd:long` | 長元資料值（僅適用於int類型欄位）。 |
+| 雙谷 | `xsd:double` | 雙元資料值（僅適用於浮點類型欄位）。 |
+| 日期值 | `xsd:dateTime` | 日期元資料值（僅適用於日期類型欄位）。 |

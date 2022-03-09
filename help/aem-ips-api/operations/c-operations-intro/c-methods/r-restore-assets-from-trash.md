@@ -1,24 +1,24 @@
 ---
-description: 從垃圾桶還原資產。
+description: 從垃圾箱中恢復資產。
 solution: Experience Manager
 title: restoreAssetsFromTrash
-feature: Dynamic Media Classic,SDK/API，資產管理
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: b1cde1a9-d726-4ebc-9d49-ee72a6b56fc9
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '157'
 ht-degree: 12%
 
 ---
 
 # restoreAssetsFromTrash{#restoreassetsfromtrash}
 
-從垃圾桶還原資產。
+從垃圾箱中恢復資產。
 
 語法
 
-## 授權的使用者類型 {#section-15e887782c7d4ace897ff02c6ad5baa0}
+## 授權用戶類型 {#section-15e887782c7d4ace897ff02c6ad5baa0}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,22 +33,22 @@ ht-degree: 12%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 含有您要還原之資產的公司控制代碼。 |
-| `*`assetHandleArray`*` | `types:HandleArray` | 是 | 您要還原之資產的控點陣列。 |
+| 公司句柄 | `xsd:string` | 是 | 要恢復資產的公司的句柄。 |
+| assetHandleArray | `types:HandleArray` | 是 | 要恢復的資產的句柄陣列。 |
 
 **輸出(restoreAssetsFromTrashReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | 是 | 成功從垃圾桶移除的資產數。 |
-| `*`warningCount`*` | `xsd:int` | 是 | 嘗試從清單還原資產時產生的警告數。 |
-| `*`errorCount`*` | `xsd:int` | 是 | 嘗試從清單還原資產時產生的錯誤數。 |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 與資產相關聯的詳細資訊陣列，當操作嘗試從垃圾桶還原資產時，資產會產生警告。 |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 與資產相關聯的詳細資訊陣列，當操作嘗試從清單還原資產時，資產會產生錯誤。 |
+| 成功計數 | `xsd:int` | 是 | 成功從垃圾箱中刪除的資產數。 |
+| 警告計數 | `xsd:int` | 是 | 操作嘗試從垃圾站還原資產時生成的警告數。 |
+| 錯誤計數 | `xsd:int` | 是 | 嘗試從垃圾站還原資產時生成的錯誤數。 |
+| 警告DetailArray | `types:AssetOperationFaultArray` | 否 | 與在操作嘗試從垃圾箱還原資產時生成警告的資產關聯的詳細資訊陣列。 |
+| 錯誤DetailArray | `types:AssetOperationFaultArray` | 否 | 與在操作嘗試從垃圾箱還原資產時生成錯誤的資產關聯的詳細資訊陣列。 |
 
 ## 範例 {#section-98fe0394b0634ca397c395f14f8a9358}
 
-此程式碼範例會從垃圾桶還原資產。 響應指示操作已成功完成。
+此代碼示例從垃圾箱中恢復資產。 響應指示操作已成功完成。
 
 **請求**
 

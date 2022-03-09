@@ -5,10 +5,10 @@ title: getAllUsers
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: db1fd5c9-80f5-463a-870f-be3e38c21bab
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 22%
+source-wordcount: '70'
+ht-degree: 24%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 22%
 
 語法
 
-## 授權的使用者類型 {#section-68ed5f5fcc5348308dfe074c590caeaa}
+## 授權用戶類型 {#section-68ed5f5fcc5348308dfe074c590caeaa}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -43,10 +43,10 @@ ht-degree: 22%
    <td colname="col1"> <span class="codeph"> <span class="varname"> includeInvalid</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4">設為： 
+   <td colname="col4">設定為： 
     <ul id="ul_FB9F59A8293B4CCA98E42EBF8412C77B"> 
-     <li id="li_3C2E6C4D3478411FA1A34D5CBFFC8108"><span class="codeph"> </span> trueto包含無效的使用者。 </li> 
-     <li id="li_7FCA0DE4BE2248A690076FEC6854F5CE"><span class="codeph"> </span> false會忽略無效使用者。 </li> 
+     <li id="li_3C2E6C4D3478411FA1A34D5CBFFC8108"><span class="codeph"> 真</span> 包含無效用戶。 </li> 
+     <li id="li_7FCA0DE4BE2248A690076FEC6854F5CE"><span class="codeph"> 假</span> 以忽略無效用戶。 </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -56,12 +56,12 @@ ht-degree: 22%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`userArray`*` | `types:UserArray` | 是 | 所有使用者的陣列。 |
-| `*`代碼片語`*` | `Code Phrase` |  |  |
+| 用戶陣列 | `types:UserArray` | 是 | 所有用戶的陣列。 |
+| 代碼短語 | `Code Phrase` |  |  |
 
 ## 範例 {#section-9c9a2d335513478da20652c1b1443731}
 
-此程式碼範例會傳回所有使用者。 回應會為簡潔而截斷。
+此代碼示例返回所有用戶。 響應被截斷以便簡化。
 
 **請求**
 

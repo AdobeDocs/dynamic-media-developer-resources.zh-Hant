@@ -1,20 +1,20 @@
 ---
-description: Microsoft Excel檔案的屬性。
+description: MicrosoftExcel檔案的屬性。
 solution: Experience Manager
-title: ExcelInfo
+title: Excel資訊
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: eec7405f-58fd-4103-95ff-c35c6e86c60f
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '35'
-ht-degree: 25%
+source-wordcount: '30'
+ht-degree: 30%
 
 ---
 
-# ExcelInfo{#excelinfo}
+# Excel資訊{#excelinfo}
 
-Microsoft Excel檔案的屬性。
+MicrosoftExcel檔案的屬性。
 
 語法
 
@@ -22,6 +22,6 @@ Microsoft Excel檔案的屬性。
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| `*`originalPath`*` | `xsd:string` | 檔案路徑。 |
-| `*`originalFile`*` | `xsd:string` | 檔案名稱. |
-| `*`fileSize`*` | `xsd:int` | 檔案大小. |
+| 原始路徑 | `xsd:string` | 檔案的路徑。 |
+| 原始檔案 | `xsd:string` | 檔案名稱. |
+| 檔案大小 | `xsd:int` | 檔案大小. |

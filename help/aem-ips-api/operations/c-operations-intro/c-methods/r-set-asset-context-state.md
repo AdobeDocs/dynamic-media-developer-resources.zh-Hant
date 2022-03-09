@@ -1,22 +1,22 @@
 ---
-description: 設定或更新一或多個資產的發佈狀態。 您可以為公司中的每個發佈內容設定不同的發佈狀態。
+description: 設定或更新一個或多個資產的發佈狀態。 您可以為公司中的每個發佈上下文設定單獨的發佈狀態。
 solution: Experience Manager
 title: setAssetsContextState
-feature: Dynamic Media Classic,SDK/API，資產管理
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 28d0a67b-3e36-43fc-800d-17c841dca3a0
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 10%
+source-wordcount: '158'
+ht-degree: 11%
 
 ---
 
 # setAssetsContextState{#setassetscontextstate}
 
-設定或更新一或多個資產的發佈狀態。 您可以為公司中的每個發佈內容設定不同的發佈狀態。
+設定或更新一個或多個資產的發佈狀態。 您可以為公司中的每個發佈上下文設定單獨的發佈狀態。
 
-## 授權的使用者類型 {#section-815eb031f85143278c1560c18c5e3431}
+## 授權用戶類型 {#section-815eb031f85143278c1560c18c5e3431}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -30,29 +30,29 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->使用者必須擁有讀取存取權，才能傳回資產。
+>用戶必須具有讀取權限才能返回資產。
 
 ## 參數 {#section-009b9006de8e4c16ad657c47f28ace9f}
 
-**輸入(setAssetsContextStateParam)**
+**Input(setAssetsContextStateParam)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 為公司處理。 |
-| `*`assetsContextHandle`*` | `types:AssetsContextStateUpdateArray` | 是 | 一系列資產及其新的發佈狀態。 |
+| 公司句柄 | `xsd:string` | 是 | 把手交給公司。 |
+| assetsContextHandle | `types:AssetsContextStateUpdateArray` | 是 | 一系列資產及其新發佈狀態。 |
 
 **輸出(setAssetsContexStateReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | 是 | 已成功變更的資產數量。 |
-| `*`warningCount`*` | `xsd:int` | 是 | 操作嘗試修改資產時產生的警告數。 |
-| `*`errorCount`*` | `xsd:int` | 是 | 操作嘗試修改資產時產生的錯誤數。 |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 資產嘗試修改時產生的錯誤陣列。 |
+| 成功計數 | `xsd:int` | 是 | 已成功更改的資產數。 |
+| 警告計數 | `xsd:int` | 是 | 操作嘗試修改資產時生成的警告數。 |
+| 錯誤計數 | `xsd:int` | 是 | 操作嘗試修改資產時生成的錯誤數。 |
+| 警告DetailArray | `types:AssetOperationFaultArray` | 否 | 當操作嘗試修改這些錯誤時，由資產生成的錯誤陣列。 |
 
 ## 範例 {#section-283a073f3cb14bcda5abed863c538aa4}
 
-此程式碼範例使用`NotMarkedForPublish`設定資產的發佈狀態。
+此代碼示例使用 `NotMarkedForPublish`。
 
 **請求**
 

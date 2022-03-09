@@ -5,7 +5,7 @@ title: createPropertySetType
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1730ccbf-e8b0-4f92-9daf-da2fa047cbbd
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 12%
@@ -31,16 +31,16 @@ ht-degree: 12%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`公司句柄`*` | `xsd:string` | 否 | 擁有屬性集類型的公司的句柄。 如果 `companyHandle` 未傳遞，呼叫者是 `IpsAdmin`，將建立全局屬性集類型。 |
-| `*`名稱`*` | `xsd:string` | 是 | 屬性集類型的名稱。 |
-| `*`屬性類型`*` | `xsd:string` | 是 | 屬性集類型的選擇。 |
-| `*`允許多個`*` | `xsd:boolean` | 是 | 確定程式是否可以具有多個屬性集。 |
+| 公司句柄 | `xsd:string` | 否 | 擁有屬性集類型的公司的句柄。 如果 `companyHandle` 未傳遞，呼叫者是 `IpsAdmin`，將建立全局屬性集類型。 |
+| 名稱 | `xsd:string` | 是 | 屬性集類型的名稱。 |
+| 屬性類型 | `xsd:string` | 是 | 屬性集類型的選擇。 |
+| 允許多個 | `xsd:boolean` | 是 | 確定程式是否可以具有多個屬性集。 |
 
 **輸出(createPropertySetTypeReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`類型句柄`*` | `xsd:string` | 是 | 類型的句柄。 |
+| 類型句柄 | `xsd:string` | 是 | 類型的句柄。 |
 
 ## 範例 {#section-13396c9639a6475190e622eae3cdb534}
 

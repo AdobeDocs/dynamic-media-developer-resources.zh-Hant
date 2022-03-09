@@ -1,24 +1,24 @@
 ---
-description: 將資產移至特定資料夾。
+description: 將資產移動到特定資料夾。
 solution: Experience Manager
-title: moveAsset
-feature: Dynamic Media Classic,SDK/API，資產管理
+title: 移動資產
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: c5357c1a-92ac-4f9c-957e-b62cb812796c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 15%
+source-wordcount: '76'
+ht-degree: 17%
 
 ---
 
-# moveAsset{#moveasset}
+# 移動資產{#moveasset}
 
-將資產移至特定資料夾。
+將資產移動到特定資料夾。
 
 語法
 
-## 授權的使用者類型 {#section-e4f2d2a58132450aa36da6377134211e}
+## 授權用戶類型 {#section-e4f2d2a58132450aa36da6377134211e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,17 +33,17 @@ ht-degree: 15%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 為公司處理。 |
-| `*`assetHandle`*` | `xsd:string` | 是 | 處理您要移動的資產。 |
-| `*`folderHandle`*` | `xsd:string` | 是 | 處理目標資料夾。 |
+| 公司句柄 | `xsd:string` | 是 | 把手交給公司。 |
+| 資產句柄 | `xsd:string` | 是 | 處理要移動的資產。 |
+| folderHandle | `xsd:string` | 是 | 目標資料夾的句柄。 |
 
 **輸出(moveAssetReturn)**
 
-IPS API不會針對此操作傳回回應。
+IPS API不會為此操作返迴響應。
 
 ## 範例 {#section-78333769f4f14e2886fdf06433c9d2ad}
 
-此程式碼範例會將資產移至資料夾。
+此代碼示例將資產移到資料夾。
 
 **請求**
 

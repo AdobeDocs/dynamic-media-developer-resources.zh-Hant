@@ -5,10 +5,10 @@ title: setTagFieldValues
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 50f437d6-fec5-4961-884e-fdb75d201ab7
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 16%
+source-wordcount: '81'
+ht-degree: 17%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 16%
 
 語法
 
-## 授權的使用者類型 {#section-8b1413654bab44cfb2b1fffbb88aa385}
+## 授權用戶類型 {#section-8b1413654bab44cfb2b1fffbb88aa385}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -30,13 +30,13 @@ ht-degree: 16%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 公司負責人。 |
-| `*`fieldHandle`*` | `xsd:string` | 是 | 標籤欄位句柄。 |
-| `*`valueArray`*` | `types:StringArray` | 是 | 取代欄位現有字典的標籤值陣列。 當新值符合現有值時，會維護資產關聯。 |
+| 公司句柄 | `xsd:string` | 是 | 公司負責。 |
+| 欄位句柄 | `xsd:string` | 是 | 標籤欄位句柄。 |
+| 值陣列 | `types:StringArray` | 是 | 替換欄位現有字典的標籤值陣列。 當新值與現有值匹配時，將維護資產關聯。 |
 
 **輸出(setTagFieldValuesReturn)**
 
-IPS API不會針對此操作傳回回應。
+IPS API不會為此操作返迴響應。
 
 ## 範例 {#section-b11cafd9bed54ab5836c737cc075c918}
 

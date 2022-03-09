@@ -1,24 +1,24 @@
 ---
-description: 傳回包含已命名Photoshop路徑的四邊形座標。
+description: 返回封閉指定Photoshop路徑的四邊形的坐標。
 solution: Experience Manager
 title: getPhotoshopPath
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 46d88547-bb60-4370-9c79-bd281b40ba28
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 18%
+source-wordcount: '86'
+ht-degree: 19%
 
 ---
 
 # getPhotoshopPath{#getphotoshoppath}
 
-傳回包含已命名Photoshop路徑的四邊形座標。
+返回封閉指定Photoshop路徑的四邊形的坐標。
 
 語法
 
-## 授權的使用者類型 {#section-c417a287612847cb98dd0aa9c67fd78a}
+## 授權用戶類型 {#section-c417a287612847cb98dd0aa9c67fd78a}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -35,15 +35,15 @@ ht-degree: 18%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 使用您要使用的影像處理公司。 |
-| `*`assetHandle`*` | `xsd:string` | 是 | 處理影像資產。 |
-| `*`pathName`*` | `xsd:string` | 是 | 您要傳回的Photoshop路徑名稱。 |
+| 公司句柄 | `xsd:string` | 是 | 使用要使用的映像處理公司。 |
+| 資產句柄 | `xsd:string` | 是 | 處理影像資產。 |
+| 路徑名 | `xsd:string` | 是 | 要返回的Photoshop路徑的名稱。 |
 
 **輸出(getPhotoshopPathReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`perspectiveQuad`*` | `types:PerspectiveQuad` | 是 | 根據路徑傳回影像座標。 請參閱[PerspectiveQuad](../../../types/c-data-types/r-perspective-quad.md#reference-3c1f780f9c264e5b870b1ade24566204)。 |
+| 透視四 | `types:PerspectiveQuad` | 是 | 根據路徑返回影像坐標。 請參閱 [透視四](../../../types/c-data-types/r-perspective-quad.md#reference-3c1f780f9c264e5b870b1ade24566204)。 |
 
 ## 範例 {#section-1f0461cbdc184c8d8925336d5279db47}
 

@@ -1,24 +1,24 @@
 ---
-description: 根據傳入的參數傳回2種不同的資訊。 originator處理返回有關從指定資產生成的資產的資訊。 generateHandle返回有關用於生成指定資產或檔案的步驟的資訊。
+description: 根據傳入的參數返回2種不同類型的資訊。 originatorHandle返回有關從指定資產生成的資產的資訊。 generateHandle返回有關用於生成指定資產或檔案的步驟的資訊。
 solution: Experience Manager
 title: getGenerationInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: fa098e3c-8145-4238-a84c-c545f1c53341
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 9%
+source-wordcount: '196'
+ht-degree: 10%
 
 ---
 
 # getGenerationInfo{#getgenerationinfo}
 
-根據傳入的參數傳回2種不同的資訊。 originator處理返回有關從指定資產生成的資產的資訊。 generateHandle返回有關用於生成指定資產或檔案的步驟的資訊。
+根據傳入的參數返回2種不同類型的資訊。 originatorHandle返回有關從指定資產生成的資產的資訊。 generateHandle返回有關用於生成指定資產或檔案的步驟的資訊。
 
 語法
 
-## 授權的使用者類型 {#section-9cc2216b32c74107be07aeacecc11401}
+## 授權用戶類型 {#section-9cc2216b32c74107be07aeacecc11401}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -36,22 +36,22 @@ ht-degree: 9%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`代碼片語`*` | `xsd:string` | 是 | 公司的把手。 |
-| `*`代碼片語`*` | `xsd:string` | 否 | 那代人用的引擎。 請參閱字型樣式。 |
-| `*`代碼片語`*` | `xsd:string` | 否 | 要查詢所產生資產的資產處理。 |
-| `*`代碼片語`*` | `xsd:string` | 否 | 要查詢用於產生資產和引擎的資產處理。 |
-| `*`代碼片語`*` | `xsd:StringArray` | 否 | 操作中包含的屬性。 |
-| `*`代碼片語`*` | `xsd:StringArray` | 否 | 從操作中排除的屬性。 |
+| 代碼短語 | `xsd:string` | 是 | 公司的把手。 |
+| 代碼短語 | `xsd:string` | 否 | 那個在這代人中使用的引擎。 請參閱字型樣式。 |
+| 代碼短語 | `xsd:string` | 否 | 要查詢生成的資產的句柄。 |
+| 代碼短語 | `xsd:string` | 否 | 要查詢其生成中使用的資產和引擎的資產句柄。 |
+| 代碼短語 | `xsd:StringArray` | 否 | 操作中包含的屬性。 |
+| 代碼短語 | `xsd:StringArray` | 否 | 從操作中排除的屬性。 |
 
 **輸出(getGenerationInfoReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`generationArray`*` | `types:GenerationInfoArray` | 是 | 生成資訊的陣列。 |
+| generationArray | `types:GenerationInfoArray` | 是 | 層代資訊的陣列。 |
 
 ## 範例 {#section-fdffe6ed82d94c7aa90e47f7ce889403}
 
-此程式碼範例會傳回從特定資產產生的資產相關資訊。 它不會擷取用於產生指定資產之步驟的相關資訊。 回應會為簡潔而截斷。
+此代碼示例返回有關從特定資產生成的資產的資訊。 它不會檢索有關用於生成指定資產的步驟的資訊。 響應被截斷以便簡化。
 
 **請求**
 

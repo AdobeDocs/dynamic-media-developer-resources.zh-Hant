@@ -1,24 +1,24 @@
 ---
-description: 將資產名稱與公司的影像伺服/影像轉譯目錄命名空間中的所有名稱進行比較，以檢查IPS ID衝突。
+description: 通過將資產名稱與公司的Image Serving/Image Rendering目錄命名空間的所有名稱進行比較，檢查IPS ID衝突。
 solution: Experience Manager
 title: checkAssetNames
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0756c4fc-64ec-4022-a6aa-fcf1542b41b0
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '116'
 ht-degree: 12%
 
 ---
 
 # checkAssetNames{#checkassetnames}
 
-將資產名稱與公司的影像伺服/影像轉譯目錄命名空間中的所有名稱進行比較，以檢查IPS ID衝突。
+通過將資產名稱與公司的Image Serving/Image Rendering目錄命名空間的所有名稱進行比較，檢查IPS ID衝突。
 
 語法
 
-## 授權的使用者類型 {#section-8efcbb3f555f417a870219e4714374db}
+## 授權用戶類型 {#section-8efcbb3f555f417a870219e4714374db}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -35,18 +35,18 @@ ht-degree: 12%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 否 | 包含使用者之公司的控制代碼。 |
-| `*`assetNamesArray`*` | `types:StringArray` | 是 | 要檢查的資產名稱陣列。 |
+| 公司句柄 | `xsd:string` | 否 | 包含用戶的公司的句柄。 |
+| assetNamesArray | `types:StringArray` | 是 | 要檢查的資產名稱陣列。 |
 
 **輸出(checkAssetNamesReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`inUseNameArray`*` | `types:StringArray` | 是 | 使用中的資產名稱陣列。 |
+| inUseNameArray | `types:StringArray` | 是 | 正在使用的資產名稱陣列。 |
 
 ## 範例 {#section-bc5d120d74614a63a425ca3acc337219}
 
-此范常式式碼會要求指定公司使用中的資產名稱。 回應會傳回使用中的資產名稱陣列。
+此示例代碼請求指定公司使用的資產名稱。 響應返回正在使用的資產名稱的陣列。
 
 **請求**
 

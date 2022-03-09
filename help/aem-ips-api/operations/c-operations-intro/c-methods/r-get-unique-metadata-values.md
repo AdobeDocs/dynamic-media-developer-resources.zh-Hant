@@ -2,13 +2,13 @@
 description: 獲取唯一元資料欄位值。
 solution: Experience Manager
 title: getUniqueMetadataValues
-feature: Dynamic Media Classic,SDK/API，中繼資料
+feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: ac5f5667-6c94-425c-bc01-f9df48d16e00
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 25%
+source-wordcount: '57'
+ht-degree: 28%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 25%
 
 語法
 
-## 授權的使用者類型 {#section-6a6b67e10a4c4e7bb18306115713380e}
+## 授權用戶類型 {#section-6a6b67e10a4c4e7bb18306115713380e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,18 +34,18 @@ ht-degree: 25%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 為公司處理。 |
-| `*`fieldHandle`*` | `xsd:string` | 否 | 處理中繼資料欄位。 |
+| 公司句柄 | `xsd:string` | 是 | 把手交給公司。 |
+| 欄位句柄 | `xsd:string` | 否 | 對元資料欄位的句柄。 |
 
 **輸出(getUniqueMetadataValuesReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`values`*` | `type:StringArray` |  |  |
+| values | `type:StringArray` |  |  |
 
 ## 範例 {#section-440f3bc3e5be436cb6ec26117d05f476}
 
-此程式碼範例使用欄位控制代碼來傳回特定中繼資料值。
+此代碼示例使用欄位句柄返回特定元資料值。
 
 **請求**
 

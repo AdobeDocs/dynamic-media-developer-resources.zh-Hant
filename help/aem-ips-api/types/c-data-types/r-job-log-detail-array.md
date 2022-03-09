@@ -1,18 +1,18 @@
 ---
 description: 作業日誌詳細資訊的陣列。
 solution: Experience Manager
-title: JobLogDetailArray
+title: 作業日誌詳細資訊陣列
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: eeaa1d7a-20a7-4bdb-b728-291a2c127003
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '29'
-ht-degree: 20%
+source-wordcount: '24'
+ht-degree: 25%
 
 ---
 
-# JobLogDetailArray{#joblogdetailarray}
+# 作業日誌詳細資訊陣列{#joblogdetailarray}
 
 作業日誌詳細資訊的陣列。
 
@@ -22,4 +22,4 @@ ht-degree: 20%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| `*`項目`*` | `types:JobLogDetail` | 作業日誌詳細資訊的陣列。 |
+| 項目 | `types:JobLogDetail` | 作業日誌詳細資訊的陣列。 |

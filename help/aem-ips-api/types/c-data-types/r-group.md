@@ -1,20 +1,20 @@
 ---
-description: 用於指派權限的一組已命名的使用者。
+description: 用於分配權限的用戶的命名集。
 solution: Experience Manager
 title: 群組
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 843b3fa5-93d3-43db-b6c7-194e7fa4d31a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 19%
+source-wordcount: '42'
+ht-degree: 23%
 
 ---
 
 # 群組{#group}
 
-用於指派權限的一組已命名的使用者。
+用於分配權限的用戶的命名集。
 
 語法
 
@@ -22,7 +22,7 @@ ht-degree: 19%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| `*`groupHandle`*` | `xsd:string` | 組句柄。 |
-| `*`companyHandle`*` | `xsd:string` | 公司負責人。 |
-| `*`名稱`*` | `xsd:string` | 群組名稱. |
-| `*`是SystemDefined`*` | `xsd:string` | 組是否由系統定義。 |
+| 組句柄 | `xsd:string` | 組句柄。 |
+| 公司句柄 | `xsd:string` | 公司負責。 |
+| 名稱 | `xsd:string` | 群組名稱. |
+| 是SystemDefined | `xsd:string` | 組是否由系統定義。 |

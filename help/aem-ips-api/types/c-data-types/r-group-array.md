@@ -1,20 +1,20 @@
 ---
-description: 群組陣列。
+description: 組陣列。
 solution: Experience Manager
-title: GroupArray
+title: 組陣列
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b3ddc10f-e153-4498-afeb-c97d7371e3d3
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '22'
-ht-degree: 27%
+source-wordcount: '17'
+ht-degree: 35%
 
 ---
 
-# GroupArray{#grouparray}
+# 組陣列{#grouparray}
 
-群組陣列。
+組陣列。
 
 語法
 
@@ -22,4 +22,4 @@ ht-degree: 27%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| `*`項目`*` | `types:Group` | 群組陣列。 |
+| 項目 | `types:Group` | 組陣列。 |

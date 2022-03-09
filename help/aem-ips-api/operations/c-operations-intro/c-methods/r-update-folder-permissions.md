@@ -5,10 +5,10 @@ title: updateFolderPermissions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 4e4f382e-4339-4b9d-a721-d33a4fa8be6b
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 18%
+source-wordcount: '72'
+ht-degree: 19%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 18%
 
 語法
 
-## 授權的使用者類型 {#section-e5c2217231bf4b3386e0ab3f2e9aca0b}
+## 授權用戶類型 {#section-e5c2217231bf4b3386e0ab3f2e9aca0b}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -30,14 +30,14 @@ ht-degree: 18%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 公司負責人。 |
-| `*`folderHandle`*` | `xsd:string` | 是 | 資料夾句柄。 |
-| `*`updateChildren`*` | `xsd:boolean` | 是 | 確定是否使用為頂層資料夾設定的權限更新子項。 |
-| `*`updateArray`*` | `types:PermissionUpdateArray` | 是 | 您要套用至資料夾的權限更新陣列。 |
+| 公司句柄 | `xsd:string` | 是 | 公司負責。 |
+| folderHandle | `xsd:string` | 是 | 資料夾句柄。 |
+| 更新子項 | `xsd:boolean` | 是 | 確定是否使用為頂級資料夾設定的權限更新子級。 |
+| 更新陣列 | `types:PermissionUpdateArray` | 是 | 要應用到資料夾的權限更新陣列。 |
 
 **輸出(updateFolderPermissionsReturn)**
 
-IPS API不會針對此操作傳回回應。
+IPS API不會為此操作返迴響應。
 
 ## 範例 {#section-c3fe4d4388674870a3856c35ef66b631}
 

@@ -1,24 +1,24 @@
 ---
-description: 取得一組相關資產的專案。
+description: 獲取一組相關資產的項目。
 solution: Experience Manager
 title: getProjects
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d7262ed7-7419-4d6b-86ed-f3ad4657d654
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 21%
+source-wordcount: '66'
+ht-degree: 22%
 
 ---
 
 # getProjects{#getprojects}
 
-取得一組相關資產的專案。
+獲取一組相關資產的項目。
 
 語法
 
-## 授權的使用者類型 {#section-337649866b1f4098844d1974ed7ab5d0}
+## 授權用戶類型 {#section-337649866b1f4098844d1974ed7ab5d0}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,17 +33,17 @@ ht-degree: 21%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 公司的把手。 |
+| 公司句柄 | `xsd:string` | 是 | 公司的把手。 |
 
 **輸出(getProjectsReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`projectArray`*` | `types:ProjectArray` | 是 | 與公司相關聯的專案陣列。 |
+| projectArray | `types:ProjectArray` | 是 | 與公司關聯的項目陣列。 |
 
 ## 範例 {#section-8b12d0b948f644f68bf9a16060d3849a}
 
-此程式碼範例會傳回專案陣列中的所有專案控制代碼。
+此代碼示例返回項目陣列中的所有項目句柄。
 
 **請求**
 

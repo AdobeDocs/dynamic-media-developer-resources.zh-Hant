@@ -1,25 +1,25 @@
 ---
-description: 取得與特定公司相關聯的資產和資產數量。
+description: 獲取與特定公司關聯的資產和資產數。
 solution: Experience Manager
 title: getAssetCounts
-feature: Dynamic Media Classic,SDK/API，資產管理
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 21cb8023-d6fe-416a-b16f-636df8a37958
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '141'
 ht-degree: 10%
 
 ---
 
 # getAssetCounts{#getassetcounts}
 
-取得與特定公司相關聯的資產和資產數量。
+獲取與特定公司關聯的資產和資產數。
 
-傳回的`countArray`由`assetTypes`（資料類型`xsd:string`）陣列組成，每個陣列都有其自己的計數欄位（資料類型`xsd:int`），可讓每個陣列元素呈現多個資產類型。
+的 `countArray` 返回的 `assetTypes` （資料類型） `xsd:string`)，每個都有自己的計數欄位（資料類型） `xsd:int`)，允許表示每個陣列元素的多個資產類型。
 語法
 
-## 授權的使用者類型 {#section-6234754722184e828352f10eb18fbce9}
+## 授權用戶類型 {#section-6234754722184e828352f10eb18fbce9}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -37,17 +37,17 @@ ht-degree: 10%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 含有您要計算之資產之公司的控制代碼。 |
+| 公司句柄 | `xsd:string` | 是 | 要計算資產的公司的句柄。 |
 
 **輸出(getAssetCountsReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`countArray`*` | `types:AssetCountArray` | 否 | 資產類型的陣列，每個都具有自己的計數欄位，可讓陣列的每個元素呈現多個資產類型。 |
+| 計數陣列 | `types:AssetCountArray` | 否 | 資產類型的陣列，每個資產類型都有其自己的計數欄位，允許對每個陣列元素表示多個資產類型。 |
 
 ## 範例 {#section-6052a503eb3843f6adb99e200fdba280}
 
-此代碼示例將公司的句柄用作發送到IPS Web服務伺服器的`getAssetCountsParam`中的欄位，以獲取資產計數。
+此代碼示例將公司的句柄用作 `getAssetCountsParam` 發送到IPS Web服務伺服器以獲取資產計數。
 
 **請求**
 

@@ -1,18 +1,18 @@
 ---
 description: 更新資產集。
 solution: Experience Manager
-title: updateAssetSet
-feature: Dynamic Media Classic,SDK/API，資產管理
+title: 更新資產集
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: af7899c4-a95f-42c8-858e-ed1592c6f5b6
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 20%
+source-wordcount: '77'
+ht-degree: 22%
 
 ---
 
-# updateAssetSet{#updateassetset}
+# 更新資產集{#updateassetset}
 
 更新資產集。
 
@@ -24,10 +24,10 @@ ht-degree: 20%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 包含要修改的影像集的公司的句柄。 |
-| `*`assetHandle`*` | `xsd:string` | 是 | 要修改的影像集的控點。 |
-| `*`setDefinition`*` | `xsd:string` | 否 | 重置映像整合員。 |
-| `*`thumbAssetHandle`*` | `xsd:string` | 否 | 作為影像集縮圖的資產控點。 |
+| 公司句柄 | `xsd:string` | 是 | 包含要修改的映像集的公司的句柄。 |
+| 資產句柄 | `xsd:string` | 是 | 要修改的影像集的句柄。 |
+| setDefinition | `xsd:string` | 否 | 重置影像整合員。 |
+| 拇指資產句柄 | `xsd:string` | 否 | 用作影像集縮略圖的資產句柄。 |
 
 **輸出(updateAssetSetReturn)**
 

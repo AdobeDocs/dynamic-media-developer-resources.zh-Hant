@@ -1,24 +1,24 @@
 ---
 description: 更名資料夾。
 solution: Experience Manager
-title: renameFolder
-feature: Dynamic Media Classic,SDK/API，資產管理
+title: 更名資料夾
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 2d4f1059-8018-4efb-a1ec-8eb560b1a58f
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 20%
+source-wordcount: '75'
+ht-degree: 22%
 
 ---
 
-# renameFolder{#renamefolder}
+# 更名資料夾{#renamefolder}
 
 更名資料夾。
 
 語法
 
-## 授權的使用者類型 {#section-5a252b00937d4befbec76fa23fbae9df}
+## 授權用戶類型 {#section-5a252b00937d4befbec76fa23fbae9df}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,7 +29,7 @@ ht-degree: 20%
 
 >[!NOTE]
 >
->使用者必須擁有資產的讀取和寫入存取權。
+>用戶必須具有對資產的讀寫權限。
 
 ## 參數 {#section-6fcee63dc3f74a5b90e1d71e59eb255c}
 
@@ -37,19 +37,19 @@ ht-degree: 20%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 處理含有您要重新命名之資料夾的公司。 |
-| `*`folderHandle`*` | `xsd:string` | 是 | 處理資料夾。 |
-| `*`folderName`*` | `xsd:string` | 是 | 新資料夾名稱。 |
+| 公司句柄 | `xsd:string` | 是 | 處理包含要更名的資料夾的公司。 |
+| folderHandle | `xsd:string` | 是 | 處理資料夾。 |
+| 資料夾名稱 | `xsd:string` | 是 | 新資料夾名稱。 |
 
 **輸出(renameFolderReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`folderHandle`*` | `xsd:string` | 是 | 處理已重新命名的資料夾。 |
+| folderHandle | `xsd:string` | 是 | 已更名資料夾的句柄。 |
 
 ## 範例 {#section-98bdd2f88d164f488676e90aba1dc864}
 
-此程式碼範例會重新命名資料夾。
+此代碼示例更名資料夾。
 
 **請求**
 

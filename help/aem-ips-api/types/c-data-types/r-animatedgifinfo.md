@@ -1,18 +1,18 @@
 ---
+title: 動畫Gif資訊
 description: 動畫GIF檔案資產的屬性。
 solution: Experience Manager
-title: AnimatedGifInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b50b39b4-3055-43e3-a8bb-50f8b2f0d1fc
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 31%
+source-wordcount: '55'
+ht-degree: 34%
 
 ---
 
-# AnimatedGifInfo{#animatedgifinfo}
+# 動畫Gif資訊{#animatedgifinfo}
 
 動畫GIF檔案資產的屬性。
 
@@ -30,27 +30,27 @@ ht-degree: 31%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> originalPath</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> 原始路徑</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>GIF檔案的路徑。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> originalFile</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> 原始檔案</span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd：字串</span> </p> </td> 
    <td colname="col3"> <p>檔案名稱. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> optimizedPath</span></span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> 優化路徑</span></span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd：字串</span> </p> </td> 
    <td colname="col3"> <p>IPS優化映像檔案的路徑。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> optimizedFile</span></span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> 優化檔案</span></span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd：字串</span> </p> </td> 
    <td colname="col3"> <p>IPS優化的映像檔案。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> fileSize</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> 檔案大小</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>檔案大小. </p> </td> 
   </tr> 

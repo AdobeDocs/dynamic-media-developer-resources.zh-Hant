@@ -1,20 +1,20 @@
 ---
-description: 資產操作錯誤的陣列。
-solution: Experience Manager
 title: AssetOperationFaultArray
-feature: Dynamic Media Classic,SDK/API，資產管理
+description: 一系列資產操作故障。
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 8bc6bfaa-eecf-4346-af57-25df2a471a1f
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '34'
-ht-degree: 17%
+source-wordcount: '27'
+ht-degree: 22%
 
 ---
 
 # AssetOperationFaultArray{#assetoperationfaultarray}
 
-資產操作錯誤的陣列。
+一系列資產操作故障。
 
 語法
 
@@ -22,4 +22,4 @@ ht-degree: 17%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| `*`項目`*` | `types:AssetOperationFault` | 資產操作故障項的陣列。 |
+| 項目 | `types:AssetOperationFault` | 資產操作故障項的陣列。 |

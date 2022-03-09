@@ -1,18 +1,18 @@
 ---
 description: 更新字型屬性的資訊。
 solution: Experience Manager
-title: FontFieldUpdate
+title: 字型欄位更新
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9e7b90d6-78da-48ff-8dff-9def3c32e3bc
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 12%
+source-wordcount: '57'
+ht-degree: 14%
 
 ---
 
-# FontFieldUpdate{#fontfieldupdate}
+# 字型欄位更新{#fontfieldupdate}
 
 更新字型屬性的資訊。
 
@@ -22,11 +22,11 @@ ht-degree: 12%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| `*`assetHandle`*` | `xsd:string` | 字型資產控制代碼。 |
-| `*`fontName`*` | `xsd:string` | 字型名稱。 |
-| `*`postscriptName`*` | `xsd:string` | PostScript字型名稱。 |
-| `*`rtfName`*` | `xsd:string` | RTF字型名稱。 |
-| `*`字型系列`*` | `xsd:string` | 字型系列名稱。 |
-| `*`style`*` | `xsd:string` | 字型樣式（有關值，請參閱字型樣式）。 |
-| `*`typeName`*` | `xsd:string` | 字型類型名稱。 |
-| `*`類型`*` | `xsd:string` | 字型類型（有關值，請參閱字型類型）。 |
+| 資產句柄 | `xsd:string` | 字型資產句柄。 |
+| 字型名稱 | `xsd:string` | 字型名稱。 |
+| 後指令碼名稱 | `xsd:string` | PostScript字型名稱。 |
+| rtf名稱 | `xsd:string` | 富格文本字型名稱。 |
+| 字型系列 | `xsd:string` | 字型系列名稱。 |
+| 樣式 | `xsd:string` | 字型樣式（有關值，請參閱字型樣式）。 |
+| 類型名稱 | `xsd:string` | 字型類型名稱。 |
+| type | `xsd:string` | 字型類型（有關值，請參閱字型類型）。 |

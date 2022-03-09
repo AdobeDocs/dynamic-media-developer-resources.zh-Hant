@@ -2,13 +2,13 @@
 description: 更新SWF查看器配置設定。
 solution: Experience Manager
 title: updateViewerConfigSettings
-feature: Dynamic Media Classic, SDK/API，檢視器預設集
+feature: Dynamic Media Classic,SDK/API,Viewer Presets
 role: Developer,Admin
 exl-id: 04565e2b-bda3-4ad0-afc1-2df01e455490
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 13%
+source-wordcount: '59'
+ht-degree: 15%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 13%
 
 語法
 
-## 授權的使用者類型 {#section-0dd001da1b784aefa5eb5b50c7a2c045}
+## 授權用戶類型 {#section-0dd001da1b784aefa5eb5b50c7a2c045}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,10 +31,10 @@ ht-degree: 13%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 為公司處理。 |
-| `*`assetHandle`*` | `xsd:string` | 是 | 資產控制代碼。 |
-| `*`configSettingArray`*` | `types:ConfigSettingArray` | 是 | 您要套用至檢視器的組態設定陣列。 |
+| 公司句柄 | `xsd:string` | 是 | 把手交給公司。 |
+| 資產句柄 | `xsd:string` | 是 | 資產句柄。 |
+| configSettingArray | `types:ConfigSettingArray` | 是 | 要應用到查看器的配置設定的陣列。 |
 
 **輸出(updateViewerConfigSettingsReturn)**
 
-IPS API不會針對此操作傳回回應。
+IPS API不會為此操作返迴響應。

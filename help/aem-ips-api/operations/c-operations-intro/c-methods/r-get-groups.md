@@ -1,24 +1,24 @@
 ---
-description: 傳回公司群組。
+description: 返回公司組。
 solution: Experience Manager
-title: getGroups
+title: get組
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d98c08a6-4c20-4538-9598-c905078ab7de
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 21%
+source-wordcount: '61'
+ht-degree: 22%
 
 ---
 
-# getGroups{#getgroups}
+# get組{#getgroups}
 
-傳回公司群組。
+返回公司組。
 
 語法
 
-## 授權的使用者類型 {#section-27c77680a2f34e2f9ecd0af4ebb6847e}
+## 授權用戶類型 {#section-27c77680a2f34e2f9ecd0af4ebb6847e}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -30,17 +30,17 @@ ht-degree: 21%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 公司的把手。 |
+| 公司句柄 | `xsd:string` | 是 | 公司的把手。 |
 
 **輸出(getGroupsReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`groupArray`*` | `types:GroupArray` | 是 | 群組陣列。 |
+| 組陣列 | `types:GroupArray` | 是 | 組陣列。 |
 
 ## 範例 {#section-ed0708f611574354bf0c6ea83912b531}
 
-此程式碼會傳回陣列，其中包含屬於特定公司的所有群組以及每個群組的特定資訊。
+此代碼返回一個陣列，該陣列包含屬於特定公司的所有組以及每個組的特定資訊。
 
 **請求**
 

@@ -1,24 +1,24 @@
 ---
-description: 取得與資產相關聯的使用者定義中繼資料欄位。
+description: 獲取與資產關聯的用戶定義的元資料欄位。
 solution: Experience Manager
 title: getMetadataFields
-feature: Dynamic Media Classic,SDK/API，中繼資料
+feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 4d01e2e7-9b68-4dfa-9fe8-08a22cb4bfd5
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 14%
+source-wordcount: '95'
+ht-degree: 15%
 
 ---
 
 # getMetadataFields{#getmetadatafields}
 
-取得與資產相關聯的使用者定義中繼資料欄位。
+獲取與資產關聯的用戶定義的元資料欄位。
 
 語法
 
-## 授權的使用者類型 {#section-e32e481a02674b729bfc5454a6c9ff65}
+## 授權用戶類型 {#section-e32e481a02674b729bfc5454a6c9ff65}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,18 +34,18 @@ ht-degree: 14%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 公司負責人。 |
-| `*`assetType`*` | `xsd:string` | 是 | 要從中取得中繼資料的資產類型。 |
+| 公司句柄 | `xsd:string` | 是 | 公司負責。 |
+| 資產類型 | `xsd:string` | 是 | 要從中獲取元資料的資產類型。 |
 
 **輸出(getMetadataFieldsParam)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`代碼片語`*` | `Code Phrase` |  |  |
+| 代碼短語 | `Code Phrase` |  |  |
 
 ## 範例 {#section-dbfde1483d614b5aac2b491cb32115d7}
 
-此程式碼範例會傳回指定類型和公司的中繼資料資產。 回應包含欄位陣列中的中繼資料欄位陣列。 並非所有資產都有相同的中繼資料。 IPS使用者會定義資產的中繼資料欄位。
+此代碼示例返回指定類型和公司的元資料資產。 響應包含欄位陣列中的元資料欄位陣列。 並非所有資產都具有相同的元資料。 IPS用戶定義資產的元資料欄位。
 
 **請求**
 

@@ -5,10 +5,10 @@ title: 關鍵字
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 5eb9ca70-5971-412d-92d1-4e9898d556fd
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '46'
-ht-degree: 32%
+source-wordcount: '41'
+ht-degree: 36%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 32%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| `*`關鍵字`*` | `xsd:string` | 關鍵字. |
-| `*`狀態`*` | `xsd:boolean` | 關鍵字有效性。 |
-| `*`x`*` | `xsd:int` | x軸上的關鍵字位置（像素）。 |
-| `*`y`*` | `xsd:int` | Y軸上的關鍵字位置（像素）。 |
-| `*`width`*` | `xsd:int` | 關鍵字寬度（像素）。 |
-| `*`height`*` | `xsd:int` | 關鍵字高度（像素）。 |
+| 關鍵字 | `xsd:string` | 關鍵字. |
+| 狀態 | `xsd:boolean` | 關鍵字有效性。 |
+| x | `xsd:int` | 關鍵字在x軸上的位置（以像素為單位）。 |
+| y | `xsd:int` | 關鍵字在y軸上的位置（以像素為單位）。 |
+| 寬度 | `xsd:int` | 關鍵字寬度（以像素為單位）。 |
+| 高度 | `xsd:int` | 關鍵字高度（以像素為單位）。 |

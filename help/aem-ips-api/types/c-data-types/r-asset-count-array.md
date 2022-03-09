@@ -1,20 +1,20 @@
 ---
-description: 資產計數的陣列。
+title: 資產計數陣列
+description: 一系列資產計數。
 solution: Experience Manager
-title: AssetCountArray
-feature: Dynamic Media Classic,SDK/API，資產管理
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 6dca378c-d90d-4871-a5a6-77c3b0362a09
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '29'
-ht-degree: 20%
+source-wordcount: '22'
+ht-degree: 27%
 
 ---
 
-# AssetCountArray{#assetcountarray}
+# 資產計數陣列{#assetcountarray}
 
-資產計數的陣列。
+一系列資產計數。
 
 語法
 
@@ -22,4 +22,4 @@ ht-degree: 20%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| `*`項目`*` | `types:AssetCount` | 資產計數陣列。 |
+| 項目 | `types:AssetCount` | 資產計數的陣列。 |

@@ -1,24 +1,24 @@
 ---
-description: 取得資產的工作記錄。 陣列中傳回的項目包含該資產作業記錄中每個項目的詳細資訊。 logMessage回應欄位會根據authHeader欄位進行本地化。
+description: 獲取資產的作業日誌。 陣列中返回的項目包含有關該資產的作業日誌中每個條目的詳細資訊。 日誌消息響應欄位基於authHeader欄位進行本地化。
 solution: Experience Manager
 title: getAssetJobLogs
-feature: Dynamic Media Classic,SDK/API，資產管理
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 88ec5cab-7eb4-48aa-914f-21311593e463
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 9%
+source-wordcount: '156'
+ht-degree: 10%
 
 ---
 
 # getAssetJobLogs{#getassetjoblogs}
 
-取得資產的工作記錄。 陣列中傳回的項目包含該資產作業記錄中每個項目的詳細資訊。 logMessage回應欄位會根據authHeader欄位進行本地化。
+獲取資產的作業日誌。 陣列中返回的項目包含有關該資產的作業日誌中每個條目的詳細資訊。 日誌消息響應欄位基於authHeader欄位進行本地化。
 
 語法
 
-## 授權的使用者類型 {#section-72b98cdb0f6f47f5aabdc183a45ea577}
+## 授權用戶類型 {#section-72b98cdb0f6f47f5aabdc183a45ea577}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -36,18 +36,18 @@ ht-degree: 9%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 資產所屬公司的控制代碼。 |
-| `*`assetHandle`*` | `xsd:string` | 是 | 具有要擷取之工作記錄的資產處理。 |
+| 公司句柄 | `xsd:string` | 是 | 資產所屬公司的句柄。 |
+| 資產句柄 | `xsd:string` | 是 | 要與要檢索的作業日誌一起進行資產的句柄。 |
 
 **輸出(getAssetJobLogsReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`jobLogArray`*` | `types:AssetJobLogArray` | 是 | 作業日誌陣列。 |
+| 作業日誌陣列 | `types:AssetJobLogArray` | 是 | 作業日誌陣列。 |
 
 ## 範例 {#section-f03d7f3ec5d043d38227f926fb7609f6}
 
-此程式碼範例會擷取特定資產的工作記錄。 回應會傳回作業記錄陣列，內含使用資產之所有作業的詳細資訊。
+此代碼示例檢索特定資產的作業日誌。 該響應返回一個作業日誌陣列，其中包含有關使用該資產的所有作業的詳細資訊。
 
 **請求**
 

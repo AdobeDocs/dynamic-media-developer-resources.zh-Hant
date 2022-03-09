@@ -1,18 +1,18 @@
 ---
 description: 縮放目標定義。
 solution: Experience Manager
-title: ZoomTargetDefinition
+title: 縮放目標定義
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 57916dec-8676-41aa-834b-37775a0f6d02
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '49'
-ht-degree: 20%
+source-wordcount: '44'
+ht-degree: 25%
 
 ---
 
-# ZoomTargetDefinition{#zoomtargetdefinition}
+# 縮放目標定義{#zoomtargetdefinition}
 
 縮放目標定義。
 
@@ -22,9 +22,9 @@ ht-degree: 20%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| `*`名稱`*` | `xsd:string` | 目標名稱. |
-| `*`xPosition`*` | `xsd:int` | 縮放目標的X位置。 |
-| `*`yPosition`*` | `xsd:int` | 縮放目標的Y位置。 |
-| `*`width`*` | `xsd:int` | 縮放目標寬度。 |
-| `*`height`*` | `xsd:int` | 縮放目標高度。 |
-| `*`使用者資料`*` | `xsd:string` | 關聯的用戶資料。 |
+| 名稱 | `xsd:string` | 目標名稱. |
+| x位置 | `xsd:int` | 縮放目標的X位置。 |
+| 位置 | `xsd:int` | 縮放目標的Y位置。 |
+| 寬度 | `xsd:int` | 縮放目標寬度。 |
+| 高度 | `xsd:int` | 縮放目標高度。 |
+| 使用者資料 | `xsd:string` | 關聯的用戶資料。 |

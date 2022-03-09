@@ -1,24 +1,24 @@
 ---
-description: 從公司刪除專案。 資產和專案之間的連結會中斷，但不會從IPS中刪除資產。
+description: 從公司中刪除項目。 資產和項目之間的連結已斷開，但資產不會從IPS中刪除。
 solution: Experience Manager
-title: deleteProject
+title: 刪除項目
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b42be3ef-c935-4548-8f92-4fc33af321b5
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '128'
 ht-degree: 9%
 
 ---
 
-# deleteProject{#deleteproject}
+# 刪除項目{#deleteproject}
 
-從公司刪除專案。 資產和專案之間的連結會中斷，但不會從IPS中刪除資產。
+從公司中刪除項目。 資產和項目之間的連結已斷開，但資產不會從IPS中刪除。
 
 語法
 
-## 授權的使用者類型 {#section-d8a70e23c68d426e9af1357b978ae2f0}
+## 授權用戶類型 {#section-d8a70e23c68d426e9af1357b978ae2f0}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,16 +33,16 @@ ht-degree: 9%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyName`*` | `xsd:string` | 是 | 與項目關聯的公司名稱。 |
-| `*`projectHandle`*` | `xsd:string` | 是 | 要刪除的項目的句柄。 |
+| 公司名稱 | `xsd:string` | 是 | 與項目關聯的公司的名稱。 |
+| 項目句柄 | `xsd:string` | 是 | 要刪除的項目的句柄。 |
 
 **輸出(deleteProjectReturn)**
 
-IPS API不會針對此操作傳回回應。
+IPS API不會為此操作返迴響應。
 
 ## 範例 {#section-e38507f1f7ec41b9a625f47390490254}
 
-此代碼示例使用公司句柄和項目句柄作為發送到IPS Web服務伺服器的deleteProjectParam中的欄位，以刪除項目。
+此代碼示例將公司句柄和項目句柄用作發送到IPS Web服務伺服器的deleteProjectParam中的欄位，以刪除項目。
 
 **請求**
 

@@ -1,22 +1,22 @@
 ---
-description: 傳回公司結構（檔案數等）的相關資訊。
+description: 返回有關公司結構（檔案數等）的資訊。
 solution: Experience Manager
 title: getDiskUsage
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 06fdd9f5-5021-4f0b-b312-4465df9bda25
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 13%
+source-wordcount: '98'
+ht-degree: 14%
 
 ---
 
 # getDiskUsage{#getdiskusage}
 
-傳回公司結構（檔案數等）的相關資訊。
+返回有關公司結構（檔案數等）的資訊。
 
-## 授權的使用者類型 {#authorized-user-types}
+## 授權用戶類型 {#authorized-user-types}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -29,17 +29,17 @@ ht-degree: 13%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 要獲取其磁碟使用情況的公司的句柄。 |
+| 公司句柄 | `xsd:string` | 是 | 您要獲取其磁碟使用情況的公司的句柄。 |
 
 **輸出(getDiskUsageReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`diskUsageArray`*` | `types:DiskUsageArray` | 是 | 公司磁碟使用的陣列。 |
+| diskUsageArray | `types:DiskUsageArray` | 是 | 公司磁碟使用的陣列。 |
 
 ## 範例 {#section-cb16a97badc94076ad5da277db5ed16a}
 
-此請求的名稱具有誤導性。 它不僅僅返回反映公司使用的磁碟空間的標量值，而是獲取有關公司結構的其他資訊。
+此請求的名稱具有誤導性。 它不僅返回反映公司使用的磁碟空間的標量值，還會獲得有關公司結構的其他資訊。
 
 **請求**
 

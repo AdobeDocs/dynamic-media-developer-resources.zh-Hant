@@ -1,18 +1,18 @@
 ---
 description: Word檔案的屬性。
 solution: Experience Manager
-title: WordInfo
+title: 字資訊
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 998988bc-4842-4153-8b6a-af21a80c4e8b
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '31'
-ht-degree: 29%
+source-wordcount: '26'
+ht-degree: 34%
 
 ---
 
-# WordInfo{#wordinfo}
+# 字資訊{#wordinfo}
 
 Word檔案的屬性。
 
@@ -22,6 +22,6 @@ Word檔案的屬性。
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| `*`originalPath`*` | `xsd:string` | 檔案路徑。 |
-| `*`originalFile`*` | `xsd:string` | 檔案名稱. |
-| `*`fileSize`*` | `xsd:int` | 檔案大小. |
+| 原始路徑 | `xsd:string` | 檔案路徑。 |
+| 原始檔案 | `xsd:string` | 檔案名稱. |
+| 檔案大小 | `xsd:int` | 檔案大小. |

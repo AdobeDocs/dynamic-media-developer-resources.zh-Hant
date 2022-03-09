@@ -1,18 +1,18 @@
 ---
 description: 檔案櫃資產的屬性。
 solution: Experience Manager
-title: CabinetInfo
+title: 檔案櫃資訊
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 78ec00cd-c410-412c-970f-96226563a45a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 7%
+source-wordcount: '59'
+ht-degree: 8%
 
 ---
 
-# CabinetInfo{#cabinetinfo}
+# 檔案櫃資訊{#cabinetinfo}
 
 檔案櫃資產的屬性。
 
@@ -22,10 +22,10 @@ ht-degree: 7%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| `*`originalPath`*` | `xsd:string` | 與原始機櫃的相對路徑。 |
-| `*`originalFile`*` | `xsd:string` | 檔案櫃名稱。 |
-| `*`fileSize`*` | `xsd:int` | 機櫃大小。 |
-| `*`imagePath`*` | `xsd:string` | 與暈船關聯的機櫃的相對路徑。 |
-| `*`imageFile`*` | `xsd:string` | 與暈映關聯的檔案櫃的檔案名。 |
-| `*`optimizedPath`*` | `xsd:string` | IPS優化型機櫃的路徑。 |
-| `*`optimizedFile`*` | `xsd:string` | IPS優化的機櫃檔案。 |
+| 原始路徑 | `xsd:string` | 原始機櫃的相對路徑。 |
+| 原始檔案 | `xsd:string` | 檔案櫃名稱。 |
+| 檔案大小 | `xsd:int` | 檔案櫃大小。 |
+| imagePath | `xsd:string` | 與導管關聯的機櫃的相對路徑。 |
+| imageFile | `xsd:string` | 與視頻關聯的檔案櫃的檔案名。 |
+| 優化路徑 | `xsd:string` | IPS優化機櫃的路徑。 |
+| 優化檔案 | `xsd:string` | IPS優化的機櫃檔案。 |

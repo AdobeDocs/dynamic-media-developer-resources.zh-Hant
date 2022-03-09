@@ -5,9 +5,9 @@ title: getFolderTree
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1afe63ca-d11a-4fa5-a26b-90a23bee1b68
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '258'
 ht-degree: 9%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 9%
 
 語法
 
-## 授權的使用者類型 {#section-66ef19149f4d4123a3a99004b5a2743e}
+## 授權用戶類型 {#section-66ef19149f4d4123a3a99004b5a2743e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -30,7 +30,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->使用者必須擁有資料夾的讀取存取權，才能傳回資料夾上的資料。
+>用戶必須具有對資料夾的讀取權限才能返回其上的資料。
 
 ## 參數 {#section-0c2b30513f1e439cbd840e8cc6465b3a}
 
@@ -38,25 +38,25 @@ ht-degree: 9%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 公司的把手。 |
-| `*`accessUserHandle`*` | `xsd:string` | 否 | 僅供管理員用來模擬特定使用者。 |
-| `*`accessGroupHandle`*` | `xsd:string` | 否 | 用來依特定群組篩選，包括公司所屬的任何群組。 |
-| `*`folderPath`*` | `xsd:string` | 否 | 用於檢索資料夾和葉級所有子資料夾的根資料夾。 如果排除，則會使用公司根。 |
-| `*`深度`*` | `xsd:int` | 是 | 值零會取得頂層資料夾。 任何其他值都指定要向下到樹中的深度。 |
-| `*`assetTypeArray`*` | `types:StringArray` | 否 | 傳回僅包含指定資產類型的資料夾。 |
-| `*`responseFieldArray`*` | `types:StringArray` | 否 | 包含您要納入回應的欄位清單。 |
-| `*`excludeFieldArray`*` | `types:StringArray` | 否 | 包含您要在回應中排除的欄位清單。 |
+| 公司句柄 | `xsd:string` | 是 | 公司的把手。 |
+| accessUserHandle | `xsd:string` | 否 | 僅由管理員用於模擬特定用戶。 |
+| accessGroupHandle | `xsd:string` | 否 | 用於按特定組篩選，包括公司所屬的任何組。 |
+| 資料夾路徑 | `xsd:string` | 否 | 將資料夾和所有子資料夾檢索到葉級別的根資料夾。 如果排除，則使用公司根。 |
+| 深度 | `xsd:int` | 是 | 值為零將獲取頂級資料夾。 任何其它值都指定要下降到樹中的深度。 |
+| assetTypeArray | `types:StringArray` | 否 | 返回僅包含指定資產類型的資料夾。 |
+| 響應欄位陣列 | `types:StringArray` | 否 | 包含要包括在響應中的欄位清單。 |
+| 排除欄位陣列 | `types:StringArray` | 否 | 包含要在響應中排除的欄位清單。 |
 
 **輸出(getFolderTreeReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`資料夾`*` | `types:folders` | 否 | 樹結構中的資料夾層次結構。 回應上限為100,000個資料夾。 |
-| `*`permissionSetArray`*` | `types:PermissionSetArray` |  |  |
+| 資料夾 | `types:folders` | 否 | 樹結構中資料夾的層次結構。 響應最多限制為100,000個資料夾。 |
+| 權限SetArray | `types:PermissionSetArray` |  |  |
 
 ## 範例 {#section-a9fd2edb56574dd9bf8b0f2fd89367e4}
 
-此程式碼範例使用公司控制代碼和深度參數，來判斷回應應傳回的深度等級。 回應包含有相關的資料夾和子資料夾陣列。 將深度值設定為較小的數字，以便在資料夾樹中進行更深入的搜索。
+此代碼示例使用公司句柄和深度參數來確定響應應返回的深度級別。 響應包含與相關的資料夾和子資料夾陣列。 將深度值設定為較小的數值，以在資料夾樹中進行更深入的搜索。
 
 **請求**
 

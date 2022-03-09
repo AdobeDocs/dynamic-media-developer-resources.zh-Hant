@@ -1,20 +1,20 @@
 ---
-description: 手動裁切影像選項。
+description: 影像的手動裁剪選項。
 solution: Experience Manager
-title: ManualCropOptions
+title: 手動裁剪選項
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 829147b9-de78-4e8f-814c-ed44f714cb2e
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 14%
+source-wordcount: '57'
+ht-degree: 15%
 
 ---
 
-# ManualCropOptions{#manualcropoptions}
+# 手動裁剪選項{#manualcropoptions}
 
-手動裁切影像選項。
+影像的手動裁剪選項。
 
 語法
 
@@ -22,7 +22,7 @@ ht-degree: 14%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| `*`左側`*` | `xsd:int` | 手動裁切的左側位置（像素）。 |
-| `*`右側`*` | `xsd:int` | 手動裁切的正確位置（像素）。 |
-| `*`頂部`*` | `xsd:int` | 手動裁切的頂端位置（像素）。 |
-| `*`底部`*` | `xsd:int` | 手動裁切的底部位置（像素）。 |
+| 左側 | `xsd:int` | 手動裁剪的左側位置（以像素為單位）。 |
+| 右側 | `xsd:int` | 手動裁剪的右側位置（以像素為單位）。 |
+| 頂部 | `xsd:int` | 手動裁剪的頂部位置（以像素為單位）。 |
+| 底部 | `xsd:int` | 手動裁剪的底部位置（以像素為單位）。 |

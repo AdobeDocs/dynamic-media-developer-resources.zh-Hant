@@ -1,24 +1,24 @@
 ---
 description: 更新資產權限。
 solution: Experience Manager
-title: updateAssetPermissons
-feature: Dynamic Media Classic,SDK/API，資產管理
+title: 更新資產權限
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 12972a52-7b70-405c-9c73-e5ce6ab7dd9b
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 21%
+source-wordcount: '54'
+ht-degree: 24%
 
 ---
 
-# updateAssetPermissons{#updateassetpermissons}
+# 更新資產權限{#updateassetpermissons}
 
 更新資產權限。
 
 語法
 
-## 授權的使用者類型 {#section-3928e9badc3842e1859af4ed362df719}
+## 授權用戶類型 {#section-3928e9badc3842e1859af4ed362df719}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -30,13 +30,13 @@ ht-degree: 21%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 公司負責人。 |
-| `*`assetHandle`*` | `xsd:string` | 是 | 資產控制代碼。 |
-| `*`updateArray`*` | `types:PermissionUpdateArray` | 是 | 您要套用至資產的權限。 |
+| 公司句柄 | `xsd:string` | 是 | 公司負責。 |
+| 資產句柄 | `xsd:string` | 是 | 資產句柄。 |
+| 更新陣列 | `types:PermissionUpdateArray` | 是 | 要應用到資產的權限。 |
 
 **輸出(updateAssetPermissionsReturn)**
 
-IPS API不會針對此操作傳回回應。
+IPS API不會為此操作返迴響應。
 
 ## 範例 {#section-1b7b7dbfdab34c819a53f3d33004e1f9}
 

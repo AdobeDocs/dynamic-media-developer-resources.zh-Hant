@@ -5,10 +5,10 @@ title: getVignettePublishFormats
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 6e56d68e-b5cf-4044-9c58-f8221fa4490f
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 22%
+source-wordcount: '61'
+ht-degree: 24%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 22%
 
 語法
 
-## 已授權的使用者類型 {#section-1f5e2f74aef8408e89ed9ccac8b5b9bc}
+## 授權用戶類型 {#section-1f5e2f74aef8408e89ed9ccac8b5b9bc}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -29,17 +29,17 @@ ht-degree: 22%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 公司的把手。 |
+| 公司句柄 | `xsd:string` | 是 | 公司的把手。 |
 
 **輸出(getVignettePublishFormatsReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| `*`vignetteFormatArray`*` | `types:VignettePublishFormatArray` | 是 | 暈映發佈格式陣列。 |
+| vignette格式陣列 | `types:VignettePublishFormatArray` | 是 | 視頻發佈格式的陣列。 |
 
 ## 範例 {#section-2cc32b27cc6243b7b3e273cc05996226}
 
-此程式碼範例會傳回與特定公司相關聯的兩個暈映發佈格式。 資訊會在陣列中傳回，但會為簡潔而截斷。
+此代碼示例返回與特定公司關聯的兩種視頻發佈格式。 資訊在陣列中返回，該陣列被截斷以便簡化。
 
 **請求**
 

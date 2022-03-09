@@ -5,10 +5,10 @@ title: 屬性集
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 8515d07b-354f-46c9-b528-fa1c380e66af
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 11%
+source-wordcount: '39'
+ht-degree: 12%
 
 ---
 
@@ -22,6 +22,6 @@ ht-degree: 11%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| `*`setHandle`*` | `xsd:string` | 屬性集句柄。 |
-| `*`typeHandle`*` | `xsd:string` | 處理屬性集類型。 |
-| `*`propertyArray`*` | `types:PropertyArray` | 名稱值組。 可以包含零個項目。 |
+| setHandle | `xsd:string` | 屬性集句柄。 |
+| 類型句柄 | `xsd:string` | 屬性集類型的句柄。 |
+| 屬性Array | `types:PropertyArray` | 名稱 — 值對。 可以包含零個項。 |

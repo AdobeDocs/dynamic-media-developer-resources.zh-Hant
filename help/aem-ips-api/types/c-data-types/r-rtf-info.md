@@ -5,10 +5,10 @@ title: RTFInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f30eae15-793f-4e2e-a0dc-1987f0949bd6
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 27%
+source-wordcount: '28'
+ht-degree: 32%
 
 ---
 
@@ -22,6 +22,6 @@ RTF檔案資產的屬性。
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| `*`originalPath`*` | `xsd:string` | 檔案路徑。 |
-| `*`originalFile`*` | `xsd:string` | 檔案名稱. |
-| `*`fileSize`*` | `xsd:int` | 檔案大小. |
+| 原始路徑 | `xsd:string` | 檔案路徑。 |
+| 原始檔案 | `xsd:string` | 檔案名稱. |
+| 檔案大小 | `xsd:int` | 檔案大小. |

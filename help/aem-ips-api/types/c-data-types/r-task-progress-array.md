@@ -1,20 +1,20 @@
 ---
-description: 任務進度陣列。 包含有關視訊轉碼任務的資訊。
+description: 任務進度陣列。 包含有關視頻轉碼任務的資訊。
 solution: Experience Manager
-title: TaskProgressArray
+title: 任務進度陣列
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: ac86ddcb-dc10-44b8-b007-4f54f7367c41
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 13%
+source-wordcount: '39'
+ht-degree: 15%
 
 ---
 
-# TaskProgressArray{#taskprogressarray}
+# 任務進度陣列{#taskprogressarray}
 
-任務進度陣列。 包含有關視訊轉碼任務的資訊。
+任務進度陣列。 包含有關視頻轉碼任務的資訊。
 
 語法
 
@@ -22,4 +22,4 @@ ht-degree: 13%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| `*`項目`*` | `types:TaskProgress` | 任務進度項。 最小值為零。 最大值無界。 |
+| 項目 | `types:TaskProgress` | 任務進度項。 最小值為零。 最大值無界。 |

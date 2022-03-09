@@ -1,20 +1,20 @@
 ---
-description: 保有公司中繼資料物件的相關資訊，例如ID、名稱和類型。
+description: 保存有關公司元資料對象的資訊，如ID、名稱和類型。
 solution: Experience Manager
-title: CompanyMetadataInfo
-feature: Dynamic Media Classic,SDK/API，中繼資料
+title: 公司元資料資訊
+feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: a3d4dd67-07df-47bf-b9e7-1379290654ff
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 12%
+source-wordcount: '35'
+ht-degree: 14%
 
 ---
 
-# CompanyMetadataInfo{#companymetadatainfo}
+# 公司元資料資訊{#companymetadatainfo}
 
-保有公司中繼資料物件的相關資訊，例如ID、名稱和類型。
+保存有關公司元資料對象的資訊，如ID、名稱和類型。
 
 語法
 
@@ -22,5 +22,5 @@ ht-degree: 12%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| `*`代碼片語`*` | `Code Phrase` |  |
-| `*`代碼片語`*` | `Code Phrase` |  |
+| 代碼短語 | `Code Phrase` |  |
+| 代碼短語 | `Code Phrase` |  |
