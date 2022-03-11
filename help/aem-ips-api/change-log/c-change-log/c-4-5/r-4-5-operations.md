@@ -1,20 +1,20 @@
 ---
-description: 說明IPS API 4.5版的新操作方法和更改的操作方法。
+description: 介紹IPS API 4.5版的新操作方法和更改的操作方法。
 solution: Experience Manager
-title: 操作新建和修改
+title: 操作 — 新建和修改
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9033328a-d0ce-4ef2-b6ec-c6a81fbedf9d
-source-git-commit: d2e73ae5f92d9ba3471dc7207842753ccff94c28
+source-git-commit: 10eb6887663fe335be3abcc311b2d3eb4a241745
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 0%
+source-wordcount: '98'
+ht-degree: 1%
 
 ---
 
-# 操作：新增和修改{#operations-new-and-modified}
+# 操作：新建和修改{#operations-new-and-modified}
 
-說明IPS API 4.5版的新操作方法和更改的操作方法。
+介紹IPS API 4.5版的新操作方法和更改的操作方法。
 
 語法
 
@@ -37,8 +37,8 @@ ht-degree: 0%
 
 ## 修改的操作 {#section-1c022cc62d274c349837013f1c02ca51}
 
-* `Asset` 包括 `animatedGifInfo`、  `swcInfo`、 `cssInfo`和參 `javascriptInfo` 數。
-* `createMetadataField` 包含選用 `isHidden` 參數。
-* `saveMetadataField` 包含選用 `isHidden` 參數。
+* `Asset` 包括 `animatedGifInfo`。 `swcInfo`。 `cssInfo`, `javascriptInfo` 參數。
+* `createMetadataField` 包括可選 `isHidden` 的下界。
+* `saveMetadataField` 包括可選 `isHidden` 的下界。
 * `searchAssets`
-* 先前版本已棄用`renameFiles`參數，並從`renameAsset`操作中移除。 虛擬檔案路徑會變更，以符合新資產名稱（保留副檔名），而物理檔案路徑則不受影響。 更新至新API版本時，API用戶端需要移除此參數的參考。
+* 的 `renameFiles` 參數已棄用於以前的版本，並已從 `renameAsset` 的下界。 虛擬檔案路徑被更改以與新資產名稱匹配（保留檔案副檔名），而物理檔案路徑不受影響。 API客戶端在更新到新API版本時需要刪除對此參數的引用。
