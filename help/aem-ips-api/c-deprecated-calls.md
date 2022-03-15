@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f6711780-9a96-4a61-9066-8d83316758c3
-source-git-commit: 10eb6887663fe335be3abcc311b2d3eb4a241745
+source-git-commit: 25d9de1d9ba727e72c031ab22c47bd2be5c11050
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 0%
@@ -24,6 +24,7 @@ ht-degree: 0%
    >[!IMPORTANT]
    >
    >Adobe將於2022年9月1日終止對此參數的支援。 另請參閱 [ExcludeMasterVideoFromAVS](/help/aem-ips-api/types/c-data-types/r-exclude-master-video-from-avs.md)。
+
 * `addMediaPortalEvent`  — 不建議使用 [操作](/help/aem-ips-api/operations/c-operations-intro/c-operations-intro.md)。 此參數允許您將媒體入口事件添加到IPS。
 * `getMediaPortalEvent`  — 不建議使用 [操作](/help/aem-ips-api/operations/c-operations-intro/c-operations-intro.md)。 通過此參數，可以獲取符合指定條件的媒體門戶事件。
 * `getCdnCacheInvalidationStatus`  — 不建議使用 [操作](/help/aem-ips-api/operations/c-operations-intro/c-operations-intro.md)。 此參數現在已棄用，因為 `cdnCacheInvalidation` 參數幾乎立即使快取失效（約5秒）。 因此，不再需要輪詢無效狀態。
