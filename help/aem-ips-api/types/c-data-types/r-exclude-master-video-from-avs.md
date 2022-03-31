@@ -4,7 +4,7 @@ description: 從自適應視頻集中排除主視頻。
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e73eab03-fbda-435c-be3c-98781f8630a5
-source-git-commit: 10eb6887663fe335be3abcc311b2d3eb4a241745
+source-git-commit: 6ec990016827895e136d41f3ae1e87ffd826647e
 workflow-type: tm+mt
 source-wordcount: '54'
 ht-degree: 12%
@@ -18,6 +18,8 @@ ht-degree: 12%
 >Adobe將終止對 `ExcludeMasterVideoFromAVS` 參數2022年9月1日。 另請參閱 [不建議使用的調用](/help/aem-ips-api/c-deprecated-calls.md)。
 
 從自適應視頻集中排除主視頻。
+
+<!-- REMOVE TOPIC MAY 2022 AS PER CQDOC-19165 AND REMOVED FROM TOC -->
 
 語法
 
