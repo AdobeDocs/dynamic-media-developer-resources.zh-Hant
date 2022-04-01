@@ -3,9 +3,9 @@ cloud: Experience Cloud
 user-guide-title: Dynamic Media Image Production System API
 feature-set: Experience Manager Assets
 user-guide-description: IPS (影像生產系統) Web 服務 API 可讓外部應用程式和協力廠商開發人員以程式設計方式存取 IPS 資產和功能。
-source-git-commit: 6ec990016827895e136d41f3ae1e87ffd826647e
+source-git-commit: 72f9cd1b1de82cbeeb8d41fb0f1cf0b51744a8a3
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '647'
 ht-degree: 9%
 
 ---
@@ -234,7 +234,6 @@ ht-degree: 9%
    + [電子郵件陣列](types/c-data-types/r-email-array.md)
    + [排除副產品陣列](types/c-data-types/r-exclude-byproduct-array.md)
    + [排除副產品條件](types/c-data-types/r-exclude-byproduct-condition.md)
-   + [ExcludeMasterVideoFromAVS](types/c-data-types/r-exclude-master-video-from-avs.md)<!-- Deprecated; remove May 2022 as per CQDOC-19165 and remove associated topic-->
    + [Excel資訊](types/c-data-types/r-excel-info.md)
    + [導出作業](types/c-data-types/r-exportjob.md)
    + [快閃記憶體資訊](types/c-data-types/r-flash-info.md)
