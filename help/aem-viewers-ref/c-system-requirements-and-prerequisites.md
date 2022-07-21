@@ -6,10 +6,10 @@ contentOwner: Rick Brough
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: e4543358-92a6-4acc-a8a2-227e1daea722
-source-git-commit: 6087b48b898e93e605c3873cbd5132b74d04225f
+source-git-commit: 8e09f8168987788f7d55849b4a275c488cfcc0b9
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 1%
+source-wordcount: '232'
+ht-degree: 2%
 
 ---
 
@@ -74,27 +74,42 @@ Dynamic MediaHTML5觀眾的系統要求。
    * iOS10
    * 野生動物園11
 
->[!NOTE]
->
->自2018年9月30日起，Adobe Dynamic Media Classic觀眾結束對傳輸層安全1.0(TLS 1.0)的支援。 因此，Dynamic Media Classic不再支援以下支援TLS 1.0的瀏覽器/平台(Adobe建議使用TLS 1.2或更高版本)的查看器：
->
-> * Android™ 2.3.7
-> * Android™ 4.0.4
-> * Android™ 4.1.1
-> * Android™ 4.2.2
-> * Android™ 4.3
-> * Windows Vista®上的Internet Explorer 7
-> * Windows® XP上的Internet Explorer 8
-> * Windows® 7上的Internet Explorer 8-10
-> * Windows® Phone 8.0上的Internet Explorer 10
-> * Apple5.1.9 OS X上的Safari 10.6.8
-> * Apple6.0.4 OS X上的Safari 10.8.4
-> * Java™ 6u45
-> * Java™ 7u25
-> * OpenSSL 0.9.8y
-> * 百度2015年1月
+**重要**
+自2022年9月30日起，AdobeDynamic Media觀眾將結束對以下內容的支援：
 
+* TLS（傳輸層安全性）1.0和1.1
+* TLS 1.2中的以下弱密碼：
+   * `TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384`
+   * `TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA`
+   * `TLS_RSA_WITH_AES_256_GCM_SHA384`
+   * `TLS_RSA_WITH_AES_256_CBC_SHA256`
+   * `TLS_RSA_WITH_AES_256_CBC_SHA`
+   * `TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256`
+   * `TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA`
+   * `TLS_RSA_WITH_AES_128_GCM_SHA256`
+   * `TLS_RSA_WITH_AES_128_CBC_SHA256`
+   * `TLS_RSA_WITH_AES_128_CBC_SHA`
+   * `TLS_RSA_WITH_CAMELLIA_256_CBC_SHA`
+   * `TLS_RSA_WITH_CAMELLIA_128_CBC_SHA`
+   * `TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA`
+   * `TLS_RSA_WITH_SDES_EDE_CBC_SHA`
 
->[!NOTE]
->
->Flash觀眾生命結束 — 自2017年1月31日起，Adobe Dynamic Media Classic正式結束對Flash觀眾平台的支援。
+<!-- Effective September 30, 2018, Adobe Dynamic Media Classic Viewers ended support of Transport Layer Security 1.0 (TLS 1.0). As such, Dynamic Media Classic no longer supports viewers on the following browsers/platforms that support TLS 1.0 (Adobe recommends using TLS 1.2 or later):
+
+* Android™ 2.3.7
+* Android™ 4.0.4
+* Android™ 4.1.1
+* Android™ 4.2.2
+* Android™ 4.3
+* Internet Explorer 7 on Window Vista®
+* Internet Explorer 8 on Windows® XP
+* Internet Explorer 8-10 on Windows® 7
+* Internet Explorer 10 on Windows® Phone 8.0
+* Safari 5.1.9 on Apple OS X 10.6.8
+* Safari 6.0.4 on Apple OS X 10.8.4
+* Java™ 6u45
+* Java™ 7u25
+* OpenSSL 0.9.8y
+* Baidu January 2015 -->
+
+<!-- FLASH VIEWERS END-OF-LIFE — Effective January 31, 2017, Adobe Dynamic Media Classic officially ended support for the Flash viewer platform. -->
