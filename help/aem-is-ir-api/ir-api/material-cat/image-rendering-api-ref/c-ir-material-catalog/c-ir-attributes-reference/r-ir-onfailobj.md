@@ -1,11 +1,11 @@
 ---
+title: OnFailObj
 description: 對象選擇錯誤處理。 指定在obj=命令由於指定的路徑在視頻對象層次結構中無法匹配而失敗時要執行的操作。
 solution: Experience Manager
-title: OnFailObj
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0ed04daf-1797-4c12-ae6d-a9a008de9d1d
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 14%

@@ -1,15 +1,15 @@
 ---
-description: 材料目錄
+title: 物料目錄
+description: 物料目錄
 solution: Experience Manager
-title: 材料目錄
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e2ea1bb3-3c87-41e8-b927-a3fa1b787859
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '11'
+source-wordcount: '6'
 ht-degree: 0%
 
 ---
 
-# 材料目錄{#material-catalog}
+# 物料目錄{#material-catalog}

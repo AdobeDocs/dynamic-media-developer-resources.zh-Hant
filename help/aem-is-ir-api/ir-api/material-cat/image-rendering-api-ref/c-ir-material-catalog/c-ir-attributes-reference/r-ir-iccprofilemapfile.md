@@ -1,13 +1,13 @@
 ---
+title: IccProfileMapFile
 description: ICC配置檔案映射檔案路徑。 指定包含此映像目錄的ICC配置檔案映射的檔案。
 solution: Experience Manager
-title: IccProfileMapFile
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 595a89e3-dc8d-49f1-80fe-83dee9da466a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '71'
 ht-degree: 5%
 
 ---
@@ -18,11 +18,11 @@ ICC配置檔案映射檔案路徑。 指定包含此映像目錄的ICC配置檔�
 
 ## 屬性 {#section-33d55b55e192441bb30ca5eaaf07d12a}
 
-文字字串值。 相對於目錄資料夾的絕對檔案路徑或路徑。
+文本字串值。 相對於目錄資料夾的絕對檔案路徑或路徑。
 
 ## 預設 {#section-191de4cf304544f0a4198ebd3b8ddfc2}
 
-空，表示此材料目錄不包含專用ICC配置檔案。
+空，表示此物料目錄不包括專用ICC配置檔案。
 
 ## 另請參閱 {#section-972aa8d0fba74ee8b999ee3458320d4d}
 

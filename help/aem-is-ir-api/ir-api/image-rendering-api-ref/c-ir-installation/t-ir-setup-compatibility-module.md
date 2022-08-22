@@ -1,30 +1,28 @@
 ---
-description: 必須設定和配置IR 3.x相容性模組。
-solution: Experience Manager
 title: 設定和配置IR 3.x相容模組
+description: 設定和配置IR 3.x相容模組。
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 44fbc6be-7681-402a-936a-0511e138365c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 1%
+source-wordcount: '92'
+ht-degree: 2%
 
 ---
 
 # 設定和配置IR 3.x相容模組{#setup-and-configure-ir-x-compatibility-module}
 
-必須設定和配置IR 3.x相容性模組。
-
 1. Stop `<cmdname class="+ topic/keyword sw-d/cmdname ">  PlatformServer</cmdname>`.
 1. 更改到ImageServer Webapps目錄。
-1. 將[!DNL ir]目錄的內容複製到[!DNL ROOT]目錄。
-1. 在文字編輯器中開啟[!DNL ROOT/WEB-INF/web.xml]。
-1. 搜尋行`<!-- Uncomment this to enable the Image Rendering 3.x protocol emulation. Only do this when you unpack ir.war in the ROOT webapp. -->`
-1. 取消對`<servlet>`和`<servlet-mapping>`標籤的註解。
+1. 複製 [!DNL ir] 目錄 [!DNL `ROOT`] 的子菜單。
+1. 開啟 [!DNL `ROOT/WEB-INF/web.xml`] 的子菜單。
+1. 搜索行 `<!-- Uncomment this to enable the Image Rendering 3.x protocol emulation. Only do this when you unpack ir.war in the ROOT webapp. -->`
+1. 取消注釋 `<servlet>` 和 `<servlet-mapping>` 標籤。
 1. 重新啟動 `<cmdname class="+ topic/keyword sw-d/cmdname ">  PlatformServer</cmdname>`.
 
-**Linux範例**
+**Linux®示例**
 
 `cd /usr/local/scene7/ImageServing/webapps/ROOT`
 
@@ -32,12 +30,12 @@ ht-degree: 1%
 
 `cd WEB-INF`
 
-然後，使用您最喜愛的編輯器編輯[!DNL web.xml]以取消對`<servlet>`和`<servlet-mapping>`標籤的註解。
+然後編輯 [!DNL `web.xml`] 使用收藏夾編輯器取消注釋 `<servlet>` 和 `<servlet-mapping>` 標籤。
 
-**Windows範例**
+**Windows示例**
 
-開啟Explorer並轉至`C:\Program Files\Scene7\ImageServing\webapps\ir`。
+開啟瀏覽器並轉到 `C:\Program Files\Scene7\ImageServing\webapps\ir`。
 
-選擇所有檔案和資料夾，並複製`C:\Program Files\Scene7\ImageServing\webapps\ROOT`內的檔案和資料夾。
+選擇所有檔案和資料夾並複製其中的檔案和資料夾 `C:\Program Files\Scene7\ImageServing\webapps\ROOT`。
 
-然後編輯檔案`c:\Program Files\Scene7\ImageServing\webapps\ROOT\WEB-INF\web.xml`，取消對`<servlet>`和`<servlet-mapping>`標籤的註解。
+然後編輯檔案 `c:\Program Files\Scene7\ImageServing\webapps\ROOT\WEB-INF\web.xml`，取消注釋 `<servlet>` 和 `<servlet-mapping>` 標籤。

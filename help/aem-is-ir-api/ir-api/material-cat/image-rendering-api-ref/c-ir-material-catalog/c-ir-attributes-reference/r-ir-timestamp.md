@@ -1,36 +1,36 @@
 ---
+title: 時間戳
 description: 預設修改時間戳。 為目錄TimeStamp和vignette TimeStamp提供預設值。 如果未指定，伺服器將使用此catalog.ini檔案的修改日期/時間。
 solution: Experience Manager
-title: 時間戳
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0b6d8fa6-0ad9-4f72-8d6d-1427e5d59df3
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '213'
 ht-degree: 1%
 
 ---
 
 # 時間戳{#timestamp}
 
-預設修改時間戳。 為目錄：:TimeStamp和vignette::TimeStamp提供預設值。 如果未指定，伺服器將使用此catalog.ini檔案的修改日期/時間。
+預設修改時間戳。 提供預設值 `catalog::TimeStamp` 和 `vignette::TimeStamp`。 如果未指定，伺服器將使用此catalog.ini檔案的修改日期/時間。
 
 ## 屬性 {#section-910e2562b41c47b78ee6216deeabbbd5}
 
-Java格式的日期/時間值。 可以是自1970年1月1日午夜以來的整數毫秒數，也可以是日期/時間字串值，其格式如下：
+Java™格式的日期/時間值。 可以是自1970年1月1日午夜以來的整數毫秒數，也可以是日期/時間字串值，其格式如下：
 
 * *[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]* *[!DNL hh]*: *[!DNL mm]*: *[!DNL ss]* *[!DNL zzz]*
 
 * *[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]* *[!DNL hh]*: *[!DNL mm]*: *[!DNL ss]* GMT *[!DNL offset]*
 
-*[!DNL hh]* 在0到23之間。
+*[!DNL hh]* 在0 - 23範圍內。
 
 *[!DNL zzz]* 是3或4個字元的時區代碼，如「GMT」或「PST」。 夏令時必須在時區代碼中入帳（例如，太平洋標準時間為「PST」，而太平洋夏令時為「PDT」）。
 
 *[!DNL offset]* 是相對於GMT的時區偏移（小時或小時：分鐘）。 例如，「PDT」等效於「GMT -7」。
 
-字串格式化日期/時間值的所有元素必須存在。 如果日期/時間值的格式不正確，則忽略該值，並修改[!DNL]的時間 *[!DNL catalog]*&#x200B;改用.ini]檔案。
+字串格式日期/時間值的所有元素必須存在。 如果日期/時間值的格式不正確，將忽略該值，並修改[!DNL]的時間 *[!DNL catalog]*&#x200B;改用.ini]檔案。
 
 ## 預設 {#section-65fb29a9ea2044df8cb9fe295eb14872}
 

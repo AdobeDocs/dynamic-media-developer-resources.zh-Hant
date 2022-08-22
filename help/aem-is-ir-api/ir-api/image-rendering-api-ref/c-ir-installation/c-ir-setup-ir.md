@@ -1,21 +1,21 @@
 ---
-description: 影像呈現是使用fileinstall_folder/conf/ImageRendering.conf檔案配置的。
+title: 設定和配置影像呈現
+description: 映像呈現配置有fileinstall_folder/conf/ImageRendering.conf目錄。
 solution: Experience Manager
-title: 設定影像轉譯
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 126833bf-16db-40f1-8179-7775e9063081
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '82'
 ht-degree: 0%
 
 ---
 
-# 設定影像轉譯{#setup-and-configure-image-rendering}
+# 設定和配置影像呈現{#setup-and-configure-image-rendering}
 
-影像呈現是使用fileinstall_folder/conf/ImageRendering.conf檔案配置的。
+影像呈現配置為 `fileinstall_folder/conf/ImageRendering.conf`。
 
-如需詳細資訊，請參閱檔案的設定區段。 僅在Windows上，此檔案也可從「開始」菜單中訪問：**[!UICONTROL 開始菜單]** > **[!UICONTROL 程式]** > **[!UICONTROL Scene7]** > **[!UICONTROL 編輯影像呈現配置檔案]**。
+有關詳細資訊，請參閱文檔的「配置」部分。 僅在Windows上，也可以從「開始」菜單訪問此檔案： **[!UICONTROL 「開始」菜單]** > **[!UICONTROL 程式]** > **[!UICONTROL Scene7]** > **[!UICONTROL 編輯影像呈現配置檔案]**。
 
-若要停止和開始影像呈現，請參閱影像提供檔案。 無法從「影像提供」單獨停止或啟動影像呈現。
+要停止並啟動「影像呈現」，請參閱「影像服務」文檔。 不能從影像服務單獨停止或啟動影像呈現。

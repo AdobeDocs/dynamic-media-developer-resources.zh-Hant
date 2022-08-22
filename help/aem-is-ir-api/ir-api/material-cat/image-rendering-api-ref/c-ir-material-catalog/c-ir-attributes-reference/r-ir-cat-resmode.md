@@ -1,20 +1,20 @@
 ---
+title: Res模式
 description: 重新取樣模式。 resMode=的預設值。 指定用於將渲染的影像縮放到最終大小的重採樣和插值屬性。
 solution: Experience Manager
-title: Res模式
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c57932a0-529c-4f31-b60e-a38de6fe277f
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '67'
+ht-degree: 7%
 
 ---
 
 # Res模式{#resmode}
 
-重新取樣模式。 resMode=的預設值。 指定用於將渲染的影像縮放到最終大小的重採樣和插值屬性。
+重新取樣模式。 預設 `resMode=`。 指定用於將渲染的影像縮放到最終大小的重採樣和插值屬性。
 
 ## 屬性 {#section-1183a155f33c4eca80f1dc6fb6bda1b5}
 
