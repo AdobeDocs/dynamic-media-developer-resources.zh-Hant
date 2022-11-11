@@ -1,20 +1,20 @@
 ---
-description: 響應cdnCacheInvalidation操作向指定收件人發送電子郵件。
+description: 回應cdnCacheInvalidation操作，傳送電子郵件給指定的收件者。
 solution: Experience Manager
-title: 電子郵件確認
+title: EmailConfirmation
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b4698637-a897-47fa-92d4-4ab400e56962
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '77'
 ht-degree: 6%
 
 ---
 
-# 電子郵件確認{#emailconfirmation}
+# [!DNL EmailConfirmation]{#emailconfirmation}
 
-響應cdnCacheInvalidation操作向指定收件人發送電子郵件。
+回應cdnCacheInvalidation操作，傳送電子郵件給指定的收件者。
 
 語法
 
@@ -22,5 +22,5 @@ ht-degree: 6%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| ccOriginator | `xsd:boolean` | 如果為true，則包括用戶的Web服務用戶帳戶，該帳戶是指定從Dynamic MediaCDN接收電子郵件確認的電子郵件清單。 |
-| 其他陣列 | `types:EmailArray` | 指定從Dynamic MediaCDN接收確認通知的電子郵件地址陣列（最多5個）。 |
+| ccOriginator | `xsd:boolean` | 若為true，則包括使用者的網站服務使用者帳戶，此帳戶是指定用來接收來自Dynamic Media CDN之電子郵件確認的電子郵件清單。 |
+| ccOthersArray | `types:EmailArray` | 一系列電子郵件地址（最多5個），指定用來接收來自Dynamic Media CDN的確認通知。 |

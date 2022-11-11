@@ -1,18 +1,18 @@
 ---
-description: 資產發佈上下文陣列
+description: AssetPublishContextArray
 solution: Experience Manager
-title: 資產發佈上下文陣列
+title: AssetPublishContextArray
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 9eefcc8a-4779-4d03-8290-d1482fa09f58
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '15'
-ht-degree: 33%
+source-wordcount: '14'
+ht-degree: 35%
 
 ---
 
-# 資產發佈上下文陣列{#assetpublishcontextarray}
+# [!DNL AssetPublishContextArray]{#assetpublishcontextarray}
 
 語法
 
@@ -20,4 +20,4 @@ ht-degree: 33%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 資產發佈上下文陣列 | `types:AssetPublishContext` | 資產發佈上下文的陣列。 |
+| AssetPublishContextArray | `types:AssetPublishContext` | 資產發佈內容的陣列。 |

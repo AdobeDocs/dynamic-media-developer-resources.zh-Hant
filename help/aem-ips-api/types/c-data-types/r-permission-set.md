@@ -1,18 +1,18 @@
 ---
-description: 佩爾米松集
+description: PermissonSet
 solution: Experience Manager
-title: 佩爾米松集
+title: PermissonSet
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 39146b70-ecd8-42ce-a171-0fb7ac7dd025
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '19'
-ht-degree: 26%
+source-wordcount: '18'
+ht-degree: 27%
 
 ---
 
-# 佩爾米松集{#permissonset}
+# [!DNL PermissonSet]{#permissonset}
 
 語法
 
@@ -20,5 +20,5 @@ ht-degree: 26%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 權限集句柄 | `xsd:string` | 權限集的句柄。 |
-| 權限陣列 | `types:PermissionArray` | 權限的陣列。 |
+| PermissionSetHandle | `xsd:string` | 處理權限集。 |
+| permissionArray | `types:PermissionArray` | 權限陣列。 |

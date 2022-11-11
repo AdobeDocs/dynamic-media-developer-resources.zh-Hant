@@ -1,24 +1,24 @@
 ---
-description: 為與setAssetMetadata一起使用的特定資產設定元資料值。 描述要對元資料所做的更改。
+description: 為搭配setAssetMetadata使用的特定資產設定中繼資料值。 說明您要對中繼資料進行的變更。
 solution: Experience Manager
 title: 元資料更新
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 99dc1f0c-c4c4-433e-9b91-fa39ef6f84d7
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '201'
 ht-degree: 4%
 
 ---
 
-# 元資料更新{#metadataupdate}
+# [!DNL MetadataUpdate]{#metadataupdate}
 
-為與setAssetMetadata一起使用的特定資產設定元資料值。 描述要對元資料所做的更改。
+為搭配setAssetMetadata使用的特定資產設定中繼資料值。 說明您要對中繼資料進行的變更。
 
 >[!NOTE]
 >
->如果傳遞了單值欄位，則資產的標籤值將重置為指定的標籤值。
+>如果傳遞了單一值欄位，則資產的標籤值會重設為指定的標籤值。
 
 ## 參數 {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -32,51 +32,51 @@ ht-degree: 4%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 欄位句柄</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 元資料欄位句柄。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 值</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd：字串</span> </td> 
-   <td colname="col3"> 元資料更新值。 </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> value</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col3"> 中繼資料更新值。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 布爾瓦爾</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> boolVal</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> 布爾元資料值（僅適用於布爾類型欄位）。 </td> 
+   <td colname="col3"> 布林元資料值（僅適用於布林類型欄位）。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 朗瓦爾</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> longVal</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:long</span> </td> 
-   <td colname="col3"> 長元資料值（僅適用於int類型欄位）。 </td> 
+   <td colname="col3"> 長中繼資料值（僅適用於整型欄位）。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 雙谷</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd：雙</span> </td> 
-   <td colname="col3"> 雙元資料值（僅適用於浮點類型欄位）。 </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> doubleVal</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
+   <td colname="col3"> 雙重中繼資料值（僅適用於浮點類型欄位）。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 日期值</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> dateVal</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
-   <td colname="col3"> 日期元資料值（僅適用於日期類型欄位）。 </td> 
+   <td colname="col3"> 日期中繼資料值（僅適用於日期類型欄位）。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> addTagValueArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：StringArray</span> </td> 
-   <td colname="col3"> <p>添加到資產的現有標籤值清單。 
+   <td colname="col3"> <p>新增至資產的現有標籤值清單。 
      <ul id="ul_08DE6C490B614560A6118E7AC59720E3"> 
-      <li id="li_358A3BDC0EC94CCF8178CD789F09F804">單值標籤欄位僅儲存最後一個值。 </li> 
-      <li id="li_3F47D3A3C63A4752BF9A45F7B00A6E70">如果值不在字典中，則固定字典標籤欄位返回錯誤。 </li> 
+      <li id="li_358A3BDC0EC94CCF8178CD789F09F804">單值標籤欄位只會儲存最後一個值。 </li> 
+      <li id="li_3F47D3A3C63A4752BF9A45F7B00A6E70">如果值不在字典中，固定的字典標籤欄位會傳回錯誤。 </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> setTagValueArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：StringArray</span> </td> 
-   <td colname="col3">替換資產的現有標籤值清單。 
+   <td colname="col3">取代資產的現有標籤值清單。 
     <ul id="ul_941C915C69E84CF2AC5938378837EB92"> 
-     <li id="li_6E85019335034B2EB1302696AE690ED5">單值標籤欄位僅儲存最後一個值。 </li> 
-     <li id="li_0DC56717EBB642D29FB7A3D043CEDED1">如果值不在字典中，則固定字典標籤欄位返回錯誤。 </li> 
+     <li id="li_6E85019335034B2EB1302696AE690ED5">單值標籤欄位只會儲存最後一個值。 </li> 
+     <li id="li_0DC56717EBB642D29FB7A3D043CEDED1">如果值不在字典中，固定的字典標籤欄位會傳回錯誤。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 

@@ -1,18 +1,18 @@
 ---
 description: Photoshop影像層選項。
 solution: Experience Manager
-title: PhotoshopLayer選項
+title: PhotoshopLayerOptions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: fae60e86-6ec5-4f19-a76f-7d179dfb5dba
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 10%
+source-wordcount: '54'
+ht-degree: 11%
 
 ---
 
-# PhotoshopLayer選項{#photoshoplayeroptions}
+# [!DNL PhotoshopLayerOptions]{#photoshoplayeroptions}
 
 Photoshop影像層選項。
 
@@ -22,8 +22,8 @@ Photoshop影像層選項。
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 層命名 | `xsd:string` | 選擇Photoshop層命名模式。 |
-| 錨記 | `xsd:string` | 選擇Photoshop錨模式。 |
-| 建立模板 | `xsd:boolean` | 是否從Photoshop層建立模板。 |
-| 抽取文本 | `xsd:boolean` | 是否將文本提取為文本層。 |
-| 擴展層 | `xsd:boolean` | 是否將圖層擴展到背景的全尺寸。 |
+| layerNaming | `xsd:string` | 選擇Photoshop圖層命名模式。 |
+| 錨記 | `xsd:string` | 選擇Photoshop錨點模式。 |
+| createTemplate | `xsd:boolean` | 是否從Photoshop圖層建立範本。 |
+| extractText | `xsd:boolean` | 是否將文本提取為文本層。 |
+| extendLayers | `xsd:boolean` | 是否將圖層擴展到背景的完整大小。 |

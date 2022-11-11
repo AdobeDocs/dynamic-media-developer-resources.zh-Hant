@@ -5,14 +5,14 @@ title: SwcInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 585b044e-740f-4bd9-b01d-873418366662
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '31'
-ht-degree: 29%
+source-wordcount: '30'
+ht-degree: 30%
 
 ---
 
-# SwcInfo{#swcinfo}
+# [!DNL SwcInfo]{#swcinfo}
 
 SWC檔案資產的屬性。
 
@@ -22,6 +22,6 @@ SWC檔案資產的屬性。
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 原始路徑 | `xsd:string` | SWC檔案的路徑。 |
-| 原始檔案 | `xsd:string` | 檔案名稱. |
-| 檔案大小 | `xsd:int` | 檔案大小. |
+| originalPath | `xsd:string` | SWC檔案的路徑。 |
+| originalFile | `xsd:string` | 檔案名稱. |
+| fileSize | `xsd:int` | 檔案大小. |

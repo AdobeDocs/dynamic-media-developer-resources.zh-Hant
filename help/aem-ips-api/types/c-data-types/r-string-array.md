@@ -1,20 +1,20 @@
 ---
-description: 字串陣列。
+description: 字串的陣列。
 solution: Experience Manager
-title: 字串陣列
+title: StringArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1d380460-6634-4a63-a853-5a23e54b3f67
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '20'
-ht-degree: 30%
+source-wordcount: '19'
+ht-degree: 31%
 
 ---
 
-# 字串陣列{#stringarray}
+# [!DNL StringArray]{#stringarray}
 
-字串陣列。
+字串的陣列。
 
 語法
 
@@ -22,4 +22,4 @@ ht-degree: 30%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 項目 | `xsd:string` | 字串陣列。 |
+| 項目 | `xsd:string` | 字串的陣列。 |

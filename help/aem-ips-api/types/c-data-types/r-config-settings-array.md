@@ -1,18 +1,18 @@
 ---
 description: 配置設定的陣列。
 solution: Experience Manager
-title: 配置設定陣列
+title: ConfigSettingArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 7b240693-8b3b-4765-9cd9-a6125da77f54
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '23'
-ht-degree: 26%
+source-wordcount: '22'
+ht-degree: 27%
 
 ---
 
-# 配置設定陣列{#configsettingarray}
+# [!DNL ConfigSettingArray]{#configsettingarray}
 
 配置設定的陣列。
 

@@ -5,14 +5,14 @@ title: 公司
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e831a081-145a-4fb4-a617-7eecea8d40ed
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '32'
-ht-degree: 34%
+source-wordcount: '29'
+ht-degree: 27%
 
 ---
 
-# 公司{#company}
+# [!DNL Company]{#company}
 
 代表公司。
 
@@ -22,7 +22,7 @@ ht-degree: 34%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 公司句柄 | `xsd:string` | 公司負責。 |
-| 名稱 | `xsd:string` | 公司名稱. |
-| 根路徑 | `xsd:string` | 公司的根路徑。 |
-| expires | `xsd:dateTime` | 公司到期的日期和時間。 |
+| companyHandle | `xsd:string` | 公司負責人。 |
+| [!DNL name] | `xsd:string` | 公司名稱. |
+| rootPath | `xsd:string` | 公司的根路徑。 |
+| [!DNL expires] | `xsd:dateTime` | 公司過期的日期和時間。 |

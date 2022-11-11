@@ -1,24 +1,24 @@
 ---
-description: '在此類型中， pageReset欄位對RenderSet和目錄影像資產類型有意義 '
+description: 在此類型中， pageReset欄位對RenderSet和目錄影像資產類型有意義
 solution: Experience Manager
 title: ImageSetMemberUpdate
-feature: Dynamic Media Classic, SDK/API，影像集
+feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,Admin
 exl-id: 4c598afb-a80c-4fac-997f-ef1c7175430c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '101'
 ht-degree: 7%
 
 ---
 
-# ImageSetMemberUpdate{#imagesetmemberupdate}
+# [!DNL ImageSetMemberUpdate]{#imagesetmemberupdate}
 
 在此類型中， pageReset欄位對於RenderSet和目錄影像資產類型有意義：
 
-* 對於`RenderSet`, `pageReset`指示新渲染視圖/色票組的開始。
+* 針對 `RenderSet`, `pageReset` 指示新渲染視圖/色票組的開始。
 
-* 對於目錄，`pageReset`表示新頁面檢視的開始。 每個頁面檢視通常有2個頁面影像，但您可以有更多或更少。
+* 對於目錄， `pageReset` 表示新頁面檢視的開始。 每個頁面檢視通常有2個頁面影像，但您可以有更多或更少。
 
 ## 參數 {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -39,7 +39,7 @@ ht-degree: 7%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> pageReset</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3">重設頁面。 <p>忽略設定，且<span class="codeph"> ImageSet</span>和<span class="codeph"> SpinSet</span>的值強制為true。 </p></td> 
+   <td colname="col3">重設頁面。 <p>忽略設定，且值強制為true <span class="codeph"> ImageSet</span> 和 <span class="codeph"> 回轉集</span>. </p></td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,20 +1,20 @@
 ---
-description: 名稱和值對。
+description: 名稱和值組。
 solution: Experience Manager
 title: 屬性
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 7c7675e5-d85c-4320-8b7a-a49af24ac4ff
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '23'
-ht-degree: 47%
+source-wordcount: '22'
+ht-degree: 45%
 
 ---
 
-# 屬性{#property}
+# [!DNL Property]{#property}
 
-名稱和值對。
+名稱和值組。
 
 語法
 

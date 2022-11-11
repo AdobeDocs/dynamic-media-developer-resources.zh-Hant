@@ -5,18 +5,18 @@ title: UploadPostJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 60163016-fe96-4ac2-9208-da8192042d0f
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '465'
 ht-degree: 10%
 
 ---
 
-# UploadPostJob{#uploadpostjob}
+# [!DNL UploadPostJob]{#uploadpostjob}
 
 使用getActiveJobs來追蹤案頭上傳。
 
-另請參閱[透過HTTP POST上傳資產至上傳……](../../c-http-post.md#concept-457855c0cdc943339ca1f1bed356991d)。
+另請參閱 [透過HTTP POST上傳資產至上傳……](../../c-http-post.md#concept-457855c0cdc943339ca1f1bed356991d).
 
 >[!NOTE]
 >
@@ -86,7 +86,7 @@ ht-degree: 10%
    <td colname="col1"> <span class="codeph"> <span class="varname"> knoupBackground</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：ThrunkedBackgroundOptions</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>遮罩所選影像的背景。 這可讓您以主體影像外部的透明度，在其他圖層中覆蓋它們。 選填。 </p> <p>請參閱<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> TrunkupBackgroundOptions</a>。 </p> </td> 
+   <td colname="col4"> <p>遮罩所選影像的背景。 這可讓您以主體影像外部的透明度，在其他圖層中覆蓋它們。 選填。 </p> <p>請參閱<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> 挖空背景選項</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </td> 
@@ -98,7 +98,7 @@ ht-degree: 10%
    <td colname="col1"> <span class="codeph"> <span class="varname"> mediaOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：MediaOptions</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>可讓您從影片設定縮圖影像的選項。 </p> <p>請參閱<a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> MediaOptions</a>。 </p> </td> 
+   <td colname="col4"> <p>可讓您從影片設定縮圖影像的選項。 </p> <p>請參閱 <a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> MediaOptions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 覆寫</span> </span> </td> 
@@ -110,7 +110,7 @@ ht-degree: 10%
    <td colname="col1"> <span class="codeph"> <span class="varname"> pdfOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：PDFOptions</span> </td> 
    <td colname="col3"> <p>否</p> </td> 
-   <td colname="col4"> <p>上傳PDF檔案至影像伺服器的選項。 </p> </td> 
+   <td colname="col4"> <p>用於將PDF檔案上載到映像伺服器的選項。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> photoshopOptions</span> </span> </td> 
@@ -134,7 +134,7 @@ ht-degree: 10%
    <td colname="col1"> <span class="codeph"> <span class="varname"> preserveCrop</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>控制任何現有作物定義的保留。 預設為 true。</p> <p>如果您提供manualCropOptions參數和對應的值，則無論preserveCrop值為何，新值（不包括0,0,0,0）都會套用至資產。</p><p>如果您<i>not</i>提供manualCropOptions參數，則會維持preserveCrop的值。 若為true，則會保留現有的preserveCrop值；若為false，則會移除preserveCrop值。</p><p>範例：</p><p><p>&lt;preservecrop&gt;false&lt;/preservecrop&gt;<br />&lt;manualcropoptions&gt;<br />    &lt;left&gt;190&lt;/left&gt;<br />    &lt;right&gt;310&lt;/right&gt;<br />    &lt;top&gt;160&lt;/top&gt;<br />    &lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualcropoptions&gt;</p></td> 
+   <td colname="col4"> <p>控制任何現有作物定義的保留。 預設為 true。</p> <p>如果您提供manualCropOptions參數和對應的值，則無論preserveCrop值為何，新值（不包括0,0,0,0）都會套用至資產。</p><p>若您這麼做 <i>not</i> 提供manualCropOptions參數後，將維護preserveCrop的值。 若為true，則會保留現有的preserveCrop值；若為false，則會移除preserveCrop值。</p><p>範例：</p><p><p>&lt;preservecrop&gt;false&lt;/preservecrop&gt;<br />&lt;manualcropoptions&gt;<br />   &lt;left&gt;190&lt;/left&gt;<br />   &lt;right&gt;310&lt;/right&gt;<br />   &lt;top&gt;160&lt;/top&gt;<br />   &lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualcropoptions&gt;</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> preservePublishState</span> </span> </td> 
@@ -158,13 +158,13 @@ ht-degree: 10%
    <td colname="col1"> <span class="codeph"> <span class="varname"> unCompressOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：UnCompressOptions</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>使用這些選用設定來解壓縮及處理上傳之TAR/ZIP檔案的內容。 </p> <p>請參閱<a href="../../types/c-data-types/r-uncompress-options.md#reference-510ec7028b1540bc9b58745f242d49d5" format="dita" scope="local"> UnCompressOptions</a>。 </p> </td> 
+   <td colname="col4"> <p>使用這些選用設定來擷取和處理上傳之TAR/ZIP檔案的內容。 </p> <p>請參閱 <a href="../../types/c-data-types/r-uncompress-options.md#reference-510ec7028b1540bc9b58745f242d49d5" format="dita" scope="local"> UnCompressOptions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> unsharpMaskOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：銳利化遮色片選項</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>用於在建立優化金字塔TIF檔案時控制遮色片設定的選項。 使用這些設定可幫助提高影像的清晰度。 </p> <p>請參閱<a href="../../types/c-data-types/r-unsharp-mask-options.md#reference-b9a96244d7ee4424bc4ac3c23be3be3d" format="dita" scope="local"> UnsharpMaskOptions</a>。 </p> </td> 
+   <td colname="col4"> <p>用於在建立優化金字塔TIF檔案時控制遮色片設定的選項。 使用這些設定可幫助提高影像的清晰度。 </p> <p>請參閱 <a href="../../types/c-data-types/r-unsharp-mask-options.md#reference-b9a96244d7ee4424bc4ac3c23be3be3d" format="dita" scope="local"> 不銳利化遮色片選項</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"><span class="varname"> xmpKeywords</span></span> </td> 

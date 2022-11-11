@@ -1,20 +1,20 @@
 ---
-description: 搜索字串的陣列。
+description: 搜尋字串的陣列。
 solution: Experience Manager
-title: 搜索字串陣列
+title: SearchStringsArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 21033323-8a42-459b-a85b-97a6198dc5d4
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '23'
-ht-degree: 26%
+source-wordcount: '22'
+ht-degree: 27%
 
 ---
 
-# 搜索字串陣列{#searchstringsarray}
+# [!DNL SearchStringsArray]{#searchstringsarray}
 
-搜索字串的陣列。
+搜尋字串的陣列。
 
 語法
 
@@ -22,4 +22,4 @@ ht-degree: 26%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 項目 | `types:SearchStrings` | 搜索字串的陣列。 |
+| 項目 | `types:SearchStrings` | 搜尋字串的陣列。 |

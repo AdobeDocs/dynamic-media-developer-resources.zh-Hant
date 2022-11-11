@@ -1,20 +1,20 @@
 ---
-description: 主視頻資產的檔案資訊。
+description: 主要視訊資產的檔案資訊。
 solution: Experience Manager
-title: 主視頻資訊
+title: MasterVideoInfo
 feature: Dynamic Media Classic,SDK/API,Video
 role: Developer,Admin
 exl-id: 7ca1ba11-56c0-4655-a144-7c9f6f17fc7c
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '28'
-ht-degree: 32%
+source-wordcount: '27'
+ht-degree: 33%
 
 ---
 
-# 主視頻資訊{#mastervideoinfo}
+# [!DNL MasterVideoInfo]{#mastervideoinfo}
 
-主視頻資產的檔案資訊。
+主要視訊資產的檔案資訊。
 
 語法
 
@@ -22,6 +22,6 @@ ht-degree: 32%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 原始路徑 | `xsd:string` | 檔案路徑。 |
-| 原始檔案 | `xsd:string` | 檔案名稱. |
-| 檔案大小 | `xsd:int` | 檔案大小. |
+| originalPath | `xsd:string` | 檔案路徑。 |
+| originalFile | `xsd:string` | 檔案名稱. |
+| fileSize | `xsd:int` | 檔案大小. |

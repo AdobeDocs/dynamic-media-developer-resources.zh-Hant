@@ -1,22 +1,22 @@
 ---
-description: 對CDN無效請求中提供的一個URL作出響應的詳細消息。
+description: 回應CDN失效請求中提供之一個URL的詳細訊息。
 solution: Experience Manager
-title: 操作故障
+title: OperationFault
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e1fa7f66-f9d9-45cd-a9b3-d0ff344b137d
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '48'
 ht-degree: 12%
 
 ---
 
-# 操作故障{#operationfault}
+# [!DNL OperationFault]{#operationfault}
 
-對CDN無效請求中提供的一個URL作出響應的詳細消息。
+回應CDN失效請求中提供之一個URL的詳細訊息。
 
-**自**
+**支援時間**
 
 4.5.0，修補程式2011-02
 
@@ -25,4 +25,4 @@ ht-degree: 12%
 | ** 名稱** | ** 類型** | ** 說明** |
 |---|---|---|
 | 代碼 | `xsd:int` | 從CDN提供的錯誤代碼 |
-| 原因 | `xsd:string` | 從CDN提供的錯誤消息 |
+| 原因 | `xsd:string` | 從CDN提供的錯誤訊息 |

@@ -2,17 +2,17 @@
 description: 有助於改進優化金字塔TIF檔案的影像清晰度的設定。
 solution: Experience Manager
 title: 不銳利化遮色片選項
-feature: Dynamic Media Classic,SDK/API，資產管理
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 7150b4a8-a44d-4858-96f2-6004d5f48e77
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 12%
+source-wordcount: '186'
+ht-degree: 13%
 
 ---
 
-# 不銳利化遮色片選項{#unsharpmaskoptions}
+# [!DNL UnsharpMaskOptions]{#unsharpmaskoptions}
 
 有助於改進優化金字塔TIF檔案的影像清晰度的設定。
 
@@ -20,7 +20,7 @@ ht-degree: 12%
 
 ## 參數 {#section-c3f0d03136ba4422819cb463bd393885}
 
-為`minOccurs=" *`n`*".`的`unsharpMaskOptions`選項指定值
+指定 `unsharpMaskOptions` 選項 `minOccurs=" *`n`*".`
 
 <table id="table_D1392963C5694969A9D546F82DB6F45C">
  <thead>
@@ -62,7 +62,7 @@ ht-degree: 12%
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> 單色</span></span></td>
    <td colname="col2"><span class="codeph"> xsd:int</span></td>
-   <td colname="col3"><p>值僅包含<span class="codeph"> 0</span>或<span class="codeph"> 1</span>。 </p><p>設為<span class="codeph"> 0</span>以分別應用於每個顏色分量，或設為<span class="codeph"> 1</span>以僅應用於影像亮度（強度）。 圖層遮色片或複合遮色片也會銳化。 </p><p><span class="codeph"><span class="varname"> </span></span> 灰階影像會忽略單色。 </p></td>
+   <td colname="col3"><p>值包括 <span class="codeph"> 0</span> 或 <span class="codeph"> 1</span> 只有。 </p><p>設為 <span class="codeph"> 0</span> 要分別應用到每個顏色元件，或應用於 <span class="codeph"> 1</span> 僅應用於影像亮度（強度）。 圖層遮色片或複合遮色片也會銳化。 </p><p><span class="codeph"><span class="varname"> 單色</span></span> 會忽略灰度影像。 </p></td>
   </tr>
  </tbody>
 </table>
@@ -83,7 +83,7 @@ ht-degree: 12%
 
 ## 使用者 {#section-db8124a5468b498694a780f8a56a4560}
 
-`unsharpMaskOptions`類型由：
+此 `unsharpMaskOptions` 類型的使用者：
 
 * [ReprocessAssetsJob](../../types/c-data-types/r-reprocess-assets-job.md#reference-a303f7832ae44fdab1dca7cc8bef3fa3)
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)

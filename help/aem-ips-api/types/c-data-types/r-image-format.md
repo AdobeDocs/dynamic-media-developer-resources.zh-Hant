@@ -1,20 +1,20 @@
 ---
-description: 影像輸出設定的非結構化命名集。
+description: 非結構化的已命名映像輸出設定集。
 solution: Experience Manager
-title: 影像格式
+title: ImageFormat
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 570ada53-17d0-4c8a-8843-ace29de92bf3
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '41'
+source-wordcount: '40'
 ht-degree: 12%
 
 ---
 
-# 影像格式{#imageformat}
+# [!DNL ImageFormat]{#imageformat}
 
-影像輸出設定的非結構化命名集。
+非結構化的已命名映像輸出設定集。
 
 不是資產類型。
 
@@ -24,4 +24,4 @@ ht-degree: 12%
 |---|---|---|
 | imageFormatHandle | `xsd:string` | 影像格式句柄。 |
 | 名稱 | `xsd:string` | 影像格式名稱。 |
-| url修飾符 | `xsd:string` | 表示影像格式的影像伺服器URL。 |
+| urlModifier | `xsd:string` | 代表影像格式的影像伺服器URL。 |

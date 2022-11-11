@@ -1,20 +1,20 @@
 ---
-description: 映像欄位陣列更新。
+description: 影像欄位更新的陣列。
 solution: Experience Manager
 title: ImageFieldUpdateArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: efba86d2-8a78-4cb6-b74c-e927b7812997
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '25'
-ht-degree: 24%
+source-wordcount: '24'
+ht-degree: 25%
 
 ---
 
-# ImageFieldUpdateArray{#imagefieldupdatearray}
+# [!DNL ImageFieldUpdateArray]{#imagefieldupdatearray}
 
-映像欄位陣列更新。
+影像欄位更新的陣列。
 
 語法
 
@@ -22,4 +22,4 @@ ht-degree: 24%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 項目 | `types:ImageFieldUpdate` | 映像欄位更新的陣列。 |
+| 項目 | `types:ImageFieldUpdate` | 影像欄位更新的陣列。 |

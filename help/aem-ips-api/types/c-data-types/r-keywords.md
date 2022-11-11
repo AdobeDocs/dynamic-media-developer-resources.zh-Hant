@@ -5,14 +5,14 @@ title: 關鍵字
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 5eb9ca70-5971-412d-92d1-4e9898d556fd
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 36%
+source-wordcount: '40'
+ht-degree: 35%
 
 ---
 
-# 關鍵字{#keywords}
+# [!DNL Keywords]{#keywords}
 
 語法
 
@@ -22,7 +22,7 @@ ht-degree: 36%
 |---|---|---|
 | 關鍵字 | `xsd:string` | 關鍵字. |
 | 狀態 | `xsd:boolean` | 關鍵字有效性。 |
-| x | `xsd:int` | 關鍵字在x軸上的位置（以像素為單位）。 |
-| y | `xsd:int` | 關鍵字在y軸上的位置（以像素為單位）。 |
-| 寬度 | `xsd:int` | 關鍵字寬度（以像素為單位）。 |
-| 高度 | `xsd:int` | 關鍵字高度（以像素為單位）。 |
+| x | `xsd:int` | x軸上的關鍵字位置（像素）。 |
+| y | `xsd:int` | Y軸上的關鍵字位置（像素）。 |
+| 寬度 | `xsd:int` | 關鍵字寬度（像素）。 |
+| 高度 | `xsd:int` | 關鍵字高度（像素）。 |

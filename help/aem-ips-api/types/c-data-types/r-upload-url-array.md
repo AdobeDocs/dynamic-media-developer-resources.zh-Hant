@@ -1,20 +1,20 @@
 ---
-description: 用於上載資產的URL陣列。
+description: 上傳資產的URL陣列。
 solution: Experience Manager
-title: 上載Url陣列
+title: UploadUrlArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: af931740-48da-47c4-af03-349517f4e2a8
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '29'
-ht-degree: 20%
+source-wordcount: '28'
+ht-degree: 21%
 
 ---
 
-# 上載Url陣列{#uploadurlarray}
+# [!DNL UploadUrlArray]{#uploadurlarray}
 
-用於上載資產的URL陣列。
+上傳資產的URL陣列。
 
 語法
 
@@ -22,4 +22,4 @@ ht-degree: 20%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 項目 | `types:UploadUrl` | 用於上載資產的URL陣列。 |
+| 項目 | `types:UploadUrl` | 上傳資產的URL陣列。 |

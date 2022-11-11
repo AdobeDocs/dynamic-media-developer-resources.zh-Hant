@@ -5,14 +5,14 @@ title: CreateVideoSitemapJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 2af7c949-46cf-4570-9043-1b6296a2e467
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 12%
+source-wordcount: '49'
+ht-degree: 14%
 
 ---
 
-# CreateVideoSitemapJob{#createvideositemapjob}
+# [!DNL CreateVideoSitemapJob]{#createvideositemapjob}
 
 建立視訊網站地圖。
 
@@ -32,7 +32,7 @@ ht-degree: 12%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> forceUpdate</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3">設為<span class="codeph"> true</span>時產生網站地圖。 <p><p>注意：如果「Sitemap開發設定」設為手動，且<span class="codeph"> forceUpdate</span>未設定，則不會產生網站地圖。 </p></p></td> 
+   <td colname="col3">設為時產生網站地圖 <span class="codeph"> true</span>. <p><p>注意：如果「Sitemap產生設定」設為手動和 <span class="codeph"> forceUpdate</span> 未設定，則不會產生網站地圖。 </p></p></td> 
   </tr> 
  </tbody> 
 </table>

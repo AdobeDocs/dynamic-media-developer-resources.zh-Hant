@@ -1,18 +1,18 @@
 ---
 description: 一系列資產摘要。
 solution: Experience Manager
-title: 資產摘要陣列
+title: AssetSummaryArray
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 6c38cd3f-10ec-4552-b2da-19a45068c7fa
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '22'
-ht-degree: 27%
+source-wordcount: '21'
+ht-degree: 28%
 
 ---
 
-# 資產摘要陣列{#assetsummaryarray}
+# [!DNL AssetSummaryArray]{#assetsummaryarray}
 
 一系列資產摘要。
 
@@ -22,4 +22,4 @@ ht-degree: 27%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 項目 | `types:AssetSummary` | 資產摘要的陣列。 |
+| 項目 | `types:AssetSummary` | 資產摘要陣列。 |

@@ -1,20 +1,20 @@
 ---
-description: 一系列蒙版。
+description: 一系列的遮罩。
 solution: Experience Manager
 title: 掩碼陣列
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: a0539a30-051c-4442-abae-99588bdfff10
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '19'
-ht-degree: 31%
+source-wordcount: '18'
+ht-degree: 33%
 
 ---
 
-# 掩碼陣列{#maskarray}
+# [!DNL MaskArray]{#maskarray}
 
-一系列蒙版。
+一系列的遮罩。
 
 語法
 
@@ -22,4 +22,4 @@ ht-degree: 31%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 項目 | `types:Mask` | 蒙版陣列。 |
+| 項目 | `types:Mask` | 掩碼陣列。 |

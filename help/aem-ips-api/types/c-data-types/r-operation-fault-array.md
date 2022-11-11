@@ -5,14 +5,14 @@ title: OperationFaultArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b9b92686-a378-4ba0-814b-3354344aa6d2
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: '51'
 ht-degree: 7%
 
 ---
 
-# OperationFaultArray{#operationfaultarray}
+# [!DNL OperationFaultArray]{#operationfaultarray}
 
 回應CDN失效請求中提供之一URL的訊息陣列。
 

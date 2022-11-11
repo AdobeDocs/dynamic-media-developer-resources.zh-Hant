@@ -1,20 +1,20 @@
 ---
-description: 將資產映射到將資產標籤為要發佈的PublishContexts。
+description: 將資產對應至將資產標示為要發佈的PublishContexts。
 solution: Experience Manager
-title: 資產發佈上下文
+title: AssetPublishContexts
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: fa94e3ce-b210-4d0d-88f1-0b245d5a52b5
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '54'
+source-wordcount: '53'
 ht-degree: 9%
 
 ---
 
-# 資產發佈上下文{#assetpublishcontexts}
+# [!DNL AssetPublishContexts]{#assetpublishcontexts}
 
-將資產映射到將資產標籤為要發佈的PublishContexts。
+將資產對應至將資產標示為要發佈的PublishContexts。
 
 語法
 
@@ -22,5 +22,5 @@ ht-degree: 9%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 資產句柄 | `xsd:string` | 處理資產。 |
-| publishContextArray | `types:PublishContextArray` | 資產標籤為要發佈的發佈上下文的陣列。 |
+| assetHandle | `xsd:string` | 處理資產。 |
+| publishContextArray | `types:PublishContextArray` | 資產標示為要發佈的發佈內容陣列。 |

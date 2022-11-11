@@ -1,20 +1,20 @@
 ---
-description: 允許重新處理先前上傳的主要檔案的工作類型，包括重新轉譯PDF和重新最佳化影像。
+description: 允許重新處理先前上傳的主要檔案的工作類型，包括重新處理PDF和重新最佳化影像。
 solution: Experience Manager
 title: ReprocessAssetsJob
-feature: Dynamic Media Classic,SDK/API，資產管理
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: b6078246-54e1-4119-b4f8-ba6a28577cff
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '464'
 ht-degree: 5%
 
 ---
 
-# ReprocessAssetsJob{#reprocessassetsjob}
+# [!DNL ReprocessAssetsJob]{#reprocessassetsjob}
 
-允許重新處理先前上傳的主要檔案的工作類型，包括重新轉譯PDF和重新最佳化影像。
+允許重新處理先前上傳的主要檔案的工作類型，包括重新處理PDF和重新最佳化影像。
 
 語法
 
@@ -52,7 +52,7 @@ ht-degree: 5%
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> preserveCrop</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:boolean</span> </p> </td> 
-   <td colname="col3"> <p>控制任何現有作物定義的保留。 預設為 true。</p> <p>如果您提供manualCropOptions參數和對應的值，則無論preserveCrop值為何，新值（不包括0,0,0,0）都會套用至資產。</p><p>如果您<i>not</i>提供manualCropOptions參數，則會維持preserveCrop的值。 若為true，則會保留現有的preserveCrop值；若為false，則會移除preserveCrop值。</p><p>範例：</p><p><p>&lt;preservecrop&gt;false&lt;/preservecrop&gt;<br />&lt;manualcropoptions&gt;<br />    &lt;left&gt;190&lt;/left&gt;<br />    &lt;right&gt;310&lt;/right&gt;<br />    &lt;top&gt;160&lt;/top&gt;<br />    &lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualcropoptions&gt;</p> </td> 
+   <td colname="col3"> <p>控制任何現有作物定義的保留。 預設為 true。</p> <p>如果您提供manualCropOptions參數和對應的值，則無論preserveCrop值為何，新值（不包括0,0,0,0）都會套用至資產。</p><p>若您這麼做 <i>not</i> 提供manualCropOptions參數後，將維護preserveCrop的值。 若為true，則會保留現有的preserveCrop值；若為false，則會移除preserveCrop值。</p><p>範例：</p><p><p>&lt;preservecrop&gt;false&lt;/preservecrop&gt;<br />&lt;manualcropoptions&gt;<br />   &lt;left&gt;190&lt;/left&gt;<br />   &lt;right&gt;310&lt;/right&gt;<br />   &lt;top&gt;160&lt;/top&gt;<br />   &lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualcropoptions&gt;</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </p> </td> 
@@ -82,7 +82,7 @@ ht-degree: 5%
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> pdfOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 類型：PDFOptions</span> </p> </td> 
-   <td colname="col3"> <p>上傳PDF檔案至影像伺服器的選項。 </p> </td> 
+   <td colname="col3"> <p>用於將PDF檔案上載到映像伺服器的選項。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> mediaOptions</span> </span> </p> </td> 
@@ -147,25 +147,25 @@ ht-degree: 5%
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> knoupBackground</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 類型：ThrunkedBackgroundOptions</span> </p> </td> 
-   <td colname="col3"> <p>遮罩所選影像的背景。 這可讓您以主體影像外部的透明度，在其他圖層中覆蓋它們。 </p> <p>選填。 </p> <p>請參閱<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> TrunkupBackgroundOptions</a> </p> </td> 
+   <td colname="col3"> <p>遮罩所選影像的背景。 這可讓您以主體影像外部的透明度，在其他圖層中覆蓋它們。 </p> <p>選填。 </p> <p>請參閱<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> 挖空背景選項</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> unsharpMaskOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 類型：銳利化遮色片選項</span> </p> </td> 
-   <td colname="col3"> <p>用於在建立優化金字塔TIF檔案時控制遮色片設定的選項。 使用這些設定可幫助提高影像的清晰度。 </p> <p>請參閱<a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> UnsharpMaskOptions</a>。 </p> </td> 
+   <td colname="col3"> <p>用於在建立優化金字塔TIF檔案時控制遮色片設定的選項。 使用這些設定可幫助提高影像的清晰度。 </p> <p>請參閱 <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> 不銳利化遮色片選項</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **附註**
 
-`*CropOptions`的選擇包括：
+選擇 `*CropOptions` 包括：
 
 * `manualCropOptions`
 * `autoColorCropOptions`
 * `autoTransparentCropOptions`
 
-`*PublishJob`的選擇包括：
+選擇 `*PublishJob` 包括：
 
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`

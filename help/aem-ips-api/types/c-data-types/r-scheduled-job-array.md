@@ -1,20 +1,20 @@
 ---
-description: 一組計畫作業。
+description: 排程作業的陣列。
 solution: Experience Manager
 title: ScheduledJobArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 2bc145ca-3cee-4832-908c-e45e124a2b6f
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '22'
-ht-degree: 27%
+source-wordcount: '21'
+ht-degree: 28%
 
 ---
 
-# ScheduledJobArray{#scheduledjobarray}
+# [!DNL ScheduledJobArray]{#scheduledjobarray}
 
-一組計畫作業。
+排程作業的陣列。
 
 語法
 
@@ -22,4 +22,4 @@ ht-degree: 27%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 項目 | `types:ScheduledJobs` | 計畫作業陣列。 |
+| 項目 | `types:ScheduledJobs` | 排程的作業陣列。 |

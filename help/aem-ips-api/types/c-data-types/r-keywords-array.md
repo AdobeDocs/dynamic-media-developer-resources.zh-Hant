@@ -5,14 +5,14 @@ title: 關鍵字陣列
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: ec87de9e-f3d0-404e-b16f-4c5d373e5a6f
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '20'
-ht-degree: 30%
+source-wordcount: '19'
+ht-degree: 31%
 
 ---
 
-# 關鍵字陣列{#keywordsarray}
+# [!DNL KeywordsArray]{#keywordsarray}
 
 關鍵字的陣列。
 

@@ -2,21 +2,21 @@
 description: 特定資產的使用者定義欄位定義。
 solution: Experience Manager
 title: MetadataField
-feature: Dynamic Media Classic,SDK/API，中繼資料
+feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 97175076-9078-4bc4-b3ea-73c3ea772f6a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 14%
+source-wordcount: '144'
+ht-degree: 15%
 
 ---
 
-# MetadataField{#metadatafield}
+# [!DNL MetadataField]{#metadatafield}
 
 特定資產的使用者定義欄位定義。
 
-使用`getMetadataFields`或`getAssetMetadataField`操作檢索標籤欄位定義。
+使用擷取標籤欄位定義 `getMetadataFields` 或 `getAssetMetadataField` 操作。
 
 ## 參數 {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -62,12 +62,12 @@ ht-degree: 14%
   <tr> 
    <td colname="col1"><span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3">隱藏或公開IPS系統特定元資料。 從<a href="../../operations/c-operations-intro/c-methods/r-get-metadata-fields.md#reference-170337127801401d9ea54bd4ccf28efe" format="dita" scope="local"> getMetadataFields</a>和<a href="../../operations/c-operations-intro/c-methods/r-get-asset-metadata-fields.md#reference-ea57f8e98d3e443da66114550b0d0a28" format="dita" scope="local"> getAssetMetadataFields</a>傳回。 </td> 
+   <td colname="col3">隱藏或公開IPS系統特定元資料。 從 <a href="../../operations/c-operations-intro/c-methods/r-get-metadata-fields.md#reference-170337127801401d9ea54bd4ccf28efe" format="dita" scope="local"> getMetadataFields</a> 和 <a href="../../operations/c-operations-intro/c-methods/r-get-asset-metadata-fields.md#reference-ea57f8e98d3e443da66114550b0d0a28" format="dita" scope="local"> getAssetMetadataFields</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> <p>此布林值標幟可指出設定值時是否強制（驗證）中繼資料欄位類型。 </p> <p>如果設為true，則如果在<span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>中設定了非法值，則會擲回錯誤。 </p> </td> 
+   <td colname="col3"> <p>此布林值標幟可指出設定值時是否強制（驗證）中繼資料欄位類型。 </p> <p>若設為true，則若中設定了非法值，則會擲回錯誤 <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 

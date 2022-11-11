@@ -1,18 +1,18 @@
 ---
 description: Adobe Illustrator檔案的選項。
 solution: Experience Manager
-title: Illustrator選項
+title: IllustratorOptions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f6c06fe3-5dfa-4885-9083-c6c41ae0e0ea
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 13%
+source-wordcount: '55'
+ht-degree: 9%
 
 ---
 
-# Illustrator選項{#illustratoroptions}
+# [!DNL IllustratorOptions]{#illustratoroptions}
 
 Adobe Illustrator檔案的選項。
 
@@ -22,7 +22,7 @@ Adobe Illustrator檔案的選項。
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 過程 | `xsd:string` | 選擇Illustrator進程。 |
-| 解析度 | `xsd:string` | 檔案解析。 |
-| 顏色空間 | `xsd:string` | 目標顏色空間。 |
-| alpha | `xsd:boolean` | 是否將檔案柵格化為影像。 如果是，則如果原始檔案是以建立重疊徽標的方式定義的，則建立透明背景。 |
+| [!DNL process] | `xsd:string` | 選擇Illustrator程式。 |
+| [!DNL resolution] | `xsd:string` | 檔案解析。 |
+| colorSpace | `xsd:string` | 目標色域。 |
+| [!DNL alpha] | `xsd:boolean` | 是否將檔案柵格化為影像。 若是如此，如果以此方式定義原始檔案以建立覆蓋標誌，請建立透明背景。 |

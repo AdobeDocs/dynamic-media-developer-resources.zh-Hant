@@ -1,18 +1,18 @@
 ---
 description: CompanyMetadataInfo元素的陣列。
 solution: Experience Manager
-title: 公司元資料資訊陣列
+title: CompanyMetadataInfoArray
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 424a2f52-9cc2-46d6-817b-6ea64f46a229
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '21'
-ht-degree: 23%
+source-wordcount: '20'
+ht-degree: 25%
 
 ---
 
-# 公司元資料資訊陣列{#companymetadatainfoarray}
+# [!DNL CompanyMetadataInfoArray]{#companymetadatainfoarray}
 
 CompanyMetadataInfo元素的陣列。
 
@@ -22,5 +22,5 @@ CompanyMetadataInfo元素的陣列。
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 代碼短語 | `Code Phrase` |  |
-| 代碼短語 | `Code Phrase` |  |
+| 代碼片語 | `Code Phrase` |  |
+| 代碼片語 | `Code Phrase` |  |

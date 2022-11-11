@@ -1,20 +1,20 @@
 ---
-description: 一系列項目。
+description: 一系列專案。
 solution: Experience Manager
-title: 項目陣列
+title: ProjectArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 6f9b5a38-49b1-4975-8ab9-c129a8e07d05
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '19'
-ht-degree: 31%
+source-wordcount: '18'
+ht-degree: 33%
 
 ---
 
-# 項目陣列{#projectarray}
+# [!DNL ProjectArray]{#projectarray}
 
-一系列項目。
+一系列專案。
 
 語法
 
@@ -22,4 +22,4 @@ ht-degree: 31%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 項目 | `types:Project` | 項目陣列。 |
+| 項目 | `types:Project` | 專案陣列。 |

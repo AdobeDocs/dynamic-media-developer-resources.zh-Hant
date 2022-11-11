@@ -5,14 +5,14 @@ title: 任務進度
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 35e3be1e-ccc2-460c-98c1-bbefab1df699
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 11%
+source-wordcount: '137'
+ht-degree: 12%
 
 ---
 
-# 任務進度{#taskprogress}
+# [!DNL TaskProgress]{#taskprogress}
 
 任務進度資訊。
 

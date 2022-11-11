@@ -5,14 +5,14 @@ title: SetPropertySetPermissions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 6c009573-0ef3-4bc2-9f9f-ff6580b32df0
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '19'
-ht-degree: 26%
+source-wordcount: '18'
+ht-degree: 27%
 
 ---
 
-# SetPropertySetPermissions{#setpropertysetpermissions}
+# [!DNL SetPropertySetPermissions]{#setpropertysetpermissions}
 
 語法
 
@@ -20,5 +20,5 @@ ht-degree: 26%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| setHandle | `xsd:string` | 屬性集的句柄。 |
-| 權限陣列 | `types:PermissionUpdateArray` | 權限的陣列。 |
+| setHandle | `xsd:string` | 處理屬性集。 |
+| permissionsArray | `types:PermissionUpdateArray` | 權限陣列。 |

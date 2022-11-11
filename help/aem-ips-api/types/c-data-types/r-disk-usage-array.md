@@ -1,20 +1,20 @@
 ---
-description: 磁碟使用情況的陣列。
+description: 磁碟使用的陣列。
 solution: Experience Manager
 title: DiskUsageArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 8331041e-4b8e-42b4-8bda-e40ca9489704
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '22'
-ht-degree: 27%
+source-wordcount: '21'
+ht-degree: 28%
 
 ---
 
-# DiskUsageArray{#diskusagearray}
+# [!DNL DiskUsageArray]{#diskusagearray}
 
-磁碟使用情況的陣列。
+磁碟使用的陣列。
 
 語法
 
@@ -22,4 +22,4 @@ ht-degree: 27%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 項目 | `types:DiskUsage` | 磁碟使用情況的陣列。 |
+| 項目 | `types:DiskUsage` | 磁碟使用的陣列。 |

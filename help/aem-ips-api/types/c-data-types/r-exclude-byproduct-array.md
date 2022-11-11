@@ -1,18 +1,18 @@
 ---
 description: 支援searchAssets操作中的副產品篩選。
 solution: Experience Manager
-title: 排除副產品陣列
+title: ExcludeBiscullArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0d238e6a-175d-4efc-b8a9-6b8bc3b65c34
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '26'
-ht-degree: 23%
+source-wordcount: '25'
+ht-degree: 24%
 
 ---
 
-# 排除副產品陣列{#excludebyproductarray}
+# [!DNL ExcludeByproductArray]{#excludebyproductarray}
 
 支援searchAssets操作中的副產品篩選。
 
@@ -22,4 +22,4 @@ ht-degree: 23%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 項目 | `types:ExcludeByproductCondition` | 陣列中的項。 |
+| 項目 | `types:ExcludeByproductCondition` | 陣列中的項目。 |

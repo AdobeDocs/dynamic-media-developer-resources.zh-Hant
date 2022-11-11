@@ -5,20 +5,20 @@ title: RipPdfJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 7a787b45-3cda-44f2-8357-8b6217b679e0
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '213'
 ht-degree: 5%
 
 ---
 
-# RipPdfJob{#rippdfsjob}
+# [!DNL RipPdfsJob]{#rippdfsjob}
 
 重新分割現有PDF資產的程式。
 
 >[!NOTE]
 >
->已棄用此作業類型。 轉換至`ReprocessAssetsJob`以了解未來的所有整合。
+>已棄用此作業類型。 轉換至 `ReprocessAssetsJob` 供日後的整合使用。
 
 ## 參數 {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -114,20 +114,20 @@ ht-degree: 5%
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> knoupBackground</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 類型：ThrunkedBackgroundOptions</span> </p> </td> 
-   <td colname="col3"> <p>遮罩所選影像的背景。 這可讓您以主體影像外部的透明度，在其他圖層中覆蓋它們。 </p> <p>選填。 </p> <p>請參閱<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> TrunkupBackgroundOptions</a> </p> </td> 
+   <td colname="col3"> <p>遮罩所選影像的背景。 這可讓您以主體影像外部的透明度，在其他圖層中覆蓋它們。 </p> <p>選填。 </p> <p>請參閱<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> 挖空背景選項</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 附註 {#section-0822e70fa4784131baa5ad0ba8c0fb3b}
 
-`*CropOptions`的選擇包括：
+選擇 `*CropOptions` 包括：
 
 * `manualCropOptions`
 * `autoColorCropOptions`
 * `autoTransparentCropOptions`
 
-`*PublishJob`的選擇包括：
+選擇 `*PublishJob` 包括：
 
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`

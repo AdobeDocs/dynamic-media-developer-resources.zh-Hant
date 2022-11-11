@@ -1,20 +1,20 @@
 ---
-description: 指定資產集。
+description: 已命名的資產集。
 solution: Experience Manager
-title: 項目
+title: 專案
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: be85f9b7-07a0-42e9-8391-45371a1ecaa6
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '22'
-ht-degree: 36%
+source-wordcount: '21'
+ht-degree: 38%
 
 ---
 
-# 項目{#project}
+# [!DNL Project]{#project}
 
-指定資產集。
+已命名的資產集。
 
 語法
 
@@ -22,5 +22,5 @@ ht-degree: 36%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 項目句柄 | `xsd:string` | 項目句柄。 |
+| 專案控制代碼 | `xsd:string` | 專案控制代碼。 |
 | 名稱 | `xsd:string` | 專案名稱. |

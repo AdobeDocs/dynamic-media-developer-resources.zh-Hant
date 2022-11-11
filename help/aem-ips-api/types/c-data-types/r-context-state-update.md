@@ -5,14 +5,14 @@ title: ContextStateUpdate
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 4e450d28-ec79-4540-824b-b0121b72c857
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 15%
+source-wordcount: '53'
+ht-degree: 16%
 
 ---
 
-# ContextStateUpdate{#contextstateupdate}
+# [!DNL ContextStateUpdate]{#contextstateupdate}
 
 更新資產的發佈內容狀態。
 
@@ -20,7 +20,7 @@ ht-degree: 15%
 
 ## 參數 {#section-9f747df071854c6896fdbb95684ad947}
 
-使用`setAssetsContextState`設定資產的發佈內容狀態。
+以設定資產的發佈內容狀態 `setAssetsContextState`.
 
 <table id="table_FD172CEA4EFE44E08ADA22D090DC06CA">
  <thead>

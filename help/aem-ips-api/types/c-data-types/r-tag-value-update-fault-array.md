@@ -5,14 +5,14 @@ title: TagValueUpdateFaultArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 76622042-0fb4-4ec4-834b-d64d79af6a94
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '31'
-ht-degree: 19%
+source-wordcount: '30'
+ht-degree: 20%
 
 ---
 
-# TagValueUpdateFaultArray{#tagvalueupdatefaultarray}
+# [!DNL TagValueUpdateFaultArray]{#tagvalueupdatefaultarray}
 
 標籤值更新錯誤的陣列。
 
@@ -22,4 +22,4 @@ ht-degree: 19%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 項目 | `types:TagValueUpdateFault` | 標籤值更新錯誤陣列（錯誤消息）。 |
+| 項目 | `types:TagValueUpdateFault` | 標籤值更新錯誤的陣列（錯誤訊息）。 |

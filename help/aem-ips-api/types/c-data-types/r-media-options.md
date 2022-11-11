@@ -5,14 +5,14 @@ title: MediaOptions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f37d935d-fe74-4878-8477-d2144d58d982
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '129'
-ht-degree: 6%
+source-wordcount: '123'
+ht-degree: 7%
 
 ---
 
-# MediaOptions{#mediaoptions}
+# [!DNL MediaOptions]{#mediaoptions}
 
 產生視訊的縮圖影像。
 
@@ -32,7 +32,7 @@ ht-degree: 6%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> videoEncodingPresetsArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：HandleArray</span> </td> 
-   <td colname="col3"><span class="codeph"> PropertySet</span>的陣列可處理轉碼視訊的參考視訊編碼預設集。 </td> 
+   <td colname="col3">陣列 <span class="codeph"> 屬性集</span> 處理轉碼視訊的參考視訊編碼預設集。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> generateThumbnail</span> </span> </td> 
@@ -42,7 +42,7 @@ ht-degree: 6%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbnailOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：縮圖選項</span> </td> 
-   <td colname="col3">選填。可讓您選擇特定視訊影格作為縮圖影像。 <p>若要指定縮圖影像，請傳入您要使用的影格的時間（從視訊開始的毫秒）。 值範圍從0到視訊結尾。 <p>注意：如果您未正確指定時間， <span class="codeph"> generateThumbnail</span>會預設為true。 </p></p><p>請參閱<a href="../../types/c-data-types/r-thumbnail-options.md#reference-370088b0a4ce4096b9b3e5489a368b5c" format="dita" scope="local"> ThumbnailOptions</a>。 </p></td> 
+   <td colname="col3">選填。可讓您選擇特定視訊影格作為縮圖影像。 <p>若要指定縮圖影像，請傳入您要使用的影格的時間（從視訊開始的毫秒）。 值範圍從0到視訊結尾。 <p>注意：如果指定的時間不正確， <span class="codeph"> generateThumbnail</span> 預設為true。 </p></p><p>請參閱 <a href="../../types/c-data-types/r-thumbnail-options.md#reference-370088b0a4ce4096b9b3e5489a368b5c" format="dita" scope="local"> ThumbnailOptions</a>. </p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,7 +61,7 @@ ht-degree: 6%
 
 ## 使用者 {#section-87cb83407198432c95eaa2db9f12f9db}
 
-`mediaOptions`類型由：
+此 `mediaOptions` 類型的使用者：
 
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
 * [UploadPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)

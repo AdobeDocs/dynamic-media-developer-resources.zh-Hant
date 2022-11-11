@@ -1,18 +1,18 @@
 ---
 description: 屬性集的陣列。
 solution: Experience Manager
-title: 屬性集陣列
+title: PropertySetArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9b8c4960-bced-4b37-b072-a713c4b20bfa
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '21'
-ht-degree: 28%
+source-wordcount: '20'
+ht-degree: 30%
 
 ---
 
-# 屬性集陣列{#propertysetarray}
+# [!DNL PropertySetArray]{#propertysetarray}
 
 屬性集的陣列。
 

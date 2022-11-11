@@ -5,14 +5,14 @@ title: PropertySetType
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f0c51e67-6927-4b9f-9935-222e6a194c13
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 16%
+source-wordcount: '80'
+ht-degree: 17%
 
 ---
 
-# PropertySetType{#propertysettype}
+# [!DNL PropertySetType]{#propertysettype}
 
 PropertySetType和createPropertySetTypeParam欄位的有效值。
 
@@ -41,7 +41,7 @@ PropertySetType和createPropertySetTypeParam欄位的有效值。
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">公司負責人。 <p>注意： 如果公司句柄不存在，則類型為全局。 </p></td> 
+   <td colname="col3">公司負責人。 <p>注意：如果公司句柄不存在，則類型為全局。 </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 名稱</span> </span> </td> 
