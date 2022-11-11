@@ -5,9 +5,9 @@ title: 伺服器
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 10970ca8-b209-4adf-b027-6eb8d7a15db6
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '342'
 ht-degree: 0%
 
 ---
@@ -26,19 +26,19 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Windows不支援64位模式。 只能指定`ImageServer32`。 否則，將不會啟動「影像伺服」。
+>Windows不支援64位模式。 僅 `ImageServer32` 可指定。 否則，將不會啟動「影像伺服」。
 
-## SV::PsHeapSize — 平台伺服器堆大小 {#section-fd83715948764aeda58d6b3a9f9f8be9}
+## SV::PsHeapSize - [!DNL Platform Server] 堆大小 {#section-fd83715948764aeda58d6b3a9f9f8be9}
 
-平台伺服器的Java堆大小。 預設為&quot; `512m`&quot;(512 MB)。
+的Java堆大小 [!DNL Platform Server]. 預設為「 `512m`「（512兆位元組）。
 
 ## IS::TcpPort, PS::isConnection.port — 映像伺服器偵聽埠 {#section-5421bfd2ca2a4a979faf812b6fdb2887}
 
-指定用於平台伺服器和映像伺服器之間通信的埠。 請務必指定主機系統上未使用的埠號。
+指定用於在 [!DNL Platform Server] 和影像伺服器。 請務必指定主機系統上未使用的埠號。
 
 >[!NOTE]
 >
->為了讓「影像伺服」正常運作，必須為`IS::TcpPort`和`PS::isConnection.port`設定相同的值。
+>為了讓「影像伺服」正常運作，必須為 `IS::TcpPort` 和 `PS::isConnection.port`.
 
 ## IS::PhysicalMemory — 映像伺服器記憶體限制 {#section-85e37aa2ac6e456eb698da716dd3247d}
 

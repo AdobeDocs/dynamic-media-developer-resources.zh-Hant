@@ -5,9 +5,9 @@ title: ImageServing
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 252e12d9-703e-4fbb-a156-8dcdc3bc4f2e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '147'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 2%
    <td colname="col2"> <p> 啟動「伺服器主管」和所有其他「映像服務」元件。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 停止  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 停止 </span> </p> </td> 
    <td colname="col2"> <p> 停止所有映像服務元件，包括伺服器主管。 </p> </td> 
   </tr> 
   <tr> 
@@ -43,12 +43,12 @@ ht-degree: 2%
    <td colname="col2"> <p>重新啟動所有映像服務元件，包括伺服器主管。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 重新啟動{ ps |為 | svg }  </span> </p> </td> 
-   <td colname="col2"> <p> 重新啟動Tomcat/Platform伺服器、影像伺服器或SVG。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 重新啟動{ ps |為 | svg } </span> </p> </td> 
+   <td colname="col2"> <p> 重新啟動Tomcat/[!DNL Platform Server]、影像伺服器或SVG。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 狀態[ ps |為 | svg ]  </span> </p> </td> 
-   <td colname="col2"> <p>返回映像伺服器、Tomcat/Platform伺服器和SVGserver的正常運行時間和當前記憶體使用資訊，或僅返回指定伺服器的狀態；如果伺服器主管未運行，則返回資訊性消息。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 狀態[ ps |為 | svg ] </span> </p> </td> 
+   <td colname="col2"> <p>返回映像伺服器Tomcat/的正常運行時間和當前記憶體使用情況資訊[!DNL Platform Server]、和SVGserver ，或僅指定伺服器的狀態；如果伺服器主管未運行，則返回資訊性消息。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

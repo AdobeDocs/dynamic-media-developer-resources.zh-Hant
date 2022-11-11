@@ -5,9 +5,9 @@ title: 警報閾值
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 1ae76692-2688-4902-82a0-d0751408eee7
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ## AS::monitorAlertGenerator.maxErrorRate — 錯誤響應率閾值AS::monitorAlertGenerator.maxErrorRate — 錯誤響應率 {#section-76ba77fd3102419395e0f86719a1f3ec}
 
-當採樣間隔期間HTTP錯誤響應與總響應的比率超過指定閾值時，會發出錯誤警報。
+當採樣間隔期間HTTP錯誤響應與總響應的比率超過指定閾值時，發出錯誤警報。
 
 0.0和1.0之間的實際值。通常設定為0.005和0.1之間。設為1可禁用錯誤警報。
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 ## AS::monitorAlertGenerator.minFreeHeapSpace -Free Heap Space閾值 {#section-ce6705045f6842769030ccb1894594cc}
 
-指定最小可用Java堆空間。 當可用堆空間低於此閾值時，優先順序警報會在Java垃圾收集週期之後立即發送。 建議50 MB用於平台伺服器的安全操作。 將空閒堆空間保持在此值以上會降低垃圾收集週期的頻率，這可能會提高整體伺服器效能。 以位元組為單位的整數值，0或更大。
+指定最小可用Java堆空間。 當可用堆空間低於此閾值時，優先順序警報會在Java垃圾收集週期之後立即發送。 建議50 MB用於安全操作 [!DNL Platform Server]. 將空閒堆空間保持在此值以上會降低垃圾收集週期的頻率，這可能會提高整體伺服器效能。 以位元組為單位的整數值，0或更大。
 
 ## AS::monitorAlertGenerator.maxOverlap — 最大併發請求數 {#section-ddc6925bff944758ab19bcc9cf3f2589}
 

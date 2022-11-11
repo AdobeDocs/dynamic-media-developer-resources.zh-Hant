@@ -5,9 +5,9 @@ title: 系統需求和先決條件
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ea2dfec9-0a42-4ccb-8442-6f7c4a39eda1
-source-git-commit: c58199c5884c368e92e50fe0ef9d6ad523e36266
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '375'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->具有AMD64和英特爾® EM64T處理器的系統通常配置為NUMA（非統一記憶體架構）平台。 這意味著內核在啟動時構建多個記憶體節點，而不是構建單個記憶體節點。 該多節點結構可導致在一個或多個節點耗盡之前對其它節點耗盡記憶體。 當記憶體耗盡時，內核可以決定終止進程（例如，映像伺服器或平台伺服器），即使記憶體可用。 因此，Adobe Systems建議，如果運行這樣的系統，則關閉NUMA。 使用`numa=off`啟動選項來避免內核停止這些進程。
+>具有AMD64和英特爾® EM64T處理器的系統通常配置為NUMA（非統一記憶體架構）平台。 這意味著內核在啟動時構建多個記憶體節點，而不是構建單個記憶體節點。 該多節點結構可導致在一個或多個節點耗盡之前對其它節點耗盡記憶體。 當記憶體耗盡時，內核可以決定終止進程(例如，映像伺服器或 [!DNL Platform Server])，即使記憶體可用。 因此，Adobe Systems建議，如果運行這樣的系統，則關閉NUMA。 使用 `numa=off` 啟動選項，以避免內核停止這些進程。
 
 **Windows**
 
@@ -40,7 +40,7 @@ ht-degree: 1%
 * 2 GB的可用硬碟空間用於安裝和基本操作，源映像、日誌、資料快取和清單檔案需要額外的磁碟空間。
 * 快速乙太網網路介面卡。
 
-**注意(Linux):** 開啟SELinux時影像伺服無法運作。預設會啟用此選項。 要禁用SELinux，請編輯[!DNL /etc/selinux/config]檔案，並將SELinux值從：
+**注意(Linux):** 開啟SELinux時影像伺服無法運作。 預設會啟用此選項。 要禁用SELinux，請編輯 [!DNL /etc/selinux/config] 檔案，並將SELinux值從：
 
 `SELINUX=enforcing`
 
@@ -48,7 +48,7 @@ ht-degree: 1%
 
 `SELINUX=disabled`
 
-**注意(Linux):** 請確定伺服器的主機名稱可解析為IP位址。如果不能，請按照以下示例將完全限定的主機名和IP地址添加到[!DNL /etc/hosts]中。
+**注意(Linux):** 請確定伺服器的主機名稱可解析為IP位址。 如果無法，請將完全限定的主機名和IP地址添加到 [!DNL /etc/hosts] 如下列範例。
 
 `<ip address> <fully qualified hostname>`
 
@@ -66,4 +66,4 @@ Dynamic Media Image Serving需要下列伺服器軟體。
 * Red Hat® Enterprise 5或CentOS 5.5及更新版本，以及最新的修正修補程式。
 * 64位作業系統。
 
-**注意：** 若要在Windows上使用影像伺服，您必須安裝Microsoft Visual Studio 2010可重新分發。
+**注意：** 若要在Windows上使用Image Serving，您必須安裝Microsoft Visual Studio 2010可重新分發。

@@ -1,24 +1,24 @@
 ---
-description: 快取控制。 可選擇性地停用用戶端快取（瀏覽器、代理伺服器、網路快取系統）和內部Platform伺服器快取中的快取。
+description: 快取控制。 可選擇性地停用內部的用戶端快取（瀏覽器、代理伺服器、網路快取系統）和快取 [!DNL Platform Server] 快取。
 solution: Experience Manager
 title: 快取
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 622c36fa-c209-4149-a7db-85067215b5e5
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '97'
 ht-degree: 0%
 
 ---
 
 # 快取{#cache}
 
-快取控制。 可選擇性地停用用戶端快取（瀏覽器、代理伺服器、網路快取系統）和內部Platform伺服器快取中的快取。
+快取控制。 可選擇性地停用內部的用戶端快取（瀏覽器、代理伺服器、網路快取系統）和快取 [!DNL Platform Server] 快取。
 
 `&cache= *`cacheControl`*`
 
-`&cache= *``*, *`clientControlserverControl`*`
+`&cache= *`clientControl`*, *`serverControl`*`
 
 <table id="simpletable_DA4D92F0AEF84FD49953876796058B7F"> 
  <tr class="strow"> 
@@ -35,8 +35,8 @@ ht-degree: 0%
  </tr> 
 </table>
 
-如果只指定了一個&#x200B;*`cacheControl`*&#x200B;值，則該值將同時應用於客戶端和伺服器快取。
+如果只有一個 *`cacheControl`* 值時，該值將同時應用於客戶端和伺服器快取。
 
-要求屬性。 當要求未傳回回影像時忽略。 *`clientControl`* 當影像目錄停用用戶端快取時(如果 `catalog::Expiration` 有負值)，則會忽略。
+要求屬性。 當要求未傳回回影像時忽略。 *`clientControl`* 當影像目錄停用用戶端快取時，會忽略(如果 `catalog::Expiration` 為負值)。
 
-預設為`cache=on,on`。
+預設為 `cache=on,on`.

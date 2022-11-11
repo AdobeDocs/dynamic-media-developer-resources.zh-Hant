@@ -5,9 +5,9 @@ title: 預設目錄
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: db42fb67-aa6f-4217-bc69-45b01bbd0b10
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
@@ -20,8 +20,8 @@ ht-degree: 0%
 
 此外，當操作中不涉及特定影像目錄時，預設目錄提供所有屬性和資料記錄（宏、字型、ICC配置檔案、請求預處理規則）。
 
-為了正確運行Platform Server，預設目錄的目錄屬性檔案必須命名為[!DNL default.ini]，必須始終存在於目錄資料夾中，並且必須完全填充所有必需屬性，不包括`attribute::RootId`和對各種目錄資料檔案的引用，這些都是可選的。
+為正確運作 [!DNL Platform Server] 預設目錄的目錄屬性檔案必須命名為 [!DNL default.ini]，必須始終存在於目錄資料夾中，且必須以所有必要屬性完全填入，但不包括 `attribute::RootId` 和各種目錄資料檔案的參考，這些都是選用的。
 
 >[!NOTE]
 >
->除[!DNL default.ini]之外的所有目錄屬性檔案都必須包含唯一的`attribute::RootId`值。 `attribute::RootId` 中的 [!DNL default.ini] 必須為空。
+>除外的所有目錄屬性檔案 [!DNL default.ini] 必須包含唯一 `attribute::RootId` 值。 `attribute::RootId` in [!DNL default.ini] 必須為空。

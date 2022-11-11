@@ -5,9 +5,9 @@ title: 刪除或替換源資料檔案
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 9daf8534-a844-4f4a-8e99-8dc751acd550
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,6 @@ ht-degree: 0%
 
 必須停止呈現伺服器才能替換其他資料檔案。
 
-替換材料檔案或暈映時，Platform Server快取條目會自動失效。 替換ICC配置檔案不會使快取無效。
+[!DNL Platform Server] 替換材料檔案或暈映時，快取條目會自動失效。 替換ICC配置檔案不會使快取無效。
 
 為避免替換檔案的複雜性，建議為替換檔案指定新名稱並更新相應的目錄條目。 這可在伺服器上線時取代任何資料檔案，並導致伺服器快取項目自動過期，不需額外干預。 此方法可用於由映像目錄管理的所有資料檔案。

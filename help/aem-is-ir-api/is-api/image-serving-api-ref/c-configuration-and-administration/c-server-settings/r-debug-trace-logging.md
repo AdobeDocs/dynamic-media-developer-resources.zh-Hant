@@ -5,10 +5,10 @@ title: Debug_trace記錄
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: fe1fc984-3c6b-4bd1-b5ba-630860ac7319
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 0%
+source-wordcount: '385'
+ht-degree: 1%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->建議將所有要寫入與`TC::directory`相同的資料夾的日誌檔案配置為。 這可確保所有映像服務日誌檔案都參與配置為`TC::maxDays`的自動日誌檔案旋轉，這將防止由於磁碟空間不足情況而可能出現的伺服器不穩定。
+>建議將所有日誌檔案配置為寫入到與 `TC::directory`. 這可確保所有影像伺服日誌檔案都參與配置為的自動日誌檔案旋轉 `TC::maxDays`，可防止因磁碟空間不足而導致伺服器可能不穩定。
 
 ## SV::log — 伺服器主管跟蹤日誌檔案路徑 {#section-3697bc480ff646e79cacc2812c55ef26}
 
-伺服器主管日誌檔案的資料夾和基本檔案名。 路徑可以是絕對路徑，也可以是相對於&#x200B;*[!DNL install_folder]*&#x200B;的路徑。 伺服器主管將在檔案名中附加連字型大小和當前日期(*[!DNL -yyyy-mm-dd]*)（在檔案尾碼前，如果有）。 建議將所有日誌檔案發送到與Platform Server日誌檔案(`PS::LogFolder`)相同的資料夾，以利用由Platform Server(`PS::LogDays`)實施的日誌檔案管理。 預設為 [!DNL logs/Supervisor.log].
+伺服器主管日誌檔案的資料夾和基本檔案名。 路徑可以是絕對路徑，或相對於 *[!DNL install_folder]*. 伺服器主管將附加連字型大小和當前日期( *[!DNL -yyyy-mm-dd]*)到檔案名稱（在檔案尾碼前，如果有的話）。 建議將所有日誌檔案發送到與 [!DNL Platform Server] 日誌檔案( `PS::LogFolder`)，以運用 [!DNL Platform Server] ( `PS::LogDays`)。 預設為 [!DNL logs/Supervisor.log].
 
 >[!NOTE]
 >
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 ## IS::Log — 映像伺服器調試日誌檔案路徑 {#section-73a3f09b77f2446c9f82207b7d8aec39}
 
-映像伺服器跟蹤日誌檔案的資料夾和基本檔案名。 路徑可以是絕對路徑，也可以是相對於&#x200B;*[!DNL install_folder]*&#x200B;的路徑。 ImageServer將在檔案名中附加連字型大小和當前日期(*[!DNL -yyyy-mm-dd]*)（在檔案尾碼前，如果有）。 建議將映像伺服器日誌檔案發送到與平台伺服器日誌檔案相同的資料夾(`PS::LogFolder`)，以利用平台伺服器實施的日誌檔案管理（請參見`PS::LogDays`）。
+映像伺服器跟蹤日誌檔案的資料夾和基本檔案名。 路徑可以是絕對路徑，或相對於 *[!DNL install_folder]*. ImageServer將附加連字型大小和目前日期( *[!DNL -yyyy-mm-dd]*)到檔案名稱（在檔案尾碼前，如果有的話）。 建議將映像伺服器日誌檔案發送到與 [!DNL Platform Server] 日誌檔案( `PS::LogFolder`)，以運用 [!DNL Platform Server] (請參閱 `PS::LogDays`)。
 
 >[!NOTE]
 >
@@ -44,13 +44,13 @@ ht-degree: 0%
 
 記錄層級可以是1、2、3或4（預設為2）
 
-第1級記錄與啟動、關閉和Platform Server連接相關的事件。
+1級記錄與啟動、關閉和 [!DNL Platform Server] 連線。
 
 第2級還記錄連接和斷開源映像的連接。
 
-第3層新增了像素資料請求記錄，並將其傳送至Platform伺服器。
+第3層新增了記錄像素資料的請求，並將其傳送至 [!DNL Platform Server].
 
-4級記錄從Platform Server接收的所有消息。
+4級記錄從 [!DNL Platform Server].
 
 級別3和級別4隻應用於調試，因為日誌檔案可能會變得非常大。
 

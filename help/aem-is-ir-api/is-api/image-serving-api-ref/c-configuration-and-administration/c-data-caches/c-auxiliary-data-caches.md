@@ -5,9 +5,9 @@ title: 輔助資料快取
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 39906c86-fd9e-4961-a8ba-2ac44c4214a2
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '122'
 ht-degree: 0%
 
 ---
@@ -18,4 +18,4 @@ ht-degree: 0%
 
 從外部HTTP伺服器獲得的影像也儲存在響應資料快取中。 在生成快取條目之前，使用驗證實用程式自動驗證這些影像。
 
-Platform Server會編譯影像目錄資料，以有效存取。 此資料儲存在`CS::CatalogCacheFolder`中。
+此 [!DNL Platform Server] 編譯影像目錄資料以有效存取。 此資料儲存於 `CS::CatalogCacheFolder`.
