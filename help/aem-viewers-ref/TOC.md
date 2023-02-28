@@ -1,20 +1,20 @@
 ---
 cloud: Experience Cloud
-user-guide-title: Dynamic Media 檢視器參考指南
+user-guide-title: Dynamic Media檢視器參考指南
 feature-set: Experience Manager Assets
-user-guide-description: 自訂 Dynamic Media 檢視器以用於桌上型電腦和觸控螢幕裝置。 包括互動式影像和影片、浮動切換、迴轉集等。
+user-guide-description: 自訂Dynamic Media檢視器，以用於桌上型電腦和觸控式螢幕裝置。 包括互動式影像和影片、輪播、回轉集等。
 source-git-commit: 6087b48b898e93e605c3873cbd5132b74d04225f
 workflow-type: tm+mt
 source-wordcount: '2077'
-ht-degree: 6%
+ht-degree: 3%
 
 ---
 
 
-# Dynamic Media 檢視器參考指南 {#library}
+# Dynamic Media檢視器參考指南 {#library}
 
-+ [Dynamic Media 檢視器參考指南](homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en) -->
-+ [檢視器程式庫範例](https://landing.adobe.com/tw/na/dynamic-media/ctir-2755/live-demos.html)
++ [Dynamic Media檢視器參考指南](homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en) -->
++ [檢視器程式庫範例](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 + [系統需求](c-system-requirements-and-prerequisites.md)
 + [在同一伺服器上安裝多個檢視器](t-installing-the-viewers.md)
 + 檢視器發行說明 {#viewers-release-notes}
@@ -314,8 +314,8 @@ ht-degree: 6%
       + [下載](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-download.md)
       + [搜尋功能](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-favorites-feature.md)
       + [檢視器SDK命名空間](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-html5-viewer-sdk-namespace.md)
-   + 彈出 {#flyout}
-      + [彈出](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-about.md)
+   + 飛出 {#flyout}
+      + [飛出](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-about.md)
       + 命令參考 — 配置屬性 {#command-reference-configuration-attributes-flyout}
          + [命令參考 — 配置屬性](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/r-html5-flyout-viewer-20-conf-attrib/r-html5-flyout-viewer-20-conf-attrib.md)
          + [FlyoutZoomView.flyouttransition](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/r-html5-flyout-viewer-20-conf-attrib/r-html5-flyout-viewer-20-conf-attrib-flyoutzoomview-flyouttransition.md)
@@ -485,7 +485,7 @@ ht-degree: 6%
          + [關閉按鈕](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-closebutton.md)
          + [色票](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-colorswatches.md)
          + [控制欄](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-controlbar.md)
-         + [彈出縮放檢視](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-flyout-zoom-view.md)
+         + [彈出縮放視圖](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-flyout-zoom-view.md)
          + [焦點醒目提示](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-focushighlight.md)
          + [全螢幕按鈕](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-fullscreenbutton.md)
          + [主色票](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-mainswatches.md)

@@ -2,11 +2,11 @@
 cloud: Experience Cloud
 user-guide-title: Dynamic Media Image Production System API
 feature-set: Experience Manager Assets
-user-guide-description: IPS (影像生產系統) Web 服務 API 可讓外部應用程式和協力廠商開發人員以程式設計方式存取 IPS 資產和功能。
+user-guide-description: IPS(Image Production System)Web服務API使外部應用程式和第三方開發人員能夠以寫程式方式訪問IPS資產和功能。
 source-git-commit: 72f9cd1b1de82cbeeb8d41fb0f1cf0b51744a8a3
 workflow-type: tm+mt
 source-wordcount: '647'
-ht-degree: 9%
+ht-degree: 2%
 
 ---
 
@@ -259,7 +259,7 @@ ht-degree: 9%
    + [ImageFormat](types/c-data-types/r-image-format.md)
    + [ImageFormatArray](types/c-data-types/r-image-format-array.md)
    + [ImageInfo](types/c-data-types/r-image-info.md)
-   + [影像地圖](types/c-data-types/r-image-map.md)
+   + [ImageMap](types/c-data-types/r-image-map.md)
    + [ImageMapArray](types/c-data-types/r-image-map-array.md)
    + [ImageMapDefinition](types/c-data-types/r-image-map-definition.md)
    + [ImageMapDefinitionArray](types/c-data-types/r-image-map-definition-array.md)
@@ -393,7 +393,7 @@ ht-degree: 9%
    + [ZipEntry](types/c-data-types/r-zip-entry.md)
    + [ZipEntryArray](types/c-data-types/r-zip-entry-array.md)
    + [ZipInfo](types/c-data-types/r-zip-info.md)
-   + [縮放目標](types/c-data-types/r-zoom-target.md)
+   + [ZoomTarget](types/c-data-types/r-zoom-target.md)
    + [ZoomTargetArray](types/c-data-types/r-zoom-target-array.md)
    + [ZoomTargetDefinition](types/c-data-types/r-zoom-target-definition.md)
    + [ZoomTargetDefinitionArray](types/c-data-types/r-zoom-target-definition-array.md)
