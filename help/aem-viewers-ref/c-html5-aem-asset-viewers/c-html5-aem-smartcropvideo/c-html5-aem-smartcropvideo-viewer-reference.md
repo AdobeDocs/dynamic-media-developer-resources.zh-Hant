@@ -6,16 +6,16 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 937be8a2-307e-47bb-9fc8-d354f780a214
-source-git-commit: fbc7d7394614c0c22ab70207f2b55cd062bcd4e7
+source-git-commit: 96504ebdc86ff81e9ce69e2d708ede1d0a88d9b5
 workflow-type: tm+mt
-source-wordcount: '2408'
+source-wordcount: '2403'
 ht-degree: 0%
 
 ---
 
 # 智慧型裁切視訊{#smart-crop-video}
 
-智慧型裁切視訊檢視器是視訊播放器，除了新增智慧型裁切支援外，還會播放以H.264格式編碼的串流和漸進式視訊。 它是從Dynamic Media Classic或透過Dynamic MediaExperience Manager提供。
+智慧型裁切視訊檢視器會播放以H.264格式編碼的串流和漸進式視訊，並新增智慧型裁切支援。 它是從Dynamic Media Classic或透過Dynamic MediaExperience Manager提供。
 
 請參閱 [系統需求和先決條件](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
@@ -291,7 +291,7 @@ var smartCropVideoViewer = new s7viewers.SmartCropVideoViewer({
 
 下列範例頁面說明在實際中更多使用高度不受限制的回應式設計內嵌：
 
-[即時演示](https://landing.adobe.com/tw/na/dynamic-media/ctir-2755/live-demos.html)
+[即時演示](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
 [替代演示位置](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
