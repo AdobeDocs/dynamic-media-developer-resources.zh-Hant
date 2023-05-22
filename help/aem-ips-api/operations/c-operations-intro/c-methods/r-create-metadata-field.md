@@ -44,25 +44,25 @@ ht-degree: 13%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 資產類型</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd：字串</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 資產類型. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 名稱</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd：字串</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 正在建立的元資料欄位的名稱。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 欄位類型</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd：字串</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4">元資料欄位類型。 <p>元資料欄位類型常數定義可用類型。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd：字串</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> <p>要建立的元資料欄位的預設值(例如， <span class="codeph"> 場景7</span>)。 </p> <p>標籤欄位類型不支援預設值，必須省略。 如果為標籤欄位類型指定了非空預設值，則返回錯誤。 </p> </td> 
   </tr> 
@@ -74,13 +74,13 @@ ht-degree: 13%
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"><span class="varname"> 強制</span></span> </td> 
-   <td colname="col2"><span class="codeph"> xsd：布爾</span> </td> 
+   <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
    <td colname="col4"> <p>一個布爾標誌，指示在設定值時是否強制（驗證）元資料欄位。 </p> <p>如果設定為true，則如果在中設定了非法值，則會拋出錯誤 <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 初始標籤值</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd：字串</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 允許您建立一組共用枚舉值，選定標籤可以指向這些值。 </td> 
   </tr> 

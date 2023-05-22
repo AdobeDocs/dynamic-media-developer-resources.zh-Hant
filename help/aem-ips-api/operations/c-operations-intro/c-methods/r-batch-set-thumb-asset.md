@@ -8,7 +8,7 @@ exl-id: f7d7ddd9-a3c3-47c4-8da6-d693851d0d7f
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '171'
-ht-degree: 14%
+ht-degree: 12%
 
 ---
 
@@ -23,8 +23,8 @@ ht-degree: 14%
 允許的縮略圖資產類型包括：
 
 * 影像
-* 調整後的檢視
-* 遮色片
+* 已調整視圖
+* 蒙版
 * 範本
 * Psd模板
 

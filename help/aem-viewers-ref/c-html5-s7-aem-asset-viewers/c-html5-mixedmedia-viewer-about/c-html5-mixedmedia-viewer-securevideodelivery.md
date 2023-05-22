@@ -22,7 +22,7 @@ ht-degree: 0%
 
 根據您在Adobe Experience Manager使用的Dynamic Media視頻發佈方法， `VideoPlayer.ssl` 配置屬性的應用方式不同，如下所示：
 
-* 如果發佈帶有URL的Dynamic Media視頻，則會追加 `VideoPlayer.ssl` 的子菜單。 例如，要強制安全視頻傳送，請追加 `&VideoPlayer.ssl=on` 到以下查看器URL示例的結尾：
+* 如果發佈帶有URL的Dynamic Media視頻，則會追加 `VideoPlayer.ssl` 的子菜單。 例如，要強制安全視頻傳送，請追加 `&VideoPlayer.ssl=on` 到以下查看器URL示例的末尾：
 
    ```
    https://demos-pub.assetsadobe.com/etc/dam/viewers/s7viewers/html5/MixedMediaViewer.html?asset=%2Fcontent%2Fdam%2FGeometrixx-Outdoors-New-Launch%2Fbackpack%2Fbackpack_mixed_media&config=/etc/dam/presets/viewer/MixedMedia_light&serverUrl=https%3A%2F%2Fadobedemo62-h.assetsadobe.com%2Fis%2Fimage%2F&contenturl=%2F&config2=/etc/dam/presets/analytics&videoserverurl=https://gateway-na.assetsadobe.com/DMGateway/public/demoCo&VideoPlayer.ssl=on

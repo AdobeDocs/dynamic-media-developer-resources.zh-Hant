@@ -1,47 +1,47 @@
 ---
-title: 視訊播放器
-description: 視訊播放器是觀看者中顯示視訊內容的矩形區域。
+title: 視頻播放器
+description: 視頻播放器是在觀看者內顯示視頻內容的矩形區域。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 9cfeceff-f6bd-42d9-9b85-456bbaa278fd
 source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '293'
+ht-degree: 1%
 
 ---
 
-# 視訊播放器{#video-player}
+# 視頻播放器{#video-player}
 
-視訊播放器是觀看者中顯示視訊內容的矩形區域。
+視頻播放器是在觀看者內顯示視頻內容的矩形區域。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-如果正在播放的視訊的維度與視訊播放器的維度不符，視訊內容會置於視訊播放器的矩形顯示區域中。
+如果正在播放的視頻的尺寸與視頻播放器的尺寸不匹配，則視頻內容將居中在視頻播放器的矩形顯示區域內。
 
-下列CSS類別選取器會控制視訊播放器的外觀：
+以下CSS類選擇器控制視頻播放器的外觀：
 
 ```
 .s7interactivevideoviewer .s7videoplayer
 ```
 
-**視訊播放器的CSS屬性**
+**視頻播放器的CSS屬性**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景顏色  </span> </p> </td> 
-   <td colname="col2"> <p>主檢視的背景顏色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
+   <td colname="col2"> <p>主視圖的背景顏色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-您可以將系統無法播放視訊時顯示的錯誤訊息當地化。
+您可以在系統無法播放視頻時本地化顯示的錯誤消息。
 
-請參閱[使用者介面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)。
+請參閱 [用戶介面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)。
 
-範例：若要設定視訊播放器大小設為512 x 288像素的視訊檢視器。
+示例 — 將視頻播放器大小設定為512 x 288像素設定視頻查看器。
 
 ```
 .s7interactivevideoviewer .s7videoplayer{ 
@@ -49,40 +49,40 @@ background-color: transparent;
 }
 ```
 
-隱藏式字幕會放入視訊播放器內的內部容器中。 該容器的位置由支援的WebVTT定位操作器控制。 註解文字本身位於該容器內，其樣式由下列CSS類別選取器控制：
+隱藏字幕被放入視頻播放器內部的容器中。 該容器的位置由支援的WebVTT定位操作員控制。 標題文本本身位於該容器內，其樣式由以下CSS類選擇器控制：
 
 `.s7interactivevideoviewer .s7videoplayer .s7caption`
 
-**隱藏式字幕的CSS屬性**
+**隱藏字幕的CSS屬性**
 
 <table id="table_960E0D4FB91748FF9FC73C925B81879C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景顏色  </span> </p> </td> 
-   <td colname="col2"> <p>隱藏式字幕文本背景。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
+   <td colname="col2"> <p>隱藏字幕文本背景。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p>隱藏式字幕文本顏色。 </p> </td> 
+   <td colname="col2"> <p>關閉標題文本顏色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型粗細  </span> </p> </td> 
-   <td colname="col2"> <p> 隱藏式字幕字型寬度。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字型粗細 </span> </p> </td> 
+   <td colname="col2"> <p> 隱藏字幕字型粗細。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型大小  </span> </p> </td> 
-   <td colname="col2"> <p> 隱藏式字幕字型大小。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字型大小 </span> </p> </td> 
+   <td colname="col2"> <p> 隱藏標題字型大小。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型系列  </span> </p> </td> 
-   <td colname="col2"> <p>隱藏式字幕字型。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字型系列 </span> </p> </td> 
+   <td colname="col2"> <p>隱藏標題字型。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 範例 {#section-5b82913ff3c44b7b8187969cb15e9560}
 
-要將隱藏式字幕文本設定為14像素、淺灰色、Arial®，在半透明黑色背景上：
+要在半透明黑色背景上將隱藏字幕文本設定為14像素、淺灰色、Arial®:
 
 ```
 .s7interactivevideoviewer .s7videoplayer .s7caption { 
@@ -94,7 +94,7 @@ background-color: transparent;
 }
 ```
 
-緩衝動畫的外觀由以下CSS類選擇器控制：
+使用以下CSS類選擇器控制緩衝動畫的外觀：
 
 ```
 .s7interactivevideoviewer .s7videoplayer .s7waiticon
@@ -119,21 +119,21 @@ background-color: transparent;
    <td colname="col2"> <p> 動畫表徵圖高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 左邊距  </span> </p> </td> 
-   <td colname="col2"> <p> 動畫表徵圖左邊距，通常為表徵圖寬度的一半減去。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 左邊距 </span> </p> </td> 
+   <td colname="col2"> <p> 動畫表徵圖左邊距，通常減去表徵圖寬度的一半。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 邊距上  </span> </p> </td> 
-   <td colname="col2"> <p> 動畫表徵圖的頂邊，通常為表徵圖高度的一半減去。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 上邊距 </span> </p> </td> 
+   <td colname="col2"> <p> 動畫表徵圖的上邊距，通常減去表徵圖高度的一半。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景 — 影像  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景影像 </span> </p> </td> 
    <td colname="col2"> <p> 旋鈕圖稿。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-範例：若要將緩衝動畫設定為101像素寬、29像素高：
+示例 — 要將緩衝動畫設定為寬101像素，高29像素：
 
 ```
 .s7interactivevideoviewer .s7videoplayer .s7waiticon { 

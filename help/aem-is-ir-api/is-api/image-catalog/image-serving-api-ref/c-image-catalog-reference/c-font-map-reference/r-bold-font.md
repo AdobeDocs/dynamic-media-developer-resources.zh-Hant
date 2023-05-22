@@ -1,5 +1,5 @@
 ---
-description: 粗體旗。 指定當RTF粗體命令(\b)請求時，是否應使用此字型映射記錄引用的字型檔案。
+description: 黑臉旗。 指定在RTF粗體面命令(\b)請求時是否應使用此字型映射記錄引用的字型檔案。
 solution: Experience Manager
 title: 粗體
 feature: Dynamic Media Classic,SDK/API
@@ -7,18 +7,18 @@ role: Developer,User
 exl-id: 3a39bb3b-e518-400e-8e24-0ebfb55777c4
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 9%
+source-wordcount: '67'
+ht-degree: 8%
 
 ---
 
 # 粗體{#bold}
 
-粗體旗。 指定當RTF粗體命令(\b)請求時，是否應使用此字型映射記錄引用的字型檔案。
+黑臉旗。 指定在RTF粗體面命令(\b)請求時是否應使用此字型映射記錄引用的字型檔案。
 
 ## 屬性 {#section-f2727dd66f7c41ee9602872a104d25b1}
 
-標幟. 字型映射的可選次索引鍵。
+標幟. 字型映射的可選輔助索引鍵。
 
 ## 預設 {#section-ee7e72f864c5463b963b4b2b513bfad7}
 

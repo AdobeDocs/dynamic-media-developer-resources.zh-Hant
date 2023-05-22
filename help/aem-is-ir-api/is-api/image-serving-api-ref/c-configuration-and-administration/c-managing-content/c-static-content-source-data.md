@@ -1,7 +1,7 @@
 ---
-description: 靜態內容源資料檔案僅由 [!DNL Platform Server].
+description: 僅由 [!DNL Platform Server]。
 solution: Experience Manager
-title: 靜態內容來源資料
+title: 靜態內容源資料
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 3cf01fc2-c925-4039-8e03-cb909cca6a51
@@ -12,18 +12,18 @@ ht-degree: 0%
 
 ---
 
-# 靜態內容來源資料{#static-content-source-data}
+# 靜態內容源資料{#static-content-source-data}
 
-靜態內容源資料檔案僅由 [!DNL Platform Server].
+僅由 [!DNL Platform Server]。
 
 靜態內容資料檔案的路徑解析如下：
 
 `PS::staticContent.rootPaths/attribute::StaticContentRootPath/static::Path`
 
-伺服器會從右到左組合路徑段，直到建立絕對檔案路徑為止。
+伺服器從右到左組合路徑段，直到建立絕對檔案路徑。
 
-全部 ` *[!DNL rootPath]*` 區段可以是空、相對或絕對路徑區段。
+全部 ` *[!DNL rootPath]*` 段可以是空的、相對的或絕對的路徑段。
 
 ` *[!DNL catalogPath]*` 是絕對或相對檔案路徑/名稱。 *[!DNL requestPath]* 必須是相對檔案路徑/名稱。
 
-多個 `PS::staticContent.rootPaths` 值可在中定義 [!DNL PlatformServer.conf]. 這允許源資料檔案跨多個檔案系統分發。 此 [!DNL Platform Server] 將按指定順序嘗試替代路徑，直到找到資料檔案為止。
+多重 `PS::staticContent.rootPaths` 值可以在中定義 [!DNL PlatformServer.conf]。 這允許源資料檔案跨多個檔案系統分發。 的 [!DNL Platform Server] 將按指定的順序嘗試備用路徑，直到找到資料檔案。

@@ -1,6 +1,6 @@
 ---
 title: VideoPlayer.waiticon
-description: 互動式視訊檢視器的設定屬性。
+description: Interactive Video Viewer的配置屬性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -8,13 +8,13 @@ exl-id: 0495aaa5-7c5e-4f56-a96c-80ebc5de3aec
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
 source-wordcount: '27'
-ht-degree: 18%
+ht-degree: 14%
 
 ---
 
 # VideoPlayer.waiticon{#videoplayer-waiticon}
 
-互動式視訊檢視器的設定屬性。
+Interactive Video Viewer的配置屬性。
 
 `[VideoPlayer.|<containerId>_videoPlayer.]waiticon=0|1`
 
@@ -29,7 +29,7 @@ ht-degree: 18%
 
 ## 屬性 {#section-f42369774e2740dcb399626a0e4e930e}
 
-選填。
+選擇性.
 
 ## 預設 {#section-d016470e92a74f98a18c4ab3489410a5}
 

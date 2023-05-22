@@ -8,7 +8,7 @@ exl-id: f08545fd-f039-41a1-ad0b-430ce7c1bdd1
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
 source-wordcount: '184'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -21,15 +21,15 @@ ht-degree: 2%
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 上|下|左|右|fit-vertical|fit-lateral</span> </p> </td> 
-   <td colname="col2"> <p> 設為時 <span class="codeph"> up</span>, <span class="codeph"> down</span>, <span class="codeph"> lef</span>，或 <span class="codeph"> 右</span>，面板沿指定方向滾出，而不需要額外的邊界檢查，這會導致外部容器修剪面板。 </p> <p>設為時 <span class="codeph"> 垂直擬合</span>，元件會先將底板位置移至「我的最愛」功能表的底部。 它會嘗試從此基座位置沿下列其中一個方向展開面板：下，右，左。 每次嘗試時，元件都會檢查面板是否被外部容器修剪。 如果所有嘗試都失敗，元件會嘗試將基板位置移至頂端，並從上、右和左方向重複滾出嘗試。 </p> <p>設為時 <span class="codeph"> 側向擬合</span>，元件會使用類似的邏輯。 底座首先向右移動，向右、向下和向上展開。 然後，它把底座向左移動，嘗試左、下、上滾方向。 </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> 上|下|左|右|擬垂直|擬側</span> </p> </td> 
+   <td colname="col2"> <p> 設定為時 <span class="codeph"> 向上</span>。 <span class="codeph"> 向下</span>。 <span class="codeph"> 左</span>或 <span class="codeph"> 右</span>，面板在指定方向上滾出而不進行額外邊界檢查，這會導致面板被外部容器夾斷。 </p> <p>設定為時 <span class="codeph"> 垂直</span>，元件首先將基面板位置移到「收藏夾」菜單的底部。 它嘗試從此基地位置沿下列方向之一展開面板：下，右，左。 每次嘗試時，元件都會檢查面板是否被外部容器夾住。 如果所有嘗試都失敗，則元件將嘗試將基板位置移到頂部，並從頂部、右側和左側重複展開嘗試。 </p> <p>設定為時 <span class="codeph"> 擬合側</span>，該元件使用類似的邏輯。 底座首先向右移動，向右、向下和向上展開。 然後，它把底座向左移，試著向左、向下和向上展開方向。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 屬性 {#section-f42369774e2740dcb399626a0e4e930e}
 
-選填。
+選擇性.
 
 ## 預設 {#section-d016470e92a74f98a18c4ab3489410a5}
 

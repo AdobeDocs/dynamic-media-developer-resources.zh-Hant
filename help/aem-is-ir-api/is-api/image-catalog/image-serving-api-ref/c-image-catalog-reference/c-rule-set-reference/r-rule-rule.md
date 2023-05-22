@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 4fabd469-c80c-422a-80b0-3d31ce191d58
 source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '297'
+ht-degree: 6%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th class="entry"> <p><b>代號</b> </p> </th> 
-   <th class="entry"> <p><b>內容</b> </p> </th> 
+   <th class="entry"> <p><b>上下文</b> </p> </th> 
    <th class="entry"> <p><b>說明</b> </p> </th> 
   </tr> 
  </thead>

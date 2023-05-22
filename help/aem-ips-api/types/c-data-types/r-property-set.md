@@ -23,5 +23,5 @@ ht-degree: 13%
 | 名稱 | 類型 | 說明 |
 |---|---|---|
 | setHandle | `xsd:string` | 屬性集句柄。 |
-| typeHandle | `xsd:string` | 處理屬性集類型。 |
-| propertyArray | `types:PropertyArray` | 名稱值組。 可以包含零個項目。 |
+| 類型句柄 | `xsd:string` | 屬性集類型的句柄。 |
+| 屬性Array | `types:PropertyArray` | 名稱 — 值對。 可以包含零個項。 |

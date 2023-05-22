@@ -1,7 +1,7 @@
 ---
-description: ZoomTargetDefinitionArray
+description: 縮放目標定義陣列
 solution: Experience Manager
-title: ZoomTargetDefinitionArray
+title: 縮放目標定義陣列
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c5e89967-8800-4323-9cd8-d3e4a4ccaae3

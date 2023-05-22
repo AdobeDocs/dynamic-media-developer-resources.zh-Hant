@@ -8,7 +8,7 @@ exl-id: 12b15969-c633-4593-9674-dbb9ef36ca60
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
 source-wordcount: '40'
-ht-degree: 22%
+ht-degree: 20%
 
 ---
 
@@ -22,14 +22,14 @@ Video360查看器的配置屬性。
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 指出檢視器是否在載入時開始播放視訊。 某些系統（例如某些行動裝置）可能不支援自動播放。 </p> </td> 
+   <td colname="col2"> <p> 指示查看器是否在載入時開始播放視頻。 某些系統（如某些移動設備）可能不支援自動播放。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 屬性 {#section-1e637b22e8a44d759d588e47576891e6}
 
-選填。
+選擇性.
 
 ## 預設 {#section-71fb773f814649b2885aefee68073641}
 

@@ -1,6 +1,6 @@
 ---
-title: 輔助控制條
-description: 次要控制列是矩形區域，當在CSS中提供使用時，其中包含「第一頁」和「最後一頁」按鈕以及「頁面指示器」。
+title: 輔助控制欄
+description: 輔助控制欄是矩形區域，當在CSS中提供時，該區域包含「第一頁」和「最後一頁」按鈕以及「頁面指示器」。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
@@ -12,11 +12,11 @@ ht-degree: 2%
 
 ---
 
-# 輔助控制條{#secondary-control-bar}
+# 輔助控制欄{#secondary-control-bar}
 
-次要控制列是矩形區域，當在CSS中提供使用時，其中包含「第一頁」和「最後一頁」按鈕以及「頁面指示器」。
+輔助控制欄是矩形區域，當在CSS中提供時，該區域包含「第一頁」和「最後一頁」按鈕以及「頁面指示器」。
 
-依預設，它只會顯示在行動電話上，顯示在檢視器底部。 它一律會佔用整個可用的檢視器寬度。 您可以透過CSS相對於檢視器容器來變更其顏色、高度和垂直位置。
+預設情況下，它僅顯示在查看器底部的行動電話上。 它始終佔用整個可用查看器寬度。 可以通過CSS相對於查看器容器更改其顏色、高度和垂直位置。
 
 輔助控制欄的外觀由以下CSS類選擇器控制：
 
@@ -32,24 +32,24 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 頂部 </span> </p> </td> 
-   <td colname="col2"> <p>從檢視器頂端的位置。 </p> </td> 
+   <td colname="col2"> <p>從查看器頂部的位置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 底部 </span> </p> </td> 
-   <td colname="col2"> <p>從檢視器底部的位置。 </p> </td> 
+   <td colname="col2"> <p>從查看器底部定位。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>主控制欄的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景顏色 </span> </p> </td> 
-   <td colname="col2"> <p>輔助控制條的背景顏色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
+   <td colname="col2"> <p>輔助控制欄的背景色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-範例：設定高度為72像素且位於檢視器容器底部的灰色次要控制列。
+示例 — 設定一個灰色輔助控制欄，該欄高72像素，位於查看器容器的底部。
 
 ```
 .s7ecatalogsearchviewer .s7secondarycontrols .s7controlbar {  

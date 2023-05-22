@@ -8,7 +8,7 @@ exl-id: 6367245a-be55-4b7e-bf9e-da4a0ecb556b
 source-git-commit: 61e3a1fd0e21d336eaf5232096f5b1b54f2a6353
 workflow-type: tm+mt
 source-wordcount: '137'
-ht-degree: 6%
+ht-degree: 2%
 
 ---
 
@@ -48,11 +48,11 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p>文字色彩. </p> </td> 
+   <td colname="col2"> <p>文本顏色。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 字型系列 </span> </p> </td> 
-   <td colname="col2"> <p>文字字型名稱. </p> </td> 
+   <td colname="col2"> <p>文本字型名稱。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 字型大小 </span> </p> </td> 

@@ -8,7 +8,7 @@ exl-id: 916ee5d1-e398-4923-9107-96f649033298
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
 source-wordcount: '65'
-ht-degree: 6%
+ht-degree: 4%
 
 ---
 
@@ -19,15 +19,15 @@ ht-degree: 6%
 <table id="table_4620F51BD77149FDB68F1FBECC443801"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif|alpha</span> </p> </td> 
-   <td> <p>指定元件用於從影像伺服器載入影像的影像格式。 它可以是影像伺服器和用戶端瀏覽器支援的任何值。 如果指定的格式結尾為 <span class="codeph"> -α</span>，元件會將影像轉譯為透明內容。 對於所有其他影像格式，元件將影像視為不透明。 </p> </td> 
+   <td> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
+   <td> <p>指定元件用於從Image Server載入影像的影像格式。 它可以是Image Server和客戶端瀏覽器支援的任何值。 如果指定的格式以 <span class="codeph"> -α</span>，元件將影像渲染為透明內容。 對於所有其它影像格式，元件將影像視為不透明。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 屬性 {#section-ffe8ccc3a5f2474db47a68c2ad9a96d6}
 
-選填。
+選擇性.
 
 ## 預設 {#section-502c098dbae1452180c7f575a1d9dc8b}
 

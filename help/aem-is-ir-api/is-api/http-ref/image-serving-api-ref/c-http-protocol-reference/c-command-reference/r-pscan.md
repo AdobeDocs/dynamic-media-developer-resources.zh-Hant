@@ -1,32 +1,32 @@
 ---
-description: 漸進式JPEG掃描。 漸進式JPEG以這樣的方式顯示影像，使得它最初顯示整體的模糊/低質量照片。 隨著掃描通過繼續，隨著影像資料的更完整下載，會更清楚。 此參數可讓您設定整個影像要顯示所花費的掃描數（3、4或5）。
+description: 逐行JPEG掃描。 逐行JPEG顯示影像，其方式是最初顯示整張模糊/低質量照片。 隨著掃描過程的繼續，隨著影像資料的下載更加完全，掃描過程變得更加清晰。 通過此參數，可以設定掃描（3、4或5）以顯示整個影像的次數。
 solution: Experience Manager
-title: pscan
+title: 掃描
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1afd3a60-e0b6-47d1-b7e4-98a3145782a2
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 2%
+source-wordcount: '212'
+ht-degree: 1%
 
 ---
 
-# pscan{#pscan}
+# 掃描{#pscan}
 
-漸進式JPEG掃描。 漸進式JPEG以這樣的方式顯示影像，使得它最初顯示整體的模糊/低質量照片。 隨著掃描通過繼續，隨著影像資料的更完整下載，會更清楚。 此參數可讓您設定整個影像要顯示所花費的掃描數（3、4或5）。
+逐行JPEG掃描。 逐行JPEG顯示影像，其方式是最初顯示整張模糊/低質量照片。 隨著掃描過程的繼續，隨著影像資料的下載更加完全，掃描過程變得更加清晰。 通過此參數，可以設定掃描（3、4或5）以顯示整個影像的次數。
 
 `pscan=auto|3|4|5`
 
 每個掃描的實際速度取決於用戶系統和接收和解壓縮資料的電腦的傳輸速度。
 
-`Auto` 使用由獨立JPEG庫計算並取決於顏色模型的掃描設定。`3`、`4`、`5`的值對應於將JPEG檔案另存為pjpeg（漸進式JPEG）時在Adobe Photoshop中找到的「掃描」設定。
+`Auto` 使用由獨立JPEG庫計算並取決於顏色模型的掃描設定。 值 `3`。 `4`。 `5` 與將JPEG檔案另存為pjpeg(漸進JPEG)時在Adobe Photoshop找到的掃描設定相對應。
 
-如果未設定`pscan`，則預設值為`auto`。
+如果 `pscan` 未設定，它預設為 `auto`。
 
 ## 屬性 {#section-e36aa3c63a974b969d9e4f43fe5a37ab}
 
-要求屬性。 無論目前的層設定為何，都適用。 如果輸出格式不是漸進式JPEG，則忽略。
+請求屬性。 無論當前圖層設定如何都適用。 如果輸出格式不是累進JPEG，則忽略。
 
 ## 預設 {#section-01948f6cd7a2415091004cd7526436c7}
 

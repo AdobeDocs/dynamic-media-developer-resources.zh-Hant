@@ -1,5 +1,5 @@
 ---
-description: 縮圖影像更新。
+description: 縮略圖影像更新。
 solution: Experience Manager
 title: ThumbAssetUpdate
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,7 +14,7 @@ ht-degree: 26%
 
 # [!DNL ThumbAssetUpdate]{#thumbassetupdate}
 
-縮圖影像更新。
+縮略圖影像更新。
 
 語法
 
@@ -22,5 +22,5 @@ ht-degree: 26%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| assetHandle | `xsd:string` | 資產控制代碼。 |
-| thumbAssetHandle | `xsd:string` | 縮圖資產控點。 |
+| 資產句柄 | `xsd:string` | 資產句柄。 |
+| 拇指資產句柄 | `xsd:string` | 拇指資產句柄。 |

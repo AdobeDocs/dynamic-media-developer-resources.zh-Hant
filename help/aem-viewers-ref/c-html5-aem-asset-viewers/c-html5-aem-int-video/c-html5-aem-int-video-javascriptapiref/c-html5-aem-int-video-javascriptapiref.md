@@ -1,6 +1,6 @@
 ---
-title: 互動式視訊檢視器的JavaScript API參考
-description: 互動式影像檢視器的主要類別為InteractiveVideoViewer。 會在s7viewers命名空間中宣告。 此JavaScript API涵蓋建構函式、方法及此特定類別的回呼。
+title: Interactive Video Viewer的JavaScript API參考
+description: 互動式影像查看器的主類是InteractiveVideoViewer。 它在s7vievers命名空間中聲明。 此JavaScript API涵蓋此特定類的建構子、方法和回調。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# 互動式視訊檢視器的JavaScript API參考{#javascript-api-reference-for-interactive-image-viewer}
+# Interactive Video Viewer的JavaScript API參考{#javascript-api-reference-for-interactive-image-viewer}
 
-互動式視訊檢視器的主要類別為`InteractiveVideoViewer`。 會在s7viewers命名空間中宣告。 此JavaScript API涵蓋建構函式、方法及此特定類別的回呼。
+互動式視頻查看器的主類是 `InteractiveVideoViewer`。 它在s7vievers命名空間中聲明。 此JavaScript API涵蓋此特定類的建構子、方法和回調。
 
-在以下所有範例中， `<instance>`代表從`s7viewers.InteractiveVideoViewer`類別實例化的JavaScript檢視器物件的實際名稱。
+在以下所有示例中， `<instance>` 表示從實例化的JavaScript查看器對象的實際名稱 `s7viewers.InteractiveVideoViewer` 類。

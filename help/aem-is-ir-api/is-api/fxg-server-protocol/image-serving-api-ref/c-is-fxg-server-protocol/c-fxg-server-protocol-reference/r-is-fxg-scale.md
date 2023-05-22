@@ -1,5 +1,5 @@
 ---
-description: 縮放影像。 相對於全解析度影像逐個縮放影像。
+description: 縮放影像。 相對於全解析度影像按因子縮放影像。
 solution: Experience Manager
 title: scale
 feature: Dynamic Media Classic,SDK/API
@@ -7,14 +7,14 @@ role: Developer,User
 exl-id: 89701a15-a0b6-460d-b0c1-5e25f3305380
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 8%
+source-wordcount: '42'
+ht-degree: 9%
 
 ---
 
-# 比例{#scale}
+# scale{#scale}
 
-縮放影像。 相對於全解析度影像逐個縮放影像。
+縮放影像。 相對於全解析度影像按因子縮放影像。
 
 `scale= *`因子`*`
 
@@ -27,7 +27,7 @@ ht-degree: 8%
 
 ## 預設 {#section-e9e53959b35844579f0f1d7721b71f8e}
 
-如果未指定，則使用影像時不縮放。
+如果未指定，則使用影像而不進行縮放。
 
 ## 範例 {#section-d5526953d6434c58bb2388bd936c13b5}
 

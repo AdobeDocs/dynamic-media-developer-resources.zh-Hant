@@ -55,13 +55,13 @@ ht-degree: 15%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> accessUserHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd：字串</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 以其他用戶身份提供訪問。 僅適用於管理員。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> accessGroupHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd：字串</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 用於按特定組篩選。 </td> 
   </tr> 

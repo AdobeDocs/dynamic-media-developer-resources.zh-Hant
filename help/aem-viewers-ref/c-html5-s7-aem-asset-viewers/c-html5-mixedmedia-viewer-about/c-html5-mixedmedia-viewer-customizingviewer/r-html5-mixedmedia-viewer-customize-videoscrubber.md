@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 3e9c8800-fda2-41d1-8436-b2de7952652c
 source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '357'
+ht-degree: 3%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 <table id="table_46903DCACF314426B67783167ADF7715"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>相應軌道的高度。 </p> </td> 
   </tr> 
   <tr> 
@@ -93,7 +93,7 @@ ht-degree: 0%
    <td colname="col2"> <p>旋鈕的寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>旋鈕的高度。 </p> </td> 
   </tr> 
   <tr> 
@@ -130,11 +130,11 @@ ht-degree: 0%
    <td colname="col2"> <p> 用於時間顯示文本的字型顏色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>氣泡區域寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>氣泡區高度。 </p> </td> 
   </tr> 
   <tr> 

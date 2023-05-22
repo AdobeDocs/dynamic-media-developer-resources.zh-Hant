@@ -1,7 +1,7 @@
 ---
-description: 中繼資料條件的陣列。
+description: 元資料條件的陣列。
 solution: Experience Manager
-title: MetadataConditionArray
+title: 元資料條件陣列
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: bcc7631b-cff3-4cbb-ae3e-f6e0fb670ee0
@@ -14,7 +14,7 @@ ht-degree: 27%
 
 # [!DNL MetadataConditionArray]{#metadataconditionarray}
 
-中繼資料條件的陣列。
+元資料條件的陣列。
 
 語法
 
@@ -22,4 +22,4 @@ ht-degree: 27%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 項目 | `types:MetadataCondition` | 中繼資料條件的陣列。 |
+| 項目 | `types:MetadataCondition` | 元資料條件的陣列。 |

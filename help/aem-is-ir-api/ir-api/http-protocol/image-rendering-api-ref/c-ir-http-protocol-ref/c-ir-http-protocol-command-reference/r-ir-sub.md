@@ -8,11 +8,11 @@ exl-id: c9968fbb-c38b-4180-81be-19992fa8f347
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
 source-wordcount: '149'
-ht-degree: 8%
+ht-degree: 7%
 
 ---
 
-# 子{#sub}
+# sub{#sub}
 
 子選擇。 允許將不同材料應用於所選對象或組的不同區域，並移除先前應用的材料。
 

@@ -1,5 +1,5 @@
 ---
-description: 任務項的資訊陣列。
+description: 有關任務項的一組資訊。
 solution: Experience Manager
 title: TaskItemProgressArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 17%
 
 # [!DNL TaskItemProgressArray]{#taskitemprogressarray}
 
-任務項的資訊陣列。
+有關任務項的一組資訊。
 
 語法
 

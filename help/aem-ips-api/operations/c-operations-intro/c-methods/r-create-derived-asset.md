@@ -42,7 +42,7 @@ ht-degree: 8%
 | 公司句柄 | `xsd:string` | 是 | 包含要從中獲取新資產的資產的公司的句柄。 |
 | 所有者句柄 | `xsd:string` | 是 | 導出新映像的主映像資產的句柄。 |
 | folderHandle | `xsd:string` | 是 | 建立新派生資產的資料夾的句柄。 |
-| 名稱 | `xsd:string` | 是 | 派生資產的名稱。 |
+| name | `xsd:string` | 是 | 派生資產的名稱。 |
 | type | `xsd:string` | 是 | 新衍生資產的資產類型： `AdjustedView` 或 `LayerView`。 |
 | url修飾符 | `xsd:string` | 否 | 應用了影像服務或影像呈現協定命令 *先* 請求或 `urlPostApplyModifier` 的雙曲餘切值。 |
 | urlPostApplyModifier | `xsd:string` | 否 | 應用了影像服務或影像呈現協定命令 *後* 請求或 `urlPostApplyModifier` 的雙曲餘切值。 |

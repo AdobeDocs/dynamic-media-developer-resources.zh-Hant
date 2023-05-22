@@ -22,4 +22,4 @@ ICC配置檔案欄位更新項的陣列。
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 項目 | `types:IccProfileUpdate` | `IccProfileFieldUpdate` 陣列項目。 |
+| 項目 | `types:IccProfileUpdate` | `IccProfileFieldUpdate` 陣列項。 |

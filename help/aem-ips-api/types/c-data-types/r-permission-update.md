@@ -1,5 +1,5 @@
 ---
-description: 說明權限變更。
+description: 描述權限更改。
 solution: Experience Manager
 title: 權限更新
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 15%
 
 # [!DNL PermissionUpdate]{#permissionupdate}
 
-說明權限變更。
+描述權限更改。
 
 語法
 
@@ -22,7 +22,7 @@ ht-degree: 15%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| groupHandle | `xsd:string` | 組句柄。 |
-| permissionType | `xsd:string` | 權限類型。 |
-| isAllowed | `xsd:boolean` | 確定是否允許權限更新。 |
-| isOverride | `xsd:boolean` | 確定權限是否覆蓋另一個權限。 |
+| 組句柄 | `xsd:string` | 組句柄。 |
+| 權限類型 | `xsd:string` | 權限類型。 |
+| 允許 | `xsd:boolean` | 確定是否允許權限更新。 |
+| 是覆蓋 | `xsd:boolean` | 確定權限是否覆蓋其他權限。 |

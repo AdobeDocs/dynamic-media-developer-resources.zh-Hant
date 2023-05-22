@@ -1,34 +1,35 @@
 ---
-title: 命令參考 — URL
-description: 智慧型裁切視訊檢視器的命令參考檔案。
+title: 命令引用 — URL
+description: Smart Crop Video Viewer的命令參考文檔。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: d0797c10-2379-45f7-9e8d-a5eb56638db8
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 0%
 
 ---
 
-# 命令參考 — URL{#command-reference-url}
+# 命令引用 — URL{#command-reference-url}
 
-智慧型裁切視訊檢視器的命令參考檔案。
+Smart Crop Video Viewer的命令參考文檔。
 
-您可以在URL中設定任何設定命令。 或者，您可以使用API方法 `setParam()`，或 `setParams()`，或兩者，以設定任何設定命令。 您也可以在伺服器端設定記錄中指定任何設定屬性。
+可以在URL中設定任何配置命令。 或者，可以使用API方法 `setParam()`或 `setParams()`或同時設定任何配置命令。 也可以在伺服器端配置記錄中指定任何config屬性。
 
-您可以為某些設定命令加上類別名稱或對應檢視器SDK元件的執行個體名稱前置詞。 元件的例項名稱為動態，且取決於傳遞至的檢視器容器DOM元素的ID `setContainerId()` API方法。 文檔包括此類命令的可選前置詞。 例如， `playback` 如下所述：
+可以使用類名或相應Viewer SDK元件的實例名來為某些配置命令添加前置詞。 元件的實例名稱是動態的，取決於傳遞給的查看器容器DOM元素的ID `setContainerId()` API方法。 文檔包括此類命令的可選前置詞。 比如說， `playback` 如下所述：
 
 ```
 [SmartCropVideoPlayer.|<containerId>_smartCropVideoPlayer].playback
 ```
 
-這表示此命令的使用方式如下：
+這意味著此命令的使用方式如下：
 
-* `playback` （簡短語法）
-* `SmartCropVideoPlayer.playback` （以元件類名稱限定）
-* `cont_smartCropVideoPlayer.playback` (以元件ID限定，假設 `cont` 是容器元素的ID)
+* `playback` （短語法）
+* `SmartCropVideoPlayer.playback` （使用元件類名限定）
+* `cont_smartCropVideoPlayer.playback` (使用元件ID限定，假定 `cont` 是容器元素的ID)
 
-另請參閱 [所有檢視器通用的命令參考 — 設定屬性](../../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd).
+另請參閱 [所有查看器通用的命令引用 — 配置屬性](../../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)。
 
-另請參閱 [所有檢視器 — URL通用的命令參考](../../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226).
+另請參閱 [所有查看器通用的命令引用 — URL](../../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)。

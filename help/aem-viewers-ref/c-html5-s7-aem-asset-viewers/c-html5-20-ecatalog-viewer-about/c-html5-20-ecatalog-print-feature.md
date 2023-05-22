@@ -1,6 +1,6 @@
 ---
 title: 打印功能
-description: 檢視器可讓您將目錄內容輸出至打印機。
+description: 查看器允許您將目錄內容輸出到打印機。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
@@ -14,12 +14,12 @@ ht-degree: 0%
 
 # 打印功能{#print-feature}
 
-檢視器可讓您將目錄內容輸出至打印機。
+查看器允許您將目錄內容輸出到打印機。
 
-列印功能由工具列中的專用按鈕觸發。 按一下按鈕可讓使用者選擇列印範圍和每張頁數。
+打印功能由工具欄中的專用按鈕觸發。 按一下該按鈕，用戶可以選擇打印範圍和每張紙的頁數。
 
-可使用 `printquality` 設定參數。 設定 `printquality` 不建議設定為高於預設值的值。 原因是客戶端系統上的Web瀏覽器會導致記憶體消耗高。 此外，請確定為您的Dynamic Media Classic公司設定的最大影像回應大小大於設定的 `printquality` 值。
+打印的質量可以使用 `printquality` 配置參數。 設定 `printquality` 不建議將值設定為高於預設值。 原因是客戶端系統上的Web瀏覽器會導致高記憶體消耗。 另外，確保為您的Dynamic Media Classic公司設定的最大映像響應大小大於配置的 `printquality` 值。
 
 >[!NOTE]
 >
->打印功能僅在案頭系統上可用，Internet Explorer 9除外。
+>「打印」功能僅在案頭系統上可用，Internet Explorer 9除外。

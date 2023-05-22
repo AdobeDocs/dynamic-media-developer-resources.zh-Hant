@@ -8,7 +8,7 @@ exl-id: 3a6c23dd-5e2c-4149-aa24-37d445128125
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
 source-wordcount: '57'
-ht-degree: 12%
+ht-degree: 10%
 
 ---
 
@@ -16,30 +16,30 @@ ht-degree: 12%
 
 Video360查看器的配置屬性。
 
-` [EmbedShare.|<containerId>_embedShare.]embedsizes= *``*, *``*[,0|1][; *``*, *`寬高`*[,0|1]]`
+` [EmbedShare.|<containerId>_embedShare.]embedsizes= *`寬度`*, *`高度`*[,0|1][; *`寬度`*, *`高度`*[,0|1]]`
 
-在內嵌共用強制回應對話方塊中，指定大小下拉式方塊的內嵌大小清單。
+在「嵌入共用模式」對話框中為「大小」組合框指定嵌入大小清單。
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> width </span> </span> </p> </td> 
-   <td colname="col2"> <p> 內嵌寬度。 </p> </td> 
+   <td colname="col2"> <p> 嵌入寬度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> height </span> </span> </p> </td> 
-   <td colname="col2"> <p>內嵌高度。 </p> </td> 
+   <td colname="col2"> <p>嵌入高度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 指定是否應在組合框中最初預選此清單項。 </p> </td> 
+   <td colname="col2"> <p> 指定是否應在組合框中初始預選此清單項。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 屬性 {#section-f42369774e2740dcb399626a0e4e930e}
 
-選填。
+選擇性.
 
 ## 預設 {#section-d016470e92a74f98a18c4ab3489410a5}
 

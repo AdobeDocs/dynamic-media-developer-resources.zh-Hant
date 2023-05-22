@@ -1,7 +1,7 @@
 ---
-description: 句柄的陣列。
+description: 手柄陣列。
 solution: Experience Manager
-title: HandleArray
+title: 句柄陣列
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 7dd58b31-8337-4ffc-9f58-ca7a8d16abb9
@@ -14,7 +14,7 @@ ht-degree: 16%
 
 # [!DNL HandleArray]{#handlearray}
 
-句柄的陣列。
+手柄陣列。
 
 >[!NOTE]
 >
@@ -24,4 +24,4 @@ ht-degree: 16%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 項目 | `xsd:string` | 句柄的陣列。 |
+| 項目 | `xsd:string` | 手柄陣列。 |

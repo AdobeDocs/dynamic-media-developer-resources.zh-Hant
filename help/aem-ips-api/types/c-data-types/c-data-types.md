@@ -8,7 +8,7 @@ exl-id: a8bc6fcc-fb94-4bc2-83b7-76788db15f3e
 source-git-commit: 72f9cd1b1de82cbeeb8d41fb0f1cf0b51744a8a3
 workflow-type: tm+mt
 source-wordcount: '225'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -95,7 +95,7 @@ ht-degree: 4%
 + [影像格式](r-image-format.md)
 + [ImageFormatArray](r-image-format-array.md)
 + [影像資訊](r-image-info.md)
-+ [影像地圖](r-image-map.md)
++ [影像映射](r-image-map.md)
 + [ImageMapArray](r-image-map-array.md)
 + [影像映射定義](r-image-map-definition.md)
 + [ImageMapDefinitionArray](r-image-map-definition-array.md)
@@ -118,7 +118,7 @@ ht-degree: 4%
 + [挖空背景選項](r-knockout-background-options.md)
 + [層視圖資訊](r-layer-view-info.md)
 + [手動裁剪選項](r-manual-crop-options.md)
-+ [遮色片](r-mask.md)
++ [蒙版](r-mask.md)
 + [掩碼陣列](r-mask-array.md)
 + [掩碼資訊](r-mask-info.md)
 + [主視頻資訊](r-master-video-info.md)

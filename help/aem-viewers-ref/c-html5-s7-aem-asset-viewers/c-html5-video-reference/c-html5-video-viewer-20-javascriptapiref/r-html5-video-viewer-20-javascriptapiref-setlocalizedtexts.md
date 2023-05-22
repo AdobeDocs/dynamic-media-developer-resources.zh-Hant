@@ -20,7 +20,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 本地化資訊 </span> </span> </p> </td> 
-   <td colname="col2"> <p> { 0} <span class="codeph"> 對象 </span>}包含本地化資料的JSON對象。 </p> <p>請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-namespace.md#concept-679bfabb3e3e4c12a285c4e9c4144153" format="dita" scope="local"> 查看器SDK命名空間 </a> 的子菜單。 </p> <p>查看 <i>查看器SDK使用手冊</i> 以及有關對象內容的詳細資訊的示例。 選填。 </p> </td> 
+   <td colname="col2"> <p> { 0} <span class="codeph"> 對象 </span>}包含本地化資料的JSON對象。 </p> <p>請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-namespace.md#concept-679bfabb3e3e4c12a285c4e9c4144153" format="dita" scope="local"> 查看器SDK命名空間 </a> 的子菜單。 </p> <p>查看 <i>查看器SDK使用手冊</i> 以及有關對象內容的詳細資訊的示例。 選擇性. </p> </td> 
   </tr> 
  </tbody> 
 </table>

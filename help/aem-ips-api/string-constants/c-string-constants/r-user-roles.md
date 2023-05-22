@@ -1,20 +1,20 @@
 ---
-description: 說明各種參數所使用的值。 如需詳細資訊，請參閱本文的清單
+description: 描述各種參數使用的值。 有關詳細資訊，請參閱本文中的清單
 solution: Experience Manager
-title: 使用者角色
+title: 用戶角色
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f94443ba-7715-4790-bd2a-120e0cb8848e
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 4%
+source-wordcount: '36'
+ht-degree: 5%
 
 ---
 
-# 使用者角色{#user-roles}
+# 用戶角色{#user-roles}
 
-說明各種參數所使用的值。 如需詳細資訊，請參閱本文的清單
+描述各種參數使用的值。 有關詳細資訊，請參閱本文中的清單
 
 語法
 

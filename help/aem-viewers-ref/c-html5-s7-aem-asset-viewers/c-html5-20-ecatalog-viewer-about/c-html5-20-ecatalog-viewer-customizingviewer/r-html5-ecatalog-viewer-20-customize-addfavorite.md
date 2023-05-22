@@ -1,24 +1,24 @@
 ---
-title: 添加收藏夾按鈕
-description: 「添加收藏夾」按鈕的位置由「收藏夾」菜單完全管理。
+title: 「添加收藏夾」按鈕
+description: 「添加收藏夾」按鈕的位置完全由「收藏夾」菜單管理。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 3602fa7b-d654-4976-a62d-d959898cb530
 source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '194'
+ht-degree: 1%
 
 ---
 
-# 添加收藏夾按鈕{#add-favorite-button}
+# 「添加收藏夾」按鈕{#add-favorite-button}
 
-「添加收藏夾」按鈕的位置由「收藏夾」菜單完全管理。
+「添加收藏夾」按鈕的位置完全由「收藏夾」菜單管理。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-使用以下CSS類選擇器控制「添加收藏夾」按鈕的外觀：
+「添加收藏夾」按鈕的外觀由以下CSS類選擇器控制：
 
 ```
 .s7ecatalogviewer .s7addfavoritebutton
@@ -29,12 +29,12 @@ ht-degree: 0%
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景 — 影像 </span> </p> </td> 
-   <td colname="col2"> <p> 針對指定按鈕狀態顯示的影像。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景影像 </span> </p> </td> 
+   <td colname="col2"> <p> 為給定按鈕狀態顯示的影像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS精靈，則位於圖稿精靈內。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS浮雕，則在圖稿浮雕內定位。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS繁體 </a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -49,11 +49,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->此按鈕支援 `state` 和 `selected` 屬性選取器，可用來將不同外觀套用至不同按鈕狀態。 特別是， `selected='true'` 對應至使用者可透過選取或點選來新增「我的最愛」圖示的狀態。 屬性 `selected='false'` 與使用者可縮放、平移和交換頁面時的一般操作模式相對應。
+>此按鈕支援 `state` 和 `selected` 屬性選擇器，可用於將不同的外觀應用於不同的按鈕狀態。 特別是， `selected='true'` 對應於用戶通過選擇或點擊添加新「收藏夾」表徵圖時的狀態。 屬性 `selected='false'` 當用戶可以縮放、平移和交換頁面時，對應於正常操作模式。
 
-按鈕工具提示可以本地化。 請參閱 [用戶介面元素本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以取得更多資訊。
+按鈕工具提示可以本地化。 請參閱 [用戶介面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 的子菜單。
 
-範例：若要設定「新增最愛」按鈕，即28 x 28像素。 此外，當選取或未選取時，它會針對四個不同按鈕狀態中的每一個顯示不同的影像。
+示例 — 設定28 x 28像素的「添加收藏夾」按鈕。 並且，當選擇或未選擇時，它會為四個不同按鈕狀態中的每個狀態顯示不同的影像。
 
 ```
 .s7ecatalogviewer .s7addfavoritebutton { 

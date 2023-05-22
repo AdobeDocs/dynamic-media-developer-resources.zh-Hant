@@ -1,6 +1,6 @@
 ---
-title: AssetCountArray
-description: 資產計數的陣列。
+title: 資產計數陣列
+description: 一系列資產計數。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 28%
 
 # [!DNL AssetCountArray]{#assetcountarray}
 
-資產計數的陣列。
+一系列資產計數。
 
 語法
 
@@ -22,4 +22,4 @@ ht-degree: 28%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 項目 | `types:AssetCount` | 資產計數陣列。 |
+| 項目 | `types:AssetCount` | 資產計數的陣列。 |

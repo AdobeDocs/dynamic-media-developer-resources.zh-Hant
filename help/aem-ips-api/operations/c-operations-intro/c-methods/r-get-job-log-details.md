@@ -51,13 +51,13 @@ ht-degree: 18%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 作業句柄</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd：字串</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 活動或已完成作業的句柄。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 原始名稱</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd：字串</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 作業日誌的原始名稱。 </td> 
   </tr> 
@@ -81,13 +81,13 @@ ht-degree: 18%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 排序依據</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd：字串</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> <p>作業詳細資訊排序欄位常數值之一（日期或日誌類型）。 預設值為Date。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 排序方向</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd：字串</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> <p>排序方向字串常數之一。 預設值為升序。 </p> </td> 
   </tr> 

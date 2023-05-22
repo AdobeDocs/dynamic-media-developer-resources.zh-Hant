@@ -1,7 +1,7 @@
 ---
 description: 標籤欄位值的陣列。
 solution: Experience Manager
-title: TagFieldValuesArray
+title: 標籤欄位值陣列
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 68762d4c-b006-4a1a-ab0b-dafde2ab0a80

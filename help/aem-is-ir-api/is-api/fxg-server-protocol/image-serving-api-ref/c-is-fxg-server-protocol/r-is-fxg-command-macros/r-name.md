@@ -7,12 +7,12 @@ role: Developer,User
 exl-id: b5aa907b-aa95-4573-bc05-65d84c173f25
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 9%
+source-wordcount: '28'
+ht-degree: 10%
 
 ---
 
-# 名稱{#name}
+# name{#name}
 
 命令宏的名稱。
 
@@ -25,4 +25,4 @@ ht-degree: 9%
  </tr> 
 </table>
 
-*`name`* 不區分大小寫，並且可能包含字母、數字、「 — 」、「_」和「」的任何組合。字元.
+*`name`* 不區分大小寫，並且可能包含字母、數字、「 — 」、「_」和「。」的任意組合 字元.

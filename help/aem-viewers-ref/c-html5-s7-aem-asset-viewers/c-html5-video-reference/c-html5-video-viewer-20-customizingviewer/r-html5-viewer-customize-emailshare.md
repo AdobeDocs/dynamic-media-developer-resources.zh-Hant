@@ -123,11 +123,11 @@ background-image:url(images/v2/EmailShare_dark_disabled.png);
    <td colname="col2"> <p> 對話框背景顏色； </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p> 應取消設定，或設定為100%，在這種情況下，對話框將佔據整個瀏覽器窗口（此模式在觸摸設備上是首選模式）; </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p> 應取消設定，或設定為100%，在這種情況下，對話框將佔據整個瀏覽器窗口（此模式在觸摸設備上是首選模式）。 </p> </td> 
   </tr> 
  </tbody> 
@@ -188,11 +188,11 @@ background-color: #ffffff;
 <table id="table_DD4B0413721B49CE8E21B4A55BDE8F7D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>表徵圖寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>表徵圖高度。 </p> </td> 
   </tr> 
   <tr> 
@@ -254,11 +254,11 @@ background-color: #ffffff;
    <td colname="col2"> <p> 水準按鈕相對於標題容器的位置。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>按鈕寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>按鈕高度。 </p> </td> 
   </tr> 
   <tr> 
@@ -367,11 +367,11 @@ background-color: #ffffff;
 <table id="table_3DFA90B012F345A3A2A123D6856BE08A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>按鈕寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>按鈕高度。 </p> </td> 
   </tr> 
   <tr> 
@@ -400,15 +400,15 @@ background-color: #ffffff;
 <table id="table_91C75B2470A24DC2AD3973A91FA8B325"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>按鈕寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>按鈕高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 顏色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
    <td colname="col2"> <p> 每個狀態的按鈕文本顏色。 </p> </td> 
   </tr> 
   <tr> 
@@ -532,7 +532,7 @@ background-color: #ffffff;
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p> 主對話框區域的高度。 只有在對話框在案頭模式下工作時才應指定該對話框。 當對話框的大小為佔用整個瀏覽器窗口時，它不適用。 </p> </td> 
   </tr> 
   <tr> 
@@ -640,7 +640,7 @@ background-color: #ffffff;
    <td colname="col2"> <p>標籤字型系列。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 顏色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
    <td colname="col2"> <p>標籤文本顏色。 </p> </td> 
   </tr> 
  </tbody> 
@@ -669,7 +669,7 @@ background-color: #ffffff;
 <table id="table_B5CF02837BAA42C7B79B6D9DA20792DF"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>靜態標籤的寬度。 </p> </td> 
   </tr> 
   <tr> 
@@ -677,7 +677,7 @@ background-color: #ffffff;
    <td colname="col2"> <p>水準文本對齊方式。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 邊緣 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
    <td colname="col2"> <p>靜態標籤邊距。 </p> </td> 
   </tr> 
   <tr> 
@@ -709,7 +709,7 @@ background-color: #ffffff;
 <table id="table_7BC1C5919A54483F8121D928DC63233A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 邊界 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
    <td colname="col2"> <p>輸入欄位容器周圍的邊框。 </p> </td> 
   </tr> 
   <tr> 
@@ -734,7 +734,7 @@ background-color: #ffffff;
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>輸入欄位寬度。 </p> </td> 
   </tr> 
  </tbody> 
@@ -751,7 +751,7 @@ background-color: #ffffff;
 <table id="table_DFA9059209FF4184BD483A529424E97F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>輸入欄位寬度。 </p> </td> 
   </tr> 
  </tbody> 
@@ -788,7 +788,7 @@ background-color: #ffffff;
 <table id="table_9E9D5A0C3CDB45739615C4C07F8DC046"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>消息高度。 </p> </td> 
   </tr> 
   <tr> 
@@ -818,11 +818,11 @@ background-color: #ffffff;
 <table id="table_8829DC0694684E8BA427DFB821F7433D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>按鈕高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 顏色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
    <td colname="col2"> <p>每個狀態的按鈕文本顏色。 </p> </td> 
   </tr> 
   <tr> 
@@ -908,11 +908,11 @@ background-color: #ffffff;
 <table id="table_79E4C65741E64859B9C9E9DCCB3D050B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>按鈕寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>按鈕高度。 </p> </td> 
   </tr> 
   <tr> 
@@ -964,7 +964,7 @@ background-color: #ffffff;
 <table id="table_9C5CBFC2482E4A46BE837573B0B02FE4"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 邊界 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
    <td colname="col2"> <p>容器邊框。 </p> </td> 
   </tr> 
   <tr> 
@@ -996,11 +996,11 @@ background-color: #ffffff;
 <table id="table_4C614FF2CEB149DAB5B7D7BC38CD3CAE"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>縮略圖寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>縮略圖高度。 </p> </td> 
   </tr> 
   <tr> 
@@ -1036,7 +1036,7 @@ background-color: #ffffff;
 <table id="table_EDFA6229D8C3468E989E7EC05F23EF3B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>面板寬度。 </p> </td> 
   </tr> 
  </tbody> 
@@ -1061,7 +1061,7 @@ background-color: #ffffff;
 <table id="table_E83C149E66EC474092DF8A180DA9A550"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 邊緣 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
    <td colname="col2"> <p>外邊距。 </p> </td> 
   </tr> 
   <tr> 
@@ -1099,7 +1099,7 @@ background-color: #ffffff;
 <table id="table_51763B532A9C4AE8AE54B69933A8C0B5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 邊緣 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
    <td colname="col2"> <p>外邊距。 </p> </td> 
   </tr> 
   <tr> 
@@ -1136,7 +1136,7 @@ background-color: #ffffff;
 <table id="table_F0F917ED3D1D4FCE974F48214D287E14"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 邊緣 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
    <td colname="col2"> <p>外邊距。 </p> </td> 
   </tr> 
   <tr> 
@@ -1182,7 +1182,7 @@ background-color: #ffffff;
    <td colname="col2"> <p> 錯誤表徵圖位於消息區域內。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 顏色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
    <td colname="col2"> <p>消息文本顏色。 </p> </td> 
   </tr> 
   <tr> 
@@ -1249,7 +1249,7 @@ background-color: #ffffff;
 <table id="table_A0C3AC7E00544FFBB8E1364F4CDDB371"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>滾動面板寬度。 </p> </td> 
   </tr> 
  </tbody> 
@@ -1274,7 +1274,7 @@ background-color: #ffffff;
 <table id="table_2BF74CF43E9B42D79F99A3F5208D7051"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p> 捲動條寬度。 </p> </td> 
   </tr> 
   <tr> 
@@ -1314,7 +1314,7 @@ background-color: #ffffff;
 <table id="table_EE990E7A342843619EDD84BAD29C6F2A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>軌道寬度。 </p> </td> 
   </tr> 
   <tr> 
@@ -1344,11 +1344,11 @@ background-color: #B2B2B2;
 <table id="table_5A4A283A50044A51881D997885674BDF"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>拇指寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>拇指高度。 </p> </td> 
   </tr> 
   <tr> 
@@ -1415,11 +1415,11 @@ background-color: #B2B2B2;
 <table id="table_EB853317E08941979B0E141C3C9B2C49"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>按鈕寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>按鈕高度。 </p> </td> 
   </tr> 
   <tr> 

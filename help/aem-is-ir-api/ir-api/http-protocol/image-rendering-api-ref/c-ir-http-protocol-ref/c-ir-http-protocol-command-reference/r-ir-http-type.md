@@ -8,11 +8,11 @@ exl-id: 333b8954-e256-4ba1-8055-c4d625470673
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 24%
+ht-degree: 17%
 
 ---
 
-# 類型{#type}
+# type{#type}
 
 材料曲面類型。 指定材料的曲面類型。
 
@@ -57,7 +57,7 @@ ht-degree: 24%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>9 </p></td> 
-  <td class="stentry"> <p>塑膠 </p></td> 
+  <td class="stentry"> <p>塑料 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>10 </p></td> 
@@ -65,11 +65,11 @@ ht-degree: 24%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>11 </p></td> 
-  <td class="stentry"> <p>層壓板 </p></td> 
+  <td class="stentry"> <p>層壓體 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>12 </p></td> 
-  <td class="stentry"> <p>乙烯基材料 </p></td> 
+  <td class="stentry"> <p>乙烯基 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>13 </p></td> 
@@ -85,7 +85,7 @@ ht-degree: 24%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>16 </p></td> 
-  <td class="stentry"> <p>鏡面 </p></td> 
+  <td class="stentry"> <p>鏡像 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>17 </p></td> 

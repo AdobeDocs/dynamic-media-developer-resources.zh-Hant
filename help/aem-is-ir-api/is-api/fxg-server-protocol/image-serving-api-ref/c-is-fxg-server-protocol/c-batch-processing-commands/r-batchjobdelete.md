@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 9aca6693-32ac-4abd-9595-95bce60050ec
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '78'
 ht-degree: 1%
 
 ---
@@ -16,20 +16,20 @@ ht-degree: 1%
 
 刪除作業的輸出。
 
-如果作業當前正在運行，則會立即停止該作業，並刪除其所有處理資訊。 如果作業成功完成，則會刪除其輸出檔案。
+如果作業當前正在運行，則該作業將立即停止，並刪除其所有處理資訊。 如果作業已成功完成，則其輸出檔案將被刪除。
 
 此參數：
 
 <table id="simpletable_AACB976615FF4888A0816328DC48DCA3"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> jobid</span> </p> </td> 
-  <td class="stentry"> <p>提交時取得的工作ID。 </p></td> 
+  <td class="stentry"> <p>提交時獲取的作業ID。 </p></td> 
  </tr> 
 </table>
 
-傳回：
+返回：
 
-收到刪除請求時的作業狀態，如果`jobid`無效或作業已刪除，則出錯。
+收到刪除請求時的作業狀態，如果 `jobid` 無效或作業已被刪除。
 
 ## 範例 {#section-e0df8fc8e6554ba58e1fa937b8241ecf}
 

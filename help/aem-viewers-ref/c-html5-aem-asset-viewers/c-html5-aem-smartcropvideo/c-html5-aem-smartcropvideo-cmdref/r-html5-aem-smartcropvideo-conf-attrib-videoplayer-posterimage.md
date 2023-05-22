@@ -1,10 +1,11 @@
 ---
 title: SmartCropVideoPlayer.posterimage
-description: 智慧型裁切視訊檢視器的設定屬性。
+description: Smart Crop Video Viewer的配置屬性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: dfd80e5727a128f272855f1f28e1bc89cb2436bf
+exl-id: ff4f8e2c-b9c3-4fba-b3f0-fa1eaddcd8c0
+source-git-commit: 8c49595fe0efb684b59601fb268bd8bf97fae555
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 2%
@@ -13,27 +14,27 @@ ht-degree: 2%
 
 # SmartCropVideoPlayer.posterimage{#smartcropvideoplayer-posterimage}
 
-智慧型裁切視訊檢視器的設定屬性。
+Smart Crop Video Viewer的配置屬性。
 
-` [SmartCropVideoPlayer.|<containerId>_smartCropVideoPlayer.]posterimage=none|[ *`image_id`*][? *`isCommands`*]`
+` [SmartCropVideoPlayer.|<containerId>_smartCropVideoPlayer.]posterimage=none|[ *`影像ID`*][? *`是命令`*]`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 無|[<span class="varname"> image_id</span>][?<span class="varname"> isCommands</span>]</span> </p> </td> 
-   <td colname="col2"> <p> 在視訊開始播放前要在第一個影格上顯示的影像，已針對解析 <span class="codeph"> serverurl</span>. 若在URL中指定，請以HTTP編碼： </p> <p> 
+   <td colname="col1"> <p> <span class="codeph"> 無|[<span class="varname"> 影像ID</span>][?<span class="varname"> 是命令</span>]</span> </p> </td> 
+   <td colname="col2"> <p> 在視頻開始播放之前要在第一幀上顯示的影像，針對 <span class="codeph"> 伺服器url</span>。 如果在URL中指定，則HTTP-encode如下： </p> <p> 
      <ul id="ul_B38A687CEFE64C68A0B2C227A68A458F"> 
-      <li id="li_E7AE1BDAC17E49E0B7ACF89C5C0529F0"> <p> <span class="codeph"> ?</span> as <span class="codeph"> %3F</span> </p> </li> 
-      <li id="li_391CCF067F734480B2B4AFC9760C479A"> <p> <span class="codeph"> &amp;</span> as <span class="codeph"> %26</span> </p> </li> 
-      <li id="li_6824B66A55554C5A8B12874DCF5BFAEE"> <p> <span class="codeph"> =</span> as <span class="codeph"> %3D</span> </p> </li> 
-     </ul> </p> <p>若 <span class="codeph"><span class="varname"> image_id</span></span> 值時，元件會嘗試針對該資產使用預設海報影像。 </p> <p>當視訊指定為路徑時，預設海報影像目錄id會從視訊路徑衍生為 <span class="codeph"> catalog_id/image_id</span> 配對。 此 <span class="codeph"> catalog_id</span> 對應至路徑中的第一個代號，而 <span class="codeph"> image_id</span> 是已移除擴充功能的視訊名稱。 如果具有該ID的影像不存在，則不會顯示海報影像。 </p> <p>若要防止顯示預設海報影像，請指定 <span class="codeph"> 無</span> 作為海報影像值。 如果 <span class="codeph"><span class="varname"> isCommands</span></span> ，則在顯示影像之前，命令將應用於預設海報影像。 </p> </td> 
+      <li id="li_E7AE1BDAC17E49E0B7ACF89C5C0529F0"> <p> <span class="codeph"> ?</span> 如 <span class="codeph"> %3F</span> </p> </li> 
+      <li id="li_391CCF067F734480B2B4AFC9760C479A"> <p> <span class="codeph"> &amp;</span> 如 <span class="codeph"> %26</span> </p> </li> 
+      <li id="li_6824B66A55554C5A8B12874DCF5BFAEE"> <p> <span class="codeph"> =</span> 如 <span class="codeph"> %3D</span> </p> </li> 
+     </ul> </p> <p>如果 <span class="codeph"><span class="varname"> 影像ID</span></span> 值被省略，元件將嘗試使用該資產的預設海報影像。 </p> <p>當視頻被指定為路徑時，預設海報影像目錄id將從視頻路徑派生為 <span class="codeph"> catalog_id/image_id</span> 對。 的 <span class="codeph"> 目錄ID</span> 與路徑中的第一個標籤對應 <span class="codeph"> 影像ID</span> 是刪除副檔名的視頻名稱。 如果該ID的影像不存在，則不顯示海報影像。 </p> <p>要防止顯示預設海報影像，請指定 <span class="codeph"> 無</span> 作為海報影像值。 如果 <span class="codeph"><span class="varname"> 是命令</span></span> 指定，在顯示影像之前，這些命令將應用於預設海報影像。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 屬性 {#section-f42369774e2740dcb399626a0e4e930e}
 
-選填。
+選擇性.
 
 ## 預設 {#section-d016470e92a74f98a18c4ab3489410a5}
 

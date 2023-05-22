@@ -50,19 +50,19 @@ ht-degree: 11%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> userHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd：字串</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> <p>向提交作業的用戶處理。 </p> <p> <p>注：系統將電子郵件發送給由 <span class="codeph"> userHandle</span>。 如果 <span class="codeph"> userHandle</span> 未提供，提交該作業的人將收到電子郵件。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 作業名稱</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd：字串</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> <p>工作名稱. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 地區設定</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd：字串</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> <p>用於作業日誌詳細資訊和電子郵件本地化的區域設定。 </p> <p>區域設定指定為 <span class="codeph"> &lt;language_code&gt;</span> 和 <span class="codeph"> [&lt;country_code&gt;]</span>，其中，語言代碼是ISO-639指定的小寫雙字母代碼，可選國家代碼是ISO-3166指定的大寫雙字母代碼。 例如，英語（美國）的區域設定字串為：美國。 </p> </td> 
   </tr> 
@@ -74,13 +74,13 @@ ht-degree: 11%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 執行計畫</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd：字串</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> <p>確定何時運行作業。 </p> <p> 可以是 <span class="codeph"> 克隆</span> 定期運行作業的字串。 </p> <p>計畫始終與伺服器的本地時區相關。 請參閱IPS文檔瞭解自定義計畫格式。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 描述</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd：字串</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> <p>作業描述。 </p> </td> 
   </tr> 

@@ -2,22 +2,22 @@
 description: 下載
 solution: Experience Manager
 title: 下載
-feature: Dynamic Media Classic，檢視器，SDK/API,eCatalog搜尋
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 661b19fb-5d18-46e9-8658-a5df567a3eff
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '76'
 ht-degree: 3%
 
 ---
 
 # 下載{#download}
 
-您可以使用控制列中的「下載」按鈕，將電子目錄下載為PDF檔案。
+可以使用控制欄中的「下載」按鈕將電子目錄作為PDF檔案下載。
 
-發生下列情況時，檢視器使用者介面中會自動提供「下載」按鈕：
+當出現以下情況時，「下載」按鈕在查看器用戶介面中自動可用：
 
-* 客戶公司中有實際的PDF檔案。
-* 此名稱與傳遞至檢視器的e-catalog資產名稱相符，並包含`.pdf`擴充功能。
-* PDF檔案會在Dynamic Media Classic中發佈。
+* 客戶公司中存在實際的PDF檔案。
+* 該名稱與傳遞給查看器的電子目錄資產的名稱匹配，並包括 `.pdf` 擴展。
+* PDF檔案在Dynamic Media Classic發佈。

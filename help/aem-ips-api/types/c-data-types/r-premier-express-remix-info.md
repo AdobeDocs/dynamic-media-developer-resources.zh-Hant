@@ -8,7 +8,7 @@ exl-id: 725612b5-6e60-4c43-b33a-11c6fccb3c1d
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '27'
-ht-degree: 33%
+ht-degree: 25%
 
 ---
 
@@ -22,6 +22,6 @@ PremierExpressRemix檔案資產的屬性。
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| originalPath | `xsd:string` | 檔案路徑。 |
-| originalFile | `xsd:string` | 檔案名稱. |
-| fileSize | `xsd:int` | 檔案大小. |
+| 原始路徑 | `xsd:string` | 檔案路徑。 |
+| 原始檔案 | `xsd:string` | 檔案名稱. |
+| 檔案大小 | `xsd:int` | 檔案大小。 |

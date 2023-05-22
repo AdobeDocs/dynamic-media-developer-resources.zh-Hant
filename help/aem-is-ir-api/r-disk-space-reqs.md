@@ -1,5 +1,5 @@
 ---
-description: '除了安裝軟體所需的空間外，映像服務還有以下磁碟空間要求 '
+description: 除了安裝軟體所需的空間外，映像服務還有以下磁碟空間要求
 solution: Experience Manager
 title: 磁碟空間要求和建議
 feature: Dynamic Media Classic,SDK/API

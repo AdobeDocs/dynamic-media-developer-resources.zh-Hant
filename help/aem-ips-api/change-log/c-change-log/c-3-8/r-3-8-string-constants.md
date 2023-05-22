@@ -1,40 +1,40 @@
 ---
-description: 說明IPS API 3.8版的新字串常數和已變更的字串常數。
+description: 描述IPS API 3.8版的新字串常數和更改的字串常數。
 solution: Experience Manager
-title: 新增和修改字串常數
+title: 字串常數新建和修改
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 38f28e0f-edda-4786-9627-c0ef49645237
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 4%
+source-wordcount: '56'
+ht-degree: 5%
 
 ---
 
-# 字串常數：新增和修改{#string-constants-new-and-modified}
+# 字串常數：新建和修改{#string-constants-new-and-modified}
 
-說明IPS API 3.8版的新字串常數和已變更的字串常數。
+描述IPS API 3.8版的新字串常數和更改的字串常數。
 
 語法
 
-## 新常數 {#section-8171990eacae40c690830256f69e7afa}
+## 新建常數 {#section-8171990eacae40c690830256f69e7afa}
 
 **區域形狀**
 
-* 用於：`ImageMap/shapeType`, `saveImageMapParam/shapeType`
+* 使用者： `ImageMap/shapeType`。 `saveImageMapParam/shapeType`
 
-* 值：`Rectangle`和`Polygon`。
+* 值： `Rectangle` 和 `Polygon`。
 
 **發佈狀態**
 
-* 用於：`searchAssetsParam/publishState`和`setAssetPublishStateParam/publishState`。
+* 使用者： `searchAssetsParam/publishState` 和 `setAssetPublishStateParam/publishState`。
 
-* 值：`MarkedForPublish`和`NotMarkedForPublish`。
+* 值： `MarkedForPublish` 和 `NotMarkedForPublish`。
 
 ## 修改的常數 {#section-e125c0a4a8924be0b27e7ffb424caa46}
 
 **資產類型**
 
-* 用於：`createImageSetParam/type`。
-* 值：`InDesign`和`Flash`。
+* 使用者： `createImageSetParam/type`。
+* 值： `InDesign` 和 `Flash`。

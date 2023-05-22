@@ -1,34 +1,35 @@
 ---
 title: EmailShare.emailurl
-description: 智慧型裁切視訊檢視器的設定屬性。
+description: Smart Crop Video Viewer的配置屬性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: dfd80e5727a128f272855f1f28e1bc89cb2436bf
+exl-id: 1d6e7be8-19c0-474d-b8ea-c4cbb8d8a45b
+source-git-commit: 8c49595fe0efb684b59601fb268bd8bf97fae555
 workflow-type: tm+mt
 source-wordcount: '33'
-ht-degree: 12%
+ht-degree: 9%
 
 ---
 
 # EmailShare.emailurl{#emailshare-emailurl}
 
-智慧型裁切視訊檢視器的設定屬性。
+Smart Crop Video Viewer的配置屬性。
 
-` [EmailShare.|<containerId>_emailShare.]emailurl= *`emailurl`*`
+` [EmailShare.|<containerId>_emailShare.]emailurl= *`郵件url`*`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> emailurl</span></span> </p> </td> 
-   <td colname="col2"> <p> 指定Dynamic Media Classic OnDemand電子郵件服務的基礎URL。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> 郵件url</span></span> </p> </td> 
+   <td colname="col2"> <p> 指定Dynamic Media ClassicOnDemand電子郵件服務的基本URL。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 屬性 {#section-f42369774e2740dcb399626a0e4e930e}
 
-選填。
+選擇性.
 
 ## 預設 {#section-d016470e92a74f98a18c4ab3489410a5}
 

@@ -1,5 +1,5 @@
 ---
-description: 說明IPS API 3.7版的新操作方法和更改的操作方法。
+description: 介紹IPS API 3.7版的新操作方法和更改的操作方法。
 solution: Experience Manager
 title: 操作新建和修改
 feature: Dynamic Media Classic,SDK/API
@@ -7,14 +7,14 @@ role: Developer,Admin
 exl-id: 1f11a686-7239-4922-a608-5330864184ac
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 5%
+source-wordcount: '48'
+ht-degree: 6%
 
 ---
 
-# 操作：新增和修改{#operations-new-and-modified}
+# 操作：新建和修改{#operations-new-and-modified}
 
-說明IPS API 3.7版的新操作方法和更改的操作方法。
+介紹IPS API 3.7版的新操作方法和更改的操作方法。
 
 語法
 
@@ -38,9 +38,9 @@ ht-degree: 5%
 
 ## 修改的操作 {#section-596ea55a371e4c2ab5531e21ea9d8090}
 
-**searchAsset**
+**搜索資產**
 
-* 移除`name`參數。
+* 已刪除 `name` 的下界。
 * 已新增 `excludeFieldArray`.
 
 **getFolders**
@@ -49,5 +49,5 @@ ht-degree: 5%
 
 **getFolderTree**
 
-* 新增`excludeFieldArray`和`getUniqueMetadataValues`。
-* 將`fieldHandle`設為必要參數。
+* 已添加 `excludeFieldArray` 和 `getUniqueMetadataValues`。
+* 製作 `fieldHandle` 參數。

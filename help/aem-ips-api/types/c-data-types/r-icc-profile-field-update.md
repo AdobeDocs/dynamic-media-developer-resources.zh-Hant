@@ -22,7 +22,7 @@ ht-degree: 9%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| assetHandle | `xsd:string` | 要更新的ICC配置檔案資產的處理。 |
+| 資產句柄 | `xsd:string` | 要更新的ICC配置檔案資產的句柄。 |
 | [!DNL class] | `xsd:string` | 配置檔案類（有關值，請參閱「配置檔案類」）。 |
-| colorSpace | `xsd:string` | 描述檔色彩空間（如需值，請參閱「色彩空間」）。 |
-| pcsType | `xsd:string` | 設定檔連線空間（如需值，請參閱「顏色空間」）。 |
+| 顏色空間 | `xsd:string` | 配置檔案顏色空間（有關值，請參閱「顏色空間」）。 |
+| pcs類型 | `xsd:string` | 配置檔案連接空間（有關值，請參閱「顏色空間」）。 |

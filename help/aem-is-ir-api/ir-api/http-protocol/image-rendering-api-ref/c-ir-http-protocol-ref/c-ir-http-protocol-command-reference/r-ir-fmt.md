@@ -8,7 +8,7 @@ exl-id: 691c5421-0754-45ce-b454-dd0ceff47a58
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
 source-wordcount: '576'
-ht-degree: 5%
+ht-degree: 4%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 5%
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
   <td class="stentry"> <p>提 </p> </td> 
-  <td class="stentry"> <p>TIFF. </p> </td> 
+  <td class="stentry"> <p>TIFF。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
@@ -97,7 +97,7 @@ ht-degree: 5%
  <tr class="strow"> 
   <td class="stentry"> <span class="varname"> tiff壓縮 </span> </td> 
   <td class="stentry"> <p>無 </p> </td> 
-  <td class="stentry"> <p>未壓縮. </p> </td> 
+  <td class="stentry"> <p>未壓縮。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
@@ -153,7 +153,7 @@ ht-degree: 5%
   </tr> 
   <tr> 
    <td colname="col1"> <p>png8、png8-alpha </p> </td> 
-   <td colname="col2"> <p>三 </p> </td> 
+   <td colname="col2"> <p>rgb </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;image/png&gt; </span> </p> </td> 
    <td colname="col4"> <p>是 </p> </td> 
    <td colname="col5"> <p> </p> </td> 

@@ -1,7 +1,7 @@
 ---
-description: 用於指定發起者的陣列，或最多5個電子郵件地址的清單，以接收確認通知。
+description: 一個陣列，用於指定發起方或最多5個電子郵件地址的清單來接收確認通知。
 solution: Experience Manager
-title: EmailArray
+title: 電子郵件陣列
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 599cf951-f3b2-4f39-bca4-0c18784f7d56
@@ -14,7 +14,7 @@ ht-degree: 12%
 
 # [!DNL EmailArray]{#emailarray}
 
-用於指定發起者的陣列，或最多5個電子郵件地址的清單，以接收確認通知。
+一個陣列，用於指定發起方或最多5個電子郵件地址的清單來接收確認通知。
 
 語法
 

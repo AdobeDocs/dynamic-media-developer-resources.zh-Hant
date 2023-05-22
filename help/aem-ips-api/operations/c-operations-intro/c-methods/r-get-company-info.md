@@ -1,5 +1,5 @@
 ---
-description: 傳回指定公司的相關資訊，包括公司控制代碼、公司名稱、根路徑和到期日。 必須指定要檢索其資訊的companyHandle或companyName。
+description: 返回有關指定公司的資訊，包括公司句柄、公司名稱、根路徑和到期日期。 必須指定要檢索其資訊的companyHandle或companyName。
 solution: Experience Manager
 title: getCompanyInfo
 feature: Dynamic Media Classic,SDK/API
@@ -7,18 +7,18 @@ role: Developer,Admin
 exl-id: 72bd223b-c99a-48a3-9c0a-d1af392d904c
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '168'
 ht-degree: 10%
 
 ---
 
 # getCompanyInfo{#getcompanyinfo}
 
-傳回指定公司的相關資訊，包括公司控制代碼、公司名稱、根路徑和到期日。 必須指定要檢索其資訊的companyHandle或companyName。
+返回有關指定公司的資訊，包括公司句柄、公司名稱、根路徑和到期日期。 必須指定要檢索其資訊的companyHandle或companyName。
 
 語法
 
-## 授權的使用者類型 {#section-74f20fb8602e4f96810795bc4b6f7fdf}
+## 授權用戶類型 {#section-74f20fb8602e4f96810795bc4b6f7fdf}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -44,15 +44,15 @@ ht-degree: 10%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> 公司句柄</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>需要<span class="codeph"> <span class="varname"> companyHandle</span> </span>或<span class="codeph"> <span class="varname"> companyName</span> </span>。 </p> </td> 
+   <td colname="col3"> <p>要麼 <span class="codeph"> <span class="varname"> 公司句柄</span> </span> 或 <span class="codeph"> <span class="varname"> 公司名稱</span> </span> 。 </p> </td> 
    <td colname="col4"> <p>您要獲取其資訊的公司的句柄。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> 公司名稱</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>需要<span class="codeph"> <span class="varname"> companyHandle</span> </span>或<span class="codeph"> <span class="varname"> companyName</span> </span>。 </p> </td> 
+   <td colname="col3"> <p>要麼 <span class="codeph"> <span class="varname"> 公司句柄</span> </span> 或 <span class="codeph"> <span class="varname"> 公司名稱</span> </span> 。 </p> </td> 
    <td colname="col4"> <p>您要獲取其資訊的公司的名稱。 </p> </td> 
   </tr> 
  </tbody> 
@@ -71,17 +71,17 @@ ht-degree: 10%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyInfo</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> 公司資訊</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 類型：公司</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>處理與公司相關的其他描述性資訊。 </p> </td> 
+   <td colname="col4"> <p>處理和有關公司的其他說明性資訊。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 範例 {#section-3d5342aa7cb34b1fa84d7dea6e16e4aa}
 
-此程式碼範例會使用公司名稱和控制代碼，傳回公司的所有相關資訊。 它會傳回與建立公司時收到的回應類似的資料。
+此代碼示例使用公司名稱和句柄返回有關公司的所有資訊。 它返回與建立公司時收到的響應類似的資料。
 
 **請求**
 

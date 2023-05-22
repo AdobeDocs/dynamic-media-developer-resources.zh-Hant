@@ -1,7 +1,7 @@
 ---
 description: 用於更新資產發佈狀態的參數。
 solution: Experience Manager
-title: PublishStateUpdate
+title: 發佈狀態更新
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b1767e3c-7e77-44a3-9bd2-e7d7587c014f
@@ -22,5 +22,5 @@ ht-degree: 15%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| assetHandle | `xsd:string` | 資產控制代碼。 |
-| publishState | `xsd:string` | 新發佈狀態。 |
+| 資產句柄 | `xsd:string` | 資產句柄。 |
+| 發佈狀態 | `xsd:string` | 新建發佈狀態。 |

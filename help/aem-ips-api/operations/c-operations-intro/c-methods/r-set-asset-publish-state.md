@@ -1,24 +1,24 @@
 ---
-description: 判斷資產是否已準備好發佈。
+description: 確定資產是否準備發佈。
 solution: Experience Manager
 title: setAssetPublishState
-feature: Dynamic Media Classic,SDK/API，資產管理
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 0dc195ee-9229-40a3-ad8b-8f00c2c9ff97
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 18%
+source-wordcount: '95'
+ht-degree: 20%
 
 ---
 
 # setAssetPublishState{#setassetpublishstate}
 
-判斷資產是否已準備好發佈。
+確定資產是否準備發佈。
 
 語法
 
-## 授權的使用者類型 {#section-11bec77e50b24461bb8c8aacf016eec8}
+## 授權用戶類型 {#section-11bec77e50b24461bb8c8aacf016eec8}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -28,7 +28,7 @@ ht-degree: 18%
 
 >[!NOTE]
 >
->使用者必須擁有資產的讀取和寫入存取權。
+>用戶必須具有對資產的讀寫權限。
 
 ## 參數 {#section-09d2ba001a2a455a9102550272f3eecb}
 
@@ -45,30 +45,30 @@ ht-degree: 18%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 公司句柄</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 公司的把手。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 資產句柄</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 資產控制代碼。 </td> 
+   <td colname="col4"> 資產句柄。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> publishState</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 發佈狀態</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4">可用狀態： 
     <ul id="ul_A2614608DF1E4DB6BF8141D33E59D180"> 
-     <li id="li_8C90BFEEE2B14A0184F342018C45EE67"><span class="codeph"> MarkedForPublish</span> </li> 
-     <li id="li_C4BC12B304DA4763956C3049AF597D06"><span class="codeph"> NotMarkedForPublish</span> </li> 
+     <li id="li_8C90BFEEE2B14A0184F342018C45EE67"><span class="codeph"> 標籤為發佈</span> </li> 
+     <li id="li_C4BC12B304DA4763956C3049AF597D06"><span class="codeph"> 未標籤為發佈</span> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> contextHandleArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 代碼片語  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 上下文句柄陣列</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> 代碼短語 </span> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> </td> 
   </tr> 
@@ -77,11 +77,11 @@ ht-degree: 18%
 
 **輸出**
 
-IPS API不會針對此操作傳回回應。
+IPS API不會為此操作返迴響應。
 
 ## 範例 {#section-c31ead6d0e594317a12c120509527792}
 
-此程式碼範例使用`NotMarkedForPublish`設定資產的發佈狀態。
+此代碼示例使用 `NotMarkedForPublish`。
 
 **請求**
 

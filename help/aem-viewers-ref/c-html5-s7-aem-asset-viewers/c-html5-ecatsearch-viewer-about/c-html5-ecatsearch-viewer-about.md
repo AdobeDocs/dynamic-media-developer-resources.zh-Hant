@@ -297,7 +297,7 @@ var eCatalogSearchViewer = new s7viewers.eCatalogSearchViewer({
 
 以下示例頁說明了具有無限制高度的響應設計嵌入的更多實際使用案例：
 
-[現場演示](https://landing.adobe.com/tw/na/dynamic-media/ctir-2755/live-demos.html)
+[現場演示](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
 **定義寬度和高度的柔性尺寸嵌入**
 

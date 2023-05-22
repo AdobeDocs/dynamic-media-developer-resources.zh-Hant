@@ -1,5 +1,5 @@
 ---
-description: 由getJobLogsParam/sortBy使用
+description: getJobLogsParam/sortBy使用
 solution: Experience Manager
 title: 作業日誌排序欄位
 feature: Dynamic Media Classic,SDK/API
@@ -7,14 +7,14 @@ role: Developer,Admin
 exl-id: a84452b5-c464-4df6-b34b-1f912f89c7c7
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '23'
-ht-degree: 8%
+source-wordcount: '18'
+ht-degree: 11%
 
 ---
 
 # 作業日誌排序欄位{#job-log-sort-fields}
 
-由getJobLogsParam/sortBy使用
+getJobLogsParam/sortBy使用
 
 語法
 

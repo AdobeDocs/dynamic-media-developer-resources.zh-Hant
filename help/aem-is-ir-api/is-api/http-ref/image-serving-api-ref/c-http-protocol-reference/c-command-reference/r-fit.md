@@ -1,5 +1,5 @@
 ---
-title: 符合
+title: 合
 description: 響應影像適合模式。 指定如何計算比例因子，當用wid=和hei=和scl=指定響應大小時，該比例因子用於將複合影像縮放到響應影像。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
@@ -8,11 +8,11 @@ exl-id: d2939f86-5dab-471d-ba59-70d91ae1e4fd
 source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
 source-wordcount: '486'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
-# 符合{#fit}
+# 合{#fit}
 
 響應影像適合模式。 指定如何計算比例因子，當用wid=和hei=和scl=指定響應大小時，該比例因子用於將複合影像縮放到響應影像。
 
@@ -40,7 +40,7 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td colname="col1"> <p> <span class="codeph"> 符合 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 合 </span> </p> </td> 
    <td colname="col2"> <p>縮放複合影像，使其適用於 <span class="codeph"> wid= </span> 和 <span class="codeph"> 黑= </span>以及最小的空白和無裁剪。 響應影像的大小將與 <span class="codeph"> wid= </span> 和 <span class="codeph"> 黑= </span>。 小於 <span class="varname"> x縮放 </span> 和 <span class="varname"> 比例 </span> 的子菜單。 </p> </td> 
   </tr> 
   <tr valign="top"> 
@@ -48,7 +48,7 @@ ht-degree: 2%
    <td colname="col2"> <p>將複合影像縮放 <span class="codeph"> 合 </span> 這樣它就能適應 <span class="codeph"> wid= </span> 和 <span class="codeph"> 黑= </span>，但實際響應影像可能小於 <span class="codeph"> wid= </span> 和 <span class="codeph"> 黑= </span> 以避免白空。 小於 <span class="varname"> x縮放 </span> 和 <span class="varname"> 比例 </span> 的子菜單。 </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p> <span class="codeph"> 裁切 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 作物 </span> </p> </td> 
    <td colname="col2"> <p>縮放複合影像，以填充整個響應影像，同時裁剪最少且沒有空格。 大 <span class="varname"> x縮放 </span> 和 <span class="varname"> 比例 </span> 的子菜單。 </p> </td> 
   </tr> 
   <tr valign="top"> 

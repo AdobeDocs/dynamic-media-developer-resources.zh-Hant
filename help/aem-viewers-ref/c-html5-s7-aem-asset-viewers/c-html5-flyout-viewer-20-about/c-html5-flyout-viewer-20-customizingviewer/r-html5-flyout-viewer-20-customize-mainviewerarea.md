@@ -1,6 +1,6 @@
 ---
-title: 主觀看者區域
-description: 主視圖區域是彈出視圖和色板所佔用的區域。
+title: 主查看器區域
+description: 主視圖區域是由浮出視圖和色板佔用的區域。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
@@ -12,9 +12,9 @@ ht-degree: 3%
 
 ---
 
-# 主觀看者區域{#main-viewer-area}
+# 主查看器區域{#main-viewer-area}
 
-主視圖區域是彈出視圖和色板所佔用的區域。
+主視圖區域是由浮出視圖和色板佔用的區域。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -36,20 +36,20 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>檢視器的寬度。 </p> </td> 
+   <td colname="col2"> <p>查看器的寬度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>檢視器的高度。 </p> </td> 
+   <td colname="col2"> <p>查看器的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景顏色 </span> </p> </td> 
-   <td colname="col2"> <p> 以十六進位格式表示的背景顏色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
+   <td colname="col2"> <p> 十六進位格式的背景色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-範例 — 設定具有白色背景的彈出檢視器( `#FFFFFF`)，並使其大小為260 x 500像素。
+示例 — 設定帶白色背景的浮出式查看器( `#FFFFFF`)，使其尺寸為260 x 500像素。
 
 ```
 .s7flyoutviewer { 

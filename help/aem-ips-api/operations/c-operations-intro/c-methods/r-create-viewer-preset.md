@@ -33,7 +33,7 @@ ht-degree: 13%
 |---|---|---|---|
 | 公司句柄 | `xsd:string` | 是 | 包含查看器預設和資產的公司句柄。 |
 | folderHandle | `xsd:string` | 是 | 包含資產的資料夾的句柄。 |
-| 名稱 | `xsd:string` | 是 | 查看器名稱。 |
+| name | `xsd:string` | 是 | 查看器名稱。 |
 | type | `xsd:string` | 是 | 檢視器類型. |
 | configSettingArray | `types:ConfigSettingArray` | 否 | 包含要應用預設的影像的名稱、值和句柄的陣列。 |
 

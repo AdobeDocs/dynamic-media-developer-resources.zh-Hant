@@ -107,13 +107,13 @@ ht-degree: 11%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 排序依據</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> xsd：字串</span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>否 </p> </td> 
    <td colname="col4"> <p>按所選資產欄位排序。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> 排序方向</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd：字串</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>否 </p> </td> 
    <td colname="col4"> <p>排序方向的選擇。 升序為預設值。 </p> </td> 
   </tr> 

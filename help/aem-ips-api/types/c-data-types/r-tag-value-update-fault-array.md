@@ -22,4 +22,4 @@ ht-degree: 20%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 項目 | `types:TagValueUpdateFault` | 標籤值更新錯誤的陣列（錯誤訊息）。 |
+| 項目 | `types:TagValueUpdateFault` | 標籤值更新錯誤陣列（錯誤消息）。 |

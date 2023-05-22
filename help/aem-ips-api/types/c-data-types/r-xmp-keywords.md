@@ -1,7 +1,7 @@
 ---
-description: 資產的可擴充中繼資料平台關鍵字。
+description: 資產的可擴展元資料平台關鍵字。
 solution: Experience Manager
-title: XmpKeywords
+title: Xmp關鍵字
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f1ad16c8-cba2-4ef0-9558-6a4086c71393
@@ -14,7 +14,7 @@ ht-degree: 21%
 
 # [!DNL XmpKeywords]{#xmpkeywords}
 
-資產的可擴充中繼資料平台關鍵字。
+資產的可擴展元資料平台關鍵字。
 
 語法
 
@@ -32,7 +32,7 @@ ht-degree: 21%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 項目</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>以逗號分隔，合併至 <span class="codeph"> dc:subject=</span> XMP屬性節點。 如果逗號出現在任何個別值中，則需以反斜線(\)字元逸出。 如果是常值反斜線，則使用一般的雙反斜線 (\\)。 </p> </td> 
+   <td colname="col3"> <p>合併到的以逗號分隔的關鍵字清單 <span class="codeph"> dc：主題=</span> 屬性XMP節點。 如果逗號出現在任何單個值中，則需要用反斜槓(\)字元轉義它。 如果是常值反斜線，則使用一般的雙反斜線 (\\)。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

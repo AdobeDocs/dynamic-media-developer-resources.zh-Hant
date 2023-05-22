@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 3d5eb17d-668a-4ad8-9f84-5684941d450d
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '79'
+ht-degree: 5%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p>指定何時顯示資訊面板。 </p> <p>若設為 <span class="codeph"> 1</span>，則當滑鼠進入影像映射區域時，會顯示資訊面板(如果影像映射為非空白，則 <span class="codeph"> rovell_key</span> 屬性)。 </p> <p>若設為 <span class="codeph"> 0</span> 選取影像對應時(如果影像對應具有非空白的 <span class="codeph"> rovell_key</span> 空白 <span class="codeph"> href</span> 屬性)。 </p> <p> 在觸控式裝置上忽略，包括可觸控的案頭系統，且會自動設為 <span class="codeph"> 0</span>. </p> </td> 
+   <td colname="col2"> <p>指定何時顯示資訊面板。 </p> <p>如果設定為 <span class="codeph"> 1</span>，當滑鼠進入影像映射區時，將顯示資訊面板(如果影像映射為非空， <span class="codeph"> rovel_key</span> 屬性)。 </p> <p>如果設定為 <span class="codeph"> 0</span> 選擇影像映射時(如果影像映射具有非空的 <span class="codeph"> rovel_key</span> 空 <span class="codeph"> href</span> 屬性)。 </p> <p> 在觸摸設備（包括啟用觸摸的台式機系統）上忽略，並自動設定為 <span class="codeph"> 0</span>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 屬性 {#section-ccfedc2da28f412a86d03f390db92b4b}
 
-選填。
+選擇性.
 
 ## 預設 {#section-79eb39c444814c9398df1f5f3730d289}
 

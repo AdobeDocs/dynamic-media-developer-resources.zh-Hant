@@ -1,5 +1,5 @@
 ---
-title: 彈出縮放檢視
+title: 浮動縮放視圖
 description: 在串聯縮放模式下，主視圖由靜態影像組成。 它還包括靜態影像上的彈出視圖中顯示的縮放影像，以及靜態影像頂部顯示的提示資訊。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
@@ -8,11 +8,11 @@ exl-id: 46c91d1f-5809-4270-a06d-5068d20a6341
 source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
 source-wordcount: '257'
-ht-degree: 5%
+ht-degree: 2%
 
 ---
 
-# 彈出縮放檢視{#flyout-zoom-view}
+# 浮動縮放視圖{#flyout-zoom-view}
 
 在串聯縮放模式下，主視圖由靜態影像組成。 它還包括靜態影像上的彈出視圖中顯示的縮放影像，以及靜態影像頂部顯示的提示資訊。
 

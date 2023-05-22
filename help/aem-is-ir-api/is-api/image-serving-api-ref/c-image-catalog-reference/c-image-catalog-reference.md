@@ -1,20 +1,20 @@
 ---
-description: 影像目錄向伺服器提供關於影像和支援資料（如字型和ICC配置檔案）的資訊。
+description: 影像目錄向伺服器提供有關影像和支援資料（如字型和ICC配置檔案）的資訊。
 solution: Experience Manager
-title: 影像目錄參考
+title: 影像目錄引用
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c41a0581-1025-4fad-a157-5e371a7d398a
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 1%
+source-wordcount: '50'
+ht-degree: 2%
 
 ---
 
-# 影像目錄參考{#image-catalog-reference}
+# 影像目錄引用{#image-catalog-reference}
 
-影像目錄向伺服器提供關於影像和支援資料（如字型和ICC配置檔案）的資訊。
+影像目錄向伺服器提供有關影像和支援資料（如字型和ICC配置檔案）的資訊。
 
 * [概述](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md)
 * [更新影像目錄](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-updating-image-catalogs.md)

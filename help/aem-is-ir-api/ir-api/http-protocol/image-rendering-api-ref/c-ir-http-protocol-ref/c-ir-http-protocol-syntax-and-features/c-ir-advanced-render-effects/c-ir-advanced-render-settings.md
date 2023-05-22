@@ -95,7 +95,7 @@ Vignette創作工具(Dynamic Media影像創作軟體包的一部分)提供了控
       <li id="li_FD4C859D975B44399475D4D93D6B05AB">最近鄰居 </li> 
       <li id="li_CA93566F5D4F4D3CAA1D0816562A3851">雙線性 </li> 
       <li id="li_D334ACF969E749A89A464B21C96CE8A6">超採樣 </li> 
-      <li id="li_FAC72C36FF4A418F8A5B05F3B4E7C5D8">最適化 </li> 
+      <li id="li_FAC72C36FF4A418F8A5B05F3B4E7C5D8">自適應 </li> 
       <li id="li_6E9D81045A0C4804A4D35D9B239F6486">泊松採樣器 </li> 
      </ul> </p> </td> 
   </tr> 

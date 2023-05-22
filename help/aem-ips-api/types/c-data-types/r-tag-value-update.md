@@ -1,7 +1,7 @@
 ---
-description: 定義舊標籤欄位和新標籤欄位值。
+description: 定義舊標籤和新標籤欄位值。
 solution: Experience Manager
-title: TagValueUpdate
+title: 標籤值更新
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f29d027a-375c-4ff0-8d4b-5c9f858a7a5e
@@ -14,7 +14,7 @@ ht-degree: 16%
 
 # [!DNL TagValueUpdate]{#tagvalueupdate}
 
-定義舊標籤欄位和新標籤欄位值。
+定義舊標籤和新標籤欄位值。
 
 語法
 
@@ -22,5 +22,5 @@ ht-degree: 16%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| oldValue | `xsd:string` | 原始標籤欄位值。 |
-| newValue | `xsd:string` | 新標籤欄位值。 |
+| 舊值 | `xsd:string` | 原始標籤欄位值。 |
+| 新值 | `xsd:string` | 新建標籤欄位值。 |

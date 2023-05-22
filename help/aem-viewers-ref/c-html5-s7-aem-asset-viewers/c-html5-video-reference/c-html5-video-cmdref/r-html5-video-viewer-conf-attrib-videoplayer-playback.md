@@ -8,7 +8,7 @@ exl-id: 54a10b30-ebf5-4f1e-aa4a-b09055453c4e
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '116'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 3%
 
 ## 屬性 {#section-f42369774e2740dcb399626a0e4e930e}
 
-選填。
+選擇性.
 
 查看器處理外部視頻時忽略。 請參閱 [外部視頻支援](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-external-video-support.md#concept-22c67fee43274a29b28ee16770b1b1f3)。
 

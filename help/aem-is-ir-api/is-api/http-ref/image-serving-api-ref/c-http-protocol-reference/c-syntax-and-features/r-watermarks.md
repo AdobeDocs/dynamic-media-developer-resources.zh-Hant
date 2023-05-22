@@ -1,18 +1,18 @@
 ---
 description: 影像服務實現了簡單的視覺水印工具。
 solution: Experience Manager
-title: 浮水印
+title: 水印
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e744be3f-9753-4513-8f37-055fa03077cc
 source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
 source-wordcount: '460'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
-# 浮水印{#watermarks}
+# 水印{#watermarks}
 
 影像服務實現了簡單的視覺水印工具。
 

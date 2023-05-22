@@ -269,7 +269,7 @@ var panoramicViewer = new s7viewers.PanoramicViewer({
 
 以下示例頁說明了在不受限制高度的情況下更真實地使用響應性設計嵌入：
 
-[即時演示](https://landing.adobe.com/tw/na/dynamic-media/ctir-2755/live-demos.html)
+[即時演示](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
 [備用演示位置](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 

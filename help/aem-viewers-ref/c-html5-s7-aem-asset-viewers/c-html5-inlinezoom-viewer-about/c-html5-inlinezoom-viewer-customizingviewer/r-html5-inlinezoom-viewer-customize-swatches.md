@@ -1,6 +1,6 @@
 ---
 title: 調色板
-description: 色票由一列縮圖影像組成，左側和右側有可選的捲動按鈕。
+description: 色板由一行縮覽圖影像組成，左側和右側帶有可選滾動按鈕。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 3%
 
 # 調色板{#swatches}
 
-色票由一列縮圖影像組成，左側和右側有可選的捲動按鈕。
+色板由一行縮覽圖影像組成，左側和右側帶有可選滾動按鈕。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-只有當所有縮圖都無法放入容器寬度時，捲動按鈕才會顯示在案頭上。 在行動裝置上，或如果縮圖可符合容器寬度，則不會顯示捲動按鈕。
+僅當所有縮略圖都不能容納到容器的寬度中時，滾動按鈕才在案頭上可見。 在移動設備上，或如果縮覽圖可以容納在容器寬度中，則不顯示滾動按鈕。
 
-**色票的CSS屬性**
+**色板的CSS屬性**
 
 使用以下CSS類選擇器控制色板容器的外觀：
 
@@ -38,20 +38,20 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> 色票的寬度。 </p> </td> 
+   <td colname="col2"> <p> 色板的寬度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>色票的高度。 </p> </td> 
+   <td colname="col2"> <p>色板的高度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 底部 </span> </p> </td> 
-   <td colname="col2"> <p> 垂直色票相對於檢視器容器偏移。 </p> </td> 
+   <td colname="col2"> <p> 垂直色板相對於查看器容器偏移。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-範例：若要將色票設定為460 x 100像素：
+示例 — 將色板設定為460 x 100像素：
 
 ```
 .s7flyoutviewer .s7swatches { 
@@ -60,9 +60,9 @@ ht-degree: 3%
 }
 ```
 
-**縮圖色票間距的CSS屬性**
+**縮略圖色板間距的CSS屬性**
 
-使用CSS類選擇器控制色板縮圖之間的間距：
+使用CSS類選擇器控制色板縮略圖之間的間距：
 
 ```
 .s7flyoutviewer .s7swatches .s7thumbcell
@@ -78,12 +78,12 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> 每個縮圖周圍的水準和垂直邊界的大小。 實際縮圖間距等於設定的左右邊界總和 <span class="codeph"> .s7thumbcell </span>. </p> </td> 
+   <td colname="col2"> <p> 每個縮覽圖周圍的水準和垂直邊距的大小。 實際縮略圖間距等於為設定的左邊距和右邊距的和 <span class="codeph"> .s7拇指單元 </span>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例 — 要將間距設定為垂直和水準10個像素：
+示例 — 將間距設定為垂直和水準十個像素：
 
 ```
 .s7flyoutviewer .s7swatches .s7thumbcell { 
@@ -91,9 +91,9 @@ ht-degree: 3%
 }
 ```
 
-**縮圖色票的CSS屬性**
+**縮略圖色板的CSS屬性**
 
-個別縮圖的外觀由下列CSS類別選取器控制：
+單個縮略圖的外觀由以下CSS類選擇器控制：
 
 ```
 .s7flyoutviewer .s7swatches .s7thumb
@@ -108,25 +108,25 @@ ht-degree: 3%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
-   <td colname="col2"> <p> 縮圖色票的寬度。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col2"> <p> 縮略圖色板的寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
-   <td colname="col2"> <p>縮圖色票的高度。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col2"> <p>縮略圖色板的高度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
-   <td colname="col2"> <p>縮圖色票的邊框。 </p> </td> 
+   <td colname="col2"> <p>縮略圖色板的邊框。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->縮圖支援 `state` 屬性選取器，用於將不同的外觀套用至不同的縮圖狀態。 特別是， `state="selected"` 對應於當前顯示在主視圖中的影像的縮略圖， `state="default"` 與縮圖的其餘部分對應， `state="over"` 用於滑鼠暫留。
+>縮略圖支援 `state` 屬性選擇器，用於將不同外觀應用於不同的縮略圖狀態。 特別是， `state="selected"` 與當前顯示在主視圖中的影像的縮略圖相對應， `state="default"` 與其餘縮略圖相對應， `state="over"` 用於滑鼠懸停。
 
-範例 — 若要設定縮圖，縮圖為56 x 56像素、有淺灰色預設邊框和深灰色選取的邊框：
+示例 — 要設定56 x 56像素的縮略圖，請設定淺灰色預設邊框和深灰色選定邊框：
 
 ```
 .s7flyoutviewer .s7swatches .s7thumb { 
@@ -141,16 +141,16 @@ ht-degree: 3%
 }
 ```
 
-**左右捲動按鈕的CSS屬性**
+**左滾動和右滾動按鈕的CSS屬性**
 
-左和右捲動按鈕的外觀由下列CSS類選擇器控制：
+左滾動按鈕和右滾動按鈕的外觀由以下CSS類選擇器控制：
 
 ```
 .s7flyoutviewer .s7swatches .s7scrollleftbutton 
 .s7flyoutviewer .s7swatches .s7scrollrightbutton
 ```
 
-無法使用CSS定位捲動按鈕 `top`, `left`, `bottom`，和 `right` 屬性。 檢視器邏輯會自動定位。
+無法使用CSS定位滾動按鈕 `top`。 `left`。 `bottom`, `right` 屬性。 相反，查看器邏輯自動定位它們。
 
 <table id="table_F957367566C542829E2F6D296F9DAAC5"> 
  <thead> 
@@ -161,31 +161,31 @@ ht-degree: 3%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
-   <td colname="col2"> <p> 捲動按鈕的寬度。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col2"> <p> 滾動按鈕的寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
-   <td colname="col2"> <p>捲動按鈕的高度。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col2"> <p>滾動按鈕的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景 — 影像 </span> </p> </td> 
-   <td colname="col2"> <p>針對指定按鈕狀態顯示的影像。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景影像 </span> </p> </td> 
+   <td colname="col2"> <p>為給定按鈕狀態顯示的影像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS精靈，則位於圖稿精靈內。 </p> <p>請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/c-html5-inlinezoom-viewer-customizingviewer.md#section-b0af39db1af74561aea9fddcc8cdc2c7" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS浮雕，則在圖稿浮雕內定位。 </p> <p>請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/c-html5-inlinezoom-viewer-customizingviewer.md#section-b0af39db1af74561aea9fddcc8cdc2c7" format="dita" scope="local"> CSS繁體 </a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按鈕支援 `state` 屬性選取器，用於將不同外觀套用至按鈕狀態 `up`, `down`, `over`，和 `disabled`.
+>此按鈕支援 `state` 屬性選擇器，用於將不同外觀應用於按鈕狀態 `up`。 `down`。 `over`, `disabled`。
 
-按鈕工具提示可翻譯。 請參閱 [用戶介面元素本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) 以取得更多資訊。
+按鈕工具提示可以本地化。 請參閱 [用戶介面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) 的子菜單。
 
-示例 — 要設定56 x 56像素的捲動按鈕，並且每個狀態的圖稿都不同：
+示例 — 設定56 x 56像素且每種狀態具有不同圖稿的滾動按鈕：
 
 ```
 .s7flyoutviewer .s7swatches .s7scrollleftbutton { 

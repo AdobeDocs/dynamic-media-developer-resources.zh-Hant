@@ -1,7 +1,7 @@
 ---
 description: 字型資產屬性。
 solution: Experience Manager
-title: FontInfo
+title: 字型資訊
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1ad2c3b4-32b1-4f39-869e-85ff5a0c734c
@@ -22,6 +22,6 @@ ht-degree: 33%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| originalPath | `xsd:string` | 字型路徑。 |
-| originalFile | `xsd:string` | 字型名稱。 |
-| fileSize | `xsd:int` | 字型大小. |
+| 原始路徑 | `xsd:string` | 字型路徑。 |
+| 原始檔案 | `xsd:string` | 字型名稱。 |
+| 檔案大小 | `xsd:int` | 字型大小. |

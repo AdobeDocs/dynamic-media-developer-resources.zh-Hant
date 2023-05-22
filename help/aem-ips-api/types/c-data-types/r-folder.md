@@ -1,5 +1,5 @@
 ---
-description: 階層式檔案或資產儲存物件。 資料夾可以包含一（或多個）子資料夾。
+description: 分層檔案或資產儲存對象。 資料夾可以包含一個（或多個）子資料夾。
 solution: Experience Manager
 title: 檔案夾
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 8%
 
 # [!DNL Folder]{#folder}
 
-階層式檔案或資產儲存物件。 資料夾可以包含一（或多個）子資料夾。
+分層檔案或資產儲存對象。 資料夾可以包含一個（或多個）子資料夾。
 
 語法
 
@@ -24,8 +24,8 @@ ht-degree: 8%
 |---|---|---|
 | folderHandle | `xsd:string` | 資料夾句柄。 |
 | [!DNL path] | `xsd:string` | 資料夾路徑。 |
-| lastModified | `xsd:dateTime` | 上次修改日期。 |
-| childLastModified | `xsd:dateTime` | 子資料夾和資料夾子資產的上次修改日期。 |
-| permissionsSetHandle | `xsd:string` | 資料夾權限處理。 |
-| hasSubfolder | `types:Boolean` | 確定資料夾是否包含子資料夾。 |
-| subfolderArray | `types:FolderArray` | 資料夾中的子資料夾陣列。 |
+| 上次修改時間 | `xsd:dateTime` | 上次修改日期。 |
+| 子上次修改時間 | `xsd:dateTime` | 子資料夾和資料夾子資產的上次修改日期。 |
+| 權限SetHandle | `xsd:string` | 資料夾權限句柄。 |
+| 有子資料夾 | `types:Boolean` | 確定資料夾是否包含子資料夾。 |
+| 子資料夾陣列 | `types:FolderArray` | 資料夾中的子資料夾陣列。 |

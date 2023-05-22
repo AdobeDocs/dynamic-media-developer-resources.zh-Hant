@@ -49,31 +49,31 @@ ht-degree: 16%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 欄位句柄</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd：字串</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 欄位句柄。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 資產類型</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd：字串</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 從中保存元資料的資產類型選擇。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 名稱</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd：字串</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 欄位名稱。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 欄位類型</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd：字串</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 元資料欄位類型的選擇。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd：字串</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 所有資產的欄位的預設值。 </td> 
   </tr> 
@@ -85,7 +85,7 @@ ht-degree: 16%
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"><span class="varname"> 強制</span></span> </td> 
-   <td colname="col2"><span class="codeph"> xsd：布爾</span> </td> 
+   <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
    <td colname="col4"> <p>一個布爾標誌，指示在設定值時是否強制（驗證）元資料欄位。 </p> <p>如果設定為true，則如果在中設定了非法值，則會拋出錯誤 <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>。 </p> </td> 
   </tr> 

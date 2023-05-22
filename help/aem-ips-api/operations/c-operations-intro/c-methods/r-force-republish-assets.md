@@ -1,5 +1,5 @@
 ---
-description: 重設一或多個資產的發佈狀態，以強制在下一個發佈工作中重新發佈資產。
+description: 重置一個或多個資產的發佈狀態，以強制在下一個發佈作業中重新發佈資產。
 solution: Experience Manager
 title: forceRepublishAssets
 feature: Dynamic Media Classic,SDK/API
@@ -7,18 +7,18 @@ role: Developer,Admin
 exl-id: 4c75af38-4791-4f21-8d1b-4855fcdfd4b1
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '162'
 ht-degree: 12%
 
 ---
 
 # forceRepublishAssets{#forcerepublishassets}
 
-重設一或多個資產的發佈狀態，以強制在下一個發佈工作中重新發佈資產。
+重置一個或多個資產的發佈狀態，以強制在下一個發佈作業中重新發佈資產。
 
 語法
 
-## 授權的使用者類型 {#section-3d5a3e3afea748d69845de5c8c376448}
+## 授權用戶類型 {#section-3d5a3e3afea748d69845de5c8c376448}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -42,28 +42,28 @@ ht-degree: 12%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 公司句柄</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>處理包含要重設資產的公司。 </p> </td> 
+   <td colname="col4"> <p>處理包含要重置的資產的公司。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="codeph"> <span class="varname"> republishFiles</span> </span> </td> 
+   <td colname="col1"><span class="codeph"> <span class="varname"> 重新發佈檔案</span> </span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>指定資產的檔案會重新發佈至傳送伺服器。 預設為<span class="codeph"> true</span>。 </p> </td> 
+   <td colname="col4"> <p>指定資產的檔案將重新發佈到交付伺服器。 預設為 <span class="codeph"> 真</span>。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="codeph"> <span class="varname"> resyncCatalog</span> </span> </td> 
+   <td colname="col1"><span class="codeph"> <span class="varname"> 重新同步目錄</span> </span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>指定用來提供資產的目錄中繼資料會同步，以保證為最新。 此參數可用來解決同一記錄的同時更新附近可能發生的競爭條件。 預設為<span class="codeph"> false</span>。 </p> </td> 
+   <td colname="col4"> <p>指定用於為資產提供服務的目錄元資料已同步，以確保其是最新的。 此參數用於解決在同一記錄的近期併發更新時可能發生的競爭條件。 預設為 <span class="codeph"> 假</span>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 類型：HandleArray</span> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>要重設發佈狀態的資產的控點陣列。 </p> </td> 
+   <td colname="col4"> <p>要重置發佈狀態的資產的句柄陣列。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

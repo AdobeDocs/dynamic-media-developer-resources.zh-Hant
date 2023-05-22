@@ -8,7 +8,7 @@ exl-id: 051bfbed-103e-4fcf-9f01-93f03730397a
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
 source-wordcount: '138'
-ht-degree: 6%
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 6%
 
 **主查看器區域的CSS屬性**
 
-工具提示的外觀由下列CSS類選擇器控制：
+工具提示的外觀由以下CSS類選擇器控制：
 
 ```
 .s7tooltip
@@ -35,27 +35,27 @@ ht-degree: 6%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 邊框半徑  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 邊界半徑 </span> </p> </td> 
    <td colname="col2"> <p> 背景邊框半徑。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 邊框顏色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 邊框顏色 </span> </p> </td> 
    <td colname="col2"> <p> 背景邊框顏色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景顏色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
    <td colname="col2"> <p> 背景顏色. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p>文字色彩. </p> </td> 
+   <td colname="col2"> <p>文本顏色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型系列  </span> </p> </td> 
-   <td colname="col2"> <p>文字字型名稱. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字型系列 </span> </p> </td> 
+   <td colname="col2"> <p>文本字型名稱。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型大小  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字型大小 </span> </p> </td> 
    <td colname="col2"> <p>文本字型大小。 </p> </td> 
   </tr> 
  </tbody> 
@@ -63,9 +63,9 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->如果從嵌入網頁中自定義工具提示樣式，則所有屬性必須包含`!IMPORTANT`規則。 如果在檢視器的CSS檔案中自訂了工具提示，則不需要此規則。
+>如果工具提示樣式是從嵌入網頁中自定義的，則所有屬性必須包含 `!IMPORTANT` 規則。 如果工具提示是在查看器的CSS檔案中自定義的，則不需要此規則。
 
-示例 — 要設定工具提示，這些工具提示的灰邊框具有三個像素角半徑、黑色背景和白字(以Arial®、11像素表示):
+示例 — 要在Arial®中設定具有三像素角半徑、黑色背景和白色文本的灰色邊框的工具提示，以11像素為單位：
 
 ```
 .s7tooltip { 

@@ -1,6 +1,6 @@
 ---
-title: setAsset
-description: 內嵌縮放檢視器的JavaScript API參考。
+title: 設定資產
+description: 內聯縮放查看器的JavaScript API參考。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
@@ -12,9 +12,9 @@ ht-degree: 2%
 
 ---
 
-# setAsset{#setasset}
+# 設定資產{#setasset}
 
-內嵌縮放檢視器的JavaScript API參考。
+內聯縮放查看器的JavaScript API參考。
 
 ` setAsset( *`asset`*)`
 
@@ -22,22 +22,22 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 資產</span> </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> 字串</span>}新資產ID、顯式影像集或含有特定影像伺服修飾元的顯式影像集，並附加在後面的選用全域影像伺服修飾元 <span class="codeph"> ?</span>. </p> <p> 此檢視器不支援使用IR（影像轉譯）或UGC（使用者產生的內容）的影像。 </p> </td> 
+   <td colname="col2"> <p>{ 0}<span class="codeph"> 字串</span>}新資產id、顯式影像集或顯式影像集，其中包含特定於幀的影像服務修飾符，並附加可選全局影像服務修飾符 <span class="codeph"> ?</span>。 </p> <p> 此查看器不支援使用IR（影像呈現）或UGC（用戶生成的內容）的影像。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-設定新資產。 您可以在任何時間（在之前或之後）呼叫此參數 `init()`. 如果在 `init()`，檢視器會在執行階段交換資產。
+設定新資產。 可以在任何時間（在之前或之後）調用此參數 `init()`。 如果在 `init()`，查看器在運行時交換資產。
 
-另請參閱 [init](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-init.md#reference-8651640683fc4a538bfb660709d1a463).
+另請參閱 [初始化](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-init.md#reference-8651640683fc4a538bfb660709d1a463)。
 
-## 傳回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## 返回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 無。
 
 ## 範例 {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 
-單一影像參考：
+單個影像引用：
 
 ```
 <instance>.setAsset("Scene7SharedAssets/Backpack_B")
@@ -55,13 +55,13 @@ ht-degree: 2%
 <instance>.setAsset("Scene7SharedAssets/Backpack_B,Scene7SharedAssets/Backpack_C")
 ```
 
-使用特定於幀的影像服務修飾符設定的顯式影像集：
+具有特定於幀的Image Service修飾符的顯式影像集：
 
 ```
 <instance>.setAsset("(Scene7SharedAssets/Backpack_B?op_colorize=255%2C0%2C0,Scene7SharedAssets/Backpack_B?op_colorize=0x00ff00)")
 ```
 
-集合中的所有影像都新增銳利化修飾元：
+銳化修飾符添加到集中的所有影像：
 
 ```
 <instance>.setAsset("Scene7SharedAssets/Backpack_B,Scene7SharedAssets/Backpack_C?op_sharpen=1")

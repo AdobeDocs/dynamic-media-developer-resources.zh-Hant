@@ -1,5 +1,5 @@
 ---
-description: 此 [!DNL Platform Server] 將記錄寫入此日誌檔案，以記錄警告和錯誤，保留啟動、關閉和目錄載入事件的記錄。
+description: 的 [!DNL Platform Server] 將記錄寫入此日誌檔案以記錄警告和錯誤，並保留啟動、關閉和目錄載入事件的記錄。
 solution: Experience Manager
 title: 跟蹤日誌
 feature: Dynamic Media Classic,SDK/API
@@ -14,4 +14,4 @@ ht-degree: 0%
 
 # 跟蹤日誌{#trace-log}
 
-此 [!DNL Platform Server] 將記錄寫入此日誌檔案，以記錄警告和錯誤，保留啟動、關閉和目錄載入事件的記錄。
+的 [!DNL Platform Server] 將記錄寫入此日誌檔案以記錄警告和錯誤，並保留啟動、關閉和目錄載入事件的記錄。

@@ -51,7 +51,7 @@ ht-degree: 0%
    <td colname="col2"> <p>Esc鍵。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>平移 </p> </td> 
+   <td colname="col1"> <p>盤 </p> </td> 
    <td colname="col2"> <p>上、下、左或右箭頭鍵。 </p> </td> 
   </tr> 
   <tr> 

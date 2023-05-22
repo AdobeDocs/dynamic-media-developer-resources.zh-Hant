@@ -1,7 +1,7 @@
 ---
-description: CompanyMembershipArray
+description: 公司成員資格陣列
 solution: Experience Manager
-title: CompanyMembershipArray
+title: 公司成員資格陣列
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 3c272b30-c433-4350-a17c-6f49f48ec0fd

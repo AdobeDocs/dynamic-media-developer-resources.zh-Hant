@@ -12,7 +12,7 @@ ht-degree: 4%
 
 ---
 
-# 標題{#header}
+# header{#header}
 
 HTTP響應頭元素。 可選 `<rule>` 元素。
 

@@ -1,6 +1,6 @@
 ---
-title: serverUrl
-description: 所有檢視器通用的參數。
+title: 伺服器URL
+description: 所有查看器通用的參數。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
@@ -8,28 +8,28 @@ exl-id: c9da3d5b-492d-4e1f-8fdc-3255b2b40fc6
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
 source-wordcount: '100'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
-# serverUrl{#serverurl}
+# 伺服器URL{#serverurl}
 
-所有檢視器通用的參數。
+所有查看器通用的參數。
 
-` serverUrl= *`isRootPath`*`
+` serverUrl= *`是根路徑`*`
 
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isRootPath</span> </span> </p> </td> 
-   <td colname="col2"> <p>相對或絕對影像伺服根路徑。 </p> <p> 指定「影像伺服」的相對或絕對路徑，檢視器會從該處擷取影像。 如果路徑的前導字元為<span class="filepath"> /</span>，則會相對於檢視器HTML頁面的位置。 如果路徑的前導<span class="filepath"> /</span> ，則它指定同一伺服器上的絕對路徑。 </p> <p> 若檢視器中已啟用電子郵件共用模組，請僅使用絕對路徑。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 是根路徑</span> </span> </p> </td> 
+   <td colname="col2"> <p>相對或絕對影像服務根路徑。 </p> <p> 指定影像服務的相對或絕對路徑，查看器從中檢索影像。 如果路徑沒有前導 <span class="filepath"> /</span>，它與查看器HTML頁的位置相關。 如果路徑具有前導 <span class="filepath"> /</span>，它指定同一伺服器上的絕對路徑。 </p> <p> 如果在查看器中啟用了電子郵件共用模組，則只使用絕對路徑。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 屬性 {#section-10ee45d637134e0fbcd943c62578cb78}
 
-選填。標準SaaS（軟體即服務）使用不需要。
+選擇性. 標準SaaS（軟體即服務）使用不需要。
 
 ## 預設 {#section-d411e450028c460392cb8508f8ccc5d9}
 

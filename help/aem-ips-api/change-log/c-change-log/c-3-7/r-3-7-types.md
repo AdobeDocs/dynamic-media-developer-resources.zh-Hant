@@ -1,20 +1,20 @@
 ---
-description: 說明IPS API 3.7版的新資料類型和更改的資料類型。
+description: 介紹IPS API 3.7版的新資料類型和更改的資料類型。
 solution: Experience Manager
-title: 資料類型新增和修改
+title: 新建和修改的資料類型
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0209f3aa-204a-47bd-98ff-430bd8f3ac0e
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 6%
+source-wordcount: '39'
+ht-degree: 5%
 
 ---
 
-# 資料類型：新增和修改{#data-types-new-and-modified}
+# 資料類型：新建和修改{#data-types-new-and-modified}
 
-說明IPS API 3.7版的新資料類型和更改的資料類型。
+介紹IPS API 3.7版的新資料類型和更改的資料類型。
 
 語法
 

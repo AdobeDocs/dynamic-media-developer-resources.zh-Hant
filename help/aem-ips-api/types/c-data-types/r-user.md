@@ -23,9 +23,9 @@ ht-degree: 9%
 | 名稱 | 類型 | 說明 |
 |---|---|---|
 | userHandle | `xsd:string` | 用戶句柄。 |
-| firstName | `xsd:string` | 用戶名。 |
-| lastName | `xsd:string` | 用戶名。 |
+| 名字 | `xsd:string` | 用戶名。 |
+| 姓氏 | `xsd:string` | 用戶姓。 |
 | 電子郵件 | `xsd:string` | 電子郵件地址。 |
-| defaultRole | `xsd:string` | 設定使用者所屬每個公司中的角色。 不過，使用者角色 `IpsAmin` 會覆寫其他使用者角色。 |
-| isValid | `xsd:boolean` | 確定用戶是否有效。 |
-| passwordExpires | `xsd:dateTime` | 設定密碼到期日期。 |
+| 預設角色 | `xsd:string` | 設定用戶所屬每個公司中用戶的角色。 但是，用戶角色 `IpsAmin` 覆蓋其他用戶角色。 |
+| 有效 | `xsd:boolean` | 確定用戶是否有效。 |
+| 密碼過期 | `xsd:dateTime` | 設定密碼到期日期。 |

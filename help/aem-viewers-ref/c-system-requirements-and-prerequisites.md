@@ -57,7 +57,7 @@ Dynamic MediaHTML5觀眾的系統要求。
    * 火狐77
    * Internet Explorer 11
    * iOS10
-   * 野生動物園11
+   * Safari 11
 * *Video360Viewer* 和 *維查看器* 在以下瀏覽器/平台版本或更高版本上受支援：
    * Android™ 5（僅限電話設備）
    * 鉻82
@@ -72,7 +72,7 @@ Dynamic MediaHTML5觀眾的系統要求。
    * 火狐77
    * Internet Explorer 11
    * iOS10
-   * 野生動物園11
+   * Safari 11
 
 ## TLS 1.0和1.1的支援結束 {#tls}
 

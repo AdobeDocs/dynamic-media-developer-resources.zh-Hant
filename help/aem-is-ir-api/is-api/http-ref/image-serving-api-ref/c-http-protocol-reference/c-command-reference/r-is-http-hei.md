@@ -1,5 +1,5 @@
 ---
-description: 檢視高度. 指定請求中不存在適合時的響應影像（視圖影像）的高度。
+description: 查看高度。 指定請求中不存在適合時的響應影像（視圖影像）的高度。
 solution: Experience Manager
 title: hei
 feature: Dynamic Media Classic,SDK/API
@@ -7,14 +7,14 @@ role: Developer,User
 exl-id: c812c7f0-4ac1-42cb-be47-7baebd8caf60
 source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '280'
+ht-degree: 2%
 
 ---
 
-# 平{#hei}
+# hei{#hei}
 
-檢視高度. 指定請求中不存在適合時的響應影像（視圖影像）的高度。
+查看高度。 指定請求中不存在適合時的響應影像（視圖影像）的高度。
 
 ` hei= *`谷`*`
 

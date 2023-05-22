@@ -1,6 +1,6 @@
 ---
-title: portraitFrames
-description: portraitFrames
+title: 縱向幀
+description: 縱向幀
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
@@ -8,11 +8,11 @@ exl-id: 050388f8-45a9-4f09-a957-f94bead17eca
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
 source-wordcount: '46'
-ht-degree: 8%
+ht-degree: 6%
 
 ---
 
-# portraitFrames{#portraitframes}
+# 縱向幀{#portraitframes}
 
 `portraitFrames=split|solid`
 
@@ -20,14 +20,14 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 拆分|實體</span> </p> </td> 
-   <td colname="col2"> <p>設為 <span class="codeph"> split</span> 當以縱向方向在行動裝置上使用時，可讓檢視器將雙頁跨頁顯示為個別頁面。 設為 <span class="codeph"> 固體</span> 以一律將雙頁跨頁顯示為實體影像，而不考慮裝置方向。 </p> </td> 
+   <td colname="col2"> <p>設定為 <span class="codeph"> 分裂</span> 當在縱向移動設備上使用時，允許查看者將雙頁跨頁顯示為單獨的頁。 設定為 <span class="codeph"> 堅固</span> 始終將雙頁跨頁顯示為實體影像，而與設備方向無關。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 屬性 {#section-a66ce10d6c0b449883f654e7e0657e2c}
 
-選填。
+選擇性.
 
 ## 預設 {#section-2879062cee1d4030b43ba3b19693f4f8}
 

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 430809d8-3d51-49b7-b6bf-c3c3c77501ff
 source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '138'
+ht-degree: 3%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 **主查看器區域的CSS屬性**
 
-工具提示的外觀由下列CSS類選擇器控制：
+工具提示的外觀由以下CSS類選擇器控制：
 
 ```
 .s7tooltip
@@ -35,27 +35,27 @@ ht-degree: 0%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 邊框半徑  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 邊界半徑 </span> </p> </td> 
    <td colname="col2"> <p> 背景邊框半徑。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 邊框顏色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 邊框顏色 </span> </p> </td> 
    <td colname="col2"> <p> 背景邊框顏色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景顏色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
    <td colname="col2"> <p> 背景顏色. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p>文字色彩. </p> </td> 
+   <td colname="col2"> <p>文本顏色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型系列  </span> </p> </td> 
-   <td colname="col2"> <p>文字字型名稱. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字型系列 </span> </p> </td> 
+   <td colname="col2"> <p>文本字型名稱。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型大小  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字型大小 </span> </p> </td> 
    <td colname="col2"> <p>文本字型大小。 </p> </td> 
   </tr> 
  </tbody> 
@@ -63,11 +63,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果從嵌入網頁中自定義工具提示樣式，則所有屬性必須包含`!IMPORTANT`規則。 如果在檢視器的CSS檔案中自訂了工具提示，則不需要此備注。
+>如果工具提示樣式是從嵌入網頁中自定義的，則所有屬性必須包含 `!IMPORTANT` 規則。 如果工具提示是在查看器的CSS檔案中自定義的，則不需要此注釋。
 
 ## 範例 {#section-59e009fd05b14019936aba04d7ca779d}
 
-要設定工具提示，該工具提示的灰邊框具有三個像素角半徑、黑色背景和白色文本(以Arial®為11像素):
+要在Arial®中設定灰色邊框、三像素角半徑、黑色背景和白色文本（11像素）的工具提示：
 
 ```
 .s7tooltip { 

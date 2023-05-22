@@ -8,7 +8,7 @@ exl-id: 089bea2b-562f-4a63-a4f1-70194811a47d
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '21'
-ht-degree: 42%
+ht-degree: 33%
 
 ---
 
@@ -22,6 +22,6 @@ PowerPoint檔案選項。
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| originalPath | `xsd:string` | 檔案路徑。 |
-| originalFile | `xsd:string` | 檔案名稱. |
-| fileSize | `xsd:int` | 檔案大小. |
+| 原始路徑 | `xsd:string` | 檔案路徑。 |
+| 原始檔案 | `xsd:string` | 檔案名稱. |
+| 檔案大小 | `xsd:int` | 檔案大小。 |

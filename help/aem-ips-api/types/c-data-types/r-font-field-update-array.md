@@ -22,4 +22,4 @@ ht-degree: 22%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 項目 | `types:FontFieldUpdate` | 字型欄位更新陣列中的項目。 |
+| 項目 | `types:FontFieldUpdate` | 字型欄位更新陣列中的項。 |

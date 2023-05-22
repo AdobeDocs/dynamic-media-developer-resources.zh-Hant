@@ -1,35 +1,35 @@
 ---
-title: 命令參考 — URL
-description: 互動式視訊檢視器的命令參考檔案。
+title: 命令引用 — URL
+description: Interactive Video Viewer的命令參考文檔。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: e0a9e269-4826-4518-9222-6a833d11746b
 source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '161'
 ht-degree: 0%
 
 ---
 
-# 命令參考 — URL{#command-reference-url}
+# 命令引用 — URL{#command-reference-url}
 
-互動式視訊檢視器的命令參考檔案。
+Interactive Video Viewer的命令參考文檔。
 
-您可以在URL中設定任何設定命令。 或者，您也可以使用API方法`setParam()`或`setParams()`，或兩者來設定任何設定命令。 您也可以在伺服器端設定記錄中指定任何設定屬性。
+可以在URL中設定任何配置命令。 或者，可以使用API方法 `setParam()`或 `setParams()`或同時設定任何配置命令。 也可以在伺服器端配置記錄中指定任何config屬性。
 
-您可以為某些設定命令加上類別名稱或對應檢視器SDK元件的執行個體名稱前置詞。 元件的例項名稱為動態，且取決於傳遞至`setContainerId()` API方法的檢視器容器DOM元素ID。 文檔包括此類命令的可選前置詞。 例如， `playback`記錄如下：
+可以使用類名或相應Viewer SDK元件的實例名來為某些配置命令添加前置詞。 元件的實例名稱是動態的，取決於傳遞給的查看器容器DOM元素的ID `setContainerId()` API方法。 文檔包括此類命令的可選前置詞。 比如說， `playback` 如下所述：
 
 ```
 [VideoPlayer.|<containerId>_videoPlayer].playback
 ```
 
-這表示此命令的使用方式如下
+這意味著此命令的使用方式如下
 
-* `playback` （簡短語法）
-* `VideoPlayer.playback` （以元件類名稱限定）
-* `cont_videoPlayer.playback` (以元件ID為限，假 `cont` 設為容器元素的ID)
+* `playback` （短語法）
+* `VideoPlayer.playback` （使用元件類名限定）
+* `cont_videoPlayer.playback` (使用元件ID限定，假定 `cont` 是容器元素的ID)
 
-另請參閱[所有檢視器通用的命令參考 — 配置屬性](../../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)。
+另請參閱 [所有查看器通用的命令引用 — 配置屬性](../../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)。
 
-另請參閱[所有檢視器通用的命令參考 — URL](../../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)。
+另請參閱 [所有查看器通用的命令引用 — URL](../../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)。

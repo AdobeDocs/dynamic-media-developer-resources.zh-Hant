@@ -8,7 +8,7 @@ exl-id: 1c700d12-4bea-4b87-91c1-f615c3dceb79
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
 source-wordcount: '44'
-ht-degree: 11%
+ht-degree: 9%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 11%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td> <p> 設為時 <span class="codeph"> 1</span>，元件會為所有頁面填入元素（即使未定義標籤的頁面亦然）。 </p> <p>設為時 <span class="codeph"> 0</span> 下拉式面板中只會顯示具有明確標籤的項目。 </p> </td> 
+   <td> <p> 設定為時 <span class="codeph"> 1</span>，該元件將使用所有頁的元素填充下拉面板，即使沒有定義標籤的頁也是如此。 </p> <p>設定為時 <span class="codeph"> 0</span> 在下拉面板中，只顯示具有顯式標籤的項。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 屬性 {#section-89a21bad65674a948db84412eb3e46d7}
 
-選填。
+選擇性.
 
 ## 預設 {#section-661ec4a10fc8484c92707ef12f92ac00}
 

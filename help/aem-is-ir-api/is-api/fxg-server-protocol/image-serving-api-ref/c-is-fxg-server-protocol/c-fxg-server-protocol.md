@@ -16,14 +16,14 @@ ht-degree: 69%
 
 若要處理圖形，您可以使用參照點 (類似於方位點)。
 
-使用參照點，您可以相對於某個特定參照點旋轉、縮放或調整圖形的大小。參考點為`northWest`、`north`、`northEast`、`west`、`center`、`east`、`southWest`、`south`和`southeast`。 例如，通過使用中心參照點，可以在圖形的中心上將圖形旋轉45°。 下圖顯示參照點的位置、圖形、從`northWest`參照點旋轉20°的圖形、從`east`參照點旋轉20°的圖形。
+使用參照點，您可以相對於某個特定參照點旋轉、縮放或調整圖形的大小。參照點為 `northWest`。 `north`。 `northEast`。 `west`。 `center`。 `east`。 `southWest`。 `south`, `southeast`。 例如，通過使用中心參照點，可將圖形在其中心上旋轉45°。 下圖顯示參照點的位置，圖形，圖形從參照點旋轉20° `northWest` 參考點，圖形從參考點旋轉20° `east` 參考點。
 
 ![參考點影像](assets/wp_ref_points.png)
 
-* A.參考點位置
-* B.圖
-* C.圖從`northWest`參考點旋轉了20°
-* D.圖形從其`east`參考點旋轉了20°
+* 答：參考點位置
+* B圖形
+* C.圖片從圖片旋轉20° `northWest` 參考點
+* D圖片從其旋轉20° `east` 參考點
 
 語法如下：
 

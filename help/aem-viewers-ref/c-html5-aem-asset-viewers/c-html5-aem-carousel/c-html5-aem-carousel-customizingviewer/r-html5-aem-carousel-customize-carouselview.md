@@ -1,6 +1,6 @@
 ---
-title: 輪播檢視
-description: 主檢視包含橫幅影像。
+title: 旋轉木馬視圖
+description: 主視圖由標題影像組成。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
@@ -12,9 +12,9 @@ ht-degree: 1%
 
 ---
 
-# 輪播檢視{#carousel-view}
+# 旋轉木馬視圖{#carousel-view}
 
-主檢視包含橫幅影像。
+主視圖由標題影像組成。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -35,8 +35,8 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景顏色  </span> </p> </td> 
-   <td colname="col2"> <p> 主視圖的十六進位格式背景顏色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
+   <td colname="col2"> <p> 主視圖的十六進位格式背景色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

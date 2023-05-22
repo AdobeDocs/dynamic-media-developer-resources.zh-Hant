@@ -22,4 +22,4 @@ ht-degree: 21%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 項目 | `types:ImageSetMemberUpdate` | 映像整合員陣列更新。 |
+| 項目 | `types:ImageSetMemberUpdate` | 映像整合員的陣列更新。 |

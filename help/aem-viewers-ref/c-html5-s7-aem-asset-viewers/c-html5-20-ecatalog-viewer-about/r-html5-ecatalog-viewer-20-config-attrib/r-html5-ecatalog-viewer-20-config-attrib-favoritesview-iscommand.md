@@ -1,6 +1,6 @@
 ---
 title: FavoritesView.iscommand
-description: 套用至所有縮圖的「影像伺服」命令字串。
+description: 應用於所有縮略圖的「影像服務」命令字串。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
@@ -8,28 +8,28 @@ exl-id: 1b6198f4-367d-437a-b8b1-206519567af0
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
 source-wordcount: '59'
-ht-degree: 8%
+ht-degree: 6%
 
 ---
 
 # FavoritesView.iscommand{#favoritesview-iscommand}
 
-套用至所有縮圖的「影像伺服」命令字串。
+應用於所有縮略圖的「影像服務」命令字串。
 
-` [FavoritesView.|<containerId>_favoritesView.]iscommand= *`isCommand`*`
+` [FavoritesView.|<containerId>_favoritesView.]iscommand= *`是命令`*`
 
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> isCommand</span></span> </p> </td> 
-   <td colname="col2"> <p> 若在URL中指定，則 <span class="codeph"> &amp;</span> 和 <span class="codeph"> =</span> 必須經HTTP編碼為 <span class="codeph"> %26</span> 和 <span class="codeph"> %3D</span>，分別為。 </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> 是命令</span></span> </p> </td> 
+   <td colname="col2"> <p> 如果在URL中指定，則 <span class="codeph"> &amp;</span> 和 <span class="codeph"> =</span> 必須是HTTP編碼為 <span class="codeph"> %26</span> 和 <span class="codeph"> %3D</span>的下界。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 屬性 {#section-f42369774e2740dcb399626a0e4e930e}
 
-選填。
+選擇性.
 
 ## 預設 {#section-d016470e92a74f98a18c4ab3489410a5}
 
@@ -37,10 +37,10 @@ ht-degree: 8%
 
 ## 範例 {#section-7621c8ebd4144bc08a537d01bd9c3f2f}
 
-在檢視器URL中指定時。
+在查看器URL中指定時。
 
 `iscommand=op_sharpen%3d1%26op_colorize%3d0xff0000`
 
-在設定資料中指定時。
+在配置資料中指定時。
 
 `iscommand=op_sharpen=1&op_colorize=0xff0000`

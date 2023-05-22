@@ -1,5 +1,5 @@
 ---
-title: 彈出
+title: 飛出
 description: Flyout Viewer是影像查看器。 它顯示靜態影像，其縮放版本顯示在用戶激活的彈出視圖中。 此查看器可與影像集配合使用，並使用色板完成導航。 它設計用於台式機和移動設備。
 keywords: 響應
 solution: Experience Manager
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ---
 
-# 彈出{#flyout}
+# 飛出{#flyout}
 
 Flyout Viewer是影像查看器。 它顯示靜態影像，其縮放版本顯示在用戶激活的彈出視圖中。 此查看器可與影像集配合使用，並使用色板完成導航。 它設計用於台式機和移動設備。
 
@@ -300,7 +300,7 @@ var flyoutViewer = new s7viewers.FlyoutViewer({
 
 以下示例頁說明了具有無限制高度的響應設計嵌入在現實生活中的更多用途：
 
-[即時演示](https://landing.adobe.com/tw/na/dynamic-media/ctir-2755/live-demos.html)
+[即時演示](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
 [備用演示位置](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 

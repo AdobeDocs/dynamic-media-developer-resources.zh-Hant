@@ -8,7 +8,7 @@ exl-id: d58e1290-8a79-4129-99ce-776b919dea13
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '518'
-ht-degree: 14%
+ht-degree: 5%
 
 ---
 
@@ -63,13 +63,13 @@ Vignette格式指定已發佈的小格及其縮略圖的大小，以及從IPS發
    <td colname="col1"> <span class="codeph"> <span class="varname"> 目標高度</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 代碼短語 </span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 建立在影像演算伺服器進行縮放的最佳化的金字塔暈映。以目標暈映大小欄位設定的大小上限開始，這會在單一暈映輸出檔案中建立多個尺寸的檢視。每個後續的檢視大小都會減半，直到寬度與高度都在 128x128 像素以內。 </td> 
+   <td colname="col4"> 建立為放大影像呈現伺服器而優化的金字塔視頻。 從「目標視圖大小」(Target Vignette Size)欄位設定的最大大小開始，此操作將在單個視圖輸出檔案中建立多個大小視圖。 每個後續視圖大小被減半，直到寬度和高度在128x128像素內。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 建立金字塔</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 代碼短語 </span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 指定每個結果縮略圖的寬度（以像素為單位）。此設定為可選。 對於沒有縮略圖檔案，保留為零。 </td> 
+   <td colname="col4"> 指定每個結果縮略圖的寬度（以像素為單位）。 此設定為可選。 對於沒有縮略圖檔案，保留為零。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 拇指寬度</span> </span> </td> 

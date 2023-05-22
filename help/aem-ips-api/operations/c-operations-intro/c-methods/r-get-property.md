@@ -45,7 +45,7 @@ ht-degree: 12%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 名稱 | `xsd:string` | 是 | 要獲取的屬性的名稱。 |
+| name | `xsd:string` | 是 | 要獲取的屬性的名稱。 |
 
 **輸出(getPropertyReturn)**
 

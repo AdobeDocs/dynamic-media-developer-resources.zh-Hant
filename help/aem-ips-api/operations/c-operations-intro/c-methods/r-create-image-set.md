@@ -39,7 +39,7 @@ ht-degree: 15%
 |---|---|---|---|
 | 公司句柄 | `xsd:string` | 是 | 映像集所屬公司的句柄。 |
 | folderHandle | `xsd:string` | 是 | 資料夾的句柄。 |
-| 名稱 | `xsd:string` | 是 | 影像集名稱。 |
+| name | `xsd:string` | 是 | 影像集名稱。 |
 | type | `xsd:string` | 是 | 影像集類型。 |
 | 拇指資產句柄 | `xsd:string` | 否 | 用作新影像集縮略圖的資產的句柄。 如果未指定，IPS將嘗試使用該集引用的第一個影像資源。 |
 

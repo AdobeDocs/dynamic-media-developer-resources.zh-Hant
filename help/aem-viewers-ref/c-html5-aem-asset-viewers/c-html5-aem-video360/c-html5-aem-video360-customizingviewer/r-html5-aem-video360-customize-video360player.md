@@ -1,6 +1,6 @@
 ---
 title: Video360播放器
-description: 視訊播放器是觀看者中顯示視訊內容的矩形區域。
+description: 視頻播放器是在觀看者內顯示視頻內容的矩形區域。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -14,34 +14,34 @@ ht-degree: 1%
 
 # Video360播放器{#video-player}
 
-視訊播放器是觀看者中顯示視訊內容的矩形區域。
+視頻播放器是在觀看者內顯示視頻內容的矩形區域。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-如果正在播放的視訊的維度與視訊播放器的維度不符，視訊內容會置於視訊播放器的矩形顯示區域中。
+如果正在播放的視頻的尺寸與視頻播放器的尺寸不匹配，則視頻內容將居中在視頻播放器的矩形顯示區域內。
 
-下列CSS類別選取器會控制視訊播放器的外觀：
+以下CSS類選擇器控制視頻播放器的外觀：
 
 ```
 .s7video360viewer .s7video360player
 ```
 
-**視訊播放器的CSS屬性**
+**視頻播放器的CSS屬性**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景顏色  </span> </p> </td> 
-   <td colname="col2"> <p>主檢視的背景顏色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
+   <td colname="col2"> <p>主視圖的背景顏色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-您可以將系統無法播放視訊時顯示的錯誤訊息當地化。
+您可以在系統無法播放視頻時本地化顯示的錯誤消息。
 
-請參閱[使用者介面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)。
+請參閱 [用戶介面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)。
 
-範例：若要設定視訊播放器大小設為512 x 288像素的視訊檢視器。
+示例 — 將視頻播放器大小設定為512 x 288像素設定視頻查看器。
 
 ```
 .s7video360viewer .s7video360player{ 
@@ -51,7 +51,7 @@ background-color: transparent;
 
 <!--<a id="section_5B82913FF3C44B7B8187969CB15E9560"></a>-->
 
-緩衝動畫的外觀由以下CSS類選擇器控制：
+使用以下CSS類選擇器控制緩衝動畫的外觀：
 
 ```
 .s7video360viewer .s7video360player .s7waiticon
@@ -76,21 +76,21 @@ background-color: transparent;
    <td colname="col2"> <p> 動畫表徵圖高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 左邊距  </span> </p> </td> 
-   <td colname="col2"> <p> 動畫表徵圖左邊距，通常為表徵圖寬度的一半減去。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 左邊距 </span> </p> </td> 
+   <td colname="col2"> <p> 動畫表徵圖左邊距，通常減去表徵圖寬度的一半。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 邊距上  </span> </p> </td> 
-   <td colname="col2"> <p> 動畫表徵圖的頂邊，通常為表徵圖高度的一半減去。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 上邊距 </span> </p> </td> 
+   <td colname="col2"> <p> 動畫表徵圖的上邊距，通常減去表徵圖高度的一半。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景 — 影像  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景影像 </span> </p> </td> 
    <td colname="col2"> <p> 旋鈕圖稿。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-範例：若要將緩衝動畫設定為101像素寬、29像素高：
+示例 — 要將緩衝動畫設定為寬101像素，高29像素：
 
 ```
 .s7video360viewer .s7video360player .s7waiticon { 

@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ---
 
-# 電子目錄{#ecatalog}
+# eCatalog{#ecatalog}
 
 eCatalog Viewer是一個目錄查看器，它按分頁或分頁方式以分頁方式顯示電子手冊。 eCatalog允許用戶使用其他用戶介面元素或專用縮略圖模式在目錄中導航。 用戶還可以放大每頁，以獲得更詳細的資訊。
 
@@ -299,7 +299,7 @@ var eCatalogViewer = new s7viewers.eCatalogViewer({
 
 以下示例頁說明了具有無限制高度的響應設計嵌入的更多實際使用案例：
 
-[現場演示](https://landing.adobe.com/tw/na/dynamic-media/ctir-2755/live-demos.html)
+[現場演示](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
 **定義寬度和高度的柔性尺寸嵌入**
 

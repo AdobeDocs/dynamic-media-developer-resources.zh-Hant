@@ -8,7 +8,7 @@ exl-id: 964cb4c1-5256-40eb-94ea-761916174b79
 source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
 source-wordcount: '211'
-ht-degree: 5%
+ht-degree: 4%
 
 ---
 
@@ -26,13 +26,13 @@ ht-degree: 5%
 
 ## 預設 {#section-8029fe4dcbd1427db94a4fef1ccbbfd0}
 
-萬千。 這表示將根據目錄：:Resolution確定貼花大小，並且對象沒有厚度（因此，不呈現投影）。
+0,0,0. 這表示將根據目錄：:Resolution確定貼花大小，並且對象沒有厚度（因此，不呈現投影）。
 
 ## 範例 {#section-7e7166ec9a1e4f4cb026de3342fcddc3}
 
 <table id="simpletable_E3503BD975F342C58DDB4C2B56BF0CEE"> 
  <tr class="strow"> 
-  <td class="stentry"> <p>1.23萬 </p></td> 
+  <td class="stentry"> <p>12,3 </p></td> 
   <td class="stentry"> <p>貼花板被強制尺寸為12x3英吋，且無厚度（即無投影）。 </p></td> 
  </tr> 
  <tr class="strow"> 

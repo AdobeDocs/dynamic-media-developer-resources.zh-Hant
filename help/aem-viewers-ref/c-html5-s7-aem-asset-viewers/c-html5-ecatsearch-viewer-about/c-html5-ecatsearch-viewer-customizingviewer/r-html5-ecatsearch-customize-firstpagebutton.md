@@ -1,6 +1,6 @@
 ---
-title: 第一頁按鈕
-description: 按一下或點選此按鈕，即可將使用者帶至目錄中的第一頁。 此按鈕顯示在案頭系統和平板電腦的主控制欄中；在行動電話上，它會新增至次要控制列。 您可以使用CSS來調整此按鈕的大小、外觀和位置。
+title: 「第一頁」按鈕
+description: 按一下或點擊此按鈕，用戶將進入目錄中的第一頁。 此按鈕顯示在台式機系統和平板電腦的主控制欄中；在行動電話上，它被添加到輔助控制欄。 可以使用CSS調整此按鈕的大小、外觀和位置。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
@@ -12,15 +12,15 @@ ht-degree: 2%
 
 ---
 
-# 第一頁按鈕{#first-page-button}
+# 「第一頁」按鈕{#first-page-button}
 
-選取或點選此按鈕，即可將使用者帶至目錄的第一頁。 此按鈕顯示在案頭系統和平板電腦的主控制欄中；在行動電話上，它會新增至次要控制列。 您可以使用CSS來調整此按鈕的大小、外觀和位置。
+選擇或點擊此按鈕，用戶將進入目錄中的第一頁。 此按鈕顯示在台式機系統和平板電腦的主控制欄中；在行動電話上，它被添加到輔助控制欄。 可以使用CSS調整此按鈕的大小、外觀和位置。
 
 <!--<a id="section_6C008EE11212461FA744F2540D38C295"></a>-->
 
 **主查看器區域的CSS屬性**
 
-按鈕的外觀由下列CSS類選擇器控制：
+按鈕的外觀由以下CSS類選擇器控制：
 
 `.s7ecatalogsearchviewer .s7firstpagebutton .s7panleftbutton`
 
@@ -34,19 +34,19 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 頂部 </span> </p> </td> 
-   <td colname="col2"> <p>從主控制欄（在案頭系統和平板電腦上）或次控制欄（在行動電話上）的上邊框位置，包括邊框間距。 </p> </td> 
+   <td colname="col2"> <p>從主控制欄（在台式機系統和平板電腦上）或輔助控制欄（在行動電話上）的上邊框中定位，包括填充。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 右側 </span> </p> </td> 
-   <td colname="col2"> <p>從主控制欄（在案頭系統和平板電腦上）或次控制欄（在行動電話上）的右邊框定位，包括邊框間距。 </p> </td> 
+   <td colname="col2"> <p>從主控制欄（在台式機系統和平板電腦上）或輔助控制欄（在行動電話上）的右邊框中定位，包括填充。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 左側 </span> </p> </td> 
-   <td colname="col2"> <p>從主控制欄（在案頭系統和平板電腦上）或次控制欄（在行動電話上）的左邊框位置，包括邊框間距。 </p> </td> 
+   <td colname="col2"> <p>從主控制欄（在台式機系統和平板電腦上）或輔助控制欄（在行動電話上）的左邊框中定位，包括填充。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 底部 </span> </p> </td> 
-   <td colname="col2"> <p>從主控制欄（在案頭系統和平板電腦上）或次控制欄（在行動電話上）的底邊框位置，包括邊框間距。 </p> </td> 
+   <td colname="col2"> <p>從主控制欄（在台式機系統和平板電腦上）或輔助控制欄（在行動電話上）的底邊框中定位，包括填充。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -57,23 +57,23 @@ ht-degree: 2%
    <td colname="col2"> <p>按鈕的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景 — 影像 </span> </p> </td> 
-   <td colname="col2"> <p>針對指定按鈕狀態顯示的影像。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景影像 </span> </p> </td> 
+   <td colname="col2"> <p>為給定按鈕狀態顯示的影像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS精靈，則位於圖稿精靈內。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS浮雕，則在圖稿浮雕內定位。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS繁體 </a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按鈕支援 `state` 屬性選取器，可用來將不同的外觀套用至不同的按鈕狀態。
+>此按鈕支援 `state` 屬性選擇器，可用於將不同外觀應用於不同按鈕狀態。
 
-按鈕工具提示可以本地化。 請參閱 [用戶介面元素本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以取得更多資訊。
+按鈕工具提示可以本地化。 請參閱 [用戶介面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 的子菜單。
 
-範例 — 設定第一個頁面按鈕，該按鈕為28 x 28像素，從底部放置4像素，從主控制條的左邊放置220像素。 最後，針對四個不同的按鈕狀態顯示不同的影像。
+示例 — 設定第一個頁面按鈕，該按鈕為28 x 28像素，從主控制欄的底部放置4個像素，從左邊緣放置220個像素。 最後，顯示四個不同按鈕狀態中每個狀態的不同影像。
 
 ```
 .s7ecatalogsearchviewer .s7firstpagebutton .s7panleftbutton { 

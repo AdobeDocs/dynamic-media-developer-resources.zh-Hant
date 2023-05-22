@@ -24,7 +24,7 @@ ht-degree: 0%
 
 [https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-video/glacier/InteractiveVideoViewerDemo.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-video/glacier/InteractiveVideoViewerDemo.html)
 
-及
+和
 
 [https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-video/AXIS/index.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-video/AXIS/index.html)
 
@@ -278,7 +278,7 @@ var interactiveVideoViewer = new s7viewers.InteractiveVideoViewer({
 
 以下示例頁說明了具有無限制高度的響應設計嵌入在現實生活中的更多用途：
 
-[即時演示](https://landing.adobe.com/tw/na/dynamic-media/ctir-2755/live-demos.html)
+[即時演示](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
 [備用演示位置](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 

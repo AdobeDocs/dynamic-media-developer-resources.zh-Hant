@@ -1,10 +1,11 @@
 ---
 title: setParam
-description: 智慧型裁切視訊檢視器的JavaScript API參考。
+description: 用於Smart Crop Video Viewer的JavaScript API參考。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 193719b8-f158-4ffc-9916-b7b1bf36b2de
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 2%
@@ -13,30 +14,30 @@ ht-degree: 2%
 
 # setParam{#setparam}
 
-智慧型裁切視訊檢視器的JavaScript API參考。
+用於Smart Crop Video Viewer的JavaScript API參考。
 
 ` setParam( *`名稱，值`*)`
 
-將檢視器參數設為指定值。 參數為查看器特定配置選項或軟體開發套件修改器。 此參數在之前呼叫 `init()`.
+將查看器參數設定為指定值。 該參數是特定於查看器的配置選項或軟體開發工具包修飾符。 此參數在 `init()`。
 
-如果檢視器設定資訊是以 `config` JSON物件至建構函式。
+如果與一起傳遞了查看器配置資訊，則此方法是可選的 `config` 建構子的JSON對象。
 
-另請參閱 [init](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-init.md#reference-3b570ba8b35045d6b30fb178c21a66c6).
+另請參閱 [初始化](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-init.md#reference-3b570ba8b35045d6b30fb178c21a66c6)。
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 名稱 </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string} </span> 參數名稱。 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} </span> 參數的名稱。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> value </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string} </span> 參數值。 值無法以百分比編碼。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 值 </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} </span> 參數的值。 該值不能以百分比編碼。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 傳回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## 返回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 無。
 

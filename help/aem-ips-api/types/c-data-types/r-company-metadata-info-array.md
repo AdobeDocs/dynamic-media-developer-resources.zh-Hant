@@ -1,7 +1,7 @@
 ---
 description: CompanyMetadataInfo元素的陣列。
 solution: Experience Manager
-title: CompanyMetadataInfoArray
+title: 公司元資料資訊陣列
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 424a2f52-9cc2-46d6-817b-6ea64f46a229
@@ -22,5 +22,5 @@ CompanyMetadataInfo元素的陣列。
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 代碼片語 | `Code Phrase` |  |
-| 代碼片語 | `Code Phrase` |  |
+| 代碼短語 | `Code Phrase` |  |
+| 代碼短語 | `Code Phrase` |  |

@@ -8,7 +8,7 @@ exl-id: 355d9691-c04b-44a6-9563-5bef185cfa7e
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
 source-wordcount: '123'
-ht-degree: 7%
+ht-degree: 4%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 7%
 
 材料旋轉角。 定義材料的旋轉角。
 
-` rotate= *`角度`*`
+` rotate= *`角`*`
 
 <table id="simpletable_F1A87ECD86E8429788825374A6882CB9"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> 角度 </span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> 角 </span> </p> </td> 
   <td class="stentry"> <p>旋轉角度(度（實數）)。 </p> </td> 
  </tr> 
 </table>

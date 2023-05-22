@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 88424371-45a0-43bb-af49-2e8568b7b44c
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '101'
 ht-degree: 4%
 
 ---
@@ -21,18 +21,18 @@ ht-degree: 4%
 <table id="simpletable_F214CDA7580A46C0B5CF14CF13AA9B0A"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"><span class="varname"> reqId</span> </span> </p> </td> 
-  <td class="stentry"> <p>唯一請求識別碼。 </p></td> 
+  <td class="stentry"> <p>唯一請求標識符。 </p></td> 
  </tr> 
 </table>
 
-將請求字串解析為如同已指定`req=img`，但不替換變數並評估引用的對象（影像、ICC配置檔案、字型等）。 如果解析失敗，則返回標準錯誤響應，否則返回以下屬性：
+解析請求字串，就像 `req=img` 指定，但不替換變數和評估引用對象（影像、ICC配置檔案、字型等）。 如果分析失敗，則返回標準錯誤響應，否則返回以下屬性：
 
 `request.isValid=1`
 
-HTTP回應無法快取。
+HTTP響應不可快取。
 
-支援JSONP回應格式的要求可讓您使用`req=`參數的延伸語法來指定JS回呼處理常式的名稱：
+支援JSONP響應格式的請求允許您使用擴展語法指定JS回調處理程式的名稱 `req=` 參數：
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` 是JSONP回應中出現的JS處理常式的名稱。僅允許a-z、A-Z和0-9個字元。 選填。預設為 `s7jsonResponse`.
+`<reqHandler>` 是JSONP響應中存在的JS處理程式的名稱。 只允許使用a-z、A-Z和0-9個字元。 選擇性. 預設為 `s7jsonResponse`.

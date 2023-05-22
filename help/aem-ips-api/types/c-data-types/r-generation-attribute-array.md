@@ -1,5 +1,5 @@
 ---
-description: 層代屬性的陣列。
+description: 層代屬性陣列。
 solution: Experience Manager
 title: GenerationAttributeArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 30%
 
 # [!DNL GenerationAttributeArray]{#generationattributearray}
 
-層代屬性的陣列。
+層代屬性陣列。
 
 語法
 

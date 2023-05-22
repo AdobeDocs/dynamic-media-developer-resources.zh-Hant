@@ -8,7 +8,7 @@ exl-id: 950b1230-5c4b-4222-87e2-d069287fc3ff
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
 source-wordcount: '117'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -16,28 +16,28 @@ ht-degree: 3%
 
 Video360查看器的配置屬性。
 
-` [ControlBar.|<containerId>_controls.]transition=none|fade[, *``*[, *`delayhideduration`*]`
+` [ControlBar.|<containerId>_controls.]transition=none|fade[, *`延遲隱藏`*[, *`持續時間`*]`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 無|淡出</span> </p> </td> 
-   <td colname="col2"> <p> 指定用於顯示或隱藏控制欄及其內容的效果類型。 </p> <p>使用<span class="codeph"> none</span>進行即時顯示和隱藏。 使用<span class="codeph">淡出</span>提供漸進淡入和淡出效果。 </p> <p>Internet Explorer 8不支援淡出。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 無|淡入</span> </p> </td> 
+   <td colname="col2"> <p> 指定用於顯示或隱藏控制欄及其內容的效果類型。 </p> <p>使用 <span class="codeph"> 無</span> 即時展示和隱藏。 使用 <span class="codeph"> 淡</span> 提供漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸。 </p> <p>Internet Explorer 8不支援淡出。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> delayhide</span> </span> </p> </td> 
-   <td colname="col2"> <p>指定控制欄所登錄的上次滑鼠/觸控事件與時間控制欄隱藏之間的秒數。 </p> <p> 如果設為<span class="codeph"> -1</span>，元件永遠不會觸發其自動隱藏效果，且一律會顯示在畫面上。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 延遲隱藏</span> </span> </p> </td> 
+   <td colname="col2"> <p>指定控制欄註冊的上次滑鼠/觸摸事件與時間控制欄隱藏之間的時間（秒）。 </p> <p> 如果設定為 <span class="codeph"> -1</span>，元件從不觸發其自動隱藏效果，並始終在螢幕上保持可見。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 持續時間</span> </span> </p> </td> 
-   <td colname="col2"> <p>設定淡入和淡出動畫的持續時間（以秒為單位）。 </p> </td> 
+   <td colname="col2"> <p>設定淡入淡出動畫的持續時間（秒）。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 屬性 {#section-f42369774e2740dcb399626a0e4e930e}
 
-選填。
+選擇性.
 
 ## 預設 {#section-d016470e92a74f98a18c4ab3489410a5}
 

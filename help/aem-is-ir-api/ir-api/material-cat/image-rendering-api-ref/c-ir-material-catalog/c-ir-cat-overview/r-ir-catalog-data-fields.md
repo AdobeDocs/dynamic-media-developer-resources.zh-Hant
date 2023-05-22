@@ -8,7 +8,7 @@ exl-id: bda5fe2d-6205-4737-a9c7-dc934a2d7b06
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
 source-wordcount: '194'
-ht-degree: 12%
+ht-degree: 11%
 
 ---
 
@@ -108,7 +108,7 @@ ht-degree: 12%
   <td class="stentry"> <p>說明 </p></td> 
  </thead> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-id-vignette.md#reference-2a7ba758924b4757b3234942304db7fd" type="reference" format="dita" scope="local"> ID</a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-id-vignette.md#reference-2a7ba758924b4757b3234942304db7fd" type="reference" format="dita" scope="local"> Id</a> </p></td> 
   <td class="stentry"> <p>視頻標識符（索引鍵）。 </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -128,7 +128,7 @@ ht-degree: 12%
   <td class="stentry"> <p>預定義的請求修改量。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-userdata.md#reference-5bb5d49aee9c408992e41a5ad17d6e85" type="reference" format="dita" scope="local"> 使用者資料</a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-userdata.md#reference-5bb5d49aee9c408992e41a5ad17d6e85" type="reference" format="dita" scope="local"> 用戶資料</a> </p></td> 
   <td class="stentry"> <p>用戶定義的資料。 </p></td> 
  </tr> 
 </table>

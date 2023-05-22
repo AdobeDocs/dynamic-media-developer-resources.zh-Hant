@@ -151,14 +151,14 @@ Adobe很高興宣佈HTTP/2內容交付的可用性，並獲得效能改善的總
 
 **已知問題和限制**
 
-* 來自的Image Service修飾符 `iscommands` 未添加到 `req=set` 按設計要求。 僅影響影像顯示的修飾符工作正常。 影響大小的修改量必須用於複雜資產。 例如，
+* 來自的Image Service修飾符 `iscommands` 未添加到 `req=set` 按設計要求。 僅影響影像顯示的修飾符工作正常。 影響大小的修改量必須用於複雜資產。 例如︰
 
    `https://s7d9.scene7.com/s7viewers/html5/BasicZoomViewer.html?asset= {Scene7SharedAssets/Backpack_B?extendn=0.5%252C0.5%252C0.5%252C0.5}`
 
 * [飛出] 滑鼠關閉後，IE9有時仍保持在螢幕上。
 * 瀏覽器縮放會導致調整大小錯誤。
 * iPad2:大型eCatalog資產在iOS的Safari崩潰。
-* 所有檢視器
+* 所有查看器
 
    * 不支援水印、混淆和鎖定。
    * 不支援影像預設。

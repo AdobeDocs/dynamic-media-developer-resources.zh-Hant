@@ -1,5 +1,5 @@
 ---
-description: 遮罩檔案屬性。
+description: 掩碼檔案屬性。
 solution: Experience Manager
 title: 掩碼資訊
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 25%
 
 # [!DNL MaskInfo]{#maskinfo}
 
-遮罩檔案屬性。
+掩碼檔案屬性。
 
 語法
 
@@ -22,5 +22,5 @@ ht-degree: 25%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| maskPath | `xsd:string` | 遮罩檔案路徑。 |
-| maskFile | `xsd:string` | 掩碼檔案名。 |
+| 掩碼路徑 | `xsd:string` | 掩碼檔案路徑。 |
+| 掩碼檔案 | `xsd:string` | 掩碼檔案名。 |

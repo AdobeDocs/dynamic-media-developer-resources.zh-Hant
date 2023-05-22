@@ -8,7 +8,7 @@ exl-id: 203dc041-c399-4668-b9f4-44241feb5a82
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
 source-wordcount: '27'
-ht-degree: 33%
+ht-degree: 29%
 
 ---
 
@@ -29,7 +29,7 @@ Video360查看器的配置屬性。
 
 ## 屬性 {#section-f42369774e2740dcb399626a0e4e930e}
 
-選填。
+選擇性.
 
 ## 預設 {#section-d016470e92a74f98a18c4ab3489410a5}
 

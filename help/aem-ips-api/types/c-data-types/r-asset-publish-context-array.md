@@ -1,7 +1,7 @@
 ---
-description: AssetPublishContextArray
+description: 資產發佈上下文陣列
 solution: Experience Manager
-title: AssetPublishContextArray
+title: 資產發佈上下文陣列
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 9eefcc8a-4779-4d03-8290-d1482fa09f58
@@ -20,4 +20,4 @@ ht-degree: 35%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| AssetPublishContextArray | `types:AssetPublishContext` | 資產發佈內容的陣列。 |
+| 資產發佈上下文陣列 | `types:AssetPublishContext` | 資產發佈上下文的陣列。 |

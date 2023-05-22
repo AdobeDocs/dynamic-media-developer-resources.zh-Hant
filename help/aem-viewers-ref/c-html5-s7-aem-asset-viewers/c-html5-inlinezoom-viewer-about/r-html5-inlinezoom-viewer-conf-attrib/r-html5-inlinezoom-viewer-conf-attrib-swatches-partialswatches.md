@@ -8,7 +8,7 @@ exl-id: 2ec8c718-35f0-40d0-ae5d-d80111eb1b41
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
 source-wordcount: '34'
-ht-degree: 14%
+ht-degree: 11%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 14%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td> <p> 指定當任何色票部分可見時（未對齊捲動），元件是否允許停止捲動。 建議的值為 <span class="codeph"> false</span> 或 <span class="codeph"> 0</span>. </p> </td> 
+   <td> <p> 指定元件是否允許在任何色板部分可見時停止滾動（未對齊滾動）。 建議的值為 <span class="codeph"> 假</span> 或 <span class="codeph"> 0</span>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 屬性 {#section-e6310c8c4e8547689a5b48ceddb3671d}
 
-選填。
+選擇性.
 
 ## 預設 {#section-fcb06fd8e7e945e590094efcf9a1d510}
 

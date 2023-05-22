@@ -1,5 +1,5 @@
 ---
-description: 所有組態檔都位於install_folder/conf中，且可用大部分的文字編輯器編輯。 可能需要重新啟動伺服器才能使更改生效。
+description: 所有配置檔案都位於install_folder/conf中，且大多數文本編輯器都可編輯。 可能需要重新啟動伺服器才能使更改生效。
 solution: Experience Manager
 title: 伺服器配置檔案
 feature: Dynamic Media Classic,SDK/API
@@ -14,18 +14,18 @@ ht-degree: 1%
 
 # 伺服器配置檔案{#server-configuration-files}
 
-所有組態檔都位於install_folder/conf中，且可用大部分的文字編輯器編輯。 可能需要重新啟動伺服器才能使更改生效。
+所有配置檔案都位於install_folder/conf中，且大多數文本編輯器都可編輯。 可能需要重新啟動伺服器才能使更改生效。
 
 >[!NOTE]
 >
->大多數伺服器配置檔案都包含本文檔中未說明的其他屬性和值。 這些屬性供內部伺服器使用，除非Dynamic Media技術支援特別指示，否則不得修改。
+>大多數伺服器配置檔案包含本文檔中未說明的其他屬性和值。 這些屬性僅供內部伺服器使用，除非Dynamic Media技術支援專門指示，否則不得修改。
 
-本檔案探討下列組態檔的設定：
+本文檔討論以下配置檔案的設定：
 
 <table id="table_D307B20E65B742A7AC3DEBF1E650719E"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b>組態檔</b> </th> 
+   <th class="entry"> <b>配置檔案</b> </th> 
    <th class="entry"> <b>說明</b> </th> 
   </tr> 
  </thead>
@@ -35,7 +35,7 @@ ht-degree: 1%
    <td> <p>伺服器主管配置。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="filepath"> server.xml</span> </p> </td> 
+   <td> <p> <span class="filepath"> 伺服器.xml</span> </p> </td> 
    <td> <p>Tomcat配置。 </p> </td> 
   </tr> 
   <tr> 
@@ -57,4 +57,4 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-本檔案稍後會更詳細地討論組態檔。
+本文稍後將詳細討論配置檔案。

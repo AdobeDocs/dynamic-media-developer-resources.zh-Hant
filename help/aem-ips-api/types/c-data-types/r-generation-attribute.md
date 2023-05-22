@@ -1,7 +1,7 @@
 ---
-description: 名稱值組，包含資產產生步驟的相關資訊。 請參閱getGenerationInfo。
+description: 包含有關資產生成步驟的資訊的名稱 — 值對。 請參見getGenerationInfo。
 solution: Experience Manager
-title: GenerationAttribute
+title: 層代屬性
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 007fc4d8-e513-4936-a88d-4553a940cdb5
@@ -14,7 +14,7 @@ ht-degree: 18%
 
 # [!DNL GenerationAttribute]{#generationattribute}
 
-名稱值組，包含資產產生步驟的相關資訊。 請參閱getGenerationInfo。
+包含有關資產生成步驟的資訊的名稱 — 值對。 請參見getGenerationInfo。
 
 語法
 
@@ -22,5 +22,5 @@ ht-degree: 18%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 名稱 | `xsd:string` | 屬性名稱。 |
+| name | `xsd:string` | 屬性名稱。 |
 | 價值 | `xsd:string` | 屬性值。 |

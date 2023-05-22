@@ -1,20 +1,20 @@
 ---
 title: 熱點
-description: 檢視器會在主檢視上顯示熱點圖示，這些地方的熱點原本是在AEM Assets的Dynamic Media（隨選）中撰寫。
+description: 查看器在主視圖上顯示熱點表徵圖，這些熱點最初是在AEM AssetsDynamic Media創作的，是按需的。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: ec1d9a91-e189-470a-abe2-4f33686905e7
 source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '119'
+ht-degree: 2%
 
 ---
 
 # 熱點{#hotspots}
 
-檢視器會在主檢視上顯示熱點圖示，這些地方的熱點原本是在AEM Assets的Dynamic Media（隨選）中撰寫。
+查看器在主視圖上顯示熱點表徵圖，這些熱點最初是在AEM AssetsDynamic Media創作的，是按需的。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -35,12 +35,12 @@ ht-degree: 0%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景 — 影像  </span> </p> </td> 
-   <td colname="col2"> <p>熱點表徵圖圖。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景影像 </span> </p> </td> 
+   <td colname="col2"> <p>熱點表徵圖圖稿。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
-   <td colname="col2"> <p>如果使用CSS精靈，則位於圖稿精靈內。 </p> <p>請參閱<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprites </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
+   <td colname="col2"> <p>如果使用CSS浮雕，則在圖稿浮雕內定位。 </p> <p>請參閱 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS繁體 </a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -53,7 +53,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-範例 — 設定56 x 56像素熱點圖示，以針對兩個不同圖示狀態中的每一個顯示不同的影像：
+示例 — 設定56 x 56像素熱點表徵圖，該表徵圖顯示兩個不同表徵圖狀態中每個狀態的不同影像：
 
 ```
 .s7interactiveimage .s7imagemapeffect .s7icon { 

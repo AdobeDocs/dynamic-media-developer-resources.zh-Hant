@@ -8,7 +8,7 @@ exl-id: ded8168e-08f7-4bc0-bb8a-624bac82759e
 source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
 workflow-type: tm+mt
 source-wordcount: '79'
-ht-degree: 5%
+ht-degree: 3%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 5%
 
 ## 屬性 {#section-50bcd15223174bb79ce08b31ea03d682}
 
-選填。
+選擇性.
 
 ## 預設 {#section-7564169749ff4a4996049ea1148cb2a5}
 

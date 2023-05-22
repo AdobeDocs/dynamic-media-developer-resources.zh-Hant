@@ -1,7 +1,7 @@
 ---
 description: 作業日誌詳細資訊的陣列。
 solution: Experience Manager
-title: JobLogDetailArray
+title: 作業日誌詳細資訊陣列
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: eeaa1d7a-20a7-4bdb-b728-291a2c127003

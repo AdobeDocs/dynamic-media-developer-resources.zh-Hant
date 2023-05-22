@@ -1,20 +1,20 @@
 ---
-description: 描述各種輸入參數使用的值。 如需詳細資訊，請參閱本文的清單。
+description: 描述各種輸入參數使用的值。 有關詳細資訊，請參閱本文中的清單。
 solution: Experience Manager
 title: 資產類型
-feature: Dynamic Media Classic,SDK/API，資產管理
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: efbdf214-403e-4dc8-90c1-97e6fd113265
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '45'
-ht-degree: 13%
+source-wordcount: '38'
+ht-degree: 15%
 
 ---
 
 # 資產類型{#asset-types}
 
-描述各種輸入參數使用的值。 如需詳細資訊，請參閱本文的清單。
+描述各種輸入參數使用的值。 有關詳細資訊，請參閱本文中的清單。
 
 語法
 

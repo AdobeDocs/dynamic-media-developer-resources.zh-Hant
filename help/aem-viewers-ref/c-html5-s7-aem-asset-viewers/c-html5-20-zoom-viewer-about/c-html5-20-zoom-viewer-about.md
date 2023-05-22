@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ---
 
-# 縮放{#zoom}
+# Zoom{#zoom}
 
 縮放查看器是顯示可縮放影像的影像查看器。 此查看器可與影像集配合使用，並使用色板完成導航。 它具有縮放工具、全屏支援、色板和可選的關閉按鈕。 它設計用於台式機和移動設備。
 
@@ -315,7 +315,7 @@ var zoomViewer = new s7viewers.ZoomViewer({
 
 以下示例頁說明了具有無限制高度的響應設計嵌入在現實生活中的更多用途：
 
-[現場演示](https://landing.adobe.com/tw/na/dynamic-media/ctir-2755/live-demos.html)
+[現場演示](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
 ## 定義寬度和高度的柔性尺寸嵌入 {#section-3674e6c032594441a6576b7fb1de6e64}
 

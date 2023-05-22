@@ -64,7 +64,7 @@ ht-degree: 2%
 <table id="table_46903DCACF314426B67783167ADF7715"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>相應軌道的高度。 </p> </td> 
   </tr> 
   <tr> 
@@ -93,7 +93,7 @@ ht-degree: 2%
    <td colname="col2"> <p>旋鈕的寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>旋鈕的高度。 </p> </td> 
   </tr> 
   <tr> 
@@ -130,11 +130,11 @@ ht-degree: 2%
    <td colname="col2"> <p> 用於時間顯示文本的字型顏色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>氣泡區域寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>氣泡區高度。 </p> </td> 
   </tr> 
   <tr> 
@@ -194,11 +194,11 @@ background-color:#888888;
 <table id="table_51F16E47BEF3430B919ABEEDBE543973"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>視頻章節標籤寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>視頻章節標籤高度。 </p> </td> 
   </tr> 
   <tr> 
@@ -276,7 +276,7 @@ bottom:8px;
 <table id="table_56FBC3BADDEA4E15924DD750CADC474F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>視頻章氣泡表徵圖高度。 </p> </td> 
   </tr> 
   <tr> 
@@ -316,8 +316,8 @@ background-color: rgba(51, 51, 51, 0.8);
 <table id="table_D58D6B22BAEE4E26BAAB34783AE5A044"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 顏色 </span> </p> </td> 
-   <td colname="col2"> <p>文字色彩. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col2"> <p>文本顏色。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 字型粗細 </span> </p> </td> 
@@ -360,7 +360,7 @@ padding-right: 10px;
 <table id="table_240DD3E119584DCC95FF480B60266603"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 顏色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
    <td colname="col2"> <p>視頻章節標題文本顏色。 </p> </td> 
   </tr> 
   <tr> 
@@ -400,7 +400,7 @@ font-weight: bold;
 <table id="table_780382ECB3D049118857DCA21D130326"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 顏色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
    <td colname="col2"> <p>視頻章節描述文本顏色。 </p> </td> 
   </tr> 
   <tr> 

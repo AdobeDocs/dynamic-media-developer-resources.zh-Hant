@@ -1,5 +1,5 @@
 ---
-description: 排程作業的陣列。
+description: 一組計畫作業。
 solution: Experience Manager
 title: ScheduledJobArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 28%
 
 # [!DNL ScheduledJobArray]{#scheduledjobarray}
 
-排程作業的陣列。
+一組計畫作業。
 
 語法
 
@@ -22,4 +22,4 @@ ht-degree: 28%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 項目 | `types:ScheduledJobs` | 排程的作業陣列。 |
+| 項目 | `types:ScheduledJobs` | 計畫作業陣列。 |

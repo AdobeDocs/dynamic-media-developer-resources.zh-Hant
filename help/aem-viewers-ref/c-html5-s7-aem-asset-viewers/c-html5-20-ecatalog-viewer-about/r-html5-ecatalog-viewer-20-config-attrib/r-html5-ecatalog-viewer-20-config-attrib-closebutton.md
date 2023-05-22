@@ -8,7 +8,7 @@ exl-id: 253dad70-c46c-4d37-8d0c-2a97a5f53f13
 source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
 source-wordcount: '43'
-ht-degree: 11%
+ht-degree: 9%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 11%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
-   <td colname="col2"> <p>設為 <span class="codeph"> 1 </span> 以啟用「關閉」按鈕的顯示。 或，設為 <span class="codeph"> 0 </span> 來隱藏「關閉」按鈕。 </p> <p>「關閉」按鈕僅在觸控裝置上受支援；無法在案頭系統上顯示。 </p> </td> 
+   <td colname="col2"> <p>設定為 <span class="codeph"> 1 </span> 以啟用「關閉」按鈕的顯示。 或，設定為 <span class="codeph"> 0 </span> 按鈕。 </p> <p>「Close（關閉）」按鈕僅在觸摸設備上受支援；無法在案頭系統上顯示。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 屬性 {#section-f42369774e2740dcb399626a0e4e930e}
 
-選填。
+選擇性.
 
 ## 預設 {#section-d016470e92a74f98a18c4ab3489410a5}
 

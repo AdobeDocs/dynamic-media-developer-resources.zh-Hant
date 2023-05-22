@@ -1,6 +1,6 @@
 ---
-title: videoServerUrl
-description: Video360檢視器的URL命令。
+title: 視頻伺服器URL
+description: Video360 Viewer的URL命令。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -8,28 +8,28 @@ exl-id: 76204d0a-449b-4fe5-a2aa-36739fab482f
 source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
 source-wordcount: '51'
-ht-degree: 7%
+ht-degree: 5%
 
 ---
 
-# videoServerUrl{#videoserverurl}
+# 視頻伺服器URL{#videoserverurl}
 
-Video360檢視器的URL命令。
+Video360 Viewer的URL命令。
 
-` videoServerUrl= *`videoRootPath`*`
+` videoServerUrl= *`視頻根路徑`*`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> videoRootPath</span> </span> </p> </td> 
-   <td colname="col2"> <p> 視訊伺服器根路徑。 若未指定網域，則會改為套用提供頁面的網域。 標準URI路徑解析度適用。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 視頻根路徑</span> </span> </p> </td> 
+   <td colname="col2"> <p> 視頻伺服器根路徑。 如果未指定域，則將應用從中提供頁面的域。 應用標準URI路徑解析。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 屬性 {#section-f42369774e2740dcb399626a0e4e930e}
 
-選填。標準SaaS使用不需要。
+選擇性. 標準SaaS使用不需要。
 
 ## 預設 {#section-d016470e92a74f98a18c4ab3489410a5}
 

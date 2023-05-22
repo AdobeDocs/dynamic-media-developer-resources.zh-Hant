@@ -1,5 +1,5 @@
 ---
-description: 這些測試版WSDL中可用的新操作或修改的操作和資料類型，在Dynamic Media開發的應用程式之外不可使用。
+description: 這些測試版WSDL中提供的新操作或已修改的操作和資料類型不在Dynamic Media開發的應用程式之外使用。
 solution: Experience Manager
 title: 限制使用
 feature: Dynamic Media Classic,SDK/API
@@ -7,28 +7,28 @@ role: Developer,Admin
 exl-id: 6602c5bc-9f75-4885-ae14-cab14e6afa5e
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
 
 # 限制使用{#restricted-use}
 
-這些測試版WSDL中可用的新操作或修改的操作和資料類型，在Dynamic Media開發的應用程式之外不可使用。
+這些測試版WSDL中提供的新操作或已修改的操作和資料類型不在Dynamic Media開發的應用程式之外使用。
 
-這些操作和類型可能會隨著後續的系統更新而禁用、更改或淘汰。
+這些操作和類型可能會在後續系統更新時禁用、更改或棄用。
 
 **新類型**
 
-* AssetPublishContexts
-* AssetPublishContextsArray
-* CompanyMetadataInfo
-* CompanyMetadataInfoArray
+* 資產發佈上下文
+* 資產發佈上下文陣列
+* 公司元資料資訊
+* 公司元資料資訊陣列
 * CreateVideoSitemapJob
-* PublishContext
-* PublishContextArray
-* SearchFilter
-* LongArray
+* 發佈上下文
+* 發佈上下文陣列
+* 搜索篩選器
+* 長陣列
 
 **新操作**
 
@@ -39,70 +39,70 @@ ht-degree: 0%
 * getCompanyMetadata
 * getPublishContexts
 * listCompanyMetadata
-* removeMask
+* 刪除掩碼
 * removePropertySetPermissions
 * searchAssetsBySimility
 * searchAssetsByFulltext
 * setAssetPublishState
 * setPropertySetPermissions
-* updateAssetSet
+* 更新資產集
 * updateCompanyMetadata
-* updateImageSet
+* 更新映像集
 * updatePropertySetPermissions
 
 **修改的類型**
 
-* 將`ActiveJob`變更為包含`createVideoSitemapJob`類型
+* 已更改 `ActiveJob` 包括 `createVideoSitemapJob` 類型
 
-* 將`ScheduledJob`變更為包含`createVideoSitemapJob`類型
+* 已更改 `ScheduledJob` 包括 `createVideoSitemapJob` 類型
 
-* 將`ImageServingPublishJob`變更為包含選用`contextHandle`
+* 已更改 `ImageServingPublishJob` 包含可選 `contextHandle`
 
-* 將`ImageRenderingPublishJob`變更為包含選用`contextHandle`
+* 已更改 `ImageRenderingPublishJob` 包含可選 `contextHandle`
 
-* 將`MetadataField`變更為包含選用`initialTagField`
+* 已更改 `MetadataField` 包含可選 `initialTagField`
 
-* 將`MetadataCondition`變更為包含和選用`caseSensitive`參數
+* 已更改 `MetadataCondition` 包括和可選 `caseSensitive` 參數
 
-* 將`PropertySet`變更為將選用`PermissionArray`包含為`permissions`
+* 已更改 `PropertySet` 包含可選 `PermissionArray` 如 `permissions`
 
-* 將`UploadDirectoryJob`變更為包含選用`xmpKeywords`、`xmpTemplateId`和`xmpTemplateOverride`參數
+* 已更改 `UploadDirectoryJob` 包括可選 `xmpKeywords`。 `xmpTemplateId` 和 `xmpTemplateOverride` 參數
 
-* 將`VideoPublishJob`變更為包含選用`contextHandle`
+* 已更改 `VideoPublishJob` 包含可選 `contextHandle`
 
 **修改的操作**
 
-* 將`createAssetSet`變更為包含選用`thumbAssetHandle`
+* 已更改 `createAssetSet` 包含可選 `thumbAssetHandle`
 
-* 將`createImageSet`變更為包含選用`thumbAssetHandle`
+* 已更改 `createImageSet` 包含可選 `thumbAssetHandle`
 
-* 變更`createMetadataField`以包含選用的`initialTagValue`參數
+* 已更改 `createMetadataField` 包含可選 `initialTagValue` 參數
 
-* 將`createPropertySet`變更為將選用`PermissionUpdateArray`包含為`permissionArray`
+* 已更改 `createPropertySet` 包含可選 `PermissionUpdateArray` 如 `permissionArray`
 
-* 變更`getImageServingPublishSettings`以包含選用的`contextHandle`參數
+* 已更改 `getImageServingPublishSettings` 包含可選 `contextHandle` 參數
 
-* 變更`getImageRenderingPublishSettings`以包含選用的`contextHandle`參數
+* 已更改 `getImageRenderingPublishSettings` 包含可選 `contextHandle` 參數
 
-* 已變更`searchAssetsByFullText`以包含一系列選用參數：
+* 已更改 `searchAssetsByFullText` 要包括一系列可選參數：
 
-   * `SearchFilter` 作為參 `filters` 數
-
-   * `sortBy`
-   * `sortDirection`
-
-* 已變更`searchAssetsByMetadata`以包含一系列選用參數：
-
-   * `SearchFilter` 作為參 `filters` 數
+   * `SearchFilter` 如 `filters` 參數
 
    * `sortBy`
    * `sortDirection`
-   * `haystackSearch` 七參數序列
 
-* 將`setAssetPublishState`變更為將選用`HandleArray`包含為`contextHandleArray`
+* 已更改 `searchAssetsByMetadata` 要包括一系列可選參數：
 
-* 變更`setImageServingPublishSettings`以包含選用的`contextHandle`參數
+   * `SearchFilter` 如 `filters` 參數
 
-* 變更`setImageRenderingPublishSettings`以包含選用的`contextHandle`參數
+   * `sortBy`
+   * `sortDirection`
+   * `haystackSearch` 七個參數序列
 
-* 將`submitJob`變更為包含可選`createVideoSitemap`作業類型
+* 已更改 `setAssetPublishState` 包含可選 `HandleArray` 如 `contextHandleArray`
+
+* 已更改 `setImageServingPublishSettings` 包含可選 `contextHandle` 參數
+
+* 已更改 `setImageRenderingPublishSettings` 包含可選 `contextHandle`參數
+
+* 已更改 `submitJob` 包含可選 `createVideoSitemap` 作業類型

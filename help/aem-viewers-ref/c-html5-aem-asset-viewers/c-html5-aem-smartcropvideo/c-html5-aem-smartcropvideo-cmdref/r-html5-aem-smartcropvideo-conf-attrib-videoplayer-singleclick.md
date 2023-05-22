@@ -1,34 +1,35 @@
 ---
 title: SmartCropVideoPlayer.singleclick
-description: 智慧型裁切視訊檢視器的設定屬性。
+description: Smart Crop Video Viewer的配置屬性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: f48f0866-4eb7-46c5-a7f5-457df7a568e7
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '72'
-ht-degree: 5%
+ht-degree: 4%
 
 ---
 
 # SmartCropVideoPlayer.singleclick{#smartcropvideoplayer-singleclick}
 
-智慧型裁切視訊檢視器的設定屬性。
+Smart Crop Video Viewer的配置屬性。
 
-` [SmartCropVideoPlayer.|<containerId>_smartCropVideoPlayer.]singleclick= *`none|playPause`*`
+` [SmartCropVideoPlayer.|<containerId>_smartCropVideoPlayer.]singleclick= *`無|播放暫停`*`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> none|playPause</span> </span> </p> </td> 
-   <td colname="col2"> <p> 設定單按/點選的對應以切換播放/暫停。 設定為 <span class="codeph"> 無</span> 停用單按/點選以播放/暫停。 若設為 <span class="codeph"> playPause</span>，則按一下視訊會在播放和暫停視訊之間切換。 在某些裝置上，您可以使用原生控制項。 在這種情況下， <span class="codeph"> 單點按</span> 行為已停用。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 無|播放暫停</span> </span> </p> </td> 
+   <td colname="col2"> <p> 配置按一下/點擊的映射以切換播放/暫停。 設定為 <span class="codeph"> 無</span> 禁用按一下/點擊以播放/暫停。 如果設定為 <span class="codeph"> 播放暫停</span>，按一下視頻在播放和暫停視頻之間切換。 在某些設備上，可以使用本機控制項。 在這種情況下， <span class="codeph"> 按一下</span> 行為已禁用。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 屬性 {#section-f42369774e2740dcb399626a0e4e930e}
 
-選填。
+選擇性.
 
 ## 預設 {#section-d016470e92a74f98a18c4ab3489410a5}
 

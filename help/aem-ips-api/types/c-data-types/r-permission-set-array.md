@@ -1,7 +1,7 @@
 ---
-description: PermissionSetArray
+description: 權限集陣列
 solution: Experience Manager
-title: PermissionSetArray
+title: 權限集陣列
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b6019cf9-8c3a-48a7-b7bb-fa2191a958fa

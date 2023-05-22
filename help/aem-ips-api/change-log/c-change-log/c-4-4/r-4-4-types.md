@@ -1,20 +1,20 @@
 ---
-description: 說明IPS API 4.4版的新資料類型和已變更的資料類型。
+description: 介紹IPS API 4.4版的新資料類型和更改的資料類型。
 solution: Experience Manager
-title: 資料類型新增和修改
+title: 新建和修改的資料類型
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d8800b15-b9a3-4497-8b6b-fd318458ab5a
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 3%
+source-wordcount: '46'
+ht-degree: 2%
 
 ---
 
-# 資料類型：新增和修改{#data-types-new-and-modified}
+# 資料類型：新建和修改{#data-types-new-and-modified}
 
-說明IPS API 4.4版的新資料類型和已變更的資料類型。
+介紹IPS API 4.4版的新資料類型和更改的資料類型。
 
 語法
 
@@ -35,21 +35,21 @@ ht-degree: 3%
 
 **資產**
 
-新增參數：
+添加的參數：
 
 * `subtype`
 * `assetSetInfo`
 
 **作業日誌**
 
-新增參數：
+添加的參數：
 
 * `transferSuccessCount`
 * `transferErrorCount`
 * `transferWarningCount`
 
-**PDFInfo**
+**PDFnfo**
 
-新增參數：
+添加的參數：
 
 * `extractLinks`

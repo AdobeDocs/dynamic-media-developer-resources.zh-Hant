@@ -1,6 +1,6 @@
 ---
-title: 用戶介面元素本地化
-description: 輪播檢視器顯示的某些內容會受本地化規範。 此內容包括幻燈片導航按鈕。
+title: 用戶介面元素的本地化
+description: Carousel Viewer顯示的某些內容受本地化的限制。 此內容包括幻燈片導航按鈕。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
@@ -12,17 +12,17 @@ ht-degree: 0%
 
 ---
 
-# 用戶介面元素本地化{#localization-of-user-interface-elements}
+# 用戶介面元素的本地化{#localization-of-user-interface-elements}
 
-輪播檢視器顯示的某些內容會受本地化規範。 此內容包括幻燈片導航按鈕。
+Carousel Viewer顯示的某些內容受本地化的限制。 此內容包括幻燈片導航按鈕。
 
-檢視器中可本地化的每個文字內容，都會以稱為SYMBOL的特殊檢視器SDK識別碼表示。 任何SYMBOL都具有隨現成可用查看器提供的英語語言環境(`"en"`)的預設關聯文本值，並且還可以根據需要設定任意數量的語言環境的用戶定義值。
+可本地化的查看器中的每個文本內容都由稱為SYMBOL的特殊查看器SDK標識符表示。 任何SYMBOL都具有英語區域設定的預設關聯文本值( `"en"`)，並且可能還根據需要為任意多個區域設定用戶定義的值。
 
-當查看器啟動時，它將檢查當前區域設定，以查看此區域設定的每個支援的SYMBOL是否有用戶定義的值。 若有，則使用使用者定義的值；否則，會回復為現成預設文字。
+當查看器啟動時，它將檢查當前區域設定，以查看此類區域設定的每個支援的SYMBOL是否有用戶定義的值。 如果存在，則使用用戶定義的值；否則，它會回退到現成的預設文本。
 
-使用者定義的本地化資料可以以本地化JSON物件的形式傳遞至檢視器。 此類對象包含支援的語言環境清單、每個語言環境的SYMBOL文本值以及預設語言環境。
+用戶定義的本地化資料可以作為本地化JSON對象傳遞給查看器。 此類對象包含支援的語言環境清單、每個語言環境的SYMBOL文本值和預設語言環境。
 
-以下是此類本地化物件的範例：
+此類本地化對象的示例如下：
 
 ```
 { 
@@ -38,11 +38,11 @@ defaultLocale:"en"
 }
 ```
 
-在上例中，本地化對象定義了兩個區域設定（`"en"`和`"fr"`），並為每個區域設定中的兩個用戶介面元素提供本地化。
+在上例中，本地化對象定義兩個區域設定( `"en"` 和 `"fr"`)，並為每個區域設定中的兩個用戶介面元素提供本地化。
 
-網頁代碼應將本地化對象作為配置對象的`localizedTexts`欄位的值傳遞給查看器建構子。 替代選項是呼叫`setLocalizedTexts(localizationInfo)`方法以傳遞本地化物件。
+網頁代碼應將本地化對象傳遞給查看器建構子，作為 `localizedTexts` 的子菜單。 另一種選擇是通過調用 `setLocalizedTexts(localizationInfo)` 的雙曲餘切值。
 
-支援下列SYMBOL:
+支援以下SYMBOL:
 
 <table id="table_58C40353B7244335872350C98DF2CFB3"> 
  <thead> 
@@ -53,28 +53,28 @@ defaultLocale:"en"
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_SELECTED  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_SELECTED </span> </p> </td> 
    <td colname="col2"> <p>已選擇播放暫停按鈕狀態。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_UNSELECTED  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_UNSELECTED </span> </p> </td> 
    <td colname="col2"> <p>未選擇的播放暫停按鈕狀態。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> CAROUSELVIEWER_TOOLTIP_GOTO  </span> </p> </td> 
-   <td colname="col2"> <p> 前一個和下一個幻燈片按鈕的工具提示和ARIA標籤。 </p> <p>接受兩個取代代號：<span class="codeph"> $CURRENT_FRAME$ </span>表示當前幻燈片索引，<span class="codeph"> $TOTAL_FRAMES$ </span>表示幻燈片總數。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> CAROUSELVIEWER_TOOLTIP_GOTO </span> </p> </td> 
+   <td colname="col2"> <p> 上一個和下一個幻燈片按鈕的工具提示和ARIA標籤。 </p> <p>接受兩個替換令牌： <span class="codeph"> $CURRENT_FRAME$ </span> 為當前幻燈片索引和 <span class="codeph"> $TOTAL_FRAMES$ </span> 幻燈片總數。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 容器.LABEL  </span> </p> </td> 
-   <td colname="col2"> <p> 頂層檢視器元素的ARIA標籤。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 容器.LABEL </span> </p> </td> 
+   <td colname="col2"> <p> 頂級查看器元素的ARIA標籤。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 輪播檢視.ROLE_DESCRIPTION  </span> </p> </td> 
-   <td colname="col2"> <p> 主要檢視元件的ARIA角色說明。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> CarouselView.ROLE_DESCRIPTION </span> </p> </td> 
+   <td colname="col2"> <p> 主視圖元件的ARIA角色說明。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> CarouselView.USAGE_HINT  </span> </p> </td> 
-   <td colname="col2"> <p> 鍵盤用戶的ARIA使用提示。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> CarouselView.USAGE_HINT </span> </p> </td> 
+   <td colname="col2"> <p> 鍵盤用戶的ARIA用法提示。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

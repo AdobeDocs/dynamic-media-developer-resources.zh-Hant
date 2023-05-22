@@ -35,7 +35,7 @@ ht-degree: 12%
 |---|---|---|---|
 | 公司句柄 | `xsd:string` | 是 | 要使用的影像格式的公司的句柄。 |
 | imageFormatHandle | `xsd:string` | 否 | 要保存的影像格式句柄。 |
-| 名稱 | `xsd:string` | 是 | 影像格式名稱。 |
+| name | `xsd:string` | 是 | 影像格式名稱。 |
 | url修飾符 | `xsd:string` | 是 | 這可以是任何IPS協定查詢字串。 生成URL修飾符的最簡單方法是使用IPS用戶介面建立URL修飾符，然後剪切並貼上查詢字串。 |
 
 **輸出(saveImageFormatReturn)**

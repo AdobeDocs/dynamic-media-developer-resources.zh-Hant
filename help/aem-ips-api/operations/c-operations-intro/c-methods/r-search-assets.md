@@ -70,19 +70,19 @@ ht-degree: 12%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> accessUserHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd：字串</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 允許管理員以其他用戶的身份工作。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> accessGroupHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd：字串</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 允許管理員作為不同組的一部分工作。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 資料夾</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd：字串</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 用於搜索資產的根路徑。 如果省略，則使用公司根資料夾。 </td> 
   </tr> 
@@ -94,19 +94,19 @@ ht-degree: 12%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 發佈狀態</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd：字串</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 發佈狀態選擇。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 垃圾州</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd：字串</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4">垃圾狀態選擇。 預設值為 <span class="codeph"> 不在垃圾</span>。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 條件匹配模式</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd：字串</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> <p>搜索匹配模式的選擇 <span class="codeph"> 關鍵字陣列</span>。 </p> <p> <span class="codeph"> 條件匹配模式</span> </p> <p> <span class="codeph"> systemFieldConditionArray</span>, <span class="codeph"> 元資料條件陣列</span>。 預設值為 <span class="codeph"> 全部匹配</span>。 </p> </td> 
   </tr> 
@@ -118,9 +118,9 @@ ht-degree: 12%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 系統欄位匹配模式</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd：字串</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> <p>組合搜索匹配模式的選擇 <span class="codeph"> 系統欄位條件</span> 匹配。 預設值為 <span class="codeph"> 全部匹配</span> </p>。 </td> 
+   <td colname="col4"> <p>組合搜索匹配模式的選擇 <span class="codeph"> 系統欄位條件</span> 匹配。 預設值為 <span class="codeph"> 全部匹配</span> </p>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> systemFieldConditionArray</span> </span> </p> </td> 
@@ -130,7 +130,7 @@ ht-degree: 12%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 標籤匹配模式</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd：字串</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4">搜索匹配模式字串常數。 預設值為 <span class="codeph"> 全部匹配</span>。 </td> 
   </tr> 
@@ -142,7 +142,7 @@ ht-degree: 12%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 元資料匹配模式</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd：字串</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4">搜索匹配模式以組合 <span class="codeph"> 元資料條件</span> 匹配。 預設值為 <span class="codeph"> 全部匹配</span>。 </td> 
   </tr> 
@@ -172,13 +172,13 @@ ht-degree: 12%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> strictSubTypeCheck</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd：布爾</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4">如果 <span class="codeph"> 真</span> 和 <span class="codeph"> assetSubTypeArray</span> 不為空，只有子類型在的資產 <span class="codeph"> assetSubTypeArray</span> 的子菜單。 如果 <span class="codeph"> 假</span> （預設），則返回沒有定義子類型的資產。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 排除副產品</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd：布爾</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 如果為true，則在接收主資產(如撕開的PDF頁影像)期間生成的副產品資產將從搜索結果中排除。 預設為 false。 </td> 
   </tr> 
@@ -208,13 +208,13 @@ ht-degree: 12%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 排序依據</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd：字串</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 資產排序欄位的選擇。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 排序方向</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd：字串</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 排序方向的選擇。 </td> 
   </tr> 

@@ -1,6 +1,6 @@
 ---
-title: setAsset
-description: 全景檢視器的JavaScript API參考。
+title: 設定資產
+description: 用於Panoramic Viewer的JavaScript API參考。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
@@ -12,26 +12,26 @@ ht-degree: 4%
 
 ---
 
-# setAsset{#setasset}
+# 設定資產{#setasset}
 
-全景檢視器的JavaScript API參考。
+用於Panoramic Viewer的JavaScript API參考。
 
 `setAsset(asset)`
 
-設定新資產。 您可以在任何時間（在之前或之後）呼叫此參數 `init()`. 如果在 `init()`，檢視器會在執行階段交換資產。
+設定新資產。 可以在任何時間（在之前或之後）調用此參數 `init()`。 如果在 `init()`，查看器在運行時交換資產。
 
-另請參閱 [init](../../../c-html5-aem-asset-viewers/c-html5-aem-panoramic/c-html5-aem-panoramic-viewer-javascriptapiref/r-html5-aem-panoramic-viewer-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
+另請參閱 [初始化](../../../c-html5-aem-asset-viewers/c-html5-aem-panoramic/c-html5-aem-panoramic-viewer-javascriptapiref/r-html5-aem-panoramic-viewer-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b)。
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> asset </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> 字串</span>}新資產id。 此檢視器不支援使用影像轉譯(IR)或使用者產生內容(UGC)的影像。 </p> </td> 
+   <td colname="col2"> <p>{ 0}<span class="codeph"> 字串</span>}新資產ID。 此查看器不支援使用影像渲染(IR)或用戶生成內容(UGC)的影像。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 傳回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## 返回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 無。
 

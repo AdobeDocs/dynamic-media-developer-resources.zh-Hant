@@ -28,5 +28,5 @@ ht-degree: 0%
 * [可重複的紋理](r-ir-repeatable-textures.md)
 * [牆邊界](r-ir-wall-borders.md)
 * [貼花](r-ir-decals.md)
-* [封包](r-ir-cabinets.md)
+* [檔案櫃](r-ir-cabinets.md)
 * [窗蓋](r-ir-window-coverings.md)

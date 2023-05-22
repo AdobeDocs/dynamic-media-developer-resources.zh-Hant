@@ -1,20 +1,20 @@
 ---
-title: 縮放檢視
-description: 主檢視包含可縮放的影像。
+title: 縮放視圖
+description: 主視圖由可縮放影像組成。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: ae6c7f6f-5d71-49b5-adbb-782520961acf
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '170'
 ht-degree: 0%
 
 ---
 
-# 縮放檢視{#zoom-view}
+# 縮放視圖{#zoom-view}
 
-主檢視包含可縮放的影像。
+主視圖由可縮放影像組成。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -35,12 +35,12 @@ ht-degree: 0%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景顏色 </span> </p> </td> 
-   <td colname="col2"> <p> 主視圖的十六進位格式背景顏色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
+   <td colname="col2"> <p> 主視圖的十六進位格式背景色。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 游標 </span> </p> </td> 
-   <td colname="col2"> <p>游標顯示在主視圖上。 </p> </td> 
+   <td colname="col2"> <p>顯示在主視圖上的游標。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,11 +53,11 @@ ht-degree: 0%
 }
 ```
 
-在台式機系統上，元件支援 `cursortype` 可套用至的屬性選取器 `.s7zoomview` 類別。 它根據元件狀態和用戶操作控制游標的類型。 以下 `cursortype` 值受支援：
+在案頭系統上，元件支援 `cursortype` 屬性選擇器，可應用於 `.s7zoomview` 類。 它根據元件狀態和用戶操作控制游標的類型。 以下 `cursortype` 值受支援：
 
 * `default`
 
-   當因影像解析度小或元件設定或兩者而無法縮放影像時顯示。
+   當由於影像解析度較低或元件設定或兩者都導致無法縮放影像時顯示。
 
 * `zoomin`
 
@@ -65,12 +65,12 @@ ht-degree: 0%
 
 * `reset`
 
-   當影像處於最大縮放級別時顯示，並可重置為其初始狀態。
+   當影像處於最大縮放級別時顯示，並且可以將其重置為初始狀態。
 
 * `drag`
 
-   當使用者平移處於縮放狀態的影像時顯示。
+   當用戶平移處於縮放狀態的影像時顯示。
 
 * `slide`
 
-   當用戶通過水準滑動或輕觸執行影像交換時顯示。
+   當用戶通過水準輕掃或輕拂執行影像交換時顯示。

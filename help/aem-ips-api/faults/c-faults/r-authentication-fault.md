@@ -1,20 +1,20 @@
 ---
-description: 無法驗證使用者時擲回。
+description: 無法驗證用戶時拋出。
 solution: Experience Manager
-title: authenticationFault
+title: 驗證錯誤
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: fce5c227-9291-4d17-801f-4ef4b8d43eb4
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '42'
-ht-degree: 19%
+source-wordcount: '37'
+ht-degree: 21%
 
 ---
 
-# authenticationFault{#authenticationfault}
+# 驗證錯誤{#authenticationfault}
 
-無法驗證使用者時擲回。
+無法驗證用戶時拋出。
 
 語法
 
@@ -30,5 +30,5 @@ ht-degree: 19%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| `code` | `xsd:int` | 錯誤ID |
+| `code` | `xsd:int` | 故障ID |
 | `reason` | `xsd:string` | 描述故障的資訊性消息。 |

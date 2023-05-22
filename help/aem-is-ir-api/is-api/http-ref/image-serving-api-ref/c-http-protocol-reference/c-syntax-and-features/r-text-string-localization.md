@@ -1,26 +1,26 @@
 ---
 description: 文本字串本地化允許影像目錄包含同一字串值的多個特定於區域設定的表示法。
 solution: Experience Manager
-title: 文字字串本地化
+title: 文本字串本地化
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f105c7f2-b544-4c08-bb91-4916e485572d
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '666'
 ht-degree: 3%
 
 ---
 
-# 文字字串本地化{#text-string-localization}
+# 文本字串本地化{#text-string-localization}
 
 文本字串本地化允許影像目錄包含同一字串值的多個特定於區域設定的表示法。
 
-伺服器將與指定的`locale=`語言環境匹配的表示返回給客戶端，從而避免客戶端本地化，並允許應用程式通過發送具有IS文本請求的適當`locale=`值來切換語言環境。
+伺服器將與指定的區域設定匹配的表示形式返回到客戶端 `locale=`從而避免了客戶端本地化，並允許應用程式通過發送適當的語言環境來切換語言環境 `locale=` 值。
 
 ## 範圍 {#section-a03f48e3bc0e4ab281909a2bd441a3c2}
 
-文字字串本地化會套用至所有字串元素，這些元素包含下列目錄欄位中的本地化Token ` ^loc= *`locId`*^`:
+文本字串本地化應用於包括本地化令牌的所有字串元素 ` ^loc= *`locId`*^` 在以下目錄欄位中：
 
 <table id="table_83344EFCB5B5418184E0A0B43D0B23F7"> 
  <thead> 
@@ -31,19 +31,19 @@ ht-degree: 3%
  </thead>
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> 目錄：:ImageSet  </span> </p> </td> 
-   <td> <p>任何包含可翻譯字串的子元素（由分隔符號「，」「；」「：」和/或欄位的開始/結束的任何組合所分隔）。 </p> <p> 本地化欄位開頭的<span class="codeph"> 0xrrggbb </span>顏色值被排除在本地化之外，並且不經修改而傳遞。 </p> </td> 
+   <td> <p> <span class="codeph"> 目錄：:ImageSet </span> </p> </td> 
+   <td> <p>包含可翻譯字串的任何子元素（由分隔符「，」「；」「：」和/或欄位的開始/結束的任意組合分隔）。 </p> <p> A <span class="codeph"> 0xrgbb </span> 可本地化欄位開頭的顏色值被排除在本地化之外，並且不經修改而通過。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> 目錄：:Map  </span> </p> </td> 
-   <td> <p>任何單引號或雙引號屬性值，但<span class="codeph"> coords= </span>和<span class="codeph"> shape= </span>屬性的值除外。 </p> </td> 
+   <td> <p> <span class="codeph"> 目錄：：映射 </span> </p> </td> 
+   <td> <p>任何單引號或雙引號的屬性值， <span class="codeph"> 坐標= </span> 和 <span class="codeph"> 形狀= </span> 屬性。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> 目錄：：目標  </span> </p> </td> 
-   <td> <p>任何<span class="codeph">目標的值。*.label </span>和<span class="codeph">目標。*.userdata </span>屬性。 </p> </td> 
+   <td> <p> <span class="codeph"> 目錄：：目標 </span> </p> </td> 
+   <td> <p>任何值 <span class="codeph"> 目標。*.label </span> 和 <span class="codeph"> 目標。*.用戶資料 </span> 屬性。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> 目錄：:UserData  </span> </p> </td> 
+   <td> <p> <span class="codeph"> 目錄：:UserData </span> </p> </td> 
    <td> <p>任何屬性的值。 </p> </td> 
   </tr> 
  </tbody> 
@@ -51,67 +51,67 @@ ht-degree: 3%
 
 ## 字串語法 {#section-d12320edf300409f8e17565b143acafc}
 
-影像目錄中已啟用本地化的&#x200B;*`string`*&#x200B;元素包含一或多個本地化字串，每個字串前面都有本地化代號。
+啟用本地化 *`string`* 影像目錄中的元素由一個或多個本地化字串組成，每個字串前面都帶有本地化標籤。
 
 <table id="simpletable_CEFDAE8395E6493E902D58A7E5A25BC7"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> stringElement  </span> </span> </p> </td> 
-  <td class="stentry"> <p>[ <span class="varname"> defaultString </span>]*{ <span class="varname"> localizationToken </span> <span class="varname"> localizedString </span>} </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> stringElement </span> </span> </p> </td> 
+  <td class="stentry"> <p>[ <span class="varname"> 預設字串 </span>]*{ <span class="varname"> 本地化令牌 </span> <span class="varname"> 本地化字串 </span>} </p> </td> 
  </tr> 
 </table>
 
 <table id="simpletable_0A687FA72C4C4C1AAFFCB43143C1AB3B"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> localizationToken  </span> </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> ^loc=  <span class="varname"> locStr  </span> ^  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 本地化令牌 </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> ^loc= <span class="varname"> locStr </span> ^ </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> locId  </span> </span> </p> </td> 
-  <td class="stentry"> <p><span class="varname"> localizedString </span>在此<span class="varname"> localizationToken </span>之後的內部區域設定ID。 </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> locId </span> </span> </p> </td> 
+  <td class="stentry"> <p>內部區域設定ID <span class="varname"> 本地化字串 </span> 遵循 <span class="varname"> 本地化令牌 </span>。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> localizedString  </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 本地化字串 </span> </span> </p> </td> 
   <td class="stentry"> <p>本地化字串。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> defaultString  </span> </span> </p> </td> 
-  <td class="stentry"> <p>用於未知地區設定的字串。 </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 預設字串 </span> </span> </p> </td> 
+  <td class="stentry"> <p>用於未知區域設定的字串。 </p> </td> 
  </tr> 
 </table>
 
-*`locId`* 必須為ASCII，且不得包含「^」。
+*`locId`* 必須是ASCII，並且不能包含「^」。
 
-「^」可能出現在含有或不含HTTP-encoding的子字串中的任何位置。 伺服器會比對整個&#x200B;*`localizationToken`* `^loc=locId^`模式，以分隔子字串。
+「^」可以在帶HTTP編碼或不帶HTTP編碼的子字串中出現。 伺服器與整個 *`localizationToken`* `^loc=locId^` 分離子字串。
 
-*`stringElements`* 不會將其中至少包含一 *`localizationToken`* 個內容視為本地化。
+*`stringElements`* 其中至少包括 *`localizationToken`* 不考慮本地化。
 
-## 翻譯地圖 {#section-f7ce3df91b724adf95cee44eac4915d4}
+## 翻譯圖 {#section-f7ce3df91b724adf95cee44eac4915d4}
 
-`attribute::LocaleStrMap` 定義伺服器用於確定要返回 *`localizedStrings`* 到客戶端的規則。它由輸入&#x200B;*`locales`*（與`locale=`指定的值匹配）的清單組成，每個輸入的內部區域設定ID(*`locId`*)均為無。 例如：
+`attribute::LocaleStrMap` 定義伺服器用於確定 *`localizedStrings`* 返回客戶端。 它包含輸入清單 *`locales`* (與指定的值匹配 `locale=`)，每個都沒有或更多內部區域設定ID( *`locId`*)。 例如: 
 
 `attribute::LocaleStrMap= en,E|nl,N|de,D|,`
 
-空&#x200B;*`locId`*&#x200B;值表示應傳回&#x200B;*`defaultString`*（如果可用）。
+空 *`locId`* 值表示 *`defaultString`* 應返回。
 
-有關詳細資訊，請參閱`attribute::LocaleStrMap`的說明。
+請參閱 `attribute::LocaleStrMap` 的雙曲餘切值。
 
-## 翻譯程式 {#section-a2a8a3e5850f4f7c9d2318267afe98a2}
+## 翻譯流程 {#section-a2a8a3e5850f4f7c9d2318267afe98a2}
 
-在上面的示例翻譯映射和請求`/is/image/myCat/myItem?req=&locale=nl`中，伺服器首先在區域設定映射中查找「 `nl`」。 匹配的條目`nl,N`指示對於每個&#x200B;*`stringElement`*，應返回標籤為`^loc=N^`的&#x200B;*`localizedString`*。 如果&#x200B;*`stringElement`*&#x200B;中未出現此&#x200B;*`localizationToken`*，則返回空值。
+給出上面的示例翻譯映射和請求 `/is/image/myCat/myItem?req=&locale=nl`，伺服器首先查找「 `nl`中。 匹配項 `nl,N` 表示每個 *`stringElement`*，也請參見Wiki頁。 *`localizedString`* 標籤為 `^loc=N^` 應返回。 如果 *`localizationToken`* 不在 *`stringElement`*，返回空值。
 
-假設`myCat/myItem`的`catalog::UserData`包含下列內容（插入分行以求清晰）:
+假設 `catalog::UserData` 為 `myCat/myItem` 包含以下內容（為了清晰起見，插入換行符）:
 
 `val1=111?? str1=Default1^loc=N^Dutch1^loc=D^German1?? val2=value2?? str2=^loc=E^English2^loc=N^Dutch2^loc=D^German2?? str3=Default3^loc=N^Dutch3^loc=D^German3`
 
-伺服器會回應我們的範例要求，傳回下列內容：
+伺服器將返回以下內容以響應示例請求：
 
 `val1=111 str1=Dutch1 val2=value2 str2=Dutch2 str3=Dutch3`
 
-## 未知地區 {#section-26dfeefbd60345de94bbfeaaf7741223}
+## 未知區域設定 {#section-26dfeefbd60345de94bbfeaaf7741223}
 
-在上例中，`attribute::LocaleStrMap`有一個條目，其中包含空&#x200B;*`locale`*&#x200B;值。 伺服器使用此條目來處理所有未在轉換映射中顯式指定的`locale=`值。
+在上例中， `attribute::LocaleStrMap` 有一個空條目 *`locale`* 值。 伺服器使用此條目處理所有 `locale=` 在轉換映射中未顯式指定的值。
 
-示例轉換映射指定在這種情況下，應返回&#x200B;*`defaultString`*（如果可用）。 因此，如果將此翻譯對應套用至請求`/is/image/myCat/myItem?req=&locale=ja`，將會傳回下列內容：
+示例轉換映射指定在這種情況下， *`defaultString`* 應返回。 因此，如果將此翻譯圖應用於請求，將返回以下內容 `/is/image/myCat/myItem?req=&locale=ja`:
 
 `val1=111 str1=Default1 val2=value2 str2= str3=Default3`
 
@@ -119,15 +119,15 @@ ht-degree: 3%
 
 **語系**
 
-多個&#x200B;*`locId`*&#x200B;值可以與翻譯映射中的每個&#x200B;*`locale`*&#x200B;相關聯。 這可支援選取&#x200B;*`stringElements`*&#x200B;的特定國家/地區或地區變數（例如美國英語與英國英語），同時以共同的基本地區設定（例如國際英語）處理大部分內容。
+多重 *`locId`* 值可與每個值關聯 *`locale`* 的下界。 這允許支援特定國家/地區或地區的變體（例如，美國英語與英國英語），以供選擇 *`stringElements`* 同時處理大多數具有常用基本語言環境（如國際英語）的內容。
 
-例如，我們想要新增對美國特定英文(`*`locId`* EUS`)和英國特定英文(`*`locId`* EUK`)的支援，以支援偶爾的替代拼字。 如果EUK或EUS不存在，我們會回復為E。同樣，在大部分時間返回普通德文&#x200B;*`localizedStrings`*（標籤為`D`）時，可以根據需要提供奧地利特定的德文變體(`DAT`)。
+例如，我們希望添加對特定於美國的英語( `*`locId`* EUS`)和英語( `*`locId`* EUK`)，支援偶爾的替代拼寫。 如果EUK或EUS不存在，我們將返回E。同樣，奧地利特有的德語變體( `DAT`)可在返回普通德語時根據需要提供 *`localizedStrings`* (標籤為 `D`)大部分時間。
 
-`attribute::LocaleStrMap` 會如下所示：
+`attribute::LocaleStrMap` 會是這樣的：
 
 `en,E|en_us,EUS,E|en_uk,EUK,E|de,D|de_at,DAT,D|de_de,D`
 
-下表介紹了某些代表性組合&#x200B;*`stringElement`*&#x200B;和&#x200B;*`locale`*&#x200B;的輸出：
+下表介紹了某些代表的輸出 *`stringElement`* 和 *`locale`* 組合：
 
 <table id="table_A6B67587C5F44B5E9CD0E7ED29A81198"> 
  <thead> 
@@ -139,19 +139,19 @@ ht-degree: 3%
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> ^loc=E^English^loc=D^德文  </span> </p> </td> 
-   <td> <p> en,en_us, en_uk </p> <p> de, de_at, de_de </p> <p>所有其他 </p> </td> 
+   <td> <p> <span class="codeph"> ^loc=E^英語^loc=D^德語 </span> </p> </td> 
+   <td> <p> en,en_us, en_uk </p> <p> de, de_at, de_de </p> <p>其他 </p> </td> 
    <td> <p>英語 </p> <p>德文 </p> <p>- </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> ^loc=E^English^loc=UK^UK-English^loc=D^German^loc=DAT^Austrian  </span> </p> </td> 
-   <td> <p> en_us </p> <p> en_uk </p> <p> de, de_de </p> <p>de_at </p> <p>所有其他 </p> </td> 
-   <td> <p>英語 </p> <p>英文 </p> <p>德文 </p> <p>奧地利 </p> <p>- </p> </td> 
+   <td> <p> <span class="codeph"> ^loc=E^English^loc=UKE^UK-English^loc=D^German^loc=DAT^奧地利 </span> </p> </td> 
+   <td> <p> en, enus </p> <p> en_uk </p> <p> de,dede </p> <p>取消 </p> <p>其他 </p> </td> 
+   <td> <p>英語 </p> <p>英語 </p> <p>德文 </p> <p>奧地利 </p> <p>- </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> ^ loc=en^english^loc=USE^US-English^loc=D^German^loc=DDE^Deutsch  </span> </p> <p> 請注意，在此示例中，<span class="varname"> locId </span> DDE在<span class="codeph">屬性中不存在：:LocaleStrMap </span>，因此不會返回與此<span class="varname"> locId </span>關聯的子字串。 </p> </td> 
-   <td> <p> en, en_uk </p> <p> en_us </p> <p> de, de_at, de_de </p> <p>所有其他 </p> </td> 
-   <td> <p>英語 </p> <p>美國 — 英語 </p> <p>德文 </p> <p>- </p> </td> 
+   <td> <p> <span class="codeph"> ^ loc=en^english^loc=USE^US-English^loc=D^German^loc=DDE^Deutsch </span> </p> <p> 請注意，對於本示例， <span class="varname"> locId </span> DDE不存在於 <span class="codeph"> 屬性：:LocaleStrMap </span>，因此與此關聯的子字串 <span class="varname"> locId </span> 的子菜單。 </p> </td> 
+   <td> <p> en, enuk </p> <p> en_us </p> <p> de, de_at, de_de </p> <p>其他 </p> </td> 
+   <td> <p>英語 </p> <p>美英語 </p> <p>德文 </p> <p>- </p> </td> 
   </tr> 
  </tbody> 
 </table>

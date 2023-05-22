@@ -1,20 +1,20 @@
 ---
-title: 縮放檢視
-description: 主檢視包含靜態影像。
+title: 縮放視圖
+description: 主視圖由靜態影像組成。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: e83d53a1-bee9-4e4d-8295-a3a350f3ff9c
 source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '59'
+ht-degree: 1%
 
 ---
 
-# 縮放檢視{#zoom-view}
+# 縮放視圖{#zoom-view}
 
-主檢視包含靜態影像。
+主視圖由靜態影像組成。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -35,8 +35,8 @@ ht-degree: 0%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景顏色  </span> </p> </td> 
-   <td colname="col2"> <p> 主視圖的十六進位格式背景顏色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
+   <td colname="col2"> <p> 主視圖的十六進位格式背景色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

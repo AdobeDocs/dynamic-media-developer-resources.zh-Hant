@@ -7,27 +7,27 @@ role: Developer,User
 exl-id: 074b8a74-9df9-4f0b-9196-a61783dda14b
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '20'
+ht-degree: 15%
 
 ---
 
 # EmailShare.emailurl{#emailshare-emailurl}
 
-` [EmailShare.|<containerId>_emailShare.]emailurl= *`emailurl`*`
+` [EmailShare.|<containerId>_emailShare.]emailurl= *`郵件url`*`
 
 <table id="table_5321841E90C941678F32AAF995CDC257"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> emailurl</span></span> </p> </td> 
-   <td colname="col2"> <p> 指定Dynamic Media Classic OnDemand電子郵件服務的基礎URL。 </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> 郵件url</span></span> </p> </td> 
+   <td colname="col2"> <p> 指定Dynamic Media ClassicOnDemand電子郵件服務的基本URL。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 屬性 {#section-f42369774e2740dcb399626a0e4e930e}
 
-選填。
+選擇性.
 
 ## 預設 {#section-d016470e92a74f98a18c4ab3489410a5}
 

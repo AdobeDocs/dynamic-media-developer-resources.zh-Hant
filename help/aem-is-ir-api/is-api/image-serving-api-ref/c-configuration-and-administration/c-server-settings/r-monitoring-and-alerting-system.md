@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## AS::monitorAlertGenerator.enableGlobalAlerting — 警報系統啟用 {#section-612f8ea61794426ab205e22e5f665fa9}
 
-通過設定為「true」並配置電子郵件通知設定來啟用電子郵件通知。 設定為 `false` 關閉所有電子郵件警報 — 當使伺服器離線以進行維護時，此功能非常有用。 布林.
+通過設定為「true」並配置電子郵件通知設定來啟用電子郵件通知。 設定為 `false` 關閉所有電子郵件警報 — 當使伺服器離線以進行維護時，此功能非常有用。 布爾型。
 
 ## AS::mailSender.host - SMTP主機 {#section-151df07e7b44446581339bb7abeeba7a}
 

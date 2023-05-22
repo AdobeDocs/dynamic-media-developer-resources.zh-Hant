@@ -32,7 +32,7 @@ ht-degree: 22%
 |---|---|---|---|
 | 公司句柄 | `xsd:string` | 是 | 要保存的組所在公司的句柄。 |
 | 組句柄 | `xsd:string` | 否 | 組的句柄。 |
-| 名稱 | `xsd:string` | 是 | 群組名稱. |
+| name | `xsd:string` | 是 | 群組名稱. |
 | isSystemDefined | `xsd:boolean` | 是 | `false` 為預設值。 |
 
 **輸出(saveGroupReturn)**

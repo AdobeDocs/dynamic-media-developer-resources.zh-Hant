@@ -46,7 +46,7 @@ ht-degree: 15%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 欄位句柄</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd：字串</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 標籤欄位句柄。 </td> 
   </tr> 

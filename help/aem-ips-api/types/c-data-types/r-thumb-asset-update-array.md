@@ -1,5 +1,5 @@
 ---
-description: 拇指資產的中繼資料更新。
+description: 拇指資產的元資料更新。
 solution: Experience Manager
 title: ThumbAssetUpdateArray
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,7 +14,7 @@ ht-degree: 24%
 
 # [!DNL ThumbAssetUpdateArray]{#thumbassetupdatearray}
 
-拇指資產的中繼資料更新。
+拇指資產的元資料更新。
 
 語法
 
@@ -22,4 +22,4 @@ ht-degree: 24%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 項目 | `types:ThumbAssetUpdates` | 大量經驗資產更新。 |
+| 項目 | `types:ThumbAssetUpdates` | 一組拇指資產更新。 |

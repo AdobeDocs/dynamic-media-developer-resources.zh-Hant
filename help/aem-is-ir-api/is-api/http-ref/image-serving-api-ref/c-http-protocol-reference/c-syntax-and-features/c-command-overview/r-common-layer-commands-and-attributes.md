@@ -1,5 +1,5 @@
 ---
-description: 這些命令適用於影像、文本和實色層。 對於複合影像和簡單、非分層的請求，大多數都沒有意義。 它們不適用於效果圖層。
+description: 這些命令適用於影像、文本和純色圖層。 大多數對於複合影像和簡單、非分層的請求都沒有意義。 它們不適用於效果層。
 solution: Experience Manager
 title: 公共層命令
 feature: Dynamic Media Classic,SDK/API
@@ -7,14 +7,14 @@ role: Developer,User
 exl-id: c95d198c-757f-405e-ba08-094cd402c929
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '136'
 ht-degree: 3%
 
 ---
 
 # 公共層命令{#common-layer-commands}
 
-這些命令適用於影像、文本和實色層。 對於複合影像和簡單、非分層的請求，大多數都沒有意義。 它們不適用於效果圖層。
+這些命令適用於影像、文本和純色圖層。 大多數對於複合影像和簡單、非分層的請求都沒有意義。 它們不適用於效果層。
 
 <table id="simpletable_8A74E965537D4E8CB91E95AEAE9673E0"> 
  <tr class="strow"> 
@@ -22,7 +22,7 @@ ht-degree: 3%
   <td class="stentry"> <p>指定圖層混合模式。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgcolor.md#reference-441371ba4ef54fe781887c5ae448f6ab" type="reference" format="dita" scope="local"> bgColor</a> </p></td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgcolor.md#reference-441371ba4ef54fe781887c5ae448f6ab" type="reference" format="dita" scope="local"> bg顏色</a> </p></td> 
   <td class="stentry"> <p>指定圖層背景顏色和不透明度。 </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -42,12 +42,12 @@ ht-degree: 3%
   <td class="stentry"> <p>定義此圖層的影像映射。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-opac.md#reference-d2269b51aca34599a08d0a46ee5c27e5" type="reference" format="dita" scope="local"> opac</a> </p></td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-opac.md#reference-d2269b51aca34599a08d0a46ee5c27e5" type="reference" format="dita" scope="local"> Opac</a> </p></td> 
   <td class="stentry"> <p>減少圖層不透明度。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-origin.md#reference-e11c7ac06e2240cc884c3fec98f05138" type="reference" format="dita" scope="local"> 來源</a> </p></td> 
-  <td class="stentry"> <p>設定圖層原點。 </p></td> 
+  <td class="stentry"> <p>設定層原點。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pos.md#reference-65de948f4b404f1182b22119ca332143" type="reference" format="dita" scope="local"> pos</a> </p></td> 

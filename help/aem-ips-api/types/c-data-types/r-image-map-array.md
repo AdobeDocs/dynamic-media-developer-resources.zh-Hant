@@ -1,5 +1,5 @@
 ---
-description: 影像地圖的陣列。
+description: 映像映射的陣列。
 solution: Experience Manager
 title: ImageMapArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 28%
 
 # [!DNL ImageMapArray]{#imagemaparray}
 
-影像地圖的陣列。
+映像映射的陣列。
 
 語法
 

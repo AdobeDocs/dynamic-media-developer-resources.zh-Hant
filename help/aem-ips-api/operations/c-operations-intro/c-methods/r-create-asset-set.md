@@ -49,31 +49,31 @@ ht-degree: 10%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd：字串 </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 建立新資產集的資料夾的句柄。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 名稱 </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd：字串 </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 資產名稱。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 子類型 </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd：字串 </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 客戶端為資產集類型建立的唯一標識符。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> setDefinition </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd：字串 </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 集定義字串中的參數。 <p>必須解析為目標查看器指定的格式。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 拇指資產句柄 </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd：字串 </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 用作新影像集縮略圖的資產的句柄。 如果未指定，IPS將嘗試使用該集引用的第一個影像資源。 </td> 
   </tr> 

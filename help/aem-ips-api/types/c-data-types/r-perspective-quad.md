@@ -22,18 +22,18 @@ getPhotoshopPath操作返回的影像位置坐標。
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| x0 | `xsd:double` | 左上x軸坐標。 |
+| x0 | `xsd:double` | 左上X軸坐標。 |
 | y0 | `xsd:double` | 左上Y軸坐標。 |
 | x1 | `xsd:double` | 右上X軸坐標。 |
 | y1 | `xsd:double` | 右上Y軸坐標。 |
-| x2 | `xsd:double` | 右下x軸坐標。 |
+| x2 | `xsd:double` | 右下X軸坐標。 |
 | y2 | `xsd:double` | 右下Y軸坐標。 |
 | x3 | `xsd:double` | 左下X軸坐標。 |
 | y3 | `xsd:double` | 左下Y軸坐標。 |
 
 ## 範例 {#section-19ed4409ff3a41c9b52a9c9424612927}
 
-此 `PerspectiveQuad` 類型會依此順序傳回資料：
+的 `PerspectiveQuad` 類型按此順序返回資料：
 
 ```
 <complexType name="PerspectiveQuad">

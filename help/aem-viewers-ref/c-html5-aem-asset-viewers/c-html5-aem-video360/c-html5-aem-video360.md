@@ -1,5 +1,5 @@
 ---
-title: 視頻360
+title: Video360
 description: HTML5 Video360 Viewer是360度視頻播放器，播放以H.264格式編碼的流媒體和漸進式360視頻，從Dynamic Media Classic或Dynamic MediaAdobe Experience Manager傳送。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# 視頻360{#video}
+# Video360{#video}
 
 HTML5 Video360 Viewer是360度視頻播放器，播放以H.264格式編碼的流媒體和漸進式360視頻，從Dynamic Media Classic或Dynamic MediaAdobe Experience Manager傳送。
 

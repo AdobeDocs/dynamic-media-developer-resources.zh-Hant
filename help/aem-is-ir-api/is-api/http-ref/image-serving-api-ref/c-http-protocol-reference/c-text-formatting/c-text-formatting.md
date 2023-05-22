@@ -1,28 +1,28 @@
 ---
-description: 「影像伺服」提供多種轉譯文字的替代方式，可透過text=和textPs=命令存取。
+description: Image Serving提供了幾種呈現文本的替代方法，可通過text=和textPs=命令訪問。
 solution: Experience Manager
-title: 文字格式
+title: 文本格式
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2c120ed1-b556-4caf-a30e-63ae48cc2104
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '557'
 ht-degree: 7%
 
 ---
 
-# 文字格式{#text-formatting}
+# 文本格式{#text-formatting}
 
-「影像伺服」提供多種轉譯文字的替代方式，可透過text=和textPs=命令存取。
+Image Serving提供了幾種呈現文本的替代方法，可通過text=和textPs=命令訪問。
 
-`textPs=` 提供與以Adobe Photoshop和Illustrator轉譯的文字高度的相似度。`text=` 與使用Windows Wordpad呈現的文字相容。
+`textPs=` 提供與Adobe Photoshop和Illustrator所呈現的文本的高度相似性。 `text=` 與Windows寫字板呈現的文本相當相容。
 
 >[!NOTE]
 >
->除了其他地方列出的差異外，與`textPs=`相比，`text=`還會在呈現的文本中產生細微差異。 例如，底線沒有相同的厚度和位置，而合成斜體以稍微不同的角度呈現。 如果文字不符合可用空間，`text=`可以部分裁切最後一行，而`textPs=`將僅呈現完整行。
+>除了其他地方列出的差異外， `text=` 與 `textPs=`。 例如，下划線的厚度和位置不相同，合成斜體以略微不同的角度呈現。 如果文本不適合可用空間， `text=` 可能會部分裁剪最後一行，而 `textPs=` 將僅呈現完整行。
 
-所有文本命令都接受基於RTF（RTF格式）規範的子集的格式化文本。 每個文本層可指定不同的文本命令。
+所有文本命令都接受基於RTF（RTF格式）規範子集的格式化文本。 每個文本層可以指定不同的文本命令。
 
 下表列出了每個文本命令可用的關鍵功能：
 
@@ -46,55 +46,55 @@ ht-degree: 7%
    <td> <p>將文本流入任意形狀 </p> </td> 
    <td> <p>無 </p> </td> 
    <td> <p>是 </p> </td> 
-   <td> <p>textFlowPath=, textFlowXPath= </p> </td> 
+   <td> <p>textFlowPath=,textFlowXPath= </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>沿任意路徑流動文本 </p> </td> 
+   <td> <p>沿任意路徑流文本 </p> </td> 
    <td> <p>無 </p> </td> 
    <td> <p>是 </p> </td> 
    <td> <p>textPath= </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>複製擬合 </p> </td> 
+   <td> <p>複製管接頭 </p> </td> 
    <td> <p>無 </p> </td> 
    <td> <p>是 </p> </td> 
-   <td> 複製管接頭 <p>, <pre>\copyfit</pre>, <pre>\copyfitlines</pre>, <pre>\copyfitmaxlines</pre> </p> </td> 
+   <td> 複製管接頭 <p>, <pre>\副本</pre>, <pre>\折線</pre>, <pre>\copfitmaxlines</pre> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>文本框邊距 </p> </td> 
    <td> <p>無 </p> </td> 
    <td> <p>是 </p> </td> 
-   <td> <p><pre>\margl</pre>, <pre>\margr</pre>, <pre>\margt</pre>, <pre>\margb</pre> </p> </td> 
+   <td> <p><pre>\margl</pre>, <pre>\margr</pre>, <pre>\marg</pre>, <pre>\margb</pre> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>全段理由 </p> </td> 
+   <td> <p>段落全文理由 </p> </td> 
    <td> <p>無 </p> </td> 
    <td> <p>是 </p> </td> 
    <td> <p><pre>\qj</pre> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>最後一行對齊 </p> </td> 
+   <td> <p>最後一行說明 </p> </td> 
    <td> <p>無 </p> </td> 
    <td> <p>是 </p> </td> 
    <td> <p>\lastql, \lastqr, \lastqc, \lastqj </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>段落縮排 </p> </td> 
+   <td> <p>段落縮進 </p> </td> 
    <td> <p>無 </p> </td> 
    <td> <p>是 </p> </td> 
    <td> <p>\fi, \li, \ri </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>全大寫和小大寫文字 </p> </td> 
+   <td> <p>所有大寫和小寫文本 </p> </td> 
    <td> <p>無 </p> </td> 
    <td> <p>是 </p> </td> 
-   <td> <p>\caps,\scaps </p> </td> 
+   <td> <p>\caps,\caps </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>影像伺服顏色 </p> </td> 
+   <td> <p>影像服務顏色 </p> </td> 
    <td> <p>無 </p> </td> 
    <td> <p>是 </p> </td> 
-   <td> <p>\*\iscolortbl </p> </td> 
+   <td> <p>\*\iscolorbl </p> </td> 
   </tr> 
   <tr> 
    <td> <p>多種消除鋸齒模式 </p> </td> 
@@ -103,10 +103,10 @@ ht-degree: 7%
    <td> <p>textAttr= </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>左上/右文字流 </p> </td> 
+   <td> <p>上下/右左文本流 </p> </td> 
    <td> <p>無 </p> </td> 
    <td> <p>是 </p> </td> 
-   <td> <p>\stextFlow </p> </td> 
+   <td> <p>\stext流 </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Photofont®支援 </p> </td> 
@@ -115,22 +115,22 @@ ht-degree: 7%
    <td> 字型處理 </td> 
   </tr> 
   <tr> 
-   <td> <p>自動調整圖層大小以適合文字 </p> </td> 
+   <td> <p>自動調整圖層大小以適合文本 </p> </td> 
    <td> <p>是 </p> </td> 
    <td> <p>是 </p> </td> 
-   <td> <p>text=, textId=, size= </p> </td> 
+   <td> <p>text=,textId=,size= </p> </td> 
   </tr> 
   <tr> 
    <td> <p>CMYK支援 </p> </td> 
    <td> <p>是 </p> </td> 
    <td> <p>是 </p> </td> 
-   <td> <p>\cmykcolortbl, \*\iscolortbl </p> </td> 
+   <td> <p>\cmykcoltortbl, \*\iscolorbl </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>由右至左字元流 </p> </td> 
+   <td> <p>從右到左字元流 </p> </td> 
    <td> <p>是 </p> </td> 
    <td> <p>無 </p> </td> 
-   <td> <p>\rtlch </p> </td> 
+   <td> <p>\rtch </p> </td> 
   </tr> 
   <tr> 
    <td> <p>禁用換行 </p> </td> 
@@ -139,7 +139,7 @@ ht-degree: 7%
    <td> <p>textAttr= </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>自動縮放文字以適合圖層（通過不同解析度） </p> </td> 
+   <td> <p>自動縮放文本以適合圖層（通過改變解析度） </p> </td> 
    <td> <p>是 </p> </td> 
    <td> <p>無 </p> </td> 
    <td> <p>textAttr= </p> </td> 
@@ -147,22 +147,22 @@ ht-degree: 7%
  </tbody> 
 </table>
 
-RTF相容字串可以手動組合，或者通過在能夠保存RTF檔案的文本編輯器或文字處理器中格式化所需的文本來組合。 然後，RTF檔案可以在純文字檔案編輯器中開啟，並且檔案的相關原始RTF內容被複製到請求URL中。
+可以手動裝配符合RTF的字串，或通過在能夠保存RTF檔案的文本編輯器或字處理器中格式化所需文本來裝配。 然後，RTF檔案可以在純文字檔案編輯器中開啟，並將檔案的相關原始RTF內容複製到請求URL。
 
-某些字處理器生成較大的檔案，這些檔案包括不被Dynamic Media影像服務使用的大量前導碼。 建議先從字串中刪除未使用的RTF元素，然後再將字串傳遞到文本命令。
+一些字處理器生成較大的檔案，其中包括Dynamic Media影像服務未使用的大量前導碼。 建議先從字串中刪除未使用的RTF元素，然後再將字串傳遞給text命令。
 
-基於UTF-8和ISO標準的語言編碼支援在RTF字串中，作為標準RTF字元編碼機制的替代。 這允許應用程式向伺服器發送非英語文本，而不需要RTF編碼。
+RTF字串支援基於UTF-8和ISO標準的語言編碼，作為標準RTF字元編碼機制的替代方法。 這允許應用程式在不知道RTF編碼的情況下將非英文文本發送到伺服器。
 
-如果要透過http傳輸字串，則所有非HTTP相容字元都必須正確逸出。 如果將字串併入影像目錄記錄的`catalog::Modifiers`欄位，則只需將「=」、「&amp;」和「%」逸出。 應一律移除控制字元，包括`<CR>`、`<LF>`和`<TAB>`。
+如果要通過http傳輸字串，則必須正確轉義所有非HTTP相容字元。 如果將字串合併到 `catalog::Modifiers` 影像目錄記錄的欄位。 控制字元，包括 `<CR>`。 `<LF>`, `<TAB>` 應始終刪除。
 
-影像伺服文本引擎解釋由RTF格式(RTF)規範1.6版定義的命令的子集。該子集側重於字型/字元格式、簡單段落格式以及對國際字型和字元集的支援。 目前不支援更進階的格式結構，例如樣式表和表格。
+影像服務文本引擎解釋由RTF(RTF)規範1.6版定義的子命令集。此子集側重於字型/字元格式、簡單的段落格式以及對國際字型和字元集的支援。 目前不支援更高級的格式結構，如樣式表和表格。
 
-嘗試手動構建RTF編碼文本字串時，需要熟悉Microsoft發佈的RTF格式(RTF)規範。
+嘗試手動構造RTF編碼文本字串時，需要熟悉Microsoft發佈的RTF規範。
 
 * [字型處理](r-font-handling.md)
-* [色彩處理](r-color-handling.md)
-* [複製擬合](r-copy-fitting.md)
-* [文字層](r-text-layers.md)
+* [顏色處理](r-color-handling.md)
+* [複製管接頭](r-copy-fitting.md)
+* [文本圖層](r-text-layers.md)
 * [文本定位](r-text-positioning.md)
 * [保留字元](r-reserved-characters.md)
 * [支援的RTF命令和關鍵字](c-supported-rtf-commands-and-keywords/c-supported-rtf-commands-and-keywords.md)

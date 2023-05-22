@@ -1,28 +1,28 @@
 ---
-description: 影像集資料。 提供定義已排序影像集和Dynamic Media檢視器所使用控制屬性的機制。
+description: 影像集資料。 提供一種機制，用於定義已排序的影像集和Dynamic Media查看器使用的控制屬性。
 solution: Experience Manager
 title: ImageSet
-feature: Dynamic Media Classic, SDK/API，影像集
+feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,User
 exl-id: eacf0553-8cec-4a1d-80a5-6fe37b92b5bf
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '684'
 ht-degree: 2%
 
 ---
 
 # ImageSet{#imageset}
 
-影像集資料。 提供定義已排序影像集和Dynamic Media檢視器所使用控制屬性的機制。
+影像集資料。 提供一種機制，用於定義已排序的影像集和Dynamic Media查看器使用的控制屬性。
 
-影像集由以逗號分隔的排序項目清單組成，每個項目都由一個或多個子項目（影像ID、色票ID、媒體檔案路徑、標籤等）組成，由分號和/或冒號分隔。
+影像集由按逗號分隔的排序項清單組成，每個項由一個或多個子項（影像id、色板id、媒體檔案路徑、標籤等）組成，用分號和/或冒號分隔。
 
-大括弧`{ }`和括弧`( )`可用於分隔某些內容（如顏色值）或指示嵌套集。 此方式使用的大括弧或括弧不得編碼，且必須始終顯示為匹配對，否則將發生目錄解析錯誤。
+花括弧 `{ }` 括弧 `( )` 可用於限定某些內容（如顏色值）或指示嵌套集。 使用這種方法的大括弧或小括弧不得編碼，並且必須始終顯示為匹配對，否則將發生目錄分析錯誤。
 
 >[!NOTE]
 >
->下列字元會作為設定分隔字元，且在設定中顯示為id或字串值時，必須進行HTTP編碼：
+>以下字元用作集分隔符，當它們作為id或字串值的一部分出現在集中時，必須使用HTTP編碼：
 >
 >* `,`
 >* `;`
@@ -34,91 +34,91 @@ ht-degree: 2%
 
 
 
-有關影像集的結構和使用的其他詳細資訊，請參閱影像伺服檢視器檔案。
+有關影像集的結構和使用的其他詳細資訊，請參閱「影像服務查看器」文檔。
 
-伺服器會回傳此欄位的內容，而不會因應`req=imageset`要求而進行修改。
+伺服器返回此欄位的內容，但不會響應 `req=imageset` 請求。
 
 ## 標準集 {#section-5ecc8ffee7224668b63f601383665564}
 
-影像伺服器原本支援下列集合定義，而透過特定檢視器存取涉及該集合的伺服器端剖析、驗證和處理。 可通過在`catalog::AssetType`中指定相應值來標識每個設定類型。
+影像服務本機支援以下集定義，對某些查看器的訪問涉及對集的伺服器端分析、驗證和處理。 通過在中指定相應的值，可以識別每個設定類型 `catalog::AssetType`。
 
-**基本色票集**
+**基本色板集**
 
-基本色票集中的每個項目都包含對影像記錄的引用和對用作色票的影像記錄的可選單獨引用。
+基本色板集中的每個項包括對影像記錄的引用和對用作色板的影像記錄的可選單獨引用。
 
-| `*`basicSwatchSet`*` | `*``*&#42;[',' *`swatchItemswatchItem`*]` |
+| `*`basicSwatchSet`*` | `*`色板項`*&#42;[',' *`色板項`*]` |
 |---|---|
-| `*`swatchItem`*` | `*``*[';' *`imageIdswatch`*]` |
-| `*`色票`*` | `*`swatchId`*|solidColorSpecifier` |
-| `*`imageId`*` | IS影像參考（目錄/id） |
-| `*`swatchId`*` | IS影像參考（目錄/id） |
-| `*`solidColorSpecifier`*` | ` '{0x' *``* [ *`rrggbblabel`*]'}'` |
-| `*`rggbb`*` | 固色色票的6位數十六進位RGB色彩值 |
+| `*`色板項`*` | `*`影像ID`*[';' *`樣本`*]` |
+| `*`樣本`*` | `*`色板ID`*|solidColorSpecifier` |
+| `*`影像ID`*` | IS映像引用（目錄/ID） |
+| `*`色板ID`*` | IS映像引用（目錄/ID） |
+| `*`solidColor說明符`*` | ` '{0x' *`拉格布`* [ *`標籤`*]'}'` |
+| `*`拉格布`*` | 固色色板的6位十六進位RGB色值 |
 | `*`label`*` | 實色色板的可選文本標籤 |
 
-**階層色票集**
+**層次色板集**
 
-層次色板集中的每個項目都可由基本色板項目或對色板集記錄的引用組成（此類項目需要色板）。
+分層色板集中的每個項都可以由基本色板項或對色板集記錄的引用組成（此類項需要色板）。
 
-| `*`hierarchicalSwatchSet`*` | `*``* &#42;[ ',' *`hierarchicalSwatchItemhierarcialSwatchItem`* ]` |
+| `*`層次色板集`*` | `*`hierarchicalSwatchItem`* &#42;[ ',' *`hierarchicalSwatchItem`* ]` |
 |---|---|
-| `*`hierarchicalSwatchItem`*` | `*``* | { *``* ';' *`swatchItembasicSwatchSetIdswatch`* }` |
-| `*`basicSwatchSetId`*` | 對定義基本色票集的目錄記錄的IS引用（目錄/ID） |
+| `*`hierarchicalSwatchItem`*` | `*`色板項`* | { *`basicSwatchSetId`* ';' *`樣本`* }` |
+| `*`basicSwatchSetId`*` | 對定義基本色板集的目錄記錄的IS引用（目錄/ID） |
 
-**基本回轉集**
+**基本旋轉集**
 
-基本回轉集包含簡單的影像ID清單。
+基本旋轉集由簡單的影像ID清單組成。
 
-*`basicSpinSet imageId`*  *`[ ';'`  *`imageId`* `]`
+*`basicSpinSet imageId`*  &#42;`[ ';'`  *`imageId`* `]`
 
-**二維回轉集**
+**二維自旋集**
 
-二維回轉集中的每個項目都可由簡單影像、基本回轉集的參照，或由大括弧分隔的內線基本回轉集組成。 可使用括弧而非大括弧。
+二維旋轉集中的每個項目都可以由簡單影像、對基本旋轉集的引用或由大括弧分隔的串聯基本旋轉集組成。 可以使用圓括弧而不是花括弧。
 
-| `*`2dSpinItem`*` | `*`2dSpinSet`* *`2dSpinItem`* &#42;[ ',' *`2dSpinItem`* ]` |
+| `*`2dSpinItem`*` | `*`2d旋轉集`* *`2dSpinItem`* &#42;[ ',' *`2dSpinItem`* ]` |
 |---|---|
-| `*`2dSpinItem`*` | `*``* | { '{' *``* '}' } | *`imageIdbasicSpinSetbasicSpinSetId`*` |
-| `*`basicSpinSetId`*` | 對定義基本回轉集的目錄記錄進行IS引用（目錄/ID） |
+| `*`2dSpinItem`*` | `*`影像ID`* | { '{' *`basicSpinSet`* '}' } | *`basicSpinSetId`*` |
+| `*`basicSpinSetId`*` | IS對定義基本旋轉集的目錄記錄的引用 |
 
 **頁面集**
 
-頁面集中的每個項目最多可包含三個以冒號分隔的頁面影像。
+頁面集中的每個項目最多可以包含三個用冒號分隔的頁面影像。
 
-| `*`pageSet`*` | `*``* &#42;[ , *`pageItempageItem`* ]` |
+| `*`頁集`*` | `*`pageItem`* &#42;[ , *`pageItem`* ]` |
 |---|---|
-| `*`pageItem`*` | `*``* [ : *``* [ : *`imageIdimageIdimageId`* ] ]` |
+| `*`pageItem`*` | `*`影像ID`* [ : *`影像ID`* [ : *`影像ID`* ] ]` |
 
 **媒體集**
 
-媒體集中的每個項目都可包含影像、基本色票集、階層色票集、基本回轉集、二維回轉集、頁面集或視訊資產。 每個媒體集項目也可包含選用的色票和類型識別碼。
+媒體集中的每個項目都可以包括影像、基本色板集、分層色板集、基本旋轉集、二維旋轉集、頁集或視頻資產。 每個媒體集項目也可以包含可選色板和類型標識符。
 
-| `*`mediaSet`*` | `*``* &#42;[ , *`itemitem`* ]` |
+| `*`媒體集`*` | `*`物料`* &#42;[ , *`物料`* ]` |
 |---|---|
-| `*`項目`*` | ` { *``* | *``* | *``*}} | *``* } [ ; [ *``* ] [ ; [ *`videoItemrecutItemimageItemsetItemIDreserved`* ] ] ]` |
-| `*`videoItem`*` | `*``* ; *`videoswatchId`*` |
-| `*`recutItem`*` | `*``* ; *`recutswatchId`*` |
-| `*`imageItem`*` | `*``* ; [ *`imageIdswatchId`* ]` |
-| `*`setItem`*` | ` { *``* | { '{' *``* '}' } } ; *`setIdinlineSetswatchId`*` |
+| `*`項目`*` | ` { *`視頻項`* | *`recutItem`* | *`imageItem`*}} | *`setItem`* } [ ; [ *`ID`* ] [ ; [ *`保留`* ] ] ]` |
+| `*`視頻項`*` | `*`視頻`* ; *`色板ID`*` |
+| `*`recutItem`*` | `*`斜`* ; *`色板ID`*` |
+| `*`imageItem`*` | `*`影像ID`* ; [ *`色板ID`* ]` |
+| `*`setItem`*` | ` { *`集ID`* | { '{' *`內聯集`* '}' } } ; *`色板ID`*` |
 | `*`ID`*` | `media type identifier [ img | basic | advanced_image | img | img_set | advanced_imageset | advanced_swatchset | spin | video ]` |
-| `*`swatchId`*` | IS影像ID |
-| `*`影片`*` | 視頻/動畫檔案路徑或靜態目錄ID |
-| `*`重設`*` | 重新定義XML檔案路徑或靜態目錄ID |
-| `*`imageId`*` | IS影像ID |
-| `*`setId`*` | 是影像、回轉或對話集的參考 |
-| `*`inlineSet`*` | 內嵌的影像、回轉或對話集 |
+| `*`色板ID`*` | IS映像ID |
+| `*`視頻`*` | 視頻/動畫檔案路徑或靜態目錄ID |
+| `*`斜`*` | 重新定義XML檔案路徑或靜態目錄ID |
+| `*`影像ID`*` | IS映像ID |
+| `*`集ID`*` | IS對影像、旋轉或對錄集的引用 |
+| `*`內聯集`*` | 內嵌影像、旋轉或對錄集 |
 | `*`已保留`*` | 保留供將來使用 |
 
 **Video Sets**
 
-視訊集由簡單的視訊ID清單組成，每個ID會參照靜態內容目錄中的項目。
+視頻集由視頻ID的簡單清單組成，其中每個ID引用靜態內容目錄中的條目。
 
-*`videoSet videoId`*  *`[ ,`  *`videoId`* `]`
+*`videoSet videoId`*  &#42;`[ ,`  *`videoId`* `]`
 
 ## 屬性 {#section-17c731e5c46646aa90ac21f39bb693ca}
 
-文字字串。 `catalog::Id`值、絕對影像伺服器檔案路徑或相對於`attribute::RootPath`的檔案路徑的逗號分隔清單。 在集合中可以參照相同影像多次。 定義目錄記錄可能出現在任何位置的集合中。
+文本字串。 以逗號分隔的清單 `catalog::Id` 值、絕對影像伺服器檔案路徑或相對於 `attribute::RootPath`。 同一影像在集合中可被引用多次。 定義目錄記錄可能出現在任何位置的集中。
 
-此欄位參與文字字串本地化。 除了&#x200B;*`label`*&#x200B;字串（*`solidColorSpecifier`*&#x200B;的一部分）之外，如果所有分隔欄位至少包含一個「 `^loc=…^`」本地化代號，則這些欄位都會本地化。 如需詳細資訊，請參閱&#x200B;*HTTP通訊協定參考*&#x200B;中的[文字字串本地化](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)。
+此欄位參與文本字串本地化。 除 *`label`* 字串( *`solidColorSpecifier`*)如果所有分隔欄位至少包含一個「 」，則這些欄位都會本地化 `^loc=…^`&#39;本地化標籤。 請參閱 [文本字串本地化](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) 的 *HTTP協定引用* 的雙曲餘切值。
 
 ## 預設 {#section-c3a60e360393478284f0f2d2da5b963b}
 
@@ -126,4 +126,4 @@ ht-degree: 2%
 
 ## 請亦參閱 {#section-4c99c44f99074aa0a4ed90ba183bbc25}
 
-[req=imageset](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md) ,  [attribute::RootPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md),  [Object Id翻譯](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md) ,  [Text String Localization](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) , Image Serving Viewers Documentation
+[req=imageset](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md) 。 [屬性：:RootPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md)。 [對象ID轉換](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md) 。 [文本字串本地化](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) ，影像服務查看器文檔

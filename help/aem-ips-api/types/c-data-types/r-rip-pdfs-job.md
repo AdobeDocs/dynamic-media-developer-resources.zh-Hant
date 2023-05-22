@@ -1,7 +1,7 @@
 ---
-description: 重新分割現有PDF資產的程式。
+description: 重新拆除現有PDF資產的流程。
 solution: Experience Manager
-title: RipPdfJob
+title: RipPdf作業
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 7a787b45-3cda-44f2-8357-8b6217b679e0
@@ -14,11 +14,11 @@ ht-degree: 5%
 
 # [!DNL RipPdfsJob]{#rippdfsjob}
 
-重新分割現有PDF資產的程式。
+重新拆除現有PDF資產的流程。
 
 >[!NOTE]
 >
->已棄用此作業類型。 轉換至 `ReprocessAssetsJob` 供日後的整合使用。
+>此作業類型已棄用。 轉換到 `ReprocessAssetsJob` 為以後的整合。
 
 ## 參數 {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -32,24 +32,24 @@ ht-degree: 5%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> pdfHandleArray</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> pdf句柄陣列</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 類型：HandleArray</span> </p> </td> 
-   <td colname="col3"> <p>處理要撕開的PDF檔案陣列。 </p> </td> 
+   <td colname="col3"> <p>要撕開的PDF檔案陣列的句柄。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> createMask</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> 建立掩碼</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:boolean</span> </p> </td> 
    <td colname="col3"> <p>確定是否要建立蒙版。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 類型：ManualCropOptions</span> </p> </td> 
-   <td colname="col3"> <p>手動裁切選項。 </p> </td> 
+   <td colname="col3"> <p>手動裁剪選項。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> autoColorCropOptions</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> 自動顏色裁剪選項</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 類型：AutoColorCropOptions</span> </p> </td> 
-   <td colname="col3"> <p>自動裁切選項。 </p> </td> 
+   <td colname="col3"> <p>自動裁剪選項。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> autoTransparentCropOptions</span> </span> </p> </td> 
@@ -57,64 +57,64 @@ ht-degree: 5%
    <td colname="col3"> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> postScriptOptions</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> postScript選項</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 類型：PostScriptOptions</span> </p> </td> 
    <td colname="col3"> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> pdfOptions</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> pdf選項</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 類型：PDFOptions</span> </p> </td> 
    <td colname="col3"> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> illustratorOptions</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> illustrator選項</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 類型：IllustratorOptions</span> </p> </td> 
    <td colname="col3"> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> colorManagementOptions</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> 顏色管理選項</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 類型：ColorManagementOptions</span> </p> </td> 
    <td colname="col3"> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> projectHandleArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 類型：HandleArray</span> </p> </td> 
-   <td colname="col3"> <p>項目句柄的陣列。 </p> </td> 
+   <td colname="col3"> <p>一組項目句柄。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> emailSetting</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> 電子郵件設定</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>電子郵件設定。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postHttpUrl</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>要上傳檔案的URL。 </p> </td> 
+   <td colname="col3"> <p>要上載檔案的URL。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postImageServingPublishJob</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 類型：ImageServingPublishJob</span> </p> </td> 
-   <td colname="col3"> <p>上傳完成後，要執行之影像提供發佈工作的工作詳細資訊。 </p> </td> 
+   <td colname="col3"> <p>上載完成後要運行的提供發佈作業的映像的作業詳細資訊。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postImageRenderingPublishJob</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 類型：ImageRenderingPublishJob</span> </p> </td> 
-   <td colname="col3"> <p>上傳完成後要執行之影像呈現發佈作業的作業詳細資料。 </p> </td> 
+   <td colname="col3"> <p>上載完成後要運行的映像呈現發佈作業的作業詳細資訊。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postVideoPublishJob</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> 類型： VideoPublishJob</span> </p> </td> 
-   <td colname="col3"> <p>上傳完成後要執行之視訊發佈工作的工作詳細資訊。 </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 類型：VideoPublishJob</span> </p> </td> 
+   <td colname="col3"> <p>上載完成後要運行的視頻發佈作業的作業詳細資訊。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> inDesignOptions</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> 類型：InDesignOptions</span> </p> </td> 
-   <td colname="col3"> <p>將Adobe InDesign檔案上傳至影像伺服器的選項。 </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> 在設計選項中</span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 類型：InDesign選項</span> </p> </td> 
+   <td colname="col3"> <p>用於將Adobe InDesign檔案上載到映像伺服器的選項。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> knoupBackground</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> 類型：ThrunkedBackgroundOptions</span> </p> </td> 
-   <td colname="col3"> <p>遮罩所選影像的背景。 這可讓您以主體影像外部的透明度，在其他圖層中覆蓋它們。 </p> <p>選填。 </p> <p>請參閱<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> 挖空背景選項</a> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> 挖空背景</span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 類型：KnowBackgroundOptions</span> </p> </td> 
+   <td colname="col3"> <p>遮蔽選定影像的背景。 這樣，您就可以將它們疊加到主題影像之外具有透明度的其它圖層中。 </p> <p>選擇性. </p> <p>請參閱<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> 挖空背景選項</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>

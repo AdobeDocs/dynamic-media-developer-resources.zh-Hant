@@ -1,7 +1,7 @@
 ---
 description: 權限更新的陣列。
 solution: Experience Manager
-title: PermissionUpdateArray
+title: 權限更新陣列
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: eeff58a6-d6c0-4772-b735-5ba91afb61fc

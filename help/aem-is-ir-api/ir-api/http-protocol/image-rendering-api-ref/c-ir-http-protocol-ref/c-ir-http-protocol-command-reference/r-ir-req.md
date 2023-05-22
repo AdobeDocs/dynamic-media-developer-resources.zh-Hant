@@ -97,12 +97,12 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> image.embeddedIccProfile </span> </p> </td> 
-   <td colname="col2"> <p>布林 </p> </td> 
+   <td colname="col2"> <p>布爾型 </p> </td> 
    <td colname="col3"> <p>1，如果關聯的配置檔案嵌入到視圖中。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> image.embedded PhotoshopPaths </span> </p> </td> 
-   <td colname="col2"> <p>布林 </p> </td> 
+   <td colname="col2"> <p>布爾型 </p> </td> 
    <td colname="col3"> <p>1（如果視頻嵌入路徑資料）。 </p> </td> 
   </tr> 
   <tr> 
@@ -205,7 +205,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.iccEmbed </span> </p> </td> 
-   <td> <p> 布林 </p> </td> 
+   <td> <p> 布爾型 </p> </td> 
    <td> <p>如果ICC配置檔案嵌入回復影像中，則為True(請參見 <span class="codeph"> <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-iccembed.md#reference-47a433138c7c4b29b9b29871b2491a7f" type="reference" format="dita" scope="local"> iccEmbed= </a> </span>)。 </p> </td> 
   </tr> 
   <tr> 
@@ -215,12 +215,12 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.mask </span> </p> </td> 
-   <td> <p> 布林 </p> </td> 
+   <td> <p> 布爾型 </p> </td> 
    <td> <p> 如果回復影像包含Alpha，則為True。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.pathEmbed </span> </p> </td> 
-   <td> <p> 布林 </p> </td> 
+   <td> <p> 布爾型 </p> </td> 
    <td> <p> 如果回復影像包含路徑資料，則為True(請參見 <span class="codeph"> <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-pathembed.md#reference-dfff01079fc74dbd896362cc740d7f5f" type="reference" format="dita" scope="local"> pathEmbed= </a> </span>)。 </p> </td> 
   </tr> 
   <tr> 

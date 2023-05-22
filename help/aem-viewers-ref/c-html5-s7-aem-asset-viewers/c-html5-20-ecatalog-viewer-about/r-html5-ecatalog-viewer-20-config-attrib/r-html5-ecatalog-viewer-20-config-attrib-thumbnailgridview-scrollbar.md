@@ -8,7 +8,7 @@ exl-id: 9185d752-1fd8-45c3-8361-e5ee803e87d5
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
 source-wordcount: '17'
-ht-degree: 29%
+ht-degree: 23%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 29%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td> <p> 啟用或停用捲軸的使用。 </p> </td> 
+   <td> <p> 啟用或禁用捲動條的使用。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 屬性 {#section-f102ce7d6a514133b552c6a8466317cf}
 
-選填。
+選擇性.
 
 ## 預設 {#section-8582423c1d974c628be93247de6c1d79}
 

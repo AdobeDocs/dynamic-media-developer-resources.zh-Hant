@@ -1,5 +1,5 @@
 ---
-title: 混合媒體
+title: 混合介質
 description: 混合媒體查看器是媒體查看器。 它支援包含影像、色板集、旋轉集、視頻和自適應視頻集的媒體集。
 keywords: 響應
 solution: Experience Manager
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ---
 
-# 混合媒體{#mixed-media}
+# 混合介質{#mixed-media}
 
 混合媒體查看器是媒體查看器。 它支援包含影像、色板集、旋轉集、視頻和自適應視頻集的媒體集。
 
@@ -327,7 +327,7 @@ var mixedMediaViewer = new s7viewers.MixedMediaViewer({
 
 以下示例頁說明了具有無限制高度的響應設計嵌入在現實生活中的更多用途：
 
-[即時演示](https://landing.adobe.com/tw/na/dynamic-media/ctir-2755/live-demos.html)
+[即時演示](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
 [備用演示位置](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 

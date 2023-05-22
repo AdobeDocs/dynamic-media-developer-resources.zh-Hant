@@ -1,7 +1,7 @@
 ---
-description: 字串的陣列。
+description: 字串陣列。
 solution: Experience Manager
-title: StringArray
+title: 字串陣列
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1d380460-6634-4a63-a853-5a23e54b3f67
@@ -14,7 +14,7 @@ ht-degree: 31%
 
 # [!DNL StringArray]{#stringarray}
 
-字串的陣列。
+字串陣列。
 
 語法
 
@@ -22,4 +22,4 @@ ht-degree: 31%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 項目 | `xsd:string` | 字串的陣列。 |
+| 項目 | `xsd:string` | 字串陣列。 |

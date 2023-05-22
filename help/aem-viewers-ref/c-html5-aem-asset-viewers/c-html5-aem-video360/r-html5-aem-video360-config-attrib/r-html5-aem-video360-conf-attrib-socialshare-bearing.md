@@ -8,7 +8,7 @@ exl-id: f00b2539-3159-487a-b0fa-9589b694c2e6
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
 source-wordcount: '181'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -21,15 +21,15 @@ Video360查看器的配置屬性。
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 上|下|左|右|fit-vertical|fit-lateral</span> </p> </td> 
-   <td colname="col2"> <p> 指定按鈕容器的幻燈片動畫的方向。 </p> <p> 當設定為<span class="codeph"> up</span>、<span class="codeph"> down</span>、<span class="codeph"> left</span>或<span class="codeph"> right</span>時，面板沿指定方向滾動，無需額外邊界檢查，這會導致外容器對面板進行剪切。 </p> <p>當設為<span class="codeph"> fit-vertical</span>時，元件會先將基礎面板位置移至SocialShare的底部，並嘗試從底部、右側或左側展開面板。 每次嘗試時，元件都會檢查面板是否被外部容器修剪。 如果所有嘗試失敗，元件會嘗試將基板位置移至頂端，並在上、右、左方向重複轉出嘗試。 </p> <p>當設為<span class="codeph"> fit-lateral</span>時，元件使用類似的邏輯。 然而，它會先將底座向右移動，向右、向下和向上移動，然後將底座向左移動，向左、向下和向上移動。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 上|下|左|右|擬垂直|擬側</span> </p> </td> 
+   <td colname="col2"> <p> 指定按鈕容器的幻燈片動畫方向。 </p> <p> 設定為時 <span class="codeph"> 向上</span>。 <span class="codeph"> 向下</span>。 <span class="codeph"> 左</span>或 <span class="codeph"> 右</span>，面板在指定方向上滾出而不進行額外的邊界檢查，這可能導致面板被外部容器夾斷。 </p> <p>設定為時 <span class="codeph"> 垂直</span>，元件首先將基面板位置移到SocialShare的底部，並嘗試從此基礎位置從底部、右側或左側展開面板。 每次嘗試時，元件都會檢查面板是否被外部容器夾住。 如果所有嘗試都失敗，元件將嘗試將基板位置移到頂部，並在頂部、右側和左側重複部署嘗試。 </p> <p>設定為時 <span class="codeph"> 擬合側</span>，該元件使用類似的邏輯。 但是，它首先將基礎向右移動，嘗試右、下和上展示方向，然後將基礎向左移動，嘗試左、下和上展示方向。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 屬性 {#section-f42369774e2740dcb399626a0e4e930e}
 
-選填。
+選擇性.
 
 ## 預設 {#section-d016470e92a74f98a18c4ab3489410a5}
 

@@ -1,7 +1,7 @@
 ---
-description: 公司會籍
+description: 公司成員
 solution: Experience Manager
-title: 公司會籍
+title: 公司成員
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 10a1cd09-5cd8-48e6-93cf-da8d04d9941a
@@ -22,4 +22,4 @@ ht-degree: 27%
 |---|---|---|
 | [!DNL company] | `types:Company` |  |
 | [!DNL role] | `xsd:string` |  |
-| isActive | `xsd:boolean` | 設定使用者所屬各公司的狀態。 |
+| 活動 | `xsd:boolean` | 設定用戶所屬每個公司的狀態。 |

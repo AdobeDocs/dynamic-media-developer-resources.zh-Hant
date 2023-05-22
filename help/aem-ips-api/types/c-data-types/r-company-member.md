@@ -1,5 +1,5 @@
 ---
-description: 說明使用者所屬的不同公司。
+description: 描述用戶所屬的不同公司。
 solution: Experience Manager
 title: 公司成員
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 17%
 
 # [!DNL CompanyMember]{#companymember}
 
-說明使用者所屬的不同公司。
+描述用戶所屬的不同公司。
 
 語法
 
@@ -23,5 +23,5 @@ ht-degree: 17%
 | 名稱 | 類型 | 說明 |
 |---|---|---|
 | 使用者 | `types:User` | 使用者名稱. |
-| 角色 | `xsd:string` | 使用者對其所屬之每個公司的角色。 |
-| isActive | `xsd:boolean` | 設定使用者所屬各公司的狀態。 |
+| 角色 | `xsd:string` | 用戶對其所屬的每個公司的角色。 |
+| 活動 | `xsd:boolean` | 設定用戶所屬每個公司的狀態。 |

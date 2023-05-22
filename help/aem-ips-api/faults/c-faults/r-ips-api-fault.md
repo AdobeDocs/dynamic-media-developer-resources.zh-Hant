@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 48be47f6-4c1c-4f19-afa7-f643e504c287
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '30'
-ht-degree: 30%
+source-wordcount: '25'
+ht-degree: 36%
 
 ---
 
@@ -29,5 +29,5 @@ ht-degree: 30%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| `code` | `xsd:int` | 錯誤ID |
+| `code` | `xsd:int` | 故障ID |
 | `reason` | `xsd:string` | 描述故障的資訊性消息。 |

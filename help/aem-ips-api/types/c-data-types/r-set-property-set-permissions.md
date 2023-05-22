@@ -20,5 +20,5 @@ ht-degree: 27%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| setHandle | `xsd:string` | 處理屬性集。 |
-| permissionsArray | `types:PermissionUpdateArray` | 權限陣列。 |
+| setHandle | `xsd:string` | 屬性集的句柄。 |
+| 權限陣列 | `types:PermissionUpdateArray` | 權限的陣列。 |

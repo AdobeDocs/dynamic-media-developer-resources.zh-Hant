@@ -8,7 +8,7 @@ exl-id: d5485569-def8-4e16-9f0e-7dd30d38439d
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
 source-wordcount: '118'
-ht-degree: 13%
+ht-degree: 6%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 13%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p> </td> 
-  <td class="stentry"> <p>保留上一個選取範圍. </p> </td> 
+  <td class="stentry"> <p>保留上一個選擇。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p> </td> 
@@ -35,7 +35,7 @@ ht-degree: 13%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p> </td> 
-  <td class="stentry"> <p>傳回錯誤. </p> </td> 
+  <td class="stentry"> <p>返回錯誤。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>4 </p> </td> 

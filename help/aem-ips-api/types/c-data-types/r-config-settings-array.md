@@ -1,7 +1,7 @@
 ---
 description: 配置設定的陣列。
 solution: Experience Manager
-title: ConfigSettingArray
+title: 配置設定陣列
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 7b240693-8b3b-4765-9cd9-a6125da77f54

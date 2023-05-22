@@ -69,7 +69,7 @@ ht-degree: 11%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> 公司資訊</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd：字串</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
    <td colname="col4"> <p>新公司的句柄和名稱、根路徑、到期日期和時間。 </p> </td> 
   </tr> 

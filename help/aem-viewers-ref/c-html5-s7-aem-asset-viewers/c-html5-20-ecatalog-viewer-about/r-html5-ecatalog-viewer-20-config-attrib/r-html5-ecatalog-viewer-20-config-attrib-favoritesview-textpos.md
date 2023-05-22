@@ -8,7 +8,7 @@ exl-id: 3bfd7f84-6136-4db7-80a5-56f84179f3ce
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
 source-wordcount: '64'
-ht-degree: 6%
+ht-degree: 4%
 
 ---
 
@@ -19,15 +19,15 @@ ht-degree: 6%
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 下|上|左|右|無|工具提示</span> </p> </td> 
-   <td colname="col2"> <p> 指定標籤相對於縮圖影像的繪製位置。也就是說，標籤會置於相對於縮圖的指定位置。 </p> <p>當 <span class="codeph"> 工具提示</span> 指定時，標籤文本將顯示為縮略圖上的浮動工具提示。 </p> <p>設為時 <span class="codeph"> 無</span>，則會關閉標籤顯示。 </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> 下|上|左|右|無</span> </p> </td> 
+   <td colname="col2"> <p> 指定標籤相對於縮略圖的繪製位置。 即，標籤位於相對於縮略圖的指定位置中心。 </p> <p>當 <span class="codeph"> 提示</span> 指定時，標籤文本將作為縮略圖上的浮動工具提示顯示。 </p> <p>設定為時 <span class="codeph"> 無</span>，它將關閉標籤顯示。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 屬性 {#section-f42369774e2740dcb399626a0e4e930e}
 
-選填。
+選擇性.
 
 ## 預設 {#section-d016470e92a74f98a18c4ab3489410a5}
 

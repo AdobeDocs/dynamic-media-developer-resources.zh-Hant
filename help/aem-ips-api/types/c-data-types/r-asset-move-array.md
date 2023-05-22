@@ -1,5 +1,5 @@
 ---
-title: AssetMoveArray
+title: 資產移動陣列
 description: 資產移動的陣列。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management

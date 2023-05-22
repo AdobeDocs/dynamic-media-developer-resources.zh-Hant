@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 04534c0f-12b7-4560-974b-918b081164ce
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '30'
+source-wordcount: '25'
 ht-degree: 0%
 
 ---
@@ -16,4 +16,4 @@ ht-degree: 0%
 
 實數資料類型。
 
-有符號的浮點值（例如0、12.5、245、-2.34e4）。 0或負值可能有特殊意義。
+簽名浮點值（例如0、12.5、245、-2.34e4）。 0或負值可能具有特殊含義。

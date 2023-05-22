@@ -8,7 +8,7 @@ exl-id: 0d275efc-58da-449f-a782-0ddc152ca821
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
 source-wordcount: '63'
-ht-degree: 7%
+ht-degree: 6%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 切換時，捲動按鈕會自動使色票跳轉整個頁面長度。 </p> <p>如果色票不符合，最後一頁會顯示額外的空白字元。 此外，最後一頁的儲存格數量與前一頁相同。 </p> <p>會忽略捲動步驟，且滑鼠捲動僅在完整頁面上結算。 </p> </td> 
+   <td colname="col2"> <p> 切換時，滾動按鈕會自動使色板跳過整個頁面長度。 </p> <p>如果色板不適合，則在最後一頁上顯示額外的空白。 此外，最後一頁的單元格數與上一頁相同。 </p> <p>將忽略滾動步驟，滑鼠滾動僅在整個頁面上完成。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 屬性 {#section-e6310c8c4e8547689a5b48ceddb3671d}
 
-選填。
+選擇性.
 
 ## 預設 {#section-fcb06fd8e7e945e590094efcf9a1d510}
 

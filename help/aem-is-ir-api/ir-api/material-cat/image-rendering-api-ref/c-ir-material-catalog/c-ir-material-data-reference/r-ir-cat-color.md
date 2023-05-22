@@ -1,5 +1,5 @@
 ---
-description: 材料顏色。 固色材料的主色和著色紋理材料的添加色。
+description: 材料顏色。 實色材料的主色和彩色紋理材料的附加色。
 solution: Experience Manager
 title: 色彩
 feature: Dynamic Media Classic,SDK/API
@@ -7,18 +7,18 @@ role: Developer,User
 exl-id: af472ded-d9df-48d5-a237-c359b68bebe2
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 10%
+source-wordcount: '83'
+ht-degree: 9%
 
 ---
 
 # 色彩{#color}
 
-材料顏色。 固色材料的主色和著色紋理材料的添加色。
+材料顏色。 實色材料的主色和彩色紋理材料的附加色。
 
 ## 屬性 {#section-073772b43b264b37bd96d1fb7404d10b}
 
-色彩. 實色材料所需。 可重複的紋理、機櫃和覆蓋材料的窗口可選，以指定顏色。 如果不修改可重複紋理或機櫃材料的顏色，則必須將此欄位留空。
+色彩. 純色材料必需。 可選，用於可重複的紋理、機櫃和窗口覆蓋材料，以指定著色顏色。 如果不修改可重複紋理或機櫃材料的顏色，則此欄位必須保持為空。
 
 ## 預設 {#section-bf2c2ec642ed47da880ae2943b7d2c18}
 

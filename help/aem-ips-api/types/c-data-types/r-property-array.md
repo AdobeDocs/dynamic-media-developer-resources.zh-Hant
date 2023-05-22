@@ -1,7 +1,7 @@
 ---
 description: 屬性陣列。
 solution: Experience Manager
-title: PropertyArray
+title: 屬性陣列
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 65a72938-dffe-4448-93f6-166dd0dfdb90

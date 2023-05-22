@@ -1,7 +1,7 @@
 ---
-description: 為上載作業自動設定生成指令碼清單。 假設為上傳指定的每個指令碼都套用至所有已上傳的資產。
+description: 自動設定上載作業的生成指令碼清單。 假定為上載指定的每個指令碼都應用於所有上載的資產。
 solution: Experience Manager
-title: AutoSetCreationOptions
+title: 自動集建立選項
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e6e969be-0410-4be7-88d6-491d715fd137
@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # [!DNL AutoSetCreationOptions]{#autosetcreationoptions}
 
-為上載作業自動設定生成指令碼清單。 假設為上傳指定的每個指令碼都套用至所有已上傳的資產。
+自動設定上載作業的生成指令碼清單。 假定為上載指定的每個指令碼都應用於所有上載的資產。
 
 語法
 
@@ -22,4 +22,4 @@ ht-degree: 7%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| autoSetsArray | `types:HandleArray` | 陣列 [!DNL PropertySet] 處理程式定義在上傳期間套用的自動設定產生指令碼。 |
+| 自動集陣列 | `types:HandleArray` | 陣列 [!DNL PropertySet] 句柄定義在上載期間應用的自動集生成指令碼。 |

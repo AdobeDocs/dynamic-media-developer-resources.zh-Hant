@@ -1,5 +1,5 @@
 ---
-description: 說明IPS API 6版的新操作方法和更改的操作方法。
+description: 介紹IPS API版本6的新操作方法和已更改的操作方法。
 solution: Experience Manager
 title: 操作新建和修改
 feature: Dynamic Media Classic,SDK/API
@@ -7,14 +7,14 @@ role: Developer,Admin
 exl-id: fc7af77e-17fc-453a-8949-78c9c5c33b34
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 5%
+source-wordcount: '81'
+ht-degree: 6%
 
 ---
 
-# 操作：新增和修改{#operations-new-and-modified}
+# 操作：新建和修改{#operations-new-and-modified}
 
-說明IPS API 6版的新操作方法和更改的操作方法。
+介紹IPS API版本6的新操作方法和已更改的操作方法。
 
 語法
 
@@ -31,25 +31,25 @@ ht-degree: 5%
 
 **已新增**
 
-* 將`isHidden`和`initialTagValue`新增至：
+* 已添加 `isHidden` 和 `initialTagValue` 至：
 
    * `saveMetadataField`
    * ` `updateMetadataField&quot;
    * `createMetadataField`
 
-* 將`thumbAssetHandle`新增至：
+* 已添加 `thumbAssetHandle` 至：
 
    * `createImageSet`
    * `createAssetSet`
 
-   將`companyHandle`新增至：
+   已添加 `companyHandle` 至：
 
    * `getViewerConfigSettings`
    * `setViewerConfigSettings`
    * `updateViewerConfigSettings`
    * `getSearchStrings`
 
-   將`contextHandle`新增至：
+   已添加 `contextHandle` 至：
 
    * `getImageServingPublishSettings`
    * `getImageRenderingPublishSettings`
@@ -58,32 +58,32 @@ ht-degree: 5%
 
 
 
-* 將includeInactive新增至：
+* 已將includeInactive添加到：
 
    * `getUsers`.
    * `getUserChars`.
 
-* 將`permissionArray`新增至`createPropertySet`。
+* 已添加 `permissionArray` 至 `createPropertySet`。
 
-* 將`exportJob`新增至`submitJob`。
+* 已添加 `exportJob` 至 `submitJob`。
 
 **將**
 
-* 在`addUser`和`setUser`中，將`role`變更為`defaultRole`。
+* 在 `addUser` 和 `setUser`已更改 `role` 至 `defaultRole`。
 
-* 在`getCompanyMembers`中，將`userArray`變更為`memberArray`。
+* 在 `getCompanyMembers`已更改 `userArray` 至 `memberArray`。
 
-* 在`getCompanyMembership`中，將`companyArray`變更為`membershipArray`。
+* 在 `getCompanyMembership`已更改 `companyArray` 至 `membershipArray`。
 
-* 在`addUser`、`setCompanyMembership`和`addCompanyMembership`中，將`membershipArray`變更為`companyHandleArray`。
+* 在 `addUser`。 `setCompanyMembership`, `addCompanyMembership`已更改 `membershipArray` 至 `companyHandleArray`。
 
-* 在`getCompanyMembership`中，將`companyArray`變更為`membershipArray`。
+* 在 `getCompanyMembership`已更改 `companyArray` 至 `membershipArray`。
 
-* 在`getUserChars`中，`includeInvalid`現在為選用。
+* 在 `getUserChars`。 `includeInvalid` 選項。
 
 **已移除**
 
-* 從`renameAsset`移除`renameFiles`。
+* 已刪除 `renameFiles` 從 `renameAsset`。
 
 * 已移除 `getXMPPanelViewDefinition`.
-* 移除`searchAssetsByFulltext`和`searchAssetsBySimilarity`。
+* 已刪除 `searchAssetsByFulltext` 和 `searchAssetsBySimilarity`。

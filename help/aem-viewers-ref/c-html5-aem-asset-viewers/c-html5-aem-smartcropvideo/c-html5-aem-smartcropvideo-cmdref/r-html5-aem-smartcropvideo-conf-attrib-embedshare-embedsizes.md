@@ -1,44 +1,45 @@
 ---
 title: EmbedShare.embedsizes
-description: 智慧型裁切視訊檢視器的設定屬性。
+description: Smart Crop Video Viewer的配置屬性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: dfd80e5727a128f272855f1f28e1bc89cb2436bf
+exl-id: c638d9fd-39bb-4baa-9b3a-99d9bc0307b5
+source-git-commit: 8c49595fe0efb684b59601fb268bd8bf97fae555
 workflow-type: tm+mt
 source-wordcount: '61'
-ht-degree: 11%
+ht-degree: 9%
 
 ---
 
 # EmbedShare.embedsizes{#embedshare-embedsizes}
 
-智慧型裁切視訊檢視器的設定屬性。
+Smart Crop Video Viewer的配置屬性。
 
 ` [EmbedShare.|<containerId>_embedShare.]embedsizes= *`寬度`*, *`高度`*[,0|1][; *`寬度`*, *`高度`*[,0|1]]`
 
-在內嵌共用強制回應對話方塊中，指定大小下拉式方塊的內嵌大小清單。
+在「嵌入共用模式」對話框中為「大小」組合框指定嵌入大小清單。
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> width </span> </span> </p> </td> 
-   <td colname="col2"> <p> 內嵌寬度。 </p> </td> 
+   <td colname="col2"> <p> 嵌入寬度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> height </span> </span> </p> </td> 
-   <td colname="col2"> <p>內嵌高度。 </p> </td> 
+   <td colname="col2"> <p>嵌入高度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 指定是否應在組合框中最初預選此清單項。 </p> </td> 
+   <td colname="col2"> <p> 指定是否應在組合框中初始預選此清單項。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 屬性 {#section-f42369774e2740dcb399626a0e4e930e}
 
-選填。
+選擇性.
 
 ## 預設 {#section-d016470e92a74f98a18c4ab3489410a5}
 

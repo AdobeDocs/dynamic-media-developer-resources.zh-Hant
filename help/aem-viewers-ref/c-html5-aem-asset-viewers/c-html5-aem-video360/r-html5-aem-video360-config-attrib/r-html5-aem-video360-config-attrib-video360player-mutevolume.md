@@ -8,7 +8,7 @@ exl-id: 8f95c01f-e634-4d6c-a22f-c2285ee969c8
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
 source-wordcount: '55'
-ht-degree: 16%
+ht-degree: 14%
 
 ---
 
@@ -22,14 +22,14 @@ Video360查看器的配置屬性。
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 在初始載入時為視訊播放設定靜音模式。 如果設定為<span class="codeph"> 1 </span> ，則卷將靜音；否則，影片會以音效播放。 在某些裝置上，載入時停用視訊播放也可讓視訊自動播放。 </p> </td> 
+   <td colname="col2"> <p> 設定初始載入時視頻播放的靜音模式。 如果設定為 <span class="codeph"> 1 </span> 卷被靜音；否則，視頻會播放聲音。 在某些設備上，在載入時停止視頻播放也允許視頻自動播放。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 屬性 {#section-65be9301796240e38f31818229da7acc}
 
-選填。
+選擇性.
 
 ## 預設 {#section-bd374ffc5182484faa77a7a3c8fa70f2}
 

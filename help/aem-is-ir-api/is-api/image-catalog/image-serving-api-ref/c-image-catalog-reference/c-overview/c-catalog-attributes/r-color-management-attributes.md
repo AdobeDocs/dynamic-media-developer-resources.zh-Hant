@@ -1,18 +1,18 @@
 ---
 description: 目錄屬性檔案可識別這些顏色管理屬性。
 solution: Experience Manager
-title: 色彩管理屬性
+title: 顏色管理屬性
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ded6bfe7-3e39-4e45-83f0-21e9bf92895f
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '73'
 ht-degree: 0%
 
 ---
 
-# 色彩管理屬性{#color-management-attributes}
+# 顏色管理屬性{#color-management-attributes}
 
 目錄屬性檔案可識別這些顏色管理屬性。
 
@@ -22,7 +22,7 @@ ht-degree: 0%
   <td class="stentry"> <p>預設CMYK輸出顏色配置檔案。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilegray.md#reference-13822a1596e440eea0492e86d88dad35" type="reference" format="dita" scope="local"> IccProfileGray</a> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilegray.md#reference-13822a1596e440eea0492e86d88dad35" type="reference" format="dita" scope="local"> Icc配置檔案灰色</a> </span> </p></td> 
   <td class="stentry"> <p>預設灰度輸出顏色配置檔案。 </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -43,10 +43,10 @@ ht-degree: 0%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccrenderintent.md#reference-012f207f28bd4406a5368d23ed95a51f" type="reference" format="dita" scope="local"> IccRenderIntent</a> </span> </p> </td> 
-  <td class="stentry"> <p>預設呈現目的。 </p></td> 
+  <td class="stentry"> <p>預設渲染方法。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccblackpointcompensation.md#reference-357626375ee140d1807f0c05171c733f" type="reference" format="dita" scope="local"> IccBlackPointCompensation</a> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccblackpointcompensation.md#reference-357626375ee140d1807f0c05171c733f" type="reference" format="dita" scope="local"> IccBlackPoint補償</a> </span> </p></td> 
   <td class="stentry"> <p>啟用/禁用黑點補償。 </p></td> 
  </tr> 
  <tr class="strow"> 

@@ -1,14 +1,14 @@
 ---
 description: PDF設定檔案資產的屬性。
 solution: Experience Manager
-title: PdfSettingsInfo
+title: PDF設定資訊
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 5bf316ec-7f92-4384-8a4e-b80610e5839b
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '31'
-ht-degree: 29%
+ht-degree: 22%
 
 ---
 
@@ -22,6 +22,6 @@ PDF設定檔案資產的屬性。
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| originalPath | `xsd:string` | 檔案路徑。 |
-| originalFile | `xsd:string` | 檔案名稱. |
-| fileSize | `xsd:int` | 檔案大小. |
+| 原始路徑 | `xsd:string` | 檔案路徑。 |
+| 原始檔案 | `xsd:string` | 檔案名稱. |
+| 檔案大小 | `xsd:int` | 檔案大小。 |

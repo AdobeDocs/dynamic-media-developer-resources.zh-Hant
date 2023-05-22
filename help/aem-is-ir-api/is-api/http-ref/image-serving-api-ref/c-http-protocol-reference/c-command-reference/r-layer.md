@@ -8,7 +8,7 @@ exl-id: f1200d86-d88c-4990-ae36-2ce96ae94343
 source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 1%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> 名稱</span></span> </p></td> 
-  <td class="stentry"> <p>圖層名稱. </p></td> 
+  <td class="stentry"> <p>層名稱。 </p></td> 
  </tr> 
 </table>
 

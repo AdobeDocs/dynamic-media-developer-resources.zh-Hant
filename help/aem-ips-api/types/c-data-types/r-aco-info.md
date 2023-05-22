@@ -1,5 +1,5 @@
 ---
-title: AcoInfo
+title: 阿科資訊
 description: ACO資產的屬性。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
@@ -22,6 +22,6 @@ ACO資產的屬性。
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| originalPath | `xsd:string` | ACO檔案路徑。 |
-| originalFile | `xsd:string` | ACO檔案名。 |
-| fileSize | `xsd:int` | ACO檔案大小。 |
+| 原始路徑 | `xsd:string` | ACO檔案路徑。 |
+| 原始檔案 | `xsd:string` | ACO檔案名。 |
+| 檔案大小 | `xsd:int` | ACO檔案大小。 |

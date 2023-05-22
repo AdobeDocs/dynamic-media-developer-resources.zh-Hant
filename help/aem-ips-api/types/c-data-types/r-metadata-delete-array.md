@@ -1,7 +1,7 @@
 ---
-description: 要從資產中刪除的中繼資料陣列。
+description: 要從資產中刪除的元資料陣列。
 solution: Experience Manager
-title: MetadataDeleteArray
+title: 元資料刪除陣列
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: b04405e6-48ec-4498-b86e-83bbddeb73ab
@@ -14,7 +14,7 @@ ht-degree: 18%
 
 # [!DNL MetadataDeleteArray]{#metadatadeletearray}
 
-要從資產中刪除的中繼資料陣列。
+要從資產中刪除的元資料陣列。
 
 語法
 
@@ -22,4 +22,4 @@ ht-degree: 18%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 項目 | `type:Metadata` | 要刪除的中繼資料參數陣列。 |
+| 項目 | `type:Metadata` | 要刪除的元資料參數陣列。 |

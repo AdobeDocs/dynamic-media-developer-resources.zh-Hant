@@ -1,10 +1,11 @@
 ---
 title: 控制欄
-description: 控制欄是矩形區域，包含並位於智慧型裁切視訊檢視器可用的所有UI控制項（例如播放/暫停按鈕和音量控制項）後面。
+description: 控制欄是矩形區域，包含並位於Smart Crop視頻查看器可用的所有UI控制項（如播放/暫停按鈕和音量控制項）的後面。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 8ea06e0a-705d-436a-9393-75a36381cba6
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 2%
@@ -13,11 +14,11 @@ ht-degree: 2%
 
 # 控制欄{#control-bar}
 
-控制欄是矩形區域，包含並位於智慧型裁切視訊檢視器可用的所有UI控制項（例如播放/暫停按鈕和音量控制項）後面。
+控制欄是矩形區域，包含並位於Smart Crop視頻查看器可用的所有UI控制項（如播放/暫停按鈕和音量控制項）的後面。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-控制列一律會取用整個可用的檢視器寬度。 您可以透過CSS，相對於智慧型裁切視訊檢視器容器來變更其顏色、高度和垂直位置。
+控制欄始終取整個可用查看器寬度。 通過CSS可以相對於Smart Crop Video查看器容器更改其顏色、高度和垂直位置。
 
 以下CSS類選擇器控制控制欄的外觀：
 
@@ -31,18 +32,18 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 頂部 </span> </p> </td> 
-   <td colname="col2"> <p>從上邊框的位置，包括邊框間距。 </p> </td> 
+   <td colname="col2"> <p>從上邊框定位，包括填充。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 底部 </span> </p> </td> 
-   <td colname="col2"> <p> 從底部邊框的位置，包括邊框間距。 </p> </td> 
+   <td colname="col2"> <p> 從底邊框定位，包括填充。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>控制欄的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景顏色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
    <td colname="col2"> <p>控制欄的背景顏色。 </p> </td> 
   </tr> 
  </tbody> 
@@ -50,7 +51,7 @@ ht-degree: 2%
 
 ## 範例 {#section-e8caea0a303c425a8a637c2a47c06355}
 
-設定具有30像素高且位於智慧型裁切視訊檢視器容器頂端的灰色控制列的智慧型裁切視訊檢視器。
+設定Smart Crop視頻查看器，其灰色控制欄高30像素，位於Smart Crop視頻查看器容器的頂部。
 
 ```
 .s7smartcropvideoviewer .s7controlbar {  

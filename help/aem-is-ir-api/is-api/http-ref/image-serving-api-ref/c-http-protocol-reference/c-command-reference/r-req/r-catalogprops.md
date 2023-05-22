@@ -1,39 +1,39 @@
 ---
-description: 影像目錄屬性。 傳回請求路徑中指定之影像目錄的通用屬性。
+description: 映像目錄屬性。 返回在請求路徑中指定的映像目錄的公用屬性。
 solution: Experience Manager
-title: 目錄prop
+title: 編目道具
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 28bf68e8-d424-418e-99a7-5298a1d83341
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '213'
 ht-degree: 6%
 
 ---
 
-# 目錄prop{#catalogprops}
+# 編目道具{#catalogprops}
 
-影像目錄屬性。 傳回請求路徑中指定之影像目錄的通用屬性。
+映像目錄屬性。 返回在請求路徑中指定的映像目錄的公用屬性。
 
 `req=catalogprops[,text|javascript|xml|{json[&id= *`reqId`*]}]`
 
 <table id="simpletable_D1D9183C08834005B482B103CEF2EDA9"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"><span class="varname"> reqId</span></span> </p> </td> 
-  <td class="stentry"> <p>唯一請求識別碼。 </p></td> 
+  <td class="stentry"> <p>唯一請求標識符。 </p></td> 
  </tr> 
 </table>
 
-要檢索預設目錄屬性([!DNL default.ini])，請忽略目錄ID。 HTTP回應可根據`attribute::NonImgExpiration`與TTL快取。
+檢索預設目錄屬性( [!DNL default.ini])，忽略目錄ID。 HTTP響應可以與基於的TTL進行快取 `attribute::NonImgExpiration`。
 
-支援JSONP回應格式的要求可讓您使用`req=`參數的延伸語法來指定JS回呼處理常式的名稱：
+支援JSONP響應格式的請求允許您使用擴展語法指定JS回調處理程式的名稱 `req=` 參數：
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` 是JSONP回應中出現的JS處理常式的名稱。僅允許a-z、A-Z和0-9個字元。 選填。預設為 `s7jsonResponse`.
+`<reqHandler>` 是JSONP響應中存在的JS處理程式的名稱。 只允許使用a-z、A-Z和0-9個字元。 選擇性. 預設為 `s7jsonResponse`.
 
-會傳回下列屬性值：
+返回以下屬性值：
 
 <table id="table_DEC26CBF274945298BA81B5E2E2F331D"> 
  <tbody> 
@@ -43,7 +43,7 @@ ht-degree: 6%
    <td> <b> 對應的目錄屬性</b> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> catalog.bkgColor</span> </p> </td> 
+   <td> <p> <span class="codeph"> catalog.bkg顏色</span> </p> </td> 
    <td> <p> 十六進位 </p> </td> 
    <td> <p> <span class="codeph"> 屬性：:BkgColor</span> </p> </td> 
   </tr> 
@@ -65,10 +65,10 @@ ht-degree: 6%
   <tr> 
    <td> <p> <span class="codeph"> catalog.expiration</span> </p> </td> 
    <td> <p> 真實 </p> </td> 
-   <td> <p> <span class="codeph"> 屬性：：過期</span> </p> </td> 
+   <td> <p> <span class="codeph"> 屬性：：到期</span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> catalog.defaultExpiration</span> </p> </td> 
+   <td> <p> <span class="codeph"> catalog.default到期</span> </p> </td> 
    <td> <p> 真實 </p> </td> 
    <td> <p> <span class="codeph"> 屬性：:DefaultExpiration</span> </p> </td> 
   </tr> 
@@ -80,7 +80,7 @@ ht-degree: 6%
   <tr valign="top"> 
    <td> <p> <span class="codeph"> catalog.fileTime</span> </p> </td> 
    <td> <p> 字串 </p> </td> 
-   <td> <p> <span class="codeph"> attribute::LastModified</span>，或目錄的上次修改時間（若不存在） <span class="varname"> </span><span class="filepath"> </span> 。 </p> </td> 
+   <td> <p> <span class="codeph"> 屬性：:LastModified</span>，或，如果不存在，則 <span class="varname"> 目錄</span><span class="filepath"> .ini</span> 檔案 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.jpegQuality</span> </p> </td> 
@@ -94,7 +94,7 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.printResolution</span> </p> </td> 
-   <td> <p> int </p> </td> 
+   <td> <p> 整 </p> </td> 
    <td> <p> <span class="codeph"> 屬性：:PrintResolution</span> </p> </td> 
   </tr> 
   <tr> 
@@ -104,7 +104,7 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.resMode</span> </p> </td> 
-   <td> <p> 列舉 </p> </td> 
+   <td> <p> 枚舉 </p> </td> 
    <td> <p> <span class="codeph"> 屬性：:ResMode</span> </p> </td> 
   </tr> 
   <tr> 
@@ -113,13 +113,13 @@ ht-degree: 6%
    <td> <p> <span class="codeph"> 屬性：：解析度</span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> catalog.thumbBkgColor</span> </p> </td> 
+   <td> <p> <span class="codeph"> catalog.thumbKgColor</span> </p> </td> 
    <td> <p> 十六進位 </p> </td> 
    <td> <p> <span class="codeph"> 屬性：:ThumbBkgColor</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.thumbHorizAlign</span> </p> </td> 
-   <td> <p> 列舉 </p> </td> 
+   <td> <p> 枚舉 </p> </td> 
    <td> <p> <span class="codeph"> 屬性：:ThumbHorizAlign</span> </p> </td> 
   </tr> 
   <tr> 
@@ -129,18 +129,18 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.thumbType</span> </p> </td> 
-   <td> <p> 列舉 </p> </td> 
+   <td> <p> 枚舉 </p> </td> 
    <td> <p> <span class="codeph"> 屬性：:ThumbType</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.thumbVertAlign</span> </p> </td> 
-   <td> <p> 列舉 </p> </td> 
+   <td> <p> 枚舉 </p> </td> 
    <td> <p> <span class="codeph"> 屬性：:ThumbVertAlign</span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> 目錄：浮水印</span> </p> </td> 
+   <td> <p> <span class="codeph"> 目錄：水印</span> </p> </td> 
    <td> <p> 字串 </p> </td> 
-   <td> <p> <span class="codeph"> 屬性：：浮水印</span> </p> </td> 
+   <td> <p> <span class="codeph"> 屬性：：水印</span> </p> </td> 
   </tr> 
  </tbody> 
 </table>

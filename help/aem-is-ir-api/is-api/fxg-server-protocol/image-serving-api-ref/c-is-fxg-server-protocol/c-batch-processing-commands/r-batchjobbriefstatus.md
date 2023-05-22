@@ -1,5 +1,5 @@
 ---
-title: batjobpriefstatus
+title: BJ公報
 description: 檢索已提交作業的匯總狀態。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
@@ -7,12 +7,12 @@ role: Developer,User
 exl-id: 1b31bdbb-3c2c-4f7f-ba95-d3e710270be0
 source-git-commit: 13991f71ab54d1003a79a496b861d53a61899bdc
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '48'
+ht-degree: 2%
 
 ---
 
-# batjobpriefstatus{#batchjobbriefstatus}
+# BJ公報{#batchjobbriefstatus}
 
 檢索已提交作業的匯總狀態。
 
@@ -21,13 +21,13 @@ ht-degree: 0%
 <table id="simpletable_86E581DBB352479CB4CB531434D91E83"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> jobid </span> </p> </td> 
-  <td class="stentry"> <p>提交時取得的工作ID。 </p> </td> 
+  <td class="stentry"> <p>提交時獲取的作業ID。 </p> </td> 
  </tr> 
 </table>
 
-傳回：
+返回：
 
-XML格式的作業簡況；如果作業ID無效或作業已刪除，則出錯。
+XML格式的作業簡況；如果jobid無效或作業已刪除，則出錯。
 
 ## 範例 {#section-806460949bb043438ad4dd4e7ab74145}
 

@@ -1,19 +1,20 @@
 ---
 title: SmartCropVideoPlayer.loop
-description: 智慧型裁切視訊檢視器的設定屬性。
+description: Smart Crop Video Viewer的配置屬性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: dfd80e5727a128f272855f1f28e1bc89cb2436bf
+exl-id: 0560736a-3527-4372-a31d-da0fc27b2ee0
+source-git-commit: 8c49595fe0efb684b59601fb268bd8bf97fae555
 workflow-type: tm+mt
 source-wordcount: '32'
-ht-degree: 15%
+ht-degree: 12%
 
 ---
 
 # SmartCropVideoPlayer.loop{#smartcropvideoplayer-loop}
 
-智慧型裁切視訊檢視器的設定屬性。
+Smart Crop Video Viewer的配置屬性。
 
 `[SmartCropVideoPlayer.|<containerId>_smartCropVideoPlayer.]loop=0|1`
 
@@ -21,14 +22,14 @@ ht-degree: 15%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 指出播放完成後視訊是否應再次播放。 </p> </td> 
+   <td colname="col2"> <p> 指示在播放完成後視頻是否應再次播放。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 屬性 {#section-f42369774e2740dcb399626a0e4e930e}
 
-選填。
+選擇性.
 
 ## 預設 {#section-d016470e92a74f98a18c4ab3489410a5}
 

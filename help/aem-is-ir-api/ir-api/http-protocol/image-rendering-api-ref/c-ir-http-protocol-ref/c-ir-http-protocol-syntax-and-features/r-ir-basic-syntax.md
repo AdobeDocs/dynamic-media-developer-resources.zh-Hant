@@ -8,7 +8,7 @@ exl-id: 8bf5920a-7ada-4db5-9796-05c5a17532c8
 source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
 source-wordcount: '224'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 4%
    <td colname="col2"> <p><span class="varname"> 修飾</span> *[ &amp; <span class="varname"> 修飾</span> ] </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="varname"> 修飾元 </span> </p> </td> 
+   <td colname="col1"> <p><span class="varname"> 修飾 </span> </p> </td> 
    <td colname="col2"> <p><span class="varname"> 命令</span> | { $ <span class="varname"> 宏</span> $ } | {<span class="varname"> 注釋</span> } </p> </td> 
   </tr> 
   <tr> 

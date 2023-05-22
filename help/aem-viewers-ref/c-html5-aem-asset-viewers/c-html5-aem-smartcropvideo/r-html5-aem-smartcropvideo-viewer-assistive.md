@@ -1,10 +1,11 @@
 ---
 title: 輔助技術支援
-description: 所有檢視器元件都支援ARIA（可存取的豐富網際網路應用程式）角色和屬性，以改善與輔助技術（例如螢幕閱讀器）的整合。
+description: 所有查看器元件都支援ARIA（可訪問的富網際網路應用程式）角色和屬性，以改進與輔助技術（如螢幕閱讀器）的整合。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video,Accessibility
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: b2bfd93b-707e-4a03-a14e-14ec23328fdd
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 0%
@@ -13,14 +14,14 @@ ht-degree: 0%
 
 # 輔助技術支援{#assistive-technology-support}
 
-所有檢視器元件都支援ARIA（可存取的豐富網際網路應用程式）角色和屬性，以改善與輔助技術（例如螢幕閱讀器）的整合。
+所有查看器元件都支援ARIA（可訪問的富網際網路應用程式）角色和屬性，以改進與輔助技術（如螢幕閱讀器）的整合。
 
-頂層檢視器元素具有角色 `region` 和 `aria-label` 屬性，預設為檢視器的名稱。 您可以使用 `Container.LABEL` 本地化符號。
+頂級查看器元素具有角色 `region` 和 `aria-label` 預設設定為查看器名稱的屬性。 可以使用 `Container.LABEL` 本地化符號。
 
-按鈕具有角色 `button` 描述性文字集 `aria-label` 屬性。 的值 `aria-label` 屬性是從按鈕的本地化符號的值填入。 按鈕停用時， `aria-disabled` 屬性已相應設定。
+按鈕具有角色 `button` 描述性文本集 `aria-label` 屬性。 值 `aria-label` 屬性是從按鈕的本地化符號的值填充的。 禁用按鈕時， `aria-disabled` 屬性被相應設定。
 
-滑桿元件具有角色 `slider` 使用屬性 `aria-valuenow`, `aria-valuemin`，和 `aria-valuemax` 來描述當前滑塊位置。
+滑塊元件具有角色 `slider` 使用屬性 `aria-valuenow`。 `aria-valuemin`, `aria-valuemax` 描述當前滑塊位置。
 
-下拉清單由按鈕啟動，其他按鈕 `aria-haspopup` 屬性設定為 `true` 和 `aria-controls` 屬性，此屬性參考實際的下拉式面板元素。 下拉式面板本身有角色 `menu` 具有角色的子元素 `menuitem`. 每個功能表項目都有 `aria-label` 屬性。
+下拉清單由帶有附加項的按鈕激活 `aria-haspopup` 屬性集 `true` 和 `aria-controls` 引用實際下拉面板元素的屬性。 下拉面板本身具有角色 `menu` 具有角色的子元素 `menuitem`。 每個菜單項都 `aria-label` 已指定屬性。
 
-強制回應對話方塊具有角色 `dialog`. 對話方塊的標題元素由 `aria-labelledby` 屬性。
+「模式」(Modal)對話框具有角色 `dialog`。 對話框的頭元素由 `aria-labelledby` 屬性。

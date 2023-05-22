@@ -1,20 +1,20 @@
 ---
-description: 說明IPS API 6版的新類型和已變更的類型。
+description: 介紹IPS API版本6的新類型和更改的類型。
 solution: Experience Manager
-title: 資料類型新增和修改
+title: 新建和修改的資料類型
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d3bcd718-cf27-4d31-850f-a3205564be60
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '69'
 ht-degree: 4%
 
 ---
 
-# 資料類型：新增和修改{#data-types-new-and-modified}
+# 資料類型：新建和修改{#data-types-new-and-modified}
 
-說明IPS API 6版的新類型和已變更的類型。
+介紹IPS API版本6的新類型和更改的類型。
 
 語法
 
@@ -40,24 +40,24 @@ ht-degree: 4%
 
 **已新增**
 
-* 將`numUrls`新增至`UploadUrlsJob`。
+* 已添加 `numUrls` 至 `UploadUrlsJob`。
 
-* 將`fileName`新增至`Asset.`
+* 已添加 `fileName` 至 `Asset.`
 
-* 將`isHidden`新增至`MetadataField`。
+* 已添加 `isHidden` 至 `MetadataField`。
 
-* 將`taskState`新增至`TaskProgress`。
+* 已添加 `taskState` 至 `TaskProgress`。
 
-* 將`exportJob`新增至`ActiveJob`和`ScheduledJob`。
+* 已添加 `exportJob` 至 `ActiveJob` 和 `ScheduledJob`。
 
-* 將`optmizedPath`和`optimizedFile`新增至`PsdInfo`。
+* 已添加 `optmizedPath` 和 `optimizedFile` 至 `PsdInfo`。
 
-* 將`contextHandle`新增至：
+* 已添加 `contextHandle` 至：
 
    * `ImageRenderingPublishJob`
    * `VideoPublishJob`
 
-* 將下列參數新增至`Asset`:
+* 已將以下參數添加到 `Asset`:
 
    * `animatedGifInfo`
    * `swcInfo`
@@ -66,8 +66,8 @@ ht-degree: 4%
 
 **將**
 
-* 在`User`中，將`role`變更為`defaultRole`。
+* 在 `User`已更改 `role` 至 `defaultRole`。
 
-* 在`Folder`中，將`permissions`變更為`permissionsSetHandle`。
+* 在 `Folder`已更改 `permissions` 至 `permissionsSetHandle`。
 
-* 在`AssetSummary`中，`type`和`name`現在為選用。
+* 在 `AssetSummary`。 `type` 和 `name` 選項。

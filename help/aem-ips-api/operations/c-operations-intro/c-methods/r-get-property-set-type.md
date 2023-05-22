@@ -37,7 +37,7 @@ ht-degree: 11%
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
 | 公司句柄 | `xsd:string` | 否 | 公司的把手。 可選，因為屬性集類型可以屬於多個公司。 |
-| 名稱 | `xsd:string` | 是 | 屬性集類型名稱。 |
+| name | `xsd:string` | 是 | 屬性集類型名稱。 |
 
 **輸出(getPropertySetTypeReturn)**
 

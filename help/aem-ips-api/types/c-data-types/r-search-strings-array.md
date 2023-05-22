@@ -1,7 +1,7 @@
 ---
-description: 搜尋字串的陣列。
+description: 搜索字串的陣列。
 solution: Experience Manager
-title: SearchStringsArray
+title: 搜索字串陣列
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 21033323-8a42-459b-a85b-97a6198dc5d4
@@ -14,7 +14,7 @@ ht-degree: 27%
 
 # [!DNL SearchStringsArray]{#searchstringsarray}
 
-搜尋字串的陣列。
+搜索字串的陣列。
 
 語法
 
@@ -22,4 +22,4 @@ ht-degree: 27%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 項目 | `types:SearchStrings` | 搜尋字串的陣列。 |
+| 項目 | `types:SearchStrings` | 搜索字串的陣列。 |

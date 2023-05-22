@@ -1,23 +1,23 @@
 ---
-title: AdobeDynamic Media開發人員資源
+title: AdobeDynamic Media開發商資源
 cloud: Experience Cloud
 product: adobe dynamic media classic
 solution: Dynamic Media Classic
 audience: end-user
-user-guide-title: Adobe Dynamic Media 開發人員資源
-breadcrumb-title: Dynamic Media 開發人員資源
-user-guide-description: 存取 Dynamic Media 開發人員資源，例如檢視器參考指南、影像製作系統 API、影像服務和演算 API，以及封存的 Scene7 發行說明。
+user-guide-title: AdobeDynamic Media開發商資源
+breadcrumb-title: Dynamic Media開發商資源
+user-guide-description: 訪問Dynamic Media開發人員資源，如《Viewers Reference Guide》、《Image Production System API》、《Image Serving and Rendering API》以及存檔的Scene7發行說明。
 feature-set: Experience Manager Assets
 index: y
 source-git-commit: 3598b0247406d942b0f58b1c74aae4956590f5f8
 workflow-type: tm+mt
 source-wordcount: '44'
-ht-degree: 88%
+ht-degree: 2%
 
 ---
 
 
-# Dynamic Media 開發人員資源{#landing}
+# Dynamic Media開發商資源{#landing}
 
 + [首頁](home.md)
 

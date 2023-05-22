@@ -1,5 +1,5 @@
 ---
-description: 描述各種輸入參數使用的值。 如需詳細資訊，請參閱本文的清單。
+description: 描述各種輸入參數使用的值。 有關詳細資訊，請參閱本文中的清單。
 solution: Experience Manager
 title: 電子郵件設定
 feature: Dynamic Media Classic,SDK/API
@@ -7,14 +7,14 @@ role: Developer,Admin
 exl-id: f6fb7d58-968a-41c8-b0a8-ccab37e98801
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 13%
+source-wordcount: '38'
+ht-degree: 5%
 
 ---
 
 # 電子郵件設定{#email-settings}
 
-描述各種輸入參數使用的值。 如需詳細資訊，請參閱本文的清單。
+描述各種輸入參數使用的值。 有關詳細資訊，請參閱本文中的清單。
 
 語法
 

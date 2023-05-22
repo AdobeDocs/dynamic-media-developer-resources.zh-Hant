@@ -8,7 +8,7 @@ exl-id: 0b76f173-809b-4b41-bf39-6b85f77ab2db
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
 source-wordcount: '178'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 4%
   <td class="stentry"> <p>隨機對齊。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>3.6 </p></td> 
+  <td class="stentry"> <p>3..6 </p></td> 
   <td class="stentry"> <p>用戶定義的源。 </p></td> 
  </tr> 
 </table>

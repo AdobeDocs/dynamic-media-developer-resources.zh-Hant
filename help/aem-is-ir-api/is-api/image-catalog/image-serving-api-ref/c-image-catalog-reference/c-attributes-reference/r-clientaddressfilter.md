@@ -22,7 +22,7 @@ ht-degree: 3%
 
 以逗號分隔的IP地址清單（使用CIDR表示法）:
 
-`*`ip地址`*` `[`/ *`netmask`*`]`* `[`。*`ipAddress`*`[`/*`netmask`*`]]`
+`*`ip地址`*` `[`/ *`netmask`*`]`&#42; `[`。*`ipAddress`*`[`/*`netmask`*`]]`
 
 <table id="simpletable_9F82BB0D42A9434883F2F70A2A92898C"> 
  <tr class="strow"> 

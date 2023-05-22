@@ -1,5 +1,5 @@
 ---
-title: 封包
+title: 檔案櫃
 description: 機櫃材料指定機櫃樣式檔案（.vnc檔案副檔名）、包含機櫃照片表示以及參數佈局定義和繪製機櫃前面所需的其他資訊的特殊資料檔案。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
@@ -8,11 +8,11 @@ exl-id: cdb3ed5e-c396-483d-aea0-2b3f24efe56e
 source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
 source-wordcount: '155'
-ht-degree: 5%
+ht-degree: 4%
 
 ---
 
-# 封包{#cabinets}
+# 檔案櫃{#cabinets}
 
 機櫃材料指定機櫃樣式檔案（.vnc檔案副檔名）、包含機櫃照片表示以及參數佈局定義和繪製機櫃前面所需的其他資訊的特殊資料檔案。
 

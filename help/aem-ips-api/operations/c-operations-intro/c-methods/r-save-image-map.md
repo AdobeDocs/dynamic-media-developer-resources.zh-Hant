@@ -53,37 +53,37 @@ ht-degree: 16%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 資產句柄 </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd：字串 </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 影像映射所屬的影像資產的句柄。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> imageMapHandle </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd：字串 </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 影像映射的句柄。 如果為NULL，則建立影像映射。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 名稱 </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd：字串 </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 建立或保存的影像映射的名稱。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 形狀類型 </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd：字串 </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 選擇區域形狀。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 區域 </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd：字串 </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 定義區域的以逗號分隔的點清單。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 動作 </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd：字串 </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> <p>的 <span class="codeph"> href </span> 與IPS介面中指定的影像映射關聯的值。 </p> <p>獲取 <span class="codeph"> href </span> 值，按一下IPS介面中的影像，將URL複製並貼上到此元素中，然後將IPS URL格式化為正確的URL。 比如說， <span class="codeph"> &amp; </span> 變成 <span class="codeph"> &amp;amp; </span>。 </p> </td> 
   </tr> 

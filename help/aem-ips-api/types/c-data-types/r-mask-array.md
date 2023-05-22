@@ -1,5 +1,5 @@
 ---
-description: 一系列的遮罩。
+description: 一系列蒙版。
 solution: Experience Manager
 title: 掩碼陣列
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 33%
 
 # [!DNL MaskArray]{#maskarray}
 
-一系列的遮罩。
+一系列蒙版。
 
 語法
 
@@ -22,4 +22,4 @@ ht-degree: 33%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 項目 | `types:Mask` | 掩碼陣列。 |
+| 項目 | `types:Mask` | 蒙版陣列。 |

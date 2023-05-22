@@ -1,20 +1,20 @@
 ---
-description: 影像伺服會產生HTTP/1.1回應標頭。
+description: Image Serving生成HTTP/1.1響應標頭。
 solution: Experience Manager
-title: 回應資料
+title: 響應資料
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 4ae1c345-8d55-4efc-b47f-e9dbed905695
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '24'
-ht-degree: 12%
+source-wordcount: '19'
+ht-degree: 10%
 
 ---
 
-# 回應資料{#response-data}
+# 響應資料{#response-data}
 
-影像伺服會產生HTTP/1.1回應標頭。
+Image Serving生成HTTP/1.1響應標頭。
 
 * [影像](c-images.md)
 * [屬性](c-properties/c-properties.md)

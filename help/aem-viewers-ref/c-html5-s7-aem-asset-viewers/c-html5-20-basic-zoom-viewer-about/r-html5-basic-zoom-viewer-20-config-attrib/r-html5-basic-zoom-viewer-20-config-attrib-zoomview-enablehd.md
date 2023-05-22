@@ -31,7 +31,7 @@ ht-degree: 2%
 
 ## 屬性 {#section-50bcd15223174bb79ce08b31ea03d682}
 
-選填。
+選擇性.
 
 ## 預設 {#section-7564169749ff4a4996049ea1148cb2a5}
 

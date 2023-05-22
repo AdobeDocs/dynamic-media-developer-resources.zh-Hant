@@ -1,5 +1,5 @@
 ---
-description: 用於指派權限的一組已命名的使用者。
+description: 用於分配權限的用戶的命名集。
 solution: Experience Manager
 title: 群組
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 21%
 
 # [!DNL Group]{#group}
 
-用於指派權限的一組已命名的使用者。
+用於分配權限的用戶的命名集。
 
 語法
 
@@ -22,7 +22,7 @@ ht-degree: 21%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| groupHandle | `xsd:string` | 組句柄。 |
-| companyHandle | `xsd:string` | 公司負責人。 |
+| 組句柄 | `xsd:string` | 組句柄。 |
+| 公司句柄 | `xsd:string` | 公司負責。 |
 | [!DNL name] | `xsd:string` | 群組名稱. |
 | [!DNL is SystemDefined] | `xsd:string` | 組是否由系統定義。 |

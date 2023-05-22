@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: bc69f094-ff21-4dd7-9e10-daddb3de0c65
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '136'
 ht-degree: 4%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 媒體集資訊。
 
-req=set[,xml[, *`encoding`*]|{json[&amp;id=*`reqId`*]}
+req=set[,xml[。 *`encoding`*]|json[&amp;id=*`reqId`*]}]
 
 <table id="simpletable_02C955F4EBAD4251A728F0FC68F432B5"> 
  <tr class="strow"> 
@@ -25,20 +25,20 @@ req=set[,xml[, *`encoding`*]|{json[&amp;id=*`reqId`*]}
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> reqId</span> </p></td> 
-  <td class="stentry"> <p>唯一請求識別碼 </p></td> 
+  <td class="stentry"> <p>唯一請求標識符 </p></td> 
  </tr> 
 </table>
 
-傳回與目錄：:ImageSet相關的影像、視訊、色票和各種中繼資料的相關資訊，這些元資料適用於URL路徑中指定的影像目錄項目。 此響應是由提供的集類型確定的分層結構。 請求「xml」或「json」格式時，會套用適當的格式。
+返回有關與目錄：:ImageSet關聯的影像、視頻、色板以及與URL路徑中指定的影像目錄條目相關的各種元資料的資訊。 該響應是由所提供集合的類型確定的分層結構。 請求「xml」或「json」格式時應用適當的格式。
 
-HTTP回應可根據`catalog::NonImgExpiration`與TTL快取。
+HTTP響應可以與基於的TTL進行快取 `catalog::NonImgExpiration`。
 
 >[!NOTE]
 >
->在req=set請求中不允許冒號字元。
+>req=set請求中不允許冒號字元。
 
-支援JSON回應格式的要求可讓您使用`req=`參數的擴充語法，指定JS回呼處理常式的名稱：
+支援JSON響應格式的請求允許您使用擴展語法指定JS回調處理程式的名稱 `req=` 參數：
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` 是JSONP回應中出現的JS處理常式的名稱。僅允許a-z、A-Z和0-9個字元。 選填。預設為 `s7jsonResponse`.
+`<reqHandler>` 是JSONP響應中存在的JS處理程式的名稱。 只允許使用a-z、A-Z和0-9個字元。 選擇性. 預設為 `s7jsonResponse`.

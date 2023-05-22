@@ -8,7 +8,7 @@ exl-id: f438a06b-6cf4-4bcd-9c4a-ed56f6a9c639
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
 source-wordcount: '114'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -22,14 +22,14 @@ Video360查看器的配置屬性。
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> [h:]m|mm:s|ss</span> </p> </td> 
-   <td colname="col2"> <p> 設定時間泡泡中顯示的時間模式，其中<span class="codeph"> h</span>為小時，<span class="codeph"> m</span>為分鐘，而<span class="codeph"> s</span>為秒。 </p> <p>每個時間單位使用的字母數決定單位要顯示的位數。 如果數字不能滿足給定位數，則等效值將以後續單位顯示。 </p> <p>例如，如果目前的影片時間是67分鐘5秒，則時間模式<span class="codeph"> m:ss</span>顯示為67:05。 如果給定的時間模式為<span class="codeph"> h:mm:s</span>，則將該時間顯示為1:07:5。 </p> </td> 
+   <td colname="col2"> <p> 設定時間氣泡中顯示的時間的模式，其中 <span class="codeph"> h</span> 是小時， <span class="codeph"> 米</span> 是分鐘 <span class="codeph"> s</span> 秒。 </p> <p>每個時間單位使用的字母數決定單位顯示的位數。 如果數字不能容納給定數字，則在後續單位中顯示等效值。 </p> <p>例如，如果當前電影時間是67分5秒，則時間模式 <span class="codeph"> m:ss</span> 顯示為67:05。 同時顯示為1:07:5如果給定的時間模式 <span class="codeph"> h:mm:s</span>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 屬性 {#section-f42369774e2740dcb399626a0e4e930e}
 
-選填。
+選擇性.
 
 ## 預設 {#section-d016470e92a74f98a18c4ab3489410a5}
 

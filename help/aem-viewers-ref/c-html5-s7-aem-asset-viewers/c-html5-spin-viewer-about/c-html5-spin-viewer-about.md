@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ---
 
-# 自旋{#spin}
+# Spin{#spin}
 
 旋轉查看器是一個影像查看器，它提供了360度的影像視圖，甚至是多維視圖（如果正使用適當的旋轉集）。 它具有縮放和旋轉工具、全屏支援和可選的關閉按鈕。 它設計用於台式機和移動設備。
 
@@ -292,7 +292,7 @@ var spinViewer = new s7viewers.SpinViewer({
 
 以下示例頁說明了具有無限制高度的響應設計嵌入的更多實際使用案例：
 
-[即時演示](https://landing.adobe.com/tw/na/dynamic-media/ctir-2755/live-demos.html)
+[即時演示](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
 [備用演示位置](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 

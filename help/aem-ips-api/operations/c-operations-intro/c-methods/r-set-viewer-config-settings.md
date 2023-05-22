@@ -33,7 +33,7 @@ ht-degree: 12%
 |---|---|---|---|
 | 公司句柄 | `xsd:string` | 是 | 把手交給公司。 |
 | 資產句柄 | `xsd:string` | 是 | 資產句柄。 |
-| 名稱 | `xsd:string` | 是 | 資產名稱。 |
+| name | `xsd:string` | 是 | 資產名稱。 |
 | type | `xsd:string` | 是 | 要應用查看器配置的資產類型。 |
 | configSettingArray | `types:ConfigSettingArray` | 是 | 陣列 `ConfigSettings` 應用於資產…… |
 

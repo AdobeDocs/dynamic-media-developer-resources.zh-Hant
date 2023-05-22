@@ -8,7 +8,7 @@ exl-id: 6d55634e-c09e-4278-a055-f7eb8cdead4e
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
 source-wordcount: '74'
-ht-degree: 5%
+ht-degree: 4%
 
 ---
 
@@ -19,15 +19,15 @@ ht-degree: 5%
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 左|中|右|頂|中|下</span> </p> </td> 
-   <td colname="col2"> <p> 指定元件區域內縮圖容器的內部水準對齊方式（或錨定）。 </p> <p>在「收藏夾」(Favorites)「視圖」(View)中，內部縮圖容器的大小為，因此只顯示整數縮圖。 因此，內部容器和外部元件界限之間會有一些邊框間距。 </p> <p>此修飾符指定內部縮圖容器在元件內水準放置的方式。 </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> 左|中|右|上|中|下</span> </p> </td> 
+   <td colname="col2"> <p> 指定元件區域內縮略圖容器的內部水準對齊或錨定。 </p> <p>在FavoritesView中，內部縮略圖容器的大小為只顯示整數縮略圖。 因此，在內部容器和外部元件邊界之間存在填充。 </p> <p>此修飾符指定內部縮略圖容器在元件內水準放置的方式。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 屬性 {#section-f42369774e2740dcb399626a0e4e930e}
 
-選填。
+選擇性.
 
 ## 預設 {#section-d016470e92a74f98a18c4ab3489410a5}
 

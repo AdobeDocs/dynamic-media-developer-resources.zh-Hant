@@ -1,7 +1,7 @@
 ---
-description: 群組陣列。
+description: 組陣列。
 solution: Experience Manager
-title: GroupArray
+title: 組陣列
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b3ddc10f-e153-4498-afeb-c97d7371e3d3
@@ -14,7 +14,7 @@ ht-degree: 37%
 
 # [!DNL GroupArray]{#grouparray}
 
-群組陣列。
+組陣列。
 
 語法
 
@@ -22,4 +22,4 @@ ht-degree: 37%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 項目 | `types:Group` | 群組陣列。 |
+| 項目 | `types:Group` | 組陣列。 |

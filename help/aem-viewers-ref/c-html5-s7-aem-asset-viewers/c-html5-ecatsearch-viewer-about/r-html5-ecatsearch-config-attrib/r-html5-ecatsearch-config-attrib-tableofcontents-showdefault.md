@@ -2,12 +2,12 @@
 description: TableOfContents.showdefault
 solution: Experience Manager
 title: TableOfContents.showdefault
-feature: Dynamic Media Classic，檢視器，SDK/API,eCatalog搜尋
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: cc494d35-8d9b-44f8-874b-dfc88b65f547
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '52'
+source-wordcount: '44'
 ht-degree: 9%
 
 ---
@@ -20,14 +20,14 @@ ht-degree: 9%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td> <p> 設為<span class="codeph"> 1</span>時，元件會為所有頁面填入元素，即使未定義標籤的頁面亦然。 </p> <p>設為<span class="codeph"> 0</span>時，下拉式面板中只會顯示具有明確標籤的項目。 </p> </td> 
+   <td> <p> 設定為時 <span class="codeph"> 1</span> 該元件將使用所有頁面的元素填充下拉面板，即使那些未定義標籤的頁面也是如此。 </p> <p>設定為時 <span class="codeph"> 0</span> 在下拉面板中，只顯示具有顯式標籤的項。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 屬性 {#section-89a21bad65674a948db84412eb3e46d7}
 
-選填。
+選擇性.
 
 ## 預設 {#section-661ec4a10fc8484c92707ef12f92ac00}
 

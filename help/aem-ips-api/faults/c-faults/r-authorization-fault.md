@@ -1,20 +1,20 @@
 ---
-description: 當已驗證的使用者沒有足夠的權限來完成任務時，拋出。
+description: 當經過身份驗證的用戶沒有足夠的權限完成任務時拋出。
 solution: Experience Manager
-title: authorizationFault
+title: 授權錯誤
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 76965735-92d8-46be-b589-67cad3b987dc
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 25%
+source-wordcount: '54'
+ht-degree: 27%
 
 ---
 
-# authorizationFault{#authorizationfault}
+# 授權錯誤{#authorizationfault}
 
-當已驗證的使用者沒有足夠的權限來完成任務時，拋出。
+當經過身份驗證的用戶沒有足夠的權限完成任務時拋出。
 
 語法
 
@@ -37,5 +37,5 @@ ht-degree: 25%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| `code` | `xsd:int` | 錯誤ID |
+| `code` | `xsd:int` | 故障ID |
 | `reason` | `xsd:string` | 描述故障的資訊性消息。 |

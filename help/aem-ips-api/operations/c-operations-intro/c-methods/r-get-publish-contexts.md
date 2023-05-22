@@ -57,7 +57,7 @@ ht-degree: 24%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 上下文類型</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd：字串</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4">要返回的發佈上下文的類型。 包括： 
     <ul id="ul_21EDF8F0026E402EAE8226A0CADEE652">

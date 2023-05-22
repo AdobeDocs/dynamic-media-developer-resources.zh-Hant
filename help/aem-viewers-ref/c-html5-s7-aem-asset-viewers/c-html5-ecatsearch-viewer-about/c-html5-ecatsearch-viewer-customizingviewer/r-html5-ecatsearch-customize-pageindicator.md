@@ -1,6 +1,6 @@
 ---
-title: 頁面指標
-description: 頁面指示器顯示當前頁面索引和總頁數。 它顯示在案頭系統和平板電腦的主控制欄中，在行動電話上，它被添加到輔助控制欄中。 頁面指標可由CSS調整大小、加上外觀和定位。
+title: 頁面指示器
+description: 頁指示器顯示當前頁索引和總頁數。 它出現在台式機系統和平板電腦的主控制欄中，在手機上，它被添加到輔助控制欄中。 頁面指示器可以通過CSS進行大小、外觀和定位。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
@@ -12,11 +12,11 @@ ht-degree: 4%
 
 ---
 
-# 頁面指標{#page-indicator}
+# 頁面指示器{#page-indicator}
 
-頁面指示器顯示當前頁面索引和總頁數。 它顯示在案頭系統和平板電腦的主控制欄中，在行動電話上，它被添加到輔助控制欄中。 頁面指標可由CSS調整大小、加上外觀和定位。
+頁指示器顯示當前頁索引和總頁數。 它出現在台式機系統和平板電腦的主控制欄中，在手機上，它被添加到輔助控制欄中。 頁面指示器可以通過CSS進行大小、外觀和定位。
 
-外觀頁面指示器由以下CSS類選擇器控制：
+外觀頁指示器由以下CSS類選擇器控制：
 
 `.s7ecatalogsearchviewer .s7pageindicator`
 
@@ -30,19 +30,19 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 頂部 </span> </p> </td> 
-   <td colname="col2"> <p>從主控制欄（在案頭系統和平板電腦上）或次控制欄（在行動電話上）的上邊框位置，包括邊框間距。 </p> </td> 
+   <td colname="col2"> <p>從主控制欄（在台式機系統和平板電腦上）或輔助控制欄（在行動電話上）的上邊框中定位，包括填充。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 右側 </span> </p> </td> 
-   <td colname="col2"> <p>從主控制欄（在案頭系統和平板電腦上）或次控制欄（在行動電話上）的右邊框定位，包括邊框間距。 </p> </td> 
+   <td colname="col2"> <p>從主控制欄（在台式機系統和平板電腦上）或輔助控制欄（在行動電話上）的右邊框中定位，包括填充。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 左側 </span> </p> </td> 
-   <td colname="col2"> <p>從主控制欄（在案頭系統和平板電腦上）或次控制欄（在行動電話上）的左邊框位置，包括邊框間距。 </p> </td> 
+   <td colname="col2"> <p>從主控制欄（在台式機系統和平板電腦上）或輔助控制欄（在行動電話上）的左邊框中定位，包括填充。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 底部 </span> </p> </td> 
-   <td colname="col2"> <p>從主控制欄（在案頭系統和平板電腦上）或次控制欄（在行動電話上）的底邊框位置，包括邊框間距。 </p> </td> 
+   <td colname="col2"> <p>從主控制欄（在台式機系統和平板電腦上）或輔助控制欄（在行動電話上）的底邊框中定位，包括填充。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -67,7 +67,7 @@ ht-degree: 4%
  </tbody> 
 </table>
 
-示例 — 要設定一個56 x 28像素、水準居中並從主控制欄底部放置4像素的頁面指示器，並使用14像素Helvetica®字型。
+示例 — 設定56 x 28像素、水準居中且距主控制欄底部4像素的頁面指示器，並使用14像素Helvetica®字型。
 
 ```
 .s7ecatalogsearchviewer  .s7pageindicator { 

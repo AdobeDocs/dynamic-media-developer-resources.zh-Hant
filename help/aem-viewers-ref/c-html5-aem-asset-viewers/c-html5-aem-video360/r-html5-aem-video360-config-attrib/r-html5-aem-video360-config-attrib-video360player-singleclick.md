@@ -8,7 +8,7 @@ exl-id: dfb44ed5-5f4f-4a2c-a3b4-d49502556399
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
 source-wordcount: '70'
-ht-degree: 11%
+ht-degree: 10%
 
 ---
 
@@ -21,15 +21,15 @@ Video360查看器的配置屬性。
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> none|playPause</span> </p> </td> 
-   <td colname="col2"> <p> 設定單按/點選的對應以切換播放/暫停。 設為<span class="codeph"> none</span>會停用單鍵/點選以播放/暫停。 如果設為<span class="codeph"> playPause</span>，則選取視訊會在播放和暫停視訊之間切換。 在某些裝置上，您可以使用原生控制項。 在此情況下，會停用<span class="codeph">單點按</span>行為。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 無|播放暫停</span> </p> </td> 
+   <td colname="col2"> <p> 配置按一下/點擊的映射以切換播放/暫停。 設定為 <span class="codeph"> 無</span> 禁用按一下/點擊以播放/暫停。 如果設定為 <span class="codeph"> 播放暫停</span>，然後選擇視頻在播放和暫停視頻之間切換。 在某些設備上，可以使用本機控制項。 在這種情況下， <span class="codeph"> 按一下</span> 行為已禁用。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 屬性 {#section-1e637b22e8a44d759d588e47576891e6}
 
-選填。
+選擇性.
 
 ## 預設 {#section-71fb773f814649b2885aefee68073641}
 

@@ -1,7 +1,7 @@
 ---
-description: 作業日誌的陣列。
+description: 一組作業日誌。
 solution: Experience Manager
-title: JobLogArray
+title: 作業日誌陣列
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e61f26c0-7a5d-4217-b940-0cfbb2ad96e9
@@ -14,7 +14,7 @@ ht-degree: 27%
 
 # [!DNL JobLogArray]{#joblogarray}
 
-作業日誌的陣列。
+一組作業日誌。
 
 語法
 

@@ -26,11 +26,11 @@ ht-degree: 13%
   <td class="stentry"> <p>顏色分量值（0...255，十進位整數）。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><i>十六進位</i> </p></td> 
+  <td class="stentry"> <p><i>hex6</i> </p></td> 
   <td class="stentry"> <p>已打包的六位十六進位RGB顏色值(RRGGBB)。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><i>十六進位</i> </p></td> 
+  <td class="stentry"> <p><i>hex2</i> </p></td> 
   <td class="stentry"> <p>已打包的兩位十六進位灰色值(0...FF)。 </p></td> 
  </tr> 
 </table>
@@ -41,12 +41,12 @@ ht-degree: 13%
 
 <table id="simpletable_837B3173020240A5B7B2DB2F4CC57352"> 
  <tr class="strow"> 
-  <td class="stentry"> <p>010.02萬 </p></td> 
+  <td class="stentry"> <p>0,100,200 </p></td> 
   <td class="stentry"> <p>(0,100,200) </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>128 </p></td> 
-  <td class="stentry"> <p>(128128128) </p></td> 
+  <td class="stentry"> <p>(128,128,128) </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>0x010203 </p></td> 
@@ -54,7 +54,7 @@ ht-degree: 13%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>00b1c2 </p></td> 
-  <td class="stentry"> <p>（16017.7194萬） </p></td> 
+  <td class="stentry"> <p>(160,177,194) </p></td> 
  </tr> 
 </table>
 

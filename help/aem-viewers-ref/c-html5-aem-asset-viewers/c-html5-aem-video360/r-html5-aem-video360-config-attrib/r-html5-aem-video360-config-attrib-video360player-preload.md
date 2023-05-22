@@ -1,6 +1,6 @@
 ---
 title: Video360Player.preload
-description: 指出檢視器是否在播放開始前開始載入視訊內容。
+description: 指示查看器是否在播放開始之前開始載入視頻內容。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -8,13 +8,13 @@ exl-id: 33c28ed3-cdb3-4b14-8cc7-90f77ec9a3bb
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
 source-wordcount: '118'
-ht-degree: 7%
+ht-degree: 6%
 
 ---
 
 # Video360Player.preload{#video-player-preload}
 
-指出檢視器是否在播放開始前開始載入視訊內容。
+指示查看器是否在播放開始之前開始載入視頻內容。
 
 `[Video360Player.|<containerId>_video360Player.]preload=0|1`
 
@@ -22,14 +22,14 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 如果設為<span class="codeph"> 1 </span>，視訊會在資產設定後立即開始下載。 否則，預先載入只會在一般使用者或API呼叫起始播放後開始。 </p> <p>如果設為<span class="codeph"> 0 </span>，某些功能可能要等到播放開始才能運作。 具體而言，搜尋操作不會更新視訊幀。 如果海報影像已停用，檢視器會顯示為空白區域，而非第一個視訊影格。 </p> <p>某些版本的Internet Explorer 11和Edge瀏覽器可能會忽略停用視訊預先載入。 </p> </td> 
+   <td colname="col2"> <p> 如果設定為 <span class="codeph"> 1 </span>，在設定資產後立即開始下載視頻。 否則，只有在最終用戶或API調用啟動回放後才開始預載入。 </p> <p>如果設定為 <span class="codeph"> 0 </span>，某些功能在播放開始前可能無法正常工作。 具體來說，查找操作不更新視頻幀。 如果海報影像被禁用，則查看器將顯示為空區域，而不是第一個視頻幀。 </p> <p>在某些版本的Internet Explorer 11和Edge瀏覽器上，可忽略禁用視頻預載入。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 屬性 {#section-65be9301796240e38f31818229da7acc}
 
-選填。
+選擇性.
 
 ## 預設 {#section-bd374ffc5182484faa77a7a3c8fa70f2}
 

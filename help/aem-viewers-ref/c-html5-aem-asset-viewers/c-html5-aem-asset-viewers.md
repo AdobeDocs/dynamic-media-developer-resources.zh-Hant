@@ -20,4 +20,4 @@ ht-degree: 5%
 * [互動式影像](c-html5-aem-interactive-images/c-html5-aem-interactive-images.md)
 * [互動式視頻](c-html5-aem-int-video/c-html5-aem-int-video.md)
 * [智慧裁剪視頻](c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-reference.md)
-* [視頻360](c-html5-aem-video360/c-html5-aem-video360.md)
+* [Video360](c-html5-aem-video360/c-html5-aem-video360.md)

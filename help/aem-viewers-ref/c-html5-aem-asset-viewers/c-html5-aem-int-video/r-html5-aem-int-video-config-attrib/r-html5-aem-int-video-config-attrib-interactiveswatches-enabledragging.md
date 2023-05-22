@@ -1,6 +1,6 @@
 ---
 title: InteractiveSwatches.enabledragging
-description: 互動式視訊檢視器的設定屬性。
+description: Interactive Video Viewer的配置屬性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -8,32 +8,32 @@ exl-id: 91c5eb52-40d9-40f6-8687-e68cb40b634e
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
 source-wordcount: '83'
-ht-degree: 6%
+ht-degree: 4%
 
 ---
 
 # InteractiveSwatches.enabledragging{#interactiveswatches-enabledragging}
 
-互動式視訊檢視器的設定屬性。
+Interactive Video Viewer的配置屬性。
 
-` [InteractiveSwatches.|<containerId>_interactiveSwatches.]enabledragging=0|1[, *`過度拖放值`*]`
+` [InteractiveSwatches.|<containerId>_interactiveSwatches.]enabledragging=0|1[, *`超越`*]`
 
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 啟用或停用使用者使用滑鼠或使用觸控手勢捲動色票的能力。 </p> </td> 
+   <td colname="col2"> <p> 啟用或禁用用戶使用滑鼠或使用觸控手勢滾動色板的功能。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 過度拖放值  </span> </span> </p> </td> 
-   <td colname="col2"> <p> 在<span class="codeph"> 0-1 </span>範圍內，它是實際速度向錯誤方向移動的百分比值。 </p> <p>如果設為<span class="codeph"> 1 </span>，則滑鼠會移動。 </p> <p>如果設為<span class="codeph"> 0 </span>，則不會讓您朝錯誤的方向移動。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 超越 </span> </span> </p> </td> 
+   <td colname="col2"> <p> 在 <span class="codeph"> 0-1 </span> 範圍，它是實際速度錯誤方向上移動的百分比值。 </p> <p>如果設定為 <span class="codeph"> 1 </span>，它隨滑鼠移動。 </p> <p>如果設定為 <span class="codeph"> 0 </span>它不會讓你走錯方向。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 屬性 {#section-1e637b22e8a44d759d588e47576891e6}
 
-選填。
+選擇性.
 
 ## 預設 {#section-71fb773f814649b2885aefee68073641}
 

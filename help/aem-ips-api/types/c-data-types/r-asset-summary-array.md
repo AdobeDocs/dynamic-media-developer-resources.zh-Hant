@@ -1,7 +1,7 @@
 ---
 description: 一系列資產摘要。
 solution: Experience Manager
-title: AssetSummaryArray
+title: 資產摘要陣列
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 6c38cd3f-10ec-4552-b2da-19a45068c7fa
@@ -22,4 +22,4 @@ ht-degree: 28%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 項目 | `types:AssetSummary` | 資產摘要陣列。 |
+| 項目 | `types:AssetSummary` | 資產摘要的陣列。 |

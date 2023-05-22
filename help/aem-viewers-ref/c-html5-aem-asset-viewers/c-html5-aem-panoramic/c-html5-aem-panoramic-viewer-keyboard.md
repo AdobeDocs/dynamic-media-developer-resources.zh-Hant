@@ -1,6 +1,6 @@
 ---
-title: 鍵盤協助工具和導覽
-description: 檢視器UI中公開的所有功能都可使用鍵盤存取。
+title: 鍵盤輔助功能和導航
+description: 查看器UI中公開的所有功能都可以使用鍵盤。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# 鍵盤協助工具和導覽{#keyboard-accessibility-and-navigation}
+# 鍵盤輔助功能和導航{#keyboard-accessibility-and-navigation}
 
-檢視器UI中公開的所有功能都可使用鍵盤存取。
-一般使用者可使用 `Left`, `Right`, `UP` 和 `DOWN` 按鍵平移影像。
-此 `Esc` 可使用擊鍵來重設影像。
+查看器UI中公開的所有功能都可以使用鍵盤。
+最終用戶可以使用 `Left`。 `Right`。 `UP` 和 `DOWN` 擊鍵來平移影像。
+的 `Esc` 擊鍵可用於重置影像。
 

@@ -8,7 +8,7 @@ exl-id: a9af3335-ae18-4399-9014-47ec0306a087
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '196'
-ht-degree: 9%
+ht-degree: 8%
 
 ---
 
@@ -39,13 +39,13 @@ ht-degree: 9%
   <tr> 
    <td colname="col1"> <p>T </p> </td> 
    <td colname="col2"> <p>文本位置 </p> </td> 
-   <td colname="col3"> <p> 百分之零至百分之一 </p> </td> 
+   <td colname="col3"> <p> 0%-100% </p> </td> 
    <td colname="col4"> <p> 在VideoPlayer元件中設定標題文本開頭的百分比。 </p> <p>預設值為0%。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>S </p> </td> 
    <td colname="col2"> <p>行大小 </p> </td> 
-   <td colname="col3"> <p> 百分之零至百分之一 </p> </td> 
+   <td colname="col3"> <p> 0%-100% </p> </td> 
    <td colname="col4"> <p> 用於字幕的視頻寬度的百分比。 </p> <p>預設為100%。 </p> </td> 
   </tr> 
   <tr> 
@@ -74,7 +74,7 @@ ht-degree: 9%
 
 ## 屬性 {#section-f42369774e2740dcb399626a0e4e930e}
 
-選填。
+選擇性.
 
 ## 預設 {#section-d016470e92a74f98a18c4ab3489410a5}
 

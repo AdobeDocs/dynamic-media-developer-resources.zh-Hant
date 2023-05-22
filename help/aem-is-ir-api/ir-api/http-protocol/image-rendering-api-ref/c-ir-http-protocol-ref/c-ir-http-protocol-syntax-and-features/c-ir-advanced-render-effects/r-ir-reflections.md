@@ -40,7 +40,7 @@ ht-degree: 3%
   <tr> 
    <td> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180" type="reference" format="dita" scope="local"> <span class="codeph"> 粗= </span> </a> </p> </td> 
    <td> <p>表面粗糙度 </p> </td> 
-   <td> <p>四成 </p> </td> 
+   <td> <p>40% </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-type.md#reference-128c7de89e2d46838019b560f3f84a35" type="reference" format="dita" scope="local"> <span class="codeph"> 類型=</span> </a> </p> </td> 

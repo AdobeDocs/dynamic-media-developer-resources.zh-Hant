@@ -1,23 +1,24 @@
 ---
-title: 外部視訊支援
-description: 檢視器支援播放在Dynamic Media Classic或Adobe Experience Manager - Dynamic Media以外位置主控的視訊。
+title: 外部視頻支援
+description: 觀眾支援在Dynamic Media Classic或Adobe Experience Manager以外播放視頻 — Dynamic Media。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 2ab5a083-5995-440a-a9a6-6642277b8a58
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 0%
 
 ---
 
-# 外部視訊支援{#external-video-support}
+# 外部視頻支援{#external-video-support}
 
-檢視器支援播放在Dynamic Media Classic或Adobe Experience Manager - Dynamic Media以外位置主控的視訊。
+觀眾支援在Dynamic Media Classic或Adobe Experience Manager以外播放視頻 — Dynamic Media。
 
-支援的外部視訊格式為H.264格式的MP4或HLS資料流的M3U8資訊清單。
+外部視頻支援的格式為H.264格式的MP4或HLS流的M3U8清單。
 
-檢視器可運作Dynamic Media Classic或Experience Manager- Dynamic Media影片或搭配外部影片。 如果檢視器以Dynamic Media Classic/Dynamic Media影片開頭，請將其與未來的這類資產類型搭配使用，則無法使用將外部影片載入至此檢視器中 [`setVideo`]
-(../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-setvideo.md#reference-85d3422d6ce64a36ac74827120b5a17c)方法。 副詞：如果檢視器最初載入的是外部視訊，則應該只持續使用外部視訊。
+觀看者可以使用Dynamic Media Classic或Experience Manager-Dynamic Media視頻或外部視頻。 如果查看者以Dynamic Media Classic/Dynamic Media視頻開頭，請將其與此類資產類型一起使用，則無法使用 [`setVideo`]
+(../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-setvideo.md#reference-85d3422d6ce64a36ac74827120b5a17c)方法。 還有副詞：如果查看器最初載入了外部視頻，則它應該只處理外部視頻。
 
-使用外部視訊時，檢視器會忽略播放修飾元的值，並從外部視訊擴充功能偵測播放類型。 如果外部視訊URL的結尾為 `.M3U8` 檢視器使用HLS播放，否則會使用漸進式播放。
+使用外部視頻時，查看器會忽略回放修飾符的值，並從外部視頻擴展中檢測回放類型。 如果外部視頻URL以 `.M3U8` 查看器正在使用HLS回放，否則將使用逐步回放。

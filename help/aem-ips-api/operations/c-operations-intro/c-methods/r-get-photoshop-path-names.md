@@ -34,14 +34,14 @@ ht-degree: 20%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 處理到包含要使用的影像的公司。 |
-| assetHandle | `xsd:string` | 是 | 處理影像資產。 |
+| 公司句柄 | `xsd:string` | 是 | 處理到包含要使用的影像的公司。 |
+| 資產句柄 | `xsd:string` | 是 | 處理影像資產。 |
 
 **輸出(getPhotoshopPathNamesReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| pathNameArray | `types:StringArray` | 是 | An array of Photoshop path names in an image. |
+| pathNameArray | `types:StringArray` | 是 | 映像中的Photoshop路徑名陣列。 |
 
 ## 範例 {#section-6d316f14b4184d42af4ca3f717b042dd}
 

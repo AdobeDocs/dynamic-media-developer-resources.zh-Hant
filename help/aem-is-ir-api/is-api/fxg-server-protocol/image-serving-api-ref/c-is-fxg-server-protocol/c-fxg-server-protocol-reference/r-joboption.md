@@ -1,33 +1,33 @@
 ---
-description: 應用PDF作業選項。 作業選項檔案或PDF預設集是Illustrator在「另存為PDF選項」對話方塊中產生的檔案，或InDesign中的PDF預設集。
+description: 應用PDF作業選項。 作業選項檔案或PDF預設是Illustrator在「另存為PDF選項」對話框或InDesign預設中生成的檔案。
 solution: Experience Manager
-title: 作業選項
+title: jobop選項
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8e7224e7-d801-4550-b95e-24d15734043a
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 46%
+source-wordcount: '228'
+ht-degree: 47%
 
 ---
 
-# 作業選項{#joboption}
+# jobop選項{#joboption}
 
-應用PDF作業選項。 作業選項檔案或PDF預設集是Illustrator在「另存為PDF選項」對話方塊中產生的檔案，或InDesign中的PDF預設集。
+應用PDF作業選項。 作業選項檔案或PDF預設是Illustrator在「另存為PDF選項」對話框或InDesign預設中生成的檔案。
 
-` joboption= *`value`*`
+` joboption= *`值`*`
 
 <table id="simpletable_BA7B58BE0B0740298D45DDEBE7832D93"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> value</span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> 值</span></span> </p> </td> 
   <td class="stentry"> <p>作業選項檔案的IPSID。 </p></td> 
  </tr> 
 </table>
 
 作業選項檔案可由IPS/Dynamic Media Classic上傳和發佈。 生成PDF時，將使用作業選項檔案中包含的PDF選項。
 
-目前支援下列選項：
+當前支援以下選項：
 
 <table id="simpletable_7E0AE8A06AE54A02AF0107FBEDF73D61"> 
  <tr class="strow"> 
@@ -36,7 +36,7 @@ ht-degree: 46%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>影像 </p></td> 
-  <td class="stentry"> <p> 縮減取樣顏色、灰色和單色的、解析度、閾值和壓縮 </p> </td> 
+  <td class="stentry"> <p> 縮減取樣顏色、灰色和單色的解析度、閾值和壓縮 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>字型 </p></td> 
@@ -77,6 +77,6 @@ ht-degree: 46%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>標準 </p></td> 
-  <td class="stentry"> <p>合規標準。 </p></td> 
+  <td class="stentry"> <p>符合標準。 </p></td> 
  </tr> 
 </table>

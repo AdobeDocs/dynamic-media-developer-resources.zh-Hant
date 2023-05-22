@@ -41,7 +41,7 @@ ht-degree: 28%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| values | `type:StringArray` |  |  |
+| 數值 | `type:StringArray` |  |  |
 
 ## 範例 {#section-440f3bc3e5be436cb6ec26117d05f476}
 

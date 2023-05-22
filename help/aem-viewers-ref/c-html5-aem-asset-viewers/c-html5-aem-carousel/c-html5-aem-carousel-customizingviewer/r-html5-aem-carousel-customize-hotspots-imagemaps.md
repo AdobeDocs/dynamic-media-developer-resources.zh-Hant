@@ -1,6 +1,6 @@
 ---
 title: 熱點和影像映射
-description: 檢視器會在主檢視上顯示熱點圖示，這些地方的熱點原本是在AEM Assets的Dynamic Media（隨選）中撰寫。
+description: 查看器在主視圖上顯示熱點表徵圖，這些熱點最初是在AEM AssetsDynamic Media創作的，是按需的。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # 熱點和影像映射{#hotspots-and-image-maps}
 
-檢視器會在主檢視上顯示熱點圖示，這些地方的熱點原本是在AEM Assets的Dynamic Media（隨選）中撰寫。
+查看器在主視圖上顯示熱點表徵圖，這些熱點最初是在AEM AssetsDynamic Media創作的，是按需的。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -35,12 +35,12 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景 — 影像  </span> </p> </td> 
-   <td colname="col2"> <p>熱點表徵圖圖。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景影像 </span> </p> </td> 
+   <td colname="col2"> <p>熱點表徵圖圖稿。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
-   <td colname="col2"> <p>如果使用CSS精靈，則位於圖稿精靈內。 </p> <p>請參閱<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprites </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
+   <td colname="col2"> <p>如果使用CSS浮雕，則在圖稿浮雕內定位。 </p> <p>請參閱 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS繁體 </a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -53,7 +53,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-範例 — 設定56 x 56像素熱點圖示，以針對兩個不同圖示狀態中的每一個顯示不同的影像：
+示例 — 設定56 x 56像素熱點表徵圖，該表徵圖顯示兩個不同表徵圖狀態中每個狀態的不同影像：
 
 ```
 .s7interactiveimage .s7imagemapeffect .s7icon { 
@@ -83,21 +83,21 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景  </span> </p> </td> 
-   <td colname="col2"> <p>影像映射區域填充顏色。 </p> <p>以<span class="codeph"> #RRGGBB </span>、<span class="codeph"> RGB(R,G,B)</span>或<span class="codeph"> RGBA(R,G,B,A)</span>格式指定此顏色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景 </span> </p> </td> 
+   <td colname="col2"> <p>影像映射區域填充顏色。 </p> <p>在中指定此顏色 <span class="codeph"> #RRGGBB </span>。 <span class="codeph"> RGB(R,G,B) </span>或 <span class="codeph"> RGBA(R,G,B,A) </span> 格式 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景顏色  </span> </p> </td> 
-   <td colname="col2"> <p>影像映射區域填充顏色。 </p> <p>以<span class="codeph"> #RRGGBB </span>、<span class="codeph"> RGB(R,G,B)</span>或<span class="codeph"> RGBA(R,G,B,A)</span>格式指定此顏色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
+   <td colname="col2"> <p>影像映射區域填充顏色。 </p> <p>在中指定此顏色 <span class="codeph"> #RRGGBB </span>。 <span class="codeph"> RGB(R,G,B) </span>或 <span class="codeph"> RGBA(R,G,B,A) </span> 格式 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
-   <td colname="col2"> <p> 影像映射區域邊框樣式。 應指定為" <span class="codeph">寬度</span> <span class="codeph">實色</span>"，其中<span class="codeph">寬度</span>以像素表示，而<span class="codeph">顏色</span>設定為<span class="codeph"> #RRGGBB </span>、<span class="codeph"> RGB(R,G,B)</span>或<span class="codeph"> RGBA(R,G,B,A)&lt;a3/。</span> </p> </td> 
+   <td colname="col2"> <p> 影像映射區域邊框樣式。 應指定為「」 <span class="codeph"> 寬度 </span> <span class="codeph"> 純色 </span>」 <span class="codeph"> 寬度 </span> 以像素表示， <span class="codeph"> 顏色 </span> 設定為 <span class="codeph"> #RRGGBB </span>。 <span class="codeph"> RGB(R,G,B) </span>或 <span class="codeph"> RGBA(R,G,B,A) </span>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例 — 使用一個像素黑色邊框設定透明影像映射區域：
+示例 — 設定具有一個像素黑色邊框的透明影像映射區域：
 
 ```
 .s7carouselviewer .s7imagemapeffect .s7region { 

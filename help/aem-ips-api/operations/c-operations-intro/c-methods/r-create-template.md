@@ -34,7 +34,7 @@ ht-degree: 10%
 |---|---|---|---|
 | 公司句柄 | `xsd:string` | 是 | 模板所屬的公司。 |
 | folderHandle | `xsd:string` | 是 | 表示模板所在資料夾的資料夾句柄。 |
-| 名稱 | `xsd:string` | 是 | 模板名稱。 |
+| name | `xsd:string` | 是 | 模板名稱。 |
 | type | `xsd:string` | 是 | 模板類型。 |
 | url修飾符 | `xsd:string` | 是 | 指定在IS目錄中儲存的在URL上任何用戶提供的命令之前應用的影像伺服器命令。 |
 | urlPostApplyModifier | `xsd:string` | 否 | 指定在任何URL命令後應用的協定命令，這將覆蓋任何衝突的用戶提供的設定。 |

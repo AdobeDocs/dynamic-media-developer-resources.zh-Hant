@@ -98,7 +98,7 @@ SearchAssetsReturn retVal = ipsApi.searchAssets(searchParam, authHeader);
 
 如果不包括 `responseFieldArray` 或 `excludeFieldArray` 在請求中，將返回所有欄位。
 
-**地區設定**
+**區域設定**
 
 自IPS 4.0以來，IPS API支援通過傳遞 `authHeader` 區域設定參數。 如果區域設定參數不存在，則HTTP標頭 `Accept-Language` 的子菜單。 如果此標頭不存在，則使用IPS伺服器的預設區域設定。
 

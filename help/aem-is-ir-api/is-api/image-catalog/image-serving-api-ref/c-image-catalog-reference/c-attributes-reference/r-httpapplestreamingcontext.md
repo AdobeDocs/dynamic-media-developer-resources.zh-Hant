@@ -1,5 +1,5 @@
 ---
-description: Apple串流伺服器URL首碼。 以req=mbrSet產生多位元速率m3u8回應時使用的Apple串流伺服器URL首碼。
+description: Apple流伺服器URL前置詞。 在生成req=mbrSet的多比特速率m3u8響應時使用的Apple流伺服器URL前置詞。
 solution: Experience Manager
 title: HttpAppleStreamingContext
 feature: Dynamic Media Classic,SDK/API
@@ -7,18 +7,18 @@ role: Developer,User
 exl-id: 339dada7-064b-4cdc-bd34-76b6053b9965
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 7%
+source-wordcount: '59'
+ht-degree: 6%
 
 ---
 
 # HttpAppleStreamingContext{#httpapplestreamingcontext}
 
-Apple串流伺服器URL首碼。 以req=mbrSet產生多位元速率m3u8回應時使用的Apple串流伺服器URL首碼。
+Apple流伺服器URL前置詞。 在生成req=mbrSet的多比特速率m3u8響應時使用的Apple流伺服器URL前置詞。
 
 ## 屬性 {#properties}
 
-代表URL首碼的字串。 (例如`http://my.server.com/apple/streaming`
+表示URL前置詞的字串。 (例如 `http://my.server.com/apple/streaming`)
 
 ## 預設 {#section-bdd70081d50844c295f0de0154c1d738}
 

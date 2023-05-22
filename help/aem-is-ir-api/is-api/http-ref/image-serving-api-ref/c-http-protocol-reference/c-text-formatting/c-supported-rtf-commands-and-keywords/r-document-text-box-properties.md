@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: e9d21a39-4d98-4115-8179-ab5acf713c80
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '209'
 ht-degree: 1%
 
 ---
@@ -26,104 +26,104 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td> <span class="codeph"> \fontbl  </span> </td> 
+   <td> <span class="codeph"> \fontbl </span> </td> 
    <td> <p>字型表。 </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \fcharset  <span class="varname"> N  </span> </span> </td> 
-   <td> <p>字型<i>N</i>的字元集。 </p> </td> 
+   <td> <span class="codeph"> \fcharset <span class="varname"> N </span> </span> </td> 
+   <td> <p>字型字元集 <i>N</i>。 </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \colorbl  </span> </td> 
+   <td> <span class="codeph"> \colorbl </span> </td> 
    <td> <p>RGB顏色表。 </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \cmykcolortbl  </span> </td> 
+   <td> <span class="codeph"> \cmykcolorbl </span> </td> 
    <td> <p>CMYK顏色表。 </p> </td> 
-   <td> <p>Dynamic Media擴充功能。 </p> </td> 
+   <td> <p>Dynamic Media分機。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \*\iscolortbl  </span> </td> 
-   <td> <p>影像提供顏色的顏色表。 </p> </td> 
-   <td> <p>Dynamic Media擴充功能；<span class="codeph"> textPs= </span> </p> </td> 
+   <td> <span class="codeph"> \*\iscolorbl </span> </td> 
+   <td> <p>「影像服務」顏色的顏色表。 </p> </td> 
+   <td> <p>Dynamic Media延期； <span class="codeph"> textPs= </span> 僅 </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \red  <span class="varname"> N  </span> </span> </td> 
+   <td> <span class="codeph"> \紅色 <span class="varname"> N </span> </span> </td> 
    <td> <p>紅色元件。 </p> </td> 
-   <td> <p>只能出現在<span class="codeph"> \colortbl </span>中；0..255 </p> </td> 
+   <td> <p>可能只出現在 <span class="codeph"> \colorbl </span>;0..255 </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \green  <span class="varname"> N  </span> </span> </td> 
+   <td> <span class="codeph"> \綠色 <span class="varname"> N </span> </span> </td> 
    <td> <p>綠色元件。 </p> </td> 
-   <td> <p>只能出現在<span class="codeph"> \colortbl </span>中；0..255 </p> </td> 
+   <td> <p>可能只出現在 <span class="codeph"> \colorbl </span>;0..255 </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \blue  <span class="varname"> N  </span> </span> </td> 
+   <td> <span class="codeph"> \藍色 <span class="varname"> N </span> </span> </td> 
    <td> <p>藍色元件。 </p> </td> 
-   <td> <p>只能出現在<span class="codeph"> \colortbl </span>中；0..255 </p> </td> 
+   <td> <p>可能只出現在 <span class="codeph"> \colorbl </span>;0..255 </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \青色 <span class="varname"> N  </span> </span> </td> 
-   <td> <p>青色顏色元件。 </p> </td> 
-   <td> <p>Dynamic Media擴充功能；只能出現在<span class="codeph"> \cmykcolortbl </span>中；0..100 </p> </td> 
+   <td> <span class="codeph"> \青色 <span class="varname"> N </span> </span> </td> 
+   <td> <p>青色元件。 </p> </td> 
+   <td> <p>Dynamic Media延期；只能顯示 <span class="codeph"> \cmykcolorbl </span>;0..100 </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \magenta  <span class="varname"> N  </span> </span> </td> 
+   <td> <span class="codeph"> \洋紅色 <span class="varname"> N </span> </span> </td> 
    <td> <p>洋紅色分量。 </p> </td> 
-   <td> <p>Dynamic Media擴充功能；只能出現在<span class="codeph"> \cmykcolortbl </span>中；0..100 </p> </td> 
+   <td> <p>Dynamic Media延期；只能顯示 <span class="codeph"> \cmykcolorbl </span>;0..100 </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \黃色 <span class="varname"> N  </span> </span> </td> 
+   <td> <span class="codeph"> 黃色 <span class="varname"> N </span> </span> </td> 
    <td> <p>黃色元件。 </p> </td> 
-   <td> <p>Dynamic Media擴充功能；只能出現在<span class="codeph"> \cmykcolortbl </span>中；0..100 </p> </td> 
+   <td> <p>Dynamic Media延期；只能顯示 <span class="codeph"> \cmykcolorbl </span>;0..100 </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \black  <span class="varname"> N  </span> </span> </td> 
+   <td> <span class="codeph"> 黑 <span class="varname"> N </span> </span> </td> 
    <td> <p>黑色元件。 </p> </td> 
-   <td> <p>Dynamic Media擴充功能；只能出現在<span class="codeph"> \cmykcolortbl </span>中；0..100 </p> </td> 
+   <td> <p>Dynamic Media延期；只能顯示 <span class="codeph"> \cmykcolorbl </span>;0..100 </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \margl  <span class="varname"> N  </span> </span> </td> 
+   <td> <span class="codeph"> \margl <span class="varname"> N </span> </span> </td> 
    <td> <p>左邊距。 </p> </td> 
-   <td> <p>扭曲；<span class="codeph"> textPs= </span> </p> </td> 
+   <td> <p>Twips; <span class="codeph"> textPs= </span> 僅 </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \margr  <span class="varname"> N  </span> </span> </td> 
-   <td> <p>右邊。 </p> </td> 
-   <td> <p>扭曲；<span class="codeph"> textPs= </span> </p> </td> 
+   <td> <span class="codeph"> \margr <span class="varname"> N </span> </span> </td> 
+   <td> <p>右邊距。 </p> </td> 
+   <td> <p>Twips; <span class="codeph"> textPs= </span> 僅 </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \margt  <span class="varname"> N  </span> </span> </td> 
-   <td> <p>最大利潤。 </p> </td> 
-   <td> <p>扭曲；<span class="codeph"> textPs= </span> </p> </td> 
+   <td> <span class="codeph"> \marg <span class="varname"> N </span> </span> </td> 
+   <td> <p>上邊距。 </p> </td> 
+   <td> <p>Twips; <span class="codeph"> textPs= </span> 僅 </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \margb  <span class="varname"> N  </span> </span> </td> 
-   <td> <p>下邊距。 </p> </td> 
-   <td> <p>扭曲；<span class="codeph"> textPs= </span> </p> </td> 
+   <td> <span class="codeph"> \margb <span class="varname"> N </span> </span> </td> 
+   <td> <p>底邊距。 </p> </td> 
+   <td> <p>Twips; <span class="codeph"> textPs= </span> 僅 </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \vertalt  </span> </td> 
-   <td> <p>文字方塊中的靠上對齊文字。 </p> </td> 
+   <td> <span class="codeph"> \vertal </span> </td> 
+   <td> <p>文本框中的頂對齊文本。 </p> </td> 
    <td> <p>預設 </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \vertalb  </span> </td> 
-   <td> <p>文本框中的靠下對齊文本。 </p> </td> 
+   <td> <span class="codeph"> \vertall </span> </td> 
+   <td> <p>文本框中的下對齊文本。 </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \vertalc  </span> </td> 
-   <td> <p>在文本框中居中文本。 </p> </td> 
+   <td> <span class="codeph"> \vertal </span> </td> 
+   <td> <p>將文本居中在文本框中。 </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \stextflow  <span class="varname"> N  </span> </span> </td> 
-   <td> <p>文字流方向。 </p> </td> 
-   <td> <p>特定語言的文本流；<span class="codeph"> textPs= </span>僅0（預設值）左右、上下（歐洲）1上下、右左（遠東） </p> </td> 
+   <td> <span class="codeph"> \stextflow <span class="varname"> N </span> </span> </td> 
+   <td> <p>文本流方向。 </p> </td> 
+   <td> <p>特定語言的文本流； <span class="codeph"> textPs= </span> 僅0（預設）左右，上下（歐洲）1上下，左右（遠東） </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,6 +1,6 @@
 ---
-title: 搜尋按鈕
-description: 搜尋按鈕
+title: 「搜索」按鈕
+description: 「搜索」按鈕
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
@@ -12,13 +12,13 @@ ht-degree: 1%
 
 ---
 
-# 搜尋按鈕{#search-button}
+# 「搜索」按鈕{#search-button}
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **主查看器區域的CSS屬性**
 
-按鈕的外觀由下列CSS類選擇器控制：
+按鈕的外觀由以下CSS類選擇器控制：
 
 `.s7ecatalogsearchviewer .s7searchbutton`
 
@@ -39,33 +39,33 @@ ht-degree: 1%
    <td colname="col2"> <p>按鈕的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 邊距上 </span> </p> </td> 
-   <td colname="col2"> <p> 從控制欄頂端的偏移。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 上邊距 </span> </p> </td> 
+   <td colname="col2"> <p> 從控制欄頂部偏移。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 左邊距 </span> </p> </td> 
-   <td colname="col2"> <p> 左側的下一個按鈕的距離，或者控制欄左側的距離（如果此按鈕是行中的第一個按鈕）。 </p> </td> 
+   <td colname="col2"> <p> 到左邊的下一個按鈕的距離，如果此按鈕是行中的第一個按鈕，則到控制欄的左側的距離。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景 — 影像 </span> </p> </td> 
-   <td colname="col2"> <p>針對指定按鈕狀態顯示的影像。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景影像 </span> </p> </td> 
+   <td colname="col2"> <p>為給定按鈕狀態顯示的影像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS精靈，則位於圖稿精靈內。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS浮雕，則在圖稿浮雕內定位。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS繁體 </a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按鈕支援 `state` 和 `selected` 屬性選取器，可用來將不同外觀套用至不同按鈕狀態。
+>此按鈕支援 `state` 和 `selected` 屬性選擇器，可用於將不同的外觀應用於不同的按鈕狀態。
 >
->特別是， `selected='false'` 對應至初始捲動按鈕狀態，和 `selected='true'` 與搜尋面板作用中時的狀態相對應。
+>特別是， `selected='false'` 對應於初始滾動按鈕狀態， `selected='true'` 與搜索面板處於活動狀態時的狀態相對應。
 
-按鈕工具提示可以本地化。 請參閱 [用戶介面元素本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以取得更多資訊。
+按鈕工具提示可以本地化。 請參閱 [用戶介面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 的子菜單。
 
-範例：若要設定28 x 28像素的「搜尋」按鈕，並在選取或未選取時，針對四個不同按鈕狀態中的每個狀態顯示不同的影像。
+示例 — 設定28 x 28像素的「搜索」按鈕，並在選中或未選中時為四個不同按鈕狀態中的每個狀態顯示不同的影像。
 
 ```
 .s7ecatalogsearchviewer .s7searchbutton{ 
