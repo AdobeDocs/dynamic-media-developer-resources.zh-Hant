@@ -1,5 +1,5 @@
 ---
-description: 建立或編輯元資料欄位。 省略可選欄位句柄以建立新元資料欄位。
+description: 建立或編輯中繼資料欄位。 省略選用欄位控制代碼以建立新的中繼資料欄位。
 solution: Experience Manager
 title: saveMetadataField
 feature: Dynamic Media Classic,SDK/API,Metadata
@@ -14,13 +14,13 @@ ht-degree: 16%
 
 # saveMetadataField{#savemetadatafield}
 
-建立或編輯元資料欄位。 省略可選欄位句柄以建立新元資料欄位。
+建立或編輯中繼資料欄位。 省略選用欄位控制代碼以建立新的中繼資料欄位。
 
 >[!NOTE]
 >
->此方法已棄用。
+>此方法已過時。
 
-## 授權用戶類型 {#section-0c1cbde0863346f8a31b32fd06ab2926}
+## 授權的使用者型別 {#section-0c1cbde0863346f8a31b32fd06ab2926}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,7 +34,7 @@ ht-degree: 16%
 <table id="table_C944A44352F2475A89CE86F3DB1B648A"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 參數名稱 </th> 
+   <th colname="col1" class="entry"> 引數名稱 </th> 
    <th colname="col2" class="entry"> 類型 </th> 
    <th colname="col3" class="entry"> 必要 </th> 
    <th colname="col4" class="entry"> 說明 </th> 
@@ -42,22 +42,22 @@ ht-degree: 16%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 公司句柄</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 公司的把手。 </td> 
+   <td colname="col4"> 公司的控制代碼。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 欄位句柄</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 欄位句柄。 </td> 
+   <td colname="col4"> 欄位控制代碼。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 資產類型</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 從中保存元資料的資產類型選擇。 </td> 
+   <td colname="col4"> 選擇儲存中繼資料的來源資產型別。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 名稱</span> </span> </td> 
@@ -66,28 +66,28 @@ ht-degree: 16%
    <td colname="col4"> 欄位名稱。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 欄位類型</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 元資料欄位類型的選擇。 </td> 
+   <td colname="col4"> 中繼資料欄位型別的選擇。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 預設值</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 所有資產的欄位的預設值。 </td> 
+   <td colname="col4"> 所有資產的欄位預設值。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 隱藏</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> ishidden</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 隱藏或公開IPS系統特定的元資料。 </td> 
+   <td colname="col4"> 隱藏或公開IPS系統特定的中繼資料。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="codeph"><span class="varname"> 強制</span></span> </td> 
+   <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>一個布爾標誌，指示在設定值時是否強制（驗證）元資料欄位。 </p> <p>如果設定為true，則如果在中設定了非法值，則會拋出錯誤 <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>。 </p> </td> 
+   <td colname="col4"> <p>布林值標幟，指出在設定值時，是否強制執行（驗證）中繼資料欄位。 </p> <p>若設為true，則若在中設定了不合法的值，則會擲回錯誤 <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -96,11 +96,11 @@ ht-degree: 16%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 欄位句柄 | `xsd:string` | 是 | 新元資料欄位的句柄。 |
+| fieldHandle | `xsd:string` | 是 | 新中繼資料欄位的控點。 |
 
 ## 範例 {#section-4441c26d1f41466ba972b43dd5189e89}
 
-此代碼示例建立由「資產類型」和「元資料欄位類型」字串常數約束的新元資料欄位。 如果 `fieldHandle` 元素具有有效的欄位句柄值，它更改元資料值並獲取您在請求中指定的相同欄位句柄。
+此程式碼範例會建立受資產型別和中繼資料欄位型別字串常數限制的新中繼資料欄位。 如果 `fieldHandle` 元素具有有效的欄位控制代碼值，它會變更中繼資料值，並取得您在請求中指定的相同欄位控制代碼。
 
 **請求**
 

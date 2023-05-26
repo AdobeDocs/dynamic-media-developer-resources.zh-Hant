@@ -19,8 +19,8 @@ ht-degree: 5%
 <table id="table_B4B930A32C0742F4932BF071B9EEA9F4"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> 自動|左|右 </span> </p> </td> 
-   <td> <p> 指定視圖中色板的填充方式。 </p> <p> <span class="codeph"> 左 </span> 設定從左到右填充順序； </p> <p> <span class="codeph"> 右 </span> 反轉順序，以便視圖從右到左和從上到下填充。 </p> <p>當 <span class="codeph"> 自動 </span> 已設定，元件應用 <span class="codeph"> 右 </span> 模式區域設定為 <span class="codeph"> 子 </span>;否則，使用left。 </p> </td> 
+   <td> <p> <span class="codeph"> auto|left|right </span> </p> </td> 
+   <td> <p> 指定在檢視中填入色票的方式。 </p> <p> <span class="codeph"> left </span> 設定由左至右的填色順序； </p> <p> <span class="codeph"> 右側 </span> 顛倒順序，因此檢視會由右至左、由上至下填入。 </p> <p>時間 <span class="codeph"> 自動 </span> 設定，則元件適用 <span class="codeph"> 右側 </span> locale設定為時的模式 <span class="codeph"> ja </span>；否則會使用left。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

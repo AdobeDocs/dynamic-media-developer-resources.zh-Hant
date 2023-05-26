@@ -1,5 +1,5 @@
 ---
-description: 地址篩選器元素。 可選 <rule> 和 <pathrule> 元素。
+description: 位址篩選元素。 選填於 <rule> 和 <pathrule> 元素。
 solution: Experience Manager
 title: 地址篩選器
 feature: Dynamic Media Classic,SDK/API
@@ -14,9 +14,9 @@ ht-degree: 7%
 
 # 地址篩選器{#addressfilter}
 
-地址篩選器元素。 可選 `<rule>` 和 `<pathrule>` 元素。
+位址篩選元素。 選填於 `<rule>` 和 `<pathrule>` 元素。
 
-覆蓋 `attribute::ClientAddressFilter` 。
+覆寫 `attribute::ClientAddressFilter` 套用規則時。
 
 ## 屬性 {#section-31e9ad29e9934933ac154bccbc729172}
 
@@ -24,16 +24,16 @@ ht-degree: 7%
 
 ## 資料 {#section-c762bdfe425140d689ea5abf25e9a48a}
 
-以逗號分隔的IP地址清單。 每個單獨的地址可包括可選的網路掩碼尾碼以允許IP地址範圍的規範。 如需詳細資訊，請參閱`attribute::ClientAddressFilter`。
+IP位址的逗號分隔清單。 每個個別位址都可包含選用的網路遮罩字尾，以指定IP位址範圍。 如需詳細資訊，請參閱`attribute::ClientAddressFilter`。
 
 ## 說明 {#section-d561b2485e004ef8a2085997d0f4bca6}
 
-通過在 `<addressfilter>` 的子菜單。 如果客戶端IP地址不匹配，則會向客戶端返回「請求拒絕」錯誤。
+您可以透過在中指定一個或多個特定使用者端IP位址，來限制對此影像目錄的存取 `<addressfilter>` 元素。 如果使用者端IP位址不相符，則會傳回「請求被拒絕」錯誤給使用者端。
 
-如果 `<addressfilter>` 為空或未指定。
+如果符合下列條件，則不會限制存取 `<addressfilter>` 為空白或未指定。
 
-如果 `<expression>` 的 `<rule>` 元素不存在或為空， `<addressfilter>` 應用於所有請求。
+如果 `<expression>` 在 `<rule>` 元素不存在或空白， `<addressfilter>` 會套用至所有要求。
 
 ## 另請參閱 {#section-6f51ec2218d9450bb7642f9fdad1988a}
 
-[屬性：:ClientAddressFilter](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-clientaddressfilter.md#reference-7000c1f77b134462a1f06b733f29ba68)
+[attribute：：ClientAddressFilter](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-clientaddressfilter.md#reference-7000c1f77b134462a1f06b733f29ba68)
