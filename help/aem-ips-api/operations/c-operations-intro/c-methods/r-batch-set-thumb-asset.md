@@ -1,7 +1,7 @@
 ---
-description: 設定一個或多個資產的縮略圖。
+description: 設定一或多個資產的縮圖影像。
 solution: Experience Manager
-title: batchSetThumbAsset
+title: batchsetthumbasset
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: f7d7ddd9-a3c3-47c4-8da6-d693851d0d7f
@@ -12,23 +12,23 @@ ht-degree: 12%
 
 ---
 
-# batchSetThumbAsset{#batchsetthumbasset}
+# batchsetthumbasset{#batchsetthumbasset}
 
-設定一個或多個資產的縮略圖。
+設定一或多個資產的縮圖影像。
 
 語法
 
-## 縮略圖資產類型 {#section-4edc2a6a8f824213b0aaddb1d437268c}
+## 縮圖資產型別 {#section-4edc2a6a8f824213b0aaddb1d437268c}
 
-允許的縮略圖資產類型包括：
+允許的縮圖資產型別包含下列專案：
 
 * 影像
-* 已調整視圖
-* 蒙版
+* AdjustedView
+* 遮色片
 * 範本
-* Psd模板
+* Psd範本
 
-## 授權用戶類型 {#section-5fc988e3d6384968b86fd9fe363658c0}
+## 授權的使用者型別 {#section-5fc988e3d6384968b86fd9fe363658c0}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -39,26 +39,26 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->用戶必須具有對目標資產的讀/寫權限和對拇指資產的讀權限。
+>使用者必須擁有目標資產的讀取/寫入存取權，以及縮圖資產的讀取存取權。
 
 ## 參數 {#section-9c6efa000b384b3db6c013def20cf40b}
 
-**Input(batchSetThumbAssetParam)**
+**輸入(batchSetThumbAssetParam)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 公司句柄 | `xsd:string` | 是 | 包含資產的公司的句柄。 |
-| 更新陣列 | `types:ThumbAssetUpdateArray` | 是 | 更新的陣列。 |
+| companyHandle | `xsd:string` | 是 | 包含資產的公司的控制代碼。 |
+| updatearray | `types:ThumbAssetUpdateArray` | 是 | 更新的陣列。 |
 
 **輸出(batchSetThumbAssetParam)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 成功計數 | `xsd:int` | 是 | 成功設定縮略圖的數量。 |
-| 警告計數 | `xsd:int` | 是 | 嘗試設定縮略圖時生成的警告數。 |
-| 錯誤計數 | `xsd:int` | 是 | 嘗試設定縮略圖時生成的錯誤數。 |
-| 警告DetailArray | `types:AssetOperationFaultArray` | 否 | 與在操作嘗試應用更新時生成警告的資產關聯的詳細資訊陣列。 |
-| 錯誤DetailArray | `types:AssetOperationFaultArray` | 否 | 與在操作嘗試應用更新時生成錯誤的資產關聯的詳細資訊陣列。 |
+| successCount | `xsd:int` | 是 | 成功設定的縮圖數目。 |
+| warningCount | `xsd:int` | 是 | 作業嘗試設定縮圖時產生的警告數目。 |
+| errororcount | `xsd:int` | 是 | 作業嘗試設定縮圖時產生的錯誤數目。 |
+| warningDetailArray | `types:AssetOperationFaultArray` | 否 | 與資產關聯的詳細資訊陣列，在作業嘗試套用更新時產生警告。 |
+| errorDetailArray | `types:AssetOperationFaultArray` | 否 | 與資產關聯的詳細資訊陣列，在作業嘗試套用更新時產生錯誤。 |
 
 ## 範例 {#section-6de69a8680c24c1486c5f01488393381}
 

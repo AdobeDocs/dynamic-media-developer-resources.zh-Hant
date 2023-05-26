@@ -1,7 +1,7 @@
 ---
-description: 映像目錄屬性。 返回在請求路徑中指定的映像目錄的公用屬性。
+description: 影像目錄屬性。 傳回要求路徑中指定的影像目錄的一般屬性。
 solution: Experience Manager
-title: 編目道具
+title: catalogprops
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 28bf68e8-d424-418e-99a7-5298a1d83341
@@ -12,28 +12,28 @@ ht-degree: 6%
 
 ---
 
-# 編目道具{#catalogprops}
+# catalogprops{#catalogprops}
 
-映像目錄屬性。 返回在請求路徑中指定的映像目錄的公用屬性。
+影像目錄屬性。 傳回要求路徑中指定的影像目錄的一般屬性。
 
 `req=catalogprops[,text|javascript|xml|{json[&id= *`reqId`*]}]`
 
 <table id="simpletable_D1D9183C08834005B482B103CEF2EDA9"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"><span class="varname"> reqId</span></span> </p> </td> 
-  <td class="stentry"> <p>唯一請求標識符。 </p></td> 
+  <td class="stentry"> <p>唯一請求識別碼。 </p></td> 
  </tr> 
 </table>
 
-檢索預設目錄屬性( [!DNL default.ini])，忽略目錄ID。 HTTP響應可以與基於的TTL進行快取 `attribute::NonImgExpiration`。
+擷取預設目錄屬性( [!DNL default.ini])，省略目錄ID。 HTTP回應可使用以下依據的TTL快取： `attribute::NonImgExpiration`.
 
-支援JSONP響應格式的請求允許您使用擴展語法指定JS回調處理程式的名稱 `req=` 參數：
+支援JSONP回應格式的請求可讓您使用擴充語法來指定JS回呼處理常式的名稱。 `req=` 引數：
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` 是JSONP響應中存在的JS處理程式的名稱。 只允許使用a-z、A-Z和0-9個字元。 選擇性. 預設為 `s7jsonResponse`.
+`<reqHandler>` 是JSONP回應中呈現的JS處理常式名稱。 僅允許a-z、A-Z和0-9字元。 選擇性. 預設為 `s7jsonResponse`.
 
-返回以下屬性值：
+系統會傳回下列屬性值：
 
 <table id="table_DEC26CBF274945298BA81B5E2E2F331D"> 
  <tbody> 
@@ -43,104 +43,104 @@ ht-degree: 6%
    <td> <b> 對應的目錄屬性</b> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> catalog.bkg顏色</span> </p> </td> 
+   <td> <p> <span class="codeph"> catalog.bkgColor</span> </p> </td> 
    <td> <p> 十六進位 </p> </td> 
-   <td> <p> <span class="codeph"> 屬性：:BkgColor</span> </p> </td> 
+   <td> <p> <span class="codeph"> attribute：：BkgColor</span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> 目錄：:defaultExt</span> </p> </td> 
+   <td> <p> <span class="codeph"> 目錄：：defaultExt</span> </p> </td> 
    <td> <p> 字串 </p> </td> 
-   <td> <p> <span class="codeph"> 屬性：:DefaultExt</span> </p> </td> 
+   <td> <p> <span class="codeph"> 屬性：：DefaultExt</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.defaultPix</span> </p> </td> 
-   <td> <p> int,int </p> </td> 
-   <td> <p> <span class="codeph"> 屬性：:DefaultPix</span> </p> </td> 
+   <td> <p> int，int </p> </td> 
+   <td> <p> <span class="codeph"> attribute：：DefaultPix</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.defaultThumbPix</span> </p> </td> 
-   <td> <p> int,int </p> </td> 
-   <td> <p> <span class="codeph"> 屬性：:DefaultThumbPix</span> </p> </td> 
+   <td> <p> int，int </p> </td> 
+   <td> <p> <span class="codeph"> attribute：：DefaultThumbPix</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.expiration</span> </p> </td> 
    <td> <p> 真實 </p> </td> 
-   <td> <p> <span class="codeph"> 屬性：：到期</span> </p> </td> 
+   <td> <p> <span class="codeph"> attribute：：Expiration</span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> catalog.default到期</span> </p> </td> 
+   <td> <p> <span class="codeph"> catalog.defaultExpiration</span> </p> </td> 
    <td> <p> 真實 </p> </td> 
-   <td> <p> <span class="codeph"> 屬性：:DefaultExpiration</span> </p> </td> 
+   <td> <p> <span class="codeph"> attribute：：DefaultExpiration</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.nonImgExpiration</span> </p> </td> 
    <td> <p> 真實 </p> </td> 
-   <td> <p> <span class="codeph"> 屬性：:NonImgExpiration</span> </p> </td> 
+   <td> <p> <span class="codeph"> attribute：：NonImgExpiration</span> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> catalog.fileTime</span> </p> </td> 
    <td> <p> 字串 </p> </td> 
-   <td> <p> <span class="codeph"> 屬性：:LastModified</span>，或，如果不存在，則 <span class="varname"> 目錄</span><span class="filepath"> .ini</span> 檔案 </p> </td> 
+   <td> <p> <span class="codeph"> attribute：：LastModified</span>、或（如果不存在）的上次修改時間 <span class="varname"> 目錄</span><span class="filepath"> .ini</span> 檔案 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.jpegQuality</span> </p> </td> 
-   <td> <p> int,bool </p> </td> 
-   <td> <p> <span class="codeph"> 屬性：:JpegQuality</span> </p> </td> 
+   <td> <p> int，bool </p> </td> 
+   <td> <p> <span class="codeph"> attribute：：JpegQuality</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.maxPix</span> </p> </td> 
-   <td> <p> int,int </p> </td> 
-   <td> <p> <span class="codeph"> 屬性：:MaxPix</span> </p> </td> 
+   <td> <p> int，int </p> </td> 
+   <td> <p> <span class="codeph"> attribute：：MaxPix</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.printResolution</span> </p> </td> 
-   <td> <p> 整 </p> </td> 
-   <td> <p> <span class="codeph"> 屬性：:PrintResolution</span> </p> </td> 
+   <td> <p> int </p> </td> 
+   <td> <p> <span class="codeph"> attribute：：PrintResolution</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.publishInfo</span> </p> </td> 
    <td> <p> 字串 </p> </td> 
-   <td> <p> <span class="codeph"> 屬性：:PublishInfo</span> </p> </td> 
+   <td> <p> <span class="codeph"> attribute：：PublishInfo</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.resMode</span> </p> </td> 
-   <td> <p> 枚舉 </p> </td> 
-   <td> <p> <span class="codeph"> 屬性：:ResMode</span> </p> </td> 
+   <td> <p> 列舉 </p> </td> 
+   <td> <p> <span class="codeph"> attribute：：ResMode</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.resolution</span> </p> </td> 
    <td> <p> 真實 </p> </td> 
-   <td> <p> <span class="codeph"> 屬性：：解析度</span> </p> </td> 
+   <td> <p> <span class="codeph"> attribute：：Resolution</span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> catalog.thumbKgColor</span> </p> </td> 
+   <td> <p> <span class="codeph"> catalog.thumbBkgColor</span> </p> </td> 
    <td> <p> 十六進位 </p> </td> 
-   <td> <p> <span class="codeph"> 屬性：:ThumbBkgColor</span> </p> </td> 
+   <td> <p> <span class="codeph"> attribute：：ThumbBkgColor</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.thumbHorizAlign</span> </p> </td> 
-   <td> <p> 枚舉 </p> </td> 
-   <td> <p> <span class="codeph"> 屬性：:ThumbHorizAlign</span> </p> </td> 
+   <td> <p> 列舉 </p> </td> 
+   <td> <p> <span class="codeph"> attribute：：ThumbHorizAlign</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.thumbRes</span> </p> </td> 
    <td> <p> 真實 </p> </td> 
-   <td> <p> <span class="codeph"> 屬性：:ThumbRes</span> </p> </td> 
+   <td> <p> <span class="codeph"> attribute：：ThumbRes</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.thumbType</span> </p> </td> 
-   <td> <p> 枚舉 </p> </td> 
-   <td> <p> <span class="codeph"> 屬性：:ThumbType</span> </p> </td> 
+   <td> <p> 列舉 </p> </td> 
+   <td> <p> <span class="codeph"> attribute：：ThumbType</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.thumbVertAlign</span> </p> </td> 
-   <td> <p> 枚舉 </p> </td> 
-   <td> <p> <span class="codeph"> 屬性：:ThumbVertAlign</span> </p> </td> 
+   <td> <p> 列舉 </p> </td> 
+   <td> <p> <span class="codeph"> attribute：：ThumbVertAlign</span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> 目錄：水印</span> </p> </td> 
+   <td> <p> <span class="codeph"> 目錄：：浮水印</span> </p> </td> 
    <td> <p> 字串 </p> </td> 
-   <td> <p> <span class="codeph"> 屬性：：水印</span> </p> </td> 
+   <td> <p> <span class="codeph"> attribute：：Watermark</span> </p> </td> 
   </tr> 
  </tbody> 
 </table>

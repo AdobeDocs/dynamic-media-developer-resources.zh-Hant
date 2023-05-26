@@ -1,5 +1,5 @@
 ---
-description: 本文檔介紹用於Dynamic Media影像服務的HTTP協定。
+description: 本檔案說明Dynamic Media影像伺服的HTTP通訊協定。
 solution: Experience Manager
 title: 簡介
 feature: Dynamic Media Classic,SDK/API
@@ -14,6 +14,6 @@ ht-degree: 4%
 
 # 簡介{#introduction}
 
-本文檔介紹用於Dynamic Media影像服務的HTTP協定。
+本檔案說明Dynamic Media影像伺服的HTTP通訊協定。
 
-只描述了該協定的公開可用方面。 該伺服器可支援其他命令，這些命令被保留供Dynamic Media客戶端軟體使用。
+僅說明通訊協定的公開可用方面。 伺服器可支援其他命令，這些命令會保留給Dynamic Media使用者端軟體使用。

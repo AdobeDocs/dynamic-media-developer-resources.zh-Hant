@@ -1,5 +1,5 @@
 ---
-description: 響應多個req=類型返回屬性資料。
+description: 屬性資料會傳回以回應多種req=型別。
 solution: Experience Manager
 title: 屬性
 feature: Dynamic Media Classic,SDK/API
@@ -14,16 +14,16 @@ ht-degree: 4%
 
 # 屬性{#properties}
 
-返回屬性資料以響應以下命令 `req=` 類型：
+屬性資料會傳回以回應下列事項 `req=` 型別：
 
 * `catalogprops`
 * `imageprops`
 * `props`
 * `userdata`
 
-`userdata` 僅當響應的內容 `catalog::UserData` 按屬性格式操作。
+`userdata` 唯有當回覆的內容符合以下條件時，回覆才會格式化為屬性： `catalog::UserData` 請遵循屬性格式。
 
-* [文本(Java)屬性](r-text-java-properties.md)
+* [文字(Java)屬性](r-text-java-properties.md)
 * [JavaScript屬性](r-javascript-properties.md)
 * [XML屬性](r-xml-properties.md)
 * [JSONP屬性](r-json-properties.md)
@@ -31,4 +31,4 @@ ht-degree: 4%
 
 ## 另請參閱 {#section-869fc97ffc4648f5a64062311be26819}
 
-[請求=](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76)
+[req=](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76)

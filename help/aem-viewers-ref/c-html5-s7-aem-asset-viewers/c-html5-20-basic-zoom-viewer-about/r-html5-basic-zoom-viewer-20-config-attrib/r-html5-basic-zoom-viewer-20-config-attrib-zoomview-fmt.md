@@ -20,7 +20,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td colname="col2"> <p> 指定元件用於從Image Server載入影像的影像格式。 如果指定的格式以「 — alpha 」結尾，則元件將影像呈現為透明內容。 對於所有其它影像格式，元件將影像視為不透明。 預設情況下，該元件具有白色背景。 因此，要使其透明，請將背景顏色CSS屬性設定為透明。 </p> </td> 
+   <td colname="col2"> <p> 指定元件從影像伺服器載入影像時所用的影像格式。 如果指定的格式結尾為"-alpha "，元件會將影像呈現為透明內容。 對於所有其他影像格式，元件會將影像視為不透明。 元件預設為白色背景。 因此，若要使其透明，請將background-color CSS屬性設定為transparent。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

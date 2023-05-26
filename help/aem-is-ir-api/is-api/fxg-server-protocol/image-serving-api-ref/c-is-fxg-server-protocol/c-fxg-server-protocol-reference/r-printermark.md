@@ -1,7 +1,7 @@
 ---
-description: 顯示打印機標籤。 指定如何顯示打印機標籤。
+description: 顯示印表機標籤。 指定如何顯示印表機標籤。
 solution: Experience Manager
-title: 打印機標籤
+title: printerMark
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f61c7311-a2e9-4eb7-ae05-276a4eec980b
@@ -12,15 +12,15 @@ ht-degree: 33%
 
 ---
 
-# 打印機標籤{#printermark}
+# printerMark{#printermark}
 
-顯示打印機標籤。 指定如何顯示打印機標籤。
+顯示印表機標籤。 指定如何顯示印表機標籤。
 
-` printerMark= *`修剪標籤`*, *`出血標籤`*, *`註冊標誌`*, *`顏色條`*, *`頁面資訊`*, *`風格`*, *`線重`*, *`層嵌入`*`
+` printerMark= *`修剪標籤`*, *`出血標籤`*, *`註冊標籤`*, *`色條`*, *`頁面資訊`*, *`樣式`*, *`線條寬度`*, *`圖層內嵌`*`
 
-可以關閉或開啟不同的標籤。 還可以控制打印機標籤的樣式。
+可以關閉或開啟不同的標籤。 也可以控制印表機標籤的樣式。
 
-以下是有效值：
+以下是有效的值：
 
 <table id="simpletable_C84560940CAC46D8BE9D0EFEE5EBF323"> 
  <tr class="strow"> 
@@ -50,12 +50,12 @@ ht-degree: 33%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>style= </p></td> 
-  <td class="stentry"> <p>預設 </p> <p>InDesignJ1 </p> <p>InDesignJ2 </p> <p>Illustrator </p> <p>IllustratorJ </p> <p>誇克XPress </p> </td> 
-  <td class="stentry"> <p>預設值為預設值 </p></td> 
+  <td class="stentry"> <p>預設 </p> <p>InDesignJ1 </p> <p>InDesignJ2 </p> <p>Illustrator </p> <p>IllustratorJ </p> <p>QuarkXPress </p> </td> 
+  <td class="stentry"> <p>預設為預設 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>線重= </p></td> 
-  <td class="stentry"> <p>範圍0.125 - 2.0中的任何值，都包括這兩個值。 </p></td> 
+  <td class="stentry"> <p>線條寬度= </p></td> 
+  <td class="stentry"> <p>介於0.125到2.0之間的任何值，包括這兩個值。 </p></td> 
   <td class="stentry"> <p>預設為 0.25。 </p></td> 
  </tr> 
  <tr class="strow"> 

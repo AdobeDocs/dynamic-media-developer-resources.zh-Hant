@@ -1,5 +1,5 @@
 ---
-description: batchSetAssetMetadata操作中新更新的警告或錯誤詳細資訊。
+description: batchSetAssetMetadata作業中使用更新的警告或錯誤詳細資料。
 solution: Experience Manager
 title: SetMetadataFault
 feature: Dynamic Media Classic,SDK/API,Metadata
@@ -14,7 +14,7 @@ ht-degree: 12%
 
 # [!DNL SetMetadataFault]{#setmetadatafault}
 
-batchSetAssetMetadata操作中新更新的警告或錯誤詳細資訊。
+batchSetAssetMetadata作業中使用更新的警告或錯誤詳細資料。
 
 語法
 
@@ -22,7 +22,7 @@ batchSetAssetMetadata操作中新更新的警告或錯誤詳細資訊。
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 資產句柄 | `xsd:string` | 元資料設定失敗的資產。 |
-| 欄位句柄 | `xsd:string` | 設定其值失敗的元資料欄位的句柄。 |
-| 代碼 | `xsd:int` | 錯誤代碼。 |
-| 原因 | `xsd:string` | 故障描述（純文字檔案）。 |
+| assetHandle | `xsd:string` | 中繼資料設定失敗的資產。 |
+| fieldHandle | `xsd:string` | 設定值失敗的中繼資料欄位的控制代碼。 |
+| 代碼 | `xsd:int` | 錯誤碼。 |
+| 原因 | `xsd:string` | 錯誤說明（純文字）。 |

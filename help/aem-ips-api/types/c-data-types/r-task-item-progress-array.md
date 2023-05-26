@@ -1,5 +1,5 @@
 ---
-description: 有關任務項的一組資訊。
+description: 關於任務專案的一系列資訊。
 solution: Experience Manager
 title: TaskItemProgressArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 17%
 
 # [!DNL TaskItemProgressArray]{#taskitemprogressarray}
 
-有關任務項的一組資訊。
+關於任務專案的一系列資訊。
 
 語法
 
@@ -22,4 +22,4 @@ ht-degree: 17%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 項目 | `types:TaskItemProgress` | 任務項進度陣列。 最小值為零。 最大值無界。 |
+| 項目 | `types:TaskItemProgress` | 任務專案進度陣列。 最小出現次數為零。 上限未限制。 |

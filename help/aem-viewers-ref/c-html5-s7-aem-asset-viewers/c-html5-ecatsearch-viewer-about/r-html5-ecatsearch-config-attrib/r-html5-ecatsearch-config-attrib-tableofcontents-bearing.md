@@ -14,17 +14,17 @@ ht-degree: 1%
 
 # TableOfContents.bearing{#tableofcontents-bearing}
 
-[!DNL `[TableOfContents.|<containerId>_tableOfContents.]bearing=[fit-lateral|fit-vertical][, *`自動隱藏延遲`*]`]
+[!DNL `[TableOfContents.|<containerId>_tableOfContents.]bearing=[fit-lateral|fit-vertical][, *`autoHideDelay`*]`]
 
 <table id="table_5151E6EA076C4AAD8D952A09E1F17C44"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> 擬合橫向|擬合垂直</span> </p> </td> 
-   <td> <p> 控制下拉面板外觀的方向。 </p> <p>設定為時 <span class="codeph"> 垂直</span>，元件首先將基板位置移到其按鈕的底部，並嘗試從基板位置向右或向左滾動面板。 每次嘗試時，元件都會檢查面板是否被外部容器夾住。 如果所有嘗試都失敗，則元件將嘗試將基板位置移到頂部，並重複沿左右方向展開嘗試。 </p> <p>設定為時 <span class="codeph"> 擬合側</span>，該元件使用相似的邏輯，但首先將基本向右移動，然後嘗試向下和向上展開。 然後，它把底座向左移動，試圖上下滾動方向。 </p> </td> 
+   <td> <p> <span class="codeph"> 適合 — 橫向|適合 — 垂直</span> </p> </td> 
+   <td> <p> 控制下拉式面板外觀的方向。 </p> <p>當設定為 <span class="codeph"> 垂直符合</span>，元件會先將基礎面板位置移至其按鈕底部，並嘗試從基礎位置將面板向右或向左捲動。 每次嘗試時，元件都會檢查面板是否被外部容器裁剪。 如果所有嘗試都失敗，元件會嘗試將基礎面板位置移至頂端，並在右側和左側重複轉出嘗試。 </p> <p>當設定為 <span class="codeph"> 適合 — 橫向</span>，元件會使用類似邏輯，但會先將基底向右移動，然後嘗試向下和向上轉出方向。 然後，它會將基底向左移動，嘗試向下和向上轉出方向。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"><span class="varname"> 自動隱藏延遲</span></span> </p> </td> 
-   <td> <p> 設定下拉清單自動隱藏計時器的延遲（秒），該計時器在用戶空閒時隱藏面板。 </p> </td> 
+   <td> <p> <span class="codeph"><span class="varname"> autoHideDelay</span></span> </p> </td> 
+   <td> <p> 設定下拉式自動隱藏計時器的延遲秒數，該計時器在使用者閒置時隱藏面板。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

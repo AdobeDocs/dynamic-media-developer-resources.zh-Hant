@@ -1,7 +1,7 @@
 ---
-description: 使用Dynamic Media映像服務之前，請確保您的系統符合系統要求。
+description: 在使用Dynamic Media Image Serving之前，請確認您的系統符合系統需求。
 solution: Experience Manager
-title: 系統要求和先決條件
+title: 系統需求和先決條件
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ea2dfec9-0a42-4ccb-8442-6f7c4a39eda1
@@ -12,35 +12,35 @@ ht-degree: 1%
 
 ---
 
-# 系統要求和先決條件{#system-requirements-and-prerequisites}
+# 系統需求和先決條件{#system-requirements-and-prerequisites}
 
-使用Dynamic Media映像服務之前，請確保您的系統符合系統要求。
+在使用Dynamic Media Image Serving之前，請確認您的系統符合系統需求。
 
 ## 伺服器硬體 {#section-f3c14a7bc1b745118602659628df779f}
 
-伺服器應滿足以下硬體要求。
+您的伺服器應符合下列硬體需求。
 
 >[!NOTE]
 >
->帶有AMD64和英特爾® EM64T處理器的系統通常配置為NUMA（非統一記憶體體系結構）平台。 這意味著內核在引導時構建多個記憶體節點，而不是構建單個記憶體節點。 該多節點構造可導致在其它節點耗盡之前在一個或多個節點上耗盡記憶體。 當記憶體耗盡時，內核可以決定終止進程(例如，映像伺服器或 [!DNL Platform Server])，即使有可用記憶體。 因此，Adobe Systems建議，如果運行這樣的系統，則關閉NUMA。 使用 `numa=off` start選項可避免內核停止這些進程。
+>搭載AMD64和Intel® EM64T處理器的系統通常設定為NUMA （非統一記憶體架構）平台。 這表示核心會在開機時建構多個記憶體節點，而不是建構單一記憶體節點。 多節點結構可能會導致一或多個節點的記憶體耗盡，之後其他節點就會耗盡。 當記憶體耗盡時，核心可以決定終止處理序(例如，影像伺服器或 [!DNL Platform Server])即使有可用的記憶體。 因此，Adobe Systems建議，如果您要執行這類系統，請關閉NUMA。 使用 `numa=off` 啟動選項，以避免核心停止這些處理作業。
 
 **Windows**
 
-* 至少具有4個內核的英特爾至強®或AMD皓龍CPU。
-* 最小16GB RAM。
-* 交換空間至少等於物理記憶體(RAM)的兩倍。
-* 2 GB可用硬碟空間用於安裝和基本操作，源映像、日誌、資料快取和清單檔案需要額外的磁碟空間。
-* 快速乙太網網卡。
+* Intel Xeon®或AMD® Opteron CPU至少配備4個核心。
+* 最少16GB的RAM。
+* 交換空間至少相當於實體記憶體(RAM)容量的兩倍。
+* 2 GB的可用硬碟空間，可供安裝及基本作業使用，而來源映像、記錄、資料快取及資訊清單檔案則需要額外的磁碟空間。
+* 快速乙太網路介面卡。
 
 **Linux**
 
-* 至少具有4個內核的英特爾至強®或AMD皓龍CPU。
-* 最小16GB RAM。
-* 已禁用交換（建議）。
-* 2 GB可用硬碟空間用於安裝和基本操作，源映像、日誌、資料快取和清單檔案需要額外的磁碟空間。
-* 快速乙太網網卡。
+* Intel Xeon®或AMD® Opteron CPU至少配備4個核心。
+* 最少16GB的RAM。
+* 已停用交換（建議）。
+* 2 GB的可用硬碟空間，可供安裝及基本作業使用，而來源映像、記錄、資料快取及資訊清單檔案則需要額外的磁碟空間。
+* 快速乙太網路介面卡。
 
-**注意(Linux):** 開啟SELinux時，影像服務不工作。 預設情況下，此選項處於啟用狀態。 要禁用SELinux，請編輯 [!DNL /etc/selinux/config] 檔案，並將SELinux值從：
+**注意(Linux)：** 開啟SELinux時，「影像伺服」無法運作。 此選項預設為啟用。 若要停用SELinux，請編輯 [!DNL /etc/selinux/config] 檔案並將SELinux值從下列位置變更：
 
 `SELINUX=enforcing`
 
@@ -48,22 +48,22 @@ ht-degree: 1%
 
 `SELINUX=disabled`
 
-**注意(Linux):** 確保伺服器的主機名可解析為IP地址。 如果不可能，請將完全限定的主機名和IP地址添加到 [!DNL /etc/hosts] 如下例所示。
+**注意(Linux)：** 請確定伺服器的主機名稱可解析為IP位址。 如果無法執行此操作，請將完整主機名稱和IP位址新增至 [!DNL /etc/hosts] 如下列範例所示。
 
 `<ip address> <fully qualified hostname>`
 
 ## 伺服器軟體 {#section-5c9aad2e6b8a4bca989e17a2c8476fc4}
 
-Dynamic Media映像服務需要以下伺服器軟體。
+Dynamic Media Image Serving需要下列伺服器軟體。
 
 **Windows**
 
-* Microsoft® Windows 2008伺服器。
-* 64位作業系統。
+* Microsoft® Windows 2008 Server。
+* 64位元作業系統。
 
 **Linux**
 
-* Red Hat® Enterprise 5或CentOS 5.5及更高版本，帶有最新的修復補丁程式。
-* 64位作業系統。
+* Red Hat® Enterprise 5或CentOS 5.5和更新版本，搭配最新的修正修補程式。
+* 64位元作業系統。
 
-**注：** 要在Windows上使用Image Serving，必須安裝MicrosoftVisual Studio 2010可再發行版。
+**注意：** 若要在Windows上使用「影像伺服」，您必須安裝Microsoft Visual Studio 2010可轉散發套件。

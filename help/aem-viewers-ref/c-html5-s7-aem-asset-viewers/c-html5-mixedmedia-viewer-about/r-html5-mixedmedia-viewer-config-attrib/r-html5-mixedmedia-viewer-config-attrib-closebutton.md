@@ -20,7 +20,7 @@ ht-degree: 17%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
-   <td colname="col2"> <p> 設定為 <span class="codeph"> 1</span> 啟用關閉按鈕顯示，或設定為 <span class="codeph"> 0</span> 按鈕。 </p> </td> 
+   <td colname="col2"> <p> 設定為 <span class="codeph"> 1</span> 以啟用「關閉」按鈕顯示，或設為 <span class="codeph"> 0</span> 以隱藏關閉按鈕。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

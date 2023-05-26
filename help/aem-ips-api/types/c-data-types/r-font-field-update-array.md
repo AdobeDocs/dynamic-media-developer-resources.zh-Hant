@@ -1,7 +1,7 @@
 ---
 description: 字型欄位更新的陣列。
 solution: Experience Manager
-title: FontFieldUpdateArray
+title: 字型欄位更新陣列
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1ed5562a-90f6-483c-98ef-96bc5a5131ed
@@ -22,4 +22,4 @@ ht-degree: 22%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 項目 | `types:FontFieldUpdate` | 字型欄位更新陣列中的項。 |
+| 項目 | `types:FontFieldUpdate` | 字型欄位中的專案更新陣列。 |

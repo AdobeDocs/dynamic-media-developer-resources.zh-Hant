@@ -1,7 +1,7 @@
 ---
-title: 內聯縮放
-description: 內聯縮放查看器是影像查看器。 當用戶滾動或觸碰主視圖時，它將顯示靜態影像，並將縮放版本顯示在該靜態影像上。 此查看器可與影像集配合使用，並使用色板完成導航。 它設計用於台式機和移動設備。
-keywords: 響應
+title: 內嵌縮放
+description: 內嵌縮放檢視器是一種影像檢視器。 它會顯示靜態影像，其中當使用者滑鼠或觸控主檢視時，縮放的版本會顯示在該靜態影像上。 此檢視器可搭配影像集使用，且導覽會使用色票完成。 專為桌上型電腦和行動裝置所設計。
+keywords: 回應式
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
@@ -13,35 +13,35 @@ ht-degree: 0%
 
 ---
 
-# 內聯縮放{#inline-zoom}
+# 內嵌縮放{#inline-zoom}
 
-內聯縮放查看器是影像查看器。 當用戶滾動或觸碰主視圖時，它將顯示靜態影像，並將縮放版本顯示在該靜態影像上。 此查看器可與影像集配合使用，並使用色板完成導航。 它設計用於台式機和移動設備。
+內嵌縮放檢視器是一種影像檢視器。 它會顯示靜態影像，其中當使用者滑鼠或觸控主檢視時，縮放的版本會顯示在該靜態影像上。 此檢視器可搭配影像集使用，且導覽會使用色票完成。 專為桌上型電腦和行動裝置所設計。
 
 >[!NOTE]
 >
->此查看器不支援使用IR（影像呈現）或UGC（用戶生成的內容）的影像。
+>此檢視器不支援使用IR （影像演算）或UGC （使用者產生的內容）的影像。
 
-查看器類型為504。
+檢視器型別為504。
 
-請參閱 [系統要求和先決條件](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842)。
+另請參閱 [系統需求和先決條件](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
-## 演示URL {#section-e1c3106f5b3e445d9b95be337c2f94e2}
+## 示範URL {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
 [https://s7d9.scene7.com/s7viewers/html5/FlyoutViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample&amp;config=Scene7SharedAssets/Universal_HTML5_Zoom_Inline&amp;stagesize=500,400](https://s7d9.scene7.com/s7viewers/html5/FlyoutViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample&amp;config=Scene7SharedAssets/Universal_HTML5_Zoom_Inline&amp;stagesize=500,400)
 
-## 使用內聯縮放查看器 {#section-f21ac23d3f6449ad9765588d69584772}
+## 使用內嵌縮放檢視器 {#section-f21ac23d3f6449ad9765588d69584772}
 
-內聯縮放查看器表示主JavaScript檔案和一組幫助程式檔案（單個JavaScript包含此特定查看器、資產、CSS使用的所有查看器SDK元件），該查看器在運行時下載。
+內嵌縮放檢視器代表一個主要JavaScript檔案和一組協助程式檔案（單一JavaScript包含，其中包含此特定檢視器使用的所有Viewer SDK元件、資產、CSS），由檢視器在執行階段下載。
 
-內聯縮放查看器既可以使用隨影像服務查看器提供的生產就緒HTML頁在彈出模式下使用，也可以在使用文檔化API將其整合到目標網頁的嵌入式模式下使用。
+內嵌縮放檢視器既可透過隨附影像伺服檢視器的生產就緒HTML頁面在快顯視窗模式使用，也可透過已記錄的API在嵌入模式整合至目標網頁中使用。
 
-配置和外觀與其他查看器類似。 可以使用自定義CSS應用外觀。
+設定和外觀設定與其他檢視器的設定和外觀設定類似。 您可以使用自訂CSS來套用外觀設定。
 
-請參閱 [所有查看器通用的命令引用 — 配置屬性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) 和 [所有查看器通用的命令引用 — URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
+另請參閱 [所有檢視器通用的命令參考 — 設定屬性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) 和 [所有檢視器通用的命令參考 — URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
-## 與內聯縮放查看器交互 {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
+## 與內嵌縮放檢視器互動 {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
-內聯縮放查看器支援其他移動應用程式中常見的單點觸控和多點觸控手勢。
+內嵌縮放檢視器支援其他行動應用程式中常見的單一觸控和多重觸控手勢。
 
 <table id="table_ED747CC7178448919C34A4FCD18922D0"> 
  <thead> 
@@ -52,80 +52,80 @@ ht-degree: 0%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>按一下 </p> </td> 
-   <td colname="col2"> <p> 激活色板中主縮放級別和次縮放級別之間的浮出視圖或更改，選擇新縮略圖。 </p> </td> 
+   <td colname="col1"> <p>點選一次 </p> </td> 
+   <td colname="col2"> <p> 啟動彈出式檢視或在色票中主要和次要縮放等級之間變更，選取新的縮圖。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>水準輕掃或輕拂 </p> </td> 
-   <td colname="col2"> <p> 在色板欄中滾動色板清單。 </p> </td> 
+   <td colname="col1"> <p>水準撥動或輕觸 </p> </td> 
+   <td colname="col2"> <p> 在色票列中捲動色票清單。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>垂直滑動 </p> </td> 
-   <td colname="col2"> <p>如果手勢是在色板區域內完成的，則它將執行本機頁面滾動。 </p> </td> 
+   <td colname="col1"> <p>垂直撥動 </p> </td> 
+   <td colname="col2"> <p>如果筆勢是在色票區域內完成，就會執行原生頁面捲動。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-該查看器還支援Windows設備上的觸摸輸入和滑鼠輸入，包括觸摸屏和滑鼠。 但是，此支援僅限於Chrome、Internet Explorer 11和Edge Web瀏覽器。
+該檢視器也支援觸控式輸入和滑鼠輸入，適用於Windows裝置上的觸控式熒幕和滑鼠。 不過，這項支援僅限Chrome、Internet Explorer 11和Edge網頁瀏覽器。
 
-此查看器可完全以鍵盤方式訪問。
+此檢視器可使用完整的鍵盤。
 
-請參閱 [鍵盤輔助功能和導航](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861)。
+另請參閱 [鍵盤協助工具與導覽](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
 
-## 嵌入內聯縮放查看器 {#section-6bb5d3c502544ad18a58eafe12a13435}
+## 內嵌內嵌縮放檢視器 {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-不同的網頁對查看者行為有不同的需求。 有時，網頁提供可點擊的連結，在單獨的瀏覽器窗口中開啟查看器。 在其它情況下，可能需要將查看器直接嵌入到托管頁面中。 在後一種情況下，網頁可具有靜態頁面佈局，或使用在不同設備上顯示不同的響應設計，或對不同的瀏覽器窗口大小。 為滿足這些需要，查看器支援三種主要操作模式：彈出式、固定大小嵌入和響應性嵌入。
+不同的網頁對檢視器行為有不同的需求。 有時，網頁會提供可點按的連結，在個別瀏覽器視窗中開啟檢視器。 在其他情況下，您可能需要直接將檢視器內嵌在託管頁面中。 在後一種情況下，網頁可能會有靜態頁面佈局，或使用在不同裝置上或針對不同瀏覽器視窗大小顯示不同外觀的回應式設計。 為了滿足這些需求，檢視器支援三種主要操作模式：快顯視窗、固定大小內嵌和回應式內嵌。
 
-**彈出**
+**快顯視窗**
 
-在彈出模式下，在單獨的Web瀏覽器窗口或頁籤中開啟查看器。 它會佔用整個瀏覽器窗口區域，並在調整瀏覽器窗口大小或更改設備方向時進行調整。
+在彈出式模式中，檢視器會在個別的網頁瀏覽器視窗或標籤中開啟。 它會取用整個瀏覽器視窗區域，並在瀏覽器視窗調整大小或裝置方向變更時進行調整。
 
-此模式是移動設備中最常見的模式。 網頁使用 `window.open()` JavaScript調用，正確配置 `A` HTML元素，或任何其它合適的方法。
+此模式最常用於行動裝置。 網頁會使用載入檢視器 `window.open()` JavaScript呼叫，已正確設定 `A` HTML元素，或任何其他合適的方式。
 
-建議您使用現成HTML頁面來管理名為 `FlyoutViewer.html`。 位於 [!DNL html5/] 標準Image Serving-Viewers部署的子資料夾：
+建議您使用開箱即用的HTML頁面來開啟名為的快顯視窗模式 `FlyoutViewer.html`. 它位在 [!DNL html5/] 標準Image Serving-Viewers部署的子資料夾：
 
 `<s7viewers_root>/html5/FlyoutViewer.html`
 
-還必須將FlyoutZoomView元件配置為在串聯縮放模式下工作。 建議您使用現成的 `Scene7SharedAssets/Universal_HTML5_Zoom_Inline` 「內聯縮放」查看器的預設，或從中派生的自定義預設。 通過應用自定義CSS實現可視化定製。
+也必須將FlyoutZoomView元件設定為可在內嵌縮放模式中運作。 建議您使用現成可用的 `Scene7SharedAssets/Universal_HTML5_Zoom_Inline` 「內嵌縮放檢視器」的預設集，或衍生自該檢視器的自訂預設集。 視覺化自訂可透過套用自訂CSS來達成。
 
-下面是一個HTML代碼示例，它在新窗口中開啟查看器：
+以下是在新視窗中開啟檢視器的HTML程式碼範例：
 
 ```html {.line-numbers}
  <a href="http://s7d1.scene7.com/s7viewers/html5/FlyoutViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample&config=Scene7SharedAssets/Universal_HTML5_Zoom_Inline"target="_blank">Open popup viewer</a>
 ```
 
-**固定尺寸嵌入與響應嵌入**
+**固定大小內嵌和回應式內嵌**
 
-在嵌入式模式下，查看器被添加到現有網頁中，該網頁可能已經具有與查看器無關的一些客戶內容。 瀏覽器通常只佔網頁房地產的一部分。
+在內嵌模式中，檢視器會新增至現有網頁，而現有網頁可能已有某些與檢視器無關的客戶內容。 檢視器通常只佔用網頁的一部分空間。
 
-主要使用案例是面向台式機或平板電腦設備的網頁，以及響應性網頁，這些網頁根據設備類型自動調整佈局。
+主要使用案例是針對桌上型電腦或平板電腦裝置的網頁，以及可依裝置型別自動調整版面的回應式網頁。
 
-當查看器在初始載入後不更改其大小時，使用固定大小嵌入模式。 此選項最適合具有靜態頁面佈局的網頁。
+當檢視器在初始載入後未變更其大小時，會使用固定大小內嵌模式。 此選項最適合使用具有靜態頁面配置的網頁。
 
-響應性設計嵌入模式假定查看器必須在運行時調整大小以響應其容器的大小變化 `DIV`。 最常見的用例是向使用靈活頁面佈局的網頁添加查看器。
+回應式設計內嵌模式假設檢視器在執行階段必須調整大小來回應其容器的大小變更 `DIV`. 最常見的使用案例是將檢視器新增至使用彈性頁面配置的網頁。
 
-在內聯縮放查看器中使用響應設計嵌入模式時，請確保使用 `imagereload` 的下界。 理想情況下，按照網頁CSS的要求將斷點與查看器寬度斷點匹配。
+將回應式設計嵌入模式與內嵌縮放檢視器搭配使用時，請務必使用 `imagereload` 引數。 理想情況下，請將中斷點與網頁CSS指定的檢視器寬度中斷點比對。
 
-在響應性設計嵌入模式中，觀看者根據網頁容器的方式不同地工作 `DIV` 大小。 如果網頁僅設定容器的寬度 `DIV`在保持其高度不受限制的情況下，觀看者根據所使用資產的縱橫比自動選擇其高度。 此功能意味著該資產完全適合視圖，而不會在側面出現任何填充。 對於使用響應性設計佈局框架(如Bootstrap或基礎)的網頁，此特定用例最常見。
+在回應式設計內嵌模式中，檢視器的行為會依網頁容器的方式而有所不同 `DIV` 大小。 如果網頁僅設定容器的寬度 `DIV`，則檢視器會根據所使用資產的外觀比例，自動選擇其高度。 此功能表示資產完全符合檢視要求，且兩側沒有任何邊框間距。 此特定使用案例最常用於使用回應式設計版面架構(例如Bootstrap或Foundation)的網頁。
 
-否則，如果網頁為查看者的容器設定寬度和高度 `DIV`，則查看器將僅填充該區域並遵循網頁佈局提供的大小。 一個很好的使用案例示例是將查看器嵌入到模式覆蓋中，其中覆蓋根據Web瀏覽器窗口大小進行大小調整。
+否則，如果網頁同時設定檢視器容器的寬度和高度 `DIV`，則檢視器只會填滿該區域，並遵循網頁版面配置所提供的大小。 一個好的使用案例範例是將檢視器內嵌到強制回應覆蓋圖中，其中覆蓋圖會根據網頁瀏覽器視窗大小調整大小。
 
-**固定大小嵌入**
+**固定大小內嵌**
 
-通過執行以下操作，可將查看器添加到網頁：
+您可以執行下列動作，將檢視器新增至網頁：
 
-1. 將查看器JavaScript檔案添加到網頁。
-1. 定義容器 `DIV`。
-1. 設定查看器大小。
-1. 建立和初始化查看器。
+1. 將檢視器JavaScript檔案新增至網頁。
+1. 定義容器 `DIV`.
+1. 設定檢視器大小。
+1. 建立和初始化檢視器。
 
-1. 將查看器JavaScript檔案添加到網頁。
+1. 將檢視器JavaScript檔案新增至網頁。
 
-   建立查看器要求在HTML頭中添加指令碼標籤。 在使用查看器API之前，請確保包括 `FlyoutViewer.js`。 `FlyoutViewer.js` 在以下 [!DNL html5/js/] 標準IS查看器部署的子資料夾：
+   建立檢視器需要您在HTML標頭中新增指令碼標籤。 在使用檢視器API之前，請務必先包含 `FlyoutViewer.js`. `FlyoutViewer.js` 為下列專案 [!DNL html5/js/] 標準IS-Viewers部署的子資料夾：
 
 [!DNL <s7viewers_root>/html5/js/FlyoutViewer.js]
 
-如果查看器部署在AdobeDynamic Media伺服器之一上，並且從同一域提供服務，則可以使用相對路徑。 否則，您將指定一個AdobeDynamic Media伺服器（安裝了IS-Viewers）的完整路徑。
+如果檢視器部署在某個AdobeDynamic Media伺服器上，且從相同網域提供服務，則可以使用相對路徑。 否則，您需要指定已安裝IS-Viewers的其中一個AdobeDynamic Media伺服器的完整路徑。
 
 相對路徑如下所示：
 
@@ -135,34 +135,34 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->僅引用主查看器JavaScript `include` 檔案。 不要引用網頁代碼中任何可能在運行時由查看器邏輯下載的附加JavaScript檔案。 特別是，不直接引用HTML5 SDK `Utils.js` 由查看器從 `/s7viewers` 上下文路徑（所謂統一SDK） `include`)。 原因是 `Utils.js` 或類似的運行時查看器庫由查看器的邏輯和查看器版本之間的位置更改進行完全管理。 Adobe不保留舊版次查看器 `includes` 在伺服器上。
+>僅參照主要檢視器JavaScript `include` 檔案時。 請勿在網頁程式碼中參考任何其他JavaScript檔案（這些檔案可能由檢視器的邏輯在執行階段下載）。 尤其請勿直接參照HTML5 SDK `Utils.js` 檢視器從載入的程式庫 `/s7viewers` 內容路徑（所謂的整合SDK） `include`)。 原因在於 `Utils.js` 或類似的執行階段檢視器程式庫完全由檢視器的邏輯管理，且位置會在檢視器版本之間變更。 Adobe不會保留次要檢視器的舊版本 `includes` 在伺服器上。
 >
 >
->因此，直接引用任何輔助JavaScript `include` 該頁面上的查看器使用的瀏覽器功能將在部署新產品版本時中斷查看器功能。
+>因此，直接參照任何次要JavaScript `include` 當日後部署新產品版本時，頁面上檢視器使用的檢視器功能會中斷檢視器。
 
 1. 定義容器DIV。
 
-   將空的DIV元素添加到希望查看器顯示的頁面。 DIV元素必須定義其ID，因為此ID稍後會傳遞給查看器API。
+   新增空的DIV元素至您要檢視器出現的頁面。 DIV元素必須定義其ID，因為此ID稍後會傳遞至檢視器API。
 
-   佔位符DIV是定位元素，表示 `position` CSS屬性設定為 `relative` 或 `absolute`。
+   預留位置DIV是定位元素，這表示 `position` CSS屬性已設定為 `relative` 或 `absolute`.
 
-   指定適當的 `z-index` 。 這樣可確保查看器的彈出部分顯示在其它網頁元素的頂部。
+   網頁應負責指定適當的 `z-index` （預留位置DIV元素）。 這麼做可確保檢視器的彈出式部分出現在其他網頁元素上方。
 
-   以下是定義的佔位符DIV元素的示例：
+   以下是已定義預留位置DIV元素的範例：
 
    ```html {.line-numbers}
    <div id="s7viewer" style="position:relative;z-index:1"></div> 
    ```
 
-1. 設定查看器大小。
+1. 設定檢視器大小。
 
-   此查看器在處理多項集時顯示縮略圖。 在案頭系統上，縮略圖放在主視圖下方。 同時，觀看者允許在運行時使用主資產的交換 `setAsset()` API。 作為開發人員，當新資產只有一個項目時，您可以控制查看者如何管理底部區域的縮略圖區域。 可以保持外部查看器大小不變，並讓主視圖增加其高度並佔用縮略圖區域。 或者，您可以保持主視圖大小靜態並折疊外部查看器區域，讓網頁內容向上移動，然後使用縮略圖中剩餘的可用頁面空間。
+   使用多專案集時，此檢視器會顯示縮圖。 在桌上型電腦系統上，縮圖會放置在主要檢視的下方。 同時，檢視器允許在執行階段使用交換主要資產 `setAsset()` API。 若新資產只有一個專案，身為開發人員，您可以控制檢視器管理底部區域中縮圖區域的方式。 可以保持外部檢視器大小不變，並讓主檢視增加其高度並佔據縮圖區域。 或者，您可以讓主要檢視大小保持靜態，並摺疊外部檢視器區域，讓網頁內容向上移動，然後使用縮圖剩餘的自由頁面空間。
 
-   要保持外部查看器邊界不變，請定義 `.s7flyoutviewer` 以絕對單位表示的頂級CSS類。 CSS中的大小調整可以放在HTML頁或自定義查看器CSS檔案中，稍後分配給Dynamic Media Classic的查看器預設記錄，或使用style命令顯式傳遞。
+   若要保持外部檢視器界限不變，請定義 `.s7flyoutviewer` 以絕對單位表示的頂層CSS類別。 CSS大小調整可直接放在HTML頁面或自訂檢視器CSS檔案中，稍後再指派給Dynamic Media Classic中的檢視器預設集記錄，或使用style命令明確傳遞。
 
-   請參閱 [自定義內聯縮放查看器](../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/c-html5-inlinezoom-viewer-customizingviewer.md#concept-82f8c71adbe54680a0c2f83f81e5f451) 的子菜單。
+   另請參閱 [自訂內嵌縮放檢視器](../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/c-html5-inlinezoom-viewer-customizingviewer.md#concept-82f8c71adbe54680a0c2f83f81e5f451) 以取得有關使用CSS設定檢視器樣式的詳細資訊。
 
-   以下是在HTML頁中定義靜態外部查看器大小的示例：
+   以下是在HTML頁面中定義靜態外部檢視器大小的範例：
 
    ```html {.line-numbers}
    #s7viewer.s7flyoutviewer { 
@@ -171,13 +171,13 @@ ht-degree: 0%
    }
    ```
 
-   您可以在以下示例頁面上看到具有固定外部查看器區域的行為。 請注意，在集之間切換時，外部查看器大小不會改變：
+   您可以在下列範例頁面上看到具有固定外部檢視器區域的行為。 請注意，當您在組之間切換時，外部檢視器大小不會變更：
 
    [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/inlinezoom/InlineZoom-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/inlinezoom/InlineZoom-fixed-outer-area.html)
 
-   要使主視圖尺寸保持靜態，請為內部定義以絕對單位表示的查看器尺寸 `Container` SDK元件使用 `.s7flyoutviewer .s7container` CSS選擇器。 此外，您應覆蓋為 `.s7flyoutviewer` 將預設查看器CSS中的頂級CSS類設定為 `auto`。
+   若要使主檢視尺寸為靜態，請以絕對單位定義內部檢視器的尺寸 `Container` 使用的SDK元件 `.s7flyoutviewer .s7container` CSS選取器。 此外，您應覆寫為定義的固定大小 `.s7flyoutviewer` 預設檢視器CSS中的頂層CSS類別，方法是將其設定為 `auto`.
 
-   以下是定義內部查看器大小的示例 `Container` SDK元件，以便在切換資產時主視圖區域不更改其大小：
+   以下範例是定義內部檢視器大小的範例 `Container` SDK元件，讓主要檢視區域在切換資產時不會變更其大小：
 
    ```html {.line-numbers}
    #s7viewer.s7flyoutviewer { 
@@ -190,21 +190,21 @@ ht-degree: 0%
    }
    ```
 
-   以下示例頁顯示具有固定主視圖大小的查看器行為。 請注意，在集之間切換時，主視圖保持靜態，網頁內容垂直移動：
+   以下範例頁面顯示具有固定主檢視大小的檢視器行為。 請注意，當您在組之間切換時，主要檢視會保持靜態，而網頁內容會垂直移動：
 
    [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/inlinezoom/InlineZoom-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/inlinezoom/InlineZoom-fixed-main-view.html)
 
-   此外，預設查看器CSS為其外部區域提供固定大小。
+   此外，預設的檢視器CSS為其外部區域提供現成可用的固定大小。
 
-1. 建立和初始化查看器。
+1. 建立和初始化檢視器。
 
-   完成上述步驟後，將建立 `s7viewers.FlyoutViewer` 類，將所有配置資訊傳遞給其建構子和調用 `init()` 的子常式。 配置資訊作為JSON對象傳遞給建構子。 至少，此對象應具有 `containerId` 包含查看器容器ID和嵌套名稱的欄位 `params` JSON對象及其查看器支援的配置參數。 在這個例子中， `params` 對象必須至少將Image Serving URL傳遞為 `serverUrl` 財產；初始資產 `asset` 參數，將CSS載入為 `contentUrl` 參數和預設名稱 `config` 的下界。 基於JSON的初始化API允許您使用單行代碼建立和啟動查看器。
+   完成上述步驟後，您會建立 `s7viewers.FlyoutViewer` 類別，將所有設定資訊傳遞至其建構函式，並呼叫 `init()` 檢視器例項的方法。 設定資訊會以JSON物件的形式傳遞至建構函式。 此物件至少應具有 `containerId` 包含檢視器容器ID名稱且以巢狀顯示的欄位 `params` 包含檢視器支援之設定引數的JSON物件。 在此案例中， `params` 物件至少必須將影像伺服URL傳遞為 `serverUrl` 屬性；初始資產為 `asset` 引數，載入CSS的基本路徑為 `contentUrl` 引數，以及預設集名稱 `config` 引數。 JSON型初始化API可讓您使用單行程式碼建立及啟動檢視器。
 
-   必須將查看器容器添加到DOM中，以便查看器代碼可以通過其ID查找容器元素。 某些瀏覽器將生成DOM延遲到網頁結束。 要獲得最大相容性，請調用 `init()` 方法 `BODY` 標籤，或者身上 `onload()` 的子菜單。
+   請務必將檢視器容器新增至DOM，讓檢視器程式碼可依其ID找到容器元素。 有些瀏覽器會延遲建立DOM，直到網頁結尾。 如需最大相容性，請呼叫 `init()` 方法（在結尾之前） `BODY` 標籤或內文 `onload()` 事件。
 
-   同時，容器元素還不一定是網頁佈局的一部分。 例如，它可能隱藏在 `display:none` 指定的樣式。 在這種情況下，查看器將其初始化過程延遲到網頁將容器元素帶回佈局的那一刻。 當此操作發生時，查看器載入將自動恢復。
+   同時，容器元素不一定會成為網頁版面的一部分。 例如，它可能會使用以下專案隱藏： `display:none` 樣式已指派給它。 在此情況下，檢視器會延遲其初始化程式，直到網頁將容器元素帶回版面配置為止。 當此動作發生時，檢視器載入會自動繼續。
 
-   以下是建立查看器實例的示例，將最小必要配置選項傳遞給建構子，並調用 `init()` 的雙曲餘切值。 該示例假定 `inlineZoomViewer` 是查看器實例； `s7viewer` 是佔位符的名稱 `DIV`; `http://s7d1.scene7.com/is/image/` 是影像服務URL;和 `Scene7SharedAssets/ImageSet-Views-Sample` 是資產：
+   以下範例說明如何建立檢視器例項、將最低必要的設定選項傳遞至建構函式，並呼叫 `init()` 方法。 範例假設 `inlineZoomViewer` 是檢視器例項； `s7viewer` 是預留位置的名稱 `DIV`； `http://s7d1.scene7.com/is/image/` 是「影像伺服」URL；以及 `Scene7SharedAssets/ImageSet-Views-Sample` 為資產：
 
    ```html {.line-numbers}
    <script type="text/javascript"> 
@@ -220,7 +220,7 @@ ht-degree: 0%
    </script>
    ```
 
-   以下代碼是嵌入具有固定大小的內聯縮放查看器的普通網頁的完整示例：
+   下列程式碼是嵌入固定大小內嵌縮放檢視器的簡單網頁的完整範例：
 
    ```html {.line-numbers}
    <!DOCTYPE html> 
@@ -250,9 +250,9 @@ ht-degree: 0%
    </html>
    ```
 
-## 具有無限制高度的響應設計嵌入 {#section-056cb574713c4d07be6d07cf3c598839}
+## 高度不受限制的回應式設計內嵌 {#section-056cb574713c4d07be6d07cf3c598839}
 
-通過響應性設計嵌入，網頁通常具有某種靈活的佈局，其指示查看者容器的運行時大小 `DIV`。 對於以下示例，假定該網頁允許查看者的容器 `DIV` 以取Web瀏覽器窗口大小的40%，使其高度不受限制。 網頁HTML代碼如下所示：
+透過回應式設計內嵌，網頁通常會有某種彈性的版面配置，可指定檢視器容器的執行階段大小 `DIV`. 對於以下範例，假設網頁允許檢視器的容器 `DIV` 以取得網頁瀏覽器視窗大小的40%，其高度不受限制。 網頁HTML程式碼如下所示：
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -270,18 +270,18 @@ ht-degree: 0%
 </html>
 ```
 
-將查看器添加到此頁麵類似於固定大小嵌入的步驟。 唯一的區別是，必須覆蓋預設查看器CSS的固定大小，其大小以相對單位設定。
+將檢視器新增至這類頁面，類似於固定大小內嵌的步驟。 唯一的區別是，您必須以相對單位設定的大小覆寫預設檢視器CSS的固定大小。
 
-1. 將查看器JavaScript檔案添加到網頁。
-1. 定義容器 `DIV`。
-1. 設定查看器大小。
-1. 建立和初始化查看器。
+1. 將檢視器JavaScript檔案新增至網頁。
+1. 定義容器 `DIV`.
+1. 設定檢視器大小。
+1. 建立和初始化檢視器。
 
-以上所有步驟與固定大小嵌入步驟相同，但有以下三個例外：
+上述所有步驟與固定大小內嵌的步驟相同，但有以下三個例外：
 
-* 添加容器 `DIV` 持有人」 `DIV`;
-* 添加 `imagereload` 具有顯式斷點的參數；
-* 而不是使用絕對單位設定固定查看器大小，使用設定查看器的CSS `width` 和 `height` 至100%，如下所示：
+* 新增容器 `DIV` 至現有的「持有者」 `DIV`；
+* 已新增 `imagereload` 具有明確中斷點的引數；
+* 設定檢視器的CSS會設定檢視器，而非使用絕對單位來設定固定的檢視器大小 `width` 和 `height` 100%，如下所示：
 
 ```html {.line-numbers}
 #s7viewer.s7flyoutviewer { 
@@ -290,7 +290,7 @@ ht-degree: 0%
 }
 ```
 
-以下代碼是一個完整的示例。 注意在調整瀏覽器大小時查看器大小如何變化，以及查看器縱橫比如何與資產匹配。
+下列程式碼為完整範例。 請注意瀏覽器調整大小時檢視器大小的變化，以及檢視器外觀比例與資產相符的方式。
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -327,15 +327,15 @@ var inlineZoomViewer = new s7viewers.FlyoutViewer({
 </html>
 ```
 
-以下示例頁說明了具有無限制高度的響應設計嵌入在現實生活中的更多用途：
+以下範例頁面說明高度不受限制的回應式設計內嵌在實際應用中的更多情況：
 
-[即時演示](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
+[即時示範](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[備用演示位置](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
+[替代示範位置](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
-## 定義寬度和高度的柔性尺寸嵌入 {#section-0a329016f9414d199039776645c693de}
+## 定義寬度和高度的彈性大小內嵌 {#section-0a329016f9414d199039776645c693de}
 
-如果定義了寬度和高度的靈活大小嵌入，則網頁樣式會有所不同。 它為 `"holder"` DIV並將其居中到瀏覽器窗口中。 此外，網頁還設定 `HTML` 和 `BODY` 元素到100%。
+如果有定義寬度和高度的彈性大小內嵌，則網頁樣式會不同。 它提供兩種大小給 `"holder"` 在瀏覽器視窗中進行DIV和置中。 此外，網頁會設定 `HTML` 和 `BODY` 元素至100%。
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -361,7 +361,7 @@ height: 60%;
 </html>
 ```
 
-其餘嵌入步驟與用於具有無限制高度的響應設計嵌入的步驟相同。 結果示例如下：
+其餘嵌入步驟與用於高度不受限制的回應式設計嵌入的步驟相同。 產生的範例如下：
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -406,11 +406,11 @@ var inlineZoomViewer = new s7viewers.FlyoutViewer({
 </html>
 ```
 
-## 使用基於Setter的API嵌入 {#section-af26f0cc2e5140e8a9bfd0c6a841a6d1}
+## 使用Setter型API內嵌 {#section-af26f0cc2e5140e8a9bfd0c6a841a6d1}
 
-可以不使用基於JSON的初始化，而是使用基於setter的API和no-args建構子。 使用此API建構子不採用任何參數，配置參數是使用 `setContainerId()`。 `setParam()`, `setAsset()` API方法，具有單獨的JavaScript調用。
+您可以使用setter型API和no-args建構函式，而不使用JSON型初始化。 使用此API建構函式不接受任何引數，而且設定引數是透過以下方式指定的： `setContainerId()`， `setParam()`、和 `setAsset()` API方法，具有個別的JavaScript呼叫。
 
-以下示例說明了將固定大小嵌入與基於setter的API一起使用：
+以下範例說明如何將固定大小內嵌與setter型API搭配使用：
 
 ```html {.line-numbers}
 <!DOCTYPE html> 

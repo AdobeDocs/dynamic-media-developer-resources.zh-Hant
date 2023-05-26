@@ -1,7 +1,7 @@
 ---
 description: XML檔案資產的屬性。
 solution: Experience Manager
-title: Xml資訊
+title: XmlInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1cf9bea9-6279-4b2a-a0cc-81cc71fb601d
@@ -24,4 +24,4 @@ XML檔案資產的屬性。
 |---|---|---|
 | 原始路徑 | `xsd:string` | 檔案路徑。 |
 | 原始檔案 | `xsd:string` | 檔案名稱. |
-| 檔案大小 | `xsd:int` | 檔案大小。 |
+| fileSize | `xsd:int` | 檔案大小。 |

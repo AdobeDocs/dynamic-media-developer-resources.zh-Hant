@@ -1,5 +1,5 @@
 ---
-description: 宏名稱。 宏名稱可能由字母、數字和安全字元的任意組合組成，不包括$。
+description: 巨集名稱。 巨集名稱可包含任何字母、數字和安全字元的組合，不包括$。
 solution: Experience Manager
 title: 名稱
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 10%
 
 # 名稱{#name}
 
-宏名稱。 宏名稱可能由字母、數字和安全字元的任意組合組成，不包括$。
+巨集名稱。 巨集名稱可包含任何字母、數字和安全字元的組合，不包括$。
 
 ## 屬性 {#section-03641453b5b84a27a8eb0c0688f7b8fc}
 
-文本字串。 必要. 每個宏：:Name值在表中必須唯一。
+文字字串。 必要. 每個巨集：：Name值在表格中必須是唯一的。
 
 ## 預設 {#section-1e42bd928f3a4b91b79b481ccbd284b8}
 

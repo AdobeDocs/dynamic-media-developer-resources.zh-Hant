@@ -14,29 +14,29 @@ ht-degree: 2%
 
 # FlyoutZoomView.flyouttransition{#flyoutzoomview-flyouttransition}
 
-` [FlyoutZoomView.|<containerId>_flyout.]flyouttransition=[none|slide|fade][, *`顯示時間`*[, *`延遲`*[, *`隱蔽時間`*[, *`隱藏`*]]]]`
+` [FlyoutZoomView.|<containerId>_flyout.]flyouttransition=[none|slide|fade][, *`showtime`*[, *`showdelay`*[, *`hidetime`*[, *`hidedelay`*]]]]`
 
 <table id="table_AB421835D2454ECD8AA40DBFADBAC65F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 無|幻燈片|淡入 </span> </span> </p> </td> 
-   <td colname="col2"> <p> 指定顯示或隱藏浮出視圖時應用的效果的類型。 與 <span class="codeph"> 無 </span>激活後立即出現； <span class="codeph"> 滑 </span> 使幻燈片動畫從左向右播放； <span class="codeph"> 淡 </span> 將Alpha過渡應用於浮出影像。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> none|slide|fade </span> </span> </p> </td> 
+   <td colname="col2"> <p> 指定顯示或隱藏彈出式檢視時套用的效果型別。 替換為 <span class="codeph"> 無 </span>，彈出式影像在啟動並準備就緒時立即顯示； <span class="codeph"> 幻燈片 </span> 讓幻燈片動畫以由左至右的方向播放； <span class="codeph"> 淡化 </span> 將Alpha轉變套用至彈出式影像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 顯示時間 </span> </span> </p> </td> 
-   <td colname="col2"> <p> 演示動畫完成的秒數。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> showtime </span> </span> </p> </td> 
+   <td colname="col2"> <p> 完成顯示動畫所需的秒數。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 延遲 </span> </span> </p> </td> 
-   <td colname="col2"> <p> 啟動顯示動畫的用戶操作與顯示動畫本身的開始之間的延遲（秒）。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> showdelay </span> </span> </p> </td> 
+   <td colname="col2"> <p> 使用者起始顯示動畫的動作與顯示動畫本身開始之間的延遲秒數。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 隱蔽時間 </span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> hidetime </span> </span> </p> </td> 
    <td colname="col2"> <p> 隱藏動畫完成所需的秒數。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 隱藏 </span> </span> </p> </td> 
-   <td colname="col2"> <p> 啟動隱藏動畫的用戶操作與隱藏動畫本身的開始之間的延遲（秒）。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> hidedelay </span> </span> </p> </td> 
+   <td colname="col2"> <p> 使用者起始隱藏動畫的動作與隱藏動畫本身開始之間的延遲秒數。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

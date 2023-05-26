@@ -1,7 +1,7 @@
 ---
-description: Zoom目標的陣列。
+description: 縮放目標的陣列。
 solution: Experience Manager
-title: 縮放目標陣列
+title: ZoomTargetArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: eb397fdc-39e3-4fa2-8891-4c692cbaa9a3
@@ -14,7 +14,7 @@ ht-degree: 28%
 
 # [!DNL ZoomTargetArray]{#zoomtargetarray}
 
-Zoom目標的陣列。
+縮放目標的陣列。
 
 語法
 

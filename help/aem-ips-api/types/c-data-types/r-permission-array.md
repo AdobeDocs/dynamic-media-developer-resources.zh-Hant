@@ -1,7 +1,7 @@
 ---
-description: 權限的陣列。
+description: 一系列許可權。
 solution: Experience Manager
-title: 權限陣列
+title: Permissionarray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 2d96a0ac-038a-4813-97b2-bdf3f3f0c6e2
@@ -14,7 +14,7 @@ ht-degree: 33%
 
 # [!DNL PermissionArray]{#permissionarray}
 
-權限的陣列。
+一系列許可權。
 
 語法
 
@@ -22,4 +22,4 @@ ht-degree: 33%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 項目 | `types:Permission` | 權限陣列。 |
+| 項目 | `types:Permission` | 許可權陣列。 |

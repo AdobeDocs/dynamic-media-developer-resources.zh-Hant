@@ -1,7 +1,7 @@
 ---
-description: 對縮略圖（即，如果req=tmb），如下修改影像層轉換的步驟2。
+description: 針對縮圖（亦即，如果req=tmb），影像圖層轉換的步驟2會修改如下。
 solution: Experience Manager
-title: 縮略圖縮放
+title: 縮圖縮放
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 08290258-4fc8-4a6a-ba8f-6bdcd969fa3c
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# 縮略圖縮放{#thumbnail-scaling}
+# 縮圖縮放{#thumbnail-scaling}
 
-對縮略圖（即，如果req=tmb），如下修改影像層轉換的步驟2。
+針對縮圖（亦即，如果req=tmb），影像圖層轉換的步驟2會修改如下。
 
-* `2.` 如果 `size=` 指定，將（裁剪的）影像調整到 `size=` 使用縮略圖規則直接。 如果 `size=` 未指定，基於 `res=`，或 `res=` 未指定，請使用下面概述的縮略圖規則將（裁剪的）影像調整到畫布中。
+* `2.` 若 `size=` 已指定，將（裁切）影像調整到 `size=` 使用縮圖規則重新計算。 若 `size=` 未指定，縮放依據 `res=`，或，如果 `res=` 未指定，請使用下面概述的縮圖規則將（裁切）影像調整到畫布矩形中。

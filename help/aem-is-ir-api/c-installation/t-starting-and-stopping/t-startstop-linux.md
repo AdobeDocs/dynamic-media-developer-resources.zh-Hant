@@ -1,6 +1,6 @@
 ---
 title: 在Linux®上啟動或停止
-description: 在Linux®上啟動或停止映像服務有兩個選項。
+description: 在Linux®上啟動或停止「影像伺服」有兩個選項。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # 在Linux®上啟動或停止 {#starting-or-stopping-on-linux}
 
-在Linux®上啟動或停止映像服務有兩個選項。
+在Linux®上啟動或停止「影像伺服」有兩個選項。
 
-* 在中找到用於驗證映像服務狀態或啟動和停止映像服務的指令碼 [!DNL ImageServing/bin] 資料夾：
+* 可驗證「影像伺服」狀態，或啟動和停止「影像伺服」的指令碼位於 [!DNL ImageServing/bin] 資料夾：
 
    `ImageServing.sh {start|stop|restart|status}`
-* 系統管理員應熟悉以下備選方案：
+* 系統管理員應該熟悉下列替代方法：
 
    `/sbin/service ImageServing {start|stop|status}`

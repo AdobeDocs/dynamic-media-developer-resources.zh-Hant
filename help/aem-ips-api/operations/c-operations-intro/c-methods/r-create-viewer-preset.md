@@ -1,5 +1,5 @@
 ---
-description: 建立一個預設視圖，確定用戶可以看到的內容。 查看器可以是IPS中可用的任何類型。 發佈資產時應用預設視圖。
+description: 建立預設集檢視，決定使用者可以看到的內容。 檢視器可以是IPS中任何可用的型別。 資產發佈時會套用預設集檢視。
 solution: Experience Manager
 title: createViewerPreset
 feature: Dynamic Media Classic,SDK/API,Viewer Presets
@@ -14,11 +14,11 @@ ht-degree: 13%
 
 # createViewerPreset{#createviewerpreset}
 
-建立一個預設視圖，確定用戶可以看到的內容。 查看器可以是IPS中可用的任何類型。 發佈資產時應用預設視圖。
+建立預設集檢視，決定使用者可以看到的內容。 檢視器可以是IPS中任何可用的型別。 資產發佈時會套用預設集檢視。
 
 語法
 
-## 授權用戶類型 {#section-0b8b1322ebea4a7ea24d516e080b7367}
+## 授權的使用者型別 {#section-0b8b1322ebea4a7ea24d516e080b7367}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,21 +31,21 @@ ht-degree: 13%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 公司句柄 | `xsd:string` | 是 | 包含查看器預設和資產的公司句柄。 |
-| folderHandle | `xsd:string` | 是 | 包含資產的資料夾的句柄。 |
-| name | `xsd:string` | 是 | 查看器名稱。 |
+| companyHandle | `xsd:string` | 是 | 包含檢視器預設集和資產的公司的控制代碼。 |
+| folderHandle | `xsd:string` | 是 | 包含資產的資料夾的控制代碼。 |
+| name | `xsd:string` | 是 | 檢視器名稱。 |
 | type | `xsd:string` | 是 | 檢視器類型. |
-| configSettingArray | `types:ConfigSettingArray` | 否 | 包含要應用預設的影像的名稱、值和句柄的陣列。 |
+| configSettingArray | `types:ConfigSettingArray` | 否 | 一個陣列，內含您套用預設集的影像名稱、值和控點。 |
 
 **輸出(createViewerPresetReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 查看器PresetHandle | `xsd:string` | 是 | 將預設的句柄提供給查看器。 |
+| viewerPresetHandle | `xsd:string` | 是 | 檢視器預設集的操作框。 |
 
 ## 範例 {#section-c88ea63536f3461cbe4677ba53f875dd}
 
-此代碼示例建立視頻播放器預設。 響應將句柄返回到預設。
+此程式碼範例會建立視訊播放器預設集。 回應會傳回預設集的控點。
 
 ```java
 <createViewerPresetParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

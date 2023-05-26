@@ -1,7 +1,7 @@
 ---
-description: 佩爾米松集
+description: 許可權集
 solution: Experience Manager
-title: 佩爾米松集
+title: 許可權集
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 39146b70-ecd8-42ce-a171-0fb7ac7dd025
@@ -20,5 +20,5 @@ ht-degree: 27%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 權限集句柄 | `xsd:string` | 權限集的句柄。 |
-| 權限陣列 | `types:PermissionArray` | 權限的陣列。 |
+| PermissionSetHandle | `xsd:string` | 處理許可權集。 |
+| permissionArray | `types:PermissionArray` | 一系列許可權。 |

@@ -1,7 +1,7 @@
 ---
 description: 刪除資料夾。
 solution: Experience Manager
-title: 刪除資料夾
+title: deleteFolder
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c042b87b-3f60-4608-8ed5-0fc031a66c03
@@ -12,13 +12,13 @@ ht-degree: 11%
 
 ---
 
-# 刪除資料夾{#deletefolder}
+# deleteFolder{#deletefolder}
 
 刪除資料夾。
 
 語法
 
-## 授權用戶類型 {#section-1c15a74c41194744a81f5ca86fe26585}
+## 授權的使用者型別 {#section-1c15a74c41194744a81f5ca86fe26585}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,7 +29,7 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->用戶必須具有對資料夾及其所有子資料夾的讀取和刪除權限。
+>使用者必須擁有資料夾及其所有子項的讀取和刪除存取權。
 
 ## 參數 {#section-a793c98a481a4f26ab50bc69b16b57e7}
 
@@ -37,16 +37,16 @@ ht-degree: 11%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 公司句柄 | `xsd:string` | 是 | 資料夾所屬公司的句柄。 |
-| folderHandle | `xsd:string` | 是 | 要刪除的資料夾的句柄。 |
+| companyHandle | `xsd:string` | 是 | 資料夾所屬公司的控制代碼。 |
+| folderHandle | `xsd:string` | 是 | 要刪除的資料夾的控制代碼。 |
 
 **輸出(deleteFolderParam)**
 
-IPS API不會為此操作返迴響應。
+IPS API未傳回此作業的回應。
 
 ## 範例 {#section-9d4617b322e8442d80e59be0f8714841}
 
-此示例代碼從公司根目錄中刪除一個資料夾。 它需要一個資料夾句柄，您必須從其他操作中獲取該句柄。
+此程式碼範例會從公司的根目錄中刪除資料夾。 它需要資料夾控制代碼，您必須從其他作業取得此控制代碼。
 
 **請求**
 

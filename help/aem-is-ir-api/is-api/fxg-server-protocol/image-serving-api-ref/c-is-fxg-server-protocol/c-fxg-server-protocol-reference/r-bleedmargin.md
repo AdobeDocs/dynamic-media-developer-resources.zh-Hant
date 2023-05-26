@@ -1,7 +1,7 @@
 ---
-description: 設定出血邊距。 設定在PDF檔案中設定的出血邊距。
+description: 設定出血邊界。 設定PDF檔案中設定的出血邊界。
 solution: Experience Manager
-title: 差距
+title: 出血邊界
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: badb8ca5-52ba-4b44-b53f-fb302626adc4
@@ -12,10 +12,10 @@ ht-degree: 0%
 
 ---
 
-# 差距{#bleedmargin}
+# 出血邊界{#bleedmargin}
 
-設定出血邊距。 設定在PDF檔案中設定的出血邊距。
+設定出血邊界。 設定PDF檔案中設定的出血邊界。
 
-`bleedMargin=[ *[!DNL top]*[, *[!DNL left]*= *[!DNL top]*[, *[!DNL bottom]*= *[!DNL top]*[, *[!DNL right]*= *[!DNL left]*]]]]` 點
+`bleedMargin=[ *[!DNL top]*[, *[!DNL left]*= *[!DNL top]*[, *[!DNL bottom]*= *[!DNL top]*[, *[!DNL right]*= *[!DNL left]*]]]]` 點數
 
-預設情況下， `bleedMargin` 設定為由定義的文檔的全部大小 `viewWidth` 和 `viewHeight`。 的 *[!DNL left]*。 *[!DNL bottom]*, *[!DNL right]* 值預設為 *[!DNL top]* 值。
+根據預設 `bleedMargin` 設為所定義檔案的完整大小 `viewWidth` 和 `viewHeight`. 此 *[!DNL left]*， *[!DNL bottom]*、和 *[!DNL right]* 值會預設為 *[!DNL top]* 值（若未指定）。

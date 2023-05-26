@@ -1,5 +1,5 @@
 ---
-description: AssetSet類型資產的屬性。
+description: 資產集型別資產的屬性。
 solution: Experience Manager
 title: 資產集資訊
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,7 +14,7 @@ ht-degree: 13%
 
 # [!DNL AssetSetInfo]{#assetsetinfo}
 
-AssetSet類型資產的屬性。
+資產集型別資產的屬性。
 
 語法
 
@@ -22,4 +22,4 @@ AssetSet類型資產的屬性。
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| setDefinition | `xsd:string` | 根據目標IS查看器的要求格式化的資產集定義。 可以包含可選的IPS替代參數。 |
+| setDefinition | `xsd:string` | 根據目標IS檢視器的要求格式化資產集定義。 可以包含選用的IPS替代引數。 |

@@ -1,5 +1,5 @@
 ---
-description: 如果req=img，則合成畫布的大小完全由層0的大小確定。
+description: 如果req=img，合成畫布的大小完全由圖層0的大小決定。
 solution: Experience Manager
 title: 合成畫布
 feature: Dynamic Media Classic,SDK/API
@@ -14,8 +14,8 @@ ht-degree: 0%
 
 # 合成畫布{#the-compositing-canvas}
 
-如果req=img，則合成畫布的大小完全由層0的大小確定。
+如果req=img，合成畫布的大小完全由圖層0的大小決定。
 
-如果 `size=` 對於未顯式指定層0，層轉換用於計算合成畫布的大小（請參閱下面）。
+如果 `size=` 若未明確指定圖層0，則會使用圖層轉換來計算合成畫布的大小（請參閱下文）。
 
-如果 `req=tmb`，合成畫布的大小由 `size=` 為層0指定，或者，如果未指定大小，則組合畫布大小將設定為view rect（請參閱下文）。
+若 `req=tmb`，合成畫布的大小由決定 `size=` 指定圖層0，如果未指定大小，則複合畫布大小會設定為檢視矩形（請參閱下文）。

@@ -1,7 +1,7 @@
 ---
-description: 虛擬資產的屬性。
+description: 暈映資產的屬性。
 solution: Experience Manager
-title: 維涅特資訊
+title: 暈映資訊
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f9142082-5f49-4133-aab4-c07a14f8a16b
@@ -14,7 +14,7 @@ ht-degree: 16%
 
 # [!DNL VignetteInfo]{#vignetteinfo}
 
-虛擬資產的屬性。
+暈映資產的屬性。
 
 語法
 
@@ -24,8 +24,8 @@ ht-degree: 16%
 |---|---|---|
 | 原始路徑 | `xsd:string` | 檔案的路徑。 |
 | 原始檔案 | `xsd:string` | 檔案名稱. |
-| 檔案大小 | `xsd:int` | 檔案大小。 |
+| fileSize | `xsd:int` | 檔案大小。 |
 | imagePath | `xsd:string` | 影像的路徑。 |
 | imageFile | `xsd:string` |  |
-| 優化路徑 | `xsd:string` | 檔案的優化路徑。 |
-| 優化檔案 | `xsd:string` | 優化的檔案名。 |
+| optimizedPath | `xsd:string` | 最佳化的檔案路徑。 |
+| optimizedFile | `xsd:string` | 最佳化的檔案名稱。 |

@@ -1,5 +1,5 @@
 ---
-description: 標籤資料類型。
+description: 標幟資料型別。
 solution: Experience Manager
 title: 標幟
 feature: Dynamic Media Classic,SDK/API
@@ -14,6 +14,6 @@ ht-degree: 11%
 
 # 標幟{#flag}
 
-標籤資料類型。
+標幟資料型別。
 
-0=false,1=true。 任何其他值表示未知或未指定。
+0=false，1=true。 任何其他值表示未知或未指定。

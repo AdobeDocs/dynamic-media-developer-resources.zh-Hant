@@ -1,5 +1,5 @@
 ---
-description: 返回Zip檔案資料。
+description: 傳回Zip檔案資料。
 solution: Experience Manager
 title: getZipEntries
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 22%
 
 # getZipEntries{#getzipentries}
 
-返回Zip檔案資料。
+傳回Zip檔案資料。
 
 語法
 
-## 授權用戶類型 {#section-33a3f03ba8a14086922397619ce12ab8}
+## 授權的使用者型別 {#section-33a3f03ba8a14086922397619ce12ab8}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -36,18 +36,18 @@ ht-degree: 22%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 公司句柄 | `xsd:string` | 是 | 包含Zip檔案的公司的句柄。 |
-| 資產句柄 | `xsd:string` | 是 | Zip檔案的句柄。 |
+| companyHandle | `xsd:string` | 是 | 包含Zip檔案之公司的控制代碼。 |
+| assetHandle | `xsd:string` | 是 | Zip檔案的處理常式。 |
 
 **輸出(getZipEntriesReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| zip陣列 | `types:ZipEntryArray` | 是 | Zip檔案中的條目陣列。 |
+| zipArray | `types:ZipEntryArray` | 是 | Zip檔案中的專案陣列。 |
 
 ## 範例 {#section-1fc0ad8fa448492cb5a135d3e3d161ac}
 
-此代碼示例返回Zip檔案資訊，包括壓縮和未壓縮大小。
+此程式碼範例會傳回Zip檔案資訊，包括壓縮和未壓縮大小。
 
 **請求**
 

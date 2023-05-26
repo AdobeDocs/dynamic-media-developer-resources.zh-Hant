@@ -1,7 +1,7 @@
 ---
-description: 設定各種特定於公司的配置值。
+description: 設定各種公司專屬的設定值。
 solution: Experience Manager
-title: setCompanySettings
+title: setcompanysettings
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c6b72ceb-3c86-4b13-89e9-5f1bb9846b2c
@@ -12,13 +12,13 @@ ht-degree: 12%
 
 ---
 
-# setCompanySettings{#setcompanysettings}
+# setcompanysettings{#setcompanysettings}
 
-設定各種特定於公司的配置值。
+設定各種公司專屬的設定值。
 
 語法
 
-## 授權用戶類型 {#section-41732fa7424b455cb458eec21a02259c}
+## 授權的使用者型別 {#section-41732fa7424b455cb458eec21a02259c}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,23 +31,23 @@ ht-degree: 12%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 公司句柄 | `xsd:string` | 是 | 公司負責。 |
-| 覆蓋模式 | `xsd:string` | 否 | 資產覆蓋模式。 |
-| 保留發佈狀態 | `xsd:boolean` | 否 | 設定為 `true` 以在重新上載資產時保留發佈狀態。 |
-| defaultSourceProfileHandle | `xsd:string` | 否 | IccProfile資產用作預設源顏色配置檔案。 |
-| defaultDisplayProfileHandle | `xsd:string` | 否 | IccProfile資產用作預設顯示顏色配置檔案。 |
-| iptcExifMappingXsltHandle | `xsd:string` | 否 | 用於將IPTC和EXIF元資料映射到IPS元資料欄位的XSL資產。 |
-| xmpMappingXsltHandle | `xsd:string` | 否 | 用於將元資料映射XMP到IPS元資料欄位的XSL資產。 |
-| diskSpaceWarningMin | `xsd:int` | 否 | 在發送警告消息之前可用的最小可用磁碟空間(KB)。 |
-| emailTrashCleanupWarning | `xsd:boolean` | 否 | 設定為 `true` 在資產從垃圾箱清空時向公司管理員發送通知。 |
+| companyHandle | `xsd:string` | 是 | 公司控點。 |
+| overwriteMode | `xsd:string` | 否 | 資產覆寫模式。 |
+| retainPublishState | `xsd:boolean` | 否 | 設定為 `true` 重新上傳資產時保留發佈狀態。 |
+| defaultSourceProfileHandle | `xsd:string` | 否 | IccProfile資產，以做為預設來源色彩設定檔。 |
+| defaultDisplayProfileHandle | `xsd:string` | 否 | IccProfile資產，以做為預設的顯示色彩設定檔。 |
+| iptcExifMappingXsltHandle | `xsd:string` | 否 | 用於將IPTC和EXIF中繼資料對應到IPS中繼資料欄位的XSL資產。 |
+| Xmappingxslthandle | `xsd:string` | 否 | 用於將XMP中繼資料對應至IPS中繼資料欄位的XSL資產。 |
+| diskSpaceWarningMin | `xsd:int` | 否 | 傳送警告訊息之前可用的最小可用磁碟空間(KB)。 |
+| emailTrashCleanupWarning | `xsd:boolean` | 否 | 設定為 `true` 若要在資產從垃圾桶清空時傳送通知給公司管理員。 |
 
 **輸出(setCompanySettingsReturn)**
 
-IPS API不會為此操作返迴響應。
+IPS API未傳回此作業的回應。
 
 ## 範例 {#section-d10bf1d3d86f46f7bcf78dc1a2c363c5}
 
-此代碼示例設定公司的配置。
+此程式碼範例會設定公司的設定。
 
 **請求**
 

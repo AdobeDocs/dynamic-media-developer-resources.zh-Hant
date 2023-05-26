@@ -1,6 +1,6 @@
 ---
-title: 資產移動陣列
-description: 資產移動的陣列。
+title: AssetMoveArray
+description: 資產移動陣列。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 31%
 
 # [!DNL AssetMoveArray]{#assetmovearray}
 
-資產移動的陣列。
+資產移動陣列。
 
 語法
 
@@ -22,4 +22,4 @@ ht-degree: 31%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 項目 | `type:AssetMove` | 資產移動的陣列。 |
+| 項目 | `type:AssetMove` | 資產移動陣列。 |

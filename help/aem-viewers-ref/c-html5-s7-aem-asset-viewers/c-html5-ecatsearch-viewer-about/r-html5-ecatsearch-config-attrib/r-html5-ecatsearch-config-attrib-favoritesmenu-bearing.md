@@ -21,8 +21,8 @@ ht-degree: 1%
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 上|下|左|右|擬垂直|擬側</span> </p> </td> 
-   <td colname="col2"> <p> 設定為時 <span class="codeph"> 向上</span>。 <span class="codeph"> 向下</span>。 <span class="codeph"> 左</span>或 <span class="codeph"> 右</span>，面板在指定方向上滾出而不進行附加邊界檢查，這會導致面板被外部容器夾住。 </p> <p>設定為時 <span class="codeph"> 垂直</span>，元件首先將基面板位置移到「收藏夾」菜單的底部，並嘗試從此基礎位置向下列方向之一展開面板：下，右，左。 每次嘗試時，元件都會檢查面板是否被外部容器夾住。 如果所有嘗試都失敗，則元件將嘗試將基板位置移到頂部，並從頂部、右側和左側重複展開嘗試。 </p> <p>設定為時 <span class="codeph"> 擬合側</span>，該元件使用類似的邏輯。 底座首先向右移動，向右、向下和向上展開。 然後，它把底座向左移，試著向左、向下和向上展開方向。 </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> 向上|向下|向左|向右|垂直適合|橫向適合</span> </p> </td> 
+   <td colname="col2"> <p> 當設定為 <span class="codeph"> 向上</span>， <span class="codeph"> 向下</span>， <span class="codeph"> left</span>，或 <span class="codeph"> 右側</span>，面板會以指定方向轉出，而不會進行額外的邊界檢查，而這會造成面板被外部容器剪裁。 </p> <p>當設定為 <span class="codeph"> 垂直符合</span>，元件會先將基礎面板位置移至「我的最愛」選單底部，並嘗試從此類基礎位置以下列方向之一轉出面板：底部、右側、左側。 每次嘗試時，元件都會檢查面板是否被外部容器裁剪。 如果所有嘗試都失敗，元件會嘗試將基礎面板位置移至頂部，並從頂部、右側和左側重複轉出嘗試。 </p> <p>當設定為 <span class="codeph"> 適合 — 橫向</span>，元件會使用類似的邏輯。 基底會先向右移動，嘗試向右、向下和向上轉出方向。 然後，它會將基底向左移動，嘗試向左、向下和向上轉出方向。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

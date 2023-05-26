@@ -1,6 +1,6 @@
 ---
-title: 在Linux®和Solaris™上卸載
-description: 按照以下說明在Linux®或Solaris™系統上卸載映像呈現。
+title: 在Linux®和Solaris™上解除安裝
+description: 請依照下列指示，在Linux®或Solaris™系統上解除安裝「影像演算」。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,27 +12,27 @@ ht-degree: 6%
 
 ---
 
-# 在Linux®和Solaris™上卸載{#uninstalling-on-linux-and-solaris}
+# 在Linux®和Solaris™上解除安裝{#uninstalling-on-linux-and-solaris}
 
-按照以下說明在Linux®或Solaris™系統上卸載映像呈現。 可以使用兩種不同的方法。 進行以下一項操作:
+請依照下列指示，在Linux®或Solaris™系統上解除安裝「影像演算」。 有兩種不同的方法可供您使用。 進行以下一項操作:
 
 ## 方法1
 
 1. 尋找 [!DNL uninstall.sh].
 
-   它位於安裝ImageRendering的目錄中。 如果此目錄已被刪除，則必須解壓縮原始安裝包並取消其標籤才能解壓縮 [!DNL uninstall.sh]。
-1. 運行 [!DNL uninstall.sh] 按照螢幕上的說明進行操作。
+   它位於ImageRendering的安裝目錄中。 如果此目錄已移除，則必須解壓縮原始安裝套件並取消啟動以解壓縮 [!DNL uninstall.sh].
+1. 執行 [!DNL uninstall.sh] 並依照熒幕上的指示操作。
 
 ## 方法2
 
-1. 使用以下方法停止ImageRendering:
+1. 使用以下專案停止ImageRendering：
 
    ` *[!DNL install_folder]*/bin/ImageRendering.sh stop.`
 
-1. 從系統中刪除ImageRendering。 您使用的命令取決於您的系統。
+1. 從您的系統中移除ImageRendering。 您使用的指令取決於您的系統。
    * Linux®: `rpm -e ImageRendering`
 
-   * Solaris™: `pkgrm ImageRendering`
+   * Solaris™： `pkgrm ImageRendering`
 
-1. 刪除步驟2中未刪除的任何目錄或檔案。
+1. 刪除步驟2中未移除的任何目錄或檔案。
 

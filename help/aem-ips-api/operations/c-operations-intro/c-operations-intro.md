@@ -1,5 +1,5 @@
 ---
-description: 描述由IPS Web服務API處理的常見操作參數。
+description: 說明IPS Web服務API處理的一般操作引數。
 solution: Experience Manager
 title: 操作方法
 feature: Dynamic Media Classic,SDK/API
@@ -14,19 +14,19 @@ ht-degree: 0%
 
 # 操作方法{#operations-methods}
 
-本節介紹由IPS Web服務API處理的常見操作參數。
+本節說明IPS Web服務API處理的一般作業引數。
 
-有關每個操作參數的完整說明，請參見 [操作參數](/help/aem-ips-api/operations/c-operations-intro/c-methods/c-methods.md)。
+如需每個作業引數的完整說明，請參閱 [操作引數](/help/aem-ips-api/operations/c-operations-intro/c-methods/c-methods.md).
 
-## 句柄：關於 {#section-094ce1afa6244fa5b2c762f44ffdca1c}
+## 控制代碼：關於 {#section-094ce1afa6244fa5b2c762f44ffdca1c}
 
-處理某些API操作返回的引用IPS對象。 也可以將句柄作為參數傳遞給後續操作調用。 句柄是字串資料類型( `xsd:string`)。
+處理特定API作業傳回的參考IPS物件。 您也可以將控制代碼作為引數傳遞給後續的操作呼叫。 控制代碼為字串資料型別( `xsd:string`)。
 
-句柄僅用於單個應用程式會話期間。 此外，您應使句柄保持持久性，因為它們的格式可以在IPS版本之間更改。 在編寫互動式應用程式時，您會實施會話超時並放棄會話之間的所有句柄，尤其是在IPS升級後。 編寫非互動式應用程式時，每次運行應用程式時都調用相應的操作以檢索句柄。 以下Java/Axis2代碼示例顯示代碼執行不正確且正確：
+控制代碼僅供在單一應用程式工作階段中使用。 此外，您應該讓控點持續存在，因為其格式可能會在IPS版本之間變更。 當您編寫互動式應用程式時，您會實作工作階段逾時，並捨棄工作階段之間的所有控制代碼，尤其是在IPS升級之後。 當您撰寫非互動式應用程式時，請呼叫適當的作業，以在每次執行應用程式時擷取控制代碼。 下列Java/Axis2程式碼範例顯示不正確且正確的程式碼執行：
 
-**句柄代碼不正確**
+**不正確的處理代碼**
 
-此代碼示例不正確，因為它包含公司句柄的硬編碼值(555)。
+此程式碼範例不正確，因為它包含公司控制碼的硬式編碼值(555)。
 
 ```
 SearchAssetsParam searchParam = new SearchAssetsParam(); searchParam.setCompanyHandle("555");// INCORRECT 
@@ -34,9 +34,9 @@ searchParam.setFolder("myFolder");
 SearchAssetsReturn retVal = ipsApi.searchAssets(searchParam, authHeader);
 ```
 
-**正確的句柄代碼**
+**正確的控制代碼**
 
-此代碼示例正確，因為它調用 `getCompanyInfo` 返回有效句柄。 它不依賴於硬編碼值。 使用此方法或其它等效IPS API返回所需句柄。
+此程式碼範例正確，因為它會呼叫 `getCompanyInfo` 以傳回有效的控制代碼。 它不仰賴硬式編碼值。 使用此方法（或其他IPS API對等方法）傳回所需的控制代碼。
 
 ```
 GetCompanyInfoParam companyInfoParam = new GetCompanyInfoParam(); 
@@ -47,19 +47,19 @@ searchParam.setFolder("myFolder");
 SearchAssetsReturn retVal = ipsApi.searchAssets(searchParam, authHeader);
 ```
 
-## 常用句柄類型 {#section-e683ac8283284f9688e63f51a494f7a0}
+## 一般控制代碼型別 {#section-e683ac8283284f9688e63f51a494f7a0}
 
-**公司句柄**
+**companyHandle**
 
-大多數操作都要求您通過傳遞 `companyHandle` 的下界。 公司句柄是某些操作(如 `getCompanyInfo`。 `addCompany`, `getCompanyMembership`。
+大部分作業都要求您透過傳入來設定公司內容 `companyHandle` 引數。 公司控制代碼是某些作業傳回的指標，例如 `getCompanyInfo`， `addCompany`、和 `getCompanyMembership`.
 
 **userHandle**
 
-的 `userHandle` 參數是針對特定用戶的操作的可選參數。 預設情況下，這些操作針對的是調用用戶（其憑據已傳入以進行身份驗證的用戶）。 但是，具有適當權限的管理員用戶可以指定其他用戶。 例如， `setPassword` 操作通常設定已驗證用戶的密碼，但管理員可以使用 `userHandle` 參數，以設定其他用戶的口令。
+此 `userHandle` parameter是選擇性引數，適用於以特定使用者為目標的作業。 依預設，這些操作會鎖定呼叫的使用者（其認證已傳入以進行驗證的使用者）。 不過，具有適當許可權的管理員使用者可以指定其他使用者。 例如， `setPassword` 操作通常會設定已驗證使用者的密碼，但管理員可以使用 `userHandle` 引數來設定不同使用者的密碼。
 
-對於需要公司上下文的操作(使用 `companyHandle` 參數)，已驗證的用戶和目標用戶都必須是指定公司的成員。 對於不需要公司上下文的操作，已驗證的用戶和目標用戶必須都是至少一個公用公司的成員。
+針對需要公司內容的作業(使用 `companyHandle` 引數)，則驗證使用者與目標使用者都必須是指定公司的成員。 對於不需要公司內容的作業，已驗證的使用者和目標使用者都必須是至少一個通用公司的成員。
 
-以下操作可以檢索用戶句柄：
+下列操作可以擷取使用者控制代碼：
 
 * `getUsers`
 * `getAllUsers`
@@ -70,13 +70,13 @@ SearchAssetsReturn retVal = ipsApi.searchAssets(searchParam, authHeader);
 
 **accessUserHandle和accessGroupHandle**
 
-預設情況下，需要訪問權限（讀、寫、刪除）的操作在調用用戶的權限上下文中進行。 某些操作允許您使用 `accessUserHandle` 或 `accessGroupHandle` 的下界。 的 `accessUserHandle` 參數允許管理員模擬其他用戶。 的 `accessGroupHandle` 參數允許調用方在特定用戶組的上下文中操作。
+根據預設，需要存取許可權（讀取、寫入、刪除）的操作會在呼叫使用者的許可權內容中操作。 某些作業可讓您修改此前後關聯，使用 `accessUserHandle` 或 `accessGroupHandle` 引數。 此 `accessUserHandle` 引數可讓管理員模擬其他使用者。 此 `accessGroupHandle` 引數可讓呼叫者在特定使用者群組的前後關聯中操作。
 
 **responseFieldArray和excludeFieldArray**
 
-某些操作允許調用方限制響應中包含哪些欄位。 限制欄位有助於減少處理請求所需的時間和記憶體並減小響應資料的大小。 調用方可以通過傳遞 `responseFieldArray` 參數，或通過枚舉的清單列出排除的欄位 `excludeFieldArray` 的下界。
+某些作業可讓呼叫者限制回應中包含哪些欄位。 限制欄位有助於減少處理請求所需的時間和記憶體，並降低回應資料的大小。 呼叫者可以透過傳遞來要求特定的欄位清單 `responseFieldArray` 引數，或透過列舉排除的欄位清單 `excludeFieldArray` 引數。
 
-兩者 `responseFieldArray` 和 `excludeFieldArray` 使用由 `/`。 例如，要指定 `searchAssets` 僅返回每個資產的名稱、上次修改日期和元資料，請參閱以下內容：
+兩者 `responseFieldArray` 和 `excludeFieldArray` 使用節點路徑指定欄位，路徑分隔為 `/`. 例如，若要指定 `searchAssets` 只傳回每個資產的名稱、上次修改日期和中繼資料參考以下內容：
 
 ```
 <responseFieldArray> 
@@ -86,7 +86,7 @@ SearchAssetsReturn retVal = ipsApi.searchAssets(searchParam, authHeader);
 </responseFieldArray>
 ```
 
-同樣，要返回所有欄位（權限除外）:
+同樣地，若要傳回所有欄位（許可權除外）：
 
 ```
 <excludeFieldArray> 
@@ -94,16 +94,16 @@ SearchAssetsReturn retVal = ipsApi.searchAssets(searchParam, authHeader);
 </excludeFieldArray>
 ```
 
-請注意，節點路徑與返回節點根相對。 如果指定不包含任何子元素的複雜類型欄位(例如， `assetArray/items/imageInfo`)，則包含其所有子元素。 如果在複雜類型欄位中指定一個或多個子元素(例如， `assetArray/items/imageInfo/originalPath`)，則只包括這些子元素。
+請注意，節點路徑是相對於傳回節點根目錄的。 如果您指定複雜的型別欄位，但不包含其任何子元素(例如， `assetArray/items/imageInfo`)，則會包含其所有子元素。 如果您在複雜型別欄位中指定一或多個子元素(例如， `assetArray/items/imageInfo/originalPath`)，則只會包含這些子元素。
 
-如果不包括 `responseFieldArray` 或 `excludeFieldArray` 在請求中，將返回所有欄位。
+如果您不包含 `responseFieldArray` 或 `excludeFieldArray` 在請求中，會傳回所有欄位。
 
-**區域設定**
+**地區設定**
 
-自IPS 4.0以來，IPS API支援通過傳遞 `authHeader` 區域設定參數。 如果區域設定參數不存在，則HTTP標頭 `Accept-Language` 的子菜單。 如果此標頭不存在，則使用IPS伺服器的預設區域設定。
+自IPS 4.0起，IPS API支援透過傳遞 `authHeader` locale引數。 如果區域設定引數不存在，則HTTP標頭 `Accept-Language` 已使用。 如果此標頭也不存在，則會使用IPS伺服器的預設地區設定。
 
-某些操作還採用顯式語言環境參數，這些參數可能與操作語言環境上下文不同。 例如， `submitJob` 操作 `locale` 設定用於作業日誌記錄和電子郵件通知的區域設定的參數。
+某些作業也會使用明確地區設定引數，這些引數可能與作業地區設定內容不同。 例如， `submitJob` 作業需要 `locale` 設定用於作業記錄和電子郵件通知的地區設定的引數。
 
-區域設定參數使用格式 `<language_code>[-<country_code>]`
+地區設定引數使用格式 `<language_code>[-<country_code>]`
 
-如果語言代碼是ISO-639指定的小寫雙字母代碼，而可選國家代碼是ISO-3266指定的大寫雙字母代碼。 例如，US English的區域設定字串為 `en-US`。
+其中語言代碼是由ISO-639所指定的小寫雙字母代碼，而選用國家/地區代碼是由ISO-3266所指定的大寫雙字母代碼。 例如，美式英文的地區設定字串是 `en-US`.

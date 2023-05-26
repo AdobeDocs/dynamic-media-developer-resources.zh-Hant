@@ -1,5 +1,5 @@
 ---
-description: 靜態內容資料根路徑。 此影像目錄靜態內容資料的根資料夾的絕對路徑或相對路徑段。
+description: 靜態內容資料根路徑。 此影像目錄之靜態內容資料的根資料夾的絕對路徑或相對路徑區段。
 solution: Experience Manager
 title: StaticContentRootPath
 feature: Dynamic Media Classic,SDK/API
@@ -14,18 +14,18 @@ ht-degree: 2%
 
 # StaticContentRootPath{#staticcontentrootpath}
 
-靜態內容資料根路徑。 此影像目錄靜態內容資料的根資料夾的絕對路徑或相對路徑段。
+靜態內容資料根路徑。 此影像目錄之靜態內容資料的根資料夾的絕對路徑或相對路徑區段。
 
-請參閱 [管理源資料](../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-configuration-and-administration.md#concept-1ec4d9f0e58a430cae045761f1ff9173) 有關伺服器根路徑的其他資訊。
+另請參閱 [管理來源資料](../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-configuration-and-administration.md#concept-1ec4d9f0e58a430cae045761f1ff9173) 以取得伺服器根路徑的其他資訊。
 
 ## 屬性 {#section-f8e3986096294b36948d43aafdc3e795}
 
-文本字串。 必須為空、有效的相對檔案路徑段或絕對路徑。 不應包括前導路徑元素分隔符和尾隨路徑元素分隔符。
+文字字串。 必須為空白、有效的相對檔案路徑區段或絕對路徑。 不應包含前置和結尾路徑元素分隔字元。
 
 ## 預設 {#section-0f741f90fd8d4758a43162c2b5c8a3a3}
 
-繼承自 `default::StaticContentsRootPath` 的子菜單。 如果已定義但為空，則不會對源檔案根路徑作出貢獻。
+繼承自 `default::StaticContentsRootPath` 若未定義。 如果已定義但為空，將不會對來源檔案根路徑產生作用。
 
 ## 另請參閱 {#section-9af8846d20d242789df67877f84ed8a7}
 
-[PS::staticContent.rootPaths](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-staticcontentrootpath.md#reference-a2b5368d078349828d282357681bb2a5) 。  [管理源資料](../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-configuration-and-administration.md#concept-1ec4d9f0e58a430cae045761f1ff9173)
+[PS：：staticContent.rootPaths](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-staticcontentrootpath.md#reference-a2b5368d078349828d282357681bb2a5) ，  [管理來源資料](../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-configuration-and-administration.md#concept-1ec4d9f0e58a430cae045761f1ff9173)

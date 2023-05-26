@@ -1,5 +1,5 @@
 ---
-description: 本節包含有關管理物料目錄和源資料的資訊。
+description: 本節包含有關管理材質目錄和來源資料的資訊。
 solution: Experience Manager
 title: 管理內容
 feature: Dynamic Media Classic,SDK/API
@@ -14,4 +14,4 @@ ht-degree: 0%
 
 # 管理內容{#managing-content}
 
-本節包含有關管理物料目錄和源資料的資訊。
+本節包含有關管理材質目錄和來源資料的資訊。

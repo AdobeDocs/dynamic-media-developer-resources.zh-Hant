@@ -1,7 +1,7 @@
 ---
 description: CuePoint檔案資產的屬性。
 solution: Experience Manager
-title: 提示點資訊
+title: CuePointInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d773cce9-837d-4ac1-99e6-1033eec93b55
@@ -23,5 +23,5 @@ CuePoint檔案資產的屬性。
 | 名稱 | 類型 | 說明 |
 |---|---|---|
 | 原始路徑 | `xsd:string` | CuePoint檔案路徑。 |
-| 原始檔案 | `xsd:string` | CuePoint檔案名。 |
-| 檔案大小 | `xsd:int` | CuePoint檔案大小。 |
+| 原始檔案 | `xsd:string` | CuePoint檔案名稱。 |
+| fileSize | `xsd:int` | CuePoint檔案大小。 |

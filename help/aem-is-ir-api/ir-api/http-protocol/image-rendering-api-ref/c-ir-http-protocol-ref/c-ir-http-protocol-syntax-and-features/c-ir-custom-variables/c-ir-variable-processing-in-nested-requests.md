@@ -1,6 +1,6 @@
 ---
-title: 嵌套請求中的變數處理
-description: $var$引用可能發生在嵌套Image Serving或Image Rendering請求的大括弧內的任何位置，包括「？」左側 將路徑與查詢分離。
+title: 巢狀請求中的變數處理
+description: $var$參考可能出現在巢狀影像伺服或影像演算請求的大括弧內的任何位置，包括「？」的左側 將路徑與查詢分開。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,12 +12,12 @@ ht-degree: 0%
 
 ---
 
-# 嵌套請求中的變數處理{#variable-processing-in-nested-requests}
+# 巢狀請求中的變數處理{#variable-processing-in-nested-requests}
 
-$var$引用可能發生在嵌套Image Serving或Image Rendering請求的大括弧內的任何位置，包括「？」左側 將路徑與查詢分離。
+$var$參考可能出現在巢狀影像伺服或影像演算請求的大括弧內的任何位置，包括「？」的左側 將路徑與查詢分開。
 
-伺服器用值替換這些引用(從url或從 `catalog::Modifier` 在進一步解析和處理嵌套請求之前，對所述主影像目錄（如主影像目錄）進行解析和處理。
+伺服器會以（來自url或的）值取代這些參考 `catalog::Modifier` 進一步剖析及處理巢狀要求之前，請先檢查巢狀要求是否存在。
 
-另外， `$ *[!DNL var]*=` 定義 `catalog::Modifier` 轉發到所有嵌套的Image Service和Image Rendering請求。 這樣做可確保所有變數定義都可用於所有模板，而不管嵌套級別如何。
+此外，所有 `$ *[!DNL var]*=` url和中的定義 `catalog::Modifier` 轉送至所有巢狀影像伺服和影像演算請求。 這樣做可確保所有變數定義都可供所有範本使用，無論巢狀層級為何。
 
-無論嵌套級別如何，都必須只將單遍HTTP編碼應用於要在嵌套影像呈現或影像服務請求中的任何位置替換的變數值。
+無論巢狀內嵌層級為何，在巢狀影像演算或影像伺服請求中，只要將單程HTTP編碼套用至變數值，即可在任何地方取代這些值。

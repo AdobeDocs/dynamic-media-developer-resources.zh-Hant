@@ -19,12 +19,12 @@ ht-degree: 5%
 <table id="table_0BEA0B5FFDF64E5594B534B2A87A6D88"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph">0|1[,<span class="varname"> 限</span>]</span> </p> </td> 
-   <td colname="col2"> <p> 根據頁數和運行時元件大小配置自動隱藏行為。 </p> <p> <span class="codeph"> 0</span> 關閉自動隱藏。 </p> <p> <span class="codeph"> 1</span> 啟用自動隱藏。 如果以下至少一個條件變為true，則元件將隱藏其點： </p> <p> 
+   <td colname="col1"> <p> <span class="codeph">0|1[，<span class="varname"> 限制</span>]</span> </p> </td> 
+   <td colname="col2"> <p> 根據頁數和執行階段元件大小設定自動隱藏行為。 </p> <p> <span class="codeph"> 0</span> 關閉自動隱藏。 </p> <p> <span class="codeph"> 1</span> 啟用自動隱藏。 如果下列條件中至少有一個變成true，元件會隱藏其點： </p> <p> 
      <ul id="ul_A7F9C1DDC6AE44BAA348B3AD440A4EDD"> 
-      <li id="li_39332158806445DF874C5A52F1331B8B">帶點的行變寬，或 </li> 
-      <li id="li_E30BAC8B609147ADB8824000F5729B21">為此元件設定的頁數超過由 <span class="codeph"><span class="varname"> 限</span></span> 的下界。 </li> 
-     </ul> </p> <p> 設定 <span class="codeph"><span class="varname"> 限</span></span> 至 <span class="codeph"> -1</span> 禁用第二個自動隱藏條件。 </p> </td> 
+      <li id="li_39332158806445DF874C5A52F1331B8B">有點的列會變得比執行階段元件寬度更寬，或 </li> 
+      <li id="li_E30BAC8B609147ADB8824000F5729B21">為此元件設定的頁數超過設定的限制 <span class="codeph"><span class="varname"> 限制</span></span> 引數。 </li> 
+     </ul> </p> <p> 設定 <span class="codeph"><span class="varname"> 限制</span></span> 至 <span class="codeph"> -1</span> 停用第二個自動隱藏條件。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

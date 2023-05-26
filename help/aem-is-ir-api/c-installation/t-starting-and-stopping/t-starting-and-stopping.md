@@ -1,6 +1,6 @@
 ---
-title: 啟動和停止映像服務
-description: 本節提供在Windows和Linux®中啟動和停止映像服務的說明。
+title: 啟動和停止影像伺服
+description: 本節提供在Windows和Linux®中啟動和停止「影像伺服」的指示。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# 啟動和停止映像服務{#starting-and-stopping-image-serving}
+# 啟動和停止影像伺服{#starting-and-stopping-image-serving}
 
-本節提供在Windows和Linux®中啟動和停止映像服務的說明。
+本節提供在Windows和Linux®中啟動和停止「影像伺服」的指示。
 
 * [在Windows上啟動或停止](t-startstop-windows.md)
 * [在Linux®上啟動或停止](t-startstop-linux.md)

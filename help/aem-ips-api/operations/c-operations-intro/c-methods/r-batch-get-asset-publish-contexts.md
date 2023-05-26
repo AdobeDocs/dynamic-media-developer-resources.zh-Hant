@@ -1,5 +1,5 @@
 ---
-description: 返回標籤為要發佈的資產的發佈上下文。
+description: 傳回標籤為發佈的資產的發佈內容。
 solution: Experience Manager
 title: batchGetAssetPublishContexts
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,11 +14,11 @@ ht-degree: 16%
 
 # batchGetAssetPublishContexts{#batchgetassetpublishcontexts}
 
-返回標籤為要發佈的資產的發佈上下文。
+傳回標籤為發佈的資產的發佈內容。
 
 語法
 
-## 授權用戶類型 {#section-d5362ca8a6ab42949cd648ba38dbf2f8}
+## 授權的使用者型別 {#section-d5362ca8a6ab42949cd648ba38dbf2f8}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -32,8 +32,8 @@ ht-degree: 16%
 
 >[!NOTE]
 >
->* 用戶必須具有讀權限才能返回資產。
->* 所有用戶都有權訪問共用公司。
+>* 使用者必須擁有讀取存取權才能傳回資產。
+>* 所有使用者都可存取共用公司。
 >
 
 
@@ -43,14 +43,14 @@ ht-degree: 16%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 公司句柄 | `xsd:string` | 是 | 把手交給公司。 |
-| assetHandleArray | ` `類型：HandleArray&quot; | 是 | 要查詢活動（標籤為發佈）上下文的資產清單。 |
+| companyHandle | `xsd:string` | 是 | 處理公司。 |
+| assetHandleArray | ` `型別：HandleArray&quot; | 是 | 您要查詢作用中（標籤為發佈）上下文的資產清單。 |
 
 **輸出(batchGetAssetPublishContextsReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| assetPublishContextsArray | `types:assetPublishContextsArray` | 是 | 一組發佈上下文，其中每個資產都標籤為要發佈。 |
+| assetPublishContextsArray | `types:assetPublishContextsArray` | 是 | 一個發佈內容陣列，其中每個資產都標示為要發佈。 |
 
 ## 範例 {#section-457f6809ccfa425b9a0976313d613f4e}
 

@@ -1,7 +1,7 @@
 ---
-description: 設定或更新XMP資產的元資料包。
+description: 設定或更新資產的XMP中繼資料封包。
 solution: Experience Manager
-title: 更新XMPPacket
+title: updateXMPPacket
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 04d85dba-cc86-4069-ab5d-9a5b3fe542c9
@@ -12,13 +12,13 @@ ht-degree: 26%
 
 ---
 
-# 更新XMPPacket{#updatexmppacket}
+# updateXMPPacket{#updatexmppacket}
 
-設定或更新XMP資產的元資料包。
+設定或更新資產的XMP中繼資料封包。
 
 語法
 
-## 授權用戶類型 {#section-ee88a759f4774482a4734201a971f610}
+## 授權的使用者型別 {#section-ee88a759f4774482a4734201a971f610}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,15 +34,15 @@ ht-degree: 26%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 公司句柄 | `xsd:string` | 是 | 公司負責。 |
-| 資產句柄 | `xsd:string` | 是 | 資產句柄。 |
-| 壓縮資料包 | `xsd:Base 64 binary` | 是 | [!DNL zlib-compressed] 要設XMP置或更新的資料包。 |
+| companyHandle | `xsd:string` | 是 | 公司控點。 |
+| assetHandle | `xsd:string` | 是 | 資產控點。 |
+| compressedPacket | `xsd:Base 64 binary` | 是 | [!DNL zlib-compressed] 您要設定或更新的XMP封包。 |
 
 **輸出(updateXMPPacketReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 成功 | `xsd:boolean` | 是 | 返回 `true` 。 |
+| 成功 | `xsd:boolean` | 是 | 傳回 `true` 封包是否已更新。 |
 
 ## 範例 {#section-38b556b94e5044bf97a954519ff6c212}
 

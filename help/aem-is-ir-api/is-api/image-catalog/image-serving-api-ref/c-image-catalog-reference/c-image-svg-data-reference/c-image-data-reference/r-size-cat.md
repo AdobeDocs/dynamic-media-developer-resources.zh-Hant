@@ -1,5 +1,5 @@
 ---
-description: 影像尺寸. 目錄路徑引用的全解析度影像的像素大小。
+description: 影像尺寸. 目錄「路徑」參照之完整解析度影像的畫素大小。
 solution: Experience Manager
 title: 大小
 feature: Dynamic Media Classic,SDK/API
@@ -14,22 +14,22 @@ ht-degree: 9%
 
 # 大小{#size}
 
-影像尺寸. 目錄：:Path引用的全解析度影像的像素大小。
+影像尺寸. catalog：：Path參照之全解析度影像的畫素大小。
 
-如果提供了此值，則Image Serving會使用它來避免必須開啟影像來獲得實際影像大小。
+如果提供此值，「影像伺服」會使用它，以避免必須開啟影像才能取得實際影像大小。
 
 >[!NOTE]
 >
->如果 `catalog::Size`提供，且與實際全解析度影像大小不同，可能會導致未定義的行為。
+>若 `catalog::Size`提供，且與實際完整解析度影像大小不同，可能會導致未定義的行為。
 
 ## 屬性 {#section-5c914ec8b1444a8e99d811b647cd42a3}
 
-兩個整數，每個大於0，用逗號分隔。 選擇性.
+兩個整數，每個都大於0，以逗號分隔。 選擇性.
 
 ## 預設 {#section-257c6d47cf314ef0b3c3c32b18f0f0f1}
 
-如果欄位不存在，或該欄位為空，則使用影像的實際大小。
+如果欄位不存在或欄位為空，則會使用影像的實際大小。
 
 ## 另請參閱 {#section-e63797357d5a4119a10db1e6e088f6e9}
 
-[目錄：：路徑](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-path-cat.md#reference-306afcaff172440ca81b85da8d78213c) 。 [雷斯=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-res.md)
+[catalog：：Path](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-path-cat.md#reference-306afcaff172440ca81b85da8d78213c) ， [res=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-res.md)

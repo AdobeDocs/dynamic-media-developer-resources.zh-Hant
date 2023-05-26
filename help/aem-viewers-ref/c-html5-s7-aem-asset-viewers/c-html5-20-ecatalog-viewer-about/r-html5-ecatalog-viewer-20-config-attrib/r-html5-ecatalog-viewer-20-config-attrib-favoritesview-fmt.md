@@ -20,7 +20,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td colname="col2"> <p> 指定元件用於從Image Server載入影像的影像格式。 格式是映像伺服器和客戶端瀏覽器支援的任何值。 </p> <p>如果影像格式以 <span class="codeph"> -α</span>，該元件將影像渲染為透明內容。 對於所有其它影像格式值，元件將影像視為不透明。 </p> </td> 
+   <td colname="col2"> <p> 指定元件從影像伺服器載入影像時，所使用的影像格式。 格式是影像伺服器和使用者端瀏覽器支援的任何值。 </p> <p>如果影像格式結尾為 <span class="codeph"> -alpha</span>，元件會將影像呈現為透明內容。 至於所有其他影像格式值，元件會將影像視為不透明。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

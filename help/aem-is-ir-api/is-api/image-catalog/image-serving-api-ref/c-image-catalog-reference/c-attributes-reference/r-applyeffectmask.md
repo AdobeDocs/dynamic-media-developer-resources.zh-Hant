@@ -1,7 +1,7 @@
 ---
-description: 可選地，在效果圖層上應用最終蒙版以遮蔽效果和圖層之間的重疊區域。
+description: 可選擇在效果圖層上套用最終遮色片，以遮蔽效果與圖層之間的重疊區域。
 solution: Experience Manager
-title: 應用效果蒙版
+title: ApplyEffectMask
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 51965151-03c9-4dbf-ba03-80bfa495439e
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# 應用效果蒙版{#applyeffectmask}
+# ApplyEffectMask{#applyeffectmask}
 
-可選地，在效果圖層上應用最終蒙版以遮蔽效果和圖層之間的重疊區域。
+可選擇在效果圖層上套用最終遮色片，以遮蔽效果與圖層之間的重疊區域。
 
-有效值為0和1。 0表示不應用效果蒙版。 1表示應用效果蒙版。 預設值為1。
+有效值為0和1。 0表示沒有套用效果遮色片。 1表示套用效果遮色片。 預設值為1。

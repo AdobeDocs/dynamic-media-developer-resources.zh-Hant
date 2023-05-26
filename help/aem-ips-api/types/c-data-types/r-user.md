@@ -1,5 +1,5 @@
 ---
-description: 系統中資源和類型的用戶。
+description: 系統中資源和型別的使用者。
 solution: Experience Manager
 title: 使用者
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 # [!DNL User]{#user}
 
-系統中資源和類型的用戶。
+系統中資源和型別的使用者。
 
 語法
 
@@ -22,10 +22,10 @@ ht-degree: 9%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| userHandle | `xsd:string` | 用戶句柄。 |
-| 名字 | `xsd:string` | 用戶名。 |
-| 姓氏 | `xsd:string` | 用戶姓。 |
+| userHandle | `xsd:string` | 使用者控制代碼。 |
+| 名字 | `xsd:string` | 使用者名字。 |
+| 姓氏 | `xsd:string` | 使用者姓氏。 |
 | 電子郵件 | `xsd:string` | 電子郵件地址。 |
-| 預設角色 | `xsd:string` | 設定用戶所屬每個公司中用戶的角色。 但是，用戶角色 `IpsAmin` 覆蓋其他用戶角色。 |
-| 有效 | `xsd:boolean` | 確定用戶是否有效。 |
-| 密碼過期 | `xsd:dateTime` | 設定密碼到期日期。 |
+| 預設角色 | `xsd:string` | 設定使用者在其所屬每個公司中的角色。 但是，使用者角色 `IpsAmin` 覆寫其他使用者角色。 |
+| isValid | `xsd:boolean` | 判斷使用者是否有效。 |
+| passwordExpires | `xsd:dateTime` | 設定密碼到期日。 |

@@ -1,7 +1,7 @@
 ---
-description: ZIP存檔資產的屬性。
+description: ZIP封存資產的屬性。
 solution: Experience Manager
-title: 郵政資訊
+title: ZipInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: a19f0047-3219-4929-a850-93bc5757f004
@@ -14,7 +14,7 @@ ht-degree: 25%
 
 # [!DNL ZipInfo]{#zipinfo}
 
-ZIP存檔資產的屬性。
+ZIP封存資產的屬性。
 
 語法
 
@@ -24,4 +24,4 @@ ZIP存檔資產的屬性。
 |---|---|---|
 | 原始路徑 | `xsd:string` | 檔案路徑。 |
 | 原始檔案 | `xsd:string` | 檔案名稱. |
-| 檔案大小 | `xsd:int` | 檔案大小。 |
+| fileSize | `xsd:int` | 檔案大小。 |

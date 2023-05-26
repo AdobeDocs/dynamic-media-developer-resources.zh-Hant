@@ -1,7 +1,7 @@
 ---
-description: 發佈歷史記錄的一組。
+description: 發佈歷程記錄的陣列。
 solution: Experience Manager
-title: 發佈歷史記錄陣列
+title: PublishHistoryArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: a3c5c523-0157-449d-b03c-56b23501e822
@@ -14,7 +14,7 @@ ht-degree: 28%
 
 # [!DNL PublishHistoryArray]{#publishhistoryarray}
 
-發佈歷史記錄的一組。
+發佈歷程記錄的陣列。
 
 語法
 
@@ -22,4 +22,4 @@ ht-degree: 28%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 項目 | `types:PublishHistory` | 發佈歷史記錄陣列。 |
+| 項目 | `types:PublishHistory` | 發佈歷程記錄陣列。 |

@@ -1,6 +1,6 @@
 ---
 title: setParams
-description: 用於Flyout查看器的JavaScript API參考。
+description: 彈出式檢視器的JavaScript API參考。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
@@ -14,24 +14,24 @@ ht-degree: 2%
 
 # setParams{#setparams}
 
-用於Flyout查看器的JavaScript API參考。
+彈出式檢視器的JavaScript API參考。
 
-` setParams( *`帕拉`*)`
+` setParams( *`引數`*)`
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 帕拉</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}</span> name=value參數對，分隔為 <span class="codeph"> &amp;</span>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 引數</span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}</span> name=value引數配對，以分隔 <span class="codeph"> 和</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-將一個或多個參數設定為給定值。 方法參數語法與URL查詢字串相同。 即，它表示與 `&`。 與查詢字串中相同，名稱和值使用UTF8進行百分比編碼。 在你打電話之前 `init()`，必須調用此參數。 如果與一起傳遞查看器配置資訊，則此方法是可選的 `config` 建構子的JSON對象。
+將一或多個引數設定為指定值。 方法引數語法與URL查詢字串相同。 也就是說，它代表名稱=值配對，以分隔 `&`. 與查詢字串中的相同，名稱和值使用UTF8進行百分比編碼。 呼叫之前 `init()`，則必須呼叫此引數。 如果透過以下方式傳遞檢視器設定資訊，則此方法為選用： `config` 建構函式的JSON物件。
 
-另請參閱 [初始化](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-init.md#reference-8651640683fc4a538bfb660709d1a463)。
+另請參閱 [init](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-init.md#reference-8651640683fc4a538bfb660709d1a463).
 
-## 返回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## 傳回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 無。
 

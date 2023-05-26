@@ -1,6 +1,6 @@
 ---
-title: 查看器SDK教程
-description: Viewer SDK為自定義查看器開發提供了一組基於JavaScript的元件。 觀眾是基於Web的應用程式，允許AdobeDynamic Media所服務的富媒體內容嵌入網頁。
+title: Viewer SDK教學課程
+description: Viewer SDK提供了一組JavaScript型元件，用於自訂檢視器開發。 檢視器是網頁型應用程式，可將Adobe Dynamic Media提供的多媒體內容內嵌在網頁中。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
@@ -12,39 +12,39 @@ ht-degree: 0%
 
 ---
 
-# 查看器SDK教程{#viewer-sdk-tutorial}
+# Viewer SDK教學課程{#viewer-sdk-tutorial}
 
-Viewer SDK為自定義查看器開發提供了一組基於JavaScript的元件。 觀眾是基於Web的應用程式，允許AdobeDynamic Media所服務的富媒體內容嵌入網頁。
+Viewer SDK提供了一組JavaScript型元件，用於自訂檢視器開發。 檢視器是網頁型應用程式，可將Adobe Dynamic Media提供的多媒體內容內嵌在網頁中。
 
-例如，SDK提供互動式縮放和平移。 它還提供360°視圖和視頻回放，這些資產通過名為Dynamic Media Classic的後端應用程式上傳到AdobeDynamic Media。
+例如，SDK提供互動式縮放和平移。 此外，影片還能讓您以全方位的視角檢視和影片播放，透過名為Dynamic Media Classic的後端應用程式，上傳至Adobe Dynamic Media的資產。
 
-儘管這些元件依賴於HTML5功能，但它們設計用於Android™和AppleiOS設備以及台式機，包括Internet Explorer和更高版本。 這種體驗意味著您可以為所有受支援的平台提供單個工作流。
+即使元件依賴HTML5功能，但設計上卻能搭配Android™和Apple iOS裝置，以及桌上型電腦（包括Internet Explorer和更新版本）使用。 這類體驗表示您可以為所有支援的平台提供單一工作流程。
 
-SDK由構成查看器內容的UI元件組成。 您可以通過CSS和具有某種支援角色的非UI元件來設定這些元件的樣式，如設定定義提取、分析或跟蹤。 所有元件行為都可通過修改量進行自定義，您可以通過各種方式指定這些修改量，例如 `name=value` 的子菜單。
+SDK包含構成檢視器內容的UI元件。 您可以透過CSS以及具有某種支援角色（例如設定定義擷取以及剖析或追蹤）的非UI元件，為這些元件設定樣式。 所有元件行為都可透過修飾元進行自訂，您可以透過各種方式指定修飾元，例如 `name=value` URL中的配對。
 
-本教程包括以下任務順序，以幫助您建立基本縮放查看器：
+本教學課程包含下列工作順序，可協助您建立基本縮放檢視器：
 
-* [從Adobe Developer Connection下載最新的查看器SDK](c-tutorial.md#section-84dc74c9d8e24a2380b6cf8fc28d7127)
-* [載入查看器SDK](c-tutorial.md#section-98596c276faf4cf79ccf558a9f4432c6)
-* [向查看器添加樣式](c-tutorial.md#section-3783125360a1425eae5a5a334867cc32)
-* [包括容器和縮放視圖](c-tutorial.md#section-1a01730663154a508b88cc40c6f35539)
-* [將MediaSet和色板元件添加到查看器](c-tutorial.md#section-02b8c21dd842400e83eae2a48ec265b7)
-* [向查看器添加按鈕](c-tutorial.md#section-1fc334fa0d2b47eb9cdad461725c07be)
-* [垂直配置色板](c-tutorial.md#section-91a8829d5b5a4d45a35b7faeb097fcc9)
+* [從Adobe Developer Connection下載最新的Viewer SDK](c-tutorial.md#section-84dc74c9d8e24a2380b6cf8fc28d7127)
+* [載入檢視器SDK](c-tutorial.md#section-98596c276faf4cf79ccf558a9f4432c6)
+* [新增樣式至檢視器](c-tutorial.md#section-3783125360a1425eae5a5a334867cc32)
+* [包含容器和ZoomView](c-tutorial.md#section-1a01730663154a508b88cc40c6f35539)
+* [將MediaSet和色票元件新增至檢視器](c-tutorial.md#section-02b8c21dd842400e83eae2a48ec265b7)
+* [將按鈕新增至檢視器](c-tutorial.md#section-1fc334fa0d2b47eb9cdad461725c07be)
+* [垂直設定色票](c-tutorial.md#section-91a8829d5b5a4d45a35b7faeb097fcc9)
 
-## 從Adobe Developer Connection下載最新的查看器SDK {#section-84dc74c9d8e24a2380b6cf8fc28d7127}
+## 從Adobe Developer Connection下載最新的Viewer SDK {#section-84dc74c9d8e24a2380b6cf8fc28d7127}
 
-1. 從Adobe Developer Connection下載最新的查看器SDK <!-- SDK NO LONGER AVAILABLE TO DOWNLOAD;DOUBLE CHECK WITH AMIT. THIS ENTIRE TOPIC IS LIKELY OBSOLETE. [here](https://marketing.adobe.com/developer/devcenter/scene7/show) -->。
+1. 從Adobe Developer Connection下載最新的Viewer SDK <!-- SDK NO LONGER AVAILABLE TO DOWNLOAD;DOUBLE CHECK WITH AMIT. THIS ENTIRE TOPIC IS LIKELY OBSOLETE. [here](https://marketing.adobe.com/developer/devcenter/scene7/show) -->.
 
    >[!NOTE]
    >
-   >您可以完成本教程，而無需下載Viewer SDK包，因為SDK是遠程載入的。 但是，查看器包包含其他示例和API參考指南，可幫助您建立自己的查看器。
+   >您可以完成本教學課程，而不需要下載Viewer SDK套件，因為此SDK已從遠端載入。 不過，Viewer套件包含其他範例和API參考指南，可協助您建立自己的檢視器。
 
-## 載入查看器SDK {#section-98596c276faf4cf79ccf558a9f4432c6}
+## 載入檢視器SDK {#section-98596c276faf4cf79ccf558a9f4432c6}
 
-1. 首先，設定新頁面以開發要建立的基本縮放查看器。
+1. 首先，請設定一個新頁面，以開發您要建立的基本縮放檢視器。
 
-   將此新頁作為Bootstrap（或載入程式），用於設定空SDK應用程式。 開啟您最喜愛的文本編輯器，並將以下HTML標籤貼上到其中：
+   請考量這個全新頁面，您用來設定空SDK應用程式的Bootstrap（或載入器）代碼。 開啟您最愛的文字編輯器，並在其中貼上下列HTML標示：
 
    ```html {.line-numbers}
    <!DOCTYPE html> 
@@ -79,7 +79,7 @@ SDK由構成查看器內容的UI元件組成。 您可以通過CSS和具有某�
    </html>
    ```
 
-   在 `script` 標籤以初始化 `ParameterManager`。 這樣做有助於您準備在SDK中建立和實例化元件 `initViewer` 函式：
+   將下列JavaScript程式碼新增至 `script` 標籤時，它會將 `ParameterManager`. 這麼做可協助您準備在內建立和例項化SDK元件 `initViewer` 函式：
 
    ```javascript {.line-numbers}
    /* We create a self-running anonymous function to encapsulate variable scope. Placing code inside such 
@@ -113,17 +113,17 @@ SDK由構成查看器內容的UI元件組成。 您可以通過CSS和具有某�
    }());
    ```
 
-1. 將檔案另存為空模板。 您可以使用任意檔案名。
+1. 將檔案儲存為空白範本。 您可以使用任何想要的檔案名稱。
 
-   將來在建立任何查看器時，將使用此空模板檔案作為引用。 此模板在從Web伺服器提供服務時可在本地工作。
+   日後建立任何檢視器時，都會使用此空白範本檔案作為參考。 此範本在本機運作，且可從網頁伺服器提供服務。
 
-現在將樣式添加到查看器。
+現在將樣式新增至檢視器。
 
-## 向查看器添加樣式 {#section-3783125360a1425eae5a5a334867cc32}
+## 新增樣式至檢視器 {#section-3783125360a1425eae5a5a334867cc32}
 
-1. 對於您正在建立的此完整頁面查看器，可以添加一些基本樣式。
+1. 對於您正在建立的這個完整頁面檢視器，您可以新增一些基本樣式。
 
-   添加以下內容 `style` 在 `head`:
+   新增下列專案 `style` 封鎖至底部 `head`：
 
    ```html {.line-numbers}
    <style> 
@@ -142,13 +142,13 @@ SDK由構成查看器內容的UI元件組成。 您可以通過CSS和具有某�
    </style>
    ```
 
-現在包括元件 `Container` 和 `ZoomView`。
+現在包含元件 `Container` 和 `ZoomView`.
 
-## 包括容器和縮放視圖 {#section-1a01730663154a508b88cc40c6f35539}
+## 包含容器和ZoomView {#section-1a01730663154a508b88cc40c6f35539}
 
-1. 通過包括元件建立實際查看器 `Container` 和 `ZoomView`。
+1. 包含元件以建立實際的檢視器 `Container` 和 `ZoomView`.
 
-   插入以下內容 `include` 在 `<head>` 元素 — 在 [!DNL Utils.js] 指令碼已載入：
+   插入下列內容 `include` 陳述式至底部 `<head>` 元素 — 在 [!DNL Utils.js] 指令碼已載入：
 
    ```javascript {.line-numbers}
    <!-- 
@@ -161,15 +161,15 @@ SDK由構成查看器內容的UI元件組成。 您可以通過CSS和具有某�
    </script>
    ```
 
-1. 現在建立變數以引用各種SDK元件。
+1. 現在可建立變數來參考各種SDK元件。
 
-   將以下變數添加到主匿名函式的頂部，就在上面 `s7sdk.Util.init()`:
+   將下列變數新增至主要匿名函式的頂端（就在上方） `s7sdk.Util.init()`：
 
    ```javascript {.line-numbers}
    var container, zoomView;
    ```
 
-1. 在 `initViewer` 函式，以便您可以定義一些修改量並實例化各個元件：
+1. 將下列內容插入 `initViewer` 函式中，以便您可以定義一些修飾元並將個別元件例項化：
 
    ```javascript {.line-numbers}
    /* Modifiers can be added directly to ParameterManager instance */ 
@@ -190,7 +190,7 @@ SDK由構成查看器內容的UI元件組成。 您可以通過CSS和具有某�
    resizeViewer(container.getWidth(), container.getHeight());
    ```
 
-1. 要正確運行上述代碼，請添加 `containerResize` 事件處理程式和幫助程式函式：
+1. 為了讓上述程式碼正確執行，請新增 `containerResize` 事件處理常式和helper函式：
 
    ```javascript {.line-numbers}
    /* Event handler for s7sdk.event.ResizeEvent.COMPONENT_RESIZE events dispatched by Container to resize 
@@ -205,32 +205,32 @@ SDK由構成查看器內容的UI元件組成。 您可以通過CSS和具有某�
    }
    ```
 
-1. 預覽頁面，以便查看已建立的內容。 您的頁面應如下所示：
+1. 預覽頁面，以便檢視您已建立的內容。 您的頁面應如下所示：
 
-   ![查看器示例一個影像](assets/viewer-1.jpg)
+   ![檢視器範例一個影像](assets/viewer-1.jpg)
 
-現在添加元件 `MediaSet` 和 `Swatches` 瀏覽。
+現在新增元件 `MediaSet` 和 `Swatches` 至您的檢視器。
 
-## 將MediaSet和色板元件添加到查看器 {#section-02b8c21dd842400e83eae2a48ec265b7}
+## 將MediaSet和色票元件新增至檢視器 {#section-02b8c21dd842400e83eae2a48ec265b7}
 
-1. 要讓用戶能夠從集中選擇影像，可以添加元件 `MediaSet` 和 `Swatches`。
+1. 若要讓使用者能夠從影像集中選取影像，您可以新增元件 `MediaSet` 和 `Swatches`.
 
-   添加以下SDK包括：
+   新增下列SDK包含：
 
    ```javascript {.line-numbers}
    s7sdk.Util.lib.include('s7sdk.set.MediaSet'); 
    s7sdk.Util.lib.include('s7sdk.set.Swatches');
    ```
 
-1. 使用以下內容更新變數清單：
+1. 使用以下專案更新變數清單：
 
    ```javascript {.line-numbers}
    var mediaSet, container, zoomView, swatches;
    ```
 
-1. 實例化 `MediaSet` 和 `Swatches` 元件 `initViewer` 的子菜單。
+1. 具現化 `MediaSet` 和 `Swatches` 內的元件 `initViewer` 函式。
 
-   確保實例化 `Swatches` 實例 `ZoomView` 和 `Container` 元件，否則堆疊順序會隱藏 `Swatches`:
+   請務必將 `Swatches` 之後的執行個體 `ZoomView` 和 `Container` 元件，否則棧疊順序會隱藏 `Swatches`：
 
    ```javascript {.line-numbers}
    // Create MediaSet to manage assets and add event listener to the NOTF_SET_PARSED event 
@@ -244,7 +244,7 @@ SDK由構成查看器內容的UI元件組成。 您可以通過CSS和具有某�
    swatches.addEventListener(s7sdk.event.AssetEvent.SWATCH_SELECTED_EVENT, swatchSelected, false);
    ```
 
-1. 現在添加以下事件處理程式函式：
+1. 現在新增下列事件處理常式函式：
 
    ```javascript {.line-numbers}
    /* Event handler for the s7sdk.event.AssetEvent.NOTF_SET_PARSED event dispatched by MediaSet to 
@@ -266,7 +266,7 @@ SDK由構成查看器內容的UI元件組成。 您可以通過CSS和具有某�
    }
    ```
 
-1. 通過將以下CSS添加到 `style` 元素：
+1. 將下列CSS新增至，將色票置於檢視器底部 `style` 元素：
 
    ```CSS {.line-numbers}
    /* Align swatches to bottom of viewer */ 
@@ -278,39 +278,39 @@ SDK由構成查看器內容的UI元件組成。 您可以通過CSS和具有某�
    }
    ```
 
-1. 預覽查看器。
+1. 預覽您的檢視器。
 
-   注意，色板位於查看器左下角。 要使色板獲得整個查看器寬度，請添加一個調用，以便在用戶調整其瀏覽器大小時手動調整色板的大小。 將以下內容添加到 `resizeViewer` 函式：
+   請注意，色票位於檢視器的左下方。 若要讓色票取得整個檢視器寬度，請新增呼叫，以便在使用者調整瀏覽器大小時手動調整色票大小。 將下列專案新增至 `resizeViewer` 函式：
 
    ```javascript {.line-numbers}
    swatches.resize(width, swatches.getHeight());
    ```
 
-   您的查看器現在看起來與以下影像類似。 嘗試調整查看器的瀏覽器窗口大小並注意結果行為。
+   您的檢視器現在看起來像以下影像。 請嘗試調整檢視器瀏覽器視窗的大小，並注意產生的行為。
 
-   ![查看器示例二圖](assets/viewer-2.jpg)
+   ![檢視器範例2影像](assets/viewer-2.jpg)
 
-現在，將放大、縮小和縮放重置按鈕添加到查看器。
+現在新增放大、縮小和縮放重設按鈕到您的檢視器。
 
-## 向查看器添加按鈕 {#section-1fc334fa0d2b47eb9cdad461725c07be}
+## 將按鈕新增至檢視器 {#section-1fc334fa0d2b47eb9cdad461725c07be}
 
-1. 目前，用戶只能使用點擊或觸摸手勢進行縮放。 因此，向查看器添加一些基本縮放控制按鈕。
+1. 目前，使用者只能使用點按或觸控手勢進行縮放。 因此，請將一些基本縮放控制按鈕新增至檢視器。
 
-   添加以下按鈕元件：
+   新增下列按鈕元件：
 
    ```CSS {.line-numbers}
    s7sdk.Util.lib.include('s7sdk.common.Button');
    ```
 
-1. 使用以下內容更新變數清單：
+1. 使用以下專案更新變數清單：
 
    ```javascript {.line-numbers}
    var mediaSet, container, zoomView, swatches, zoomInButton, zoomOutButton, zoomResetButton;
    ```
 
-1. 實例化按鈕 `initViewer` 的子菜單。
+1. 將按鈕例項化在底部 `initViewer` 函式。
 
-   請記住，除非您指定 `z-index` 在CSS中：
+   請記住，順序很重要，除非您指定 `z-index` 在CSS中：
 
    ```CSS {.line-numbers}
    /* Create Zoom In, Zoom Out and Zoom Reset buttons */ 
@@ -324,7 +324,7 @@ SDK由構成查看器內容的UI元件組成。 您可以通過CSS和具有某�
    zoomResetButton.addEventListener("click", function() { zoomView.zoomReset(); });
    ```
 
-1. 現在，通過將以下內容添加到 `style` 阻止：
+1. 現在，將下列內容新增至，以定義按鈕的一些基本樣式 `style` 封鎖您的檔案頂端：
 
    ```CSS {.line-numbers}
    /* define styles common to all button components and their sub-classes */ 
@@ -350,29 +350,29 @@ SDK由構成查看器內容的UI元件組成。 您可以通過CSS和具有某�
     }
    ```
 
-1. 預覽查看器。 它應如下所示：
+1. 預覽您的檢視器。 它應如下所示：
 
-   ![查看器示例三幅影像](assets/viewer-3.jpg)
+   ![檢視器範例三影像](assets/viewer-3.jpg)
 
-   現在配置色板，使其在右側垂直對齊。
+   現在請設定「色票」，讓色票垂直對齊右側。
 
-## 垂直配置色板 {#section-91a8829d5b5a4d45a35b7faeb097fcc9}
+## 垂直設定色票 {#section-91a8829d5b5a4d45a35b7faeb097fcc9}
 
-1. 您可以直接在 `ParameterManager` 實例。
+1. 您可以直接在 `ParameterManager` 執行個體。
 
-   將以下內容添加到 `initViewer` 函式，以便您可以配置 `Swatches` 將拇指佈局作為單行：
+   將下列專案新增至 `initViewer` 函式中，以便您設定 `Swatches` 以單列顯示縮圖版面：
 
    ```javascript {.line-numbers}
    params.push("Swatches.tmblayout", "1,0");
    ```
 
-1. 在內部更新以下調整大小呼叫 `resizeViewer`:
+1. 在內更新下列調整大小呼叫 `resizeViewer`：
 
    ```javascript {.line-numbers}
    swatches.resize(swatches.getWidth(), height);
    ```
 
-1. 編輯以下內容 `s7swatches` 規則 `ZoomViewer.css`:
+1. 編輯下列專案 `s7swatches` 中的規則 `ZoomViewer.css`：
 
    ```CSS {.line-numbers}
    .s7swatches { 
@@ -383,10 +383,10 @@ SDK由構成查看器內容的UI元件組成。 您可以通過CSS和具有某�
    }
    ```
 
-1. 預覽查看器。 如下所示：
+1. 預覽您的檢視器。 它看起來像這樣：
 
-   ![查看器示例四個影像](assets/viewer-4.jpg)
+   ![檢視器範例4影像](assets/viewer-4.jpg)
 
-   基本縮放查看器現已完成。
+   您的基本縮放檢視器現已完成。
 
-   本查看器教程介紹了Dynamic Media查看器SDK提供的基礎。 在使用SDK時，您可以使用各種標準元件來輕鬆構建和風格化目標受眾的豐富查看體驗。
+   此檢視器教學課程會說明Dynamic Media Viewer SDK提供的基本知識。 當您使用SDK時，可以使用各種標準元件來輕鬆為目標受眾建置豐富的檢視體驗並打造樣式。

@@ -1,6 +1,6 @@
 ---
 title: JSONP屬性
-description: 如果將jsonp指定為響應格式，則使用JSONP（帶填充的JavaScript對象表示法）對答復資料進行格式化，並包裝在JavaScript函式調用中。
+description: 如果將jsonp指定為回應格式，則會使用JSONP （JavaScript物件標籤法加內邊距）將回覆資料格式化，並包裝在JavaScript函式呼叫中。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,9 +14,9 @@ ht-degree: 1%
 
 # JSONP屬性{#jsonp-properties}
 
-如果將jsonp指定為響應格式，則使用JSONP（帶填充的JavaScript對象表示法）對答復資料進行格式化，並包裝在JavaScript函式調用中。
+如果將jsonp指定為回應格式，則會使用JSONP （JavaScript物件標籤法加內邊距）將回覆資料格式化，並包裝在JavaScript函式呼叫中。
 
-客戶機可指定可選的唯一請求標識符( *`reqId`*)，它在響應中返回，允許客戶端區分非同步接收的多個響應。 典型響應具有以下一般結構：
+使用者端可以指定選用的唯一請求識別碼( *`reqId`*)，此資訊會傳回至回應，並允許使用者端區分非同步收到的多個回應。 典型回應的一般結構如下：
 
 ```
 /*jsonp*/s7jsonResponse({ 
@@ -37,7 +37,7 @@ ht-degree: 1%
 </varname>" );
 ```
 
-的 `s7jsonResponse` JavaScript函式必須由客戶端定義。 在最簡單的形式中，函式可能如下所示：
+此 `s7jsonResponse` JavaScript函式必須由使用者端定義。 函式最簡單的形式可能如下所示：
 
 ```
 var responseData; 
@@ -47,16 +47,16 @@ S7jsonResponse(data, reqId)
 }
 ```
 
-支援JSONP響應格式的請求允許您使用擴展語法指定JS回調處理程式的名稱 `req=` 參數：
+支援JSONP回應格式的請求可讓您使用擴充語法來指定JS回呼處理常式的名稱。 `req=` 引數：
 
 `req=...,json [&handler = reqHandler]`
 
-的 `<reqHandler>` 語法是JSONP響應中存在的JS處理程式的名稱。 只允許使用a-z、A-Z和0-9個字元。 選擇性. 預設為 `s7jsonResponse`.
+此 `<reqHandler>` 語法是JSONP回應中呈現的JS處理常式名稱。 僅允許a-z、A-Z和0-9字元。 選擇性. 預設為 `s7jsonResponse`.
 
-Dynamic Media影像服務查看器包包括用於從影像服務請求和分析JSONP格式的資料的實用程式。
+Dynamic Media Image Serving Viewers套件包含從Image Serving請求及剖析JSONP格式資料的公用程式。
 
-請參閱 [https://en.wikipedia.org/wiki/JSONP](https://en.wikipedia.org/wiki/JSONP) 的子菜單。
+另請參閱 [https://en.wikipedia.org/wiki/JSONP](https://en.wikipedia.org/wiki/JSONP) 以取得有關JSONP格式的詳細資訊。
 
-請參閱 [www.json.org](https://www.json.org/json-en.html) 的子菜單。
+另請參閱 [www.json.org](https://www.json.org/json-en.html) 以取得有關JSON格式的詳細資訊。
 
-另請參閱 [請求](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76)。
+另請參閱 [需要](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76).

@@ -1,5 +1,5 @@
 ---
-description: 獲取計畫運行的作業。
+description: 取得排定要執行的工作。
 solution: Experience Manager
 title: getScheduledJobs
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 22%
 
 # getScheduledJobs{#getscheduledjobs}
 
-獲取計畫運行的作業。
+取得排定要執行的工作。
 
 語法
 
-## 授權用戶類型 {#section-bd1835ab508a429f8143b3bdb811d6a4}
+## 授權的使用者型別 {#section-bd1835ab508a429f8143b3bdb811d6a4}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -35,19 +35,19 @@ ht-degree: 22%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 公司句柄 | `xsd:string` | 是 | 公司的把手。 |
-| 作業句柄 | `xsd:string` | 否 | 作業處理。 |
-| 原始名稱 | `xsd:string` | 否 | 指定的名稱 `submitJob`。 |
+| companyHandle | `xsd:string` | 是 | 公司的控制代碼。 |
+| jobHandle | `xsd:string` | 否 | 工作控制代碼。 |
+| 原始名稱 | `xsd:string` | 否 | 指定的名稱 `submitJob`. |
 
 **輸出(getScheduledJobsReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| jobArray | `types:ScheduledJobArray` | 是 | 計畫的作業陣列。 |
+| jobArray | `types:ScheduledJobArray` | 是 | 排程工作的陣列。 |
 
 ## 範例 {#section-e79e7da86ba848fd9996aa36de462e6c}
 
-此代碼示例返回作業陣列中的所有計畫作業。 陣列本身包含有關作業的詳細資訊。
+此程式碼範例會傳回工作陣列中的所有排程工作。 陣列本身包含有關作業的詳細資訊。
 
 **請求**
 

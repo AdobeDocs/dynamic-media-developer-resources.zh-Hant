@@ -1,7 +1,7 @@
 ---
-description: 使用基於目錄或基於過期的快取驗證自動刷新快取條目，這與屬性CacheValidationPolicy（預設為.ini或特定映像目錄的.ini檔案）一起選擇。
+description: 使用目錄型或過期型快取驗證來自動重新整理快取專案，如使用屬性CacheValidationPolicy （在default.ini或特定影像目錄的.ini檔案中）所選取。
 solution: Experience Manager
-title: 響應快取驗證
+title: 回應快取驗證
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: d2baa6e6-2700-450f-af1e-88b6d33d0e0c
@@ -12,20 +12,20 @@ ht-degree: 0%
 
 ---
 
-# 響應快取驗證{#response-cache-validation}
+# 回應快取驗證{#response-cache-validation}
 
-使用基於目錄或基於過期的快取驗證自動刷新快取條目，如與屬性：:CacheValidationPolicy（在default.ini或特定映像目錄的.ini檔案中）一起選擇。
+使用目錄型或過期型快取驗證來自動重新整理快取專案，如使用attribute：：CacheValidationPolicy （在default.ini或特定影像目錄的.ini檔案中）所選取。
 
-使用基於目錄的驗證，如果現有快取條目在 `catalog::LastModified` 或 `attribute::LastModified`，或 [!DNL catalog.ini] 檔案)比建立快取項的時間更新。
+若使用目錄型驗證，則現有的快取專案會被視為過時 `catalog::LastModified` (或 `attribute::LastModified`，或的檔案修改時間 [!DNL catalog.ini] file)的時間比建立快取專案的時間更近。
 
-使用基於過期的驗證，自最近的驗證以來，快取項在5分鐘後變為陳舊。 在這兩種情況下，伺服器通過檢查與建立請求相關的所有映像檔案的檔案日期來驗證過時的快取條目。 如果檔案日期未更改，則更新快取項的時間戳，並且快取日期被視為有效。
+使用過期基準驗證，快取專案在距最近一次驗證後5分鐘後會過時。 在這兩種情況下，伺服器會檢查與建立請求有關的所有影像檔案的檔案日期，以驗證過時的快取專案。 如果檔案日期未變更，則會更新快取專案的時間戳記，並將快取日期視為有效。
 
-對於通常涉及在影像目錄中註冊的影像的典型應用程式，基於目錄的驗證提供了效能優勢。 不涉及映像目錄的應用程式應使用基於過期的快取驗證。 實現這一目標的一種方法是 `attribute::cacheValidationPolicy=0` 在 [!DNL default.ini], `1` 所有特定映像目錄檔案中。
+對於主要涉及在影像目錄中註冊的影像的典型應用程式，目錄型驗證可提供效能優勢。 不涉及影像目錄的應用程式應使用過期快取驗證。 達成此目標的一種方式是設定 `attribute::cacheValidationPolicy=0` 在 [!DNL default.ini]，並至 `1` 於所有特定影像目錄檔案中。
 
-當請求中涉及的目錄條目以可能導致回復映像更改的方式發生更改時，快取條目將變為無效，並且可能會重新生成。 例如， `catalog::Modifier` 更改。
+當請求中涉及的目錄專案以可能導致回覆影像變更的方式變更時，快取專案會變成無效並需要重新產生。 例如， `catalog::Modifier` 變更。
 
 >[!NOTE]
 >
->Dynamic Media金字塔TIFF(PTIFF)影像在檔案頭中內部維護檔案日期，以供驗證。 檔案系統維護的檔案修改時間用於檢查非PTIFF檔案是否已更改。
+>Dynamic Media金字塔TIFF(PTIFF)影像會在檔案標題內部維護檔案日期，以用於驗證。 檔案系統維護的檔案修改時間用於檢查非PTIFF檔案是否已變更。
 
-只有影像檔案參與快取驗證過程。 對字型檔案或ICC配置檔案的更改不會導致快取項的自動無效。
+只有影像檔案會參與快取驗證程式。 變更字型檔案或ICC設定檔檔案不會造成快取專案自動失效。

@@ -1,6 +1,6 @@
 ---
-title: 文本定位
-description: 將text= renderer應用於預定大小的圖層時（即當也指定了size=時），文本的位置與textPs= renderer的位置有根本的不同。
+title: 文字定位
+description: 在套用至預先設定的大小圖層時（亦即指定size=時），text=轉譯器會定位與textPs=轉譯器截然不同的文字。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,54 +12,54 @@ ht-degree: 0%
 
 ---
 
-# 文本定位{#text-positioning}
+# 文字定位{#text-positioning}
 
-的 `text=` 呈現器將文本定位在與應用於預定大小的圖層時完全不同的位置（即當也指定了size=時）。
+此 `text=` 當套用至預先設定的大小圖層時（亦即指定size=時），轉譯器會定位與textPs=轉譯器截然不同的文字。
 
-自調整大小 `text=`和 `textPs=` 圖層具有相似的外觀和定位。
+自行調整大小 `text=`和 `textPs=` 圖層具有類似的外觀和位置。
 
-的 `textPs=` 將字元單元格的頂部與文本框的頂部對齊(假定 `\vertalt`)，即使它導致部分渲染的文本字形部分延伸到文本框邊界之外。 某些字型的渲染字形也可能略微突出到文本框的左右邊緣之外。 對於要求圖層矩形中包含所有渲染文本的應用程式，RTF `\marg*` 或 `textFlowPath=` 可用於調整文本渲染區域。
+此 `textPs=` 將字元儲存格的頂端與文字方塊的頂端對齊(假設 `\vertalt`)，即使這會導致部分呈現的文字字元延伸到文字方塊邊界之外。 某些字型的演算字元也可能會稍微超出文字方塊的左右邊緣。 對於要求所有演算後的文字都包含在圖層矩形內的應用程式，RTF會 `\marg*` 命令或 `textFlowPath=` 可用來調整文字演算區域。
 
-相反， `text=` 根據需要移動渲染的文本，並確保所有渲染的字形完全適合在指定的文本框內。
+相反地， `text=` 視需要移動演算後的文字，並確保所有演算後的字元完全符合指定的文字方塊。
 
-同時 `text=` 對於簡單的應用程式，可能會稍微容易一些， `textPs=` 提供與字面和文本效果無關的精確定位。
+當 `text=` 對於簡單的應用程式可能更容易使用， `textPs=` 提供獨立於字型面和文字效果的精確定位。
 
 ## 範例 {#section-1b6bdf2ea34447528188ae4e1430ee71}
 
-以下示例用於預定大小的文本。 自調整文本大小的行為不同。
+以下範例適用於預先調整大小的文字。 自行調整文字大小的行為不同。
 
-** `Text=` 始終在頂部提供一個窄邊距：**
+** `Text=` 一律會在頂端提供窄邊界：**
 
-![文本定位示例一個影像](assets/tp01.png)
+![文字定位範例一個影像](assets/tp01.png)
 
 `/is/image/?size=230,50&bgc=f0f0f0&fmt=png&text=\fs40Normal%20Normal%20Normal`
 
-** `textPs=` 將文本緊對齊到文本框頂部，這會導致輕微剪切，即使是常用字型，如Arial®:**
+** `textPs=` 會呈現文字與文字方塊頂端緊密對齊，因此會產生輕微的剪裁，即使是Arial®：**等常見字型也是如此
 
-![文本定位示例二圖](assets/tp02.png)
+![文字定位範例二影像](assets/tp02.png)
 
 `/is/image/?size=230,50&bgc=f0f0f0&fmt=png&textPs=\fs40Normal%20Normal%20Normal`
 
-** `text=` 自動將渲染的文本向下移動以避免剪切：**
+** `text=` 自動將演算後的文字下移以避免剪裁：**
 
-![文本定位示例三幅影像](assets/tp03.png)
+![文字定位範例三影像](assets/tp03.png)
 
 `/is/image?size=230,50&bgc=f0f0f0&fmt=png&text=\fs40Normal%20{\up20Raised%20}Normal`
 
-** `textPs=` 不移動包含凸起部分的文本，如果文本位於圖層0:**上，則會導致顯著剪切
+** `textPs=` 不會移動包含凸出部分的文字，如果文字位於圖層0：**上，則會產生顯著的剪裁
 
-![文本定位示例四幅影像](assets/tp04.png)
+![文字定位範例四影像](assets/tp04.png)
 
 `/is/image?size=230,50&bgc=f0f0f0&fmt=png&textPs=\fs40Normal%20{\up20Raised%20}Normal`
 
-**頂部的10 pt(200 twips)邊距將呈現此文本，而不進行剪貼：**
+**頂端的10點（200倍）邊界會轉譯此文字而不進行剪裁：**
 
-![文本定位示例五幅影像](assets/tp05.png)
+![文字定位範例五影像](assets/tp05.png)
 
 `/is/image?size=230,50&bgc=f0f0f0&fmt=png&textPs=\margt200\fs40Normal%20{\up20Raised}%20Normal`
 
-**某些指令碼字型的渲染字形可能會顯著擴展到文本框之外：**
+**某些指令碼字型的演算字元可能會顯著延伸至文字方塊之外：**
 
-![文本定位示例六幅影像](assets/tp06.png)
+![文字定位範例六影像](assets/tp06.png)
 
 `/is/image?size=230,50&bgc=f0f0f0&fmt=png&textPs={\fonttbl{\f1\fcharset0%20FluffyFont;}}\f1\fs88%20fluffy%20font%20problems`

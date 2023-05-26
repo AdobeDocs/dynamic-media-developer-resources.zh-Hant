@@ -1,6 +1,6 @@
 ---
-title: 視頻全屏按鈕
-description: 全屏按鈕使查看器在用戶選中時進入或退出全屏模式。 當觀看者正在顯示視頻並且位於控制欄中時，使用它。 如果查看器在彈出模式下工作且系統不支援本機全屏，則不顯示此按鈕。
+title: 視訊全熒幕按鈕
+description: 使用者選取全熒幕按鈕時，檢視器會進入或退出全熒幕模式。 當檢視器顯示視訊且位於控制列時，就會使用它。 如果檢視器在快顯視窗模式下運作且系統不支援原生全熒幕，則不會顯示此按鈕。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
@@ -12,68 +12,68 @@ ht-degree: 2%
 
 ---
 
-# 視頻全屏按鈕{#video-full-screen-button}
+# 視訊全熒幕按鈕{#video-full-screen-button}
 
-當用戶選擇全屏模式時，全屏按鈕會使查看器進入或退出全屏模式。 當觀看者正在顯示視頻並且位於控制欄中時，使用它。 如果查看器在彈出模式下工作且系統不支援本機全屏，則不顯示此按鈕。
+使用者選取「全熒幕」按鈕時，檢視器會進入或退出全熒幕模式。 當檢視器顯示視訊且位於控制列時，就會使用它。 如果檢視器在快顯視窗模式下運作且系統不支援原生全熒幕，則不會顯示此按鈕。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-您可以通過CSS調整全屏按鈕的大小、外觀和相對於包含該按鈕的控制欄的位置。
+您可以相對於包含全熒幕按鈕的控制列，使用CSS調整全熒幕按鈕的大小、外觀和位置。
 
-全屏按鈕的外觀由CSS類選擇器控制：
+全熒幕按鈕的外觀由CSS類別選取器控制：
 
 ```
 .s7mixedmediaviewer .s7fullscreenbutton
 ```
 
-**全屏按鈕的CSS屬性**
+**全熒幕按鈕的CSS屬性**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 頂部 </span> </p> </td> 
-   <td colname="col2"> <p> 從上邊框定位，包括填充。 </p> </td> 
+   <td colname="col2"> <p> 上邊框的位置，包括邊框間距。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 右側 </span> </p> </td> 
-   <td colname="col2"> <p> 從右邊框定位，包括填充。 </p> </td> 
+   <td colname="col2"> <p> 從右邊框定位，包括內距。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 左側 </span> </p> </td> 
-   <td colname="col2"> <p> 從左邊框定位，包括填充。 </p> </td> 
+   <td colname="col2"> <p> 從左邊框定位，包括內距。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 底部 </span> </p> </td> 
-   <td colname="col2"> <p>從底邊框定位，包括填充。 </p> </td> 
+   <td colname="col2"> <p>從下邊框定位，包括內距。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> 全屏按鈕的寬度。 </p> </td> 
+   <td colname="col2"> <p> 全熒幕按鈕的寬度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>全屏按鈕的高度。 </p> </td> 
+   <td colname="col2"> <p>全熒幕按鈕的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景影像 </span> </p> </td> 
-   <td colname="col2"> <p> 給定按鈕狀態的顯示影像。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col2"> <p> 指定按鈕狀態的顯示影像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS浮雕，則在圖稿浮雕內定位。 </p> <p>請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS繁體 </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> 若使用CSS sprite，則定位在圖稿sprite內。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按鈕支援 `state` 和 `selected` 屬性選擇器，可用於將不同的外觀應用於不同的按鈕狀態。 特別是， `selected='true'` 對應於「全屏」狀態 `selected='false'` 對應於「正常」狀態。
+>此按鈕同時支援 `state` 和 `selected` 屬性選取器，可將不同的外觀元素套用至不同的按鈕狀態。 尤其是， `selected='true'` 對應至「全熒幕」狀態和 `selected='false'` 對應至「正常」狀態。
 
-按鈕工具提示可以本地化。 請參閱 [用戶介面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) 的子菜單。
+按鈕工具提示可以本地化。 另請參閱 [使用者介面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) 以取得詳細資訊。
 
 ## 範例 {#section-e8caea0a303c425a8a637c2a47c06355}
 
-設定一個32 x 32像素的全屏按鈕，並從控制欄的上邊緣和右邊緣定位6像素。 此外，當選中或未選中時，為四個不同的按鈕狀態中的每個狀態顯示不同的影像。
+若要設定全熒幕按鈕，其大小為32 x 32畫素，且位於距離控制列上邊緣與右邊緣6畫素的位置。 此外，選取或未選取時，針對四種不同按鈕狀態分別顯示不同的影像。
 
 ```
 .s7mixedmediaviewer . s7fullscreenbutton { 

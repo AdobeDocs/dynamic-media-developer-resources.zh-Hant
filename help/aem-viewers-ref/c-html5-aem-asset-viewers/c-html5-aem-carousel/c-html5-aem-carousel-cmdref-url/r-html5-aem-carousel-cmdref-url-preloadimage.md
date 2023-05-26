@@ -1,6 +1,6 @@
 ---
-title: 預載入影像
-description: Carousel查看器的URL命令。
+title: preloadImage
+description: 轉盤檢視器的URL命令。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
@@ -12,9 +12,9 @@ ht-degree: 14%
 
 ---
 
-# 預載入影像 {#preloadimage}
+# preloadImage {#preloadimage}
 
-Carousel查看器的URL命令。
+轉盤檢視器的URL命令。
 
 `preloadImage=0|1`
 
@@ -22,7 +22,7 @@ Carousel查看器的URL命令。
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 啟用(<span class="codeph"> 1</span>)或禁用(<span class="codeph"> 0</span>)預載入影像特徵。 </p> <p>請參閱 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-preload-image.md" format="dita" scope="local"> 預載入影像</a>。 </p> </td> 
+   <td colname="col2"> <p> 啟用(<span class="codeph"> 1</span>)或停用(<span class="codeph"> 0</span>)預先載入影像功能。 </p> <p>另請參閱 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-preload-image.md" format="dita" scope="local"> 預先載入影像</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

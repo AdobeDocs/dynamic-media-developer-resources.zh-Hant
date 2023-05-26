@@ -1,7 +1,7 @@
 ---
-description: 音頻檔案資產的屬性。
+description: 音訊檔案資產的屬性。
 solution: Experience Manager
-title: 音頻資訊
+title: 音訊資訊
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 51d09533-2964-4b46-b45b-cc65e178ee0a
@@ -14,7 +14,7 @@ ht-degree: 23%
 
 # [!DNL AudioInfo]{#audioinfo}
 
-音頻檔案資產的屬性。
+音訊檔案資產的屬性。
 
 語法
 
@@ -22,6 +22,6 @@ ht-degree: 23%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 原始路徑 | `xsd:string` | 音頻檔案的路徑。 |
+| 原始路徑 | `xsd:string` | 音訊檔案的路徑。 |
 | 原始檔案 | `xsd:string` | 檔案名稱. |
-| 檔案大小 | `xsd:int` | 檔案大小。 |
+| fileSize | `xsd:int` | 檔案大小。 |

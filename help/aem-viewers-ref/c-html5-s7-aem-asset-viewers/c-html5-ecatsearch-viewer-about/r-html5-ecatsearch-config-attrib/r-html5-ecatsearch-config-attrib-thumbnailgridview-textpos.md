@@ -19,8 +19,8 @@ ht-degree: 4%
 <table id="table_1BEBE260769B4A0C9E9F5016D2FA68A0"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> 下|上|左|右|無</span> </p> </td> 
-   <td> <p> 指定標籤相對於縮略圖的繪製位置。 即，標籤位於相對於縮略圖的指定位置中心。 </p> <p>當 <span class="codeph"> 提示</span> 指定時，標籤文本將作為浮動工具提示顯示在縮略圖上。 設定為 <span class="codeph"> 無</span> 關閉標籤。 </p> </td> 
+   <td> <p> <span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
+   <td> <p> 指定相對於縮圖影像的標籤繪製位置。 也就是說，標籤會以相對於縮圖的指定位置為中心。 </p> <p>時間 <span class="codeph"> 工具提示</span> 指定，標籤文字會以浮動工具提示的形式顯示在縮圖影像上。 設定為 <span class="codeph"> 無</span> 以關閉標籤。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

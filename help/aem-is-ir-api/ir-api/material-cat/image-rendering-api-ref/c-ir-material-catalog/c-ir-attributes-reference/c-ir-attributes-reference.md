@@ -1,6 +1,6 @@
 ---
-title: 屬性引用
-description: 除目錄RootId外，所有目錄屬性都是可選的。 預設目錄屬性檔案(default.ini)中需要所有屬性。
+title: 屬性參考
+description: 除了目錄RootId之外，所有目錄屬性都是選擇性的。 預設目錄屬性檔案(default.ini)中需要所有屬性。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,6 +12,6 @@ ht-degree: 0%
 
 ---
 
-# 屬性引用{#attributes-reference}
+# 屬性參考{#attributes-reference}
 
-所有目錄屬性都是可選的，但目錄：:RootId除外。 預設目錄屬性檔案(default.ini)中需要所有屬性。
+除了目錄：：RootId之外，所有目錄屬性都是選擇性的。 預設目錄屬性檔案(default.ini)中需要所有屬性。

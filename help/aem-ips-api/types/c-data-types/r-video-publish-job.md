@@ -1,7 +1,7 @@
 ---
-description: 將檔案發佈到已配置的視頻發佈伺服器。
+description: 將檔案發佈至設定的視訊發佈伺服器。
 solution: Experience Manager
-title: 視頻發佈工作
+title: 視訊發佈工作
 feature: Dynamic Media Classic,SDK/API,Video
 role: Developer,Admin
 exl-id: 4b295025-6e8d-4329-87c1-63633bf26129
@@ -14,7 +14,7 @@ ht-degree: 12%
 
 # [!DNL VideoPublishJob]{#videopublishjob}
 
-將檔案發佈到已配置的視頻發佈伺服器。
+將檔案發佈至設定的視訊發佈伺服器。
 
 語法
 
@@ -22,6 +22,6 @@ ht-degree: 12%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 電子郵件設定 | `xsd:string` | 選擇電子郵件設定。 |
-| httpCompletionUrl | `xsd:string` | 發送完成通知的URL。 |
-| 上下文句柄 | `xsd:string` | 處理發佈上下文。 |
+| emailSetting | `xsd:string` | 選擇電子郵件設定。 |
+| httpCompletionUrl | `xsd:string` | 用於傳送完成通知的URL。 |
+| contextHandle | `xsd:string` | 處理發佈內容的動作。 |

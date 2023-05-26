@@ -1,6 +1,6 @@
 ---
 title: PanoramicView.fmt
-description: 指定元件用於從Image Server載入影像的影像格式。
+description: 指定元件從影像伺服器載入影像時，所使用的影像格式。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
@@ -13,7 +13,7 @@ ht-degree: 2%
 
 # PanoramicView.fmt{#panoramicview-fmt}
 
-指定元件用於從Image Server載入影像的影像格式。 如果指定的格式以「 — alpha」結尾，則元件將影像呈現為透明。 對於所有其它影像格式，該元件將影像視為不透明。 請注意，預設情況下，元件具有透明背景。 因此，要使其不透明，請 `background-color` CSS屬性到 `desired_color`
+指定元件從影像伺服器載入影像時，所使用的影像格式。 如果指定的格式結尾為&quot;-alpha&quot;，元件會將影像呈現為透明。 至於所有其他影像格式，元件會將影像視為不透明。 請注意，元件預設為透明背景。 因此，若要使其不透明，請將 `background-color` CSS屬性至 `desired_color`
 
 `[PanoramicView.|<containerId>_panoramicView.]fmt=jpg|jpeg|png|png-alpha|gif|gif-alpha`
 
@@ -21,7 +21,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha </span> </p> </td> 
-   <td colname="col2"> <p> 指定元件用於從Image Server載入影像的影像格式。 如果指定的格式以「 — alpha」結尾，則元件將影像呈現為透明內容；對於所有其它影像格式，元件將影像視為不透明。 請注意，預設情況下元件具有透明背景，因此為了不透明，請將背景顏色CSS屬性設定為所需顏色。 </p> </td> 
+   <td colname="col2"> <p> 指定元件從影像伺服器載入影像時所用的影像格式。 如果指定的格式結尾為"-alpha"，元件會將影像呈現為透明內容，至於所有其他影像格式，元件會將影像視為不透明。 請注意，元件預設為透明背景，因此為了不透明，請將background-color CSS屬性設定為所要的顏色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

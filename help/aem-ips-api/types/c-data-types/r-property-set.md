@@ -1,5 +1,5 @@
 ---
-description: 屬性集的類型和值。
+description: 屬性集的型別和值。
 solution: Experience Manager
 title: 屬性集
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 13%
 
 # [!DNL PropertySet]{#propertyset}
 
-屬性集的類型和值。
+屬性集的型別和值。
 
 語法
 
@@ -22,6 +22,6 @@ ht-degree: 13%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| setHandle | `xsd:string` | 屬性集句柄。 |
-| 類型句柄 | `xsd:string` | 屬性集類型的句柄。 |
-| 屬性Array | `types:PropertyArray` | 名稱 — 值對。 可以包含零個項。 |
+| setHandle | `xsd:string` | 屬性集控制代碼。 |
+| typeHandle | `xsd:string` | 屬性集型別的控制代碼。 |
+| propertyArray | `types:PropertyArray` | 名稱 — 值組。 可以包含零個專案。 |

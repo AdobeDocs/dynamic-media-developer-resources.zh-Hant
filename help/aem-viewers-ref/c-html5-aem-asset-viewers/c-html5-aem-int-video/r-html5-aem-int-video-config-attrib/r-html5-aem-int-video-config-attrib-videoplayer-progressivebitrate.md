@@ -1,6 +1,6 @@
 ---
 title: VideoPlayer.progressivebitrate
-description: Interactive Video Viewer的配置屬性。
+description: 互動式視訊檢視器的設定屬性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # VideoPlayer.progressivebitrate{#videoplayer-progressivebitrate}
 
-Interactive Video Viewer的配置屬性。
+互動式視訊檢視器的設定屬性。
 
 ` [VideoPlayer.|<containerId>_videoPlayer.]progressivebitrate= *`值`*`
 
@@ -22,7 +22,7 @@ Interactive Video Viewer的配置屬性。
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 值</span> </p> </td> 
-   <td colname="col2"> <p> 以千比特/秒(kbps)為單位，指定在當前系統不支援自適應視頻回放時從自適應視頻集播放的所需視頻比特率。 </p> <p>該元件以最接近（但不超過）的比特率提取視頻流到指定值。 如果自適應視頻集中的所有視頻流的質量都高於指定值，則邏輯選擇質量最低的比特率。 </p> </td> 
+   <td colname="col2"> <p> 指定萬一目前系統不支援自我調整視訊播放時，要從「自我調整視訊集」播放的所需視訊位元速率(以千位元/秒(kbps)為單位)。 </p> <p>元件會挑選位元速率最接近（但不超過）指定值的視訊資料流。 如果「自我調整視訊集」中的所有視訊串流都具有高於指定值的品質，則邏輯會選擇品質最低的位元速率。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

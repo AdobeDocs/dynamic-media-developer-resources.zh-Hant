@@ -1,6 +1,6 @@
 ---
-title: 使用響應映像庫
-description: 要將響應映像庫添加到網頁並使用該庫管理現有映像，請完成以下步驟。
+title: 使用Responsive影像資料庫
+description: 若要將Responsive影像庫新增至網頁，並使用庫管理現有影像，請完成下列步驟。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,37 +12,37 @@ ht-degree: 0%
 
 ---
 
-# 使用響應映像庫{#using-responsive-image-library}
+# 使用Responsive影像資料庫{#using-responsive-image-library}
 
-要將響應映像庫添加到網頁並使用該庫管理現有映像，請完成以下步驟。
+若要將Responsive影像庫新增至網頁，並使用庫管理現有影像，請完成下列步驟。
 
-**使用響應映像庫**
+**若要使用Responsive影像資料庫**
 
-1. 在Dynamic Media Classic, [建立影像預設](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html#image-sizing) 以防您計畫使用帶預設的響應影像庫。
+1. 在Dynamic Media Classic中， [建立影像預設集](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html#image-sizing) 以防您計畫搭配預設集使用回應式影像資料庫。
 
-   在定義與響應影像庫一起使用的影像預設時，不要使用任何影響影像大小的設定，如 `wid=`。 `hei=`或 `scl=`。 不要在「影像預設」中指定任何大小欄位。 相反，將其保留為空值。
-1. 將庫JavaScript檔案添加到網頁。
+   定義與Responsive影像資料庫一起使用的影像預設集時，請勿使用任何會影響影像大小的設定，例如 `wid=`， `hei=`，或 `scl=`. 請勿在影像預設集中指定任何大小欄位。 請改為保留為空白值。
+1. 將資料庫JavaScript檔案新增至您的網頁。
 
-   在使用庫API之前，請確保包括 `responsive_image.js`。 此JavaScript檔案位於 `libs/` 標準IS查看器部署的子資料夾：
+   使用程式庫API之前，請務必先包含 `responsive_image.js`. 此JavaScript檔案位於 `libs/` 標準IS-Viewers部署的子資料夾：
 
    `<s7viewers_root>/libs/responsive_image.js`
-1. 設定現有映像。
+1. 設定現有影像。
 
-   庫從它正在使用的映像實例中讀取某些配置屬性。 在 `s7responsiveImage` 調用API函式來獲取此映像。
+   程式庫會從正在使用的影像執行個體讀取某些設定屬性。 在之前定義屬性 `s7responsiveImage` 這類影像會呼叫API函式。
 
-   還建議將現有影像URL放入 `data-src` 屬性。 然後，設定現有 `src` 屬性，將1x1GIF影像編碼為資料URI。 這樣，可減少網頁在載入時發送的HTTP請求數。 但請注意，如果需要SEO（搜索引擎優化），最好設定 `title` 屬性。
+   也建議您將現有的影像URL放入 `data-src` 屬性。 然後，設定現有的 `src` 屬性，將1x1GIF影像編碼為資料URI。 如此一來，可減少網頁在載入時傳送的HTTP要求數目。 不過請注意，如果需要SEO （搜尋引擎最佳化），最好設定 `title` 屬性。
 
-   以下是定義 `data-breakpoints` 影像的屬性，並使用編碼為資料URI的1x1GIF:
+   以下範例為定義 `data-breakpoints` 屬性，並使用編碼為資料URI的1x1GIF：
 
    ```
    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360,720,940">
    ```
 
-1. 呼叫 `s7responsiveImage` 庫管理的每個映像實例的API函式。
+1. 呼叫 `s7responsiveImage` 適用於資料庫管理的每個影像例項的API函式。
 
-   呼叫 `s7responsiveImage` 庫管理的每個映像實例的API函式。 在這樣的調用之後，庫根據映像服務的運行時大小，用從映像服務下載的映像替換原始映像 `IMG` 網頁佈局中的元素和設備螢幕的密度。
+   呼叫 `s7responsiveImage` 適用於資料庫管理的每個影像例項的API函式。 進行這類呼叫後，資料庫會根據的執行階段大小，以從「影像伺服」下載的影像取代原始影像。 `IMG` 元素以及裝置熒幕的密度。
 
-   以下代碼是調用的示例 `s7responsiveImage` API函式，假設 `responsiveImage` 是該影像的ID:
+   下列程式碼是呼叫的範例 `s7responsiveImage` 影像上的API函式，假設 `responsiveImage` 是該影像的ID：
 
    ```
    <script type="text/javascript"> 
@@ -52,11 +52,11 @@ ht-degree: 0%
 
 ## 範例 {#example-0509a0dd2a8e4fd58b5d39a0df47bd87}
 
-該庫支援同時處理網頁上的許多影像實例。 因此，對希望庫管理的每個映像重複上述步驟1和2。
+資料庫支援同時使用網頁上的許多影像執行個體。 因此，請針對您想要資料庫管理的每個影像，重複上述步驟1和2。
 
-對影像元素進行造型是網頁的責任，使其尺寸靈活。 響應影像庫本身不區分固定大小和「流體」影像。 如果應用於固定大小的影像，則只載入一次新影像。
+網頁應負責設定影像元素的樣式，使其大小可彈性調整。 Responsive影像資料庫本身不會區分固定大小和「流動」影像。 如果套用至固定大小的影像，則只會載入新影像一次。
 
-以下代碼是普通網頁的完整示例，該網頁具有由響應影像庫管理的單個流體影像。 該示例包含額外的CSS樣式，使影像「響應」Web瀏覽器窗口大小：
+下列程式碼為簡單網頁的完整範例，該網頁具有由Responsive Image資料庫管理的單一Fluid影像。 此範例包含額外的CSS樣式，可讓影像「回應」網頁瀏覽器視窗大小：
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -83,14 +83,14 @@ ht-degree: 0%
 </html>
 ```
 
-**使用智慧裁剪**
+**使用智慧型裁切**
 
-6.4和Dynamic Media觀眾5.9中AEM提供兩種智慧裁剪模式：
+AEM 6.4和Dynamic Media Viewers 5.9提供兩種智慧型裁切模式：
 
-* **手動**  — 用戶定義的斷點和相應的映像服務命令在映像元素的屬性中定義。
-* **智慧裁剪**  — 計算的智慧裁剪格式副本自動從交付伺服器中檢索。 使用影像元素的運行時大小選擇最佳格式副本。
+* **手動**  — 使用者定義的中斷點和對應的影像服務命令會在影像元素的屬性內定義。
+* **智慧型裁切**  — 系統會自動從傳遞伺服器擷取運算智慧型裁切轉譯。 最佳轉譯是使用影像元素的執行階段大小來選取。
 
-要使用智慧裁剪模式，請設定 `data-mode` 屬性 `smart crop`。 例如: 
+若要使用智慧型裁切模式，請設定 `data-mode` 屬性至 `smart crop`. 例如: 
 
 ```html {.line-numbers}
 <img 
@@ -99,7 +99,7 @@ data-src="https://imageserver.com/is/image/ExampleCo/SmartCropAsset"
 data-mode="smartcrop">
 ```
 
-相關影像元素分配 `s7responsiveViewer` 斷點更改時的運行時事件。
+關聯的影像元素會傳送 `s7responsiveViewer` 執行階段中斷點變更時的事件。
 
 ```javascript {.line-numbers}
          responsiveImage.addEventListener("s7responsiveViewer", function (event) { 

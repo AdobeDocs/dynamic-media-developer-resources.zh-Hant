@@ -1,5 +1,5 @@
 ---
-description: 地址篩選器元素。 可選 <rule> 元素。 應用規則時覆蓋屬性ClientAddressFilter。
+description: 位址篩選元素。 選填於 <rule> 元素。 套用規則時覆寫屬性ClientAddressFilter。
 solution: Experience Manager
 title: 地址篩選器
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # 地址篩選器{#addressfilter}
 
-地址篩選器元素。 可選 `<rule>` 元素。 應用規則時覆蓋屬性：:ClientAddressFilter。
+位址篩選元素。 選填於 `<rule>` 元素。 套用規則時覆寫attribute：：ClientAddressFilter。
 
 ## 屬性 {#section-e7a0960f7f0045da91de37824aa4aeaa}
 
@@ -22,18 +22,18 @@ ht-degree: 2%
 
 ## 資料 {#section-eb138f192516418a9ef2ab9a38c9ee9e}
 
-以逗號分隔的IP地址清單。 每個單獨的地址可包括可選的網路掩碼尾碼以允許IP地址範圍的規範。 請參閱 [屬性：:ClientAddressFilter](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-clientaddressfilter.md) 的雙曲餘切值。
+IP位址的逗號分隔清單。 每個個別位址都可包含選用的網路遮罩字尾，以指定IP位址範圍。 另請參閱 [attribute：：ClientAddressFilter](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-clientaddressfilter.md) 以取得詳細資訊。
 
 ## 說明 {#section-099b7839c4be40c68cbff29dad14e7d5}
 
-通過在 `<addressfilter>` 的子菜單。 如果客戶端IP地址不匹配，則會向客戶端返回「請求拒絕」錯誤。
+您可以透過在中指定一個或多個特定IP位址，來限制對此影像目錄的存取 `<addressfilter>` 元素。 如果使用者端IP位址不相符，則會傳回「請求被拒絕」錯誤給使用者端。
 
-如果 `<addressfilter>` 為空或未指定。
+如果符合下列條件，則不會限制存取 `<addressfilter>` 為空白或未指定。
 
-如果 `<expression>` 的 `<rule>` 元素不存在或為空， `<addressfilter>` 應用於所有請求。
+如果 `<expression>` 在 `<rule>` 元素不存在或空白， `<addressfilter>` 會套用至所有要求。
 
-`localhost` 總是隱式的 `ClientAddressFilter` 定義，即使未明確指定。 源自 `localhost` 不會被拒絕，不管 `ClientAddressFilter` 規範。
+`localhost` 永遠是 `ClientAddressFilter` 定義，即使未明確指定。 請求來自 `localhost` 不會被拒絕，不論 `ClientAddressFilter` 規格。
 
-## 西阿也 {#section-02056065e0c042e1b155b2f3e5b84ef7}
+## 另請參閱 {#section-02056065e0c042e1b155b2f3e5b84ef7}
 
-[屬性：:ClientAddressFilter](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-clientaddressfilter.md#reference-52a541cec0b0424faf263d1fb4946b5f)
+[attribute：：ClientAddressFilter](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-clientaddressfilter.md#reference-52a541cec0b0424faf263d1fb4946b5f)

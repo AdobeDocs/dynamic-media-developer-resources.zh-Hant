@@ -1,5 +1,5 @@
 ---
-description: 影像映射資料。 提供此圖層的影像映射資料。 覆蓋此層的目錄映射中的任何資料。
+description: 影像地圖資料。 提供此圖層的影像地圖資料。 覆寫此圖層的目錄地圖中的所有資料。
 solution: Experience Manager
 title: 地圖
 feature: Dynamic Media Classic,SDK/API
@@ -14,45 +14,45 @@ ht-degree: 2%
 
 # 地圖{#map}
 
-影像映射資料。 提供此圖層的影像映射資料。 覆蓋目錄：:Map中此層的所有資料。
+影像地圖資料。 提供此圖層的影像地圖資料。 覆寫此圖層的catalog：：Map中的所有資料。
 
-`map=[ *`字串`*]mapA=[ *`字串A`*]`
+`map=[ *`字串`*]mapA=[ *`stringA`*]`
 
 <table id="simpletable_2E32B25D5F6246A18A8AF817903877ED"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> 字串</span></span> </p></td> 
-  <td class="stentry"> <p>圖層坐標中此圖層的影像映射資料。 </p></td> 
+  <td class="stentry"> <p>圖層座標中此圖層的影像地圖資料。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> 字串A</span></span> </p></td> 
-  <td class="stentry"> <p>源影像坐標中此層的影像映射資料。 </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> stringA</span></span> </p></td> 
+  <td class="stentry"> <p>以來源影像座標表示此圖層的影像地圖資料。 </p></td> 
  </tr> 
 </table>
 
-空字串表示此圖層不應提供影像映射。 字串必須正確使用HTTP編碼以避免分析問題。
+空白字串表示此圖層不應提供影像地圖。 該字串必須正確進行HTTP編碼，以避免剖析問題。
 
-在中出現的所有和符(&amp;)字元 *`string`* 必須是http編碼。
+中出現的所有與號(&amp;)字元 *`string`* 必須為http編碼。
 
-同時 `mapA=` 和 `catalog::Map` 在源影像坐標中指定地圖資料， `map=` 假定圖層坐標相對於圖層矩形的左上角(在 `rotate=` 和 `extend=` 已應用)。
+當 `mapA=` 和 `catalog::Map` 以來源影像座標指定地圖資料， `map=` 相對於圖層矩形的左上角，假定圖層座標(在 `rotate=` 和 `extend=` （已套用）。
 
-輸出影像映射始終被剪切到圖層矩形。 如果 `shape` 屬性省略或設定為 `default`，整個圖層矩形用作影像映射區。
+輸出影像地圖一律會裁剪至圖層矩形。 如果 `shape` 屬性被省略或設為 `default`，則整個圖層矩形會作為影像地圖區域使用。
 
 ## 屬性 {#section-a18d9ea95c71414a905a68b8839c0843}
 
-層屬性。 應用到時 `layer=comp`，指定的映射資料分層在所有其他影像映射之後。 忽略，除非 `req=map`。 被效果層忽略。 `mapA=` 如果忽略 `map=` 。
+圖層屬性。 套用至 `layer=comp`，則指定的地圖資料會圖層式地置於所有其他影像地圖之後。 已忽略，除非 `req=map`. 被效果圖層忽略。 `mapA=` 被忽略，如果 `map=` 也會指定。
 
 ## 預設 {#section-620c19b3f3b84ba49706062de3f12f05}
 
-`catalog::Map` 如果 `map=` 未指定。
+`catalog::Map` 使用時機 `map=` 未指定。
 
 ## 範例 {#section-cd7691c94f984222845c86dcb0051ce8}
 
-為簡單文本圖層定義矩形影像映射：
+為簡單文字圖層定義矩形影像地圖：
 
 `…&layer=1&text=Scene7&map=<area%20alt=Scene7%20href=www.scene7.com>&…`
 
-安 `AREA` 具有（大多）預設屬性的元素用於插入整個圖層矩形的映射區。
+一個 `AREA` 具有（通常）預設屬性的元素可用來插入整個圖層矩形的對映區域。
 
 ## 另請參閱 {#section-bc1d946fdf4b47bf9742a986800aa9b5}
 
-[影像映射](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-image-maps.md#reference-ff7d1bac2a064104b0c508a81316fdab)。 [req=map](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76)
+[影像地圖](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-image-maps.md#reference-ff7d1bac2a064104b0c508a81316fdab)， [req=map](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76)

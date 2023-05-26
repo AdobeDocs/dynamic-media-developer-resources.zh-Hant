@@ -14,13 +14,13 @@ ht-degree: 5%
 
 # Swatches.maxloadradius{#swatches-maxloadradius}
 
-` [Swatches.|<containerId>_swatches.]maxloadradius=-1|0| *`預載入br`*`
+` [Swatches.|<containerId>_swatches.]maxloadradius=-1|0| *`preloadnbr`*`
 
 <table id="table_012E1D178BFA4BD9814A7AAD2B4403BB"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> -1|0|<span class="varname"> 預載入br</span></span> </p> </td> 
-   <td> <p>指定元件預載入行為。 設定為時 <span class="codeph"> -1</span> 初始化元件或更改資產時，將同時載入所有色板。 </p> <p>設定為時 <span class="codeph"> 0</span> 只載入可見色板。 </p> <p><span class="codeph"><span class="varname"> 預載入br</span></span> 定義預載入可視區域周圍的不可見行/列的數量。 </p> </td> 
+   <td> <p> <span class="codeph"> -1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
+   <td> <p>指定元件預先載入行為。 當設定為 <span class="codeph"> -1</span> 初始化元件或變更資產時，所有色票都會同時載入。 </p> <p>當設定為 <span class="codeph"> 0</span> 僅載入可見的色票。 </p> <p><span class="codeph"><span class="varname"> preloadnbr</span></span> 定義可見區域周圍預先載入多少不可見的列/欄。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

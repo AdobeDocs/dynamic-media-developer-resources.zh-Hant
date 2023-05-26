@@ -1,5 +1,5 @@
 ---
-description: 提交新批處理作業。
+description: 送出新的批次工作。
 solution: Experience Manager
 title: batchjobsubmit
 feature: Dynamic Media Classic,SDK/API
@@ -14,23 +14,23 @@ ht-degree: 2%
 
 # batchjobsubmit{#batchjobsubmit}
 
-提交新批處理作業。
+送出新的批次工作。
 
-此參數：
+此引數：
 
 <table id="simpletable_11A94D630A21426F9A1CEF5EB3B9E789"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> 作業資料 </span> </p> </td> 
-  <td class="stentry"> <p>完整作業資料的XML代碼段。 </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> jobdata </span> </p> </td> 
+  <td class="stentry"> <p>完整工作資料的XML片段。 </p> </td> 
  </tr> 
 </table>
 
-返回：
+傳回：
 
 <table id="simpletable_7C82E4A8520440F5A5ABBC1BCB286AB2"> 
  <tr class="strow"> 
-  <td class="stentry"> <p>作業狀態 </p> </td> 
-  <td class="stentry"> <p>提交是成功還是失敗；如果成功，則作業ID為XML格式。 </p> </td> 
+  <td class="stentry"> <p>工作狀態 </p> </td> 
+  <td class="stentry"> <p>提交成功或失敗；如果成功，則作業ID為XML格式。 </p> </td> 
  </tr> 
 </table>
 

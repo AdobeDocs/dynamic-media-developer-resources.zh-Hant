@@ -1,6 +1,6 @@
 ---
 title: 列印
-description: 打印工具由添加到控制欄的按鈕和激活工具時顯示的模態對話框組成。
+description: 列印工具包含新增至控制列的按鈕，以及啟動工具時顯示的模組對話方塊。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
@@ -14,27 +14,27 @@ ht-degree: 2%
 
 # 列印{#print}
 
-打印工具由添加到控制欄的按鈕和激活工具時顯示的模態對話框組成。
+列印工具包含新增至控制列的按鈕，以及啟動工具時顯示的模組對話方塊。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-打印按鈕的外觀由以下CSS類選擇器控制：
+使用下列CSS類別選取器來控制列印按鈕的外觀：
 
 ```
 .s7ecatalogsearchviewer .s7print
 ```
 
-**打印按鈕的CSS屬性**
+**列印按鈕的CSS屬性**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 上邊距 </span> </p> </td> 
-   <td colname="col2"> <p> 從控制欄頂部偏移。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 頂端邊界 </span> </p> </td> 
+   <td colname="col2"> <p> 從控制列頂端的位移。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 左邊距 </span> </p> </td> 
-   <td colname="col2"> <p> 到左邊的下一個按鈕的距離，如果此按鈕是行中的第一個按鈕，則到控制欄的左側的距離。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 左邊界 </span> </p> </td> 
+   <td colname="col2"> <p> 左邊下一個按鈕的距離，如果這個按鈕是列中的第一個按鈕，則為控制列左邊的距離。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -45,23 +45,23 @@ ht-degree: 2%
    <td colname="col2"> <p>按鈕的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景影像 </span> </p> </td> 
-   <td colname="col2"> <p> 為給定按鈕狀態顯示的影像。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col2"> <p> 針對指定按鈕狀態顯示的影像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS浮雕，則在圖稿浮雕內定位。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS繁體 </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> 若使用CSS sprite，則定位在圖稿sprite內。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按鈕支援 `state` 屬性選擇器，可用於將不同外觀應用於不同按鈕狀態。
+>此按鈕支援 `state` 屬性選擇器，可將不同的外觀元素套用至不同的按鈕狀態。
 
-按鈕工具提示可以本地化。 請參閱 [用戶介面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 的子菜單。
+按鈕工具提示可以本地化。 另請參閱 [使用者介面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以取得詳細資訊。
 
-示例 — 設定28 x 28像素的打印按鈕，並針對四個不同按鈕狀態中的每個狀態顯示不同的影像。
+範例 — 設定28 x 28畫素的列印按鈕，並針對四種不同的按鈕狀態分別顯示不同的影像。
 
 ```
 .s7ecatalogsearchviewer .s7print { 
@@ -84,7 +84,7 @@ background-image:url(images/v2/Print_dark_disabled.png);
 }
 ```
 
-當對話框處於活動狀態時覆蓋網頁的背景覆蓋層由以下CSS類選擇器控制：
+使用下列CSS類別選取器可控制對話方塊啟動時覆蓋網頁的背景覆蓋：
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7backoverlay
@@ -99,13 +99,13 @@ background-image:url(images/v2/Print_dark_disabled.png);
    <td colname="col2"> <p> 背景覆蓋不透明度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>背景覆蓋顏色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例 — 要設定背景覆蓋，使其為灰色且不透明度為70%:
+範例 — 若要將背景覆蓋設定為具有70%不透明度的灰色：
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7backoverlay { 
@@ -114,28 +114,28 @@ background-image:url(images/v2/Print_dark_disabled.png);
 }
 ```
 
-預設情況下，模式對話框會以案頭系統螢幕的中心顯示。 對話框的定位和大小由元件管理。 對話框由以下CSS類選擇器控制：
+依預設，強制回應對話方塊會以中央顯示在案頭系統的畫面中。 對話方塊的位置和大小由元件管理。 此對話方塊由下列CSS類別選取器控制：
 
 ```
 .s7ecatalogsearchviewer .s7kprintdialog .s7dialog
 ```
 
-**對話框的CSS屬性**
+**對話方塊的CSS屬性**
 
 <table id="table_5272BC8EF9124018B4290356B95B5559"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 邊界半徑 </span> </p> </td> 
-   <td colname="col2"> <p> 對話框邊框半徑。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col2"> <p> 對話方塊邊框半徑。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
-   <td colname="col2"> <p> 對話框背景顏色； </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p> 對話方塊背景顏色； </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例 — 要設定具有灰色背景的對話框：
+範例 — 若要設定具有灰色背景的對話方塊：
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialog { 
@@ -143,99 +143,99 @@ background-color: #dddddd;
 }
 ```
 
-對話框標題由表徵圖、標題文本和關閉按鈕組成。 標題容器由以下CSS類選擇器控制：
+對話方塊標頭包含圖示、標題文字和關閉按鈕。 標頭容器由下列CSS類別選擇器控制：
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogheader
 ```
 
-**對話框標題的CSS屬性**
+**對話方塊標頭的CSS屬性**
 
 <table id="table_E407E844C9BD4B5DA8B5BBDE0554F9CA"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 填補 </span> </p> </td> 
-   <td colname="col2"> <p> 標題內容的內填充。 </p> </td> 
+   <td colname="col2"> <p> 標頭內容的內部內距。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-表徵圖和標題文本將包裝到由以下內容控制的額外容器中：
+圖示和標題文字會包裝在額外容器中，並以下列方式控制：
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogheader .s7dialogline
 ```
 
-**對話框行的CSS屬性**
+**對話方塊行的CSS屬性**
 
 <table id="table_5B03CF843F0D4B1295A3FC1EB50C56F1"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 填補 </span> </p> </td> 
-   <td colname="col2"> <p> 標題表徵圖和標題的內填充。 </p> </td> 
+   <td colname="col2"> <p> 標頭圖示和標題的內邊距。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-標題表徵圖由以下CSS類選擇器控制：
+標頭圖示由下列CSS類別選擇器控制：
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogheadericon
 ```
 
-**對話框標題表徵圖的CSS屬性**
+**對話方塊標頭圖示的CSS屬性**
 
 <table id="table_DD4B0413721B49CE8E21B4A55BDE8F7D"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>表徵圖寬度。 </p> </td> 
+   <td colname="col2"> <p>圖示寬度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>表徵圖高度。 </p> </td> 
+   <td colname="col2"> <p>圖示高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景影像 </span> </p> </td> 
-   <td colname="col2"> <p>表徵圖影像。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col2"> <p>圖示影像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS浮雕，則在圖稿浮雕內定位。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS繁體 </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> 若使用CSS sprite，則定位在圖稿sprite內。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-標題由以下CSS類選擇器控制：
+標題標題由下列CSS類別選擇器控制：
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogheadertext
 ```
 
-**對話框標題文本的CSS屬性**
+**對話方塊標頭文字的CSS屬性**
 
 <table id="table_207B4B13153E425EAB38FC61F382A05F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型粗細 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
    <td colname="col2"> <p>字型粗細。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型大小 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>字型高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型系列 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>字型系列。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 填補 </span> </p> </td> 
-   <td colname="col2"> <p>內部文本填充。 </p> </td> 
+   <td colname="col2"> <p>內部文字內距。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-關閉按鈕由以下CSS類選擇器控制：
+使用下列CSS類別選取器來控制「關閉」按鈕：
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7closebutton
@@ -247,11 +247,11 @@ background-color: #dddddd;
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 頂部 </span> </p> </td> 
-   <td colname="col2"> <p> 垂直按鈕相對於標題容器的位置。 </p> </td> 
+   <td colname="col2"> <p> 相對於頁首容器的垂直按鈕位置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 右側 </span> </p> </td> 
-   <td colname="col2"> <p> 水準按鈕相對於標題容器的位置。 </p> </td> 
+   <td colname="col2"> <p> 相對於頁首容器的水準按鈕位置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -263,26 +263,26 @@ background-color: #dddddd;
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 填補 </span> </p> </td> 
-   <td colname="col2"> <p>按鈕的內填充。 </p> </td> 
+   <td colname="col2"> <p>按鈕的內部內距。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景影像 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>每個狀態的按鈕影像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS浮雕，則在圖稿浮雕內定位。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS繁體 </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> 若使用CSS sprite，則定位在圖稿sprite內。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按鈕支援 `state` 屬性選擇器，可用於將不同外觀應用於不同按鈕狀態。
+>此按鈕支援 `state` 屬性選擇器，可將不同的外觀元素套用至不同的按鈕狀態。
 
-「關閉」(Close)按鈕工具提示和對話框標題可以本地化。 請參閱 [用戶介面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 的子菜單。
+「關閉」按鈕工具提示和對話方塊標題可以本地化。 另請參閱 [使用者介面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以取得詳細資訊。
 
-示例 — 設定帶填充、22 x 22像素表徵圖和16點粗體標題的對話框標題。 最後，一個28 x 28像素的「關閉」按鈕從對話框容器的頂部放置兩個像素，從對話框容器的右側放置兩個像素：
+範例 — 若要設定包含邊框間距的對話方塊標題，請以22 x 22畫素圖示和16點粗體標題設定對話方塊標題。 最後，一個28 x 28畫素的「關閉」按鈕位於距離上方兩個畫素、距離對話方塊容器右側兩個畫素的位置：
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogheader { 
@@ -322,47 +322,47 @@ background-color: #dddddd;
 }
 ```
 
-對話框頁腳由「取消」和「發送到打印」按鈕組成。 頁腳容器由以下CSS類選擇器控制：
+對話方塊頁尾包含「取消」和「傳送至列印」按鈕。 頁尾容器由下列CSS類別選擇器控制：
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogfooter
 ```
 
-**對話框頁腳的CSS屬性**
+**對話方塊頁尾**的CSS屬性
 
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
-   <td colname="col2"> <p> 可用於將頁腳與對話框其餘部分視覺分離的邊框。 </p> </td> 
+   <td colname="col2"> <p> 您可以用來在視覺上分隔頁尾與對話方塊其餘部分的邊框。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-頁腳具有一個內容器，該內容器保留兩個按鈕。 它由以下CSS類選擇器控制：
+頁尾有保留兩個按鈕的內部容器。 它由下列CSS類別選取器控制：
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogbuttoncontainer
 ```
 
-**對話框按鈕容器的CSS屬性**
+**對話方塊按鈕容器的CSS屬性**
 
 <table id="table_C34906888A8145C7A61E503DFC6B08A9"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 填補 </span> </p> </td> 
-   <td colname="col2"> <p> 頁腳和按鈕之間的內填充。 </p> </td> 
+   <td colname="col2"> <p> 頁尾和按鈕之間的內邊距。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-「取消」按鈕由以下CSS類選擇器控制：
+取消按鈕由下列CSS類別選擇器控制：
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogcancelbutton
 ```
 
-**「取消」對話框的CSS屬性按鈕**
+**對話方塊取消按鈕的CSS屬性**
 
 <table id="table_3DFA90B012F345A3A2A123D6856BE08A"> 
  <tbody> 
@@ -376,10 +376,10 @@ background-color: #dddddd;
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p> 每個狀態的按鈕文本顏色。 </p> </td> 
+   <td colname="col2"> <p> 每個狀態的按鈕文字色彩。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> 每個狀態的按鈕背景顏色。 </p> </td> 
   </tr> 
  </tbody> 
@@ -387,15 +387,15 @@ background-color: #dddddd;
 
 >[!NOTE]
 >
->此按鈕支援 `state` 屬性選擇器，可用於將不同外觀應用於不同按鈕狀態。
+>此按鈕支援 `state` 屬性選擇器，可將不同的外觀元素套用至不同的按鈕狀態。
 
-「發送到打印」按鈕由以下CSS類選擇器控制：
+「傳送至列印」按鈕由下列CSS類別選擇器控制：
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogactionbutton
 ```
 
-**對話框操作按鈕的CSS屬性**
+**對話方塊動作按鈕的CSS屬性**
 
 <table id="table_91C75B2470A24DC2AD3973A91FA8B325"> 
  <tbody> 
@@ -409,10 +409,10 @@ background-color: #dddddd;
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p> 每個狀態的按鈕文本顏色。 </p> </td> 
+   <td colname="col2"> <p> 每個狀態的按鈕文字色彩。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> 每個狀態的按鈕背景顏色。 </p> </td> 
   </tr> 
  </tbody> 
@@ -420,9 +420,9 @@ background-color: #dddddd;
 
 >[!NOTE]
 >
->此按鈕支援 `state` 屬性選擇器，可用於將不同外觀應用於不同按鈕狀態。
+>此按鈕支援 `state` 屬性選擇器，可將不同的外觀元素套用至不同的按鈕狀態。
 
-此外，兩個按鈕共用公用CSS類，這些類可包含其他對話框按鈕相同的CSS設定：
+此外，這兩個按鈕共用共用的CSS類別可以包含與其他對話方塊按鈕相同的CSS設定：
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogfooter .s7button
@@ -433,35 +433,35 @@ background-color: #dddddd;
 <table id="table_E735E5EDFC1E4F8A962CEA533A88DD4E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型粗細 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
    <td colname="col2"> <p>按鈕字型粗細。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型大小 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>按鈕字型大小。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型系列 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>按鈕字型系列。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 線高 </span> </p> </td> 
-   <td colname="col2"> <p> 按鈕內的文本高度。 影響垂直對齊。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> line-height </span> </p> </td> 
+   <td colname="col2"> <p> 按鈕內的文字高度。 影響垂直對齊。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 框陰影 </span> </p> </td> 
-   <td colname="col2"> <p>投影。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> box-shadow </span> </p> </td> 
+   <td colname="col2"> <p>陰影。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 邊距右 </span> </p> </td> 
-   <td colname="col2"> <p>右按鈕邊距。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 右邊界 </span> </p> </td> 
+   <td colname="col2"> <p>右按鈕邊界。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-按鈕工具提示可以本地化。 請參閱 [用戶介面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 的子菜單。
+按鈕工具提示可以本地化。 另請參閱 [使用者介面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以取得詳細資訊。
 
-示例 — 要設定一個對話框頁腳，其中「64 x 34取消」按鈕和「96 x 34發送至打印」按鈕，並且每個按鈕狀態的文本顏色和背景顏色不同：
+範例 — 若要設定具有64 x 34 「取消」按鈕和96 x 34 「傳送至列印」按鈕的對話方塊頁尾，且每個按鈕狀態的文字顏色和背景顏色不同：
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogfooter { 
@@ -521,32 +521,32 @@ background-color: #dddddd;
 }
 ```
 
-主對話框區域（頁眉和頁腳之間）包含對話框內容。 在所有情況下，元件都管理此區域的寬度，無法在CSS中設定它。 主對話框區域由以下CSS類選擇器控制：
+主要對話區域（在頁首和頁尾之間）包含對話內容。 在任何情況下，元件都會管理此區域的寬度，無法在CSS中加以設定。 主要對話方塊區域由下列CSS類別選取器控制：
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogviewarea
 ```
 
-**對話框查看區域的CSS屬性**
+對話方塊檢視區域的**CSS屬性**
 
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p> 主對話框區域的高度。 </p> </td> 
+   <td colname="col2"> <p> 主要對話方塊區域的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
-   <td colname="col2"> <p>主對話框區域的背景顏色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p>主要對話方塊區域的背景顏色。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p>外邊距。 </p> </td> 
+   <td colname="col2"> <p>外部邊界。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例 — 要設定主對話框區域以自動計算高度、有十個像素邊距並使用白色背景：
+範例 — 若要設定主要對話方塊區域，使其具有自動計算的高度、10畫素邊界，並使用白色背景：
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogviewarea { 
@@ -556,24 +556,24 @@ background-color: #dddddd;
 }
 ```
 
-所有表單內容（如標籤和輸入欄位）都駐留在由以下CSS類選擇器控制的容器中：
+所有表單內容（例如標籤和輸入欄位）都位於由以下CSS類別選擇器控制的容器內：
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogbody
 ```
 
-**對話框主體的CSS屬性**
+對話方塊主體**的**CSS屬性
 
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 填補 </span> </p> </td> 
-   <td colname="col2"> <p>內填充。 </p> </td> 
+   <td colname="col2"> <p>內邊距。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例 — 要將表單內容設定為具有十個像素填充：
+範例 — 若要設定表單內容為十畫素邊框間距：
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogbody { 
@@ -581,24 +581,24 @@ background-color: #dddddd;
 }
 ```
 
-對話框窗體逐行填充，其中每行都包含窗體內容的一部分（如標籤和文本輸入欄位）。 使用以下CSS類選擇器控制單個表單行：
+對話方塊表單是逐行填入，其中每一行都包含部分表單內容（如標籤和文字輸入欄位）。 單一表單行由下列CSS類別選擇器控制：
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogbody .s7dialogline
 ```
 
-**對話框行的CSS屬性**
+**對話方塊行的CSS屬性**
 
 <table id="table_2CCCC71B45B444A8B9CE2894129C9C02"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 填補 </span> </p> </td> 
-   <td colname="col2"> <p>內線填充。 </p> </td> 
+   <td colname="col2"> <p>內線邊距。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例 — 要設定對話框窗體，使每行具有十個像素填充：
+範例 — 若要設定對話方塊表單，讓每行有10個畫素內距：
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogbody .s7dialogline { 
@@ -606,28 +606,28 @@ background-color: #dddddd;
 }
 ```
 
-對話框內容塊的大小由以下CSS類選擇器控制：
+對話方塊內容的大小由下列CSS類別選取器控制：
 
 ```
  .s7ecatalogsearchviewer .s7printdialog .s7dialoginputwide
 ```
 
-**對話框輸入寬度的CSS屬性**
+**對話方塊輸入寬度的CSS屬性**
 
 <table id="table_FFF0B02B564C443CA8713103D723C733"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>塊寬度。 </p> </td> 
+   <td colname="col2"> <p>區塊寬度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 填補 </span> </p> </td> 
-   <td colname="col2"> <p>內線填充。 </p> </td> 
+   <td colname="col2"> <p>內線邊距。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例 — 將內容塊設定為寬430像素，並在底部填充10像素：
+範例 — 將內容區塊設定為寬度430畫素，並在底部有10畫素邊框間距：
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialoginputwide { 
@@ -636,40 +636,40 @@ background-color: #dddddd;
 }
 ```
 
-對話框窗體中的所有靜態標籤都使用以下CSS類選擇器進行控制：
+對話方塊表單中的所有靜態標籤皆由下列CSS類別選取器控制：
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialoglabel
 ```
 
-此類不適於控制標籤大小或位置，因為您可以將其應用於表單用戶介面中不同位置的文本。
+此類別不適合控制標籤大小或位置，因為您可以將其套用至表單使用者介面中不同位置的文字。
 
-**對話框標籤的CSS屬性。 **
+對話方塊標籤的**CSS屬性。 **
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型粗細 </span> </p> </td> 
-   <td colname="col2"> <p>標籤字型粗細。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col2"> <p>標簽字型粗細。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型大小 </span> </p> </td> 
-   <td colname="col2"> <p>標籤字型大小。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col2"> <p>標簽字型大小。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字型系列 </span> </p> </td> 
-   <td colname="col2"> <p>標籤字型系列。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col2"> <p>標簽字型系列。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p>標籤文本顏色。 </p> </td> 
+   <td colname="col2"> <p>標籤文字色彩。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-對話框標籤可以本地化。 請參閱 [用戶介面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 的子菜單。
+對話方塊標籤可以本地化。 另請參閱 [使用者介面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以取得詳細資訊。
 
-示例 — 將所有標籤設定為灰色、粗體，並使用九像素字型：
+範例 — 將所有標籤設定為灰色、粗體、九畫素字型：
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialoglabel { 
@@ -679,24 +679,24 @@ background-color: #dddddd;
 }
 ```
 
-輸入控制項包裝到容器中，並使用以下CSS類選擇器進行控制：
+輸入控制項會包裝在容器中，並使用下列CSS類別選取器來控制：
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialoginputcontainer
 ```
 
-**對話框輸入容器的CSS屬性**
+**對話方塊輸入容器的CSS屬性**
 
 <table id="table_7BC1C5919A54483F8121D928DC63233A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 左填充 </span> </p> </td> 
-   <td colname="col2"> <p>內填充。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 左內邊距 </span> </p> </td> 
+   <td colname="col2"> <p>內邊距。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例 — 從對話框左邊設定30像素填充。
+範例 — 從對話方塊的左邊緣設定30畫素內距。
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialoginputcontainer { 
@@ -704,66 +704,66 @@ background-color: #dddddd;
 }
 ```
 
-單選按鈕及其標題文本由以下CSS類選擇器控制：
+選項按鈕及其註解文字由下列CSS類別選取器控制：
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogoption
 ```
 
-**對話框選項的CSS屬性**
+**對話方塊選項的CSS屬性**
 
 <table id="table_3B4D85C5A0254A17A34D57F84F8200F7"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> 帶標題的單選按鈕的總寬度。 </p> </td> 
+   <td colname="col2"> <p> 帶有註解的選項按鈕的總寬度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p>標題文本顏色。 </p> </td> 
+   <td colname="col2"> <p>註解文字色彩。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-單選按鈕及其標題之間的間距由以下CSS類選擇器控制：
+選項按鈕與其註解之間的間距由下列CSS類別選取器控制：
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogoptioninput
 ```
 
-**對話框選項輸入的CSS屬性**
+**對話方塊選項輸入的CSS屬性**
 
 <table id="table_BDD03247E594416D93CDF8604DCE937B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 邊距右 </span> </p> </td> 
-   <td colname="col2"> <p> 單選按鈕及其標題之間的間距。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 右邊界 </span> </p> </td> 
+   <td colname="col2"> <p> 選項按鈕與其註解之間的間距。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-打印範圍選擇的數字選取器使用以下CSS類選擇器進行控制
+列印範圍選擇的數值選擇器由以下CSS類別選擇器控制
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogrange
 ```
 
-**對話框打印範圍的CSS屬性**
+**對話方塊列印範圍的CSS屬性**
 
 <table id="table_35413C16F6B840EBBEEA17890F2A0490"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> 數字選取器的寬度。 </p> </td> 
+   <td colname="col2"> <p> 數值選擇器的寬度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> 數字選取器周圍的間距。 </p> </td> 
+   <td colname="col2"> <p> 數值選擇器周圍的間距。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例 — 將所有單選按鈕設定為寬150像素，帶有黑色文本、十像素間距和寬42像素的數字選取器：
+範例 — 若要將所有選項按鈕設定為150畫素寬（含黑色文字）、10畫素間距，以及42畫素寬數值選擇器：
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogoption { 
@@ -780,7 +780,7 @@ background-color: #dddddd;
 }
 ```
 
-頁面範圍選擇部分和打印佈局部分之間的水準分隔線由以下CSS類選擇器控制：
+頁面範圍選取範圍與列印版面配置區段之間的水準分隔線由以下CSS類別選取器控制：
 
 ```
  .s7ecatalogsearchviewer 
@@ -797,7 +797,7 @@ background-color: #dddddd;
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 填補 </span> </p> </td> 
-   <td colname="col2"> <p>內填充。 </p> </td> 
+   <td colname="col2"> <p>內邊距。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -805,12 +805,12 @@ background-color: #dddddd;
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p>外邊距 </p> </td> 
+   <td colname="col2"> <p>外邊界 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例 — 設定430像素寬的灰度分隔線，兩側各有10像素垂直填充，頂部有10像素邊距：
+範例 — 若要設定430畫素寬的灰階分隔線，其兩側有10畫素的垂直邊框間距，頂端有10畫素邊界：
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7horizontaldivider { 

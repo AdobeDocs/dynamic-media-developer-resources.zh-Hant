@@ -1,7 +1,7 @@
 ---
-description: 從特定組中刪除公司用戶。
+description: 從特定群組移除公司使用者。
 solution: Experience Manager
-title: 刪除組成員
+title: removeGroupMembers
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 8a9b7d54-d11b-41a8-9783-573a316e0ac6
@@ -12,16 +12,16 @@ ht-degree: 10%
 
 ---
 
-# 刪除組成員{#removegroupmembers}
+# removeGroupMembers{#removegroupmembers}
 
-從特定組中刪除公司用戶。
+從特定群組移除公司使用者。
 
-**刪除命令之間的差異**
+**移除命令之間的差異**
 
-* `removeGroupMembers`:從組中刪除多個用戶。
-* `removeGroupMembership`:從一組組中刪除單個用戶。
+* `removeGroupMembers`：從群組移除多個使用者。
+* `removeGroupMembership`：從群組陣列中移除個別使用者。
 
-## 授權用戶類型 {#section-2c64cdac15184fbba6c7b2945b5d87f7}
+## 授權的使用者型別 {#section-2c64cdac15184fbba6c7b2945b5d87f7}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -29,21 +29,21 @@ ht-degree: 10%
 
 ## 參數 {#section-b5596614a3be4ce5962455884e4636af}
 
-**Input(removeGroupMembersParam)**
+**輸入(removeGroupMembersParam)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 公司句柄 | `xsd:string` | 是 | 與您要處理的用戶一起使用的公司的句柄。 |
-| 組句柄 | `xsd:string` | 是 | 組句柄。 |
-| userHandleArray | `types:HandleArray` | 是 | 要刪除其組成員身份的用戶的句柄陣列。 |
+| companyHandle | `xsd:string` | 是 | 含有您要使用之使用者的公司控制代碼。 |
+| groupHandle | `xsd:string` | 是 | 群組控制代碼。 |
+| userHandleArray | `types:HandleArray` | 是 | 您要移除其群組成員資格之使用者的控制代碼陣列。 |
 
 **輸出(removeGroupMembersParam)**
 
-IPS API不會為此操作返迴響應。
+IPS API未傳回此作業的回應。
 
 ## 範例 {#section-9eedac852cea46ec80de6a6928bf97ac}
 
-此代碼示例將用戶從指定的公司中刪除。 使用用戶句柄陣列從組中刪除多個用戶。
+此程式碼範例會從指定的公司移除使用者。 從具有使用者控制代碼陣列的群組中移除多個使用者。
 
 **請求**
 

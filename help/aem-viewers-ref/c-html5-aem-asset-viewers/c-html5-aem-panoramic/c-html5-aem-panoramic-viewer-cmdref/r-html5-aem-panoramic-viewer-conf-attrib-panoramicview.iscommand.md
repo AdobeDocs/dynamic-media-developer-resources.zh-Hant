@@ -1,6 +1,6 @@
 ---
 title: PanoramicView.iscommand
-description: 全景查看器的配置屬性。
+description: 全景檢視器的組態屬性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
@@ -13,15 +13,15 @@ ht-degree: 4%
 
 # PanoramicView.iscommand{#panoramicview-iscommand}
 
-全景查看器的配置屬性。
+全景檢視器的組態屬性。
 
 ` [PanoramicView.|<containerId>_panoramicView.]iscommand=isCommand `
 
 <table id="table_43A84C1044574A6FAB8CE67D71AAD5EC"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 是命令</span> </span> </p> </td> 
-   <td colname="col2"> <p> 應用於影像的「影像服務」命令字串。  如果在URL中指定，請確保HTTP編碼所有出現的 <span class="codeph"> &amp;</span> 和 <span class="codeph"> =</span> 如 <span class="codeph"> %26</span> 和 <span class="codeph"> %3D</span>的下界。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isCommand</span> </span> </p> </td> 
+   <td colname="col2"> <p> 套用至影像的「影像伺服」命令字串。  若在URL中指定，請確定您對所有出現的專案進行HTTP編碼 <span class="codeph"> 和</span> 和 <span class="codeph"> =</span> 作為 <span class="codeph"> %26</span> 和 <span class="codeph"> %3D</span>（分別）。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -37,13 +37,13 @@ ht-degree: 4%
 
 ## 範例 {#section-7621c8ebd4144bc08a537d01bd9c3f2f}
 
-在查看器URL中指定時。
+在檢視器URL中指定時。
 
 ```
 iscommand=op_sharpen%3d1%26op_colorize%3d0xff0000
 ```
 
-在配置資料中指定時。
+在設定資料中指定時。
 
 ```
 iscommand=op_sharpen=1&op_colorize=0xff0000

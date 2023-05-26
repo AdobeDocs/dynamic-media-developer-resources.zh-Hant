@@ -1,6 +1,6 @@
 ---
 title: 純色
-description: 此材料類別包括壁、木工和修剪、汽車和不需要紋理的任何其它應用程式的油漆。
+description: 此材料類別包括牆壁、木工和裝飾的油漆、汽車以及不需要紋理的任何其他應用程式。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,11 +14,11 @@ ht-degree: 3%
 
 # 純色{#solid-colors}
 
-此材料類別包括壁、木工和修剪、汽車和不需要紋理的任何其它應用程式的油漆。
+此材料類別包括牆壁、木工和裝飾的油漆、汽車以及不需要紋理的任何其他應用程式。
 
-例如，您可以使用實色來改變不需要紋理更改的服裝項目的顏色，或者設定汽車內飾的塑料裝飾和地毯的顏色。 如果沒有，則材料被視為純色 `src=` MSS中存在值。
+例如，在不需要改變材質的情況下，您可以使用純色來改變服裝專案的色彩，或是為汽車內飾的塑膠裝飾與地毯設定色彩。 如果沒有，則會將材料視為純色 `src=` 值存在於MSS中。
 
-實體顏色可應用於所有可再現對象。
+純色可套用至所有可轉譯物件。
 
 <table id="table_9245240311A44659A74C7A5EDD7D1503"> 
  <thead> 
@@ -30,8 +30,8 @@ ht-degree: 3%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-color.md#reference-ea3cba9edfe94dbab86d8f123a9ed0aa" type="reference" format="dita" scope="local"> <span class="codeph"> 顏色= </span> </a> </p> </td> 
-   <td colname="col2"> <p> 灰色或RGB色值；。 </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-color.md#reference-ea3cba9edfe94dbab86d8f123a9ed0aa" type="reference" format="dita" scope="local"> <span class="codeph"> color= </span> </a> </p> </td> 
+   <td colname="col2"> <p> 灰色或RGB色彩值；必要。 </p> </td> 
    <td colname="col3"> <p>無。 </p> </td> 
   </tr> 
  </tbody> 

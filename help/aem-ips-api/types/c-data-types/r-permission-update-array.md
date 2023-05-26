@@ -1,7 +1,7 @@
 ---
-description: 權限更新的陣列。
+description: 許可權更新的陣列。
 solution: Experience Manager
-title: 權限更新陣列
+title: PermissionUpdateArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: eeff58a6-d6c0-4772-b735-5ba91afb61fc
@@ -14,7 +14,7 @@ ht-degree: 28%
 
 # [!DNL PermissionUpdateArray]{#permissionupdatearray}
 
-權限更新的陣列。
+許可權更新的陣列。
 
 語法
 
@@ -22,4 +22,4 @@ ht-degree: 28%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 項目 | `types:PermissionUpdateArray` | 權限更新陣列。 |
+| 項目 | `types:PermissionUpdateArray` | 許可權更新陣列。 |

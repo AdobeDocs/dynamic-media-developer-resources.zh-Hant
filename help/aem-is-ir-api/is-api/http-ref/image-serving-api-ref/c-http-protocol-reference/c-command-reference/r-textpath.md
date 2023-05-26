@@ -1,6 +1,6 @@
 ---
-title: 文本路徑
-description: 文本路徑。 指定用作隨textPs=提供的文本的基線的路徑。
+title: 文字路徑
+description: 文字路徑。 指定要用來作為textPs=所提供之文字的基準線的路徑。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,9 +12,9 @@ ht-degree: 2%
 
 ---
 
-# 文本路徑{#textpath}
+# 文字路徑{#textpath}
 
-文本路徑。 指定用作隨textPs=提供的文本的基線的路徑。
+文字路徑。 指定要用來作為textPs=所提供之文字的基準線的路徑。
 
 textPath= *`pathDefinition`*
 
@@ -25,26 +25,26 @@ textPath= *`pathDefinition`*
  </tr> 
 </table>
 
-請參閱 [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d) 有關其他資訊，包括 *`pathDefinition`*。
+另請參閱 [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d) 以取得其他資訊，包括 *`pathDefinition`*.
 
 >[!NOTE]
 >
->不同於 `clipPath=`，在子路徑的末尾未指定「z」或「Z」時，不會自動關閉文本路徑。
+>不同於 `clipPath=`，則在子路徑的結尾未指定「z」或「Z」時，文字路徑不會自動關閉。
 
-*`pathDefinition`* 可能包括多個子路徑。 文本按指定的順序呈現在子路徑上。
+*`pathDefinition`* 可包含多個子路徑。 文字會依照指定的順序在子路徑上轉譯。
 
-RTF命令 `\ql`。 `\qc`。 `\qr`。 `\li`, `\ri` 可用於沿路徑定位渲染的文本。
+RTF命令 `\ql`， `\qc`， `\qr`， `\li`、和 `\ri` 可用來沿著路徑定位演算後的文字。
 
 ## 屬性 {#section-068137df436c46b9b55d271eb60e7285}
 
-文本層屬性( `textPs=` 僅)。 被其他層忽略。 應用於 `layer=0` 如果指定 `layer=comp`。 如果忽略 `textPs=` 。
+文字圖層屬性( `textPs=` 僅限)。 被其他圖層忽略。 套用至 `layer=0` 若指定給 `layer=comp`. 忽略條件 `textPs=` 存在。
 
-如果圖層同時包含這兩者，則返回錯誤 `textPath=` 和 `textFlowPath=`。
+如果圖層同時包含兩者，則會傳回錯誤 `textPath=` 和 `textFlowPath=`.
 
 ## 預設 {#section-697b1f2cfc43498080a31327e6eb173d}
 
-無，用於標準文本呈現。
+無，用於標準文字轉譯。
 
 ## 另請參閱 {#section-3050d8f47e1d4f5c9b474dece45ea93d}
 
-[textPs=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textps.md#reference-4209a2a6169f44278da2647cfb0cd767) 。 [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)。 [textFlowPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textflowpath.md#reference-0b8d9493d71342f0b6a64a6d221584ef)。 [文本圖層](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/r-text-layers.md#reference-47e78cfb18134db5ab09e17af14a6a8f)
+[textPs=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textps.md#reference-4209a2a6169f44278da2647cfb0cd767) ， [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)， [textFlowPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textflowpath.md#reference-0b8d9493d71342f0b6a64a6d221584ef)， [文字圖層](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/r-text-layers.md#reference-47e78cfb18134db5ab09e17af14a6a8f)

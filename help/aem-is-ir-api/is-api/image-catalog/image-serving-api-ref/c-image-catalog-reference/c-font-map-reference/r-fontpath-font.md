@@ -1,5 +1,5 @@
 ---
-description: 字型檔案路徑。 主字型檔案的路徑和名稱，包括檔案尾碼。
+description: 字型檔案路徑。 主要字型檔案的路徑和名稱，包括檔案字尾。
 solution: Experience Manager
 title: 字型路徑
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 9%
 
 # 字型路徑{#fontpath}
 
-字型檔案路徑。 主字型檔案的路徑和名稱，包括檔案尾碼。
+字型檔案路徑。 主要字型檔案的路徑和名稱，包括檔案字尾。
 
 ## 屬性 {#section-ae2b7daf74a4419ebcec8f13aa8c1462}
 
-文本字串。 必要. 必須具有有效的Image Server檔案路徑(絕對或相對於 `attribute::RootPath`。
+文字字串。 必要. 必須是有效的影像伺服器檔案路徑，絕對或相對於 `attribute::RootPath`.
 
 ## 預設 {#section-3fb42f362de84fdb8ba9fe4cc9628aa3}
 
@@ -26,4 +26,4 @@ ht-degree: 9%
 
 ## 另請參閱 {#section-35bcdd8dcba745929e9cee8207609d88}
 
-[屬性：:RootPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md)
+[attribute：：RootPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md)

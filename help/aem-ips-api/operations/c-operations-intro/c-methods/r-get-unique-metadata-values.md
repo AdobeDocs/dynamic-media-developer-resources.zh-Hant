@@ -1,5 +1,5 @@
 ---
-description: 獲取唯一元資料欄位值。
+description: 取得唯一的中繼資料欄位值。
 solution: Experience Manager
 title: getUniqueMetadataValues
 feature: Dynamic Media Classic,SDK/API,Metadata
@@ -14,11 +14,11 @@ ht-degree: 28%
 
 # getUniqueMetadataValues{#getuniquemetadatavalues}
 
-獲取唯一元資料欄位值。
+取得唯一的中繼資料欄位值。
 
 語法
 
-## 授權用戶類型 {#section-6a6b67e10a4c4e7bb18306115713380e}
+## 授權的使用者型別 {#section-6a6b67e10a4c4e7bb18306115713380e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,8 +34,8 @@ ht-degree: 28%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 公司句柄 | `xsd:string` | 是 | 把手交給公司。 |
-| 欄位句柄 | `xsd:string` | 否 | 對元資料欄位的句柄。 |
+| companyHandle | `xsd:string` | 是 | 處理公司。 |
+| fieldHandle | `xsd:string` | 否 | 中繼資料欄位的控點。 |
 
 **輸出(getUniqueMetadataValuesReturn)**
 
@@ -45,7 +45,7 @@ ht-degree: 28%
 
 ## 範例 {#section-440f3bc3e5be436cb6ec26117d05f476}
 
-此代碼示例使用欄位句柄返回特定元資料值。
+此程式碼範例使用欄位控制代碼來傳回特定的中繼資料值。
 
 **請求**
 

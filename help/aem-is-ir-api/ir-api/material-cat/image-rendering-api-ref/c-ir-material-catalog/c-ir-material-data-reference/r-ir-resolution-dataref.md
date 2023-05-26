@@ -1,5 +1,5 @@
 ---
-description: 解析度. 「真實世界」影像解析度，通常以像素/英吋表示，但也可以以其他單位表示，如每米像素。
+description: 解析度. 「真實世界」的影像解析度，通常以每英吋畫素表示，但也可能以其他單位表示，例如每米的畫素。
 solution: Experience Manager
 title: 解析度
 feature: Dynamic Media Classic,SDK/API
@@ -14,16 +14,16 @@ ht-degree: 7%
 
 # 解析度{#resolution}
 
-解析度. 「真實世界」影像解析度，通常以像素/英吋表示，但也可以以其他單位表示，如每米像素。
+解析度. 「真實世界」的影像解析度，通常以每英吋畫素表示，但也可能以其他單位表示，例如每米的畫素。
 
 ## 屬性 {#section-985ca2ad858c4e9c9cbb303f55447553}
 
-實數，大於0。 紋理和貼花材料需要，除非影像解析度與屬性：:Resolution相同。 被純色和機櫃材料忽略。
+大於0的實數。 除非影像解析度與attribute：：Resolution相同，否則紋理和貼花材質必須使用。 被純色和機櫃材料忽略。
 
 ## 預設 {#section-b1d044e211194242a900aaef4a8c8e6f}
 
-`attribute::Resolution` 如果欄位不存在，如果值為0或負，或者欄位為空，則使用。
+`attribute::Resolution` 如果欄位不存在、值是0或負數，或欄位為空，則會使用。
 
 ## 另請參閱 {#section-2d04df523d7345f6929178cbc637da78}
 
-[屬性：：解析度](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-resolution-dataref.md#reference-09fe14e6bfbf4db6b7f4369fffecc806) 。 [雷斯=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-res.md#reference-0ad9de8887144c83a6db97b4994f7c04)
+[attribute：：Resolution](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-resolution-dataref.md#reference-09fe14e6bfbf4db6b7f4369fffecc806) ， [res=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-res.md#reference-0ad9de8887144c83a6db97b4994f7c04)

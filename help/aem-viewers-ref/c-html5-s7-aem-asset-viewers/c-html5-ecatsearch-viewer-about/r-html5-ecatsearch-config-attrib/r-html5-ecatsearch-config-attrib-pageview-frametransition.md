@@ -19,17 +19,17 @@ ht-degree: 4%
 <table id="table_625D0EEDA21B46FEA3F5CF7DDF769B50"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幻燈片|轉彎|自動</span> </p> </td> 
-   <td colname="col2"> <p> 指定應用於幀更改的效果類型。 </p> <p> 
+   <td colname="col1"> <p> <span class="codeph"> 幻燈片|翻轉|自動</span> </p> </td> 
+   <td colname="col2"> <p> 指定套用至影格變更的效果型別。 </p> <p> 
      <ul id="ul_4224B7C2722A4185A8BD48703D019AA1"> 
-      <li id="li_8482037F8E1C4F11A84DF51790A073FE"> <p><span class="codeph"> 滑</span> 激活一個過渡，其中舊框架滑出視圖，而新框架滑入到視圖。 </p> </li> 
-      <li id="li_CE9A99564DF348D0A76AB2A5945155A5"> <p><span class="codeph"> 轉</span> 當用戶可以拖動四個跨頁角之一併執行互動式翻頁時，啟用翻頁效果。 </p> <p>當 <span class="codeph"> 轉</span> 使用 <span class="codeph"> 翻頁</span> 修飾符和 <span class="codeph"> .s7分頁符</span> 忽略CSS類。 </p> <p>注意：  <p><span class="codeph"> 轉</span> Motorola Xoom不支援動畫。 </p> </p> </li> 
-      <li id="li_79F85B0429CD4B389399FB3823FE767F"> <p> <span class="codeph"> 自動</span> 設定台式機系統的轉彎框架過渡和觸摸設備上的幻燈片過渡。 </p> </li> 
+      <li id="li_8482037F8E1C4F11A84DF51790A073FE"> <p><span class="codeph"> 幻燈片</span> 啟動一個轉變，舊框架滑出檢視，新框架滑入檢視。 </p> </li> 
+      <li id="li_CE9A99564DF348D0A76AB2A5945155A5"> <p><span class="codeph"> 翻轉</span> 當使用者可以拖曳四個跨頁角之一并執行互動式頁面翻轉時，啟用頁面翻轉效果。 </p> <p>時間 <span class="codeph"> 翻轉</span> 使用，元件的外觀由控制 <span class="codeph"> pageturnstyle</span> 修飾元與 <span class="codeph"> .s7pagedider</span> 已忽略CSS類別。 </p> <p>注意：  <p><span class="codeph"> 翻轉</span> Motorola Xoom不支援動畫。 </p> </p> </li> 
+      <li id="li_79F85B0429CD4B389399FB3823FE767F"> <p> <span class="codeph"> 自動</span> 設定桌上型電腦系統上的旋轉影格切換，以及觸控裝置上的投影片切換。 </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> 時段</span></span> </p> </td> 
-   <td colname="col2"> <p>指定持續時間（秒） <span class="codeph"> 滑</span> 或 <span class="codeph"> 轉</span> 過渡效果。 </p> </td> 
+   <td colname="col2"> <p>指定持續時間（以秒為單位） <span class="codeph"> 幻燈片</span> 或 <span class="codeph"> 翻轉</span> 切換效果。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

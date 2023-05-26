@@ -1,7 +1,7 @@
 ---
-description: 暫停活動作業。
+description: 暫停作用中的工作。
 solution: Experience Manager
-title: 暫停作業
+title: pauseJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 010e969a-911e-49fc-8577-66c18cd4329c
@@ -12,13 +12,13 @@ ht-degree: 19%
 
 ---
 
-# 暫停作業{#pausejob}
+# pauseJob{#pausejob}
 
-暫停活動作業。
+暫停作用中的工作。
 
 語法
 
-## 授權用戶類型 {#section-f2bf306ab4574871bd21f9f7dd681033}
+## 授權的使用者型別 {#section-f2bf306ab4574871bd21f9f7dd681033}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -35,16 +35,16 @@ ht-degree: 19%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 公司句柄 | `xsd:string` | 是 | 把手交給公司。 |
-| 作業句柄 | `xsd:string` | 是 | 處理要暫停的作業。 |
+| companyHandle | `xsd:string` | 是 | 處理公司。 |
+| jobHandle | `xsd:string` | 是 | 處理您要暫停的工作。 |
 
 **輸出(PauseJobReturn)**
 
-IPS API不會為此操作返迴響應。
+IPS API未傳回此作業的回應。
 
 ## 範例 {#section-ee4914f9496f4bd88556728a48fb22c1}
 
-此代碼示例暫停活動作業。
+此程式碼範例會暫停作用中的工作。
 
 **請求**
 

@@ -1,5 +1,5 @@
 ---
-description: 獲取與資產關聯的用戶定義的元資料欄位。
+description: 取得與資產相關聯的使用者定義中繼資料欄位。
 solution: Experience Manager
 title: getMetadataFields
 feature: Dynamic Media Classic,SDK/API,Metadata
@@ -14,11 +14,11 @@ ht-degree: 15%
 
 # getMetadataFields{#getmetadatafields}
 
-獲取與資產關聯的用戶定義的元資料欄位。
+取得與資產相關聯的使用者定義中繼資料欄位。
 
 語法
 
-## 授權用戶類型 {#section-e32e481a02674b729bfc5454a6c9ff65}
+## 授權的使用者型別 {#section-e32e481a02674b729bfc5454a6c9ff65}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,18 +34,18 @@ ht-degree: 15%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 公司句柄 | `xsd:string` | 是 | 公司負責。 |
-| 資產類型 | `xsd:string` | 是 | 要從中獲取元資料的資產類型。 |
+| companyHandle | `xsd:string` | 是 | 公司控點。 |
+| assetType | `xsd:string` | 是 | 從中取得中繼資料的資產型別。 |
 
 **輸出(getMetadataFieldsParam)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 代碼短語 | `Code Phrase` |  |  |
+| 程式碼片語 | `Code Phrase` |  |  |
 
 ## 範例 {#section-dbfde1483d614b5aac2b491cb32115d7}
 
-此代碼示例返回指定類型和公司的元資料資產。 響應包含欄位陣列中的元資料欄位陣列。 並非所有資產都具有相同的元資料。 IPS用戶定義資產的元資料欄位。
+此程式碼範例會傳回指定型別和公司的中繼資料資產。 回應包含欄位陣列中的中繼資料欄位陣列。 並非所有資產都有相同的中繼資料。 ips使用者會定義資產的中繼資料欄位。
 
 **請求**
 

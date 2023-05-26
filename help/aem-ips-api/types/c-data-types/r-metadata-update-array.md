@@ -1,7 +1,7 @@
 ---
-description: 元資料更新的陣列。
+description: 一系列中繼資料更新。
 solution: Experience Manager
-title: 元資料更新陣列
+title: MetadataUpdateArray
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: d6ff2ae9-0924-4155-81fb-282f808cc54f
@@ -14,7 +14,7 @@ ht-degree: 28%
 
 # [!DNL MetadataUpdateArray]{#metadataupdatearray}
 
-元資料更新的陣列。
+一系列中繼資料更新。
 
 語法
 
@@ -22,4 +22,4 @@ ht-degree: 28%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 項目 | `types:MetadataUpdate` | 元資料更新的陣列。 |
+| 項目 | `types:MetadataUpdate` | 中繼資料更新的陣列。 |

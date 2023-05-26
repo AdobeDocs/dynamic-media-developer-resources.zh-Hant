@@ -14,13 +14,13 @@ ht-degree: 5%
 
 # TableOfContents.maxitems{#tableofcontents-maxitems}
 
-` [TableOfContents.|<containerId>_tableOfContents.]maxitems= *`最大項`*`
+` [TableOfContents.|<containerId>_tableOfContents.]maxitems= *`Maxitems`*`
 
 <table id="table_F9BC656721B04870AC628ACBC47E7200"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"><span class="varname"> 最大項</span></span> </p> </td> 
-   <td> <p>下拉目錄中的最大項數。 </p> <p>此外，當外部容器裁切時，還可以減少下拉清單中可見項的數量。 </p> <p>設定為時 <span class="codeph"> 0</span> 該元件在添加到的容器中顯示盡可能多的項目。 </p> </td> 
+   <td> <p> <span class="codeph"><span class="varname"> Maxitems</span></span> </p> </td> 
+   <td> <p>下拉式目錄中的專案最大數量。 </p> <p>此外，您可以減少下拉式清單中的可見專案數量，以防外部容器裁切該專案。 </p> <p>當設定為 <span class="codeph"> 0</span> 該元件會以其新增至的容器顯示儘可能多的專案。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,6 +1,6 @@
 ---
 title: Video360Player.initialbitrate
-description: Video360查看器的配置屬性。
+description: Video360 Viewer的設定屬性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 6%
 
 # Video360Player.initialbitrate{#video-player-initialbitrate}
 
-Video360查看器的配置屬性。
+Video360 Viewer的設定屬性。
 
 ` [Video360Player.|<containerId>_video360Player.]initialbitrate= *`值`*`
 
@@ -22,7 +22,7 @@ Video360查看器的配置屬性。
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 值</span> </p> </td> 
-   <td colname="col2"> <p> 設定用於案頭上視頻初始回放的視頻比特率（千比特/秒或kbps）。 </p> <p>如果自適應視頻集中不存在此比特率值，則視頻播放器從具有下一個較低比特率的視頻開始。 </p> <p>如果設定為 <span class="codeph"> 0</span>，視頻播放器從最低可能比特率開始。 </p> <p>僅適用於不支援HTML5 HLS視頻的系統（如Windows 10上的Firefox、Chrome和Internet Explorer 11瀏覽器），並且播放模式設定為「自動」時。 </p> </td> 
+   <td colname="col2"> <p> 設定在案頭上初始播放視訊時使用的視訊位元速率（以千位元/秒或kbps為單位）。 </p> <p>如果「自我調整視訊集」中不存在此位元速率值，則視訊播放器會從擁有次低位元速率的視訊開始。 </p> <p>若設為 <span class="codeph"> 0</span>，視訊播放器會從最低的位元速率開始。 </p> <p>僅適用於對HTML5 HLS視訊沒有原生支援的系統（例如Windows 10上的Firefox、Chrome和Internet Explorer 11瀏覽器），以及播放模式設定為auto時。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

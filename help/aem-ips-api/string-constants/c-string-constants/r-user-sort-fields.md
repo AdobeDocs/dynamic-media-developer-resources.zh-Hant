@@ -1,7 +1,7 @@
 ---
-description: getUsersParam/sortBy使用。
+description: 由getUsersParam/sortBy使用。
 solution: Experience Manager
-title: 用戶排序欄位
+title: 使用者排序欄位
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 23d98e61-2873-41ed-8835-89b218cd89f3
@@ -12,9 +12,9 @@ ht-degree: 12%
 
 ---
 
-# 用戶排序欄位{#user-sort-fields}
+# 使用者排序欄位{#user-sort-fields}
 
-getUsersParam/sortBy使用。
+由getUsersParam/sortBy使用。
 
 語法
 

@@ -1,7 +1,7 @@
 ---
-description: 以下命令包括PlatformServer公開的批處理API。
+description: 下列命令包含PlatformServer公開的批次處理API。
 solution: Experience Manager
-title: 批處理命令
+title: 批次處理命令
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 40a5b597-3db2-4846-903e-1a47a999610b
@@ -12,18 +12,18 @@ ht-degree: 0%
 
 ---
 
-# 批處理命令{#batch-processing-commands}
+# 批次處理命令{#batch-processing-commands}
 
-以下命令包括PlatformServer公開的批處理API。
+下列命令包含PlatformServer公開的批次處理API。
 
-以特殊請求格式將以下內容指定為： `?req=<command>`
+這些在特殊請求格式中指定為： `?req=<command>`
 
-這些命令的示例使用虛構的 `PlatformServer` URL &quot; [!DNL scene7.adobe.com:8080]和一家名為AcmeCorp的虛構公司。 作業ID也是虛構的。
+針對這些命令顯示的範例使用虛構的 `PlatformServer` URL &quot; [!DNL scene7.adobe.com:8080]」和一個名為AcmeCorp的虛構公司。 作業ID也是虛構的。
 
-* [BJ公報](r-batchjobbriefstatus.md)
+* [batchjobbriefstatus](r-batchjobbriefstatus.md)
 * [batchjobdelete](r-batchjobdelete.md)
-* [batchjobdetails狀態](r-batchjobdetailedstatus.md)
-* [batjobgetoutput](r-batchjobgetoutput.md)
+* [batchjobdetailedstatus](r-batchjobdetailedstatus.md)
+* [batchjobgetoutput](r-batchjobgetoutput.md)
 * [batchjobsubmit](r-batchjobsubmit.md)
-* [作業資料](r-jobdata.md)
+* [jobdata](r-jobdata.md)
 * [jobid](r-jobid.md)

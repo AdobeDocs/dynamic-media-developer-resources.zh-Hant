@@ -1,5 +1,5 @@
 ---
-description: 返回影像格式，如PDF、EPS、SWF等。
+description: 傳回影像格式，例如PDF、EPS、SWF等。
 solution: Experience Manager
 title: getImageFormats
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 20%
 
 # getImageFormats{#getimageformats}
 
-返回影像格式，如PDF、EPS、SWF等。
+傳回影像格式，例如PDF、EPS、SWF等。
 
 語法
 
-## 授權用戶類型 {#section-6a386ad8641b4aa1a281600fc94fd3f6}
+## 授權的使用者型別 {#section-6a386ad8641b4aa1a281600fc94fd3f6}
 
 * `IpsUser`
 * `IspAdmin`
@@ -34,7 +34,7 @@ ht-degree: 20%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 公司句柄 | `xsd:string` | 是 | 要獲取的影像格式的公司句柄。 |
+| companyHandle | `xsd:string` | 是 | 具有您要取得之影像格式的公司控制代碼。 |
 
 **輸出(getImageFormatsParam)**
 
@@ -44,7 +44,7 @@ ht-degree: 20%
 
 ## 範例 {#section-73881e12839b4904bf3299b0920bdd0c}
 
-此代碼示例返回指定公司的所有影像格式。
+此程式碼範例會傳回指定公司的所有影像格式。
 
 **請求**
 

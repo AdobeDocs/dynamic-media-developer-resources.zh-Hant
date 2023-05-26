@@ -1,6 +1,6 @@
 ---
-title: 客戶端地址篩選器
-description: 客戶端IP地址篩選器。 允許指定一個或多個IP地址或地址範圍。
+title: ClientAddressFilter
+description: 使用者端IP位址篩選器。 允許指定一個或多個IP位址或位址範圍。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,35 +12,35 @@ ht-degree: 2%
 
 ---
 
-# 客戶端地址篩選器{#clientaddressfilter}
+# ClientAddressFilter{#clientaddressfilter}
 
-客戶端IP地址篩選器。 允許指定一個或多個IP地址或地址範圍。
+使用者端IP位址篩選器。 允許指定一個或多個IP位址或位址範圍。
 
-如果指定，則拒絕從未列出IP地址的客戶端發出的對此映像目錄的請求。 `localhost` 總是隱式的 `ClientAddressFilter` 定義，即使未明確指定。 源自 `localhost` 不會被拒絕，不管 `ClientAddressFilter` 規範。
+指定後，系統會拒絕從未列出的IP位址之使用者端對此影像目錄提出的要求。 `localhost` 永遠是 `ClientAddressFilter` 定義，即使未明確指定。 請求來自 `localhost` 不會被拒絕，不論 `ClientAddressFilter` 規格。
 
 ## 屬性 {#section-21a2992f108d42fb8660c0d65aa61e13}
 
-IP地址的逗號分隔清單（帶可選網路掩碼）([CIDR表示法](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing#CIDR_notation) ):
+以逗號分隔的IP位址清單，含選用的網路遮罩([CIDR標籤法](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing#CIDR_notation) 已使用)：
 
 ` *[!DNL ipAddress]*[/ *[!DNL netmask]*]&#42;[, *[!DNL ipAddress]*[/ *[!DNL netmask]*]]`
 
-* *[!DNL ipAddress]* IP地址 *[!DNL ddd.ddd.ddd.ddd]* 格式
+* *[!DNL ipAddress]* 中的IP位址 *[!DNL ddd.ddd.ddd.ddd]* 格式
 
-* *[!DNL netmask]* 網路掩碼(0...32)
+* *[!DNL netmask]* 網路遮色片（0到32）
 
-當具有 `<addressfilter>` 元素。
+當具有下列專案的預處理規則時，會忽略此屬性： `<addressfilter>` 元素之後便會套用。
 
 ## 預設 {#section-beddaa18ed6c4f3ba1eb2d4471267712}
 
-繼承自 `default::AddressFilter` 或為空。
+繼承自 `default::AddressFilter` 如果未定義或為空。
 
 ## 範例 {#section-72b4a3615bff4a5f8b03d83c6489aaba}
 
-* 無訪問限制： `0.0.0.0/0`
-* 授予對所有地址的訪問權限，以 `192: 192.0.0.0/8`
-* 授予對512台主機的訪問權限，其地址介於 `192.168.12.0` 和 `192.168.13.255: 192.168.12.0/23`
+* 無存取限制： `0.0.0.0/0`
+* 授與所有位址的存取權，開頭為 `192: 192.0.0.0/8`
+* 將512部主機的存取權授與位址介於 `192.168.12.0` 和 `192.168.13.255: 192.168.12.0/23`
 
-* 授予對單個IP地址的訪問權限： `192.168.2.117` 或 `192.168.2.117/32`
+* 授予對單一IP位址的存取權： `192.168.2.117` 或 `192.168.2.117/32`
 
 ## 另請參閱 {#section-6198780c7b3045aabd211eefb38bc565}
 

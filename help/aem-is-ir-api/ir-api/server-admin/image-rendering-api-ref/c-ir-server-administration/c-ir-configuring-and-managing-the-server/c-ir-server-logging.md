@@ -1,7 +1,7 @@
 ---
-description: 影像呈現將日誌消息發送到影像服務日誌機制。
+description: 影像演算會將記錄訊息傳送至影像伺服記錄機制。
 solution: Experience Manager
-title: 伺服器日誌
+title: 伺服器記錄
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 83114821-4799-4d7f-93e8-5748a3707931
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# 伺服器日誌{#server-logging}
+# 伺服器記錄{#server-logging}
 
-影像呈現將日誌消息發送到影像服務日誌機制。
+影像演算會將記錄訊息傳送至影像伺服記錄機制。
 
-有關日誌記錄系統配置和功能的說明，請參閱Image Serving文檔。
+如需記錄系統組態和功能的說明，請參閱影像伺服檔案。

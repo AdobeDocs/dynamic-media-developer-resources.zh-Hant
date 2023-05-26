@@ -1,5 +1,5 @@
 ---
-description: 配置檔案快捷方式名稱。 顏色配置檔案的快捷方式名稱。
+description: 設定檔捷徑名稱。 色彩設定檔的捷徑名稱。
 solution: Experience Manager
 title: 名稱
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 13%
 
 # 名稱{#name}
 
-配置檔案快捷方式名稱。 顏色配置檔案的快捷方式名稱。
+設定檔捷徑名稱。 色彩設定檔的捷徑名稱。
 
 ## 屬性 {#section-52a4b91bbfa045c49c9541444fad2027}
 
-文本字串。 必要. ICC配置檔案映射的主索引鍵。 每個 `icc::Name` 值在表中必須唯一，且不得包含「，」字元。
+文字字串。 必要. ICC設定檔對應的主索引鍵。 每個 `icc::Name` 值在資料表中必須是唯一的，而且不能包含&#39;，&#39;字元。
 
 ## 預設 {#section-9d23d9b082f541b5b29b4ff92e942942}
 
@@ -26,4 +26,4 @@ ht-degree: 13%
 
 ## 另請參閱 {#section-71e698883b4e49779db0a6856d95fb22}
 
-[屬性：:RootId](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rootid.md#reference-54b42b7125824be593378c1accb70d5a)
+[attribute：：RootId](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rootid.md#reference-54b42b7125824be593378c1accb70d5a)

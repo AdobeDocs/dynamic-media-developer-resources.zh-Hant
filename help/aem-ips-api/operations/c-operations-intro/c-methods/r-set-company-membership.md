@@ -1,5 +1,5 @@
 ---
-description: 設定用戶在一個或多個公司中的成員資格。
+description: 設定使用者在一或多個公司中的成員資格。
 solution: Experience Manager
 title: setCompanyMembership
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 15%
 
 # setCompanyMembership{#setcompanymembership}
 
-設定用戶在一個或多個公司中的成員資格。
+設定使用者在一或多個公司中的成員資格。
 
 語法
 
-## 授權用戶類型 {#section-0cbcc78cfee64c2baf66f29cce6d0a65}
+## 授權的使用者型別 {#section-0cbcc78cfee64c2baf66f29cce6d0a65}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,16 +31,16 @@ ht-degree: 15%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| userHandle | `xsd:sting` | 否 | 用戶句柄。 |
-| 成員資格陣列 | `types:CompanyMembershipUpdateArray` | 是 | 一系列公司。 |
+| userHandle | `xsd:sting` | 否 | 使用者控制代碼。 |
+| memberlationarray | `types:CompanyMembershipUpdateArray` | 是 | 許多公司。 |
 
 **輸出(setCompanyMembershipParam)**
 
-IPS API不會為此操作返迴響應。
+IPS API未傳回此作業的回應。
 
 ## 範例 {#section-862c0cc32ce0407ab248028e690a8386}
 
-此代碼示例將用戶添加到公司。 如果需要，在公司句柄陣列中指定多個公司。
+此程式碼範例會將使用者新增至公司。 如有需要，在公司處理陣列中指定多個公司。
 
 **請求**
 

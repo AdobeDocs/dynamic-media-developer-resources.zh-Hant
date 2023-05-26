@@ -1,5 +1,5 @@
 ---
-description: 檢索單個請求中的所有系統屬性。
+description: 擷取單一請求中的所有系統屬性。
 solution: Experience Manager
 title: getSystemProperties
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 20%
 
 # getSystemProperties{#getsystemproperties}
 
-檢索單個請求中的所有系統屬性。
+擷取單一請求中的所有系統屬性。
 
 語法
 
-## 授權用戶類型 {#section-fc311ce90a54400fa95b9dd36b756e23}
+## 授權的使用者型別 {#section-fc311ce90a54400fa95b9dd36b756e23}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -40,11 +40,11 @@ ht-degree: 20%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 屬性Array | `types:PropertyArray` | 是 | 系統屬性的陣列。 |
+| propertyArray | `types:PropertyArray` | 是 | 系統屬性的陣列。 |
 
 ## 範例 {#section-728cc16fe9954b2daa035b4d4d4b4ce6}
 
-此代碼示例返回系統屬性的陣列。 響應被截斷以便簡化。
+此程式碼範例會傳回系統屬性的陣列。 回應因簡短而遭截斷。
 
 **請求**
 

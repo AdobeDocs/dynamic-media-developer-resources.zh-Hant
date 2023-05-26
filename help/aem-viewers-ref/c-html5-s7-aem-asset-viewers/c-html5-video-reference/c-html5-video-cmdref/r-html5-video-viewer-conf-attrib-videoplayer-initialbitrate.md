@@ -1,6 +1,6 @@
 ---
 title: VideoPlayer.initialbitrate
-description: 視頻查看器的配置屬性。
+description: 視訊檢視器的設定屬性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # VideoPlayer.initialbitrate{#videoplayer-initialbitrate}
 
-視頻查看器的配置屬性。
+視訊檢視器的設定屬性。
 
 ` [VideoPlayer.|<containerId>_videoPlayer.]initialbitrate= *`值`*`
 
@@ -22,7 +22,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 值 </span> </p> </td> 
-   <td colname="col2"> <p>設定用於案頭上視頻初始回放的視頻比特率（千位/秒或千位/秒）。 </p> <p>如果此比特率值在自適應視頻集中不存在，則視頻播放器將啟動具有下一個最低比特率的視頻。 </p> <p>如果設定為 <span class="codeph"> 0 </span>，視頻播放器從最低可能比特率開始。 僅適用於不支援HTML5 HLS視頻（Windows 10上的Firefox、Chrome和Internet Explorer 11瀏覽器）的系統，並且當播放模式設定為 <span class="codeph"> 自動 </span>。 </p> </td> 
+   <td colname="col2"> <p>設定在桌上型電腦上初始播放視訊所使用的視訊位元速率（以千位元/秒或kbps為單位）。 </p> <p>如果此位元速率值不存在最適化視訊集中，則視訊播放器會啟動具有下一個最低位元速率的視訊。 </p> <p>若設為 <span class="codeph"> 0 </span>，視訊播放器會從最低的位元速率開始。 僅適用於對HTML5 HLS視訊沒有原生支援的系統（Windows 10上的Firefox、Chrome和Internet Explorer 11瀏覽器），且播放模式設定為時 <span class="codeph"> 自動 </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

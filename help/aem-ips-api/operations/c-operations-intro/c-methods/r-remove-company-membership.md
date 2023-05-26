@@ -1,5 +1,5 @@
 ---
-description: 從一個或多個公司中刪除用戶。
+description: 從一或多個公司移除使用者。
 solution: Experience Manager
 title: removeCompanyMembership
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 12%
 
 # removeCompanyMembership{#removecompanymembership}
 
-從一個或多個公司中刪除用戶。
+從一或多個公司移除使用者。
 
 語法
 
-## 授權用戶類型 {#section-e9a16c8a7d8d4845989a1488c9ca9c98}
+## 授權的使用者型別 {#section-e9a16c8a7d8d4845989a1488c9ca9c98}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,16 +31,16 @@ ht-degree: 12%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| userHandle | `xsd:string` | 否 | 要刪除的成員資格的用戶的句柄。 |
-| companyHandleArray | `types:HandleArray` | 是 | 要從中刪除用戶的公司的句柄。 |
+| userHandle | `xsd:string` | 否 | 具有您要移除之成員資格的使用者的控制代碼。 |
+| companyHandleArray | `types:HandleArray` | 是 | 您要從中移除使用者的公司的控制代碼。 |
 
 **輸出(removeCompanyMembershipReturn)**
 
-IPS API不會為此操作返迴響應。
+IPS API未傳回此作業的回應。
 
 ## 範例 {#section-6b7903195e8647a1bd0502f87387ca62}
 
-此代碼示例從公司中刪除用戶。 省略可選用戶句柄，以從公司handle陣列中指定的公司中刪除所有用戶。
+此程式碼範例會從公司中移除使用者。 省略選用的使用者控制代碼，從公司控制代碼陣列中指定的公司中移除所有使用者。
 
 **請求**
 

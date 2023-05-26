@@ -14,13 +14,13 @@ ht-degree: 5%
 
 # SearchPanel.maxloadradius{#searchpanel-maxloadradius}
 
-[!DNL `[SearchPanel.|<containerId>_searchPanel.]maxloadradius=-1|0| *`預載入br`*`]
+[!DNL `[SearchPanel.|<containerId>_searchPanel.]maxloadradius=-1|0| *`preloadnbr`*`]
 
 <table id="table_985ADD6C9BD04C629A84C9C625CCCFEB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph">-1|0|<span class="varname"> 預載入br</span></span> </p> </td> 
-   <td colname="col2"> <p>指定元件預載入行為。 </p> <p>設定為時 <span class="codeph"> -1</span> 初始化元件或更改資產時，將同時載入所有縮略圖。 </p> <p> 設定為時 <span class="codeph"> 0</span> 只載入可見的縮略圖。 </p> <p>設定 <span class="codeph"><span class="varname"> 預載入br</span></span> 定義預載入可見區域周圍的不可見行的數量。 </p> </td> 
+   <td colname="col1"> <p><span class="codeph">-1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
+   <td colname="col2"> <p>指定元件預先載入行為。 </p> <p>當設定為 <span class="codeph"> -1</span> 初始化元件或變更資產時，所有縮圖會同時載入。 </p> <p> 當設定為 <span class="codeph"> 0</span> 僅載入可見的縮圖。 </p> <p>設定 <span class="codeph"><span class="varname"> preloadnbr</span></span> 定義可見區域周圍預先載入的隱藏列數。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

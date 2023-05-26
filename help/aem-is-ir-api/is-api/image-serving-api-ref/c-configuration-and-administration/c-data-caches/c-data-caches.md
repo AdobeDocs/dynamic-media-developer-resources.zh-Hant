@@ -1,5 +1,5 @@
 ---
-description: 可以配置資料快取。
+description: 您可以設定資料快取。
 solution: Experience Manager
 title: 資料快取
 feature: Dynamic Media Classic,SDK/API
@@ -14,13 +14,13 @@ ht-degree: 6%
 
 # 資料快取{#data-caches}
 
-可以配置資料快取。
+您可以設定資料快取。
 
-+ [響應資料快取](c-response-data-cache.md)
-+ [響應快取驗證](c-response-cache-validation.md)
++ [回應資料快取](c-response-data-cache.md)
++ [回應快取驗證](c-response-cache-validation.md)
 + [輔助資料快取](c-auxiliary-data-caches.md)
-+ [快取群集](c-cache-clustering.md)
++ [快取叢集](c-cache-clustering.md)
 
 ## 另請參閱 {#section-2cbf7373f54e44a48711806cf237ab9a}
 
-[伺服器快取](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-server-caches.md#reference-f6c7f73ea10f4c3ca93acd79a856e00e)。 [快取群集](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-cache-clustering.md#reference-a24c6b99da174203947788844626b951)
+[伺服器快取](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-server-caches.md#reference-f6c7f73ea10f4c3ca93acd79a856e00e)， [快取叢集](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-cache-clustering.md#reference-a24c6b99da174203947788844626b951)

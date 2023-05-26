@@ -1,5 +1,5 @@
 ---
-description: eCatalog Viewer的JavaScript API參考。
+description: eCatalog檢視器的JavaScript API參考。
 solution: Experience Manager
 title: setParam
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
@@ -14,30 +14,30 @@ ht-degree: 2%
 
 # setParam{#setparam}
 
-eCatalog Viewer的JavaScript API參考。
+eCatalog檢視器的JavaScript API參考。
 
 [!DNL ` setParam( *`名稱，值`*)`]
 
-將查看器參數設定為指定值。 該參數是特定於查看器的配置選項或軟體開發工具包修飾符。 此參數在 [!DNL `init()`]。
+將檢視器引數設定為指定的值。 引數是檢視器特定的組態選項或軟體開發套件修飾元。 此引數是在以下時間之前呼叫： [!DNL `init()`].
 
-如果與一起傳遞查看器配置資訊，則此方法是可選的 [!DNL `config`] 建構子的JSON對象。
+如果檢視器組態資訊是透過以下方式傳遞，則此方法為選用： [!DNL `config`] 建構函式的JSON物件。
 
-另請參閱 [初始化](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/r-html5-ecatalog-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b)。
+另請參閱 [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/r-html5-ecatalog-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 名稱 </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string} </span> 參數的名稱。 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} </span> 引數名稱。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 值 </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string} </span> 參數的值。 該值不能以百分比編碼。 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} </span> 引數值。 值不得以百分比編碼。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 返回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## 傳回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 無。
 

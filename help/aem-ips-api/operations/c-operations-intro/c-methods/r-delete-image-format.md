@@ -1,5 +1,5 @@
 ---
-description: 刪除影像格式。 從saveImageFormat獲取影像格式句柄。
+description: 刪除影像格式。 從saveImageFormat取得影像格式控制代碼。
 solution: Experience Manager
 title: deleteImageFormat
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 11%
 
 # deleteImageFormat{#deleteimageformat}
 
-刪除影像格式。 從saveImageFormat獲取影像格式句柄。
+刪除影像格式。 從saveImageFormat取得影像格式控制代碼。
 
 語法
 
-## 授權用戶類型 {#section-827e24a3019543418b0a635d46c1edfd}
+## 授權的使用者型別 {#section-827e24a3019543418b0a635d46c1edfd}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -31,16 +31,16 @@ ht-degree: 11%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 公司句柄 | `xsd:string` | 是 | 包含要刪除的影像格式的公司的句柄。 |
-| imageFormatHandle | `xsd:string` | 是 | 要刪除的影像格式的句柄。 |
+| companyHandle | `xsd:string` | 是 | 包含您要刪除之影像格式的公司控制代碼。 |
+| imageFormatHandle | `xsd:string` | 是 | 您要刪除之影像格式的控點。 |
 
 **輸出(deleteImageFormatParam)**
 
-IPS API不會為此操作返迴響應。
+IPS API未傳回此作業的回應。
 
 ## 範例 {#section-9ed9baaba13549bfaad1bc9cd7ec7009}
 
-此代碼示例從公司中刪除影像格式。 從其他操作獲取影像格式句柄。
+此程式碼範例會從公司刪除影像格式。 從其他作業取得影像格式控制代碼。
 
 **請求**
 

@@ -1,7 +1,7 @@
 ---
-description: 返回有關公司結構（檔案數等）的資訊。
+description: 傳回有關公司結構的資訊（檔案數等）。
 solution: Experience Manager
-title: getDiskUsage
+title: getdiskusage
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 06fdd9f5-5021-4f0b-b312-4465df9bda25
@@ -12,11 +12,11 @@ ht-degree: 14%
 
 ---
 
-# getDiskUsage{#getdiskusage}
+# getdiskusage{#getdiskusage}
 
-返回有關公司結構（檔案數等）的資訊。
+傳回有關公司結構的資訊（檔案數等）。
 
-## 授權用戶類型 {#authorized-user-types}
+## 授權的使用者型別 {#authorized-user-types}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -29,7 +29,7 @@ ht-degree: 14%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 公司句柄 | `xsd:string` | 是 | 您要獲取其磁碟使用情況的公司的句柄。 |
+| companyHandle | `xsd:string` | 是 | 您要取得其磁碟使用量的公司的控制代碼。 |
 
 **輸出(getDiskUsageReturn)**
 
@@ -39,7 +39,7 @@ ht-degree: 14%
 
 ## 範例 {#section-cb16a97badc94076ad5da277db5ed16a}
 
-此請求的名稱具有誤導性。 它不僅返回反映公司使用的磁碟空間的標量值，還會獲得有關公司結構的其他資訊。
+此請求的名稱會誤導人。 它不會只傳回反映公司使用磁碟空間的純量值，而是會取得有關公司結構的其他資訊。
 
 **請求**
 

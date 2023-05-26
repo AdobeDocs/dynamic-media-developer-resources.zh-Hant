@@ -1,7 +1,7 @@
 ---
-description: 可以通過編輯適當的配置檔案手動配置影像服務和影像呈現的許多方面。
+description: 您可以透過編輯適當的組態檔，手動設定「影像伺服」和「影像轉譯」的許多方面。
 solution: Experience Manager
-title: 伺服器配置
+title: 伺服器設定
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 2bb81f55-98da-47a1-8214-49b9bd30eb94
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# 伺服器配置{#server-configuration}
+# 伺服器設定{#server-configuration}
 
-可以通過編輯適當的配置檔案手動配置影像服務和影像呈現的許多方面。
+您可以透過編輯適當的組態檔，手動設定「影像伺服」和「影像轉譯」的許多方面。
 
-有關詳細資訊，請參閱「影像服務」和「影像渲染」文檔的「管理」部分。 [!DNL Jconsole] 也可以在埠9999上使用。
+如需詳細資訊，請參閱「影像伺服和影像轉譯」檔案的「管理」一節。 [!DNL Jconsole] 也可使用連線埠9999。

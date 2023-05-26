@@ -1,6 +1,6 @@
 ---
-title: 聚焦突出顯示
-description: 在聚焦查看器UI元素周圍顯示的輸入焦點突出顯示由CSS類選擇器控制。
+title: 焦點反白顯示
+description: 焦點檢視器UI元素周圍所顯示的輸入焦點反白顯示，是由CSS類別選取器所控制。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
@@ -12,15 +12,15 @@ ht-degree: 1%
 
 ---
 
-# 聚焦突出顯示{#focus-highlight}
+# 焦點反白顯示{#focus-highlight}
 
-在聚焦查看器UI元素周圍顯示的輸入焦點突出顯示由CSS類選擇器控制。
+焦點檢視器UI元素周圍所顯示的輸入焦點反白顯示，是由CSS類別選取器所控制。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **CSS屬性**
 
-外觀由以下CSS類選擇器控制：
+外觀由下列CSS類別選取器控制：
 
 ```
 .s7zoomviewer *:focus
@@ -36,12 +36,12 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 大綱 </span> </p> </td> 
-   <td colname="col2"> <p>聚焦突出顯示樣式。 </p> </td> 
+   <td colname="col2"> <p>焦點反白顯示樣式。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例 — 要禁用所有查看器用戶介面元素的預設瀏覽器焦點突出顯示，請將以下CSS選擇器添加到查看器的樣式表中：
+範例 — 若要停用所有檢視器使用者介面元素的預設瀏覽器焦點反白顯示，請將下列CSS選取器新增至檢視器的樣式表：
 
 ```
 .s7zoomviewer *:focus { 

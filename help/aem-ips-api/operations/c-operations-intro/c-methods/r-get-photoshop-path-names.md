@@ -1,5 +1,5 @@
 ---
-description: 返回給定映像的Photoshop路徑名陣列。
+description: 傳回給定影像的Photoshop路徑名稱陣列。
 solution: Experience Manager
 title: getPhotoshopPathNames
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 20%
 
 # getPhotoshopPathNames{#getphotoshoppathnames}
 
-返回給定映像的Photoshop路徑名陣列。
+傳回給定影像的Photoshop路徑名稱陣列。
 
 語法
 
-## 授權用戶類型 {#section-baa0fd4b92bc4ad89809efd659b3a629}
+## 授權的使用者型別 {#section-baa0fd4b92bc4ad89809efd659b3a629}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -34,14 +34,14 @@ ht-degree: 20%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 公司句柄 | `xsd:string` | 是 | 處理到包含要使用的影像的公司。 |
-| 資產句柄 | `xsd:string` | 是 | 處理影像資產。 |
+| companyHandle | `xsd:string` | 是 | 處理包含您要使用之影像的公司。 |
+| assetHandle | `xsd:string` | 是 | 處理影像資產。 |
 
 **輸出(getPhotoshopPathNamesReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| pathNameArray | `types:StringArray` | 是 | 映像中的Photoshop路徑名陣列。 |
+| pathNameArray | `types:StringArray` | 是 | 影像中的Photoshop路徑名稱陣列。 |
 
 ## 範例 {#section-6d316f14b4184d42af4ca3f717b042dd}
 

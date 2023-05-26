@@ -1,5 +1,5 @@
 ---
-description: 元XMP資料。 返回與XMP請求路徑中指定的映像關聯的元資料。
+description: XMP中繼資料。 傳回與要求路徑中所指定影像相關聯的XMP中繼資料。
 solution: Experience Manager
 title: xmp
 feature: Dynamic Media Classic,SDK/API
@@ -14,21 +14,21 @@ ht-degree: 6%
 
 # xmp{#xmp}
 
-元XMP資料。 返回與XMP請求路徑中指定的映像關聯的元資料。
+XMP中繼資料。 傳回與要求路徑中所指定影像相關聯的XMP中繼資料。
 
 `req=xmp`
 
-其他命令將被忽略。 應用UTF-8編碼。 響應的格式為XML，具有MIME類型 `text/xml`。
+其他指令會被忽略。 UTF-8編碼適用。 回應會格式化為具有MIME型別的XML `text/xml`.
 
-HTTP響應可以與基於的TTL進行快取 `catalog::Expiration`。
+HTTP回應可使用以下依據的TTL快取： `catalog::Expiration`.
 
 ## 屬性 {#section-0d26b6a56c844153ae5cea4880370d00}
 
-請求屬性。 應用，與當前圖層設定無關。
+要求屬性。 無論目前的圖層設定為何，均適用。
 
 ## 預設 {#section-1b2e089dce5d4e0ab664c62bf1be90dd}
 
-如果URL不包括影像路徑或修飾符，則：
+如果URL不包含影像路徑或修飾元，則：
 
 ```
 #S7Z OK 
@@ -48,7 +48,7 @@ copyright=Copyright (c) 1995-2014 Adobe Systems Incorporated. All rights reserve
 
 ` http:// *`伺服器`*/myRootId?req=catalogprops`
 
-從嵌入在HTML檔案中的客戶端JavaScript訪問映像目錄項的屬性：
+從內嵌於HTML檔案中的使用者端JavaScript存取影像目錄專案的屬性：
 
 ```
 <script language="JavaScript"> 
@@ -61,7 +61,7 @@ copyright=Copyright (c) 1995-2014 Adobe Systems Incorporated. All rights reserve
 </script>
 ```
 
-檢索特定目錄條目的蒙版影像，縮放到原始大小的25%:
+擷取特定目錄專案的遮色片影像，縮放為原始大小的25%：
 
 ` http:// *`伺服器`*/myRootId/myImageId?req=mask&scale=0.25`
 
@@ -73,14 +73,14 @@ copyright=Copyright (c) 1995-2014 Adobe Systems Incorporated. All rights reserve
 
 ` http:// *`伺服器`*/myRootId/myImageId?req=img&scl=8`
 
-請求影像的縮略圖，請依賴在影像目錄中指定的縮略圖屬性：
+根據影像目錄中指定的縮圖屬性，請求影像的縮圖：
 
 ` http:// *`伺服器`*/myRootId/myImageId?req=tmb&wid=64&hei=64`
 
-向伺服器日誌發送文本消息：
+傳送文字訊息至伺服器記錄檔：
 
 ` http:// *`伺服器`*/myRootId?req=message&message=This%20is%20the%20message`
 
 ## 另請參閱 {#section-80cb0892c9174681b640985a1a26e590}
 
-[fmt=](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md#reference-cdf10043423b45ba9fe15157fb3ae37a) 。 [目錄：：目標](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-targets-cat.md)。 [目錄：:UserData](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-userdata-cat.md)。 [縮略圖縮放](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-thumbnail-scaling.md#reference-0f71817f721d4913b34816758d69b07f)。 [屬性](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/c-properties.md#concept-49c609fd6de942cab422ee412353c9d9)。 [影像映射](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-image-maps.md#reference-ff7d1bac2a064104b0c508a81316fdab)
+[fmt=](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md#reference-cdf10043423b45ba9fe15157fb3ae37a) ， [catalog：：目標](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-targets-cat.md)， [catalog：：UserData](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-userdata-cat.md)， [縮圖縮放](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-thumbnail-scaling.md#reference-0f71817f721d4913b34816758d69b07f)， [屬性](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/c-properties.md#concept-49c609fd6de942cab422ee412353c9d9)， [影像地圖](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-image-maps.md#reference-ff7d1bac2a064104b0c508a81316fdab)

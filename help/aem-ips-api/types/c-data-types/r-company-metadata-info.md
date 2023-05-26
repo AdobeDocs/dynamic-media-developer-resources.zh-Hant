@@ -1,7 +1,7 @@
 ---
-description: 保存有關公司元資料對象的資訊，如ID、名稱和類型。
+description: 保留有關公司中繼資料物件的資訊，例如ID、名稱和型別。
 solution: Experience Manager
-title: 公司元資料資訊
+title: CompanyMetadataInfo
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: a3d4dd67-07df-47bf-b9e7-1379290654ff
@@ -14,7 +14,7 @@ ht-degree: 16%
 
 # [!DNL CompanyMetadataInfo]{#companymetadatainfo}
 
-保存有關公司元資料對象的資訊，如ID、名稱和類型。
+保留有關公司中繼資料物件的資訊，例如ID、名稱和型別。
 
 語法
 

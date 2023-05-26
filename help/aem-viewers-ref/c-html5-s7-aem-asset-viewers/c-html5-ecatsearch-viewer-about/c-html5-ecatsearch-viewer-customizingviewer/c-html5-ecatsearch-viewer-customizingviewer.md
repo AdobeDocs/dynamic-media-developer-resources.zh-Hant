@@ -1,7 +1,7 @@
 ---
-title: 自定義電子目錄搜索查看器
-description: eCatalog Search Viewer的所有可視化自定義和大多數行為自定義都通過建立自定義CSS來完成。
-keywords: 響應
+title: 自訂eCatalog搜尋檢視器
+description: eCatalog搜尋檢視器的所有視覺化自訂和大部分行為自訂都是透過建立自訂CSS來完成。
+keywords: 回應式
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
@@ -13,39 +13,39 @@ ht-degree: 0%
 
 ---
 
-# 自定義電子目錄搜索查看器{#customizing-ecatalog-search-viewer}
+# 自訂eCatalog搜尋檢視器{#customizing-ecatalog-search-viewer}
 
-eCatalog Search Viewer的所有可視化自定義和大多數行為自定義都通過建立自定義CSS來完成。
+eCatalog搜尋檢視器的所有視覺化自訂和大部分行為自訂都是透過建立自訂CSS來完成。
 
-建議的工作流是為相應的查看器獲取預設CSS檔案，將其複製到其他位置，對其進行自定義，並在 `style=` 的子菜單。
+建議的工作流程是取用適當檢視器的預設CSS檔案、將其複製到不同位置、自訂該檔案，並在中指定自訂檔案的位置 `style=` 命令。
 
-預設CSS檔案可在以下位置找到：
+可在以下位置找到預設CSS檔案：
 
 `<s7_viewers_root>/html5/eCatalogSearchViewer_dark.css`
 
-自定義CSS檔案必須包含與預設類聲明相同的類聲明。 如果省略了類聲明，則查看器將無法正常工作，因為它不提供用戶介面元素的內置預設樣式。
+自訂CSS檔案必須包含與預設檔案相同的類別宣告。 如果省略類別宣告，則檢視器無法正常運作，因為它未提供使用者介面元素的內建預設樣式。
 
-提供自定義CSS規則的另一種方法是直接在網頁或連結的外部CSS規則之一中使用嵌入樣式。
+提供自訂CSS規則的替代方式是直接在網頁上或其中一個連結的外部CSS規則中使用內嵌樣式。
 
-建立自定義CSS時，切記查看器指定 `.s7ecatalogsearchviewer` 類到其容器DOM元素。 如果使用與 `style=` 命令，使用 `.s7ecatalogsearchviewer` 類作為CSS規則的後代選擇器中的父類。 如果要在網頁上執行嵌入樣式，還應使用容器DOM元素的ID來限定此選擇器，如下所示：
+建立自訂CSS時，請記住檢視器會指派 `.s7ecatalogsearchviewer` 類別至其容器DOM元素。 如果您使用傳遞的外部CSS檔案， `style=` 命令，使用 `.s7ecatalogsearchviewer` 類別作為CSS規則之子系選擇器中的父類別。 如果您在網頁上執行內嵌樣式，您也應該使用容器DOM元素的ID來限定此選取器，如下所示：
 
 `#<containerId>.s7ecatalogsearchviewer`
 
-## 構建響應性設計的CSS {#section-c1e74f5114ad418884ca1c95f5ea5b63}
+## 建立回應式設計CSS {#section-c1e74f5114ad418884ca1c95f5ea5b63}
 
-根據用戶的設備或特定網頁佈局，可以將不同的設備和嵌入大小作為目標，以使內容顯示方式不同。 此目標包括但不限於不同的網頁佈局、用戶介面元素大小和圖稿解析度。
+視使用者的裝置或特定網頁版面配置而定，可在CSS中鎖定不同的裝置和內嵌大小，讓內容以不同的方式顯示。 此目標定位包括但不限於不同的網頁版面配置、使用者介面元素大小和圖稿解析度。
 
-查看器支援建立響應性設計的CSS的兩種方法：CSS標籤和標準CSS媒體查詢。 您可以單獨或一起使用這些方法。
+檢視器支援兩種建立回應式設計CSS的方法： CSS標籤和標準CSS媒體查詢。 您可以單獨或搭配使用這些方法。
 
 **CSS標籤**
 
-要建立響應性設計的CSS，查看器支援CSS標籤，這些特殊的CSS類基於運行時查看器大小和當前設備上的輸入類型動態分配給頂級查看器容器元素。
+為了建立回應式設計CSS，檢視器支援CSS標籤，這些特殊的CSS類別會根據執行階段檢視器大小和目前裝置上的輸入型別，動態指派給頂層檢視器容器元素。
 
-第一組CSS標籤包括 `.s7size_large`。 `.s7size_medium`, `.s7size_small` 類。 它們基於查看器容器的運行時區域應用。 即，如果查看器區域等於或大於公共案頭顯示器的大小 `.s7size_large` 的下界；如果區域大小接近普通平板電腦設備 `.s7size_medium` 已分配。 類似於手機螢幕的區域。 標籤 `.s7size_small` 的子菜單。 這些CSS標籤的主要目的是為不同的螢幕和查看器大小建立不同的用戶介面佈局。
+第一組CSS標籤包括 `.s7size_large`， `.s7size_medium`、和 `.s7size_small` 類別。 它們會根據檢視器容器的執行階段區域套用。 也就是說，如果檢視器區域等於或大於一般桌上型電腦熒幕的大小 `.s7size_large` 使用；如果區域的大小接近一般平板電腦裝置 `.s7size_medium` 已指派。 適用於類似行動電話熒幕的區域。 標籤 `.s7size_small` 已設定。 這些CSS標籤的主要用途是為不同的熒幕和檢視器大小建立不同的使用者介面配置。
 
-第二組CSS標籤包括 `.s7mouseinput` 和 `.s7touchinput`。 標籤 `.s7touchinput` 當當前設備具有觸摸輸入功能時設定；否則， `.s7mouseinput` 的子菜單。 這些標籤旨在為不同的輸入類型建立具有不同螢幕大小的用戶介面輸入元素，因為通常觸摸輸入需要較大的元素。 如果設備同時具備滑鼠輸入和觸摸功能， `.s7touchinput` 設定，並且查看器呈現一個觸摸友好用戶介面。
+第二組CSS標籤包括 `.s7mouseinput` 和 `.s7touchinput`. 標籤 `.s7touchinput` 若目前裝置具備觸控輸入功能，則為設定；否則， `.s7mouseinput` 已使用。 這些標籤旨在為不同的輸入型別建立具有不同熒幕大小的使用者介面輸入元素，因為一般而言，觸控輸入需要更大的元素。 如果裝置同時具備滑鼠輸入和觸控功能， `.s7touchinput` 「 」已設定，且檢視器呈現觸控式好記的使用者介面。
 
-下面的示例CSS將滑鼠輸入系統上的按鈕放大大小設定為28 x 28像素，觸摸設備上的按鈕放大大小設定為56 x 56像素。 此外，如果查看器大小太小，它會完全隱藏按鈕：
+下列範例CSS會在使用滑鼠輸入的系統上將放大按鈕大小設定為28 x 28畫素，在觸控裝置上將設定為56 x 56畫素。 此外，如果檢視器大小變得太小，則會完全隱藏按鈕：
 
 ```
 .s7ecatalogsearchviewer.s7mouseinput .s7zoominbutton { 
@@ -61,7 +61,7 @@ eCatalog Search Viewer的所有可視化自定義和大多數行為自定義都�
 }
 ```
 
-要使用不同像素密度的目標設備，請使用CSS媒體查詢。 以下媒體查詢塊將包含特定於高密度螢幕的CSS:
+若要鎖定具有不同畫素密度的裝置，請使用CSS媒體查詢。 下列媒體查詢區塊將包含高密度熒幕專屬的CSS：
 
 ```
 @media screen and (-webkit-min-device-pixel-ratio: 1.5) 
@@ -69,17 +69,17 @@ eCatalog Search Viewer的所有可視化自定義和大多數行為自定義都�
 }
 ```
 
-使用CSS標籤是構建響應性設計的CSS的最靈活方法。 它不僅允許您針對設備螢幕大小，還允許您針對實際的查看器大小，這對於響應性設計的頁面佈局非常有用。
+使用CSS標籤是建置回應式設計CSS的最靈活方式。 它可讓您不僅鎖定裝置熒幕大小，還鎖定實際檢視器大小，這對回應式設計頁面版面非常有用。
 
-使用預設查看器CSS檔案作為CSS標籤方法的示例。
+使用預設檢視器CSS檔案作為CSS標籤方法的一個範例。
 
 **CSS媒體查詢**
 
-設備檢測也可使用純CSS媒體查詢完成。 僅當給定媒體查詢塊在相應設備上運行時，才應用該塊中包含的所有內容。
+裝置感應也可以使用純CSS媒體查詢來完成。 指定媒體查詢區塊中包含的所有內容，只會在對應裝置上執行時套用。
 
-應用到Mobile Viewers時，請按以下順序使用在CSS中定義的四個CSS媒體查詢：
+套用至行動檢視器時，請使用四個CSS媒體查詢，在CSS中依下列順序定義：
 
-1. 僅包含特定於所有觸摸設備的規則。
+1. 僅包含所有觸控裝置專屬的規則。
 
    ```
    @media only screen and (max-device-width:13.5in) and (max-device-height:13.5in) and (max-device-width:799px), 
@@ -88,7 +88,7 @@ eCatalog Search Viewer的所有可視化自定義和大多數行為自定義都�
    }
    ```
 
-1. 僅包含針對具有高解析度螢幕的平板電腦的規則。
+1. 僅包含具有高解析度熒幕的平板電腦專屬規則。
 
    ```
    @media only screen and (max-device-width:13.5in) and (max-device-height:13.5in) and (max-device-width:799px) and (-webkit-min-device-pixel-ratio:1.5), 
@@ -97,7 +97,7 @@ eCatalog Search Viewer的所有可視化自定義和大多數行為自定義都�
    }
    ```
 
-1. 僅包含特定於所有行動電話的規則。
+1. 僅包含所有行動電話的特定規則。
 
    ```
    @media only screen and (max-device-width:9in) and (max-device-height:9in) 
@@ -105,7 +105,7 @@ eCatalog Search Viewer的所有可視化自定義和大多數行為自定義都�
    }
    ```
 
-1. 僅包含針對具有高解析度螢幕的行動電話的特定規則。
+1. 僅包含高解析度熒幕行動電話的特定規則。
 
    ```
    @media only screen and (max-device-width:9in) and (max-device-height:9in) and (-webkit-min-device-pixel-ratio: 1.5), 
@@ -115,18 +115,18 @@ eCatalog Search Viewer的所有可視化自定義和大多數行為自定義都�
    }
    ```
 
-使用媒體查詢方法，應按如下方式組織具有設備感知功能的CSS:
+使用媒體查詢方法，您應該使用裝置感應來組織CSS，如下所示：
 
-* 首先，特定於案頭的部分定義所有屬性，這些屬性是特定於案頭的，或是所有螢幕通用的。
-* 其次，這四個媒體查詢按上述定義的順序進行，並提供特定於相應設備類型的CSS規則。
+* 首先，案頭專屬區段會定義案頭專屬或所有畫面通用的所有屬性。
+* 其次，這四個媒體查詢會依照上述定義的順序進行，並提供專屬於對應裝置型別的CSS規則。
 
-無需在每個媒體查詢中複製整個查看器CSS。 只有特定於給定設備的屬性才會在媒體查詢中重新定義。
+不需要在每個媒體查詢中複製整個檢視器CSS。 只有在媒體查詢內重新定義指定裝置的特定屬性。
 
-## CSS繁體 {#section-9d570f95eb2443aca74c1b02f6e89aff}
+## CSS精靈 {#section-9d570f95eb2443aca74c1b02f6e89aff}
 
-許多查看器用戶介面元素使用點陣圖圖稿設定樣式，並具有多個不同的可視狀態。 一個很好的例子是按鈕，它通常至少有三種不同的狀態：&quot;up&quot;、&quot;over&quot;和&quot;down&quot;。 每個狀態都需要分配其自己的點陣圖圖稿。
+許多檢視器使用者介面元素會使用點陣圖圖案來設定樣式，而且會有多個不同的視覺狀態。 一個很好的範例是按鈕，通常至少有三個不同的狀態：「向上」、「向上」和「向下」。 每個狀態都需要指定自己的點陣圖圖稿。
 
-使用經典的造型方法，CSS會針對用戶介面元素的每個狀態對伺服器上的單個影像檔案有單獨的引用。 以下是用於設定放大按鈕樣式的示例CSS:
+透過傳統樣式設定方法，CSS會針對使用者介面元素的每個狀態，對伺服器上的個別影像檔案提供個別參考。 以下是設定放大按鈕樣式的範例CSS：
 
 ```
 .s7ecatalogsearchviewer.s7mouseinput .s7zoominbutton[state='up'] {  
@@ -143,9 +143,9 @@ background-image:url(images/v2/ZoomInButton_dark_disabled.png);
 }
 ```
 
-這種方法的缺點是當第一次與元件交互時終端用戶經歷閃爍或延遲的用戶介面響應。 此操作是因為尚未下載新元素狀態的影像圖稿。 此外，由於對伺服器的HTTP調用數量增加，此方法可能會對效能產生輕微的負面影響。
+此方法的缺點在於，當元素首次互動時，一般使用者會遇到使用者介面回應閃爍或延遲的情況。 發生此動作是因為尚未下載新元素狀態的影像圖稿。 此外，由於對伺服器的HTTP呼叫數增加，此方法可能會對效能造成輕微的負面影響。
 
-CSS浮雕是一種不同的方法，將所有元素狀態的影像圖稿合併到稱為「sprite」的單個PNG檔案中。 這種&quot;sprite&quot;具有給定元素的所有視覺狀態，這些狀態是一個接一個地定位的。 當使用sprite設定用戶介面元素的樣式時，CSS中所有不同狀態都引用了相同的sprite影像。 另外， `background-position` 屬性用於每個狀態，以指定使用「sprite」影像的哪一部分。 可以以任何合適的方式構造「雪碧」影像。 通常，查看器會垂直堆疊。 下面是基於「sprite」的示例，用於從上面設計相同的放大按鈕：
+CSS sprite是一種不同的方法，所有元素狀態的影像圖稿會合併到稱為「sprite」的單一PNG檔案中。 此類「sprite」具有給定元素的所有視覺狀態，它們會一個接一個地放置。 在設定包含精靈的使用者介面元素的樣式時，會針對CSS中的所有不同狀態參考相同的Sprite影像。 此外， `background-position` 屬性會用於每個狀態，以指定使用「sprite」影像的哪個部分。 您可以以任何適當的方式建構「sprite」影像。 檢視器通常會垂直棧疊。 以下是以「sprite」為基礎的範例，說明如何從上方設定相同放大按鈕的樣式：
 
 ```
 .s7ecatalogsearchviewer .s7zoominbutton[state]  { 
@@ -165,59 +165,59 @@ background-position: -0px -560px;
 }
 ```
 
-## 一般樣式說明和建議 {#section-95855dccbbc444e79970f1aaa3260b7b}
+## 一般樣式注意事項和建議 {#section-95855dccbbc444e79970f1aaa3260b7b}
 
-* 使用CSS自定義查看器用戶介面時， `!IMPORTANT` 樣式查看器元素不支援規則。 特別是， `!IMPORTANT` 不應使用規則覆蓋查看器或查看器SDK提供的任何預設樣式或運行時樣式。 其原因在於，它可能影響正確組分的行為。 相反，您應使用具有適當專用性的CSS選擇器來設定本參考指南中記錄的CSS屬性。
-* CSS內到外部資產的所有路徑都根據CSS位置而不是查看器HTML頁位置進行解析。 將預設CSS複製到其他位置時，請注意此規則。 複製預設資產或更新自定義CSS中的路徑。
-* 點陣圖圖稿的首選格式為PNG。
-* 點陣圖圖稿使用 `background-image` 屬性。
-* 的 `width` 和 `height` 用戶介面元素的屬性定義其邏輯大小。 傳遞給的點陣圖的大小 `background-image` 不影響邏輯大小。
-* 要使用高解析度螢幕（如Retina）的高像素密度，請指定比邏輯用戶介面元素大兩倍的點陣圖圖稿。 然後，應用 `-webkit-background-size:contain` 屬性，將背景縮放到邏輯用戶介面元素大小。
-* 要從用戶介面中刪除按鈕，請添加 `display:none` CSS類。
-* 可以使用CSS支援的顏色值的各種格式。 如果需要透明度，請使用格式 `rgba(R,G,B,A)`。 否則，可以使用 `#RRGGBB`。
+* 使用CSS自訂檢視器使用者介面時，請使用 `!IMPORTANT` 樣式檢視器元素不支援規則。 尤其是， `!IMPORTANT` 規則不應用來覆寫檢視器或檢視器SDK提供的任何預設或執行階段樣式。 原因是它可能會影響適當元件的行為。 您應該改用具有適當特性的CSS選取器，以設定本參考指南中記錄的CSS屬性。
+* CSS內外部資產的所有路徑都會根據CSS位置解析，而非檢視器HTML頁面位置。 將預設CSS複製到其他位置時，請注意此規則。 複製預設資產或更新自訂CSS內的路徑。
+* 點陣圖稿的偏好格式為PNG。
+* 點陣圖圖稿會使用指定給使用者介面元素 `background-image` 屬性。
+* 此 `width` 和 `height` 使用者介面元素的屬性會定義其邏輯大小。 傳遞至的點陣圖大小 `background-image` 不會影響邏輯大小。
+* 若要使用Retina等高解析度熒幕的高畫素密度，請指定兩倍於邏輯使用者介面元素大小的點陣圖圖稿。 然後，套用 `-webkit-background-size:contain` 屬性，將背景縮小至邏輯使用者介面元素大小。
+* 若要從使用者介面移除按鈕，請新增 `display:none` 至其CSS類別。
+* 您可以對CSS支援的顏色值使用各種格式。 如果您需要透明度，請使用格式 `rgba(R,G,B,A)`. 否則，您可以使用格式 `#RRGGBB`.
 
-## 通用用戶介面元素 {#section-d6330c9be8c444aa9b2a07886e3dbc2a}
+## 常見使用者介面元素 {#section-d6330c9be8c444aa9b2a07886e3dbc2a}
 
-以下是適用於eCatalog Search Viewer的用戶介面元素引用文檔：
+以下是適用於eCatalog搜尋檢視器的使用者介面元素參考檔案：
 
-* [「添加收藏夾」按鈕](r-html5-ecatsearch-customize-addfavorite.md)
+* [新增我的最愛按鈕](r-html5-ecatsearch-customize-addfavorite.md)
 * [關閉按鈕](r-html5-ecatsearch-customize-closebutton.md)
 * [下載](r-html5-ecatsearch-customize-download.md)
 * [電子郵件共用](r-html5-ecatsearch-customize-emailshare.md)
-* [嵌入共用](r-html5-ecatsearch-customize-embedshare.md)
-* [Facebook](r-html5-ecatsearch-customize-facebookshare.md)
-* [收藏夾效果](r-html5-ecatsearch-customize-favoriteseffect.md)
-* [收藏夾菜單](r-html5-ecatsearch-customize-favoritesmenu.md)
-* [收藏夾視圖](r-html5-ecatsearch-customize-favoritesview.md)
-* [「第一頁」按鈕](r-html5-ecatsearch-customize-firstpagebutton.md)
-* [聚焦突出顯示](r-html5-ecatsearch-customize-focushighlight.md)
-* [全屏按鈕](r-html5-ecatsearch-customize-fullscreenbutton.md)
-* [表徵圖效果](r-html5-ecatsearch-customize-iconeffect.md)
-* [資訊面板彈出菜單](r-html5-ecatsearch-customize-infopanelpopup.md)
-* [影像映射效果](r-html5-ecatsearch-customize-imagemapeffect.md)
-* [「大」下一頁按鈕](r-html5-ecatsearch-customize-largenextpagebutton.md)
-* [「大上一頁」按鈕](r-html5-ecatsearch-customize-largepreviouspagebutton.md)
-* [「上一頁」按鈕](r-html5-ecatsearch-customize-lastpagebutton.md)
+* [內嵌共用](r-html5-ecatsearch-customize-embedshare.md)
+* [facebook共用](r-html5-ecatsearch-customize-facebookshare.md)
+* [我的最愛效果](r-html5-ecatsearch-customize-favoriteseffect.md)
+* [我的最愛功能表](r-html5-ecatsearch-customize-favoritesmenu.md)
+* [我的最愛檢視](r-html5-ecatsearch-customize-favoritesview.md)
+* [第一頁按鈕](r-html5-ecatsearch-customize-firstpagebutton.md)
+* [焦點反白顯示](r-html5-ecatsearch-customize-focushighlight.md)
+* [全熒幕按鈕](r-html5-ecatsearch-customize-fullscreenbutton.md)
+* [圖示效果](r-html5-ecatsearch-customize-iconeffect.md)
+* [資訊面板快顯視窗](r-html5-ecatsearch-customize-infopanelpopup.md)
+* [影像地圖效果](r-html5-ecatsearch-customize-imagemapeffect.md)
+* [大型下一頁按鈕](r-html5-ecatsearch-customize-largenextpagebutton.md)
+* [上一頁大按鈕](r-html5-ecatsearch-customize-largepreviouspagebutton.md)
+* [「最後一頁」按鈕](r-html5-ecatsearch-customize-lastpagebutton.md)
 * [連結共用](r-html5-ecatsearch-customize-linkshare.md)
-* [主控制欄](r-html5-ecatsearch-customize-maincontrolbar.md)
-* [主查看器區域](r-html5-ecatsearch-customize-mainviewerarea.md)
-* [「下一頁」按鈕](r-html5-ecatsearch-customize-nextpagebutton.md)
-* [頁面指示器](r-html5-ecatsearch-customize-pageindicator.md)
+* [主要控制列](r-html5-ecatsearch-customize-maincontrolbar.md)
+* [主要檢視器區域](r-html5-ecatsearch-customize-mainviewerarea.md)
+* [下一頁按鈕](r-html5-ecatsearch-customize-nextpagebutton.md)
+* [頁面指標](r-html5-ecatsearch-customize-pageindicator.md)
 * [頁面檢視](r-html5-ecatsearch-customize-pageview.md)
-* [「上一頁」按鈕](r-html5-ecatsearch-customize-previouspagebutton.md)
+* [上一頁按鈕](r-html5-ecatsearch-customize-previouspagebutton.md)
 * [列印](r-html5-ecatsearch-customize-print.md)
-* [「刪除收藏夾」按鈕](r-html5-ecatsearch-customize-removefavorite.md)
-* [「搜索」按鈕](r-html5-ecatsearch-customize-searchbutton.md)
-* [搜索效果](r-html5-ecatsearch-customize-searcheffect.md)
-* [「搜索結果」面板](r-html5-ecatsearch-customize-searchresultspanel.md)
-* [輔助控制欄](r-html5-ecatsearch-customize-secondarycontrolbar.md)
-* [社會份額](r-html5-ecatsearch-customize-socialshare.md)
+* [移除我的最愛按鈕](r-html5-ecatsearch-customize-removefavorite.md)
+* [搜尋按鈕](r-html5-ecatsearch-customize-searchbutton.md)
+* [搜尋效果](r-html5-ecatsearch-customize-searcheffect.md)
+* [搜尋結果面板](r-html5-ecatsearch-customize-searchresultspanel.md)
+* [次要控制列](r-html5-ecatsearch-customize-secondarycontrolbar.md)
+* [社交分享](r-html5-ecatsearch-customize-socialshare.md)
 * [目錄](r-html5-ecatsearch-customize-tableofcontents.md)
-* [縮略圖](r-html5-ecatsearch-customize-thumbnails.md)
-* [縮略圖按鈕](r-html5-ecatsearch-customize-thumbnailsbutton.md)
+* [縮圖](r-html5-ecatsearch-customize-thumbnails.md)
+* [「縮圖」按鈕](r-html5-ecatsearch-customize-thumbnailsbutton.md)
 * [工具提示](r-html5-ecatsearch-customize-tooltips.md)
-* [Twitter](r-html5-ecatsearch-customize-twittershare.md)
-* [「查看所有收藏夾」按鈕](r-html5-ecatsearch-customize-viewallfavorites.md)
-* [放大按鈕](r-html5-ecatsearch-customize-zoominbutton.md)
-* [縮小按鈕](r-html5-ecatsearch-customize-zoomoutbutton.md)
-* [縮放重置按鈕](r-html5-ecatsearch-customize-zoomresetbutton.md)
+* [twitter共用](r-html5-ecatsearch-customize-twittershare.md)
+* [檢視所有我的最愛按鈕](r-html5-ecatsearch-customize-viewallfavorites.md)
+* [放大顯示按鈕](r-html5-ecatsearch-customize-zoominbutton.md)
+* [縮小顯示按鈕](r-html5-ecatsearch-customize-zoomoutbutton.md)
+* [縮放重設按鈕](r-html5-ecatsearch-customize-zoomresetbutton.md)

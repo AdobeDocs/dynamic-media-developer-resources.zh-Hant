@@ -1,7 +1,7 @@
 ---
-description: 生成視頻的縮略圖。
+description: 為您的視訊產生縮圖影像。
 solution: Experience Manager
-title: 媒體選項
+title: MediaOptions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f37d935d-fe74-4878-8477-d2144d58d982
@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # [!DNL MediaOptions]{#mediaoptions}
 
-生成視頻的縮略圖。
+為您的視訊產生縮圖影像。
 
 語法
 
@@ -31,18 +31,18 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> videoEncodingPresetsArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 類型：HandleArray</span> </td> 
-   <td colname="col3">一組 <span class="codeph"> 屬性集</span> 處理引用視頻編碼預置以進行視頻代碼轉換。 </td> 
+   <td colname="col2"> <span class="codeph"> 型別：HandleArray</span> </td> 
+   <td colname="col3">陣列 <span class="codeph"> 屬性集</span> 處理參考視訊編碼預設集以轉碼視訊。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> generateThumbnail</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> 當為true時，提取視頻的第一幀並將其用作縮略圖。 </td> 
+   <td colname="col3"> 為true時，會擷取視訊的第一個影格，並當做縮圖影像使用。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 縮略圖選項</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 類型：縮略圖選項</span> </td> 
-   <td colname="col3">選擇性. 允許您選擇特定視頻幀作為縮略圖。 <p>要指定縮略圖，請在要使用的幀的時間（從視頻啟動開始的毫秒）內傳遞。 值範圍從0到視頻結尾。 <p>注：如果指定時間不正確， <span class="codeph"> generateThumbnail</span> 預設為true。 </p></p><p>請參閱 <a href="../../types/c-data-types/r-thumbnail-options.md#reference-370088b0a4ce4096b9b3e5489a368b5c" format="dita" scope="local"> 縮略圖選項</a>。 </p></td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbnailoptions</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> 型別：ThumbnailOptions</span> </td> 
+   <td colname="col3">選擇性. 可讓您選擇特定的視訊影格做為縮圖影像。 <p>若要指定縮圖影像，請為您要使用的影格傳入時間（從視訊開始算起的毫秒）。 值範圍從0到視訊結尾。 <p>注意：如果您不正確指定時間， <span class="codeph"> generateThumbnail</span> 預設為true。 </p></p><p>另請參閱 <a href="../../types/c-data-types/r-thumbnail-options.md#reference-370088b0a4ce4096b9b3e5489a368b5c" format="dita" scope="local"> 縮圖選項</a>. </p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,8 +61,8 @@ ht-degree: 7%
 
 ## 使用者 {#section-87cb83407198432c95eaa2db9f12f9db}
 
-的 `mediaOptions` 類型由：
+此 `mediaOptions` 型別使用者：
 
-* [上載目錄作業](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
-* [上載後作業](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)
-* [上載URL作業](../../types/c-data-types/r-upload-urls-job.md#reference-8e9bc895268c4321b233dbeadc990398)
+* [UploadDirectory作業](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
+* [UploadpostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)
+* [UploadURLsJob](../../types/c-data-types/r-upload-urls-job.md#reference-8e9bc895268c4321b233dbeadc990398)

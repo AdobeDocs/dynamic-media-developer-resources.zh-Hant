@@ -20,14 +20,14 @@ ht-degree: 22%
 
 ## 參數 {#section-d7080ccd97334c94860eb107a3e132b2}
 
-**輸入(updateAssetSetParam)**
+**輸入(updateAssetSetparam)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 公司句柄 | `xsd:string` | 是 | 包含要修改的映像集的公司的句柄。 |
-| 資產句柄 | `xsd:string` | 是 | 要修改的影像集的句柄。 |
-| setDefinition | `xsd:string` | 否 | 重置影像整合員。 |
-| 拇指資產句柄 | `xsd:string` | 否 | 用作影像集縮略圖的資產句柄。 |
+| companyHandle | `xsd:string` | 是 | 包含您要修改之影像集的公司的控制代碼。 |
+| assetHandle | `xsd:string` | 是 | 您要修改之影像集的操作框。 |
+| setDefinition | `xsd:string` | 否 | 重設影像整合員。 |
+| thumbAssetHandle | `xsd:string` | 否 | 資產的控制代碼，可作為影像集的縮圖。 |
 
 **輸出(updateAssetSetReturn)**
 

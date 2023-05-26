@@ -1,7 +1,7 @@
 ---
 description: 刪除多個資產。
 solution: Experience Manager
-title: 刪除資產
+title: deleteAssets
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 487f83e6-f713-40e9-a442-e1179b30012c
@@ -12,13 +12,13 @@ ht-degree: 16%
 
 ---
 
-# 刪除資產{#deleteassets}
+# deleteAssets{#deleteassets}
 
 刪除多個資產。
 
 語法
 
-## 授權用戶類型 {#section-a6bc555b8ac840c98835b73fbf838d70}
+## 授權的使用者型別 {#section-a6bc555b8ac840c98835b73fbf838d70}
 
 * `IpsUser`
 * `IspAdmin`
@@ -42,14 +42,14 @@ ht-degree: 16%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> 公司句柄</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>資產所屬公司的句柄。 </p> </td> 
+   <td colname="col4"> <p>資產所屬公司的控制代碼。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> 類型：HandleArray</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 型別：HandleArray</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
    <td colname="col4"> <p>要刪除的資產陣列。 </p> </td> 
   </tr> 
@@ -69,41 +69,41 @@ ht-degree: 16%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> 成功計數</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> successCount</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>已成功刪除的資產數。 </p> </td> 
+   <td colname="col4"> <p>已成功刪除的資產數目。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> 警告計數</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> warningCount</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>操作嘗試刪除時生成警告的資產。 </p> </td> 
+   <td colname="col4"> <p>在作業嘗試刪除資產時產生警告的資產。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> 錯誤計數</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> errororcount</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>操作嘗試刪除錯誤時生成錯誤的資產。 </p> </td> 
+   <td colname="col4"> <p>作業嘗試刪除資產時產生錯誤的資產。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> 警告DetailArray</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> 類型：AssetOperationFaultArray</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> warningDetailArray</span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 型別：AssetOperationFaultArray</span> </p> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>與在操作嘗試刪除時生成警告的資產關聯的詳細資訊陣列。 </p> </td> 
+   <td colname="col4"> <p>與資產關聯的詳細資訊陣列，在作業嘗試刪除資產時產生警告。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> 錯誤DetailArray</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> 類型：AssetOperationFaultArray</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> errorDetailArray</span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 型別：AssetOperationFaultArray</span> </p> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>與在操作嘗試刪除時生成錯誤的資產關聯的詳細資訊陣列。 </p> </td> 
+   <td colname="col4"> <p>與資產關聯的詳細資訊陣列，在操作嘗試刪除資產時產生錯誤。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 範例 {#section-aaad1933bf86479eb6cb476cec7d4587}
 
-此代碼示例將句柄發送給公司，並將 `deleteAssetsParam` 請求到Web服務伺服器。 `deleteAssetsReturn` 返回成功計數2，表示刪除了兩個資產。
+此程式碼範例會將控制代碼傳送至公司，並在中設定一系列資產控制代碼 `deleteAssetsParam` 要求網頁服務伺服器。 `deleteAssetsReturn` 傳回2的成功計數，表示兩個資產均已刪除。
 
 **請求**
 

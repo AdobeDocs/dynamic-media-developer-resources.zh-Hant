@@ -1,5 +1,5 @@
 ---
-description: 通過在嵌套/嵌入請求中指定cache=on，可快取由嵌套/嵌入影像服務和影像呈現請求產生的中間影像資料。 該資料以專有格式儲存在響應資料快取中。
+description: 您可以在巢狀/內嵌請求中指定cache=on ，快取巢狀/內嵌影像伺服和影像演算請求產生的中間影像資料。 此資料會以專屬格式儲存在回應資料快取中。
 solution: Experience Manager
 title: 輔助資料快取
 feature: Dynamic Media Classic,SDK/API
@@ -14,8 +14,8 @@ ht-degree: 0%
 
 # 輔助資料快取{#auxiliary-data-caches}
 
-通過在嵌套/嵌入請求中指定cache=on，可快取由嵌套/嵌入影像服務和影像呈現請求產生的中間影像資料。 該資料以專有格式儲存在響應資料快取中。
+您可以在巢狀/內嵌請求中指定cache=on ，快取巢狀/內嵌影像伺服和影像演算請求產生的中間影像資料。 此資料會以專屬格式儲存在回應資料快取中。
 
-從外部HTTP伺服器獲得的影像也儲存在響應資料快取中。 在生成快取條目之前，使用驗證實用程式自動驗證這些影像。
+從外部HTTP伺服器取得的影像也會儲存在回應資料快取中。 產生快取專案之前，會先使用驗證公用程式自動驗證這類影像。
 
-的 [!DNL Platform Server] 編譯影像目錄資料以便有效訪問。 此資料儲存在 `CS::CatalogCacheFolder`。
+此 [!DNL Platform Server] 編譯影像目錄資料以有效存取。 此資料儲存在 `CS::CatalogCacheFolder`.

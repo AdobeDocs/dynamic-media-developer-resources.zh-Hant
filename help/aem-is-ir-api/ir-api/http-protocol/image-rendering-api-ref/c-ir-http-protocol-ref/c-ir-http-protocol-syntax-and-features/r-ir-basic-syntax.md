@@ -1,6 +1,6 @@
 ---
-title: 影像呈現HTTP協定基本語法
-description: 本節介紹Dynamic Media影像呈現HTTP協定的基本語法。
+title: 影像演算HTTP通訊協定基本語法
+description: 本節說明Dynamic Media影像轉譯HTTP通訊協定的基本語法。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,9 +12,9 @@ ht-degree: 3%
 
 ---
 
-# 影像呈現HTTP協定基本語法{#image-rendering-http-protocol-basic-syntax}
+# 影像演算HTTP通訊協定基本語法{#image-rendering-http-protocol-basic-syntax}
 
-本節介紹Dynamic Media影像呈現HTTP協定的基本語法。
+本節說明Dynamic Media影像轉譯HTTP通訊協定的基本語法。
 
 <table id="table_0A7D7207EE6D4B08B62BE8620EBE0B25"> 
  <thead> 
@@ -26,43 +26,43 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> 請求</span> </p> </td> 
-   <td colname="col2"> <p>http://<span class="varname"> 伺服器</span>/ir/render[/<span class="varname"> 維涅特</span> ] [<span class="varname"> 修飾元</span> ] </p> </td> 
+   <td colname="col2"> <p>http://<span class="varname"> 伺服器</span>/ir/render[/<span class="varname"> 暈映</span> ] [ ？<span class="varname"> 修飾元</span> ] </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> 伺服器 </span> </p> </td> 
-   <td colname="col2"> <p><span class="varname"> 伺服器地址</span> [ :<span class="varname"> 埠</span> ] </p> </td> 
+   <td colname="col2"> <p><span class="varname"> server_address</span> [ ：<span class="varname"> 連線埠</span> ] </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="varname"> 維涅特 </span> </p> </td> 
-   <td colname="col2"> <p>Vignette說明符（相對檔案路徑或Vignette目錄條目）。 </p> </td> 
+   <td colname="col1"> <p><span class="varname"> 暈映 </span> </p> </td> 
+   <td colname="col2"> <p>暈映規範（相對檔案路徑或暈映目錄專案）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> 修飾元 </span> </p> </td> 
-   <td colname="col2"> <p><span class="varname"> 修飾</span> *[ &amp; <span class="varname"> 修飾</span> ] </p> </td> 
+   <td colname="col2"> <p><span class="varname"> 修飾元</span> *[ &amp; <span class="varname"> 修飾元</span> ] </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="varname"> 修飾 </span> </p> </td> 
-   <td colname="col2"> <p><span class="varname"> 命令</span> | { $ <span class="varname"> 宏</span> $ } | {<span class="varname"> 注釋</span> } </p> </td> 
+   <td colname="col1"> <p><span class="varname"> 修飾元 </span> </p> </td> 
+   <td colname="col2"> <p><span class="varname"> 命令</span> | { $ <span class="varname"> 巨集</span> $ } | { .<span class="varname"> 評論</span> } </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> 命令 </span> </p> </td> 
-   <td colname="col2"> <p>{ 0} <span class="varname"> cmd名稱</span> | { $<span class="varname"> var</span> } [ = <span class="varname"> 值</span> ] </p> </td> 
+   <td colname="col2"> <p>{ <span class="varname"> cmdName</span> | { $<span class="varname"> var</span> } } [ = <span class="varname"> 值</span> ] </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="varname"> 宏 </span> </p> </td> 
-   <td colname="col2"> <p>命令宏的名稱。 </p> </td> 
+   <td colname="col1"> <p><span class="varname"> 巨集 </span> </p> </td> 
+   <td colname="col2"> <p>命令巨集的名稱。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="varname"> 注釋 </span> </p> </td> 
-   <td colname="col2"> <p>注釋字串（被伺服器忽略）。 </p> </td> 
+   <td colname="col1"> <p><span class="varname"> 評論 </span> </p> </td> 
+   <td colname="col2"> <p>註解字串（被伺服器忽略）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="varname"> cmd名稱 </span> </p> </td> 
+   <td colname="col1"> <p><span class="varname"> cmdName </span> </p> </td> 
    <td colname="col2"> <p>命令或屬性的名稱。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> var </span> </p> </td> 
-   <td colname="col2"> <p>自定義變數的名稱。 </p> </td> 
+   <td colname="col2"> <p>自訂變數的名稱。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> 值 </span> </p> </td> 
@@ -71,16 +71,16 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-*`server`*。 *`cmdName`*。 *`macro`*, *`var`* 不區分大小寫。 伺服器保留所有其他字串值的大小寫。
+*`server`*， *`cmdName`*， *`macro`*、和 *`var`* 不區分大小寫。 伺服器會保留所有其他字串值的大小寫。
 
-**伺服器標識符**
+**伺服器識別碼**
 
-&#39; `/ir/render`&#39;對映像呈現的所有HTTP請求都需要根上下文。
+「 `/ir/render`&#39; Root內容是所有HTTP影像轉譯要求的必要專案。
 
 **備註**
 
-注釋可以嵌入到任何位置的請求字串中，並由句點(.)標識 緊跟在命令分隔符(&amp;)後。 注釋由（未編碼）命令分隔符的下一次出現終止。 此功能可用於向不用於影像服務的請求添加資訊，如時間戳和資料庫ID。
+註解可內嵌於任何位置的請求字串中，並以句點(.)識別 緊接在命令分隔符號(&amp;)後面。 註解會在下次出現（未編碼）命令分隔符號時終止。 此功能可用來將時間戳記及資料庫ID等資訊新增至不供「影像伺服」使用的請求。
 
 **HTTP解碼**
 
-影像渲染首先提取 *`object`* 和 *`modifiers`* 從傳入的請求。 的 *`object`* 然後將其分離成路徑元素，這些路徑元素被逐個HTTP解碼。 的 *`modifiers`* 字串分隔成 *`command`*= *`value`* 對，和 *`value`* 然後在命令特定處理之前對HTTP進行解碼。
+影像演算會先擷取 *`object`* 和 *`modifiers`* 來自傳入的要求。 此 *`object`* 然後會分隔成路徑元素，這些元素會個別進行HTTP解碼。 此 *`modifiers`* 字串分隔為 *`command`*= *`value`* 配對，和 *`value`* 然後在命令特定處理之前進行HTTP解碼。

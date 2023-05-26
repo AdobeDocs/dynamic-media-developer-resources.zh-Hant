@@ -14,13 +14,13 @@ ht-degree: 5%
 
 # FlyoutZoomView.iscommand{#flyoutzoomview-iscommand}
 
-` [FlyoutZoomView.|<containerId>_flyout.]iscommand= *`是命令`*`
+` [FlyoutZoomView.|<containerId>_flyout.]iscommand= *`isCommand`*`
 
 <table id="table_43A84C1044574A6FAB8CE67D71AAD5EC"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 是命令</span> </span> </p> </td> 
-   <td colname="col2"> <p> </p> <p>應用於FlyoutZoomView主影像和視圖中縮放的「影像服務」命令字串。 如果在URL中指定，請確保HTTP編碼所有出現的 <span class="codeph"> &amp;</span> 和 <span class="codeph"> =</span> 如 <span class="codeph"> %26</span> 和 <span class="codeph"> %3D</span>的下界。 </p> <p> <p>注：不支援影像大小調整操作命令。 </p> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isCommand</span> </span> </p> </td> 
+   <td colname="col2"> <p> </p> <p>套用至FlyoutZoomView主影像和已放大檢視的「影像伺服」命令字串。 若在URL中指定，請確定您對所有出現的專案進行HTTP編碼 <span class="codeph"> 和</span> 和 <span class="codeph"> =</span> 作為 <span class="codeph"> %26</span> 和 <span class="codeph"> %3D</span>（分別）。 </p> <p> <p>注意：不支援影像大小調整操控命令。 </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -35,10 +35,10 @@ ht-degree: 5%
 
 ## 範例 {#section-0338be21edd04ff1a3bed5c8319b61a4}
 
-在查看器URL中指定時：
+在檢視器URL中指定時：
 
 `iscommand=op_sharpen%3d1%26op_colorize%3d0xff0000`
 
-在配置資料中指定時：
+在設定資料中指定時：
 
 `iscommand=op_sharpen=1&op_colorize=0xff0000`

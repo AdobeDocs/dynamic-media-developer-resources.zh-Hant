@@ -1,6 +1,6 @@
 ---
-title: 打印資源
-description: 打印解析度。 覆蓋嵌入在響應影像中的打印解析度值。
+title: printRes
+description: 列印解析度。 覆寫內嵌在回應影像中的列印解析度值。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,27 +12,27 @@ ht-degree: 1%
 
 ---
 
-# 打印資源{#printres}
+# printRes{#printres}
 
-打印解析度。 覆蓋嵌入在響應影像中的打印解析度值。
+列印解析度。 覆寫內嵌在回應影像中的列印解析度值。
 
-`printRes= *`谷`*`
+`printRes= *`val`*`
 
 <table id="simpletable_3B5576DD070547538E74D4059B3E8251"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> 谷</span> </p> </td> 
-  <td class="stentry"> <p>打印解析度(dpi)。 </p></td> 
+  <td class="stentry"> <p><span class="varname"> val</span> </p> </td> 
+  <td class="stentry"> <p>列印解析度(dpi)。 </p></td> 
  </tr> 
 </table>
 
-打印解析度通常由嵌入在視頻中的打印解析度值定義。
+列印解析度通常由暈映中內嵌的列印解析度值定義。
 
-設定打印解析度不會更改回復影像的像素大小。
+設定列印解析度不會變更回覆影像的畫素大小。
 
 ## 屬性 {#section-7ac3e01334bc4f218a2c69bcd4e8d5fb}
 
-可以在請求的任何位置指定。
+可以在請求中的任意位置指定。
 
 ## 預設 {#section-b482aa22ec0a4fba87b3f9007ab6d9ce}
 
-嵌入視頻中的打印解析度。
+暈映中內嵌的列印解析度。

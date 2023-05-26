@@ -14,13 +14,13 @@ ht-degree: 5%
 
 # FavoritesView.maxloadradius{#favoritesview-maxloadradius}
 
-` [FavoritesView.|<containerId>_favoritesView.]maxloadradius=-1|0| *`預載入br`*`
+` [FavoritesView.|<containerId>_favoritesView.]maxloadradius=-1|0| *`preloadnbr`*`
 
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> 預載入br</span></span> </p> </td> 
-   <td colname="col2"> <p> 指定元件預載入行為。 </p> <p>設定為時 <span class="codeph"> -1</span>，在初始化元件或更改資產時，將同時載入所有縮略圖。 </p> <p>設定為時 <span class="codeph"> 0</span>，只載入可見的縮略圖。 </p> <p> 設定為時 <span class="codeph"><span class="varname"> 預載入br</span></span>，可以指定預載入可視區域周圍的不可見行數。 </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> preloadnbr</span></span> </p> </td> 
+   <td colname="col2"> <p> 指定元件預先載入行為。 </p> <p>當設定為 <span class="codeph"> -1</span>，則在初始化元件或變更資產時，所有縮圖會同時載入。 </p> <p>當設定為 <span class="codeph"> 0</span>，只會載入可見的縮圖。 </p> <p> 當設定為 <span class="codeph"><span class="varname"> preloadnbr</span></span>，您可以指定預先載入可見區域附近的不可見列數。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

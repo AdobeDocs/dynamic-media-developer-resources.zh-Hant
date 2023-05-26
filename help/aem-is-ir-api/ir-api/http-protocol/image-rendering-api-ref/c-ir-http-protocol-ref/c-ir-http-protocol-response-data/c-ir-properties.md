@@ -1,6 +1,6 @@
 ---
 title: 屬性
-description: 響應以下req=類型imageprops和props返回屬性資料。
+description: 屬性資料會傳回以回應下列req=型別imageprop和prop。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,9 +14,9 @@ ht-degree: 2%
 
 # 屬性{#properties}
 
-響應以下req=類型返回屬性資料：影像道具和道具。
+屬性資料會傳回以回應下列req=型別： imageprops和props。
 
-回復資料的格式設定為可讀為Java™屬性。 典型的文本屬性響應具有以下一般結構：
+回覆資料的格式會設定為Java™屬性以供讀取。 典型的文字屬性回應具有此一般結構：
 
 `#S7Z OK`
 
@@ -26,10 +26,10 @@ ht-degree: 2%
 
 ...
 
-` *[!DNL propertyValue]*` 可以是空的。 在每行的開頭和結尾以及「=」分隔符前後，空格是可選的。 單引號或雙引號可用於引起字串值，但不是必需的。
+` *[!DNL propertyValue]*` 可為空白。 每行開頭和結尾以及&#39;=&#39;分隔符號之前和之後的空白字元為選用。 可以使用單引號或雙引號來括住字串值，但並非必要。
 
-字串值可能包含JAVA樣式轉義字元，如 `\n`。 `\t`。 `\:`或 `\\`。
+字串值可包含JAVA樣式的逸出字元，例如 `\n`， `\t`， `\:`，或 `\\`.
 
 **另請參閱**
 
-[請求=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-req.md#reference-792b1a663fb64261bd2de2a209b847fb)
+[req=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-req.md#reference-792b1a663fb64261bd2de2a209b847fb)

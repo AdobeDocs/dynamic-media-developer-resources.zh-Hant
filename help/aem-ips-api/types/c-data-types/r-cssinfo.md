@@ -1,7 +1,7 @@
 ---
 description: CSS檔案資產的屬性。
 solution: Experience Manager
-title: Css資訊
+title: CssInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b3a65c0c-b2c9-48da-9233-5fbcdd55d986
@@ -22,6 +22,6 @@ CSS檔案資產的屬性。
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 原始路徑 | `xsd:string` | CSS檔案的路徑。 |
+| 原始路徑 | `xsd:string` | css檔案的路徑。 |
 | 原始檔案 | `xsd:string` | 檔案名稱. |
-| 檔案大小 | `xsd:int` | 檔案大小。 |
+| fileSize | `xsd:int` | 檔案大小。 |

@@ -1,6 +1,6 @@
 ---
 title: 旋轉
-description: 材料旋轉角。 定義材料的旋轉角。
+description: 材料旋轉角度。 定義材料的旋轉角度。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,32 +14,32 @@ ht-degree: 4%
 
 # 旋轉{#rotate}
 
-材料旋轉角。 定義材料的旋轉角。
+材料旋轉角度。 定義材料的旋轉角度。
 
-` rotate= *`角`*`
+` rotate= *`角度`*`
 
 <table id="simpletable_F1A87ECD86E8429788825374A6882CB9"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> 角 </span> </p> </td> 
-  <td class="stentry"> <p>旋轉角度(度（實數）)。 </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> 角度 </span> </p> </td> 
+  <td class="stentry"> <p>以度（實數）為單位的旋轉角度。 </p> </td> 
  </tr> 
 </table>
 
-將可重複的紋理材料（不包括壁紙）旋轉45°倍，以應用於「平整對象」或「平面對象」。
+套用至「平坦物件」或「平面物件」時，將可重複的紋理材料（不包括壁紙）旋轉45度的倍數。
 
-在應用於「流線」和「草繪對象」時，按任意角度旋轉可重複紋理材料。
+套用到「流程」和「草繪物件」時，以任意角度旋轉可重複的材質材質。
 
-以任意角度旋轉貼花材料。
+以任意角度旋轉貼花材質。
 
-正角順時針旋轉。 紋理或貼花圍繞錨點旋轉( `anchor=`);錨點仍與目標對象的原點對齊。
+正角度會順時針旋轉。 紋理或貼花會圍繞錨點旋轉( `anchor=`)；錨點會與目標物件的原點保持對齊。
 
 ## 屬性 {#section-ad4d07897ca24f63af1a4062f8618e36}
 
-物料屬性。 被純色、牆紙、機櫃和窗戶處理材料忽略。 *`angle`* 對於可重複紋理，必須是45的倍數，除非應用於「流線」或「草繪對象」。
+材質屬性。 已被純色、壁紙、機櫃和視窗處理材料忽略。 *`angle`* 可重複紋理必須是45的倍數，除非套用到Flowline或Sketch物件。
 
 ## 預設 {#section-14c991e71b74449db8ff18a775949b28}
 
-`rotate=0`的雙曲餘切值。
+`rotate=0`，表示無旋轉。
 
 ## 另請參閱 {#section-f73c00e9368b478dac1fd15bb4367a12}
 

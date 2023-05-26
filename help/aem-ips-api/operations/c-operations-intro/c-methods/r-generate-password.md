@@ -1,7 +1,7 @@
 ---
-description: 生成新密碼。
+description: 產生新密碼。
 solution: Experience Manager
-title: 生成密碼
+title: generatePassword
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 80e7642f-4aec-4ff0-a090-e59b7a065c39
@@ -12,13 +12,13 @@ ht-degree: 20%
 
 ---
 
-# 生成密碼{#generatepassword}
+# generatePassword{#generatepassword}
 
-生成新密碼。
+產生新密碼。
 
 語法
 
-## 授權用戶類型 {#section-88f7dc11e5c74be281399d8f2e3c9555}
+## 授權的使用者型別 {#section-88f7dc11e5c74be281399d8f2e3c9555}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -32,7 +32,7 @@ ht-degree: 20%
 
 ## 參數 {#section-d516615c906240819a284786efb19863}
 
-**Input(generatePasswordParam)**
+**輸入(generatePasswordParam)**
 
 無。
 
@@ -44,7 +44,7 @@ ht-degree: 20%
 
 ## 範例 {#section-f580fefdccec46fe95359e3aef0ed17f}
 
-此代碼示例生成口令。 這很不尋常，因為請求只是一個沒有任何封閉元素或值的參數。 IPS返回強密碼。
+此程式碼範例會產生密碼。 此情況不常見，因為請求只是一個引數，沒有任何封閉的元素或值。 IPS會傳回強式密碼。
 
 **請求**
 

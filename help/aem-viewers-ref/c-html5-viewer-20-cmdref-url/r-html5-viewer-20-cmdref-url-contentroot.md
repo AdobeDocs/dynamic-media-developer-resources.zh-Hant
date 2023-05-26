@@ -1,6 +1,6 @@
 ---
-title: 內容URL
-description: 所有查看器通用的參數。
+title: contentUrl
+description: 所有檢視器通用的引數。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
@@ -12,17 +12,17 @@ ht-degree: 3%
 
 ---
 
-# 內容URL{#contenturl}
+# contentUrl{#contenturl}
 
-所有查看器通用的參數。
+所有檢視器通用的引數。
 
-` contentUrl= *`內容Url路徑`*`
+` contentUrl= *`contentUrlPath`*`
 
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 內容Url路徑</span> </span> </p> </td> 
-   <td colname="col2"> <p>指定自定義CSS檔案、任何隱藏字幕內容或導航內容的基本路徑。 </p> <p>如果路徑沒有前導 <span class="filepath"> /</span>，它與查看器HTML頁的位置相關。 如果路徑具有前導 <span class="filepath"> /</span>，它指定同一伺服器上的絕對路徑。 </p> <p> 不指定樣式命令時不影響預設CSS檔案的載入。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> contentUrlPath</span> </span> </p> </td> 
+   <td colname="col2"> <p>指定自訂CSS檔案、任何隱藏式字幕內容或導覽內容的基本路徑。 </p> <p>如果路徑沒有行距 <span class="filepath"> /</span>，此量度會與檢視器HTML頁面的位置相對應。 如果路徑有行距 <span class="filepath"> /</span>，會指定相同伺服器上的絕對路徑。 </p> <p> 若您未指定樣式指令，不會影響預設CSS檔案的載入。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

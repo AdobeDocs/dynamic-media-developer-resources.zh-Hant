@@ -1,5 +1,5 @@
 ---
-description: 縮放影像目錄中的目標資料。 返回在URL路徑中指定的影像目錄條目的縮放目標資料。
+description: 從影像目錄縮放目標資料。 針對URL路徑中指定的影像目錄專案，傳回縮放目標資料。
 solution: Experience Manager
 title: 目標
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # 目標{#targets}
 
-縮放影像目錄中的目標資料。 返回在URL路徑中指定的影像目錄條目的縮放目標資料。
+從影像目錄縮放目標資料。 針對URL路徑中指定的影像目錄專案，傳回縮放目標資料。
 
 `req=targets[,text|{xml[, *`編碼`*]}|{json[&id= *`reqId`*]}]`
 
@@ -25,18 +25,18 @@ ht-degree: 2%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"><span class="varname"> reqId</span></span> </p></td> 
-  <td class="stentry"> <p>唯一請求標識符。 </p></td> 
+  <td class="stentry"> <p>唯一請求識別碼。 </p></td> 
  </tr> 
 </table>
 
-內容 `catalog::Targets` 的子菜單。 請求「text」格式時， `??` 在 `catalog::Targets` 替換為線終結器和單線終結器( `CR/LF`)。 如果URL路徑未解析為有效的目錄條目，則響應僅由單行終結器組成。 請求「xml」或「json」格式時應用適當的格式。
+以下專案的內容： `catalog::Targets` 會傳回。 要求&#39;text&#39;格式時，所有例項 `??` 在 `catalog::Targets` 取代為直線終止元和單一直線終止元( `CR/LF`)會附加至結尾。 如果URL路徑無法解析為有效的目錄專案，回應只會包含單行終止元。 要求&#39;xml&#39;或&#39;json&#39;格式時，會套用適當的格式設定。
 
-請求字串中的其他命令將被忽略。
+請求字串中的其他命令會被忽略。
 
-HTTP響應可以與基於的TTL進行快取 `catalog::Expiration`。
+HTTP回應可使用以下依據的TTL快取： `catalog::Expiration`.
 
-支援JSONP響應格式的請求允許您使用擴展語法指定JS回調處理程式的名稱 `req=` 參數：
+支援JSONP回應格式的請求可讓您使用擴充語法來指定JS回呼處理常式的名稱。 `req=` 引數：
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` 是JSONP響應中存在的JS處理程式的名稱。 只允許使用a-z、A-Z和0-9個字元。 選擇性. 預設為 `s7jsonResponse`.
+`<reqHandler>` 是JSONP回應中呈現的JS處理常式名稱。 僅允許a-z、A-Z和0-9字元。 選擇性. 預設為 `s7jsonResponse`.

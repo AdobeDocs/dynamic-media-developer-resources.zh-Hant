@@ -1,6 +1,6 @@
 ---
-title: 伊爾
-description: 照明映射選擇器。 指定此材料希望用來渲染的照明映射。
+title: illum
+description: 照明地圖選擇器。 指定此材質偏好呈現的照明對映。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,19 +12,19 @@ ht-degree: 3%
 
 ---
 
-# 伊爾{#illum}
+# illum{#illum}
 
-照明映射選擇器。 指定此材料希望用來渲染的照明映射。
+照明地圖選擇器。 指定此材質偏好呈現的照明對映。
 
 `illum=-1|0|1|2`
 
-如果指定的照明映射在目標視圖中不可用，則使用最近的可用映射。
+如果目標暈映中無法使用指定的照明地圖，則改用最接近的可用地圖。
 
-`illum=-1` 指定根據 `gloss=` 值。
+`illum=-1` 指定根據下列條件自動選取照明地圖 `gloss=` 值。
 
 ## 屬性 {#section-aace8466566e4cf1a0c5a6c0167245c9}
 
-物料屬性。 如果視頻未定義多個照明映射，則忽略。
+材質屬性。 如果暈映未定義多個照明對映，則忽略。
 
 ## 預設 {#section-c96ecfb232074e80b6a29076f5199403}
 

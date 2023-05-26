@@ -1,7 +1,7 @@
 ---
-description: 有關宏名稱和定義參數的資訊。
+description: 有關巨集名稱和定義引數的資訊。
 solution: Experience Manager
-title: 宏定義引用
+title: 巨集定義參考
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e62874e5-5887-4749-a8c8-83f88500b0a3
@@ -12,9 +12,9 @@ ht-degree: 8%
 
 ---
 
-# 宏定義引用{#macro-definition-reference}
+# 巨集定義參考{#macro-definition-reference}
 
-有關宏名稱和定義參數的資訊。
+有關巨集名稱和定義引數的資訊。
 
 * [名稱](r-name-macro.md)
 * [定義](r-definition-macro.md)

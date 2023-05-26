@@ -1,5 +1,5 @@
 ---
-description: 返回資產的發佈歷史記錄。
+description: 傳回資產的發佈歷史記錄。
 solution: Experience Manager
 title: getAssetPublishHistory
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,11 +14,11 @@ ht-degree: 17%
 
 # getAssetPublishHistory{#getassetpublishhistory}
 
-返回資產的發佈歷史記錄。
+傳回資產的發佈歷史記錄。
 
 語法
 
-## 授權用戶類型 {#section-3b9d6a129093458fa8890139a2718912}
+## 授權的使用者型別 {#section-3b9d6a129093458fa8890139a2718912}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -36,8 +36,8 @@ ht-degree: 17%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 公司句柄 | `xsd:string` | 是 | 具有資產發佈歷史記錄的公司的句柄。 |
-| 資產句柄 | `xsd:string` | 是 | 包含要檢查的發佈歷史記錄的資產。 |
+| companyHandle | `xsd:string` | 是 | 具有資產發佈歷史記錄之公司的控制代碼。 |
+| assetHandle | `xsd:string` | 是 | 具有您要檢查之發佈記錄的資產。 |
 
 **輸出(getAssetPublishHistoryReturn)**
 
@@ -47,7 +47,7 @@ ht-degree: 17%
 
 ## 範例 {#section-53897c51e5a047c5bd5ea5a6efb2d114}
 
-此代碼示例返回資產的發佈歷史記錄。 如果伺服器返回空陣列，則資產從未發佈。
+此程式碼範例會傳回資產的發佈歷史記錄。 如果伺服器傳回空白陣列，則不會發佈資產。
 
 **請求**
 

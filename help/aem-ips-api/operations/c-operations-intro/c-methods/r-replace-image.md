@@ -1,7 +1,7 @@
 ---
-description: 替換影像資產的影像資料。
+description: 取代影像資產的影像資料。
 solution: Experience Manager
-title: 替換影像
+title: replaceImage
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: bf8c1f5c-7829-4750-b5b7-b8b20d115d17
@@ -12,13 +12,13 @@ ht-degree: 16%
 
 ---
 
-# 替換影像{#replaceimage}
+# replaceImage{#replaceimage}
 
-替換影像資產的影像資料。
+取代影像資產的影像資料。
 
 語法
 
-## 授權用戶類型 {#section-e2aad71fb2a54612badc7b16f82ed544}
+## 授權的使用者型別 {#section-e2aad71fb2a54612badc7b16f82ed544}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,23 +29,23 @@ ht-degree: 16%
 
 ## 參數 {#section-0d0ab668fa6d4310a93fb7ef8d8dd1e0}
 
-**Input(replaceImageParam)**
+**輸入(replaceImageParam)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 公司名稱 | `xsd:string` | 是 | 要替換的映像的公司句柄。 |
-| 資產句柄 | `xsd:string` | 是 | 要替換的資產的句柄。 |
-| url修飾符 | `xsd:string` | 是 | 生成新映像資料的映像伺服器命令。 |
+| companyName | `xsd:string` | 是 | 含有您要取代之影像的公司的控制代碼。 |
+| assetHandle | `xsd:string` | 是 | 您要取代之資產的控點。 |
+| urlModifier | `xsd:string` | 是 | 產生新影像資料的「影像伺服器」命令。 |
 
 **輸出(replaceImageReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 資產句柄 | `xsd:string` | 是 | 處理新資產。 |
+| assetHandle | `xsd:string` | 是 | 處理新資產。 |
 
 ## 範例 {#section-cebb93576bde4cb98cb27356ca66783b}
 
-此代碼示例替換影像並應用 `urlModifier` 命令，該命令指定映像伺服器在更換時不採取任何操作。
+此程式碼範例會取代影像並套用 `urlModifier` 使用指定影像伺服器取代時不會採取任何動作的命令。
 
 **請求**
 

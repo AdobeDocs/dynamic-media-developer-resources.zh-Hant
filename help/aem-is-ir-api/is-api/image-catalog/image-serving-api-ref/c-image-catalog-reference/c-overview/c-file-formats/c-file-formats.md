@@ -1,5 +1,5 @@
 ---
-description: 所有目錄檔案都是純文字檔案檔案。
+description: 所有目錄檔案都是純文字檔案。
 solution: Experience Manager
 title: 檔案格式
 feature: Dynamic Media Classic,SDK/API
@@ -14,9 +14,9 @@ ht-degree: 13%
 
 # 檔案格式{#file-formats}
 
-所有目錄檔案都是純文字檔案檔案。
+所有目錄檔案都是純文字檔案。
 
 * [目錄屬性檔案](r-catalog-attribute-files.md)
-* [編錄資料檔案](r-catalog-data-files.md)
+* [目錄資料檔案](r-catalog-data-files.md)
 * [規則集檔案](r-rule-set-files.md)
 * [字元編碼](r-is-cat-character-encoding.md)

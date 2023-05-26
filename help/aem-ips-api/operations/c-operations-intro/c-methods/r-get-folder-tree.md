@@ -1,5 +1,5 @@
 ---
-description: 返回分層樹結構中的資料夾和子資料夾。 getFolderTree響應最多限制為100,000個資料夾
+description: 傳回階層樹狀結構中的資料夾和子資料夾。 getFolderTree回應最多只能有100,000個資料夾
 solution: Experience Manager
 title: getFolderTree
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 9%
 
 # getFolderTree{#getfoldertree}
 
-返回分層樹結構中的資料夾和子資料夾。 getFolderTree響應最多限制為100,000個資料夾
+傳回階層樹狀結構中的資料夾和子資料夾。 getFolderTree回應最多只能有100,000個資料夾
 
 語法
 
-## 授權用戶類型 {#section-66ef19149f4d4123a3a99004b5a2743e}
+## 授權的使用者型別 {#section-66ef19149f4d4123a3a99004b5a2743e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -30,7 +30,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->用戶必須具有對資料夾的讀取權限才能返回其上的資料。
+>使用者必須擁有資料夾的讀取存取權才能傳回其上的資料。
 
 ## 參數 {#section-0c2b30513f1e439cbd840e8cc6465b3a}
 
@@ -38,25 +38,25 @@ ht-degree: 9%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 公司句柄 | `xsd:string` | 是 | 公司的把手。 |
-| accessUserHandle | `xsd:string` | 否 | 僅由管理員用於模擬特定用戶。 |
-| accessGroupHandle | `xsd:string` | 否 | 用於按特定組篩選，包括公司所屬的任何組。 |
-| 資料夾路徑 | `xsd:string` | 否 | 將資料夾和所有子資料夾檢索到葉級別的根資料夾。 如果排除，則使用公司根。 |
-| 深度 | `xsd:int` | 是 | 值為零將獲取頂級資料夾。 任何其它值都指定要下降到樹中的深度。 |
-| assetTypeArray | `types:StringArray` | 否 | 返回僅包含指定資產類型的資料夾。 |
-| 響應欄位陣列 | `types:StringArray` | 否 | 包含要包括在響應中的欄位清單。 |
-| 排除欄位陣列 | `types:StringArray` | 否 | 包含要在響應中排除的欄位清單。 |
+| companyHandle | `xsd:string` | 是 | 公司的控制代碼。 |
+| accessUserHandle | `xsd:string` | 否 | 僅供管理員用來模擬特定使用者。 |
+| accessGroupHandle | `xsd:string` | 否 | 用於依特定群組篩選，包括公司所屬的任何群組。 |
+| 資料夾路徑 | `xsd:string` | 否 | 根資料夾，可擷取葉層級的資料夾和所有子資料夾。 如果排除，則使用公司根目錄。 |
+| 深度 | `xsd:int` | 是 | 值為零會取得頂層資料夾。 任何其他值都會指定下降到樹狀結構中的深度。 |
+| assetTypeArray | `types:StringArray` | 否 | 傳回僅包含指定資產型別的資料夾。 |
+| responseFieldArray | `types:StringArray` | 否 | 包含您要包含在回應中的欄位清單。 |
+| excludeFieldArray | `types:StringArray` | 否 | 包含您要在回應中排除的欄位清單。 |
 
 **輸出(getFolderTreeReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 資料夾 | `types:folders` | 否 | 樹結構中資料夾的層次結構。 響應最多限制為100,000個資料夾。 |
-| 權限SetArray | `types:PermissionSetArray` |  |  |
+| 資料夾 | `types:folders` | 否 | 樹狀結構中的資料夾階層。 回應最多可包含100,000個資料夾。 |
+| permissionSetArray | `types:PermissionSetArray` |  |  |
 
 ## 範例 {#section-a9fd2edb56574dd9bf8b0f2fd89367e4}
 
-此代碼示例使用公司句柄和深度參數來確定響應應返回的深度級別。 響應包含與相關的資料夾和子資料夾陣列。 將深度值設定為較小的數值，以在資料夾樹中進行更深入的搜索。
+此程式碼範例使用公司控制代碼和深度引數來決定回應應傳回的深度等級。 回應包含具有相關性的資料夾和子資料夾陣列。 將深度值設為較小的數字，以便在資料夾樹狀結構中更深入地進行搜尋。
 
 **請求**
 

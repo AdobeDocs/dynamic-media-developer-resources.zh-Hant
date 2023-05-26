@@ -14,16 +14,16 @@ ht-degree: 0%
 
 # 熱點支援{#hotspot-support}
 
-查看器支援在主視圖頂部呈現熱點表徵圖。 熱點表徵圖的外觀通過CSS控制，如「熱點」部分所述。
+檢視器支援在主檢視上方呈現熱點圖示。 熱點圖示的外觀會透過CSS控制，如熱點區段中所述。
 
-請參閱 [熱點](../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/r-html5-aem-int-image-customize-hotspots.md#reference-2ac3cc414ef2467390bf53145f1d8d74)。
+另請參閱 [熱點](../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/r-html5-aem-int-image-customize-hotspots.md#reference-2ac3cc414ef2467390bf53145f1d8d74).
 
-熱點可以通過觸發JavaScript回調來激活托管網頁上的Quickview功能，或者將用戶重定向到外部網頁。
+連結區可以觸發JavaScript回呼，藉此在託管網頁上啟用「快速檢視」功能，或將使用者重新導向至外部網頁。
 
-## 快速視圖熱點 {#section-cda48fc9730142d0bb3326bac7df3271}
+## 快速檢視熱點 {#section-cda48fc9730142d0bb3326bac7df3271}
 
-這些類型的熱點應使用Adobe Experience Manager資產 — 按需的Dynamic Media的「Quickview」操作類型創作。 當用戶激活這種熱點時，查看器運行 `quickViewActivate` JavaScript回調並將熱點資料傳遞給它。 預期嵌入網頁偵聽此回調。 觸發頁面時，它會開啟自己的Quickview實現。
+這些型別的熱點應使用Dynamic Media中的「快速檢視」動作型別(即Adobe Experience Manager Assets — 隨選)來編寫。 當使用者啟動此類熱點時，檢視器會執行 `quickViewActivate` JavaScript回呼並將熱點資料傳遞給它。 內嵌網頁應會監聽此回呼。 觸發頁面時，會開啟自己的快速檢視實施。
 
-## 重定向至外部網頁 {#section-ef820c71251e4215800bb99c0c9ebe16}
+## 重新導向至外部網頁 {#section-ef820c71251e4215800bb99c0c9ebe16}
 
-為Experience Manager AssetsDynamic Media的操作類型「快速查看」創作的熱點 — 按需重定向用戶到外部URL。 根據創作過程中的設定，URL將在新瀏覽器頁籤、同一窗口或命名瀏覽器窗口中開啟。
+Experience Manager Assets的Dynamic Media中為「快速檢視」動作型別製作的熱點 — 隨選將使用者重新導向至外部URL。 根據編寫期間所做的設定，URL會在新的瀏覽器標籤中、同一視窗中或在指定的瀏覽器視窗中開啟。

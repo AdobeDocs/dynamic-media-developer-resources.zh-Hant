@@ -1,7 +1,7 @@
 ---
-description: 水印選擇器。 指定要用作水印影像或模板的目錄記錄的目錄ID。
+description: 浮水印選取器。 指定要用作浮水印影像或範本的目錄記錄的目錄ID。
 solution: Experience Manager
-title: 水印
+title: 浮水印
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 54c27ea0-e87f-41ce-ae8d-71c9fabe412e
@@ -12,20 +12,20 @@ ht-degree: 2%
 
 ---
 
-# 水印{#watermark}
+# 浮水印{#watermark}
 
-水印選擇器。 指定用作水印影像或模板的目錄記錄的目錄：:Id。
+浮水印選取器。 指定要用作浮水印影像或範本的目錄記錄的目錄：：Id。
 
-如果指定，伺服器將水印應用於所有影像請求的請求影像資料( `req=img`)。
+若指定，伺服器會將浮水印套用至所有影像要求的影像資料( `req=img`)。
 
 ## 屬性 {#section-fad6ffff4c5f4b5c8010281bc1377055}
 
-文本字串。 如果指定，則必須是有效 `Catalog::Id` 在此映像目錄(或預設目錄中，如果在中指定， [!DNL default.ini])。
+文字字串。 若指定，則必須為有效 `Catalog::Id` 值(或預設目錄中的值，若在 [!DNL default.ini])。
 
 ## 預設 {#section-f8a2029b5b8740b2af149bdbfa28fbae}
 
-繼承自 `default::Watermark` 的子菜單。 如果已定義但為空，則不會為此影像目錄應用水印，即使 `default::Watermark` 。
+繼承自 `default::Watermark` 若未定義。 如果已定義但為空，則不會對此影像目錄套用浮水印，即使 `default::Watermark` 已定義。
 
 ## 另請參閱 {#section-f15dbe31013849828d78588742dde58e}
 
-[目錄：:ID](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-id-cat.md)
+[catalog：：Id](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-id-cat.md)

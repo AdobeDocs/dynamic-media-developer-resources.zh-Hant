@@ -1,5 +1,5 @@
 ---
-description: 輔助作業日誌詳細資訊類型的陣列。
+description: 輔助工作記錄詳細資料型別的陣列。
 solution: Experience Manager
 title: JobLogDetailAuxArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 20%
 
 # [!DNL JobLogDetailAuxArray]{#joblogdetailauxarray}
 
-輔助作業日誌詳細資訊類型的陣列。
+輔助工作記錄詳細資料型別的陣列。
 
 語法
 
@@ -22,4 +22,4 @@ ht-degree: 20%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 項目 | `types:JobLogDetailAux` | 輔助作業日誌詳細資訊類型的陣列。 |
+| 項目 | `types:JobLogDetailAux` | 輔助工作記錄詳細資料型別的陣列。 |

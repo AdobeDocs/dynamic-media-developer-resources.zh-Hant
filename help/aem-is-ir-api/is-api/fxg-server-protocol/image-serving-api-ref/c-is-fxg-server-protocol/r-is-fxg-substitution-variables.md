@@ -1,5 +1,5 @@
 ---
-description: 替代變數用於將值從請求URL傳輸到儲存在伺服器上的FXG模板。
+description: 替代變數可用來將值從請求URL傳輸到儲存在伺服器上的FXG範本。
 solution: Experience Manager
 title: 替代變數
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 替代變數{#substitution-variables}
 
-替代變數用於將值從請求URL傳輸到儲存在伺服器上的FXG模板。
+替代變數可用來將值從請求URL傳輸到儲存在伺服器上的FXG範本。
 
 ` $ *`var`*= *`值`*`
 
@@ -25,11 +25,11 @@ ht-degree: 0%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 值 </span> </span> </p> </td> 
-  <td class="stentry"> <p>要設定變數的值（字串）。 </p> </td> 
+  <td class="stentry"> <p>變數要設定的值（字串）。 </p> </td> 
  </tr> 
 </table>
 
-* 變數定義和引用可能發生在請求URL的查詢部分中。
-* 變數定義如上，與其他IS命令類似；前導「$」將命令標識為變數定義。
-* 變數名稱 `*`var`*` 區分大小寫，並且可能包含字母、數字、「 — 」和「_」的任意組合。
-* 重要值必須是單通URL編碼，才能安全HTTP傳輸。
+* 變數定義和參照可能會出現在請求URL的查詢部分中。
+* 變數的定義如上所述，與其他IS命令類似；前導的「$」會將該命令識別為變數定義。
+* 變數名稱 `*`var`*` 區分大小寫，並可由字母、數字、&#39;-&#39;和&#39;_&#39;的任意組合組成。
+* 重要值必須為單次URL編碼，才能安全HTTP傳輸。

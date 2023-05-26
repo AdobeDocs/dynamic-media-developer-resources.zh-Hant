@@ -1,7 +1,7 @@
 ---
-description: 將影像保存到檔案。
+description: 將影像儲存至檔案。
 solution: Experience Manager
-title: 保存到檔案
+title: saveToFile
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 10a8ea5c-7e64-4d99-a263-779f08ea6e37
@@ -12,11 +12,11 @@ ht-degree: 3%
 
 ---
 
-# 保存到檔案{#savetofile}
+# saveToFile{#savetofile}
 
-將影像保存到檔案。
+將影像儲存至檔案。
 
-`req=saveToFile&name= *`檔案`*[&timeout= *`谷`*]`
+`req=saveToFile&name= *`檔案`*[&timeout= *`val`*]`
 
 <table id="simpletable_5674FD9655FE4CDDB0E5DC8655890A66"> 
  <tr class="strow"> 
@@ -24,14 +24,14 @@ ht-degree: 3%
   <td class="stentry"> <p>目標影像檔案的相對路徑。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> 谷</span> </p></td> 
-  <td class="stentry"> <p>超時間隔（毫秒）。 </p></td> 
+  <td class="stentry"> <p><span class="varname"> val</span> </p></td> 
+  <td class="stentry"> <p>逾時間隔（毫秒）。 </p></td> 
  </tr> 
 </table>
 
-將響應映像保存到伺服器上的檔案，而不是將其返回到客戶端。
+將回應影像儲存至伺服器上的檔案，而非傳回給使用者端。
 
-成功完成保存請求後，請求將返回幾個Java格式的屬性，包括：
+儲存請求成功完成時，請求會傳回數個Java格式屬性，包括下列專案：
 
 <table id="table_8BA8F75A0B7241BAB9B4359F97C21137"> 
  <thead> 
@@ -43,27 +43,27 @@ ht-degree: 3%
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> 上次更新</span> </p> </td> 
+   <td> <p> <span class="codeph"> lastUpdate</span> </p> </td> 
    <td> <p> integer </p> </td> 
-   <td> <p>檔案建立時間（自1970年1月1日午夜以來的毫秒數）。 </p> </td> 
+   <td> <p>檔案建立時間（自午夜以來的毫秒數，1970 UTC/GMT年1月1日）。 </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> 像素合計</span> </p> </td> 
+   <td> <p> <span class="codeph"> 畫素總計</span> </p> </td> 
    <td> <p> integer </p> </td> 
-   <td> <p> 保存影像中的像素數。 </p> </td> 
+   <td> <p> 已儲存影像中的畫素數。 </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> 狀態</span> </p> </td> 
-   <td> <p> 枚舉 </p> </td> 
-   <td> <p> <span class="codeph"> 完成</span> 成功。 </p> </td> 
+   <td> <p> 列舉 </p> </td> 
+   <td> <p> <span class="codeph"> 完成</span> 如果成功。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-如果成功，則返回HTTP響應狀態200；如果請求失敗或超時，則返回403。 響應具有MIME類型 `text/plain` 無法快取。
+如果成功，則傳回HTTP回應狀態200；如果請求失敗或逾時，則傳回403。 回應具有MIME型別 `text/plain` 且無法快取。
 
-重要資訊：必須通過在中指定現有可寫資料夾的路徑來啟用保存到檔案 `attribute::SavePath`。 `saveToFile=` 失敗 `attribute::SavePath` 為空。
+重要您必須指定中現有可寫入資料夾的路徑，以啟用儲存至檔案 `attribute::SavePath`. `saveToFile=` 失敗條件 `attribute::SavePath` 空白。
 
-*`file`* 是必需的，且必須是與 `attribute::SavePath`。 映像服務不建立資料夾。 目標資料夾必須存在於伺服器上，並且具有映像服務建立檔案的相應權限設定。
+*`file`* 為必要項，且必須是結合了 `attribute::SavePath`. 「影像伺服」不會建立資料夾。 目標資料夾必須存在於伺服器上，且具備適當的許可權設定，可供「影像伺服」建立檔案。
 
-`timeout=` 為可選項。 預設超時為60,000毫秒，或配置的值 `PS::SaveTimeout`。
+`timeout=` 是選用專案。 預設逾時為60,000毫秒，或是以設定的任一值為準。 `PS::SaveTimeout`.

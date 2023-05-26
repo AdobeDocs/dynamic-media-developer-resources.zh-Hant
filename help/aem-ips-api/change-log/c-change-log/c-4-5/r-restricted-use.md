@@ -1,5 +1,5 @@
 ---
-description: 這些測試版WSDL中提供的新操作或已修改的操作和資料類型不在Dynamic Media開發的應用程式之外使用。
+description: 這些在Beta版WSDL中可用的全新或修改作業和資料型別，不得在Dynamic Media開發的應用程式之外使用。
 solution: Experience Manager
 title: 限制使用
 feature: Dynamic Media Classic,SDK/API
@@ -14,95 +14,95 @@ ht-degree: 0%
 
 # 限制使用{#restricted-use}
 
-這些測試版WSDL中提供的新操作或已修改的操作和資料類型不在Dynamic Media開發的應用程式之外使用。
+這些在Beta版WSDL中可用的全新或修改作業和資料型別，不得在Dynamic Media開發的應用程式之外使用。
 
-這些操作和類型可能會在後續系統更新時禁用、更改或棄用。
+這些作業和型別可能會因後續的系統更新而停用、變更或淘汰。
 
-**新類型**
+**新型別**
 
-* 資產發佈上下文
-* 資產發佈上下文陣列
-* 公司元資料資訊
-* 公司元資料資訊陣列
+* AssetPublishContexts
+* AssetPublishContextsArray
+* CompanyMetadataInfo
+* CompanyMetadataInfoArray
 * CreateVideoSitemapJob
-* 發佈上下文
-* 發佈上下文陣列
-* 搜索篩選器
-* 長陣列
+* PublishContext
+* PublishContextArray
+* SearchFilter
+* LongArray
 
-**新操作**
+**新作業**
 
 * applyMetadataTemplate
 * batchGetAssetPublishContexts
 * createCompanyMetadata
 * deleteCompanyMetadata
 * getCompanyMetadata
-* getPublishContexts
+* getPublishContext
 * listCompanyMetadata
-* 刪除掩碼
+* removeMask
 * removePropertySetPermissions
-* searchAssetsBySimility
+* searchAssetsBySimilarity
 * searchAssetsByFulltext
 * setAssetPublishState
 * setPropertySetPermissions
 * 更新資產集
 * updateCompanyMetadata
-* 更新映像集
+* updateImageSet
 * updatePropertySetPermissions
 
-**修改的類型**
+**修改型別**
 
-* 已更改 `ActiveJob` 包括 `createVideoSitemapJob` 類型
+* 已變更 `ActiveJob` 加入 `createVideoSitemapJob` type
 
-* 已更改 `ScheduledJob` 包括 `createVideoSitemapJob` 類型
+* 已變更 `ScheduledJob` 加入 `createVideoSitemapJob` type
 
-* 已更改 `ImageServingPublishJob` 包含可選 `contextHandle`
+* 已變更 `ImageServingPublishJob` 以包含選用的 `contextHandle`
 
-* 已更改 `ImageRenderingPublishJob` 包含可選 `contextHandle`
+* 已變更 `ImageRenderingPublishJob` 以包含選用的 `contextHandle`
 
-* 已更改 `MetadataField` 包含可選 `initialTagField`
+* 已變更 `MetadataField` 以包含選用的 `initialTagField`
 
-* 已更改 `MetadataCondition` 包括和可選 `caseSensitive` 參數
+* 已變更 `MetadataCondition` 包含和選填 `caseSensitive` 引數
 
-* 已更改 `PropertySet` 包含可選 `PermissionArray` 如 `permissions`
+* 已變更 `PropertySet` 以包含選用的 `PermissionArray` 作為 `permissions`
 
-* 已更改 `UploadDirectoryJob` 包括可選 `xmpKeywords`。 `xmpTemplateId` 和 `xmpTemplateOverride` 參數
+* 已變更 `UploadDirectoryJob` 以包含選填專案 `xmpKeywords`， `xmpTemplateId` 和 `xmpTemplateOverride` 引數
 
-* 已更改 `VideoPublishJob` 包含可選 `contextHandle`
+* 已變更 `VideoPublishJob` 以包含選用的 `contextHandle`
 
-**修改的操作**
+**已修改的作業**
 
-* 已更改 `createAssetSet` 包含可選 `thumbAssetHandle`
+* 已變更 `createAssetSet` 以包含選用的 `thumbAssetHandle`
 
-* 已更改 `createImageSet` 包含可選 `thumbAssetHandle`
+* 已變更 `createImageSet` 以包含選用的 `thumbAssetHandle`
 
-* 已更改 `createMetadataField` 包含可選 `initialTagValue` 參數
+* 已變更 `createMetadataField` 以包含選用的 `initialTagValue` 引數
 
-* 已更改 `createPropertySet` 包含可選 `PermissionUpdateArray` 如 `permissionArray`
+* 已變更 `createPropertySet` 以包含選用的 `PermissionUpdateArray` 作為 `permissionArray`
 
-* 已更改 `getImageServingPublishSettings` 包含可選 `contextHandle` 參數
+* 已變更 `getImageServingPublishSettings` 以包含選用的 `contextHandle` 引數
 
-* 已更改 `getImageRenderingPublishSettings` 包含可選 `contextHandle` 參數
+* 已變更 `getImageRenderingPublishSettings` 以包含選用的 `contextHandle` 引數
 
-* 已更改 `searchAssetsByFullText` 要包括一系列可選參數：
+* 已變更 `searchAssetsByFullText` 若要包含一系列可選引數，請執行下列動作：
 
-   * `SearchFilter` 如 `filters` 參數
-
-   * `sortBy`
-   * `sortDirection`
-
-* 已更改 `searchAssetsByMetadata` 要包括一系列可選參數：
-
-   * `SearchFilter` 如 `filters` 參數
+   * `SearchFilter` 作為 `filters` 引數
 
    * `sortBy`
    * `sortDirection`
-   * `haystackSearch` 七個參數序列
 
-* 已更改 `setAssetPublishState` 包含可選 `HandleArray` 如 `contextHandleArray`
+* 已變更 `searchAssetsByMetadata` 若要包含一系列可選引數，請執行下列動作：
 
-* 已更改 `setImageServingPublishSettings` 包含可選 `contextHandle` 參數
+   * `SearchFilter` 作為 `filters` 引數
 
-* 已更改 `setImageRenderingPublishSettings` 包含可選 `contextHandle`參數
+   * `sortBy`
+   * `sortDirection`
+   * `haystackSearch` 七個引數的順序
 
-* 已更改 `submitJob` 包含可選 `createVideoSitemap` 作業類型
+* 已變更 `setAssetPublishState` 以包含選用的 `HandleArray` 作為 `contextHandleArray`
+
+* 已變更 `setImageServingPublishSettings` 以包含選用的 `contextHandle` 引數
+
+* 已變更 `setImageRenderingPublishSettings` 以包含選用的 `contextHandle`引數
+
+* 已變更 `submitJob` 以包含選用的 `createVideoSitemap` 工作型別

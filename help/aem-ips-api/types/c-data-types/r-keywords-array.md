@@ -1,7 +1,7 @@
 ---
-description: 關鍵字的陣列。
+description: 關鍵字陣列。
 solution: Experience Manager
-title: 關鍵字陣列
+title: KeywordsArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: ec87de9e-f3d0-404e-b16f-4c5d373e5a6f
@@ -14,7 +14,7 @@ ht-degree: 31%
 
 # [!DNL KeywordsArray]{#keywordsarray}
 
-關鍵字的陣列。
+關鍵字陣列。
 
 語法
 
@@ -22,4 +22,4 @@ ht-degree: 31%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 項目 | `types:Keywords` | 關鍵字的陣列。 |
+| 項目 | `types:Keywords` | 關鍵字陣列。 |

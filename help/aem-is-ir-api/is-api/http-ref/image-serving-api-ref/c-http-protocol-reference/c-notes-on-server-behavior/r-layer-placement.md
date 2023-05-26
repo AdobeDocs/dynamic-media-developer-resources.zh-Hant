@@ -1,5 +1,5 @@
 ---
-title: 層放置
+title: 圖層位置
 escription: Layers are positioned by aligning the layer origin (origin=) with the background layer origin at an offset specified by pos=.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
@@ -12,14 +12,14 @@ ht-degree: 0%
 
 ---
 
-# 層放置{#layer-placement}
+# 圖層位置{#layer-placement}
 
-通過將圖層原點（原點=）與背景圖層原點對齊在pos=指定的偏移處來定點陣圖層。
+將圖層原點(origin=)與背景圖層原點對齊於pos=所指定的位移來定點陣圖層。
 
-如果未顯式指定影像層的圖層原點，則按以下方式計算：
+如果未明確指定影像圖層的圖層原點，則計算方式如下：
 
-1. 確定影像錨點。 使用 `anchor=`，或，如果未指定， `catalog::Anchor`。
-1. 如果定義了影像錨點，則應用圖層轉換並 `extend=` 轉換為origin= value。
-1. 如果未定義影像錨點，則圖層原點將放置在圖層矩形的中心（應用後） `extend=`)。
+1. 決定影像錨點。 使用 `anchor=`、或（若未指定） `catalog::Anchor`.
+1. 如果已定義影像錨點，請套用圖層變形和 `extend=` 將其轉換為origin=值。
+1. 如果未定義影像錨點，圖層原點會放置在圖層矩形的中心（套用後） `extend=`)。
 
-![圖層放置影像](assets/layerplacement.png)
+![圖層位置影像](assets/layerplacement.png)

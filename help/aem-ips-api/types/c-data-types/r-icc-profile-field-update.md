@@ -1,5 +1,5 @@
 ---
-description: 更新ICC配置檔案屬性的資訊。
+description: 更新ICC設定檔屬性的資訊。
 solution: Experience Manager
 title: IccProfileFieldUpdate
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 # [!DNL IccProfileFieldUpdate]{#iccprofilefieldupdate}
 
-更新ICC配置檔案屬性的資訊。
+更新ICC設定檔屬性的資訊。
 
 語法
 
@@ -22,7 +22,7 @@ ht-degree: 9%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 資產句柄 | `xsd:string` | 要更新的ICC配置檔案資產的句柄。 |
-| [!DNL class] | `xsd:string` | 配置檔案類（有關值，請參閱「配置檔案類」）。 |
-| 顏色空間 | `xsd:string` | 配置檔案顏色空間（有關值，請參閱「顏色空間」）。 |
-| pcs類型 | `xsd:string` | 配置檔案連接空間（有關值，請參閱「顏色空間」）。 |
+| assetHandle | `xsd:string` | 要更新的ICC設定檔資產的控制代碼。 |
+| [!DNL class] | `xsd:string` | 設定檔類別（請參閱設定檔類別以瞭解值）。 |
+| 色域 | `xsd:string` | 設定檔色域（如需值，請參閱「色域」）。 |
+| pcstype | `xsd:string` | 設定檔連線空間（參閱「色彩空間」以瞭解值）。 |

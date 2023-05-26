@@ -14,25 +14,25 @@ ht-degree: 6%
 
 # SpinView.autospin{#spinview-autospin}
 
-` [SpinView.|<containerId>_spinView.]maxloadradius=0|1[, *`持續時間`*][, *`方向`*][, *`旋轉數`*]`
+` [SpinView.|<containerId>_spinView.]maxloadradius=0|1[, *`持續時間`*][, *`方向`*][, *`spin_num`*]`
 
 <table id="table_49FFD1BC53B846F09A6D214BC8C5C3FE"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 啟用或禁用自動旋轉動畫。 為獲得最佳的自動旋轉體驗，建議通過設定 <span class="codeph"> 最大載荷半徑</span> 至 <span class="codeph"> -1</span>。 但是，請注意，此設定會增加負載時間並提高頻寬利用率。 </p> </td> 
+   <td colname="col2"> <p> 啟用或停用自動迴轉動畫。 若要獲得最佳自動迴轉體驗，建議您透過設定來預先載入所有影格 <span class="codeph"> maxloadradius</span> 至 <span class="codeph"> -1</span>. 但是請注意，此設定會導致載入時間增加和頻寬使用率提高。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> 時段</span></span> </p> </td> 
-   <td colname="col2"> <p> 每次完整旋轉的秒數。 </p> </td> 
+   <td colname="col2"> <p> 每次完全迴轉的秒數。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 方向</span></span> </p> </td> 
-   <td colname="col2"> <p> 旋轉方向 <span class="codeph"> 0</span> 轉向東方 <span class="codeph"> 1</span> 向西旋轉。 </p> </td> 
+   <td colname="col2"> <p> 迴轉方向 <span class="codeph"> 0</span> 用於向東旋轉和 <span class="codeph"> 1</span> 向西旋轉。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> 旋轉數</span></span> </p> </td> 
-   <td colname="col2"> <p> 自動旋轉停止前完成的完全旋轉數。 該數字是浮點數。 設定為 <span class="codeph"> -1</span> 無限自轉。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> spin_num</span></span> </p> </td> 
+   <td colname="col2"> <p> 自動迴轉停止前完成的完整迴轉次數。 數字是浮點數。 設定為 <span class="codeph"> -1</span> 進行無限自動迴轉。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

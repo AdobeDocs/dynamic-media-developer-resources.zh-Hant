@@ -1,7 +1,7 @@
 ---
-description: IS伺服器可配置為對涉及源映像的請求進行故障轉移，這些請求無法成功開啟或讀取。
+description: IS伺服器可設定成容錯移轉至替代伺服器，以處理涉及無法成功開啟或讀取之來源影像的要求。
 solution: Experience Manager
-title: 錯誤時重定向
+title: 發生錯誤時重新導向
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: c5541bf3-3296-4ce3-a2ff-9f6336f78ea9
@@ -12,35 +12,35 @@ ht-degree: 0%
 
 ---
 
-# 錯誤時重定向{#redirect-on-error}
+# 發生錯誤時重新導向{#redirect-on-error}
 
-IS伺服器可配置為對涉及源映像的請求進行故障轉移，這些請求無法成功開啟或讀取。
+IS伺服器可設定成容錯移轉至替代伺服器，以處理涉及無法成功開啟或讀取之來源影像的要求。
 
-將重定向以下類型的請求：
+系統會重新導向下列型別的請求：
 
-* IS映像位於目錄中，但不在磁碟上。
+* IS目錄中的影像，但不在磁碟上。
 
-   如果影像不在目錄中，則在找不到影像時不應發生錯誤重定向。
+   如果影像不在目錄中，則在找不到影像時，不應發生錯誤重新導向。
 
-* 損壞的影像、顏色配置檔案或字型。
-* 在磁碟上找不到靜態內容。
+* 損毀的影像、色彩設定檔或字型。
+* 磁碟上找不到靜態內容。
 
-   在磁碟上找不到靜態內容請求時，即使引用的靜態內容沒有目錄記錄，也會重定向靜態內容請求。
+   在磁碟上找不到靜態內容請求時，即使參考的靜態內容沒有目錄記錄，也會重新導向靜態內容請求。
 
-在任何其他情況下都不會發生錯誤重定向。
+錯誤重新導向在任何其他情況下都不會發生。
 
-當啟用時，當在處理請求期間發生此類錯誤時，主伺服器將將請求發送到輔助伺服器以進行處理。 然後將響應直接轉發給客戶機，而不管該響應是指成功還是失敗。 主伺服器標籤此類已轉發請求的日誌條目，並使用快取 `REMOTE`。 主伺服器不在本地快取響應資料。
+當啟用並在處理請求期間發生這類錯誤時，主要伺服器會將請求傳送至次要伺服器以進行處理。 然後會直接將回應轉送給使用者端，無論回應是指示成功還是失敗。 主要伺服器會使用快取來標籤此類轉送請求的記錄專案 `REMOTE`. 主要伺服器不會在本機快取回應資料。
 
-通過設定啟用錯誤重定向 `PS::errorRedirect.rootUrl` 到輔助伺服器的HTTP域名和埠號。 此外，連接超時配置為 `PS::errorRedirect.connectTimeout` 以及主伺服器在將錯誤返回給配置了的客戶端之前等待從伺服器響應的最長時間 `PS::errorRedirect.socketTimeout`。
-
->[!NOTE]
->
->如果無法與從屬伺服器聯繫，則即使配置了預設映像或錯誤映像，也會向客戶端返回文本錯誤響應。
+錯誤重新導向功能已透過設定啟用 `PS::errorRedirect.rootUrl` 至次要伺服器的HTTP網域名稱和連線埠號碼。 此外，連線逾時設定為 `PS::errorRedirect.connectTimeout` 以及主要伺服器等待次要伺服器回應至使用者端傳回錯誤的最長時間，已設定為 `PS::errorRedirect.socketTimeout`.
 
 >[!NOTE]
 >
->網路路徑中的管道字元(|)不支援錯誤重定向。
+>如果無法連絡次要伺服器，則會傳回文字錯誤回應給使用者端，即使已設定預設影像或錯誤影像亦然。
+
+>[!NOTE]
+>
+>網路路徑中的垂直號字元(|)不支援錯誤重新導向。
 
 ## 另請參閱 {#section-2e8bfc128b944baf8108279d16492f3f}
 
-[重定向錯誤](../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-error-redirection.md#reference-268b1bf6ce1b44bb979727c6f5daf1ac)
+[錯誤重新導向](../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-error-redirection.md#reference-268b1bf6ce1b44bb979727c6f5daf1ac)

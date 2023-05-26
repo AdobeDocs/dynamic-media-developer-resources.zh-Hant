@@ -1,6 +1,6 @@
 ---
-title: 支援分析跟蹤
-description: 支援分析跟蹤
+title: 支援分析追蹤
+description: 支援分析追蹤
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User,Data Engineer,Data Architect
@@ -12,13 +12,13 @@ ht-degree: 2%
 
 ---
 
-# 支援分析跟蹤{#support-for-analytics-tracking}
+# 支援分析追蹤{#support-for-analytics-tracking}
 
-## 自定義跟蹤 {#section-cda48fc9730142d0bb3326bac7df3271}
+## 自訂追蹤 {#section-cda48fc9730142d0bb3326bac7df3271}
 
-預設情況下，查看器會向配置的Image Server發送一個跟蹤HTTP請求，其中包含查看器類型和版本資訊。
+依預設，檢視器會傳送單一追蹤HTTP請求給已設定的影像伺服器，其中包含檢視器型別和版本資訊。
 
-要與第三方分析系統整合，必須傾聽 `trackEvent` 查看器回調並處理 `eventInfo` 回調函式的參數。 以下代碼是此類處理程式函式的示例：
+若要與協力廠商分析系統整合，請務必監聽 `trackEvent` 檢視器回呼並處理 `eventInfo` 必要時，回呼函式的引數。 下列程式碼是此類處理常式函式的範例：
 
 ```javascript {.line-numbers}
 var interactiveImage = new s7viewers.InteractiveImage({ 
@@ -42,23 +42,23 @@ var interactiveImage = new s7viewers.InteractiveImage({
 });
 ```
 
-查看器跟蹤以下SDK用戶事件：
+檢視器會追蹤下列SDK使用者事件：
 
 <table id="table_5D090E6614974D968E1A93B5727D859C"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>SDK用戶事件 </p> </th> 
-   <th colname="col2" class="entry"> <p>發送時間…… </p> </th> 
+   <th colname="col1" class="entry"> <p>SDK使用者事件 </p> </th> 
+   <th colname="col2" class="entry"> <p>傳送時間…… </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LOAD </span> </p> </td> 
-   <td colname="col2"> <p>首先載入查看器。 </p> </td> 
+   <td colname="col2"> <p>檢視器會先載入。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> HREF </span> </p> </td> 
-   <td colname="col2"> <p>用戶激活熱點。 </p> </td> 
+   <td colname="col2"> <p>使用者會啟動熱點。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

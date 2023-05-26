@@ -20,7 +20,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p>指定何時顯示資訊面板。 </p> <p>如果設定為 <span class="codeph"> 1</span>，當滑鼠進入影像映射區時，將顯示資訊面板(如果影像映射為非空， <span class="codeph"> rovel_key</span> 屬性)。 </p> <p>如果設定為 <span class="codeph"> 0</span> 選擇影像映射時(如果影像映射具有非空的 <span class="codeph"> rovel_key</span> 空 <span class="codeph"> href</span> 屬性)。 </p> <p> 在觸摸設備（包括啟用觸摸的台式機系統）上忽略，並自動設定為 <span class="codeph"> 0</span>。 </p> </td> 
+   <td colname="col2"> <p>指定何時顯示資訊面板。 </p> <p>若設為 <span class="codeph"> 1</span>時，當滑鼠進入影像地圖區域時會顯示資訊面板(如果影像地圖非空白， <span class="codeph"> rollover_key</span> 屬性)。 </p> <p>若設為 <span class="codeph"> 0</span> 選取影像地圖時會觸發資訊面板（如果影像地圖為非空白） <span class="codeph"> rollover_key</span> 和空白 <span class="codeph"> href</span> 屬性)。 </p> <p> 在觸控裝置（包括觸控式桌上型系統）上忽略，並自動設為 <span class="codeph"> 0</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

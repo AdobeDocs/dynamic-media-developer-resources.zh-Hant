@@ -1,6 +1,6 @@
 ---
-title: 左旋按鈕
-description: 按一下或點擊此按鈕將影像旋轉到主視圖中的左側。 此按鈕不顯示在行動電話上以保存螢幕不動產。 此外，當使用多維旋轉集時，按鈕被隱藏。 可以使用CSS調整按鈕的大小、外觀和位置。
+title: 向左迴轉按鈕
+description: 按一下或點選此按鈕，會將影像旋轉至主檢視的左側。 此按鈕不會顯示在行動電話上，以節省熒幕空間。 此外，當使用多維度迴轉集時，按鈕會隱藏。 您可以使用CSS調整按鈕的大小、外觀和位置。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
@@ -12,15 +12,15 @@ ht-degree: 4%
 
 ---
 
-# 左旋按鈕{#spin-left-button}
+# 向左迴轉按鈕{#spin-left-button}
 
-按一下或點擊此按鈕將影像旋轉到主視圖中的左側。 此按鈕不顯示在行動電話上以保存螢幕不動產。 此外，當使用多維旋轉集時，按鈕被隱藏。 可以使用CSS調整按鈕的大小、外觀和位置。
+按一下或點選此按鈕，會將影像旋轉至主檢視的左側。 此按鈕不會顯示在行動電話上，以節省熒幕空間。 此外，當使用多維度迴轉集時，按鈕會隱藏。 您可以使用CSS調整按鈕的大小、外觀和位置。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**旋轉按鈕的CSS屬性**
+**迴轉按鈕的CSS屬性**
 
-該按鈕將添加到由CSS類選擇器控制的DIV的內部容器中：
+按鈕會新增至使用CSS類別選取器以DIV控制的內部容器：
 
 ```
 .s7spinviewer .s7spinbuttons
@@ -36,19 +36,19 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 頂部 </span> </p> </td> 
-   <td colname="col2"> <p>從上邊框定位，包括填充。 </p> </td> 
+   <td colname="col2"> <p>上邊框的位置，包括邊框間距。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 右側 </span> </p> </td> 
-   <td colname="col2"> <p>從右邊框定位，包括填充。 </p> </td> 
+   <td colname="col2"> <p>從右邊框定位，包括內距。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 左側 </span> </p> </td> 
-   <td colname="col2"> <p>從左邊框定位，包括填充。 </p> </td> 
+   <td colname="col2"> <p>從左邊框定位，包括內距。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 底部 </span> </p> </td> 
-   <td colname="col2"> <p>從底邊框定位，包括填充。 </p> </td> 
+   <td colname="col2"> <p>從下邊框定位，包括內距。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -61,7 +61,7 @@ ht-degree: 4%
  </tbody> 
 </table>
 
-此按鈕在容器內的外觀由CSS類選擇器控制：
+此按鈕在容器內的外觀是由CSS類別選取器所控制：
 
 ```
 .s7spinviewer .s7spinbuttons .s7panleftbutton
@@ -77,19 +77,19 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 頂部 </span> </p> </td> 
-   <td colname="col2"> <p>從上邊框定位，包括填充。 </p> </td> 
+   <td colname="col2"> <p>上邊框的位置，包括邊框間距。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 右側 </span> </p> </td> 
-   <td colname="col2"> <p>從右邊框定位，包括填充。 </p> </td> 
+   <td colname="col2"> <p>從右邊框定位，包括內距。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 左側 </span> </p> </td> 
-   <td colname="col2"> <p>從左邊框定位，包括填充。 </p> </td> 
+   <td colname="col2"> <p>從左邊框定位，包括內距。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 底部 </span> </p> </td> 
-   <td colname="col2"> <p>從底邊框定位，包括填充。 </p> </td> 
+   <td colname="col2"> <p>從下邊框定位，包括內距。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -100,23 +100,23 @@ ht-degree: 4%
    <td colname="col2"> <p>按鈕的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景影像 </span> </p> </td> 
-   <td colname="col2"> <p>為給定按鈕狀態顯示的影像。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col2"> <p>針對指定按鈕狀態顯示的影像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
-   <td colname="col2"> <p>如果使用CSS浮雕，則在圖稿浮雕內定位。 </p> <p>請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#section-b671c70acf284cb0aea678c2d2e4babc" format="dita" scope="local"> CSS繁體 </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p>若使用CSS sprite，則定位在圖稿sprite內。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#section-b671c70acf284cb0aea678c2d2e4babc" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按鈕支援 `state` 屬性選擇器，可用於將不同外觀應用於不同按鈕狀態。
+>此按鈕支援 `state` 屬性選擇器，可將不同的外觀元素套用至不同的按鈕狀態。
 
-按鈕工具提示可以本地化。 請參閱 [用戶介面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-localization.md#concept-e35c15c9e82648328806cdc6aa255d98) 的子菜單。
+按鈕工具提示可以本地化。 另請參閱 [使用者介面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-localization.md#concept-e35c15c9e82648328806cdc6aa255d98) 以取得詳細資訊。
 
-示例 — 設定一個28 x 28像素的左旋按鈕，該按鈕位於內容器的左邊緣。 最後，為四個不同的按鈕狀態中的每個狀態顯示不同的影像：
+範例 — 設定旋轉左側按鈕，此按鈕為28 x 28畫素，並位於內部容器的左側邊緣。 最後，針對四種不同按鈕狀態分別顯示不同的影像：
 
 ```
 .s7spinviewer .s7spinbuttons .s7panleftbutton { 

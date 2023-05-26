@@ -1,7 +1,7 @@
 ---
-description: 屬性集類型陣列。
+description: 屬性集型別陣列。
 solution: Experience Manager
-title: 屬性SetTypeArray
+title: PropertySetTypeArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 56f0bcf6-0a8c-4976-88ab-45700d5d5e3d
@@ -14,7 +14,7 @@ ht-degree: 30%
 
 # [!DNL PropertySetTypeArray]{#propertysettypearray}
 
-屬性集類型陣列。
+屬性集型別陣列。
 
 語法
 
@@ -22,4 +22,4 @@ ht-degree: 30%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 項目 | `types:PropertySetType` | 屬性集類型陣列。 |
+| 項目 | `types:PropertySetType` | 屬性集型別陣列。 |

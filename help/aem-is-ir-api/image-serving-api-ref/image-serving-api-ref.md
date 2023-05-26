@@ -1,6 +1,6 @@
 ---
-title: 映像服務API參考
-description: 查看Dynamic Media映像服務API參考幫助。
+title: 影像伺服API參考
+description: 檢視Dynamic Media影像伺服API參考說明。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,6 +12,6 @@ ht-degree: 0%
 ---
 
 
-# 映像服務API參考 {#image-serving-api-reference}
+# 影像伺服API參考 {#image-serving-api-reference}
 
-查看Dynamic Media映像服務API參考幫助。
+檢視Dynamic Media影像伺服API參考說明。

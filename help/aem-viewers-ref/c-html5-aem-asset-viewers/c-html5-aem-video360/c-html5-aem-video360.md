@@ -1,6 +1,6 @@
 ---
 title: Video360
-description: HTML5 Video360 Viewer是360度視頻播放器，播放以H.264格式編碼的流媒體和漸進式360視頻，從Dynamic Media Classic或Dynamic MediaAdobe Experience Manager傳送。
+description: HTML5 Video360 Viewer是一種360度影片播放程式，可播放從Dynamic Media Classic或Adobe Experience Manager、Dynamic Media傳送的H.264格式串流及漸進式360影片。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -14,126 +14,126 @@ ht-degree: 0%
 
 # Video360{#video}
 
-HTML5 Video360 Viewer是360度視頻播放器，播放以H.264格式編碼的流媒體和漸進式360視頻，從Dynamic Media Classic或Dynamic MediaAdobe Experience Manager傳送。
+HTML5 Video360 Viewer是一種360度影片播放程式，可播放從Dynamic Media Classic或Adobe Experience Manager、Dynamic Media傳送的H.264格式串流及漸進式360影片。
 
-360度視頻，又稱沈浸式視頻或球形視頻，是一些視頻錄制，在這些錄像中，可以同時記錄每個方向的視圖，使用全向攝像機或攝像機集合進行拍攝。 同時支援單個視頻和自適應視頻集。 該查看器還支援使用在外部位置承載的漸進式視頻和HLS流。
+360度影片，也稱為沈浸式影片或球形影片，指同時錄製每個方向檢視的影片，使用全方位相機或一系列相機拍攝。 同時支援單一視訊和自我調整視訊集。 檢視器也支援使用託管於外部位置的漸進式視訊和HLS資料流。
 
-360視頻的建議寬高比為2:1。 不支援空間聲音。 觀看者設計為僅能處理360個視頻；試圖播放非360視頻會導致視頻回放失真。
+360度視訊的建議外觀比例為2:1。 不支援空間聲音。 檢視器的設計僅能處理360度影片；嘗試播放非360度影片會導致影片播放失真。
 
-該查看器設計用於支援HTML5視頻的案頭和移動Web瀏覽器。 查看器支援可選的社交共用工具。
+檢視器的設計可在支援HTML5視訊的案頭和行動網頁瀏覽器上運作。 檢視器支援選用的社交分享工具。
 
-Video360 Viewer在基礎系統支援時使用HLS格式的HTML5流視頻回放，其預設配置為。 在不支援HTML5流式傳輸的系統上，查看器將返回HTML5逐步視頻傳輸。
+只要基礎系統支援，Video360 Viewer就會在其預設設定中使用HLS格式的HTML5串流視訊播放。 在不支援HTML5串流的系統上，檢視器會回到HTML5漸進式視訊傳送。
 
-查看器類型為517。
+檢視器型別為517。
 
-## 演示URL {#section-c0ad383db6a444979dc7eeb1ec4cf54d}
+## 示範URL {#section-c0ad383db6a444979dc7eeb1ec4cf54d}
 
 [https://s7d9.scene7.com/s7viewers/html5/Video360Viewer.html?asset=Viewers/space_station_360-AVS](https://s7d9.scene7.com/s7viewers/html5/Video360Viewer.html?asset=Viewers/space_station_360-AVS)
 
 ## 系統要求 {#section-b7270cc4290043399681dc504f043609}
 
-請參閱 [系統要求](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842)。
+另請參閱 [系統需求](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
-## 使用Video360查看器 {#section-e6c68406ecdc4de781df182bbd8088b4}
+## 使用Video360檢視器 {#section-e6c68406ecdc4de781df182bbd8088b4}
 
-HTML5 Video360 Viewer表示主JavaScript檔案和一組幫助程式檔案(單個JavaScript包含此查看器、資產、CSS使用的所有HTML5 Viewer SDK元件)，該查看器在運行時下載。
+HTML5 Video360 Viewer代表一個主要JavaScript檔案和一組協助程式檔案(單一JavaScript包含，其中包含此檢視器使用的所有HTML5 Viewer SDK元件、資產、CSS)，這些檔案是檢視器在執行階段下載的。
 
-HTML5 Video360 Viewer可以在彈出模式下使用隨IS-Viewer提供的生產就緒HTML頁，也可以在嵌入式模式下使用文檔化的API將其整合到目標網頁中。
+HTML5 Video360 Viewer既可透過隨IS-Viewers提供的生產就緒HTML頁面以快顯模式使用，也可透過內嵌模式使用，透過已記錄的API整合至目標網頁。
 
-配置和外觀與本指南中描述的其他查看器的配置和外觀相似。 所有蒙皮都通過自定義(CSS)層疊樣式表實現。
+設定和外觀設定類似於本指南中說明的其他檢視器。 所有外觀設定都是透過自訂(CSS)階層式樣式表來達成。
 
-請參閱 [所有查看器通用的命令引用 — 配置屬性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) 和 [所有查看器通用的命令引用 — URL](../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-cmdref-url/c-html5-aem-video360-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
+另請參閱 [所有檢視器通用的命令參考 — 設定屬性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) 和 [所有檢視器通用的命令參考 — URL](../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-cmdref-url/c-html5-aem-video360-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
-360視頻內容要求比標準非360視頻更高的編碼設定。 換句話說，360個內容必須比非360視頻的解析度更高才能達到相同的可感知質量。 建議您考慮360視頻的以下自適應視頻預設設定：
+360度影片內容需要的編碼設定比標準的非360度影片更高。 換句話說，360內容必須比非360影片具有更高的解析度，才能達到相同的視覺品質。 建議您針對360度影片考慮下列最適化影片預設集設定：
 
-* 720p 、 2500 kbps
-* 1080p, 5000 kbps
-* 1440p 、 6600 kbps
+* 720p， 2500 kbps
+* 1080p， 5000 kbps
+* 1440p， 6600 kbps
 
-但請注意，使用如此高質量設定編碼的視頻服務需要在最終用戶設備上進行高頻寬連接。
+但是請注意，提供使用這類高品質設定編碼的視訊需要一般使用者裝置上的高頻寬連線。
 
-## 與Video360查看器交互 {#section-642e66ca38cd4032992840ec6c0b0cd2}
+## 與Video360檢視器互動 {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
-HTML5 Video360 Viewer提供一組用於視頻播放的標準用戶介面控制項，如播放/暫停按鈕、視頻掃描器視頻時間氣泡、播放時間/總時間指示器、音量控制和全屏按鈕。 所有這些控制項都分組到查看器用戶介面底部的控制欄中。
+HTML5 Video360 Viewer提供一組標準的使用者介面控制項來播放視訊，例如播放/暫停按鈕、視訊筆畫壓感視訊時間泡泡、播放時間/總時間指標、音量控制項以及全熒幕按鈕。 所有這些控制項都會分組到檢視器使用者介面底部的控制項列中。
 
-在觸摸設備上，卷控制項被隱藏在用戶介面之外，因為只能使用設備的硬體按鈕來控制卷。
+在觸控裝置上，音量控制會隱藏在使用者介面中，因為只能使用裝置的硬體按鈕來控制音量。
 
-當查看器在彈出模式下操作時，用戶介面中不提供全屏按鈕。
+當檢視器在快顯視窗模式下操作時，全熒幕按鈕在使用者介面中不可用。
 
-觀眾還支援各種社交媒體共用工具。 它們可作為用戶介面中的單個按鈕使用，當用戶按一下或輕擊該按鈕時，該按鈕會擴展到共用工具欄。 共用工具欄包含支援的每種類型的共用通道的表徵圖，如Facebook、Twitter、電子郵件共用、嵌入代碼共用和連結共用。 當激活電子郵件共用、嵌入共用或連結共用工具時，查看器將顯示帶有相應資料輸入表單的模式對話框。 當呼叫Facebook或Twitter時，觀看者將用戶從社交媒體服務重定向到標準共用對話框。 此外，當共用工具被激活時，視頻回放將自動暫停。 由於Web瀏覽器安全限制，共用工具在全屏模式下不可用。
+檢視器也支援各種社群媒體分享工具。 它們可作為使用者介面中的單一按鈕使用，當使用者按一下或點選共用工具列時，該按鈕會展開為共用工具列。 共用工具列包含每個支援的共用管道型別圖示，例如Facebook、Twitter、電子郵件共用、內嵌程式碼共用和連結共用。 啟動電子郵件共用、內嵌共用或連結共用工具時，檢視器會顯示包含對應資料輸入表單的強制回應對話方塊。 呼叫Facebook或Twitter時，檢視器會將使用者從社群媒體服務重新導向至標準共用對話方塊。 此外，當共用工具啟動時，影片播放會自動暫停。 由於網頁瀏覽器安全限制，共用工具無法用於全熒幕模式。
 
-查看器支援以下360個視頻播放：
+檢視器支援以下專案的360度影片播放：
 
-* VR耳機(如OculusGo和OculusRift)
-* VR HMD（頭戴式顯示器）支架(如Google紙板)
-* 未啟用VR的設備（如未連接到VR HMD安裝的案頭瀏覽器、平板電腦和行動電話）
+* VR耳機(例如Oculus Go和Oculus Rift)
+* VR HMD （頭戴式顯示器）掛載(如Google Cardboard)
+* 不支援VR的裝置（例如桌上型瀏覽器、未連線至VR HMD掛載的平板電腦和行動電話）
 
-在VR頭戴式耳機上查看360個視頻內容無需其他配置。 觀看者自動檢測VR頭戴式耳機的存在，並在視頻內容的頂部顯示「VR」按鈕。 激活此「VR」按鈕可將視頻呈現切換為VR模式。 僅在支援WebVR的瀏覽器中，查看器才支援VR呈現。
+在VR頭戴式耳機上檢視360視訊內容無需額外設定。 檢視器會自動偵測是否存在VR頭戴式耳機，並在視訊內容上方顯示「VR」按鈕。 啟用此「VR」按鈕會將視訊演算切換至VR模式。 檢視器僅支援WebVR支援的瀏覽器中的VR演算。
 
-為了使用VR HMD裝載 `Video360Player.vrrender` 修飾符必須設定為 `1` 在觀看者配置中，強制進行立體渲染。
+若要使用VR HMD，請安裝 `Video360Player.vrrender` 修飾元必須設定為 `1` 在檢視器的設定中強制進行立體轉譯。
 
-在VR耳機和VR HMD安裝上，視點變化會響應於頭戴式耳機移動而發生，而不是在VR模式中提供其它回放控制。
+在VR頭戴式耳機和VR HMD掛載上，視點變更會因應頭戴式耳機的移動而發生，而不是在VR模式下提供其他播放控制。
 
-在啟用非VR的設備上觀看360個視頻時，最終用戶可以使用滑鼠、觸摸或鍵盤來控制視頻播放和視點。
+在非啟用VR的裝置上觀看360度影片時，一般使用者可以使用滑鼠、觸控或鍵盤來控制影片播放和檢視點。
 
-查看器支援Windows設備上的觸摸輸入和滑鼠輸入，並帶有觸摸屏和滑鼠，但僅限於Chrome、Internet Explorer 11和Edge Web瀏覽器。
+檢視器支援觸控式輸入和滑鼠輸入（使用觸控熒幕和滑鼠的Windows裝置），不過這項支援僅適用於Chrome、Internet Explorer 11和Edge網頁瀏覽器。
 
-可以完全使用鍵盤訪問查看器。 請參閱 [鍵盤輔助功能和導航](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861)。
+檢視器可使用完整的鍵盤。 另請參閱 [鍵盤協助工具與導覽](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
 
-## 嵌入Video360查看器 {#section-6bb5d3c502544ad18a58eafe12a13435}
+## 內嵌Video360檢視器 {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-不同的網頁對查看者行為有不同的需求。 有時，網頁提供的連結在選中時會在單獨的瀏覽器窗口中開啟查看器。 在其他情況下，必須將查看器直接嵌入到托管頁面中。 在後一種情況下，該網頁可以具有靜態頁面佈局，或者使用響應設計，該響應設計在不同的設備上顯示不同的或針對不同的瀏覽器窗口大小。 為滿足這些需要，查看器支援三種主要操作模式：彈出式、固定大小嵌入和響應性設計嵌入。
+不同的網頁對檢視器行為有不同的需求。 有時，網頁會提供連結，在選取時會在個別瀏覽器視窗中開啟檢視器。 在其他情況下，必須直接將檢視器內嵌在託管頁面上。 在後一種情況下，網頁可能具有靜態頁面佈局，或使用回應式設計，在不同裝置或不同瀏覽器視窗大小上顯示不同。 為了滿足這些需求，檢視器支援三種主要操作模式：快顯視窗、固定大小內嵌和回應式設計內嵌。
 
-平板電腦和移動設備支援在同一頁面上嵌入多個視頻。 通常，一次只能播放一個視頻。 當用戶開始播放一個視頻，然後嘗試播放另一個視頻時，第一個視頻將自動暫停。 自動暫停的視頻會記住其當前的播放時間，因此用戶可以始終返回到它並繼續播放。 此規則唯一的例外是Android™ 4.x設備上的Chrome瀏覽器，該瀏覽器可以並行播放視頻。
+平板電腦和行動裝置支援在同一頁面上內嵌多個影片。 通常一次只能播放一個視訊。 當使用者開始播放一個影片，然後嘗試播放另一個影片時，會自動暫停第一個影片。 已自動暫停的視訊會記住其目前的播放時間，因此使用者可以隨時返回視訊並繼續播放。 此規則的唯一例外是Android™ 4.x裝置上的Chrome瀏覽器，該瀏覽器可同時播放視訊。
 
-**關於彈出模式**
+**關於彈出式模式**
 
-在彈出模式下，在單獨的Web瀏覽器窗口或頁籤中開啟查看器。 它會佔用整個瀏覽器窗口區域，並在瀏覽器調整大小或設備方向發生變化時進行調整。
+在快顯視窗模式中，檢視器會在個別的網頁瀏覽器視窗或標籤中開啟。 它會取用整個瀏覽器視窗區域，並在瀏覽器調整大小或裝置方向變更時進行調整。
 
-此模式是移動設備中最常見的模式。 網頁使用 `window.open()` JavaScript調用，正確配置 `A` HTML元件或任何其它合適的方法。
+此模式最常用於行動裝置。 網頁會使用載入檢視器 `window.open()` JavaScript呼叫，已正確設定 `A` HTML元素或任何其他合適的方法。
 
-建議您使用現成HTML頁面進行彈出操作模式。 它叫 [!DNL Video360Viewer.html] 它位於 [!DNL html5/] 標準IS查看器部署的子資料夾：
+建議您使用現成的HTML頁面作為快顯視窗操作模式。 其名稱為 [!DNL Video360Viewer.html] 而且它位於 [!DNL html5/] 標準IS-Viewers部署的子資料夾：
 
 [!DNL <s7viewers_root>/html5/Video360Viewer.html]
 
-通過應用自定義CSS，可以實現可視化定製。
+您可以套用自訂CSS來實現視覺化自訂。
 
-以下是在新窗口中開啟查看器的HTML代碼示例：
+以下是在新視窗中開啟檢視器的HTML程式碼範例：
 
 ```html {.line-numbers}
 <a href="https://s7d9.scene7.com/s7viewers/html5/Video360Viewer.html?asset=Viewers/space_station_360-AVS" target="_blank">Open popup viewer</a>
 ```
 
-**關於固定尺寸嵌入模式和響應設計嵌入模式**
+**關於固定大小內嵌模式和回應式設計內嵌模式**
 
-在嵌入模式中，查看器被添加到現有網頁中，該網頁可能已經具有與查看器無關的一些客戶內容。 瀏覽者通常只佔用網頁的一部分房地產。
+在內嵌模式中，檢視器會新增至現有網頁，該網頁可能已有某些與檢視器無關的客戶內容。 檢視器通常只會佔用網頁的一部分空間。
 
-主要使用案例是面向台式機或平板電腦設備的網頁，以及響應性設計的頁面，這些頁面根據設備類型自動調整佈局。
+主要使用案例是針對桌上型電腦或平板電腦裝置的網頁，以及可依裝置型別自動調整版面的回應式設計頁面。
 
-當查看器在初始載入後不更改其大小時，使用固定大小嵌入。 此方法是具有靜態佈局的網頁的最佳選擇。
+當檢視器在初始載入後未變更其大小時，會使用固定大小內嵌。 此方法適用於具有靜態配置的網頁。
 
-響應性設計嵌入假定查看器必須在運行時根據其容器的大小變化調整大小 `DIV`。 最常見的用例是向使用靈活頁面佈局的網頁添加查看器。
+回應式設計內嵌假設檢視器必須在執行階段調整大小來回應其容器的大小變更 `DIV`. 最常見的使用案例是將檢視器新增至使用彈性頁面配置的網頁。
 
-在響應性設計嵌入模式中，查看器根據網頁大小其容器的方式而具有不同的行為 `DIV`。 如果網頁僅設定容器的寬度 `DIV`在保持高度不受限制的情況下，觀看者根據所使用資產的縱橫比自動選擇其高度。 此功能可確保資產完美地貼入視圖中，而不會在側面出現任何填充。 此使用案例是使用響應性Web設計佈局框架(如Bootstrap和Foundation)的Web頁面中最常見的使用案例。
+在回應式設計內嵌模式中，檢視器的行為會因網頁大小其容器的方式而異 `DIV`. 如果網頁僅設定容器的寬度 `DIV`，只要其高度不受限制，檢視器就會根據所使用資產的外觀比例，自動選擇其高度。 此功能可確保資產完全符合檢視要求，而不需在兩側加上任何邊框間距。 此使用案例最常用於使用回應式網頁設計版面架構(例如Bootstrap和Foundation)的網頁。
 
-否則，如果網頁為查看者的容器設定寬度和高度 `DIV`，查看器僅填充該區域並遵循網頁佈局提供的大小。 一個很好的例子是將查看器嵌入到模式覆蓋中，其中覆蓋根據Web瀏覽器窗口大小進行大小調整。
+否則，如果網頁同時設定檢視器容器的寬度和高度 `DIV`，檢視器只會填滿該區域，並遵循網頁版面提供的大小。 一個好的範例是內嵌檢視器至強制回應覆蓋圖，其中覆蓋圖會根據網頁瀏覽器視窗大小調整大小。
 
-**固定大小嵌入**
+**固定大小內嵌**
 
-通過執行以下操作，可將查看器添加到網頁：
+您可以執行下列動作，將檢視器新增至網頁：
 
-1. 將查看器JavaScript檔案添加到網頁。
-1. 定義容器 `DIV`。
-1. 設定查看器大小。
-1. 建立和初始化查看器。
+1. 將檢視器JavaScript檔案新增至網頁。
+1. 定義容器 `DIV`.
+1. 設定檢視器大小。
+1. 建立和初始化檢視器。
 
-1. 將查看器JavaScript檔案添加到網頁。
+1. 將檢視器JavaScript檔案新增至網頁。
 
-   建立查看器要求在HTML頭中添加指令碼標籤。 在使用查看器API之前，請確保包括 [!DNL Video360Viewer.js]。 的 [!DNL Video360Viewer.js] 檔案位於 [!DNL html5/js/] 標準IS查看器部署的子資料夾：
+   建立檢視器需要您在HTML標頭中新增指令碼標籤。 在使用檢視器API之前，請務必先包含 [!DNL Video360Viewer.js]. 此 [!DNL Video360Viewer.js] 檔案位於 [!DNL html5/js/] 標準IS-Viewers部署的子資料夾：
 
 [!DNL <s7viewers_root>/etc/dam/viewers/s7viewers/html5/js/Video360Viewer.js]
 
-如果查看器部署在其中一個Adobe Dynamic Media Classic伺服器上，並且從同一域提供服務，則可以使用相對路徑。 否則，您將指定到安裝了IS-Viewers的Adobe Dynamic Media Classic伺服器之一的完整路徑。
+如果檢視器部署在某個Adobe Dynamic Media Classic伺服器上，且從相同網域提供服務，則可以使用相對路徑。 否則，您需要指定已安裝IS-Viewers的其中一個Adobe Dynamic Media Classic伺服器的完整路徑。
 
 相對路徑如下所示：
 
@@ -143,34 +143,34 @@ HTML5 Video360 Viewer提供一組用於視頻播放的標準用戶介面控制�
 
 >[!NOTE]
 >
->僅引用主查看器JavaScript `include` 檔案。 不要引用網頁代碼中任何可能在運行時由查看器邏輯下載的附加JavaScript檔案。 特別是，不直接引用HTML5 SDK `Utils.js` 由查看器從 `/s7viewers` 上下文路徑（所謂統一SDK） `include`)。 原因是 `Utils.js` 或類似的運行時查看器庫由查看器的邏輯和查看器版本之間的位置更改進行完全管理。 Adobe不保留舊版次查看器 `includes` 在伺服器上。
+>僅參照主要檢視器JavaScript `include` 檔案時。 請勿在網頁程式碼中參考任何其他JavaScript檔案（這些檔案可能由檢視器的邏輯在執行階段下載）。 尤其請勿直接參照HTML5 SDK `Utils.js` 檢視器從載入的程式庫 `/s7viewers` 內容路徑（所謂的整合SDK） `include`)。 原因在於 `Utils.js` 或類似的執行階段檢視器程式庫完全由檢視器的邏輯管理，且位置會在檢視器版本之間變更。 Adobe不會保留次要檢視器的舊版本 `includes` 在伺服器上。
 >
 >
->因此，直接引用任何輔助JavaScript `include` 該頁面上的查看器使用的瀏覽器功能將在部署新產品版本時中斷查看器功能。
+>因此，直接參照任何次要JavaScript `include` 當日後部署新產品版本時，頁面上檢視器使用的檢視器功能會中斷檢視器。
 
-1. 定義容器 `DIV`。
+1. 定義容器 `DIV`.
 
-   添加空 `DIV` 元素。 的 `DIV` 元素必須定義其ID，因為此ID稍後會傳遞給查看器API。 DIV的大小通過CSS指定。
+   新增空白 `DIV` 元素至您要顯示檢視器的頁面。 此 `DIV` 元素必須定義其ID，因為此ID稍後會傳遞至檢視器API。 DIV的大小是透過CSS指定的。
 
-   佔位符 `DIV` 是定位元素，表示 `position` CSS屬性設定為 `relative` 或 `absolute`。
+   預留位置 `DIV` 是定位元素，這表示 `position` CSS屬性已設定為 `relative` 或 `absolute`.
 
-   要使全屏功能在Internet Explorer中正常工作，請確保DOM中沒有其他元素的堆疊順序高於佔位符 `DIV`。
+   若要讓全熒幕功能在Internet Explorer中正常運作，請確定DOM中沒有其他元素的棧疊順序高於預留位置 `DIV`.
 
-   以下是定義佔位符的示例 `DIV` 元素：
+   以下是已定義預留位置的範例 `DIV` 元素：
 
    ```html {.line-numbers}
    <div id="s7viewer" style="position:relative;width:640px;height:360px;"></div>
    ```
 
-1. 設定查看器大小
+1. 設定檢視器大小
 
-   可以通過為聲明查看器來設定其靜態大小 `.s7video360viewer` 頂級CSS類（以絕對單位表示），或使用 `stagesize` 修改量。
+   您可以宣告檢視器的靜態大小，將它設為 `.s7video360viewer` 以絕對單位表示的頂層CSS類別，或是使用 `stagesize` 修飾元。
 
-   您可以將大小調整直接放在CSS中的HTML頁或自定義查看器CSS檔案中，該檔案稍後將分配給Adobe Experience Manager資產 — 按需分配的查看器預設記錄，或使用顯式傳遞 `style` 的子菜單。
+   您可以將CSS的大小直接放在HTML頁面上，或放在自訂檢視器CSS檔案中(稍後會將此檔案指派給Adobe Experience Manager Assets中的檢視器預設集記錄 — 隨選)，或明確使用以下專案傳遞： `style` 命令。
 
-   請參閱 [自定義Video360查看器](../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) 的子菜單。
+   另請參閱 [自訂Video360檢視器](../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) 以取得有關使用CSS設定檢視器樣式的詳細資訊。
 
-   下面是在HTML頁中定義靜態查看器大小的示例：
+   以下是在「HTML」頁面中定義靜態檢視器大小的範例：
 
    ```html {.line-numbers}
    #s7viewer.s7video360viewer { 
@@ -179,31 +179,31 @@ HTML5 Video360 Viewer提供一組用於視頻播放的標準用戶介面控制�
    }
    ```
 
-   可以設定 `stagesize` 在AEM Assets的查看器預設記錄中的修飾符 — 按需。 或者，可以使用查看器初始化代碼顯式傳遞它， `params` 或作為「命令引用」部分中所述的API調用，如下所示：
+   您可以設定 `stagesize` AEM Assets中檢視器預設集記錄的修飾元 — 隨選。 或者，您可以使用檢視器初始化程式碼明確傳遞 `params` 集合，或作為API呼叫，如命令參考區段中所述，如下所示：
 
    ```html {.line-numbers}
    video360viewer.setParam("stagesize", "640,640");
    ```
 
-   建議使用基於CSS的方法，並在本示例中使用。
+   建議使用以CSS為基礎的方法，並用於此範例。
 
-1. 建立和初始化查看器。
+1. 建立和初始化檢視器。
 
-   完成上述步驟後，將建立 `s7viewers.Video360Viewer` 類，將所有配置資訊傳遞給其建構子，並調用 `init()` 的子常式。 配置資訊作為JSON對象傳遞給建構子。 至少，此對象應 `containerId` 包含查看器容器ID名稱和嵌套的欄位 `params` 具有查看器支援的配置參數的JSON對象。
+   完成上述步驟後，您會建立 `s7viewers.Video360Viewer` 類別，將所有設定資訊傳遞至其建構函式，並呼叫 `init()` 檢視器例項的方法。 設定資訊會以JSON物件的形式傳遞至建構函式。 此物件至少應具有 `containerId` 包含檢視器容器ID名稱且以巢狀顯示的欄位 `params` 具有檢視器支援之設定引數的JSON物件。
 
-   在這個例子中， `params` 對象必須至少將Image Serving URL傳遞為 `serverUrl` 及初始資產 `asset` 的下界。 通過基於JSON的初始化API，您可以建立並啟動查看器，並使用一行代碼、傳遞為 `videoserverurl` 物業、初始資產 `asset` 參數和交互資料 `interactivedata` 屬性。 基於JSON的初始化API允許您使用單行代碼建立和啟動查看器。
+   在此案例中， `params` 物件至少必須將影像伺服URL傳遞為 `serverUrl` 屬性，並將初始資產設為 `asset` 引數。 JSON型初始化API可讓您透過以下傳遞的一行程式碼、視訊伺服器URL建立及啟動檢視器： `videoserverurl` 屬性，初始資產為 `asset` 引數，以及互動式資料作為 `interactivedata` 屬性。 JSON型初始化API可讓您使用單行程式碼建立及啟動檢視器。
 
-   必須將查看器容器添加到DOM中，以便查看器代碼可以通過其ID查找容器元素。 某些瀏覽器將生成DOM延遲到網頁結束。 要獲得最大相容性，請調用 `init()` 方法 `BODY` 標籤，或者身上 `onload()` 的子菜單。
+   請務必將檢視器容器新增至DOM，讓檢視器程式碼可依其ID找到容器元素。 有些瀏覽器會延遲建立DOM，直到網頁結尾。 如需最大相容性，請呼叫 `init()` 方法（在結尾之前） `BODY` 標籤或內文 `onload()` 事件。
 
-   同時，容器元素還不一定是網頁佈局的一部分。 例如，它可能隱藏在 `display:none` 指定的樣式。 在這種情況下，查看器將其初始化過程延遲到網頁將容器元素帶回佈局的那一刻。 當這種情況發生時，查看器載入將自動恢復。
+   同時，容器元素不一定會成為網頁版面的一部分。 例如，它可能會使用以下專案隱藏： `display:none` 樣式已指派給它。 在此情況下，檢視器會延遲其初始化程式，直到網頁將容器元素帶回版面配置為止。 發生此情況時，檢視器會自動繼續載入。
 
-   以下是建立查看器實例的示例，將最小必要配置選項傳遞給建構子，並調用 `init()` 的雙曲餘切值。 該示例假定：
+   以下範例說明如何建立檢視器例項、將最低必要的設定選項傳遞至建構函式，並呼叫 `init()` 方法。 此範例假設以下情況：
 
-   * 查看器實例為 `video360Viewer`。
-   * 佔位符的名稱 `DIV` 是 `s7viewer`。
-   * 影像服務URL為 `https://s7d9.scene7.com/is/image`。
-   * 視頻伺服器URL為 `https://s7d9.scene7.com/is/content`。
-   * 資產 `Viewers/space_station_360-AVS`。
+   * 檢視器例項為 `video360Viewer`.
+   * 預留位置名稱 `DIV` 是 `s7viewer`.
+   * 影像伺服URL為 `https://s7d9.scene7.com/is/image`.
+   * 視訊伺服器URL為 `https://s7d9.scene7.com/is/content`.
+   * 資產是 `Viewers/space_station_360-AVS`.
 
    ```html {.line-numbers}
    <script type="text/javascript"> 
@@ -218,7 +218,7 @@ HTML5 Video360 Viewer提供一組用於視頻播放的標準用戶介面控制�
    </script>
    ```
 
-   以下代碼是嵌入Video360 Viewer且大小固定的普通網頁的完整示例：
+   下列程式碼為將Video360檢視器嵌入固定大小的簡單網頁的完整範例：
 
    ```html {.line-numbers}
    <!DOCTYPE html> 
@@ -248,9 +248,9 @@ HTML5 Video360 Viewer提供一組用於視頻播放的標準用戶介面控制�
    </html>
    ```
 
-**具有無限制高度的響應設計嵌入**
+**高度不受限制的回應式設計內嵌**
 
-通過響應性設計嵌入，網頁通常具有某種靈活的佈局，其指示查看者容器的運行時大小 `DIV`。 對於以下示例，假定該網頁允許查看者的容器 `DIV` 以取Web瀏覽器窗口大小的40%，使其高度不受限制。 網頁HTML代碼如下所示：
+透過回應式設計內嵌，網頁通常會有某種彈性的版面配置，可指定檢視器容器的執行階段大小 `DIV`. 對於以下範例，假設網頁允許檢視器的容器 `DIV` 以取得網頁瀏覽器視窗大小的40%，其高度不受限制。 網頁HTML程式碼如下所示：
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -268,13 +268,13 @@ HTML5 Video360 Viewer提供一組用於視頻播放的標準用戶介面控制�
 </html>
 ```
 
-將查看器添加到此頁麵類似於固定大小嵌入的步驟。 唯一的區別是您不需要顯式定義查看器大小。
+將檢視器新增至這類頁面，類似於固定大小內嵌的步驟。 唯一的區別是您不需要明確定義檢視器大小。
 
-1. 將查看器JavaScript檔案添加到網頁。
+1. 將檢視器JavaScript檔案新增至網頁。
 1. 定義容器DIV。
-1. 建立和初始化查看器。
+1. 建立和初始化檢視器。
 
-上述步驟與固定尺寸嵌入步驟相同。 將容器DIV添加到現有 `"holder"` DIV 以下代碼是一個完整的示例。 注意當瀏覽器調整大小時查看器大小如何變化，以及查看器縱橫比如何匹配資產。
+上述所有步驟與固定大小內嵌的步驟相同。 將容器DIV新增至現有 `"holder"` DIV. 下列程式碼為完整範例。 請注意瀏覽器調整大小時檢視器大小的變化，以及檢視器外觀比例與資產相符的方式。
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -305,9 +305,9 @@ var video360Viewer = new s7viewers.Video360Viewer({
 </html>
 ```
 
-**定義寬度和高度的響應嵌入**
+**定義寬度和高度的回應式內嵌**
 
-如果定義了寬度和高度的響應嵌入，則網頁樣式是不同的。 它為 `"holder"` DIV並將其置於瀏覽器窗口中。 此外，網頁還設定 `HTML` 和 `BODY` 元素到100%。
+如果有已定義寬度和高度的回應式內嵌，則網頁樣式會不同。 它提供兩種大小給 `"holder"` 在瀏覽器視窗中進行DIV和置中。 此外，網頁會設定 `HTML` 和 `BODY` 元素至100%。
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -333,7 +333,7 @@ height: 60%;
 </html>
 ```
 
-其餘的嵌入步驟與用於具有無限制高度的響應嵌入的步驟相同。 結果示例如下：
+其餘的內嵌步驟與高度不受限制的回應式內嵌所使用的步驟相同。 產生的範例如下：
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -372,11 +372,11 @@ var video360Viewer = new s7viewers.Video360Viewer({
 </html>
 ```
 
-**使用基於Setter的API嵌入**
+**使用Setter型API內嵌**
 
-可以不使用基於JSON的初始化，而是使用基於setter的API和no-args建構子。 使用此API建構子不採用任何參數，配置參數是使用 `setContainerId()`。 `setParam()`, `setAsset()` API方法，具有單獨的JavaScript調用。
+您可以使用setter型API和no-args建構函式，而不使用JSON型初始化。 使用此API建構函式不接受任何引數，而且設定引數是透過以下方式指定的： `setContainerId()`， `setParam()`、和 `setAsset()` 具有個別JavaScript呼叫的API方法。
 
-以下示例說明了將固定大小嵌入與基於setter的API一起使用：
+下列範例說明如何將固定大小內嵌與setter型API搭配使用：
 
 ```html {.line-numbers}
 <!DOCTYPE html> 

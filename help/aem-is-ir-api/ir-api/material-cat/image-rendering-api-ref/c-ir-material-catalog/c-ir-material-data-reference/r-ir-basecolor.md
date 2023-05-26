@@ -1,7 +1,7 @@
 ---
-description: 主影像顏色。 減色，用於紋理著色。 應是紋理影像中的平均主色。
+description: 主影像色彩。 減色顏色，用於紋理上色。 應該是紋理影像中的平均主色。
 solution: Experience Manager
-title: 基色
+title: 基本色彩
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 57de25f9-ed99-4d4c-ac0e-08d382e8a36f
@@ -12,11 +12,11 @@ ht-degree: 5%
 
 ---
 
-# 基色{#basecolor}
+# 基本色彩{#basecolor}
 
-主影像顏色。 減色，用於紋理著色。 應是紋理影像中的平均主色。
+主影像色彩。 減色顏色，用於紋理上色。 應該是紋理影像中的平均主色。
 
-您還可以使用 `BaseColor`如果沒有 `catalog::Color` 應用於非紋理對象。
+您也可以使用 `BaseColor`作為填色顏色，如果紋理材料沒有 `catalog::Color` 套用至不可紋理化的暈映物件。
 
 ## 屬性 {#section-d9aec235f28b402581cf2277f5fc6fbb}
 

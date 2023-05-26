@@ -20,7 +20,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> 區域</span></span> </p> </td> 
-   <td colname="col2"> <p> 指定收藏夾縮略圖的裁剪區域。 表示為與總幀大小的相對值，範圍為 <span class="codeph"> 0</span> 至 <span class="codeph"> 1.0</span>。 </p> <p>值 <span class="codeph"> 1</span> 表示整個幀影像用於縮略圖。 </p> <p>值 <span class="codeph"> 0.1</span> 表示僅使用幀大小的10%。 </p> </td> 
+   <td colname="col2"> <p> 指定我的最愛縮圖的裁切區域。 以相對於影格總大小的值表示，範圍介於 <span class="codeph"> 0</span> 至 <span class="codeph"> 1.0</span>. </p> <p>值 <span class="codeph"> 1</span> 這表示整個影格影像會用於縮圖。 </p> <p>值 <span class="codeph"> 0.1</span> 表示只會使用框架大小的10%。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

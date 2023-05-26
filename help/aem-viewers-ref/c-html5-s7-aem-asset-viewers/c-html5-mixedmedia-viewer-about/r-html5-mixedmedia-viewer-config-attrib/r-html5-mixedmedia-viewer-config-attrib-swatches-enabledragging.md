@@ -14,17 +14,17 @@ ht-degree: 5%
 
 # Swatches.enabledragging{#swatches-enabledragging}
 
-` [Swatches.|<containerId>_swatches.]enabledragging=0|1[, *`超越`*]`
+` [Swatches.|<containerId>_swatches.]enabledragging=0|1[, *`overdragvalue`*]`
 
 <table id="table_B1363BFD20204093AAB326A1AB503B93"> 
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td> <p> 啟用或禁用用戶使用滑鼠或使用觸控手勢滾動色板的功能 </p> </td> 
+   <td> <p> 啟用或停用使用者利用滑鼠或觸控手勢捲動色票的能力 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> 超越 </span> </span> </p> </td> 
-   <td> <p> 在 <span class="codeph"> 0-1 </span> 欄。 是 <span class="codeph"> % </span> 在實際速度的錯誤方向上移動的值。 如果設定為 <span class="codeph"> 1 </span>，它隨滑鼠移動。 如果設定為 <span class="codeph"> 0 </span>它不會讓你走錯方向。 </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> overdragvalue </span> </span> </p> </td> 
+   <td> <p> 中的函式 <span class="codeph"> 0-1 </span> 範圍。 它是 <span class="codeph"> % </span> 以實際速度在錯誤方向移動的值。 如果設定為 <span class="codeph"> 1 </span>，它會隨滑鼠移動。 如果設定為 <span class="codeph"> 0 </span>，讓您完全無法向錯誤的方向移動。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

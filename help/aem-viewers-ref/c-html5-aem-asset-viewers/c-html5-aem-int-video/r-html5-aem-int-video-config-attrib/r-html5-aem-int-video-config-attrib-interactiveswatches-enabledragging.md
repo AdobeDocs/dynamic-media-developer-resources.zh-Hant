@@ -1,6 +1,6 @@
 ---
 title: InteractiveSwatches.enabledragging
-description: Interactive Video Viewer的配置屬性。
+description: 互動式視訊檢視器的設定屬性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -14,19 +14,19 @@ ht-degree: 4%
 
 # InteractiveSwatches.enabledragging{#interactiveswatches-enabledragging}
 
-Interactive Video Viewer的配置屬性。
+互動式視訊檢視器的設定屬性。
 
-` [InteractiveSwatches.|<containerId>_interactiveSwatches.]enabledragging=0|1[, *`超越`*]`
+` [InteractiveSwatches.|<containerId>_interactiveSwatches.]enabledragging=0|1[, *`overdragvalue`*]`
 
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 啟用或禁用用戶使用滑鼠或使用觸控手勢滾動色板的功能。 </p> </td> 
+   <td colname="col2"> <p> 啟用或停用使用者利用滑鼠或觸控手勢捲動色票的能力。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 超越 </span> </span> </p> </td> 
-   <td colname="col2"> <p> 在 <span class="codeph"> 0-1 </span> 範圍，它是實際速度錯誤方向上移動的百分比值。 </p> <p>如果設定為 <span class="codeph"> 1 </span>，它隨滑鼠移動。 </p> <p>如果設定為 <span class="codeph"> 0 </span>它不會讓你走錯方向。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> overdragvalue </span> </span> </p> </td> 
+   <td colname="col2"> <p> 位於 <span class="codeph"> 0-1 </span> 範圍，它是實際速度在錯誤方向所做運動的百分比值。 </p> <p>若設為 <span class="codeph"> 1 </span>，它會隨滑鼠移動。 </p> <p>若設為 <span class="codeph"> 0 </span>，它不會讓您向錯誤的方向移動。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,7 +1,7 @@
 ---
-description: 掩碼檔案屬性。
+description: 遮罩檔案屬性。
 solution: Experience Manager
-title: 掩碼資訊
+title: 遮色片資訊
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 91e760c5-2c6e-47e6-9429-d37ba9d84cdb
@@ -14,7 +14,7 @@ ht-degree: 25%
 
 # [!DNL MaskInfo]{#maskinfo}
 
-掩碼檔案屬性。
+遮罩檔案屬性。
 
 語法
 
@@ -22,5 +22,5 @@ ht-degree: 25%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 掩碼路徑 | `xsd:string` | 掩碼檔案路徑。 |
-| 掩碼檔案 | `xsd:string` | 掩碼檔案名。 |
+| 遮色片路徑 | `xsd:string` | 遮色片檔案路徑。 |
+| 遮色片檔案 | `xsd:string` | 遮色片檔案名稱。 |

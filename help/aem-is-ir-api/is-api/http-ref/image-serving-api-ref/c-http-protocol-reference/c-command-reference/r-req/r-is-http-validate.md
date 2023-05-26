@@ -1,5 +1,5 @@
 ---
-description: 請求驗證。
+description: 要求驗證。
 solution: Experience Manager
 title: 驗證
 feature: Dynamic Media Classic,SDK/API
@@ -14,25 +14,25 @@ ht-degree: 4%
 
 # 驗證{#validate}
 
-請求驗證。
+要求驗證。
 
 `req=validate[,text|javascript|xml|{json[&id= *`reqId`*]}]`
 
 <table id="simpletable_F214CDA7580A46C0B5CF14CF13AA9B0A"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"><span class="varname"> reqId</span> </span> </p> </td> 
-  <td class="stentry"> <p>唯一請求標識符。 </p></td> 
+  <td class="stentry"> <p>唯一請求識別碼。 </p></td> 
  </tr> 
 </table>
 
-解析請求字串，就像 `req=img` 指定，但不替換變數和評估引用對象（影像、ICC配置檔案、字型等）。 如果分析失敗，則返回標準錯誤響應，否則返回以下屬性：
+剖析請求字串，如下所示 `req=img` 已指定，但未取代變數及評估參照的物件（影像、ICC設定檔、字型等）。 剖析失敗時會傳回標準錯誤回應，否則會傳回下列屬性：
 
 `request.isValid=1`
 
-HTTP響應不可快取。
+無法快取HTTP回應。
 
-支援JSONP響應格式的請求允許您使用擴展語法指定JS回調處理程式的名稱 `req=` 參數：
+支援JSONP回應格式的請求可讓您使用擴充語法來指定JS回呼處理常式的名稱。 `req=` 引數：
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` 是JSONP響應中存在的JS處理程式的名稱。 只允許使用a-z、A-Z和0-9個字元。 選擇性. 預設為 `s7jsonResponse`.
+`<reqHandler>` 是JSONP回應中呈現的JS處理常式名稱。 僅允許a-z、A-Z和0-9字元。 選擇性. 預設為 `s7jsonResponse`.

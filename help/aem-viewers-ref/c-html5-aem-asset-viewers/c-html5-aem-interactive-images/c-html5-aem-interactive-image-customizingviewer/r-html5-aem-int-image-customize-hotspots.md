@@ -1,6 +1,6 @@
 ---
 title: 熱點
-description: 查看器在主視圖上顯示熱點表徵圖，這些熱點最初是在AEM AssetsDynamic Media創作的，是按需的。
+description: 在熱點最初是在AEM Assets的Dynamic Media中編寫的位置，檢視器會在主檢視上顯示熱點圖示（隨選）。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 2%
 
 # 熱點{#hotspots}
 
-查看器在主視圖上顯示熱點表徵圖，這些熱點最初是在AEM AssetsDynamic Media創作的，是按需的。
+在熱點最初是在AEM Assets的Dynamic Media中編寫的位置，檢視器會在主檢視上顯示熱點圖示（隨選）。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**主查看器區域的CSS屬性**
+**主要檢視器區域的CSS屬性**
 
-熱點表徵圖的外觀由以下CSS類選擇器控制：
+熱點圖示的外觀由下列CSS類別選擇器控制：
 
 ```
 .s7interactiveimage .s7imagemapeffect .s7icon
@@ -35,25 +35,25 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景影像 </span> </p> </td> 
-   <td colname="col2"> <p>熱點表徵圖圖稿。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col2"> <p>熱點圖示圖稿。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
-   <td colname="col2"> <p>如果使用CSS浮雕，則在圖稿浮雕內定位。 </p> <p>請參閱 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS繁體 </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p>若使用CSS拼寫，則定位在圖稿拼寫內。 </p> <p>另請參閱 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>熱點表徵圖寬度。 </p> </td> 
+   <td colname="col2"> <p>熱點圖示寬度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>熱點表徵圖高度。 </p> </td> 
+   <td colname="col2"> <p>熱點圖示高度。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例 — 設定56 x 56像素熱點表徵圖，該表徵圖顯示兩個不同表徵圖狀態中每個狀態的不同影像：
+範例 — 設定56 x 56畫素的熱點圖示，針對兩種不同的圖示狀態分別顯示不同的影像：
 
 ```
 .s7interactiveimage .s7imagemapeffect .s7icon { 

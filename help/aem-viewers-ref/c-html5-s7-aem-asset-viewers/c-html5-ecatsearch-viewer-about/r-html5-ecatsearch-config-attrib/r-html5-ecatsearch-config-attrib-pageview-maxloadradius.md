@@ -14,13 +14,13 @@ ht-degree: 4%
 
 # PageView.maxloadradius{#pageview-maxloadradius}
 
-[!DNL `[PageView.|<containerId>_pageView.]maxloadradius=-1|0| *`預載入br`*`]
+[!DNL `[PageView.|<containerId>_pageView.]maxloadradius=-1|0| *`preloadnbr`*`]
 
 <table id="table_985ADD6C9BD04C629A84C9C625CCCFEB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph">-1|0|<span class="varname"> 預載入br</span></span> </p> </td> 
-   <td colname="col2"> <p>指定元件預載入行為。 </p> <p>設定為時 <span class="codeph"> -1</span> 元件在空閒狀態下預載所有目錄幀。 </p> <p> 設定為時 <span class="codeph"> 0</span> 該元件僅載入當前可見的幀、上一幀和下一幀。 </p> <p>設定 <span class="codeph"><span class="varname"> 預載入br</span></span> 定義當前顯示的幀周圍以空閒狀態預載的不可見幀的數量。 </p> </td> 
+   <td colname="col1"> <p><span class="codeph">-1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
+   <td colname="col2"> <p>指定元件預先載入行為。 </p> <p>當設定為 <span class="codeph"> -1</span> 當處於閒置狀態時，元件會預先載入所有目錄影格。 </p> <p> 當設定為 <span class="codeph"> 0</span> 元件僅載入目前可見的影格、上一個和下一個影格。 </p> <p>設定 <span class="codeph"><span class="varname"> preloadnbr</span></span> 定義在閒置狀態中預先載入目前顯示影格周圍的不可見影格數。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

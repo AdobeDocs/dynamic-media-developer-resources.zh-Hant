@@ -1,5 +1,5 @@
 ---
-description: 包含映像伺服器配置設定。
+description: 包含影像伺服器組態設定。
 solution: Experience Manager
 title: ImageServerRegistry.xml
 feature: Dynamic Media Classic,SDK/API
@@ -14,17 +14,17 @@ ht-degree: 0%
 
 # ImageServerRegistry.xml{#imageserverregistry-xml}
 
-包含映像伺服器配置設定。
+包含影像伺服器組態設定。
 
-修改此XML檔案時，必須注意維護有效的XML語法，否則映像伺服器可能無法啟動。
+修改此XML檔案時，必須注意保持有效的XML語法，否則影像伺服器可能會無法啟動。
 
-要使更改生效，請編輯此檔案後重新啟動映像伺服器。 只支援以下列出的元素值進行修改。 僅在Dynamic Media技術支援建議時編輯此檔案的任何其他內容。
+若要讓變更生效，請在編輯此檔案後重新啟動影像伺服器。 僅支援修改下列元素值。 只有在Dynamic Media技術支援提供建議時，才能編輯此檔案的任何其他內容。
 
 >[!NOTE]
 >
->不更改 `<imageserverregistry>`，包括元素順序。 編輯此檔案時請小心，否則映像伺服器可能無法啟動。
+>不要變更的結構 `<imageserverregistry>`，包括元素的順序。 編輯此檔案時請小心，否則影像伺服器可能會無法啟動。
 
-下面說明了可以更改的元素。 存在其他不能更改的元素。 以下元素的順序不能反映它們必須出現在檔案中的順序。
+以下說明哪些元素可以變更。 存在不可變更的其他元素。 下列元素的順序並未反映它們必須存在於檔案中的順序。
 
 ```
 <imageserverregistry>
@@ -52,4 +52,4 @@ ht-degree: 0%
 
 ## 附註 {#section-7217f011f69f41e7af4f3983d7776d6f}
 
-多重 `<RootPath>` 元素可能存在（每個源資料檔案資料夾一個）。 Image Server按指定查找特定源檔案的順序搜索根路徑。
+多個 `<RootPath>` 元素可能存在（每個來源資料檔案資料夾各一個）。 Image Server會依照指定的順序搜尋根路徑，以尋找特定的來源檔案。

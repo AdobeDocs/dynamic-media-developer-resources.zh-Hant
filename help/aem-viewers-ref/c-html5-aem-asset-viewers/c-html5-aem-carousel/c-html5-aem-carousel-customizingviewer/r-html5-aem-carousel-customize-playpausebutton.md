@@ -1,6 +1,6 @@
 ---
-title: 「播放暫停」按鈕
-description: 「播放/暫停」按鈕允許用戶暫停或恢復旋轉傳送器自動播放行為。
+title: PlayPause按鈕
+description: 「播放/暫停」按鈕可讓使用者暫停或繼續輪播自動播放行為。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
@@ -12,17 +12,17 @@ ht-degree: 2%
 
 ---
 
-# 「播放暫停」按鈕{#playpause-button}
+# PlayPause按鈕{#playpause-button}
 
-「播放/暫停」按鈕允許用戶暫停或恢復旋轉傳送器自動播放行為。
+「播放/暫停」按鈕可讓使用者暫停或繼續輪播自動播放行為。
 
 <!--<a id="section_6C008EE11212461FA744F2540D38C295"></a>-->
 
-僅當 `CarouselViewer.autoplay` 參數設定為 `1`;否則，它就隱藏了。 您可以使用CSS，相對於包含此按鈕的控制欄來調整、外觀和定位此按鈕。
+按鈕只有在以下情況下才可見： `CarouselViewer.autoplay` 引數已設為 `1`；否則會隱藏。 您可以使用CSS調整此按鈕的大小、外觀及相對於包含它的控制列定位。
 
-**主查看器區域的CSS屬性**
+**主要檢視器區域的CSS屬性**
 
-按鈕的外觀由以下CSS類選擇器控制：
+按鈕的外觀由下列CSS類別選取器控制：
 
 `.s7carouselviewer .s7playpausebutton`
 
@@ -36,19 +36,19 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 頂部 </span> </p> </td> 
-   <td colname="col2"> <p>從查看器邊框的頂部放置。 </p> </td> 
+   <td colname="col2"> <p>從檢視器邊框頂端的位置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 右側 </span> </p> </td> 
-   <td colname="col2"> <p>從查看器邊框的右側定位。 </p> </td> 
+   <td colname="col2"> <p>從檢視器邊框右側的位置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 左側 </span> </p> </td> 
-   <td colname="col2"> <p>從查看器左側的位置。 </p> </td> 
+   <td colname="col2"> <p>從檢視器左側的位置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 底部 </span> </p> </td> 
-   <td colname="col2"> <p>從查看器邊框底部定位。 </p> </td> 
+   <td colname="col2"> <p>位於檢視器邊框底部。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -59,27 +59,27 @@ ht-degree: 2%
    <td colname="col2"> <p>按鈕的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景影像 </span> </p> </td> 
-   <td colname="col2"> <p>為給定按鈕狀態顯示的影像。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col2"> <p>針對指定按鈕狀態顯示的影像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS浮雕，則在圖稿浮雕內定位。 </p> <p>另請參閱 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS繁體 </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> 若使用CSS sprite，則定位在圖稿sprite內。 </p> <p>另請參閱 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 游標 </span> </p> </td> 
-   <td colname="col2"> <p>游標類型。 </p> </td> 
+   <td colname="col2"> <p>游標型別。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按鈕支援 `state` 屬性選擇器，可用於將不同外觀應用於不同按鈕狀態。
+>此按鈕支援 `state` 屬性選擇器，可將不同的外觀元素套用至不同的按鈕狀態。
 
-按鈕工具提示可以本地化。 請參閱 [用戶介面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md) 的子菜單。
+按鈕工具提示可以本地化。 另請參閱 [使用者介面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md) 以取得詳細資訊。
 
-例如，假設您要設定28 x 28像素的播放暫停按鈕。 您希望按鈕從下方定位17像素，從查看器左邊定位12像素。 而且，當選中或未選中時，您希望它為四個不同的按鈕狀態中的每個狀態顯示不同的影像。
+例如，假設您要設定28 x 28畫素的播放暫停按鈕。 您想要將按鈕放置在距離檢視器底部17畫素和距離左邊緣12畫素的位置。 而且，您想要它在選取或未選取時，針對四種不同的按鈕狀態顯示不同的影像。
 
 ```
 .s7carouselviewer .s7playpausebutton { 

@@ -20,15 +20,15 @@ ht-degree: 19%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> width </span> </span> </p> </td> 
-   <td colname="col2"> <p>嵌入寬度。 </p> </td> 
+   <td colname="col2"> <p>內嵌寬度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> height </span> </span> </p> </td> 
-   <td colname="col2"> <p>嵌入高度。 </p> </td> 
+   <td colname="col2"> <p>內嵌高度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 指定是否應在組合框中初始預選此清單項。 </p> </td> 
+   <td colname="col2"> <p> 指定是否一開始應在下拉式方塊中預先選取此清單專案。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

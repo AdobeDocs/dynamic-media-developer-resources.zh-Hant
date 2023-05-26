@@ -1,5 +1,5 @@
 ---
-description: 刪除作業的輸出。
+description: 刪除工作的輸出。
 solution: Experience Manager
 title: batchjobdelete
 feature: Dynamic Media Classic,SDK/API
@@ -14,22 +14,22 @@ ht-degree: 1%
 
 # batchjobdelete{#batchjobdelete}
 
-刪除作業的輸出。
+刪除工作的輸出。
 
-如果作業當前正在運行，則該作業將立即停止，並刪除其所有處理資訊。 如果作業已成功完成，則其輸出檔案將被刪除。
+如果工作目前正在執行，則會立即停止，並刪除其所有處理資訊。 如果工作已成功完成，則會刪除其輸出檔案。
 
-此參數：
+此引數：
 
 <table id="simpletable_AACB976615FF4888A0816328DC48DCA3"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> jobid</span> </p> </td> 
-  <td class="stentry"> <p>提交時獲取的作業ID。 </p></td> 
+  <td class="stentry"> <p>提交時取得的作業ID。 </p></td> 
  </tr> 
 </table>
 
-返回：
+傳回：
 
-收到刪除請求時的作業狀態，如果 `jobid` 無效或作業已被刪除。
+收到刪除請求時的作業狀態，如果出現以下錯誤則出現錯誤 `jobid` 無效或已刪除工作。
 
 ## 範例 {#section-e0df8fc8e6554ba58e1fa937b8241ecf}
 

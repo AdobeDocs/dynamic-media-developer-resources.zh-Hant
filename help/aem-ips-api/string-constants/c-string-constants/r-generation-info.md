@@ -1,7 +1,7 @@
 ---
-description: getGenerationInfo/engine使用。
+description: 由getGenerationInfo/engine使用。
 solution: Experience Manager
-title: 生成資訊
+title: 產生資訊
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0293d28e-a023-4a79-9a3b-fc7b5cfbc98a
@@ -12,9 +12,9 @@ ht-degree: 14%
 
 ---
 
-# 生成資訊{#generation-info}
+# 產生資訊{#generation-info}
 
-getGenerationInfo/engine使用。
+由getGenerationInfo/engine使用。
 
 語法
 

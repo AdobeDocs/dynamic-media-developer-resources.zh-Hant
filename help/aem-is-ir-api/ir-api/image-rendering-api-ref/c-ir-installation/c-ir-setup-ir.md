@@ -1,6 +1,6 @@
 ---
-title: 設定和配置影像呈現
-description: 映像呈現配置有fileinstall_folder/conf/ImageRendering.conf目錄。
+title: 設定和設定影像演算
+description: 影像演算是使用fileinstall_folder/conf/ImageRendering.conf設定。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,10 +12,10 @@ ht-degree: 0%
 
 ---
 
-# 設定和配置影像呈現{#setup-and-configure-image-rendering}
+# 設定和設定影像演算{#setup-and-configure-image-rendering}
 
-影像呈現配置為 `fileinstall_folder/conf/ImageRendering.conf`。
+影像演算已設定為 `fileinstall_folder/conf/ImageRendering.conf`.
 
-有關詳細資訊，請參閱文檔的「配置」部分。 僅在Windows上，也可以從「開始」菜單訪問此檔案： **[!UICONTROL 「開始」菜單]** > **[!UICONTROL 程式]** > **[!UICONTROL Scene7]** > **[!UICONTROL 編輯影像呈現配置檔案]**。
+如需詳細資訊，請參閱檔案的設定區段。 僅在Windows上，您也可以從[開始]功能表存取此檔案： **[!UICONTROL 開始功能表]** > **[!UICONTROL 計畫]** > **[!UICONTROL Scene7]** > **[!UICONTROL 編輯影像演算組態檔]**.
 
-要停止並啟動「影像呈現」，請參閱「影像服務」文檔。 不能從影像服務單獨停止或啟動影像呈現。
+若要停止及開始影像演算，請參閱影像伺服檔案。 無法從「影像伺服」個別停止或啟動「影像演算」。

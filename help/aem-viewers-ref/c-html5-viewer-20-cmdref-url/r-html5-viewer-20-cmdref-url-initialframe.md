@@ -1,6 +1,6 @@
 ---
-title: 初始幀
-description: 所有查看器通用的參數。
+title: initialframe
+description: 所有檢視器通用的引數。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
@@ -12,25 +12,25 @@ ht-degree: 3%
 
 ---
 
-# 初始幀{#initialframe}
+# initialframe{#initialframe}
 
-所有查看器通用的參數。
+所有檢視器通用的引數。
 
 >[!NOTE]
 >
->此命令不適用於視頻影像查看器。
+>這個命令不適用於Video Image Viewer。
 
-` initialFrame= *`幀IDX`*[ *`,pageIdx`*]`
+` initialFrame= *`frameIdx`*[ *`，pageIdx`*]`
 
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 幀IDX</span> </span> </p> </td> 
-   <td colname="col2"> <p> 指定查看器在載入時顯示的基於零的幀索引。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> frameIdx</span> </span> </p> </td> 
+   <td colname="col2"> <p> 指定檢視器在載入時顯示的從零開始的影格索引。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> 頁IDX</span></span> </p> </td> 
-   <td colname="col2"> <p>當設備處於縱向方向時，跨頁內頁面的零索引。 對於"從左到右"的環境， <span class="codeph"> 0</span> 表示「左頁」和 <span class="codeph"> 1</span> 表示「右頁」。 對於「從右到左」的環境，情況正好相反： <span class="codeph"> 0</span> 表示「右頁」和 <span class="codeph"> 1</span> 表示「左頁」。 </p> <p>如果未指定， <span class="codeph"> 0</span> 預設情況下為。 設備處於橫向方向時忽略。 </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> pageIdx</span></span> </p> </td> 
+   <td colname="col2"> <p>當裝置為縱向方向時，跨頁中的頁面索引（從零開始）。 若為「由左至右」的環境， <span class="codeph"> 0</span> 表示「左側頁面」和 <span class="codeph"> 1</span> 表示「正確頁面」。 若是「由右至左」的環境，情況則相反： <span class="codeph"> 0</span> 表示「正確頁面」和 <span class="codeph"> 1</span> 表示「左側頁面」。 </p> <p>若未指定， <span class="codeph"> 0</span> 預設為使用。 當裝置為橫向時忽略。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

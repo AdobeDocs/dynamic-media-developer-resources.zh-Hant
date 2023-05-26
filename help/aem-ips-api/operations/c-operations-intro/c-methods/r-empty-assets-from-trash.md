@@ -1,6 +1,6 @@
 ---
-title: 空AssetsFromTrash
-description: 從IPS垃圾中清空資產。
+title: emptyAssetsFromTrash
+description: 清空IPS垃圾桶中的資產。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
@@ -12,13 +12,13 @@ ht-degree: 8%
 
 ---
 
-# 空AssetsFromTrash{#emptyassetsfromtrash}
+# emptyAssetsFromTrash{#emptyassetsfromtrash}
 
-從IPS垃圾中清空資產。
+清空IPS垃圾桶中的資產。
 
-資產會一直存在垃圾中，直到被人工清空，或者衝出垃圾。 如果手動清空這些檔案，則它們會一直存在「垃圾」中，直到下一個清理作業（通常每晚）才從系統中清除。 如果他們超時清理垃圾，資產會被清理，作為同一清理活動的一部分。 超時是可配置的（預設值為7天）。
+資產會一直留在垃圾桶中，直到手動清空或逾時。 如果手動清空，它們會留在垃圾桶中，直到最後從系統中清除時為止（通常是在夜間）。 如果資產在垃圾桶中逾時，系統會在該清理活動中清理資產。 可設定逾時（預設為7天）。
 
-## 授權用戶類型 {#section-24dee2bf5f9f4714a64955c80f2803b4}
+## 授權的使用者型別 {#section-24dee2bf5f9f4714a64955c80f2803b4}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,22 +33,22 @@ ht-degree: 8%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 公司句柄 | xsd:string | 是 | 擁有資產的公司的手柄。 |
-| assetHandleArray | 類型：HandleArray | 是 | 表示要從垃圾中清空的物品的手柄陣列。 |
+| companyHandle | xsd:string | 是 | 擁有資產的公司的控制代碼。 |
+| assetHandleArray | 型別：HandleArray | 是 | 代表要從垃圾桶清空之專案的控點陣列。 |
 
 **輸出(emptyAssetsFromTrashParam)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 成功計數 | xsd:Int | 是 | 成功從垃圾箱清空的資產數。 |
-| 警告計數 | xsd:Int | 是 | 操作嘗試從垃圾箱清空資產時生成的警告數。 |
-| 錯誤計數 | xsd:Int | 是 | 操作嘗試從垃圾站清空資產時生成的錯誤數。 |
-| 警告DetailArray | 類型：AssetOperationFaultArray | 否 | 與操作嘗試從垃圾箱清空時生成警告的資產關聯的詳細資訊陣列。 |
-| 錯誤DetailArray | 類型：AssetOperationFaultArray | 否 | 與操作嘗試從垃圾箱清空時生成錯誤的資產關聯的詳細資訊陣列。 |
+| successCount | xsd：Int | 是 | 已成功從垃圾桶清空的資產數量。 |
+| warningCount | xsd：Int | 是 | 作業嘗試從垃圾桶清空資產時產生的警告數目。 |
+| errororcount | xsd：Int | 是 | 作業嘗試從垃圾桶清空資產時產生的錯誤數。 |
+| warningDetailArray | 型別：AssetOperationFaultArray | 否 | 與資產關聯的詳細資訊陣列，在作業嘗試從垃圾桶清空資產時產生警告。 |
+| errorDetailArray | 型別：AssetOperationFaultArray | 否 | 與資產關聯的詳細資訊陣列，在操作嘗試從垃圾桶清空資產時產生錯誤。 |
 
 ## 範例 {#section-6154a873b6c342bf92e2036280cafdcf}
 
-此代碼示例使用公司的句柄和資產句柄陣列，該陣列包含要從垃圾箱清空的資產的句柄。
+此程式碼範例使用公司的控制代碼和資產控制代碼陣列，其中包含要從垃圾桶清空的資產控制代碼。
 
 **請求**
 

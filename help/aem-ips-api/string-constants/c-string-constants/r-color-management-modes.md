@@ -1,7 +1,7 @@
 ---
 description: 由ColorManagementOptions/colorManagement使用。
 solution: Experience Manager
-title: 顏色管理模式
+title: 色彩管理模式
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 10e50e6b-7c20-4a31-8e1b-9fa48de74237
@@ -12,7 +12,7 @@ ht-degree: 12%
 
 ---
 
-# 顏色管理模式{#color-management-modes}
+# 色彩管理模式{#color-management-modes}
 
 由ColorManagementOptions/colorManagement使用。
 

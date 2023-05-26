@@ -16,7 +16,7 @@ ht-degree: 24%
 
 語法
 
-## 授權用戶類型 {#section-1f5e2f74aef8408e89ed9ccac8b5b9bc}
+## 授權的使用者型別 {#section-1f5e2f74aef8408e89ed9ccac8b5b9bc}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -29,17 +29,17 @@ ht-degree: 24%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 公司句柄 | `xsd:string` | 是 | 公司的把手。 |
+| companyHandle | `xsd:string` | 是 | 公司的控制代碼。 |
 
 **輸出(getVignettePublishFormatsReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| vignette格式陣列 | `types:VignettePublishFormatArray` | 是 | 視頻發佈格式的陣列。 |
+| vignetteformatArray | `types:VignettePublishFormatArray` | 是 | 暈映發佈格式的陣列。 |
 
 ## 範例 {#section-2cc32b27cc6243b7b3e273cc05996226}
 
-此代碼示例返回與特定公司關聯的兩種視頻發佈格式。 資訊在陣列中返回，該陣列被截斷以便簡化。
+此程式碼範例會傳回與特定公司相關聯的兩個暈映發佈格式。 傳回的資訊會以陣列傳回，為簡短起見，該陣列會遭到截斷。
 
 **請求**
 

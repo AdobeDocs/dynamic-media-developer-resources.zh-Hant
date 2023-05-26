@@ -20,7 +20,7 @@ ht-degree: 23%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td> <p> 啟用或禁用捲動條的使用。 </p> </td> 
+   <td> <p> 啟用或停用卷軸。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,5 +1,5 @@
 ---
-description: 映像映射定義的陣列。
+description: 影像地圖定義的陣列。
 solution: Experience Manager
 title: ImageMapDefinitionArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 25%
 
 # [!DNL ImageMapDefinitionArray]{#imagemapdefinitionarray}
 
-映像映射定義的陣列。
+影像地圖定義的陣列。
 
 語法
 
@@ -22,4 +22,4 @@ ht-degree: 25%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 項目 | `types:ImageMapDefinition` | 映像映射定義的陣列。 |
+| 項目 | `types:ImageMapDefinition` | 影像地圖定義的陣列。 |

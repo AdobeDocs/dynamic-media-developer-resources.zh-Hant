@@ -1,5 +1,5 @@
 ---
-description: 顏色資料類型。
+description: 色彩資料型別。
 solution: Experience Manager
 title: 色彩
 feature: Dynamic Media Classic,SDK/API
@@ -14,6 +14,6 @@ ht-degree: 7%
 
 # 色彩{#color}
 
-顏色資料類型。
+色彩資料型別。
 
-顏色值。 十六進位，已打包的RGB值，可選前面帶有 `0x`。 例如，RGB值 `128,255,0` 可指定為 `0x80ff00` 或 `80ff00` 。
+色彩值。 十六進位、封包RGB值，可選擇在開頭加上 `0x`. 例如，RGB值 `128,255,0` 可指定為 `0x80ff00` 或 `80ff00` .

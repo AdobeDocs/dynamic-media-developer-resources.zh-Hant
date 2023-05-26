@@ -1,5 +1,5 @@
 ---
-description: ICC配置檔案欄位更新項的陣列。
+description: ICC設定檔欄位更新專案的陣列。
 solution: Experience Manager
 title: IccProfileFieldUpdateArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 24%
 
 # [!DNL IccProfileFieldUpdateArray]{#iccprofilefieldupdatearray}
 
-ICC配置檔案欄位更新項的陣列。
+ICC設定檔欄位更新專案的陣列。
 
 語法
 
@@ -22,4 +22,4 @@ ICC配置檔案欄位更新項的陣列。
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 項目 | `types:IccProfileUpdate` | `IccProfileFieldUpdate` 陣列項。 |
+| 項目 | `types:IccProfileUpdate` | `IccProfileFieldUpdate` 陣列專案。 |

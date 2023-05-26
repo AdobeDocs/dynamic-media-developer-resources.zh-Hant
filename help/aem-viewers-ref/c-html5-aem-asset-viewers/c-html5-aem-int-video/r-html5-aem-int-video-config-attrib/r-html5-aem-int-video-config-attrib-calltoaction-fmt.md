@@ -1,6 +1,6 @@
 ---
 title: CallToAction.fmt
-description: Interactive Video Viewer的配置屬性。
+description: 互動式視訊檢視器的設定屬性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # CallToAction.fmt{#calltoaction-fmt}
 
-Interactive Video Viewer的配置屬性。
+互動式視訊檢視器的設定屬性。
 
 `[CallToAction.|<containerId>_callToAction.]fmt=jpg|jpeg|png|png-alpha|gif|gif-alpha`
 
@@ -22,7 +22,7 @@ Interactive Video Viewer的配置屬性。
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td colname="col2"> <p> 指定元件用於從Image Server載入影像的影像格式。 </p> <p>如果指定的格式以"結尾<span class="codeph"> -α</span>」，該元件將影像渲染為透明內容。 對於所有其它影像格式，元件將影像視為不透明。 </p> </td> 
+   <td colname="col2"> <p> 指定元件從影像伺服器載入影像時所用的影像格式。 </p> <p>如果指定的格式結尾為"<span class="codeph"> -alpha</span>「」，元件會將影像呈現為透明內容。 對於所有其他影像格式，元件會將影像視為不透明。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

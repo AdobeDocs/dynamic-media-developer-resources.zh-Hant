@@ -1,5 +1,5 @@
 ---
-description: 使用以下命令對字元進行編碼。
+description: 使用下列命令來編碼字元。
 solution: Experience Manager
 title: 字元編碼
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # 字元編碼{#character-encoding}
 
-使用以下命令對字元進行編碼。
+使用下列命令來編碼字元。
 
 <table id="table_EB0C1B674BEA4A37964FB4BF559E0005"> 
  <thead> 
@@ -26,33 +26,33 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td> <span class="codeph">\'<span class="varname"> HH</span></span> </td> 
-   <td> <p>單個8位字元。 </p> </td> 
-   <td> <p><span class="varname"> HH</span> 必須是2位十六進位值。 </p> </td> 
+   <td> <span class="codeph">\`<span class="varname"> HH</span></span> </td> 
+   <td> <p>單一8位元字元。 </p> </td> 
+   <td> <p><span class="varname"> HH</span> 必須是2位數的十六進位值。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph">\u<span class="varname"> N</span></span> </td> 
-   <td> <p>單個Unicode字元。 </p> </td> 
-   <td> <p><span class="varname"> N</span> 是帶符號的2位元組整數，因此大於32767的Unicode值必須表示為負數。 </p> </td> 
+   <td> <p>單一Unicode字元。 </p> </td> 
+   <td> <p><span class="varname"> N</span> 是有正負號的2位元組整數，因此大於32767的Unicode值必須表示為負數。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph">\uc<span class="varname"> N</span></span> </td> 
    <td> <p>Unicode字元大小。 </p> </td> 
-   <td> <p>與給定的Unicode字元對應的位元組數。 </p> </td> 
+   <td> <p>對應給定Unicode字元的位元組數。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \loc </span> </td> 
-   <td> <p>下面是低ANSI區域的字元。 </p> </td> 
+   <td> <span class="codeph"> \loch </span> </td> 
+   <td> <p>低ANSI區域的字元緊隨其後。 </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \h </span> </td> 
-   <td> <p>後面是高ANSI區域的字元。 </p> </td> 
+   <td> <span class="codeph"> \hich </span> </td> 
+   <td> <p>高ANSI區域的字元緊隨其後。 </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \dbch </span> </td> 
-   <td> <p>後面是雙位元組字元。 </p> </td> 
+   <td> <p>後面跟著雙位元組字元。 </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
  </tbody> 

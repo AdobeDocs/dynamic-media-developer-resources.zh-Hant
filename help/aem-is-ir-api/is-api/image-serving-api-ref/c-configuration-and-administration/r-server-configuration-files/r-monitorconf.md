@@ -1,5 +1,5 @@
 ---
-description: 包含監視/警報系統的設定。
+description: 包含監視/警示系統的設定。
 solution: Experience Manager
 title: monitor.conf
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 2%
 
 # monitor.conf{#monitor-conf}
 
-包含監視/警報系統的設定。
+包含監視/警示系統的設定。
 
-此檔案是JAVA屬性檔案。 必須注意遵守適當的公約；否則 [!DNL Platform Server] 可能無法啟動。 請特別注意，在Windows檔案路徑中，必須使用雙反斜線「\\」或單正斜線「/」，而不是反斜線「\」，因為反斜線在此類檔案中用作轉義字元。
+此檔案是JAVA屬性檔案。 務必遵循適當的慣例；否則 [!DNL Platform Server] 可能無法啟動。 請特別注意，在Windows檔案路徑中，必須使用雙反斜線&#39;\\&#39;或單正斜線&#39;/&#39;，而非反斜線&#39;\&#39;，因為反斜線在此型別的檔案中是用作逸出字元。
 
-對此檔案所做的更改將在檔案保存後不久生效。
+此檔案的變更會在檔案儲存後不久生效。
 
 <table id="simpletable_91557E1162FF4FEC8BE1722D6656CFEE"> 
  <tr class="strow"> 

@@ -1,7 +1,7 @@
 ---
-description: 將資料夾移動到新位置。
+description: 將資料夾移至新位置。
 solution: Experience Manager
-title: 移動資料夾
+title: moveFolder
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: fa31c2d8-912c-4965-8535-cae42f4fcfd9
@@ -12,13 +12,13 @@ ht-degree: 28%
 
 ---
 
-# 移動資料夾{#movefolder}
+# moveFolder{#movefolder}
 
-將資料夾移動到新位置。
+將資料夾移至新位置。
 
 語法
 
-## 授權用戶類型 {#section-7f1979fb5e504bdea3a8df01101b50c3}
+## 授權的使用者型別 {#section-7f1979fb5e504bdea3a8df01101b50c3}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,15 +33,15 @@ ht-degree: 28%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 公司句柄 | `xsd:string` | 是 | 把手交給公司。 |
-| folderHandle | `xsd:string` | 是 | 資料夾句柄。 |
-| destFolderHandle | `xsd:string` | 是 | 目標資料夾的句柄。 |
+| companyHandle | `xsd:string` | 是 | 處理公司。 |
+| folderHandle | `xsd:string` | 是 | 資料夾控制代碼。 |
+| destFolderHandle | `xsd:string` | 是 | 目的地資料夾的處理常式。 |
 
 **輸出(moveFolderReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| folderHandle | `xsd:string` | 是 | 已移動資料夾的句柄。 |
+| folderHandle | `xsd:string` | 是 | 行動資料夾的控點。 |
 
 ## 範例 {#section-6571c6ab89ce4cb9a139abdb29c6b279}
 

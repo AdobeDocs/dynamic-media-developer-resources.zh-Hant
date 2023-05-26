@@ -19,8 +19,8 @@ ht-degree: 3%
 <table id="table_E314540D347D47699C04EB80D20C0721"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 無|縮放|重置|縮放重置 </span> </p> </td> 
-   <td colname="col2"> <p> 配置按兩下/點擊到旋轉操作的映射。 設定為 <span class="codeph"> 無 </span> 禁用按兩下/點擊旋轉。 如果設定為 <span class="codeph"> 縮放 </span>，按一下影像旋轉一步；CTRL+按一下可旋轉一個旋轉步驟。 設定為 <span class="codeph"> 重置 </span> 使按一下影像將旋轉重置為初始旋轉級別。 對於 <span class="codeph"> 縮放重置 </span>，如果當前自旋因子處於或超過指定限制，則應用reset，否則應用自旋。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> none|zoom|reset|zoomReset </span> </p> </td> 
+   <td colname="col2"> <p> 設定按兩下/點選以迴轉動作的對應。 設定為 <span class="codeph"> 無 </span> 停用按兩下/點選迴轉。 若設為 <span class="codeph"> 縮放 </span>，按一下影像會旋轉一個旋轉步驟；按住Ctrl鍵並按一下滑鼠可旋轉一個旋轉步驟。 設定為 <span class="codeph"> 重設 </span> 使得按一下影像即可將迴轉重設為初始迴轉等級。 對象 <span class="codeph"> zoomReset </span>，若目前迴轉因數達到或超過指定限制，則會套用重設，否則會套用迴轉。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -31,7 +31,7 @@ ht-degree: 3%
 
 ## 預設 {#section-7a2128fd488941948aff18421f533ccf}
 
-`reset` 在台式電腦上； `zoomReset` 觸摸設備。
+`reset` 在桌上型電腦上； `zoomReset` 在觸控裝置上。
 
 ## 範例 {#section-622348a84fbe4ff4b5dd7eb53b044d83}
 

@@ -1,5 +1,5 @@
 ---
-description: 包含伺服器主管配置設定。
+description: 包含伺服器監督員組態設定。
 solution: Experience Manager
 title: SupervisorRegistry.xml
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # SupervisorRegistry.xml{#supervisorregistry-xml}
 
-包含伺服器主管配置設定。
+包含伺服器監督員組態設定。
 
-編輯此XML檔案時，請確保維護有效的XML語法，否則映像伺服器可能無法啟動。
+編輯此XML檔案時，請務必維持有效的XML語法，否則影像伺服器可能無法啟動。
 
-編輯此檔案後重新啟動映像服務以確保更改生效。 只支援以下突出顯示的元素/屬性值進行修改。 僅在Dynamic Media技術支援提供建議時編輯此檔案的所有其他內容。
+編輯此檔案後重新啟動「影像伺服」，以確保變更生效。 僅支援修改下面反白顯示的元素/屬性值。 只有在Dynamic Media技術支援提供建議時，才能編輯此檔案的所有其他內容。
 
 ```
 <supervisor>

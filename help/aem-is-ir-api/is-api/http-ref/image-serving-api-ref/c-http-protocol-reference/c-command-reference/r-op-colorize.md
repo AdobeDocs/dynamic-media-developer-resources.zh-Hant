@@ -1,5 +1,5 @@
 ---
-description: 彩色影像。 在保留陰影和高光的同時對影像資料著色。
+description: 將影像上色。 為影像資料上色，同時保留陰影和亮部。
 solution: Experience Manager
 title: op_colorize
 feature: Dynamic Media Classic,SDK/API
@@ -14,65 +14,65 @@ ht-degree: 4%
 
 # op_colorize{#op-colorize}
 
-彩色影像。 在保留陰影和高光的同時對影像資料著色。
+將影像上色。 為影像資料上色，同時保留陰影和亮部。
 
 ` op_colorize= *`顏色`*[,off|norm[, *`對比`*]]`
 
 <table id="simpletable_768D6CDF3F734E7F89DC7AB2EAAC0C77"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> color </span> </p> </td> 
-  <td class="stentry"> <p>替換RGB顏色。 </p> </td> 
+  <td class="stentry"> <p>替代RGB色彩。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> 關閉 </span> </p> </td> 
-  <td class="stentry"> <p>禁用自動亮度補償。 </p> </td> 
+  <td class="stentry"> <p>停用自動亮度補償。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> 范數 </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> 標準 </span> </p> </td> 
   <td class="stentry"> <p>啟用自動亮度補償（預設）。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> 對比 </span> </p> </td> 
-  <td class="stentry"> <p>對比度範圍（實數0.100）;設定為0以保留輸入對比度。 </p> </td> 
+  <td class="stentry"> <p>對比範圍（實數0..100）；設定為0可保留輸入對比。 </p> </td> 
  </tr> 
 </table>
 
-第二個參數指定在著色之前是否應調整源影像的亮度。 指定 `off` 禁用自動亮度補償或 `norm` 自動調整亮度，使中值為50%的強度。
+第二個引數會指定在色彩化之前是否應調整來源影像的亮度。 指定 `off` 停用自動亮度補償或 `norm` 自動調整亮度，使亮度中值達到50%強度。
 
-設定 *`contrast`* 值為0以保留輸入影像的對比度範圍，或指定值大於0的所需對比度範圍。 值 100 會使對比最大化。典型值可能介於30到70之間。
+設定 *`contrast`* 值為0以保留輸入影像的對比度範圍，或使用大於0的值指定所要的對比度範圍。 值 100 會使對比最大化。一般值可能介於30到70之間。
 
-除了內置的亮度和對比度調整， `op_brightness=` 和 `op_contrast=` 可用於進一步微調著色效果。
+除了內建的亮度與對比調整外， `op_brightness=` 和 `op_contrast=` 可用來進一步微調上色效果。
 
 >[!NOTE]
 >
->著色算法只使用影像資料中的亮度資訊。 此灰度轉換簡單且不進行色彩管理。 `op_colorize` 始終輸出RGB資料，即使輸入為灰度或CMYK。
+>彩色化演演算法只使用影像資料中的亮度資訊。 這種灰階轉換非常簡單，而且不會受色彩管理。 `op_colorize` 一律輸出RGB資料，即使輸入為灰階或CMYK亦然。
 
 ## 屬性 {#section-c0f8bd424b864153a1108f384939f55b}
 
-層命令。 應用於當前圖層或複合影像 `layer=comp`。 被效果層忽略。
+圖層指令。 套用至目前圖層或複合影像，如果 `layer=comp`. 被效果圖層忽略。
 
-*`color`* 必須是RGB值；灰色或CMYK *`color`* 不支援值。
+*`color`* 必須是RGB值；灰色或CMYK *`color`* 值不受支援。
 
-的 *`contrast`* 如果亮度補償被關閉，則忽略該值。
+此 *`contrast`* 如果關閉亮度補償，則會忽略值。
 
-*`color`* 假設存在於對應於像素類型的工作顏色空間中 *`color`*。 *`color`* 如果圖層影像在合併時具有不同的像素類型，則精確轉換。
+*`color`* 會假設存在於與下列畫素型別對應的工作色域中 *`color`*. *`color`* 如果圖層影像在合併時具有不同的畫素型別，則會精確轉換。
 
-在應用操作之前，CMYK影像將轉換為RGB。
+CMYK影像會在套用作業之前轉換為RGB。
 
 ## 預設 {#section-0c3ea13efbac432c8970862d223e39b3}
 
-`None`，以免著色。 第二個和第三個參數預設為 `norm,0`，用於自動亮度補償和不改變對比度。
+`None`，表示無色彩化。 第二個和第三個引數預設為 `norm,0`，可進行自動亮度補償，且對比度不會變更。
 
 ## 範例 {#section-4c418d7b5e97409d9a448b8f08a1eab3}
 
-在對影像層著色之前動態調整亮度和對比度：
+在為影像圖層上色之前，動態調整亮度和對比：
 
 … `&op_brightness=-15&op_contrast=22&op_colorize=a0b0c0&`…
 
-改用自動亮度和對比度調整：
+請改用自動亮度及對比度調整：
 
 … `&op_colorize=a0b0c0,norm,50&`…
 
 ## 另請參閱 {#section-5581eb0e03014fa795e8f078c60e6c8d}
 
-[顏色](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md)。 [op_brightness=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-brightness.md#reference-edf79dc41ae5411c80bec3ee3731c58a)。 [op_contrast=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-contrast.md#reference-b26dfa9869fd43bebea0fbb8e9fe743d)。 [色彩管理](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-color-management.md#reference-c7e4a72d589145189f7e4bcb6b4544d7)
+[顏色](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md)， [op_brightness=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-brightness.md#reference-edf79dc41ae5411c80bec3ee3731c58a)， [op_contrast=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-contrast.md#reference-b26dfa9869fd43bebea0fbb8e9fe743d)， [色彩管理](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-color-management.md#reference-c7e4a72d589145189f7e4bcb6b4544d7)

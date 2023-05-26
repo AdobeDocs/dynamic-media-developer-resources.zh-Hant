@@ -1,6 +1,6 @@
 ---
 title: Video360Player.ssl
-description: Video360查看器的配置屬性。
+description: Video360 Viewer的設定屬性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 5%
 
 # Video360Player.ssl{#video-player-ssl}
 
-Video360查看器的配置屬性。
+Video360 Viewer的設定屬性。
 
 <!-- >[!NOTE]
 >
@@ -26,7 +26,7 @@ Video360查看器的配置屬性。
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 自動|開啟</span> </p> </td> 
-   <td colname="col2"> <p> 控制視頻是通過安全SSL連接(HTTPS)還是不安全連接(HTTP)傳送的。 </p> <p>設定為時 <span class="codeph"> 自動</span> 視頻傳送協定從嵌入網頁的協定中繼承。 如果網頁是通過HTTPS載入的，則視頻也是通過HTTPS傳送的，反之也是通過HTTPS傳送的。 如果網頁在HTTP上，則通過HTTP傳送視頻。 </p> <p>設定為時 <span class="codeph"> 上</span>，視頻傳輸始終通過安全連接進行，而不考慮網頁協定。 </p> <p>僅影響已發佈的視頻傳送，在「作者」模式下，將忽略視頻預覽。 </p> </td> 
+   <td colname="col2"> <p> 控制視訊是透過安全SSL連線(HTTPS)或不安全連線(HTTP)傳送。 </p> <p>當設定為 <span class="codeph"> 自動</span> 視訊傳送通訊協定繼承自內嵌網頁的通訊協定。 如果網頁是透過HTTPS載入，影片也會透過HTTPS傳送，反之亦然。 如果網頁位於HTTP上，則會透過HTTP傳送影片。 </p> <p>當設定為 <span class="codeph"> 於</span>，無論網頁通訊協定為何，影片傳送一律會透過安全連線進行。 </p> <p>只會影響已發佈的視訊傳送，且在作者模式中預覽視訊時會被忽略。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -47,4 +47,4 @@ ssl=on
 
 <!--<a id="section_5943AC73316749C68761FF7F74DA7547"></a>-->
 
-另請參閱 [安全視頻傳送](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-securevideodelivery.md#concept-13f66fdd4a52494aa516cd0f36fdac27)。
+另請參閱 [安全視訊傳送](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-securevideodelivery.md#concept-13f66fdd4a52494aa516cd0f36fdac27).

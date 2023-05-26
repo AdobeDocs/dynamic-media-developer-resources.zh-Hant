@@ -1,6 +1,6 @@
 ---
-title: 用於Smart Crop Video Viewer的JavaScript API參考
-description: Smart Crop Video Viewer的主類是SmartCropVideoViewer。 它在s7vievers命名空間中聲明。 此JavaScript API涵蓋此特定類的建構子、方法和回調。
+title: 智慧型裁切視訊檢視器的JavaScript API參考
+description: 智慧型裁切視訊檢視器的主要類別為SmartCropVideoViewer。 會在s7viewers名稱空間中宣告。 此JavaScript API涵蓋此特定類別的建構函式、方法和回呼。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# 用於Smart Crop Video Viewer的JavaScript API參考{#javascript-api-reference-for-smartcrop-video-viewer}
+# 智慧型裁切視訊檢視器的JavaScript API參考{#javascript-api-reference-for-smartcrop-video-viewer}
 
-Smart Crop Video Viewer的主類是SmartCropVideoViewer。 它在s7vievers命名空間中聲明。 此JavaScript API涵蓋此特定類的建構子、方法和回調。
+智慧型裁切視訊檢視器的主要類別為SmartCropVideoViewer。 會在s7viewers名稱空間中宣告。 此JavaScript API涵蓋此特定類別的建構函式、方法和回呼。
 
-在以下所有示例中， `<instance>` 是從 `s7viewers.SmartCropVideoViewer` 類。
+在下列所有範例中， `<instance>` 是從具現化的JavaScript檢視器物件的實際名稱 `s7viewers.SmartCropVideoViewer` 類別。

@@ -1,5 +1,5 @@
 ---
-description: 返回組的成員。
+description: 傳回群組的成員。
 solution: Experience Manager
 title: getGroupMembership
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 20%
 
 # getGroupMembership{#getgroupmembership}
 
-返回組的成員。
+傳回群組的成員。
 
 語法
 
-## 授權用戶類型 {#section-35d070e5c4d74ca69df508368953cfb8}
+## 授權的使用者型別 {#section-35d070e5c4d74ca69df508368953cfb8}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,18 +34,18 @@ ht-degree: 20%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| userHandle | `xsd:string` | 否 | 用戶的句柄。 |
-| 公司句柄 | `xsd:string` | 否 | 公司的把手。 |
+| userHandle | `xsd:string` | 否 | 使用者的控制代碼。 |
+| companyHandle | `xsd:string` | 否 | 公司的控制代碼。 |
 
 **輸出(getGroupMembershipReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 組陣列 | `types:GroupArray` | 是 | 組陣列。 |
+| groupArray | `types:GroupArray` | 是 | 群組陣列。 |
 
 ## 範例 {#section-ebb437369f4f4487b3eb2ef0c078b8ae}
 
-此代碼示例返回組的所有成員。 由於公司和用戶句柄是可選的，因此該操作可以返回所有組的所有成員。
+此程式碼範例會傳回群組的所有成員。 由於公司和使用者控制代碼是選用的，因此操作可傳回所有群組的所有成員。
 
 **請求**
 

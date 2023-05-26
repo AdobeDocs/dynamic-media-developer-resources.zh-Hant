@@ -1,6 +1,6 @@
 ---
 title: Video360Player.autoplay
-description: Video360查看器的配置屬性。
+description: Video360 Viewer的設定屬性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 20%
 
 # Video360Player.autoplay{#video-player-autoplay}
 
-Video360查看器的配置屬性。
+Video360 Viewer的設定屬性。
 
 `[Video360Player.|<containerId>_video360Player.]autoplay=0|1`
 
@@ -22,7 +22,7 @@ Video360查看器的配置屬性。
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 指示查看器是否在載入時開始播放視頻。 某些系統（如某些移動設備）可能不支援自動播放。 </p> </td> 
+   <td colname="col2"> <p> 指出檢視器在載入時是否開始播放視訊。 某些系統（例如某些行動裝置）可能不支援自動播放。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,7 +1,7 @@
 ---
-description: 反向圖層剪輯路徑。 指定當前圖層的排除剪輯路徑。 圖層中位於由clipXPath=定義的區域內的任何部分都呈透明狀態。
+description: 反轉的圖層剪裁路徑。 指定目前圖層的排除剪裁路徑。 在clipXPath=所定義區域內的任何圖層部分都會呈現為透明。
 solution: Experience Manager
-title: 剪輯XPath
+title: clipXPath
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7d7e92f5-856f-4d62-a5d3-4726d7b43792
@@ -12,13 +12,13 @@ ht-degree: 3%
 
 ---
 
-# 剪輯XPath{#clipxpath}
+# clipXPath{#clipxpath}
 
-反向圖層剪輯路徑。 指定當前圖層的排除剪輯路徑。 圖層中位於由clipXPath=定義的區域內的任何部分都呈透明狀態。
+反轉的圖層剪裁路徑。 指定目前圖層的排除剪裁路徑。 在clipXPath=所定義區域內的任何圖層部分都會呈現為透明。
 
 `clipXPath= *`pathDefinition`*`
 
-`clipXPathE= *`路徑名`*&#42;[, *`路徑名`*]`
+`clipXPathE= *`pathName`*&#42;[, *`pathName`*]`
 
 <table id="simpletable_27AFC3A694874CF8B673460820EFD90D"> 
  <tr class="strow"> 
@@ -26,16 +26,16 @@ ht-degree: 3%
   <td class="stentry"> <p>路徑資料。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> 路徑名</span> </span> </p> </td> 
-  <td class="stentry"> <p>層源影像中嵌入的路徑的名稱（僅限ASCII）。 </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> pathName</span> </span> </p> </td> 
+  <td class="stentry"> <p>內嵌在圖層來源影像中的路徑名稱（僅限ASCII）。 </p></td> 
  </tr> 
 </table>
 
-請參閱 [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d) 有關其他資訊，包括 `*`路徑名`*` 和 `*`pathDefinition`*`。
+另請參閱 [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d) 以取得其他資訊，包括 `*`pathName`*` 和 `*`pathDefinition`*`.
 
 ## 屬性 {#section-acf7272ba93a4bbba818b8e6aa4dcea5}
 
-層屬性。 應用於當前圖層或複合影像 `layer=comp`。 如果忽略 `clipPath=` 未指定。 被效果層忽略。
+圖層屬性。 套用至目前圖層或複合影像，如果 `layer=comp`. 忽略條件 `clipPath=` 未指定。 被效果圖層忽略。
 
 ## 預設 {#section-d1986aa31af14767aeb1b4a57add67f4}
 

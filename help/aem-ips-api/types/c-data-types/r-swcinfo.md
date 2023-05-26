@@ -24,4 +24,4 @@ SWC檔案資產的屬性。
 |---|---|---|
 | 原始路徑 | `xsd:string` | SWC檔案的路徑。 |
 | 原始檔案 | `xsd:string` | 檔案名稱. |
-| 檔案大小 | `xsd:int` | 檔案大小。 |
+| fileSize | `xsd:int` | 檔案大小。 |

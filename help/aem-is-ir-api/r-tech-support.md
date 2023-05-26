@@ -1,5 +1,5 @@
 ---
-description: 使用以下內容與技術支援聯繫。
+description: 使用下列專案聯絡技術支援。
 solution: Experience Manager
 title: 技術支援
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 技術支援{#technical-support}
 
-使用以下內容與技術支援聯繫。
+使用下列專案聯絡技術支援。
 
-* **電話** - 800-898-9743，美國太平洋時間，星期一至星期五，除節假日外。
+* **電話** - 800-898-9743，美國太平洋時間，週一至週五，06:00至18:00，節假日除外。
 * **建立支援案例** - [https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)

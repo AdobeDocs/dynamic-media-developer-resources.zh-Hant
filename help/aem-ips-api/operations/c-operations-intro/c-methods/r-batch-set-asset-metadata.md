@@ -1,5 +1,5 @@
 ---
-description: 使用批模式設定資產元資料。
+description: 使用批次模式設定資產中繼資料。
 solution: Experience Manager
 title: batchSetAssetMetadata
 feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
@@ -14,11 +14,11 @@ ht-degree: 13%
 
 # batchSetAssetMetadata{#batchsetassetmetadata}
 
-使用批模式設定資產元資料。
+使用批次模式設定資產中繼資料。
 
 語法
 
-## 授權用戶類型 {#section-5310d9fd00604cbf9756944900378855}
+## 授權的使用者型別 {#section-5310d9fd00604cbf9756944900378855}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,18 +33,18 @@ ht-degree: 13%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 公司句柄 | `xsd:string` | 是 | 要在批處理操作中設定其元資料的公司的句柄。 |
-| 更新陣列 | `types:BatchMetadataUpdateArray` | 是 | 應用於資產的元資料更新陣列。 |
+| companyHandle | `xsd:string` | 是 | 要在批次作業中設定其中繼資料之公司的控制代碼。 |
+| updatearray | `types:BatchMetadataUpdateArray` | 是 | 套用至資產的中繼資料更新陣列。 |
 
 **輸出(batchSetAssetMetadataParam)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 成功計數 | `xsd:int` | 是 | 成功設定元資料的數量。 |
-| 警告計數 | `xsd:int` | 是 | 嘗試設定元資料時生成的警告數。 |
-| 錯誤計數 | `xsd:int` | 是 | 嘗試設定元資料時生成的錯誤數。 |
-| 警告DetailArray | `types:AssetOperationFaultArray` | 否 | 當操作嘗試批處理設定資產的元資料時，與資產關聯的詳細資訊陣列生成警告。 |
-| 錯誤DetailArray | `types:AssetOperationFaultArray` | 否 | 與在操作嘗試為資產批處理設定元資料時生成錯誤的資產關聯的詳細資訊陣列。 |
+| successCount | `xsd:int` | 是 | 成功設定中繼資料的數目。 |
+| warningCount | `xsd:int` | 是 | 作業嘗試設定中繼資料時產生的警告數目。 |
+| errororcount | `xsd:int` | 是 | 作業嘗試設定中繼資料時產生的錯誤數。 |
+| warningDetailArray | `types:AssetOperationFaultArray` | 否 | 當作業嘗試批次設定資產的中繼資料時，與產生警告的資產相關聯的詳細資訊陣列。 |
+| errorDetailArray | `types:AssetOperationFaultArray` | 否 | 與資產關聯的詳細資訊陣列，在作業嘗試批次設定資產的中繼資料時產生錯誤。 |
 
 ## 範例 {#section-2de798ac920e4b47b971b1729a64395b}
 

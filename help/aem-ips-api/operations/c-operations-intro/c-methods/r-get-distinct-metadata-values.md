@@ -1,7 +1,7 @@
 ---
-description: 返回元資料欄位的所有值。
+description: 傳回中繼資料欄位的所有值。
 solution: Experience Manager
-title: getDistinctMetadataValues
+title: getdistinctmetadataValues
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 1987d8b0-64e4-49be-af45-98e4c6542e5f
@@ -12,13 +12,13 @@ ht-degree: 24%
 
 ---
 
-# getDistinctMetadataValues{#getdistinctmetadatavalues}
+# getdistinctmetadataValues{#getdistinctmetadatavalues}
 
-返回元資料欄位的所有值。
+傳回中繼資料欄位的所有值。
 
 語法
 
-## 授權用戶類型 {#section-f0f44fdcb318490582dd04de8eaf745d}
+## 授權的使用者型別 {#section-f0f44fdcb318490582dd04de8eaf745d}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,14 +34,14 @@ ht-degree: 24%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 公司句柄 | `xsd:string` | 是 | 要獲取資料的公司的句柄。 |
-| 元資料密鑰 | `xsd:string` | 是 | 以點表示法表示的元資料鍵。 |
+| companyHandle | `xsd:string` | 是 | 您要取得其資料之公司的控制代碼。 |
+| metadataKey | `xsd:string` | 是 | 點標籤法中的中繼資料索引鍵。 |
 
 **輸出(getDistinctMetadataValuesReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 值陣列 | `types:ValueArray` | 是 | 請求的元資料欄位的值。 |
+| valueArray | `types:ValueArray` | 是 | 請求的中繼資料欄位的值。 |
 
 ## 範例 {#section-0189fa6fb31646cda5ce1b0bc4fcdf46}
 

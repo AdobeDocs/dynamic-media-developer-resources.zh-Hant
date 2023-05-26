@@ -1,5 +1,5 @@
 ---
-description: 啟用FXG的優化。
+description: 啟用FXG的最佳化。
 solution: Experience Manager
 title: enableVisibleAttributeOptimization
 feature: Dynamic Media Classic,SDK/API
@@ -14,15 +14,15 @@ ht-degree: 3%
 
 # enableVisibleAttributeOptimization{#enablevisibleattributeoptimization}
 
-啟用FXG的優化。
+啟用FXG的最佳化。
 
 <table id="simpletable_FDE0D8786BC747AF87A336452500E695"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> &amp;enableVisibleAttributeOptimization</span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> Enablevisibleattributeoptimization(&amp;E)</span> </p> </td> 
   <td class="stentry"> <p>0|1 </p></td> 
  </tr> 
 </table>
 
-在傳遞此FXG時刪除其可見性在FXG中設定為false的元素，這進而減少了FXG的處理時間。 儘管它只刪除那些可視性為false且不會影響FXG中任何其他元素的元素。 例如，如果上有文本 `Path` 和能見度 `Path` 設定為false，則即使啟用了此修飾符，也不會從FXG中刪除它，因為需要在此路徑上繪製文本。
+移除在FXG中可見度設為false的元素，同時傳遞此FXG，進而減少FXG的處理時間。 但只會移除可見度顯示為false的元素，而不會影響FXG中的任何其他元素。 例如，如果文字位於 `Path` 和可見度 `Path` 設為false，則即使啟用此修飾元，也不會從FXG中移除它，因為需要在此路徑上繪製文字。
 
 預設為 1。

@@ -14,13 +14,13 @@ ht-degree: 10%
 
 # ZoomView.rgnN{#zoomview-rgnn}
 
-` [ZoomView.|<containerId>_zoomView.]rgnN= `x`, `y`, `寬`, `h
+` [ZoomView.|<containerId>_zoomView.]rgnN= `x`, `y`, `w`, `h」
 
 <table id="table_DEA0A957BC624857B7C0A88DC75DE025"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> x</span>。<span class="codeph"> y</span>。<span class="codeph"> 寬</span>。<span class="codeph"> h</span> </p> </td> 
-   <td colname="col2"> <p> 歸一化坐標中的初始感興趣區域。 如果未指定此值，則整個影像將適合在初始視區中。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> x</span>，<span class="codeph"> y</span>，<span class="codeph"> w</span>，<span class="codeph"> h</span> </p> </td> 
+   <td colname="col2"> <p> 以標準化座標表示的初始興趣區域。 如果未指定此值，則整個影像會符合初始檢視區。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

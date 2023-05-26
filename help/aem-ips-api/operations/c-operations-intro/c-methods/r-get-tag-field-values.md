@@ -1,5 +1,5 @@
 ---
-description: 獲取為一個或多個標籤欄位定義的所有標籤字典值。
+description: 取得為一個或多個標籤欄位定義的所有標籤字典值。
 solution: Experience Manager
 title: getTagFieldValues
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 18%
 
 # getTagFieldValues{#gettagfieldvalues}
 
-獲取為一個或多個標籤欄位定義的所有標籤字典值。
+取得為一個或多個標籤欄位定義的所有標籤字典值。
 
 語法
 
-## 授權用戶類型 {#section-cc36a437394c491594e704a08a161c87}
+## 授權的使用者型別 {#section-cc36a437394c491594e704a08a161c87}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -36,14 +36,14 @@ ht-degree: 18%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 公司句柄 | `xsd:string` | 是 | 包含標籤欄位的公司句柄。 |
-| 欄位HandleArray | `types:HandleArray` | 是 | 要返回的標籤值的欄位句柄陣列。 |
+| companyHandle | `xsd:string` | 是 | 包含標籤欄位之公司的控制代碼。 |
+| fieldHandleArray | `types:HandleArray` | 是 | 標籤要傳回之值的欄位控制代碼陣列。 |
 
 **輸出(getTagFieldValuesReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 欄位陣列 | `types:TagFieldValuesArray` | 是 | 字典中每個請求欄位的標籤值的陣列。 |
+| fieldArray | `types:TagFieldValuesArray` | 是 | 字典中每個請求欄位的標籤值陣列。 |
 
 ## 範例 {#section-4492742614e44bb191a7d397dc1a1407}
 

@@ -1,6 +1,6 @@
 ---
-title: 資產作業日誌陣列
-description: 資產作業日誌的陣列。
+title: AssetJobLogArray
+description: 資產作業記錄陣列。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 27%
 
 # [!DNL AssetJobLogArray]{#assetjoblogarray}
 
-資產作業日誌的陣列。
+資產作業記錄陣列。
 
 語法
 
@@ -22,4 +22,4 @@ ht-degree: 27%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 項目 | `types:AssetJobLog` | 資產作業日誌的陣列。 |
+| 項目 | `types:AssetJobLog` | 資產作業記錄陣列。 |

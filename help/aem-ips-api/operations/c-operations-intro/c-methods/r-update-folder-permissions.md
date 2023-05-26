@@ -1,5 +1,5 @@
 ---
-description: 更新資料夾權限。
+description: 更新檔案夾許可權。
 solution: Experience Manager
 title: updateFolderPermissions
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 19%
 
 # updateFolderPermissions{#updatefolderpermissions}
 
-更新資料夾權限。
+更新檔案夾許可權。
 
 語法
 
-## 授權用戶類型 {#section-e5c2217231bf4b3386e0ab3f2e9aca0b}
+## 授權的使用者型別 {#section-e5c2217231bf4b3386e0ab3f2e9aca0b}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -30,14 +30,14 @@ ht-degree: 19%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 公司句柄 | `xsd:string` | 是 | 公司負責。 |
-| folderHandle | `xsd:string` | 是 | 資料夾句柄。 |
-| 更新子項 | `xsd:boolean` | 是 | 確定是否使用為頂級資料夾設定的權限更新子級。 |
-| 更新陣列 | `types:PermissionUpdateArray` | 是 | 要應用到資料夾的權限更新陣列。 |
+| companyHandle | `xsd:string` | 是 | 公司控點。 |
+| folderHandle | `xsd:string` | 是 | 資料夾控制代碼。 |
+| updateChilds | `xsd:boolean` | 是 | 決定是否使用為頂層檔案夾設定的許可權更新子系。 |
+| updatearray | `types:PermissionUpdateArray` | 是 | 您要套用至資料夾的許可權更新陣列。 |
 
 **輸出(updateFolderPermissionsReturn)**
 
-IPS API不會為此操作返迴響應。
+IPS API未傳回此作業的回應。
 
 ## 範例 {#section-c3fe4d4388674870a3856c35ef66b631}
 

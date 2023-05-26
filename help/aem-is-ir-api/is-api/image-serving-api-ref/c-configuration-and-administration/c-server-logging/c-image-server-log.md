@@ -1,7 +1,7 @@
 ---
-description: 映像伺服器將記錄寫入此日誌檔案以記錄警告和錯誤並保留啟動和關閉事件的記錄。
+description: 影像伺服器會將記錄寫入此記錄檔，以記錄警告和錯誤，並記錄啟動和關閉事件。
 solution: Experience Manager
-title: 映像伺服器日誌
+title: 影像伺服器記錄
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: bf5d1e3c-fed3-4145-8b7a-e85b986df641
@@ -12,10 +12,10 @@ ht-degree: 0%
 
 ---
 
-# 映像伺服器日誌{#image-server-log}
+# 影像伺服器記錄{#image-server-log}
 
-映像伺服器將記錄寫入此日誌檔案以記錄警告和錯誤並保留啟動和關閉事件的記錄。
+影像伺服器會將記錄寫入此記錄檔，以記錄警告和錯誤，並記錄啟動和關閉事件。
 
-此外，映像伺服器日誌可配置為跟蹤大量其他詳細資訊，以幫助調試伺服器問題。
+此外，影像伺服器記錄檔可設定為追蹤大量其他詳細資訊（例如影像檔案存取），以協助偵錯伺服器問題。
 
-映像伺服器日誌配置在 [!DNL ImageServerRegistry.xml]。
+影像伺服器記錄檔設定於 [!DNL ImageServerRegistry.xml].

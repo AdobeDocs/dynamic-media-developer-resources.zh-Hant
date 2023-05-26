@@ -20,7 +20,7 @@ ht-degree: 21%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 在調整旋鈕位置時啟用或禁用播放氣泡的時間。 </p> </td> 
+   <td colname="col2"> <p> 在調整旋鈕位置時啟用或停用時間播放泡泡。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

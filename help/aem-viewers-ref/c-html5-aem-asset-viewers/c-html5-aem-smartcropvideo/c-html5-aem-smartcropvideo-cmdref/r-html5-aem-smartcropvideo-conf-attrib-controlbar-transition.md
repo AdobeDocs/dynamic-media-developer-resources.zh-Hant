@@ -1,6 +1,6 @@
 ---
 title: ControlBar.transition
-description: Smart Crop Video Viewer的配置屬性。
+description: 智慧型裁切視訊檢視器的設定屬性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
@@ -14,23 +14,23 @@ ht-degree: 2%
 
 # ControlBar.transition{#controlbar-transition}
 
-Smart Crop Video Viewer的配置屬性。
+智慧型裁切視訊檢視器的設定屬性。
 
-` [ControlBar.|<containerId>_controls.]transition=none|fade[, *`延遲隱藏`*[, *`持續時間`*]`
+` [ControlBar.|<containerId>_controls.]transition=none|fade[, *`delaytohide`*[, *`持續時間`*]`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 無|淡入</span> </p> </td> 
-   <td colname="col2"> <p> 指定用於顯示或隱藏控制欄及其內容的效果類型。 </p> <p>使用 <span class="codeph"> 無</span> 即時展示和隱藏。 使用 <span class="codeph"> 淡</span> 提供漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸漸。 </p> <p>Internet Explorer 8不支援淡出。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> none|fade</span> </p> </td> 
+   <td colname="col2"> <p> 指定用來顯示或隱藏控制列及其內容的效果型別。 </p> <p>使用 <span class="codeph"> 無</span> 以立即顯示和隱藏。 使用 <span class="codeph"> 淡化</span> 提供逐漸淡入和淡出效果。 </p> <p>Internet Explorer 8不支援淡化。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 延遲隱藏</span> </span> </p> </td> 
-   <td colname="col2"> <p>指定控制欄註冊的上次滑鼠/觸摸事件與時間控制欄隱藏的時間之間的時間（秒）。 </p> <p> 如果設定為 <span class="codeph"> -1</span>，元件從不觸發其自動隱藏效果，並始終在螢幕上保持可見。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> delaytohide</span> </span> </p> </td> 
+   <td colname="col2"> <p>指定控制列註冊的最後一個滑鼠/觸控事件與控制列隱藏的時間之間的時間（以秒為單位）。 </p> <p> 若設為 <span class="codeph"> -1</span>，元件絕不會觸發其自動隱藏效果，且一律會顯示在熒幕上。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 持續時間</span> </span> </p> </td> 
-   <td colname="col2"> <p>設定淡入淡出動畫的持續時間（秒）。 </p> </td> 
+   <td colname="col2"> <p>設定淡入和淡出動畫的持續時間（秒）。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

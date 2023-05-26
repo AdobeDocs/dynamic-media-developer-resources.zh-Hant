@@ -1,6 +1,6 @@
 ---
 title: 檔案格式
-description: 目錄屬性檔案和目錄資料檔案都是純文字檔案檔案。
+description: 目錄屬性檔案和目錄資料檔案都是純文字檔案。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,4 +14,4 @@ ht-degree: 14%
 
 # 檔案格式{#file-formats}
 
-目錄屬性檔案和目錄資料檔案都是純文字檔案檔案。
+目錄屬性檔案和目錄資料檔案都是純文字檔案。

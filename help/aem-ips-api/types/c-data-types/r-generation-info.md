@@ -1,7 +1,7 @@
 ---
 description: PostScript檔案屬性。
 solution: Experience Manager
-title: 生成資訊
+title: GenerationInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9aac2973-bbcb-4914-9bf9-203f0357527c
@@ -22,7 +22,7 @@ PostScript檔案屬性。
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| [!DNL engine] | `xsd:string` | 使用的生成引擎（有關值，請參閱「生成資訊」）。 |
-| [!DNL originator] | `types:Asset` | 生成中使用的主要資產的資產記錄。 |
-| [!DNL generated] | `types:Asset` | 生成的資產的資產記錄。 |
-| 屬性陣列 | `types:GenerationAttributeArray` | 與生成進程關聯的屬性陣列。 |
+| [!DNL engine] | `xsd:string` | 使用的產生引擎（請參閱「產生資訊」以瞭解值）。 |
+| [!DNL originator] | `types:Asset` | 產生中使用的主要資產的資產記錄。 |
+| [!DNL generated] | `types:Asset` | 所產生資產的資產記錄。 |
+| 屬性陣列 | `types:GenerationAttributeArray` | 與產生程式相關聯的屬性陣列。 |

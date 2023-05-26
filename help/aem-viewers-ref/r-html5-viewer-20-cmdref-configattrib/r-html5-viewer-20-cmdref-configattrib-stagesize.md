@@ -1,6 +1,6 @@
 ---
-title: 階段大小
-description: 階段大小
+title: stageSize
+description: stageSize
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
@@ -12,19 +12,19 @@ ht-degree: 6%
 
 ---
 
-# 階段大小{#stagesize}
+# stageSize{#stagesize}
 
 >[!NOTE]
 >
->此屬性適用於縮放查看器、視頻查看器、旋轉查看器、互動式影像查看器、互動式視頻查看器和旋轉選取器查看器。
+>此屬性適用於「縮放檢視器」、「視訊檢視器」、「迴轉檢視器」、「互動式影像檢視器」、「互動式視訊檢視器」和「轉盤檢視器」。
 
 `stageSize= *`寬度`*, *`高度`*`
 
 <table id="table_0070E5402099428DBEA2A900CADB2BAA"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> 寬度</span>。<span class="varname"> 高度</span></span> </p> </td> 
-   <td colname="col2"> <p> 查看器的總寬度和高度。 值 <span class="codeph"> 0,0</span> 表示查看器的大小是根據CSS規則和網頁佈局確定的。 </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> 寬度</span>，<span class="varname"> 高度</span></span> </p> </td> 
+   <td colname="col2"> <p> 檢視器的整體寬度和高度。 的值 <span class="codeph"> 0,0</span> 表示檢視器的大小會根據CSS規則和網頁版面配置而定。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,7 +1,7 @@
 ---
-description: 除了公共圖層命令外，這些命令還適用於實色圖層。
+description: 除了常見的圖層指令外，這些指令還適用於純色圖層。
 solution: Experience Manager
-title: 實色層命令
+title: 純色圖層指令
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e7a14c5f-9479-4df0-beef-c5792dcc5a25
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 ---
 
-# 實色層命令{#solid-color-layer-commands}
+# 純色圖層指令{#solid-color-layer-commands}
 
-除了公共圖層命令外，這些命令還適用於實色圖層。
+除了常見的圖層指令外，這些指令還適用於純色圖層。
 
 <table id="simpletable_4E563E4C797E45F390340258170BDCE4"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e" type="reference" format="dita" scope="local"> 掩模</a> </p> </td> 
-  <td class="stentry"> <p>指定可選圖層蒙版。 </p></td> 
+  <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e" type="reference" format="dita" scope="local"> 遮色片</a> </p> </td> 
+  <td class="stentry"> <p>指定選用的圖層遮色片。 </p></td> 
  </tr> 
 </table>

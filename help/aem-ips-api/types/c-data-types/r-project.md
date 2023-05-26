@@ -1,7 +1,7 @@
 ---
-description: 指定資產集。
+description: 已命名資產集。
 solution: Experience Manager
-title: 項目
+title: 專案
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: be85f9b7-07a0-42e9-8391-45371a1ecaa6
@@ -14,7 +14,7 @@ ht-degree: 28%
 
 # [!DNL Project]{#project}
 
-指定資產集。
+已命名資產集。
 
 語法
 
@@ -22,5 +22,5 @@ ht-degree: 28%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 項目句柄 | `xsd:string` | 項目句柄。 |
-| name | `xsd:string` | 項目名稱。 |
+| 專案控制代碼 | `xsd:string` | 專案控制代碼。 |
+| name | `xsd:string` | 專案名稱。 |

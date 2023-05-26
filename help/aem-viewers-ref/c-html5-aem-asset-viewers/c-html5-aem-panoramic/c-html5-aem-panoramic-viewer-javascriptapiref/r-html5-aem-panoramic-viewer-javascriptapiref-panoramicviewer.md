@@ -1,6 +1,6 @@
 ---
-title: 全景查看器
-description: 建構子，建立新的HTML5 Carousel查看器實例。
+title: 全景檢視器
+description: 建構函式，建立新的HTML5轉盤檢視器例項。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
@@ -11,20 +11,20 @@ ht-degree: 3%
 
 ---
 
-# 全景查看器{#panoramicviewer}
+# 全景檢視器{#panoramicviewer}
 
 `PanoramicViewer([config])`
-建構子，建立新的HTML5 Panoramic Viewer實例。
+建構函式，建立新的HTML5全景檢視器例項。
 
 ## 參數 {#section-fa807db629ce43bab286b1e1dc96c492}
 
-config {Object}可選JSON配置對象，允許將所有查看器設定傳遞給建構子，並避免調用單個setter方法。 包含以下屬性：
-* containerId — 插入查看器的DOM容器（通常為DIV）的{String} ID。 不必在調用此方法時建立容器元素，但執行init()時必須存在容器。 必要
-* params - {Object} JSON對象，帶有查看器配置參數，其中屬性名稱是特定於查看器的配置選項或SDK修飾符，該屬性的值是相應的設定值。 必要
-* 處理程式 — 具有查看器事件回調的{Object} JSON對象，其中屬性名稱是支援的查看器事件的名稱，屬性值是對相應回調的JavaScript函式引用。 有關查看器事件的詳細資訊，請參閱「事件回調」部分。 選擇性
+設定{Object}選用的JSON設定物件，允許將所有檢視器設定傳遞至建構函式，並避免呼叫個別setter方法。 包含以下屬性：
+* containerId — 檢視器插入的DOM容器（通常是DIV）的{String} ID。 不需要在呼叫此方法時建立container元素，但是在執行init()時容器必須存在。 必要
+* params — 具有檢視器組態引數的{Object} JSON物件，其中屬性名稱為檢視器特定的組態選項或SDK修飾元，且該屬性的值為對應的設定值。 必要
+* 處理常式 — 具有檢視器事件回呼的{Object} JSON物件，其中屬性名稱是支援的檢視器事件的名稱，屬性值是對適當回呼的JavaScript函式參考。 如需檢視器事件的詳細資訊，請參閱事件回呼區段。 選擇性
 
 
-## 返回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## 傳回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 無。
 

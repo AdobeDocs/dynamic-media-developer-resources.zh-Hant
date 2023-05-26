@@ -1,5 +1,5 @@
 ---
-description: 獲取陣列中的所有用戶。
+description: 取得陣列中的所有使用者。
 solution: Experience Manager
 title: getAllUsers
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 24%
 
 # getAllUsers{#getallusers}
 
-獲取陣列中的所有用戶。
+取得陣列中的所有使用者。
 
 語法
 
-## 授權用戶類型 {#section-68ed5f5fcc5348308dfe074c590caeaa}
+## 授權的使用者型別 {#section-68ed5f5fcc5348308dfe074c590caeaa}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -45,8 +45,8 @@ ht-degree: 24%
    <td colname="col3"> 是 </td> 
    <td colname="col4">設定為： 
     <ul id="ul_FB9F59A8293B4CCA98E42EBF8412C77B"> 
-     <li id="li_3C2E6C4D3478411FA1A34D5CBFFC8108"><span class="codeph"> 真</span> 包含無效用戶。 </li> 
-     <li id="li_7FCA0DE4BE2248A690076FEC6854F5CE"><span class="codeph"> 假</span> 以忽略無效用戶。 </li> 
+     <li id="li_3C2E6C4D3478411FA1A34D5CBFFC8108"><span class="codeph"> true</span> 以包含無效的使用者。 </li> 
+     <li id="li_7FCA0DE4BE2248A690076FEC6854F5CE"><span class="codeph"> false</span> 以忽略無效的使用者。 </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -56,12 +56,12 @@ ht-degree: 24%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 用戶陣列 | `types:UserArray` | 是 | 所有用戶的陣列。 |
-| 代碼短語 | `Code Phrase` |  |  |
+| userArray | `types:UserArray` | 是 | 所有使用者的陣列。 |
+| 程式碼片語 | `Code Phrase` |  |  |
 
 ## 範例 {#section-9c9a2d335513478da20652c1b1443731}
 
-此代碼示例返回所有用戶。 響應被截斷以便簡化。
+此程式碼範例會傳回所有使用者。 為簡短起見，回應會遭截斷。
 
 **請求**
 

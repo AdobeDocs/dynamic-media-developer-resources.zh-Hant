@@ -1,5 +1,5 @@
 ---
-description: 本節介紹目錄資料欄位。
+description: 本節說明目錄資料欄位。
 solution: Experience Manager
 title: 目錄資料欄位
 feature: Dynamic Media Classic,SDK/API
@@ -14,10 +14,10 @@ ht-degree: 0%
 
 # 目錄資料欄位{#catalog-data-fields}
 
-本節介紹目錄資料欄位。
+本節說明目錄資料欄位。
 
 * [影像SVG資料](r-image-svg-data.md)
 * [靜態內容資料](r-static-contents-data.md)
-* [宏定義](r-macro-definitions.md)
-* [字型映射](r-font-maps.md)
-* [ICC配置檔案映射](r-icc-profile-maps.md)
+* [巨集定義](r-macro-definitions.md)
+* [字型對映](r-font-maps.md)
+* [ICC設定檔對應](r-icc-profile-maps.md)

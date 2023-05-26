@@ -1,5 +1,5 @@
 ---
-description: 設定用戶屬性（如名稱、電子郵件、角色等）
+description: 設定使用者屬性（例如名稱、電子郵件、角色等）
 solution: Experience Manager
 title: setUserInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 17%
 
 # setUserInfo{#setuserinfo}
 
-設定用戶屬性（如名稱、電子郵件、角色等）
+設定使用者屬性（例如名稱、電子郵件、角色等）
 
 語法
 
-## 授權用戶類型 {#section-6c28db5d15b3449492a73749e4f981ac}
+## 授權的使用者型別 {#section-6c28db5d15b3449492a73749e4f981ac}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -27,22 +27,22 @@ ht-degree: 17%
 
 ## 參數 {#section-71b457921fe74acb862a1e112e550211}
 
-**Input(setUserInfoParam)**
+**輸入(setUserInfoParam)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| userHandle | `xsd:string` | 否 | 用戶句柄。 |
+| userHandle | `xsd:string` | 否 | 使用者控制代碼。 |
 | 名字 | `xsd:string` | 是 | 名字。 |
-| 姓氏 | `xsd:string` | 是 | 姓。 |
-| 電子郵件 | `xsd:string` | 是 | 用戶電子郵件。 |
-| 預設角色 | `xsd:string` | 是 | 設定用戶所屬每個公司中用戶的角色。 但是，請注意 `IpsAdmin` 角色將覆蓋其他每公司設定。 |
-| 密碼過期 | `xsd:dateTime` | 否 | 設定的密碼到期日期。 |
-| 有效 | `xsd:boolean` | 是 | 確定用戶是否是有效的IPS用戶。 |
-| 成員資格陣列 | `types:CompanyMembershipUpdateArray` | 是 | 一系列公司手柄。 |
+| 姓氏 | `xsd:string` | 是 | 姓氏。 |
+| 電子郵件 | `xsd:string` | 是 | 使用者電子郵件。 |
+| 預設角色 | `xsd:string` | 是 | 設定使用者在其所屬每個公司中的角色。 但是請注意 `IpsAdmin` 角色會覆寫其他每個公司的設定。 |
+| passwordExpires | `xsd:dateTime` | 否 | 設定的密碼到期日。 |
+| isValid | `xsd:boolean` | 是 | 判斷使用者是否為有效的IPS使用者。 |
+| memberlationarray | `types:CompanyMembershipUpdateArray` | 是 | 公司控點的陣列。 |
 
 **輸出(setUserInfoReturn)**
 
-IPS API不會為此操作返迴響應。
+IPS API未傳回此作業的回應。
 
 ## 範例 {#section-272c103076fb4de0a53729e2f6bfb895}
 

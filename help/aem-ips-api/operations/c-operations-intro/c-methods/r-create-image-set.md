@@ -1,7 +1,7 @@
 ---
 description: 建立影像集。
 solution: Experience Manager
-title: 建立影像集
+title: createImageSet
 feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,Admin
 exl-id: 01ccc705-97e4-4e75-a322-e24bb78cb496
@@ -12,13 +12,13 @@ ht-degree: 15%
 
 ---
 
-# 建立影像集{#createimageset}
+# createImageSet{#createimageset}
 
 建立影像集。
 
 語法
 
-## 授權用戶類型 {#section-58bf5027e6d24ab5a9fcba59776d15dc}
+## 授權的使用者型別 {#section-58bf5027e6d24ab5a9fcba59776d15dc}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,7 +29,7 @@ ht-degree: 15%
 
 >[!NOTE]
 >
->用戶必須具有對目標資料夾的讀/寫訪問權限。
+>使用者必須擁有目的地資料夾的讀取/寫入存取權。
 
 ## 參數 {#section-03d22ba7d290477e91c25ca1d4439200}
 
@@ -37,21 +37,21 @@ ht-degree: 15%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 公司句柄 | `xsd:string` | 是 | 映像集所屬公司的句柄。 |
-| folderHandle | `xsd:string` | 是 | 資料夾的句柄。 |
+| companyHandle | `xsd:string` | 是 | 影像集所屬公司的控制代碼。 |
+| folderHandle | `xsd:string` | 是 | 資料夾的控制代碼。 |
 | name | `xsd:string` | 是 | 影像集名稱。 |
-| type | `xsd:string` | 是 | 影像集類型。 |
-| 拇指資產句柄 | `xsd:string` | 否 | 用作新影像集縮略圖的資產的句柄。 如果未指定，IPS將嘗試使用該集引用的第一個影像資源。 |
+| type | `xsd:string` | 是 | 影像集型別。 |
+| thumbAssetHandle | `xsd:string` | 否 | 資產的控制代碼，可作為新影像集的縮圖。 如果未指定，IPS會嘗試使用集合所參考的第一個影像資產。 |
 
 **輸出**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 資產句柄 | `xsd:string` | 是 | 新影像集的句柄。 |
+| assetHandle | `xsd:string` | 是 | 新影像集的操作框。 |
 
 ## 範例 {#section-385fe3b0af8044b0a2451336ec137fc5}
 
-此代碼示例建立由公司、資料夾、名稱和類型指定的映像集。 響應是新建立的映像集的資產句柄。
+此程式碼範例會建立由公司、資料夾、名稱和型別指定的影像集。 回應是新建立影像集的資產控制代碼。
 
 **請求**
 

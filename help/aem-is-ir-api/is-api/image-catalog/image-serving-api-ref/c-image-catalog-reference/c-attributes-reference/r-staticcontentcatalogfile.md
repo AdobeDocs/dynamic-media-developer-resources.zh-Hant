@@ -1,7 +1,7 @@
 ---
-description: 靜態內容目錄資料檔案路徑。 指定包含此目錄的靜態內容資料的檔案。
+description: 靜態內容目錄資料檔案路徑。 指定包含此目錄之靜態內容資料的檔案。
 solution: Experience Manager
-title: 靜態內容目錄檔案
+title: StaticContentCatalogFile
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ff6f0ad8-189f-4172-89cb-f138d2df8fe4
@@ -12,19 +12,19 @@ ht-degree: 3%
 
 ---
 
-# 靜態內容目錄檔案{#staticcontentcatalogfile}
+# StaticContentCatalogFile{#staticcontentcatalogfile}
 
-靜態內容目錄資料檔案路徑。 指定包含此目錄的靜態內容資料的檔案。
+靜態內容目錄資料檔案路徑。 指定包含此目錄之靜態內容資料的檔案。
 
-靜態內容目錄資料檔案按指定的順序載入。 如果相同 `static::Id` 值在多條記錄（在同一或不同的目錄檔案中）中出現，最後一個實例佔上風。
+靜態內容目錄資料檔案會依照指定的順序載入。 若相同 `static::Id` 值發生在多個記錄中（在相同或不同的目錄檔案中），最後一個例項優先。
 
 ## 屬性 {#section-3f8dc8d21fa84fbeb71db6ca1ecbdd8c}
 
-一個或多個文本字串值，用逗號分隔。 選擇性. 每個值必須是相對於目錄資料夾的絕對檔案路徑或路徑。
+一或多個文字字串值，以逗號分隔。 選擇性. 每個值都必須是絕對檔案路徑或相對於目錄資料夾的路徑。
 
 ## 預設 {#section-702edfbc00c54fc29e412a3ff99fef2b}
 
-空，表示此影像目錄不包含任何靜態內容資料。
+空白，表示此影像目錄不包含任何靜態內容資料。
 
 ## 另請參閱 {#section-13d78d475fff40e7a4edf9a9c73f3c15}
 

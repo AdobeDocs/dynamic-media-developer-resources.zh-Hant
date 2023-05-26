@@ -1,7 +1,7 @@
 ---
 description: 字串陣列。
 solution: Experience Manager
-title: 字串陣列
+title: StringArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1d380460-6634-4a63-a853-5a23e54b3f67

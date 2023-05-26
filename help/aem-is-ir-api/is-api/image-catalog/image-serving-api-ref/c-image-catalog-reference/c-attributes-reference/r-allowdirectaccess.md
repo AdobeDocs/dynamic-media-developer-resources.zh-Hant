@@ -1,7 +1,7 @@
 ---
-description: 允許直接訪問基於路徑的資產。
+description: 允許直接存取路徑型資產。
 solution: Experience Manager
-title: 允許直接訪問
+title: AllowDirectAccess
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b4000bdf-c21a-4976-82a7-70b2261dee0b
@@ -12,22 +12,22 @@ ht-degree: 0%
 
 ---
 
-# 允許直接訪問{#allowdirectaccess}
+# AllowDirectAccess{#allowdirectaccess}
 
-允許直接訪問基於路徑的資產。
+允許直接存取路徑型資產。
 
-定義此屬性時，將允許或限制指定對象類型的基於路徑的訪問，具體取決於 `include` 或 `exclude` 關鍵字。
+定義此屬性時，指定物件型別允許或限制以路徑為基礎的存取，取決於 `include` 或 `exclude` 關鍵字已使用。
 
 >[!NOTE]
 >
->如果 `AllowDirectAccess` 未指定屬性，預設值為 `exclude`。
+>如果 `AllowDirectAccess` 屬性未指定，預設值為 `exclude`.
 
-* `include` 允許訪問指定的對象類型，並限制所有其他對象的訪問。
-* `exclude` 限制對指定對象類型的訪問，並允許對其他所有對象的訪問。
+* `include` 允許指定物件型別的存取權並限制其他所有物件型別的存取權。
+* `exclude` 限制指定物件型別的存取權，並允許其他所有物件型別的存取權。
 
-如果兩者都不 `include` 無 `exclude` 已指定， `include` 假設。
+如果兩者都不 `include` 也不 `exclude` 已指定， `include` 為假設。
 
-可以控制以下類型：
+可以控制下列型別：
 
 * `SVG`
 * `IS`
@@ -39,26 +39,26 @@ ht-degree: 0%
 
 ## 範例 {#section-4c3765ebaa4245a799b454fc196f9237}
 
-* 僅允許直接訪問 `IS` 和 `STATIC` 對象類型
+* 僅允許直接存取 `IS` 和 `STATIC` 物件型別
 
    `AllowDirectAccess=include:IS,STATIC`
 
-* 允許直接訪問除外的所有對象類型 `IS` 和 `STATIC``AllowDirectAccess=exclude:IS,STATIC`
+* 允許直接存取所有物件型別，但 `IS` 和 `STATIC``AllowDirectAccess=exclude:IS,STATIC`
 
-* 允許直接訪問 *不* 對象類型（即不包括無）
+* 允許直接存取 *否* 物件型別（即不包含任何物件）
 
    `AllowDirectAccess=include:`
 
-* 允許直接訪問 *全部* 對象類型（即無排除）
+* 允許直接存取 *全部* 物件型別（即不排除）
 
    `AllowDirectAccess=exclude:`
 
-* 相當於 `include:IS,STATIC` （如果） `include`/ `exclude` 沒有， `include` 假定)
+* 相當於 `include:IS,STATIC` (如果 `include`/ `exclude` 不存在， `include` 為假設)
 
    `AllowDirectAccess=IS,STATIC`
 
-   請注意，在 `AllowDirectAccess` 未為此公司指定屬性。
+   請注意，是預設值，使用於 `AllowDirectAccess` 沒有為此公司指定屬性。
 
-* 包括無，等於 `include:` （如果） `include`/ `exclude` 沒有， `include` 假定)
+* 不包含任何專案，等同於 `include:` (如果 `include`/ `exclude` 不存在， `include` 為假設)
 
    `AllowDirectAccess=`

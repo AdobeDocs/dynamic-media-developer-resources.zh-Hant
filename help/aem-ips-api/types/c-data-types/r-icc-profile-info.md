@@ -1,7 +1,7 @@
 ---
-description: ICC配置檔案資產的屬性。
+description: ICC設定檔資產的屬性。
 solution: Experience Manager
-title: Icc配置檔案資訊
+title: IccProfileInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 10e04ec2-14af-4d15-9970-f47a2407d077
@@ -14,7 +14,7 @@ ht-degree: 15%
 
 # [!DNL IccProfileInfo]{#iccprofileinfo}
 
-ICC配置檔案資產的屬性。
+ICC設定檔資產的屬性。
 
 語法
 
@@ -22,6 +22,6 @@ ICC配置檔案資產的屬性。
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 原始路徑 | `xsd:string` | ICC配置檔案路徑。 |
-| 原始檔案 | `xsd:string` | 原始ICC配置檔案的名稱。 |
-| 檔案大小 | `xsd:int` | ICC配置檔案大小。 |
+| 原始路徑 | `xsd:string` | ICC設定檔路徑。 |
+| 原始檔案 | `xsd:string` | 原始ICC設定檔的名稱。 |
+| fileSize | `xsd:int` | ICC設定檔大小。 |

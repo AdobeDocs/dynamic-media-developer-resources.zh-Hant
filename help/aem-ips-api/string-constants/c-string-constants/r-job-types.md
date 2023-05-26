@@ -1,7 +1,7 @@
 ---
 description: 由ActiveJob/type和ScheduledJob/type使用。
 solution: Experience Manager
-title: 作業類型
+title: 工作型別
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c833c6f7-0f72-485d-8ad1-3620db7c320a
@@ -12,7 +12,7 @@ ht-degree: 10%
 
 ---
 
-# 作業類型{#job-types}
+# 工作型別{#job-types}
 
 由ActiveJob/type和ScheduledJob/type使用。
 

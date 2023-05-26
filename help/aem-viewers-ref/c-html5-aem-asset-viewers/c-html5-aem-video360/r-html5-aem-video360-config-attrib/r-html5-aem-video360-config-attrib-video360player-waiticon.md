@@ -1,6 +1,6 @@
 ---
 title: Video360Player.waiticon
-description: Video360查看器的配置屬性。
+description: Video360 Viewer的設定屬性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 29%
 
 # Video360Player.waiticon{#video-player-waiticon}
 
-Video360查看器的配置屬性。
+Video360 Viewer的設定屬性。
 
 `[Video360Player.|<containerId>_video360Player.]waiticon=0|1`
 
@@ -22,7 +22,7 @@ Video360查看器的配置屬性。
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 啟用或禁用緩衝動畫（等待表徵圖）顯示。 </p> </td> 
+   <td colname="col2"> <p> 啟用或停用緩衝動畫（等待圖示）顯示。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,6 +1,6 @@
 ---
-title: 合成字型樣式
-description: 啟用合成字型變體。 控制如果請求但在字型映射中找不到該樣式，則伺服器是否應生成錯誤響應或合成粗體、斜體或粗體/斜體字型樣式。
+title: SynthesizeFontStyles
+description: 啟用合成字型變化。 控制伺服器是否應該產生錯誤回應，或如果要求字型對應中找不到這種樣式，應合成粗體、斜體或粗體/斜體字型樣式。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,22 +12,22 @@ ht-degree: 3%
 
 ---
 
-# 合成字型樣式{#synthesizefontstyles}
+# SynthesizeFontStyles{#synthesizefontstyles}
 
-啟用合成字型變體。 控制如果請求但在字型映射中找不到該樣式，則伺服器是否應生成錯誤響應或合成粗體、斜體或粗體/斜體字型樣式。
+啟用合成字型變化。 控制伺服器是否應該產生錯誤回應，或如果要求字型對應中找不到這種樣式，應合成粗體、斜體或粗體/斜體字型樣式。
 
 >[!NOTE]
 >
->合成字型樣式通常會導致對此類樣式使用實際字型的效果較差。
+>合成字型樣式通常會產生比使用實際字型來處理這類樣式低品質的轉譯。
 
 ## 屬性 {#section-3205560a74774ebf9c916b07bd15aca6}
 
-標幟. 設定為0可禁用，設定為1可啟用合成字型樣式。
+標幟. 設為0可停用，設為1可啟用合成字型樣式。
 
 ## 預設 {#section-71f94aa65e404d14b441674c040b59e3}
 
-繼承自 `default::SynthesizeFontStyles` 或為空。
+繼承自 `default::SynthesizeFontStyles` 如果未定義或為空。
 
 ## 另請參閱 {#section-47a79659cc844272b6d5f36c946e12ac}
 
-[字型映射引用](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/c-font-map-reference.md#concept-f81f319d03c646c5a8ef87b3277dd37d)
+[字型地圖參考](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/c-font-map-reference.md#concept-f81f319d03c646c5a8ef87b3277dd37d)

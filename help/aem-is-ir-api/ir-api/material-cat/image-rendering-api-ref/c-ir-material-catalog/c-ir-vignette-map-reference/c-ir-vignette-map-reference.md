@@ -1,7 +1,7 @@
 ---
-description: 如果材料目錄需要維格特映射，則必須在屬性VignetteMapFile中指定維格特映射檔案的相對路徑或絕對路徑。
+description: 如果材質目錄需要暈映對映，則必須在VignetteMapFile屬性中指定暈映對映檔案的相對或絕對路徑。
 solution: Experience Manager
-title: Vignette地圖引用
+title: 暈映對應參考
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 77e4d131-f043-4091-8bf7-f85cc0e98002
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# Vignette地圖引用{#vignette-map-reference}
+# 暈映對應參考{#vignette-map-reference}
 
-如果物料目錄需要維格特映射，則必須在屬性：:VignetteMapFile中指定維格特映射檔案的相對路徑或絕對路徑。
+如果材質目錄需要暈映對映，則必須在attribute：：VignetteMapFile中指定暈映對映檔案的相對或絕對路徑。
 
-特定材料目錄的視圖映射檔案中的條目將覆蓋預設目錄的視圖映射檔案中的條目。
+特定材質目錄的暈映對映檔案中的專案將覆寫預設目錄的暈映對映檔案中的專案。

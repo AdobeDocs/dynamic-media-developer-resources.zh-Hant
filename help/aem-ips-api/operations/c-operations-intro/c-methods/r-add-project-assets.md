@@ -1,5 +1,5 @@
 ---
-description: 向項目添加一個或多個資產。
+description: 新增一或多個資產至專案。
 solution: Experience Manager
 title: addProjectAssets
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,11 +14,11 @@ ht-degree: 11%
 
 # addProjectAssets{#addprojectassets}
 
-向項目添加一個或多個資產。
+新增一或多個資產至專案。
 
 語法
 
-## 授權用戶類型 {#section-c67e7422921047f4ab4d4e9ba5a7aafe}
+## 授權的使用者型別 {#section-c67e7422921047f4ab4d4e9ba5a7aafe}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,23 +33,23 @@ ht-degree: 11%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 公司句柄 | `xsd:string` | 是 | 處理與當前項目關聯的公司。 |
-| 項目句柄 | `xsd:string` | 是 | 處理要向其添加資產的項目。 |
-| projectHandleArray | `xsd:HandleArray` | 是 | 要添加到當前項目的資產陣列。 |
+| companyHandle | `xsd:string` | 是 | 與目前專案關聯之公司的控制代碼。 |
+| projectHandle | `xsd:string` | 是 | 處理您要新增資產的專案。 |
+| projectHandlearray | `xsd:HandleArray` | 是 | 您要新增至目前專案的資產陣列。 |
 
 **輸出(addProjectAssetsParam)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 成功計數 | `xsd:int` | 是 | 已成功添加的資產數。 |
-| 警告計數 | `xsd:int` | 是 | 操作嘗試將資產添加到項目時生成的警告數。 |
-| 錯誤計數 | `xsd:int` | 是 | 操作嘗試將資產添加到項目時生成的錯誤數。 |
-| 警告DetailHandle | `xsd:AssetOperationFaultArray` | 否 | 當操作嘗試將資產添加到項目時由資產生成的警告陣列。 |
-| 公司句柄 | `xsd:AssetOperationFaultArray` | 否 | 當操作嘗試將資產添加到項目時由資產生成的錯誤陣列。 |
+| successCount | `xsd:int` | 是 | 成功新增的資產數量。 |
+| warningCount | `xsd:int` | 是 | 作業嘗試將資產新增至專案時產生的警告數目。 |
+| errororcount | `xsd:int` | 是 | 作業嘗試將資產新增至專案時產生的錯誤數。 |
+| warningDetailHandle | `xsd:AssetOperationFaultArray` | 否 | 作業嘗試將資產新增至專案時，資產產生的一系列警告。 |
+| companyHandle | `xsd:AssetOperationFaultArray` | 否 | 作業嘗試將資產新增至專案時，資產產生的錯誤陣列。 |
 
 ## 範例 {#section-bee5be2402f54cb9a3a02cc07def4135}
 
-此示例將資產句柄陣列中的單個資產（由其句柄引用）添加到請求中指定的項目。 響應時，操作成功完成 `successCount` 返回 `1`。
+此範例會將資產控制點陣列中的單一資產（由其控制點引用）新增至請求中指定的專案。 回應時，作業成功完成 `successCount` 傳回 `1`.
 
 **請求**
 

@@ -1,5 +1,5 @@
 ---
-description: 批元資料更新的陣列。
+description: 批次中繼資料更新的陣列。
 solution: Experience Manager
 title: BatchMetadataUpdateArray
 feature: Dynamic Media Classic,SDK/API,Metadata
@@ -14,7 +14,7 @@ ht-degree: 25%
 
 # [!DNL BatchMetadataUpdateArray]{#batchmetadataupdatearray}
 
-批元資料更新的陣列。
+批次中繼資料更新的陣列。
 
 語法
 
@@ -22,4 +22,4 @@ ht-degree: 25%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 項目 | `types:BatchMetadataUpdate` | 批更新的陣列。 |
+| 項目 | `types:BatchMetadataUpdate` | 批次更新的陣列。 |

@@ -1,7 +1,7 @@
 ---
-description: 將新標籤值添加到現有標籤欄位的字典中。
+description: 將新標籤值新增至現有標籤欄位的字典。
 solution: Experience Manager
-title: addTagFieldValues
+title: addTagFieldValue
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 099263e4-8214-46eb-898e-7a28c4f25598
@@ -12,13 +12,13 @@ ht-degree: 14%
 
 ---
 
-# addTagFieldValues{#addtagfieldvalues}
+# addTagFieldValue{#addtagfieldvalues}
 
-將新標籤值添加到現有標籤欄位的字典中。
+將新標籤值新增至現有標籤欄位的字典。
 
 語法
 
-## 授權用戶類型 {#section-ba1d7040661e48b7a6b035494e065c91}
+## 授權的使用者型別 {#section-ba1d7040661e48b7a6b035494e065c91}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -30,13 +30,13 @@ ht-degree: 14%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 公司句柄 | `xsd:string` | 是 | 包含標籤欄位的公司句柄。 |
-| 欄位句柄 | `xsd:string` | 是 | 要修改的標籤欄位的句柄。 |
-| 值陣列 | `xsd:string` | 是 | 要添加到欄位現有詞典的標籤值陣列。 |
+| companyHandle | `xsd:string` | 是 | 包含標籤欄位之公司的控制代碼。 |
+| fieldHandle | `xsd:string` | 是 | 要修改之標籤欄位的控點。 |
+| valueArray | `xsd:string` | 是 | 要新增至欄位現有字典的標籤值陣列。 |
 
 **輸出(addTagFieldValuesParam)**
 
-IPS API不會為此操作返迴響應。
+IPS API未傳回此作業的回應。
 
 ## 範例 {#section-c4049392f1c548f883b8b1f8f167bada}
 

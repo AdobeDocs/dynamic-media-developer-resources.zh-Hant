@@ -1,6 +1,6 @@
 ---
 title: 屬性
-description: 有幾種高級渲染效果可用。
+description: 有數種進階演算效果可供使用。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,6 +12,6 @@ ht-degree: 0%
 
 ---
 
-# 高級渲染效果{#advanced-render-effects}
+# 進階演算效果{#advanced-render-effects}
 
-有幾種高級渲染效果可用。
+有數種進階演算效果可供使用。

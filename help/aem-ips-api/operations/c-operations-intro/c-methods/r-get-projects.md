@@ -1,5 +1,5 @@
 ---
-description: 獲取一組相關資產的項目。
+description: 取得一組相關資產的專案。
 solution: Experience Manager
 title: getProjects
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 22%
 
 # getProjects{#getprojects}
 
-獲取一組相關資產的項目。
+取得一組相關資產的專案。
 
 語法
 
-## 授權用戶類型 {#section-337649866b1f4098844d1974ed7ab5d0}
+## 授權的使用者型別 {#section-337649866b1f4098844d1974ed7ab5d0}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,17 +33,17 @@ ht-degree: 22%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 公司句柄 | `xsd:string` | 是 | 公司的把手。 |
+| companyHandle | `xsd:string` | 是 | 公司的控制代碼。 |
 
 **輸出(getProjectsReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| projectArray | `types:ProjectArray` | 是 | 與公司關聯的項目陣列。 |
+| projectArray | `types:ProjectArray` | 是 | 與公司相關聯的專案陣列。 |
 
 ## 範例 {#section-8b12d0b948f644f68bf9a16060d3849a}
 
-此代碼示例返回項目陣列中的所有項目句柄。
+此程式碼範例會傳回專案陣列中的所有專案控制點。
 
 **請求**
 

@@ -1,7 +1,7 @@
 ---
-description: 路徑上的文本屬性。
+description: 路徑文字屬性。
 solution: Experience Manager
-title: 路徑屬性
+title: pathAttr
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: fdf9274a-70d0-4692-a7a9-c108abb9ab84
@@ -12,36 +12,36 @@ ht-degree: 2%
 
 ---
 
-# 路徑屬性{#pathattr}
+# pathAttr{#pathattr}
 
-路徑上的文本屬性。
+路徑文字屬性。
 
-` pathAttr= *`方向`*[, *`開始POS`*[, *`結束POS`*]]`
+` pathAttr= *`方向`*[, *`startPos`*[, *`endPos`*]]`
 
 <table id="simpletable_EC76095316AF4F07B1DDCC0D72B814CF"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> 方向 </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> 范數 </span> | <span class="codeph"> 逆 </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> 標準 </span> | <span class="codeph"> 反轉 </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> 開始POS </span> </p> </td> 
-  <td class="stentry"> <p>路徑上的文本起始位置（實數0.0..1.0）。 </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> startPos </span> </p> </td> 
+  <td class="stentry"> <p>路徑上的文字起始位置（實數0.0...1.0）。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> 結束POS </span> </p> </td> 
-  <td class="stentry"> <p>路徑上的文本結束位置（實數0.0..&lt;2.0）。 </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> endPos </span> </p> </td> 
+  <td class="stentry"> <p>路徑上的文字結束位置（實數0.0...&lt;2.0）。 </p> </td> 
  </tr> 
 </table>
 
-指定 `norm` 繪製第一個路徑頂點附近的文本， `reverse` 在最後一個頂點附近繪製相反方向的文本。
+指定 `norm` 繪製從第一個路徑頂點附近開始的文字，並 `reverse` 以相反方向繪製文字，從最後一個頂點附近開始。
 
-*`startPos`* 和 *`endPos`* 允許調整繪製文本的路徑上的位置。 0.0對應於路徑中的第一個頂點，1.0對應於最後一個頂點；中間值表示沿第一頂點和最後一個頂點之間的路徑的距離。
+*`startPos`* 和 *`endPos`* 允許調整繪製文字的路徑位置。 0.0對應於路徑中的第一個頂點，1.0對應於最後一個頂點；中間值表示沿著路徑在第一個和最後一個頂點之間的距離。
 
 ## 屬性 {#section-80f266da4e2549d89f022a3f9ff4584d}
 
-層屬性。 如果層不包括，則忽略 `textPs=` 和 `textPath=` 的雙曲餘切值。
+圖層屬性。 如果圖層不包含，則忽略 `textPs=` 和 `textPath=` 命令。
 
-*`startPos`* 必須大於或等於0且小於1.0。 *`endPos`* 必須大於 *`startPos`* 當應用於開路徑時小於或等於1.0，或小於或等於( *`startPos`* + 1.0)。
+*`startPos`* 必須大於或等於0且小於1.0。 *`endPos`* 必須大於 *`startPos`* 和小於或等於1.0 （當套用至開放路徑時）或小於或等於( *`startPos`* + 1.0)。
 
 ## 預設 {#section-3e757970885c45e7b6100e78dc08626f}
 
@@ -49,4 +49,4 @@ ht-degree: 2%
 
 ## 另請參閱 {#section-b869745de1da4ef996dfda4af39ed14d}
 
-[textPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textpath.md#reference-b09cc0902dff4725bdb54d5da4076ccd) 。 [textPs=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textps.md#reference-4209a2a6169f44278da2647cfb0cd767)
+[textPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textpath.md#reference-b09cc0902dff4725bdb54d5da4076ccd) ， [textPs=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textps.md#reference-4209a2a6169f44278da2647cfb0cd767)

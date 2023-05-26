@@ -1,5 +1,5 @@
 ---
-description: 路徑清單（用分號分隔）用作具有相對檔案路徑的所有資料檔案的根。
+description: 路徑清單（以分號分隔）可作為具有相對檔案路徑的所有資料檔案的根。
 solution: Experience Manager
 title: 資源根資料夾(ir.resourceRootPaths)
 feature: Dynamic Media Classic,SDK/API
@@ -14,6 +14,6 @@ ht-degree: 0%
 
 # 資源根資料夾(ir.resourceRootPaths){#resource-root-folders-ir-resourcerootpaths}
 
-路徑清單（用分號分隔）用作具有相對檔案路徑的所有資料檔案的根。
+路徑清單（以分號分隔）可作為具有相對檔案路徑的所有資料檔案的根。
 
-可以是絕對路徑或相對於 *[!DNL install_folder]*。 指定多個路徑後，伺服器將按給定順序嘗試每個根，直到找到該檔案。 預設值為 [!DNL ./resources]，用於的預設根路徑 [!DNL install_folder/resources]。
+可以是絕對路徑，也可以是相對於 *[!DNL install_folder]*. 指定多個路徑時，伺服器會嘗試以指定順序建立每個根目錄，直到找到檔案為止。 預設為 [!DNL ./resources]，代表預設根路徑 [!DNL install_folder/resources].

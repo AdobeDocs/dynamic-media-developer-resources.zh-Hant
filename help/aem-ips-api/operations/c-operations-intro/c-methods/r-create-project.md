@@ -1,7 +1,7 @@
 ---
-description: 建立新項目。
+description: 建立新專案。
 solution: Experience Manager
-title: 建立項目
+title: createProject
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: dd9c07df-9a8f-4b67-9838-31dd96fd127b
@@ -12,13 +12,13 @@ ht-degree: 19%
 
 ---
 
-# 建立項目{#createproject}
+# createProject{#createproject}
 
-建立新項目。
+建立新專案。
 
 語法
 
-## 授權用戶類型 {#section-17878e2e4c3a44988c9a1af82c2ac319}
+## 授權的使用者型別 {#section-17878e2e4c3a44988c9a1af82c2ac319}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,18 +33,18 @@ ht-degree: 19%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 公司句柄 | `xsd:string` | 是 | 與新項目關聯的公司的句柄。 |
-| 項目名稱 | `xsd:string` | 是 | 新建項目名稱。 |
+| companyHandle | `xsd:string` | 是 | 與新專案相關聯之公司的控制代碼。 |
+| projectName | `xsd:string` | 是 | 新專案名稱。 |
 
 **輸出(createProjectParam)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 項目句柄 | `xsd:string` | 是 | 新項目的句柄。 |
+| projectHandle | `xsd:string` | 是 | 新專案的控點。 |
 
 ## 範例 {#section-a0cd532b67e346d088fbec141231a0e5}
 
-此代碼示例建立名為 `ApiTestProject` 在其句柄指定的公司中。 響應將句柄返回到項目。
+此程式碼範例會建立名為的專案 `ApiTestProject` 在由其控制代碼指定的公司中。 回應會將控制代碼傳回至專案。
 
 **請求**
 

@@ -1,6 +1,6 @@
 ---
-title: 初始幀
-description: 初始幀
+title: 初始框架
+description: 初始框架
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
@@ -12,7 +12,7 @@ ht-degree: 8%
 
 ---
 
-# 初始幀{#initialframe}
+# 初始框架{#initialframe}
 
 ` initialFrame= *`frame`*`
 
@@ -20,7 +20,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> frame</span></span> </p> </td> 
-   <td colname="col2"> <p> 指定要在查看器載入時顯示的基於零的擴散索引。 索引與橫向模式下的跨頁的索引匹配。 如果將查看器旋轉為縱向，則查看器將顯示由指向的跨頁中最左側的頁面 <span class="codeph"> 幀IDX</span>。 </p> </td> 
+   <td colname="col2"> <p> 指定要在檢視器載入時顯示的從零開始的展開索引。 索引符合橫向模式下的跨頁索引。 如果檢視器旋轉為縱向，檢視器會顯示跨頁所指向的最左側頁面 <span class="codeph"> frameIdx</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -35,7 +35,7 @@ ht-degree: 8%
 
 ## 範例 {#section-cbc6684eb22e4d0883edc4b3d5742336}
 
-在查看器URL中指定時。
+在檢視器URL中指定時。
 
 ```
 initialFrame=2

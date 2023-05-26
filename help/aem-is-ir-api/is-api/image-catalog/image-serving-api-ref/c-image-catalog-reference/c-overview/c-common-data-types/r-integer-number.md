@@ -1,5 +1,5 @@
 ---
-description: 整數資料類型。
+description: 整數資料型別。
 solution: Experience Manager
 title: 整數
 feature: Dynamic Media Classic,SDK/API
@@ -14,6 +14,6 @@ ht-degree: 0%
 
 # 整數{#integer-number}
 
-整數資料類型。
+整數資料型別。
 
-帶符號的整數值（例如0、-12、34）。 0或負值可能具有特殊含義。
+帶正負號的整數值（例如0、-12、34）。 0或負值可能有特殊意義。

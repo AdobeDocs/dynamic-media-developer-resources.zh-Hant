@@ -1,5 +1,5 @@
 ---
-description: 任務進度陣列。 包含有關視頻轉碼任務的資訊。
+description: 任務進度陣列。 包含視訊轉碼工作的相關資訊。
 solution: Experience Manager
 title: 任務進度陣列
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 15%
 
 # [!DNL TaskProgressArray]{#taskprogressarray}
 
-任務進度陣列。 包含有關視頻轉碼任務的資訊。
+任務進度陣列。 包含視訊轉碼工作的相關資訊。
 
 語法
 
@@ -22,4 +22,4 @@ ht-degree: 15%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 項目 | `types:TaskProgress` | 任務進度項。 最小值為零。 最大值無界。 |
+| 項目 | `types:TaskProgress` | 任務進度專案。 最小出現次數為零。 最大出現次數未限制。 |

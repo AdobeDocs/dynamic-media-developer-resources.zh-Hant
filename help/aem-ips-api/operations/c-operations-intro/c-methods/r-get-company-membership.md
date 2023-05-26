@@ -1,5 +1,5 @@
 ---
-description: 獲取公司陣列中用戶的成員身份。
+description: 取得使用者在公司陣列中的成員資格。
 solution: Experience Manager
 title: getCompanyMembership
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 18%
 
 # getCompanyMembership{#getcompanymembership}
 
-獲取公司陣列中用戶的成員身份。
+取得使用者在公司陣列中的成員資格。
 
 語法
 
-## 授權用戶類型 {#section-f8bba547e1f648648be99dc48fd72b5d}
+## 授權的使用者型別 {#section-f8bba547e1f648648be99dc48fd72b5d}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -37,17 +37,17 @@ ht-degree: 18%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| userHandle | `xsd:string` | 否 | 要獲取其成員資格的用戶的句柄。 |
+| userHandle | `xsd:string` | 否 | 您要取得其成員資格之使用者的控制代碼。 |
 
 **輸出(getCompanyMembershipReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 成員資格陣列 | `types:CompanyMembershipArray` | 是 | 公司成員資格陣列。 |
+| memberlationarray | `types:CompanyMembershipArray` | 是 | 公司成員資格陣列。 |
 
 ## 範例 {#section-e4958d104ea344a4a79f57d07b46eba7}
 
-此代碼示例獲取用戶句柄並獲取陣列中用戶的所有公司成員資格。 響應被截斷為簡單。
+此程式碼範例取得使用者控制代碼，並在陣列中取得使用者的所有公司成員資格。 回應因簡短而遭截斷。
 
 **請求**
 

@@ -1,5 +1,5 @@
 ---
-description: 從選定資產中刪除權限。
+description: 移除所選資產的許可權。
 solution: Experience Manager
 title: removeAssetPermissions
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,11 +14,11 @@ ht-degree: 17%
 
 # removeAssetPermissions{#removeassetpermissions}
 
-從選定資產中刪除權限。
+移除所選資產的許可權。
 
 語法
 
-## 授權用戶類型 {#section-239058fdb4454e519ac327e621cb3abc}
+## 授權的使用者型別 {#section-239058fdb4454e519ac327e621cb3abc}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -30,16 +30,16 @@ ht-degree: 17%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 公司句柄 | `xsd:string` | 是 | 公司的把手。 |
-| 資產句柄 | `xsd:string` | 是 | 具有要刪除的權限的資產的句柄。 |
+| companyHandle | `xsd:string` | 是 | 公司的控制代碼。 |
+| assetHandle | `xsd:string` | 是 | 具有您要移除之許可權的資產的控點。 |
 
 **輸出(removeAssetPermissionsReturn)**
 
-IPS API不會為此操作返迴響應。
+IPS API未傳回此作業的回應。
 
 ## 範例 {#section-238fa7bb091548f5ba72ced11fc92d4f}
 
-此代碼示例從資產中刪除權限。
+此程式碼範例會從資產中移除許可權。
 
 **請求**
 

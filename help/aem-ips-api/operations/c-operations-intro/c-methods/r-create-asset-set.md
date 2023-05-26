@@ -1,5 +1,5 @@
 ---
-description: 使用原始集定義字串建立要發佈到映像伺服器的常規資產集。
+description: 使用要發佈至影像伺服器的原始集定義字串建立一般資產集。
 solution: Experience Manager
 title: createAssetSet
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,11 +14,11 @@ ht-degree: 10%
 
 # createAssetSet{#createassetset}
 
-使用原始集定義字串建立要發佈到映像伺服器的常規資產集。
+使用要發佈至影像伺服器的原始集定義字串建立一般資產集。
 
 語法
 
-## 授權用戶類型 {#section-d670d3af552147199b65c7eb847544a3}
+## 授權的使用者型別 {#section-d670d3af552147199b65c7eb847544a3}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -42,16 +42,16 @@ ht-degree: 10%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 公司句柄 </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 包含資產集的公司的句柄。 </td> 
+   <td colname="col4"> 將包含資產集的公司的控制代碼。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 建立新資產集的資料夾的句柄。 </td> 
+   <td colname="col4"> 建立新資產集所在資料夾的控制代碼。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 名稱 </span> </span> </td> 
@@ -60,49 +60,49 @@ ht-degree: 10%
    <td colname="col4"> 資產名稱。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 子類型 </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 子型別 </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 客戶端為資產集類型建立的唯一標識符。 </td> 
+   <td colname="col4"> 使用者端為資產集型別建立的唯一識別碼。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> setDefinition </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 集定義字串中的參數。 <p>必須解析為目標查看器指定的格式。 </p> </td> 
+   <td colname="col4"> 集合定義字串中的引數。 <p>這些格式必須解析成目標檢視器指定的格式。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 拇指資產句柄 </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAssetHandle </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 用作新影像集縮略圖的資產的句柄。 如果未指定，IPS將嘗試使用該集引用的第一個影像資源。 </td> 
+   <td colname="col4"> 資產的控制代碼，可作為新影像集的縮圖。 如果未指定，IPS會嘗試使用集合所參考的第一個影像資產。 </td> 
   </tr> 
  </tbody> 
 </table>
 
 **setDefinition的替代函式**
 
-您可以在目錄查找或發佈期間解析的行中指定替代函式。 替代字串的格式 `${<substitution_func>}`。 下面列舉了可用的函式。
+您可以在行中指定在目錄查閱或發佈期間解析的替代函式。 替代字串的格式為 `${<substitution_func>}`. 可用的函式列示如下。
 
 >[!NOTE]
 >
->參數清單中的句柄文字必須用括弧括起來 `([])`。 在解析期間，替換字串之外的所有文本將逐字複製到輸出字串。
+>引數清單中的控制代碼常值必須以方括弧括住 `([])`. 解析期間，替代字串以外的所有文字都會逐字複製到輸出字串中。
 
-| **替代函式** | **返回** |
+| **替代函式** | **傳回** |
 |---|---|
-| `getFilePath([asset_handle>])` | 資產的主源檔案路徑。 |
+| `getFilePath([asset_handle>])` | 資產的主要來源檔案路徑。 |
 | `getCatalogId([<asset_handle>])` | 資產的目錄ID。 |
-| `getMetaData([<asset_handle>], [<metadata_field_handle>])` | 資產的元資料值。 |
-| `getThumbCatalogId([<asset_handle>])` | 資產的目錄ID（僅適用於基於映像的資產）。關聯的拇指資產的目錄ID（適用於其他資產）。 如果關聯的拇指資產不可用，則函式返回空字串。 |
+| `getMetaData([<asset_handle>], [<metadata_field_handle>])` | 資產的中繼資料值。 |
+| `getThumbCatalogId([<asset_handle>])` | 資產的目錄ID （僅適用於影像型資產）。關聯的縮圖資產的目錄ID （適用於其他資產）。 如果關聯的縮圖資產無法使用，此函式會傳回空字串。 |
 
-**媒體集定義字串示例**
+**範例媒體setDefinition字串**
 
 ```java
 ${getCatalogId([a|1664|22|1664])};${getCatalogId([a|1664|22|1664])};1,${getFilePath([a|103 
 6|19|144])};${getCatalogId([a|452|1|433])};2;${getMetadata([a|1036|19|144], [m|1|ASSET|SharedDateField])} 
 ```
 
-在目錄查找或發佈時，將解析為類似於以下內容的字串：
+在目錄查閱或發佈時，這會解析為類似於以下內容的字串：
 
 ```java
 jcompany/myRenderSet;jcompany/myRenderSet;1,jcompany/Videos/Somebodys_N08275_flv.flv;jcomp any/myimg-1;2;20090703 10:05:53
@@ -112,7 +112,7 @@ jcompany/myRenderSet;jcompany/myRenderSet;1,jcompany/Videos/Somebodys_N08275_flv
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 資產句柄 | `xsd:string` | 是 | 資產集的句柄。 |
+| assetHandle | `xsd:string` | 是 | 資產集的控點。 |
 
 ## 範例 {#section-fed53089de824d67ab96cd9103d384b4}
 

@@ -20,7 +20,7 @@ ht-degree: 27%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> 大小</span></span> </p> </td> 
-   <td colname="col2"> <p> 發送到打印的影像的最大大小。 </p> </td> 
+   <td colname="col2"> <p> 傳送至列印的影像大小上限。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

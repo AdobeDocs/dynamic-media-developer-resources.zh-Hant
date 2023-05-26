@@ -1,6 +1,6 @@
 ---
-title: 視頻伺服器URL
-description: 所有查看器通用的參數。
+title: videoServerUrl
+description: 所有檢視器通用的引數。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
@@ -12,28 +12,28 @@ ht-degree: 4%
 
 ---
 
-# 視頻伺服器URL{#videoserverurl}
+# videoServerUrl{#videoserverurl}
 
-所有查看器通用的參數。
+所有檢視器通用的引數。
 
 >[!NOTE]
 >
->此命令不適用於視頻影像查看器。
+>這個命令不適用於Video Image Viewer。
 
-` videoServerUrl= *`視頻根路徑`*`
+` videoServerUrl= *`videoRootPath`*`
 
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 視頻根路徑</span> </span> </p> </td> 
-   <td colname="col2"> <p> 視頻伺服器根路徑。 如果未指定域，則將應用從中提供頁面的域。 應用標準URI路徑解析。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> videoRootPath</span> </span> </p> </td> 
+   <td colname="col2"> <p> 視訊伺服器根路徑。 若未指定網域，則改為套用伺服頁面的網域。 適用標準URI路徑解析。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 屬性 {#section-10ee45d637134e0fbcd943c62578cb78}
 
-選擇性. 標準軟體作為服務使用不需要。
+選擇性. 標準軟體即服務使用不需要。
 
 ## 預設 {#section-d411e450028c460392cb8508f8ccc5d9}
 

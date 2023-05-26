@@ -20,7 +20,7 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 在幀（影像）更改時重置視圖埠。 如果設定為 <span class="codeph"> 0</span>在保持新設定影像長寬比的同時，以盡可能最佳的擬合保留當前視圖埠。 </p> </td> 
+   <td colname="col2"> <p> 當影格（影像）變更時，重設檢視連線埠。 若設為 <span class="codeph"> 0</span>，會以可能的最適大小保留目前檢視連線埠，同時保留新設定影像的外觀比例。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

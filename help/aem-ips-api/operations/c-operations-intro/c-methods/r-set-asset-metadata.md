@@ -1,5 +1,5 @@
 ---
-description: 設定資產的元資料值。 與元資料更新陣列一起使用，以在批處理中設定值。
+description: 設定資產的中繼資料值。 使用一系列中繼資料更新，以設定批次中的值。
 solution: Experience Manager
 title: setAssetMetadata
 feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
@@ -14,11 +14,11 @@ ht-degree: 10%
 
 # setAssetMetadata{#setassetmetadata}
 
-設定資產的元資料值。 與元資料更新陣列一起使用，以在批處理中設定值。
+設定資產的中繼資料值。 使用一系列中繼資料更新，以設定批次中的值。
 
 語法
 
-## 授權用戶類型 {#section-9dcacb0c924044648f8324bfed183dca}
+## 授權的使用者型別 {#section-9dcacb0c924044648f8324bfed183dca}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,7 +29,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->用戶必須具有對資產的讀取權限。
+>使用者必須擁有資產的讀取存取權。
 
 ## 參數 {#section-bcdcff30905e444388811e897b2824bd}
 
@@ -37,17 +37,17 @@ ht-degree: 10%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 公司句柄 | `xsd:string` | 是 | 要更新資產的公司的句柄。 |
-| 資產句柄 | `xsd:string` | 是 | 資產的句柄。 |
-| 更新陣列 | `types:MetadataUpdateArray` | 是 | 元資料更新陣列中的更新。 |
+| companyHandle | `xsd:string` | 是 | 具有您要更新之資產的公司的控制代碼。 |
+| assetHandle | `xsd:string` | 是 | 資產的控點。 |
+| updatearray | `types:MetadataUpdateArray` | 是 | 中繼資料更新陣列中的更新。 |
 
 **輸出(setAssetMetadataReturn)**
 
-IPS API不會為此操作返迴響應。
+IPS API未傳回此作業的回應。
 
 ## 範例 {#section-1ab412e7ee1d4d6d8469b0b403598c42}
 
-此代碼示例使用元資料更新陣列來設定指定資產的元資料。
+此程式碼範例使用一系列中繼資料更新來設定指定資產的中繼資料。
 
 **請求**
 

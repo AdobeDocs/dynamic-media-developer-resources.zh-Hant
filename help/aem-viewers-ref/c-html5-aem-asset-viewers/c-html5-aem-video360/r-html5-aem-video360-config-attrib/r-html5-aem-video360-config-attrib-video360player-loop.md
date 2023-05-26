@@ -1,6 +1,6 @@
 ---
 title: Video360Player.loop
-description: Video360查看器的配置屬性。
+description: Video360 Viewer的設定屬性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 26%
 
 # Video360Player.loop{#video-player-loop}
 
-Video360查看器的配置屬性。
+Video360 Viewer的設定屬性。
 
 `[Video360Player.|<containerId>_video360Player.]loop=0|1`
 
@@ -22,7 +22,7 @@ Video360查看器的配置屬性。
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 指示在播放完成後視頻是否應再次播放。 </p> </td> 
+   <td colname="col2"> <p> 指出視訊是否應該在播放完成後再次播放。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

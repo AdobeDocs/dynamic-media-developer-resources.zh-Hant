@@ -1,6 +1,6 @@
 ---
-title: 全屏支援
-description: 查看器支援全屏操作模式。
+title: 全熒幕支援
+description: 檢視器支援全熒幕操作模式。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -12,12 +12,12 @@ ht-degree: 0%
 
 ---
 
-# 全屏支援{#full-screen-support}
+# 全熒幕支援{#full-screen-support}
 
-查看器支援全屏操作模式。
+檢視器支援全熒幕操作模式。
 
-在現代案頭瀏覽器（Internet Explorer 10和更舊版本除外）和某些觸摸設備上，查看器使用「本機」全屏模式。 此模式表示整個設備螢幕被查看者內容佔據。
+在除了Internet Explorer 10及舊版以外的現代案頭瀏覽器上，以及在某些觸控裝置上，檢視器會使用「原生」全熒幕模式。 此模式表示檢視器內容會佔據整個裝置畫面。
 
-在iOS設備和較舊的Internet Explorer瀏覽器上，查看器改用「模擬」全屏模式。 在此模式下，查看器將調整大小以獲取Web瀏覽器窗口的整個區域。 此外，Web瀏覽器用戶介面和其他窗口仍在螢幕上可見。
+在iOS裝置和舊版Internet Explorer瀏覽器上，檢視器會改用「模擬」全熒幕模式。 在此模式中，檢視器會調整大小以取得網頁瀏覽器視窗的完整區域。 此外，熒幕上仍會顯示網頁瀏覽器使用者介面和其他視窗。
 
-用戶通過按查看器用戶介面中的「全屏」按鈕進入並退出全屏模式。 在案頭上使用「本機」全屏模式時，也可以通過按 **Esc**。
+使用者在檢視器使用者介面中按下「全熒幕」按鈕，即可進入和離開全熒幕模式。 在案頭上使用「原生」全熒幕模式時，也可以按下來結束模式 **Esc**.

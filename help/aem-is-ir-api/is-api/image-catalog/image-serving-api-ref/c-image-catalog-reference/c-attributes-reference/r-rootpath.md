@@ -1,5 +1,5 @@
 ---
-description: 源資料根路徑。 此影像目錄源資料的根資料夾的絕對或相對路徑。
+description: 來源資料根路徑。 此影像目錄之來源資料的根資料夾的絕對或相對路徑。
 solution: Experience Manager
 title: 根路徑
 feature: Dynamic Media Classic,SDK/API
@@ -14,18 +14,18 @@ ht-degree: 2%
 
 # 根路徑{#rootpath}
 
-源資料根路徑。 此影像目錄源資料的根資料夾的絕對或相對路徑。
+來源資料根路徑。 此影像目錄之來源資料的根資料夾的絕對或相對路徑。
 
-的 `RootPath` 是文本字串值。 請參閱 [管理源資料](../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-managing-content/r-source-data.md#reference-4eebd51b2db2401c90be771d3382329e) 有關伺服器根路徑的其他資訊。
+此 `RootPath` 是文字字串值。 另請參閱 [管理來源資料](../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-managing-content/r-source-data.md#reference-4eebd51b2db2401c90be771d3382329e) 以取得伺服器根路徑的其他資訊。
 
 ## 屬性 {#section-b41d7e0ea63143eb8034569706cad0c0}
 
-文本字串。 必須為空、有效的相對資料夾路徑或映像伺服器可訪問的有效絕對路徑。
+文字字串。 必須為空白、有效的相對資料夾路徑，或影像伺服器可存取的有效絕對路徑。
 
 ## 預設 {#section-7d66ff9a3d7a4e3b834769269cb01f4f}
 
-繼承自 `default::RootPath` 的子菜單。 如果已定義但為空，則不會對源檔案根路徑作出貢獻。
+繼承自 `default::RootPath` 若未定義。 如果已定義但為空，將不會對來源檔案根路徑產生作用。
 
 ## 另請參閱 {#section-6bf4ffc4987843a9a2dbe81b43076437}
 
-[目錄：：路徑](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-path-cat.md) 。 [目錄：:MaskPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-maskpath-cat.md)。  [規則集：:PathRule](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/c-rule-set-reference.md#concept-3e5058cf3507470b82cac638df23ea8e)。 [管理源資料](../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-managing-content/r-source-data.md#reference-4eebd51b2db2401c90be771d3382329e)
+[catalog：：Path](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-path-cat.md) ， [catalog：：MaskPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-maskpath-cat.md)，  [規則集：：PathRule](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/c-rule-set-reference.md#concept-3e5058cf3507470b82cac638df23ea8e)， [管理來源資料](../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-managing-content/r-source-data.md#reference-4eebd51b2db2401c90be771d3382329e)

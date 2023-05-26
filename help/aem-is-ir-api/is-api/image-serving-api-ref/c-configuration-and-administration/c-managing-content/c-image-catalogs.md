@@ -1,5 +1,5 @@
 ---
-description: 影像目錄提供了許多伺服器配置設定，以及字型、ICC配置檔案和命令宏。
+description: 影像目錄提供許多伺服器組態設定，以及字型、ICC設定檔、指令巨集。
 solution: Experience Manager
 title: 影像目錄
 feature: Dynamic Media Classic,SDK/API
@@ -14,8 +14,8 @@ ht-degree: 0%
 
 # 影像目錄{#image-catalogs}
 
-影像目錄提供了許多伺服器配置設定，以及字型、ICC配置檔案和命令宏。
+影像目錄提供許多伺服器組態設定，以及字型、ICC設定檔、指令巨集。
 
-它們將請求中使用的影像和靜態內容ID映射到實際檔案路徑，儲存各種影像元資料，並為模板和影像集提供容器。
+它們會將請求中使用的影像和靜態內容ID對應到實際檔案路徑、儲存各種影像中繼資料（例如影像地圖），並提供範本和影像集的容器。
 
-僅由 [!DNL Platform Server]，從未通過映像伺服器。 目錄屬性檔案必須具有.ini尾碼，並放在 [!DNL Platform Server]&#39;s目錄資料夾( `PS::CatalogFolder`)。 至少需要預設映像目錄，並且必須使用所有屬性填充，才能正確運行 [!DNL Platform Server]。
+影像目錄僅可透過以下方式存取： [!DNL Platform Server]，絕對不要經由影像伺服器。 目錄屬性檔案必須有.ini尾碼，並置於 [!DNL Platform Server]的目錄資料夾( `PS::CatalogFolder`)。 至少需要預設影像目錄，且必須填入所有屬性，才能正確運作 [!DNL Platform Server].

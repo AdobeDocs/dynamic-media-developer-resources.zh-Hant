@@ -1,5 +1,5 @@
 ---
-description: 描述各種輸入參數使用的值。 有關詳細資訊，請參閱本文中的清單。
+description: 說明各種輸入引數所使用的值。 如需詳細資訊，請參閱本文中的清單。
 solution: Experience Manager
 title: 電子郵件設定
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 5%
 
 # 電子郵件設定{#email-settings}
 
-描述各種輸入參數使用的值。 有關詳細資訊，請參閱本文中的清單。
+說明各種輸入引數所使用的值。 如需詳細資訊，請參閱本文中的清單。
 
 語法
 

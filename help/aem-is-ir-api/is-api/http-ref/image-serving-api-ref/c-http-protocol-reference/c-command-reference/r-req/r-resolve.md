@@ -1,5 +1,5 @@
 ---
-description: 調試請求。 此debug命令解析並預處理請求、執行影像目錄查找、目錄修改量包含、宏和變數替換等，如req=img。
+description: 偵錯請求。 此偵錯命令會剖析及預先處理請求、執行影像目錄查閱、目錄修飾元包含、巨集和變數替代等，就像req=img一樣。
 solution: Experience Manager
 title: 解決
 feature: Dynamic Media Classic,SDK/API
@@ -14,10 +14,10 @@ ht-degree: 2%
 
 # 解決{#resolve}
 
-調試請求。 此debug命令解析並預處理請求、執行影像目錄查找、目錄：:Modifier inclusion、宏和變數替換等，就像req=img。
+偵錯請求。 此偵錯命令會剖析及預先處理請求、執行影像目錄查閱、catalog：：Modifier包含、巨集和變數替代等，就像req=img一樣。
 
 `req=resolve`
 
-返回最終請求字串，而不是結果影像，具有MIME類型 `text/plain`。
+傳回的是MIME型別的最終請求字串，而不是結果影像 `text/plain`.
 
-HTTP響應不可快取。
+無法快取HTTP回應。

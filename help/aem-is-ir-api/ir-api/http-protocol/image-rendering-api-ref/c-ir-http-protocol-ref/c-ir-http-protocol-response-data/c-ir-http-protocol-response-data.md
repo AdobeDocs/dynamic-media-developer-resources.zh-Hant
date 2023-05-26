@@ -1,6 +1,6 @@
 ---
-title: HTTP協定響應資料
-description: 影像呈現生成HTTP/1.1響應標頭。
+title: HTTP通訊協定回應資料
+description: 影像演算會產生HTTP/1.1回應標題。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,6 +12,6 @@ ht-degree: 0%
 
 ---
 
-# HTTP協定響應資料{#http-protocol-response-data}
+# HTTP通訊協定回應資料{#http-protocol-response-data}
 
-影像呈現生成HTTP/1.1響應標頭。
+影像演算會產生HTTP/1.1回應標題。

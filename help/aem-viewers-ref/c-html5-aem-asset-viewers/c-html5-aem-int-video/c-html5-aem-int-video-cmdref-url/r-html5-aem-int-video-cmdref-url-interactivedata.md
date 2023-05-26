@@ -1,6 +1,6 @@
 ---
-title: 互動式資料
-description: Interactive Video Viewer的URL命令。
+title: interactivedata
+description: 互動式視訊檢視器的URL命令。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -12,19 +12,19 @@ ht-degree: 5%
 
 ---
 
-# 互動式資料{#interactivedata}
+# interactivedata{#interactivedata}
 
-Interactive Video Viewer的URL命令。
+互動式視訊檢視器的URL命令。
 
 `interactivedata= *`file`*`
 
-互動式資料將視頻內容中的某些時間區域與產品資料相關聯，產品資料稍後顯示在視頻旁邊的互動式色板中。 它還與視頻播放結束時顯示的行動要求面板相關聯。 它還提供了在「行動呼叫」面板中顯示的互動式視頻的標題。
+互動式資料會將視訊內容中的特定時間區域與產品資料建立關聯，而產品資料稍後會顯示在視訊旁的互動式色票中。 它也會與影片播放結束時顯示的行動號召面板相關聯。 此外，也提供呼叫動作面板中顯示的互動式視訊標題。
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 檔案</span> </span> </p> </td> 
-   <td colname="col2"> <p> 指定WebVTT交互資料內容的URL或路徑。 WebVTT檔案必須由影像服務提供。 </p> </td> 
+   <td colname="col2"> <p> 指定WebVTT互動式資料內容的URL或路徑。 WebVTT檔案必須由影像伺服提供服務。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,6 +1,6 @@
 ---
 title: SmartCropVideoPlayer.autoplay
-description: Smart Crop Video Viewer的配置屬性。
+description: 智慧型裁切視訊檢視器的設定屬性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 11%
 
 # SmartCropVideoPlayer.autoplay{#smartcropvideoplayer-autoplay}
 
-Smart Crop Video Viewer的配置屬性。
+智慧型裁切視訊檢視器的設定屬性。
 
 ` [SmartCropVideoPlayer.|<containerId>_videoPlayer.]autoplay= *`0 | 1`*`
 
@@ -22,7 +22,7 @@ Smart Crop Video Viewer的配置屬性。
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 0|1</span> </span> </p> </td> 
-   <td colname="col2"> <p> 指示查看器是否在載入時開始播放視頻。 某些系統（如某些移動設備）不支援AutoPlay。 </p> </td> 
+   <td colname="col2"> <p> 指出檢視器在載入時是否開始播放視訊。 某些系統（例如某些行動裝置）不支援AutoPlay。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

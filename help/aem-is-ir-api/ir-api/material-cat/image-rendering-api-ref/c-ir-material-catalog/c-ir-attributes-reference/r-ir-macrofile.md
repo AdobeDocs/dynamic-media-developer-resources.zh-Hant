@@ -1,6 +1,6 @@
 ---
-title: 宏檔案
-description: 宏定義檔案路徑。 指定包含此材料目錄的宏定義的檔案。
+title: 巨集檔案
+description: 巨集定義檔案路徑。 指定包含此材質目錄之巨集定義的檔案。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,18 +12,18 @@ ht-degree: 4%
 
 ---
 
-# 宏檔案{#macrofile}
+# 巨集檔案{#macrofile}
 
-宏定義檔案路徑。 指定包含此材料目錄的宏定義的檔案。
+巨集定義檔案路徑。 指定包含此材質目錄之巨集定義的檔案。
 
 ## 屬性 {#section-74ab431f12fb4fc9b1e222c752cfb4cb}
 
-文本字串值。 相對於目錄資料夾的絕對檔案路徑或路徑。
+文字字串值。 相對於目錄資料夾的絕對檔案路徑。
 
 ## 預設 {#section-1ceb724a30444a5fbb870105b83c212c}
 
-空，表示此物料目錄沒有私有宏定義。
+空白，表示此材質目錄沒有專用巨集定義。
 
 ## 另請參閱 {#section-22638a9ff5e9493ea93222e5f49febde}
 
-[宏定義](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-macro-definition-reference/c-ir-macro-definition-reference.md#concept-477b77fa187147bfa55fa67134d4a453)
+[巨集定義](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-macro-definition-reference/c-ir-macro-definition-reference.md#concept-477b77fa187147bfa55fa67134d4a453)

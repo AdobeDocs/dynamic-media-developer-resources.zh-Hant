@@ -1,7 +1,7 @@
 ---
 description: 發佈狀態更新的陣列。
 solution: Experience Manager
-title: 發佈狀態更新陣列
+title: PublishStateUpdateArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d78e0f53-fa2f-472c-82a1-b8435a8e4923

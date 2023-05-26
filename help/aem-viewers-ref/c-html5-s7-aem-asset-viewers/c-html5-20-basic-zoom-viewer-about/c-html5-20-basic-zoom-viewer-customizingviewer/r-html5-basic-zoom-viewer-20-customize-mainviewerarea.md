@@ -1,6 +1,6 @@
 ---
-title: 主查看器區域
-description: 主視圖區域是縮放影像所佔用的區域。 它通常設定為在未指定大小時適合可用設備螢幕。
+title: 主要檢視器區域
+description: 主要檢視區域是縮放影像佔用的區域。 若未指定大小，通常會設定為符合可用的裝置熒幕。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
@@ -12,15 +12,15 @@ ht-degree: 2%
 
 ---
 
-# 主查看器區域{#main-viewer-area}
+# 主要檢視器區域{#main-viewer-area}
 
-主視圖區域是縮放影像所佔用的區域。 它通常設定為在未指定大小時適合可用設備螢幕。
+主要檢視區域是縮放影像佔用的區域。 若未指定大小，通常會設定為符合可用的裝置熒幕。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**主查看器區域的CSS屬性**
+**主要檢視器區域的CSS屬性**
 
-查看區域的外觀由以下CSS類選擇器控制：
+檢視區域的外觀是由下列CSS類別選取器所控制：
 
 ```
 .s7basiczoomviewer
@@ -36,20 +36,20 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>查看器的寬度。 </p> </td> 
+   <td colname="col2"> <p>檢視器的寬度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>查看器的高度。 </p> </td> 
+   <td colname="col2"> <p>檢視器的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
-   <td colname="col2"> <p> 十六進位格式的背景色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p> 以十六進位格式表示的背景顏色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例 — 設定具有白色背景的查看器( `#FFFFFF`)，使其尺寸為512 x 288像素。
+範例 — 設定具有白色背景的檢視器( `#FFFFFF`)，並將其大小設為512 x 288畫素。
 
 ```
 .s7basiczoomviewer{ 

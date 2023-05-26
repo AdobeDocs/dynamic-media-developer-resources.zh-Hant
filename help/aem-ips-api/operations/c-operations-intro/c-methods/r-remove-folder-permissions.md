@@ -1,5 +1,5 @@
 ---
-description: 刪除資料夾權限。
+description: 移除檔案夾許可權。
 solution: Experience Manager
 title: removeFolderPermissions
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 17%
 
 # removeFolderPermissions{#removefolderpermissions}
 
-刪除資料夾權限。
+移除檔案夾許可權。
 
 語法
 
-## 授權用戶類型 {#section-bfa745624f9b43aaba6c226ac6700fe7}
+## 授權的使用者型別 {#section-bfa745624f9b43aaba6c226ac6700fe7}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -39,27 +39,27 @@ ht-degree: 17%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 公司句柄</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 具有要刪除權限的資料夾的公司的句柄。 </td> 
+   <td colname="col4"> 具有您要移除之許可權資料夾的公司控制代碼。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 處理資料夾。 </td> 
+   <td colname="col4"> 資料夾的控制代碼。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 更新子項</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> updateChilds</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> <p>當 <span class="codeph"> 真</span>: 
+   <td colname="col4"> <p>時間 <span class="codeph"> true</span>： 
      <ul id="ul_1305D060E0F34A61AA3C827E43F296E6"> 
-      <li id="li_AB8705F3CEAD4B8A8F1C28291A6F7EC8">權限刪除通過所有資料夾權限操作傳播。 </li> 
-     </ul> </p> <p>當 <span class="codeph"> 假</span>: 
+      <li id="li_AB8705F3CEAD4B8A8F1C28291A6F7EC8">許可權移除會傳播到所有檔案夾許可權操作。 </li> 
+     </ul> </p> <p>時間 <span class="codeph"> false</span>： 
      <ul id="ul_19AEE80F1FC84B64AD623E050C12A0CD"> 
-      <li id="li_B8B78851004C43DB8CB7958E380AF510">該操作僅影響指定的資料夾。 </li> 
+      <li id="li_B8B78851004C43DB8CB7958E380AF510">此操作只會影響指定的資料夾。 </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -67,11 +67,11 @@ ht-degree: 17%
 
 **輸出(removeFolderPermissionsReturn)**
 
-IPS API不會為此操作返迴響應。
+IPS API未傳回此作業的回應。
 
 ## 範例 {#section-04390f0ec7cc460cb5d34d518e33e7a5}
 
-此代碼示例從資料夾及其子資料夾中刪除權限。 設定 `updateChildren` 至 `false` 只需從父資料夾中刪除權限。
+此程式碼範例會從資料夾及其子資料夾中移除許可權。 設定 `updateChildren` 至 `false` 如果您只需要從父資料夾中移除許可權。
 
 **請求**
 

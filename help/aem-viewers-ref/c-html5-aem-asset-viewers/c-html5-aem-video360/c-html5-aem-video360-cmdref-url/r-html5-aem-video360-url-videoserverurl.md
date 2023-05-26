@@ -1,6 +1,6 @@
 ---
-title: 視頻伺服器URL
-description: Video360 Viewer的URL命令。
+title: videoServerUrl
+description: Video360檢視器的URL命令。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -12,17 +12,17 @@ ht-degree: 5%
 
 ---
 
-# 視頻伺服器URL{#videoserverurl}
+# videoServerUrl{#videoserverurl}
 
-Video360 Viewer的URL命令。
+Video360檢視器的URL命令。
 
-` videoServerUrl= *`視頻根路徑`*`
+` videoServerUrl= *`videoRootPath`*`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 視頻根路徑</span> </span> </p> </td> 
-   <td colname="col2"> <p> 視頻伺服器根路徑。 如果未指定域，則將應用從中提供頁面的域。 應用標準URI路徑解析。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> videoRootPath</span> </span> </p> </td> 
+   <td colname="col2"> <p> 視訊伺服器根路徑。 若未指定網域，則改為套用伺服頁面的網域。 適用標準URI路徑解析。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -20,16 +20,16 @@ ht-degree: 9%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> <span class="varname"> 步驟</span> </span> </p> </td> 
-   <td> <p>水準步驟。 </p> </td> 
+   <td> <p>水準步階。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> <span class="varname"> vStep</span> </span> </p> </td> 
-   <td> <p>垂直步驟。 </p> </td> 
+   <td> <p>垂直步階。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-指定每次按一下或點擊相應滾動按鈕時要滾動的色板數。
+指定每次按一下或點選相對應的捲動按鈕時，要捲動的色票數目。
 
 ## 屬性 {#section-5526a5d19e7e4ee2a35b1c4816ed4202}
 

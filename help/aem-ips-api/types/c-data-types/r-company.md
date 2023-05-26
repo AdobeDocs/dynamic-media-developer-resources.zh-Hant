@@ -22,7 +22,7 @@ ht-degree: 27%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 公司句柄 | `xsd:string` | 公司負責。 |
+| companyHandle | `xsd:string` | 公司控點。 |
 | [!DNL name] | `xsd:string` | 公司名稱. |
-| 根路徑 | `xsd:string` | 公司的根路徑。 |
+| rootPath | `xsd:string` | 公司的根路徑。 |
 | [!DNL expires] | `xsd:dateTime` | 公司到期的日期和時間。 |

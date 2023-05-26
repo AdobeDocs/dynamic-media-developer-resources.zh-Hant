@@ -1,7 +1,7 @@
 ---
-description: 影像呈現會佔用磁碟空間以用於快取和記錄。
+description: 影像演算會佔用磁碟空間來快取和記錄。
 solution: Experience Manager
-title: 動態磁碟空間考慮事項
+title: 動態磁碟空間考量事項
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 7d335c1e-416e-4790-9a33-cd31ed112f82
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# 動態磁碟空間考慮事項{#dynamic-disk-space-considerations}
+# 動態磁碟空間考量事項{#dynamic-disk-space-considerations}
 
-影像呈現會佔用磁碟空間以用於快取和記錄。
+影像演算會佔用磁碟空間來快取和記錄。
 
-有關其他資訊，請參閱日誌記錄和快取。
+如需詳細資訊，請參閱記錄與快取。

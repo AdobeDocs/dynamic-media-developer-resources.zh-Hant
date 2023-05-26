@@ -1,7 +1,7 @@
 ---
 description: Photoshop檔案屬性。
 solution: Experience Manager
-title: Psd資訊
+title: PsdInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 620cf7a3-ae69-4d1e-af3d-64fe7f0302c8
@@ -24,6 +24,6 @@ Photoshop檔案屬性。
 |---|---|---|
 | 原始路徑 | `xsd:string` | 檔案路徑。 |
 | 原始檔案 | `xsd:string` | 檔案名稱. |
-| 優化路徑 | `xsd:string` | 檔案路徑。 |
-| 優化檔案 | `xsd:string` | 檔案名稱. |
-| 檔案大小 | `xsd:int` | 檔案大小。 |
+| optimizedPath | `xsd:string` | 檔案路徑。 |
+| optimizedFile | `xsd:string` | 檔案名稱. |
+| fileSize | `xsd:int` | 檔案大小。 |

@@ -1,6 +1,6 @@
 ---
 title: 頁面檢視
-description: 主視圖由目錄影像組成。 可以刷新它以進入另一頁或縮放。
+description: 主檢視由目錄影像組成。 它可以輕掃以進入另一個頁面或縮放。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 4%
 
 # 頁面檢視{#page-view}
 
-主視圖由目錄影像組成。 可以刷新它以進入另一頁或縮放。
+主檢視由目錄影像組成。 它可以輕掃以進入另一個頁面或縮放。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**主查看器區域的CSS屬性**
+**主要檢視器區域的CSS屬性**
 
-查看區域的外觀由以下CSS類選擇器控制：
+檢視區域的外觀是由下列CSS類別選取器所控制：
 
 ```
 .s7ecatalogsearchviewer .s7pageview
@@ -35,17 +35,17 @@ ht-degree: 4%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
-   <td colname="col2"> <p> 主視圖的背景色（十六進位格式）。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p> 主檢視的背景顏色（以十六進位格式）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 游標 </span> </p> </td> 
-   <td colname="col2"> <p>顯示在主視圖上的游標。 </p> </td> 
+   <td colname="col2"> <p>顯示在主檢視上的游標。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例 — 使主視圖透明。
+範例 — 讓主檢視透明。
 
 ```
 .s7ecatalogsearchviewer .s7pageview { 
@@ -53,7 +53,7 @@ ht-degree: 4%
 }
 ```
 
-在台式機系統上，該元件支援 `cursortype` 可應用於的屬性選擇器 `.s7pageview` 類，並根據元件狀態和用戶操作控制游標的類型。 以下 `cursortype` 值受支援：
+在桌上型電腦系統上，元件支援 `cursortype` 可套用到的屬性選擇器 `.s7pageview` 類別並根據元件狀態和使用者動作控制游標型別。 下列專案 `cursortype` 支援的值：
 
 <table id="table_45B83F6CCDE84C36B0E087CA9144BFE6"> 
  <thead> 
@@ -65,28 +65,28 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> default </span> </p> </td> 
-   <td colname="col2"> <p>當由於影像解析度低、元件設定或兩者都不可縮放時顯示。 </p> </td> 
+   <td colname="col2"> <p>因影像解析度小、元件設定或兩者而不可縮放時顯示。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 牛 </span> </p> </td> 
-   <td colname="col2"> <p>可放大影像時顯示。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 縮放 </span> </p> </td> 
+   <td colname="col2"> <p>影像可放大時顯示。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 重設 </span> </p> </td> 
-   <td colname="col2"> <p>當影像處於最大縮放級別時顯示，並且可以重置為初始狀態。 </p> </td> 
+   <td colname="col2"> <p>當影像處於最大縮放等級時顯示，並可重設為初始狀態。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 拖曳 </span> </p> </td> 
-   <td colname="col2"> <p>當用戶平移處於縮放狀態的影像時顯示。 </p> </td> 
+   <td colname="col2"> <p>當使用者平移處於已縮放狀態的影像時顯示。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 滑 </span> </p> </td> 
-   <td colname="col2"> <p>當用戶通過水準輕掃或輕拂執行影像交換時顯示。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 幻燈片 </span> </p> </td> 
+   <td colname="col2"> <p>當使用者執行水準撥動或輕觸來執行影像交換時顯示。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-通過以下CSS類選擇器控制可視化分隔目錄跨頁的左頁和右頁的分頁符：
+視覺上分隔目錄跨頁左右頁面的頁面分隔線，由下列CSS類別選取器控制：
 
 `.s7ecatalogsearchviewer .s7pageview .s7pagedivider`
 
@@ -100,16 +100,16 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> 分頁符的寬度。 設定為 <span class="codeph"> 0 </span> px可完全隱藏分隔線。 </p> </td> 
+   <td colname="col2"> <p> 頁面分隔線的寬度。 設定為 <span class="codeph"> 0 </span> px以完全隱藏分隔線。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景影像 </span> </p> </td> 
-   <td colname="col2"> <p>要用作分頁符的影像。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col2"> <p>您要用作頁面分隔線的影像。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例 — 使用半透明影像具有40像素寬的分頁符。
+範例 — 具有40畫素的寬分頁器，含半透明影像。
 
 ```
 .s7ecatalogsearchviewer .s7pageview .s7pagedivider { 
@@ -120,9 +120,9 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->當 `frametransition` 修改量設定為 `turn` 或 `auto` （在案頭系統上），頁面分隔器的外觀由 `pageturnstyle` 修飾符和 `.s7pagedivider` 忽略CSS類。
+>當 `frametransition` 修飾元設為 `turn` 或 `auto` （在桌上型電腦系統上），分頁器的外觀是由 `pageturnstyle` 修飾元與 `.s7pagedivider` 已忽略CSS類別。
 
-可以在主查看器區域上配置自定義滑鼠游標的顯示。 此功能由應用於的附加屬性選擇器控制 `.s7ecatalogsearchviewer .s7pageview` CSS類：
+您可在主要檢視器區域上設定自訂滑鼠游標顯示。 此功能由套用到的其他屬性選擇器控制 `.s7ecatalogsearchviewer .s7pageview` CSS類別：
 
 <table id="table_908164DECF9347A19A9696A23BBDB1A2"> 
  <thead> 
@@ -134,28 +134,28 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> default </span> </p> </td> 
-   <td colname="col2"> <p> 通常為箭頭，顯示不可縮放影像。 </p> </td> 
+   <td colname="col2"> <p> 通常為箭頭，會顯示不可縮放的影像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 牛 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 縮放 </span> </p> </td> 
    <td colname="col2"> <p> 顯示何時可以放大影像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 重設 </span> </p> </td> 
-   <td colname="col2"> <p>顯示影像處於最大縮放時可以重置的時間。 </p> </td> 
+   <td colname="col2"> <p>顯示影像何時達到最大縮放並可重設。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 拖曳 </span> </p> </td> 
-   <td colname="col2"> <p>顯示用戶在影像中縮放時執行拖動操作的時間 </p> </td> 
+   <td colname="col2"> <p>顯示使用者何時對已縮放的影像執行拖曳操作 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 滑 </span> </p> </td> 
-   <td colname="col2"> <p>顯示用戶何時使用幻燈片手勢執行影像交換 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 幻燈片 </span> </p> </td> 
+   <td colname="col2"> <p>顯示使用者使用投影片手勢執行影像交換的時間 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例 — 每種類型的元件狀態具有不同的滑鼠游標。
+範例 — 每種元件狀態的滑鼠游標型別不同。
 
 ```
 .s7ecatalogsearchviewer .s7pageview[cursortype="default"] { 

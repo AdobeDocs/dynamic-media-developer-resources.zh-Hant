@@ -1,6 +1,6 @@
 ---
-title: 層
-description: 選擇「圖層」。 在命令序列中選取一個圖層並啟動一個新的圖層定義段。
+title: 圖層
+description: 選取圖層。 選取圖層並在指令序列中開始新的圖層定義區段。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# 層{#layer}
+# 圖層{#layer}
 
-選擇「圖層」。 在命令序列中選取一個圖層並啟動一個新的圖層定義段。
+選取圖層。 選取圖層並在指令序列中開始新的圖層定義區段。
 
 `layer= *`n`*|comp[, *`名稱`*]`
 
@@ -23,56 +23,56 @@ ht-degree: 0%
 <table id="simpletable_22DE3365A6454949B0D30C6D7110476E"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> n</span></span> </p></td> 
-  <td class="stentry"> <p>要選擇的層數（0或更大的int）。 </p></td> 
+  <td class="stentry"> <p>要選取的圖層數目（0或大於int）。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> 元件</span> </p></td> 
-  <td class="stentry"> <p>選擇複合影像。 </p></td> 
+  <td class="stentry"> <p><span class="codeph"> comp</span> </p></td> 
+  <td class="stentry"> <p>選取複合影像。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> 名稱</span></span> </p></td> 
-  <td class="stentry"> <p>層名稱。 </p></td> 
+  <td class="stentry"> <p>圖層名稱。 </p></td> 
  </tr> 
 </table>
 
-層段內的所有命令都應用於指定的層。 層段由下一個 `layer=` 或 `effect=` 命令或請求的結尾。
+圖層區段內的所有指令都會套用到指定的圖層。 圖層區段會由下一個終止 `layer=` 或 `effect=` 命令或要求的結尾。
 
-指定 `layer=comp` 的子菜單。
+指定 `layer=comp` 以選取複合影像（或某些指令的檢視）。
 
-層號有效地指定層的z階。 編號較高的圖層放置在編號較低的圖層的頂部。
+圖層編號會有效地指定圖層的z順序。 編號較高的圖層會放置在編號較低的圖層的頂端。
 
-層號不必是連續的。 第0層是必填項。
+圖層編號不需要連續。 需要圖層0。
 
-可以將名稱分配給具有 `layer= *`n`*, *`名稱`*` 命令變數。 定義命名層後，可以使用 ` layer= *`名稱`*`，不需要知道層號。 可以使用多個名稱為同一層分配多個名稱 `layer= *`n`*, *`名稱`*` 的雙曲餘切值。
+可以使用為圖層指定名稱 `layer= *`n`*, *`名稱`*` 命令變體。 定義已命名圖層後，可參照該圖層 ` layer= *`名稱`*`，而不需要知道圖層編號。 可以使用多個名稱指派給相同的圖層 `layer= *`n`*, *`名稱`*` 命令。
 
 >[!NOTE]
 >
->第0層確定合成畫布的總體大小。 在構建複合材料時，將裁剪掉位於層0邊界之外的所有層。
+>圖層0決定合成畫布的整體大小。 建立複合時，落在圖層0邊界以外的所有圖層部分都會被裁切。
 
 ## 屬性 {#section-499963ee52c14f2898f0d0f90c1d01be}
 
-層命令。 中不支援替代變數引用 `layer=`。
+圖層指令。 不支援替代變數參考 `layer=`.
 
-`comp` 不允許作為 *`name`* 的下界。 如果相同，則返回錯誤 *`name`* 指定給多個層，或者如果某個層由 *`name`* 之前沒有定義過。
+`comp` 不允許作為 *`name`* 字串。 若相同則傳回錯誤 *`name`* 會指定給多個圖層，或是參考了某個圖層 *`name`* 之前未定義的字元。
 
 ## 預設 {#section-091859a03f8048c2b7092f0fec9c1006}
 
-`layer=comp`. 如果 `layer=comp`。
+`layer=comp`. 許多指令和屬性會套用至圖層0，如果 `layer=comp`.
 
-## 特殊案例 {#section-e087cb2e3562473e8d391abfa3b9489f}
+## 特殊情況 {#section-e087cb2e3562473e8d391abfa3b9489f}
 
-* 如果同一名稱映射到多個層(例如： `layer=1,image&layer=2,image`)，出現錯誤。
-* 如果同一名稱多次映射到單個層(例如： `layer=1,image&layer=1,image`)，範圍設定為正常，無錯誤。
-* 支援同一層的多個名稱。
+* 如果相同名稱對應至多個圖層(例如： `layer=1,image&layer=2,image`)，則會發生錯誤。
+* 如果將相同名稱多次對應至單一圖層(例如： `layer=1,image&layer=1,image`)，範圍已如常設定，沒有錯誤。
+* 支援相同圖層的多個名稱。
 
-   任一名稱都可用於引用層(例如： `layer=1,image&layer=1,picture`)。
-* 如果引用的名稱從未映射到層號(例如： `layer=1,image&layer=picture`)，出現錯誤。
-* 層修飾符中不支援替代變數(例如： `layer=$image$`)。
+   任一名稱都可用於參照圖層(例如： `layer=1,image&layer=1,picture`)。
+* 如果參照的名稱從未對應至圖層編號(例如： `layer=1,image&layer=picture`)，則會發生錯誤。
+* 圖層修飾元中不支援替代變數(例如： `layer=$image$`)。
 
-   這適用於所有排列，不僅適用於圖層名稱，而且適用於一般的圖層修飾符。
+   這適用於所有排列，不僅適用於圖層名稱，而且適用於一般的圖層修飾元。
 
-* 所有合併和覆蓋規則應與在多個源（請求、前或後修飾符目錄記錄、宏等）中引用同一層時完全一樣。
+* 所有合併和覆寫規則的運作方式，應該與在多個來源（請求、前置或後置修飾元目錄記錄、巨集等）中參考相同圖層時完全相同。
 
 ## 範例 {#section-cc40de6a0a754178aa752601539c815b}
 
-請參閱中的示例 [模板](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e)。
+請參閱以下範例說明： [範本](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e).

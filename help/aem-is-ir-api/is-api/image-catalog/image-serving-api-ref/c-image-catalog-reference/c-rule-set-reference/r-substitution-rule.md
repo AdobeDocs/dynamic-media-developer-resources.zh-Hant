@@ -1,5 +1,5 @@
 ---
-description: 替代字串元素。 可選 <rule> 元素。
+description: 替代字串元素。 選填於 <rule> 元素。
 solution: Experience Manager
 title: 替代
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # 替代{#substitution}
 
-替代字串元素。 可選 `<rule>` 元素。
+替代字串元素。 選填於 `<rule>` 元素。
 
 ## 屬性 {#section-a4506fcb765f4f128f7f1f2629b18a6c}
 
@@ -26,20 +26,20 @@ ht-degree: 2%
 
 ## 說明 {#section-4a64a93f5e1a4d04a2db19166578bf76}
 
-為路徑或查詢中匹配的字串或子字串定義替換字串。
+為路徑或查詢中的相符字串或子字串定義取代字串。
 
-如果模式表達式包含子表達式（用括弧分隔），則第一個匹配的子字串將替換為替換字串。 如果模式表達式不包括子表達式，則替換整個匹配字串。
+如果模式運算式包含子運算式（以括弧分隔），則第一個相符的子字串會取代為替代字串。 如果模式運算式不包含子運算式，則會取代整個相符的字串。
 
-如果 `<expression>` 為空或不存在，替換字串將附加到路徑或查詢。
+若 `<expression>` 為空白或不存在，則會將替代字串附加至路徑或查詢。
 
-如果 `<substitution>` 為空，將刪除匹配的字串或子字串。 如果 `<substitution>` 未指定，則不修改路徑或查詢字串。
+若 `<substitution>` 空白，則會移除相符的字串或子字串。 若 `<substitution>` 未指定，路徑或查詢字串未修改。
 
 >[!NOTE]
 >
->輸入字串中的所有匹配項在 `replace="all"` 在 `<rule>`，元素 `<substitution>` 元素屬於。 預設情況下，只有第一個匹配項被替換為替換字串。
+>在下列情況下，輸入字串中的所有相符專案都會被取代： `replace="all"` 指定於 `<rule>`，此專案所屬的元素 `<substitution>` 元素所屬的。 依預設，只有第一個相符專案會取代為替代字串。
 
 ## 注意 {#section-cedf2adabaaf441c9f598fb0ea180246}
 
-替代字串不能包含字面&lt;和&amp;字元。 這些保留字元可以用 `&` 和 `<`，或者整個字串可以括在XML CDATA部分中：
+替代字串不得包含常值&lt;和&amp;字元。 這些保留字元可編碼為 `&` 和 `<`，或是整個字串可以包含在XML CDATA區段中：
 
 `<substitution><![CDATA[&text=<Hello, world!>]]></ substitution>`

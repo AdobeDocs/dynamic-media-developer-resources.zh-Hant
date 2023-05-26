@@ -1,6 +1,6 @@
 ---
-title: 路徑嵌入
-description: 嵌入路徑資料。 指定是否應將嵌入在視頻中的Photoshop路徑包含在響應影像中。
+title: pathEmbed
+description: 內嵌路徑資料。 指定回應影像中是否應包含暈映中內嵌的Photoshop路徑。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,22 +12,22 @@ ht-degree: 2%
 
 ---
 
-# 路徑嵌入{#pathembed}
+# pathEmbed{#pathembed}
 
-嵌入路徑資料。 指定是否應將嵌入在視頻中的Photoshop路徑包含在響應影像中。
+內嵌路徑資料。 指定回應影像中是否應包含暈映中內嵌的Photoshop路徑。
 
 `pathEmbed=0|1`
 
 ## 屬性 {#section-be50b6d1ebd14a9c93f80ac338b44bfc}
 
-請求屬性。 如果視圖不包含路徑資料，則忽略。 路徑資料將縮放到 `wid=` 和/或 `hei=` 必要時。
+要求屬性。 如果暈映不包含路徑資料則忽略。 路徑資料會縮放至 `wid=` 和/或 `hei=` 如有需要。
 
-如果輸出影像格式不支援路徑嵌入，則忽略。 請參閱 `fmt=` 的子菜單。
+如果輸出影像格式不支援路徑內嵌，則忽略。 請參閱 `fmt=` 以取得支援路徑內嵌的輸出影像格式清單。
 
 ## 預設 {#section-3be88ed9053b48919ff33af9418078cc}
 
-`pathEmbed=0`，以在輸出影像中不嵌入路徑。
+`pathEmbed=0`，不會將路徑內嵌在輸出影像中。
 
 ## 另請參閱 {#section-4e6151658c384b6f9d0446f55dde7b7f}
 
-[fmt=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-fmt.md#reference-4c743f67d56b47c5b774fcc900ff758c)。 [wid=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-wid.md#reference-b7e691b0624941168c94b2749ae233ec)。 [黑=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-hei.md#reference-1c08f60365a94417a39867c09cac5478)
+[fmt=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-fmt.md#reference-4c743f67d56b47c5b774fcc900ff758c)， [wid=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-wid.md#reference-b7e691b0624941168c94b2749ae233ec)， [hei=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-hei.md#reference-1c08f60365a94417a39867c09cac5478)

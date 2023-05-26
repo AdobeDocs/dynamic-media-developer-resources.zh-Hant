@@ -16,17 +16,17 @@ ht-degree: 3%
 
 `[Swatches.|<containerId>_swatches.]align=left|center|right,top|center|bottom`
 
-指定元件區域內色板容器的內部對齊（錨定）。 在「色板」中，內部縮略圖容器的大小為，因此只顯示整數個色板。 因此，在內部容器和外部元件邊界之間存在填充。 此命令指定內部色板容器在元件內的放置方式。
+指定元件區域中色票容器的內部對齊（錨點）。 在「色票」中，會調整內部縮圖容器的大小，以只顯示整數的色票。 因此，內部容器和外部元件邊界間會有一段邊距。 此命令會指定如何將內部色票容器放置在元件內。
 
 <table id="table_58D88FF5F83A4ABA928695B5AFF97354"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> 左|中|右</span> </p> </td> 
-   <td> <p> 設定水準色板的對齊方式。 </p> </td> 
+   <td> <p> <span class="codeph"> left|center|right</span> </p> </td> 
+   <td> <p> 設定水準色票的對齊方式。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><span class="codeph"> 頂部|居中|底部</span> </p> </td> 
-   <td> <p> 設定垂直色板的對齊方式。 </p> </td> 
+   <td> <p><span class="codeph"> top|center|bottom</span> </p> </td> 
+   <td> <p> 設定垂直色票的對齊方式。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,5 +1,5 @@
 ---
-description: 映像欄位陣列更新。
+description: 影像欄位更新的陣列。
 solution: Experience Manager
 title: ImageFieldUpdateArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 25%
 
 # [!DNL ImageFieldUpdateArray]{#imagefieldupdatearray}
 
-映像欄位陣列更新。
+影像欄位更新的陣列。
 
 語法
 
@@ -22,4 +22,4 @@ ht-degree: 25%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 項目 | `types:ImageFieldUpdate` | 映像欄位更新的陣列。 |
+| 項目 | `types:ImageFieldUpdate` | 影像欄位更新的陣列。 |

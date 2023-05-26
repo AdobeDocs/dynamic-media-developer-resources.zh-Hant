@@ -1,7 +1,7 @@
 ---
-description: 縱向幀
+description: portraitFrame
 solution: Experience Manager
-title: 縱向幀
+title: portraitFrame
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 83822d1f-c19e-43ce-bec3-05ac4d4a027b
@@ -12,15 +12,15 @@ ht-degree: 6%
 
 ---
 
-# 縱向幀{#portraitframes}
+# portraitFrame{#portraitframes}
 
 [!DNL `portraitFrames=split|solid`]
 
 <table id="table_1D425B7685D448459CD3FE8D683C813C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 拆分|實體</span> </p> </td> 
-   <td colname="col2"> <p>設定為 <span class="codeph"> 分裂</span> 當在縱向移動設備上使用時，允許查看者將雙頁跨頁顯示為單獨的頁。 設定為 <span class="codeph"> 堅固</span> 始終將雙頁跨頁顯示為實體影像，而與設備方向無關。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> split|實體</span> </p> </td> 
+   <td colname="col2"> <p>設定為 <span class="codeph"> split</span> 可讓檢視器在行動裝置上以縱向使用時，將雙頁跨頁顯示為個別頁面。 設定為 <span class="codeph"> 實線</span> 無論裝置方向為何，一律將雙頁跨頁顯示為實心影像。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

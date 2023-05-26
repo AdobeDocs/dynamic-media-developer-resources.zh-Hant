@@ -1,5 +1,5 @@
 ---
-description: 隱藏層。 允許隱藏層而不從請求字串中刪除它。
+description: 隱藏圖層。 允許隱藏圖層而不從要求字串中移除它。
 solution: Experience Manager
 title: 隱藏
 feature: Dynamic Media Classic,SDK/API
@@ -14,14 +14,14 @@ ht-degree: 7%
 
 # 隱藏{#hide}
 
-隱藏層。 允許隱藏層而不從請求字串中刪除它。
+隱藏圖層。 允許隱藏圖層而不從要求字串中移除它。
 
 `hide=0|1`
 
 ## 屬性 {#section-09ff67290f064411baeb503a1aac2953}
 
-層屬性。 當為指定時應用於層0 `layer=comp`。
+圖層屬性。 指定時套用至圖層0 `layer=comp`.
 
 ## 預設 {#section-ec9f5130be1b435c84ba1bba54e38a48}
 
-`hide=0` 的子菜單。
+`hide=0` 用於可見圖層。

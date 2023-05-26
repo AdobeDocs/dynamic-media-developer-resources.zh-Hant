@@ -19,8 +19,8 @@ ht-degree: 17%
 <table id="table_863763B730A949AA8C0E11E6F8461E3A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 淡出|無</span> </p> </td> 
-   <td colname="col2"> <p> 指定資訊面板顯示/隱藏動畫的類型。 </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> 淡化|無</span> </p> </td> 
+   <td colname="col2"> <p> 指定資訊面板顯示/隱藏動畫的型別。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> 時間</span></span> </p> </td> 

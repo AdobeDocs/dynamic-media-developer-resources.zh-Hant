@@ -1,7 +1,7 @@
 ---
-description: 更新映像集。
+description: 更新影像集。
 solution: Experience Manager
-title: 更新映像集
+title: updateImageSet
 feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,Admin
 exl-id: d8d5fb80-17f1-424f-8a61-27189f87d603
@@ -12,22 +12,22 @@ ht-degree: 20%
 
 ---
 
-# 更新映像集{#updateimageset}
+# updateImageSet{#updateimageset}
 
-更新映像集。
+更新影像集。
 
 語法
 
 ## 參數 {#section-3be47dbbce474ce78676b05e163492e3}
 
-**Input(updateImageSetParam)**
+**輸入(updateImageSetparam)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 公司句柄 | `xsd:string` | 是 | 包含要修改的映像集的公司的句柄。 |
-| 資產句柄 | `xsd:string` | 伊斯 | 要修改的影像集的句柄。 |
-| 成員陣列 | `types:ImageSetMemberUpdateArray` | 否 | 重置影像整合員。 |
-| 拇指資產句柄 | `xsd:string` | 否 | 用作影像集縮略圖的資產句柄。 |
+| companyHandle | `xsd:string` | 是 | 包含您要修改之影像集的公司的控制代碼。 |
+| assetHandle | `xsd:string` | 是 | 您要修改之影像集的操作框。 |
+| memberArray | `types:ImageSetMemberUpdateArray` | 否 | 重設影像整合員。 |
+| thumbAssetHandle | `xsd:string` | 否 | 資產的控制代碼，可作為影像集的縮圖。 |
 
 **輸出(updateImageSetReturn)**
 

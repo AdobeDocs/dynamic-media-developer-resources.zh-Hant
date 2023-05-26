@@ -1,5 +1,5 @@
 ---
-description: Flash流伺服器URL前置詞。 Flash流伺服器URL前置詞，用於生成具有req=mbrSet的多比特速率f4m響應。
+description: 串流伺服器URL首碼Flash。 產生具有req=mbrSet的多位元速率f4m回應時所使用的Flash串流伺服器URL首碼。
 solution: Experience Manager
 title: HttpFlashStreamingContext
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 7%
 
 # HttpFlashStreamingContext{#httpflashstreamingcontext}
 
-Flash流伺服器URL前置詞。 Flash流伺服器URL前置詞，用於生成具有req=mbrSet的多比特速率f4m響應。
+串流伺服器URL首碼Flash。 產生具有req=mbrSet的多位元速率f4m回應時所使用的Flash串流伺服器URL首碼。
 
 ## 屬性 {#section-e7ae7d96a7cb40829de7e784fcbbad33}
 
-表示URL前置詞的字串。 (例如 `http://my.server.com/flash/streaming`)
+代表URL首碼的字串。 (例如： `http://my.server.com/flash/streaming`)
 
 ## 預設 {#section-ee332f7842d24155a91ac18fbfb6fc0c}
 

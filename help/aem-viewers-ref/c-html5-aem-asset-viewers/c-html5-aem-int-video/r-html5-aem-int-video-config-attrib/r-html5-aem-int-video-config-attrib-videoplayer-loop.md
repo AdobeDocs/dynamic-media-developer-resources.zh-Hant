@@ -1,6 +1,6 @@
 ---
 title: VideoPlayer.loop
-description: Interactive Video Viewer的配置屬性。
+description: 互動式視訊檢視器的設定屬性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 13%
 
 # VideoPlayer.loop{#videoplayer-loop}
 
-Interactive Video Viewer的配置屬性。
+互動式視訊檢視器的設定屬性。
 
 `[VideoPlayer.|<containerId>_videoPlayer.]loop=0|1`
 
@@ -22,7 +22,7 @@ Interactive Video Viewer的配置屬性。
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 指示在播放完成後視頻是否應再次播放。 </p> </td> 
+   <td colname="col2"> <p> 指出視訊是否應該在播放完成後再次播放。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

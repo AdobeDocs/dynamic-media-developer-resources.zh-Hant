@@ -1,7 +1,7 @@
 ---
-description: 影像服務支援影像服務請求的無限嵌套、影像呈現請求的嵌入以及從外部伺服器檢索的影像的嵌入。 只有圖層影像和圖層蒙版支援這些機制。
+description: 「影像伺服」支援對「影像伺服」請求進行無限巢狀內嵌、內嵌影像演算請求，以及內嵌從外部伺服器擷取的影像。 只有圖層影像和圖層遮色片支援這些機制。
 solution: Experience Manager
-title: 請求嵌套和嵌入
+title: 請求巢狀內嵌與內嵌
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b9c9d241-5a3d-4637-a90a-d8cdf29cc968
@@ -12,31 +12,31 @@ ht-degree: 0%
 
 ---
 
-# 請求嵌套和嵌入{#request-nesting-and-embedding}
+# 請求巢狀內嵌與內嵌{#request-nesting-and-embedding}
 
-影像服務支援影像服務請求的無限嵌套、影像呈現請求的嵌入以及從外部伺服器檢索的影像的嵌入。 只有圖層影像和圖層蒙版支援這些機制。
+「影像伺服」支援對「影像伺服」請求進行無限巢狀內嵌、內嵌影像演算請求，以及內嵌從外部伺服器擷取的影像。 只有圖層影像和圖層遮色片支援這些機制。
 
 >[!NOTE]
 >
->某些電子郵件客戶端和代理伺服器可以對用於嵌套和嵌入語法的花括弧進行編碼。 對於此問題的應用程式，應使用圓括弧而不是大括弧。
+>某些電子郵件使用者端和Proxy伺服器可能會為用於巢狀和內嵌語法的大括弧進行編碼。 有問題的應用程式應使用括弧，而非大括弧。
 
-## 嵌套的影像服務請求 {#section-6954202119e0466f8ff27c79f4f039c8}
+## 巢狀影像伺服請求 {#section-6954202119e0466f8ff27c79f4f039c8}
 
-通過在 `src=` 或 `mask=`)命令，使用以下語法：
+您可以在「 」中指定整個「影像伺服」請求，以作為圖層來源 `src=` (或 `mask=`)命令，語法如下：
 
 `…&src=is( nestedRequest)&…`
 
-的 `is` 令牌區分大小寫。
+此 `is` Token區分大小寫。
 
-嵌套請求不得包括伺服器根路徑(通常 ` http:// *[!DNL server]*/is/image/'`)。
+巢狀要求不可包含伺服器根路徑(通常是 ` http:// *[!DNL server]*/is/image/'`)。
 
 >[!NOTE]
 >
->嵌套請求分隔符字元( `'(',')'`)和命令分隔符( `'?'`。 `'&'`。 `'='`)中的嵌套請求不能是HTTP編碼。 有效地，嵌套請求的編碼必須與外部（嵌套）請求相同。
+>巢狀請求分隔符號字元( `'(',')'`)和命令分隔符號字元( `'?'`， `'&'`， `'='`)不可以HTTP編碼。 實際上，巢狀要求的編碼必須與外部（巢狀）要求相同。
 
-預處理規則應用於嵌套請求。
+預先處理規則會套用至巢狀請求。
 
-當在嵌套請求中指定(在請求URL中或在 `catalog::Modifier` 或 `catalog::PostModifier`):
+在巢狀請求中指定時(在請求URL中或在 `catalog::Modifier` 或 `catalog::PostModifier`)：
 
 * `fmt=`
 * `qlt=`
@@ -46,27 +46,27 @@ ht-degree: 0%
 * `req=`
 * `bgc=`
 
-如果嵌套請求的結果影像包括掩碼(α)資料，則將其作為層掩碼傳遞給嵌入層。
+如果巢狀請求的結果影像包含遮色片(alpha)資料，則會將其傳遞至內嵌圖層，作為圖層遮色片。
 
-也忽略 `attribute::MaxPix`和 `attribute::DefaultPix` 映像目錄中的「已嵌套」請求。
+同樣被忽略的是 `attribute::MaxPix`和 `attribute::DefaultPix` 套用至巢狀請求的影像目錄的。
 
-通過包括嵌套IS請求的影像結果可以選擇性地被快取 `cache=on`。 預設情況下，中間資料的快取被禁用。 僅當中間映像預期在合理的時間段內以不同請求重新使用時，才應啟用快取。 應用標準伺服器端快取管理。 資料以無損格式快取。
+可選擇快取巢狀IS要求的影像結果，方法是包含 `cache=on`. 依預設，會停用中繼資料的快取。 只有在預期中繼影像會在合理時段內於不同請求中重複使用時，才應啟用快取。 標準伺服器端快取管理適用。 資料會以無損格式快取。
 
-## 嵌入式影像呈現請求 {#section-69c5548db930412b9b90d9b2951a6969}
+## 內嵌影像演算請求 {#section-69c5548db930412b9b90d9b2951a6969}
 
-在伺服器上啟用「Dynamic Media影像呈現」後，可以在src=（或mask=）命令中指定呈現請求作為層源。 使用以下語法：
+在伺服器上啟用Dynamic Media影像演算後，您可以在src= （或mask=）命令中指定演算請求，以將其作為圖層來源使用。 使用下列語法：
 
 ` …&src=ir( *[!DNL renderRequest]*)&…`
 
-的 `ir` 令牌區分大小寫。
+此 `ir` Token區分大小寫。
 
-*[!DNL renderRequest]* 是通常的影像呈現請求，不包括HTTP根路徑 ` http:// *[!DNL server]*/ir/render/`。
+*[!DNL renderRequest]* 是常見的影像演算要求，不包括HTTP根路徑 ` http:// *[!DNL server]*/ir/render/`.
 
 >[!NOTE]
 >
->嵌套請求分隔符字元( `'(',')'`)和命令分隔符( `'?'`。 `'&'`。 `'='`)中的嵌套請求不能是HTTP編碼。 有效地，嵌入請求的編碼必須與外部（嵌入）請求相同。
+>巢狀請求分隔符號字元( `'(',')'`)和命令分隔符號字元( `'?'`， `'&'`， `'='`)不可以HTTP編碼。 實際上，內嵌請求的編碼必須與外部（內嵌）請求相同。
 
-在嵌套請求中指定以下「影像呈現」命令時將忽略：
+在巢狀要求中指定時，會忽略下列影像演算命令：
 
 * `fmt=`
 * `qlt=`
@@ -75,29 +75,29 @@ ht-degree: 0%
 * `printRes=`
 * `req=`
 
-也忽略 `attribute::MaxPix` 和 `attribute::DefaultPix` 應用於嵌套渲染請求的材料目錄。
+同樣被忽略的是 `attribute::MaxPix` 和 `attribute::DefaultPix` 套用至巢狀轉譯器請求的材質目錄的。
 
-通過包括嵌套IR請求的影像結果可以選擇性地被快取 `cache=on`。 預設情況下，中間資料的快取被禁用。 僅當中間映像預期在合理的時間段內以不同請求重新使用時，才應啟用快取。 應用標準伺服器端快取管理。 資料以無損格式快取。
+可選擇快取巢狀IR要求的影像結果，方法是包含 `cache=on`. 依預設，會停用中繼資料的快取。 只有在預期中繼影像會在合理時段內於不同請求中重複使用時，才應啟用快取。 標準伺服器端快取管理適用。 資料會以無損格式快取。
 
-## 嵌入式FXG呈現請求 {#section-c817e4b4f7da414ea5a51252ca7e120a}
+## 內嵌FXG轉譯器請求 {#section-c817e4b4f7da414ea5a51252ca7e120a}
 
-FXG圖形呈現器時(又稱 [!DNL AGMServer])已安裝並啟用， FXG請求可通過在中指定來用作層源 `src=` 或 `mask=`)。 使用以下語法：
+當FXG圖形轉譯器(亦稱為 [!DNL AGMServer])安裝並啟用影像伺服時，FXG請求可透過在中指定來作為圖層來源 `src=` (或 `mask=`)命令。 使用下列語法：
 
 `…&src=fxg( renderRequest)&…`
 
-的 `fxg` 令牌區分大小寫。
+此 `fxg` Token區分大小寫。
 
 >[!NOTE]
 >
->FXG圖形渲染僅在Dynamic Media托管環境中提供，可能需要額外許可。 請聯繫Dynamic Media技術支援以瞭解更多資訊。
+>FXG圖形呈現僅適用於Dynamic Media代管環境，且可能需要額外的授權。 如需詳細資訊，請聯絡Dynamic Media技術支援。
 
-*[!DNL renderRequest]* 是通常的FXG呈現請求，不包括HTTP根路徑 ` http:// *[!DNL server]*/agm/render/`。
+*[!DNL renderRequest]* 是常見的FXG轉譯器要求，不包括HTTP根路徑 ` http:// *[!DNL server]*/agm/render/`.
 
 >[!NOTE]
 >
->分隔符字元( `'(',')'`)和命令分隔符( `'?'`。 `'&'`。 `'='`)中的嵌套請求不能是HTTP編碼。 有效地，嵌入請求的編碼必須與外部（嵌入）請求相同。
+>分隔符號字元( `'(',')'`)和命令分隔符號字元( `'?'`， `'&'`， `'='`)不可以HTTP編碼。 實際上，內嵌請求的編碼必須與外部（內嵌）請求相同。
 
-在嵌套請求中指定時，將忽略以下FXG命令：
+在巢狀要求中指定時，會忽略下列FXG命令：
 
 * `fmt=`
 * `qlt=`
@@ -105,58 +105,58 @@ FXG圖形呈現器時(又稱 [!DNL AGMServer])已安裝並啟用， FXG請求可
 * `iccEmbed=`
 * `cache=`
 
-## 外來影像源 {#section-84e83ecfcd1a43748cdfc7a6f8c04cb8}
+## 外部影像來源 {#section-84e83ecfcd1a43748cdfc7a6f8c04cb8}
 
-映像服務支援訪問外部HTTP伺服器上的源映像。
+「影像伺服」支援對外國HTTP伺服器上的來源影像的存取。
 
 >[!NOTE]
 >
->遠程URL僅支援HTTP協定。
+>遠端URL僅支援HTTP通訊協定。
 
-指定外來URL `src=` 或 `mask=` 命令，用括弧分隔外部URL或URL片段：
+若要為指定外部URL `src=` 或 `mask=` 命令，請使用括弧分隔外部URL或URL片段：
 
 `…&src=( foreignUrl)&…`
 
-重要資訊分隔符( `'(',')'`)和命令分隔符( `'?'`。 `'&'`。 `'='`)中的嵌套請求不能是HTTP編碼。 有效地，嵌入請求的編碼必須與外部（嵌入）請求相同。
+重要分隔符號字元( `'(',')'`)和命令分隔符號字元( `'?'`， `'&'`， `'='`)不可以HTTP編碼。 實際上，內嵌請求的編碼必須與外部（內嵌）請求相同。
 
-完全絕對URL(如果 `attribute::AllowDirectUrls` 設定)，以及與 `attribute::RootUrl` 的子菜單。 如果嵌入了絕對URL且屬性： `AllowDirectUrls` 為0，或者指定了相對URL並 `attribute::RootUrl` 為空。
+完整絕對URL (若 `attribute::AllowDirectUrls` 設定)，以及相對於 `attribute::RootUrl` 允許。 如果內嵌絕對URL且屬性為： `AllowDirectUrls` 為0，或如果已指定相對URL，且 `attribute::RootUrl` 空白。
 
-雖然無法在請求URL的路徑元件中直接指定外來URL，但可以設定預處理規則以允許將相對路徑轉換為絕對URL（請參見下面的示例）。
+雖然不能直接在要求URL的路徑元件中指定外部URL，但可以設定預先處理規則，以允許將相對路徑轉換為絕對URL （請參閱以下範例）。
 
-伺服器根據HTTP響應所包括的快取頭對外部影像進行快取。 如果 `ETag` 也不存在上次修改的HTTP響應標頭，響應不會快取。 這可能導致對同一外部映像的重複訪問效能較差，因為映像服務需要在每次訪問時重新獲取和重新驗證映像。
+伺服器會根據HTTP回應隨附的快取標頭快取外部影像。 如果兩者都不 `ETag` 不存在Last-Modified HTTP回應標頭，也不會快取回應。 這可能會導致重複存取相同外部影像的效能不佳，因為「影像伺服」在每次存取時都需要重新擷取和重新驗證影像。
 
-此機制支援影像轉換(IC)實用程式支援的相同影像檔案格式，但每個元件16位的源影像除外。
+此機制支援的影像檔案格式與影像轉換(IC)公用程式支援的格式相同，但每個元件有16位元的來源影像除外。
 
 >[!NOTE]
 >
->映像服務將在首次使用外部映像時自動運行驗證實用程式，以確保映像有效且在傳輸過程中未損壞。 這可能會導致首次訪問時出現輕微延遲。 為獲得最佳效能，建議限制此類影像的大小和/或使用壓縮良好的影像檔案格式。
+>「影像伺服」會在第一次使用外部影像時自動執行驗證公用程式，以確保影像有效且未在傳輸期間損毀。 這可能會造成首次存取的輕微延遲。 為獲得最佳效能，建議限制這類影像的大小，及/或使用可妥善壓縮的影像檔案格式。
 
 ## 限制 {#section-fb68e3f0d40947feb94d7bf183b64929}
 
-通常自動優化由嵌套/嵌入請求生成的影像的大小。 如果啟用嵌套請求影像的快取，可以通過指定嵌套影像的確切大小來實現增量效能增益，因此當重用快取條目時不需要進一步縮放。
+巢狀/內嵌請求產生的影像大小通常會自動最佳化。 如果已啟用巢狀要求影像的快取，則透過指定巢狀影像的確切大小可取得遞增的效能增益，如此當重複使用快取專案時，就不需要進一步縮放。
 
-重要資訊：Image Service不支援對嵌套或嵌入式請求進行雙重編碼。 嵌套和嵌入式請求必須像簡單請求一樣HTTP編碼。
+重要影像伺服不支援巢狀或內嵌請求雙重編碼。 巢狀內嵌請求必須像簡單請求一樣進行HTTP編碼。
 
 ## 範例 {#section-d800cfc31abe46d2a964f8e7929231f1}
 
-**分層模板（帶快取）:**
+**具有快取的分層範本：**
 
-使用嵌套將快取添加到分層模板。 有限數量的背景影像被高度可變的文本覆蓋。 初始模板字串可能如下所示：
+使用巢狀將快取加入至分層範本。 有限的背景影像上覆蓋有高度可變的文字。 初始範本字串看起來可能像這樣：
 
 `layer=0&src=$img$&size=300,300&layer=1&text=$txt$`
 
-只需稍作修改，我們就可以預縮放第0層映像並永久快取它，從而減少伺服器負載：
+稍加修改，我們就能預先縮放第0層影像，並持續快取，藉此降低伺服器負載：
 
 `layer=0&src=is(?src=$img$&size=300,300&cache=on)&layer=1&text=$txt$`
 
-**嵌入Dynamic Media影像渲染請求**
+**Dynamic Media影像演算的內嵌請求**
 
-使用儲存在 [!DNL myCatalog/myTemplate];使用Dynamic Media影像渲染為模板第2層生成影像：
+使用儲存在中的範本 [!DNL myCatalog/myTemplate]；使用Dynamic Media影像演算為範本的layer2產生影像：
 
 `http://server/is/image/myCatalog/myTemplate?layer=2&src=ir(myRenderCatalog/myRenderObject?id=myIdValue&sel=group&src=is(myCatalog/myTexture1?res=30)&res=30)&wid=300`
 
-注意嵌套的大括弧。 影像呈現請求嵌入對影像服務的回叫以檢索可重複紋理。
+請注意巢狀大括弧。 「影像演算」請求會將呼叫內嵌回「影像伺服」，以擷取可重複的紋理。
 
 ## 另請參閱 {#section-109a0a9a3b144158958351139c8b8e69}
 
-[src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1) 。 [掩碼=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e)。 [請求預處理](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-preprocessing.md#reference-c27976436bf04194bfbe9adf40ea98e3)，影像渲染引用， [模板](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e)。 [映像服務實用程式](../../../../../is-api/is-utils/utilities/c-location-of-utilities.md#concept-bae61e53344449af978502cac6be8b5f)
+[src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1) ， [遮色片=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e)， [要求預先處理](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-preprocessing.md#reference-c27976436bf04194bfbe9adf40ea98e3)，影像演算參考， [範本](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e)， [影像伺服公用程式](../../../../../is-api/is-utils/utilities/c-location-of-utilities.md#concept-bae61e53344449af978502cac6be8b5f)

@@ -1,7 +1,7 @@
 ---
-description: 預載入伺服器快取。 執行請求時與req=img類似，但伺服器不返回影像，而是返回回復影像的長度(image.length)，格式化為MIME類型文本/純文字檔案的文本資料。
+description: 預先載入伺服器快取。 執行要求類似req=img，但伺服器不會傳回影像，而是傳回回覆影像的長度(image.length)，格式化為文字資料，並具有MIME型別text/plain。
 solution: Experience Manager
-title: 載入快取
+title: loadcache
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 653842e9-bed1-462a-bb1f-39ac1ac9512c
@@ -12,12 +12,12 @@ ht-degree: 0%
 
 ---
 
-# 載入快取{#loadcache}
+# loadcache{#loadcache}
 
-預載入伺服器快取。 執行請求時與req=img類似，但伺服器不返回影像，而是返回回復影像的長度(image.length)，格式化為MIME類型文本/純文字檔案的文本資料。
+預先載入伺服器快取。 執行要求類似req=img，但伺服器不會傳回影像，而是傳回回覆影像的長度(image.length)，格式化為文字資料，並具有MIME型別text/plain。
 
 `req=loadcache`
 
-HTTP響應不可快取。
+無法快取HTTP回應。
 
-請求中的其他命令應用有文檔記錄。
+要求中的其他命令會套用，如檔案所述。

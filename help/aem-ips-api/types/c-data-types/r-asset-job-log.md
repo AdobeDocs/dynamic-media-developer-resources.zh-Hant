@@ -1,6 +1,6 @@
 ---
-title: 資產作業日誌
-description: 與特定資產關聯的作業日誌條目的詳細資訊。 getAssetJobLogs返回的資料。
+title: 資產工作記錄檔
+description: 與特定資產相關聯之工作記錄專案的詳細資訊。 getAssetJobLogs傳回的資料。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 17%
 
 # [!DNL AssetJobLog]{#assetjoblog}
 
-與特定資產關聯的作業日誌條目的詳細資訊。 getAssetJobLogs返回的資料。
+與特定資產相關聯之工作記錄專案的詳細資訊。 getAssetJobLogs傳回的資料。
 
 語法
 
@@ -32,7 +32,7 @@ ht-degree: 17%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL jobHandle]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> 作業處理。 </td> 
+   <td colname="col3"> 工作控制代碼。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL jobName]</span> </span> </td> 
@@ -42,27 +42,27 @@ ht-degree: 17%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL logMessage]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">作業日誌中的消息。 <p><span class="codeph"> [!DNL logMessage]</span> 響應欄位基於 <span class="codeph"> auth標頭</span> 區域設定欄位。 </p></td> 
+   <td colname="col3">工作記錄檔中的訊息。 <p><span class="codeph"> [!DNL logMessage]</span> 回應欄位已根據 <span class="codeph"> authHeader</span> 地區設定欄位。 </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL logType]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> 日誌條目中的作業類型。 </td> 
+   <td colname="col3"> 記錄專案中的工作型別。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL submitUserEmail]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> 提交作業的用戶的電子郵件。 </td> 
+   <td colname="col3"> 提交工作之使用者的電子郵件。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL logDate]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
-   <td colname="col3"> 作業日期。 </td> 
+   <td colname="col2"> <span class="codeph"> xsd：dateTime</span> </td> 
+   <td colname="col3"> 工作日期。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL auxArray]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 類型：JobLogDetailArray</span> </td> 
-   <td colname="col3"> 每個作業日誌的輔助作業日誌消息陣列。 </td> 
+   <td colname="col2"> <span class="codeph"> 型別：JobLogDetailArray</span> </td> 
+   <td colname="col3"> 每個工作記錄檔的輔助工作記錄檔訊息陣列。 </td> 
   </tr> 
  </tbody> 
 </table>

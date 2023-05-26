@@ -1,6 +1,6 @@
 ---
-title: 用於基本縮放查看器的JavaScript API參考
-description: 「基本縮放查看器」的主類是BasicZoomViewer。 它在s7vievers命名空間中聲明。 此JavaScript API涵蓋此特定類的建構子、方法和調用。
+title: 基本縮放檢視器的JavaScript API參考
+description: 基本縮放檢視器的主要類別是BasicZoomViewer。 會在s7viewers名稱空間中宣告。 此JavaScript API涵蓋此特定類別的建構函式、方法和回呼。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# 用於基本縮放查看器的JavaScript API參考{#javascript-api-reference-for-basic-zoom-viewer}
+# 基本縮放檢視器的JavaScript API參考{#javascript-api-reference-for-basic-zoom-viewer}
 
-「基本縮放查看器」的主類是BasicZoomViewer。 它在s7vievers命名空間中聲明。 此JavaScript API涵蓋此特定類的建構子、方法和調用。
+基本縮放檢視器的主要類別是BasicZoomViewer。 會在s7viewers名稱空間中宣告。 此JavaScript API涵蓋此特定類別的建構函式、方法和回呼。
 
-在以下所有示例中， `<instance>` 表示從實例化的JavaScript查看器對象的實際名稱 `s7viewers.BasicZoomViewer` 類。
+在下列所有範例中， `<instance>` 代表從具現化的JavaScript檢視器物件的實際名稱。 `s7viewers.BasicZoomViewer` 類別。

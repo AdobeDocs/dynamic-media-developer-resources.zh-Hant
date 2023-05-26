@@ -1,7 +1,7 @@
 ---
-description: 視頻比特率。 允許規範與每個視頻記錄相關聯的比特率。
+description: 視訊位元速率。 允許指定與每個視訊記錄相關聯的位元速率。
 solution: Experience Manager
-title: 視頻比特率
+title: 視訊位元速率
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e94d7338-5831-476b-b905-5c9419849c3f
@@ -12,11 +12,11 @@ ht-degree: 7%
 
 ---
 
-# 視頻比特率{#videobitrate}
+# 視訊位元速率{#videobitrate}
 
-視頻比特率。 允許規範與每個視頻記錄相關聯的比特率。
+視訊位元速率。 允許指定與每個視訊記錄相關聯的位元速率。
 
-使用者 `req=set` 和 `req=mbrSet`請求導出位速率資料。
+使用者 `req=set` 和 `req=mbrSet`要求匯出位元速率資料。
 
 ## 屬性 {#section-76731467b23240ac89b0767491c6020b}
 
@@ -28,4 +28,4 @@ ht-degree: 7%
 
 ## 另請參閱 {#section-7ffaec68b992426dad1c9ac0792f326f}
 
-[req=set](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-set.md) 。 [req=mbrSet](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-mbrset.md)。 [媒體集請求](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-media-set-requests.md)
+[req=set](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-set.md) ， [req=mbrSet](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-mbrset.md)， [媒體集請求](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-media-set-requests.md)

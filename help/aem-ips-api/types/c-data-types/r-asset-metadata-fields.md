@@ -1,6 +1,6 @@
 ---
-title: 資產元資料欄位
-description: 返回指定資產類型的元資料欄位定義。
+title: AssetMetadataField
+description: 傳回指定資產型別的中繼資料欄位定義。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # [!DNL AssetMetadataFields]{#assetmetadatafields}
 
-返回指定資產類型的元資料欄位定義。
+傳回指定資產型別的中繼資料欄位定義。
 
 語法
 
@@ -22,5 +22,5 @@ ht-degree: 10%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 資產類型 | `xsd:string` | 與欄位定義關聯的資產類型（有關值，請參閱「資產類型」）。 |
-| 欄位陣列 | `types:MetadataFieldArray` | 與中指定的資產類型關聯的元資料欄位定義的陣列 `assetType`。 |
+| assetType | `xsd:string` | 與欄位定義相關聯的資產型別（如需值，請參閱「資產型別」）。 |
+| fieldArray | `types:MetadataFieldArray` | 與中指定的資產型別關聯的中繼資料欄位定義陣列 `assetType`. |

@@ -20,7 +20,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 設定為 <span class="codeph"> 1</span> 啟用縮放影像的預載入，或設定為 <span class="codeph"> 0</span> 按需逐步載入縮放影像。 </p> <p> <p>注：如果啟用此選項，則會導致頻寬利用率顯著提高。 即使用戶不啟動縮放操作，也將整個載入縮放影像。 </p> </p> </td> 
+   <td colname="col2"> <p> 設定為 <span class="codeph"> 1</span> 以啟用預先載入已縮放影像，或設為 <span class="codeph"> 0</span> 以視需要增量載入縮放影像。 </p> <p> <p>注意：如果啟用此選項，可能會大幅增加頻寬使用量。 縮放的影像會完整載入，即使使用者未起始縮放動作亦然。 </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

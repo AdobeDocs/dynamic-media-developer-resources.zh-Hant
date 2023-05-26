@@ -1,7 +1,7 @@
 ---
 description: 刪除資產。
 solution: Experience Manager
-title: 刪除資產
+title: deleteAsset
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: dacea36e-3d40-4aaf-94fd-f0709830caf9
@@ -12,13 +12,13 @@ ht-degree: 13%
 
 ---
 
-# 刪除資產{#deleteasset}
+# deleteAsset{#deleteasset}
 
 刪除資產。
 
 語法
 
-## 授權用戶類型 {#section-e913be43b684491daf02bc73211e4290}
+## 授權的使用者型別 {#section-e913be43b684491daf02bc73211e4290}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,7 +29,7 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->用戶必須具有對資產的讀取和刪除權限。
+>使用者必須擁有資產的讀取和刪除存取權。
 
 ## 參數 {#section-0eed164e278b456fbdfb7a50727a0416}
 
@@ -37,16 +37,16 @@ ht-degree: 13%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 公司句柄 | `xsd:string` | 是 | 資料夾所屬公司的句柄。 |
-| 資產句柄 | `xsd:string` | 是 | 要刪除的資產的句柄。 |
+| companyHandle | `xsd:string` | 是 | 資料夾所屬公司的控制代碼。 |
+| assetHandle | `xsd:string` | 是 | 要刪除之資產的控點。 |
 
 **輸出(deleteAssetParam)**
 
-IPS API不會為此操作返迴響應。
+IPS API未傳回此作業的回應。
 
 ## 範例 {#section-d5657289f5234bb0a613dcf691507958}
 
-此示例代碼從特定公司刪除任何類型的資產。 它需要一個資產句柄，您必須從另一個操作中獲取該句柄。
+此範常式式碼會從特定公司刪除任何型別的資產。 它需要資產控制代碼，您必須從其他作業取得。
 
 **請求**
 

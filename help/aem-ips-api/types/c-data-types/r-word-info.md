@@ -1,7 +1,7 @@
 ---
 description: Word檔案的屬性。
 solution: Experience Manager
-title: 字資訊
+title: 文字資訊
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 998988bc-4842-4153-8b6a-af21a80c4e8b
@@ -24,4 +24,4 @@ Word檔案的屬性。
 |---|---|---|
 | 原始路徑 | `xsd:string` | 檔案路徑。 |
 | 原始檔案 | `xsd:string` | 檔案名稱. |
-| 檔案大小 | `xsd:int` | 檔案大小。 |
+| fileSize | `xsd:int` | 檔案大小。 |

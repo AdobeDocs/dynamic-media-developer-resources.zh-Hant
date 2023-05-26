@@ -1,7 +1,7 @@
 ---
-description: PDF檔案屬性。
+description: 檔案屬性PDF。
 solution: Experience Manager
-title: PDF資訊
+title: PdfInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 033bdcf2-ddb2-48c2-97ab-2f72cc7780c8
@@ -14,7 +14,7 @@ ht-degree: 33%
 
 # [!DNL PdfInfo]{#pdfinfo}
 
-PDF檔案屬性。
+檔案屬性PDF。
 
 語法
 
@@ -24,4 +24,4 @@ PDF檔案屬性。
 |---|---|---|
 | 原始路徑 | `xsd:string` | 檔案路徑。 |
 | 原始檔案 | `xsd:int` | 檔案名稱. |
-| 檔案大小 | `xsd:int` | 檔案大小。 |
+| fileSize | `xsd:int` | 檔案大小。 |

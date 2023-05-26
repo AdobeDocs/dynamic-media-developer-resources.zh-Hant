@@ -1,5 +1,5 @@
 ---
-description: 材料類型。 材料的曲面類型。 與目錄光澤和目錄粗糙度結合使用，以控制3D反射渲染效果。
+description: 材料型別。 材料的曲面型別。 與目錄「光澤度」和目錄「粗糙度」搭配使用以控制3D反射彩現效果。
 solution: Experience Manager
 title: 類型
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 19%
 
 # 類型{#type}
 
-材料類型。 材料的曲面類型。 與目錄：：光澤和目錄：：粗糙度，用於控制3D反射渲染效果。
+材料型別。 材料的曲面型別。 搭配catalog：：Gloss和catalog：：Roughtness使用，可控制3D反射彩現效果。
 
 ## 屬性 {#section-86e8bc194f764c848e0ee55630a5ac1b}
 
-枚舉。 可選，適用於所有材料。 如果視頻沒有3D反射渲染功能，則忽略。
+列舉。 所有材料均可選用。 如果暈映沒有3D反射演算功能，則忽略。
 
 <table id="simpletable_85BF61871CAA420B92B855AAB8FACA2C"> 
  <tr class="strow"> 
@@ -43,23 +43,23 @@ ht-degree: 19%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>5 </p> </td> 
-  <td class="stentry"> <p>舊金屬。 </p> </td> 
+  <td class="stentry"> <p>過時的金屬。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>6 </p> </td> 
-  <td class="stentry"> <p>畫。 </p> </td> 
+  <td class="stentry"> <p>油漆。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>7 </p> </td> 
-  <td class="stentry"> <p>漆/漆。 </p> </td> 
+  <td class="stentry"> <p>琺瑯/漆器。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>8 </p> </td> 
-  <td class="stentry"> <p>牆紙。 </p> </td> 
+  <td class="stentry"> <p>桌布。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>9 </p> </td> 
-  <td class="stentry"> <p>塑料。 </p> </td> 
+  <td class="stentry"> <p>塑膠。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>10 </p> </td> 
@@ -71,7 +71,7 @@ ht-degree: 19%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>12 </p> </td> 
-  <td class="stentry"> <p>黑膠。 </p> </td> 
+  <td class="stentry"> <p>乙烯基材料。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>13 </p> </td> 
@@ -87,15 +87,15 @@ ht-degree: 19%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>16 </p> </td> 
-  <td class="stentry"> <p>鏡子。 </p> </td> 
+  <td class="stentry"> <p>映象。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>17 </p> </td> 
-  <td class="stentry"> <p>織物。 </p> </td> 
+  <td class="stentry"> <p>光纖。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>18 </p> </td> 
-  <td class="stentry"> <p>純織物。 </p> </td> 
+  <td class="stentry"> <p>透明織物。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>19 </p> </td> 
@@ -105,8 +105,8 @@ ht-degree: 19%
 
 ## 預設 {#section-247f73b22cb846b7b7d7cc6e8af949ca}
 
-0;伺服器將根據其他材料屬性確定一個合適的預設值。
+0；伺服器會根據其他材質屬性來決定合適的預設值。
 
 ## 另請參閱 {#section-a51850093b7140e683a0f8b07845843c}
 
-[目錄：：光澤](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-gloss.md#reference-5277f62a67e2408ab94699aa712f1eeb) 。 [目錄：：粗糙度](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-roughness.md#reference-79f748ac642745e3b81795a99f61fa99)。 [類型=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-type.md#reference-128c7de89e2d46838019b560f3f84a35)
+[catalog：：Gloss](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-gloss.md#reference-5277f62a67e2408ab94699aa712f1eeb) ， [catalog：：Roughness](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-roughness.md#reference-79f748ac642745e3b81795a99f61fa99)， [type=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-type.md#reference-128c7de89e2d46838019b560f3f84a35)

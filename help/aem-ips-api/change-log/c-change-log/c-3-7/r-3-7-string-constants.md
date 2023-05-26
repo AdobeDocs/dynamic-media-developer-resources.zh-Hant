@@ -1,7 +1,7 @@
 ---
-description: 描述IPS API 3.7版的新字串常數和更改的字串常數。
+description: 說明IPS API 3.7版的新字串常數和變更的字串常數。
 solution: Experience Manager
-title: 字串常數新建和修改
+title: 字串常數 — 新增與修改
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c62cb98f-d87f-4273-bc51-30e4845d6540
@@ -12,13 +12,13 @@ ht-degree: 10%
 
 ---
 
-# 字串常數：新建和修改{#string-constants-new-and-modified}
+# 字串常數：新增和修改{#string-constants-new-and-modified}
 
-描述IPS API 3.7版的新字串常數和更改的字串常數。
+說明IPS API 3.7版的新字串常數和變更的字串常數。
 
 語法
 
-## 新建常數 {#section-2aef3a41d8274756ad5af4b2349edaae}
+## 新常數 {#section-2aef3a41d8274756ad5af4b2349edaae}
 
 * `Job Types`
 * `Active Job States`

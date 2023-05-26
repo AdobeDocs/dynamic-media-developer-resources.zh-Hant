@@ -1,7 +1,7 @@
 ---
 description: 標籤欄位的值陣列。
 solution: Experience Manager
-title: 標籤欄位值
+title: TagFieldValue
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 94969a10-1317-4efa-abbe-a374a8d42c30
@@ -22,5 +22,5 @@ ht-degree: 14%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 欄位句柄 | `xsd:string` | 標籤欄位句柄。 |
-| 值陣列 | `xsd:StringArray` | 標籤欄位的值陣列。 |
+| fieldHandle | `xsd:string` | 標籤欄位控制代碼。 |
+| valueArray | `xsd:StringArray` | 標籤欄位的值陣列。 |

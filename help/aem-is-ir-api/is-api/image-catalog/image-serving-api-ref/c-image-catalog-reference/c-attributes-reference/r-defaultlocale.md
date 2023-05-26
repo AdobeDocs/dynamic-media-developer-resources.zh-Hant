@@ -1,7 +1,7 @@
 ---
-description: 預設區域設定ID。 在請求中未指定locale=時，用於本地化/翻譯目的的區域設定ID。
+description: 預設地區ID。 請求中未指定locale=時，地區ID可用於本地化/翻譯目的。
 solution: Experience Manager
-title: 預設區域設定
+title: DefaultLocale
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: a7f40099-c89c-4653-aa50-f0475257a82b
@@ -12,14 +12,14 @@ ht-degree: 3%
 
 ---
 
-# 預設區域設定{#defaultlocale}
+# DefaultLocale{#defaultlocale}
 
-預設區域設定ID。 在請求中未指定locale=時，用於本地化/翻譯目的的區域設定ID。
+預設地區ID。 請求中未指定locale=時，地區ID可用於本地化/翻譯目的。
 
 ## 屬性 {#section-a101e9658d304e9caf032a99ecb80386}
 
-文本字串。 如果忽略 `attribute::LocaleMap` 和 `attribute::LocaleStrMap` 為空，或 `locale=` 已指定且不為空。
+文字字串。 忽略條件 `attribute::LocaleMap` 和 `attribute::LocaleStrMap` 空白，或當 `locale=` 已指定且非空白。
 
 ## 另請參閱 {#section-b9ffc98baf6c4f67a26466f90cee18b6}
 
-[區域設定=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-locale.md#reference-8a846b2fbc004a12821b956ed3b25cfb) 。 [屬性：:LocaleMap](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-localemap.md#reference-49bbf598f8ea47c3a563755cef306318)。 [屬性：:LocaleStrMap](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-localestrmap.md#reference-98c42070a4bc4baf92537132be2b5b1e)
+[locale=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-locale.md#reference-8a846b2fbc004a12821b956ed3b25cfb) ， [attribute：：LocaleMap](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-localemap.md#reference-49bbf598f8ea47c3a563755cef306318)， [attribute：：LocaleStrMap](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-localestrmap.md#reference-98c42070a4bc4baf92537132be2b5b1e)

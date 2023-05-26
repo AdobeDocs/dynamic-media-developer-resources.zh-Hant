@@ -1,6 +1,6 @@
 ---
-title: Res模式
-description: 重新取樣模式。 resMode=的預設值。 指定用於將渲染的影像縮放到最終大小的重採樣和插值屬性。
+title: 解析模式
+description: 重新取樣模式。 resMode=的預設值。 指定用來將演算後的影像縮放至最終大小的重新取樣和插值屬性。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,17 +12,17 @@ ht-degree: 5%
 
 ---
 
-# Res模式{#resmode}
+# 解析模式{#resmode}
 
-重新取樣模式。 預設 `resMode=`。 指定用於將渲染的影像縮放到最終大小的重採樣和插值屬性。
+重新取樣模式。 的預設值 `resMode=`. 指定用來將演算後的影像縮放至最終大小的重新取樣和插值屬性。
 
 ## 屬性 {#section-1183a155f33c4eca80f1dc6fb6bda1b5}
 
-枚舉。 設定為2 `'bilin'`, 3 `'bicub'`，或4 `'sharp2'` 插值模式 [resMode=](/help/aem-is-ir-api/ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-resmode.md) )。
+列舉。 設為2 `'bilin'`， 3表示 `'bicub'`，或4個 `'sharp2'` 內插模式(請參閱 [resMode=](/help/aem-is-ir-api/ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-resmode.md) 以取得詳細資訊)。
 
 ## 預設 {#section-ed432a0acc3e4bce926a07e9cfd2c865}
 
-繼承自 `default::ResMode` 或為空。
+繼承自 `default::ResMode` 如果未定義或為空。
 
 ## 另請參閱 {#section-34b71c295b4349dfb4379823a2de83c2}
 

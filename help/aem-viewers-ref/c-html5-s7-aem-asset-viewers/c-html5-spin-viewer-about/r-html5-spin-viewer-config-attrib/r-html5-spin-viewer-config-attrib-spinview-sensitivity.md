@@ -14,13 +14,13 @@ ht-degree: 2%
 
 # SpinView.sensitivity{#spinview-sensitivity}
 
-` [SpinView.|<containerId>_spinView.]sensitivity= *`x敏感度`*[, *`敏感度`*]`
+` [SpinView.|<containerId>_spinView.]sensitivity= *`敏感度`*[, *`敏感度`*]`
 
 <table id="table_18D47E7C6A2D4D68B94225CB621D5F7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> x敏感度</span>[, <span class="varname"> 敏感度</span>]</span> </p> </td> 
-   <td colname="col2"> <p> 控制用滑鼠拖動或滑動執行的水準和垂直旋轉的敏感度。 </p> <p> <span class="codeph"> x敏感度</span> 設定如果用戶將滑鼠從視圖的一側水準拖動到另一側，則執行多少次完全水準產品旋轉。 例如，三表示用戶看到一個完全拖動手勢的三個完全旋轉。 </p> <p>同樣， <span class="codeph"> 敏感度</span> 控制垂直旋轉的靈敏度。 值1表示一個完全垂直的拖動或滑動會將視圖角度從最頂部旋轉平面更改為最底部（或相反）。 </p> <p>設定負值 <span class="codeph"> 敏感度</span> 反轉垂直旋轉的方向。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> 敏感度</span>[， <span class="varname"> 敏感度</span>]</span> </p> </td> 
+   <td colname="col2"> <p> 控制使用滑鼠拖曳或撥動執行的水平與垂直迴轉的敏感度。 </p> <p> <span class="codeph"> 敏感度</span> 設定當使用者從檢視的一側水準拖曳滑鼠到另一側時，產品會進行幾次完全水準旋轉。 例如，三個表示使用者看到一個完整拖曳手勢的三個完整旋轉。 </p> <p>同樣地， <span class="codeph"> 敏感度</span> 控制垂直迴轉的敏感度。 值1表示一次垂直拖曳或撥動會將檢視角度從最上方的旋轉平面變更為最下方（反之亦然）。 </p> <p>設定負值 <span class="codeph"> 敏感度</span> 反轉垂直迴轉的方向。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

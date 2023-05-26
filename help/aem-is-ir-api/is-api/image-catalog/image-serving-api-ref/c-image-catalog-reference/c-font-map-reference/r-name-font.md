@@ -1,5 +1,5 @@
 ---
-description: 字型名稱。 字型字面名稱，與RTF \fonttbl命令中指定的字型字面名稱完全相同。
+description: 字型名稱。 字型名稱，與RTF \fonttbl命令中指定的名稱完全相同。
 solution: Experience Manager
 title: 名稱
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 8%
 
 # 名稱{#name}
 
-字型名稱。 字型字面名稱，與RTF \fonttbl命令中指定的字型字面名稱完全相同。
+字型名稱。 字型名稱，與RTF \fonttbl命令中指定的名稱完全相同。
 
 ## 屬性 {#section-49d39cc6ec2b46c7a14e464dbe352f6a}
 
-文本字串。 必要. 字型映射的主索引鍵。 同一字型：：在同一字型映射檔案中，名稱值最多可能出現四次，但每個記錄必須具有不同的組合 `font::Bold` 和 `font::Italic` 值。
+文字字串。 必要. 字型對應的主索引鍵。 相同的字型：：Name值在相同的字型對應檔案中最多可能出現四次，但每個記錄必須具有不同的組合 `font::Bold` 和 `font::Italic` 值。
 
 ## 預設 {#section-2bcf8ad7a7934956ad2cd42fd0d401f8}
 
@@ -26,5 +26,5 @@ ht-degree: 8%
 
 ## 另請參閱 {#section-4c657d025f2a4407b9cb914217a8e64a}
 
-* [字型：：粗體](r-bold-font.md#reference_F7B017EF67574A29ABFC3954AB64159C)
-* [字型：：斜體](r-italic-font.md#reference_DC04A532B34A41AF81B0B9644ACFAAD6)
+* [font：：Bold](r-bold-font.md#reference_F7B017EF67574A29ABFC3954AB64159C)
+* [font：：Italic](r-italic-font.md#reference_DC04A532B34A41AF81B0B9644ACFAAD6)

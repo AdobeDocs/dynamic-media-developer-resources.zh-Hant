@@ -18,9 +18,9 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->的 `urlModifier` 欄位值必須由有效的XML組成。 例如，更改 `&` 至 `&`。 獲取 `urlModfier` IPS用戶介面中的值。
+>此 `urlModifier` 欄位值必須包含有效的XML。 例如，變更 `&` 至 `&`. 取得 `urlModfier` IPS使用者介面的值。
 
-## 授權用戶類型 {#section-12c9d8d5933f4692bafb194060b4f882}
+## 授權的使用者型別 {#section-12c9d8d5933f4692bafb194060b4f882}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,20 +33,20 @@ ht-degree: 12%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 公司句柄 | `xsd:string` | 是 | 要使用的影像格式的公司的句柄。 |
-| imageFormatHandle | `xsd:string` | 否 | 要保存的影像格式句柄。 |
+| companyHandle | `xsd:string` | 是 | 具有您要使用之影像格式的公司控制代碼。 |
+| imageFormatHandle | `xsd:string` | 否 | 您要儲存的影像格式控制代碼。 |
 | name | `xsd:string` | 是 | 影像格式名稱。 |
-| url修飾符 | `xsd:string` | 是 | 這可以是任何IPS協定查詢字串。 生成URL修飾符的最簡單方法是使用IPS用戶介面建立URL修飾符，然後剪切並貼上查詢字串。 |
+| urlModifier | `xsd:string` | 是 | 這可以是任何IPS通訊協定查詢字串。 產生URL修飾元的最簡單方式是使用IPS使用者介面建立一個URL，然後剪下並貼上查詢字串。 |
 
 **輸出(saveImageFormatReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| imageFormatHandle | `xsd:string` | 是 | 影像格式的句柄。 |
+| imageFormatHandle | `xsd:string` | 是 | 影像格式的控制代碼。 |
 
 ## 範例 {#section-c7bd733212ef494297a97093f3af193f}
 
-此代碼示例建立影像格式。 在本例中， `urlModifier` 是由其在IPS用戶介面中的值所決定的，具有有效的HTML格式。
+此程式碼範例會建立影像格式。 在此範例中， `urlModifier` 是由具有有效HTML格式的IPS使用者介面中的值所決定。
 
 **請求**
 

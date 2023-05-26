@@ -1,7 +1,7 @@
 ---
-description: eCatalog Viewer的JavaScript API參考。
+description: eCatalog檢視器的JavaScript API參考。
 solution: Experience Manager
-title: 初始化
+title: init
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 4d71062c-fee7-4339-bd7f-1b7f778465c4
@@ -12,25 +12,25 @@ ht-degree: 2%
 
 ---
 
-# 初始化{#init}
+# init{#init}
 
-eCatalog Viewer的JavaScript API參考。
+eCatalog檢視器的JavaScript API參考。
 
 [!DNL `init()`]
 
-啟動eCatalog Viewer的初始化。 此時，必須建立容器DOM元素，以便查看器代碼可以通過其ID找到它。
+啟動eCatalog檢視器的初始化。 此時必須建立容器DOM元素，讓檢視器程式碼可依其ID尋找它。
 
-如果容器元素尚未成為網頁佈局的一部分(例如，可能會使用 [!DNL `display:none`] )，查看器將暫停其初始化過程，直到網頁將容器元素帶回佈局的那一刻。 發生此情況時，查看器載入將自動恢復。
+如果容器元素還不是網頁版面配置的一部分(例如，它可能使用以下專案隱藏： [!DNL `display:none`] 樣式)，檢視器會暫停其初始化程式，直到網頁將容器元素帶回版面配置為止。 發生此情況時，檢視器會自動繼續載入。
 
-在查看器生命週期中僅調用此方法一次；將忽略後續調用。
+在檢視器生命週期內只呼叫一次此方法；後續呼叫會被忽略。
 
 ## 參數 {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 
 無。
 
-## 返回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## 傳回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-[!DNL `{Object}`] 對查看器實例的引用。
+[!DNL `{Object}`] 檢視器例項的參考。
 
 ## 範例 {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

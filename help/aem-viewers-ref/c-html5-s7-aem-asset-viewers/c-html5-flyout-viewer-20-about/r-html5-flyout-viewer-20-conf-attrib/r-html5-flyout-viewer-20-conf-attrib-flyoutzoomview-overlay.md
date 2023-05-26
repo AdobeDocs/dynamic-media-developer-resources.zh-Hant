@@ -20,7 +20,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 當浮出激活時，控制主視圖的加亮外觀。 設定為時 <span class="codeph"> 0</span>，使用由提供的樣式加亮顯示彈出窗口中當前可見的區域 <span class="codeph"> .s7突出顯示</span> 或 <span class="codeph"> .s7游標</span> CSS類名(取決於 <span class="codeph"> 高光模式</span> 修改量)。 設定為時 <span class="codeph"> 1</span> 元件進入「逆」模式，此時當前查看的區域要麼完全透明（在情況下） <span class="codeph"> 高光模式</span> 設定為 <span class="codeph"> 突出顯示</span>)或 <span class="codeph"> .s7游標</span> CSS類名(以防 <span class="codeph"> 高光模式</span> 設定為 <span class="codeph"> 游標</span>)，但使用由 <span class="codeph"> .s7覆蓋</span> CSS類名。 </p> </td> 
+   <td colname="col2"> <p> 當彈出式視窗處於作用中狀態時，控制主檢視反白顯示外觀。 當設定為 <span class="codeph"> 0</span>，目前顯示在彈出式視窗中的區域會使用下列專案提供的樣式反白顯示： <span class="codeph"> .s7highlight</span> 或依據 <span class="codeph"> .s7cursor</span> CSS類別名稱(視 <span class="codeph"> 熒光模式</span> modifier)。 當設定為 <span class="codeph"> 1</span> 元件進入「反向」模式，目前檢視的區域為完全透明(如果是 <span class="codeph"> 熒光模式</span> 設為 <span class="codeph"> 反白顯示</span>)或樣式為 <span class="codeph"> .s7cursor</span> CSS類別名稱(大小寫 <span class="codeph"> 熒光模式</span> 設為 <span class="codeph"> 游標</span>)，但周圍區域會使用下列專案提供的樣式填滿： <span class="codeph"> .s7overlay</span> css類別名稱。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

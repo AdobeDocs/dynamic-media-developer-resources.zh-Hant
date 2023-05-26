@@ -1,7 +1,7 @@
 ---
-description: 用於通過URL上載資產。
+description: 用於透過URL上傳資產。
 solution: Experience Manager
-title: 上載URL
+title: UploadUrl
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f13fc27c-a91f-4823-8d65-664854af98ae
@@ -14,7 +14,7 @@ ht-degree: 12%
 
 # [!DNL UploadUrl]{#uploadurl}
 
-用於通過URL上載資產。
+用於透過URL上傳資產。
 
 語法
 
@@ -22,5 +22,5 @@ ht-degree: 12%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 源URL | `xsd:string` | 從中上載資產的源URL。 |
-| 目標路徑 | `xsd:string` | 要上載到的IPS檔案路徑和檔案名。 |
+| sourceUrl | `xsd:string` | 資產上傳來源的URL。 |
+| destPath | `xsd:string` | IPS檔案路徑和您要上傳的檔案名稱。 |

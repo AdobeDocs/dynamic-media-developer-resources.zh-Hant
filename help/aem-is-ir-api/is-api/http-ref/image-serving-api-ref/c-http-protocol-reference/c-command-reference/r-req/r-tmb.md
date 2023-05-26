@@ -1,7 +1,7 @@
 ---
-description: 縮略圖。 請求使用目錄縮略圖條件格式化和調整大小的影像資料。
+description: 縮圖影像。 請求使用目錄縮圖條件格式化影像資料並調整其大小。
 solution: Experience Manager
-title: TMB
+title: tmb
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9bdcc1c4-fe2b-4316-a472-07a533f105a0
@@ -12,14 +12,14 @@ ht-degree: 0%
 
 ---
 
-# TMB{#tmb}
+# tmb{#tmb}
 
-縮略圖。 請求使用目錄縮略圖條件格式化和調整大小的影像資料。
+縮圖影像。 請求使用目錄縮圖條件格式化影像資料並調整其大小。
 
 `req=tmb`
 
-答復資料格式和響應MIME類型由 `fmt=`。 支援除 `fit=`。
+回覆資料格式和回應MIME型別由決定 `fmt=`. 支援所有命令，但不包括 `fit=`.
 
-請參閱 [縮略圖縮放](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-thumbnail-scaling.md#reference-0f71817f721d4913b34816758d69b07f)。
+另請參閱 [縮圖縮放](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-thumbnail-scaling.md#reference-0f71817f721d4913b34816758d69b07f).
 
-HTTP響應可以根據 `catalog::Expiration`。
+HTTP回應可根據 `catalog::Expiration`.

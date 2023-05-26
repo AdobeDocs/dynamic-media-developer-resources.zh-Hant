@@ -1,7 +1,7 @@
 ---
-description: 用戶資料。 伺服器響應req=userdata將此欄位的內容返回給客戶端。
+description: 使用者資料。 伺服器會傳回此欄位的內容給使用者端，以回應req=userdata。
 solution: Experience Manager
-title: 用戶資料*
+title: 使用者資料*
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e8ec11af-9448-4796-a43d-0fb9841469dd
@@ -12,15 +12,15 @@ ht-degree: 7%
 
 ---
 
-# 用戶資料*{#userdata}
+# 使用者資料*{#userdata}
 
-用戶資料。 伺服器響應req=userdata將此欄位的內容返回給客戶端。
+使用者資料。 伺服器會傳回此欄位的內容給使用者端，以回應req=userdata。
 
-可以用「$1？」轉義新行。 伺服器將替換「？」 與 `<cr><lf>` 返回此欄位的內容。
+新行可以使用「??」逸出。 伺服器會將&#39;??&#39;取代為 `<cr><lf>` 然後傳回此欄位的內容。
 
 ## 屬性 {#section-4e3904e047a84cc790ce77c56d3e0b21}
 
-文本字串。 選擇性.
+文字字串。 選擇性.
 
 ## 預設 {#section-a84b821918af41f5b84200f2edffacff}
 

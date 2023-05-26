@@ -1,5 +1,5 @@
 ---
-description: 使用權限資產設定單個資產的權限。
+description: 使用許可權資產設定單一資產的許可權。
 solution: Experience Manager
 title: setAssetPermissions
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,11 +14,11 @@ ht-degree: 9%
 
 # setAssetPermissions{#setassetpermissions}
 
-使用權限資產設定單個資產的權限。
+使用許可權資產設定單一資產的許可權。
 
-預設情況下，資產繼承其父資料夾的權限。 一旦設定了對資產的權限，它就不再繼承其父項的權限，除非您調用 `removeAssetPermissions`。
+資產預設會繼承其父資料夾的許可權。 設定資產的許可權後，除非您呼叫，否則資產不再繼承其父級的許可權 `removeAssetPermissions`.
 
-## 授權用戶類型 {#section-91fafc170c734ed2a77beafda9221768}
+## 授權的使用者型別 {#section-91fafc170c734ed2a77beafda9221768}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -30,17 +30,17 @@ ht-degree: 9%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 公司句柄 | `xsd:string` | 是 | 包含要使用的資料夾的公司的句柄。 |
-| 資產句柄 | `xsd:string` | 是 | 資料夾句柄。 |
-| 權限陣列 | `types:PermissionsUpdateArray` | 是 | 權限陣列。 |
+| companyHandle | `xsd:string` | 是 | 包含您要使用之資料夾的公司的控制代碼。 |
+| assetHandle | `xsd:string` | 是 | 資料夾控制代碼。 |
+| permissionArray | `types:PermissionsUpdateArray` | 是 | 許可權陣列。 |
 
 **輸出(setAssetPermissonsReturn)**
 
-IPS API不會為此操作返迴響應。
+IPS API未傳回此作業的回應。
 
 ## 範例 {#section-38955bc330bb4909b6b06027ef2b143e}
 
-此代碼示例設定資產權限。 它包含公司和資產句柄以及權限陣列。
+此程式碼範例會設定資產的許可權。 它包含公司和資產控點，以及許可權陣列。
 
 **請求**
 

@@ -1,5 +1,5 @@
 ---
-description: 更新欄位元資料。
+description: 更新欄位中繼資料。
 solution: Experience Manager
 title: updateMetadataField
 feature: Dynamic Media Classic,SDK/API,Metadata
@@ -14,11 +14,11 @@ ht-degree: 22%
 
 # updateMetadataField{#updatemetadatafield}
 
-更新欄位元資料。
+更新欄位中繼資料。
 
 語法
 
-## 授權用戶類型 {#section-540e91823fee49a4920ca738f7bfeb99}
+## 授權的使用者型別 {#section-540e91823fee49a4920ca738f7bfeb99}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -26,12 +26,12 @@ ht-degree: 22%
 
 ## 參數 {#section-69681ed1ddff437ca1c73f46fe835c96}
 
-**Input(updateMetadataFieldParam)**
+**輸入(updateMetadataFieldParam)**
 
 <table id="table_65D6EE6C402E4F01819822A855B6BB7F"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 參數名稱 </th> 
+   <th colname="col1" class="entry"> 引數名稱 </th> 
    <th colname="col2" class="entry"> 類型 </th> 
    <th colname="col3" class="entry"> 必要 </th> 
    <th colname="col4" class="entry"> 說明 </th> 
@@ -39,46 +39,46 @@ ht-degree: 22%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 公司句柄</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 公司負責。 </td> 
+   <td colname="col4"> 公司控點。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 欄位句柄</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 元資料欄位句柄。 </td> 
+   <td colname="col4"> 中繼資料欄位控制代碼。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 名稱</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 元資料欄位名稱。 </td> 
+   <td colname="col4"> 中繼資料欄位名稱。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 預設值</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 元資料欄位值。 </td> 
+   <td colname="col4"> 中繼資料欄位值。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 隱藏</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> ishidden</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 隱藏或公開IPS系統特定的元資料。 </td> 
+   <td colname="col4"> 隱藏或公開IPS系統特定的中繼資料。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="codeph"><span class="varname"> 強制</span></span> </td> 
+   <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>一個布爾標誌，指示在設定值時是否強制（驗證）元資料欄位。 </p> <p>如果設定為true，則如果在中設定了非法值，則會拋出錯誤 <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>。 </p> </td> 
+   <td colname="col4"> <p>布林值標幟，指出在設定值時，是否強制執行（驗證）中繼資料欄位。 </p> <p>若設為true，則若在中設定了不合法的值，則會擲回錯誤 <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 初始標籤值</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> initialTag值</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 用於建立一組共用枚舉值，選定標籤可以指向這些值。 </td> 
+   <td colname="col4"> 可讓您建立一組所選標籤可指向的共用列舉值。 </td> 
   </tr> 
  </tbody> 
 </table>
@@ -87,11 +87,11 @@ ht-degree: 22%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 欄位句柄 | `xsd:string` | 是 | 元資料欄位句柄。 |
+| fieldHandle | `xsd:string` | 是 | 中繼資料欄位控制代碼。 |
 
 ## 範例 {#section-bb7d93ab6d914ddfa294e08983e589ee}
 
-此代碼示例更新為元資料欄位分配新名稱和預設值。 響應將返回更新欄位的句柄。
+此程式碼範例更新會將新名稱和預設值指派給中繼資料欄位。 回應會傳回已更新欄位的控制代碼。
 
 **請求**
 

@@ -1,7 +1,7 @@
 ---
-description: 從PDF檔案中提取的搜索字串記錄。
+description: 從PDF檔案擷取的搜尋字串記錄。
 solution: Experience Manager
-title: 搜索字串
+title: SearchStrings
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 3f67ba8a-12dd-4698-9502-7cbdec9cb25d
@@ -14,7 +14,7 @@ ht-degree: 14%
 
 # [!DNL SearchStrings]{#searchstrings}
 
-從PDF檔案中提取的搜索字串記錄。
+從PDF檔案擷取的搜尋字串記錄。
 
 語法
 
@@ -22,12 +22,12 @@ ht-degree: 14%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 搜索字串 | `xsd:string` | 搜索字串文本。 |
-| 關鍵字陣列 | `types:KeywordsArray` | 搜索字串中的關鍵字陣列。 |
-| 狀態 | `xsd:boolean` | 如果搜索字串有效且已啟用，則為True。 |
-| x | `xsd:int` | 搜索字串的X軸位置。 |
-| y | `xsd:int` | 搜索字串的Y軸位置。 |
-| 寬度 | `xsd:int` | 搜索字串寬度。 |
-| 高度 | `xsd:int` | 搜索字串高度。 |
-| 字型名稱 | `xsd:string` | 搜索字串中使用的字型的名稱。 |
-| 點大小 | `xsd:string` | 字型大小. |
+| searchString | `xsd:string` | 搜尋字串文字。 |
+| 關鍵字陣列 | `types:KeywordsArray` | 搜尋字串中的關鍵字陣列。 |
+| 狀態 | `xsd:boolean` | 如果搜尋字串有效且已啟用，則為True。 |
+| x | `xsd:int` | 搜尋字串的X軸位置。 |
+| y | `xsd:int` | 搜尋字串的Y軸位置。 |
+| 寬度 | `xsd:int` | 搜尋字串寬度。 |
+| 高度 | `xsd:int` | 搜尋字串高度。 |
+| 字型名稱 | `xsd:string` | 搜尋字串中使用的字型名稱。 |
+| pointSize | `xsd:string` | 字型大小. |

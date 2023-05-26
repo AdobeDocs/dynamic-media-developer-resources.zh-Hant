@@ -1,7 +1,7 @@
 ---
-description: 基於解析度的影像縮放。 將影像縮放到請求的解析度。
+description: 以解析度為基礎的影像縮放。 將影像縮放至要求的解析度。
 solution: Experience Manager
-title: 雷
+title: res
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e8ed7b00-7bb3-463e-9aaa-47f77bd4b45e
@@ -12,43 +12,43 @@ ht-degree: 1%
 
 ---
 
-# 雷{#res}
+# res{#res}
 
-基於解析度的影像縮放。 將影像縮放到請求的解析度。
+以解析度為基礎的影像縮放。 將影像縮放至要求的解析度。
 
-` res= *`谷`*`
+` res= *`val`*`
 
 <table id="simpletable_E69F3709266749C4A165C90FF18FF5AA"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> 谷 </span> </p> </td> 
-  <td class="stentry"> <p>目標解決；通常以像素/英吋（實數）表示。 </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> val </span> </p> </td> 
+  <td class="stentry"> <p>目標解析度；通常以每英吋畫素（實數）為單位。 </p> </td> 
  </tr> 
 </table>
 
-比例因子通過除法計算 *`val`* 按 `catalog::Resolution`。 請注意，此命令不影響回復影像的打印解析度。
+比例係數的計算方式為除以 *`val`* 作者： `catalog::Resolution`. 請注意，這個指令不會影響回覆影像的列印解析度。
 
-要使用此功能，必須已知原始源影像的解析度並在中進行設定 `catalog::Resolution`。 根據應用程式的不同，解析度單位可能有所不同。 對於可重複的2D紋理或材料色板（如牆紙或織物），解析度可以表示為像素/英吋或像素/毫米。 空中照片和地圖可以按像素/英里或像素/公里提供更好的服務。 無論如何， `catalog::Resolution` 必須與使用的單位相同 `res=`。
+若要使用此功能，必須知道原始來源影像的解析度，並設定於 `catalog::Resolution`. 視應用程式而定，解析度單位可能有所不同。 對於可重複的2D紋理或材料色票（例如壁紙或織物），解析度可以表示為畫素/英吋或畫素/毫米。 空中像片和地圖可能以畫素/英里或畫素/公里為單位提供更好的服務。 無論如何，使用的單位 `catalog::Resolution` 必須與使用的單位相同 `res=`.
 
-除了以精確的解析度獲取影像外， `res=` 還可用於以相同解析度組合多個影像，以便這些影像中可見的項目彼此成準確比例。
+除了以精確解析度取得影像之外， `res=` 也可用來以相同解析度來組合多個影像，使這些影像中顯示的專案彼此保持精確的比例。
 
 >[!NOTE]
 >
->通常，複合影像的大小會調整為目標視圖大小(由 `wid=`。 `hei=`或 `attribute::DefaultPix`)。 防止此調整大小並獲取具有由指定的精確解析度的影像 `res=`，可能需要通過顯式指定來禁用視圖縮放 `scl=1`。 這將指示伺服器將複合影像裁剪為目標視圖大小，而不是縮放它。
+>一般而言，複合影像會調整大小至目標檢視大小(由以下專案指定： `wid=`， `hei=`，或 `attribute::DefaultPix`)，然後再傳回給使用者端。 若要避免此重新調整大小，並取得具有所指定之精確解析度的影像 `res=`時，可能需要透過明確指定來停用檢視縮放 `scl=1`. 這會指示伺服器將複合影像裁切成目標檢視大小，而不是加以縮放。
 
 ## 屬性 {#section-fdbd16e59cff4952a3717146bc91412e}
 
-源影像/蒙版屬性。 被未與源影像或蒙版關聯的層忽略。 已為指定應用於層0 `layer=comp`。 忽略 `scale=` 或 `size=` 為同一層指定。
+來源影像/遮色片屬性。 被與來源影像或遮色片無關的圖層忽略。 指定套用至圖層0 `layer=comp`. 已忽略，如果 `scale=` 或 `size=` 會為相同圖層指定。
 
 ## 預設 {#section-c5f1ba6fe53d46eca32e7d0588dcdf3d}
 
-如果未指定， `scale=` 或 `size=` 確定比例因子，或者，如果未指定，則使用影像而不進行縮放。
+若未指定， `scale=` 或 `size=` 會決定縮放比例，如果未指定，則會使用影像而不進行縮放。
 
 ## 範例 {#section-eb06f333e08e4247971fb1b18922597b}
 
-以12像素/英吋對象解析度檢索紋理影像，以便與「影像渲染」或「影像創作」一起使用。 我們指定無損PNG格式和更好的重採樣質量，以獲得盡可能好的質量。
+以12畫素/英吋的物件解析度擷取紋理影像，以用於「影像演算」或「影像製作」。 我們指定無損的PNG格式和更好的品質重新取樣，以獲得最佳品質，
 
 ` http:// *`伺服器`*/myTexture?res=12&fmt=png&resMode=sharp`
 
 ## 另請參閱 {#section-1f8a8f11772e493ca803c4511f397a11}
 
-[目錄：：解析](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-resolution-cat.md#reference-de489f5f36b64bd0831749546f8728e1) 。 [屬性：:DefaultPix](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultpix.md#reference-996b2c22b30f4fd9b970c84063306df1)。 [scl=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-scl.md#reference-b2a74e493d0d407e98fe350551ba3fcc)。 [fmt=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md#reference-cdf10043423b45ba9fe15157fb3ae37a)
+[catalog：：Resolution](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-resolution-cat.md#reference-de489f5f36b64bd0831749546f8728e1) ， [attribute：：DefaultPix](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultpix.md#reference-996b2c22b30f4fd9b970c84063306df1)， [scl=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-scl.md#reference-b2a74e493d0d407e98fe350551ba3fcc)， [fmt=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md#reference-cdf10043423b45ba9fe15157fb3ae37a)

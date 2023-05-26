@@ -1,5 +1,5 @@
 ---
-description: 規則集檔案是XML格式的文本檔案，必須遵守相應的標準和約定。
+description: 規則集檔案是XML格式的文字檔案，且必須符合適當的標準和慣例。
 solution: Experience Manager
 title: 規則集檔案
 feature: Dynamic Media Classic,SDK/API
@@ -14,6 +14,6 @@ ht-degree: 0%
 
 # 規則集檔案{#rule-set-files}
 
-規則集檔案是XML格式的文本檔案，必須遵守相應的標準和約定。
+規則集檔案是XML格式的文字檔案，且必須符合適當的標準和慣例。
 
-[!DNL RuleSet.xsd] 安裝在預設的目錄資料夾中，應用於在將規則集檔案提交到映像服務之前驗證它們。 應用嚴格分析，並應用不符合的規則集檔案 [!DNL RuleSet.xsd] 不要裝貨。
+[!DNL RuleSet.xsd] 會安裝在預設目錄資料夾中，且應該用於在將規則集檔案提交至影像伺服之前對其進行驗證。 套用嚴格剖析且規則集檔案不符合 [!DNL RuleSet.xsd] 不要載入。

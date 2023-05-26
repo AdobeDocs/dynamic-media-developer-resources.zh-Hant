@@ -1,6 +1,6 @@
 ---
-title: 映像伺服器示例
-description: 此頁將連結到Image Server示例。
+title: 影像伺服器範例
+description: 此頁面將連結至影像伺服器範例。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 ---
 
-# 映像伺服器示例{#image-server-examples}
+# 影像伺服器範例{#image-server-examples}
 
-本主題將連結到Image Server示例。
+本主題將連結至影像伺服器範例。
 <!-- As of August 29 (and likely months or years before this date), none of the links below work anymore! -->
 
 

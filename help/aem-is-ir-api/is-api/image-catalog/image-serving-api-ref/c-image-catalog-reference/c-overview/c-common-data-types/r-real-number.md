@@ -1,5 +1,5 @@
 ---
-description: 實數資料類型。
+description: 實數資料型別。
 solution: Experience Manager
 title: 實數
 feature: Dynamic Media Classic,SDK/API
@@ -14,6 +14,6 @@ ht-degree: 0%
 
 # 實數{#real-number}
 
-實數資料類型。
+實數資料型別。
 
-簽名浮點值（例如0、12.5、245、-2.34e4）。 0或負值可能具有特殊含義。
+有符號浮點值（例如0、12.5、245、-2.34e4）。 0或負值可能有特殊意義。

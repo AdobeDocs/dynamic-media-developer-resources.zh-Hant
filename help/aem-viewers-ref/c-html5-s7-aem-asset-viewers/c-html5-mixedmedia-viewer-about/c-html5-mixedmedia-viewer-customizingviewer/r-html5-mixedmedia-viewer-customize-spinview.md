@@ -1,6 +1,6 @@
 ---
-title: 旋轉視圖
-description: 當當前資產為旋轉集時，主視圖由旋轉影像組成。
+title: 迴轉檢視
+description: 目前資產為迴轉集時，主檢視會由迴轉影像組成。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
@@ -12,15 +12,15 @@ ht-degree: 1%
 
 ---
 
-# 旋轉視圖{#spin-view}
+# 迴轉檢視{#spin-view}
 
-當當前資產為旋轉集時，主視圖由旋轉影像組成。
+目前資產為迴轉集時，主檢視會由迴轉影像組成。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**主查看器區域的CSS屬性**
+**主要檢視器區域的CSS屬性**
 
-查看區域的外觀由以下CSS類選擇器控制：
+檢視區域的外觀是由下列CSS類別選取器所控制：
 
 ```
 .s7mixedmediaviewer .s7spinview
@@ -35,13 +35,13 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
-   <td colname="col2"> <p> 旋轉視圖十六進位格式的背景色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p> 迴轉檢視的十六進位格式的背景顏色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例 — 使旋轉視圖透明。
+範例 — 使迴轉檢視透明。
 
 ```
 .s7mixedmediaviewer .s7spinview { 

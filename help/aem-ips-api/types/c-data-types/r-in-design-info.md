@@ -1,7 +1,7 @@
 ---
-description: InDesign檔案屬性。
+description: 檔案屬性InDesign。
 solution: Experience Manager
-title: InDesign資訊
+title: InDesignInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 34e7f447-4301-4120-87b6-6f3ddd1c5fb6
@@ -14,7 +14,7 @@ ht-degree: 33%
 
 # [!DNL InDesignInfo]{#indesigninfo}
 
-InDesign檔案屬性。
+檔案屬性InDesign。
 
 語法
 
@@ -24,4 +24,4 @@ InDesign檔案屬性。
 |---|---|---|
 | 原始路徑 | `xsd:string` | 檔案路徑。 |
 | 原始檔案 | `xsd:string` | 檔案名稱. |
-| 檔案大小 | `xsd:int` | 檔案大小。 |
+| fileSize | `xsd:int` | 檔案大小。 |

@@ -1,7 +1,7 @@
 ---
-description: 權限集陣列
+description: PermissionSetArray
 solution: Experience Manager
-title: 權限集陣列
+title: PermissionSetArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b6019cf9-8c3a-48a7-b7bb-fa2191a958fa
@@ -20,4 +20,4 @@ ht-degree: 50%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 項目 | `types:PermissionSet` | 權限集陣列。 |
+| 項目 | `types:PermissionSet` | 許可權集陣列。 |

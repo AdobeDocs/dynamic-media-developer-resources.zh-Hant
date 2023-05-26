@@ -1,6 +1,6 @@
 ---
-description: 查看「Help for Image Serving（影像服務）」實用程式和「Vignette Converter（Vignette轉換器）」。
-title: 實用程式
+description: 檢視「影像伺服」公用程式和暈映轉換器的說明。
+title: 公用程式
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: a2bd12b1-a64b-4314-bac9-66aae807356d
@@ -11,9 +11,9 @@ ht-degree: 0%
 
 ---
 
-# 實用程式{#utilities}
+# 公用程式{#utilities}
 
-查看「Help for Image Serving（影像服務）」實用程式和「Vignette Converter（Vignette轉換器）」。
+檢視「影像伺服」公用程式和暈映轉換器的說明。
 
-* [映像服務實用程式](/help/aem-is-ir-api/is-api/is-utils/utilities/c-utils-home.md)
-* [Vignette變換器](/help/aem-is-ir-api/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-converter-vntc.md)
+* [影像伺服公用程式](/help/aem-is-ir-api/is-api/is-utils/utilities/c-utils-home.md)
+* [暈映轉換器(vntc)](/help/aem-is-ir-api/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-converter-vntc.md)

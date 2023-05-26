@@ -1,7 +1,7 @@
 ---
-description: 返回按資產類型分組的所有元資料欄位。
+description: 傳回所有中繼資料欄位，依資產型別分組。
 solution: Experience Manager
-title: getAssetMetadataFields
+title: getassetmetadataFields
 feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
 role: Developer,Admin
 exl-id: 5234d3ea-c333-4e35-91ae-ce3412919fda
@@ -12,13 +12,13 @@ ht-degree: 23%
 
 ---
 
-# getAssetMetadataFields{#getassetmetadatafields}
+# getassetmetadataFields{#getassetmetadatafields}
 
-返回按資產類型分組的所有元資料欄位。
+傳回所有中繼資料欄位，依資產型別分組。
 
 語法
 
-## 授權用戶類型 {#section-e19a9d21cc2b45469c233d4ae55ebfc2}
+## 授權的使用者型別 {#section-e19a9d21cc2b45469c233d4ae55ebfc2}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,13 +34,13 @@ ht-degree: 23%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 公司句柄 | `xsd:string` | 是 | 要檢索其元資料的公司的句柄。 |
+| companyHandle | `xsd:string` | 是 | 您要擷取其中繼資料之公司的控制代碼。 |
 
 **輸出(getAssetMetadataFieldsReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| assetFieldArray | `types:AssetMetadataFieldsArray` | 是 | 按資產類型列出的元資料欄位陣列。 |
+| assetFieldArray | `types:AssetMetadataFieldsArray` | 是 | 依資產型別排列的中繼資料欄位陣列。 |
 
 ## 範例 {#section-d79ab85f29144635b0b61416e52f4f3f}
 
@@ -56,7 +56,7 @@ ht-degree: 23%
 
 >[!NOTE]
 >
->為簡單而截斷。
+>為簡短起見，已截斷。
 
 ```java
 <getAssetMetadataFieldsReturn xmlns="http://www.scene7.com/IpsApi/xsd/2009-07-31">

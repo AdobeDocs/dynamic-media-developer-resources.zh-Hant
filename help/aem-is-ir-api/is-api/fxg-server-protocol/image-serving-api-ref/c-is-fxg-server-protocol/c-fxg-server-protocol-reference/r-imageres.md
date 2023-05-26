@@ -1,7 +1,7 @@
 ---
-description: 設定Web打印請求中嵌入點陣圖的解析度。
+description: 設定要列印的網頁請求中內嵌點陣圖的解析度。
 solution: Experience Manager
-title: 映像資源
+title: imageRes
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: bd9c83c3-b1b5-4649-8975-1452e4dd59b1
@@ -12,10 +12,10 @@ ht-degree: 2%
 
 ---
 
-# 映像資源{#imageres}
+# imageRes{#imageres}
 
-設定Web打印請求中嵌入點陣圖的解析度。
+設定要列印的網頁請求中內嵌點陣圖的解析度。
 
 ` imageRes=< *`數字`*>`
 
-打印時建議使用300。 數字越大，呈現影像所需的時間越長。
+列印時建議使用300。 數字越大，轉譯影像所需的時間就越多。

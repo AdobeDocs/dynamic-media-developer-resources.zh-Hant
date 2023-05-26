@@ -1,5 +1,5 @@
 ---
-description: 屬性集是特定於應用程式的名稱值對集，可以依據屬性集類型附加到各種IPS對象。 如果屬性集類型不允許將多個集附加到對象(PropertySetType/allowMultipleisfalse)，並且對象已具有相同類型的關聯集，則新集將替換現有集。
+description: 屬性集是應用程式專用的名稱 — 值組集合，可根據屬性集型別附加到各種IPS物件。 如果屬性集型別不允許將多個集合附加至物件(PropertySetType/allowMultipleisfalse)，而且物件已經有相同型別的關聯集合，則新集合會取代現有集合。
 solution: Experience Manager
 title: createPropertySet
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 8%
 
 # createPropertySet{#createpropertyset}
 
-屬性集是特定於應用程式的名稱值對集，可以依據屬性集類型附加到各種IPS對象。 如果屬性集類型不允許將多個集附加到對象(PropertySetType/allowMultipleisfalse)，並且對象已具有相同類型的關聯集，則新集將替換現有集。
+屬性集是應用程式專用的名稱 — 值組集合，可根據屬性集型別附加到各種IPS物件。 如果屬性集型別不允許將多個集合附加至物件(PropertySetType/allowMultipleisfalse)，而且物件已經有相同型別的關聯集合，則新集合會取代現有集合。
 
 語法
 
-## 授權用戶類型 {#section-f9b6187ba636475787c997fc27bb192a}
+## 授權的使用者型別 {#section-f9b6187ba636475787c997fc27bb192a}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -27,25 +27,25 @@ ht-degree: 8%
 
 ## 參數 {#section-25258e75f5f3419bad165c797eb6cd8e}
 
-**Input(createPropertySetParam)**
+**輸入(createPropertySetParam)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 類型句柄 | `xsd:string` | 是 | 屬性集類型的句柄。 |
-| primaryOwnerHandle | `xsd:string` | 是 | 屬性集的主所有者的句柄。 |
-| secondaryOwnerHandle | `xsd:string` | 否 | 屬性集的輔助所有者的句柄。 |
-| 屬性Array | `types:PropertyArray` | 是 | 屬性陣列。 |
-| 權限陣列 | `types:PermissionUpdateArray` |  |  |
+| typeHandle | `xsd:string` | 是 | 屬性集型別的控制代碼。 |
+| primaryOwnerHandle | `xsd:string` | 是 | 屬性集主要擁有者的控制代碼。 |
+| secondaryOwnerHandle | `xsd:string` | 否 | 屬性集的次要擁有者的控制代碼。 |
+| propertyArray | `types:PropertyArray` | 是 | 屬性的陣列。 |
+| permissionArray | `types:PermissionUpdateArray` |  |  |
 
 **輸出(createPropertySetParam)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| setHandle | `xsd:string` | 是 | 新屬性集的句柄。 |
+| setHandle | `xsd:string` | 是 | 新屬性集的控制代碼。 |
 
 ## 範例 {#section-4e1f5b2883664bc88f590fcd253df22b}
 
-此代碼示例建立一個包含屬性名稱和值的屬性集。 響應將返回新屬性集的句柄。
+此程式碼範例會建立包含屬性名稱和值的屬性集。 回應會傳回新屬性集的控制代碼。
 
 **請求**
 

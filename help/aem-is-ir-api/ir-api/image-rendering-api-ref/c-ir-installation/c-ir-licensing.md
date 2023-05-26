@@ -1,6 +1,6 @@
 ---
-title: 許可
-description: 需要Dynamic Media影像呈現許可證密鑰，並且必須在安裝影像呈現的每個系統上安裝該密鑰。
+title: 授權
+description: 需要Dynamic Media影像演算授權金鑰，且必須安裝在安裝影像演算的每個系統上。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# 許可{#licensing}
+# 授權{#licensing}
 
-需要Dynamic Media影像呈現許可證密鑰，並且必須在安裝影像呈現的每個系統上安裝該密鑰。
+需要Dynamic Media影像演算授權金鑰，且必須安裝在安裝影像演算的每個系統上。
 
-沒有有效的許可證，影像呈現不會運行。 安裝過程包括獲取和安裝許可證密鑰的步驟。
+沒有有效的授權，影像演算就不會執行。 安裝程式包括取得和安裝授權金鑰的步驟。

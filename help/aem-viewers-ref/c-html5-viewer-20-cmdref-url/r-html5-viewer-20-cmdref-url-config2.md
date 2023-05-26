@@ -1,6 +1,6 @@
 ---
 title: config2
-description: 所有查看器通用的參數。
+description: 所有檢視器通用的引數。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
@@ -14,19 +14,19 @@ ht-degree: 17%
 
 # config2{#config}
 
-所有查看器通用的參數。
+所有檢視器通用的引數。
 
 >[!NOTE]
 >
->此命令不適用於視頻影像查看器。
+>這個命令不適用於Video Image Viewer。
 
-` config2= *`公司預設`*`
+` config2= *`公司預設集`*`
 
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 公司預設</span> </span> </p> </td> 
-   <td colname="col2"> <p> 名稱 <span class="keyword"> Adobe Analytics</span> 配置預設。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 公司預設集</span> </span> </p> </td> 
+   <td colname="col2"> <p> 的名稱 <span class="keyword"> Adobe Analytics</span> 設定預設集。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

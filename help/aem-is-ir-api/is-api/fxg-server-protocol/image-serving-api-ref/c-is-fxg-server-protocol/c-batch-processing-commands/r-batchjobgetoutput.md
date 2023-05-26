@@ -1,7 +1,7 @@
 ---
-description: 檢索已提交作業的輸出。
+description: 擷取已提交工作的輸出。
 solution: Experience Manager
-title: batjobgetoutput
+title: batchjobgetoutput
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3fb48c39-b15a-45b7-9aca-ed33f9c46c93
@@ -12,22 +12,22 @@ ht-degree: 2%
 
 ---
 
-# batjobgetoutput{#batchjobgetoutput}
+# batchjobgetoutput{#batchjobgetoutput}
 
-檢索已提交作業的輸出。
+擷取已提交工作的輸出。
 
-此參數：
+此引數：
 
 <table id="simpletable_D8AA325968AD4FAEA7B214F0CBBF3F08"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> jobid </span> </p> </td> 
-  <td class="stentry"> <p>提交時獲取的作業ID。 </p> </td> 
+  <td class="stentry"> <p>提交時取得的作業ID。 </p> </td> 
  </tr> 
 </table>
 
-返回：
+傳回：
 
-作業的PDF輸出被流化，以作為響應；錯誤 `jobid` 無效或作業已被刪除。
+為回應而串流工作的PDF輸出；發生以下情況時發生錯誤： `jobid` 無效或已刪除工作。
 
 ## 範例 {#section-0319e615fa254132a9dab59351b4c252}
 

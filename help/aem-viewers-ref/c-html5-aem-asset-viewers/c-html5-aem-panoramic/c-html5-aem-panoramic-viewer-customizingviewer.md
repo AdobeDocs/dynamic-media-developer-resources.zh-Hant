@@ -1,7 +1,7 @@
 ---
-title: 自定義全景查看器
-description: 全景查看器的所有可視自定義和大多數行為自定義都通過建立自定義CSS來完成。
-keywords: 響應
+title: 自訂全景檢視器
+description: 全景檢視器的所有視覺化自訂和大部分行為自訂都是透過建立自訂CSS完成的。
+keywords: 回應式
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
@@ -13,38 +13,38 @@ ht-degree: 0%
 
 ---
 
-# 自定義Video360查看器{#customizing-video-viewer}
+# 自訂Video360檢視器{#customizing-video-viewer}
 
-所有可視自定義和大多數行為自定義都通過建立自定義CSS來完成。
+所有視覺化自訂和大多數行為自訂都是透過建立自訂CSS完成的。
 
-建議的工作流是為相應的查看器獲取預設CSS檔案，將其複製到其他位置，對其進行自定義，並在 `style=` 的子菜單。
+建議的工作流程是取用適當檢視器的預設CSS檔案、將其複製到不同位置、自訂該檔案，並在中指定自訂檔案的位置 `style=` 命令。
 
-預設CSS檔案可在以下位置找到：
+可在以下位置找到預設CSS檔案：
 
 `<s7viewers_root>/html5/PanoramicViewer.css`
 
-自定義CSS檔案必須包含與預設類聲明相同的類聲明。 如果省略了類聲明，則查看器將無法正常工作，因為它不提供用戶介面元素的內置預設樣式。
+自訂CSS檔案必須包含與預設檔案相同的類別宣告。 如果省略類別宣告，則檢視器無法正常運作，因為它未提供使用者介面元素的內建預設樣式。
 
-提供自定義CSS規則的替代方法是直接在網頁或連結的外部CSS規則之一中使用嵌入樣式。
+提供自訂CSS規則的替代方式是直接在網頁上或其中一個連結的外部CSS規則中使用內嵌樣式。
 
-建立自定義CSS時，請記住查看器指定 `.s7panoramicviewer` 類到其容器DOM元素。 如果使用與 `style=` 命令，使用 `.s7panoramicviewer` 類作為CSS規則的後代選擇器中的父類。 如果要在網頁上執行嵌入樣式，請另外使用容器DOM元素的ID限定此選擇器，如下所示：
+建立自訂CSS時，請記住檢視器會指派 `.s7panoramicviewer` 類別至其容器DOM元素。 如果您使用傳遞的外部CSS檔案 `style=` 命令，使用 `.s7panoramicviewer` 類別作為CSS規則之子系選擇器中的父類別。 如果您在網頁上執行內嵌樣式，另外請使用此容器DOM元素的ID來限定此選擇器，如下所示：
 
 `#<containerId>.s7panoramicviewer.`
 
 
-## 一般樣式說明和建議 {#section-95855dccbbc444e79970f1aaa3260b7b}
+## 一般樣式注意事項和建議 {#section-95855dccbbc444e79970f1aaa3260b7b}
 
-* CSS內到外部資產的所有路徑都根據CSS位置而不是查看器HTML頁位置進行解析。 將預設CSS複製到其他位置時，請考慮以下因素：可能需要複製預設資產或更新自定義CSS中的路徑。
-* 可以對CSS支援的顏色值使用各種格式。 如果需要透明， `rgba(R,G,B,A)` 的上界。 否則，不需要透明 `#RRGGBB` 可使用。
+* CSS內外部資產的所有路徑都會根據CSS位置解析，而非檢視器HTML頁面位置。 將預設CSS複製到不同位置時，請考量這一點：您可能需要同時複製預設資產或更新自訂CSS內的路徑。
+* 您可以對CSS支援的顏色值使用各種格式。 如果需要透明度， `rgba(R,G,B,A)` 建議使用格式。 否則，不需要透明度 `#RRGGBB` 可使用。
 
-使用CSS自定義查看器UI時，使用 `!IMPORTANT` 樣式查看器元素不支援規則。 特別是， `!IMPORTANT` 規則不應用於覆蓋查看器或查看器SDK提供的任何預設或運行時樣式，因為它可能會影響正確的元件行為。 相反，應使用具有適當特異性的CSS選擇器來設定本參考指南中記錄的CSS屬性。
+使用CSS自訂檢視器使用者介面時，請使用 `!IMPORTANT` 樣式檢視器元素不支援規則。 尤其是， `!IMPORTANT` 規則不應用來覆寫檢視器或檢視器SDK提供的任何預設或執行階段樣式，因為它可能會影響正確的元件行為。 相反地，應該使用具有適當特性的CSS選取器來設定本參考指南中記錄的CSS屬性。
 
-## 全景查看器CSS {#section-9b6d8d601cb441d08214dada7bb4eddc}
+## 全景檢視器CSS {#section-9b6d8d601cb441d08214dada7bb4eddc}
 
-**主查看器區域**
-主視區是全景影像所佔用的區域。  它通常設定為在未指定大小時適合可用設備螢幕。
+**主要檢視器區域**
+主要檢視區域是全景影像所佔用的區域。  若未指定大小，通常會設定為符合可用的裝置熒幕。
 
-查看區域的外觀由CSS類選擇器控制：
+檢視區域的外觀是由CSS類別選取器所控制：
 `.s7panoramicviewer`
 
 適用的CSS屬性包括：
@@ -53,16 +53,16 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> 觀眾的寬度； </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> 檢視器的寬度； </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> 觀眾身高； </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> 檢視器的高度； </span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例：設定大小為1024 x 512像素的查看器。
+範例：若要設定大小為1024 x 512畫素的檢視器。
 
 ```
 .s7panoramicviewer {
@@ -71,23 +71,23 @@ ht-degree: 0%
 }
 ```
 
-**全景**
-主視圖由全景影像組成。
+**全景檢視**
+主檢視由全景影像組成。
 
-主視圖的外觀由CSS類選擇器控制：
+主檢視的外觀由CSS類別選取器控制：
 `.s7panoramicviewer .s7panoramicview`
 
 適用的CSS屬性包括：
 <table id="table_pann68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> 主視圖的背景色； </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> 主要檢視的背景色彩； </span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例：要使主視圖透明：
+範例：若要讓主檢視透明：
 
 ```
 .s7panoramicviewer .s7panoramicview {

@@ -1,7 +1,7 @@
 ---
-description: 優化映像作業的詳細資訊。
+description: 最佳化影像工作的詳細資訊。
 solution: Experience Manager
-title: 優化ImagesJob
+title: OptimizeImages作業
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 464c9b2e-3ae5-47f5-a5f2-9bc7047b8468
@@ -14,7 +14,7 @@ ht-degree: 21%
 
 # [!DNL OptimizeImagesJob]{#optimizeimagesjob}
 
-優化映像作業的詳細資訊。
+最佳化影像工作的詳細資訊。
 
 語法
 
@@ -22,4 +22,4 @@ ht-degree: 21%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 電子郵件設定 | `xsd:string` | 電子郵件設定欄位。 |
+| emailSetting | `xsd:string` | 電子郵件設定欄位。 |

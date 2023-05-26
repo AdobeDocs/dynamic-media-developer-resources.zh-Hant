@@ -1,6 +1,6 @@
 ---
 title: OnFailSel
-description: 選擇選擇錯誤處理。 指定在sel=命令失敗時要執行的操作，因為指定的像素位置不在可選對象的掩碼區域內。
+description: 挑選選取範圍錯誤處理。 指定當sel=命令因指定的畫素位置不在可選取物件的遮色片區域內而失敗時，所要採取的動作。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,39 +14,39 @@ ht-degree: 6%
 
 # OnFailSel{#onfailsel}
 
-選擇選擇錯誤處理。 指定在 `sel=` 命令失敗，因為指定的像素位置不在可選對象的掩碼區域內。
+挑選選取範圍錯誤處理。 指定在下列情況下要採取的動作： `sel=` 命令失敗，因為指定的畫素位置不在可選取物件的遮色片區域內。
 
 ## 屬性 {#section-cec491e6c5c744f9bfafaaa9d8774f83}
 
-枚舉。
+列舉。
 
 <table id="simpletable_1CFD2BC6F9BC4D2AB372EAF115B7F2FC"> 
  <tr class="strow"> 
   <td class="stentry"> <p>0 </p> </td> 
-  <td class="stentry"> <p>繼承自 <span class="codeph"> 預設：:OnFailSel </span>。 </p> </td> 
+  <td class="stentry"> <p>繼承自 <span class="codeph"> default：：OnFailSel </span>. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p> </td> 
-  <td class="stentry"> <p>保留上一個選擇。 </p> </td> 
+  <td class="stentry"> <p>保留先前的選取範圍。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p> </td> 
-  <td class="stentry"> <p>取消選擇；將忽略應用材料或顯示/隱藏對象的任何嘗試。 </p> </td> 
+  <td class="stentry"> <p>取消選取；會忽略任何套用材料或顯示/隱藏物件的嘗試。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p> </td> 
-  <td class="stentry"> <p>返回錯誤。 </p> </td> 
+  <td class="stentry"> <p>傳回錯誤。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>4 </p> </td> 
-  <td class="stentry"> <p>選擇預設組（包含可轉換對象的視圖層次結構中的第一個組）。 </p> </td> 
+  <td class="stentry"> <p>選取預設群組（暈映階層中第一個包含可轉譯物件的群組）。 </p> </td> 
  </tr> 
 </table>
 
 ## 預設 {#section-c25f458f9f8f4236963a95779529e664}
 
-繼承自 `default::OnFailSel` 的子菜單。
+繼承自 `default::OnFailSel` 若未定義。
 
 ## 另請參閱 {#section-f8b15dd64c674c5484d190dd9e3016af}
 
-[sel=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-sel.md#reference-01322c58d414481385c29fcdd27a090b) 。 [屬性：:OnFailObj](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-onfailobj.md#reference-4c6ba90418e84da5831f8573bbbf2c8d)
+[sel=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-sel.md#reference-01322c58d414481385c29fcdd27a090b) ， [attribute：：OnFailObj](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-onfailobj.md#reference-4c6ba90418e84da5831f8573bbbf2c8d)

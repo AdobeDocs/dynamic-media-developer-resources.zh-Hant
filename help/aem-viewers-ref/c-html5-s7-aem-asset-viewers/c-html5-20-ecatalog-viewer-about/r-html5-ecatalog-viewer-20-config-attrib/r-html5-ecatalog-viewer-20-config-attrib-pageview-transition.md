@@ -14,25 +14,25 @@ ht-degree: 3%
 
 # PageView.transition{#pageview-transition}
 
-` [PageView.|<containerId>_pageView.]transition= *`時間`*[, *`寬`*]`
+` [PageView.|<containerId>_pageView.]transition= *`時間`*[, *`加/減速`*]`
 
 <table id="table_E314540D347D47699C04EB80D20C0721"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 時間</span></span> </p> </td> 
-   <td colname="col2"> <p> 指定單個縮放步驟操作的動畫所花費的時間（秒）。 </p> </td> 
+   <td colname="col2"> <p> 指定單一縮放步階動作動畫所需的時間（秒）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> 寬</span></span> </p> </td> 
-   <td colname="col2"> <p> 建立加速或減速的假象，使過渡更自然。 可以將緩動設定為以下選項之一： </p> <p> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> 加/減速</span></span> </p> </td> 
+   <td colname="col2"> <p> 建立加速或減速的錯覺，使轉接看起來更自然。 您可以將加/減速設定為下列其中一個： </p> <p> 
      <ul id="ul_DA0D1CF2F2484410BFCCACA86661702E"> 
-      <li id="li_93A2D53A53314D9594CEDC9EB20381D4">0（自動） </li> 
-      <li id="li_AD6A1F03DE544959BC4AA0DD97494F8C"> 1（線性） </li> 
-      <li id="li_816A3CE796E3415B9650DDA204412A6A"> 2（二次） </li> 
-      <li id="li_EF00BF6CA2AA48FEB54015FFBA9F8DD4"> 3（立方） </li> 
-      <li id="li_F3CB7F0821AF489C84A0CA155F5031A2"> 4（四分） </li> 
-      <li id="li_F5B844DAF4CC453CA58BF09A660D139F"> 5（五次） </li> 
-     </ul> </p> <p>禁用彈性縮放時，自動模式始終使用線性過渡（預設）。 否則，它適合基於過渡時間的其它緩動功能之一。 即過渡時間越短，緩動函式用於加速加速或減速效果越大。 </p> </td> 
+      <li id="li_93A2D53A53314D9594CEDC9EB20381D4">0 （自動） </li> 
+      <li id="li_AD6A1F03DE544959BC4AA0DD97494F8C"> 1 （線性） </li> 
+      <li id="li_816A3CE796E3415B9650DDA204412A6A"> 2 （二次方程式） </li> 
+      <li id="li_EF00BF6CA2AA48FEB54015FFBA9F8DD4"> 3 （立方） </li> 
+      <li id="li_F3CB7F0821AF489C84A0CA155F5031A2"> 4 （四次方） </li> 
+      <li id="li_F5B844DAF4CC453CA58BF09A660D139F"> 5 （五次方） </li> 
+     </ul> </p> <p>當彈性縮放被停用（預設）時，「自動」模式一律使用線性轉換。 否則，它會根據轉接時間來配合其他加/減速功能之一。 也就是說，轉接時間越短，使用加/減速功能來加速加速加速或減速效果的速度就越高。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

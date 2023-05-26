@@ -1,6 +1,6 @@
 ---
 title: CallToAction.scrollbar
-description: Interactive Video Viewer的配置屬性。
+description: 互動式視訊檢視器的設定屬性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 15%
 
 # CallToAction.scrollbar{#calltoaction-scrollbar}
 
-Interactive Video Viewer的配置屬性。
+互動式視訊檢視器的設定屬性。
 
 `[CallToAction.|<containerId>_callToAction.]scrollbar=0|1`
 
@@ -22,7 +22,7 @@ Interactive Video Viewer的配置屬性。
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 啟用捲動條的使用。 </p> </td> 
+   <td colname="col2"> <p> 啟用卷軸。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

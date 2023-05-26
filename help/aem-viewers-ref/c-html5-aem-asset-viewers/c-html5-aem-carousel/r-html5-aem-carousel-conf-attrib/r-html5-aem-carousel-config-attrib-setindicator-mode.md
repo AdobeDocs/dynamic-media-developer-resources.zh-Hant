@@ -19,8 +19,8 @@ ht-degree: 4%
 <table id="table_0BEA0B5FFDF64E5594B534B2A87A6D88"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 數字|虛點</span> </p> </td> 
-   <td colname="col2"> <p> 配置設定指示器的渲染樣式。 </p> <p>設定為時 <span class="codeph"> 虛 </span>，該元件為所有頁面呈現相同的指示符。 </p> <p>設定為時 <span class="codeph"> 數字</span> 它在每個指示符元素內放置一個基於1的頁碼。 </p> <p>的 <span class="codeph"> 數字</span> 具有觸摸輸入的設備不支援操作模式。 相反，元件使用 <span class="codeph"> 虛</span> 在這些設備上。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 數值|虛線</span> </p> </td> 
+   <td colname="col2"> <p> 設定設定指示的演算樣式。 </p> <p>當設定為 <span class="codeph"> 點狀 </span>時，元件會為所有頁面轉譯相同的指標。 </p> <p>當設定為 <span class="codeph"> 數值</span> 它會在每個指標元素內放置一個以1為基礎的頁碼。 </p> <p>此 <span class="codeph"> 數值</span> 具有觸控式輸入的裝置不支援操作模式。 相反地，元件使用 <span class="codeph"> 點狀</span> 在此類裝置上。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

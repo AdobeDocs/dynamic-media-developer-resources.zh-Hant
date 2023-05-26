@@ -1,5 +1,5 @@
 ---
-description: Image Service支援使用ISO-8859-1和UTF-8編碼的映像目錄。
+description: 「影像伺服」支援採用ISO-8859-1和UTF-8編碼的影像目錄。
 solution: Experience Manager
 title: 字元編碼
 feature: Dynamic Media Classic,SDK/API
@@ -14,8 +14,8 @@ ht-degree: 0%
 
 # 字元編碼{#character-encoding}
 
-Image Service支援使用ISO-8859-1和UTF-8編碼的映像目錄。
+「影像伺服」支援採用ISO-8859-1和UTF-8編碼的影像目錄。
 
-位元組順序標籤(BOM)用於指定每個檔案的編碼。 對於UTF-8,BOM是位元組序列 `EF BB BF`。 當在每個影像目錄檔案的開頭檢測到此字元序列時，假定使用UTF-8編碼。 任何其他位元組序列導致檔案被解釋為已編碼到ISO-8859-1標準。
+位元組順序標籤(BOM)可用來指定每個檔案的編碼。 對於UTF-8，BOM是位元組順序 `EF BB BF`. 在每個影像目錄檔案的開頭偵測到此字元序列時，會採用UTF-8編碼。 任何其他位元組序列都會將檔案解譯為編碼為ISO-8859-1標準。
 
-許多當代應用程式在配置為UTF-8時會自動插入BOM。
+許多當代應用程式在針對UTF-8進行配置時，會自動插入BOM。

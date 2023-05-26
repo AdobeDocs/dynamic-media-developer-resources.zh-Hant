@@ -1,7 +1,7 @@
 ---
-description: 更新資產的發佈上下文狀態。
+description: 更新資產的發佈內容狀態。
 solution: Experience Manager
-title: 上下文狀態更新
+title: ContextStateUpdate
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 4e450d28-ec79-4540-824b-b0121b72c857
@@ -14,13 +14,13 @@ ht-degree: 16%
 
 # [!DNL ContextStateUpdate]{#contextstateupdate}
 
-更新資產的發佈上下文狀態。
+更新資產的發佈內容狀態。
 
 語法
 
 ## 參數 {#section-9f747df071854c6896fdbb95684ad947}
 
-將資產的發佈上下文狀態設定為 `setAssetsContextState`。
+設定資產的發佈內容狀態，使用 `setAssetsContextState`.
 
 <table id="table_FD172CEA4EFE44E08ADA22D090DC06CA">
  <thead>
@@ -32,17 +32,17 @@ ht-degree: 16%
  </thead>
  <tbody>
   <tr>
-   <td colname="col1"><span class="codeph"><span class="varname"> 上下文句柄</span></span></td>
+   <td colname="col1"><span class="codeph"><span class="varname"> contextHandle</span></span></td>
    <td colname="col2"><span class="codeph"> xsd:string </span></td>
-   <td colname="col3"> 處理發佈上下文。 </td>
+   <td colname="col3"> 處理發佈內容的動作。 </td>
   </tr>
   <tr>
-   <td colname="col1"><span class="codeph"><span class="varname"> 發佈狀態</span></span></td>
+   <td colname="col1"><span class="codeph"><span class="varname"> publishState</span></span></td>
    <td colname="col2"><span class="codeph"> xsd:string</span></td>
-   <td colname="col3">指定發佈上下文的資產的更新發佈狀態。 包括： 
+   <td colname="col3">指定發佈內容的資產更新發佈狀態。 包括： 
     <ul id="ul_CF6019C4CA3648B687C252F1A7C2EAAF">
-     <li id="li_4367D7A058F045D98CDF58009E2AC7BC"><span class="codeph"> 標籤為發佈</span></li>
-     <li id="li_EEFC6A76C1014C6D9D5E66F271B68606"><span class="codeph"> 未標籤為發佈</span></li>
+     <li id="li_4367D7A058F045D98CDF58009E2AC7BC"><span class="codeph"> 已標籤為發佈</span></li>
+     <li id="li_EEFC6A76C1014C6D9D5E66F271B68606"><span class="codeph"> NotMarkedForPublish</span></li>
      <li id="li_5145CFA39F5249C48DBD0A37543AF055"><span class="codeph"></span></li>
     </ul></td>
   </tr>

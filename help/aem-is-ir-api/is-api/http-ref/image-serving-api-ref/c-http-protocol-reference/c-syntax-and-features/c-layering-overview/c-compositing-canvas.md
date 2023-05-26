@@ -1,5 +1,5 @@
 ---
-description: 層按layer=命令指定的順序合成，其中編號較高的層隱藏編號較低的層。
+description: 圖層會以layer=指令指定的順序組合，編號較高的圖層會隱藏編號較低的圖層。
 solution: Experience Manager
 title: 合成畫布
 feature: Dynamic Media Classic,SDK/API
@@ -14,10 +14,10 @@ ht-degree: 0%
 
 # 合成畫布{#the-compositing-canvas}
 
-層按layer=命令指定的順序合成，其中編號較高的層隱藏編號較低的層。
+圖層會以layer=指令指定的順序組合，編號較高的圖層會隱藏編號較低的圖層。
 
-第0層構成背景層，它始終是必需的，並定義了複合影像的大小。 層0允許使用任何層類型。 必須定義層0的大小，或者顯式使用 `size=` 或隱式。 輸出影像中不包括位於層0區域之外的其它層的任何區域。
+圖層0構成背景圖層，背景圖層永遠是必要的，並定義複合影像的大小。 圖層0允許使用任何圖層型別。 必須定義圖層0的大小，或是明確使用 `size=` 或隱含地，根據內容影像或文字。 其他圖層的任何區域若落在圖層0的區域之外，將不會包含在輸出影像中。
 
 >[!NOTE]
 >
->將所有圖層拼合後，複合影像將轉換為最終響應影像，如 [查看命令和屬性](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-view-commands-and-attributes.md#reference-8b3d637d080a47a4ba669a7f0de2ba90)。
+>所有圖層都平面化後，複合影像會轉換為最終回應影像，如同以 [檢視命令和屬性](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-view-commands-and-attributes.md#reference-8b3d637d080a47a4ba669a7f0de2ba90).

@@ -24,4 +24,4 @@ ht-degree: 33%
 |---|---|---|
 | 原始路徑 | `xsd:string` | 字型路徑。 |
 | 原始檔案 | `xsd:string` | 字型名稱。 |
-| 檔案大小 | `xsd:int` | 字型大小. |
+| fileSize | `xsd:int` | 字型大小. |

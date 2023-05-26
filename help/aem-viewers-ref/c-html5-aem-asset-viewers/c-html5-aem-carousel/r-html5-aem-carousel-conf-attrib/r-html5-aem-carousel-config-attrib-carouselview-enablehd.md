@@ -19,12 +19,12 @@ ht-degree: 5%
 <table id="table_0BEA0B5FFDF64E5594B534B2A87A6D88"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 始終|never|limit</span> </p> </td> 
-   <td colname="col2"> <p> 對以下設備啟用、限制或禁用優化 <span class="codeph"> 設備PixelRatio</span> 大於 <span class="codeph"> 1</span>這就是像iPhone4和類似的器件一樣，具有高密度顯示的器件。 </p> <p>如果處於活動狀態，則元件將限制IS影像請求的大小，就好像設備僅具有像素比 <span class="codeph"> 1</span> 減少頻寬。 </p> <p>請參見下例。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 一律|永不|限制</span> </p> </td> 
+   <td colname="col2"> <p> 啟用、限制或停用裝置的最佳化，其中 <span class="codeph"> devicePixelRatio</span> 大於 <span class="codeph"> 1</span>，也就是具有高密度顯示器的裝置，例如iPhone4和類似裝置。 </p> <p>如果啟用，則元件會限制IS影像請求的大小，彷彿裝置的畫素比僅為 <span class="codeph"> 1</span> 進而減少頻寬。 </p> <p>請參閱以下範例。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 數字</span></span> </p> </td> 
-   <td colname="col2"> <p> 如果使用 <span class="codeph"> 限</span> 設定時，該元件僅允許高像素密度達到指定限制。 </p> <p>請參見下例。 </p> </td> 
+   <td colname="col2"> <p> 若使用 <span class="codeph"> 限制</span> 設定時，元件僅會啟用指定上限的高畫素密度。 </p> <p>請參閱以下範例。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

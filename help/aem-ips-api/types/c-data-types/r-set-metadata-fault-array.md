@@ -1,5 +1,5 @@
 ---
-description: 元資料故障的陣列。
+description: 中繼資料錯誤的陣列。
 solution: Experience Manager
 title: SetMetadataFaultArray
 feature: Dynamic Media Classic,SDK/API,Metadata
@@ -14,7 +14,7 @@ ht-degree: 27%
 
 # [!DNL SetMetadataFaultArray]{#setmetadatafaultarray}
 
-元資料故障的陣列。
+中繼資料錯誤的陣列。
 
 語法
 
@@ -22,4 +22,4 @@ ht-degree: 27%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 項目 | `types:SetMetadataFault` | 元資料故障的陣列。 |
+| 項目 | `types:SetMetadataFault` | 中繼資料錯誤的陣列。 |

@@ -1,7 +1,7 @@
 ---
-description: 影像蒙版。 請求掩碼（Alpha通道）資料。
+description: 影像遮色片。 要求遮罩（Alpha色版）資料。
 solution: Experience Manager
-title: 掩模
+title: 遮色片
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0e743fe5-a623-4f5f-bc61-536ed70532bf
@@ -12,12 +12,12 @@ ht-degree: 0%
 
 ---
 
-# 掩模{#mask}
+# 遮色片{#mask}
 
-影像蒙版。 請求掩碼（Alpha通道）資料。
+影像遮色片。 要求遮罩（Alpha色版）資料。
 
 `req=mask`
 
-支援與 `req=img`。 伺服器以相同方式處理它，但伺服器不返回RGB或RGBA資料，而是丟棄顏色資訊並僅返回掩碼（Alpha通道）資料。 答復資料格式和響應MIME類型由 `fmt=`。
+支援與相同的命令 `req=img`. 伺服器會以相同的方式處理它，但不會傳回RGB或RGBA資料，而是捨棄顏色資訊並只傳回遮色片（Alpha色版）資料。 回覆資料格式和回應MIME型別由以下專案決定 `fmt=`.
 
-HTTP響應可以與基於的TTL進行快取 `catalog::Expiration`。
+HTTP回應可使用以下依據的TTL快取： `catalog::Expiration`.

@@ -1,6 +1,6 @@
 ---
-title: 影像呈現API參考
-description: 查看Dynamic Media影像呈現API參考幫助。
+title: 影像演算API參考
+description: 檢視Dynamic Media影像演算API參考說明。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,6 +12,6 @@ ht-degree: 0%
 ---
 
 
-# 影像呈現API參考 {#image-rendering-api-reference}
+# 影像演算API參考 {#image-rendering-api-reference}
 
-查看Dynamic Media影像呈現API參考幫助。
+檢視Dynamic Media影像演算API參考說明。

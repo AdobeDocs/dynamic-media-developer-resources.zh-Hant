@@ -1,5 +1,5 @@
 ---
-description: 刪除資產的元資料值。 與元資料刪除陣列一起使用，以在批處理中設定值。
+description: 刪除資產的中繼資料值。 使用一系列中繼資料刪除來設定批次中的值。
 solution: Experience Manager
 title: deleteAssetMetadata
 feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
@@ -14,11 +14,11 @@ ht-degree: 13%
 
 # deleteAssetMetadata{#deleteassetmetadata}
 
-刪除資產的元資料值。 與元資料刪除陣列一起使用，以在批處理中設定值。
+刪除資產的中繼資料值。 使用一系列中繼資料刪除來設定批次中的值。
 
 語法
 
-## 授權用戶類型 {#section-e913be43b684491daf02bc73211e4290}
+## 授權的使用者型別 {#section-e913be43b684491daf02bc73211e4290}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,7 +29,7 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->用戶必須具有對資產的讀取和刪除權限。
+>使用者必須擁有資產的讀取和刪除存取權。
 
 ## 參數 {#section-0eed164e278b456fbdfb7a50727a0416}
 
@@ -46,39 +46,39 @@ ht-degree: 13%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>公司句柄 </p> </td> 
+   <td colname="col1"> <p>companyHandle </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>資料夾所屬公司的句柄。 </p> </td> 
+   <td colname="col4"> <p>資料夾所屬公司的控制代碼。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>資產句柄 </p> </td> 
+   <td colname="col1"> <p>assetHandle </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>要刪除的資產的句柄。 </p> </td> 
+   <td colname="col4"> <p>要刪除之資產的控點。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>元資料刪除 </p> </td> 
+   <td colname="col1"> <p>metadataDelete </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>要從資產中刪除的元資料。 </p> </td> 
+   <td colname="col4"> <p>要從資產刪除的中繼資料。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>deleteArray </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> 類型：元資料刪除陣列</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 型別：MetadataDeleteArray</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>要從資產中刪除的元資料陣列。 </p> </td> 
+   <td colname="col4"> <p>要從資產刪除的中繼資料陣列。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **輸出(deleteAssetMetadataParam)**
 
-IPS API不會為此操作返迴響應。
+IPS API未傳回此作業的回應。
 
 ## 範例 {#section-d5657289f5234bb0a613dcf691507958}
 
-元資料刪除
+MetadataDelete
 
 ```java
     <complexType name="MetadataDelete">
@@ -88,7 +88,7 @@ IPS API不會為此操作返迴響應。
     </complexType>
 ```
 
-示例調用
+呼叫範例
 
 ```java
 <ac:Request id="deleteAssetMetadata">

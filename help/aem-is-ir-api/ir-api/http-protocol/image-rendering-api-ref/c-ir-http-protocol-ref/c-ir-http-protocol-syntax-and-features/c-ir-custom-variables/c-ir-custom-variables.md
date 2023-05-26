@@ -1,6 +1,6 @@
 ---
-title: 自定義變數
-description: 請求和可視修改量字串的查詢部分可以包括用戶定義的變數。
+title: 自訂變數
+description: 請求和暈映修飾元字串的查詢部分可能包含使用者定義的變數。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,24 +12,24 @@ ht-degree: 0%
 
 ---
 
-# 自定義變數{#custom-variables}
+# 自訂變數{#custom-variables}
 
-請求和vignette:：修改量字串的查詢部分可能包括用戶定義的變數。
+請求和暈映：：修飾元字串的查詢部分可能包含使用者定義的變數。
 
 `$ [!DNL name] = [!DNL value]`
 
-`[!DNL name]`  — 變數名稱。 可能包含字母、數字和安全字元的任意組合，不包括 `$`。
+`[!DNL name]`  — 變數名稱。 可由字母、數字和安全字元的任意組合組成，但不包括 `$`.
 
-`[!DNL value]`  — 要設定變數的值（字串）。
+`[!DNL value]`  — 變數要設定的值（字串）。
 
-使用上述語法定義的變數與其他伺服器命令類似。 必須先定義變數，然後才能引用它們。 在中定義的變數 `vignette::Modifier` 可以在URL請求中引用，反之則可以。
+變數的定義與其他伺服器命令類似，使用上述語法。 必須先定義變數，才能加以參照。 在中定義的變數 `vignette::Modifier` 可在URL要求中參照，反之亦然。
 
 >[!NOTE]
 >
->`[!DNL value]` 必須是單通URL編碼，才能進行安全的HTTP傳輸。 如果需要雙重編碼， `[!DNL value]` 通過HTTP重傳。 這種情況下 `[!DNL value]` 替換為嵌套的外部請求。
+>`[!DNL value]` 必須為單通道URL編碼，才能安全HTTP傳輸。 在以下情況下需要雙重編碼 `[!DNL value]` 會透過HTTP重新傳輸。 以下情況即屬於此情況： `[!DNL value]` 會取代為巢狀外部請求。
 
-通過嵌入變數名稱（由前導和尾隨圍成）來引用變數 `$`)命令值中的任意位置。 例如，在 `=`  按命令名和後續 `&` 或是請求的結束。 伺服器將每次此類事件 `$ [!DNL name]$` 與 `[!DNL string]`。 在任何 `$ [!DNL name]$` 在命令名稱（命令的等號之前）和請求的路徑部分中。
+藉由內嵌變數名稱來參考變數（以開頭與結尾括住） `$`)在命令值中的任意位置。 例如，在 `=`  在命令名稱后面加上後續的 `&` 或要求結尾。 伺服器會取代每個出現的 `$ [!DNL name]$` 替換為 `[!DNL string]`. 在任何情況下都不會發生替代 `$ [!DNL name]$` 在命令名稱（在命令的等號之前）中，以及在請求的路徑部分中。
 
-自定義變數可能不嵌套。 任何出現的 `$ [!DNL name]$` 內 `[!DNL string]` 的下界。 例如，請求片段 `$var2=apple&$var1=my$var2$tree&text=$var1$` 解析 `text=my$var2$tree`。
+自訂變數不可巢狀。 任何出現次數 `$ [!DNL name]$` 範圍 `[!DNL string]` 不會被取代。 例如，請求片段 `$var2=apple&$var1=my$var2$tree&text=$var1$` 解析為 `text=my$var2$tree`.
 
-`$` 不是保留字元；在請求中可能會出現其它情況。 比如說， `src=my$texture$file.tif` 是有效命令(假定名為 `[!DNL my$texture$file.tif]` 存在)，而 `wid=$number$` 不是，因為 `wid=` 需要一個數字參數。
+`$` 不是保留字元；可能發生在請求中的其他位置。 例如， `src=my$texture$file.tif` 是有效的指令(假設材料目錄專案或紋理檔案名為 `[!DNL my$texture$file.tif]` 存在)，而 `wid=$number$` 不是，因為 `wid=` 需要數值引數。

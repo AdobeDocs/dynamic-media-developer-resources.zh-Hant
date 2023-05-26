@@ -1,5 +1,5 @@
 ---
-description: HTTP響應頭元素。 可選 <rule> 元素。
+description: HTTP回應標頭元素。 選填於 <rule> 元素。
 solution: Experience Manager
 title: header
 feature: Dynamic Media Classic,SDK/API
@@ -14,27 +14,27 @@ ht-degree: 4%
 
 # header{#header}
 
-HTTP響應頭元素。 可選 `<rule>` 元素。
+HTTP回應標頭元素。 選填於 `<rule>` 元素。
 
 ## 屬性 {#section-6e903ab4c64f4b1488b8ae74274f50a6}
 
-**`Name`= &quot;*文本*&quot;** :必需。 指定HTTP標頭的名稱。
+**`Name`= &quot;*文字*&quot;** ：必填。 指定HTTP標頭的名稱。
 
-**`Action`= &quot;設定&quot; |`"add"`**:可選。 預設值為 `"set"`，將替換任何當前標題值。 指定 `"add"` 添加標題值，用逗號分隔。
+**`Action`= &quot;set&quot; |`"add"`**：選擇性。 預設為 `"set"`，會取代任何目前的標頭值。 指定 `"add"` 以附加標頭值，並以逗號分隔。
 
 ## 資料 {#section-a387f541396c49d99c29692a38032914}
 
-標題值。
+標頭值。
 
 ## 說明 {#section-fb2a8ad79bc5414d8bb0d0e8199f3269}
 
-允許添加新的HTTP響應標頭，以及添加或替換預定義標頭的值。 名稱和值必須符合HTTP標準。 未應用其他編碼。
+允許新增新的HTTP回應標頭，以及新增或取代預先定義標頭的值。 名稱和值必須符合HTTP標準。 不會套用其他編碼。
 
-Image Service替代變數可用於標題名稱和標題值。 這允許從請求控制兩個字串。
+「影像伺服」替代變數可用於標頭名稱和標頭值。 這可讓您從請求中控制兩個字串。
 
 ## 範例 {#section-cb5b738b9b93407cb2f4d35af3e59c02}
 
-當請求中將標頭值指定為變數時，以下規則將應用自定義標頭：
+當請求中的標頭值指定為變數時，下列規則會套用自訂標頭：
 
 ```
 <rule OnMatch="continue">
@@ -43,6 +43,6 @@ Image Service替代變數可用於標題名稱和標題值。 這允許從請求
 </rule>
 ```
 
-此規則由以下請求觸發，設定HTTP響應標頭 `Edge-Control::no-store`:
+此規則由以下要求觸發，設定HTTP回應標頭 `Edge-Control::no-store`：
 
 `http://server/is/image/cat/id?$Edge-Control=no-store`

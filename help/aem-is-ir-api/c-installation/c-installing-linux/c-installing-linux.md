@@ -1,6 +1,6 @@
 ---
 title: 在Linux®上安裝
-description: 映像服務可安裝在Linux®上。
+description: 影像伺服可安裝在Linux®上。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,8 +14,8 @@ ht-degree: 0%
 
 # 在Linux®上安裝{#installing-on-linux}
 
-映像服務可安裝在Linux®上。
+影像伺服可安裝在Linux®上。
 
 * [首次安裝](t-first-install-lin.md)
-* [從IS 4.7.4或更高版本更新](t-update-lin.md)
+* [從IS 4.7.4或更新版本更新](t-update-lin.md)
 * [驗證安裝](t-verify-install-lin.md)

@@ -1,6 +1,6 @@
 ---
 title: AssetContextStateUpdate
-description: 為與資產關聯的發佈上下文設定一組新的發佈狀態標誌。
+description: 為與資產關聯的發佈內容設定一組新的發佈狀態旗標。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
@@ -14,11 +14,11 @@ ht-degree: 6%
 
 # [!DNL AssetContextStateUpdate]{#assetcontextstateupdate}
 
-為與資產關聯的發佈上下文設定一組新的發佈狀態標誌。
+為與資產關聯的發佈內容設定一組新的發佈狀態旗標。
 
 **參數**
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 資產句柄 | `xsd:string` | 處理要更新的資產。 |
-| contextStateUpdateArray | `types:ContextStateUpdateArray` | 您要更新的資產的發佈聯繫人狀態的陣列。 |
+| assetHandle | `xsd:string` | 處理您要更新的資產。 |
+| contextStateUpdateArray | `types:ContextStateUpdateArray` | 您要更新之資產的發佈聯絡狀態陣列。 |

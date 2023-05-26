@@ -1,6 +1,6 @@
 ---
 title: 錯誤
-description: 如果請求無法成功完成，伺服器將返回錯誤映像或HTTP響應狀態（200以外），並返回錯誤消息。
+description: 如果要求無法成功完成，伺服器會傳回錯誤影像或200以外的HTTP回應狀態以及錯誤訊息。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,16 +14,16 @@ ht-degree: 2%
 
 # 錯誤{#errors}
 
-如果請求無法成功完成，伺服器將返回錯誤映像或HTTP響應狀態（200以外），並返回錯誤消息。
+如果要求無法成功完成，伺服器會傳回錯誤影像或200以外的HTTP回應狀態以及錯誤訊息。
 
-響應狀態值取決於錯誤類型；對於最常見的錯誤，它是「403」。 非映像請求類型的錯誤響應符合使用指定的格式 `req=`。 （當前可能未一致實施。）
+回應狀態值取決於錯誤的型別；對於最常見的錯誤，值為「403」。 非影像要求型別的錯誤回應符合指定的格式 `req=`. （目前可能無法一致地實作。）
 
-錯誤消息中包含的詳細資訊量可配置為 `attribute::ErrorDetail`。
+錯誤訊息中包含的詳細資訊量可通過以下方式設定： `attribute::ErrorDetail`.
 
 **錯誤影像**
 
-映像服務可配置為返回呈現到映像中的錯誤消息。 請參閱 `attribute::ErrorImage` 影像目錄引用中獲取詳細資訊。 如果成功生成錯誤影像，則HTTP響應狀態為200。 如果處理錯誤影像時出錯，則標準HTTP錯誤響應和文本消息將返回給客戶端。
+「影像伺服」可設定為傳回演算至影像的錯誤訊息。 另請參閱 `attribute::ErrorImage` 在影像目錄參考中取得詳細資訊。 如果成功產生錯誤影像，HTTP回應狀態為200。 如果在處理錯誤影像時發生錯誤，則會將標準HTTP錯誤回應和文字訊息傳回使用者端。
 
 **另請參閱**
 
-[屬性：:ErrorDetail](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-errordetail.md#reference-123b56eed6cf49cea6e0490672b7c53b) 。 [屬性：:ErrorImage](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-errorimage.md#reference-b58bdaba96074c52802ca8dc54bfe2f0)
+[attribute：：ErrorDetail](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-errordetail.md#reference-123b56eed6cf49cea6e0490672b7c53b) ， [attribute：：ErrorImage](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-errorimage.md#reference-b58bdaba96074c52802ca8dc54bfe2f0)

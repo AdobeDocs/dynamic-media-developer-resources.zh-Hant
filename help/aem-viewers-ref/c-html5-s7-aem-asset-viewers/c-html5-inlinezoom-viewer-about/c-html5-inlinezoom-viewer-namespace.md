@@ -1,6 +1,6 @@
 ---
-title: 查看器SDK命名空間
-description: 查看器SDK命名空間
+title: 檢視器SDK名稱空間
+description: 檢視器SDK名稱空間
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
@@ -12,19 +12,19 @@ ht-degree: 0%
 
 ---
 
-# 查看器SDK命名空間{#viewer-sdk-namespace}
+# 檢視器SDK名稱空間{#viewer-sdk-namespace}
 
-查看器由許多查看器SDK元件構建。 通常，網頁不需要直接與SDK元件API交互；查看器API本身涵蓋所有常見需求。
+檢視器是由許多Viewer SDK元件所建置。 通常網頁不需要直接與SDK元件API互動；所有常見需求都包含在檢視器API本身中。
 
-但是，某些高級使用情形要求網頁使用 `getComponent()` 查看器API，然後使用SDK本身的API的所有靈活性。
+不過，有些進階使用案例會要求網頁參考使用下列專案的內部SDK元件： `getComponent()` 檢視器API，然後使用SDK本身的API的所有彈性。
 
-查看器用於載入和初始化SDK元件的命名空間取決於查看器操作的環境。 如果查看器在Adobe Experience Manager運行，則查看器將SDK元件載入到 `s7viewers.s7sdk` 命名空間。 同樣，從Dynamic Media Classic服務的查看器將SDK載入到 `s7classic.s7sdk`。
+檢視器用來載入及初始化SDK元件的名稱空間取決於檢視器運作的環境。 如果檢視器是在Adobe Experience Manager中執行，則檢視器會將SDK元件載入到 `s7viewers.s7sdk` 名稱空間。 同樣地，Dynamic Media Classic提供的檢視器也會將SDK載入 `s7classic.s7sdk`.
 
-在這兩種情況下，查看器內SDK使用的命名空間具有 `s7viewers` 或 `s7classic` 作為前置詞。 它和平原不同 `s7sdk` SDK使用手冊或SDK API文檔中使用的命名空間。
+在任一情況下，檢視器內SDK使用的名稱空間會有 `s7viewers` 或 `s7classic` 作為前置詞。 而且，它與一般情況不同 `s7sdk` SDK使用手冊或SDK API檔案中使用的名稱空間。
 
-因此，在編寫與內部查看器元件通信的自定義應用程式碼時，必須使用完全限定的SDK命名空間。
+因此，當您撰寫與內部檢視器元件通訊的自訂應用程式程式碼時，使用完整限定的SDK名稱空間非常重要。
 
-例如，如果你打算 `StatusEvent.NOTF_VIEW_READY` 事件和查看器由Experience Manager提供，完全限定的事件類型為 `s7viewers.s7sdk.event.StatusEvent.NOTF_VIEW_READY`，並且事件偵聽器代碼如下所示：
+例如，如果您計畫接聽 `StatusEvent.NOTF_VIEW_READY` 事件且檢視器是從Experience Manager提供，則完整事件型別為 `s7viewers.s7sdk.event.StatusEvent.NOTF_VIEW_READY`，則事件接聽程式程式碼會如下所示：
 
 ```javascript {.line-numbers}
 <instance>.setHandlers({ 

@@ -1,7 +1,7 @@
 ---
-description: 更新資產權限。
+description: 更新資產許可權。
 solution: Experience Manager
-title: 更新資產權限
+title: updateAssetPermissons
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 12972a52-7b70-405c-9c73-e5ce6ab7dd9b
@@ -12,13 +12,13 @@ ht-degree: 24%
 
 ---
 
-# 更新資產權限{#updateassetpermissons}
+# updateAssetPermissons{#updateassetpermissons}
 
-更新資產權限。
+更新資產許可權。
 
 語法
 
-## 授權用戶類型 {#section-3928e9badc3842e1859af4ed362df719}
+## 授權的使用者型別 {#section-3928e9badc3842e1859af4ed362df719}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -30,13 +30,13 @@ ht-degree: 24%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 公司句柄 | `xsd:string` | 是 | 公司負責。 |
-| 資產句柄 | `xsd:string` | 是 | 資產句柄。 |
-| 更新陣列 | `types:PermissionUpdateArray` | 是 | 要應用到資產的權限。 |
+| companyHandle | `xsd:string` | 是 | 公司控點。 |
+| assetHandle | `xsd:string` | 是 | 資產控點。 |
+| updatearray | `types:PermissionUpdateArray` | 是 | 您要套用至資產的許可權。 |
 
 **輸出(updateAssetPermissionsReturn)**
 
-IPS API不會為此操作返迴響應。
+IPS API未傳回此作業的回應。
 
 ## 範例 {#section-1b7b7dbfdab34c819a53f3d33004e1f9}
 

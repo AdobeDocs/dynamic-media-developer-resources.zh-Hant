@@ -1,5 +1,5 @@
 ---
-description: 材料目錄資料夾的位置（所有catalog.ini檔案必須位於其中）。
+description: 材料目錄資料夾的位置（所有catalog.ini檔案都必須位於該位置）。
 solution: Experience Manager
 title: 目錄資料夾(ir.catalogRootPath)
 feature: Dynamic Media Classic,SDK/API
@@ -14,6 +14,6 @@ ht-degree: 0%
 
 # 目錄資料夾(ir.catalogRootPath){#catalog-folder-ir-catalogrootpath}
 
-材料目錄資料夾的位置（所有catalog.ini檔案必須位於其中）。
+材料目錄資料夾的位置（所有catalog.ini檔案都必須位於該位置）。
 
-可以是絕對路徑或相對於[!DNL]的路徑 *[!DNL install_folder]*]。 預設值是 [!DNL ./catalog]，與[!DNL *[!DNL install_folder]*/catalog]。
+可以是絕對路徑或相對於[！DNL]的路徑 *[!DNL install_folder]*]。 預設值為 [!DNL ./catalog]，對應至[！DNL *[!DNL install_folder]*/catalog]。

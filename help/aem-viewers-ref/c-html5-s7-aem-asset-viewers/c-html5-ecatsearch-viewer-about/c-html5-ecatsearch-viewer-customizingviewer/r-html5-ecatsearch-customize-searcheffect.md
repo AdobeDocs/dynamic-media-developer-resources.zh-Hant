@@ -1,6 +1,6 @@
 ---
-title: 搜索效果
-description: 查看器在主視圖上顯示搜索結果區域，以突出顯示在目錄中找到的詞或短語。
+title: 搜尋效果
+description: 檢視器會在主檢視上顯示搜尋結果區域，以反白標示在目錄中找到的字詞或片語。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
@@ -12,15 +12,15 @@ ht-degree: 1%
 
 ---
 
-# 搜索效果{#search-effect}
+# 搜尋效果{#search-effect}
 
-查看器在主視圖上顯示搜索結果區域，以突出顯示在目錄中找到的詞或短語。
+檢視器會在主檢視上顯示搜尋結果區域，以反白標示在目錄中找到的字詞或片語。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**主查看器區域的CSS屬性**
+**主要檢視器區域的CSS屬性**
 
-使用以下CSS類選擇器控制搜索結果區域的外觀：
+搜尋結果區域的外觀由下列CSS類別選取器控制：
 
 `.s7ecatalogsearchviewer .s7searcheffect .s7region`
 
@@ -34,12 +34,12 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 背景 </span> </p> </td> 
-   <td colname="col2"> <p>搜索結果區域的背景。 </p> </td> 
+   <td colname="col2"> <p>搜尋結果區域的背景。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例 — 要設定具有半透明黃色填充的搜索結果區域：
+範例 — 設定具有半透明、黃色填色的搜尋結果區域：
 
 ```
 .s7ecatalogsearchviewer .s7searcheffect .s7region { 

@@ -1,5 +1,5 @@
 ---
-title: 動畫Gif資訊
+title: 動畫GifInfo
 description: 動畫GIF檔案資產的屬性。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
@@ -42,12 +42,12 @@ ht-degree: 34%
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> [!DNL optimizedPath]</span></span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>IPS優化映像檔案的路徑。 </p> </td> 
+   <td colname="col3"> <p>IPS最佳化影像檔案的路徑。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> [!DNL optimizedFile]</span></span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>IPS優化的映像檔案。 </p> </td> 
+   <td colname="col3"> <p>IPS最佳化的影像檔案。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> [!DNL fileSize]</span> </span> </p> </td> 

@@ -1,6 +1,6 @@
 ---
-title: 卸載影像呈現
-description: 如果需要，可以卸載「影像呈現」。
+title: 解除安裝影像演算
+description: 如果有必要，您可以解除安裝「影像演算」。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,10 +12,10 @@ ht-degree: 0%
 
 ---
 
-# 卸載影像呈現{#uninstalling-image-rendering}
+# 解除安裝影像演算{#uninstalling-image-rendering}
 
-如果需要，可以卸載「影像呈現」。
+如果有必要，您可以解除安裝「影像演算」。
 
-卸載可能會刪除安裝資料夾中的一些用戶文檔。 在卸載之前備份要保留的所有檔案。
+解除安裝可能會移除安裝資料夾中的部分使用者檔案。 在解除安裝之前，請備份您要保留的所有檔案。
 
-在卸載之前，請使用管理權限或根權限登錄到伺服器主機。
+解除安裝之前，請先以系統管理或root許可權登入您的伺服器主機。

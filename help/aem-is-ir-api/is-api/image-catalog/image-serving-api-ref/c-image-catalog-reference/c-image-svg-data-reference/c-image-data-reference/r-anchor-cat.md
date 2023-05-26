@@ -1,5 +1,5 @@
 ---
-description: 影像錨點。 將此影像用作模板或複合影像中的圖層時的原點。
+description: 影像錨點。 此影像作為範本或複合影像中的圖層時的原點。
 solution: Experience Manager
 title: 錨點
 feature: Dynamic Media Classic,SDK/API
@@ -14,20 +14,20 @@ ht-degree: 4%
 
 # 錨點{#anchor}
 
-影像錨點。 將此影像用作模板或複合影像中的圖層時的原點。
+影像錨點。 此影像作為範本或複合影像中的圖層時的原點。
 
-也定義旋轉的預設中心點。
+也會定義預設的旋轉中心點。
 
 ## 屬性 {#section-95740f14160744e7bc763094b8be40d8}
 
-兩個整數，用逗號分隔。 相對於全解析度影像的左上角的像素偏移。
+以逗號分隔的兩個整數。 相對於全解析度影像左上角的畫素位移。
 
-由覆蓋 `anchor=`(這反過來又可以用 `origin=`)。
+覆寫者 `anchor=`(接著可覆寫為 `origin=`)。
 
 ## 預設 {#section-ca3a4cc837d643519eff15951f2b47a1}
 
-如果此欄位不存在或為空，並且這是有效的影像記錄(即，如果 `catalog::Path` 有效)。
+如果此欄位不存在或空白，且這是有效的影像記錄(亦即 `catalog::Path` 為有效)。
 
 ## 另請參閱 {#section-f605d29c3f5d48ad8e2a374f11886f19}
 
-[錨=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-anchor.md) 。 [原產地=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-origin.md)
+[anchor=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-anchor.md) ， [origin=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-origin.md)

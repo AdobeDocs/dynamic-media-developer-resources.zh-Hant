@@ -16,7 +16,7 @@ ht-degree: 4%
 
 媒體集資訊。
 
-req=set[,xml[。 *`encoding`*]|json[&amp;id=*`reqId`*]}]
+req=set[，xml[， *`encoding`*]|{json[&amp;id=*`reqId`*]}]
 
 <table id="simpletable_02C955F4EBAD4251A728F0FC68F432B5"> 
  <tr class="strow"> 
@@ -25,20 +25,20 @@ req=set[,xml[。 *`encoding`*]|json[&amp;id=*`reqId`*]}]
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> reqId</span> </p></td> 
-  <td class="stentry"> <p>唯一請求標識符 </p></td> 
+  <td class="stentry"> <p>唯一請求識別碼 </p></td> 
  </tr> 
 </table>
 
-返回有關與目錄：:ImageSet關聯的影像、視頻、色板以及與URL路徑中指定的影像目錄條目相關的各種元資料的資訊。 該響應是由所提供集合的類型確定的分層結構。 請求「xml」或「json」格式時應用適當的格式。
+針對URL路徑中指定的影像目錄專案，傳回與目錄：：ImageSet相關聯的影像、影片、色票和各種中繼資料的相關資訊。 此回應為階層式結構，由提供的集合型別決定。 要求&#39;xml&#39;或&#39;json&#39;格式時，會套用適當的格式設定。
 
-HTTP響應可以與基於的TTL進行快取 `catalog::NonImgExpiration`。
+HTTP回應可使用以下依據的TTL快取： `catalog::NonImgExpiration`.
 
 >[!NOTE]
 >
->req=set請求中不允許冒號字元。
+>req=set要求中不允許使用冒號字元。
 
-支援JSON響應格式的請求允許您使用擴展語法指定JS回調處理程式的名稱 `req=` 參數：
+支援JSON回應格式的請求可讓您使用擴充語法來指定JS回呼處理常式的名稱。 `req=` 引數：
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` 是JSONP響應中存在的JS處理程式的名稱。 只允許使用a-z、A-Z和0-9個字元。 選擇性. 預設為 `s7jsonResponse`.
+`<reqHandler>` 是JSONP回應中呈現的JS處理常式名稱。 僅允許a-z、A-Z和0-9字元。 選擇性. 預設為 `s7jsonResponse`.

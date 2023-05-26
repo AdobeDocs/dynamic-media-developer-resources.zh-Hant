@@ -1,5 +1,5 @@
 ---
-description: 本節中的主題介紹HTTP協定的語法和功能。
+description: 本節中的主題說明HTTP通訊協定的語法和功能。
 solution: Experience Manager
 title: 語法和功能
 feature: Dynamic Media Classic,SDK/API
@@ -14,26 +14,26 @@ ht-degree: 0%
 
 # 語法和功能{#syntax-and-features}
 
-本節中的主題介紹HTTP協定的語法和功能。
+本節中的主題說明HTTP通訊協定的語法和功能。
 
-* [Image Serving HTTP Protocol Basic語法](r-basic-syntax.md)
-* [Image Serving HTTP協定命令概述](c-command-overview/c-command-overview.md)
-* [分層概述](c-layering-overview/c-layering-overview.md)
-* [層操作](c-layering-overview/c-layer-operations.md)
-* [層效果](r-layer-effects.md)
-* [請求嵌套和嵌入](r-request-nesting-and-embedding.md)
+* [影像伺服HTTP通訊協定基本語法](r-basic-syntax.md)
+* [影像伺服HTTP通訊協定命令總覽](c-command-overview/c-command-overview.md)
+* [分層概觀](c-layering-overview/c-layering-overview.md)
+* [圖層作業](c-layering-overview/c-layer-operations.md)
+* [圖層效果](r-layer-effects.md)
+* [請求巢狀內嵌與內嵌](r-request-nesting-and-embedding.md)
 * [替代變數](r-is-http-substitution-variables.md)
-* [命令宏](r-is-http-command-macros.md)
+* [命令巨集](r-is-http-command-macros.md)
 * [影像目錄](r-image-catalogs.md)
-* [對象ID轉換](r-object-id-translation.md)
-* [文本字串本地化](r-text-string-localization.md)
+* [物件ID翻譯](r-object-id-translation.md)
+* [文字字串本地化](r-text-string-localization.md)
 * [SVG支援](r-svg-support.md)
-* [請求預處理](r-request-preprocessing.md)
-* [影像映射](r-image-maps.md)
-* [影像服務顏色管理](r-color-management.md)
-* [影像服務HTTP編碼](r-http-encoding.md)
-* [請求鎖定](r-request-locking.md)
-* [請求模糊處理](r-request-obfuscation.md)
-* [水印](r-watermarks.md)
-* [為靜態（非影像）內容提供服務](r-serving-static-non-image-content.md)
+* [要求預先處理](r-request-preprocessing.md)
+* [影像地圖](r-image-maps.md)
+* [影像伺服色彩管理](r-color-management.md)
+* [影像伺服HTTP編碼](r-http-encoding.md)
+* [要求鎖定](r-request-locking.md)
+* [要求模糊化](r-request-obfuscation.md)
+* [浮水印](r-watermarks.md)
+* [提供靜態（非影像）內容](r-serving-static-non-image-content.md)
 * [媒體集請求](r-media-set-requests.md)

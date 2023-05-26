@@ -1,7 +1,7 @@
 ---
-description: 嵌入元XMP資料。 指定XMP是否應將元資料包括在響應映像中。
+description: 內嵌XMP中繼資料。 指定是否應在回應影像中包含XMP中繼資料。
 solution: Experience Manager
-title: xmp嵌入
+title: xmpEmbed
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 353b6ac4-1141-4f17-a3ad-ad48b321b36f
@@ -12,25 +12,25 @@ ht-degree: 2%
 
 ---
 
-# xmp嵌入{#xmpembed}
+# xmpEmbed{#xmpembed}
 
-嵌入元XMP資料。 指定XMP是否應將元資料包括在響應映像中。
+內嵌XMP中繼資料。 指定是否應在回應影像中包含XMP中繼資料。
 
 `xmpEmbed=0|1`
 
 >[!NOTE]
 >
->數XMP據從源影像傳遞到響應影像而不進行修改。 這可能導致錯誤資料被嵌入到響應影像中。
+>XMP資料會從來源影像傳遞至回應影像，而不會進行修改。 這可能會導致回應影像中嵌入了不正確的資料。
 
 ## 屬性 {#section-27024c4272f44d9a8c264a0629193af2}
 
-請求屬性。 如果源映像不包含資料，則忽XMP略。 僅來XMP自源映像的資料 `layer=0` 。 忽略XMP來自其他圖層影像的資料。
+要求屬性。 如果來源影像不包含XMP資料，則忽略。 僅來自來源影像的XMP資料 `layer=0` 都會被處理。 會忽略其他圖層影像的XMP資料。
 
-如果輸出影像格式不支援嵌入，則忽XMP略。 請參閱 `fmt=` 的子菜單。
+如果輸出影像格式不支援XMP內嵌，則忽略。 請參閱 `fmt=` 以取得支援XMP內嵌的輸出影像格式清單。
 
 ## 預設 {#section-aedbedd04d664ba184b2cfe35644b960}
 
-`xmpEmbed=0`，以在輸出影像中不嵌入路徑。
+`xmpEmbed=0`，不會將路徑內嵌在輸出影像中。
 
 ## 另請參閱 {#section-0b5b7d0a19564101ba7102e667e29828}
 

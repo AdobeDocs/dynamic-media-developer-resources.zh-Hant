@@ -1,5 +1,5 @@
 ---
-description: 命令宏的名稱。
+description: 指令巨集的名稱。
 solution: Experience Manager
 title: name
 feature: Dynamic Media Classic,SDK/API
@@ -14,15 +14,15 @@ ht-degree: 10%
 
 # name{#name}
 
-命令宏的名稱。
+指令巨集的名稱。
 
 `&$ *`名稱`*$`
 
 <table id="simpletable_A07C4682275F461BA1F3B7752CE3FAE1"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> 名稱</span></span> </p> </td> 
-  <td class="stentry"> <p>宏名稱。 </p></td> 
+  <td class="stentry"> <p>巨集名稱。 </p></td> 
  </tr> 
 </table>
 
-*`name`* 不區分大小寫，並且可能包含字母、數字、「 — 」、「_」和「。」的任意組合 字元.
+*`name`* 不區分大小寫，而且可能包含字母、數字、「 — 」、「_」和「。」的任意組合。 字元.

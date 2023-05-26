@@ -1,5 +1,5 @@
 ---
-description: 屬性陣列。
+description: 屬性的陣列。
 solution: Experience Manager
 title: 屬性陣列
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 33%
 
 # [!DNL PropertyArray]{#propertyarray}
 
-屬性陣列。
+屬性的陣列。
 
 語法
 

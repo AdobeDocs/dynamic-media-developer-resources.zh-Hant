@@ -1,7 +1,7 @@
 ---
-description: 配置設定的陣列。
+description: 組態設定的陣列。
 solution: Experience Manager
-title: 配置設定陣列
+title: ConfigSettingArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 7b240693-8b3b-4765-9cd9-a6125da77f54
@@ -14,7 +14,7 @@ ht-degree: 27%
 
 # [!DNL ConfigSettingArray]{#configsettingarray}
 
-配置設定的陣列。
+組態設定的陣列。
 
 語法
 
@@ -22,4 +22,4 @@ ht-degree: 27%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 項目 | `types:ConfigSetting` | 配置設定的陣列。 |
+| 項目 | `types:ConfigSetting` | 組態設定的陣列。 |

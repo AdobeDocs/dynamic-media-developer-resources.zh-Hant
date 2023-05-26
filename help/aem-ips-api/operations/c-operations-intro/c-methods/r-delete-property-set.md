@@ -1,5 +1,5 @@
 ---
-description: 刪除屬性集和所有關聯屬性。
+description: 刪除屬性集和所有相關屬性。
 solution: Experience Manager
 title: deletePropertySet
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 13%
 
 # deletePropertySet{#deletepropertyset}
 
-刪除屬性集和所有關聯屬性。
+刪除屬性集和所有相關屬性。
 
 語法
 
-## 授權用戶類型 {#section-b54aa8c854de400a989b4957412ff42c}
+## 授權的使用者型別 {#section-b54aa8c854de400a989b4957412ff42c}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -27,19 +27,19 @@ ht-degree: 13%
 
 ## 參數 {#section-e5fc868f69494cf6858e03027db09101}
 
-**Input(deletePropertySetParam)**
+**輸入(deletePropertySetParam)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| setHandle | `xsd:string` | 是 | 要刪除的屬性集的句柄。 |
+| setHandle | `xsd:string` | 是 | 要刪除之屬性集的控制代碼。 |
 
 **輸出(deletePropertySetParam)**
 
-IPS API不會為此操作返迴響應。
+IPS API未傳回此作業的回應。
 
 ## 範例 {#section-cf319fc8f86a40ab9cbd838b031973fe}
 
-此代碼示例將集的句柄用作 `deletePropertySetParam` 發送到IPS Web服務伺服器以刪除屬性集。
+此程式碼範例使用集的控點作為中的欄位 `deletePropertySetParam` 傳送至IPS Web服務伺服器，以便刪除屬性集。
 
 **請求**
 

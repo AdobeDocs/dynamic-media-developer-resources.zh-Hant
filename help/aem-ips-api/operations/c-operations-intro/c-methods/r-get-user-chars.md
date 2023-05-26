@@ -1,5 +1,5 @@
 ---
-description: 獲取特定欄位中使用的字元的清單。
+description: 取得特定欄位中使用的字元清單。
 solution: Experience Manager
 title: getUserChars
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 12%
 
 # getUserChars{#getuserchars}
 
-獲取特定欄位中使用的字元的清單。
+取得特定欄位中使用的字元清單。
 
 語法
 
-## 授權用戶類型 {#section-7023871be4d2442daf51ff060ca06d9a}
+## 授權的使用者型別 {#section-7023871be4d2442daf51ff060ca06d9a}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,29 +31,29 @@ ht-degree: 12%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| char欄位 | `xsd:string` | 是 | 確定要搜索的垃圾狀態。 |
-| 包括非活動 | `xsd:boolean` | 是 | 包括或排除非活動用戶。 非IPS管理員用戶必須是至少一家公司的活動成員，才能被授權進行任何API調用。 如果用戶沒有有效的公司成員資格，則返回授權錯誤。 |
-| 包含無效 | `xsd:boolean` | 否 | 包括或排除無效用戶。 |
+| charField | `xsd:string` | 是 | 決定要搜尋的垃圾桶狀態。 |
+| includeInactive | `xsd:boolean` | 是 | 包含或排除非作用中的使用者。 非IPS管理員使用者必須是至少一個公司的作用中成員，才能獲得授權進行任何API呼叫。 如果使用者沒有有效的公司成員資格，則會傳回授權錯誤。 |
+| includInvalid | `xsd:boolean` | 否 | 包含或排除無效的使用者。 |
 | companyHandleArray | `types:HandleArray` | 否 | 根據公司篩選結果。 |
-| groupHandleArray | `types:HandleArray` | 否 | 根據組篩選結果。 |
-| userRoleArray | `types:StringArray` | 否 | 根據用戶角色篩選結果。 |
-| 數字字元 | `xsd:int` | 否 | 啟用>1個字元。 |
+| groupHandleArray | `types:HandleArray` | 否 | 根據群組篩選結果。 |
+| userRoleArray | `types:StringArray` | 否 | 根據使用者角色篩選結果。 |
+| numChars | `xsd:int` | 否 | 啟用>1個字元。 |
 
 **輸出(getUserCharsReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| userCharsArray | `types:StringArray` | 是 | 字元前置詞的陣列。 |
+| userCharsArray | `types:StringArray` | 是 | 字元首碼的陣列。 |
 
 ## 範例 {#section-3702f165e8b041139a6144f4a76ca25f}
 
-此代碼示例返回：
+此程式碼範例會傳回：
 
-* 特定公司用戶姓氏的首個字元。
-* 一組組。
-* 一組用戶角色。
+* 特定公司使用者姓氏的第一個字元。
+* 一組群組。
+* 一組使用者角色。
 
-用戶字元篩選器欄位字串常數確定返回的用戶字元的類型。
+「使用者字元篩選欄位」字串常數決定傳回的使用者字元型別。
 
 **請求**
 

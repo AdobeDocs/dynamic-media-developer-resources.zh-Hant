@@ -1,5 +1,5 @@
 ---
-description: 本主題介紹vntc用法語法。
+description: 本主題說明vntc使用語法。
 solution: Experience Manager
 title: 使用
 feature: Dynamic Media Classic,SDK/API
@@ -14,10 +14,10 @@ ht-degree: 1%
 
 # 使用{#usage}
 
-本主題介紹vntc用法語法。
+本主題說明vntc使用語法。
 
 `vntc [ *[!DNL options]*] *[!DNL sourceFile]* [ *[!DNL destFile]*]`
 
-*[!DNL sourceFile]* 是要處理的檔案的路徑和名稱。 可以是相對於當前工作目錄的路徑或絕對路徑。 必須是有效的卷尾、檔案櫃樣式或覆蓋樣式檔案的窗口，並且具有下列尾碼之一： [!DNL .vnt]。 [!DNL .vnc]或 [!DNL .vnw]。 必要.
+*[!DNL sourceFile]* 是要處理的檔案的路徑和名稱。 可以是相對於目前工作目錄的路徑或絕對路徑。 必須是有效的暈映、封包樣式或視窗涵蓋樣式檔案，並具有下列尾碼之一： [!DNL .vnt]， [!DNL .vnc]，或 [!DNL .vnw]. 必要.
 
-*[!DNL destFile]* 是輸出vignette檔案的路徑和名稱。 如果未指定，則輸出檔案將放置在指定的資料夾中 `-destpath`。 在此方案中，檔案名將自動從輸入檔案名和大小尾碼生成，並用指定的字串分隔 `-separator`。 對於小角，大小尾碼是單解析度輸出視頻的像素寬度、多解析度輸出視頻的第一視圖的寬度，或「0」（對於金字塔視頻）。 對於檔案櫃樣式檔案，輸出解析度用作檔案尾碼。 *[!DNL destFile]* 忽略 `-info` 。
+*[!DNL destFile]* 是輸出暈映檔案的路徑和名稱。 如果未指定，則會將輸出檔案放置在指定的資料夾中 `-destpath`. 在此案例中，檔案名稱會自動從輸入檔案名稱和大小尾碼產生，以指定的字串分隔 `-separator`. 對於暈映，大小字尾是單解析度輸出暈映的畫素寬度、多解析度輸出暈映的第一個檢視的寬度，或是金字塔暈映的「0」。 對於封包樣式檔案，輸出解析度會用作檔案字尾。 *[!DNL destFile]* 忽略於 `-info` 已指定。

@@ -42,42 +42,42 @@ ht-degree: 25%
   <tr> 
    <td colname="col1"> <span class="codeph"><span class="varname"> [!DNL optimizedPath]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>IPS優化映像檔案的路徑。 </p> </td> 
+   <td colname="col3"> <p>IPS最佳化影像檔案的路徑。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL optimizedFile]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>IPS優化的映像檔案。 </p> </td> 
+   <td colname="col3"> <p>IPS最佳化的影像檔案。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL maskPath]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>影像蒙版的路徑。 </p> </td> 
+   <td colname="col3"> <p>影像遮色片的路徑。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL maskFile]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>掩碼的檔案名。 </p> </td> 
+   <td colname="col3"> <p>遮色片的檔案名稱。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL width]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
-   <td colname="col3"> <p>影像寬度（像素）。 </p> </td> 
+   <td colname="col3"> <p>影像寬度（畫素）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL height]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
-   <td colname="col3"> <p>影像高度（像素）。 </p> </td> 
+   <td colname="col3"> <p>影像高度（畫素）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL fileSize]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
-   <td colname="col3"> <p>影像大小（以位元組為單位）。 </p> </td> 
+   <td colname="col3"> <p>影像大小（位元組）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL resolution]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd：雙</span> </td> 
-   <td colname="col3"> <p>像素/英吋 </p> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：double</span> </td> 
+   <td colname="col3"> <p>每英吋畫素。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL sku]</span> </span> </td> 
@@ -87,52 +87,52 @@ ht-degree: 25%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL description]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>影像描述。 </p> </td> 
+   <td colname="col3"> <p>影像說明。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL comments]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>注釋（不建議使用）。 </p> </td> 
+   <td colname="col3"> <p>註解（已棄用）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL userData]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>與映像關聯的用戶資訊（不建議使用）。 </p> </td> 
+   <td colname="col3"> <p>與影像相關聯的使用者資訊（已棄用）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL anchorX]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
-   <td colname="col3"> <p>水準錨點（像素）。 </p> </td> 
+   <td colname="col3"> <p>以畫素為單位的水準錨點。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL anchorY]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
-   <td colname="col3"> <p>管道中的垂直錨點。 </p> </td> 
+   <td colname="col3"> <p>畫素中的垂直錨點。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL urlModifier]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>影像伺服器URL參數。 </p> </td> 
+   <td colname="col3"> <p>影像伺服器URL引數。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL urlPostApplyModifier]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>連接到 <span class="codeph"> url修飾符</span>。 查詢字串格式的參數清單，這些參數是指向影像伺服器的命令。 值在映像伺服器協定指南中。 </p> </td> 
+   <td colname="col3"> <p>串連到結尾的引數 <span class="codeph"> urlModifier</span>. 對影像伺服器發出命令的查詢字串格式引數清單。 值位於影像伺服器通訊協定指南中。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL zoomTargets]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 類型：ZoomTargetArray</span> </td> 
-   <td colname="col3"> <p>縮放目標陣列（最大5個）。 </p> </td> 
+   <td colname="col2"> <span class="codeph"> 型別：ZoomTargetArray</span> </td> 
+   <td colname="col3"> <p>縮放目標陣列（最多5個）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL masks]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 類型：MaskArray</span> </td> 
-   <td colname="col3"> <p>掩碼陣列。 </p> </td> 
+   <td colname="col2"> <span class="codeph"> 型別：遮色片陣列</span> </td> 
+   <td colname="col3"> <p>遮罩陣列。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL imageMaps]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 類型：ImageMapsArray</span> </td> 
-   <td colname="col3"> <p>影像映射陣列。 </p> </td> 
+   <td colname="col2"> <span class="codeph"> 型別：ImageMapArray</span> </td> 
+   <td colname="col3"> <p>影像地圖陣列。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

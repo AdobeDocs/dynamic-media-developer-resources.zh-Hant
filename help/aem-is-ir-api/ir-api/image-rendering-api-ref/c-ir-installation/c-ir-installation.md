@@ -1,6 +1,6 @@
 ---
 title: 設定
-description: 必須先配置「影像呈現」，然後才能使用它。
+description: 您必須先設定影像演算，才能使用。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,4 +14,4 @@ ht-degree: 9%
 
 # 設定{#configuration}
 
-必須先配置「影像呈現」，然後才能使用它。
+您必須先設定影像演算，才能使用。

@@ -1,6 +1,6 @@
 ---
-title: 呼叫到操作重新映射
-description: Interactive Video Viewer的配置屬性。
+title: callToActionRecap
+description: 互動式視訊檢視器的設定屬性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -12,9 +12,9 @@ ht-degree: 12%
 
 ---
 
-# 呼叫到操作重新映射{#calltoactionrecap}
+# callToActionRecap{#calltoactionrecap}
 
-Interactive Video Viewer的配置屬性。
+互動式視訊檢視器的設定屬性。
 
 `callToActionRecap=0|1`
 
@@ -22,7 +22,7 @@ Interactive Video Viewer的配置屬性。
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 指示在視頻播放結束時查看者是否顯示「行動要求」面板。 </p> </td> 
+   <td colname="col2"> <p> 指出檢視器在視訊播放結束時是否顯示「呼叫動作」面板。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

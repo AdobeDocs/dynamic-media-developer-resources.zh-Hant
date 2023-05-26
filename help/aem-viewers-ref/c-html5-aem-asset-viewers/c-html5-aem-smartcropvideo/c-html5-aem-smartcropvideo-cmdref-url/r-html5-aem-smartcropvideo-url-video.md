@@ -1,6 +1,6 @@
 ---
 title: 視訊
-description: Smart Crop Video Viewer的URL命令。
+description: 智慧型裁切視訊檢視器的URL命令。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
@@ -14,23 +14,23 @@ ht-degree: 11%
 
 # 視訊{#video}
 
-Smart Crop Video Viewer的URL命令。
+智慧型裁切視訊檢視器的URL命令。
 
-` video= *`視頻URL`*`
+` video= *`videourl`*`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 視頻URL</span> </span> </p> </td> 
-   <td colname="col2"> <p> 外部視頻的絕對URL。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> videourl</span> </span> </p> </td> 
+   <td colname="col2"> <p> 外部視訊的絕對URL。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 屬性 {#section-f42369774e2740dcb399626a0e4e930e}
 
-必要. (除非 `asset` 參數。 請參閱 [外部視頻支援]
-(../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-external-video-support.md#concept-22c67fee43274a29b28ee16770b1b1f3)。
+必要. (除非 `asset` 引數。 另請參閱 [外部視訊支援]
+(../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-external-video-support.md#concept-22c67fee43274a29b28ee16770b1b1f3)。)
 
 ## 預設 {#section-d016470e92a74f98a18c4ab3489410a5}
 

@@ -1,5 +1,5 @@
 ---
-description: 獲取當前所有活動作業。
+description: 取得所有目前作用中的工作。
 solution: Experience Manager
 title: getActiveJobs
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 16%
 
 # getActiveJobs{#getactivejobs}
 
-獲取當前所有活動作業。
+取得所有目前作用中的工作。
 
 語法
 
-## 授權用戶類型 {#section-125557a6ea7b4fc894d4bb468cd02118}
+## 授權的使用者型別 {#section-125557a6ea7b4fc894d4bb468cd02118}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -35,19 +35,19 @@ ht-degree: 16%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 公司句柄 | `xsd:string` | 否 | 公司的把手。 |
-| 作業句柄 | `xsd:string` | 否 | 作業的把手。 |
-| 原始名稱 | `xsd:string` | 否 | 原始作業名。 |
+| companyHandle | `xsd:string` | 否 | 公司的控制代碼。 |
+| jobHandle | `xsd:string` | 否 | 工作的控制代碼。 |
+| 原始名稱 | `xsd:string` | 否 | 原始工作名稱。 |
 
 **輸出(getActiveJobsReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| jobArray | `xsd:string` | 是 | 活動作業的陣列。 |
+| jobArray | `xsd:string` | 是 | 作用中工作的陣列。 |
 
 ## 範例 {#section-4ac5dbbf9cd94fdeb013d055f8ee7add}
 
-此代碼示例返回在IPS中運行的公司的所有活動作業。 在這種情況下，由於IPS調度協調器處於禁用狀態且沒有運行活動作業，因此響應異常。 在正常情況下，響應將返回多個活動作業。
+此程式碼範例會傳回公司在IPS中執行的所有作用中工作。 在此情況下，回應是不尋常的，因為IPS排程協調器已停用，而且沒有執行中的作用中工作。 在正常情況下，回應會傳回許多作用中的工作。
 
 **請求**
 

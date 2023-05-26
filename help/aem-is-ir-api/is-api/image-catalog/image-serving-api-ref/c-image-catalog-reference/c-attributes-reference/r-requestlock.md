@@ -1,7 +1,7 @@
 ---
-description: 請求鎖定模式。 指定請求中必須包含的請求鎖的類型。
+description: 要求鎖定模式。 指定必須包含在要求中的要求鎖定型別。
 solution: Experience Manager
-title: 請求鎖
+title: RequestLock
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7a2b2529-4e8f-44aa-800e-87bdd6fe2519
@@ -12,18 +12,18 @@ ht-degree: 6%
 
 ---
 
-# 請求鎖{#requestlock}
+# RequestLock{#requestlock}
 
-請求鎖定模式。 指定請求中必須包含的請求鎖的類型。
+要求鎖定模式。 指定必須包含在要求中的要求鎖定型別。
 
 ## 屬性 {#section-ae89274d3b7940d0bf3d816f7c2f51fd}
 
-標幟. 設定為0可禁用請求鎖定，設定為1可選擇簡單散列鎖。
+標幟. 設為0可停用要求鎖定，設為1可選取簡單的雜湊鎖定。
 
 ## 預設 {#section-fd5b5f0417bd444189b20494d179193e}
 
-繼承自 `default::RequestLock` 或為空。
+繼承自 `default::RequestLock` 如果未定義或為空。
 
 ## 另請參閱 {#section-851a0b6c15ce4ea8b88dedfb579e9736}
 
-[請求鎖定](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-requestlock.md#reference-8bbe2f581be847d3b9fa123e8e5e94b0)
+[要求鎖定](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-requestlock.md#reference-8bbe2f581be847d3b9fa123e8e5e94b0)

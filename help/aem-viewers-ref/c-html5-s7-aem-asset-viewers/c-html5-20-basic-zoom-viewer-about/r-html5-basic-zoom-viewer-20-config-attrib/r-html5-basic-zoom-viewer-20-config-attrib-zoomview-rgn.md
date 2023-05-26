@@ -14,13 +14,13 @@ ht-degree: 10%
 
 # ZoomView.rgn{#zoomview-rgn}
 
-` [ZoomView.|<containerId>_zoomView.]rgn= *`x`*, *`y`*, *`寬`*, *`h`*`
+` [ZoomView.|<containerId>_zoomView.]rgn= *`x`*, *`y`*, *`w`*, *`h`*`
 
 <table id="table_68D8AADB572F4C2095967D12162F8991"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> x,y,w,h</span> </p> </td> 
-   <td colname="col2"> <p> 像素坐標中的初始感興趣區域。 如果未指定這些值，則整個影像將嵌入初始視區。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> x，y，w，h</span> </p> </td> 
+   <td colname="col2"> <p> 以畫素座標表示的初始興趣區域。 如果未指定這些值，會在初始檢視區中填入整個影像。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

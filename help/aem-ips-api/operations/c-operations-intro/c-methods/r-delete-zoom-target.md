@@ -16,7 +16,7 @@ ht-degree: 13%
 
 刪除縮放目標。
 
-## 授權用戶類型 {#section-09ca82bc817e49048271c5cba545702e}
+## 授權的使用者型別 {#section-09ca82bc817e49048271c5cba545702e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -27,7 +27,7 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->用戶必須具有對資產的讀寫權限。
+>使用者必須擁有資產的讀取和寫入存取權。
 
 ## 參數 {#section-225330a45e7a408f8375e084677d9cb1}
 
@@ -35,16 +35,16 @@ ht-degree: 13%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 公司句柄 | `xsd:string` | 是 | 縮放目標所屬公司的句柄。 |
-| zoomTargetHandle | `xsd:string` | 是 | 要刪除的縮放目標的句柄。 |
+| companyHandle | `xsd:string` | 是 | 縮放目標所屬公司的控制代碼。 |
+| zoomTargetHandle | `xsd:string` | 是 | 要刪除的縮放目標控制代碼。 |
 
 **輸出(deleteZoomTargetParam)**
 
-IPS API不會為此操作返迴響應。
+IPS API未傳回此作業的回應。
 
 ## 範例 {#section-a35857a5ca884357a879f7ba6cf985fe}
 
-此代碼示例從公司中刪除縮放目標。
+此程式碼範例會從公司刪除縮放目標。
 
 **請求**
 

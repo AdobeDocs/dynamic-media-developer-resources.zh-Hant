@@ -1,5 +1,5 @@
 ---
-description: 有經驗的程式設計師和網站開發人員，他們希望利用Dynamic Media影像服務為網站或自定義應用程式提供服務。
+description: 經驗豐富的程式設計師和網站開發人員，想要將Dynamic Media影像伺服用於網站或自訂應用程式。
 solution: Experience Manager
 title: 目標讀者
 feature: Dynamic Media Classic,SDK/API
@@ -14,6 +14,6 @@ ht-degree: 5%
 
 # 目標讀者{#intended-audience}
 
-有經驗的程式設計師和網站開發人員，他們希望利用Dynamic Media影像服務為網站或自定義應用程式提供服務。
+經驗豐富的程式設計師和網站開發人員，想要將Dynamic Media影像伺服用於網站或自訂應用程式。
 
-假定讀者通常熟悉Dynamic Media影像服務系統、一般HTTP協定標準和慣例以及基本的影像術語。
+我們假設讀者通常熟悉Dynamic Media影像伺服系統、一般HTTP通訊協定標準和慣例，以及基本的影像處理術語。

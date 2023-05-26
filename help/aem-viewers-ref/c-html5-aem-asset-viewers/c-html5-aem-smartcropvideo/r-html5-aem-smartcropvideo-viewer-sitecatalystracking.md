@@ -1,6 +1,6 @@
 ---
-title: 支援Adobe Analytics跟蹤
-description: Smart Crop視頻查看器支援Adobe Analytics開箱跟蹤。
+title: 支援Adobe Analytics追蹤
+description: 智慧型裁切視訊檢視器支援Adobe Analytics立即可用的追蹤功能。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User,Data Engineer,Data Architect
@@ -12,21 +12,21 @@ ht-degree: 3%
 
 ---
 
-# 支援Adobe Analytics跟蹤{#support-for-adobe-analytics-tracking}
+# 支援Adobe Analytics追蹤{#support-for-adobe-analytics-tracking}
 
-Smart Crop視頻查看器支援Adobe Analytics開箱跟蹤。
+智慧型裁切視訊檢視器支援Adobe Analytics立即可用的追蹤功能。
 
-## 現成跟蹤 {#section-3b101fe30be943c1b679fd5c273569ca}
+## 現成可用的追蹤 {#section-3b101fe30be943c1b679fd5c273569ca}
 
-Smart Crop視頻查看器支援Adobe Analytics開箱跟蹤。
+智慧型裁切視訊檢視器支援Adobe Analytics立即可用的追蹤功能。
 
-要啟用跟蹤，請將正確的公司預設名稱作為 `config2` 的下界。
+若要啟用追蹤，請將適當的公司預設集名稱傳遞為 `config2` 引數。
 
-查看器還向配置的Image Server發送單個跟蹤HTTP請求，其中包含查看器類型和版本資訊。
+檢視器也會傳送單一追蹤HTTP要求至已設定的影像伺服器，並提供檢視器型別和版本資訊。
 
-## 自定義跟蹤 {#section-ab10bd7caf184721a366cf3953071934}
+## 自訂追蹤 {#section-ab10bd7caf184721a366cf3953071934}
 
-要與第三方分析系統整合，必須傾聽 `trackEvent` 查看器回調和進程 `eventInfo` 回調函式的參數。 以下代碼是此類處理程式函式的示例：
+若要與協力廠商分析系統整合，您必須監聽 `trackEvent` 檢視器回呼和處理 `eventInfo` 必要時，回呼函式的引數。 下列程式碼是此類處理常式函式的範例：
 
 ```javascript {.line-numbers}
 var smartCropVideoViewer = new s7viewers.SmartCropVideoViewer({ 
@@ -51,27 +51,27 @@ var smartCropVideoViewer = new s7viewers.SmartCropVideoViewer({
 });
 ```
 
-查看器跟蹤以下SDK用戶事件：
+檢視器會追蹤下列SDK使用者事件：
 
 <table id="table_5D090E6614974D968E1A93B5727D859C"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>SDK用戶事件 </p> </th> 
-   <th colname="col2" class="entry"> <p>發送時間…… </p> </th> 
+   <th colname="col1" class="entry"> <p>SDK使用者事件 </p> </th> 
+   <th colname="col2" class="entry"> <p>傳送時間…… </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LOAD </span> </p> </td> 
-   <td colname="col2"> <p>首先載入查看器。 </p> </td> 
+   <td colname="col2"> <p>檢視器會先載入。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>在查看器中使用 <span class="codeph"> setAsset() </span> API。 </p> </td> 
+   <td colname="col2"> <p>在檢視器中交換資產時，使用 <span class="codeph"> setAsset() </span> API。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PLAY </span> </p> </td> 
-   <td colname="col2"> <p>播放。 </p> </td> 
+   <td colname="col2"> <p>播放已開始。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PAUSE </span> </p> </td> 
@@ -83,7 +83,7 @@ var smartCropVideoViewer = new s7viewers.SmartCropVideoViewer({
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MILESTONE </span> </p> </td> 
-   <td colname="col2"> <p>播放到以下「millstones（重放）」之一：0%,25%,50%,75%和100%。 </p> </td> 
+   <td colname="col2"> <p>播放達到下列其中一個毫石： 0%、25%、50%、75%和100%。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

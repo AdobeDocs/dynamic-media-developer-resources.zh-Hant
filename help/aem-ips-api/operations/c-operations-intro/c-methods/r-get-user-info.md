@@ -1,5 +1,5 @@
 ---
-description: 獲取有關用戶的資訊。 使用系統用戶的電子郵件地址和密碼作為授權請求的憑據。 否則，該操作將獲取有關預設用戶的資訊。
+description: 取得使用者的相關資訊。 使用系統使用者的電子郵件地址和密碼作為授權請求的認證。 否則，操作會取得預設使用者的相關資訊。
 solution: Experience Manager
 title: getUserInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 12%
 
 # getUserInfo{#getuserinfo}
 
-獲取有關用戶的資訊。 使用系統用戶的電子郵件地址和密碼作為授權請求的憑據。 否則，該操作將獲取有關預設用戶的資訊。
+取得使用者的相關資訊。 使用系統使用者的電子郵件地址和密碼作為授權請求的認證。 否則，操作會取得預設使用者的相關資訊。
 
 語法
 
-## 授權用戶類型 {#section-1c42d78e914a4b84a946b3480f29b36a}
+## 授權的使用者型別 {#section-1c42d78e914a4b84a946b3480f29b36a}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -36,18 +36,18 @@ ht-degree: 12%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| userHandle | `xsd:string` | 否 | 處理要返回其資訊的用戶。 |
-| 電子郵件 | `xsd:string` | 否 | 用戶電子郵件地址。 |
+| userHandle | `xsd:string` | 否 | 處理您要傳回其資訊的使用者。 |
+| 電子郵件 | `xsd:string` | 否 | 使用者電子郵件地址。 |
 
 **輸出(getUserInfoReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 用戶資訊 | `types:User` | 是 | 用戶的名、姓、電子郵件地址和角色，以及用戶是否有效以及用戶密碼何時過期。 |
+| userInfo | `types:User` | 是 | 使用者的名字、姓氏、電子郵件地址和角色，以及使用者是否有效和使用者密碼何時到期。 |
 
 ## 範例 {#section-98d77a2e360a438dbe240099bea26a65}
 
-此代碼示例返回預設IPS用戶的資訊。
+此程式碼範例會傳回預設IPS使用者的資訊。
 
 **請求**
 

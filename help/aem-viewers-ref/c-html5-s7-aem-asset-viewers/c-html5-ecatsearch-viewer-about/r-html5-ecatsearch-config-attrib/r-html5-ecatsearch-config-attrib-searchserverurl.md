@@ -1,7 +1,7 @@
 ---
-description: 搜索伺服器URL
+description: searchServerUrl
 solution: Experience Manager
-title: 搜索伺服器URL
+title: searchServerUrl
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 9ef8040f-1ea0-434d-ad00-3ef863448cb7
@@ -12,15 +12,15 @@ ht-degree: 10%
 
 ---
 
-# 搜索伺服器URL{#searchserverurl}
+# searchServerUrl{#searchserverurl}
 
-[!DNL `searchServerUrl= *`搜索伺服器URL`*`]
+[!DNL `searchServerUrl= *`searchServerUrl`*`]
 
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> 搜索伺服器URL</span> </span> </p> </td> 
-   <td colname="col2"> <p> 搜索服務根路徑。 如果未指定域，則使用從中提供查看器的域。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> searchServerUrl</span> </span> </p> </td> 
+   <td colname="col2"> <p> 搜尋服務根路徑。 如果未指定網域，則會使用提供檢視器的網域。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

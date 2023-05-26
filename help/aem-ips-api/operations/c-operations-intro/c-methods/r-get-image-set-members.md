@@ -1,7 +1,7 @@
 ---
-description: 獲取映像集中的成員陣列。
+description: 取得影像集中的成員陣列。
 solution: Experience Manager
-title: getImageSetMembers
+title: getImageSetMember
 feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,Admin
 exl-id: 29ceef8b-127f-4460-8623-c3e26c959327
@@ -12,13 +12,13 @@ ht-degree: 17%
 
 ---
 
-# getImageSetMembers{#getimagesetmembers}
+# getImageSetMember{#getimagesetmembers}
 
-獲取映像集中的成員陣列。
+取得影像集中的成員陣列。
 
 語法
 
-## 授權用戶類型 {#section-eaa3a167fa77403ea1b374b05fff4ded}
+## 授權的使用者型別 {#section-eaa3a167fa77403ea1b374b05fff4ded}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -31,26 +31,26 @@ ht-degree: 17%
 
 >[!NOTE]
 >
->需要對映像和成員集資產的讀取訪問。
+>需要影像和成員集資產的讀取存取權。
 
 ## 參數 {#section-a67ba98095574533980997c83ceaa316}
 
-**Input(getImageSetMembersParam)**
+**輸入(getImageSetMembersParam)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 公司句柄 | `xsd:string` | 是 | 包含映像集的公司的句柄。 |
-| 資產句柄 | `xsd:string` | 是 | 影像集資產句柄。 |
+| companyHandle | `xsd:string` | 是 | 包含影像集的公司的控制代碼。 |
+| assetHandle | `xsd:string` | 是 | 影像集資產控制點。 |
 
 **輸出(getImageSetMembersReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 成員陣列 | `types:ImageSetMemberArray` | 否 | 影像整合員的陣列。 |
+| memberArray | `types:ImageSetMemberArray` | 否 | 影像整合員的陣列。 |
 
 ## 範例 {#section-888a9a78033346f39b171229de93dfa0}
 
-此代碼示例返回特定映像整合員。 響應返回空陣列。
+此程式碼範例會傳回特定的影像整合員。 回應會傳回空白陣列。
 
 **請求**
 

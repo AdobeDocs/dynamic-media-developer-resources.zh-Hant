@@ -1,6 +1,6 @@
 ---
 title: ActiveJobArray
-description: 一組活動作業。
+description: 作用中工作的陣列。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 28%
 
 # [!DNL ActiveJobArray]{#activejobarray}
 
-一組活動作業。
+作用中工作的陣列。
 
 語法
 
@@ -22,4 +22,4 @@ ht-degree: 28%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 項目 | `types:ActiveJob` | 活動作業的陣列。 |
+| 項目 | `types:ActiveJob` | 作用中工作的陣列。 |

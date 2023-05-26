@@ -1,6 +1,6 @@
 ---
-title: 交疊
-description: 交疊
+title: 色票覆蓋
+description: 色票覆蓋
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
@@ -12,7 +12,7 @@ ht-degree: 6%
 
 ---
 
-# 交疊{#swatchoverlay}
+# 色票覆蓋{#swatchoverlay}
 
 `swatchoverlay=0|1`
 
@@ -20,7 +20,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
-   <td colname="col2"> <p>指定啟用觸摸的設備上的查看器佈局。 當參數設定為 <span class="codeph"> 1 </span>，查看器在案頭主視圖下顯示色板；在啟用觸摸的設備上，色板被疊加在主視圖上。 </p> <p>當參數設定為 <span class="codeph"> 0 </span>，所有設備類型的主視圖下顯示色板。 </p> </td> 
+   <td colname="col2"> <p>指定觸控式裝置上的檢視器配置。 當引數設定為 <span class="codeph"> 1 </span>，檢視器在案頭的主檢視下方顯示色票；在觸控式裝置上，色票會覆蓋在主檢視上方。 </p> <p>當引數設定為 <span class="codeph"> 0 </span>，色票會呈現在所有裝置型別的主要檢視下方。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

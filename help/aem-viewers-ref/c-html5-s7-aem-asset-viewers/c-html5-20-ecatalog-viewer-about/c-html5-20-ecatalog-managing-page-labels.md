@@ -14,20 +14,20 @@ ht-degree: 0%
 
 # 管理頁面標籤{#managing-page-labels}
 
-查看器用戶介面中有兩個位置顯示頁面標籤：縮略圖模式和目錄下拉框。
+檢視器使用者介面中顯示頁面標籤的位置有兩處：縮圖模式和目錄下拉式清單。
 
-可以定義三種類型的標籤：
+可以定義三種型別的標籤：
 
-* 作者使用SYMBOL定位機制定義的標籤。
-* 作者在後端定義的標籤，位於Dynamic Media Classic。
-* 由查看器自動生成的標籤。
+* 作者使用SYMBOL本地化機制定義的標籤。
+* 作者在Dynamic Media Classic內後端定義的標籤。
+* 檢視器自動產生的標籤。
 
-基於符號的標籤使用 `MediaSet.LABEL_XX[_YY]` 和 `MediaSet.LABEL_DELIM` SYMBOL（如所述） [用戶介面元素的本地化](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)。 您可以為整個對錄跨頁定義此類標籤，在這種情況下，應使用短SYMBOL語法( `MediaSet.LABEL_XX`)。 或者，使用完整SYMBOL語法為每個頁分別指定( `MediaSet.LABEL_XX_YY`)。
+符號型標籤的定義方式 `MediaSet.LABEL_XX[_YY]` 和 `MediaSet.LABEL_DELIM` SYMBOL （如所述） [使用者介面元素的本地化](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74). 您可以為整個ecatalog跨頁定義此類標籤，在這種情況下，您應使用簡短的SYMBOL語法( `MediaSet.LABEL_XX`)。 或者，使用完整SYMBOL語法( `MediaSet.LABEL_XX_YY`)。
 
-在對子目錄跨頁中的兩個頁面定義標籤時，查看器將使用 `MediaSet.LABEL_DELIM` 。 基於符號的標籤優先於在後端定義或由查看器自動生成的標籤。
+當您為ecatalog跨頁中的兩個頁面定義標籤時，檢視器會使用將這些標籤串連到一個字串中 `MediaSet.LABEL_DELIM` 符號。 SYMBOL型標籤優先於在後端定義的標籤，或由檢視器自動產生的標籤。
 
-在Dynamic Media Classic中定義的標籤儲存在單個頁面影像的UserData記錄中。 與基於SYMBOL的標籤相同。 即，如果對目錄跨頁中的兩個頁面都定義了標籤，則會使用 `MediaSet.LABEL_DELIM` 橫向模式下的SYMBOL。 Dynamic Media Classic標籤優先於自動生成的標籤，但由基於SYMBOL的標籤覆蓋。
+Dynamic Media Classic中定義的標籤會儲存在個別頁面影像的UserData記錄中。 與SYMBOL標籤相同。 也就是說，如果eCatalog跨頁中的兩個頁面都定義了標籤，則會使用 `MediaSet.LABEL_DELIM` SYMBOL為橫向模式。 Dynamic Media Classic標籤優先於自動產生的標籤，但會被SYMBOL型標籤所覆寫。
 
-自動生成的標籤是分配給目錄中所有頁面的順序編號。 如果給定跨頁定義了基於SYMBOL的標籤或定義了Dynamic Media Classic標籤，則會忽略該跨頁的自動生成的標籤。
+自動產生的標籤是指派給eCatalog中所有頁面的序號。 如果指定的跨頁定義了SYMBOL型標籤或定義了Dynamic Media Classic標籤，則會忽略自動產生的標籤。
 
-在目錄中，可以使用 `showdefault` 的下界。
+在目錄中，可以使用以下方式停用自動產生標籤的顯示 `showdefault` 引數。

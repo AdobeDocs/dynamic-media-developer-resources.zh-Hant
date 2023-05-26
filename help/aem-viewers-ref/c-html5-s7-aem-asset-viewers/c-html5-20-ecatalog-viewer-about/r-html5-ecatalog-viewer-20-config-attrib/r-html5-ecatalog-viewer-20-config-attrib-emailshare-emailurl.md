@@ -14,13 +14,13 @@ ht-degree: 15%
 
 # EmailShare.emailurl{#emailshare-emailurl}
 
-` [EmailShare.|<containerId>_emailShare.]emailurl= *`郵件url`*`
+` [EmailShare.|<containerId>_emailShare.]emailurl= *`emailurl`*`
 
 <table id="table_5321841E90C941678F32AAF995CDC257"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> 郵件url</span></span> </p> </td> 
-   <td colname="col2"> <p> 指定Dynamic Media ClassicOnDemand電子郵件服務的基本URL。 </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> emailurl</span></span> </p> </td> 
+   <td colname="col2"> <p> 指定Dynamic Media Classic OnDemand電子郵件服務的基底URL。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -20,7 +20,7 @@ ht-degree: 9%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
-   <td colname="col2"> <p>設定為 <span class="codeph"> 1 </span> 以啟用「關閉」按鈕的顯示。 或，設定為 <span class="codeph"> 0 </span> 按鈕。 </p> <p>「Close（關閉）」按鈕僅在觸摸設備上受支援；無法在案頭系統上顯示。 </p> </td> 
+   <td colname="col2"> <p>設定為 <span class="codeph"> 1 </span> 以啟用關閉按鈕的顯示。 或者，設定為 <span class="codeph"> 0 </span> 以隱藏關閉按鈕。 </p> <p>僅觸控裝置支援「關閉」按鈕，案頭系統無法顯示。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

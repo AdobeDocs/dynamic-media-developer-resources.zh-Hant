@@ -1,5 +1,5 @@
 ---
-description: 獲取與類型句柄關聯的屬性集。
+description: 取得與型別控制代碼關聯的屬性集。
 solution: Experience Manager
 title: getPropertySets
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 18%
 
 # getPropertySets{#getpropertysets}
 
-獲取與類型句柄關聯的屬性集。
+取得與型別控制代碼關聯的屬性集。
 
 語法
 
-## 授權用戶類型 {#section-da858360b72941bfa8d9558b4da7d4da}
+## 授權的使用者型別 {#section-da858360b72941bfa8d9558b4da7d4da}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -32,23 +32,23 @@ ht-degree: 18%
 
 ## 參數 {#section-d8da2847e77e4a95a4441d9848cac775}
 
-**Input(getPropertySetsParam)**
+**輸入(getPropertySetsParam)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 類型句柄 | `xsd:string` | 是 | 屬性集類型的句柄。 |
-| primaryOwnerHandle | `xsd:string` | 是 | 綁定到資料庫對象的資料的主所有者。 |
-| secondaryOwnerHandle | `xsd:string` | 否 | 資料的可選輔助所有者。 |
+| typeHandle | `xsd:string` | 是 | 屬性集型別的控制代碼。 |
+| primaryOwnerHandle | `xsd:string` | 是 | 繫結至資料庫物件之資料的主要擁有者。 |
+| secondaryOwnerHandle | `xsd:string` | 否 | 資料的可選次要擁有者。 |
 
 **輸出(getPropertySetsReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| setArray | `types:PropertySetArray` | 是 | 屬性集的陣列。 |
+| setArray | `types:PropertySetArray` | 是 | 屬性集陣列。 |
 
 ## 範例 {#section-1358af974eab4259864910337a6f0bd2}
 
-此代碼示例返回由類型句柄指定的其主要所有者的屬性集。
+此程式碼範例會傳回其主要擁有者的屬性集（由型別控制代碼指定）。
 
 **請求**
 

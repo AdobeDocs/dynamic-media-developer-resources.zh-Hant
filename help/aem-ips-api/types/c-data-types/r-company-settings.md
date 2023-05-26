@@ -1,5 +1,5 @@
 ---
-description: 特定於公司的配置設定。
+description: 公司特定的組態設定。
 solution: Experience Manager
 title: 公司設定
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # [!DNL CompanySettings]{#companysettings}
 
-特定於公司的配置設定。
+公司特定的組態設定。
 
 語法
 
@@ -22,12 +22,12 @@ ht-degree: 2%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 覆蓋模式 | `xsd:string` | 確定是否覆蓋當前資料夾中具有相同基本影像名稱和副檔名的影像。 |
-| 保留發佈狀態 | `xsd:boolean` | 指定上傳到IPS的替換映像是應保留現有的「準備發佈」設定，還是應按上載指定的方式進行。 |
-| defaultSourceProfile | `types:Asset` | 指定在添加CMYK影像檔案時自動作為「使用預設顏色行為」的一部分應用的預設源顏色配置檔案(Cobited FOGRA27(ISO 126472:2004))。 |
-| defaultDisplayProfile | `types:Asset` | 指定在添加CMYK影像檔案時自動作為「使用預設顏色行為」的一部分應用的預設內部顏色配置檔案(US Web Coptied(SWOP)v2)。 |
-| iptcExifMappingXslt | `types:Asset` | 將IPTC和EXIF影像頭資料提取到IPS中需要將公司的內部欄位名轉換為用戶定義的欄位名。 確定上載影像的XSL轉換表（預設值為「不提取任何IPTC或EXIF欄位」）。 |
-| xmpMappingXslt | `types:Asset` | 將影像XMP頭資料提取到IPS中需要將公司的內部欄位名轉換為用戶定義的欄位名。 確定上載影像的XSL轉換表(預設為「不提取任XMP何欄位」)。 |
-| diskSpaceWarningMin | `xsd:int` | 發出警告之前映像目錄可用磁碟空間的最小量。 |
-| emailTrashCleanupWarning | `xsd:boolean` | 確定是否在將項目放入垃圾箱中之前發送電子郵件。 |
-| javascriptUploadEnabled | `types:Asset` | 確定是否上載JavaScript檔案。 這是潛在的安全風險，因此請謹慎使用此選項。 |
+| overwriteMode | `xsd:string` | 決定是否以相同的基本影像名稱和副檔名覆寫目前資料夾中的影像。 |
+| retainPublishState | `xsd:boolean` | 指定上載至IPS的取代影像是否應保留現有的「準備發佈」設定，或是否應該依照上載的指定。 |
+| defaultSourceProfile | `types:Asset` | 指定增加CMYK影像檔案時，作為「使用預設色彩行為」的一部分自動套用的預設來源色彩設定檔(Coated FOGRA27 (ISO 126472：2004))。 |
+| defaultDisplayprofile | `types:Asset` | 指定預設內部色彩設定檔(U.S. Web Coated (SWOP) v2)在增加CMYK影像檔案時，會自動套用為「使用預設色彩行為」的一部分。 |
+| iptcExifMappingXslt | `types:Asset` | 將IPTC和EXIF影像標頭資料擷取到IPS需要從內部欄位名稱轉換為公司使用者定義的欄位名稱。 決定上傳影像的XSL轉譯表格（預設值為「不擷取任何IPTC或EXIF欄位」）。 |
+| xmpMappingXslt | `types:Asset` | 將XMP影像標題資料擷取至IPS時，需要從內部欄位名稱轉換為公司使用者定義的欄位名稱。 決定已上傳影像的XSL轉譯表格(預設值為「不擷取任何XMP欄位」)。 |
+| diskSpaceWarningMin | `xsd:int` | 發出警告之前的最小影像目錄可用磁碟空間。 |
+| emailTrashCleanupWarning | `xsd:boolean` | 決定是否要在自動刪除置入垃圾桶中的專案之前傳送電子郵件。 |
+| Javascriptuploadenabled | `types:Asset` | 決定是否上傳JavaScript檔案。 這是潛在的安全性風險，因此請謹慎使用此選項。 |

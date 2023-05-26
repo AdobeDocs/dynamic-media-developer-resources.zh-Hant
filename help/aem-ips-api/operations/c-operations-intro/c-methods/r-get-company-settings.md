@@ -1,7 +1,7 @@
 ---
-description: 返回特定公司的IPS設定。
+description: 傳回特定公司的IPS設定。
 solution: Experience Manager
-title: getCompanySettings
+title: getcompanysettings
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b9f41405-8a45-416c-acec-ef22c2ee119e
@@ -12,13 +12,13 @@ ht-degree: 25%
 
 ---
 
-# getCompanySettings{#getcompanysettings}
+# getcompanysettings{#getcompanysettings}
 
-返回特定公司的IPS設定。
+傳回特定公司的IPS設定。
 
 語法
 
-## 授權用戶類型 {#section-3378c9c67029473a87d5f5d8c616b1f3}
+## 授權的使用者型別 {#section-3378c9c67029473a87d5f5d8c616b1f3}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,7 +31,7 @@ ht-degree: 25%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 公司句柄 | `xsd:string` | 是 | 要檢索其設定的公司的句柄。 |
+| companyHandle | `xsd:string` | 是 | 您要擷取其設定的公司的控制代碼。 |
 
 **輸出(getCompanySettingsReturn)**
 
@@ -41,7 +41,7 @@ ht-degree: 25%
 
 ## 範例 {#section-191f78995ecf473a95eadf7296204fd7}
 
-此代碼示例返回特定公司的所有IPS設定。
+此程式碼範例會傳回特定公司的所有IPS設定。
 
 **請求**
 

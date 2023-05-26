@@ -1,7 +1,7 @@
 ---
-description: 公司成員資格更新
+description: CompanyMembershipUpdate
 solution: Experience Manager
-title: 公司成員資格更新
+title: CompanyMembershipUpdate
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c88202f3-df21-4026-aa92-212d3c05f242
@@ -20,6 +20,6 @@ ht-degree: 14%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 公司句柄 | `xsd:string` | 把手交給公司。 |
-| 角色 | `xsd:string` | 用戶對其所屬的每個公司的角色。 |
-| 活動 | `xsd:boolean` | 設定用戶所屬每個公司的狀態。 |
+| companyHandle | `xsd:string` | 處理公司。 |
+| 角色 | `xsd:string` | 使用者對其所屬每個公司具有的角色。 |
+| isActive | `xsd:boolean` | 設定使用者所屬每個公司的狀態。 |

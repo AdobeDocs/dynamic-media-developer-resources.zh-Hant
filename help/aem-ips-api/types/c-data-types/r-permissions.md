@@ -1,7 +1,7 @@
 ---
-description: 管理按組訪問、修改、建立或刪除資產的權限。
+description: 管理依群組存取、修改、建立或刪除資產的許可權。
 solution: Experience Manager
-title: 權限
+title: 許可權
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 18e5f8f6-3cbe-4d36-b02a-5a3002e4498c
@@ -14,7 +14,7 @@ ht-degree: 13%
 
 # [!DNL Permission]{#permission}
 
-管理按組訪問、修改、建立或刪除資產的權限。
+管理依群組存取、修改、建立或刪除資產的許可權。
 
 語法
 
@@ -22,8 +22,8 @@ ht-degree: 13%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 組句柄 | `xsd:string` | 組句柄。 |
-| 組名 | `xsd:string` | 群組名稱. |
-| 權限類型 | `xsd:string` | 權限類型的選擇。 |
-| 允許 | `xsd:boolean` | 確定是否允許權限。 |
-| 是覆蓋 | `xsd:boolean` | 確定權限是否覆蓋其他權限。 |
+| groupHandle | `xsd:string` | 群組控制代碼。 |
+| groupName | `xsd:string` | 群組名稱. |
+| permissiontype | `xsd:string` | 選擇許可權型別。 |
+| isAllowed | `xsd:boolean` | 決定是否允許許可權。 |
+| isOverride | `xsd:boolean` | 決定許可權是否覆寫其他許可權。 |

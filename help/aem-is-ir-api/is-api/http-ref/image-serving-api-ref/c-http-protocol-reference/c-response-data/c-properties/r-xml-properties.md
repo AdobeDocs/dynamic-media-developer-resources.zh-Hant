@@ -1,5 +1,5 @@
 ---
-description: 如果將xml指定為響應格式，則回復資料將格式化為XML文檔，該文檔可由任何標準XML解析器分析。
+description: 如果將xml指定為回應格式，回覆資料會格式化為XML檔案，可供任何標準XML剖析器剖析。
 solution: Experience Manager
 title: XML屬性
 feature: Dynamic Media Classic,SDK/API
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # XML屬性{#xml-properties}
 
-如果將xml指定為響應格式，則回復資料將格式化為XML文檔，該文檔可由任何標準XML解析器分析。
+如果將xml指定為回應格式，回覆資料會格式化為XML檔案，可供任何標準XML剖析器剖析。
 
-典型的屬性響應文檔具有以下一般結構：
+典型的屬性回應檔案具有此一般結構：
 
 ```
 <?xml version="1.0" encoding="UTF-8" ?>
@@ -38,8 +38,8 @@ ht-degree: 0%
 </prop-group>
 ```
 
-的 `<prop-group>` 元素用作最外面的容器，用於分組屬性。 如果組被命名，則該名稱與Java/JavaScript對象名稱相對應。
+此 `<prop-group>` 元素會作為最外層的容器，並用於分組屬性。 如果群組已命名，則該名稱會對應至Java/JavaScript物件名稱。
 
 >[!NOTE]
 >
->可以為某些 `req=` 的下界。 請參閱特定 `req=`的子菜單。
+>可以為某些專案指定字元編碼 `req=` 型別。 請參閱特定的 `req=`命令以取得詳細資訊。

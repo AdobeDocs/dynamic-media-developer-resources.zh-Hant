@@ -1,5 +1,5 @@
 ---
-description: 向系統添加公司。
+description: 將公司新增至系統。
 solution: Experience Manager
 title: addCompany
 feature: Dynamic Media Classic,SDK/API
@@ -14,13 +14,13 @@ ht-degree: 11%
 
 # addCompany{#addcompany}
 
-向系統添加公司。
+將公司新增至系統。
 
-發送要添加到系統的公司名稱，並根據需要發送公司是否過期。
+傳送要新增至系統的公司名稱，並選擇是否傳送公司過期。
 
-調用此操作時，系統將獲取包含公司句柄和描述性欄位的companyInfo類型。 如果請求的公司名稱在系統中已存在，則會引發 `ipsApiFault`。
+叫用此作業時，系統會取得包含公司控制代碼和描述性欄位的companyInfo型別。 如果系統中已存在請求的公司名稱，則會擲回 `ipsApiFault`.
 
-## 授權用戶類型 {#section-ae926c7672984be79f6102748accab72}
+## 授權的使用者型別 {#section-ae926c7672984be79f6102748accab72}
 
 * `IpsAdmin`
 * `TrialSiteAdmin`
@@ -41,16 +41,16 @@ ht-degree: 11%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> 公司名稱</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>要添加的公司名稱。 </p> </td> 
+   <td colname="col4"> <p>要新增的公司名稱。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> expires</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:dateTime</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd：dateTime</span> </p> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>公司的到期日期。 為時區提供此欄位的請求。 將時區調整為「中央時間」。 </p> </td> 
+   <td colname="col4"> <p>公司的到期日。 提供此欄位請求的時區。 時區會調整為中部時間。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -68,17 +68,17 @@ ht-degree: 11%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> 公司資訊</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyInfo</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>新公司的句柄和名稱、根路徑、到期日期和時間。 </p> </td> 
+   <td colname="col4"> <p>處理新公司的和名稱、根路徑、到期日和時間。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 範例 {#section-4c8f1bb40d154c77a7b410468206e52b}
 
-此示例演示向IPS系統添加公司的請求以及詳細說明執行其他操作所需添加公司資訊的響應。
+此範例示範將公司新增至IPS系統的請求和回應，詳細說明執行其他操作所需新增公司的相關資訊。
 
 **請求**
 

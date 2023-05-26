@@ -1,7 +1,7 @@
 ---
-description: 預設背景顏色。 RGB值，用於填充不包含實際影像資料的回復影像的任何區域。
+description: 預設背景顏色。 用於填滿不包含實際影像資料之回覆影像任何區域的RGB值。
 solution: Experience Manager
-title: Bkg顏色
+title: BkgColor
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f008c834-30fb-4a49-8e6c-1110e55af280
@@ -12,9 +12,9 @@ ht-degree: 6%
 
 ---
 
-# Bkg顏色{#bkgcolor}
+# BkgColor{#bkgcolor}
 
-預設背景顏色。 RGB值，用於填充不包含實際影像資料的回復影像的任何區域。
+預設背景顏色。 用於填滿不包含實際影像資料之回覆影像任何區域的RGB值。
 
 ## 屬性 {#section-2768b2beee214676aa32f17e2a0e3343}
 
@@ -22,7 +22,7 @@ ht-degree: 6%
 
 ## 預設 {#section-9c2c5794b82a4ef89a09551f08d03dbc}
 
-繼承自 `default::BkgColor` 或為空。
+繼承自 `default::BkgColor` 如果未定義或為空。
 
 ## 另請參閱 {#section-90967e515a0d46bd8a9361fd49fc43cf}
 

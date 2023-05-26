@@ -1,5 +1,5 @@
 ---
-description: 如果請求成功完成，並且請求不包括req=命令，或者req=img或req=tmb，則返回影像資料。
+description: 如果要求成功完成，且要求未包含req=命令，或req=img或req=tmb，則會傳回影像資料。
 solution: Experience Manager
 title: 影像
 feature: Dynamic Media Classic,SDK/API
@@ -14,10 +14,10 @@ ht-degree: 1%
 
 # 影像{#images}
 
-如果請求成功完成，並且請求不包括req=命令，或者req=img或req=tmb，則返回影像資料。
+如果要求成功完成，且要求未包含req=命令，或req=img或req=tmb，則會傳回影像資料。
 
-HTTP響應MIME類型由 `fmt=`，或 `fmt=` 未指定，它 `<image/jpeg>`。
+HTTP回應MIME型別由以下專案決定 `fmt=`，或，如果 `fmt=` 未指定，它是 `<image/jpeg>`.
 
-如果請求方法為無條件，則HTTP響應狀態為「200 OK」 `GET` 或 `HEAD`。
+如果要求方法為無條件，則HTTP回應狀態為「200 OK」 `GET` 或 `HEAD`.
 
-伺服器可以以狀態「304」（未修改）答復，並且不返回任何影像資料以響應條件 `GET` 請求(包括有效 `If-Modified-Since` 或 `If-None-Match` 標題)。
+伺服器可能會以「304」狀態回覆（未修改），並且不會傳回任何影像資料來回應條件 `GET` 請求(包括有效的 `If-Modified-Since` 或 `If-None-Match` 標頭)。

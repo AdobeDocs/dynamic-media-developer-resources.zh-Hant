@@ -1,5 +1,5 @@
 ---
-description: 規則容器元素。 有效的規則集檔案包含 <ruleset> 的子菜單。
+description: 規則容器元素。 有效的規則集檔案包含一個 <ruleset> 元素。
 solution: Experience Manager
 title: 規則集
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 # 規則集{#ruleset}
 
-規則容器元素。 有效的規則集檔案包含 `<ruleset>` 的子菜單。
+規則容器元素。 有效的規則集檔案包含一個 `<ruleset>` 元素。
 
 ## 屬性 {#section-4840a223a0c34c50a1b6f4b7b9beb2c2}
 

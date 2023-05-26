@@ -1,6 +1,6 @@
 ---
-title: 在Windows上卸載
-description: 按照以下說明卸載Windows系統上的映像呈現。
+title: 在Windows上解除安裝
+description: 請依照下列指示，在Windows系統上解除安裝影像演算。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# 在Windows上卸載{#uninstalling-on-windows}
+# 在Windows上解除安裝{#uninstalling-on-windows}
 
-按照以下說明卸載Windows系統上的映像呈現。
+請依照下列指示，在Windows系統上解除安裝影像演算。
 
-1. 通過運行啟動卸載程式 ` *[!DNL install_folder]*\_uninst\uninstaller.exe`，或從「開始」菜單中選擇 **[!UICONTROL 程式]** > **[!UICONTROL Scene7]** > **[!UICONTROL 影像渲染]** > **[!UICONTROL 卸載]**。
+1. 執行以啟動解除安裝程式 ` *[!DNL install_folder]*\_uninst\uninstaller.exe`，或從「開始」功能表選取 **[!UICONTROL 計畫]** > **[!UICONTROL Scene7]** > **[!UICONTROL 影像演算]** > **[!UICONTROL 解除安裝]**.

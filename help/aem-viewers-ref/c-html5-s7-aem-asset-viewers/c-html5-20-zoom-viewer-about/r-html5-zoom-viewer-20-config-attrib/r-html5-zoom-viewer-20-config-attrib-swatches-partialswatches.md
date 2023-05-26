@@ -20,7 +20,7 @@ ht-degree: 11%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td> <p> 指定元件是否允許在任何色板部分可見時停止滾動（未對齊滾動）。 建議的值為 <span class="codeph"> 假</span> 或 <span class="codeph"> 0</span>。 </p> </td> 
+   <td> <p> 指定當色票為部分可見時（捲動未對齊），元件是否允許停止捲動。 建議值為 <span class="codeph"> false</span> 或 <span class="codeph"> 0</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

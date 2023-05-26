@@ -1,5 +1,5 @@
 ---
-description: 獲取指定公司的活動發佈上下文的清單。 如果至少為上下文定義了一個活動伺服器，則發佈上下文被視為活動。
+description: 取得指定公司的作用中發佈內容清單。 如果至少有一個為前後關聯定義的作用中伺服器，則發佈前後關聯會被視為作用中。
 solution: Experience Manager
 title: getActivePublishContext
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 11%
 
 # getActivePublishContext{#getactivepublishcontext}
 
-獲取指定公司的活動發佈上下文的清單。 如果至少為上下文定義了一個活動伺服器，則發佈上下文被視為活動。
+取得指定公司的作用中發佈內容清單。 如果至少有一個為前後關聯定義的作用中伺服器，則發佈前後關聯會被視為作用中。
 
 語法
 
-## 授權用戶類型 {#section-eb22397744434dfe92a59ffa2883c2e7}
+## 授權的使用者型別 {#section-eb22397744434dfe92a59ffa2883c2e7}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -36,10 +36,10 @@ ht-degree: 11%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 公司句柄 | `xsd:string` | 是 | 要查詢活動發佈上下文的公司的句柄 |
+| companyHandle | `xsd:string` | 是 | 公司查詢使用中發佈內容的控點 |
 
 **輸出(getActivePublishContextsReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 上下文陣列 | `types:StringArray` | 是 | 活動發佈上下文的陣列，其中可能包含來自發佈上下文的零個或多個值。 |
+| contextArray | `types:StringArray` | 是 | 作用中發佈內容的陣列，其中可能包括來自發佈內容的零個或多個值。 |

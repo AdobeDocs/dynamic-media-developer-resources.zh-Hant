@@ -21,8 +21,8 @@ ht-degree: 6%
 <table id="table_B3B03B00DCF0466DB332E851F4DDF610"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> 下|上|左|右|無</span> </p> </td> 
-   <td> <p> 指定標籤相對於色板縮略圖影像的繪製位置。 即，標籤在相對於色板縮略圖的指定位置居中。 當 <span class="codeph"> 提示</span> 指定，未繪製標籤。 </p> </td> 
+   <td> <p> <span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
+   <td> <p> 指定相對於色票縮圖影像的標籤繪製位置。 也就是說，標籤會以相對於色票縮圖的指定位置為中心。 時間 <span class="codeph"> 工具提示</span> 已指定，不會繪製任何標籤。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

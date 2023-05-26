@@ -1,5 +1,5 @@
 ---
-description: 設定指定資產的「影像服務」或「影像呈現」協定命令。 這些命令可修改資產的表示形式，而不會破壞它。
+description: 為指定的資產設定影像伺服或影像演算通訊協定命令。 這些命令會修改資產的表示方式，而不會破壞資產。
 solution: Experience Manager
 title: setUrlModifier
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 7%
 
 # setUrlModifier{#seturlmodifier}
 
-設定指定資產的「影像服務」或「影像呈現」協定命令。 這些命令可修改資產的表示形式，而不會破壞它。
+為指定的資產設定影像伺服或影像演算通訊協定命令。 這些命令會修改資產的表示方式，而不會破壞資產。
 
-對於影像服務， `urlModifier` 參數將發佈在「修改量目錄」欄位中，並在請求URL上指定的任何命令之前應用。 命令 `urlPostApplyModifier` 已發佈到 `PostModifier` 目錄欄位，並覆蓋請求URL或中的任何命令 `urlModifier`。 對於影像渲染， `urlModifier` 和 `urlPostApplyModifier` 並發佈到「修改量目錄」欄位。
+針對「影像伺服」，命令位在 `urlModifier` 引數會發佈在Modifier catalog欄位中，並在要求URL上指定的任何命令之前套用。 中的命令 `urlPostApplyModifier` 發佈至 `PostModifier` 目錄欄位並覆寫請求URL上或中的任何命令 `urlModifier`. 對於影像演算，命令位於 `urlModifier` 和 `urlPostApplyModifier` 串連並發佈至「修飾元目錄」欄位。
 
-## 授權用戶類型 {#section-fefcd732ccf64c78956606538f96c73d}
+## 授權的使用者型別 {#section-fefcd732ccf64c78956606538f96c73d}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,14 +33,14 @@ ht-degree: 7%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 公司句柄 | `xsd:string` | 是 | 公司負責。 |
-| 資產句柄 | `xsd:string` | 是 | 資產句柄。 |
-| url修飾符 | `xsd:string` | 否 | 在請求或 `urlPostApplyModifier` 的雙曲餘切值。 |
-| urlPostApplyModifier | `xsd:string` | 否 | 在以下時間後應用的影像服務或影像呈現協定命令 `urlModifier` 命令。 |
+| companyHandle | `xsd:string` | 是 | 公司控點。 |
+| assetHandle | `xsd:string` | 是 | 資產控點。 |
+| urlModifier | `xsd:string` | 否 | 在請求或之前，要套用的影像提供或影像演算通訊協定命令 `urlPostApplyModifier` 命令。 |
+| urlPostApplyModifier | `xsd:string` | 否 | 之後要套用的影像提供或影像演算通訊協定命令 `urlModifier` 和request命令。 |
 
 **輸出(setUrlModifierReturn)**
 
-IPS API不會為此操作返迴響應。
+IPS API未傳回此作業的回應。
 
 ## 範例 {#section-801d4b9b986443f59a5783a3d6bf44aa}
 

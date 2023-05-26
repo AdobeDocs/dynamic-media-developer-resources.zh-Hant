@@ -1,6 +1,6 @@
 ---
-title: 維涅特
-description: Vignette檔案。 指定用於請求的視圖。
+title: 暈映
+description: 暈映檔案。 指定用於要求的暈映。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,36 +12,36 @@ ht-degree: 4%
 
 ---
 
-# 維涅特{#vignette}
+# 暈映{#vignette}
 
-Vignette檔案。 指定用於請求的視圖。
+暈映檔案。 指定用於要求的暈映。
 
-`vignette=[ *`貓ID`*/] *`recId`*|[catId/] *`檔案`*`
+`vignette=[ *`catId`*/] *`recId`*|[catId/] *`檔案`*`
 
 <table id="simpletable_432EC5501CA3431B83A762C3EE4E8DD2"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> 貓ID</span> </p> </td> 
-  <td class="stentry"> <p>物料目錄ID(匹配到 <span class="codeph"> 屬性：:RootId</span>)。 </p></td> 
+  <td class="stentry"> <p><span class="varname"> catId</span> </p> </td> 
+  <td class="stentry"> <p>材質目錄ID (符合 <span class="codeph"> attribute：：RootId</span>)。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> recId</span> </p></td> 
-  <td class="stentry"> <p>Vignette ID(匹配到 <span class="codeph"> vignette::Id</span>)。 </p></td> 
+  <td class="stentry"> <p>暈映ID (符合 <span class="codeph"> 暈映：：Id</span>)。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> file</span> </p></td> 
-  <td class="stentry"> <p>相對視頻檔案路徑和名稱。 </p></td> 
+  <td class="stentry"> <p>相對暈映檔案路徑和名稱。 </p></td> 
  </tr> 
 </table>
 
-可以指定視頻映射項或視頻檔案。 不允許遠程URL。
+可以指定暈映對應專案或暈映檔案。 不允許遠端URL。
 
-`vignette=` 可以用作在請求URL路徑中指定視圖的替代方法。 用於通過模板中的變數指定小圖。
+`vignette=` 可用來替代在請求URL路徑中指定暈映。 用於透過範本中的變數指定暈映。
 
-如果 *`catId`* 未指定，則使用會話目錄。
+若 *`catId`* 未指定，則會使用工作階段目錄。
 
 ## 屬性 {#section-f58661fc78d7496e8e3d0fb98b945c4b}
 
-請求中的任何位置都可能發生。 覆蓋使用請求URL路徑指定的視圖。
+可能發生在請求中的任何位置。 覆寫以要求URL路徑指定的暈映。
 
 ## 預設 {#section-db0618d48bc84dc8abcc989550349ccc}
 
@@ -49,4 +49,4 @@ Vignette檔案。 指定用於請求的視圖。
 
 ## 另請參閱 {#section-dc2668cc2cd54a74b08cff68a12d4edd}
 
-[物料目錄](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-material-catalogs/c-ir-http-material-catalogs.md#concept-772742c1688f420a88a56f5136ad1db2)。 [自定義變數](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-custom-variables/c-ir-custom-variables.md#concept-8a1d9a50d09a4b7b97b8c83365971f96)
+[原物料目錄](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-material-catalogs/c-ir-http-material-catalogs.md#concept-772742c1688f420a88a56f5136ad1db2)， [自訂變數](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-custom-variables/c-ir-custom-variables.md#concept-8a1d9a50d09a4b7b97b8c83365971f96)

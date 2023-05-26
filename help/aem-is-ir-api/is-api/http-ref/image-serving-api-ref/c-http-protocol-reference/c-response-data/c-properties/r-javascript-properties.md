@@ -1,5 +1,5 @@
 ---
-description: 如果將JavaScript™指定為響應格式，則回復資料的格式將被解析為JavaScript™包含檔案。
+description: 如果將JavaScript™指定為回應格式，則會將回覆資料格式化並剖析為JavaScript™包含檔案。
 solution: Experience Manager
 title: JavaScript™屬性
 feature: Dynamic Media Classic,SDK/API
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # JavaScript™屬性{#javascript-properties}
 
-如果將JavaScript™指定為響應格式，則回復資料的格式將被解析為JavaScript™包含檔案。
+如果將JavaScript™指定為回應格式，則會將回覆資料格式化並剖析為JavaScript™包含檔案。
 
-典型的JavaScript™屬性響應具有以下一般結構：
+典型的JavaScript™屬性回應具有此一般結構：
 
 ```
            
@@ -29,9 +29,9 @@ ht-degree: 0%
 ...
 ```
 
-*`propertyValue`* 可能是空的。 在每行的開頭和結尾處以及=分隔符之前和之後，空格是可選的。 所有值都用單引號括起來。 字串中的單引號用兩個連續的單引號轉義。
+*`propertyValue`* 可為空白。 每行開頭和結尾以及=分隔符號之前和之後的空白字元為選用。 所有值都以單引號括住。 字串中的單引號會以兩個連續的單引號逸出。
 
-要分析JavaScript™屬性響應，必須在載入屬性檔案之前建立響應中引用的任何對象或對象。 以下是使用 `req=props` 要在JavaScript™中獲取響應映像大小：
+若要剖析JavaScript™屬性回應，必須在載入屬性檔案之前建立回應中參考的任何物件。 以下是使用的範例 `req=props` 若要以JavaScript™取得回應影像大小：
 
 ```
 <script> image = new Object; </script> 

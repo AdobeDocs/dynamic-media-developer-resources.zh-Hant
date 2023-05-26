@@ -20,7 +20,7 @@ ht-degree: 14%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 指定是否為單個映射區域元素啟用工具提示。 </p> <p> 已忽略觸摸設備（包括啟用觸摸的台式機系統）。 </p> </td> 
+   <td colname="col2"> <p> 指定是否針對個別對應區域元素啟用工具提示。 </p> <p> 觸控裝置（包括觸控式桌上型電腦系統）上已忽略。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,7 +1,7 @@
 ---
-description: 批處理作業的作業資料。
+description: 批次工作的工作資料。
 solution: Experience Manager
-title: 作業資料
+title: jobdata
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2fefc2ea-415e-4c47-bbd6-ba081f849d5f
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# 作業資料{#jobdata}
+# jobdata{#jobdata}
 
-批處理作業的作業資料。
+批次工作的工作資料。
 
-在批處理作業請求中使用，以在提交作業進行處理時完整描述作業。 該值是URL編碼的XML代碼段。
+用於批次工作請求，在送出工作以進行處理時完整說明工作。 值是URL編碼的XML程式碼片段。

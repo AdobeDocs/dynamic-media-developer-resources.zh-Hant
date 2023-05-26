@@ -1,7 +1,7 @@
 ---
-description: 上載期間指定的選項。 影響上載的顏色管理方式。
+description: 上傳期間指定的選項。 會影響如何管理上傳的顏色。
 solution: Experience Manager
-title: 顏色管理選項
+title: 色彩管理選項
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 55535bb0-544d-4a93-9ff4-235f22b8d45a
@@ -14,7 +14,7 @@ ht-degree: 11%
 
 # [!DNL ColorManagementOptions]{#colormanagementoptions}
 
-上載期間指定的選項。 影響上載的顏色管理方式。
+上傳期間指定的選項。 會影響如何管理上傳的顏色。
 
 語法
 
@@ -22,6 +22,6 @@ ht-degree: 11%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 顏色管理 | `xsd:string` | 顏色管理模式選擇。 |
-| sourceProfileHandle | `xsd:string` | 源配置檔案句柄。 |
-| outputProfileHandle | `xsd:string` | 輸出配置檔案句柄。 |
+| 色彩管理 | `xsd:string` | 色彩管理模式選擇。 |
+| sourceProfileHandle | `xsd:string` | 來源設定檔控制代碼。 |
+| outputProfileHandle | `xsd:string` | 輸出設定檔控制代碼。 |

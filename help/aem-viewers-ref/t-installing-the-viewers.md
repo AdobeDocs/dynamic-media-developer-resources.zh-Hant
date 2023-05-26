@@ -1,6 +1,6 @@
 ---
-title: 在同一伺服器上安裝多個Dynamic Media查看器
-description: 安裝Dynamic Media查看器API的說明。
+title: 在同一部伺服器上安裝多個Dynamic Media檢視器
+description: Dynamic Media檢視器API的安裝指示。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
@@ -12,24 +12,24 @@ ht-degree: 1%
 
 ---
 
-# 在同一伺服器上安裝多個查看器{#installing-multiple-viewers-on-the-same-server}
+# 在同一部伺服器上安裝多個檢視器{#installing-multiple-viewers-on-the-same-server}
 
 <!-- Updated April 06, 2021 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
 
-安裝Dynamic Media查看器API的說明。
+安裝Dynamic Media檢視器API的說明。
 
-在安裝映像服務查看器之前，請安裝並test映像服務。
+安裝「影像伺服」檢視器之前，請先安裝並測試「影像伺服」。
 
-將IS查看器檔案複製到硬碟，然後部署 `s7viewers.war` 檔案 `../ImageServing/webapps` 的子菜單。 有關如何部署、啟動、停止和管理映像伺服器的說明，請參閱映像服務文檔。
+將IS Viewers檔案複製到硬碟，然後部署 `s7viewers.war` 檔案移入 `../ImageServing/webapps` 目錄。 如需如何部署、啟動、停止及管理影像伺服器的指示，請參閱您的影像伺服檔案。
 
 >[!NOTE]
 >
->沒有為映像服務查看器安裝升級。 Adobe建議您先備份任何現有的Dynamic Media查看器(s7viewers)目錄，然後再繼續安裝。
+>「影像伺服」檢視器沒有升級安裝。 Adobe建議您在繼續安裝之前，先備份任何現有的Dynamic Media檢視器(s7viewers)目錄。
 
-**要在同一伺服器上安裝多個查看器：**
+**若要在同一部伺服器上安裝多個檢視器：**
 
-1. 將查看器.war更名為所需上下文，並將檔案部署到所需位置。
-1. 設定 `this.isViewerRoot` 參數 `config.js`。
-1. 開啟 `config.js` 位於新建立的查看器資料夾的根目錄。
-1. 設定參數 `this.isViewerRoot = "/s7viewers"` 到 `s7viewers.war` 的子菜單。 例如，`"/s7viewers-4.0"`。
-1. 保存檔案並關閉。
+1. 將檢視器.war重新命名為所需的內容，並將檔案部署至所需的位置。
+1. 設定 `this.isViewerRoot` 中的引數 `config.js`.
+1. 開啟 `config.js` 位於新建立的檢視器資料夾的根目錄。
+1. 設定引數 `this.isViewerRoot = "/s7viewers"` 至的上下文 `s7viewers.war` 檔案。 例如，`"/s7viewers-4.0"`。
+1. 儲存檔案並關閉。

@@ -1,5 +1,5 @@
 ---
-description: 將用戶添加到組陣列。
+description: 將使用者新增至群組陣列。
 solution: Experience Manager
 title: addGroupMembership
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 14%
 
 # addGroupMembership{#addgroupmembership}
 
-將用戶添加到組陣列。
+將使用者新增至群組陣列。
 
 語法
 
-## 授權用戶類型 {#section-fe950150718a474d8df30d0f4453c022}
+## 授權的使用者型別 {#section-fe950150718a474d8df30d0f4453c022}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -42,24 +42,24 @@ ht-degree: 14%
    <td colname="col1"> <span class="codeph"> <span class="varname"> userHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>處理要添加其組成員資格的用戶。 </p> </td> 
+   <td colname="col4"> <p>處理您要新增其群組成員資格的使用者。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> groupHandleArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:HandleArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：HandleArray</span> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>希望公司所屬組的句柄陣列。 </p> </td> 
+   <td colname="col4"> <p>您希望公司所屬的群組的控制代碼陣列。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **輸出(addGroupMembershipParam)**
 
-IPS API不會為此操作返迴響應。
+IPS API未傳回此作業的回應。
 
 ## 範例 {#section-f7a1f40c3d7a40ea964b29056c734d81}
 
-此示例將組添加到具有groupHandleArray的公司。 此示例僅使用一個組。
+此範例會將群組新增至具有groupHandleArray的公司。 此範例僅使用一個群組。
 
 **請求**
 

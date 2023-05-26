@@ -1,6 +1,6 @@
 ---
 title: SmartCropVideoPlayer.waiticon
-description: Smart Crop Video Viewer的配置屬性。
+description: 智慧型裁切視訊檢視器的設定屬性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 13%
 
 # SmartCropVideoPlayer.waiticon{#smartcropvideoplayer-waiticon}
 
-Smart Crop Video Viewer的配置屬性。
+智慧型裁切視訊檢視器的設定屬性。
 
 `[SmartCropVideoPlayer.|<containerId>_videoPlayer.]waiticon=0|1`
 
@@ -22,7 +22,7 @@ Smart Crop Video Viewer的配置屬性。
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 啟用或禁用緩衝動畫（等待表徵圖）顯示。 </p> </td> 
+   <td colname="col2"> <p> 啟用或停用緩衝動畫（等待圖示）顯示。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

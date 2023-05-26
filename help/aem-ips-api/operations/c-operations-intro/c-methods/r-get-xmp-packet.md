@@ -1,5 +1,5 @@
 ---
-description: 檢索指XMP定資產的元資料包。
+description: 擷取指定資產的XMP中繼資料封包。
 solution: Experience Manager
 title: getXMPPacket
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 23%
 
 # getXMPPacket{#getxmppacket}
 
-檢索指XMP定資產的元資料包。
+擷取指定資產的XMP中繼資料封包。
 
 語法
 
-## 授權用戶類型 {#section-7cb9c26045214f01b1d6b6948b6c6a18}
+## 授權的使用者型別 {#section-7cb9c26045214f01b1d6b6948b6c6a18}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,14 +34,14 @@ ht-degree: 23%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 公司句柄 | `xsd:string` | 是 | 公司處理要返回的資料包(例如， `c|656`)。 |
-| 資產句柄 | `xsd:string` | 是 | 應檢索包XMP的資產。 |
+| companyHandle | `xsd:string` | 是 | 公司處理您要傳回的封包(例如， `c|656`)。 |
+| assetHandle | `xsd:string` | 是 | 應擷取XMP封包的資產。 |
 
 **輸出(getXMPPacketReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 壓縮資料包 | `xsd:Base 64 binary` | 是 | [!DNL zlib-compressed] 包XMP。 |
+| compressedPacket | `xsd:Base 64 binary` | 是 | [!DNL zlib-compressed] XMP封包。 |
 
 ## 範例 {#section-d681af49122e4ca9bcd04110a2e98e6f}
 

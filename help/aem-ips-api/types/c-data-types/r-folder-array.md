@@ -1,5 +1,5 @@
 ---
-description: 一組資料夾。
+description: 資料夾陣列。
 solution: Experience Manager
 title: 資料夾陣列
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 33%
 
 # [!DNL FolderArray]{#folderarray}
 
-一組資料夾。
+資料夾陣列。
 
 語法
 

@@ -1,5 +1,5 @@
 ---
-description: 一系列公司
+description: 許多公司
 solution: Experience Manager
 title: 公司陣列
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 31%
 
 # [!DNL CompanyArray]{#companyarray}
 
-一系列公司
+許多公司
 
 語法
 

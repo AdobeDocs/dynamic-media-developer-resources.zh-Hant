@@ -1,7 +1,7 @@
 ---
-description: 使用屬性陣列更新屬性集。
+description: 使用屬性陣列來更新屬性集。
 solution: Experience Manager
-title: updatePropertySet
+title: update屬性Set
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: bbe6a664-b6e1-4b46-867d-a134070b13da
@@ -12,13 +12,13 @@ ht-degree: 15%
 
 ---
 
-# updatePropertySet{#updatepropertyset}
+# update屬性Set{#updatepropertyset}
 
-使用屬性陣列更新屬性集。
+使用屬性陣列來更新屬性集。
 
 語法
 
-## 授權用戶類型 {#section-116693bbfb5d44219e62bbb1ba19de96}
+## 授權的使用者型別 {#section-116693bbfb5d44219e62bbb1ba19de96}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -32,21 +32,21 @@ ht-degree: 15%
 
 ## 參數 {#section-98361b063e9c41e8b2f744fabc0e13ed}
 
-**Input(updatePropertySetParam)**
+**輸入(updatePropertySetParam)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| setHandle | `xsd:string` | 是 | 屬性集的句柄。 |
-| replaceProperties | `xsd:string` | 否 | 設定為 `true` 的子菜單。 |
-| 屬性Array | `types:PropertyArray` | 是 | 屬性集的更新屬性陣列。 |
+| setHandle | `xsd:string` | 是 | 屬性集的處理常式。 |
+| replaceProperties | `xsd:string` | 否 | 設定為 `true` 以取代屬性。 |
+| propertyArray | `types:PropertyArray` | 是 | 屬性集的更新屬性陣列。 |
 
 **輸出(updatePropertySetReturn)**
 
-IPS API不會為此操作返迴響應。
+IPS API未傳回此作業的回應。
 
 ## 範例 {#section-55d1c9dcd0174c6b9b52b4709f7c8bf9}
 
-此代碼示例更新屬性陣列中的屬性集。
+此程式碼範例會更新屬性陣列中具有屬性的屬性集。
 
 **請求**
 

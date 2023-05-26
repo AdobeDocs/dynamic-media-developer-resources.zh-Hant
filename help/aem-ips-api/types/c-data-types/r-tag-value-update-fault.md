@@ -1,5 +1,5 @@
 ---
-description: 標籤值更新失敗時引發的錯誤。
+description: 標籤值更新失敗時擲回的錯誤。
 solution: Experience Manager
 title: TagValueUpdateFault
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 20%
 
 # [!DNL TagValueUpdateFault]{#tagvalueupdatefault}
 
-標籤值更新失敗時引發的錯誤。
+標籤值更新失敗時擲回的錯誤。
 
 語法
 
@@ -23,5 +23,5 @@ ht-degree: 20%
 | 名稱 | 類型 | 說明 |
 |---|---|---|
 | 價值 | `xsd:string` | 更新失敗的標籤值。 |
-| 代碼 | `xsd:int` | 錯誤代碼號。 |
-| 原因 | `xsd:string` | 錯誤消息（純文字檔案）。 |
+| 代碼 | `xsd:int` | 錯誤代碼編號。 |
+| 原因 | `xsd:string` | 錯誤訊息（純文字）。 |

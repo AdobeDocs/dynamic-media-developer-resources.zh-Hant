@@ -19,12 +19,12 @@ ht-degree: 9%
 <table id="table_FC34B37AACFB4E92A37E1D2D93D5F0D2"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 無|淡入</span> </p> </td> 
-   <td colname="col2"> <p> 指定應用於資產更改主視圖的效果的類型。 的 <span class="codeph"> 無</span> 代表無轉換，主視圖改變會立即發生。 的 <span class="codeph"> 淡</span> 激活交叉淡入轉換，舊影像淡出，新影像淡入 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> none|fade</span> </p> </td> 
+   <td colname="col2"> <p> 指定在資產變更時套用至主要檢視的效果型別。 此 <span class="codeph"> 無</span> 代表無轉變，主要檢視變更會立即發生。 此 <span class="codeph"> 淡化</span> 啟用交叉淡化轉變，舊影像淡出且新影像淡入 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> 時段</span></span> </p> </td> 
-   <td colname="col2"> <p> 動畫完成所需的秒數。 </p> </td> 
+   <td colname="col2"> <p> 完成動畫所需的秒數。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

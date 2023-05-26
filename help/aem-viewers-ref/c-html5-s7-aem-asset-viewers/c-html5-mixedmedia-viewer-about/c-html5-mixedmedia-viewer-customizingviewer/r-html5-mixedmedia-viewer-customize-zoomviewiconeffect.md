@@ -1,6 +1,6 @@
 ---
-title: 縮放視圖表徵圖效果
-description: 縮放指示器重疊在縮放視圖區域上。 當影像處於重置狀態時，會顯示它，並且它還取決於影像效果參數。
+title: 縮放檢檢視示效果
+description: 縮放指示器覆蓋在縮放檢視區域上。 當影像處於重設狀態時會顯示它，而且它還取決於iconeffect引數。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
@@ -12,15 +12,15 @@ ht-degree: 1%
 
 ---
 
-# 縮放視圖表徵圖效果{#zoom-view-icon-effect}
+# 縮放檢檢視示效果{#zoom-view-icon-effect}
 
-縮放指示器重疊在縮放視圖區域上。 當影像處於重置狀態時，會顯示它，並且它還取決於影像效果參數。
+縮放指示器覆蓋在縮放檢視區域上。 當影像處於重設狀態時會顯示它，而且它還取決於iconeffect引數。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**主查看器區域的CSS屬性**
+**主要檢視器區域的CSS屬性**
 
-查看區域的外觀由以下CSS類選擇器控制：
+檢視區域的外觀是由下列CSS類別選取器所控制：
 
 ```
 .s7mixedmediaviewer .s7zoomview .s7iconeffect
@@ -35,12 +35,12 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景影像 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p> 縮放指示器圖稿。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS浮雕，則在圖稿浮雕內定位。 </p> <p>請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS繁體 </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> 若使用CSS sprite，則定位在圖稿sprite內。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -55,9 +55,9 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->表徵圖效果支援 `media-type` 屬性選擇器，您可以使用該選擇器對不同設備應用不同的表徵圖效果。 特別是， `media-type='standard'` 對應於通常使用滑鼠輸入的案頭系統 `media-type='multitouch'` 與具有觸摸輸入的設備相對應。
+>圖示效果支援 `media-type` 屬性選擇器，可用來將不同的圖示效果套用至不同的裝置。 尤其是， `media-type='standard'` 對應至一般使用滑鼠輸入的桌上型電腦系統，以及 `media-type='multitouch'` 對應至具有觸控輸入的裝置。
 
-示例 — 為台式機系統和觸摸設備設定100 x 100像素縮放指示器，採用不同的技術。
+範例 — 為桌上型電腦系統和觸控裝置設定100 x 100畫素縮放指示器，使用不同的藝術品。
 
 ```
 .s7mixedmediaviewer .s7zoomview .s7iconeffect { 

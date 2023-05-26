@@ -1,5 +1,5 @@
 ---
-description: 將查看器配置設定附加到資產。 這些可以是查看器預設或查看器的源資產。
+description: 將檢視器組態設定附加到資產。 這些可以是檢視器預設集或檢視器的來源資產。
 solution: Experience Manager
 title: setViewerConfigSettings
 feature: Dynamic Media Classic,SDK/API,Viewer Presets
@@ -14,11 +14,11 @@ ht-degree: 12%
 
 # setViewerConfigSettings{#setviewerconfigsettings}
 
-將查看器配置設定附加到資產。 這些可以是查看器預設或查看器的源資產。
+將檢視器組態設定附加到資產。 這些可以是檢視器預設集或檢視器的來源資產。
 
 語法
 
-## 授權用戶類型 {#section-81c429ba9f4c4359986a30ea7ebea8d2}
+## 授權的使用者型別 {#section-81c429ba9f4c4359986a30ea7ebea8d2}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,12 +31,12 @@ ht-degree: 12%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 公司句柄 | `xsd:string` | 是 | 把手交給公司。 |
-| 資產句柄 | `xsd:string` | 是 | 資產句柄。 |
+| companyHandle | `xsd:string` | 是 | 處理公司。 |
+| assetHandle | `xsd:string` | 是 | 資產控點。 |
 | name | `xsd:string` | 是 | 資產名稱。 |
-| type | `xsd:string` | 是 | 要應用查看器配置的資產類型。 |
-| configSettingArray | `types:ConfigSettingArray` | 是 | 陣列 `ConfigSettings` 應用於資產…… |
+| type | `xsd:string` | 是 | 您要套用檢視器設定的資產型別。 |
+| configSettingArray | `types:ConfigSettingArray` | 是 | 陣列 `ConfigSettings` 已套用至資產…… |
 
 **輸出(setViewerConfigSettingsParam)**
 
-IPS API不會為此操作返迴響應。
+IPS API未傳回此作業的回應。
