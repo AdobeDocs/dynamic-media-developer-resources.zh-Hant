@@ -115,7 +115,7 @@ ht-degree: 0%
 
 ## 預設 {#section-076c35ea37fa4a44ada253b4c2dec1dd}
 
-「無」，表示沒有額外的圖層剪裁。
+「無」，則不會額外剪裁圖層。
 
 ## 另請參閱 {#section-dd8110fb6f5c45eba6284c5ec5f49056}
 

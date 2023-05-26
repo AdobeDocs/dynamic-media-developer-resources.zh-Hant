@@ -20,7 +20,7 @@ ht-degree: 1%
 
 每次掃描的實際速度取決於使用者系統和接收及解壓縮資料的電腦的傳輸速度。
 
-`Auto` 使用由獨立JPEG庫計算並取決於顏色模型的掃描設定。 的值 `3`， `4`， `5` 對應至將JPEG檔案儲存為pjpeg (漸進式JPEG)時，在Adobe Photoshop中找到的「掃描」設定。
+`Auto` 使用由獨立JPEG庫計算並取決於顏色模型的掃描設定。 的值 `3`， `4`， `5` 對應至將JPEG檔案儲存為pjpeg (漸進式JPEG)時Adobe Photoshop中的「掃描」設定。
 
 若 `pscan` 未設定，其預設值為 `auto`.
 

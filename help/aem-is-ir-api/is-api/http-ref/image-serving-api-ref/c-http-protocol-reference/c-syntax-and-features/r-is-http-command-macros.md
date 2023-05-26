@@ -37,7 +37,7 @@ ht-degree: 1%
 
 ## 範例 {#section-2f73d36ac8d64254a03bae5afeae2fb9}
 
-如果要將相同的屬性套用到不同的影像，巨集就很有用。
+如果要將相同的屬性套用至不同的影像，巨集就很有用。
 
 `http://server/cat/1345?wid=240&fmt=jpeg&qlt=85&op_usm=5,2&bgc=200,200,200&align=-1,-1 http://server/cat/1435?wid=240&fmt=jpeg&qlt=85&op_usm=5,2&bgc=200,200,200&align=-1,-1 http://server/cat/8243?wid=480&fmt=jpeg&qlt=85&op_usm=5,2&bgc=200,200,200&align=-1,-1`
 

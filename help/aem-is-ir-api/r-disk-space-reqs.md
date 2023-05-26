@@ -47,7 +47,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <p><b>影像伺服器暫存檔</b> </p> <p> <span class="filepath"> <span class="varname"> install_folder </span>/temp </span> </p> <p> <span class="codeph"> IS：：TempDirectory </span> </p> <p> <span class="codeph"> SV：：TempDirectory </span> </p> </td> 
-   <td> <p>100 MB足以滿足大部分的使用需求。 </p> </td> 
+   <td> <p>100 MB足以應付大部分的使用需求。 </p> </td> 
    <td> <p>短期資料；可能需要PTIFF以外的來源影像和某些回應影像格式。 </p> </td> 
   </tr> 
  </tbody> 
