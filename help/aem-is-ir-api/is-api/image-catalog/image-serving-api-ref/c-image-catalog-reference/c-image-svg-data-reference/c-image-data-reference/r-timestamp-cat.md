@@ -1,13 +1,13 @@
 ---
-description: 時間戳記
-solution: Experience Manager
 title: 時間戳記
+description: 如果設定「attribute：：UseLastModified」，則「catalog：：TimeStamp」值會在HTTP回應中傳回為Last-Modified HTTP標頭。
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 5532b182-cc8c-4a51-844f-e70c758f80a1
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: c1a4dad7888d31e0b78f0fc5091700ad8104e685
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '211'
 ht-degree: 1%
 
 ---

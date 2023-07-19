@@ -1,20 +1,20 @@
 ---
-description: Id
-solution: Experience Manager
 title: Id
+description: 通常是一個簡短且唯一的識別碼，例如SKU編號，可能帶有某種尾碼，例如SKU有多個影像或地區設定特有的變化。
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d7b37180-cc93-41cd-bf14-5c262b046fbc
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c1a4dad7888d31e0b78f0fc5091700ad8104e685
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 4%
+source-wordcount: '191'
+ht-degree: 3%
 
 ---
 
 # Id{#id}
 
-通常是簡短且唯一的識別碼（例如SKU編號），可能帶有某種尾碼，例如SKU具有多個影像或地區設定特有的變數。 也可能是更複雜的字串，看起來更像檔案路徑，以支援透過影像伺服輕鬆更新網站。
+通常是一個簡短且唯一的識別碼，例如SKU編號，可能帶有某種尾碼，例如SKU有多個影像或地區設定特有的變化。 也可能是更複雜的字串，看起來更像檔案路徑，以支援透過影像伺服輕鬆更新網站。
 
 >[!NOTE]
 >

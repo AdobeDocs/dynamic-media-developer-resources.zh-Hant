@@ -1,14 +1,14 @@
 ---
-description: 路徑
-solution: Experience Manager
 title: 路徑
+description: 伺服器會使用路徑解析規則來尋找資料檔案。
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9f273f32-1699-4bc3-8dd0-f1dfefaa6e27
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c1a4dad7888d31e0b78f0fc5091700ad8104e685
 workflow-type: tm+mt
-source-wordcount: '129'
-ht-degree: 5%
+source-wordcount: '140'
+ht-degree: 4%
 
 ---
 
