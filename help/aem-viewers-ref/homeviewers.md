@@ -1,8 +1,10 @@
 ---
 title: AdobeDynamic Media檢視器參考指南
 description: AdobeDynamic Media檢視器參考指南，適用於基本縮放、ecatalog、縮放、ecatalog搜尋、彈出式選單、內嵌縮放、混合媒體、迴轉、視訊、輪播、維度、互動式視訊、互動式影像和Video 360檢視器。
+feature: Dynamic Media Classic,Viewers,SDK/API
+role: Developer,User
 exl-id: ad8ef5f3-684a-49e9-a21e-ececd8d3af5f
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: c8f75aa2a2f6b9960b035788c12242c1d6209640
 workflow-type: tm+mt
 source-wordcount: '77'
 ht-degree: 0%
