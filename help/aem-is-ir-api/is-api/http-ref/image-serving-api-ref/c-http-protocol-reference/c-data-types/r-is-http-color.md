@@ -5,10 +5,10 @@ title: 色彩
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: eba88ff0-877d-432e-bbd6-9172f5b460e9
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 2ff380ad30911a85bc066ae53f0cb69360ed99e4
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 14%
+source-wordcount: '439'
+ht-degree: 13%
 
 ---
 
@@ -19,15 +19,15 @@ ht-degree: 14%
 <table id="simpletable_9EBE66066E854ABE978F8F7ADC66BDE3"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> 顏色</span> </span> </p></td> 
-  <td class="stentry"> <p> <span class="codeph">{{<span class="varname"> 灰色</span>[，<span class="varname"> alpha</span>][g]}|</span> </p> <p> <span class="codeph"> {<span class="varname"> 紅色</span>，<span class="varname"> 綠色</span>，<span class="varname"> 藍色</span>[ ，<span class="varname"> rgbAlpha</span>][r]}|</span> </p> <p> <span class="codeph"> {<span class="varname"> 青色</span>， <span class="varname"> 洋紅色</span>， <span class="varname"> 黃色</span>， <span class="varname"> 黑色</span>[，alpha]k}|</span> </p> <p> <span class="codeph"> {0x{hex2|hex4}[g]}|</span> </p> <p> <span class="codeph">{[0x]{<span class="varname"> 十六進位6</span>|<span class="varname"> 十六進位8</span>}[r]}|</span> </p> <p> <span class="codeph"> {[0x]{<span class="varname"> 十六進位8</span>|<span class="varname"> 十六進位10</span>}k}}[s]</span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph">&amp;lcub；&amp;lcub；<span class="varname"> 灰色</span>[，<span class="varname"> alpha</span>][g]&amp;rcub；|</span> </p> <p> <span class="codeph"> {<span class="varname"> 紅色</span>，<span class="varname"> 綠色</span>，<span class="varname"> 藍色</span>[ ，<span class="varname"> rgbAlpha</span>][r]}|</span> </p> <p> <span class="codeph"> {<span class="varname"> 青色</span>， <span class="varname"> 洋紅色</span>， <span class="varname"> 黃色</span>， <span class="varname"> 黑色</span>[，alpha]k}|</span> </p> <p> <span class="codeph"> {0x{hex2|hex4}[g]}|</span> </p> <p> <span class="codeph">{[0x]{<span class="varname"> 十六進位6</span>|<span class="varname"> 十六進位8</span>}[r]}|</span> </p> <p> <span class="codeph"> {[0x]{<span class="varname"> 十六進位8</span>|<span class="varname"> 十六進位</span>}k}&amp;rcub；[s]</span> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> 紅色</span>， <span class="varname"> 綠色</span>， <span class="varname"> 藍色</span>， <span class="varname"> rgbAlpha</span></span> </p> </td> 
-  <td class="stentry"> <p>色彩元件值（0到255，十進位整數） </p> </td> 
+  <td class="stentry"> <p>色彩元件值（0到255，十進位int） </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> 青色</span>， <span class="varname"> 洋紅色</span>， <span class="varname"> 黃色</span>， <span class="varname"> 黑色</span>， <span class="varname"> alpha</span></span> </p></td> 
-  <td class="stentry"> <p>CMYK色彩元件值（0..100 %，十進位整數） </p></td> 
+  <td class="stentry"> <p>CMYK色彩元件值（0..100 %，十進位int） </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> 灰色</span>， <span class="varname"> alpha</span></span> </p> </td> 
@@ -35,37 +35,37 @@ ht-degree: 14%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> hex2</span> </span> </p></td> 
-  <td class="stentry"> <p>壓縮後的雙位數十六進位灰階色彩值(GG) </p></td> 
+  <td class="stentry"> <p>壓縮的兩位數十六進位灰色值(GG) </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> hex4</span> </span> </p> </td> 
-  <td class="stentry"> <p>以Alpha色彩值填滿四位數的十六進位灰色(GGAA) </p> </td> 
+  <td class="stentry"> <p>以Alpha色彩值壓縮四位數的十六進位灰色(GGAA) </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> hex6</span> </span> </p> </td> 
-  <td class="stentry"> <p>壓縮六位數的十六進位RGB色彩值(RRGGBB) </p></td> 
+  <td class="stentry"> <p>壓縮的六位十六進位RGB色彩值(RRGGBB) </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> hex8</span> </span> </p> </td> 
-  <td class="stentry"> <p>壓縮八位數的十六進位RGBA (RRGGBBAA)或CMYK (CCMMYKK)色彩值（若以'k'尾碼指定） </p></td> 
+  <td class="stentry"> <p>已封裝八位數的十六進位RGBA (RRGGBBAA)或CMYK (CCMMYKK)色彩值（若以'k'尾碼指定） </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> hex10</span> </span> </p></td> 
-  <td class="stentry"> <p>以Alpha值填入十位數的十六進位CMYK (CCYYMMKKAA) </p> </td> 
+  <td class="stentry"> <p>以Alpha值封裝10位數的十六進位CMYK (CCYYMMKKAA) </p> </td> 
  </tr> 
 </table>
 
-RGB顏色的十進位元件值在0到255的範圍內。 CMYK和灰度的十進位元件值在0..100%範圍內。 所有十六進位元件值都在範圍0...0xFF內。
+RGB顏色的小數元件值在0到255的範圍內。 CMYK和灰度的十進位元件值在0..100%範圍內。 所有十六進位元件值都在0到0的範圍內。
 
-假設顏色元件值與Alpha值無關（不是預先乘法）。
+假設顏色元件值與Alpha值無關（不是預乘）。
 
-所有顏色值、首碼和字尾均不區分大小寫。
+所有色彩值、首碼和尾碼均不區分大小寫。
 
-CMYK色彩值需要型別字尾&#39;k&#39;。 可以選擇為RGB和灰色的值指定型別字尾。
+CMYK色彩值需要型別字尾&#39;k&#39;。 您可以選擇為RGB和灰色的值指定型別字尾。
 
 十六進位灰色的值需要前置詞&#39;0x&#39;。
 
-「s」字尾指定色彩值與對應至色彩值畫素型別的輸入（來源）色域相關聯(定義為 `attribute::IccProfileSrc*`)。 如果此字尾不存在，則顏色值與輸出（目的地）色域相關聯(定義為 `icc=` 或 `attribute::IccProfile*`)。
+「s」字尾指定色彩值與對應至色彩值畫素型別的輸入（來源）色域相關聯(定義為 `attribute::IccProfileSrc*`)。 如果此尾碼不存在，則顏色值與輸出（目的地）色域相關聯(定義為 `icc=` 或 `attribute::IccProfile*`)。
 
 ## 預設 {#section-737082a7da544acca8092a48d88480e7}
 
@@ -73,7 +73,7 @@ CMYK色彩值需要型別字尾&#39;k&#39;。 可以選擇為RGB和灰色的值�
 
 ## 範例 {#section-4ac69026349949f8b595a6d4a9ce474d}
 
-一些有效的色彩指定符號範例及其對應的畫素型別、色彩值、Alpha值和預設色域：
+有效色彩指定符號及其對應畫素型別、色彩值、Alpha值和預設色域的部分範例：
 
 <table id="table_1539E74A1EC545F1B5398D86A27079D1"> 
  <thead> 
@@ -173,4 +173,4 @@ CMYK色彩值需要型別字尾&#39;k&#39;。 可以選擇為RGB和灰色的值�
  </tbody> 
 </table>
 
-指定的輸出色域 `icc=` 當輸出顏色的畫素型別對應到輸出影像的畫素型別時，會套用取代預設色彩空間。
+指定的輸出色域 `icc=` 當輸出色彩的畫素型別對應至輸出影像的畫素型別時，會套用而非預設色域。
