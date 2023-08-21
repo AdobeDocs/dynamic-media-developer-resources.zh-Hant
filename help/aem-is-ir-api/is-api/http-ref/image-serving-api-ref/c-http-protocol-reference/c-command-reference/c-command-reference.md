@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 959cb193-d0b7-4aa9-a747-fa17484f80c7
-source-git-commit: 187de979d7d1f7ce92b7b4c8b7661a787ab6889f
+source-git-commit: 347aa2f52bc6433043ba65fc75fe9f7f221e6aa3
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '324'
 ht-degree: 6%
 
 ---
@@ -25,10 +25,10 @@ ht-degree: 6%
 >* 網路頻寬
 >* DPR （裝置畫素比率）
 >
->若要瞭解使用快照的簡單程度，請播放 [快照訓練影片](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=en) （3分17秒）。
+>若要瞭解使用Snapshot的簡易性，請播放 [快照訓練影片](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=en) （3分17秒）。
 
 
-**僅適用於Adobe Experience Manager中的Dynamic Media**  — 除了使用者介面中可用的基本影像設定外， [!DNL Dynamic Media] 在AEM ( [!DNL Adobe Experience Manager])支援許多進階影像修改，您可在 **影像修飾元** 欄位。 這些引數定義如下。 但請注意，AEM的Dynamic Media不支援下列功能。
+**僅適用於Adobe Experience Manager中的Dynamic Media**  — 除了使用者介面提供的基本影像設定外， [!DNL Dynamic Media] 在AEM中( [!DNL Adobe Experience Manager])支援多項進階影像修改，您可在 **影像修飾元** 欄位。 這些引數定義如下。 但是請注意，在AEM的Dynamic Media中不支援下列功能。
 
 * 色彩校正指令： `icc=` 和 `iccEmbed=`.
 * 基本範本和文字演算指令： `text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=` 和 `textPs=`.
@@ -57,6 +57,7 @@ ht-degree: 6%
 * [裁切](r-crop.md)
 * [cropPathE](r-croppath.md)
 * [預設影像](r-is-http-defaultimage.md)
+* [dpr](r-dpr.md)
 * [效果](r-effect.md)
 * [effectMask](r-effectmask.md)
 * [延伸](r-extend.md)
@@ -75,6 +76,7 @@ ht-degree: 6%
 * [地圖](r-map.md)
 * [遮色片](r-mask.md)
 * [遮色片使用](r-maskuse.md)
+* [網路](r-network.md)
 * [op_blur](r-op-blur.md)
 * [op_brightness](r-op-brightness.md)
 * [op_colorbalance](r-op-colorbalance.md)
