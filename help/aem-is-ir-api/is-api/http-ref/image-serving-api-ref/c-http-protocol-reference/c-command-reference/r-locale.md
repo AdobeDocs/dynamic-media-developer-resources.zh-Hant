@@ -1,11 +1,11 @@
 ---
+title: 地區設定
 description: 翻譯地區設定Id。 指定要求的地區設定ID。
 solution: Experience Manager
-title: 地區設定
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d937dfa5-95dd-49fd-ac23-e77e07b0642c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 4%
@@ -21,7 +21,7 @@ ht-degree: 4%
 <table id="simpletable_C1899AD02C984ED3896B7620916637E7"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> locId</span></span> </p> </td> 
-  <td class="stentry"> <p>地區設定ID （字串）。 </p></td> 
+  <td class="stentry"> <p>地區ID （字串）。 </p></td> 
  </tr> 
 </table>
 
@@ -29,7 +29,7 @@ ht-degree: 4%
 
 ## 屬性 {#section-1854a9902b884d9b8e8e713b6635723f}
 
-要求命令。 套用至整個請求，包括巢狀/內嵌請求，無論其指定的位置為何。 `locId` 只能包含可列印的ASCII字元。 若未在此請求的主目錄中定義本地化地圖，則忽略。 如果為空白或無效，則會傳回錯誤 `locId` 「 」已指定，但未定義預設規則 `attribute::DefaultLocale`.
+要求命令。 套用至整個請求，包括巢狀/內嵌請求，無論其指定的位置為何。 `locId` 只能包含可列印的ASCII字元。 若未在此要求的主目錄中定義本地化地圖，則忽略。 如果空白或無效，則會傳回錯誤 `locId` 已指定，且未定義任何預設規則 `attribute::DefaultLocale`.
 
 ## 預設 {#section-9699fbc26de6453e9029e0003c79a7ef}
 

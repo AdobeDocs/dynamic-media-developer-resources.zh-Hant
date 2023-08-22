@@ -1,11 +1,11 @@
 ---
+title: op_colorbalance
 description: 調整色彩平衡。 分別調整每個RGB色彩元件的值。
 solution: Experience Manager
-title: op_colorbalance
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 93476778-97b0-4ad5-b22a-093239e845f0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 1%
@@ -33,7 +33,7 @@ ht-degree: 1%
  </tr> 
 </table>
 
-灰階和CMYK輸入影像資料會使用簡單轉換轉換為RGB，這在啟用色彩管理時是不準確的。
+灰階和CMYK輸入影像資料會使用原始轉換轉換轉換為RGB，這在啟用色彩管理時是不準確的。
 
 ## 屬性 {#section-dff9c934f7c1442bbd02379b688d82e2}
 

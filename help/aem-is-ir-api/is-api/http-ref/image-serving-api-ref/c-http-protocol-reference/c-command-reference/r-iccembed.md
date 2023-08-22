@@ -1,11 +1,11 @@
 ---
-description: 內嵌色彩設定檔。 指定是否應在回覆影像中內嵌作用中的ICC色彩設定檔或以icc=指定的設定檔。
-solution: Experience Manager
 title: iccEmbed
+description: 內嵌色彩設定檔。 指定回覆影像中應該嵌入正在運作的ICC色彩設定檔，或是以icc=指定的設定檔。
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: bc5637f6-5452-4bfb-bf30-def6f153f4ad
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '92'
 ht-degree: 3%
@@ -14,13 +14,13 @@ ht-degree: 3%
 
 # iccEmbed{#iccembed}
 
-內嵌色彩設定檔。 指定是否應在回覆影像中內嵌作用中的ICC色彩設定檔或以icc=指定的設定檔。
+內嵌色彩設定檔。 指定回覆影像中應該嵌入正在運作的ICC色彩設定檔，或是以icc=指定的設定檔。
 
 `iccEmbed=0|1`
 
 ## 屬性 {#section-e36aa3c63a974b969d9e4f43fe5a37ab}
 
-要求屬性。 如果沒有可供嵌入的設定檔，則忽略。
+要求屬性。 如果沒有可供嵌入的設定檔，則會忽略。
 
 ## 預設 {#section-01948f6cd7a2415091004cd7526436c7}
 

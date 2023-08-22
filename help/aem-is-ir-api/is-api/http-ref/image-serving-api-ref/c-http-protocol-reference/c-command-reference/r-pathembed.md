@@ -1,11 +1,11 @@
 ---
+title: pathEmbed
 description: 內嵌路徑資料。 指定回應影像中是否應包含來自0層來源影像檔案的Photoshop路徑。
 solution: Experience Manager
-title: pathEmbed
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: a3b305eb-0313-4c58-bd47-4f87e09d0e0b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 2%
@@ -26,7 +26,7 @@ ht-degree: 2%
 
 ## 限制 {#section-697cddb79a1542bc8457d2f4f59eec69}
 
-目前不支援將開放Photoshop路徑（未形成封閉回圈的路徑）嵌入回應影像。
+目前不支援將開放Photoshop路徑（不構成封閉回圈的路徑）內嵌至回應影像。
 
 ## 預設 {#section-62f113ad71c04517a2741d93319a2b5d}
 

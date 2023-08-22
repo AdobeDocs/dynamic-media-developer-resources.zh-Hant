@@ -1,11 +1,11 @@
 ---
-description: 調整對比。 調整影像對比，增加亮度超過50%的畫素亮度，以及減少亮度低於50%的畫素亮度。
-solution: Experience Manager
 title: op_contrast
+description: 調整對比。 調整影像對比，增加亮度超過50%的畫素的亮度，以及減少亮度低於50%的畫素的亮度。
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0216f22e-a3b3-4dda-89c2-9c6c2c81cab3
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 1%
@@ -14,14 +14,14 @@ ht-degree: 1%
 
 # op_contrast{#op-contrast}
 
-調整對比。 調整影像對比，增加亮度超過50%的畫素亮度，以及減少亮度低於50%的畫素亮度。
+調整對比。 調整影像對比，增加亮度超過50%的畫素的亮度，以及減少亮度低於50%的畫素的亮度。
 
-`op_contrast= *`adj`*`
+`op_contrast= *`調整`*`
 
 <table id="simpletable_8246802C74424A68A7A2EA5B50A89D42"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> adj</span> </p> </td> 
-  <td class="stentry"> <p>百分比對比調整（–100...100位元整數）。 </p></td> 
+  <td class="stentry"> <p><span class="varname"> 調整</span> </p> </td> 
+  <td class="stentry"> <p>百分比對比調整(-100...100 int)。 </p></td> 
  </tr> 
 </table>
 
@@ -35,7 +35,7 @@ ht-degree: 1%
 
 ## 範例 {#section-94bc4348b4bc4f0e9768ea1c45ca8340}
 
-降低較高品質影像層的對比度和銳利度，以視覺上比對低品質的背景像片：
+降低較高品質影像圖層的對比度和銳利度，以視覺化方式搭配低品質的背景像片：
 
 … `&op_blur=3&op_contrast=-12&`
 

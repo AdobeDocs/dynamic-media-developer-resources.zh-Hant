@@ -1,11 +1,11 @@
 ---
+title: 剪裁路徑
 description: 圖層剪裁路徑。 指定目前圖層的剪裁路徑。
 solution: Experience Manager
-title: 剪裁路徑
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 86c87cd1-6e08-40cb-80e6-35a9f49b6572
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 0%
@@ -27,31 +27,31 @@ ht-degree: 0%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> pathName</span></span> </p> </td> 
-  <td class="stentry"> <p>內嵌在圖層來源影像中的路徑名稱（僅限ASCII）。 </p></td> 
+  <td class="stentry"> <p>嵌入圖層來源影像中的路徑名稱（僅限ASCII）。 </p></td> 
  </tr> 
 </table>
 
-落在定義區域之外的圖層任何部分 `clipPath=` 呈現為透明。
+落在所定義區域之外的圖層任何部分 `clipPath=` 呈現為透明。
 
-`*`pathName`*` 是內嵌在圖層來源影像中的路徑名稱。 路徑會自動轉換，以保持與影像內容相對對齊。 如果超過一個 `*`pathName`*` 指定，伺服器會將影像裁剪成這些路徑的交集。 任何 `*`pathName`*` 在來源影像中找不到，則會被忽略。
+`*`pathName`*` 是內嵌在圖層來源影像中的路徑名稱。 路徑會自動轉換，以維持與影像內容相對的對齊。 如果超過一個 `*`pathName`*` 指定後，伺服器會將影像裁剪到這些路徑的交集。 任何 `*`pathName`*` 在來源影像中找不到，會忽略。
 
 >[!NOTE]
 >
 >僅支援ASCII字串 `*`pathName`*`.
 
-`*`pathDefinition`*` 允許指定圖層畫素座標中的明確路徑資料。
+`*`pathDefinition`*` 允許以圖層畫素座標指定明確的路徑資料。
 
-若 `size=` 指定而非0,0，則會使圖層維持原狀。 在這種情況下，路徑座標會相對於圖層矩形的左上角，而圖層會根據 `origin=` 或其預設值。 圖層矩形之外的任何路徑區域都會保持透明。
+如果 `size=` 指定且非0,0，則會使圖層成為持久層。 在此情況下，路徑座標會相對於圖層矩形的左上角，而圖層會根據下列基準放置 `origin=` 或其預設值。 圖層矩形之外的任何路徑區域都會保持透明。
 
-若 `size=` 未指定純色或文字圖層，會將該圖層視為自行調整大小，而路徑範圍會決定其大小。 若 `origin=` 未指定，其預設值為路徑座標空間的(0,0)。 這實際上允許指定相對於圖層0原點的路徑座標。
+如果 `size=` 未指定純色或文字圖層，會根據路徑範圍決定圖層大小，將圖層視為自行調整大小。 如果 `origin=` 未指定，其預設值為路徑座標空間的(0,0)。 這實際上允許指定相對於圖層0原點的路徑座標。
 
 >[!NOTE]
 >
->`scale=`， `rotate=`、和 `anchor=` 不允許指令用於自行調整大小的純色圖層。
+>`scale=`， `rotate=`、和 `anchor=` 不允許指令用於自動調整純色圖層。
 
-`*`pathDefinition`*` 接受字串，其值類似於 `d=` SVG的屬性 `<path>` 元素，但使用逗號而非空格來分隔值。 `*`pathDefinition`*` 可包含一或多個封閉回圈子路徑。
+`*`pathDefinition`*` 接受類似於 `d=` SVG的屬性 `<path>` 元素，但會使用逗號來分隔值，而非空格。 `*`pathDefinition`*` 可包含一或多個封閉回圈子路徑。
 
-下列路徑命令受到支援： `*`pathDefinition`*`：
+下列路徑命令受到支援 `*`pathDefinition`*`：
 
 <table id="table_A74DD7A48B1C417D9D4BA46BECEAB981"> 
  <thead> 
@@ -78,12 +78,12 @@ ht-degree: 0%
   </tr> 
   <tr valign="top"> 
    <td> <b> l</b> *{<span class="varname"> x，y</span>} </td> 
-   <td> <p> 相對行數 </p> </td> 
+   <td> <p> 相對線條 </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <b> C</b> *{<span class="varname"> x1，y1，x2，y2，x，y</span>} </td> 
    <td> <p> curveto absolute </p> </td> 
-   <td> <p> 從目前位置繪製一條貝茲曲線到x，y。 x1，y1是曲線起始的控制點，x2，y2是曲線結束的控制點。 </p> </td> 
+   <td> <p> 從目前位置繪製貝茲曲線到x，y。x1，y1是曲線開始的控制點，x2，y2是曲線結束的控制點。 </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <b> c</b> *{<span class="varname"> x1，y1，x2，y2，x，y</span>} </td> 
@@ -92,16 +92,16 @@ ht-degree: 0%
   <tr valign="top"> 
    <td> <b> Z</b> | <b>z</b> </td> 
    <td> <p> closepath </p> </td> 
-   <td> <p> 以直線封閉目前的子路徑。 </p> </td> 
+   <td> <p> 用直線封閉目前的子路徑。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-大寫指令表示座標值位於絕對畫素位置（相對於圖層矩形左上角）。 相對於目前位置，畫素位移會遵循小寫指令。
+大寫指令表示座標值位於絕對畫素位置（相對於圖層矩形左上角）。 相對於目前位置，畫素位移會跟隨小寫指令。
 
-&#39;m&#39;或&#39;M&#39;一律會起始新的子路徑。 如果未在結尾指定&#39;Z&#39;或&#39;z&#39;，則會自動關閉子路徑（使用直線）。
+&#39;M&#39;或&#39;M&#39;一律會開始新的子路徑。 如果未在結尾指定&#39;Z&#39;或&#39;z&#39;，則會自動關閉子路徑（使用直線）。
 
-如果子路徑以相對移動量(&#39;m&#39;)開頭，則為相對於下列其中一個移動量：
+如果子路徑以相對移動(&#39;m&#39;)開頭，則為相對於下列其中一項的路徑：
 
 * 上一個子路徑的起點（如果以「z」或「Z」關閉）。
 * 前一個子路徑的終點（如果未明確關閉）。
@@ -115,7 +115,7 @@ ht-degree: 0%
 
 ## 預設 {#section-076c35ea37fa4a44ada253b4c2dec1dd}
 
-「無」，則不會額外剪裁圖層。
+「無」，表示沒有額外的圖層剪裁。
 
 ## 另請參閱 {#section-dd8110fb6f5c45eba6284c5ec5f49056}
 

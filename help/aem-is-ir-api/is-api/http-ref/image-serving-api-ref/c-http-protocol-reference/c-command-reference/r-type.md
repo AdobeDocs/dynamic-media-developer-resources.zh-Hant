@@ -1,11 +1,11 @@
 ---
-description: 靜態內容型別篩選器。 為透過/is/content傳遞的靜態內容指定篩選字串。
-solution: Experience Manager
 title: type
+description: 靜態內容型別篩選器。 指定透過/is/content傳遞的靜態內容的篩選字串。
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9015d5f4-e42c-43e0-af85-fc9c278448e7
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 4%
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # type{#type}
 
-靜態內容型別篩選器。 為透過/is/content傳遞的靜態內容指定篩選字串。
+靜態內容型別篩選器。 指定透過/is/content傳遞的靜態內容的篩選字串。
 
 `type= *`val`*`
 
@@ -25,7 +25,7 @@ ht-degree: 4%
  </tr> 
 </table>
 
-伺服器會將值與的值比較 `catalog::Type` 靜態內容專案的ID。 如果值相符（區分大小寫），則會傳回專案給使用者端，否則會傳回錯誤。
+伺服器會將值與的值比較 `catalog::Type` 的靜態內容專案。 如果值相符（區分大小寫），則會傳回專案給使用者端，否則會傳回錯誤。
 
 ## 屬性 {#section-529b088434a44a9f86a64ef548d2925b}
 
@@ -33,7 +33,7 @@ ht-degree: 4%
 
 ## 預設 {#section-e9e8f51d0a01452183ccb510efd87d46}
 
-如果符合下列條件，則不會套用任何型別比對 `type=` 未指定或空白。
+若符合下列條件，則不會套用任何型別比對 `type=` 未指定或空白。
 
 ## 另請參閱 {#section-da60777a46a74f1bbfa5b2f3b240eb0f}
 

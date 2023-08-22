@@ -1,11 +1,11 @@
 ---
-description: Jpeg大小（以KB為單位）。 指定JPEG回應的最大大小（以KB為單位）。
-solution: Experience Manager
 title: jpegSize
+description: Jpeg大小（以KB為單位）。 指定JPEG回應的大小上限（以KB為單位）。
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 08cecb09-100f-4671-b335-d59c88b0e1ef
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 3%
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # jpegSize{#jpegsize}
 
-Jpeg大小（以KB為單位）。 指定JPEG回應的最大大小（以KB為單位）。
+Jpeg大小（以KB為單位）。 指定JPEG回應的大小上限（以KB為單位）。
 
 `jpegSize= *`大小`*`
 
@@ -25,7 +25,7 @@ Jpeg大小（以KB為單位）。 指定JPEG回應的最大大小（以KB為單�
  </tr> 
 </table>
 
-如果將此值設為正值，而且具有指定JPEG品質的JPEG回應未超過此值，則會傳回該影像作為回應。 否則，JPEG品質會降低，直到產生符合指定大小的影像或確定它無法符合為止。 在後一種情況下，要求會失敗並出現錯誤。
+如果將此值設為正值，而且具有指定JPEG品質的JPEG回應未超過此值，則會傳回該影像作為回應。 否則，JPEG品質會降低，直到產生符合指定大小的影像，或直到它判斷不符合大小為止。 在後一種情況下，請求會失敗並出現錯誤。
 
 0值表示回應不受大小限制。
 
@@ -33,7 +33,7 @@ Jpeg大小（以KB為單位）。 指定JPEG回應的最大大小（以KB為單�
 
 ## 屬性 {#section-19e544e77d35478b98fe8666f27d6968}
 
-要求屬性。 無論目前的圖層設定為何，均適用。 如果輸出影像格式不是JPEG，則忽略。
+要求屬性。 不論目前的圖層設定為何，皆適用。 如果輸出影像格式不是JPEG，則忽略。
 
 ## 預設 {#section-198b798ed187453197e0969c641d6fb5}
 

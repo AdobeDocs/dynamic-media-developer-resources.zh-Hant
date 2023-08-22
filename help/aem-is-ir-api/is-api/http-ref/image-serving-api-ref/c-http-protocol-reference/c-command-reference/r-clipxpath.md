@@ -1,11 +1,11 @@
 ---
-description: 反轉的圖層剪裁路徑。 指定目前圖層的排除剪裁路徑。 在clipXPath=所定義區域內的任何圖層部分都會呈現為透明。
-solution: Experience Manager
 title: clipXPath
+description: 反轉的圖層剪裁路徑。 指定目前圖層的排除剪裁路徑。 圖層中，位於clipXPath=所定義區域內的任何部分都會呈現為透明。
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7d7e92f5-856f-4d62-a5d3-4726d7b43792
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 3%
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # clipXPath{#clipxpath}
 
-反轉的圖層剪裁路徑。 指定目前圖層的排除剪裁路徑。 在clipXPath=所定義區域內的任何圖層部分都會呈現為透明。
+反轉的圖層剪裁路徑。 指定目前圖層的排除剪裁路徑。 圖層中，位於clipXPath=所定義區域內的任何部分都會呈現為透明。
 
 `clipXPath= *`pathDefinition`*`
 
@@ -27,11 +27,11 @@ ht-degree: 3%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> pathName</span> </span> </p> </td> 
-  <td class="stentry"> <p>內嵌在圖層來源影像中的路徑名稱（僅限ASCII）。 </p></td> 
+  <td class="stentry"> <p>嵌入圖層來源影像中的路徑名稱（僅限ASCII）。 </p></td> 
  </tr> 
 </table>
 
-另請參閱 [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d) 以取得其他資訊，包括 `*`pathName`*` 和 `*`pathDefinition`*`.
+另請參閱 [剪裁路徑=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d) 以取得其他資訊，包括 `*`pathName`*` 和 `*`pathDefinition`*`.
 
 ## 屬性 {#section-acf7272ba93a4bbba818b8e6aa4dcea5}
 
@@ -43,4 +43,4 @@ ht-degree: 3%
 
 ## 另請參閱 {#section-a60f6e37ebf14e458519fcc4d2cc911d}
 
-[clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)
+[剪裁路徑=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)

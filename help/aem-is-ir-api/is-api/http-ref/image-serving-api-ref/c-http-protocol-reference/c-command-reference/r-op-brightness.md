@@ -1,11 +1,11 @@
 ---
+title: op_brightness
 description: 調整亮度。 減少或增加影像亮度。
 solution: Experience Manager
-title: op_brightness
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 390ed812-87ae-41e7-8021-65dd95915ae8
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 2%
@@ -16,11 +16,11 @@ ht-degree: 2%
 
 調整亮度。 減少或增加影像亮度。
 
-`op_brightness= *`adj`*`
+`op_brightness= *`調整`*`
 
 <table id="simpletable_2B5DB95B1FF044C8BD226D4F8311E806"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> adj</span> </p> </td> 
+  <td class="stentry"> <p><span class="varname"> 調整</span> </p> </td> 
   <td class="stentry"> <p>亮度調整(-100...+100 int)。 </p></td> 
  </tr> 
 </table>

@@ -1,11 +1,11 @@
 ---
-description: 新增雜訊。 將隨機雜訊新增至前景影像資料或效果圖層的前景。
-solution: Experience Manager
 title: op_noise
+description: 加入雜訊。 將隨機雜訊加入前景影像資料中，或加入效果圖層的前景中。
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: eeadd3ab-80ff-4f9b-b5b7-4f3da6feebde
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '91'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # op_noise{#op-noise}
 
-新增雜訊。 將隨機雜訊新增至前景影像資料或效果圖層的前景。
+加入雜訊。 將隨機雜訊加入前景影像資料中，或加入效果圖層的前景中。
 
 `op_noise= *`val`*[,uniform|gaussian[, *`單色`*]]`
 
@@ -22,7 +22,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> val</span> </p> </td> 
-   <td colname="col2"> <p>雜訊量，以百分比表示（0到100位元整數）。 </p> </td> 
+   <td colname="col2"> <p>雜訊量，以百分比表示(0...100 int)。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 色彩一致</span> </p> </td> 
@@ -39,7 +39,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-*`monochrome`* 會略過灰階影像。
+*`monochrome`* 會忽略灰階影像。
 
 ## 屬性 {#section-1f1a64c791f545a3bf1abd0b0e575d87}
 
@@ -47,4 +47,4 @@ ht-degree: 1%
 
 ## 預設 {#section-d548868fa4b64a60bcb481cad1f8113e}
 
-`op_noise=0,uniform,0`，表示沒有雜訊。
+`op_noise=0,uniform,0`，不會產生雜訊。
