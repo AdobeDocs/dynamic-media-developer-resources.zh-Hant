@@ -4,9 +4,9 @@ description: 裝置畫素比率(DPR)&mdash；也稱為CSS畫素比率&mdash；�
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
-source-git-commit: 21d6aed6baee24922732461fe680f6cc93bd0d06
+source-git-commit: a6e0db8238ba5f2209089c6eda7b42c42f66b25f
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '323'
 ht-degree: 2%
 
 ---
@@ -48,7 +48,7 @@ DPR值是根據偵測到的套件式CDN使用者端值。 這些值有時不準�
 
 ## 屬性
 
-
+要求屬性。 若符合下列條件，則沒有任何效果： `dpr` 為關閉或 `dprValue=1`.
 
 ## 預設
 

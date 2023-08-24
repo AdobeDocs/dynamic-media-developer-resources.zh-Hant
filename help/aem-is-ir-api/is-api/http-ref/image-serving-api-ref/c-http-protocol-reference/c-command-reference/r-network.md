@@ -4,10 +4,10 @@ description: 瞭解如何使用網路頻寬最佳化，根據實際網路頻寬�
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
-source-git-commit: 96b60fd5f6e3550993cd7640138df4c9bbf6b955
+source-git-commit: a6e0db8238ba5f2209089c6eda7b42c42f66b25f
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 4%
+source-wordcount: '157'
+ht-degree: 3%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 4%
 
 ## 屬性
 
-
+要求屬性。 如果網路狀況良好，則不會有任何效果。
 
 ## 預設
 
