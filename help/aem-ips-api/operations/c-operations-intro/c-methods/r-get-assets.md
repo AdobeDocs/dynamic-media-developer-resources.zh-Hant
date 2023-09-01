@@ -1,20 +1,20 @@
 ---
-description: 從IPS傳回資產。
-solution: Experience Manager
 title: getAssets
+description: 從影像生產系統(IPS)傳回資產。
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 3b63da9c-f10a-40bf-8e3c-4f0bfc53d74c
-source-git-commit: e7370f699fea8a2c248a33ebc8925d98231e6b26
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 21%
+source-wordcount: '131'
+ht-degree: 19%
 
 ---
 
 # getAssets{#getassets}
 
-從IPS傳回資產。
+從影像生產系統(IPS)傳回資產。
 
 語法
 
@@ -52,7 +52,7 @@ ht-degree: 21%
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>公司控點。 </p> </td> 
+   <td colname="col4"> <p>公司控制代碼。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> accessUserHandle</span> </span> </p> </td> 
@@ -70,7 +70,7 @@ ht-degree: 21%
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd：HandleArray</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>根資料夾，可擷取葉層級的資料夾和所有子資料夾。 如果排除，則使用公司根目錄。 </p> </td> 
+   <td colname="col4"> <p>根資料夾以擷取資料夾及葉層級的所有子資料夾。 如果排除，則會使用公司根目錄。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </p> </td> 

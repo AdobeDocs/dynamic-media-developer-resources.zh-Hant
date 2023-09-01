@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8be7be8c-a23d-4a5b-93e4-44231155616b
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '279'
 ht-degree: 3%
 
 ---
@@ -37,15 +37,15 @@ ht-degree: 3%
  </tr> 
 </table>
 
-*`object`* 指定與正在處理的設定檔不同時，影像要轉換到的輸出色域設定檔。 *`profile`* 必須為有效的 `icc::Name` 定義於影像目錄或預設目錄的ICC設定檔對映，或設定檔檔案的相對路徑(通常使用 [!DNL .icc] 或 [!DNL .icm] 字尾)。 另請參閱 [*`object`*](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0) 以取得其他資訊。
+值 *`object`* 指定影像與工作設定檔不同時應轉換到的輸出色域設定檔。 值 *`profile`* 必須為有效的 `icc::Name` 定義於影像目錄或預設目錄的ICC設定檔對映，或設定檔檔案的相對路徑(通常使用 [!DNL .icc] 或 [!DNL .icm] 字尾)。 另請參閱 [*`object`*](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0) 以取得其他資訊。
 
 >[!NOTE]
 >
->*`object`* 不可包含&#39;，&#39;字元，即使HTTP編碼亦然。
+>值 *`object`* 不可包含&#39;，&#39;字元，即使HTTP編碼亦然。
 
-*`renderIntent`* 允許覆寫預設的色彩演算比對方式。
+值 *`renderIntent`* 允許覆寫預設的色彩演算比對方式。
 
-*`blackpointComp`* 如果輸出設定檔支援此功能，會啟用黑點補償。
+值 *`blackpointComp`* 如果輸出設定檔支援此功能，會啟用黑點補償。
 
 >[!NOTE]
 >
@@ -53,13 +53,13 @@ ht-degree: 3%
 
 注意
 
-*`dither`* 啟用遞色（實際上是誤差擴散），可避免或減少色階誤差。
+修飾元 *`dither`* 啟用遞色（實際上是誤差擴散），可避免或減少色階誤差。
 
 ## 屬性 {#section-9fcd3e7bd1fd43c887b0f18a2f3c7259}
 
-要求屬性。 如果使用指定影像型別，伺服器將傳回錯誤 `fmt=` 不符的專案 *`profile`*.
+要求屬性。 如果使用指定影像型別，則伺服器會傳回錯誤 `fmt=` 不符的專案 *`profile`*.
 
-*`renderIntent`* 和 *`blackpointComp`* 若與指定的ICC設定檔不相容，則會略過。 CMYK輸出裝置設定檔較有可能支援不同的演算意圖。
+修飾元 *`renderIntent`* 和 *`blackpointComp`* 若與指定的ICC設定檔不相容，則會略過。 CMYK輸出裝置設定檔較有可能支援不同的演算意圖。
 
 ## 預設 {#section-0b9fe2eb428447df8ae9948f11ab5aae}
 

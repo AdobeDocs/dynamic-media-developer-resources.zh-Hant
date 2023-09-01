@@ -1,24 +1,24 @@
 ---
-description: 建立或編輯中繼資料欄位。 省略選用欄位控制代碼以建立新的中繼資料欄位。
-solution: Experience Manager
 title: saveMetadataField
+description: 建立或編輯中繼資料欄位。 省略選用欄位控制代碼以建立中繼資料欄位。
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 56a45324-5027-4375-a790-c965f682e4b9
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '214'
 ht-degree: 16%
 
 ---
 
 # saveMetadataField{#savemetadatafield}
 
-建立或編輯中繼資料欄位。 省略選用欄位控制代碼以建立新的中繼資料欄位。
+建立或編輯中繼資料欄位。 省略選用欄位控制代碼以建立中繼資料欄位。
 
 >[!NOTE]
 >
->此方法已過時。
+>此方法已淘汰。
 
 ## 授權的使用者型別 {#section-0c1cbde0863346f8a31b32fd06ab2926}
 
@@ -72,10 +72,10 @@ ht-degree: 16%
    <td colname="col4"> 中繼資料欄位型別的選擇。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 預設值</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> defaultvalue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 所有資產的欄位預設值。 </td> 
+   <td colname="col4"> 所有資產欄位的預設值。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> ishidden</span> </span> </td> 
@@ -84,7 +84,7 @@ ht-degree: 16%
    <td colname="col4"> 隱藏或公開IPS系統特定的中繼資料。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
+   <td colname="col1"><span class="codeph"><span class="varname"> 為強制</span></span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
    <td colname="col4"> <p>布林值標幟，指出在設定值時，是否強制執行（驗證）中繼資料欄位。 </p> <p>若設為true，則若在中設定了不合法的值，則會擲回錯誤 <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
@@ -100,7 +100,7 @@ ht-degree: 16%
 
 ## 範例 {#section-4441c26d1f41466ba972b43dd5189e89}
 
-此程式碼範例會建立受資產型別和中繼資料欄位型別字串常數限制的新中繼資料欄位。 如果 `fieldHandle` 元素具有有效的欄位控制代碼值，它會變更中繼資料值，並取得您在請求中指定的相同欄位控制代碼。
+此程式碼範例會建立受資產型別和中繼資料欄位型別字串常數限制的中繼資料欄位。 如果 `fieldHandle` 元素具有有效的欄位控制代碼值，它會變更中繼資料值，並取得您在請求中指定的相同欄位控制代碼。
 
 **請求**
 

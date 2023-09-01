@@ -1,20 +1,20 @@
 ---
 title: 色彩
-description: 圖層色彩。 指定純色和效果圖層的前景色和不透明度，以及文字圖層的文字方塊填色顏色。
+description: 圖層色彩。 指定純色和效果圖層的前景色和不透明度，以及文字圖層的文字方塊填色色彩。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b937e699-8e1e-4211-86a6-fdc155a0e3ed
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '195'
 ht-degree: 3%
 
 ---
 
 # 色彩{#color}
 
-圖層色彩。 指定純色和效果圖層的前景色和不透明度，以及文字圖層的文字方塊填色顏色。
+圖層色彩。 指定純色和效果圖層的前景色和不透明度，以及文字圖層的文字方塊填色色彩。
 
 ` color= *`color`*`
 
@@ -25,13 +25,13 @@ ht-degree: 3%
  </tr> 
 </table>
 
-如果是影像和文字圖層， `color=` 在*之前，以指定的顏色*填滿圖層邊界矩形內的透明和半不透明區域 `rotate=` 和 `extend=` 中所有規則的URL區段。
+如果有影像和文字圖層， `color=` 在圖層的邊界矩形內，使用先前指定的顏色*填滿透明和半不透明區域* `rotate=` 和 `extend=` 中所有規則的URL區段。
 
 ## 屬性 {#section-d6e74c36a49547849212e4db8927e678}
 
-圖層屬性。 套用至目前圖層，或套用至圖層0，如果 `layer=comp`.
+圖層屬性。 套用至目前的圖層，或套用至圖層0，如果 `layer=comp`.
 
-*`color`* 會假設存在於與下列畫素型別對應的工作色域中 *`color`*. *`color`* 如果圖層影像在合併時具有不同的畫素型別，則會精確轉換。
+修飾元 *`color`* 會假設存在於與下列畫素型別對應的工作色域中： *`color`*. 與 *`color`* 如果圖層影像在合併時具有不同的畫素型別，則會精確轉換。
 
 ## 預設 {#section-60611c72876b4c45b5c85ce35608e5ec}
 
@@ -39,7 +39,7 @@ ht-degree: 3%
 
 ## 範例 {#section-2d090493f4ec4e188bbc5565aa151a05}
 
-在下列範本片段中，我們將文字背景設定為50%不透明顏色，並使用相同顏色在第2層影像周圍新增半透明10畫素邊框：
+在下列範本片段中，文字背景設定為50%不透明顏色，並使用相同顏色在第2層影像周圍新增半透明10畫素邊框：
 
 `…&$color=214,245,130,128& layer=1&text=my-text-string&color=$color$&… layer=2&src=myRootId/myImageId&extend=10,10,10,10&bgColor=$color$&…`
 

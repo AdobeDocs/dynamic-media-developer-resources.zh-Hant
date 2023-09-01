@@ -1,13 +1,13 @@
 ---
+title: 方向
 description: 方向
 solution: Experience Manager
-title: 方向
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 0f78a835-9057-4c79-843a-52b33a1bdd3f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '192'
 ht-degree: 3%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|left|right </span> </p> </td> 
-   <td colname="col2"> <p>指定頁面在主檢視和縮圖中的顯示方式。 它也會指定使用者與檢視器使用者介面的互動方式，以便在目錄框架之間變更。 </p> <p>時間 <span class="codeph"> left </span> 使用「 」時，它會設定初始頁面的靠右對齊方式，以及最後一頁的靠左對齊方式。 它會依由左至右的轉譯順序來拼接個別頁面子影像。 它也會將主檢視設定為使用從右至左的投影片動畫來推進目錄(如果是 <span class="codeph"> PageView.frametransition </span> 設為滑動)。 最後，縮圖會設定為由左至右的填入順序。 </p> <p>同樣地，當 <span class="codeph"> 右側 </span> 使用「 」時，它會設定初始頁面的左對齊方式，以及最後一頁的右對齊方式。 它會依由右至左的轉譯順序來拼接個別頁面子影像。 它也會設定主檢視，以使用由左至右的投影片動畫來推進目錄(如果是 <span class="codeph"> PageView.frametransition </span> 設為滑動)。 最後，它會反轉縮圖順序，讓縮圖檢視以由右至左、由上至下的方向填入。 </p> <p>時間 <span class="codeph"> 自動 </span> 設定，則套用檢視器 <span class="codeph"> 右側 </span> locale設定為時的模式 <span class="codeph"> ja； </span>否則，它會使用 <span class="codeph"> left </span> 模式。 </p> </td> 
+   <td colname="col2"> <p>指定頁面在主檢視和縮圖中的顯示方式。 它也會指定使用者與檢視器使用者介面的互動方式，以在目錄框架之間變更。 </p> <p>時間 <span class="codeph"> 左側 </span> 使用時會為初始頁面設定向右對齊，為最後一頁設定向左對齊。 它會以由左至右的呈現順序來拼接個別頁面子影像。 它也會將主檢視設定為使用由右至左的幻燈片動畫來推進目錄(如果是 <span class="codeph"> PageView.frametransition </span> 設為滑動)。 最後，縮圖會設定為由左至右的填入順序。 </p> <p>同樣地，當 <span class="codeph"> 右 </span> 使用時會為初始頁面設定靠左對齊，為最後一頁設定靠右對齊。 它會以由右至左的轉譯順序來拼接個別頁面子影像。 它也會將主檢視設定為使用由左至右的幻燈片動畫來推進目錄(如果是 <span class="codeph"> PageView.frametransition </span> 設為滑動)。 最後，這會反轉縮圖順序，讓縮圖檢視以由右至左、由上到下的方向填入。 </p> <p>時間 <span class="codeph"> 自動 </span> 設定，則檢視器適用 <span class="codeph"> 右 </span> 語言環境設定為時的模式 <span class="codeph"> ja； </span>否則，它會使用 <span class="codeph"> 左側 </span> 模式。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

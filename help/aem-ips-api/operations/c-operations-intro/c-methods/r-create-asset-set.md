@@ -1,11 +1,11 @@
 ---
+title: createAssetSet
 description: 使用要發佈至影像伺服器的原始集定義字串建立一般資產集。
 solution: Experience Manager
-title: createAssetSet
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 4565eb4f-eeb7-4b98-bfef-1a59e9a931af
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 10%
@@ -45,7 +45,7 @@ ht-degree: 10%
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 將包含資產集的公司的控制代碼。 </td> 
+   <td colname="col4"> 包含資產集之公司的控制代碼。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle </span> </span> </td> 
@@ -69,40 +69,40 @@ ht-degree: 10%
    <td colname="col1"> <span class="codeph"> <span class="varname"> setDefinition </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 集合定義字串中的引數。 <p>這些格式必須解析成目標檢視器指定的格式。 </p> </td> 
+   <td colname="col4"> 集合定義字串中的引數。 <p>這些引數必須解析成目標檢視器指定的格式。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAssetHandle </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 資產的控制代碼，可作為新影像集的縮圖。 如果未指定，IPS會嘗試使用集合所參考的第一個影像資產。 </td> 
+   <td colname="col4"> 資產的控制代碼，可作為新影像集的縮圖。 如果未指定，IPS會嘗試使用集合所參照的第一個影像資產。 </td> 
   </tr> 
  </tbody> 
 </table>
 
 **setDefinition的替代函式**
 
-您可以在行中指定在目錄查閱或發佈期間解析的替代函式。 替代字串的格式為 `${<substitution_func>}`. 可用的函式列示如下。
+您可以內嵌指定在目錄查閱或發佈期間解析的替代函式。 替代字串的格式為 `${<substitution_func>}`. 可用的函式概述如下。
 
 >[!NOTE]
 >
->引數清單中的控制代碼常值必須以方括弧括住 `([])`. 解析期間，替代字串以外的所有文字都會逐字複製到輸出字串中。
+>引數清單中的控制代碼常值必須用方括弧括住 `([])`. 解析期間，替代字串以外的所有文字都會逐字複製到輸出字串中。
 
 | **替代函式** | **傳回** |
 |---|---|
 | `getFilePath([asset_handle>])` | 資產的主要來源檔案路徑。 |
 | `getCatalogId([<asset_handle>])` | 資產的目錄ID。 |
 | `getMetaData([<asset_handle>], [<metadata_field_handle>])` | 資產的中繼資料值。 |
-| `getThumbCatalogId([<asset_handle>])` | 資產的目錄ID （僅適用於影像型資產）。關聯的縮圖資產的目錄ID （適用於其他資產）。 如果關聯的縮圖資產無法使用，此函式會傳回空字串。 |
+| `getThumbCatalogId([<asset_handle>])` | 資產的目錄ID （僅適用於影像型資產）。 關聯的縮圖資產的目錄ID （適用於其他資產）。 如果相關的縮圖資產無法使用，此函式會傳回空字串。 |
 
-**範例媒體setDefinition字串**
+**媒體setDefinition字串範例**
 
 ```java
 ${getCatalogId([a|1664|22|1664])};${getCatalogId([a|1664|22|1664])};1,${getFilePath([a|103 
 6|19|144])};${getCatalogId([a|452|1|433])};2;${getMetadata([a|1036|19|144], [m|1|ASSET|SharedDateField])} 
 ```
 
-在目錄查閱或發佈時，這會解析為類似於以下內容的字串：
+在目錄查詢或發佈時間，此程式將解析為類似於以下內容的字串：
 
 ```java
 jcompany/myRenderSet;jcompany/myRenderSet;1,jcompany/Videos/Somebodys_N08275_flv.flv;jcomp any/myimg-1;2;20090703 10:05:53

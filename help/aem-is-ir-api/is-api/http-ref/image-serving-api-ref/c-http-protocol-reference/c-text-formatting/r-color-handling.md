@@ -1,38 +1,38 @@
 ---
+title: 色彩處理
 description: RTF規格允許以&bsol；colortbl指定的RGB色彩值。 每個元件分別提供&bsol；red、&bsol；green和&bsol；blue指令。
 solution: Experience Manager
-title: 色彩處理
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 590ed0f1-8d78-4afc-ac9e-c28272cd24a6
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
 
 # 色彩處理{#color-handling}
 
-RTF規格允許指定的RGB色彩值 `\colortbl`. 每個元件都獨立提供， `\red`， `\green`、和 `\blue` 命令。
+RTF規格允許指定的RGB色彩值 `\colortbl`. 每個元件都獨立提供 `\red`， `\green`、和 `\blue` 命令。
 
-專屬RTF延伸命令 `\cmykcolortbl` 允許指定CMYK顏色，每個顏色元件都隨附於 `\cyan`， `\magenta`， `\yellow`、和 `\black` 命令。
+專屬RTF延伸命令 `\cmykcolortbl` 允許指定CMYK顏色，每個顏色元件都隨附有 `\cyan`， `\magenta`， `\yellow`、和 `\black` 命令。
 
-的顏色元件值 `\colortbl` 介於0到255之間。 下列專案的元件值 `\cmykcolortbl` 介於0到100之間。
+的顏色元件值 `\colortbl` 介於0到255之間。 下列專案的元件值 `\cmykcolortbl` 在0到100的範圍內。
 
-RTF延伸命令 `\*\iscolortbl`，支援者 `textPs=`，可讓您指定具有標準「影像伺服」色彩值的色彩表，並支援完整RGB、灰色、CMYK和Alpha。 其語法如下：
+RTF延伸命令 `\*\iscolortbl`，支援者 `textPs=`，可用來指定具有標準「影像伺服」色彩值的色彩表，並支援完整RGB、灰色、CMYK和Alpha。 其語法如下：
 
 ` {\&#42;\iscolortbl; *[!DNL colors]*;}`
 
 *[!DNL colors]* 一或多個IS色彩值，以「；」分隔
 
-可以在同一個中指定多種型別的色彩表 `text=` 或 `textPs=` rtf字串。 每個色彩表可以有不同的專案數量。 「影像伺服」會嘗試依照以下順序尋找顏色： `\iscolortbl` 早於 `\cmykcolortbl` （僅當文字圖層的畫素型別是CMYK時） `\colortbl`. 對象 `textPs=` 只有在需要時(例如指定RGB顏色但需要CMYK輸出時)，才會在CMYK和RGB之間精確轉換顏色。 如果找不到特定索引值的顏色，則會使用預設顏色（黑色）。
+可以在同一個中指定多種型別的色彩表 `text=` 或 `textPs=` rtf字串。 每個色彩表可以有不同的專案數。 「影像伺服」會嘗試依照以下順序尋找顏色： `\iscolortbl` 早於 `\cmykcolortbl` （僅當文字圖層的畫素型別為CMYK時）之前 `\colortbl`. 的 `textPs=` 只有在需要時(例如指定RGB顏色但需要CMYK輸出時)，才能在CMYK和RGB之間精確轉換顏色。 如果找不到特定索引值的顏色，則會使用預設顏色（黑色）。
 
 請參閱 [顏色](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md) 以取得IS色彩值的語法說明。
 
 ## 限制 {#section-c5173e672d854e4aa9656844f7fc4d0e}
 
-`text=` 不支援 `\*\iscolortbl`. `textPs=` 不支援 `\cmykcolortbl`.
+修飾元 `text=` 不支援 `\*\iscolortbl`. 修飾元 `textPs=` 不支援 `\cmykcolortbl`.
 
 呈現Photofonts時會忽略顏色選取範圍。
 

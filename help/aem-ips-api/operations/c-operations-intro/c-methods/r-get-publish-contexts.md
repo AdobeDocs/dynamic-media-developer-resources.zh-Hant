@@ -1,13 +1,13 @@
 ---
+title: getPublishContext
 description: getPublishContext
 solution: Experience Manager
-title: getPublishContext
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 7b26e659-71b9-40c4-9df4-94e78c3e4baf
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '86'
 ht-degree: 24%
 
 ---
@@ -31,9 +31,8 @@ ht-degree: 24%
 >[!NOTE]
 >
 >* 使用者必須擁有讀取存取權才能傳回資產。
->* 所有使用者都可存取共用公司。
+>* 所有使用者都可存取該共用公司。
 >
-
 
 ## 參數 {#section-d08e2175d3f84774b55b91bc590b8b3f}
 
@@ -53,7 +52,7 @@ ht-degree: 24%
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 處理公司。 </td> 
+   <td colname="col4"> 公司處理。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> contextType</span> </span> </td> 
@@ -61,8 +60,8 @@ ht-degree: 24%
    <td colname="col3"> 否 </td> 
    <td colname="col4">您要傳回的發佈內容型別。 包括： 
     <ul id="ul_21EDF8F0026E402EAE8226A0CADEE652">
-     <li id="li_06DB502952D943198F16C06C59816268"><span class="codeph"> ImageServe</span></li>
-     <li id="li_E67A42934E8F4689A148CE125F7372AE"><span class="codeph"> 影像演算</span></li>
+     <li id="li_06DB502952D943198F16C06C59816268"><span class="codeph"> imageserving</span></li>
+     <li id="li_E67A42934E8F4689A148CE125F7372AE"><span class="codeph"> ImageRender</span></li>
      <li id="li_3CB3A9C4E7AB4A71819567A9566E396C"><span class="codeph"> 視訊</span></li>
      <li id="li_27E3DB89B53B4B50B2231622A157A228"><span class="codeph"> 伺服器目錄</span></li>
     </ul></td> 
@@ -74,7 +73,7 @@ ht-degree: 24%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| publishContextArray | 型別：PublishContextArray | 是 | 公司的發佈內容陣列，依內容型別篩選（如有需要）。 |
+| publishContextArray | 型別：PublishContextArray | 是 | 公司發佈內容的陣列，依內容型別篩選（如有必要）。 |
 
 ## 範例 {#section-23fb7d6a15004b7eb4c3d3bcb37ceb04}
 

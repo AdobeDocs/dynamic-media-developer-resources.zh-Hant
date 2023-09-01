@@ -1,20 +1,20 @@
 ---
-description: 可讓管理員建立新的中繼資料欄位，以協調內容管理系統或範本操作。 建立的中繼資料欄位範例包括關鍵字、影像作者的相關資訊或版權持有人資訊。
-solution: Experience Manager
 title: createMetadataField
+description: 可讓管理員建立中繼資料欄位，以協調內容管理系統或範本操作。 建立的中繼資料欄位範例包括關鍵字、影像作者的相關資訊或版權持有人資訊。
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: eac7fa54-ebe2-4f42-a478-d9a6fb54d1b6
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '284'
 ht-degree: 13%
 
 ---
 
 # createMetadataField{#createmetadatafield}
 
-可讓管理員建立新的中繼資料欄位，以協調內容管理系統或範本操作。 建立的中繼資料欄位範例包括關鍵字、影像作者的相關資訊或版權持有人資訊。
+可讓管理員建立中繼資料欄位，以協調內容管理系統或範本操作。 建立的中繼資料欄位範例包括關鍵字、影像作者的相關資訊或版權持有人資訊。
 
 語法
 
@@ -61,7 +61,7 @@ ht-degree: 13%
    <td colname="col4">中繼資料欄位型別。 <p>中繼資料欄位型別常數會定義可用的型別。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 預設值</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> defaultvalue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> <p>要建立的中繼資料欄位的預設值(例如， <span class="codeph"> Scene 7</span>)。 </p> <p>標籤欄位型別不支援預設值，必須省略。 如果為標籤欄位型別指定了非空白的預設值，則會傳回錯誤。 </p> </td> 
@@ -73,16 +73,16 @@ ht-degree: 13%
    <td colname="col4"> 隱藏或公開IPS系統特定的中繼資料。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
+   <td colname="col1"><span class="codeph"><span class="varname"> 為強制</span></span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
    <td colname="col4"> <p>布林值標幟，指出在設定值時，是否強制執行（驗證）中繼資料欄位。 </p> <p>若設為true，則若在中設定了不合法的值，則會擲回錯誤 <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> initialTag值</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> initialtagValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 可讓您建立一組所選標籤可指向的共用列舉值。 </td> 
+   <td colname="col4"> 它可讓您建立一組所選標籤可指向的共用特定值。 </td> 
   </tr> 
  </tbody> 
 </table>
@@ -95,7 +95,7 @@ ht-degree: 13%
 
 ## 範例 {#section-ba66be30f36b4aeba1bc721b0b92fdfc}
 
-此程式碼範例會建立字串型別中繼資料欄位，稱為 `createMetadataField`. 回應會傳回新中繼資料欄位的控制代碼。
+此程式碼範例會建立字串型別中繼資料欄位，稱為 `createMetadataField`. 回應會將控制代碼傳回至新的中繼資料欄位。
 
 **請求**
 

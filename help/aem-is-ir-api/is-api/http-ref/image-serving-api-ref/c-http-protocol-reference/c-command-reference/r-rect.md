@@ -1,20 +1,20 @@
 ---
 title: 矩形
-description: 最終檢視矩形。 可將最終檢視影像拆解成數個片段或圖磚，這些片段或圖磚可由使用者端分別傳送並順暢地重新組裝，邊緣不會出現任何不自然感。
+description: 最終檢視矩形。 它可將最終檢視影像拆解成數個片段或圖磚，這些片段或圖磚可由使用者端分別傳送並順暢地重新組裝，邊緣不會出現任何不自然感。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1870001b-7904-470f-9582-984d453509ca
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '361'
 ht-degree: 1%
 
 ---
 
 # 矩形{#rect}
 
-最終檢視矩形。 可將最終檢視影像拆解成數個片段或圖磚，這些片段或圖磚可由使用者端分別傳送並順暢地重新組裝，邊緣不會出現任何不自然感。
+最終檢視矩形。 它可將最終檢視影像拆解成數個片段或圖磚，這些片段或圖磚可由使用者端分別傳送並順暢地重新組裝，邊緣不會出現任何不自然感。
 
 `rect= *`座標`*, *`大小`*[, *`縮放`*]`
 
@@ -37,11 +37,11 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->為達到使用JPEG壓縮時的最佳效果，條紋或並排大小應為JPEG編碼並排大小（16x16畫素）的倍數。
+>為達到最佳效果，當使用JPEG壓縮時，長條圖或拼貼大小應為JPEG編碼拼貼大小（16x16畫素）的倍數。
 
 ## 範例 {#section-932fcfcb41d74a29bc929e4430c49601}
 
-將可列印的CMYK影像分割成數個完整解析度的色條，以減少下載檔案的大小。 如果我們要請求連續的影像：
+將可列印的CMYK影像分割成數個完整解析度的色條，以減少下載檔案的大小。 如果您要求連續的影像：
 
 `http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&fmt=tif&icc=WebCoated`
 
@@ -53,15 +53,15 @@ ht-degree: 1%
 
 `image.width=2000 image.height=2400 image.version=37JK6NTvpvC42F5gOuLEVY`
 
-根據此資訊，我們決定想要四條600x2000畫素的色條。 此 `rect=` 指令用於描述分段大小和位置。
+根據此資訊，需要四條600x2000畫素條。 此 `rect=` 指令用於描述分段大小和位置。
 
-由於此影像經常變更，因此我們將包含 `id=` 將舊版影像中可能已在CDN或Proxy伺服器中快取的一或多個片段最後出現的機率降到最低。 的值 `image.version` 屬性會用於此目的。
+由於此影像經常變更，因此 `id=` 命令包括在內。 如此一來，舊版影像中可能已在CDN或Proxy伺服器中快取的一或多個區段最後出現的機率就會降到最低。 的值 `image.version` 屬性會用於此目的。
 
 `http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&id=37JK6NTvpvC42F5gOuLEVY&rect=0,0,2000,600 http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&id=37JK6NTvpvC42F5gOuLEVY&rect=0,600,2000,600 http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&id=37JK6NTvpvC42F5gOuLEVY&rect=0,1200,2000,600 http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&id=37JK6NTvpvC42F5gOuLEVY&rect=0,1800,2000,600`
 
 ## 屬性 {#section-aae223cee13e46d38b74680c048d945b}
 
-檢視屬性。 不論目前的圖層設定為何，皆會套用。
+檢視屬性。 無論目前的圖層設定為何，都適用。
 
 任何延伸至檢視影像外部的ROI區域皆會填入 `bgc=`.
 

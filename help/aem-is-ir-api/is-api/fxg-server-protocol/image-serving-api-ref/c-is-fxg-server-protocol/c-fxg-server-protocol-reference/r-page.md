@@ -1,11 +1,11 @@
 ---
-description: 擷取頁面。 擷取多頁FXG中的特定頁面。
-solution: Experience Manager
 title: 頁面
+description: 擷取頁面。 在多頁FXG中擷取特定頁面。
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7c72ceff-30d9-4e0b-8b4f-6cb0039d389e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
 source-wordcount: '49'
 ht-degree: 6%
@@ -14,7 +14,7 @@ ht-degree: 6%
 
 # 頁面{#page}
 
-擷取頁面。 擷取多頁FXG中的特定頁面。
+擷取頁面。 在多頁FXG中擷取特定頁面。
 
 `page= *`val`*`
 
@@ -27,4 +27,4 @@ ht-degree: 6%
 
 ## 預設 {#section-3fd7fcc525b947c7a95457e50414ac9e}
 
-若 `page` 未指定，則會傳回第一頁以供點陣化輸出，並傳回所有頁面供PDF輸出。
+如果 `page` 未指定，則會傳回第一頁做為點陣化輸出，傳回所有頁面做為點陣化輸出PDF。

@@ -1,14 +1,14 @@
 ---
+title: removeFolderPermissions
 description: 移除檔案夾許可權。
 solution: Experience Manager
-title: removeFolderPermissions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 10830980-d504-4610-96c9-730937453256
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 17%
+source-wordcount: '105'
+ht-degree: 18%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 17%
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 具有您要移除之許可權資料夾的公司控制代碼。 </td> 
+   <td colname="col4"> 具有您要移除之檔案夾許可權的公司控制代碼。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle</span> </span> </td> 
@@ -51,12 +51,12 @@ ht-degree: 17%
    <td colname="col4"> 資料夾的控制代碼。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> updateChilds</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> updateChildren</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> <p>時間 <span class="codeph"> true</span>： 
      <ul id="ul_1305D060E0F34A61AA3C827E43F296E6"> 
-      <li id="li_AB8705F3CEAD4B8A8F1C28291A6F7EC8">許可權移除會傳播到所有檔案夾許可權操作。 </li> 
+      <li id="li_AB8705F3CEAD4B8A8F1C28291A6F7EC8">許可權移除會傳播到所有檔案夾許可權作業。 </li> 
      </ul> </p> <p>時間 <span class="codeph"> false</span>： 
      <ul id="ul_19AEE80F1FC84B64AD623E050C12A0CD"> 
       <li id="li_B8B78851004C43DB8CB7958E380AF510">此操作只會影響指定的資料夾。 </li> 
@@ -71,7 +71,7 @@ IPS API未傳回此作業的回應。
 
 ## 範例 {#section-04390f0ec7cc460cb5d34d518e33e7a5}
 
-此程式碼範例會從資料夾及其子資料夾中移除許可權。 設定 `updateChildren` 至 `false` 如果您只需要從父資料夾中移除許可權。
+此程式碼範例從檔案夾及其子檔案夾中移除許可權。 設定 `updateChildren` 至 `false` 僅從父資料夾中移除許可權。
 
 **請求**
 

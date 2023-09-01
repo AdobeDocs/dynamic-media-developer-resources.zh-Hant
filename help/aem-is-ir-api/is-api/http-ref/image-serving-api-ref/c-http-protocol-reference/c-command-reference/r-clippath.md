@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 86c87cd1-6e08-40cb-80e6-35a9f49b6572
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 如果 `size=` 指定且非0,0，則會使圖層成為持久層。 在此情況下，路徑座標會相對於圖層矩形的左上角，而圖層會根據下列基準放置 `origin=` 或其預設值。 圖層矩形之外的任何路徑區域都會保持透明。
 
-如果 `size=` 未指定純色或文字圖層，會根據路徑範圍決定圖層大小，將圖層視為自行調整大小。 如果 `origin=` 未指定，其預設值為路徑座標空間的(0,0)。 這實際上允許指定相對於圖層0原點的路徑座標。
+如果 `size=` 未指定純色或文字圖層，會根據路徑範圍決定圖層大小，將圖層視為自行調整大小。 如果 `origin=` 未指定，其預設值為路徑座標空間的(0,0)。 此工作流程流程實際上允許指定相對於圖層0原點的路徑座標。
 
 >[!NOTE]
 >
@@ -105,13 +105,13 @@ ht-degree: 0%
 
 * 上一個子路徑的起點（如果以「z」或「Z」關閉）。
 * 前一個子路徑的終點（如果未明確關閉）。
-* 0,0 （如果這是第一個子路徑）。
+* 0,0，如果它是第一個子路徑。
 
 ## 屬性 {#section-d4127db0dac54e3cbd44f7ea1e001960}
 
 圖層屬性。 套用至目前圖層或複合影像，如果 `layer=comp`. 效果圖層會忽略它。
 
-`clipPathE=` 如果在圖層來源影像中找不到具有指定名稱的路徑，或圖層來源不是影像，則會忽略該專案。
+修飾元 `clipPathE=` 如果在圖層來源影像中找不到具有指定名稱的路徑，或圖層來源不是影像，則會忽略該專案。
 
 ## 預設 {#section-076c35ea37fa4a44ada253b4c2dec1dd}
 

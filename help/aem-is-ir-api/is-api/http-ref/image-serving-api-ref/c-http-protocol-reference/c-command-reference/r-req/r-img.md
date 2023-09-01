@@ -1,13 +1,13 @@
 ---
+title: img
 description: 影像（預設）。 要求標準影像資料。
 solution: Experience Manager
-title: img
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 5338358e-755b-41d6-a941-8754d0deb9aa
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '55'
+source-wordcount: '54'
 ht-degree: 3%
 
 ---
@@ -18,6 +18,6 @@ ht-degree: 3%
 
 `req=img`
 
-回覆資料格式和回應MIME型別由以下專案決定 `fmt=`. `req=img` 是預設要求型別，不需要明確指定。 HTTP回應可使用以下依據的TTL快取： `catalog::Expiration`.
+回覆資料格式和回應MIME型別由以下決定 `fmt=`. 修飾元 `req=img` 是預設要求型別，不需要明確指定。 HTTP回應可使用以下依據的TTL進行快取： `catalog::Expiration`.
 
-其他要求命令會依檔案說明套用。
+其他要求命令會依記錄套用。

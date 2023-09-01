@@ -1,26 +1,26 @@
 ---
 title: illum
-description: 照明地圖選擇器。 指定此材質偏好呈現的照明對映。
+description: 照明地圖選取器。 指定此材質偏好呈現的照明對映。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e1af2397-8eae-4b77-abb1-61ba8cb866f3
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '80'
 ht-degree: 3%
 
 ---
 
 # illum{#illum}
 
-照明地圖選擇器。 指定此材質偏好呈現的照明對映。
+照明地圖選取器。 指定此材質偏好呈現的照明對映。
 
 `illum=-1|0|1|2`
 
-如果目標暈映中無法使用指定的照明地圖，則改用最接近的可用地圖。
+如果目標暈映中沒有指定的照明對映，則會改用最近的可用對映。
 
-`illum=-1` 指定根據下列條件自動選取照明地圖 `gloss=` 值。
+`illum=-1` 指定根據下列條件自動選取照明對映 `gloss=` 值。
 
 ## 屬性 {#section-aace8466566e4cf1a0c5a6c0167245c9}
 

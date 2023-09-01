@@ -1,20 +1,20 @@
 ---
-description: 可協助您定義搜尋條件以提高搜尋效率的篩選器。
-solution: Experience Manager
 title: SearchFilter
+description: 可協助您定義搜尋條件，讓搜尋更有效率的篩選器。
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b3a26966-33c9-48ca-b0ed-d05fc0e2050f
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 8%
+source-wordcount: '265'
+ht-degree: 9%
 
 ---
 
 # [!DNL SearchFilter]{#searchfilter}
 
-可協助您定義搜尋條件以提高搜尋效率的篩選器。
+可協助您定義搜尋條件，讓搜尋更有效率的篩選器。
 
 語法
 
@@ -32,15 +32,15 @@ ht-degree: 8%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 資料夾</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> 指定您要搜尋的資料夾。 留空可在整個公司中搜尋。 </td> 
+   <td colname="col3"> 指定要搜尋的資料夾。 留空可在整個公司中搜尋。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> includeSubfolders</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3">設定為： 
     <ul id="ul_BD8686943BD14D05A21C00192D4D70D3"> 
-     <li id="li_B6A6DE5AAEFF4A80A8413B4785A88222"><span class="codeph"> True</span>：搜尋已命名的資料夾和所有子資料夾。 </li> 
-     <li id="li_10A581F98B4847ED8EBE4AECC3AD70A8"><span class="codeph"> False</span>：僅搜尋已命名的資料夾。 </li> 
+     <li id="li_B6A6DE5AAEFF4A80A8413B4785A88222"><span class="codeph"> 真</span>：若要搜尋已命名的資料夾和所有子資料夾。 </li> 
+     <li id="li_10A581F98B4847ED8EBE4AECC3AD70A8"><span class="codeph"> 假</span>：僅搜尋具名資料夾。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -51,25 +51,25 @@ ht-degree: 8%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludeAssetTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> type：StringArray</span> </td> 
-   <td colname="col3"> 指定要從搜尋中排除的資產型別。 例如，影像。 </td> 
+   <td colname="col3"> 指定要從搜尋排除的資產型別。 例如，影像。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetSubTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> type：StringArray</span> </td> 
-   <td colname="col3">搜尋時想要傳回的資產子型別清單。 例如，對於 <span class="codeph"> 資產集</span>，您可以搜尋 <span class="codeph"> MediaType</span> 子型別。 </td> 
+   <td colname="col3">要在搜尋中傳回的資產子型別清單。 例如，對於 <span class="codeph"> 資產集</span>，您可以搜尋 <span class="codeph"> MediaType</span> 子型別。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"><span class="varname"> strictSubTypeCheck</span></span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> <p>選用的布林值標幟，可指定是否在 <span class="codeph"> assetSubTypeArray</span> 已通過。 </p> <p>如果為true，則只會傳回具有其中一個指定子型別的資產。 </p> <p>如果為false，則也會傳回沒有子型別的資產。 </p> <p>預設值為false。 </p> </td> 
+   <td colname="col3"> <p>此選用的布林值標幟可指定是否要在發生下列情況時傳回不含子型別的資產： <span class="codeph"> assetSubTypeArray</span> 已通過。 </p> <p>如果為true，則僅傳回具有其中一個指定子型別的資產。 </p> <p>如果為false，則也會傳回沒有子型別的資產。 </p> <p>預設為 false。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludeByproducts</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3">設定為： 
     <ul id="ul_8C164A5D9F0F43968C86A67FA6884F35"> 
-     <li id="li_D8009688FF2C439D98D6C1052C1A6CBE"><span class="codeph"> True</span>：僅傳回原始資產。 </li> 
-     <li id="li_4970226BF0FF42388CAE4415FB63AF16"><span class="codeph"> False</span>：傳回產生的內容。 例如，來自已上傳PDF的影像。 </li> 
+     <li id="li_D8009688FF2C439D98D6C1052C1A6CBE"><span class="codeph"> 真</span>：僅傳回原始資產。 </li> 
+     <li id="li_4970226BF0FF42388CAE4415FB63AF16"><span class="codeph"> 假</span>：傳回產生的內容。 例如，上傳的PDF中的影像。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -82,9 +82,9 @@ ht-degree: 8%
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3">指定: 
     <ul id="ul_96FFEE28F7624C1FB0356776B4C7CD53"> 
-     <li id="li_DCB07288E5F44E05A4D83D3F34B0E08E"><span class="codeph"> 已標籤為發佈</span> 以僅傳回已發佈的資產。 </li> 
-     <li id="li_9A9A852248DB490DB958AE986DF02672"><span class="codeph"> NotMarkedForPublish</span> 僅傳回未發佈的資產。 </li> 
-    </ul> <p>注意：留空可搜尋 <i>全部</i> 已發佈狀態型別。 </p> </td> 
+     <li id="li_DCB07288E5F44E05A4D83D3F34B0E08E"><span class="codeph"> MarkedForPublish</span> 以僅傳回已發佈的資產。 </li> 
+     <li id="li_9A9A852248DB490DB958AE986DF02672"><span class="codeph"> NotMarkedForPublish</span> 以僅傳回未發佈的資產。 </li> 
+    </ul> <p>注意：留空將搜尋 <i>全部</i> 已發佈狀態型別。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> trashState</span> </span> </td> 

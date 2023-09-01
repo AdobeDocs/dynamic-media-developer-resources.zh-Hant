@@ -1,13 +1,13 @@
 ---
+title: 處置
 description: eCatalog檢視器的JavaScript API參考。
 solution: Experience Manager
-title: 處置
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: fda6d50f-0e1b-436c-af2e-1ccc9cd51c39
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '122'
 ht-degree: 3%
 
 ---
@@ -18,13 +18,13 @@ eCatalog檢視器的JavaScript API參考。
 
 [!DNL `dispose()`]
 
-釋放檢視器邏輯使用的所有資源，並在執行階段刪除檢視器建立的所有內部物件和元件，以處置此檢視器執行個體。
+釋放檢視器邏輯使用的所有資源，並刪除檢視器在執行階段建立的所有內部物件和元件，以處置此檢視器執行個體。
 
 網頁程式碼也應刪除檢視器例項變數，並從網頁瀏覽器記憶體中完全移除檢視器。
 
-如果網頁程式碼已直接在檢視器使用的Viewer SDK元件上註冊了事件接聽程式，或已儲存此類元件的外部參考，則網頁程式碼必須明確取消註冊此類接聽程式，且呼叫之前必須刪除此類外部元件參考 [!DNL `dispose()`].
+如果網頁程式碼已直接在檢視器所使用的Viewer SDK元件上註冊事件接聽程式，或已儲存此類元件的外部參照，則此類接聽程式必須由網頁程式碼明確取消註冊。 而且，在呼叫之前，必須刪除這類外部元件參考 [!DNL `dispose()`].
 
-之後不再存取Viewer API [!DNL `dispose()`] 稱為。
+之後不要再存取檢視器API [!DNL `dispose()`] 稱為。
 
 ## 參數 {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 

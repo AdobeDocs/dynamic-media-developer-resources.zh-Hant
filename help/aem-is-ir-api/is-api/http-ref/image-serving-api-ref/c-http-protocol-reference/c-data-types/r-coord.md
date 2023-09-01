@@ -1,20 +1,20 @@
 ---
 title: 座標
-description: 畫素座標。 用於指定相對於影像或圖層矩形左上角的畫素位移形式的影像座標。 這些通常用於影像位移或裁切引數中。
+description: 畫素座標。 用於指定相對於影像或圖層矩形左上角的畫素位移形式的影像座標。 這些座標通常用於影像位移或裁切引數中。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 12ca4002-a540-4eb9-bb11-824d7cb41d30
-source-git-commit: 13991f71ab54d1003a79a496b861d53a61899bdc
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '105'
 ht-degree: 0%
 
 ---
 
 # 座標{#coord}
 
-畫素座標。 用於指定相對於影像或圖層矩形左上角的畫素位移形式的影像座標。 這些通常用於影像位移或裁切引數中。
+畫素座標。 用於指定相對於影像或圖層矩形左上角的畫素位移形式的影像座標。 這些座標通常用於影像位移或裁切引數中。
 
 <table id="simpletable_A686120953124ACB8803CB9C877252AB"> 
  <tr class="strow"> 

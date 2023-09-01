@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9f1b2d6f-4e67-4530-9ec6-870b97687ce0
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '255'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 2%
  </tr> 
 </table>
 
-正角度會順時針旋轉。 圖層錨點( `anchor=` 或 `catalog::Anchor`)作為旋轉中心。 圖層矩形會放大，並視需要配合旋轉後的資料，以避免裁切。 在填滿圖層的背景區域後，會套用旋轉 `color=`. `bgColor=` 可用來在旋轉後新增背景顏色至邊界矩形。
+正角度會順時針旋轉。 圖層錨點( `anchor=` 或 `catalog::Anchor`)作為旋轉中心。 圖層矩形會放大，並視需要配合旋轉後的資料，以避免裁切。 在填滿圖層的背景區域後，會套用旋轉 `color=`. 修飾元 `bgColor=` 可用來在旋轉後新增背景顏色至邊界矩形。
 
 ## 屬性 {#section-8b5a9bb9062f48dbb8d4e9953ff39e39}
 
@@ -37,13 +37,13 @@ ht-degree: 2%
 
 ## 範例 {#section-e8ab3ba8a8624b43aeaaa8f089fc2f00}
 
-在影像目錄的影像左上角附近放置「銷售中」標籤。 標籤影像已針對300x300檢視正確調整大小，且應該向左旋轉30度。 以白色、半不透明的顏色填滿文字方塊，以增強標籤。
+在影像目錄的影像左上角附近放置「銷售中」標籤。 標籤影像已針對300x300檢視正確調整大小，應該向左旋轉30°。 若要增強標籤，請以白色、半不透明的顏色填滿文字方塊。
 
 `http:// *`伺服器`*/myRootId/myImageId?scl=1&size=300,300&origin=-0.5,-0.5 &layer=1&src=labelImage&origin=-0.5,-0.5&rotate=-30&color=ffffff40`
 
-我們套用 `size=` 至圖層0以設定檢視大小，而非使用 `wid=` 和 `hei=`. 這允許 `myImageId` 以調整大小，而不變更最終大小 `labelImage`. 我們還需要指定 `scl=1`，否則複合影像可能會縮放至 `attribute::DefaultPix` （除非已設為0,0）。 `color=` 在旋轉之前，將半不透明的背景顏色加入文字方塊。
+套用 `size=` 至圖層0以設定檢視大小，而非使用 `wid=` 和 `hei=`. 此方法允許 `myImageId` 以調整大小，而不變更最終大小 `labelImage`. 此外，請指定 `scl=1`，否則複合影像可能會縮放至 `attribute::DefaultPix` （除非已設為0,0）。 修飾元 `color=` 在旋轉之前，將半不透明的背景顏色加入文字方塊。
 
-兩個圖層的原點都會設定為左上角，以達到所需的對齊。 請注意，圖層1的原點適用於 `labelImage`在它旋轉之後。
+兩個圖層的原點都會設定為左上角，以達成所要的對齊。 圖層1的原點套用至 `labelImage`在它旋轉之後。
 
 另請參閱 [範例A](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/r-example-a.md#reference-c78ea82e8a1646738e764fa6685dfbac) 在 [範本](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e) 例如旋轉文字的範例。
 
