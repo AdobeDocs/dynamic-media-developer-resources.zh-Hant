@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 297d187c-3a52-45ff-b73d-0b0e4b956080
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '134'
 ht-degree: 4%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 4%
  </tr> 
 </table>
 
-以下情況不會套用縮放： `scl=1`. *`invFactor`* 大於1.0會縮小比例但小於1.0會放大複合影像。
+以下情況不會套用縮放： `scl=1`. 一個 *`invFactor`* 大於1.0的值會縮小比例但小於1.0會放大複合影像。
 
 如果 `scl=` 已指定，且 `wid=` 和/或 `hei=` 同時存在，則會裁切影像 `wid=` 和/或 `hei=` 縮放之後。
 
@@ -35,7 +35,7 @@ ht-degree: 4%
 
 ## 屬性 {#section-60af012719db477db4a4703e9a6da5f5}
 
-檢視屬性。 不論目前的圖層設定為何，皆適用。
+檢視屬性。 無論目前的圖層設定為何，都適用。
 
 ## 預設 {#section-32502fa218a24e1f9c65f41c0260b56a}
 

@@ -1,20 +1,20 @@
 ---
-description: 使用下列命令來編碼字元。
-solution: Experience Manager
 title: 字元編碼
+description: 請使用下列命令來編碼字元。
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: a03f08f7-e9cc-458f-9ff0-7721f1dbc4cc
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '87'
 ht-degree: 2%
 
 ---
 
 # 字元編碼{#character-encoding}
 
-使用下列命令來編碼字元。
+請使用下列命令來編碼字元。
 
 <table id="table_EB0C1B674BEA4A37964FB4BF559E0005"> 
  <thead> 
@@ -33,21 +33,21 @@ ht-degree: 2%
   <tr> 
    <td> <span class="codeph">\u<span class="varname"> N</span></span> </td> 
    <td> <p>單一Unicode字元。 </p> </td> 
-   <td> <p><span class="varname"> N</span> 是有正負號的2位元組整數，因此大於32767的Unicode值必須表示為負數。 </p> </td> 
+   <td> <p><span class="varname"> N</span> 是有符號的2位元組整數，因此大於32767的Unicode值必須表示為負數。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph">\uc<span class="varname"> N</span></span> </td> 
    <td> <p>Unicode字元大小。 </p> </td> 
-   <td> <p>對應給定Unicode字元的位元組數。 </p> </td> 
+   <td> <p>與指定Unicode字元對應的位元組數。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \loch </span> </td> 
-   <td> <p>低ANSI區域的字元緊隨其後。 </p> </td> 
+   <td> <p>低ANSI區域的字元。 </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \hich </span> </td> 
-   <td> <p>高ANSI區域的字元緊隨其後。 </p> </td> 
+   <td> <p>高ANSI區域的字元。 </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 

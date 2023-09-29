@@ -1,24 +1,24 @@
 ---
-description: 所有組態檔案都位於install_folder/conf中，並且可以用大多數的文字編輯器進行編輯。 伺服器可能需要重新啟動才能讓變更生效。
-solution: Experience Manager
 title: 伺服器組態檔
+description: 所有組態檔案都位於install_folder/conf中，並且可以用大多數文字編輯器進行編輯。 重新啟動伺服器讓變更生效。
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 6261844c-b63d-477b-8a48-963be868aa22
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '133'
 ht-degree: 1%
 
 ---
 
 # 伺服器組態檔{#server-configuration-files}
 
-所有組態檔案都位於install_folder/conf中，並且可以用大多數的文字編輯器進行編輯。 伺服器可能需要重新啟動才能讓變更生效。
+所有組態檔案都位於 `install_folder/conf` 和對於大多數文字編輯器都是可編輯的。 重新啟動伺服器讓變更生效。
 
 >[!NOTE]
 >
->大部分的伺服器組態檔都包含本檔案未說明的其他屬性和值。 此類屬性供內部伺服器使用，除非Dynamic Media技術支援部門特別指示，否則不得修改。
+>大部分的伺服器組態檔都包含本檔案未說明的其他屬性和值。 這些屬性供內部伺服器使用，除非Dynamic Media技術支援人員指示，否則不得修改。
 
 本檔案討論下列組態檔的設定：
 
@@ -32,7 +32,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <p> <span class="filepath"> SupervisorRegistry.xml</span> </p> </td> 
-   <td> <p>伺服器監督員組態。 </p> </td> 
+   <td> <p>伺服器管理員組態。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="filepath"> server.xml</span> </p> </td> 
@@ -44,7 +44,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <p> <span class="filepath"> catalog-service.conf</span> </p> </td> 
-   <td> <p>目錄服務設定。 </p> </td> 
+   <td> <p>目錄服務組態。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="filepath"> monitor.conf</span> </p> </td> 
@@ -57,4 +57,4 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-本檔案稍後會更詳細地討論組態檔。
+本檔案稍後將更詳細地討論組態檔。

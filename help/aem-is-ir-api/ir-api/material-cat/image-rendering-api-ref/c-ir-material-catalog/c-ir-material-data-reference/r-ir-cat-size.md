@@ -1,13 +1,13 @@
 ---
+title: 大小
 description: 貼花大小。 貼花材質物件的寬度、高度和厚度。
 solution: Experience Manager
-title: 大小
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 964cb4c1-5256-40eb-94ea-761916174b79
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '212'
 ht-degree: 4%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 4%
 
 以逗號分隔的三個實數。 不得為負數。 將未使用的值設為0。 可省略結尾的零。
 
-只有在影像應拉伸以符合指定大小時，才指定寬度和高度（外觀比例可能會變更）。 設定寬度或高度以按比例縮放影像。 將寬度和高度都設定為0以使用 `catalog::Resolution`以決定物件大小。
+只有在影像應拉伸以符合指定大小時，才指定寬度和高度（外觀比例可能會變更）。 設定寬度或高度以按比例縮放影像。 將寬度和高度都設為0以使用 `catalog::Resolution`以決定物件大小。
 
-提供厚度值，以將投影增加到貼花物件。 貼花材質的選擇性，被其他所有材質忽略。
+提供厚度值，將投影增加至貼花物件。 貼花材質的選擇性，被所有其他材質忽略。
 
 ## 預設 {#section-8029fe4dcbd1427db94a4fef1ccbbfd0}
 
@@ -33,7 +33,7 @@ ht-degree: 4%
 <table id="simpletable_E3503BD975F342C58DDB4C2B56BF0CEE"> 
  <tr class="strow"> 
   <td class="stentry"> <p>12,3 </p></td> 
-  <td class="stentry"> <p>貼花的尺寸強製為12x3英吋，且沒有厚度（這表示沒有投影）。 </p></td> 
+  <td class="stentry"> <p>貼花的大小強製為12x3英吋，且沒有厚度（也就是沒有投影）。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>0,5,1 </p></td> 

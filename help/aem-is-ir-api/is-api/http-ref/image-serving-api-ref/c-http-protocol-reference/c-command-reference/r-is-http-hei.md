@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c812c7f0-4ac1-42cb-be47-7baebd8caf60
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '282'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 2%
 
 如果兩者 `wid=` 和 `scl=` 指定，複合影像可根據 `align=`屬性。 時間 `fit=` 存在， `hei=` 指定精確、最小或最大回應影像高度；請參閱 [符合=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md) 以取得詳細資訊。
 
-如果 `scl=` 未指定，則會縮放複合影像以符合大小。 如果兩者 `wid=` 和 `hei=` 已指定，並且 `scl=` 未指定，則會縮放影像以完全符合wid/hei矩形，儘可能留下最小的背景區域顯示；在此情況下，影像會根據 `align=` 屬性。 背景區域已填滿 `bgc=`、或（若未透過指定） `attribute::BkgColor`.
+如果 `scl=` 未指定，則會縮放複合影像以符合大小。 如果兩者 `wid=` 和 `hei=` 已指定，並且 `scl=` 未指定，則會縮放影像以完全符合wid/hei矩形，儘可能留下最小的背景區域顯示。 在此情況下，影像會根據 `align=` 屬性。 背景區域已填滿 `bgc=`、或（若未透過指定） `attribute::BkgColor`.
 
 >[!NOTE]
 >
@@ -35,7 +35,7 @@ ht-degree: 2%
 
 ## 屬性 {#section-534923644a1e464496eeba83dedcbd3c}
 
-檢視屬性。 不論目前的圖層設定為何，皆會套用。
+檢視屬性。 無論目前的圖層設定為何，都適用。
 
 ## 預設 {#section-76544d34806d4124a8b173e229cba71f}
 
@@ -47,7 +47,7 @@ ht-degree: 2%
 
 `http://server/myRootId/myImageId?wid=200&hei=200&align=-1,-1`
 
-相同的影像，以200畫素的固定高度傳送，但具有符合影像外觀比例的可變寬度。 在此情況下，傳回的影像絕對不會有任何背景填滿區域。 請注意，在此案例中 `align=` 完全沒有效果。
+相同的影像，以200畫素的固定高度傳送，但具有符合影像外觀比例的可變寬度。 在此情況下，傳回的影像絕對不會有任何背景填滿區域。 而且在這個案例中， `align=` 完全沒有效果。
 
 `http://server/myRootId/myImageId?hei=200`
 

@@ -1,20 +1,20 @@
 ---
 title: op_hue
-description: 調整色相。 將圖層或複合影像的每個可見畫素的色相位移指定的數量。
+description: 調整影像色相。 將圖層或複合影像的每個可見畫素的色相位移指定的數量。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b436bd31-12a9-42ed-9ad3-5ff91e3ccce9
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '96'
 ht-degree: 1%
 
 ---
 
 # op_hue{#op-hue}
 
-調整色相。 將圖層或複合影像的每個可見畫素的色相位移指定的數量。
+調整影像色相。 將圖層或複合影像的每個可見畫素的色相位移指定的數量。
 
 `op_hue= *`調整`*`
 
@@ -25,7 +25,7 @@ ht-degree: 1%
  </tr> 
 </table>
 
-以360度色相範圍為基礎。
+以360度的色相範圍為基礎。
 
 ## 屬性 {#section-55779644700b4c808a624cdf5a04447e}
 

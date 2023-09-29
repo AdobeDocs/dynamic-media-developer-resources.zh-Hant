@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 451d8b4d-0f22-41f3-ac86-435797c23ea3
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 2%
@@ -21,7 +21,7 @@ ht-degree: 2%
 <table id="simpletable_072CA0E24B7146D48AEFD70E51E849C2"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> lr </span> </p> </td> 
-  <td class="stentry"> <p>水準翻轉圖層（左右翻轉）。 </p> </td> 
+  <td class="stentry"> <p>水準翻轉圖層（從左到右）。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> ud </span> </p> </td> 
@@ -33,13 +33,13 @@ ht-degree: 2%
  </tr> 
 </table>
 
-也可以套用至文字圖層。
+它也可以套用至文字圖層。
 
 某些命令，包括 `extend=`，在下述情況時隱含套用至圖層0，而非複合圖層 `layer=comp` 已選取。 在這種情況下，所有自動指派給圖層0的指令都會在套用至的指令之前套用 `layer=comp`. 因此，當 `layer=comp`， `extend=` 之前套用 `flip=`.
 
 >[!NOTE]
 >
->反向的圖層是根據圖層錨點來定位；當錨點不在圖層中央時，不同的反向值會產生不同的圖層位置。
+>翻轉的圖層會根據圖層錨點定位。 Different `flip=` 當錨點不在圖層的中心時，值會產生不同的圖層位置。
 
 ## 屬性 {#section-294da2af7be746b5adfc35e29ee68217}
 

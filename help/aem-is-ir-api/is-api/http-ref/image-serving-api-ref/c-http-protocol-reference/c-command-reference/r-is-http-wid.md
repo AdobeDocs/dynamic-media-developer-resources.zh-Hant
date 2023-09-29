@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ba22c79b-da59-4993-aa1c-2c990a0c4be5
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '271'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 檢視寬度。 指定請求中不存在fit=時回應影像（檢視影像）的寬度。
 
-` wid= *`val`*`
+`wid= *`val`*`
 
 <table id="simpletable_E217453246F5441C896C1F69EA4D4218"> 
  <tr class="strow"> 
@@ -39,15 +39,15 @@ ht-degree: 2%
 
 ## 屬性 {#section-c93b7ce1b0d2475f80b06264b45d1285}
 
-檢視屬性。 不論目前的圖層設定為何，皆會套用。
+檢視屬性。 無論目前的圖層設定為何，都適用。
 
 ## 範例 {#section-82bc98b7c15a451bbe9b915d414c0470}
 
-要求影像以符合200x200矩形；如果影像不是正方形，則由右上角對齊。 任何背景區域皆已填滿 `attribute::BkgColor`.
+要求影像以便能放入200x200矩形中；如果影像不是正方形，則由右上角對齊。 任何背景區域皆已填滿 `attribute::BkgColor`.
 
 ` http:// *`伺服器`*/myRootId/myImageId?wid=200&hei=200&align=1,-1`
 
-相同的影像，以200畫素的固定寬度傳送，但具有可變高度以維持影像的外觀比例。 在此情況下，傳回的影像絕對不會有任何背景填滿區域。 請注意，在此情況下， align=完全沒有效果。
+相同的影像，以200畫素的固定寬度傳送，但具有可變高度以維持影像的外觀比例。 在此情況下，傳回的影像絕對不會有任何背景填滿區域。 在這種情況下， `align=` 完全沒有效果。
 
 ` http:// *`伺服器`*/myRootId/myImageId?wid=200`
 

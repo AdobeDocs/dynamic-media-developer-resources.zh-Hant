@@ -1,13 +1,13 @@
 ---
+title: 資產摘要
 description: 包含資產相關摘要資訊的中繼資料搜尋結果。
 solution: Experience Manager
-title: 資產摘要
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 25f16a2b-6cd8-485f-a6bd-2a9bc9b3243b
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '123'
 ht-degree: 12%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 12%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| assetHandle | `xsd:string` | 資產控點。 |
+| assetHandle | `xsd:string` | 資產控制代碼。 |
 | type | `xsd:string` | 資產類型. 「資產型別」常數會定義可能的值。 選擇性. |
 | name | `xsd:string` | 資產名稱。 選擇性. |
 | 資料夾 | `xsd:string` | 包含資產的資料夾。 |
@@ -32,5 +32,5 @@ ht-degree: 12%
 | lastModified | `xsd:dateTime` | 上次更新資產的日期。 |
 | lastModifyUser | `xsd:string` | 上次修改資產的使用者。 |
 | metadataArray | `types:MetadataArray` | 與資產相關聯的中繼資料值陣列。 |
-| 分數 | `xsd:double` | 定義相似性搜尋時的精確度（0 =無相符專案，1 =完全相符）。 |
-| scoredetail | `xsd:string` | 在相似性搜尋的結果中保留有關類似區域的詳細資訊。 |
+| 分數 | `xsd:double` | 定義相似性搜尋的精確度（0 =沒有相符專案，1 =完全相符）。 |
+| scoreDetail | `xsd:string` | 它儲存相似搜尋結果中類似區域的詳細資訊。 |

@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9015d5f4-e42c-43e0-af85-fc9c278448e7
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '105'
 ht-degree: 4%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 4%
  </tr> 
 </table>
 
-伺服器會將值與的值比較 `catalog::Type` 的靜態內容專案。 如果值相符（區分大小寫），則會傳回專案給使用者端，否則會傳回錯誤。
+伺服器比較 `val` ，值為 `catalog::Type` 的靜態內容專案。 如果值相符（區分大小寫），則會傳回專案給使用者端，否則會傳回錯誤。
 
 ## 屬性 {#section-529b088434a44a9f86a64ef548d2925b}
 

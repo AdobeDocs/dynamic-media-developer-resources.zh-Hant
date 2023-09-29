@@ -1,20 +1,20 @@
 ---
-description: 「Scene 7影像伺服」包含下列元件
-solution: Experience Manager
 title: 影像伺服元件
+description: Dynamic Media影像伺服包含下列元件。
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 67dd37f3-b11e-42d6-b308-7c1e76a8f2a9
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '206'
 ht-degree: 2%
 
 ---
 
 # 影像伺服元件{#image-serving-components}
 
-「Scene 7影像伺服」包含下列元件：
+Dynamic Media影像伺服包含下列元件：
 
 <table id="table_534AF33FE5C4453EACAE0DF35E8E3B63"> 
  <thead> 
@@ -26,11 +26,11 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>伺服器監督員 </p> </td> 
-   <td colname="col2"> <p>負責啟動、停止及確保其他元件健康狀態的獨立可執行檔。 </p> </td> 
+   <td colname="col2"> <p>獨立的可執行檔，負責啟動、停止及確保其他元件的健康狀態。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Apache Tomcat </p> </td> 
-   <td colname="col2"> <p>為大部分的Java型元件提供環境。 </p> </td> 
+   <td colname="col2"> <p>它為大部分的Java型元件提供環境。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>監視/警示服務 </p> </td> 
@@ -46,19 +46,19 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p>影像伺服器 </p> </td> 
-   <td colname="col2"> <p>執行所有的影像處理和影像檔案I/O作業。 32位元和64位元可執行檔都適用於Linux （32位元僅適用於Windows）。 </p> </td> 
+   <td colname="col2"> <p>它會執行所有影像處理和影像檔案I/O作業。 32位元和64位元可執行檔都適用於Linux® （32位元僅適用於Windows）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ATE文字轉譯元件 </p> </td> 
-   <td colname="col2"> <p>文字演算服務的一或多個執行個體可能在使用中，當 <span class="codeph"> textPs=</span> 作業執行。 </p> </td> 
+   <td colname="col2"> <p>文字轉譯服務的一或多個執行個體可能在使用中： <span class="codeph"> textPs=</span> 操作執行。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>SVG演算元件 </p> </td> 
-   <td colname="col2"> <p>獨立式Java應用程式（非由Tomcat託管）。 </p> </td> 
+   <td colname="col2"> <p>獨立式Java™應用程式（非由Tomcat託管）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dynamic Media影像演算(亦稱為 演算伺服器) </p> </td> 
-   <td colname="col2"> <p>需要單獨的授權才能啟用。 HTTP存取於 <span class="filepath"> /ir/render</span>. 所有影像演算功能已整合至 [!DNL Platform Server] 和Image Server ，且沒有個別的可執行元件。 </p> </td> 
+   <td colname="col2"> <p>它需要單獨的授權才能啟用。 HTTP存取於 <span class="filepath"> /ir/render</span>. 所有影像演算功能皆已整合至 [!DNL Platform Server] 和影像伺服器，沒有單獨的可執行元件。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
