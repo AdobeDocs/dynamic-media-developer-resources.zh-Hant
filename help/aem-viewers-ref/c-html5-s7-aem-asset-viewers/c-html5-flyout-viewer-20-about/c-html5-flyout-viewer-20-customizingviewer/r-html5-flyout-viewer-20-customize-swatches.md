@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: 7040edf2-4356-4493-b886-8c5694f5863a
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 3%
@@ -18,11 +18,11 @@ ht-degree: 3%
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-只有當所有縮圖無法符合容器的寬度時，才會在案頭上顯示捲動按鈕。 在行動裝置上，或是縮圖可符合容器寬度，則不會顯示捲動按鈕。
+只有當所有縮圖無法符合容器的寬度時，才會在案頭上顯示捲動按鈕。 在行動裝置上，或縮圖可符合容器寬度時，捲動按鈕不會顯示。
 
 **色票的CSS屬性**
 
-色票容器的外觀是由下列CSS類別選取器所控制：
+色票容器的外觀可透過下列CSS類別選取器控制：
 
 ```
 .s7flyoutviewer .s7swatches
@@ -51,7 +51,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-範例 — 若要將色票設定為460 x 100畫素：
+範例 — 將色票設定為460 x 100畫素：
 
 ```
 .s7flyoutviewer .s7swatches { 
@@ -83,7 +83,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-範例 — 將間距設定為垂直和水平各為10畫素：
+範例 — 將間距設定為垂直和水平均為10畫素：
 
 ```
 .s7flyoutviewer .s7swatches .s7thumbcell { 
@@ -93,7 +93,7 @@ ht-degree: 3%
 
 **縮圖色票的CSS屬性**
 
-使用下列CSS類別選取器可控制個別縮圖的外觀：
+使用下列CSS類別選取器來控制個別縮圖的外觀：
 
 ```
 .s7flyoutviewer .s7swatches .s7thumb
@@ -124,9 +124,9 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->縮圖支援 `state` 屬性選擇器，用於將不同的外觀元素套用至不同的縮圖狀態。 尤其是， `state="selected"` 與目前顯示在主檢視中的影像縮圖相對應， `state="default"` 對應至其餘的縮圖，以及 `state="over"` 用於滑鼠游標暫留時。
+>縮圖支援 `state` 屬性選取器，用於將不同的外觀元素套用至不同的縮圖狀態。 尤其是， `state="selected"` 與目前顯示在主檢視中的影像縮圖相對應， `state="default"` 對應至其餘的縮圖，以及 `state="over"` 用於滑鼠懸停時。
 
-範例 — 若要設定56 x 56畫素的縮圖、淺灰色預設邊框和深灰色選取邊框：
+範例 — 若要設定56 x 56畫素的縮圖、淺灰色的預設框線以及選取的深灰色框線：
 
 ```
 .s7flyoutviewer .s7swatches .s7thumb { 
@@ -174,18 +174,18 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> 若使用CSS sprite，則定位在圖稿sprite內。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#section-0711ece44a4740168cfd7624c9010bd1" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
+   <td colname="col2"> <p> 若使用CSS拼寫，則定位在圖稿sprite內。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#section-0711ece44a4740168cfd7624c9010bd1" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按鈕支援 `state` 屬性選擇器，用於將不同的外觀元素套用至按鈕狀態 `up`， `down`， `over`、和 `disabled`.
+>此按鈕支援 `state` 屬性選取器，用於將不同的外觀元素套用至按鈕狀態 `up`， `down`， `over`、和 `disabled`.
 
-按鈕工具提示可以本地化。 另請參閱 [使用者介面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) 以取得詳細資訊。
+按鈕工具提示可本地化。 另請參閱 [使用者介面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) 以取得詳細資訊。
 
-範例 — 設定56 x 56畫素的捲動按鈕，並為每種狀態設定不同的圖稿：
+範例 — 設定56 x 56畫素的捲動按鈕，每個狀態都有不同的圖稿：
 
 ```
 .s7flyoutviewer .s7swatches .s7scrollleftbutton { 

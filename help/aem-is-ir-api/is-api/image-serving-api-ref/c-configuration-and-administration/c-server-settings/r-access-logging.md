@@ -1,44 +1,44 @@
 ---
-description: 使用這些伺服器設定進行記錄存取。
+description: 使用這些伺服器設定來記錄存取權。
 solution: Experience Manager
 title: 存取記錄
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: e677a617-115d-4f6e-9eb5-bdc14ad7ff24
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '673'
 ht-degree: 3%
 
 ---
 
 # 存取記錄{#access-logging}
 
-使用這些伺服器設定進行記錄存取。
+使用這些伺服器設定來記錄存取權。
 
 語法
 
 ## TC：：directory — 記錄檔資料夾 {#section-5d9e2168d4504bbe9868b7d6051c9d67}
 
-資料夾的 [!DNL Platform Server] 寫入記錄檔。 這可以是絕對路徑，也可以是相對於 *`install_folder`*. 預設為 [!DNL  *`install_folder`*/logs].
+要存放的資料夾 [!DNL Platform Server] 寫入記錄檔。 這可以是絕對路徑或相對路徑 *`install_folder`*. 預設為 [!DNL  *`install_folder`*/logs].
 
 >[!NOTE]
 >
->在變更此設定之前，必須先建立新資料夾。 如果「影像伺服」安裝成以root以外的使用者帳戶執行，請確定資料夾具有正確的讀取/寫入存取許可權。
+>必須先建立新資料夾，才能變更此設定。 如果「影像伺服」是安裝成以非root的使用者帳戶執行，請確定資料夾具有正確的讀取/寫入存取許可權。
 
 ## TC：：maxDays — 保留記錄檔的天數 {#section-45cbecffc5694c87b7d5c176a44a4885}
 
-記錄檔應保留的天數。 每天的午夜都會建立新的記錄檔。 此時，伺服器將刪除記錄檔資料夾中所有超過指定天數的檔案，包括由影像伺服器或轉譯伺服器寫入的檔案。 預設為 10。
+記錄檔應保留的天數。 每天的午夜都會建立新的記錄檔。 此時，伺服器會刪除記錄檔資料夾中所有超過指定天數的檔案，包括影像伺服器或轉譯伺服器所寫入的檔案。 預設為 10。
 
 ## TC：：prefix — 存取記錄檔名稱 {#section-1003856323b844049632710a5a056aa7}
 
-寫入存取記錄檔資料的檔案名稱前置詞。 日期和檔案字尾( [!DNL  *`yyyy`*-*`mm`*-*`dd`*.log])附加至指定的字串。 存取記錄檔的名稱必須與追蹤記錄檔的名稱不同。 預設為 &quot; `access-`&quot;.
+寫入存取記錄檔資料的檔案名稱首碼。 日期和檔案字尾( [!DNL  *`yyyy`*-*`mm`*-*`dd`*.log])附加至指定的字串。 存取記錄檔的名稱必須與追蹤記錄檔的名稱不同。 預設為 &quot; `access-`&quot;.
 
 ## TC：：pattern — 存取記錄模式 {#section-22775ea85cee444d8a7d7336a3b1feef}
 
-指定資料模式 [!DNL Platform Server] 存取記錄檔記錄。 圖樣字串會指定以對應值取代的變數。 模式字串中的所有其他字元會按字面意義傳輸到記錄中。
+指定資料模式 [!DNL Platform Server] 存取記錄檔記錄。 圖樣字串會指定用對應值取代的變數。 模式字串中的所有其他字元會按字面意義傳輸到記錄中。
 
-若要使用快取準備公用程式，必須將空格當作欄位分隔符號使用。 此 [!DNL Platform Server] 將欄位值中的所有空格和&#39;%&#39;字元取代為 `%20` 和 `%25`（分別）。
+若要使用快取預熱公用程式，必須將空格當作欄位分隔符號使用。 此 [!DNL Platform Server] 將欄位值中的所有空格和&#39;%&#39;字元取代為 `%20` 和 `%25`，依序輸入。
 
 支援下列模式變數：
 
@@ -60,11 +60,11 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %b </span> </p> </td> 
-   <td> <p>回應位元組計數不包括HTTP標頭，或如果為零則為' '。 </p> </td> 
+   <td> <p>回應位元組計數，不包括HTTP標頭；如果為零，則是' '。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %B </span> </p> </td> 
-   <td> <p>回應位元組計數，不包括HTTP標頭。 </p> </td> 
+   <td> <p>回應位元組計數，不包括HTTP標題。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %D </span> </p> </td> 
@@ -76,7 +76,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %G </span> </p> </td> 
-   <td> <p>日期和時間，格式為 <span class="codeph"> <span class="varname"> yyyy </span>- <span class="varname"> 公厘 </span>- <span class="varname"> dd </span> <span class="varname"> HH </span>： <span class="varname"> 公厘 </span>： <span class="varname"> ss </span>. <span class="varname"> SSS </span> offset </span> </p> <p> ( <span class="varname"> SSS </span> 為毫秒， <span class="varname"> offset </span> 是GMT時間位移)；會在將回應傳送至使用者端時擷取時間值。 </p> </td> 
+   <td> <p>日期和時間，格式為 <span class="codeph"> <span class="varname"> yyyy </span>- <span class="varname"> 公厘 </span>- <span class="varname"> dd </span> <span class="varname"> HH </span>： <span class="varname"> 公厘 </span>： <span class="varname"> ss </span>. <span class="varname"> SSS </span> offset </span> </p> <p> ( <span class="varname"> SSS </span> 為毫秒， <span class="varname"> offset </span> 是GMT時間差)；會在將回應傳送至使用者端時擷取時間值。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %m </span> </p> </td> 
@@ -92,15 +92,15 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %q </span> </p> </td> 
-   <td> <p>查詢字串（以「？」開頭） （如果存在）。 </p> </td> 
+   <td> <p>查詢字串（以「？」為前置詞） （如果存在的話）。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %r </span> </p> </td> 
-   <td> <p>第一行要求（要求方法、URI、HTTP版本）。 </p> </td> 
+   <td> <p>要求的第一行（要求方法、URI、HTTP版本）。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %R </span> </p> </td> 
-   <td> <p>與 <span class="codeph"> %r </span>，但會對URI套用有限的HTTP編碼，以避免記錄剖析問題。 </p> </td> 
+   <td> <p>與 <span class="codeph"> %r </span>，但會套用有限的HTTP編碼至URI，以避免記錄剖析問題。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %s </span> </p> </td> 
@@ -112,11 +112,11 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %t </span> </p> </td> 
-   <td> <p>日期和時間，使用一般記錄格式。 </p> </td> 
+   <td> <p>日期和時間，以一般記錄格式。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %u </span> </p> </td> 
-   <td> <p>已驗證的遠端使用者（如果有的話），否則"。 </p> </td> 
+   <td> <p>已驗證的遠端使用者（如果有的話），否則''。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %U </span> </p> </td> 
@@ -128,7 +128,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %T </span> </p> </td> 
-   <td> <p>要求處理時間（以秒為單位）。 </p> </td> 
+   <td> <p>要求處理時間（秒）。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{CacheKey}r </span> </p> </td> 
@@ -136,7 +136,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{CacheUse}r </span> </p> </td> 
-   <td> <p>[!DNL Platform Server] 快取管理關鍵字： <span class="codeph"> { REUSED |已建立 |已更新 |遠端 |遠端建立 |遠端更新 | REMOTE_CACHE |已驗證 |已忽略 |未定義} </span>. </p> </td> 
+   <td> <p>[!DNL Platform Server] 快取管理關鍵字： <span class="codeph"> { REUSED |已建立 |已更新 |遠端 |遠端建立 |遠端更新 |遠端快取 |已驗證 |已忽略 |未定義} </span>. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{ContentType}r </span> </p> </td> 
@@ -144,7 +144,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td> <p>%{Context}r </p> </td> 
-   <td> <p>如果前後關聯發生，則為目的地前後關聯。 </p> </td> 
+   <td> <p>如果發生轉寄內容，則為目的內容。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{Digest}r </span> </p> </td> 
@@ -160,11 +160,11 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{ParseTime}r </span> </p> </td> 
-   <td> <p>請求剖析和影像目錄查閱所花的時間。 </p> </td> 
+   <td> <p>請求剖析和影像目錄查閱所花費的時間。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{PathBasedAccess}r </span> </p> </td> 
-   <td> <p>指出此要求是否嘗試過目錄系統以外的任何路徑型存取。 </p> </td> 
+   <td> <p>表示此要求是否嘗試在目錄系統外部進行任何路徑型存取。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{PeerServer}r </span> </p> </td> 
@@ -174,7 +174,7 @@ ht-degree: 3%
    <td> <p> <span class="codeph"> %{ProcessingStatus}r </span> </p> </td> 
    <td> <p>錯誤類別： </p> <p> 
      <ul id="ul_BA2A18337D374939AC9BF2424247E40F"> 
-      <li id="li_0A2410F03E1A41078F8E8FDF34531810"> <p>0=無錯誤。 </p> </li> 
+      <li id="li_0A2410F03E1A41078F8E8FDF34531810"> <p>0=沒有錯誤。 </p> </li> 
       <li id="li_CCEE27F75BD34195895428188B2C30AA"> <p>1=在伺服器上找不到影像。 </p> </li> 
       <li id="li_315BBCC7B4C1443495C9C2B3F9800C1F"> <p> 2=IS通訊協定使用錯誤或1以外的內容錯誤。 </p> </li> 
       <li id="li_E028FFF165BD4535875F8684FCAF1859"> <p>3=其他伺服器錯誤。 </p> </li> 
@@ -183,7 +183,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{ReqType}r </span> </p> </td> 
-   <td> <p>的上限大小寫值 <span class="codeph"> req= </span>. </p> </td> 
+   <td> <p>「 」的上小寫值 <span class="codeph"> 需要= </span>. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{RootId}r </span> </p> </td> 
@@ -202,11 +202,11 @@ ht-degree: 3%
    <td> <p>所有規則集轉換後的最終URL。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{ <span class="varname"> httpRequestHeader </span>}i </span> </p> </td> 
+   <td> <p> <span class="codeph"> %{ <span class="varname"> Httrequestheader </span>}i </span> </p> </td> 
    <td> <p>指定HTTP要求標頭的值。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{ <span class="varname"> httpResponseHeader </span>} </span> </p> </td> 
+   <td> <p> <span class="codeph"> %{ <span class="varname"> Httpresponseheader </span>} </span> </p> </td> 
    <td> <p>指定的HTTP回應標頭的值。 </p> </td> 
   </tr> 
  </tbody> 

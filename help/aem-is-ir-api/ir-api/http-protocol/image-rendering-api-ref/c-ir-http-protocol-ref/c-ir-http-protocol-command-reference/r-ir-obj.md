@@ -1,20 +1,20 @@
 ---
 title: 物件
-description: 依名稱選取物件。 依名稱選取指定的暈映群組，並開始新的MSS。
+description: 依名稱選取物件。 依名稱選取指定的暈映群組，並啟動新的MSS。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 17387203-f7a7-4876-a15b-2084894f981d
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '140'
 ht-degree: 2%
 
 ---
 
 # 物件{#obj}
 
-依名稱選取物件。 依名稱選取指定的暈映群組，並開始新的MSS。
+依名稱選取物件。 依名稱選取指定的暈映群組，並啟動新的MSS。
 
 ` obj= *`名稱`*`
 
@@ -25,13 +25,13 @@ ht-degree: 2%
  </tr> 
 </table>
 
-子群組或個別物件可使用完全合格的群組路徑來選取(亦即，指定目標群組或物件的名稱，其前面有以/ （正斜線）分隔的所有父群組。
+子群組或個別物件可使用完全合格的群組路徑來選取(也就是指定目標群組或物件的名稱，其前面加上/ （正斜線）分隔)。
 
-如果找不到具有指定名稱的群組/物件，則指定的動作會位於 `attribute::OnObjFail` 已採用。
+如果找不到具有指定名稱的群組/物件，則指定的動作 `attribute::OnObjFail` 已採用。
 
 ## 屬性 {#section-9463b36e8ff74c81a70c7c2b58927430}
 
-選取範圍指令；MSS分隔符號。 物件選取項會持續存在，直到選取其他物件為止，或是使用 `obj=` 或 `sel=`.
+選取範圍指令；MSS分隔符號。 物件選取項會持續保留，直到選取其他物件為止，使用 `obj=` 或 `sel=`.
 
 群組/物件路徑和名稱不區分大小寫。
 

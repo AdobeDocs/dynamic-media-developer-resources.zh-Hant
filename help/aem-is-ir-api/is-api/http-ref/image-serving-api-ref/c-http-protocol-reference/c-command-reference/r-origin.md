@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 5ea8eb18-d169-4255-b4b1-dda849246485
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '160'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 2%
 >
 >圖層矩形一律包含任何修改 `extend=`.
 
-定義圖層矩形的對齊點，用來相對於圖層0透過定點陣圖層矩形 `pos=`. `originN=0,0` 將圖層原點放置在圖層矩形的中心。 `originN=-0.5,-0.5` 和 `origin=0,0` 是左上角，且 `originN=0.5,0.5` 是圖層矩形的右下角。
+定義圖層矩形的對齊點，此對齊點用來相對於圖層0定點陣圖層矩形，方式為 `pos=`. `originN=0,0` 將圖層原點放置在圖層矩形的中心。 `originN=-0.5,-0.5` 和 `origin=0,0` 是左上角，且 `originN=0.5,0.5` 是圖層矩形的右下角。
 
 ## 屬性 {#section-60f639e36ada43d1abc6bfc100afc925}
 

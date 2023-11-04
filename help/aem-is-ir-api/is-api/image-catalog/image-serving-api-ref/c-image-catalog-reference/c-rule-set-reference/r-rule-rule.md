@@ -1,20 +1,20 @@
 ---
 title: 規則
-description: 要求規則元素。 一或多個規則是選用的， <ruleset> 元素。
+description: 要求規則元素。 一或多個規則是選用的，位於 <ruleset> 元素。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 4fabd469-c80c-422a-80b0-3d31ce191d58
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '296'
 ht-degree: 6%
 
 ---
 
 # 規則{#rule}
 
-要求規則元素。 一或多個規則是選用的， `<ruleset>` 元素。
+要求規則元素。 一或多個規則是選用的，位於 `<ruleset>` 元素。
 
 ## 屬性 {#section-d4a3b0496c0c4aa5bd7da87203b9379b}
 
@@ -22,7 +22,7 @@ ht-degree: 6%
 
 `Replace = "first" | "all"`: 選擇性. 預設值為「first」。
 
-`RequestType` = *&quot;`types`&quot;*：選擇性。 指定套用規則的輸入內容。 *`types`* 是以逗號分隔的清單，可能包含下表所列的一或多個代號。 若 `RequestType` 未指定，則規則會套用至在所有支援的內容上收到的請求。
+`RequestType` = *&quot;`types`&quot;*：選填。 指定規則套用的輸入內容。 *`types`* 是以逗號分隔的清單，其中可能包含下表所列的一或多個代號。 如果 `RequestType` 未指定，規則會套用至在所有支援的內容上收到的要求。
 
 <table id="table_4935E1ED03624DA6AF3F8DC9AAA10237"> 
  <thead> 
@@ -41,19 +41,19 @@ ht-degree: 6%
   <tr> 
    <td> <p> <span class="codeph"> ir</span> </p> </td> 
    <td> <p> <span class="filepath"> /ir/render/</span> </p> </td> 
-   <td> <p>已套用至影像演算要求 </p> </td> 
+   <td> <p>套用至影像演算要求 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> 靜態</span> </p> </td> 
    <td> <p> <span class="filepath"> /is/content/</span> </p> </td> 
-   <td> <p>套用至靜態內容請求 </p> </td> 
+   <td> <p>套用至靜態內容要求 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **`Name = "text"`**: 選擇性. 用於識別 `<rule>` 偵錯記錄檔和錯誤訊息中的元素。
 
-`  *`屬性`* ="value"`：選擇性。 `<rule>` 元素可以任意組合來定義下列任何屬性。 如果已指定，且規則已成功比對，則將覆寫此請求的對應目錄屬性。 預設為 `RequestType="is"`.
+`  *`屬性`* ="value"`：選填。 `<rule>` 元素可以任意組合來定義下列任何屬性。 如果已指定，且規則已成功比對，則會覆寫此請求對應的目錄屬性。 預設為 `RequestType="is"`.
 
 <table id="table_67AED5BEADDF4DAC99B5EF46438C1ABC"> 
  <thead> 
@@ -65,7 +65,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 預設影像模式</span> </p> </td> 
-   <td> <p><a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultimagemode.md#reference-8a996af162f84e46bbe9e6e0d4e26782" type="reference" format="dita" scope="local"> 屬性：：DefaultImageMode</a> </p> </td> 
+   <td> <p><a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultimagemode.md#reference-8a996af162f84e46bbe9e6e0d4e26782" type="reference" format="dita" scope="local"> attribute：：DefaultImageMode</a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> ErrorImage</span> </p> </td> 
@@ -104,7 +104,7 @@ ht-degree: 6%
 
 如需詳細資訊，請參閱對應影像目錄屬性的說明。
 
-到期屬性只會覆寫預設屬性值。 如果特定的 `catalog::Expiration` 值會套用至要求。
+Expiration屬性只會覆寫預設屬性值。 如果特定的 `catalog::Expiration` 值會套用至要求。
 
 ## 資料 {#section-8fce013a4c724da58af3fee4e7a90e72}
 
@@ -129,10 +129,10 @@ ht-degree: 6%
 
 ## 附註 {#section-0c5fbc363070419d8c9800b0c02dc9f9}
 
-若兩者皆有 `<expression>` 和 `<substitution>` 中指定的子字串，且不會使用擷取的子字串，則第一個相符的子字串會取代為 `<substitution>`.
+如果兩者 `<expression>` 和 `<substitution>` 中指定的字串，且不會使用擷取的子字串，則第一個相符的子字串會被替換為 `<substitution>`.
 
-若 `<expression>` 未指定，任何路徑皆符合和 `<substitution>` 會附加至路徑的結尾。
+如果 `<expression>` 未指定，任何路徑皆符合和 `<substitution>` 會附加至路徑的結尾。
 
-若 `<substitution>` 未指定，不會發生路徑或查詢轉換，但會覆寫任何指定的目錄屬性。 若 `<substitution>` 空白，則會移除相符的子字串。
+如果 `<substitution>` 未指定，不會發生路徑或查詢轉換，但會覆寫任何指定的目錄屬性。 如果 `<substitution>` 空白，則會移除相符的子字串。
 
 此 `<addressfilter>` 只會在符合發生時套用，並在套用查詢規則之前套用。

@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 56951eb7-1e65-4c9d-8978-6c1fc22bb066
-source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '132'
 ht-degree: 0%
 
 ---
@@ -16,8 +16,8 @@ ht-degree: 0%
 
 檢視器支援全熒幕操作模式。
 
-在除了Internet Explorer 10及舊版以外的現代案頭瀏覽器上，以及在某些觸控裝置上，檢視器會使用「原生」全熒幕模式。 此模式表示檢視器內容會佔據整個裝置畫面。
+在除Internet Explorer 10及舊版以外的現代案頭瀏覽器上，以及在某些觸控裝置上，檢視器會使用「原生」全熒幕模式。 此模式表示檢視器內容會佔據整個裝置熒幕。
 
-在iOS裝置和舊版Internet Explorer瀏覽器上，檢視器會改用「模擬」全熒幕模式。 在此模式中，檢視器會調整大小以取得網頁瀏覽器視窗的完整區域。 此外，熒幕上仍會顯示網頁瀏覽器使用者介面和其他視窗。
+在iOS裝置和舊版Internet Explorer瀏覽器上，檢視器會改用「模擬」全熒幕模式。 在此模式中，檢視器會調整大小以取得網頁瀏覽器視窗的完整區域。 此外，熒幕上仍可看見網頁瀏覽器使用者介面和其他視窗。
 
-使用者在檢視器使用者介面中按下「全熒幕」按鈕，即可進入和離開全熒幕模式。 在案頭上使用「原生」全熒幕模式時，也可以按下來結束模式 **Esc**.
+使用者按一下檢視器使用者介面中的全熒幕按鈕，進入和離開全熒幕模式。 當桌上型電腦使用「原生」全熒幕模式時，您也可以按下「 」以結束 **Esc**.

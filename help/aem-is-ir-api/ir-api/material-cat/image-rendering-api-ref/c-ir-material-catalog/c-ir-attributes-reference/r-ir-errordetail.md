@@ -1,24 +1,24 @@
 ---
-title: ErrorDetail
+title: 錯誤詳細資料
 description: 錯誤訊息詳細資料。 指定透過HTTP傳回之錯誤訊息的詳細資訊層級為error.message值。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 39d7fc44-7605-4f93-b2f9-0a6e8bc76ec7
-source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '166'
 ht-degree: 4%
 
 ---
 
-# ErrorDetail{#errordetail}
+# 錯誤詳細資料{#errordetail}
 
 錯誤訊息詳細資料。 指定透過HTTP傳回之錯誤訊息的詳細資訊層級為error.message值。
 
 ## 標題 {#section-c10d75d72ee24d16a67cc8d927f1deba}
 
-允許使用下列值：
+允許的值如下：
 
 <table id="simpletable_7904444FF9F14D678F05094CA9E45664"> 
  <tr class="strow"> 
@@ -35,7 +35,7 @@ ht-degree: 4%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p></td> 
-  <td class="stentry"> <p>完整的偵錯資訊。 在適用時新增Java™棧疊追蹤。 錯誤影像絕不包含棧疊追蹤，而是傳回第2級資訊 <span class="codeph"> $error.message</span>. </p></td> 
+  <td class="stentry"> <p>完整的偵錯資訊。 新增Java™棧疊追蹤（如適用）。 錯誤影像絕不包含棧疊追蹤，而是傳回第2級資訊 <span class="codeph"> $error.message</span>. </p></td> 
  </tr> 
 </table>
 

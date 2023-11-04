@@ -1,18 +1,18 @@
 ---
 description: 靜態內容資料根路徑。 此影像目錄之靜態內容資料的根資料夾的絕對路徑或相對路徑區段。
 solution: Experience Manager
-title: StaticContentRootPath
+title: staticcontentrootpath
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 55ca44cd-4330-47e6-94cc-58c078d34bbd
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '113'
 ht-degree: 2%
 
 ---
 
-# StaticContentRootPath{#staticcontentrootpath}
+# staticcontentrootpath{#staticcontentrootpath}
 
 靜態內容資料根路徑。 此影像目錄之靜態內容資料的根資料夾的絕對路徑或相對路徑區段。
 
@@ -24,7 +24,7 @@ ht-degree: 2%
 
 ## 預設 {#section-0f741f90fd8d4758a43162c2b5c8a3a3}
 
-繼承自 `default::StaticContentsRootPath` 若未定義。 如果已定義但為空，將不會對來源檔案根路徑產生作用。
+繼承自 `default::StaticContentsRootPath` 若未定義。 如果已定義但空白，則不會對來源檔案根路徑產生任何影響。
 
 ## 另請參閱 {#section-9af8846d20d242789df67877f84ed8a7}
 

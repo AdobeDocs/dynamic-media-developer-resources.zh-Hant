@@ -5,9 +5,9 @@ title: 使用者資料
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b1d85ea6-0e12-49a8-b1dc-4c64a672770b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '183'
 ht-degree: 2%
 
 ---
@@ -25,18 +25,18 @@ ht-degree: 2%
  </tr> 
 </table>
 
-以下專案的內容： `catalog::UserData` 會傳回。 指定&#39;text&#39;格式時，所有實體 `??` 在 `catalog::UserData`取代為直線終止元，且單線終止元(CR/LF)會附加至末端。 如果URL路徑無法解析為有效的目錄專案，回應只會包含單行終止元。 要求&#39;xml&#39;或&#39;json&#39;格式時，會套用適當的格式設定。
+的內容 `catalog::UserData` 會傳回。 指定&#39;text&#39;格式時，所有的 `??` 在 `catalog::UserData`被線終止元取代，且單線終止元(CR/LF)附加至末端。 如果URL路徑無法解析為有效的目錄專案，回應只會包含單行終止元。 要求&#39;xml&#39;或&#39;json&#39;格式時，會套用適當的格式。
 
-請求字串中的其他命令會被忽略。
+會忽略請求字串中的其他命令。
 
-HTTP回應可使用以下依據的TTL快取： `catalog::Expiration`.
+HTTP回應可使用以下依據的TTL進行快取： `catalog::Expiration`.
 
 >[!NOTE]
 >
->使用者資料屬性索引鍵名稱中不允許冒號字元。
+>userdata屬性索引鍵名稱中不允許冒號字元。
 
-支援JSONP回應格式的請求可讓您使用擴充語法來指定JS回呼處理常式的名稱。 `req=` 引數：
+支援JSONP回應格式的請求可讓您使用擴充語法來指定JS回呼處理常式的名稱 `req=` 引數：
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` 是JSONP回應中呈現的JS處理常式名稱。 僅允許a-z、A-Z和0-9字元。 選擇性. 預設為 `s7jsonResponse`.
+`<reqHandler>` 是JSONP回應中出現的JS處理常式名稱。 僅允許a-z、A-Z和0-9字元。 選擇性. 預設為 `s7jsonResponse`.

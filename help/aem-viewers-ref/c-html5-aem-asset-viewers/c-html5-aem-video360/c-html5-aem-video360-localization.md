@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: d54fd841-2246-4d2e-8bf9-7da56f2487f3
-source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '481'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 檢視器顯示的某些內容可能會經過本地化。 這類內容包含使用者介面元素工具提示，以及在視訊無法播放時顯示的錯誤訊息。
 
-檢視器中可本地化的每個文字內容，都會以稱為SYMBOL的特殊檢視器SDK識別碼表示。 任何SYMBOL都有英文地區設定的預設關聯文字值( `"en"`)隨現成可用的檢視器提供。 它也可以視需要為許多區域設定設定使用者定義的值。
+檢視器中可本地化的每個文字內容，都會以稱為SYMBOL的特殊檢視器SDK識別碼表示。 任何SYMBOL都有英文地區設定的預設相關文字值( `"en"`)隨現成可用的檢視器提供。 您也可以視需要為多個地區設定使用者定義的值。
 
-當檢視器啟動時，它會檢查目前的地區設定，檢視地區設定的每個受支援的SYMBOL是否有使用者定義的值。 如果有的話，它會使用使用者定義的值；否則，會退回現成的預設文字。
+當檢視器啟動時，它會檢查目前的地區設定，檢視地區設定的每個受支援SYMBOL是否有使用者定義的值。 如果有的話，它會使用使用者定義的值；否則，它會回覆成現成的預設文字。
 
-使用者定義的本地化資料可作為本地化JSON物件傳遞至檢視器。 這類物件包含支援的語言環境清單、每個語言環境的SYMBOL文字值，以及預設語言環境。
+使用者定義的本地化資料可作為本地化JSON物件傳遞至檢視器。 此類物件包含支援的語言環境清單、每個語言環境的SYMBOL文字值，以及預設語言環境。
 
 以下是這類本地化物件的範例：
 
@@ -38,9 +38,9 @@ defaultLocale:"en"
 }
 ```
 
-在上述範例中，本地化物件會定義兩個地區設定( `"en"` 和 `"fr"`)並提供每個地區設定中兩個使用者介面元素的本地化。
+在上述範例中，本地化物件定義了兩種地區設定( `"en"` 和 `"fr"`)並提供每個地區設定中兩個使用者介面元素的當地語系化。
 
-網頁程式碼應將本地化物件傳遞給viewer建構函式，作為 `localizedTexts` 設定物件的欄位。 另一種選擇是呼叫 `setLocalizedTexts(localizationInfo)` 方法。
+網頁程式碼應將本地化物件傳遞至檢視器建構函式，作為 `localizedTexts` 設定物件的欄位。 另一種選擇是呼叫 `setLocalizedTexts(localizationInfo)` 方法。
 
 支援下列SYMBOL：
 
@@ -70,7 +70,7 @@ defaultLocale:"en"
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> VideoScrubber.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>視訊筆畫壓感器。 </p> </td> 
+   <td colname="col2"> <p>視訊筆畫壓感。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> VideoTime.TOOLTIP </span> </p> </td> 

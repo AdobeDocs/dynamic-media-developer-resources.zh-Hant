@@ -1,20 +1,20 @@
 ---
-description: 屬性集是應用程式專用的名稱 — 值組集合，可根據屬性集型別附加到各種IPS物件。 如果屬性集型別不允許將多個集合附加至物件(PropertySetType/allowMultipleisfalse)，而且物件已經有相同型別的關聯集合，則新集合會取代現有集合。
+description: 屬性集是應用程式專屬的名稱值組集合，可根據屬性集型別附加到各種IPS物件。 如果屬性集型別不允許將多個集合附加到物件(PropertySetType/allowMultipleisfalse)，而且物件已經有相同型別的關聯集合，則新集合會取代現有集合。
 solution: Experience Manager
 title: createPropertySet
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e9f85e65-4a2f-4b82-b7b8-d0d60b8345cd
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '213'
 ht-degree: 8%
 
 ---
 
 # createPropertySet{#createpropertyset}
 
-屬性集是應用程式專用的名稱 — 值組集合，可根據屬性集型別附加到各種IPS物件。 如果屬性集型別不允許將多個集合附加至物件(PropertySetType/allowMultipleisfalse)，而且物件已經有相同型別的關聯集合，則新集合會取代現有集合。
+屬性集是應用程式專屬的名稱值組集合，可根據屬性集型別附加到各種IPS物件。 如果屬性集型別不允許將多個集合附加到物件(PropertySetType/allowMultipleisfalse)，而且物件已經有相同型別的關聯集合，則新集合會取代現有集合。
 
 語法
 

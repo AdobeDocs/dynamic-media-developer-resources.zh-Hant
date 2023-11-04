@@ -1,22 +1,22 @@
 ---
-description: 影像地圖資料。 無或更多完整HTML <area> 元素，由前到後排序。
+description: 影像地圖資料。 沒有或以上完整的HTML <area> 元素，由前到後排序。
 solution: Experience Manager
 title: 地圖
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e9490b5c-0f85-4256-8590-0d6aa52a19d5
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '130'
 ht-degree: 4%
 
 ---
 
 # 地圖{#map}
 
-影像地圖資料。 無或更多完整HTML `<AREA>` 元素，由前到後排序。
+影像地圖資料。 沒有或以上完整的HTML `<AREA>` 元素，由前到後排序。
 
-伺服器將解譯並可能變更SHAPE和COORDS屬性。 （此版本不支援SHAPE=CIRCLE。） 所有其他屬性 `<AREA>` 傳遞而不修改。 使用COORDS屬性指定的座標值必須是未修改來源影像左上角的畫素位移。 (`%` 此版本不支援座標，且可能無法正確處理。)
+伺服器會解譯並可能變更SHAPE和COORDS屬性（此版本不支援SHAPE=CIRCLE）。 所有其他屬性 `<AREA>` 傳遞而不修改。 以COORDS屬性指定的座標值必須是未修改來源影像左上角的畫素位移。 (`%` 此版本不支援座標，且可能無法正確處理。)
 
 ## 屬性 {#section-f52d89fd399b4356ac05277e6c12f956}
 
@@ -30,4 +30,4 @@ ht-degree: 4%
 
 ## 另請參閱 {#section-d66a32e1f12f4cb0ad22ddd78be36ec4}
 
-[對應=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-map.md) ， [req=map](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md)， [文字字串本地化](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)
+[地圖=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-map.md) ， [req=map](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md)， [文字字串本地化](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)

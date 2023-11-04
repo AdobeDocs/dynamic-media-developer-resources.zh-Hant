@@ -1,12 +1,12 @@
 ---
 title: 影像伺服器範例
-description: 此頁面將連結至影像伺服器範例。
+description: 此頁面應連結至影像伺服器範例。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 17c933f1-5f61-4f22-88d4-6295a2d13a01
 hidefromtoc: true
-source-git-commit: 34be28b2768426da6387dafd0d28805c3e84a12c
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '22'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 影像伺服器範例{#image-server-examples}
 
-本主題將連結至影像伺服器範例。
+此主題應連結至影像伺服器範例。
 <!-- As of August 29 (and likely months or years before this date), none of the links below work anymore! -->
 
 

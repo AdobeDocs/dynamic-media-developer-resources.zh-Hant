@@ -1,22 +1,22 @@
 ---
 title: 目錄屬性檔案
-description: 目錄屬性檔案可以有任何名稱，但必須有.ini檔案字尾。 任何文字編輯器都可以隨時維護這些文字。
+description: 目錄屬性檔案可以有任何名稱，但必須有.ini檔案字尾。 您可以使用任何文字編輯器隨時維護這些標籤。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8b5afb99-3201-4e43-93e7-e8998354204f
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
 
 # 目錄屬性檔案{#catalog-attribute-files}
 
-目錄屬性檔案可以有任何名稱，但必須有 `.ini` 檔案字尾。 任何文字編輯器都可以隨時維護這些文字。
+目錄屬性檔案可以有任何名稱，但必須有 `.ini` 檔案字尾。 您可以使用任何文字編輯器隨時維護這些標籤。
 
-目錄屬性檔案由一組文字記錄組成，以單一分隔 `<CR>` （ASCII代碼0xD），單 `<LF>` （ASCII代碼0xA）或 `<CR><LF>` 配對。 每個記錄都包含一個屬性名稱以及一或多個以逗號分隔的屬性值：
+目錄屬性檔案包含一組文字記錄，並以單一檔案分隔 `<CR>` （ASCII代碼0xD），單 `<LF>` （ASCII代碼0xA）或 `<CR><LF>` 配對。 每個記錄都包含一個屬性名稱以及一或多個以逗號分隔的屬性值：
 
 `*`名稱`*= *`值`*&#42;[, *`值`*]{<CR>|<LF>|<CR><LF>}`
 

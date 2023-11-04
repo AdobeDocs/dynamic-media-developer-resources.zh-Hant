@@ -1,26 +1,26 @@
 ---
 title: 全熒幕按鈕
-description: 讓檢視器在使用者選取時進入或退出全熒幕模式。 此按鈕會出現在主控制列中。 如果檢視器在快顯視窗模式下運作且系統不支援原生全熒幕，則不會顯示此按鈕。 您可以利用CSS調整按鈕的大小、外觀和位置。
+description: 讓檢視器在使用者選取時進入或退出全熒幕模式。 此按鈕會出現在主控制列中。 如果檢視器在快顯視窗模式下運作且系統不支援原生全熒幕，則不會顯示此按鈕。 您可以調整按鈕的大小、外觀並透過CSS加以定位。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 3f56fbd2-4d2e-4cfa-bc97-350bc2bb708e
-source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '315'
 ht-degree: 2%
 
 ---
 
 # 全熒幕按鈕{#full-screen-button}
 
-讓檢視器在使用者選取時進入或退出全熒幕模式。 此按鈕會出現在主控制列中。 如果檢視器在快顯視窗模式下運作且系統不支援原生全熒幕，則不會顯示此按鈕。 您可以利用CSS調整按鈕的大小、外觀和位置。
+讓檢視器在使用者選取時進入或退出全熒幕模式。 此按鈕會出現在主控制列中。 如果檢視器在快顯視窗模式下運作且系統不支援原生全熒幕，則不會顯示此按鈕。 您可以調整按鈕的大小、外觀並透過CSS加以定位。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **主要檢視器區域的CSS屬性**
 
-按鈕的外觀由下列CSS類別選取器控制：
+使用下列CSS類別選取器來控制按鈕的外觀：
 
 `.s7ecatalogviewer .s7fullscreenbutton`
 
@@ -46,7 +46,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 底部 </span> </p> </td> 
-   <td colname="col2"> <p>從主控制列的底部邊框定位，包括內距。 </p> </td> 
+   <td colname="col2"> <p>從主要控制列的底部邊框定位，包括內距。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -62,7 +62,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> 若使用CSS sprite，則定位在圖稿sprite內。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
+   <td colname="col2"> <p> 若使用CSS拼寫，則定位在圖稿sprite內。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -73,7 +73,7 @@ ht-degree: 2%
 
 按鈕工具提示可以本地化。 另請參閱 [使用者介面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以取得詳細資訊。
 
-範例 — 設定全熒幕按鈕，其位置為28 x 28畫素，距主控列的底部4畫素，距右邊緣5畫素。 最後，選取或未選取時，針對四種不同按鈕狀態顯示不同的影像。
+範例 — 設定28 x 28畫素的全熒幕按鈕，其位置從底部起4畫素，從主控列的右邊緣起5畫素。 最後，選取或未選取時，針對四種不同按鈕狀態分別顯示不同的影像。
 
 ```
 .s7ecatalogviewer .s7fullscreenbutton { 

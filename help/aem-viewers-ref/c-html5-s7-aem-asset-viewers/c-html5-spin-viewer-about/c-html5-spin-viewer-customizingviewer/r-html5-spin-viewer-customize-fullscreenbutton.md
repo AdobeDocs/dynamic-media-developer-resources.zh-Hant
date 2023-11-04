@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: c57f42e1-93c0-44fa-9734-9599786ee246
-source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '279'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 **主要檢視器區域的CSS屬性**
 
-按鈕的外觀由下列CSS類別選取器控制：
+使用下列CSS類別選取器來控制按鈕的外觀：
 
 ```
 .s7spinviewer .s7fullscreenbutton
@@ -64,7 +64,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p>若使用CSS sprite，則定位在圖稿sprite內。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#section-b671c70acf284cb0aea678c2d2e4babc" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
+   <td colname="col2"> <p>若使用CSS拼寫，則定位在圖稿sprite內。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#section-b671c70acf284cb0aea678c2d2e4babc" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -75,7 +75,7 @@ ht-degree: 2%
 
 按鈕工具提示可以本地化。 另請參閱 [使用者介面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-localization.md#concept-e35c15c9e82648328806cdc6aa255d98) 以取得詳細資訊。
 
-範例 — 若要設定全熒幕按鈕，其大小為32 x 32畫素，且位置為檢視器上邊緣與右邊緣的6個畫素。 最後，選取或未選取時，針對四種不同按鈕狀態顯示不同的影像：
+範例 — 設定32 x 32畫素的全熒幕按鈕，並從檢視器的上邊緣與右邊緣放置6個畫素。 最後，選取或未選取時，針對四種不同按鈕狀態分別顯示不同影像：
 
 ```
 .s7spinviewer .s7fullscreenbutton { 

@@ -1,26 +1,26 @@
 ---
 title: 使用者介面元素的本地化
-description: Interactive Video Viewer顯示的某些內容必須經過本地化。 這類內容包含使用者介面元素工具提示，以及在視訊無法播放時顯示的錯誤訊息。
+description: Interactive Video Viewer所顯示的某些內容必須經過本地化。 此類內容包含使用者介面元素工具提示，以及在視訊無法播放時顯示的錯誤訊息。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: d293c385-d355-4d9e-9fe9-8ef35fef60bf
-source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
 
 # 使用者介面元素的本地化{#localization-of-user-interface-elements}
 
-Interactive Video Viewer顯示的某些內容必須經過本地化。 這類內容包含使用者介面元素工具提示，以及在視訊無法播放時顯示的錯誤訊息。
+Interactive Video Viewer所顯示的某些內容必須經過本地化。 此類內容包含使用者介面元素工具提示，以及在視訊無法播放時顯示的錯誤訊息。
 
-檢視器中可本地化的每個文字內容，都會以稱為SYMBOL的特殊檢視器SDK識別碼表示。 任何SYMBOL都有預設的英文地區設定相關文字值( `"en"`)隨現成可用的檢視器提供。 它也可以視需要為許多區域設定設定使用者定義的值。
+檢視器中可本地化的每個文字內容，都會以名為SYMBOL的特殊檢視器SDK識別碼表示。 任何SYMBOL都有英文地區設定的預設相關文字值( `"en"`)隨現成可用的檢視器提供。 您也可以視需要為多個地區設定使用者定義的值。
 
-當檢視器啟動時，它會檢查目前的地區設定，檢視此類地區設定的每個受支援的SYMBOL是否有使用者定義的值。 如果有的話，它會使用使用者定義的值；否則，會退回現成的預設文字。
+當檢視器啟動時，它會檢查目前的地區設定，檢視此類地區設定的每個受支援SYMBOL是否有使用者定義的值。 如果有的話，它會使用使用者定義的值；否則，它會回覆成現成的預設文字。
 
-使用者定義的本地化資料可作為本地化JSON物件傳遞至檢視器。 這類物件包含支援的語言環境清單、每個語言環境的SYMBOL文字值，以及預設語言環境。
+使用者定義的本地化資料可作為本地化JSON物件傳遞至檢視器。 此類物件包含支援的語言環境清單、每個語言環境的SYMBOL文字值，以及預設語言環境。
 
 以下是這類本地化物件的範例：
 
@@ -38,9 +38,9 @@ defaultLocale:"en"
 }
 ```
 
-在上述範例中，本地化物件會定義兩個地區設定( `"en"` 和 `"fr"`)並提供每個地區設定中兩個使用者介面元素的本地化。
+在上述範例中，本地化物件會定義兩個地區設定( `"en"` 和 `"fr"`)並提供每個地區設定中兩個使用者介面元素的當地語系化。
 
-網頁程式碼應將本地化物件傳遞至檢視器建構函式，其值為 `localizedTexts` 設定物件的欄位。 另一種選擇是呼叫，傳遞本地化物件 `setLocalizedTexts(localizationInfo)` 方法。
+網頁程式碼應將本地化物件傳遞至檢視器建構函式，其值為 `localizedTexts` 設定物件的欄位。 另一種選擇是呼叫以傳遞本地化物件 `setLocalizedTexts(localizationInfo)` 方法。
 
 支援下列SYMBOL：
 
@@ -70,7 +70,7 @@ defaultLocale:"en"
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> VideoScrubber.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>視訊筆畫壓感器。 </p> </td> 
+   <td colname="col2"> <p>視訊筆畫壓感。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> VideoTime.TOOLTIP </span> </p> </td> 
@@ -86,7 +86,7 @@ defaultLocale:"en"
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_VOLUME </span> </p> </td> 
-   <td colname="col2"> <p> 透過ARIA公開的音量滑桿旋鈕標籤 <span class="codeph"> aria-valuetext </span> 屬性。 </p> </td> 
+   <td colname="col2"> <p> 透過ARIA顯示音量滑桿旋鈕標籤 <span class="codeph"> aria-valuetext </span> 屬性。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_SELECTED </span> </p> </td> 
@@ -138,7 +138,7 @@ defaultLocale:"en"
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.CANCEL </span> </p> </td> 
-   <td colname="col2"> <p>取消按鈕的註解。 </p> </td> 
+   <td colname="col2"> <p>取消按鈕的標題。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP_CANCEL </span> </p> </td> 
@@ -146,7 +146,7 @@ defaultLocale:"en"
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.ACTION </span> </p> </td> 
-   <td colname="col2"> <p>全選按鈕的註解。 </p> </td> 
+   <td colname="col2"> <p>全選按鈕的標題。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP_ACTION </span> </p> </td> 

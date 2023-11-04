@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 1df99614-9493-4c8a-bc51-4426b8c5467a
-source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '303'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 **主要檢視器區域的CSS屬性**
 
-按鈕的外觀由下列CSS類別選取器控制：
+使用下列CSS類別選取器來控制按鈕的外觀：
 
 ```
 .s7mixedmediaviewer .s7fullscreenbutton
@@ -64,7 +64,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> 若使用CSS sprite，則定位在圖稿sprite內。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
+   <td colname="col2"> <p> 若使用CSS拼寫，則定位在圖稿sprite內。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -75,7 +75,7 @@ ht-degree: 2%
 
 按鈕工具提示可以本地化。 另請參閱 [使用者介面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) 以取得詳細資訊。
 
-範例 — 若要設定全熒幕按鈕，其大小為32 x 32畫素，且位置為檢視器上邊緣與右邊緣的6個畫素。 最後，選取或未選取時，針對四種不同按鈕狀態顯示不同的影像：
+範例 — 設定32 x 32畫素的全熒幕按鈕，並從檢視器的上邊緣與右邊緣放置6個畫素。 最後，選取或未選取時，針對四種不同按鈕狀態分別顯示不同影像：
 
 ```
 .s7mixedmediaviewer .s7fullscreenbutton { 

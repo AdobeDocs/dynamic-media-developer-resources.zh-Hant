@@ -1,26 +1,26 @@
 ---
 title: 全熒幕按鈕
-description: 使用者按一下全熒幕按鈕時，視訊播放器會進入或退出全熒幕模式。
+description: 當使用者按一下全熒幕按鈕時，全熒幕按鈕會讓視訊播放器進入或退出全熒幕模式。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: ed9c9d37-f871-4094-9c6e-931d0f6edff1
-source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '237'
 ht-degree: 2%
 
 ---
 
 # 全熒幕按鈕{#full-screen-button}
 
-使用者按一下全熒幕按鈕時，視訊播放器會進入或退出全熒幕模式。
+當使用者按一下全熒幕按鈕時，全熒幕按鈕會讓視訊播放器進入或退出全熒幕模式。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-您可以相對於包含全熒幕按鈕的控制列，使用CSS調整全熒幕按鈕的大小、外觀和位置。
+您可以透過CSS調整全熒幕按鈕的大小、外觀和位置（相對於包含該按鈕的控制列）。
 
-全熒幕按鈕的外觀由CSS類別選取器控制：
+全熒幕按鈕的外觀可透過CSS類別選取器控制：
 
 ```
 .s7interactivevideoviewer .s7fullscreenbutton
@@ -60,7 +60,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> 若使用CSS sprite，則定位在圖稿sprite內。 </p> <p>另請參閱 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
+   <td colname="col2"> <p> 若使用CSS拼寫，則定位在圖稿sprite內。 </p> <p>另請參閱 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -73,7 +73,7 @@ ht-degree: 2%
 
 ## 範例 {#section-e8caea0a303c425a8a637c2a47c06355}
 
-若要設定全熒幕按鈕，其大小為32 x 32畫素，且位於距離控制列上邊緣與右邊緣6畫素的位置。 此外，選取或未選取時，針對四種不同按鈕狀態分別顯示不同的影像。
+若要設定全熒幕按鈕，其大小為32 x 32畫素，且位於控制列上緣與右緣6個畫素的位置。 此外，選取或未選取時，針對四種不同按鈕狀態分別顯示不同的影像。
 
 ```
 .s7interactivevideoviewer . s7fullscreenbutton { 

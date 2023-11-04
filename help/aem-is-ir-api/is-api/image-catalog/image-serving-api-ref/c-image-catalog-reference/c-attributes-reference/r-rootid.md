@@ -5,9 +5,9 @@ title: RootId
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9224f06d-28a9-4a23-9a3a-735b2b9f87ff
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '68'
 ht-degree: 5%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 5%
 
 ## 預設 {#section-c5296f4e52394984bf1c0d265ecde940}
 
-無. 每個目錄都必須有唯一的 `attribute::RootId` 值。 [!DNL default.ini] 通常具有空白 `attribute::RootId`.
+無. 每個目錄必須具有唯一 `attribute::RootId` 值。 [!DNL default.ini] 通常具有空白 `attribute::RootId`.
 
 ## 另請參閱 {#section-5297eaaf736b4db5901e0b37e7cb8bbe}
 

@@ -1,24 +1,24 @@
 ---
-description: 材料型別。 材料的曲面型別。 與目錄「光澤度」和目錄「粗糙度」搭配使用以控制3D反射彩現效果。
+description: 材質型別。 材料的曲面型別。 搭配使用目錄「光澤度」和目錄「粗糙度」來控制3D反射彩現效果。
 solution: Experience Manager
 title: 類型
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 912e2535-9980-4174-bca7-f44789eb39b4
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '132'
 ht-degree: 19%
 
 ---
 
 # 類型{#type}
 
-材料型別。 材料的曲面型別。 搭配catalog：：Gloss和catalog：：Roughtness使用，可控制3D反射彩現效果。
+材質型別。 材料的曲面型別。 搭配catalog：：Gloss和catalog：：Roughtness使用，可控制3D反射彩現效果。
 
 ## 屬性 {#section-86e8bc194f764c848e0ee55630a5ac1b}
 
-列舉。 所有材料均可選用。 如果暈映沒有3D反射演算功能，則忽略。
+列舉。 所有材質均可選用。 如果暈映沒有3D反射演算功能，則忽略。
 
 <table id="simpletable_85BF61871CAA420B92B855AAB8FACA2C"> 
  <tr class="strow"> 
@@ -95,7 +95,7 @@ ht-degree: 19%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>18 </p> </td> 
-  <td class="stentry"> <p>透明織物。 </p> </td> 
+  <td class="stentry"> <p>薄紗。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>19 </p> </td> 
@@ -105,7 +105,7 @@ ht-degree: 19%
 
 ## 預設 {#section-247f73b22cb846b7b7d7cc6e8af949ca}
 
-0；伺服器會根據其他材質屬性來決定合適的預設值。
+0；伺服器會根據其他材質屬性來決定適當的預設值。
 
 ## 另請參閱 {#section-a51850093b7140e683a0f8b07845843c}
 

@@ -6,7 +6,7 @@ contentOwner: Rick Brough
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: e4543358-92a6-4acc-a8a2-227e1daea722
-source-git-commit: 7793e9befcf3050b9f4e12deeffa018d7c91aaf7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 1%
@@ -25,10 +25,10 @@ Dynamic Media HTML5檢視器的系統需求。
 
 <!-- Updated March 03, 2022 Contact is now Deepa Gupta -->
 
-* Adobe Dynamic Media Image Serving 6.7.1或更新版本。
+* AdobeDynamic Media Image Serving 6.7.1或更新版本。
 * HTML5檢視器需要SDK JavaScript伺服器端程式庫3.11.5或更新版本。
-* *傳送電子郵件給朋友* 社交功能需要s7ondemand 5.0.9或更新版本。
-* eCatalog檢視器 —  [資訊面板快顯視窗](/help/aem-viewers-ref/c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-infopanelpopup.md) 支援需要info server 2.1.8或更新版本。
+* *傳送電子郵件給朋友* 社交功能需使用s7ondemand 5.0.9或更新版本。
+* eCatalog檢視器 —  [資訊面板快顯功能表](/help/aem-viewers-ref/c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-infopanelpopup.md) 支援需要資訊伺服器2.1.8或更新版本。
 * 搜尋功能元件需要s7search 2.3.0或更新版本。
 
 ## 檢視器系統需求 {#section-cc72b1e209524d038b4d5b92b35e998e}
@@ -78,7 +78,7 @@ Dynamic Media HTML5檢視器的系統需求。
 
 <!-- CQDOC-19433 -->
 
-自2022年9月30日起，AdobeDynamic Media檢視器將停止支援下列專案：
+自2022年9月30日起，Adobe Dynamic Media Viewers已停止支援下列專案：
 
 * TLS （傳輸層安全性） 1.0和1.1
 * TLS 1.2中的下列弱加密：
@@ -101,7 +101,7 @@ Dynamic Media HTML5檢視器的系統需求。
 
 <!-- CQDOC-19433 -->
 
-AdobeDynamic Media檢視器不支援下列網頁瀏覽器和作業系統組合：
+Adobe Dynamic Media檢視器不支援下列網頁瀏覽器和作業系統組合：
 
 * Internet Explorer 11 + Windows 7
 * Internet Explorer 11 + Windows 8.1
@@ -119,19 +119,19 @@ AdobeDynamic Media檢視器不支援下列網頁瀏覽器和作業系統組合�
 NOTE
 Effective September 30, 2018, Adobe Dynamic Media Classic Viewers ended support of Transport Layer Security 1.0 (TLS 1.0). As such, Dynamic Media Classic no longer supports viewers on the following browsers/platforms that support TLS 1.0 (Adobe recommends using TLS 1.2 or later):
 
-* Android™ 2.3.7
-* Android™ 4.0.4
-* Android™ 4.1.1
-* Android™ 4.2.2
-* Android™ 4.3
-* Internet Explorer 7 on Window Vista®
-* Internet Explorer 8 on Windows® XP
-* Internet Explorer 8-10 on Windows® 7
-* Internet Explorer 10 on Windows® Phone 8.0
+* Android&trade; 2.3.7
+* Android&trade; 4.0.4
+* Android&trade; 4.1.1
+* Android&trade; 4.2.2
+* Android&trade; 4.3
+* Internet Explorer 7 on Window Vista&reg;
+* Internet Explorer 8 on Windows&reg; XP
+* Internet Explorer 8-10 on Windows&reg; 7
+* Internet Explorer 10 on Windows&reg; Phone 8.0
 * Safari 5.1.9 on Apple OS X 10.6.8
 * Safari 6.0.4 on Apple OS X 10.8.4
-* Java™ 6u45
-* Java™ 7u25
+* Java&trade; 6u45
+* Java&trade; 7u25
 * OpenSSL 0.9.8y
 * Baidu January 2015
 

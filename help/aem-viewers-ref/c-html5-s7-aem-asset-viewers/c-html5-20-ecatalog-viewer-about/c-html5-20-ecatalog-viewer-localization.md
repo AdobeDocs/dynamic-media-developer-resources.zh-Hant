@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 1d7e9eba-b30c-4f85-b551-6842f73dc22c
-source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '951'
+source-wordcount: '945'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 eCatalog Viewer顯示的特定內容必須經過本地化，包括縮放按鈕、頁面變更按鈕、縮圖按鈕、全熒幕按鈕、關閉按鈕和卷軸按鈕。
 
-檢視器中可本地化的每個文字內容，都會以稱為SYMBOL的特殊檢視器SDK識別碼表示。 任何SYMBOL都有英文地區設定的預設關聯文字值( `"en"`)隨附立即可用的檢視器，而且可能視需要為許多語言環境設定使用者定義的值。
+檢視器中可本地化的每個文字內容，都會以稱為SYMBOL的特殊檢視器SDK識別碼表示。 任何SYMBOL都有英文地區設定的預設相關文字值( `"en"`)隨附現成可用的檢視器，而且可能也會視需要為許多語言環境設定使用者定義的值。
 
-當檢視器啟動時，它會檢查目前的地區設定，檢視地區設定中每個支援的SYMBOL是否有使用者定義的值。 如果有的話，它會使用使用者定義的值；否則，會退回現成的預設文字。
+當檢視器啟動時，它會檢查目前的地區設定，檢視地區設定中每個支援的SYMBOL是否有使用者定義的值。 如果有的話，它會使用使用者定義的值；否則，它會回覆成現成的預設文字。
 
-使用者定義的本地化資料可作為本地化JSON物件傳遞至檢視器。 這類物件包含支援的語言環境清單、每個語言環境的SYMBOL文字值，以及預設語言環境。
+使用者定義的本地化資料可作為本地化JSON物件傳遞至檢視器。 此類物件包含支援的語言環境清單、每個語言環境的SYMBOL文字值，以及預設語言環境。
 
 這類本地化物件的範例：
 
@@ -38,9 +38,9 @@ defaultLocale:"en"
 }
 ```
 
-在上述範例中，本地化物件會定義兩個地區設定( `"en"` 和 `"fr"`)並提供每個地區設定中兩個使用者介面元素的本地化。
+在上述範例中，本地化物件會定義兩個地區設定( `"en"` 和 `"fr"`)並提供每個地區設定中兩個使用者介面元素的當地語系化。
 
-網頁程式碼應將此類本地化物件傳遞至檢視器建構函式，當做值 `localizedTexts` 設定物件的欄位。 另一種選擇是呼叫，傳遞本地化物件 `setLocalizedTexts(localizationInfo)` 方法。
+網頁程式碼應將此類本地化物件傳遞至檢視器建構函式，做為的值 `localizedTexts` 設定物件的欄位。 另一種選擇是呼叫以傳遞本地化物件 `setLocalizedTexts(localizationInfo)` 方法。
 
 支援下列SYMBOL （假設containerId是檢視器容器的ID）：
 
@@ -102,7 +102,7 @@ defaultLocale:"en"
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_leftButton.PanLeftButton.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>上一頁的大按鈕。 </p> </td> 
+   <td colname="col2"> <p>上一頁按鈕很大。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_lastPageButton.PanRightButton.TOOLTIP </span> </p> </td> 
@@ -130,7 +130,7 @@ defaultLocale:"en"
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ThumbnailPageButton.TOOLTIP_SELECTED </span> </p> </td> 
-   <td colname="col2"> <p>縮圖模式中的「縮圖」按鈕。 </p> </td> 
+   <td colname="col2"> <p>縮圖模式中的縮圖按鈕。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ThumbnailPageButton.TOOLTIP_UNSELECTED </span> </p> </td> 
@@ -166,7 +166,7 @@ defaultLocale:"en"
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.TO </span> </p> </td> 
-   <td colname="col2"> <p>「至」輸入欄位的標籤。 </p> </td> 
+   <td colname="col2"> <p>「收件者」輸入欄位的標籤。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.TOOLTIP_ADD </span> </p> </td> 
@@ -190,7 +190,7 @@ defaultLocale:"en"
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.CANCEL </span> </p> </td> 
-   <td colname="col2"> <p>取消按鈕的註解。 </p> </td> 
+   <td colname="col2"> <p>取消按鈕的標題。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.TOOLTIP_CANCEL </span> </p> </td> 
@@ -198,7 +198,7 @@ defaultLocale:"en"
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.ACTION </span> </p> </td> 
-   <td colname="col2"> <p>全選按鈕的註解。 </p> </td> 
+   <td colname="col2"> <p>全選按鈕的標題。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.TOOLTIP_ACTION </span> </p> </td> 
@@ -210,7 +210,7 @@ defaultLocale:"en"
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.TOOLTIP_CLOSE </span> </p> </td> 
-   <td colname="col2"> <p>表單提交後顯示在對話方塊底部的關閉按鈕。 </p> </td> 
+   <td colname="col2"> <p>提交表單後顯示在對話方塊底部的關閉按鈕。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.ACTION </span> </p> </td> 
@@ -250,7 +250,7 @@ defaultLocale:"en"
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.CANCEL </span> </p> </td> 
-   <td colname="col2"> <p>取消按鈕的註解。 </p> </td> 
+   <td colname="col2"> <p>取消按鈕的標題。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.TOOLTIP_CANCEL </span> </p> </td> 
@@ -278,7 +278,7 @@ defaultLocale:"en"
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.CANCEL </span> </p> </td> 
-   <td colname="col2"> <p>取消按鈕的註解。 </p> </td> 
+   <td colname="col2"> <p>取消按鈕的標題。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP_CANCEL </span> </p> </td> 
@@ -286,7 +286,7 @@ defaultLocale:"en"
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.ACTION </span> </p> </td> 
-   <td colname="col2"> <p>全選按鈕的註解。 </p> </td> 
+   <td colname="col2"> <p>全選按鈕的標題。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP_ACTION </span> </p> </td> 
@@ -318,11 +318,11 @@ defaultLocale:"en"
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Print.PRINT_RANGE_CURRENT </span> </p> </td> 
-   <td colname="col2"> <p>「目前頁面」選項按鈕的註解。 </p> </td> 
+   <td colname="col2"> <p>「目前頁面」選項按鈕的標題。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Print.PRINT_RANGE_FROM </span> </p> </td> 
-   <td colname="col2"> <p>「跨頁範圍從」選項按鈕的標題。 </p> </td> 
+   <td colname="col2"> <p>「起始試算表範圍」選項按鈕的註解。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Print.PRINT_RANGE_TO </span> </p> </td> 
@@ -330,7 +330,7 @@ defaultLocale:"en"
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Print.PRINT_RANGE_ALL </span> </p> </td> 
-   <td colname="col2"> <p>「所有頁面」選項按鈕的註解。 </p> </td> 
+   <td colname="col2"> <p>「所有頁面」選項按鈕的標題。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Print.PAGE_HANDLING </span> </p> </td> 
@@ -338,15 +338,15 @@ defaultLocale:"en"
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Print.PAGE_HANDLING_ONE </span> </p> </td> 
-   <td colname="col2"> <p>「每份工作表1頁」選項按鈕的註解。 </p> </td> 
+   <td colname="col2"> <p>「每份工作表1頁」選項按鈕的標題。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Print.PAGE_HANDLING_TWO </span> </p> </td> 
-   <td colname="col2"> <p>「每份工作表2頁」選項按鈕的註解。 </p> </td> 
+   <td colname="col2"> <p>「每份工作表2頁」選項按鈕的標題。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Print.CANCEL </span> </p> </td> 
-   <td colname="col2"> <p>取消按鈕的註解。 </p> </td> 
+   <td colname="col2"> <p>取消按鈕的標題。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Print.TOOLTIP_CANCEL </span> </p> </td> 
@@ -382,11 +382,11 @@ defaultLocale:"en"
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ViewAllFavoriteButton.TOOLTIP_SELECTED </span> </p> </td> 
-   <td colname="col2"> <p>當我的最愛檢視處於作用中狀態時，「檢視所有我的最愛」按鈕。 </p> </td> 
+   <td colname="col2"> <p>「我的最愛」檢視作用中時，按「檢視所有我的最愛」按鈕。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ViewAllFavoriteButton.TOOLTIP_UNSELECTED </span> </p> </td> 
-   <td colname="col2"> <p>當「我的最愛」檢視非使用中時，「檢視所有我的最愛」按鈕。 </p> </td> 
+   <td colname="col2"> <p>「我的最愛」檢視非使用中時，按一下「檢視所有我的最愛」按鈕。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Favoriteeffect.TOOLTIP </span> </p> </td> 
@@ -394,11 +394,11 @@ defaultLocale:"en"
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MediaSet.LABEL_XX[_YY] </span> </p> </td> 
-   <td colname="col2"> <p>檢視器在載入時產生的頁面標籤。 </p> <p>該符號的名稱為範本，其中 <span class="codeph"> XX </span> 是橫向的零基跨頁索引，且為選用 <span class="codeph"> YY </span> 是以零為目標的跨頁中的頁面索引 <span class="codeph"> XX </span>. </p> <p>僅適用於最初載入的資產；如果使用變更資產，則會忽略 <span class="codeph"> setAsset() </span> API呼叫。 </p> </td> 
+   <td colname="col2"> <p>檢視器在載入時產生的頁面標籤。 </p> <p>該符號的名稱是範本，其中 <span class="codeph"> XX </span> 是以零為基準的橫向跨頁索引，且為選用 <span class="codeph"> YY </span> 是以零為目標的跨頁中的頁面索引。 <span class="codeph"> XX </span>. </p> <p>僅適用於最初載入的資產；如果使用變更資產，則會忽略該資產。 <span class="codeph"> setAsset() </span> API呼叫。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MediaSet.LABEL_DELIM </span> </p> </td> 
-   <td colname="col2"> <p> 如果跨頁內的左右頁面已定義標籤，則字元可作為頁面標籤分隔符號。 </p> </td> 
+   <td colname="col2"> <p> 如果標籤是為跨頁內的左右頁面定義時，做為頁面標籤分隔符號使用的字元。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ScrollLeftRightButton.TOOLTIP_SELECTED </span> </p> </td> 

@@ -1,26 +1,26 @@
 ---
 title: 使用者介面元素的本地化
-description: 基本縮放檢視器顯示的某些內容必須經過本地化，包括縮放按鈕和全熒幕按鈕。
+description: Basic Zoom Viewer顯示的特定內容必須經過本地化，包括縮放按鈕和全熒幕按鈕。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 8c399b64-e278-41bc-a9eb-692812979fea
-source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
 
 # 使用者介面元素的本地化{#localization-of-user-interface-elements}
 
-基本縮放檢視器顯示的某些內容必須經過本地化，包括縮放按鈕和全熒幕按鈕。
+Basic Zoom Viewer顯示的特定內容必須經過本地化，包括縮放按鈕和全熒幕按鈕。
 
-檢視器中可本地化的每個文字內容，都會以稱為SYMBOL的特殊檢視器SDK識別碼表示。 任何SYMBOL都有英文地區設定的預設關聯文字值( `"en"`)隨附立即可用的檢視器，而且可能視需要為許多語言環境設定使用者定義的值。
+檢視器中可本地化的每個文字內容，都會以稱為SYMBOL的特殊檢視器SDK識別碼表示。 任何SYMBOL都有英文地區設定的預設相關文字值( `"en"`)隨附現成可用的檢視器，而且可能也會視需要為許多語言環境設定使用者定義的值。
 
-當檢視器啟動時，它會檢查目前的地區設定，檢視地區設定中每個支援的SYMBOL是否有使用者定義的值。 如果有的話，它會使用使用者定義的值；否則，會退回現成的預設文字。
+當檢視器啟動時，它會檢查目前的地區設定，檢視地區設定中每個支援的SYMBOL是否有使用者定義的值。 如果有的話，它會使用使用者定義的值；否則，它會回覆成現成的預設文字。
 
-使用者定義的本地化資料可作為本地化JSON物件傳遞至檢視器。 這類物件包含支援的語言環境清單、每個語言環境的SYMBOL文字值，以及預設語言環境。
+使用者定義的本地化資料可作為本地化JSON物件傳遞至檢視器。 此類物件包含支援的語言環境清單、每個語言環境的SYMBOL文字值，以及預設語言環境。
 
 這類本地化物件的範例：
 
@@ -38,9 +38,9 @@ defaultLocale:"en"
 }
 ```
 
-在上述範例中，本地化物件會定義兩個地區設定( `"en"` 和 `"fr"`)並提供每個地區設定中兩個使用者介面元素的本地化。
+在上述範例中，本地化物件會定義兩個地區設定( `"en"` 和 `"fr"`)並提供每個地區設定中兩個使用者介面元素的當地語系化。
 
-網頁程式碼應將此類本地化物件傳遞至檢視器建構函式，當做值 `localizedTexts` 設定物件的欄位。 另一種選擇是呼叫，傳遞本地化物件 `setLocalizedTexts(localizationInfo)` 方法。
+網頁程式碼應將此類本地化物件傳遞至檢視器建構函式，做為的值 `localizedTexts` 設定物件的欄位。 另一種選擇是呼叫以傳遞本地化物件 `setLocalizedTexts(localizationInfo)` 方法。
 
 支援下列SYMBOL：
 

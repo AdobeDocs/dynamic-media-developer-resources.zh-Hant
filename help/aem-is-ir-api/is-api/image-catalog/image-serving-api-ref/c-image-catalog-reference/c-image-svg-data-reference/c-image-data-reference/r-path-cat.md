@@ -5,9 +5,9 @@ title: 路徑
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9d5417df-3aa2-4620-a614-ca71a96e2069
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '146'
 ht-degree: 4%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 4%
 
 影像檔案路徑。
 
-與此目錄記錄相關聯的來源影像檔案的相對或絕對路徑與名稱。 伺服器會使用管理來源資料中所述的路徑解析規則來尋找資料檔案。
+與此目錄記錄關聯的來源影像檔案的相對或絕對路徑與名稱。 伺服器會使用管理來源資料中所述的路徑解析規則來尋找資料檔案。
 
 ## 屬性 {#path-properties}
 
-文字字串。 影像記錄需要，範本記錄可能空白。 如果已指定，則必須是有效的相對或絕對影像伺服器檔案路徑。 attribute：：DefaultExt若沒有檔案字尾，則會附加。
+文字字串。 影像記錄需要，範本記錄可能空白。 如果已指定，則必須是有效的相對或絕對影像伺服器檔案路徑。 如果沒有檔案尾碼，則會附加attribute：：DefaultExt。
 
 ## 支援的影像檔案格式 {#path-supported-image-file-formats}
 
@@ -34,6 +34,6 @@ ht-degree: 4%
 
 ## 另請參閱 {#path-seealso}
 
-[積體電路公用程式](/help/aem-is-ir-api/is-api/is-utils/utilities/r-ic.md) ， [attribute：：RootPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md) ， [屬性：：DefaultExt](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultext.md) ， [src=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md)
+[互動通訊公用程式](/help/aem-is-ir-api/is-api/is-utils/utilities/r-ic.md) ， [屬性：：RootPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md) ， [attribute：：DefaultExt](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultext.md) ， [src=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md)
 
 <!-- [attribute::LowerCasePaths]() -->

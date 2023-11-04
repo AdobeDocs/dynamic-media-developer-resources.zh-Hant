@@ -5,9 +5,9 @@ title: 路徑 *
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 28758709-26ae-4261-b11e-34e37b9d1b8c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '207'
 ht-degree: 2%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 伺服器會將此值與 `attribute::RootPath` 以建置實際的影像檔案路徑。 也可以是絕對路徑。
 
-用於指定材質、封包和視窗遮蓋材料的材質影像檔案，以及貼花和牆壁邊框材料的RGB或RGBA影像檔案。 並非所有的機櫃和視窗遮蓋材料都需要單獨的可重複紋理影像。
+用於指定材質、封包和視窗遮色材料的材質影像檔案，以及貼花和牆壁邊界材料的RGB或RGBA影像檔案。 並非所有的機櫃和視窗遮色片材料都需要單獨的可重複紋理影像。
 
 ## 屬性 {#section-8c12ea24f21d4472be677581893e6681}
 
@@ -28,7 +28,7 @@ ht-degree: 2%
 
 影像演算支援與Dynamic Media Image Serving相同的來源影像格式。
 
-需要多個不同解析度的影像資料的應用程式，在使用Dynamic Media金字塔TIFF(PTIFF)多解析度格式時表現最佳。 「影像伺服」包含影像轉換器(IC)公用程式，可從任何支援的格式建立PTIFF影像。
+需要多個不同解析度影像資料的應用程式，在使用Dynamic Media金字塔TIFF(PTIFF)多解析度格式時表現最佳。 「影像伺服」包含影像轉換器(IC)公用程式，可依據任何支援的格式建立PTIFF影像。
 
 如需支援檔案格式的完整清單，請參閱「影像伺服」檔案中的IC公用程式說明。
 
@@ -38,4 +38,4 @@ ht-degree: 2%
 
 ## 另請參閱 {#section-1bf37fab8e5f4c42a03b785abafc53bd}
 
-[積體電路公用程式](/help/aem-is-ir-api/is-api/is-utils/utilities/r-ic.md) ， [attribute：：RootPath](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rootpath.md)， [src=](/help/aem-is-ir-api/ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md)
+[互動通訊公用程式](/help/aem-is-ir-api/is-api/is-utils/utilities/r-ic.md) ， [屬性：：RootPath](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rootpath.md)， [src=](/help/aem-is-ir-api/ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md)

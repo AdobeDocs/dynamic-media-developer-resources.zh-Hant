@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d3fa2a11-339f-4c8e-9735-439c5464ab84
-source-git-commit: 21d6aed6baee24922732461fe680f6cc93bd0d06
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '89'
 ht-degree: 3%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 3%
 <table id="simpletable_2D23B1B282CD4216AB5BE7E7430D1B3F"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> 開啟|關閉 </span> </p> </td> 
-  <td class="stentry"> <p>指定瀏覽器格式轉換功能(將JPEG或PNG影像轉換為較小的瀏覽器特定檔案格式)是否為true ( <span class="codeph"> 於 </span>)或false ( <span class="codeph"> 關閉 </span> （無瀏覽器特定格式轉換）。 </p> </td> 
+  <td class="stentry"> <p>指定瀏覽器格式轉換功能(將JPEG或PNG影像轉換為較小的瀏覽器專用檔案格式)是否為true ( <span class="codeph"> 於 </span>)或false ( <span class="codeph"> 關閉 </span> 瀏覽器專用格式轉換)。 </p> </td> 
  </tr> 
 </table>
 

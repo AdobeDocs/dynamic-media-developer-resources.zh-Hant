@@ -5,9 +5,9 @@ title: 根路徑
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 06662b27-fb10-41d0-a14c-48025d7e9137
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '111'
 ht-degree: 2%
 
 ---
@@ -20,11 +20,11 @@ ht-degree: 2%
 
 ## 屬性 {#section-b41d7e0ea63143eb8034569706cad0c0}
 
-文字字串。 必須為空白、有效的相對資料夾路徑，或影像伺服器可存取的有效絕對路徑。
+文字字串。 必須為空白、有效的相對資料夾路徑或影像伺服器可存取的有效絕對路徑。
 
 ## 預設 {#section-7d66ff9a3d7a4e3b834769269cb01f4f}
 
-繼承自 `default::RootPath` 若未定義。 如果已定義但為空，將不會對來源檔案根路徑產生作用。
+繼承自 `default::RootPath` 若未定義。 如果已定義但空白，則不會對來源檔案根路徑產生任何影響。
 
 ## 另請參閱 {#section-6bf4ffc4987843a9a2dbe81b43076437}
 

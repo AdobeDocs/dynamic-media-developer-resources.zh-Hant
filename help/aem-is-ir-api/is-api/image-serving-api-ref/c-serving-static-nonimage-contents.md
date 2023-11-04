@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: adc3d972-b02d-40db-992e-acaa06b848ff
-source-git-commit: d1df6e943747f9db12c08003647aee840fdfcc0a
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 0%
 <table id="simpletable_2F039A5BFA2C4E22B014F42ECBCDA0A2"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 請求 </span> </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="filepath"> http:// <span class="varname"> 伺服器 </span>/is/content[/catalog/ <span class="varname"> 個專案 </span>][？ <span class="varname"> 修飾元 </span>] </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="filepath"> http:// <span class="varname"> 伺服器 </span>/is/content[/catalog/ <span class="varname"> 專案 </span>][？ <span class="varname"> 修飾元 </span>] </span> </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 伺服器 </span> </span> </p> </td> 
@@ -51,8 +51,8 @@ ht-degree: 0%
   <td class="stentry"> <p>目錄識別碼。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 個專案 </span> </span> </p> </td> 
-  <td class="stentry"> <p>靜態內容專案ID。 </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 專案 </span> </span> </p> </td> 
+  <td class="stentry"> <p>靜態內容專案識別碼。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 修飾元 </span> </span> </p> </td> 
@@ -93,16 +93,16 @@ ht-degree: 0%
    <td colname="col2"> <p>此內容專案的檔案路徑。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> catalog：：到期 </span> </p> </td> 
-   <td colname="col2"> <p>此內容專案的TTL； <span class="codeph"> attribute：：Expiration </span> 如果未指定或為空，則會使用。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> catalog：：Expiration </span> </p> </td> 
+   <td colname="col2"> <p>此內容專案的TTL； <span class="codeph"> attribute：：Expiration </span> 若未指定或空白，則使用。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> catalog：：TimeStamp </span> </p> </td> 
-   <td colname="col2"> <p>檔案修改時間戳記；使用啟用目錄型驗證時需要 <span class="codeph"> attribute：：CacheValidationPolicy </span>. </p> </td> 
+   <td colname="col2"> <p>檔案修改時間戳記；透過啟用目錄型驗證時需要 <span class="codeph"> attribute：：CacheValidationPolicy </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> catalog：：UserData </span> </p> </td> 
-   <td colname="col2"> <p>與此靜態內容專案關聯的可選中繼資料；適用於具有下列專案的使用者端： <span class="codeph"> req=userdata </span>. </p> </td> 
+   <td colname="col2"> <p>與此靜態內容專案關聯的可選中繼資料；適用於具有下列用途的使用者端： <span class="codeph"> req=userdata </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 目錄：：UserType </span> </p> </td> 
@@ -113,17 +113,17 @@ ht-degree: 0%
 
 ## 篩選靜態內容 {#section-4c41bf41ff994910840c1352683d1f37}
 
-此機制可協助確保使用者端僅接收適合其需求的內容。 假設靜態內容已使用適當標籤 `catalog::UserType` 值，使用者端可新增 `type=` 命令到要求。 「影像伺服」會將提供的值與 `type=` 命令至的值 `catalog::UserType` 而且，如果兩者不相符，則會傳回錯誤，而非可能不適當的內容。
+此機制可協助確保使用者端僅接收符合其需求的內容。 假設靜態內容已使用適當標籤 `catalog::UserType` 值，使用者端可新增 `type=` 命令到要求。 「影像伺服」會比較 `type=` 命令至的值 `catalog::UserType` 而且，如果內容不符，會傳回錯誤，而非可能不適當的內容。
 
-## 視訊註解檔案 {#section-1ad25e10399e43eaa8ecb09b531dbf1a}
+## 視訊標題檔案 {#section-1ad25e10399e43eaa8ecb09b531dbf1a}
 
-您可以封裝視訊註解檔案(WebVTT)、CSS或JSONP格式的任何文字檔。 JSON回應如下所述。
+您可以封裝視訊標題檔案(WebVTT)、CSS或JSONP格式的任何文字檔。 JSON回應如下所述。
 
-* 對於WebVTT檔案，回應的mime型別是text/javascript。 系統不會傳回JSON，而是會傳回JavaScript，以便呼叫具有JSON的方法。 ID和處理常式都是選用的。
-* 對於CSS檔案，回應的mime型別是text/javascript。 ID和處理常式都是選用的。
-* 依預設，會套用UTF-8編碼，以確保正確解碼。 預設大小限製為2 MB。
+* 對於WebVTT檔案，回應的mime型別為text/javascript。 系統不會傳回JSON，而是會傳回JavaScript，以呼叫具有JSON的方法。 ID和處理常式均為選用。
+* 對於CSS檔案，回應的mime型別為text/javascript。 ID和處理常式均為選用。
+* 依預設，會套用UTF-8編碼以確保其已正確解碼。 預設大小限製為2 MB。
 
-您也可以將追蹤用於其他型別的計時中繼資料。 每個曲目元素的來源資料都是由計時提示清單組成的文字檔。 提示可包括JSON或CSV等格式的資料。
+您也可以將追蹤用於其他型別的定時中繼資料。 每個軌跡元素的來源資料都是由計時提示清單所組成的文字檔。 提示可以包括JSON或CSV等格式的資料。
 
 另請參閱 [https://en.wikipedia.org/wiki/JSONP](https://en.wikipedia.org/wiki/JSONP) 以取得有關JSONP格式的詳細資訊。
 
@@ -131,4 +131,4 @@ ht-degree: 0%
 
 ## 另請參閱 {#section-7b28631016044a22a3a6762fd64771e9}
 
-[type=](../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-type.md#reference-89094fd1c50c444eb082cd266769cccb) ， [req=](../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76)， [影像目錄參考](../../is-api/image-serving-api-ref/c-image-catalog-reference/c-image-catalog-reference.md#concept-e23d45ea3abe43119d5144e01c14b0b5)
+[type=](../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-type.md#reference-89094fd1c50c444eb082cd266769cccb) ， [需要=](../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76)， [影像目錄參考](../../is-api/image-serving-api-ref/c-image-catalog-reference/c-image-catalog-reference.md#concept-e23d45ea3abe43119d5144e01c14b0b5)

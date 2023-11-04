@@ -5,9 +5,9 @@ title: 規則
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8f56012c-d01c-489c-9d18-91e256f72012
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '191'
 ht-degree: 5%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 5%
 
 ` Name=" *`文字`*"` 選填。 用於識別 `<rule>` 偵錯記錄檔和錯誤訊息中的元素。
 
-此外， `<rule>` 元素可以任意組合來定義下列任何屬性。 如果已指定，且規則已成功比對，則會覆寫此請求的對應目錄屬性。
+此外， `<rule>` 元素可以任意組合來定義下列任何屬性。 如果已指定，且規則已成功比對，則會覆寫此請求對應的目錄屬性。
 
 <table id="table_AFEFDE61C9ED40019C10D8FE5B16CA23"> 
  <thead> 
@@ -57,7 +57,7 @@ ht-degree: 5%
 
 如需詳細資訊，請參閱對應影像目錄屬性的說明。
 
-Expiration屬性只會覆寫預設屬性值；若為特定的 `catalog::Expiration` 值會套用至要求。
+Expiration屬性只會覆寫預設屬性值；如果特定的 `catalog::Expiration` 值會套用至要求。
 
 ## 資料 {#section-401b6dfce082490f81229a19b73f2562}
 
@@ -78,10 +78,10 @@ Expiration屬性只會覆寫預設屬性值；若為特定的 `catalog::Expirati
 
 ## 附註 {#section-a27b91f9a03047c0bb7edc0967fb4216}
 
-若兩者皆有 `<expression>` 和 `<substitution>` 中指定的子字串，且不會使用擷取的子字串，則第一個相符的子字串會取代為 `<substitution>`.
+如果兩者 `<expression>` 和 `<substitution>` 中指定的子字串，且不會使用擷取的子字串，則會將第一個相符的子字串替換為 `<substitution>`.
 
-若 `<expression>` 未指定，任何路徑都將符合和 `<substitution>` 會附加至路徑的結尾。
+如果 `<expression>` 未指定，任何路徑皆符合和 `<substitution>` 會附加至路徑的結尾。
 
-若 `<substitution>` 未指定，則會移除相符的子字串。
+如果 `<substitution>` 未指定，則會移除相符的子字串。
 
 此 `<addressfilter>` 只會在符合發生時套用，並在套用查詢規則之前套用。

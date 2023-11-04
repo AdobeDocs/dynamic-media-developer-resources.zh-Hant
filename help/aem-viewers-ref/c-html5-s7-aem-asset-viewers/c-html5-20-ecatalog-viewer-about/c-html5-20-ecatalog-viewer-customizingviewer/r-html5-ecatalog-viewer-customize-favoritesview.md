@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 10536242-1015-49ff-ae27-59671f30d886
-source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 .s7ecatalogviewer .s7favoritesview
 ```
 
-我的最愛檢視的位置和高度由檢視管理；在CSS中，只能定義寬度。
+收藏夾檢視的位置和高度由檢視管理；在CSS中只能定義寬度。
 
 **我的最愛檢視的CSS屬性**
 
@@ -36,12 +36,12 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>檢視的寬度。 </p> </td> 
+   <td colname="col2"> <p>檢視寬度。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-範例 — 若要設定寬度為100畫素的「我的最愛」檢視，且使用半透明的灰色背景：
+範例 — 若要設定寬度為100畫素且背景為半透明灰色的「我的最愛」檢視：
 
 ```
 .s7ecatalogviewer .s7favoritesview { 
@@ -62,7 +62,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> 每個縮圖周圍的垂直邊界大小。 實際縮圖間距等於為設定的上下邊界的總和 <span class="codeph"> .s7thumbcell </span>. </p> </td> 
+   <td colname="col2"> <p> 每個縮圖周圍垂直邊界的大小。 實際縮圖間距等於為設定的上下邊界總和 <span class="codeph"> .s7thumbcell </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -75,7 +75,7 @@ ht-degree: 2%
 }
 ```
 
-使用下列CSS類別選取器可控制個別縮圖的外觀：
+使用下列CSS類別選取器來控制個別縮圖的外觀：
 
 ```
 .s7ecatalogviewer .s7favoritesview .s7thumb
@@ -102,9 +102,9 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->縮圖支援 `state` 屬性選擇器，可將不同的外觀元素套用至不同的縮圖狀態。 尤其是， `state="selected"` 對應於使用者最近選取的縮圖。 屬性 `state="default"` 對應至其餘的縮圖。 而且，屬性 `state="over"` 用於滑鼠游標暫留時。
+>縮圖支援 `state` 屬性選取器，可將不同的外觀元素套用至不同的縮圖狀態。 尤其是， `state="selected"` 對應於使用者最近選取的縮圖。 屬性 `state="default"` 對應至其餘的縮圖。 而且，屬性 `state="over"` 用於滑鼠懸停時。
 
-範例 — 若要設定75 x 75畫素的縮圖、淺灰色預設邊框和深灰色選取邊框：
+範例 — 若要設定75 x 75畫素的縮圖、淺灰色的預設框線以及深灰色的選取框線：
 
 ```
 .s7ecatalogviewer .s7favoritesview .s7thumb { 

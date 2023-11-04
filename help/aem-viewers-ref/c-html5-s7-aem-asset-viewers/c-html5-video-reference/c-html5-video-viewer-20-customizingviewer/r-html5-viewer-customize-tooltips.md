@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 706b27a1-99e8-4596-8bd1-af4455501e29
-source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 2%
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 **主要檢視器區域的CSS屬性**
 
-工具提示的外觀由下列CSS類別選取器控制：
+工具提示的外觀是由下列CSS類別選取器所控制：
 
 ```
 .s7tooltip
@@ -48,7 +48,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p>文字色彩。 </p> </td> 
+   <td colname="col2"> <p>文字顏色。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
@@ -63,9 +63,9 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->如果工具提示樣式是從內嵌網頁中自訂的，則所有屬性都必須包含 `!IMPORTANT` 規則。 如果工具提示是在檢視器的CSS檔案中自訂的，則不需要此規則。
+>如果工具提示樣式是從內嵌網頁中自訂的，則所有屬性都必須包含 `!IMPORTANT` 規則。 如果在檢視器的CSS檔案中自訂工具提示，則不需要此規則。
 
-範例 — 若要設定具有三個畫素圓角半徑的灰色邊框、黑色背景和以Arial® 11畫素大小寫入的白色文字的工具提示：
+範例 — 若要設定工具提示，該工具提示具有三個畫素圓角半徑的灰色邊框、黑色背景以及使用Arial® 11畫素大小寫入的白色文字：
 
 ```
 .s7tooltip { 

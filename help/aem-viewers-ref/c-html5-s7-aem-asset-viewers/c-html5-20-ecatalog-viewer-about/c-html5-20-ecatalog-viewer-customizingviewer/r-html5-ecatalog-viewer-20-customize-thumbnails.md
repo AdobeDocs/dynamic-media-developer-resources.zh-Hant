@@ -1,11 +1,11 @@
 ---
 title: 縮圖
-description: 縮圖由縮圖影像的格點組成，其右側具有可選卷軸，以允許垂直捲動。
+description: 縮圖是由縮圖影像的格點所組成，其右側具有可選的卷軸，以允許垂直捲動。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: e3d3d33b-f6bb-4c5b-820c-028bfb6b2594
-source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '890'
 ht-degree: 2%
@@ -14,9 +14,9 @@ ht-degree: 2%
 
 # 縮圖{#thumbnails}
 
-縮圖由縮圖影像的格點組成，其右側具有可選卷軸，以允許垂直捲動。
+縮圖是由縮圖影像的格點所組成，其右側具有可選的卷軸，以允許垂直捲動。
 
-按一下主控制列中的「縮圖」按鈕即可切換縮圖。 當縮圖作用中時，會以覆蓋在檢視器使用者介面頂端的強制回應模式顯示。 檢視器邏輯會自動將縮圖容器大小調整至整個檢視器區域。
+按一下主控制列中的縮圖按鈕即可切換縮圖。 縮圖作用中時，會以模式模式模式顯示，並覆蓋在檢視器使用者介面的上方。 檢視器邏輯會自動將縮圖容器大小調整至整個檢視器區域。
 
 縮圖容器的外觀是由下列CSS類別選取器所控制：
 
@@ -52,12 +52,12 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p>縮圖區域的背景色彩。 </p> </td> 
+   <td colname="col2"> <p>縮圖區域的背景顏色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-範例 — 將縮圖設定為距上側32畫素位移、左右側5畫素邊界、下側8畫素邊界，具有 `0xDDDDDD` 背景。
+範例 — 將縮圖設定為距上側32畫素位移、左右側5畫素邊界、下側8畫素邊界，使用 `0xDDDDDD` 背景。
 
 ```
 .s7ecatalogviewer .s7thumbnailgridview { 
@@ -69,7 +69,7 @@ ht-degree: 2%
 }
 ```
 
-縮圖之間的間距由下列CSS類別選取器控制：
+縮圖之間的間距是由下列CSS類別選取器所控制：
 
 `.s7ecatalogviewer .s7thumbnailgridview .s7thumbcell`
 
@@ -88,7 +88,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-範例 — 設定垂直和水平10畫素的空間。
+範例 — 在垂直和水平設定10畫素空間。
 
 ```
 .s7ecatalogviewer .s7thumbnailgridview .s7thumbcell { 
@@ -96,7 +96,7 @@ ht-degree: 2%
 }
 ```
 
-使用下列CSS類別選取器可控制個別縮圖的外觀：
+使用下列CSS類別選取器來控制個別縮圖的外觀：
 
 `.s7ecatalogviewer .s7thumbnailgridview .s7thumb`
 
@@ -127,13 +127,13 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-在觸控裝置上，當旋轉至縱向模式時，檢視器可能會將縮圖調整為設定大小的一半，以防它決定將目錄跨頁分割為個別頁面。
+在觸控裝置上，當旋轉至直向模式時，檢視器可能會將縮圖調整為已設定縮圖的一半，以防它決定將目錄分割為個別頁面。
 
 >[!NOTE]
 >
->縮圖支援 `state` 屬性選擇器，可將不同的外觀元素套用至不同的縮圖狀態。 尤其是， `state="selected"` 與目前顯示在主檢視中的影像縮圖相對應， `state="default"` 對應至其餘的縮圖，以及 `state="over"` 用於滑鼠游標暫留時。
+>縮圖支援 `state` 屬性選取器，可將不同的外觀元素套用至不同的縮圖狀態。 尤其是， `state="selected"` 與目前顯示在主檢視中的影像縮圖相對應， `state="default"` 對應至其餘的縮圖，以及 `state="over"` 用於滑鼠懸停時。
 
-範例 — 設定120 x 85畫素的縮圖，其背景為白色、標準邊框為淺灰色，選取邊框為深灰色。
+範例 — 設定120 x 85畫素、白色背景、淺灰色標準邊框和深灰色選取邊框的縮圖。
 
 ```
 .s7ecatalogviewer .s7thumbnailgridview .s7thumb { 
@@ -179,7 +179,7 @@ ht-degree: 2%
 }
 ```
 
-如果縮圖數目超過垂直方向所能容納的數目，則縮圖會在右側呈現垂直卷軸。 卷軸區域的外觀是由下列CSS類別選取器所控制：
+如果縮圖數目超過垂直方向所能容納的量，縮圖會在右側呈現垂直卷軸。 卷軸區域的外觀是由下列CSS類別選取器所控制：
 
 `.s7ecatalogviewer .s7thumbnailgridview .s7scrollbar`
 
@@ -197,7 +197,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 頂部 </span> </p> </td> 
-   <td colname="col2"> <p> 垂直卷軸從縮圖區域頂部位移。 </p> </td> 
+   <td colname="col2"> <p> 垂直卷軸從縮圖區域頂端位移。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 底部 </span> </p> </td> 
@@ -205,7 +205,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 右側 </span> </p> </td> 
-   <td colname="col2"> <p> 水準卷軸從縮圖區域的右邊緣位移。 </p> </td> 
+   <td colname="col2"> <p> 水準卷軸會從縮圖區域的右邊緣位移。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -221,7 +221,7 @@ ht-degree: 2%
 }
 ```
 
-卷軸軌跡是上下捲動按鈕之間的區域。 元件會自動設定軌跡的位置和高度。 使用下列CSS類別選取器來控制曲目：
+卷軸軌跡是上下捲動按鈕之間的區域。 元件會自動設定軌跡的位置和高度。 使用下列CSS類別選取器來控制追蹤：
 
 `.s7ecatalogviewer .s7thumbnailgridview .s7scrollbar .s7scrolltrack`
 
@@ -253,7 +253,7 @@ ht-degree: 2%
 }
 ```
 
-卷軸縮圖會在捲動軌跡區域內垂直移動。 其垂直位置完全由元件邏輯控制，但縮圖高度不會隨著內容量而動態變更。 縮圖高度和其他方面由以下CSS類別選取器控制：
+卷軸縮圖在捲動軌跡區域內垂直移動。 其垂直位置完全由元件邏輯控制，但縮圖高度不會隨著內容量而動態變更。 您可以使用以下CSS類別選取器來控制縮圖高度和其他方面：
 
 `.s7ecatalogviewer .s7thumbnailgridview .s7scrollbar .s7scrollthumb`
 
@@ -287,16 +287,16 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> 若使用CSS sprite，則定位在圖稿sprite內。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
+   <td colname="col2"> <p> 若使用CSS拼寫，則定位在圖稿sprite內。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->縮圖支援 `state` 屬性選擇器，可將不同的外觀元素套用至縮圖狀態 `up`， `down`， `over`、和 `disabled`.
+>縮圖支援 `state` 屬性選取器，可將不同的外觀元素套用至縮圖狀態 `up`， `down`， `over`、和 `disabled`.
 
-範例 — 設定卷軸縮圖，其大小為28 x 45畫素，頂端和底部有10畫素邊界，且每個狀態都有不同的圖稿。
+範例 — 設定28 x 45畫素的卷軸縮圖，其頂端和底部有10個畫素邊界，且每個狀態都有不同的圖稿。
 
 ```
 .s7ecatalogviewer .s7thumbnailgridview .s7scrollbar .s7scrollthumb { 
@@ -321,7 +321,7 @@ ht-degree: 2%
 }
 ```
 
-上下捲動按鈕的外觀由下列CSS類別選取器控制：
+上下捲動按鈕的外觀是由下列CSS類別選取器所控制：
 
 `.s7ecatalogviewer .s7thumbnailgridview .s7scrollbar .s7scrollupbutton`
 
@@ -351,14 +351,14 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> 若使用CSS sprite，則定位在圖稿sprite內。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
+   <td colname="col2"> <p> 若使用CSS拼寫，則定位在圖稿sprite內。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->這些按鈕支援 `state` 屬性選擇器，可將不同的外觀元素套用至不同的按鈕狀態 `up`， `down`， `over`、和 `disabled`.
+>這些按鈕支援 `state` 屬性選取器，可將不同的外觀元素套用至不同的按鈕狀態 `up`， `down`， `over`、和 `disabled`.
 
 按鈕工具提示可以本地化。 另請參閱 [使用者介面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以取得詳細資訊。
 

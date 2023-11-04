@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1b4a78a1-4f03-47ce-b523-10975e83f0ea
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '947'
 ht-degree: 4%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 4%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> object </span> </p> </td> 
-  <td class="stentry"> <p>執行命令並將已遮罩的演算影像傳回至目前的物件選取範圍。 </p> </td> 
+  <td class="stentry"> <p>執行命令並將遮色片所呈現的影像傳回至目前的物件選取範圍。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> props </span> </p> </td> 
@@ -53,7 +53,7 @@ ht-degree: 4%
  </tr> 
 </table>
 
-除非在詳細描述中另有說明，否則伺服器會傳回MIME型別的文字回應 &lt;text plain=&quot;&quot;>.
+除非在詳細說明中另有說明，否則伺服器會傳回MIME型別的文字回應 &lt;text plain=&quot;&quot;>.
 
 `debug`
 
@@ -61,15 +61,15 @@ ht-degree: 4%
 
 `contents`
 
-傳回暈映中物件階層的XML表示法，包括選取的物件屬性。 請求中的其他命令會被忽略。
+傳回暈映中物件階層的XML表示法，包括選取的物件屬性。 會忽略請求中的其他命令。
 
 `img`
 
-執行指定的命令並傳回演算後的影像。 回覆資料格式和回覆型別由以下專案決定 `fmt=`.
+執行指定的命令並傳回演算後的影像。 回覆資料格式和回應型別由決定 `fmt=`.
 
 `imageprops`
 
-傳回URL路徑中所指定暈映檔案或目錄專案的選取屬性。 另請參閱 [屬性](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-properties.md#concept-e99f1a373eae4af9b41842ca0088ad3a) 以取得回覆語法和回應MIME型別的說明。 請求中的其他命令會被忽略。 傳回下列屬性：
+傳回URL路徑中所指定暈映檔案或目錄專案的選取屬性。 另請參閱 [屬性](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-properties.md#concept-e99f1a373eae4af9b41842ca0088ad3a) 以取得回覆語法和回應MIME型別的說明。 會忽略請求中的其他命令。 系統會傳回下列屬性：
 
 <table id="table_A30296D29B5D43F1B5383A887252C6B4"> 
  <thead> 
@@ -93,12 +93,12 @@ ht-degree: 4%
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> image.iccProfile </span> </p> </td> 
    <td colname="col2"> <p>字串 </p> </td> 
-   <td colname="col3"> <p>與此暈映關聯的設定檔名稱/描述。 </p> </td> 
+   <td colname="col3"> <p>與此暈映關聯的設定檔名稱/說明。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> image.embeddedIccProfile </span> </p> </td> 
    <td colname="col2"> <p>布林值 </p> </td> 
-   <td colname="col3"> <p>1，表示相關聯的設定檔已內嵌於暈映中。 </p> </td> 
+   <td colname="col3"> <p>1 （如果相關聯的設定檔內嵌於暈映中）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> image.embedded PhotoshopPaths </span> </p> </td> 
@@ -108,17 +108,17 @@ ht-degree: 4%
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> image.modifier </span> </p> </td> 
    <td colname="col2"> <p>字串 </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> attribute：：Modifier </span> 或空白（若不是目錄專案）。 </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> attribute：：Modifier </span> 或空白（如果不是目錄專案）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> image.pixTyp </span> </p> </td> 
    <td colname="col2"> <p>列舉 </p> </td> 
-   <td colname="col3"> <p>回應影像的畫素型別；可以是'CMYK'、'RGB'或'BW' （適用於灰階影像）。 </p> </td> 
+   <td colname="col3"> <p>回應影像的畫素型別；可以是「CMYK」、「RGB」或「BW」（適用於灰階影像）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> image.printRes </span> </p> </td> 
    <td colname="col2"> <p>實數 </p> </td> 
-   <td colname="col3"> <p>預設列印解析度（以dpi為單位）。 </p> </td> 
+   <td colname="col3"> <p>以dpi為單位的預設列印解析度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> image.timeStamp </span> </p> </td> 
@@ -143,7 +143,7 @@ ht-degree: 4%
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> vignette.res.avg </span> </p> </td> 
    <td colname="col2"> <p>實數 </p> </td> 
-   <td colname="col3"> <p>中的平均物件解析度 <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-vignettes/c-ir-material-resolution.md#concept-f60103c64e324e2cae78bd76dfb4de8b" type="concept" format="dita" scope="local"> 材質解析度 </a> 單位(通常為畫素/inc <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-vignettes/c-ir-material-resolution.md#concept-f60103c64e324e2cae78bd76dfb4de8b" type="concept" format="dita" scope="local"> 材質解析度 </a>h)。 </p> </td> 
+   <td colname="col3"> <p>中的平均物件解析度 <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-vignettes/c-ir-material-resolution.md#concept-f60103c64e324e2cae78bd76dfb4de8b" type="concept" format="dita" scope="local"> 材質解析度 </a> 單位（通常為畫素/inc） <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-vignettes/c-ir-material-resolution.md#concept-f60103c64e324e2cae78bd76dfb4de8b" type="concept" format="dita" scope="local"> 材質解析度 </a>h)。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 暈映.res.min </span> </p> </td> 
@@ -166,21 +166,21 @@ ht-degree: 4%
 
 對應資料不會縮放至 `wid=` 或 `hei=` 或以其他方式修改。 回應MIME型別為 `<text/xml>`.
 
-回應資料包含 `<map>` 包含一組元素的元素 `<area>` 元素，類似於HTML `<AREA>` 標籤之間。
+回應資料包含 `<map>` 元素包含一組 `<area>` 元素，類似於HTML `<AREA>` 標籤之間。
 
-每個 `<area>` 元素包含標準 `type=` 和 `coord=` 屬性和 `name=` 屬性，指定暈映群組名稱或名稱路徑。 多個 `<area>` 如果對應物件群組的遮色片具有不連續區域，則會出現具有相同名稱的元素。
+每個 `<area>` 元素包含標準 `type=` 和 `coord=` 屬性和 `name=` 屬性，指定暈映群組名稱或名稱路徑。 多個 `<area>` 如果對應物件群組的遮罩具有不連續的區域，則會出現具有相同名稱的元素。
 
-除了預設屬性之外，暈映可以定義其他屬性（如果編寫的話）。 這類自訂屬性定義為物件群組屬性。 自訂屬性的名稱必須以開頭 `map` 將包含在 `<area>` 元素。 例如，如果群組屬性包括 `map.href=http://www.scene7.com`，對應的 `<area>` 元素包含 `href="http://www.scene7.com"`.
+除了預設屬性之外，如果已經創作，暈映可以定義其他屬性。 此類自訂屬性定義為物件群組屬性。 自訂屬性的名稱必須以開頭 `map` 包含在 `<area>` 元素。 例如，如果群組屬性包括 `map.href=http://www.scene7.com`，對應的 `<area>` 元素包括 `href="http://www.scene7.com"`.
 
 包含空白的XML檔案 `<map>` 如果暈映不包含對應資料，則會傳回元素。
 
 `object`
 
-執行指定的命令，並傳回由剩餘物件選取範圍（最後選取的群組或物件）所遮罩的演算後的影像 `sel=` 或 `obj=` 命令)。 通常與支援Alpha的影像格式搭配使用(請參閱 [fmt=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-fmt.md#reference-4c743f67d56b47c5b774fcc900ff758c))。 如果使用不支援Alpha的影像格式，遮色片外的區域為黑色。
+執行指定的命令，並傳回由剩餘物件選取範圍（最後選取的群組或物件）遮罩的演算後的影像 `sel=` 或 `obj=` 命令)。 通常用於支援Alpha的影像格式(請參閱 [fmt=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-fmt.md#reference-4c743f67d56b47c5b774fcc900ff758c))。 如果使用不支援Alpha的影像格式，遮色片外的區域為黑色。
 
 `props`
 
-執行指定的命令並傳回暈映屬性和群組或物件屬性，而不是演算後的影像。 另請參閱 [屬性](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-properties.md#concept-e99f1a373eae4af9b41842ca0088ad3a) 以取得回覆語法和回應MIME型別的說明。 除非下列情況，否則將套用預設選取範圍 `obj=` 或 `sel=` 也會指定(請參閱 [ `obj=` ](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-obj.md#reference-31e7dac7931b4e0eb3c7589f120a1e6a))。
+執行指定的命令並傳回暈映屬性和群組或物件屬性，而不是彩現的影像。 另請參閱 [屬性](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-properties.md#concept-e99f1a373eae4af9b41842ca0088ad3a) 以取得回覆語法和回應MIME型別的說明。 除非下列情況，否則將套用預設選取範圍 `obj=` 或 `sel=` 也會指定(請參閱 [`obj=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-obj.md#reference-31e7dac7931b4e0eb3c7589f120a1e6a))。
 
 回應中可能包含以下屬性：
 
@@ -206,12 +206,12 @@ ht-degree: 4%
   <tr> 
    <td> <p> <span class="codeph"> image.iccEmbed </span> </p> </td> 
    <td> <p> 布林值 </p> </td> 
-   <td> <p>如果ICC設定檔內嵌在回覆影像中，則為True (請參閱 <span class="codeph"> <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-iccembed.md#reference-47a433138c7c4b29b9b29871b2491a7f" type="reference" format="dita" scope="local"> iccEmbed= </a> </span>)。 </p> </td> 
+   <td> <p>如果ICC設定檔已內嵌在回覆影像中，則為True (請參閱 <span class="codeph"> <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-iccembed.md#reference-47a433138c7c4b29b9b29871b2491a7f" type="reference" format="dita" scope="local"> iccEmbed= </a> </span>)。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.iccProfile </span> </p> </td> 
    <td> <p> 字串 </p> </td> 
-   <td> <p> 與回覆影像關聯之設定檔的捷徑名稱(請參閱 <span class="codeph"> <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-icc.md#reference-86a2fff3cef24982ad2063d977a16e06" type="reference" format="dita" scope="local"> icc= </a> </span>)。 </p> </td> 
+   <td> <p> 與回覆影像相關之設定檔的捷徑名稱(請參閱 <span class="codeph"> <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-icc.md#reference-86a2fff3cef24982ad2063d977a16e06" type="reference" format="dita" scope="local"> icc= </a> </span>)。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.mask </span> </p> </td> 
@@ -236,7 +236,7 @@ ht-degree: 4%
   <tr> 
    <td> <p> <span class="codeph"> image.quality </span> </p> </td> 
    <td> <p>整數，布林值 </p> </td> 
-   <td> <p> JPEG品質和色度標幟(請參閱 <span class="codeph"> <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-qlt.md#reference-27b91c226eb241d0a14a29af3b3afdbd" type="reference" format="dita" scope="local"> qlt= </a> </span>) </p> </td> 
+   <td> <p> JPEG品質和色度旗標(請參閱 <span class="codeph"> <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-qlt.md#reference-27b91c226eb241d0a14a29af3b3afdbd" type="reference" format="dita" scope="local"> qlt= </a> </span>) </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.type </span> </p> </td> 
@@ -269,7 +269,7 @@ ht-degree: 4%
    <td> <p> 目前物件選取範圍的完整名稱路徑。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> selection.overlaying </span> </p> </td> 
+   <td> <p> <span class="codeph"> selection.overling </span> </p> </td> 
    <td> <p> 整數 </p> </td> 
    <td> <p> 目前選取範圍中的重疊物件數目。 </p> </td> 
   </tr> 
@@ -298,9 +298,9 @@ ht-degree: 4%
 
 `userdata`
 
-傳回以下專案的內容： `vignette::UserData`. 伺服器會取代所有出現的 `'??'` 在 `vignette::UserData` 帶有行終止元( `<cr><lf>`)。 會將回覆格式化為文字資料，並將回應MIME型別設定為 &lt;text plain=&quot;&quot;>.
+傳回以下專案的內容： `vignette::UserData`. 伺服器會取代所有出現的 `'??'` 在 `vignette::UserData` 帶有線終止元( `<cr><lf>`)。 會將回覆格式化為文字資料，並將回應MIME型別設定為 &lt;text plain=&quot;&quot;>.
 
-如果URL路徑中指定的物件未解析為有效的暈映對應專案，或 `vignette::UserData` 空白，則回覆將僅包含行結束符( `CR/LF`)。
+如果URL路徑中指定的物件無法解析為有效的暈映對應專案，或如果 `vignette::UserData` 空白，則回覆僅包含行結束符( `CR/LF`)。
 
 會忽略請求字串中的任何其他命令。
 
@@ -322,4 +322,4 @@ copyright=Copyright (c) 1995-2014 Adobe Systems Incorporated. All rights reserve
 
 ## 另請參閱 {#section-f7a955525fb44ef2ae7cd7ede25a96c3}
 
-[fmt=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-fmt.md#reference-4c743f67d56b47c5b774fcc900ff758c) ， [attribute：：ErrorImagePath](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-errorimage.md#reference-b58bdaba96074c52802ca8dc54bfe2f0)， [暈映：：UserData](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-userdata.md#reference-5bb5d49aee9c408992e41a5ad17d6e85)， [屬性](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-properties.md#concept-e99f1a373eae4af9b41842ca0088ad3a)
+[fmt=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-fmt.md#reference-4c743f67d56b47c5b774fcc900ff758c) ， [屬性：：ErrorImagePath](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-errorimage.md#reference-b58bdaba96074c52802ca8dc54bfe2f0)， [暈映：：UserData](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-userdata.md#reference-5bb5d49aee9c408992e41a5ad17d6e85)， [屬性](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-properties.md#concept-e99f1a373eae4af9b41842ca0088ad3a)

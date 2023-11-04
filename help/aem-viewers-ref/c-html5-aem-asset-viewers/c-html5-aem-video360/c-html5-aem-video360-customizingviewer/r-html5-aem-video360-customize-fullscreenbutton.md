@@ -1,26 +1,26 @@
 ---
 title: 全熒幕按鈕
-description: 使用者按一下全熒幕按鈕時，視訊播放器會進入或退出全熒幕模式。
+description: 當使用者按一下全熒幕按鈕時，全熒幕按鈕會讓視訊播放器進入或退出全熒幕模式。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 0cb2b1bd-154e-41d8-bd9f-69a1cfc72902
-source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '237'
 ht-degree: 2%
 
 ---
 
 # 全熒幕按鈕{#full-screen-button}
 
-使用者按一下全熒幕按鈕時，視訊播放器會進入或退出全熒幕模式。
+當使用者按一下全熒幕按鈕時，全熒幕按鈕會讓視訊播放器進入或退出全熒幕模式。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-您可以相對於包含全熒幕按鈕的控制列，使用CSS調整全熒幕按鈕的大小、外觀和位置。
+您可以透過CSS調整全熒幕按鈕的大小、外觀和位置（相對於包含該按鈕的控制列）。
 
-全熒幕按鈕的外觀由CSS類別選取器控制：
+全熒幕按鈕的外觀可透過CSS類別選取器控制：
 
 ```
 .s7video360viewer .s7fullscreenbutton
@@ -60,7 +60,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> 若使用CSS sprite，則定位在圖稿sprite內。 </p> <p>另請參閱 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
+   <td colname="col2"> <p> 若使用CSS拼寫，則定位在圖稿sprite內。 </p> <p>另請參閱 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -71,7 +71,7 @@ ht-degree: 2%
 
 按鈕工具提示可以本地化。 另請參閱 [使用者介面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) 以取得詳細資訊。
 
-**範例**  — 設定32 x 32畫素的全熒幕按鈕，並從控制列的頂端和右側邊緣放置6畫素。 此外，選取或未選取時，針對四種不同按鈕狀態分別顯示不同的影像。
+**範例**  — 設定32 x 32畫素的全熒幕按鈕，並從控制列的頂端和右側邊緣放置6個畫素。 此外，選取或未選取時，針對四種不同按鈕狀態分別顯示不同的影像。
 
 ```
 .s7video360viewer . s7fullscreenbutton { 

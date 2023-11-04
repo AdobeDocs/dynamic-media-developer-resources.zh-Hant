@@ -5,9 +5,9 @@ title: PostScriptOptions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: fd2093b5-9856-4f31-8853-1027194a71df
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '65'
 ht-degree: 12%
 
 ---
@@ -25,5 +25,5 @@ PostScript檔案選項。
 | 過程 | `xsd:string` | PostScript程式選擇。 |
 | 解析度 | `xsd:double` | 檔案解析度。 |
 | 色域 | `xsd:string` | PostScript色彩空間模式。 |
-| alpha | `xsd:boolean` | 是否將檔案點陣化成影像。 如果是這樣，如果以這種方式定義原始檔案，則會建立透明背景。 通常用於建立重疊圖志。 |
+| alpha | `xsd:boolean` | 是否將檔案點陣化成影像。 如果是這樣的話，如果以這種方式定義原始檔案，則會建立透明背景。 通常用於建立重疊圖志。 |
 | extractSearchWords | `xsd:boolean` | 是否要從PostScript檔案擷取搜尋字詞。 |

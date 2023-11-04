@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: ec8ebf24-c8ae-43f1-86b9-0b30d529d277
-source-git-commit: d5f1f05c36c1cb8a57b5a4bb8a9d066c20e32e75
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '275'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 **主要檢視器區域的CSS屬性**
 
-按鈕的外觀由下列CSS類別選取器控制：
+使用下列CSS類別選取器來控制按鈕的外觀：
 
 ```
 .s7basiczoomviewer .s7fullscreenbutton
@@ -64,7 +64,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> 若使用CSS sprite，則定位在圖稿sprite內。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-customizingviewer/c-html5-20-basic-zoom-viewer-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
+   <td colname="col2"> <p> 若使用CSS拼寫，則定位在圖稿sprite內。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-customizingviewer/c-html5-20-basic-zoom-viewer-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -75,7 +75,7 @@ ht-degree: 2%
 
 按鈕工具提示可以本地化。 另請參閱 [使用者介面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以取得詳細資訊。
 
-範例 — 設定32 x 32畫素的全熒幕按鈕，並從檢視器的上邊緣和右邊緣放置6個畫素。 選取或未選取時，必須針對四種不同按鈕狀態顯示不同的影像：
+範例 — 設定32 x 32畫素的全熒幕按鈕，並從檢視器的上邊緣與右邊緣放置6個畫素。 選取或未選取時，它必須針對四種不同按鈕狀態分別顯示不同的影像：
 
 ```
 .s7basiczoomviewer .s7fullscreenbutton { 

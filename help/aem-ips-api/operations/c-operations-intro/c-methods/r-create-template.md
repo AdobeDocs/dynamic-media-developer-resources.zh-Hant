@@ -1,22 +1,22 @@
 ---
-description: 建立可以有多個文字和影像圖層的圖層影像。
+description: 建立可以包含多個文字和影像圖層的圖層影像。
 solution: Experience Manager
 title: createTemplate
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 228b4228-8c42-4e42-9fb1-d6aea61b9c4a
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 10%
+source-wordcount: '190'
+ht-degree: 11%
 
 ---
 
 # createTemplate{#createtemplate}
 
-建立可以有多個文字和影像圖層的圖層影像。
+建立可以包含多個文字和影像圖層的圖層影像。
 
-此 `urlModifier` parameter會指定儲存在影像伺服器目錄中的影像伺服器通訊協定命令，這些命令會在使用者在URL上提供的任何命令之前套用。 此 `urlPostApplyModifier` 引數會指定在任何URL命令之後套用的通訊協定命令，這會覆寫任何衝突的使用者提供的設定。
+此 `urlModifier` parameter指定儲存在URL上任何使用者提供的命令之前，套用在「影像伺服器」目錄中的「影像伺服器」通訊協定命令。 此 `urlPostApplyModifier` parameter指定在任何URL命令之後套用的通訊協定命令，這會覆寫任何衝突的使用者提供的設定。
 
 ## 授權的使用者型別 {#section-9fb615d8e75f452eab2893cc3decfbe6}
 
@@ -36,7 +36,7 @@ ht-degree: 10%
 | folderHandle | `xsd:string` | 是 | 代表範本所在資料夾的資料夾控制代碼。 |
 | name | `xsd:string` | 是 | 範本名稱。 |
 | type | `xsd:string` | 是 | 範本型別。 |
-| urlModifier | `xsd:string` | 是 | 指定儲存在IS目錄中的「影像伺服器」命令，這些命令會在使用者在URL上提供的任何命令之前套用。 |
+| urlModifier | `xsd:string` | 是 | 指定儲存在IS目錄中的「影像伺服器」命令，這些命令會先於使用者在URL上提供的任何命令套用。 |
 | urlPostApplyModifier | `xsd:string` | 否 | 指定在任何URL命令之後套用的通訊協定命令，這會覆寫任何衝突的使用者提供的設定。 |
 
 **輸出(createTemplateParam)**

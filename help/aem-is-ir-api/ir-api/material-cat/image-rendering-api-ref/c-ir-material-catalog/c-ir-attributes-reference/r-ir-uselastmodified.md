@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 31dfbc55-0efd-417b-be4a-67c878772388
-source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '227'
 ht-degree: 1%
 
 ---
@@ -22,12 +22,12 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->在涉及多個影像提供/轉譯主機的負載平衡環境中使用Last-Modified標頭時，必須謹慎。 如果伺服器出於某些原因對相同的目錄專案具有不同的時間戳記，可能會挫敗使用者端快取，並增加伺服器負載。 這種情況可能會發生，如下所示：
+>在涉及多個影像提供/轉譯主機的負載均衡環境中使用Last-Modified標題時，務必謹慎。 如果由於某些原因，伺服器對於相同的目錄專案具有不同的時間戳記，使用者端快取可能會失敗且伺服器負載會增加。 這種情況可能會發生：
 
-* `catalog::TimeStamp`， `vignette::TimeStamp`，或 `attribute::TimeStamp` 未定義，因此的修改時間 [!DNL catalog.ini] 檔案為的預設值 `catalog::TimeStamp`.
+* `catalog::TimeStamp`， `vignette::TimeStamp`，或 `attribute::TimeStamp` 未定義，所以的修改時間 [!DNL catalog.ini] 檔案為的預設值 `catalog::TimeStamp`.
 
-* 每個伺服器在本機檔案系統上都有其自己的目錄檔案執行個體，而不是透過網路掛載來共用素材目錄檔案。
-* 兩個或多個相同的執行個體 [!DNL catalog.ini] 檔案的修改日期不同，可能是因為檔案複製不當所造成。
+* 每個伺服器在本機檔案系統上都有自己的目錄檔案執行個體，而不是透過網路掛載來共用素材目錄檔案。
+* 兩個或多個相同的例項 [!DNL catalog.ini] 檔案有不同的檔案修改日期，可能是因為檔案複製不當所造成。
 
 ## 屬性 {#section-453952244193452caccfaf7f601007c1}
 
@@ -35,7 +35,7 @@ ht-degree: 1%
 
 ## 預設 {#section-ec8fae847ca2421d8cdcde324e5a2d76}
 
-繼承自 `default::UseLastModified` 如果未定義或為空。
+繼承自 `default::UseLastModified` 若未定義或為空。
 
 ## 另請參閱 {#section-1536715169da48b0aecc4ab7326c86db}
 

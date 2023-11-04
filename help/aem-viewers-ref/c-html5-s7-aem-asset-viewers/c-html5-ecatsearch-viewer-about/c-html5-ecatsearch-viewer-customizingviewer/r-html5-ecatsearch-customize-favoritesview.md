@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 8daf3d19-615b-4d62-a6f5-6a153d193b88
-source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 2%
@@ -18,13 +18,13 @@ ht-degree: 2%
 
 <!--<a id="section_B6EFCCADB5A5495DAE6BBE42F7F405CB"></a>-->
 
-我的最愛檢視容器外觀由以下CSS類別選取器控制：
+我的最愛檢視容器外觀是由下列CSS類別選取器所控制：
 
 ```
 .s7ecatalogsearchviewer .s7favoritesview
 ```
 
-我的最愛檢視的位置和高度由檢視管理；在CSS中，只能定義寬度。
+收藏夾檢視的位置和高度由檢視管理；在CSS中只能定義寬度。
 
 **我的最愛檢視的CSS屬性**
 
@@ -36,12 +36,12 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>檢視的寬度。 </p> </td> 
+   <td colname="col2"> <p>檢視寬度。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-範例 — 設定100畫素寬、具有半透明灰色背景的「我的最愛」檢視。
+範例 — 設定100畫素寬且具有半透明灰色背景的「我的最愛」檢視。
 
 ```
 .s7ecatalogsearchviewer .s7favoritesview { 
@@ -62,12 +62,12 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> 每個縮圖周圍的垂直邊界大小。 實際縮圖間距等於為設定的上下邊界的總和 <span class="codeph"> .s7thumbcell </span>. </p> </td> 
+   <td colname="col2"> <p> 每個縮圖周圍垂直邊界的大小。 實際縮圖間距等於為設定的上下邊界總和 <span class="codeph"> .s7thumbcell </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-範例 — 設定十個畫素間距。
+範例 — 設定10個畫素間距。
 
 ```
 .s7ecatalogsearchviewer .s7favoritesview .s7thumbcell { 
@@ -75,7 +75,7 @@ ht-degree: 2%
 }
 ```
 
-使用下列CSS類別選取器可控制個別縮圖的外觀：
+使用下列CSS類別選取器來控制個別縮圖的外觀：
 
 ```
 .s7ecatalogsearchviewer .s7favoritesview .s7thumb
@@ -102,9 +102,9 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->縮圖支援 `state` 屬性選擇器，可將不同的外觀元素套用至不同的縮圖狀態。 尤其是， `state="selected"` 對應於使用者最近選取的縮圖。 當 `state="default"` 對應至其餘的縮圖。 和 `state="over"` 用於滑鼠游標暫留時。
+>縮圖支援 `state` 屬性選取器，可將不同的外觀元素套用至不同的縮圖狀態。 尤其是， `state="selected"` 對應於使用者最近選取的縮圖。 當 `state="default"` 對應至其餘的縮圖。 與 `state="over"` 用於滑鼠懸停時。
 
-範例 — 若要設定75 x 75畫素的縮圖，縮圖具有淺灰色的預設框線，以及選取的深灰色框線。
+範例 — 若要設定75 x 75畫素、淺灰色預設邊框和深灰色選取邊框的縮圖。
 
 ```
 .s7ecatalogsearchviewer .s7favoritesview .s7thumb { 
@@ -140,7 +140,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-範例 — 以14畫素Helvetica®字型設定標籤。
+範例 — 使用14畫素Helvetica®字型設定標籤。
 
 ```
 .s7ecatalogsearchviewer .s7favoritesview .s7label { 

@@ -5,9 +5,9 @@ title: 存在
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 810453f0-7b35-4eed-8b23-6b59a8300c50
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '120'
 ht-degree: 4%
 
 ---
@@ -18,14 +18,14 @@ ht-degree: 4%
 
 `req=exists[,text|javascript|xml|{json[&id= *`reqId`*]}]`
 
-*`reqId`* 唯一請求識別碼
+*`reqId`* 唯一要求識別碼
 
-傳回名為的單一屬性 `catalogRecord.exists`. 如果影像或預設目錄中存在指定的目錄專案，則屬性值會設為「1」，否則會設為「0」。 `req=exists` 針對以下專案的請求： `/is/content` 上下文將指示靜態內容目錄中是否存在指定記錄。
+傳回名為的單一屬性 `catalogRecord.exists`. 如果指定的目錄專案存在於影像或預設目錄中，則屬性值會設為「1」，否則會設為「0」。 `req=exists` 針對以下專案的請求： `/is/content` context指示靜態內容目錄中是否有指定記錄。
 
-請求字串中的其他命令會被忽略。 HTTP回應可使用以下依據的TTL快取： `attribute::NonImgExpiration`.
+會忽略請求字串中的其他命令。 HTTP回應可使用以下依據的TTL進行快取： `attribute::NonImgExpiration`.
 
-支援JSONP回應格式的請求可讓您使用擴充語法來指定JS回呼處理常式的名稱。 `req=` 引數：
+支援JSONP回應格式的請求可讓您使用擴充語法來指定JS回呼處理常式的名稱 `req=` 引數：
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` 是JSONP回應中呈現的JS處理常式名稱。 僅允許a-z、A-Z和0-9字元。 選擇性. 預設為 `s7jsonResponse`.
+`<reqHandler>` 是JSONP回應中出現的JS處理常式名稱。 僅允許a-z、A-Z和0-9字元。 選擇性. 預設為 `s7jsonResponse`.

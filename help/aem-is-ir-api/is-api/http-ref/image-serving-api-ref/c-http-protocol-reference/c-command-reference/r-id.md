@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3cdd27e4-14d2-42ef-aedb-9c1f7c39b4c6
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '265'
 ht-degree: 4%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 4%
 
 「影像伺服」包含版本設定機制，有助於減少應用程式使用過時快取專案的機會。 此機制涉及使用 `req=props` 取得影像資料和中繼資料（例如影像地圖或縮放目標資料）的版本識別碼字串。 然後，版本識別碼字串會新增至可快取的「影像伺服」請求，並附上 `id=` 命令。
 
-當來源影像或中繼資料變更時，對應的版本ID值也會變更。 將最新的版本ID值包含在 `id=` 命令可確保不再存取舊的快取專案。
+當來源影像或中繼資料變更時，對應的版本ID值也會變更。 將最新的版本ID值包含在 `id=` 命令可確保無法再存取舊的快取專案。
 
 下表列出用於每個的版本識別碼字串 `req=` 型別：
 

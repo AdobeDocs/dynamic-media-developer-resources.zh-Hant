@@ -1,20 +1,20 @@
 ---
 title: type
-description: 靜態內容型別篩選器。 指定透過/is/content傳遞的靜態內容的篩選字串。
+description: 靜態內容型別篩選器。 指定透過/is/content傳送之靜態內容的篩選字串。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9015d5f4-e42c-43e0-af85-fc9c278448e7
-source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '111'
 ht-degree: 4%
 
 ---
 
 # type{#type}
 
-靜態內容型別篩選器。 指定透過/is/content傳遞的靜態內容的篩選字串。
+靜態內容型別篩選器。 指定透過/is/content傳送之靜態內容的篩選字串。
 
 `type= *`val`*`
 

@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: ffbbc2ae-60da-4c3d-a350-6dbcb64e189d
-source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 **主要檢視器區域的CSS屬性**
 
-當面板啟動時，檢視器使用者介面會以半透明填色覆蓋。 此填色的顏色和不透明度由下列CSS類別選取器控制：
+當面板啟動時，檢視器使用者介面會以半透明填色覆蓋。 此填色的顏色和不透明度是由下列CSS類別選取器所控制：
 
 ```
 .s7ecatalogviewer .s7searchpanel .s7backoverlay
@@ -36,7 +36,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p>覆蓋圖的色彩。 </p> </td> 
+   <td colname="col2"> <p>覆蓋圖的顏色。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 不透明度 </span> </p> </td> 
@@ -45,7 +45,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-搜尋結果面板一律佔據所有可用的檢視器高度。 不過，您可以設定寬度。 您可以將寬度設定為絕對畫素值，這是中型與大型中斷點的預設設定。 或者，您可以將寬度設定為100%，讓搜尋結果面板佔據整個檢視器區域。 面板寬度由下列CSS類別選擇器控制：
+搜尋結果面板一律佔據所有可用的檢視器高度。 不過，您可以設定寬度。 您可以將寬度設定為絕對畫素值，這是大中型中斷點的預設設定。 或者，您可以將寬度設為100%，讓搜尋結果面板佔據整個檢視器區域。 面板寬度由下列CSS類別選取器控制：
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7searchresultspace
@@ -62,7 +62,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-範例 — 若要在大中型中斷點上設定250畫素寬的搜尋結果面板，並在小型中斷點上使用全尺寸面板：
+範例 — 若要在大中型中斷點上設定250畫素寬的搜尋結果面板，並在小型中斷點上使用完整大小的面板：
 
 ```
 .s7ecatalogsearchviewer.s7size_large .s7searchpanel .s7searchresultspanel, .s7ecatalogsearchviewer.s7size_medium .s7searchpanel .s7searchresultspanel { 
@@ -73,7 +73,7 @@ ht-degree: 1%
 }
 ```
 
-搜尋結果面板的頂端專用於搜尋輸入方塊。 輸入方塊側邊的填補是由下列CSS類別選取器所控制：
+搜尋結果面板的頂端專用於搜尋輸入方塊。 輸入方塊兩側的填補是由下列CSS類別選取器所控制：
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7searchinputcontainer
@@ -90,7 +90,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-搜尋輸入欄位由下列CSS類別選擇器控制：
+搜尋輸入欄位由以下CSS類別選取器控制：
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7searchinput
@@ -183,7 +183,7 @@ ht-degree: 1%
 }
 ```
 
-第一次呼叫功能時，搜尋結果面板可能會顯示文字提示。 此外，它也會在使用者的搜尋未傳回任何結果時顯示訊息。 在所有情況下，文字都會顯示在搜尋結果面板的主要部分，並受到下列CSS類別選取器的控制：
+第一次呼叫功能時，搜尋結果面板可能會顯示文字提示。 此外，當使用者的搜尋未傳回任何結果時，它也會顯示訊息。 在任何情況下，搜尋結果面板的主要部分都會顯示文字，並受到下列CSS類別選取器的控制：
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7searchinfo
@@ -214,9 +214,9 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->此文字面板支援 `state` 屬性選擇器，可將不同的樣式套用至不同的文字訊息。 尤其是， `state='prompt'` 對應於第一次呼叫面板時顯示的文字提示。 此 `state='results'` 與包含搜尋點選相關資訊的文字相對應。 最後， `state='no_results'` 與搜尋查詢未傳回任何結果時顯示的文字相對應。
+>此文字面板支援 `state` 屬性選取器，可將不同的樣式套用至不同的文字訊息。 尤其是， `state='prompt'` 對應於第一次呼叫面板時顯示的文字提示。 此 `state='results'` 與包含搜尋點選相關資訊的文字相對應。 最後， `state='no_results'` 與搜尋查詢未傳回任何結果時所顯示的文字相對應。
 
-訊息文字可翻譯。 另請參閱 [使用者介面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以取得詳細資訊。
+訊息文字可以當地語系化。 另請參閱 [使用者介面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以取得詳細資訊。
 
 範例 — 若要設定使用灰色18畫素字型的文字面板：
 
@@ -227,7 +227,7 @@ ht-degree: 1%
 }
 ```
 
-對於具有搜尋點選的頁面，搜尋結果會呈現為單欄或單列縮圖。 搜尋結果縮圖之間的間距由下列CSS類別選取器控制：
+對於具有搜尋點選的頁面，搜尋結果會呈現為單一欄或單一列縮圖。 搜尋結果縮圖之間的間距由下列CSS類別選取器控制：
 
 ```
 .ecatalogsearchviewer .s7searchpanel .s7swatches .s7thumbcell
@@ -239,7 +239,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> 每個縮圖周圍的垂直邊界大小。 實際縮圖間距等於為設定的上下邊界總和 <span class="codeph"> .s7thumbcell </span>. </p> </td> 
+   <td colname="col2"> <p> 每個縮圖周圍垂直邊界的大小。 實際縮圖間距等於為設定的上下邊界總和 <span class="codeph"> .s7thumbcell </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -252,7 +252,7 @@ ht-degree: 1%
 }
 ```
 
-個別縮圖的外觀由下列CSS類別選取器控制：
+個別縮圖的外觀會受下列CSS類別選取器控制：
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7swatches .s7thumb
@@ -277,7 +277,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-範例 — 若要設定215 x 129畫素的縮圖，其預設邊框為淺灰色，選取邊框為深灰色：
+範例 — 若要設定215 x 129畫素、淺灰色預設邊框和深灰色選取邊框的縮圖：
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7swatches .s7thumb { 
@@ -299,7 +299,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p> 文字色彩。 </p> </td> 
+   <td colname="col2"> <p> 文字顏色。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
@@ -322,7 +322,7 @@ ht-degree: 1%
 }
 ```
 
-在使用滑鼠輸入的系統上，搜尋結果面板底部會顯示兩個捲動按鈕，讓使用者捲動搜尋結果。 上下捲動按鈕的外觀由下列CSS類別選取器控制：
+在使用滑鼠輸入的系統上，搜尋結果面板底部會顯示兩個捲動按鈕，讓使用者捲動搜尋結果。 上下捲動按鈕的外觀是由下列CSS類別選取器所控制：
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7scrollupbutton 
@@ -331,7 +331,7 @@ ht-degree: 1%
 
 無法使用CSS top、left、bottom和right屬性來定位捲動按鈕。 相反地，檢視器邏輯會自動調整位置。
 
-**向上和向下捲動按鈕的CSS屬性**
+**上下捲動按鈕的CSS屬性**
 
 <table id="table_11063C7F428D4707A8138F17650F8F5F"> 
  <tbody> 
@@ -349,16 +349,16 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> 若使用CSS sprite，則定位在圖稿sprite內。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
+   <td colname="col2"> <p> 若使用CSS拼寫，則定位在圖稿sprite內。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按鈕支援 `state` 屬性選取器，可用來套用不同的外觀元素至 `"up"`， `"down"`， `"over"`、和 `"disabled"` 按鈕狀態。
+>此按鈕支援 `state` 屬性選取器，可用來將不同的外觀元素套用至 `"up"`， `"down"`， `"over"`、和 `"disabled"` 按鈕狀態。
 
-按鈕工具提示可以本地化。 另請參閱 [使用者介面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以取得詳細資訊。
+按鈕工具提示可本地化。 另請參閱 [使用者介面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以取得詳細資訊。
 
 範例 — 若要設定125 x 35畫素的向上捲動按鈕，且每個狀態都有不同的圖稿：
 
