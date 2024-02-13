@@ -5,10 +5,10 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 67f8a58d-88f5-4993-9749-41a3c530adba
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 9ed415c5ab4444a2d404782bfd96ded3c47c26cd
 workflow-type: tm+mt
-source-wordcount: '877'
-ht-degree: 4%
+source-wordcount: '904'
+ht-degree: 2%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 4%
 
 回應影像格式。
 
-`fmt=format[,` `[`*`pixelType`*`]`,`[`*`compression`*`]]`
+`fmt=format[,` `[`*`pixelType`*`]`，`[`*`compression`*`]]`
 
-*`format`* - avif-alpha | avif | eps | f4m | gif-alpha | gif | jpeg | jpeg2000-alpha | jpeg2000 | jpegxr-alpha | jpegxr | jpg | m3u8 | pdf | pjpeg | png-alpha | png | png8-alpha | png8 | swf-alpha | swf | swf3-alpha | swf3 | tif-alpha | tif | web-alpha | webp
+*`format`* - avif-alpha | avif | eps | f4m | gif-alpha | gif | heic | jpeg | jpeg2000-alpha | jpeg2000 | jpegxr-alpha | jpegxr | jpg | m3u8 | pdf | pjpeg | png-alpha | png | png8-alpha | png8 | swf-alpha | swf | swf3-alpha | swf3 | tif-alpha | tif | web-alpha | webp
 
 | *`format`* | 說明 |
 |---|---|
@@ -28,6 +28,7 @@ ht-degree: 4%
 | `f4m` | Flash串流伺服器資訊清單格式。 |
 | `gif-alpha` | 2到255色GIF，加上關鍵色彩透明度。 |
 | `gif` | 使用2到256色GIF。 |
+| `heic` | 不失真HEIC。 如果不支援此格式，預設會從瀏覽器下載。 |
 | `jpeg` | 有損JPEG。 |
 | `jpeg2000-alpha` | 含Alpha色版的有損和無損JPEG2000。 |
 | `jpeg2000` | 有損和無損JPEG2000。 |
@@ -50,14 +51,14 @@ ht-degree: 4%
 | `webp-alpha` | 含Alpha色版的有損和無損WebP。 |
 | `webp` | 有損和無損WebP。 |
 
-| *`pixelType`* – rgb | 灰色 | cmyk |
+| *`pixelType`* - rgb | 灰色 | cmyk |
 | *`pixelType`* | 說明 |
 |---|---|
 | `cmyk` | 傳回CMYK影像資料。 |
 | `gray` | 傳回灰階影像資料。 |
 | `rgb` | 傳回RGB影像資料。 |
 
-| *`compression`* – none | lzw | 郵遞區號 | jpeg | 有損 | 不失真 |
+| *`compression`* - jpeg | 有損 | 不失真 | lzw | 無 | 郵遞區號 |
 | *`compression`* | 說明 |
 |---|---|
 | `jpeg` | JPEG壓縮（失真）。 |
