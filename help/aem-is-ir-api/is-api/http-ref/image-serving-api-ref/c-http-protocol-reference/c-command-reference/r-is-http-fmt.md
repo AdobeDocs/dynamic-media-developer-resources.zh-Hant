@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 67f8a58d-88f5-4993-9749-41a3c530adba
-source-git-commit: 9ed415c5ab4444a2d404782bfd96ded3c47c26cd
+source-git-commit: 17ccca8fcf75eaa902527837d83b03776c1386b9
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '907'
 ht-degree: 2%
 
 ---
@@ -62,8 +62,8 @@ ht-degree: 2%
 | *`compression`* | 說明 |
 |---|---|
 | `jpeg` | JPEG壓縮（失真）。 |
-| `lossy` | WebP、JPEG2000和JPEGXR壓縮（失真）。 |
-| `lossless` | WebP、JPEG2000和JPEGXR壓縮（不失真）。 |
+| `lossy` | JPEG2000、JPEGXR壓縮（失真）和WebP。 |
+| `lossless` | HEIC、JPEG 2000和JPEGXR壓縮（不失真）和WebP。 |
 | `lzw` | LZW (Lempel-Ziv-Welch)壓縮（不失真）。 |
 | `none` | 未壓縮。 |
 | `zip` | &quot;Deflate&quot;壓縮（不失真）。 |
