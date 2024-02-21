@@ -3,7 +3,7 @@ cloud: Experience Cloud
 user-guide-title: Dynamic Media檢視器參考指南
 feature-set: Experience Manager Assets
 user-guide-description: 自訂Dynamic Media檢視器以用於桌上型電腦和觸控熒幕裝置。 包括互動式影像和影片、浮動切換、迴轉集等。
-source-git-commit: f970421ccc482b698343aa18e7dfde7bea4c2a89
+source-git-commit: 8d5dbc2d2b5e228f8496fd71633bf1cb96218226
 workflow-type: tm+mt
 source-wordcount: '2066'
 ht-degree: 1%
@@ -738,7 +738,7 @@ ht-degree: 1%
       + [支援Adobe Analytics追蹤](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-analytics.md)
       + [輔助技術支援](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-assistive.md)
       + [使用者介面元素的本地化](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md)
-      + [熱點和影像地圖支援](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-hotspot--image-support.md)
+      + [熱點和影像地圖支援](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-hotspot-image-support.md)
       + [預先載入影像](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-preload-image.md)
       + [檢視器SDK名稱空間](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-namespace.md)
    + 互動影像 {#interactive-images}
