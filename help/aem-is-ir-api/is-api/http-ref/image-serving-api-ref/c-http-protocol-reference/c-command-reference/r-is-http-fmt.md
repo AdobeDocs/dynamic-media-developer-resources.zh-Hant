@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 67f8a58d-88f5-4993-9749-41a3c530adba
-source-git-commit: 17ccca8fcf75eaa902527837d83b03776c1386b9
+source-git-commit: b861d383d0a1af63ae18eb1e73231758c3352a55
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '1017'
 ht-degree: 2%
 
 ---
@@ -93,18 +93,60 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr valign="top"> 
+   <td> <p> avif， avif-alpha </p> </td> 
+   <td> <p>rgb</p> </td> 
+   <td> <p> <span class="codeph"> &lt;image/avif&gt; </span> </p> </td> 
+   <td> <p>否 </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> 壓縮 </span> </span> ( <span class="codeph"> 有損 </span>， <span class="codeph"> 不失真 </span>) </p> <p> <span class="codeph"> qlt= </span> 已忽略 <span class="codeph"> 不失真 </span>. </p> <p>因為沒有色度縮減取樣與WebP格式的概念，如果您使用第二個值 <span class="codeph"> qlt </span> (例如， <span class="codeph"> qlt=80,1 </span>)第二個值( <span class="codeph"> 1 </span>)會被忽略。 </p> </td> 
+  </tr>
+  <tr valign="top"> 
+   <td colname="col1"> <p> eps </p> </td> 
+   <td colname="col2"> <p>rgb、灰色、cmyk </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> &lt;image/eps&gt; </span> </p> </td> 
+   <td colname="col4"> <p>是 </p> </td> 
+   <td colname="col5"> <p> <span class="codeph"> pathEmbed= </span> </p> </td> 
+  </tr>
+  <tr valign="top"> 
+   <td colname="col1"> <p> gif， gif-alpha </p> </td> 
+   <td colname="col2"> <p>rgb，灰色 </p> <p>資料在轉換為灰色或rgb之後，會轉換為調色盤。 </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> &lt;image/gif&gt; </span> </p> </td> 
+   <td colname="col4"> <p>否 </p> </td> 
+   <td colname="col5"> <p> <span class="codeph"> 量化= </span> </p> </td> 
+  </tr>
+  <tr valign="top"> 
+   <td colname="col1"> <p> heic </p> </td> 
+   <td colname="col2"> <p>rgb </p> <p> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> &lt;image/heic&gt; </span> </p> </td> 
+   <td colname="col4"> <p>否 </p> </td> 
+   <td colname="col5"> <p> </p> </td> 
+  </tr> 
+  <tr valign="top"> 
+   <td> <p>jpeg2000， jpeg2000-alpha </p> </td> 
+   <td> <p>rgb，灰色 </p> </td> 
+   <td> <p> <span class="codeph"> &lt;image/jp2&gt; </span> </p> </td> 
+   <td> <p>否 </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> 壓縮 </span> </span> ( <span class="codeph"> 有損 </span>， <span class="codeph"> 不失真 </span>) </p> <p> <span class="codeph"> qlt= </span> 已忽略 <span class="codeph"> 不失真 </span>. </p> <p>因為沒有色度縮減取樣與WebP格式的概念，如果您使用第二個值 <span class="codeph"> qlt </span> (例如， <span class="codeph"> qlt=80,1 </span>)第二個值( <span class="codeph"> 1 </span>)會被忽略。 </p> </td> 
+  </tr>
+  <tr valign="top"> 
    <td colname="col1"> <p> jpeg， jpg， pjpeg </p> </td> 
    <td colname="col2"> <p>rgb、灰色、cmyk </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;image/jpeg&gt; </span> </p> </td> 
    <td colname="col4"> <p>是 </p> </td> 
    <td colname="col5"> <p> <span class="codeph"> pathEmbed= </span>， <span class="codeph"> pscan= </span>， <span class="codeph"> qlt= </span>， <span class="codeph"> xmpEmbed= </span> </p> <p>此 <span class="codeph"> pscan= </span> 引數僅適用於pjpeg格式。 </p> </td> 
-  </tr> 
+  </tr>
   <tr valign="top"> 
-   <td colname="col1"> <p> png， png-alpha </p> </td> 
-   <td colname="col2"> <p>rgb，灰色 </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> &lt;image/png&gt; </span> </p> </td> 
+   <td> <p>jpegxr， jpegxr-alpha </p> </td> 
+   <td> <p>rgb </p> </td> 
+   <td> <p> <span class="codeph"> &lt;image/vnd.ms-photo&gt; </span> </p> </td> 
+   <td> <p>否 </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> 壓縮 </span> </span> ( <span class="codeph"> 有損 </span>， <span class="codeph"> 不失真 </span>) </p> <p> <span class="codeph"> qlt= </span> 已忽略 <span class="codeph"> 不失真 </span>. </p> <p>因為沒有色度縮減取樣與WebP格式的概念，如果您使用第二個值 <span class="codeph"> qlt </span> (例如， <span class="codeph"> qlt=80,1 </span>)第二個值( <span class="codeph"> 1 </span>)會被忽略。 </p> </td> 
+  </tr>
+  <tr valign="top"> 
+   <td colname="col1"> <p> pdf </p> </td> 
+   <td colname="col2"> <p>rgb、灰色、cmyk </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> &lt;application/pdf&gt; </span> </p> </td> 
    <td colname="col4"> <p>是 </p> </td> 
-   <td colname="col5"> <p> </p> </td> 
+   <td colname="col5"> <span class="codeph"> <span class="varname"> 壓縮 </span> </span> <p> ( <span class="codeph"> none|zip|jpeg </span>)， <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> qlt= </span> 被忽略，除非 <span class="codeph"> <span class="varname"> 壓縮 </span> </span> 設為 <span class="codeph"> jpeg </span>. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p>png8， png8-alpha </p> </td> 
@@ -114,6 +156,20 @@ ht-degree: 2%
    <td colname="col5"> <p> </p> </td> 
   </tr> 
   <tr valign="top"> 
+   <td colname="col1"> <p> png， png-alpha </p> </td> 
+   <td colname="col2"> <p>rgb，灰色 </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> &lt;image/png&gt; </span> </p> </td> 
+   <td colname="col4"> <p>是 </p> </td> 
+   <td colname="col5"> <p> </p> </td> 
+  </tr>
+  <tr valign="top"> 
+   <td colname="col1"> <p> swf，swf3， swf-alpha， swf-alpha3 </p> </td> 
+   <td colname="col2"> <p>rgb，灰色 </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> &lt;application/x-shockwave-flash&gt; </span> </p> </td> 
+   <td colname="col4"> <p>否 </p> <p> <p>注意：AdobeFlash Player會忽略內嵌的ICC設定檔。 </p> </p> </td> 
+   <td colname="col5"> <p> <span class="codeph"> qlt= </span>， <span class="codeph"> 屬性：：TrustedDomains </span> </p> </td> 
+  </tr>
+  <tr valign="top"> 
    <td colname="col1"> <p> tif， tif-alpha </p> </td> 
    <td colname="col2"> <p>rgb、灰色、cmyk </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;image/tiff&gt; </span> </p> </td> 
@@ -121,60 +177,11 @@ ht-degree: 2%
    <td colname="col5"> <span class="codeph"> <span class="varname"> 壓縮 </span> </span> <p> ( <span class="codeph"> none|lzw|zip|jpeg </span>) </p> <p>僅限'tiff'；'tiff-alpha'不支援jpeg壓縮。 </p> <p> <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> qlt= </span> 被忽略，除非 <span class="varname"> 壓縮 </span> 設為 <span class="codeph"> jpeg </span>. </p> <p>， pathEmbed=， xmpEmbed= </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p> swf，swf3， swf-alpha， swf-alpha3 </p> </td> 
-   <td colname="col2"> <p>rgb，灰色 </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> &lt;application/x-shockwave-flash&gt; </span> </p> </td> 
-   <td colname="col4"> <p>否 </p> <p> <p>注意：AdobeFlash Player會忽略內嵌的ICC設定檔。 </p> </p> </td> 
-   <td colname="col5"> <p> <span class="codeph"> qlt= </span>， <span class="codeph"> 屬性：：TrustedDomains </span> </p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td colname="col1"> <p> pdf </p> </td> 
-   <td colname="col2"> <p>rgb、灰色、cmyk </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> &lt;application/pdf&gt; </span> </p> </td> 
-   <td colname="col4"> <p>是 </p> </td> 
-   <td colname="col5"> <span class="codeph"> <span class="varname"> 壓縮 </span> </span> <p> ( <span class="codeph"> none|zip|jpeg </span>)， <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> qlt= </span> 被忽略，除非 <span class="codeph"> <span class="varname"> 壓縮 </span> </span> 設為 <span class="codeph"> jpeg </span>. </p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td colname="col1"> <p> eps </p> </td> 
-   <td colname="col2"> <p>rgb、灰色、cmyk </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> &lt;image/eps&gt; </span> </p> </td> 
-   <td colname="col4"> <p>是 </p> </td> 
-   <td colname="col5"> <p> <span class="codeph"> pathEmbed= </span> </p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td colname="col1"> <p> gif， gif-alpha </p> </td> 
-   <td colname="col2"> <p>rgb，灰色 </p> <p>資料在轉換為灰色或rgb之後，會轉換為調色盤。 </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> &lt;image/gif&gt; </span> </p> </td> 
-   <td colname="col4"> <p>否 </p> </td> 
-   <td colname="col5"> <p> <span class="codeph"> 量化= </span> </p> </td> 
-  </tr> 
-  <tr valign="top"> 
    <td> <p>webp， webp-alpha </p> </td> 
    <td> <p>rgb </p> </td> 
    <td> <p> <span class="codeph"> &lt;image/webp&gt; </span> </p> </td> 
    <td> <p>否 </p> </td> 
    <td> <p> <span class="codeph"> <span class="varname"> 壓縮 </span> </span> ( <span class="codeph"> 有損 </span>， <span class="codeph"> 不失真 </span>) </p> <p> <span class="codeph"> qlt= </span> 已忽略 <span class="codeph"> 不失真 </span>. </p> <p>因為沒有色度縮減取樣與WebP格式的概念，如果您使用第二個值 <span class="codeph"> qlt </span> (例如， <span class="codeph"> qlt=80,1 </span>)第二個值( <span class="codeph"> 1 </span>)會被忽略。 </p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td> <p>jpeg2000， jpeg2000-alpha </p> </td> 
-   <td> <p>rgb，灰色 </p> </td> 
-   <td> <p> <span class="codeph"> &lt;image/jp2&gt; </span> </p> </td> 
-   <td> <p>否 </p> </td> 
-   <td> <p>與上述相同。 </p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td> <p>jpegxr， jpegxr-alpha </p> </td> 
-   <td> <p>rgb </p> </td> 
-   <td> <p> <span class="codeph"> &lt;image/vnd.ms-photo&gt; </span> </p> </td> 
-   <td> <p>否 </p> </td> 
-   <td> <p>與上述相同。 </p> </td> 
-  </tr>
-  <tr valign="top"> 
-   <td> <p> avif， avif-alpha </p> </td> 
-   <td> <p>rgb</p> </td> 
-   <td> <p> <span class="codeph"> &lt;image/avif&gt; </span> </p> </td> 
-   <td> <p>否 </p> </td> 
-   <td> <p>與上述相同。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
