@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 6cc82742-4ba0-4524-a87b-586539d7fe38
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '156'
 ht-degree: 16%
 
 ---
@@ -37,11 +37,11 @@ ht-degree: 16%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>4 </p> </td> 
-  <td class="stentry"> <p>四分之一下拉式桌布掛著。 </p> </td> 
+  <td class="stentry"> <p>掛上四分之一滴落的桌布。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>5 </p> </td> 
-  <td class="stentry"> <p>第三個下拉式桌布掛著。 </p> </td> 
+  <td class="stentry"> <p>三滴壁紙掛起。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>6 </p> </td> 
@@ -49,15 +49,15 @@ ht-degree: 16%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>7 </p> </td> 
-  <td class="stentry"> <p>第五個下拉式桌布掛著。 </p> </td> 
+  <td class="stentry"> <p>五滴掛桌布。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>8 </p> </td> 
-  <td class="stentry"> <p>倒轉壁紙掛起。 </p> </td> 
+  <td class="stentry"> <p>倒轉掛壁紙。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>9 </p> </td> 
-  <td class="stentry"> <p>隨機壁紙掛起。 </p> </td> 
+  <td class="stentry"> <p>隨機懸掛桌布。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>10 </p> </td> 
@@ -69,11 +69,11 @@ ht-degree: 16%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>12 </p> </td> 
-  <td class="stentry"> <p>一半橫跨。 </p> </td> 
+  <td class="stentry"> <p>一半橫向。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>13 </p> </td> 
-  <td class="stentry"> <p>映象（書本相符）。 </p> </td> 
+  <td class="stentry"> <p>鏡射（書本相符）。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>14 </p> </td> 
@@ -81,7 +81,7 @@ ht-degree: 16%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>15 </p> </td> 
-  <td class="stentry"> <p>高頻隨機化。 </p> </td> 
+  <td class="stentry"> <p>高頻隨機器。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>16 </p> </td> 
@@ -93,11 +93,11 @@ ht-degree: 16%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>18 </p> </td> 
-  <td class="stentry"> <p>垂直隨機化。 </p> </td> 
+  <td class="stentry"> <p>垂直隨機化程式。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>19 </p> </td> 
-  <td class="stentry"> <p>邊緣隨機化程式。 </p> </td> 
+  <td class="stentry"> <p>邊緣隨機器。 </p> </td> 
  </tr> 
 </table>
 
@@ -105,7 +105,7 @@ ht-degree: 16%
 
 ## 屬性 {#section-262bf540930d4890b678ea00cefe1909}
 
-材質屬性。 被純色、貼花和機櫃材料忽略。
+材質屬性。 已被純色、貼花和機櫃材料忽略。
 
 ## 預設 {#section-e5bbd7d9fbb74852849e605d20f550bb}
 

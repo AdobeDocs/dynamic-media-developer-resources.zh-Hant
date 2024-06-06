@@ -5,9 +5,9 @@ title: 監視和警示系統
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: fe672d1b-93e5-466a-a329-3032095c6ba8
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ SMTP電子郵件伺服器的接聽連線埠。
 
 ## AS：：monitorAlertGenerator.heapSpaceResetInterval — 棧積空間警示間隔 {#section-fd5a2bf04ed44fdcaef20f77084151a8}
 
-棧積空間警示之後發出另一個棧積空間警示之前的最短時間。 間隔時間（毫秒）。 整數值，0或更大。
+棧積空間警示發出另一個棧積空間警示之前的最短時間。 間隔時間（毫秒）。 整數值，0或更大。
 
 ## AS：：monitorAlertGenerator.minTrafficForAlerts — 啟用警示的最小流量 {#section-8b4db2d6f96642309ca35c49eb3ab230}
 

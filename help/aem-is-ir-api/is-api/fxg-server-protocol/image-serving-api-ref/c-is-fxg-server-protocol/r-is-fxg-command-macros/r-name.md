@@ -1,14 +1,14 @@
 ---
+title: name
 description: 指令巨集的名稱。
 solution: Experience Manager
-title: name
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b5aa907b-aa95-4573-bc05-65d84c173f25
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: d41865c6263a6a97a358e116e8c21d36b11c1d1b
 workflow-type: tm+mt
-source-wordcount: '28'
-ht-degree: 10%
+source-wordcount: '33'
+ht-degree: 6%
 
 ---
 
@@ -25,4 +25,4 @@ ht-degree: 10%
  </tr> 
 </table>
 
-*`name`* 不區分大小寫，而且可能包含字母、數字、「 — 」、「_」和「。」的任意組合。 字元.
+指令 *`name`* 不區分大小寫，而且可由字母、數字、 `-` （連字型大小）， `_` （底線），和 `.` （句點）字元。

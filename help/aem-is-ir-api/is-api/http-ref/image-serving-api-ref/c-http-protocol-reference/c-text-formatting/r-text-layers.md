@@ -5,9 +5,9 @@ title: 文字圖層
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 6793eb7d-6c10-4136-b6d4-186a698a8e52
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '888'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ textPs=支援本節所述許多不同的使用模式。
 * 自動調整文字圖層大小是不包含 `size=` 命令或 `size=0,0` 已指定。
 
 * 自動調整文字圖層的圖層大小是由實際呈現的文字決定。
-* 一般而言，自動調整文字圖層的預設圖層錨點為 *非* 位於圖層的中心（請參閱下文）。
+* 自動調整文字圖層的預設圖層錨點通常是 *非* 位於圖層的中心（請參閱下文）。
 * 如果 `anchor=` 或 `origin=` 指定用於自動調整文字圖層大小，文字圖層的位置會受文字內容影響。
 
 * 時間 `size=` 指定後，部分字元字元可能會呈現在圖層矩形的外部。

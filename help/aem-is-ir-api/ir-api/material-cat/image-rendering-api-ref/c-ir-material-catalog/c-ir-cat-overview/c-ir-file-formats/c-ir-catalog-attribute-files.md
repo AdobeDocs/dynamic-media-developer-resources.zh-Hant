@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8b5afb99-3201-4e43-93e7-e8998354204f
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 <table id="simpletable_8454AD549FDA421BA1469CDA44132773"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 名稱 </span> </span> </p> </td> 
-  <td class="stentry"> <p>屬性名稱；可能包含一或多個字母、數字、'-'和'_'；不區分大小寫。 </p> </td> 
+  <td class="stentry"> <p>屬性名稱；可能包含一或多個字母、數字、- （連字型大小）和_ （底線）；不區分大小寫。</p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 值 </span> </span> </p> </td> 
@@ -32,7 +32,7 @@ ht-degree: 0%
 </table>
 
 * Token之間的空白字元為選用。
-* 具有未知屬性名稱的記錄會被 [!DNL Platform Server].
-* 屬性名稱可包含ASCII字母、數字和「 — 」、「_」和「。」的任意組合。
+* 此 [!DNL Platform Server] 會忽略具有未知屬性名稱的記錄。
+* 屬性名稱可包含ASCII字母、數字和 `-`， `_`、和 `.` 個字元。
 * 如果相同的屬性名稱在相同的屬性檔案中出現多次，則會以最後一個出現的屬性名稱為準。
-* 使用&#39;#&#39;作為第一個字元，將任何記錄標籤為剖析器忽略的註解。
+* 使用 `#` 做為第一個字元，可將任何記錄標籤為剖析器忽略的註解。

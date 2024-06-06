@@ -1,22 +1,22 @@
 ---
-description: 影像驗證公用程式。 此命令列公用程式會驗證影像檔案，以確保它們有效，而且可由「影像伺服」輕鬆讀取。
+description: 影像驗證公用程式。 這個命令列公用程式會驗證影像檔案，以確保它們有效，且「影像伺服」可以輕鬆讀取它們。
 solution: Experience Manager
 title: 驗證
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 78d50fe9-95c6-4335-98d8-3322839ee02d
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '279'
 ht-degree: 1%
 
 ---
 
 # 驗證{#validate}
 
-影像驗證公用程式。 此命令列公用程式會驗證影像檔案，以確保它們有效，而且可由「影像伺服」輕鬆讀取。
+影像驗證公用程式。 此命令列公用程式會驗證影像檔案，以確保其有效，並可由「影像伺服」輕鬆讀取。
 
-所有非PTIFF影像檔案都必須通過驗證，檔案才能供「影像伺服」作為來源影像使用。 PTIFF影像在複製操作可能不可靠後應該進行驗證。
+所有非PTIFF影像檔案都必須先通過驗證，檔案才能供「影像伺服」作為來源影像使用。 PTIFF影像在複製操作可能不可靠後應該進行驗證。
 
 ## 使用 {#usage}
 
@@ -54,7 +54,7 @@ ht-degree: 1%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -validatecolorprofile </span> </p> </td> 
-  <td class="stentry"> <p>驗證內嵌色彩設定檔是否有效。 依預設，不會核取設定檔內文。 </p> </td> 
+  <td class="stentry"> <p>驗證內嵌色彩設定檔是否有效。 依預設，不會核取內文設定檔。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -reject16BitPerComponent </span> </p> </td> 
@@ -73,7 +73,7 @@ ht-degree: 1%
   <td class="stentry"> <p>當檔案驗證失敗時，即使尚未驗證其他檔案，也會終止處理。 根據預設，當發生驗證錯誤時，處理會繼續 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> -版本 </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> -version </span> </p> </td> 
   <td class="stentry"> <p>傳回此公用程式的版本資訊。 指定而不使用其他選項。 </p> </td> 
  </tr> 
 </table>
