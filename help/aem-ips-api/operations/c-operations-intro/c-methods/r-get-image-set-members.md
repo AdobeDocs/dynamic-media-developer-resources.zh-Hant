@@ -1,18 +1,18 @@
 ---
 description: 取得影像集中的成員陣列。
 solution: Experience Manager
-title: getImageSetMember
+title: getImageSetMembers
 feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,Admin
 exl-id: 29ceef8b-127f-4460-8623-c3e26c959327
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '94'
-ht-degree: 17%
+ht-degree: 14%
 
 ---
 
-# getImageSetMember{#getimagesetmembers}
+# getImageSetMembers{#getimagesetmembers}
 
 取得影像集中的成員陣列。
 
@@ -39,8 +39,8 @@ ht-degree: 17%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 包含影像集的公司的控制代碼。 |
-| assetHandle | `xsd:string` | 是 | 影像集資產控制點。 |
+| companyHandle | `xsd:string` | 是 | 包含影像集之公司的控制代碼。 |
+| assetHandle | `xsd:string` | 是 | 影像集資產控制代碼。 |
 
 **輸出(getImageSetMembersReturn)**
 
@@ -52,7 +52,7 @@ ht-degree: 17%
 
 此程式碼範例會傳回特定的影像整合員。 回應會傳回空白陣列。
 
-**請求**
+**要求**
 
 ```java
 <ns1:getImageSetMembersParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">
@@ -61,7 +61,7 @@ ht-degree: 17%
 </ns1:getImageSetMembersParam>
 ```
 
-**回答**
+**回應**
 
 ```java
 <getImageSetMembersReturn xmlns="http://www.scene7.com/IpsApi/xsd">

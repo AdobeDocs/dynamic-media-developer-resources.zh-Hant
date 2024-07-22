@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: f3fbe13b-e650-4a5d-9c46-a492b11fa13e
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 6%
+source-wordcount: '198'
+ht-degree: 5%
 
 ---
 
@@ -45,11 +45,11 @@ IPS API未傳回此作業的回應。
 
 **setDefinition函式**
 
-指定 `setDefinition` 替代函式內嵌。 這些問題會在目錄查閱期間或發佈時解決。 替代字串的格式為 `${<substitution_func>}`，並包含下列專案：
+指定`setDefinition`內嵌替代函式。 這些專案會在目錄查詢期間或發佈時解決。 替代字串的格式為`${<substitution_func>}`，並包含下列專案：
 
 >[!NOTE]
 >
->引數清單中的處理常值必須以方括弧括住 `([])`. 在解析期間，替代字串之外的文字會複製到輸出字串。
+>引數清單中的控制代碼常值必須由括弧`([])`括住。 在解析期間，替代字串外部的文字會複製到輸出字串。
 
 <table id="table_A93D2C273B694C289208AA926B2597CD"> 
  <thead> 
@@ -73,7 +73,7 @@ IPS API未傳回此作業的回應。
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> getThumbCatalogId([ <span class="varname"> asset_handle </span>]) </span> </td> 
-   <td colname="col2"> 目錄ID。 套用至影像型資產（影像、調整後的檢視、圖層檢視）。 <p>若是其他資產，則傳回縮圖資產的目錄ID （若有）。 如果沒有任何縮圖資產與資產相關聯，此函式會傳回空字串。 </p> </td> 
+   <td colname="col2"> 目錄ID。 套用至影像型資產（影像、調整後的檢視、圖層檢視）。 <p>若是其他資產，會傳回縮圖資產的目錄ID （若有）。 如果沒有任何縮圖資產與資產相關聯，此函式會傳回空字串。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -97,7 +97,7 @@ jcompany/myRenderSet;jcompany/myRenderSet;
 
 ## 範例 {#section-739b42eec3074cafae285ec015a2d088}
 
-**請求**
+**要求**
 
 ```java
 <setAssetSetDefinitionParam xmlns="http://www.scene7.com/IpsApi/xsd/2009-07-31"> 
@@ -110,6 +110,6 @@ jcompany/myRenderSet;jcompany/myRenderSet;
 </setAssetSetDefinitionParam>
 ```
 
-**回答**
+**回應**
 
 無。

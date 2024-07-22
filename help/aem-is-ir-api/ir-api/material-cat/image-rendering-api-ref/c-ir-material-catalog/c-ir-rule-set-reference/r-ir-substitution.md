@@ -1,6 +1,6 @@
 ---
 title: 替代
-description: 替代字串元素。 選填於 <rule> 元素。
+description: 替代字串元素。 <rule>元素中的選用專案。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # 替代{#substitution}
 
-替代字串元素。 選填於 `<rule>` 元素。
+替代字串元素。 `<rule>`個元素中的選用專案。
 
 ## 屬性 {#section-d955eefc53eb4274861270669c01f9ca}
 
@@ -30,12 +30,12 @@ ht-degree: 3%
 
 如果模式運算式包含子運算式（以括弧分隔），則第一個相符的子字串會被取代為替代字串。 如果模式運算式不包含子運算式，則會取代整個相符的字串。
 
-如果 `<expression>` 為空白或不存在，替代字串會附加至路徑或查詢。
+如果`<expression>`為空白或不存在，則替代字串會附加至路徑或查詢。
 
-如果 `<substitution>` 空白，則會移除相符的字串或子字串。 如果 `<substitution>` 未指定，不會修改路徑或查詢字串。
+如果`<substitution>`為空白，則會移除相符的字串或子字串。 如果未指定`<substitution>`，則不會修改路徑或查詢字串。
 
 ## 注意 {#section-90fe89bb17a04804b7ff3c93df082892}
 
-替代字串不得包含常值&lt;和&amp;字元。 這些保留字元可以使用編碼 `&` 和 `<`，或整個字串可以括在XML中 `CDATA` 區段：
+替代字串不得包含常值&lt;和&amp;字元。 這些保留字元可分別以`&`和`<`編碼，或是整個字串可包含在XML `CDATA`區段中：
 
 `<substitution><![CDATA[&text=<Hello, world!>]]></ substitution>`

@@ -16,14 +16,14 @@ ht-degree: 0%
 
 下列命令包含PlatformServer公開的批次處理API。
 
-這些在特殊請求格式中指定為： `?req=<command>`
+這些在特殊要求格式中指定為： `?req=<command>`
 
-針對這些命令顯示的範例使用虛構的 `PlatformServer` URL &quot; [!DNL scene7.adobe.com:8080]」和一個名為AcmeCorp的虛構公司。 作業ID也是虛構的。
+針對這些命令顯示的範例使用虛構的`PlatformServer` URL「[!DNL scene7.adobe.com:8080]」和名為AcmeCorp的虛構公司。 作業ID也是虛構的。
 
 * [batchjobbriefstatus](r-batchjobbriefstatus.md)
 * [batchjobdelete](r-batchjobdelete.md)
 * [batchjobdetailedstatus](r-batchjobdetailedstatus.md)
 * [batchjobgetoutput](r-batchjobgetoutput.md)
 * [batchjobsubmit](r-batchjobsubmit.md)
-* [jobdata](r-jobdata.md)
+* [工作資料](r-jobdata.md)
 * [jobid](r-jobid.md)

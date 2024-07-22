@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <table id="simpletable_332B78DDEB6540708844AB54AE321F9B"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph">-resolution <span class="varname"> val</span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> — 解析度<span class="varname"> val</span></span> </p> </td> 
   <td class="stentry"> <p>指定封包樣式檔案的目標解析度。 以畫素/英吋為單位的實數值。 如果未指定，生產封包樣式檔案的解析度將與來源檔案相同。 </p></td> 
  </tr> 
 </table>

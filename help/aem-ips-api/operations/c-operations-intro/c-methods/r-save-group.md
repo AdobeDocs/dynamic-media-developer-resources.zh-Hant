@@ -8,7 +8,7 @@ exl-id: 1dd980e7-eb38-4c90-b4fc-83327d4a95f5
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '92'
-ht-degree: 22%
+ht-degree: 18%
 
 ---
 
@@ -30,10 +30,10 @@ ht-degree: 22%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 具有您要儲存之群組的公司的控制代碼。 |
+| companyHandle | `xsd:string` | 是 | 包含您要儲存之群組的公司控制代碼。 |
 | groupHandle | `xsd:string` | 否 | 群組的控制代碼。 |
-| name | `xsd:string` | 是 | 群組名稱. |
-| isSystemDefined | `xsd:boolean` | 是 | `false` 為預設值。 |
+| name | `xsd:string` | 是 | 群組名稱。 |
+| isSystemDefined | `xsd:boolean` | 是 | `false`為預設值。 |
 
 **輸出(saveGroupReturn)**
 
@@ -45,7 +45,7 @@ ht-degree: 22%
 
 此程式碼範例會建立屬於特定公司的群組。 如果群組已經存在，則會以您指定的引數值儲存。
 
-**請求**
+**要求**
 
 ```java
 <ns1:saveGroupParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">
@@ -55,7 +55,7 @@ ht-degree: 22%
 </ns1:saveGroupParam>
 ```
 
-**回答**
+**回應**
 
 ```java
 <saveGroupReturn xmlns="http://www.scene7.com/IpsApi/xsd">

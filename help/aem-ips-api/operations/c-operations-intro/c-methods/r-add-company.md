@@ -8,7 +8,7 @@ exl-id: 2f834fe8-a621-4a41-9473-8ef53294b348
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '170'
-ht-degree: 11%
+ht-degree: 7%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 11%
 
 將公司新增至系統。
 
-傳送要新增至系統的公司名稱，並選擇是否傳送公司過期。
+傳送要新增至系統的公司名稱，並選擇性地傳送公司是否過期。
 
-叫用此作業時，系統會取得包含公司控制代碼和描述性欄位的companyInfo型別。 如果系統中已存在請求的公司名稱，則會擲回 `ipsApiFault`.
+叫用此操作時，系統會取得包含公司控制代碼和描述性欄位的companyInfo型別。 如果系統中已存在要求的公司名稱，則會擲回`ipsApiFault`。
 
 ## 授權的使用者型別 {#section-ae926c7672984be79f6102748accab72}
 
@@ -41,16 +41,16 @@ ht-degree: 11%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname">公司名稱</span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd：string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
    <td colname="col4"> <p>要新增的公司名稱。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> expires</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname">過期</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd：dateTime</span> </p> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>公司的到期日。 提供此欄位請求的時區。 時區會調整為中部時間。 </p> </td> 
+   <td colname="col4"> <p>公司的到期日。 提供此欄位要求的時區。 時區會調整為中央時間。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -68,10 +68,10 @@ ht-degree: 11%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyInfo</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname">公司資訊</span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd：string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>處理新公司的和名稱、根路徑、到期日和時間。 </p> </td> 
+   <td colname="col4"> <p>新公司的處理與名稱、根路徑、到期日及時間。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -80,7 +80,7 @@ ht-degree: 11%
 
 此範例示範將公司新增至IPS系統的請求和回應，詳細說明執行其他操作所需新增公司的相關資訊。
 
-**請求**
+**要求**
 
 ```java {.line-numbers}
 <ns1:addCompanyParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">
@@ -88,7 +88,7 @@ ht-degree: 11%
 </ns1:addCompanyParam>
 ```
 
-**回答**
+**回應**
 
 ```java {.line-numbers}
 <ns1:addCompanyReturn xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

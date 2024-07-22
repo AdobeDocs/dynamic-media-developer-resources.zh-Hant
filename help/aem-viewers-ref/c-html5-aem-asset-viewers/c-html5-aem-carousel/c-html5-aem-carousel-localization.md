@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 05f5abe0-1124-4114-864d-440699bcdc39
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 轉盤檢視器顯示的某些內容可能會因本地化而異。 此內容包含幻燈片導覽按鈕。
 
-檢視器中可本地化的每個文字內容，都會以名為SYMBOL的特殊檢視器SDK識別碼表示。 任何SYMBOL都有英文地區設定的預設相關文字值( `"en"`)隨附現成可用的檢視器，而且可能也會視需要為許多語言環境設定使用者定義的值。
+檢視器中可本地化的每個文字內容，都會以名為SYMBOL的特殊檢視器SDK識別碼表示。 任何SYMBOL都有隨現成可用的檢視器提供的英文語言環境(`"en"`)的預設相關文字值，而且也可以視需要為許多語言環境設定使用者定義的值。
 
 當檢視器啟動時，它會檢查目前的地區設定，檢視此類地區設定的每個受支援SYMBOL是否有使用者定義的值。 如果有的話，它會使用使用者定義的值；否則，它會回覆成現成的預設文字。
 
@@ -38,9 +38,9 @@ defaultLocale:"en"
 }
 ```
 
-在上述範例中，本地化物件會定義兩個地區設定( `"en"` 和 `"fr"`)並提供每個地區設定中兩個使用者介面元素的當地語系化。
+在上述範例中，本地化物件定義了兩個地區設定（`"en"`和`"fr"`），並為每個地區設定中的兩個使用者介面元素提供本地化。
 
-網頁程式碼應將本地化物件傳遞至檢視器建構函式，其值為 `localizedTexts` 設定物件的欄位。 另一種選擇是呼叫以傳遞本地化物件 `setLocalizedTexts(localizationInfo)` 方法。
+網頁程式碼應將本地化物件傳遞給檢視器建構函式，做為設定物件的`localizedTexts`欄位值。 替代選項是呼叫`setLocalizedTexts(localizationInfo)`方法來傳遞本地化物件。
 
 支援下列SYMBOL：
 
@@ -62,7 +62,7 @@ defaultLocale:"en"
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> CAROUSELEVIEWER_TOOLTIP_GOTO </span> </p> </td> 
-   <td colname="col2"> <p> 上一個和下一個幻燈片按鈕的工具提示和ARIA標籤。 </p> <p>接受兩個取代權杖： <span class="codeph"> $CURRENT_FRAME$ </span> 目前的投影片索引和 <span class="codeph"> $TOTAL_FRAMES$ </span> 以取得投影片總數。 </p> </td> 
+   <td colname="col2"> <p> 上一個和下一個幻燈片按鈕的工具提示和ARIA標籤。 </p> <p>接受兩個取代權杖：目前幻燈片索引為<span class="codeph"> $CURRENT_FRAME$ </span>，幻燈片總數為<span class="codeph"> $TOTAL_FRAMES$ </span>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Container.LABEL </span> </p> </td> 

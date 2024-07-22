@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: bd385b06-b8d6-4c6e-83fd-65a3d1c105c5
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 3%
+source-wordcount: '439'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 3%
 
 只有當所有縮圖無法符合容器的寬度時，才會在案頭上顯示捲動按鈕。 在行動裝置上，或縮圖可符合容器寬度時，捲動按鈕不會顯示。
 
-**色票的CSS屬性**
+色票的&#x200B;**CSS屬性**
 
 色票容器的外觀可透過下列CSS類別選取器控制：
 
@@ -37,15 +37,15 @@ ht-degree: 3%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">寬度</span> </p> </td> 
    <td colname="col2"> <p> 色票的寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">高度</span> </p> </td> 
    <td colname="col2"> <p>色票的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 底部 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">後</span> </p> </td> 
    <td colname="col2"> <p> 相對於檢視器容器的垂直色票位移。 </p> </td> 
   </tr> 
  </tbody> 
@@ -60,7 +60,7 @@ ht-degree: 3%
 }
 ```
 
-**縮圖色票間距的CSS屬性**
+縮圖色票間距的&#x200B;**CSS屬性**
 
 色票縮圖之間的間距是由CSS類別選取器所控制：
 
@@ -77,8 +77,8 @@ ht-degree: 3%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> 每個縮圖周圍水平與垂直邊界的大小。 實際縮圖間距等於為設定的左右邊界總和 <span class="codeph"> .s7thumbcell </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">利潤</span> </p> </td> 
+   <td colname="col2"> <p> 每個縮圖周圍水平與垂直邊界的大小。 實際縮圖間距等於<span class="codeph"> .s7縮圖儲存格</span>的左右邊界總和。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -91,7 +91,7 @@ ht-degree: 3%
 }
 ```
 
-**縮圖色票的CSS屬性**
+縮圖色票的&#x200B;**CSS屬性**
 
 使用下列CSS類別選取器來控制個別縮圖的外觀：
 
@@ -108,15 +108,15 @@ ht-degree: 3%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">寬度</span> </p> </td> 
    <td colname="col2"> <p> 縮圖色票的寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">高度</span> </p> </td> 
    <td colname="col2"> <p>縮圖色票的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">邊框</span> </p> </td> 
    <td colname="col2"> <p>縮圖色票的邊框。 </p> </td> 
   </tr> 
  </tbody> 
@@ -124,7 +124,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->縮圖支援 `state` 屬性選取器，用於將不同的外觀元素套用至不同的縮圖狀態。 尤其是， `state="selected"` 與目前顯示在主檢視中的影像縮圖相對應， `state="default"` 對應至其餘的縮圖，以及 `state="over"` 用於滑鼠懸停時。
+>縮圖支援`state`屬性選取器，其用於將不同的外觀元素套用至不同的縮圖狀態。 特別是，`state="selected"`對應於目前顯示在主檢視中的影像縮圖，`state="default"`對應於其餘的縮圖，而`state="over"`則用於滑鼠懸停時。
 
 範例 — 若要設定56 x 56畫素的縮圖、淺灰色的預設框線以及選取的深灰色框線：
 
@@ -141,7 +141,7 @@ ht-degree: 3%
 }
 ```
 
-**左右捲動按鈕的CSS屬性**
+左右捲動按鈕的&#x200B;**CSS屬性**
 
 左右捲動按鈕的外觀由下列CSS類別選取器控制：
 
@@ -150,7 +150,7 @@ ht-degree: 3%
 .s7flyoutviewer .s7swatches .s7scrollrightbutton
 ```
 
-無法使用CSS來定位捲動按鈕 `top`， `left`， `bottom`、和 `right` 屬性。 相反地，檢視器邏輯會自動調整位置。
+無法使用CSS `top`、`left`、`bottom`和`right`屬性來定位捲動按鈕。 相反地，檢視器邏輯會自動調整位置。
 
 <table id="table_F957367566C542829E2F6D296F9DAAC5"> 
  <thead> 
@@ -161,29 +161,29 @@ ht-degree: 3%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">寬度</span> </p> </td> 
    <td colname="col2"> <p> 捲動按鈕的寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">高度</span> </p> </td> 
    <td colname="col2"> <p>捲動按鈕的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景影像</span> </p> </td> 
    <td colname="col2"> <p>針對指定按鈕狀態顯示的影像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> 若使用CSS拼寫，則定位在圖稿sprite內。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/c-html5-inlinezoom-viewer-customizingviewer.md#section-b0af39db1af74561aea9fddcc8cdc2c7" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景位置</span> </p> </td> 
+   <td colname="col2"> <p> 若使用CSS拼寫，則定位在圖稿sprite內。 </p> <p>請參閱<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/c-html5-inlinezoom-viewer-customizingviewer.md#section-b0af39db1af74561aea9fddcc8cdc2c7" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按鈕支援 `state` 屬性選取器，用於將不同的外觀元素套用至按鈕狀態 `up`， `down`， `over`、和 `disabled`.
+>此按鈕支援`state`屬性選取器，其用於將不同的外觀元素套用至按鈕狀態`up`、`down`、`over`和`disabled`。
 
-按鈕工具提示可本地化。 另請參閱 [使用者介面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) 以取得詳細資訊。
+按鈕工具提示可本地化。 如需詳細資訊，請參閱[使用者介面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27)。
 
 範例 — 設定56 x 56畫素的捲動按鈕，每個狀態都有不同的圖稿：
 

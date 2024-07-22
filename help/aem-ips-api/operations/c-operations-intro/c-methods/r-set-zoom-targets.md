@@ -8,7 +8,7 @@ exl-id: 1b4ac729-00cf-4ea2-9098-60b4af3c7e6d
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '121'
-ht-degree: 14%
+ht-degree: 12%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 14%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 公司控點。 |
+| companyHandle | `xsd:string` | 是 | 公司控制代碼。 |
 | assetHandle | `xsd:string` | 是 | 具有您要設定之縮放目標的資產。 |
 | zoomTargetArray | `types:ZoomTargetDefinitionArray` | 是 | 縮放目標定義的陣列。 |
 
@@ -45,9 +45,9 @@ ht-degree: 14%
 
 ## 範例 {#section-a2f14c7a1499443e96d099ea8a76c182}
 
-此程式碼範例依名稱、位置（x和y軸）、寬度、高度來定義縮放目標的陣列，並將陣列指派給資產。 回應包含新建立縮放目標的控制代碼。
+此程式碼範例依名稱、位置（x和y軸）、寬度、高度定義縮放目標的陣列，並將陣列指派給資產。 回應包含新建立縮放目標的控制代碼。
 
-**請求**
+**要求**
 
 ```java
 <setZoomTargetsParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">
@@ -72,7 +72,7 @@ ht-degree: 14%
 </setZoomTargetsParam>
 ```
 
-**回答**
+**回應**
 
 ```java
 <setZoomTargetsReturn xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

@@ -1,5 +1,5 @@
 ---
-description: 取得資產的工作記錄檔。 陣列中傳回的專案包含該資產之作業記錄中每個專案的詳細資訊。 logMessage回應欄位已根據authHeader欄位進行本地化。
+description: 取得資產的工作記錄檔。 陣列中傳回的專案包含該資產工作記錄中每個專案的詳細資訊。 logMessage回應欄位已根據authHeader欄位進行本地化。
 solution: Experience Manager
 title: getAssetJobLogs
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -8,13 +8,13 @@ exl-id: 88ec5cab-7eb4-48aa-914f-21311593e463
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '156'
-ht-degree: 10%
+ht-degree: 8%
 
 ---
 
 # getAssetJobLogs{#getassetjoblogs}
 
-取得資產的工作記錄檔。 陣列中傳回的專案包含該資產之作業記錄中每個專案的詳細資訊。 logMessage回應欄位已根據authHeader欄位進行本地化。
+取得資產的工作記錄檔。 陣列中傳回的專案包含該資產工作記錄中每個專案的詳細資訊。 logMessage回應欄位已根據authHeader欄位進行本地化。
 
 語法
 
@@ -37,7 +37,7 @@ ht-degree: 10%
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
 | companyHandle | `xsd:string` | 是 | 資產所屬公司的控制代碼。 |
-| assetHandle | `xsd:string` | 是 | 包含要擷取之工作記錄檔的資產的控點。 |
+| assetHandle | `xsd:string` | 是 | 要擷取工作記錄之資產的控點。 |
 
 **輸出(getAssetJobLogsReturn)**
 
@@ -47,9 +47,9 @@ ht-degree: 10%
 
 ## 範例 {#section-f03d7f3ec5d043d38227f926fb7609f6}
 
-此程式碼範例會擷取特定資產的工作記錄。 回應會傳回工作記錄陣列，內含使用資產之所有工作的詳細資訊。
+此程式碼範例會擷取特定資產的工作記錄檔。 回應會傳回工作記錄陣列，內含使用資產之所有工作的詳細資訊。
 
-**請求**
+**要求**
 
 ```java
 <getAssetJobLogsParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">
@@ -58,7 +58,7 @@ ht-degree: 10%
 </getAssetJobLogsParam>
 ```
 
-**回答**
+**回應**
 
 ```java
 <getAssetJobLogsReturn xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

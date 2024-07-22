@@ -8,7 +8,7 @@ exl-id: 1cb9a286-48a0-4542-a80a-c97fd973474e
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '100'
-ht-degree: 12%
+ht-degree: 10%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 12%
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
 | userHandle | `xsd:string` | 否 | 具有您要移除之成員資格的使用者的控制代碼。 |
-| companyHandleArray | `types:HandleArray` | 是 | 您要從中移除使用者的公司的控制代碼。 |
+| companyHandleArray | `types:HandleArray` | 是 | 您要移除使用者的公司控制代碼。 |
 
 **輸出(removeCompanyMembershipReturn)**
 
@@ -40,9 +40,9 @@ IPS API未傳回此作業的回應。
 
 ## 範例 {#section-6b7903195e8647a1bd0502f87387ca62}
 
-此程式碼範例會從公司中移除使用者。 省略選用的使用者控制代碼，從公司控制代碼陣列中指定的公司中移除所有使用者。
+此程式碼範例從公司中移除使用者。 省略選用的使用者控制代碼，從公司控制代碼陣列中指定的公司中移除所有使用者。
 
-**請求**
+**要求**
 
 ```java
 <ns1:removeCompanyMembershipParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">
@@ -53,6 +53,6 @@ IPS API未傳回此作業的回應。
 </ns1:removeCompanyMembershipParam>
 ```
 
-**回答**
+**回應**
 
 無。

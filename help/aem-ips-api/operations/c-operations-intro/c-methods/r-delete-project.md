@@ -1,5 +1,5 @@
 ---
-description: 從公司刪除專案。 資產和專案之間的連結已中斷，但資產不會從IPS中刪除。
+description: 從公司刪除專案。 資產和專案之間的連結已中斷，但資產不會從IPS刪除。
 solution: Experience Manager
 title: deleteProject
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: b42be3ef-c935-4548-8f92-4fc33af321b5
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '128'
-ht-degree: 9%
+ht-degree: 7%
 
 ---
 
 # deleteProject{#deleteproject}
 
-從公司刪除專案。 資產和專案之間的連結已中斷，但資產不會從IPS中刪除。
+從公司刪除專案。 資產和專案之間的連結已中斷，但資產不會從IPS刪除。
 
 語法
 
@@ -33,7 +33,7 @@ ht-degree: 9%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| companyName | `xsd:string` | 是 | 與專案相關聯的公司名稱。 |
+| companyName | `xsd:string` | 是 | 與專案相關聯之公司的名稱。 |
 | projectHandle | `xsd:string` | 是 | 要刪除的專案的控制代碼。 |
 
 **輸出(deleteProjectReturn)**
@@ -42,9 +42,9 @@ IPS API未傳回此作業的回應。
 
 ## 範例 {#section-e38507f1f7ec41b9a625f47390490254}
 
-此程式碼範例使用公司控制代碼和專案控制代碼作為傳送到IPS Web服務伺服器的deleteProjectParam中的欄位，以刪除專案。
+此程式碼範例使用公司控制代碼和專案控制代碼作為傳送至IPS Web服務伺服器以刪除專案之deleteProjectParam中的欄位。
 
-**請求**
+**要求**
 
 ```java
 <deleteProjectParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">
@@ -52,6 +52,6 @@ IPS API未傳回此作業的回應。
 <projectHandle>p|6|ProjectTestAPI</projectHandle></deleteProjectParam>
 ```
 
-**回答**
+**回應**
 
 無。

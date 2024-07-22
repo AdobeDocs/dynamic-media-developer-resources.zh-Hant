@@ -8,7 +8,7 @@ exl-id: 76e595bd-e598-40e8-aba3-b270fcf4d800
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '70'
-ht-degree: 22%
+ht-degree: 20%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 22%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 公司處理您要傳回的封包(例如， `c|656`)。 |
+| companyHandle | `xsd:string` | 是 | 包含您要傳回之封包的公司控制代碼（例如，`c|656`）。 |
 | assetHandle | `xsd:string` | 是 | 應該擷取XMP封包的資產。 |
 
 **輸出(getXMPPacketReturn)**
@@ -45,7 +45,7 @@ ht-degree: 22%
 
 ## 範例 {#section-d681af49122e4ca9bcd04110a2e98e6f}
 
-**請求**
+**要求**
 
 ```java
 <ns:getXMPPacketParam>
@@ -54,7 +54,7 @@ ht-degree: 22%
 </ns:getXMPPacketParam>
 ```
 
-**回答**
+**回應**
 
 ```java
 <getXMPPacketReturn xmlns="http://www.scene7.com/IpsApi/xsd/2010-01-31">

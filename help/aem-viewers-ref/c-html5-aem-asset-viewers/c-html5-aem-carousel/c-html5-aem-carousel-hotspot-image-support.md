@@ -16,13 +16,13 @@ ht-degree: 0%
 
 檢視器支援在主檢視上方呈現熱點圖示和影像地圖區域。 熱點圖示和區域的外觀會透過CSS控制，如自訂熱點和影像地圖區段中所述。
 
-另請參閱 [連結區和影像地圖](../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/r-html5-aem-carousel-customize-hotspots-imagemaps.md#reference-2ac3cc414ef2467390bf53145f1d8d74).
+檢視[熱點與影像地圖](../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/r-html5-aem-carousel-customize-hotspots-imagemaps.md#reference-2ac3cc414ef2467390bf53145f1d8d74)。
 
-熱點與區域可以透過觸發JavaScript回呼，在託管網頁上啟用快速檢視功能，或將使用者重新導向至外部網頁。
+熱點與區域可以透過觸發JavaScript回呼在託管網頁上啟用快速檢視功能，或將使用者重新導向至外部網頁。
 
 ## 快速檢視熱點 {#section-cda48fc9730142d0bb3326bac7df3271}
 
-這些型別的熱點或影像地圖應使用Adobe Experience Manager的Dynamic Media中的「快速檢視」動作型別來編寫。 當使用者啟動這類熱點或影像地圖時，檢視器會執行 `quickViewActivate` JavaScript回呼並將熱點或影像地圖資料傳遞至其中。 內嵌網頁應會監聽此回呼。 觸發頁面時，它會開啟自己的快速檢視實施。
+這些型別的熱點或影像地圖應使用Adobe Experience Manager的Dynamic Media中的「快速檢視」動作型別來編寫。 當使用者啟用這類熱點或影像地圖時，檢視器會執行`quickViewActivate` JavaScript回呼，並將熱點或影像地圖資料傳遞至該回呼。 內嵌網頁應會監聽此回呼。 觸發頁面時，它會開啟自己的快速檢視實施。
 
 ## 重新導向至外部網頁 {#section-ef820c71251e4215800bb99c0c9ebe16}
 

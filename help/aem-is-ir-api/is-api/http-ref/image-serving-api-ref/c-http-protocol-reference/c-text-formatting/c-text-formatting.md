@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 2c120ed1-b556-4caf-a30e-63ae48cc2104
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 7%
+source-wordcount: '560'
+ht-degree: 6%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 7%
 
 「影像伺服」提供數個轉譯文字的替代方案，可透過text=和textPs=命令存取。
 
-`textPs=` 透過Adobe Photoshop和Illustrator呈現的文字有高度的相似性。 `text=` 與使用Windows Wordpad轉譯的文字相當相容。
+`textPs=`提供與Adobe Photoshop和Illustrator轉譯的文字高度相似性。 `text=`與使用Windows Wordpad轉譯的文字相當相容。
 
 >[!NOTE]
 >
->除了其他部份列出的差異以外， `text=` 在和比較時，呈現的文字會產生細微的差異 `textPs=`. 例如，底線的粗細和位置不同，合成斜體會以稍微不同的角度呈現。 如果文字不符合可用空間， `text=` 可能會部分裁切最後一行，而 `textPs=` 只轉譯完整的行。
+>除了其他部份列出的差異之外，`text=`在轉譯的文字與`textPs=`之間也會產生細微的差異。 例如，底線的粗細和位置不同，合成斜體會以稍微不同的角度呈現。 如果文字不符合可用空間，`text=`可能會部分裁切最後一行，而`textPs=`只會呈現完整的行。
 
 所有文字指令都接受以RTF （RTF格式）規格的子集為基礎的格式化文字。 每個文字圖層可以指定不同的文字指令。
 
@@ -29,10 +29,10 @@ ht-degree: 7%
 <table id="table_9C41CBDA94C24805B538E5049B0137C6"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b> 功能</b> </th> 
-   <th class="entry"> <b> 文字=</b> </th> 
+   <th class="entry"> <b>功能</b> </th> 
+   <th class="entry"> <b>文字=</b> </th> 
    <th class="entry"> <b> textPs=</b> </th> 
-   <th class="entry"> <b> 另請參閱</b> </th> 
+   <th class="entry"> <b>另請參閱</b> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -153,7 +153,7 @@ RTF相容的字串可以手動組裝，或透過在能儲存RTF檔案的文字�
 
 RTF字串支援以UTF-8和ISO標準為基礎的語言編碼，作為標準RTF字元編碼機制的替代方案。 這可讓應用程式在不瞭解RTF編碼的情況下將非英文文字傳送至伺服器。
 
-如果要透過http傳輸字串，所有非HTTP相容的字元都必須適當地逸出。 若將字串併入「=」、「&amp;」和「%」中，則只需要逸出 `catalog::Modifiers` 影像目錄記錄的欄位。 控制字元，包括 `<CR>`， `<LF>`、和 `<TAB>` 應該一律移除。
+如果要透過http傳輸字串，所有非HTTP相容的字元都必須適當地逸出。 如果字串已併入影像目錄記錄的`catalog::Modifiers`欄位中，則只需要逸出&#39;=&#39;、&#39;&amp;&#39;和&#39;%&#39;。 控制字元（包括`<CR>`、`<LF>`和`<TAB>`）一律應移除。
 
 「影像伺服」文字引擎會解譯RTF規格1.6版所定義的命令子集。此子集著重於字型/字元格式、簡單的段落格式，以及支援國際字型和字元集。 目前不支援更進階的格式建構，例如樣式表和表格。
 

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: f61c7311-a2e9-4eb7-ae05-276a4eec980b
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 33%
+source-wordcount: '130'
+ht-degree: 18%
 
 ---
 
@@ -16,35 +16,35 @@ ht-degree: 33%
 
 顯示印表機標籤。 指定如何顯示印表機標籤。
 
-` printerMark= *`修剪標籤`*, *`出血標籤`*, *`註冊標籤`*, *`色條`*, *`頁面資訊`*, *`樣式`*, *`線條寬度`*, *`圖層內嵌`*`
+` printerMark= *`修剪標籤`*, *`出血標籤`*, *`註冊標籤`*, *`色條`*, *`頁面資訊`*, *`樣式`*, *`線寬`*, *`圖層內嵌`*`
 
 可以關閉或開啟不同的標籤。 也可以控制印表機標籤的樣式。
 
-以下是有效的值：
+以下是有效值：
 
 <table id="simpletable_C84560940CAC46D8BE9D0EFEE5EBF323"> 
  <tr class="strow"> 
-  <td class="stentry"> <p>trim marks= </p></td> 
+  <td class="stentry"> <p>修剪標籤= </p></td> 
   <td class="stentry"> <p>0|1 </p></td> 
   <td class="stentry"> <p>預設為 0。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>bleed marks= </p></td> 
+  <td class="stentry"> <p>出血標籤= </p></td> 
   <td class="stentry"> <p>0|1 </p></td> 
   <td class="stentry"> <p>預設為 0。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>registration marks= </p></td> 
+  <td class="stentry"> <p>註冊標籤= </p></td> 
   <td class="stentry"> <p>0|1 </p></td> 
   <td class="stentry"> <p>預設為 0。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>color bars= </p></td> 
+  <td class="stentry"> <p>色條= </p></td> 
   <td class="stentry"> <p>0|1 </p></td> 
   <td class="stentry"> <p>預設為 0。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>page information= </p></td> 
+  <td class="stentry"> <p>頁面資訊= </p></td> 
   <td class="stentry"> <p>0|1 </p></td> 
   <td class="stentry"> <p>預設為 0。 </p></td> 
  </tr> 
@@ -55,11 +55,11 @@ ht-degree: 33%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>線條寬度= </p></td> 
-  <td class="stentry"> <p>介於0.125到2.0之間的任何值，包括這兩個值。 </p></td> 
+  <td class="stentry"> <p>0.125 - 2.0範圍內的任何值，包括這兩個值。 </p></td> 
   <td class="stentry"> <p>預設為 0.25。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>layer embed= </p></td> 
+  <td class="stentry"> <p>圖層嵌入= </p></td> 
   <td class="stentry"> <p>0|1 </p></td> 
   <td class="stentry"> <p>預設為 1。 </p></td> 
  </tr> 

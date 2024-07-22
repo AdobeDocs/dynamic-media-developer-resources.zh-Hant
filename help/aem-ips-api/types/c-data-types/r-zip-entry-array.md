@@ -1,5 +1,5 @@
 ---
-description: ZIP專案陣列。
+description: ZIP專案的陣列。
 solution: Experience Manager
 title: ZipEntryArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 27%
 
 # [!DNL ZipEntryArray]{#zipentryarray}
 
-ZIP專案陣列。
+ZIP專案的陣列。
 
 語法
 
@@ -22,4 +22,4 @@ ZIP專案陣列。
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 項目 | `types:ZipEntry` | ZIP專案陣列。 |
+| 項目 | `types:ZipEntry` | ZIP專案的陣列。 |

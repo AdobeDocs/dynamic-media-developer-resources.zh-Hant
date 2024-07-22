@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 67dd37f3-b11e-42d6-b308-7c1e76a8f2a9
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 2%
+source-wordcount: '204'
+ht-degree: 1%
 
 ---
 
@@ -38,11 +38,11 @@ Dynamic Media影像伺服包含下列元件：
   </tr> 
   <tr> 
    <td colname="col1"> <p>[!DNL Platform Server] </p> </td> 
-   <td colname="col2"> <p>J2EE應用程式。 管理使用者端連線、記錄、與其他元件的通訊。 HTTP存取於 <span class="filepath"> /is/image</span>. </p> </td> 
+   <td colname="col2"> <p>J2EE應用程式。 管理使用者端連線、記錄、與其他元件的通訊。 位於<span class="filepath"> /is/image</span>的HTTP存取。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>快取服務 </p> </td> 
-   <td colname="col2"> <p>J2EE應用程式。 管理 [!DNL Platform Server]的資料快取。 /is/cache上的HTTP存取。 </p> </td> 
+   <td colname="col2"> <p>J2EE應用程式。 管理[!DNL Platform Server]的資料快取。 /is/cache上的HTTP存取。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>影像伺服器 </p> </td> 
@@ -50,7 +50,7 @@ Dynamic Media影像伺服包含下列元件：
   </tr> 
   <tr> 
    <td colname="col1"> <p>ATE文字轉譯元件 </p> </td> 
-   <td colname="col2"> <p>文字轉譯服務的一或多個執行個體可能在使用中： <span class="codeph"> textPs=</span> 操作執行。 </p> </td> 
+   <td colname="col2"> <p>執行<span class="codeph"> textPs=</span>作業時，文字演算服務的一或多個執行個體可能作用中。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>SVG演算元件 </p> </td> 
@@ -58,9 +58,9 @@ Dynamic Media影像伺服包含下列元件：
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dynamic Media影像演算(亦稱為 演算伺服器) </p> </td> 
-   <td colname="col2"> <p>它需要單獨的授權才能啟用。 HTTP存取於 <span class="filepath"> /ir/render</span>. 所有影像演算功能皆已整合至 [!DNL Platform Server] 和影像伺服器，沒有單獨的可執行元件。 </p> </td> 
+   <td colname="col2"> <p>它需要單獨的授權才能啟用。 位於<span class="filepath"> /ir/render</span>的HTTP存取。 所有影像演算功能已整合至[!DNL Platform Server]和影像伺服器，沒有個別的可執行元件。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-預設目錄( [!DNL default.ini])或特定影像目錄(請參閱 [影像目錄](../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3) 以取得詳細資訊)。
+預設目錄([!DNL default.ini])或特定影像目錄（如需詳細資訊，請參閱[影像目錄](../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3)）提供了其他組態設定。

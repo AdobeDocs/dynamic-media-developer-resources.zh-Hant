@@ -8,7 +8,7 @@ exl-id: f9942a4a-d258-4e2a-8910-44fa502d97bd
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '93'
-ht-degree: 12%
+ht-degree: 10%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->使用者必須擁有資產的讀取和寫入存取權。
+>使用者必須擁有資產的讀寫存取權。
 
 ## 參數 {#section-28de12bab79045a5977c68855e37ae3d}
 
@@ -37,7 +37,7 @@ ht-degree: 12%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 包含要刪除之影像地圖之公司的控制代碼。 |
+| companyHandle | `xsd:string` | 是 | 包含要刪除之影像地圖的公司的控制代碼。 |
 | imageMapHandle | `xsd:string` | 是 | 要刪除之影像地圖的控點。 |
 
 **輸出(deleteImageMapParam)**
@@ -48,7 +48,7 @@ IPS API未傳回此作業的回應。
 
 此程式碼範例會從公司刪除影像地圖。 您必須從其他作業取得影像地圖控制代碼。
 
-**請求**
+**要求**
 
 ```java
 <deleteImageMapParam xmlns="http://www.scene7.com/IpsApi/xsd">
@@ -57,6 +57,6 @@ IPS API未傳回此作業的回應。
 </deleteImageMapParam>
 ```
 
-**回答**
+**回應**
 
 無

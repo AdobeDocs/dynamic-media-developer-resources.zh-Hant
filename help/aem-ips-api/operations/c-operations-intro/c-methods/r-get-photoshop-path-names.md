@@ -8,7 +8,7 @@ exl-id: 11d4c0d0-a3a3-4324-a4a6-1dd7b7e673da
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '77'
-ht-degree: 20%
+ht-degree: 18%
 
 ---
 
@@ -41,11 +41,11 @@ ht-degree: 20%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| pathNameArray | `types:StringArray` | 是 | 影像中的Photoshop路徑名稱陣列。 |
+| pathNameArray | `types:StringArray` | 是 | 影像中Photoshop路徑名稱的陣列。 |
 
 ## 範例 {#section-6d316f14b4184d42af4ca3f717b042dd}
 
-**請求**
+**要求**
 
 ```java
 <getPhotoshopPathNamesParam xmlns="http://www.scene7.com/IpsApi/xsd/2012-07-31">
@@ -54,7 +54,7 @@ ht-degree: 20%
 </getPhotoshopPathNamesParam>
 ```
 
-**回答**
+**回應**
 
 ```java
 <getPhotoshopPathNamesReturn xmlns="http://www.scene7.com/IpsApi/xsd/2012-07-31">

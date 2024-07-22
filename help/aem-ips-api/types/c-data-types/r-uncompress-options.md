@@ -8,7 +8,7 @@ exl-id: 89222959-3701-4ea6-bcae-98ceec93764f
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
 source-wordcount: '97'
-ht-degree: 7%
+ht-degree: 5%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->設定 `None` 是預設值。
+>設定`None`為預設值。
 
 ## 參數 {#section-10e49e27f60743da970a4ff1c4587eab}
 
@@ -32,13 +32,13 @@ ht-degree: 7%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 程式</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname">處理序</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
    <td colname="col3"> <p>控制ZIP和TAR封存檔案處理。 它提供兩個選項： 
      <ul id="ul_F34E2F3B9B74450CA7E76BD9FD7137C2">
-      <li id="li_E982468ED814446593B0C0A3F3D729FB"><span class="codeph"> 無：</span> 以主要資產處理。 </li>
-      <li id="li_4A45DA99592B4EF7A1FE0A946A835104"><span class="codeph"> 解壓縮：</span> 擷取及處理內容。 </li>
-     </ul><p>注意：字串常數區分大小寫。 使用 <span class="codeph"> 取消壓縮</span>，非 <span class="codeph"> 解壓縮</span>，或 <span class="codeph"> 取消壓縮</span>. </p></p> </td> 
+      <li id="li_E982468ED814446593B0C0A3F3D729FB"><span class="codeph">無：</span>處理為主要資產。 </li>
+      <li id="li_4A45DA99592B4EF7A1FE0A946A835104"><span class="codeph"> UnCompress：</span>擷取並處理內容。 </li>
+     </ul><p>注意：字串常數區分大小寫。 使用<span class="codeph"> UnCompress</span>，而不是<span class="codeph">解壓縮</span>，或<span class="codeph">解壓縮</span>。 </p></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,8 +58,8 @@ ht-degree: 7%
 
 ## 使用者 {#section-b2a829cf5511412e968bb2000f85cc31}
 
-此 `unCompressionOptions` 型別使用者：
+`unCompressionOptions`型別由下列使用者使用：
 
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
-* [UploadpostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)
+* [UploadPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)
 * [UploadUrlsJob](../../types/c-data-types/r-upload-urls-job.md#reference-8e9bc895268c4321b233dbeadc990398)

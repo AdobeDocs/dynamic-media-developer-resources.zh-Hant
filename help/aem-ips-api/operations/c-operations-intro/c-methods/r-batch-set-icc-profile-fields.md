@@ -1,18 +1,18 @@
 ---
 description: 設定ICC設定檔中繼資料欄位。
 solution: Experience Manager
-title: batchSetIccProfileField
+title: batchSetIccProfield
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d10a30ca-afa7-4ef0-8cef-0329b0068bf3
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '137'
-ht-degree: 14%
+ht-degree: 13%
 
 ---
 
-# batchSetIccProfileField{#batchseticcprofilefields}
+# batchSetIccProfield{#batchseticcprofilefields}
 
 設定ICC設定檔中繼資料欄位。
 
@@ -40,15 +40,15 @@ ht-degree: 14%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| successCount | `xsd:int` | 是 | 成功設定的ICC設定檔欄位數目。 |
-| warningCount | `xsd:int` | 是 | 作業嘗試設定ICC設定檔欄位時產生的警告數目。 |
+| successCount | `xsd:int` | 是 | 成功設定ICC設定檔欄位的數量。 |
+| warningcount | `xsd:int` | 是 | 作業嘗試設定ICC設定檔欄位時產生的警告數目。 |
 | errororcount | `xsd:int` | 是 | 作業嘗試設定ICC設定檔欄位時產生的錯誤數目。 |
 | warningDetailArray | `types:AssetOperationFaultArray` | 否 | 與資產關聯的詳細資訊陣列，在作業嘗試套用更新時產生警告。 |
-| errorDetailArray | `types:AssetOperationFaultArray` | 否 | 與資產關聯的詳細資訊陣列，在作業嘗試套用更新時產生錯誤。 |
+| errorDetailArray | `types:AssetOperationFaultArray` | 否 | 與資產關聯的詳細資訊陣列，在操作嘗試套用更新時產生錯誤。 |
 
 ## 範例 {#section-5dc90cfbd9b1411485b44859032f7cb9}
 
-**請求**
+**要求**
 
 ```java {.line-numbers}
 <batchSetIccProfileFieldsParam xmlns="http://www.scene7.com/IpsApi/xsd/2009-07-31">
@@ -64,7 +64,7 @@ ht-degree: 14%
 </batchSetIccProfileFieldsParam>
 ```
 
-**回答**
+**回應**
 
 ```java {.line-numbers}
 <batchSetIccProfileFieldsReturn xmlns="http://www.scene7.com/IpsApi/xsd/2009-07-31">

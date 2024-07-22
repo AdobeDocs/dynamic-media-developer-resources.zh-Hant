@@ -22,4 +22,4 @@ ht-degree: 23%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 項目 | `types:AssetOperationFault` | 資產操作錯誤專案的陣列。 |
+| 項目 | `types:AssetOperationFault` | 資產作業錯誤專案的陣列。 |

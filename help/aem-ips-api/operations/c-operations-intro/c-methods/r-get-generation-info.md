@@ -1,5 +1,5 @@
 ---
-description: 根據傳入的引數，傳回2種不同型別的資訊。 originatorHandle會傳回從指定資產產生之資產的相關資訊。 generateHandle會傳回用來產生指定資產或檔案之步驟的相關資訊。
+description: 根據傳入的引數，傳回2種不同型別的資訊。 originatorHandle會傳回從指定資產產生的資產相關資訊。 generateHandle會傳回用來產生指定資產或檔案之步驟的相關資訊。
 solution: Experience Manager
 title: getGenerationInfo
 feature: Dynamic Media Classic,SDK/API
@@ -7,14 +7,14 @@ role: Developer,Admin
 exl-id: fa098e3c-8145-4238-a84c-c545f1c53341
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 10%
+source-wordcount: '198'
+ht-degree: 9%
 
 ---
 
 # getGenerationInfo{#getgenerationinfo}
 
-根據傳入的引數，傳回2種不同型別的資訊。 originatorHandle會傳回從指定資產產生之資產的相關資訊。 generateHandle會傳回用來產生指定資產或檔案之步驟的相關資訊。
+根據傳入的引數，傳回2種不同型別的資訊。 originatorHandle會傳回從指定資產產生的資產相關資訊。 generateHandle會傳回用來產生指定資產或檔案之步驟的相關資訊。
 
 語法
 
@@ -53,7 +53,7 @@ ht-degree: 10%
 
 此程式碼範例會傳回有關從特定資產產生之資產的資訊。 它不會擷取有關用於產生指定資產的步驟的資訊。 為簡短起見，回應會遭截斷。
 
-**請求**
+**要求**
 
 ```java
 <getGenerationInfoParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">
@@ -62,7 +62,7 @@ ht-degree: 10%
 </getGenerationInfoParam>
 ```
 
-**回答**
+**回應**
 
 ```java
 <getGenerationInfoReturn xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

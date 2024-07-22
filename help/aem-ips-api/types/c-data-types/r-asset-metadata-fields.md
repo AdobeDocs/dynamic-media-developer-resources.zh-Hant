@@ -23,4 +23,4 @@ ht-degree: 10%
 | 名稱 | 類型 | 說明 |
 |---|---|---|
 | assetType | `xsd:string` | 與欄位定義相關聯的資產型別（如需值，請參閱「資產型別」）。 |
-| fieldArray | `types:MetadataFieldArray` | 與中指定的資產型別關聯的中繼資料欄位定義陣列 `assetType`. |
+| fieldArray | `types:MetadataFieldArray` | 與`assetType`中指定的資產型別關聯的中繼資料欄位定義陣列。 |

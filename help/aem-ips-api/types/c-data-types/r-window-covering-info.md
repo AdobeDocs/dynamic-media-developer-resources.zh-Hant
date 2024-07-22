@@ -8,7 +8,7 @@ exl-id: 43f7927d-6341-4d30-9a3c-de1d61b4d667
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '51'
-ht-degree: 13%
+ht-degree: 9%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 13%
 | 名稱 | 類型 | 說明 |
 |---|---|---|
 | 原始路徑 | `xsd:string` | 檔案路徑。 |
-| 原始檔案 | `xsd:string` | 檔案名稱. |
+| 原始檔案 | `xsd:string` | 檔案名稱。 |
 | fileSize | `xsd:int` | 檔案大小。 |
-| imagePath | `xsd:string` | 影像的相對路徑。 |
+| image路徑 | `xsd:string` | 影像的相對路徑。 |
 | imageFile | `xsd:string` | 涵蓋影像的視窗檔案名稱。 |
 | optimizedPath | `xsd:string` | 最佳化的檔案路徑。 |
 | optimizedFile | `xsd:string` | 最佳化的檔案名稱。 |

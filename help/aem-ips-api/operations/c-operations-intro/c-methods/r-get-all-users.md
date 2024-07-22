@@ -8,7 +8,7 @@ exl-id: db1fd5c9-80f5-463a-870f-be3e38c21bab
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '70'
-ht-degree: 24%
+ht-degree: 18%
 
 ---
 
@@ -41,12 +41,12 @@ ht-degree: 24%
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> includeInvalid</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：布林值</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4">設定為： 
     <ul id="ul_FB9F59A8293B4CCA98E42EBF8412C77B"> 
-     <li id="li_3C2E6C4D3478411FA1A34D5CBFFC8108"><span class="codeph"> true</span> 以包含無效的使用者。 </li> 
-     <li id="li_7FCA0DE4BE2248A690076FEC6854F5CE"><span class="codeph"> false</span> 以忽略無效的使用者。 </li> 
+     <li id="li_3C2E6C4D3478411FA1A34D5CBFFC8108"><span class="codeph"> true</span>以包含無效的使用者。 </li> 
+     <li id="li_7FCA0DE4BE2248A690076FEC6854F5CE"><span class="codeph"> false</span>以忽略無效的使用者。 </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -63,7 +63,7 @@ ht-degree: 24%
 
 此程式碼範例會傳回所有使用者。 為簡短起見，回應會遭截斷。
 
-**請求**
+**要求**
 
 ```java
 <ns1:getAllUsersParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">
@@ -71,7 +71,7 @@ ht-degree: 24%
 </ns1:getAllUsersParam>
 ```
 
-**回答**
+**回應**
 
 ```java
 <ns1:getAllUsersReturn xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

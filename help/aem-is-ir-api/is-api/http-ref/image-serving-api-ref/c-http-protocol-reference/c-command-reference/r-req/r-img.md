@@ -18,6 +18,6 @@ ht-degree: 3%
 
 `req=img`
 
-回覆資料格式和回應MIME型別由以下決定 `fmt=`. 修飾元 `req=img` 是預設要求型別，不需要明確指定。 HTTP回應可使用以下依據的TTL進行快取： `catalog::Expiration`.
+回覆資料格式和回應MIME型別由`fmt=`決定。 修飾元`req=img`是預設的要求型別，不需要明確指定。 HTTP回應可使用以`catalog::Expiration`為基礎的TTL進行快取。
 
 其他要求命令會依記錄套用。

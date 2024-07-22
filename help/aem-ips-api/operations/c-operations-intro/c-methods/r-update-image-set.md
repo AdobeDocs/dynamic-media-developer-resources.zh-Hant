@@ -1,18 +1,18 @@
 ---
 description: 更新影像集。
 solution: Experience Manager
-title: updateImageSet
+title: updateImageset
 feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,Admin
 exl-id: d8d5fb80-17f1-424f-8a61-27189f87d603
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '78'
-ht-degree: 20%
+ht-degree: 17%
 
 ---
 
-# updateImageSet{#updateimageset}
+# updateImageset{#updateimageset}
 
 更新影像集。
 
@@ -20,7 +20,7 @@ ht-degree: 20%
 
 ## 參數 {#section-3be47dbbce474ce78676b05e163492e3}
 
-**輸入(updateImageSetparam)**
+**輸入(updateImageSetParam)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
@@ -37,7 +37,7 @@ ht-degree: 20%
 
 ## 範例 {#section-ce47a4b6e062423fa55ed3a0fd26d7ff}
 
-**請求**
+**要求**
 
 ```java
 <updateImageSetParam xmlns="http://www.scene7.com/IpsApi/xsd/2014-04-03"> 
@@ -61,7 +61,7 @@ ht-degree: 20%
 </updateImageSetParam>
 ```
 
-**回答**
+**回應**
 
 ```java
 <updateImageSetReturn xmlns="http://www.scene7.com/IpsApi/xsd/2014-04-03"/>

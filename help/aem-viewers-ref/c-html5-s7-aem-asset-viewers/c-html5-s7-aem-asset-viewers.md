@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # AEM Assets和Dynamic Media Classic的檢視器{#viewers-for-aem-assets-and-dynamic-media-classic}
 
-下列檢視器可於Adobe Experience Manager資產下使用，也可於Dynamic Media Classic下使用。
+以下檢視器可在Adobe Experience Manager Assets下使用，也可在Dynamic Media Classic下使用。
 
 * [基本縮放](c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-about.md)
 * [eCatalog](c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-about.md)

@@ -8,7 +8,7 @@ exl-id: 04d85dba-cc86-4069-ab5d-9a5b3fe542c9
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '68'
-ht-degree: 26%
+ht-degree: 23%
 
 ---
 
@@ -34,19 +34,19 @@ ht-degree: 26%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 公司控點。 |
-| assetHandle | `xsd:string` | 是 | 資產控點。 |
-| compressedPacket | `xsd:Base 64 binary` | 是 | [!DNL zlib-compressed] 您要設定或更新的XMP封包。 |
+| companyHandle | `xsd:string` | 是 | 公司控制代碼。 |
+| assetHandle | `xsd:string` | 是 | 資產控制代碼。 |
+| 壓縮封包 | `xsd:Base 64 binary` | 是 | 您要設定或更新的[!DNL zlib-compressed]個XMP封包。 |
 
 **輸出(updateXMPPacketReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 成功 | `xsd:boolean` | 是 | 傳回 `true` 封包是否已更新。 |
+| 成功 | `xsd:boolean` | 是 | 如果封包已更新，則傳回`true`。 |
 
 ## 範例 {#section-38b556b94e5044bf97a954519ff6c212}
 
-**請求**
+**要求**
 
 ```java
 <ns:updateXMPPacketParam>
@@ -61,7 +61,7 @@ C8bO5sugbVa5/4Hnd05blc9y1zmGCCI0zcO50PyK40+q4LbWPt3IqGmykqnONnVgUUYNvsdfOH6wzN6C
 </ns:updateXMPPacketParam>
 ```
 
-**回答**
+**回應**
 
 ```java
 <updateXMPPacketReturn xmlns="http://www.scene7.com/IpsApi/xsd/2010-01-31">

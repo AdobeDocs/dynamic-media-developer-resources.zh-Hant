@@ -8,7 +8,7 @@ exl-id: 1e73c305-cda5-4c30-9380-ec4cd8309933
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '125'
-ht-degree: 9%
+ht-degree: 8%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 9%
 
 使用許可權資產設定單一資產的許可權。
 
-資產預設會繼承其父資料夾的許可權。 設定資產的許可權後，除非您呼叫，否則資產不再繼承其父級的許可權 `removeAssetPermissions`.
+Assets預設會繼承其父資料夾的許可權。 一旦您設定資產的許可權，除非您呼叫`removeAssetPermissions`，否則它不再繼承其父級的許可權。
 
 ## 授權的使用者型別 {#section-91fafc170c734ed2a77beafda9221768}
 
@@ -30,7 +30,7 @@ ht-degree: 9%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 包含您要使用之資料夾的公司的控制代碼。 |
+| companyHandle | `xsd:string` | 是 | 包含您要使用之資料夾的公司控制代碼。 |
 | assetHandle | `xsd:string` | 是 | 資料夾控制代碼。 |
 | permissionArray | `types:PermissionsUpdateArray` | 是 | 許可權陣列。 |
 
@@ -42,7 +42,7 @@ IPS API未傳回此作業的回應。
 
 此程式碼範例會設定資產的許可權。 它包含公司和資產控點，以及許可權陣列。
 
-**請求**
+**要求**
 
 ```java
 <setAssetPermissionsParam xmlns="http://www.scene7.com/IpsApi/xsd">
@@ -59,6 +59,6 @@ IPS API未傳回此作業的回應。
 </setAssetPermissionsParam>
 ```
 
-**回答**
+**回應**
 
 無。

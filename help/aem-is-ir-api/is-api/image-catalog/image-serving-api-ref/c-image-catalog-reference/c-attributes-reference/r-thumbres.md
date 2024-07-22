@@ -16,15 +16,15 @@ ht-degree: 3%
 
 預設縮圖解析度。 提供縮圖物件解析度的預設值，以防止特定目錄記錄未包含有效的目錄：：ThumbRes值。
 
-僅用於縮圖要求( `req=tmb`)和時間 `catalog::ThumbType=3`.
+僅用於縮圖要求(`req=tmb`)及`catalog::ThumbType=3`時。
 
 ## 屬性 {#section-88d37d0e030f4879a9e584dd2cc780f3}
 
-實數，大於0。通常以畫素/英吋表示，但也可能是其他單位，例如每米的畫素。
+實數，大於0。通常以每英吋畫素表示，但也可能以其他單位表示，例如每米的畫素。
 
 ## 預設 {#section-86588899ec9b4276a98b03d7faf64003}
 
-繼承自 `default::ThumbRes` 如果未定義或為空。
+如果未定義或空白，則繼承自`default::ThumbRes`。
 
 ## 另請參閱 {#section-a6d2cce2e404441a996dba98a95c8e16}
 

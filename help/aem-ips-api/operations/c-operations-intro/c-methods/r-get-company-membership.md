@@ -1,5 +1,5 @@
 ---
-description: 取得使用者在公司陣列中的成員資格。
+description: 取得公司陣列中使用者的成員資格。
 solution: Experience Manager
 title: getCompanyMembership
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: 53af8a97-208c-4c44-93d6-aa36a459af51
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '81'
-ht-degree: 18%
+ht-degree: 16%
 
 ---
 
 # getCompanyMembership{#getcompanymembership}
 
-取得使用者在公司陣列中的成員資格。
+取得公司陣列中使用者的成員資格。
 
 語法
 
@@ -37,7 +37,7 @@ ht-degree: 18%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| userHandle | `xsd:string` | 否 | 您要取得其成員資格之使用者的控制代碼。 |
+| userHandle | `xsd:string` | 否 | 您要取得其成員資格的使用者控制代碼。 |
 
 **輸出(getCompanyMembershipReturn)**
 
@@ -47,9 +47,9 @@ ht-degree: 18%
 
 ## 範例 {#section-e4958d104ea344a4a79f57d07b46eba7}
 
-此程式碼範例取得使用者控制代碼，並在陣列中取得使用者的所有公司成員資格。 回應因簡短而遭截斷。
+此程式碼範例接受使用者控制代碼，並在陣列中取得使用者的所有公司成員資格。 為簡短起見，回應已截斷。
 
-**請求**
+**要求**
 
 ```java
 <ns1:getCompanyMembershipParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">
@@ -57,7 +57,7 @@ ht-degree: 18%
 </ns1:getCompanyMembershipParam>
 ```
 
-**回答**
+**回應**
 
 ```java
 <getCompanyMembershipReturn xmlns="http://www.scene7.com/IpsApi/xsd">

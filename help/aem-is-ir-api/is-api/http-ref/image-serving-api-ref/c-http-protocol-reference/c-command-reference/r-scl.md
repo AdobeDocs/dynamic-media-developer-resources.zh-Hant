@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 297d187c-3a52-45ff-b73d-0b0e4b956080
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 4%
+source-wordcount: '137'
+ht-degree: 2%
 
 ---
 
@@ -25,13 +25,13 @@ ht-degree: 4%
  </tr> 
 </table>
 
-以下情況不會套用縮放： `scl=1`. 一個 *`invFactor`* 大於1.0的值會縮小比例但小於1.0會放大複合影像。
+`scl=1`時未套用任何縮放。 大於1.0的&#x200B;*`invFactor`*&#x200B;值會放大複合影像，但小於1.0。
 
-如果 `scl=` 已指定，且 `wid=` 和/或 `hei=` 同時存在，則會裁切影像 `wid=` 和/或 `hei=` 縮放之後。
+若已指定`scl=`，並且也有`wid=`和/或`hei=`，則縮放後影像會裁切為`wid=`和/或`hei=`。
 
 >[!NOTE]
 >
->如果計算的或預設的回覆影像大小大於 `attribute::MaxPix`.
+>如果計算的或預設的回覆影像大小大於`attribute::MaxPix`，則會傳回錯誤。
 
 ## 屬性 {#section-60af012719db477db4a4703e9a6da5f5}
 
@@ -39,12 +39,12 @@ ht-degree: 4%
 
 ## 預設 {#section-32502fa218a24e1f9c65f41c0260b56a}
 
-如果兩者皆非 `wid=`， `hei=`、或 `scl=` 指定，回覆影像會具有複合影像的大小，或 `attribute::DefaultPix`，取較小者。
+若未指定`wid=`、`hei=`或`scl=`，則回覆影像的大小可能為複合影像或`attribute::DefaultPix` （取較小者）。
 
 ## 範例 {#section-a33f6239476a4b438d939656ad99aa76}
 
-請參閱中的範例 [旋轉=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096) 適用於的常見應用程式 `scl=`.
+如需常見的`scl=`應用程式，請參閱[rotate=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096)中的範例。
 
 ## 另請參閱 {#section-ccefd5de59924059903d66d4974ce317}
 
-[wid=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-wid.md#reference-bfeadcb67bf4485f851eb21345527e47) ， [嘻=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-hei.md#reference-6d6f556ccc0e4b98a815e8a5c1944a96)， [attribute：：DefaultPix](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultpix.md#reference-996b2c22b30f4fd9b970c84063306df1)
+[wid=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-wid.md#reference-bfeadcb67bf4485f851eb21345527e47) ， [hei=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-hei.md#reference-6d6f556ccc0e4b98a815e8a5c1944a96)， [attribute：：DefaultPix](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultpix.md#reference-996b2c22b30f4fd9b970c84063306df1)

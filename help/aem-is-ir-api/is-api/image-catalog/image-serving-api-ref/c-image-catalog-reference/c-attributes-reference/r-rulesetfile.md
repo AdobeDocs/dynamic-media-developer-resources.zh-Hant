@@ -1,5 +1,5 @@
 ---
-description: 規則集定義檔案路徑。 指定包含此影像目錄的規則集定義的檔案。
+description: 規則集定義檔案路徑。 指定包含此影像目錄之規則集定義的檔案。
 solution: Experience Manager
 title: 規則集檔案
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # 規則集檔案{#rulesetfile}
 
-規則集定義檔案路徑。 指定包含此影像目錄的規則集定義的檔案。
+規則集定義檔案路徑。 指定包含此影像目錄之規則集定義的檔案。
 
 ## 屬性 {#section-e8449b2225294518a5f9ddb698f68360}
 

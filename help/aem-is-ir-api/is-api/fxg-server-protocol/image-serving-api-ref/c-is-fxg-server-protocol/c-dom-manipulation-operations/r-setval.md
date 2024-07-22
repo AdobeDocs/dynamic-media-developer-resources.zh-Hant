@@ -18,11 +18,11 @@ ht-degree: 1%
 
 `setVal.elementID= *[!DNL value]*`
 
-如果FXG節點元素具有 `s7:elementID` 定義，則可操作該節點的文字值。
+如果FXG節點元素已定義`s7:elementID`，則可以操作該節點的文字值。
 
 ## 範例 {#section-f574fd66dedd4a219aa537d7bdabea23}
 
-假設 `s7:elementID="paragraph1"` 屬性是針對 `TextGraphic` 節點，則以下為有效：
+假設已為`TextGraphic`節點定義`s7:elementID="paragraph1"`屬性，則下列專案有效：
 
 `&setVal.paragraph=Hello`
 

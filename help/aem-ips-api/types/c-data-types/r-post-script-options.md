@@ -24,6 +24,6 @@ PostScript檔案選項。
 |---|---|---|
 | 過程 | `xsd:string` | PostScript程式選擇。 |
 | 解析度 | `xsd:double` | 檔案解析度。 |
-| 色域 | `xsd:string` | PostScript色彩空間模式。 |
+| 色域 | `xsd:string` | PostScript色域模式。 |
 | alpha | `xsd:boolean` | 是否將檔案點陣化成影像。 如果是這樣的話，如果以這種方式定義原始檔案，則會建立透明背景。 通常用於建立重疊圖志。 |
 | extractSearchWords | `xsd:boolean` | 是否要從PostScript檔案擷取搜尋字詞。 |

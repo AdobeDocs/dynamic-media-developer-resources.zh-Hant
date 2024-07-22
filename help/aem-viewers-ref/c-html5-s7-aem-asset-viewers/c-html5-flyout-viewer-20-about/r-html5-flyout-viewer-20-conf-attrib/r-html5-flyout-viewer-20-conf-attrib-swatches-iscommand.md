@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: ed587082-3306-4914-916f-db37a823e199
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '62'
 ht-degree: 6%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isCommand</span> </span> </p> </td> 
-   <td colname="col2"> <p> 套用至所有色票的「影像伺服」命令字串。 若在URL中指定，請確定您對所有出現的專案進行HTTP編碼 <span class="codeph"> 和</span> 和 <span class="codeph"> =</span> 作為 <span class="codeph"> %26</span> 和 <span class="codeph"> %3D</span>（分別）。 </p> <p> <p>注意：不支援影像大小調整操控命令。 </p> </p> </td> 
+   <td colname="col2"> <p> 套用至所有色票的「影像伺服」命令字串。 若已在URL中指定，請確定您將<span class="codeph"> &amp;</span>和<span class="codeph"> =</span>的所有出現專案分別以HTTP編碼為<span class="codeph"> %26</span>和<span class="codeph"> %3D</span>。 </p> <p> <p>注意：不支援影像大小調整操控命令。 </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

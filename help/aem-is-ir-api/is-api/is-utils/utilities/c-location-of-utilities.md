@@ -16,4 +16,4 @@ ht-degree: 0%
 
 「影像伺服」包含三個公用程式。
 
-64位元版本位於 [!DNL *`install_folder`*/bin64/].
+64位元版本位於&#x200B;[!DNL *`install_folder`*/bin64/]。

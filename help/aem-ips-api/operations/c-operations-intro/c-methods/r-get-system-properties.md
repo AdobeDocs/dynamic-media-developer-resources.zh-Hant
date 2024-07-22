@@ -1,5 +1,5 @@
 ---
-description: 擷取單一請求中的所有系統屬性。
+description: 擷取單一要求中的所有系統屬性。
 solution: Experience Manager
 title: getSystemProperties
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: b0ef16fd-1645-4e22-99bb-8c9269623168
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '55'
-ht-degree: 20%
+ht-degree: 16%
 
 ---
 
 # getSystemProperties{#getsystemproperties}
 
-擷取單一請求中的所有系統屬性。
+擷取單一要求中的所有系統屬性。
 
 語法
 
@@ -46,13 +46,13 @@ ht-degree: 20%
 
 此程式碼範例會傳回系統屬性的陣列。 回應因簡短而遭截斷。
 
-**請求**
+**要求**
 
 ```java
 <getSystemPropertiesParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-09-10"/>
 ```
 
-**回答**
+**回應**
 
 ```java
 <getSystemPropertiesReturn xmlns="http://www.scene7.com/IpsApi/xsd/2008-09-10"> 

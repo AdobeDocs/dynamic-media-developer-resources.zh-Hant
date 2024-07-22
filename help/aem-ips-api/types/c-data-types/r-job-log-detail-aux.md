@@ -1,5 +1,5 @@
 ---
-description: 包含與主要工作記錄檔訊息(JobDetail)相關聯的補充訊息。 包含警告和與目前處理之資產相關聯的其他詳細資訊。
+description: 包含與主要工作記錄檔訊息(JobDetail)相關聯的補充訊息。 包含警告和與目前處理資產相關聯的其他詳細資訊。
 solution: Experience Manager
 title: 工作記錄詳細資訊
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # [!DNL JobLogDetailAux]{#joblogdetailaux}
 
-包含與主要工作記錄檔訊息(JobDetail)相關聯的補充訊息。 包含警告和與目前處理之資產相關聯的其他詳細資訊。
+包含與主要工作記錄檔訊息(JobDetail)相關聯的補充訊息。 包含警告和與目前處理資產相關聯的其他詳細資訊。
 
 語法
 
@@ -23,5 +23,5 @@ ht-degree: 7%
 | 名稱 | 類型 | 說明 |
 |---|---|---|
 | logMessage | `xsd:string` | 輔助訊息。 |
-| logType | `xsd:string` | 記錄型別： `IPSJobLog.gcUploadWarning` 或 `IPSJobLog.gcUploadError`. |
-| dateCreate | `xsd:dateTime` | 輔助工作記錄檔建立日期。 |
+| logType | `xsd:string` | 記錄型別： `IPSJobLog.gcUploadWarning`或`IPSJobLog.gcUploadError`。 |
+| 日期已建立 | `xsd:dateTime` | 輔助工作記錄檔建立日期。 |

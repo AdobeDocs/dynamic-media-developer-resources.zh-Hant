@@ -8,7 +8,7 @@ exl-id: 0dc195ee-9229-40a3-ad8b-8f00c2c9ff97
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '95'
-ht-degree: 20%
+ht-degree: 11%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 20%
 
 >[!NOTE]
 >
->使用者必須擁有資產的讀取和寫入存取權。
+>使用者必須擁有資產的讀寫存取權。
 
 ## 參數 {#section-09d2ba001a2a455a9102550272f3eecb}
 
@@ -46,29 +46,29 @@ ht-degree: 20%
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 公司的控制代碼。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname">資產控制代碼</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 資產控點。 </td> 
+   <td colname="col4"> 資產控制代碼。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> publishState</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4">可用狀態： 
     <ul id="ul_A2614608DF1E4DB6BF8141D33E59D180"> 
-     <li id="li_8C90BFEEE2B14A0184F342018C45EE67"><span class="codeph"> 已標籤為發佈</span> </li> 
+     <li id="li_8C90BFEEE2B14A0184F342018C45EE67"><span class="codeph">已標籤為發佈</span> </li> 
      <li id="li_C4BC12B304DA4763956C3049AF597D06"><span class="codeph"> NotMarkedForPublish</span> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> contextHandleArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 程式碼片語 </span> </td> 
+   <td colname="col2"> <span class="codeph">字碼片語</span> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> </td> 
   </tr> 
@@ -81,9 +81,9 @@ IPS API未傳回此作業的回應。
 
 ## 範例 {#section-c31ead6d0e594317a12c120509527792}
 
-此程式碼範例使用來設定資產的發佈狀態 `NotMarkedForPublish`.
+此程式碼範例使用`NotMarkedForPublish`設定資產的發佈狀態。
 
-**請求**
+**要求**
 
 ```java
 <setAssetPublishStateParam xmlns="http://www.scene7.com/IpsApi/xsd">
@@ -93,6 +93,6 @@ IPS API未傳回此作業的回應。
 </setAssetPublishStateParam>
 ```
 
-**回答**
+**回應**
 
 無。

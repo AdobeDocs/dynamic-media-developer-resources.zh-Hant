@@ -8,7 +8,7 @@ exl-id: 811e44e1-774a-49bd-a2bd-a7504e5f7f5f
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '123'
-ht-degree: 10%
+ht-degree: 8%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 10%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 具有您要更新之資產的公司的控制代碼。 |
+| companyHandle | `xsd:string` | 是 | 擁有您要更新之資產的公司的控制代碼。 |
 | assetHandle | `xsd:string` | 是 | 資產的控點。 |
 | updatearray | `types:MetadataUpdateArray` | 是 | 中繼資料更新陣列中的更新。 |
 
@@ -49,7 +49,7 @@ IPS API未傳回此作業的回應。
 
 此程式碼範例使用一系列中繼資料更新來設定指定資產的中繼資料。
 
-**請求**
+**要求**
 
 ```java
 <ns1:setAssetMetadataParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">
@@ -64,6 +64,6 @@ IPS API未傳回此作業的回應。
 </ns1:setAssetMetadataParam>
 ```
 
-**回答**
+**回應**
 
 無。

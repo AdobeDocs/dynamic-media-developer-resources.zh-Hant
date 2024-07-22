@@ -20,7 +20,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
-   <td colname="col2"> <p> 指定相對於縮圖影像的標籤繪製位置。 也就是說，標籤會以相對於縮圖的指定位置為中心。 </p> <p>時間 <span class="codeph"> 工具提示</span> 標籤文字會以浮動工具提示的形式顯示在縮圖影像上。 </p> <p>當設定為 <span class="codeph"> 無</span>，則會關閉標籤顯示。 </p> </td> 
+   <td colname="col2"> <p> 指定相對於縮圖影像的標籤繪製位置。 也就是說，標籤會以相對於縮圖的指定位置為中心。 </p> <p>指定<span class="codeph">工具提示</span>時，標籤文字會在縮圖影像上顯示為浮動工具提示。 </p> <p>設定為<span class="codeph"> none</span>時，它會關閉標籤顯示。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

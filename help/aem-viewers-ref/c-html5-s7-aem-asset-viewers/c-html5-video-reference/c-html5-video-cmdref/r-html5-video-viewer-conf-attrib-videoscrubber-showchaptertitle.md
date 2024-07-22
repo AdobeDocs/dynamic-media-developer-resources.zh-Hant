@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: a1bdea01-ca59-4922-a20f-862ca387d1b5
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 9%
+source-wordcount: '42'
+ht-degree: 7%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 9%
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
    <td colname="col2"> <p> 停用或啟用視訊章節標籤的標題列。 停用標題列時，不會顯示章節開始時間。 </p> </td> 
   </tr> 
  </tbody> 

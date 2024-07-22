@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: d6b79c06-0e90-406f-bac8-3b8c2bae5480
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 12%
+source-wordcount: '175'
+ht-degree: 10%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 12%
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
 | charField | `xsd:string` | 是 | 決定要搜尋的垃圾桶狀態。 |
-| includeInactive | `xsd:boolean` | 是 | 包含或排除非作用中的使用者。 非IPS管理員使用者必須是至少一個公司的作用中成員，才能獲得授權進行任何API呼叫。 如果使用者沒有有效的公司成員資格，則會傳回授權錯誤。 |
+| includeInactive | `xsd:boolean` | 是 | 包含或排除非作用中的使用者。 非IPS管理員使用者必須是至少一個公司的活躍成員，才能被授權進行任何API呼叫。 如果使用者沒有有效的公司成員資格，則會傳回授權錯誤。 |
 | includInvalid | `xsd:boolean` | 否 | 包含或排除無效的使用者。 |
 | companyHandleArray | `types:HandleArray` | 否 | 根據公司篩選結果。 |
 | groupHandleArray | `types:HandleArray` | 否 | 根據群組篩選結果。 |
@@ -53,9 +53,9 @@ ht-degree: 12%
 * 一組群組。
 * 一組使用者角色。
 
-「使用者字元篩選欄位」字串常數決定傳回的使用者字元型別。
+使用者字元篩選欄位字串常數決定傳回的使用者字元型別。
 
-**請求**
+**要求**
 
 ```java
 <ns1:getUserCharsParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">
@@ -67,7 +67,7 @@ ht-degree: 12%
 </ns1:getUserCharsParam>
 ```
 
-**回答**
+**回應**
 
 ```java
 <getUserCharsReturn xmlns="http://www.scene7.com/IpsApi/xsd">

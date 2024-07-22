@@ -14,7 +14,7 @@ ht-degree: 6%
 
 # OnFailSel{#onfailsel}
 
-挑選選取範圍錯誤處理。 指定在下列情況下要採取的動作： `sel=` 命令失敗，因為指定的畫素位置不在可選取物件的遮色片區域內。
+挑選選取範圍錯誤處理。 指定當`sel=`命令因指定的畫素位置不在可選取物件的遮色片區域內而失敗時，所要採取的動作。
 
 ## 屬性 {#section-cec491e6c5c744f9bfafaaa9d8774f83}
 
@@ -23,7 +23,7 @@ ht-degree: 6%
 <table id="simpletable_1CFD2BC6F9BC4D2AB372EAF115B7F2FC"> 
  <tr class="strow"> 
   <td class="stentry"> <p>0 </p> </td> 
-  <td class="stentry"> <p>繼承自 <span class="codeph"> default：：OnFailSel </span>. </p> </td> 
+  <td class="stentry"> <p>繼承自<span class="codeph">預設值：：OnFailSel </span>。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p> </td> 
@@ -31,7 +31,7 @@ ht-degree: 6%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p> </td> 
-  <td class="stentry"> <p>取消選取；會忽略任何套用材料或顯示/隱藏物件的嘗試。 </p> </td> 
+  <td class="stentry"> <p>取消選取；會忽略任何套用材質或顯示/隱藏物件的嘗試。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p> </td> 
@@ -39,13 +39,13 @@ ht-degree: 6%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>4 </p> </td> 
-  <td class="stentry"> <p>選取預設群組（暈映階層中第一個包含可轉譯物件的群組）。 </p> </td> 
+  <td class="stentry"> <p>選取預設群組（暈映階層中包含可轉譯物件的第一個群組）。 </p> </td> 
  </tr> 
 </table>
 
 ## 預設 {#section-c25f458f9f8f4236963a95779529e664}
 
-繼承自 `default::OnFailSel` 若未定義。
+如果未定義，則繼承自`default::OnFailSel`。
 
 ## 另請參閱 {#section-f8b15dd64c674c5484d190dd9e3016af}
 

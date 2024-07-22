@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 922649e9-865a-4b53-8507-a21611a6d0ac
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '27'
-ht-degree: 14%
+source-wordcount: '28'
+ht-degree: 10%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 14%
 <table id="table_3DBC5A70C9264CECA1CB3D1D08CEDF31"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 指定是否針對個別對應區域元素啟用工具提示。 </p> <p> 觸控裝置（包括觸控式桌上型電腦系統）上已忽略。 </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> 0|1</span> </p> </td> 
+   <td colname="col2"> <p> 指定是否針對各個對應區域元素啟用工具提示。 </p> <p> 在觸控裝置上忽略，包括可觸控的桌上型電腦系統。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -7,8 +7,8 @@ role: Developer,Admin,User
 exl-id: fe1fc984-3c6b-4bd1-b5ba-630860ac7319
 source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 1%
+source-wordcount: '405'
+ht-degree: 0%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Adobe建議您將所有記錄檔配置為寫入與相同的資料夾 `TC::directory`. 這麼做可確保所有「影像伺服」記錄檔參與設定的自動記錄檔旋轉 `TC::maxDays`，可防止因磁碟空間不足狀況而造成伺服器不穩定。
+>Adobe建議您將所有記錄檔設定為寫入與`TC::directory`相同的資料夾。 這麼做可確保所有「影像伺服」記錄檔都參與以`TC::maxDays`設定的自動記錄檔旋轉，避免因磁碟空間不足而造成伺服器不穩定。
 
 ## SV：：log — 伺服器監督員追蹤記錄檔路徑 {#section-3697bc480ff646e79cacc2812c55ef26}
 
-伺服器管理員記錄檔的資料夾和基本檔案名稱。 路徑可以是絕對或相對於 *[!DNL install_folder]*. 伺服器監督員會附加連字型大小與目前日期( *[!DNL -yyyy-mm-dd]*)至檔案名稱(在檔案字尾之前（如果有的話）。 Adobe建議您將所有記錄檔傳送至與相同的資料夾 [!DNL Platform Server] 記錄檔( `PS::LogFolder`)，以使用由實作的記錄檔管理 [!DNL Platform Server] (`PS::LogDays`)。 預設值為 [!DNL logs/Supervisor.log].
+伺服器管理員記錄檔的資料夾和基本檔案名稱。 路徑可以是絕對或相對於&#x200B;*[!DNL install_folder]*。 伺服器監督員會將連字型大小和目前日期( *[!DNL -yyyy-mm-dd]*)附加至檔案名稱（在檔案字尾之前，如果有的話）。 Adobe建議您將所有記錄檔傳送至與[!DNL Platform Server]記錄檔(`PS::LogFolder`)相同的資料夾，以使用[!DNL Platform Server] (`PS::LogDays`)實作的記錄檔管理。 預設值為[!DNL logs/Supervisor.log]。
 
 >[!NOTE]
 >
@@ -34,7 +34,7 @@ ht-degree: 1%
 
 ## IS：：Log — 影像伺服器偵錯記錄檔路徑 {#section-73a3f09b77f2446c9f82207b7d8aec39}
 
-影像伺服器追蹤記錄檔的資料夾和基本檔案名稱。 路徑可以是絕對或相對於 *[!DNL install_folder]*. ImageServer會附加連字型大小與目前日期( *[!DNL -yyyy-mm-dd]*)至檔案名稱(在檔案字尾之前（如果有的話）。 Adobe建議您將影像伺服器記錄檔傳送至與相同的資料夾 [!DNL Platform Server] 記錄檔( `PS::LogFolder`)，以使用由實作的記錄檔管理 [!DNL Platform Server] (請參閱 `PS::LogDays`)。
+影像伺服器追蹤記錄檔的資料夾和基本檔案名稱。 路徑可以是絕對或相對於&#x200B;*[!DNL install_folder]*。 ImageServer會將連字型大小與目前日期( *[!DNL -yyyy-mm-dd]*)附加至檔案名稱（在檔案字尾之前，如果有的話）。 Adobe建議您將影像伺服器記錄檔傳送至與[!DNL Platform Server]記錄檔( `PS::LogFolder`)相同的資料夾，以使用由[!DNL Platform Server]實作的記錄檔管理（請參閱`PS::LogDays`）。
 
 >[!NOTE]
 >
@@ -44,13 +44,13 @@ ht-degree: 1%
 
 記錄層級可以是1、2、3或4 （預設為2）
 
-層級1會記錄與啟動、關閉和關閉相關的事件 [!DNL Platform Server] 連線。
+層級1會記錄與啟動、關閉及[!DNL Platform Server]連線相關的事件。
 
 層級2也會記錄來源影像的連線與中斷連線。
 
-第3級新增畫素資料請求的記錄，並將畫素資料傳送至 [!DNL Platform Server].
+層級3新增畫素資料的請求記錄以及畫素資料的傳遞到[!DNL Platform Server]。
 
-層級4會記錄從 [!DNL Platform Server].
+層級4會記錄從[!DNL Platform Server]接收的所有郵件。
 
 層級3和4應僅用於偵錯，因為記錄檔可能會變得很大。
 

@@ -18,6 +18,6 @@ ht-degree: 2%
 
 `req=resolve`
 
-傳回的是MIME型別的最終請求字串，而不是結果影像 `text/plain`.
+傳回的是MIME型別為`text/plain`的最終要求字串，而非結果影像。
 
 無法快取HTTP回應。

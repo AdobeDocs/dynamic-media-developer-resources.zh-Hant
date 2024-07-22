@@ -23,5 +23,5 @@ ht-degree: 23%
 | 名稱 | 類型 | 說明 |
 |---|---|---|
 | url | `xsd:string` | 代表範本的影像伺服器URL。 |
-| urlModifier | `xsd:string` |  |
-| urlPostApplyModifier | `xsd:string` |  |
+| urlModifier | `xsd:string` | |
+| urlPostApplyModifier | `xsd:string` | |

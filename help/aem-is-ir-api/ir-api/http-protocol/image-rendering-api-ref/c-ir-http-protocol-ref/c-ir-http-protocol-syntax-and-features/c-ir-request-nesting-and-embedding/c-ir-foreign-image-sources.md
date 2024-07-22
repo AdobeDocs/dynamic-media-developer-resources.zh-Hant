@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 90f96a76-e9f3-4ad0-84af-bc0d093acf19
 source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
@@ -16,10 +16,10 @@ ht-degree: 0%
 
 「影像伺服」支援對外國HTTP和FTP伺服器上的來源影像的存取。
 
-若要為指定外部URL `src=` 或 `mask=` 命令；只要使用大括弧分隔整個內嵌URL即可：
+若要為`src=`或`mask=`命令指定外部URL，只要使用大括弧分隔整個內嵌URL即可：
 
 ` …&src={ *[!DNL foreignUrl]*}&…`
 
-完整絕對URL (若 `attribute::AllowDirectUrls` 「 」和「 URL 」相對於 `attribute::RootUrl` 允許。 如果內嵌絕對URL且屬性為： `AllowDirectUrls` 為0，或如果已指定相對URL，且 `attribute::RootUrl` 空白。
+允許完整的絕對URL （如果已設定`attribute::AllowDirectUrls`）和相對`attribute::RootUrl`的URL。 如果內嵌絕對URL且屬性： `AllowDirectUrls`為0，或如果指定了相對URL且`attribute::RootUrl`為空白，則會發生錯誤。
 
-伺服器會根據HTTP回應隨附的快取標頭快取外部影像。
+伺服器會根據HTTP回應隨附的快取標頭來快取外部影像。

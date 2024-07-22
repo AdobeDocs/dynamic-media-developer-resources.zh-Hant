@@ -8,7 +8,7 @@ exl-id: 4d01e2e7-9b68-4dfa-9fe8-08a22cb4bfd5
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '95'
-ht-degree: 15%
+ht-degree: 13%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 15%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 公司控點。 |
+| companyHandle | `xsd:string` | 是 | 公司控制代碼。 |
 | assetType | `xsd:string` | 是 | 從中取得中繼資料的資產型別。 |
 
 **輸出(getMetadataFieldsParam)**
@@ -45,9 +45,9 @@ ht-degree: 15%
 
 ## 範例 {#section-dbfde1483d614b5aac2b491cb32115d7}
 
-此程式碼範例會傳回指定型別和公司的中繼資料資產。 回應包含欄位陣列中的中繼資料欄位陣列。 並非所有資產都有相同的中繼資料。 ips使用者會定義資產的中繼資料欄位。
+此程式碼範例會傳回指定型別和公司的中繼資料資產。 回應包含欄位陣列中的中繼資料欄位陣列。 並非所有資產都具有相同的中繼資料。 ips使用者會定義資產的中繼資料欄位。
 
-**請求**
+**要求**
 
 ```java
 <ns1:getMetadataFieldsParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">
@@ -56,7 +56,7 @@ ht-degree: 15%
 </ns1:getMetadataFieldsParam>
 ```
 
-**回答**
+**回應**
 
 ```java
 <getMetadataFieldsReturn xmlns="http://www.scene7.com/IpsApi/xsd">

@@ -1,5 +1,5 @@
 ---
-description: 說明IPS API 3.8版的新增和變更的作業方法。
+description: 說明IPS API 3.8版新的和變更的作業方法。
 solution: Experience Manager
 title: 新作業和修改作業
 feature: Dynamic Media Classic,SDK/API
@@ -7,14 +7,14 @@ role: Developer,Admin
 exl-id: 8f4fe698-afe8-4ce6-904d-42fa67dee4dd
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '60'
+source-wordcount: '62'
 ht-degree: 1%
 
 ---
 
-# 作業：新增與修改{#operations-new-and-modified}
+# 作業：新增和已修改{#operations-new-and-modified}
 
-說明IPS API 3.8版的新增和變更的作業方法。
+說明IPS API 3.8版新的和變更的作業方法。
 
 語法
 
@@ -32,8 +32,8 @@ ht-degree: 1%
 
 **searchAssets**
 
-* 選填 `publishState` 引數可讓您搜尋 `MarkedForPublish/NotMarkedForPublish` 資產狀態。
+* 選用的`publishState`引數可讓您搜尋`MarkedForPublish/NotMarkedForPublish`資產狀態。
 
 **getJobLogs**
 
-* 選填 `userHandle` 引數可讓您擷取特定使用者提交的工作記錄檔。
+* 選用的`userHandle`引數可讓您擷取特定使用者送出的工作記錄檔。

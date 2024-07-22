@@ -1,7 +1,7 @@
 ---
 description: 批次工作的工作資料。
 solution: Experience Manager
-title: jobdata
+title: 工作資料
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2fefc2ea-415e-4c47-bbd6-ba081f849d5f
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# jobdata{#jobdata}
+# 工作資料{#jobdata}
 
 批次工作的工作資料。
 

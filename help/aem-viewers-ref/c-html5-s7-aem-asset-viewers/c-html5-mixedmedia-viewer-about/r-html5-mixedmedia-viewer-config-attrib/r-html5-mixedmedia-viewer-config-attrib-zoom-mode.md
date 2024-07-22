@@ -21,8 +21,8 @@ ht-degree: 2%
 <table id="table_E314540D347D47699C04EB80D20C0721"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> continuous|inline|auto </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> 連續 </span> 啟用傳統縮放，也就是當您在主檢視中按一下、點兩下或捏出時，影像會逐漸放大。 若要回到初始檢視，請縮小或重設縮放狀態。 類別 </p> <p> <span class="codeph"> 內嵌 </span> 啟用即時縮放，也就是當您將滑鼠懸停在桌上型電腦的主檢視上，或是觸控並按住觸控裝置時，會立即顯示縮放後的影像。 當您從檢視移動滑鼠或放開手指後，影像會自動回覆為初始狀態。 在 <span class="codeph"> 內嵌 </span> 模式，巢狀影像集會平面化並顯示為個別縮圖。 類別 <span class="codeph"> 自動 </span> 在桌上型電腦上啟用內嵌模式，在觸控裝置上啟用連續模式。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">個連續|內嵌|自動</span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> continuous </span>可啟用傳統縮放，當您在主檢視中按一下、點兩下或夾住時，影像會逐漸放大。 若要回到初始檢視，請縮小或重設縮放狀態。 類別 </p> <p> <span class="codeph">內嵌</span>可啟用立即縮放，當您在案頭上暫留主檢視或觸控並按住觸控裝置時，會立即顯示縮放的影像。 當您從檢視中移動滑鼠或放開手指之後，影像會自動回覆為初始狀態。 在<span class="codeph">內嵌</span>模式中，巢狀影像集會平面化並顯示為個別縮圖。 類別<span class="codeph">自動</span>會在桌上型電腦上啟用內嵌模式，並在觸控裝置上啟用連續模式。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

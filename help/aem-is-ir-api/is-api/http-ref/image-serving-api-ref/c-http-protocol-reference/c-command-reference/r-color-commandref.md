@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: b937e699-8e1e-4211-86a6-fdc155a0e3ed
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '201'
 ht-degree: 3%
 
 ---
@@ -20,18 +20,18 @@ ht-degree: 3%
 
 <table id="simpletable_68645167998A42229CEF858909FD447E"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 顏色 </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname">色彩</span> </span> </p> </td> 
   <td class="stentry"> <p>灰色、RGB或CMYK色彩值（含或不含Alpha）。 </p> </td> 
  </tr> 
 </table>
 
-如果有影像和文字圖層， `color=` 在圖層的邊界矩形內，使用先前指定的顏色*填滿透明和半不透明區域* `rotate=` 和 `extend=` 中所有規則的URL區段。
+如果有影像和文字圖層，則在套用* `rotate=`和`extend=`之前，`color=`會以指定的顏色*填滿圖層邊界矩形內的透明和半不透明區域。
 
 ## 屬性 {#section-d6e74c36a49547849212e4db8927e678}
 
-圖層屬性。 套用至目前的圖層，或套用至圖層0，如果 `layer=comp`.
+圖層屬性。 套用至目前的圖層，或套用至圖層0 （若`layer=comp`）。
 
-修飾元 *`color`* 會假設存在於與下列畫素型別對應的工作色域中： *`color`*. 與 *`color`* 如果圖層影像在合併時具有不同的畫素型別，則會精確轉換。
+假設修飾元&#x200B;*`color`*&#x200B;存在於與&#x200B;*`color`*&#x200B;的畫素型別對應的工作色域中。 如果圖層影像在合併時具有不同的畫素型別，則會精確轉換&#x200B;*`color`*。
 
 ## 預設 {#section-60611c72876b4c45b5c85ce35608e5ec}
 
@@ -45,4 +45,4 @@ ht-degree: 3%
 
 ## 另請參閱 {#section-f0e059f857b64b61ab4f23312b8dc619}
 
-[顏色](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md#reference-0fdb264a3aed4bd78451bb55311f6e93)， [bgColor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgcolor.md#reference-441371ba4ef54fe781887c5ae448f6ab)， [opac=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-opac.md#reference-d2269b51aca34599a08d0a46ee5c27e5)， [延伸=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md#reference-7e9156beb285459d830e2d56782a74ac)， [bgc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88)， [色彩管理](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-color-management.md#reference-c7e4a72d589145189f7e4bcb6b4544d7)
+[色彩](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md#reference-0fdb264a3aed4bd78451bb55311f6e93)，[bgColor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgcolor.md#reference-441371ba4ef54fe781887c5ae448f6ab)，[opac=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-opac.md#reference-d2269b51aca34599a08d0a46ee5c27e5)，[延伸=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md#reference-7e9156beb285459d830e2d56782a74ac)，[bgc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88)，[色彩管理](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-color-management.md#reference-c7e4a72d589145189f7e4bcb6b4544d7)

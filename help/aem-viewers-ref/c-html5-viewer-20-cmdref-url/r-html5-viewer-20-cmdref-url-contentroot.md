@@ -22,7 +22,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> contentUrlPath</span> </span> </p> </td> 
-   <td colname="col2"> <p>指定自訂CSS檔案、任何隱藏式字幕內容或導覽內容的基本路徑。 </p> <p>如果路徑沒有行距 <span class="filepath"> /</span>，此量度會與檢視器HTML頁面的位置相對應。 如果路徑有行距 <span class="filepath"> /</span>，會指定相同伺服器上的絕對路徑。 </p> <p> 若您未指定樣式指令，不會影響預設CSS檔案的載入。 </p> </td> 
+   <td colname="col2"> <p>指定自訂CSS檔案、任何隱藏式字幕內容或導覽內容的基本路徑。 </p> <p>如果路徑沒有前導的<span class="filepath"> /</span>，則為檢視器HTML頁面的相對位置。 如果路徑的前導為<span class="filepath"> /</span>，它會在相同伺服器上指定絕對路徑。 </p> <p> 若未指定樣式指令，不會影響預設CSS檔案的載入。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

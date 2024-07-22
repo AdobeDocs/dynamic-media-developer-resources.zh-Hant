@@ -8,7 +8,7 @@ exl-id: 12972a52-7b70-405c-9c73-e5ce6ab7dd9b
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '54'
-ht-degree: 24%
+ht-degree: 20%
 
 ---
 
@@ -30,8 +30,8 @@ ht-degree: 24%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 公司控點。 |
-| assetHandle | `xsd:string` | 是 | 資產控點。 |
+| companyHandle | `xsd:string` | 是 | 公司控制代碼。 |
+| assetHandle | `xsd:string` | 是 | 資產控制代碼。 |
 | updatearray | `types:PermissionUpdateArray` | 是 | 您要套用至資產的許可權。 |
 
 **輸出(updateAssetPermissionsReturn)**
@@ -40,7 +40,7 @@ IPS API未傳回此作業的回應。
 
 ## 範例 {#section-1b7b7dbfdab34c819a53f3d33004e1f9}
 
-**請求**
+**要求**
 
 ```java
 <ns1:updateAssetPermissionsParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">
@@ -57,6 +57,6 @@ IPS API未傳回此作業的回應。
 </ns1:updateAssetPermissionsParam>
 ```
 
-**回答**
+**回應**
 
 無。

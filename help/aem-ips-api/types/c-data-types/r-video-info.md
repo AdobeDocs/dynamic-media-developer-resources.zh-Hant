@@ -25,7 +25,7 @@ ht-degree: 8%
 | 原始路徑 | `xsd:string` | 上傳視訊的相對路徑。 |
 | 原始檔案 | `xsd:string` | 原始視訊檔案的名稱。 |
 | fileSize | `xsd:int` | 檔案大小。 |
-| imagePath | `xsd:string` | 視訊檔案的相對路徑。 |
+| image路徑 | `xsd:string` | 視訊檔案的相對路徑。 |
 | imageFile | `xsd:string` | 視訊檔案的檔案名稱。 |
 | optimizedPath | `xsd:string` | IPS最佳化視訊檔案的路徑。 |
 | optimizedFile | `xsd:string` | IPS最佳化視訊檔案的檔案名稱。 |

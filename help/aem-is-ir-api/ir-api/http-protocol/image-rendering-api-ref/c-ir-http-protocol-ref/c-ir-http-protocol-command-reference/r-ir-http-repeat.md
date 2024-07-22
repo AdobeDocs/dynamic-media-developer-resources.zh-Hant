@@ -97,7 +97,7 @@ ht-degree: 16%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>19 </p> </td> 
-  <td class="stentry"> <p>邊緣隨機器。 </p> </td> 
+  <td class="stentry"> <p>Edge隨機器。 </p> </td> 
  </tr> 
 </table>
 
@@ -109,7 +109,7 @@ ht-degree: 16%
 
 ## 預設 {#section-e5bbd7d9fbb74852849e605d20f550bb}
 
-`catalog::Repeat`，如果材質是以目錄專案為基礎，否則 `0` （直接重複）。
+`catalog::Repeat`，如果素材是以目錄專案為基礎，否則`0` （直接重複）。
 
 ## 另請參閱 {#section-ac99113b64654d75a3a86e41db546269}
 

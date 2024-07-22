@@ -8,7 +8,7 @@ exl-id: c5b5e155-d285-4304-98bc-1d938793e2c0
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '94'
-ht-degree: 14%
+ht-degree: 10%
 
 ---
 
@@ -39,8 +39,8 @@ ht-degree: 14%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> userHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname">使用者控制代碼</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
    <td colname="col4"> <p>處理您要新增其群組成員資格的使用者。 </p> </td> 
   </tr> 
@@ -61,7 +61,7 @@ IPS API未傳回此作業的回應。
 
 此範例會將群組新增至具有groupHandleArray的公司。 此範例僅使用一個群組。
 
-**請求**
+**要求**
 
 ```java {.line-numbers}
 <ns1:addGroupMembershipParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">
@@ -70,6 +70,6 @@ IPS API未傳回此作業的回應。
 </ns1:addGroupMembershipParam>
 ```
 
-**回答**
+**回應**
 
 無。

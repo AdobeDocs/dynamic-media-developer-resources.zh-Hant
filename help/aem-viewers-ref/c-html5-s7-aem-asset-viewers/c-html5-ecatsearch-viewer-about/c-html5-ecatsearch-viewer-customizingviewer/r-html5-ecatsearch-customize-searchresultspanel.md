@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: ffbbc2ae-60da-4c3d-a350-6dbcb64e189d
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 1%
+source-wordcount: '938'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**主要檢視器區域的CSS屬性**
+主要檢視器區域的&#x200B;**CSS屬性**
 
 當面板啟動時，檢視器使用者介面會以半透明填色覆蓋。 此填色的顏色和不透明度是由下列CSS類別選取器所控制：
 
@@ -35,11 +35,11 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色彩</span> </p> </td> 
    <td colname="col2"> <p>覆蓋圖的顏色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 不透明度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">不透明度</span> </p> </td> 
    <td colname="col2"> <p>色彩的不透明度。 </p> </td> 
   </tr> 
  </tbody> 
@@ -51,12 +51,12 @@ ht-degree: 1%
 .s7ecatalogsearchviewer .s7searchpanel .s7searchresultspace
 ```
 
-**搜尋結果空間的CSS屬性**
+搜尋結果空間的&#x200B;**CSS屬性**
 
 <table id="table_1A0C28D8C81D413C83D73DEAC53057C5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">寬度</span> </p> </td> 
    <td colname="col2"> <p> 搜尋結果空間的寬度。 </p> </td> 
   </tr> 
  </tbody> 
@@ -79,12 +79,12 @@ ht-degree: 1%
 .s7ecatalogsearchviewer .s7searchpanel .s7searchinputcontainer
 ```
 
-**搜尋輸入容器的CSS屬性**
+搜尋輸入容器的&#x200B;**CSS屬性**
 
 <table id="table_A1B96108542742DC8DCBCC9064F9E90B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 填補 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">內距</span> </p> </td> 
    <td colname="col2"> <p> 輸入方塊周圍的內距。 </p> </td> 
   </tr> 
  </tbody> 
@@ -96,28 +96,28 @@ ht-degree: 1%
 .s7ecatalogsearchviewer .s7searchpanel .s7searchinput
 ```
 
-**搜尋輸入欄位的CSS屬性**
+搜尋輸入欄位的&#x200B;**CSS屬性**
 
 <table id="table_9FB5E89847BF4C889DC22AD7E842C0F7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">高度</span> </p> </td> 
    <td colname="col2"> <p>搜尋輸入欄位的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 左內邊距 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">左內距</span> </p> </td> 
    <td colname="col2"> <p> 輸入欄位界限和輸入文字之間的內邊距。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">邊框</span> </p> </td> 
    <td colname="col2"> <p>搜尋輸入欄位的邊框。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">利潤</span> </p> </td> 
    <td colname="col2"> <p>搜尋輸入欄位的邊界 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">字型大小</span> </p> </td> 
    <td colname="col2"> <p>文字字型的大小。 </p> </td> 
   </tr> 
  </tbody> 
@@ -139,32 +139,32 @@ ht-degree: 1%
  .s7ecatalogsearchviewer .s7searchpanel .s7searchinputbutton
 ```
 
-**搜尋輸入按鈕的CSS屬性**
+搜尋輸入按鈕的&#x200B;**CSS屬性**
 
 <table id="table_CDD818B40BB1416CB47B7C52F799DE0C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">寬度</span> </p> </td> 
    <td colname="col2"> <p>搜尋輸入按鈕的寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">高度</span> </p> </td> 
    <td colname="col2"> <p>搜尋輸入按鈕的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景影像</span> </p> </td> 
    <td colname="col2"> <p>「外觀玻璃」圖示影像的URL。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景大小</span> </p> </td> 
    <td colname="col2"> <p>「外觀玻璃」圖示的大小。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">邊框</span> </p> </td> 
    <td colname="col2"> <p>搜尋輸入按鈕的邊框。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">利潤</span> </p> </td> 
    <td colname="col2"> <p>搜尋輸入按鈕的邊界。 </p> </td> 
   </tr> 
  </tbody> 
@@ -189,16 +189,16 @@ ht-degree: 1%
 .s7ecatalogsearchviewer .s7searchpanel .s7searchinfo
 ```
 
-**搜尋資訊的CSS屬性**
+搜尋資訊的&#x200B;**CSS屬性**
 
 <table id="table_1DF5A12A21584FCC8C25F170078FEFE6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">色彩</span> </p> </td> 
    <td colname="col2"> <p> 文字的色彩。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">字型系列</span> </p> </td> 
    <td colname="col2"> <p>文字字型名稱。 </p> </td> 
   </tr> 
   <tr> 
@@ -206,7 +206,7 @@ ht-degree: 1%
    <td colname="col2"> <p>水準文字對齊方式。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">字型大小</span> </p> </td> 
    <td colname="col2"> <p>字型文字的大小。 </p> </td> 
   </tr> 
  </tbody> 
@@ -214,9 +214,9 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->此文字面板支援 `state` 屬性選取器，可將不同的樣式套用至不同的文字訊息。 尤其是， `state='prompt'` 對應於第一次呼叫面板時顯示的文字提示。 此 `state='results'` 與包含搜尋點選相關資訊的文字相對應。 最後， `state='no_results'` 與搜尋查詢未傳回任何結果時所顯示的文字相對應。
+>此文字面板支援`state`屬性選取器，可用來將不同的樣式套用至不同的文字訊息。 特別是，`state='prompt'`對應於第一次呼叫面板時顯示的文字提示。 `state='results'`對應到包含搜尋點選相關資訊的文字。 最後，`state='no_results'`對應於搜尋查詢未傳回任何結果時所顯示的文字。
 
-訊息文字可以當地語系化。 另請參閱 [使用者介面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以取得詳細資訊。
+訊息文字可以當地語系化。 如需詳細資訊，請參閱[使用者介面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)。
 
 範例 — 若要設定使用灰色18畫素字型的文字面板：
 
@@ -233,13 +233,13 @@ ht-degree: 1%
 .ecatalogsearchviewer .s7searchpanel .s7swatches .s7thumbcell
 ```
 
-**縮圖儲存格的CSS屬性**
+縮圖儲存格的&#x200B;**CSS屬性**
 
 <table id="table_26974E509F6943BB98CBC1E4BAE62D68"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> 每個縮圖周圍垂直邊界的大小。 實際縮圖間距等於為設定的上下邊界總和 <span class="codeph"> .s7thumbcell </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">利潤</span> </p> </td> 
+   <td colname="col2"> <p> 每個縮圖周圍垂直邊界的大小。 實際縮圖間距等於為<span class="codeph"> .s7thumbcell </span>設定的上下邊界總和。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -258,20 +258,20 @@ ht-degree: 1%
 .s7ecatalogsearchviewer .s7searchpanel .s7swatches .s7thumb
 ```
 
-**縮圖的CSS屬性**
+縮圖的&#x200B;**CSS屬性**
 
 <table id="table_00829E44F75040A4B2AE19ACD550DA1E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">寬度</span> </p> </td> 
    <td colname="col2"> <p>縮圖的寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">高度</span> </p> </td> 
    <td colname="col2"> <p>縮圖的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">邊框</span> </p> </td> 
    <td colname="col2"> <p>縮圖的邊框。 </p> </td> 
   </tr> 
  </tbody> 
@@ -293,20 +293,20 @@ ht-degree: 1%
 .s7searchpanel .s7swatches .s7label
 ```
 
-**標籤的CSS屬性**
+標籤&#x200B;**的** CSS屬性
 
 <table id="table_CA669F6AE7574FF389BF725B3F768E5E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">色彩</span> </p> </td> 
    <td colname="col2"> <p> 文字顏色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">字型系列</span> </p> </td> 
    <td colname="col2"> <p>文字字型名稱。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">字型大小</span> </p> </td> 
    <td colname="col2"> <p>文字字型的大小。 </p> </td> 
   </tr> 
  </tbody> 
@@ -331,34 +331,34 @@ ht-degree: 1%
 
 無法使用CSS top、left、bottom和right屬性來定位捲動按鈕。 相反地，檢視器邏輯會自動調整位置。
 
-**上下捲動按鈕的CSS屬性**
+上下捲動按鈕的&#x200B;**CSS屬性**
 
 <table id="table_11063C7F428D4707A8138F17650F8F5F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">寬度</span> </p> </td> 
    <td colname="col2"> <p>捲動按鈕的寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">高度</span> </p> </td> 
    <td colname="col2"> <p>捲動按鈕的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景影像</span> </p> </td> 
    <td colname="col2"> <p> 針對指定按鈕狀態顯示的影像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> 若使用CSS拼寫，則定位在圖稿sprite內。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景位置</span> </p> </td> 
+   <td colname="col2"> <p> 若使用CSS拼寫，則定位在圖稿sprite內。 </p> <p>另請參閱<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按鈕支援 `state` 屬性選取器，可用來將不同的外觀元素套用至 `"up"`， `"down"`， `"over"`、和 `"disabled"` 按鈕狀態。
+>此按鈕支援`state`屬性選取器，可用來將不同的外觀元素套用至`"up"`、`"down"`、`"over"`和`"disabled"`按鈕狀態。
 
-按鈕工具提示可本地化。 另請參閱 [使用者介面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以取得詳細資訊。
+按鈕工具提示可本地化。 如需詳細資訊，請參閱[使用者介面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)。
 
 範例 — 若要設定125 x 35畫素的向上捲動按鈕，且每個狀態都有不同的圖稿：
 

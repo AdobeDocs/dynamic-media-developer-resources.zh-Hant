@@ -20,9 +20,9 @@ ht-degree: 6%
 
 <table id="simpletable_A07C4682275F461BA1F3B7752CE3FAE1"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> 名稱</span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname">名稱</span></span> </p> </td> 
   <td class="stentry"> <p>巨集名稱。 </p></td> 
  </tr> 
 </table>
 
-指令 *`name`* 不區分大小寫，而且可由字母、數字、 `-` （連字型大小）， `_` （底線），和 `.` （句點）字元。
+命令&#x200B;*`name`*&#x200B;不區分大小寫，而且可能包含任何字母、數字、`-` （連字型大小）、`_` （底線）和`.` （句點）字元的組合。

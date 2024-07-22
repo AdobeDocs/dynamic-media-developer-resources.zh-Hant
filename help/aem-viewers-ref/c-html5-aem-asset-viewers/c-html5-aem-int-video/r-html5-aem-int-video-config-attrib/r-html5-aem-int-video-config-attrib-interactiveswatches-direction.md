@@ -21,8 +21,8 @@ ht-degree: 4%
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> auto|left|right </span> </p> </td> 
-   <td colname="col2"> <p> 指定在檢視中填入色票的方式。 </p> <p>設定為 <span class="codeph"> left </span> 以設定由左至右的填入順序。 </p> <p>設定為 <span class="codeph"> 右側 </span> 反轉順序，使檢視以從右至左、從上至下的方向填充。 </p> <p>時間 <span class="codeph"> 自動 </span> 設定時，如果locale設為「」，元件會套用正確模式 <span class="codeph"> ja </span>"；否則， <span class="codeph"> left </span> 已使用。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">自動|靠左|靠右</span> </p> </td> 
+   <td colname="col2"> <p> 指定色票在檢視中填入的方式。 </p> <p>設定為<span class="codeph">左</span>以設定由左至右的填入順序。 </p> <p>設定為<span class="codeph"> right </span>會反轉順序，因此檢視會以由右至左、由上到下的方向填入。 </p> <p>設定<span class="codeph">自動</span>時，如果locale設為" <span class="codeph"> ja </span>"，元件會套用right模式；否則，會使用<span class="codeph">左</span>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

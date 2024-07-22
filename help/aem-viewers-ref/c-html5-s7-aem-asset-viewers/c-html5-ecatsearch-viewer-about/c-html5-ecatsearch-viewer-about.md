@@ -8,7 +8,7 @@ role: Developer,User
 exl-id: 915e628e-65e7-44c6-a2aa-d4ae7ed03b8e
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '2178'
+source-wordcount: '2078'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ eCatalog Search Viewer是一種目錄檢視器，可依跨頁或逐頁方式在�
 
 檢視器型別513。
 
-另請參閱 [系統需求和先決條件](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
+請參閱[系統需求和先決條件](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842)。
 
 ## 示範URL {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
@@ -35,13 +35,13 @@ eCatalog Search Viewer是一種目錄檢視器，可依跨頁或逐頁方式在�
 
 ## 使用eCatalog檢視器 {#section-e6c68406ecdc4de781df182bbd8088b4}
 
-eCatalog搜尋檢視器代表檢視器在執行階段下載的主要JavaScript檔案和一組協助程式檔案（單一JavaScript包含此特定檢視器使用的所有Viewer SDK元件、資產、CSS）
+eCatalog搜尋檢視器代表主要JavaScript檔案和一組協助程式檔案(單一JavaScript包含此特定檢視器使用的所有Viewer SDK元件、資產、CSS)，這些檔案由檢視器在執行階段下載
 
 您可以在快顯視窗模式中使用eCatalog Search Viewer，只要使用隨IS-Viewers提供的生產就緒HTML頁面，或透過內嵌模式使用檔案說明的API將其整合至目標網頁。
 
 組態和外觀設定與其他檢視器的組態和外觀設定類似。 所有外觀設定都是透過自訂CSS來達成。
 
-另請參閱 [所有檢視器通用的命令參考 — 組態屬性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) 和 [所有檢視器通用的命令參考 — URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
+檢視所有檢視器通用的[命令參考 — 組態屬性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)和所有檢視器通用的[命令參考 — URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
 ## 與eCatalog搜尋檢視器互動 {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
@@ -94,13 +94,13 @@ eCatalog搜尋檢視器支援社交分享工具。 這些按鈕可在主要控�
 
 不同的網頁對檢視者的行為有不同的需求。 有時，網頁會提供連結，在選取時會在個別瀏覽器視窗中開啟檢視器。 在其他情況下，需要直接將檢視器內嵌在託管頁面中。 在後一種情況下，網頁可能會有靜態頁面佈局，或使用在不同裝置上或不同瀏覽器視窗大小下顯示不同的回應式設計。 為了滿足這些需求，檢視器支援三種主要操作模式：快顯視窗、固定大小嵌入和回應式設計嵌入。
 
-**關於彈出式模式**
+**關於快顯視窗模式**
 
 在快顯視窗模式中，檢視器會在個別的網頁瀏覽器視窗或標籤中開啟。 它會取用整個瀏覽器視窗區域，並在瀏覽器調整大小或行動裝置方向變更時進行調整。
 
-快顯視窗模式最常用於行動裝置。 網頁會使用載入檢視器 `window.open()` javascript呼叫，已正確設定 `A` HTML元素或任何其他適當的方法。
+快顯視窗模式最常用於行動裝置。 網頁會使用`window.open()` JavaScript呼叫、正確設定的`A`HTML元素或任何其他適當的方法載入檢視器。
 
-建議您為快顯視窗操作模式使用現成可用的HTML頁面。 在此案例中，它被稱為 [!DNL eCatalogSearchViewer.html] 且位於 [!DNL html5/] 標準IS-Viewers部署的子資料夾：
+建議您為快顯視窗操作模式使用現成可用的HTML頁面。 在此案例中，其名稱為[!DNL eCatalogSearchViewer.html]，且位於標準IS-Viewers部署的[!DNL html5/]子資料夾內：
 
 [!DNL <s7viewers_root>/html5/eCatalogSearchViewer.html]
 
@@ -120,24 +120,24 @@ eCatalog搜尋檢視器支援社交分享工具。 這些按鈕可在主要控�
 
 當檢視器在初始載入後未變更其大小時，會使用固定大小內嵌。 這是靜態佈局網頁的最佳選擇。
 
-回應式設計內嵌假設檢視器在執行階段可能需要調整大小以回應容器大小變更 `DIV`. 最常見的使用案例是將檢視器新增到使用彈性頁面配置的網頁。
+回應式設計內嵌假設檢視器在執行階段可能需要調整大小，以回應其容器`DIV`的大小變更。 最常見的使用案例是將檢視器新增到使用彈性頁面配置的網頁。
 
-在回應式設計內嵌模式中，檢視器的行為會因網頁大小其容器的方式而異 `DIV`. 如果網頁僅設定容器的寬度 `DIV`，只要其高度不受限制，檢視器就會根據所使用資產的外觀比例，自動選擇高度。 此功能可確保資產完全符合檢視方式，且兩側不會有任何邊框間距。 此使用案例最常用於使用回應式佈局架構(例如Bootstrap、Foundation等)的網頁。
+在回應式設計內嵌模式中，檢視器的行為會因網頁大小其容器`DIV`的方式而異。 如果網頁僅設定容器`DIV`的寬度，而不限制其高度，檢視器會根據所使用資產的外觀比例，自動選擇其高度。 此功能可確保資產完全符合檢視方式，且兩側不會有任何邊框間距。 此使用案例最常用於使用回應式佈局架構(例如Bootstrap、Foundation等)的網頁。
 
-否則，如果網頁同時設定檢視器容器的寬度和高度 `DIV`，檢視器會填滿該區域，並遵循網頁版面提供的大小。 一個好的範例是內嵌檢視器至強制回應覆蓋圖，其中覆蓋圖會根據網頁瀏覽器視窗大小而調整。
+否則，如果網頁同時設定檢視器容器`DIV`的寬度和高度，則檢視器只會填滿該區域，並遵循網頁配置所提供的大小。 一個好的範例是內嵌檢視器至強制回應覆蓋圖，其中覆蓋圖會根據網頁瀏覽器視窗大小而調整。
 
 **固定大小內嵌**
 
 您可以執行下列動作，將檢視器新增至網頁：
 
-1. 正在將檢視器JavaScript檔案新增至您的網頁。
+1. 正在將viewer JavaScript檔案新增至您的網頁。
 1. 定義容器DIV。
 1. 設定檢視器大小。
 1. 正在建立和初始化檢視器。
 
-1. 正在將檢視器JavaScript檔案新增至您的網頁。
+1. 正在將viewer JavaScript檔案新增至您的網頁。
 
-   建立檢視器需要您在HTML標題中新增指令碼標籤。 在可以使用檢視器API之前，請務必加入 [!DNL eCatalogSearchViewer.js]. 此 [!DNL eCatalogSearchViewer.js] 檔案位於 [!DNL html5/js/] 標準IS-Viewers部署的子資料夾：
+   建立檢視器需要您在HTML標題中新增指令碼標籤。 在可以使用檢視器API之前，請確定您已包含[!DNL eCatalogSearchViewer.js]。 [!DNL eCatalogSearchViewer.js]檔案位於標準IS-Viewers部署的[!DNL html5/js/]子資料夾下：
 
 [!DNL <s7viewers_root>/html5/js/eCatalogSearchViewer.js]
 
@@ -153,7 +153,7 @@ eCatalog搜尋檢視器支援社交分享工具。 這些按鈕可在主要控�
 
    新增空的DIV元素至要顯示檢視器的頁面。 DIV元素必須定義其ID，因為此ID稍後會傳遞至檢視器API。
 
-   預留位置DIV是定位元素，表示 `position` CSS屬性已設定為 `relative` 或 `absolute`.
+   預留位置DIV是定位元素，表示`position` CSS屬性設定為`relative`或`absolute`。
 
    以下為已定義預留位置DIV元素的範例：
 
@@ -163,11 +163,11 @@ eCatalog搜尋檢視器支援社交分享工具。 這些按鈕可在主要控�
 
 1. 設定檢視器大小
 
-   您可以宣告檢視器的靜態大小 `.s7ecatalogsearchviewer` 頂層CSS類別（以絕對單位表示），或使用 `stagesize` 修飾元。
+   您可以透過以絕對單位宣告`.s7ecatalogsearchviewer`頂層CSS類別的檢視器，或使用`stagesize`修飾元來設定檢視器的靜態大小。
 
    您可以將CSS的大小直接放在HTML頁面上，或放在自訂檢視器CSS檔案中，稍後再將其指派給Dynamic Media Classic中的檢視器預設集記錄，或使用樣式命令明確傳遞。
 
-   另請參閱 [自訂eCatalog檢視器](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) 以取得有關使用CSS設定檢視器樣式的詳細資訊。
+   請參閱[自訂eCatalog檢視器](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0)，以取得使用CSS設定檢視器樣式的詳細資訊。
 
    以下是在HTML頁面中定義靜態檢視器大小的範例：
 
@@ -178,7 +178,7 @@ eCatalog搜尋檢視器支援社交分享工具。 這些按鈕可在主要控�
    }
    ```
 
-   您可以設定 `stagesize` 在Dynamic Media Classic的檢視器預設集記錄中修飾元，或使用檢視器初始化程式碼明確傳遞 `params` 集合，或作為API呼叫，如命令參考區段所述，如下所示：
+   您可以在Dynamic Media Classic的檢視器預設集記錄中設定`stagesize`修飾元，或透過`params`集合的檢視器初始化程式碼明確傳遞，或以API呼叫的形式傳遞，如命令參考區段中所述，如下所示：
 
    ```html {.line-numbers}
    eCatalogSearchViewer.setParam("stagesize", 
@@ -187,13 +187,13 @@ eCatalog搜尋檢視器支援社交分享工具。 這些按鈕可在主要控�
 
 1. 正在初始化檢視器。
 
-   完成上述步驟後，您會建立 `s7viewers.eCatalogSearchViewer` 類別，將所有設定資訊傳遞至其建構函式，並呼叫 `init()` 方法。 組態資訊會以JSON物件的形式傳遞至建構函式。 此物件至少具有 `containerId` 包含檢視器容器ID名稱且以巢狀顯示的欄位 `params` 具有檢視器支援之設定引數的JSON物件。 在此案例中， `params` 物件必須至少將「影像伺服」URL傳遞為 `serverUrl` 屬性，並將初始資產設為 `asset` 引數。 JSON型初始化API可讓您使用一行程式碼來建立和啟動檢視器。
+   完成上述步驟後，您會建立`s7viewers.eCatalogSearchViewer`類別的執行個體、將所有組態資訊傳遞至其建構函式，並在檢視器執行個體上呼叫`init()`方法。 組態資訊會以JSON物件的形式傳遞至建構函式。 此物件至少有`containerId`欄位，其中包含檢視器容器ID的名稱，以及含有檢視器支援之設定引數的巢狀`params` JSON物件。 在此情況下，`params`物件必須至少將影像伺服URL傳遞為`serverUrl`屬性，並將初始資產傳遞為`asset`引數。 JSON型初始化API可讓您使用一行程式碼來建立和啟動檢視器。
 
-   請務必將檢視器容器新增至DOM，讓檢視器程式碼可依其ID尋找容器元素。 有些瀏覽器會延遲建立DOM，直到網頁結尾為止。 不過，為達到最大相容性，請呼叫 `init()` 方法（在結尾之前） `BODY` 標籤上，或在內文上 `onload()` 事件。
+   請務必將檢視器容器新增至DOM，讓檢視器程式碼可依其ID尋找容器元素。 有些瀏覽器會延遲建立DOM，直到網頁結尾為止。 不過，為達到最大相容性，請在結尾的`BODY`標籤前面或內文`onload()`事件上呼叫`init()`方法。
 
-   同時，容器元素目前不一定會成為網頁配置的一部分。 例如，可使用以下專案將其隱藏： `display:none` 樣式已指派給它。 在此情況下，檢視器會延遲其初始化程式，直到網頁將容器元素帶回版面配置為止。 發生此情況時，檢視器會自動繼續載入。
+   同時，容器元素目前不一定會成為網頁配置的一部分。 例如，可以使用指派給它的`display:none`樣式來隱藏它。 在此情況下，檢視器會延遲其初始化程式，直到網頁將容器元素帶回版面配置為止。 發生此情況時，檢視器會自動繼續載入。
 
-   以下範例說明如何建立檢視器例項、將最低必要設定選項傳遞至建構函式，以及呼叫 `init()` 方法。 此範例假設 `eCatalogSearchViewer` 是檢視器例項； `s7viewer` 是預留位置名稱 `DIV`； `https://s7d1.scene7.com/is/image/` 是「影像伺服」URL，且 `Viewers/Pluralist` 為資產：
+   以下是建立檢視器執行個體、將最低必要組態選項傳遞給建構函式，以及呼叫`init()`方法的範例。 此範例假設`eCatalogSearchViewer`為檢視器執行個體；`s7viewer`為預留位置`DIV`的名稱；`https://s7d1.scene7.com/is/image/`為影像伺服URL，`Viewers/Pluralist`為資產：
 
    ```html {.line-numbers}
    <script type="text/javascript"> 
@@ -240,7 +240,7 @@ eCatalog搜尋檢視器支援社交分享工具。 這些按鈕可在主要控�
 
 **高度不受限制的回應式設計內嵌**
 
-透過回應式設計內嵌，網頁通常會有某種彈性的版面配置，可指定檢視器容器的執行階段大小 `DIV`. 在此範例中，假設網頁允許檢視器的容器 `DIV` 佔用40%的網頁瀏覽器視窗大小，其高度不受限制。 產生的網頁HTML程式碼如下所示：
+透過回應式設計內嵌，網頁通常會有某種彈性的配置，可指定檢視器容器`DIV`的執行階段大小。 在此範例中，假設網頁允許檢視器的容器`DIV`取得網頁瀏覽器視窗大小的40%，其高度不受限制。 產生的網頁HTML程式碼如下所示：
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -260,11 +260,11 @@ eCatalog搜尋檢視器支援社交分享工具。 這些按鈕可在主要控�
 
 將檢視器新增至這類頁麵類似於嵌入固定大小，唯一的差別是您不需要明確定義檢視器大小。
 
-1. 正在將檢視器JavaScript檔案新增至您的網頁。
+1. 正在將viewer JavaScript檔案新增至您的網頁。
 1. 定義容器DIV。
 1. 正在建立和初始化檢視器。
 
-上述所有步驟與內嵌固定大小相同。 新增容器 `DIV` 至現有的「持有者」 `DIV`. 下列程式碼為完整的範例。 您可以檢視瀏覽器調整大小時檢視器大小的變更，以及檢視器外觀比例與資產的相符情形。
+上述所有步驟與內嵌固定大小相同。 將容器`DIV`新增至現有的「持有者」`DIV`。 下列程式碼為完整的範例。 您可以檢視瀏覽器調整大小時檢視器大小的變更，以及檢視器外觀比例與資產的相符情形。
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -299,9 +299,9 @@ var eCatalogSearchViewer = new s7viewers.eCatalogSearchViewer({
 
 [即時示範](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-**定義寬度和高度的彈性大小內嵌**
+**寬度和高度已定義的彈性大小內嵌**
 
-若是定義寬度和高度的彈性大小內嵌，網頁的樣式會不同。 也就是說，它會將兩種大小提供給「托架」 `DIV` 並將其置中於瀏覽器視窗中。 此外，網頁會設定 `HTML` 和 `BODY` 元素至100%：
+若是定義寬度和高度的彈性大小內嵌，網頁的樣式會不同。 也就是說，它同時提供大小給「持有者」`DIV`，並將它置中於瀏覽器視窗中。 此外，網頁會將`HTML`和`BODY`專案的大小設定為100%：
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -366,9 +366,9 @@ var eCatalogSearchViewer = new s7viewers.eCatalogSearchViewer({
 </html>
 ```
 
-**使用Setter型API進行內嵌**
+**使用Setter型API內嵌**
 
-您可以使用setter式API和no-args建構函式，而不使用JSON式初始化。 使用該API建構函式不會接受任何引數，而且設定引數是使用 `setContainerId()`， `setParam()`、和 `setAsset()` API方法與個別的JavaScript呼叫。
+您可以使用setter式API和no-args建構函式，而不使用JSON式初始化。 使用該API建構函式不會接受任何引數，而設定引數是使用`setContainerId()`、`setParam()`和`setAsset()` API方法搭配個別的JavaScript呼叫所指定。
 
 下列範例顯示固定大小內嵌以setter為基礎的API：
 

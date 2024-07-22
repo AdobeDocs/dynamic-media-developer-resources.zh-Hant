@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: a8bb32b4-0fd9-4887-98ef-31c3426092b6
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 3%
+source-wordcount: '116'
+ht-degree: 2%
 
 ---
 
@@ -21,15 +21,15 @@ ht-degree: 3%
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> none|fade</span> </p> </td> 
-   <td colname="col2"> <p> 指定用來顯示/隱藏控制列及其內容的效果型別。 </p> <p>設定為 <span class="codeph"> 無</span> 立即顯示/隱藏。 </p> <p>設定為 <span class="codeph"> 淡化</span> 提供逐漸淡入/淡出效果。 Internet Explorer 8不支援。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">無|淡化</span> </p> </td> 
+   <td colname="col2"> <p> 指定用來顯示/隱藏控制列及其內容的效果型別。 </p> <p>設定為<span class="codeph">無</span>以立即顯示/隱藏。 </p> <p>設定為<span class="codeph">淡化</span>以提供逐漸淡入/淡出效果。 Internet Explorer 8不支援。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> delaytohide</span></span> </p> </td> 
-   <td colname="col2"> <p> 指定控制列註冊的上一個滑鼠/觸控事件與控制列隱藏時間之間的時間（以秒為單位）。 若設為 <span class="codeph"> -1</span> 元件不會觸發其自動隱藏效果，因此一律會顯示在熒幕上。 </p> </td> 
+   <td colname="col2"> <p> 指定控制列所登入的上次滑鼠/觸控事件與控制列隱藏之間的時間（秒）。 若設為<span class="codeph"> -1</span>，元件永遠不會觸發其自動隱藏效果，因此一律會顯示在熒幕上。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> 時段</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname">持續時間</span></span> </p> </td> 
    <td colname="col2"> <p> 設定淡入/淡出動畫的持續時間（秒）。 </p> </td> 
   </tr> 
  </tbody> 

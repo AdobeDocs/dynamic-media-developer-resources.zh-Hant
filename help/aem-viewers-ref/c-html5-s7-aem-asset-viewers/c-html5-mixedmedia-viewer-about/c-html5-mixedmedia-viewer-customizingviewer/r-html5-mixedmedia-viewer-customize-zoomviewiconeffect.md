@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: f2db0259-f1cf-41bc-86fd-97a40d01db16
 source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 1%
+source-wordcount: '170'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**主要檢視器區域的CSS屬性**
+主要檢視器區域的&#x200B;**CSS屬性**
 
 檢視區域的外觀是由下列CSS類別選取器所控制：
 
@@ -35,29 +35,29 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景影像</span> </p> </td> 
    <td colname="col2"> <p> 縮放指示器圖稿。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> 若使用CSS sprite，則定位在圖稿sprite內。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景位置</span> </p> </td> 
+   <td colname="col2"> <p> 若使用CSS拼寫，則定位在圖稿sprite內。 </p> <p>請參閱<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">寬度</span> </p> </td> 
    <td colname="col2"> <p>縮放指示器寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>縮放指示器高度。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">高度</span> </p> </td> 
+   <td colname="col2"> <p>縮放指標高度。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->圖示效果支援 `media-type` 屬性選擇器，可用來將不同的圖示效果套用至不同的裝置。 尤其是， `media-type='standard'` 對應至一般使用滑鼠輸入的桌上型電腦系統，以及 `media-type='multitouch'` 對應至具有觸控輸入的裝置。
+>圖示效果支援`media-type`屬性選取器，可用來將不同的圖示效果套用至不同的裝置。 特別是，`media-type='standard'`對應到一般使用滑鼠輸入的桌上型電腦系統，`media-type='multitouch'`對應到具有觸控輸入的裝置。
 
-範例 — 為桌上型電腦系統和觸控裝置設定100 x 100畫素縮放指示器，使用不同的藝術品。
+範例 — 設定100 x 100畫素縮放指示器，使用案頭系統和觸控裝置的不同藝術品。
 
 ```
 .s7mixedmediaviewer .s7zoomview .s7iconeffect { 

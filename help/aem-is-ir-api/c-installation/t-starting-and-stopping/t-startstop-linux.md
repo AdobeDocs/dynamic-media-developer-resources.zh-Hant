@@ -16,9 +16,9 @@ ht-degree: 0%
 
 在Linux®上啟動或停止「影像伺服」有兩個選項。
 
-* 可驗證「影像伺服」狀態，或啟動和停止「影像伺服」的指令碼位於 [!DNL ImageServing/bin] 資料夾：
+* 在[!DNL ImageServing/bin]資料夾中找到用於驗證「影像伺服」狀態或啟動及停止「影像伺服」的指令碼：
 
-   `ImageServing.sh {start|stop|restart|status}`
-* 系統管理員應該熟悉下列替代方法：
+  `ImageServing.sh {start|stop|restart|status}`
+* 系統管理員應該熟悉以下替代方法：
 
-   `/sbin/service ImageServing {start|stop|status}`
+  `/sbin/service ImageServing {start|stop|status}`

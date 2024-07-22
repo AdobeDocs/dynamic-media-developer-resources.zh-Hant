@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 9f7e3fec-8303-4114-86b2-fb75d041701d
 source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 3%
+source-wordcount: '362'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 3%
 
 清除器「旋鈕」也會隨著視訊播放而移動，以指出視訊在播放期間的目前時間位置。 視訊筆畫壓感一律採用控制列的整個寬度。 您可以透過CSS建立視訊筆畫壓感的外觀、變更其高度和垂直位置。
 
-視訊筆畫壓感的一般外觀是由下列CSS類別選取器所控制：
+視訊筆畫壓感的一般外觀是使用下列CSS類別選取器來控制：
 
 ```
 .s7smartcropvideoviewer .s7videoscrubber 
@@ -28,24 +28,24 @@ ht-degree: 3%
 .s7smartcropvideoviewer .s7videoscrubber .s7knob
 ```
 
-**視訊筆畫壓感的CSS屬性**
+視訊筆畫壓感的&#x200B;**CSS屬性**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 頂部 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">前</span> </p> </td> 
    <td colname="col2"> <p>上邊框的位置，包括邊框間距。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 底部 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">後</span> </p> </td> 
    <td colname="col2"> <p> 從下邊框定位，包括內距。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>視訊清除程式的高度。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">高度</span> </p> </td> 
+   <td colname="col2"> <p>視訊筆畫壓感的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色彩</span> </p> </td> 
    <td colname="col2"> <p>視訊筆畫壓感色彩。 </p> </td> 
   </tr> 
  </tbody> 
@@ -59,50 +59,50 @@ ht-degree: 3%
 .s7smartcropvideoviewer .s7videoscrubber .s7trackplayed
 ```
 
-**曲目的CSS屬性**
+曲目&#x200B;**的** CSS屬性
 
 <table id="table_46903DCACF314426B67783167ADF7715"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>對應軌道的高度。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">高度</span> </p> </td> 
+   <td colname="col2"> <p>對應磁軌的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p>對應曲目的色彩。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色彩</span> </p> </td> 
+   <td colname="col2"> <p>對應曲目的顏色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-下列CSS類別選擇器會控制旋鈕：
+下列CSS類別選取器會控制旋鈕：
 
 ```
 .s7smartcropvideoviewer .s7videoscrubber .s7knob
 ```
 
-**旋鈕的CSS屬性**
+旋鈕&#x200B;**的** CSS屬性
 
 <table id="table_966826FB81114362A8D81D1EED38D512"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 頂部 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">前</span> </p> </td> 
    <td colname="col2"> <p>垂直旋鈕位移。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">寬度</span> </p> </td> 
    <td colname="col2"> <p>旋鈕寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>旋鈕高度。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">高度</span> </p> </td> 
+   <td colname="col2"> <p>旋鈕的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景影像</span> </p> </td> 
    <td colname="col2"> <p>旋鈕圖稿。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> 若使用CSS sprite，則定位在圖稿sprite內。 </p> <p>另請參閱 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景位置</span> </p> </td> 
+   <td colname="col2"> <p> 若使用CSS拼寫，則定位在圖稿sprite內。 </p> <p>請參閱<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -113,41 +113,41 @@ ht-degree: 3%
 .s7smartcropvideoviewer .s7videoscrubber .s7videotime
 ```
 
-**時間播放泡泡的CSS屬性**
+時間播放泡泡的&#x200B;**CSS屬性**
 
 <table id="table_21E9AD3FBC8C4437BA02E5CD1BF7E831"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">字型系列</span> </p> </td> 
    <td colname="col2"> <p> 用於時間顯示文字的字型系列。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">字型大小</span> </p> </td> 
    <td colname="col2"> <p> 用於時間顯示文字的字型大小。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">色彩</span> </p> </td> 
    <td colname="col2"> <p> 用於時間顯示文字的字型顏色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">寬度</span> </p> </td> 
    <td colname="col2"> <p>泡泡區域寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">高度</span> </p> </td> 
    <td colname="col2"> <p>泡泡區域高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 填補 </span> </p> </td> 
-   <td colname="col2"> <p>泡泡區域邊框間距。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">內距</span> </p> </td> 
+   <td colname="col2"> <p>泡泡區域邊距。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景影像</span> </p> </td> 
    <td colname="col2"> <p>泡泡圖稿。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> 若使用CSS sprite，則定位在圖稿sprite內。 </p> <p>另請參閱 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景位置</span> </p> </td> 
+   <td colname="col2"> <p> 若使用CSS拼寫，則定位在圖稿sprite內。 </p> <p>請參閱<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> text-align </span> </p> </td> 
@@ -156,9 +156,9 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-視訊筆畫壓感工具提示可以本地化。 另請參閱 [使用者介面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 以取得詳細資訊。
+視訊筆畫壓感工具提示可以當地語系化。 如需詳細資訊，請參閱[使用者介面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad)。
 
-**範例**  — 若要設定含有自訂軌跡顏色（10畫素高）之視訊筆畫壓感的視訊檢視器。 最後，請讓它位於距離控制列上邊緣和左邊緣10畫素和35畫素的位置。
+**範例** — 若要設定視訊檢視器，其視訊筆畫壓感採用高度為10畫素的自訂軌跡顏色。 最後，從控制列的頂端和左側邊緣將10個畫素和35個畫素放置在其中。
 
 ```
 .s7smartcropvideoviewer .s7videoscrubber  { 

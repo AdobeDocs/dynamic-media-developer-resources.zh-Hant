@@ -1,18 +1,18 @@
 ---
 description: 取得與型別控制代碼關聯的屬性集。
 solution: Experience Manager
-title: getPropertySets
+title: getPropertySet
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: da6923c3-9b86-4595-8205-645fb10e03b0
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '90'
-ht-degree: 18%
+ht-degree: 16%
 
 ---
 
-# getPropertySets{#getpropertysets}
+# getPropertySet{#getpropertysets}
 
 取得與型別控制代碼關聯的屬性集。
 
@@ -50,7 +50,7 @@ ht-degree: 18%
 
 此程式碼範例會傳回其主要擁有者的屬性集（由型別控制代碼指定）。
 
-**請求**
+**要求**
 
 ```java
 <getPropertySetsParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">
@@ -59,7 +59,7 @@ ht-degree: 18%
 </getPropertySetsParam>
 ```
 
-**回答**
+**回應**
 
 ```java
 <getPropertySetsReturn xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

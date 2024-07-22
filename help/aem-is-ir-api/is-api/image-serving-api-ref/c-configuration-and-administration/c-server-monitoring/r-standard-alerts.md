@@ -8,7 +8,7 @@ exl-id: eb691988-9f03-463f-bed5-2c230431f537
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '222'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 1%
   <tr> 
    <th class="entry"> <b>警示型別</b> </th> 
    <th class="entry"> <b>標題ID</b> </th> 
-   <th class="entry"> <b>說明</b> </th> 
+   <th class="entry"> <b>描述</b> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -35,7 +35,7 @@ ht-degree: 1%
   <tr> 
    <td> <p>高並行度 </p> </td> 
    <td> <p>Conc </p> </td> 
-   <td> 當同時處理的請求數時發出(當請求數 <i>重疊</i>)超過指定的臨界值。 可能表示伺服器超載情況。 </td> 
+   <td> 當同時處理的要求數目（<i>重疊</i>）超過指定的臨界值時發出。 可能表示伺服器超載情況。 </td> 
   </tr> 
   <tr> 
    <td> <p>最小流量 </p> </td> 

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 0f1f98a5-b53b-4e20-b4c8-e70482b01a04
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '107'
 ht-degree: 3%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 3%
 
 ## 屬性 {#section-955268c581574875b05253d9e14544f3}
 
-文字字串。 Adobe Type1檔案則為選用。 必須為空白或有效的影像伺服器檔案路徑，可為絕對或相對 `attribute::RootPath`.
+文字字串。 Adobe Type1檔案則為選用。 必須為空白或有效的影像伺服器檔案路徑，絕對或相對於`attribute::RootPath`。
 
 ## 預設 {#section-a6ffbd6879c642caa5a2fd4ed14a3a85}
 

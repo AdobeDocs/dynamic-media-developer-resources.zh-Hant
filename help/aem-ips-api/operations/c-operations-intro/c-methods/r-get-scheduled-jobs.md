@@ -8,7 +8,7 @@ exl-id: 7920637e-b289-410c-ae5c-e67cd7b21aba
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '75'
-ht-degree: 22%
+ht-degree: 20%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 22%
 |---|---|---|---|
 | companyHandle | `xsd:string` | 是 | 公司的控制代碼。 |
 | jobHandle | `xsd:string` | 否 | 工作控制代碼。 |
-| 原始名稱 | `xsd:string` | 否 | 指定的名稱 `submitJob`. |
+| 原始名稱 | `xsd:string` | 否 | `submitJob`指定的名稱。 |
 
 **輸出(getScheduledJobsReturn)**
 
@@ -49,7 +49,7 @@ ht-degree: 22%
 
 此程式碼範例會傳回工作陣列中的所有排程工作。 陣列本身包含有關作業的詳細資訊。
 
-**請求**
+**要求**
 
 ```java
 <getScheduledJobsParam xmlns="http://www.scene7.com/IpsApi/xsd">
@@ -57,7 +57,7 @@ ht-degree: 22%
 </getScheduledJobsParam>
 ```
 
-**回答**
+**回應**
 
 ```java
 <getScheduledJobsReturn xmlns="http://www.scene7.com/IpsApi/xsd">

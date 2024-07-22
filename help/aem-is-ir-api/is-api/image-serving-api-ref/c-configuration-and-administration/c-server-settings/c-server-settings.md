@@ -1,5 +1,5 @@
 ---
-description: 本節說明所有可編輯的組態設定值，並按感興趣區域分組。
+description: 本節說明所有可編輯的組態設定，依感興趣的區域分組。
 solution: Experience Manager
 title: 伺服器設定
 feature: Dynamic Media Classic,SDK/API
@@ -7,14 +7,14 @@ role: Developer,Admin,User
 exl-id: c3296c7a-35b3-4f01-a793-35c8304ffd95
 source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '60'
 ht-degree: 6%
 
 ---
 
 # 伺服器設定{#server-settings}
 
-本節說明所有可編輯的組態設定值，並按感興趣區域分組。
+本節說明所有可編輯的組態設定，依感興趣的區域分組。
 
 * [一般](r-general.md)
 * [內容資料夾](r-content-data-folders.md)

@@ -31,8 +31,8 @@ ht-degree: 16%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 具有影像伺服發佈設定的公司控制代碼。 |
-| contextHandle | `xsd:string` | 是 | 處理發佈內容的動作。 |
+| companyHandle | `xsd:string` | 是 | 具有影像伺服發佈設定的公司的控制代碼。 |
+| contextHandle | `xsd:string` | 是 | 發佈內容的控點。 |
 
 **輸出**
 

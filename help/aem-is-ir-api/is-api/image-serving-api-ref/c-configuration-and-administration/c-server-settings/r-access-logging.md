@@ -7,8 +7,8 @@ role: Developer,Admin,User
 exl-id: e677a617-115d-4f6e-9eb5-bdc14ad7ff24
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 3%
+source-wordcount: '676'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 3%
 
 ## TC：：directory — 記錄檔資料夾 {#section-5d9e2168d4504bbe9868b7d6051c9d67}
 
-要存放的資料夾 [!DNL Platform Server] 寫入記錄檔。 這可以是絕對路徑或相對路徑 *`install_folder`*. 預設為 [!DNL  *`install_folder`*/logs].
+[!DNL Platform Server]寫入記錄檔的資料夾。 這可以是絕對路徑或相對於&#x200B;*`install_folder`*&#x200B;的路徑。 預設值為&#x200B;[!DNL  *`install_folder`*/logs]。
 
 >[!NOTE]
 >
@@ -32,13 +32,13 @@ ht-degree: 3%
 
 ## TC：：prefix — 存取記錄檔名稱 {#section-1003856323b844049632710a5a056aa7}
 
-寫入存取記錄檔資料的檔案名稱首碼。 日期和檔案字尾( [!DNL  *`yyyy`*-*`mm`*-*`dd`*.log])附加至指定的字串。 存取記錄檔的名稱必須與追蹤記錄檔的名稱不同。 預設為 &quot; `access-`&quot;.
+寫入存取記錄檔資料的檔案名稱首碼。 日期與檔案字尾( [!DNL  *`yyyy`*-*`mm`*-*`dd`*.log])會附加至指定的字串。 存取記錄檔的名稱必須與追蹤記錄檔的名稱不同。 預設值為&quot; `access-`&quot;。
 
 ## TC：：pattern — 存取記錄模式 {#section-22775ea85cee444d8a7d7336a3b1feef}
 
-指定資料模式 [!DNL Platform Server] 存取記錄檔記錄。 圖樣字串會指定用對應值取代的變數。 模式字串中的所有其他字元會按字面意義傳輸到記錄中。
+指定[!DNL Platform Server]存取記錄檔記錄的資料模式。 圖樣字串會指定用對應值取代的變數。 模式字串中的所有其他字元會按字面意義傳輸到記錄中。
 
-若要使用快取預熱公用程式，必須將空格當作欄位分隔符號使用。 此 [!DNL Platform Server] 將欄位值中的所有空格和&#39;%&#39;字元取代為 `%20` 和 `%25`，依序輸入。
+若要使用快取預熱公用程式，必須將空格當作欄位分隔符號使用。 [!DNL Platform Server]會分別以`%20`和`%25`取代欄位值中的所有空格和&#39;%&#39;字元。
 
 支援下列模式變數：
 
@@ -46,7 +46,7 @@ ht-degree: 3%
  <thead> 
   <tr> 
    <th class="entry"> <b>模式</b> </th> 
-   <th class="entry"> <b>說明</b> </th> 
+   <th class="entry"> <b>描述</b> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -76,11 +76,11 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %G </span> </p> </td> 
-   <td> <p>日期和時間，格式為 <span class="codeph"> <span class="varname"> yyyy </span>- <span class="varname"> 公厘 </span>- <span class="varname"> dd </span> <span class="varname"> HH </span>： <span class="varname"> 公厘 </span>： <span class="varname"> ss </span>. <span class="varname"> SSS </span> offset </span> </p> <p> ( <span class="varname"> SSS </span> 為毫秒， <span class="varname"> offset </span> 是GMT時間差)；會在將回應傳送至使用者端時擷取時間值。 </p> </td> 
+   <td> <p>日期和時間，格式為<span class="codeph"> <span class="varname"> yyyy </span>- <span class="varname"> MM </span>- <span class="varname"> dd </span> <span class="varname"> HH </span>： <span class="varname"> mm </span>： <span class="varname"> ss </span>。 <span class="varname"> SSS </span>位移</span> </p> <p> （<span class="varname"> SSS </span>為毫秒，<span class="varname">位移</span>為GMT時間位移）；將回應傳送至使用者端時擷取時間值。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %m </span> </p> </td> 
-   <td> <p>要求方法( <span class="codeph"> GET </span>， <span class="codeph"> POST </span>，依此類推)。 </p> </td> 
+   <td> <p>要求方法(<span class="codeph">個GET</span>、<span class="codeph">個POST</span>等)。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %O </span> </p> </td> 
@@ -100,7 +100,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %R </span> </p> </td> 
-   <td> <p>與 <span class="codeph"> %r </span>，但會套用有限的HTTP編碼至URI，以避免記錄剖析問題。 </p> </td> 
+   <td> <p>與<span class="codeph"> %r </span>相同，但是將有限的HTTP編碼套用至URI，以避免記錄剖析問題。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %s </span> </p> </td> 
@@ -136,7 +136,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{CacheUse}r </span> </p> </td> 
-   <td> <p>[!DNL Platform Server] 快取管理關鍵字： <span class="codeph"> { REUSED |已建立 |已更新 |遠端 |遠端建立 |遠端更新 |遠端快取 |已驗證 |已忽略 |未定義} </span>. </p> </td> 
+   <td> <p>[!DNL Platform Server] 快取管理關鍵字： <span class="codeph"> {已重複使用 | 已建立 | 已更新 | 遠端 | REMOTE_CREATED | REMOTE_UPDATES | REMOTE_CACHE | 已驗證 | 已忽略 | 未定義} </span>。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{ContentType}r </span> </p> </td> 
@@ -148,11 +148,11 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{Digest}r </span> </p> </td> 
-   <td> <p>此 <span class="codeph"> etag </span> 回應標頭值（回應資料的MD5簽章）。 </p> </td> 
+   <td> <p><span class="codeph"> etag </span>回應標頭值（回應資料的MD5簽章）。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{Exception}r </span> </p> </td> 
-   <td> <p>錯誤訊息. </p> </td> 
+   <td> <p>錯誤訊息。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{FetchTime}r </span> </p> </td> 
@@ -168,7 +168,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{PeerServer}r </span> </p> </td> 
-   <td> <p>快取叢集中傳遞快取專案的對等伺服器的IP位址，或是'-' （如果） <span class="codeph"> 快取使用 </span> 兩者皆非 <span class="codeph"> REMOTE_CREATED </span> 也不 <span class="codeph"> REMOTE_UPDATES </span>. </p> </td> 
+   <td> <p>快取叢集中傳遞快取專案之對等伺服器的IP位址，或'-' （如果<span class="codeph"> CacheUse </span>既不是<span class="codeph"> REMOTE_CREATED </span>也不是<span class="codeph"> REMOTE_UPDATED </span>）。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{ProcessingStatus}r </span> </p> </td> 
@@ -183,7 +183,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{ReqType}r </span> </p> </td> 
-   <td> <p>「 」的上小寫值 <span class="codeph"> 需要= </span>. </p> </td> 
+   <td> <p><span class="codeph">要求的上限大小寫值= </span>。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{RootId}r </span> </p> </td> 
@@ -191,25 +191,25 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{SendTime}r </span> </p> </td> 
-   <td> <p>所需的時間 [!DNL Platform Server] 以在將資料寫入輸出資料流後傳送回應。 </p> </td> 
+   <td> <p>將資料寫入輸出資料流後，[!DNL Platform Server]傳送回應所需的時間。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{Size}r </span> </p> </td> 
-   <td> <p>按讚 <span class="codeph"> %B </span>，但包含304 （未修改）回應的值。 </p> </td> 
+   <td> <p>類似<span class="codeph"> %B </span>，但包含304 （未修改）回應的值。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{TransformedUrl}r </span> </p> </td> 
    <td> <p>所有規則集轉換後的最終URL。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{ <span class="varname"> Httrequestheader </span>}i </span> </p> </td> 
+   <td> <p> <span class="codeph"> %{ <span class="varname"> httpRequestHeader </span>}i </span> </p> </td> 
    <td> <p>指定HTTP要求標頭的值。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{ <span class="varname"> Httpresponseheader </span>} </span> </p> </td> 
+   <td> <p> <span class="codeph"> %{ <span class="varname"> httpResponseHeader </span>} </span> </p> </td> 
    <td> <p>指定的HTTP回應標頭的值。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-預設為 `"%G %a %s %{ProcessingStatus}r %{Size}r %D %{ParseTime}r %{FetchTime}r %O %{ReqType}r '%{RootId}r' %{CacheUse}r %R [%I] '%{Referer}i' %{Host}i %{X-Forwarded-For}i %{If-None-Match}i %{If-Match}i %{If-Modified-Since}i %{Digest}r %{ContentType}r %p %{Exception}r %{CacheKey}r %{PeerServer}" %{SendTime}r %{Context}r %{TransformedUrl}r %{PathBasedAccess}r.`
+預設為`"%G %a %s %{ProcessingStatus}r %{Size}r %D %{ParseTime}r %{FetchTime}r %O %{ReqType}r '%{RootId}r' %{CacheUse}r %R [%I] '%{Referer}i' %{Host}i %{X-Forwarded-For}i %{If-None-Match}i %{If-Match}i %{If-Modified-Since}i %{Digest}r %{ContentType}r %p %{Exception}r %{CacheKey}r %{PeerServer}" %{SendTime}r %{Context}r %{TransformedUrl}r %{PathBasedAccess}r.`

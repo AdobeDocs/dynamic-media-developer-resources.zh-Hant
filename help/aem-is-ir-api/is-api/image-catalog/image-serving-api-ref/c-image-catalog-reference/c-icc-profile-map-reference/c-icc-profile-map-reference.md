@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # ICC設定檔對應參考{#icc-profile-map-reference}
 
-如果影像目錄需要ICC設定檔對映，則必須在屬性：：IccProfileMapFile中指定設定檔對映檔案的相對或絕對路徑。
+如果影像目錄需要ICC設定檔對應，則必須在屬性：：IccProfileMapFile中指定設定檔對應檔案的相對或絕對路徑。
 
 特定影像目錄的ICC設定檔對應中的專案，會覆寫預設目錄的ICC設定檔對應中的專案。
 

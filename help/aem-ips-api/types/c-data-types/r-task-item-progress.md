@@ -25,4 +25,4 @@ ht-degree: 18%
 | itemName | `xsd:string` | 正在處理的專案名稱。 |
 | progress | `xsd:double` | 進度完成%。 |
 | progressMessage | `xsd:string` | 處理訊息。 |
-| lastProgressUpdate | `xsd:dateTime` | 上次更新時間。 |
+| lastProgress更新日期 | `xsd:dateTime` | 上次更新時間。 |

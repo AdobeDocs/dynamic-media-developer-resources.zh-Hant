@@ -8,7 +8,7 @@ exl-id: 43144c75-1d83-4e1d-8319-c3275d349a2f
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '76'
-ht-degree: 15%
+ht-degree: 13%
 
 ---
 
@@ -40,9 +40,9 @@ IPS API未傳回此作業的回應。
 
 ## 範例 {#section-862c0cc32ce0407ab248028e690a8386}
 
-此程式碼範例會將使用者新增至公司。 如有需要，在公司處理陣列中指定多個公司。
+此程式碼範例將使用者新增至公司。 如有必要，在公司控制代碼陣列中指定多個公司。
 
-**請求**
+**要求**
 
 ```java
 <ns1:setCompanyMembershipParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">
@@ -53,6 +53,6 @@ IPS API未傳回此作業的回應。
 </ns1:setCompanyMembershipParam>
 ```
 
-**回答**
+**回應**
 
 無。

@@ -8,7 +8,7 @@ exl-id: 3b63da9c-f10a-40bf-8e3c-4f0bfc53d74c
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 19%
+ht-degree: 12%
 
 ---
 
@@ -50,21 +50,21 @@ ht-degree: 19%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd：string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
    <td colname="col4"> <p>公司控制代碼。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> accessUserHandle</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd：string</span> </p> </td> 
    <td colname="col3"> <p>否 </p> </td> 
    <td colname="col4"> <p>模擬特定使用者。 僅供管理員使用。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> accessGroupHandle</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd：string</span> </p> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>依群組篩選. </p> </td> 
+   <td colname="col4"> <p>依群組篩選。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </p> </td> 
@@ -74,13 +74,13 @@ ht-degree: 19%
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> 型別：StringArray</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph">型別：StringArray</span> </p> </td> 
    <td colname="col3"> <p>否 </p> </td> 
    <td colname="col4"> <p>回應中包含的欄位和子欄位。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> excludeFieldArray</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> 型別：StringArray</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph">型別：StringArray</span> </p> </td> 
    <td colname="col3"> <p> </p> </td> 
    <td colname="col4"> <p>從回應中排除的欄位和子欄位。 </p> </td> 
   </tr> 
@@ -100,8 +100,8 @@ ht-degree: 19%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetArray</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> 型別：AssetArray</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname">資產陣列</span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph">型別：AssetArray</span> </p> </td> 
    <td colname="col3"> <p>否 </p> </td> 
    <td colname="col4"> <p>符合篩選條件的資產陣列。 </p> </td> 
   </tr> 

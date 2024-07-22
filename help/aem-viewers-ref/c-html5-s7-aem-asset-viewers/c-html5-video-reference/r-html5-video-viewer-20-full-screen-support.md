@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 049aca51-64ae-4244-be2b-78fb1cf84ebb
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
@@ -20,4 +20,4 @@ ht-degree: 0%
 
 在iOS裝置和舊版Internet Explorer瀏覽器上，檢視器會改用「模擬」全熒幕模式。 在此模式中，檢視器只需要調整大小即可完整顯示網頁瀏覽器視窗。 此外，熒幕上仍可看見網頁瀏覽器使用者介面和其他視窗。
 
-一般使用者按一下檢視器使用者介面中的全熒幕按鈕，進入和離開全熒幕模式。 當桌上型電腦使用「原生」全熒幕模式時，您也可以按下「 」以結束 **Esc**.
+一般使用者按一下檢視器使用者介面中的全熒幕按鈕，進入和離開全熒幕模式。 在案頭上使用「原生」全熒幕模式時，也可以按&#x200B;**Esc**&#x200B;結束。

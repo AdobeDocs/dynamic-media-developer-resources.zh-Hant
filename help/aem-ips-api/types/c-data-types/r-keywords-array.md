@@ -1,7 +1,7 @@
 ---
 description: 關鍵字陣列。
 solution: Experience Manager
-title: KeywordsArray
+title: 關鍵字陣列
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: ec87de9e-f3d0-404e-b16f-4c5d373e5a6f

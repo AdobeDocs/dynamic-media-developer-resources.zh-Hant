@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 35486f3f-f0aa-4b69-a1d2-4bc6b5e41c43
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
@@ -19,14 +19,14 @@ ht-degree: 0%
 <table id="table_0AE363AB76304F258A19E43500FE8423"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b>說明/預設位置/設定方式</b> </th> 
+   <th class="entry"> <b>描述/預設位置/設定為</b> </th> 
    <th class="entry"> <b>計算/建議</b> </th> 
-   <th class="entry"> <b>備註</b> </th> 
+   <th class="entry"> <b>個註解</b> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td> <p><b>來源影像、字型、ICC設定檔</b> </p> <p> <span class="filepath"> <span class="varname"> install_folder </span>/images </span> <span class="codeph"></span> </p> <p> <span class="codeph"> IS：：RootPaths </span> </p> </td> 
+   <td> <p><b>Source影像、字型、ICC設定檔</b> </p> <p> <span class="filepath"> <span class="varname"> install_folder </span>/影像</span> <span class="codeph"></span> </p> <p> <span class="codeph"> IS：：RootPaths </span> </p> </td> 
    <td> <p>視情況而異；請參閱下方的註解。 </p> </td> 
    <td> <p>只能由影像伺服器存取；伺服器絕不修改資料。 </p> </td> 
   </tr> 
@@ -36,12 +36,12 @@ ht-degree: 0%
    <td> <p>此快取也會儲存巢狀/內嵌資料及外部來源影像。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>影像目錄資料快取</b> </p> <p> <span class="filepath"> <span class="varname"> install_folder </span>/cache/catalog </span> </p> <p> <span class="codeph"> CS：：CatalogCacheFolder </span> </p> </td> 
+   <td> <p><b>影像目錄資料快取</b> </p> <p> <span class="filepath"> <span class="varname">安裝資料夾</span>/快取/目錄</span> </p> <p> <span class="codeph"> CS：：CatalogCacheFolder </span> </p> </td> 
    <td> <p>允許目錄資料夾使用1.5倍的空間。 </p> </td> 
    <td> <p>最初載入目錄時填入。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>記錄資料</b> </p> <p> <span class="filepath"> <span class="varname"> install_folder </span>/logs </span> </p> <p> <span class="codeph"> PS：：LogFolder </span> </p> <p> <span class="codeph"> IS：：LogFile </span> </p> <p> <span class="codeph"> SV：：LogFile </span> </p> </td> 
+   <td> <p><b>記錄資料</b> </p> <p> <span class="filepath"> <span class="varname"> install_folder </span>/記錄檔</span> </p> <p> <span class="codeph"> PS：：LogFolder </span> </p> <p> <span class="codeph"> IS：：LogFile </span> </p> <p> <span class="codeph"> SV：：LogFile </span> </p> </td> 
    <td> <p>100 MB或更多。 </p> </td> 
    <td> <p>它依記錄設定和伺服器使用而有所不同。 </p> </td> 
   </tr> 
@@ -59,11 +59,11 @@ Adobe建議您使用「影像轉換器」命令列工具(IC)，將所有來源�
 
 使用PTIFF檔案時，下列經驗法則可協助您判斷空間需求。
 
-*`total_space`* （位元組） = *`number_of_images`*  × (2000 + *`avg_pixel_count`* x *`avg_num_components`*  ×  *`p_factor`*)
+*`total_space`* （位元組） = *`number_of_images`* × (2000 + *`avg_pixel_count`* x *`avg_num_components`* × *`p_factor`*)
 
-* *`avg_pixel_count`* 所有原始來源影像的平均畫素大小（寬度x高度）。 例如，如果原始影像通常約為2k×2k畫素，則為4百萬畫素。
-* *`avg_num_components`* 視影像型別而定。 若大部分是RGB影像，則為3；若大部分是CMYK或RGBA影像，則為4。 如果一半的影像是RGB，另一半是RGBA，請使用3.5。
-* *`p_factor`* 視使用IC轉換影像時的壓縮型別和品質設定而定。
+* *`avg_pixel_count`*&#x200B;所有原始來源影像的平均畫素大小（寬度x高度）。 例如，如果原始影像通常約為2k×2k畫素，則為4百萬畫素。
+* *`avg_num_components`*&#x200B;取決於影像型別。 若大部分是RGB影像，則為3；若大部分是CMYK或RGBA影像，則為4。 如果一半的影像是RGB，另一半是RGBA，請使用3.5。
+* *`p_factor`*&#x200B;取決於使用IC轉換影像時設定的壓縮型別和品質。
 
 <table id="table_89995BECF30243569954819D07DA2A2F"> 
  <thead> 
@@ -96,6 +96,6 @@ Adobe建議您使用「影像轉換器」命令列工具(IC)，將所有來源�
 
 「影像伺服」部署預期會使用30,000個低解析度的舊版影像，平均大小為500×500RGB畫素。 新的列印品質影像資料每年新增10,000份。 一般的CMYK影像大小為4k×6k位元組。 所有資料都以高品質進行JPEG壓縮。 使用三年後的磁碟空間總量估計如下：
 
-*`total_space`* = 30,000 × (2k + 0.5k × 0.5k × 3 × 0.1) + 3 × 10,000 × (2k + 4k × 6k × 4 × 0.1) = 2.2 G + 268 GB =約270 GB
+*`total_space`* = 30,000 × (2k + 0.5k × 0.5k × 3 × 0.1) + 3 × 10,000 × (2k + 4k × 6k × 4 × 0.1) = 2.2G + 268GB =約270GB
 
-為確保最佳品質，可採用zip等壓縮。 假設 *`p_factor`* 當為0.4時，所需的磁碟空間總量大約是四倍大。 在此案例中，會略多於1 TB。
+為確保最佳品質，可採用zip等壓縮。 假設&#x200B;*`p_factor`*&#x200B;為0.4，所需的磁碟空間總計大約是四倍。 在此案例中，會略多於1 TB。

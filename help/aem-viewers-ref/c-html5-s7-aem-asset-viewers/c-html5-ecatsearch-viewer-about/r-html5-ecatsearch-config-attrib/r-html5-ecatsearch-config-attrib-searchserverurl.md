@@ -20,7 +20,7 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> searchServerUrl</span> </span> </p> </td> 
-   <td colname="col2"> <p> 搜尋服務根路徑。 如果未指定網域，則會使用提供檢視器的網域。 </p> </td> 
+   <td colname="col2"> <p> 搜尋服務根路徑。 如果未指定網域，則會使用為檢視器提供服務的網域。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

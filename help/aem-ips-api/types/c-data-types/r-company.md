@@ -8,7 +8,7 @@ exl-id: e831a081-145a-4fb4-a617-7eecea8d40ed
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '29'
-ht-degree: 27%
+ht-degree: 20%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 27%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| companyHandle | `xsd:string` | 公司控點。 |
-| [!DNL name] | `xsd:string` | 公司名稱. |
-| rootPath | `xsd:string` | 公司的根路徑。 |
+| companyHandle | `xsd:string` | 公司控制代碼。 |
+| [!DNL name] | `xsd:string` | 公司名稱。 |
+| 根路徑 | `xsd:string` | 公司的根路徑。 |
 | [!DNL expires] | `xsd:dateTime` | 公司到期的日期和時間。 |

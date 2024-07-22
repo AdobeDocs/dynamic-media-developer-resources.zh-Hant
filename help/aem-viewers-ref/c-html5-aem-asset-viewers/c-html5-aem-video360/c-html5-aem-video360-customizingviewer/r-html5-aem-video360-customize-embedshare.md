@@ -24,38 +24,38 @@ ht-degree: 0%
 .s7video360viewer .s7embedshare
 ```
 
-**內嵌共用工具的CSS屬性**
+內嵌共用工具的&#x200B;**CSS屬性**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">寬度</span> </p> </td> 
    <td colname="col2"> <p>按鈕寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">高度</span> </p> </td> 
    <td colname="col2"> <p>按鈕高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景影像</span> </p> </td> 
    <td colname="col2"> <p> 針對指定按鈕狀態顯示的影像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> 若使用CSS拼寫，則定位在圖稿sprite內。 </p> <p>另請參閱 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景位置</span> </p> </td> 
+   <td colname="col2"> <p> 若使用CSS拼寫，則定位在圖稿sprite內。 </p> <p>另請參閱<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按鈕支援 `state` 屬性選取器，可將不同的外觀元素套用至不同的按鈕狀態。
+>此按鈕支援`state`屬性選取器，可用來將不同的外觀元素套用至不同的按鈕狀態。
 
-您可以設定，從「社交」共用面板移除按鈕 `display:none` 其CSS類別上的CSS屬性。
+您可以在其CSS類別上設定`display:none` CSS屬性，以從Social共用面板移除按鈕。
 
-按鈕工具提示可以本地化。 另請參閱 [使用者介面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) 以取得詳細資訊。
+按鈕工具提示可以本地化。 如需詳細資訊，請參閱[使用者介面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)。
 
-**範例**  — 設定28 x 28畫素的內嵌共用按鈕，並針對四種不同按鈕狀態分別顯示不同影像：
+**範例** — 若要設定28 x 28畫素的內嵌共用按鈕，並針對四種不同按鈕狀態分別顯示不同的影像：
 
 ```
 .s7video360viewer .s7embedshare { 
@@ -82,22 +82,22 @@ background-image:url(images/v2/EmbedShare_dark_disabled.png);
 .s7video360viewer .s7embeddialog .s7backoverlay
 ```
 
-**背景覆蓋的CSS屬性**
+背景覆蓋的&#x200B;**CSS屬性**
 
 <table id="table_DB4183CE8061425084D495A355A941F8"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 不透明度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">不透明度</span> </p> </td> 
    <td colname="col2"> <p>背景覆蓋不透明度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色彩</span> </p> </td> 
    <td colname="col2"> <p>背景覆蓋顏色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**範例**  — 若要將背景覆蓋設定為具有70%不透明度的灰色：
+**範例** — 若要將背景覆蓋設為具有70%不透明度的灰色：
 
 ```
 .s7video360viewer .s7embeddialog .s7backoverlay { 
@@ -112,30 +112,30 @@ background-image:url(images/v2/EmbedShare_dark_disabled.png);
 .s7video360viewer .s7embeddialog .s7dialog
 ```
 
-**對話方塊的CSS屬性**
+對話方塊的&#x200B;**CSS屬性**
 
 <table id="table_E31711ADF4C7446182549244362199A3"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">邊框半徑</span> </p> </td> 
    <td colname="col2"> <p> 對話方塊邊框半徑（如果對話方塊未取用整個瀏覽器）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色彩</span> </p> </td> 
    <td colname="col2"> <p>對話方塊背景顏色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">寬度</span> </p> </td> 
    <td colname="col2"> <p>應取消設定或設為100%，此時對話方塊會取用整個瀏覽器視窗（觸控裝置偏好此模式）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">高度</span> </p> </td> 
    <td colname="col2"> <p>應取消設定或設為100%，此時對話方塊會取用整個瀏覽器視窗（觸控裝置偏好此模式）。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**範例**  — 若要設定對話方塊以使用整個瀏覽器視窗並在觸控裝置上擁有白色背景：
+**範例** — 若要設定對話方塊以使用整個瀏覽器視窗並在觸控裝置上擁有白色背景：
 
 ```
 .s7video360viewer .s7touchinput .s7embeddialog .s7dialog { 
@@ -151,12 +151,12 @@ background-color: #ffffff;
 .s7video360viewer .s7embeddialog .s7dialogheader
 ```
 
-**對話方塊標頭的CSS屬性**
+對話方塊標頭的&#x200B;**CSS屬性**
 
 <table id="table_E407E844C9BD4B5DA8B5BBDE0554F9CA"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 內距 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">內距</span> </p> </td> 
    <td colname="col2"> <p> 標頭內容的內部內距。 </p> </td> 
   </tr> 
  </tbody> 
@@ -168,12 +168,12 @@ background-color: #ffffff;
 .s7video360viewer .s7embeddialog .s7dialogheader .s7dialogline
 ```
 
-**對話方塊行的CSS屬性**
+對話方塊行&#x200B;**的** CSS屬性
 
 <table id="table_5B03CF843F0D4B1295A3FC1EB50C56F1"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 內距 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">內距</span> </p> </td> 
    <td colname="col2"> <p> 頁首圖示和標題的內部邊框間距 </p> </td> 
   </tr> 
  </tbody> 
@@ -190,20 +190,20 @@ background-color: #ffffff;
 <table id="table_DD4B0413721B49CE8E21B4A55BDE8F7D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">寬度</span> </p> </td> 
    <td colname="col2"> <p>圖示寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">高度</span> </p> </td> 
    <td colname="col2"> <p>圖示高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景影像</span> </p> </td> 
    <td colname="col2"> <p>圖示影像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> 若使用CSS拼寫，則定位在圖稿sprite內。 </p> <p>另請參閱 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景位置</span> </p> </td> 
+   <td colname="col2"> <p> 若使用CSS拼寫，則定位在圖稿sprite內。 </p> <p>另請參閱<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -219,19 +219,19 @@ background-color: #ffffff;
 <table id="table_207B4B13153E425EAB38FC61F382A05F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">字型粗細</span> </p> </td> 
    <td colname="col2"> <p>字型粗細。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">字型大小</span> </p> </td> 
    <td colname="col2"> <p>字型高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">字型系列</span> </p> </td> 
    <td colname="col2"> <p>字型系列。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 內距 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">內距</span> </p> </td> 
    <td colname="col2"> <p>內部文字內距。 </p> </td> 
   </tr> 
  </tbody> 
@@ -248,43 +248,43 @@ background-color: #ffffff;
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">前</span> </p> </td> 
    <td colname="col2"> <p> 相對於頁首容器的垂直按鈕位置。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 右 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">右</span> </p> </td> 
    <td colname="col2"> <p> 相對於頁首容器的水準按鈕位置。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">寬度</span> </p> </td> 
    <td colname="col2"> <p>按鈕寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">高度</span> </p> </td> 
    <td colname="col2"> <p>按鈕高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 內距 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">內距</span> </p> </td> 
    <td colname="col2"> <p>按鈕的內部內距。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景影像</span> </p> </td> 
    <td colname="col2"> <p>每個狀態的按鈕影像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> 若使用CSS拼寫，則定位在圖稿sprite內。 </p> <p>另請參閱 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景位置</span> </p> </td> 
+   <td colname="col2"> <p> 若使用CSS拼寫，則定位在圖稿sprite內。 </p> <p>另請參閱<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按鈕支援 `state` 屬性選取器，可將不同的外觀元素套用至不同的按鈕狀態。
+>此按鈕支援`state`屬性選取器，可用來將不同的外觀元素套用至不同的按鈕狀態。
 
-按鈕工具提示可以本地化。 另請參閱 [使用者介面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) 以取得詳細資訊。
+按鈕工具提示可以本地化。 如需詳細資訊，請參閱[使用者介面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)。
 
-**範例**  — 若要設定含邊框間距的對話方塊標題，請以24 x 14畫素圖示及粗體16點標題顯示。 最後，還有28 x 28畫素的「關閉」按鈕，從上方放置兩個畫素，從對話方塊容器右側放置兩個畫素：
+**範例** — 若要設定包含邊框間距的對話方塊標題，請以24 x 14畫素圖示加上粗體、16點標題來設定。 最後，還有28 x 28畫素的「關閉」按鈕，從上方放置兩個畫素，從對話方塊容器右側放置兩個畫素：
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogheader { 
@@ -335,7 +335,7 @@ background-color: #ffffff;
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 邊框 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">邊框</span> </p> </td> 
    <td colname="col2"> <p> 可用來視覺化區分頁尾與對話方塊其餘部分的框線。 </p> </td> 
   </tr> 
  </tbody> 
@@ -352,7 +352,7 @@ background-color: #ffffff;
 <table id="table_C34906888A8145C7A61E503DFC6B08A9"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 內距 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">內距</span> </p> </td> 
    <td colname="col2"> <p> 頁尾與按鈕之間的內邊距。 </p> </td> 
   </tr> 
  </tbody> 
@@ -366,24 +366,24 @@ background-color: #ffffff;
 
 此按鈕僅在桌上型電腦系統上可用。
 
-**全選按鈕的CSS屬性**
+[全選]按鈕的&#x200B;**CSS屬性**
 
 <table id="table_021D0467632F49FEBFDF4CF96D2D67C7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">寬度</span> </p> </td> 
    <td colname="col2"> <p>按鈕寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">高度</span> </p> </td> 
    <td colname="col2"> <p>按鈕高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 顏色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">色彩</span> </p> </td> 
    <td colname="col2"> <p> 每個狀態的按鈕文字顏色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色彩</span> </p> </td> 
    <td colname="col2"> <p> 每個狀態的按鈕背景顏色。 </p> </td> 
   </tr> 
  </tbody> 
@@ -391,7 +391,7 @@ background-color: #ffffff;
 
 >[!NOTE]
 >
->全選按鈕支援 `state` 屬性選取器，可將不同的外觀元素套用至不同的按鈕狀態。
+>全選按鈕支援`state`屬性選取器，可用來將不同的外觀元素套用至不同的按鈕狀態。
 
 使用下列CSS類別選取器來控制「取消」按鈕：
 
@@ -399,24 +399,24 @@ background-color: #ffffff;
 .s7video360viewer .s7embeddialog .s7dialogcancelbutton
 ```
 
-**對話方塊取消按鈕的CSS屬性**
+對話方塊取消按鈕的&#x200B;**CSS屬性**
 
 <table id="table_3DFA90B012F345A3A2A123D6856BE08A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">寬度</span> </p> </td> 
    <td colname="col2"> <p>按鈕寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">高度</span> </p> </td> 
    <td colname="col2"> <p>按鈕高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 顏色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">色彩</span> </p> </td> 
    <td colname="col2"> <p> 每個狀態的按鈕文字顏色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色彩</span> </p> </td> 
    <td colname="col2"> <p> 每個狀態的按鈕背景顏色。 </p> </td> 
   </tr> 
  </tbody> 
@@ -424,7 +424,7 @@ background-color: #ffffff;
 
 >[!NOTE]
 >
->此按鈕支援 `state` 屬性選取器，可將不同的外觀元素套用至不同的按鈕狀態。
+>此按鈕支援`state`屬性選取器，可用來將不同的外觀元素套用至不同的按鈕狀態。
 
 此外，這兩個按鈕共用共用的CSS類別可包含與其他對話方塊按鈕相同的CSS設定：
 
@@ -432,40 +432,40 @@ background-color: #ffffff;
 .s7video360viewer .s7embeddialog .s7dialogfooter .s7button
 ```
 
-**按鈕的CSS屬性**
+按鈕&#x200B;**的** CSS屬性
 
 <table id="table_E735E5EDFC1E4F8A962CEA533A88DD4E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">字型粗細</span> </p> </td> 
    <td colname="col2"> <p>按鈕字型粗細。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">字型大小</span> </p> </td> 
    <td colname="col2"> <p>按鈕字型大小。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">字型系列</span> </p> </td> 
    <td colname="col2"> <p>按鈕字型系列。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> line-height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">行高</span> </p> </td> 
    <td colname="col2"> <p> 按鈕內的文字高度。 影響垂直對齊。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 方塊陰影 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">方塊陰影</span> </p> </td> 
    <td colname="col2"> <p>陰影。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 右邊界 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">右邊界</span> </p> </td> 
    <td colname="col2"> <p>右側按鈕邊界。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-按鈕工具提示可以本地化。 另請參閱 [使用者介面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) 以取得詳細資訊。
+按鈕工具提示可以本地化。 如需詳細資訊，請參閱[使用者介面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)。
 
-**範例**  — 使用64 x 34取消按鈕設定對話方塊頁尾，每個按鈕狀態的文字顏色和背景顏色不同：
+**範例** — 使用64 x 34取消按鈕設定對話方塊頁尾，每個按鈕狀態的文字顏色和背景顏色不同：
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogfooter { 
@@ -536,21 +536,21 @@ background-color: #ffffff;
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">高度</span> </p> </td> 
    <td colname="col2"> <p> 主要對話方塊區域的高度。 只有在對話方塊在案頭模式中運作時，才應指定它。 當對話方塊的大小設定為佔據整個瀏覽器視窗時，此選項不適用。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色彩</span> </p> </td> 
    <td colname="col2"> <p>主要對話方塊區域的背景顏色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 利潤 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">利潤</span> </p> </td> 
    <td colname="col2"> <p>外部邊界。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**範例**  — 若要將主要對話方塊區域設定為300畫素高度、有10畫素邊界，並使用白色背景：
+**範例** — 若要將主要對話方塊區域設定為300畫素高度、有10畫素邊界，並使用白色背景：
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogviewarea { 
@@ -573,13 +573,13 @@ background-color: #ffffff;
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 內距 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">內距</span> </p> </td> 
    <td colname="col2"> <p>內邊距。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**範例**  — 若要將表單內容設定為有十個畫素的內距：
+**範例** — 若要將表單內容設定為有10個畫素的內距：
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogbody { 
@@ -600,27 +600,27 @@ background-color: #ffffff;
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">字型粗細</span> </p> </td> 
    <td colname="col2"> <p>標簽字型粗細。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">字型大小</span> </p> </td> 
    <td colname="col2"> <p>標簽字型大小。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">字型系列</span> </p> </td> 
    <td colname="col2"> <p>標簽字型系列。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 顏色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">色彩</span> </p> </td> 
    <td colname="col2"> <p>標籤文字顏色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-對話方塊標籤可以本地化。 另請參閱 [使用者介面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) 以取得詳細資訊。
+對話方塊標籤可以本地化。 如需詳細資訊，請參閱[使用者介面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)。
 
-**範例**  — 將所有標籤設定為灰色、粗體加九畫素字型：
+**範例** — 將所有標籤設定為灰色、粗體加九畫素字型：
 
 ```
 .s7video360viewer .s7embeddialog .s7dialoglabel { 
@@ -636,22 +636,22 @@ background-color: #ffffff;
 .s7video360viewer .s7embeddialog .s7dialoginputwide
 ```
 
-**對話方塊輸入範圍欄位的CSS屬性**
+對話方塊輸入範圍欄位&#x200B;**的** CSS屬性
 
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">寬度</span> </p> </td> 
    <td colname="col2"> <p>輸入欄位寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 內距 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">內距</span> </p> </td> 
    <td colname="col2"> <p>內邊距。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**範例**  — 若要將文字複製設定為430畫素寬，並在底部有10個畫素的內距：
+**範例** — 若要將文字復本設定為430畫素寬，並在底部有10個畫素的內距：
 
 ```
 .s7video360viewer .s7embeddialog .s7dialoginputwide { 
@@ -666,26 +666,26 @@ background-color: #ffffff;
 .s7video360viewer .s7embeddialog .s7dialoginputcontainer
 ```
 
-**對話方塊輸入容器的CSS屬性**
+對話方塊輸入容器的&#x200B;**CSS屬性**
 
 <table id="table_7BC1C5919A54483F8121D928DC63233A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">寬度</span> </p> </td> 
    <td colname="col2"> <p>內嵌程式碼容器的寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 邊框 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">邊框</span> </p> </td> 
    <td colname="col2"> <p>內嵌程式碼容器周圍的邊框。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 內距 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">內距</span> </p> </td> 
    <td colname="col2"> <p>內邊距。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**範例**  — 若要在內嵌程式碼文字周圍設定一畫素灰色邊框，請使其寬度為430畫素，並有10畫素邊框間距：
+**範例** — 若要在內嵌程式碼文字周圍設定一畫素灰色邊框，請使其寬度為430畫素，並有10畫素邊框間距：
 
 ```
 .s7video360viewer .s7embeddialog .s7dialoginputcontainer { 
@@ -701,18 +701,18 @@ background-color: #ffffff;
 .s7video360viewer .s7embeddialog .s7dialoginputcontainer
 ```
 
-**對話方塊輸入容器的CSS屬性**
+對話方塊輸入容器的&#x200B;**CSS屬性**
 
 <table id="table_FEEF66150C69489BB42A2408EBFCE928"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 自動換行 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">自動換行</span> </p> </td> 
    <td colname="col2"> <p>文字環繞樣式。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**範例**  — 設定要使用的內嵌程式碼 `break-word` 文字繞排：
+**範例** — 若要設定內嵌程式碼以使用`break-word`自動換行：
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogmessage { 
@@ -726,18 +726,18 @@ background-color: #ffffff;
 .s7video360viewer .s7embeddialog .s7dialogembedsizepanel
 ```
 
-**對話方塊內嵌大小面板的CSS屬性**
+對話方塊內嵌大小面板的&#x200B;**CSS屬性**
 
 <table id="table_6BA2769361BA4EC4AB7D250EC9486CB2"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 內距 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">內距</span> </p> </td> 
    <td colname="col2"> <p>內邊距。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**範例**  — 若要設定內嵌大小面板，使其有十個畫素的內距：
+**範例** — 若要設定內嵌大小面板，使其有10個畫素的內距：
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogembedsizepanel { 
@@ -751,22 +751,22 @@ background-color: #ffffff;
 .s7video360viewer .s7embeddialog .s7dialogembedsizepanel
 ```
 
-**對話方塊內嵌大小面板的CSS屬性**
+對話方塊內嵌大小面板的&#x200B;**CSS屬性**
 
 <table id="table_8E50C63C9B1349999251CDB5E5AD3D1D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vertical-align </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">垂直對齊</span> </p> </td> 
    <td colname="col2"> <p>垂直標籤對齊方式。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">寬度</span> </p> </td> 
    <td colname="col2"> <p>標籤寬度。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**範例**  — 若要將內嵌大小標籤設定為靠上對齊和80畫素寬：
+**範例** — 若要將內嵌大小標籤設定為靠上對齊且80畫素寬：
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogembedsizelabel { 
@@ -781,12 +781,12 @@ background-color: #ffffff;
 .s7video360viewer .s7embeddialog .s7combobox
 ```
 
-**下拉式方塊的CSS屬性**
+組合方塊的&#x200B;**CSS屬性**
 
 <table id="table_C0FEA0C7353F40039204641BB3F1AE14"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">寬度</span> </p> </td> 
    <td colname="col2"> <p>下拉式方塊寬度。 </p> </td> 
   </tr> 
  </tbody> 
@@ -794,9 +794,9 @@ background-color: #ffffff;
 
 >[!NOTE]
 >
->下拉式方塊支援 `expanded` 屬性選擇器，可能的值為 `true` 和 `false`. 此 `true` 當下拉式方塊顯示預先定義的內嵌大小之一時使用，因此應採用所有可用寬度。 此 `false` 在下拉式方塊中選取「自訂大小」選項時，就會使用值，因此應縮小以留出空間給自訂寬度和高度輸入欄位。
+>下拉式方塊支援`expanded`屬性選擇器，可能的值為`true`和`false`。 當下拉式方塊顯示預先定義的其中一個內嵌大小時使用`true`值，因此應採用所有可用的寬度。 在下拉式方塊中選取自訂大小選項時會使用`false`值，因此它應該縮小以留出空間給自訂寬度和高度輸入欄位。
 
-**範例**  — 設定內嵌大小下拉式方塊在顯示預先定義的專案時為300畫素寬，並在顯示自訂大小時為110畫素寬：
+**範例** — 設定內嵌大小下拉式方塊在顯示預先定義的專案時為300畫素寬，並在顯示自訂大小時為110畫素寬：
 
 ```
 .s7video360viewer .s7embeddialog .s7combobox[expanded="true"] { 
@@ -813,18 +813,18 @@ background-color: #ffffff;
 .s7video360viewer .s7embeddialog .s7combobox .s7comboboxtext
 ```
 
-**下拉式方塊文字的CSS屬性**
+組合方塊文字的&#x200B;**CSS屬性**
 
 <table id="table_AB60032BF337433F8455DE20AFBA29AB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">高度</span> </p> </td> 
    <td colname="col2"> <p>下拉式方塊文字高度。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**範例**  — 若要將內嵌大小下拉式方塊文字高度設定為40畫素：
+**範例** — 若要將內嵌大小下拉式方塊文字高度設定為40畫素：
 
 ```
 .s7video360viewer .s7embeddialog .s7combobox .s7comboboxtext { 
@@ -838,42 +838,42 @@ background-color: #ffffff;
 .s7video360viewer .s7embeddialog .s7combobox .s7comboboxbutton
 ```
 
-**下拉式方塊按鈕的CSS屬性**
+組合方塊按鈕的&#x200B;**CSS屬性**
 
 <table id="table_70E127FA21264366AD5DBBD7DF40EBAA"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">前</span> </p> </td> 
    <td colname="col2"> <p>下拉式方塊內的垂直按鈕位置。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 右 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">右</span> </p> </td> 
    <td colname="col2"> <p>水準按鈕在下拉式方塊中的位置。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">寬度</span> </p> </td> 
    <td colname="col2"> <p>按鈕寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">高度</span> </p> </td> 
    <td colname="col2"> <p>按鈕高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景影像</span> </p> </td> 
    <td colname="col2"> <p>每個狀態的按鈕影像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> 若使用CSS拼寫，則定位在圖稿sprite內。 </p> <p>另請參閱 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景位置</span> </p> </td> 
+   <td colname="col2"> <p> 若使用CSS拼寫，則定位在圖稿sprite內。 </p> <p>另請參閱<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按鈕支援 `state` 屬性選取器，可將不同的外觀元素套用至不同的按鈕狀態。
+>此按鈕支援`state`屬性選取器，可用來將不同的外觀元素套用至不同的按鈕狀態。
 
-**範例**  — 若要將下拉式按鈕設為28 x 28畫素，並為每種狀態設定個別的影像：
+**範例** — 若要將下拉式按鈕設為28 x 28畫素，並為每個狀態設定個別的影像：
 
 ```
 .s7video360viewer .s7embeddialog .s7combobox .s7comboboxbutton { 
@@ -902,18 +902,18 @@ background-color: #ffffff;
 
 面板的大小和位置由元件控制。 您不可透過CSS變更此設定。
 
-**下拉式方塊的CSS屬性**
+下拉式方塊的&#x200B;**CSS屬性**
 
 <table id="table_FA7345321C6A4E63B4B78ECF81CE18DB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 邊框 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">邊框</span> </p> </td> 
    <td colname="col2"> <p>面板邊框。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**範例**  — 若要將下拉式方塊面板設定為一個畫素灰色邊框：
+**範例** — 若要將下拉式方塊面板設定為一個畫素灰色邊框：
 
 ```
 .s7video360viewer .s7embeddialog .s7comboboxdropdown { 
@@ -927,18 +927,18 @@ background-color: #ffffff;
 .s7video360viewer .s7embeddialog .s7dropdownitemanchor
 ```
 
-**下拉式專案錨點的CSS屬性**
+下拉式專案錨點的&#x200B;**CSS屬性**
 
 <table id="table_FD42FDD56F89463A97FD292FAA04DA5A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色彩</span> </p> </td> 
    <td colname="col2"> <p>專案背景。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**範例**  — 若要將下拉式方塊面板專案設定為使用白色背景：
+**範例** — 若要將下拉式方塊面板專案設為白色背景：
 
 ```
 .s7video360viewer .s7embeddialog .s7dropdownitemanchor { 
@@ -952,30 +952,30 @@ background-color: #ffffff;
 .s7video360viewer .s7embeddialog .s7checkmark
 ```
 
-**核取方塊的CSS屬性**
+核取方塊的&#x200B;**CSS屬性**
 
 <table id="table_8E01F5461CD04AC18B2C3725A961476A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">寬度</span> </p> </td> 
    <td colname="col2"> <p>圖示寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">高度</span> </p> </td> 
    <td colname="col2"> <p>圖示高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景影像</span> </p> </td> 
    <td colname="col2"> <p>專案影像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> 若使用CSS拼寫，則定位在圖稿sprite內。 </p> <p>另請參閱 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景位置</span> </p> </td> 
+   <td colname="col2"> <p> 若使用CSS拼寫，則定位在圖稿sprite內。 </p> <p>另請參閱<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**範例**  — 若要將勾號圖示設定為25 x 25畫素：
+**範例** — 若要將勾號圖示設定為25 x 25畫素：
 
 ```
 .s7video360viewer .s7embeddialog .s7checkmark { 
@@ -991,18 +991,18 @@ background-color: #ffffff;
 .s7video360viewer .s7embeddialog .s7dialogcustomsizepanel
 ```
 
-**對話方塊自訂大小面板的CSS屬性**
+對話方塊自訂大小面板的&#x200B;**CSS屬性**
 
 <table id="table_B00829EA550F4E5E8F51B1C6ADACCD34"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 左側 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">已離開</span> </p> </td> 
    <td colname="col2"> <p> 與內嵌大小下拉式方塊的距離。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**範例**  — 若要將自訂大小輸入欄位面板設定為下拉式方塊右側的20畫素：
+**範例** — 若要將自訂大小輸入欄位面板設定為下拉式方塊右側的20畫素：
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogcustomsizepanel { 
@@ -1016,30 +1016,30 @@ background-color: #ffffff;
 .s7video360viewer .s7embeddialog .s7dialogcustomsize
 ```
 
-**對話方塊自訂大小的CSS屬性**
+對話方塊自訂大小的&#x200B;**CSS屬性**
 
 <table id="table_A8A04BE1988641618D0A412B8AEEE1C5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 邊框 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">邊框</span> </p> </td> 
    <td colname="col2"> <p>輸入欄位周圍的邊框。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">寬度</span> </p> </td> 
    <td colname="col2"> <p> 輸入欄位寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 利潤 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">利潤</span> </p> </td> 
    <td colname="col2"> <p> 輸入欄位邊界。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 內距 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">內距</span> </p> </td> 
    <td colname="col2"> <p> 輸入欄位內距。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**範例**  — 若要設定自訂大小輸入欄位，使其有一個畫素灰色邊框、邊界、邊框間距，以及寬度為70畫素：
+**範例** — 若要將自訂大小輸入欄位設定為1畫素灰色邊框、邊界、邊框間距，以及70畫素寬：
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogcustomsize { 
@@ -1057,18 +1057,18 @@ background-color: #ffffff;
 .s7video360viewer .s7embeddialog .s7dialogscrollpanel
 ```
 
-**對話方塊捲動面板的CSS屬性**
+對話方塊捲動面板的&#x200B;**CSS屬性**
 
 <table id="table_BA37E577E0884C919383F84080E2DD28"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">寬度</span> </p> </td> 
    <td colname="col2"> <p>捲動面板寬度。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**範例**  — 將捲動面板設定為44畫素寬
+**範例** — 將捲動面板設定為44畫素寬
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogscrollpanel { 
@@ -1082,30 +1082,30 @@ background-color: #ffffff;
 .s7video360viewer .s7embeddialog .s7scrollbar
 ```
 
-**卷軸的CSS屬性**
+卷軸的&#x200B;**CSS屬性**
 
 <table id="table_066492417FCA43929017993D7326CDB8"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">寬度</span> </p> </td> 
    <td colname="col2"> <p>卷軸寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">前</span> </p> </td> 
    <td colname="col2"> <p> 垂直卷軸從捲動面板頂端位移。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">後</span> </p> </td> 
    <td colname="col2"> <p> 垂直卷軸從捲動面板底部位移。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 右 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">右</span> </p> </td> 
    <td colname="col2"> <p> 水準卷軸從捲動面板的右邊緣位移。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**範例**  — 若要設定寬度為28畫素的卷軸，且卷軸面板的上下各有8個畫素邊界：
+**範例** — 設定卷軸，其寬度為28畫素，且卷軸面板的上、右、下各有8畫素邊界：
 
 ```
 .s7video360viewer .s7embeddialog .s7scrollbar { 
@@ -1122,22 +1122,22 @@ background-color: #ffffff;
 .s7video360viewer .s7embeddialog .s7scrollbar .s7scrolltrack
 ```
 
-**卷軸軌跡的CSS屬性**
+卷軸軌跡的&#x200B;**CSS屬性**
 
 <table id="table_19CF5503C1D34ED9998D4F4A6DA7D5D5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">寬度</span> </p> </td> 
    <td colname="col2"> <p>追蹤寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色彩</span> </p> </td> 
    <td colname="col2"> <p> 追蹤背景顏色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**範例**  — 設定寬度為28畫素且背景為灰色的卷軸軌跡：
+**範例** — 若要設定寬度為28畫素且背景為灰色的卷軸軌跡：
 
 ```
 .s7video360viewer .s7embeddialog .s7scrollbar .s7scrolltrack { 
@@ -1152,42 +1152,42 @@ background-color: #B2B2B2;
 .s7video360viewer .s7embeddialog .s7scrollbar .s7scrollthumb
 ```
 
-**卷軸縮圖的CSS屬性**
+卷軸縮圖的&#x200B;**CSS屬性**
 
 <table id="table_90BC468FE138441C9DBAB1EB109F3DB0"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">寬度</span> </p> </td> 
    <td colname="col2"> <p>縮圖寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">高度</span> </p> </td> 
    <td colname="col2"> <p>縮圖高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 上內邊距 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">內距頂端</span> </p> </td> 
    <td colname="col2"> <p>軌道頂端之間的垂直邊框間距。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 下內邊距 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">內距底部</span> </p> </td> 
    <td colname="col2"> <p> 軌道底部之間的垂直邊框間距。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景影像</span> </p> </td> 
    <td colname="col2"> <p> 針對指定縮圖狀態顯示的影像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> 若使用CSS拼寫，則定位在圖稿sprite內。 </p> <p>另請參閱 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景位置</span> </p> </td> 
+   <td colname="col2"> <p> 若使用CSS拼寫，則定位在圖稿sprite內。 </p> <p>另請參閱<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->縮圖支援 `state` 屬性選取器，可將不同的外觀元素套用至不同的縮圖狀態： `up`， `down`， `over`、和 `disabled`.
+>Thumb支援`state`屬性選取器，可用來將不同的外觀元素套用至不同的縮圖狀態： `up`、`down`、`over`和`disabled`。
 
-**範例**  — 設定28 x 45畫素的卷軸縮圖，上下有10個畫素邊界，且每個狀態的圖稿都不同：
+**範例** — 設定卷軸縮圖，其大小為28 x 45畫素，上下有10畫素邊界，每個狀態都有不同的圖稿：
 
 ```
 .s7video360viewer .s7embeddialog .s7scrollbar .s7scrollthumb { 
@@ -1220,38 +1220,38 @@ background-color: #B2B2B2;
 .s7video360viewer .s7embeddialog .s7scrollbar .s7scrolldownbutton
 ```
 
-無法使用CSS來定位捲動按鈕 `top`， `left`， `bottom`、和 `right` 屬性。 相反地，檢視器邏輯會自動進行定位。
+無法使用CSS `top`、`left`、`bottom`和`right`屬性來定位捲動按鈕。 相反地，檢視器邏輯會自動進行定位。
 
-**頂端和底部捲動按鈕的CSS屬性**
+頂端和底部捲動按鈕的&#x200B;**CSS屬性**
 
 <table id="table_554BFCFEAF4F43A9AE5F741DC126F833"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 寬度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">寬度</span> </p> </td> 
    <td colname="col2"> <p>按鈕寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">高度</span> </p> </td> 
    <td colname="col2"> <p>按鈕高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景影像</span> </p> </td> 
    <td colname="col2"> <p> 針對指定按鈕狀態顯示的影像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> 若使用CSS拼寫，則定位在圖稿sprite內。 </p> <p>另請參閱 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景位置</span> </p> </td> 
+   <td colname="col2"> <p> 若使用CSS拼寫，則定位在圖稿sprite內。 </p> <p>另請參閱<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->這些按鈕支援 `state` 屬性選取器，可將不同的外觀元素套用至不同的按鈕狀態： `up`， `down`， `over`、和 `disabled`.
+>這些按鈕支援`state`屬性選取器，可用來將不同的外觀元素套用至不同的按鈕狀態： `up`、`down`、`over`和`disabled`。
 
-按鈕工具提示可本地化。 另請參閱 [使用者介面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) 以取得詳細資訊。
+按鈕工具提示可本地化。 如需詳細資訊，請參閱[使用者介面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)。
 
-**範例**  — 設定28 x 32畫素的捲動按鈕，每個狀態都有不同的圖稿：
+**範例** — 設定28 x 32畫素的捲動按鈕，每個狀態都有不同的圖稿：
 
 ```
 .s7video360viewer .s7embeddialog .s7scrollbar .s7scrollupbutton { 

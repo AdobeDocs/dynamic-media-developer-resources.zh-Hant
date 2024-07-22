@@ -1,6 +1,6 @@
 ---
 title: 銳利化
-description: 銳利化回覆影像。 根據wid=或hei=縮放演算後的影像後，可以套用選擇性銳利化。
+description: 銳利化回覆影像。 演算後的影像根據wid=或hei=進行縮放後，可套用選擇性銳利化。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -8,13 +8,13 @@ exl-id: 0c831ea7-fc64-484d-b3a4-4cb713b5d873
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
 source-wordcount: '51'
-ht-degree: 11%
+ht-degree: 9%
 
 ---
 
 # 銳利化{#sharpen}
 
-銳利化回覆影像。 根據wid=或hei=縮放演算後的影像後，可以套用選擇性銳利化。
+銳利化回覆影像。 演算後的影像根據wid=或hei=進行縮放後，可套用選擇性銳利化。
 
 `sharpen=0|1`
 
@@ -25,7 +25,7 @@ ht-degree: 11%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p></td> 
-  <td class="stentry"> <p>銳利化. </p></td> 
+  <td class="stentry"> <p>銳利化。 </p></td> 
  </tr> 
 </table>
 

@@ -8,7 +8,7 @@ exl-id: 80e7642f-4aec-4ff0-a090-e59b7a065c39
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '59'
-ht-degree: 20%
+ht-degree: 16%
 
 ---
 
@@ -44,16 +44,16 @@ ht-degree: 20%
 
 ## 範例 {#section-f580fefdccec46fe95359e3aef0ed17f}
 
-此程式碼範例會產生密碼。 此情況不常見，因為請求只是一個引數，沒有任何封閉的元素或值。 IPS會傳回強式密碼。
+此程式碼範例會產生密碼。 這很不尋常，因為要求只是引數，沒有任何包含的元素或值。 IPS會傳回強式密碼。
 
-**請求**
+**要求**
 
 ```java
 <generatePasswordParam xmlns="http://www.scene7.com/IpsApi/xsd">
 </generatePasswordParam>
 ```
 
-**回答**
+**回應**
 
 ```java
 <generatePasswordReturn xmlns="http://www.scene7.com/IpsApi/xsd">

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 2168d72a-1f2b-4833-9e6e-ba3d2ddb6d2b
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 6%
+source-wordcount: '68'
+ht-degree: 5%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 6%
 
 列印解析度。 全尺寸影像的列印解析度。
 
-此值內嵌於回覆影像標題中，除非覆寫為 `printRes=`.
+此值內嵌於回覆影像標題中，除非以`printRes=`覆寫。
 
 ## 屬性 {#section-de3c1f73da7b43208beeec841c1778c1}
 
@@ -24,7 +24,7 @@ ht-degree: 6%
 
 ## 預設 {#section-0cac992554ec4247ab05f70d9840a045}
 
-`attribute::PrintResolution` 如果欄位不存在、值是0或欄位為空，則會使用。
+如果欄位不存在、值為0或欄位為空，則會使用`attribute::PrintResolution`。
 
 ## 另請參閱 {#section-0593faefffe341c5ab8a4aa5da589a04}
 

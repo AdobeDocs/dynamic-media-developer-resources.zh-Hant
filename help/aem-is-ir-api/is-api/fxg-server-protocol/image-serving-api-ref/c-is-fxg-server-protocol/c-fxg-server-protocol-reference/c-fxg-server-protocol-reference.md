@@ -8,7 +8,7 @@ exl-id: a3b3d5d9-d7c9-44a6-97a5-8e3e2c4abef0
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '48'
-ht-degree: 8%
+ht-degree: 2%
 
 ---
 
@@ -31,6 +31,6 @@ ht-degree: 8%
 * [qlt](r-is-fxg-qlt.md)
 * [量化](r-is-fxg-quantize.md)
 * [需要](r-req-oversetstatus.md)
-* [scale](r-is-fxg-scale.md)
+* [縮放](r-is-fxg-scale.md)
 * [trimMargin](r-trimmargin.md)
 * [wid](r-is-fxg-wid.md)

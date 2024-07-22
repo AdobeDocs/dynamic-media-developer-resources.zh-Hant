@@ -1,26 +1,26 @@
 ---
 title: 連結區和影像地圖
-description: 在熱點最初是在AEM Assets的Dynamic Media中編寫的位置，檢視器會在主檢視上顯示熱點圖示（隨選）。
+description: 在熱點最初由AEM Assets的Dynamic Media編寫的位置，檢視器會在主檢視上顯示熱點圖示（隨選）。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 70517201-9d59-4d9c-986d-a6e9655b7956
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 2%
+source-wordcount: '230'
+ht-degree: 0%
 
 ---
 
 # 連結區和影像地圖{#hotspots-and-image-maps}
 
-在熱點最初是在AEM Assets的Dynamic Media中編寫的位置，檢視器會在主檢視上顯示熱點圖示（隨選）。
+在熱點最初由AEM Assets的Dynamic Media編寫的位置，檢視器會在主檢視上顯示熱點圖示（隨選）。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**主要檢視器區域的CSS屬性**
+主要檢視器區域的&#x200B;**CSS屬性**
 
-熱點圖示的外觀由下列CSS類別選擇器控制：
+熱點圖示的外觀由以下CSS類別選取器控制：
 
 ```
 .s7carouselviewer .s7imagemapeffect .s7icon
@@ -35,19 +35,19 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景影像</span> </p> </td> 
    <td colname="col2"> <p>熱點圖示圖稿。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p>若使用CSS拼寫，則定位在圖稿拼寫內。 </p> <p>另請參閱 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景位置</span> </p> </td> 
+   <td colname="col2"> <p>若使用CSS拼寫，則定位在圖稿拼寫內。 </p> <p>請參閱<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS sprite </a>。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">寬度</span> </p> </td> 
    <td colname="col2"> <p>熱點圖示寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">高度</span> </p> </td> 
    <td colname="col2"> <p>熱點圖示高度。 </p> </td> 
   </tr> 
  </tbody> 
@@ -68,9 +68,9 @@ ht-degree: 2%
 
 <!--<a id="section_26D0B8444D1F42D493793FF54968C0B9"></a>-->
 
-**影像地圖區域的CSS屬性**
+影像地圖區域&#x200B;**的** CSS屬性
 
-影像地圖區域的外觀由下列CSS類別選取器控制：
+影像地圖區域的外觀是由下列CSS類別選取器所控制：
 
 `.s7carouselviewer .s7imagemapeffect .s7region`
 
@@ -83,16 +83,16 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景 </span> </p> </td> 
-   <td colname="col2"> <p>影像地圖區域填色色彩。 </p> <p>指定此顏色於 <span class="codeph"> #RRGGBB </span>， <span class="codeph"> RGB(R，G，B) </span>，或 <span class="codeph"> RGBA(R，G，B，A) </span> 格式。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景</span> </p> </td> 
+   <td colname="col2"> <p>影像地圖區域填滿色彩。 </p> <p>以<span class="codeph"> #RRGGBB </span>、<span class="codeph">RGB(R，G，B) </span>或<span class="codeph"> RGBA(R，G，B，A) </span>格式指定此色彩。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p>影像地圖區域填色色彩。 </p> <p>指定此顏色於 <span class="codeph"> #RRGGBB </span>， <span class="codeph"> RGB(R，G，B) </span>，或 <span class="codeph"> RGBA(R，G，B，A) </span> 格式。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色彩</span> </p> </td> 
+   <td colname="col2"> <p>影像地圖區域填滿色彩。 </p> <p>以<span class="codeph"> #RRGGBB </span>、<span class="codeph">RGB(R，G，B) </span>或<span class="codeph"> RGBA(R，G，B，A) </span>格式指定此色彩。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
-   <td colname="col2"> <p> 影像地圖區域邊框樣式。 應指定為" <span class="codeph"> 寬度 </span> <span class="codeph"> 純色 </span>"，其中 <span class="codeph"> 寬度 </span> 以畫素表示，並且 <span class="codeph"> 顏色 </span> 設為 <span class="codeph"> #RRGGBB </span>， <span class="codeph"> RGB(R，G，B) </span>，或 <span class="codeph"> RGBA(R，G，B，A) </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">邊框</span> </p> </td> 
+   <td colname="col2"> <p> 影像地圖區域框線樣式。 應指定為「<span class="codeph">寬度</span> <span class="codeph">純色</span>」，其中<span class="codeph">寬度</span>以畫素表示，而<span class="codeph">顏色</span>設定為<span class="codeph"> #RRGGBB </span>、<span class="codeph">RGB(R，G，B) </span>或<span class="codeph"> RGBA(R，G，B，A) </span>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -16,12 +16,12 @@ ht-degree: 13%
 
 範本資產的屬性。
 
-範本是引數化圖層定義，可建構圖層影像。
+範本是建構圖層影像的引數化圖層定義。
 
 ## 參數 {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
 | url | `xsd:string` | 代表範本的影像伺服器URL。 |
-| urlModifier | `xsd:string` |  |
-| urlPostApplyModifier | `xsd:string` |  |
+| urlModifier | `xsd:string` | |
+| urlPostApplyModifier | `xsd:string` | |

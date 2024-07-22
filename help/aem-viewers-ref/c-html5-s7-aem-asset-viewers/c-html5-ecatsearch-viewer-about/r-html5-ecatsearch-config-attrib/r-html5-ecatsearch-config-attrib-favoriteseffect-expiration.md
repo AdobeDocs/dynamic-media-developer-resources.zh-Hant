@@ -8,7 +8,7 @@ exl-id: 22fcbeb7-2377-4933-864f-ee434ec69ad0
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '49'
-ht-degree: 10%
+ht-degree: 6%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 10%
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> 天</span></span> </p> </td> 
-   <td colname="col2"> <p> 我的最愛集合在使用者端系統上保留的天數，超過該天數後便會過期。 每次使用者造訪目錄並變更我的最愛時（例如新增或移除），到期計時器都會重設。 </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname">天</span></span> </p> </td> 
+   <td colname="col2"> <p> 我的最愛集合在使用者端系統內保留的天數，超過該天數後便會過期。 每次使用者造訪目錄並變更我的最愛時（例如新增或移除），到期計時器都會重設。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

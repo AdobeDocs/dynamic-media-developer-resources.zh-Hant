@@ -13,7 +13,7 @@ ht-degree: 2%
 
 # PanoramicView.fmt{#panoramicview-fmt}
 
-指定元件從「影像伺服器」載入影像時所用的影像格式。 如果指定的格式結尾為&quot;-alpha&quot;，元件會將影像呈現為透明。 至於所有其他影像格式，元件會將影像視為不透明。 元件預設為透明背景。 因此，若要使其不透明，請設定 `background-color` CSS屬性至 `desired_color`
+指定元件從「影像伺服器」載入影像時所用的影像格式。 如果指定的格式結尾為&quot;-alpha&quot;，元件會將影像呈現為透明。 至於所有其他影像格式，元件會將影像視為不透明。 元件預設為透明背景。 因此，若要使其不透明，請將`background-color` CSS屬性設定為`desired_color`
 
 `[PanoramicView.|<containerId>_panoramicView.]fmt=jpg|jpeg|png|png-alpha|gif|gif-alpha`
 

@@ -8,7 +8,7 @@ exl-id: c2fa4cdd-fb4f-4e6a-8197-8f64c986c3a0
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '74'
-ht-degree: 20%
+ht-degree: 17%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 20%
 
 此程式碼範例會傳回指定公司的所有影像格式。
 
-**請求**
+**要求**
 
 ```java
 <ns1:getImageFormatsParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">
@@ -54,7 +54,7 @@ ht-degree: 20%
 </ns1:getImageFormatsParam>
 ```
 
-**回答**
+**回應**
 
 ```java
 <getImageFormatsReturn xmlns="http://www.scene7.com/IpsApi/xsd">

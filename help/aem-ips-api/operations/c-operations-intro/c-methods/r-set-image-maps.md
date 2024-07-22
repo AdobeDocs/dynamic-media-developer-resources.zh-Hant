@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 0c8e6536-0b9c-4fcc-b71f-511afc670089
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 11%
+source-wordcount: '134'
+ht-degree: 10%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 11%
 
 設定資產的影像地圖。
 
-您必須已建立影像地圖。 影像地圖會依從陣列擷取的順序套用。 這表示第二個影像地圖會覆蓋第一個，第三個影像地圖會覆蓋第二個影像地圖，依此類推。
+您必須已建立影像地圖。 影像地圖會依從陣列擷取的順序套用。 這表示第二個影像地圖會覆蓋第一個，第三個影像地圖則會覆蓋第二個影像地圖，依此類推。
 
 ## 授權的使用者型別 {#section-adb21c5b679249939dd83816e4a0ee97}
 
@@ -33,8 +33,8 @@ ht-degree: 11%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 公司控點。 |
-| assetHandle | `xsd:string` | 是 | 資產控點。 |
+| companyHandle | `xsd:string` | 是 | 公司控制代碼。 |
+| assetHandle | `xsd:string` | 是 | 資產控制代碼。 |
 | imageMapArray | `types:ImageMapDefinitionArray` | 是 | 預先定義的影像地圖陣列。 |
 
 **輸出(setImageMapsReturn)**
@@ -45,9 +45,9 @@ ht-degree: 11%
 
 ## 範例 {#section-fe2e35662a6a4ee29cf250c9fd180371}
 
-此程式碼範例為影像資產設定2個影像地圖。 程式碼會指定叫用影像地圖時採取的形狀型別、區域和動作。 回應包含陣列，其中包含影像對應的控制點。
+此程式碼範例為影像資產設定2個影像地圖。 程式碼會指定叫用影像地圖時採取的形狀型別、區域和動作。 回應包含陣列，其中包含影像對應的控點。
 
-**請求**
+**要求**
 
 ```java
 <setImageMapsParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

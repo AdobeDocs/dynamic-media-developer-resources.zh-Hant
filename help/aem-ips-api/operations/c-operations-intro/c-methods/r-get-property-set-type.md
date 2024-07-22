@@ -1,20 +1,20 @@
 ---
-description: 使用公司的控制代碼和屬性集型別的名稱來取得屬性集型別。 它取得一個型別結構，其中包含型別的控制代碼以及屬性型別。
+description: 使用公司的控制代碼和屬性集型別的名稱來取得屬性集型別。 它取得一個型別結構，其中包含型別的控點以及屬性型別。
 solution: Experience Manager
-title: getPropertySetType
+title: getPropertySettype
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: ff9c3d24-577c-4a9c-8820-60c2a33773bc
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '153'
-ht-degree: 11%
+ht-degree: 9%
 
 ---
 
-# getPropertySetType{#getpropertysettype}
+# getPropertySettype{#getpropertysettype}
 
-使用公司的控制代碼和屬性集型別的名稱來取得屬性集型別。 它取得一個型別結構，其中包含型別的控制代碼以及屬性型別。
+使用公司的控制代碼和屬性集型別的名稱來取得屬性集型別。 它取得一個型別結構，其中包含型別的控點以及屬性型別。
 
 語法
 
@@ -52,8 +52,8 @@ ht-degree: 11%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> type</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 型別：PropertySetType</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname">型別</span> </span> </td> 
+   <td colname="col2"> <span class="codeph">型別：PropertySetType</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4">包含下列專案的型別結構： 
     <ul id="ul_FC028882124D4CD6870A076CBFB80333"> 
@@ -70,7 +70,7 @@ ht-degree: 11%
 
 此程式碼範例會依名稱傳回屬性集型別。
 
-**請求**
+**要求**
 
 ```java
 <getPropertySetTypeParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">
@@ -78,7 +78,7 @@ ht-degree: 11%
 </getPropertySetTypeParam>
 ```
 
-**回答**
+**回應**
 
 ```java
 <getPropertySetTypeReturn xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

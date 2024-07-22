@@ -8,7 +8,7 @@ exl-id: 56a45324-5027-4375-a790-c965f682e4b9
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 16%
+ht-degree: 8%
 
 ---
 
@@ -43,51 +43,51 @@ ht-degree: 16%
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 公司的控制代碼。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 欄位控制代碼。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> assetType</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname">資產型別</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 選擇儲存中繼資料的來源資產型別。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 名稱</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname">名稱</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 欄位名稱。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldType</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 中繼資料欄位型別的選擇。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> defaultvalue</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 所有資產欄位的預設值。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> ishidden</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：布林值</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 隱藏或公開IPS系統特定的中繼資料。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="codeph"><span class="varname"> 為強制</span></span> </td> 
-   <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col1"><span class="codeph"><span class="varname">已強制</span></span> </td> 
+   <td colname="col2"><span class="codeph"> xsd：布林值</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>布林值標幟，指出在設定值時，是否強制執行（驗證）中繼資料欄位。 </p> <p>若設為true，則若在中設定了不合法的值，則會擲回錯誤 <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
+   <td colname="col4"> <p>布林值標幟，指出在設定值時，是否強制執行（驗證）中繼資料欄位。 </p> <p>若設為true，則若在<span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>中設定了不合法的值，則會擲回錯誤。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -100,9 +100,9 @@ ht-degree: 16%
 
 ## 範例 {#section-4441c26d1f41466ba972b43dd5189e89}
 
-此程式碼範例會建立受資產型別和中繼資料欄位型別字串常數限制的中繼資料欄位。 如果 `fieldHandle` 元素具有有效的欄位控制代碼值，它會變更中繼資料值，並取得您在請求中指定的相同欄位控制代碼。
+此程式碼範例會建立受資產型別和中繼資料欄位型別字串常數限制的中繼資料欄位。 如果`fieldHandle`元素具有有效的欄位控制代碼值，它會變更中繼資料值，並取得您在要求中指定的相同欄位控制代碼。
 
-**請求**
+**要求**
 
 ```java
 <ns1:saveMetadataFieldParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">
@@ -114,7 +114,7 @@ ht-degree: 16%
 </ns1:saveMetadataFieldParam>
 ```
 
-**回答**
+**回應**
 
 ```java
 <saveMetadataFieldReturn xmlns="http://www.scene7.com/IpsApi/xsd">

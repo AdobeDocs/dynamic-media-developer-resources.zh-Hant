@@ -8,7 +8,7 @@ exl-id: 6de49217-2d15-49d9-9357-b058b2564686
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 15%
+ht-degree: 12%
 
 ---
 
@@ -40,19 +40,19 @@ ht-degree: 15%
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 公司控點。 </td> 
+   <td colname="col4"> 公司控制代碼。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 標籤欄位控制代碼。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> updatearray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 型別：TagValueUpdateArray</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> updateArray</span> </span> </td> 
+   <td colname="col2"> <span class="codeph">型別：TagValueUpdateArray</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4">您要更新的標籤欄位值陣列。 <p>注意：僅更新標籤字串值。 不會影響資產關聯。 </p> </td> 
   </tr> 
@@ -64,14 +64,14 @@ ht-degree: 15%
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
 | successCount | `xsd:int` | 是 | 成功更新的標籤欄位數。 |
-| warningCount | `xsd:int` | 是 | 作業嘗試更新標籤欄位時產生的警告數目。 |
+| warningcount | `xsd:int` | 是 | 作業嘗試更新標籤欄位時產生的警告數目。 |
 | errororcount | `xsd:int` | 是 | 作業嘗試更新標籤欄位時產生的錯誤數。 |
-| warningDetailArray | `types:TagValueUpdateFaultArray` | 否 | 與資產關聯的詳細資訊陣列，在作業嘗試更新標籤欄位時產生警告。 |
+| warningDetailArray | `types:TagValueUpdateFaultArray` | 否 | 與資產關聯的詳細資訊陣列，這些資產在操作嘗試更新標籤欄位時產生警告。 |
 | errorDetailArray | `types:TagValueUpdateFaultArray` | 否 | 與資產關聯的詳細資訊陣列，在操作嘗試更新標籤欄位時產生錯誤。 |
 
 ## 範例 {#section-bb4dcf97044c4675974c9b8d27674001}
 
-**請求**
+**要求**
 
 ```java
 <updateTagFieldValuesParam xmlns="http://www.scene7.com/IpsApi/xsd/2010-01-31">
@@ -98,7 +98,7 @@ ht-degree: 15%
 </updateTagFieldValuesParam>
 ```
 
-**回答**
+**回應**
 
 ```java {.line-numbers}
 <updateTagFieldValuesReturn xmlns="http://www.scene7.com/IpsApi/xsd/2010-01-31">

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 7d6c9408-1f09-464d-8a69-eabdf7c0117d
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '128'
 ht-degree: 3%
 
 ---
@@ -16,15 +16,15 @@ ht-degree: 3%
 
 Postfix要求修飾元字串。 沒有或多個以「&amp;」字元分隔的「影像伺服」命令。
 
-此欄位中的命令一律會覆寫HTTP請求和中的命令 `catalog::Modifier`.
+此欄位中的命令一律會覆寫HTTP要求和`catalog::Modifier`中的命令。
 
-`catalog::PostModifier` 如果某些影像需要特殊設定，而這些設定通常由URL控制，例如 `qlt=` 或 `resmode=`. `catalog::Modifier` 應該用於設定影像目錄中的大多數IS命令。
+如果某些影像需要特殊設定（通常由URL控制），例如`qlt=`或`resmode=`，則`catalog::PostModifier`會很有用。 `catalog::Modifier`應該用於設定影像目錄中的大多數IS命令。
 
-中允許巨集 `catalog::PostModifier`，只要它們是在相同目錄或預設目錄中定義。 您也可以使用自訂變數。
+`catalog::PostModifier`允許使用巨集，只要這些巨集是在相同目錄或預設目錄中定義即可。 您也可以使用自訂變數。
 
 >[!NOTE]
 >
->如果請求涉及多個圖層，則僅請求 `catalog::PostModifier` 套用圖層0。 `catalog::PostModifier` 會忽略其他所有圖層。
+>如果要求涉及多個圖層，則僅套用圖層0的`catalog::PostModifier`內容。 已忽略所有其他圖層的`catalog::PostModifier`。
 
 ## 屬性 {#section-6d5b0462ba1245b8ac3ddfd15c059f42}
 

@@ -11,4 +11,4 @@ ht-degree: 0%
 
 # Dynamic Media發行說明{#dynamic-media-release-notes}
 
-的最新版本注意事項 [!DNL Adobe Dynamic Media Classic] — 屬於 [!DNL Adobe Experience Manager] 中的解決方案 [!DNL Adobe Experience Cloud].
+[!DNL Adobe Experience Cloud]中[!DNL Adobe Experience Manager]解決方案的[!DNL Adobe Dynamic Media Classic]部分的最新發行說明。

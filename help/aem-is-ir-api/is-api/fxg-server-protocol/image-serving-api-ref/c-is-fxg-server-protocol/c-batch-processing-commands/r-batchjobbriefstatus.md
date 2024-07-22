@@ -20,14 +20,14 @@ ht-degree: 2%
 
 <table id="simpletable_86E581DBB352479CB4CB531434D91E83"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> jobid </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph">工作ID </span> </p> </td> 
   <td class="stentry"> <p>提交時取得的作業ID。 </p> </td> 
  </tr> 
 </table>
 
 傳回：
 
-XML格式工作的簡短狀態；如果工作ID無效或工作已刪除，則會發生錯誤。
+XML格式的工作的簡短狀態；若工作ID無效或工作已刪除，則發生錯誤。
 
 ## 範例 {#section-806460949bb043438ad4dd4e7ab74145}
 

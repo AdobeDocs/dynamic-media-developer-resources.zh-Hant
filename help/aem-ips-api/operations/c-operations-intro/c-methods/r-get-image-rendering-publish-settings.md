@@ -1,7 +1,7 @@
 ---
-description: 僅供內部使用。 請參閱影像演算材質目錄參考目錄屬性區段。
+description: 僅供內部使用。 請參閱影像演算材質目錄參照 — 目錄屬性一節。
 solution: Experience Manager
-title: getimagerenderingpublishSettings
+title: getImageRenderingPublishSettings
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 152dfd61-2fba-47b4-8e69-fbbc8fb57f87
@@ -12,9 +12,9 @@ ht-degree: 17%
 
 ---
 
-# getimagerenderingpublishSettings{#getimagerenderingpublishsettings}
+# getImageRenderingPublishSettings{#getimagerenderingpublishsettings}
 
-僅供內部使用。 請參閱影像演算材質目錄參考目錄屬性區段。
+僅供內部使用。 請參閱影像演算材質目錄參照 — 目錄屬性一節。
 
 語法
 
@@ -31,8 +31,8 @@ ht-degree: 17%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 您要取得其影像演算發佈設定的公司控制代碼。 |
-| contextHandle | `xsd:string` | 是 | 處理發佈內容的動作。 |
+| companyHandle | `xsd:string` | 是 | 您要取得其影像演算發佈設定之公司的控制代碼。 |
+| contextHandle | `xsd:string` | 是 | 發佈內容的控點。 |
 
 **輸出(getImageRenderingPublishSettingsReturn)**
 

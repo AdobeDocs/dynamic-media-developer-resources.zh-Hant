@@ -1,5 +1,5 @@
 ---
-description: 標籤值更新陣列。
+description: 標籤值更新的陣列。
 solution: Experience Manager
 title: TagValueUpdateArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 24%
 
 # [!DNL TagValueUpdateArray]{#tagvalueupdatearray}
 
-標籤值更新陣列。
+標籤值更新的陣列。
 
 語法
 
@@ -22,4 +22,4 @@ ht-degree: 24%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 項目 | `types:TagValueUpdate` | 標籤值更新陣列。 |
+| 項目 | `types:TagValueUpdate` | 標籤值更新的陣列。 |

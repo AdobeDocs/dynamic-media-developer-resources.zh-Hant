@@ -20,8 +20,8 @@ ht-degree: 0%
 
 此外，預設目錄會在作業中不包含特定影像目錄時，提供所有屬性和資料記錄（巨集、字型、ICC設定檔、要求前置處理規則）。
 
-為了正確運作 [!DNL Platform Server] 預設目錄的目錄屬性檔案必須命名為 [!DNL default.ini]，必須一律存在於目錄資料夾中，且必須填入所有必要的屬性，惟不包括 `attribute::RootId` 和各種目錄資料檔案的參照，這些均為選用專案。
+為了讓[!DNL Platform Server]正確運作，預設目錄的目錄屬性檔案必須命名為[!DNL default.ini]，且必須永遠存在於目錄資料夾中，而且必須填入所有必要的屬性，不包括`attribute::RootId`和各種目錄資料檔案的參照，這些都是選擇性的。
 
 >[!NOTE]
 >
->所有目錄屬性檔案，但不包括 [!DNL default.ini] 必須包含唯一的 `attribute::RootId` 值。 `attribute::RootId` 在 [!DNL default.ini] 必須為空白。
+>除[!DNL default.ini]以外的所有目錄屬性檔案都必須包含唯一的`attribute::RootId`值。 [!DNL default.ini]中的`attribute::RootId`必須為空白。

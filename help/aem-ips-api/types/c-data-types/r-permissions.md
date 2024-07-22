@@ -8,7 +8,7 @@ exl-id: 18e5f8f6-3cbe-4d36-b02a-5a3002e4498c
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '53'
-ht-degree: 13%
+ht-degree: 9%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 13%
 | 名稱 | 類型 | 說明 |
 |---|---|---|
 | groupHandle | `xsd:string` | 群組控制代碼。 |
-| groupName | `xsd:string` | 群組名稱. |
-| permissiontype | `xsd:string` | 選擇許可權型別。 |
+| groupName | `xsd:string` | 群組名稱。 |
+| permissionType | `xsd:string` | 許可權型別的選擇。 |
 | isAllowed | `xsd:boolean` | 決定是否允許許可權。 |
 | isOverride | `xsd:boolean` | 決定許可權是否覆寫其他許可權。 |

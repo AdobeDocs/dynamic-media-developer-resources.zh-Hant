@@ -20,4 +20,4 @@ ht-degree: 75%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 項目 | `types:CompanyMember` |  |
+| 項目 | `types:CompanyMember` | |

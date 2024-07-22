@@ -8,7 +8,7 @@ exl-id: 4b2a2a14-d785-43bd-b1fc-2812d9f21964
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '76'
-ht-degree: 21%
+ht-degree: 13%
 
 ---
 
@@ -45,13 +45,13 @@ ht-degree: 21%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd：string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
    <td colname="col4"> <p>工作所屬公司的控制代碼。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> jobHandle</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname">工作控制代碼</span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd：string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
    <td colname="col4"> <p>要執行之工作的控制代碼。 </p> </td> 
   </tr> 
@@ -64,9 +64,9 @@ IPS API未傳回此作業的回應。
 
 ## 範例 {#section-96f71aa58a954293b9a98ff96d86f232}
 
-此程式碼範例會執行排定在IPS中執行的作業。
+此程式碼範例執行排程在IPS中執行的工作。
 
-**請求**
+**要求**
 
 ```java
 <executeJobParam xmlns="http://www.scene7.com/IpsApi/xsd">
@@ -75,6 +75,6 @@ IPS API未傳回此作業的回應。
 </executeJobParam>
 ```
 
-**回答**
+**回應**
 
 無。

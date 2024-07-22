@@ -1,20 +1,20 @@
 ---
 title: 去底色背景選項
-description: 遮色片（去底色）選取影像的背景。 此資料型別可讓您以主題影像以外的透明度，將之覆蓋在其他圖層中。 選擇性引數，預設為關閉。
+description: 遮蔽（去底色）選取影像的背景。 此資料型別可讓您以主題影像以外的透明度，將之覆蓋在其他圖層中。 選擇性引數，預設為關閉。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: aed8cf2e-5a09-43ff-9420-0d0d54059515
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 5%
+source-wordcount: '192'
+ht-degree: 2%
 
 ---
 
 # [!DNL KnockoutBackgroundOptions]{#knockoutbackgroundoptions}
 
-遮色片（去底色）選取影像的背景。 此資料型別可讓您以主旨影像以外的透明度，將影像覆蓋在其他圖層中。
+遮蔽（去底色）選取影像的背景。 此資料型別可讓您以主題影像之外的透明度，在其他圖層上覆蓋這些影像。
 
 此資料型別為選用，預設為關閉。
 
@@ -24,12 +24,12 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >
->如果您正在設定 `KnockoutBackgroundOptions` 在Adobe Experience Manager中，請改用下列引數：
+>如果您在Adobe Experience Manager中設定`KnockoutBackgroundOptions`，請改用下列引數：
 >* `kbCorner`
 >* `kbTolerance`
 >* `kbFillMethod`
 >
->例如︰`kbCorner=UpperLeft&kbTolerance=0.2&kbFillMethod=MatchPixel`
+>例如： `kbCorner=UpperLeft&kbTolerance=0.2&kbFillMethod=MatchPixel`
 
 <table id="table_68131DE0A3C84908A43C6F7777F20973"> 
  <thead> 
@@ -41,18 +41,18 @@ ht-degree: 5%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 轉角</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">選取您要使用的轉角。 <span class="codeph"> 轉角</span> 接受這些值： 
+   <td colname="col1"> <span class="codeph"> <span class="varname">角</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
+   <td colname="col3">選取您要使用的轉角。 <span class="codeph">角</span>接受這些值： 
     <ul id="ul_36C2F07706764A7081010D5521BF3096">
      <li id="li_CBACE5C6AA8C48D3BEE033D3AE03AF3C"><span class="codeph"> 左上方</span></li>
      <li id="li_49AC53536B4B4D2CA3DD89E2A2B2E95D"><span class="codeph"> 左下方</span></li>
      <li id="li_7AD372FF4A9B48F0A16964EE9CB3EE88"><span class="codeph"> 右上方</span></li>
-     <li id="li_D31476DD9A8E4BDBB13A6DDA46547877"><span class="codeph"> 右下</span></li>
+     <li id="li_D31476DD9A8E4BDBB13A6DDA46547877"><span class="codeph"> 右下方</span></li>
     </ul></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 容許度</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname">容許度</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd：double</span> </td> 
    <td colname="col3">選擇性設定，可根據透明度從影像邊緣移除空白區域。 接受從0.0到1.0的值範圍。指定： 
     <ul id="ul_FE5423B857AE43FCBA7A9AEA76C754CC">
@@ -61,11 +61,11 @@ ht-degree: 5%
     </ul></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 填色方法</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>在指定的位置控制畫素透明度 <span class="codeph"><span class="varname"> 轉角</span></span> 變數。 此 <span class="codeph"> 填色方法</span> 接受這些值： </p> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> fillMethod</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
+   <td colname="col3"> <p>控制畫素在<span class="codeph"><span class="varname">轉角</span></span>變數所指定位置的透明度。 <span class="codeph"> fillMethod</span>接受下列值： </p> 
     <ul id="ul_D95F3B613D344BB89487ED09D83F9217"> 
-     <li id="li_3D7B7CA1B9094D16A98E0BA3D962E97F"> <span class="codeph"> FloodFill</span>：將指定角落中的所有畫素變成透明。 </li> 
+     <li id="li_3D7B7CA1B9094D16A98E0BA3D962E97F"> <span class="codeph"> FloodFill</span>：將指定角落的所有畫素變成透明。 </li> 
      <li id="li_F97343C3DA7644BCBD1748AD8F9DCE2E"> <span class="codeph"> MatchPixel</span>：將所有相符的畫素變成透明，無論位置為何。 </li> 
     </ul> </td> 
   </tr> 
@@ -89,8 +89,8 @@ ht-degree: 5%
 
 ## 使用者 {#section-28c43baafe85434a9ee9e303ed10569a}
 
-此 `KnockoutBackgroundOptions` 型別使用者：
+`KnockoutBackgroundOptions`型別由下列使用者使用：
 
-* [UploadDirectory作業](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
-* [UploadpostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)
+* [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
+* [UploadPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)
 * [UploadUrlsJob](../../types/c-data-types/r-upload-urls-job.md#reference-8e9bc895268c4321b233dbeadc990398)

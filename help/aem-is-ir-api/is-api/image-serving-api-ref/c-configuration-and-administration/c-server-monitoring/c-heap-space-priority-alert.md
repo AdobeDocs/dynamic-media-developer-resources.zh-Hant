@@ -1,5 +1,5 @@
 ---
-description: 當可用的Java棧積空間低於指定的臨界值時，優先順序警報會在Java垃圾收集循環後立即傳送。
+description: 當可用的Java棧積空間低於指定的臨界值時，優先順序警報會在Java記憶體回收循環後立即傳送。
 solution: Experience Manager
 title: 棧積空間優先順序警報
 feature: Dynamic Media Classic,SDK/API
@@ -14,6 +14,6 @@ ht-degree: 0%
 
 # 棧積空間優先順序警報{#heap-space-priority-alert}
 
-當可用的Java棧積空間低於指定的臨界值時，優先順序警報會在Java垃圾收集循環後立即傳送。
+當可用的Java棧積空間低於指定的臨界值時，優先順序警報會在Java記憶體回收循環後立即傳送。
 
-應增加Java棧積空間來解決重複的警報。 後續發生此狀況時，直到指定的延遲期間後，才會產生電子郵件警示。 `AS::monitorAlertGenerator.heapSpaceResetInterval` 已過期。
+應增加Java棧積空間來解決重複的警報。 在以`AS::monitorAlertGenerator.heapSpaceResetInterval`指定的延遲期間到期之前，此狀況後續發生不會產生電子郵件警示。

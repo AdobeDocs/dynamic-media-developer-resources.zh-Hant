@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 119d8dde-145b-4762-a1ab-882a29e0f6a6
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '454'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 混合媒體檢視器顯示的某些內容可能會進行本地化。 此建議包括縮放按鈕、迴轉按鈕、視訊控制項、關閉按鈕、全熒幕按鈕和色票捲動按鈕。
 
-檢視器中可本地化的每個文字內容，都會以稱為SYMBOL的特殊檢視器SDK識別碼表示。 任何SYMBOL都有英文地區設定的預設相關文字值( `"en"`)隨現成可用的檢視器提供。 您也可以視需要為多個地區設定使用者定義的值。
+檢視器中可本地化的每個文字內容，都會以稱為SYMBOL的特殊檢視器SDK識別碼表示。 任何SYMBOL都有隨現成可用的檢視器提供的英文地區設定( `"en"`)的預設相關文字值。 您也可以視需要為多個地區設定使用者定義的值。
 
 當檢視器啟動時，它會檢查目前的地區設定，檢視地區設定的每個受支援SYMBOL是否有使用者定義的值。 如果有的話，它會使用使用者定義的值；否則，它會回覆成現成的預設文字。
 
@@ -38,9 +38,9 @@ defaultLocale:"en"
 }
 ```
 
-在上述範例中，本地化物件定義了兩種地區設定( `"en"` 和 `"fr"`)並提供每個地區設定中兩個使用者介面元素的當地語系化。
+在上述範例中，本地化物件定義了兩個地區設定（`"en"`和`"fr"`），並為每個地區設定中的兩個使用者介面元素提供本地化。
 
-網頁程式碼應將本地化物件傳遞至檢視器建構函式，作為 `localizedTexts` 設定物件的欄位。 另一種選擇是呼叫 `setLocalizedTexts(localizationInfo)` 方法。
+網頁程式碼應將本地化物件作為設定物件之`localizedTexts`欄位的值傳遞給檢視器建構函式。 替代選項是呼叫`setLocalizedTexts(localizationInfo)`方法來傳遞本地化物件。
 
 支援下列SYMBOL：
 
@@ -98,11 +98,11 @@ defaultLocale:"en"
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.TIP_BUBBLE_OVER </span> </p> </td> 
-   <td colname="col2"> <p>中的桌上型電腦系統 <span class="codeph"> 內嵌 </span> 縮放模式。 </p> </td> 
+   <td colname="col2"> <p>桌上型電腦系統處於<span class="codeph">內嵌</span>縮放模式。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.TIP_BUBBLE_TAP </span> </p> </td> 
-   <td colname="col2"> <p>中的觸控裝置 <span class="codeph"> 內嵌 </span> 縮放模式。 </p> </td> 
+   <td colname="col2"> <p>在<span class="codeph">內嵌</span>縮放模式中觸控裝置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_SELECTED </span> </p> </td> 
@@ -174,7 +174,7 @@ defaultLocale:"en"
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_VOLUME </span> </p> </td> 
-   <td colname="col2"> <p>透過ARIA公開的音量滑桿旋鈕標籤 <span class="codeph"> aria-valuetext </span> 屬性。 </p> </td> 
+   <td colname="col2"> <p>透過ARIA <span class="codeph"> aria-valuetext </span>屬性公開磁碟區滑桿旋鈕標籤。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> VideoPlayer.ERROR </span> </p> </td> 

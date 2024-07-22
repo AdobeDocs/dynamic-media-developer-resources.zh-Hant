@@ -22,6 +22,6 @@ ht-degree: 11%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 原始路徑 | `xsd:string` | 原先上傳的檢視器SWF檔案的相對路徑。 |
+| 原始路徑 | `xsd:string` | 原來上傳的檢視器SWF檔案的相對路徑。 |
 | 原始檔案 | `xsd:string` | 原始檢視器SWF檔案的檔案名稱。 |
 | fileSize | `xsd:int` | 檔案大小。 |

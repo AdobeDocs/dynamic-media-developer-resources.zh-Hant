@@ -16,11 +16,11 @@ ht-degree: 0%
 
 包含平台伺服器設定。
 
-修改此XML檔案時，必須注意維護有效的XML語法，否則 [!DNL Platform Server] 可能無法啟動。
+修改此XML檔案時，必須注意維護有效的XML語法，否則[!DNL Platform Server]可能無法啟動。
 
-若要讓變更生效， [!DNL Platform Server] 編輯此檔案後必須重新啟動。
+若要讓變更生效，必須在編輯此檔案後重新啟動[!DNL Platform Server]。
 
-下圖說明哪些設定可以在此檔案中變更。 如需這些設定的說明，請參閱本檔案前面對應的章節。 請注意，此圖表並不完全代表 [!DNL server.xml].
+下圖說明哪些設定可以在此檔案中變更。 如需這些設定的說明，請參閱本檔案前面對應的章節。 請注意，此圖表不是[!DNL server.xml]的完整表示法。
 
 ```
 <Server>

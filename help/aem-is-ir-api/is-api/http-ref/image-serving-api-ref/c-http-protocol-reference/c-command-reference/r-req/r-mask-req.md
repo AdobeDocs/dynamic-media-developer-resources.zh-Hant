@@ -18,6 +18,6 @@ ht-degree: 0%
 
 `req=mask`
 
-支援與相同的命令 `req=img`. 伺服器會以相同的方式處理它，但不會傳回RGB或RGBA資料，而是捨棄顏色資訊並只傳回遮色片（Alpha色版）資料。 回覆資料格式和回應MIME型別由以下專案決定 `fmt=`.
+支援與`req=img`相同的命令。 伺服器會以相同的方式處理它，但不會傳回RGB或RGBA資料，而是捨棄顏色資訊，只傳回遮色片(alpha channel)資料。 回覆資料格式和回應MIME型別由`fmt=`決定。
 
-HTTP回應可使用以下依據的TTL快取： `catalog::Expiration`.
+HTTP回應可使用以`catalog::Expiration`為基礎的TTL進行快取。

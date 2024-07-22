@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: adc3d972-b02d-40db-992e-acaa06b848ff
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '459'
 ht-degree: 0%
 
 ---
@@ -18,19 +18,19 @@ ht-degree: 0%
 
 此功能允許分別為每個專案設定TTL。
 
-「影像伺服」支援以下命令： [!DNL /is/content]：
+「影像伺服」在[!DNL /is/content]支援下列命令：
 
 <table id="simpletable_8A3AB1D1D20F4B6CBE86767E94735980"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-type.md#reference-89094fd1c50c444eb082cd266769cccb" format="dita" scope="local"> 類型 </a> </p> </td> 
+  <td class="stentry"> <p> <a href="../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-type.md#reference-89094fd1c50c444eb082cd266769cccb" format="dita" scope="local">型別</a> </p> </td> 
   <td class="stentry"> <p>內容型別篩選器。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76" format="dita" scope="local"> 需要 </a> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> req=userdata </span>， <span class="codeph"> req=props </span>、和 <span class="codeph"> req=exists </span> 僅限。 </p> </td> 
+  <td class="stentry"> <p> <a href="../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76" format="dita" scope="local">要求</a> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> req=userdata </span>、<span class="codeph"> req=props </span>，而<span class="codeph"> req=exists </span>。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-cache.md#reference-168189bee4ce4d1189d427891f22be2e" format="dita" scope="local"> 快取 </a> </p> </td> 
+  <td class="stentry"> <p> <a href="../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-cache.md#reference-168189bee4ce4d1189d427891f22be2e" format="dita" scope="local">快取</a> </p> </td> 
   <td class="stentry"> <p>允許停用使用者端快取。 </p> </td> 
  </tr> 
 </table>
@@ -39,35 +39,35 @@ ht-degree: 0%
 
 <table id="simpletable_2F039A5BFA2C4E22B014F42ECBCDA0A2"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 請求 </span> </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="filepath"> http:// <span class="varname"> 伺服器 </span>/is/content[/catalog/ <span class="varname"> 專案 </span>][？ <span class="varname"> 修飾元 </span>] </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname">要求</span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="filepath"> http:// <span class="varname">伺服器</span>/is/content[/catalog/ <span class="varname">專案</span>][？ <span class="varname">修飾元</span>] </span> </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 伺服器 </span> </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> server_address </span>[ ： <span class="varname"> 連線埠 </span>] </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname">伺服器</span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname">伺服器位址</span>[ ： <span class="varname">連線埠</span>] </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 目錄 </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname">目錄</span> </span> </p> </td> 
   <td class="stentry"> <p>目錄識別碼。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 專案 </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname">專案</span> </span> </p> </td> 
   <td class="stentry"> <p>靜態內容專案識別碼。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 修飾元 </span> </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 命令 </span>*[&amp; <span class="varname"> 命令 </span>] </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname">修飾元</span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname">命令</span>*[&amp; <span class="varname">命令</span>] </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 命令 </span> </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> cmdName </span>= <span class="varname"> 值 </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname">命令</span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> cmdName </span>= <span class="varname">值</span> </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> cmdName </span> </span> </p> </td> 
   <td class="stentry"> <p>支援的命令名稱之一。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 值 </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname">值</span> </span> </p> </td> 
   <td class="stentry"> <p>命令值。 </p> </td> 
  </tr> 
 </table>
@@ -85,35 +85,35 @@ ht-degree: 0%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> catalog：：Id </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">目錄：：識別碼</span> </p> </td> 
    <td colname="col2"> <p>此靜態內容專案的目錄記錄識別碼。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> catalog：：Path </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">目錄：：路徑</span> </p> </td> 
    <td colname="col2"> <p>此內容專案的檔案路徑。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> catalog：：Expiration </span> </p> </td> 
-   <td colname="col2"> <p>此內容專案的TTL； <span class="codeph"> attribute：：Expiration </span> 若未指定或空白，則使用。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">目錄：：到期</span> </p> </td> 
+   <td colname="col2"> <p>此內容專案的TTL；如果未指定或為空，則使用<span class="codeph">屬性：：Expiration </span>。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> catalog：：TimeStamp </span> </p> </td> 
-   <td colname="col2"> <p>檔案修改時間戳記；透過啟用目錄型驗證時需要 <span class="codeph"> attribute：：CacheValidationPolicy </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">目錄：：時間戳記</span> </p> </td> 
+   <td colname="col2"> <p>檔案修改時間戳記；使用<span class="codeph">屬性：：CacheValidationPolicy </span>啟用目錄型驗證時需要。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> catalog：：UserData </span> </p> </td> 
-   <td colname="col2"> <p>與此靜態內容專案關聯的可選中繼資料；適用於具有下列用途的使用者端： <span class="codeph"> req=userdata </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">目錄：：UserData </span> </p> </td> 
+   <td colname="col2"> <p>與此靜態內容專案相關的選擇性中繼資料；適用於具有<span class="codeph"> req=userdata </span>的使用者端。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 目錄：：UserType </span> </p> </td> 
-   <td colname="col2"> <p>選用資料型別；可用於篩選靜態內容的請求，具有 <span class="codeph"> type=命令 </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">目錄：：UserType </span> </p> </td> 
+   <td colname="col2"> <p>選用資料型別；可用於使用<span class="codeph"> type=命令</span>篩選靜態內容的請求。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 篩選靜態內容 {#section-4c41bf41ff994910840c1352683d1f37}
 
-此機制可協助確保使用者端僅接收符合其需求的內容。 假設靜態內容已使用適當標籤 `catalog::UserType` 值，使用者端可新增 `type=` 命令到要求。 「影像伺服」會比較 `type=` 命令至的值 `catalog::UserType` 而且，如果內容不符，會傳回錯誤，而非可能不適當的內容。
+此機制可協助確保使用者端僅接收符合其需求的內容。 假設靜態內容已加上適當的`catalog::UserType`值，使用者端可以將`type=`命令新增至要求。 「影像伺服」會比較`type=`命令所提供的值與`catalog::UserType`的值，如果兩者不相符，會傳回錯誤而非可能不適當的內容。
 
 ## 視訊標題檔案 {#section-1ad25e10399e43eaa8ecb09b531dbf1a}
 
@@ -125,10 +125,10 @@ ht-degree: 0%
 
 您也可以將追蹤用於其他型別的定時中繼資料。 每個軌跡元素的來源資料都是由計時提示清單所組成的文字檔。 提示可以包括JSON或CSV等格式的資料。
 
-另請參閱 [https://en.wikipedia.org/wiki/JSONP](https://en.wikipedia.org/wiki/JSONP) 以取得有關JSONP格式的詳細資訊。
+如需JSONP格式的詳細資訊，請參閱[https://en.wikipedia.org/wiki/JSONP](https://en.wikipedia.org/wiki/JSONP)。
 
-另請參閱 [www.json.org](https://www.json.org/json-en.html) 以取得有關JSON格式的詳細資訊。
+如需JSON格式的詳細資訊，請參閱[www.json.org](https://www.json.org/json-en.html)。
 
 ## 另請參閱 {#section-7b28631016044a22a3a6762fd64771e9}
 
-[type=](../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-type.md#reference-89094fd1c50c444eb082cd266769cccb) ， [需要=](../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76)， [影像目錄參考](../../is-api/image-serving-api-ref/c-image-catalog-reference/c-image-catalog-reference.md#concept-e23d45ea3abe43119d5144e01c14b0b5)
+[型別=](../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-type.md#reference-89094fd1c50c444eb082cd266769cccb) ， [要求=](../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76)， [影像目錄參考](../../is-api/image-serving-api-ref/c-image-catalog-reference/c-image-catalog-reference.md#concept-e23d45ea3abe43119d5144e01c14b0b5)

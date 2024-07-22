@@ -22,7 +22,7 @@ ht-degree: 2%
 
 * [!DNL `Untyped`]
 * [!DNL `Boolean`]
-* [!DNL `BooleanTag`]：特殊案例 [!DNL `SingleFixedTag`] ，且不可修改的字典初始化為值 [!DNL `True`] 和 [!DNL `False`].
+* [!DNL `BooleanTag`]： [!DNL `SingleFixedTag`]的特殊情況，具有初始化為值[!DNL `True`]和[!DNL `False`]的不可修改字典。
 
 * [!DNL `Color`]
 * [!DNL `Date`]
@@ -30,9 +30,9 @@ ht-degree: 2%
 * [!DNL `FileName`]
 * [!DNL `Float`]
 * [!DNL `Int`]
-* [!DNL `MultiFixedTag`]：來自關閉字典的零個或多個字串值。 只有管理員使用者可以修改字典。
+* [!DNL `MultiFixedTag`]：來自已關閉字典的零個或多個字串值。 只有管理員使用者可以修改字典。
 * [!DNL `MultiTag`]：零個或多個字串值。
-* [!DNL `SingleFixedTag`]：來自已關閉字典的單一字串值。 若 `setAssetMetadata` 或 `batchSetAssetMetadata` 以不在字典中的值呼叫，則會傳回錯誤。 只有管理員使用者可以修改字典。
+* [!DNL `SingleFixedTag`]：來自已關閉字典的單一字串值。 如果以不在字典中的值呼叫`setAssetMetadata`或`batchSetAssetMetadata`，則會傳回錯誤。 只有管理員使用者可以修改字典。
 
 * [!DNL `SingleTag`]：任何單一字串值。
 * [!DNL `String`]

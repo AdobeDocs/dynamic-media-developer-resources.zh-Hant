@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 45024d75-8058-40f8-b3e3-9b28b4cdc3f7
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 3%
+source-wordcount: '62'
+ht-degree: 1%
 
 ---
 
@@ -41,10 +41,10 @@ ht-degree: 3%
 
 ## 修改型別 {#section-6ecdf752cc1a4636a583b4c546a0fccf}
 
-* 資產包含新的 `fileName` 傳回虛擬檔案名稱的欄位。
-* `AssetSummary` 傳回 `type` 和 `name` 欄位
+* 資產包含傳回虛擬檔案名稱的新`fileName`欄位。
+* `AssetSummary`傳回`type`和`name`欄位
 
-* `MetadataField` 包括 `isHidden`
+* `MetadataField`包含`isHidden`
 
 * `MetadataUpdate`
-* `UploadUrlsJob` 需要 `urlArray` 並新增選用的 `numUrls` count
+* `UploadUrlsJob`需要`urlArray`並新增選用的`numUrls`計數

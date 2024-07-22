@@ -1,5 +1,5 @@
 ---
-description: 目錄屬性檔案可識別這些視訊屬性。
+description: 目錄屬性檔案可辨識這些視訊屬性。
 solution: Experience Manager
 title: 視訊屬性
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 視訊屬性{#video-attributes}
 
-目錄屬性檔案可識別這些視訊屬性。
+目錄屬性檔案可辨識這些視訊屬性。
 
 <table id="simpletable_1BA1280A92F740549FE4DB8907789F0B"> 
  <tr class="strow"> 

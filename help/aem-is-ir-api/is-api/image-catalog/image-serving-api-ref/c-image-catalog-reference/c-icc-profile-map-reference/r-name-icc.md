@@ -8,7 +8,7 @@ exl-id: 197197c9-ac2b-406e-ae1e-722577767bdc
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '48'
-ht-degree: 10%
+ht-degree: 8%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 10%
 
 ## 屬性 {#section-30fc50f71f4a4ea7b14b2524d1f2b698}
 
-文字字串。 必要. ICC設定檔對應的主索引鍵。 每個 `icc::Name` 值在資料表中必須是唯一的，而且不能包含&#39;，&#39;字元。
+文字字串。 必填。 ICC設定檔對應的主索引鍵。 每個`icc::Name`值在資料表中必須是唯一的，而且不能包含&#39;，&#39;字元。
 
 ## 預設 {#section-47a56671d1e94497aa7ea83fe9590c05}
 

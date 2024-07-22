@@ -7,7 +7,7 @@ exl-id: e73eab03-fbda-435c-be3c-98781f8630a5
 source-git-commit: 6ec990016827895e136d41f3ae1e87ffd826647e
 workflow-type: tm+mt
 source-wordcount: '54'
-ht-degree: 12%
+ht-degree: 9%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 12%
 
 >[!IMPORTANT]
 >
->Adobe即將停止支援 `ExcludeMasterVideoFromAVS` 引數：2022年9月1日。 另請參閱 [已棄用的呼叫](/help/aem-ips-api/c-deprecated-calls.md).
+>Adobe將於2022年9月1日停止支援`ExcludeMasterVideoFromAVS`引數。 另請參閱[已棄用的呼叫](/help/aem-ips-api/c-deprecated-calls.md)。
 
 從最適化視訊集中排除主要視訊。
 
@@ -36,7 +36,7 @@ ht-degree: 12%
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> true|false</span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：布林值</span> </td> 
    <td colname="col3"> <p>從最適化視訊集中排除主要視訊檔案。 </p> <p>預設為true。 </p> </td> 
   </tr> 
  </tbody> 

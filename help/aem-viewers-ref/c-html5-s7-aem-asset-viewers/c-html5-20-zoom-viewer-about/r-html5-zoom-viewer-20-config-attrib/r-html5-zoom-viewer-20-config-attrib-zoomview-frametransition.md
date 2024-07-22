@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: f57a8a2e-63a1-4a59-9a25-b435d0ac39dc
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '99'
 ht-degree: 4%
 
 ---
@@ -19,16 +19,16 @@ ht-degree: 4%
 <table id="table_D5992FCFF26046079089652B211BB6C5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 無|淡化|幻燈片 </span> </p> </td> 
-   <td colname="col2"> <p>指定套用到影格變更的效果型別。 屬性 <span class="codeph"> 無 </span> 代表無過渡；畫面格變更會立即發生。 屬性 <span class="codeph"> 淡化 </span> 表示舊影格和新影格之間的交叉淡化切換。 屬性 <span class="codeph"> 幻燈片 </span> 啟動轉變，舊框架滑出檢視，新框架滑入。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">無|淡化|投影片</span> </p> </td> 
+   <td colname="col2"> <p>指定套用到影格變更的效果型別。 屬性<span class="codeph"> none </span>表示無轉變；畫面格變更會立即發生。 屬性<span class="codeph">淡化</span>表示舊框架和新框架之間的交叉淡入淡出轉換。 屬性<span class="codeph">投影片</span>會啟動轉換，舊框架會滑出檢視，新框架會滑入。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 持續時間 </span> </span> </p> </td> 
-   <td colname="col2"> <p>指定下列專案的持續時間（以秒為單位） <span class="codeph"> 淡化 </span> 或 <span class="codeph"> 幻燈片 </span> 切換效果。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname">期間</span> </span> </p> </td> 
+   <td colname="col2"> <p>指定<span class="codeph">淡化</span>或<span class="codeph">幻燈片</span>切換效果的持續時間（以秒為單位）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 間距 </span> </span> </p> </td> 
-   <td colname="col2"> <p>中相鄰影格之間的間距 <span class="codeph"> 幻燈片 </span> 轉變，範圍從 <span class="codeph"> 0 </span> 到 <span class="codeph"> 1 </span> 和相對於元件的寬度。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname">間距</span> </span> </p> </td> 
+   <td colname="col2"> <p>在<span class="codeph">投影片</span>轉換中相鄰影格之間的間距，範圍介於<span class="codeph"> 0 </span>到<span class="codeph"> 1 </span>之間，且與元件的寬度相關。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

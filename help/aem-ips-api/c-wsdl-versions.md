@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: d7a6079e-286e-4e62-b2ff-551ef4a5815c
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '901'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ https://<IPS_hostname:<IPS_port>/<IPS_webapp>/
 webservice/IpsApi[-<API_version>].wsdl 
 ```
 
-的預設值 `<IPS_webapp>` 是 `scene7`.
+`<IPS_webapp>`的預設值為`scene7`。
 
 **服務位置**
 
@@ -36,7 +36,7 @@ https://<IPS_hostname>:<IPS_port>/<IPS_webapp>/
 services/IpsApiService 
 ```
 
-**Dynamic Media地區的存取URL**
+**存取Dynamic Media地區的URL**
 
 <table id="table_45BB314ABCDA49F38DF7BECF95CC984A"> 
  <thead> 
@@ -131,19 +131,19 @@ IPS API Web服務僅支援SOAP繫結。
 
 **支援的傳輸**
 
-IPS API SOAP繫結僅支援HTTP傳輸。 使用HTTPSPOST方法提出所有SOAP請求。
+IPS API SOAP繫結僅支援HTTP傳輸。 使用HTTPSPOST方法提出所有SOAP要求。
 
-**SOAP動作標頭**
+**SOAP動作標題**
 
 若要處理要求，請將SOAPAction HTTP標頭設定為要求之作業的名稱。 WSDL繫結區段中的作業名稱屬性指定了名稱。
 
 **訊息格式**
 
-檔案/常值樣式適用於所有輸入和輸出訊息，其型別是以XML結構描述定義語言( [https://www.w3.org/TR/xmlschema-0/](https://www.w3.org/TR/xmlschema-0/))，並在WSDL檔案中指定。 所有型別都需要使用WSDL檔案中指定的目標名稱空間值的限定名稱。
+檔案/常值樣式用於所有輸入和輸出訊息，其型別以XML結構描述定義語言( [https://www.w3.org/TR/xmlschema-0/](https://www.w3.org/TR/xmlschema-0/))為基礎，並在WSDL檔案中指定。 所有型別都需要使用WSDL檔案中指定的目標名稱空間值的限定名稱。
 
 **要求驗證**
 
-在API要求中傳遞驗證證明資料的偏好方法是使用 `authHeader` 元素，如IPS API WSDL中所定義。
+在API要求中傳遞驗證認證的偏好方法，是使用IPS API WSDL中定義的`authHeader`元素。
 
 ```
 <element name="authHeader"> 
@@ -161,7 +161,7 @@ IPS API SOAP繫結僅支援HTTP傳輸。 使用HTTPSPOST方法提出所有SOAP�
  </element>
 ```
 
-**Fields**
+**欄位**
 
 <table id="table_B295FEB0EA584C2BA4122FC084AEF18D"> 
  <thead> 
@@ -172,16 +172,16 @@ IPS API SOAP繫結僅支援HTTP傳輸。 使用HTTPSPOST方法提出所有SOAP�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 使用者 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">位使用者</span> </p> </td> 
    <td colname="col2"> <p> 有效的IPS使用者電子郵件。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 密碼 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">密碼</span> </p> </td> 
    <td colname="col2"> <p>使用者帳戶的密碼。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 地區設定 </span> </p> </td> 
-   <td colname="col2"> <p> 要求的選用地區設定。 另請參閱 <b>地區設定</b> 以取得詳細資訊。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">地區設定</span> </p> </td> 
+   <td colname="col2"> <p> 要求的選用地區設定。 如需詳細資訊，請參閱<b>地區設定</b>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> appName </span> </p> </td> 
@@ -202,9 +202,9 @@ IPS API SOAP繫結僅支援HTTP傳輸。 使用HTTPSPOST方法提出所有SOAP�
  </tbody> 
 </table>
 
-此 `authHeader` 元素一律會在名稱空間中定義 `http://www.scene7.com/IpsApi/xsd`，不論API版本為何。
+`authHeader`專案一律在名稱空間`http://www.scene7.com/IpsApi/xsd`中定義，不論API版本為何。
 
-以下範例為使用 `authHeader` 請求SOAP標頭中的元素：
+以下是在請求SOAP標頭中使用`authHeader`元素的範例：
 
 ```
 <soap:Header xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"> 
@@ -219,17 +219,17 @@ IPS API SOAP繫結僅支援HTTP傳輸。 使用HTTPSPOST方法提出所有SOAP�
 
 **其他要求驗證方法**
 
-如果由於某些原因，您的使用者端應用程式無法傳遞 `authHeader` SOAP標頭、API要求也可使用HTTP基本驗證（如RFC 2617所指定）來指定認證。
+如果因為某些原因，您的使用者端應用程式無法傳遞`authHeader` SOAP標頭，API要求也可以使用HTTP基本驗證（如RFC 2617所指定）來指定認證。
 
-對於HTTP基本驗證，每個SOAPPOST請求的HTTP標頭區段都必須包含格式的標頭：
+對於HTTP基本驗證，每個SOAPPOST請求的HTTP標頭區段都必須包含表單的標頭：
 
 `Authorization: Basic base64(<IPS_user_email>:<password>)`
 
-位置 `base64()` 套用標準Base64編碼， `<IPS_user_email>` 是有效IPS使用者的電子郵件地址，且 `<password>` 是使用者的密碼。
+其中`base64()`套用標準Base64編碼，`<IPS_user_email>`為有效IPS使用者的電子郵件地址，`<password>`為使用者的密碼。
 
-使用初始請求先發制人地傳送Authorization標頭。 如果請求中未包含驗證認證， `IpsApiService` 未以狀態代碼回應 `401 (Unauthorized)`. 相反地，狀態代碼為 `500 (Internal Server Error)` 傳回SOAP錯誤內文，指出無法驗證要求。
+使用初始請求先發制人地傳送Authorization標頭。 如果要求中未包含任何驗證認證，`IpsApiService`不會以狀態碼`401 (Unauthorized)`回應。 而是傳回`500 (Internal Server Error)`的狀態碼，並傳回SOAP錯誤內文，指出無法驗證要求。
 
-在IPS 3.8之前，已使用 `AuthUser` 和 `AuthPassword` 名稱空間中的元素 `http://www.scene7.com/IpsApi`. 例如: 
+在IPS 3.8之前，透過SOAP標頭使用名稱空間`http://www.scene7.com/IpsApi`中的`AuthUser`和`AuthPassword`元素實作驗證。 例如: 
 
 ```
 <soap:Header xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"> 
@@ -238,15 +238,15 @@ IPS API SOAP繫結僅支援HTTP傳輸。 使用HTTPSPOST方法提出所有SOAP�
 </soap:Header>
 ```
 
-此樣式仍支援回溯相容性，但已遭取代以支援 `authHeader` 元素。
+此樣式仍支援回溯相容性，但已由`authHeader`專案取代。
 
 **要求授權**
 
 在呼叫者的認證通過驗證之後，會檢查請求以確保呼叫者有權執行請求的操作。 授權是以呼叫者的使用者角色為基礎，可能也需要檢查目標公司、目標使用者和其他作業引數。 此外，影像入口網站使用者必須屬於具有執行特定檔案夾和資產作業所需許可權的群組。 作業參考區段詳細說明每個作業的授權需求。
 
-**SOAP請求和回應範例**
+**範例SOAP要求與回應**
 
-下列範例顯示完整的 `addCompany` 作業，包括HTTP標題：
+下列範例顯示完整的`addCompany`作業，包括HTTP標頭：
 
 ```
 POST /scene7/services/IpsApiService HTTP/1.1 
@@ -300,7 +300,7 @@ xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
 
 **SOAP錯誤**
 
-當作業遇到例外狀況時，會傳回SOAP錯誤作為SOAP訊息的主體，取代一般回應。 例如，如果非管理員使用者嘗試傳送先前的 `addCompany` 請求，則會傳回以下回應：
+當作業遇到例外狀況時，會傳回SOAP錯誤作為SOAP訊息的主體，以取代正常回應。 例如，如果非管理員使用者嘗試傳送先前`addCompany`個請求，則會傳回下列回應：
 
 ```
 HTTP/1.1 500 Internal Server Error 

@@ -1,6 +1,6 @@
 ---
-title: 所有檢視器通用的命令參考 — 設定屬性
-description: 所有檢視器通用的設定屬性。
+title: 所有檢視器通用的命令參考 — 組態屬性
+description: 所有檢視器通用的組態屬性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
@@ -12,6 +12,6 @@ ht-degree: 0%
 
 ---
 
-# 所有檢視器通用的命令參考 — 設定屬性{#command-reference-common-to-all-viewers-configuration-attributes}
+# 所有檢視器通用的命令參考 — 組態屬性{#command-reference-common-to-all-viewers-configuration-attributes}
 
-所有檢視器通用的設定屬性。
+所有檢視器通用的組態屬性。

@@ -23,6 +23,6 @@ batchSetAssetMetadata作業中使用更新的警告或錯誤詳細資料。
 | 名稱 | 類型 | 說明 |
 |---|---|---|
 | assetHandle | `xsd:string` | 中繼資料設定失敗的資產。 |
-| fieldHandle | `xsd:string` | 設定值失敗的中繼資料欄位的控制代碼。 |
+| fieldHandle | `xsd:string` | 未成功設定其值的中繼資料欄位的控制代碼。 |
 | 代碼 | `xsd:int` | 錯誤碼。 |
 | 原因 | `xsd:string` | 錯誤說明（純文字）。 |

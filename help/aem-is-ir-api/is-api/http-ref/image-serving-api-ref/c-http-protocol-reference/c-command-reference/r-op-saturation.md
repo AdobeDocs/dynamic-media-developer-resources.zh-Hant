@@ -16,24 +16,24 @@ ht-degree: 2%
 
 調整飽和度。 變更圖層或複合影像中每個可見畫素的飽和度。
 
-`op_saturation= *`調整`*`
+`op_saturation= *`adj`*`
 
 <table id="simpletable_5F118A28FE674B06A16F6F19C56B4594"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> 調整</span> </p> </td> 
+  <td class="stentry"> <p><span class="varname">調整</span> </p> </td> 
   <td class="stentry"> <p>飽和度調整(-100...+100 int)。 </p></td> 
  </tr> 
 </table>
 
-`op_saturation=-100` 會完全減少影像的飽和度。
+`op_saturation=-100`會完全減少影像的飽和度。
 
 ## 屬性 {#section-9a3cc9ff060049449554dfa69d92fd53}
 
-圖層指令。 套用至目前圖層或複合影像，如果 `layer=comp`. 被效果圖層忽略。
+圖層指令。 套用至目前的圖層或複合影像（若為`layer=comp`）。 被效果圖層忽略。
 
 ## 預設 {#section-ef0e78f55c8b4d22aee09104dad6410a}
 
-`op_saturation=0`，飽和度不變。 CMYK影像或圖層會在套用作業之前轉換為RGB。
+`op_saturation=0`，飽和度沒有變更。 CMYK影像或圖層會在套用作業之前轉換為RGB。
 
 ## 範例 {#section-033b272f1b7e4efeb94e841fd8095357}
 

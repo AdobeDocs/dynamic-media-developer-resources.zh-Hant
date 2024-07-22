@@ -16,8 +16,8 @@ ht-degree: 0%
 
 「影像演算」會對非金字塔暈映強制實行200萬畫素大小限制。
 
-修改值 `IrMaxNonPyrVignetteSize` 在[！DNL *[!DNL install_root]* /ImageServing/conf /ImageServerRegistry.conf]如果您的應用程式需要支援影像區域（寬度x高度）大於此限制的非金字塔暈映。
+如果您的應用程式需要支援影像區域（寬度x高度）大於此限制的非金字塔暈映，請修改[！DNL *[!DNL install_root]* /ImageServing/conf /ImageServerRegistry.conf]中`IrMaxNonPyrVignetteSize`的值。
 
 >[!NOTE]
 >
->調整屬性 `attribute::MaxPix` 和 `IS::MaxMessageSize` 以允許異常大的回應影像大小。 如需詳細資訊，請參閱影像伺服檔案。
+>調整屬性`attribute::MaxPix`和`IS::MaxMessageSize`以允許異常大的回應影像大小。 如需詳細資訊，請參閱影像伺服檔案。

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 203dc041-c399-4668-b9f4-44241feb5a82
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '27'
-ht-degree: 29%
+source-wordcount: '26'
+ht-degree: 11%
 
 ---
 
@@ -21,7 +21,7 @@ Video360 Viewer的設定屬性。
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
    <td colname="col2"> <p> 啟用或停用緩衝動畫（等待圖示）顯示。 </p> </td> 
   </tr> 
  </tbody> 

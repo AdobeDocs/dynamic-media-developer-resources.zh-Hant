@@ -1,14 +1,14 @@
 ---
 description: getPhotoshopPath作業傳回的影像位置座標。
 solution: Experience Manager
-title: 四軸透視
+title: 透視四色
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: dae44565-083d-47f5-8a08-2567590315a4
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '71'
-ht-degree: 19%
+ht-degree: 8%
 
 ---
 
@@ -33,7 +33,7 @@ getPhotoshopPath作業傳回的影像位置座標。
 
 ## 範例 {#section-19ed4409ff3a41c9b52a9c9424612927}
 
-此 `PerspectiveQuad` type會依照以下順序傳回資料：
+`PerspectiveQuad`型別傳回資料的順序如下：
 
 ```
 <complexType name="PerspectiveQuad">
@@ -52,4 +52,3 @@ getPhotoshopPath作業傳回的影像位置座標。
 >[!MORELIKETHIS]
 >
 >* [getPhotoshopPath](../../operations/c-operations-intro/c-methods/r-get-photoshop-path.md#reference-545f902f84194951ac04e947fdc803b9)
-

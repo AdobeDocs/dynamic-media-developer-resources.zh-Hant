@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 84deb0d4-ac7e-4ba0-884f-675a0dcc827b
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 7%
+source-wordcount: '58'
+ht-degree: 5%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 7%
 <table id="table_2A4F898BBF88417DB0834B7F78637F5D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 設定初次載入時視訊播放的靜音模式。 若設為 <span class="codeph"> 1 </span> 音量會靜音，否則視訊會播放聲音。 在某些裝置上，載入時將視訊播放設為靜音也會允許視訊自動播放。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
+   <td colname="col2"> <p> 在初始載入時將視訊播放設為靜音模式。 若設為<span class="codeph"> 1 </span>，音量會設為靜音；否則，視訊會播放聲音。 在某些裝置上，載入時將視訊播放設為靜音也會允許視訊自動播放。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

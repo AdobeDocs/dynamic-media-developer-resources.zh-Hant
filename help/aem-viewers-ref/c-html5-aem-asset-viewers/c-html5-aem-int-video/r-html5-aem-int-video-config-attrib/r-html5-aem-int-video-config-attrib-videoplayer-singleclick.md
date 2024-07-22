@@ -22,7 +22,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|playPause</span> </p> </td> 
-   <td colname="col2"> <p> 設定按一下/點選以切換播放/暫停的對應。 設定為 <span class="codeph"> 無</span> 停用按一下/點選以播放/暫停。 若設為 <span class="codeph"> playPause</span>，然後選取視訊可在播放和暫停視訊之間切換。 在某些裝置上，您可以使用原生控制項。 在此案例中， <span class="codeph"> singleclick</span> 行為已停用。 </p> </td> 
+   <td colname="col2"> <p> 設定按一下/點選以切換播放/暫停的對應。 設定為<span class="codeph"> none</span>會停用按一下/點選以播放/暫停。 若設為<span class="codeph"> playPause</span>，則選取視訊可在播放和暫停視訊之間切換。 在某些裝置上，您可以使用原生控制項。 在此情況下，<span class="codeph"> singleclick</span>行為已停用。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -31,8 +31,8 @@ ht-degree: 15%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 處理公司。 |
-| assetHandle | `xsd:string` | 是 | 資產控點。 |
+| companyHandle | `xsd:string` | 是 | 公司處理。 |
+| assetHandle | `xsd:string` | 是 | 資產控制代碼。 |
 | configSettingArray | `types:ConfigSettingArray` | 是 | 您要套用至檢視器的組態設定陣列。 |
 
 **輸出(updateViewerConfigSettingsReturn)**

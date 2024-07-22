@@ -1,5 +1,5 @@
 ---
-description: 屬性集型別會指定用來協助管理屬性集的各種設定。
+description: 屬性集型別指定用來協助管理屬性集的各種設定。
 solution: Experience Manager
 title: createPropertySetType
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: 1730ccbf-e8b0-4f92-9daf-da2fa047cbbd
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '156'
-ht-degree: 12%
+ht-degree: 10%
 
 ---
 
 # createPropertySetType{#createpropertysettype}
 
-屬性集型別會指定用來協助管理屬性集的各種設定。
+屬性集型別指定用來協助管理屬性集的各種設定。
 
 語法
 
@@ -31,10 +31,10 @@ ht-degree: 12%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 否 | 擁有屬性集型別的公司的控制代碼。 若 `companyHandle` 未傳遞，且呼叫者為 `IpsAdmin`，則會建立全域屬性集型別。 |
+| companyHandle | `xsd:string` | 否 | 擁有屬性集型別的公司的控制代碼。 如果未傳遞`companyHandle`，且呼叫者為`IpsAdmin`，則會建立全域屬性集型別。 |
 | name | `xsd:string` | 是 | 屬性集型別的名稱。 |
 | propertyType | `xsd:string` | 是 | 屬性集型別的選擇。 |
-| allowMultiple | `xsd:boolean` | 是 | 決定您的程式是否可以擁有多個屬性集。 |
+| allowmultiple | `xsd:boolean` | 是 | 決定您的程式是否可以擁有多個屬性集。 |
 
 **輸出(createPropertySetTypeReturn)**
 
@@ -44,9 +44,9 @@ ht-degree: 12%
 
 ## 範例 {#section-13396c9639a6475190e622eae3cdb534}
 
-此程式碼範例會建立屬性集，其名稱和型別由 `PropertySet Types` 常數。 擁有屬性集型別的公司的控制代碼。 如果未傳遞companyHandle且呼叫者為IpsAdmin，則會建立全域屬性集型別。
+這個程式碼範例會以`PropertySet Types`常數所指定的名稱和型別建立屬性集。 擁有屬性集型別的公司的控制代碼。 如果未傳遞companyHandle且呼叫者是IpsAdmin，則會建立全域屬性集型別。
 
-**請求**
+**要求**
 
 ```java
 <createPropertySetTypeReturn xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">
@@ -54,7 +54,7 @@ ht-degree: 12%
 </createPropertySetTypeReturn>
 ```
 
-**回答**
+**回應**
 
 ```java
 <createPropertySetTypeReturn xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

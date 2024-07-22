@@ -8,7 +8,7 @@ exl-id: 06fdd9f5-5021-4f0b-b312-4465df9bda25
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '102'
-ht-degree: 13%
+ht-degree: 11%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 13%
 
 此請求的名稱會誤導人。 它不會只傳回反映公司使用磁碟空間的純量值，而是會取得有關公司結構的其他資訊。
 
-**請求**
+**要求**
 
 ```java
 <ns1:getDiskUsageParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">
@@ -49,7 +49,7 @@ ht-degree: 13%
 </ns1:getDiskUsageParam>
 ```
 
-**回答**
+**回應**
 
 ```java
 <getDiskUsageReturn xmlns="http://www.scene7.com/IpsApi/xsd">

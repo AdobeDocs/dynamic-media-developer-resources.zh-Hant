@@ -1,24 +1,24 @@
 ---
-description: 從特定群組移除公司使用者。
+description: 從特定群組中移除公司使用者。
 solution: Experience Manager
-title: removeGroupMembers
+title: removeGroupMember
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 8a9b7d54-d11b-41a8-9783-573a316e0ac6
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '117'
-ht-degree: 10%
+ht-degree: 8%
 
 ---
 
-# removeGroupMembers{#removegroupmembers}
+# removeGroupMember{#removegroupmembers}
 
-從特定群組移除公司使用者。
+從特定群組中移除公司使用者。
 
-**移除命令之間的差異**
+移除命令之間的&#x200B;**差異**
 
-* `removeGroupMembers`：從群組移除多個使用者。
+* `removeGroupMembers`：從群組移除多位使用者。
 * `removeGroupMembership`：從群組陣列中移除個別使用者。
 
 ## 授權的使用者型別 {#section-2c64cdac15184fbba6c7b2945b5d87f7}
@@ -43,9 +43,9 @@ IPS API未傳回此作業的回應。
 
 ## 範例 {#section-9eedac852cea46ec80de6a6928bf97ac}
 
-此程式碼範例會從指定的公司移除使用者。 從具有使用者控制代碼陣列的群組中移除多個使用者。
+此程式碼範例從指定的公司移除使用者。 從具有使用者控制代碼陣列的群組中移除多個使用者。
 
-**請求**
+**要求**
 
 ```java
 <ns1:removeGroupMembersParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">
@@ -57,6 +57,6 @@ IPS API未傳回此作業的回應。
 </ns1:removeGroupMembersParam>
 ```
 
-**回答**
+**回應**
 
 無。

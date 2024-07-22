@@ -8,7 +8,7 @@ exl-id: 0e339ecf-83b5-410c-8683-f3d73bd92339
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '70'
-ht-degree: 21%
+ht-degree: 18%
 
 ---
 
@@ -28,19 +28,19 @@ ht-degree: 21%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| includeExpired | `xsd:boolean` | 是 | 設為true可傳回過期和未過期的公司。 |
+| includeExpired | `xsd:boolean` | 是 | 設為True會傳回過期和未過期的公司。 |
 
 **輸出(getAllCompaniesReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| companyArray | `types:CompanyArray` | 是 | 公司陣列。 |
+| companyArray | `types:CompanyArray` | 是 | 公司的陣列。 |
 
 ## 範例 {#section-3eecf4e6900b41fb92a0e3214791c6b9}
 
-此程式碼範例會傳回陣列中IPS中的所有公司。 請注意，為簡短起見，範例回應會遭截斷。
+此程式碼範例會傳回陣列中IPS中的所有公司。 請注意，範例回應會截斷，以簡短起見。
 
-**請求**
+**要求**
 
 ```java
 <ns1:getAllCompaniesParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">
@@ -48,7 +48,7 @@ ht-degree: 21%
 </ns1:getAllCompaniesParam>
 ```
 
-**回答**
+**回應**
 
 ```java
 <ns1:getAllCompaniesReturnxmlns:ns1="http://www.scene7.com/IpsApi/xsd">

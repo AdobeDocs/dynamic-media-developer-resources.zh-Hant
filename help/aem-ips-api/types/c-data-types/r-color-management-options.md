@@ -23,5 +23,5 @@ ht-degree: 11%
 | 名稱 | 類型 | 說明 |
 |---|---|---|
 | 色彩管理 | `xsd:string` | 色彩管理模式選擇。 |
-| sourceProfileHandle | `xsd:string` | 來源設定檔控制代碼。 |
+| sourceProfileHandle | `xsd:string` | Source設定檔控制代碼。 |
 | outputProfileHandle | `xsd:string` | 輸出設定檔控制代碼。 |

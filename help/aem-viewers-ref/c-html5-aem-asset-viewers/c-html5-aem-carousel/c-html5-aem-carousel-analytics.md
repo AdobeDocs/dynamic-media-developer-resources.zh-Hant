@@ -8,7 +8,7 @@ exl-id: 9e321684-4861-4d81-b55c-66c77635930e
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '105'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 ## 自訂追蹤 {#section-cda48fc9730142d0bb3326bac7df3271}
 
-依預設，檢視器會傳送單一追蹤HTTP請求給已設定的影像伺服器，其中包含檢視器型別和版本資訊。
+依預設，檢視器會傳送單一追蹤HTTP要求給已設定的影像伺服器，其中包含檢視器型別和版本資訊。
 
-若要與協力廠商分析系統整合，請務必監聽 `trackEvent` 檢視器回呼並處理 `eventInfo` 必要時，回呼函式的引數。 下列程式碼是此類處理常式函式的範例：
+若要與協力廠商分析系統整合，必須接聽`trackEvent`檢視器回呼，並視需要處理回呼函式的`eventInfo`引數。 下列程式碼為此類處理常式函式的範例：
 
 ```java {.line-numbers}
 var carouselViewer = new s7viewers.CarouselViewer({ 
@@ -53,11 +53,11 @@ var carouselViewer = new s7viewers.CarouselViewer({
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LOAD </span> </p> </td> 
-   <td colname="col2"> <p>檢視器會先載入。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">載入</span> </p> </td> 
+   <td colname="col2"> <p>首先載入檢視器。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 橫幅 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">橫幅</span> </p> </td> 
    <td colname="col2"> <p>輪播橫幅影像已變更。 </p> </td> 
   </tr> 
   <tr> 

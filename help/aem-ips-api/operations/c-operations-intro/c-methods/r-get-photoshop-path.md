@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 46d88547-bb60-4370-9c79-bd281b40ba28
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 19%
+source-wordcount: '87'
+ht-degree: 17%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 19%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 使用您要使用的影像處理公司。 |
+| companyHandle | `xsd:string` | 是 | 使用您要處理的影像處理公司。 |
 | assetHandle | `xsd:string` | 是 | 處理影像資產。 |
 | pathName | `xsd:string` | 是 | 您要傳回的Photoshop路徑名稱。 |
 
@@ -43,11 +43,11 @@ ht-degree: 19%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 四軸透視 | `types:PerspectiveQuad` | 是 | 根據路徑傳回影像座標。 另請參閱 [四軸透視](../../../types/c-data-types/r-perspective-quad.md#reference-3c1f780f9c264e5b870b1ade24566204). |
+| 透視四色 | `types:PerspectiveQuad` | 是 | 根據路徑傳回影像座標。 請參閱[PerspectiveQuad](../../../types/c-data-types/r-perspective-quad.md#reference-3c1f780f9c264e5b870b1ade24566204) |
 
 ## 範例 {#section-1f0461cbdc184c8d8925336d5279db47}
 
-**請求**
+**要求**
 
 ```java
 <getPhotoshopPathParam xmlns="http://www.scene7.com/IpsApi/xsd/2012-07-31">
@@ -57,7 +57,7 @@ ht-degree: 19%
 </getPhotoshopPathParam>
 ```
 
-**回答**
+**回應**
 
 ```java
 <getPhotoshopPathReturn xmlns="http://www.scene7.com/IpsApi/xsd/2012-07-31">
@@ -76,5 +76,4 @@ ht-degree: 19%
 
 >[!MORELIKETHIS]
 >
->* [四軸透視](../../../types/c-data-types/r-perspective-quad.md#reference-3c1f780f9c264e5b870b1ade24566204)
-
+>* [透視](../../../types/c-data-types/r-perspective-quad.md#reference-3c1f780f9c264e5b870b1ade24566204)

@@ -8,7 +8,7 @@ exl-id: 099263e4-8214-46eb-898e-7a28c4f25598
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '90'
-ht-degree: 14%
+ht-degree: 12%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 14%
 |---|---|---|---|
 | companyHandle | `xsd:string` | 是 | 包含標籤欄位之公司的控制代碼。 |
 | fieldHandle | `xsd:string` | 是 | 要修改之標籤欄位的控點。 |
-| valueArray | `xsd:string` | 是 | 要新增至欄位現有字典的標籤值陣列。 |
+| valueArray | `xsd:string` | 是 | 要新增到欄位現有字典的標籤值陣列。 |
 
 **輸出(addTagFieldValuesParam)**
 
@@ -40,7 +40,7 @@ IPS API未傳回此作業的回應。
 
 ## 範例 {#section-c4049392f1c548f883b8b1f8f167bada}
 
-**請求**
+**要求**
 
 ```java {.line-numbers}
 <addTagFieldValuesParam xmlns="http://www.scene7.com/IpsApi/xsd/2010-01-31">
@@ -53,6 +53,6 @@ IPS API未傳回此作業的回應。
 </addTagFieldValuesParam>
 ```
 
-**回答**
+**回應**
 
 無。

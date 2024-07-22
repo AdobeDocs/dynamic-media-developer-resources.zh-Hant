@@ -1,5 +1,5 @@
 ---
-description: saveToFile=的根路徑 將以req=saveToFile產生的影像寫入的根資料夾的相對路徑。
+description: saveToFile=的根路徑。 將以req=saveToFile產生的影像寫入的根資料夾相對路徑。
 solution: Experience Manager
 title: 儲存路徑
 feature: Dynamic Media Classic,SDK/API
@@ -14,17 +14,17 @@ ht-degree: 3%
 
 # 儲存路徑{#savepath}
 
-saveToFile=的根路徑 將以req=saveToFile產生的影像寫入的根資料夾的相對路徑。
+saveToFile=的根路徑。 將以req=saveToFile產生的影像寫入的根資料夾相對路徑。
 
-`SavePath` 是文字字串值。
+`SavePath`是文字字串值。
 
 ## 屬性 {#section-343d1371e966491c92854a8df14c3c50}
 
-文字字串。 必須為空白或有效的相對資料夾路徑。 一律與設定的絕對根路徑結合 `ImageServer::SaveDirectory`.
+文字字串。 必須為空白或有效的相對資料夾路徑。 一律與使用`ImageServer::SaveDirectory`設定的絕對根路徑結合。
 
 ## 預設 {#section-ae751eea97654f399c6aaee3f3252cbb}
 
-繼承自 `default::SavePath` 若未定義。 如果解析的值為空，則會停用儲存至檔案的功能。
+如果未定義，則繼承自`default::SavePath`。 如果解析的值為空白，則會停用儲存至檔案的功能。
 
 ## 另請參閱 {#section-b38b045bbf084ca5a4b24ea12c4877ae}
 

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: f24edd53-4b21-4147-9b50-95e616279aa8
 source-git-commit: e8e3ce9850ab8059aed81e720574d0c93f867a22
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '133'
+ht-degree: 1%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 在RTF字串中參照的所有字型都必須可在預設目錄或目前影像目錄的字型對應檔案中使用，否則會傳回錯誤。
 
-登入對應的字型檔案即可獲得斜體及粗體文字的最佳品質。 如果不可用，伺服器可以從標準字型合成粗體和/或斜體字型。 (請參閱 [attribute：：SynthesizeFontStyles](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-synthesizefontstyles.md).
+登入對應的字型檔案即可獲得斜體及粗體文字的最佳品質。 如果不可用，伺服器可以從標準字型合成粗體和/或斜體字型。 (請參閱[屬性：：SynthesizeFontStyles](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-synthesizefontstyles.md)。
 
-指定的字型 `attribute::DefaultFont` 當RTF字串中未明確指定任何專案時使用。
+在RTF字串中未明確指定字型時，會使用以`attribute::DefaultFont`指定的字型。
 
 「影像伺服」支援TrueType、OpenType®、Adobe Type1 （僅限Windows）字型。
 
@@ -38,4 +38,4 @@ See [https://www.photofont.com](https://www.photofont.com) for additional inform
 
 ## 另請參閱 {#section-6cb8a802aa044836bbe449d559093f3a}
 
-[字型地圖參考](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/c-font-map-reference.md#concept-f81f319d03c646c5a8ef87b3277dd37d)， [attribute：：SynthesizeFontStyles](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-synthesizefontstyles.md#reference-1b12ba881b9146c793bcb07407cacb15)， [attribute：：DefaultFont](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultfont.md#reference-48b763ac254545e89a25c76ff7581107)
+[字型對應參考](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/c-font-map-reference.md#concept-f81f319d03c646c5a8ef87b3277dd37d)，[屬性：：SynthesizeFontStyles](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-synthesizefontstyles.md#reference-1b12ba881b9146c793bcb07407cacb15)，[屬性：：DefaultFont](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultfont.md#reference-48b763ac254545e89a25c76ff7581107)

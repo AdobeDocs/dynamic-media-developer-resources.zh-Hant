@@ -8,7 +8,7 @@ exl-id: 569130ae-5515-4b14-a410-2bd6f9fc7638
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '118'
-ht-degree: 19%
+ht-degree: 17%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 19%
 
 >[!NOTE]
 >
->新資料夾隸屬於Images資料夾，即使您指定 `/` 以指出公司的根目錄。
+>新資料夾隸屬於Images資料夾，即使您指定了`/`來指示公司的根目錄亦然。
 
 語法
 
@@ -33,7 +33,7 @@ ht-degree: 19%
 
 >[!NOTE]
 >
->使用者必須擁有上層資料夾的讀取/寫入許可權。
+>使用者必須具有上層資料夾的讀取/寫入存取權。
 
 ## 參數 {#section-c00d8d89cf114886a535056f2a1bf892}
 
@@ -42,7 +42,7 @@ ht-degree: 19%
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
 | companyHandle | `xsd:string` | 是 | 公司的控制代碼 |
-| 資料夾路徑 | `xsd:string` | 是 | 用來擷取葉層級資料夾和所有子資料夾的根資料夾。 如果排除，則使用公司根目錄。 |
+| 資料夾路徑 | `xsd:string` | 是 | 用來擷取葉層級資料夾及所有子資料夾的根資料夾。 如果排除，則會使用公司根目錄。 |
 
 **輸出(createFolderParam)**
 
@@ -54,7 +54,7 @@ ht-degree: 19%
 
 此範常式式碼會在公司的根目錄下建立資料夾。 回應會傳回新建立資料夾的控制代碼。
 
-**請求**
+**要求**
 
 ```java
 <ns1:createFolderParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">
@@ -63,7 +63,7 @@ ht-degree: 19%
 </ns1:createFolderParam>
 ```
 
-**回答**
+**回應**
 
 ```java
 <ns1:createFolderReturn xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

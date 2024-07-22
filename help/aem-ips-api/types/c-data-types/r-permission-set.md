@@ -20,5 +20,5 @@ ht-degree: 27%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| PermissionSetHandle | `xsd:string` | 處理許可權集。 |
+| PermissionSetHandle | `xsd:string` | 許可權集的處理。 |
 | permissionArray | `types:PermissionArray` | 一系列許可權。 |

@@ -8,7 +8,7 @@ exl-id: 50f437d6-fec5-4961-884e-fdb75d201ab7
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '81'
-ht-degree: 17%
+ht-degree: 13%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 17%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 公司控點。 |
+| companyHandle | `xsd:string` | 是 | 公司控制代碼。 |
 | fieldHandle | `xsd:string` | 是 | 標籤欄位控制代碼。 |
 | valueArray | `types:StringArray` | 是 | 取代欄位現有字典的標籤值陣列。 當新值與現有值相符時，會維護資產關聯。 |
 
@@ -40,7 +40,7 @@ IPS API未傳回此作業的回應。
 
 ## 範例 {#section-b11cafd9bed54ab5836c737cc075c918}
 
-**請求**
+**要求**
 
 ```java
 <setTagFieldValuesParam xmlns="http://www.scene7.com/IpsApi/xsd/2010-01-31">
@@ -57,6 +57,6 @@ IPS API未傳回此作業的回應。
 </setTagFieldValuesParam>
 ```
 
-**回答**
+**回應**
 
 無。

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 1c700d12-4bea-4b87-91c1-f615c3dceb79
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 9%
+source-wordcount: '47'
+ht-degree: 6%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 9%
 <table id="table_BE34F807437C4955A2A640495E05138F"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td> <p> 當設定為 <span class="codeph"> 1</span>時，元件會使用所有頁面的元素來填入下拉式面板，包括未定義標籤的頁面。 </p> <p>當設定為 <span class="codeph"> 0</span> 下拉式面板中只會顯示具有明確標籤的專案。 </p> </td> 
+   <td> <p> <span class="codeph"> 0|1</span> </p> </td> 
+   <td> <p> 設定為<span class="codeph"> 1</span>時，元件會使用所有頁面的元素來填入下拉式面板，即使未定義標籤的頁面亦然。 </p> <p>設定為<span class="codeph"> 0</span>時，下拉式面板中只會顯示具有明確標籤的專案。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

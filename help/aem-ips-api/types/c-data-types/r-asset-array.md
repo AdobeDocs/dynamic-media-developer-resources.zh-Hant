@@ -1,5 +1,5 @@
 ---
-title: AssetArray
+title: 資產陣列
 description: 資產陣列。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management

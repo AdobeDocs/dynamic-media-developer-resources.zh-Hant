@@ -1,5 +1,5 @@
 ---
-description: 除了常見的圖層指令外，這些指令還適用於純色圖層。
+description: 除了常見的圖層指令外，這些指令還會套用到純色圖層。
 solution: Experience Manager
 title: 純色圖層指令
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # 純色圖層指令{#solid-color-layer-commands}
 
-除了常見的圖層指令外，這些指令還適用於純色圖層。
+除了常見的圖層指令外，這些指令還會套用到純色圖層。
 
 <table id="simpletable_4E563E4C797E45F390340258170BDCE4"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e" type="reference" format="dita" scope="local"> 遮色片</a> </p> </td> 
-  <td class="stentry"> <p>指定選用的圖層遮色片。 </p></td> 
+  <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e" type="reference" format="dita" scope="local">遮罩</a> </p> </td> 
+  <td class="stentry"> <p>指定選擇性圖層遮色片。 </p></td> 
  </tr> 
 </table>

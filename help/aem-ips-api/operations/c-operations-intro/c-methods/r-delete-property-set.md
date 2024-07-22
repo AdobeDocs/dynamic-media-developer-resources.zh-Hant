@@ -8,7 +8,7 @@ exl-id: 72429030-200d-4e13-a537-10a728998a26
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '83'
-ht-degree: 13%
+ht-degree: 10%
 
 ---
 
@@ -39,9 +39,9 @@ IPS API未傳回此作業的回應。
 
 ## 範例 {#section-cf319fc8f86a40ab9cbd838b031973fe}
 
-此程式碼範例使用集的控點作為中的欄位 `deletePropertySetParam` 傳送至IPS Web服務伺服器，以便刪除屬性集。
+這個程式碼範例使用集合的控制代碼做為傳送至IPS Web服務伺服器之`deletePropertySetParam`中的欄位，以刪除屬性集合。
 
-**請求**
+**要求**
 
 ```java
 <deletePropertySetParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">
@@ -49,6 +49,6 @@ IPS API未傳回此作業的回應。
 </deletePropertySetParam>
 ```
 
-**回答**
+**回應**
 
 無。

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: fd1fa0f2-d666-4470-8b5b-673f3c4327e0
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 7%
+source-wordcount: '58'
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> isCommand</span></span> </p> </td> 
-   <td colname="col2"> <p> 套用至頁面影像的「影像伺服」命令字串。 若在URL中指定，則所有出現的 <span class="codeph"> 和</span> 和 <span class="codeph"> =</span> 必須為HTTP編碼為 <span class="codeph"> %26</span> 和 <span class="codeph"> %3D</span>（分別）。 </p> <p> <p>注意：不支援影像大小調整操控命令。 </p> </p> </td> 
+   <td colname="col2"> <p> 套用至頁面影像的「影像伺服」命令字串。 若在URL中指定，所有<span class="codeph"> &amp;</span>和<span class="codeph"> =</span>的專案都必須分別使用HTTP編碼為<span class="codeph"> %26</span>和<span class="codeph"> %3D</span>。 </p> <p> <p>注意：不支援影像大小調整操控命令。 </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

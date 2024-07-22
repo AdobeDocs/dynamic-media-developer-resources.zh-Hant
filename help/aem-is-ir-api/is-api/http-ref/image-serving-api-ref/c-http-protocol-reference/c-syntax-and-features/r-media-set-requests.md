@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 71efed33-6248-4d23-ab4e-2caec3449171
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '953'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 要求語法 {#section-d72b1d95e4ce4bb1b332ce096c2b99f1}
 
-設定的回應 `catalog::ImageSet` 可透過以下方式擷取： `req=set` 修飾元並參照網路路徑中的目錄記錄id。 或者，您也可以使用直接在URL中指定影像集 `imageset=` 修飾元。 如果 `imageset=` 修飾元可用來指定影像集，整個值應以大括弧括住，以便逸出影像集值，並確保任何包含的修飾元不會解譯為URL查詢字串的一部分。
+可以使用`req=set`修飾元並參考網路路徑中的目錄記錄ID，來擷取`catalog::ImageSet`的設定回應。 或者，可以使用`imageset=`修飾元直接在URL中指定影像集。 如果使用`imageset=`修飾元來指定影像集，則整個值應括在大括弧中，以便逸出影像集值並確保任何包含的修飾元不會解譯為URL查詢字串的一部分。
 
 ## 集合回應的型別 {#section-93eb0a1f70344da2a888e56372ad3896}
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 <table id="simpletable_3718A93699F64805A41BC8A24D7962D2"> 
  <tr class="strow"> 
   <td class="stentry"> <p>簡單影像 </p></td> 
-  <td class="stentry"> <p>影像記錄，但不包含 <span class="codeph"> catalog：：ImageSet</span> 已定義。 </p></td> 
+  <td class="stentry"> <p>未定義<span class="codeph">目錄：：ImageSet</span>的影像記錄。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>簡單影片 </p></td> 
@@ -67,9 +67,9 @@ ht-degree: 0%
 
 ## 外部集合型別偵測 {#section-3dd6e453528d46898e559d31458a59ba}
 
-當 `req=set` 收到要求，要產生的回應型別由的值決定 `catalog::AssetType`. 如果 `catalog::AssetType` 未定義，則回應型別由以下規則決定：
+收到`req=set`要求時，要產生的回應型別由`catalog::AssetType`的值決定。 如果未定義`catalog::AssetType`，則回應型別由下列規則決定：
 
-* 如果在影像目錄中找到記錄，並且 `catalog::ImageSet` 已定義
+* 如果在影像目錄中找到記錄且已定義`catalog::ImageSet`
 
    * 如果記錄影像集欄位中至少有一個專案包含冒號，則假設電子目錄集
    * 如果記錄影像集欄位中至少有一個專案包含兩個分號，則假設媒體已設定。
@@ -100,7 +100,7 @@ ht-degree: 0%
 
 ## 內部集合型別偵測 {#section-8f46490e467247e69ce284704def06f3}
 
-當偵測到外部集為型別媒體集時，回應會包含一組媒體集專案，這些專案會與中的每個媒體集專案相對應。 `catalog::ImageSet`. 如果為特定媒體集專案指定了可選的型別引數，則會根據下表將其對應至輸出型別：
+當偵測到外部集為型別媒體集時，回應會包含一組媒體集專案，這些專案與`catalog::ImageSet`中的每個媒體集專案相對應。 如果為特定媒體集專案指定了可選的型別引數，則會根據下表將其對應至輸出型別：
 
 | 輸入類型 | 輸出型別 |
 |---|---|
@@ -126,22 +126,22 @@ ht-degree: 0%
 
 ## 標籤索引鍵 {#section-bf565de6f7294cf89620343c9071f415}
 
-此 `labelkey=` 修飾元會與 `catalog::UserData`產生影像和色票標籤的欄位。 此 `catalog:UserData` 欄位會剖析為一組索引鍵/值組，而此組中的標籤索引鍵會擷取給定索引鍵的值。 此值隨後會傳回至 *`l`* 屬性 *`s`* 和 *`i`*.
+`labelkey=`修飾元與`catalog::UserData`欄位搭配使用，以產生影像和色票的標籤。 `catalog:UserData`欄位會剖析為一組索引鍵/值配對，而此組中的labelkey索引會擷取指定索引鍵的值。 然後會在&#x200B;*`s`*&#x200B;和&#x200B;*`i`*&#x200B;的&#x200B;*`l`*&#x200B;屬性中傳回此值。
 
 ## 強制的限制 {#section-b9f042873bee45a5ae11b69fd42f2bca}
 
-為了限制回應大小並防止自我參照問題，最大巢狀深度是由伺服器屬性所控制 `PS::fvctx.nestingLimit`. 如果超過此限制，則會傳回錯誤。
+為了限制回應的大小並防止自我參照問題，最大巢狀深度是由伺服器屬性`PS::fvctx.nestingLimit`所控制。 如果超過此限制，則會傳回錯誤。
 
-為了限制大型e-catalog集的xml回應大小，會根據伺服器屬性抑制手冊集專案的私人中繼資料 `PS::fvctx.brochureLimit`. 會匯出與手冊相關的所有私人中繼資料，直到達到手冊限製為止。 超過限制後，會隱藏私人地圖和使用者資料，並設定對應的旗標，以指出隱藏的資料型別。
+為了限制大型e-catalog集的xml回應大小，會根據伺服器屬性`PS::fvctx.brochureLimit`抑制手冊集專案的私人中繼資料。 會匯出與手冊相關的所有私人中繼資料，直到達到手冊限製為止。 超過限制後，會隱藏私人地圖和使用者資料，並設定對應的旗標，以指出隱藏的資料型別。
 
 不支援巢狀媒體集。 巢狀媒體集定義為包含型別媒體集的媒體集專案的媒體集。 如果偵測到這種情況，則會傳回錯誤。
 
 ## 範例 {#section-588c9d33aa05482c86cd2b1936887228}
 
-針對以下專案的XML回應範例： `req=set` 如需詳細資訊，請參閱HTML範例標題下的屬性頁面。
+如需`req=set`要求的範例XML回應，請參閱HTML範例標頭底下的「屬性」頁面。
 
 `http://crc.scene7.com/is-docs/examples/properties.htm`
 
 ## 另請參閱 {#section-625ec466c948476e800dc0c52a4532d3}
 
-[需要=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76) ， [影像集=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-imageset-req.md#reference-c42935490db84830b31e9e649895dee3)， [catalog：：ImageSet](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md)， [影像目錄參考](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3)
+[req=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76) ， [影像集=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-imageset-req.md#reference-c42935490db84830b31e9e649895dee3)， [目錄：：ImageSet](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md)， [影像目錄參考](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3)

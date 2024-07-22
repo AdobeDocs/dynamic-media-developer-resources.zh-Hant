@@ -18,7 +18,7 @@ ht-degree: 1%
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-外觀由下列CSS類別選取器控制：
+外觀是由下列CSS類別選取器所控制：
 
 ```
 .s7basiczoomviewer *:focus
@@ -33,7 +33,7 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 大綱 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">大綱</span> </p> </td> 
    <td colname="col2"> <p>焦點反白顯示樣式。 </p> </td> 
   </tr> 
  </tbody> 

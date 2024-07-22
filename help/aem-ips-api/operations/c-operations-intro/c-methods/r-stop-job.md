@@ -8,7 +8,7 @@ exl-id: 90e61cf1-11f1-4504-8007-126ba4fe436a
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '54'
-ht-degree: 22%
+ht-degree: 18%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 22%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 公司控點。 |
+| companyHandle | `xsd:string` | 是 | 公司控制代碼。 |
 | jobHandle | `xsd:string` | 是 | 處理您要停止的工作。 |
 
 **輸出(stopJobReturn0**
@@ -44,7 +44,7 @@ IPS API未傳回此作業的回應。
 
 ## 範例 {#section-f7e07fa09ae24dc89685533f20ab3b81}
 
-**請求**
+**要求**
 
 ```java
 <stopJobParam xmlns="http://www.scene7.com/IpsApi/xsd">
@@ -53,6 +53,6 @@ IPS API未傳回此作業的回應。
 </stopJobParam>
 ```
 
-**回答**
+**回應**
 
 無。

@@ -8,19 +8,19 @@ exl-id: 28b6b981-94f6-4136-b322-992e18d154db
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
 source-wordcount: '58'
-ht-degree: 8%
+ht-degree: 5%
 
 ---
 
 # 初始框架{#initialframe}
 
-` initialFrame= *`frame`*`
+` initialFrame= *`框架`*`
 
 <table id="table_06B5F795889E402FB6BCEA4D882E1422"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> frame</span></span> </p> </td> 
-   <td colname="col2"> <p> 指定要在檢視器載入時顯示的從零開始的展開索引。 索引符合橫向模式下的跨頁索引。 如果檢視器旋轉為縱向，檢視器會顯示跨頁所指向的最左側頁面 <span class="codeph"> frameIdx</span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname">框架</span></span> </p> </td> 
+   <td colname="col2"> <p> 指定要在檢視器載入時顯示的從零開始的展開索引。 索引符合橫向模式中的跨頁索引。 如果檢視器旋轉為直向，檢視器會顯示跨頁最左邊的<span class="codeph"> frameIdx</span>指向的頁面。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

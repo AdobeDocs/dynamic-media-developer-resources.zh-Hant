@@ -8,7 +8,7 @@ exl-id: c042b87b-3f60-4608-8ed5-0fc031a66c03
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '96'
-ht-degree: 11%
+ht-degree: 10%
 
 ---
 
@@ -48,7 +48,7 @@ IPS API未傳回此作業的回應。
 
 此程式碼範例會從公司的根目錄中刪除資料夾。 它需要資料夾控制代碼，您必須從其他作業取得此控制代碼。
 
-**請求**
+**要求**
 
 ```java
 <ns1:deleteFolderParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

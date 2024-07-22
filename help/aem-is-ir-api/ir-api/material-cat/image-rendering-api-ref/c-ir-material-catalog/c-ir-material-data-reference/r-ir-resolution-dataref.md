@@ -1,5 +1,5 @@
 ---
-description: 解析度. 「真實世界」的影像解析度，通常以每英吋畫素表示，但也可能以其他單位表示，例如每米的畫素。
+description: 解析度。 「真實世界」影像解析度，通常以每英吋畫素表示，但也可能是其他單位，例如每米的畫素。
 solution: Experience Manager
 title: 解析度
 feature: Dynamic Media Classic,SDK/API
@@ -7,22 +7,22 @@ role: Developer,User
 exl-id: 45b12324-3148-4530-82cd-0ee32e9f98f8
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 7%
+source-wordcount: '102'
+ht-degree: 4%
 
 ---
 
 # 解析度{#resolution}
 
-解析度. 「真實世界」的影像解析度，通常以每英吋畫素表示，但也可能以其他單位表示，例如每米的畫素。
+解析度。 「真實世界」影像解析度，通常以每英吋畫素表示，但也可能是其他單位，例如每米的畫素。
 
 ## 屬性 {#section-985ca2ad858c4e9c9cbb303f55447553}
 
-大於0的實數。 除非影像解析度與attribute：：Resolution相同，否則紋理和貼花材質必須使用。 被純色和機櫃材料忽略。
+大於0的實數。 除非影像解析度與attribute：：Resolution相同，否則紋理和貼花材質需要此值。 已被純色和機櫃材料忽略。
 
 ## 預設 {#section-b1d044e211194242a900aaef4a8c8e6f}
 
-`attribute::Resolution` 如果欄位不存在、值是0或負數，或欄位為空，則會使用。
+如果欄位不存在、值為0或負數，或欄位為空，則會使用`attribute::Resolution`。
 
 ## 另請參閱 {#section-2d04df523d7345f6929178cbc637da78}
 

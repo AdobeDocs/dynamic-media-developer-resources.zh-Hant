@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 5b03e68e-a4c2-4b4f-8579-d253d7c112de
 source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 2%
+source-wordcount: '333'
+ht-degree: 0%
 
 ---
 
@@ -31,10 +31,10 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="filepath"> 授權 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="filepath">授權</span> </p> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>Linux®的授權檔案資料夾。 </p> </td> 
+   <td colname="col4"> <p>Linux®的許可證檔案資料夾。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> ImageServing/ </span> </p> </td> 
@@ -44,13 +44,13 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> 備份/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath">備份/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>影像伺服組態檔備份先前安裝。 </p> </td> 
+   <td colname="col4"> <p>影像伺服設定檔案備份先前安裝。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> bin/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath">紙匣/ </span> </p> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> </td> 
   </tr> 
@@ -58,7 +58,7 @@ ht-degree: 2%
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> ImageServing.sh (.bat) </span> </p> </td> 
-   <td colname="col4"> <p>啟動和停止影像伺服的指令碼。 </p> </td> 
+   <td colname="col4"> <p>用於啟動和停止影像伺服的指令碼。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -70,7 +70,7 @@ ht-degree: 2%
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> ic (.exe) </span> </p> </td> 
-   <td colname="col4"> <p>影像伺服影像轉換公用程式。 </p> </td> 
+   <td colname="col4"> <p>影像伺服影像轉換器公用程式。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -81,32 +81,32 @@ ht-degree: 2%
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
-   <td colname="col3"> <p> <span class="filepath"> 驗證(.exe) </span> </p> </td> 
+   <td colname="col3"> <p> <span class="filepath">驗證(.exe) </span> </p> </td> 
    <td colname="col4"> <p>影像伺服影像驗證公用程式。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> Vntc (.exe) </span> </p> </td> 
-   <td colname="col4"> <p>影像演算暈映、封包和視窗涵蓋轉換公用程式。 </p> </td> 
+   <td colname="col4"> <p>影像演算暈映、機櫃和視窗涵蓋轉換器公用程式。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> cache/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath">快取/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>資料快取資料夾；可在安裝時設定，或手動編輯設定檔案進行設定。 </p> </td> 
+   <td colname="col4"> <p>資料快取資料夾；可在安裝時設定，或手動編輯組態檔案進行設定。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
-   <td colname="col3"> <p> <span class="filepath"> catalog-bin/ </span> </p> </td> 
+   <td colname="col3"> <p> <span class="filepath">目錄bin/ </span> </p> </td> 
    <td colname="col4"> <p>PS會將編譯的目錄資料儲存在這裡。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> ir-catalog-bin/ </span> </p> </td> 
-   <td colname="col4"> <p>影像演算會將編譯的目錄資料儲存在這裡。 </p> </td> 
+   <td colname="col4"> <p>影像演算會將編譯的目錄資料儲存在此處。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -116,9 +116,9 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> 目錄/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath">目錄/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>IS影像目錄資料夾；可在安裝時設定，或透過手動編輯組態檔來設定。 </p> </td> 
+   <td colname="col4"> <p>IS影像目錄資料夾；可在安裝時設定，或透過手動編輯組態檔案進行設定。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -130,7 +130,7 @@ ht-degree: 2%
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> default.ini </span> </p> </td> 
-   <td colname="col4"> <p> <span class="codeph"> Default.ini </span> 是伺服器正常運作所必需的。 </p> </td> 
+   <td colname="col4"> <p> 伺服器需要<span class="codeph"> Default.ini </span>才能正常運作。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -142,17 +142,17 @@ ht-degree: 2%
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> catalog-service.conf </span> </p> <p> <span class="filepath"> ImageServerRegistry.xml </span> </p> <p> <span class="filepath"> PlatformServer.conf </span> </p> <p> <span class="filepath"> server.xml </span> </p> <p> <span class="filepath"> SupervisorRegistry.xml </span> </p> </td> 
-   <td colname="col4"> <p>如需進一步資訊，請參閱檔案。 </p> </td> 
+   <td colname="col4"> <p>如需詳細資訊，請參閱檔案。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> default-fonts/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath">預設字型/ </span> </p> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> <p>包含預設字型。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> default-profiles/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath">預設設定檔/ </span> </p> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> <p>包含「影像伺服」的預設設定檔。 </p> </td> 
   </tr> 
@@ -164,20 +164,20 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> 影像/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath">個影像/ </span> </p> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> <p>影像伺服來源資料夾；手動編輯組態檔。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> 記錄檔/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath">個記錄/ </span> </p> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> <p>所有PS和IS記錄檔資料都會寫入此資料夾；請手動編輯組態檔。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
-   <td colname="col3"> <p> <span class="filepath"> access-*.log </span> </p> </td> 
+   <td colname="col3"> <p> <span class="filepath">存取權 — *.log </span> </p> </td> 
    <td colname="col4"> <p>HTTP存取記錄檔。 </p> </td> 
   </tr> 
   <tr> 
@@ -189,7 +189,7 @@ ht-degree: 2%
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
-   <td colname="col3"> <p> <span class="filepath"> 監督員 — *.log </span> </p> </td> 
+   <td colname="col3"> <p> <span class="filepath">監督員 — *.log </span> </p> </td> 
    <td colname="col4"> <p>監督員除錯/錯誤記錄。 </p> </td> 
   </tr> 
   <tr> 
@@ -200,19 +200,19 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> 讀我.htm </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> ReadMe.htm </span> </p> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> static-content/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath">靜態內容/ </span> </p> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> <p>靜態內容資料來源資料夾；手動編輯組態檔。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> 工具/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath">工具/ </span> </p> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> </td> 
   </tr> 
@@ -220,7 +220,7 @@ ht-degree: 2%
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> playlog.sh (.bat) </span> </p> </td> 
-   <td colname="col4"> <p>快取暖機公用程式。 </p> </td> 
+   <td colname="col4"> <p>快取熱身公用程式。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -229,22 +229,22 @@ ht-degree: 2%
    <td colname="col4"> <p>在此處部署Java™網頁應用程式（包括is-docs、ir-docs和is-viewers）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="filepath"> 影像演算/ </span> </p> </td> 
+   <td colname="col1"> <p> <span class="filepath"> ImageRendering/ </span> </p> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> <p>影像演算安裝根資料夾。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> 備份/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath">備份/ </span> </p> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> <p>先前安裝的組態檔備份。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> 目錄/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath">目錄/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>影像演算目錄資料夾；可在安裝時設定，或透過手動編輯組態檔來設定。 </p> </td> 
+   <td colname="col4"> <p>影像演算目錄資料夾；可在安裝時設定，或手動編輯組態檔案進行設定。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -262,17 +262,17 @@ ht-degree: 2%
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> default.ini </span> </p> </td> 
-   <td colname="col4"> <p> <span class="codeph"> Default.ini </span> 是伺服器正常運作所必需的。 </p> </td> 
+   <td colname="col4"> <p> 伺服器需要<span class="codeph"> Default.ini </span>才能正常運作。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> default-profiles/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath">預設設定檔/ </span> </p> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> <p>包含影像演算的預設設定檔。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> 資源/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath">資源/ </span> </p> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> <p>影像演算來源資料夾；手動編輯組態檔。 </p> </td> 
   </tr> 

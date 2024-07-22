@@ -1,5 +1,5 @@
 ---
-description: 發佈歷程記錄的陣列。
+description: 發佈記錄的陣列。
 solution: Experience Manager
 title: PublishHistoryArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 28%
 
 # [!DNL PublishHistoryArray]{#publishhistoryarray}
 
-發佈歷程記錄的陣列。
+發佈記錄的陣列。
 
 語法
 

@@ -1,6 +1,6 @@
 ---
 title: header
-description: HTTP回應標頭元素。 選填於 <rule> 元素。
+description: HTTP回應標頭元素。 <rule>元素中的選用專案。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 4%
 
 # header{#header}
 
-HTTP回應標頭元素。 選填於 `<rule>` 元素。
+HTTP回應標頭元素。 `<rule>`個元素中的選用專案。
 
 ## 屬性 {#section-6e903ab4c64f4b1488b8ae74274f50a6}
 
-**`Name`= &quot;*文字*&quot;** ：必填。 指定HTTP標頭的名稱。
+**`Name`= &quot;*文字*&quot;** ：必要。 指定HTTP標頭的名稱。
 
-**`Action`= &quot;set&quot; |`"add"`**：選填。 預設為 `"set"`，會取代任何目前的標頭值。 指定 `"add"` 以便您附加標頭值，並以逗號分隔。
+**`Action`= &quot;set&quot; |`"add"`**：選擇性。 預設值為`"set"`，會取代任何目前的標頭值。 指定`"add"`以便附加標頭值（以逗號分隔）。
 
 ## 資料 {#section-a387f541396c49d99c29692a38032914}
 
@@ -43,6 +43,6 @@ HTTP回應標頭元素。 選填於 `<rule>` 元素。
 </rule>
 ```
 
-此規則由以下要求觸發，設定HTTP回應標頭 `Edge-Control::no-store`：
+此規則是由下列要求觸發，設定HTTP回應標頭`Edge-Control::no-store`：
 
 `http://server/is/image/cat/id?$Edge-Control=no-store`

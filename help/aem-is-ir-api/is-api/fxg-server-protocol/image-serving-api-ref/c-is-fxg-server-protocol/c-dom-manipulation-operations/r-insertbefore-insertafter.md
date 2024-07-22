@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 20d27fa7-e98a-4f85-9e48-5fa9ad3102b7
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '53'
+source-wordcount: '51'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 `insertBefore=<xml>, insertAfter=<xml>`
 
-如果FXG節點元素具有 `s7:elementID` 定義之後，您可以使用此命令在該節點之前或之後新增XML片段。
+如果FXG節點元素已定義`s7:elementID`，您可以使用此命令在該節點之前或之後新增XML片段。
 
 ## 範例 {#section-1fc8d4135ef94b60b838391e1568e70e}
 

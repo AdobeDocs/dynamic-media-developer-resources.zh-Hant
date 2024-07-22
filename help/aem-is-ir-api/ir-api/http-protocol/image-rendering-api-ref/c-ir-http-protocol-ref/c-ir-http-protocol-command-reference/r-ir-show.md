@@ -1,6 +1,6 @@
 ---
 title: 顯示
-description: 顯示重疊物件。 使目前選取範圍中所有先前隱藏的重疊物件（包括視窗覆蓋框架物件）都可見。
+description: 顯示重疊物件。 使目前選取範圍中所有先前隱藏的重疊物件（包括視窗覆蓋物件框架物件）可見。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -8,26 +8,26 @@ exl-id: 4ab3dff7-c020-4088-9eb7-760f8e0a3f00
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
 source-wordcount: '73'
-ht-degree: 8%
+ht-degree: 6%
 
 ---
 
 # 顯示{#show}
 
-顯示重疊物件。 使目前選取範圍中所有先前隱藏的重疊物件（包括視窗覆蓋框架物件）都可見。
+顯示重疊物件。 使目前選取範圍中所有先前隱藏的重疊物件（包括視窗覆蓋物件框架物件）可見。
 
-`Show[= *`val`*]`
+`Show[= *`值`*]`
 
 <table id="simpletable_88D25B9C8E0A47EF90C8ABEBDE777183"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> val</span> </p> </td> 
+  <td class="stentry"> <p><span class="varname">值</span> </p> </td> 
   <td class="stentry"> <p>已忽略。 </p></td> 
  </tr> 
 </table>
 
 ## 屬性 {#section-36bbe5fbcfa74880b948e8ed6f7c6e7b}
 
-如果目前選取範圍不包含任何重疊物件，或是沒有隱藏的重疊物件，則忽略。
+如果目前選取範圍不包含任何重疊物件，或沒有隱藏重疊物件，則忽略。
 
 ## 預設 {#section-04972797d24d4b9f93790a31dfaa4743}
 

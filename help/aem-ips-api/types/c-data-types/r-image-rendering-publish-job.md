@@ -22,6 +22,6 @@ ht-degree: 13%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| emailSetting | `xsd:string` | 選擇電子郵件設定。 |
-| httpCompletionUrl | `xsd:string` | 用於傳送完成通知的URL。 |
-| contextHandle | `xsd:string` | 處理發佈內容的動作。 |
+| 電子郵件設定 | `xsd:string` | 選擇電子郵件設定。 |
+| httpCompletionUrl | `xsd:string` | 傳送完成通知的URL。 |
+| contextHandle | `xsd:string` | 發佈內容的控點。 |

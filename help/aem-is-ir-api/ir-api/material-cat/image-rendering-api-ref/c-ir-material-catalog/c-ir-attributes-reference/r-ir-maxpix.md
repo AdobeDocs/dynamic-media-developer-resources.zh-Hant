@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 48239519-7935-45e4-ae36-5e687a356cc1
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '103'
 ht-degree: 2%
 
 ---
@@ -16,15 +16,15 @@ ht-degree: 2%
 
 回覆影像大小限制。 可傳回給使用者端的最大回覆影像寬度和高度。
 
-如果請求會導致回覆影像的寬度和/或高度大於 `attribute::MaxSize`.
+如果要求會導致回覆影像的寬度和/或高度大於`attribute::MaxSize`，則伺服器會傳回錯誤。
 
 ## 屬性 {#section-390c1066b7a748aca3c0b45ad8bdcfb1}
 
-兩個大於0的整數，以逗號分隔。 寬度和高度（畫素）。 亦可設為0,0，以允許任何回覆影像大小而沒有任何限制。
+兩個大於0的整數，以逗號分隔。 寬度和高度（畫素）。 亦可設為0,0，以允許任意回覆影像大小而沒有任何限制。
 
 ## 預設 {#section-45b38dc661854d11b97df5709f4f3434}
 
-繼承自default：：MaxPix （如果未定義或為空）。
+若未定義或空白，則繼承自default：：MaxPix。
 
 ## 另請參閱 {#section-09cddedde91f43b1ac5828f7e3327c6a}
 

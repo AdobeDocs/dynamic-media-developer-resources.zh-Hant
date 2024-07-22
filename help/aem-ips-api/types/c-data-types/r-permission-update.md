@@ -23,6 +23,6 @@ ht-degree: 15%
 | 名稱 | 類型 | 說明 |
 |---|---|---|
 | groupHandle | `xsd:string` | 群組控制代碼。 |
-| permissiontype | `xsd:string` | 許可權型別。 |
+| permissionType | `xsd:string` | 許可權型別。 |
 | isAllowed | `xsd:boolean` | 決定是否允許許可權更新。 |
 | isOverride | `xsd:boolean` | 決定許可權是否覆寫其他許可權。 |

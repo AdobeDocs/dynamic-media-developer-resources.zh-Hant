@@ -1,7 +1,7 @@
 ---
 description: 將檔案發佈至影像伺服器。
 solution: Experience Manager
-title: ImageServingPublishJob
+title: imageservingPublishJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: dad6ca6b-6bfe-4788-8ba7-f6cb2a734800
@@ -23,5 +23,5 @@ ht-degree: 13%
 | 名稱 | 類型 | 說明 |
 |---|---|---|
 | publishType | `xsd:string` | 其中一個可用的發佈型別。 |
-| emailSetting | `xsd:string` | 選擇電子郵件設定。 |
-| httpCompletionUrl | `xsd:string` | 用於傳送完成通知的URL。 |
+| 電子郵件設定 | `xsd:string` | 選擇電子郵件設定。 |
+| httpCompletionUrl | `xsd:string` | 傳送完成通知的URL。 |

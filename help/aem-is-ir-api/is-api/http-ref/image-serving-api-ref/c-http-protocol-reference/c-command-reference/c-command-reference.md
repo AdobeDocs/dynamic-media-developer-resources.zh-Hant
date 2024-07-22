@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 959cb193-d0b7-4aa9-a747-fa17484f80c7
 source-git-commit: 347aa2f52bc6433043ba65fc75fe9f7f221e6aa3
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 6%
+source-wordcount: '294'
+ht-degree: 4%
 
 ---
 
@@ -18,22 +18,22 @@ ht-degree: 6%
 
 >[!TIP]
 >
->嘗試使用Dynamic Media來探索Dynamic Media影像修飾元和智慧型影像處理的優點 [_快照_](https://snapshot.scene7.com/).
+>嘗試使用Dynamic Media [_快照_](https://snapshot.scene7.com/)，探索Dynamic Media影像修飾元和智慧型影像的優點。
 >
 > Snapshot是視覺化展示工具，旨在說明Dynamic Media在最佳化及動態影像傳送方面的強大功能。 實驗測試影像或Dynamic Media URL，以視覺化方式觀察各種Dynamic Media影像修飾元的輸出，以及針對下列專案的智慧型影像最佳化：
 >* 檔案大小（含WebP和AVIF傳送）
 >* 網路頻寬
 >* DPR （裝置畫素比率）
 >
->若要瞭解使用Snapshot的簡易性，請播放 [快照訓練影片](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=en) （3分17秒）。
+>若要瞭解使用快照的簡易程度，請播放[快照訓練影片](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=en) （3分17秒）。
 
 
-**僅適用於Adobe Experience Manager中的Dynamic Media**  — 除了使用者介面提供的基本影像設定外， [!DNL Dynamic Media] 在AEM中( [!DNL Adobe Experience Manager])支援多項進階影像修改，您可在 **影像修飾元** 欄位。 這些引數定義如下。 但是請注意，在AEM的Dynamic Media中不支援下列功能。
+**僅適用於Adobe Experience Manager中的Dynamic Media** — 除了使用者介面中可用的基本影像設定之外，AEM ( [!DNL Adobe Experience Manager])中的[!DNL Dynamic Media]還支援您可以在&#x200B;**影像修飾元**&#x200B;欄位中指定的許多進階影像修改。 這些引數定義如下。 但是請注意，在AEM的Dynamic Media中不支援下列功能。
 
-* 色彩校正指令： `icc=` 和 `iccEmbed=`.
-* 基本範本和文字演算指令： `text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=` 和 `textPs=`.
-* 本地化命令： `locale=` 和 `req=xlate`.
-* `req=set` 無法用於一般用途。
+* 色彩校正命令： `icc=`和`iccEmbed=`。
+* 基本範本化和文字演算命令： `text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=`和`textPs=`。
+* 本地化命令： `locale=`和`req=xlate`。
+* `req=set`無法供一般使用。
 * `req=mbrset`
 * `req=saveToFile`
 * `req=targets`
@@ -42,14 +42,14 @@ ht-degree: 6%
 
 <!-- Adobe IS command examples website  http://sj1010010254235.corp.adobe.com/iscommands/ -->
 
-另請參閱Dynamic Media [影像預設集選項](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic) 在AEM 6.5檔案中。
+另請參閱AEM 6.5檔案中的Dynamic Media [影像預設集選項](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic)。
 
 * [對齊](r-align.md)
 * [錨記](r-anchor.md)
 * [bfc](r-bfc.md)
 * [bgc](r-bgc.md)
 * [bgColor](r-bgcolor.md)
-* [blendMode](r-blendmode.md)
+* [混合模式](r-blendmode.md)
 * [快取](r-is-http-cache.md)
 * [剪裁路徑](r-clippath.md)
 * [clipXPath](r-clipxpath.md)
@@ -105,10 +105,10 @@ ht-degree: 6%
 * [矩形](r-rect.md)
 * [需要](r-req/r-req.md)
 * [res](r-res.md)
-* [resMode](r-is-http-resmode.md)
+* [解析模式](r-is-http-resmode.md)
 * [rgn](r-rgn.md)
 * [旋轉](r-rotate.md)
-* [scale](r-is-http-scale.md)
+* [縮放](r-is-http-scale.md)
 * [scl](r-scl.md)
 * [大小](r-size-reference.md)
 * [src](r-src.md)

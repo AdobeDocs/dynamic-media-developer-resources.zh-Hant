@@ -8,7 +8,7 @@ exl-id: fa31c2d8-912c-4965-8535-cae42f4fcfd9
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '60'
-ht-degree: 28%
+ht-degree: 25%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 28%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 處理公司。 |
+| companyHandle | `xsd:string` | 是 | 公司處理。 |
 | folderHandle | `xsd:string` | 是 | 資料夾控制代碼。 |
 | destFolderHandle | `xsd:string` | 是 | 目的地資料夾的處理常式。 |
 
@@ -41,11 +41,11 @@ ht-degree: 28%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| folderHandle | `xsd:string` | 是 | 行動資料夾的控點。 |
+| folderHandle | `xsd:string` | 是 | 行動資料夾的控制代碼。 |
 
 ## 範例 {#section-6571c6ab89ce4cb9a139abdb29c6b279}
 
-**請求**
+**要求**
 
 ```java
 <moveFolderParam xmlns="http://www.scene7.com/IpsApi/xsd/2011-11-04">
@@ -55,7 +55,7 @@ ht-degree: 28%
 </moveFolderParam>
 ```
 
-**回答**
+**回應**
 
 ```java
 <moveFolderReturn xmlns="http://www.scene7.com/IpsApi/xsd/2011-11-04">

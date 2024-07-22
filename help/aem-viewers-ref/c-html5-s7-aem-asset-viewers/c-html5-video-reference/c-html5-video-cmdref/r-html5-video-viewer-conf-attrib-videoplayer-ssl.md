@@ -25,8 +25,8 @@ ht-degree: 2%
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 自動|開啟</span> </p> </td> 
-   <td colname="col2"> <p> 控制視訊是透過安全SSL連線(HTTPS)或不安全連線(HTTP)傳送。 </p> <p>當設定為 <span class="codeph"> 自動</span> 視訊傳送通訊協定繼承自內嵌網頁的通訊協定。 如果網頁是透過HTTPS載入，影片也會透過HTTPS傳送，反之亦然。 如果網頁位於HTTP上，則會透過HTTP傳送影片。 </p> <p>當設定為 <span class="codeph"> 於</span>，無論網頁通訊協定為何，影片傳送一律會透過安全連線進行。 </p> <p>只會影響已發佈的視訊傳送，且在作者模式中預覽視訊時會被忽略。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">自動|於</span> </p> </td> 
+   <td colname="col2"> <p> 控制視訊是透過安全SSL連線(HTTPS)或不安全連線(HTTP)傳遞。 </p> <p>設定為<span class="codeph"> auto</span>時，視訊傳遞通訊協定繼承自內嵌網頁的通訊協定。 如果網頁是透過HTTPS載入，視訊也會透過HTTPS傳送，反之亦然。 如果網頁位於HTTP上，則會透過HTTP傳送影片。 </p> <p>在</span>上設定為<span class="codeph">時，無論網頁通訊協定為何，視訊傳送一律會透過安全連線進行。 </p> <p>只會影響已發佈的視訊傳送，且在「作者」模式中預覽視訊時會被忽略。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -47,4 +47,4 @@ ssl=on
 
 <!--<a id="section_5943AC73316749C68761FF7F74DA7547"></a>-->
 
-另請參閱 [安全視訊傳送](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-securevideodelivery.md#concept-cf9d1346a07d4429b0c6c32c9cac50ff).
+另請參閱[安全視訊傳送](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-securevideodelivery.md#concept-cf9d1346a07d4429b0c6c32c9cac50ff)。

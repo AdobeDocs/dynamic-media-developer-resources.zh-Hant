@@ -1,6 +1,6 @@
 ---
 title: 迴轉檢視
-description: 目前資產為迴轉集時，主檢視會由迴轉影像組成。
+description: 目前資產為迴轉集時，主檢視由迴轉影像組成。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
@@ -14,11 +14,11 @@ ht-degree: 1%
 
 # 迴轉檢視{#spin-view}
 
-目前資產為迴轉集時，主檢視會由迴轉影像組成。
+目前資產為迴轉集時，主檢視由迴轉影像組成。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**主要檢視器區域的CSS屬性**
+主要檢視器區域的&#x200B;**CSS屬性**
 
 檢視區域的外觀是由下列CSS類別選取器所控制：
 
@@ -35,13 +35,13 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色彩</span> </p> </td> 
    <td colname="col2"> <p> 迴轉檢視的十六進位格式的背景顏色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-範例 — 使迴轉檢視透明。
+範例 — 讓迴轉檢視透明。
 
 ```
 .s7mixedmediaviewer .s7spinview { 

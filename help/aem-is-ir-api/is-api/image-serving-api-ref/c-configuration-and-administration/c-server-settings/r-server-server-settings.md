@@ -7,7 +7,7 @@ role: Developer,Admin,User
 exl-id: 10970ca8-b209-4adf-b027-6eb8d7a15db6
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '350'
 ht-degree: 0%
 
 ---
@@ -26,19 +26,19 @@ Image Server的32位元和64位元版本皆適用於Linux。 若安裝在64位�
 
 >[!NOTE]
 >
->Windows不支援64位元模式。 僅限 `ImageServer32` 可指定。 否則，影像伺服不會啟動。
+>Windows不支援64位元模式。 只能指定`ImageServer32`。 否則，影像伺服不會啟動。
 
-## SV：：PsHeapSize - [!DNL Platform Server] 棧積大小 {#section-fd83715948764aeda58d6b3a9f9f8be9}
+## SV：：PsHeapSize - [!DNL Platform Server]棧積大小 {#section-fd83715948764aeda58d6b3a9f9f8be9}
 
-的Java棧積大小 [!DNL Platform Server]. 預設為&quot; `512m`「 (512 MB)。
+[!DNL Platform Server]的Java棧積大小。 預設為&quot; `512m`&quot; (512 MB)。
 
 ## IS：：TcpPort， PS：：isConnection.port — 影像伺服器接聽連線埠 {#section-5421bfd2ca2a4a979faf812b6fdb2887}
 
-指定用來在通訊介面之間 [!DNL Platform Server] 和影像伺服器。 請務必指定在主機系統上不會使用的連線埠號碼。
+指定用於[!DNL Platform Server]和影像伺服器之間通訊的連線埠。 請務必指定在主機系統上不會使用的連線埠號碼。
 
 >[!NOTE]
 >
->若要讓「影像伺服」正常運作，必須為設定相同的值 `IS::TcpPort` 和 `PS::isConnection.port`.
+>若要讓「影像伺服」正常運作，必須為`IS::TcpPort`和`PS::isConnection.port`設定相同的值。
 
 ## IS：：PhysicalMemory — 影像伺服器記憶體限制 {#section-85e37aa2ac6e456eb698da716dd3247d}
 

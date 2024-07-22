@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: eac7fa54-ebe2-4f42-a478-d9a6fb54d1b6
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 13%
+source-wordcount: '285'
+ht-degree: 6%
 
 ---
 
@@ -37,50 +37,50 @@ ht-degree: 13%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyName</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname">公司名稱</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 中繼資料欄位所屬的公司名稱。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> assetType</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname">資產型別</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 資產類型. </td> 
+   <td colname="col4"> 資產型別。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 名稱</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname">名稱</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 您正在建立的中繼資料欄位名稱。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldType</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4">中繼資料欄位型別。 <p>中繼資料欄位型別常數會定義可用的型別。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> defaultvalue</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> <p>要建立的中繼資料欄位的預設值(例如， <span class="codeph"> Scene 7</span>)。 </p> <p>標籤欄位型別不支援預設值，必須省略。 如果為標籤欄位型別指定了非空白的預設值，則會傳回錯誤。 </p> </td> 
+   <td colname="col4"> <p>要建立的中繼資料欄位的預設值（例如，<span class="codeph"> Scene 7</span>）。 </p> <p>標籤欄位型別不支援預設值，必須省略。 如果為標籤欄位型別指定了非空白的預設值，則會傳回錯誤。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> ishidden</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：布林值</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 隱藏或公開IPS系統特定的中繼資料。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="codeph"><span class="varname"> 為強制</span></span> </td> 
-   <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col1"><span class="codeph"><span class="varname">已強制</span></span> </td> 
+   <td colname="col2"><span class="codeph"> xsd：布林值</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>布林值標幟，指出在設定值時，是否強制執行（驗證）中繼資料欄位。 </p> <p>若設為true，則若在中設定了不合法的值，則會擲回錯誤 <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
+   <td colname="col4"> <p>布林值標幟，指出在設定值時，是否強制執行（驗證）中繼資料欄位。 </p> <p>若設為true，則若在<span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>中設定了不合法的值，則會擲回錯誤。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> initialtagValue</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 它可讓您建立一組所選標籤可指向的共用特定值。 </td> 
   </tr> 
@@ -95,9 +95,9 @@ ht-degree: 13%
 
 ## 範例 {#section-ba66be30f36b4aeba1bc721b0b92fdfc}
 
-此程式碼範例會建立字串型別中繼資料欄位，稱為 `createMetadataField`. 回應會將控制代碼傳回至新的中繼資料欄位。
+這個程式碼範例會建立名為`createMetadataField`的字串型別中繼資料欄位。 回應會將控制代碼傳回至新的中繼資料欄位。
 
-**請求**
+**要求**
 
 ```java
 <createMetadataFieldParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">
@@ -110,7 +110,7 @@ ht-degree: 13%
 </createMetadataFieldParam>
 ```
 
-**回答**
+**回應**
 
 ```java
 <createMetadataFieldReturn xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

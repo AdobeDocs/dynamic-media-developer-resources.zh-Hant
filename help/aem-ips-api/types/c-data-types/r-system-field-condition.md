@@ -16,7 +16,7 @@ ht-degree: 6%
 
 searchAssets作業的系統欄位搜尋條件。
 
-若要進行一元比較，請只傳遞一個值( `boolVal`， `longVal`， `doubleVal`，或 `dateVal`)視系統欄位型別而定。 如需搜尋範圍，請通過 `min<Type>` 和 `max<Type>` 引數並傳遞 `op` 值 `Between` 或 `NotBetween`.
+若要一元比較，請根據系統欄位型別，僅傳遞一個值（ `boolVal`、`longVal`、`doubleVal`或`dateVal`）。 針對搜尋範圍，傳遞`min<Type>`和`max<Type>`引數，並傳遞`Between`或`NotBetween`的`op`值。
 
 ## 參數 {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -25,11 +25,11 @@ searchAssets作業的系統欄位搜尋條件。
 | 欄位 | `xsd:string` | 資產搜尋系統欄位的選擇。 |
 | op | `xsd:string` | 字串比較運運算元的選擇。 |
 | 價值 | `xsd:string` | 要測試的值。 |
-| 布林值 | `xsd:boolean` | 布林值比較值。 |
+| boolVal | `xsd:boolean` | 布林值比較值。 |
 | longVal | `xsd:long` | 長比較值。 |
 | minLong | `xsd:long` | 長範圍的下限。 |
 | maxLong | `xsd:long` | 長範圍的上限。 |
-| doubleval | `xsd:double` | 雙精度比較值。 |
+| doubleVal | `xsd:double` | 雙倍比較值。 |
 | minDouble | `xsd:double` | 雙精度範圍下限。 |
 | maxDouble | `xsd:double` | 雙精度範圍的上限。 |
 | 日期值 | `xsd:dateTime` | 日期比較值。 |

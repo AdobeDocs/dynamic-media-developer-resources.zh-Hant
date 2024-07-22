@@ -1,5 +1,5 @@
 ---
-description: 決定要從搜尋結果中排除的產生引擎和產生的資產型別。
+description: 決定要從搜尋結果排除的產生引擎和產生的資產型別。
 solution: Experience Manager
 title: ExcludeByproductCondition
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 8%
 
 # [!DNL ExcludeByproductCondition]{#excludebyproductcondition}
 
-決定要從搜尋結果中排除的產生引擎和產生的資產型別。
+決定要從搜尋結果排除的產生引擎和產生的資產型別。
 
 語法
 
@@ -23,4 +23,4 @@ ht-degree: 8%
 | 名稱 | 類型 | 說明 |
 |---|---|---|
 | [!DNL engine] | `xsd:string` | 建立您要排除之資產的產生引擎。 如需相關值，請參閱產生資訊。 |
-| generatedAssetType | `xsd:string` | 排除的資產型別。 請參閱資產型別以瞭解值。 |
+| generatedAssetType | `xsd:string` | 排除的資產型別。 如需瞭解值，請參閱資產型別。 |

@@ -23,7 +23,7 @@ ZIP檔案中的一個專案。
 | 名稱 | 類型 | 說明 |
 |---|---|---|
 | name | `xsd:string` | 專案名稱。 |
-| isDirectory | `xsd:boolean` | 判斷專案是否為目錄。 |
+| isDirectory | `xsd:boolean` | 決定專案是否為目錄。 |
 | lastModified | `xsd:dateTime` | 上次修改的日期和時間。 |
 | compressedSize | `xsd:long` | 壓縮大小。 |
-| uncompressedsize | `xsd:long` | 未壓縮大小。 |
+| uncompressedSize | `xsd:long` | 未壓縮的大小。 |

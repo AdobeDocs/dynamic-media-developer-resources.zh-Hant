@@ -1,5 +1,5 @@
 ---
-description: 預設地區ID。 請求中未指定locale=時，地區ID可用於本地化/翻譯目的。
+description: 預設地區ID。 要求中未指定locale=時，地區ID可供本地化/翻譯目的使用。
 solution: Experience Manager
 title: DefaultLocale
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 3%
 
 # DefaultLocale{#defaultlocale}
 
-預設地區ID。 請求中未指定locale=時，地區ID可用於本地化/翻譯目的。
+預設地區ID。 要求中未指定locale=時，地區ID可供本地化/翻譯目的使用。
 
 ## 屬性 {#section-a101e9658d304e9caf032a99ecb80386}
 
-文字字串。 忽略條件 `attribute::LocaleMap` 和 `attribute::LocaleStrMap` 空白，或當 `locale=` 已指定且非空白。
+文字字串。 如果`attribute::LocaleMap`和`attribute::LocaleStrMap`是空的，或指定`locale=`且不是空的，則會略過。
 
 ## 另請參閱 {#section-b9ffc98baf6c4f67a26466f90cee18b6}
 

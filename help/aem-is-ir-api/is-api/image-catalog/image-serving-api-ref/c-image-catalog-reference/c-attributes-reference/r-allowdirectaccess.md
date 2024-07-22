@@ -16,16 +16,16 @@ ht-degree: 0%
 
 允許直接存取路徑型資產。
 
-定義此屬性時，指定物件型別允許或限制以路徑為基礎的存取，取決於 `include` 或 `exclude` 已使用關鍵字。
+定義此屬性時，會根據使用`include`或`exclude`關鍵字，允許或限制指定物件型別的路徑型存取。
 
 >[!NOTE]
 >
->如果 `AllowDirectAccess` 屬性未指定，預設值為 `exclude`.
+>如果未指定`AllowDirectAccess`屬性，預設值為`exclude`。
 
-* `include` 允許指定物件型別的存取權，並限制其他所有物件型別的存取權。
-* `exclude` 限制指定物件型別的存取權，並允許其他所有型別的存取權。
+* `include`允許存取指定的物件型別，並限制其他所有物件型別的存取權。
+* `exclude`會限制指定物件型別的存取權，並允許其他所有型別的存取權。
 
-如果兩者皆非 `include` 也不 `exclude` 已指定， `include` 為假定。
+如果未指定`include`或`exclude`，則假設為`include`。
 
 可以控制下列型別：
 
@@ -39,26 +39,26 @@ ht-degree: 0%
 
 ## 範例 {#section-4c3765ebaa4245a799b454fc196f9237}
 
-* 僅允許直接存取 `IS` 和 `STATIC` 物件型別
+* 只允許直接存取`IS`和`STATIC`物件型別
 
   `AllowDirectAccess=include:IS,STATIC`
 
-* 允許直接存取所有物件型別，但 `IS` 和 `STATIC``AllowDirectAccess=exclude:IS,STATIC`
+* 允許直接存取`IS`和`STATIC``AllowDirectAccess=exclude:IS,STATIC`以外的所有物件型別
 
-* 允許直接存取 *否* 物件型別（亦即不含任何物件）
+* 允許直接存取&#x200B;*no*&#x200B;物件型別（亦即，不包含任何物件）
 
   `AllowDirectAccess=include:`
 
-* 允許直接存取 *全部* 物件型別（即不含任何物件）
+* 允許直接存取&#x200B;*所有*&#x200B;物件型別（亦即，不排除任何物件）
 
   `AllowDirectAccess=exclude:`
 
-* 相當於 `include:IS,STATIC` (如果 `include`/ `exclude` 不存在， `include` 假設為)
+* 相當於`include:IS,STATIC` （若不存在`include`/ `exclude`，則假設為`include`）
 
   `AllowDirectAccess=IS,STATIC`
 
-  請注意，是預設值，用於 `AllowDirectAccess` 沒有為此公司指定屬性。
+  請注意，如果未針對此公司指定`AllowDirectAccess`屬性，則使用此預設值。
 
-* 不包含任何專案，等於 `include:` (如果 `include`/ `exclude` 不存在， `include` 假設為)
+* 不包含任何專案，相當於`include:` （如果沒有`include`/ `exclude`，則假設為`include`）
 
   `AllowDirectAccess=`

@@ -1,5 +1,5 @@
 ---
-description: 由PhotoshopOptions/錨點使用。
+description: 用於PhotoshopOptions/錨點。
 solution: Experience Manager
 title: Photoshop錨點模式
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 12%
 
 # Photoshop錨點模式{#photoshop-anchor-modes}
 
-由PhotoshopOptions/錨點使用。
+用於PhotoshopOptions/錨點。
 
 語法
 

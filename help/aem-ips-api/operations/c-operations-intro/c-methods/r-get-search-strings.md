@@ -1,5 +1,5 @@
 ---
-description: 取得搜尋字串、關鍵字和資產的其他相關資訊。 回應包含有關資產的其他資訊。
+description: 取得搜尋字串、關鍵字和其他資產相關資訊。 回應包含資產的其他相關資訊。
 solution: Experience Manager
 title: getSearchStrings
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: e94215b8-1121-4be6-a8a9-e9444c57495d
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '95'
-ht-degree: 17%
+ht-degree: 15%
 
 ---
 
 # getSearchStrings{#getsearchstrings}
 
-取得搜尋字串、關鍵字和資產的其他相關資訊。 回應包含有關資產的其他資訊。
+取得搜尋字串、關鍵字和其他資產相關資訊。 回應包含資產的其他相關資訊。
 
 語法
 
@@ -31,7 +31,7 @@ ht-degree: 17%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 處理公司。 |
+| companyHandle | `xsd:string` | 是 | 公司處理。 |
 | assetHandle | `xsd:string` | 是 | 處理資產。 |
 
 **輸出(getSearchStringsReturn)**
@@ -42,9 +42,9 @@ ht-degree: 17%
 
 ## 範例 {#section-e1f73bff6e4440c489d59cb9aa5384d8}
 
-此程式碼範例會傳回資產特定的搜尋字串。 回應會傳回空白陣列。
+此程式碼範例會傳回資產特定搜尋字串。 回應會傳回空白陣列。
 
-**請求**
+**要求**
 
 ```java
 <getSearchStringsParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">
@@ -53,6 +53,6 @@ ht-degree: 17%
 </getSearchStringsParam>
 ```
 
-**回答**
+**回應**
 
 無。

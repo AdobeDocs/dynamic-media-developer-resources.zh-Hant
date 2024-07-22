@@ -6,8 +6,8 @@ feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 1%
+source-wordcount: '319'
+ht-degree: 0%
 
 ---
 
@@ -19,26 +19,26 @@ ht-degree: 1%
 
 如果正在播放的視訊尺寸不符合智慧型裁切視訊播放器的尺寸，則視訊內容會置中於智慧型裁切視訊播放器的矩形顯示區域中。
 
-下列CSS類別選擇器可控制智慧型裁切視訊播放器的外觀：
+下列CSS類別選取器會控制智慧型裁切視訊播放器的外觀：
 
 ```
 .s7smartcropvideoviewer .s7smartcropvideoplayer
 ```
 
-**智慧型裁切視訊播放器的CSS屬性**
+智慧型裁切視訊播放器的&#x200B;**CSS屬性**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色彩</span> </p> </td> 
    <td colname="col2"> <p>主檢視的背景顏色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-系統無法播放視訊時顯示的錯誤訊息可以本地化。 另請參閱 [使用者介面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 以取得詳細資訊。
+如果系統無法播放視訊，顯示的錯誤訊息可能會進行當地語系化。 如需詳細資訊，請參閱[使用者介面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad)。
 
-範例 — 若要設定智慧型裁切視訊檢視器，且智慧型裁切視訊播放器大小設定為512 x 288畫素。
+範例 — 將智慧型裁切視訊播放器大小設為512 x 288畫素時，設定為智慧型裁切視訊檢視器。
 
 ```
 .s7smartcropvideoviewer .s7smartcropvideoplayer{ 
@@ -50,28 +50,28 @@ background-color: transparent;
 
 `. s7smartcropvideoviewer .s7videoplayer .s7caption`
 
-**隱藏式字幕的CSS屬性**
+隱藏式字幕的&#x200B;**CSS屬性**
 
 <table id="table_960E0D4FB91748FF9FC73C925B81879C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色彩</span> </p> </td> 
    <td colname="col2"> <p>隱藏式字幕文字背景。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">色彩</span> </p> </td> 
    <td colname="col2"> <p>隱藏式字幕文字色彩。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">字型粗細</span> </p> </td> 
    <td colname="col2"> <p> 隱藏式字幕字型粗細。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">字型大小</span> </p> </td> 
    <td colname="col2"> <p> 隱藏式字幕字型大小。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">字型系列</span> </p> </td> 
    <td colname="col2"> <p>隱藏式字幕字型。 </p> </td> 
   </tr> 
  </tbody> 
@@ -89,7 +89,7 @@ background-color: transparent;
 }
 ```
 
-緩衝動畫的外觀由下列CSS類別選取器控制：
+使用下列CSS類別選取器來控制緩衝動畫的外觀：
 
 ```
 .s7smartcropvideoviewer .s7smartcropvideoplayer .s7waiticon
@@ -106,23 +106,23 @@ background-color: transparent;
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">寬度</span> </p> </td> 
    <td colname="col2"> <p> 動畫圖示寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">高度</span> </p> </td> 
    <td colname="col2"> <p> 動畫圖示高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 左邊界 </span> </p> </td> 
-   <td colname="col2"> <p> 動畫圖示左側邊界，通常減去圖示寬度的一半。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">左邊界</span> </p> </td> 
+   <td colname="col2"> <p> 動畫圖示左邊界，通常減掉圖示寬度的一半。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 頂端邊界 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">上邊界</span> </p> </td> 
    <td colname="col2"> <p> 動畫圖示上方邊界，通常減去圖示高度的一半。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景影像</span> </p> </td> 
    <td colname="col2"> <p> 旋鈕圖稿。 </p> </td> 
   </tr> 
  </tbody> 

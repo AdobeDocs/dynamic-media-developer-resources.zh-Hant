@@ -8,7 +8,7 @@ exl-id: e9f85e65-4a2f-4b82-b7b8-d0d60b8345cd
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '213'
-ht-degree: 8%
+ht-degree: 7%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 8%
 
 此程式碼範例會建立包含屬性名稱和值的屬性集。 回應會傳回新屬性集的控制代碼。
 
-**請求**
+**要求**
 
 ```java
 <createPropertySetParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">
@@ -70,7 +70,7 @@ ht-degree: 8%
 </createPropertySetParam>
 ```
 
-**回答**
+**回應**
 
 ```java
 <createPropertySetReturn xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

@@ -1,6 +1,6 @@
 ---
 title: 授權
-description: 若要使用「影像伺服」，需要Dynamic Media影像伺服授權金鑰，且必須在要使用「影像伺服」的每個系統上安裝。
+description: 若要使用「影像伺服」，需要Dynamic Media影像伺服授權金鑰，且必須安裝在要使用「影像伺服」的每個系統上。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 授權{#licensing}
 
-若要使用「影像伺服」，需要Dynamic Media影像伺服授權金鑰，且必須在要使用「影像伺服」的每個系統上安裝。
+若要使用「影像伺服」，需要Dynamic Media影像伺服授權金鑰，且必須安裝在要使用「影像伺服」的每個系統上。
 
 同樣地，若要使用影像演算，需要Dynamic Media影像演算授權金鑰。 影像演算可在沒有「影像伺服」授權的情況下使用，反之亦然。
 

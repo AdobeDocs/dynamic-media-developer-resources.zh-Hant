@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 1afd3a60-e0b6-47d1-b7e4-98a3145782a2
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '181'
 ht-degree: 2%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 2%
 
 每次掃描的實際速度取決於使用者系統與接收及解壓縮資料的電腦的傳輸速度。
 
-`Auto` 會使用由獨立JPEG庫計算出的掃描設定，且視顏色模型而定。 下列專案的值 `3`， `4`， `5` 對應至將JPEG檔案儲存為pjpeg (漸進式JPEG)時，在Adobe Photoshop中找到的掃描設定。
+`Auto`使用由獨立JPEG程式庫計算出的掃描設定，且視色彩模型而定。 將JPEG檔案儲存為pjpeg (漸進式JPEG)時，`3`、`4`、`5`的值會對應至Adobe Photoshop中的掃描設定。
 
-如果 `pscan` 未設定，其預設為 `auto`.
+如果未設定`pscan`，其預設值為`auto`。
 
 ## 屬性 {#section-e36aa3c63a974b969d9e4f43fe5a37ab}
 

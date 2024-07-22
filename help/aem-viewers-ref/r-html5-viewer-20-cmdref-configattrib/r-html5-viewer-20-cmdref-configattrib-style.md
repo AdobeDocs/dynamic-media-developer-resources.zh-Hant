@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # 樣式{#style}
 
-您可以從URL查詢字串和設定中套用以下命令。 URL查詢字串中套用的命令一律優先於config中顯示的相同命令。
+您可以從URL查詢字串和設定套用以下命令。 在URL查詢字串中套用的命令一律優先於config中存在的相同命令。
 
 `style= *`cssPath`*`
 
@@ -22,7 +22,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> cssPath</span> </span> </p> </td> 
-   <td colname="col2"> <p> 相對或絕對CSS位置。 </p> <p>指定自訂CSS檔案的位置。 如果 <span class="codeph"><span class="varname"> cssPath</span></span> 是相對的，則會根據檢視器HTML頁面位置與的值來解析 <span class="codeph"> contentUrl=</span> 引數。 </p> </td> 
+   <td colname="col2"> <p> 相對或絕對CSS位置。 </p> <p>指定自訂CSS檔案的位置。 如果<span class="codeph"><span class="varname"> cssPath</span></span>是相對的，則會根據檢視器HTML頁面位置和<span class="codeph"> contentUrl=</span>引數的值來解析。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

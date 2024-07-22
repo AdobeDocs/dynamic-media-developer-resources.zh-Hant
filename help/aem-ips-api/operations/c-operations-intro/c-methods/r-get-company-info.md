@@ -8,7 +8,7 @@ exl-id: 72bd223b-c99a-48a3-9c0a-d1af392d904c
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '168'
-ht-degree: 10%
+ht-degree: 7%
 
 ---
 
@@ -45,15 +45,15 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>兩者之一 <span class="codeph"> <span class="varname"> companyHandle</span> </span> 或 <span class="codeph"> <span class="varname"> companyName</span> </span> 為必填欄位。 </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd：string</span> </p> </td> 
+   <td colname="col3"> <p>需要<span class="codeph"> <span class="varname"> companyHandle</span> </span>或<span class="codeph"> <span class="varname"> companyName</span> </span>。 </p> </td> 
    <td colname="col4"> <p>您要取得其資訊之公司的控制代碼。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>兩者之一 <span class="codeph"> <span class="varname"> companyHandle</span> </span> 或 <span class="codeph"> <span class="varname"> companyName</span> </span> 為必填欄位。 </p> </td> 
-   <td colname="col4"> <p>您要取得其資訊的公司名稱。 </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname">公司名稱</span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd：string</span> </p> </td> 
+   <td colname="col3"> <p>需要<span class="codeph"> <span class="varname"> companyHandle</span> </span>或<span class="codeph"> <span class="varname"> companyName</span> </span>。 </p> </td> 
+   <td colname="col4"> <p>您要取得其資訊之公司的名稱。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -71,19 +71,19 @@ ht-degree: 10%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyInfo</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> 型別：公司</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname">公司資訊</span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph">型別：公司</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>處理公司和其他描述性資訊。 </p> </td> 
+   <td colname="col4"> <p>處理和其他有關公司的描述性資訊。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 範例 {#section-3d5342aa7cb34b1fa84d7dea6e16e4aa}
 
-此程式碼範例會使用公司名稱和控制代碼來傳回有關公司的所有資訊。 它會傳回與建立公司時收到的回應類似的資料。
+此程式碼範例使用公司名稱和控制代碼來傳回有關公司的所有資訊。 它會傳回與建立公司時收到的回應類似的資料。
 
-**請求**
+**要求**
 
 ```java
 <ns1:getCompanyInfoParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">
@@ -91,7 +91,7 @@ ht-degree: 10%
 </ns1:getCompanyInfoParam>
 ```
 
-**回答**
+**回應**
 
 ```java
 <ns1:getCompanyInfoReturn xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

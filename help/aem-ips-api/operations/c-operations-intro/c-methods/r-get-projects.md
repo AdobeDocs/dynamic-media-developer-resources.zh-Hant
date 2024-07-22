@@ -8,7 +8,7 @@ exl-id: d7262ed7-7419-4d6b-86ed-f3ad4657d654
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '66'
-ht-degree: 22%
+ht-degree: 19%
 
 ---
 
@@ -43,9 +43,9 @@ ht-degree: 22%
 
 ## 範例 {#section-8b12d0b948f644f68bf9a16060d3849a}
 
-此程式碼範例會傳回專案陣列中的所有專案控制點。
+此程式碼範例會傳回專案陣列中的所有專案控制代碼。
 
-**請求**
+**要求**
 
 ```java
 <ns1:getProjectsParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">
@@ -53,7 +53,7 @@ ht-degree: 22%
 </ns1:getProjectsParam>
 ```
 
-**回答**
+**回應**
 
 ```java
 <getProjectsReturn xmlns="http://www.scene7.com/IpsApi/xsd">

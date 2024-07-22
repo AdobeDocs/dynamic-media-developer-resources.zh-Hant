@@ -1,6 +1,6 @@
 ---
 title: 搜尋效果
-description: 檢視器會在主檢視上顯示搜尋結果區域，以反白標示在目錄中找到的字詞或片語。
+description: 檢視器會在主檢視中顯示搜尋結果區域，以反白顯示目錄中的文字或片語。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
@@ -14,11 +14,11 @@ ht-degree: 1%
 
 # 搜尋效果{#search-effect}
 
-檢視器會在主檢視上顯示搜尋結果區域，以反白標示在目錄中找到的字詞或片語。
+檢視器會在主檢視中顯示搜尋結果區域，以反白顯示目錄中的文字或片語。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**主要檢視器區域的CSS屬性**
+主要檢視器區域的&#x200B;**CSS屬性**
 
 搜尋結果區域的外觀由下列CSS類別選取器控制：
 
@@ -33,7 +33,7 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景</span> </p> </td> 
    <td colname="col2"> <p>搜尋結果區域的背景。 </p> </td> 
   </tr> 
  </tbody> 

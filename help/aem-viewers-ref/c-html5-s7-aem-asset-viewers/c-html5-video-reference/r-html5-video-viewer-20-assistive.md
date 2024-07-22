@@ -16,12 +16,12 @@ ht-degree: 0%
 
 所有檢視器元件都支援ARIA （可存取的豐富網際網路應用程式）角色和屬性，以改進與熒幕閱讀器等輔助技術的整合。
 
-頂層檢視器元素具有角色 `region` 和 `aria-label` 屬性預設為檢視器的名稱。 您可以使用以下專案控制標籤 `Container.LABEL` 本地化符號。
+最上層檢視器元素具有角色`region`和`aria-label`屬性，預設設定為檢視器的名稱。 您可以使用`Container.LABEL`本地化符號控制標籤。
 
-按鈕具有角色 `button` 和描述性文字集 `aria-label` 屬性。 的值 `aria-label` 屬性會從按鈕本地化符號的值填入。 當按鈕停用時， `aria-disabled` 屬性會適當地設定。
+按鈕具有角色`button`和描述性文字設定了`aria-label`屬性。 `aria-label`屬性的值是從按鈕本地化符號的值填入的。 當按鈕停用時，會相應設定`aria-disabled`屬性。
 
-滑桿元件具有此角色 `slider` 具有屬性 `aria-valuenow`， `aria-valuemin`、和 `aria-valuemax` 以說明目前的滑桿位置。
+Slider元件具有屬性`aria-valuenow`、`aria-valuemin`和`aria-valuemax`的角色`slider`可描述目前的Slider位置。
 
-下拉式清單由具有其他功能的按鈕啟動 `aria-haspopup` 屬性設定為 `true` 和 `aria-controls` 屬性會參照實際的下拉式面板元素。 下拉式面板本身具有角色 `menu` 具有角色的子元素 `menuitem`. 每個功能表專案都有 `aria-label` 屬性已指定。
+下拉式清單由按鈕啟動，按鈕具有設定為`true`的其他`aria-haspopup`屬性以及參考實際下拉式面板專案的`aria-controls`屬性。 下拉式面板本身具有角色`menu`，其子元素具有角色`menuitem`。 每個功能表專案都指定了`aria-label`屬性。
 
-模型對話方塊具有角色 `dialog`. 對話方塊的標頭元素由 `aria-labelledby` 屬性。
+模型對話方塊具有角色`dialog`。 對話方塊的標頭專案由`aria-labelledby`屬性參考。

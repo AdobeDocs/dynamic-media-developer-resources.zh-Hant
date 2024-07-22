@@ -16,15 +16,15 @@ ht-degree: 0%
 
 對於進階應用程式，可以將轉譯作業的結果當做材質影像使用，就像從「影像伺服」取得的影像一樣。
 
-轉譯請求可透過在 `src=` 命令，如下所示：
+您可以在`src=`命令中指定轉譯要求，將它當做材質影像使用，如下所示：
 
 ` …&src=ir{ *[!DNL renderRequest]*}&…`
 
-此 `ir` Token區分大小寫。
+`ir`權杖區分大小寫。
 
-巢狀請求不得包含影像演算根路徑(通常是 `http:// *[!DNL server]*/ir/render/'`)，但可能包含預先處理規則Token。
+巢狀要求不得包含影像演算根路徑（通常為`http:// *[!DNL server]*/ir/render/'`），但可能包含前置處理規則權杖。
 
-在巢狀請求中指定時(在請求url中或在 `catalog::Modifier` 或 `catalog::PostModifier`)：
+在巢狀要求中指定下列命令時（在要求URL中或在`catalog::Modifier`或`catalog::PostModifier`中），會忽略這些命令：
 
 * `fmt=`
 * `qlt=`
@@ -34,6 +34,6 @@ ht-degree: 0%
 * `req=`
 * `bgc=`
 
-同樣被忽略的是 `attribute::MaxPix` 和 `attribute::DefaultPix` 套用至巢狀轉譯器請求的材質目錄的。
+同樣被忽略的是套用至巢狀轉譯器要求的材質目錄的`attribute::MaxPix`和`attribute::DefaultPix`。
 
-可選擇快取巢狀IR要求的影像結果，方法是包含 `cache=on`. 依預設，會停用中繼資料的快取。 只有在合理時段內不同的請求中重複使用中間影像時，才應啟用快取。 標準伺服器端快取管理適用。 資料會以無損格式快取。
+巢狀IR要求的影像結果可透過包含`cache=on`選擇性地進行快取。 依預設，會停用中繼資料的快取。 只有在合理時段內於不同請求中重複使用中間影像時，才應啟用快取。 標準伺服器端快取管理適用。 資料會以無損格式快取。

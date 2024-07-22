@@ -24,6 +24,6 @@ Photoshop影像層選項。
 |---|---|---|
 | layernaming | `xsd:string` | 選擇Photoshop圖層命名模式。 |
 | 錨記 | `xsd:string` | 選擇Photoshop錨點模式。 |
-| createTemplate | `xsd:boolean` | 是否要從Photoshop圖層建立範本。 |
+| createTemplate | `xsd:boolean` | 是否從Photoshop圖層建立範本。 |
 | extractText | `xsd:boolean` | 是否將文字擷取為文字圖層。 |
-| extendLayers | `xsd:boolean` | 是否將圖層延伸至背景的完整尺寸。 |
+| extendlayers | `xsd:boolean` | 是否延伸圖層至背景的完整大小。 |

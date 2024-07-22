@@ -26,6 +26,6 @@ ht-degree: 9%
 | 名字 | `xsd:string` | 使用者名字。 |
 | 姓氏 | `xsd:string` | 使用者姓氏。 |
 | 電子郵件 | `xsd:string` | 電子郵件地址。 |
-| 預設角色 | `xsd:string` | 設定使用者在其所屬每個公司中的角色。 但是，使用者角色 `IpsAmin` 覆寫其他使用者角色。 |
+| defaultrole | `xsd:string` | 設定使用者在其所屬每個公司中的角色。 但是，使用者角色`IpsAmin`會覆寫其他使用者角色。 |
 | isValid | `xsd:boolean` | 判斷使用者是否有效。 |
-| passwordExpires | `xsd:dateTime` | 設定密碼到期日。 |
+| 密碼過期 | `xsd:dateTime` | 設定密碼到期日。 |

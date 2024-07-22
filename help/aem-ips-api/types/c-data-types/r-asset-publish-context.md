@@ -1,7 +1,7 @@
 ---
 description: 將資產對應至資產標示為要發佈的PublishContexts。
 solution: Experience Manager
-title: AssetPublishContexts
+title: AssetPublishContext
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: fa94e3ce-b210-4d0d-88f1-0b245d5a52b5

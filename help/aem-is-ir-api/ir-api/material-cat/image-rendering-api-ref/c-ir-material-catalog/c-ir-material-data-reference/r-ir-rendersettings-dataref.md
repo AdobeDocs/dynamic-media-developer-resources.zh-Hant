@@ -18,12 +18,12 @@ ht-degree: 2%
 
 ## 屬性 {#section-b4c8fe595efc4838ac598659bc820607}
 
-文字字串。 所有材料均可選用。 若指定，則必須為有效的轉譯器設定字串，如暈映製作工具(Dynamic Media影像製作套件的一部分)所定義。
+文字字串。 所有材質均可選用。 若指定，則必須為有效的轉譯設定字串，如暈映製作工具(Dynamic Media影像製作套件的一部分)所定義。
 
 ## 預設 {#section-6a4d2013c1d34284b4ff21bb07485d28}
 
-`attribute::RenderSettings` 若未指定或為空。
+如果未指定或空白，則為`attribute::RenderSettings`。
 
 ## 另請參閱 {#section-52679fc35c36439490564b4d1c515dd0}
 
-[rs=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rs.md#reference-d20cefaaa6cd4f449d1591c87959b4cf) ， [catalog：：Sharp](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-sharp-dataref.md#reference-f79a14bd52474dfd8495115d398a30d0)， [屬性：：RenderSettings](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rendersettings.md#reference-f3ae5e18095d40b2a8edef957dd82fbd)
+[rs=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rs.md#reference-d20cefaaa6cd4f449d1591c87959b4cf) ， [目錄：：Sharp](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-sharp-dataref.md#reference-f79a14bd52474dfd8495115d398a30d0)， [屬性：：RenderSettings](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rendersettings.md#reference-f3ae5e18095d40b2a8edef957dd82fbd)

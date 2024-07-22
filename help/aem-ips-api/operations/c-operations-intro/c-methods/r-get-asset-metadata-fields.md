@@ -8,7 +8,7 @@ exl-id: 5234d3ea-c333-4e35-91ae-ce3412919fda
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '63'
-ht-degree: 23%
+ht-degree: 20%
 
 ---
 
@@ -40,11 +40,11 @@ ht-degree: 23%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| assetFieldArray | `types:AssetMetadataFieldsArray` | 是 | 依資產型別排列的中繼資料欄位陣列。 |
+| assetFieldArray | `types:AssetMetadataFieldsArray` | 是 | 中繼資料欄位陣列（依資產型別）。 |
 
 ## 範例 {#section-d79ab85f29144635b0b61416e52f4f3f}
 
-**請求**
+**要求**
 
 ```java
 <getAssetMetadataFieldsParam xmlns="http://www.scene7.com/IpsApi/xsd/2009-07-31">
@@ -52,7 +52,7 @@ ht-degree: 23%
 </getAssetMetadataFieldsParam>
 ```
 
-**回答**
+**回應**
 
 >[!NOTE]
 >

@@ -1,6 +1,6 @@
 ---
 title: IccProfileMapFile
-description: ICC設定檔對應檔案路徑。 指定包含此影像目錄的ICC設定檔對應的檔案。
+description: ICC設定檔對應檔案路徑。 指定包含此影像目錄之ICC設定檔對應的檔案。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # IccProfileMapFile{#iccprofilemapfile}
 
-ICC設定檔對應檔案路徑。 指定包含此影像目錄的ICC設定檔對應的檔案。
+ICC設定檔對應檔案路徑。 指定包含此影像目錄之ICC設定檔對應的檔案。
 
 ## 屬性 {#section-33d55b55e192441bb30ca5eaaf07d12a}
 
@@ -22,7 +22,7 @@ ICC設定檔對應檔案路徑。 指定包含此影像目錄的ICC設定檔對�
 
 ## 預設 {#section-191de4cf304544f0a4198ebd3b8ddfc2}
 
-空白，表示此材質目錄不包含私人ICC設定檔。
+空白，表示此材料目錄不包含私人ICC設定檔。
 
 ## 另請參閱 {#section-972aa8d0fba74ee8b999ee3458320d4d}
 

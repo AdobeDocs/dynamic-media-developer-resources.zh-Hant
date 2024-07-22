@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: db04133e-bb23-4d94-b91d-fcf34576c03f
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '72'
 ht-degree: 4%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">-1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p> 指定元件預先載入行為。 </p> <p>當設定為 <span class="codeph"> -1</span> 初始化元件或變更資產時，所有縮圖會同時載入。 </p> <p>當設定為 <span class="codeph"> 0</span> 僅載入可見的縮圖。 </p> <p>設定為 <span class="codeph"><span class="varname"> preloadnbr</span></span> 定義可見區域周圍預先載入多少不可見的列/欄。 </p> </td> 
+   <td colname="col2"> <p> 指定元件預先載入行為。 </p> <p>設定為<span class="codeph"> -1</span>時，當初始化元件或變更資產時，將同時載入所有縮圖。 </p> <p>設定為<span class="codeph"> 0</span>時，只會載入可見的縮圖。 </p> <p>設定為<span class="codeph"><span class="varname"> preloadnbr</span></span>，以定義可見區域周圍預先載入的隱藏列/欄數。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

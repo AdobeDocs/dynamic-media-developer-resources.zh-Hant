@@ -1,5 +1,5 @@
 ---
-description: 取得與指定資產相關聯的所有檢視器組態設定。
+description: 取得與指定資產關聯的所有檢視器組態設定。
 solution: Experience Manager
 title: getViewerConfigSettings
 feature: Dynamic Media Classic,SDK/API,Viewer Presets
@@ -14,7 +14,7 @@ ht-degree: 22%
 
 # getViewerConfigSettings{#getviewerconfigsettings}
 
-取得與指定資產相關聯的所有檢視器組態設定。
+取得與指定資產關聯的所有檢視器組態設定。
 
 語法
 
@@ -31,10 +31,10 @@ ht-degree: 22%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 處理公司。 |
+| companyHandle | `xsd:string` | 是 | 公司處理。 |
 | assetHandle | `xsd:string` | 是 | 處理資產。 |
 
-**輸出(getViewerConfigSettingsReturn)**
+**輸出(getViewerCoinfigSettingsReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|

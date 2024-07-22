@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: c2a611a8-f331-4e01-a262-34340ce67b21
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '239'
 ht-degree: 6%
 
 ---
@@ -20,24 +20,24 @@ JPEG品質。 指定JPEG編碼屬性來控制壓縮等級。 這進而會改變�
 
 <table id="simpletable_FB8090D4BEBF42FD83A64A7AAB6D7F92"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> 品質 </span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname">品質</span> </p> </td> 
   <td class="stentry"> <p>JPEG的編碼品質(1...100 int)。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> 色度 </span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname">色度</span> </p> </td> 
   <td class="stentry"> <p>JPEG色度向下取樣（0=一般，1=停用）；選擇性，預設為0。 </p> </td> 
  </tr> 
 </table>
 
-較高 *`quality`* 值會增加檔案大小與品質，值越低會減少檔案大小，並降低感知的影像品質。 高於 90 的值所產生的影像通常與未壓縮的影像幾乎沒有差別。
+較高的&#x200B;*`quality`*&#x200B;值會增加檔案大小和品質，較低的值會減少檔案大小並降低感知到的影像品質。 高於 90 的值所產生的影像通常與未壓縮的影像幾乎沒有差別。
 
-設定 *`chroma`* 此旗標可停用典型RGB編碼器所使用的JPEG色度縮減取樣。 當邊緣是由色相而非亮度的變化所定義時，這可能會增加影像中邊緣的感知銳利度。 設定此旗標可能會導致檔案大小稍微增加。 如果文字看起來有點模糊，請嘗試使用此設定。
+設定&#x200B;*`chroma`*&#x200B;旗標以停用典型RGB編碼器採用的JPEG色度縮減取樣。 當邊緣是由色相而非亮度的變化所定義時，這可能會增加影像中邊緣的感知銳利度。 設定此旗標可能會導致檔案大小稍微增加。 如果文字看起來有點模糊，請嘗試使用此設定。
 
 ## 屬性 {#section-925a44cbdc9042db8d4eb149cd073d21}
 
-要求屬性。 不論目前的圖層設定為何，皆適用。 如果輸出影像檔案格式不支援JPEG編碼，則忽略。 請參閱 `fmt=` 以取得哪些輸出影像格式支援的資訊 `qlt=`.
+要求屬性。 不論目前的圖層設定為何，皆適用。 如果輸出影像檔案格式不支援JPEG編碼，則忽略。 如需哪些輸出影像格式支援`qlt=`的資訊，請參閱`fmt=`的說明。
 
-*`chroma`* 如果輸出畫素型別為CMYK或灰色，則會被忽略。
+如果輸出畫素型別為CMYK或灰色，則會忽略&#x200B;*`chroma`*。
 
 ## 預設 {#section-0d8aa45d84df49e6b846596bbaf7f740}
 

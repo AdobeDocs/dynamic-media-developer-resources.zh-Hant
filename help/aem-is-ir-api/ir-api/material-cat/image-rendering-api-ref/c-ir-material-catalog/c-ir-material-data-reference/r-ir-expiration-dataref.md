@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: e4f7e5a8-0021-4dd3-be1b-8cb656cabdac
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '320'
 ht-degree: 1%
 
 ---
@@ -26,12 +26,12 @@ ht-degree: 1%
 
 ## 屬性 {#section-e87e8f6b6d224c6ea2eeaad695c04be8}
 
-實數、-2、-1、0或更大。 從產生回應影像到到期為止的小時數。 設為0可一律使回應影像立即過期，以有效停用使用者端快取。 設為–1以標籤為 `never expire`. 在此情況下，伺服器一律會傳回304狀態（未修改）以回應條件式 `GET` 會要求檢查檔案是否已實際變更。 設為–2以使用所提供的預設值 `attribute::Expiration`.
+實數、-2、-1、0或更大。 從產生回應影像到到期為止的小時數。 設為0可一律使回應影像立即過期，以有效停用使用者端快取。 設為–1以標籤為`never expire`。 在此情況下，伺服器一律會傳回304狀態（未修改）來回應條件式`GET`要求，而不檢查檔案是否已實際變更。 設定為–2以使用`attribute::Expiration`提供的預設值。
 
 ## 預設 {#section-79d71706e12a4493a69d7febc3a1f271}
 
-`attribute::Expiration` 如果欄位不存在、值為–2或欄位為空，則會使用。
+如果欄位不存在、值為–2或欄位為空，則會使用`attribute::Expiration`。
 
 ## 另請參閱 {#section-9d46a9d346fe42f3911edb3bd79f4121}
 
-[attribute：：Expiration](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-expiration.md#reference-0f68ad8199c64bd4bc8d27dd78b7d996) ， [暈映：：過期時間](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-expiration-vignette.md#reference-df80829da93e4c0ab3f97a1792d9c74c)， [需要=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-req.md#reference-792b1a663fb64261bd2de2a209b847fb)
+[屬性：：Expiration](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-expiration.md#reference-0f68ad8199c64bd4bc8d27dd78b7d996) ， [暈映：：Expiration](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-expiration-vignette.md#reference-df80829da93e4c0ab3f97a1792d9c74c)， [req=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-req.md#reference-792b1a663fb64261bd2de2a209b847fb)

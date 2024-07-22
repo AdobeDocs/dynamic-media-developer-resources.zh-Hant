@@ -16,16 +16,16 @@ ht-degree: 3%
 
 進階演算設定。 指定呈現目前選取範圍時要套用的進階演算設定。
 
-`rs= *`val`*`
+`rs= *`值`*`
 
 <table id="simpletable_4B028996E5824FC18B9749D1A6A3C2E3"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> val</span> </p> </td> 
+  <td class="stentry"> <p><span class="varname">值</span> </p> </td> 
   <td class="stentry"> <p>演算設定字串。 </p></td> 
  </tr> 
 </table>
 
-用於微調演算器外觀。 若要建立演算設定字串，請使用暈映製作工具的演算功能(Dynamic Media影像製作套件的一部分)。
+用於微調演算外觀。 若要建立演算設定字串，請使用暈映製作工具的演算功能(Dynamic Media影像製作套件的一部分)。
 
 ## 屬性 {#section-9a2b2228789046658cb80eddf343af75}
 
@@ -37,7 +37,7 @@ ht-degree: 3%
 
 ## 範例 {#section-47e4811882574441a4d517e42a35f352}
 
-在「影像製作」中做了一些實驗之後，我們判斷不銳利化遮色片(USM)為指定的應用程式和材質提供了正確的銳利化量。 設定USM的轉譯器設定字串會複製到 `rs=` 要與此材料一起使用的命令：
+在「影像製作」中做了一些實驗後，我們判斷不銳利化遮色片(USM)為指定的應用程式和材質提供了正確的銳利化量。 設定USM的轉譯器設定字串會複製到`rs=`命令，以便與下列材料搭配使用：
 
 `…&rs=U2V20W50X2&…`
 

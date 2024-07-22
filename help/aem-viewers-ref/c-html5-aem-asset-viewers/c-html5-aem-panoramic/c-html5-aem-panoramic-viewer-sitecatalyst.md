@@ -8,7 +8,7 @@ exl-id: fb58a388-e4da-475d-b726-d5a32e99cce0
 source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
 source-wordcount: '91'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 ## 自訂追蹤 {#section-cda48fc9730142d0bb3326bac7df3271}
 
-若要與協力廠商分析系統整合，您必須先聆聽 `trackEvent` 檢視器回呼與處理 `eventInfo` 必要時，回呼函式的引數。 下列程式碼是此類處理常式函式的範例：
+若要與協力廠商分析系統整合，必須接聽`trackEvent`檢視器回呼，並視需要處理回呼函式的`eventInfo`引數。 下列程式碼是此類處理常式函式的範例：
 
 ```javascript {.line-numbers}
 var panoramicViewer = new s7viewers.PanoramicViewer({
@@ -48,12 +48,12 @@ var panoramicViewer = new s7viewers.PanoramicViewer({
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>SDK使用者事件 </p> </th> 
-   <th colname="col2" class="entry"> <p>已傳送... </p> </th> 
+   <th colname="col2" class="entry"> <p>已傳送…… </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LOAD </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">載入</span> </p> </td> 
    <td colname="col2"> <p>第一次載入檢視器時。 </p> </td> 
   </tr> 
  </tbody> 

@@ -1,7 +1,7 @@
 ---
-description: 位址篩選元素。 選填於 <rule> 元素。 套用規則時覆寫屬性ClientAddressFilter。
+description: 位址篩選器元素。 <rule>元素中的選用專案。 套用規則時覆寫屬性ClientAddressFilter。
 solution: Experience Manager
-title: 地址篩選器
+title: addressfilter
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0da9299b-fe14-4a69-8567-2d79ad2ce0bd
@@ -12,9 +12,9 @@ ht-degree: 2%
 
 ---
 
-# 地址篩選器{#addressfilter}
+# addressfilter{#addressfilter}
 
-位址篩選元素。 選填於 `<rule>` 元素。 套用規則時覆寫attribute：：ClientAddressFilter。
+位址篩選器元素。 `<rule>`個元素中的選用專案。 套用規則時覆寫attribute：：ClientAddressFilter。
 
 ## 屬性 {#section-e7a0960f7f0045da91de37824aa4aeaa}
 
@@ -22,17 +22,17 @@ ht-degree: 2%
 
 ## 資料 {#section-eb138f192516418a9ef2ab9a38c9ee9e}
 
-IP位址的逗號分隔清單。 每個個別位址都可包含選用的網路遮罩字尾，以指定IP位址範圍。 另請參閱 [attribute：：ClientAddressFilter](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-clientaddressfilter.md) 以取得詳細資訊。
+IP位址的逗號分隔清單。 每個個別位址都可包含選用的網路遮罩尾碼，以便指定IP位址範圍。 如需詳細資訊，請參閱[attribute：：ClientAddressFilter](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-clientaddressfilter.md)。
 
 ## 說明 {#section-099b7839c4be40c68cbff29dad14e7d5}
 
-您可以透過在中指定一個或多個特定IP位址，來限制對此影像目錄的存取 `<addressfilter>` 元素。 如果使用者端IP位址不相符，則會傳回「請求被拒絕」錯誤給使用者端。
+在`<addressfilter>`元素中指定這些位址，即可限制對此影像目錄的存取權給一或多個特定IP位址。 如果使用者端IP位址不符，則會傳回「已拒絕要求」錯誤給使用者端。
 
-如果符合下列條件，則不會限制存取 `<addressfilter>` 為空白或未指定。
+如果`<addressfilter>`為空白或未指定，則不會限制存取。
 
-如果 `<expression>` 在 `<rule>` 元素不存在或空白， `<addressfilter>` 會套用至所有要求。
+如果`<rule>`專案中的`<expression>`不存在或空白，則會將`<addressfilter>`套用至所有要求。
 
-`localhost` 永遠是 `ClientAddressFilter` 定義，即使未明確指定。 請求來自 `localhost` 不會被拒絕，不論 `ClientAddressFilter` 規格。
+`localhost`一律為`ClientAddressFilter`定義的隱含部分，即使未明確指定。 不論`ClientAddressFilter`的規格為何，來自`localhost`的請求都不會被拒絕。
 
 ## 另請參閱 {#section-02056065e0c042e1b155b2f3e5b84ef7}
 

@@ -1,5 +1,5 @@
 ---
-description: 刪除資產的中繼資料值。 使用一系列中繼資料刪除來設定批次中的值。
+description: 刪除資產的中繼資料值。 使用一系列中繼資料刪除，以設定批次中的值。
 solution: Experience Manager
 title: deleteAssetMetadata
 feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
@@ -8,13 +8,13 @@ exl-id: ce9b8dff-efc0-4427-9f50-10269647187f
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '126'
-ht-degree: 13%
+ht-degree: 8%
 
 ---
 
 # deleteAssetMetadata{#deleteassetmetadata}
 
-刪除資產的中繼資料值。 使用一系列中繼資料刪除來設定批次中的值。
+刪除資產的中繼資料值。 使用一系列中繼資料刪除，以設定批次中的值。
 
 語法
 
@@ -47,25 +47,25 @@ ht-degree: 13%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>companyHandle </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd：string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
    <td colname="col4"> <p>資料夾所屬公司的控制代碼。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>assetHandle </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd：string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>要刪除之資產的控點。 </p> </td> 
+   <td colname="col4"> <p>要刪除的資產控制代碼。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>metadataDelete </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd：string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
    <td colname="col4"> <p>要從資產刪除的中繼資料。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>deleteArray </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> 型別：MetadataDeleteArray</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph">型別：MetadataDeleteArray</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
    <td colname="col4"> <p>要從資產刪除的中繼資料陣列。 </p> </td> 
   </tr> 

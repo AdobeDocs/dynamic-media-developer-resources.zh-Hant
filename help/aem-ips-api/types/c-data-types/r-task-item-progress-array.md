@@ -22,4 +22,4 @@ ht-degree: 17%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 項目 | `types:TaskItemProgress` | 任務專案進度陣列。 最小出現次數為零。 上限未限制。 |
+| 項目 | `types:TaskItemProgress` | 任務專案進度陣列。 最小出現次數為零。 上限未繫結。 |

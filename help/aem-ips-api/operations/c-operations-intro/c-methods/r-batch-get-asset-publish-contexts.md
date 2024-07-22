@@ -8,7 +8,7 @@ exl-id: ba1f62a7-2698-4300-b6de-6d07ac764b0c
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '97'
-ht-degree: 16%
+ht-degree: 14%
 
 ---
 
@@ -33,9 +33,8 @@ ht-degree: 16%
 >[!NOTE]
 >
 >* 使用者必須擁有讀取存取權才能傳回資產。
->* 所有使用者都可存取共用公司。
+>* 所有使用者都可存取該共用公司。
 >
-
 
 ## 參數 {#section-1742fcb196224545b270eb8241f757a8}
 
@@ -43,7 +42,7 @@ ht-degree: 16%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 處理公司。 |
+| companyHandle | `xsd:string` | 是 | 公司處理。 |
 | assetHandleArray | ` `型別：HandleArray&quot; | 是 | 您要查詢作用中（標籤為發佈）上下文的資產清單。 |
 
 **輸出(batchGetAssetPublishContextsReturn)**
@@ -54,7 +53,7 @@ ht-degree: 16%
 
 ## 範例 {#section-457f6809ccfa425b9a0976313d613f4e}
 
-**請求**
+**要求**
 
 ```java {.line-numbers}
 <batchGetAssetPublishContextsParam xmlns="http://www.scene7.com/IpsApi/xsd/2011-11-04">
@@ -66,7 +65,7 @@ ht-degree: 16%
 </batchGetAssetPublishContextsParam>
 ```
 
-**回答**
+**回應**
 
 ```java {.line-numbers}
 <batchGetAssetPublishContextsReturn xmlns="http://www.scene7.com/IpsApi/xsd/2011-11-04">

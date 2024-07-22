@@ -8,7 +8,7 @@ exl-id: bd717c08-6da4-47f1-8614-e4ba79d8176c
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '102'
-ht-degree: 11%
+ht-degree: 9%
 
 ---
 
@@ -42,7 +42,7 @@ IPS API未傳回此作業的回應。
 
 此程式碼範例會從公司刪除影像格式。 從其他作業取得影像格式控制代碼。
 
-**請求**
+**要求**
 
 ```java
 <deleteImageFormatParam xmlns="http://www.scene7.com/IpsApi/xsd">
@@ -51,7 +51,7 @@ IPS API未傳回此作業的回應。
 </deleteImageFormatParam>
 ```
 
-**回答**
+**回應**
 
 無。
 

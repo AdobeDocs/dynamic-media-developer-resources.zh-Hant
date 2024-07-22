@@ -8,7 +8,7 @@ exl-id: db0ce8c4-3754-4fef-9430-44ee8e5c5e80
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
 source-wordcount: '63'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 4%
 
 ## 屬性 {#section-10ee45d637134e0fbcd943c62578cb78}
 
-選擇性. 標準軟體即服務使用不需要。
+選填。 標準軟體即服務使用不需要。
 
 ## 預設 {#section-d411e450028c460392cb8508f8ccc5d9}
 

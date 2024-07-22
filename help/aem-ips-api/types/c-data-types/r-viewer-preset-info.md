@@ -22,5 +22,5 @@ ht-degree: 21%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| type | `xsd:string` | 選擇檢視器型別。 |
+| type | `xsd:string` | 檢視器型別的選擇。 |
 | configSettingArray | `types:ConfigSettingArray` | 檢視器組態設定陣列。 |

@@ -37,15 +37,15 @@ ht-degree: 7%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>4 </p> </td> 
-  <td class="stentry"> <p>選取中壁邊框區域。 </p> </td> 
+  <td class="stentry"> <p>選取中壁框線區域。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>5 </p> </td> 
-  <td class="stentry"> <p>選取下壁邊框區域。 </p> </td> 
+  <td class="stentry"> <p>選取底部壁框線區域。 </p> </td> 
  </tr> 
 </table>
 
-目前僅支援壁物件。 終止先前MSS並起始要套用至指定次選取之材料的新MSS。
+目前僅支援壁物件。 終止先前的MSS並起始要套用至指定之子選取範圍的材料的新MSS。
 
 為上壁或下壁指定的材料會套用至整個壁，除非另外為另一半壁指定了不同的材料。
 
@@ -59,4 +59,4 @@ ht-degree: 7%
 
 ## 另請參閱 {#section-1a993ee24f144d4fb8baef0cc431b53b}
 
-[obj=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-obj.md#reference-31e7dac7931b4e0eb3c7589f120a1e6a)
+[物件=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-obj.md#reference-31e7dac7931b4e0eb3c7589f120a1e6a)

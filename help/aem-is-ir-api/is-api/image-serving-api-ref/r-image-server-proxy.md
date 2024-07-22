@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## URL 格式 {#section-2e8c40b0547c4f99874cdf502b338940}
 
-IS Proxy的URL格式與一般的IS要求非常類似。 任何傳遞至Proxy的IS修飾詞都會傳遞至影像伺服器。 您可以在IS修飾元的 [HTTP通訊協定參考](../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-introduction/c-introduction.md#concept-dbbd5241bc6248ad9b9d7f6c635c311e).
+IS Proxy的URL格式與一般的IS要求非常類似。 任何傳遞至Proxy的IS修飾詞都會傳遞至影像伺服器。 您可以在[HTTP通訊協定參考](../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-introduction/c-introduction.md#concept-dbbd5241bc6248ad9b9d7f6c635c311e)中的IS修飾元上找到資訊。
 
 `http://<server>/is-proxy/image/<company><asset>?<modifiers>`
 
@@ -32,7 +32,7 @@ IS Proxy的URL格式與一般的IS要求非常類似。 任何傳遞至Proxy的I
   <td class="stentry"> <p>指定裝置可用寬度的百分比，以做為影像寬度。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> 海百分比= &lt;number&gt;</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">高度= &lt;number&gt;</span> </p></td> 
   <td class="stentry"> <p>指定裝置可用高度的百分比，以做為影像高度。 </p></td> 
  </tr> 
  <tr class="strow"> 

@@ -8,7 +8,7 @@ exl-id: 1981f25f-779e-4434-ab6b-0debb40521fe
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '139'
-ht-degree: 12%
+ht-degree: 10%
 
 ---
 
@@ -43,19 +43,19 @@ ht-degree: 12%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| userInfo | `types:User` | 是 | 使用者的名字、姓氏、電子郵件地址和角色，以及使用者是否有效和使用者密碼何時到期。 |
+| userInfo | `types:User` | 是 | 使用者的名字、姓氏、電子郵件地址和角色，以及使用者是否有效和使用者密碼過期的時間。 |
 
 ## 範例 {#section-98d77a2e360a438dbe240099bea26a65}
 
 此程式碼範例會傳回預設IPS使用者的資訊。
 
-**請求**
+**要求**
 
 ```java
 <getUserInfoParam xmlns="http://www.scene7.com/IpsApi/xsd" /></getUserInfoParam>
 ```
 
-**回答**
+**回應**
 
 ```java
 <ns1:getUserInfoReturn xmlns:ns1="http://www.scene7.com/IpsApi/xsd"> 

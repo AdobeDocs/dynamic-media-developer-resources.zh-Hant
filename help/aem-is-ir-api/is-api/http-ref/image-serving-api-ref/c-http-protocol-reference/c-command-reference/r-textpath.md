@@ -1,6 +1,6 @@
 ---
 title: 文字路徑
-description: 文字路徑。 指定要用來作為textPs=所提供之文字的基準線的路徑。
+description: 文字路徑。 指定要用來作為textPs=所提供之文字的基準的路徑。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # 文字路徑{#textpath}
 
-文字路徑。 指定要用來作為textPs=所提供之文字的基準線的路徑。
+文字路徑。 指定要用來作為textPs=所提供之文字的基準的路徑。
 
 textPath= *`pathDefinition`*
 
@@ -25,21 +25,21 @@ textPath= *`pathDefinition`*
  </tr> 
 </table>
 
-另請參閱 [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d) 以取得其他資訊，包括 *`pathDefinition`*.
+請參閱[clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)以取得其他資訊，包括&#x200B;*`pathDefinition`*&#x200B;的說明。
 
 >[!NOTE]
 >
->不同於 `clipPath=`，則在子路徑的結尾未指定「z」或「Z」時，文字路徑不會自動關閉。
+>與`clipPath=`不同，當子路徑的結尾未指定&#39;z&#39;或&#39;Z&#39;時，文字路徑不會自動關閉。
 
-*`pathDefinition`* 可包含多個子路徑。 文字會依照指定的順序在子路徑上轉譯。
+*`pathDefinition`*&#x200B;可能包含多個子路徑。 文字會依照指定的順序在子路徑上轉譯。
 
-RTF命令 `\ql`， `\qc`， `\qr`， `\li`、和 `\ri` 可用來沿著路徑定位演算後的文字。
+RTF命令`\ql`、`\qc`、`\qr`、`\li`和`\ri`可用來沿著路徑定位轉譯的文字。
 
 ## 屬性 {#section-068137df436c46b9b55d271eb60e7285}
 
-文字圖層屬性( `textPs=` 僅限)。 被其他圖層忽略。 套用至 `layer=0` 若指定給 `layer=comp`. 忽略條件 `textPs=` 存在。
+文字圖層屬性（僅限`textPs=`）。 被其他圖層忽略。 若指定給`layer=comp`，則套用至`layer=0`。 如果`textPs=`存在，則忽略。
 
-如果圖層同時包含兩者，則會傳回錯誤 `textPath=` 和 `textFlowPath=`.
+如果圖層同時包含`textPath=`和`textFlowPath=`，則會傳回錯誤。
 
 ## 預設 {#section-697b1f2cfc43498080a31327e6eb173d}
 

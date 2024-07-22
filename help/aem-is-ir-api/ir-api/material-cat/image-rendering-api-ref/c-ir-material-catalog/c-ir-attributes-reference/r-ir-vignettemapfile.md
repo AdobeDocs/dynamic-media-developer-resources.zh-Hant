@@ -1,6 +1,6 @@
 ---
 title: VignettemapFile
-description: 暈映對應資料檔案路徑。 指定包含此影像目錄暈映對映的檔案。
+description: 暈映對應資料檔案路徑。 指定包含此影像目錄之暈映地圖的檔案。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # VignettemapFile{#vignettemapfile}
 
-暈映對應資料檔案路徑。 指定包含此影像目錄暈映對映的檔案。
+暈映對應資料檔案路徑。 指定包含此影像目錄之暈映地圖的檔案。
 
 ## 屬性 {#section-8f624cb8e49b44258a961fb7e464ce0a}
 

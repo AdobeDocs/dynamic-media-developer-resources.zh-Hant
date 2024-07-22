@@ -31,11 +31,11 @@ ht-degree: 12%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 處理公司。 |
-| assetHandle | `xsd:string` | 是 | 資產控點。 |
+| companyHandle | `xsd:string` | 是 | 公司處理。 |
+| assetHandle | `xsd:string` | 是 | 資產控制代碼。 |
 | name | `xsd:string` | 是 | 資產名稱。 |
 | type | `xsd:string` | 是 | 您要套用檢視器設定的資產型別。 |
-| configSettingArray | `types:ConfigSettingArray` | 是 | 陣列 `ConfigSettings` 已套用至資產…… |
+| configSettingArray | `types:ConfigSettingArray` | 是 | `ConfigSettings`的陣列已套用至資產。 |
 
 **輸出(setViewerConfigSettingsParam)**
 

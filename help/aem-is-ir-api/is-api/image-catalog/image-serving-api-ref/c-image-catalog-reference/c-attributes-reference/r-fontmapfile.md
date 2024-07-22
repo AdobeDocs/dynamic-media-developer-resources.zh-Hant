@@ -1,5 +1,5 @@
 ---
-description: 字型對應檔案路徑。 指定包含此影像目錄的字型對映的檔案。
+description: 字型對應檔案路徑。 指定包含此影像目錄字型對映的檔案。
 solution: Experience Manager
 title: 字型地圖檔案
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # 字型地圖檔案{#fontmapfile}
 
-字型對應檔案路徑。 指定包含此影像目錄的字型對映的檔案。
+字型對應檔案路徑。 指定包含此影像目錄字型對映的檔案。
 
 ## 屬性 {#section-e88a0caab57542c598f57fa0e88dd254}
 

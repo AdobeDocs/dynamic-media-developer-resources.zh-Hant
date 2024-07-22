@@ -25,15 +25,15 @@ ht-degree: 4%
  </tr> 
 </table>
 
-使用此ID和指定的規則 `attribute::LocaleMap` 和 `attribute::LocaleStrMap`，影像伺服會套用選用的目錄ID翻譯和字串本地化。
+使用此ID以及以`attribute::LocaleMap`和`attribute::LocaleStrMap`指定的規則，「影像伺服」會套用選用的目錄ID轉譯和字串本地化。
 
 ## 屬性 {#section-1854a9902b884d9b8e8e713b6635723f}
 
-要求命令。 套用至整個請求，包括巢狀/內嵌請求，無論其指定的位置為何。 `locId` 只能包含可列印的ASCII字元。 若未在此要求的主目錄中定義本地化地圖，則忽略。 如果空白或無效，則會傳回錯誤 `locId` 已指定，且未定義任何預設規則 `attribute::DefaultLocale`.
+要求命令。 套用至整個請求，包括巢狀/內嵌請求，無論其指定的位置為何。 `locId`只能包含可列印的ASCII字元。 若未在此要求的主目錄中定義本地化地圖，則忽略。 如果指定了空白或無效的`locId`，而且在`attribute::DefaultLocale`中未定義預設規則，則會傳回錯誤。
 
 ## 預設 {#section-9699fbc26de6453e9029e0003c79a7ef}
 
-`attribute::DefaultLocale` 當未指定locale=時使用。
+未指定locale=時使用`attribute::DefaultLocale`。
 
 ## 另請參閱 {#section-28a586d43ac4429d98e318a580c92af4}
 

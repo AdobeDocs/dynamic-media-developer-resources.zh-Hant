@@ -8,7 +8,7 @@ exl-id: 0de188de-b4b6-4f48-9918-bcf962fa9482
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '86'
-ht-degree: 13%
+ht-degree: 11%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 13%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 屬於您要刪除之群組的公司控制代碼。 |
+| companyHandle | `xsd:string` | 是 | 屬於您要刪除之群組之公司的控制代碼。 |
 | groupHandle | `xsd:string` | 是 | 您要刪除之群組的控制代碼。 |
 
 **輸出(deleteGroupParam)**
@@ -39,9 +39,9 @@ IPS API未傳回此作業的回應。
 
 ## 範例 {#section-8f8501af3b3348a1b5701cf9622bf6e4}
 
-此範常式式碼會從公司中刪除群組。 它需要群組控制代碼，您必須從其他作業取得此控制代碼。
+這個程式碼範例會從公司中刪除群組。 它需要群組控制代碼，您必須從其他作業取得此控制代碼。
 
-**請求**
+**要求**
 
 ```java
 <ns1:deleteGroupParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">
@@ -50,6 +50,6 @@ IPS API未傳回此作業的回應。
 </ns1:deleteGroupParam>
 ```
 
-**回答**
+**回應**
 
 無。

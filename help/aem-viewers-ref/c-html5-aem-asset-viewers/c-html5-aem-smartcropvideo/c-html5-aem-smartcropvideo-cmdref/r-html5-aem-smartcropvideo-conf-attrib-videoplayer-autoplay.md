@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 1f01f2fe-7f04-4923-be75-e9dd97ab3e21
 source-git-commit: 8c49595fe0efb684b59601fb268bd8bf97fae555
 workflow-type: tm+mt
-source-wordcount: '42'
-ht-degree: 11%
+source-wordcount: '44'
+ht-degree: 6%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 11%
 
 智慧型裁切視訊檢視器的設定屬性。
 
-` [SmartCropVideoPlayer.|<containerId>_videoPlayer.]autoplay= *`0 | 1`*`
+` [SmartCropVideoPlayer.|<containerId>_videoPlayer.]autoplay= *`0|1`*`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 0|1</span> </span> </p> </td> 
-   <td colname="col2"> <p> 指出檢視器在載入時是否開始播放視訊。 某些系統（例如某些行動裝置）不支援AutoPlay。 </p> </td> 
+   <td colname="col2"> <p> 指出檢視器在載入時是否開始播放視訊。 有些系統（例如某些行動裝置）不支援AutoPlay。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

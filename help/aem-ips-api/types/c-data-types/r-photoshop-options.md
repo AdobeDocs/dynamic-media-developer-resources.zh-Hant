@@ -8,7 +8,7 @@ exl-id: 0ad8e002-4fbd-442f-84ba-89cc551ec3de
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '30'
-ht-degree: 26%
+ht-degree: 16%
 
 ---
 
@@ -31,15 +31,15 @@ Photoshop影像的選項。
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> layerOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 型別：PhotoshopLayerOptions</span> </td> 
+   <td colname="col2"> <span class="codeph">型別：PhotoshopLayerOptions</span> </td> 
    <td colname="col3"> Photoshop圖層選項陣列。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 程式</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname">處理序</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
    <td colname="col3">Photoshop程式選項： 
     <ul id="ul_DD292274043F4A5ABBBB9DB5C2D46681"> 
-     <li id="li_92FA27B1887B464F8C4564FD0B59793B"><span class="codeph"> 無</span> </li> 
+     <li id="li_92FA27B1887B464F8C4564FD0B59793B"><span class="codeph">無</span> </li> 
      <li id="li_5A3B4A33F1A14BA399FC2F1E7C471FCC"><span class="codeph"> MaintainLayers</span> </li> 
     </ul> </td> 
   </tr> 

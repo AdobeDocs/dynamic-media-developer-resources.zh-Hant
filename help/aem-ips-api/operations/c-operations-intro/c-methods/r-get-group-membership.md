@@ -8,7 +8,7 @@ exl-id: 847e4982-219d-47fd-b94c-f7d520ba1367
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '80'
-ht-degree: 20%
+ht-degree: 17%
 
 ---
 
@@ -45,9 +45,9 @@ ht-degree: 20%
 
 ## 範例 {#section-ebb437369f4f4487b3eb2ef0c078b8ae}
 
-此程式碼範例會傳回群組的所有成員。 由於公司和使用者控制代碼是選用的，因此操作可傳回所有群組的所有成員。
+此程式碼範例會傳回群組的所有成員。 因為公司和使用者控制代碼是選擇性的，所以操作可以傳回所有群組的所有成員。
 
-**請求**
+**要求**
 
 ```java
 <ns1:getGroupMembershipParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">
@@ -55,7 +55,7 @@ ht-degree: 20%
 </ns1:getGroupMembershipParam>
 ```
 
-**回答**
+**回應**
 
 ```java
 <getGroupMembershipReturn xmlns="http://www.scene7.com/IpsApi/xsd">

@@ -24,5 +24,5 @@ PostScript檔案屬性。
 |---|---|---|
 | [!DNL engine] | `xsd:string` | 使用的產生引擎（請參閱「產生資訊」以瞭解值）。 |
 | [!DNL originator] | `types:Asset` | 產生中使用的主要資產的資產記錄。 |
-| [!DNL generated] | `types:Asset` | 所產生資產的資產記錄。 |
-| 屬性陣列 | `types:GenerationAttributeArray` | 與產生程式相關聯的屬性陣列。 |
+| [!DNL generated] | `types:Asset` | 產生的資產的資產記錄。 |
+| attributearray | `types:GenerationAttributeArray` | 與產生程式相關聯的屬性陣列。 |

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: a3b305eb-0313-4c58-bd47-4f87e09d0e0b
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '146'
 ht-degree: 2%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 2%
 
 ## 屬性 {#section-26eb1c9e13574a0eae39f6d5b92c8995}
 
-要求屬性。 如果來源影像不包含路徑資料，則忽略。 路徑資料會像影像資料一樣縮放和旋轉。 僅限來自來源影像的路徑 `layer=0` 會處理；會忽略來自其他圖層影像的路徑。
+要求屬性。 如果來源影像不包含路徑資料，則忽略。 路徑資料會像影像資料一樣縮放和旋轉。 僅處理`layer=0`來源影像的路徑；忽略其他圖層影像的路徑。
 
-如果輸出影像格式不支援路徑內嵌，則忽略。 請參閱 `fmt=` 以取得支援路徑內嵌的輸出影像格式清單。
+如果輸出影像格式不支援路徑內嵌，則忽略。 如需支援路徑內嵌的輸出影像格式清單，請參閱`fmt=`的說明。
 
 ## 限制 {#section-697cddb79a1542bc8457d2f4f59eec69}
 
@@ -30,7 +30,7 @@ ht-degree: 2%
 
 ## 預設 {#section-62f113ad71c04517a2741d93319a2b5d}
 
-`pathEmbed=0`，不會將路徑內嵌在輸出影像中。
+`pathEmbed=0`，輸出影像中不內嵌路徑。
 
 ## 另請參閱 {#section-9c20adb4147e45758ab109a543cc5862}
 

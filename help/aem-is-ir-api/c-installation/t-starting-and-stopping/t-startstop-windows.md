@@ -1,6 +1,6 @@
 ---
 title: 在Windows上啟動或停止
-description: 有幾種機制可以啟動或停止影像伺服器，以及 [!DNL Platform Server] 在Windows上
+description: Windows上有數個機制可啟動或停止影像伺服器和 [!DNL Platform Server]
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # 在Windows上啟動或停止{#starting-or-stopping-on-windows}
 
-有幾種機制可以啟動或停止影像伺服器，以及 [!DNL Platform Server] 在Windows上。
+有數個機制可啟動或停止Windows上的影像伺服器和[!DNL Platform Server]。
 
-1. 選擇下列任一項以啟動或停止「影像伺服」：
+1. 選擇下列其中一項，以啟動或停止「影像伺服」：
 
-* Windows服務控制面板可用於啟動、停止、重新啟動及驗證 `Dynamic Media Image Serving` 服務。
-* **[!UICONTROL 開始功能表]**> **[!UICONTROL 所有計畫]**> **[!UICONTROL Dynamic Media (Scene7)]**> **[!UICONTROL 影像伺服]**> **[!UICONTROL 控制服務]** 提供「啟動」、「停止」和「重新啟動」命令。 `Dynamic Media Image Serving` 服務。
+* Windows服務控制檯可用於啟動、停止、重新啟動及驗證`Dynamic Media Image Serving`服務的狀態。
+* **[!UICONTROL 開始功能表]**> **[!UICONTROL 所有程式]**> **[!UICONTROL Dynamic Media (Scene7)]**> **[!UICONTROL 影像伺服]**> **[!UICONTROL 控制服務]**&#x200B;提供啟動、停止和重新啟動`Dynamic Media Image Serving`服務的命令。

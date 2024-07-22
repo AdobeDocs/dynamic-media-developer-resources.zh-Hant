@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: e99101a1-1747-454c-b0c0-3af3335c0497
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 2%
+source-wordcount: '268'
+ht-degree: 1%
 
 ---
 
@@ -18,32 +18,32 @@ ht-degree: 2%
 
 `maskUse=norm|invert|off`
 
-下表說明 `maskUse=` 視與圖層影像相關的遮色片（Alpha色版）的可用性和型別而定。
+下表說明了`maskUse=`的效果，這取決於與圖層影像關聯的遮色片（Alpha色版）的可用性和型別。
 
 <table id="table_B765F6A765F548948531AF26DA0B4360"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b> 值</b> </th> 
-   <th class="entry"> <b> 無遮色片</b> </th> 
-   <th class="entry"> <b> 未關聯的Alpha （或個別的遮色片影像）</b> </th> 
-   <th class="entry"> <b> 相關（預乘） Alpha</b> </th> 
+   <th class="entry"> <b>值</b> </th> 
+   <th class="entry"> <b>沒有遮罩</b> </th> 
+   <th class="entry"> <b>個未關聯的Alpha （或獨立的遮色片影像）</b> </th> 
+   <th class="entry"> <b>個相關（預乘） Alpha</b> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> 關閉 </span> </p> </td> 
+   <td> <p> <span class="codeph">折扣</span> </p> </td> 
    <td> <p> 不透明影像矩形 </p> </td> 
    <td> <p> 不透明影像矩形 </p> </td> 
    <td> <p> 在填滿實心黑色的矩形上的影像前景區域 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> 標準 </span> </p> </td> 
+   <td> <p> <span class="codeph">標準</span> </p> </td> 
    <td> <p> 不透明影像矩形 </p> </td> 
    <td> <p> 影像的前景區域 </p> </td> 
    <td> <p> 影像或圖層的前景區域 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> 反轉 </span> </p> </td> 
+   <td> <p> <span class="codeph">反轉</span> </p> </td> 
    <td> <p> 隱藏圖層 </p> </td> 
    <td> <p> 影像的背景區域 </p> </td> 
    <td> <p> 影像或圖層以純黑色填滿的背景區域 </p> </td> 
@@ -53,9 +53,9 @@ ht-degree: 2%
 
 ## 屬性 {#section-f36ad1af348e45aeb3eb336544df30b0}
 
-影像或圖層屬性。 套用至圖層0，如果 `layer=comp`. 如果在效果圖層指定，該指令會修改從父圖層繼承的遮色片。
+影像或圖層屬性。 套用至圖層0 （若`layer=comp`）。 如果在效果圖層指定，該指令會修改從父圖層繼承的遮色片。
 
-的行為 `maskUse=` 未定義，且當沒有影像遮色片適用時，不支援使用文字或純色圖層(指定為 `mask=` 或 `catalog::Mask`)。
+當沒有影像遮色片適用時（以`mask=`或`catalog::Mask`指定），以文字或純色圖層指定時，`maskUse=`的行為未定義且不受支援。
 
 ## 預設 {#section-982dd8174641437786dcb3729ace6428}
 

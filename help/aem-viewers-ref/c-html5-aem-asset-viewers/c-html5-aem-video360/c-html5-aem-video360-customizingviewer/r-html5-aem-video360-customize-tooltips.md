@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 051bfbed-103e-4fcf-9f01-93f03730397a
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 2%
+source-wordcount: '139'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**主要檢視器區域的CSS屬性**
+主要檢視器區域的&#x200B;**CSS屬性**
 
 工具提示的外觀是由下列CSS類別選取器所控制：
 
@@ -35,27 +35,27 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">邊框半徑</span> </p> </td> 
    <td colname="col2"> <p> 背景邊框半徑。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">邊框顏色</span> </p> </td> 
    <td colname="col2"> <p> 背景邊框顏色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p> 背景顏色. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色彩</span> </p> </td> 
+   <td colname="col2"> <p> 背景顏色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">色彩</span> </p> </td> 
    <td colname="col2"> <p>文字顏色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">字型系列</span> </p> </td> 
    <td colname="col2"> <p>文字字型名稱。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">字型大小</span> </p> </td> 
    <td colname="col2"> <p>文字字型大小。 </p> </td> 
   </tr> 
  </tbody> 
@@ -63,7 +63,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->如果工具提示樣式是從內嵌網頁中自訂的，則所有屬性都必須包含 `!IMPORTANT` 規則。 如果在檢視器的CSS檔案中自訂工具提示，則不需要此規則。
+>如果工具提示樣式是從內嵌網頁中自訂的，則所有屬性都必須包含`!IMPORTANT`規則。 如果在檢視器的CSS檔案中自訂工具提示，則不需要此規則。
 
 範例 — 若要設定工具提示，工具提示的灰色邊框具有三個畫素圓角半徑、黑色背景和Arial®中的白色文字（11畫素）：
 

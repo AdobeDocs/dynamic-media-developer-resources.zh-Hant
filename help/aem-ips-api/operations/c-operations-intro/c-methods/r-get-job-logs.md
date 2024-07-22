@@ -8,7 +8,7 @@ exl-id: 6239c3c4-bdbc-4e69-82d4-48a76f080eff
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '184'
-ht-degree: 11%
+ht-degree: 10%
 
 ---
 
@@ -36,12 +36,12 @@ ht-degree: 11%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 否 | 公司控點。 |
+| companyHandle | `xsd:string` | 否 | 公司控制代碼。 |
 | userHandle | `xsd:string` | 否 | 取得特定使用者所提交工作的記錄。 |
-| sortby | `xsd:string` | 否 | 可讓您選取排序欄位。 |
+| sortBy | `xsd:string` | 否 | 可讓您選取排序欄位。 |
 | sortDirection | `xsd:string` | 否 | 排序順序（升序或降序）。 |
-| startDate | `xsd:dateTime` | 否 | 工作記錄的開始日期和時間。 提供此欄位請求的時區。 |
-| endDate | `xsd:dateTime` | 否 | 工作記錄結束的日期和時間。 提供此欄位請求的時區。 |
+| startDate | `xsd:dateTime` | 否 | 工作記錄檔的開始日期和時間。 提供此欄位要求的時區。 |
+| endDate | `xsd:dateTime` | 否 | 工作記錄結束的日期和時間。 提供此欄位要求的時區。 |
 | numRows | `xsd:int` | 否 | 要傳回的最大列數。 |
 
 **輸出(getJobLogsReturn)**
@@ -52,9 +52,9 @@ ht-degree: 11%
 
 ## 範例 {#section-35871c94b4a44559912577efddbc46a6}
 
-此程式碼範例會傳回特定公司的IPS工作記錄檔。 您也可以使用它來傳回特定使用者或公司和使用者的工作記錄。
+此程式碼範例會傳回特定公司的IPS工作記錄檔。 您也可以用它來傳回特定使用者、公司和使用者的工作記錄檔。
 
-**請求**
+**要求**
 
 ```java
 <ns1:getJobLogsParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">
@@ -62,7 +62,7 @@ ht-degree: 11%
 </ns1:getJobLogsParam>
 ```
 
-**回答**
+**回應**
 
 ```java
 <getJobLogsReturn xmlns="http://www.scene7.com/IpsApi/xsd">

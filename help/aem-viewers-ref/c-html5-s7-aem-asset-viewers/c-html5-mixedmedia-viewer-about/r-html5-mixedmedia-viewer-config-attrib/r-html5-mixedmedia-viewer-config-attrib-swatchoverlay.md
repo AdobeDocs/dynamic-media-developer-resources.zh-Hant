@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: cf9ad105-8851-49f5-ba6c-96d588f4fd58
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 6%
+source-wordcount: '62'
+ht-degree: 4%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
-   <td colname="col2"> <p>指定觸控式裝置上的檢視器配置。 當引數設定為 <span class="codeph"> 1 </span>，檢視器在案頭的主檢視下方顯示色票；在觸控式裝置上，色票會覆蓋在主檢視上方。 </p> <p>當引數設定為 <span class="codeph"> 0 </span>，色票會呈現在所有裝置型別的主要檢視下方。 </p> </td> 
+   <td colname="col2"> <p>指定觸控裝置上的檢視器配置。 當引數設為<span class="codeph"> 1 </span>時，檢視器在案頭上的主檢視下方顯示色票；在觸控裝置上，色票會覆蓋在主檢視上方。 </p> <p>當引數設為<span class="codeph"> 0 </span>時，色票會呈現在所有裝置型別上的主檢視下。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

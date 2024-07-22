@@ -1,18 +1,18 @@
 ---
 description: 刪除縮放目標。
 solution: Experience Manager
-title: deleteZoomTarget
+title: Deletzoomtarget
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: fa1f7cf8-038a-4fa8-b869-12ce4b2ad41f
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '81'
-ht-degree: 13%
+ht-degree: 11%
 
 ---
 
-# deleteZoomTarget{#deletezoomtarget}
+# Deletzoomtarget{#deletezoomtarget}
 
 刪除縮放目標。
 
@@ -27,7 +27,7 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->使用者必須擁有資產的讀取和寫入存取權。
+>使用者必須擁有資產的讀寫存取權。
 
 ## 參數 {#section-225330a45e7a408f8375e084677d9cb1}
 
@@ -46,7 +46,7 @@ IPS API未傳回此作業的回應。
 
 此程式碼範例會從公司刪除縮放目標。
 
-**請求**
+**要求**
 
 ```java
 <ns1:deleteZoomTargetParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">
@@ -55,6 +55,6 @@ IPS API未傳回此作業的回應。
 </ns1:deleteZoomTargetParam>
 ```
 
-**回答**
+**回應**
 
 無。

@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 1afe63ca-d11a-4fa5-a26b-90a23bee1b68
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 9%
+source-wordcount: '261'
+ht-degree: 8%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->使用者必須擁有資料夾的讀取存取權才能傳回其上的資料。
+>使用者必須擁有資料夾的讀取存取權，才能傳回其上的資料。
 
 ## 參數 {#section-0c2b30513f1e439cbd840e8cc6465b3a}
 
@@ -41,24 +41,24 @@ ht-degree: 9%
 | companyHandle | `xsd:string` | 是 | 公司的控制代碼。 |
 | accessUserHandle | `xsd:string` | 否 | 僅供管理員用來模擬特定使用者。 |
 | accessGroupHandle | `xsd:string` | 否 | 用於依特定群組篩選，包括公司所屬的任何群組。 |
-| 資料夾路徑 | `xsd:string` | 否 | 根資料夾，可擷取葉層級的資料夾和所有子資料夾。 如果排除，則使用公司根目錄。 |
-| 深度 | `xsd:int` | 是 | 值為零會取得頂層資料夾。 任何其他值都會指定下降到樹狀結構中的深度。 |
+| 資料夾路徑 | `xsd:string` | 否 | 根資料夾以擷取資料夾及葉層級的所有子資料夾。 如果排除，則會使用公司根目錄。 |
+| 深度 | `xsd:int` | 是 | 如果值為零，則會取得頂層資料夾。 任何其他值都會指定下降到樹狀結構中的深度。 |
 | assetTypeArray | `types:StringArray` | 否 | 傳回僅包含指定資產型別的資料夾。 |
-| responseFieldArray | `types:StringArray` | 否 | 包含您要包含在回應中的欄位清單。 |
+| responseFieldArray | `types:StringArray` | 否 | 包含您要納入回應的欄位清單。 |
 | excludeFieldArray | `types:StringArray` | 否 | 包含您要在回應中排除的欄位清單。 |
 
 **輸出(getFolderTreeReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| 資料夾 | `types:folders` | 否 | 樹狀結構中的資料夾階層。 回應最多可包含100,000個資料夾。 |
+| 資料夾 | `types:folders` | 否 | 樹狀結構中的資料夾階層。 回應上限為100,000個資料夾。 |
 | permissionSetArray | `types:PermissionSetArray` |  |  |
 
 ## 範例 {#section-a9fd2edb56574dd9bf8b0f2fd89367e4}
 
 此程式碼範例使用公司控制代碼和深度引數來決定回應應傳回的深度等級。 回應包含具有相關性的資料夾和子資料夾陣列。 將深度值設為較小的數字，以便在資料夾樹狀結構中更深入地進行搜尋。
 
-**請求**
+**要求**
 
 ```java
 <ns1:getFolderTreeParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">
@@ -67,7 +67,7 @@ ht-degree: 9%
 </ns1:getFolderTreeParam>
 ```
 
-**回答**
+**回應**
 
 ```java
 <getFolderTreeReturn xmlns="http://www.scene7.com/IpsApi/xsd/">

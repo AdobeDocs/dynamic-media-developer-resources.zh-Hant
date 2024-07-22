@@ -8,7 +8,7 @@ exl-id: f9ab0c0e-989c-42ce-b9dd-4ca2f6b382d2
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
 source-wordcount: '43'
-ht-degree: 9%
+ht-degree: 6%
 
 ---
 
@@ -16,15 +16,15 @@ ht-degree: 9%
 
 允許絕對來源URL。
 
-設定為 `1` 以允許絕對HTTP URL (開頭為&quot; `http://`&quot;) in `src=` 命令。 設定為 `0` 以禁止絕對URL。
+設定為`1`可允許`src=`命令中的絕對HTTP URL （以&quot; `http://`&quot;開頭）。 設定為`0`不允許絕對URL。
 
 ## 屬性 {#section-9246bc06c7484f9e8f65a5edb24f6854}
 
-標幟.
+標幟。
 
 ## 預設 {#section-a881c30ea28e47e296faa890c3bd6daf}
 
-繼承自 `default::AllowDirectUrls` 如果未定義或為空。
+如果未定義或空白，則繼承自`default::AllowDirectUrls`。
 
 ## 另請參閱 {#section-66e0c597a8b04155b40538385312b389}
 

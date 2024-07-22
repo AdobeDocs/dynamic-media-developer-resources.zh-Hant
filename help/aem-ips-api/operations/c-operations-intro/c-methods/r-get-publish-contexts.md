@@ -8,7 +8,7 @@ exl-id: 7b26e659-71b9-40c4-9df4-94e78c3e4baf
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
 source-wordcount: '86'
-ht-degree: 24%
+ht-degree: 17%
 
 ---
 
@@ -50,13 +50,13 @@ ht-degree: 24%
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 公司處理。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> contextType</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4">您要傳回的發佈內容型別。 包括： 
     <ul id="ul_21EDF8F0026E402EAE8226A0CADEE652">
@@ -77,7 +77,7 @@ ht-degree: 24%
 
 ## 範例 {#section-23fb7d6a15004b7eb4c3d3bcb37ceb04}
 
-**請求**
+**要求**
 
 ```java
 <getPublishContextsParam xmlns="http://www.scene7.com/IpsApi/xsd/2011-11-04">
@@ -85,7 +85,7 @@ ht-degree: 24%
 </getPublishContextsParam>
 ```
 
-**回答**
+**回應**
 
 ```java
 <getPublishContextsReturn xmlns="http://www.scene7.com/IpsApi/xsd">

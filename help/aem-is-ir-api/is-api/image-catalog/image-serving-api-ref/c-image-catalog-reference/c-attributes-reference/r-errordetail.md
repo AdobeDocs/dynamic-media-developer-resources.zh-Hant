@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 08a363d0-918d-48e9-aef0-5a8554c2708a
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '167'
 ht-degree: 4%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 4%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p></td> 
-  <td class="stentry"> <p>完整的偵錯資訊。 新增Java棧疊追蹤（如適用）。 錯誤影像絕不包含棧疊追蹤，而是傳回第2級資訊 <span class="codeph"> $error.message</span>. 向Dynamic Media技術支援報告問題時，此資訊會很有用。 </p></td> 
+  <td class="stentry"> <p>完整的偵錯資訊。 新增Java棧疊追蹤（如適用）。 錯誤影像絕不包含棧疊追蹤，而是在<span class="codeph"> $error.message</span>中傳回層級2資訊。 向Dynamic Media技術支援報告問題時，此資訊會很有用。 </p></td> 
  </tr> 
 </table>
 
@@ -43,7 +43,7 @@ ht-degree: 4%
 
 ## 預設 {#section-8f27098e509945a18676aca0675c8f41}
 
-繼承自 `default::ErrorDetail` 若未指定或為空。
+如果未指定或空白，則繼承自`default::ErrorDetail`。
 
 ## 另請參閱 {#section-5451b0525ed74121950bfc34726c3970}
 

@@ -1,18 +1,18 @@
 ---
 description: 設定字型中繼資料欄位。
 solution: Experience Manager
-title: batchsetFontFields
+title: batchSetFontField
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f38aa861-2a81-4663-967e-72611122f51b
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '125'
-ht-degree: 15%
+ht-degree: 13%
 
 ---
 
-# batchsetFontFields{#batchsetfontfields}
+# batchSetFontField{#batchsetfontfields}
 
 設定字型中繼資料欄位。
 
@@ -37,15 +37,15 @@ ht-degree: 15%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| successCount | `xsd:int` | 是 | 成功設定的字型欄位數目。 |
-| warningCount | `xsd:int` | 是 | 作業嘗試設定字型欄位時產生的警告數目。 |
-| errororcount | `xsd:int` | 是 | 作業嘗試設定字型欄位時產生的錯誤數。 |
+| successCount | `xsd:int` | 是 | 成功設定的字型欄位數。 |
+| warningcount | `xsd:int` | 是 | 作業嘗試設定字型欄位時產生的警告數目。 |
+| errororcount | `xsd:int` | 是 | 作業嘗試設定字型欄位時產生的錯誤數目。 |
 | warningDetailArray | `types:AssetOperationFaultArray` | 否 | 與資產關聯的詳細資訊陣列，在作業嘗試套用更新時產生警告。 |
-| errorDetailArray | `types:AssetOperationFaultArray` | 否 | 與資產關聯的詳細資訊陣列，在作業嘗試套用更新時產生錯誤。 |
+| errorDetailArray | `types:AssetOperationFaultArray` | 否 | 與資產關聯的詳細資訊陣列，在操作嘗試套用更新時產生錯誤。 |
 
 ## 範例 {#section-0449c2e4ec534f4b8ee849ec4fe12c4e}
 
-**請求**
+**要求**
 
 ```javascript {.line-numbers}
 <batchSetFontFieldsParam xmlns="http://www.scene7.com/IpsApi/xsd/2009-07-31">
@@ -64,7 +64,7 @@ ht-degree: 15%
 </batchSetFontFieldsParam>
 ```
 
-**回答**
+**回應**
 
 ```javascript {.line-numbers}
 <batchSetFontFieldsReturn xmlns="http://www.scene7.com/IpsApi/xsd/2009-07-31">

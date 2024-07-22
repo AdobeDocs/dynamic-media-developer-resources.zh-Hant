@@ -1,5 +1,5 @@
 ---
-description: 本節包含協助您設定及管理影像演算伺服器的資訊。
+description: 本節包含的資訊可協助您設定及管理影像演算伺服器。
 solution: Experience Manager
 title: 設定和管理伺服器
 feature: Dynamic Media Classic,SDK/API
@@ -14,10 +14,10 @@ ht-degree: 0%
 
 # 設定和管理伺服器{#configuring-and-managing-the-server}
 
-本節包含協助您設定及管理影像演算伺服器的資訊。
+本節包含的資訊可協助您設定及管理影像演算伺服器。
 
 >[!NOTE]
 >
 >「影像伺服」必須正確設定且功能正常，才能正確執行影像轉譯。
 
-如需詳細資訊，請參閱材質目錄參考、HTTP通訊協定參考、發行說明、影像伺服檔案
+如需詳細資訊，請參閱資料目錄參考、HTTP通訊協定參考、發行說明、影像伺服檔案

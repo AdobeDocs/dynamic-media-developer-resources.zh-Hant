@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: f37d935d-fe74-4878-8477-d2144d58d982
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 7%
+source-wordcount: '124'
+ht-degree: 4%
 
 ---
 
@@ -31,18 +31,18 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> videoEncodingPresetsArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 型別：HandleArray</span> </td> 
-   <td colname="col3">陣列 <span class="codeph"> 屬性集</span> 處理參考視訊編碼預設集以轉碼視訊。 </td> 
+   <td colname="col2"> <span class="codeph">型別：HandleArray</span> </td> 
+   <td colname="col3"><span class="codeph"> PropertySet</span>陣列處理參考視訊編碼預設集以轉碼視訊。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> generateThumbnail</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：布林值</span> </td> 
    <td colname="col3"> 為true時，會擷取視訊的第一個影格，並當做縮圖影像使用。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbnailoptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 型別：ThumbnailOptions</span> </td> 
-   <td colname="col3">選擇性. 可讓您選擇特定的視訊影格做為縮圖影像。 <p>若要指定縮圖影像，請為您要使用的影格傳入時間（從視訊開始算起的毫秒）。 值範圍從0到視訊結尾。 <p>注意：如果您不正確指定時間， <span class="codeph"> generateThumbnail</span> 預設為true。 </p></p><p>另請參閱 <a href="../../types/c-data-types/r-thumbnail-options.md#reference-370088b0a4ce4096b9b3e5489a368b5c" format="dita" scope="local"> 縮圖選項</a>. </p></td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbnailOptions</span> </span> </td> 
+   <td colname="col2"> <span class="codeph">型別：ThumbnailOptions</span> </td> 
+   <td colname="col3">選填。 可讓您選擇特定的視訊影格做為縮圖影像。 <p>若要指定縮圖影像，請為您要使用的影格傳入時間（從視訊開始算起以毫秒為單位）。 值範圍從0到視訊結尾。 <p>注意：如果您不正確指定時間，<span class="codeph"> generateThumbnail</span>會預設為true。 </p></p><p>請參閱<a href="../../types/c-data-types/r-thumbnail-options.md#reference-370088b0a4ce4096b9b3e5489a368b5c" format="dita" scope="local"> ThumbnailOptions</a>。 </p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,8 +61,8 @@ ht-degree: 7%
 
 ## 使用者 {#section-87cb83407198432c95eaa2db9f12f9db}
 
-此 `mediaOptions` 型別使用者：
+`mediaOptions`型別由下列使用者使用：
 
-* [UploadDirectory作業](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
+* [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
 * [UploadpostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)
 * [UploadURLsJob](../../types/c-data-types/r-upload-urls-job.md#reference-8e9bc895268c4321b233dbeadc990398)

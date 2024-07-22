@@ -17,6 +17,6 @@ ht-degree: 0%
 這些主題包含有關管理內容的資訊。
 
 * [影像目錄](c-image-catalogs.md)
-* [來源資料](r-source-data.md)
+* [Source資料](r-source-data.md)
 * [靜態內容來源資料](c-static-content-source-data.md)
 * [刪除或取代資料檔案](c-deleting-or-replacing-data-files.md)

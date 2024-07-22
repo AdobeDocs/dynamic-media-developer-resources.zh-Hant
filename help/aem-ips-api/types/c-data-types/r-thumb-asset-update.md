@@ -22,5 +22,5 @@ ht-degree: 26%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| assetHandle | `xsd:string` | 資產控點。 |
+| assetHandle | `xsd:string` | 資產控制代碼。 |
 | thumbAssetHandle | `xsd:string` | 縮圖資產控制代碼。 |

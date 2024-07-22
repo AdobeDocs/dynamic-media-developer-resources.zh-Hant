@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## PS：：errorRedirect.rootUrl — 重新導向伺服器 {#section-85f22e48d68842a490b0e1191543b558}
 
-根URL ( [!DNL HTTP:// *[!DNL domain]*[: *[!DNL port]*]])對於次要影像伺服部署，若請求在本機失敗，應重新導向至該部署。 此設定為空白或未定義時，錯誤重新導向功能會停用（預設）。
+應該將本機失敗之要求的次要影像伺服部署根URL ( [!DNL HTTP:// *[!DNL domain]*[: *[!DNL port]*])重新導向。 此設定為空白或未定義時，錯誤重新導向功能會停用（預設）。
 
 ## PS：：errorRedirect.connectTimeout — 重新導向連線逾時 {#section-3971be8f720d4b32a2cc7860b4085971}
 

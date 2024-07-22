@@ -16,11 +16,11 @@ ht-degree: 1%
 
 列印解析度。 覆寫內嵌在回應影像中的列印解析度值。
 
-`printRes= *`val`*`
+`printRes= *`值`*`
 
 <table id="simpletable_3B5576DD070547538E74D4059B3E8251"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> val</span> </p> </td> 
+  <td class="stentry"> <p><span class="varname">值</span> </p> </td> 
   <td class="stentry"> <p>列印解析度(dpi)。 </p></td> 
  </tr> 
 </table>
@@ -35,4 +35,4 @@ ht-degree: 1%
 
 ## 預設 {#section-b482aa22ec0a4fba87b3f9007ab6d9ce}
 
-暈映中內嵌的列印解析度。
+內嵌在暈映中的列印解析度。

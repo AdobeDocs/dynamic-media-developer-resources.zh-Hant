@@ -20,6 +20,6 @@ ht-degree: 14%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| companyHandle | `xsd:string` | 處理公司。 |
+| companyHandle | `xsd:string` | 公司處理。 |
 | 角色 | `xsd:string` | 使用者對其所屬每個公司具有的角色。 |
 | isActive | `xsd:boolean` | 設定使用者所屬每個公司的狀態。 |

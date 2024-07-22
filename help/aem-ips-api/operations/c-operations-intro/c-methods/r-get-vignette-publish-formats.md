@@ -8,7 +8,7 @@ exl-id: 6e56d68e-b5cf-4044-9c58-f8221fa4490f
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '61'
-ht-degree: 24%
+ht-degree: 21%
 
 ---
 
@@ -35,13 +35,13 @@ ht-degree: 24%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| vignetteformatArray | `types:VignettePublishFormatArray` | 是 | 暈映發佈格式的陣列。 |
+| vignetteFormatArray | `types:VignettePublishFormatArray` | 是 | 暈映發佈格式的陣列。 |
 
 ## 範例 {#section-2cc32b27cc6243b7b3e273cc05996226}
 
-此程式碼範例會傳回與特定公司相關聯的兩個暈映發佈格式。 傳回的資訊會以陣列傳回，為簡短起見，該陣列會遭到截斷。
+此程式碼範例會傳回與特定公司相關聯的兩個暈映發佈格式。 傳回的資訊會以陣列形式傳回，為簡短起見，該陣列會遭到截斷。
 
-**請求**
+**要求**
 
 ```java
 <getVignettePublishFormatsParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">
@@ -49,7 +49,7 @@ ht-degree: 24%
 </getVignettePublishFormatsParam>
 ```
 
-**回答**
+**回應**
 
 ```java
 <getVignettePublishFormatsReturn xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

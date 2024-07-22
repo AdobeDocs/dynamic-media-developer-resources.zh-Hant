@@ -1,18 +1,18 @@
 ---
 description: 取得公司資產的原始檔案路徑。
 solution: Experience Manager
-title: getOriginalFilePath
+title: getOriginalFilePaths
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 81d06a8c-55c1-47d5-adc9-928ab30199c6
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '99'
-ht-degree: 16%
+ht-degree: 14%
 
 ---
 
-# getOriginalFilePath{#getoriginalfilepaths}
+# getOriginalFilePaths{#getoriginalfilepaths}
 
 取得公司資產的原始檔案路徑。
 
@@ -39,7 +39,7 @@ ht-degree: 16%
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
 | companyHandle | `xsd:string` | 是 | 公司的控制代碼。 |
-| assetHandleArray | `types:HandleArray` | 是 | 要取得其原始檔案路徑的資產的控制點陣列。 |
+| assetHandleArray | `types:HandleArray` | 是 | 您要取得其原始檔案路徑的資產的控制代碼陣列。 |
 
 **輸出(getOriginalFilePathsReturn)**
 
@@ -49,9 +49,9 @@ ht-degree: 16%
 
 ## 範例 {#section-a966e783a2ba49f5b6b0f961329ab2f8}
 
-此程式碼範例會傳回資產控制代碼陣列中，以唯一資產控制代碼指定的資產檔案路徑。
+此程式碼範例會傳回以資產控制代碼陣列中唯一資產控制代碼所指定之資產的檔案路徑。
 
-**請求**
+**要求**
 
 ```java
 <ns1:getOriginalFilePathsParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">
@@ -63,7 +63,7 @@ ht-degree: 16%
 </ns1:getOriginalFilePathsParam>
 ```
 
-**回答**
+**回應**
 
 ```java
 <getOriginalFilePathsReturn xmlns="http://www.scene7.com/IpsApi/xsd">

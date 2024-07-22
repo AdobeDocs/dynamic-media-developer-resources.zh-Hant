@@ -1,5 +1,5 @@
 ---
-title: AssetCount
+title: 資產計數
 description: 公司的資產型別和計數。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -16,9 +16,9 @@ ht-degree: 10%
 
 公司的資產型別和計數。
 
-資產型別包括 [!DNL ViewerSWf]， [!DNL PDF]， [!DNL Cabinet]和其他。
+資產型別包括[!DNL ViewerSWf]、[!DNL PDF]、[!DNL Cabinet]等。
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
 | assetType | `xsd:string` | 與計數相關聯的資產型別。 |
-| 計數 | `sd:int` | 數量 `assetType` 公司資產。 |
+| 計數 | `sd:int` | 公司中`assetType`個資產的數量。 |

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 5ea8eb18-d169-4255-b4b1-dda849246485
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '162'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 <table id="simpletable_A270FD92B1E841FE81F5AB300351FE01"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> 座標</span> </p></td> 
+  <td class="stentry"> <p><span class="varname">座標</span> </p></td> 
   <td class="stentry"> <p>從圖層矩形(int， int)左上角的畫素位移。 </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -33,21 +33,21 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->圖層矩形一律包含任何修改 `extend=`.
+>圖層矩形一律包含`extend=`的任何修改。
 
-定義圖層矩形的對齊點，此對齊點用來相對於圖層0定點陣圖層矩形，方式為 `pos=`. `originN=0,0` 將圖層原點放置在圖層矩形的中心。 `originN=-0.5,-0.5` 和 `origin=0,0` 是左上角，且 `originN=0.5,0.5` 是圖層矩形的右下角。
+定義圖層矩形的對齊點，用來透過`pos=`相對於圖層0定點陣圖層矩形。 `originN=0,0`將圖層原點放置在圖層矩形的中心。 `originN=-0.5,-0.5`和`origin=0,0`是左上角，`originN=0.5,0.5`是圖層矩形的右下角。
 
 ## 屬性 {#section-60f639e36ada43d1abc6bfc100afc925}
 
-圖層屬性。 套用至目前的圖層，或套用至圖層0，如果 `layer=comp`. 不受圖層轉換影響( `crop=`， `scale=`， `rotate=`， `flip=`)套用至圖層來源。 覆寫 `anchor=`. 被效果圖層忽略。
+圖層屬性。 套用至目前的圖層，或套用至圖層0 （若`layer=comp`）。 不受套用至圖層來源的圖層轉換(`crop=`、`scale=`、`rotate=`、`flip=`)影響。 覆寫`anchor=`。 被效果圖層忽略。
 
 ## 預設 {#section-b7209e5c2ad6491fb0c2353cc3f1f703}
 
-如果 `origin=` 未指定，圖層原點會透過將圖層變形套用至影像錨點來決定。 如果影像錨點不明，圖層矩形的中心( `originN=0,0`)已使用。
+如果未指定`origin=`，圖層原點會透過將圖層變形套用至影像錨點來決定。 如果影像錨點不明，則會使用圖層矩形( `originN=0,0`)的中心。
 
 ## 範例 {#section-13e38d6e17be4e6cbc6b27fbde63b291}
 
-請參閱中的範例A [範本](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e).
+檢視[範本](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e)中的範例A。
 
 ## 另請參閱 {#section-a9f9c42c86fe45798deb2daaf27ea5b7}
 

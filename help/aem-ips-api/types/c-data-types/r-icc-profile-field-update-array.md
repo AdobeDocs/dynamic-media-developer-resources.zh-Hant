@@ -22,4 +22,4 @@ ICC設定檔欄位更新專案的陣列。
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 項目 | `types:IccProfileUpdate` | `IccProfileFieldUpdate` 陣列專案。 |
+| 項目 | `types:IccProfileUpdate` | `IccProfileFieldUpdate`陣列專案。 |

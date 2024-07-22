@@ -8,7 +8,7 @@ exl-id: 30762700-6d69-4299-9492-57893232abe1
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '156'
-ht-degree: 3%
+ht-degree: 0%
 
 ---
 
@@ -18,15 +18,15 @@ ht-degree: 3%
 
 ## 現成可用的追蹤 {#section-d06145cfa2b9491bb485b599368d466e}
 
-迴轉檢視器支援立即可用的Adobe Analytics追蹤。
+迴轉檢視器支援Adobe Analytics立即可用追蹤。
 
-若要啟用追蹤，請將適當的公司預設集名稱傳遞為 `config2` 引數。
+若要啟用追蹤，請將適當的公司預設集名稱傳遞為`config2`引數。
 
-檢視器也會傳送單一追蹤HTTP要求至已設定的影像伺服器，並提供檢視器型別和版本資訊。
+檢視器也會將單一追蹤HTTP要求傳送至已設定的影像伺服器，並提供檢視器型別和版本資訊。
 
 ## 自訂追蹤 {#section-47512156a1d64b338b50cfa39c84f4aa}
 
-若要與協力廠商分析系統整合，請務必監聽 `trackEvent` 檢視器回呼並處理 `eventInfo` 必要時，回呼函式的引數。 下列程式碼是此類處理常式函式的範例：
+若要與協力廠商分析系統整合，必須接聽`trackEvent`檢視器回呼，並視需要處理回呼函式的`eventInfo`引數。 下列程式碼為此類處理常式函式的範例：
 
 ```javascript {.line-numbers}
 var spinViewer = new s7viewers.SpinViewer({ 
@@ -61,23 +61,23 @@ var spinViewer = new s7viewers.SpinViewer({
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LOAD </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">載入</span> </p> </td> 
    <td colname="col2"> <p>檢視器會先載入。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>在檢視器中使用交換資產 <span class="codeph"> setAsset() </span> API。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">交換</span> </p> </td> 
+   <td colname="col2"> <p>在檢視器中使用<span class="codeph"> setAsset() </span> API交換資產。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ZOOM </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">縮放</span> </p> </td> 
    <td colname="col2"> <p> 影像會縮放。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PAN </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">平移</span> </p> </td> 
    <td colname="col2"> <p>已平移影像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SPIN </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">迴轉</span> </p> </td> 
    <td colname="col2"> <p> 執行迴轉。 </p> </td> 
   </tr> 
  </tbody> 

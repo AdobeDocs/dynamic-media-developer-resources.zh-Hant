@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 39d7fc44-7605-4f93-b2f9-0a6e8bc76ec7
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '175'
 ht-degree: 4%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 4%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p></td> 
-  <td class="stentry"> <p>完整的偵錯資訊。 新增Java™棧疊追蹤（如適用）。 錯誤影像絕不包含棧疊追蹤，而是傳回第2級資訊 <span class="codeph"> $error.message</span>. </p></td> 
+  <td class="stentry"> <p>完整的偵錯資訊。 新增Java™棧疊追蹤（如適用）。 錯誤影像絕不包含棧疊追蹤，而是在<span class="codeph"> $error.message</span>中傳回層級2資訊。 </p></td> 
  </tr> 
 </table>
 
@@ -49,7 +49,7 @@ ht-degree: 4%
 
 ## 預設 {#section-5e78d550050840cc9a1de811c581b94f}
 
-繼承自 `default::ErrorDetail` 若未指定或為空。
+如果未指定或空白，則繼承自`default::ErrorDetail`。
 
 ## 另請參閱 {#section-474e71922d194c7ca06f2aad3b30e025}
 

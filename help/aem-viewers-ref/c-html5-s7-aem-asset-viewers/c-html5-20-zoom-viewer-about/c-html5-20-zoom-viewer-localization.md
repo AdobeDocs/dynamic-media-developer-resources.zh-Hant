@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: c386a09c-21ce-4105-b416-e6ae50219af0
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Video Viewer顯示的特定內容必須經過本地化，包括縮放按鈕和全熒幕按鈕。
 
-檢視器中可本地化的每個文字內容，都會以稱為SYMBOL的特殊檢視器SDK識別碼表示。 任何SYMBOL都有英文地區設定的預設相關文字值( `"en"`)隨現成可用的檢視器提供。 您也可以視需要為多個地區設定使用者定義的值。
+檢視器中可本地化的每個文字內容，都會以稱為SYMBOL的特殊檢視器SDK識別碼表示。 任何SYMBOL都有隨現成可用的檢視器提供的英文地區設定( `"en"`)的預設相關文字值。 您也可以視需要為多個地區設定使用者定義的值。
 
 當檢視器啟動時，它會檢查目前的地區設定，檢視地區設定的每個受支援SYMBOL是否有使用者定義的值。 如果有的話，它會使用使用者定義的值；否則，它會回覆成現成的預設文字。
 
@@ -38,9 +38,9 @@ defaultLocale:"en"
 }
 ```
 
-在上述範例中，本地化物件定義了兩種地區設定( `"en"` 和 `"fr"`)並提供每個地區設定中兩個使用者介面元素的當地語系化。
+在上述範例中，本地化物件定義了兩個地區設定（`"en"`和`"fr"`），並為每個地區設定中的兩個使用者介面元素提供本地化。
 
-網頁程式碼應將此類本地化物件傳遞至檢視器建構函式，做為的值 `localizedTexts` 設定物件的欄位。 另一種選擇是呼叫 `setLocalizedTexts(localizationInfo)` 方法。
+網頁程式碼應將這類本地化物件作為設定物件的`localizedTexts`欄位值傳遞給檢視器建構函式。 替代選項是呼叫`setLocalizedTexts(localizationInfo)`方法來傳遞本地化物件。
 
 支援下列SYMBOL：
 

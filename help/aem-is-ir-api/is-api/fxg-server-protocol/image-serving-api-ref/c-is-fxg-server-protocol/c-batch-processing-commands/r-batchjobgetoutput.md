@@ -20,14 +20,14 @@ ht-degree: 2%
 
 <table id="simpletable_D8AA325968AD4FAEA7B214F0CBBF3F08"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> jobid </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph">工作ID </span> </p> </td> 
   <td class="stentry"> <p>提交時取得的作業ID。 </p> </td> 
  </tr> 
 </table>
 
 傳回：
 
-為回應而串流工作的PDF輸出；發生以下情況時發生錯誤： `jobid` 無效或已刪除工作。
+為回應而串流處理工作的PDF輸出；如果`jobid`無效或工作已刪除，則會發生錯誤。
 
 ## 範例 {#section-0319e615fa254132a9dab59351b4c252}
 

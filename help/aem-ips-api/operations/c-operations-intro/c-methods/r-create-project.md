@@ -8,7 +8,7 @@ exl-id: dd9c07df-9a8f-4b67-9838-31dd96fd127b
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '76'
-ht-degree: 19%
+ht-degree: 18%
 
 ---
 
@@ -44,9 +44,9 @@ ht-degree: 19%
 
 ## 範例 {#section-a0cd532b67e346d088fbec141231a0e5}
 
-此程式碼範例會建立名為的專案 `ApiTestProject` 在由其控制代碼指定的公司中。 回應會將控制代碼傳回至專案。
+這個程式碼範例會在控制代碼所指定的公司中建立名為`ApiTestProject`的專案。 回應會將控制代碼傳回至專案。
 
-**請求**
+**要求**
 
 ```java
 <createProjectParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

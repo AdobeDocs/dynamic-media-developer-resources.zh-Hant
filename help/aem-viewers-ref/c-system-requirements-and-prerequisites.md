@@ -8,8 +8,8 @@ role: Developer,User
 exl-id: e4543358-92a6-4acc-a8a2-227e1daea722
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 1%
+source-wordcount: '361'
+ht-degree: 0%
 
 ---
 
@@ -27,8 +27,8 @@ Dynamic Media HTML5檢視器的系統需求。
 
 * AdobeDynamic Media Image Serving 6.7.1或更新版本。
 * HTML5檢視器需要SDK JavaScript伺服器端程式庫3.11.5或更新版本。
-* *傳送電子郵件給朋友* 社交功能需使用s7ondemand 5.0.9或更新版本。
-* eCatalog檢視器 —  [資訊面板快顯功能表](/help/aem-viewers-ref/c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-infopanelpopup.md) 支援需要資訊伺服器2.1.8或更新版本。
+* *傳送電子郵件給朋友*&#x200B;社交功能需要s7ondemand 5.0.9或更新版本。
+* eCatalog檢視器 — [資訊面板快顯視窗](/help/aem-viewers-ref/c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-infopanelpopup.md)支援需要資訊伺服器2.1.8或更新版本。
 * 搜尋功能元件需要s7search 2.3.0或更新版本。
 
 ## 檢視器系統需求 {#section-cc72b1e209524d038b4d5b92b35e998e}
@@ -45,27 +45,27 @@ Dynamic Media HTML5檢視器的系統需求。
    * Edge
    * Firefox 77
    * Internet Explorer 11
-   * iOS6
-   * iPad 2 （僅限Safari和Chrome瀏覽器）
+   * IOS6
+   * iPad 2 (僅限Safari和Chrome瀏覽器)
    * iPhone 3GS
    * Safari 11
 * 不支援行動裝置上的Internet Explorer。
-* *全景檢視器* 支援下列瀏覽器/平台版本或更新版本：
-   * Android™ 4.4 （僅限手機裝置）
+* 下列瀏覽器/平台版本或更新版本支援&#x200B;*PanoramicViewer*：
+   * Android™ 4.4 （僅限電話裝置）
    * Chrome 82
    * Edge
    * Firefox 77
    * Internet Explorer 11
    * iOS 10
    * Safari 11
-* *Video360Viewer* 和 *維度檢視器* 支援下列瀏覽器/平台版本或更新版本：
-   * Android™ 5 （僅限手機裝置）
+* 下列瀏覽器/平台版本或更新版本支援&#x200B;*Video360Viewer*&#x200B;和&#x200B;*DimensionalViewer*：
+   * Android™ 5 （僅限電話裝置）
    * Chrome 82
    * Edge
    * Firefox 77
    * iOS 12
    * Safari 12
-* *ZoomVerticalViewer* 支援下列瀏覽器/平台版本或更新版本：
+* 下列瀏覽器/平台版本或更新版本支援&#x200B;*ZoomVerticalViewer*：
    * Android™ 4.x
    * Chrome 82
    * Edge

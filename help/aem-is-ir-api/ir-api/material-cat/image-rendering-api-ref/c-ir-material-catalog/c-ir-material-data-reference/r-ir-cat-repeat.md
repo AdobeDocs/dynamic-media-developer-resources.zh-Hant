@@ -101,7 +101,7 @@ ht-degree: 17%
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>19 </p></td> 
-  <td class="- topic/stentry stentry"> <p>邊緣隨機器。 </p></td> 
+  <td class="- topic/stentry stentry"> <p>Edge隨機器。 </p></td> 
  </tr> 
 </table>
 

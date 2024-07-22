@@ -1,6 +1,6 @@
 ---
 title: TiffEncoding
-description: 編碼格式TIFF。 指定TIFF影像的壓縮格式（實際上是fmt=命令的第三個值的預設值）。
+description: TIFF編碼格式。 指定TIFF影像的壓縮格式（實際上是fmt=命令的第三個值的預設值）。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,9 +14,9 @@ ht-degree: 4%
 
 # TiffEncoding{#tiffencoding}
 
-編碼格式TIFF。 指定TIFF影像的壓縮格式（實際上為第三個值的預設值）。 `fmt=` 命令)。
+TIFF編碼格式。 指定TIFF影像的壓縮格式（實際上是`fmt=`命令第三個值的預設值）。
 
-設定為 `0` 若不壓縮， `1` 若為LZW， `2` (ZIP)，以及 `3` JPEG壓縮。
+設定為`0`以不壓縮，`1`以LZW壓縮，`2`以deflate (ZIP)壓縮，以及`3`以JPEG壓縮。
 
 ## 屬性 {#section-469f5a1225464542866f5353edd92db3}
 
@@ -24,7 +24,7 @@ ht-degree: 4%
 
 ## 預設 {#section-a3c5152a9f464e4987ed7c05d35b1169}
 
-繼承自 `default::TiffEncoding` 如果未定義或為空。
+如果未定義或空白，則繼承自`default::TiffEncoding`。
 
 ## 另請參閱 {#section-1601425e5ac3486da4df8e7fa55981b2}
 

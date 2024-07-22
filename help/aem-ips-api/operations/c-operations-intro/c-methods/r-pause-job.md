@@ -8,7 +8,7 @@ exl-id: 010e969a-911e-49fc-8577-66c18cd4329c
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '61'
-ht-degree: 19%
+ht-degree: 16%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 19%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 處理公司。 |
+| companyHandle | `xsd:string` | 是 | 公司處理。 |
 | jobHandle | `xsd:string` | 是 | 處理您要暫停的工作。 |
 
 **輸出(PauseJobReturn)**
@@ -46,7 +46,7 @@ IPS API未傳回此作業的回應。
 
 此程式碼範例會暫停作用中的工作。
 
-**請求**
+**要求**
 
 ```java
 <pauseJobParam xmlns="http://www.scene7.com/IpsApi/xsd">
@@ -55,6 +55,6 @@ IPS API未傳回此作業的回應。
 </pauseJobParam>
 ```
 
-**回答**
+**回應**
 
 無。

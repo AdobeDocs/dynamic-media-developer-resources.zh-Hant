@@ -25,12 +25,12 @@ ht-degree: 3%
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 設定 </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {object} </span> 選用的JSON設定物件，可讓所有檢視器設定傳遞至建構函式，以避免呼叫個別setter方法。 包含以下屬性： </p> <p> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname">設定</span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {object} </span>選用的JSON組態物件，允許所有檢視器設定傳遞至建構函式，以避免呼叫個別setter方法。 包含下列屬性： </p> <p> 
      <ul id="ul_789DBD5B72ED4C80B685455B0D59494D"> 
-      <li id="li_28FDCB53E4AD4097A51F21B876C18FB1"> <p> <span class="codeph"> containerId </span> - <span class="codeph"> {String} </span> DOM容器的ID (通常是 <span class="codeph"> DIV </span>)，即可將檢視器插入其中。 呼叫此方法時，不需要建立容器元素。 不過，容器必須存在於 <span class="codeph"> init() </span> 執行前填入。 </p> <p>必要. </p> </li> 
-      <li id="li_FDE00392DC1544ABBDD75F81EF814EF2"> <p> <span class="codeph"> 引數 </span> - <span class="codeph"> {Object} </span> 具有檢視器組態引數的JSON物件，其中屬性名稱為檢視器特定的組態選項或SDK修飾元，且該屬性的值為對應的設定值。 </p> <p>必要. </p> </li> 
-      <li id="li_C534D5091CDA4717BCC48E3EBBF09AB8"> <p> <span class="codeph"> 處理常式 </span> - <span class="codeph"> {Object} </span> 具有檢視器事件回呼的JSON物件，其中屬性名稱是支援的檢視器事件的名稱，屬性值是對適當回呼的JavaScript函式參考。 </p> <p>選擇性. </p> <p>另請參閱 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-event-callbacks.md#concept-66d5996f2b1b44cab3d5264cda5c50cd" format="dita" scope="local"> 事件回呼 </a> 以取得檢視器事件的詳細資訊。 </p> </li> 
+      <li id="li_28FDCB53E4AD4097A51F21B876C18FB1"> <p> 檢視器插入的DOM容器的<span class="codeph"> containerId </span> - <span class="codeph"> {String} </span> ID （通常是<span class="codeph"> DIV </span>）。 呼叫此方法時，不需要建立容器元素。 不過，執行<span class="codeph"> init() </span>時，容器必須存在。 </p> <p>必要. </p> </li> 
+      <li id="li_FDE00392DC1544ABBDD75F81EF814EF2"> <p> <span class="codeph">引數</span> - <span class="codeph"> {Object} </span> JSON物件搭配檢視器組態引數，其中屬性名稱為檢視器特定組態選項或SDK修飾元，且該屬性的值為對應的設定值。 </p> <p>必要. </p> </li> 
+      <li id="li_C534D5091CDA4717BCC48E3EBBF09AB8"> <p> <span class="codeph">處理常式</span> - <span class="codeph"> {Object} </span>具有檢視器事件回呼的JSON物件，其中屬性名稱是支援的檢視器事件的名稱，而屬性值是適當回呼的JavaScript函式參考。 </p> <p>選擇性. </p> <p>如需檢視器事件的詳細資訊，請參閱<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-event-callbacks.md#concept-66d5996f2b1b44cab3d5264cda5c50cd" format="dita" scope="local">事件回呼</a>。 </p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 

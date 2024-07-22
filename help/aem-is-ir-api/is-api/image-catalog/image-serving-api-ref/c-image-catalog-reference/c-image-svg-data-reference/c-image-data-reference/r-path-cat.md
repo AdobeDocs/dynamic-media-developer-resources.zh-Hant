@@ -16,7 +16,7 @@ ht-degree: 4%
 
 影像檔案路徑。
 
-與此目錄記錄關聯的來源影像檔案的相對或絕對路徑與名稱。 伺服器會使用管理來源資料中所述的路徑解析規則來尋找資料檔案。
+與此目錄記錄關聯的來源影像檔案的相對或絕對路徑與名稱。 伺服器會使用管理Source資料中所述的路徑解析規則來尋找資料檔案。
 
 ## 屬性 {#path-properties}
 
@@ -34,6 +34,6 @@ ht-degree: 4%
 
 ## 另請參閱 {#path-seealso}
 
-[互動通訊公用程式](/help/aem-is-ir-api/is-api/is-utils/utilities/r-ic.md) ， [屬性：：RootPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md) ， [attribute：：DefaultExt](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultext.md) ， [src=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md)
+[IC公用程式](/help/aem-is-ir-api/is-api/is-utils/utilities/r-ic.md) ， [attribute：：RootPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md) ， [attribute：：DefaultExt](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultext.md) ， [src=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md)
 
 <!-- [attribute::LowerCasePaths]() -->

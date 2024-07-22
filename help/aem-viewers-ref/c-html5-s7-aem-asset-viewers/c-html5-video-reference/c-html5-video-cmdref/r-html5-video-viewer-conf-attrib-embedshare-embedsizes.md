@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: cf075711-1275-4eb2-8cb6-fb2609711c7a
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 10%
+source-wordcount: '58'
+ht-degree: 5%
 
 ---
 
@@ -23,16 +23,16 @@ ht-degree: 10%
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> width </span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname">寬度</span> </span> </p> </td> 
    <td colname="col2"> <p> 內嵌寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> height </span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname">高度</span> </span> </p> </td> 
    <td colname="col2"> <p>內嵌高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 指定是否一開始應在下拉式方塊中預先選取此清單專案。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
+   <td colname="col2"> <p> 指定此清單專案是否應該在下拉式方塊中預先選取。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

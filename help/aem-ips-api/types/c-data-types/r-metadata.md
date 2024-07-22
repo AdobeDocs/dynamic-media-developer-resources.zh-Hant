@@ -24,7 +24,7 @@ searchAssets傳回的中繼資料欄位。
 |---|---|---|
 | name | `xsd:string` | 中繼資料名稱。 |
 | 價值 | `xsd:string` | 中繼資料值。 |
-| 布林值 | `xsd:boolean` | 布林值中繼資料值（僅適用於布林型別欄位）。 |
+| boolVal | `xsd:boolean` | 布林值中繼資料值（僅適用於布林型別欄位）。 |
 | longVal | `xsd:long` | 長中繼資料值（僅適用於int型別的欄位）。 |
-| doubleval | `xsd:double` | 雙倍中繼資料值（僅適用於浮點型欄位）。 |
+| doubleVal | `xsd:double` | 雙倍中繼資料值（僅適用於浮點型欄位）。 |
 | 日期值 | `xsd:dateTime` | 日期中繼資料值（僅適用於日期型別欄位）。 |

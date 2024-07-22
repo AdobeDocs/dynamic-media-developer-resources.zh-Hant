@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 451d8b4d-0f22-41f3-ac86-435797c23ea3
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '155'
 ht-degree: 2%
 
 ---
@@ -28,22 +28,22 @@ ht-degree: 2%
   <td class="stentry"> <p>垂直翻轉圖層（上下翻轉）。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> lrud </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph">筆記</span> </p> </td> 
   <td class="stentry"> <p>水平與垂直翻轉。 </p> </td> 
  </tr> 
 </table>
 
 它也可以套用至文字圖層。
 
-某些命令，包括 `extend=`，在下述情況時隱含套用至圖層0，而非複合圖層 `layer=comp` 已選取。 在這種情況下，所有自動指派給圖層0的指令都會在套用至的指令之前套用 `layer=comp`. 因此，當 `layer=comp`， `extend=` 之前套用 `flip=`.
+選取`layer=comp`時，某些命令（包括`extend=`）會隱含套用至圖層0而非複合圖層。 在這種情況下，所有自動指派給圖層0的指令都會在套用至`layer=comp`的指令之前套用。 因此，當`layer=comp`時，`extend=`在`flip=`之前套用。
 
 >[!NOTE]
 >
->翻轉的圖層會根據圖層錨點定位。 Different `flip=` 當錨點不在圖層的中心時，值會產生不同的圖層位置。
+>翻轉的圖層會根據圖層錨點定位。 當錨點不在圖層的中央時，不同的`flip=`值會產生不同的圖層位置。
 
 ## 屬性 {#section-294da2af7be746b5adfc35e29ee68217}
 
-圖層指令。 套用至目前圖層或複合影像，如果 `layer=comp`. 被效果圖層忽略。
+圖層指令。 套用至目前的圖層或複合影像（若為`layer=comp`）。 被效果圖層忽略。
 
 ## 預設 {#section-502044f81a89492198d5f12a738459ea}
 

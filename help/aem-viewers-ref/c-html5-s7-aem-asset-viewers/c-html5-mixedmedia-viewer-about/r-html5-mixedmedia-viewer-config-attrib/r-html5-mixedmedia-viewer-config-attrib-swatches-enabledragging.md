@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: fd432573-677f-4c46-9cc1-88089496ce75
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 5%
+source-wordcount: '80'
+ht-degree: 3%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 5%
 <table id="table_B1363BFD20204093AAB326A1AB503B93"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
+   <td> <p> <span class="codeph"> 0|1 </span> </p> </td> 
    <td> <p> 啟用或停用使用者利用滑鼠或觸控手勢捲動色票的能力 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> <span class="varname"> overdragvalue </span> </span> </p> </td> 
-   <td> <p> 中的函式 <span class="codeph"> 0-1 </span> 範圍。 它是 <span class="codeph"> % </span> 以實際速度在錯誤方向移動的值。 如果設定為 <span class="codeph"> 1 </span>，它會隨滑鼠移動。 如果設定為 <span class="codeph"> 0 </span>，讓您完全無法向錯誤的方向移動。 </p> </td> 
+   <td> <p> 在<span class="codeph"> 0-1 </span>範圍內的函式。 這是以實際速度在錯誤方向移動的<span class="codeph"> % </span>值。 如果設定為<span class="codeph"> 1 </span>，它會隨滑鼠移動。 如果設定為<span class="codeph"> 0 </span>，則完全不允許您向錯誤的方向移動。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

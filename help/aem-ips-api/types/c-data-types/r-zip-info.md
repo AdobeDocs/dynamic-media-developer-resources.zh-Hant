@@ -8,7 +8,7 @@ exl-id: a19f0047-3219-4929-a850-93bc5757f004
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '27'
-ht-degree: 25%
+ht-degree: 18%
 
 ---
 
@@ -23,5 +23,5 @@ ZIP封存資產的屬性。
 | 名稱 | 類型 | 說明 |
 |---|---|---|
 | 原始路徑 | `xsd:string` | 檔案路徑。 |
-| 原始檔案 | `xsd:string` | 檔案名稱. |
+| 原始檔案 | `xsd:string` | 檔案名稱。 |
 | fileSize | `xsd:int` | 檔案大小。 |

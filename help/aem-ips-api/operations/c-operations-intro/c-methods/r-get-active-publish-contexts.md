@@ -1,5 +1,5 @@
 ---
-description: 取得指定公司的作用中發佈內容清單。 如果至少有一個為前後關聯定義的作用中伺服器，則發佈前後關聯會被視為作用中。
+description: 取得指定公司的作用中發佈內容清單。 如果內容至少定義了一個作用中的伺服器，則發佈內容會被視為作用中。
 solution: Experience Manager
 title: getActivePublishContext
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 11%
 
 # getActivePublishContext{#getactivepublishcontext}
 
-取得指定公司的作用中發佈內容清單。 如果至少有一個為前後關聯定義的作用中伺服器，則發佈前後關聯會被視為作用中。
+取得指定公司的作用中發佈內容清單。 如果內容至少定義了一個作用中的伺服器，則發佈內容會被視為作用中。
 
 語法
 
@@ -36,10 +36,10 @@ ht-degree: 11%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 公司查詢使用中發佈內容的控點 |
+| companyHandle | `xsd:string` | 是 | 查詢使用中發佈內容之公司的控制代碼 |
 
 **輸出(getActivePublishContextsReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| contextArray | `types:StringArray` | 是 | 作用中發佈內容的陣列，其中可能包括來自發佈內容的零個或多個值。 |
+| contextArray | `types:StringArray` | 是 | 作用中發佈內容的陣列，其中可能包括Publish Context的零個或多個值。 |

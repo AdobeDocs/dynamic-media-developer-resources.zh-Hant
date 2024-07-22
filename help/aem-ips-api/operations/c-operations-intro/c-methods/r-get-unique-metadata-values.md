@@ -1,18 +1,18 @@
 ---
 description: 取得唯一的中繼資料欄位值。
 solution: Experience Manager
-title: getUniqueMetadataValues
+title: getUniqueMetadataValue
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: ac5f5667-6c94-425c-bc01-f9df48d16e00
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '57'
-ht-degree: 28%
+ht-degree: 24%
 
 ---
 
-# getUniqueMetadataValues{#getuniquemetadatavalues}
+# getUniqueMetadataValue{#getuniquemetadatavalues}
 
 取得唯一的中繼資料欄位值。
 
@@ -34,8 +34,8 @@ ht-degree: 28%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 處理公司。 |
-| fieldHandle | `xsd:string` | 否 | 中繼資料欄位的控點。 |
+| companyHandle | `xsd:string` | 是 | 公司處理。 |
+| fieldHandle | `xsd:string` | 否 | 中繼資料欄位的控制代碼。 |
 
 **輸出(getUniqueMetadataValuesReturn)**
 
@@ -47,7 +47,7 @@ ht-degree: 28%
 
 此程式碼範例使用欄位控制代碼來傳回特定的中繼資料值。
 
-**請求**
+**要求**
 
 ```java
 <ns1:getUniqueMetadataValuesParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">
@@ -56,7 +56,7 @@ ht-degree: 28%
 </ns1:getUniqueMetadataValuesParam>
 ```
 
-**回答**
+**回應**
 
 ```java
 <getUniqueMetadataValuesReturn xmlns="http://www.scene7.com/IpsApi/xsd">

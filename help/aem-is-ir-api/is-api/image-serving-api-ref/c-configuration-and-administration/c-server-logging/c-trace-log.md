@@ -1,5 +1,5 @@
 ---
-description: 此 [!DNL Platform Server] 將記錄寫入此記錄檔以記錄警告和錯誤、記錄啟動、關閉和目錄載入事件。
+description: ' [!DNL Platform Server] 將記錄寫入此記錄檔以記錄警告和錯誤，並記錄啟動、關機和目錄載入事件。'
 solution: Experience Manager
 title: 追蹤記錄
 feature: Dynamic Media Classic,SDK/API
@@ -14,4 +14,4 @@ ht-degree: 0%
 
 # 追蹤記錄{#trace-log}
 
-此 [!DNL Platform Server] 將記錄寫入此記錄檔以記錄警告和錯誤、記錄啟動、關閉和目錄載入事件。
+[!DNL Platform Server]將記錄寫入此記錄檔以記錄警告和錯誤，並記錄啟動、關閉和目錄載入事件。

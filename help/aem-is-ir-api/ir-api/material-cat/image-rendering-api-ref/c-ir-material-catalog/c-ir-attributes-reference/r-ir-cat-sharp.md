@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # Sharp{#sharp}
 
-預設材質銳利化。 設定預設材質銳利化模式，以防止特定目錄記錄未包含有效的內容 `catalog::Sharp` 值。
+預設材質銳利化。 設定預設材質銳利化模式，以防止特定目錄記錄未包含有效的`catalog::Sharp`值。
 
 ## 屬性 {#section-dcb810d01b8a40eb991d555a3cbe48b9}
 
@@ -41,8 +41,8 @@ ht-degree: 10%
 
 ## 預設 {#section-613130fca7c04ce7a7734265f27aa1ea}
 
-繼承自 `default::Sharp` 如果未定義或為空。
+如果未定義或空白，則繼承自`default::Sharp`。
 
 ## 另請參閱 {#section-7771824f2822443ab0297e8793bb48ae}
 
-[catalog：：Sharp](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-sharp-dataref.md#reference-f79a14bd52474dfd8495115d398a30d0) ， [sharp=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a)， [catalog：：RenderSettings](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-rendersettings-dataref.md#reference-9ce753ae4096455eadcc12ac064de711)
+[目錄：：Sharp](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-sharp-dataref.md#reference-f79a14bd52474dfd8495115d398a30d0) ， [sharp=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a)， [目錄：：RenderSettings](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-rendersettings-dataref.md#reference-9ce753ae4096455eadcc12ac064de711)

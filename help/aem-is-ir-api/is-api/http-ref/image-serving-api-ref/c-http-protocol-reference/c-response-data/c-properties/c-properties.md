@@ -14,14 +14,14 @@ ht-degree: 4%
 
 # 屬性{#properties}
 
-屬性資料會傳回以回應下列事項 `req=` 型別：
+屬性資料會傳回以回應下列`req=`型別：
 
 * `catalogprops`
 * `imageprops`
 * `props`
 * `userdata`
 
-`userdata` 唯有當回覆的內容符合以下條件時，回覆才會格式化為屬性： `catalog::UserData` 請遵循屬性格式。
+只有當`catalog::UserData`的內容遵循屬性格式時，`userdata`回應才會格式化為屬性。
 
 * [文字(Java)屬性](r-text-java-properties.md)
 * [JavaScript屬性](r-javascript-properties.md)

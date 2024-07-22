@@ -1,5 +1,5 @@
 ---
-description: 使用本節中的資訊來設定及管理您的Image Server。
+description: 使用本節中的資訊來設定及管理您的影像伺服器。
 solution: Experience Manager
 title: 設定和管理
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 設定和管理{#configuration-and-administration}
 
-使用本節中的資訊來設定及管理您的Image Server。
+使用本節中的資訊來設定及管理您的影像伺服器。
 
 * [伺服器組態檔](r-server-configuration-files/r-server-configuration-files.md)
 * [資料快取](c-data-caches/c-data-caches.md)

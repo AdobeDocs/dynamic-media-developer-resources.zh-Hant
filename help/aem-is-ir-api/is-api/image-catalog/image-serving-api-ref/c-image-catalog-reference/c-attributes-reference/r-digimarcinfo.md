@@ -18,13 +18,13 @@ ht-degree: 5%
 
 ## 屬性 {#section-c6f6ff4cc3d6471f8fc0e23cd6839f8d}
 
-四個以逗號分隔的整數。
+四個逗號分隔的整數。
 
-另請參閱 [catalog：：DigimarcInfo](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-digimarcinfo-cat.md) 以取得詳細資訊。
+如需詳細資訊，請參閱[catalog：：DigimarcInfo](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-digimarcinfo-cat.md)。
 
 ## 預設 {#section-c77d2620f90148d5ad9041131180d611}
 
-繼承自 `default::DigimarcInfo` 如果欄位未指定或空白。
+若未指定欄位或欄位為空，則繼承自`default::DigimarcInfo`。
 
 ## 另請參閱 {#section-543464e27f0a43249860a883b1ebfa15}
 

@@ -7,14 +7,14 @@ role: Developer,User
 exl-id: c0f28a87-c168-4c6b-bbe1-af6b98e9f52f
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '69'
+source-wordcount: '70'
 ht-degree: 4%
 
 ---
 
 # iccEmbed{#iccembed}
 
-內嵌ICC設定檔。 指定正在使用的ICC色彩設定檔，還是指定的設定檔 `icc=` 應嵌入回覆影像中。
+內嵌ICC設定檔。 指定應該將正在運作的ICC色彩設定檔或以`icc=`指定的設定檔嵌入回覆影像中。
 
 `iccEmbed=0|1`
 

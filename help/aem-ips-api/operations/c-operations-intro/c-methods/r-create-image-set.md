@@ -8,7 +8,7 @@ exl-id: 01ccc705-97e4-4e75-a322-e24bb78cb496
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '136'
-ht-degree: 15%
+ht-degree: 13%
 
 ---
 
@@ -41,19 +41,19 @@ ht-degree: 15%
 | folderHandle | `xsd:string` | 是 | 資料夾的控制代碼。 |
 | name | `xsd:string` | 是 | 影像集名稱。 |
 | type | `xsd:string` | 是 | 影像集型別。 |
-| thumbAssetHandle | `xsd:string` | 否 | 資產的控制代碼，可作為新影像集的縮圖。 如果未指定，IPS會嘗試使用集合所參考的第一個影像資產。 |
+| thumbAssetHandle | `xsd:string` | 否 | 資產的控制代碼，可作為新影像集的縮圖。 如果未指定，IPS會嘗試使用集合所參照的第一個影像資產。 |
 
 **輸出**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| assetHandle | `xsd:string` | 是 | 新影像集的操作框。 |
+| assetHandle | `xsd:string` | 是 | 新影像集的控點。 |
 
 ## 範例 {#section-385fe3b0af8044b0a2451336ec137fc5}
 
 此程式碼範例會建立由公司、資料夾、名稱和型別指定的影像集。 回應是新建立影像集的資產控制代碼。
 
-**請求**
+**要求**
 
 ```java
 <ns1:createImageSetParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">
@@ -64,7 +64,7 @@ ht-degree: 15%
 </ns1:createImageSetParam>
 ```
 
-**回答**
+**回應**
 
 ```java
 <createImageSetReturn xmlns="http://www.scene7.com/IpsApi/xsd">

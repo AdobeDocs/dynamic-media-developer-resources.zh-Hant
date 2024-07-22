@@ -1,5 +1,5 @@
 ---
-description: 根據資產名稱的陣列傳回資產。
+description: 根據一系列資產名稱傳回資產。
 solution: Experience Manager
 title: getAssetsByName
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -8,13 +8,13 @@ exl-id: e48574e3-9d16-45fb-b4c8-98b5e092e611
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 15%
+ht-degree: 10%
 
 ---
 
 # getAssetsByName{#getassetsbyname}
 
-根據資產名稱的陣列傳回資產。
+根據一系列資產名稱傳回資產。
 
 語法
 
@@ -49,61 +49,61 @@ ht-degree: 15%
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 公司的控制代碼。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> accessUserHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 提供存取權給其他使用者。 僅供管理員使用。 </td> 
+   <td colname="col4"> 以其他使用者的身分提供存取權。 僅供管理員使用。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> accessGroupHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 用於依特定群組篩選。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> nameArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 型別：StringArray</span> </td> 
+   <td colname="col2"> <span class="codeph">型別：StringArray</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 要擷取的資產名稱陣列。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetTypeArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 型別：StringArray</span> </td> 
+   <td colname="col2"> <span class="codeph">型別：StringArray</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 擷取資產允許的資產型別陣列。 </td> 
+   <td colname="col4"> 擷取的資產允許的資產型別陣列。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludeAssetTypeArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 型別：StringArray</span> </td> 
+   <td colname="col2"> <span class="codeph">型別：StringArray</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 為擷取的資產排除的資產型別陣列。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetSubTypeArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 型別：StringArray</span> </td> 
+   <td colname="col2"> <span class="codeph">型別：StringArray</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 擷取資產允許的資產子型別陣列。 </td> 
+   <td colname="col4"> 擷取資產所允許的資產子型別陣列。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> strictSubTypeCheck</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：布林值</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> <p>若 <span class="codeph"> true</span> 和 <span class="codeph"> assetSubTypeArray</span> 不是空的，只有子型別位於以下位置的資產： <span class="codeph"> assetSubTypeArray</span> 會傳回。 </p> <p>若 <span class="codeph"> false</span>，則包含未定義子型別的資產。 </p> <p>預設值為 <span class="codeph"> false</span>. </p> </td> 
+   <td colname="col4"> <p>如果<span class="codeph"> true</span>和<span class="codeph"> assetSubTypeArray</span>不是空的，則只會傳回子型別位於<span class="codeph"> assetSubTypeArray</span>中的資產。 </p> <p>如果<span class="codeph"> false</span>，則包含未定義子型別的資產。 </p> <p>預設值為<span class="codeph"> false</span>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 型別：StringArray</span> </td> 
+   <td colname="col2"> <span class="codeph">型別：StringArray</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 包含回應中包含的欄位和子欄位清單。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludeFieldArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 型別：StringArray</span> </td> 
+   <td colname="col2"> <span class="codeph">型別：StringArray</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 包含從回應中排除的欄位和子欄位清單。 </td> 
   </tr> 
@@ -120,7 +120,7 @@ ht-degree: 15%
 
 此程式碼範例會傳回兩個影像型別資產。
 
-**請求**
+**要求**
 
 ```java
 <getAssetsByNameParam xmlns="http://www.scene7.com/IpsApi/xsd/2010-01-31">
@@ -135,7 +135,7 @@ ht-degree: 15%
 </getAssetsByNameParam>
 ```
 
-**回答**
+**回應**
 
 ```java
 <getAssetsByNameReturn xmlns="http://www.scene7.com/IpsApi/xsd/2010-01-31">

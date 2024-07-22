@@ -1,18 +1,18 @@
 ---
 description: 指派或更新專案中的資產。
 solution: Experience Manager
-title: setprojectAssets
+title: setprojectassets
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: b6e6e9bd-5ee2-4750-9182-49e7a3e3486c
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '83'
-ht-degree: 20%
+ht-degree: 18%
 
 ---
 
-# setprojectAssets{#setprojectassets}
+# setprojectassets{#setprojectassets}
 
 指派或更新專案中的資產。
 
@@ -33,21 +33,21 @@ ht-degree: 20%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| companyName | `xsd:string` | 是 | 公司控點。 |
+| companyName | `xsd:string` | 是 | 公司控制代碼。 |
 | projectHandle | `xsd:string` | 是 | 專案控制代碼。 |
-| assetHandleArray | `types:HandleArray` | 是 | 您要與專案關聯的資產控點陣列。 |
+| assetHandleArray | `types:HandleArray` | 是 | 您要與專案關聯的資產控制代碼陣列。 |
 
 **輸出(setProjectAssetsReturn)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| successCount | `xsd:int` | 是 | 成功新增的資產數量。 |
+| successCount | `xsd:int` | 是 | 成功新增的資產數目。 |
 
 ## 範例 {#section-33c1a909c3dc4aa98da474c23a036596}
 
-此程式碼範例會將資產指派給專案。 要求傳回成功計數1。
+此程式碼範例將資產指派給專案。 要求傳回成功計數1。
 
-**請求**
+**要求**
 
 ```java
 <setProjectAssetsParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">
@@ -59,7 +59,7 @@ ht-degree: 20%
 </setProjectAssetsParam>
 ```
 
-**回答**
+**回應**
 
 ```java
 <setProjectAssetsReturn xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

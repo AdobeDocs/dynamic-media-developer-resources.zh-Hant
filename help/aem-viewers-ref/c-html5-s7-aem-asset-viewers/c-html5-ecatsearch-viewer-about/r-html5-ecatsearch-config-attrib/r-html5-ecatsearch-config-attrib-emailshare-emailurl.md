@@ -19,7 +19,7 @@ ht-degree: 15%
 <table id="table_5321841E90C941678F32AAF995CDC257"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> emailurl</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname">電子郵件url</span></span> </p> </td> 
    <td colname="col2"> <p> 指定Dynamic Media OnDemand電子郵件服務的基底URL。 </p> </td> 
   </tr> 
  </tbody> 

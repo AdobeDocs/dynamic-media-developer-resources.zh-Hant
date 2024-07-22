@@ -1,5 +1,5 @@
 ---
-description: 工作記錄陣列。
+description: 工作記錄檔陣列。
 solution: Experience Manager
 title: JobLogArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 27%
 
 # [!DNL JobLogArray]{#joblogarray}
 
-工作記錄陣列。
+工作記錄檔陣列。
 
 語法
 
@@ -22,4 +22,4 @@ ht-degree: 27%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 項目 | `types:JobLog` | 工作記錄陣列。 |
+| 項目 | `types:JobLog` | 工作記錄檔陣列。 |

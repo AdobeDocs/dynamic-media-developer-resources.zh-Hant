@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: d3bcd718-cf27-4d31-850f-a3205564be60
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 4%
+source-wordcount: '71'
+ht-degree: 1%
 
 ---
 
@@ -40,34 +40,34 @@ ht-degree: 4%
 
 **已新增**
 
-* 已新增 `numUrls` 至 `UploadUrlsJob`.
+* 已新增`numUrls`至`UploadUrlsJob`。
 
-* 已新增 `fileName` 至 `Asset.`
+* 已新增`fileName`至`Asset.`
 
-* 已新增 `isHidden` 至 `MetadataField`.
+* 已新增`isHidden`至`MetadataField`。
 
-* 已新增 `taskState` 至 `TaskProgress`.
+* 已新增`taskState`至`TaskProgress`。
 
-* 已新增 `exportJob` 至 `ActiveJob` 和 `ScheduledJob`.
+* 已新增`exportJob`至`ActiveJob`和`ScheduledJob`。
 
-* 已新增 `optmizedPath` 和 `optimizedFile` 至 `PsdInfo`.
+* 已新增`optmizedPath`和`optimizedFile`至`PsdInfo`。
 
-* 已新增 `contextHandle` 至：
+* 已新增`contextHandle`至：
 
    * `ImageRenderingPublishJob`
    * `VideoPublishJob`
 
-* 已將下列引數新增至 `Asset`：
+* 已將下列引數新增至`Asset`：
 
    * `animatedGifInfo`
    * `swcInfo`
    * `cssInfo`
    * `javascriptInfo`
 
-**將**
+**已變更**
 
-* 在 `User`，已變更 `role` 至 `defaultRole`.
+* 在`User`中，將`role`變更為`defaultRole`。
 
-* 在 `Folder`，已變更 `permissions` 至 `permissionsSetHandle`.
+* 在`Folder`中，將`permissions`變更為`permissionsSetHandle`。
 
-* 在 `AssetSummary`， `type` 和 `name` 現在是選用專案。
+* 在`AssetSummary`中，`type`和`name`現在是選用專案。

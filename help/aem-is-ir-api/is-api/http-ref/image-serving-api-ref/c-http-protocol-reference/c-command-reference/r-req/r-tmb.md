@@ -1,5 +1,5 @@
 ---
-description: 縮圖影像。 請求使用目錄縮圖條件格式化影像資料並調整其大小。
+description: 縮圖影像。 要求使用目錄縮圖條件格式化影像資料並調整大小。
 solution: Experience Manager
 title: tmb
 feature: Dynamic Media Classic,SDK/API
@@ -14,12 +14,12 @@ ht-degree: 0%
 
 # tmb{#tmb}
 
-縮圖影像。 請求使用目錄縮圖條件格式化影像資料並調整其大小。
+縮圖影像。 要求使用目錄縮圖條件格式化影像資料並調整大小。
 
 `req=tmb`
 
-回覆資料格式和回應MIME型別由決定 `fmt=`. 支援所有命令，但不包括 `fit=`.
+回覆資料格式和回應MIME型別由`fmt=`決定。 支援除`fit=`以外的所有命令。
 
-另請參閱 [縮圖縮放](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-thumbnail-scaling.md#reference-0f71817f721d4913b34816758d69b07f).
+請參閱[縮圖縮放](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-thumbnail-scaling.md#reference-0f71817f721d4913b34816758d69b07f)。
 
-HTTP回應可根據 `catalog::Expiration`.
+可根據`catalog::Expiration`使用TTL快取HTTP回應。

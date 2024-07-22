@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 4f5f84d0-1b5a-4fb3-91ab-44b4542c6ef1
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 9%
+source-wordcount: '44'
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 9%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
-   <td colname="col2"> <p>設定為 <span class="codeph"> 1 </span> 以啟用關閉按鈕的顯示。 或者，設定為 <span class="codeph"> 0 </span> 以隱藏關閉按鈕。 </p> <p>僅觸控裝置支援「關閉」按鈕，案頭系統無法顯示。 </p> </td> 
+   <td colname="col2"> <p>設定為<span class="codeph"> 1 </span>以啟用關閉按鈕的顯示。 或者，設定為<span class="codeph"> 0 </span>以隱藏關閉按鈕。 </p> <p>只有觸控裝置才支援「關閉」按鈕，案頭系統無法顯示。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

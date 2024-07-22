@@ -8,7 +8,7 @@ exl-id: 28d0a67b-3e36-43fc-800d-17c841dca3a0
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '158'
-ht-degree: 11%
+ht-degree: 10%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 11%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 處理公司。 |
+| companyHandle | `xsd:string` | 是 | 公司處理。 |
 | assetsContextHandle | `types:AssetsContextStateUpdateArray` | 是 | 一系列資產及其新發佈狀態。 |
 
 **輸出(setAssetsContexStateReturn)**
@@ -46,15 +46,15 @@ ht-degree: 11%
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
 | successCount | `xsd:int` | 是 | 已成功變更的資產數量。 |
-| warningCount | `xsd:int` | 是 | 作業嘗試修改資產時產生的警告數目。 |
+| warningcount | `xsd:int` | 是 | 作業嘗試修改資產時產生的警告數目。 |
 | errororcount | `xsd:int` | 是 | 作業嘗試修改資產時產生的錯誤數。 |
-| warningDetailArray | `types:AssetOperationFaultArray` | 否 | 作業嘗試修改資產時資產產生的錯誤陣列。 |
+| warningDetailArray | `types:AssetOperationFaultArray` | 否 | 作業嘗試修改資產時產生的錯誤陣列。 |
 
 ## 範例 {#section-283a073f3cb14bcda5abed863c538aa4}
 
-此程式碼範例使用來設定資產的發佈狀態 `NotMarkedForPublish`.
+此程式碼範例使用`NotMarkedForPublish`設定資產的發佈狀態。
 
-**請求**
+**要求**
 
 ```java
 <setAssetsContextStateParam xmlns="http://www.scene7.com/IpsApi/xsd/2011-11-04">
@@ -106,7 +106,7 @@ ht-degree: 11%
 </setAssetsContextStateParam>
 ```
 
-**回答**
+**回應**
 
 ```java
 <setAssetsContextStateReturn xmlns="http://www.scene7.com/IpsApi/xsd/2011-11-04-beta">

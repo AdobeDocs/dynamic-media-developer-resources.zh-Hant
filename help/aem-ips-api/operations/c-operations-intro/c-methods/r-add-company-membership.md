@@ -1,5 +1,5 @@
 ---
-description: 新增使用者至一或多間公司。
+description: 新增使用者至一或多個公司。
 solution: Experience Manager
 title: addCompanyMembership
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: 6efef4fb-f2e5-4c41-b739-a36ac2f17884
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '83'
-ht-degree: 14%
+ht-degree: 12%
 
 ---
 
 # addCompanyMembership{#addcompanymembership}
 
-新增使用者至一或多間公司。
+新增使用者至一或多個公司。
 
 語法
 
@@ -32,7 +32,7 @@ ht-degree: 14%
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
 | userHandle | `xsd:string` | 否 | 您要新增其成員資格之使用者的控制代碼。 |
-| memberlationarray | `types:CompanyMembershipUpdateArray` | 是 | 您要新增使用者的許多公司。 |
+| memberlationarray | `types:CompanyMembershipUpdateArray` | 是 | 您要新增使用者的公司陣列。 |
 
 **輸出(addCompanyMembershipReturn)**
 
@@ -42,7 +42,7 @@ IPS API未傳回此作業的回應。
 
 此範例使用companyHandleArray將使用者新增至單一公司。
 
-**請求**
+**要求**
 
 ```javascript {.line-numbers}
 <ns1:addCompanyMembershipParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">
@@ -53,6 +53,6 @@ IPS API未傳回此作業的回應。
 </ns1:addCompanyMembershipParam>
 ```
 
-**回答**
+**回應**
 
 無。

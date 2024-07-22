@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: b7346f72-5fe9-4608-8ea0-27012b73b696
 source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
 workflow-type: tm+mt
-source-wordcount: '37'
-ht-degree: 10%
+source-wordcount: '34'
+ht-degree: 11%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> x，y，w，h</span> </p> </td> 
-   <td colname="col2"> <p> 以標準化座標表示的初始興趣區域。 如果未指定這些值，會在初始檢視區中填入整個影像。 </p> </td> 
+   <td colname="col2"> <p> 以標準化座標表示的初始興趣區域。 如果未指定這些值，則會在初始檢視區中填入整個影像。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

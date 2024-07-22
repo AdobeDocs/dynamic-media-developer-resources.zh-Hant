@@ -7,12 +7,12 @@ role: Developer,Admin
 exl-id: fc7af77e-17fc-453a-8949-78c9c5c33b34
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 6%
+source-wordcount: '83'
+ht-degree: 1%
 
 ---
 
-# 作業：新增與修改{#operations-new-and-modified}
+# 作業：新增和已修改{#operations-new-and-modified}
 
 說明IPS API第6版新的和變更的作業方法。
 
@@ -31,59 +31,57 @@ ht-degree: 6%
 
 **已新增**
 
-* 已新增 `isHidden` 和 `initialTagValue` 至：
+* 已新增`isHidden`和`initialTagValue`至：
 
    * `saveMetadataField`
    * ` `updateMetadataField&quot;
    * `createMetadataField`
 
-* 已新增 `thumbAssetHandle` 至：
+* 已新增`thumbAssetHandle`至：
 
    * `createImageSet`
    * `createAssetSet`
 
-   已新增 `companyHandle` 至：
+  已新增`companyHandle`至：
 
    * `getViewerConfigSettings`
    * `setViewerConfigSettings`
    * `updateViewerConfigSettings`
    * `getSearchStrings`
 
-   已新增 `contextHandle` 至：
+  已新增`contextHandle`至：
 
    * `getImageServingPublishSettings`
    * `getImageRenderingPublishSettings`
    * `setImageServingPublishSettings`
    * `setImageRenderingPublishSettings`
 
-
-
 * 將includeInactive新增至：
 
    * `getUsers`.
    * `getUserChars`.
 
-* 已新增 `permissionArray` 至 `createPropertySet`.
+* 已新增`permissionArray`至`createPropertySet`。
 
-* 已新增 `exportJob` 至 `submitJob`.
+* 已新增`exportJob`至`submitJob`。
 
-**將**
+**已變更**
 
-* 在 `addUser` 和 `setUser`，已變更 `role` 至 `defaultRole`.
+* 在`addUser`和`setUser`中，將`role`變更為`defaultRole`。
 
-* 在 `getCompanyMembers`，已變更 `userArray` 至 `memberArray`.
+* 在`getCompanyMembers`中，將`userArray`變更為`memberArray`。
 
-* 在 `getCompanyMembership`，已變更 `companyArray` 至 `membershipArray`.
+* 在`getCompanyMembership`中，將`companyArray`變更為`membershipArray`。
 
-* 在 `addUser`， `setCompanyMembership`、和 `addCompanyMembership`，已變更 `membershipArray` 至 `companyHandleArray`.
+* 在`addUser`、`setCompanyMembership`和`addCompanyMembership`中，將`membershipArray`變更為`companyHandleArray`。
 
-* 在 `getCompanyMembership`，已變更 `companyArray` 至 `membershipArray`.
+* 在`getCompanyMembership`中，將`companyArray`變更為`membershipArray`。
 
-* 在 `getUserChars`， `includeInvalid` 現在是選用專案。
+* 在`getUserChars`中，`includeInvalid`現在是選用專案。
 
 **已移除**
 
-* 已移除 `renameFiles` 從 `renameAsset`.
+* 已從`renameAsset`移除`renameFiles`。
 
-* 已移除 `getXMPPanelViewDefinition`.
-* 已移除 `searchAssetsByFulltext` 和 `searchAssetsBySimilarity`.
+* 已移除`getXMPPanelViewDefinition`。
+* 已移除`searchAssetsByFulltext`和`searchAssetsBySimilarity`。

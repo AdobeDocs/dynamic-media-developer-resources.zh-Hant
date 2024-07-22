@@ -1,5 +1,5 @@
 ---
-description: 「影像伺服」公用程式指南包含搭配Dynamic Media Image Server和Image Rendering使用之公用程式的相關資訊。
+description: 「影像伺服」公用程式指南包含搭配Dynamic Media Image Server和「影像轉譯」使用之公用程式的相關資訊。
 solution: Experience Manager
 title: 影像伺服公用程式
 feature: Dynamic Media Classic,SDK/API
@@ -14,10 +14,10 @@ ht-degree: 1%
 
 # 影像伺服公用程式{#image-serving-utilities}
 
-「影像伺服」公用程式指南包含搭配Dynamic Media Image Server和Image Rendering使用之公用程式的相關資訊。
+「影像伺服」公用程式指南包含搭配Dynamic Media Image Server和「影像轉譯」使用之公用程式的相關資訊。
 
 * [公用程式的位置](c-location-of-utilities.md)
-* [ic](r-ic.md)
-* [ImageServe](r-imageserving.md)
+* [互動通訊](r-ic.md)
+* [imageserving](r-imageserving.md)
 * [驗證](r-is-utils-validate.md)
 * [&#39;playlog&#39;公用程式](c-playlog.md)

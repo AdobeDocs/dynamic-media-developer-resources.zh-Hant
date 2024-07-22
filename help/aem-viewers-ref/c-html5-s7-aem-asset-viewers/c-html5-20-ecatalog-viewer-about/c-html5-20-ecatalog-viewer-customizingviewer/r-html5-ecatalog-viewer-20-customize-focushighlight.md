@@ -1,6 +1,6 @@
 ---
 title: 焦點反白顯示
-description: 焦點檢視器使用者介面元素周圍顯示的輸入焦點反白顯示。
+description: 焦點檢視器使用者介面元素周圍所顯示的輸入焦點反白顯示。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 焦點反白顯示{#focus-highlight}
 
-焦點檢視器使用者介面元素周圍顯示的輸入焦點反白顯示。
+焦點檢視器使用者介面元素周圍所顯示的輸入焦點反白顯示。
 
 <!--<a id="section_E8B3D0BF9FF548F188F717D6EA65EC32"></a>-->
 
@@ -24,12 +24,12 @@ ht-degree: 0%
 .s7ecatalogviewer *:focus
 ```
 
-**焦點反白顯示的CSS屬性**
+焦點反白顯示的&#x200B;**CSS屬性**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 大綱 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">大綱</span> </p> </td> 
    <td colname="col2"> <p> 焦點反白顯示樣式。 </p> </td> 
   </tr> 
  </tbody> 

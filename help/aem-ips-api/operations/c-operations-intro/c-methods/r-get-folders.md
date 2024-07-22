@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 71fe3343-2560-4d74-8ec3-1229d83a62e1
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 8%
+source-wordcount: '240'
+ht-degree: 7%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 8%
 
 此程式碼範例傳回陣列，其中包含公司的所有資料夾以及有關每個資料夾的特定資訊。
 
-**請求**
+**要求**
 
 ```java
 <ns1:getFoldersParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">
@@ -70,7 +70,7 @@ ht-degree: 8%
 </ns1:getFoldersParam>
 ```
 
-**回答**
+**回應**
 
 ```java
 <getFoldersReturn xmlns="http://www.scene7.com/IpsApi/xsd">

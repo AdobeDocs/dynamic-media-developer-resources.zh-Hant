@@ -8,7 +8,7 @@ exl-id: 91e40549-9b26-41f2-a3ab-7e9bec8f9ba7
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '253'
-ht-degree: 16%
+ht-degree: 8%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 16%
 
 >[!NOTE]
 >
->使用者必須擁有資產的讀取和寫入存取權。
+>使用者必須擁有資產的讀寫存取權。
 
 ## 參數 {#section-64f7f5fd8f954fba9fa30eeee556863a}
 
@@ -47,55 +47,55 @@ ht-degree: 16%
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：字串</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 含有您要儲存之影像地圖的公司的控制代碼。 </td> 
+   <td colname="col4"> 包含您要儲存之影像地圖的公司控制代碼。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname">資產控制代碼</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：字串</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 影像地圖所屬影像資產的控點。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> imageMapHandle </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：字串</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 影像地圖的控點。 如果為NULL，則建立影像地圖。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 名稱 </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname">名稱</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：字串</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 建立或儲存的影像地圖名稱。 </td> 
+   <td colname="col4"> 建立或儲存的影像地圖的名稱。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> shapeType </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：字串</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 選擇區域形狀。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 區域 </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname">地區</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：字串</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 以逗號分隔定義區域的點清單。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 動作 </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname">動作</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：字串</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> <p>此 <span class="codeph"> href </span> 與IPS介面中指定的影像地圖相關聯的值。 </p> <p>若要取得 <span class="codeph"> href </span> 值、按一下IPS介面中的影像、將URL複製並貼至此元素中，然後將IPS URL格式化為適當的URL。 例如， <span class="codeph"> 和 </span> 變成 <span class="codeph"> amp；(&amp;a) </span>. </p> </td> 
+   <td colname="col4"> <p>與IPS介面中指定的影像地圖相關聯的<span class="codeph"> href </span>值。 </p> <p>若要取得<span class="codeph"> href </span>值，請按一下IPS介面中的影像，將URL複製並貼到這個元素中，然後將IPS URL格式化為適當的URL。 例如，<span class="codeph">和</span>會變成<span class="codeph"> &amp;amp；amp； </span>。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> position </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:int </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname">位置</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：int </span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 影像地圖清單中的順序（Z軸）。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 已啟用 </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname">已啟用</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：布林值</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"></td> 
   </tr> 
@@ -112,7 +112,7 @@ ht-degree: 16%
 
 此程式碼範例會為資產建立新的影像地圖。 它使用由區域形狀字串常數決定的形狀型別，並傳回新影像地圖的控點。
 
-**請求**
+**要求**
 
 ```
 <saveImageMapParam xmlns="http://www.scene7.com/IpsApi/xsd"> 
@@ -127,7 +127,7 @@ ht-degree: 16%
 </saveImageMapParam>
 ```
 
-**回答**
+**回應**
 
 ```
 <saveImageMapReturn xmlns="http://www.scene7.com/IpsApi/xsd"> 

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 91c5eb52-40d9-40f6-8687-e68cb40b634e
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 4%
+source-wordcount: '88'
+ht-degree: 3%
 
 ---
 
@@ -21,12 +21,12 @@ ht-degree: 4%
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
    <td colname="col2"> <p> 啟用或停用使用者利用滑鼠或觸控手勢捲動色票的能力。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> overdragvalue </span> </span> </p> </td> 
-   <td colname="col2"> <p> 位於 <span class="codeph"> 0-1 </span> 範圍，它是實際速度在錯誤方向所做運動的百分比值。 </p> <p>若設為 <span class="codeph"> 1 </span>，它會隨滑鼠移動。 </p> <p>若設為 <span class="codeph"> 0 </span>，它不會讓您向錯誤的方向移動。 </p> </td> 
+   <td colname="col2"> <p> 在<span class="codeph"> 0-1 </span>範圍內，並且它是實際速度方向錯誤之移動的百分比值。 </p> <p>若設為<span class="codeph"> 1 </span>，它會隨滑鼠移動。 </p> <p>若設為<span class="codeph"> 0 </span>，則不允許您往錯誤的方向移動。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

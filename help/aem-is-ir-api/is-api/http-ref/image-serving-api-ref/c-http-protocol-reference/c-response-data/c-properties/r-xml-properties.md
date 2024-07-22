@@ -1,5 +1,5 @@
 ---
-description: 如果將xml指定為回應格式，回覆資料會格式化為XML檔案，可供任何標準XML剖析器剖析。
+description: 如果將xml指定為回應格式，回覆資料會格式化為XML檔案，任何標準的XML剖析器都可以剖析該檔案。
 solution: Experience Manager
 title: XML屬性
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # XML屬性{#xml-properties}
 
-如果將xml指定為回應格式，回覆資料會格式化為XML檔案，可供任何標準XML剖析器剖析。
+如果將xml指定為回應格式，回覆資料會格式化為XML檔案，任何標準的XML剖析器都可以剖析該檔案。
 
 典型的屬性回應檔案具有此一般結構：
 
@@ -38,8 +38,8 @@ ht-degree: 0%
 </prop-group>
 ```
 
-此 `<prop-group>` 元素會作為最外層的容器，並用於分組屬性。 如果群組已命名，則該名稱會對應至Java/JavaScript物件名稱。
+`<prop-group>`元素會作為最外層的容器，並用於群組屬性。 如果群組已命名，則該名稱會對應至Java/JavaScript物件名稱。
 
 >[!NOTE]
 >
->可以為某些專案指定字元編碼 `req=` 型別。 請參閱特定的 `req=`命令以取得詳細資訊。
+>可以為某些`req=`型別指定字元編碼。 如需詳細資訊，請參閱特定`req=`命令的描述。

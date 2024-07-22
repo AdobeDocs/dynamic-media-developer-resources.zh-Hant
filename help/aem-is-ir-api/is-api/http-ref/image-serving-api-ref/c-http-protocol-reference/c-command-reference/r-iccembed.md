@@ -26,7 +26,7 @@ ht-degree: 3%
 
 `iccEmbed=0`，輸出影像中不內嵌ICC設定檔。 如果輸出影像格式不支援內嵌ICC設定檔，則忽略。
 
-另請參閱 [fmt=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md#reference-cdf10043423b45ba9fe15157fb3ae37a) 以取得詳細資訊。
+如需詳細資訊，請參閱[fmt=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md#reference-cdf10043423b45ba9fe15157fb3ae37a)。
 
 ## 另請參閱 {#section-2105c6441d2b42edb15c7abc4e20d7fc}
 

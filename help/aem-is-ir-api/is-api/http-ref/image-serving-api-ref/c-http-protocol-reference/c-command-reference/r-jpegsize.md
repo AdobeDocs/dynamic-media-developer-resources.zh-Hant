@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 08cecb09-100f-4671-b335-d59c88b0e1ef
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '158'
 ht-degree: 3%
 
 ---
@@ -20,7 +20,7 @@ Jpeg大小（以KB為單位）。 指定JPEG回應的大小上限（以KB為單�
 
 <table id="simpletable_EC2A8D8B65854B45B9CB184DA1069355"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> 大小</span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname">大小</span></span> </p> </td> 
   <td class="stentry"> <p>大小(KB)。 </p></td> 
  </tr> 
 </table>

@@ -1,18 +1,18 @@
 ---
 description: 設定一或多個資產的縮圖影像。
 solution: Experience Manager
-title: batchsetthumbasset
+title: Batchsetthumbasset
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: f7d7ddd9-a3c3-47c4-8da6-d693851d0d7f
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '171'
-ht-degree: 12%
+ht-degree: 11%
 
 ---
 
-# batchsetthumbasset{#batchsetthumbasset}
+# Batchsetthumbasset{#batchsetthumbasset}
 
 設定一或多個資產的縮圖影像。
 
@@ -55,14 +55,14 @@ ht-degree: 12%
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
 | successCount | `xsd:int` | 是 | 成功設定的縮圖數目。 |
-| warningCount | `xsd:int` | 是 | 作業嘗試設定縮圖時產生的警告數目。 |
+| warningcount | `xsd:int` | 是 | 作業嘗試設定縮圖時產生的警告數目。 |
 | errororcount | `xsd:int` | 是 | 作業嘗試設定縮圖時產生的錯誤數目。 |
 | warningDetailArray | `types:AssetOperationFaultArray` | 否 | 與資產關聯的詳細資訊陣列，在作業嘗試套用更新時產生警告。 |
-| errorDetailArray | `types:AssetOperationFaultArray` | 否 | 與資產關聯的詳細資訊陣列，在作業嘗試套用更新時產生錯誤。 |
+| errorDetailArray | `types:AssetOperationFaultArray` | 否 | 與資產關聯的詳細資訊陣列，在操作嘗試套用更新時產生錯誤。 |
 
 ## 範例 {#section-6de69a8680c24c1486c5f01488393381}
 
-**請求**
+**要求**
 
 ```java
 <batchSetThumbAssetParam xmlns="http://www.scene7.com/IpsApi/xsd/2010-01-31">
@@ -75,7 +75,7 @@ ht-degree: 12%
    </updateArray>
 ```
 
-**回答**
+**回應**
 
 ```java
 <batchSetThumbAssetReturn xmlns="http://www.scene7.com/IpsApi/xsd/2010-01-31">

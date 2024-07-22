@@ -8,7 +8,7 @@ exl-id: f337e7f9-1af6-4164-b9bd-e697548e2850
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '89'
-ht-degree: 17%
+ht-degree: 15%
 
 ---
 
@@ -47,9 +47,9 @@ ht-degree: 17%
 
 ## 範例 {#section-53897c51e5a047c5bd5ea5a6efb2d114}
 
-此程式碼範例會傳回資產的發佈歷史記錄。 如果伺服器傳回空白陣列，則不會發佈資產。
+此程式碼範例會傳回資產的發佈歷史記錄。 如果伺服器傳回空白陣列，表示從未發佈資產。
 
-**請求**
+**要求**
 
 ```java
 <getAssetPublishHistoryParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">
@@ -58,7 +58,7 @@ ht-degree: 17%
 </getAssetPublishHistoryParam>
 ```
 
-**回答**
+**回應**
 
 ```java
 <getAssetPublishHistoryReturn xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

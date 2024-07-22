@@ -8,7 +8,7 @@ exl-id: 5562b0e0-0476-4dd0-acce-058601b9af0a
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '72'
-ht-degree: 9%
+ht-degree: 8%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 9%
 
 暈映檔案路徑。 暈映檔案的相對路徑和名稱。
 
-伺服器會將此值與 `attribute::RootPath` 以建置實際的暈映檔案路徑。 也可以是絕對路徑。
+伺服器會將此值與`attribute::RootPath`結合，以建置實際的暈映檔案路徑。 也可以是絕對路徑。
 
 ## 屬性 {#section-b3b295feac084b56bd8a153c04987153}
 
-文字字串。 選擇性. 如果已指定，則必須是有效的相對或絕對檔案路徑。 如果為空， `vignette::Modifier` 必須包括 `vignette=` 命令。
+文字字串。 選填。 如果已指定，則必須是有效的相對或絕對檔案路徑。 如果空白，`vignette::Modifier`必須包含`vignette=`命令。
 
 ## 預設 {#section-a1d2133856084eb79a5be8230a4b38fd}
 

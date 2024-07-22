@@ -1,22 +1,22 @@
 ---
 description: 影像檔案路徑。 紋理或貼花影像檔案的相對路徑和名稱。
 solution: Experience Manager
-title: 路徑 *
+title: 路徑*
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 28758709-26ae-4261-b11e-34e37b9d1b8c
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '207'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
-# 路徑 *{#path}
+# 路徑*{#path}
 
 影像檔案路徑。 紋理或貼花影像檔案的相對路徑和名稱。
 
-伺服器會將此值與 `attribute::RootPath` 以建置實際的影像檔案路徑。 也可以是絕對路徑。
+伺服器會將此值與`attribute::RootPath`結合，以建置實際的影像檔案路徑。 也可以是絕對路徑。
 
 用於指定材質、封包和視窗遮色材料的材質影像檔案，以及貼花和牆壁邊界材料的RGB或RGBA影像檔案。 並非所有的機櫃和視窗遮色片材料都需要單獨的可重複紋理影像。
 
@@ -38,4 +38,4 @@ ht-degree: 2%
 
 ## 另請參閱 {#section-1bf37fab8e5f4c42a03b785abafc53bd}
 
-[互動通訊公用程式](/help/aem-is-ir-api/is-api/is-utils/utilities/r-ic.md) ， [屬性：：RootPath](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rootpath.md)， [src=](/help/aem-is-ir-api/ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md)
+[IC公用程式](/help/aem-is-ir-api/is-api/is-utils/utilities/r-ic.md) ，[屬性：：RootPath](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rootpath.md)，[src=](/help/aem-is-ir-api/ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md)

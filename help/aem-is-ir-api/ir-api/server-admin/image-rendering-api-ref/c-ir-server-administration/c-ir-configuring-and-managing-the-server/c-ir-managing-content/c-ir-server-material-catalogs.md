@@ -16,6 +16,6 @@ ht-degree: 0%
 
 材質目錄提供許多「影像演算」組態設定。
 
-材質目錄會將請求中使用的暈映和材質ID對應到實際的檔案路徑，可以儲存與材質相關的所有中繼資料，並提供範本的容器。 它們會追蹤ICC設定檔和指令巨集。
+材質目錄會將請求中使用的暈映和材質ID對應到實際檔案路徑，可以儲存與材質相關的所有中繼資料，並為範本提供容器。 它們會追蹤ICC設定檔和指令巨集。
 
-材質目錄只能由「影像演算」的Java元件存取(與 [!DNL Platform Server])。 目錄屬性檔案必須具有 [!DNL .ini] 字尾，並放置在註冊的目錄資料夾中([ir.catalogRootPath](../../../../../../ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuration-settings-reference/c-ir-catalog-folder.md#concept-1c1d308112054bb99e3895c3fb8ca5f7))。 預設材質目錄( [!DNL default.ini])必須永遠存在，且必須填入所有屬性，才能正確執行影像伺服。
+材質目錄只能由影像演算的Java元件存取（與[!DNL Platform Server]共用）。 目錄屬性檔案必須有[!DNL .ini]個字尾，並放置在已登入的目錄資料夾([ir.catalogRootPath](../../../../../../ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuration-settings-reference/c-ir-catalog-folder.md#concept-1c1d308112054bb99e3895c3fb8ca5f7))中。 預設素材目錄([!DNL default.ini])必須永遠存在，且必須填入所有屬性，才能讓「影像伺服」正確運作。

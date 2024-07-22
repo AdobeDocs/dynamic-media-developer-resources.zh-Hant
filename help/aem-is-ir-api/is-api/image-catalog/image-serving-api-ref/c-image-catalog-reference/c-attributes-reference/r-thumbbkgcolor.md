@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 88acf5ad-2973-42f9-9aaa-901e66b07f53
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 5%
+source-wordcount: '80'
+ht-degree: 3%
 
 ---
 
@@ -16,15 +16,15 @@ ht-degree: 5%
 
 縮圖的預設背景顏色。 用來對不包含實際影像資料的輸出縮圖影像區域進行填色的RGB值。
 
-僅用於縮圖要求( `req=tmb`)和時間 `catalog::ThumbType` 設為2或3。
+僅用於縮圖要求(`req=tmb`)以及當`catalog::ThumbType`設定為2或3時。
 
 ## 屬性 {#section-a73e82c950cc4319bc3bccec14764c25}
 
-色彩.
+顏色。
 
 ## 預設 {#section-b02bb56dda684ff9969806ce82ba00c2}
 
-繼承自 `default::ThumbBkgColor` 如果未定義或為空。
+如果未定義或空白，則繼承自`default::ThumbBkgColor`。
 
 ## 另請參閱 {#section-27983dc885424dfbba8c8e4192f3f88d}
 

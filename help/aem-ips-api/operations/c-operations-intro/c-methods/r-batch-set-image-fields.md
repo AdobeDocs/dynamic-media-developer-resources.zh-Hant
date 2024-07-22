@@ -1,18 +1,18 @@
 ---
 description: 設定一或多個影像資產的影像特定欄位。
 solution: Experience Manager
-title: batchsetImageFields
+title: batchSetImageField
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 8ea6dbb8-4d32-43e5-961f-31110f983663
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '192'
-ht-degree: 10%
+ht-degree: 9%
 
 ---
 
-# batchsetImageFields{#batchsetimagefields}
+# batchSetImageField{#batchsetimagefields}
 
 設定一或多個影像資產的影像特定欄位。
 
@@ -33,24 +33,24 @@ ht-degree: 10%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 包含影像資產的公司的控制代碼。 |
-| updatearray | `types:ImageFieldUpdateArray` | 是 | 影像欄位陣列會更新。 |
+| companyHandle | `xsd:string` | 是 | 包含影像資產之公司的控制代碼。 |
+| updatearray | `types:ImageFieldUpdateArray` | 是 | 影像欄位更新的陣列。 |
 
 **輸出(batchSetImageFields)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| successCount | `xsd:int` | 是 | 成功設定的影像欄位數。 |
-| warningCount | `xsd:int` | 是 | 作業嘗試設定影像欄位時產生的警告數目。 |
-| errororcount | `xsd:int` | 是 | 作業嘗試設定影像欄位時產生的錯誤數。 |
+| successCount | `xsd:int` | 是 | 已成功設定影像欄位的數量。 |
+| warningcount | `xsd:int` | 是 | 作業嘗試設定影像欄位時產生的警告數目。 |
+| errororcount | `xsd:int` | 是 | 作業嘗試設定影像欄位時產生的錯誤數目。 |
 | warningDetailArray | `types:AssetOperationFaultArray` | 否 | 與資產關聯的詳細資訊陣列，在作業嘗試套用更新時產生警告。 |
-| errorDetailArray | `types:AssetOperationFaultArray` | 否 | 與資產關聯的詳細資訊陣列，在作業嘗試套用更新時產生錯誤。 |
+| errorDetailArray | `types:AssetOperationFaultArray` | 否 | 與資產關聯的詳細資訊陣列，在操作嘗試套用更新時產生錯誤。 |
 
 ## 範例 {#section-0476e3d6516a4f8bbaac9de983bc6d1e}
 
-此範例會在更新陣列中設定兩個影像欄位中的資料。 在陣列中，影像由其資產控點指定，並包含解析度（以畫素為單位）、x和y位置錨點座標，以及使用者資料。 此回應表示兩個影像的欄位皆已成功設定。
+此範例會在更新陣列中設定兩個影像欄位中的資料。 在陣列中，影像由其資產控點指定，並包含解析度（畫素）、x和y位置錨點座標和使用者資料。 此回應表示兩個影像的欄位都已成功設定。
 
-**請求**
+**要求**
 
 ```java
 <batchSetImageFieldsParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">
@@ -74,7 +74,7 @@ ht-degree: 10%
 </batchSetImageFieldsParam>
 ```
 
-**回答**
+**回應**
 
 ```java
 <batchSetImageFieldsReturn xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

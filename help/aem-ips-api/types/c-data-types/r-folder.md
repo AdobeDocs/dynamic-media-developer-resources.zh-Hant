@@ -1,5 +1,5 @@
 ---
-description: 階層式檔案或資產儲存物件。 資料夾可以包含一個（或多個）子資料夾。
+description: 階層檔案或資產儲存物件。 資料夾可以包含一個（或多個）子資料夾。
 solution: Experience Manager
 title: 檔案夾
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 8%
 
 # [!DNL Folder]{#folder}
 
-階層式檔案或資產儲存物件。 資料夾可以包含一個（或多個）子資料夾。
+階層檔案或資產儲存物件。 資料夾可以包含一個（或多個）子資料夾。
 
 語法
 

@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 25f16a2b-6cd8-485f-a6bd-2a9bc9b3243b
 source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 12%
+source-wordcount: '125'
+ht-degree: 10%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 12%
 | 名稱 | 類型 | 說明 |
 |---|---|---|
 | assetHandle | `xsd:string` | 資產控制代碼。 |
-| type | `xsd:string` | 資產類型. 「資產型別」常數會定義可能的值。 選擇性. |
+| type | `xsd:string` | 資產型別。 「資產型別」常數會定義可能的值。 選擇性. |
 | name | `xsd:string` | 資產名稱。 選擇性. |
 | 資料夾 | `xsd:string` | 包含資產的資料夾。 |
 | 檔案名 | `xsd:string` | 資產的檔案名稱。 |

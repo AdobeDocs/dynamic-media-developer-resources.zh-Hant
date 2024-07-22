@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 8eb2aa50-52b9-4b63-9789-87e492f34a22
 source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 7%
+source-wordcount: '208'
+ht-degree: 3%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 7%
 
 互動式視訊檢視器的URL命令。
 
-` caption= *`file`*[,0|1]`
+` caption= *`檔案`*[,0|1]`
 
 檢視器透過託管的WebVTT檔案支援隱藏式字幕。 不支援重疊的提示和區域。 支援的提示定位運運算元包括：
 
@@ -33,14 +33,14 @@ ht-degree: 7%
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> A </span> </p> </td> 
    <td colname="col2"> <p>文字對齊 </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> left|right|middle|start|end </span> </p> </td> 
-   <td colname="col4"> <p> 控制文字對齊方式。 </p> <p>預設為 <span class="codeph"> 中間 </span>. </p> </td> 
+   <td colname="col3"> <p> <span class="codeph">靠左|靠右|中間|開始|結束</span> </p> </td> 
+   <td colname="col4"> <p> 控制文字對齊方式。 </p> <p>預設為<span class="codeph">中間的</span>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> T </span> </p> </td> 
    <td colname="col2"> <p>文字位置 </p> </td> 
    <td colname="col3"> <p> 0%-100% </p> </td> 
-   <td colname="col4"> <p> 註解文字開頭內嵌至VideoPlayer元件的百分比。 </p> <p>預設值為0%。 </p> </td> 
+   <td colname="col4"> <p> 註解文字開頭插入VideoPlayer元件的百分比。 </p> <p>預設值為0%。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> S </span> </p> </td> 
@@ -51,8 +51,8 @@ ht-degree: 7%
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> L </span> </p> </td> 
    <td colname="col2"> <p>行位置 </p> </td> 
-   <td colname="col3"> <p> 0%-100%|整數 </p> </td> 
-   <td colname="col4"> <p> 決定頁面上的行位置。 </p> <p>如果以整數表示（無百分比符號），則為文字顯示位置上方的行數。 </p> <p>如果它是百分比（百分比符號是最後一個字元），則註解文字會在顯示區域顯示這個百分比值。 </p> <p>預設為100%。 </p> </td> 
+   <td colname="col3"> <p> 0%-100%|integer </p> </td> 
+   <td colname="col4"> <p> 決定頁面上的行位置。 </p> <p>如果以整數方式表示（無百分比符號），則為文字顯示位置上方的行數。 </p> <p>如果是百分比（百分比符號是最後一個字元），則註解文字會以百分比顯示在顯示區域中。 </p> <p>預設為100%。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,12 +62,12 @@ ht-degree: 7%
 <table id="table_A5BB1C08DA4B425DBD0356C7D3693E75"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 檔案 </span> </span> </p> </td> 
-   <td colname="col2"> <p> 指定WebVTT標題內容的URL或路徑。 透過影像伺服提供WebVTT檔案。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname">檔案</span> </span> </p> </td> 
+   <td colname="col2"> <p> 指定WebVTT插圖示題內容的URL或路徑。 透過影像伺服提供WebVTT檔案。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 指定預設註解狀態(啟用為 <span class="codeph"> 1 </span>)。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
+   <td colname="col2"> <p> 指定預設註解狀態（啟用為<span class="codeph"> 1 </span>）。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

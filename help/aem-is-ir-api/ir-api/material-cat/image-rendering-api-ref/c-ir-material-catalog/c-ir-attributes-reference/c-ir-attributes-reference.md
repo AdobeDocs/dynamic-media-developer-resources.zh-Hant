@@ -14,4 +14,4 @@ ht-degree: 0%
 
 # 屬性參考{#attributes-reference}
 
-除了目錄：：RootId之外，所有目錄屬性都是選擇性的。 預設目錄屬性檔案(default.ini)中需要所有屬性。
+除了目錄：：RootId之外，所有目錄屬性都是選用的。 預設目錄屬性檔案(default.ini)中需要所有屬性。

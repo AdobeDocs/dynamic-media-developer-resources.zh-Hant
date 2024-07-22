@@ -21,7 +21,7 @@ ht-degree: 7%
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 連續|區段</span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">個連續|區段</span> </p> </td> 
    <td colname="col2"> <p> 不論區段邊界為何，都會以縮圖連續填入互動色票，或允許空白空間記下區段邊界。 </p> </td> 
   </tr> 
  </tbody> 

@@ -8,7 +8,7 @@ exl-id: c5357c1a-92ac-4f9c-957e-b62cb812796c
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '76'
-ht-degree: 17%
+ht-degree: 14%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 17%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 處理公司。 |
+| companyHandle | `xsd:string` | 是 | 公司處理。 |
 | assetHandle | `xsd:string` | 是 | 處理您要移動的資產。 |
 | folderHandle | `xsd:string` | 是 | 目的地資料夾的處理常式。 |
 
@@ -45,7 +45,7 @@ IPS API未傳回此作業的回應。
 
 此程式碼範例將資產移至資料夾。
 
-**請求**
+**要求**
 
 ```java
 <ns1:moveAssetParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">
@@ -55,6 +55,6 @@ IPS API未傳回此作業的回應。
 </ns1:moveAssetParam>
 ```
 
-**回答**
+**回應**
 
 無。

@@ -8,7 +8,7 @@ exl-id: dacea36e-3d40-4aaf-94fd-f0709830caf9
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '92'
-ht-degree: 13%
+ht-degree: 10%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 13%
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
 | companyHandle | `xsd:string` | 是 | 資料夾所屬公司的控制代碼。 |
-| assetHandle | `xsd:string` | 是 | 要刪除之資產的控點。 |
+| assetHandle | `xsd:string` | 是 | 要刪除的資產控制代碼。 |
 
 **輸出(deleteAssetParam)**
 
@@ -46,9 +46,9 @@ IPS API未傳回此作業的回應。
 
 ## 範例 {#section-d5657289f5234bb0a613dcf691507958}
 
-此範常式式碼會從特定公司刪除任何型別的資產。 它需要資產控制代碼，您必須從其他作業取得。
+此範常式式碼會從特定公司刪除任何型別的資產。 它需要資產控制代碼，您必須從其他作業取得此控制代碼。
 
-**請求**
+**要求**
 
 ```java
 <ns1:deleteAssetParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">
@@ -57,6 +57,6 @@ IPS API未傳回此作業的回應。
 </ns1:deleteAssetParam>
 ```
 
-**回答**
+**回應**
 
 無。

@@ -6,8 +6,8 @@ feature-set: Experience Manager Assets
 user-guide-description: 檢視有關IS （影像提供）和IR （影像轉譯） API以及相關技術的檔案。
 source-git-commit: 347aa2f52bc6433043ba65fc75fe9f7f221e6aa3
 workflow-type: tm+mt
-source-wordcount: '1468'
-ht-degree: 9%
+source-wordcount: '1454'
+ht-degree: 7%
 
 ---
 
@@ -21,23 +21,23 @@ ht-degree: 9%
 + [限制和已知問題](r-restrictions-and-known-issues.md)
 + [技術支援](r-tech-support.md)
 + [檔案慣例](r-document-conventions.md)
-+ 安裝 {#install}
++ 安裝{#install}
    + [安裝概述](c-installation/c-installation.md)
    + [授權](c-installation/c-licensing.md)
    + [目錄](c-installation/c-contents.md)
    + [安裝資料夾](c-installation/c-install-folder.md)
-   + 在Windows上安裝 {#windows-install}
+   + 正在Windows {#windows-install}上安裝
       + [在Windows上安裝](c-installation/t-installing-on-windows/t-installing-on-windows.md)
       + [第一次安裝](c-installation/t-installing-on-windows/t-first-time-installation-win.md)
       + [在管理員以外的其他使用者帳戶下安裝](c-installation/t-installing-on-windows/t-diff-account-win.md)
       + [從IS 4.7.4或更新版本更新](c-installation/t-installing-on-windows/t-update-win.md)
       + [正在驗證安裝](c-installation/t-installing-on-windows/t-verify-win.md)
-   + 在Linux上安裝 {#linux-install}
+   + 在Linux {#linux-install}上安裝
       + [在Linux上安裝](c-installation/c-installing-linux/c-installing-linux.md)
       + [第一次安裝](c-installation/c-installing-linux/t-first-install-lin.md)
       + [從IS 4.7.4或更新版本更新](c-installation/c-installing-linux/t-update-lin.md)
       + [正在驗證安裝](c-installation/c-installing-linux/t-verify-install-lin.md)
-   + 啟動和停止影像伺服 {#start-stop-image-servicing}
+   + 啟動及停止影像伺服{#start-stop-image-servicing}
       + [啟動和停止影像伺服](c-installation/t-starting-and-stopping/t-starting-and-stopping.md)
       + [在Windows上啟動或停止](c-installation/t-starting-and-stopping/t-startstop-windows.md)
       + [在Linux上啟動或停止](c-installation/t-starting-and-stopping/t-startstop-linux.md)
@@ -45,9 +45,9 @@ ht-degree: 9%
    + [影像伺服API](is-api/image-serving-api-ref/c-is-home.md)
    + [目標讀者](is-api/image-serving-api-ref/c-intended-audience.md)
    + [影像伺服元件](is-api/image-serving-api-ref/r-components.md)
-   + 設定和管理 {#config-admin}
+   + 設定和管理{#config-admin}
       + [設定和管理](is-api/image-serving-api-ref/c-configuration-and-administration/c-configuration-and-administration.md)
-      + 服務程式組態檔 {#server-config-files}
+      + 服務程式組態檔{#server-config-files}
          + [伺服器組態檔](is-api/image-serving-api-ref/c-configuration-and-administration/r-server-configuration-files/r-server-configuration-files.md)
          + [PlatformServer.conf](is-api/image-serving-api-ref/c-configuration-and-administration/r-server-configuration-files/r-platformserverconf.md)
          + [monitor.conf](is-api/image-serving-api-ref/c-configuration-and-administration/r-server-configuration-files/r-monitorconf.md)
@@ -55,13 +55,13 @@ ht-degree: 9%
          + [server.xml](is-api/image-serving-api-ref/c-configuration-and-administration/r-server-configuration-files/r-server.md)
          + [ImageServerRegistry.xml](is-api/image-serving-api-ref/c-configuration-and-administration/r-server-configuration-files/r-imageserverregistry.md)
          + [SupervisorRegistry.xml](is-api/image-serving-api-ref/c-configuration-and-administration/r-server-configuration-files/r-supervisorregistry.md)
-      + 資料快取 {#data-caches}
+      + 資料快取{#data-caches}
          + [資料快取概觀](is-api/image-serving-api-ref/c-configuration-and-administration/c-data-caches/c-data-caches.md)
          + [回應資料快取](is-api/image-serving-api-ref/c-configuration-and-administration/c-data-caches/c-response-data-cache.md)
          + [回應快取驗證](is-api/image-serving-api-ref/c-configuration-and-administration/c-data-caches/c-response-cache-validation.md)
          + [輔助資料快取](is-api/image-serving-api-ref/c-configuration-and-administration/c-data-caches/c-auxiliary-data-caches.md)
          + [快取叢集](is-api/image-serving-api-ref/c-configuration-and-administration/c-data-caches/c-cache-clustering.md)
-      + 伺服器設定 {#server-settings}
+      + 伺服器設定{#server-settings}
          + [伺服器設定](is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/c-server-settings.md)
          + [一般](is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-general.md)
          + [內容資料夾](is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-content-data-folders.md)
@@ -83,44 +83,44 @@ ht-degree: 9%
       + [伺服器設定](is-api/image-serving-api-ref/c-configuration-and-administration/c-manual-server-configuration.md)
       + [定義SSL加密](is-api/image-serving-api-ref/c-configuration-and-administration/r-ssl-ciphers.md)
       + [伺服器監督員](is-api/image-serving-api-ref/c-configuration-and-administration/c-server-supervisor.md)
-      + 伺服器記錄 {#server-logging}
+      + 伺服器記錄{#server-logging}
          + [伺服器記錄](is-api/image-serving-api-ref/c-configuration-and-administration/c-server-logging/c-server-logging.md)
          + [存取記錄](is-api/image-serving-api-ref/c-configuration-and-administration/c-server-logging/c-access-log.md)
          + [追蹤記錄](is-api/image-serving-api-ref/c-configuration-and-administration/c-server-logging/c-trace-log.md)
          + [影像伺服器記錄](is-api/image-serving-api-ref/c-configuration-and-administration/c-server-logging/c-image-server-log.md)
-      + 伺服器監視 {#server-monitoring}
+      + 伺服器監視{#server-monitoring}
          + [伺服器監視](is-api/image-serving-api-ref/c-configuration-and-administration/c-server-monitoring/c-server-monitoring.md)
          + [標準警報](is-api/image-serving-api-ref/c-configuration-and-administration/c-server-monitoring/r-standard-alerts.md)
          + [棧積空間優先順序警報](is-api/image-serving-api-ref/c-configuration-and-administration/c-server-monitoring/c-heap-space-priority-alert.md)
-      + 管理內容 {#manage-content}
+      + 管理內容{#manage-content}
          + [管理內容](is-api/image-serving-api-ref/c-configuration-and-administration/c-managing-content/c-managing-content.md)
          + [影像目錄](is-api/image-serving-api-ref/c-configuration-and-administration/c-managing-content/c-image-catalogs.md)
-         + [來源資料](is-api/image-serving-api-ref/c-configuration-and-administration/c-managing-content/r-source-data.md)
+         + [Source資料](is-api/image-serving-api-ref/c-configuration-and-administration/c-managing-content/r-source-data.md)
          + [靜態內容來源資料](is-api/image-serving-api-ref/c-configuration-and-administration/c-managing-content/c-static-content-source-data.md)
          + [刪除或取代資料檔案](is-api/image-serving-api-ref/c-configuration-and-administration/c-managing-content/c-deleting-or-replacing-data-files.md)
    + [提供靜態（非影像）內容](is-api/image-serving-api-ref/c-serving-static-nonimage-contents.md)
    + [疑難排解](is-api/image-serving-api-ref/r-troubleshooting.md)
-   + HTTP通訊協定參考 {#http-protocol-reference}
+   + HTTP通訊協定參考{#http-protocol-reference}
       + [HTTP通訊協定參考概述](is-api/image-serving-api-ref/c-http-protocol-reference/c-http-protocol-reference.md)
-      + HTTP通訊協定簡介 {#http-protocol-introduction}
+      + HTTP通訊協定簡介{#http-protocol-introduction}
          + [簡介](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-introduction/c-introduction.md)
          + [目標讀者](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-introduction/c-intended-audience.md)
          + [檔案慣例](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-introduction/r-document-conventions.md)
-      + 語法和功能 {#syntax-and-features}
+      + 語法和功能{#syntax-and-features}
          + [語法和功能](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-syntax-and-features.md)
          + [影像伺服HTTP通訊協定基本語法](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-basic-syntax.md)
-         + 影像伺服HTTP通訊協定命令 {#image-serving-http}
+         + 影像伺服HTTP通訊協定命令{#image-serving-http}
             + [影像伺服HTTP通訊協定命令總覽](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/c-command-overview.md)
             + [要求命令](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-request-commands-and-attributes.md)
             + [檢視命令](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-view-commands-and-attributes.md)
             + [常見操作](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-common-operations-and-attributes.md)
-            + [來源影像作業](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-source-image-operations-and-attributes.md)
+            + [Source影像作業](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-source-image-operations-and-attributes.md)
             + [常用圖層指令](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-common-layer-commands-and-attributes.md)
             + [影像圖層指令](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-image-layer-commands-and-attributes.md)
             + [文字圖層指令](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-text-layer-commands-and-attributes.md)
             + [純色圖層指令](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-solid-color-layer-commands-and-attributes.md)
             + [圖層效果指令](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-layer-effect-commands-and-attributes.md)
-         + 分層 {#layering}
+         + 分層{#layering}
             + [分層概觀](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-layering-overview/c-layering-overview.md)
             + [指定圖層](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-layering-overview/c-specifying-layers.md)
             + [圖層順序](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-layering-overview/c-layer-order.md)
@@ -145,7 +145,7 @@ ht-degree: 9%
          + [浮水印](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-watermarks.md)
          + [提供靜態（非影像）內容](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-serving-static-non-image-content.md)
          + [媒體集要求](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-media-set-requests.md)
-      + 文字格式設定 {#text-formatting}
+      + 文字格式設定{#text-formatting}
          + [文字格式設定概觀](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-text-formatting.md)
          + [字型處理](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/r-font-handling.md)
          + [色彩處理](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/r-color-handling.md)
@@ -153,7 +153,7 @@ ht-degree: 9%
          + [文字圖層](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/r-text-layers.md)
          + [文字定位](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/r-text-positioning.md)
          + [保留的字元](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/r-reserved-characters.md)
-         + RTF支援 {#rtf-support}
+         + RTF支援{#rtf-support}
             + [支援的RTF命令和關鍵字](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-supported-rtf-commands-and-keywords/c-supported-rtf-commands-and-keywords.md)
             + [檔案（文字方塊）屬性](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-supported-rtf-commands-and-keywords/r-document-text-box-properties.md)
             + [段落格式](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-supported-rtf-commands-and-keywords/r-paragraph-formatting.md)
@@ -162,7 +162,7 @@ ht-degree: 9%
             + [特殊文字實體](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-supported-rtf-commands-and-keywords/r-special-text-entities.md)
             + [字元編碼](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-supported-rtf-commands-and-keywords/r-is-http-character-encoding.md)
          + [RTF編碼範例](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/r-rtf-encoding-examples.md)
-      + 資料型別 {#data-types}
+      + 資料型別{#data-types}
          + [資料型別概觀](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/c-data-types.md)
          + [色彩](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md)
          + [座標](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-coord.md)
@@ -170,14 +170,14 @@ ht-degree: 9%
          + [物件](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md)
          + [大小](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-size.md)
          + [sizeN](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-sizen.md)
-      + 命令參考 {#command-reference}
+      + 命令參考{#command-reference}
          + [命令參考概述](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/c-command-reference.md)
          + [對齊](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-align.md)
          + [錨記](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-anchor.md)
          + [bfc](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bfc.md)
          + [bgc](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md)
          + [bgColor](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgcolor.md)
-         + [blendMode](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-blendmode.md)
+         + [混合模式](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-blendmode.md)
          + [快取](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-cache.md)
          + [剪裁路徑](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md)
          + [clipXPath](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clipxpath.md)
@@ -231,7 +231,7 @@ ht-degree: 9%
          + [qlt](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-qlt.md)
          + [量化](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-quantize.md)
          + [矩形](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rect.md)
-         + 需要 {#req}
+         + 需要{#req}
             + [需要概述](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md)
             + [catalogprops](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-catalogprops.md)
             + [存在](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-exists.md)
@@ -254,10 +254,10 @@ ht-degree: 9%
             + [xlate](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-xlate.md)
             + [xmp](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-xmp.md)
          + [res](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-res.md)
-         + [resMode](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-resmode.md)
+         + [解析模式](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-resmode.md)
          + [rgn](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rgn.md)
          + [旋轉](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md)
-         + [scale](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-scale.md)
+         + [縮放](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-scale.md)
          + [scl](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-scl.md)
          + [大小](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-size-reference.md)
          + [src](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md)
@@ -272,17 +272,17 @@ ht-degree: 9%
          + [type](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-type.md)
          + [wid](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-wid.md)
          + [xmpEmbed](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-xmpembed.md)
-      + 回應資料 {#response-data}
+      + 回應資料{#response-data}
          + [回應資料概述](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-response-data.md)
          + [影像](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-images.md)
-         + 屬性 {#properties}
+         + 屬性{#properties}
             + [屬性概述](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/c-properties.md)
             + [文字(Java)屬性](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/r-text-java-properties.md)
             + [JavaScript屬性](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/r-javascript-properties.md)
             + [XML屬性](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/r-xml-properties.md)
             + [JSONP屬性](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/r-json-properties.md)
          + [錯誤](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/r-errors.md)
-      + 伺服器行為 {#server-behavior}
+      + 伺服器行為{#server-behavior}
          + [伺服器行為附註](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/c-notes-on-server-behavior.md)
          + [合成畫布](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-the-compositing-canvas.md)
          + [圖層轉換](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-layer-transforms.md)
@@ -291,16 +291,16 @@ ht-degree: 9%
          + [圖層位置](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-layer-placement.md)
          + [影像的檢視轉換](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-view-transform-for-images.md)
          + [縮圖的檢視轉換](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-view-transform-for-thumbnails.md)
-      + 範本 {#templates}
+      + 範本{#templates}
          + [範本範例](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md)
          + [範例A](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/r-example-a.md)
          + [範例B](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/r-example-b.md)
          + [範例C](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/r-example-c.md)
-   + FXG伺服器通訊協定參考 {#fxg-server-protocol-ref}
+   + FXG伺服器通訊協定參考{#fxg-server-protocol-ref}
       + [FXG伺服器通訊協定參考](is-api/image-serving-api-ref/c-is-fxg-server-protocol/c-is-fxg-server-protocol.md)
-      + FXG伺服器通訊協定 {#fxg-server-protocol}
+      + FXG伺服器通訊協定{#fxg-server-protocol}
          + [FXG伺服器通訊協定](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-fxg-server-protocol.md)
-         + FXG伺服器通訊協定參考 {#protocol-ref}
+         + FXG伺服器通訊協定參考{#protocol-ref}
             + [FXG伺服器通訊協定參考概述](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-fxg-server-protocol-reference/c-fxg-server-protocol-reference.md)
             + [出血邊界](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-fxg-server-protocol-reference/r-bleedmargin.md)
             + [快取](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-fxg-server-protocol-reference/r-is-fxg-cache.md)
@@ -317,14 +317,14 @@ ht-degree: 9%
             + [qlt](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-fxg-server-protocol-reference/r-is-fxg-qlt.md)
             + [量化](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-fxg-server-protocol-reference/r-is-fxg-quantize.md)
             + [需要](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-fxg-server-protocol-reference/r-req-oversetstatus.md)
-            + [scale](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-fxg-server-protocol-reference/r-is-fxg-scale.md)
+            + [縮放](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-fxg-server-protocol-reference/r-is-fxg-scale.md)
             + [trimMargin](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-fxg-server-protocol-reference/r-trimmargin.md)
             + [wid](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-fxg-server-protocol-reference/r-is-fxg-wid.md)
          + [替代變數](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/r-is-fxg-substitution-variables.md)
-         + 指令巨集 {#command-macros}
+         + 命令巨集{#command-macros}
             + [指令巨集概述](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/r-is-fxg-command-macros/r-is-fxg-command-macros.md)
             + [name](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/r-is-fxg-command-macros/r-name.md)
-         + FXG DOM操作作業 {#fxg-dom-ops}
+         + FXG DOM操作作業{#fxg-dom-ops}
             + [FXG DOM操作作業](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-dom-manipulation-operations/c-dom-manipulation-operations.md)
             + [appendElement](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-dom-manipulation-operations/r-appendelement.md)
             + [deleteAttr](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-dom-manipulation-operations/r-deleteattr.md)
@@ -333,7 +333,7 @@ ht-degree: 9%
             + [setAttr.rootElement](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-dom-manipulation-operations/r-setattr-rootelement.md)
             + [setElement](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-dom-manipulation-operations/r-setelement.md)
             + [setVal](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-dom-manipulation-operations/r-setval.md)
-         + 批次處理命令 {#batch-process-commands}
+         + 批次處理命令{#batch-process-commands}
             + [批次處理命令](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-batch-processing-commands/c-batch-processing-commands.md)
             + [batchjobbriefstatus](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-batch-processing-commands/r-batchjobbriefstatus.md)
             + [batchjobdelete](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-batch-processing-commands/r-batchjobdelete.md)
@@ -342,12 +342,12 @@ ht-degree: 9%
             + [batchjobsubmit](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-batch-processing-commands/r-batchjobsubmit.md)
             + [工作資料](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-batch-processing-commands/r-jobdata.md)
             + [jobid](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-batch-processing-commands/r-jobid.md)
-   + 影像目錄參考 {#image-catalog-reference}
+   + 影像目錄參考{#image-catalog-reference}
       + [影像目錄參考](is-api/image-serving-api-ref/c-image-catalog-reference/c-image-catalog-reference.md)
       + [概述](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md)
       + [更新影像目錄](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-updating-image-catalogs.md)
       + [預設目錄](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-default-catalog.md)
-      + 目錄屬性 {#catalog-attributes}
+      + 目錄屬性{#catalog-attributes}
          + [目錄屬性概觀](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-attributes/c-catalog-attributes.md)
          + [目錄管理](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-attributes/r-catalog-management.md)
          + [要求屬性](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-attributes/r-request-attributes.md)
@@ -356,20 +356,20 @@ ht-degree: 9%
          + [通用縮圖屬性](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-attributes/r-common-thumbnail-attributes.md)
          + [目錄欄位的預設值](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-attributes/r-defaults-for-catalog-fields.md)
          + [視訊屬性](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-attributes/r-video-attributes.md)
-      + 目錄資料欄位 {#catalog-data-fields}
+      + 目錄資料欄位{#catalog-data-fields}
          + [目錄資料欄位](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-data-fields/c-catalog-data-fields.md)
          + [影像SVG資料](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-data-fields/r-image-svg-data.md)
          + [靜態內容資料](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-data-fields/r-static-contents-data.md)
          + [巨集定義](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-data-fields/r-macro-definitions.md)
          + [字型地圖](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-data-fields/r-font-maps.md)
          + [ICC設定檔地圖](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-data-fields/r-icc-profile-maps.md)
-      + 檔案格式 {#file-formats}
+      + 檔案格式{#file-formats}
          + [檔案格式](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-file-formats/c-file-formats.md)
          + [目錄屬性檔案](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-file-formats/r-catalog-attribute-files.md)
          + [目錄資料檔案](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-file-formats/r-catalog-data-files.md)
          + [規則集檔案](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-file-formats/r-rule-set-files.md)
          + [字元編碼](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-file-formats/r-is-cat-character-encoding.md)
-      + 常見資料型別 {#common-data-types}
+      + 通用資料型別{#common-data-types}
          + [常見資料型別](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-common-data-types/c-common-data-types.md)
          + [色彩](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-common-data-types/r-is-cat-color.md)
          + [標幟](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-common-data-types/r-flag.md)
@@ -378,7 +378,7 @@ ht-degree: 9%
          + [實數](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-common-data-types/r-real-number.md)
          + [文字字串](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-common-data-types/r-text-string.md)
          + [屬性資料](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-common-data-types/r-property-data.md)
-   + 屬性 {#attributes}
+   + 屬性{#attributes}
       + [屬性參考](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/c-attributes-reference.md)
       + [AllowDirectAccess](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-allowdirectaccess.md)
       + [AllowDirectUrls](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-allowdirecturls.md)
@@ -449,9 +449,9 @@ ht-degree: 9%
       + [videobitrate](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-videobitrate-cat.md)
       + [VideoSize](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-videosize-cat.md)
       + [浮水印](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-watermark.md)
-   + 影像/SVG資料參考 {#image-svg-ref}
+   + 影像/SVG資料參考{#image-svg-ref}
       + [影像/SVG資料參考](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-svg-data-reference.md)
-      + 影像資料參考 {#image-data-reference}
+      + 影像資料參考{#image-data-reference}
          + [影像資料參考](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/c-image-data-reference.md)
          + [錨點](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-anchor-cat.md)
          + [資產型別](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-assettype-cat.md)
@@ -473,23 +473,23 @@ ht-degree: 9%
          + [時間戳記](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-timestamp-cat.md)
          + [使用者資料](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-userdata-cat.md)
          + [使用者型別](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-usertype-cat.md)
-      + SVG資料參考 {#svg-data-reference}
+      + SVG資料參考{#svg-data-reference}
          + [SVG資料參考](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-svg-data-reference/c-svg-data-reference.md)
          + [過期](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-svg-data-reference/r-expiration-svg.md)
          + [Id](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-svg-data-reference/r-id-svg.md)
          + [路徑](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-svg-data-reference/r-path-svg.md)
          + [時間戳記](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-svg-data-reference/r-timestamp-svg.md)
-      + 靜態內容資料 {#static-content-data}
+      + 靜態內容資料{#static-content-data}
          + [靜態內容資料參考](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-static-content-data-reference/c-static-content-data-reference.md)
          + [過期](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-static-content-data-reference/r-expiration-static.md)
          + [Id](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-static-content-data-reference/r-id-static.md)
          + [路徑](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-static-content-data-reference/r-path-static.md)
          + [時間戳記](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-static-content-data-reference/r-timestamp-static.md)
-   + 巨集定義 {#macro-definition}
+   + 巨集定義{#macro-definition}
       + [巨集定義參考](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-macro-definition-reference/c-macro-definition-reference.md)
       + [名稱](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-macro-definition-reference/r-name-macro.md)
       + [定義](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-macro-definition-reference/r-definition-macro.md)
-   + 字型地圖 {#font-map}
+   + 字型地圖{#font-map}
       + [字型地圖參考](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/c-font-map-reference.md)
       + [粗體](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/r-bold-font.md)
       + [字型路徑](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/r-fontpath-font.md)
@@ -497,11 +497,11 @@ ht-degree: 9%
       + [量度路徑](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/r-metricspath-font.md)
       + [名稱](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/r-name-font.md)
       + [PsName](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/r-psname-font.md)
-   + ICC設定檔對應參考 {#icc-profile-map-reference}
+   + ICC設定檔對應參考{#icc-profile-map-reference}
       + [ICC設定檔對應參考](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/c-icc-profile-map-reference.md)
       + [名稱](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/r-name-icc.md)
       + [設定檔路徑](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/r-profilepath-icc.md)
-   + 規則集參考 {#rule-set-reference}
+   + 規則集參考{#rule-set-reference}
       + [規則集參考](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/c-rule-set-reference.md)
       + [addressfilter](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/r-addressfilter-rule.md)
       + [運算式](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/r-expression-rule.md)
@@ -511,26 +511,26 @@ ht-degree: 9%
       + [替代](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/r-substitution-rule.md)
    + [影像伺服器Proxy](is-api/image-serving-api-ref/r-image-server-proxy.md)
    + [影像伺服器範例](is-api/image-serving-api-ref/r-examples-is.md)
-   + 回應式靜態影像程式庫 {#responsive-static-image-library}
+   + 回應式靜態影像程式庫{#responsive-static-image-library}
       + [回應式靜態影像程式庫](is-api/image-serving-api-ref/c-about-responsive-static-image-library/c-about-responsive-static-image-library.md)
       + [使用Responsive影像資料庫](is-api/image-serving-api-ref/c-about-responsive-static-image-library/t-using-responsive-static-image-library.md)
       + [命令參考 — 組態屬性](is-api/image-serving-api-ref/c-about-responsive-static-image-library/r-responsive-static-image-library-config-attrib.md)
 + 影像演算API {#image-rendering-api}
    + [影像演算API](ir-api/image-rendering-api-ref/c-ir-home.md)
-   + 設定 {#configuration}
+   + 設定{#configuration}
       + [設定](ir-api/image-rendering-api-ref/c-ir-installation/c-ir-installation.md)
       + [授權](ir-api/image-rendering-api-ref/c-ir-installation/c-ir-licensing.md)
       + [安裝及設定IR 3.x相容性模組](ir-api/image-rendering-api-ref/c-ir-installation/t-ir-setup-compatibility-module.md)
       + [設定和設定影像演算](ir-api/image-rendering-api-ref/c-ir-installation/c-ir-setup-ir.md)
-      + 解除安裝影像演算 {#uninstalling-image-rendering}
+      + 正在解除安裝影像演算{#uninstalling-image-rendering}
          + [解除安裝影像演算](ir-api/image-rendering-api-ref/c-ir-installation/c-ir-uninstalling/c-ir-uninstalling.md)
          + [在Linux和Solaris上解除安裝](ir-api/image-rendering-api-ref/c-ir-installation/c-ir-uninstalling/t-ir-uninstall-linux-solaris.md)
          + [在Windows上解除安裝](ir-api/image-rendering-api-ref/c-ir-installation/c-ir-uninstalling/t-ir-uninstall-windows.md)
-   + 伺服器管理 {#server-administration}
+   + 伺服器管理{#server-administration}
       + [伺服器管理](ir-api/image-rendering-api-ref/c-ir-server-administration/c-ir-server-administration.md)
       + [伺服器管理序言](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-preface.md)
       + [伺服器管理概觀](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-server-overview.md)
-      + 設定和管理伺服器 {#configuring-and-managing-the-server}
+      + 設定及管理伺服器{#configuring-and-managing-the-server}
          + [設定和管理伺服器概述](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-configuring-and-managing-the-server.md)
          + [組態檔](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-config-files.md)
          + [啟動和停止伺服器](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-starting-and-stopping-the-server.md)
@@ -539,33 +539,33 @@ ht-degree: 9%
          + [記憶體考量事項](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-memory-considerations.md)
          + [動態磁碟空間注意事項](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-dynamic-disk-space-considerations.md)
          + [暈映大小限制](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-vignette-size-limitation.md)
-         + 管理內容 {#managing-content}
+         + 管理內容{#managing-content}
             + [管理內容](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-managing-content/c-ir-managing-content.md)
             + [材質目錄](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-managing-content/c-ir-server-material-catalogs.md)
-            + [來源資料](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-managing-content/c-ir-source-data.md)
+            + [Source資料](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-managing-content/c-ir-source-data.md)
             + [刪除或取代來源資料檔案](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-managing-content/c-ir-deleting-or-replacing-source-data-files.md)
-      + 組態設定參考 {#configuration-settings-reference}
+      + 組態設定參考{#configuration-settings-reference}
          + [組態設定參考概述](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuration-settings-reference/c-ir-configuration-settings-reference.md)
          + [目錄資料夾(ir.catalogRootPath)](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuration-settings-reference/c-ir-catalog-folder.md)
          + [目錄快取資料夾(ir.catalogCacheRoot)](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuration-settings-reference/c-ir-catalog-cache-folder.md)
          + [資源根資料夾(ir.resourceRootPaths)](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuration-settings-reference/c-ir-resource-root-folders.md)
-   + HTTP通訊協定參考 {#http-protocol-reference}
+   + HTTP通訊協定參考{#http-protocol-reference}
       + [HTTP通訊協定參考](ir-api/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-ref.md)
       + [簡介](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-introduction.md)
-      + HTTP通訊協定語法和功能 {#http-protocol-syntax}
+      + HTTP通訊協定語法和功能{#http-protocol-syntax}
          + [HTTP通訊協定語法和功能](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-protocol-syntax-and-features.md)
          + [影像演算HTTP通訊協定基本語法](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/r-ir-basic-syntax.md)
-         + 影像演算HTTP通訊協定命令概覽 {#image-rendering-http-protocol-command-overview}
+         + 影像轉譯HTTP通訊協定命令總覽{#image-rendering-http-protocol-command-overview}
             + [影像演算HTTP通訊協定命令概覽](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-command-overview/c-ir-command-overview.md)
             + [檢視屬性](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-command-overview/r-ir-view-attributes.md)
             + [選取範圍指令](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-command-overview/r-ir-selection-commands.md)
             + [材質屬性](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-command-overview/r-ir-material-attributes.md)
             + [其他命令](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-command-overview/r-ir-miscellaneous-commands.md)
-         + 暈映 {#vignettes}
+         + 暈映{#vignettes}
             + [暈映](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-vignettes/c-ir-vignettes.md)
             + [場景座標](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-vignettes/c-ir-scene-coordinates.md)
             + [材質解析度](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-vignettes/c-ir-material-resolution.md)
-         + 材料 {#materials}
+         + 材料{#materials}
             + [資料概述](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-materials/c-ir-http-materials.md)
             + [純色](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-materials/r-ir-solid-colors.md)
             + [可重複的紋理](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-materials/r-ir-repeatable-textures.md)
@@ -573,7 +573,7 @@ ht-degree: 9%
             + [貼花](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-materials/r-ir-decals.md)
             + [檔案櫃](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-materials/r-ir-cabinets.md)
             + [視窗涵蓋範圍](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-materials/r-ir-window-coverings.md)
-         + 進階演算效果 {#advanced-render-effects}
+         + 進階演算效果{#advanced-render-effects}
             + [進階演算效果](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-advanced-render-effects.md)
             + [使用多個照明地圖](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-use-multiple-illumination-maps.md)
             + [色彩化材質](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-colorizing-materials.md)
@@ -581,17 +581,17 @@ ht-degree: 9%
             + [反射](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/r-ir-reflections.md)
             + [光澤效果](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-gloss-effects.md)
             + [進階演算設定](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-advanced-render-settings.md)
-         + 請求巢狀內嵌與內嵌 {#request-nesting-and-embedding}
+         + 要求巢狀和內嵌{#request-nesting-and-embedding}
             + [請求巢狀內嵌與內嵌*](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-request-nesting-and-embedding/c-ir-request-nesting-and-embedding.md)
             + [內嵌影像伺服器要求](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-request-nesting-and-embedding/c-ir-embedded-image-serving-requests.md)
             + [巢狀影像演算請求](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-request-nesting-and-embedding/c-ir-nested-image-rendering-requests.md)
             + [外部影像來源](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-request-nesting-and-embedding/c-ir-foreign-image-sources.md)
             + [限制](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-request-nesting-and-embedding/c-ir-restrictions.md)
-         + 材質目錄 {#material-catalogs}
+         + 材質目錄{#material-catalogs}
             + [材質目錄*](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-material-catalogs/c-ir-http-material-catalogs.md)
             + [工作階段目錄](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-material-catalogs/r-ir-session-catalog.md)
          + [要求前置處理*](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-request-pre-processing.md)
-         + 自訂變數 {#custom-variables}
+         + 自訂變數{#custom-variables}
             + [自訂變數概觀](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-custom-variables/c-ir-custom-variables.md)
             + [巢狀要求中的變數處理](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-custom-variables/c-ir-variable-processing-in-nested-requests.md)
             + [內嵌外部請求中的變數處理](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-custom-variables/c-ir-variable-processing-in-embedded-foreign-requests.md)
@@ -601,7 +601,7 @@ ht-degree: 9%
          + [影像演算色彩管理*](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-color-management.md)
          + [顏色值](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/r-ir-color-values.md)
          + [影像演算HTTP編碼](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-encoding.md)
-      + HTTP通訊協定命令參考 {#http-protocol-command-reference}
+      + HTTP通訊協定命令參考{#http-protocol-command-reference}
          + [HTTP通訊協定命令參考](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/c-ir-http-protocol-command-reference.md)
          + [對齊](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-align.md)
          + [錨記](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-anchor.md)
@@ -628,7 +628,7 @@ ht-degree: 9%
          + [重複](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-repeat.md)
          + [需要](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-req.md)
          + [res](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-res.md)
-         + [resMode](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-resmode.md)
+         + [解析模式](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-resmode.md)
          + [旋轉](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rotate.md)
          + [粗糙](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md)
          + [rs](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rs.md)
@@ -643,26 +643,26 @@ ht-degree: 9%
          + [type](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-type.md)
          + [暈映](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-vignette.md)
          + [wid](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-wid.md)
-      + HTTP通訊協定回應資料 {#http-protocol-response-data}
+      + HTTP通訊協定回應資料{#http-protocol-response-data}
          + [HTTP通訊協定回應資料](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-http-protocol-response-data.md)
          + [影像](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-images.md)
          + [屬性](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-properties.md)
          + [錯誤](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-errors.md)
-   + 材質目錄 {#material-catalog}
+   + 材質目錄{#material-catalog}
       + [材質目錄](ir-api/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-catalog.md)
       + [簡介](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-cat-ref-intro.md)
-      + 材質目錄概觀 {#material-catalog-overview}
+      + 材質目錄概觀{#material-catalog-overview}
          + [材質目錄概觀*](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-cat-overview/c-ir-cat-overview.md)
          + [材料](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-cat-overview/c-ir-cat-materials.md)
          + [目錄屬性](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-cat-overview/r-ir-catalog-attributes.md)
          + [目錄資料欄位](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-cat-overview/r-ir-catalog-data-fields.md)
-         + 檔案格式 {#file-formats}
+         + 檔案格式{#file-formats}
             + [檔案格式](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-cat-overview/c-ir-file-formats/c-ir-file-formats.md)
             + [目錄屬性檔案](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-cat-overview/c-ir-file-formats/c-ir-catalog-attribute-files.md)
             + [目錄資料檔案](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-cat-overview/c-ir-file-formats/c-ir-catalog-data-files.md)
             + [字元編碼](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-cat-overview/c-ir-file-formats/c-ir-character-encoding.md)
          + [常見資料型別](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-cat-overview/r-ir-common-data-types.md)
-      + 屬性參考 {#attributes-reference}
+      + 屬性參考{#attributes-reference}
          + [屬性參考](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/c-ir-attributes-reference.md)
          + [AllowDirectURLs](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-allowdirecturls.md)
          + [CacheValidationPolicy](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cachevalidationpolicy.md)
@@ -703,7 +703,7 @@ ht-degree: 9%
          + [信任網域*](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-trusteddomains.md)
          + [UseLastModified](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-uselastmodified.md)
          + [VignettemapFile](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-vignettemapfile.md)
-      + 材質資料參考 {#material-data-reference}
+      + 原物料資料參考{#material-data-reference}
          + [材質資料參考](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/c-ir-material-data-reference.md)
          + [對齊](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-alignment.md)
          + [錨點](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-anchor.md)
@@ -714,7 +714,7 @@ ht-degree: 9%
          + [光澤](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-gloss.md)
          + [Id](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-id.md)
          + [Illum](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-illum.md)
-         + [路徑 *](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-path.md)
+         + [路徑*](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-path.md)
          + [轉譯設定](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-rendersettings-dataref.md)
          + [重複](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-repeat.md)
          + [解析度](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-resolution-dataref.md)
@@ -723,7 +723,7 @@ ht-degree: 9%
          + [大小](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-size.md)
          + [時間戳記](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-timestamp-dataref.md)
          + [類型](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-type.md)
-      + 暈映對應參考 {#vignette-map-reference}
+      + 暈映地圖參考{#vignette-map-reference}
          + [暈映對應參考](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/c-ir-vignette-map-reference.md)
          + [過期](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-expiration-vignette.md)
          + [Id](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-id-vignette.md)
@@ -731,24 +731,24 @@ ht-degree: 9%
          + [路徑](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-path-vignette.md)
          + [時間戳記](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-timestamp-vignette.md)
          + [使用者資料*](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-userdata.md)
-      + 巨集定義參考 {#macro-definition-reference}
+      + 巨集定義參考{#macro-definition-reference}
          + [巨集定義參考](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-macro-definition-reference/c-ir-macro-definition-reference.md)
          + [名稱](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-macro-definition-reference/r-ir-name.md)
          + [定義](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-macro-definition-reference/r-ir-definition.md)
-      + ICC設定檔對應參考 {#icc-profile-map-reference}
+      + ICC設定檔對應參考{#icc-profile-map-reference}
          + [ICC設定檔對應參考](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-icc-profile-map-reference/c-ir-icc-profile-map-reference.md)
          + [名稱](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-icc-profile-map-reference/r-ir-name-icc.md)
          + [設定檔路徑](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-icc-profile-map-reference/r-ir-profilepath.md)
-      + 規則集參考 {#rule-set-reference}
+      + 規則集參考{#rule-set-reference}
          + [規則集參考](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-rule-set-reference/c-ir-rule-set-reference.md)
          + [addressfilter](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-rule-set-reference/r-ir-addressfilter.md)
          + [運算式](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-rule-set-reference/r-ir-expression.md)
          + [規則](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-rule-set-reference/r-ir-rule.md)
          + [規則集](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-rule-set-reference/r-ir-ruleset.md)
          + [替代](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-rule-set-reference/r-ir-substitution.md)
-+ 公用程式 {#utilites}
++ 公用程式{#utilites}
    + [公用程式概述](utilities/utilities.md)
-   + 影像伺服公用程式 {#image-serving-utilities}
+   + 影像伺服公用程式{#image-serving-utilities}
       + [影像伺服公用程式](is-api/is-utils/utilities/c-utils-home.md)
       + [公用程式的位置](is-api/is-utils/utilities/c-location-of-utilities.md)
       + [互動通訊](is-api/is-utils/utilities/r-ic.md)

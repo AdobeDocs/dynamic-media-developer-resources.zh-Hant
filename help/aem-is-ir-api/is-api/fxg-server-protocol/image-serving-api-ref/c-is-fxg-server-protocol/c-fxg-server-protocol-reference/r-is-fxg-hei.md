@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: dcc9311d-4157-490b-9fc4-47060ddb0e37
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 2%
+source-wordcount: '171'
+ht-degree: 1%
 
 ---
 
@@ -16,22 +16,22 @@ ht-degree: 2%
 
 檢視高度。 指定回覆影像的高度。
 
-`hei= *`val`*`
+`hei= *`值`*`
 
 <table id="simpletable_627E67D201744588815325F3C55F76A5"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> val</span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname">值</span></span> </p> </td> 
   <td class="stentry"> <p>影像高度，以畫素為單位（int大於0）。 </p></td> 
  </tr> 
 </table>
 
-點陣化格式會使用「預設檢視大小」(或「預設畫素」(DefaultPix)設定)呈現。 選取 **[!UICONTROL 應用程式設定]** > **[!UICONTROL 發佈設定]** > **[!UICONTROL 影像伺服器]**，然後輸入您的「寬度」和「高度」值。 更小尺寸可提供更優異的效能。 儲存您的設定並執行影像伺服發佈以套用變更。
+點陣化格式會使用「預設檢視大小」(或「預設畫素」(DefaultPix)設定)呈現。 選取&#x200B;**[!UICONTROL 應用程式設定]** > **[!UICONTROL Publish設定]** > **[!UICONTROL 影像伺服器]**，然後輸入您的寬度和高度值。 更小尺寸可提供更優異的效能。 儲存您的設定並執行影像伺服Publish以套用變更。
 
-如果您套用 `scale=1` 指令，點陣化格式要求會以FXG中指定的大小呈現。
+如果您套用`scale=1`命令，則會以FXG中指定的大小呈現點陣化格式要求。
 
 ## 預設 {#section-76ee3daa77cb468ab310821357cc9404}
 
-如果 `wid=`， `hei=`，或 `scale=` 未指定，回覆影像為FXG檔案中指定的預設檢視大小。
+如果未指定`wid=`、`hei=`或`scale=`，則回覆影像為FXG檔案中指定的預設檢視大小。
 
 ## 範例 {#section-a91c14d31e71481ba054412d9f642885}
 

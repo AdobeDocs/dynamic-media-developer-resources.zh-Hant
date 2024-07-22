@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 68d37b5d-5015-4a98-84b8-8911ace327ed
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
@@ -18,19 +18,19 @@ ht-degree: 0%
 >
 >Secure Video Delivery only applies to AEM 6.2 with the installation of [Feature Pack-13480](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/featurepack/cq-6.2.0-featurepack-13480) and to AEM 6.1 with installation of [Feature Pack NPR-15011](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq610/featurepack/cq-6.1.0-featurepack-15011). -->
 
-如果檢視器在設定中運作（如本節開頭所述），已發佈的視訊傳送可能會在HTTPS （安全）和HTTP （不安全）模式中發生。 在預設設定中，視訊傳送通訊協定會嚴格遵循內嵌網頁的傳送通訊協定。 但是，無論使用內嵌網頁所使用的通訊協定，還是強制傳送HTTPS視訊，都可行 [VideoPlayer.ssl](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoplayer-ssl.md#reference-c28e1b700977493eadab5489458d7771) 組態屬性。 （作者模式下的視訊預覽一律會透過HTTPS安全地傳送。）
+如果檢視器在設定中運作（如本節開頭所述），已發佈的視訊傳送可能會在HTTPS （安全）和HTTP （不安全）模式中發生。 在預設設定中，視訊傳送通訊協定會嚴格遵循內嵌網頁的傳送通訊協定。 不過，即使使用[VideoPlayer.ssl](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoplayer-ssl.md#reference-c28e1b700977493eadab5489458d7771)設定屬性內嵌網頁所使用的通訊協定，也可以強制執行HTTPS視訊傳送。 （作者模式下的視訊預覽一律會透過HTTPS安全地傳送。）
 
-視發佈方法而定 [!DNL Dynamic Media] 您在Adobe Experience Manager中使用的影片， `VideoPlayer.ssl` 組態屬性的套用方式不同，如以下所示：
+根據您在Adobe Experience Manager中發佈[!DNL Dynamic Media]視訊的方法，`VideoPlayer.ssl`設定屬性的套用方式會有所不同，如下列所示：
 
-* 如果您發佈 [!DNL Dynamic Media] 視訊與URL，您需在 `VideoPlayer.ssl` 到URL。 例如，若要強制進行安全視訊傳送，您需要 `&VideoPlayer.ssl=on` 到下列檢視器URL範例結尾：
+* 如果您使用URL發佈[!DNL Dynamic Media]視訊，則會將`VideoPlayer.ssl`附加至URL。 例如，若要強制進行安全視訊傳送，您可以將`&VideoPlayer.ssl=on`附加至下列檢視器URL範例的結尾：
 
   ```
   https://demos-pub.assetsadobe.com/etc/dam/viewers/s7viewers/html5/InteractiveVideoViewer.html?asset=%2Fcontent%2Fdam%2Fmarketing%2Fshoppable-video%2Fadobe-axis-demo%2FAdobe_AXIS_V3_GRADED-HD.mp4&config=/etc/dam/presets/viewer/Shoppable_Video_light&serverUrl=https%3A%2F%2Fadobedemo62-h.assetsadobe.com%2Fis%2Fimage%2F&contenturl=%2F&config2=/etc/dam/presets/analytics&videoserverurl=https://gateway-na.assetsadobe.com/DMGateway/public/demoCo&interactivedata=content/dam/_VTT/marketing/shoppable-video/adobe-axis-demo/Adobe_AXIS_V3_GRADED-HD.mp4.svideo.vtt&VideoPlayer.contenturl=https://adobedemo62-h.assetsadobe.com/is/content&VideoPlayer.ssl=on
   ```
 
-  另請參閱 [將URL連結至您的Web應用程式](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=en#dynamic)
+  另請參閱[將URL連結至您的網頁應用程式](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=en#dynamic)
 
-* 如果您發佈 [!DNL Dynamic Media] 視訊包含內嵌程式碼，您需要 `VideoPlayer.ssl` 至內嵌程式碼片段中其他檢視器設定引數的清單。 例如，若要強制HTTPS視訊傳送，您應附加 `&VideoPlayer.ssl=on` 如下列範例所示：
+* 如果您使用內嵌程式碼發佈[!DNL Dynamic Media]影片，請將`VideoPlayer.ssl`新增至內嵌程式碼片段中的其他檢視器組態引數清單。 例如，若要強制HTTPS視訊傳送，您可以附加`&VideoPlayer.ssl=on`，如下列範例所示：
 
   ```html {.line-numbers}
   <style type="text/css"> 
@@ -77,4 +77,4 @@ ht-degree: 0%
   </script>
   ```
 
-  另請參閱 [將影片內嵌在網頁上](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html#dynamic).
+  另請參閱[在網頁上內嵌視訊](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html#dynamic)。

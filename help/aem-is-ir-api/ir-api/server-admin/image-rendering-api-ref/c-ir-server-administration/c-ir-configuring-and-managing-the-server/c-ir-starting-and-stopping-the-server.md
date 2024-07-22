@@ -1,5 +1,5 @@
 ---
-description: 影像演算內嵌於「影像伺服」的影像伺服器及 [!DNL Platform Server] 元件。
+description: 影像演算內嵌於「影像伺服」的影像伺服器和 [!DNL Platform Server] 元件中。
 solution: Experience Manager
 title: 啟動和停止伺服器
 feature: Dynamic Media Classic,SDK/API
@@ -14,6 +14,6 @@ ht-degree: 0%
 
 # 啟動和停止伺服器{#starting-and-stopping-the-server}
 
-影像演算內嵌於「影像伺服」的影像伺服器及 [!DNL Platform Server] 元件。
+影像演算內嵌於「影像伺服」的影像伺服器和[!DNL Platform Server]元件中。
 
 如需詳細資訊，請參閱影像伺服檔案。

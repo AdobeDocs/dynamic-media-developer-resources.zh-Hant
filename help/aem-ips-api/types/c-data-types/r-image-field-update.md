@@ -22,8 +22,8 @@ ht-degree: 8%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| assetHandle | `xsd:string` | 資產控點。 |
-| [!DNL resolution] | `xsd:double` | 影像解析度（畫素/英吋）。 |
+| assetHandle | `xsd:string` | 資產控制代碼。 |
+| [!DNL resolution] | `xsd:double` | 影像解析度，以畫素/英吋為單位。 |
 | [!DNL anchorX] | `xsd:int` | X軸影像錨點。 |
 | [!DNL anchorY] | `xsd:int` | Y軸影像錨點。 |
-| [!DNL userData] | `xsd:string` | 值 `userData` 中繼資料欄位，已發佈至影像伺服使用者資料目錄欄位。 |
+| [!DNL userData] | `xsd:string` | `userData`中繼資料欄位的值，此欄位已發佈至影像伺服使用者資料目錄欄位。 |

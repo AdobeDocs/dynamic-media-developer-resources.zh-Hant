@@ -31,11 +31,11 @@ ht-degree: 3%
  </tr> 
 </table>
 
-另請參閱 [剪裁路徑=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d) 以取得其他資訊，包括 `*`pathName`*` 和 `*`pathDefinition`*`.
+如需其他資訊，請參閱[clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)，包括`*`pathName`*`和`*`pathDefinition`*`的說明。
 
 ## 屬性 {#section-acf7272ba93a4bbba818b8e6aa4dcea5}
 
-圖層屬性。 套用至目前圖層或複合影像，如果 `layer=comp`. 忽略條件 `clipPath=` 未指定。 被效果圖層忽略。
+圖層屬性。 套用至目前的圖層或複合影像（若為`layer=comp`）。 如果未指定`clipPath=`，則忽略。 被效果圖層忽略。
 
 ## 預設 {#section-d1986aa31af14767aeb1b4a57add67f4}
 

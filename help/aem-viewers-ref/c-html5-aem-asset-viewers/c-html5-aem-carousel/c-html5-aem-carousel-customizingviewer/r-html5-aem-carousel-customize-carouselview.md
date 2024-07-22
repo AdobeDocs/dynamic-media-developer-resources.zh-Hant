@@ -1,5 +1,5 @@
 ---
-title: 傳送檢視
+title: 轉盤檢視
 description: 主要檢視包含橫幅影像。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
@@ -12,13 +12,13 @@ ht-degree: 1%
 
 ---
 
-# 傳送檢視{#carousel-view}
+# 轉盤檢視{#carousel-view}
 
 主要檢視包含橫幅影像。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**主要檢視器區域的CSS屬性**
+主要檢視器區域的&#x200B;**CSS屬性**
 
 檢視區域的外觀是由下列CSS類別選取器所控制：
 
@@ -35,7 +35,7 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色彩</span> </p> </td> 
    <td colname="col2"> <p> 主檢視的十六進位格式的背景顏色。 </p> </td> 
   </tr> 
  </tbody> 

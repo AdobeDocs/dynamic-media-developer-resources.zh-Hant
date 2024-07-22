@@ -1,5 +1,5 @@
 ---
-description: 將使用者從特定公司新增至特定群組。
+description: 將來自特定公司的使用者新增至特定群組。
 solution: Experience Manager
 title: addGroupMembers
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: c03525e3-6bc4-4c6a-bb5b-b0cb2e6f6d0d
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '101'
-ht-degree: 12%
+ht-degree: 10%
 
 ---
 
 # addGroupMembers{#addgroupmembers}
 
-將使用者從特定公司新增至特定群組。
+將來自特定公司的使用者新增至特定群組。
 
 語法
 
@@ -32,7 +32,7 @@ ht-degree: 12%
 |---|---|---|---|
 | companyHandle | `xsd:string` | 是 | 公司的控制代碼。 |
 | groupHandle | `xsd:string` | 是 | 群組控制代碼。 |
-| userHandleArray | `types:HandleArray` | 是 | 您要新增至群組的使用者的一組控制代碼。 |
+| userHandleArray | `types:HandleArray` | 是 | 您要新增至群組的使用者之控制代碼陣列。 |
 
 **輸出(addGroupMembersParam)**
 
@@ -42,7 +42,7 @@ IPS API未傳回此作業的回應。
 
 此範例使用addGroupMembersParam將使用者新增至單一公司。 IPS API未傳回此作業的回應。
 
-**請求**
+**要求**
 
 ```java {.line-numbers}
 <ns1:addGroupMembersParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">
@@ -52,6 +52,6 @@ IPS API未傳回此作業的回應。
 </ns1:addGroupMembersParam>
 ```
 
-**回答**
+**回應**
 
 無。

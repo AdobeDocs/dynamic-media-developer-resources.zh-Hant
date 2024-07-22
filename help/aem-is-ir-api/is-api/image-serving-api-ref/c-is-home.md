@@ -1,5 +1,5 @@
 ---
-description: 影像伺服API指南包含設定和使用影像伺服API的相關資訊。
+description: 「影像伺服API指南」包含設定及使用「影像伺服API」的相關資訊。
 solution: Experience Manager
 title: 影像伺服API
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # 影像伺服API{#image-serving-api}
 
-影像伺服API指南包含設定和使用影像伺服API的相關資訊。
+「影像伺服API指南」包含設定及使用「影像伺服API」的相關資訊。
 
 * [目標讀者](c-intended-audience.md)
 * [影像伺服元件](r-components.md)

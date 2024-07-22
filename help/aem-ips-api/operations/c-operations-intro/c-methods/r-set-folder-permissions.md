@@ -8,7 +8,7 @@ exl-id: 0da05679-207e-4dc8-9bfe-2cf09a8c3f17
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '91'
-ht-degree: 15%
+ht-degree: 13%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 15%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 公司控點。 |
+| companyHandle | `xsd:string` | 是 | 公司控制代碼。 |
 | folderHandle | `xsd:string` | 是 | 資料夾控制代碼。 |
 | setchildren | `xsd:boolean` | 是 | 設定屬於資料夾之子項的許可權。 |
 | permissionArray | `types:PermissionUpdateArray` | 是 | 許可權陣列。 |
@@ -43,7 +43,7 @@ IPS API未傳回此作業的回應。
 
 此程式碼範例指定公司控制代碼、資料夾控制代碼和許可權陣列，其中包含有關資料夾的詳細資訊。 它會套用父資料夾子項的相同許可權。
 
-**請求**
+**要求**
 
 ```java
 <setFolderPermissionsParam xmlns="http://www.scene7.com/IpsApi/xsd">
@@ -61,6 +61,6 @@ IPS API未傳回此作業的回應。
 </setFolderPermissionsParam>
 ```
 
-**回答**
+**回應**
 
 無。

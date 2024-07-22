@@ -1,5 +1,5 @@
 ---
-description: 非結構化命名影像輸出設定集。
+description: 影像輸出設定的非結構化命名集。
 solution: Experience Manager
 title: 影像格式
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 12%
 
 # [!DNL ImageFormat]{#imageformat}
 
-非結構化命名影像輸出設定集。
+影像輸出設定的非結構化命名集。
 
 不是資產型別。
 

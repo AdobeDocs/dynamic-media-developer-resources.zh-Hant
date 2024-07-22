@@ -8,7 +8,7 @@ exl-id: 2af7c949-46cf-4570-9043-1b6296a2e467
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '48'
-ht-degree: 14%
+ht-degree: 10%
 
 ---
 
@@ -31,8 +31,8 @@ ht-degree: 14%
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> forceUpdate</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3">設定為時產生網站地圖 <span class="codeph"> true</span>. <p><p>注意：如果Sitemap產生組態設定為手動，且 <span class="codeph"> forceUpdate</span> 未設定，網站地圖不會產生。 </p></p></td> 
+   <td colname="col2"> <span class="codeph"> xsd：布林值</span> </td> 
+   <td colname="col3">設定為<span class="codeph"> true</span>時產生網站地圖。 <p><p>注意：如果Sitemap產生組態設定為手動，但未設定<span class="codeph"> forceUpdate</span>，則不會產生網站地圖。 </p></p></td> 
   </tr> 
  </tbody> 
 </table>

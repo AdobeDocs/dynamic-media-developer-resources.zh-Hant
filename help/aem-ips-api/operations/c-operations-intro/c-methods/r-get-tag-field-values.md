@@ -1,20 +1,20 @@
 ---
-description: 取得為一個或多個標籤欄位定義的所有標籤字典值。
+description: 取得針對一或多個標籤欄位定義的所有標籤字典值。
 solution: Experience Manager
-title: getTagFieldValues
+title: getTagFieldValue
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 12836783-4f9d-41d3-9b42-6e25238d7ed5
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '85'
-ht-degree: 18%
+ht-degree: 16%
 
 ---
 
-# getTagFieldValues{#gettagfieldvalues}
+# getTagFieldValue{#gettagfieldvalues}
 
-取得為一個或多個標籤欄位定義的所有標籤字典值。
+取得針對一或多個標籤欄位定義的所有標籤字典值。
 
 語法
 
@@ -37,7 +37,7 @@ ht-degree: 18%
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
 | companyHandle | `xsd:string` | 是 | 包含標籤欄位之公司的控制代碼。 |
-| fieldHandleArray | `types:HandleArray` | 是 | 標籤要傳回之值的欄位控制代碼陣列。 |
+| fieldHandleArray | `types:HandleArray` | 是 | 用於標籤要傳回之值的欄位控制代碼陣列。 |
 
 **輸出(getTagFieldValuesReturn)**
 
@@ -47,7 +47,7 @@ ht-degree: 18%
 
 ## 範例 {#section-4492742614e44bb191a7d397dc1a1407}
 
-**請求**
+**要求**
 
 ```java
 <getTagFieldValuesParam xmlns="http://www.scene7.com/IpsApi/xsd/2010-01-31">
@@ -59,7 +59,7 @@ ht-degree: 18%
 </getTagFieldValuesParam>
 ```
 
-**回答**
+**回應**
 
 ```java
 <getTagFieldValuesReturn xmlns="http://www.scene7.com/IpsApi/xsd/2010-01-31">

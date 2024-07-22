@@ -8,7 +8,7 @@ exl-id: d8f8fe53-a874-4b77-9084-9a369862a672
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '113'
-ht-degree: 16%
+ht-degree: 15%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 16%
 | 名字 | `xsd:string` | 是 | 名字。 |
 | 姓氏 | `xsd:string` | 是 | 姓氏。 |
 | 電子郵件 | `xsd:string` | 是 | 使用者電子郵件。 |
-| defaultrole | `xsd:string` | 是 | 設定使用者在其所屬每個公司中的角色。 但是，請注意 `IpsAdmin` 角色會覆寫其他每個公司的設定。 |
+| defaultrole | `xsd:string` | 是 | 設定使用者在其所屬每個公司中的角色。 但是請注意，`IpsAdmin`角色會覆寫其他每個公司的設定。 |
 | 密碼過期 | `xsd:dateTime` | 否 | 設定的密碼到期日。 |
 | isValid | `xsd:boolean` | 是 | 判斷使用者是否為有效的IPS使用者。 |
 | memberlationarray | `types:CompanyMembershipUpdateArray` | 是 | 公司控制元件的陣列。 |
@@ -46,7 +46,7 @@ IPS API未傳回此作業的回應。
 
 ## 範例 {#section-272c103076fb4de0a53729e2f6bfb895}
 
-**請求**
+**要求**
 
 ```java
 <setUserInfoParam xmlns="http://www.scene7.com/IpsApi/xsd">
@@ -58,6 +58,6 @@ IPS API未傳回此作業的回應。
 </setUserInfoParam>
 ```
 
-**回答**
+**回應**
 
 無。

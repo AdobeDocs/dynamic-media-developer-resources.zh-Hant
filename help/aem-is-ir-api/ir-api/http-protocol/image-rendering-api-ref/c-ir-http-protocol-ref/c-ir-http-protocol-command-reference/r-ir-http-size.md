@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 756d8b9f-076a-48d6-95c9-e0d6caeed3dd
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '217'
 ht-degree: 2%
 
 ---
@@ -16,30 +16,30 @@ ht-degree: 2%
 
 貼花大小。 指定貼花材質的大小。
 
-` size= *`寬度，高度`*[ *`，粗細`*]`
+` size= *`寬度，高度`*[ *`，厚度`*]`
 
 <table id="simpletable_00B1226F3B8B49D895D1269AB03D5043"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> 寬度，高度 </span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname">寬度，高度</span> </p> </td> 
   <td class="stentry"> <p>以場景座標單位表示的貼花物件大小（通常為英吋） （真實、真實）。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> 粗細 </span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname">粗細</span> </p> </td> 
   <td class="stentry"> <p>以場景座標單位表示的貼花物件厚度（通常為英吋） （實數）。 </p> </td> 
  </tr> 
 </table>
 
 如果寬度或高度皆為0，則影像會縮放至完全指定的尺寸，且不會保留影像的外觀比例。 將任一值設定為0，可保留影像的外觀比例。
 
-如果 *`thickness`* 指定，如果暈映物件定義了適當的光向量，則會演算陰影。 設定 *`thickness`* 設為0以停用投影演算。
+如果指定&#x200B;*`thickness`*，如果暈映物件定義適當的光向量，則會演算陰影。 將&#x200B;*`thickness`*&#x200B;設為0以停用投影演算。
 
 ## 屬性 {#section-818e01e91fed4015951189c818ef28d8}
 
-材質屬性。 僅供貼花使用；被所有其他材料忽略。 `res=` 如果寬度或高度大於0，則會忽略該專案。 值不得為負數。
+材質屬性。 僅供貼花使用；被所有其他材料忽略。 如果寬度或高度大於0，則會忽略`res=`。 值不得為負數。
 
 ## 預設 {#section-f91f516c6af54f0eb4d8c964b923cae0}
 
-`catalog::Size` 如果貼花材質是以目錄專案為基礎；否則 `size=0,0,0`. 貼花大小的計算來源 `res=` 如果 *`wid`* 和 *`hei`* 未指定或設為0。 如果符合下列條件，則不會轉譯投影 *`thickness`* 未指定或設為0。
+如果貼花資料是以目錄專案為基礎，則為`catalog::Size`；否則`size=0,0,0`。 如果未指定&#x200B;*`wid`*&#x200B;和&#x200B;*`hei`*&#x200B;或設為0，則從`res=`計算貼花大小。 如果未指定&#x200B;*`thickness`*&#x200B;或設為0，則不會轉譯投影。
 
 ## 範例 {#section-04fdc2b60b9e4071b672bf6a913738ad}
 
@@ -49,4 +49,4 @@ ht-degree: 2%
 
 ## 另請參閱 {#section-1b116ecd60214732a1757ee1f0cf21c2}
 
-[場景座標](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-vignettes/c-ir-scene-coordinates.md#concept-528507024fa640b19a2631357febf7f1)， [res=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-res.md#reference-0ad9de8887144c83a6db97b4994f7c04)， [attribute：：Resolution](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-resolution.md#reference-09fe14e6bfbf4db6b7f4369fffecc806)
+[場景座標](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-vignettes/c-ir-scene-coordinates.md#concept-528507024fa640b19a2631357febf7f1)，[res=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-res.md#reference-0ad9de8887144c83a6db97b4994f7c04)，[屬性：：Resolution](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-resolution.md#reference-09fe14e6bfbf4db6b7f4369fffecc806)

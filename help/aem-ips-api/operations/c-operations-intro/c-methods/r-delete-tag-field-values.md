@@ -1,18 +1,18 @@
 ---
 description: 從標籤欄位的字典中移除標籤欄位值。
 solution: Experience Manager
-title: deleteTagFieldValues
+title: deleteTagFieldValue
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 2694bd6d-b1ba-4146-a155-12829d9dfa47
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '87'
-ht-degree: 13%
+ht-degree: 11%
 
 ---
 
-# deleteTagFieldValues{#deletetagfieldvalues}
+# deleteTagFieldValue{#deletetagfieldvalues}
 
 從標籤欄位的字典中移除標籤欄位值。
 
@@ -38,7 +38,7 @@ IPS API未傳回此作業的回應。
 
 ## 範例 {#section-92f9e575a6da491caa09e264b4d6ee55}
 
-**請求**
+**要求**
 
 ```java
 deleteTagFieldValuesParam xmlns="http://www.scene7.com/IpsApi/xsd/2010-01-31">
@@ -51,6 +51,6 @@ deleteTagFieldValuesParam xmlns="http://www.scene7.com/IpsApi/xsd/2010-01-31">
 </deleteTagFieldValuesParam>
 ```
 
-**回答**
+**回應**
 
 無。

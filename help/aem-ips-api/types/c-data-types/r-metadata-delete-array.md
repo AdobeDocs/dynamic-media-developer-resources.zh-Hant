@@ -1,5 +1,5 @@
 ---
-description: 要從資產中刪除的中繼資料陣列。
+description: 要從資產刪除的中繼資料陣列。
 solution: Experience Manager
 title: MetadataDeleteArray
 feature: Dynamic Media Classic,SDK/API,Metadata
@@ -14,7 +14,7 @@ ht-degree: 18%
 
 # [!DNL MetadataDeleteArray]{#metadatadeletearray}
 
-要從資產中刪除的中繼資料陣列。
+要從資產刪除的中繼資料陣列。
 
 語法
 

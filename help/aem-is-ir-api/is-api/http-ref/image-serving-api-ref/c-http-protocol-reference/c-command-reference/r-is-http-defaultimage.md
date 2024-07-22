@@ -16,34 +16,34 @@ ht-degree: 1%
 
 預設回覆影像。 指定找不到影像時要使用的影像或目錄專案。
 
-` defaultImage= *`object`*`
+` defaultImage= *`物件`*`
 
 <table id="simpletable_C1FC14B7D9AE476DB2B10EB402944335"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 物件 </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname">物件</span> </span> </p> </td> 
   <td class="stentry"> <p>影像物件。 </p> </td> 
  </tr> 
 </table>
 
-*`object`* 可以是目錄專案（包括範本）或簡單的影像檔案路徑。 可用來以預設影像取代遺失的影像。 此值會覆寫對應目錄的值 `attribute::DefaultImage`. 空白值( `defaultImage=`)停用預設影像處理。
+*`object`*&#x200B;可以是目錄專案（包括範本）或簡單的影像檔案路徑。 可用來以預設影像取代遺失的影像。 此值會覆寫對應目錄`attribute::DefaultImage`的值。 空白值( `defaultImage=`)會停用預設影像處理。
 
 >[!NOTE]
 >
 >預設影像機制不適用於SVG物件。 如果找不到請求中指定的SVG物件，則會傳回錯誤。
 
-如果 `attribute::DefaultImageMode=0`， *`object`* 會取代整個原始請求，即使多影像構成中只遺失一個影像亦然。 從原始請求中保留的命令只有： `wid=`， `hei=`， `fmt=`， `qlt=`.
+如果`attribute::DefaultImageMode=0`，*`object`*&#x200B;會取代整個原始要求，即使多影像組合中只有一個影像遺失亦然。 從原始請求保留的命令只有： `wid=`、`hei=`、`fmt=`、`qlt=`。
 
-如果 `attribute::DefaultImageMode=1`，物件僅會取代遺失的圖層影像；系統會套用遺失圖層的屬性，並照常處理及傳回複合影像。
+如果`attribute::DefaultImageMode=1`，物件只會取代遺失的圖層影像；會套用遺失圖層的屬性，並照常處理及傳回複合影像。
 
 ## 屬性 {#section-d30923d8dc4042eba10989212dd70887}
 
-要求屬性。 不論目前的圖層設定為何，皆會套用。 忽略條件 `req=` 不屬於 `img` 或 `tmb`.
+要求屬性。 不論目前的圖層設定為何，皆會套用。 如果`req=`不是`img`或`tmb`，則忽略。
 
 ## 限制 {#section-30df31bc8cac41cd917f1e45196779c2}
 
 預設影像機制未涵蓋外部影像來源；如果外部影像來源無效，則會傳回錯誤。
 
-影像伺服恢復為 `DefaultImageMode=0` 巢狀影像演算或FXG演算請求失敗時。
+巢狀影像轉譯或FXG轉譯要求失敗時，「影像伺服」會回覆為`DefaultImageMode=0`。
 
 ## 預設 {#section-0676c66b233c46a3a3a1517da4ace998}
 

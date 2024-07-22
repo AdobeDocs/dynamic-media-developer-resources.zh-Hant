@@ -16,16 +16,16 @@ ht-degree: 2%
 
 列印解析度。 覆寫內嵌在回應影像中的列印解析度值。
 
-`printRes= *`val`*`
+`printRes= *`值`*`
 
 <table id="simpletable_85C271760AE5466C96115027E6511559"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> val</span> </p> </td> 
+  <td class="stentry"> <p><span class="varname">值</span> </p> </td> 
   <td class="stentry"> <p>列印解析度(dpi)。 </p></td> 
  </tr> 
 </table>
 
-列印解析度通常由下列定義 `catalog::PrintResolution` 如果它是目錄專案，否則會以內嵌在來源影像中的列印解析度值顯示。 如果有範本或圖層複合影像，則回應檔案中內嵌的預設列印解析度是圖層編號最低的圖層影像的列印解析度。
+若是目錄專案，則列印解析度通常由`catalog::PrintResolution`定義，否則由內嵌在來源影像中的列印解析度值定義。 如果有範本或圖層複合影像，則回應檔案中內嵌的預設列印解析度是圖層編號最低的圖層影像的列印解析度。
 
 設定列印解析度不會變更回覆影像的畫素大小。
 

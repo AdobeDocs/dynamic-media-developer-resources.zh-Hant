@@ -16,21 +16,21 @@ ht-degree: 1%
 
 混合媒體檢視器的JavaScript API參考。
 
-` setAsset( *`asset`*[,data]))`
+` setAsset( *`資產`*[,data]))`
 
-設定新資產和選用的其他資產資料。 您可以隨時在之前或之後呼叫此引數 `init()`. 如果是在之後呼叫 `init()`，檢視器會在執行階段交換資產。
+設定新資產和選用的其他資產資料。 您可以隨時在`init()`之前或之後呼叫此引數。 如果在`init()`之後呼叫，檢視器會在執行階段交換資產。
 
-另請參閱 [init](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-init.md#reference-bb4428c155e541b79797f96e17c068ae).
+另請參閱[init](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-init.md#reference-bb4428c155e541b79797f96e17c068ae)。
 
 ## 參數 {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-`*`資產`*` - { `String`}新資產ID或明確混合媒體集，並於後面附加選用的影像伺服修飾元 `?`.
+`*`資產`*` - { `String`}新資產ID或明確的混合媒體集，在`?`之後附加選用的影像伺服修飾元。
 
 此檢視器不支援使用IR （影像演算）或UGC （使用者產生的內容）的影像。
 
 `*`資料`*` - { `JSON`}新註解檔案的位置。
 
-如果未指定，則不會在使用者介面中顯示註解按鈕。 使用此引數指定的註解會套用至混合媒體集中第一個出現的視訊；後續的視訊播放時不會加上註解。 此檢視器支援下列元件ID：
+如果未指定，則使用者介面中不會顯示註解按鈕。 與此引數一起指定的註解會套用至混合媒體集中第一個出現的視訊；後續的視訊播放時不會加上註解。 此檢視器支援下列元件ID：
 
 <table id="table_7B5DD9303EF44ADD847B13FFEAD135D9"> 
  <thead> 
@@ -41,12 +41,12 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 後方影像 </span> </p> </td> 
-   <td colname="col2"> <p>在視訊開始播放前第一個影格顯示的影像。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-videoplayer-posterimage.md#reference-f424ad0f278b4d14b86ea55e3a73c52b" format="dita" scope="local"> VideoPlayer.posterimage </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">後影像</span> </p> </td> 
+   <td colname="col2"> <p>在視訊開始播放前的第一個影格上顯示的影像。 </p> <p>請參閱<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-videoplayer-posterimage.md#reference-f424ad0f278b4d14b86ea55e3a73c52b" format="dita" scope="local"> VideoPlayer.posterimage </a>。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 註解 </span> </p> </td> 
-   <td colname="col2"> <p> 新註解檔案的位置。 </p> <p>如果未指定，則不會在使用者介面中顯示註解按鈕。 以此引數指定的註解會套用至媒體集中排名第一的視訊。 後續影片播放時不會加上註解。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">標題</span> </p> </td> 
+   <td colname="col2"> <p> 新註解檔案的位置。 </p> <p>如果未指定，則使用者介面中不會顯示註解按鈕。 以此引數指定的註解會套用至媒體集中排名第一的視訊。 後續影片播放時不會使用註解。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

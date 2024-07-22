@@ -1,5 +1,5 @@
 ---
-description: Responsive Image Library是一個JavaScript模組，可動態調整Dynamic Media提供並嵌入回應式網頁的影像品質。 此外，它還可改善高密度熒幕裝置上的影像品質。 資料庫也可以回應式地呈現智慧型裁切和智慧型色票的結果。
+description: 回應式影像庫是JavaScript模組，可動態調整Dynamic Media提供並嵌入回應式網頁的影像品質。 此外，它還可改善高密度熒幕裝置上的影像品質。 資料庫也可以回應式地呈現智慧型裁切和智慧型色票的結果。
 solution: Experience Manager
 title: 關於Responsive影像庫
 feature: Dynamic Media Classic,SDK/API
@@ -7,14 +7,14 @@ role: Developer,User
 exl-id: f853b9b4-917c-4744-b2a5-25fde2532356
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '804'
 ht-degree: 0%
 
 ---
 
 # 關於Responsive影像庫{#about-responsive-image-library}
 
-Responsive Image Library是一個JavaScript模組，可動態調整Dynamic Media提供並嵌入回應式網頁的影像品質。 此外，它還可改善高密度熒幕裝置上的影像品質。 資料庫也可以回應式地呈現智慧型裁切和智慧型色票的結果。
+回應式影像庫是JavaScript模組，可動態調整Dynamic Media提供並嵌入回應式網頁的影像品質。 此外，它還可改善高密度熒幕裝置上的影像品質。 資料庫也可以回應式地呈現智慧型裁切和智慧型色票的結果。
 
 ## 示範URL {#section-4f72c1dc38bf4e03acfa5205733a05a5}
 
@@ -57,7 +57,7 @@ Responsive影像庫最簡單的使用案例是定義影像寬度的中斷點值�
    <td colname="col01"> <p>5 </p> </td> 
    <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/template.html" format="https" scope="external"> https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/template.html </a> </p> <p> 
      <!--http://sasha.s7qa.com/jira-bugs/S7-7729/template.html--> </p> </td> 
-   <td colname="col2"> <p>您也可以搭配「影像伺服」範本使用「影像伺服」命令，根據影像大小控制特定範本引數。 在下個範例中，會使用「影像伺服範本」，其中文字覆蓋圖的字型大小是使用進行引數化 <span class="codeph"> $fontsize </span> 引數。 回應式影像設定為對較小的影像使用較大的字型大小，以確保文字永遠保持可讀性： </p> </td> 
+   <td colname="col2"> <p>您也可以搭配「影像伺服」範本使用「影像伺服」命令，根據影像大小控制特定範本引數。 在下個範例中，使用「影像伺服」範本，其中文字覆蓋的字型大小是使用<span class="codeph"> $fontsize </span>引數引數引數化。 回應式影像設定為對較小的影像使用較大的字型大小，以確保文字永遠保持可讀性： </p> </td> 
   </tr> 
  </tbody> 
 </table>

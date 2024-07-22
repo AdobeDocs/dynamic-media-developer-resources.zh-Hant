@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: a253ef01-19ae-4de4-a4fc-b10b28e72c00
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 7%
+source-wordcount: '94'
+ht-degree: 3%
 
 ---
 
@@ -21,8 +21,8 @@ Video360 Viewer的設定屬性。
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 值</span> </p> </td> 
-   <td colname="col2"> <p> 指定目前系統不支援自我調整視訊播放時，要從「自我調整視訊集」播放的所需視訊位元速率（以千位元/秒或kbps為單位）。 </p> <p>元件會挑選位元速率最接近（但不超過）指定值的視訊資料流。 如果「自我調整視訊集」中的所有視訊串流都具有高於指定值的品質，則邏輯會選擇品質最低的位元速率。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">值</span> </p> </td> 
+   <td colname="col2"> <p> 指定目前系統不支援自我調整視訊播放時，要從「自我調整視訊集」播放的所需視訊位元速率（以千位元/秒或kbps為單位）。 </p> <p>元件會挑選位元速率最接近（但不超過）指定值的視訊資料流。 如果「自我調整視訊集」中的所有視訊資料流都比指定的值有更高的品質，則邏輯會選擇品質最低的位元速率。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

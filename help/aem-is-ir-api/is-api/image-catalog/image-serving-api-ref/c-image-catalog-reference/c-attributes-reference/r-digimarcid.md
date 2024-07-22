@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: ac09c8cd-cb68-4b70-b1b4-9d4ca0166c7f
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '133'
 ht-degree: 3%
 
 ---
@@ -18,19 +18,19 @@ Digimarc使用者資訊。 指定Digimarc內嵌的使用者資訊。
 
 ## 屬性 {#section-1e11a36d9e0b4bf3858c4ab15fe7a272}
 
-五個或六個以逗號分隔的整數。 第三個和第四個數字已不再使用：
+五或六個逗號分隔的整數。 第三個和第四個數字已不再使用：
 
 `creator-id, creator-pin, durability [ , chroma ]`
 
-此 `creator-id` 和 `creator-pin` 由Digimarc在購買服務時提供。 未使用的值應留空。
+購買服務時，Digimarc會提供`creator-id`和`creator-pin`。 未使用的值應留空。
 
-`durability` 指定Digimarc浮水印嵌入強度。 可能是1、2、3或4，其中1表示最弱，4表示最堅固耐用。
+`durability`指定Digimarc浮水印嵌入強度。 可能是1、2、3或4,1表示最弱，4表示最耐用。
 
-設定 `chroma` 設為1，將浮水印編碼為影像的色度資料，或設為0 （預設），將浮水印編碼為明度。 輸出灰階影像時會忽略此設定。
+設定`chroma`為1可將浮水印編碼至影像的色度資料，或設為0 （預設）可將浮水印編碼至明度。 輸出灰階影像時會忽略此設定。
 
 ## 預設 {#section-d6ecb6e95a7b4232bd612834ea49e6bc}
 
-繼承自 `default::DigimarcId` 如果未定義或為空。
+如果未定義或空白，則繼承自`default::DigimarcId`。
 
 ## 範例 {#section-8469ae1c27b4461da3d53fbabc32d3c5}
 

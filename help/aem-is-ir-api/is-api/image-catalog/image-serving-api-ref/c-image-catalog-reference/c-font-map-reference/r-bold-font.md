@@ -1,5 +1,5 @@
 ---
-description: 粗體標誌。 指定當RTF粗體指令(\b)要求時，是否應使用此字型對應記錄所參考的字型檔案。
+description: 粗體旗標。 指定當RTF粗體指令(\b)要求時，是否應使用此字型對應記錄所參考的字型檔案。
 solution: Experience Manager
 title: 粗體
 feature: Dynamic Media Classic,SDK/API
@@ -8,17 +8,17 @@ exl-id: 3a39bb3b-e518-400e-8e24-0ebfb55777c4
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '67'
-ht-degree: 8%
+ht-degree: 7%
 
 ---
 
 # 粗體{#bold}
 
-粗體標誌。 指定當RTF粗體指令(\b)要求時，是否應使用此字型對應記錄所參考的字型檔案。
+粗體旗標。 指定當RTF粗體指令(\b)要求時，是否應使用此字型對應記錄所參考的字型檔案。
 
 ## 屬性 {#section-f2727dd66f7c41ee9602872a104d25b1}
 
-標幟. 字型對應的選擇性次要索引鍵。
+標幟。 字型對應的選擇性次要索引鍵。
 
 ## 預設 {#section-ee7e72f864c5463b963b4b2b513bfad7}
 

@@ -14,13 +14,13 @@ ht-degree: 9%
 
 # Swatches.scrollstep{#swatches-scrollstep}
 
-` [Swatches.|<containerId>_swatches.]scrollstep= *`步驟`*, *`vStep`*`
+` [Swatches.|<containerId>_swatches.]scrollstep= *`hStep`*, *`vStep`*`
 
 <table id="table_DC890B3CAB6847318081AC74424147B9"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> 步驟</span> </span> </p> </td> 
-   <td> <p>水準步階。 </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> hStep</span> </span> </p> </td> 
+   <td> <p>水準台階。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> <span class="varname"> vStep</span> </span> </p> </td> 
@@ -29,7 +29,7 @@ ht-degree: 9%
  </tbody> 
 </table>
 
-指定每次按一下或點選相對應的捲動按鈕時，要捲動的色票數目。
+指定每次按一下或點選對應的捲動按鈕時，要捲動的色票數目。
 
 ## 屬性 {#section-5526a5d19e7e4ee2a35b1c4816ed4202}
 

@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 6bf169ec-c724-4ac0-a2bf-67af2ebba21a
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 11%
+source-wordcount: '179'
+ht-degree: 10%
 
 ---
 
@@ -41,16 +41,16 @@ ht-degree: 11%
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
 | successCount | `xsd:int` | 是 | 已成功移除資產計數。 |
-| warningCount | `xsd:int` | 是 | 作業嘗試從專案移除資產時產生的警告數目。 |
-| errororcount | `xsd:int` | 是 | 作業嘗試從專案移除資產時產生的錯誤數。 |
+| warningcount | `xsd:int` | 是 | 作業嘗試從專案移除資產時產生的警告數目。 |
+| errororcount | `xsd:int` | 是 | 作業嘗試從專案移除資產時產生的錯誤次數。 |
 | warningDetailArray | `types:AssetOperationFaultArray` | 否 | 與資產關聯的詳細資訊陣列，在作業嘗試從專案移除資產時產生警告。 |
-| errorDetailArray | `types:AssetOperationFaultArray` | 否 | 與資產關聯的詳細資訊陣列，在操作嘗試從專案中移除資產時產生錯誤。 |
+| errorDetailArray | `types:AssetOperationFaultArray` | 否 | 與資產關聯的詳細資訊陣列，在作業嘗試從專案移除資產時產生錯誤。 |
 
 ## 範例 {#section-13546cf0a98e4e1b91b8b7cd5724ced8}
 
-此程式碼範例會從專案中移除2個資產（由專案控制代碼指定）。
+此程式碼範例從專案中移除2個資產（由專案控制代碼指定）。
 
-**請求**
+**要求**
 
 ```java
 <removeProjectAssetsParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

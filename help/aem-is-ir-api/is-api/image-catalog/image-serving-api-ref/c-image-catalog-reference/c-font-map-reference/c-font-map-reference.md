@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: b04e89ee-ae69-41c0-bd62-0929d21980c0
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 3%
+source-wordcount: '101'
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 3%
 
 「影像伺服」支援Adobe Type1、OpenType和TrueType字型。
 
-`textPs=` 也支援CID、ATC和點陣字型。
+`textPs=`也支援CID、ATC和點陣字型。
 
 * [粗體](r-bold-font.md)
 * [字型路徑](r-fontpath-font.md)

@@ -8,7 +8,7 @@ exl-id: 81af79ee-be82-439f-9f42-a1ec09cd8ea0
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '81'
-ht-degree: 18%
+ht-degree: 16%
 
 ---
 
@@ -41,9 +41,9 @@ ht-degree: 18%
 
 ## 範例 {#section-aaa340dba6b64cce9bcd8303cf999166}
 
-此程式碼範例會傳回包含屬於特定群組之所有使用者的使用者控制代碼陣列。
+此程式碼範例會傳回包含所有屬於特定群組之使用者的使用者控制代碼陣列。
 
-**請求**
+**要求**
 
 ```java
 <ns1:getGroupMembersParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">
@@ -52,7 +52,7 @@ ht-degree: 18%
 </ns1:getGroupMembersParam>
 ```
 
-**回答**
+**回應**
 
 ```java
 <getGroupMembersReturn xmlns="http://www.scene7.com/IpsApi/xsd">

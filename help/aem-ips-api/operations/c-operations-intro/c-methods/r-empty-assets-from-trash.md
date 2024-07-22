@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 36866dc8-6a16-4445-942f-d0ea3c168272
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 8%
+source-wordcount: '259'
+ht-degree: 7%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 8%
 
 清空IPS垃圾桶中的資產。
 
-資產會一直留在垃圾桶中，直到手動清空或逾時。 如果手動清空，它們會留在垃圾桶中，直到最後從系統中清除時為止（通常是在夜間）。 如果資產在垃圾桶中逾時，系統會在該清理活動中清理資產。 可設定逾時（預設為7天）。
+Assets會一直留在垃圾桶中，直到手動清空或逾時為止。 如果手動清空，它們會留在垃圾桶中，直到最終從系統中清除時進行下一個清理工作（通常是每晚）。 如果資產在垃圾桶中逾時，系統會將該資產清理為同一清理活動的一部分。 可設定逾時（預設為7天）。
 
 ## 授權的使用者型別 {#section-24dee2bf5f9f4714a64955c80f2803b4}
 
@@ -41,16 +41,16 @@ ht-degree: 8%
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
 | successCount | xsd：Int | 是 | 已成功從垃圾桶清空的資產數量。 |
-| warningCount | xsd：Int | 是 | 作業嘗試從垃圾桶清空資產時產生的警告數目。 |
-| errororcount | xsd：Int | 是 | 作業嘗試從垃圾桶清空資產時產生的錯誤數。 |
-| warningDetailArray | 型別：AssetOperationFaultArray | 否 | 與資產關聯的詳細資訊陣列，在作業嘗試從垃圾桶清空資產時產生警告。 |
+| warningcount | xsd：Int | 是 | 作業嘗試從垃圾桶清空資產時產生的警告數目。 |
+| errororcount | xsd：Int | 是 | 作業嘗試從垃圾桶清空資產時產生的錯誤次數。 |
+| warningDetailArray | 型別：AssetOperationFaultArray | 否 | 與資產關聯的詳細資訊陣列，在操作嘗試從垃圾桶清空資產時產生警告。 |
 | errorDetailArray | 型別：AssetOperationFaultArray | 否 | 與資產關聯的詳細資訊陣列，在操作嘗試從垃圾桶清空資產時產生錯誤。 |
 
 ## 範例 {#section-6154a873b6c342bf92e2036280cafdcf}
 
-此程式碼範例使用公司的控制代碼和資產控制代碼陣列，其中包含要從垃圾桶清空的資產控制代碼。
+此程式碼範例使用公司的控制代碼和資產控制代碼陣列，該陣列包含要從垃圾桶清空之資產的控制代碼。
 
-**請求**
+**要求**
 
 ```java
 <emptyAssetsFromTrashParam xmlns="http://www.scene7.com/IpsApi/xsd/2023-01-15">
@@ -62,7 +62,7 @@ ht-degree: 8%
 </emptyAssetsFromTrashParam>
 ```
 
-**回答**
+**回應**
 
 ```java
 <emptyAssetsFromTrashReturn xmlns="http://www.scene7.com/IpsApi/xsd/2023-01-15">

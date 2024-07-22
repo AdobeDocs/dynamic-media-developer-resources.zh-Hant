@@ -19,8 +19,8 @@ ht-degree: 4%
 <table id="table_95890560230C48BBB03A8082F56382CA"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> left|center|right</span> </p> </td> 
-   <td> <p> 指定元件區域中縮圖容器的內部水準對齊（錨點）。 在ThumbnailGridView中，內部縮圖容器的大小會調整為只顯示整數的縮圖。 因此，內部容器和外部元件邊界間會有一段邊距。 此修飾元可指定在元件中擺放內部縮圖容器的水平位置。 </p> </td> 
+   <td> <p> <span class="codeph">靠左|置中|靠右</span> </p> </td> 
+   <td> <p> 指定元件區域中縮圖容器的內部水準對齊（錨點）。 在ThumbnailGridView中，內部縮圖容器的大小會調整為只顯示整數的縮圖。 因此，內部容器和外部元件邊界間會有一段邊距。 此修飾元會指定在元件中擺放內部縮圖容器的水平位置。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

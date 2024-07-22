@@ -1,7 +1,7 @@
 ---
-description: 位址篩選元素。 選填於 <rule> 和 <pathrule> 元素。
+description: 位址篩選器元素。 <rule>和<pathrule>元素中的選用專案。
 solution: Experience Manager
-title: 地址篩選器
+title: addressfilter
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: fe5df3a8-c9b2-4fad-ab9f-ca0b06016faf
@@ -12,11 +12,11 @@ ht-degree: 7%
 
 ---
 
-# 地址篩選器{#addressfilter}
+# addressfilter{#addressfilter}
 
-位址篩選元素。 選填於 `<rule>` 和 `<pathrule>` 元素。
+位址篩選器元素。 `<rule>`和`<pathrule>`專案中的選用專案。
 
-覆寫 `attribute::ClientAddressFilter` 套用規則時。
+套用規則時覆寫`attribute::ClientAddressFilter`。
 
 ## 屬性 {#section-31e9ad29e9934933ac154bccbc729172}
 
@@ -24,15 +24,15 @@ ht-degree: 7%
 
 ## 資料 {#section-c762bdfe425140d689ea5abf25e9a48a}
 
-IP位址的逗號分隔清單。 每個個別位址都可包含選用的網路遮罩字尾，以指定IP位址範圍。 如需詳細資訊，請參閱`attribute::ClientAddressFilter`。
+IP位址的逗號分隔清單。 每個個別位址都可包含選用的網路遮罩尾碼，以便指定IP位址範圍。 如需詳細資訊，請參閱`attribute::ClientAddressFilter`。
 
 ## 說明 {#section-d561b2485e004ef8a2085997d0f4bca6}
 
-您可以透過在中指定一個或多個特定使用者端IP位址，來限制對此影像目錄的存取 `<addressfilter>` 元素。 如果使用者端IP位址不相符，則會傳回「請求被拒絕」錯誤給使用者端。
+在`<addressfilter>`元素中指定這些位址，可限制存取此影像目錄，使其只能存取一或多個特定使用者端IP位址。 如果使用者端IP位址不符，則會傳回「已拒絕要求」錯誤給使用者端。
 
-如果符合下列條件，則不會限制存取 `<addressfilter>` 為空白或未指定。
+如果`<addressfilter>`為空白或未指定，則不會限制存取。
 
-如果 `<expression>` 在 `<rule>` 元素不存在或空白， `<addressfilter>` 會套用至所有要求。
+如果`<rule>`專案中的`<expression>`不存在或空白，則會將`<addressfilter>`套用至所有要求。
 
 ## 另請參閱 {#section-6f51ec2218d9450bb7642f9fdad1988a}
 

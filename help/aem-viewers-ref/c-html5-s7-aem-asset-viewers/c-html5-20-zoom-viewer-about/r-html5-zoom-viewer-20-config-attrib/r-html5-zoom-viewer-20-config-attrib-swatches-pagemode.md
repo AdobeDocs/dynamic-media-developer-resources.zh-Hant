@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 7ba10df0-9e3e-4c31-9bd6-4d0e6feb7e75
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 6%
+source-wordcount: '65'
+ht-degree: 4%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 6%
 <table id="table_52306D2150BC4EE2BD4CE4C718E96CC0"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 切換時，捲動按鈕會自動讓色票跳至一頁的長度。 </p> <p>如果色票不合適，會在最後一頁顯示額外的空白字元。 此外，最後一頁的儲存格數也與任何上一頁相同。 </p> <p>捲動步驟會被忽略，滑鼠捲動功能只會在完整頁面上設定。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
+   <td colname="col2"> <p> 切換時，捲動按鈕會自動讓色票跳至一頁的長度。 </p> <p>如果色票大小不符，會在最後一頁顯示多餘的空白字元。 此外，最後一頁的儲存格數與任何上一頁相同。 </p> <p>捲動步驟會被忽略，且滑鼠捲動只適用於完整頁面。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,22 +1,22 @@
 ---
-description: 資產類型. 用於識別發佈至目錄ImageSet的集型別。
+description: 資產型別。 用於識別發佈至目錄ImageSet的集型別。
 solution: Experience Manager
-title: AssetType
+title: 資產型別
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 84530842-4d2a-402a-b94b-45356cec5dc1
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 13%
+source-wordcount: '75'
+ht-degree: 5%
 
 ---
 
-# AssetType{#assettype}
+# 資產型別{#assettype}
 
-資產類型. 用於識別發佈至catalog：：ImageSet的集型別。
+資產型別。 用於識別發佈至catalog：：ImageSet的集型別。
 
-資產型別會決定要產生的回應型別 `req=set` 要求。 如果未指定值，自動偵測規則會判斷 `req=set` 回應型別。
+資產型別會決定要為`req=set`個要求產生哪種回應型別。 如果未指定值，則自動偵測規則會決定`req=set`回應型別。
 
 ## 屬性 {#properties}
 
@@ -40,4 +40,4 @@ ECATALOG
 
 ## 另請參閱 {#section-235f9f5522024d3682ee7cc0101eb7ba}
 
-[catalog：：Imageset](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md#reference-4764d347afd64afdaede9a74c7565256) ， [req=set](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md)， [媒體集請求](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-media-set-requests.md)
+[目錄：：ImageSet](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md#reference-4764d347afd64afdaede9a74c7565256) ， [req=set](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md)， [媒體集要求](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-media-set-requests.md)

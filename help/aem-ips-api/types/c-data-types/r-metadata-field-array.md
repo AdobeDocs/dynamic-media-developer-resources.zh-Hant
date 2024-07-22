@@ -1,5 +1,5 @@
 ---
-description: 中繼資料欄位的陣列
+description: 中繼資料欄位陣列
 solution: Experience Manager
 title: MetadataFieldArray
 feature: Dynamic Media Classic,SDK/API,Metadata
@@ -14,7 +14,7 @@ ht-degree: 30%
 
 # [!DNL MetadataFieldArray]{#metadatafieldarray}
 
-中繼資料欄位的陣列
+中繼資料欄位陣列
 
 語法
 

@@ -1,28 +1,28 @@
 ---
 title: getComponent
-description: Video360檢視器的JavaScript API參考。
+description: Video360 Viewer的JavaScript API參考。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: bc5f0046-8e20-4ff0-a90f-05c38f686ad2
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '192'
 ht-degree: 1%
 
 ---
 
 # getComponent{#getcomponent}
 
-Video360檢視器的JavaScript API參考。
+Video360 Viewer的JavaScript API參考。
 
 `getComponent(componentId)`
 
-傳回檢視器所使用之檢視器SDK元件的參考。 網頁可以使用此方法來延伸或自訂現成可用的檢視器的行為。 只有在下列動作之後，才呼叫此方法： `initComplete` 檢視器回呼已執行，否則檢視器邏輯可能尚未建立元件。
+傳回檢視器所使用之檢視器SDK元件的參考。 網頁可使用此方法來延伸或自訂現成可用的檢視器的行為。 只有在執行`initComplete`檢視器回呼之後，才呼叫此方法，否則檢視器邏輯可能尚未建立元件。
 
 ## 參數 {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-`*`componentID`*` - `{String}` 檢視器使用的Viewer SDK元件ID。 此檢視器支援下列元件ID：
+`*`componentID`*` - `{String}`檢視器所使用的檢視器SDK元件識別碼。 此檢視器支援下列元件ID：
 
 <table id="table_7B5DD9303EF44ADD847B13FFEAD135D9"> 
  <thead> 
@@ -33,15 +33,15 @@ Video360檢視器的JavaScript API參考。
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 引數管理員 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> parameterManager </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.ParameterManager </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 容器 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">容器</span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.common.Container </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mediaSet </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">媒體集</span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.set.MediaSet </span> </p> </td> 
   </tr> 
   <tr> 
@@ -69,7 +69,7 @@ Video360檢視器的JavaScript API參考。
    <td colname="col2"> <p> <span class="codeph"> s7sdk.video.VideoTime </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 控制項 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">控制項</span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ControlBar </span> </p> </td> 
   </tr> 
   <tr> 
@@ -89,19 +89,19 @@ Video360檢視器的JavaScript API參考。
    <td colname="col2"> <p> <span class="codeph"> s7sdk.share.LinkShare </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> embedShare </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">內嵌共用</span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sk.share.EmbedShare </span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-使用SDK API時，請務必使用正確的完整SDK名稱空間，如中所述 [檢視器SDK名稱空間](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-viewer-sdk-namespace.md#concept-4ee8657c7d67421f8e7880130a246621).
+使用SDK API時，請務必使用正確的完整SDK名稱空間，如[檢視器SDK名稱空間](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-viewer-sdk-namespace.md#concept-4ee8657c7d67421f8e7880130a246621)所述。
 
-請參閱 *HTML5檢視器SDK API* 檔案，以取得特定元件的詳細資訊。
+如需特定元件的詳細資訊，請參閱&#x200B;*HTML5檢視器SDK API*&#x200B;檔案。
 
 ## 傳回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-此 `{Object}` 是檢視器SDK元件的參考。 方法會傳回 `null` 如果 `componentId` 不是支援的檢視器元件，或是檢視器邏輯尚未建立元件。
+`{Object}`是檢視器SDK元件的參考。 如果`componentId`不是支援的檢視器元件，或檢視器邏輯尚未建立元件，則方法會傳回`null`。
 
 ## 範例 {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

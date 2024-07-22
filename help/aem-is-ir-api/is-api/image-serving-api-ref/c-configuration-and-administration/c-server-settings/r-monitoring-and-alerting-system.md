@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## AS：：monitorAlertGenerator.enableGlobalAlerting — 警報系統啟用 {#section-612f8ea61794426ab205e22e5f665fa9}
 
-將設為「true」並設定電子郵件通知設定，以啟用電子郵件通知。 將設定為 `false` 關閉所有電子郵件警示 — 這在讓伺服器離線以進行維護時非常有用。 布林值。
+將設為「true」並設定電子郵件通知設定，以啟用電子郵件通知。 設定為`false`會關閉所有電子郵件警示 — 這在讓伺服器離線進行維護時非常有用。 布林值。
 
 ## AS：：mailSender.host - SMTP主機 {#section-151df07e7b44446581339bb7abeeba7a}
 
@@ -34,7 +34,7 @@ SMTP電子郵件伺服器的接聽連線埠。
 
 ## AS：：monitorAlertGenerator.messageFrom — 訊息寄件者 {#section-db320cba4ac2438ca1cfe6abce4aed87}
 
-應在「 」中使用的電子郵件地址 **[!UICONTROL 從]** 電子郵件欄位。
+應在&#x200B;**[!UICONTROL 寄件者]**&#x200B;電子郵件欄位中使用的電子郵件地址。
 
 ## AS：：monitorAlertGenerator.alertInterval — 監督間隔 {#section-99cb2e3380c1499e9d5aec3671ed73c7}
 

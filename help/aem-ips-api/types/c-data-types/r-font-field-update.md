@@ -1,7 +1,7 @@
 ---
 description: 更新字型屬性的資訊。
 solution: Experience Manager
-title: FontFieldUpdate
+title: 字型欄位更新
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9e7b90d6-78da-48ff-8dff-9def3c32e3bc
@@ -27,6 +27,6 @@ ht-degree: 9%
 | postscriptName | `xsd:string` | PostScript字型名稱。 |
 | rtfName | `xsd:string` | RTF字型名稱。 |
 | [!DNL fontFamily] | `xsd:string` | 字型系列名稱。 |
-| [!DNL style] | `xsd:string` | 字型樣式（請參閱字型樣式以瞭解值）。 |
+| [!DNL style] | `xsd:string` | 字型樣式（請參閱值的字型樣式）。 |
 | typeName | `xsd:string` | 字型型別名稱。 |
 | [!DNL type] | `xsd:string` | 字型型別（請參閱值的字型型別）。 |

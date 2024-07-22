@@ -8,7 +8,7 @@ exl-id: 642c82d1-aea1-4430-a599-b526fdbc8091
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 14%
+ht-degree: 3%
 
 ---
 
@@ -22,13 +22,13 @@ MediaPortal事件。
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 事件型別 | `xsd:string` | Media Portal事件型別。 |
+| eventtype | `xsd:string` | Media Portal事件型別。 |
 | createDate | `xsd:dateTime` | 事件建立日期。 |
 | ipsUser | `xsd:string` | 觸發事件的系統或使用者。 |
 | companyId | `xsd:int` | 公司ID。 |
 | companyName | `xsd:string` | 公司名稱。 |
 | jobName | `xsd:string` | 唯一的工作名稱。 |
-| jobDescription | `xsd:string` | 對工作有用的說明。 |
+| 工作說明 | `xsd:string` | 對工作有用的說明。 |
 | string1 | `xsd:string` | 字串資訊的持有者（選擇性）。 |
 | string2 | `xsd:string` | 字串資訊的持有者（選擇性）。 |
 | string3 | `xsd:string` | 字串資訊的持有者（選擇性）。 |

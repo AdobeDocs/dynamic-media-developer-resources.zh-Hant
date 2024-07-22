@@ -17,7 +17,7 @@ ht-degree: 25%
 本節說明影像資料屬性。
 
 * [錨點](r-anchor-cat.md)
-* [AssetType](r-assettype-cat.md)
+* [資產型別](r-assettype-cat.md)
 * [DigimarcInfo](r-digimarcinfo-cat.md)
 * [過期](r-expiration-cat.md)
 * [Id](r-id-cat.md)

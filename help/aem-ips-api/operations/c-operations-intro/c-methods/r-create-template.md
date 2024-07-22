@@ -8,7 +8,7 @@ exl-id: 228b4228-8c42-4e42-9fb1-d6aea61b9c4a
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '190'
-ht-degree: 11%
+ht-degree: 10%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 11%
 
 建立可以包含多個文字和影像圖層的圖層影像。
 
-此 `urlModifier` parameter指定儲存在URL上任何使用者提供的命令之前，套用在「影像伺服器」目錄中的「影像伺服器」通訊協定命令。 此 `urlPostApplyModifier` parameter指定在任何URL命令之後套用的通訊協定命令，這會覆寫任何衝突的使用者提供的設定。
+`urlModifier`引數會指定儲存在影像伺服器目錄中的影像伺服器通訊協定命令，這些命令會先於使用者在URL上提供的任何命令套用。 `urlPostApplyModifier`引數指定在任何URL命令之後套用的通訊協定命令，這會覆寫任何衝突的使用者提供的設定。
 
 ## 授權的使用者型別 {#section-9fb615d8e75f452eab2893cc3decfbe6}
 
@@ -47,9 +47,9 @@ ht-degree: 11%
 
 ## 範例 {#section-09adb4d2f0c944af875c4463a461f55d}
 
-此程式碼範例會在控制代碼指定的資料夾中建立範本，名稱為 `APIcreateTemplate`， a `urlModifier`，和 `urlPostApplyModifier`. 回應會將控制代碼傳回至新建立的範本。
+這個程式碼範例會在控制代碼指定的資料夾中建立範本，名稱為`APIcreateTemplate`、`urlModifier`和`urlPostApplyModifier`。 回應會將控制代碼傳回至新建立的範本。
 
-**請求**
+**要求**
 
 ```java
 <createTemplateParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">
@@ -62,7 +62,7 @@ ht-degree: 11%
 </createTemplateParam>
 ```
 
-**回答**
+**回應**
 
 ```java
 <createTemplateReturn xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

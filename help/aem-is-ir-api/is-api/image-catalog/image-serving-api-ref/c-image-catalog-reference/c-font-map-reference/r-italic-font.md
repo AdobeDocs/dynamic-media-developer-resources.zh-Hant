@@ -8,7 +8,7 @@ exl-id: 46575243-4472-44fe-89ce-30d9c875c7d2
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '44'
-ht-degree: 13%
+ht-degree: 11%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 13%
 
 斜體標幟。
 
-指定在RTF斜體字請求時，是否應使用此字型對應記錄所參考的字型檔案( `\i`)命令。
+指定當RTF斜體( `\i`)命令要求時，是否應使用此字型對應記錄參考的字型檔案。
 
 ## 屬性 {#section-607e76490e87418496d1c6763018a14f}
 
-標幟. 字型對應的選擇性第三索引鍵。
+標幟。 字型對應的選擇性第三索引鍵。
 
 ## 預設 {#section-0b88057d00ce4160929c23fbf138b309}
 

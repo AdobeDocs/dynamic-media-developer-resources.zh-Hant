@@ -28,6 +28,6 @@ ht-degree: 12%
 | y位置 | `xsd:int` | 縮放目標的Y位置。 |
 | 寬度 | `xsd:int` | 縮放目標寬度。 |
 | 高度 | `xsd:int` | 縮放目標高度。 |
-| userData | `xsd:string` | 與縮放目標相關聯的使用者資料。 |
+| 使用者資料 | `xsd:string` | 與縮放目標相關聯的使用者資料。 |
 | 位置 | `xsd:int` | 允許根據位置排序與資產相關聯的縮放目標 |
-| lastModified | `xsd:dateTime` | 上次修改日期。 |
+| lastModified | `xsd:dateTime` | 上次修改的日期。 |

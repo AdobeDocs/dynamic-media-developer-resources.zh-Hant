@@ -16,25 +16,25 @@ ht-degree: 4%
 
 套用旗標。 指定其他演算選項。
 
-`flags= *`val`*`
+`flags= *`值`*`
 
 <table id="simpletable_00B21BD9E47E4D2FB0042CB507431916"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> val</span> </p> </td> 
+  <td class="stentry"> <p><span class="varname">值</span> </p> </td> 
   <td class="stentry"> <p>標幟值。 </p></td> 
  </tr> 
 </table>
 
 目前僅用於機櫃材料。
 
-`flags=0` （預設）呈現具有實體門的上方機櫃。
+`flags=0` （預設）呈現帶有實心門的上方機櫃。
 
-`flags=1` 呈現有玻璃門的上層機櫃（如果暈映是由玻璃門所創作）。
+`flags=1`呈現上方的玻璃門（如果暈映是由玻璃門所創作）。
 
 ## 屬性 {#section-a2b00d7bb15e449ea85178acb92d8285}
 
-材質屬性。 若非機櫃材料或目標機櫃物件不允許玻璃門，則忽略此項。
+材質屬性。 若不是機櫃材料，或目標機櫃物件不允許玻璃門，則忽略此項。
 
 ## 預設 {#section-4c134b02a1da4ffb9841233f98f6e97c}
 
-`flags=0` 無玻璃門。
+`flags=0`無玻璃門。

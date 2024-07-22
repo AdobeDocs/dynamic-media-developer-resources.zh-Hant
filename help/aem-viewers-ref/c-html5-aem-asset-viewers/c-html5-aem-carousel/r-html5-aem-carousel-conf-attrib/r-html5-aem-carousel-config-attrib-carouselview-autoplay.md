@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 43b5c169-0ef6-4a12-a777-d36c1a8d1771
 source-git-commit: 5a7af31d6788ded908a5e1630a3b1b0723e6fb4b
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '73'
 ht-degree: 4%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">[0|1][，duration][，direction]</span> </p> </td> 
-   <td colname="col2"> <p> 指定開啟/關閉、在輪播中顯示每個橫幅的持續時間以及自動回圈的方向。 </p> <p>設定為 <span class="codeph"> 0</span> 關閉自動回圈。 </p> <p>設定 <span class="codeph"> 1</span> 開啟以秒為單位之轉換持續時間的自動回圈，控制方式為 <span class="codeph"> 持續時間</span>. </p> <p>自動回圈的方向由控制 <span class="codeph"> 方向</span>. 此 <span class="codeph"> 方向</span> 範圍介於 <span class="codeph"> 1</span> 由右至左和 <span class="codeph"> 0</span> 由左至右。 </p> </td> 
+   <td colname="col2"> <p> 指定開啟/關閉、在輪播中顯示每個橫幅的持續時間以及自動回圈的方向。 </p> <p>設定為<span class="codeph"> 0</span>以關閉自動回圈。 </p> <p>設定<span class="codeph"> 1</span>以開啟自動回圈，並由<span class="codeph">持續時間</span>控制轉換持續時間（以秒為單位）。 </p> <p>自動回圈的方向是以<span class="codeph">方向</span>控制。 <span class="codeph">方向</span>的範圍介於<span class="codeph"> 1</span>由右至左和<span class="codeph"> 0</span>由左至右之間。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

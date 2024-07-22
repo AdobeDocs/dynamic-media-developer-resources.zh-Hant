@@ -93,7 +93,7 @@ ht-degree: 17%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>18 </p></td> 
-  <td class="stentry"> <p>透明織物 </p></td> 
+  <td class="stentry"> <p>薄紗 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>19 </p></td> 
@@ -101,16 +101,16 @@ ht-degree: 17%
  </tr> 
 </table>
 
-搭配使用 `gloss=` 和 `rough=` 控制反射和光澤效果行為。 不同的材質會產生不同的效果，即使 `gloss=` 和 `rough=` 相同。
+與`gloss=`和`rough=`搭配使用，以控制反射和光澤效果行為。 不同的材質會產生不同的效果，即使`gloss=`和`rough=`相同。
 
 ## 屬性 {#section-2345b2508273426295ce8ac46182ea64}
 
-材質屬性。 如果暈映不包含3D反射資料，或在暈映中停用光澤效果，則忽略。
+材質屬性。 如果暈映不包含3D反射資料，或暈映中停用光澤效果，則忽略此項。
 
 ## 預設 {#section-0989055fb74a41a3b2f2a47fe7d90a42}
 
-`catalog::Type` 如果材料是以型錄專案為基礎。 否則 `type=0`. 若未指定，或 `type=0`時，伺服器會根據目標物件和其他材質屬性，選取合適的預設值。
+`catalog::Type`如果資料是以目錄專案為基礎。 否則`type=0`。 若未指定，或若為`type=0`，則伺服器會根據目標物件及其他材質屬性，選取適當的預設值。
 
 ## 另請參閱 {#section-7cf808b0bb3d4b4fbb7b9a850d5a038b}
 
-[光澤=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca) ， [粗加工=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180)
+[光澤=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca) ， [粗糙=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180)

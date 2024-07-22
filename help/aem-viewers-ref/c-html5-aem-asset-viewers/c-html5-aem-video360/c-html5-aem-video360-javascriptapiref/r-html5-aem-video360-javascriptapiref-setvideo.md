@@ -18,9 +18,9 @@ Video360檢視器的JavaScript API參考
 
 `setVideo(videoUrl)`
 
-設定新的外部視訊。 可以隨時呼叫，無論是在之前還是之後 `init()`. 若在之後呼叫 `init()`，檢視器會在執行階段交換視訊。
+設定新的外部視訊。 可以隨時呼叫，在`init()`之前和之後。 若在`init()`之後呼叫，檢視器會在執行階段交換視訊。
 
-另請參閱 [init](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-init.md#reference-3b570ba8b35045d6b30fb178c21a66c6).
+另請參閱[init](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-init.md#reference-3b570ba8b35045d6b30fb178c21a66c6)。
 
 ## 參數 {#section-b6affc90b3a84584b684641c86862e01}
 
@@ -28,7 +28,7 @@ Video360檢視器的JavaScript API參考
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> videoUrl </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> 字串</span>}新視訊的絕對URL。 </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph">字串</span>}新視訊的絕對URL。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

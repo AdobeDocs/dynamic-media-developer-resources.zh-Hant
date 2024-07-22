@@ -8,7 +8,7 @@ exl-id: 0a355a34-1c2d-48c1-ba12-7d07d1673d09
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '96'
-ht-degree: 13%
+ht-degree: 11%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 13%
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
 | userHandle | `xsd:string` | 否 | 您要設定其群組成員資格之使用者的控制代碼。 |
-| companyHandle | `xsd:string` | 否 | 公司控點。 |
+| companyHandle | `xsd:string` | 否 | 公司控制代碼。 |
 | groupHandleArray | `types:HandleArray` | 是 | 使用者所屬群組的控制代碼陣列。 |
 
 **輸出(setGroupMembershipReturn)**
@@ -42,7 +42,7 @@ IPS API未傳回此作業的回應。
 
 此程式碼範例將使用者設為群組的成員。 使用群組控制代碼陣列將使用者新增至多個群組。
 
-**請求**
+**要求**
 
 ```java
 <ns1:setGroupMembershipParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">
@@ -54,6 +54,6 @@ IPS API未傳回此作業的回應。
 </ns1:setGroupMembershipParam>
 ```
 
-**回答**
+**回應**
 
 無。

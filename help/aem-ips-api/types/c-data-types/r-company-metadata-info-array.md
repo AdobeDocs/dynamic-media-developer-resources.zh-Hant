@@ -22,5 +22,5 @@ CompanyMetadataInfo元素的陣列。
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 程式碼片語 | `Code Phrase` |  |
-| 程式碼片語 | `Code Phrase` |  |
+| 程式碼片語 | `Code Phrase` | |
+| 程式碼片語 | `Code Phrase` | |

@@ -1,5 +1,5 @@
 ---
-description: 移除所選資產的許可權。
+description: 從選取的資產移除許可權。
 solution: Experience Manager
 title: removeAssetPermissions
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -8,13 +8,13 @@ exl-id: c47d9853-91b1-45fe-b8ff-aaa1239ca0d1
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '68'
-ht-degree: 17%
+ht-degree: 14%
 
 ---
 
 # removeAssetPermissions{#removeassetpermissions}
 
-移除所選資產的許可權。
+從選取的資產移除許可權。
 
 語法
 
@@ -39,9 +39,9 @@ IPS API未傳回此作業的回應。
 
 ## 範例 {#section-238fa7bb091548f5ba72ced11fc92d4f}
 
-此程式碼範例會從資產中移除許可權。
+此程式碼範例從資產中移除許可權。
 
-**請求**
+**要求**
 
 ```java
 <ns1:removeAssetPermissionsParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">
@@ -50,6 +50,6 @@ IPS API未傳回此作業的回應。
 </ns1:removeAssetPermissionsParam>
 ```
 
-**回答**
+**回應**
 
 無。

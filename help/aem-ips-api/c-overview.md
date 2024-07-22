@@ -8,7 +8,7 @@ exl-id: c03e415f-57eb-4706-a17c-68d8469fba91
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
 source-wordcount: '146'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -26,7 +26,6 @@ IPS API使用標準SOAP和HTTP通訊協定，並與符合這些標準的任何�
 >
 >* [IPS Web服務WSDL版本](c-wsdl-versions.md#concept-aff3e13f3b59486882260b5f2e962226)
 >* [操作方法](operations/c-operations-intro/c-methods/c-methods.md)
->* [資料類型](types/c-data-types/c-data-types.md#concept-dcf2ce73ff334e22bc4c634e3a0a50a6)
+>* [資料型別](types/c-data-types/c-data-types.md#concept-dcf2ce73ff334e22bc4c634e3a0a50a6)
 >* [字串常數](string-constants/c-string-constants/c-string-constants.md)
 >* [錯誤](faults/c-faults/c-faults.md#concept-28c5e495f39443ecab05384d8cf8ab6b)
-

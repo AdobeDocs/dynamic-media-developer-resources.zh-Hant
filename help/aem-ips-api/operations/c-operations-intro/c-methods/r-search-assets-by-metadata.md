@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: a0e01edb-c52b-436d-a166-e24cc6861c49
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 11%
+source-wordcount: '334'
+ht-degree: 7%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 11%
 
 搜尋指定搜尋詞的中繼資料索引儲存區域。 傳回資產資料，如searchAssets方法。
 
-當 `searchAssetsByMetadata` 可讓您根據使用者定義的中繼資料欄位進行搜尋，若在中指定這些欄位，則不會傳回這些欄位 `responseMetadataArray`. 為了說明這一點，以下程式碼範例將說明這一點：
+雖然`searchAssetsByMetadata`可讓您搜尋使用者定義的中繼資料欄位，但若在`responseMetadataArray`中指定這些欄位，則不會傳回這些欄位。 為了說明這一點，以下程式碼範例將說明這一點：
 
 ```java
 <ns:responseMetadataArray>
@@ -33,7 +33,7 @@ ht-degree: 11%
 </items>
 ```
 
-若要解決此問題，您可以使用 `fieldHandles` 從搜尋傳回要執行的資產的 `getAssets` (另請參閱 [getAssets](../../../operations/c-operations-intro/c-methods/r-get-assets.md#reference-adad4f504f684d3dabc09e093b8511ca))。 此方法會取得相關資產的使用者定義欄位值。 使用下列語法範例來搜尋使用者定義的中繼資料欄位：
+若要解決此問題，您可以使用搜尋傳回的資產的`fieldHandles`來執行`getAssets` （另請參閱[getAssets](../../../operations/c-operations-intro/c-methods/r-get-assets.md#reference-adad4f504f684d3dabc09e093b8511ca)）。 此方法會取得相關資產的使用者定義欄位值。 使用下列語法範例來搜尋使用者定義的中繼資料欄位：
 
 ```java
 <ns:metadataConditionArray>
@@ -71,49 +71,49 @@ ht-degree: 11%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd：string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
    <td colname="col4"> <p>公司的控制代碼。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> 篩選</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> type：SearchFilter</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname">篩選器</span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph">型別：SearchFilter</span> </p> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>可協助您定義搜尋條件的篩選器。 </p> <p>另請參閱 <a href="../../../types/c-data-types/r-search-filter.md#reference-0e2eb87bccae4b69be6717267bcb80aa" format="dita" scope="local"> SearchFilter</a>. </p> </td> 
+   <td colname="col4"> <p>可協助您定義搜尋條件的篩選器。 </p> <p>請參閱<a href="../../../types/c-data-types/r-search-filter.md#reference-0e2eb87bccae4b69be6717267bcb80aa" format="dita" scope="local"> SearchFilter</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> metadataConditionArray</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> type：MetadataConditionArray</span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph">型別：MetadataConditionArray</span> </p> </td> 
    <td colname="col3"> <p>否 </p> </td> 
    <td colname="col4"> <p>定義搜尋條件的條件。 如需詳細資訊，請參閱下文。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> responseMetadataArray</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> type：StringArray</span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph">型別：StringArray</span> </p> </td> 
    <td colname="col3"> <p>否 </p> </td> 
    <td colname="col4"> <p>您要在資產摘要的回應中填入的其他欄位。 欄位必須以標準化格式指定。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> recordsPerPage</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd：int</span> </p> </td> 
    <td colname="col3"> <p>否 </p> </td> 
    <td colname="col4"> <p>回應傳回的資產數量。 預設值為 1000。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> xsd:int</span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname">個結果頁面</span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> xsd：int</span> </p> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>指定要傳回的結果頁面，根據 <span class="codeph"> recordsPerPage</span> 頁面大小。 </p> </td> 
+   <td colname="col4"> <p>根據<span class="codeph"> recordsPerPage</span>頁面大小，指定要傳回的結果頁面。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> sortby</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> sortBy</span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> xsd：string</span> </p> </td> 
    <td colname="col3"> <p>否 </p> </td> 
    <td colname="col4"> <p>依選取的資產欄位排序。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> sortDirection</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd：string</span> </p> </td> 
    <td colname="col3"> <p>否 </p> </td> 
    <td colname="col4"> <p>選擇排序方向。 預設值為升序。 </p> </td> 
   </tr> 
@@ -124,14 +124,14 @@ ht-degree: 11%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| totalRows | `xsd:int` | 否 | 相符專案的數量。 |
+| totalRows | `xsd:int` | 否 | 相符數。 |
 | assetArray | `types:AssetArray` | 否 | 搜尋傳回的資產陣列。 |
 
 ## metadataConditionArray詳細資料 {#section-1af4a4a22f82451eabdf6dfe13d9f27d}
 
 **專案結構**
 
-`metadataConditionArray` 結構如下：
+`metadataConditionArray`結構如下：
 
 ```java
 <ns1:items>
@@ -143,7 +143,7 @@ ht-degree: 11%
 
 **值**
 
-`field_handle` 是中繼資料搜尋索引鍵。 其中可包含點標籤法。 可能的值包括：
+`field_handle`是中繼資料搜尋索引鍵。 其中可包含點標籤法。 可能的值包括：
 
 * `asset_id` （沒有前置詞）
 * `name`
@@ -156,13 +156,13 @@ ht-degree: 11%
 * `sku`
 * `modified_at`
 * `modified_by`
-* `created_at` (與 `modified_at` (日期格式： 2014年7月25日星期五22:13:45 GMT-0500 （中部夏令時間）
+* `created_at` (與`modified_at`相同(日期格式為：2014年7月25日星期五22:13:45 GMT-0500 (CDT))
 
 * `created_by`
 
 **允許的運運算元**
 
-此 [!DNL operator] 定義如何比較值並包含：
+[!DNL operator]定義如何比較值並包含：
 
 * `Equals`
 * `NotEquals`
@@ -171,17 +171,17 @@ ht-degree: 11%
 * `StartsWith`
 * `EndsWith`
 
-此 `comparison_value` 是要搜尋的字詞。
+`comparison_value`是要搜尋的字詞。
 
 ## 範例 {#section-53a12b9c023e4e629eddf5719c955ad4}
 
 此程式碼範例會使用下列中繼資料條件來執行搜尋：
 
-* `name` 欄位包含 `1000801`.
+* `name`欄位包含`1000801`。
 
-* `dc.rights` 欄位等於 `Per Jessen Schmidt`.
+* `dc.rights`欄位等於`Per Jessen Schmidt`。
 
-**請求**
+**要求**
 
 ```java
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
@@ -217,7 +217,7 @@ xmlns:ns="http://www.scene7.com/IpsApi/xsd/2010-01-31">
 </soapenv:Envelope>
 ```
 
-**回答**
+**回應**
 
 ```java
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">

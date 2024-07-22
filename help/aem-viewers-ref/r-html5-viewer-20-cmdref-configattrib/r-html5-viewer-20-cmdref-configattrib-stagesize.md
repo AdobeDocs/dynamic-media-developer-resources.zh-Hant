@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 3f93b479-f5da-47a0-b80c-c23c1460e8e1
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '59'
 ht-degree: 6%
 
 ---
@@ -16,15 +16,15 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->此屬性適用於「縮放檢視器」、「視訊檢視器」、「迴轉檢視器」、「互動式影像檢視器」、「互動式視訊檢視器」和「轉盤檢視器」。
+>此屬性適用於「縮放檢視器」、「視訊檢視器」、「迴轉檢視器」、「互動影像檢視器」、「互動視訊檢視器」和「轉盤檢視器」。
 
 `stageSize= *`寬度`*, *`高度`*`
 
 <table id="table_0070E5402099428DBEA2A900CADB2BAA"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> 寬度</span>，<span class="varname"> 高度</span></span> </p> </td> 
-   <td colname="col2"> <p> 檢視器的整體寬度和高度。 的值 <span class="codeph"> 0,0</span> 表示檢視器的大小會根據CSS規則和網頁版面配置而定。 </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname">寬度</span>，<span class="varname">高度</span></span> </p> </td> 
+   <td colname="col2"> <p> 檢視器的整體寬度和高度。 <span class="codeph"> 0,0</span>的值表示檢視器的大小是根據CSS規則和網頁版面配置而定。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

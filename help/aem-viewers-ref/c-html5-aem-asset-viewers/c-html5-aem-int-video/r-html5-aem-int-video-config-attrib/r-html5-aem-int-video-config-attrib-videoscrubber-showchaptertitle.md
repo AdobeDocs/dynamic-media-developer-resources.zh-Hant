@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: a687a025-37cc-42cf-8cf7-893179d399ac
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 9%
+source-wordcount: '42'
+ht-degree: 7%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 9%
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
    <td colname="col2"> <p> 啟用/停用章節標籤的標題列。 停用標題列時，不會顯示章節開始時間。 </p> </td> 
   </tr> 
  </tbody> 

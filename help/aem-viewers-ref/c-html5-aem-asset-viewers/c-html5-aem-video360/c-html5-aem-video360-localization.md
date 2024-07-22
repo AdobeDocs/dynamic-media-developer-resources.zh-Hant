@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: d54fd841-2246-4d2e-8bf9-7da56f2487f3
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 檢視器顯示的某些內容可能會經過本地化。 這類內容包含使用者介面元素工具提示，以及在視訊無法播放時顯示的錯誤訊息。
 
-檢視器中可本地化的每個文字內容，都會以稱為SYMBOL的特殊檢視器SDK識別碼表示。 任何SYMBOL都有英文地區設定的預設相關文字值( `"en"`)隨現成可用的檢視器提供。 您也可以視需要為多個地區設定使用者定義的值。
+檢視器中可本地化的每個文字內容，都會以稱為SYMBOL的特殊檢視器SDK識別碼表示。 任何SYMBOL都有隨現成可用的檢視器提供的英文地區設定( `"en"`)的預設相關文字值。 您也可以視需要為多個地區設定使用者定義的值。
 
 當檢視器啟動時，它會檢查目前的地區設定，檢視地區設定的每個受支援SYMBOL是否有使用者定義的值。 如果有的話，它會使用使用者定義的值；否則，它會回覆成現成的預設文字。
 
@@ -38,9 +38,9 @@ defaultLocale:"en"
 }
 ```
 
-在上述範例中，本地化物件定義了兩種地區設定( `"en"` 和 `"fr"`)並提供每個地區設定中兩個使用者介面元素的當地語系化。
+在上述範例中，本地化物件定義了兩個地區設定（`"en"`和`"fr"`），並為每個地區設定中的兩個使用者介面元素提供本地化。
 
-網頁程式碼應將本地化物件傳遞至檢視器建構函式，作為 `localizedTexts` 設定物件的欄位。 另一種選擇是呼叫 `setLocalizedTexts(localizationInfo)` 方法。
+網頁程式碼應將本地化物件作為設定物件之`localizedTexts`欄位的值傳遞給檢視器建構函式。 替代選項是呼叫`setLocalizedTexts(localizationInfo)`方法來傳遞本地化物件。
 
 支援下列SYMBOL：
 
@@ -86,7 +86,7 @@ defaultLocale:"en"
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_VOLUME </span> </p> </td> 
-   <td colname="col2"> <p>透過ARIA公開的音量滑桿旋鈕標籤 <span class="codeph"> aria-valuetext </span> 屬性。 </p> </td> 
+   <td colname="col2"> <p>透過ARIA <span class="codeph"> aria-valuetext </span>屬性公開磁碟區滑桿旋鈕標籤。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_SELECTED </span> </p> </td> 
@@ -133,7 +133,7 @@ defaultLocale:"en"
    <td colname="col2"> <p>「全選」按鈕。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> EmbedShare.TOOLTIP動作 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> EmbedShare.TOOLTIP動作</span> </p> </td> 
    <td colname="col2"> <p>「全選」按鈕。 </p> </td> 
   </tr> 
   <tr> 
@@ -169,7 +169,7 @@ defaultLocale:"en"
    <td colname="col2"> <p>「全選」按鈕。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP動作 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP動作</span> </p> </td> 
    <td colname="col2"> <p>「全選」按鈕。 </p> </td> 
   </tr> 
   <tr> 

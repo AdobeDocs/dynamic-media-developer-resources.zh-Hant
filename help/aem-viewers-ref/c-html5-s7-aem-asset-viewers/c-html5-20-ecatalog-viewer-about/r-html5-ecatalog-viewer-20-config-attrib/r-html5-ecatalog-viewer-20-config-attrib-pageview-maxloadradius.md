@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 02925e09-f1ab-4afb-a900-d216efd323fe
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '69'
 ht-degree: 4%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph">-1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p>指定元件預先載入行為。 </p> <p>當設定為 <span class="codeph"> -1</span> 當處於閒置狀態時，元件會預先載入所有目錄影格。 </p> <p> 當設定為 <span class="codeph"> 0</span> 元件僅載入目前可見的影格、上一個影格和下一個影格。 </p> <p>設定 <span class="codeph"><span class="varname"> preloadnbr</span></span> 定義在閒置狀態中預先載入目前顯示影格周圍的不可見影格數。 </p> </td> 
+   <td colname="col2"> <p>指定元件預先載入行為。 </p> <p>設定為<span class="codeph"> -1</span>時，元件會在閒置狀態中預先載入所有目錄框架。 </p> <p> 設定為<span class="codeph"> 0</span>時，元件僅載入目前可見的影格、上一個影格和下一個影格。 </p> <p>設定<span class="codeph"><span class="varname"> preloadnbr</span></span>以定義目前顯示影格周圍有多少隱藏影格在閒置狀態中預先載入。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

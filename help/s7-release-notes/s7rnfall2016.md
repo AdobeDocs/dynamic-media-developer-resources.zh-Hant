@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 23091ef7-750a-4ec2-9d03-1d713f436991
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '2204'
+source-wordcount: '2236'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Adobe Scene7 2016年秋季發行版本的最新發行說明，屬於Adobe Experi
 
 ## Scene7 2016年秋季版 {#topic-791cdf80f91e457fbb63bfedf79f5a94}
 
-的最新發行說明 [!DNL Adobe Scene7] 2016年秋季發行版本的一部分 [!DNL Adobe Experience Manager] 中的解決方案 [!DNL Adobe Experience Cloud].
+[!DNL Adobe Scene7] 2016年秋季最新發行說明 — [!DNL Adobe Experience Cloud]中[!DNL Adobe Experience Manager]解決方案的一部分。
 
 * [一般](s7rnfall2016.md#section-52afeb72ecb34c1585ea67a5051825a2)
 * [場景 7](s7rnfall2016.md#section-24487cb493444d808fb7193f0a00cdd4)
@@ -32,18 +32,18 @@ Adobe Scene7 2016年秋季發行版本的最新發行說明，屬於Adobe Experi
 
 Adobe很高興地宣佈推出HTTP/2內容傳送，並整體提升效能。
 
-另請參閱 [HTTP2傳送內容常見問答集](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic).
+請參閱[HTTP2傳送內容常見問答集](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic)。
 
 ## Scene7 Publishing System {#section-24487cb493444d808fb7193f0a00cdd4}
 
-如需完整檔案，請參閱 [https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html)
+如需完整檔案，請參閱[https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html)
 
 **新功能、增強功能和錯誤修正**
 
-* 已移除的視訊重新剪輯功能 [!DNL Adobe Scene7 Publishing System] 使用者介面。
+* 已從[!DNL Adobe Scene7 Publishing System]使用者介面移除視訊重新剪輯功能。
 * 在必要時儘可能新增驗證至所有Scene7 servlet
 * 垃圾桶中涉及清單檢視的錯誤修正。
-* 已移除 **建立Dynamic Media Classic (Scene7)管理員** 基於安全性考量，「使用者管理」中的使用者功能。
+* 基於安全性考量，已從「使用者管理」中移除&#x200B;**建立Dynamic Media Classic (Scene7) Admin**&#x200B;使用者功能。
 * FTP WebAdmin現在支援OKTA驗證。
 * 移除為新Media Portal使用者建立的預設密碼功能。
 * 涉及新增使用者時產生的暫時密碼的錯誤修正。 密碼不符合必要的密碼要求。
@@ -58,9 +58,9 @@ Adobe很高興地宣佈推出HTTP/2內容傳送，並整體提升效能。
 
 ## 檢視器（影像伺服5.5.3） {#section-1d59bcd5825d487b80b59a6d1a08ed30}
 
-如需完整檔案，請參閱 [檢視器參考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
+如需完整檔案，請參閱[檢視器參考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en)。
 
-**影像伺服5.5.3的錯誤修正**
+**影像伺服的錯誤修正5.5.3**
 
 * 與RequireJS和DOJO程式庫相容。
 
@@ -68,26 +68,26 @@ Adobe很高興地宣佈推出HTTP/2內容傳送，並整體提升效能。
 
 ## 檢視器（影像伺服5.5.2） {#section-9932c988cfee45749594af481dfc6476}
 
-如需完整檔案，請參閱 [檢視器參考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
+如需完整檔案，請參閱[檢視器參考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en)。
 
-**影像伺服5.5.2的錯誤修正**
+**影像伺服的錯誤修正5.5.2**
 
 * 無法在Windows 7上的Internet Explorer 11中播放視訊。
-* `initialframe` 不會影響HTML5 eCatalog行動裝置上的縱向模式。
+* `initialframe`不會影響HTML5 eCatalog行動裝置上的直向模式。
 
 ## 檢視器（影像伺服5.5.1） {#section-833ab92c91c941d2bfdc27f233f582ad}
 
-如需完整檔案，請參閱 [檢視器參考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
+如需完整檔案，請參閱[檢視器參考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en)。
 
-**Image Serving 5.5.1的新功能、增強功能和錯誤修正**
+**影像伺服5.5.1的新功能、增強功能和錯誤修正**
 
 * HTML5具有搜尋功能的eCatalog檢視器。
 * 新增HLS串流視訊播放，作為大部分案頭系統的預設視訊傳送方法。 Flash式HDS視訊串流仍可作為替代播放選項使用。
-* 新增對同時具有滑鼠和觸控輸入且執行Chrome瀏覽器的裝置的支援。
+* 新增對具備執行Chrome瀏覽器的滑鼠和觸控輸入裝置的支援。
 * 新增Experience Cloud組織ID支援至Analytics整合。
 * 將AppMeasurement JavaScript程式庫更新至1.6.1版。
 * 在eCatalog檢視器中新增從右至左方向的支援。
-* 修正以下問題： `tip=0,-1,0` 造成超出範圍的錯誤。
+* 修正`tip=0,-1,0`造成超出範圍錯誤的問題。
 
 **相容性注意事項**
 
@@ -127,7 +127,7 @@ Adobe很高興地宣佈推出HTTP/2內容傳送，並整體提升效能。
 * HTML5影片
 
    * Internet Explorer 9：不顯示自訂海報影像。
-   * `IntialBitRate` 修飾元僅支援軟體HLS和FlashHDS播放。 使用原生播放器播放時無法運作。
+   * `IntialBitRate`修飾元僅支援軟體HLS和FlashHDS播放。 使用原生播放器播放時無法運作。
    * 目前不支援OGG和WebM漸進式播放。
    * 瀏覽器縮放可能會導致視訊播放器以不正確的大小顯示（包括Windows作業系統控制檯顯示設定）。
    * 在Safari上使用HLS串流的視訊搜尋可能不一致。
@@ -151,26 +151,26 @@ Adobe很高興地宣佈推出HTTP/2內容傳送，並整體提升效能。
 
 **已知問題和限制**
 
-* 來自的「影像伺服」修飾元 `iscommands` 不會新增至 `req=set` 依設計要求。 只影響影像顯示的修飾元可正常運作。 影響大小的修飾元必須用於複雜資產。 例如︰
+* 來自`iscommands`的「影像伺服」修飾元未依設計新增至`req=set`請求。 只影響影像顯示的修飾元可正常運作。 影響大小的修飾元必須用於複雜資產。 例如︰
 
   `https://s7d9.scene7.com/s7viewers/html5/BasicZoomViewer.html?asset= {Scene7SharedAssets/Backpack_B?extendn=0.5%252C0.5%252C0.5%252C0.5}`
 
-* [彈出] 滑鼠關機後，IE9有時仍會留在熒幕上。
+* 滑鼠關閉後，[彈出式視窗] IE9有時仍會留在熒幕上。
 * 瀏覽器縮放會導致重新調整大小錯誤。
 * iPad 2：iOS上的大型eCatalog資產當機Safari。
 * 所有檢視器
 
    * 不支援浮水印、模糊化及鎖定。
    * 不支援影像預設集。
-   * 使用在DOM中新增或移除檢視器 `display:none` 目前不支援CSS或是將其從父節點動態分離。
+   * 目前不支援使用`display:none` CSS從DOM新增或移除檢視器，或是以動態方式從父節點分離檢視器。
 
 * HTML5所有檢視器
 
    * 將檢視器內嵌在表格中，可能會導致非原生全熒幕模式下的檢視器大小或位置不正確。 建議改用DIV。
-   * 程式碼中具有明確執行個體名稱的引數，也需要URL中的執行個體名稱才能覆寫(例如， `zoomView.iconfeffect=0`)。
+   * 程式碼中具有明確執行個體名稱的引數需要在URL中的執行個體名稱也被覆寫（例如`zoomView.iconfeffect=0`）。
    * 目前不支援「影像伺服」命令裁切。
    * 只有在子視窗中開啟檢視器時，「關閉」按鈕才有效。
-   * 此 `iscommands` 修飾元不支援影響影像大小的「影像伺服」修飾元。
+   * `iscommands`修飾元不支援影響影像大小的「影像伺服」修飾元。
 
 * HTML5 eCatalog
 
@@ -186,18 +186,18 @@ Adobe很高興地宣佈推出HTTP/2內容傳送，並整體提升效能。
 
 * HTML5社交
 
-   * 若要正確呈現傳出電子郵件中的縮圖， `serverurl` 修飾元必須具有絕對URL。
+   * 若要正確呈現傳出電子郵件中的縮圖，`serverurl`修飾元必須具有絕對URL。
 
 * HTML5影片
 
-   * 海報影像可能發生「大小上限」錯誤。 公司必須增加「影像伺服」發佈的限制設定。
+   * 海報影像可能發生「大小上限」錯誤。 公司必須增加「影像伺服」Publish的限制設定。
    * 如果從外部伺服器(而不是Scene7伺服器)提供HTML頁面的託管服務，則視訊字幕需要公司規則集。 請聯絡Adobe支援以尋求協助。
    * Analytics追蹤可能會因緩衝而回報不正確的播放百分比
    * iPad或Android™裝置上可能會顯示黑色影格而非海報影像。
-   * 在iPad或Android™裝置上載入檢視器時，黑色影格可能會在熒幕上閃爍。
+   * 在iPad或Android™裝置上載入檢視器時，畫面可能會閃爍黑框。
    * 當iPad裝置上的背景設定為白色/透明時，VideoPlayer元件的一側會顯示黑色框線。
    * 使用iOS 7時，iPad上的最後一個視訊影格可能會扭曲。
-   * 在Chrome、Firefox和Internet Explorer瀏覽器的HLS串流模式中，視訊搜尋期間可能會發生偶爾巨集封鎖。
+   * 在Chrome、Firefox和Internet Explorer瀏覽器的HLS串流模式中，視訊搜尋期間可能會偶爾發生巨集封鎖。
       * 首次造訪的訪客可能無法在Microsoft® Edge瀏覽器中顯示海報影像。
       * 當使用漸進式播放時，在Internet Explorer 9中載入視訊後，海報影像可能會隱藏。
 
@@ -205,12 +205,12 @@ Adobe很高興地宣佈推出HTTP/2內容傳送，並整體提升效能。
 
 使用手冊位於使用者端安裝的Adobe HTML5 Viewer SDK資料夾中。 在使用者端安裝的檔案子資料夾中找到元件API檔案。
 
-**3.0.2的錯誤修正**
+**針對3.0.2的錯誤修正**
 
 * VideoPlayer — 無法在Windows 7上的Internet Explorer 11中播放視訊。
-* 目錄 —   `initialframe` 並未影響HTML5 eCatalog檢視器行動裝置上的縱向模式。
+* 目錄目錄 — `initialframe`並未影響HTML5 eCatalog檢視器之行動裝置上的直向模式。
 
-**3.0.1的新功能、增強功能和錯誤修正**
+**3.0.1**&#x200B;的新功能、增強功能和錯誤修正
 
 * 一般
 
@@ -226,7 +226,7 @@ Adobe很高興地宣佈推出HTTP/2內容傳送，並整體提升效能。
 
 * FlyoutzoomView
 
-   * 修正下列情況 `tip=0,-1,0` 造成超出範圍的錯誤。
+   * 修正`tip=0,-1,0`造成超出範圍錯誤的情況。
 
 **相容性注意事項**
 
@@ -240,7 +240,7 @@ Adobe很高興地宣佈推出HTTP/2內容傳送，並整體提升效能。
 
    * 變更AVS集中的位元速率資料流時，視訊播放可能會停止。
 
-* 鉻黃
+* Chrome
 
    * 由於Chrome的內部快取，任何強制元件重建的API呼叫都可能被忽略。
 
@@ -259,7 +259,7 @@ Adobe很高興地宣佈推出HTTP/2內容傳送，並整體提升效能。
 
    * iPad 3的原始解析度為2048x1536。 如果公司的IS發佈、影像大小限制設定為較低，此解析度可能會導致顯示問題。
 
-* iPhone4
+* IPHONE4
 
    * 捲動頁面後，Iconeffect重播圖示已替換為播放圖示。
 
@@ -291,9 +291,9 @@ Adobe很高興地宣佈推出HTTP/2內容傳送，並整體提升效能。
 
 * 所有元件
 
-   * 在2.7.2版和更早版本中，部分元件已使用新增至DOM `insertBefore()` API。 因此，無論元件例證是相對於其他元件建立的，此類元件都會置於棧疊順序的底部。 在2.8.1版中，所有元件都使用 `appendChild()` 立即API，這表示元件棧疊順序將符合執行個體建立的順序。
+   * 在2.7.2版和更舊版本中，部分元件是使用`insertBefore()` API新增至DOM。 因此，無論元件例證是相對於其他元件建立的，此類元件都會置於棧疊順序的底部。 在2.8.1版本中，所有元件現在都使用`appendChild()` API，這表示元件棧疊順序將符合建立執行個體的順序。
 
-   * 使用 `iscommand` 不支援用來設定影像alpha色版格式的修飾元。 使用元件 `FMT` 引數來取代。
+   * 不支援使用`iscommand`修飾元來設定影像Alpha色版格式。 請改用元件`FMT`引數。
    * 目前不支援CSS轉換屬性。
 
 * 觸控裝置
@@ -311,7 +311,7 @@ Adobe很高興地宣佈推出HTTP/2內容傳送，並整體提升效能。
 
 * IconEffect元件
 
-   * IconEffect會在Internet Explorer上產生指令碼錯誤，如果 `autohide` 已停用(設為 `0`)。
+   * 如果`autohide`已停用（設定為`0`），IconEffect會在Internet Explorer上產生指令碼錯誤。
 
 * ImageMapEffect元件
 
@@ -327,7 +327,7 @@ Adobe很高興地宣佈推出HTTP/2內容傳送，並整體提升效能。
 
 * PageScrubber元件
 
-   * 在iPhone 5上，當PageScrubber泡泡設定為文字時，它會在沿著軌跡滑動按鈕時顯示成品。 使用 `-webkit-background-clip: content;` 在樣式中可解決此問題。
+   * 在iPhone 5上，當PageScrubber泡泡設定為文字時，它會在沿著軌跡滑動按鈕時顯示成品。 在樣式中使用`-webkit-background-clip: content;`可解決此問題。
 
 * SpinView元件
 
@@ -336,16 +336,16 @@ Adobe很高興地宣佈推出HTTP/2內容傳送，並整體提升效能。
 * 色票元件
 
    * 選取超出範圍的色票時，會顯示兩個反白專案。
-   * 自動捲動 `selectSwatch()` 方法運作不正確。
+   * 使用`selectSwatch()`方法的自動捲動運作不正確。
 
 * videoplayer
 
    * 如果搜尋設為100%且後援設為auto，則視訊影格不會更新。
-   * 在Chrome、Firefox和Internet Explorer瀏覽器的HLS串流模式中，視訊搜尋期間可能會發生偶爾巨集封鎖情形。
+   * 在Chrome、Firefox和Internet Explorer瀏覽器的HLS串流模式中，視訊搜尋期間可能會偶爾發生巨集封鎖。
    * 首次造訪的訪客可能無法在Microsoft® Edge瀏覽器中顯示海報影像。
    * 當使用漸進式播放時，在Internet Explorer 9中載入視訊後，海報影像可能會隱藏。
 
 ## Dynamic Media影像提供6.3.2和影像轉譯6.3.2 {#section-19a3e96f52c74757bcdea0f8a11001f2}
 
-* 積體電路公用程式 —  `downsample2x2` 不再支援標幟。 此旗標是品質較差的2x2縮減取樣器，IPS不再使用。
-* CORS標頭 — 目前，CORS標頭設定為 `/is/content/` 要求。
+* IC公用程式 — 不再支援`downsample2x2`旗標。 此旗標是品質較差的2x2縮減取樣器，IPS不再使用。
+* CORS標頭 — 目前，CORS標頭是針對`/is/content/`要求所設定。

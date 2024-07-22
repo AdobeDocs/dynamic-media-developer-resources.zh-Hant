@@ -1,6 +1,6 @@
 ---
 title: IccProfileGray
-description: 灰階預設色彩空間。 指定當icc=未指定輸出色域時，用於灰階回應影像的ICC色彩設定檔名稱。
+description: 灰階預設色域。 指定icc=未指定輸出色域時，用於灰階回應影像的ICC色彩設定檔名稱。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,15 +14,15 @@ ht-degree: 2%
 
 # IccProfileGray{#iccprofilegray}
 
-灰階預設色彩空間。 指定當未指定輸出色域時，用於灰階回應影像的ICC色彩設定檔名稱 `icc=`.
+灰階預設色域。 指定當沒有使用`icc=`指定輸出色域時，用於灰階回應影像的ICC色彩設定檔名稱。
 
 ## 屬性 {#section-7af0a3e2c8cf4cdd98974bfa4a15f3ac}
 
-文字字串。 若指定，則必須為有效 `icc::Name` 來自此材料目錄或預設目錄的ICC輪廓對映的值，或相對於此材料目錄的檔案路徑 `attribute::RootPath`. 參照的ICC設定檔必須是灰階設定檔。
+文字字串。 如果已指定，則必須是來自此材質目錄或預設目錄之ICC設定檔對映的有效`icc::Name`值，或是相對於`attribute::RootPath`的檔案路徑。 參照的ICC設定檔必須是灰階設定檔。
 
 ## 預設 {#section-aaa1c71e5d0c4e0792099d77e37c05ee}
 
-繼承自 `default::IccProfileGray` 如果未定義或為空。
+如果未定義或空白，則繼承自`default::IccProfileGray`。
 
 ## 另請參閱 {#section-cd43189611f4426aacddcc604eb02a10}
 

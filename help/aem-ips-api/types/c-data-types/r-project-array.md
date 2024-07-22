@@ -1,7 +1,7 @@
 ---
-description: 專案陣列。
+description: 專案的陣列。
 solution: Experience Manager
-title: ProjectArray
+title: 專案陣列
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 6f9b5a38-49b1-4975-8ab9-c129a8e07d05
@@ -14,7 +14,7 @@ ht-degree: 33%
 
 # [!DNL ProjectArray]{#projectarray}
 
-專案陣列。
+專案的陣列。
 
 語法
 

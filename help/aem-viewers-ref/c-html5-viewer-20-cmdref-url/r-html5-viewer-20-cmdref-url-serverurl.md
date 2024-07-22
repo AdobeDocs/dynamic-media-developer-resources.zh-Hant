@@ -8,7 +8,7 @@ exl-id: c9da3d5b-492d-4e1f-8fdc-3255b2b40fc6
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
 source-wordcount: '100'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -22,14 +22,14 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isRootPath</span> </span> </p> </td> 
-   <td colname="col2"> <p>相對或絕對的「影像伺服」根路徑。 </p> <p> 指定「影像伺服」的相對或絕對路徑，檢視器會從中擷取影像。 如果路徑沒有行距 <span class="filepath"> /</span>，此量度會與檢視器HTML頁面的位置相對應。 如果路徑有行距 <span class="filepath"> /</span>，會指定相同伺服器上的絕對路徑。 </p> <p> 在檢視器中啟用電子郵件共用模組時，僅使用絕對路徑。 </p> </td> 
+   <td colname="col2"> <p>相對或絕對的「影像伺服」根路徑。 </p> <p> 指定「影像伺服」的相對或絕對路徑，檢視器可從中擷取影像。 如果路徑沒有前導的<span class="filepath"> /</span>，則為檢視器HTML頁面的相對位置。 如果路徑的前導為<span class="filepath"> /</span>，它會在相同伺服器上指定絕對路徑。 </p> <p> 在檢視器中啟用電子郵件共用模組時，僅使用絕對路徑。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 屬性 {#section-10ee45d637134e0fbcd943c62578cb78}
 
-選擇性. 標準SaaS （軟體即服務）使用不需要。
+選填。 標準SaaS （軟體即服務）使用不需要。
 
 ## 預設 {#section-d411e450028c460392cb8508f8ccc5d9}
 

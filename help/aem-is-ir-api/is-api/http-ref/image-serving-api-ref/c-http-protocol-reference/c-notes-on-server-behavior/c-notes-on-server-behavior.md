@@ -1,7 +1,7 @@
 ---
 description: 有幾個伺服器行為問題需要考量。
 solution: Experience Manager
-title: 伺服器行為注意事項
+title: 伺服器行為附註
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 88bc0ff2-604d-4065-9a53-0884457f0e14
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# 伺服器行為注意事項{#notes-on-server-behavior}
+# 伺服器行為附註{#notes-on-server-behavior}
 
 有幾個伺服器行為問題需要考量。
 

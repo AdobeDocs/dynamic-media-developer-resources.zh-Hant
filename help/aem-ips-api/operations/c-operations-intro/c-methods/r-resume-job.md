@@ -1,18 +1,18 @@
 ---
 description: 重新啟動暫停的工作。
 solution: Experience Manager
-title: resumejob
+title: resumeJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: ba8818ff-3040-463c-80d3-b7cfd1e01f77
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '67'
-ht-degree: 17%
+ht-degree: 14%
 
 ---
 
-# resumejob{#resumejob}
+# resumeJob{#resumejob}
 
 重新啟動暫停的工作。
 
@@ -35,7 +35,7 @@ ht-degree: 17%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 含有您要重新啟動之工作的公司的控制代碼。 |
+| companyHandle | `xsd:string` | 是 | 包含您要重新啟動之工作的公司的控制代碼。 |
 | jobHandle | `xsd:string` | 是 | 暫停工作的控制代碼。 |
 
 **輸出(resumeJobReturn)**
@@ -46,7 +46,7 @@ IPS API未傳回此作業的回應。
 
 此程式碼範例會重新啟動暫停的工作。
 
-**請求**
+**要求**
 
 ```java
 <resumeJobParam xmlns="http://www.scene7.com/IpsApi/xsd">
@@ -55,6 +55,6 @@ IPS API未傳回此作業的回應。
 </resumeJobParam>
 ```
 
-**回答**
+**回應**
 
 無。

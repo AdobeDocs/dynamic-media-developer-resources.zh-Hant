@@ -30,8 +30,8 @@ ht-degree: 23%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> 個專案</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> type：Metadata</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname">專案</span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph">型別：中繼資料</span> </p> </td> 
    <td colname="col3"> <p>中繼資料的陣列。 </p> </td> 
   </tr> 
  </tbody> 

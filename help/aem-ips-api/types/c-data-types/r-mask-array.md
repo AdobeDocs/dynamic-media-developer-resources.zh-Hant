@@ -1,5 +1,5 @@
 ---
-description: 遮罩陣列。
+description: 遮罩的陣列。
 solution: Experience Manager
 title: 遮罩陣列
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 33%
 
 # [!DNL MaskArray]{#maskarray}
 
-遮罩陣列。
+遮罩的陣列。
 
 語法
 

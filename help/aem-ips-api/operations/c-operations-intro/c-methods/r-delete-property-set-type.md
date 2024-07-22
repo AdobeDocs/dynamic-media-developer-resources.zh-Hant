@@ -8,7 +8,7 @@ exl-id: 97ec0f41-794f-4340-b86d-ab07a742d447
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '93'
-ht-degree: 11%
+ht-degree: 9%
 
 ---
 
@@ -39,9 +39,9 @@ IPS API未傳回此作業的回應。
 
 ## 範例 {#section-85faa2e3411a4e23aa6489037f7ce078}
 
-此程式碼範例使用型別的控制代碼做為 `deletePropertySetTypeParam` 傳送至IPS Web服務伺服器，以便刪除屬性集型別。
+這個程式碼範例使用型別的控制代碼做為傳送至IPS Web服務伺服器之`deletePropertySetTypeParam`中的欄位，以刪除屬性集型別。
 
-**請求**
+**要求**
 
 ```java
 <deletePropertySetTypeParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">
@@ -49,6 +49,6 @@ IPS API未傳回此作業的回應。
 </deletePropertySetTypeParam>
 ```
 
-**回答**
+**回應**
 
 無。

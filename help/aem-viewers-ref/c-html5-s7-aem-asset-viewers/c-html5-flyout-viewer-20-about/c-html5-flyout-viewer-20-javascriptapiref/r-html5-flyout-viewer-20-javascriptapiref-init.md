@@ -1,6 +1,6 @@
 ---
 title: init
-description: 彈出式檢視器初始化的JavaScript API參考。
+description: 適用於彈出式檢視器初始化的JavaScript API參考。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 開始初始化彈出式檢視器。 此時，必須建立容器DOM元素，讓檢視器程式碼可依其ID尋找。
 
-例如，如果容器元素還不是網頁版面配置的一部分，則可使用以下專案將其隱藏： `display:none` 樣式已指定給它 — 檢視器會暫停其初始化程式。 直到網頁將容器元素帶回版面配置為止。 發生此情況時，檢視器會自動繼續載入。
+例如，如果容器元素尚未成為網頁版面配置的一部分，則可以使用指派給它的`display:none`樣式將其隱藏，檢視器會暫停其初始化程式。 直到網頁將容器元素帶回版面配置為止。 發生此情況時，檢視器會自動繼續載入。
 
 在檢視器生命週期中只應呼叫一次此方法，後續呼叫會被忽略。
 
@@ -30,7 +30,7 @@ ht-degree: 2%
 
 ## 傳回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` 檢視器例項的參考。
+`{Object}`檢視器執行個體的參考。
 
 ## 範例 {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

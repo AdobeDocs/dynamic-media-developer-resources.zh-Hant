@@ -8,7 +8,7 @@ exl-id: 0756c4fc-64ec-4022-a6aa-fcf1542b41b0
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '116'
-ht-degree: 12%
+ht-degree: 11%
 
 ---
 
@@ -46,9 +46,9 @@ ht-degree: 12%
 
 ## 範例 {#section-bc5d120d74614a63a425ca3acc337219}
 
-此範常式式碼會要求指定公司使用的資產名稱。 回應會傳回使用中的資產名稱陣列。
+此範常式式碼會要求指定公司使用中的資產名稱。 回應會傳回使用中的資產名稱陣列。
 
-**請求**
+**要求**
 
 ```java
 <checkAssetNamesParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-09-10">
@@ -60,7 +60,7 @@ ht-degree: 12%
 </checkAssetNamesParam>
 ```
 
-**回答**
+**回應**
 
 ```java
 <checkAssetNamesReturn xmlns="http://www.scene7.com/IpsApi/xsd/2008-09-10">

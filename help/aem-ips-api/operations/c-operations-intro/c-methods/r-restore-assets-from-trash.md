@@ -8,7 +8,7 @@ exl-id: b1cde1a9-d726-4ebc-9d49-ee72a6b56fc9
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 12%
+ht-degree: 11%
 
 ---
 
@@ -41,16 +41,16 @@ ht-degree: 12%
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
 | successCount | `xsd:int` | 是 | 已成功從垃圾桶移除的資產數量。 |
-| warningCount | `xsd:int` | 是 | 作業嘗試從垃圾桶還原資產時產生的警告數目。 |
-| errororcount | `xsd:int` | 是 | 嘗試從垃圾桶還原資產時產生的錯誤數。 |
-| warningDetailArray | `types:AssetOperationFaultArray` | 否 | 與資產關聯的詳細資訊陣列，在作業嘗試從垃圾桶還原資產時產生警告。 |
+| warningcount | `xsd:int` | 是 | 作業嘗試從垃圾桶還原資產時產生的警告數目。 |
+| errororcount | `xsd:int` | 是 | 嘗試從垃圾桶還原資產時產生的錯誤次數。 |
+| warningDetailArray | `types:AssetOperationFaultArray` | 否 | 與資產關聯的詳細資訊陣列，在操作嘗試從垃圾桶還原資產時產生警告。 |
 | errorDetailArray | `types:AssetOperationFaultArray` | 否 | 與資產關聯的詳細資訊陣列，在操作嘗試從垃圾桶還原資產時產生錯誤。 |
 
 ## 範例 {#section-98fe0394b0634ca397c395f14f8a9358}
 
 此程式碼範例會從垃圾桶還原資產。 回應指出作業已順利完成。
 
-**請求**
+**要求**
 
 ```java
 <restoreAssetsFromTrashParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">
@@ -62,7 +62,7 @@ ht-degree: 12%
 </restoreAssetsFromTrashParam>
 ```
 
-**回答**
+**回應**
 
 ```java
 <restoreAssetsFromTrashReturn xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

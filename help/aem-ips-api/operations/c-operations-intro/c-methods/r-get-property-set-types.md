@@ -1,20 +1,20 @@
 ---
-description: 取得與指定公司相關聯的屬性集型別，或取得全域屬性集型別（若未指定公司）。
+description: 取得與指定公司關聯的屬性集型別，如果未指定公司，則取得全域屬性集型別。
 solution: Experience Manager
-title: getPropertySetTypes
+title: getPropertySetType
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 7686d30b-e071-4950-8af1-4dd25312ce4b
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '113'
-ht-degree: 15%
+ht-degree: 11%
 
 ---
 
-# getPropertySetTypes{#getpropertysettypes}
+# getPropertySetType{#getpropertysettypes}
 
-取得與指定公司相關聯的屬性集型別，或取得全域屬性集型別（若未指定公司）。
+取得與指定公司關聯的屬性集型別，如果未指定公司，則取得全域屬性集型別。
 
 語法
 
@@ -46,7 +46,7 @@ ht-degree: 15%
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4">與屬性集型別相關聯之公司的控制代碼。 <p>如果您要傳回全域屬性集型別，請省略。 </p> </td> 
   </tr> 
@@ -61,7 +61,7 @@ ht-degree: 15%
 
 ## 範例 {#section-280c406a90864409856aee44d4069a52}
 
-**請求**
+**要求**
 
 ```java
 <getPropertySetTypesParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">
@@ -69,7 +69,7 @@ ht-degree: 15%
 </getPropertySetTypesParam>
 ```
 
-**回答**
+**回應**
 
 ```java
 <getPropertySetTypesReturn xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

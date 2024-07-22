@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 86c87cd1-6e08-40cb-80e6-35a9f49b6572
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '533'
 ht-degree: 0%
 
 ---
@@ -31,34 +31,34 @@ ht-degree: 0%
  </tr> 
 </table>
 
-落在所定義區域之外的圖層任何部分 `clipPath=` 呈現為透明。
+落在由`clipPath=`定義區域之外的圖層任何部分都會呈現為透明。
 
-`*`pathName`*` 是內嵌在圖層來源影像中的路徑名稱。 路徑會自動轉換，以維持與影像內容相對的對齊。 如果超過一個 `*`pathName`*` 指定後，伺服器會將影像裁剪到這些路徑的交集。 任何 `*`pathName`*` 在來源影像中找不到，會忽略。
-
->[!NOTE]
->
->僅支援ASCII字串 `*`pathName`*`.
-
-`*`pathDefinition`*` 允許以圖層畫素座標指定明確的路徑資料。
-
-如果 `size=` 指定且非0,0，則會使圖層成為持久層。 在此情況下，路徑座標會相對於圖層矩形的左上角，而圖層會根據下列基準放置 `origin=` 或其預設值。 圖層矩形之外的任何路徑區域都會保持透明。
-
-如果 `size=` 未指定純色或文字圖層，會根據路徑範圍決定圖層大小，將圖層視為自行調整大小。 如果 `origin=` 未指定，其預設值為路徑座標空間的(0,0)。 此工作流程流程實際上允許指定相對於圖層0原點的路徑座標。
+`*`pathName`*`是內嵌在圖層來源影像中的路徑名稱。 路徑會自動轉換，以維持與影像內容相對的對齊。 如果指定了多個`*`pathName`*`，伺服器會將影像剪裁到這些路徑的交集。 在來源影像中找不到任何`*`pathName`*`都會被忽略。
 
 >[!NOTE]
 >
->`scale=`， `rotate=`、和 `anchor=` 不允許指令用於自動調整純色圖層。
+>`*`pathName`*`只支援ASCII字串。
 
-`*`pathDefinition`*` 接受類似於 `d=` SVG的屬性 `<path>` 元素，但會使用逗號來分隔值，而非空格。 `*`pathDefinition`*` 可包含一或多個封閉回圈子路徑。
+`*`pathDefinition`*`允許以圖層畫素座標指定明確的路徑資料。
 
-下列路徑命令受到支援 `*`pathDefinition`*`：
+如果指定了`size=`而非0,0，則會將圖層設為預覽。 在此情況下，路徑座標會相對於圖層矩形的左上角，而圖層會根據`origin=`或其預設來定位。 圖層矩形之外的任何路徑區域都會保持透明。
+
+如果未指定純色或文字圖層的`size=`，則會將該圖層視為根據決定其大小的路徑範圍來調整大小。 如果未指定`origin=`，則預設為路徑座標空間的(0,0)。 此工作流程流程實際上允許指定相對於圖層0原點的路徑座標。
+
+>[!NOTE]
+>
+>不允許`scale=`、`rotate=`和`anchor=`命令用於自動調整實色圖層。
+
+`*`pathDefinition`*`接受類似於SVG`<path>`專案之`d=`屬性的值的字串，但使用逗號而非空格來分隔值。 `*`pathDefinition`*`可以包含一或多個封閉回圈子路徑。
+
+`*`pathDefinition`*`支援下列路徑命令：
 
 <table id="table_A74DD7A48B1C417D9D4BA46BECEAB981"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b> 命令</b> </th> 
-   <th class="entry"> <b> 名稱</b> </th> 
-   <th class="entry"> <b> 說明</b> </th> 
+   <th class="entry"> <b>命令</b> </th> 
+   <th class="entry"> <b>名稱</b> </th> 
+   <th class="entry"> <b>描述</b> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -109,9 +109,9 @@ ht-degree: 0%
 
 ## 屬性 {#section-d4127db0dac54e3cbd44f7ea1e001960}
 
-圖層屬性。 套用至目前圖層或複合影像，如果 `layer=comp`. 效果圖層會忽略它。
+圖層屬性。 套用至目前的圖層或複合影像（若為`layer=comp`）。 效果圖層會忽略它。
 
-修飾元 `clipPathE=` 如果在圖層來源影像中找不到具有指定名稱的路徑，或圖層來源不是影像，則會忽略該專案。
+如果在圖層來源影像中找不到具有指定名稱的路徑，或圖層來源不是影像，則會忽略修飾元`clipPathE=`。
 
 ## 預設 {#section-076c35ea37fa4a44ada253b4c2dec1dd}
 

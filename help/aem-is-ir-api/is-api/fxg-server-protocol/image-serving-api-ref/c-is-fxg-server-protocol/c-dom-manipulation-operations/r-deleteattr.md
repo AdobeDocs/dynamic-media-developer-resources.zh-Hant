@@ -18,7 +18,7 @@ ht-degree: 2%
 
 `deleteAttr.elementID={attributeName%26attributeName}`
 
-如果FXG節點元素具有 `s7:elementID` 定義，可使用此命令刪除該節點的屬性。
+如果FXG節點元素已定義`s7:elementID`，則可使用此命令刪除該節點的屬性。
 
 ## 範例 {#section-dece7192384a412c9afdfbda6f08bc97}
 
@@ -28,4 +28,4 @@ ht-degree: 2%
 
 `<Group d:id="4" d:type="layer" d:userLabel="WhiteFrame" s7:elementID="middle_area">`
 
-此範例會移除屬性 *[!DNL x]*， *[!DNL y]*、和 *[!DNL visible]* 來自原始FXG節點。
+此範例會從原始FXG節點移除屬性&#x200B;*[!DNL x]*、*[!DNL y]*&#x200B;和&#x200B;*[!DNL visible]*。

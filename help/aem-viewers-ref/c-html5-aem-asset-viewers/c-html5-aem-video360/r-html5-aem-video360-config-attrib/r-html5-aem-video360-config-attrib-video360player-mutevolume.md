@@ -8,7 +8,7 @@ exl-id: 8f95c01f-e634-4d6c-a22f-c2285ee969c8
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
 source-wordcount: '55'
-ht-degree: 14%
+ht-degree: 5%
 
 ---
 
@@ -21,8 +21,8 @@ Video360 Viewer的設定屬性。
 <table id="table_2A4F898BBF88417DB0834B7F78637F5D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 設定初次載入時視訊播放的靜音模式。 若設為 <span class="codeph"> 1 </span> 音量會靜音，否則視訊會播放聲音。 在某些裝置上，在載入時將視訊播放設為靜音也可讓視訊自動播放。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
+   <td colname="col2"> <p> 在初始載入時將視訊播放設為靜音模式。 若設為<span class="codeph"> 1 </span>，音量會設為靜音；否則，視訊會播放聲音。 在某些裝置上，在載入時將視訊播放設為靜音也可讓視訊自動播放。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

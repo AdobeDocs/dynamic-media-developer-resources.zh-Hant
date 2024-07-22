@@ -20,14 +20,14 @@ ht-degree: 2%
 
 <table id="simpletable_9C379451927C4058834640377C0BD7A0"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> jobid </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph">工作ID </span> </p> </td> 
   <td class="stentry"> <p>提交時取得的作業ID。 </p> </td> 
  </tr> 
 </table>
 
 傳回：
 
-以XML格式顯示工作的詳細狀態；發生下列情況時發生錯誤： `jobid` 無效或已刪除工作。
+XML格式之工作的詳細狀態；如果`jobid`無效或工作已刪除，則會發生錯誤。
 
 ## 範例 {#section-55f463750afe4814b5fdbaa2f1aafab4}
 

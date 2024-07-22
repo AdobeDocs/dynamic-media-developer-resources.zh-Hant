@@ -22,10 +22,10 @@ ht-degree: 8%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 原始路徑 | `xsd:string` | 原始封包的相對路徑。 |
+| 原始路徑 | `xsd:string` | 原始檔案櫃的相對路徑。 |
 | 原始檔案 | `xsd:string` | 封包名稱。 |
 | fileSize | `xsd:int` | 封包大小。 |
-| imagePath | `xsd:string` | 與暈映關聯的封包相對路徑。 |
+| image路徑 | `xsd:string` | 與暈映關聯的封包相對路徑。 |
 | imageFile | `xsd:string` | 與暈映關聯的封包檔案名稱。 |
-| optimizedPath | `xsd:string` | IPS最佳化封包的路徑。 |
+| optimizedPath | `xsd:string` | IPS最佳化機櫃的路徑。 |
 | optimizedFile | `xsd:string` | IPS最佳化的封包檔。 |

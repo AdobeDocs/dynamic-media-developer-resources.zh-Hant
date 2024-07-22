@@ -16,6 +16,6 @@ ht-degree: 0%
 
 請注意這些縮圖規則。
 
-1. 若 `catalog::ThumbType=Crop`，然後會將（裁切）影像縮放至可能的最小尺寸，同時仍覆蓋整個目標矩形。 若 `catalog::ThumbType=Fit`，然後會將（裁切）影像縮放至可能的最大尺寸，同時仍讓整個影像符合目標矩形。 若 `catalog::ThumbType=Texture`，則（裁切的）影像會縮放成以下比例： `catalog::ThumbRes` 至 `catalog::Resolution`.
-1. 將縮放的影像對齊目標矩形，依據 `attribute::ThumbHorizAlign` 和 `attribute::ThumbVertAlign`.
+1. 如果是`catalog::ThumbType=Crop`，則（裁切的）影像會縮放至可能的最小尺寸，同時仍覆蓋整個目標矩形。 如果是`catalog::ThumbType=Fit`，則（裁切的）影像會縮放到可能的最大尺寸，同時仍然將整個影像配合目標矩形。 如果`catalog::ThumbType=Texture`，（裁切）影像會縮放成比例`catalog::ThumbRes`對`catalog::Resolution`。
+1. 根據`attribute::ThumbHorizAlign`和`attribute::ThumbVertAlign`將縮放的影像與目標矩形對齊。
 1. 裁切結果至目標矩形。

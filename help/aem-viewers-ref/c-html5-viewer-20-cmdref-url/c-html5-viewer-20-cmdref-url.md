@@ -16,4 +16,4 @@ ht-degree: 0%
 
 所有檢視器通用的命令參考檔案。
 
-以下列出的命令是透過URL或使用API套用 `setParam()` 或 `setParams()` 方法。
+下列命令是透過URL或使用API `setParam()`或`setParams()`方法套用。

@@ -1,5 +1,5 @@
 ---
-title: 影像演算HTTP通訊協定命令概觀
+title: 影像演算HTTP通訊協定命令概覽
 description: 「影像演算」支援的命令列於下方，依類別分組。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# 影像演算HTTP通訊協定命令概觀{#image-rendering-http-protocol-command-overview}
+# 影像演算HTTP通訊協定命令概覽{#image-rendering-http-protocol-command-overview}
 
 「影像演算」支援的命令列於下方，依類別分組。
 

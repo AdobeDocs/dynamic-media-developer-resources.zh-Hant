@@ -19,12 +19,12 @@ ht-degree: 2%
 <table id="table_5151E6EA076C4AAD8D952A09E1F17C44"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> 適合 — 橫向|適合 — 垂直</span> </p> </td> 
-   <td> <p> 控制下拉式面板外觀的方向。 </p> <p>當設定為 <span class="codeph"> 垂直符合</span>，元件會先將基礎面板位置移至其按鈕底部，並嘗試從基礎位置向右或向左轉出面板。 每次嘗試時，元件都會檢查面板是否被外部容器裁剪。 如果所有嘗試都失敗，元件會嘗試將基礎面板位置移至頂端，並向右和向左重複轉出嘗試。 </p> <p>當設定為 <span class="codeph"> 適合 — 橫向</span>，元件會使用類似邏輯，但會先將基底向右移動，然後向下和向上嘗試轉出方向。 然後，它會將基底向左移動，嘗試向下和向上轉出方向。 </p> </td> 
+   <td> <p> <span class="codeph"> fit-lateral|fit-vertical</span> </p> </td> 
+   <td> <p> 控制下拉式面板外觀的方向。 </p> <p>設定為<span class="codeph"> fit-vertical</span>時，元件會先將基礎面板位置移至其按鈕底部，並嘗試從基礎位置向右或向左轉出面板。 每次嘗試時，元件都會檢查面板是否被外部容器裁剪。 如果所有嘗試都失敗，元件會嘗試將基礎面板位置移至頂端，並向右和向左重複轉出嘗試。 </p> <p>當設定為<span class="codeph"> fit-lateral</span>時，元件會使用類似的邏輯，但會先將基底移至右側，然後嘗試向下和向上轉出方向。 然後，它會將基底向左移動，嘗試向下和向上轉出方向。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> autoHideDelay</span></span> </p> </td> 
-   <td> <p> 設定下拉式自動隱藏計時器的延遲秒數，該計時器在使用者閒置時隱藏面板。 </p> </td> 
+   <td> <p> 設定下拉式自動隱藏計時器的延遲秒數，以在使用者閒置時隱藏面板。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

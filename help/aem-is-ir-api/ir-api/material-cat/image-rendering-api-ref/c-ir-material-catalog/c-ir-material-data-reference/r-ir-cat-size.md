@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 964cb4c1-5256-40eb-94ea-761916174b79
 source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 4%
+source-wordcount: '218'
+ht-degree: 3%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 4%
 
 以逗號分隔的三個實數。 不得為負數。 將未使用的值設為0。 可省略結尾的零。
 
-只有在影像應拉伸以符合指定大小時，才指定寬度和高度（外觀比例可能會變更）。 設定寬度或高度以按比例縮放影像。 將寬度和高度都設為0以使用 `catalog::Resolution`以決定物件大小。
+只有在影像應拉伸以符合指定大小時，才指定寬度和高度（外觀比例可能會變更）。 設定寬度或高度以按比例縮放影像。 將寬度和高度設定為0，以使用`catalog::Resolution`來決定物件大小。
 
 提供厚度值，將投影增加至貼花物件。 貼花材質的選擇性，被所有其他材質忽略。
 
 ## 預設 {#section-8029fe4dcbd1427db94a4fef1ccbbfd0}
 
-0,0,0. 這表示要根據catalog：：Resolution來決定貼花大小，而且物件沒有厚度（因此不會呈現投影）。
+0,0，0。 這表示要根據catalog：：Resolution來決定貼花大小，而且物件沒有厚度（因此不會呈現投影）。
 
 ## 範例 {#section-7e7166ec9a1e4f4cb026de3342fcddc3}
 
@@ -36,11 +36,11 @@ ht-degree: 4%
   <td class="stentry"> <p>貼花的大小強製為12x3英吋，且沒有厚度（也就是沒有投影）。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>0,5,1 </p></td> 
+  <td class="stentry"> <p>0,5，1 </p></td> 
   <td class="stentry"> <p>貼花寬度為5英吋，高度由影像的外觀比例決定，而投影會根據1英吋的厚度彩現。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>0,0,.5 </p></td> 
+  <td class="stentry"> <p>0,0，.5 </p></td> 
   <td class="stentry"> <p>貼花寬度和高度由catalog：：Resolution決定，且厚度為1/2英吋。 </p></td> 
  </tr> 
 </table>

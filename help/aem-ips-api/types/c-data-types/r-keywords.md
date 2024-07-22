@@ -8,7 +8,7 @@ exl-id: 5eb9ca70-5971-412d-92d1-4e9898d556fd
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '40'
-ht-degree: 35%
+ht-degree: 32%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 35%
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 關鍵字 | `xsd:string` | 關鍵字. |
+| 關鍵字 | `xsd:string` | 關鍵字。 |
 | 狀態 | `xsd:boolean` | 關鍵字有效性。 |
 | x | `xsd:int` | 關鍵字在x軸上的位置（畫素）。 |
 | y | `xsd:int` | 關鍵字在y軸上的位置（畫素）。 |

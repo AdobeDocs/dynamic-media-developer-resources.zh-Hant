@@ -8,7 +8,7 @@ exl-id: af7899c4-a95f-42c8-858e-ed1592c6f5b6
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '77'
-ht-degree: 22%
+ht-degree: 19%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 22%
 
 ## 參數 {#section-d7080ccd97334c94860eb107a3e132b2}
 
-**輸入(updateAssetSetparam)**
+**輸入(updateAssetSetParam)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
@@ -33,11 +33,11 @@ ht-degree: 22%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-|  |  |  |  |
+|   |  |  |  |
 
 ## 範例 {#section-ce47a4b6e062423fa55ed3a0fd26d7ff}
 
-**請求**
+**要求**
 
 ```java
 <updateAssetSetParam xmlns="http://www.scene7.com/IpsApi/xsd/2014-04-03"> 
@@ -48,7 +48,7 @@ ht-degree: 22%
 </updateAssetSetParam>
 ```
 
-**回答**
+**回應**
 
 ```java
 <updateAssetSetReturn xmlns="http://www.scene7.com/IpsApi/xsd/2014-04-03"/>

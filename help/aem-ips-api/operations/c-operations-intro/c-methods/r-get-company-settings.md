@@ -1,18 +1,18 @@
 ---
 description: 傳回特定公司的IPS設定。
 solution: Experience Manager
-title: getcompanysettings
+title: getCompanySettings
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b9f41405-8a45-416c-acec-ef22c2ee119e
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '64'
-ht-degree: 25%
+ht-degree: 21%
 
 ---
 
-# getcompanysettings{#getcompanysettings}
+# getCompanySettings{#getcompanysettings}
 
 傳回特定公司的IPS設定。
 
@@ -43,7 +43,7 @@ ht-degree: 25%
 
 此程式碼範例會傳回特定公司的所有IPS設定。
 
-**請求**
+**要求**
 
 ```java
 <ns1:getCompanySettingsParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd/2008-01-15">
@@ -51,7 +51,7 @@ ht-degree: 25%
 </ns1:getCompanySettingsParam>
 ```
 
-**回答**
+**回應**
 
 ```java
 <getCompanySettingsReturn xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

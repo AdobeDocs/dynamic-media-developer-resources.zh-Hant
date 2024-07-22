@@ -8,7 +8,7 @@ exl-id: 1f96f376-574c-464b-9c89-c215f6454b81
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '145'
-ht-degree: 13%
+ht-degree: 11%
 
 ---
 
@@ -50,9 +50,9 @@ ht-degree: 13%
 
 ## 範例 {#section-23f90100a9d94bc7b4045634cccd1b98}
 
-此程式碼範例使用公司控制代碼引數、電子郵件地址和密碼來判斷使用者是否可以登入IPS。 若使用者 *可以* 登入，此方法會傳回字串， `ValidLogin`. 若使用者 *無法* 登入，此方法會傳回字串， `InvalidLogin`.
+此程式碼範例使用公司處理引數、電子郵件地址和密碼來判斷使用者是否可以登入IPS。 如果使用者&#x200B;*可以*&#x200B;登入，此方法會傳回字串`ValidLogin`。 如果使用者&#x200B;*無法*&#x200B;登入，此方法會傳回字串`InvalidLogin`。
 
-**請求**
+**要求**
 
 ```java
 <ns1:checkLoginParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">
@@ -62,7 +62,7 @@ ht-degree: 13%
 </ns1:checkLoginParam>
 ```
 
-**回答**
+**回應**
 
 ```java
 <ns1:checkLoginReturn xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

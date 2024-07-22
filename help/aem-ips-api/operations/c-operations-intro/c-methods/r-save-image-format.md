@@ -8,7 +8,7 @@ exl-id: cafbd715-237b-4454-920e-643f0c84e208
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '146'
-ht-degree: 12%
+ht-degree: 10%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->此 `urlModifier` 欄位值必須包含有效的XML。 例如，變更 `&` 至 `&`. 取得 `urlModfier` IPS使用者介面的值。
+>`urlModifier`欄位值必須包含有效的XML。 例如，將`&`變更為`&`。 從IPS使用者介面取得`urlModfier`值。
 
 ## 授權的使用者型別 {#section-12c9d8d5933f4692bafb194060b4f882}
 
@@ -33,10 +33,10 @@ ht-degree: 12%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 具有您要使用之影像格式的公司控制代碼。 |
+| companyHandle | `xsd:string` | 是 | 具有您要使用的影像格式的公司控制代碼。 |
 | imageFormatHandle | `xsd:string` | 否 | 您要儲存的影像格式控制代碼。 |
 | name | `xsd:string` | 是 | 影像格式名稱。 |
-| urlModifier | `xsd:string` | 是 | 這可以是任何IPS通訊協定查詢字串。 產生URL修飾元的最簡單方式是使用IPS使用者介面建立一個URL，然後剪下並貼上查詢字串。 |
+| urlModifier | `xsd:string` | 是 | 這可以是任何IPS通訊協定查詢字串。 產生URL修飾元的最簡單方法是，使用IPS使用者介面建立一個修飾元，然後剪下並貼上查詢字串。 |
 
 **輸出(saveImageFormatReturn)**
 
@@ -46,9 +46,9 @@ ht-degree: 12%
 
 ## 範例 {#section-c7bd733212ef494297a97093f3af193f}
 
-此程式碼範例會建立影像格式。 在此範例中， `urlModifier` 是由具有有效HTML格式的IPS使用者介面中的值所決定。
+此程式碼範例會建立影像格式。 在此範例中，`urlModifier`是由其在IPS使用者介面中的值以有效的HTML格式所決定。
 
-**請求**
+**要求**
 
 ```java
 <saveImageFormatParam xmlns="http://www.scene7.com/IpsApi/xsd"> 
@@ -60,7 +60,7 @@ ht-degree: 12%
 </saveImageFormatParam>
 ```
 
-**回答**
+**回應**
 
 ```java
 <saveImageFormatReturn xmlns="http://www.scene7.com/IpsApi/xsd"> 

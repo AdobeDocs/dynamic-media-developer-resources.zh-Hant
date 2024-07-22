@@ -7,14 +7,14 @@ role: Developer,Admin,User
 exl-id: 6261844c-b63d-477b-8a48-963be868aa22
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 1%
+source-wordcount: '132'
+ht-degree: 0%
 
 ---
 
 # 伺服器組態檔{#server-configuration-files}
 
-所有組態檔案都位於 `install_folder/conf` 和對於大多數文字編輯器都是可編輯的。 重新啟動伺服器讓變更生效。
+所有組態檔都在`install_folder/conf`中，且大多數的文字編輯器都可以編輯。 重新啟動伺服器讓變更生效。
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ ht-degree: 1%
  <thead> 
   <tr> 
    <th class="entry"> <b>組態檔</b> </th> 
-   <th class="entry"> <b>說明</b> </th> 
+   <th class="entry"> <b>描述</b> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -40,7 +40,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <p> <span class="filepath"> PlatformServer.conf</span> </p> </td> 
-   <td> <p>[!DNL Platform Server] 設定. </p> </td> 
+   <td> <p>[!DNL Platform Server] 設定。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="filepath"> catalog-service.conf</span> </p> </td> 

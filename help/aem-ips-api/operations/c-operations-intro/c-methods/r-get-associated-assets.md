@@ -8,7 +8,7 @@ exl-id: cf49719f-5d79-4e64-a785-bf3b2fe200c7
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 8%
+ht-degree: 5%
 
 ---
 
@@ -46,25 +46,25 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd：string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
    <td colname="col4"> <p>處理擁有資產的公司。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandle</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname">資產控制代碼</span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd：string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>資產控點。 </p> </td> 
+   <td colname="col4"> <p>資產控制代碼。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> 型別：StringArray</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph">型別：StringArray</span> </p> </td> 
    <td colname="col3"> <p>否 </p> </td> 
    <td colname="col4"> <p>所需的回應欄位陣列。 請參閱簡介中的response- FieldArray/excludeFieldArray 。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> excludeFieldArray</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> 型別：StringArray</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph">型別：StringArray</span> </p> </td> 
    <td colname="col3"> <p>否 </p> </td> 
    <td colname="col4"> <p>排除的回應欄位陣列。 請參閱簡介中的response- FieldArray/excludeFieldArray 。 </p> </td> 
   </tr> 
@@ -85,62 +85,62 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> containerArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 型別：AssetArray</span> </td> 
+   <td colname="col2"> <span class="codeph">型別：AssetArray</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
    <td colname="col4"> <p>包含指定資產的集合與範本資產陣列。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> memberArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 型別：AssetArray</span> </td> 
+   <td colname="col2"> <span class="codeph">型別：AssetArray</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>指定集或範本資產所包含的資產陣列。 </p> </td> 
+   <td colname="col4"> <p>指定的集合或範本資產所包含的資產陣列。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> layerReferenceArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 型別：AssetArray</span> </td> 
+   <td colname="col2"> <span class="codeph">型別：AssetArray</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>圖層或範本URL中參照的資產陣列。 </p> </td> 
+   <td colname="col4"> <p>在圖層或範本URL中參照的資產陣列。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> ownerArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 型別：AssetArray</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname">擁有者陣列</span> </span> </td> 
+   <td colname="col2"> <span class="codeph">型別：AssetArray</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
    <td colname="col4"> <p>擁有指定資產的資產陣列。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> derivedArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 型別：AssetArray</span> </td> 
+   <td colname="col2"> <span class="codeph">型別：AssetArray</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
    <td colname="col4"> <p>用來產生指定資產的資產陣列。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> generatorarray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 型別：GenerationInfoArray</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> generatorArray</span> </span> </td> 
+   <td colname="col2"> <span class="codeph">型別：GenerationInfoArray</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>此 <span class="codeph"> generatorarray</span> 列出建立此資產的方式。 例如，如果 <span class="codeph"> assetHandler</span> 是PDF的影像頁面，則其中會包含PDF處理器工具並參照PdfFile資產。 </p> </td> 
+   <td colname="col4"> <p><span class="codeph"> generatorArray</span>列出建立此資產的方式。 例如，如果<span class="codeph"> assetHandler</span>是PDF的影像頁面，則會包含PDF處理器工具並參照PdfFile資產。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> generatedArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 型別：GenerationInfoArray</span> </td> 
+   <td colname="col2"> <span class="codeph">型別：GenerationInfoArray</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>此 <span class="codeph"> generatedArray</span> 反轉建立此資產的方式。 例如， <span class="codeph"> generatedArray</span> 可以包含由此產生的影像清單 <span class="codeph"> assetHandler</span> 如果這是Pdf檔案資產。 </p> </td> 
+   <td colname="col4"> <p><span class="codeph"> generatedArray</span>會反轉建立此資產的方式。 例如，如果這是PdfFile資產，則<span class="codeph"> generatedArray</span>可能包含從此<span class="codeph"> assetHandler</span>產生的影像清單。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAsset</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 型別：資產</span> </td> 
+   <td colname="col2"> <span class="codeph">型別：資產</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>與請求資產相關聯的縮圖資產資訊。 如果未指派縮圖資產，回應中會忽略欄位。 </p> </td> 
+   <td colname="col4"> <p>與請求資產相關聯的縮圖資產資訊。 如果未指派縮圖資產，回應中會省略欄位。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-您可以使用引數 `responseFieldArray` 或 `excludeFieldArray` 以限制回應大小。 尤其是 `GenerationInfo` 專案傳回 `generatorArray` 或 `generatedArray` 預設為同時包含建立者和產生的資產記錄。 對於PDF資產型別，此行為會在回應中導致不需要的「創作者」PDF資產記錄多個副本。 您可以透過新增以下專案來消除此問題 `generatedArray/items/originator` 至 `excludeFieldArray`. 或者，您可以指定要加入的明確回應欄位清單 `responseFieldArray`.
+您可以使用引數`responseFieldArray`或`excludeFieldArray`來限制回應大小。 特別是，`generatorArray`或`generatedArray`中傳回的`GenerationInfo`專案預設為同時包含建立者和產生的資產記錄。 對於PDF資產型別，此行為會在回應中產生「創作者」PDF資產記錄的多份不需要的副本。 您可以將`generatedArray/items/originator`新增至`excludeFieldArray`來消除此問題。 或者，您可以指定要包含在`responseFieldArray`中的明確回應欄位清單。
 
 ## 範例 {#section-8946ea4b9cb94912a8408249c897f192}
 
-以下基本範例是為從PDF擷取的影像要求產生器的控制代碼。 它包含 `containerArray` 長度為1，且專案包含 `assetHandle` PDF的。
+下列基本範例是針對從PDF擷取之影像的產生器控制代碼的要求。 它包含長度為`containerArray`的專案，其中包含PDF的`assetHandle`。
 
-**請求**
+**要求**
 
 ```java
 <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:beta="http://www.scene7.com/IpsApi/xsd/2013-08-29-beta">
@@ -156,7 +156,7 @@ ht-degree: 8%
 </soap:Envelope>
 ```
 
-**回答**
+**回應**
 
 ```java
 <soapenv:Envelope xmlns:soapenv="http://www.w3.org/2003/05/soap-envelope">
@@ -172,9 +172,9 @@ ht-degree: 8%
 </soapenv:Envelope>
 ```
 
-上述範例的相反情況如下：
+上述範例的相反範例如下：
 
-**請求**
+**要求**
 
 ```java
 <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:beta="http://www.scene7.com/IpsApi/xsd/2013-08-29-beta">
@@ -190,7 +190,7 @@ ht-degree: 8%
 </soap:Envelope>
 ```
 
-**回答**
+**回應**
 
 ```java
 <soapenv:Envelope xmlns:soapenv="http://www.w3.org/2003/05/soap-envelope">
@@ -253,9 +253,9 @@ ht-degree: 8%
 </soapenv:Envelope>
 ```
 
-在下個範例中，群組會新增至公司，具有 `groupHandleArray`. 此範例僅使用一個群組。
+在下個範例中，群組新增到具有`groupHandleArray`的公司。 此範例僅使用一個群組。
 
-**請求**
+**要求**
 
 ```java
 <ns1:addGroupMembershipParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">
@@ -264,6 +264,6 @@ ht-degree: 8%
 </ns1:addGroupMembershipParam>
 ```
 
-**回答**
+**回應**
 
 無。

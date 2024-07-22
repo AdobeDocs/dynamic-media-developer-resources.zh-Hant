@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 1d7e9eba-b30c-4f85-b551-6842f73dc22c
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '892'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 eCatalog Viewer顯示的特定內容必須經過本地化，包括縮放按鈕、頁面變更按鈕、縮圖按鈕、全熒幕按鈕、關閉按鈕和卷軸按鈕。
 
-檢視器中可本地化的每個文字內容，都會以稱為SYMBOL的特殊檢視器SDK識別碼表示。 任何SYMBOL都有英文地區設定的預設相關文字值( `"en"`)隨附現成可用的檢視器，而且可能也會視需要為許多語言環境設定使用者定義的值。
+檢視器中可本地化的每個文字內容，都會以稱為SYMBOL的特殊檢視器SDK識別碼表示。 任何SYMBOL都有隨現成可用的檢視器提供的英文語言環境(`"en"`)的預設相關文字值，而且也可以視需要為許多語言環境設定使用者定義的值。
 
 當檢視器啟動時，它會檢查目前的地區設定，檢視地區設定中每個支援的SYMBOL是否有使用者定義的值。 如果有的話，它會使用使用者定義的值；否則，它會回覆成現成的預設文字。
 
@@ -38,9 +38,9 @@ defaultLocale:"en"
 }
 ```
 
-在上述範例中，本地化物件會定義兩個地區設定( `"en"` 和 `"fr"`)並提供每個地區設定中兩個使用者介面元素的當地語系化。
+在上述範例中，本地化物件定義了兩個地區設定（`"en"`和`"fr"`），並為每個地區設定中的兩個使用者介面元素提供本地化。
 
-網頁程式碼應將此類本地化物件傳遞至檢視器建構函式，做為的值 `localizedTexts` 設定物件的欄位。 另一種選擇是呼叫以傳遞本地化物件 `setLocalizedTexts(localizationInfo)` 方法。
+網頁程式碼應將這類本地化物件作為設定物件的`localizedTexts`欄位值傳遞給檢視器建構函式。 替代選項是呼叫`setLocalizedTexts(localizationInfo)`方法來傳遞本地化物件。
 
 支援下列SYMBOL （假設containerId是檢視器容器的ID）：
 
@@ -97,35 +97,35 @@ defaultLocale:"en"
    <td colname="col2"> <p>向下捲動按鈕。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_rightButton.PanRightButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_rightButton.PanRightButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>大的下一頁按鈕。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_leftButton.PanLeftButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_leftButton.PanLeftButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>上一頁按鈕很大。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_lastPageButton.PanRightButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_lastPageButton.PanRightButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>最後一頁按鈕。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_secondaryLastPageButton.PanRightButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_secondaryLastPageButton.PanRightButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>最後一頁按鈕。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_firstPageButton.PanLeftButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_firstPageButton.PanLeftButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>第一頁按鈕。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_secondaryFirstPageButton.PanLeftButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_secondaryFirstPageButton.PanLeftButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>第一頁按鈕。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_toolBarRightButton.PanRightButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_toolBarRightButton.PanRightButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>下一頁按鈕。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_toolBarLeftButton.PanLeftButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_toolBarLeftButton.PanLeftButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>上一頁按鈕。 </p> </td> 
   </tr> 
   <tr> 
@@ -165,7 +165,7 @@ defaultLocale:"en"
    <td colname="col2"> <p>電子郵件地址格式不正確時顯示的錯誤訊息。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> EmailShare.TO </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> EmailShare.to </span> </p> </td> 
    <td colname="col2"> <p>「收件者」輸入欄位的標籤。 </p> </td> 
   </tr> 
   <tr> 
@@ -177,7 +177,7 @@ defaultLocale:"en"
    <td colname="col2"> <p>新增另一個電子郵件地址按鈕。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> EmailShare.FROM </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> EmailShare.from </span> </p> </td> 
    <td colname="col2"> <p>從輸入欄位。 </p> </td> 
   </tr> 
   <tr> 
@@ -345,7 +345,7 @@ defaultLocale:"en"
    <td colname="col2"> <p>「每份工作表2頁」選項按鈕的標題。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Print.CANCEL </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">列印。取消</span> </p> </td> 
    <td colname="col2"> <p>取消按鈕的標題。 </p> </td> 
   </tr> 
   <tr> 
@@ -361,7 +361,7 @@ defaultLocale:"en"
    <td colname="col2"> <p> 傳送至列印按鈕。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Favoritemenu.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> FavoritesMenu.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>我的最愛功能表按鈕。 </p> </td> 
   </tr> 
   <tr> 
@@ -389,12 +389,12 @@ defaultLocale:"en"
    <td colname="col2"> <p>「我的最愛」檢視非使用中時，按一下「檢視所有我的最愛」按鈕。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Favoriteeffect.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> FavoritesEffect.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>單一最愛圖示。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MediaSet.LABEL_XX[_YY] </span> </p> </td> 
-   <td colname="col2"> <p>檢視器在載入時產生的頁面標籤。 </p> <p>該符號的名稱是範本，其中 <span class="codeph"> XX </span> 是以零為基準的橫向跨頁索引，且為選用 <span class="codeph"> YY </span> 是以零為目標的跨頁中的頁面索引。 <span class="codeph"> XX </span>. </p> <p>僅適用於最初載入的資產；如果使用變更資產，則會忽略該資產。 <span class="codeph"> setAsset() </span> API呼叫。 </p> </td> 
+   <td colname="col2"> <p>檢視器在載入時產生的頁面標籤。 </p> <p>該符號的名稱是範本，其中<span class="codeph"> XX </span>是橫向以零為基底的分頁索引，而選用的<span class="codeph"> YY </span>是以<span class="codeph"> XX </span>為目標的分頁內的以零為基底的分頁索引。 </p> <p>僅適用於最初載入的資產；如果使用<span class="codeph"> setAsset() </span> API呼叫變更資產，則會忽略該資產。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MediaSet.LABEL_DELIM </span> </p> </td> 

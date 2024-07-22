@@ -8,7 +8,7 @@ exl-id: eb052685-b750-4a12-b00e-28e676340e98
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '70'
-ht-degree: 22%
+ht-degree: 20%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 22%
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
 | companyHandle | `xsd:string` | 是 | 包含Zip檔案之公司的控制代碼。 |
-| assetHandle | `xsd:string` | 是 | Zip檔案的處理常式。 |
+| assetHandle | `xsd:string` | 是 | Zip檔案的控點。 |
 
 **輸出(getZipEntriesReturn)**
 
@@ -47,9 +47,9 @@ ht-degree: 22%
 
 ## 範例 {#section-1fc0ad8fa448492cb5a135d3e3d161ac}
 
-此程式碼範例會傳回Zip檔案資訊，包括壓縮和未壓縮大小。
+此程式碼範例會傳回Zip檔案資訊，包括壓縮和未壓縮的大小。
 
-**請求**
+**要求**
 
 ```java
 <getZipEntriesParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">
@@ -58,7 +58,7 @@ ht-degree: 22%
 </getZipEntriesParam>
 ```
 
-**回答**
+**回應**
 
 ```java
 <getZipEntriesReturn xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

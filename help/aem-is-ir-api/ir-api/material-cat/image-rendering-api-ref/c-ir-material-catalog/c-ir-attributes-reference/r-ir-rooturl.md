@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # RootUrl{#rooturl}
 
-相對影像URL的根URL。 指定相對影像URL的根URL。 此`attribute::RootUrl` 已使用，而不是 `attribute::RootPath` 當 `src=` 值由{ curly braces }括住。
+相對影像URL的根URL。 指定相對影像URL的根URL。 當`src=`值由{大括弧}括住時，會使用`attribute::RootUrl`而非`attribute::RootPath`。
 
 ## 屬性 {#section-69cd0f71ea614770a8778c745d23197a}
 
@@ -22,7 +22,7 @@ ht-degree: 3%
 
 ## 預設 {#section-7a81569728474725a70f3a2cc4d48e85}
 
-繼承自 `default::RootUrl` 若未定義。 如果已定義但空白，此材質目錄不支援相對URL。
+如果未定義，則繼承自`default::RootUrl`。 如果已定義但空白，此材質目錄不支援相對URL。
 
 ## 另請參閱 {#section-e33bbe7034b24367b68f9142718a8be1}
 

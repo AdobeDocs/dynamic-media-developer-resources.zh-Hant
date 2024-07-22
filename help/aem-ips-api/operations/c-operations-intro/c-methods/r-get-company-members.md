@@ -8,7 +8,7 @@ exl-id: da5e5a48-2e0b-4ccc-a71e-b5b746484d4a
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '89'
-ht-degree: 17%
+ht-degree: 15%
 
 ---
 
@@ -38,13 +38,13 @@ ht-degree: 17%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| memberArray | `types:CompanyMemberArray` | 是 | 使用者會籍陣列。 |
+| memberArray | `types:CompanyMemberArray` | 是 | 使用者成員資格陣列。 |
 
 ## 範例 {#section-39d8cf3653fd4fe8b842caabac9dedfc}
 
-此程式碼範例會傳回使用者陣列中公司的所有成員。 回應因簡短而遭截斷。
+此程式碼範例會傳回使用者陣列中公司的所有成員。 為簡短起見，回應已截斷。
 
-**請求**
+**要求**
 
 ```java
 <ns1:getCompanyMembersParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">
@@ -53,7 +53,7 @@ ht-degree: 17%
 </ns1:getCompanyMembersParam>
 ```
 
-**回答**
+**回應**
 
 ```java
 <getCompanyMembersReturn xmlns="http://www.scene7.com/IpsApi/xsd">

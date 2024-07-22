@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: fac33287-ebcc-4995-b968-ac377065fdd4
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 2%
+source-wordcount: '189'
+ht-degree: 1%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 依畫素位置選取物件。
 
-` sel= *`x`*, *`y`*[, *`level`*]`
+` sel= *`x`*, *`y`*[, *`層級`*]`
 
 <table id="simpletable_247FF35D791C43D3AB433B8CF49F8C91"> 
  <tr class="strow"> 
@@ -24,26 +24,26 @@ ht-degree: 2%
   <td class="stentry"> <p>挑選以畫素(int、int)為單位的位置座標。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> 層級 </span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname">層級</span> </p> </td> 
   <td class="stentry"> <p>群組層級(int)。 </p> </td> 
  </tr> 
 </table>
 
-在指定的畫素座標處選取群組或物件 *`x, y`* 並開始新的MSS。 如果撿料位置沒有可選取的物件，或者撿料位置無效，則指定的動作為 `attribute::OnFailSel` 已採用。
+在&#x200B;*`x, y`*&#x200B;指定的畫素座標上選取群組或物件，並開始新的MSS。 如果挑選位置沒有可選取的物件，或挑選位置無效，則會採取`attribute::OnFailSel`指定的動作。
 
-*`level`* 指定是選取最外層的群組，還是向下展開至巢狀群組或物件。 若 *`level`* 未指定，則會選取最外層的群組。 設為1可選取最外層群組下方的一個群組層級。 設定為大數（例如99）可選取最內側的選取物件或群組。
+*`level`*&#x200B;指定是否選取最外層的群組，或向下展開至巢狀群組或物件。 如果未指定&#x200B;*`level`*，則會選取最外層的群組。 設為1可選取最外層群組下方的一個群組層級。 設定為大數（例如99）可選取最內層的可選取物件或群組。
 
 ## 屬性 {#section-8f27e84d88734a62a5e398e0c9972bdc}
 
-選取範圍指令；MSS分隔符號。 物件選取項會持續存在，直到選取其他物件為止，或是使用 `obj=` 或 `sel=`.
+選取範圍指令；MSS分隔符號。 物件選取項會持續存在，直到選取其他物件為止（使用`obj=`或`sel=`）。
 
-*`x, y`* 必須介於0， 0 （影像的左上角）到 *`wid`*-1， *`hei`*-1 （影像的右下角），其中 *`wid`* 和 *`hei`* 是未縮放暈映檢視的大小。
+*`x, y`*&#x200B;必須在0， 0 （影像的左上角）到&#x200B;*`wid`*-1， *`hei`*-1 （影像的右下角）的範圍內，其中&#x200B;*`wid`*&#x200B;和&#x200B;*`hei`*&#x200B;是未縮放暈映檢視的大小。
 
-若指定， *`level`* 必須為0或更大。
+若指定，*`level`*&#x200B;必須大於或等於0。
 
 ## 預設 {#section-e13c705a3e76468894b4ec190ed8a893}
 
-無對象 *`x, y`*. *`level`* 預設為0。
+*`x, y`*&#x200B;沒有專案。 *`level`*&#x200B;預設為0。
 
 ## 另請參閱 {#section-486842570b4e4bf895f6ccc172ebd8b2}
 
