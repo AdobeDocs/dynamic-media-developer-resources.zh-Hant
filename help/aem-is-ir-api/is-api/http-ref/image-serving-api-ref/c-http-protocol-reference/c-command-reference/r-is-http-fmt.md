@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 67f8a58d-88f5-4993-9749-41a3c530adba
-source-git-commit: b861d383d0a1af63ae18eb1e73231758c3352a55
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '1017'
 ht-degree: 2%
@@ -51,14 +51,16 @@ ht-degree: 2%
 | `webp-alpha` | 含Alpha色版的有損和無損WebP。 |
 | `webp` | 有損和無損WebP。 |
 
-| *`pixelType`* - rgb | 灰色 | cmyk |
+*`pixelType`* - rgb | 灰色 | cmyk
+
 | *`pixelType`* | 說明 |
 |---|---|
 | `cmyk` | 傳回CMYK影像資料。 |
 | `gray` | 傳回灰階影像資料。 |
 | `rgb` | 傳回RGB影像資料。 |
 
-| *`compression`* - jpeg | 有損 | 不失真 | lzw | 無 | 郵遞區號 |
+*`compression`* - jpeg | 有損 | 不失真 | lzw | 無 | zip
+
 | *`compression`* | 說明 |
 |---|---|
 | `jpeg` | JPEG壓縮（失真）。 |
