@@ -1,6 +1,6 @@
 ---
 title: Scene7 2016年秋季版
-description: 「Adobe Scene7 2016年秋季版本的最新發行說明，屬於Adobe Experience Cloud中的Adobe Experience Manager解決方案的一部分。」
+description: Adobe Scene7 2016年秋季版本的最新發行說明，是Adobe Experience Cloud中Adobe Experience Manager解決方案的一部分。
 solution: Experience Manager
 feature: Dynamic Media Classic
 role: Developer,User

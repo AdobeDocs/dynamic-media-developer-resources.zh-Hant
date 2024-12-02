@@ -1,6 +1,6 @@
 ---
 title: Adobe Dynamic Media Classic發行說明
-description: 「Adobe Dynamic Media Classic (Adobe Experience Cloud中Adobe Experience Manager解決方案的一部分)發行說明。」
+description: Adobe Dynamic Media Classic (Adobe Experience Cloud中Adobe Experience Manager解決方案的一部分)發行說明。
 author: Rick Brough
 cloud: Experience Cloud
 product: adobe dynamic media classic
