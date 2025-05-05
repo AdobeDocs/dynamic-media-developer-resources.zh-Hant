@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **使用回應式影像庫**
 
-1. 在Dynamic Media Classic中，[建立影像預設集](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html#image-sizing)，以備您打算搭配預設集使用回應式影像資料庫時使用。
+1. 在Dynamic Media Classic中，[建立影像預設集](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html?lang=zh-Hant#image-sizing)，以備您打算搭配預設集使用回應式影像資料庫時使用。
 
    定義與回應式影像資料庫搭配使用的影像預設集時，請勿使用任何會影響影像大小的設定，例如`wid=`、`hei=`或`scl=`。 請勿在影像預設集中指定任何大小欄位。 請改為保留為空白值。
 1. 將資料庫JavaScript檔案新增至您的網頁。

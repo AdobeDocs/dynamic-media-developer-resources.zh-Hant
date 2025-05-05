@@ -37,7 +37,7 @@ Adobe知道Adobe Dynamic Media使用者在競爭激烈的環境中工作，努�
 
 若對於改善說明檔案有任何想法，歡迎以協助撰寫的方式提出。 不過，評論、問題和提取請求的用途為 *貢獻* 僅限。 而非為了用於解答您有關如何使用Dynamic Media、實作您的專案或解決技術問題的目的。
 
-有關使用Dynamic Media或技術錯誤的任何問題，應透過 [Experience Cloud企業支援入口網站](https://experienceleague.adobe.com/?support-solution=General&amp;support-tab=home#support) 或討論於 [Experience Manager社群。](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)
+有關使用Dynamic Media或技術錯誤的任何問題，應透過 [Experience Cloud企業支援入口網站](https://experienceleague.adobe.com/zh-hant?support-solution=General&amp;support-tab=home#support) 或討論於 [Experience Manager社群。](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)
 
 ***協助撰寫說明檔案不會取代Adobe客戶服務*** 且這類協助撰寫若試圖解答支援相關問題，一律會遭到拒絕。
 

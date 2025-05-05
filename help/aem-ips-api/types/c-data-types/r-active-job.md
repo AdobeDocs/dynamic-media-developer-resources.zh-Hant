@@ -170,7 +170,7 @@ ht-degree: 1%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> exportJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph">型別：ExportJob</span> </td> 
-   <td colname="col3">允許授權匯出先前上載的檔案。 請參閱<a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external">匯出作業</a>。 </td> 
+   <td colname="col3">允許授權匯出先前上載的檔案。 請參閱<a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html?lang=zh-Hant" format="http" scope="external">匯出作業</a>。 </td> 
   </tr> 
  </tbody> 
 </table>

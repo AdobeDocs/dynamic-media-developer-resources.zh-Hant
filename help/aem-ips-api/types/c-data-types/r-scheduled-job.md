@@ -36,14 +36,14 @@ ht-degree: 4%
 | triggerState | `xsd:int` | 選擇工作觸發程式狀態。 |
 | imageServingPublishJob | `types:ImageServingPublishJob` | 影像伺服發佈工作的工作詳細資訊。 |
 | imageServingRenderJob | `types:ImageServingRenderJob` | 影像演算工作的工作詳細資訊。 |
-| videopublishJob | `types:VideoPublishJob` | 視訊發佈工作的工作詳細資訊。 請參閱[VideoPublishJob](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html)。 |
+| videopublishJob | `types:VideoPublishJob` | 視訊發佈工作的工作詳細資訊。 請參閱[VideoPublishJob](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html?lang=zh-Hant)。 |
 | serverDirectoryPublishJob | `types:ServerDirectoryPublishJob` | 伺服器目錄發佈工作的工作詳細資訊。 |
 | uploaddirectoriejob | `types:UploadDirectoryJob` | 上載目錄工作的工作詳細資訊。 |
 | uploadUrlsJob | `types:UploadUrlsJob` | 上傳URL工作的工作詳細資訊。 |
 | optimizeImagesJob | `types:OptimizeImagesJob` | |
 | ripPdfJob | `types:RipPdfsJob` | |
 | 重新處理資產工作 | `types:ReprocessAssetsJob` | |
-| exportJob | `types:ExportJob` | 允許授權匯出先前上載的檔案。 請參閱[匯出工作](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html)。 |
+| exportJob | `types:ExportJob` | 允許授權匯出先前上載的檔案。 請參閱[匯出工作](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html?lang=zh-Hant)。 |
 
 ## 附註 {#section-34ec157f281f412f9f0f6e861e6ed0cd}
 

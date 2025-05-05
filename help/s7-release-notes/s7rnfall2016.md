@@ -32,11 +32,11 @@ Adobe Scene7 2016年秋季發行版本的最新發行說明，屬於Adobe Experi
 
 Adobe很高興地宣佈推出HTTP/2內容傳送，並整體提升效能。
 
-請參閱[HTTP2傳送內容常見問答集](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic)。
+請參閱[HTTP2傳送內容常見問答集](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html?lang=zh-Hant#dynamic)。
 
 ## Scene7 Publishing System {#section-24487cb493444d808fb7193f0a00cdd4}
 
-如需完整檔案，請參閱[https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html)
+如需完整檔案，請參閱[https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=zh-Hant](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=zh-Hant)
 
 **新功能、增強功能和錯誤修正**
 
@@ -58,7 +58,7 @@ Adobe很高興地宣佈推出HTTP/2內容傳送，並整體提升效能。
 
 ## 檢視器（影像伺服5.5.3） {#section-1d59bcd5825d487b80b59a6d1a08ed30}
 
-如需完整檔案，請參閱[檢視器參考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en)。
+如需完整檔案，請參閱[檢視器參考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=zh-Hant)。
 
 **影像伺服的錯誤修正5.5.3**
 
@@ -68,7 +68,7 @@ Adobe很高興地宣佈推出HTTP/2內容傳送，並整體提升效能。
 
 ## 檢視器（影像伺服5.5.2） {#section-9932c988cfee45749594af481dfc6476}
 
-如需完整檔案，請參閱[檢視器參考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en)。
+如需完整檔案，請參閱[檢視器參考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=zh-Hant)。
 
 **影像伺服的錯誤修正5.5.2**
 
@@ -77,7 +77,7 @@ Adobe很高興地宣佈推出HTTP/2內容傳送，並整體提升效能。
 
 ## 檢視器（影像伺服5.5.1） {#section-833ab92c91c941d2bfdc27f233f582ad}
 
-如需完整檔案，請參閱[檢視器參考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en)。
+如需完整檔案，請參閱[檢視器參考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=zh-Hant)。
 
 **影像伺服5.5.1的新功能、增強功能和錯誤修正**
 

@@ -58,4 +58,4 @@ ht-degree: 0%
 
 ## 進一步資訊
 
-請參閱 [Adobe檔案投稿人指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) 以進一步瞭解如何使用GitHub編寫平台。
+請參閱 [Adobe檔案投稿人指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=zh-Hant) 以進一步瞭解如何使用GitHub編寫平台。
