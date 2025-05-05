@@ -16,7 +16,7 @@ ht-degree: 0%
 
 暈映轉換程式(vntc)是一個命令列公用程式，用來準備使用「影像製作」建立的內容，以便使用「影像演算」進行部署。
 
-[!DNL vntc]位於[！DNL *[!DNL install_root]*\ImageServing\bin]。 它有以下功能：
+[!DNL vntc]位於[!DNL *[!DNL install_root]*\ImageServing\bin]。 它有以下功能：
 
 * 將主要暈映轉換為單解析度、多解析度或金字塔製作暈映（請參閱[暈映縮放](../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md#concept-e373a29c2f954df98d704c7723804585)）。
 * 產生生產封包和涵蓋樣式檔案的視窗（請參閱`-resolution`和`-jpegquality`）。

@@ -32,7 +32,7 @@ Image Server會安裝為Linux®精靈。
 
 [!DNL http:// *[!DNL server:port]*/is/image]
 
-[!DNL  http:// *[!DNL server:port]*/ir/render]
+[!DNL &#x200B; http:// *[!DNL server:port]*/ir/render]
 
 在回應中，檢查是否有以`imageServer`開頭的專案，這表示[!DNL Platform Server]可以成功與影像伺服器通訊。
 

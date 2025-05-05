@@ -42,7 +42,7 @@ HTTP回應快取的大小上限（位元組）。 此設定會限制要快取的
 
 ## SV：：temp — 伺服器監督員暫存檔案資料夾 {#section-fd2cd5ef7e814a4bb56aaf5525e1a154}
 
-伺服器管理員偶爾需要將中繼資料儲存到磁碟。 路徑可以是絕對或相對於&#x200B;*[!DNL install_folder]*。 預設為[！DNL *[!DNL install_folder]*/temp]。
+伺服器管理員偶爾需要將中繼資料儲存到磁碟。 路徑可以是絕對或相對於&#x200B;*[!DNL install_folder]*。 預設為[!DNL *[!DNL install_folder]*/temp]。
 
 >[!NOTE]
 >

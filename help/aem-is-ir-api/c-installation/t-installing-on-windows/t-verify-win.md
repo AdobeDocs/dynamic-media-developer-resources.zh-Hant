@@ -23,7 +23,7 @@ ht-degree: 0%
 
    `http:// server:port /is/image`
 
-[!DNL  http:// *[!DNL server:port]*/ir/render]
+[!DNL &#x200B; http:// *[!DNL server:port]*/ir/render]
 
 檢查回應中是否存在「`imageServer.`」專案，指出影像伺服器正在接聽。
 >若已安裝，可使用檔案和示範套件的範例頁面執行其他驗證。

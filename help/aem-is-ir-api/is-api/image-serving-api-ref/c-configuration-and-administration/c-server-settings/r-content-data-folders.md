@@ -30,7 +30,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->依預設，此欄位會刻意設定為不存在的位置([！DNL *[!DNL install_folder]*/static])，有效地停用靜態內容服務。
+>依預設，此欄位會刻意設定為不存在的位置([!DNL *[!DNL install_folder]*/static])，有效地停用靜態內容服務。
 
 ## IS：：SaveDirectory — 檔案儲存根資料夾 {#section-1c517f8d49ce4cb8b9013e520bf309c9}
 

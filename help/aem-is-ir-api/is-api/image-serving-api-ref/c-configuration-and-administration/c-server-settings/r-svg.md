@@ -40,7 +40,7 @@ SVG來源檔案大小上限（以k位元組為單位）。 嘗試轉譯大於此
 
 ## PS：：svgProvider.fontRoot -SVG字型檔案資料夾 {#section-a8d45b0d68504945b8780f5eac351b0d}
 
-指定SvgRender尋找轉譯SVG文字所需字型檔案的位置；通常是`IS::RootPaths`中指定的路徑之一。 預設值為[！DNL *[!DNL install_folder]*/images]。
+指定SvgRender尋找轉譯SVG文字所需字型檔案的位置；通常是`IS::RootPaths`中指定的路徑之一。 預設值為[!DNL *[!DNL install_folder]*/images]。
 
 ## SVG：：SVGRender.port， IS：：SVGTcpPort -SVG通訊連線埠 {#section-608687123aa644b7b58fe42385d71b79}
 

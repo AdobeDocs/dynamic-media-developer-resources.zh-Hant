@@ -1,5 +1,5 @@
 ---
-description: 粗體旗標。 指定當RTF粗體指令(\b)要求時，是否應使用此字型對應記錄所參考的字型檔案。
+description: 粗體旗標。 指定當RTF粗體指令(b)要求時，是否應使用此字型對應記錄所參考的字型檔案。
 solution: Experience Manager
 title: 粗體
 feature: Dynamic Media Classic,SDK/API

@@ -16,4 +16,4 @@ ht-degree: 0%
 
 目錄系統快取的根資料夾。
 
-可以是絕對路徑或相對於[！DNL *[!DNL install_folder]*]的路徑。 預設值為[!DNL ./cache]，對應至[！DNL *[!DNL install_folder]*/cache]。
+可以是絕對路徑或相對於[!DNL *[!DNL install_folder]*]的路徑。 預設值為[!DNL ./cache]，對應至[!DNL *[!DNL install_folder]*/cache]。

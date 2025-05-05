@@ -43,7 +43,7 @@ ht-degree: 0%
 
   `AllowDirectAccess=include:IS,STATIC`
 
-* 允許直接存取`IS`和`STATIC``AllowDirectAccess=exclude:IS,STATIC`以外的所有物件型別
+* 允許直接存取`IS`和`STATIC` `AllowDirectAccess=exclude:IS,STATIC`以外的所有物件型別
 
 * 允許直接存取&#x200B;*no*&#x200B;物件型別（亦即，不包含任何物件）
 

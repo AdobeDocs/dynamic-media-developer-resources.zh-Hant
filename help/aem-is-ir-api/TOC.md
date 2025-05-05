@@ -26,13 +26,13 @@ ht-degree: 7%
    + [授權](c-installation/c-licensing.md)
    + [目錄](c-installation/c-contents.md)
    + [安裝資料夾](c-installation/c-install-folder.md)
-   + 正在Windows {#windows-install}上安裝
+   + 正在Windows上安裝 {#windows-install}
       + [在Windows上安裝](c-installation/t-installing-on-windows/t-installing-on-windows.md)
       + [第一次安裝](c-installation/t-installing-on-windows/t-first-time-installation-win.md)
       + [在管理員以外的其他使用者帳戶下安裝](c-installation/t-installing-on-windows/t-diff-account-win.md)
       + [從IS 4.7.4或更新版本更新](c-installation/t-installing-on-windows/t-update-win.md)
       + [正在驗證安裝](c-installation/t-installing-on-windows/t-verify-win.md)
-   + 在Linux {#linux-install}上安裝
+   + 在Linux上安裝 {#linux-install}
       + [在Linux上安裝](c-installation/c-installing-linux/c-installing-linux.md)
       + [第一次安裝](c-installation/c-installing-linux/t-first-install-lin.md)
       + [從IS 4.7.4或更新版本更新](c-installation/c-installing-linux/t-update-lin.md)
