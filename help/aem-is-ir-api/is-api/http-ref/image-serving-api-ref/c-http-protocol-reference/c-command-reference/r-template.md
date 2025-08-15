@@ -27,11 +27,11 @@ ht-degree: 4%
 
 *`template`*&#x200B;必須是包含在`catalog::Modifier`中的範本本文之影像目錄專案。
 
-當`template=`出現時，請求路徑中指定的物件不會套用為圖層0的來源。 不過，使用預先定義的路徑變數`$object$`做為`src=`值，便可在範本中的任何地方將其當做`src=`或`mask=`參考。 要求路徑中所指定物件的`catalog::Modifier`僅套用範本中`$object$`的替代，而一律套用`catalog::PostModifier`。
+當`template=`出現時，請求路徑中指定的物件不會套用為圖層0的來源。 不過，使用預先定義的路徑變數`src=`做為`mask=`值，便可在範本中的任何地方將其當做`$object$`或`src=`參考。 要求路徑中所指定物件的`catalog::Modifier`僅套用範本中`$object$`的替代，而一律套用`catalog::PostModifier`。
 
 圖層0是在範本內文中定義的，可以是影像、純色、文字、巢狀或內嵌的要求圖層。
 
-將&#x200B;*`object`*&#x200B;與`template=`搭配使用時，會忽略&#x200B;*`object`*&#x200B;的`catalog:PostModifier`。
+將`catalog:PostModifier`與&#x200B;*`object`*&#x200B;搭配使用時，會忽略&#x200B;*`object`*&#x200B;的`template=`。
 
 ## 預設 {#section-9de53ea27c4b4fd4811e40e345d8ba05}
 

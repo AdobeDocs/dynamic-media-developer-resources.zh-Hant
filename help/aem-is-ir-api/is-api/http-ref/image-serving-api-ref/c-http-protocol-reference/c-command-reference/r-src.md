@@ -43,9 +43,9 @@ ht-degree: 2%
 
 ## 屬性 {#section-2c22bb89a35d470f833df8ba898efd93}
 
-圖層屬性。 若為`layer=comp`，則套用至`layer=0`。 在相同的圖層中，與`text=`和`textPs=`互斥；最後出現的`text=`、`textPs=`或`src=`會佔上風，並判斷這是影像圖層還是文字圖層。 被效果圖層忽略。
+圖層屬性。 若為`layer=0`，則套用至`layer=comp`。 在相同的圖層中，與`text=`和`textPs=`互斥；最後出現的`text=`、`textPs=`或`src=`會佔上風，並判斷這是影像圖層還是文字圖層。 被效果圖層忽略。
 
-*`object`*無法解析為其`catalog::Modifier`中包含`src=`或`mask=`命令的另一個目錄記錄。 （請使用請求巢狀來達到類似的效果。）
+*`object`*無法解析為其`src=`中包含`mask=`或`catalog::Modifier`命令的另一個目錄記錄。 （請使用請求巢狀來達到類似的效果。）
 
 `is`、`ir`和`fxg`首碼區分大小寫。
 

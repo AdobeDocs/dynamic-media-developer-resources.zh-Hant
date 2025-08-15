@@ -18,7 +18,7 @@ Postfix要求修飾元字串。 沒有或多個以「&amp;」字元分隔的「�
 
 此欄位中的命令一律會覆寫HTTP要求和`catalog::Modifier`中的命令。
 
-如果某些影像需要特殊設定（通常由URL控制），例如`qlt=`或`resmode=`，則`catalog::PostModifier`會很有用。 `catalog::Modifier`應該用於設定影像目錄中的大多數IS命令。
+如果某些影像需要特殊設定（通常由URL控制），例如`catalog::PostModifier`或`qlt=`，則`resmode=`會很有用。 `catalog::Modifier`應該用於設定影像目錄中的大多數IS命令。
 
 `catalog::PostModifier`允許使用巨集，只要這些巨集是在相同目錄或預設目錄中定義即可。 您也可以使用自訂變數。
 

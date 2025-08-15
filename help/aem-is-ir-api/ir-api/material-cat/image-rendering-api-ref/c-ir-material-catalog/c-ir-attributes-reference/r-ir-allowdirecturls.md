@@ -16,7 +16,7 @@ ht-degree: 6%
 
 允許絕對來源URL。
 
-設定為`1`可允許`src=`命令中的絕對HTTP URL （以&quot; `http://`&quot;開頭）。 設定為`0`不允許絕對URL。
+設定為`1`可允許`http://`命令中的絕對HTTP URL （以&quot; `src=`&quot;開頭）。 設定為`0`不允許絕對URL。
 
 ## 屬性 {#section-9246bc06c7484f9e8f65a5edb24f6854}
 

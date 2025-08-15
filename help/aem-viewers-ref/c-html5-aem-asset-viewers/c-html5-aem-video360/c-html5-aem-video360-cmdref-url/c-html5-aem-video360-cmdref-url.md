@@ -18,7 +18,7 @@ Video360檢視器的命令參考檔案。
 
 您可以在URL中設定任何組態命令。 或者，您可以使用API方法`setParam()`或`setParams()`，或兩者來設定任何組態命令。 您也可以在伺服器端組態記錄中指定任何組態屬性。
 
-您可以使用類別名稱或對應的HTML5 Viewer SDK元件的例項名稱為某些組態命令加上前置詞。 元件的執行個體名稱是動態的，且取決於傳遞至`setContainerId()` API方法的檢視器容器DOM元素的識別碼。 說明檔案包含這類命令的選用首碼。 例如，`playback`的記錄如下：
+您可以使用類別名稱或相對應HTML5 Viewer SDK元件的例項名稱為某些設定命令加上前置詞。 元件的執行個體名稱是動態的，且取決於傳遞至`setContainerId()` API方法的檢視器容器DOM元素的識別碼。 說明檔案包含這類命令的選用首碼。 例如，`playback`的記錄如下：
 
 ```
 [Video360Player.|<containerId>_video360Player].playback

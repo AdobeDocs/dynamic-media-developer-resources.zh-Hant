@@ -36,7 +36,7 @@ https://<IPS_hostname>:<IPS_port>/<IPS_webapp>/
 services/IpsApiService 
 ```
 
-**存取Dynamic Media地區的URL**
+**存取Dynamic Media區域的URL**
 
 <table id="table_45BB314ABCDA49F38DF7BECF95CC984A"> 
  <thead> 
@@ -131,7 +131,7 @@ IPS API Web服務僅支援SOAP繫結。
 
 **支援的傳輸**
 
-IPS API SOAP繫結僅支援HTTP傳輸。 使用HTTPSPOST方法提出所有SOAP要求。
+IPS API SOAP繫結僅支援HTTP傳輸。 使用HTTPS POST方法提出所有SOAP請求。
 
 **SOAP動作標題**
 
@@ -197,7 +197,7 @@ IPS API SOAP繫結僅支援HTTP傳輸。 使用HTTPSPOST方法提出所有SOAP�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> faultHttpStatusCode </span> </p> </td> 
-   <td colname="col2"> <p> 用於覆寫錯誤回應HTTP狀態代碼的可選引數。 依預設，錯誤回應會傳回HTTP狀態碼500 （內部伺服器錯誤）。 有些使用者端平台(包括AdobeFlash)無法讀取回應內文，除非傳回狀態碼200 (OK)。 </p> </td> 
+   <td colname="col2"> <p> 用於覆寫錯誤回應HTTP狀態代碼的可選引數。 依預設，錯誤回應會傳回HTTP狀態碼500 （內部伺服器錯誤）。 有些使用者端平台(包括Adobe Flash)無法讀取回應內文，除非傳回狀態碼200 (OK)。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -221,7 +221,7 @@ IPS API SOAP繫結僅支援HTTP傳輸。 使用HTTPSPOST方法提出所有SOAP�
 
 如果因為某些原因，您的使用者端應用程式無法傳遞`authHeader` SOAP標頭，API要求也可以使用HTTP基本驗證（如RFC 2617所指定）來指定認證。
 
-對於HTTP基本驗證，每個SOAPPOST請求的HTTP標頭區段都必須包含表單的標頭：
+對於HTTP基本驗證，每個SOAP POST請求的HTTP標頭區段都必須包含表單的標頭：
 
 `Authorization: Basic base64(<IPS_user_email>:<password>)`
 
@@ -229,7 +229,7 @@ IPS API SOAP繫結僅支援HTTP傳輸。 使用HTTPSPOST方法提出所有SOAP�
 
 使用初始請求先發制人地傳送Authorization標頭。 如果要求中未包含任何驗證認證，`IpsApiService`不會以狀態碼`401 (Unauthorized)`回應。 而是傳回`500 (Internal Server Error)`的狀態碼，並傳回SOAP錯誤內文，指出無法驗證要求。
 
-在IPS 3.8之前，透過SOAP標頭使用名稱空間`http://www.scene7.com/IpsApi`中的`AuthUser`和`AuthPassword`元素實作驗證。 例如: 
+在IPS 3.8之前，已使用名稱空間`AuthUser`中的`AuthPassword`和`http://www.scene7.com/IpsApi`元素，透過SOAP標頭實作驗證。 例如: 
 
 ```
 <soap:Header xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"> 
@@ -244,7 +244,7 @@ IPS API SOAP繫結僅支援HTTP傳輸。 使用HTTPSPOST方法提出所有SOAP�
 
 在呼叫者的認證通過驗證之後，會檢查請求以確保呼叫者有權執行請求的操作。 授權是以呼叫者的使用者角色為基礎，可能也需要檢查目標公司、目標使用者和其他作業引數。 此外，影像入口網站使用者必須屬於具有執行特定檔案夾和資產作業所需許可權的群組。 作業參考區段詳細說明每個作業的授權需求。
 
-**範例SOAP要求與回應**
+**範例SOAP請求和回應**
 
 下列範例顯示完整的`addCompany`作業，包括HTTP標頭：
 
@@ -300,7 +300,7 @@ xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
 
 **SOAP錯誤**
 
-當作業遇到例外狀況時，會傳回SOAP錯誤作為SOAP訊息的主體，以取代正常回應。 例如，如果非管理員使用者嘗試傳送先前`addCompany`個請求，則會傳回下列回應：
+當操作遇到例外狀況時，SOAP錯誤會傳回為SOAP訊息的內文，而非正常回應。 例如，如果非管理員使用者嘗試傳送先前`addCompany`個請求，則會傳回下列回應：
 
 ```
 HTTP/1.1 500 Internal Server Error 

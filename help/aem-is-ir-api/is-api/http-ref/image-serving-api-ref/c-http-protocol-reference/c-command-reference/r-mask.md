@@ -43,7 +43,7 @@ ht-degree: 1%
 
 影像或圖層屬性。 套用至圖層0 （若`layer=comp`）。 被效果圖層忽略。
 
-*`object`*&#x200B;不可解析為`catalog::Modifier`中包含`src=`或`mask=`命令的目錄記錄。
+*`object`*&#x200B;不可解析為`src=`中包含`mask=`或`catalog::Modifier`命令的目錄記錄。
 
 `is`和`ir`首碼不區分大小寫。
 

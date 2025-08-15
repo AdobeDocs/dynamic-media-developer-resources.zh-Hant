@@ -36,7 +36,7 @@ ht-degree: 23%
 |---|---|---|---|
 | companyHandle | `xsd:string` | 是 | 公司控制代碼。 |
 | assetHandle | `xsd:string` | 是 | 資產控制代碼。 |
-| 壓縮封包 | `xsd:Base 64 binary` | 是 | 您要設定或更新的[!DNL zlib-compressed]個XMP封包。 |
+| 壓縮封包 | `xsd:Base 64 binary` | 是 | [!DNL zlib-compressed]個您想要設定或更新的XMP封包。 |
 
 **輸出(updateXMPPacketReturn)**
 

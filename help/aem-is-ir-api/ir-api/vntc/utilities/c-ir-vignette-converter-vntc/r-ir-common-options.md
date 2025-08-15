@@ -31,7 +31,7 @@ ht-degree: 0%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -jpegquality <span class="varname"> ival </span> </span> </p> </td> 
-  <td class="stentry"> <p>選取有損JPEG編碼，用於內嵌在輸出檔案中的RGB和灰階影像資料，而不是無損PNG。 含Alpha (RGBA)的影像一律使用PNG編碼儲存。 <span class="varname"> ival </span>指定了JPEG品質(1...100)；建議使用85或更高。 預設值為<span class="codeph"> -jpegquality 0 </span>，會選取PNG編碼。 </p> </td> 
+  <td class="stentry"> <p>選取用於RGB的有損JPEG編碼和嵌入輸出檔案中的灰階影像資料，而不是無損PNG。 含Alpha (RGBA)的影像一律使用PNG編碼儲存。 <span class="varname"> ival </span>指定JPEG品質(1...100)；建議使用85或更高的版本。 預設值為<span class="codeph"> -jpegquality 0 </span>，會選取PNG編碼。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -log <span class="varname">路徑</span> </span> </p> </td> 

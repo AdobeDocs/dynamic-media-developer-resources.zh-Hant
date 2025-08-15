@@ -1,6 +1,6 @@
 ---
-title: twitter共用
-description: twitter共用工具包含新增至「社交」共用面板的按鈕。 選取按鈕時，使用者會重新導向至社交服務提供者的共用對話方塊。 按鈕的位置可完全由社交分享工具管理。
+title: Twitter共用
+description: Twitter共用工具包含新增至「社交」共用面板的按鈕。 選取按鈕時，使用者會重新導向至社交服務提供者的共用對話方塊。 按鈕的位置可完全由社交分享工具管理。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -12,19 +12,19 @@ ht-degree: 0%
 
 ---
 
-# twitter共用{#twitter-share}
+# Twitter共用{#twitter-share}
 
-twitter共用工具包含新增至「社交」共用面板的按鈕。 選取按鈕時，使用者會重新導向至社交服務提供者的共用對話方塊。 按鈕的位置可完全由社交分享工具管理。
+Twitter共用工具包含新增至「社交」共用面板的按鈕。 選取按鈕時，使用者會重新導向至社交服務提供者的共用對話方塊。 按鈕的位置可完全由社交分享工具管理。
 
 <!--<a id="section_ADDF98E91AF24F618289D1682A5FB13A"></a>-->
 
-twitter共用按鈕的外觀是由下列CSS類別選取器所控制：
+Twitter共用按鈕的外觀是由下列CSS類別選取器所控制：
 
 ```
 .s7interactivevideoviewer .s7twittershare
 ```
 
-twitter共用工具的&#x200B;**CSS屬性**
+Twitter共用工具的&#x200B;**CSS屬性**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -57,7 +57,7 @@ twitter共用工具的&#x200B;**CSS屬性**
 
 ## 範例 {#section-5a8837ea208e48ed8dfa6a3c1a514492}
 
-若要設定28 x 28畫素的Twitter共用按鈕，並針對四種不同按鈕狀態分別顯示不同的影像：
+若要設定28 x 28畫素的Twitter共用按鈕，並針對四種不同按鈕狀態分別顯示不同影像：
 
 ```
 .s7interactivevideoviewer .s7twittershare { 

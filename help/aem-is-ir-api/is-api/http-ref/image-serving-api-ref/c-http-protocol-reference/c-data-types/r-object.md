@@ -37,9 +37,9 @@ Source物件規範。 可以將影像、SVG和ICC設定檔物件指定為影像�
  </tr> 
 </table>
 
-*`rootId`*&#x200B;識別影像目錄。 （如需詳細資訊，請參閱[影像目錄](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3)。） 如果在URL路徑中指定&#x200B;*`rootId`*，該目錄會變成此請求的&#x200B;*主目錄*。 否則，會使用預設目錄作為主目錄。 同一個請求中可以使用多個不同的影像目錄。
+*`rootId`*&#x200B;識別影像目錄。 （如需詳細資訊，請參閱[影像目錄](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3)。） 若在URL路徑中指定&#x200B;*`rootId`*，該目錄會成為此請求的&#x200B;*主目錄*。 否則，會使用預設目錄作為主目錄。 同一個請求中可以使用多個不同的影像目錄。
 
-伺服器最初假設`src=`、`mask=`和`icc=`命令中省略&#x200B;*`rootId`*，並嘗試在主目錄中尋找目錄專案。 實際上，伺服器會嘗試使用整個&#x200B;*`object`*&#x200B;字串做為&#x200B;*`objId.`*
+伺服器最初假設&#x200B;*`rootId`*、`src=`和`mask=`命令中省略`icc=`，並嘗試在主目錄中尋找目錄專案。 實際上，伺服器會嘗試使用整個&#x200B;*`object`*&#x200B;字串做為&#x200B;*`objId.`*
 
 如果找到目錄專案，則會使用它；否則，伺服器接下來會嘗試比對影像目錄的&#x200B;*`rootId`*。 如果識別了目錄，則會搜尋&#x200B;*`objId`*。 如果找到和專案，則會使用它。
 
@@ -59,13 +59,13 @@ Source物件規範。 可以將影像、SVG和ICC設定檔物件指定為影像�
 
 如需支援檔案格式的完整清單，請參閱IC （影像轉換程式）公用程式的說明。
 
-需要多個不同解析度影像資料的應用程式，在使用Dynamic Media金字塔TIFF(PTIF)多解析度格式時表現最佳。 IC公用程式可用來從任何支援的影像格式建立PTIF影像。
+需要多個不同解析度的影像資料的應用程式，若使用Dynamic Media金字塔TIFF (PTIF)多解析度格式，其效能最佳。 IC公用程式可用來從任何支援的影像格式建立PTIF影像。
 
 ## 範例 {#section-728ca9b566b54ea1afdf8f5f0a031a57}
 
 **存取兩個不同影像目錄中的影像和ICC設定檔**
 
-擷取識別為&#39;[!DNL myCatalog]&#39;之影像目錄中的影像&#39;[!DNL myImage]&#39;，並附加位於名為&#39;[!DNL myProfiles]&#39;之影像目錄中的ICC設定檔&#39; [!DNL sRGB]&#39;：
+擷取識別為&#39;[!DNL myImage]&#39;之影像目錄中的影像&#39;[!DNL myCatalog]&#39;，並附加位於名為&#39;[!DNL sRGB]&#39;之影像目錄中的ICC設定檔&#39; [!DNL myProfiles]&#39;：
 
 ` http:// *`伺服器`*/myCatalog/myImage?icc=myProfiles/sRGB&iccEmbed=true`
 
@@ -77,7 +77,7 @@ Source物件規範。 可以將影像、SVG和ICC設定檔物件指定為影像�
 
 **直接存取影像檔案，同時仍使用目錄來提供屬性**
 
-使用`myImageCatalog`中設定的預設jpg屬性存取[!DNL my/image/path/myImage.tif]：
+使用[!DNL my/image/path/myImage.tif]中設定的預設jpg屬性存取`myImageCatalog`：
 
 `http://server/myImageCatalog/my/image/path/myImage.tif?wid=200`
 

@@ -174,11 +174,11 @@ defaultLocale:"en"
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FacebookShare.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>facebook共用按鈕。 </p> </td> 
+   <td colname="col2"> <p>Facebook共用按鈕。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> TwitterShare.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>twitter共用按鈕。 </p> </td> 
+   <td colname="col2"> <p>Twitter共用按鈕。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Video360Player.ERROR </span> </p> </td> 

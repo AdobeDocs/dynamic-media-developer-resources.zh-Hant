@@ -1,5 +1,5 @@
 ---
-description: 本檔案說明伺服器管理問題，並說明Dynamic Media影像演算的組態設定。
+description: 本檔案說明伺服器管理問題，並說明Dynamic Media影像轉譯的組態設定。
 solution: Experience Manager
 title: 伺服器管理序言
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 伺服器管理序言{#server-administration-preface}
 
-本檔案說明伺服器管理問題，並說明Dynamic Media影像演算的組態設定。
+本檔案說明伺服器管理問題，並說明Dynamic Media影像轉譯的組態設定。
 
 **目標對象**
 

@@ -7,7 +7,7 @@ role: Developer,Admin,User
 exl-id: fe1fc984-3c6b-4bd1-b5ba-630860ac7319
 source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## SV：：log — 伺服器監督員追蹤記錄檔路徑 {#section-3697bc480ff646e79cacc2812c55ef26}
 
-伺服器管理員記錄檔的資料夾和基本檔案名稱。 路徑可以是絕對或相對於&#x200B;*[!DNL install_folder]*。 伺服器監督員會將連字型大小和目前日期( *[!DNL -yyyy-mm-dd]*)附加至檔案名稱（在檔案字尾之前，如果有的話）。 Adobe建議您將所有記錄檔傳送至與[!DNL Platform Server]記錄檔(`PS::LogFolder`)相同的資料夾，以使用[!DNL Platform Server] (`PS::LogDays`)實作的記錄檔管理。 預設值為[!DNL logs/Supervisor.log]。
+伺服器管理員記錄檔的資料夾和基本檔案名稱。 路徑可以是絕對或相對於&#x200B;*[!DNL install_folder]*。 伺服器監督員會將連字型大小和目前日期( *[!DNL -yyyy-mm-dd]*)附加至檔案名稱（在檔案字尾之前，如果有的話）。 Adobe建議您將所有記錄檔傳送至與[!DNL Platform Server]記錄檔( `PS::LogFolder`)相同的資料夾，以使用[!DNL Platform Server] (`PS::LogDays`)實作的記錄檔管理。 預設值為[!DNL logs/Supervisor.log]。
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ ht-degree: 0%
 >
 >必須先建立新資料夾，才能變更此設定。 請確定已設定存取許可權，讓「影像伺服」具備必要的建立、讀取和寫入許可權。
 
-## IS：TraceClient — 影像伺服器偵錯記錄層級 {#section-3851f1f68e404430985c629ac80534db}
+## IS:TraceClient — 影像伺服器偵錯記錄層級 {#section-3851f1f68e404430985c629ac80534db}
 
 記錄層級可以是1、2、3或4 （預設為2）
 

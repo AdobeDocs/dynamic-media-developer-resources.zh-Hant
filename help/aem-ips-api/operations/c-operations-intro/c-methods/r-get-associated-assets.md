@@ -134,11 +134,11 @@ ht-degree: 5%
  </tbody> 
 </table>
 
-您可以使用引數`responseFieldArray`或`excludeFieldArray`來限制回應大小。 特別是，`generatorArray`或`generatedArray`中傳回的`GenerationInfo`專案預設為同時包含建立者和產生的資產記錄。 對於PDF資產型別，此行為會在回應中產生「創作者」PDF資產記錄的多份不需要的副本。 您可以將`generatedArray/items/originator`新增至`excludeFieldArray`來消除此問題。 或者，您可以指定要包含在`responseFieldArray`中的明確回應欄位清單。
+您可以使用引數`responseFieldArray`或`excludeFieldArray`來限制回應大小。 特別是，`GenerationInfo`或`generatorArray`中傳回的`generatedArray`專案預設為同時包含建立者和產生的資產記錄。 對於PDF資產型別，此行為會在回應中產生「創作者」PDF資產記錄的多份不需要的副本。 您可以將`generatedArray/items/originator`新增至`excludeFieldArray`來消除此問題。 或者，您可以指定要包含在`responseFieldArray`中的明確回應欄位清單。
 
 ## 範例 {#section-8946ea4b9cb94912a8408249c897f192}
 
-下列基本範例是針對從PDF擷取之影像的產生器控制代碼的要求。 它包含長度為`containerArray`的專案，其中包含PDF的`assetHandle`。
+以下基本範例是針對從PDF擷取之影像的產生器控制代碼的要求。 它包含長度為`containerArray`的專案，其中包含PDF的`assetHandle`。
 
 **要求**
 

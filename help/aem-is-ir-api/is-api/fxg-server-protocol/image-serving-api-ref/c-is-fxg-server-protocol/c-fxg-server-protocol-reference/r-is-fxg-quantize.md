@@ -43,7 +43,7 @@ ht-degree: 1%
 
 ## 範例 {#section-b3a979dc9ae3459baa093bf17310988f}
 
-使用&#39;`web`&#39;調色盤產生GIF縮圖，且無遞色：
+使用&#39; `web`&#39;調色盤產生GIF縮圖，且無遞色：
 
 [!DNL `http://server/myRootId/myImageId?req=tmb&fmt=gif&quantize=web,off`]
 

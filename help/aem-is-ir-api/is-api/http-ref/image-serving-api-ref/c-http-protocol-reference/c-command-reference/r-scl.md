@@ -43,7 +43,7 @@ ht-degree: 2%
 
 ## 範例 {#section-a33f6239476a4b438d939656ad99aa76}
 
-如需常見的`scl=`應用程式，請參閱[rotate=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096)中的範例。
+如需常見的[應用程式，請參閱](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096)rotate=`scl=`中的範例。
 
 ## 另請參閱 {#section-ccefd5de59924059903d66d4974ce317}
 

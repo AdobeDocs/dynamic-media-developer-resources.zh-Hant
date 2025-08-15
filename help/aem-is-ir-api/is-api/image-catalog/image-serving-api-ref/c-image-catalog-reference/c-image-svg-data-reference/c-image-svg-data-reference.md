@@ -1,5 +1,5 @@
 ---
-description: 即使影像和SVG資料非常類似，它們仍會保留在影像目錄的不同表格中。
+description: 即使影像和SVG資料非常類似，它們仍會保留在影像目錄中的個別表格中。
 solution: Experience Manager
 title: 影像/SVG資料參考
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 影像/SVG資料參考{#image-svg-data-reference}
 
-即使影像和SVG資料非常類似，它們仍會保留在影像目錄的不同表格中。
+即使影像和SVG資料非常類似，它們仍會保留在影像目錄中的個別表格中。
 
 如果需要影像資料，必須在`attribute::CatalogFile`中指定分項影像之影像資料檔案的相對或絕對路徑。 如果需要SVG資料，則必須在`attribute::SvgCatalogFile`中指定SVG資料檔案的相對或絕對路徑。
 

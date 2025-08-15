@@ -50,7 +50,7 @@ ht-degree: 0%
 
 在有效的規則集XML檔案中，`<?xml>`和`<ruleset>`專案永遠是必要的，即使未定義實際規則。
 
-允許一個包含任意數目`<rule>`個元素的`<ruleset>`元素。
+允許一個包含任意數目`<ruleset>`個元素的`<rule>`元素。
 
 預先處理規則檔案的內容區分大小寫。
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 ## OnMatch屬性 {#section-ed952fa55d99422db0ee68a2b9d395d3}
 
-可以使用`<rule>`專案的`OnMatch`屬性修改預設行為。 `OnMatch`可設為`break` （預設）、`continue`或`error`。
+可以使用`OnMatch`專案的`<rule>`屬性修改預設行為。 `OnMatch`可設為`break` （預設）、`continue`或`error`。
 
 <table id="table_6680A81492B24CE593330DA7B0075E8F"> 
  <thead> 

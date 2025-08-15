@@ -1,6 +1,6 @@
 ---
 title: 簡介
-description: 本檔案說明Dynamic Media影像演算的HTTP通訊協定。
+description: 本檔案說明Dynamic Media影像轉譯的HTTP通訊協定。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 # 簡介{#introduction}
 
-本檔案說明Dynamic Media影像演算的HTTP通訊協定。
+本檔案說明Dynamic Media影像轉譯的HTTP通訊協定。
 
 僅說明通訊協定的公開可用方面。 伺服器可支援保留供Dynamic Media使用者端軟體使用的其他命令。
 
 **目標對象**
 
-本檔案適用於有經驗的程式設計師和網站開發人員，協助將Dynamic Media影像演算用於網站或自訂應用程式。
+本檔案適用於有經驗的程式設計師和網站開發人員，協助他們將Dynamic Media影像演算用於網站或自訂應用程式。
 
-我們假設讀者熟悉Dynamic Media影像製作和影像演算、一般HTTP通訊協定標準和慣例，以及基本的影像術語。
+假設讀者熟悉Dynamic Media影像製作和影像轉譯、一般HTTP通訊協定標準和慣例，以及基本影像術語。
 
 **檔案慣例**
 
@@ -95,6 +95,6 @@ ht-degree: 0%
 
 **常用辭彙**
 
-**&#x200B; *`MSS`* &#x200B;** 材料規格區段：請求中兩個選取指令之間的材料屬性集。
+** *`MSS`* **材料規格區段：請求中兩個選取指令之間的材料屬性集。
 
-**&#x200B; *`vignette`* &#x200B;** 在Dynamic Media影像製作中準備的影像，以便與影像演算搭配使用。
+** *`vignette`***在Dynamic Media影像製作中準備的影像，以搭配影像演算使用。

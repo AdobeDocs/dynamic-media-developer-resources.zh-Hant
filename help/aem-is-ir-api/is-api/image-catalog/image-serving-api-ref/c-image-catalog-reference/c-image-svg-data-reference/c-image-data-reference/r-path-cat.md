@@ -26,7 +26,7 @@ ht-degree: 4%
 
 如需支援檔案格式的完整清單，請參閱Image Converter (IC)公用程式的說明。
 
-需要多個不同解析度的影像資料的應用程式，在使用Dynamic Media金字塔TIFF(PTIFF)多解析度格式時表現最佳。 IC公用程式可用來從任何支援的影像格式建立PTIFF影像。
+需要多個不同解析度的影像資料的應用程式，在使用Dynamic Media金字塔TIFF (PTIFF)多解析度格式時表現最佳。 IC公用程式可用來從任何支援的影像格式建立PTIFF影像。
 
 ## 預設 {#path-default}
 

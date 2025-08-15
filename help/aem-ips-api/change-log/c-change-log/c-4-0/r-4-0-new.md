@@ -23,7 +23,7 @@ ht-degree: 0%
 
 已新增`PostScriptOptions/alpha`欄位。
 
-已新增`getProperty`作業的`VideoRootUrl`和`SwfRootUrl`屬性。
+已新增`VideoRootUrl`作業的`SwfRootUrl`和`getProperty`屬性。
 
 已將選用的`appName`和`appVersion`引數新增至`authHeader`以追蹤呼叫應用程式。 已新增記錄至`ipsApiService.log`。
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 新增`'Asset'`個資產型別字串常數，主要用於允許跨資產中繼資料欄位。
 
-已實作`searchAssets`的`trashState`引數。
+已實作`trashState`的`searchAssets`引數。
 
 已實作`getAssetPublishHistory`作業。
 
@@ -65,13 +65,13 @@ ht-degree: 0%
 
 已實作`getAssetCounts`。
 
-已新增對`setImageSetMembers`的支援，以便在`ImageSet`個資產中包含`RenderSet`個成員。
+已新增對`setImageSetMembers`的支援，以便在`RenderSet`個資產中包含`ImageSet`個成員。
 
 已新增`replaceImage`作業。
 
 已新增`copyImage`作業。
 
-已新增`LayerViewInfo`、`TemplateInfo`和`WatermarkInfo`的`setUrlModifier`作業和`urlModifier/urlPostApplyModifier`欄位。
+已新增`setUrlModifier`、`urlModifier/urlPostApplyModifier`和`LayerViewInfo`的`TemplateInfo`作業和`WatermarkInfo`欄位。
 
 已新增`createDerivedAsset`作業。 目前`ownerHandle`必須參考影像資產，而且型別可以是`AdjustedView`或`LayerView`。
 
@@ -79,7 +79,7 @@ ht-degree: 0%
 
 IPS公司設定`CompanySettings`已移植到網站服務API。
 
-已新增`excludeByproducts`篩選器標幟至`searchAssets`作業。 將此標幟設為true會執行`PSDlayer`個影像並PDF擷取的影像。
+已新增`excludeByproducts`篩選器標幟至`searchAssets`作業。 將此標幟設為true會執行`PSDlayer`個影像和PDF擷取的影像。
 
 已新增`getGenerationInfo`作業。
 
@@ -160,21 +160,21 @@ IPS公司設定`CompanySettings`已移植到網站服務API。
 
 新增工作的地區設定引數，以及設定API作業地區設定的機制。 地區設定字串的格式應為`<language_code>[-<country_code>]`。 語言代碼是如ISO-639所指定的小寫、雙字母代碼，而選用的國家/地區代碼是如ISO-3166所指定的大寫、雙字母代碼。
 
-在`authHeader` SOAP標頭中新增可選的地區設定引數，以設定API作業的地區設定。 如果此引數不存在，則會使用HTTP標頭`Accept-Language`。 如果此標頭也不存在，則會使用IPS伺服器的預設地區設定。
+將選用的地區設定引數新增到`authHeader` SOAP標題以設定API操作的地區設定。 如果此引數不存在，則會使用HTTP標頭`Accept-Language`。 如果此標頭也不存在，則會使用IPS伺服器的預設地區設定。
 
 新增強型別中繼資料欄位的get/set支援。
 
-實作GZIP回應控制項的SOAP和HTTP標題支援。
+實作SOAP和HTTP標題對gzip回應控制的支援。
 
 已新增`gzipResponse`標幟至`authHeader`。 如果不存在，則API會檢查HTTP `Accept-Encoding`標頭。
 
 新增對searchAssets的支援，以搜尋強型別中繼資料欄位條件。
 
 * 對於所有欄位型別，可以使用字串比較運運算元( `Equals, NotEquals, Contains, NotContains, StartsWith, EndsWith`)傳遞值
-* 對於布林欄位，可以使用`Equals`作業傳遞`boolVal`。
-* 對於Int欄位，可以使用數值比較運運算元( `Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`)傳遞`longVal`，或使用數值範圍運運算元( `Between, NotBetween`)傳遞`minLong/maxLong`。
-* 對於Float欄位，可以使用數值比較運運算元( `Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`)傳遞`doubleVal`，或使用數值範圍運運算元( `Between, NotBetween`)傳遞`minDouble/maxDouble`。
-* 對於日期欄位，您可以使用數值比較運運算元( `Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`)傳遞`dateVal`，或者您可以使用數值範圍運運算元( `Between, NotBetween`)傳遞minDate/maxDate。
+* 對於布林欄位，可以使用`boolVal`作業傳遞`Equals`。
+* 對於Int欄位，可以使用數值比較運運算元( `longVal`)傳遞`Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`，或使用數值範圍運運算元( `minLong/maxLong`)傳遞`Between, NotBetween`。
+* 對於Float欄位，可以使用數值比較運運算元( `doubleVal`)傳遞`Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`，或使用數值範圍運運算元( `minDouble/maxDouble`)傳遞`Between, NotBetween`。
+* 對於日期欄位，您可以使用數值比較運運算元( `dateVal`)傳遞`Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`，或者您可以使用數值範圍運運算元( `Between, NotBetween`)傳遞minDate/maxDate。
 
 已新增描述、`jobSubType`和`originalJobName`欄位至`JobLog`型別。
 
@@ -322,12 +322,12 @@ IPS公司設定`CompanySettings`已移植到網站服務API。
   <tr> 
    <td colname="col2"> <p> <span class="codeph"> pdfCatalog </span> </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;布林值&gt; </span> </p> </td> 
-   <td colname="col4"> <p>定義是否要在呈現後將多頁PDF合併到eCatalog中（預設為true）。 </p> </td> 
+   <td colname="col4"> <p>定義在轉譯後是否將多頁PDF結合至eCatalog （預設為true）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p> <span class="codeph"> extractSearchWords </span> </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;布林值&gt; </span> </p> </td> 
-   <td colname="col4"> <p>定義是否將PDF中的字詞擷取到DB以供稍後提供給搜尋伺服器（預設為false）。 </p> </td> 
+   <td colname="col4"> <p>定義是否將PDF中的字詞擷取到DB中，以便稍後提供給搜尋伺服器（預設為false）。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

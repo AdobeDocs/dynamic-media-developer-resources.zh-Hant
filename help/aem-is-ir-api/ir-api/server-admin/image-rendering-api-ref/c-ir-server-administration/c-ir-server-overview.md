@@ -25,6 +25,6 @@ ht-degree: 0%
 
 「影像演算」與「影像伺服」共用許多伺服器功能，所有選項都透過編輯設定檔案來設定。 預設目錄([!DNL default.ini])或特定材質目錄提供其他組態屬性。 如需詳細資訊，請參閱原物料目錄。
 
-影像演算安裝資料夾( *[!DNL install_folder]*)是[!DNL *[!DNL install_root]*/ImageRendering]。 在Windows上，預設&#x200B;*[!DNL install_root]*&#x200B;為`C:\Program Files\Scene7`。 安裝期間可能會指定不同的資料夾。 在Linux上，*[!DNL install_root]*&#x200B;必須一律為[!DNL /usr/local/scene7]。 可以使用符號連結。
+影像演算安裝資料夾( *[!DNL install_folder]*)是[！DNL *[!DNL install_root]*/ImageRendering]。 在Windows上，預設&#x200B;*[!DNL install_root]*&#x200B;為`C:\Program Files\Scene7`。 安裝期間可能會指定不同的資料夾。 在Linux上，*[!DNL install_root]*&#x200B;必須一律為[!DNL /usr/local/scene7]。 可以使用符號連結。
 
 所有檔案路徑在UNIX上均區分大小寫，在Windows上則不區分大小寫。

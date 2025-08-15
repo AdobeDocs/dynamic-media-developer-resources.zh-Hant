@@ -16,7 +16,7 @@ ht-degree: 3%
 
 主影像顏色。 減色顏色，用於紋理上色。 應該是紋理影像中的平均主色。
 
-如果沒有`catalog::Color`的紋理材質套用至非紋理暈映物件，您也可以使用`BaseColor`做為填色色彩。
+如果沒有`BaseColor`的紋理材質套用至非紋理暈映物件，您也可以使用`catalog::Color`做為填色色彩。
 
 ## 屬性 {#section-d9aec235f28b402581cf2277f5fc6fbb}
 

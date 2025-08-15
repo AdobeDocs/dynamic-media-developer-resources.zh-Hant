@@ -20,7 +20,7 @@ ht-degree: 0%
 # Dynamic Media發行說明 {#release-notes}
 
 + [最新發行說明](s7rn2017.md)
-+ 封存{#archive-release-notes}
++ 封存 {#archive-release-notes}
    + [Scene7 2016年秋季版](s7rnfall2016.md)
    + [Scene7 Publishing System 6.10發行說明（2015年5月）](s7rn610.md)
    + [Scene7 Publishing System 6.9發行說明（2014年10月）](s7rn69.md)

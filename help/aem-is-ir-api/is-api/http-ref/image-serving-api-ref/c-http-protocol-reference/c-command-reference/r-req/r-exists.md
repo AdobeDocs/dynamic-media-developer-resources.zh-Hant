@@ -20,7 +20,7 @@ ht-degree: 1%
 
 *`reqId`*&#x200B;個唯一要求識別碼
 
-傳回名為`catalogRecord.exists`的單一屬性。 如果指定的目錄專案存在於影像或預設目錄中，則屬性值會設為「1」，否則會設為「0」。 針對`/is/content`內容的`req=exists`要求指出靜態內容目錄中是否有指定的記錄。
+傳回名為`catalogRecord.exists`的單一屬性。 如果指定的目錄專案存在於影像或預設目錄中，則屬性值會設為「1」，否則會設為「0」。 針對`req=exists`內容的`/is/content`要求指出靜態內容目錄中是否有指定的記錄。
 
 會忽略請求字串中的其他命令。 HTTP回應可使用以`attribute::NonImgExpiration`為基礎的TTL進行快取。
 

@@ -39,7 +39,7 @@ ht-degree: 2%
 
 ## 預設 {#section-f91f516c6af54f0eb4d8c964b923cae0}
 
-如果貼花資料是以目錄專案為基礎，則為`catalog::Size`；否則`size=0,0,0`。 如果未指定&#x200B;*`wid`*&#x200B;和&#x200B;*`hei`*&#x200B;或設為0，則從`res=`計算貼花大小。 如果未指定&#x200B;*`thickness`*&#x200B;或設為0，則不會轉譯投影。
+如果貼花資料是以目錄專案為基礎，則為`catalog::Size`；否則`size=0,0,0`。 如果未指定`res=`和&#x200B;*`wid`*&#x200B;或設為0，則從&#x200B;*`hei`*&#x200B;計算貼花大小。 如果未指定&#x200B;*`thickness`*&#x200B;或設為0，則不會轉譯投影。
 
 ## 範例 {#section-04fdc2b60b9e4071b672bf6a913738ad}
 

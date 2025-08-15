@@ -23,7 +23,7 @@ ht-degree: 4%
 <table id="simpletable_998CF426296945FEA48D19E33B71A17E"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> true|false </span> </p> </td> 
-  <td class="stentry"> <p>指定瀏覽器格式轉換功能(將JPEG或PNG影像轉換為較小的瀏覽器專用檔案格式)是開啟(<span class="codeph"> true </span>)或關閉(<span class="codeph"> false </span>)。 </p> </td> 
+  <td class="stentry"> <p>指定將JPEG或PNG影像轉換為較小瀏覽器專用檔案格式的瀏覽器格式轉換功能是開啟(<span class="codeph"> true </span>)或關閉(<span class="codeph"> false </span>)。 </p> </td> 
  </tr> 
 </table>
 
@@ -33,4 +33,4 @@ ht-degree: 4%
 
 ## 另請參閱
 
-[bfc](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-bfc.md)，[dpr](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-dpr.md)，[網路](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-network.md)，[智慧型影像](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/imaging-faq.html?lang=zh-Hant)
+[bfc](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-bfc.md)，[dpr](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-dpr.md)，[網路](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-network.md)，[智慧型影像](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/imaging-faq.html?lang=en)

@@ -16,7 +16,7 @@ ht-degree: 1%
 
 縮放目標資料。 沒有或多個縮放目標屬性，這些屬性可與縮放檢視器使用者端搭配使用。
 
-伺服器在取代&#39;`??`&#39;記錄終止元Token之後，傳回此欄位的內容以回應`req=targets`。
+伺服器在取代&#39;`req=targets`&#39;記錄終止元Token之後，傳回此欄位的內容以回應`??`。
 
 每個縮放目標最多可以有四個屬性相關聯：
 
@@ -57,11 +57,11 @@ ht-degree: 1%
 
 目標。 每個縮放目標都需要&#x200B;*`num`*.rect，而且必須在影像中完全指定矩形。 所有其他屬性都是選用的。
 
-*`label`*&#x200B;和&#x200B;*`userData`*&#x200B;參與文字字串本地化。 如需詳細資訊，請參閱&#x200B;*HTTP通訊協定參考*&#x200B;中的[文字字串本地化](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)。
+*`label`*&#x200B;和&#x200B;*`userData`*&#x200B;參與文字字串本地化。 如需詳細資訊，請參閱[HTTP通訊協定參考](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)中的&#x200B;*文字字串本地化*。
 
 對於涉及迴轉和小冊子檢視器使用者端的應用程式，必須在定義影像集的相同目錄記錄中定義縮放目標。 檢視器會忽略影像整合員的目錄記錄中的任何縮放目標定義。
 
-Dynamic Media檢視器預期全解析度影像座標中的縮放目標已由`catalog::Modifier`的命令調整。
+Dynamic Media檢視器會預期全解析度影像座標中的縮放目標已由`catalog::Modifier`的命令調整。
 
 ## 屬性 {#section-b3f8eba4985f4b00bb935d592fe770f9}
 

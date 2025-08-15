@@ -39,7 +39,7 @@ ht-degree: 0%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> -imagemap</span> </p></td> 
-  <td class="stentry"> <p>啟用從暈映擷取影像地圖檔案。 對應資料會寫入只包含<span class="codeph"> &lt;map&gt;</span>專案的HTML檔案。 輸出檔案的名稱與輸出影像檔案相同，但尾碼為<span class="filepath"> .htm</span>。 如果指定命令，但暈映中沒有對應資料，則會產生警告訊息，且不會建立檔案。 </p></td> 
+  <td class="stentry"> <p>啟用從暈映擷取影像地圖檔案。 對應資料會寫入僅包含<span class="codeph"> &lt;map&gt;</span>元素的HTML檔案。 輸出檔案的名稱與輸出影像檔案相同，但尾碼為<span class="filepath"> .htm</span>。 如果指定命令，但暈映中沒有對應資料，則會產生警告訊息，且不會建立檔案。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> — 設定檔</span> </p></td> 
@@ -51,7 +51,7 @@ ht-degree: 0%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> — 縮圖寬度<span class="varname"> ival</span></span> </p></td> 
-  <td class="stentry"> <p>縮圖影像的畫素寬度和高度限制。 如果已指定，則會從暈映檢視影像、封包樣式檔案的面板影像，或視窗遮蓋樣式檔案中第一個樣式的照明對映中產生不寬、不高於<span class="varname"> ival</span>的JPEG影像。 </p></td> 
+  <td class="stentry"> <p>縮圖影像的畫素寬度和高度限制。 如果已指定，則會從暈映檢視影像、封包樣式檔案的面板影像或視窗遮蓋樣式檔案中第一個樣式的照明對映中產生不寬、不高於<span class="varname"> ival</span>的JPEG影像。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> — 寬度<span class="varname"> ival</span> *[，<span class="varname"> ival</span>]</span> </p></td> 

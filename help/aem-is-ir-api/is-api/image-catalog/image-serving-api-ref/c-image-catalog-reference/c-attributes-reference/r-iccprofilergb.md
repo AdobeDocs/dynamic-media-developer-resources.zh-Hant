@@ -1,5 +1,5 @@
 ---
-description: RGB預設輸出色彩設定檔。 指定當icc=未指定輸出色域時，用於RGB回應影像的ICC色彩設定檔名稱，以及指定各種「影像伺服」命令（例如color=）之特定RGB色彩值的名稱。
+description: RGB預設輸出色彩設定檔。 指定當icc=未指定輸出色域時，RGB回應影像所使用的ICC色彩設定檔名稱，以及指定各種「影像伺服」命令（例如color=）之特定RGB色彩值的名稱。
 solution: Experience Manager
 title: IccProfileRgb
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # IccProfileRgb{#iccprofilergb}
 
-RGB預設輸出色彩設定檔。 指定當icc=未指定輸出色域時，用於RGB回應影像的ICC色彩設定檔名稱，以及指定各種「影像伺服」命令（例如color=）之特定RGB色彩值的名稱。
+RGB預設輸出色彩設定檔。 指定當icc=未指定輸出色域時，RGB回應影像所使用的ICC色彩設定檔名稱，以及指定各種「影像伺服」命令（例如color=）之特定RGB色彩值的名稱。
 
 ## 屬性 {#section-3dd55c954d4d4ad4bb715ed7cee31025}
 

@@ -20,7 +20,7 @@ ht-degree: 2%
 
 ## 屬性 {#section-fad6ffff4c5f4b5c8010281bc1377055}
 
-文字字串。 如果已指定，則必須為此影像目錄(或預設目錄（若在[!DNL default.ini]中指定）中的有效`Catalog::Id`值。
+文字字串。 如果已指定，則必須為此影像目錄(或預設目錄（若在`Catalog::Id`中指定）中的有效[!DNL default.ini]值。
 
 ## 預設 {#section-f8a2029b5b8740b2af149bdbfa28fbae}
 

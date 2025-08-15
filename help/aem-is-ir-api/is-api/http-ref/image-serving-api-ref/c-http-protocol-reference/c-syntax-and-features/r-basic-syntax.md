@@ -39,7 +39,7 @@ HTTP通訊協定基本語法如下：
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname">命令</span> </span> </p> </td> 
-  <td class="stentry"> <p>&lbrace;<span class="varname"> cmdName</span>|{$<span class="varname"> var</span>}[=<span class="varname"> value</span>] </p></td> 
+  <td class="stentry"> <p>{<span class="varname"> cmdName</span>|{$<span class="varname"> var</span>}[=<span class="varname"> value</span>] </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname">巨集</span> </span> </p> </td> 
@@ -81,7 +81,7 @@ HTTP通訊協定基本語法如下：
 
 ## 備註 {#section-69ef0be0f17a418c87a0eba21c2ddb00}
 
-註解可內嵌於任何位置的要求字串中，並以period(.)識別 緊接在命令分隔符號(&amp;)後面。 註解會在下次出現（未編碼）命令分隔符號時終止。 此功能可用來將資訊新增至不供「影像伺服」使用的請求，例如時間戳記和資料庫ID。
+註解可內嵌於任何位置的要求字串中，並在命令分隔符號(&amp;)後面加上句號(.)加以識別。 註解會在下次出現（未編碼）命令分隔符號時終止。 此功能可用來將資訊新增至不供「影像伺服」使用的請求，例如時間戳記和資料庫ID。
 
 ## 另請參閱 {#section-d0b836568c31454b8dbeb136e6bbe0f0}
 

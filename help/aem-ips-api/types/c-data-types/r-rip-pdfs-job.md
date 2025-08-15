@@ -1,6 +1,6 @@
 ---
 title: RipPdf作業
-description: 複製現有PDF資產的程式。
+description: 擷取現有PDF資產的程式。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # [!DNL RipPdfsJob]{#rippdfsjob}
 
-複製現有PDF資產的程式。
+擷取現有PDF資產的程式。
 
 >[!NOTE]
 >
@@ -34,7 +34,7 @@ ht-degree: 2%
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> pdfHandleArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph">型別：HandleArray</span> </p> </td> 
-   <td colname="col3"> <p>要擷取的PDF檔案陣列的控制代碼。 </p> </td> 
+   <td colname="col3"> <p>要擷取的一系列PDF檔案的處理常式。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> createMask</span> </span> </p> </td> 

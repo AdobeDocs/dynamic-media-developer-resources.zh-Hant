@@ -67,7 +67,7 @@ ht-degree: 1%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> inDesignOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph">型別：InDesignOptions</span> </td> 
-   <td colname="col3"> 將InDesign檔案上傳至伺服器的選項。 </td> 
+   <td colname="col3"> 用於上傳InDesign檔案至伺服器的選項。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> clokoutBackground</span> </span> </td> 

@@ -21,7 +21,7 @@ ht-degree: 4%
 * `props`
 * `userdata`
 
-只有當`catalog::UserData`的內容遵循屬性格式時，`userdata`回應才會格式化為屬性。
+只有當`userdata`的內容遵循屬性格式時，`catalog::UserData`回應才會格式化為屬性。
 
 * [文字(Java)屬性](r-text-java-properties.md)
 * [JavaScript屬性](r-javascript-properties.md)

@@ -1,5 +1,5 @@
 ---
-description: 影像地圖資料。 沒有或多個完整的HTML<AREA>元素，由前到後排序。
+description: 影像地圖資料。 沒有或多個完整的HTML <AREA>元素，由前到後排序。
 solution: Experience Manager
 title: 地圖
 feature: Dynamic Media Classic,SDK/API
@@ -14,15 +14,15 @@ ht-degree: 4%
 
 # 地圖{#map}
 
-影像地圖資料。 沒有或以上完整HTML`<AREA>`元素，從前到後排序。
+影像地圖資料。 沒有或多個完整的HTML `<AREA>`元素，由前到後排序。
 
 伺服器會解譯並可能變更SHAPE和COORDS屬性（此版本不支援SHAPE=CIRCLE）。 `<AREA>`的所有其他屬性皆未經修改即傳遞。 以COORDS屬性指定的座標值必須是未修改來源影像左上角的畫素位移。 （`%`座標在此版本中不受支援，而且可能無法正確處理。）
 
 ## 屬性 {#section-f52d89fd399b4356ac05277e6c12f956}
 
-文字字串值。 如果已指定，則必須是一或多個完整的HTML`<AREA>`專案。
+文字字串值。 若指定，則必須是一或多個完整的HTML `<AREA>`元素。
 
-此欄位參與文字字串本地化。 如需詳細資訊，請參閱&#x200B;*HTTP通訊協定參考*&#x200B;中的[文字字串本地化](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)。
+此欄位參與文字字串本地化。 如需詳細資訊，請參閱[HTTP通訊協定參考](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)中的&#x200B;*文字字串本地化*。
 
 ## 預設 {#section-30c7f88929f54f7ba852c5c6c5e2c70b}
 

@@ -1,5 +1,5 @@
 ---
-description: 「影像伺服」元件由「伺服器監督員」管理，它是Linux精靈或Windows服務(S7Supervisor.exe，列為「服務控制面板」中的「Dynamic Media影像伺服」)。
+description: 「影像伺服」元件由「伺服器監督員」管理，它是Linux精靈或Windows服務（S7Supervisor.exe，列為「服務控制面板」中的「動態媒體影像伺服」）。
 solution: Experience Manager
 title: 伺服器監督員
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 伺服器監督員{#server-supervisor}
 
-「影像伺服」元件由「伺服器監督員」管理，它是Linux精靈或Windows服務(S7Supervisor.exe，列為「服務控制面板」中的「Dynamic Media影像伺服」)。
+「影像伺服」元件由「伺服器監督員」管理，它是Linux精靈或Windows服務（S7Supervisor.exe，列為「服務控制面板」中的「動態媒體影像伺服」）。
 
 除了啟動和停止其他「影像伺服」元件之外，伺服器管理員還負責確保這些其他元件的健康狀態。 若元件當機，就會自動重新啟動，以將任何服務中斷的情況降至最低。
 

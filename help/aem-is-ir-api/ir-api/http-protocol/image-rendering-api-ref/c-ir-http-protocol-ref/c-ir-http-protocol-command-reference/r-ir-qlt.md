@@ -21,11 +21,11 @@ Jpeg品質。 指定JPEG編碼屬性來控制壓縮等級。
 <table id="simpletable_A245B6A3D2374A6A89DE63A5621CFEC0"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname">品質</span> </p> </td> 
-  <td class="stentry"> <p>JPEG編碼品質(1...100) </p> </td> 
+  <td class="stentry"> <p>JPEG編碼品質（1分100秒） </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname">色度</span> </p> </td> 
-  <td class="stentry"> <p>JPEG色度向下取樣（0=一般，1=停用）；選擇性，預設為0。 </p> </td> 
+  <td class="stentry"> <p>JPEG色度向下取樣（0=一般，1=停用）；選用，預設為0。 </p> </td> 
  </tr> 
 </table>
 

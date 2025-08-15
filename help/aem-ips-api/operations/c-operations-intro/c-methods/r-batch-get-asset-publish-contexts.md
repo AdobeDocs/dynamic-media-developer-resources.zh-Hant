@@ -43,7 +43,7 @@ ht-degree: 14%
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
 | companyHandle | `xsd:string` | 是 | 公司處理。 |
-| assetHandleArray | ` `型別：HandleArray&quot; | 是 | 您要查詢作用中（標籤為發佈）上下文的資產清單。 |
+| assetHandleArray | ` `型別:HandleArray | 是 | 您要查詢作用中（標籤為發佈）上下文的資產清單。 |
 
 **輸出(batchGetAssetPublishContextsReturn)**
 

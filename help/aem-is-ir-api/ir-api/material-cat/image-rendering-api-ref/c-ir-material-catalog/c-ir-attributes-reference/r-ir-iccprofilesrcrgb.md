@@ -1,6 +1,6 @@
 ---
 title: IccProfileSrcRgb
-description: RGB預設輸入色彩設定檔。 指定用於RGB材質影像及未嵌入色彩設定檔之暈映的ICC色彩設定檔名稱。 也適用於RGB色彩值，這些值是使用各種「影像演算」指令指定的，例如bgc=和color=。
+description: RGB預設輸入色彩設定檔。 指定用於RGB材質影像及未嵌入色彩設定檔之暈映的ICC色彩設定檔名稱。 此外，對於使用各種「影像演算」指令（例如bgc=和color=）指定的RGB色彩值，也是如此。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # IccProfileSrcRgb{#iccprofilesrcrgb}
 
-RGB預設輸入色彩設定檔。 指定用於RGB材質影像及未嵌入色彩設定檔之暈映的ICC色彩設定檔名稱。 也適用於RGB色彩值，以各種影像演算命令指定，例如`bgc=`和`color=`。
+RGB預設輸入色彩設定檔。 指定用於RGB材質影像及未嵌入色彩設定檔之暈映的ICC色彩設定檔名稱。 此外，對於使用各種影像演算命令（例如`bgc=`和`color=`）指定的RGB色彩值。
 
 ## 屬性 {#section-c22966bba03e43c08e9d3fb91bfdd465}
 

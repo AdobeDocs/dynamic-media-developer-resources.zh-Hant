@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: ecc7617c-c390-4f82-905d-45b825d0176d
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '263'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ Java™格式的日期/時間值。 可以是自午夜、1970年1月1日UTC/GMT�
 
 * *[!DNL hh]*&#x200B;在0到23的範圍內。
 * *[!DNL zzz]*&#x200B;是三或四個字元的時區代碼，例如&#39;GMT&#39;或&#39;PST&#39;。 日光節約時間必須在時區代碼中計算。 例如，「PST」代表太平洋標準時間，「PDT」代表太平洋日光節約時間。
-* *[!DNL offset]*&#x200B;是相對於GMT的時區位移（以小時或小時：分鐘為單位）。 例如，「PDT」等於「GMT -7」。
+* *[!DNL offset]*&#x200B;是以GMT為單位的時區位移（小時或小時）:minutes。 例如，「PDT」等於「GMT -7」。
 
 字串格式日期/時間值的所有元素都必須存在。 如果日期/時間值的格式不正確，則會忽略該值，並改用&#x200B;*catalog*.ini檔案的修改時間。
 

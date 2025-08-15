@@ -20,7 +20,7 @@ ht-degree: 0%
 
 建議包含像片內容的PTIFF檔案使用JPEG編碼（指定`-jpegcompress`）。 電腦產生的內容可以受益於不失真壓縮（`-deflatecompress`或`-lzwcompress`）。 除非需要進行色彩轉換或畫素型別轉換，否則會將JPEG來源影像資料傳輸至PTIFF而不進行解碼，以避免品質降低。 在此情況下，指定的壓縮選項只會套用至解析度較低的金字塔層次。
 
-如果您不轉換大型影像，則不需要設定控制要使用多少記憶體的引數。 不過，如果您是的話，請使用下述的`-maxmem`設定多給`ic`個記憶體。 計算所需記憶體量的經驗法則是將影像寬度乘以影像高度再乘以色版數。 例如，Alpha乘以3的RGB影像為4。 此外，如果色版是每個元件16位元，而不是8位元，則會使最終結果加倍。
+如果您不轉換大型影像，則不需要設定控制要使用多少記憶體的引數。 不過，如果您是的話，請使用下述的`ic`設定多給`-maxmem`個記憶體。 計算所需記憶體量的經驗法則是將影像寬度乘以影像高度再乘以色版數。 例如，Alpha乘以3的RGB影像為4。 此外，如果色版是每個元件16位元，而不是8位元，則會使最終結果加倍。
 
 ## 使用 {#section-fb5293fa79894442aba831c1e14c5cc9}
 
@@ -115,7 +115,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -embedXmpData </span> </p> </td> 
-   <td colname="col2"> <p>將XMP中繼資料（如果可用）從<span class="codeph"> <span class="varname"> sourceFile </span> </span>複製到<span class="codeph"> <span class="varname"> destFile </span> </span>，而不需修改。 </p> </td> 
+   <td colname="col2"> <p>將XMP中繼資料（若有）從<span class="codeph"> <span class="varname"> sourceFile </span> </span>複製到<span class="codeph"> <span class="varname"> destFile </span> </span>，而不需修改。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -embedColorProfile </span> </p> </td> 
@@ -159,7 +159,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> - forceJPEGDecompress </span> </p> </td> 
-   <td colname="col2"> <p>強制解碼和重新編碼JPEG輸入影像。 </p> <p> <b>警告：</b>套用此選項可能會降低影像品質。 </p> </td> 
+   <td colname="col2"> <p>強制對JPEG輸入影像進行解碼和重新編碼。 </p> <p> <b>警告：</b>套用此選項可能會降低影像品質。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -downsample2x2 </span> </p> </td> 
@@ -255,7 +255,7 @@ ht-degree: 0%
    <td> <p> RGB | 已索引 </p> </td> 
    <td> <p> 1 | 5/6 | 8 </p> </td> 
    <td> <p> 未壓縮 | URL </p> </td> 
-   <td> <p> 5/6位元/通道表示支援16位元RGB（5-5-5和5-6-5位元/通道）。 </p> </td> 
+   <td> <p> 5/6位元/通道表示支援16位元RGB （5-5-5和5-6-5位元/通道）。 </p> </td> 
   </tr> 
   <tr> 
    <td> <b> EPS</b> <p> （封裝式Postscript） </p> </td> 
@@ -307,7 +307,7 @@ ht-degree: 0%
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <b>TIFF</b> </td> 
+   <td> <b> TIFF</b> </td> 
    <td> <p> CMYK | CMYKA | RGB | RGBA | 灰色 | grayA | 已索引 </p> </td> 
    <td> <p> 1 | 8 | 16 </p> </td> 
    <td> <p> 未壓縮 | ZIP | LZW | JPEG | CCITT RLE | CCITT G3 | CCITT G4 | 封裝位元 </p> </td> 
@@ -318,7 +318,7 @@ ht-degree: 0%
 
 內嵌ICC設定檔可在EPS、JPG、PSD、PNG和TIFF檔案中辨識。
 
-內嵌路徑和XMP中繼資料可在EPS、JPG、PSD和TIFF檔案中辨識。
+在EPS、JPG、PSD和XMP檔案中可辨識內嵌路徑和TIFF中繼資料。
 
 ## 範例 {#section-3c1986b30315431989bd76b1ee5bef6d}
 
@@ -330,6 +330,6 @@ ht-degree: 0%
 
 `ic -convert -jpegcompress -jpegquality 90 -overwrite -continueOnError srcFolder destFolder`
 
-轉換&#x200B;*`srcFolder`*&#x200B;中的所有影像。 JPG檔案的編碼影像資料可用於這些影像金字塔的其餘影像，以及所有非JPG輸入檔案的整個輸出影像，進行完整解析度層級、無遺失的LZW壓縮。 畫素型別、內嵌色彩設定檔、XMP中繼資料等。 都會受到維護。
+轉換&#x200B;*`srcFolder`*&#x200B;中的所有影像。 JPG檔案的編碼影像資料會用於這些影像金字塔影像的其餘部分，以及所有非JPG輸入檔案的整個輸出影像，進行完整解析度層級，且不會遺失的LZW壓縮。 畫素型別、內嵌色彩設定檔、XMP中繼資料等。 都會受到維護。
 
 `ic -convert -lzwcompress -embedXmpData -embedColorProfile -maintainpixeltype -overwrite -continueOnError srcFolder destFolder`

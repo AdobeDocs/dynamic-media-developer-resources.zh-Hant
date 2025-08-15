@@ -27,13 +27,13 @@ ht-degree: 0%
 
 ## 示範URL {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
-[https://s7d9.scene7.com/s7viewers/html5/FlyoutViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample&amp;config=Scene7SharedAssets/Universal_HTML5_Zoom_Inline&amp;stagesize=500,400](https://s7d9.scene7.com/s7viewers/html5/FlyoutViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample&amp;config=Scene7SharedAssets/Universal_HTML5_Zoom_Inline&amp;stagesize=500,400)
+[https://s7d9.scene7.com/s7viewers/html5/FlyoutViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample&amp;config=Scene7SharedAssets/Universal_HTML5_Zoom_Inline&amp;stagesize=500,400](https://s7d9.scene7.com/s7viewers/html5/FlyoutViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample&config=Scene7SharedAssets/Universal_HTML5_Zoom_Inline&stagesize=500,400)
 
 ## 使用內嵌縮放檢視器 {#section-f21ac23d3f6449ad9765588d69584772}
 
-內嵌縮放檢視器代表主要JavaScript檔案和一組協助程式檔案(單一JavaScript包含此特定檢視器使用的所有Viewer SDK元件、資產、CSS)，由檢視器在執行階段下載。
+內嵌縮放檢視器代表主要JavaScript檔案和一組協助程式檔案(單一JavaScript包含此特定檢視器使用的所有Viewer SDK元件、資產、CSS)，這些檔案由檢視器在執行階段下載。
 
-內嵌縮放檢視器可用於快顯視窗模式(使用影像伺服檢視器隨附的生產就緒HTML頁面)或內嵌模式（使用檔案化API整合至目標網頁）。
+內嵌縮放檢視器可用於快顯視窗模式(使用隨影像伺服檢視器提供的生產就緒HTML頁面)或內嵌模式（使用檔案化API整合至目標網頁）。
 
 組態和外觀設定與其他檢視器的組態和外觀設定類似。 您可以使用自訂CSS來套用外觀設計。
 
@@ -80,15 +80,15 @@ Inline Zoom Viewer支援其他行動應用程式中常見的單一觸控和多�
 
 在快顯視窗模式中，檢視器會在個別的網頁瀏覽器視窗或標籤中開啟。 它會取用整個瀏覽器視窗區域，並在瀏覽器視窗調整大小或裝置方向變更時進行調整。
 
-此模式在行動裝置中最常見。 網頁會使用`window.open()` JavaScript呼叫、正確設定的`A`HTML元素或任何其他適當的方式載入檢視器。
+此模式在行動裝置中最常見。 網頁會使用`window.open()` JavaScript呼叫、正確設定的`A` HTML元素或其他適當方式，載入檢視器。
 
-建議您將現成的HTML頁面用於名為`FlyoutViewer.html`的快顯視窗模式。 它位於標準Image Serving-Viewers部署的[!DNL html5/]子資料夾下：
+建議您將立即可用的HTML頁面用於名為`FlyoutViewer.html`的快顯視窗模式。 它位於標準Image Serving-Viewers部署的[!DNL html5/]子資料夾下：
 
 `<s7viewers_root>/html5/FlyoutViewer.html`
 
 也必須將FlyoutZoomView元件設定為可在內嵌縮放模式中運作。 建議您使用內嵌縮放檢視器的現成可用`Scene7SharedAssets/Universal_HTML5_Zoom_Inline`預設集，或是自訂預設集衍生的預設集。 可套用自訂CSS以達成視覺化自訂。
 
-以下是在新視窗中開啟檢視器的HTML程式碼範例：
+以下是HTML程式碼範例，會在新視窗中開啟檢視器：
 
 ```html {.line-numbers}
  <a href="http://s7d1.scene7.com/s7viewers/html5/FlyoutViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample&config=Scene7SharedAssets/Universal_HTML5_Zoom_Inline"target="_blank">Open popup viewer</a>
@@ -125,7 +125,7 @@ Inline Zoom Viewer支援其他行動應用程式中常見的單一觸控和多�
 
 [!DNL <s7viewers_root>/html5/js/FlyoutViewer.js]
 
-如果檢視器部署在其中一個部署的Dynamic Media伺服器上，且從相同網域提供，則Adobe可以使用相對路徑。 否則，您可以指定已安裝IS-Viewers的其中一個AdobeDynamic Media伺服器的完整路徑。
+如果檢視器部署在任一Adobe Dynamic Media伺服器上，且從相同網域提供服務，您就可以使用相對路徑。 否則，請指定已安裝IS-Viewers的其中一個Adobe Dynamic Media伺服器的完整路徑。
 
 相對路徑如下所示：
 
@@ -135,7 +135,7 @@ Inline Zoom Viewer支援其他行動應用程式中常見的單一觸控和多�
 
 >[!NOTE]
 >
->僅參考頁面上的主要檢視器JavaScript `include`檔案。 請勿在網頁程式碼中參考任何其他JavaScript檔案（這些檔案可能由執行階段的檢視器邏輯下載）。 特別是，請勿直接參考檢視器從`/s7viewers`內容路徑（所謂整合SDK `include`）載入的HTML5 SDK `Utils.js`資料庫。 原因在於`Utils.js`或類似的執行階段檢視器程式庫的位置完全由檢視器的邏輯管理，且位置會在檢視器發行版本之間變更。 Adobe不會在伺服器上保留舊版的次要檢視器`includes`。
+>僅參考頁面上的主要檢視器JavaScript `include`檔案。 請勿在網頁程式碼中參考任何其他JavaScript檔案（這些檔案可能由執行階段的檢視器邏輯下載）。 特別是，請勿直接參考檢視器從`Utils.js`內容路徑(所謂整合的HTML `/s7viewers`)載入的SDK5 SDK `include`資料庫。 原因在於`Utils.js`或類似的執行階段檢視器程式庫的位置完全由檢視器的邏輯管理，且位置會在檢視器發行版本之間變更。 Adobe不會在伺服器上保留舊版的次要檢視器`includes`。
 >
 >
 >因此，日後部署新產品版本時，將檢視器使用的任何次要JavaScript `include`的直接參照放在頁面上，會中斷檢視器功能。
@@ -173,9 +173,9 @@ Inline Zoom Viewer支援其他行動應用程式中常見的單一觸控和多�
 
    您可以在下列範例頁面上看到具有固定外部檢視器區域的行為。 請注意，當您在組之間切換時，外部檢視器大小不會變更：
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/inlinezoom/InlineZoom-fixed-outer-area.html?lang=zh-Hant](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/inlinezoom/InlineZoom-fixed-outer-area.html?lang=zh-Hant)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/inlinezoom/InlineZoom-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/inlinezoom/InlineZoom-fixed-outer-area.html)
 
-   若要將主要檢視維度設為靜態，請使用`.s7flyoutviewer .s7container` CSS選取器以絕對單位定義內部`Container` SDK元件的檢視器大小。 此外，您應將預設檢視器CSS設定為`auto`，以覆寫為`.s7flyoutviewer`最上層CSS類別定義的固定大小。
+   若要將主要檢視維度設為靜態，請使用`Container` CSS選取器定義內部`.s7flyoutviewer .s7container` SDK元件的檢視器大小（以絕對單位表示）。 此外，您應將預設檢視器CSS設定為`.s7flyoutviewer`，以覆寫為`auto`最上層CSS類別定義的固定大小。
 
    以下範例說明如何為內部`Container` SDK元件定義檢視器大小，以便在切換資產時，主要檢視區域不會變更其大小：
 
@@ -192,7 +192,7 @@ Inline Zoom Viewer支援其他行動應用程式中常見的單一觸控和多�
 
    以下範例頁面顯示具有固定主檢視大小的檢視器行為。 請注意，當您在組之間切換時，主要檢視會維持靜態，而網頁內容會垂直移動：
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/inlinezoom/InlineZoom-fixed-main-view.html?lang=zh-Hant](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/inlinezoom/InlineZoom-fixed-main-view.html?lang=zh-Hant)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/inlinezoom/InlineZoom-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/inlinezoom/InlineZoom-fixed-main-view.html)
 
    此外，預設的檢視器CSS可立即為其外部區域提供固定大小。
 
@@ -200,7 +200,7 @@ Inline Zoom Viewer支援其他行動應用程式中常見的單一觸控和多�
 
    完成上述步驟後，您會建立`s7viewers.FlyoutViewer`類別的執行個體、將所有組態資訊傳遞至其建構函式，並在檢視器執行個體上呼叫`init()`方法。 組態資訊會以JSON物件的形式傳遞至建構函式。 此物件至少應有`containerId`欄位，其中儲存檢視器容器ID的名稱，以及巢狀`params` JSON物件，其中包含檢視器支援的設定引數。 在此情況下，`params`物件必須至少將影像伺服URL作為`serverUrl`屬性傳遞；初始資產作為`asset`引數，用於載入CSS作為`contentUrl`引數的基底路徑，以及預設名稱作為`config`引數。 JSON型初始化API可讓您使用一行程式碼來建立和啟動檢視器。
 
-   請務必將檢視器容器新增至DOM，讓檢視器程式碼可依其ID尋找容器元素。 有些瀏覽器會延遲建立DOM，直到網頁結尾為止。 為達到最大相容性，請在結尾的`BODY`標籤前面或內文`onload()`事件上呼叫`init()`方法。
+   請務必將檢視器容器新增至DOM，讓檢視器程式碼可依其ID尋找容器元素。 有些瀏覽器會延遲建立DOM，直到網頁結尾為止。 為達到最大相容性，請在結尾的`init()`標籤前面或內文`BODY`事件上呼叫`onload()`方法。
 
    同時，容器元素也不一定屬於網頁版面配置的一部分。 例如，可以使用指派給它的`display:none`樣式來隱藏它。 在此情況下，檢視器會延遲其初始化程式，直到網頁將容器元素帶回版面配置為止。 當此動作發生時，檢視器載入會自動繼續。
 
@@ -331,7 +331,7 @@ var inlineZoomViewer = new s7viewers.FlyoutViewer({
 
 [即時示範](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[備用示範位置](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=zh-Hant)
+[備用示範位置](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 ## 定義寬度和高度的彈性大小內嵌 {#section-0a329016f9414d199039776645c693de}
 

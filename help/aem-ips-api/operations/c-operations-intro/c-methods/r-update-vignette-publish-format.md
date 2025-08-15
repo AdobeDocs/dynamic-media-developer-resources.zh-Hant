@@ -30,8 +30,8 @@ ht-degree: 5%
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
 | companyHandle | `xsd:string` | 是 | 公司控制代碼。 |
-| vignetteFormatHandle | `xsd:string` | 是 | Publish格式控制代碼。 |
-| name | `xsd:string` | 否 | Publish格式名稱。 |
+| vignetteFormatHandle | `xsd:string` | 是 | 發佈格式控制代碼。 |
+| name | `xsd:string` | 否 | 發佈格式名稱。 |
 | targetWidth | `xsd:int` | 是 | 指定所產生暈映檢視的目標寬度（畫素）。 使用零，讓輸出暈映的大小與主要暈映相同。 |
 | targetHeight | `xsd:int` | 是 | 指定所產生暈映檢視的目標高度（畫素）。 使用零，讓輸出暈映的大小與主要暈映相同。 |
 | createPyramid | `xsd:boolean` | 是 | 建立為影像演算伺服器上的縮放最佳化的金字塔暈映。 從目標暈映大小欄位設定的大小上限開始，這會在單一暈映輸出檔案中建立多個大小檢視。 每個後續的檢視大小都會減半，直到寬度和高度都在128x128畫素以內。 |

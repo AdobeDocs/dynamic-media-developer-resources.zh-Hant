@@ -21,7 +21,7 @@ ht-degree: 3%
 <table id="simpletable_768D6CDF3F734E7F89DC7AB2EAAC0C77"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname">色彩</span> </p> </td> 
-  <td class="stentry"> <p>替代RGB色彩。 </p> </td> 
+  <td class="stentry"> <p>取代RGB色彩。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph">折扣</span> </p> </td> 
@@ -45,13 +45,13 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->彩色化演演算法只使用影像資料中的亮度資訊。 這種灰階轉換非常簡單，而且不受色彩管理。 `op_colorize`一律會輸出RGB資料，即使輸入為灰階或CMYK亦然。
+>彩色化演演算法只使用影像資料中的亮度資訊。 這種灰階轉換非常簡單，而且不受色彩管理。 `op_colorize`一律會輸出RGB資料，即使輸入是灰階或CMYK亦然。
 
 ## 屬性 {#section-c0f8bd424b864153a1108f384939f55b}
 
 圖層指令。 套用至目前的圖層或複合影像（若為`layer=comp`）。 被效果圖層忽略。
 
-*`color`*&#x200B;必須是RGB的值；不支援灰色或CMYK *`color`*&#x200B;值。
+*`color`*&#x200B;必須是RGB值；不支援灰色或CMYK *`color`*&#x200B;值。
 
 如果關閉亮度補償，則會忽略&#x200B;*`contrast`*&#x200B;值。
 

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **使用回應式影像庫**
 
-1. 在Dynamic Media Classic中，[建立影像預設集](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html?lang=zh-Hant#image-sizing)，以備您打算搭配預設集使用回應式影像資料庫時使用。
+1. 在Dynamic Media Classic中，[建立影像預設集](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html#image-sizing)，以備您打算搭配預設集使用回應式影像資料庫時使用。
 
    定義與回應式影像資料庫搭配使用的影像預設集時，請勿使用任何會影響影像大小的設定，例如`wid=`、`hei=`或`scl=`。 請勿在影像預設集中指定任何大小欄位。 請改為保留為空白值。
 1. 將資料庫JavaScript檔案新增至您的網頁。
@@ -30,9 +30,9 @@ ht-degree: 0%
 
    程式庫會從正在使用的影像例項讀取某些組態屬性。 在為此類影像呼叫`s7responsiveImage` API函式之前定義屬性。
 
-   也建議您將現有的影像URL放入`data-src`屬性中。 然後，設定現有的`src`屬性，將1x1GIF影像編碼為資料URI。 如此一來，可減少網頁在載入時傳送的HTTP要求數目。 但是請注意，如果需要SEO （搜尋引擎最佳化），最好在影像執行個體上設定`title`屬性。
+   也建議您將現有的影像URL放入`data-src`屬性中。 然後，設定現有的`src`屬性，將1x1 GIF影像編碼為資料URI。 如此一來，可減少網頁在載入時傳送的HTTP要求數目。 但是請注意，如果需要SEO （搜尋引擎最佳化），最好在影像執行個體上設定`title`屬性。
 
-   以下範例說明如何定義影像的`data-breakpoints`屬性，並使用編碼為資料URI的1x1GIF：
+   以下範例說明如何定義影像的`data-breakpoints`屬性，以及如何使用編碼為資料URI的1x1 GIF：
 
    ```
    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360,720,940">

@@ -26,11 +26,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bicub </span> </p> </td> 
-   <td colname="col2"> <p>選取雙三次插值法。 比雙線性內插運算耗用CPU更多，但產生的影像更銳利，鋸齒狀不自然感更不明顯。 </p> </td> 
+   <td colname="col2"> <p>選取雙三次插值法。 CPU比雙線性內插運算密集得多，但會產生較清晰的影像，且鋸齒狀不自然感較不明顯。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> sharp2 </span> </p> </td> 
-   <td colname="col2"> <p>選取修改過的Lanczos視窗函式作為內插演演算法。 可以產生比雙立方體稍微銳利的結果，但CPU成本較高。 <span class="codeph"> sharp </span>已由<span class="codeph"> sharp2 </span>取代，這造成鋸齒狀成品(Moiré)的可能性較小。 </p> </td> 
+   <td colname="col2"> <p>選取修改過的Lanczos視窗函式作為內插演演算法。 可以產生比雙立方體稍微銳利的結果，但成本較高CPU。 <span class="codeph"> sharp </span>已由<span class="codeph"> sharp2 </span>取代，這造成鋸齒狀成品(Moiré)的可能性較小。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">個兩次銳利化</span> </p> </td> 

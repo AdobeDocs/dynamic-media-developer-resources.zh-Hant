@@ -35,7 +35,7 @@ ht-degree: 3%
  <thead> 
   <tr> 
    <th class="entry"> <b> req= type</b> </th> 
-   <th class="entry"> 來自req=props</b>的<b>版本識別碼 </th> 
+   <th class="entry"> 來自req=props<b>的</b>版本識別碼 </th> 
   </tr> 
  </thead>
  <tbody> 

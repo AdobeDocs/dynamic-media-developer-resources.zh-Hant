@@ -29,7 +29,7 @@ ht-degree: 2%
 
 ## 屬性 {#section-6d586a632daa4261a8ce62db56140b36}
 
-圖層屬性。 若為`layer=comp`，則套用至`layer=0`。 如果未為此圖層指定`textPs=`或指定`textPath=`，則忽略此專案。
+圖層屬性。 若為`layer=0`，則套用至`layer=comp`。 如果未為此圖層指定`textPs=`或指定`textPath=`，則忽略此專案。
 
 ## 預設 {#section-49a9f5819c994c27928282c14b2bb2a7}
 

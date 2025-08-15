@@ -1,6 +1,6 @@
 ---
 title: 智慧型裁切視訊檢視器
-description: 智慧裁切視訊檢視器可播放以H.264格式編碼的串流及漸進式視訊，並加上智慧裁切支援。 它是從Dynamic Media Classic或Adobe Experience Manager搭配Dynamic Media所提供。
+description: 智慧裁切視訊檢視器可播放以H.264格式編碼的串流及漸進式視訊，並加上智慧裁切支援。 它是從Dynamic Media Classic或Adobe Experience Manager透過Dynamic Media所提供。
 keywords: 回應式
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
@@ -15,11 +15,11 @@ ht-degree: 0%
 
 # 智慧型裁切視訊{#smart-crop-video}
 
-智慧裁切視訊檢視器可播放以H.264格式編碼的串流及漸進式視訊，並加上智慧裁切支援。 這是從Dynamic Media Classic或使用Dynamic Media的Experience Manager所提供。
+智慧裁切視訊檢視器可播放以H.264格式編碼的串流及漸進式視訊，並加上智慧裁切支援。 它是從Dynamic Media Classic或Experience Manager透過Dynamic Media所提供。
 
 請參閱[系統需求和先決條件](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842)。
 
-同時支援單一視訊和自我調整視訊集。 此外，檢視器支援使用託管於外部位置的漸進式視訊和HLS資料流。 它設計為可在支援HTML5視訊的桌上型電腦和行動網頁瀏覽器上運作。 此檢視器也支援在視訊內容、視訊章節導覽和社群媒體分享工具上方顯示的選擇性隱藏式字幕。
+同時支援單一視訊和自我調整視訊集。 此外，該檢視器支援使用託管於外部位置的漸進式視訊和HLS資料流。 它設計為可在支援HTML5視訊的案頭和行動網頁瀏覽器上運作。 此檢視器也支援在視訊內容、視訊章節導覽和社群媒體分享工具上方顯示的選擇性隱藏式字幕。
 
 只要基礎系統支援，「智慧型裁切視訊檢視器」就會在其預設設定中，使用HLS格式的HTML5串流視訊播放。 在不支援HTML5串流的系統上，檢視器會回到HTML5漸進式視訊傳送。
 
@@ -82,9 +82,9 @@ ht-degree: 0%
 
 在快顯視窗模式中，檢視器會在個別的網頁瀏覽器視窗或標籤中開啟。 它會取用整個瀏覽器視窗區域，並在瀏覽器調整大小或裝置方向變更時進行調整。
 
-此模式在行動裝置中最常見。 網頁會使用`window.open()` JavaScript呼叫、正確設定的`A`HTML元素或任何其他適當的方法載入檢視器。
+此模式在行動裝置中最常見。 網頁會使用`window.open()` JavaScript呼叫、正確設定的`A` HTML元素或任何其他適當的方法載入檢視器。
 
-建議您為快顯視窗操作模式使用現成的HTML頁面。 它稱為[!DNL SmartCropVideoViewer.html]，且位於標準IS-Viewers部署的[!DNL html5/]子資料夾下：
+建議您為快顯視窗操作模式使用現成可用的HTML頁面。 它稱為[!DNL SmartCropVideoViewer.html]，且位於標準IS-Viewers部署的[!DNL html5/]子資料夾下：
 
 [!DNL <s7viewers_root>/html5/SmartCropVideoViewer.html]
 
@@ -135,7 +135,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->僅參考頁面上的主要檢視器JavaScript `include`檔案。 請勿在網頁程式碼中參考任何其他JavaScript檔案（這些檔案可能由執行階段的檢視器邏輯下載）。 特別是，請勿直接參考檢視器從`/s7viewers`內容路徑（所謂整合SDK `include`）載入的HTML5 SDK `Utils.js`資料庫。 原因在於`Utils.js`或類似的執行階段檢視器程式庫的位置完全由檢視器的邏輯管理，且位置會在檢視器發行版本之間變更。 Adobe不會在伺服器上保留舊版的次要檢視器`includes`。
+>僅參考頁面上的主要檢視器JavaScript `include`檔案。 請勿在網頁程式碼中參考任何其他JavaScript檔案（這些檔案可能由執行階段的檢視器邏輯下載）。 特別是，請勿直接參考檢視器從`Utils.js`內容路徑(所謂整合的HTML `/s7viewers`)載入的SDK5 SDK `include`資料庫。 原因在於`Utils.js`或類似的執行階段檢視器程式庫的位置完全由檢視器的邏輯管理，且位置會在檢視器發行版本之間變更。 Adobe不會在伺服器上保留舊版的次要檢視器`includes`。
 >
 >
 >因此，日後部署新產品版本時，將檢視器使用的任何次要JavaScript `include`的直接參照放在頁面上，會中斷檢視器功能。
@@ -158,7 +158,7 @@ ht-degree: 0%
 
    您可以透過以絕對單位宣告`.s7videoviewer`最上層CSS類別的檢視器，或使用修飾元`stagesize`來設定檢視器的靜態大小。
 
-   您可以在HTML頁面或自訂檢視器CSS檔案中將CSS的大小調整置於。 之後會將其指派給Dynamic Media Classic中的檢視器預設集記錄，或使用style命令明確傳遞。
+   您可以在HTML頁面或自訂檢視器CSS檔案中將CSS的大小調整放入。 之後會將其指派給Dynamic Media Classic中的檢視器預設集記錄，或使用style命令明確傳遞。
 
    請參閱[自訂智慧型裁切視訊檢視器](../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#concept-072a52b10b5f4c0789393dc6e2134c0e)，以取得使用CSS設定檢視器樣式的詳細資訊。
 
@@ -183,7 +183,7 @@ ht-degree: 0%
 
    完成上述步驟後，您會建立`s7viewers.SmartCropVideoViewer`類別的執行個體、將所有組態資訊傳遞至其建構函式，並在檢視器執行個體上呼叫`init()`方法。 組態資訊會以JSON物件的形式傳遞至建構函式。 此物件至少應有`containerId`欄位，其內含檢視器容器ID的名稱，以及含有檢視器支援之組態引數的巢狀`params` JSON物件。 在此案例中，`params`物件必須至少將影像伺服URL傳遞為`serverUrl`屬性、將視訊伺服器URL傳遞為`videoserverurl`屬性，並將初始資產傳遞為`asset`引數。 JSON型初始化API可讓您使用一行程式碼來建立和啟動檢視器。
 
-   請務必將檢視器容器新增至DOM，讓檢視器程式碼可依其ID尋找容器元素。 有些瀏覽器會延遲建立DOM，直到網頁結尾為止。 為達到最大相容性，請在結尾的`BODY`標籤前面或內文`onload()`事件上呼叫`init()`方法。
+   請務必將檢視器容器新增至DOM，讓檢視器程式碼可依其ID尋找容器元素。 有些瀏覽器會延遲建立DOM，直到網頁結尾為止。 為達到最大相容性，請在結尾的`init()`標籤前面或內文`BODY`事件上呼叫`onload()`方法。
 
    同時，容器元素也不一定屬於網頁版面配置的一部分。 例如，可以使用指派給它的`display:none`樣式來隱藏它。 在此情況下，檢視器會延遲其初始化程式，直到網頁將容器元素帶回版面配置為止。 當此動作發生時，檢視器載入會自動繼續。
 
@@ -293,7 +293,7 @@ var smartCropVideoViewer = new s7viewers.SmartCropVideoViewer({
 
 [即時示範](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[備用示範位置](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=zh-Hant)
+[備用示範位置](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 **定義寬度和高度的回應式設計內嵌**
 

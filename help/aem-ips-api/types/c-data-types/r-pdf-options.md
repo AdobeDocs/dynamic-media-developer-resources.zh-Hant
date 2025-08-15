@@ -22,9 +22,9 @@ PDF檔案選項。
 
 | 名稱 | 類型 | 說明 |
 |---|---|---|
-| 過程 | `xsd:string` | 選擇「PDF流程」。 |
+| 過程 | `xsd:string` | 選擇「PDF程式」。 |
 | 解析度 | `xsd:double` | 檔案解析度。 |
 | 色域 | `xsd:string` | 後置指令碼色彩空間模式選擇。 |
-| pdfCatalog | `xsd:boolean` | 轉譯後是否將多頁PDF合併到eCatalog （預設為true）。 |
+| pdfCatalog | `xsd:boolean` | 轉譯後是否將多頁PDF結合至eCatalog （預設為true）。 |
 | extractSearchWords | `xsd:boolean` | 是否要從PDF檔案擷取搜尋字詞。 |
 | extractLinks | `xsd:boolean` | 是否要將PDF連結擷取至指派給IPS內點陣化頁面的影像地圖。 |

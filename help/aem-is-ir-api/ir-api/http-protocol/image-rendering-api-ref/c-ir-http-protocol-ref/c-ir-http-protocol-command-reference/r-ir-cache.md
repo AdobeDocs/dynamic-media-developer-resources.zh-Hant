@@ -43,7 +43,7 @@ ht-degree: 1%
 
 ## 屬性 {#section-0dcbd62e1122400e8c347f408f2d937e}
 
-可能發生在請求中的任何位置。 當要求未傳回回覆影像時忽略。 當資料目錄停用使用者端快取時（如果`attribute::Expiration`具有負值），會忽略屬性&#x200B;*`clientControl`*。 如果停用伺服器快取( `PlatformServer::cache.enable`)，則會忽略屬性&#x200B;*`serverControl`*。
+可能發生在請求中的任何位置。 當要求未傳回回覆影像時忽略。 當資料目錄停用使用者端快取時（如果&#x200B;*`clientControl`*&#x200B;具有負值），會忽略屬性`attribute::Expiration`。 如果停用伺服器快取( *`serverControl`*)，則會忽略屬性`PlatformServer::cache.enable`。
 
 ## 預設 {#section-9034a1f4d7984c8f8dce3fc1e1803723}
 

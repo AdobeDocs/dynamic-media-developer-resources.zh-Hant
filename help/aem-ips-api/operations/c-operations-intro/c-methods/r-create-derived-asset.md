@@ -44,7 +44,7 @@ ht-degree: 8%
 | folderHandle | `xsd:string` | 是 | 建立新衍生資產的資料夾的控制代碼。 |
 | name | `xsd:string` | 是 | 衍生資產的名稱。 |
 | type | `xsd:string` | 是 | 新衍生資產的資產型別： `AdjustedView`或`LayerView`。 |
-| urlModifier | `xsd:string` | 否 | 影像伺服或影像演算通訊協定命令已在&#x200B;*要求或`urlPostApplyModifier`命令之前*&#x200B;套用。 |
+| urlModifier | `xsd:string` | 否 | 影像伺服或影像演算通訊協定命令已在&#x200B;*要求或*&#x200B;命令之前`urlPostApplyModifier`套用。 |
 | urlPostApplyModifier | `xsd:string` | 否 | 影像伺服或影像演算通訊協定命令已在&#x200B;*之後*&#x200B;套用到要求或`urlPostApplyModifier`命令。 |
 
 **輸出(createDerivedAssetParam)**

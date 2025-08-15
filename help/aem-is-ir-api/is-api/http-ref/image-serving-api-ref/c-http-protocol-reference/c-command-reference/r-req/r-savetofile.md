@@ -62,7 +62,7 @@ ht-degree: 1%
 
 如果成功，則傳回HTTP回應狀態200；如果請求失敗或逾時，則傳回403。 回應具有MIME型別`text/plain`，無法快取。
 
-重要您必須指定`attribute::SavePath`中現有可寫入資料夾的路徑，以啟用儲存至檔案。 如果`attribute::SavePath`是空的，`saveToFile=`會失敗。
+重要您必須指定`attribute::SavePath`中現有可寫入資料夾的路徑，以啟用儲存至檔案。 如果`saveToFile=`是空的，`attribute::SavePath`會失敗。
 
 *`file`*&#x200B;為必要項，且必須是與`attribute::SavePath`結合的相對路徑。 「影像伺服」不會建立資料夾。 目標資料夾必須存在於伺服器上，且具備適當的許可權設定，可供「影像伺服」建立檔案。
 

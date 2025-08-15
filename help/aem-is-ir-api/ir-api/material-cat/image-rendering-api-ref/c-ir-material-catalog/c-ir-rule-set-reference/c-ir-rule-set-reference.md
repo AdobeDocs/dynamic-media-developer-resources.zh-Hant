@@ -49,7 +49,7 @@ ht-degree: 0%
 
 在有效的規則集XML檔案中，`<?xml>`、`<!DOCTYPE>`和`<ruleset>`專案永遠是必要的，即使未定義實際規則。
 
-允許一個包含任意數目`<rule>`個元素的`<ruleset>`元素。
+允許一個包含任意數目`<ruleset>`個元素的`<rule>`元素。
 
 預先處理規則檔案的內容區分大小寫。
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 
 ## OnMatch屬性 {#section-7a8ad3597780486985af5e9a3b1c7b56}
 
-可以使用`<rule>`專案的`OnMatch`屬性修改預設行為。 `OnMatch`可設為`break` （預設）、`continue`或`error.`
+可以使用`OnMatch`專案的`<rule>`屬性修改預設行為。 `OnMatch`可設為`break` （預設）、`continue`或`error.`
 
 <table id="table_4CABF55B33854A128D5F326B31C6C397"> 
  <thead> 
@@ -92,7 +92,7 @@ ht-degree: 0%
 
 ## 覆寫目錄屬性 {#section-1f59ce84234f4576ba8473b0e6ba22ee}
 
-當規則成功比對且已設定`OnMatch="break"`時，`<rule>`元素可選擇定義覆寫對應目錄屬性的屬性。 若已設定`OnMatch="continue"`，則不會套用任何屬性。 如需可透過規則控制的屬性清單，請參閱`<rule>`的說明。
+當規則成功比對且已設定`<rule>`時，`OnMatch="break"`元素可選擇定義覆寫對應目錄屬性的屬性。 若已設定`OnMatch="continue"`，則不會套用任何屬性。 如需可透過規則控制的屬性清單，請參閱`<rule>`的說明。
 
 ## 規則運算式 {#section-4d326507b52544b0960a9a5f303e3fe6}
 

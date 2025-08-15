@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: 7b26e659-71b9-40c4-9df4-94e78c3e4baf
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '85'
 ht-degree: 17%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 17%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| publishContextArray | 型別：PublishContextArray | 是 | 公司發佈內容的陣列，依內容型別篩選（如有必要）。 |
+| publishContextArray | 型別:PublishContextArray | 是 | 公司發佈內容的陣列，依內容型別篩選（如有必要）。 |
 
 ## 範例 {#section-23fb7d6a15004b7eb4c3d3bcb37ceb04}
 

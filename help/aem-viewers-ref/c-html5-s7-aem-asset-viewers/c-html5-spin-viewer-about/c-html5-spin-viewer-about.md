@@ -27,13 +27,13 @@ ht-degree: 0%
 
 ## 示範URL {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
-[https://s7d9.scene7.com/s7viewers/html5/SpinViewer.html?asset=Scene7SharedAssets/SpinSet_Sample&amp;stagesize=500,400](https://s7d9.scene7.com/s7viewers/html5/SpinViewer.html?asset=Scene7SharedAssets/SpinSet_Sample&amp;stagesize=500,400)
+[https://s7d9.scene7.com/s7viewers/html5/SpinViewer.html?asset=Scene7SharedAssets/SpinSet_Sample&amp;stagesize=500,400](https://s7d9.scene7.com/s7viewers/html5/SpinViewer.html?asset=Scene7SharedAssets/SpinSet_Sample&stagesize=500,400)
 
 ## 使用迴轉檢視器 {#section-e6c68406ecdc4de781df182bbd8088b4}
 
-迴轉檢視器代表主要JavaScript檔案和一組協助程式檔案(單一JavaScript包含此特定檢視器使用的所有Viewer SDK元件、資產、CSS)，由檢視器在執行階段下載。
+迴轉檢視器代表主要JavaScript檔案和一組協助程式檔案(單一JavaScript包含此特定檢視器使用的所有Viewer SDK元件、資產、CSS)，這些檔案由檢視器在執行階段下載。
 
-迴轉檢視器既可透過隨IS-Viewers提供的生產就緒HTML頁面以快顯視窗模式使用，也可透過內嵌模式使用，其中使用檔案說明的API將其整合至目標網頁。
+迴轉檢視器既可透過隨IS-Viewers提供的生產就緒HTML頁面以快顯視窗模式使用，也可透過內嵌模式使用，其中使用記錄的API將其整合至目標網頁。
 
 組態和外觀設定與其他檢視器的組態和外觀設定類似。 所有外觀設定均可以透過自訂CSS來達成。
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 在快顯視窗模式中，檢視器會在個別的網頁瀏覽器視窗或標籤中開啟。 它會取用整個瀏覽器視窗區域，並在瀏覽器調整大小或行動裝置方向變更時進行調整。
 
-快顯視窗模式最常用於行動裝置。 網頁會使用`window.open()` JavaScript呼叫、正確設定的`A`HTML元素或任何其他適當的方法載入檢視器。
+快顯視窗模式最常用於行動裝置。 網頁會使用`window.open()` JavaScript呼叫、正確設定的`A` HTML元素或任何其他適當的方法載入檢視器。
 
 建議您為快顯視窗操作模式使用現成可用的HTML頁面。 在此案例中，其名稱為[!DNL SpinViewer.html]，且位於標準IS-Viewers部署的[!DNL html5/]子資料夾內：
 
@@ -130,7 +130,7 @@ target="_blank">Open popup viewer</a>
 
    `<s7viewers_root>/html5/js/SpinViewer.js`
 
-   如果檢視器部署在其中一個部署的Dynamic Media伺服器上，且從相同網域提供，則Adobe可以使用相對路徑。 否則，您可以指定已安裝IS-Viewers的其中一個AdobeDynamic Media伺服器的完整路徑。
+   如果檢視器部署在任一Adobe Dynamic Media伺服器上，且從相同網域提供服務，您就可以使用相對路徑。 否則，請指定已安裝IS-Viewers的其中一個Adobe Dynamic Media伺服器的完整路徑。
 
    相對路徑如下所示：
 
@@ -140,7 +140,7 @@ target="_blank">Open popup viewer</a>
 
    >[!NOTE]
    >
-   >僅參考頁面上的主要檢視器JavaScript `include`檔案。 請勿在網頁程式碼中參考任何其他JavaScript檔案（這些檔案可能由執行階段的檢視器邏輯下載）。 特別是，請勿直接參考檢視器從`/s7viewers`內容路徑（所謂整合SDK `include`）載入的HTML5 SDK `Utils.js`資料庫。 原因在於`Utils.js`或類似的執行階段檢視器程式庫的位置完全由檢視器的邏輯管理，且位置會在檢視器發行版本之間變更。 Adobe不會在伺服器上保留舊版的次要檢視器`includes`。
+   >僅參考頁面上的主要檢視器JavaScript `include`檔案。 請勿在網頁程式碼中參考任何其他JavaScript檔案（這些檔案可能由執行階段的檢視器邏輯下載）。 特別是，請勿直接參考檢視器從`Utils.js`內容路徑(所謂整合的HTML `/s7viewers`)載入的SDK5 SDK `include`資料庫。 原因在於`Utils.js`或類似的執行階段檢視器程式庫的位置完全由檢視器的邏輯管理，且位置會在檢視器發行版本之間變更。 Adobe不會在伺服器上保留舊版的次要檢視器`includes`。
    >
    >
    >因此，日後部署新產品版本時，將檢視器使用的任何次要JavaScript `include`的直接參照放在頁面上，會中斷檢視器功能。
@@ -187,7 +187,7 @@ target="_blank">Open popup viewer</a>
 
    完成上述步驟後，您會建立`s7viewers.SpinViewer`類別的執行個體、將所有組態資訊傳遞至其建構函式，並在檢視器執行個體上呼叫`init()`方法。 組態資訊會以JSON物件的形式傳遞至建構函式。 此物件至少有`containerId`欄位，其中包含檢視器容器ID的名稱，以及巢狀`params` JSON物件，其中包含檢視器支援的設定引數。 在此案例中，`params`物件至少必須將影像伺服URL作為`serverUrl`屬性傳遞，並將初始資產作為`asset`引數傳遞。 JSON型初始化API可讓您使用一行程式碼來建立和啟動檢視器。
 
-   請務必將檢視器容器新增至DOM，讓檢視器程式碼可依其ID尋找容器元素。 有些瀏覽器會延遲建立DOM，直到網頁結尾為止。 為達到最大相容性，請在結尾的`BODY`標籤前面或內文`onload()`事件上呼叫`init()`方法。
+   請務必將檢視器容器新增至DOM，讓檢視器程式碼可依其ID尋找容器元素。 有些瀏覽器會延遲建立DOM，直到網頁結尾為止。 為達到最大相容性，請在結尾的`init()`標籤前面或內文`BODY`事件上呼叫`onload()`方法。
 
    同時，容器元素也不一定屬於網頁配置的一部分。 例如，可以使用指派給它的`display:none`樣式來隱藏它。 在此情況下，檢視器會延遲其初始化程式，直到網頁將容器元素帶回版面配置為止。 當此動作發生時，檢視器載入會自動繼續。
 
@@ -294,7 +294,7 @@ var spinViewer = new s7viewers.SpinViewer({
 
 [即時示範](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[備用示範位置](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=zh-Hant)
+[備用示範位置](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 **寬度和高度已定義的彈性大小內嵌**
 

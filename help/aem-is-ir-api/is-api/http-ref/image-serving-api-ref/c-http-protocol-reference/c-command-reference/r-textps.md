@@ -33,7 +33,7 @@ ht-degree: 3%
 
 ## 屬性 {#section-a289dc26b6534b41998b1e241d5f2f92}
 
-圖層屬性。 若為`layer=comp`，則套用至`layer=0`。 與相同圖層中的`src=`和`text=`互斥。 最後出現的`text=`、`textPs=`和`src=`會優先處理，並判斷這是影像層還是文字層。 被效果圖層忽略。
+圖層屬性。 若為`layer=0`，則套用至`layer=comp`。 與相同圖層中的`src=`和`text=`互斥。 最後出現的`text=`、`textPs=`和`src=`會優先處理，並判斷這是影像層還是文字層。 被效果圖層忽略。
 
 ## 預設 {#section-11c2ae2c96d64a0a9c207252df663e4d}
 

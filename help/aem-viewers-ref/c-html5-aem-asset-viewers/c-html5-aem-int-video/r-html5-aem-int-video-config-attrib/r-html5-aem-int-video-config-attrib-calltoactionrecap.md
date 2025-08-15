@@ -22,7 +22,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> 指出檢視器在視訊播放結束時是否顯示「呼叫動作」面板。 </p> </td> 
+   <td colname="col2"> <p> 指出檢視器在視訊播放結束時是否顯示「call-to-action」面板。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

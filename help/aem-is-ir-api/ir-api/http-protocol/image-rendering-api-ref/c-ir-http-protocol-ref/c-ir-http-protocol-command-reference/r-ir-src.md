@@ -91,9 +91,9 @@ ht-degree: 1%
 
 ## 支援的檔案格式 {#section-f2186d3eef834fc8bbecb2bc68daacad}
 
-影像演算支援與Dynamic Media Image Serving相同的來源影像格式。
+影像演算支援與Dynamic Media影像伺服相同的來源影像格式。
 
-需要多個不同解析度影像資料的應用程式，在使用Scene7金字塔TIFF(PTIFF)多解析度格式時表現最佳。 「影像伺服」包含影像轉換器(IC)公用程式，可依據任何支援的格式建立PTIFF影像。
+需要多個不同解析度影像資料的應用程式，在使用Scene7金字塔TIFF (PTIFF)多解析度格式時表現最佳。 「影像伺服」包含影像轉換器(IC)公用程式，可依據任何支援的格式建立PTIFF影像。
 
 如需支援檔案格式的完整清單，請參閱「影像伺服」檔案中的IC公用程式說明。
 
@@ -111,7 +111,7 @@ ht-degree: 1%
 
 `…&obj=cabinets&src=cabs/maple02.vnc,cabs/maple.jpg&res=40&color=185,105,35&…`
 
-記錄&#39;`12-3-2`&#39;中的材質目錄`'cat`&#39;中可以有相同的材質：
+記錄&#39;`'cat`&#39;中的材質目錄`12-3-2`&#39;中可以有相同的材質：
 
 `…&obj=cabinets&src=cat/12-3-2&…`
 

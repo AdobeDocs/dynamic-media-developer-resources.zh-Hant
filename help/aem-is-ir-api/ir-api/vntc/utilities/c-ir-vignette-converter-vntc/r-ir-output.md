@@ -25,7 +25,7 @@ vntc會產生文字資料，並傳送至stderr或記錄檔。
 <table id="simpletable_32AAA1A2DDB04BC6B86885E6223BF609"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">bgc=<span class="varname"> ival</span>，<span class="varname"> ival</span>，<span class="varname"> ival</span></span> </p> </td> 
-  <td class="stentry"> <p>封包樣式的RGB背景顏色。 僅限封包樣式。 </p></td> 
+  <td class="stentry"> <p>封包樣式的RGB背景色彩。 僅限封包樣式。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">defaultFileVersion=<span class="varname"> ival</span></span> </p></td> 
@@ -123,7 +123,7 @@ vntc會產生文字資料，並傳送至stderr或記錄檔。
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">尾碼=<span class="varname">字串</span></span> </p></td> 
-  <td class="stentry"> <p>如果<span class="varname"> sourceFile</span>為暈映，<span class="codeph"> vnt</span>；如果<span class="varname"> sourceFile</span>為封包樣式，<span class="codeph"> vnc</span>；或者<span class="codeph"> vnw</span> （如果<span class="varname"> sourceFile</span>為視窗涵蓋樣式）。 </p></td> 
+  <td class="stentry"> <p>如果<span class="codeph"> sourceFile</span>為暈映，<span class="varname"> vnt</span>；如果<span class="codeph"> sourceFile</span>為封包樣式，<span class="varname"> vnc</span>；或者<span class="codeph"> vnw</span> （如果<span class="varname"> sourceFile</span>為視窗涵蓋樣式）。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">targetFileVersion=<span class="varname"> ival</span></span> </p></td> 

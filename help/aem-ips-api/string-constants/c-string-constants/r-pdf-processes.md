@@ -1,7 +1,7 @@
 ---
 description: 由PDFOptions/型別使用。
 solution: Experience Manager
-title: PDF流程
+title: PDF程式
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 4b389448-8611-4306-921a-bb1dd9361932
@@ -12,7 +12,7 @@ ht-degree: 14%
 
 ---
 
-# PDF流程{#pdf-processes}
+# PDF程式{#pdf-processes}
 
 由PDFOptions/型別使用。
 

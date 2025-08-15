@@ -20,7 +20,7 @@ ht-degree: 1%
 
 在RTF字串中未明確指定字型時，會使用以`attribute::DefaultFont`指定的字型。
 
-「影像伺服」支援TrueType、OpenType®、Adobe Type1 （僅限Windows）字型。
+「影像伺服」支援TrueType、OpenType®、Adobe Type 1 （僅限Windows）字型。
 
 <!-- THIS APPEARS TO BE VERY OLD OUTDATED INFORMATION; URL IS DEAD TOO ## Photofont&reg; font support {#section-74560ae898cf4708aba4c8b4093f5f00}
 

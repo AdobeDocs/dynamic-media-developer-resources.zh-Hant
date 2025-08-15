@@ -16,7 +16,7 @@ ht-degree: 0%
 
 本節說明目錄資料欄位。
 
-* [影像SVG資料](r-image-svg-data.md)
+* [Image_SVG資料](r-image-svg-data.md)
 * [靜態內容資料](r-static-contents-data.md)
 * [巨集定義](r-macro-definitions.md)
 * [字型地圖](r-font-maps.md)

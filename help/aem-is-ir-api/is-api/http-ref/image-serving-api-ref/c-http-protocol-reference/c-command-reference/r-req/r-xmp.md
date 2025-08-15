@@ -1,5 +1,5 @@
 ---
-description: XMP中繼資料。 傳回與要求路徑中所指定影像相關聯的XMP中繼資料。
+description: XMP中繼資料。 傳回與請求路徑中所指定影像相關聯的XMP中繼資料。
 solution: Experience Manager
 title: xmp
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # xmp{#xmp}
 
-XMP中繼資料。 傳回與要求路徑中所指定影像相關聯的XMP中繼資料。
+XMP中繼資料。 傳回與請求路徑中所指定影像相關聯的XMP中繼資料。
 
 `req=xmp`
 

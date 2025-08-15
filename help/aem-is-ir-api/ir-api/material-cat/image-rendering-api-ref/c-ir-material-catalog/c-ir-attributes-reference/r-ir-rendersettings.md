@@ -18,7 +18,7 @@ ht-degree: 5%
 
 ## 屬性 {#section-fa89db09aeeb420292cf783f07b8547a}
 
-文字字串。 若指定，則必須為有效的轉譯設定字串，如暈映製作工具(Dynamic Media影像製作套件的一部分)所定義。
+文字字串。 若指定，則必須為有效的轉譯器設定字串，如暈映製作工具（Dynamic Media影像製作套件的一部分）所定義。
 
 ## 預設 {#section-4e76784aeecd4f09a33124aded7406cb}
 

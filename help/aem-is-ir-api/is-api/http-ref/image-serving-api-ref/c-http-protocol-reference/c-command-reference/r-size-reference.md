@@ -39,7 +39,7 @@ ht-degree: 1%
 
 ## 屬性 {#section-5f254b66fcba49bcb63f9c9ea40b230c}
 
-圖層屬性。 套用至圖層0 （若`layer=comp`）。 `layer=0`或`layer=comp`不允許`sizeN=`。 `sizeN=`僅允許在定義浮水印影像的目錄記錄中用於`layer=0`和`layer=comp`。 在這種情況下，`sizeN`會定義相對於要套用浮水印之複合影像的浮水印影像縮放。 若指定`size=`，則會忽略此圖層的`res=`和`scale=`。 被效果圖層忽略。
+圖層屬性。 套用至圖層0 （若`layer=comp`）。 `sizeN=`或`layer=0`不允許`layer=comp`。 `sizeN=`僅允許在定義浮水印影像的目錄記錄中用於`layer=0`和`layer=comp`。 在這種情況下，`sizeN`會定義相對於要套用浮水印之複合影像的浮水印影像縮放。 若指定`size=`，則會忽略此圖層的`res=`和`scale=`。 被效果圖層忽略。
 
 ## 預設 {#section-43d129deba6a441da66a1fdb63d1c85c}
 
@@ -49,7 +49,7 @@ ht-degree: 1%
 
 ## 範例 {#section-d1adaddd9e0b4ca881fd8e0a7541e5d9}
 
-檢視[範本](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e)中的[範例A](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/r-example-a.md#reference-c78ea82e8a1646738e764fa6685dfbac)。
+檢視[範本](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/r-example-a.md#reference-c78ea82e8a1646738e764fa6685dfbac)中的[範例A](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e)。
 
 ## 另請參閱 {#section-63dfdf3750e249d2ab4c825ccd2e7181}
 

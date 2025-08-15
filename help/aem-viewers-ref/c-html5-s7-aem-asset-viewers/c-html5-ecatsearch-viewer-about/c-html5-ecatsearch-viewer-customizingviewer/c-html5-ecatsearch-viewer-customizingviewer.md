@@ -167,7 +167,7 @@ background-position: -0px -560px;
 
 ## 一般樣式注意事項和建議 {#section-95855dccbbc444e79970f1aaa3260b7b}
 
-* 使用CSS自訂檢視器使用者介面時，樣式檢視器元素不支援使用`!IMPORTANT`規則。 尤其是`!IMPORTANT`規則不應用來覆寫檢視器或檢視器SDK提供的任何預設或執行階段樣式。 原因是它可能會影響適當元件的行為。 您應該改用具有適當特性的CSS選取器，以設定本參考指南中記錄的CSS屬性。
+* 使用CSS自訂檢視器使用者介面時，樣式檢視器元素不支援使用`!IMPORTANT`規則。 特別是，`!IMPORTANT`規則不應用來覆寫檢視器或檢視器SDK提供的任何預設或執行階段樣式。 原因是它可能會影響適當元件的行為。 您應該改用具有適當特性的CSS選取器，以設定本參考指南中記錄的CSS屬性。
 * CSS內指向外部資產的所有路徑都是根據CSS位置而不是檢視器HTML頁面位置來解析。 將預設CSS複製到其他位置時，請注意此規則。 同時複製預設資產或更新自訂CSS內的路徑。
 * 點陣圖稿的偏好格式為PNG。
 * 點陣圖圖案是使用`background-image`屬性指派給使用者介面元素。
@@ -185,7 +185,7 @@ background-position: -0px -560px;
 * [下載](r-html5-ecatsearch-customize-download.md)
 * [電子郵件共用](r-html5-ecatsearch-customize-emailshare.md)
 * [內嵌共用](r-html5-ecatsearch-customize-embedshare.md)
-* [facebook共用](r-html5-ecatsearch-customize-facebookshare.md)
+* [Facebook分享](r-html5-ecatsearch-customize-facebookshare.md)
 * [我的最愛效果](r-html5-ecatsearch-customize-favoriteseffect.md)
 * [我的最愛功能表](r-html5-ecatsearch-customize-favoritesmenu.md)
 * [我的最愛檢視](r-html5-ecatsearch-customize-favoritesview.md)
@@ -216,7 +216,7 @@ background-position: -0px -560px;
 * [縮圖](r-html5-ecatsearch-customize-thumbnails.md)
 * [縮圖按鈕](r-html5-ecatsearch-customize-thumbnailsbutton.md)
 * [工具提示](r-html5-ecatsearch-customize-tooltips.md)
-* [twitter共用](r-html5-ecatsearch-customize-twittershare.md)
+* [Twitter共用](r-html5-ecatsearch-customize-twittershare.md)
 * [檢視所有我的最愛按鈕](r-html5-ecatsearch-customize-viewallfavorites.md)
 * [放大顯示按鈕](r-html5-ecatsearch-customize-zoominbutton.md)
 * [縮小顯示按鈕](r-html5-ecatsearch-customize-zoomoutbutton.md)

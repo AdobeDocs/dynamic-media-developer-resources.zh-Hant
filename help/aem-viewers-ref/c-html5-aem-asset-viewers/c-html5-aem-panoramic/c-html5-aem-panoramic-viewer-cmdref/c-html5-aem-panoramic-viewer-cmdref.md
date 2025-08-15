@@ -17,7 +17,7 @@ ht-degree: 0%
 
 任何設定命令都可以在URL中設定，或使用`setParam()`和/或`setParams()` API方法來設定。 任何設定屬性也可在伺服器端設定記錄中指定。
 
-某些設定命令可能會加上對應HTML5 SDK元件的類別名稱或例項名稱當作前置詞。 元件的執行個體名稱是動態的，且取決於傳遞至`setContainerId()` API方法的檢視器容器DOM元素的識別碼。 檔案包含這類命令的選用首碼。 例如，`vrrender`命令的記錄如下：
+某些設定命令可能會加上相對應HTML5 SDK元件的類別名稱或例項名稱當作前置詞。 元件的執行個體名稱是動態的，且取決於傳遞至`setContainerId()` API方法的檢視器容器DOM元素的識別碼。 檔案包含這類命令的選用首碼。 例如，`vrrender`命令的記錄如下：
 
 ```
 [PanoramicView.|<containerId>_panoramicView].vrrender

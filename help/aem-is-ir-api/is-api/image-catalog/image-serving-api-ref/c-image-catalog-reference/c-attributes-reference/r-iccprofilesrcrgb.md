@@ -1,5 +1,5 @@
 ---
-description: RGB預設輸入色彩設定檔。 指定用於RGB來源影像（未內嵌色彩設定檔）的ICC色彩設定檔名稱，以及用於各種「影像伺服」命令（例如color=）所指定的某些RGB色彩值。
+description: RGB預設輸入色彩設定檔。 指定用於RGB來源影像（未嵌入色彩設定檔）的ICC色彩設定檔名稱，以及用於使用各種「影像伺服」命令（例如color=）指定的某些RGB色彩值。
 solution: Experience Manager
 title: IccProfileSrcRgb
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # IccProfileSrcRgb{#iccprofilesrcrgb}
 
-RGB預設輸入色彩設定檔。 指定用於RGB來源影像（未內嵌色彩設定檔）的ICC色彩設定檔名稱，以及用於各種「影像伺服」命令（例如color=）所指定的某些RGB色彩值。
+RGB預設輸入色彩設定檔。 指定用於RGB來源影像（未嵌入色彩設定檔）的ICC色彩設定檔名稱，以及用於使用各種「影像伺服」命令（例如color=）指定的某些RGB色彩值。
 
 ## 屬性 {#section-3cd753196959462e9e674dab0b033d08}
 

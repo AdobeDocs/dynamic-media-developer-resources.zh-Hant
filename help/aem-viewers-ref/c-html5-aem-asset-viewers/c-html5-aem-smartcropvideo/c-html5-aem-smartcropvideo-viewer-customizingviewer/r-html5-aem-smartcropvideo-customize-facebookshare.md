@@ -1,6 +1,6 @@
 ---
-title: facebook共用
-description: facebook共用工具包含新增至「社交共用」面板的按鈕。 選取按鈕時，使用者會重新導向至社交服務提供者的共用對話方塊。 按鈕的位置可完全由社交分享工具管理。
+title: Facebook分享
+description: Facebook共用工具包含新增至「社交」共用面板的按鈕。 選取按鈕時，使用者會重新導向至社交服務提供者的共用對話方塊。 按鈕的位置可完全由社交分享工具管理。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
@@ -12,19 +12,19 @@ ht-degree: 0%
 
 ---
 
-# facebook共用{#facebook-share}
+# Facebook分享{#facebook-share}
 
-facebook共用工具包含新增至「社交共用」面板的按鈕。 選取按鈕時，使用者會重新導向至社交服務提供者的共用對話方塊。 按鈕的位置可完全由社交分享工具管理。
+Facebook共用工具包含新增至「社交」共用面板的按鈕。 選取按鈕時，使用者會重新導向至社交服務提供者的共用對話方塊。 按鈕的位置可完全由社交分享工具管理。
 
 <!--<a id="section_ADDF98E91AF24F618289D1682A5FB13A"></a>-->
 
-facebook共用按鈕的外觀是由下列CSS類別選取器所控制：
+Facebook共用按鈕的外觀是由下列CSS類別選取器所控制：
 
 ```
 .s7smartcropvideoviewer .s7facebookshare
 ```
 
-facebook共用工具的&#x200B;**CSS屬性**
+Facebook共用工具的&#x200B;**CSS屬性**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 

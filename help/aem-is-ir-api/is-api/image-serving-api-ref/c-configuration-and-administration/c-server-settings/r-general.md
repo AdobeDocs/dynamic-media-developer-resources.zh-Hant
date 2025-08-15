@@ -42,4 +42,4 @@ ht-degree: 0%
 
 ## PS：：saveToFile.saveTimeout — 檔案儲存逾時 {#section-d22afd8ad86144b28684ed95a59db40e}
 
-未指定`timeout=`時，`req=saveToFile`的預設逾時值。 `msec`。 如果儲存作業未在指定的時間內完成，則會傳回錯誤。
+未指定`req=saveToFile`時，`timeout=`的預設逾時值。 `msec`。 如果儲存作業未在指定的時間內完成，則會傳回錯誤。

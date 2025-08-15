@@ -16,11 +16,11 @@ ht-degree: 0%
 
 IPS （影像生產系統） Web服務API可讓外部應用程式和協力廠商開發人員以程式設計方式存取IPS資產和功能。
 
-本參考指南包含並定義IPS Web服務API使用的所有服務、方法和資料型別。 它已經過與Java™ （使用Apache Axis2資料庫）、AdobeFlex和Microsoft® .NET的相容性測試。
+本參考指南包含並定義IPS Web服務API使用的所有服務、方法和資料型別。 它已經過與Java™ （使用Apache Axis2資料庫）、Adobe Flex和Microsoft® .NET的相容性測試。
 
 ## 標準和通訊協定 {#section-d85e71e44b7f432b9c65ce6ca45b7157}
 
-IPS API使用標準SOAP和HTTP通訊協定，並與符合這些標準的任何使用者端相容。 其他測試有助於確保API與Java™ （使用Apache Axis2資料庫）、AdobeFlex和Microsoft® .NET相容。
+IPS API使用標準SOAP和HTTP通訊協定，並與符合這些標準的任何使用者端相容。 其他測試有助於確保API與Java™ （使用Apache Axis2資料庫）、Adobe Flex和Microsoft® .NET相容。
 
 >[!MORELIKETHIS]
 >

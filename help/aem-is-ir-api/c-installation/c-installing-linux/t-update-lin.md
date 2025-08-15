@@ -1,6 +1,6 @@
 ---
 title: 從IS 4.7.4或更新版本更新
-description: 在Linux®上升級Dynamic Media Image Serving時，請使用此程式。
+description: 在Linux®上升級Dynamic Media影像伺服時，請使用此程式。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 從IS 4.7.4或更新版本更新{#updating-from-is-or-later}
 
-在Linux®上升級Dynamic Media Image Serving時，請使用此程式。
+在Linux®上升級Dynamic Media影像伺服時，請使用此程式。
 
 如果您要從舊版「影像伺服」升級，請聯絡支援以取得正確的程式。
 

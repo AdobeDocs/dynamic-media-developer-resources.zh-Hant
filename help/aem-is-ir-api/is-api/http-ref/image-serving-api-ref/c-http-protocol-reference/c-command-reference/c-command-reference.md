@@ -25,10 +25,10 @@ ht-degree: 4%
 >* 網路頻寬
 >* DPR （裝置畫素比率）
 >
->若要瞭解使用快照的簡易程度，請播放[快照訓練影片](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=zh-Hant) （3分17秒）。
+>若要瞭解使用快照的簡易程度，請播放[快照訓練影片](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=en) （3分17秒）。
 
 
-**僅適用於Adobe Experience Manager中的Dynamic Media** — 除了使用者介面中可用的基本影像設定之外，AEM ( [!DNL Adobe Experience Manager])中的[!DNL Dynamic Media]還支援您可以在&#x200B;**影像修飾元**&#x200B;欄位中指定的許多進階影像修改。 這些引數定義如下。 但是請注意，在AEM的Dynamic Media中不支援下列功能。
+**僅適用於Adobe Experience Manager中的Dynamic Media** — 除了使用者介面中可用的基本影像設定之外，AEM ( [!DNL Dynamic Media])中的[!DNL Adobe Experience Manager]還支援您可以在&#x200B;**影像修飾元**&#x200B;欄位中指定的許多進階影像修改。 這些引數定義如下。 但是請注意，AEM的Dynamic Media不支援下列功能。
 
 * 色彩校正命令： `icc=`和`iccEmbed=`。
 * 基本範本化和文字演算命令： `text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=`和`textPs=`。
@@ -42,7 +42,7 @@ ht-degree: 4%
 
 <!-- Adobe IS command examples website  http://sj1010010254235.corp.adobe.com/iscommands/ -->
 
-另請參閱AEM 6.5檔案中的Dynamic Media [影像預設集選項](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html?lang=zh-Hant#dynamic)。
+另請參閱AEM 6.5檔案中的動態媒體[影像預設集選項](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic)。
 
 * [對齊](r-align.md)
 * [錨記](r-anchor.md)

@@ -26,7 +26,7 @@ ht-degree: 0%
 
    * `objID {String}`目前未使用。
    * `compClass {String}`目前未使用。
-   * `instName {String}`觸發事件之Viewer SDK元件的執行個體名稱。
+   * `instName {String}`觸發事件的檢視器SDK元件的執行個體名稱。
    * `eventInfo {String}`個事件承載。
 
 另請參閱[SmartCropVideoViewer]

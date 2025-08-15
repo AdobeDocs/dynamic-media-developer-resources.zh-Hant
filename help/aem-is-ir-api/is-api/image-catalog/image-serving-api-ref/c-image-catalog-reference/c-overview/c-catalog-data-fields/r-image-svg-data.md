@@ -1,7 +1,7 @@
 ---
-description: 下列欄位可在影像和SVG資料檔案中辨識。
+description: 影像和SVG資料檔案可識別下列欄位。
 solution: Experience Manager
-title: 影像SVG資料
+title: Image_SVG資料
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 5392e08f-3614-4588-8846-4262d32f3ce1
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# 影像SVG資料{#image-svg-data}
+# Image_SVG資料{#image-svg-data}
 
-下列欄位可在影像和SVG資料檔案中辨識。
+影像和SVG資料檔案可識別下列欄位。
 
 ## 目錄管理 {#section-1056bcc3b6d04166b3aa6ec48913b6b2}
 

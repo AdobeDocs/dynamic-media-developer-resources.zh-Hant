@@ -22,7 +22,7 @@ ht-degree: 3%
 
 縮放、迴轉和小冊子檢視器使用者端會假設此欄位使用屬性資料格式。 這些使用者端使用此欄位來設定檢視器並自訂。 如需詳細資訊，請參閱檢視器檔案。
 
-此欄位參與文字字串本地化。 如需詳細資訊，請參閱&#x200B;*HTTP通訊協定參考*&#x200B;中的[文字字串本地化](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)。
+此欄位參與文字字串本地化。 如需詳細資訊，請參閱[HTTP通訊協定參考](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)中的&#x200B;*文字字串本地化*。
 
 ## 預設 {#section-7ee879762130467199745f2abc662f1e}
 

@@ -33,7 +33,7 @@ ID轉譯對應。 指定用於將一般影像ID轉譯為地區設定特定ID的�
  </tr> 
 </table>
 
-`LocaleMap`參考可對應至任意數量的`locSuffix`的`locId`。
+`LocaleMap`參考可對應至任意數量的`locId`的`locSuffix`。
 
 允許空的&#x200B;*`locSuffix`*&#x200B;值。 *`locSuffix`*&#x200B;值必須依搜尋它們的順序排序。 會傳回第一個相符專案。
 

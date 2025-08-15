@@ -48,7 +48,7 @@ ht-degree: 0%
   <tr> 
    <td> <span class="codeph"> \*\iscolortbl </span> </td> 
    <td> <p>「影像伺服」色彩的色彩表。 </p> </td> 
-   <td> <p>Dynamic Media延伸模組；僅<span class="codeph"> textPs= </span> </p> </td> 
+   <td> <p>Dynamic Media擴充功能；僅<span class="codeph"> textPs= </span> </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \red <span class="varname"> N </span> </span> </td> 
@@ -68,22 +68,22 @@ ht-degree: 0%
   <tr> 
    <td> <span class="codeph"> \cyan <span class="varname"> N </span> </span> </td> 
    <td> <p>青色色元件。 </p> </td> 
-   <td> <p>Dynamic Media延伸模組；只能出現在<span class="codeph"> \cmykcolortbl </span>； 0...100中 </p> </td> 
+   <td> <p>Dynamic Media擴充功能；只能出現在<span class="codeph"> \cmykcolortbl </span>； 0...100中 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \magenta <span class="varname"> N </span> </span> </td> 
    <td> <p>洋紅色元件。 </p> </td> 
-   <td> <p>Dynamic Media延伸模組；只能出現在<span class="codeph"> \cmykcolortbl </span>； 0...100中 </p> </td> 
+   <td> <p>Dynamic Media擴充功能；只能出現在<span class="codeph"> \cmykcolortbl </span>； 0...100中 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \黃色<span class="varname"> N </span> </span> </td> 
    <td> <p>黃色元件。 </p> </td> 
-   <td> <p>Dynamic Media延伸模組；只能出現在<span class="codeph"> \cmykcolortbl </span>； 0...100中 </p> </td> 
+   <td> <p>Dynamic Media擴充功能；只能出現在<span class="codeph"> \cmykcolortbl </span>； 0...100中 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \black <span class="varname"> N </span> </span> </td> 
    <td> <p>黑色顏色元件。 </p> </td> 
-   <td> <p>Dynamic Media延伸模組；只能出現在<span class="codeph"> \cmykcolortbl </span>； 0...100中 </p> </td> 
+   <td> <p>Dynamic Media擴充功能；只能出現在<span class="codeph"> \cmykcolortbl </span>； 0...100中 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \margl <span class="varname"> N </span> </span> </td> 

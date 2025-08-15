@@ -16,7 +16,7 @@ ht-degree: 1%
 
 如果設定`attribute::UseLastModified`，則HTTP回應中會傳回`catalog::TimeStamp`值作為Last-Modified HTTP標頭。 系統會一律傳回靜態內容的Last-Modified標頭，即使未設定`attribute::UseLastModified`亦然。
 
-對於影像和SVG內容，`catalog::TimeStamp`也用於目錄型快取驗證（請參閱[attribute：：CacheValidationPolicy](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-cachevalidationpolicy.md)）。
+針對影像和SVG內容，`catalog::TimeStamp`也用於目錄型快取驗證（請參閱[attribute：：CacheValidationPolicy](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-cachevalidationpolicy.md)）。
 
 ## 屬性 {#section-2298a384b5cb43929542655c5a49beb2}
 

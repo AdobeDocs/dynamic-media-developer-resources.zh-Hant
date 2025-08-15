@@ -1,5 +1,5 @@
 ---
-description: 本檔案說明Dynamic Media影像演算的HTTP通訊協定。
+description: 本檔案說明Dynamic Media影像轉譯的HTTP通訊協定。
 solution: Experience Manager
 title: HTTP通訊協定參考
 feature: Dynamic Media Classic,SDK/API
@@ -14,4 +14,4 @@ ht-degree: 0%
 
 # HTTP通訊協定參考{#http-protocol-reference}
 
-本檔案說明Dynamic Media影像演算的HTTP通訊協定。
+本檔案說明Dynamic Media影像轉譯的HTTP通訊協定。

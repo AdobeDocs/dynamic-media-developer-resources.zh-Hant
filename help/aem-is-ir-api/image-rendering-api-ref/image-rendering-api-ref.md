@@ -1,6 +1,6 @@
 ---
 title: 影像轉譯API參考
-description: 檢視Dynamic Media影像演算API參考說明。
+description: 檢視Dynamic Media影像轉譯API參考說明。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,4 +14,4 @@ ht-degree: 0%
 
 # 影像轉譯API參考 {#image-rendering-api-reference}
 
-檢視Dynamic Media影像演算API參考說明。
+檢視Dynamic Media影像轉譯API參考說明。

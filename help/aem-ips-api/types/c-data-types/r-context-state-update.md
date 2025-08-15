@@ -51,4 +51,4 @@ ht-degree: 16%
 
 >[!MORELIKETHIS]
 >
->* [Publish狀態](../../string-constants/c-string-constants/r-publish-state.md#reference-a9d80231514b4272b39d10c1a7aadca8)
+>* [發佈狀態](../../string-constants/c-string-constants/r-publish-state.md#reference-a9d80231514b4272b39d10c1a7aadca8)

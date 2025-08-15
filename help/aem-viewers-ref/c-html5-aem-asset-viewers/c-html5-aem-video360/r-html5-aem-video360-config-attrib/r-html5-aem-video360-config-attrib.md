@@ -18,7 +18,7 @@ Video360 Viewer的設定屬性檔案。
 
 任何設定命令都可以在URL中設定，或使用`setParam()`、`setParams()`或兩者的API方法設定。 任何組態屬性也可在伺服器端組態記錄中指定。
 
-某些設定命令可能會加上相對應Viewer SDK元件的類別名稱或例項名稱當作前置詞。 元件的執行個體名稱是動態的，且取決於傳遞至`setContainerId()` API方法的檢視器容器DOM元素的識別碼。 檔案包含這類命令的選用首碼。 例如，`playback`命令的記錄如下：
+某些設定命令可能會加上相對應檢視器SDK元件的類別名稱或例項名稱當作前置詞。 元件的執行個體名稱是動態的，且取決於傳遞至`setContainerId()` API方法的檢視器容器DOM元素的識別碼。 檔案包含這類命令的選用首碼。 例如，`playback`命令的記錄如下：
 
 `[VideoPlayer.|<containerId>_videoPlayer].playback`
 

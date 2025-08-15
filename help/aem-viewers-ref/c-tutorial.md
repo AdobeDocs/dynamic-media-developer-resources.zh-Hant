@@ -1,6 +1,6 @@
 ---
 title: 檢視器SDK教學課程
-description: 檢視器SDK提供了一組JavaScript元件，用於自訂檢視器開發。 檢視器是網頁型應用程式，可將Adobe Dynamic Media提供的豐富媒體內容內嵌在網頁中。
+description: 檢視器SDK為自訂檢視器開發提供了一組JavaScript型元件。 檢視器是網頁型應用程式，可將Adobe Dynamic Media提供的多媒體內容內嵌在網頁中。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # 檢視器SDK教學課程{#viewer-sdk-tutorial}
 
-檢視器SDK提供了一組JavaScript元件，用於自訂檢視器開發。 檢視器是網頁型應用程式，可將Adobe Dynamic Media提供的豐富媒體內容內嵌在網頁中。
+檢視器SDK為自訂檢視器開發提供了一組JavaScript型元件。 檢視器是網頁型應用程式，可將Adobe Dynamic Media提供的多媒體內容內嵌在網頁中。
 
-例如，SDK提供互動式縮放和平移。 此外，還可針對透過名為Dynamic Media Classic的後端應用程式上傳至Adobe Dynamic Media的資產，提供360度檢視和視訊播放。
+例如，SDK提供互動式縮放和平移。 針對透過名為Dynamic Media Classic的後端應用程式上傳至Adobe Dynamic Media的資產，也能提供360度全方位檢視和視訊播放。
 
-即使元件依賴HTML5功能，但其設計可在Android™和Apple iOS裝置以及桌上型電腦（包括Internet Explorer和更新版本）上運作。 這類體驗表示您可以為所有支援的平台提供單一工作流程。
+即使元件仰賴HTML5功能，但其設計可在Android™和Apple iOS裝置以及桌上型電腦（包括Internet Explorer和更新版本）上運作。 這類體驗表示您可以為所有支援的平台提供單一工作流程。
 
-SDK包含構成檢視器內容的UI元件。 您可以透過CSS以及具有某種支援角色（例如集定義擷取以及剖析或追蹤）的非UI元件來設定這些元件的樣式。 所有元件行為都可透過修飾元進行自訂，您可以透過各種方式指定修飾元，例如，在URL中指定為`name=value`配對。
+SDK由構成檢視器內容的UI元件組成。 您可以透過CSS以及具有某種支援角色（例如集定義擷取以及剖析或追蹤）的非UI元件來設定這些元件的樣式。 所有元件行為都可透過修飾元進行自訂，您可以透過各種方式指定修飾元，例如，在URL中指定為`name=value`配對。
 
 本教學課程包含下列工作順序，可協助您建立基本縮放檢視器：
 
@@ -32,19 +32,19 @@ SDK包含構成檢視器內容的UI元件。 您可以透過CSS以及具有某�
 * [正在新增按鈕至檢視器](c-tutorial.md#section-1fc334fa0d2b47eb9cdad461725c07be)
 * [垂直設定色票](c-tutorial.md#section-91a8829d5b5a4d45a35b7faeb097fcc9)
 
-## 從Adobe Developer Connection下載最新的Viewer SDK {#section-84dc74c9d8e24a2380b6cf8fc28d7127}
+## 從Adobe Developer Connection下載最新的檢視器SDK {#section-84dc74c9d8e24a2380b6cf8fc28d7127}
 
-1. 從Adobe Developer Connection <!-- SDK NO LONGER AVAILABLE TO DOWNLOAD;DOUBLE CHECK WITH AMIT. THIS ENTIRE TOPIC IS LIKELY OBSOLETE. [here](https://marketing.adobe.com/developer/devcenter/scene7/show) -->下載最新的Viewer SDK。
+1. 從Adobe Developer Connection <!-- SDK NO LONGER AVAILABLE TO DOWNLOAD;DOUBLE CHECK WITH AMIT. THIS ENTIRE TOPIC IS LIKELY OBSOLETE. [here](https://marketing.adobe.com/developer/devcenter/scene7/show) -->下載最新的檢視器SDK。
 
    >[!NOTE]
    >
-   >您可以完成本教學課程，而不需要下載Viewer SDK套件，因為此SDK已從遠端載入。 不過，檢視器套件包含其他範例和API參考指南，可協助您建立自己的檢視器。
+   >您可以完成本教學課程，而不需要下載Viewer SDK套件，因為SDK會從遠端載入。 不過，檢視器套件包含其他範例和API參考指南，可協助您建立自己的檢視器。
 
 ## 載入檢視器SDK {#section-98596c276faf4cf79ccf558a9f4432c6}
 
 1. 首先，請設定一個新頁面，以開發您要建立的基本縮放檢視器。
 
-   您可以將用來設定空白SDK應用程式的Bootstrap（或載入器）程式碼納入此全新頁面中。 開啟您最愛的文字編輯器，並在其中貼上下列HTML標示：
+   請將此全新頁面視為用來設定空白SDK應用程式的Bootstrap （或載入器）程式碼。 開啟您最愛的文字編輯器，並在其中貼上下列HTML標籤：
 
    ```html {.line-numbers}
    <!DOCTYPE html> 
@@ -79,7 +79,7 @@ SDK包含構成檢視器內容的UI元件。 您可以透過CSS以及具有某�
    </html>
    ```
 
-   將下列JavaScript程式碼新增至`script`標籤內，使其初始化`ParameterManager`。 這麼做可協助您準備在`initViewer`函式中建立和具現化SDK元件：
+   將下列JavaScript程式碼新增至`script`標籤內，使其初始化`ParameterManager`。 這麼做可協助您準備在`initViewer`函式中建立並具現化SDK元件：
 
    ```javascript {.line-numbers}
    /* We create a self-running anonymous function to encapsulate variable scope. Placing code inside such 
@@ -148,7 +148,7 @@ SDK包含構成檢視器內容的UI元件。 您可以透過CSS以及具有某�
 
 1. 包含元件`Container`和`ZoomView`以建立實際的檢視器。
 
-   在[!DNL Utils.js]指令碼載入後，將下列`include`陳述式插入到`<head>`元素的底部：
+   在`include`指令碼載入後，將下列`<head>`陳述式插入到[!DNL Utils.js]元素的底部：
 
    ```javascript {.line-numbers}
    <!-- 
@@ -228,9 +228,9 @@ SDK包含構成檢視器內容的UI元件。 您可以透過CSS以及具有某�
    var mediaSet, container, zoomView, swatches;
    ```
 
-1. 將`initViewer`函式內的`MediaSet`和`Swatches`元件具現化。
+1. 將`MediaSet`函式內的`Swatches`和`initViewer`元件具現化。
 
-   請務必在`ZoomView`和`Container`元件之後具現化`Swatches`執行個體，否則棧疊順序會隱藏`Swatches`：
+   請務必在`Swatches`和`ZoomView`元件之後具現化`Container`執行個體，否則棧疊順序會隱藏`Swatches`：
 
    ```javascript {.line-numbers}
    // Create MediaSet to manage assets and add event listener to the NOTF_SET_PARSED event 
@@ -372,7 +372,7 @@ SDK包含構成檢視器內容的UI元件。 您可以透過CSS以及具有某�
    swatches.resize(swatches.getWidth(), height);
    ```
 
-1. 在`ZoomViewer.css`中編輯下列`s7swatches`規則：
+1. 在`s7swatches`中編輯下列`ZoomViewer.css`規則：
 
    ```CSS {.line-numbers}
    .s7swatches { 
@@ -389,4 +389,4 @@ SDK包含構成檢視器內容的UI元件。 您可以透過CSS以及具有某�
 
    您的基本縮放檢視器現已完成。
 
-   此檢視器教學課程會說明Dynamic Media Viewer SDK提供的基本知識。 使用SDK時，您可以使用各種標準元件來輕鬆建立目標受眾的豐富檢視體驗並打造其樣式。
+   此檢視器教學課程會說明Dynamic Media檢視器SDK提供的基本功能。 使用SDK時，您可以使用各種標準元件輕鬆建立目標受眾的豐富檢視體驗並打造其樣式。

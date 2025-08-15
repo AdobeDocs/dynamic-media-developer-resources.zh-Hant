@@ -35,7 +35,7 @@ ht-degree: 20%
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
 | companyHandle | `xsd:string` | 是 | 包含您要傳回之封包的公司控制代碼（例如，`c|656`）。 |
-| assetHandle | `xsd:string` | 是 | 應該擷取XMP封包的資產。 |
+| assetHandle | `xsd:string` | 是 | 應擷取XMP封包的資產。 |
 
 **輸出(getXMPPacketReturn)**
 

@@ -16,7 +16,7 @@ ht-degree: 8%
 
 設定與影像集相關聯的資產清單。
 
-此操作會忽略`ImageSets`和`SpinSets`的`pageReset`引數，並強制將該值設為true。
+此操作會忽略`pageReset`和`ImageSets`的`SpinSets`引數，並強制將該值設為true。
 
 ## 授權的使用者型別 {#section-8968d6a39a344cfc8521020d92ae8916}
 

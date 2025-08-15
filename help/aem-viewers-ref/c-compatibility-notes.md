@@ -53,7 +53,7 @@ ht-degree: 0%
 
 ## HTML5視訊檢視器 {#section-3c2dd1220dea4093b17ca2dd0a688307}
 
-* `IntialBitRate`修飾元僅支援軟體HLS和FlashHDS播放。 使用原生播放器播放時無法運作。
+* `IntialBitRate`修飾元僅支援HLS軟體和Flash HDS播放。 使用原生播放器播放時無法運作。
 * 不支援OGG和WebM漸進式播放。
 * 瀏覽器縮放導致視訊播放器以不正確的大小顯示(包括Windows®控制面板顯示設定)。
 * 在Safari上使用HLS串流的視訊搜尋不一致。
@@ -72,4 +72,4 @@ ht-degree: 0%
 
 * Safari 6.1或更新版本：網際網路外掛程式設定會防止Flash視訊播放。
 * 在Safari上使用HLS串流的視訊搜尋不一致。
-* 無法使用HLS資料流在Safari 6上搜尋視訊結尾。
+* 無法使用HLS串流在Safari 6上搜尋視訊結尾。

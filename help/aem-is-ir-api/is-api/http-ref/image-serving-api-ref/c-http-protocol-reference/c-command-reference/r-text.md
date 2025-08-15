@@ -35,7 +35,7 @@ ht-degree: 4%
 
 ## 屬性 {#section-8c0f020094a44c6b858454ef91ab4edf}
 
-圖層屬性。 若為`layer=comp`，則套用至`layer=0`。 在相同的圖層中，與`src=`和`textPs=`互斥；最後出現的`text=`、`textPs=`和`src=`會佔上風，並判斷這是影像圖層還是文字圖層。 被效果圖層忽略。
+圖層屬性。 若為`layer=0`，則套用至`layer=comp`。 在相同的圖層中，與`src=`和`textPs=`互斥；最後出現的`text=`、`textPs=`和`src=`會佔上風，並判斷這是影像圖層還是文字圖層。 被效果圖層忽略。
 
 ## 預設 {#section-58958671e0ad479e8d5f6c1d41d7dc74}
 
@@ -43,7 +43,7 @@ ht-degree: 4%
 
 ## 範例 {#section-d011f765ec5c418d814a821019b0eef0}
 
-檢視[範本](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e)中[文字格式](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-text-formatting.md#concept-0d3136db7f6f49668274541cd4b6364c)和[範例A](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/r-example-a.md#reference-c78ea82e8a1646738e764fa6685dfbac)的範例。
+檢視[範本](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-text-formatting.md#concept-0d3136db7f6f49668274541cd4b6364c)中[文字格式](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/r-example-a.md#reference-c78ea82e8a1646738e764fa6685dfbac)和[範例A](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e)的範例。
 
 ## 另請參閱 {#section-207b779ab67342a5acd343e6bcc749c4}
 

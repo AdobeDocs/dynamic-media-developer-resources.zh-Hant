@@ -26,7 +26,7 @@ ht-degree: 1%
 
 * 值： `Rectangle`和`Polygon`。
 
-**Publish狀態**
+**發佈狀態**
 
 * 使用者： `searchAssetsParam/publishState`和`setAssetPublishStateParam/publishState`。
 

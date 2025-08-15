@@ -23,6 +23,6 @@ ht-degree: 11%
 | 名稱 | 類型 | 說明 |
 |---|---|---|
 | serverName | `xsd:string` | 擁有發佈記錄的伺服器名稱。 |
-| contextName | `xsd:string` | Publish歷程記錄內容名稱。 |
-| publishFormat | `xsd:string` | Publish格式。 |
+| contextName | `xsd:string` | 發佈歷程記錄內容名稱。 |
+| publishFormat | `xsd:string` | 發佈格式。 |
 | lastPublished | `xsd:dateTime` | 上次發佈資產的日期和時間。 |

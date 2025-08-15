@@ -1,5 +1,5 @@
 ---
-description: 檔案屬性InDesign。
+description: InDesign檔案屬性。
 solution: Experience Manager
 title: InDesignInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 23%
 
 # [!DNL InDesignInfo]{#indesigninfo}
 
-檔案屬性InDesign。
+InDesign檔案屬性。
 
 語法
 

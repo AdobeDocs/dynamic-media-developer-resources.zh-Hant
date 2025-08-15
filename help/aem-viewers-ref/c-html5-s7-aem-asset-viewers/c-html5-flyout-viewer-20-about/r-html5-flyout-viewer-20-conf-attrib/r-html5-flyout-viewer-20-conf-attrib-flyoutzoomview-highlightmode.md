@@ -28,7 +28,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">影像|可用</span> </p> </td> 
-   <td colname="col2"> <p> 控制導覽框架位置。 </p> <p>如果影像</span>上設定為<span class="codeph">，則導覽框架只能位於主檢視內的實際影像區域中。 </p> <p>若設為<span class="codeph">可用</span>，則使用者可將導覽框架移動至邏輯主要檢視區域中的任一處，即使影像內容之外亦然。 </p> </td> 
+   <td colname="col2"> <p> 控制導覽框架位置。 </p> <p>如果影像<span class="codeph">上設定為</span>，則導覽框架只能位於主檢視內的實際影像區域中。 </p> <p>若設為<span class="codeph">可用</span>，則使用者可將導覽框架移動至邏輯主要檢視區域中的任一處，即使影像內容之外亦然。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

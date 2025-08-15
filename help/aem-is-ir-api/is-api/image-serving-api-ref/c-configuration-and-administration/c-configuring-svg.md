@@ -18,7 +18,7 @@ SvgRender元件是獨立的Java應用程式。
 
 SVG組態設定位於[!DNL PlatformServer.conf]、[!DNL SVG.conf]、[!DNL ImageServerRegistry.xml]和[!DNL ServerSupervisorRegistry.xml]。
 
-通訊端連線是用來在SvgRender和影像伺服器之間通訊。 連線埠號碼為27346。 如有必要，可透過將[!DNL svg.conf]中的`SVGRender.port`和[!DNL ImageServerRegistry.xml]中的`<SVGTcpPort>`設定為新值來變更它。
+通訊端連線是用來在SvgRender和影像伺服器之間通訊。 連線埠號碼為27346。 如有必要，可透過將`SVGRender.port`中的[!DNL svg.conf]和`<SVGTcpPort>`中的[!DNL ImageServerRegistry.xml]設定為新值來變更它。
 
 ## 另請參閱 {#section-c085b47d54d44059bdaa67fd5e226e91}
 

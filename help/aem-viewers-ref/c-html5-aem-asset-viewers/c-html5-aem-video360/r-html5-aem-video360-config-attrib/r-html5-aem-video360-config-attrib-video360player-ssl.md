@@ -26,7 +26,7 @@ Video360 Viewer的設定屬性。
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">自動|於</span> </p> </td> 
-   <td colname="col2"> <p> 控制視訊是透過安全SSL連線(HTTPS)或不安全連線(HTTP)傳遞。 </p> <p>設定為<span class="codeph"> auto</span>時，視訊傳遞通訊協定繼承自內嵌網頁的通訊協定。 如果網頁是透過HTTPS載入，視訊也會透過HTTPS傳送，反之亦然。 如果網頁位於HTTP上，則會透過HTTP傳送影片。 </p> <p>在</span>上設定為<span class="codeph">時，無論網頁通訊協定為何，視訊傳送一律會透過安全連線進行。 </p> <p>只會影響已發佈的視訊傳送，且在「作者」模式中預覽視訊時會被忽略。 </p> </td> 
+   <td colname="col2"> <p> 控制視訊是透過安全SSL連線(HTTPS)或不安全連線(HTTP)傳遞。 </p> <p>設定為<span class="codeph"> auto</span>時，視訊傳遞通訊協定繼承自內嵌網頁的通訊協定。 如果網頁是透過HTTPS載入，視訊也會透過HTTPS傳送，反之亦然。 如果網頁位於HTTP上，則會透過HTTP傳送影片。 </p> <p>在<span class="codeph">上設定為</span>時，無論網頁通訊協定為何，視訊傳送一律會透過安全連線進行。 </p> <p>只會影響已發佈的視訊傳送，且在「作者」模式中預覽視訊時會被忽略。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,6 +1,6 @@
 ---
 title: 影像伺服元件
-description: Dynamic Media影像伺服包含下列元件。
+description: 「動態媒體影像伺服」包含下列元件。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # 影像伺服元件{#image-serving-components}
 
-Dynamic Media影像伺服包含下列元件：
+「動態媒體影像伺服」包含下列元件：
 
 <table id="table_534AF33FE5C4453EACAE0DF35E8E3B63"> 
  <thead> 
@@ -53,11 +53,11 @@ Dynamic Media影像伺服包含下列元件：
    <td colname="col2"> <p>執行<span class="codeph"> textPs=</span>作業時，文字演算服務的一或多個執行個體可能作用中。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>SVG演算元件 </p> </td> 
+   <td colname="col1"> <p>SVG轉譯器元件 </p> </td> 
    <td colname="col2"> <p>獨立式Java™應用程式（非由Tomcat託管）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Dynamic Media影像演算(亦稱為 演算伺服器) </p> </td> 
+   <td colname="col1"> <p>動態媒體影像演算(亦稱為 演算伺服器) </p> </td> 
    <td colname="col2"> <p>它需要單獨的授權才能啟用。 位於<span class="filepath"> /ir/render</span>的HTTP存取。 所有影像演算功能已整合至[!DNL Platform Server]和影像伺服器，沒有個別的可執行元件。 </p> </td> 
   </tr> 
  </tbody> 

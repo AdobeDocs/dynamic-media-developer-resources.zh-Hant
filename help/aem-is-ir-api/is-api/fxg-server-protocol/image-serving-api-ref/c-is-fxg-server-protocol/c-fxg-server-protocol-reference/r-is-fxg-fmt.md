@@ -25,7 +25,7 @@ ht-degree: 3%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"></td> 
-  <td class="stentry"> <p> 指定傳送至使用者端之影像資料的影像編碼格式，以及HTTP回覆標題的對應回應MIME型別。 </p> <p> <span class="codeph"> jpeg </span>：失真JPEG </p> <p> <span class="codeph"> png </span>：不遺失PNG </p> <p> <span class="codeph"> png-alpha </span>：含alpha色版的無損PNG </p> <p> <span class="codeph"> tif </span>：TIFF </p> <p> <span class="codeph"> tif-alpha </span>：含alpha色版的TIFF </p> <p> <span class="codeph"> swf </span>：內嵌於Adobeswf檔中的有損JPEG </p> <p> <span class="codeph"> pdf </span>：內嵌在PDF中的影像 </p> <p> <span class="codeph"> gif </span>：GIF為2到256色 </p> <p> <span class="codeph"> gif-alpha </span>：GIF包含2到255種色彩加上按鍵色彩透明度 </p> <p> <span class="codeph"> fxg </span>：套用了變數和DOM操作的FXG </p> <p> <span class="codeph"> fxgraw </span>：原始FXG儲存在伺服器上 </p> </td> 
+  <td class="stentry"> <p> 指定傳送至使用者端之影像資料的影像編碼格式，以及HTTP回覆標題的對應回應MIME型別。 </p> <p> <span class="codeph"> jpeg </span>：失真JPEG </p> <p> <span class="codeph"> png </span>：不遺失PNG </p> <p> <span class="codeph"> png-alpha </span>：含alpha色版的無損PNG </p> <p> <span class="codeph"> tif </span>： TIFF </p> <p> <span class="codeph"> tif-alpha </span>：含alpha色版的TIFF </p> <p> <span class="codeph"> swf </span>：內嵌於Adobe swf檔案中的有損JPEG </p> <p> <span class="codeph"> pdf </span>：內嵌於PDF中的影像 </p> <p> <span class="codeph"> gif </span>：GIF具有2到256色 </p> <p> <span class="codeph"> gif-alpha </span>： GIF具有2到255種色彩加上按鍵色彩透明度 </p> <p> <span class="codeph"> fxg </span>：套用了變數和DOM操作的FXG </p> <p> <span class="codeph"> fxgraw </span>：原始FXG儲存在伺服器上 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> pixelType</span> </span> </p></td> 
@@ -39,7 +39,7 @@ ht-degree: 3%
 
 只有在tif、tif-alpha指定為格式時才允許`tiffCompression`。 如需這些影像格式支援的壓縮選項，請參閱下表。
 
-`qlt=`可用來設定下列格式的JPEG編碼選項：JPEG、具有JPEG壓縮的TIFF。 如果fmt=gif或fmt=gif-alpha，可以使用quantize= 。 如需詳細資訊，請參閱命令說明。 其他格式沒有可設定的選項。
+`qlt=`可用來設定下列格式的JPEG編碼選項： JPEG、具有JPEG壓縮的TIFF。 如果fmt=gif或fmt=gif-alpha，可以使用quantize= 。 如需詳細資訊，請參閱命令說明。 其他格式沒有可設定的選項。
 
 所有格式和`pixelTypes[7]`會傳回8位元/畫素元件。
 

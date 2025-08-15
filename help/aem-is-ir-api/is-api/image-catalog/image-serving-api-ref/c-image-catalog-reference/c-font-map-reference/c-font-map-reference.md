@@ -18,7 +18,7 @@ ht-degree: 2%
 
 特定影像目錄的字型地圖專案會覆寫預設目錄的字型地圖專案。
 
-「影像伺服」支援Adobe Type1、OpenType和TrueType字型。
+「影像伺服」支援Adobe Type 1、OpenType和TrueType字型。
 
 `textPs=`也支援CID、ATC和點陣字型。
 

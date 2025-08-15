@@ -21,11 +21,11 @@ Jpeg品質。 指定JPEG編碼屬性來控制壓縮等級。 這進而會改變�
 <table id="simpletable_D080D15922CE4EF4B707282A4D45739A"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname">品質</span> </span> </p> </td> 
-  <td class="stentry"> <p>JPEG的編碼品質(1...100 int)。 </p> </td> 
+  <td class="stentry"> <p>JPEG編碼品質(1...100 int)。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname">色度</span> </span> </p> </td> 
-  <td class="stentry"> <p>JPEG色度向下取樣（0=一般，1=停用）；選擇性，預設為0。 </p> </td> 
+  <td class="stentry"> <p>JPEG色度向下取樣（0=一般，1=停用）；選用，預設為0。 </p> </td> 
  </tr> 
 </table>
 
@@ -33,7 +33,7 @@ Jpeg品質。 指定JPEG編碼屬性來控制壓縮等級。 這進而會改變�
 
 較高的值會增加檔案大小並提高品質，較低的值則會減少檔案大小並降低肉眼能感知的影像品質。高於 90 的值所產生的影像通常與未壓縮的影像幾乎沒有差別。
 
-設定`chroma`旗標以停用典型RGB編碼器採用的JPEG色度縮減取樣。 當邊緣是由色相而非亮度的變化所定義時，這可能會增加影像中邊緣的感知銳利度。 設定此旗標可能會導致檔案大小稍微增加。 如果文字看起來有點模糊，請嘗試使用此設定。
+設定`chroma`旗標以停用典型RGB編碼器所使用的JPEG色度縮減取樣。 當邊緣是由色相而非亮度的變化所定義時，這可能會增加影像中邊緣的感知銳利度。 設定此旗標可能會導致檔案大小稍微增加。 如果文字看起來有點模糊，請嘗試使用此設定。
 
 如果輸出畫素型別為CMYK或灰色，則會忽略`chroma`。
 

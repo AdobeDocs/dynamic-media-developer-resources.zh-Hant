@@ -27,15 +27,15 @@ HTML5 Panoramic Viewer是顯示全景影像的影像檢視器。 此檢視器的
 
 ## 使用全景檢視器 {#section-f21ac23d3f6449ad9765588d69584772}
 
-HTML5全景檢視器代表主要JavaScript檔案和一組協助程式檔案，由檢視器在執行階段下載。 這組協助程式檔案是單一JavaScript包含，以及此特定檢視器、資產、CSS使用的所有HTML5 Viewer SDK元件。
-HTML5全景檢視器既可以使用透過IS-Viewers提供的生產就緒HTML頁面的快顯視窗模式，也可以使用內嵌模式，其中使用記錄的API將其整合到目標網頁中。
+HTML5 Panoramic Viewer代表主要JavaScript檔案和一組協助程式檔案，由檢視器在執行階段下載。 這組協助程式檔案是單一JavaScript包含，以及此特定檢視器、資產、CSS使用的所有HTML5 Viewer SDK元件。
+HTML5 Panoramic Viewer既可透過隨IS-Viewers提供的生產就緒HTML頁面以快顯模式使用，也可透過內嵌模式使用，其中使用記錄的API將其整合至目標網頁。
 組態和外觀設定與其他HTML5檢視器的組態和外觀設定類似。 所有外觀設定均可以透過自訂CSS來達成。
 
 檢視所有檢視器通用的[命令參考 — 組態屬性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)和所有檢視器通用的[命令參考 — URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
 ## 與HTML5全景檢視器互動 {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
-HTML5全景檢視器支援透過拖曳或迴轉運動來自動平移和導覽。
+HTML5 Panoramic Viewer支援透過拖曳或迴轉運動自動平移和導覽。
 
 <table id="table_panoramic"> 
  <thead> 
@@ -68,9 +68,9 @@ HTML5全景檢視器支援透過拖曳或迴轉運動來自動平移和導覽。
 
 在快顯視窗模式中，檢視器會在個別的網頁瀏覽器視窗或標籤中開啟。 它會取用整個瀏覽器視窗區域，並在瀏覽器調整大小或裝置方向變更時進行調整。
 
-此模式在行動裝置中最常見。 網頁會使用`window.open()` JavaScript呼叫、正確設定的AHTML元素或任何其他合適的方式，載入檢視器。
+此模式在行動裝置中最常見。 網頁會使用`window.open()` JavaScript呼叫、正確設定的A HTML元素或任何其他合適的方式，載入檢視器。
 
-建議您為快顯視窗操作模式使用現成的HTML頁面。 它稱為[!DNL PanoramicViewer.html]，且位於標準IS-Viewers部署的[!DNL html5/]子資料夾下：
+建議您為快顯視窗操作模式使用現成可用的HTML頁面。 它稱為[!DNL PanoramicViewer.html]，且位於標準IS-Viewers部署的[!DNL html5/]子資料夾下：
 
 [!DNL <s7viewers_root>/html5/PanoramicViewer.html]
 
@@ -121,7 +121,7 @@ HTML5全景檢視器支援透過拖曳或迴轉運動來自動平移和導覽。
 
 >[!NOTE]
 >
->僅參考頁面上的主要檢視器JavaScript `include`檔案。 請勿在網頁程式碼中參考任何其他JavaScript檔案（這些檔案可能由執行階段的檢視器邏輯下載）。 特別是，請勿直接參考檢視器從`/s7viewers`內容路徑（所謂整合SDK `include`）載入的HTML5 SDK `Utils.js`資料庫。 原因在於`Utils.js`或類似的執行階段檢視器程式庫的位置完全由檢視器的邏輯管理，且位置會在檢視器發行版本之間變更。 Adobe不會在伺服器上保留舊版的次要檢視器`includes`。
+>僅參考頁面上的主要檢視器JavaScript `include`檔案。 請勿在網頁程式碼中參考任何其他JavaScript檔案（這些檔案可能由執行階段的檢視器邏輯下載）。 特別是，請勿直接參考檢視器從`Utils.js`內容路徑(所謂整合的HTML `/s7viewers`)載入的SDK5 SDK `include`資料庫。 原因在於`Utils.js`或類似的執行階段檢視器程式庫的位置完全由檢視器的邏輯管理，且位置會在檢視器發行版本之間變更。 Adobe不會在伺服器上保留舊版的次要檢視器`includes`。
 >
 >
 >因此，日後部署新產品版本時，將檢視器使用的任何次要JavaScript `include`的直接參照放在頁面上，會中斷檢視器功能。
@@ -143,7 +143,7 @@ HTML5全景檢視器支援透過拖曳或迴轉運動來自動平移和導覽。
 
    您可以透過以絕對單位宣告`.s7panoramicviewer`最上層CSS類別的檢視器，或使用修飾元`stagesize`來設定檢視器的靜態大小。
 
-   CSS的大小調整可直接放在HTML頁面或自訂檢視器CSS檔案中，檔案稍後會指派給AOD中的檢視器預設集記錄，或是使用樣式命令明確傳遞。 如需使用CSS設定檢視器樣式的詳細資訊，請參閱自訂檢視器區段。 以下是在「HTML」頁面中定義靜態檢視器大小的範例：
+   CSS的大小調整可直接放在HTML頁面或自訂檢視器CSS檔案中，檔案稍後會指派給AOD中的檢視器預設集記錄，或是使用樣式命令明確傳遞。 如需使用CSS設定檢視器樣式的詳細資訊，請參閱自訂檢視器區段。 以下是在HTML頁面中定義靜態檢視器大小的範例：
 
    ```html {.line-numbers}
    #s7viewer.s7panoramicviewer {
@@ -164,7 +164,7 @@ HTML5全景檢視器支援透過拖曳或迴轉運動來自動平移和導覽。
 
    完成上述步驟後，您會建立`s7viewers.PanoramicViewer`類別的執行個體、將所有組態資訊傳遞至其建構函式，並在檢視器執行個體上呼叫`init(`)方法。 組態資訊會以JSON物件的形式傳遞至建構函式。 此物件至少應有containerId欄位，用以儲存檢視器容器ID和巢狀引數JSON物件的名稱，以及檢視器支援的設定引數。 在此情況下，params物件必須至少將影像伺服URL作為`serverUrl`屬性傳遞，並將初始資產作為資產引數傳遞。 JSON型初始化API可讓您使用一行程式碼來建立和啟動檢視器。
 
-   請務必將檢視器容器新增至DOM，讓檢視器程式碼可依其ID尋找容器元素。 有些瀏覽器會延遲建立DOM，直到網頁結尾為止。 為達到最大相容性，請在結尾的`BODY`標籤前面或內文`onload()`事件上呼叫`init()`方法。
+   請務必將檢視器容器新增至DOM，讓檢視器程式碼可依其ID尋找容器元素。 有些瀏覽器會延遲建立DOM，直到網頁結尾為止。 為達到最大相容性，請在結尾的`init()`標籤前面或內文`BODY`事件上呼叫`onload()`方法。
 
    同時，容器元素也不一定屬於網頁版面配置的一部分。 例如，可以使用指派給它的`display:none`樣式來隱藏它。 在此情況下，檢視器會延遲其初始化程式，直到網頁將容器元素帶回版面配置為止。 當此動作發生時，檢視器載入會自動繼續。
 
@@ -213,7 +213,7 @@ HTML5全景檢視器支援透過拖曳或迴轉運動來自動平移和導覽。
 
 **高度不受限制的回應式設計內嵌**
 
-透過回應式內嵌，網頁通常會有某種彈性的版面配置，可指定檢視器容器DIV的執行階段大小。 在此範例中，假設網頁允許檢視器的容器DIV佔據網頁瀏覽器視窗大小的80%，其高度不受限制。 網頁HTML程式碼可能如下所示：
+透過回應式內嵌，網頁通常會有某種彈性的版面配置，可指定檢視器容器DIV的執行階段大小。 在此範例中，假設網頁允許檢視器的容器DIV佔據網頁瀏覽器視窗大小的80%，其高度不受限制。 HTML程式碼的網頁可能如下所示：
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -271,7 +271,7 @@ var panoramicViewer = new s7viewers.PanoramicViewer({
 
 [即時示範](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[備用示範位置](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=zh-Hant)
+[備用示範位置](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 **定義寬度和高度的回應式設計內嵌**
 

@@ -1,6 +1,6 @@
 ---
 title: 影像演算API
-description: 「影像轉譯API參考」包含有關設定和使用Dynamic Media影像轉譯API的資訊。
+description: 影像轉譯API參考包含設定和使用Dynamic Media影像轉譯API的相關資訊。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # 影像演算API{#image-rendering-api}
 
-「影像轉譯API參考」包含有關設定和使用Dynamic Media影像轉譯API的資訊。
+影像轉譯API參考包含設定和使用Dynamic Media影像轉譯API的相關資訊。
 
 * [設定](c-ir-installation/c-ir-installation.md)
 * [授權](c-ir-installation/c-ir-licensing.md)

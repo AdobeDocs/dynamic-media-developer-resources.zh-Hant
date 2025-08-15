@@ -29,7 +29,7 @@ ht-degree: 5%
 
 ## 屬性 {#section-cd1ebb151d4a405fbfc508d46522d686}
 
-文字圖層屬性（僅限`textPs=`）。 已被其他圖層略過，或指定時未使用`textFlowPath=`。 若指定給`layer=comp`，則套用至`layer=0`。
+文字圖層屬性（僅限`textPs=`）。 已被其他圖層略過，或指定時未使用`textFlowPath=`。 若指定給`layer=0`，則套用至`layer=comp`。
 
 ## 預設 {#section-9405cda904684d829ed12a9e40a4dc46}
 

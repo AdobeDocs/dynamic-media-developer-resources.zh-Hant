@@ -20,4 +20,4 @@ HTTP回應MIME型別是由`fmt=`所決定，或者，如果未指定`fmt=`，則
 
 如果要求方法是無條件的`GET`或`HEAD`，則HTTP回應狀態為「200 OK」。
 
-伺服器可能會以狀態&#39;304&#39; （未修改）回覆，且不會傳回任何影像資料以回應條件式`GET`要求（在`request-header`中有[!DNL If-Modified-Since]欄位）。
+伺服器可能會以狀態&#39;304&#39; （未修改）回覆，且不會傳回任何影像資料以回應條件式`GET`要求（在[!DNL If-Modified-Since]中有`request-header`欄位）。

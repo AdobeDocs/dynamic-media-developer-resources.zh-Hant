@@ -1,6 +1,6 @@
 ---
 title: jpegSize
-description: Jpeg大小（以KB為單位）。 指定JPEG回應的大小上限（以KB為單位）。
+description: Jpeg大小（以KB為單位）。 指定JPEG回應的最大大小（以KB為單位）。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # jpegSize{#jpegsize}
 
-Jpeg大小（以KB為單位）。 指定JPEG回應的大小上限（以KB為單位）。
+Jpeg大小（以KB為單位）。 指定JPEG回應的最大大小（以KB為單位）。
 
 `jpegSize= *`大小`*`
 
@@ -25,7 +25,7 @@ Jpeg大小（以KB為單位）。 指定JPEG回應的大小上限（以KB為單�
  </tr> 
 </table>
 
-如果將此值設為正值，而且具有指定JPEG品質的JPEG回應未超過此值，則會傳回該影像作為回應。 否則，JPEG品質會降低，直到產生符合指定大小的影像，或直到它判斷不符合大小為止。 在後一種情況下，請求會失敗並出現錯誤。
+若將此值設為正值，且若具有指定JPEG品質的JPEG回應未超過此值，則會傳回該影像作為回應。 否則，JPEG品質會降低，直到產生符合指定大小的影像或確定不符合大小為止。 在後一種情況下，請求會失敗並出現錯誤。
 
 0值表示回應不受大小限制。
 

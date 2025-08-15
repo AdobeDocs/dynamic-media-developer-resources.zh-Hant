@@ -45,7 +45,7 @@ ht-degree: 1%
 
 ## 屬性 {#section-dfd0b2f92b3743fc8b9d2c35a786eb81}
 
-要求屬性。 不論目前的圖層設定為何，皆適用。 當要求未傳回回覆影像時忽略。 當影像目錄停用使用者端快取時（如果`catalog::Expiration`具有負值），會忽略*`clientControl`*。
+要求屬性。 不論目前的圖層設定為何，皆適用。 當要求未傳回回覆影像時忽略。 當影像目錄停用使用者端快取時（如果`clientControl`具有負值），會忽略*`catalog::Expiration`*。
 
 使用者端快取控制項（`on`和`off`僅限）也適用於[!DNL /is/content/]的靜態內容要求。
 

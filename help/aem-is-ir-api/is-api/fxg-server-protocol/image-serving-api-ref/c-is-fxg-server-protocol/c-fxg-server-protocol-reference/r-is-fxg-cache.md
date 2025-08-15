@@ -37,6 +37,6 @@ ht-degree: 0%
 
 如果只指定一個&#x200B;*`cacheControl`*&#x200B;值，則會同時套用至使用者端和伺服器快取。
 
-要求屬性。 當要求未傳回回覆影像時忽略。 當影像目錄停用使用者端快取時（如果`catalog::Expiration`具有負值），會忽略&#x200B;*`clientControl`*。
+要求屬性。 當要求未傳回回覆影像時忽略。 當影像目錄停用使用者端快取時（如果&#x200B;*`clientControl`*&#x200B;具有負值），會忽略`catalog::Expiration`。
 
 預設為`cache=on,on`。

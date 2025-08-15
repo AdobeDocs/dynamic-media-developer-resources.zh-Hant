@@ -18,7 +18,7 @@ ht-degree: 0%
 
 您可以在URL中設定任何組態命令。 或者，您可以使用`setParam()`、`setParams()`或兩者API方法。 您也可以在伺服器端組態記錄中指定任何組態屬性。
 
-有些設定命令會加上相對應之Viewer SDK元件的類別名稱或例項名稱當作前置詞。 元件的執行個體名稱是動態的，且取決於傳遞至`setContainerId()` API方法的檢視器容器DOM元素的識別碼。 檔案包含這類命令的選用首碼。 例如，`zoomfactor`命令的記錄如下：
+有些設定命令會加上相對應檢視器SDK元件的類別名稱或例項名稱作為前置詞。 元件的執行個體名稱是動態的，且取決於傳遞至`setContainerId()` API方法的檢視器容器DOM元素的識別碼。 檔案包含這類命令的選用首碼。 例如，`zoomfactor`命令的記錄如下：
 
 `[FlyoutZoomView.|<containerId>_flyout].zoomfactor`
 

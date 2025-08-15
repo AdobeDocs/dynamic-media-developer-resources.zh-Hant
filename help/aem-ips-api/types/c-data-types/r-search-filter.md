@@ -69,7 +69,7 @@ ht-degree: 3%
    <td colname="col3">設定為： 
     <ul id="ul_8C164A5D9F0F43968C86A67FA6884F35"> 
      <li id="li_D8009688FF2C439D98D6C1052C1A6CBE"><span class="codeph"> True</span>：僅傳回原始資產。 </li> 
-     <li id="li_4970226BF0FF42388CAE4415FB63AF16"><span class="codeph"> False</span>：傳回產生的內容。 例如，上傳的PDF中的影像。 </li> 
+     <li id="li_4970226BF0FF42388CAE4415FB63AF16"><span class="codeph"> False</span>：傳回產生的內容。 例如，來自已上傳PDF的影像。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 

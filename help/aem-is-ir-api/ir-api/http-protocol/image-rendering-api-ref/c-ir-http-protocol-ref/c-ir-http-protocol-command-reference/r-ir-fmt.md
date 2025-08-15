@@ -22,12 +22,12 @@ ht-degree: 4%
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname">格式</span> </p> </td> 
   <td class="stentry"> <p>jpeg </p> </td> 
-  <td class="stentry"> <p>有損JPEG。 </p> </td> 
+  <td class="stentry"> <p>失真JPEG。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
   <td class="stentry"> <p>jpg </p> </td> 
-  <td class="stentry"> <p>JPG有損。 </p> </td> 
+  <td class="stentry"> <p>失真JPG。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
@@ -47,7 +47,7 @@ ht-degree: 4%
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
   <td class="stentry"> <p>tif-alpha </p> </td> 
-  <td class="stentry"> <p>使用Alpha色版TIFF。 </p> </td> 
+  <td class="stentry"> <p>含Alpha通道的TIFF。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
@@ -57,7 +57,7 @@ ht-degree: 4%
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
   <td class="stentry"> <p>swf-alpha </p> </td> 
-  <td class="stentry"> <p>有損JPEG和嵌入到Macromedia swf檔案中的Deflate壓縮遮色片。 </p> </td> 
+  <td class="stentry"> <p>有損的JPEG以及內嵌於Macromedia swf檔中的deflate-compressed遮色片。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
@@ -72,12 +72,12 @@ ht-degree: 4%
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
   <td class="stentry"> <p>gif </p> </td> 
-  <td class="stentry"> <p>256色GIF。 </p> </td> 
+  <td class="stentry"> <p>GIF 256色。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
   <td class="stentry"> <p>gif-alpha </p> </td> 
-  <td class="stentry"> <p>255色GIF加上關鍵色彩透明度。 </p> </td> 
+  <td class="stentry"> <p>GIF配備255色加上關鍵色彩透明度。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> pixelType </span> </p> </td> 
@@ -116,11 +116,11 @@ ht-degree: 4%
  </tr> 
 </table>
 
-未指定`icc=`時，*`pixelType`*&#x200B;效果輸出色域轉換；套用與&#x200B;*`pixelType`*&#x200B;對應的預設色彩設定檔。 如果停用色彩管理，則會套用天真的轉換。 指定`icc=`時會略過&#x200B;*`pixelType`*，這會決定輸出畫素型別。
+未指定&#x200B;*`pixelType`*&#x200B;時，`icc=`效果輸出色域轉換；套用與&#x200B;*`pixelType`*&#x200B;對應的預設色彩設定檔。 如果停用色彩管理，則會套用天真的轉換。 指定&#x200B;*`pixelType`*&#x200B;時會略過`icc=`，這會決定輸出畫素型別。
 
 *`compression`*&#x200B;只有在指定tif、tif-alpha或PDF為&#x200B;*`format`*&#x200B;時才允許。 如需這些影像格式支援的壓縮選項，請參閱下表。
 
-`qlt-`設定下列格式的JPEG編碼選項：JPEG、使用JPEG壓縮的TIFF、使用JPEG壓縮的PDF以及SWF檔案。 如果`fmt=gif`或`fmt=gif-alpha`，請使用`quantize=`。 如需詳細資訊，請參閱命令說明。 其他格式沒有可設定的選項。
+`qlt-`針對以下格式設定JPEG編碼選項：JPEG、具有JPEG壓縮的TIFF、具有JPEG壓縮的PDF以及SWF檔案。 如果`quantize=`或`fmt=gif`，請使用`fmt=gif-alpha`。 如需詳細資訊，請參閱命令說明。 其他格式沒有可設定的選項。
 
 對於所有格式和畫素型別，每畫素元件會傳回8位元。
 
@@ -169,7 +169,7 @@ ht-degree: 4%
    <td colname="col1"> <p>swf， swf-alpha </p> </td> 
    <td colname="col2"> <p>rgb，灰色 </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;application/x-shockwave-flash&gt; </span> </p> </td> 
-   <td colname="col4"> <p>否 </p> <p>(Flash Player會忽略內嵌的ICC設定檔。) </p> </td> 
+   <td colname="col4"> <p>否 </p> <p>（Flash Player會忽略內嵌的ICC設定檔）。 </p> </td> 
    <td colname="col5"> <p> <span class="codeph"> qlt= </span>，<span class="codeph">屬性：：TrustedDomains </span> </p> </td> 
   </tr> 
   <tr> 
@@ -206,7 +206,7 @@ ht-degree: 4%
 
 ## 預設 {#section-d2c2af11fa974e1a84e0c6cb7fb646fe}
 
-*`format`*&#x200B;預設為`attribute::Format`，*`tiffCompression`*&#x200B;預設為`attribute::TiffEncoding`。 如果未指定`icc=`，則預設為`rgb`，否則會對應到指定ICC設定檔的畫素型別。*`pixelType`*
+*`format`*&#x200B;預設為`attribute::Format`，*`tiffCompression`*&#x200B;預設為`attribute::TiffEncoding`。 如果未指定&#x200B;*`pixelType`*，則預設為`rgb`，否則會對應到指定ICC設定檔的畫素型別。`icc=`
 
 ## 另請參閱 {#section-c55efc881fc94c70bff91b870e026a7b}
 

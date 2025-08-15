@@ -63,7 +63,7 @@ ht-degree: 1%
 
 ## 預設 {#section-0b9fe2eb428447df8ae9948f11ab5aae}
 
-如果已啟用色彩管理且未指定`icc=`，則伺服器會將轉換的影像傳送至與`fmt=`所指定之影像型別相符的輸出設定檔( `attribute::IccProfile*`)。
+如果已啟用色彩管理且未指定`icc=`，則伺服器會將轉換的影像傳送至與`attribute::IccProfile*`所指定之影像型別相符的輸出設定檔( `fmt=`)。
 
 如果未指定，*`renderIntent`*&#x200B;繼承自`attribute::IccRenderIntent`，*`blackpointComp`*&#x200B;繼承自`attribute::IccBlackPointCompensation`，而&#x200B;*`dither`*&#x200B;繼承自`attribute::IccDither`。
 

@@ -30,9 +30,9 @@ IP位址的逗號分隔清單。 每個個別位址都可包含選用的網路�
 
 如果`<addressfilter>`為空白或未指定，則不會限制存取。
 
-如果`<rule>`專案中的`<expression>`不存在或空白，則會將`<addressfilter>`套用至所有要求。
+如果`<expression>`專案中的`<rule>`不存在或空白，則會將`<addressfilter>`套用至所有要求。
 
-`localhost`一律為`ClientAddressFilter`定義的隱含部分，即使未明確指定。 不論`ClientAddressFilter`的規格為何，來自`localhost`的請求都不會被拒絕。
+`localhost`一律為`ClientAddressFilter`定義的隱含部分，即使未明確指定。 不論`localhost`的規格為何，來自`ClientAddressFilter`的請求都不會被拒絕。
 
 ## 另請參閱 {#section-02056065e0c042e1b155b2f3e5b84ef7}
 

@@ -1,6 +1,6 @@
 ---
 title: 暈映
-description: 暈映是指以Dynamic Media Image Authoring製作而成的影像，可與Image Rendering搭配使用。
+description: 暈映是使用Dynamic Media影像製作功能所製作的影像，以搭配影像演算使用。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 暈映{#vignettes}
 
-暈映是指以Dynamic Media Image Authoring製作而成的影像，可與Image Rendering搭配使用。
+暈映是使用Dynamic Media影像製作功能所製作的影像，以搭配影像演算使用。
 
 IR支援兩種基本型別的暈映： *2D*&#x200B;和&#x200B;*3D*。 房間場景通常是3D暈映，可以呈現反射，而大多數其他場景，例如服裝或室內裝飾，通常是沒有反射彩現功能的2D暈映。
 

@@ -33,7 +33,7 @@ ht-degree: 0%
  </tr> 
 </table>
 
-`LocaleStrMap`參考可對應至任意數量的`internalLocId`的`locId`。
+`LocaleStrMap`參考可對應至任意數量的`locId`的`internalLocId`。
 
 空白&#x200B;*`locale`*&#x200B;值與空白和未知`locale=`字串相符。 這允許為未知的區域設定定義預設規則。
 
@@ -45,7 +45,7 @@ ht-degree: 0%
  <tbody> 
   <tr valign="top"> 
    <td> <b>目錄欄位</b> </td> 
-   <td> 欄位</b>中的<b>字串元素 </td> 
+   <td> 欄位<b>中的</b>字串元素 </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph">目錄：：影像集</span> </p> </td> 

@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## PS：：cache.maxSize — 回應資料快取大小 {#section-ed2e1e7ba4bd4e13b77bb20c4cacddb4}
 
-HTTP回應快取的大小上限（位元組）。 此設定會限制要快取的實際資料量，不會考慮檔案系統額外負荷。 （請參閱[回應資料快取](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-data-caches/c-response-data-cache.md#concept-81ea996c242441f2a69f7e9d9b3a29ca)。） 如果指定了多個快取資料夾，則快取資料會平均分佈在所有資料夾中。 [!DNL PlatformServer.conf]中`cache.maxSize`的值是位元組。
+HTTP回應快取的大小上限（位元組）。 此設定會限制要快取的實際資料量，不會考慮檔案系統額外負荷。 （請參閱[回應資料快取](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-data-caches/c-response-data-cache.md#concept-81ea996c242441f2a69f7e9d9b3a29ca)。）如果指定了多個快取資料夾，則快取資料會平均分佈在所有資料夾中。 `cache.maxSize`中[!DNL PlatformServer.conf]的值是位元組。
 
 ## PS：：cache.maxEntries — 回應資料快取專案上限 {#section-5603e327e90542a5b50aeeb27b080410}
 
@@ -42,7 +42,7 @@ HTTP回應快取的大小上限（位元組）。 此設定會限制要快取的
 
 ## SV：：temp — 伺服器監督員暫存檔案資料夾 {#section-fd2cd5ef7e814a4bb56aaf5525e1a154}
 
-伺服器管理員偶爾需要將中繼資料儲存到磁碟。 路徑可以是絕對或相對於&#x200B;*[!DNL install_folder]*。 預設為[!DNL *[!DNL install_folder]*/temp]。
+伺服器管理員偶爾需要將中繼資料儲存到磁碟。 路徑可以是絕對或相對於&#x200B;*[!DNL install_folder]*。 預設為[！DNL *[!DNL install_folder]*/temp]。
 
 >[!NOTE]
 >

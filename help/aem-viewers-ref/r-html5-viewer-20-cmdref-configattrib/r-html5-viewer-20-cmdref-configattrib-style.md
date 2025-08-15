@@ -27,7 +27,7 @@ ht-degree: 7%
  </tbody> 
 </table>
 
-CSS檔案內的所有資產參考都是根據CSS檔案位置來解析，而非根據呼叫HTML頁面的位置來解析。
+CSS檔案內的所有資產參考是根據CSS檔案位置來解析，而非根據呼叫HTML頁面的位置來解析。
 
 ## 屬性 {#section-8ce2a4493d454d97a9975fc7f9f4eb2c}
 

@@ -28,7 +28,7 @@ ht-degree: 2%
 
 要求中的`mask=`會覆寫`catalog::MaskPath`。
 
-如果主要影像( `catalog::Path`)中有`catalog::MaskPath`覆寫Alpha色版，而且未關聯Alpha色版（亦即，未預乘）。 如果影像Alpha是預乘，則會忽略`catalog::MaskPath`，而且一律使用Alpha色版。
+如果主要影像( `catalog::MaskPath`)中有`catalog::Path`覆寫Alpha色版，而且未關聯Alpha色版（亦即，未預乘）。 如果影像Alpha是預乘，則會忽略`catalog::MaskPath`，而且一律使用Alpha色版。
 
 ## 預設 {#section-78533e35bfec469ba087cb68a35bb81b}
 

@@ -20,7 +20,7 @@ ht-degree: 11%
 
 ## 參數 {#section-c3f0d03136ba4422819cb463bd393885}
 
-指定具有`minOccurs=" *`n`*".`的`unsharpMaskOptions`選項值
+指定具有`unsharpMaskOptions`n`minOccurs=" *`的`*".`選項值
 
 <table id="table_D1392963C5694969A9D546F82DB6F45C">
  <thead>
@@ -92,4 +92,4 @@ ht-degree: 11%
 
 >[!MORELIKETHIS]
 >
->* [影像伺服API參考： op_usm](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-op-usm.html?lang=zh-Hant)
+>* [影像伺服API參考： op_usm](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-op-usm.html)

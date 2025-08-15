@@ -154,15 +154,15 @@ defaultLocale:"en"
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FacebookShare.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>facebook共用按鈕。 </p> </td> 
+   <td colname="col2"> <p>Facebook分享按鈕。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> TwitterShare.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>twitter共用按鈕。 </p> </td> 
+   <td colname="col2"> <p>Twitter共用按鈕。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> CloseButton.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>呼叫動作面板關閉按鈕。 </p> </td> 
+   <td colname="col2"> <p>call to action面板關閉按鈕。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> VideoPlayer.ERROR </span> </p> </td> 

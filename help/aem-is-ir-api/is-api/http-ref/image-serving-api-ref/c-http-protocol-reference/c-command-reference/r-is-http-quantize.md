@@ -22,7 +22,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname">型別</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {adaptive|web|mac} </span> </p> <p>指定調色盤型別。 </p> <p>設定為<span class="codeph">最適化</span>以計算影像的最佳調色盤。 </p> <p>設定為<span class="codeph"> Web </span>或<span class="codeph"> Mac </span>以選擇預先定義的調色盤。 </p> <p> <p>注意： <span class="codeph"> mac </span>托盤型別僅支援GIF和PNG8格式，不支援GIFAlpha和PNG8Alpha格式。</p> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {adaptive|web|mac} </span> </p> <p>指定調色盤型別。 </p> <p>設定為<span class="codeph">最適化</span>以計算影像的最佳調色盤。 </p> <p>設定為<span class="codeph"> Web </span>或<span class="codeph"> Mac </span>以選擇預先定義的調色盤。 </p> <p> <p>注意： <span class="codeph"> mac </span>托盤型別僅支援GIF和PNG8格式，不支援GIF-Alpha和PNG8-Alpha格式。</p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname">遞色</span> </span> </p> </td> 
@@ -34,7 +34,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname">色彩清單</span> </span> </p> </td> 
-   <td colname="col2"> <p>以逗號分隔的強制十六進位RGB顏色清單 </p> <p>可讓您指定要包含在<span class="codeph">最適化</span>調色盤中的色彩。 如果指定的色彩數目小於<span class="codeph"> <span class="varname"> numColors </span> </span>，則會根據影像內容計算其他色彩。</p> </td> 
+   <td colname="col2"> <p>以逗號分隔的十六進位6格式強制RGB色彩清單 </p> <p>可讓您指定要包含在<span class="codeph">最適化</span>調色盤中的色彩。 如果指定的色彩數目小於<span class="codeph"> <span class="varname"> numColors </span> </span>，則會根據影像內容計算其他色彩。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -43,7 +43,7 @@ ht-degree: 1%
 
 要求屬性。 無論目前的圖層設定為何，都適用。 僅在`fmt=gif`、`fmt=gif-alpha`、`fmt=png8`或`fmt=png8-alpha`時使用。 否則會忽略。
 
-以&#x200B;*`colorList`*&#x200B;指定的色彩必須包含hex6格式的RGB值（請參閱不含`0x`首碼的[色彩](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-color-commandref.md)）。 不允許使用其他顏色規範。 修飾元&#x200B;*`numColors`*&#x200B;必須是2-256。
+以&#x200B;*`colorList`*&#x200B;指定的色彩必須包含hex6格式的RGB值（請參閱不含[首碼的](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-color-commandref.md)色彩`0x`）。 不允許使用其他顏色規範。 修飾元&#x200B;*`numColors`*&#x200B;必須是2-256。
 
 ## 預設 {#section-ca3e817617244e8798ccff67b2023a32}
 

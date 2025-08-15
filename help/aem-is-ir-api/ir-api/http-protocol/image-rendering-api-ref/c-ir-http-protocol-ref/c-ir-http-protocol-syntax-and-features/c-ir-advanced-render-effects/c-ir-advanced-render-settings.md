@@ -1,6 +1,6 @@
 ---
 title: 進階演算設定
-description: 暈映製作工具(Dynamic Media Image Authoring套件的一部分)提供機制來控制暈映轉譯引擎的低階外觀。
+description: 暈映製作工具（Dynamic Media Image Authoring套件的一部分）提供機制，可控制暈映轉譯引擎的低階外觀。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 17%
 
 # 進階演算設定{#advanced-render-settings}
 
-暈映製作工具(Dynamic Media Image Authoring套件的一部分)提供機制來控制暈映轉譯引擎的低階外觀。
+暈映製作工具（Dynamic Media Image Authoring套件的一部分）提供機制，可控制暈映轉譯引擎的低階外觀。
 
 >[!NOTE]
 >

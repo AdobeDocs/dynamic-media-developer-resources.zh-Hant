@@ -84,15 +84,15 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">背景</span> </p> </td> 
-   <td colname="col2"> <p>影像地圖區域填滿色彩。 </p> <p>以<span class="codeph"> #RRGGBB </span>、<span class="codeph">RGB(R，G，B) </span>或<span class="codeph"> RGBA(R，G，B，A) </span>格式指定此色彩。 </p> </td> 
+   <td colname="col2"> <p>影像地圖區域填滿色彩。 </p> <p>以<span class="codeph"> #RRGGBB </span>、<span class="codeph"> RGB(R，G，B) </span>或<span class="codeph"> RGBA(R，G，B，A) </span>格式指定此色彩。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">背景色彩</span> </p> </td> 
-   <td colname="col2"> <p>影像地圖區域填滿色彩。 </p> <p>以<span class="codeph"> #RRGGBB </span>、<span class="codeph">RGB(R，G，B) </span>或<span class="codeph"> RGBA(R，G，B，A) </span>格式指定此色彩。 </p> </td> 
+   <td colname="col2"> <p>影像地圖區域填滿色彩。 </p> <p>以<span class="codeph"> #RRGGBB </span>、<span class="codeph"> RGB(R，G，B) </span>或<span class="codeph"> RGBA(R，G，B，A) </span>格式指定此色彩。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">邊框</span> </p> </td> 
-   <td colname="col2"> <p> 影像地圖區域框線樣式。 應指定為「<span class="codeph">寬度</span> <span class="codeph">純色</span>」，其中<span class="codeph">寬度</span>以畫素表示，而<span class="codeph">顏色</span>設定為<span class="codeph"> #RRGGBB </span>、<span class="codeph">RGB(R，G，B) </span>或<span class="codeph"> RGBA(R，G，B，A) </span>。 </p> </td> 
+   <td colname="col2"> <p> 影像地圖區域框線樣式。 應指定為「<span class="codeph">寬度</span> <span class="codeph">純色</span>」，其中<span class="codeph">寬度</span>以畫素表示，而<span class="codeph">顏色</span>設定為<span class="codeph"> #RRGGBB </span>、<span class="codeph"> RGB(R，G，B) </span>或<span class="codeph"> RGBA(R，G，B，A) </span>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

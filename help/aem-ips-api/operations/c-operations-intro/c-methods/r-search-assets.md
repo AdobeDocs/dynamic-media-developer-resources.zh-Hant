@@ -96,7 +96,7 @@ ht-degree: 6%
    <td colname="col1"> <span class="codeph"> <span class="varname"> publishState</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> Publish州選擇。 </td> 
+   <td colname="col4"> 發佈狀態選擇。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> trashState</span> </span> </td> 

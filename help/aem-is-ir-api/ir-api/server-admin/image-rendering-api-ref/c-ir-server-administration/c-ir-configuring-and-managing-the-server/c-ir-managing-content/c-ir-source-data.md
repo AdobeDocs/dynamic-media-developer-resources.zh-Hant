@@ -24,7 +24,7 @@ ht-degree: 0%
 * 如果路徑是相對路徑，則會以`catalog::RootPath` （來自具名材料目錄）為前置詞。
 * 如果路徑是絕對路徑，則會使用它；否則，會以`default::RootPath`為前置詞（來自預設目錄）。
 * 如果路徑是絕對路徑，則會使用它；否則，伺服器會將其與[ir.resourceRootPaths](../../../../../../ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuration-settings-reference/c-ir-resource-root-folders.md#concept-39a34d2239934079bb396e1bf568a9c2)中指定的路徑結合。
-* 如果路徑現在是絕對路徑，則會使用它；否則，會假設它是相對於[!DNL *[!DNL install_folder]*]。
+* 如果路徑現在是絕對路徑，則會使用它；否則，會假設它是相對於[！DNL *[!DNL install_folder]*]。
 
 如果未涉及任何影像目錄，則路徑會與`default::RootPath`結合，然後依照上述方式處理。
 

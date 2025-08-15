@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # 顏色值{#color-values}
 
-`color=`和`bgc=`屬性的色彩值可以使用小數點清單、逗號分隔的元件值或十六進位標籤法來指定，類似於HTML。
+`color=`和`bgc=`屬性的色彩值可使用小數點清單、逗號分隔的元件值或十六進位標籤法來指定，類似於HTML。
 
 <table id="simpletable_9B3A231D5BB14A3DB2B42B341E198341"> 
  <tr class="strow"> 
@@ -27,7 +27,7 @@ ht-degree: 4%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><i>十六進位6</i> </p></td> 
-  <td class="stentry"> <p>壓縮的六位十六進位RGB色彩值(RRGGBB)。 </p></td> 
+  <td class="stentry"> <p>已封裝六位數的十六進位RGB色彩值(RRGGBB)。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><i>十六進位2</i> </p></td> 
@@ -37,7 +37,7 @@ ht-degree: 4%
 
 ## 範例 {#section-a78732151d584e84abeb99f9ce8d7c24}
 
-一些有效的色彩指定符號範例及其對應的RGB色彩值解譯：
+有效色彩指定字元的一些範例及其對應的RGB色彩值解譯：
 
 <table id="simpletable_837B3173020240A5B7B2DB2F4CC57352"> 
  <tr class="strow"> 

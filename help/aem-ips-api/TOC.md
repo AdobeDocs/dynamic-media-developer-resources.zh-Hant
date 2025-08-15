@@ -6,7 +6,7 @@ user-guide-description: IPS （影像生產系統） Web服務API可讓外部應
 source-git-commit: 72f9cd1b1de82cbeeb8d41fb0f1cf0b51744a8a3
 workflow-type: tm+mt
 source-wordcount: '661'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 3%
 + [關於Dynamic Media Image Production System API](c-overview.md)
 + [已棄用的呼叫](c-deprecated-calls.md)
 + [IPS Web服務WSDL版本](c-wsdl-versions.md)
-+ 作業方法{#operation-methods}
++ 操作方法 {#operation-methods}
    + [操作方法](operations/c-operations-intro/c-operations-intro.md)
-   + 作業引數{#operation-parameters}
+   + 操作引數 {#operation-parameters}
       + [作業引數概觀](operations/c-operations-intro/c-methods/c-methods.md)
       + [addCompany](operations/c-operations-intro/c-methods/r-add-company.md)
       + [addCompanyMembership](operations/c-operations-intro/c-methods/r-add-company-membership.md)
@@ -176,7 +176,7 @@ ht-degree: 3%
       + [updateViewerConfigSettings](operations/c-operations-intro/c-methods/r-update-viewer-config-settings.md)
       + [updateVignettePublishFormat](operations/c-operations-intro/c-methods/r-update-vignette-publish-format.md)
       + [updateXMPPacket](operations/c-operations-intro/c-methods/r-update-xmp-packet.md)
-+ 資料型別{#data-types}
++ 資料型別 {#data-types}
    + [資料型別](types/c-data-types/c-data-types.md)
    + [AcoInfo](types/c-data-types/r-aco-info.md)
    + [作用中的工作](types/c-data-types/r-active-job.md)
@@ -397,7 +397,7 @@ ht-degree: 3%
    + [ZoomTargetArray](types/c-data-types/r-zoom-target-array.md)
    + [ZoomTargetDefinition](types/c-data-types/r-zoom-target-definition.md)
    + [ZoomTargetDefinitionArray](types/c-data-types/r-zoom-target-definition-array.md)
-+ 字串常數{#sting-constants}
++ 字串常數 {#sting-constants}
    + [字串常數](string-constants/c-string-constants/c-string-constants.md)
    + [作用中工作狀態](string-constants/c-string-constants/r-active-job-states.md)
    + [資產搜尋系統欄位](string-constants/c-string-constants/r-asset-search-system-fields.md)
@@ -419,16 +419,16 @@ ht-degree: 3%
    + [工作型別](string-constants/c-string-constants/r-job-types.md)
    + [中繼資料欄位型別](string-constants/c-string-constants/r-metadata-field-types.md)
    + [數值/日期比較運運算元](string-constants/c-string-constants/r-numeric-date-comparison-operators.md)
-   + [PDF流程](string-constants/c-string-constants/r-pdf-processes.md)
+   + [PDF程式](string-constants/c-string-constants/r-pdf-processes.md)
    + [許可權型別](string-constants/c-string-constants/r-permission-types.md)
    + [Photoshop錨點模式](string-constants/c-string-constants/r-photoshop-anchor-modes.md)
    + [Photoshop圖層命名模式](string-constants/c-string-constants/r-photoshop-layer-naming-modes.md)
    + [PostScript色彩空間模式](string-constants/c-string-constants/r-postscript-colorspace-modes.md)
    + [設定檔類別](string-constants/c-string-constants/r-profile-classes.md)
-   + [Publish州別](string-constants/c-string-constants/r-publish-state.md)
+   + [發佈狀態](string-constants/c-string-constants/r-publish-state.md)
    + [屬性集型別](string-constants/c-string-constants/r-property-set-types.md)
-   + [Publish內容](string-constants/c-string-constants/r-publish-context.md)
-   + [Publish型別](string-constants/c-string-constants/r-publish-types.md)
+   + [發佈內容](string-constants/c-string-constants/r-publish-context.md)
+   + [發佈型別](string-constants/c-string-constants/r-publish-types.md)
    + [區域形狀](string-constants/c-string-constants/r-region-shape.md)
    + [搜尋符合模式](string-constants/c-string-constants/r-search-match-modes.md)
    + [排序方向](string-constants/c-string-constants/r-sort-directions.md)
@@ -438,39 +438,39 @@ ht-degree: 3%
    + [使用者角色](string-constants/c-string-constants/r-user-roles.md)
    + [使用者排序欄位](string-constants/c-string-constants/r-user-sort-fields.md)
    + [檢視器型別](string-constants/c-string-constants/r-viewer-type.md)
-+ 錯誤{#faults}
++ 錯誤 {#faults}
    + [錯誤概觀](faults/c-faults/c-faults.md)
    + [authenticationFault](faults/c-faults/r-authentication-fault.md)
    + [authorizationFault](faults/c-faults/r-authorization-fault.md)
    + [ipsApiFault](faults/c-faults/r-ips-api-fault.md)
-+ 變更記錄{#change-log}
++ 變更記錄 {#change-log}
    + [變更記錄](change-log/c-change-log.md)
-   + 版本6.0 {#version-6-0}
+   + 版本 6.0 {#version-6-0}
       + [版本 6.0](change-log/c-change-log/c-6/c-6.md)
       + [作業：新增和已修改](change-log/c-change-log/c-6/r-6-operations.md)
       + [資料型別：新增和修改](change-log/c-change-log/c-6/r-6-types.md)
-   + 版本4.5 {#version-4-5}
+   + 版本 4.5 {#version-4-5}
       + [版本 4.5](change-log/c-change-log/c-4-5/c-4-5.md)
       + [作業：新增和已修改](change-log/c-change-log/c-4-5/r-4-5-operations.md)
       + [資料型別：新增和修改](change-log/c-change-log/c-4-5/r-4-5-types.md)
       + [限制使用](change-log/c-change-log/c-4-5/r-restricted-use.md)
-   + 版本4.4 {#version-4-4}
+   + 版本 4.4 {#version-4-4}
       + [版本 4.4](change-log/c-change-log/c-4-4/c-4-4.md)
       + [作業：新增和已修改](change-log/c-change-log/c-4-4/r-4-4-operations.md)
       + [資料型別：新增和修改](change-log/c-change-log/c-4-4/r-4-4-types.md)
       + [字串常數：新增和修改](change-log/c-change-log/c-4-4/r-4-4-string-constants.md)
-   + 版本4.2 {#version-4-2}
+   + 版本 4.2 {#version-4-2}
       + [版本 4.2](change-log/c-change-log/c-4-2/c-4-2.md)
       + [資料型別：新增和修改](change-log/c-change-log/c-4-2/r-4-2-types.md)
-   + 版本4.0 {#version-4-0}
+   + 版本 4.0 {#version-4-0}
       + [版本 4.0](change-log/c-change-log/c-4-0/c-4-0.md)
       + [新增與變更](change-log/c-change-log/c-4-0/r-4-0-new.md)
-   + 版本3.8 {#version-3-8}
+   + 版本 3.8 {#version-3-8}
       + [版本 3.8](change-log/c-change-log/c-3-8/c-3-8.md)
       + [作業：新增和已修改](change-log/c-change-log/c-3-8/r-3-8-operations.md)
       + [資料型別：新增和修改](change-log/c-change-log/c-3-8/r-3-8-types.md)
       + [字串常數：新增和修改](change-log/c-change-log/c-3-8/r-3-8-string-constants.md)
-   + 版本3.7 {#version-3-7}
+   + 版本 3.7 {#version-3-7}
       + [版本 3.7](change-log/c-change-log/c-3-7/c-3-7.md)
       + [作業：新增和已修改](change-log/c-change-log/c-3-7/r-3-7-operations.md)
       + [資料型別：新增和修改](change-log/c-change-log/c-3-7/r-3-7-types.md)

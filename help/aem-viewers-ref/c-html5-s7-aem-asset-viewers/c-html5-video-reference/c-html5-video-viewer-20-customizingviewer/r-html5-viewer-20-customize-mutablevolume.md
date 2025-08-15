@@ -242,4 +242,4 @@ background-image:url(images/volumeKnob.png);
                 }
 ```
 
-在上述程式碼範例中，`mutableVolume`元件上的磁碟區層級設定為`0`。 然後，同一元件會停用，因此一般使用者不能使用。
+在上述程式碼範例中，`0`元件上的磁碟區層級設定為`mutableVolume`。 然後，同一元件會停用，因此一般使用者不能使用。

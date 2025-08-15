@@ -54,7 +54,7 @@ ht-degree: 0%
 
 ## 內嵌影像演算要求 {#section-69c5548db930412b9b90d9b2951a6969}
 
-在伺服器上啟用Dynamic Media影像演算後，演算請求可透過在src= （或mask=）命令中指定來當做圖層來源使用。 使用下列語法：
+在伺服器上啟用「動態媒體影像演算」時，演算請求可透過在src= （或mask=）命令中指定來當做圖層來源使用。 使用下列語法：
 
 ` …&src=ir( *[!DNL renderRequest]*)&…`
 
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->FXG圖形呈現僅適用於Dynamic Media代管環境，且可能需要額外的授權。 如需詳細資訊，請聯絡Dynamic Media技術支援。
+>FXG圖形轉譯僅適用於Dynamic Media代管環境，且可能需要額外的授權。 如需詳細資訊，請聯絡Dynamic Media技術支援。
 
 *[!DNL renderRequest]*&#x200B;是一般的FXG轉譯器要求，不包括HTTP根路徑` http:// *[!DNL server]*/agm/render/`。
 

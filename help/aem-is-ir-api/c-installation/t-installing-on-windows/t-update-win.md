@@ -1,6 +1,6 @@
 ---
 title: 從IS 4.7.4或更新版本更新
-description: 升級Dynamic Media影像伺服時請使用此程式。
+description: 升級Dynamic Media影像伺服時，請使用此程式。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 從IS 4.7.4或更新版本更新{#updating-from-is-or-later}
 
-升級Dynamic Media影像伺服時請使用此程式。
+升級Dynamic Media影像伺服時，請使用此程式。
 
 如果您要從舊版「影像伺服」升級，請聯絡支援以取得正確的程式。
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 1. 選取&#x200B;**[!UICONTROL 下一步]**&#x200B;以進入使用者授權合約(EULA)，閱讀授權合約，然後選取&#x200B;**[!UICONTROL 是]**。
 
    下一頁顯示先前的組態設定。
-1. 按一下[下一步]&#x200B;**&#x200B;**&#x200B;開始更新安裝。
+1. 按一下[下一步]****&#x200B;開始更新安裝。
 
    >[!NOTE]
    >

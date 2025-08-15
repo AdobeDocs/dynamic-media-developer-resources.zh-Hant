@@ -49,7 +49,7 @@ ht-degree: 0%
 >
 >不允許`scale=`、`rotate=`和`anchor=`命令用於自動調整實色圖層。
 
-`*`pathDefinition`*`接受類似於SVG`<path>`專案之`d=`屬性的值的字串，但使用逗號而非空格來分隔值。 `*`pathDefinition`*`可以包含一或多個封閉回圈子路徑。
+`*`pathDefinition`*`接受類似於SVG `d=`專案之`<path>`屬性的值的字串，但使用逗號而非空格來分隔值。 `*`pathDefinition`*`可以包含一或多個封閉回圈子路徑。
 
 `*`pathDefinition`*`支援下列路徑命令：
 

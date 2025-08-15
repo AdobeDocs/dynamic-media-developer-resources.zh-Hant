@@ -1,5 +1,5 @@
 ---
-description: 檔案屬性PDF。
+description: PDF檔案屬性。
 solution: Experience Manager
 title: PdfInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 23%
 
 # [!DNL PdfInfo]{#pdfinfo}
 
-檔案屬性PDF。
+PDF檔案屬性。
 
 語法
 

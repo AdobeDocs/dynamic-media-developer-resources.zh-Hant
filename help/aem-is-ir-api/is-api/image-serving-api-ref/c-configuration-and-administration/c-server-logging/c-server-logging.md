@@ -22,7 +22,7 @@ ht-degree: 1%
 
 [!DNL Platform Server]和影像伺服器會建立以下所述的三種記錄檔型別。
 
-其他「影像伺服」元件和某些其他Dynamic Media套件(例如Dynamic Media檢視器)也可能會在相同的資料夾中建立記錄檔。 這些記錄檔供Dynamic Media內部使用，Dynamic Media技術支援可能會要求這些記錄檔進行疑難排解。
+其他「影像伺服」元件和某些其他Dynamic Media套件（例如Dynamic Media檢視器）也可能會在相同的資料夾中建立記錄檔。 這些記錄檔供Dynamic Media內部使用，Dynamic Media技術支援可能會要求這些記錄檔以進行疑難排解。
 
 * [存取記錄](c-access-log.md)
 * [追蹤記錄](c-trace-log.md)

@@ -166,7 +166,7 @@ ht-degree: 3%
 
 對應資料未縮放為`wid=`或`hei=`或以其他方式修改。 回應MIME型別為`<text/xml>`。
 
-回應資料包含`<map>`元素，其中包含一組與HTML`<AREA>`標籤類似的`<area>`元素。
+回應資料由包含一組`<map>`元素的`<area>`元素組成，類似於HTML `<AREA>`標籤。
 
 每個`<area>`元素都包含標準`type=`和`coord=`屬性，以及指定暈映群組名稱或名稱路徑的`name=`屬性。 如果對應物件群組的遮罩有不連續的區域，則存在多個同名的`<area>`元素。
 
@@ -298,7 +298,7 @@ ht-degree: 3%
 
 `userdata`
 
-傳回`vignette::UserData`的內容。 伺服器會將`vignette::UserData`中`'??'`的所有相符專案取代為行終止元( `<cr><lf>`)。 會將回覆格式化為文字資料，並將回應MIME型別設為&lt;text/plain>。
+傳回`vignette::UserData`的內容。 伺服器會將`'??'`中`vignette::UserData`的所有相符專案取代為行終止元( `<cr><lf>`)。 會將回覆格式化為文字資料，並將回應MIME型別設為&lt;text/plain>。
 
 如果URL路徑中指定的物件未解析為有效的暈映對應專案，或者`vignette::UserData`是空的，則回覆僅包含行終止元( `CR/LF`)。
 

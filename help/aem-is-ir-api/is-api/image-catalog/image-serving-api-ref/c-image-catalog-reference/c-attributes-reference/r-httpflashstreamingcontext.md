@@ -1,6 +1,6 @@
 ---
 title: HttpFlashStreamingContext
-description: 串流伺服器URL首碼Flash。 產生具有req=mbrSet的多位元速率f4m回應時所使用的Flash串流伺服器URL首碼。
+description: Flash Streaming Server URL首碼。 產生具有req=mbrSet的多位元速率f4m回應時，所使用的Flash Streaming Server URL首碼。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # HttpFlashStreamingContext{#httpflashstreamingcontext}
 
-串流伺服器URL首碼Flash。 產生具有req=mbrSet的多位元速率f4m回應時所使用的Flash串流伺服器URL首碼。
+Flash Streaming Server URL首碼。 產生具有req=mbrSet的多位元速率f4m回應時，所使用的Flash Streaming Server URL首碼。
 
 ## 屬性 {#section-e7ae7d96a7cb40829de7e784fcbbad33}
 

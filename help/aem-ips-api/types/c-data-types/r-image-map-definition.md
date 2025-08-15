@@ -24,6 +24,6 @@ ht-degree: 12%
 |---|---|---|
 | name | `xsd:string` | 影像地圖定義的名稱。 |
 | shapetype | `xsd:string` | 區域形狀值之一。 |
-| 區域 | `xsd:string` | 影像地圖座標。 格式是以`<area>`標籤屬性HTML為基礎。 |
-| 操作 | `xsd:string` | 要包含在HTML`<area>`標籤中的其他屬性，包括`href` URL。 |
+| 區域 | `xsd:string` | 影像地圖座標。 格式是以HTML `<area>`標籤屬性為基礎。 |
+| 操作 | `xsd:string` | 要包含在HTML `<area>`標籤中的其他屬性，包括`href` URL。 |
 | 啟動 | `xsd:boolean` | 如果影像地圖已啟用，則為True。 |

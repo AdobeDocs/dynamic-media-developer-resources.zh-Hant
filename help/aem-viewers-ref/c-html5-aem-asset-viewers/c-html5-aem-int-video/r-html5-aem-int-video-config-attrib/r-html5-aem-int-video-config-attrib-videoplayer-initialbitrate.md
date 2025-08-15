@@ -22,7 +22,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">值</span> </p> </td> 
-   <td colname="col2"> <p> 設定在案頭上初始播放視訊時使用的視訊位元速率（以每秒KB或kbps為單位）。 </p> <p>如果「自我調整視訊集」中不存在此位元速率值，則視訊播放器會從擁有次低位元速率的視訊開始。 </p> <p>如果設為<span class="codeph"> 0</span>，視訊播放器會從最低的位元速率開始。 </p> <p>僅適用於不具備HTML5 HLS視訊原生支援的系統(例如Windows 10上的Firefox、Chrome和Internet Explorer 11瀏覽器)，以及播放模式設為auto時的系統。 </p> </td> 
+   <td colname="col2"> <p> 設定在案頭上初始播放視訊時使用的視訊位元速率（以每秒KB或kbps為單位）。 </p> <p>如果「自我調整視訊集」中不存在此位元速率值，則視訊播放器會從擁有次低位元速率的視訊開始。 </p> <p>如果設為<span class="codeph"> 0</span>，視訊播放器會從最低的位元速率開始。 </p> <p>僅適用於不具備HTML5 HLS視訊原生支援的系統(例如Windows 10上的Firefox、Chrome和Internet Explorer 11瀏覽器)，以及當播放模式設定為auto時。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

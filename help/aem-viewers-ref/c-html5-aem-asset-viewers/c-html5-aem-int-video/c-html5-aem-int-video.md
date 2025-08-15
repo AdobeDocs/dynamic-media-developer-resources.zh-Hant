@@ -16,17 +16,17 @@ ht-degree: 0%
 
 互動式視訊檢視器是一種視訊播放器，可播放以H.264格式編碼的串流及漸進式視訊。
 
-檢視器也會在視訊內容旁顯示互動式產品色票。 同時支援單一視訊和自我調整視訊集。 它設計為可在支援HTML5視訊的桌上型電腦和行動網頁瀏覽器上運作。 檢視器支援在視訊內容、視訊章節導覽和社交分享工具頂端顯示的選擇性隱藏式字幕。 此檢視器的用途是協助您實作「可購物視訊」體驗。 也就是說，使用者可以選取與特定視訊時區相關聯的色票，並重新導向至客戶網站上的快速檢視或產品詳細資料頁面。
+檢視器也會在視訊內容旁顯示互動式產品色票。 同時支援單一視訊和自我調整視訊集。 它設計為可在支援HTML5視訊的案頭和行動網頁瀏覽器上運作。 檢視器支援在視訊內容、視訊章節導覽和社交分享工具頂端顯示的選擇性隱藏式字幕。 此檢視器的用途是協助您實作「可購物視訊」體驗。 也就是說，使用者可以選取與特定視訊時區相關聯的色票，並重新導向至客戶網站上的快速檢視或產品詳細資料頁面。
 
 檢視器型別為510。
 
 ## 示範URL {#section-c0ad383db6a444979dc7eeb1ec4cf54d}
 
-[https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-video/glacier/InteractiveVideoViewerDemo.html?lang=zh-Hant](https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-video/glacier/InteractiveVideoViewerDemo.html?lang=zh-Hant)
+[https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-video/glacier/InteractiveVideoViewerDemo.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-video/glacier/InteractiveVideoViewerDemo.html)
 
 與
 
-[https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-video/AXIS/index.html?lang=zh-Hant](https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-video/AXIS/index.html?lang=zh-Hant)
+[https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-video/AXIS/index.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-video/AXIS/index.html)
 
 ## 系統要求 {#section-b7270cc4290043399681dc504f043609}
 
@@ -103,7 +103,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->僅參考頁面上的主要檢視器JavaScript `include`檔案。 請勿在網頁程式碼中參考任何其他JavaScript檔案（這些檔案可能由執行階段的檢視器邏輯下載）。 特別是，請勿直接參考檢視器從`/s7viewers`內容路徑（所謂整合SDK `include`）載入的HTML5 SDK `Utils.js`資料庫。 原因在於`Utils.js`或類似的執行階段檢視器程式庫的位置完全由檢視器的邏輯管理，且位置會在檢視器發行版本之間變更。 Adobe不會在伺服器上保留舊版的次要檢視器`includes`。
+>僅參考頁面上的主要檢視器JavaScript `include`檔案。 請勿在網頁程式碼中參考任何其他JavaScript檔案（這些檔案可能由執行階段的檢視器邏輯下載）。 特別是，請勿直接參考檢視器從`Utils.js`內容路徑(所謂整合的HTML `/s7viewers`)載入的SDK5 SDK `include`資料庫。 原因在於`Utils.js`或類似的執行階段檢視器程式庫的位置完全由檢視器的邏輯管理，且位置會在檢視器發行版本之間變更。 Adobe不會在伺服器上保留舊版的次要檢視器`includes`。
 >
 >
 >因此，日後部署新產品版本時，將檢視器使用的任何次要JavaScript `include`的直接參照放在頁面上，會中斷檢視器功能。
@@ -130,7 +130,7 @@ ht-degree: 0%
 
    請參閱[自訂互動式視訊檢視器](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0)，以取得使用CSS設定檢視器樣式的詳細資訊。
 
-   以下是在「HTML」頁面中定義靜態檢視器大小的範例：
+   以下是在HTML頁面中定義靜態檢視器大小的範例：
 
    ```html {.line-numbers}
    #s7viewer.s7interactivevideoviewer { 
@@ -153,7 +153,7 @@ ht-degree: 0%
 
    在此情況下，`params`物件必須至少將影像伺服URL傳遞為`serverUrl`屬性，並將初始資產傳遞為`asset`引數。 JSON型初始化API可讓您使用一行程式碼、以`videoserverurl`屬性傳遞的視訊伺服器URL、以`asset`引數傳遞的初始資產，以及以`interactivedata`屬性傳遞的互動式資料，來建立及啟動檢視器。 JSON型初始化API可讓您使用一行程式碼來建立和啟動檢視器。
 
-   請務必將檢視器容器新增至DOM，讓檢視器程式碼可依其ID尋找容器元素。 有些瀏覽器會延遲建立DOM，直到網頁結尾為止。 為達到最大相容性，請在結尾的`BODY`標籤前面或內文`onload()`事件上呼叫`init()`方法。
+   請務必將檢視器容器新增至DOM，讓檢視器程式碼可依其ID尋找容器元素。 有些瀏覽器會延遲建立DOM，直到網頁結尾為止。 為達到最大相容性，請在結尾的`init()`標籤前面或內文`BODY`事件上呼叫`onload()`方法。
 
    同時，容器元素也未必是網頁配置的一部分。 例如，可以使用指派給它的`display:none`樣式來隱藏它。 在此情況下，檢視器會延遲其初始化程式，直到網頁將容器元素帶回版面配置為止。 之後，檢視器會自動繼續載入。
 
@@ -280,7 +280,7 @@ var interactiveVideoViewer = new s7viewers.InteractiveVideoViewer({
 
 [即時示範](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[備用示範位置](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=zh-Hant)
+[備用示範位置](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 已定義寬度和高度的&#x200B;**回應式內嵌**
 

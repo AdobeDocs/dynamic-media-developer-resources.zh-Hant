@@ -22,8 +22,8 @@ ht-degree: 0%
 
 ## 快速檢視熱點 {#section-cda48fc9730142d0bb3326bac7df3271}
 
-這些型別的熱點或影像地圖應使用Adobe Experience Manager的Dynamic Media中的「快速檢視」動作型別來編寫。 當使用者啟用這類熱點或影像地圖時，檢視器會執行`quickViewActivate` JavaScript回呼，並將熱點或影像地圖資料傳遞至該回呼。 內嵌網頁應會監聽此回呼。 觸發頁面時，它會開啟自己的快速檢視實施。
+這些型別的熱點或影像地圖應使用Adobe Experience Manager的Dynamic Media中的「快速檢視」動作型別來撰寫。 當使用者啟用這類熱點或影像地圖時，檢視器會執行`quickViewActivate` JavaScript回呼，並將熱點或影像地圖資料傳遞至該回呼。 內嵌網頁應會監聽此回呼。 觸發頁面時，它會開啟自己的快速檢視實施。
 
 ## 重新導向至外部網頁 {#section-ef820c71251e4215800bb99c0c9ebe16}
 
-為Experience Manager的Dynamic Media中的動作型別「快速檢視」製作的熱點或影像地圖，會將使用者重新導向至外部URL。 根據編寫期間所做的設定，URL會在新的瀏覽器標籤中、同一視窗中或在指定的瀏覽器視窗中開啟。
+在Experience Manager的Dynamic Media中，為「快速檢視」動作型別製作的熱點或影像地圖，會將使用者重新導向至外部URL。 根據編寫期間所做的設定，URL會在新的瀏覽器標籤中、同一視窗中或在指定的瀏覽器視窗中開啟。

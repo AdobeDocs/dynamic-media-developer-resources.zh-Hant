@@ -18,7 +18,7 @@ ht-degree: 1%
 
 IR變數可用來識別暈映、標誌影像和自訂文字。
 
-材質目錄`myCat`的暈映對應中，名為&#x200B;*範本*&#x200B;之記錄中的`vignette::Modifier`欄位包含下列專案：
+材質目錄`vignette::Modifier`的暈映對應中，名為&#x200B;*範本*&#x200B;之記錄中的`myCat`欄位包含下列專案：
 
 `$vig=defaultVignette&$text=text_goes_here&$color=220,220,220&vignette=myCat/$vig$&obj=group/object&color=$color$&decal&src=is{?size=300,100&text={\qc\fs36 $text$}}`
 

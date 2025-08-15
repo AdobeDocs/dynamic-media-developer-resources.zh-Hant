@@ -36,7 +36,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->在此`<substitution>`專案所屬的`<rule>`，專案中指定`replace="all"`時，輸入字串中的所有符合專案都會被取代。 依預設，只有第一個相符專案會取代為替代字串。
+>在此`replace="all"`專案所屬的`<rule>`，專案中指定`<substitution>`時，輸入字串中的所有符合專案都會被取代。 依預設，只有第一個相符專案會取代為替代字串。
 
 ## 注意 {#section-cedf2adabaaf441c9f598fb0ea180246}
 

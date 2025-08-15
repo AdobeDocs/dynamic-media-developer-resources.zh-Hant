@@ -20,7 +20,7 @@ ht-degree: 0%
 
 範本會儲存為影像目錄中的記錄，範本本文位於`catalog::Modifier`欄位中，`catalog::Path`欄位為空白，或指定無法動態變更的靜態背景影像。
 
-範本是使用`template=`命令或在要求URL的路徑元件中指定的。 對於大多數應用程式，建議使用`template=`命令來指定範本。 `template=`命令不能出現在`catalog::PostModifier`欄位中，而且只能出現在巢狀IS要求（亦即`src=is{...}`建構）的`catalog::Modifier`欄位中。 範本記錄可能無法在`src=`或`mask=`命令中參考。
+範本是使用`template=`命令或在要求URL的路徑元件中指定的。 對於大多數應用程式，建議使用`template=`命令來指定範本。 `template=`命令不能出現在`catalog::PostModifier`欄位中，而且只能出現在巢狀IS要求（亦即`catalog::Modifier`建構）的`src=is{...}`欄位中。 範本記錄可能無法在`src=`或`mask=`命令中參考。
 
 任何內嵌在範本中的`src=`或`mask=`命令都可以解析為請求的主目錄或不同的影像目錄。 如果未明確指定`rootId`，則會假設是主目錄。 使用`template=`指定的範本也可能位於主目錄或其他影像目錄中。
 

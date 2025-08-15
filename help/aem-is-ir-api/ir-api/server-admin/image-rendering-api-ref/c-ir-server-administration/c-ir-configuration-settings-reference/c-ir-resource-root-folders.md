@@ -16,4 +16,4 @@ ht-degree: 0%
 
 路徑清單（以分號分隔）可作為具有相對檔案路徑的所有資料檔案的根。
 
-可以是絕對路徑或相對於&#x200B;*[!DNL install_folder]*&#x200B;的路徑。 指定多個路徑時，伺服器會依指定順序嘗試每個根目錄，直到找到檔案為止。 預設根路徑[!DNL install_folder/resources]的預設值為[!DNL ./resources]。
+可以是絕對路徑或相對於&#x200B;*[!DNL install_folder]*&#x200B;的路徑。 指定多個路徑時，伺服器會依指定順序嘗試每個根目錄，直到找到檔案為止。 預設根路徑[!DNL ./resources]的預設值為[!DNL install_folder/resources]。

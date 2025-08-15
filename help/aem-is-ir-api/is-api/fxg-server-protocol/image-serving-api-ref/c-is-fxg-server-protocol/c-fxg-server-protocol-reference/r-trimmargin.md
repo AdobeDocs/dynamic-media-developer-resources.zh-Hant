@@ -1,5 +1,5 @@
 ---
-description: 設定修剪邊界。 設定PDF檔案中設定的裁剪邊界。
+description: 設定修剪邊界。 設定PDF檔案中設定的修剪邊界。
 solution: Experience Manager
 title: trimMargin
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # trimMargin{#trimmargin}
 
-設定修剪邊界。 設定PDF檔案中設定的裁剪邊界。
+設定修剪邊界。 設定PDF檔案中設定的修剪邊界。
 
 ` trimMargin=[ *[!DNL top]*[, *[!DNL left]*= *[!DNL top]*[, *[!DNL bottom]*= *[!DNL top]*[, *[!DNL right]*= *[!DNL left]*]]]]`點
 

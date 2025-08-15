@@ -26,4 +26,4 @@ ht-degree: 0%
 
 ` *[!DNL catalogPath]*`是絕對或相對檔案路徑/名稱。 *[!DNL requestPath]*&#x200B;必須為相對檔案路徑/名稱。
 
-可在[!DNL PlatformServer.conf]中定義多個`PS::staticContent.rootPaths`值。 如此一來，來源資料檔案便可以分散至多個檔案系統。 [!DNL Platform Server]會依指定的順序嘗試替代路徑，直到找到資料檔為止。
+可在`PS::staticContent.rootPaths`中定義多個[!DNL PlatformServer.conf]值。 如此一來，來源資料檔案便可以分散至多個檔案系統。 [!DNL Platform Server]會依指定的順序嘗試替代路徑，直到找到資料檔為止。

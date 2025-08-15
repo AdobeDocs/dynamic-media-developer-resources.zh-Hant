@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: fd32456b-9d99-4e82-a61c-2fc4d7030630
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1235'
+source-wordcount: '1233'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 * 行數未超過`\copyfitmaxlines`設定的上限以及文字輸入中的明確行數。
 * 影像集中必須搭配大括弧和括弧。 如果大括弧和括弧不相符，則必須將URL編碼。
 * 伺服器端全域回應時間警示包含錯誤回應。
-* 將`rect=`命令與影像或遮罩要求搭配使用時，目前需要`id=`命令。
+* 將`id=`命令與影像或遮罩要求搭配使用時，目前需要`rect=`命令。
 
 ## 已知差異textPs=與text= {#section-16ede4c13a7648feb0d2fc93341fd4aa}
 
@@ -65,7 +65,7 @@ Digimarc程式庫拒絕將Digimarc浮水印套用至已偵測到的影像。 如
 
   伺服器A已定義`errorRedirect.rootUrl=10.10.10.10` 。
 
-  伺服器B的IP位址為10.10.10.10，將規則集檔案中的`<addressfilter>`標籤值設定為包含其IP位址(10.10.10)。
+  伺服器B的IP位址為10.10.10.10，將規則集檔案中的`<addressfilter>`標籤值設定為包含其IP位址(10.10.10.10)。
 
 * 具有定位的點文字和文字路徑可能會顯示剪裁。
 * `text=`只將`\sa`和`\sb`套用至整個文字區塊，而非每個段落。
@@ -88,17 +88,17 @@ Digimarc程式庫拒絕將Digimarc浮水印套用至已偵測到的影像。 如
 
   針對影像演算非金字塔暈映，請增加[!DNL install_root/ImageServing/bin/ImageServerRegistry.xml]組態檔中IrMaxNonPyrVignetteSize的屬性值。
 
-  對於「影像伺服」非金字塔TIFF，請在[!DNL install_root/ImageServing/bin/ImageServerRegistry.xml]設定檔中增加`MaxNonDsfSize`的屬性值。
+  對於影像伺服非金字塔TIFF，請在`MaxNonDsfSize`設定檔中增加[!DNL install_root/ImageServing/bin/ImageServerRegistry.xml]的屬性值。
 
-* Adobe[!DNL Photoshop] CS3預設不會儲存複合影像的分層PSD檔案。
+* Adobe [!DNL Photoshop] CS3預設不會儲存圖層式PSD檔案為複合影像。
 
   *症狀*：
 
-  Adobe[!DNL Photoshop] CS3分層PSD檔案顯示為黑色，文字指出：「此分層[!DNL Photoshop]檔案未儲存為複合影像。」 用於「影像伺服」回覆影像或IPS。
+  Adobe [!DNL Photoshop] CS3分層PSD檔案顯示為黑色，並含有文字指出：「此分層[!DNL Photoshop]檔案並未儲存為複合影像。」 用於「影像伺服」回覆影像或IPS。
 
   *解決辦法*︰
 
-  儲存開啟最大相容性的Adobe[!DNL Photoshop] CS3檔案。
+  儲存開啟最大相容性的Adobe [!DNL Photoshop] CS3檔案。
 
 * 將ICC設定檔指派給CMYK/JPEG回覆影像，會導致某些瀏覽器中的顏色反轉。*因應措施*：
 
@@ -117,22 +117,22 @@ Digimarc程式庫拒絕將Digimarc浮水印套用至已偵測到的影像。 如
 * 內嵌色彩設定檔的PNG影像色彩校正使用硬式編碼選項。 「演算色彩比對方式」為相對比色，且PhotoFont文字的「黑點」補償已開啟。
 * 在公司[!DNL ini]檔案中啟用地區設定轉譯時，不支援檔案型查詢。
 * 「影像伺服」無法正確寫入非封閉[!DNL Photoshop]路徑。
-* 「影像伺服」目前不支援處理使用Adobe Media Encoder 4.0.1或更舊版本匯出的TIFF檔案。 Adobe Media Encoder包含在Premiere ProCS4、After Effects CS4和Creative Suite4 Production Premium中。
+* 「影像伺服」目前不支援處理使用Adobe Media Encoder 4.0.1或更舊版本匯出的TIFF檔案。 Adobe Media Encoder包含在Premiere Pro CS4、After Effects CS4和Creative Suite 4 Production Premium。
 * 搭配自動調整圖層使用`text=`不支援使用多個設定進行行對齊的RTF字串。
 
   *範例*
 
   RTF字串無法同時使用左右行對齊來調整文字圖層大小。
 
-* 對於未內嵌在SVG檔案中的參照字型，SVG有它自己的字型查閱路徑屬性。
+* 對於未內嵌在SVG檔案中的參照字型，SVG有其專屬的字型查閱路徑屬性。
 
   *症狀*
 
-  包含字型定義的已演算SVG影像使用的字型不正確。
+  包含字型定義的演算SVG影像使用的字型不正確。
 
   *因應措施*
 
-  在[!DNL install_root/ImageServing/conf/PlatformServer.conf]中設定屬性`svgProvider.fontRoot=`。
+  在`svgProvider.fontRoot=`中設定屬性[!DNL install_root/ImageServing/conf/PlatformServer.conf]。
 
 * 裁切目前使用`bgColor=`而非`color=`來填滿任何新的延伸區域。
 
@@ -152,4 +152,4 @@ Digimarc程式庫拒絕將Digimarc浮水印套用至已偵測到的影像。 如
 
 ## 僅適用於公用程式的限制 {#section-906a6b2378154b3da122b2332983f7a5}
 
-透過`control-c`停止時，`ImageConvert`有時會因分段錯誤而當機。
+透過`ImageConvert`停止時，`control-c`有時會因分段錯誤而當機。

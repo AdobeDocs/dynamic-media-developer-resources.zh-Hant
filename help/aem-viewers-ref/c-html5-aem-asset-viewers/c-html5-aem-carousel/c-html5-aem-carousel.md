@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## 示範URL {#section-c0ad383db6a444979dc7eeb1ec4cf54d}
 
-[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html?lang=zh-Hant](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html?lang=zh-Hant)
+[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html)
 
 ## 系統要求 {#section-b7270cc4290043399681dc504f043609}
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 轉盤檢視器代表主要JavaScript檔案和一組協助程式檔案(單一JavaScript包含此特定檢視器使用的所有Viewer SDK元件、資產、CSS)，這些檔案由檢視器在執行階段下載。
 
-轉盤檢視器既可以透過隨附於IS檢視器的生產就緒HTML頁面在快顯視窗模式中使用，也可以透過透過檔案說明的API整合至目標網頁的內嵌模式中使用。
+轉盤檢視器既可透過隨IS檢視器提供的生產就緒HTML頁面以快顯視窗模式使用，也可在使用紀錄API整合至目標網頁的內嵌模式中使用。
 
 組態和外觀設定類似於本說明中描述的其他檢視器。 所有外觀設定都是透過自訂CSS來達成。
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 在快顯視窗模式中，檢視器會在個別的網頁瀏覽器視窗或標籤中開啟。 它會取用整個瀏覽器視窗區域，並在瀏覽器調整大小或行動裝置方向變更時進行調整。
 
-快顯視窗模式最常用於行動裝置。 網頁會使用`window.open()` JavaScript呼叫、正確設定的`A`HTML元素或任何其他適當的方法載入檢視器。
+快顯視窗模式最常用於行動裝置。 網頁會使用`window.open()` JavaScript呼叫、正確設定的`A` HTML元素或任何其他適當的方法載入檢視器。
 
 建議您為快顯視窗操作模式使用現成可用的HTML頁面。 在此案例中，其名稱為`CarouselViewer.html`，且位於標準IS-Viewers部署的`html5/`子資料夾內：
 
@@ -111,7 +111,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->僅參考頁面上的主要檢視器JavaScript `include`檔案。 請勿在網頁程式碼中參考任何其他JavaScript檔案（這些檔案可能由執行階段的檢視器邏輯下載）。 特別是，請勿直接參考檢視器從`/s7viewers`內容路徑（所謂整合SDK `include`）載入的HTML5 SDK `Utils.js`資料庫。 原因在於`Utils.js`或類似的執行階段檢視器程式庫的位置完全由檢視器的邏輯管理，且位置會在檢視器發行版本之間變更。 Adobe不會在伺服器上保留舊版的次要檢視器`includes`。
+>僅參考頁面上的主要檢視器JavaScript `include`檔案。 請勿在網頁程式碼中參考任何其他JavaScript檔案（這些檔案可能由執行階段的檢視器邏輯下載）。 特別是，請勿直接參考檢視器從`Utils.js`內容路徑(所謂整合的HTML `/s7viewers`)載入的SDK5 SDK `include`資料庫。 原因在於`Utils.js`或類似的執行階段檢視器程式庫的位置完全由檢視器的邏輯管理，且位置會在檢視器發行版本之間變更。 Adobe不會在伺服器上保留舊版的次要檢視器`includes`。
 >
 >
 >因此，日後部署新產品版本時，將檢視器使用的任何次要JavaScript `include`的直接參照放在頁面上，會中斷檢視器功能。
@@ -136,7 +136,7 @@ ht-degree: 0%
 
    請參閱[自訂轉盤檢視器](../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0)，以取得使用CSS設定檢視器樣式的詳細資訊。
 
-   以下是在「HTML」頁面中定義靜態檢視器大小的範例：
+   以下是在HTML頁面中定義靜態檢視器大小的範例：
 
    ```CSS {.line-numbers}
    #s7viewer.s7carouselviewer { 
@@ -145,7 +145,7 @@ ht-degree: 0%
    }
    ```
 
-   您可以使用檢視器初始化程式碼和`params`集合明確傳遞`stagesize`修飾元，或如Command Reference一節中所述，以API呼叫形式傳遞，如下所示：
+   您可以使用檢視器初始化程式碼和`stagesize`集合明確傳遞`params`修飾元，或如Command Reference一節中所述，以API呼叫形式傳遞，如下所示：
 
    ```CSS {.line-numbers}
    carouselViewer.setParam("stagesize", "1174,500");
@@ -157,7 +157,7 @@ ht-degree: 0%
 
    完成上述步驟後，您會建立`s7viewers.CarouselViewer`類別的執行個體、將所有組態資訊傳遞至其建構函式，並在檢視器執行個體上呼叫`init()`方法。 組態資訊會以JSON物件的形式傳遞至建構函式。 此物件至少應有`containerId`欄位，其內含檢視器容器ID的名稱，以及含有檢視器支援之組態引數的巢狀`params` JSON物件。 在此情況下，`params`物件必須至少將影像伺服URL傳遞為`serverUrl`屬性，並將初始資產傳遞為`asset`引數。 JSON型初始化API可讓您使用一行程式碼來建立和啟動檢視器。
 
-   請務必將檢視器容器新增至DOM，讓檢視器程式碼可依其ID尋找容器元素。 有些瀏覽器會延遲建立DOM，直到網頁結尾為止。 為達到最大相容性，請在結尾的`BODY`標籤前面或內文`onload()`事件上呼叫`init()`方法。
+   請務必將檢視器容器新增至DOM，讓檢視器程式碼可依其ID尋找容器元素。 有些瀏覽器會延遲建立DOM，直到網頁結尾為止。 為達到最大相容性，請在結尾的`init()`標籤前面或內文`BODY`事件上呼叫`onload()`方法。
 
    同時，容器元素也不一定屬於網頁版面配置的一部分。 例如，可以使用指派給它的`display:none`樣式來隱藏它。 在此情況下，檢視器會延遲其初始化程式，直到網頁將容器元素帶回版面配置為止。 當此功能進行時，檢視器載入會自動繼續。
 
@@ -262,7 +262,7 @@ var carouselViewer = new s7viewers.CarouselViewer({
 
 以下範例頁面說明高度不受限制的回應式設計內嵌在實際應用中的更多情況：
 
-[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html?lang=zh-Hant](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html?lang=zh-Hant)
+[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html)
 
 定義寬度和高度的&#x200B;**彈性大小內嵌**
 

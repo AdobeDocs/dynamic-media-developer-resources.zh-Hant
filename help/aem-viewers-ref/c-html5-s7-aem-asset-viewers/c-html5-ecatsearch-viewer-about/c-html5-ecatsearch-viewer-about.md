@@ -31,11 +31,11 @@ eCatalog Search Viewer是一種目錄檢視器，可依跨頁或逐頁方式在�
 
 ## 示範URL {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
-[https://s7d9.scene7.com/s7viewers/html5/eCatalogSearchViewer.html?emailurl=https://s7d9.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d9.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_eCatalog_Search&amp;contenturl=https://s7d9.scene7.com/skins/&amp;asset=Viewers/Pluralist&amp;searchserverurl=https://s7search1.scene7.com/s7search/](https://s7d9.scene7.com/s7viewers/html5/eCatalogSearchViewer.html?emailurl=https://s7d9.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d9.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_eCatalog_Search&amp;contenturl=https://s7d9.scene7.com/skins/&amp;asset=Viewers/Pluralist&amp;searchserverurl=https://s7search1.scene7.com/s7search/)
+[https://s7d9.scene7.com/s7viewers/html5/eCatalogSearchViewer.html?emailurl=https://s7d9.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d9.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_eCatalog_Search&amp;contenturl=https://s7d9.scene7.com/skins/&amp;asset=Viewers/Pluralist&amp;searchserverurl=https://s7search1.scene7.com/s7search/](https://s7d9.scene7.com/s7viewers/html5/eCatalogSearchViewer.html?emailurl=https://s7d9.scene7.com/s7/emailFriend&serverUrl=https://s7d9.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_eCatalog_Search&contenturl=https://s7d9.scene7.com/skins/&asset=Viewers/Pluralist&searchserverurl=https://s7search1.scene7.com/s7search/)
 
 ## 使用eCatalog檢視器 {#section-e6c68406ecdc4de781df182bbd8088b4}
 
-eCatalog搜尋檢視器代表主要JavaScript檔案和一組協助程式檔案(單一JavaScript包含此特定檢視器使用的所有Viewer SDK元件、資產、CSS)，這些檔案由檢視器在執行階段下載
+eCatalog搜尋檢視器代表主要JavaScript檔案和一組協助程式檔案(單一JavaScript包含此特定檢視器使用的所有SDK元件檢視器、資產、CSS)，這些檔案由檢視器在執行階段下載
 
 您可以在快顯視窗模式中使用eCatalog Search Viewer，只要使用隨IS-Viewers提供的生產就緒HTML頁面，或透過內嵌模式使用檔案說明的API將其整合至目標網頁。
 
@@ -86,7 +86,7 @@ eCatalog Search Viewer支援下列其他行動應用程式中常見的觸控手�
 
 eCatalog搜尋檢視器支援社交分享工具。 這些按鈕可在主要控制列作為按鈕使用，當使用者按一下或點選共用工具列時，主控制列會展開為共用工具列。
 
-共用工具列包含各種支援的共用管道型別圖示，包括Facebook、Twitter、電子郵件共用、內嵌程式碼共用和連結共用。 啟動電子郵件共用、內嵌共用或連結共用工具時，檢視器會顯示模型對話方塊，其中包含對應的資料輸入表單。 呼叫Facebook或Twitter時，檢視器會將使用者從社交服務重新導向至標準共用對話方塊。 因為Web瀏覽器安全限制，所以無法在全熒幕模式中使用共用工具。
+共用工具列包含各種支援的共用管道型別圖示，包括Facebook、Twitter、電子郵件共用、內嵌程式碼共用和連結共用。 啟動電子郵件共用、內嵌共用或連結共用工具時，檢視器會顯示模型對話方塊，其中包含對應的資料輸入表單。 呼叫Facebook或Twitter時，檢視器會將使用者從社交服務重新導向至標準分享對話方塊。 因為Web瀏覽器安全限制，所以無法在全熒幕模式中使用共用工具。
 
 檢視器的「搜尋」功能可在主工具列中顯示為鏡面圖示。 按一下或點選圖示會啟動包含輸入欄位的「搜尋」面板。 輸入關鍵字或片語並按Enter鍵後，檢視器會在面板中呈現搜尋結果，並在主檢視中反白顯示的文字。
 
@@ -98,7 +98,7 @@ eCatalog搜尋檢視器支援社交分享工具。 這些按鈕可在主要控�
 
 在快顯視窗模式中，檢視器會在個別的網頁瀏覽器視窗或標籤中開啟。 它會取用整個瀏覽器視窗區域，並在瀏覽器調整大小或行動裝置方向變更時進行調整。
 
-快顯視窗模式最常用於行動裝置。 網頁會使用`window.open()` JavaScript呼叫、正確設定的`A`HTML元素或任何其他適當的方法載入檢視器。
+快顯視窗模式最常用於行動裝置。 網頁會使用`window.open()` JavaScript呼叫、正確設定的`A` HTML元素或任何其他適當的方法載入檢視器。
 
 建議您為快顯視窗操作模式使用現成可用的HTML頁面。 在此案例中，其名稱為[!DNL eCatalogSearchViewer.html]，且位於標準IS-Viewers部署的[!DNL html5/]子資料夾內：
 
@@ -141,7 +141,7 @@ eCatalog搜尋檢視器支援社交分享工具。 這些按鈕可在主要控�
 
 [!DNL <s7viewers_root>/html5/js/eCatalogSearchViewer.js]
 
-如果檢視器部署在其中一個部署的Dynamic Media伺服器上，且從相同網域提供，則Adobe可以使用相對路徑。 否則，您可以指定已安裝IS-Viewers的其中一個AdobeDynamic Media伺服器的完整路徑。
+如果檢視器部署在任一Adobe Dynamic Media伺服器上，且從相同網域提供服務，您就可以使用相對路徑。 否則，請指定已安裝IS-Viewers的其中一個Adobe Dynamic Media伺服器的完整路徑。
 
 相對路徑如下所示：
 
@@ -189,7 +189,7 @@ eCatalog搜尋檢視器支援社交分享工具。 這些按鈕可在主要控�
 
    完成上述步驟後，您會建立`s7viewers.eCatalogSearchViewer`類別的執行個體、將所有組態資訊傳遞至其建構函式，並在檢視器執行個體上呼叫`init()`方法。 組態資訊會以JSON物件的形式傳遞至建構函式。 此物件至少有`containerId`欄位，其中包含檢視器容器ID的名稱，以及含有檢視器支援之設定引數的巢狀`params` JSON物件。 在此情況下，`params`物件必須至少將影像伺服URL傳遞為`serverUrl`屬性，並將初始資產傳遞為`asset`引數。 JSON型初始化API可讓您使用一行程式碼來建立和啟動檢視器。
 
-   請務必將檢視器容器新增至DOM，讓檢視器程式碼可依其ID尋找容器元素。 有些瀏覽器會延遲建立DOM，直到網頁結尾為止。 不過，為達到最大相容性，請在結尾的`BODY`標籤前面或內文`onload()`事件上呼叫`init()`方法。
+   請務必將檢視器容器新增至DOM，讓檢視器程式碼可依其ID尋找容器元素。 有些瀏覽器會延遲建立DOM，直到網頁結尾為止。 不過，為達到最大相容性，請在結尾的`init()`標籤前面或內文`BODY`事件上呼叫`onload()`方法。
 
    同時，容器元素目前不一定會成為網頁配置的一部分。 例如，可以使用指派給它的`display:none`樣式來隱藏它。 在此情況下，檢視器會延遲其初始化程式，直到網頁將容器元素帶回版面配置為止。 發生此情況時，檢視器會自動繼續載入。
 

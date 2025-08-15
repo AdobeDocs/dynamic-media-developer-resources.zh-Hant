@@ -200,7 +200,7 @@ background-color: rgb(178, 178, 178);
 
 >[!NOTE]
 >
->您可以為`s7index` CSS類別設定`display:none`，以完全隱藏頁面索引。
+>您可以為`display:none` CSS類別設定`s7index`，以完全隱藏頁面索引。
 
 範例1 — 設定最小寬度為40畫素、最大寬度為70畫素以及右側5畫素邊界的頁面索引：
 

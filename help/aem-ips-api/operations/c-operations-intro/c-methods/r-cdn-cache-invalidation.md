@@ -1,5 +1,5 @@
 ---
-description: 將提供的URL清單轉送給Dynamic Media CDN （內容發佈網路）提供者，以使其現有的HTTP回應快取失效。
+description: 將提供的URL清單轉送至Dynamic Media CDN （內容發佈網路）提供者，以使其現有的HTTP回應快取失效。
 solution: Experience Manager
 title: cdnCacheInvalidation
 feature: Dynamic Media Classic,SDK/API
@@ -14,15 +14,15 @@ ht-degree: 1%
 
 # cdnCacheInvalidation{#cdncacheinvalidation}
 
-將提供的URL清單轉送給Dynamic Media CDN （內容發佈網路）提供者，以使其現有的HTTP回應快取失效。
+將提供的URL清單轉送至Dynamic Media CDN （內容發佈網路）提供者，以使其現有的HTTP回應快取失效。
 
 ## cdnCacheInvalidation：關於 {#section-4f70d2bc79d64288b961836ab17e9690}
 
-在透過CDN網路處理此失效請求後，CDN快取失效會強制根據Dynamic Media網路上的目前發佈資料重新驗證這些URL的所有HTTP請求。 未連線至Dynamic Media服務URL結構且直接比對公司建立時指派的Dynamic Media公司根ID的任何URL，都會導致整個請求的API錯誤。 CDN不支援且視為無效的任何無效URL也會導致整個請求的API錯誤。
+CDN快取失效會強制在透過CDN網路處理此失效請求後，根據動態媒體網路上的目前發佈資料，重新驗證這些URL的所有HTTP請求。 未連線至Dynamic Media服務URL結構且直接比對公司建立時指派之Dynamic Media公司根ID的任何URL，都會導致整個請求的API錯誤。 CDN不支援且視為無效的任何無效URL也會導致整個請求的API錯誤。
 
 **使用頻率：規則**
 
-規範使用此功能頻率的規則由Dynamic Media的CDN合作夥伴控制。 CDN保留降級這些無效回應能力的酌情權，以維持其為使用者提供的最佳服務效能。 如果Dynamic Media收到過度使用此功能的通知，Adobe必須根據每個公司或整個服務來停用此功能。
+控管此功能使用頻率的規則由Dynamic Media的CDN合作夥伴控制。 CDN保留降級這些無效回應能力的酌情權，以維持其為使用者提供的最佳服務效能。 如果Dynamic Media收到過度使用此功能的通知，Adobe必須根據每個公司或整個服務來停用此功能。
 
 **確認電子郵件**
 
@@ -61,7 +61,7 @@ ht-degree: 1%
    <td> <p> <span class="codeph"> <span class="varname"> urlArray</span> </span> </p> </td> 
    <td> <p> <span class="codeph">型別：UrlArray</span> </p> </td> 
    <td> <p> 是 </p> </td> 
-   <td> <p> 要從CDN快取中失效的1000個URL清單。 所有URL都必須包含Dynamic Media公司根ID，才能失效。 </p> </td> 
+   <td> <p> 要從CDN快取中失效的1000個URL清單。 所有URL都必須包含要失效的Dynamic Media公司根ID。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -25,11 +25,11 @@ ht-degree: 0%
 
    * `objID {String}`目前未使用。
    * `compClass {String}`目前未使用。
-   * `instName {String}`觸發事件之Viewer SDK元件的執行個體名稱。
+   * `instName {String}`觸發事件的檢視器SDK元件的執行個體名稱。
    * `timeStamp {Number}`事件時間戳記。
    * `eventInfo {String}`個事件承載。
 
-* `quickViewActivate` — 當使用者在互動色票元件內的互動色票上或在視訊播放結尾顯示的「呼叫動作」畫面中按一下或點選互動色票時，就會觸發。 回呼處理常式會採用唯一引數，該引數是包含下列欄位的JSON物件：
+* `quickViewActivate` — 當使用者在互動式色票元件內的互動式色票上或在視訊播放結尾顯示的「call to action」畫面中按一下或點選互動式色票時，就會觸發。 回呼處理常式會採用唯一引數，該引數是包含下列欄位的JSON物件：
 
    * `sku` { `String`}與互動色票相關聯的SKU值。
    * `<additionalVariable>` { `String`}與互動色票相關的零個或多個其他變數。

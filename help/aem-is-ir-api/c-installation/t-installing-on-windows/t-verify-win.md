@@ -1,6 +1,6 @@
 ---
 title: 正在驗證安裝
-description: 安裝「Dynamic Media影像伺服」後，請務必確認安裝。
+description: 安裝Dynamic Media影像伺服後，請務必確認安裝。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 正在驗證安裝 {#verifying-the-installation}
 
-安裝「Dynamic Media影像伺服」後，請務必確認安裝。
+安裝Dynamic Media影像伺服後，請務必確認安裝。
 
 影像伺服器會安裝為Windows服務。
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 
    `http:// server:port /is/image`
 
-[!DNL &#x200B; http:// *[!DNL server:port]*/ir/render]
+[!DNL  http:// *[!DNL server:port]*/ir/render]
 
 檢查回應中是否存在「`imageServer.`」專案，指出影像伺服器正在接聽。
 >若已安裝，可使用檔案和示範套件的範例頁面執行其他驗證。

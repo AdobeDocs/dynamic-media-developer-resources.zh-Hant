@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: e137f795-e0f7-4b72-b7e8-188e254bbb45
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '206'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 1%
 
 時間值&#x200B;*`zzz`*&#x200B;是三或四個字元的時區代碼，例如`GMT`或`PST`。 日光節約時間必須在時區代碼中計算（例如，太平洋標準時間為`PST`，而太平洋日光節約時間為`PDT`）。
 
-時間值&#x200B;*`offset`*&#x200B;是與GMT相關的時區位移（以小時或小時：分鐘為單位）。 例如，`PDT`相當於`GMT -7`。
+時間值&#x200B;*`offset`*&#x200B;是以GMT為單位的時區位移（小時或小時）:minutes。 例如，`PDT`相當於`GMT -7`。
 
 字串格式日期/時間值的所有元素都必須存在。 如果日期/時間值的格式不正確，則會忽略該值，並改用&#x200B;[!DNL *`catalog`*.ini]檔案的修改時間。
 

@@ -22,7 +22,7 @@ ht-degree: 2%
 
 ## 限制 {#section-04cb0d50e8914564a8d226d0d4663c8b}
 
-巢狀影像轉譯、FXG或`req=set`要求失敗時，「影像伺服」會回覆為`DefaultImageMode=0`。
+巢狀影像轉譯、FXG或`DefaultImageMode=0`要求失敗時，「影像伺服」會回覆為`req=set`。
 
 ## 預設 {#section-9e318524a2a5496386901286748c7ee7}
 

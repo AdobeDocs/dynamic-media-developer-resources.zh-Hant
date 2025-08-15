@@ -30,7 +30,7 @@ ht-degree: 3%
 
 ## 範例 {#section-3202122df5db4e14b358ecabfb6d8b85}
 
-補償影像重新取樣所導致的輕微模糊。 我們也會提高JPEG品質，以避免銳利化的邊緣產生額外的JPEG不自然感。
+補償影像重新取樣所導致的輕微模糊。 我們也會提高JPEG品質，避免銳利化邊緣產生額外的JPEG成品。
 
 `http://server/myRootId/myImageId?qlt=90,1&op_sharpen=1&wid=500`
 

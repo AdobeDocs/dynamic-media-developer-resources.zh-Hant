@@ -20,7 +20,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> localizationInfo </span> </span> </p> </td> 
-   <td colname="col2"> <p> 包含本地化資料的{ <span class="codeph">物件</span>} JSON物件。 </p> <p>如需詳細資訊，請參閱<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-namespace.md#concept-679bfabb3e3e4c12a285c4e9c4144153" format="dita" scope="local"> Viewer SDK名稱空間</a>。 </p> <p>如需物件內容的詳細資訊，請參閱<i>檢視器SDK使用手冊</i>和範例。 選擇性. </p> </td> 
+   <td colname="col2"> <p> 包含本地化資料的{ <span class="codeph">物件</span>} JSON物件。 </p> <p>如需詳細資訊，請參閱<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-namespace.md#concept-679bfabb3e3e4c12a285c4e9c4144153" format="dita" scope="local">檢視器SDK名稱空間</a>。 </p> <p>如需物件內容的詳細資訊，請參閱<i>檢視器SDK使用手冊</i>和範例。 選擇性. </p> </td> 
   </tr> 
  </tbody> 
 </table>

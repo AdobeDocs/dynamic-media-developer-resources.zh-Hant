@@ -1,6 +1,6 @@
 ---
 title: 動畫GifInfo
-description: 動畫GIF檔案資產的屬性。
+description: GIF動畫檔案資產的屬性。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # [!DNL AnimatedGifInfo]{#animatedgifinfo}
 
-動畫GIF檔案資產的屬性。
+GIF動畫檔案資產的屬性。
 
 語法
 

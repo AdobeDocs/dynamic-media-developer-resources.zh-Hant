@@ -241,7 +241,7 @@ background-color: #dddddd;
 .s7ecatalogsearchviewer .s7printdialog .s7closebutton
 ```
 
-關閉按鈕的&#x200B;**CSS屬性**
+關閉按鈕的**CSS屬性**
 
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
@@ -328,7 +328,7 @@ background-color: #dddddd;
 .s7ecatalogsearchviewer .s7printdialog .s7dialogfooter
 ```
 
-對話方塊頁尾&#x200B;**的**&#x200B;CSS屬性
+對話方塊頁尾**的**CSS屬性
 
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
@@ -527,7 +527,7 @@ background-color: #dddddd;
 .s7ecatalogsearchviewer .s7printdialog .s7dialogviewarea
 ```
 
-對話方塊檢視區域的&#x200B;**CSS屬性**
+對話方塊檢視區域的**CSS屬性**
 
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
@@ -562,7 +562,7 @@ background-color: #dddddd;
 .s7ecatalogsearchviewer .s7printdialog .s7dialogbody
 ```
 
-對話方塊主體的&#x200B;**CSS屬性**
+對話方塊主體的**CSS屬性**
 
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
@@ -644,7 +644,7 @@ background-color: #dddddd;
 
 此類別不適合控制標籤大小或位置，因為您可以在表單使用者介面的不同位置將其套用至文字。
 
-對話方塊標籤的&#x200B;**CSS屬性。 &#x200B;**
+對話方塊標籤的**CSS屬性。 **
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 

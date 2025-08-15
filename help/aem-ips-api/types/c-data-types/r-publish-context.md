@@ -57,4 +57,4 @@ Assets會為每個發佈狀態和內容維持不同的標籤。 使用[setAssets
 
 >[!MORELIKETHIS]
 >
->* [Publish內容](../../string-constants/c-string-constants/r-publish-context.md#reference-3ade116df0df40deb86154eb0ac7c12a)
+>* [發佈內容](../../string-constants/c-string-constants/r-publish-context.md#reference-3ade116df0df40deb86154eb0ac7c12a)

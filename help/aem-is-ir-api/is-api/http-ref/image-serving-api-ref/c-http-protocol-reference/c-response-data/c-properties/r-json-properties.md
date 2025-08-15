@@ -53,7 +53,7 @@ S7jsonResponse(data, reqId)
 
 `<reqHandler>`語法是JSONP回應中出現的JS處理常式名稱。 僅允許a-z、A-Z和0-9字元。 選填。 預設值為`s7jsonResponse`。
 
-Dynamic Media Image Serving Viewers套件包含從Image Serving請求及剖析JSONP格式資料的公用程式。
+Dynamic Media Image Serving檢視器套件包含從Image Serving要求及剖析JSONP格式資料的公用程式。
 
 如需JSONP格式的詳細資訊，請參閱[https://en.wikipedia.org/wiki/JSONP](https://en.wikipedia.org/wiki/JSONP)。
 

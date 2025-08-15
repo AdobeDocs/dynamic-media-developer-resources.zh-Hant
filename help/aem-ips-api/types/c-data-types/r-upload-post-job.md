@@ -20,7 +20,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->上載工作的所有POST請求都必須來自相同的IP位址。
+>上載工作的所有POST要求都必須來自相同的IP位址。
 
 ## 參數 {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 

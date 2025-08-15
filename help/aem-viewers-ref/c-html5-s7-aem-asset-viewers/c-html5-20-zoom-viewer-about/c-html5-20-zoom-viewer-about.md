@@ -33,7 +33,7 @@ ht-degree: 0%
 
 縮放檢視器代表主要JavaScript檔案和一組協助程式檔案(單一JavaScript包含此特定檢視器使用的所有Viewer SDK元件、資產、CSS)，這些檔案由檢視器在執行階段下載。
 
-您可以在快顯視窗模式中使用縮放檢視器，只要使用隨IS-Viewers提供的生產就緒HTML頁面，或透過內嵌模式使用檔案說明的API將其整合至目標網頁。
+您可以在快顯視窗模式中使用縮放檢視器，只要使用隨IS — 檢視器提供的生產就緒HTML頁面，或是使用內嵌模式，其中使用檔案說明的API將其整合至目標網頁。
 
 組態和外觀設定與其他檢視器的組態和外觀設定類似。 所有外觀設定都是透過自訂CSS來達成。
 
@@ -88,9 +88,9 @@ ht-degree: 0%
 
 在快顯視窗模式中，檢視器會在個別的網頁瀏覽器視窗或標籤中開啟。 它會取用整個瀏覽器視窗區域，並在瀏覽器調整大小或裝置方向變更時進行調整。
 
-此模式在行動裝置中最常見。 網頁會使用`window.open()` JavaScript呼叫、正確設定的`A`HTML元素或任何其他適當的方法載入檢視器。
+此模式在行動裝置中最常見。 網頁會使用`window.open()` JavaScript呼叫、正確設定的`A` HTML元素或任何其他適當的方法載入檢視器。
 
-建議您為快顯視窗操作模式使用現成可用的HTML頁面。 現成可用的HTML頁面稱為`ZoomViewer.html`，且位於標準IS-Viewers部署的`html5/`子資料夾下，如下所示：
+對於快顯視窗操作模式，建議您使用現成可用的HTML頁面。 現成可用的HTML頁面稱為`ZoomViewer.html`，且位於標準IS-Viewers部署的`html5/`子資料夾下，如下所示：
 
 `<s7viewers_root>/html5/ZoomViewer.html`
 
@@ -142,7 +142,7 @@ target="_blank">Open popup viewer</a>
 
 >[!NOTE]
 >
->僅參考頁面上的主要檢視器JavaScript `include`檔案。 請勿在網頁程式碼中參考任何其他JavaScript檔案（這些檔案可能由執行階段的檢視器邏輯下載）。 特別是，請勿直接參考檢視器從`/s7viewers`內容路徑（所謂整合SDK `include`）載入的HTML5 SDK `Utils.js`資料庫。 原因在於`Utils.js`或類似的執行階段檢視器程式庫的位置完全由檢視器的邏輯管理，且位置會在檢視器發行版本之間變更。 Adobe不會在伺服器上保留舊版的次要檢視器`includes`。
+>僅參考頁面上的主要檢視器JavaScript `include`檔案。 請勿在網頁程式碼中參考任何其他JavaScript檔案（這些檔案可能由執行階段的檢視器邏輯下載）。 特別是，請勿直接參考檢視器從`Utils.js`內容路徑(所謂整合的HTML `/s7viewers`)載入的SDK5 SDK `include`資料庫。 原因在於`Utils.js`或類似的執行階段檢視器程式庫的位置完全由檢視器的邏輯管理，且位置會在檢視器發行版本之間變更。 Adobe不會在伺服器上保留舊版的次要檢視器`includes`。
 >
 >
 >因此，日後部署新產品版本時，將檢視器使用的任何次要JavaScript `include`的直接參照放在頁面上，會中斷檢視器功能。
@@ -167,7 +167,7 @@ target="_blank">Open popup viewer</a>
 
    請參閱[自訂縮放檢視器](../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/c-html5-20-zoom-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0)，以取得使用CSS設定檢視器樣式的詳細資訊。
 
-   以下是在「HTML」頁面中定義靜態外部檢視器大小的範例：
+   以下是在HTML頁面中定義靜態外部檢視器大小的範例：
 
    ```html {.line-numbers}
    #s7viewer.s7zoomviewer { 
@@ -178,9 +178,9 @@ target="_blank">Open popup viewer</a>
 
    您可以在下列範例中檢視固定式外部檢視器的行為。 請注意，當您在組之間切換時，外部檢視器大小不會變更：
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html?lang=zh-Hant](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html?lang=zh-Hant)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html)
 
-   若要將主要檢視維度設為靜態，請使用`.s7zoomviewer` `.s7container` CSS選取器或使用`stagesize`修飾元，以絕對單位定義內部`Container` SDK元件的檢視器大小。
+   若要將主要檢視維度設為靜態，請使用`Container` `.s7zoomviewer` CSS選取器或使用`.s7container`修飾元來定義內部`stagesize` SDK元件的檢視器大小（以絕對單位表示）。
 
    以下範例說明如何為內部`Container` SDK元件定義檢視器大小，以便在切換資產時，主要檢視區域不會變更其大小：
 
@@ -193,7 +193,7 @@ target="_blank">Open popup viewer</a>
 
    下列示範頁面會以固定的主檢視大小顯示檢視器行為。 請注意，當您在組之間切換時，主要檢視會保持靜態，而網頁內容會垂直移動。
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html?lang=zh-Hant](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html?lang=zh-Hant)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html)
 
    您可以在Dynamic Media Classic的檢視器預設集記錄中設定`stagesize`修飾元。 或者，您也可以使用`params`集合的檢視器初始化程式碼明確傳遞，或如本說明的Command Reference一節中所述，以API呼叫形式傳遞，如下所示：
 
@@ -210,7 +210,7 @@ target="_blank">Open popup viewer</a>
 
    組態資訊會以JSON物件的形式傳遞至建構函式。 此物件至少應有`containerId`欄位，其包含檢視器容器ID的名稱，以及巢狀`params` JSON物件，其中包含檢視器支援的設定引數。 在此情況下，`params`物件必須至少將影像伺服URL傳遞為`serverUrl`屬性，並將初始資產傳遞為`asset`引數。 JSON型初始化API可讓您使用一行程式碼來建立和啟動檢視器。
 
-   請務必將檢視器容器新增至DOM，讓檢視器程式碼可依其ID尋找容器元素。 有些瀏覽器會延遲建立DOM，直到網頁結尾為止。 為達到最大相容性，請在結尾的`BODY`標籤前面或內文`onload()`事件上呼叫`init()`方法。
+   請務必將檢視器容器新增至DOM，讓檢視器程式碼可依其ID尋找容器元素。 有些瀏覽器會延遲建立DOM，直到網頁結尾為止。 為達到最大相容性，請在結尾的`init()`標籤前面或內文`BODY`事件上呼叫`onload()`方法。
 
    同時，容器元素也不一定屬於網頁版面配置的一部分。 例如，可以使用指派給它的`display:none`樣式來隱藏它。 在此情況下，檢視器會延遲其初始化程式，直到網頁將容器元素帶回版面配置為止。 當此動作發生時，檢視器載入會自動繼續。
 

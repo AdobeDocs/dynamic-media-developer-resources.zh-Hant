@@ -1,5 +1,5 @@
 ---
-description: 影像集資料。 提供可定義Dynamic Media檢視器使用的已排序影像集和控制屬性集的機制。
+description: 影像集資料。 提供定義Dynamic Media檢視器使用的已排序影像集和控制屬性集的機制。
 solution: Experience Manager
 title: ImageSet
 feature: Dynamic Media Classic,SDK/API,Image Sets
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # ImageSet{#imageset}
 
-影像集資料。 提供可定義Dynamic Media檢視器使用的已排序影像集和控制屬性集的機制。
+影像集資料。 提供定義Dynamic Media檢視器使用的已排序影像集和控制屬性集的機制。
 
 影像集包含以逗號分隔的已排序專案清單。 每個專案都包含一或多個子專案（影像ID、色票ID、媒體檔案路徑、標籤等），並以分號或冒號分隔，或同時包含兩者。
 
@@ -52,7 +52,7 @@ ht-degree: 1%
 | `*`imageId`*` | IS影像參考（目錄/ID） |
 | `*`色票識別碼`*` | IS影像參考（目錄/ID） |
 | `*`solidColorSpecificer`*` | ` '{0x' *`rrggbb`* [ *`標籤`*]'}'` |
-| `*`rrggbb`*` | 純色色票的包裝6位數十六進位RGB色彩值 |
+| `*`rrggbb`*` | 純色色票的6位數十六進位RGB色彩值 |
 | `*`標籤`*` | 純色色票的可選文字標籤 |
 
 **階層式色票集**
@@ -117,7 +117,7 @@ ht-degree: 1%
 
 文字字串。 以逗號分隔的`catalog::Id`值清單、絕對影像伺服器檔案路徑，或相對於`attribute::RootPath`的檔案路徑。 同一個影像在集中可能會被參考多次。 定義目錄記錄可出現在集合的任何位置。
 
-此欄位參與文字字串本地化。 除了&#x200B;*`label`*&#x200B;字串（*`solidColorSpecifier`*&#x200B;的一部分）之外，如果分隔欄位至少包含一個&#39; `^loc=…^`&#39;本地化Token，則所有欄位都會本地化。 如需詳細資訊，請參閱&#x200B;*HTTP通訊協定參考*&#x200B;中的[文字字串本地化](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)。
+此欄位參與文字字串本地化。 除了&#x200B;*`label`*&#x200B;字串（*`solidColorSpecifier`*&#x200B;的一部分）之外，如果分隔欄位至少包含一個&#39; `^loc=…^`&#39;本地化Token，則所有欄位都會本地化。 如需詳細資訊，請參閱[HTTP通訊協定參考](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)中的&#x200B;*文字字串本地化*。
 
 ## 預設 {#section-c3a60e360393478284f0f2d2da5b963b}
 

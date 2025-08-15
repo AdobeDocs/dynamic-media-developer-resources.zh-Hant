@@ -75,7 +75,7 @@ ht-degree: 5%
   <tr valign="top"> 
    <td> <p> <span class="codeph"> image.pixTyp </span> </p> </td> 
    <td> <p> 字串 </p> </td> 
-   <td> <p> 回覆影像型別，可能是<span class="codeph"> CMYK </span>、<span class="codeph">RGB</span>或<span class="codeph"> BW </span> （適用於灰階影像）。 </p> </td> 
+   <td> <p> 回覆影像型別，可能是<span class="codeph"> CMYK </span>、<span class="codeph"> RGB </span>或<span class="codeph"> BW </span> （適用於灰階影像）。 </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> image.pathEmbed </span> </p> </td> 

@@ -45,7 +45,7 @@ ht-degree: 2%
 
 兩個圖層的原點都會設定為左上角，以達成所要的對齊。 圖層1的原點會在旋轉後套用至`labelImage`。
 
-如需旋轉文字的範例，請參閱[範本](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e)中的[範例A](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/r-example-a.md#reference-c78ea82e8a1646738e764fa6685dfbac)。
+如需旋轉文字的範例，請參閱[範本](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/r-example-a.md#reference-c78ea82e8a1646738e764fa6685dfbac)中的[範例A](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e)。
 
 ## 另請參閱 {#section-c371ee0845994b7382c02e782d1bc595}
 

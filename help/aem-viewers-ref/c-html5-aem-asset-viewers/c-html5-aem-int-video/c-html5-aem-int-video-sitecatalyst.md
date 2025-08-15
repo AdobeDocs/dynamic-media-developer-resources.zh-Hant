@@ -1,6 +1,6 @@
 ---
 title: 支援Adobe Analytics追蹤
-description: HTML5 Video360檢視器可支援Adobe Analytics追蹤功能。
+description: HTML5 Video360 Viewer支援Adobe Analytics立即可用的追蹤功能。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User,Data Engineer,Data Architect
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 支援Adobe Analytics追蹤{#support-for-adobe-analytics-tracking}
 
-HTML5 Video360檢視器可支援Adobe Analytics追蹤功能。
+HTML5 Video360 Viewer支援Adobe Analytics立即可用的追蹤功能。
 
 若要啟用追蹤，請將適當的公司預設集名稱傳遞為`config2`引數。
 

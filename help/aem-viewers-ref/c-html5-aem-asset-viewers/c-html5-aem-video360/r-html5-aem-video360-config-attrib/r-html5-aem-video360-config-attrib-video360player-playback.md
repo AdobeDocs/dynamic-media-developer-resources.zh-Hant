@@ -22,7 +22,7 @@ Video360 Viewer的設定屬性。
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">自動|漸進式</span> </p> </td> 
-   <td colname="col2"> <p> 設定檢視器使用的播放型別。 </p> <p>設定<span class="codeph"> auto</span>時，在大部分的案頭瀏覽器和所有iOS裝置上，檢視器會使用HLS格式的HTML5串流視訊。 而且，它會退回某些系統(例如舊版Internet Explorer和Android™)上的漸進式HTML5播放。 </p> <p>設定<span class="codeph"> progressive</span>時，檢視器僅依賴瀏覽器原生支援的HTML5播放，並在所有系統上以漸進方式播放視訊。 </p> <p>如需有關<span class="codeph">自動</span>和<span class="codeph">漸進式</span>原生模式中播放選擇的詳細資訊，請參閱HTML5檢視器SDK使用手冊。 </p> </td> 
+   <td colname="col2"> <p> 設定檢視器使用的播放型別。 </p> <p>設定<span class="codeph"> auto</span>時，在大部分的案頭瀏覽器和所有iOS裝置上，檢視器會使用HLS格式的HTML5串流視訊。 此外，它也會退回某些系統(例如舊版Internet Explorer和Android™)上的漸進式HTML5播放。 </p> <p>設定<span class="codeph"> progressive</span>時，檢視器僅依賴瀏覽器原生支援的HTML5播放，並在所有系統上以漸進方式播放視訊。 </p> <p>如需有關<span class="codeph">自動</span>和<span class="codeph">漸進式</span>原生模式中播放選擇的詳細資訊，請參閱HTML5 Viewers SDK使用手冊。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -42,4 +42,4 @@ ht-degree: 11%
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| contextArray | `types:StringArray` | 是 | 作用中發佈內容的陣列，其中可能包括Publish Context的零個或多個值。 |
+| contextArray | `types:StringArray` | 是 | 作用中發佈內容的陣列，其中可能包括來自發佈內容的零個或多個值。 |

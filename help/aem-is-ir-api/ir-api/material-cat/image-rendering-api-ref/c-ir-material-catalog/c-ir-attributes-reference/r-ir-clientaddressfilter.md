@@ -16,7 +16,7 @@ ht-degree: 2%
 
 使用者端IP位址篩選器。 允許指定一個或多個IP位址或位址範圍。
 
-指定後，系統會拒絕從未列出的IP位址之使用者端對此影像目錄提出的要求。 `localhost`一律為`ClientAddressFilter`定義的隱含部分，即使未明確指定。 不論`ClientAddressFilter`的規格為何，來自`localhost`的請求都不會被拒絕。
+指定後，系統會拒絕從未列出的IP位址之使用者端對此影像目錄提出的要求。 `localhost`一律為`ClientAddressFilter`定義的隱含部分，即使未明確指定。 不論`localhost`的規格為何，來自`ClientAddressFilter`的請求都不會被拒絕。
 
 ## 屬性 {#section-21a2992f108d42fb8660c0d65aa61e13}
 
@@ -24,7 +24,7 @@ ht-degree: 2%
 
 ` *[!DNL ipAddress]*[/ *[!DNL netmask]*]&#42;[, *[!DNL ipAddress]*[/ *[!DNL netmask]*]]`
 
-* *[!DNL ddd.ddd.ddd.ddd]*&#x200B;格式的&#x200B;*[!DNL ipAddress]* IP位址
+* *[!DNL ipAddress]*&#x200B;格式的&#x200B;*[!DNL ddd.ddd.ddd.ddd]* IP位址
 
 * *[!DNL netmask]*&#x200B;網路遮罩（0到32）
 

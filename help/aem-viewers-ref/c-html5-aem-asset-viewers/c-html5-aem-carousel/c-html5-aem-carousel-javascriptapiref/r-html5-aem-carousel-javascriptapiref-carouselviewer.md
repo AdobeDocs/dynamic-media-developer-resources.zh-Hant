@@ -18,7 +18,7 @@ ht-degree: 3%
 
 `CarouselViewer([config])`
 
-建構函式，建立HTML5轉盤檢視器例項。
+建構函式，建立HTML 5轉盤檢視器例項。
 
 ## 參數 {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 

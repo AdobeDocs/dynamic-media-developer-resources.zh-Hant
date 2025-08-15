@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 0c9a489c-36e0-4934-b9c5-33414a9ce0b8
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1210'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## 預設色彩空間 {#section-8cfe60808bce49968091995e4e521dba}
 
-每個影像目錄（和預設目錄）可以定義一組ICC設定檔，這些設定檔構成此目錄的預設色彩空間 — 灰階、RGB和CMYK資料各有一個輸入和一個輸出設定檔。 另請參閱
+每個影像目錄（和預設目錄）可以定義一組ICC設定檔，這些設定檔構成此目錄的預設色域 — 灰階、RGB和CMYK資料各有一個輸入和一個輸出設定檔。 另請參閱
 [attribute：：IccProfileRgb](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilergb.md)
 [attribute：：IccProfileGray](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilegray.md)
 [attribute：：IccProfileCmyk](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilecmyk.md)
@@ -54,7 +54,7 @@ Source影像可內嵌ICC設定檔以定義輸入色域。 如果來源影像中�
 
 >[!NOTE]
 >
->命令`op_brightness=`、`op_colorbalance=`、`op_colorize=`、`op_contrast=`、`op_hue=`和`op_saturation=`是RGB作業。 只有在圖層色域具有RGB畫素型別時，這些作業才會維持色彩逼真度。 如果除了RGB之外，資料會使用原始色彩轉換轉換為RGB，而結果會具有有限的色彩逼真度。 這些圖層的圖層色域應視為不確定。
+>命令`op_brightness=`、`op_colorbalance=`、`op_colorize=`、`op_contrast=`、`op_hue=`和`op_saturation=`是RGB作業。 只有在圖層色域具有RGB畫素型別時，這些作業才會維持色彩逼真度。 如果除了RGB之外，資料也透過天真的色彩轉換轉換轉換成RGB，而結果色彩保真度有限。 這些圖層的圖層色域應視為不確定。
 
 色彩轉換選項是與`icc=`一起提供，如果未指定`icc=`，則與`attribute::IccRenderIntent`、`attribute::IccBlackPointCompensation`和`attribute::IccDither`一起提供。
 
@@ -76,30 +76,30 @@ Source影像可內嵌ICC設定檔以定義輸入色域。 如果來源影像中�
 
 ## 包含的ICC色彩設定檔 {#section-98b4a7d9f9814e8ba27d6dcf3dcf850c}
 
-「影像伺服」包含預設影像目錄中的大部分標準AdobeICC設定檔。 這些設定檔可透過其通用名稱(例如，如Photoshop中所見)或較短的識別碼來存取。 下表列出所有標準ICC設定檔。 以設定檔的通用名稱參照`icc=`命令中的設定檔時，必須將空格編碼為`%20`。
+「影像伺服」包含預設影像目錄中的大部分標準Adobe ICC設定檔。 這些設定檔可透過其通用名稱(例如，如Photoshop中所見)或較短的識別碼來存取。 下表列出所有標準ICC設定檔。 以設定檔的通用名稱參照`icc=`命令中的設定檔時，必須將空格編碼為`%20`。
 
 可以將其他設定檔新增至標準設定檔，即預設目錄或特定影像目錄。 如需詳細資訊，請參閱[ICC設定檔對應參考](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/c-icc-profile-map-reference.md#concept-57b9148ce55249cd825cb7ee19ed057c)。
 
 >[!NOTE]
 >
->下表僅適用於&#x200B;*Dynamic Media混合式* （在`dynamicmedia`執行模式下執行）。
+>下表僅適用於&#x200B;*Dynamic Media Hybrid* （在`dynamicmedia`執行模式中執行）。
 
 | 識別碼 | 一般名稱 | 檔案名稱 |
 |-- |-- |-- |
 | **RGB** |  |  |
 | `AdobeRGB` | Adobe RGB (1998) | AdobeRGB1998.icc |
-| `AppleRGB` | AppleRGB | AppleRGB.icc |
-| `CIERGB` | CIERGB | CIERGB.icc |
-| `ColorMatchRGB` | ColorMatchRGB | ColorMatchRGB.icc |
+| `AppleRGB` | Apple RGB | AppleRGB.icc |
+| `CIERGB` | CIE RGB | CIERGB.icc |
+| `ColorMatchRGB` | ColorMatch RGB | ColorMatchRGB.icc |
 | `NTSC` | NTSC (1953) | NTSC1953.icc |
 | `PAL` | PAL/SECAM | pal_SECAM.icc |
-| `ProPhoto` | ProPhotoRGB | ProPhoto.icm |
+| `ProPhoto` | ProPhoto RGB | ProPhoto.icm |
 | `SMPTE` | SMPTE-C | SMPTE-C.icc |
 | `sRGB` | sRGB IEC61966-2.1 | sRgb色域Profile.icm |
 | `WideGamutRGB` | 寬色域RGB | WideGamutRGB.icc |
 | **CMYK** |  |  |
-| `CoatedFogra27` | Coated FOGRA27 (ISO 12647-2:2004) | CoatedFOGRA27.icc |
-| `CoatedFogra39` | Coated FOGRA39 (ISO 12647-2:2004) | CoatedFOGRA39.icc |
+| `CoatedFogra27` | 塗層的FOGRA27 (ISO 12647-2:2004) | CoatedFOGRA27.icc |
+| `CoatedFogra39` | 塗層的FOGRA39 (ISO 12647-2:2004) | CoatedFOGRA39.icc |
 | `CoatedGraCol` | Coated GRACoL 2006 (ISO 12647-2:2004) | CoatedGRACoL2006.icc |
 | `EuropeISOCoated` | 歐洲ISO銅版FOGRA27 | EuropeISOCoatedFOGRA27.icc |
 | `EuroscaleCoated` | Euroscale Coated | EuroscaleCoated.icc |
@@ -114,31 +114,31 @@ Source影像可內嵌ICC設定檔以定義輸入色域。 如果來源影像中�
 | `PS5Default` | Photoshop 5預設CMYK | Photoshop5DefaultCMYK.icc |
 | `SheetfedCoated` | U.S. Sheetfed Coated v2 | USSheetfedCoated.icc |
 | `SheetfedUncoated` | U.S. Sheetfed Uncoated v2 | USSheetfedUncoated.icc |
-| `UncoatedFogra29` | 無塗層的FOGRA29 (ISO 12647-2:2004) | UncoatedFOGRA29.icc |
+| `UncoatedFogra29` | 未塗層的FOGRA29 (ISO 12647-2:2004) | UncoatedFOGRA29.icc |
 | `WebCoated` | U.S. Web Coated (SWOP) v2 | USWebCoatedSWOP.icc |
-| `WebCoatedFogra28` | Web Coated FOGRA28 (ISO 12647-2:2004) | WebCoatedFOGRA28.icc |
+| `WebCoatedFogra28` | 網頁塗層的FOGRA28 (ISO 12647-2:2004) | WebCoatedFOGRA28.icc |
 | `WebCoatedGrade3` | Web Coated SWOP 2006 Grade 3紙 | WebCoatedSWOP2006Grade3.icc |
 | `WebCoatedGrade5` | Web Coated SWOP 2006 Grade 5紙張 | WebCoatedSWOP2006Grade5.icc |
 | `WebUncoated` | U.S. Web Uncoated v2 | USWebUncoated.icc |
 
-下表適用於&#x200B;*Dynamic Media Classic影像伺服*&#x200B;和&#x200B;*Dynamic Media* （在`dynamicmedia_scene7`執行模式中執行）。
+下表適用於&#x200B;*Dynamic Media Classic影像伺服*&#x200B;和&#x200B;*Dynamic Media* （在`dynamicmedia_scene7`執行模式下執行）。
 
 | 識別碼 | 一般名稱 | 檔案名稱 |
 |-- |-- |-- |
 | **RGB** |  |  |
 | `AdobeRGB` | Adobe RGB (1998) | AdobeRGB1998.icc |
-| `AppleRGB` | AppleRGB | AppleRGB.icc |
+| `AppleRGB` | Apple RGB | AppleRGB.icc |
 | `CIERGB|CIE RGB` | CIERGB.icc |
-| `ColorMatchRGB` | ColorMatchRGB | ColorMatchRGB.icc |
+| `ColorMatchRGB` | ColorMatch RGB | ColorMatchRGB.icc |
 | `NTSC` | NTSC (1953) | NTSC1953.icc |
 | `PAL` | PAL/SECAM | pal_SECAM.icc |
-| `ProPhoto RGB` | ProPhotoRGB | ProPhotoRGB.icm |
+| `ProPhoto RGB` | ProPhoto RGB | ProPhoto RGB.icm |
 | `SMPTE` | SMPTE-C | SMPTE-C.icc |
 | `sRGB` | sRGB IEC61966-2.1 | sRgb色域Profile.icm |
 | `WideGamutRGB` | 寬色域RGB | WideGamutRGB.icc |
 | **CMYK** |  |  |
-| `CoatedFogra27` | Coated FOGRA27 (ISO 12647-2:2004) | CoatedFOGRA27.icc |
-| `CoatedFogra39` | Coated FOGRA39 (ISO 12647-2:2004) | CoatedFOGRA39.icc |
+| `CoatedFogra27` | 塗層的FOGRA27 (ISO 12647-2:2004) | CoatedFOGRA27.icc |
+| `CoatedFogra39` | 塗層的FOGRA39 (ISO 12647-2:2004) | CoatedFOGRA39.icc |
 | `Coated GRACoL 2006 (ISO 12647-2:2004)` | Coated GRACoL 2006 (ISO 12647-2:2004) | CoatedGRACoL2006.icc |
 | `EuropeISOCoated` | 歐洲ISO銅版FOGRA27 | EuropeISOCoatedFOGRA27.icc |
 | `Euroscale Coated v2` | Euroscale Coated v2 | EuroscaleCoated.icc |
@@ -152,14 +152,14 @@ Source影像可內嵌ICC設定檔以定義輸入色域。 如果來源影像中�
 | `PS5Default` | Photoshop 5預設CMYK | Photoshop5DefaultCMYK.icc |
 | `SheetfedCoated` | U.S. Sheetfed Coated v2 | USSheetfedCoated.icc |
 | `SheetfedUncoated` | U.S. Sheetfed Uncoated v2 | USSheetfedUncoated.icc |
-| `UncoatedFogra29` | 無塗層的FOGRA29 (ISO 12647-2:2004) | UncoatedFOGRA29.icc |
+| `UncoatedFogra29` | 未塗層的FOGRA29 (ISO 12647-2:2004) | UncoatedFOGRA29.icc |
 | `US Newsprint (SNAP 2007)` | 美國新聞紙(SNAP 2007) | USNewsprintSNAP2007.icc |
 | `WebCoated` | U.S. Web Coated (SWOP) v2 | USWebCoatedSWOP.icc |
-| `WebCoatedFogra28` | Web Coated FOGRA28 (ISO 12647-2:2004) | WebCoatedFOGRA28.icc |
+| `WebCoatedFogra28` | 網頁塗層的FOGRA28 (ISO 12647-2:2004) | WebCoatedFOGRA28.icc |
 | `Web Coated SWOP 2006 Grade 3 Paper` | Web Coated SWOP 2006 Grade 3紙 | WebCoatedSWOP2006Grade3.icc |
 | `Web Coated SWOP Grade 5 Paper` | Web Coated SWOP 2006 Grade 5紙張 | WebCoatedSWOP2006Grade5.icc |
 | `WebUncoated` | U.S. Web Uncoated v2 | USWebUncoated.icc |
 
 ## 另請參閱 {#section-39159397e80b4efca5f631eab8b9aa06}
 
-[國際色彩協會](https://www.color.org/index.xalter)，[icc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-icc.md#reference-182b5679e21e4df3b4d330535a5a7517)，[iccEmbed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e)，[attribute：：IccProfile](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilecmyk.md#reference-db89f9dac33e447cadb359ec1ba27ee0)&#42;，[attribute：：IccProfileSrc](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilesrcgray.md#reference-a717831da24d43f680d01393660f12f9)&#42;，[attribute：：IccRenderIntent](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccrenderintent.md#reference-012f207f28bd4406a5368d23ed95a51f)，[attribute：：IccBlackPointCompensation](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccblackpointcompensation.md#reference-357626375ee140d1807f0c05171c733f)，[attribute：：IccDither](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccdither.md#reference-914d0d0567364246b4016d45c0ada85b)，[&#128279;](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/c-icc-profile-map-reference.md#concept-57b9148ce55249cd825cb7ee19ed057c)ICC設定檔對應圖參考7&rbrace;，[COLOR=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md)，[BGC=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88)，[*`color`*](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md)
+[國際色彩協會](https://www.color.org/index.xalter)，[icc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-icc.md#reference-182b5679e21e4df3b4d330535a5a7517)，[iccEmbed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e)，[attribute：：IccProfile](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilecmyk.md#reference-db89f9dac33e447cadb359ec1ba27ee0)&#42;，[attribute：：IccProfileSrc](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilesrcgray.md#reference-a717831da24d43f680d01393660f12f9)&#42;，[attribute：：IccRenderIntent](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccrenderintent.md#reference-012f207f28bd4406a5368d23ed95a51f)，[attribute：：IccBlackPointCompensation](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccblackpointcompensation.md#reference-357626375ee140d1807f0c05171c733f)，[attribute：：IccDither](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccdither.md#reference-914d0d0567364246b4016d45c0ada85b)，[ICCProFILE個人資料對應引用](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/c-icc-profile-map-reference.md#concept-57b9148ce55249cd825cb7ee19ed057c)，[顏色=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md)，[BGC=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88)，[*`color`*](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md)

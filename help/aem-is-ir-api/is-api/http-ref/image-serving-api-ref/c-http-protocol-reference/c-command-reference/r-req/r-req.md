@@ -39,7 +39,7 @@ ht-degree: 10%
 * [xlate](r-xlate.md)
 * [xmp](r-xmp.md)
 
-除非在詳細描述中另有說明，否則伺服器會傳回MIME型別為`text/plain`的`text`個回應。 許多要求型別可讓您指定回應型別，例如`text`，通常是預設值、`javascript`、`xml`或`json`。 關聯的回應MIME型別分別為`text/plain`、`text/javascript`、`text/xml`和`text/javascript`。
+除非在詳細描述中另有說明，否則伺服器會傳回MIME型別為`text`的`text/plain`個回應。 許多要求型別可讓您指定回應型別，例如`text`，通常是預設值、`javascript`、`xml`或`json`。 關聯的回應MIME型別分別為`text/plain`、`text/javascript`、`text/xml`和`text/javascript`。
 
 除非另有註明，否則回應會將回應格式化為一組`name=value`配對。
 

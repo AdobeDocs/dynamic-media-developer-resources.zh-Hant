@@ -1,5 +1,5 @@
 ---
-description: SVG資料檔案路徑。 指定包含此目錄SVG資料的檔案。
+description: SVG資料檔案路徑。 為此目錄指定包含SVG資料的檔案。
 solution: Experience Manager
 title: svgcatalogfile
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # svgcatalogfile{#svgcatalogfile}
 
-SVG資料檔案路徑。 指定包含此目錄SVG資料的檔案。
+SVG資料檔案路徑。 為此目錄指定包含SVG資料的檔案。
 
 SVG資料檔案會依指定的確切順序載入到所有影像資料檔案之後。 如果相同的`catalog::Id`值出現在多個記錄中(在相同或不同的影像或SVG目錄檔案中)，則最後一個執行個體會優先。
 

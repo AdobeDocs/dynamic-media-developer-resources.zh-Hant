@@ -1,6 +1,6 @@
 ---
 title: HTTP通訊協定語法和功能
-description: 本節說明Dynamic Media影像演算的HTTP通訊協定語法和功能。
+description: 本節說明Dynamic Media影像轉譯的HTTP通訊協定語法和功能。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # HTTP通訊協定語法和功能{#http-protocol-syntax-and-features}
 
-本節說明Dynamic Media影像演算的HTTP通訊協定語法和功能。
+本節說明Dynamic Media影像轉譯的HTTP通訊協定語法和功能。
 
 * [影像演算HTTP通訊協定基本語法](r-ir-basic-syntax.md)
 * [影像演算HTTP通訊協定命令概覽](c-ir-command-overview/c-ir-command-overview.md)

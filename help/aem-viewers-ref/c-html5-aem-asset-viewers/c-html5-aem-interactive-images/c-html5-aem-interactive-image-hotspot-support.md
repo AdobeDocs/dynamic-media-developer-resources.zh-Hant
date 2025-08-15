@@ -26,4 +26,4 @@ ht-degree: 0%
 
 ## 重新導向至外部網頁 {#section-ef820c71251e4215800bb99c0c9ebe16}
 
-在Experience Manager Assets的Dynamic Media中為動作型別「快速檢視」製作的熱點 — 隨選將使用者重新導向至外部URL。 根據編寫期間所做的設定，URL會在新的瀏覽器標籤中、同一視窗中或在指定的瀏覽器視窗中開啟。
+為Experience Manager Assets的Dynamic Media中的動作型別「快速檢視」製作的熱點 — 隨選將使用者重新導向至外部URL。 根據編寫期間所做的設定，URL會在新的瀏覽器標籤中、同一視窗中或在指定的瀏覽器視窗中開啟。

@@ -254,11 +254,11 @@ defaultLocale:"en"
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FacebookShare.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>facebook共用按鈕的工具提示。 </p> </td> 
+   <td colname="col2"> <p>Facebook分享按鈕的工具提示。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> TwitterShare.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>twitter共用按鈕的工具提示。 </p> </td> 
+   <td colname="col2"> <p>Twitter共用按鈕的工具提示。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SmartCropVideoPlayer.ERROR </span> </p> </td> 

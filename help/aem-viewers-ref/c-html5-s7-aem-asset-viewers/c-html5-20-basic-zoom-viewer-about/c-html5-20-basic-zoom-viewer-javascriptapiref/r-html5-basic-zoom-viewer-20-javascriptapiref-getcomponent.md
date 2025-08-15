@@ -22,7 +22,7 @@ ht-degree: 1%
 
 ## 參數 {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-`*`componentID`*` - `{String}`檢視器所使用的檢視器SDK元件識別碼。 此檢視器支援下列元件ID：
+`*`componentID`*` - `{String}`檢視器使用的檢視器SDK元件識別碼。 此檢視器支援下列元件ID：
 
 <table id="table_7B5DD9303EF44ADD847B13FFEAD135D9"> 
  <thead> 
@@ -71,13 +71,13 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-使用SDK API時，請務必使用正確、完整限定的SDK名稱空間，如檢視器SDK名稱空間所述
+使用SDK API時，請務必使用正確、完整限定的SDK名稱空間，如Viewer SDK名稱空間所述
 
 如需特定元件的詳細資訊，請參閱檢視器SDK API檔案。
 
 ## 傳回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}`是檢視器SDK元件的參考。 如果`componentId`不是支援的檢視器元件，或檢視器邏輯尚未建立元件，則方法會傳回`null`。
+`{Object}`是檢視器SDK元件的參考。 如果`null`不是支援的檢視器元件，或檢視器邏輯尚未建立元件，則方法會傳回`componentId`。
 
 ## 範例 {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

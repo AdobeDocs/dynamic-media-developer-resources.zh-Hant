@@ -16,4 +16,4 @@ ht-degree: 0%
 
 材料目錄資料夾（所有catalog.ini檔案都必須位於其中）的位置。
 
-可以是絕對路徑或相對於[!DNL *[!DNL install_folder]*]的路徑。 預設值為[!DNL ./catalog]，對應至[!DNL *[!DNL install_folder]*/catalog]。
+可以是絕對路徑或相對於[！DNL *[!DNL install_folder]*]的路徑。 預設值為[!DNL ./catalog]，對應至[！DNL *[!DNL install_folder]*/catalog]。

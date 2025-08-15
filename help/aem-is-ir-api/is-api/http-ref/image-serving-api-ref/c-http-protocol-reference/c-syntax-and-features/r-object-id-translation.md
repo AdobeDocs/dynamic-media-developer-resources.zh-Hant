@@ -26,7 +26,7 @@ ht-degree: 2%
 
 ## 範圍 {#section-66fcd5bd467c4eeaa1574583cbe9756d}
 
-對影像、SVG和靜態內容目錄中的專案的所有參照都會被視為翻譯字型，而ICC設定檔參照則不會翻譯。 除了[!DNL /is/image]和[!DNL /is/static requests]路徑中的&#x200B;*`object`*&#x200B;之外，這些命令和目錄屬性還須接受ID轉譯： `src=`、`mask=`、`template=`、`defaultImage=`、`attribute::DefaultImage`和`attribute::Watermark`。
+對影像、SVG和靜態內容目錄中的專案的所有參照都會被視為翻譯字型，而ICC設定檔參照則不會翻譯。 除了&#x200B;*`object`*&#x200B;和[!DNL /is/image]路徑中的[!DNL /is/static requests]之外，這些命令和目錄屬性還須接受ID轉譯： `src=`、`mask=`、`template=`、`defaultImage=`、`attribute::DefaultImage`和`attribute::Watermark`。
 
 ## ID轉譯對應 {#section-9e417b352c314dfe94e831fdd62cddc8}
 
@@ -114,7 +114,7 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td> <p> </span>的<span class="codeph"> </p> </td> 
+   <td> <p> <span class="codeph">的</span> </p> </td> 
    <td> <p> <span class="codeph"> myImg_22， myImg_23， myImg_1， myImg_2， myImg_3 </span> </p> </td> 
   </tr> 
   <tr> 

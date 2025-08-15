@@ -22,8 +22,8 @@ ht-degree: 10%
 * `IpsImageServerUrl`： IPS影像伺服器的完整外部URL首碼。
 * `VideoRootUrl`
 * `swfRootUrl`
-* `SvgRenderRootUrl`：呈現SVG資產的URL首碼。
-* `SvgRenderEnabled`：如果SVG資產可由`SvgRenderRootUrl`轉譯，則為True。
+* `SvgRenderRootUrl`：轉譯SVG資產的URL首碼。
+* `SvgRenderEnabled`：如果`SvgRenderRootUrl`可以轉譯SVG資產，則為True。
 
 * `UploadPostMaxFileSize`：上傳[!DNL POST]中允許的檔案資料大小上限（位元組）。 系統會拒絕大於最大限制的檔案。
 

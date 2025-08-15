@@ -1,5 +1,5 @@
 ---
-description: 這些在Beta版WSDL中提供的全新或修改作業和資料型別，不得在Dynamic Media開發的應用程式之外使用。
+description: 這些在Beta版WSDL中提供的全新或修改作業與資料型別，不得在Dynamic Media開發的應用程式之外使用。
 solution: Experience Manager
 title: 限制使用
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 限制使用{#restricted-use}
 
-這些在Beta版WSDL中提供的全新或修改作業和資料型別，不得在Dynamic Media開發的應用程式之外使用。
+這些在Beta版WSDL中提供的全新或修改作業與資料型別，不得在Dynamic Media開發的應用程式之外使用。
 
 這些作業和型別可能會因後續的系統更新而停用、變更或淘汰。
 

@@ -38,7 +38,7 @@ ht-degree: 1%
      <ul id="ul_8A5F409E32E94063AE8D3AB158A0E13D"> 
       <li id="li_1311D5DDD4454FBC9116BA8E2CB003B1"> <p> <span class="codeph">物件ID {String} </span> — 目前未使用。 </p> </li> 
       <li id="li_C2ABD13097FA40A7B9801C0B7592FB59"> <p> <span class="codeph"> compClass {String} </span> — 目前未使用。 </p> </li> 
-      <li id="li_3BE8001365714C3FAC32C9B2CFFD5DCE"> <p> <span class="codeph"> instName {String} </span> — 觸發事件的Viewer SDK元件執行個體名稱。 </p> </li> 
+      <li id="li_3BE8001365714C3FAC32C9B2CFFD5DCE"> <p> <span class="codeph"> instName {String} </span> — 觸發事件的檢視器SDK元件的執行個體名稱。 </p> </li> 
       <li id="li_755DDE84B1CC4B4D8A3FA0C774CBA666"> <p> <span class="codeph">時間戳記{Number} </span> — 事件時間戳記。 </p> </li> 
       <li id="li_05A1C45826AC4D1192CB72FE07EE4C29"> <p> <span class="codeph"> eventInfo {String} </span> — 事件承載。 </p> </li> 
      </ul> </p> </td> 

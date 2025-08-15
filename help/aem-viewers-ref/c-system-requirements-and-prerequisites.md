@@ -25,7 +25,7 @@ Dynamic Media HTML5檢視器的系統需求。
 
 <!-- Updated March 03, 2022 Contact is now Deepa Gupta -->
 
-* AdobeDynamic Media Image Serving 6.7.1或更新版本。
+* Adobe Dynamic Media Image Serving 6.7.1或更新版本。
 * HTML5檢視器需要SDK JavaScript伺服器端程式庫3.11.5或更新版本。
 * *傳送電子郵件給朋友*&#x200B;社交功能需要s7ondemand 5.0.9或更新版本。
 * eCatalog檢視器 — [資訊面板快顯視窗](/help/aem-viewers-ref/c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-infopanelpopup.md)支援需要資訊伺服器2.1.8或更新版本。
@@ -78,7 +78,7 @@ Dynamic Media HTML5檢視器的系統需求。
 
 <!-- CQDOC-19433 -->
 
-自2022年9月30日起，Adobe Dynamic Media Viewers已停止支援下列專案：
+自2022年9月30日起，Adobe Dynamic Media檢視器已停止支援下列專案：
 
 * TLS （傳輸層安全性） 1.0和1.1
 * TLS 1.2中的下列弱加密：

@@ -57,7 +57,7 @@ CMYK輸出裝置設定檔較有可能支援不同的演算意圖。
 
 ## 預設 {#section-bbd3206fdcac4dc48a08fc9eba14fc90}
 
-如果已啟用色彩管理且未指定`icc=`，則伺服器會將轉換的影像傳送至與`fmt=`所指定之影像型別相符的輸出設定檔( `attribute::IccProfile*`)。
+如果已啟用色彩管理且未指定`icc=`，則伺服器會將轉換的影像傳送至與`attribute::IccProfile*`所指定之影像型別相符的輸出設定檔( `fmt=`)。
 
 如果未指定，*`renderIntent`*&#x200B;繼承自`attribute::IccRenderIntent`，而&#x200B;*`blackpointComp`*&#x200B;繼承自`attribute::IccBlackPointCompensation`。
 

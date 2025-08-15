@@ -1,6 +1,6 @@
 ---
 title: 在Windows上啟動或停止
-description: Windows上有數個機制可啟動或停止影像伺服器和 [!DNL Platform Server]
+description: 'Windows上有數個機制可啟動或停止影像伺服器和 [!DNL Platform Server] '
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User

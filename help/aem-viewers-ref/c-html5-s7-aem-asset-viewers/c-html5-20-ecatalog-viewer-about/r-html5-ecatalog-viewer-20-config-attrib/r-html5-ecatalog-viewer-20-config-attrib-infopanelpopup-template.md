@@ -20,23 +20,23 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname">範本</span></span> </p> </td> 
-   <td> <p>自資訊伺服器傳回的資料所要合併到的內容範本。 </p> <p>內容範本是此DTD之後的XML： </p> <p> <code>&lt;!DOCTYPE&nbsp;info&nbsp;&lbrack;
+   <td> <p>自資訊伺服器傳回的資料所要合併到的內容範本。 </p> <p>內容範本是此DTD之後的XML： </p> <p> <code>&lt;!DOCTYPE&nbsp;info&nbsp;[
       &lt;!ELEMENT&nbsp;info&nbsp;(var&nbsp;#PCDATA)
       &lt;!ELEMENT&nbsp;var&nbsp;(#PCDATA)&gt;
       &lt;!ATTLIST&nbsp;var&nbsp;
       name&nbsp;CDATA&nbsp;#REQUIRED
       rollover&nbsp;CDATA&nbsp;#IMPLIED&nbsp;&gt;
-      &rbrack;&gt;</code> </p> <p>內容範本的實際語法如下： </p> <p> <code>&lt;info&gt;
-      &lt;var&nbsp;name='VAR_NAME'&nbsp;rollover='ROLLOVER_KEY'&gt;&lt;!CDATA[&nbsp;VAR_VALUE&nbsp;]&rbrack;&gt;
+      ]&gt;</code> </p> <p>內容範本的實際語法如下： </p> <p> <code>&lt;info&gt;
+      &lt;var&nbsp;name='VAR_NAME'&nbsp;rollover='ROLLOVER_KEY'&gt;&lt;!CDATA[&nbsp;VAR_VALUE&nbsp;]]&gt;
       &lt;![CDATA[&nbsp;TEMPLATE_CONTENT&nbsp;]]&gt;
-      &lt;/info&gt;</code> </p> <p>也就是說，範本必須以<span class="codeph"> &lt;info&gt;</span>專案開頭，這些專案可能包含選用的預設<span class="codeph"> &lt;var&gt;</span>專案。 範本內容本身<span class="codeph"> TEMPLATE_CONTENT</span>是HTML文字。 此外，內容範本可能包含以<span class="codeph"> $</span>字元括住的變數名稱，這些變數名稱會由資訊伺服器傳回的變數值或預設值取代。 </p> <p>範本中定義的預設變數可以是全域（如果未設定滑鼠指向效果屬性），或是特定滑鼠指向效果索引鍵的特定變數（如果有滑鼠指向效果屬性）。 </p> <p>在範本處理期間，專用於滑鼠指向鍵的變數會優先於全域變數。 </p> </td> 
+      &lt;/info&gt;</code> </p> <p>也就是說，範本必須以<span class="codeph"> &lt;info&gt;</span>專案開頭，這些專案可能包含選用的預設<span class="codeph"> &lt;var&gt;</span>專案。 範本內容本身，<span class="codeph"> TEMPLATE_CONTENT</span>是HTML文字。 此外，內容範本可能包含以<span class="codeph"> $</span>字元括住的變數名稱，這些變數名稱會由資訊伺服器傳回的變數值或預設值取代。 </p> <p>範本中定義的預設變數可以是全域（如果未設定滑鼠指向效果屬性），或是特定滑鼠指向效果索引鍵的特定變數（如果有滑鼠指向效果屬性）。 </p> <p>在範本處理期間，專用於滑鼠指向鍵的變數會優先於全域變數。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->當您設定資訊面板快顯視窗時，傳遞給資訊面板的HTML代碼和JavaScript代碼會在使用者端電腦上執行。 因此，請確定此類HTML程式碼和JavaScript程式碼是安全的。
+>當您設定資訊面板快顯視窗時，傳遞至資訊面板的HTML程式碼和JavaScript程式碼會在使用者端電腦上執行。 因此，請確定這些HTML程式碼和JavaScript程式碼是安全的。
 
 ## 屬性 {#section-6dd7785357d740d095fa9f7fd0f67da4}
 

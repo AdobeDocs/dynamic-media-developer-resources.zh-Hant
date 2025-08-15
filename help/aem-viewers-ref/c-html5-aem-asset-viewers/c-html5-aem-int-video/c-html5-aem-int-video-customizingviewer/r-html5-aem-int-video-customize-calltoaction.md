@@ -1,6 +1,6 @@
 ---
 title: 操作調用
-description: 「呼叫動作」面板會在視訊結束時顯示，並顯示與特定視訊相關的所有互動色票。
+description: call to action面板會在視訊結束時顯示，並顯示與特定視訊相關聯的所有互動色票。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -14,36 +14,36 @@ ht-degree: 1%
 
 # 操作調用{#call-to-action}
 
-「呼叫動作」面板會在視訊結束時顯示，並顯示與特定視訊相關的所有互動色票。
+call to action面板會在視訊結束時顯示，並顯示與特定視訊相關聯的所有互動色票。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 該面板由顯示視訊標題的標題區域、右上角的重播按鈕以及顯示為可捲動格線的實際互動色票組成。 您可以使用[callToActionRecap](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-calltoactionrecap.md#reference-3720b68800684ddabf523e9d81644ce6)設定屬性來停用面板。
 
-動作呼叫面板一律會取用整個可用檢視器區域。
+call to action面板一律會取用整個可用的檢視器區域。
 
 <!--<a id="section_3A619BE925C04AFA87A6B7846C5C7E2B"></a>-->
 
-下列CSS類別選取器會控制動作呼叫面板中背景顏色的外觀：
+下列CSS類別選取器會控制call to action面板中背景顏色的外觀：
 
 ```
 .s7interactivevideoviewer .s7calltoaction
 ```
 
-## 行動號召面板背景顏色的CSS屬性 {#css-properties-of-the-background-color-of-the-call-to-action-panel}
+## call to action面板背景顏色的CSS屬性 {#css-properties-of-the-background-color-of-the-call-to-action-panel}
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">背景色彩</span> </p> </td> 
-   <td colname="col2"> <p> 行動號召面板的背景顏色。 </p> </td> 
+   <td colname="col2"> <p> call to action面板的背景顏色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 範例 {#example}
 
-若要設定具有深灰色背景的呼叫動作面板：
+若要設定具有深灰色背景的call to action面板：
 
 ```
 .s7interactivevideoviewer .s7calltoaction { 
@@ -53,13 +53,13 @@ ht-degree: 1%
 
 <!--<a id="section_AD18C770788B49989BEDAA608ECA804C"></a>-->
 
-下列CSS類別選取器會控制動作呼叫面板中標題的外觀：
+下列CSS類別選取器會控制call to action面板中標題的外觀：
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7header
 ```
 
-## 動作面板標頭呼叫的CSS屬性 {#css-properties-of-the-call-to-action-panel-header}
+## call to action面板標頭的CSS屬性 {#css-properties-of-the-call-to-action-panel-header}
 
 <table id="table_DAA1770AB3074845B5E1B700CD6FC18A"> 
  <tbody> 
@@ -92,13 +92,13 @@ ht-degree: 1%
 
 <!--<a id="section_B0333FC1A2CC4E089C68D34B839E5156"></a>-->
 
-下列CSS類別選取器會控制動作呼叫面板中標題標題的外觀：
+下列CSS類別選取器會控制call to action面板中標題的外觀：
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7header .s7title
 ```
 
-## 行動號召面板中標題標題的CSS屬性：  {#css-properties-of-the-header-title-in-the-call-to-action-panel}
+## call to action面板中標題標題的CSS屬性：  {#css-properties-of-the-header-title-in-the-call-to-action-panel}
 
 <table id="table_A5E36A5C4C664346B6DAE9A02B36C3D2"> 
  <tbody> 
@@ -148,13 +148,13 @@ ht-degree: 1%
 
 <!--<a id="section_D23A6D4BA0614286A060982B359E3C08"></a>-->
 
-下列CSS類別選取器會控制動作呼叫面板中關閉按鈕的外觀：
+下列CSS類別選取器會控制call to action面板中關閉按鈕的外觀：
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7closebutton
 ```
 
-## 動作呼叫面板中關閉按鈕的CSS屬性： {#css-properties-of-the-close-button-in-the-call-to-action-panel}
+## call to action面板中關閉按鈕的CSS屬性： {#css-properties-of-the-close-button-in-the-call-to-action-panel}
 
 <table id="table_CB0BCBE70DB447BC8D31034A96308924"> 
  <tbody> 
@@ -220,13 +220,13 @@ ht-degree: 1%
 
 <!--<a id="section_3975B58E78DE4E81B469372FB8A3A348"></a>-->
 
-下列CSS類別選取器會控制動作呼叫面板中縮圖格線檢視的外觀：
+下列CSS類別選取器會控制call to action面板中縮圖格線檢視的外觀：
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview
 ```
 
-## 行動號召面板中縮圖格線檢視的CSS屬性：  {#css-properties-of-the-thumbnail-grid-view-in-the-call-to-action-panel}
+## call to action面板中縮圖格線檢視的CSS屬性：  {#css-properties-of-the-thumbnail-grid-view-in-the-call-to-action-panel}
 
 <table id="table_A0DDD21C84944D48A639F51FCC8DF065"> 
  <tbody> 
@@ -249,13 +249,13 @@ ht-degree: 1%
 
 <!--<a id="section_D2E5AADFCE0345468DC0D2977E2765D2"></a>-->
 
-下列CSS類別選取器會控制動作呼叫面板中縮圖儲存格的外觀：
+下列CSS類別選取器會控制call to action面板中縮圖儲存格的外觀：
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumbcell
 ```
 
-## 行動號召面板中縮圖儲存格的CSS屬性： {#css-properties-of-the-thumbcell-in-the-call-to-action-panel}
+## call to action面板中縮圖儲存格的CSS屬性： {#css-properties-of-the-thumbcell-in-the-call-to-action-panel}
 
 <table id="table_9CEBEF6FC7024F02840A581AEEF612B4"> 
  <tbody> 
@@ -281,13 +281,13 @@ ht-degree: 1%
 
 <!--<a id="section_D06CF9F709A3447F83DC6E1CE7CA58B5"></a>-->
 
-下列CSS類別選取器會控制動作呼叫面板中縮圖的外觀：
+下列CSS類別選取器會控制call to action面板中縮圖的外觀：
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumb
 ```
 
-## 行動號召面板中縮圖的CSS屬性： {#css-properties-of-the-thumbnail-in-the-call-to-action-panel}
+## call to action面板中縮圖的CSS屬性： {#css-properties-of-the-thumbnail-in-the-call-to-action-panel}
 
 <table id="table_ECD7477F4BE94BA8943210FA8B6B8D01"> 
  <tbody> 
@@ -323,13 +323,13 @@ ht-degree: 1%
 
 <!--<a id="section_F1B7E3FA3ABD4D71848586A3B308F9E2"></a>-->
 
-下列CSS類別選取器會控制動作呼叫面板中縮圖示籤的外觀：
+下列CSS類別選取器會控制call to action面板中縮圖示籤的外觀：
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7label
 ```
 
-## 行動號召面板中縮圖示籤的CSS屬性： {#css-properties-of-the-thumbnail-label-in-the-call-to-action-panel}
+## call to action面板中縮圖示籤的CSS屬性： {#css-properties-of-the-thumbnail-label-in-the-call-to-action-panel}
 
 <table id="table_E2C9F21EBD9140FD9D20A4BBAD117E2F"> 
  <tbody> 
@@ -367,15 +367,15 @@ ht-degree: 1%
 
 <!--<a id="section_2C011101EB804513B942EFB4CBD38E62"></a>-->
 
-如果縮圖超過垂直放入檢視的範圍，縮圖會在右側呈現垂直卷軸。 依預設，「行動號召」面板會呈現沒有縮圖和捲動按鈕的小垂直列。 但是，可以變更檢視器CSS來自訂列。
+如果縮圖超過垂直放入檢視的範圍，縮圖會在右側呈現垂直卷軸。 依預設，call to action面板會呈現沒有縮圖和捲動按鈕的小垂直列。 但是，可以變更檢視器CSS來自訂列。
 
-下列CSS類別選取器會控制動作呼叫面板中卷軸區域的外觀：
+下列CSS類別選取器會控制call to action面板中卷軸區域的外觀：
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview .s7scrollbar
 ```
 
-## 行動號召面板中卷軸區域的CSS屬性： {#css-properties-of-the-scroll-bar-area-in-the-call-to-action-panel}
+## call to action面板中卷軸區域的CSS屬性： {#css-properties-of-the-scroll-bar-area-in-the-call-to-action-panel}
 
 <table id="table_6D3A4A68BFDB44259A6E2E632B9195F3"> 
  <tbody> 
@@ -415,7 +415,7 @@ ht-degree: 1%
 
 卷軸軌跡是上下卷軸按鈕之間的區域。 元件會自動設定軌跡的位置和高度。
 
-下列CSS類別選取器會控制動作呼叫面板中卷軸追蹤的外觀：
+下列CSS類別選取器會控制call to action面板中卷軸軌跡的外觀：
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview .s7scrollbar .s7scrolltrack
@@ -457,7 +457,7 @@ ht-degree: 1%
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview .s7scrollbar .s7scrollthumb
 ```
 
-## 動作呼叫面板中縮圖高度的CSS屬性： {#css-properties-of-the-thumb-height-in-the-call-to-action-panel}
+## call to action面板中縮圖高度的CSS屬性： {#css-properties-of-the-thumb-height-in-the-call-to-action-panel}
 
 <table id="table_1F39948FC3924FA4B7F851B65B2D860B"> 
  <tbody> 
@@ -524,9 +524,9 @@ ht-degree: 1%
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview .s7scrollbar .s7scrolldownbutton
 ```
 
-無法使用CSS top、left、bottom或right屬性來定位捲動按鈕；檢視器邏輯會自動加以定位。 互動式視訊檢視器中的動作呼叫面板不會在卷軸中使用這些按鈕，因此會在預設CSS中將它們的大小設為0畫素。
+無法使用CSS top、left、bottom或right屬性來定位捲動按鈕；檢視器邏輯會自動加以定位。 互動式視訊檢視器中的call to action面板不會在卷軸中使用這些按鈕，因此預設的CSS會將按鈕大小設為0畫素。
 
-## 行動號召面板中頂端和底部捲動按鈕的CSS屬性：  {#css-properties-of-the-top-and-bottom-scroll-buttons-in-the-call-to-action-panel}
+## call to action面板中頂端和底部捲動按鈕的CSS屬性：  {#css-properties-of-the-top-and-bottom-scroll-buttons-in-the-call-to-action-panel}
 
 <table id="table_FE17D19E0545424EADB0256524361359"> 
  <tbody> 

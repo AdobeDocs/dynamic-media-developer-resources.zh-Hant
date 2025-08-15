@@ -241,7 +241,7 @@ background-color: #ffffff;
 .s7smartcropvideoviewer .s7emaildialog .s7closebutton
 ```
 
-關閉按鈕的&#x200B;**CSS屬性**
+關閉按鈕的**CSS屬性**
 
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
@@ -328,7 +328,7 @@ background-color: #ffffff;
 .s7smartcropvideoviewer .s7emaildialog .s7dialogfooter
 ```
 
-對話方塊頁尾&#x200B;**的**&#x200B;CSS屬性
+對話方塊頁尾**的**CSS屬性
 
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
@@ -527,7 +527,7 @@ background-color: #ffffff;
 .s7smartcropvideoviewer .s7emaildialog .s7dialogviewarea
 ```
 
-對話方塊檢視區域的&#x200B;**CSS屬性**
+對話方塊檢視區域的**CSS屬性**
 
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
@@ -571,7 +571,7 @@ background-color: #ffffff;
 
 如果此容器的高度似乎大於主對話方塊區域，元件會自動啟用垂直捲動。
 
-對話方塊主體的&#x200B;**CSS屬性**
+對話方塊主體的**CSS屬性**
 
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
@@ -623,7 +623,7 @@ background-color: #ffffff;
 
 此類別不適合控制標籤大小或位置，因為您可以將其套用至表單使用者介面中不同位置的文字。
 
-對話方塊標籤的&#x200B;**CSS屬性。 &#x200B;**
+對話方塊標籤的**CSS屬性。 **
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
@@ -959,7 +959,7 @@ background-color: #ffffff;
 .s7smartcropvideoviewer .s7emaildialog .s7dialogbody .s7dialogcontent
 ```
 
-對話方塊內容的&#x200B;**CSS屬**
+對話方塊內容的**CSS屬**
 
 <table id="table_9C5CBFC2482E4A46BE837573B0B02FE4"> 
  <tbody> 
@@ -1094,7 +1094,7 @@ background-color: #ffffff;
 .s7smartcropvideoviewer .s7emaildialog .s7dialogorigin
 ```
 
-對話方塊內容來源&#x200B;**的**&#x200B;CSS屬性
+對話方塊內容來源**的**CSS屬性
 
 <table id="table_51763B532A9C4AE8AE54B69933A8C0B5"> 
  <tbody> 

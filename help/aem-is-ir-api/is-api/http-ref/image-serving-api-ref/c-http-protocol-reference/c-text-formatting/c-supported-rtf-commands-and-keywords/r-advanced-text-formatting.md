@@ -88,12 +88,12 @@ ht-degree: 0%
   <tr> 
    <td> <span class="codeph"> \copyfitlines <span class="varname"> N </span> </span> </td> 
    <td> <p>最大複製配合線（軟限制）。 </p> </td> 
-   <td> <p>0表示無行限制；<span class="codeph"> textPs=僅限</span>； Dynamic Media延伸模組。 </p> </td> 
+   <td> <p>0表示無行限制；<span class="codeph"> textPs=僅限</span>；Dynamic Media擴充功能。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \copyfitmaxlines <span class="varname"> N </span> </span> </td> 
    <td> <p>最大複製符合行數（截斷）。 </p> </td> 
-   <td> <p> <span class="codeph"> textPs=僅限</span>；Dynamic Media延伸模組。 </p> </td> 
+   <td> <p> <span class="codeph"> textPs=僅限</span>；Dynamic Media擴充功能。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \baselinedir <span class="varname"> N </span> </span> </td> 

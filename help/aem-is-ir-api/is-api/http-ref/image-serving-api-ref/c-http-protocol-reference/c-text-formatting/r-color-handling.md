@@ -14,19 +14,19 @@ ht-degree: 0%
 
 # 色彩處理{#color-handling}
 
-RTF規格允許以`\colortbl`指定的RGB色彩值。 每個元件分別提供`\red`、`\green`和`\blue`命令。
+RTF規格允許`\colortbl`所指定的RGB色彩值。 每個元件分別提供`\red`、`\green`和`\blue`命令。
 
 專有的RTF延伸命令`\cmykcolortbl`允許指定CMYK色彩，每個色彩元件都有`\cyan`、`\magenta`、`\yellow`和`\black`命令。
 
 `\colortbl`的顏色元件值在0到255的範圍內。 `\cmykcolortbl`的元件值在0到100的範圍內。
 
-`textPs=`支援的RTF延伸命令`\*\iscolortbl`提供指定具有標準「影像伺服」色彩值的色彩表的方法，支援完整RGB、灰色、CMYK和Alpha。 其語法如下：
+`\*\iscolortbl`支援的RTF延伸模組命令`textPs=`提供指定具有標準「影像伺服」色彩值的色彩表的方法，並支援完整的RGB、灰色、CMYK和Alpha。 其語法如下：
 
 ` {\&#42;\iscolortbl; *[!DNL colors]*;}`
 
 *[!DNL colors]*&#x200B;一或多個IS色彩值，以「；」分隔
 
-可以在相同的`text=`或`textPs=` RTF字串中指定多種型別的色彩表。 每個色彩表可以有不同的專案數。 「影像伺服」會嘗試在`\colortbl`之前依此順序尋找顏色： `\iscolortbl`在`\cmykcolortbl`之前（僅當文字圖層的畫素型別為CMYK時）。 若有需要(例如指定了RGB色彩，但需要CMYK輸出)，僅適用於`textPs=`，可在CMYK和RGB之間精確轉換顏色。 如果找不到特定索引值的顏色，則會使用預設顏色（黑色）。
+可以在相同的`text=`或`textPs=` RTF字串中指定多種型別的色彩表。 每個色彩表可以有不同的專案數。 「影像伺服」會嘗試在`\iscolortbl`之前依此順序尋找顏色： `\cmykcolortbl`在`\colortbl`之前（僅當文字圖層的畫素型別為CMYK時）。 僅適用於`textPs=`，如有需要(例如，已指定RGB色彩，但需要CMYK輸出)，可在CMYK和RGB之間精確轉換顏色。 如果找不到特定索引值的顏色，則會使用預設顏色（黑色）。
 
 如需IS色彩值的語法說明，請參閱[色彩](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md)。
 

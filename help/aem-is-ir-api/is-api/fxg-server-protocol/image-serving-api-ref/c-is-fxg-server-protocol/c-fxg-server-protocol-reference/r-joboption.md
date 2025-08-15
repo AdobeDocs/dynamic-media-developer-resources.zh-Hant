@@ -1,5 +1,5 @@
 ---
-description: 套用PDF工作選項。 工作選項檔案或PDF預設集是Illustrator在「另存為PDF選項」對話方塊中產生的檔案，或是PDF的InDesign預設集。
+description: 套用PDF工作選項。 工作選項檔案或PDF預設集是Illustrator在InDesign的「另存新檔PDF選項」對話方塊或PDF預設集中產生的檔案。
 solution: Experience Manager
 title: 工作選項
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 38%
 
 # 工作選項{#joboption}
 
-套用PDF工作選項。 工作選項檔案或PDF預設集是Illustrator在「另存為PDF選項」對話方塊中產生的檔案，或是PDF的InDesign預設集。
+套用PDF工作選項。 工作選項檔案或PDF預設集是Illustrator在InDesign的「另存新檔PDF選項」對話方塊或PDF預設集中產生的檔案。
 
 ` joboption= *`值`*`
 
@@ -25,7 +25,7 @@ ht-degree: 38%
  </tr> 
 </table>
 
-工作選項檔案可由IPS/Dynamic Media Classic上傳和發佈。 產生PDF時會使用工作選項檔案中包含的PDF選項。
+工作選項檔案可由IPS/Dynamic Media Classic上傳和發佈。 產生PDF時，會使用工作選項檔案中包含的PDF選項。
 
 目前支援的選項如下：
 

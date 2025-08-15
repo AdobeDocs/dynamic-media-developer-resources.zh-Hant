@@ -46,7 +46,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname">命令</span> </p> </td> 
-   <td colname="col2"> <p>&lbrace; <span class="varname"> cmdName</span> | { $<span class="varname"> var</span> } [ = <span class="varname">值</span> ] </p> </td> 
+   <td colname="col2"> <p>{ <span class="varname"> cmdName</span> | { $<span class="varname"> var</span> } [ = <span class="varname">值</span> ] </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname">巨集</span> </p> </td> 
@@ -79,7 +79,7 @@ ht-degree: 0%
 
 **個註解**
 
-註解可內嵌於任何位置的要求字串中，並以句點(.)識別 緊接在命令分隔符號(&amp;)後面。 註解會在下次出現（未編碼）命令分隔符號時終止。 此功能可用來將資訊新增至不供「影像伺服」使用的請求，例如時間戳記和資料庫ID。
+註解可內嵌於任何位置的要求字串中，並在命令分隔符號(&amp;)後面加上句號(.)加以識別。 註解會在下次出現（未編碼）命令分隔符號時終止。 此功能可用來將資訊新增至不供「影像伺服」使用的請求，例如時間戳記和資料庫ID。
 
 **HTTP解碼**
 

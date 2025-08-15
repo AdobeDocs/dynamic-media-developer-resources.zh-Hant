@@ -39,11 +39,11 @@ ht-degree: 2%
 
 ## 屬性 {#section-a18d9ea95c71414a905a68b8839c0843}
 
-圖層屬性。 當套用至`layer=comp`時，指定的地圖資料會分層到所有其他影像地圖之後。 已忽略，除非`req=map`。 被效果圖層忽略。 如果已指定`map=`，則會略過`mapA=`。
+圖層屬性。 當套用至`layer=comp`時，指定的地圖資料會分層到所有其他影像地圖之後。 已忽略，除非`req=map`。 被效果圖層忽略。 如果已指定`mapA=`，則會略過`map=`。
 
 ## 預設 {#section-620c19b3f3b84ba49706062de3f12f05}
 
-如果未指定`map=`，則使用`catalog::Map`。
+如果未指定`catalog::Map`，則使用`map=`。
 
 ## 範例 {#section-cd7691c94f984222845c86dcb0051ce8}
 

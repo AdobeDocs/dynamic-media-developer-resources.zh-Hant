@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 要求語法 {#section-d72b1d95e4ce4bb1b332ce096c2b99f1}
 
-可以使用`req=set`修飾元並參考網路路徑中的目錄記錄ID，來擷取`catalog::ImageSet`的設定回應。 或者，可以使用`imageset=`修飾元直接在URL中指定影像集。 如果使用`imageset=`修飾元來指定影像集，則整個值應括在大括弧中，以便逸出影像集值並確保任何包含的修飾元不會解譯為URL查詢字串的一部分。
+可以使用`catalog::ImageSet`修飾元並參考網路路徑中的目錄記錄ID，來擷取`req=set`的設定回應。 或者，可以使用`imageset=`修飾元直接在URL中指定影像集。 如果使用`imageset=`修飾元來指定影像集，則整個值應括在大括弧中，以便逸出影像集值並確保任何包含的修飾元不會解譯為URL查詢字串的一部分。
 
 ## 集合回應的型別 {#section-93eb0a1f70344da2a888e56372ad3896}
 
@@ -126,7 +126,7 @@ ht-degree: 0%
 
 ## 標籤索引鍵 {#section-bf565de6f7294cf89620343c9071f415}
 
-`labelkey=`修飾元與`catalog::UserData`欄位搭配使用，以產生影像和色票的標籤。 `catalog:UserData`欄位會剖析為一組索引鍵/值配對，而此組中的labelkey索引會擷取指定索引鍵的值。 然後會在&#x200B;*`s`*&#x200B;和&#x200B;*`i`*&#x200B;的&#x200B;*`l`*&#x200B;屬性中傳回此值。
+`labelkey=`修飾元與`catalog::UserData`欄位搭配使用，以產生影像和色票的標籤。 `catalog:UserData`欄位會剖析為一組索引鍵/值配對，而此組中的labelkey索引會擷取指定索引鍵的值。 然後會在&#x200B;*`l`*&#x200B;和&#x200B;*`s`*&#x200B;的&#x200B;*`i`*&#x200B;屬性中傳回此值。
 
 ## 強制的限制 {#section-b9f042873bee45a5ae11b69fd42f2bca}
 
@@ -138,7 +138,7 @@ ht-degree: 0%
 
 ## 範例 {#section-588c9d33aa05482c86cd2b1936887228}
 
-如需`req=set`要求的範例XML回應，請參閱HTML範例標頭底下的「屬性」頁面。
+如需`req=set`要求的範例XML回應，請參閱HTML範例標題下的屬性頁面。
 
 `http://crc.scene7.com/is-docs/examples/properties.htm`
 

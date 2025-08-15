@@ -26,15 +26,15 @@ ht-degree: 2%
 | `avif` | 有損且無損的AVIF。 |
 | `eps` | 未壓縮的二進位封裝的PostScript。 |
 | `f4m` | Flash串流伺服器資訊清單格式。 |
-| `gif-alpha` | 2到255色GIF，加上關鍵色彩透明度。 |
-| `gif` | 使用2到256色GIF。 |
+| `gif-alpha` | GIF配備2至255色，加上按鍵色彩透明度。 |
+| `gif` | GIF提供2到256種色彩。 |
 | `heic` | 不失真HEIC。 如果不支援此格式，預設會從瀏覽器下載。 |
-| `jpeg` | 有損JPEG。 |
-| `jpeg2000-alpha` | 含Alpha色版的有損和無損JPEG2000。 |
-| `jpeg2000` | 有損和無損JPEG2000。 |
-| `jpegxr-alpha` | 含Alpha色版的有損和無損JPEGXR。 |
-| `jpegxr` | 有損和無損JPEGXR。 |
-| `jpg` | JPG有損。 |
+| `jpeg` | 失真JPEG。 |
+| `jpeg2000-alpha` | 含Alpha色版的JPEG 2000有損和無損。 |
+| `jpeg2000` | 有損且無損的JPEG 2000。 |
+| `jpegxr-alpha` | 具有Alpha色版的JPEG XR有損和無損。 |
+| `jpegxr` | 無損無損的JPEG XR。 |
+| `jpg` | 失真JPG。 |
 | `m3u8` | Apple串流伺服器資訊清單格式。 |
 | `pdf` | 內嵌於PDF中的影像。 |
 | `pjpeg` | 漸進式JPEG。 |
@@ -42,11 +42,11 @@ ht-degree: 2%
 | `png` | 24位元無失真PNG。 |
 | `png8-alpha` | 含Alpha色版的8位元無失真PNG。 |
 | `png8` | 8位元無失真PNG。 |
-| `swf-alpha` | AdobeAS2 SWF檔中內嵌的有損JPEG和Deflate-Compressed遮罩。 |
-| `swf` | 內嵌於AdobeAS2 SWF檔中的有損JPEG。 |
-| `swf3-alpha` | AdobeAS3 SWF檔中內嵌的有損JPEG和Deflate-Compressed遮罩。 **注意：** swf和swf-alpha格式最適合用於ActionScript2應用程式(Flash Player8或更早版本)。 建議將swf3和swf3-alpha格式用於ActionScript3應用程式(Flash Player9和更新版本)。 |
-| `swf3` | 內嵌於AdobeAS3 SWF檔中的有損JPEG。 |
-| `tif-alpha` | 使用Alpha色版TIFF。 |
+| `swf-alpha` | 有損的JPEG以及內嵌於Adobe AS2 swf檔案中的deflate-compressed遮色片。 |
+| `swf` | 內嵌於Adobe AS2 swf檔案中的有損JPEG。 |
+| `swf3-alpha` | 有損的JPEG以及內嵌於Adobe AS3 swf檔案中的Deflate壓縮遮色片。 **注意：** swf和swf-alpha格式最適合用於ActionScript 2應用程式（Flash Player 8和更早版本）。 ActionScript3應用程式（Flash Player 9和更新版本）建議使用swf3和swf3-alpha格式。 |
+| `swf3` | 內嵌於Adobe AS3 swf檔案中的有損JPEG。 |
+| `tif-alpha` | 含Alpha通道的TIFF。 |
 | `tif` | TIFF。 |
 | `webp-alpha` | 含Alpha色版的有損和無損WebP。 |
 | `webp` | 有損和無損WebP。 |
@@ -64,20 +64,20 @@ ht-degree: 2%
 | *`compression`* | 說明 |
 |---|---|
 | `jpeg` | JPEG壓縮（失真）。 |
-| `lossy` | JPEG2000、JPEGXR壓縮（失真）和WebP。 |
-| `lossless` | HEIC、JPEG 2000和JPEGXR壓縮（不失真）和WebP。 |
+| `lossy` | JPEG 2000、JPEG XR壓縮（失真）和WebP。 |
+| `lossless` | HEIC、JPEG 2000和JPEG XR壓縮（不失真）和WebP。 |
 | `lzw` | LZW (Lempel-Ziv-Welch)壓縮（不失真）。 |
 | `none` | 未壓縮。 |
 | `zip` | &quot;Deflate&quot;壓縮（不失真）。 |
 
 * *`format`*&#x200B;會指定傳送至使用者端之影像資料的影像編碼格式，以及HTTP回應標頭的對應回應MIME型別。
-* 未指定`icc=`時，可以使用&#x200B;*`pixelType`*&#x200B;進行輸出色域轉換。
+* 未指定&#x200B;*`pixelType`*&#x200B;時，可以使用`icc=`進行輸出色域轉換。
 
-  已套用對應至&#x200B;*`pixelType`*&#x200B;的預設色彩設定檔。 如果停用色彩管理，則會套用天真的轉換。 指定`icc=`時會忽略&#x200B;*`pixelType`*，這會決定輸出畫素型別。
+  已套用對應至&#x200B;*`pixelType`*&#x200B;的預設色彩設定檔。 如果停用色彩管理，則會套用天真的轉換。 指定&#x200B;*`pixelType`*&#x200B;時會忽略`icc=`，這會決定輸出畫素型別。
 
-* 只有在將`tif`、`tif-alpha`、`pdf`、`webp`、`webp-alpha`、`jpeg2000`、`jpeg2000-alpha`、`jpegxr`或`jpegxr-alpha`指定為&#x200B;*`format`*&#x200B;時，才允許&#x200B;*`compression`*。 如需這些影像格式支援的壓縮選項，請參閱下表。
+* 只有在將&#x200B;*`compression`*、`tif`、`tif-alpha`、`pdf`、`webp`、`webp-alpha`、`jpeg2000`、`jpeg2000-alpha`或`jpegxr`指定為`jpegxr-alpha`時，才允許&#x200B;*`format`*。 如需這些影像格式支援的壓縮選項，請參閱下表。
 
-您可以使用`qlt=`來設定下列格式的JPEG編碼選項：JPEG、使用JPEG壓縮的TIFF、使用JPEG壓縮的PDF以及SWF。 WebP、JPEG2000和JPEGXR也使用`qlt=`，但值會導致不同格式的不同品質。 如果`fmt=gif`或`fmt=gif-alpha`，請使用`quantize=`。 如需詳細資訊，請參閱命令說明。 其他格式沒有可設定的選項。
+您可以使用`qlt=`來設定這些格式的JPEG編碼選項：JPEG、具有JPEG壓縮的TIFF、具有JPEG壓縮的PDF以及SWF。 WebP、JPEG 2000和JPEG XR也使用`qlt=`，但值會針對不同的格式產生不同的品質。 如果`quantize=`或`fmt=gif`，請使用`fmt=gif-alpha`。 如需詳細資訊，請參閱命令說明。 其他格式沒有可設定的選項。
 
 所有&#x200B;*`formats`*&#x200B;和&#x200B;*`pixelTypes`*&#x200B;會傳回8位元/畫素元件(GIF會傳回8位元/畫素)。
 
@@ -168,7 +168,7 @@ ht-degree: 2%
    <td colname="col1"> <p> swf，swf3， swf-alpha， swf-alpha3 </p> </td> 
    <td colname="col2"> <p>rgb，灰色 </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;application/x-shockwave-flash&gt; </span> </p> </td> 
-   <td colname="col4"> <p>否 </p> <p> <p>注意：AdobeFlash Player會忽略內嵌的ICC設定檔。 </p> </p> </td> 
+   <td colname="col4"> <p>否 </p> <p> <p>注意： Adobe Flash Player會忽略內嵌的ICC設定檔。 </p> </p> </td> 
    <td colname="col5"> <p> <span class="codeph"> qlt= </span>，<span class="codeph">屬性：：TrustedDomains </span> </p> </td> 
   </tr>
   <tr valign="top"> 
@@ -192,7 +192,7 @@ ht-degree: 2%
 
 要求屬性。 若為`req=img` （預設）或`req=mask`，則無論目前的圖層設定為何，皆適用；否則會忽略。
 
-如果指定`iccProfile=`，則會忽略&#x200B;*`type`*。
+如果指定&#x200B;*`type`*，則會忽略`iccProfile=`。
 
 ## 預設 {#section-f885a785b32c44fea347db15fdb2ab1f}
 
@@ -220,11 +220,11 @@ ht-degree: 2%
 
 ` http:// *`伺服器`*/myRootId/myImageId?fmt=tif,cmyk&wid=300`
 
-**使用其他ICC設定檔將相同影像轉換為cmyk，並將設定檔內嵌於TIFF影像中：**
+**使用其他ICC設定檔將相同影像轉換為cmyk，並將設定檔內嵌到TIFF影像中：**
 
 ` http:// *`伺服器`*/myRootId/myImageId?fmt=tif&wid=300&icc=myPrinterProfile&iccEmbed=1`
 
-**以TIF檔形式傳遞此影像，並以JPEG壓縮方式傳遞，而不使用畫素型別轉換：**
+**以TIF檔形式傳送此影像，且使用JPEG壓縮而不使用畫素型別轉換：**
 
 ` http:// *`伺服器`*/myRootId/myImageId?fmt=tif,,jpeg&qlt=95&wid=300`
 

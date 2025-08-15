@@ -31,7 +31,7 @@ ImageServer現在會保留升級安裝期間變更的所有檔案的安裝記錄
 * 檢查[!DNL ImageServerRegistry.xml]中的實體記憶體設定。 如果其他需要大量記憶體的應用程式在同一系統上執行，則應該不會超過50%。 預設值為20%。
 * 請確定伺服器上的交換空間至少是實體RAM大小的兩倍。 交換空間設定過低可能會造成此問題。
 
-**快取資料夾實際使用的磁碟空間超過[!DNL PlatformServer.conf]**&#x200B;中設定的` *[!DNL cache.maxSize]*`
+**快取資料夾實際使用的磁碟空間超過` *[!DNL cache.maxSize]*`中設定的[!DNL PlatformServer.conf]**
 
 這並不表示有問題。 [!DNL Platform Server]的磁碟快取設定中不包含檔案系統額外負荷。 系統報告的總量可能會大幅超過設定。 建議保留兩倍於` *[!DNL cache.maxSize]*`中指定的磁碟空間。
 
@@ -47,7 +47,7 @@ is-docs範例中的&#x200B;**損壞的影像**
 
 **記錄檔佔用太多磁碟空間**
 
-影像伺服器和[!DNL Platform Server]每天啟動新的記錄檔。 預設會將這些專案放在[!DNL *[!DNL install_root]*/ImageServing/logs]中。 記錄檔大小、保留的記錄數以及可設定的記錄內容。 請參閱檔案。
+影像伺服器和[!DNL Platform Server]每天啟動新的記錄檔。 預設會將這些專案放在[！DNL *[!DNL install_root]*/ImageServing/logs]中。 記錄檔大小、保留的記錄數以及可設定的記錄內容。 請參閱檔案。
 
 **如果您的伺服器已安裝防毒軟體**
 

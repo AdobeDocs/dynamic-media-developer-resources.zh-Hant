@@ -37,7 +37,7 @@ RTF命令`\ql`、`\qc`、`\qr`、`\li`和`\ri`可用來沿著路徑定位轉譯�
 
 ## 屬性 {#section-068137df436c46b9b55d271eb60e7285}
 
-文字圖層屬性（僅限`textPs=`）。 被其他圖層忽略。 若指定給`layer=comp`，則套用至`layer=0`。 如果`textPs=`存在，則忽略。
+文字圖層屬性（僅限`textPs=`）。 被其他圖層忽略。 若指定給`layer=0`，則套用至`layer=comp`。 如果`textPs=`存在，則忽略。
 
 如果圖層同時包含`textPath=`和`textFlowPath=`，則會傳回錯誤。
 

@@ -25,7 +25,7 @@ ht-degree: 2%
  </tr> 
 </table>
 
-如果有貼花資料，同時指定`size=`和`res=`時，`size=`會佔上風。
+如果有貼花資料，同時指定`size=`和`size=`時，`res=`會佔上風。
 
 ## 屬性 {#section-6a458ddc202f46e0b668c9f040a65cef}
 
@@ -33,7 +33,7 @@ ht-degree: 2%
 
 ## 預設 {#section-ee4088a994014df59105fc1dbb2aa042}
 
-如果素材是以目錄專案為基礎，`catalog::Resolution`；否則，如果未指定`res= is`或設定為小於或等於0的值，則`attribute::Resolution`。
+如果素材是以目錄專案為基礎，`catalog::Resolution`；否則，如果未指定`attribute::Resolution`或設定為小於或等於0的值，則`res= is`。
 
 ## 另請參閱 {#section-c00f6fb7b3e74719ac361de9a9ce4e52}
 

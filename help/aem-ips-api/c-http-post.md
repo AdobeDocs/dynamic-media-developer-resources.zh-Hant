@@ -1,6 +1,6 @@
 ---
 title: 透過HTTP POST將資產上傳到UploadFile Servlet
-description: 將資產上傳到 [!DNL Dynamic Media] 傳統版牽涉到一或多個HTTPPOST要求，這些要求會設定一個工作來協調與上傳檔案相關的所有記錄活動。
+description: 將資產上傳到 [!DNL Dynamic Media] Classic牽涉到一或多個HTTP POST要求，這些要求會設定一個工作來協調與已上傳檔案相關的所有記錄活動。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 透過HTTP POST將資產上傳到UploadFile Servlet{#uploading-assets-by-way-of-http-posts-to-the-uploadfile-servlet}
 
-將資產上傳到Dynamic Media Classic涉及一個或多個HTTPPOST請求，這些請求會設定協調與上傳檔案關聯的所有記錄活動的工作。
+將資產上傳到Dynamic Media Classic涉及一個或多個HTTP POST請求，這些請求會設定一個工作來協調與上傳檔案關聯的所有記錄活動。
 
 使用下列URL存取UploadFile Servlet：
 
@@ -24,9 +24,9 @@ https://<server>/scene7/UploadFile
 
 >[!NOTE]
 >
->上載工作的所有POST請求都必須來自相同的IP位址。
+>上載工作的所有POST要求都必須來自相同的IP位址。
 
-**存取Dynamic Media地區的URL**
+**存取Dynamic Media區域的URL**
 
 <table id="table_45BB314ABCDA49F38DF7BECF95CC984A"> 
  <thead> 
@@ -61,14 +61,14 @@ https://<server>/scene7/UploadFile
 
 >[!NOTE]
 >
->上載工作的所有POST請求都必須來自相同的IP位址。
+>上載工作的所有POST要求都必須來自相同的IP位址。
 
-|  HTTPPOST表單元件  |  說明  |
+|  HTTP POST表單元件  |  說明  |
 |---|---|
-| `auth`  |   必填。 指定驗證和使用者端資訊的XML authHeader檔案。 請參閱[SOAP](/help/aem-ips-api/c-wsdl-versions.md)下的&#x200B;**要求驗證**。 |
-| `file params`  |   選填。 您可以包含一或多個要隨著每個POST請求上傳的檔案。 每個檔案部分都可在Content-Disposition標頭中包含一個檔案名稱引數，如果未指定`uploadPostParams/fileName`引數，該引數將用作IPS中的目標檔案名稱。 |
+| `auth`  |   必填。 指定驗證和使用者端資訊的XML authHeader檔案。 請參閱&#x200B;**SOAP**&#x200B;下的[要求驗證](/help/aem-ips-api/c-wsdl-versions.md)。 |
+| `file params`  |   選填。 您可以包含一個或多個要隨每個POST請求上傳的檔案。 每個檔案部分都可在Content-Disposition標頭中包含一個檔案名稱引數，如果未指定`uploadPostParams/fileName`引數，該引數將用作IPS中的目標檔案名稱。 |
 
-|  HTTPPOST表單元件   |  uploadPostParams元素名稱   |  型別   |  說明   |
+|  HTTP POST表單元件   |  uploadPostParams元素名稱   |  型別   |  說明   |
 |---|---|---|---|
 | `uploadParams` (必要。 XML `uploadParams`檔案指定上傳引數)   |   `companyHandle`  |  `xsd:string`  | 必填。 檔案上傳目標公司的控制代碼。  |
 | `uploadParams` (必要。 XML `uploadParams`檔案指定上傳引數) | `jobName`  |  `xsd:string`  | 需要`jobName`或`jobHandle`。 上載工作的名稱。  |
@@ -86,7 +86,7 @@ https://<server>/scene7/UploadFile
 
 雖然您可能會假設`uploadParams`引數可以隨著相同工作針對個別檔案變更，但情況並非如此。 在整個工作中使用相同的`uploadParams`引數。
 
-新上傳工作的初始POST請求應指定`jobName`引數，最好使用唯一的工作名稱來簡化後續工作狀態輪詢和工作記錄查詢。 相同上載工作的其他POST要求應使用從初始要求傳回的`jobHandle`值，指定`jobHandle`引數，而非`jobName`。
+新上傳工作的初始POST要求應該指定`jobName`引數，最好使用唯一的工作名稱來簡化後續的工作狀態輪詢和工作記錄查詢。 相同上載工作的其他POST要求應使用從初始要求傳回的`jobHandle`值，指定`jobName`引數，而非`jobHandle`。
 
 上載工作的最終POST要求應該將`endJob`引數設定為true，如此此工作未來就不會對檔案進行POST。 反過來，這可讓工作在擷取所有POSTed檔案後立即完成。 否則，如果未在30分鐘內收到其他POST請求，則作業會逾時。
 
@@ -108,7 +108,7 @@ https://<server>/scene7/UploadFile
 
 如果處理POST要求時發生錯誤，回應主體會包含[錯誤](faults/c-faults/c-faults.md#concept-28c5e495f39443ecab05384d8cf8ab6b)中說明的其中一個API錯誤型別。
 
-## 範例POST請求 {#section-810fe32abdb9426ba0fea488dffadd1e}
+## POST要求範例 {#section-810fe32abdb9426ba0fea488dffadd1e}
 
 ```{.line-numbers}
 POST /scene7/UploadFile HTTP/1.1 

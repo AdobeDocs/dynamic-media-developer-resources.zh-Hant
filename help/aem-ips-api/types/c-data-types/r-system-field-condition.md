@@ -16,7 +16,7 @@ ht-degree: 6%
 
 searchAssets作業的系統欄位搜尋條件。
 
-若要一元比較，請根據系統欄位型別，僅傳遞一個值（ `boolVal`、`longVal`、`doubleVal`或`dateVal`）。 針對搜尋範圍，傳遞`min<Type>`和`max<Type>`引數，並傳遞`Between`或`NotBetween`的`op`值。
+若要一元比較，請根據系統欄位型別，僅傳遞一個值（ `boolVal`、`longVal`、`doubleVal`或`dateVal`）。 針對搜尋範圍，傳遞`min<Type>`和`max<Type>`引數，並傳遞`op`或`Between`的`NotBetween`值。
 
 ## 參數 {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 

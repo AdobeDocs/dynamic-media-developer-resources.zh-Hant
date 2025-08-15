@@ -35,7 +35,7 @@ ht-degree: 2%
 
 它也可以套用至文字圖層。
 
-選取`layer=comp`時，某些命令（包括`extend=`）會隱含套用至圖層0而非複合圖層。 在這種情況下，所有自動指派給圖層0的指令都會在套用至`layer=comp`的指令之前套用。 因此，當`layer=comp`時，`extend=`在`flip=`之前套用。
+選取`extend=`時，某些命令（包括`layer=comp`）會隱含套用至圖層0而非複合圖層。 在這種情況下，所有自動指派給圖層0的指令都會在套用至`layer=comp`的指令之前套用。 因此，當`layer=comp`時，`extend=`在`flip=`之前套用。
 
 >[!NOTE]
 >
