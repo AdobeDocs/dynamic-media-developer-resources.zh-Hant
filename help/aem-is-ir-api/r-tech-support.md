@@ -17,4 +17,4 @@ ht-degree: 0%
 使用以下專案聯絡技術支援。
 
 * **電話** - 800-898-9743從06:00到18:00，美國太平洋時間，星期一到星期五，節假日除外。
-* **建立支援案例** - [https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
+* **建立支援案例** - [https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)

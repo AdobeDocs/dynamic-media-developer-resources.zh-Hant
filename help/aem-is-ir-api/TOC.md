@@ -14,7 +14,7 @@ ht-degree: 8%
 
 # Dynamic Media影像提供與轉譯API {#image-serving-api}
 
-+ [動態媒體影像提供與影像轉譯API首頁](homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html) -->
++ [動態媒體影像提供與影像轉譯API首頁](homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html?lang=zh-Hant) -->
 + [關於此版本](r-about-this-release.md)
 + [系統需求和先決條件](r-requirements-and-prerequisites.md)
 + [磁碟空間需求與建議](r-disk-space-reqs.md)

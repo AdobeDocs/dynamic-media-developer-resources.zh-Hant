@@ -177,7 +177,7 @@ ht-degree: 1%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> unsharpMaskOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph">型別：UnsharpMaskOptions</span> </td> 
-   <td colname="col3"> <p>可讓您在建立最佳化的金字塔TIF檔案時控制遮色片銳利化設定的選項。 使用這些設定來協助改善影像銳利度。 </p> <p>請參閱<a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> UnsharpMaskOptions</a>。 </p> </td> 
+   <td colname="col3"> <p>可讓您在建立最佳化的金字塔TIF檔案時控制遮色片銳利化設定的選項。 使用這些設定來協助改善影像銳利度。 </p> <p>請參閱<a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html?lang=zh-Hant"> UnsharpMaskOptions</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> xmpKeywords</span> </span> </p> </td> 
