@@ -47,7 +47,7 @@ is-docs範例中的&#x200B;**損壞的影像**
 
 **記錄檔佔用太多磁碟空間**
 
-影像伺服器和[!DNL Platform Server]每天啟動新的記錄檔。 預設會將這些專案放在[！DNL *[!DNL install_root]*/ImageServing/logs]中。 記錄檔大小、保留的記錄數以及可設定的記錄內容。 請參閱檔案。
+影像伺服器和[!DNL Platform Server]每天啟動新的記錄檔。 預設會將這些專案放在[!DNL *[!DNL install_root]*/ImageServing/logs]中。 記錄檔大小、保留的記錄數以及可設定的記錄內容。 請參閱檔案。
 
 **如果您的伺服器已安裝防毒軟體**
 

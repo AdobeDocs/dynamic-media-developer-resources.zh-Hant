@@ -1,5 +1,5 @@
 ---
-description: 字型名稱。 字型名稱，與RTF \fonttbl指令中指定的名稱完全相同。
+description: 字型名稱。 字型名稱，與RTF fonttbl指令中指定的名稱完全相同。
 solution: Experience Manager
 title: 名稱
 feature: Dynamic Media Classic,SDK/API
