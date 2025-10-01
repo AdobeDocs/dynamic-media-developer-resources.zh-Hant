@@ -149,7 +149,7 @@ ht-degree: 0%
 
    您可以在下列範例頁面上看到具有固定外部檢視器區域的行為。 請注意，當您在組之間切換時，外部檢視器大小不會變更：
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-outer-area.html)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-outer-area.html?lang=zh-Hant](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-outer-area.html?lang=zh-Hant)
 
    若要將主要檢視維度設為靜態，請使用`Container` CSS選取器定義內部`.s7flyoutviewer .s7container` SDK元件的檢視器大小（以絕對單位表示）。 此外，您應將預設檢視器CSS設定為`.s7flyoutviewer`，以覆寫為`auto`最上層CSS類別定義的固定大小。
 
@@ -168,7 +168,7 @@ ht-degree: 0%
 
    以下範例頁面顯示具有固定主檢視大小的檢視器行為。 請注意，當您在組之間切換時，主要檢視會維持靜態，而網頁內容會垂直移動：
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-main-view.html)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-main-view.html?lang=zh-Hant](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-main-view.html?lang=zh-Hant)
 
    此外，預設的檢視器CSS可立即為其外部區域提供固定大小。
 
@@ -302,7 +302,7 @@ var flyoutViewer = new s7viewers.FlyoutViewer({
 
 [即時示範](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[備用示範位置](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
+[備用示範位置](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=zh-Hant)
 
 ## 定義寬度和高度的彈性大小內嵌 {#section-0a329016f9414d199039776645c693de}
 

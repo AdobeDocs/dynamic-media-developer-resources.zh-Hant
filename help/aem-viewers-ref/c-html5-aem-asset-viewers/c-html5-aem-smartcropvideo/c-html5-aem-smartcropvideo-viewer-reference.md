@@ -295,7 +295,7 @@ var smartCropVideoViewer = new s7viewers.SmartCropVideoViewer({
 
 [即時示範](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[備用示範位置](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
+[備用示範位置](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=zh-Hant)
 
 **定義寬度和高度的回應式設計內嵌**
 
