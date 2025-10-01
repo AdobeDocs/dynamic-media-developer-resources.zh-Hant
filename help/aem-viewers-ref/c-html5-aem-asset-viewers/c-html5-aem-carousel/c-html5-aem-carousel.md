@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: d506dc6e-8929-4f7f-a205-1683e77681f1
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
 workflow-type: tm+mt
-source-wordcount: '1867'
+source-wordcount: '1851'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,11 @@ ht-degree: 0%
 
 ## 示範URL {#section-c0ad383db6a444979dc7eeb1ec4cf54d}
 
-[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html?lang=zh-Hant](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html?lang=zh-Hant)
+[https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
+
+<!--
+[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html)
+-->
 
 ## 系統要求 {#section-b7270cc4290043399681dc504f043609}
 
@@ -66,11 +70,13 @@ ht-degree: 0%
 
 您可以套用自訂CSS以實現視覺化自訂。
 
-以下是在新視窗中開啟檢視器的HTML程式碼範例：
+<!--
+The following is an example of HTML code that opens the viewer in a new window:
 
 ```html {.line-numbers}
 <a href="https://demos-pub.assetsadobe.com/etc/dam/viewers/s7viewers/html5/CarouselViewer.html?asset=/content/dam/dm-public-facing-live-demo-page/04_shoppable_carousel/05_shoppable_banner&serverurl=https://adobedemo62-h.assetsadobe.com/is/image" target="_blank">Open popup viewer</a>
 ```
+-->
 
 **關於固定大小內嵌模式和回應式設計內嵌模式**
 
@@ -161,6 +167,7 @@ ht-degree: 0%
 
    同時，容器元素也不一定屬於網頁版面配置的一部分。 例如，可以使用指派給它的`display:none`樣式來隱藏它。 在此情況下，檢視器會延遲其初始化程式，直到網頁將容器元素帶回版面配置為止。 當此功能進行時，檢視器載入會自動繼續。
 
+
    以下是建立檢視器執行個體、將最低必要組態選項傳遞至建構函式及呼叫`init()`方法的範例。 此範例假設`carouselViewer`為檢視器執行個體；`s7viewer`為預留位置`DIV`的名稱；`https://adobedemo62-h.assetsadobe.com/is/image`為影像伺服URL，`/content/dam/dm-public-facing-live-demo-page/04_shoppable_carousel/05_shoppable_banner`為資產：
 
    ```javascript {.line-numbers}
@@ -174,6 +181,7 @@ ht-degree: 0%
    }).init(); 
    </script>
    ```
+
 
    下列程式碼是嵌入固定大小轉盤檢視器的簡單網頁的完整範例：
 
@@ -206,7 +214,9 @@ ht-degree: 0%
 
 **高度不受限制的回應式設計內嵌**
 
-透過回應式設計內嵌，網頁通常會有某種彈性的配置，可指定檢視器容器`DIV`的執行階段大小。 對於下列範例，假設網頁允許檢視器的容器`DIV`取得網頁瀏覽器視窗大小的40%。 而且，其高度不受限制。 網頁HTML程式碼如下所示：
+透過回應式設計內嵌，網頁通常會有某種彈性的配置，可指定檢視器容器`DIV`的執行階段大小。
+
+對於下列範例，假設網頁允許檢視器的容器`DIV`取得網頁瀏覽器視窗大小的40%。 而且，其高度不受限制。 網頁HTML程式碼如下所示：
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -262,11 +272,12 @@ var carouselViewer = new s7viewers.CarouselViewer({
 
 以下範例頁面說明高度不受限制的回應式設計內嵌在實際應用中的更多情況：
 
-[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html?lang=zh-Hant](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html?lang=zh-Hant)
+[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html)
 
 定義寬度和高度的&#x200B;**彈性大小內嵌**
 
 在已定義寬度和高度的彈性大小內嵌中，網頁樣式會不同。 它同時提供大小給`"holder"` DIV，並將它置中於瀏覽器視窗中。 此外，網頁會將`HTML`和`BODY`專案的大小設定為100%。
+
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -330,9 +341,11 @@ var carouselViewer = new s7viewers.CarouselViewer({
 </html>
 ```
 
+
 **使用Setter型API內嵌**
 
 除了使用JSON型初始化之外，也可以使用setter型API和no-args建構函式。 使用此API建構函式不會接受任何引數，而設定引數是使用`setContainerId()`、`setParam()`和`setAsset()` API方法搭配個別的JavaScript呼叫所指定。
+
 
 下列範例說明如何將固定大小內嵌與setter型API搭配使用：
 
@@ -360,3 +373,4 @@ carouselViewer.init();
 </body> 
 </html>
 ```
+

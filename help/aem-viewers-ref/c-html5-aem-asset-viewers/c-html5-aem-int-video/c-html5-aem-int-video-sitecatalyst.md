@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 74a69d01-fa58-4d36-8598-992baf6ae11d
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,10 @@ HTML5 Video360 Viewer支援Adobe Analytics立即可用的追蹤功能。
 
 ## 自訂追蹤 {#section-cda48fc9730142d0bb3326bac7df3271}
 
-若要與協力廠商分析系統整合，必須接聽`trackEvent`檢視器回呼，並視需要處理回呼函式的`eventInfo`引數。 下列程式碼為此類處理常式函式的範例：
+若要與協力廠商分析系統整合，必須接聽`trackEvent`檢視器回呼，並視需要處理回呼函式的`eventInfo`引數。
+
+<!--
+The following code is an example of such handler function:
 
 ```javascript {.line-numbers}
 var video360Viewer = new s7viewers.Video360Viewer({ 
@@ -46,6 +49,7 @@ var video360Viewer = new s7viewers.Video360Viewer({
 } 
 });
 ```
+-->
 
 檢視器會追蹤下列SDK使用者事件：
 

@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2542b9f3-c398-4dbf-afa3-1671fc4fe72a
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **使用回應式影像庫**
 
-1. 在Dynamic Media Classic中，[建立影像預設集](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html?lang=zh-Hant#image-sizing)，以備您打算搭配預設集使用回應式影像資料庫時使用。
+1. 在Dynamic Media Classic中，[建立影像預設集](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html#image-sizing)，以備您打算搭配預設集使用回應式影像資料庫時使用。
 
    定義與回應式影像資料庫搭配使用的影像預設集時，請勿使用任何會影響影像大小的設定，例如`wid=`、`hei=`或`scl=`。 請勿在影像預設集中指定任何大小欄位。 請改為保留為空白值。
 1. 將資料庫JavaScript檔案新增至您的網頁。
@@ -32,11 +32,13 @@ ht-degree: 0%
 
    也建議您將現有的影像URL放入`data-src`屬性中。 然後，設定現有的`src`屬性，將1x1 GIF影像編碼為資料URI。 如此一來，可減少網頁在載入時傳送的HTTP要求數目。 但是請注意，如果需要SEO （搜尋引擎最佳化），最好在影像執行個體上設定`title`屬性。
 
-   以下範例說明如何定義影像的`data-breakpoints`屬性，以及如何使用編碼為資料URI的1x1 GIF：
+<!--
+   The following is an example of defining `data-breakpoints` attribute for the image and using a 1x1 GIF encoded as Data URI:
 
    ```
    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360,720,940">
    ```
+-->
 
 1. 呼叫資料庫所管理之每個影像執行個體的`s7responsiveImage` API函式。
 
@@ -56,7 +58,8 @@ ht-degree: 0%
 
 網頁應負責設定影像元素的樣式，使其大小可彈性調整。 Responsive影像資料庫本身不會區別固定大小和「流動」影像。 如果套用至固定大小的影像，則只會載入新影像一次。
 
-下列程式碼為簡單網頁的完整範例，此網頁具有由Responsive Image資料庫管理的單一Fluid影像。 此範例包含額外的CSS樣式，可讓影像「回應」網頁瀏覽器視窗大小：
+<!--
+The following code is a complete example of a trivial web page that has a single fluid image managed by the Responsive Image library. The example contains extra CSS styling to make the image "responsive" to the web browser window size:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -81,7 +84,9 @@ ht-degree: 0%
   </script> 
  </body> 
 </html>
+
 ```
+-->
 
 **使用智慧型裁切**
 

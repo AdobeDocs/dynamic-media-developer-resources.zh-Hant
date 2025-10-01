@@ -5,9 +5,9 @@ keywords: 回應式
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
 workflow-type: tm+mt
-source-wordcount: '1924'
+source-wordcount: '1920'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,11 @@ HTML5 Panoramic Viewer是顯示全景影像的影像檢視器。 此檢視器的
 
 檢視器型別514。
 
-## 示範URL {#section-e1c3106f5b3e445d9b95be337c2f94e2}
+<!--
+## Demo URL {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
 [http://s7d1.scene7.com/s7viewers/html5/PanoramicViewer.html?asset=Scene7SharedAssets/PanoramicImage-Sample](http://s7d1.scene7.com/s7viewers/html5/PanoramicViewer.html?asset=Scene7SharedAssets/PanoramicImage-Sample)
+-->
 
 ## 使用全景檢視器 {#section-f21ac23d3f6449ad9765588d69584772}
 
@@ -221,7 +223,7 @@ HTML5 Panoramic Viewer支援透過拖曳或迴轉運動自動平移和導覽。
 <head> 
 <style type="text/css"> 
 .holder {
-	width: 80%;
+    width: 80%;
 }
 </style>
 </head>
@@ -246,7 +248,7 @@ HTML5 Panoramic Viewer支援透過拖曳或迴轉運動自動平移和導覽。
 <script type="text/javascript" src="http://s7d1.scene7.com/s7viewers/html5/js/PanoramicViewer.js"></script>
 <style type="text/css">
 .holder {
-	width: 80%;
+    width: 80%;
 }
 </style>
 </head>
@@ -256,10 +258,10 @@ HTML5 Panoramic Viewer支援透過拖曳或迴轉運動自動平移和導覽。
 </div>
 <script type="text/javascript">
 var panoramicViewer = new s7viewers.PanoramicViewer({
-	"containerId":"s7viewer",
+    "containerId":"s7viewer",
 "params":{
-	"asset":"Scene7SharedAssets/PanoramicImage-Sample",
-	"serverurl":"http://s7d1.scene7.com/is/image/"
+    "asset":"Scene7SharedAssets/PanoramicImage-Sample",
+    "serverurl":"http://s7d1.scene7.com/is/image/"
 }
 }).init();
 </script>
@@ -271,7 +273,7 @@ var panoramicViewer = new s7viewers.PanoramicViewer({
 
 [即時示範](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[備用示範位置](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=zh-Hant)
+[備用示範位置](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 **定義寬度和高度的回應式設計內嵌**
 
@@ -310,14 +312,14 @@ height: 60%;
 <script type="text/javascript" src="http://s7d1.scene7.com/s7viewers/html5/js/PanoramicViewer.js"></script>
 <style type="text/css">
 html, body {
-	width: 100%;
-	height: 100%;
+    width: 100%;
+    height: 100%;
 }
 .holder {
-	position: absolute;
-	left: 20%;
-	top: 20%;
-	width: 60%;
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    width: 60%;
 height: 60%;
 }
 </style>
@@ -328,10 +330,10 @@ height: 60%;
 </div>
 <script type="text/javascript">
 var panoramicViewer = new s7viewers.PanoramicViewer({
-	"containerId":"s7viewer",
+    "containerId":"s7viewer",
 "params":{
-	"asset":"Scene7SharedAssets/PanoramicImage-Sample",
-	"serverurl":"http://s7d1.scene7.com/is/image/"
+    "asset":"Scene7SharedAssets/PanoramicImage-Sample",
+    "serverurl":"http://s7d1.scene7.com/is/image/"
 }
 }).init();
 </script>
@@ -352,8 +354,8 @@ var panoramicViewer = new s7viewers.PanoramicViewer({
 <script language="text/javascript" src="http://s7d1.scene7.com/s7viewers/html5/js/PanoramicViewer.js"></script>
 <style type="text/css">
 #s7viewer.s7panoramicviewer {
-	width: 1024;
-	height: 512;
+    width: 1024;
+    height: 512;
 }
 </style>
 </head>

@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic
 role: Developer,User
 exl-id: 23091ef7-750a-4ec2-9d03-1d713f436991
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
 workflow-type: tm+mt
-source-wordcount: '2236'
+source-wordcount: '2234'
 ht-degree: 0%
 
 ---
@@ -32,11 +32,11 @@ Adobe Scene7 2016年秋季最新發行說明(Adobe Experience Cloud中Adobe Expe
 
 Adobe很高興宣佈推出有助於提升整體效能的HTTP/2內容傳送。
 
-請參閱[HTTP2傳送內容常見問答集](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html?lang=zh-Hant#dynamic)。
+請參閱[HTTP2傳送內容常見問答集](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic)。
 
 ## 影像產生系統 {#section-24487cb493444d808fb7193f0a00cdd4}
 
-如需完整檔案，請參閱[https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=zh-Hant](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=zh-Hant)
+如需完整檔案，請參閱[https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html)
 
 **新功能、增強功能和錯誤修正**
 
@@ -58,7 +58,7 @@ Adobe很高興宣佈推出有助於提升整體效能的HTTP/2內容傳送。
 
 ## 檢視器（影像伺服5.5.3） {#section-1d59bcd5825d487b80b59a6d1a08ed30}
 
-如需完整檔案，請參閱[檢視器參考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=zh-Hant)。
+如需完整檔案，請參閱[檢視器參考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en)。
 
 **影像伺服的錯誤修正5.5.3**
 
@@ -68,7 +68,7 @@ Adobe很高興宣佈推出有助於提升整體效能的HTTP/2內容傳送。
 
 ## 檢視器（影像伺服5.5.2） {#section-9932c988cfee45749594af481dfc6476}
 
-如需完整檔案，請參閱[檢視器參考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=zh-Hant)。
+如需完整檔案，請參閱[檢視器參考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en)。
 
 **影像伺服的錯誤修正5.5.2**
 
@@ -77,7 +77,7 @@ Adobe很高興宣佈推出有助於提升整體效能的HTTP/2內容傳送。
 
 ## 檢視器（影像伺服5.5.1） {#section-833ab92c91c941d2bfdc27f233f582ad}
 
-如需完整檔案，請參閱[檢視器參考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=zh-Hant)。
+如需完整檔案，請參閱[檢視器參考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en)。
 
 **影像伺服5.5.1的新功能、增強功能和錯誤修正**
 
@@ -151,10 +151,7 @@ Adobe很高興宣佈推出有助於提升整體效能的HTTP/2內容傳送。
 
 **已知問題和限制**
 
-* 來自`iscommands`的「影像伺服」修飾元未依設計新增至`req=set`請求。 只影響影像顯示的修飾元可正常運作。 影響大小的修飾元必須用於複雜資產。 例如︰
-
-  `https://s7d9.scene7.com/s7viewers/html5/BasicZoomViewer.html?asset= {Scene7SharedAssets/Backpack_B?extendn=0.5%252C0.5%252C0.5%252C0.5}`
-
+* 來自`iscommands`的「影像伺服」修飾元未依設計新增至`req=set`請求。 只影響影像顯示的修飾元可正常運作。 影響大小的修飾元必須用於複雜資產。
 * 滑鼠關閉後，[彈出式視窗] IE9有時仍會留在熒幕上。
 * 瀏覽器縮放會導致重新調整大小錯誤。
 * iPad 2：iOS上的大型eCatalog資產當機Safari。

@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 74dca3f6-ce89-4c5b-8459-c2c4ca8ed27c
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 2d4a26d04e11f544b4cbabaca592d77cfa2241d3
 workflow-type: tm+mt
-source-wordcount: '2561'
+source-wordcount: '2179'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,12 @@ HTML5 Video360 Viewer是一種360度影片播放程式，可播放從Dynamic Med
 
 檢視器型別為517。
 
-## 示範URL {#section-c0ad383db6a444979dc7eeb1ec4cf54d}
+<!--
+## Demo URLs {#section-c0ad383db6a444979dc7eeb1ec4cf54d}
 
 [https://s7d9.scene7.com/s7viewers/html5/Video360Viewer.html?asset=Viewers/space_station_360-AVS](https://s7d9.scene7.com/s7viewers/html5/Video360Viewer.html?asset=Viewers/space_station_360-AVS)
+
+-->
 
 ## 系統要求 {#section-b7270cc4290043399681dc504f043609}
 
@@ -98,11 +101,15 @@ HTML5 Video360 Viewer提供一組標準使用者介面控制項供視訊播放�
 
 您可以套用自訂CSS以實現視覺化自訂。
 
-以下是在新視窗中開啟檢視器的HTML程式碼範例：
+<!--
+The following is an example of HTML code that opens the viewer in a new window:
+-->
 
+<!--
 ```html {.line-numbers}
 <a href="https://s7d9.scene7.com/s7viewers/html5/Video360Viewer.html?asset=Viewers/space_station_360-AVS" target="_blank">Open popup viewer</a>
 ```
+-->
 
 **關於固定大小內嵌模式和回應式設計內嵌模式**
 
@@ -197,13 +204,17 @@ HTML5 Video360 Viewer提供一組標準使用者介面控制項供視訊播放�
 
    同時，容器元素也不一定屬於網頁版面配置的一部分。 例如，可以使用指派給它的`display:none`樣式來隱藏它。 在此情況下，檢視器會延遲其初始化程式，直到網頁將容器元素帶回版面配置為止。 發生此情況時，檢視器會自動繼續載入。
 
-   以下是建立檢視器執行個體、將最低必要組態選項傳遞至建構函式並呼叫`init()`方法的範例。 此範例假設以下情況：
+<!--
+   The following is an example of creating a viewer instance, passing the minimum necessary configuration options to the constructor and calling the `init()` method. The example assumes the following:
 
-   * 檢視器執行個體是`video360Viewer`。
-   * 預留位置`DIV`的名稱為`s7viewer`。
-   * 影像伺服URL為`https://s7d9.scene7.com/is/image`。
-   * 視訊伺服器URL是`https://s7d9.scene7.com/is/content`。
-   * 資產為`Viewers/space_station_360-AVS`。
+    * The viewer instance is `video360Viewer`. 
+    * The name of placeholder `DIV` is `s7viewer`. 
+    * The Image Serving URL is `https://s7d9.scene7.com/is/image`. 
+    * The video server URL is `https://s7d9.scene7.com/is/content`. 
+    * The asset is `Viewers/space_station_360-AVS`.
+-->
+
+<!--
 
    ```html {.line-numbers}
    <script type="text/javascript"> 
@@ -218,8 +229,13 @@ HTML5 Video360 Viewer提供一組標準使用者介面控制項供視訊播放�
    </script>
    ```
 
-   下列程式碼是嵌入固定大小Video360檢視器的簡單網頁的完整範例：
+-->
 
+<!--
+   The following code is a complete example of a trivial web page that embeds the Video360 Viewer with a fixed size:
+-->
+
+<!--
    ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
@@ -246,12 +262,16 @@ HTML5 Video360 Viewer提供一組標準使用者介面控制項供視訊播放�
    </script> 
    </body> 
    </html>
-   ```
+ ```
+ -->
 
-**高度不受限制的回應式設計內嵌**
+<!--  
+**Responsive design embedding with unrestricted height**
 
-透過回應式設計內嵌，網頁通常會有某種彈性的配置，可指定檢視器容器`DIV`的執行階段大小。 對於下列範例，假設網頁允許檢視器的容器`DIV`取得網頁瀏覽器視窗大小的40%，其高度不受限制。 網頁HTML程式碼如下所示：
+With responsive design embedding, the web page normally has some kind of flexible layout in place that dictates the runtime size of the viewer's container `DIV`. For the following example, assume that the web page allows the viewer's container `DIV` to take 40% of the web browser window size, leaving its height unrestricted. The web page HTML code would look like the following:
+-->
 
+<!--
 ```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
@@ -267,15 +287,21 @@ HTML5 Video360 Viewer提供一組標準使用者介面控制項供視訊播放�
 </body> 
 </html>
 ```
+-->
 
-將檢視器新增至這類頁面，類似於固定大小內嵌的步驟。 唯一的區別是您不需要明確定義檢視器大小。
+<!--
+Adding the viewer to such a page is similar to the steps for fixed size embedding. The only difference is that you do not need to explicitly define the viewer size.
 
-1. 正在將viewer JavaScript檔案新增至您的網頁。
-1. 定義容器DIV。
-1. 正在建立和初始化檢視器。
+1. Adding the viewer JavaScript file to your web page. 
+1. Defining the container DIV. 
+1. Creating and initializing the viewer.
 
-上述所有步驟與內嵌固定大小相同。 將容器DIV新增至現有的`"holder"` DIV。 下列程式碼為完整的範例。 請注意瀏覽器調整大小時檢視器大小的變化，以及檢視器外觀比例與資產的相符情形。
+All the steps above are the same as with the fixed size embedding. Add the container DIV to the existing `"holder"` DIV. 
 
+The following code is a complete example. Notice how viewer size changes when the browser is resized, and how the viewer aspect ratio matches the asset.
+-->
+
+<!--
 ```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
@@ -304,11 +330,15 @@ var video360Viewer = new s7viewers.Video360Viewer({
 </body> 
 </html>
 ```
+-->
 
-已定義寬度和高度的&#x200B;**回應式內嵌**
+<!--
+**Responsive Embedding with Width and Height Defined**
 
-如果有已定義寬度和高度的回應式內嵌，則網頁樣式會不同。 它同時提供大小給`"holder"` DIV，並將它置中於瀏覽器視窗中。 此外，網頁會將`HTML`和`BODY`專案的大小設定為100%。
+If there is responsive embedding with width and height defined, the web page styling is different. It provides both sizes to the `"holder"` DIV and center it in the browser window. Also, the web page sets the size of the `HTML` and `BODY` element to 100 percent.
+-->
 
+<!--
 ```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
@@ -332,8 +362,12 @@ height: 60%;
 </body> 
 </html>
 ```
+-->
 
-其餘的內嵌步驟與高度不受限制的回應式內嵌步驟相同。 產生的範例如下：
+<!--
+The rest of the embedding steps are identical to the steps used for responsive embedding with unrestricted height. 
+
+The resulting example is the following:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -372,11 +406,19 @@ var video360Viewer = new s7viewers.Video360Viewer({
 </html>
 ```
 
-**使用Setter型API內嵌**
+-->
 
-除了使用JSON型初始化之外，也可以使用setter型API和no-args建構函式。 使用此API建構函式不會接受任何引數，而設定引數是使用`setContainerId()`、`setParam()`和`setAsset()` API方法搭配個別的JavaScript呼叫所指定。
 
-下列範例說明如何將固定大小內嵌與setter型API搭配使用：
+<!--
+**Embedding Using Setter-based API**
+
+Instead of using JSON-based initialization, it is possible to use setter-based API and no-args constructor. Using this API constructor does not take any parameters and configuration parameters are specified using `setContainerId()`, `setParam()`, and `setAsset()` API methods with separate JavaScript calls.
+
+The following example illustrates using fixed size embedding with the setter-based API:
+
+-->
+
+<!--
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -403,3 +445,6 @@ video360Viewer.init();
 </body> 
 </html>
 ```
+
+-->
+
