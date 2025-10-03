@@ -34,7 +34,7 @@ ht-degree: 0%
 
 -->
 
-另請參閱[將URL連結至您的網頁應用程式](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=en#dynamic)。
+另請參閱[將URL連結至您的網頁應用程式](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=zh-Hant#dynamic)。
 
 * 如果您使用內嵌程式碼發佈Dynamic Media視訊，請將`Video360Player.ssl`新增至內嵌程式碼片段中的其他檢視器組態引數清單。
 
@@ -69,4 +69,4 @@ ht-degree: 0%
 
 -->
 
-另請參閱[將影片內嵌在網頁上](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html#dynamic)
+另請參閱[將影片內嵌在網頁上](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=zh-Hant#dynamic)
