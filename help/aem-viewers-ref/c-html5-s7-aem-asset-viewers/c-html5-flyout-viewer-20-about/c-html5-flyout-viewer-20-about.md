@@ -6,9 +6,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: 9b60330f-5348-431d-9682-cf97aace3679
-source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
+source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
 workflow-type: tm+mt
-source-wordcount: '2011'
+source-wordcount: '1941'
 ht-degree: 0%
 
 ---
@@ -147,30 +147,38 @@ ht-degree: 0%
    }
    ```
 
-   您可以在下列範例頁面上看到具有固定外部檢視器區域的行為。 請注意，當您在組之間切換時，外部檢視器大小不會變更：
+<!-- You can see the behavior with a fixed outer viewer area on the following sample page. Notice that when you switch between sets, the outer viewer size does not change:-->
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-outer-area.html?lang=zh-Hant](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-outer-area.html?lang=zh-Hant)
+<!--
 
-   若要將主要檢視維度設為靜態，請使用`Container` CSS選取器定義內部`.s7flyoutviewer .s7container` SDK元件的檢視器大小（以絕對單位表示）。 此外，您應將預設檢視器CSS設定為`.s7flyoutviewer`，以覆寫為`auto`最上層CSS類別定義的固定大小。
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-outer-area.html)
 
-   以下範例說明如何為內部`Container` SDK元件定義檢視器大小，以便在切換資產時，主要檢視區域不會變更其大小：
+-->
 
-   ```html {.line-numbers}
-   #s7viewer.s7flyoutviewer { 
-    width: auto; 
-    height: auto; 
-   }  
-   #s7viewer.s7flyoutviewer .s7container { 
-    width: 640px; 
-    height: 480px; 
-   }
-   ```
+若要將主要檢視維度設為靜態，請使用`Container` CSS選取器定義內部`.s7flyoutviewer .s7container` SDK元件的檢視器大小（以絕對單位表示）。 此外，您應將預設檢視器CSS設定為`.s7flyoutviewer`，以覆寫為`auto`最上層CSS類別定義的固定大小。
 
-   以下範例頁面顯示具有固定主檢視大小的檢視器行為。 請注意，當您在組之間切換時，主要檢視會維持靜態，而網頁內容會垂直移動：
+以下範例說明如何為內部`Container` SDK元件定義檢視器大小，以便在切換資產時，主要檢視區域不會變更其大小：
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-main-view.html?lang=zh-Hant](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-main-view.html?lang=zh-Hant)
+```html {.line-numbers}
+#s7viewer.s7flyoutviewer { 
+ width: auto; 
+ height: auto; 
+}  
+#s7viewer.s7flyoutviewer .s7container { 
+ width: 640px; 
+ height: 480px; 
+}
+```
 
-   此外，預設的檢視器CSS可立即為其外部區域提供固定大小。
+<!-- The following sample page shows viewer behavior with a fixed main view size. Notice that when you switch between sets, the main view remains static and the web page content moves vertically:-->
+
+<!--
+
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-main-view.html)
+
+-->
+
+此外，預設的檢視器CSS可立即為其外部區域提供固定大小。
 
 1. 正在建立和初始化檢視器。
 
@@ -302,7 +310,11 @@ var flyoutViewer = new s7viewers.FlyoutViewer({
 
 [即時示範](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[備用示範位置](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=zh-Hant)
+<!--
+
+[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
+
+-->
 
 ## 定義寬度和高度的彈性大小內嵌 {#section-0a329016f9414d199039776645c693de}
 

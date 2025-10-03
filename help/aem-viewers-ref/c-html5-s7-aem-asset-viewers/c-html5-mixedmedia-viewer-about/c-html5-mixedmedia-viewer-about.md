@@ -6,9 +6,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 65a54308-f9db-4458-a9c3-ccb1433af43c
-source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
+source-git-commit: 4964c2ac68b4baab7347d6d0e26e2237995720e8
 workflow-type: tm+mt
-source-wordcount: '2581'
+source-wordcount: '2511'
 ht-degree: 0%
 
 ---
@@ -185,32 +185,41 @@ ht-degree: 0%
    }
    ```
 
-   您可以在下列範例頁面上看到具有固定外部檢視器區域的行為。 請注意，當您在組之間切換時，外部檢視器大小不會變更：
+<!-- You can see the behavior with a fixed outer viewer area on the following sample page. Notice that when you switch between sets, the outer viewer size does not change:-->
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-outer-area.html?lang=zh-Hant](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-outer-area.html?lang=zh-Hant)
+<!--
 
-   若要將主要檢視維度設為靜態，請使用`Container` CSS選取器或使用`.s7mixedmediaviewer .s7container`修飾元，以絕對單位定義內部`stagesize` SDK元件的檢視器大小。
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-outer-area.html)
 
-   以下範例說明如何為內部`Container` SDK元件定義檢視器大小，以便在切換資產時，主要檢視區域不會變更其大小：
+-->
 
-   ```html {.line-numbers}
-   #s7viewer.s7mixedmediaviewer .s7container { 
-    width: 640px; 
-    height: 480px; 
-   }
-   ```
 
-   以下範例頁面顯示具有固定主檢視大小的檢視器行為。 請注意，當您在組之間切換時，主要檢視會維持靜態，而網頁內容會垂直移動：
+若要將主要檢視維度設為靜態，請使用`Container` CSS選取器或使用`.s7mixedmediaviewer .s7container`修飾元，以絕對單位定義內部`stagesize` SDK元件的檢視器大小。
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-main-view.html?lang=zh-Hant](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-main-view.html?lang=zh-Hant)
+以下範例說明如何為內部`Container` SDK元件定義檢視器大小，以便在切換資產時，主要檢視區域不會變更其大小：
 
-   您可以在Dynamic Media Classic的檢視器預設集記錄中設定`stagesize`修飾元，或透過`params`集合的檢視器初始化程式碼明確傳遞。 或者，如本說明的命令參考一節中所述，作為API呼叫，如下所示：
+```html {.line-numbers}
+#s7viewer.s7mixedmediaviewer .s7container { 
+ width: 640px; 
+ height: 480px; 
+}
+```
 
-   ```html {.line-numbers}
-   mixedMediaViewer.setParam("stagesize", "640,480");
-   ```
+<!-- The following sample page shows viewer behavior with a fixed main view size. Notice that when you switch between sets, the main view remains static and the web page content moves vertically: -->
 
-   此範例建議您使用以CSS為基礎的方法。
+<!--
+
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-main-view.html)
+
+   -->
+
+您可以在Dynamic Media Classic的檢視器預設集記錄中設定`stagesize`修飾元，或透過`params`集合的檢視器初始化程式碼明確傳遞。 或者，如本說明的命令參考一節中所述，作為API呼叫，如下所示：
+
+```html {.line-numbers}
+mixedMediaViewer.setParam("stagesize", "640,480");
+```
+
+此範例建議您使用以CSS為基礎的方法。
 
 1. 正在建立和初始化檢視器。
 
@@ -329,7 +338,11 @@ var mixedMediaViewer = new s7viewers.MixedMediaViewer({
 
 [即時示範](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[備用示範位置](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=zh-Hant)
+<!--
+
+[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
+
+-->
 
 ## 定義寬度和高度的彈性大小內嵌 {#section-0a329016f9414d199039776645c693de}
 

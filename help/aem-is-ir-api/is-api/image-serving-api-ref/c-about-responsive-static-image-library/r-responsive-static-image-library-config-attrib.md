@@ -5,9 +5,9 @@ title: 命令參考 — 組態屬性
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8cc645f8-03fe-4ac7-b23f-36536b60fdf6
-source-git-commit: 3df884c468ea89cc55b2b8ce13af01bfad454545
+source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '497'
 ht-degree: 0%
 
 ---
@@ -21,13 +21,13 @@ ht-degree: 0%
 選擇性.
 
 「影像伺服」提供之影像的URL。 如果URL不存在，則程式庫會使用`src`屬性中設定的值做為遞補內容。 此屬性會提供初始影像和動態影像，Responsive影像庫會從不同位置管理這些影像。
-<!--
-**Example** 
+
+**範例**
 
 ```
 <img data-src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360,720,940">
 ```
--->
+
 
 ## src {#section-5dbc1f9a3c274705adb9702e4c7af0b1}
 
@@ -35,15 +35,15 @@ ht-degree: 0%
 
 如果未設定`data-src`，`src`為必要項，且必須包含「影像伺服」提供之影像的URL。
 
-<!--
-**Example**
 
-Using data URI for the `src` attribute and Image Serving URL for the `data-src` attribute:
+**範例**
+
+使用`src`屬性的資料URI和`data-src`屬性的影像伺服URL：
 
 ```
 <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360,720,940">
 ```
--->
+
 
 ## 資料中斷點 {#section-3bf62a89ff3e40569848c1fe3ac7886c}
 
@@ -55,26 +55,26 @@ Using data URI for the `src` attribute and Image Serving URL for the `data-src` 
 
 多個「影像伺服」命令或影像預設集名稱會以「`&`」字元分隔。 如果「影像伺服」命令的值中有逗號，此類逗號會被`%2C`取代。 影像預設集名稱會以美元符號( `$`)包住。
 
-<!--
-**Examples**
 
-**Using breakpoints only**
+**範例**
+
+**僅使用中斷點**
 
 `<img src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360,720">`
 
-**Using Image Serving commands**
+**使用影像伺服命令**
 
 `<img src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360:op_sharpen=1,720:resMode=sharp2&op_usm=0.9%2C1.0%2C8%2C0">`
 
-**Using Image Presets**
+**使用影像預設集**
 
 `<img src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360:$ResponsiveImage_Low$,940:$ResponsiveImage_High$">`
 
-**Using Image Presets & Image Serving commands**
+**使用影像預設集和影像伺服命令**
 
 `<img src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360:qlt=50,940:$ResponsiveImage_High$">`
 
--->
+
 
 ## 資料模式 {#section-97caf43cf5ab4ca8b1b866d8f394a9a4}
 

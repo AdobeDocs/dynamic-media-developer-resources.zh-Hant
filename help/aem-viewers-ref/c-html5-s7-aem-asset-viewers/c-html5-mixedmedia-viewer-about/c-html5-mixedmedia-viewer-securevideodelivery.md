@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: f9651405-ebc6-4b1f-8fb6-031d0b295083
-source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
+source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
@@ -22,15 +22,25 @@ ht-degree: 0%
 
 根據您在Adobe Experience Manager中使用的Dynamic Media視訊發佈方法，`VideoPlayer.ssl`設定屬性的套用方式會有所不同，如下列所示：
 
-* 如果您使用URL發佈Dynamic Media視訊，則會將`VideoPlayer.ssl`附加至URL。 例如，若要強制進行安全視訊傳送，您可以將`&VideoPlayer.ssl=on`附加至下列檢視器URL範例的結尾：
+* 如果您使用URL發佈Dynamic Media視訊，則會將`VideoPlayer.ssl`附加至URL。
+
+<!-- For example, to force secure video delivery, you append `&VideoPlayer.ssl=on` to the end of the following viewer URL example: -->
+
+<!--
 
   ```
   https://demos-pub.assetsadobe.com/etc/dam/viewers/s7viewers/html5/MixedMediaViewer.html?asset=%2Fcontent%2Fdam%2FGeometrixx-Outdoors-New-Launch%2Fbackpack%2Fbackpack_mixed_media&config=/etc/dam/presets/viewer/MixedMedia_light&serverUrl=https%3A%2F%2Fadobedemo62-h.assetsadobe.com%2Fis%2Fimage%2F&contenturl=%2F&config2=/etc/dam/presets/analytics&videoserverurl=https://gateway-na.assetsadobe.com/DMGateway/public/demoCo&VideoPlayer.ssl=on
   ```
 
-  另請參閱[(將URL連結至您的Web應用程式](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=zh-Hant#dynamic)。
+-->
 
-* 如果您使用內嵌程式碼發佈Dynamic Media視訊，請將`VideoPlayer.ssl`新增至內嵌程式碼片段中的其他檢視器組態引數清單。 例如，若要強制HTTPS視訊傳送，您可以附加`&VideoPlayer.ssl=on`，如下列範例所示：
+另請參閱[(將URL連結至您的Web應用程式](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=en#dynamic)。
+
+* 如果您使用內嵌程式碼發佈Dynamic Media視訊，請將`VideoPlayer.ssl`新增至內嵌程式碼片段中的其他檢視器組態引數清單。
+
+<!-- For example, to force HTTPS video delivery, you append `&VideoPlayer.ssl=on` as in the following example: -->
+
+<!--
 
   ```
   <style type="text/css"> 
@@ -56,4 +66,6 @@ ht-degree: 0%
   </script>
   ```
 
-  另請參閱[(將影片內嵌在網頁上](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=zh-Hant#dynamic)。
+-->
+
+另請參閱[(將影片內嵌在網頁上](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html#dynamic)。

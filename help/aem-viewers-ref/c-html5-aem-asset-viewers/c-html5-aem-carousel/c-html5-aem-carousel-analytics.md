@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 9e321684-4861-4d81-b55c-66c77635930e
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,11 @@ ht-degree: 0%
 
 依預設，檢視器會傳送單一追蹤HTTP要求給已設定的影像伺服器，其中包含檢視器型別和版本資訊。
 
-若要與協力廠商分析系統整合，必須接聽`trackEvent`檢視器回呼，並視需要處理回呼函式的`eventInfo`引數。 下列程式碼為此類處理常式函式的範例：
+若要與協力廠商分析系統整合，必須接聽`trackEvent`檢視器回呼，並視需要處理回呼函式的`eventInfo`引數。
+
+<!-- The following code is an example of such handler function: -->
+
+<!--
 
 ```java {.line-numbers}
 var carouselViewer = new s7viewers.CarouselViewer({ 
@@ -41,6 +45,8 @@ var carouselViewer = new s7viewers.CarouselViewer({
 } 
 });
 ```
+
+-->
 
 檢視器會追蹤下列SDK使用者事件：
 
