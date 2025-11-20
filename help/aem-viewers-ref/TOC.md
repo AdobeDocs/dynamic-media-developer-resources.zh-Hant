@@ -13,7 +13,7 @@ ht-degree: 2%
 
 # Dynamic Media檢視器參考指南 {#library}
 
-+ [Dynamic Media檢視器參考指南](homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=zh-Hant) -->
++ [Dynamic Media檢視器參考指南](homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en) -->
 + [檢視器程式庫範例](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 + [系統需求](c-system-requirements-and-prerequisites.md)
 + [在同一部伺服器上安裝多個檢視器](t-installing-the-viewers.md)
