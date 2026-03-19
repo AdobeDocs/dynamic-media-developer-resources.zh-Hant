@@ -2,10 +2,11 @@
 title: 全景檢視器
 description: HTML5 Panoramic Viewer是顯示全景影像的影像檢視器。 此檢視器的目的是顯示球面全景，也稱為等矩形影像。 它支援透過迴轉運動自動平移和平移。 專為桌上型電腦和行動裝置所設計。 支援行動裝置的虛擬實境檢視模式可供使用。
 keywords: 回應式
-solution: Experience Manager
-feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
+solution: Experience Manager, Experience Manager Assets
+feature-set: Experience Manager, Experience Manager Assets
+feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
-source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '1916'
 ht-degree: 0%
@@ -94,7 +95,7 @@ HTML5 Panoramic Viewer支援透過拖曳或迴轉運動自動平移和導覽。
 
 回應式內嵌假設檢視器必須在執行階段調整大小來回應其容器DIV的大小變更。 最常見的使用案例是將檢視器新增到使用彈性配置的網頁。
 
-在回應模式中，檢視器的行為會因網頁調整其容器DIV大小的方式而異。 如果網頁僅設定容器DIV的寬度，並保持其高度不受限制，檢視器會根據所使用資產的外觀比例自動選擇其高度。 此方法可確保資產完全符合檢視方式，而不會在兩側加上任何邊框間距。 此使用案例最常用於使用回應式佈局架構(例如Bootstrap、Foundation等)的網頁。
+在回應模式中，檢視器的行為會因網頁調整其容器DIV大小的方式而異。 如果網頁僅設定容器DIV的寬度，並保持其高度不受限制，檢視器會根據所使用資產的外觀比例自動選擇其高度。 此方法可確保資產完全符合檢視方式，而不會在兩側加上任何邊框間距。 此使用案例最常用於使用回應式佈局架構（例如Bootstrap、Foundation等）的網頁。
 
 否則，如果網頁同時設定檢視器容器DIV的寬度和高度，則檢視器會填滿該區域，並遵循網頁版面配置所提供的大小。 一個很好的範例是內嵌檢視器至強制回應覆蓋圖，其中覆蓋圖會根據網頁瀏覽器視窗大小調整大小。
 
@@ -123,7 +124,7 @@ HTML5 Panoramic Viewer支援透過拖曳或迴轉運動自動平移和導覽。
 
 >[!NOTE]
 >
->僅參考頁面上的主要檢視器JavaScript `include`檔案。 請勿在網頁程式碼中參考任何其他JavaScript檔案（這些檔案可能由執行階段的檢視器邏輯下載）。 特別是，請勿直接參考檢視器從`Utils.js`內容路徑(所謂整合的HTML `/s7viewers`)載入的SDK5 SDK `include`資料庫。 原因在於`Utils.js`或類似的執行階段檢視器程式庫的位置完全由檢視器的邏輯管理，且位置會在檢視器發行版本之間變更。 Adobe不會在伺服器上保留舊版的次要檢視器`includes`。
+>僅參考頁面上的主要檢視器JavaScript `include`檔案。 請勿在網頁程式碼中參考任何其他JavaScript檔案（這些檔案可能由執行階段的檢視器邏輯下載）。 特別是，請勿直接參考檢視器從`Utils.js`內容路徑（所謂整合的HTML `/s7viewers`）載入的SDK5 SDK `include`資料庫。 原因在於`Utils.js`或類似的執行階段檢視器程式庫的位置完全由檢視器的邏輯管理，且位置會在檢視器發行版本之間變更。 Adobe不會在伺服器上保留舊版的次要檢視器`includes`。
 >
 >
 >因此，日後部署新產品版本時，將檢視器使用的任何次要JavaScript `include`的直接參照放在頁面上，會中斷檢視器功能。
@@ -275,7 +276,7 @@ var panoramicViewer = new s7viewers.PanoramicViewer({
 
 <!--
 
-[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=zh-Hant)
+[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 -->
 

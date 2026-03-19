@@ -2,11 +2,12 @@
 title: 自訂智慧型裁切視訊檢視器
 description: 自訂智慧型裁切視訊檢視器
 keywords: 回應式
-solution: Experience Manager
+solution: Experience Manager, Experience Manager Assets
+feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 13a7ced1-0c88-4e56-b46a-08eea7a46a5a
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '1266'
 ht-degree: 0%

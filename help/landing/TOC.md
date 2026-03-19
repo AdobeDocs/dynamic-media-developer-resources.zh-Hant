@@ -8,8 +8,8 @@ user-guide-title: Adobe Dynamic Media開發人員資源
 breadcrumb-title: Dynamic Media開發人員資源
 user-guide-description: 存取Dynamic Media開發人員資源，例如檢視器參考指南、影像生產系統API、影像服務和演算API，以及封存的Scene7發行說明。
 feature-set: Experience Manager Assets
-index: y
-source-git-commit: 3598b0247406d942b0f58b1c74aae4956590f5f8
+index: true
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '44'
 ht-degree: 2%
@@ -21,7 +21,8 @@ ht-degree: 2%
 
 + [首頁](home.md)
 
-<!--This TOC may not be necessary. Not sure, so leaving it in.
+<!--
+This TOC may not be necessary. Not sure, so leaving it in.
 + [Viewers Reference Guide](/help/aem-viewers-ref/homeviewers.md)
 + [IS/IR API](/help/aem-is-ir-api/homeisir.md)
 + [IPS API](/help/aem-ips-api/c-overview.md)

@@ -1,11 +1,12 @@
 ---
 title: 控制列
 description: 控制列是矩形的區域，其中包含並位於智慧型裁切視訊檢視器可用的所有UI控制項後面，例如播放/暫停按鈕和音量控制項。
-solution: Experience Manager
+solution: Experience Manager, Experience Manager Assets
+feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 8ea06e0a-705d-436a-9393-75a36381cba6
-source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 0%

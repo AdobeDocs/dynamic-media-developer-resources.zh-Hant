@@ -1,11 +1,12 @@
 ---
 title: 視訊
 description: 智慧型裁切視訊檢視器的URL命令。
-solution: Experience Manager
+solution: Experience Manager, Experience Manager Assets
+feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 7292f4e6-b687-4dfd-8806-aba364192b75
-source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '42'
 ht-degree: 11%
@@ -30,7 +31,7 @@ ht-degree: 11%
 ## 屬性 {#section-f42369774e2740dcb399626a0e4e930e}
 
 必填。 (除非使用`asset`引數。 檢視[外部視訊支援]
-(../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-external-video-support.md#concept-22c67fee43274a29b28ee16770b1b1f3)。)
+(#concept-22c67fee43274a29b28ee16770b1b1f3)。)
 
 ## 預設 {#section-d016470e92a74f98a18c4ab3489410a5}
 

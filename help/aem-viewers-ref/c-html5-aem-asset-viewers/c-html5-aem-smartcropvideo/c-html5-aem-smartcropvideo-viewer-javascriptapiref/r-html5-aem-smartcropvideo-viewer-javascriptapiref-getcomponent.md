@@ -1,11 +1,12 @@
 ---
 title: getComponent
 description: 智慧型裁切視訊檢視器的JavaScript API參考
-solution: Experience Manager
+solution: Experience Manager, Experience Manager Assets
+feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 76e028b5-e7d6-4cd8-b532-c54c82fd3ebb
-source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 0%
@@ -104,7 +105,7 @@ ht-degree: 0%
 </table>
 
 使用SDK API時，請務必使用[檢視器SDK名稱空間]中所述的正確完整SDK名稱空間
-(../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-namespace.md#concept-679bfabb3e3e4c12a285c4e9c4144153)。
+(#concept-679bfabb3e3e4c12a285c4e9c4144153)。
 
 如需特定元件的詳細資訊，請參閱檢視器SDK API檔案。
 

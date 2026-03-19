@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 67f8a58d-88f5-4993-9749-41a3c530adba
-source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '1017'
 ht-degree: 2%
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 `fmt=format[,` `[`*`pixelType`*`]`，`[`*`compression`*`]]`
 
-*`format`* - avif-alpha | avif | eps | f4m | gif-alpha | gif | heic | jpeg | jpeg2000-alpha | jpeg2000 | jpegxr-alpha | jpegxr | jpg | m3u8 | pdf | pjpeg | png-alpha | png | png8-alpha | png8 | swf-alpha | swf | swf3-alpha | swf3 | tif-alpha | tif | web-alpha | webp
+*`format`* - avif-alpha | avif | eps | f4m | gif-alpha | gif | gif | heic | jpeg | jpeg2000-alpha | jpeg2000 | jpegxr-alpha | jpegxr | jpg | m3u8 | pdf | pjpeg | png-alpha | png8-alpha | png8 | swf-alpha | swf3-alpha | swf3 | tif-alpha | tif | web-alpha | webp
 
 | *`format`* | 說明 |
 |---|---|
@@ -51,7 +51,7 @@ ht-degree: 2%
 | `webp-alpha` | 含Alpha色版的有損和無損WebP。 |
 | `webp` | 有損和無損WebP。 |
 
-*`pixelType`* - rgb | 灰色 | cmyk
+*`pixelType`* - rgb |灰色| cmyk
 
 | *`pixelType`* | 說明 |
 |---|---|
@@ -59,7 +59,7 @@ ht-degree: 2%
 | `gray` | 傳回灰階影像資料。 |
 | `rgb` | 傳回RGB影像資料。 |
 
-*`compression`* - jpeg | 有損 | 不失真 | lzw | 無 | zip
+*`compression`* - jpeg |失真|不失真| lzw |無| zip
 
 | *`compression`* | 說明 |
 |---|---|
@@ -79,7 +79,7 @@ ht-degree: 2%
 
 您可以使用`qlt=`來設定這些格式的JPEG編碼選項：JPEG、具有JPEG壓縮的TIFF、具有JPEG壓縮的PDF以及SWF。 WebP、JPEG 2000和JPEG XR也使用`qlt=`，但值會針對不同的格式產生不同的品質。 如果`quantize=`或`fmt=gif`，請使用`fmt=gif-alpha`。 如需詳細資訊，請參閱命令說明。 其他格式沒有可設定的選項。
 
-所有&#x200B;*`formats`*&#x200B;和&#x200B;*`pixelTypes`*&#x200B;會傳回8位元/畫素元件(GIF會傳回8位元/畫素)。
+所有&#x200B;*`formats`*&#x200B;和&#x200B;*`pixelTypes`*&#x200B;會傳回8位元/畫素元件（GIF會傳回8位元/畫素）。
 
 下表列出*`format`*與&#x200B;*`pixelType`*&#x200B;的有效組合、對應的HTTP回應MIME型別、是否可以內嵌ICC設定檔（請參閱[iccEmbed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e)），以及您可以套用哪些格式特定選項。
 

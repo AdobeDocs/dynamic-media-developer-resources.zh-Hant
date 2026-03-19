@@ -1,11 +1,12 @@
 ---
 title: 電子郵件共用
 description: 電子郵件共用工具包含新增至Social共用面板的按鈕，以及啟動工具時顯示的強制回應對話方塊。 按鈕的位置可完全由社交分享工具管理。
-solution: Experience Manager
+solution: Experience Manager, Experience Manager Assets
+feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: f2685d59-6b92-49cf-9359-dda602af4297
-source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '3029'
 ht-degree: 0%
@@ -241,7 +242,7 @@ background-color: #ffffff;
 .s7smartcropvideoviewer .s7emaildialog .s7closebutton
 ```
 
-關閉按鈕的&#x200B;**CSS屬性**
+關閉按鈕的**CSS屬性**
 
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
@@ -328,7 +329,7 @@ background-color: #ffffff;
 .s7smartcropvideoviewer .s7emaildialog .s7dialogfooter
 ```
 
-對話方塊頁尾&#x200B;**的**&#x200B;CSS屬性
+對話方塊頁尾**的**CSS屬性
 
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
@@ -527,7 +528,7 @@ background-color: #ffffff;
 .s7smartcropvideoviewer .s7emaildialog .s7dialogviewarea
 ```
 
-對話方塊檢視區域的&#x200B;**CSS屬性**
+對話方塊檢視區域的**CSS屬性**
 
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
@@ -571,7 +572,7 @@ background-color: #ffffff;
 
 如果此容器的高度似乎大於主對話方塊區域，元件會自動啟用垂直捲動。
 
-對話方塊主體的&#x200B;**CSS屬性**
+對話方塊主體的**CSS屬性**
 
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
@@ -623,7 +624,7 @@ background-color: #ffffff;
 
 此類別不適合控制標籤大小或位置，因為您可以將其套用至表單使用者介面中不同位置的文字。
 
-對話方塊標籤的&#x200B;**CSS屬性。 &#x200B;**
+對話方塊標籤的**CSS屬性。 **
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
@@ -959,7 +960,7 @@ background-color: #ffffff;
 .s7smartcropvideoviewer .s7emaildialog .s7dialogbody .s7dialogcontent
 ```
 
-對話方塊內容的&#x200B;**CSS屬**
+對話方塊內容的**CSS屬**
 
 <table id="table_9C5CBFC2482E4A46BE837573B0B02FE4"> 
  <tbody> 
@@ -1094,7 +1095,7 @@ background-color: #ffffff;
 .s7smartcropvideoviewer .s7emaildialog .s7dialogorigin
 ```
 
-對話方塊內容來源&#x200B;**的**&#x200B;CSS屬性
+對話方塊內容來源**的**CSS屬性
 
 <table id="table_51763B532A9C4AE8AE54B69933A8C0B5"> 
  <tbody> 

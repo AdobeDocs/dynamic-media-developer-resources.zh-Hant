@@ -4,7 +4,7 @@ user-guide-title: Dynamic Media影像提供與轉譯API
 breadcrumb-title: Dynamic Media影像提供與轉譯API
 feature-set: Experience Manager Assets
 user-guide-description: 檢視有關IS （影像提供）和IR （影像轉譯） API以及相關技術的檔案。
-source-git-commit: 347aa2f52bc6433043ba65fc75fe9f7f221e6aa3
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '1454'
 ht-degree: 8%
@@ -14,7 +14,7 @@ ht-degree: 8%
 
 # Dynamic Media影像提供與轉譯API {#image-serving-api}
 
-+ [動態媒體影像提供與影像轉譯API首頁](homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html?lang=zh-Hant) -->
++ [動態媒體影像提供與影像轉譯API首頁](homeisir.md)
 + [關於此版本](r-about-this-release.md)
 + [系統需求和先決條件](r-requirements-and-prerequisites.md)
 + [磁碟空間需求與建議](r-disk-space-reqs.md)
@@ -458,7 +458,7 @@ ht-degree: 8%
          + [DigimarcInfo](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-digimarcinfo-cat.md)
          + [過期](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-expiration-cat.md)
          + [Id](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-id-cat.md)
-         + [ImageSet](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md)
+         + [影像集](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md)
          + [地圖](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-map-cat.md)
          + [遮色片路徑](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-maskpath-cat.md)
          + [修飾元](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-modifier-cat.md)
@@ -765,3 +765,9 @@ ht-degree: 8%
       + [封包樣式檔案的選項](ir-api/vntc/utilities/c-ir-vignette-converter-vntc/r-ir-options-for-cabinet-style-files.md)
       + [傳回](ir-api/vntc/utilities/c-ir-vignette-converter-vntc/r-ir-returns.md)
       + [輸出](ir-api/vntc/utilities/c-ir-vignette-converter-vntc/r-ir-output.md)
+
+<!--
+Comment from the first link in the TOC:
+(https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html)
+Comments within the TOC can cause rendering problems.
+-->

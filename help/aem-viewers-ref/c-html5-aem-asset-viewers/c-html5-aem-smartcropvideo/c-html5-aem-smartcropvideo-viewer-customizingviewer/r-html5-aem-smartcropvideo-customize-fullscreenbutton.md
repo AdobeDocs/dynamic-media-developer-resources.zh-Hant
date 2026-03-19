@@ -1,11 +1,12 @@
 ---
 title: 全熒幕按鈕
 description: 使用者按一下全熒幕按鈕時，智慧型裁切視訊播放器會進入或退出全熒幕模式。
-solution: Experience Manager
+solution: Experience Manager, Experience Manager Assets
+feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 79b57f6d-17d2-48af-9414-b0ab9d24fbdc
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 0%

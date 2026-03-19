@@ -1,18 +1,18 @@
 ---
 description: 影像集資料。 提供定義Dynamic Media檢視器使用的已排序影像集和控制屬性集的機制。
 solution: Experience Manager
-title: ImageSet
+title: 影像集
 feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,User
 exl-id: eacf0553-8cec-4a1d-80a5-6fe37b92b5bf
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '683'
 ht-degree: 1%
 
 ---
 
-# ImageSet{#imageset}
+# 影像集{#imageset}
 
 影像集資料。 提供定義Dynamic Media檢視器使用的已排序影像集和控制屬性集的機制。
 
@@ -48,7 +48,7 @@ ht-degree: 1%
 | `*`basicSwatchSet`*` | `*`swatchItem`*&#42;[',' *`swatchItem`*]` |
 |---|---|
 | `*`色票專案`*` | `*`imageId`*[';' *`色票`*]` |
-| `*`色票`*` | `*`色票識別碼`*|solidColorSpecifier` |
+| `*`色票`*` | `*`色票識別碼`*`\|`solidColorSpecifier` |
 | `*`imageId`*` | IS影像參考（目錄/ID） |
 | `*`色票識別碼`*` | IS影像參考（目錄/ID） |
 | `*`solidColorSpecificer`*` | ` '{0x' *`rrggbb`* [ *`標籤`*]'}'` |
@@ -61,7 +61,7 @@ ht-degree: 1%
 
 | `*`hierarchicalSwatchSet`*` | `*`hierarchicalSwatchItem`* &#42;[ ',' *`hierarchicalSwatchItem`* ]` |
 |---|---|
-| `*`hierarchicalSwatchItem`*` | `*`色票專案`* | { *`basicSwatchSetId`* ';' *`色票`* }` |
+| `*`hierarchicalSwatchItem`*` | `*`swatchItem`*` \| `{` *`basicSwatchSetId`* &#39;；&#39; *`swatch`* `}` |
 | `*`basicSwatchSetId`*` | 定義基本色票集的目錄記錄的IS參考（目錄/ID） |
 
 **基本迴轉集**
@@ -76,7 +76,7 @@ ht-degree: 1%
 
 | `*`2dSpinItem`*` | `*`2dSpinSet`* *`2dSpinItem`* &#42;[ ',' *`2dSpinItem`* ]` |
 |---|---|
-| `*`2dSpinItem`*` | `*`imageId`* | { '{' *`basicSpinSet`* '}' } | *`basicSpinSetId`*` |
+| `*`2dSpinItem`*` | `*`imageId`*` \| `{` &#39;{&#39; *`basicSpinSet`* &#39;}&#39; `}` \| `*`basicSpinSetId`*` |
 | `*`basicSpinSetId`*` | 定義基本迴轉集的目錄記錄的IS參考（目錄/ID） |
 
 **頁面集**
@@ -93,12 +93,12 @@ ht-degree: 1%
 
 | `*`媒體集`*` | `*`專案`* &#42;[ , *`專案`* ]` |
 |---|---|
-| `*`專案`*` | ` { *`videoItem`* | *`recutItem`* | *`imageItem`*}} | *`setItem`* } [ ; [ *`ID`* ] [ ; [ *`保留`* ] ] ]` |
+| `*`專案`*` | `{ *`videoItem`*` \| *`recutItem`* \| *`imageItem`*`}}`\|*`setItem`*`}` `[` ； `[`*`ID`*`]` `[` ； `[`*`reserved`*`] ] ]` |
 | `*`videoItem`*` | `*`視訊`* ; *`色票識別碼`*` |
 | `*`recutItem`*` | `*`重新剪輯`* ; *`色票識別碼`*` |
 | `*`imageItem`*` | `*`imageId`* ; [ *`swatchId`* ]` |
-| `*`setItem`*` | ` { *`setId`* | { '{' *`inlineSet`* '}' } } ; *`swatchId`*` |
-| `*`識別碼`*` | `media type identifier [ img | basic | advanced_image | img | img_set | advanced_imageset | advanced_swatchset | spin | video ]` |
+| `*`setItem`*` | `{ *`setId`*` \| `{` &#39;{&#39; *`inlineSet`* &#39;}&#39; `} }` ； *`swatchId`* |
+| `*`識別碼`*` | `media type identifier` `[` img \|基本\|進階影像\| img \| img \| img_set \| advanced_imageset \| advanced_swatchset \|迴轉\|影片`]` |
 | `*`色票識別碼`*` | 是影像ID |
 | `*`影片`*` | 視訊/動畫檔案路徑或靜態目錄ID |
 | `*`重新剪輯`*` | 重新剪輯定義XML檔案路徑或靜態目錄ID |

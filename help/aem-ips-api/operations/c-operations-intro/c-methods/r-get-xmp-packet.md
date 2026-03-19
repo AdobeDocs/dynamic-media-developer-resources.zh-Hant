@@ -5,7 +5,7 @@ title: getXMPPacket
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 76e595bd-e598-40e8-aba3-b270fcf4d800
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '70'
 ht-degree: 20%
@@ -30,11 +30,11 @@ ht-degree: 20%
 
 ## 參數 {#section-b4075df0e4414b00b961d978d5471db9}
 
-**輸入(getXMPPacketParam**
+**輸入(getXMPPacketParam)**
 
 | 名稱 | 類型 | 必要 | 說明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 包含您要傳回之封包的公司控制代碼（例如，`c|656`）。 |
+| companyHandle | `xsd:string` | 是 | 公司控制代碼包含您要傳回的封包（例如，`c`\|`656`）。 |
 | assetHandle | `xsd:string` | 是 | 應擷取XMP封包的資產。 |
 
 **輸出(getXMPPacketReturn)**
