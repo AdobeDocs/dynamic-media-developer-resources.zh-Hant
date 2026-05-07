@@ -4,9 +4,9 @@ user-guide-title: Dynamic Media影像提供與轉譯API
 breadcrumb-title: Dynamic Media影像提供與轉譯API
 feature-set: Experience Manager Assets
 user-guide-description: 檢視有關IS （影像提供）和IR （影像轉譯） API以及相關技術的檔案。
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+source-git-commit: 6c2c23327affd02708d05bff3859cf8da746eabf
 workflow-type: tm+mt
-source-wordcount: '1454'
+source-wordcount: '1459'
 ht-degree: 8%
 
 ---
@@ -510,7 +510,7 @@ ht-degree: 8%
       + [規則集](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/r-ruleset-rule.md)
       + [替代](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/r-substitution-rule.md)
    + [影像伺服器Proxy](is-api/image-serving-api-ref/r-image-server-proxy.md)
-   + [影像伺服器範例](is-api/image-serving-api-ref/r-examples-is.md)
+   + {hide-from-toc}[影像伺服器範例](is-api/image-serving-api-ref/r-examples-is.md)
    + 回應式靜態影像程式庫 {#responsive-static-image-library}
       + [回應式靜態影像程式庫](is-api/image-serving-api-ref/c-about-responsive-static-image-library/c-about-responsive-static-image-library.md)
       + [使用Responsive影像資料庫](is-api/image-serving-api-ref/c-about-responsive-static-image-library/t-using-responsive-static-image-library.md)
