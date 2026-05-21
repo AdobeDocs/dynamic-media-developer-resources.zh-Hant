@@ -100,4 +100,4 @@ ht-degree: 9%
 
 >[!MORELIKETHIS]
 >
->* [影像伺服API參考： op_usm](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-op-usm.html)
+>* [影像伺服API參考： op_usm](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-op-usm.html?lang=zh-Hant)
