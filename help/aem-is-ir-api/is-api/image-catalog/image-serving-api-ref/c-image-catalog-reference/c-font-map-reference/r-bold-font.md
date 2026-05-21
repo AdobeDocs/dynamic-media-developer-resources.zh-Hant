@@ -1,14 +1,18 @@
 ---
-description: 粗體旗標。 指定當RTF粗體指令(\b)要求時，是否應使用此字型對應記錄所參考的字型檔案。
+description: 粗體旗標。 指定當RTF粗體指令(b)要求時，是否應使用此字型對應記錄所參考的字型檔案。
 solution: Experience Manager
 title: 粗體
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3a39bb3b-e518-400e-8e24-0ebfb55777c4
 TQID: 'https://experienceleague.adobe.com/qrcoOa6usgy5U4fIHu1rst6F4kVWUKRbEPqKcikykdE'
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
 source-wordcount: 67
