@@ -5,9 +5,17 @@ title: 要求鎖定
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7ac727ef-3775-4884-b9db-bfae171a0f9d
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/9icGIK7meNSVUzYnsFBFM-GwG7KLe90bMDuqN89xmMk'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: 229
 ht-degree: 0%
 
 ---
@@ -16,11 +24,11 @@ ht-degree: 0%
 
 為了減少篡改請求的機會，提供簡單的鎖定工具。
 
-如果設定了attribute：：RequestLock，則必須以`&xxxx`的格式將鎖定值附加至請求，其中xxxx為四位數的十六進位值。 這個十六進位值是使用套用至要求&#x200B;*修飾元*&#x200B;部分的簡單雜湊演演算法所產生（在&#39;？&#39;之後） 會將URL路徑與&#x200B;*修飾元*&#x200B;分開。 這必須在要求完全經過http編碼之後，但在其（可選）模糊化之前完成。 將請求去模糊化後，伺服器會針對修飾元字串使用相同的雜湊演演算法（排除最後5個字元，其中包含鎖定值）。 如果產生的鍵與鎖定不符，則會拒絕要求。
+如果設定了attribute：：RequestLock，則必須以`&xxxx`的格式將鎖定值附加至請求，其中xxxx為四位數的十六進位值。 這個十六進位值是透過套用至要求&#x200B;*修飾元*&#x200B;部分的簡單雜湊演演算法所產生（在&#39;？&#39;之後，將URL路徑與&#x200B;*修飾元*&#x200B;分開）。 這必須在要求完全經過http編碼之後，但在其（可選）模糊化之前完成。 將請求去模糊化後，伺服器會針對修飾元字串使用相同的雜湊演演算法（排除最後5個字元，其中包含鎖定值）。 如果產生的鍵與鎖定不符，則會拒絕要求。
 
 >[!IMPORTANT]
 >
->如果您啟用此功能，請注意，其使用方式有一些限制，包括下列專案：<br>- Dynamic Media使用者介面可能無法顯示&#x200B;**[!UICONTROL 上次發佈]**&#x200B;欄位的正確詳細資料。 不過，這不會影響發佈。<br> — 目前，啟用&#x200B;**[!UICONTROL 要求模糊化]**&#x200B;和&#x200B;**[!UICONTROL 要求鎖定]**&#x200B;時，HLS視訊串流無法運作。<br> — 目前，有些Dynamic Media檢視器在啟用&#x200B;**[!UICONTROL 要求模糊化]**&#x200B;和&#x200B;**[!UICONTROL 要求鎖定]**&#x200B;時無法運作。
+>如果您啟用此功能，請注意，其使用方式有一些限制，包括下列專案：<br>- Dynamic Media使用者介面可能無法顯示&#x200B;**[!UICONTROL 上次發佈]**&#x200B;欄位的正確詳細資料。 不過，此影響不會影響發佈。<br> — 目前，啟用&#x200B;**[!UICONTROL 要求模糊化]**&#x200B;和&#x200B;**[!UICONTROL 要求鎖定]**&#x200B;時，HLS視訊串流無法運作。<br> — 目前，啟用&#x200B;**[!UICONTROL 要求模糊化]**&#x200B;和&#x200B;**[!UICONTROL 要求鎖定]**&#x200B;時，有些Dynamic Media檢視器無法運作。
 
 產生請求鎖定值的C++範常式式碼：
 

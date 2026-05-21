@@ -5,9 +5,17 @@ title: 限制和已知問題
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: fd32456b-9d99-4e82-a61c-2fc4d7030630
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/TCVO43J9ABVIbKSBwPE6jSfMR8I-2sc-7Nj-gGDEyPM'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '1233'
+source-wordcount: 1250
 ht-degree: 0%
 
 ---
@@ -21,7 +29,7 @@ ht-degree: 0%
 * 行數未超過`\copyfitmaxlines`設定的上限以及文字輸入中的明確行數。
 * 影像集中必須搭配大括弧和括弧。 如果大括弧和括弧不相符，則必須將URL編碼。
 * 伺服器端全域回應時間警示包含錯誤回應。
-* 將`id=`命令與影像或遮罩要求搭配使用時，目前需要`rect=`命令。
+* 將`rect=`命令與影像或遮罩要求搭配使用時，目前需要`id=`命令。
 
 ## 已知差異textPs=與text= {#section-16ede4c13a7648feb0d2fc93341fd4aa}
 
@@ -74,7 +82,7 @@ Digimarc程式庫拒絕將Digimarc浮水印套用至已偵測到的影像。 如
 
   *範例*：
 
-  `/is/image/MyCompany?src=/YourCompany/MyImage` 。
+  `/is/image/MyCompany?src=/YourCompany/MyImage` .
 
   而非： `/is/image/MyCompany?src=YourCompany/MyImage` 。
 
@@ -88,7 +96,7 @@ Digimarc程式庫拒絕將Digimarc浮水印套用至已偵測到的影像。 如
 
   針對影像演算非金字塔暈映，請增加[!DNL install_root/ImageServing/bin/ImageServerRegistry.xml]組態檔中IrMaxNonPyrVignetteSize的屬性值。
 
-  對於影像伺服非金字塔TIFF，請在`MaxNonDsfSize`設定檔中增加[!DNL install_root/ImageServing/bin/ImageServerRegistry.xml]的屬性值。
+  對於影像伺服非金字塔TIFF，請在[!DNL install_root/ImageServing/bin/ImageServerRegistry.xml]設定檔中增加`MaxNonDsfSize`的屬性值。
 
 * Adobe [!DNL Photoshop] CS3預設不會儲存圖層式PSD檔案為複合影像。
 
@@ -105,7 +113,7 @@ Digimarc程式庫拒絕將Digimarc浮水印套用至已偵測到的影像。 如
   使用`fmt=`變更回覆影像格式
 
 * HTTP回應影像資料在壓縮後（包括檔案標頭）的大小上限為16 MB。
-* 「 ..」 不允許在HTTP要求的任何路徑元素中使用。
+* &quot; ..&quot; 不允許在HTTP要求的任何路徑元素中使用。
 * 解除安裝可能會從&#x200B;*[!DNL install_root]*&#x200B;或任何子資料夾中移除使用者建立或修改的檔案。 在解除安裝之前，將此類檔案複製到其他位置。
 
 ## 僅適用於影像伺服的限制 {#section-b08ad535e4454265b8157dec244c4faf}
@@ -132,7 +140,7 @@ Digimarc程式庫拒絕將Digimarc浮水印套用至已偵測到的影像。 如
 
   *因應措施*
 
-  在`svgProvider.fontRoot=`中設定屬性[!DNL install_root/ImageServing/conf/PlatformServer.conf]。
+  在[!DNL install_root/ImageServing/conf/PlatformServer.conf]中設定屬性`svgProvider.fontRoot=`。
 
 * 裁切目前使用`bgColor=`而非`color=`來填滿任何新的延伸區域。
 
@@ -152,4 +160,4 @@ Digimarc程式庫拒絕將Digimarc浮水印套用至已偵測到的影像。 如
 
 ## 僅適用於公用程式的限制 {#section-906a6b2378154b3da122b2332983f7a5}
 
-透過`ImageConvert`停止時，`control-c`有時會因分段錯誤而當機。
+透過`control-c`停止時，`ImageConvert`有時會因分段錯誤而當機。

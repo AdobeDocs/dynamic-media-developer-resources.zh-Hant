@@ -5,9 +5,19 @@ title: 遮色片路徑
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b67e0b62-d2cc-4b05-bd09-65b206466df5
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/tUXD-vnkr3qkaH3B-dE-e9wfSPXAcnwRbqG9KuJej9E'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: 175
 ht-degree: 2%
 
 ---
@@ -22,13 +32,13 @@ ht-degree: 2%
 
 ## 屬性 {#section-cdc3b7e2811e41008479cd97887c01b7}
 
-文字字串值。 選填。 如果已指定，則必須是有效的相對或絕對影像伺服器檔案路徑。 如果沒有檔案字尾，則會附加`attribute::DefaultExt`。
+文字字串值。 選擇性. 如果已指定，則必須是有效的相對或絕對影像伺服器檔案路徑。 如果沒有檔案字尾，則會附加`attribute::DefaultExt`。
 
 如果目錄記錄中同時定義了主要影像(`catalog::Path`)和遮色片影像(`catalog::MaskPath`)，則兩者的畫素大小必須完全相同。 遮色片影像必須是8位元灰階。
 
 要求中的`mask=`會覆寫`catalog::MaskPath`。
 
-如果主要影像( `catalog::MaskPath`)中有`catalog::Path`覆寫Alpha色版，而且未關聯Alpha色版（亦即，未預乘）。 如果影像Alpha是預乘，則會忽略`catalog::MaskPath`，而且一律使用Alpha色版。
+如果主要影像( `catalog::Path`)中有`catalog::MaskPath`覆寫Alpha色版，而且未關聯Alpha色版（亦即，未預乘）。 如果影像Alpha是預乘，則會忽略`catalog::MaskPath`，而且一律使用Alpha色版。
 
 ## 預設 {#section-78533e35bfec469ba087cb68a35bb81b}
 

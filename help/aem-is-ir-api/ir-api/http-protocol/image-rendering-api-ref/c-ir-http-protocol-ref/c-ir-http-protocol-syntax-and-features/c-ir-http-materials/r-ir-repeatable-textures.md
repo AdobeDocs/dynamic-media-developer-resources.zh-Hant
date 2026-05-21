@@ -5,9 +5,19 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3693498b-994a-460a-8b2e-780a1482d37a
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+TQID: 'https://experienceleague.adobe.com/hWfVo7g-LL9l-G8FkN4HZ4B1X7uX85LlklZFjNBsjZI'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: 251
 ht-degree: 3%
 
 ---
@@ -16,7 +26,7 @@ ht-degree: 3%
 
 可重複材質包括內部和外部材質，例如織物（包括服裝和室內裝飾）、牆面到牆面地板、牆紙、檯面材質、木紋材質、屋頂和側邊材質，以及任何其他一般材質。
 
-可重複紋理可套用至平面、流程線、草繪、平面、壁和機櫃物件。 套用至不可紋理的物件時，該物件會以`color=`上色（如果未指定`bgc=`，則使用`color=`）。
+可重複紋理可套用至平面、流程線、草繪、平面、壁和機櫃物件。 套用至不可紋理的物件時，該物件會以`color=`上色（如果未指定`color=`，則使用`bgc=`）。
 
 如果材質包含指定影像的`src=`屬性，且材質發生於貼花或牆壁邊界以外的MSS中，則會視為材質。
 

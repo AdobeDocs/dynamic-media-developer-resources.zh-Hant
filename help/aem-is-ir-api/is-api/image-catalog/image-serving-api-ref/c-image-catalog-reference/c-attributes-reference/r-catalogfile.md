@@ -5,10 +5,18 @@ title: 目錄檔案
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 240a3884-68dd-474c-83a6-d79fc5b6c300
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/MhxEBtyw3JIvMg5miQotPPCeoLeWATtXy0fbRtE7ePs'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 2%
+source-wordcount: 108
+ht-degree: 3%
 
 ---
 
@@ -20,7 +28,7 @@ ht-degree: 2%
 
 ## 屬性 {#section-6da55f145ecd4e31a5de52637a436983}
 
-一或多個文字字串值，以逗號分隔。 選填。 每個值都必須是絕對檔案路徑或相對於目錄資料夾的路徑。
+一或多個文字字串值，以逗號分隔。 選擇性. 每個值都必須是絕對檔案路徑或相對於目錄資料夾的路徑。
 
 ## 預設 {#section-80f91cd7a6b2479ebb310319e9c74da7}
 

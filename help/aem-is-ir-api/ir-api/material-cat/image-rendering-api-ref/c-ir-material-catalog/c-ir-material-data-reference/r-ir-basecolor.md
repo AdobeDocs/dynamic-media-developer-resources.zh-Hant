@@ -5,9 +5,17 @@ title: 基色
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 57de25f9-ed99-4d4c-ac0e-08d382e8a36f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/m8Q2EVcHDmyTgZGv2AdIEoYfu9r9D38ha4kk-6OXE7w'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: 78
 ht-degree: 3%
 
 ---
@@ -16,7 +24,7 @@ ht-degree: 3%
 
 主影像顏色。 減色顏色，用於紋理上色。 應該是紋理影像中的平均主色。
 
-如果沒有`BaseColor`的紋理材質套用至非紋理暈映物件，您也可以使用`catalog::Color`做為填色色彩。
+如果沒有`catalog::Color`的紋理材質套用至非紋理暈映物件，您也可以使用`BaseColor`做為填色色彩。
 
 ## 屬性 {#section-d9aec235f28b402581cf2277f5fc6fbb}
 

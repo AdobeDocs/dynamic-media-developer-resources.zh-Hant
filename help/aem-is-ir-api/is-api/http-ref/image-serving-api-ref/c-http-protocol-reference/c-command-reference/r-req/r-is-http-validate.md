@@ -5,10 +5,18 @@ title: 驗證
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 88424371-45a0-43bb-af49-2e8568b7b44c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/TfgOIjG2q1CKAulErZYftqmKnCocuSF-H-dQTj4xsFI'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 1%
+source-wordcount: 105
+ht-degree: 2%
 
 ---
 
@@ -35,4 +43,4 @@ ht-degree: 1%
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>`是JSONP回應中出現的JS處理常式名稱。 僅允許a-z、A-Z和0-9字元。 選填。 預設值為`s7jsonResponse`。
+`<reqHandler>`是JSONP回應中出現的JS處理常式名稱。 僅允許a-z、A-Z和0-9字元。 選擇性. 預設值為`s7jsonResponse`。

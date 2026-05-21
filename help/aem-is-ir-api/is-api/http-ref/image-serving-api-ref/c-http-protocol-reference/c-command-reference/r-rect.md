@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1870001b-7904-470f-9582-984d453509ca
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/v-sAA1KXCiZvFp6NATVZtxYxnQCji3YJZCFa-hcHQYA'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: 366
 ht-degree: 1%
 
 ---
@@ -25,7 +33,7 @@ ht-degree: 1%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname">大小</span> </p></td> 
-  <td class="stentry"> <p>ROI的大小（畫素，int， int）。 指定回覆影像大小。 影像在檢視影像未涵蓋的區域以<span class="codeph"> bgc=</span>填滿(或若要求中有<span class="codeph"> fmt=*-alpha</span>則保持透明)。 </p></td> 
+  <td class="stentry"> <p>ROI的大小（畫素，int， int）。 指定回覆影像大小。 影像在檢視影像未涵蓋的區域以<span class="codeph"> bgc=</span>填滿（或若要求中有<span class="codeph"> fmt=*-alpha</span>則保持透明）。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname">比例</span> </p></td> 
@@ -65,7 +73,7 @@ ht-degree: 1%
 
 任何延伸至檢視影像外部的ROI區域都會填入`bgc=`。
 
-重要`rect=`套用在&#x200B;*最後縮放和符合*、`scl=`、`wid=`、`hei=`、`fit=`和`rgn=`的`align=`之後。
+重要`rect=`套用在&#x200B;*最後縮放和符合`scl=`、`wid=`、`hei=`、`fit=`、`rgn=`和`align=`的*&#x200B;之後。
 
 ## 預設 {#section-b296d3bbfb19441f87137a452b70f19a}
 

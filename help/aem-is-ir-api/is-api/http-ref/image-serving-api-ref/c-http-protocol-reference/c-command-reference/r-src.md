@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 88b89e70-59cf-4fb9-bbe7-0ac5eff792f1
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+TQID: 'https://experienceleague.adobe.com/4BChH5cLIy-7A3mnQqqo0S7Z4XfoC4T-34gI-YM-tGY'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: 192
 ht-degree: 2%
 
 ---
@@ -43,9 +51,9 @@ ht-degree: 2%
 
 ## 屬性 {#section-2c22bb89a35d470f833df8ba898efd93}
 
-圖層屬性。 若為`layer=0`，則套用至`layer=comp`。 在相同的圖層中，與`text=`和`textPs=`互斥；最後出現的`text=`、`textPs=`或`src=`會佔上風，並判斷這是影像圖層還是文字圖層。 被效果圖層忽略。
+圖層屬性。 若為`layer=comp`，則套用至`layer=0`。 在相同的圖層中，與`text=`和`textPs=`互斥；最後出現的`text=`、`textPs=`或`src=`會佔上風，並判斷這是影像圖層還是文字圖層。 被效果圖層忽略。
 
-*`object`*無法解析為其`src=`中包含`mask=`或`catalog::Modifier`命令的另一個目錄記錄。 （請使用請求巢狀來達到類似的效果。）
+*`object`*無法解析為其`catalog::Modifier`中包含`src=`或`mask=`命令的另一個目錄記錄。 （請使用請求巢狀來達到類似的效果。）
 
 `is`、`ir`和`fxg`首碼區分大小寫。
 

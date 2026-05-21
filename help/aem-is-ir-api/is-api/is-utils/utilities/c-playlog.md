@@ -5,9 +5,17 @@ title: '''playlog''公用程式'
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e0213978-3a1d-44b4-82bf-4527b980b29e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/z8SkpY0A2aAo5ULL61m5uUiesuovSrcVjhzNRGbkAUQ'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: 437
 ht-degree: 0%
 
 ---
@@ -47,7 +55,7 @@ playlog公用程式可用來預先產生HTTP回應快取的內容。
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -x <span class="varname">尾碼</span> </span> </p> </td> 
-  <td class="stentry"> <p>附加至從記錄檔擷取之要求的尾碼；可用來將播放要求與記錄檔中的即時要求分開；「？」 或'&amp;'分隔符號會自動插入；尾碼可依大括弧內的位置參考任何記錄欄位，預設值對應於md5簽名欄位。 </p> <p>預設： <span class="codeph">播放記錄檔={25} </span>) </p> </td> 
+  <td class="stentry"> <p>附加至從記錄檔擷取之要求的尾碼；可用來將播放的要求與記錄檔中的即時要求分開；會自動插入'？'或'&amp;'分隔符號；尾碼可依大括弧內的位置參考任何記錄欄位，預設與md5簽名欄位相對應。 </p> <p>預設： <span class="codeph">播放記錄檔={25} </span>) </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -v </span> </p> </td> 

@@ -5,9 +5,17 @@ title: 影像地圖支援
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 58e7523f-1615-4da4-bb09-a995bf427bfc
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/NJMiADA-R6aTQyrhd-CCP8pGFY-rjcIRfxiQ-4cRmRk'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: 313
 ht-degree: 0%
 
 ---
@@ -22,7 +30,7 @@ eCatalog搜尋檢視器支援在主檢視上方呈現影像地圖圖示。
 
 ## 重新導向至外部網頁 {#section-32ebe3c3a7f74892a428c5d48801de4d}
 
-影像地圖的`href`屬性具有外部資源的URL (明確指定，或包裝在其中一個支援的JavaScript範本函式中)： `loadProduct()`、`loadProductCW()`和`loadProductPW()`。
+影像地圖的`href`屬性具有外部資源的URL （明確指定，或包裝在其中一個支援的JavaScript範本函式中）： `loadProduct()`、`loadProductCW()`和`loadProductPW()`。
 
 以下是簡單URL重新導向的範例：
 

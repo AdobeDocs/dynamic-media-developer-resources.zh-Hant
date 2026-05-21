@@ -5,10 +5,18 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: e40293be-d00f-44c1-8ae7-521ce3312ca8
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+TQID: 'https://experienceleague.adobe.com/-sHJjbnmxKSlU8TiOx96f1fgRUVWElHZ6KAqhy0HW0c'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 0%
+source-wordcount: 716
+ht-degree: 2%
 
 ---
 
@@ -65,19 +73,19 @@ https://<server>/scene7/UploadFile
 
 |  HTTP POST表單元件  |  說明  |
 |---|---|
-| `auth`  |   必填。 指定驗證和使用者端資訊的XML authHeader檔案。 請參閱&#x200B;**SOAP**&#x200B;下的[要求驗證](/help/aem-ips-api/c-wsdl-versions.md)。 |
-| `file params`  |   選填。 您可以包含一個或多個要隨每個POST請求上傳的檔案。 每個檔案部分都可在Content-Disposition標頭中包含一個檔案名稱引數，如果未指定`uploadPostParams/fileName`引數，該引數將用作IPS中的目標檔案名稱。 |
+| `auth`  |   必要. 指定驗證和使用者端資訊的XML authHeader檔案。 請參閱[SOAP](/help/aem-ips-api/c-wsdl-versions.md)下的&#x200B;**要求驗證**。 |
+| `file params`  |   選擇性. 您可以包含一個或多個要隨每個POST請求上傳的檔案。 每個檔案部分都可在Content-Disposition標頭中包含一個檔案名稱引數，如果未指定`uploadPostParams/fileName`引數，該引數將用作IPS中的目標檔案名稱。 |
 
-|  HTTP POST表單元件   |  uploadPostParams元素名稱   |  型別   |  說明   |
+|  HTTP POST表單元件   |  uploadPostParams元素名稱   |  類型   |  說明   |
 |---|---|---|---|
-| `uploadParams` (必要。 XML `uploadParams`檔案指定上傳引數)   |   `companyHandle`  |  `xsd:string`  | 必填。 檔案上傳目標公司的控制代碼。  |
+| `uploadParams` (必要。 XML `uploadParams`檔案指定上傳引數)   |   `companyHandle`  |  `xsd:string`  | 必要. 檔案上傳目標公司的控制代碼。  |
 | `uploadParams` (必要。 XML `uploadParams`檔案指定上傳引數) | `jobName`  |  `xsd:string`  | 需要`jobName`或`jobHandle`。 上載工作的名稱。  |
 | `uploadParams` (必要。 XML `uploadParams`檔案指定上傳引數) | `jobHandle`  |  `xsd:string`  | 需要`jobName`或`jobHandle`。 處理在先前請求中啟動的上傳工作。  |
-| `uploadParams` (必要。 XML `uploadParams`檔案指定上傳引數) | `locale`  |  `xsd:string`  | 選填。 本地化的語言和國家/地區代碼。  |
-| `uploadParams` (必要。 XML `uploadParams`檔案指定上傳引數) | `description`  |  `xsd:string`  | 選填。 工作的說明。  |
-| `uploadParams` (必要。 XML `uploadParams`檔案指定上傳引數) | `destFolder`  |  `xsd:string`  | 選填。 檔案名稱屬性前置詞的目標資料夾路徑，特別是針對可能不支援檔案名稱完整路徑的瀏覽器和其他使用者端。  |
-| `uploadParams` (必要。 XML `uploadParams`檔案指定上傳引數) | `fileName`  |  `xsd:string`  | 選填。 目標檔案的名稱。 覆寫檔案名稱屬性。 |
-| `uploadParams` (必要。 XML `uploadParams`檔案指定上傳引數) | `endJob`  |  `xsd:boolean`  | 選填。 預設為 false。 |
+| `uploadParams` (必要。 XML `uploadParams`檔案指定上傳引數) | `locale`  |  `xsd:string`  | 選擇性. 本地化的語言和國家/地區代碼。  |
+| `uploadParams` (必要。 XML `uploadParams`檔案指定上傳引數) | `description`  |  `xsd:string`  | 選擇性. 工作的說明。  |
+| `uploadParams` (必要。 XML `uploadParams`檔案指定上傳引數) | `destFolder`  |  `xsd:string`  | 選擇性. 檔案名稱屬性前置詞的目標資料夾路徑，特別是針對可能不支援檔案名稱完整路徑的瀏覽器和其他使用者端。  |
+| `uploadParams` (必要。 XML `uploadParams`檔案指定上傳引數) | `fileName`  |  `xsd:string`  | 選擇性. 目標檔案的名稱。 覆寫檔案名稱屬性。 |
+| `uploadParams` (必要。 XML `uploadParams`檔案指定上傳引數) | `endJob`  |  `xsd:boolean`  | 選擇性. 預設為 false。 |
 | `uploadParams` (必要。 XML `uploadParams`檔案指定上傳引數) | `uploadParams`  |  `types:UploadPostJob`  | 如果這是針對現有作用中工作的後續請求，則為選用。 如果有現有工作，則會忽略`uploadParams`並使用現有工作上傳引數。 檢視[UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4) |
 
 在`<uploadPostParams>`區塊中是指定處理所包含檔案的`<uploadParams>`區塊。
@@ -86,7 +94,7 @@ https://<server>/scene7/UploadFile
 
 雖然您可能會假設`uploadParams`引數可以隨著相同工作針對個別檔案變更，但情況並非如此。 在整個工作中使用相同的`uploadParams`引數。
 
-新上傳工作的初始POST要求應該指定`jobName`引數，最好使用唯一的工作名稱來簡化後續的工作狀態輪詢和工作記錄查詢。 相同上載工作的其他POST要求應使用從初始要求傳回的`jobHandle`值，指定`jobName`引數，而非`jobHandle`。
+新上傳工作的初始POST要求應該指定`jobName`引數，最好使用唯一的工作名稱來簡化後續的工作狀態輪詢和工作記錄查詢。 相同上載工作的其他POST要求應使用從初始要求傳回的`jobHandle`值，指定`jobHandle`引數，而非`jobName`。
 
 上載工作的最終POST要求應該將`endJob`引數設定為true，如此此工作未來就不會對檔案進行POST。 反過來，這可讓工作在擷取所有POSTed檔案後立即完成。 否則，如果未在30分鐘內收到其他POST請求，則作業會逾時。
 

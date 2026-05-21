@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: f7d832f3-e9b1-4161-a572-851e538bb245
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+TQID: 'https://experienceleague.adobe.com/0uLEQyEEWf4g-wxdh1xY5V6cB7kb3oQKs82a8xCxmYE'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: 121
 ht-degree: 2%
 
 ---
@@ -28,7 +36,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">自動|於</span> </p> </td> 
-   <td colname="col2"> <p> 控制視訊是透過安全SSL連線(HTTPS)或不安全連線(HTTP)傳遞。 </p> <p>設定為<span class="codeph"> auto</span>時，視訊傳遞通訊協定繼承自內嵌網頁的通訊協定。 如果網頁是透過HTTPS載入，視訊也會透過HTTPS傳送，反之亦然。 如果網頁位於HTTP上，則會透過HTTP傳送影片。 </p> <p>在<span class="codeph">上設定為</span>時，無論網頁通訊協定為何，視訊傳送一律會透過安全連線進行。 </p> <p>只會影響已發佈的視訊傳送，且在「作者」模式中預覽視訊時會被忽略。 </p> </td> 
+   <td colname="col2"> <p> 控制視訊是透過安全SSL連線(HTTPS)或不安全連線(HTTP)傳遞。 </p> <p>設定為<span class="codeph"> auto</span>時，視訊傳遞通訊協定繼承自內嵌網頁的通訊協定。 如果網頁是透過HTTPS載入，視訊也會透過HTTPS傳送，反之亦然。 如果網頁位於HTTP上，則會透過HTTP傳送影片。 </p> <p>在</span>上設定為<span class="codeph">時，無論網頁通訊協定為何，視訊傳送一律會透過安全連線進行。 </p> <p>只會影響已發佈的視訊傳送，且在「作者」模式中預覽視訊時會被忽略。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -5,10 +5,18 @@ title: svgcatalogfile
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 654579a2-33ff-4633-a6d0-3c03ec8d5aed
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/m1-nKj-KiVQlN70GYy1AFAAQN-M1wnxTGmmj-e3t9AY'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 2%
+source-wordcount: 115
+ht-degree: 3%
 
 ---
 
@@ -16,11 +24,11 @@ ht-degree: 2%
 
 SVG資料檔案路徑。 為此目錄指定包含SVG資料的檔案。
 
-SVG資料檔案會依指定的確切順序載入到所有影像資料檔案之後。 如果相同的`catalog::Id`值出現在多個記錄中(在相同或不同的影像或SVG目錄檔案中)，則最後一個執行個體會優先。
+SVG資料檔案會依指定的確切順序載入到所有影像資料檔案之後。 如果相同的`catalog::Id`值出現在多個記錄中（在相同或不同的影像或SVG目錄檔案中），則最後一個執行個體會優先。
 
 ## 屬性 {#section-fc2d549f76474792837b2b92ec2087ea}
 
-一或多個文字字串值，以逗號分隔。 選填。 每個值都必須是絕對檔案路徑或相對於目錄資料夾的路徑。
+一或多個文字字串值，以逗號分隔。 選擇性. 每個值都必須是絕對檔案路徑或相對於目錄資料夾的路徑。
 
 ## 預設 {#section-a4e58951f3c249599665b823566433c9}
 

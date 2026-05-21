@@ -5,9 +5,19 @@ title: 輔助技術支援
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search,Accessibility
 role: Developer,User
 exl-id: fbfc9415-6ab8-466c-9a1f-d33565eff2a4
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/iaM1o85zC7GNh-RZcMYfjGk99eb8RfobLSGLzwtbOqk'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: 398
 ht-degree: 0%
 
 ---
@@ -26,10 +36,10 @@ ht-degree: 0%
 
 縮圖具有角色`dialog`，其屬性為`aria-label`，由`ThumbnailGridView.LABEL`本地化符號控制。 個別縮圖具有角色`button`。 如果選取縮圖，它將取得`aria-selected`屬性設定為`true`。
 
-顯示色票的元件具有角色`listbox`，`aria-label`屬性設定為該元件的`LABEL`本地化符號的值。 個別色票具有`option`和`aria-setsize`屬性的角色`aria-posinset`，可說明色票在集中的位置。 如果選取了色票，則會將`aria-selected`屬性設定為`true`。
+顯示色票的元件具有角色`listbox`，`aria-label`屬性設定為該元件的`LABEL`本地化符號的值。 個別色票具有`aria-setsize`和`aria-posinset`屬性的角色`option`，可說明色票在集中的位置。 如果選取了色票，則會將`aria-selected`屬性設定為`true`。
 
-下拉式清單由按鈕啟動，按鈕具有設定為`aria-haspopup`的其他`true`屬性以及參考實際下拉式面板專案的`aria-controls`屬性。 下拉式面板本身具有角色`menu`，其子元素具有角色`menuitem`。 每個功能表專案都指定了`aria-label`屬性。
+下拉式清單由按鈕啟動，按鈕具有設定為`true`的其他`aria-haspopup`屬性以及參考實際下拉式面板專案的`aria-controls`屬性。 下拉式面板本身具有角色`menu`，其子元素具有角色`menuitem`。 每個功能表專案都指定了`aria-label`屬性。
 
-搜尋使用者介面已分組到角色為`search`的元素中。 搜尋輸入欄位具有角色`searchbox`，並參考由具有`SearchPanel.INFO_PROMPT`屬性的`aria-describedby`本地化符號所控制的資訊標籤。
+搜尋使用者介面已分組到角色為`search`的元素中。 搜尋輸入欄位具有角色`searchbox`，並參考由具有`aria-describedby`屬性的`SearchPanel.INFO_PROMPT`本地化符號所控制的資訊標籤。
 
 模型對話方塊具有角色`dialog`。 對話方塊的標頭專案由`aria-labelledby`屬性參考。

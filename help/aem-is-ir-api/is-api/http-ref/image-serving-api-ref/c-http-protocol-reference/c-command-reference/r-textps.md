@@ -1,20 +1,28 @@
 ---
 title: textPs
-description: 圖層文字(相容於Adobe Photoshop)。 指定文字圖層的文字內文。
+description: 圖層文字（相容於Adobe Photoshop）。 指定文字圖層的文字內文。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 95f343ce-bea3-425e-9a25-d1d141a976d9
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+TQID: 'https://experienceleague.adobe.com/z5z7-6Pe4B-DUsxcspNcMxS-gXXo8Cv7stwBEMpxnNo'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: 125
 ht-degree: 3%
 
 ---
 
 # textPs{#textps}
 
-圖層文字(相容於Adobe Photoshop)。 指定文字圖層的文字內文。
+圖層文字（相容於Adobe Photoshop）。 指定文字圖層的文字內文。
 
 `textPs= *`字串`*`
 
@@ -33,7 +41,7 @@ ht-degree: 3%
 
 ## 屬性 {#section-a289dc26b6534b41998b1e241d5f2f92}
 
-圖層屬性。 若為`layer=0`，則套用至`layer=comp`。 與相同圖層中的`src=`和`text=`互斥。 最後出現的`text=`、`textPs=`和`src=`會優先處理，並判斷這是影像層還是文字層。 被效果圖層忽略。
+圖層屬性。 若為`layer=comp`，則套用至`layer=0`。 與相同圖層中的`src=`和`text=`互斥。 最後出現的`text=`、`textPs=`和`src=`會優先處理，並判斷這是影像層還是文字層。 被效果圖層忽略。
 
 ## 預設 {#section-11c2ae2c96d64a0a9c207252df663e4d}
 

@@ -5,9 +5,17 @@ title: 需要
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 546b8b3f-9e37-4e8d-bf0c-db8c12696b2b
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/-WzHmELeamQBbVFlzXNKbDE3fKVXw4x6pSoEz0LHav4'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: 90
 ht-degree: 10%
 
 ---
@@ -39,7 +47,7 @@ ht-degree: 10%
 * [xlate](r-xlate.md)
 * [xmp](r-xmp.md)
 
-除非在詳細描述中另有說明，否則伺服器會傳回MIME型別為`text`的`text/plain`個回應。 許多要求型別可讓您指定回應型別，例如`text`，通常是預設值、`javascript`、`xml`或`json`。 關聯的回應MIME型別分別為`text/plain`、`text/javascript`、`text/xml`和`text/javascript`。
+除非在詳細描述中另有說明，否則伺服器會傳回MIME型別為`text/plain`的`text`個回應。 許多要求型別可讓您指定回應型別，例如`text`，通常是預設值、`javascript`、`xml`或`json`。 關聯的回應MIME型別分別為`text/plain`、`text/javascript`、`text/xml`和`text/javascript`。
 
 除非另有註明，否則回應會將回應格式化為一組`name=value`配對。
 

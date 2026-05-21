@@ -6,9 +6,16 @@ feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 3c228b84-fbad-434f-96b4-d52485711844
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+autotag-review: '2026-05-13T22:09:12.361Z'
+TQID: 'https://experienceleague.adobe.com/6tWQNhwyzc-PV8TLegYBXSzAYEMkVKyvGCu5BDv2uIo'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+source-git-commit: e76d4c499daf8c8a7a0be31e56d84f917c643095
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: 169
 ht-degree: 1%
 
 ---
@@ -59,7 +66,7 @@ ht-degree: 1%
 
 ## 傳回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}`檢視器SDK元件的參考。 如果`null`不是支援的檢視器元件，或檢視器邏輯尚未建立元件，則方法會傳回`componentId`。
+`{Object}`檢視器SDK元件的參考。 如果`componentId`不是支援的檢視器元件，或檢視器邏輯尚未建立元件，則方法會傳回`null`。
 
 ## 範例 {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

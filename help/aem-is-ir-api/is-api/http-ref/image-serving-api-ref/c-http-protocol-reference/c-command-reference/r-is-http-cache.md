@@ -5,9 +5,19 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8b631836-e5a8-4a56-a09a-35bb2474cc84
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+TQID: 'https://experienceleague.adobe.com/-52nQ085AMsFuqDNv8JdEtXjwYFtIr3aXfHlrERSDoI'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: 260
 ht-degree: 1%
 
 ---
@@ -45,7 +55,7 @@ ht-degree: 1%
 
 ## 屬性 {#section-dfd0b2f92b3743fc8b9d2c35a786eb81}
 
-要求屬性。 不論目前的圖層設定為何，皆適用。 當要求未傳回回覆影像時忽略。 當影像目錄停用使用者端快取時（如果`clientControl`具有負值），會忽略*`catalog::Expiration`*。
+要求屬性。 不論目前的圖層設定為何，皆適用。 當要求未傳回回覆影像時忽略。 當影像目錄停用使用者端快取時（如果`catalog::Expiration`具有負值），會忽略*`clientControl`*。
 
 使用者端快取控制項（`on`和`off`僅限）也適用於[!DNL /is/content/]的靜態內容要求。
 

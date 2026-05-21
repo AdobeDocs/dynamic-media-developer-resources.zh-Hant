@@ -5,9 +5,19 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f07562a8-71e9-4d98-9d0c-5bb32a7e0ef1
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+TQID: 'https://experienceleague.adobe.com/QuVnFsc1R-WcjFpnyENi6n9US7Y7V-cETwitnVsmMss'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '1199'
+source-wordcount: 1207
 ht-degree: 0%
 
 ---
@@ -23,7 +33,7 @@ ht-degree: 0%
 
 已新增`PostScriptOptions/alpha`欄位。
 
-已新增`VideoRootUrl`作業的`SwfRootUrl`和`getProperty`屬性。
+已新增`getProperty`作業的`VideoRootUrl`和`SwfRootUrl`屬性。
 
 已將選用的`appName`和`appVersion`引數新增至`authHeader`以追蹤呼叫應用程式。 已新增記錄至`ipsApiService.log`。
 
@@ -35,7 +45,7 @@ ht-degree: 0%
 
 新增`'Asset'`個資產型別字串常數，主要用於允許跨資產中繼資料欄位。
 
-已實作`trashState`的`searchAssets`引數。
+已實作`searchAssets`的`trashState`引數。
 
 已實作`getAssetPublishHistory`作業。
 
@@ -65,13 +75,13 @@ ht-degree: 0%
 
 已實作`getAssetCounts`。
 
-已新增對`setImageSetMembers`的支援，以便在`RenderSet`個資產中包含`ImageSet`個成員。
+已新增對`setImageSetMembers`的支援，以便在`ImageSet`個資產中包含`RenderSet`個成員。
 
 已新增`replaceImage`作業。
 
 已新增`copyImage`作業。
 
-已新增`setUrlModifier`、`urlModifier/urlPostApplyModifier`和`LayerViewInfo`的`TemplateInfo`作業和`WatermarkInfo`欄位。
+已新增`LayerViewInfo`、`TemplateInfo`和`WatermarkInfo`的`setUrlModifier`作業和`urlModifier/urlPostApplyModifier`欄位。
 
 已新增`createDerivedAsset`作業。 目前`ownerHandle`必須參考影像資產，而且型別可以是`AdjustedView`或`LayerView`。
 
@@ -171,10 +181,10 @@ IPS公司設定`CompanySettings`已移植到網站服務API。
 新增對searchAssets的支援，以搜尋強型別中繼資料欄位條件。
 
 * 對於所有欄位型別，可以使用字串比較運運算元( `Equals, NotEquals, Contains, NotContains, StartsWith, EndsWith`)傳遞值
-* 對於布林欄位，可以使用`boolVal`作業傳遞`Equals`。
-* 對於Int欄位，可以使用數值比較運運算元( `longVal`)傳遞`Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`，或使用數值範圍運運算元( `minLong/maxLong`)傳遞`Between, NotBetween`。
-* 對於Float欄位，可以使用數值比較運運算元( `doubleVal`)傳遞`Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`，或使用數值範圍運運算元( `minDouble/maxDouble`)傳遞`Between, NotBetween`。
-* 對於日期欄位，您可以使用數值比較運運算元( `dateVal`)傳遞`Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`，或者您可以使用數值範圍運運算元( `Between, NotBetween`)傳遞minDate/maxDate。
+* 對於布林欄位，可以使用`Equals`作業傳遞`boolVal`。
+* 對於Int欄位，可以使用數值比較運運算元( `Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`)傳遞`longVal`，或使用數值範圍運運算元( `Between, NotBetween`)傳遞`minLong/maxLong`。
+* 對於Float欄位，可以使用數值比較運運算元( `Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`)傳遞`doubleVal`，或使用數值範圍運運算元( `Between, NotBetween`)傳遞`minDouble/maxDouble`。
+* 對於日期欄位，您可以使用數值比較運運算元( `Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`)傳遞`dateVal`，或者您可以使用數值範圍運運算元( `Between, NotBetween`)傳遞minDate/maxDate。
 
 已新增描述、`jobSubType`和`originalJobName`欄位至`JobLog`型別。
 
@@ -218,15 +228,15 @@ IPS公司設定`CompanySettings`已移植到網站服務API。
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> WordDoc </span> </p> </td> 
-   <td colname="col2"> <p>以.doc結尾的檔案使用Microsoft® Word檔案。 </p> </td> 
+   <td colname="col2"> <p>以.doc結尾的檔案使用® Word檔案。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ExcelDoc </span> </p> </td> 
-   <td colname="col2"> <p>以.xls結尾之檔案的Microsoft® Excel檔案。 </p> </td> 
+   <td colname="col2"> <p>以.xls結尾之檔案的® Excel檔案。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PowerPointDoc </span> </p> </td> 
-   <td colname="col2"> <p>以.ppt結尾之檔案的Microsoft® PowerPoint檔案。 </p> </td> 
+   <td colname="col2"> <p>以.ppt結尾之檔案的® PowerPoint檔案。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> RTFDoc </span> </p> </td> 

@@ -1,20 +1,28 @@
 ---
 title: JSONP屬性
-description: 如果將jsonp指定為回應格式，則會使用JSONP (JavaScript物件標籤法加邊框間距)將回覆資料格式化，並包裝在JavaScript函式呼叫中。
+description: 如果將jsonp指定為回應格式，則會使用JSONP （JavaScript物件標籤法加邊框間距）將回覆資料格式化，並包裝在JavaScript函式呼叫中。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2294eb37-b362-438f-94bc-eb24ca641752
-source-git-commit: d1df6e943747f9db12c08003647aee840fdfcc0a
+TQID: 'https://experienceleague.adobe.com/pMirwhZ5n0mVuK2If4kJz3XDQZPDhORJCZBLsDf2C8I'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: 212
 ht-degree: 0%
 
 ---
 
 # JSONP屬性{#jsonp-properties}
 
-如果將jsonp指定為回應格式，則會使用JSONP (JavaScript物件標籤法加邊框間距)將回覆資料格式化，並包裝在JavaScript函式呼叫中。
+如果將jsonp指定為回應格式，則會使用JSONP （JavaScript物件標籤法加邊框間距）將回覆資料格式化，並包裝在JavaScript函式呼叫中。
 
 使用者端可以指定選擇性唯一要求識別碼( *`reqId`*)，此識別碼會傳回回應中，並允許使用者端區分非同步收到的多個回應。 典型的回應一般結構如下：
 
@@ -51,7 +59,7 @@ S7jsonResponse(data, reqId)
 
 `req=...,json [&handler = reqHandler]`
 
-`<reqHandler>`語法是JSONP回應中出現的JS處理常式名稱。 僅允許a-z、A-Z和0-9字元。 選填。 預設值為`s7jsonResponse`。
+`<reqHandler>`語法是JSONP回應中出現的JS處理常式名稱。 僅允許a-z、A-Z和0-9字元。 選擇性. 預設值為`s7jsonResponse`。
 
 Dynamic Media Image Serving檢視器套件包含從Image Serving要求及剖析JSONP格式資料的公用程式。
 

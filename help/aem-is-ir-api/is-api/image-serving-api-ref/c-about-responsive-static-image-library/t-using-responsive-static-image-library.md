@@ -5,9 +5,19 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2542b9f3-c398-4dbf-afa3-1671fc4fe72a
-source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
+TQID: 'https://experienceleague.adobe.com/06qs3B4mQcS7CSQs46RYnhTTpSa2xONlzN4Nfg0oU0g'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: 567
 ht-degree: 0%
 
 ---
@@ -94,7 +104,7 @@ AEM 6.4和Dynamic Media Viewers 5.9提供兩種智慧型裁切模式：
 * **手動** — 使用者定義的中斷點與對應的影像服務命令定義於影像元素的屬性內。
 * **智慧型裁切** — 系統會自動從傳遞伺服器擷取運算智慧型裁切轉譯。 最佳轉譯是使用影像元素的執行階段大小來選取。
 
-若要使用智慧型裁切模式，請將`data-mode`屬性設定為`smart crop`。 例如: 
+若要使用智慧型裁切模式，請將`data-mode`屬性設定為`smart crop`。 例如:
 
 ```html {.line-numbers}
 <img 

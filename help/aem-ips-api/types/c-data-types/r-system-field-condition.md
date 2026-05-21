@@ -5,9 +5,17 @@ title: SystemFieldCondition
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: ebd12727-dbb3-40dc-b631-945415331be6
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+TQID: 'https://experienceleague.adobe.com/dCZl4pLGuG5hHpEq04W-qv8mRWcFiA7PvmzcO7Un-sM'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: 116
 ht-degree: 6%
 
 ---
@@ -16,7 +24,7 @@ ht-degree: 6%
 
 searchAssets作業的系統欄位搜尋條件。
 
-若要一元比較，請根據系統欄位型別，僅傳遞一個值（ `boolVal`、`longVal`、`doubleVal`或`dateVal`）。 針對搜尋範圍，傳遞`min<Type>`和`max<Type>`引數，並傳遞`op`或`Between`的`NotBetween`值。
+若要一元比較，請根據系統欄位型別，僅傳遞一個值（ `boolVal`、`longVal`、`doubleVal`或`dateVal`）。 針對搜尋範圍，傳遞`min<Type>`和`max<Type>`引數，並傳遞`Between`或`NotBetween`的`op`值。
 
 ## 參數 {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 

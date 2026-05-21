@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: fdf9274a-70d0-4692-a7a9-c108abb9ab84
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+TQID: 'https://experienceleague.adobe.com/A7uOgsYtOH6AmVOtbUfQDVJHwJEkCSXqBYavY9CbRkw'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: 154
 ht-degree: 1%
 
 ---
@@ -41,7 +49,7 @@ ht-degree: 1%
 
 圖層屬性。 如果圖層不包含`textPs=`和`textPath=`命令，則忽略。
 
-*`startPos`*&#x200B;必須大於或等於0且小於1.0。*`endPos`*&#x200B;在套用至開放路徑時必須大於&#x200B;*`startPos`*&#x200B;且小於或等於1.0，或在套用至封閉路徑時小於或等於( *`startPos`* + 1.0)。
+*`startPos`*&#x200B;必須大於或等於0且小於1.0。 *`endPos`*&#x200B;在套用至開放路徑時必須大於&#x200B;*`startPos`*&#x200B;且小於或等於1.0，或在套用至封閉路徑時小於或等於( *`startPos`* + 1.0)。
 
 ## 預設 {#section-3e757970885c45e7b6100e78dc08626f}
 

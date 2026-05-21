@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 54a10b30-ebf5-4f1e-aa4a-b09055453c4e
-source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
+TQID: 'https://experienceleague.adobe.com/kWCkzBjr6vJAyCk6PareJcg8AfwNvm2gNcEC5BpZXxE'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: 116
 ht-degree: 2%
 
 ---
@@ -22,7 +30,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">自動|漸進式</span> </p> </td> 
-   <td colname="col2"> <p> 設定檢視器使用的播放型別。 設定<span class="codeph"> auto</span>時，在大部分的案頭瀏覽器和所有iOS裝置上，檢視器會使用HLS格式的HTML5串流視訊。 它會退回某些系統(例如舊版Internet Explorer和Android™)上的漸進式HTML5播放。 </p> <p>若指定<span class="codeph"> progressive</span>，檢視器僅依賴瀏覽器原生支援的HTML5播放，並在所有系統上以漸進方式播放視訊。 </p> <p>如需自動和漸進模式中播放選取範圍的詳細資訊，請參閱檢視器SDK使用手冊。 </p> </td> 
+   <td colname="col2"> <p> 設定檢視器使用的播放型別。 設定<span class="codeph"> auto</span>時，在大部分的案頭瀏覽器和所有iOS裝置上，檢視器會使用HLS格式的HTML5串流視訊。 它會退回某些系統（例如舊版Internet Explorer和™）上的漸進式HTML5播放。 </p> <p>若指定<span class="codeph"> progressive</span>，檢視器僅依賴瀏覽器原生支援的HTML5播放，並在所有系統上以漸進方式播放視訊。 </p> <p>如需自動和漸進模式中播放選取範圍的詳細資訊，請參閱檢視器SDK使用手冊。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -5,9 +5,17 @@ title: 替代變數
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9fd73d16-e8bd-4fdb-a4e6-e86e5d219114
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/ZjLvcRUPDVBv8QsWoQGz2j6X0sjxnUL-MTTJNyDDRUs'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: 740
 ht-degree: 0%
 
 ---
@@ -39,9 +47,9 @@ ht-degree: 0%
 >
 >*`value`*&#x200B;必須為單次URL編碼，才能安全HTTP傳輸。 若透過HTTP重新傳輸&#x200B;*`value`*，則需要雙重編碼。 當&#x200B;*`value`*&#x200B;被替代成巢狀外部請求或SVG `<image>`專案的href屬性時，就會發生這種情況。
 
-變數參考是由開頭與結尾為「$」($*var*$)分隔的變數名稱所組成。 參考可能會出現在任何IS命令的值部分的任何位置（也就是說，在命令名稱后面的「=」和後續的「&amp;」或請求結尾之間）。 自訂變數無法套用至`layer=`和`effect=`命令。 相同命令值中允許多個變數。 伺服器會以` $ *`取代`*$`var *`value`*&#x200B;的每個例項。
+變數參考是由開頭與結尾為「$」($*var*$)分隔的變數名稱所組成。 參考可能會出現在任何IS命令的值部分的任何位置（也就是說，在命令名稱后面的「=」和後續的「&amp;」或請求結尾之間）。 自訂變數無法套用至`layer=`和`effect=`命令。 相同命令值中允許多個變數。 伺服器會以&#x200B;*`value`*&#x200B;取代` $ *`var`*$`的每個例項。
 
-變數參考不可使用巢狀結構。 在` $ *`內出現`*$`var *`value`*&#x200B;的任何專案都不會被取代。
+變數參考不可使用巢狀結構。 在&#x200B;*`value`*&#x200B;內出現` $ *`var`*$`的任何專案都不會被取代。
 
 例如，請求片段：
 
@@ -57,9 +65,9 @@ ht-degree: 0%
 
 ## 巢狀要求中的變數處理 {#section-26d63adc446c4fa0808e11e8082abdfa}
 
-` $ *`var`*$`參考可能會出現在巢狀影像伺服或影像演算請求的大括弧內的任何位置，包括「？」的左側 將路徑與查詢分開。 在進一步剖析及處理巢狀要求之前，伺服器會以值（來自URL或主要影像目錄的`catalog::Modifier`）取代這些參考。
+` $ *`var`*$`參考可能會出現在巢狀影像伺服或影像演算請求的大括弧內的任何位置，包括分隔路徑與查詢的「？」左側。 在進一步剖析及處理巢狀要求之前，伺服器會以值（來自URL或主要影像目錄的`catalog::Modifier`）取代這些參考。
 
-此外，來自URL或` $ *`的所有`*=`var`catalog::Modifier`定義都已轉送至所有巢狀影像提供與影像轉譯請求。 這可確保所有變數定義都可供所有範本使用，無論巢狀層級為何。
+此外，來自URL或`catalog::Modifier`的所有` $ *`var`*=`定義都已轉送至所有巢狀影像提供與影像轉譯請求。 這可確保所有變數定義都可供所有範本使用，無論巢狀層級為何。
 
 無論巢狀層級為何，若要在巢狀影像演算或影像伺服要求或其相關的`catalog::Modifier`字串中的任何位置取代變數值，必須僅套用單次HTTP編碼。
 
@@ -89,13 +97,13 @@ ht-degree: 0%
 
 `/is/image/a/b?…&layer=3&src=is{…&src=a/b}&…`
 
-可以使用所需的值明確指定`*`物件`*`，以覆寫` $ *`$object`*=`的定義。
+可以使用所需的值明確指定` $ *`物件`*=`，以覆寫`*`$object`*`的定義。
 
 預先定義的路徑變數通常與`template=`搭配使用。
 
 ## 預設 {#section-b02483d15529444586a2e9504805b155}
 
-無。 只有已定義的變數才會被伺服器取代（預先定義的路徑變數$object除外，此變數一律會被取代）。 如果` $ *`var`*$`無法與現有變數定義比對，則`*`var`*`的任何專案仍為常值。
+無。 只有已定義的變數才會被伺服器取代（預先定義的路徑變數$object除外，此變數一律會被取代）。 如果`*`var`*`無法與現有變數定義比對，則` $ *`var`*$`的任何專案仍為常值。
 
 ## 範例 {#section-fba9393df6984247b7e30b3f93992e86}
 

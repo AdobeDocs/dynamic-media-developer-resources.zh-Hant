@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8bf5920a-7ada-4db5-9796-05c5a17532c8
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+TQID: 'https://experienceleague.adobe.com/v-ucFAnnoq6ywaB97QSXodqnO4VWFvaK6I2HJ2-a4Fc'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: 227
 ht-degree: 0%
 
 ---
@@ -26,7 +34,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="varname">個請求</span> </p> </td> 
-   <td colname="col2"> <p>http://<span class="varname">伺服器</span>/ir/render[/<span class="varname">暈映</span> ] [ ？<span class="varname">修飾元</span> ] </p> </td> 
+   <td colname="col2"> <p>http://<span class="varname">伺服器</span>/ir/render[/<span class="varname">暈映</span> ] [ ？<span class="varname"> 修飾元</span> ] </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname">伺服器</span> </p> </td> 
@@ -42,7 +50,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname">修飾元</span> </p> </td> 
-   <td colname="col2"> <p><span class="varname">命令</span> | { $ <span class="varname">巨集</span> $ } | { .<span class="varname">註解</span> } </p> </td> 
+   <td colname="col2"> <p><span class="varname">命令</span> | { $ <span class="varname">巨集</span> $ } | { .<span class="varname"> 註解</span> } </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname">命令</span> </p> </td> 
@@ -79,7 +87,7 @@ ht-degree: 0%
 
 **個註解**
 
-註解可內嵌於任何位置的要求字串中，並在命令分隔符號(&amp;)後面加上句號(.)加以識別。 註解會在下次出現（未編碼）命令分隔符號時終止。 此功能可用來將資訊新增至不供「影像伺服」使用的請求，例如時間戳記和資料庫ID。
+註解可內嵌於任何位置的要求字串中，並以句點(.)識別 緊接在命令分隔符號(&amp;)後面。 註解會在下次出現（未編碼）命令分隔符號時終止。 此功能可用來將資訊新增至不供「影像伺服」使用的請求，例如時間戳記和資料庫ID。
 
 **HTTP解碼**
 

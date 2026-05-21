@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ef49cf8a-4621-4114-aae5-5178f6a5160d
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/FFRoxO7iVDzE7Kta5Vig4RtaPWa890tNHPwsAOcWVCw'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: 300
 ht-degree: 0%
 
 ---
@@ -20,7 +28,7 @@ ht-degree: 0%
 
 範本會儲存為影像目錄中的記錄，範本本文位於`catalog::Modifier`欄位中，`catalog::Path`欄位為空白，或指定無法動態變更的靜態背景影像。
 
-範本是使用`template=`命令或在要求URL的路徑元件中指定的。 對於大多數應用程式，建議使用`template=`命令來指定範本。 `template=`命令不能出現在`catalog::PostModifier`欄位中，而且只能出現在巢狀IS要求（亦即`catalog::Modifier`建構）的`src=is{...}`欄位中。 範本記錄可能無法在`src=`或`mask=`命令中參考。
+範本是使用`template=`命令或在要求URL的路徑元件中指定的。 對於大多數應用程式，建議使用`template=`命令來指定範本。 `template=`命令不能出現在`catalog::PostModifier`欄位中，而且只能出現在巢狀IS要求（亦即`src=is{...}`建構）的`catalog::Modifier`欄位中。 範本記錄可能無法在`src=`或`mask=`命令中參考。
 
 任何內嵌在範本中的`src=`或`mask=`命令都可以解析為請求的主目錄或不同的影像目錄。 如果未明確指定`rootId`，則會假設是主目錄。 使用`template=`指定的範本也可能位於主目錄或其他影像目錄中。
 

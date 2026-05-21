@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 102dbdc0-77b8-4c60-b456-6cf693e0b38b
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+TQID: 'https://experienceleague.adobe.com/4SWjQI0moFS4W9VtPODyePmwh1-lJHWmG51BC12RVLk'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: 101
 ht-degree: 2%
 
 ---
@@ -29,7 +37,7 @@ ht-degree: 2%
 
 ## 屬性 {#section-6d586a632daa4261a8ce62db56140b36}
 
-圖層屬性。 若為`layer=0`，則套用至`layer=comp`。 如果未為此圖層指定`textPs=`或指定`textPath=`，則忽略此專案。
+圖層屬性。 若為`layer=comp`，則套用至`layer=0`。 如果未為此圖層指定`textPs=`或指定`textPath=`，則忽略此專案。
 
 ## 預設 {#section-49a9f5819c994c27928282c14b2bb2a7}
 

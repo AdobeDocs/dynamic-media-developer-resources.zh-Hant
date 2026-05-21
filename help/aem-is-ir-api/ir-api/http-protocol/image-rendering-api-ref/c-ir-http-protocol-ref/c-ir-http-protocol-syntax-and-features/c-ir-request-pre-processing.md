@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 79a358db-0fd6-4327-a305-b0b38ad62050
-source-git-commit: 20f4922402bd31c71ae650a01597b574220809fa
+TQID: 'https://experienceleague.adobe.com/zs4izZzuO7u6wYOPmdd8AT7r4q-cUFXWUlB1MW6aV0Y'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: 220
 ht-degree: 0%
 
 ---
@@ -24,7 +32,7 @@ ht-degree: 0%
 
 * 實作&#x200B;*虛擬路徑*&#x200B;機制，允許將請求路徑重新對應到檔案、FTP和HTTP路徑。
 * 禁止使用CPU密集型命令來防止伺服器濫用。
-* 根據請求路徑或影像名稱控制影像品質設定(例如JPEG品質或銳利化)。
+* 根據請求路徑或影像名稱控制影像品質設定（例如JPEG品質或銳利化）。
 
 有關建立、使用和管理規則集的詳細資訊，請參閱「規則集參考」。
 

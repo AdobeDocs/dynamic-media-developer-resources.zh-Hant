@@ -5,10 +5,18 @@ title: printerMark
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f61c7311-a2e9-4eb7-ae05-276a4eec980b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/tit-a3stXGj0fZoMgi15lPIk-MtZSvUDOqlcayfNlwk'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 18%
+source-wordcount: 123
+ht-degree: 24%
 
 ---
 
@@ -56,12 +64,12 @@ ht-degree: 18%
  <tr class="strow"> 
   <td class="stentry"> <p>線條寬度= </p></td> 
   <td class="stentry"> <p>0.125 - 2.0範圍內的任何值，包括這兩個值。 </p></td> 
-  <td class="stentry"> <p>預設為 0.25。 </p></td> 
+  <td class="stentry"> <p>預設值為0.25。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>圖層嵌入= </p></td> 
   <td class="stentry"> <p>0|1 </p></td> 
-  <td class="stentry"> <p>預設為 1。 </p></td> 
+  <td class="stentry"> <p>預設值為1。 </p></td> 
  </tr> 
 </table>
 

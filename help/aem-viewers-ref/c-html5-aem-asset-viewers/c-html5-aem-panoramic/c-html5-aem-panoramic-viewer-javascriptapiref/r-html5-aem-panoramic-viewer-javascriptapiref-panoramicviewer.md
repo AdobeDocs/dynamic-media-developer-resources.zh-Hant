@@ -5,10 +5,16 @@ solution: Experience Manager, Experience Manager Assets
 feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+autotag-review: '2026-05-13T22:09:54.686Z'
+TQID: 'https://experienceleague.adobe.com/zSYqLmLn-LQhkIIrPe31JIouevTWijICBcrmY3fol1M'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+source-git-commit: e76d4c499daf8c8a7a0be31e56d84f917c643095
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 3%
+source-wordcount: 162
+ht-degree: 4%
 
 ---
 
@@ -19,7 +25,7 @@ ht-degree: 3%
 
 ## 參數 {#section-fa807db629ce43bab286b1e1dc96c492}
 
-設定
+config
 {Object}選用的JSON設定物件，可讓您將所有檢視器設定傳遞至建構函式，並避免呼叫個別setter方法。 它包含下列屬性：
 
 * containerId — 檢視器插入的DOM容器（通常是DIV）的{String}識別碼。 不需要在呼叫此方法時建立container元素，但是執行init()時容器必須存在。 必要

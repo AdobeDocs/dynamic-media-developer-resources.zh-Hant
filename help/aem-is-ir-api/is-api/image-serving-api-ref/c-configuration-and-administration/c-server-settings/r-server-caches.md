@@ -5,9 +5,20 @@ title: 伺服器快取
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 6a8d44d3-ecac-4fe0-9f81-28b1cd55e7e1
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+TQID: 'https://experienceleague.adobe.com/UUki7PR7tT4njGw6HktkaobgrM7iwdBZsP-Nbz2TdIY'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: 299
 ht-degree: 0%
 
 ---
@@ -22,7 +33,7 @@ ht-degree: 0%
 
 ## PS：：cache.maxSize — 回應資料快取大小 {#section-ed2e1e7ba4bd4e13b77bb20c4cacddb4}
 
-HTTP回應快取的大小上限（位元組）。 此設定會限制要快取的實際資料量，不會考慮檔案系統額外負荷。 （請參閱[回應資料快取](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-data-caches/c-response-data-cache.md#concept-81ea996c242441f2a69f7e9d9b3a29ca)。）如果指定了多個快取資料夾，則快取資料會平均分佈在所有資料夾中。 `cache.maxSize`中[!DNL PlatformServer.conf]的值是位元組。
+HTTP回應快取的大小上限（位元組）。 此設定會限制要快取的實際資料量，不會考慮檔案系統額外負荷。 （請參閱[回應資料快取](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-data-caches/c-response-data-cache.md#concept-81ea996c242441f2a69f7e9d9b3a29ca)。） 如果指定了多個快取資料夾，則快取資料會平均分佈在所有資料夾中。 [!DNL PlatformServer.conf]中`cache.maxSize`的值是位元組。
 
 ## PS：：cache.maxEntries — 回應資料快取專案上限 {#section-5603e327e90542a5b50aeeb27b080410}
 

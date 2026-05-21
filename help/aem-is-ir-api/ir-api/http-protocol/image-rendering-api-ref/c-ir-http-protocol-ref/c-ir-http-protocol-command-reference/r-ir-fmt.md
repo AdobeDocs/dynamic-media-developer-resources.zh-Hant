@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 691c5421-0754-45ce-b454-dd0ceff47a58
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+TQID: 'https://experienceleague.adobe.com/m3ZesKWdK5ltybJWB9ZTOQa19Bimlu-g7xRE2OrQ-rY'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: 597
 ht-degree: 4%
 
 ---
@@ -116,11 +124,11 @@ ht-degree: 4%
  </tr> 
 </table>
 
-未指定&#x200B;*`pixelType`*&#x200B;時，`icc=`效果輸出色域轉換；套用與&#x200B;*`pixelType`*&#x200B;對應的預設色彩設定檔。 如果停用色彩管理，則會套用天真的轉換。 指定&#x200B;*`pixelType`*&#x200B;時會略過`icc=`，這會決定輸出畫素型別。
+未指定`icc=`時，*`pixelType`*&#x200B;效果輸出色域轉換；套用與&#x200B;*`pixelType`*&#x200B;對應的預設色彩設定檔。 如果停用色彩管理，則會套用天真的轉換。*`pixelType`* 指定`icc=`時會略過，這會決定輸出畫素型別。
 
 *`compression`*&#x200B;只有在指定tif、tif-alpha或PDF為&#x200B;*`format`*&#x200B;時才允許。 如需這些影像格式支援的壓縮選項，請參閱下表。
 
-`qlt-`針對以下格式設定JPEG編碼選項：JPEG、具有JPEG壓縮的TIFF、具有JPEG壓縮的PDF以及SWF檔案。 如果`quantize=`或`fmt=gif`，請使用`fmt=gif-alpha`。 如需詳細資訊，請參閱命令說明。 其他格式沒有可設定的選項。
+`qlt-`針對以下格式設定JPEG編碼選項：JPEG、具有JPEG壓縮的TIFF、具有JPEG壓縮的PDF以及SWF檔案。 如果`fmt=gif`或`fmt=gif-alpha`，請使用`quantize=`。 如需詳細資訊，請參閱命令說明。 其他格式沒有可設定的選項。
 
 對於所有格式和畫素型別，每畫素元件會傳回8位元。
 
@@ -206,7 +214,7 @@ ht-degree: 4%
 
 ## 預設 {#section-d2c2af11fa974e1a84e0c6cb7fb646fe}
 
-*`format`*&#x200B;預設為`attribute::Format`，*`tiffCompression`*&#x200B;預設為`attribute::TiffEncoding`。 如果未指定&#x200B;*`pixelType`*，則預設為`rgb`，否則會對應到指定ICC設定檔的畫素型別。`icc=`
+*`format`*&#x200B;預設為`attribute::Format`，*`tiffCompression`*&#x200B;預設為`attribute::TiffEncoding`。*`pixelType`* 如果未指定`icc=`，則預設為`rgb`，否則會對應到指定ICC設定檔的畫素型別。
 
 ## 另請參閱 {#section-c55efc881fc94c70bff91b870e026a7b}
 

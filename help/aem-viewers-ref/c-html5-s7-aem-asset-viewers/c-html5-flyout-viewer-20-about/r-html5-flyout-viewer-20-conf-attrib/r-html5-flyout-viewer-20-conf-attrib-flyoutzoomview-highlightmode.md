@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: b35285a2-7319-4ed7-9681-12a6acda8fa5
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/x43ipzx6iKOODZ10S8o8yJA9pg0Gl8mldfS5fEiVQJ4'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: 258
 ht-degree: 1%
 
 ---
@@ -28,7 +36,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">影像|可用</span> </p> </td> 
-   <td colname="col2"> <p> 控制導覽框架位置。 </p> <p>如果影像<span class="codeph">上設定為</span>，則導覽框架只能位於主檢視內的實際影像區域中。 </p> <p>若設為<span class="codeph">可用</span>，則使用者可將導覽框架移動至邏輯主要檢視區域中的任一處，即使影像內容之外亦然。 </p> </td> 
+   <td colname="col2"> <p> 控制導覽框架位置。 </p> <p>如果影像</span>上設定為<span class="codeph">，則導覽框架只能位於主檢視內的實際影像區域中。 </p> <p>若設為<span class="codeph">可用</span>，則使用者可將導覽框架移動至邏輯主要檢視區域中的任一處，即使影像內容之外亦然。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

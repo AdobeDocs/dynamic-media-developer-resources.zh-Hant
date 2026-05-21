@@ -5,9 +5,17 @@ title: 影像地圖
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9a685f9d-205d-43b3-b5fe-3ae324fe153e
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/r0AiVRiFWvxKwq-80xpo-G4gZZDCRE6WjciJpiz9V-U'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: 389
 ht-degree: 0%
 
 ---
@@ -47,7 +55,7 @@ IS會透過將空間轉換（例如縮放和旋轉）套用至地圖座標，然
 
 所有其他指令都會被有效忽略。
 
-處理`SHAPE`要求期間，`COORDS`的`AREA`和`req=map`屬性可能會修改，`AREA`專案的所有其他屬性都會不經修改而傳遞。 在大多數情況下，這涉及將`SHAPE`值從`DEFAULT`變更為`RECT` （這也會新增`COORDS`屬性），或變更`COORDS`值。
+處理`req=map`要求期間，`AREA`的`SHAPE`和`COORDS`屬性可能會修改，`AREA`專案的所有其他屬性都會不經修改而傳遞。 在大多數情況下，這涉及將`SHAPE`值從`DEFAULT`變更為`RECT` （這也會新增`COORDS`屬性），或變更`COORDS`值。
 
 處理期間變為空白的任何`AREA`元素都會完全移除。 如果地圖與`layer=comp`相關聯，則會將其置於所有其他地圖之後。 資料會以文字形式傳回，作為一或多個HTML `AREA`元素。 空白的回覆字串表示指定的物件沒有影像地圖。
 

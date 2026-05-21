@@ -5,9 +5,17 @@ title: catalogprops
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 28bf68e8-d424-418e-99a7-5298a1d83341
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/Ct7Sj0HAQT4rSfu32PKf329sDqCcTSZDdav5FoxquHQ'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: 217
 ht-degree: 4%
 
 ---
@@ -31,7 +39,7 @@ ht-degree: 4%
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>`是JSONP回應中出現的JS處理常式名稱。 僅允許a-z、A-Z和0-9字元。 選填。 預設值為`s7jsonResponse`。
+`<reqHandler>`是JSONP回應中出現的JS處理常式名稱。 僅允許a-z、A-Z和0-9字元。 選擇性. 預設值為`s7jsonResponse`。
 
 系統會傳回下列屬性值：
 

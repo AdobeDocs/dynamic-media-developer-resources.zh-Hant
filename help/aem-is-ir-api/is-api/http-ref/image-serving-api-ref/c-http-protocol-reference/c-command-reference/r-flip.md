@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 451d8b4d-0f22-41f3-ac86-435797c23ea3
-source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
+TQID: 'https://experienceleague.adobe.com/7RG0rzG40Mp5eQe663S5Ayyf99SIfSLPHgqbSL2Unn4'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: 157
 ht-degree: 2%
 
 ---
@@ -35,7 +43,7 @@ ht-degree: 2%
 
 它也可以套用至文字圖層。
 
-選取`extend=`時，某些命令（包括`layer=comp`）會隱含套用至圖層0而非複合圖層。 在這種情況下，所有自動指派給圖層0的指令都會在套用至`layer=comp`的指令之前套用。 因此，當`layer=comp`時，`extend=`在`flip=`之前套用。
+選取`layer=comp`時，某些命令（包括`extend=`）會隱含套用至圖層0而非複合圖層。 在這種情況下，所有自動指派給圖層0的指令都會在套用至`layer=comp`的指令之前套用。 因此，當`layer=comp`時，`extend=`在`flip=`之前套用。
 
 >[!NOTE]
 >

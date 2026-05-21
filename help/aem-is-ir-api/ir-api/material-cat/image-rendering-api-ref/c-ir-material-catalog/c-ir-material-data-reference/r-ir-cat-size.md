@@ -5,10 +5,18 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 964cb4c1-5256-40eb-94ea-761916174b79
-source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
+TQID: 'https://experienceleague.adobe.com/HLyEmmOch9kiHQ3sqpvHCQiHOBltjQcsZaDu0na1-Ww'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 3%
+source-wordcount: 217
+ht-degree: 5%
 
 ---
 
@@ -26,7 +34,7 @@ ht-degree: 3%
 
 ## 預設 {#section-8029fe4dcbd1427db94a4fef1ccbbfd0}
 
-0,0，0。 這表示要根據catalog：：Resolution來決定貼花大小，而且物件沒有厚度（因此不會呈現投影）。
+0,0,0. 這表示要根據catalog：：Resolution來決定貼花大小，而且物件沒有厚度（因此不會呈現投影）。
 
 ## 範例 {#section-7e7166ec9a1e4f4cb026de3342fcddc3}
 
@@ -36,11 +44,11 @@ ht-degree: 3%
   <td class="stentry"> <p>貼花的大小強製為12x3英吋，且沒有厚度（也就是沒有投影）。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>0,5，1 </p></td> 
+  <td class="stentry"> <p>0,5,1 </p></td> 
   <td class="stentry"> <p>貼花寬度為5英吋，高度由影像的外觀比例決定，而投影會根據1英吋的厚度彩現。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>0,0，.5 </p></td> 
+  <td class="stentry"> <p>0,0,.5 </p></td> 
   <td class="stentry"> <p>貼花寬度和高度由catalog：：Resolution決定，且厚度為1/2英吋。 </p></td> 
  </tr> 
 </table>

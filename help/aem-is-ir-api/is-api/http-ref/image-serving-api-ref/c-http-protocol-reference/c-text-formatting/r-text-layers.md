@@ -5,9 +5,17 @@ title: 文字圖層
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 6793eb7d-6c10-4136-b6d4-186a698a8e52
-source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
+TQID: 'https://experienceleague.adobe.com/cIgicI7IPJKVWkhlyocD7g7nuXbJXaTAborYvt3Muyg'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: 904
 ht-degree: 0%
 
 ---
@@ -43,7 +51,7 @@ textPs=支援本節所述許多不同的使用模式。
 
 ## 矩形文字方塊 {#section-1d3ab11df26d4004a1a801546756475d}
 
-如果除了`size=` （不含`textPs=`和`textPath=`）之外還指定了`textFlowPath=`，則文字會限制在指定的矩形。 圖層會照常放置。 文字方塊邊緣附近的字元字元可能會部分呈現在文字方塊的外部。
+如果除了`textPs=` （不含`textPath=`和`textFlowPath=`）之外還指定了`size=`，則文字會限制在指定的矩形。 圖層會照常放置。 文字方塊邊緣附近的字元字元可能會部分呈現在文字方塊的外部。
 
 `color=`填入`size=`所定義的區域。
 

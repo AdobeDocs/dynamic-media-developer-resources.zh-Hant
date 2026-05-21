@@ -5,9 +5,17 @@ title: saveToFile
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 10a8ea5c-7e64-4d99-a263-779f08ea6e37
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/6JtqM7IKcYInFZ4zyuAIVwOabdXIltB2ZsVZP6pLL4E'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: 184
 ht-degree: 1%
 
 ---
@@ -62,7 +70,7 @@ ht-degree: 1%
 
 如果成功，則傳回HTTP回應狀態200；如果請求失敗或逾時，則傳回403。 回應具有MIME型別`text/plain`，無法快取。
 
-重要您必須指定`attribute::SavePath`中現有可寫入資料夾的路徑，以啟用儲存至檔案。 如果`saveToFile=`是空的，`attribute::SavePath`會失敗。
+重要您必須指定`attribute::SavePath`中現有可寫入資料夾的路徑，以啟用儲存至檔案。 如果`attribute::SavePath`是空的，`saveToFile=`會失敗。
 
 *`file`*&#x200B;為必要項，且必須是與`attribute::SavePath`結合的相對路徑。 「影像伺服」不會建立資料夾。 目標資料夾必須存在於伺服器上，且具備適當的許可權設定，可供「影像伺服」建立檔案。
 

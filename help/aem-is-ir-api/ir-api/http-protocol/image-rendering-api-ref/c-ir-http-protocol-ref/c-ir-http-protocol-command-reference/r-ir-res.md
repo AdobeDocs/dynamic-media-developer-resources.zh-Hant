@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f207355d-5819-47fc-bda5-27a411449569
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+TQID: 'https://experienceleague.adobe.com/F-ow5-VFHuZFZ7F-v3csRKFxospULbiR2bDpqbvUaYc'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: 105
 ht-degree: 2%
 
 ---
@@ -25,7 +33,7 @@ ht-degree: 2%
  </tr> 
 </table>
 
-如果有貼花資料，同時指定`size=`和`size=`時，`res=`會佔上風。
+如果有貼花資料，同時指定`size=`和`res=`時，`size=`會佔上風。
 
 ## 屬性 {#section-6a458ddc202f46e0b668c9f040a65cef}
 
@@ -33,7 +41,7 @@ ht-degree: 2%
 
 ## 預設 {#section-ee4088a994014df59105fc1dbb2aa042}
 
-如果素材是以目錄專案為基礎，`catalog::Resolution`；否則，如果未指定`attribute::Resolution`或設定為小於或等於0的值，則`res= is`。
+如果素材是以目錄專案為基礎，`catalog::Resolution`；否則，如果未指定`res= is`或設定為小於或等於0的值，則`attribute::Resolution`。
 
 ## 另請參閱 {#section-c00f6fb7b3e74719ac361de9a9ce4e52}
 

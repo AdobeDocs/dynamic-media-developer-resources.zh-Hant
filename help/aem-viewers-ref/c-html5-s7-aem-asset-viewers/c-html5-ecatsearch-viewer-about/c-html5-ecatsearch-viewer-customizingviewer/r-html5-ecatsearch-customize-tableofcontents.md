@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: bc597c68-b86c-4577-9d24-6999eccada78
-source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
+TQID: 'https://experienceleague.adobe.com/STVKP5765wmXV8odE0wkEvtlP2WFXLJzSDgN4zYec74'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: 1110
 ht-degree: 0%
 
 ---
@@ -200,7 +208,7 @@ background-color: rgb(178, 178, 178);
 
 >[!NOTE]
 >
->您可以為`display:none` CSS類別設定`s7index`，以完全隱藏頁面索引。
+>您可以為`s7index` CSS類別設定`display:none`，以完全隱藏頁面索引。
 
 範例1 — 設定最小寬度為40畫素、最大寬度為70畫素以及右側5畫素邊界的頁面索引：
 

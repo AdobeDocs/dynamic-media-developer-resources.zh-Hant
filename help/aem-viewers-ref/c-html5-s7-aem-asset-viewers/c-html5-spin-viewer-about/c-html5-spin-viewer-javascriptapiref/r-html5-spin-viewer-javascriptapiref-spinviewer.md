@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: 0cfde665-c578-41a0-a428-0db3cbdac6ae
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+TQID: 'https://experienceleague.adobe.com/-aZhpoZiLqC8B77Ajt8wPTLBC3Z7zwcTiF9bPjndglg'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: 205
 ht-degree: 3%
 
 ---
@@ -26,7 +34,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname">設定</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {Object} </span>選用的JSON組態物件，允許所有檢視器設定傳遞給建構函式，並避免呼叫個別setter方法。 包含下列屬性： </p> <p> 
+   <td colname="col2"> <p> <span class="codeph"> {Object} </span>選用的JSON設定物件，允許所有檢視器設定傳遞給建構函式，並避免呼叫個別setter方法。 包含下列屬性： </p> <p> 
      <ul id="ul_266C711E8E75471E90C15F39A96A142F"> 
       <li id="li_71857BBD652243A094E936C2C8EA9702"> <p> 檢視器插入的DOM容器的<span class="codeph"> containerId </span> - <span class="codeph"> {String} </span> ID （通常是<span class="codeph"> DIV </span>）。 不需要在呼叫此方法時建立容器元素。 不過，執行<span class="codeph"> init() </span>時，容器必須存在。 必要. </p> </li> 
       <li id="li_3D28979F04274AC9B507B33D4275FC3A"> <p> <span class="codeph">引數</span> - <span class="codeph"> {Object} </span> JSON物件搭配檢視器組態引數，其中屬性名稱是檢視器特定的組態選項或SDK修飾元，且該屬性的值是對應的設定值。 必要. </p> </li> 

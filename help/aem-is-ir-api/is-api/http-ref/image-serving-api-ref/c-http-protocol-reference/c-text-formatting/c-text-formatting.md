@@ -5,9 +5,17 @@ title: 文字格式設定
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2c120ed1-b556-4caf-a30e-63ae48cc2104
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/OzCs0opEKfoih79LE4UuXEOJnN4Zh6iBtQNdRxCddAE'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: 579
 ht-degree: 6%
 
 ---
@@ -155,7 +163,7 @@ RTF字串支援以UTF-8和ISO標準為基礎的語言編碼，作為標準RTF字
 
 如果要透過http傳輸字串，所有非HTTP相容的字元都必須適當地逸出。 如果字串已併入影像目錄記錄的`catalog::Modifiers`欄位中，則只需要逸出&#39;=&#39;、&#39;&amp;&#39;和&#39;%&#39;。 控制字元（包括`<CR>`、`<LF>`和`<TAB>`）一律應移除。
 
-「影像伺服」文字引擎會解譯RTF規格1.6版所定義的命令子集。此子集著重於字型/字元格式、簡單的段落格式，以及支援國際字型和字元集。 目前不支援更進階的格式建構，例如樣式表和表格。
+「影像伺服」文字引擎會解譯RTF規格1.6版所定義的命令子集。 此子集著重於字型/字元格式、簡單的段落格式，以及支援國際字型和字元集。 目前不支援更進階的格式建構，例如樣式表和表格。
 
 嘗試手動建構RTF編碼的文字字串時，需要熟悉Microsoft所發佈的RTF規格。
 

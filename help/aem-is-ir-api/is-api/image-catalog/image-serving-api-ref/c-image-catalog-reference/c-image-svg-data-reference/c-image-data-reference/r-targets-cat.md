@@ -5,9 +5,17 @@ title: 目標
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b882ba01-a1ef-4179-95c7-964c2578aad1
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/kP22kltIPZqErqxNKpYp2eNkII-GdYQQeiVH3wEYOvM'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: 331
 ht-degree: 1%
 
 ---
@@ -16,7 +24,7 @@ ht-degree: 1%
 
 縮放目標資料。 沒有或多個縮放目標屬性，這些屬性可與縮放檢視器使用者端搭配使用。
 
-伺服器在取代&#39;`req=targets`&#39;記錄終止元Token之後，傳回此欄位的內容以回應`??`。
+伺服器在取代&#39;`??`&#39;記錄終止元Token之後，傳回此欄位的內容以回應`req=targets`。
 
 每個縮放目標最多可以有四個屬性相關聯：
 
@@ -57,7 +65,7 @@ ht-degree: 1%
 
 目標。 每個縮放目標都需要&#x200B;*`num`*.rect，而且必須在影像中完全指定矩形。 所有其他屬性都是選用的。
 
-*`label`*&#x200B;和&#x200B;*`userData`*&#x200B;參與文字字串本地化。 如需詳細資訊，請參閱[HTTP通訊協定參考](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)中的&#x200B;*文字字串本地化*。
+*`label`*&#x200B;和&#x200B;*`userData`*&#x200B;參與文字字串本地化。 如需詳細資訊，請參閱&#x200B;*HTTP通訊協定參考*&#x200B;中的[文字字串本地化](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)。
 
 對於涉及迴轉和小冊子檢視器使用者端的應用程式，必須在定義影像集的相同目錄記錄中定義縮放目標。 檢視器會忽略影像整合員的目錄記錄中的任何縮放目標定義。
 

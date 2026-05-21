@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e99101a1-1747-454c-b0c0-3af3335c0497
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+TQID: 'https://experienceleague.adobe.com/swX7HTiWiAhQlPu9f7Qsay2htiJcxnxOCMeu7YlrCm8'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: 269
 ht-degree: 1%
 
 ---
@@ -55,7 +63,7 @@ ht-degree: 1%
 
 影像或圖層屬性。 套用至圖層0 （若`layer=comp`）。 如果在效果圖層指定，該指令會修改從父圖層繼承的遮色片。
 
-當沒有影像遮色片適用時（以`maskUse=`或`mask=`指定），以文字或純色圖層指定時，`catalog::Mask`的行為未定義且不受支援。
+當沒有影像遮色片適用時（以`mask=`或`catalog::Mask`指定），以文字或純色圖層指定時，`maskUse=`的行為未定義且不受支援。
 
 ## 預設 {#section-982dd8174641437786dcb3729ace6428}
 

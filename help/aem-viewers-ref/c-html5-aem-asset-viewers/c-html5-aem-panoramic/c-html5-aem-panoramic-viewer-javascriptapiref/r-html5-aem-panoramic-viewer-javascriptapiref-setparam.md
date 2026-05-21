@@ -5,9 +5,15 @@ solution: Experience Manager, Experience Manager Assets
 feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+autotag-review: '2026-05-13T22:11:37.806Z'
+TQID: 'https://experienceleague.adobe.com/Hw4SgeJ8yTvGg1zDyDkqtWH6gfGdIHa0daPZ7cT6eow'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+source-git-commit: e76d4c499daf8c8a7a0be31e56d84f917c643095
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: 80
 ht-degree: 2%
 
 ---
@@ -28,11 +34,11 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname">名稱</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string} </span>引數名稱。 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}引數的</span>名稱。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname">值</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string} </span>引數值。 值不得以百分比編碼。 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}引數的</span>值。 值不得以百分比編碼。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

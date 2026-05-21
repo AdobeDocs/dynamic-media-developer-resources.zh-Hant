@@ -1,20 +1,28 @@
 ---
-description: 目錄資料檔案可以有任何名稱和檔案字尾（.ini除外）。 只要使用支援定位點分隔文字資料檔案的應用程式(例如Microsoft Excel和Access)，就能輕鬆維護這些檔案。
+description: 目錄資料檔案可以有任何名稱和檔案字尾（.ini除外）。 只要使用支援定位點分隔文字資料檔案的應用程式（例如Microsoft Excel和Access），就能輕鬆維護這些檔案。
 solution: Experience Manager
 title: 目錄資料檔案
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 4aa20abe-4f84-470b-b5a1-3d9246ab1792
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/h4-MIosWMEWhmbAYbpS9xm22nDzEPO6APGEezCA1B-Q'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: 353
 ht-degree: 0%
 
 ---
 
 # 目錄資料檔案{#catalog-data-files}
 
-目錄資料檔案可以有任何名稱和檔案字尾（.ini除外）。 只要使用支援定位點分隔文字資料檔案的應用程式(例如Microsoft Excel和Access)，就能輕鬆維護這些檔案。
+目錄資料檔案可以有任何名稱和檔案字尾（.ini除外）。 只要使用支援定位點分隔文字資料檔案的應用程式（例如Microsoft Excel和Access），就能輕鬆維護這些檔案。
 
 目錄資料檔案基本上是二維表格，由標頭記錄組成，該記錄可識別資料欄和任意數量的資料記錄（列）。 標題和資料記錄中的欄位均以單一`<TAB>`字元分隔。 記錄由單一`<CR>` （ASCII代碼`0xD`）、單一`<LF>` （ASCII代碼`0xA`）或`<CR><LF>`配對分隔。
 

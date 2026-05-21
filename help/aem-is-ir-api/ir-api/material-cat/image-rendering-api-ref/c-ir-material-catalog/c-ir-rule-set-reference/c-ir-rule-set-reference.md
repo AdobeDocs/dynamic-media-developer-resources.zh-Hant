@@ -5,9 +5,19 @@ title: 規則集參考
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 194600d0-72d9-47fb-8525-598beb2ce17d
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+TQID: 'https://experienceleague.adobe.com/HxgWcboIyA2RYuXbHMKaUiRQFL8IDNKegdOqMgz2plE'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: 642
 ht-degree: 0%
 
 ---
@@ -49,7 +59,7 @@ ht-degree: 0%
 
 在有效的規則集XML檔案中，`<?xml>`、`<!DOCTYPE>`和`<ruleset>`專案永遠是必要的，即使未定義實際規則。
 
-允許一個包含任意數目`<ruleset>`個元素的`<rule>`元素。
+允許一個包含任意數目`<rule>`個元素的`<ruleset>`元素。
 
 預先處理規則檔案的內容區分大小寫。
 
@@ -65,7 +75,7 @@ ht-degree: 0%
 
 ## OnMatch屬性 {#section-7a8ad3597780486985af5e9a3b1c7b56}
 
-可以使用`OnMatch`專案的`<rule>`屬性修改預設行為。 `OnMatch`可設為`break` （預設）、`continue`或`error.`
+可以使用`<rule>`專案的`OnMatch`屬性修改預設行為。 `OnMatch`可設為`break` （預設）、`continue`或`error.`
 
 <table id="table_4CABF55B33854A128D5F326B31C6C397"> 
  <thead> 
@@ -92,7 +102,7 @@ ht-degree: 0%
 
 ## 覆寫目錄屬性 {#section-1f59ce84234f4576ba8473b0e6ba22ee}
 
-當規則成功比對且已設定`<rule>`時，`OnMatch="break"`元素可選擇定義覆寫對應目錄屬性的屬性。 若已設定`OnMatch="continue"`，則不會套用任何屬性。 如需可透過規則控制的屬性清單，請參閱`<rule>`的說明。
+當規則成功比對且已設定`OnMatch="break"`時，`<rule>`元素可選擇定義覆寫對應目錄屬性的屬性。 若已設定`OnMatch="continue"`，則不會套用任何屬性。 如需可透過規則控制的屬性清單，請參閱`<rule>`的說明。
 
 ## 規則運算式 {#section-4d326507b52544b0960a9a5f303e3fe6}
 
@@ -114,4 +124,4 @@ ht-degree: 0%
 
 ## 另請參閱 {#section-cdaacf84f92c4bffbb4b76197b4e531a}
 
-[封裝java.util.regex](https://www2.cs.duke.edu/csed/java/jdk1.4.2/docs/api/)
+[套件java.util.regex](https://www2.cs.duke.edu/csed/java/jdk1.4.2/docs/api/)

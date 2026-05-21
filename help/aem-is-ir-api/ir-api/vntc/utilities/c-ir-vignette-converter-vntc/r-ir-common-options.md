@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1237aaf7-4585-4240-b227-c34413165dd4
-source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
+TQID: 'https://experienceleague.adobe.com/3Wz0goEJBDZmEomYaszS1Am7GMuTBxWEl1l-6Y163J0'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: 704
 ht-degree: 0%
 
 ---
@@ -43,7 +51,7 @@ ht-degree: 0%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -maxmem <span class="varname"> ival </span> </span> </p> </td> 
-  <td class="stentry"> <p>指定允許<span class="filepath"> vntc </span>使用的最大記憶體數量（位元組）。 當<span class="filepath"> vntc </span>達到最大記憶體限制時，它會停止處理並產生錯誤。 <span class="varname"> ival </span>指定最大記憶體限制（以位元組為單位） (0.. 3,758,096,384 (3.5 GB)。 當<span class="varname"> ival </span>為0時，會關閉記憶體上限。 預設值為<span class="codeph"> -maxmem 3221225472 </span>，這表示最大記憶體限製為3 GB。 </p> </td> 
+  <td class="stentry"> <p>指定允許<span class="filepath"> vntc </span>使用的最大記憶體數量（位元組）。 當<span class="filepath"> vntc </span>達到最大記憶體限制時，它會停止處理並產生錯誤。 <span class="varname"> ival </span>指定最大記憶體限制（以位元組為單位） (0..3,758,096,384 (3.5 GB)。 當<span class="varname"> ival </span>為0時，會關閉記憶體上限。 預設值為<span class="codeph"> -maxmem 3221225472 </span>，這表示最大記憶體限製為3 GB。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> — 分隔符號" <span class="varname">字串</span>" </span> </p> </td> 

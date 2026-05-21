@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 0dc6ad78-1044-4495-9414-53900302b8c0
-source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
+TQID: 'https://experienceleague.adobe.com/buSV2cmOQIytAc-N8Cd-FjAH-d-zwK-y4-Vfmf-24bI'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: 210
 ht-degree: 0%
 
 ---
@@ -129,7 +137,7 @@ ht-degree: 0%
 
 ## 傳回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}`檢視器SDK元件的參考。 如果`null`不是支援的檢視器元件，或檢視器邏輯尚未建立元件，則方法會傳回`componentId`。
+`{Object}`檢視器SDK元件的參考。 如果`componentId`不是支援的檢視器元件，或檢視器邏輯尚未建立元件，則方法會傳回`null`。
 
 ## 範例 {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 
