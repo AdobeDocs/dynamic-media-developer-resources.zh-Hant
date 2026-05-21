@@ -5,9 +5,13 @@ title: 使用者資料
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 4994c91c-52d7-473d-88ee-f136c4193c40
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/9jhCw--mmCQ1-j1uNGFmfTEcnkNzxbKfXJtve5GugdA'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: 123
 ht-degree: 3%
 
 ---
@@ -22,7 +26,7 @@ ht-degree: 3%
 
 縮放、迴轉和小冊子檢視器使用者端會假設此欄位使用屬性資料格式。 這些使用者端使用此欄位來設定檢視器並自訂。 如需詳細資訊，請參閱檢視器檔案。
 
-此欄位參與文字字串本地化。 如需詳細資訊，請參閱[HTTP通訊協定參考](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)中的&#x200B;*文字字串本地化*。
+此欄位參與文字字串本地化。 如需詳細資訊，請參閱&#x200B;*HTTP通訊協定參考*&#x200B;中的[文字字串本地化](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)。
 
 ## 預設 {#section-7ee879762130467199745f2abc662f1e}
 

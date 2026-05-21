@@ -5,10 +5,15 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 959cb193-d0b7-4aa9-a747-fa17484f80c7
-source-git-commit: 347aa2f52bc6433043ba65fc75fe9f7f221e6aa3
+TQID: 'https://experienceleague.adobe.com/NURaQ7eznu6tyM5IhrlLMxaZ1L38L7t9lHb826jSyfs'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 4%
+source-wordcount: 324
+ht-degree: 3%
 
 ---
 
@@ -25,10 +30,10 @@ ht-degree: 4%
 >* 網路頻寬
 >* DPR （裝置畫素比率）
 >
->若要瞭解使用快照的簡易程度，請播放[快照訓練影片](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=zh-Hant) （3分17秒）。
+>若要瞭解使用快照的簡易程度，請播放[快照訓練影片](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=en) （3分17秒）。
 
 
-**僅適用於Adobe Experience Manager中的Dynamic Media** — 除了使用者介面中可用的基本影像設定之外，AEM ( [!DNL Dynamic Media])中的[!DNL Adobe Experience Manager]還支援您可以在&#x200B;**影像修飾元**&#x200B;欄位中指定的許多進階影像修改。 這些引數定義如下。 但是請注意，AEM的Dynamic Media不支援下列功能。
+**僅適用於Adobe Experience Manager中的Dynamic Media** — 除了使用者介面中可用的基本影像設定之外，AEM ( [!DNL Adobe Experience Manager])中的[!DNL Dynamic Media]還支援您可以在&#x200B;**影像修飾元**&#x200B;欄位中指定的許多進階影像修改。 這些引數定義如下。 但是請注意，AEM的Dynamic Media不支援下列功能。
 
 * 色彩校正命令： `icc=`和`iccEmbed=`。
 * 基本範本化和文字演算命令： `text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=`和`textPs=`。
@@ -42,7 +47,7 @@ ht-degree: 4%
 
 <!-- Adobe IS command examples website  http://sj1010010254235.corp.adobe.com/iscommands/ -->
 
-另請參閱AEM 6.5檔案中的動態媒體[影像預設集選項](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html?lang=zh-Hant#dynamic)。
+另請參閱AEM 6.5檔案中的動態媒體[影像預設集選項](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic)。
 
 * [對齊](r-align.md)
 * [錨記](r-anchor.md)

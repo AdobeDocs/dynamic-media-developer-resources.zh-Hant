@@ -5,9 +5,14 @@ title: props
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9933d1dc-ae16-4d17-80ca-a1068cd73b0c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/grTKxMVRKQ8-casDC-aGK6xeQQwqsg2sRLRBGlTrXdc'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: 373
 ht-degree: 5%
 
 ---
@@ -29,7 +34,7 @@ ht-degree: 5%
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>`是JSONP回應中出現的JS處理常式名稱。 僅允許a-z、A-Z和0-9字元。 選填。 預設值為`s7jsonResponse`。
+`<reqHandler>`是JSONP回應中出現的JS處理常式名稱。 僅允許a-z、A-Z和0-9字元。 選擇性. 預設值為`s7jsonResponse`。
 
 如需回覆語法和回應MIME型別的說明，請參閱[屬性](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/c-properties.md#concept-49c609fd6de942cab422ee412353c9d9)。 可使用以`attribute::NonImgExpiration`為基礎的TTL來快取HTTP回應。
 

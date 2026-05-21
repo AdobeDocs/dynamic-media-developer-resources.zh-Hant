@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 56ebf2a1-f2c3-4b3f-8d0a-9383f1411440
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+TQID: 'https://experienceleague.adobe.com/O1v1LorIfXLyRso4ZRVJd7qx5A4kciWKVoG-df8q-Xg'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: 166
 ht-degree: 4%
 
 ---
@@ -27,11 +31,11 @@ ht-degree: 4%
 
 *`template`*&#x200B;必須是包含在`catalog::Modifier`中的範本本文之影像目錄專案。
 
-當`template=`出現時，請求路徑中指定的物件不會套用為圖層0的來源。 不過，使用預先定義的路徑變數`src=`做為`mask=`值，便可在範本中的任何地方將其當做`$object$`或`src=`參考。 要求路徑中所指定物件的`catalog::Modifier`僅套用範本中`$object$`的替代，而一律套用`catalog::PostModifier`。
+當`template=`出現時，請求路徑中指定的物件不會套用為圖層0的來源。 不過，使用預先定義的路徑變數`$object$`做為`src=`值，便可在範本中的任何地方將其當做`src=`或`mask=`參考。 要求路徑中所指定物件的`catalog::Modifier`僅套用範本中`$object$`的替代，而一律套用`catalog::PostModifier`。
 
 圖層0是在範本內文中定義的，可以是影像、純色、文字、巢狀或內嵌的要求圖層。
 
-將`catalog:PostModifier`與&#x200B;*`object`*&#x200B;搭配使用時，會忽略&#x200B;*`object`*&#x200B;的`template=`。
+將&#x200B;*`object`*&#x200B;與`template=`搭配使用時，會忽略&#x200B;*`object`*&#x200B;的`catalog:PostModifier`。
 
 ## 預設 {#section-9de53ea27c4b4fd4811e40e345d8ba05}
 

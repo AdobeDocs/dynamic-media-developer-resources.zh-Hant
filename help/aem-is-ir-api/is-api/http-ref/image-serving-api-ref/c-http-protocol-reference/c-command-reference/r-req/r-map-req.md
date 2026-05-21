@@ -5,10 +5,14 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3330f49a-934e-492a-804c-ace4d147c65a
-source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
+TQID: 'https://experienceleague.adobe.com/Ly1JWjeEyZWUEiyVcv-t-OKf0cp6uuMsbR0B6BE1fhY'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 0%
+source-wordcount: 224
+ht-degree: 1%
 
 ---
 
@@ -33,7 +37,7 @@ ht-degree: 0%
 
 如果在要求中指定了任何其他命令，則會傳回複合影像對應。 複合影像地圖是透過縮放、裁切、旋轉及分層要求中所包含的所有`catalog::Map`及/或`map=`命令所衍生，就像影像資料會與`req=img`一樣。
 
-指定`text`或省略第二個引數，以便您可以傳回回應MIME型別為`HTML <AREA>`的`text/plain`元素字串形式的影像地圖資料。
+指定`text`或省略第二個引數，以便您可以傳回回應MIME型別為`text/plain`的`HTML <AREA>`元素字串形式的影像地圖資料。
 
 指定`xml`，讓您可以將回應格式化為XML，而非HTML。 可選擇指定文字編碼。 預設值為`UTF-8`。
 
@@ -45,6 +49,6 @@ HTTP回應可使用以`catalog::Expiration`為基礎的TTL進行快取。
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>`是JSONP回應中出現的JS處理常式名稱。 僅允許a-z、A-Z和0-9字元。 選填。 預設值為`s7jsonResponse`。
+`<reqHandler>`是JSONP回應中出現的JS處理常式名稱。 僅允許a-z、A-Z和0-9字元。 選擇性. 預設值為`s7jsonResponse`。
 
 檢視[影像地圖](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-image-maps.md#reference-ff7d1bac2a064104b0c508a81316fdab)。

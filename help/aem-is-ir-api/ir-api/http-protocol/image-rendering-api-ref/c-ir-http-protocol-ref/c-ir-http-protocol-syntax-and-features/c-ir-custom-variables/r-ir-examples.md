@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 85f11642-e1ff-4bf0-bd21-d419805cff4a
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+TQID: 'https://experienceleague.adobe.com/GMzKDuP-wzTrPJQbxpXc0M08BjCQdWCkGo5jOUiWipU'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: 137
 ht-degree: 1%
 
 ---
@@ -18,7 +22,7 @@ ht-degree: 1%
 
 IR變數可用來識別暈映、標誌影像和自訂文字。
 
-材質目錄`vignette::Modifier`的暈映對應中，名為&#x200B;*範本*&#x200B;之記錄中的`myCat`欄位包含下列專案：
+材質目錄`myCat`的暈映對應中，名為&#x200B;*範本*&#x200B;之記錄中的`vignette::Modifier`欄位包含下列專案：
 
 `$vig=defaultVignette&$text=text_goes_here&$color=220,220,220&vignette=myCat/$vig$&obj=group/object&color=$color$&decal&src=is{?size=300,100&text={\qc\fs36 $text$}}`
 

@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 70232055-2a4c-4e56-8076-3cd56a9004c5
-source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
+TQID: 'https://experienceleague.adobe.com/PRayyg-oBmqHohNjYBa4bgtxdK9tdb6qd6vaLkGJZEg'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: 412
 ht-degree: 0%
 
 ---
@@ -20,7 +24,7 @@ ht-degree: 0%
 
 每個服飾/配件像片都會經過遮罩，並裁切至遮罩邊界方框，以將影像大小最小化。 影像錨點和解析度會經過謹慎控制，以維持圖層與背景影像的對齊，而且所有影像都會新增至影像目錄，並將適當的值儲存於`catalog::Resolution`和`catalog::Anchor`。
 
-除了分層外，您還需要變更所選專案的顏色。 這些專案的記錄會經過預先處理，以移除原始顏色，並以適合彩色化指令的方式調整亮度和對比。 此預先處理作業可以離線完成，使用影像編輯工具(例如Adobe Photoshop)來完成，或者在簡單的情況下，可以將`op_brightness=`和`op_contrast=`新增到`catalog::Modifier`欄位來逐一完成。
+除了分層外，您還需要變更所選專案的顏色。 這些專案的記錄會經過預先處理，以移除原始顏色，並以適合彩色化指令的方式調整亮度和對比。 此預先處理作業可以離線完成，使用影像編輯工具（例如Adobe Photoshop）來完成，或者在簡單的情況下，可以將`op_brightness=`和`op_contrast=`新增到`catalog::Modifier`欄位來逐一完成。
 
 此應用程式不支援個別的範本，因為所有物件已由其影像錨點( `catalog::Anchor`)正確對齊，且已縮放( `catalog::Resolution`)。 由使用者端自行決定要確保適當的圖層順序。
 
@@ -42,7 +46,7 @@ layer=6&res=999&src=rootId/shoes21
 
 如果所有來源影像在完整比例下都有相同的解析度（這很可能是這種應用程式的情況），則可以省略`res=`命令。
 
-必須為所有`rootId`命令指定`src=`，即使它們與URL路徑中指定的`rootId`相同。
+必須為所有`src=`命令指定`rootId`，即使它們與URL路徑中指定的`rootId`相同。
 
 如果沒有要使用影像目錄，就無法使用以解析度為基礎的縮放方法。 在此情況下，必須根據每個圖層的`catalog::Resolution`值與背景圖層的`catalog::Resolution`值的比例，計算每個圖層專案的明確比例係數。 因此，合成請求（層數較少）可能如下所示：
 

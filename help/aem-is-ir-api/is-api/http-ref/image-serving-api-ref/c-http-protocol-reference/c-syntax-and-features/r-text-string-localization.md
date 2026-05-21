@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f105c7f2-b544-4c08-bb91-4916e485572d
-source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
+TQID: 'https://experienceleague.adobe.com/iT-q5yLQijvkYDB0xOq3E6r1k3DIbU9BWu3Jkqs8wUI'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: 672
 ht-degree: 1%
 
 ---
@@ -26,7 +30,7 @@ ht-degree: 1%
  <thead> 
   <tr> 
    <th class="entry"> <b>目錄欄位</b> </th> 
-   <th class="entry"> 欄位<b>中的</b>字串專案 </th> 
+   <th class="entry"> 欄位</b>中的<b>字串專案 </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -40,7 +44,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph">目錄：：目標</span> </p> </td> 
-   <td> <p>任何<span class="codeph">目標的值。*.label </span>和<span class="codeph">目標。*.userdata </span>屬性。 </p> </td> 
+   <td> <p>任何<span class="codeph"> target.*.label </span>和<span class="codeph"> target.*.userdata </span>屬性的值。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph">目錄：：UserData </span> </p> </td> 
@@ -87,7 +91,7 @@ ht-degree: 1%
 
 ## 翻譯地圖 {#section-f7ce3df91b724adf95cee44eac4915d4}
 
-`attribute::LocaleStrMap`定義伺服器用來決定哪個&#x200B;*`localizedStrings`*&#x200B;要傳回使用者端的規則。 它包含輸入&#x200B;*`locales`*&#x200B;的清單（符合以`locale=`指定的值），每個都沒有任何或多個內部地區設定識別碼( *`locId`*)。 例如: 
+`attribute::LocaleStrMap`定義伺服器用來決定哪個&#x200B;*`localizedStrings`*&#x200B;要傳回使用者端的規則。 它包含輸入&#x200B;*`locales`*&#x200B;的清單（符合以`locale=`指定的值），每個都沒有任何或多個內部地區設定識別碼( *`locId`*)。 例如:
 
 `attribute::LocaleStrMap= en,E|nl,N|de,D|,`
 
@@ -97,9 +101,9 @@ ht-degree: 1%
 
 ## 翻譯程式 {#section-a2a8a3e5850f4f7c9d2318267afe98a2}
 
-根據以上範例翻譯對應和請求`/is/image/myCat/myItem?req=&locale=nl`，伺服器會先在地區設定對應中尋找「`nl`」。 相符的專案`nl,N`表示應傳回每個&#x200B;*`stringElement`*&#x200B;標示為&#x200B;*`localizedString`*&#x200B;的`^loc=N^`。 如果此&#x200B;*`localizationToken`*&#x200B;不存在於&#x200B;*`stringElement`*&#x200B;中，則會傳回空值。
+根據以上範例翻譯對應和請求`/is/image/myCat/myItem?req=&locale=nl`，伺服器會先在地區設定對應中尋找「`nl`」。 相符的專案`nl,N`表示應傳回每個&#x200B;*`stringElement`*&#x200B;標示為`^loc=N^`的&#x200B;*`localizedString`*。 如果此&#x200B;*`localizationToken`*&#x200B;不存在於&#x200B;*`stringElement`*&#x200B;中，則會傳回空值。
 
-假設`catalog::UserData`的`myCat/myItem`包含下列內容（為了清楚起見，插入了分行符號）：
+假設`myCat/myItem`的`catalog::UserData`包含下列內容（為了清楚起見，插入了分行符號）：
 
 `val1=111?? str1=Default1^loc=N^Dutch1^loc=D^German1?? val2=value2?? str2=^loc=E^English2^loc=N^Dutch2^loc=D^German2?? str3=Default3^loc=N^Dutch3^loc=D^German3`
 
@@ -121,7 +125,7 @@ ht-degree: 1%
 
 多個&#x200B;*`locId`*&#x200B;值可能與翻譯對應中的每個&#x200B;*`locale`*&#x200B;相關聯。 原因是它允許為選取的&#x200B;*`stringElements`*&#x200B;支援特定國家或地區的變體（例如美式英文與英式英文），同時處理大多數具有通用基本語言環境的內容（例如國際英文）。
 
-例如，新增美國專屬英文(`*`locId`* EUS`)和英國專屬英文(`*`locId`* EUK`)的支援，以支援偶爾使用的替代拼字。 如果EUK或EUS不存在，則會退回E。同樣地，在大部分時間傳回通用德文`DAT` （以&#x200B;*`localizedStrings`*&#x200B;標籤）時，奧地利特定德文變體(`D`)可以在需要時使用。
+例如，新增美國專屬英文(`*`locId`* EUS`)和英國專屬英文(`*`locId`* EUK`)的支援，以支援偶爾使用的替代拼字。 如果EUK或EUS不存在，則會退回E。同樣地，在大部分時間傳回通用德文&#x200B;*`localizedStrings`* （以`D`標籤）時，奧地利特定德文變體(`DAT`)可以在需要時使用。
 
 `attribute::LocaleStrMap`看起來像這樣：
 

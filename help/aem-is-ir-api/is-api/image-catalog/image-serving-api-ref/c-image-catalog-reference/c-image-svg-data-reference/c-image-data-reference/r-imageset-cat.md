@@ -5,9 +5,13 @@ title: 影像集
 feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,User
 exl-id: eacf0553-8cec-4a1d-80a5-6fe37b92b5bf
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+TQID: 'https://experienceleague.adobe.com/wh25AlzBQv0W-lEugybS8B-cIYYFoK8o9I2uGb52Ui4'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: 681
 ht-degree: 1%
 
 ---
@@ -117,7 +121,7 @@ ht-degree: 1%
 
 文字字串。 以逗號分隔的`catalog::Id`值清單、絕對影像伺服器檔案路徑，或相對於`attribute::RootPath`的檔案路徑。 同一個影像在集中可能會被參考多次。 定義目錄記錄可出現在集合的任何位置。
 
-此欄位參與文字字串本地化。 除了&#x200B;*`label`*&#x200B;字串（*`solidColorSpecifier`*&#x200B;的一部分）之外，如果分隔欄位至少包含一個&#39; `^loc=…^`&#39;本地化Token，則所有欄位都會本地化。 如需詳細資訊，請參閱[HTTP通訊協定參考](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)中的&#x200B;*文字字串本地化*。
+此欄位參與文字字串本地化。 除了&#x200B;*`label`*&#x200B;字串（*`solidColorSpecifier`*&#x200B;的一部分）之外，如果分隔欄位至少包含一個&#39; `^loc=…^`&#39;本地化Token，則所有欄位都會本地化。 如需詳細資訊，請參閱&#x200B;*HTTP通訊協定參考*&#x200B;中的[文字字串本地化](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)。
 
 ## 預設 {#section-c3a60e360393478284f0f2d2da5b963b}
 

@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1fb91795-f699-40b4-a6bc-6eab3e1ecd1d
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/L4j9Svu1H5DOc55iImhT1g6hRQT6svB0V2kuRsU37GE'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: 301
 ht-degree: 0%
 
 ---
@@ -16,7 +20,7 @@ ht-degree: 0%
 
 目錄資料檔案可以有任何名稱和檔案字尾（`.ini`除外）。
 
-可以使用支援定位點分隔文字資料檔案的應用程式(例如Microsoft®Excel和Access)輕鬆維護目錄資料檔案。
+可以使用支援定位點分隔文字資料檔案的應用程式（例如®Excel和Access）輕鬆維護目錄資料檔案。
 
 目錄資料檔案基本上是二維表格，由標頭記錄組成，該記錄可識別資料欄和任意數量的資料記錄（列）。 標題和資料記錄中的欄位均以單一`<TAB>`字元分隔。 記錄由單一`<CR>` （ASCII代碼`0xD`）、單一`<LF>` （ASCII代碼`0xA`）或`<CR><LF>`配對分隔。
 
@@ -30,7 +34,7 @@ ht-degree: 0%
 
 除非另有註明，否則相同欄位中的多個資料值會以逗號(&#39;，&#39;)分隔。
 
-名稱以&#39;.&#39;開頭的資料行 會被忽略；這允許將資料儲存在影像演算不感興趣的材料目錄中。 會忽略具有未知標頭名稱的欄，並將警告寫入記錄檔。
+名稱以「。」開頭的欄會被忽略；這允許將資料儲存在影像演算不感興趣的材料目錄中。 會忽略具有未知標頭名稱的欄，並將警告寫入記錄檔。
 
 欄位名稱可包含ASCII字母、數字、「 — 」和「_」的任意組合。
 

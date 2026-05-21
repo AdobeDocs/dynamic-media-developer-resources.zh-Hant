@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 86c87cd1-6e08-40cb-80e6-35a9f49b6572
-source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
+TQID: 'https://experienceleague.adobe.com/K4w8R8Ke-0GXFdhfpxgAcltyN3icVsJJdRGfx1OiSjg'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: 556
 ht-degree: 0%
 
 ---
@@ -49,7 +53,7 @@ ht-degree: 0%
 >
 >不允許`scale=`、`rotate=`和`anchor=`命令用於自動調整實色圖層。
 
-`*`pathDefinition`*`接受類似於SVG `d=`專案之`<path>`屬性的值的字串，但使用逗號而非空格來分隔值。 `*`pathDefinition`*`可以包含一或多個封閉回圈子路徑。
+`*`pathDefinition`*`接受類似於SVG `<path>`專案之`d=`屬性的值的字串，但使用逗號而非空格來分隔值。 `*`pathDefinition`*`可以包含一或多個封閉回圈子路徑。
 
 `*`pathDefinition`*`支援下列路徑命令：
 
@@ -83,7 +87,7 @@ ht-degree: 0%
   <tr valign="top"> 
    <td> <b> C</b> *{<span class="varname"> x1，y1，x2，y2，x，y</span>} </td> 
    <td> <p> curveto absolute </p> </td> 
-   <td> <p> 從目前位置繪製貝茲曲線到x，y。x1，y1是曲線開始的控制點，x2，y2是曲線結束的控制點。 </p> </td> 
+   <td> <p> 從目前位置繪製貝茲曲線到x，y。 x1，y1是曲線開始的控制點，x2，y2是曲線結束的控制點。 </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <b> c</b> *{<span class="varname"> x1，y1，x2，y2，x，y</span>} </td> 

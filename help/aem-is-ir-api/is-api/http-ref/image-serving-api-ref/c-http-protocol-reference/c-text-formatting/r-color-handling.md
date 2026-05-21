@@ -1,13 +1,17 @@
 ---
 title: 色彩處理
-description: RTF規格允許以&amp；bsol；colortbl指定的RGB色彩值。 每個元件分別提供&amp；bsol；紅色、&amp；bsol；綠色和&amp；bsol；藍色指令。
+description: RTF規格允許以&bsol；colortbl指定的RGB色彩值。 每個元件分別提供&bsol；red、&bsol；green和&bsol；blue指令。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 590ed0f1-8d78-4afc-ac9e-c28272cd24a6
-source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
+TQID: 'https://experienceleague.adobe.com/w5IfFwmdMegueJbDMjwvb5XCPuemRcJ1XTqcJFgdEMQ'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: 275
 ht-degree: 0%
 
 ---
@@ -20,13 +24,13 @@ RTF規格允許`\colortbl`所指定的RGB色彩值。 每個元件分別提供`\
 
 `\colortbl`的顏色元件值在0到255的範圍內。 `\cmykcolortbl`的元件值在0到100的範圍內。
 
-`\*\iscolortbl`支援的RTF延伸模組命令`textPs=`提供指定具有標準「影像伺服」色彩值的色彩表的方法，並支援完整的RGB、灰色、CMYK和Alpha。 其語法如下：
+`textPs=`支援的RTF延伸模組命令`\*\iscolortbl`提供指定具有標準「影像伺服」色彩值的色彩表的方法，並支援完整的RGB、灰色、CMYK和Alpha。 其語法如下：
 
 ` {\&#42;\iscolortbl; *[!DNL colors]*;}`
 
 *[!DNL colors]*&#x200B;一或多個IS色彩值，以「；」分隔
 
-可以在相同的`text=`或`textPs=` RTF字串中指定多種型別的色彩表。 每個色彩表可以有不同的專案數。 「影像伺服」會嘗試在`\iscolortbl`之前依此順序尋找顏色： `\cmykcolortbl`在`\colortbl`之前（僅當文字圖層的畫素型別為CMYK時）。 僅適用於`textPs=`，如有需要(例如，已指定RGB色彩，但需要CMYK輸出)，可在CMYK和RGB之間精確轉換顏色。 如果找不到特定索引值的顏色，則會使用預設顏色（黑色）。
+可以在相同的`text=`或`textPs=` RTF字串中指定多種型別的色彩表。 每個色彩表可以有不同的專案數。 「影像伺服」會嘗試在`\colortbl`之前依此順序尋找顏色： `\iscolortbl`在`\cmykcolortbl`之前（僅當文字圖層的畫素型別為CMYK時）。 僅適用於`textPs=`，如有需要（例如，已指定RGB色彩，但需要CMYK輸出），可在CMYK和RGB之間精確轉換顏色。 如果找不到特定索引值的顏色，則會使用預設顏色（黑色）。
 
 如需IS色彩值的語法說明，請參閱[色彩](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md)。
 

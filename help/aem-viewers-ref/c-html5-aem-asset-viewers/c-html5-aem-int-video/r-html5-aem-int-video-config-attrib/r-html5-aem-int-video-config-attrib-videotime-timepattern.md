@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: de071adf-6c3c-4702-8950-8246b8ee459e
-source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
+TQID: 'https://experienceleague.adobe.com/T2S4fAjAry5waLTPztxZjvDzVBVCoBqbfJXSZK-5SAQ'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: 118
 ht-degree: 2%
 
 ---
@@ -22,7 +26,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> [h：]m|mm：s|ss</span> </p> </td> 
-   <td colname="col2"> <p> 設定控制列中顯示的時間模式，其中<span class="codeph"> h</span>代表小時，<span class="codeph"> m</span>代表分鐘，<span class="codeph"> s</span>代表秒。 </p> <p>用於每個時間單位的字母數目決定該單位要顯示的位數。 如果數字不符合指定的位數，則會在後續單位中顯示對等值。 </p> <p>例如，如果目前的影片時間為67分5秒，則時間模式<span class="codeph"> m：ss</span>會顯示為67:05。 如果時間模式為:07: h<span class="codeph">s:mm:，則相同的時間會顯示為1</span>5。 </p> </td> 
+   <td colname="col2"> <p> 設定控制列中顯示的時間模式，其中<span class="codeph"> h</span>代表小時，<span class="codeph"> m</span>代表分鐘，<span class="codeph"> s</span>代表秒。 </p> <p>用於每個時間單位的字母數目決定該單位要顯示的位數。 如果數字不符合指定的位數，則會在後續單位中顯示對等值。 </p> <p>例如，如果目前的影片時間為67分5秒，則時間模式<span class="codeph"> m：ss</span>會顯示為67:05。 如果時間模式為<span class="codeph"> h:mm:s</span>，則相同的時間會顯示為1:07:5。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

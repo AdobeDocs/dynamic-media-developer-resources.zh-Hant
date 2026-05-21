@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: af051437-28e5-416f-a61a-0abafb1814b2
-source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
+TQID: 'https://experienceleague.adobe.com/pAXI43BvGyX7rM3--kuoLsAsexeM993-WKoLPCU9Zzg'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: 210
 ht-degree: 0%
 
 ---
@@ -21,7 +25,7 @@ ht-degree: 0%
 支援的檢視器事件包括：
 
 * `initComplete` — 當檢視器初始化完成並建立所有內部元件時觸發，以便可以使用`getComponent()` API。 回呼處理常式不接受任何引數。
-* `trackEvent` — 每次在檢視器內發生事件時都會觸發，該事件可能由事件追蹤系統(例如Adobe Analytics)處理。 回呼處理常式會採用下列引數：
+* `trackEvent` — 每次在檢視器內發生事件時都會觸發，該事件可能由事件追蹤系統（例如Adobe Analytics）處理。 回呼處理常式會採用下列引數：
 
    * `objID {String}`目前未使用。
    * `compClass {String}`目前未使用。

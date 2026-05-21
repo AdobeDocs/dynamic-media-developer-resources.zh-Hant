@@ -5,9 +5,13 @@ title: 重新處理資產工作
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: b6078246-54e1-4119-b4f8-ba6a28577cff
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+TQID: 'https://experienceleague.adobe.com/soVm4QrX3QSTIstkVAdeQlKPOB3ri38pcHOV51roczI'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: 453
 ht-degree: 2%
 
 ---
@@ -52,7 +56,7 @@ ht-degree: 2%
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> preserveCrop</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd：布林值</span> </p> </td> 
-   <td colname="col3"> <p>控制任何現有裁切定義的保留。 預設為 true。</p> <p>如果您提供manualCropOptions引數和對應的值，則無論是否有preserveCrop值，都會將新值（不包括0,0，0,0）套用至資產。</p><p>如果您<i>未</i>提供manualCropOptions引數，則會保留preserveCrop的值。 如果為true，則會保留現有的preserveCrop值；如果為false，則會移除preserveCrop值。</p><p>範例：</p><p><p>&lt;preserveCrop&gt;false&lt;/preserveCrop&gt;<br />&lt;manualCropOptions&gt;<br />   &lt;left&gt;190&lt;/left&gt;<br />   &lt;right&gt;310&lt;/right&gt;<br />   &lt;top&gt;160&lt;/top&gt;<br />   &lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualCropOptions&gt;</p> </td> 
+   <td colname="col3"> <p>控制任何現有裁切定義的保留。 預設為 true。</p> <p>如果您提供manualCropOptions引數和對應的值，則無論是否有preserveCrop值，都會將新值（不包括0,0，0,0）套用至資產。</p><p>如果您<i>未</i>提供manualCropOptions引數，則會保留preserveCrop的值。 如果為true，則會保留現有的preserveCrop值；如果為false，則會移除preserveCrop值。</p><p>範例：</p><p><p>&lt;preserveCrop&gt;false&lt;/preserveCrop&gt;<br />&lt;manualCropOptions&gt;<br /> &lt;left&gt;190&lt;/left&gt;<br /> &lt;right&gt;310&lt;/right&gt;<br /> &lt;top&gt;160&lt;/top&gt;<br /> &lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualCropOptions&gt;</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </p> </td> 
@@ -152,7 +156,7 @@ ht-degree: 2%
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> unsharpMaskOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph">型別：UnsharpMaskOptions</span> </p> </td> 
-   <td colname="col3"> <p>可讓您在建立最佳化的金字塔TIF檔案時控制遮色片銳利化設定的選項。 使用這些設定來協助改善影像銳利度。 </p> <p>請參閱<a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html?lang=zh-Hant"> UnsharpMaskOptions</a>。 </p> </td> 
+   <td colname="col3"> <p>可讓您在建立最佳化的金字塔TIF檔案時控制遮色片銳利化設定的選項。 使用這些設定來協助改善影像銳利度。 </p> <p>請參閱<a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> UnsharpMaskOptions</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

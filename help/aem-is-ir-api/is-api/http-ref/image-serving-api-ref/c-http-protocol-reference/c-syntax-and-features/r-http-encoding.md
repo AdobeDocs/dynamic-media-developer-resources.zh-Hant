@@ -5,9 +5,13 @@ title: 影像伺服HTTP編碼
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: aec8463f-f72a-4203-89ab-8a4f0ad9d6f9
-source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
+TQID: 'https://experienceleague.adobe.com/vQIQQhMGQZWbIeWUgnpqCtZj5Rx3Nl-1xUMatQwzeIU'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: 231
 ht-degree: 16%
 
 ---
@@ -58,12 +62,12 @@ ht-degree: 16%
    <td colname="col3"> <p>37 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&amp;amp；大括弧； </p> </td> 
+   <td colname="col1"> <p>大括弧(&amp;L)； </p> </td> 
    <td colname="col2"> <p>7B </p> </td> 
    <td colname="col3"> <p>123 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&amp;amp；大括弧； </p> </td> 
+   <td colname="col1"> <p>大括弧(&amp;R)； </p> </td> 
    <td colname="col2"> <p>7天 </p> </td> 
    <td colname="col3"> <p>125 </p> </td> 
   </tr> 
@@ -88,17 +92,17 @@ ht-degree: 16%
    <td colname="col3"> <p>126 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&amp;amp；lbrack； </p> </td> 
+   <td colname="col1"> <p>分段(&amp;L)； </p> </td> 
    <td colname="col2"> <p>5B </p> </td> 
    <td colname="col3"> <p>91 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&amp;amp；rbrack； </p> </td> 
+   <td colname="col1"> <p>&amp;rbrack； </p> </td> 
    <td colname="col2"> <p>5D </p> </td> 
    <td colname="col3"> <p>93 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&amp;amp；抑音符號； </p> </td> 
+   <td colname="col1"> <p>&amp;grave； </p> </td> 
    <td colname="col2"> <p>60 </p> </td> 
    <td colname="col3"> <p>96 </p> </td> 
   </tr> 
@@ -142,12 +146,12 @@ ht-degree: 16%
    <td colname="col3"> <p>47 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>： </p> </td> 
+   <td colname="col1"> <p>: </p> </td> 
    <td colname="col2"> <p>3A </p> </td> 
    <td colname="col3"> <p>58 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>； </p> </td> 
+   <td colname="col1"> <p>; </p> </td> 
    <td colname="col2"> <p>3B </p> </td> 
    <td colname="col3"> <p>59 </p> </td> 
   </tr> 

@@ -5,10 +5,14 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0ad8f4b4-dd9c-43f5-aacc-67a564e34d92
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+TQID: 'https://experienceleague.adobe.com/POraKuGs8WvYCqf-9FHrFj6FUjsE-TE9pKcRb9a2o7o'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 17%
+source-wordcount: 594
+ht-degree: 15%
 
 ---
 
@@ -111,7 +115,7 @@ ht-degree: 17%
    <td colname="col2"> <p>超取樣：隨機速率。 </p> </td> 
    <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>20 </p> </td> 
-   <td colname="col5"> <p>預設為 5。 </p> </td> 
+   <td colname="col5"> <p>預設值為5。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>M </p> </td> 
@@ -132,14 +136,14 @@ ht-degree: 17%
    <td colname="col2"> <p>Poisson：樣本/畫素。 </p> </td> 
    <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>4 </p> </td> 
-   <td colname="col5"> <p>預設為 1。 </p> </td> 
+   <td colname="col5"> <p>預設值為1。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Y </p> </td> 
    <td colname="col2"> <p>Poisson：使用切換。 </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>1 </p> </td> 
-   <td colname="col5"> <p>預設為 1。 </p> </td> 
+   <td colname="col5"> <p>預設值為1。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -216,7 +220,7 @@ ht-degree: 17%
    <td colname="col2"> <p>基本對比。 </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>100 </p> </td> 
-   <td colname="col5"> <p>預設為 50。 </p> </td> 
+   <td colname="col5"> <p>預設值為50。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>a </p> </td> 

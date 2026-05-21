@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 304d93af-3427-4111-882a-35be9ec3aef5
-source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
+TQID: 'https://experienceleague.adobe.com/a7vbT8heEkiWfmxn3wPudnzYTRN-H-I5D22038P4mJE'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: 311
 ht-degree: 0%
 
 ---
@@ -25,7 +29,7 @@ ht-degree: 0%
  </tr> 
 </table>
 
-`*`name`*`不區分大小寫，而且可能包含ASCII字母、數字、&#39;-&#39;、&#39;_&#39;和&#39;.&#39;的任何組合 個字元。
+`*`name`*`不區分大小寫，而且可能包含ASCII字母、數字、&#39;-&#39;、&#39;_&#39;和&#39;.&#39;字元的任意組合。
 
 巨集可在&#39;？&#39;之後的任何要求中叫用，也可在`catalog::Modifier`或`catalog::PostModifier`欄位中的任何地方叫用。 巨集只能代表一或多個、完整的「影像伺服」命令，而且必須以`&`分隔符號與其他命令分開。
 

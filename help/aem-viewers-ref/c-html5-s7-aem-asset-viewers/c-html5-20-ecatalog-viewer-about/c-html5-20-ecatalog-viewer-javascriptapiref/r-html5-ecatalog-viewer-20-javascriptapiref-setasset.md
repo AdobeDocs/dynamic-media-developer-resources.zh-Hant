@@ -5,9 +5,14 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 04b6bf4d-5c42-49e9-b585-de75ebf6c89f
-source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
+TQID: 'https://experienceleague.adobe.com/vvkUPbunwRcV80Q7SNvUGaA-LAatPhxASa6y1wOz0eg'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: 117
 ht-degree: 1%
 
 ---
@@ -22,7 +27,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname">資產</span> </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph">字串</span>}新資產ID或明確影像集，且在<span class="codeph">後附加了選用的影像伺服修飾元？</span>。 </p> <p> 此檢視器不支援使用IR （影像演算）或UGC （使用者產生的內容）的影像。 </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph">字串</span>}新資產ID或明確影像集，且在<span class="codeph">後附加了選用的影像伺服修飾元？</span>. </p> <p> 此檢視器不支援使用IR （影像演算）或UGC （使用者產生的內容）的影像。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

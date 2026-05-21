@@ -5,9 +5,14 @@ title: 警示臨界值
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 1ae76692-2688-4902-82a0-d0751408eee7
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+TQID: 'https://experienceleague.adobe.com/mu--4-idJqrtGhbeVu3GP3LxJ4ZRL6zn1XZxTH7DLw4'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: 410
 ht-degree: 0%
 
 ---
@@ -28,7 +33,7 @@ ht-degree: 0%
 
 當取樣間隔期間HTTP錯誤回應與總回應的比率超過指定的臨界值時，會發出錯誤警報。
 
-介於0.0和1.0之間的實值。通常設定為介於0.005和0.1之間。設為1可停用錯誤警示。
+介於0.0和1.0之間的實值。通常設定為介於0.005和0.1之間。 設為1可停用錯誤警示。
 
 ## as：：monitorAlertGenerator.minRequestRate — 低流量臨界值 {#section-8dfb89ed138640fd86f5ce1dae2a533e}
 

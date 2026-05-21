@@ -5,9 +5,14 @@ title: 要求預先處理
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f855c36f-29f2-4ada-a103-1eb9b7b0c1a0
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+TQID: 'https://experienceleague.adobe.com/My4SapYE0s9rFPPP6kSThzJ5--N6H7EUOuxC-M-xyrk'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: 288
 ht-degree: 0%
 
 ---
@@ -28,7 +33,7 @@ ht-degree: 0%
 * 強制套用命令（例如`defaultImage=`）至所有要求或在URL路徑或查詢字串中顯示特定模式的要求。
 * 禁止使用CPU密集型命令來防止伺服器濫用。
 * 允許來源影像位於HTTP或FTP伺服器上，同時仍在請求路徑上指定這些影像，而不是使用`src=`。
-* 根據請求路徑或影像名稱控制影像品質設定(例如JPEG品質或銳利化)。
+* 根據請求路徑或影像名稱控制影像品質設定（例如JPEG品質或銳利化）。
 
 有關建立、使用和管理規則集的詳細資訊，請參閱[規則集參考](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/c-rule-set-reference.md#concept-3e5058cf3507470b82cac638df23ea8e)。
 

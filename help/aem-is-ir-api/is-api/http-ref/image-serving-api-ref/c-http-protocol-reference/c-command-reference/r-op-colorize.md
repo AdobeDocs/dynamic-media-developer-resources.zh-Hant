@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1abbde32-867a-4596-a46b-12ec50d59170
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+TQID: 'https://experienceleague.adobe.com/vvDUoUKtzbNV64wfOq3gzJ1KnDb49-kDYUzDwF5A4Q0'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: 315
 ht-degree: 3%
 
 ---
@@ -39,7 +43,7 @@ ht-degree: 3%
 
 第二個引數會指定在彩色化之前是否應調整來源影像的亮度。 指定`off`以停用自動亮度補償，或指定`norm`以自動調整亮度，使中值達到50%強度。
 
-將&#x200B;*`contrast`*&#x200B;值設定為0以保留輸入影像的對比範圍，或使用大於0的值指定所要的對比範圍。 值 100 會使對比最大化。一般值可能介於30到70之間。
+將&#x200B;*`contrast`*&#x200B;值設定為0以保留輸入影像的對比範圍，或使用大於0的值指定所要的對比範圍。 值 100 會使對比最大化。 一般值可能介於30到70之間。
 
 除了內建的亮度和對比調整之外，`op_brightness=`和`op_contrast=`也可以用來進一步微調色彩效果。
 

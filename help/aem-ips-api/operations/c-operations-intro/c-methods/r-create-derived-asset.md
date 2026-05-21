@@ -5,9 +5,13 @@ title: createDerivedAsset
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: a3b20a8a-ed0d-40be-9a8c-41ba09b1d724
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/zREQqRBLpYJ30WoTEa2cmVplhQAlcqoBgzRIsMAy5sg'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: 259
 ht-degree: 8%
 
 ---
@@ -44,7 +48,7 @@ ht-degree: 8%
 | folderHandle | `xsd:string` | 是 | 建立新衍生資產的資料夾的控制代碼。 |
 | name | `xsd:string` | 是 | 衍生資產的名稱。 |
 | type | `xsd:string` | 是 | 新衍生資產的資產型別： `AdjustedView`或`LayerView`。 |
-| urlModifier | `xsd:string` | 否 | 影像伺服或影像演算通訊協定命令已在&#x200B;*要求或*&#x200B;命令之前`urlPostApplyModifier`套用。 |
+| urlModifier | `xsd:string` | 否 | 影像伺服或影像演算通訊協定命令已在&#x200B;*要求或`urlPostApplyModifier`命令之前*&#x200B;套用。 |
 | urlPostApplyModifier | `xsd:string` | 否 | 影像伺服或影像演算通訊協定命令已在&#x200B;*之後*&#x200B;套用到要求或`urlPostApplyModifier`命令。 |
 
 **輸出(createDerivedAssetParam)**

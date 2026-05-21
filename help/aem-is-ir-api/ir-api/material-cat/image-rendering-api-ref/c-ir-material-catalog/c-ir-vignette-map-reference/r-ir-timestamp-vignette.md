@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 6a163727-9ac6-43ca-9afd-169ac6306124
-source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
+TQID: 'https://experienceleague.adobe.com/lVoM4P1NUj-ugSgiBM5l-9L9wtTuGiZCKDjTnEGQa1A'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: 237
 ht-degree: 1%
 
 ---
@@ -28,15 +32,15 @@ ht-degree: 1%
 
 Java™格式的日期/時間值。 可以是自午夜、1970年1月1日UTC/GMT以來的整數毫秒數，或是具有以下格式之一的日期/時間字串值：
 
-*[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]* *[!DNL hh]*： *[!DNL mm]*： *[!DNL ss]* *[!DNL zzz]*
+*[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]* *[!DNL hh]*: *[!DNL mm]*: *[!DNL ss]* *[!DNL zzz]*
 
-*[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]* *[!DNL hh]*： *[!DNL mm]*： *[!DNL ss]*&#x200B;GMT *[!DNL offset]*
+*[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]* *[!DNL hh]*： *[!DNL mm]*： *[!DNL ss]*GMT *[!DNL offset]*
 
 * *[!DNL hh]*&#x200B;在0到23的範圍內。
 * *[!DNL zzz]*&#x200B;是三或四個字元的時區代碼，例如&#39;GMT&#39;或&#39;PST&#39;。 日光節約時間必須在時區代碼中計算（例如，太平洋標準時間是「PST」，而太平洋日光節約時間是「PDT」）。
 * *[!DNL offset]*&#x200B;是以GMT為單位的時區位移（小時或小時）:minutes。 例如，「PDT」等於「GMT -7」。
 
-字串格式日期/時間值的所有元素都必須存在。 如果日期/時間值的格式不正確，則會忽略該值，並改用[!DNL *[!DNL catalog]*.ini]檔案的修改時間。
+字串格式日期/時間值的所有元素都必須存在。 如果日期/時間值的格式不正確，則會忽略該值，並改用[！DNL *[!DNL catalog]*.ini]檔案的修改時間。
 
 ## 預設 {#section-562c221d2e8b4a97ab5e9a3605f22140}
 

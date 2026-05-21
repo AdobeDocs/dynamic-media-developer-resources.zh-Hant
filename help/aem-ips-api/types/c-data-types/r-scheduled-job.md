@@ -5,10 +5,14 @@ title: 排定的工作
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c0084d10-ce38-4a01-9246-aaec44abc8eb
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+TQID: 'https://experienceleague.adobe.com/OFG30nHlkuRT7HeNob0hkEfaygi8b2gNFEiu67LJBmU'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 4%
+source-wordcount: 276
+ht-degree: 3%
 
 ---
 
@@ -36,14 +40,14 @@ ht-degree: 4%
 | triggerState | `xsd:int` | 選擇工作觸發程式狀態。 |
 | imageServingPublishJob | `types:ImageServingPublishJob` | 影像伺服發佈工作的工作詳細資訊。 |
 | imageServingRenderJob | `types:ImageServingRenderJob` | 影像演算工作的工作詳細資訊。 |
-| videopublishJob | `types:VideoPublishJob` | 視訊發佈工作的工作詳細資訊。 請參閱[VideoPublishJob](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html?lang=zh-Hant)。 |
+| videopublishJob | `types:VideoPublishJob` | 視訊發佈工作的工作詳細資訊。 請參閱[VideoPublishJob](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html)。 |
 | serverDirectoryPublishJob | `types:ServerDirectoryPublishJob` | 伺服器目錄發佈工作的工作詳細資訊。 |
 | uploaddirectoriejob | `types:UploadDirectoryJob` | 上載目錄工作的工作詳細資訊。 |
 | uploadUrlsJob | `types:UploadUrlsJob` | 上傳URL工作的工作詳細資訊。 |
 | optimizeImagesJob | `types:OptimizeImagesJob` | |
 | ripPdfJob | `types:RipPdfsJob` | |
 | 重新處理資產工作 | `types:ReprocessAssetsJob` | |
-| exportJob | `types:ExportJob` | 允許授權匯出先前上載的檔案。 請參閱[匯出工作](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html?lang=zh-Hant)。 |
+| exportJob | `types:ExportJob` | 允許授權匯出先前上載的檔案。 請參閱[匯出工作](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html)。 |
 
 ## 附註 {#section-34ec157f281f412f9f0f6e861e6ed0cd}
 

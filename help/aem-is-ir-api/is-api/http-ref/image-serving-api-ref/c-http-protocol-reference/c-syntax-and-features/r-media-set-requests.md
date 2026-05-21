@@ -5,9 +5,14 @@ title: 媒體集要求
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 71efed33-6248-4d23-ab4e-2caec3449171
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/mcwY5R2hIttDyWKya6b3Jyvt2zwMdLyS4Xp8otY0c34'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: 968
 ht-degree: 0%
 
 ---
@@ -20,7 +25,7 @@ ht-degree: 0%
 
 ## 要求語法 {#section-d72b1d95e4ce4bb1b332ce096c2b99f1}
 
-可以使用`catalog::ImageSet`修飾元並參考網路路徑中的目錄記錄ID，來擷取`req=set`的設定回應。 或者，可以使用`imageset=`修飾元直接在URL中指定影像集。 如果使用`imageset=`修飾元來指定影像集，則整個值應括在大括弧中，以便逸出影像集值並確保任何包含的修飾元不會解譯為URL查詢字串的一部分。
+可以使用`req=set`修飾元並參考網路路徑中的目錄記錄ID，來擷取`catalog::ImageSet`的設定回應。 或者，可以使用`imageset=`修飾元直接在URL中指定影像集。 如果使用`imageset=`修飾元來指定影像集，則整個值應括在大括弧中，以便逸出影像集值並確保任何包含的修飾元不會解譯為URL查詢字串的一部分。
 
 ## 集合回應的型別 {#section-93eb0a1f70344da2a888e56372ad3896}
 
@@ -126,7 +131,7 @@ ht-degree: 0%
 
 ## 標籤索引鍵 {#section-bf565de6f7294cf89620343c9071f415}
 
-`labelkey=`修飾元與`catalog::UserData`欄位搭配使用，以產生影像和色票的標籤。 `catalog:UserData`欄位會剖析為一組索引鍵/值配對，而此組中的labelkey索引會擷取指定索引鍵的值。 然後會在&#x200B;*`l`*&#x200B;和&#x200B;*`s`*&#x200B;的&#x200B;*`i`*&#x200B;屬性中傳回此值。
+`labelkey=`修飾元與`catalog::UserData`欄位搭配使用，以產生影像和色票的標籤。 `catalog:UserData`欄位會剖析為一組索引鍵/值配對，而此組中的labelkey索引會擷取指定索引鍵的值。 然後會在&#x200B;*`s`*&#x200B;和&#x200B;*`i`*&#x200B;的&#x200B;*`l`*&#x200B;屬性中傳回此值。
 
 ## 強制的限制 {#section-b9f042873bee45a5ae11b69fd42f2bca}
 

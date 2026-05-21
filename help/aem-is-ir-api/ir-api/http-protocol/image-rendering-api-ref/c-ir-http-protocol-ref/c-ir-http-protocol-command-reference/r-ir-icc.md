@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 39b25f7c-ed3c-4132-8241-e7f3aab07b00
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+TQID: 'https://experienceleague.adobe.com/vC889xf6GmyiSls7qG81NPIegfh6OMZM2zMc4JKppAU'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: 235
 ht-degree: 1%
 
 ---
@@ -25,7 +29,7 @@ icc= *`profile`*[， *`renderIntent`*[，*`blackpointComp`*]]
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> renderIntent </span> </span> </p></td> 
-  <td class="stentry"> <p>可感知 | 相對 | 飽和度 | 絕對 </p></td> 
+  <td class="stentry"> <p>可感知 |相對 |飽和度 |絕對 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> blackpointComp</span> </span> </p></td> 
@@ -33,7 +37,7 @@ icc= *`profile`*[， *`renderIntent`*[，*`blackpointComp`*]]
  </tr> 
 </table>
 
-*`profile`*&#x200B;如果演算後的影像與正在處理的設定檔不同，請指定應該轉換的輸出色域設定檔。 *`profile`*&#x200B;必須是定義於影像目錄或預設目錄之ICC設定檔對應中的有效`icc::Name`，或是設定檔的相對路徑（通常有[!DNL `.icc`]或[!DNL `.icm`]尾碼）。
+*`profile`*&#x200B;如果演算後的影像與正在處理的設定檔不同，請指定應該轉換的輸出色域設定檔。*`profile`* 必須是定義於影像目錄或預設目錄之ICC設定檔對映中的有效`icc::Name`，或是設定檔檔案的相對路徑（通常具有[!DNL `.icc`]或[!DNL `.icm`]尾碼）。
 
 >[!NOTE]
 >
@@ -57,7 +61,7 @@ CMYK輸出裝置設定檔較有可能支援不同的演算意圖。
 
 ## 預設 {#section-bbd3206fdcac4dc48a08fc9eba14fc90}
 
-如果已啟用色彩管理且未指定`icc=`，則伺服器會將轉換的影像傳送至與`attribute::IccProfile*`所指定之影像型別相符的輸出設定檔( `fmt=`)。
+如果已啟用色彩管理且未指定`icc=`，則伺服器會將轉換的影像傳送至與`fmt=`所指定之影像型別相符的輸出設定檔( `attribute::IccProfile*`)。
 
 如果未指定，*`renderIntent`*&#x200B;繼承自`attribute::IccRenderIntent`，而&#x200B;*`blackpointComp`*&#x200B;繼承自`attribute::IccBlackPointCompensation`。
 

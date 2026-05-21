@@ -5,9 +5,13 @@ title: 浮水印
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e744be3f-9753-4513-8f37-055fa03077cc
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/5gqAaM5kFHj67LxcMVGeEU2uus6mA-BT9kCewY1cZOw'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: 458
 ht-degree: 0%
 
 ---
@@ -30,7 +34,7 @@ ht-degree: 0%
 
 浮水印記錄中會忽略要求命令（例如`fmt=`）和檢視命令（例如`wid=`），但`align=`除外。 `align=`可用來相對於相對於目標影像的浮水印影像定位浮水印影像。 如此可讓浮水印相對於目標影像的角落或邊緣定位。
 
-縮放和對齊之後，伺服器會使用為浮水印影像的`blendMode=`或`opac=`指定的`layer=0`和`layer=comp`值，將浮水印影像棧疊在目標影像上。 最後，會套用為目標影像指定的要求和檢視指令來建構回覆影像。
+縮放和對齊之後，伺服器會使用為浮水印影像的`layer=0`或`layer=comp`指定的`blendMode=`和`opac=`值，將浮水印影像棧疊在目標影像上。 最後，會套用為目標影像指定的要求和檢視指令來建構回覆影像。
 
 請注意，浮水印影像絕不會延伸`wid=`和`hei=`命令新增至回覆影像的任何空白區域。
 

@@ -5,9 +5,14 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos,Accessibility
 role: Developer,User
 exl-id: 3d9f6389-e73c-4d31-a7c1-b321f065ce8c
-source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
+TQID: 'https://experienceleague.adobe.com/EyKChB9ZeEsHHy7alcGBi7IrrdElXI8gD88t-AwbwBY'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: 253
 ht-degree: 0%
 
 ---
@@ -20,12 +25,12 @@ ht-degree: 0%
 
 按鈕具有角色`button`和描述性文字設定了`aria-label`屬性。 `aria-label`屬性的值是從按鈕本地化符號的值填入的。 當按鈕停用時，會相應設定`aria-disabled`屬性。
 
-Slider元件具有屬性`slider`、`aria-valuenow`和`aria-valuemin`的角色`aria-valuemax`可描述目前的Slider位置。
+Slider元件具有屬性`aria-valuenow`、`aria-valuemin`和`aria-valuemax`的角色`slider`可描述目前的Slider位置。
 
 縮圖具有角色`dialog`，其屬性為`aria-label`，由`ThumbnailGridView.LABEL`本地化符號控制。 個別縮圖具有角色`button`。 如果選取縮圖，它將取得`aria-selected`屬性設定為`true`。
 
-顯示色票的元件具有角色`listbox`，`aria-label`屬性設定為該元件的`LABEL`本地化符號的值。 個別色票具有`option`和`aria-setsize`屬性的角色`aria-posinset`，可說明色票在集中的位置。 如果選取色票，則會將`aria-selected`屬性設定為`true`。
+顯示色票的元件具有角色`listbox`，`aria-label`屬性設定為該元件的`LABEL`本地化符號的值。 個別色票具有`aria-setsize`和`aria-posinset`屬性的角色`option`，可說明色票在集中的位置。 如果選取色票，則會將`aria-selected`屬性設定為`true`。
 
-下拉式清單由按鈕啟動，按鈕具有設定為`aria-haspopup`的其他`true`屬性以及參考實際下拉式面板專案的`aria-controls`屬性。 下拉式面板本身具有角色`menu`，其子元素具有角色`menuitem`。 每個功能表專案都指定了`aria-label`屬性。
+下拉式清單由按鈕啟動，按鈕具有設定為`true`的其他`aria-haspopup`屬性以及參考實際下拉式面板專案的`aria-controls`屬性。 下拉式面板本身具有角色`menu`，其子元素具有角色`menuitem`。 每個功能表專案都指定了`aria-label`屬性。
 
 模型對話方塊具有角色`dialog`。 對話方塊的標頭專案由`aria-labelledby`屬性參考。

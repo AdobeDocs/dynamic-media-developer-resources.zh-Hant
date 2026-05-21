@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: d269627a-e2f8-4ca6-96a1-a7dce312e06e
-source-git-commit: 96ac67e5645c2c55920cc971806ba2f14ae57044
+TQID: 'https://experienceleague.adobe.com/E9gW0XQoGv26n0Mt4H-BqZ0Fw41cG1OgaAbV6lslfIg'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: 85
 ht-degree: 3%
 
 ---
@@ -26,7 +30,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname">處理常式</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {Object} </span> JSON物件具有檢視器事件回呼。 屬性名稱是支援的檢視器事件的名稱。 屬性值是適當回呼的JavaScript函式參考。 </p> <p>如需檢視器事件的詳細資訊，請參閱<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-event-callbacks.md#concept-66d5996f2b1b44cab3d5264cda5c50cd" format="dita" scope="local">事件回呼</a>。 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {Object}具有檢視器事件回撥的</span> JSON物件。 屬性名稱是支援的檢視器事件的名稱。 屬性值是適當回呼的JavaScript函式參考。 </p> <p>如需檢視器事件的詳細資訊，請參閱<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-event-callbacks.md#concept-66d5996f2b1b44cab3d5264cda5c50cd" format="dita" scope="local">事件回呼</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

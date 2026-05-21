@@ -5,9 +5,13 @@ title: SVG支援
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 60e40195-710f-4f03-b152-52eaa10c5b21
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/yN93vSajgH09FJqxpDsa1j3fFlBR9EdCREXvhUy8q2U'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: 514
 ht-degree: 0%
 
 ---
@@ -32,7 +36,7 @@ ht-degree: 0%
 
 ## 影像參考 {#section-a7680f9e6aca4b1a83560637cc9fac66}
 
-可以使用`<image>`元素將影像插入SVG。 `xlink::href`專案的`<image>`屬性所參考的影像必須是有效的影像伺服要求。 不允許外部URL。
+可以使用`<image>`元素將影像插入SVG。 `<image>`專案的`xlink::href`屬性所參考的影像必須是有效的影像伺服要求。 不允許外部URL。
 
 請指定以`http://`開頭的完整「影像伺服」要求，或以`/is/image`開頭的相對URL。 如果指定完整的HTTP路徑，則會從路徑中移除網域名稱，以轉換為相對格式。 使用完整HTTP路徑可能有所裨益，因為此路徑可讓協力廠商SVG轉譯器預覽檔案。
 

@@ -5,9 +5,14 @@ title: 規則集參考
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: dfbb5f5e-d75a-496a-8b97-f102ad1a34d5
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+TQID: 'https://experienceleague.adobe.com/ZRyGq2UXh41F4IpGudN48CV0LxzrDjZKk2yaOQnUP3o'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: 808
 ht-degree: 0%
 
 ---
@@ -50,7 +55,7 @@ ht-degree: 0%
 
 在有效的規則集XML檔案中，`<?xml>`和`<ruleset>`專案永遠是必要的，即使未定義實際規則。
 
-允許一個包含任意數目`<ruleset>`個元素的`<rule>`元素。
+允許一個包含任意數目`<rule>`個元素的`<ruleset>`元素。
 
 預先處理規則檔案的內容區分大小寫。
 
@@ -70,7 +75,7 @@ ht-degree: 0%
 
 ## OnMatch屬性 {#section-ed952fa55d99422db0ee68a2b9d395d3}
 
-可以使用`OnMatch`專案的`<rule>`屬性修改預設行為。 `OnMatch`可設為`break` （預設）、`continue`或`error`。
+可以使用`<rule>`專案的`OnMatch`屬性修改預設行為。 `OnMatch`可設為`break` （預設）、`continue`或`error`。
 
 <table id="table_6680A81492B24CE593330DA7B0075E8F"> 
  <thead> 
@@ -132,7 +137,7 @@ ht-degree: 0%
 
 `<substitution><![CDATA[&qlt=95,1&resmode=bicub]]></substitution>`
 
-**範例B.**&#x200B;特定的Web應用程式不允許查詢字串。 定義將結尾路徑元素`small`、`medium`或`large`轉譯為範本的規則，使用路徑的其餘部分作為影像名稱。 例如，`myCat/myImage/small`會轉譯為`myCat/smallTemplate?src=myCat/myImage`。
+**範例B.** 特定的Web應用程式不允許查詢字串。 定義將結尾路徑元素`small`、`medium`或`large`轉譯為範本的規則，使用路徑的其餘部分作為影像名稱。 例如，`myCat/myImage/small`會轉譯為`myCat/smallTemplate?src=myCat/myImage`。
 
 我們可以使用子字串來重新建構請求：
 
@@ -145,4 +150,4 @@ ht-degree: 0%
 
 ## 另請參閱 {#section-9b748e7c5cff4759a70f96657bd43352}
 
-[封裝java.util.regex](https://www2.cs.duke.edu/csed/java/jdk1.4.2/docs/api/)
+[套件java.util.regex](https://www2.cs.duke.edu/csed/java/jdk1.4.2/docs/api/)

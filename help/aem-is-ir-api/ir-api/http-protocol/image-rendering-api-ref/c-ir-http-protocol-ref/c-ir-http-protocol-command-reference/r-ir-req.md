@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1b4a78a1-4f03-47ce-b523-10975e83f0ea
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/UyITy7WNd7wQzOa7UaS4xLgVfjnRwkws2sonnmbaVN0'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: 950
 ht-degree: 3%
 
 ---
@@ -166,7 +170,7 @@ ht-degree: 3%
 
 對應資料未縮放為`wid=`或`hei=`或以其他方式修改。 回應MIME型別為`<text/xml>`。
 
-回應資料由包含一組`<map>`元素的`<area>`元素組成，類似於HTML `<AREA>`標籤。
+回應資料由包含一組`<area>`元素的`<map>`元素組成，類似於HTML `<AREA>`標籤。
 
 每個`<area>`元素都包含標準`type=`和`coord=`屬性，以及指定暈映群組名稱或名稱路徑的`name=`屬性。 如果對應物件群組的遮罩有不連續的區域，則存在多個同名的`<area>`元素。
 
@@ -298,7 +302,7 @@ ht-degree: 3%
 
 `userdata`
 
-傳回`vignette::UserData`的內容。 伺服器會將`'??'`中`vignette::UserData`的所有相符專案取代為行終止元( `<cr><lf>`)。 會將回覆格式化為文字資料，並將回應MIME型別設為&lt;text/plain>。
+傳回`vignette::UserData`的內容。 伺服器會將`vignette::UserData`中`'??'`的所有相符專案取代為行終止元( `<cr><lf>`)。 會將回覆格式化為文字資料，並將回應MIME型別設為&lt;text/plain>。
 
 如果URL路徑中指定的物件未解析為有效的暈映對應專案，或者`vignette::UserData`是空的，則回覆僅包含行終止元( `CR/LF`)。
 

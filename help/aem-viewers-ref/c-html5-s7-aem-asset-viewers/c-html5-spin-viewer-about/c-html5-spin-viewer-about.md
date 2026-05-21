@@ -1,19 +1,24 @@
 ---
-title: Spin
+title: 迴轉
 description: 「迴轉檢視器」是一種影像檢視器，可提供影像的360度檢視，甚至多維度檢視（如果使用適當的迴轉集）。 它有縮放和迴轉工具、全熒幕支援以及選用的關閉按鈕。 專為桌上型電腦和行動裝置所設計。
 keywords: 回應式
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: 4c802d42-ea5b-4f28-b6ef-2689aa16839d
-source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
+TQID: 'https://experienceleague.adobe.com/mNYX-6RCjCIAAsK7Srog3i7VRyz-zZ3AD3OJ0lewg14'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '2091'
+source-wordcount: 2153
 ht-degree: 0%
 
 ---
 
-# Spin{#spin}
+# 迴轉{#spin}
 
 「迴轉檢視器」是一種影像檢視器，可提供影像的360度檢視，甚至多維度檢視（如果使用適當的迴轉集）。 它有縮放和迴轉工具、全熒幕支援以及選用的關閉按鈕。 專為桌上型電腦和行動裝置所設計。
 
@@ -31,7 +36,7 @@ ht-degree: 0%
 
 ## 使用迴轉檢視器 {#section-e6c68406ecdc4de781df182bbd8088b4}
 
-迴轉檢視器代表主要JavaScript檔案和一組協助程式檔案(單一JavaScript包含此特定檢視器使用的所有Viewer SDK元件、資產、CSS)，這些檔案由檢視器在執行階段下載。
+迴轉檢視器代表主要JavaScript檔案和一組協助程式檔案（單一JavaScript包含此特定檢視器使用的所有Viewer SDK元件、資產、CSS），這些檔案由檢視器在執行階段下載。
 
 迴轉檢視器既可透過隨IS-Viewers提供的生產就緒HTML頁面以快顯視窗模式使用，也可透過內嵌模式使用，其中使用記錄的API將其整合至目標網頁。
 
@@ -111,7 +116,7 @@ target="_blank">Open popup viewer</a>
 
 回應式設計內嵌假設檢視器必須在執行階段調整大小，以回應其容器`DIV`的大小變更。 最常見的使用案例是將檢視器新增到使用彈性頁面配置的網頁。
 
-在回應式設計內嵌模式中，檢視器的行為會因網頁大小其容器`DIV`的方式而異。 如果網頁僅設定容器`DIV`的寬度，而不限制其高度，檢視器會根據所使用資產的外觀比例，自動選擇其高度。 此功能可確保資產完全符合檢視方式，且兩側不會有任何邊框間距。 此使用案例最常用於使用回應式設計配置架構(例如Bootstrap或Foundation)的網頁。
+在回應式設計內嵌模式中，檢視器的行為會因網頁大小其容器`DIV`的方式而異。 如果網頁僅設定容器`DIV`的寬度，而不限制其高度，檢視器會根據所使用資產的外觀比例，自動選擇其高度。 此功能可確保資產完全符合檢視方式，且兩側不會有任何邊框間距。 此使用案例最常用於使用回應式設計配置架構（例如Bootstrap或Foundation）的網頁。
 
 否則，如果網頁同時設定檢視器容器`DIV`的寬度和高度，則檢視器只會填滿該區域，並遵循網頁配置所提供的大小。 一個很好的範例可能是將檢視器內嵌到模式覆蓋圖中，其中覆蓋圖會根據網頁瀏覽器視窗大小而調整。
 
@@ -140,7 +145,7 @@ target="_blank">Open popup viewer</a>
 
    >[!NOTE]
    >
-   >僅參考頁面上的主要檢視器JavaScript `include`檔案。 請勿在網頁程式碼中參考任何其他JavaScript檔案（這些檔案可能由執行階段的檢視器邏輯下載）。 特別是，請勿直接參考檢視器從`Utils.js`內容路徑(所謂整合的HTML `/s7viewers`)載入的SDK5 SDK `include`資料庫。 原因在於`Utils.js`或類似的執行階段檢視器程式庫的位置完全由檢視器的邏輯管理，且位置會在檢視器發行版本之間變更。 Adobe不會在伺服器上保留舊版的次要檢視器`includes`。
+   >僅參考頁面上的主要檢視器JavaScript `include`檔案。 請勿在網頁程式碼中參考任何其他JavaScript檔案（這些檔案可能由執行階段的檢視器邏輯下載）。 特別是，請勿直接參考檢視器從`/s7viewers`內容路徑（所謂整合的HTML `include`）載入的SDK5 SDK `Utils.js`資料庫。 原因在於`Utils.js`或類似的執行階段檢視器程式庫的位置完全由檢視器的邏輯管理，且位置會在檢視器發行版本之間變更。 Adobe不會在伺服器上保留舊版的次要檢視器`includes`。
    >
    >
    >因此，日後部署新產品版本時，將檢視器使用的任何次要JavaScript `include`的直接參照放在頁面上，會中斷檢視器功能。
@@ -187,7 +192,7 @@ target="_blank">Open popup viewer</a>
 
    完成上述步驟後，您會建立`s7viewers.SpinViewer`類別的執行個體、將所有組態資訊傳遞至其建構函式，並在檢視器執行個體上呼叫`init()`方法。 組態資訊會以JSON物件的形式傳遞至建構函式。 此物件至少有`containerId`欄位，其中包含檢視器容器ID的名稱，以及巢狀`params` JSON物件，其中包含檢視器支援的設定引數。 在此案例中，`params`物件至少必須將影像伺服URL作為`serverUrl`屬性傳遞，並將初始資產作為`asset`引數傳遞。 JSON型初始化API可讓您使用一行程式碼來建立和啟動檢視器。
 
-   請務必將檢視器容器新增至DOM，讓檢視器程式碼可依其ID尋找容器元素。 有些瀏覽器會延遲建立DOM，直到網頁結尾為止。 為達到最大相容性，請在結尾的`init()`標籤前面或內文`BODY`事件上呼叫`onload()`方法。
+   請務必將檢視器容器新增至DOM，讓檢視器程式碼可依其ID尋找容器元素。 有些瀏覽器會延遲建立DOM，直到網頁結尾為止。 為達到最大相容性，請在結尾的`BODY`標籤前面或內文`onload()`事件上呼叫`init()`方法。
 
    同時，容器元素也不一定屬於網頁配置的一部分。 例如，可以使用指派給它的`display:none`樣式來隱藏它。 在此情況下，檢視器會延遲其初始化程式，直到網頁將容器元素帶回版面配置為止。 當此動作發生時，檢視器載入會自動繼續。
 
@@ -296,7 +301,7 @@ var spinViewer = new s7viewers.SpinViewer({
 
 <!--
 
-[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=zh-Hant)
+[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 -->
 

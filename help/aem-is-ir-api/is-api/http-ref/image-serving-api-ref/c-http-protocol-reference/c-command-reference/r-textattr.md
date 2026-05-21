@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0c8a3d2a-2524-436a-8bc7-60241af0fd17
-source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
+TQID: 'https://experienceleague.adobe.com/7md74Pcl5SuFEi6v8mdpYTAxj3bJZTykMzg7bpT8Aqo'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: 458
 ht-degree: 0%
 
 ---
@@ -25,7 +29,7 @@ ht-degree: 0%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname">消除鋸齒</span> </span> </p> </td> 
-  <td class="stentry"> <p>控制文字演算引擎所使用的消除鋸齒模式。 </p> <p> <span class="codeph">關閉 | 標準 | 清晰 | 銳利化 | 強 | 平滑</span> </p> <p> 
+  <td class="stentry"> <p>控制文字演算引擎所使用的消除鋸齒模式。 </p> <p> <span class="codeph">關閉 |標準 |清脆 |銳利化 |強 |平滑</span> </p> <p> 
     <table id="simpletable_AE2331118FCA4BC7877233E287CED6A4"> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph">折扣</span> </p> </td> 
@@ -55,11 +59,11 @@ ht-degree: 0%
     <table id="simpletable_2CFC06DB37154C7C92614FDF7A818DB5"> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> fixedRes </span> </p> </td> 
-      <td class="stentry"> <p>使用指定的解析度。 </p> <p>如果要以相對於合成畫布的確切大小呈現文字，請使用。 如果文字方塊太小，可以將文字裁剪成圖層大小（如果已指定）。 這是<span class="varname"> textPs= </span>唯一支援的<span class="codeph"> resMode </span>選項。 </p> </td> 
+      <td class="stentry"> <p>使用指定的解析度。 </p> <p>如果要以相對於合成畫布的確切大小呈現文字，請使用。 如果文字方塊太小，可以將文字裁剪成圖層大小（如果已指定）。 這是<span class="codeph"> textPs= </span>唯一支援的<span class="varname"> resMode </span>選項。 </p> </td> 
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph">自動回覆</span> </p> </td> 
-      <td class="stentry"> <p>自動調整解析度，讓文字以最佳方式填滿圖層矩形。 </p> <p>使用可自動調整文字大小，讓文字方塊儘可能填滿，避免截斷的風險。 如果啟用自動換行，文字可能會以最終解析度重新換行。 如果選取<span class="varname">自動確定</span>，則會忽略<span class="codeph">確定</span>。 <span class="codeph"> textPs= </span>不支援。 </p> </td> 
+      <td class="stentry"> <p>自動調整解析度，讓文字以最佳方式填滿圖層矩形。 </p> <p>使用可自動調整文字大小，讓文字方塊儘可能填滿，避免截斷的風險。 如果啟用自動換行，文字可能會以最終解析度重新換行。 如果選取<span class="codeph">自動確定</span>，則會忽略<span class="varname">確定</span>。 <span class="codeph"> textPs= </span>不支援。 </p> </td> 
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> maxRes </span> </p> </td> 
@@ -89,7 +93,7 @@ ht-degree: 0%
 
 ## 屬性 {#section-114ca0b8585b403c873e2251478ad1d5}
 
-文字圖層屬性。 被影像、純色和效果圖層忽略。 若指定給`layer=0`，則套用至`layer=comp`。
+文字圖層屬性。 被影像、純色和效果圖層忽略。 若指定給`layer=comp`，則套用至`layer=0`。
 
 ## 預設 {#section-855230f5330b4afc8a933f00a1ed4612}
 

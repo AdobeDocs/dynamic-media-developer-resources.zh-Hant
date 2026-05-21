@@ -5,9 +5,14 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 0bdf172a-0bde-42d2-900f-f207538fe588
-source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
+TQID: 'https://experienceleague.adobe.com/Yo1xl9U8Ld3nzbeHm6pQxAncRKQIXEWimijQM4FjLtc'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: 588
 ht-degree: 0%
 
 ---
@@ -26,7 +31,7 @@ ht-degree: 0%
 
 根據作業系統和網頁瀏覽器設定，具有輸入焦點的使用者介面元素會收到視覺焦點指示。 例如，視覺指示器可以是圍繞使用者介面元素呈現的細邊框。
 
-您可以在檢視器CSS中停用或自訂這類焦點反白顯示。 在此[說明]系統的目錄中，在特定檢視器名稱（例如[基本縮放]或[互動視訊]）下，按一下[自訂檢視器的&#x200B;**名稱] *> [焦點]反白顯示***。**&#x200B;**
+您可以在檢視器CSS中停用或自訂這類焦點反白顯示。 在此[說明]系統的目錄中，在特定檢視器名稱（例如[基本縮放]或[互動視訊]）下，按一下[自訂檢視器的&#x200B;*名稱]*** > [焦點]反白顯示&#x200B;**。****
 
 個別檢視器使用者介面元素所支援的按鍵動作，在大多數情況下是顯而易見且易於發現的。
 

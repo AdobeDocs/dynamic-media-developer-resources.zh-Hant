@@ -5,10 +5,14 @@ title: 不銳利化遮色片選項
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 7150b4a8-a44d-4858-96f2-6004d5f48e77
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+TQID: 'https://experienceleague.adobe.com/J9LoVO0ZOapo0ao5gJoyNXc5qu3A3fNDD8ALRAiHudg'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 11%
+source-wordcount: 205
+ht-degree: 9%
 
 ---
 
@@ -20,7 +24,7 @@ ht-degree: 11%
 
 ## 參數 {#section-c3f0d03136ba4422819cb463bd393885}
 
-指定具有`unsharpMaskOptions`n`minOccurs=" *`的`*".`選項值
+指定具有`minOccurs=" *`n`*".`的`unsharpMaskOptions`選項值
 
 <table id="table_D1392963C5694969A9D546F82DB6F45C">
  <thead>
@@ -92,4 +96,4 @@ ht-degree: 11%
 
 >[!MORELIKETHIS]
 >
->* [影像伺服API參考： op_usm](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-op-usm.html?lang=zh-Hant)
+>* [影像伺服API參考： op_usm](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-op-usm.html)

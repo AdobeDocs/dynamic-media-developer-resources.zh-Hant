@@ -1,24 +1,29 @@
 ---
 title: Scene7 2016年秋季版
-description: Adobe Scene7 2016年秋季版的最新發行說明，屬於Adobe Experience CloudAdobe Experience Manager解決方案的一部分。
+description: Adobe Scene7 2016年秋季版的最新發行說明，屬於Adobe Experience Manager解決方案的一部分。
 solution: Experience Manager
 feature: Dynamic Media Classic
 role: Developer,User
 exl-id: 23091ef7-750a-4ec2-9d03-1d713f436991
-source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
+TQID: 'https://experienceleague.adobe.com/7dGuE-LQMFsuKbGCEDMxHE9KE2rU5ptUSn3v0VDIAw0'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '2234'
+source-wordcount: 2295
 ht-degree: 0%
 
 ---
 
 # Scene7 2016年秋季版{#scene-fall-release}
 
-Adobe Scene7 2016年秋季最新發行說明(Adobe Experience Cloud中Adobe Experience Manager解決方案的一部分)。
+Adobe Scene7 2016年秋季最新發行說明（Adobe Experience Cloud中Adobe Experience Manager解決方案的一部分）。
 
 ## Scene7 2016年秋季版 {#topic-791cdf80f91e457fbb63bfedf79f5a94}
 
-[!DNL Adobe Scene7] 2016年秋季最新發行說明 — [!DNL Adobe Experience Manager]中[!DNL Adobe Experience Cloud]解決方案的一部分。
+[!DNL Adobe Scene7] 2016年秋季最新發行說明 — [!DNL Adobe Experience Cloud]中[!DNL Adobe Experience Manager]解決方案的一部分。
 
 * [一般](s7rnfall2016.md#section-52afeb72ecb34c1585ea67a5051825a2)
 * [場景 7](s7rnfall2016.md#section-24487cb493444d808fb7193f0a00cdd4)
@@ -32,11 +37,11 @@ Adobe Scene7 2016年秋季最新發行說明(Adobe Experience Cloud中Adobe Expe
 
 Adobe很高興宣佈推出有助於提升整體效能的HTTP/2內容傳送。
 
-請參閱[HTTP2傳送內容常見問答集](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html?lang=zh-Hant#dynamic)。
+請參閱[HTTP2傳送內容常見問答集](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic)。
 
 ## 影像產生系統 {#section-24487cb493444d808fb7193f0a00cdd4}
 
-如需完整檔案，請參閱[https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=zh-Hant](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=zh-Hant)
+如需完整檔案，請參閱[https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html)
 
 **新功能、增強功能和錯誤修正**
 
@@ -58,7 +63,7 @@ Adobe很高興宣佈推出有助於提升整體效能的HTTP/2內容傳送。
 
 ## 檢視器（影像伺服5.5.3） {#section-1d59bcd5825d487b80b59a6d1a08ed30}
 
-如需完整檔案，請參閱[檢視器參考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=zh-Hant)。
+如需完整檔案，請參閱[檢視器參考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en)。
 
 **影像伺服的錯誤修正5.5.3**
 
@@ -68,7 +73,7 @@ Adobe很高興宣佈推出有助於提升整體效能的HTTP/2內容傳送。
 
 ## 檢視器（影像伺服5.5.2） {#section-9932c988cfee45749594af481dfc6476}
 
-如需完整檔案，請參閱[檢視器參考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=zh-Hant)。
+如需完整檔案，請參閱[檢視器參考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en)。
 
 **影像伺服的錯誤修正5.5.2**
 
@@ -77,7 +82,7 @@ Adobe很高興宣佈推出有助於提升整體效能的HTTP/2內容傳送。
 
 ## 檢視器（影像伺服5.5.1） {#section-833ab92c91c941d2bfdc27f233f582ad}
 
-如需完整檔案，請參閱[檢視器參考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=zh-Hant)。
+如需完整檔案，請參閱[檢視器參考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en)。
 
 **影像伺服5.5.1的新功能、增強功能和錯誤修正**
 
@@ -195,7 +200,7 @@ Adobe很高興宣佈推出有助於提升整體效能的HTTP/2內容傳送。
    * 當iPad裝置上的背景設定為白色/透明時，VideoPlayer元件的一側會顯示黑色框線。
    * 使用iOS 7時，iPad上的最後一個視訊影格可能會扭曲。
    * 在Chrome、Firefox和Internet Explorer瀏覽器的HLS串流模式中，視訊搜尋期間可能會偶爾發生巨集封鎖。
-      * 首次造訪的訪客可能無法在Microsoft® Edge瀏覽器中顯示海報影像。
+      * 首次造訪的訪客可能無法在® Edge瀏覽器中顯示海報影像。
       * 當使用漸進式播放時，在Internet Explorer 9中載入視訊後，海報影像可能會隱藏。
 
 ## Scene7 HTML5 Viewer SDK 3.0.2 {#section-30e2392859c442d1aab2766d0f1d1580}
@@ -214,7 +219,7 @@ Adobe很高興宣佈推出有助於提升整體效能的HTTP/2內容傳送。
    * 新增HLS串流視訊播放，作為大部分案頭系統的預設視訊傳送方法。 Flash型HDS視訊串流仍可作為替代播放選項使用。
    * 新增SearchManager、SearchPanel、SearchEffect和SearchButton元件，以支援eCatalog檢視器的新搜尋功能。
    * 新增對在Chrome瀏覽器上執行滑鼠和觸控輸入之裝置的支援。
-   * 已重構Android™版本偵測，以支援未來版本的作業系統。
+   * 已重構™版本偵測，以支援未來版本的作業系統。
    * 在eCatalog專屬的SDK元件中新增從右至左方向的支援。
 
 * 控制列
@@ -227,7 +232,7 @@ Adobe很高興宣佈推出有助於提升整體效能的HTTP/2內容傳送。
 
 **相容性注意事項**
 
-* Android™ 4.x
+* ™ 4.x
 
    * 若要停用預設值，必須為元件新增藍色反白下列CSS規則：
 
@@ -339,7 +344,7 @@ Adobe很高興宣佈推出有助於提升整體效能的HTTP/2內容傳送。
 
    * 如果搜尋設為100%且後援設為auto，則視訊影格不會更新。
    * 在Chrome、Firefox和Internet Explorer瀏覽器的HLS串流模式中，視訊搜尋期間可能會偶爾發生巨集封鎖。
-   * 首次造訪的訪客可能無法在Microsoft® Edge瀏覽器中顯示海報影像。
+   * 首次造訪的訪客可能無法在® Edge瀏覽器中顯示海報影像。
    * 當使用漸進式播放時，在Internet Explorer 9中載入視訊後，海報影像可能會隱藏。
 
 ## Dynamic Media Image Serving 6.3.2和影像轉譯6.3.2 {#section-19a3e96f52c74757bcdea0f8a11001f2}

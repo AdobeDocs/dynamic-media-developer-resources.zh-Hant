@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 00f6d27e-9f6b-4eea-8f42-833fbc0f1c38
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+TQID: 'https://experienceleague.adobe.com/cXLJJQ5CS-Apmq-8qYV-ew-lcvfRjoNfIbl2qyyKB6U'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: 232
 ht-degree: 0%
 
 ---
@@ -22,7 +26,7 @@ ht-degree: 0%
 
 巨集是在單獨的巨集定義檔案中定義的，這些檔案可附加到材料目錄或預設目錄中。
 
-*[!DNL name]*&#x200B;不區分大小寫，並且可以包含ASCII字母、數字、&#39;-&#39;、&#39;_&#39;和&#39;.&#39;的任何組合 個字元。
+*[!DNL name]*&#x200B;不區分大小寫，並且可以包含ASCII字母、數字、&#39;-&#39;、&#39;_&#39;和&#39;.&#39;字元的任意組合。
 
 在&#39;？&#39;之後的任何要求中或在`vignette::Modifier`欄位中的任何地方叫用巨集。 巨集只能代表一或多個影像演算指令，且必須與其他指令以&#39;&amp;&#39;分隔符號分隔。
 

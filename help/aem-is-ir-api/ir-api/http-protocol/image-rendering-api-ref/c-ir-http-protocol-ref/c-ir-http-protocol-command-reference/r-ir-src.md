@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: aff45f0f-e672-40da-9cc8-db83cf3922ff
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/-PushPHP2ZvNu2IFmB-1akxSvlXtDvxStXgFTAw1t-w'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: 444
 ht-degree: 1%
 
 ---
@@ -33,7 +37,7 @@ ht-degree: 1%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> embeddedReq</span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph">&amp;amp；花括弧；'is&amp;amp；花括弧；'<span class="varname"> isReq</span>'&amp;amp；花括弧；'&amp;amp；花括弧；|&amp;amp；花括弧；'<span class="varname"> irReq</span>'&amp;amp；花括弧；'|&amp;amp；花括弧；'&amp;amp；花括弧；'&amp;amp；花括弧；'<span class="varname"> foreignReq</span>'&amp;amp；花括弧；'</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">&amp;lbrace；'is&amp;lbrace；'<span class="varname"> isReq</span>'&amp;rbrace；'&amp;rbrace；|&amp;lbrace；'ir&amp;lbrace；'<span class="varname"> irReq</span>'&amp;rbrace；'|&amp;lbrace；'&amp;lbrace；'<span class="varname"> foreignReq</span>'&amp;rbrace；'</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> catId</span> </p></td> 
@@ -99,7 +103,7 @@ ht-degree: 1%
 
 ## 屬性 {#section-e68d03788d534e2184147987d51dfd0f}
 
-材質屬性。 除了純色以外的所有材質均需要（純色材質不允許使用）。 所有字串都區分大小寫。 *`index`*&#x200B;必須大於或等於0。
+材質屬性。 除了純色以外的所有材質均需要（純色材質不允許使用）。 所有字串都區分大小寫。*`index`* 必須為0或更大。
 
 ## 預設 {#section-dde549c1917540dc8f9555962202da3c}
 
@@ -111,7 +115,7 @@ ht-degree: 1%
 
 `…&obj=cabinets&src=cabs/maple02.vnc,cabs/maple.jpg&res=40&color=185,105,35&…`
 
-記錄&#39;`'cat`&#39;中的材質目錄`12-3-2`&#39;中可以有相同的材質：
+記錄&#39;`12-3-2`&#39;中的材質目錄`'cat`&#39;中可以有相同的材質：
 
 `…&obj=cabinets&src=cat/12-3-2&…`
 

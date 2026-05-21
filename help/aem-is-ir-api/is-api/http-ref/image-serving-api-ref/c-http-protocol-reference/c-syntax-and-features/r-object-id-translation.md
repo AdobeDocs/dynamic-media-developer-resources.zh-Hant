@@ -5,10 +5,14 @@ title: 物件ID翻譯
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7a3bd6a1-2ad4-4da2-944c-489b7d18fdc1
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/jeFY6jJ5HJ4mPK6ng93G9PZ6ENSlk7Wtj8S-GTdMJbM'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 2%
+source-wordcount: 715
+ht-degree: 5%
 
 ---
 
@@ -26,7 +30,7 @@ ht-degree: 2%
 
 ## 範圍 {#section-66fcd5bd467c4eeaa1574583cbe9756d}
 
-對影像、SVG和靜態內容目錄中的專案的所有參照都會被視為翻譯字型，而ICC設定檔參照則不會翻譯。 除了&#x200B;*`object`*&#x200B;和[!DNL /is/image]路徑中的[!DNL /is/static requests]之外，這些命令和目錄屬性還須接受ID轉譯： `src=`、`mask=`、`template=`、`defaultImage=`、`attribute::DefaultImage`和`attribute::Watermark`。
+對影像、SVG和靜態內容目錄中的專案的所有參照都會被視為翻譯字型，而ICC設定檔參照則不會翻譯。 除了[!DNL /is/image]和[!DNL /is/static requests]路徑中的&#x200B;*`object`*&#x200B;之外，這些命令和目錄屬性還須接受ID轉譯： `src=`、`mask=`、`template=`、`defaultImage=`、`attribute::DefaultImage`和`attribute::Watermark`。
 
 ## ID轉譯對應 {#section-9e417b352c314dfe94e831fdd62cddc8}
 
@@ -58,7 +62,7 @@ ht-degree: 2%
 
 將地區（例如，歐洲、中東、北美）分組以符合地區標準通常是值得的。 多階層查閱可達成此目的。
 
-在此範例中，我們要支援西方和中東使用的系列。 這兩個集合都以通用影像集合為基礎，增加或修改了一些影像。然後針對特定地區設定進一步調整兩個集合（`m1`、`m2`適用於兩個中東變體，`w1`、`w2`和`w3`適用於三個西方地區設定），除了為`w1`和`w3`共用影像以外。 未知的地區設定僅對應至一般集合，無法存取地區設定特定的影像。
+在此範例中，我們要支援西方和中東使用的系列。 這兩個集合都以通用影像集合為基礎，增加或修改了一些影像。 然後針對特定地區設定進一步調整兩個集合（`m1`、`m2`適用於兩個中東變體，`w1`、`w2`和`w3`適用於三個西方地區設定），除了為`w1`和`w3`共用影像以外。 不明地區只會對應至通用集合，且無權存取地區特定影像。
 
 `attribute::LocaleMap: w1,-W,|w2,-W2,-W,|w3,-W,|m1,-M1,-M,|m2,-M2,-M,|,`
 
@@ -114,7 +118,7 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph">的</span> </p> </td> 
+   <td> <p> </span>的<span class="codeph"> </p> </td> 
    <td> <p> <span class="codeph"> myImg_22， myImg_23， myImg_1， myImg_2， myImg_3 </span> </p> </td> 
   </tr> 
   <tr> 

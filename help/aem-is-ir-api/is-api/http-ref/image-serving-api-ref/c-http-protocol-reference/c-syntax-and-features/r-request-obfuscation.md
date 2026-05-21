@@ -5,9 +5,13 @@ title: 要求模糊化
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 358d714b-703d-418b-90c0-5940f5388c7d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/77Q5rV3cP4KoBz3rFKlEmBlumS0TBthuLbLQBETPitE'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: 220
 ht-degree: 1%
 
 ---
@@ -20,7 +24,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->如果您啟用此功能，請注意，其使用方式有一些限制，包括下列專案：<br>- Dynamic Media使用者介面可能無法顯示&#x200B;**[!UICONTROL 上次發佈]**&#x200B;欄位的正確詳細資料。 不過，這不會影響發佈。<br> — 目前，啟用&#x200B;**[!UICONTROL 要求模糊化]**&#x200B;和&#x200B;**[!UICONTROL 要求鎖定]**&#x200B;時，HLS視訊串流無法運作。<br> — 目前，有些Dynamic Media檢視器在啟用&#x200B;**[!UICONTROL 要求模糊化]**&#x200B;和&#x200B;**[!UICONTROL 要求鎖定]**&#x200B;時無法運作。
+>如果您啟用此功能，請注意，其使用方式有一些限制，包括下列專案：<br>- Dynamic Media使用者介面可能無法顯示&#x200B;**[!UICONTROL 上次發佈]**&#x200B;欄位的正確詳細資料。 不過，此影響不會影響發佈。<br> — 目前，啟用&#x200B;**[!UICONTROL 要求模糊化]**&#x200B;和&#x200B;**[!UICONTROL 要求鎖定]**&#x200B;時，HLS視訊串流無法運作。<br> — 目前，啟用&#x200B;**[!UICONTROL 要求模糊化]**&#x200B;和&#x200B;**[!UICONTROL 要求鎖定]**&#x200B;時，有些Dynamic Media檢視器無法運作。
 
 ## 範例 {#section-dd4bfab19aa040f8ba3f6e397c6b0941}
 

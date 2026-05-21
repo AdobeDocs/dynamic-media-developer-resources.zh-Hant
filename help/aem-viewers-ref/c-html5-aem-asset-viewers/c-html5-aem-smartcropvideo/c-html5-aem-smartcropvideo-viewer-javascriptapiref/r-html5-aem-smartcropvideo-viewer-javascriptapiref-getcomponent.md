@@ -6,9 +6,13 @@ feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 76e028b5-e7d6-4cd8-b532-c54c82fd3ebb
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+TQID: 'https://experienceleague.adobe.com/HwrU-TQ4yyJD-MKB7d9iGVG9yJmwzwqh0LmT1715Rv0'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: 217
 ht-degree: 0%
 
 ---
@@ -104,14 +108,14 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-使用SDK API時，請務必使用[檢視器SDK名稱空間]中所述的正確完整SDK名稱空間
+使用SDK API時，請務必如[檢視器SDK名稱空間所述，使用正確的完整SDK名稱空間]
 (#concept-679bfabb3e3e4c12a285c4e9c4144153)。
 
 如需特定元件的詳細資訊，請參閱檢視器SDK API檔案。
 
 ## 傳回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}`檢視器SDK元件的參考。 如果`null`不是支援的檢視器元件，或檢視器邏輯尚未建立元件，則方法會傳回`componentId`。
+`{Object}`檢視器SDK元件的參考。 如果`componentId`不是支援的檢視器元件，或檢視器邏輯尚未建立元件，則方法會傳回`null`。
 
 ## 範例 {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

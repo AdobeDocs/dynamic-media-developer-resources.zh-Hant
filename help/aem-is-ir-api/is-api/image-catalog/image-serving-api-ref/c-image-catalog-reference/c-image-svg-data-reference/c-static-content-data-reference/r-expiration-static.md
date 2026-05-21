@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 064dab12-5f58-4e19-a6b1-fbd20182e3aa
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/18Zmoy7bkC58X6KaK2T1FGVTOPrNrLgdQxwbw8jgMT0'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: 306
 ht-degree: 1%
 
 ---
@@ -16,7 +20,7 @@ ht-degree: 1%
 
 用來管理使用者端和Proxy伺服器快取。 伺服器會將此值與傳輸時間/日期相加，以計算HTTP回應資料的到期時間/日期。
 
-瀏覽器會使用檔案的到期時間來管理快取。 將請求傳遞至伺服器之前，瀏覽器會檢查其快取，檢視檔案是否已下載。 若是如此，且檔案尚未過期，瀏覽器會傳送條件式GET要求（例如在要求標題中設定If-Modified-Since欄位），而非一般GET要求。 伺服器可以選擇以&#39;304&#39;狀態回應，而不傳輸影像。 然後瀏覽器會從其快取載入檔案。 這可能會大幅提升經常存取資料的整體效能。
+瀏覽器會使用檔案的到期時間來管理快取。 將請求傳遞至伺服器之前，瀏覽器會檢查其快取，檢視檔案是否已下載。 若是如此，且檔案尚未過期，瀏覽器會傳送條件式GET要求（例如要求標題中設定If-Modified-Since欄位），而非一般的GET要求。 伺服器可以選擇以&#39;304&#39;狀態回應，而不傳輸影像。 然後瀏覽器會從其快取載入檔案。 這可能會大幅提升經常存取資料的整體效能。
 
 到期適用於這些回應型別：
 
@@ -30,7 +34,7 @@ ht-degree: 1%
 
 ## 屬性 {#section-7f5173d090cf48df8fa1a2c72b8c8c60}
 
-實數、-2、-1或0或更大。 從產生回應影像到到期為止的小時數。 設為0可一律使回覆影像立即過期，以有效停用使用者端快取。 設為–1以標籤為&#x200B;*`never expire`*。 在此情況下，伺服器一律會回應條件式GET要求傳回304狀態（未修改），而不會檢查檔案是否實際變更。 設定為–2以使用`attribute::Expiration`提供的預設值。
+實數、-2、-1或0或更大。 從產生回應影像到到期為止的小時數。 設為0可一律使回覆影像立即過期，以有效停用使用者端快取。 設為–1以標籤為&#x200B;*`never expire`*。 在這種情況下，伺服器一律會傳回304狀態（未修改）來回應條件式GET要求，而不檢查檔案是否實際變更。 設定為–2以使用`attribute::Expiration`提供的預設值。
 
 ## 預設 {#section-ec72cc1dfc5e4f278174d37da2e39462}
 

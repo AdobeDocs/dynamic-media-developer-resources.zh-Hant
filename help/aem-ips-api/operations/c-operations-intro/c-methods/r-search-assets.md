@@ -5,10 +5,15 @@ title: 搜尋資產
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 58bd80e4-e9eb-43e4-8508-04e330f0ad26
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/dH731pRjwnoj8sT18m3QxX6lEM8lzI14Sr9emp0aQc0'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 6%
+source-wordcount: 602
+ht-degree: 7%
 
 ---
 
@@ -180,7 +185,7 @@ ht-degree: 6%
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludeByproducts</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd：布林值</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 如果為True，則擷取主要資產期間產生的副產品資產(例如擷取的PDF頁面影像)會從搜尋結果中排除。 預設為 false。 </td> 
+   <td colname="col4"> 如果為True，則擷取主要資產期間產生的副產品資產（例如擷取的PDF頁面影像）會從搜尋結果中排除。 預設為 false。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludByproductArray</span> </span> </td> 
