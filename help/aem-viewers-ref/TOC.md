@@ -3,7 +3,8 @@ cloud: Experience Cloud
 user-guide-title: Dynamic Media檢視器參考指南
 feature-set: Experience Manager Assets
 user-guide-description: 自訂Dynamic Media檢視器以用於桌上型電腦和觸控熒幕裝置。 包括互動式影像和影片、浮動切換、迴轉集等。
-source-git-commit: 6c2c23327affd02708d05bff3859cf8da746eabf
+nudge: true
+source-git-commit: 5e773e1a1bc410e7df7a560e00c1ae12dbfb16d2
 workflow-type: tm+mt
 source-wordcount: '2082'
 ht-degree: 2%
