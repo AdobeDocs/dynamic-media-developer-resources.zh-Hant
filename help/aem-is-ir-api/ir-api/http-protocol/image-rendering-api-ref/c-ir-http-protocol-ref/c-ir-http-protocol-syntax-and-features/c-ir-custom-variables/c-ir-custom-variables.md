@@ -6,14 +6,10 @@ feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8d26b797-5099-49fb-b7e0-46747f35ab84
 TQID: 'https://experienceleague.adobe.com/1-o3GqgzwvPYV8UDBuZu5udOiG-p8Tue3Fo-ft8-QhI'
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 4339f336345d7d7f3c05c7f5a18fbd28bcfd382b
 workflow-type: tm+mt
 source-wordcount: 251
 ht-degree: 0%
@@ -41,3 +37,4 @@ ht-degree: 0%
 自訂變數不可巢狀化。 在`[!DNL string]`中任何`$ [!DNL name]$`的相符專案都不會被取代。 例如，要求片段`$var2=apple&$var1=my$var2$tree&text=$var1$`解析為`text=my$var2$tree`。
 
 `$`不是保留字元；它可能會發生在請求中的其他位置。 例如，`src=my$texture$file.tif`是有效的命令（假設存在名為`[!DNL my$texture$file.tif]`的材料目錄專案或紋理檔案），而`wid=$number$`則否，因為`wid=`需要數值引數。
+
