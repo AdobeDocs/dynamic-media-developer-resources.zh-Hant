@@ -3,10 +3,11 @@ cloud: Experience Cloud
 user-guide-title: Dynamic Media Image Production System API
 feature-set: Experience Manager Assets
 user-guide-description: IPS （影像生產系統） Web服務API可讓外部應用程式和協力廠商開發人員以程式設計方式存取IPS資產和功能。
-source-git-commit: 72f9cd1b1de82cbeeb8d41fb0f1cf0b51744a8a3
+nudge: true
+source-git-commit: 6ca920433c1808efb7dcdc921279987ade57671e
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 5%
+source-wordcount: '662'
+ht-degree: 1%
 
 ---
 
@@ -445,33 +446,33 @@ ht-degree: 5%
    + [ipsApiFault](faults/c-faults/r-ips-api-fault.md)
 + 變更記錄 {#change-log}
    + [變更記錄](change-log/c-change-log.md)
-   + 版本 6.0 {#version-6-0}
-      + [版本 6.0](change-log/c-change-log/c-6/c-6.md)
+   + 6.0版 {#version-6-0}
+      + [6.0版](change-log/c-change-log/c-6/c-6.md)
       + [作業：新增和已修改](change-log/c-change-log/c-6/r-6-operations.md)
       + [資料型別：新增和修改](change-log/c-change-log/c-6/r-6-types.md)
-   + 版本 4.5 {#version-4-5}
-      + [版本 4.5](change-log/c-change-log/c-4-5/c-4-5.md)
+   + 版本4.5 {#version-4-5}
+      + [版本4.5](change-log/c-change-log/c-4-5/c-4-5.md)
       + [作業：新增和已修改](change-log/c-change-log/c-4-5/r-4-5-operations.md)
       + [資料型別：新增和修改](change-log/c-change-log/c-4-5/r-4-5-types.md)
       + [限制使用](change-log/c-change-log/c-4-5/r-restricted-use.md)
-   + 版本 4.4 {#version-4-4}
-      + [版本 4.4](change-log/c-change-log/c-4-4/c-4-4.md)
+   + 版本4.4 {#version-4-4}
+      + [版本4.4](change-log/c-change-log/c-4-4/c-4-4.md)
       + [作業：新增和已修改](change-log/c-change-log/c-4-4/r-4-4-operations.md)
       + [資料型別：新增和修改](change-log/c-change-log/c-4-4/r-4-4-types.md)
       + [字串常數：新增和修改](change-log/c-change-log/c-4-4/r-4-4-string-constants.md)
-   + 版本 4.2 {#version-4-2}
-      + [版本 4.2](change-log/c-change-log/c-4-2/c-4-2.md)
+   + 版本4.2 {#version-4-2}
+      + [版本4.2](change-log/c-change-log/c-4-2/c-4-2.md)
       + [資料型別：新增和修改](change-log/c-change-log/c-4-2/r-4-2-types.md)
-   + 版本 4.0 {#version-4-0}
-      + [版本 4.0](change-log/c-change-log/c-4-0/c-4-0.md)
+   + 版本4.0 {#version-4-0}
+      + [版本4.0](change-log/c-change-log/c-4-0/c-4-0.md)
       + [新增與變更](change-log/c-change-log/c-4-0/r-4-0-new.md)
-   + 版本 3.8 {#version-3-8}
-      + [版本 3.8](change-log/c-change-log/c-3-8/c-3-8.md)
+   + 版本3.8 {#version-3-8}
+      + [版本3.8](change-log/c-change-log/c-3-8/c-3-8.md)
       + [作業：新增和已修改](change-log/c-change-log/c-3-8/r-3-8-operations.md)
       + [資料型別：新增和修改](change-log/c-change-log/c-3-8/r-3-8-types.md)
       + [字串常數：新增和修改](change-log/c-change-log/c-3-8/r-3-8-string-constants.md)
-   + 版本 3.7 {#version-3-7}
-      + [版本 3.7](change-log/c-change-log/c-3-7/c-3-7.md)
+   + 版本3.7 {#version-3-7}
+      + [版本3.7](change-log/c-change-log/c-3-7/c-3-7.md)
       + [作業：新增和已修改](change-log/c-change-log/c-3-7/r-3-7-operations.md)
       + [資料型別：新增和修改](change-log/c-change-log/c-3-7/r-3-7-types.md)
       + [字串常數：新增和修改](change-log/c-change-log/c-3-7/r-3-7-string-constants.md)
