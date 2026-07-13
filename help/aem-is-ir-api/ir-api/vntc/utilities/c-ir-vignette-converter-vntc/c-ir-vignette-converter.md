@@ -6,9 +6,13 @@ feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9e2ad2d4-9061-41d1-941b-8be4c17a6c43
 TQID: 'https://experienceleague.adobe.com/NZsbUGCd25rHyvrmt-Rh3XN0p3pHqEtGZrXLp-7JBsc'
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 337
@@ -20,7 +24,7 @@ ht-degree: 0%
 
 暈映轉換程式(vntc)是一個命令列公用程式，用來準備使用「影像製作」建立的內容，以便使用「影像演算」進行部署。
 
-[!DNL vntc]位於[！DNL *[!DNL install_root]*\ImageServing\bin]。 它有以下功能：
+[!DNL vntc]位於[!DNL *[!DNL install_root]*\ImageServing\bin]。 它有以下功能：
 
 * 將主要暈映轉換為單解析度、多解析度或金字塔製作暈映（請參閱[暈映縮放](../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md#concept-e373a29c2f954df98d704c7723804585)）。
 * 產生生產封包和涵蓋樣式檔案的視窗（請參閱`-resolution`和`-jpegquality`）。
