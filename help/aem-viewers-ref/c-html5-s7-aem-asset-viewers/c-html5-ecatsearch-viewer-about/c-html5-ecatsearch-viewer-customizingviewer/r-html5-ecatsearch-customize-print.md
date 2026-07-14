@@ -5,15 +5,11 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: c5939cdc-fa4e-4f19-b2a9-21b389492c4f
-TQID: 'https://experienceleague.adobe.com/K6---N-n2HEfIOrD-tD8qndgz94GaNSi94PDfk5K4KM'
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 939895a2a379b02e733e48932434433bfa9663e1
+TQID: 'https://experienceleague.adobe.com/K6%2D%2D%2DN-n2HEfIOrD-tD8qndgz94GaNSi94PDfk5K4KM'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: d25397a81c27b93b7aec45147d29890039504c7a
 workflow-type: tm+mt
 source-wordcount: 1519
 ht-degree: 0%
@@ -249,7 +245,7 @@ background-color: #dddddd;
 .s7ecatalogsearchviewer .s7printdialog .s7closebutton
 ```
 
-關閉按鈕的&#x200B;**CSS屬性**
+關閉按鈕的**CSS屬性**
 
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
@@ -336,7 +332,7 @@ background-color: #dddddd;
 .s7ecatalogsearchviewer .s7printdialog .s7dialogfooter
 ```
 
-對話方塊頁尾&#x200B;**的**&#x200B;CSS屬性
+對話方塊頁尾**的**CSS屬性
 
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
@@ -535,7 +531,7 @@ background-color: #dddddd;
 .s7ecatalogsearchviewer .s7printdialog .s7dialogviewarea
 ```
 
-對話方塊檢視區域的&#x200B;**CSS屬性**
+對話方塊檢視區域的**CSS屬性**
 
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
@@ -570,7 +566,7 @@ background-color: #dddddd;
 .s7ecatalogsearchviewer .s7printdialog .s7dialogbody
 ```
 
-對話方塊主體的&#x200B;**CSS屬性**
+對話方塊主體的**CSS屬性**
 
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
@@ -652,7 +648,7 @@ background-color: #dddddd;
 
 此類別不適合控制標籤大小或位置，因為您可以在表單使用者介面的不同位置將其套用至文字。
 
-對話方塊標籤的&#x200B;**CSS屬性。 &#x200B;**
+對話方塊標籤的**CSS屬性。 **
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
@@ -829,3 +825,4 @@ background-color: #dddddd;
     width: 430px; 
 }
 ```
+
