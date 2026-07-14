@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: b658a9f9067d2313c1c838c7e157f4070ebc2b50
 workflow-type: tm+mt
 source-wordcount: 55
 ht-degree: 9%
@@ -34,3 +34,4 @@ Adobe Illustrator檔案的選項。
 | [!DNL resolution] | `xsd:string` | 檔案解析度。 |
 | 色域 | `xsd:string` | 目標色域。 |
 | [!DNL alpha] | `xsd:boolean` | 是否將檔案點陣化成影像。 如果是這樣的話，如果以這種方式定義原始檔案來建立覆蓋圖志，請建立透明背景。 |
+

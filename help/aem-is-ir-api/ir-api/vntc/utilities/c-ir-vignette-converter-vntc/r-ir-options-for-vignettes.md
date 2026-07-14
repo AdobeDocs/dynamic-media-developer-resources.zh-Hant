@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 462
 ht-degree: 0%
@@ -66,3 +66,4 @@ ht-degree: 0%
   <td class="stentry"> <p>一或多個輸出暈映寬度（畫素）。 若指定<span class="codeph"> -info</span>，則略過。 <span class="varname"> ival</span>可以是0，代表輸入暈映的高度。 如需詳細資訊，請參閱<a href="../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md#concept-e373a29c2f954df98d704c7723804585" type="concept" format="dita" scope="local">暈映縮放比例</a>。 </p></td> 
  </tr> 
 </table>
+

@@ -15,7 +15,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: ba0745708154402d9b6c7ebf0554deb366dde11b
 workflow-type: tm+mt
 source-wordcount: 141
 ht-degree: 9%
@@ -26,8 +26,7 @@ ht-degree: 9%
 
 取得與特定公司相關聯的資產和資產數目。
 
-傳回的`countArray`包含`assetTypes` （資料型別`xsd:string`）的陣列，每個都具有自己的計數欄位（資料型別`xsd:int`），允許陣列的每個元素呈現多個資產型別。
-語法
+傳回的`countArray`包含`assetTypes` （資料型別`xsd:string`）的陣列，每個都具有自己的計數欄位（資料型別`xsd:int`），允許陣列的每個元素呈現多個資產型別。語法
 
 ## 授權的使用者型別 {#section-6234754722184e828352f10eb18fbce9}
 
@@ -83,3 +82,4 @@ ht-degree: 9%
    </countArray>
 </getAssetCountsReturn>
 ```
+

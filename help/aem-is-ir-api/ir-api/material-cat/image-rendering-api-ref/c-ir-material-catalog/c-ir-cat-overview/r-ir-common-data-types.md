@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 162
 ht-degree: 0%
@@ -47,3 +47,4 @@ ht-degree: 0%
 **文字字串**
 
 除非字串包含任何`<CR>`、`<LF>`或`<TAB>`字元，否則字串分隔符號為選用。 單引號與雙引號均可作為分隔符號使用。 如果使用引號，則任何內嵌在字串中的此類引號都必須使用兩個連續引號（例如&#39; `This month''s Special`&#39;）逸出。
+

@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 4185012f22b173b569d11ea4d350763a82f98710
 workflow-type: tm+mt
 source-wordcount: 716
 ht-degree: 2%
@@ -78,12 +78,12 @@ https://<server>/scene7/UploadFile
 
 |  HTTP POST表單元件   |  uploadPostParams元素名稱   |  類型   |  說明   |
 |---|---|---|---|
-| `uploadParams` (必要。 XML `uploadParams`檔案指定上傳引數)   |   `companyHandle`  |  `xsd:string`  | 必要. 檔案上傳目標公司的控制代碼。  |
-| `uploadParams` (必要。 XML `uploadParams`檔案指定上傳引數) | `jobName`  |  `xsd:string`  | 需要`jobName`或`jobHandle`。 上載工作的名稱。  |
-| `uploadParams` (必要。 XML `uploadParams`檔案指定上傳引數) | `jobHandle`  |  `xsd:string`  | 需要`jobName`或`jobHandle`。 處理在先前請求中啟動的上傳工作。  |
-| `uploadParams` (必要。 XML `uploadParams`檔案指定上傳引數) | `locale`  |  `xsd:string`  | 選擇性. 本地化的語言和國家/地區代碼。  |
-| `uploadParams` (必要。 XML `uploadParams`檔案指定上傳引數) | `description`  |  `xsd:string`  | 選擇性. 工作的說明。  |
-| `uploadParams` (必要。 XML `uploadParams`檔案指定上傳引數) | `destFolder`  |  `xsd:string`  | 選擇性. 檔案名稱屬性前置詞的目標資料夾路徑，特別是針對可能不支援檔案名稱完整路徑的瀏覽器和其他使用者端。  |
+| `uploadParams` (必要。 XML `uploadParams`檔案指定上傳引數)   |   `companyHandle`  |  `xsd:string`  | 必要. 檔案上傳目標公司的控制代碼。 |
+| `uploadParams` (必要。 XML `uploadParams`檔案指定上傳引數) | `jobName`  |  `xsd:string`  | 需要`jobName`或`jobHandle`。 上載工作的名稱。 |
+| `uploadParams` (必要。 XML `uploadParams`檔案指定上傳引數) | `jobHandle`  |  `xsd:string`  | 需要`jobName`或`jobHandle`。 處理在先前請求中啟動的上傳工作。 |
+| `uploadParams` (必要。 XML `uploadParams`檔案指定上傳引數) | `locale`  |  `xsd:string`  | 選擇性. 本地化的語言和國家/地區代碼。 |
+| `uploadParams` (必要。 XML `uploadParams`檔案指定上傳引數) | `description`  |  `xsd:string`  | 選擇性. 工作的說明。 |
+| `uploadParams` (必要。 XML `uploadParams`檔案指定上傳引數) | `destFolder`  |  `xsd:string`  | 選擇性. 檔案名稱屬性前置詞的目標資料夾路徑，特別是針對可能不支援檔案名稱完整路徑的瀏覽器和其他使用者端。 |
 | `uploadParams` (必要。 XML `uploadParams`檔案指定上傳引數) | `fileName`  |  `xsd:string`  | 選擇性. 目標檔案的名稱。 覆寫檔案名稱屬性。 |
 | `uploadParams` (必要。 XML `uploadParams`檔案指定上傳引數) | `endJob`  |  `xsd:boolean`  | 選擇性. 預設為 false。 |
 | `uploadParams` (必要。 XML `uploadParams`檔案指定上傳引數) | `uploadParams`  |  `types:UploadPostJob`  | 如果這是針對現有作用中工作的後續請求，則為選用。 如果有現有工作，則會忽略`uploadParams`並使用現有工作上傳引數。 檢視[UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4) |
@@ -212,3 +212,4 @@ Server: Unknown
 <?xml version='1.0' encoding='UTF-8'?><tns:authenticationFault xmlns:tns="http://www.scene7.com/IpsApi/xsd"><tns:code>10001</tns:code><tns:reason>Invalid username/password</tns:reason></tns:authenticationFault> 
  
 ```
+

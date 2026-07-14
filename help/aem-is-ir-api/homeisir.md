@@ -14,7 +14,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: e76d4c499daf8c8a7a0be31e56d84f917c643095
+source-git-commit: 70c478ebbe0b38d9e35c1bb26074a458c0197b2b
 workflow-type: tm+mt
 source-wordcount: 65
 ht-degree: 0%
@@ -24,3 +24,4 @@ ht-degree: 0%
 # Adobe Dynamic Media影像提供與影像轉譯API首頁{#adobe-scene-image-serving-and-image-rendering-api-home}
 
 本檔案包含影像提供與影像轉譯API以及相關技術的相關資訊。 如果您使用Dynamic Media Classic與AEM整合，請參閱此API的「影像伺服」部分。
+

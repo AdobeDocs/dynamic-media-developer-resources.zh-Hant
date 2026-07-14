@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 4339f336345d7d7f3c05c7f5a18fbd28bcfd382b
 workflow-type: tm+mt
 source-wordcount: 70
 ht-degree: 0%
@@ -27,3 +27,4 @@ ht-degree: 0%
 為獲得良好的伺服器效能，巢狀要求傳回的影像解析度應適當地符合套用材質的物件的紋理解析度。
 
 外部影像會快取到本機。 只有在本機快取專案過時後（根據expires HTTP標頭），才會偵測到這類影像的任何變更。
+

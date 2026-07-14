@@ -16,7 +16,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 207
 ht-degree: 0%
@@ -38,3 +38,4 @@ ht-degree: 0%
 當替換素材檔案或暈映時，[!DNL Platform Server]個快取專案會自動失效。 取代ICC設定檔不會使快取失效。
 
 為了避免取代檔案的複雜性，建議為取代檔案提供一個新名稱，並更新對應的目錄專案。 這可在伺服器上線時取代任何資料檔案，並造成伺服器快取專案自動過時，不需額外介入。 此方法可用於影像目錄管理的所有資料檔案。
+

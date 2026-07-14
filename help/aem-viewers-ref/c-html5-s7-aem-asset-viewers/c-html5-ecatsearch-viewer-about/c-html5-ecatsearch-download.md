@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: f6432244ef9faba7a81488e9de8e438154ae6123
 workflow-type: tm+mt
 source-wordcount: 77
 ht-degree: 3%
@@ -29,3 +29,4 @@ ht-degree: 3%
 * 客戶公司中出現實際的PDF檔案。
 * 名稱符合傳遞給檢視器的e-catalog資產名稱，並包含`.pdf`副檔名。
 * PDF檔案會發佈在Dynamic Media Classic中。
+

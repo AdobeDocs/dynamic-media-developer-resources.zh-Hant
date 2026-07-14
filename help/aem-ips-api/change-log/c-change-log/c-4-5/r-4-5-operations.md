@@ -15,7 +15,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 4185012f22b173b569d11ea4d350763a82f98710
 workflow-type: tm+mt
 source-wordcount: 100
 ht-degree: 1%
@@ -52,3 +52,4 @@ ht-degree: 1%
 * `saveMetadataField`包含選用的`isHidden`引數。
 * `searchAssets`
 * `renameFiles`引數已在先前的版本中被取代，並從`renameAsset`作業中移除。 虛擬檔案路徑會變更，以符合新的資產名稱（保留副檔名），而實體檔案路徑不受影響。 API使用者端在更新至新API版本時需要移除此引數的參考。
+

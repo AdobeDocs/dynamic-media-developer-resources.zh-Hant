@@ -16,7 +16,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 163
 ht-degree: 0%
@@ -39,3 +39,4 @@ ht-degree: 0%
 影像演算安裝資料夾( *[!DNL install_folder]*)是[!DNL *[!DNL install_root]*/ImageRendering]。 在Windows上，預設&#x200B;*[!DNL install_root]*&#x200B;為`C:\Program Files\Scene7`。 安裝期間可能會指定不同的資料夾。 在Linux上，*[!DNL install_root]*&#x200B;必須一律為[!DNL /usr/local/scene7]。 可以使用符號連結。
 
 所有檔案路徑在UNIX上均區分大小寫，在Windows上則不區分大小寫。
+

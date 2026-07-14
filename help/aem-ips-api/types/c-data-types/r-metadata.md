@@ -15,7 +15,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 83717f155466c1b33cab6f1f8830a9fea68c88c5
 workflow-type: tm+mt
 source-wordcount: 60
 ht-degree: 13%
@@ -38,3 +38,4 @@ searchAssets傳回的中繼資料欄位。
 | longVal | `xsd:long` | 長中繼資料值（僅適用於int型別的欄位）。 |
 | doubleVal | `xsd:double` | 雙倍中繼資料值（僅適用於浮點型欄位）。 |
 | 日期值 | `xsd:dateTime` | 日期中繼資料值（僅適用於日期型別欄位）。 |
+

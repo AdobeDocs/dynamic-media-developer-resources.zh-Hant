@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: f6432244ef9faba7a81488e9de8e438154ae6123
 workflow-type: tm+mt
 source-wordcount: 313
 ht-degree: 0%
@@ -63,3 +63,4 @@ eCatalog搜尋檢視器支援在主檢視上方呈現影像地圖圖示。
 下列是指向eCatalog中3D跨頁的影像地圖的`href`屬性範例：
 
 `href=target:2`
+

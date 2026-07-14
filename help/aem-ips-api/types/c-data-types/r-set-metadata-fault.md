@@ -15,7 +15,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 83717f155466c1b33cab6f1f8830a9fea68c88c5
 workflow-type: tm+mt
 source-wordcount: 58
 ht-degree: 12%
@@ -36,3 +36,4 @@ batchSetAssetMetadata作業中使用更新的警告或錯誤詳細資料。
 | fieldHandle | `xsd:string` | 未成功設定其值的中繼資料欄位的控制代碼。 |
 | 代碼 | `xsd:int` | 錯誤碼。 |
 | 原因 | `xsd:string` | 錯誤說明（純文字）。 |
+

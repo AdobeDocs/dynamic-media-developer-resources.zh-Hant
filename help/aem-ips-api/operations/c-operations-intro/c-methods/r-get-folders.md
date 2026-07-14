@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: ba0745708154402d9b6c7ebf0554deb366dde11b
 workflow-type: tm+mt
 source-wordcount: 240
 ht-degree: 7%
@@ -26,8 +26,7 @@ ht-degree: 7%
 
 ## 資料夾用途 {#section-66e344d5333f42f1b060a0cba25935c3}
 
-資料夾可讓您組織子資料夾和資產。 所有資料夾和資產名稱都必須是唯一的。 共用相同名稱的資料夾和資產會造成名稱空間衝突，即使它們位在不同資料夾階層中亦然。
-語法
+資料夾可讓您組織子資料夾和資產。 所有資料夾和資產名稱都必須是唯一的。 共用相同名稱的資料夾和資產會造成名稱空間衝突，即使它們位在不同資料夾階層中亦然。語法
 
 ## 授權的使用者型別 {#section-0dc7e17cb60f4cf7bcdb76648e5d2f8e}
 
@@ -101,3 +100,4 @@ ht-degree: 7%
    </folderArray>
 </getFoldersReturn>
 ```
+

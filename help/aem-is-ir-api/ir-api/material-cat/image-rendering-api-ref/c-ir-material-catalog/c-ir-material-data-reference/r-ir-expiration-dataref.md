@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 325
 ht-degree: 1%
@@ -26,7 +26,7 @@ ht-degree: 1%
 
 伺服器會將此值與傳輸時間/日期相加，以計算NTTP回應資料的到期時間/日期。
 
-瀏覽器會使用檔案的到期時間來管理快取。 將請求傳遞至伺服器之前，瀏覽器會檢查其快取，檢視檔案是否已下載。 若是如此，且檔案尚未過期，瀏覽器會傳送條件式GET要求（例如含If-Modified-Since HTTP要求標頭），而非一般GET要求。 伺服器可以選擇以&#39;304&#39;狀態回應，而不傳輸影像。 然後瀏覽器只需從其快取載入檔案即可。 這可能會大幅提升經常存取資料的整體效能。
+瀏覽器會使用檔案的到期時間來管理快取。 將請求傳遞至伺服器之前，瀏覽器會檢查其快取，檢視檔案是否已下載。 若是如此，且檔案尚未過期，瀏覽器會傳送條件式GET要求（例如使用If-Modified-Since HTTP要求標頭），而非一般的GET要求。 伺服器可以選擇以&#39;304&#39;狀態回應，而不傳輸影像。 然後瀏覽器只需從其快取載入檔案即可。 這可能會大幅提升經常存取資料的整體效能。
 
 伺服器會將expires HTTP回應標頭設定為目前的日期/時間，加上暈映：：Expiration和所有catalog：：Expiration值的最小值，以取得暈映和轉譯作業中涉及的所有材質。
 
@@ -43,3 +43,4 @@ ht-degree: 1%
 ## 另請參閱 {#section-9d46a9d346fe42f3911edb3bd79f4121}
 
 [屬性：：Expiration](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-expiration.md#reference-0f68ad8199c64bd4bc8d27dd78b7d996) ， [暈映：：Expiration](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-expiration-vignette.md#reference-df80829da93e4c0ab3f97a1792d9c74c)， [req=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-req.md#reference-792b1a663fb64261bd2de2a209b847fb)
+

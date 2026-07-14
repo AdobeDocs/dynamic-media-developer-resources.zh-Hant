@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 83717f155466c1b33cab6f1f8830a9fea68c88c5
 workflow-type: tm+mt
 source-wordcount: 60
 ht-degree: 8%
@@ -36,3 +36,4 @@ ht-degree: 8%
 | assetType | `xsd:string` | 資產型別的選擇。 |
 | assetHandle | `xsd:string` | 作業記錄中參照的資產控制代碼。 |
 | auxArray | `types:JobLogDetailAuxArray` | 提供上述五種工作記錄型別以外的其他詳細工作記錄資訊。 |
+

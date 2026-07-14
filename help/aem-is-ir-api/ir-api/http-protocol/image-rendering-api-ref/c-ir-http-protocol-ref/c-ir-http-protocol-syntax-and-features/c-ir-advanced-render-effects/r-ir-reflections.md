@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 4339f336345d7d7f3c05c7f5a18fbd28bcfd382b
 workflow-type: tm+mt
 source-wordcount: 140
 ht-degree: 3%
@@ -61,3 +61,4 @@ ht-degree: 3%
 轉譯器會根據`type=`調整`gloss=`與`rough=`屬性的範圍。 某些材料型別（例如織物）的反射比石材或金屬等材料型別少。 此外，為其中一個專案指定的相同光澤量，通常會產生與另一個專案不同的反射效果。 如果未指定`type=`或設定為`0`，則屬性`gloss=`和粗糙度會有相當寬的色域。
 
 `glossmap=`用來逐個畫素控制材料的光澤度。
+

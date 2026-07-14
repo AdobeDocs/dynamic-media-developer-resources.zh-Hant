@@ -15,7 +15,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: b658a9f9067d2313c1c838c7e157f4070ebc2b50
 workflow-type: tm+mt
 source-wordcount: 47
 ht-degree: 10%
@@ -34,3 +34,4 @@ ht-degree: 10%
 |---|---|---|
 | assetType | `xsd:string` | 與欄位定義相關聯的資產型別（如需值，請參閱「資產型別」）。 |
 | fieldArray | `types:MetadataFieldArray` | 與`assetType`中指定的資產型別關聯的中繼資料欄位定義陣列。 |
+

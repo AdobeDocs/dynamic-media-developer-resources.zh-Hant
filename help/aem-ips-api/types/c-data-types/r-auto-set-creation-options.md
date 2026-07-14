@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: b658a9f9067d2313c1c838c7e157f4070ebc2b50
 workflow-type: tm+mt
 source-wordcount: 63
 ht-degree: 7%
@@ -31,3 +31,4 @@ ht-degree: 7%
 | 名稱 | 類型 | 說明 |
 |---|---|---|
 | autoSetsArray | `types:HandleArray` | 定義上載期間套用的自動集合產生指令碼的[!DNL PropertySet]控制代碼陣列。 |
+

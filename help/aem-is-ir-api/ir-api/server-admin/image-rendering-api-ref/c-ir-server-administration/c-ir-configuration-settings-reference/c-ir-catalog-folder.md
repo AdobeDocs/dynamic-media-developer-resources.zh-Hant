@@ -16,7 +16,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 51
 ht-degree: 0%
@@ -28,3 +28,4 @@ ht-degree: 0%
 材料目錄資料夾（所有catalog.ini檔案都必須位於其中）的位置。
 
 可以是絕對路徑或相對於[!DNL *[!DNL install_folder]*]的路徑。 預設值為[!DNL ./catalog]，對應至[!DNL *[!DNL install_folder]*/catalog]。
+

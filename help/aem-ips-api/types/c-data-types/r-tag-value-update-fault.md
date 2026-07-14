@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 70c478ebbe0b38d9e35c1bb26074a458c0197b2b
 workflow-type: tm+mt
 source-wordcount: 41
 ht-degree: 19%
@@ -33,3 +33,4 @@ ht-degree: 19%
 | 價值 | `xsd:string` | 更新失敗的標籤值。 |
 | 代碼 | `xsd:int` | 錯誤代碼編號。 |
 | 原因 | `xsd:string` | 錯誤訊息（純文字）。 |
+

@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 4339f336345d7d7f3c05c7f5a18fbd28bcfd382b
 workflow-type: tm+mt
 source-wordcount: 103
 ht-degree: 0%
@@ -31,3 +31,4 @@ ht-degree: 0%
 允許完整的絕對URL （如果已設定`attribute::AllowDirectUrls`）和相對`attribute::RootUrl`的URL。 如果內嵌絕對URL且屬性： `AllowDirectUrls`為0，或如果指定了相對URL且`attribute::RootUrl`為空白，則會發生錯誤。
 
 伺服器會根據HTTP回應隨附的快取標頭來快取外部影像。
+

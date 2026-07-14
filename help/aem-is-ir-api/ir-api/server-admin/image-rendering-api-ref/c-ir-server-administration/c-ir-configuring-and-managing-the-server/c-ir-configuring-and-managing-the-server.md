@@ -16,7 +16,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 69
 ht-degree: 0%
@@ -32,3 +32,4 @@ ht-degree: 0%
 >「影像伺服」必須正確設定且功能正常，才能正確執行影像轉譯。
 
 如需詳細資訊，請參閱資料目錄參考、HTTP通訊協定參考、發行說明、影像伺服檔案
+

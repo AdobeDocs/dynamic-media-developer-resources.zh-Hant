@@ -16,7 +16,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 129
 ht-degree: 0%
@@ -32,3 +32,4 @@ ht-degree: 0%
 影像演算共用影像伺服器的記憶體管理。 使用影像演算時，應配置額外的記憶體。 30%至50%的實體記憶體可能是合理的。
 
 如需有關如何變更影像伺服器記憶體配置(ImageServer：：PhysicalMemory)的資訊，請參閱「影像伺服」檔案。
+

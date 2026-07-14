@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 70c478ebbe0b38d9e35c1bb26074a458c0197b2b
 workflow-type: tm+mt
 source-wordcount: 84
 ht-degree: 0%
@@ -28,3 +28,4 @@ ht-degree: 0%
 
 * Windows服務控制檯可用於啟動、停止、重新啟動及驗證`Dynamic Media Image Serving`服務的狀態。
 * **[!UICONTROL 開始功能表]**> **[!UICONTROL 所有程式]**> **[!UICONTROL Dynamic Media (Scene7)]**> **[!UICONTROL 影像伺服]**> **[!UICONTROL 控制服務]**&#x200B;提供啟動、停止和重新啟動`Dynamic Media Image Serving`服務的命令。
+

@@ -15,7 +15,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: b658a9f9067d2313c1c838c7e157f4070ebc2b50
 workflow-type: tm+mt
 source-wordcount: 56
 ht-degree: 8%
@@ -37,3 +37,4 @@ ht-degree: 8%
 | [!DNL anchorX] | `xsd:int` | X軸影像錨點。 |
 | [!DNL anchorY] | `xsd:int` | Y軸影像錨點。 |
 | [!DNL userData] | `xsd:string` | `userData`中繼資料欄位的值，此欄位已發佈至影像伺服使用者資料目錄欄位。 |
+

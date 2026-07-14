@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 4339f336345d7d7f3c05c7f5a18fbd28bcfd382b
 workflow-type: tm+mt
 source-wordcount: 741
 ht-degree: 0%
@@ -83,3 +83,4 @@ ht-degree: 0%
 雖然輸出設定檔可以由`icc=`命令中的檔案路徑/名稱指定，但建議在預設目錄或特定材質目錄的ICC設定檔對應中註冊所有設定檔，並使用捷徑識別碼( `icc::Name`)而不是檔案路徑。
 
 必須在材料目錄或預設目錄的「ICC設定檔對映」中註冊工作設定檔。
+

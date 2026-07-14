@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: b658a9f9067d2313c1c838c7e157f4070ebc2b50
 workflow-type: tm+mt
 source-wordcount: 71
 ht-degree: 12%
@@ -35,3 +35,4 @@ ht-degree: 12%
 | 區域 | `xsd:string` | 影像地圖座標。 格式是以HTML `<area>`標籤屬性為基礎。 |
 | 操作 | `xsd:string` | 要包含在HTML `<area>`標籤中的其他屬性，包括`href` URL。 |
 | 啟動 | `xsd:boolean` | 如果影像地圖已啟用，則為True。 |
+

@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 4339f336345d7d7f3c05c7f5a18fbd28bcfd382b
 workflow-type: tm+mt
 source-wordcount: 60
 ht-degree: 0%
@@ -27,3 +27,4 @@ ht-degree: 0%
 解除安裝可能會移除安裝資料夾中的部分使用者檔案。 在解除安裝之前，請備份您要保留的所有檔案。
 
 解除安裝之前，請先以系統管理員或超級使用者許可權登入您的伺服器主機。
+

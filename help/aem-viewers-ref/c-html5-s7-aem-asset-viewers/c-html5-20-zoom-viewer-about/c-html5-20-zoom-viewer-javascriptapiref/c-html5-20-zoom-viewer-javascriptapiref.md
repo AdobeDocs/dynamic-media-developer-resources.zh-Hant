@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: f6432244ef9faba7a81488e9de8e438154ae6123
 workflow-type: tm+mt
 source-wordcount: 91
 ht-degree: 0%
@@ -25,3 +25,4 @@ ht-degree: 0%
 縮放檢視器的主要類別是BasicZoomViewer。 這會在s7viewers名稱空間中宣告。 此JavaScript API涵蓋此特定類別的建構函式、方法和回呼。
 
 在下列所有範例中，`<instance>`代表從`s7viewers.ZoomViewer`類別具現化之JavaScript檢視器物件的實際名稱。
+

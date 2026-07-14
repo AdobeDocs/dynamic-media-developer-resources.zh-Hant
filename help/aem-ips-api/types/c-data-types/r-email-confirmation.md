@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: b658a9f9067d2313c1c838c7e157f4070ebc2b50
 workflow-type: tm+mt
 source-wordcount: 78
 ht-degree: 6%
@@ -32,3 +32,4 @@ ht-degree: 6%
 |---|---|---|
 | 創作者 | `xsd:boolean` | 如果為true，則包含使用者的Web服務使用者帳戶，該帳戶為指定接收來自Dynamic Media CDN的電子郵件確認的電子郵件清單。 |
 | ccOthersArray | `types:EmailArray` | 指定要從Dynamic Media CDN接收確認通知的電子郵件地址陣列（最多5個）。 |
+

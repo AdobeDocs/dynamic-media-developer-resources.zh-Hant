@@ -15,7 +15,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: f6432244ef9faba7a81488e9de8e438154ae6123
 workflow-type: tm+mt
 source-wordcount: 398
 ht-degree: 0%
@@ -43,3 +43,4 @@ ht-degree: 0%
 搜尋使用者介面已分組到角色為`search`的元素中。 搜尋輸入欄位具有角色`searchbox`，並參考由具有`aria-describedby`屬性的`SearchPanel.INFO_PROMPT`本地化符號所控制的資訊標籤。
 
 模型對話方塊具有角色`dialog`。 對話方塊的標頭專案由`aria-labelledby`屬性參考。
+
