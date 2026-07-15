@@ -9,7 +9,8 @@ breadcrumb-title: Dynamic Media開發人員資源
 user-guide-description: 存取Dynamic Media開發人員資源，例如檢視器參考指南、影像生產系統API、影像服務和演算API，以及封存的Scene7發行說明。
 feature-set: Experience Manager Assets
 index: true
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+nudge: true
+source-git-commit: 6b86b624461759c511dad9a939e258a2f0cc8552
 workflow-type: tm+mt
 source-wordcount: '44'
 ht-degree: 2%
