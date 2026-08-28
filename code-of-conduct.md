@@ -1,7 +1,7 @@
 ---
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -47,4 +47,4 @@ ht-degree: 0%
 
 ## 歸因
 
-本行為準則改編自 [貢獻者公約](https://www.contributor-covenant.org/)，第1.4版，現於以下網址取得： [https://www.contributor-covenant.org/version/1/4/code-of-conduct/](https://www.contributor-covenant.org/version/1/4/code-of-conduct/).
+本行為準則改編自[貢獻者公約](https://www.contributor-covenant.org/) 1.4版，可在[https://www.contributor-covenant.org/version/1/4/code-of-conduct/](https://www.contributor-covenant.org/version/1/4/code-of-conduct/)取得。
