@@ -8,28 +8,32 @@ exl-id: 74dca3f6-ce89-4c5b-8459-c2c4ca8ed27c
 TQID: 'https://experienceleague.adobe.com/exFQtdLDWST-H5pFv3m-q7eGCgtjrYe-TgxQal6VA48'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+    internal-label: Security
+source-git-commit: dd9621ba856ee23cfaab63ba430118bccdf0b515
 workflow-type: tm+mt
-source-wordcount: 2620
+source-wordcount: '2621'
 ht-degree: 0%
-
 ---
-
 # Video360{#video}
 
 HTML5 Video360 Viewer是一種360度影片播放程式，可播放從Dynamic Media Classic或Adobe Experience Manager、Dynamic Media傳送的H.264格式串流及漸進式360影片。
 
 360度影片（也稱為沈浸式影片或球形影片）是同時錄製每個方向的檢視的影片，使用全方位相機或相機集合拍攝。 同時支援單一視訊和自我調整視訊集。 此檢視器也支援使用位於外部位置的漸進式視訊和HLS串流。
 
-360視訊的建議外觀比例為2:1。 不支援空間音效。 檢視器的設計僅能處理360度視訊；嘗試播放非360度視訊會導致視訊播放失真。
+360度視訊的建議外觀比例為2:1。 不支援空間音效。 檢視器的設計僅能處理360度視訊；嘗試播放非360度視訊會導致視訊播放失真。
 
 此檢視器的設計可在支援HTML5視訊的案頭和行動網頁瀏覽器上運作。 檢視器支援選用的社交分享工具。
 
@@ -144,22 +148,22 @@ HTML5 Video360 Viewer提供一組標準使用者介面控制項供視訊播放�
 
    建立檢視器需要您在HTML標題中新增指令碼標籤。 在可以使用檢視器API之前，請確定您已包含[!DNL Video360Viewer.js]。 [!DNL Video360Viewer.js]檔案位於標準IS-Viewers部署的[!DNL html5/js/]子資料夾下：
 
-[!DNL <s7viewers_root>/etc/dam/viewers/s7viewers/html5/js/Video360Viewer.js]
+   [!DNL <s7viewers_root>/etc/dam/viewers/s7viewers/html5/js/Video360Viewer.js]
 
-如果檢視器部署在任一Adobe Dynamic Media Classic伺服器上，且從相同網域提供服務，您就可以使用相對路徑。 否則，請指定已安裝IS-Viewers之其中一個Adobe Dynamic Media Classic伺服器的完整路徑。
+   如果檢視器部署在任一Adobe Dynamic Media Classic伺服器上，且從相同網域提供服務，您就可以使用相對路徑。 否則，請指定已安裝IS-Viewers之其中一個Adobe Dynamic Media Classic伺服器的完整路徑。
 
-相對路徑如下所示：
+   相對路徑如下所示：
 
-```html {.line-numbers}
-<script language="javascript" type="text/javascript" src="/etc/dam/viewers/s7viewers/html5/js/InteractiveVideoViewer.js"></script>
-```
+   ```html {.line-numbers}
+   <script language="javascript" type="text/javascript" src="/etc/dam/viewers/s7viewers/html5/js/InteractiveVideoViewer.js"></script>
+   ```
 
->[!NOTE]
->
->僅參考頁面上的主要檢視器JavaScript `include`檔案。 請勿在網頁程式碼中參考任何其他JavaScript檔案（這些檔案可能由執行階段的檢視器邏輯下載）。 特別是，請勿直接參考檢視器從`/s7viewers`內容路徑（所謂整合的HTML `include`）載入的SDK5 SDK `Utils.js`資料庫。 原因在於`Utils.js`或類似的執行階段檢視器程式庫的位置完全由檢視器的邏輯管理，且位置會在檢視器發行版本之間變更。 Adobe不會在伺服器上保留舊版的次要檢視器`includes`。
->
->
->因此，日後部署新產品版本時，將檢視器使用的任何次要JavaScript `include`的直接參照放在頁面上，會中斷檢視器功能。
+   >[!NOTE]
+   >
+   >僅參考頁面上的主要檢視器JavaScript `include`檔案。 請勿在網頁程式碼中參考任何其他JavaScript檔案（這些檔案可能由執行階段的檢視器邏輯下載）。 特別是，請勿直接參考檢視器從`/s7viewers`內容路徑（所謂整合的HTML `include`）載入的SDK5 SDK `Utils.js`資料庫。 原因在於`Utils.js`或類似的執行階段檢視器程式庫的位置完全由檢視器的邏輯管理，且位置會在檢視器發行版本之間變更。 Adobe不會在伺服器上保留舊版的次要檢視器`includes`。
+   >
+   >
+   >因此，日後部署新產品版本時，將檢視器使用的任何次要JavaScript `include`的直接參照放在頁面上，會中斷檢視器功能。
 
 1. 定義容器`DIV`。
 
