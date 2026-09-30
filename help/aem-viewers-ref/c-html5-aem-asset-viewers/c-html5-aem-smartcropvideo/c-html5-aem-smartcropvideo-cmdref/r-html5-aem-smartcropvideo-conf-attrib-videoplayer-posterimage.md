@@ -49,7 +49,7 @@ ht-degree: 4%
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph">無|[<span class="varname">影像識別碼</span>][？<span class="varname"> isCommands</span>]</span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">無|[<span class="varname">影像識別碼</span>]&#x200B;[？<span class="varname"> isCommands</span>]</span> </p> </td> 
    <td colname="col2"> <p> 要在視訊開始播放前的第一個影格上顯示的影像，已針對<span class="codeph"> serverurl</span>解析。 若在URL中指定，會對下列專案進行HTTP編碼： </p> <p> 
      <ul id="ul_B38A687CEFE64C68A0B2C227A68A458F"> 
       <li id="li_E7AE1BDAC17E49E0B7ACF89C5C0529F0"> <p> <span class="codeph"> ?</span> 作為<span class="codeph"> %3F</span> </p> </li> 
