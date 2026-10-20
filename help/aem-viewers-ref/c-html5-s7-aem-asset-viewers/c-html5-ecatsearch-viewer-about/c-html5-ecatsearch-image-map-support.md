@@ -34,11 +34,11 @@ eCatalog搜尋檢視器支援在主檢視上方呈現影像地圖圖示。
 
 以下是簡單URL重新導向的範例：
 
-`href=http://www.adobe.com`
+`href=http://www.adobe.com/tw`
 
 在此範例中，相同的URL會以`loadProduct()`函式包住：
 
-`href=javascript:loadProduct("http://www.adobe.com");void(0);`
+`href=javascript:loadProduct("http://www.adobe.com/tw");void(0);`
 
 請注意，當您將JavaScript程式碼新增至影像地圖的`HREF`屬性時，該程式碼會在使用者端電腦上執行。 因此，請確定JavaScript程式碼是安全的。
 
